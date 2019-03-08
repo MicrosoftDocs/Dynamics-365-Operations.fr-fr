@@ -1,13 +1,13 @@
 ---
-title: "Nouveautés ou modifications apportées à la version 7.0.1 de l’application Dynamics AX (mai 2016)"
-description: "Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 7.0.1 de Microsoft Dynamics AX. Cette version a été publiée en mai 2016 et a pour numéro de version 7.0.1265.23014."
+title: Nouveautés ou modifications apportées à la version 7.0.1 de l’application Dynamics AX (mai 2016)
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 7.0.1 de l'application Microsoft Dynamics AX. Cette version a été publiée en mai 2016 et a pour numéro de version 7.0.1265.23014.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314507"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Nouveautés ou modifications apportées à la version 7.0.1 de l’application Dynamics AX (mai 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 7.0.1 de Microsoft Dynamics AX. Cette version a été publiée en mai 2016 et a pour numéro de version 7.0.1265.23014.
+Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 7.0.1 de l'application Microsoft Dynamics AX. Cette version a été publiée en mai 2016 et a pour numéro de version 7.0.1265.23014.
 
 ## <a name="electronic-reporting-er"></a>Gestion des états électroniques
 
@@ -40,17 +39,17 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 | Configurez un état électronique pour entrer des données dans les colonnes générées de manière dynamique d’un document électronique qui est créé au format de feuille de calcul OPENXML. | Un état électronique peut entrer des données dans une feuille de calcul OPENXML qui est générée, par la réplication des colonnes horizontalement. Par conséquent, la même configuration d'états électroniques peut être réutilisée pour générer des documents électroniques ayant un nombre différent de colonnes générées de façon dynamique. |
 | Configurez les destinations d'états électroniques afin que le résultat d’un format de sortie soit dirigé vers une destination spécifique : fichier, courrier électronique ou archive (dossier Microsoft SharePoint ou stockage Microsoft Azure). | Auparavant, lorsque vous exécutiez une configuration d'état électronique, une zone de message apparaissait nécessitant une de l'utilisateur pour enregistrer ou ouvrir un fichier. Vous pouvez maintenant configurer une destination pour chaque configuration de format et pour chaque composant de sortie (un dossier ou un fichier) séparément. Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. |
 
-## <a name="pos--microsoft-dynamics-ax-retail"></a>POS – Microsoft Dynamics AX Retail
+## <a name="pos--microsoft-dynamics-ax-retail"></a>PDV - Microsoft Dynamics AX Retail
 
-| Que pouvez-vous faire ? | Pourquoi est-ce important ? |
+| Que pouvez-vous faire ? | Pourquoi est-ce important ? |
 |------------------|------------------------|
-| Utilisez le navigateur Google Chrome. | Les détaillants peuvent maintenant démarrer Cloud POS depuis le navigateur Chrome et peuvent bénéficier de toutes les fonctionnalités qui sont disponible dans la version de Cloud POS sur Internet Explorer et Microsoft Edge. |
+| Utilisez le navigateur Google Chrome. | Les détaillants peuvent maintenant démarrer Cloud POS depuis le navigateur Chrome et peuvent bénéficier de toutes les fonctionnalités qui sont disponible dans la version de Cloud POS sur Microsoft Edge et Internet Explorer. |
 
 ## <a name="financial-reporting"></a>États financiers
 
-| Que pouvez-vous faire ? | Pourquoi est-ce important ? |
+| Que pouvez-vous faire ? | Pourquoi est-ce important ? |
 |------------------|------------------------|
-| Recréez le magasin de données d'états financiers. | Lorsque vous déplacez des bases de données Dynamics AX entre différents environnements ou que vous apportez d'autres modifications invasives à l’environnement Dynamics AX, la base de données de génération d'états financiers peut devoir être recréée. Un script Windows PowerShell est désormais fourni pour recréer la base de données pour vous. |
+| Recréez le magasin de données d'états financiers. | Lorsque vous déplacez des bases de données Dynamics AX entre différents environnements ou que vous apportez d'autres modifications invasives à l’environnement, la base de données de génération d'états financiers peut devoir être recréée. Un script Windows PowerShell est désormais fourni pour recréer la base de données pour vous. |
 | Vous ne pouvez plus sélectionner les options du générateur d'états qui ne sont pas valides. | Plusieurs options du générateur d'états qui étaient utilisées dans les versions de mise sur le marché de Management reporter ne s’appliquent pas à cette version de Dynamics AX. Ces options étaient liées à la génération, la sortie et la liaison d'états financiers. Ces options ont été supprimées du générateur d'états financiers pour empêcher les erreurs de l’utilisateur. |
 
 ## <a name="financial-management"></a>Gestion financière
@@ -107,4 +106,3 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 [Nouveautés ou changements](whats-new-changed.md)
 
 [Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
-

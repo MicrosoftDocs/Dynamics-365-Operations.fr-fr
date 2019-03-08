@@ -1,29 +1,28 @@
 ---
 title: Devise double
-description: "Cette rubrique fournit des informations sur la devise double, où la devise de déclaration est utilisée comme deuxième devise comptable pour Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique fournit des informations sur la devise double, où la devise de déclaration est utilisée comme deuxième devise comptable pour Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330308"
 ---
-
 # <a name="dual-currency"></a>Devise double
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ En outre, des modifications importantes ont été apportées au processus d'amor
     - Si un type de transaction d'amortissement est entré dans le journal des immobilisations, les montants en devise de déclaration apparaissent dans les nouvelles colonnes. Ces montants peuvent être modifiés.
     - Si la devise comptable et les devises de déclaration dans la comptabilité sont identiques, les montants sont synchronisés. Si vous modifiez le montant du **Crédit**, le montant du **Crédit dans la devise de déclaration** sera automatiquement modifié afin qu'il lui corresponde.
     - Si un autre type de transaction est entré dans le journal des immobilisations, les montants du **Débit dans la devise de déclaration** et du **Crédit dans la devise de déclaration** ne sont jamais affichés, avant ou après la validation. Les montants de la devise comptable et de la devise de déclaration sont toujours disponibles dans le N° document qui valide dans la comptabilité.
-

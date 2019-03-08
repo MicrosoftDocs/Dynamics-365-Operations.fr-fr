@@ -1,31 +1,30 @@
 ---
-title: "Création, approbation et signature des offres"
-description: "Cette rubrique explique comment créer, approuver, et signer une offre pour un candidat à l'aide de Dynamics 365 for Talent."
+title: Création, approbation et signature des offres
+description: Cette rubrique explique comment créer, approuver, et signer une offre pour un candidat à l'aide de Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304413"
 ---
-
 # <a name="creating-approving-and-signing-offers"></a>Création, approbation et signature des offres
 
 [!include[banner](../includes/banner.md)]
@@ -149,4 +148,3 @@ Une offre peut être retirée à un candidat à tout moment pour différents mot
 ## <a name="closing-an-offer"></a>Clôture de l'offre 
 
 Lorsqu'une offre a été acceptée, refusée, ou retirée sans autres actions nécessaires, vous pouvez fermer l'offre afin qu'aucune autre modification ne puisse être effectuée à ce package d'offre.
-

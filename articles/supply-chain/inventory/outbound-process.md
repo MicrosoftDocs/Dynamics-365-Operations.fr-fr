@@ -5,9 +5,9 @@ author: perlynne
 manager: AnnBe
 ms.date: 10/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 5ac3260f128acbc819d7207f68f17adb085da11c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: f2cae64263769b5168d2bb9614d6388b42e23b49
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334379"
 ---
-
 # <a name="outbound-process"></a>Processus sortant
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ Le stock qui n'a pas encore été réservé est réservé lors de la génératio
 Dès que toutes les lignes de prélèvement sont prélevées sur la page **Confirmation prélèvement**, l'expédition associée est terminée. Le processus pour les bons de livraison de commande client peut ensuite être initialisé selon le stock prélevé.
 
 [![Mettre à jour les expéditions sortantes](./media/outbound-shipments.png)](./media/outbound-shipments.png)
-

@@ -1,13 +1,13 @@
---- 
-title: "Créer un état du cycle de vie des produits par défaut"
-description: "Cette procédure décrit comment créer un état du cycle de vie des produits par défaut. Elle indique aussi comment associer l'état par défaut à des produits lancés."
+---
+title: Créer un état du cycle de vie des produits par défaut
+description: Cette procédure décrit comment créer un état du cycle de vie des produits par défaut. Elle indique aussi comment associer l'état par défaut à des produits lancés.
 author: cvocph
 manager: AnnBe
 ms.date: 12/05/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6e7e637157ee06a3d07a1a9c5da71295eb75b424
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d445ea2f2362f146a1e3e7bcf747898dc2cc89ba
-ms.openlocfilehash: 06a6c7c8fa767edf6fdf50c3c971b6d767f8755f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310827"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>Créer un état du cycle de vie des produits par défaut
 
@@ -61,5 +61,4 @@ Cette procédure décrit comment créer un état du cycle de vie des produits pa
 
 > [!NOTE]
 > Supposons que vous ayez paramétré un état actif, vous pouvez désormais sélectionner l'état actif pour pouvoir utiliser le produit dans la planification et le calcul au niveau de la nomenclature. Évidemment, cette utilisation n'a de sens que si tous les détails du produit nécessaires à une planification cohérente sont spécifiés.  
-
 

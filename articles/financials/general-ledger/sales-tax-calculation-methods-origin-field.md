@@ -1,13 +1,13 @@
 ---
-title: "Méthodes de calcul de la taxe dans le champ Origine"
-description: "Cet article décrit les options du champ Origine dans la page de codes taxe et la manière dont la taxe est calculée selon l'option sélectionnée pour un code taxe."
+title: Méthodes de calcul de la taxe dans le champ Origine
+description: Cet article décrit les options du champ Origine dans la page de codes taxe et la manière dont la taxe est calculée selon l'option sélectionnée pour un code taxe.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330676"
 ---
-
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Méthodes de calcul de la taxe dans le champ Origine
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,6 @@ Le document ou journal est défini sur Montants, taxe incluse = Non Montant de l
 [Détermination des taux de taxe en fonction des champs Base marginale et Mode de calcul](marginal-base-field.md)
 
 [Options de calcul Montant entier et Intervalle pour les codes taxe](whole-amount-interval-options-sales-tax-codes.md)
-
 
 
 

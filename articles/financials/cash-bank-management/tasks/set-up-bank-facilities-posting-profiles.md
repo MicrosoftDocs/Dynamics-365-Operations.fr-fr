@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer les établissements bancaires et les profils de validation pour les lettres de garantie"
-description: "Cette tâche crée un établissement bancaire et un profil de validation qui est nécessaire pour traiter une lettre de garantie."
+---
+title: Paramétrer les établissements bancaires et les profils de validation pour les lettres de garantie
+description: Cette tâche crée un établissement bancaire et un profil de validation qui est nécessaire pour traiter une lettre de garantie.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0f696f5aa809692a0cc2c4ff559945a301480d7e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 022b5d411b8240390c543ba726fe0d6838752944
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321660"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Paramétrer les établissements bancaires et les profils de validation pour les lettres de garantie
 
@@ -77,5 +77,4 @@ La société fictive USMF est citée en exemple dans cette tâche.
 9. Dans le champ Compte de liquidation, sélectionnez le compte de liquidation pour la transaction de lettre de garantie. 
 10. Cliquez sur Enregistrer.
 11. Fermez la page.
-
 

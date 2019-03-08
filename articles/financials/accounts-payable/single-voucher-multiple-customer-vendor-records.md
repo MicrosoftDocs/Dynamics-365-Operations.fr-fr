@@ -1,13 +1,13 @@
 ---
-title: "N° de document unique avec plusieurs enregstrements client ou fournisseur"
-description: "Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Finance and Operations, par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements."
+title: N° de document unique avec plusieurs enregstrements client ou fournisseur
+description: Cette rubrique fournit une vue d'ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 for Finance and Operations, par conséquent, il n'est pas recommandé d'utiliser cette méthode de validation en raison de l'impact comptable qu'elle a sur le traitement des règlements.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330354"
 ---
-
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>N° de document unique avec plusieurs enregstrements client ou fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -249,7 +248,6 @@ Pour éviter les problèmes indésirables de futures règlements pour cette tran
 | **Pièce justificative** | **Type de compte** | **Compte** | **Description** | **Débit** | **Crédit** | **Type de contrepartie** | **Compte de contrepartie** |
 | 001         | Client         | US-008      |                 |           |  75,00     | Comptabilité          | 999999---          |
 | 002         | Fournisseur           | 1 001        |                 |  75,00    |            | Comptabilité          | 999999---          |
-
 
 
 

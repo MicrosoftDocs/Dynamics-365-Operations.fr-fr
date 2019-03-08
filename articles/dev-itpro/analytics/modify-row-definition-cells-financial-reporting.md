@@ -1,13 +1,13 @@
 ---
-title: "Modifier les cellules de définition de ligne"
-description: "Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations."
+title: Modifier les cellules de définition de ligne
+description: Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323638"
 ---
-
 # <a name="modify-row-definition-cells"></a>Modifier les cellules de définition de ligne
 
 [!include [banner](../includes/banner.md)]
@@ -387,10 +386,10 @@ Vous pouvez limiter une ligne à un code registre existant. La définition de co
 Certains systèmes comptables prennent en charge les attributs de compte et de transaction dans les données financières. Ces attributs fonctionnent comme des segments de compte virtuel, et peuvent comporter des informations supplémentaires sur le compte ou la transaction. Ces informations supplémentaires peuvent être des ID de compte, des ID de lots, des codes postaux ou d'autres attributs. Si votre système comptable prend en charge les attributs, vous pouvez utiliser les attributs de compte ou les attributs de transaction comme modificateurs de ligne dans la définition de ligne. Pour plus d'informations sur la manière de remplacer les informations de ligne, consultez la section « Remplacer une définition de colonne » plus haut dans le présent article.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Spécifier un lien vers la cellule Dimensions financières
-La cellule **Lier aux dimensions financières** contient des liens vers des données financières qui doivent être incluses dans chaque ligne d'un état. Cette cellule contient des valeurs de dimension, mais vous pouvez spécifier des cellules dans une feuille de calcul Microsoft Excel en lieu et place ou en complément des valeurs de segment ou des valeurs de dimension. Pour ouvrir la boîte de dialogue **Dimensions**, double-cliquez sur la cellule **Lier aux dimensions financières**.
+La cellule **Lier aux dimensions financières** contient des liens vers des données financières qui doivent être incluses dans chaque ligne d'un état. Cette cellule contient les valeurs de dimension, mais vous pouvez spécifier des cellules dans une feuille de calcul Microsoft Excel au lieu de valeurs de segment ou de dimension, ou conjointement à celles-ci. Pour ouvrir la boîte de dialogue **Dimensions**, double-cliquez sur la cellule **Lier aux dimensions financières**.
 
 > [!NOTE]
-> Le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {, ou }. Pour spécifier des informations pour une ligne qui est déjà dans la définition de ligne, ajoutez les informations dans la cellule **Lier aux dimensions financières**. Pour ajouter de nouvelles lignes liées aux données financières, utilisez la boîte de dialogue **Insérer des lignes à partir de** pour créer des lignes dans la définition d'état. L'en-tête de colonne change, selon la configuration de la colonne, comme indiqué dans le tableau suivant.
+> Le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Pour spécifier des informations pour une ligne figurant déjà dans la définition de ligne, ajoutez les informations dans la cellule **Lien vers les dimensions financières**. Pour ajouter de nouvelles lignes liées aux données financières, utilisez la boîte de dialogue **Insérer des lignes à partir de** pour créer des lignes dans la définition d'état. L'en-tête de colonne change, selon la configuration de la colonne, comme indiqué dans le tableau suivant.
 
 | Type de lien sélectionné       | La description de la colonne Lier change comme suit |
 |----------------------------------|----------------------------------------------------|
@@ -429,14 +428,14 @@ Quand vous entrez une valeur de segment naturel dans la boîte de dialogue **Dim
 Vous pouvez spécifier une plage de valeurs de segment ou de valeurs de dimension. L'avantage de spécifier une plage est que vous n'avez pas besoin mettre la définition de ligne à jour à chaque fois qu'une nouvelle valeur de segment ou de dimension est ajoutée aux données financières. Par exemple, la plage **+Compte=\[6100:6900\]** extrait les valeurs des comptes 6100 à 6900 dans le montant de ligne. Lorsqu'une plage inclut un caractère générique (?), le générateur d'états n'évalue pas la plage caractère par caractères. Au lieu de cela, on détermine le haut et le bas de la plage, puis les valeurs extrêmes dans cette plage et toutes les valeurs entre elles.
 
 > [!NOTE]
-> Le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {, ou }. Vous pouvez ajouter une esperluette (&) que lorsque vous générez automatiquement des définitions de ligne à l'aide de la boîte de dialogue **Insérer des lignes à partir de dimensions** .
+> Le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Vous pouvez ajouter une esperluette (&) que lorsque vous générez automatiquement des définitions de ligne à l'aide de la boîte de dialogue **Insérer des lignes à partir de dimensions** .
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Plages de plusieurs segment ou de plusieurs dimensions
 
 Lorsque vous entrez une plage à l'aide de combinaisons de plusieurs valeurs de dimension, la comparaison de plages est effectuée sur la base de ..\\dimensions financières\\dimension par dimension. La comparaison de plage ne peut pas être effectuée caractère par caractère ou sur la base d'un segment partiel. Par exemple, l'intervalle **+Compte=\[5000:6000\], Département=\[1000:2000\], Centre de coût=\[00\]** inclut uniquement les comptes correspondant à chaque segment. Dans ce cas, la première dimension doit se situer dans la plage de 5000 à 6000, la deuxième dimension doit se situer dans la plage de 1000 à 2000, et la dernière dimension doit être 00. Par exemple, **+Compte=\[5100\], Département=\[1100\], Centre de coût=\[01\]** n'est pas inclus dans l'état, car le dernier segment est hors de la plage spécifiée. Si une valeur de segment inclut des espaces, entourez cette valeur par des crochets (\[ \]). Les valeurs suivantes sont valides pour un segment à quatre caractères : **\[ 234\], \[123 \], \[1 34\]**. Les valeurs de dimension doivent être entourées de crochets (\[ \]), et le générateur d'états ajoute ces crochets pour vous. Quand une plage de plusieurs segment ou de plusieurs dimensions inclut des caractères génériques (? ou \*), les extrémités haute et basse de la plage entière de plusieurs segments ou de plusieurs dimensions sont déterminées, puis les valeurs de fin et toutes les valeurs entre elles sont incluses. Si vous avez une plage étendue, comme toute la plage de comptes de 40000 à 99999, vous devez spécifier un compte de début et un compte de fin valides à chaque fois que c'est possible.
 
 > [!NOTE] 
-> Le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {, ou }. Vous pouvez ajouter une esperluette (&) que lorsque vous générez automatiquement des définitions de ligne à l'aide de la boîte de dialogue **Insérer des lignes à partir de dimensions** .
+> Le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Vous pouvez ajouter une esperluette (&) que lorsque vous générez automatiquement des définitions de ligne à l'aide de la boîte de dialogue **Insérer des lignes à partir de dimensions** .
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Ajouter ou soustraire d'autres comptes dans une définition de ligne
 Pour ajouter ou soustraire des montants en devises dans un compte des montants en devises dans un autre compte, vous pouvez utiliser le signe plus (+) et le signe moins (-) dans la cellule **Lier aux dimensions financières**. Le tableau suivant présente les formats acceptables pour ajouter et soustraire des liens aux données financières.
@@ -456,10 +455,10 @@ Pour ajouter ou soustraire des montants en devises dans un compte des montants e
 | Soustraire une plage de valeurs de segment.                                                     | -Compte=\[1200:1205\]                                                                                       |
 | Soustraire une plage de valeurs de segment qui incluent des caractères génériques.                    | -Compte=\[120?:130?\]                                                                                       |
 
-Bien que vous puissiez modifier les comptes directement, vous pouvez également utiliser la boîte de dialogue **Dimensions** pour appliquer la mise en forme correcte à vos liaisons aux données financières. Toutes ces valeurs peuvent comporter des caractères génériques (? ou \*). Toutefois, le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {, ou }.
+Bien que vous puissiez modifier les comptes directement, vous pouvez également utiliser la boîte de dialogue **Dimensions** pour appliquer la mise en forme correcte à vos liaisons aux données financières. Toutes ces valeurs peuvent comporter des caractères génériques (? ou \*). Cependant, le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {ou }.
 
 > [!NOTE]
-> Pour soustraire des valeurs, vous devez mettre des parenthèses autour de ces valeurs. Par exemple, si vous entrez **450?-(4509)**, cela s'affiche comme **+Compte=\[4509\]-Account=\[450?\]**, et vous demandez au générateur d'états de soustraire le montant pour le segment de compte 4509 du montant de tous les segments de compte commençant par 450.
+> Pour soustraire des valeurs, vous devez placer ces valeurs entre parenthèses. Par exemple, si vous entrez **450?-(4509)**, cela s'affiche comme **+Compte=\[4509\]-Account=\[450?\]**, et vous demandez au générateur d'états de soustraire le montant pour le segment de compte 4509 du montant de tous les segments de compte commençant par 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Ajouter ou soustraire des comptes d'autres comptes
 
@@ -533,4 +532,3 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
-

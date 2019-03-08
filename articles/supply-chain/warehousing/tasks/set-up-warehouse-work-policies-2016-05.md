@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer des stratégies de travail d'entrepôt (Application, mai 2016)"
-description: "Les processus d'entrepôt n'incluent pas systématiquement les tâches d'entrepôt."
+---
+title: Paramétrer des stratégies de travail d'entrepôt (Application, mai 2016)
+description: Les processus d'entrepôt n'incluent pas systématiquement les tâches d'entrepôt.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 34b4255c85bb53f7e238b60559890571070953a6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335322"
 ---
 # <a name="set-up-warehouse-work-policies-application-may-2016"></a>Paramétrer des stratégies de travail d'entrepôt (Application, mai 2016)
 
@@ -51,5 +51,4 @@ Les processus d'entrepôt n'incluent pas systématiquement les tâches d'entrep�
 19. Dans la liste, marquer la ligne sélectionnée.
 20. Entrez ou sélectionnez L0101 dans le champ Numéro d'article.
 21. Cliquez sur Enregistrer.
-
 

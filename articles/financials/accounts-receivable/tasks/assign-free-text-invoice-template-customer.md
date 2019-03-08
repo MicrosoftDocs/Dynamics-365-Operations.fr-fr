@@ -1,13 +1,13 @@
---- 
-title: "Affecter un modèle de facture financière à un client"
-description: "Cette tâche montre comment affecter un modèle de facture financière à un client."
+---
+title: Affecter un modèle de facture financière à un client
+description: Cette tâche montre comment affecter un modèle de facture financière à un client.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318923"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>Affecter un modèle de facture financière à un client
 
@@ -48,5 +48,4 @@ Cette tâche montre comment affecter un modèle de facture financière à un cli
 10. Permet de sélectionner le modèle de répétition.
     * Opérations diverses : Sélectionnez cette option et entrez le nombre de jours dans le champ Par. Par exemple, si vous entrez 15, une facture est générée tous les 15 jours pour ce client.  Hebdomadaire : Sélectionnez cette option et entrez le nombre de semaines dans le champ Par. Par exemple, si vous entrez 2, une facture est générée toutes les 2 semaines pour ce client.  Mensuel : Sélectionnez cette option et entrez le nombre de mois dans le champ Par. Par exemple, si vous entrez 6, une facture est générée tous les 6 mois pour ce client.  Annuel : Sélectionnez cette option et entrez le nombre d'années dans le champ Par. Par exemple, si vous entrez 2, une facture est générée tous les 2 ans pour ce client.  
 11. Entrez un numéro dans le champ Par.
-
 

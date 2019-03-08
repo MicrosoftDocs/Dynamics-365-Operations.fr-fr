@@ -1,13 +1,13 @@
 ---
 title: Planifier le carnet d'adresses global et d'autres carnets d'adresses
-description: "Cette rubrique décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de paramétrer et configurer le carnet d'adresses global et des carnets d'adresses supplémentaires dans Microsoft Dynamics 365 for Finance and Operations. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d'autres zones du produit, telles que la hiérarchie d'organisation."
+description: Cette rubrique décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de paramétrer et configurer le carnet d'adresses global et des carnets d'adresses supplémentaires dans Microsoft Dynamics 365 for Finance and Operations. Certaines de ces décisions nécessitent que vous confirmiez les décisions qui ont été prises pour d'autres zones du produit, telles que la hiérarchie d'organisation.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 20795cb8dd752a32f6c57fdb8f369691e41139b3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332654"
 ---
-
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Planifier le carnet d'adresses global et d'autres carnets d'adresses
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ Vous pouvez créer des carnets d'adresses à tout moment et vous pouvez égaleme
 **Décision :**
 
 - Quelles équipes doivent-elles avoir accès à chaque carnet d'adresses que vous créez ?
-

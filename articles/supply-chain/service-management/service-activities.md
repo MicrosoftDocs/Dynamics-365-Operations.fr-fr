@@ -1,31 +1,30 @@
 ---
-title: "Activités de service"
-description: "Créez des activités de service pour définir et tenir à jour des tâches dans une commande de service."
+title: Activités de service
+description: Créez des activités de service pour définir et tenir à jour des tâches dans une commande de service.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmActivityTypeGroup, SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84410a0fd112907bf821710c15a8f261c7d9f1ce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2176bd1fa0341814b659b1d8ff32d9dec9f33bc0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315059"
 ---
-
 # <a name="service-activities"></a>Activités de service        
 
 [!include [banner](../includes/banner.md)]
@@ -40,5 +39,4 @@ Vous pouvez afficher le statut des activités de service dans l'écran **Tableau
 ## <a name="see-also"></a>Voir également :
 
 [Tableau d'affectation (écran)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))
-
 

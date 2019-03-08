@@ -1,13 +1,13 @@
 ---
-title: "Calculer la consommation de matières"
-description: "Cet article fournit des informations sur les différentes options relatives au calcul de la consommation de matières."
+title: Calculer la consommation de matières
+description: Cet article fournit des informations sur les différentes options relatives au calcul de la consommation de matières.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3e4010b5abb6b5a871d098422f1489cb2db3a071
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8defe5735726e877f37d8595a6aaa7c3d14d226b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316186"
 ---
-
 # <a name="calculate-material-consumption"></a>Calculer la consommation de matières
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,7 @@ Dans le champ **Formule**, vous pouvez paramétrer diverses formules pour calcul
 -   (Hauteur \* Largeur \* Profondeur / Densité) \* Constante
 
 ## <a name="rounding-up-and-multiples"></a>Arrondi et multiples
-Associés, les champs **Arrondi** et **Multiples** permettent d'arrondir la valeur de consommation des matières. Par exemple, vous pouvez arrondir la valeur en fonction de l'unité de manutention dans laquelle la matière première est prélevée pour la production. Les options suivantes sont disponibles dans le champ **Arrondi** : **Quantité****Mesure** et **Consommation**.
+Associés, les champs **Arrondi** et **Multiples** permettent d'arrondir la valeur de consommation des matières. Par exemple, vous pouvez arrondir la valeur en fonction de l'unité de manutention dans laquelle la matière première est prélevée pour la production. Les options suivantes sont disponibles dans le champ **Arrondi** : **Quantité** **Mesure** et **Consommation**.
 
 ### <a name="quantity"></a>Quantité
 
@@ -80,7 +79,6 @@ L'option Consommation de l'étape est utilisée pour calculer la consommation co
 | 200,00      | 40,0000  |
 
 La quantité de la nomenclature est de 1, et la quantité de la production est de 110. La formule de la consommation est Série de départ (Quantité) = Consommation. Étant donné que la quantité de production est de 110, elle passe dans la « Série de départ 100 ». Par conséquent, la quantité est 20.
-
 
 
 

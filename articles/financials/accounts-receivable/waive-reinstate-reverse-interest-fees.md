@@ -1,13 +1,13 @@
 ---
-title: "Exonération, rétablissement ou contrepassation de commissions d'intérêt"
-description: "Cet article explique comment exonérer, rétablir, et contrepasser les frais pour les intérêts et les frais."
+title: Exonération, rétablissement ou contrepassation de commissions d'intérêt
+description: Cet article explique comment exonérer, rétablir, et contrepasser les frais pour les intérêts et les frais.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustInterestJourList
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cfeab6f393b63b25d595067de3eb90fc899c508b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ae4a84f0e2823d1e7686696eae72e050a320e3f1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319084"
 ---
-
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Exonération, rétablissement ou contrepassation de commissions d'intérêt
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ Vous pouvez contrepasser les transactions d'intérêt par l'intermédiaire du bo
 Vous pouvez afficher un historique détaillé des ajustements effectués pour les notes d'intérêt (utilisateur ayant entré l'ajustement, type d'ajustement, montant et date de saisie de l'ajustement). Par exemple, vous pouvez afficher les ajustements précédemment entrés pour une note d'intérêt avant d'en créer une. 
 
 Vous pouvez contrepasser les transactions d'intérêt par l'intermédiaire du bouton **Historique**sous l'onglet **Collecter** de la page **Client**.
-
 
 
 

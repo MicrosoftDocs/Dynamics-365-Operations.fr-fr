@@ -1,13 +1,13 @@
---- 
-title: "Créer des configurations d'états électroniques pour analyser des documents entrants"
-description: "Cette procédure décrit comment créer des configurations d'états électroniques pour analyser un document électronique entrant."
+---
+title: Créer des configurations d'états électroniques pour analyser des documents entrants
+description: Cette procédure décrit comment créer des configurations d'états électroniques pour analyser un document électronique entrant.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326099"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Créer des configurations d'états électroniques pour analyser des documents entrants
 
@@ -35,7 +35,7 @@ Ces étapes peuvent être effectuées à l'aide d'un ensemble de données quelco
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme actif. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure, « Créer un fournisseur de configuration et le marquer comme actif ».  
 2. Cliquez sur Configurations des états.
-    * Le scénario suivant est utilisé pour afficher les fonctions d'analyse des documents électroniques entrants au format XML : l'application ERP (Dynamics 365 for Finance and Operations) demande des données au service Web (tel que le service fiscal EFSTA http://efsta.org/) et analyse les réponses entrantes pour mettre à jour les données d'application en conséquence. Pour optimiser l'analyse, un format ER unique est utilisé nonobstant la structure différente des documents entrants prévus au format XML.   
+    * Le scénario suivant est utilisé pour afficher les fonctions d'analyse des documents électroniques entrants au format XML : l'application ERP (Dynamics 365 for Finance and Operations) demande des données au service Web (tell que le service fiscal EFESTA http://efsta.org/) et analyse les réponses entrantes pour mettre à jour les données d'application en conséquence. Pour optimiser l'analyse, un format ER unique est utilisé nonobstant la structure différente des documents entrants prévus au format XML.   
 
 ## <a name="import-and-review-er-configurations"></a>Importer et examiner les configurations ER
 Importez la configuration du modèle ER contenant l'exemple de modèle de données conçu pour stocker les détails du fichier entrant.  
@@ -110,5 +110,4 @@ Vous exécuterez la mise en correspondance de modèle créée aux fins de test p
     * Cliquez sur Parcourir et sélectionnez le fichier Réponse4.xml.  
 16. Cliquez sur OK.
     * Examinez la sortie générée. Notez que le type de réponse a été correctement reconnu comme identique au fichier Réponse1.xml.  
-
 

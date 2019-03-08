@@ -1,13 +1,13 @@
 ---
 title: Configurer les modes de livraison et les frais du centre d'appels
-description: "Cette rubrique décrit la procédure de paramétrage des modes de livraison et des frais pour une commande du centre d'appels dans Microsoft Dynamics 365 for Retail."
+description: Cette rubrique décrit la procédure de paramétrage des modes de livraison et des frais pour une commande du centre d'appels dans Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,19 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328422"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurer les modes de livraison et les frais du centre d'appels
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Lorsqu'une commande client est passée dans Microsoft Dynamics 365 for Retail, si la personne qui saisit la commande client est associée à un canal du centre d'appels, une logique et des règles sont utilisées pour valider le mode de livraison et calculer les frais associés à la commande.
+Lorsqu'une commande client est passée dans Microsoft Dynamics 365 for Retail, si la personne qui saisit la commande client est associée à un canal du centre d'appels, une logique et des règles sont utilisées pour valider le mode de livraison et calculer les frais associés à la commande.
 
 Lorsque vous créez une commande client, vous pouvez sélectionner un mode de livraison dans l'en-tête de la commande client et les lignes de la commande client. Par défaut, le mode de livraison sélectionné dans l'en-tête est utilisé pour toutes les lignes de la commande client. Toutefois, vous pouvez remplacer le mode de livraison par défaut sur des lignes individuelles si nécessaire. Vous pouvez également définir un mode de livraison dans un enregistrement client. Ainsi, lorsque des commandes sont créées pour le client, ce mode de livraison est utilisé par défaut dans l'en-tête de la commande client.
 
@@ -96,4 +95,3 @@ Vous pouvez éventuellement associer un code d'expédition à un mode de livrais
 Par exemple, pour les commandes à expédier par avion le lendemain, le prélèvement doit être effectué dans l'entrepôt avant 13h chaque jour. Dans ce cas, un code d'expédition peut être créé, et ce code peut être associé à tout mode de livraison le lendemain qui est configuré dans le système. Lorsque l'entrepôt crée sa vague de prélèvement, le code d'expédition approprié dans le champ **Expédition** peut être utilisé comme filtre, afin que le prélèvement soit exécuté uniquement pour les commandes dont les modes de livraison sont associés à ce code.
 
 En outre, lorsqu'une commande du centre d'appels est saisie, un code d'expédition peut être manuellement appliqué à l'en-tête de la commande client ou à une ligne individuelle de la commande client. Le code peut également être utilisé pour les besoins de tri ou de génération d'états. Une commande doit parfois être traitée avec précaution en raison d'un problème de service client. Dans ce cas, un code d'expédition spécifique peut être appliqué à l'en-tête ou aux lignes de la commande pour aider à identifier et hiérarchiser la commande lors du processus d'exécution.
-

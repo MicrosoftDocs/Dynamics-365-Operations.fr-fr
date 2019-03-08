@@ -1,13 +1,13 @@
---- 
-title: "Calculer l'amortissement des immobilisations dans les entités juridiques"
-description: "L'amortissement d'immobilisation peut être exécuté dans les entités juridiques en une seule étape."
+---
+title: Calculer l'amortissement des immobilisations dans les entités juridiques
+description: L'amortissement d'immobilisation peut être exécuté dans les entités juridiques en une seule étape.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetParameters, AssetProposalDepreciation, DefaultDashboard, LedgerJournalTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b2575354af322827972ffa650e9c732170c5a6eb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316991"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>Calculer l'amortissement des immobilisations dans les entités juridiques
 
@@ -50,5 +50,4 @@ L'amortissement d'immobilisation peut être exécuté dans les entités juridiqu
     * L'option de traitement par lots est activée par défaut. Lorsque cette option est activée, la création et la validation du journal d'amortissement est exécutée en arrière-plan.  
 5. Cliquez sur Créer un journal.
 6. Accédez à Immobilisations > Entrées de journal > Journal des immobilisations.
-
 

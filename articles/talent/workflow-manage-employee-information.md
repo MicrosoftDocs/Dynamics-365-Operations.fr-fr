@@ -1,13 +1,13 @@
 ---
-title: "Utilisation des workflows pour gérer les informations des employés"
-description: "Cette rubrique explique comment les Ressources humaines peuvent utiliser la capacité de workflow pour gérer les informations des employés. Par exemple, vous pouvez associer un workflow avec un poste et configurer un workflow d'approbation qui démarre lorsque les employés modifient leur enregistrement."
+title: Utilisation des workflows pour gérer les informations des employés
+description: Cette rubrique explique comment les Ressources humaines peuvent utiliser la capacité de workflow pour gérer les informations des employés. Par exemple, vous pouvez associer un workflow avec un poste et configurer un workflow d'approbation qui démarre lorsque les employés modifient leur enregistrement.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0ffae206ae1956e5dc41487f04561ed2c48bd20b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: cf2200057053f5a6d4754d37111ebe34849bb99d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304302"
 ---
-
 # <a name="use-workflows-to-manage-employee-information"></a>Utilisation des workflows pour gérer les informations des employés
 
 [!include [banner](includes/banner.md)]
@@ -69,7 +68,6 @@ Pour configurer un workflow de base qui démarre lorsque des employés demandent
 10. Accédez à **Ressources humaines** &gt; **Postes** &gt; **Types de hiérarchie de postes**.
 11. Sélectionnez **Matrice**.
 12. Ajoutez le workflow **Numéro d'identification du collaborateur** à la liste.
-
 
 
 

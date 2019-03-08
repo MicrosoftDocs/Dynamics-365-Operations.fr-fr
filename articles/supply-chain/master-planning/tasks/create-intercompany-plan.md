@@ -1,13 +1,13 @@
---- 
-title: "Créer un plan intersociétés"
-description: "Cette procédure indique comment créer un plan intersociétés."
+---
+title: Créer un plan intersociétés
+description: Cette procédure indique comment créer un plan intersociétés.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup,  ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d378a89bbb4de6d67db0019dc72a27945d50c4e9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: da186f7ad74bb607fd6e7220d77c2f414789f29c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333735"
 ---
 # <a name="create-an-intercompany-plan"></a>Créer un plan intersociétés
 
@@ -60,5 +60,4 @@ Cette procédure indique comment créer un plan intersociétés. Les données fi
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Cliquez sur le lien de StaticPlan. Vous devez être dans la société USMF.  
 3. Cliquez sur Ordres prévisionnels.
-
 

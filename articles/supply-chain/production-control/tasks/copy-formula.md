@@ -1,13 +1,13 @@
---- 
+---
 title: Copier une formule
-description: "Cette procédure se focalise sur la création d'une formule incluant les mêmes ingrédients qu'une formule existante, mais avec des différences mineures."
+description: Cette procédure se focalise sur la création d'une formule incluant les mêmes ingrédients qu'une formule existante, mais avec des différences mineures.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dd87ded3bcc20b94fae723424d9cc6b94049a1a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 036bd9f592ca584afad9d4b9b7a49a9787076056
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312437"
 ---
 # <a name="copy-a-formula"></a>Copier une formule
 
@@ -64,5 +64,4 @@ Cette procédure se focalise sur la création d'une formule incluant les mêmes 
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 5. Cliquez sur Sélectionner.
 6. Cliquez sur OK.
-
 

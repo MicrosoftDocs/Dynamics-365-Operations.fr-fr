@@ -5,28 +5,26 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 05/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionGroup, SMASubscriptionCreateDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5cff6910dcb273fc081443546676426387f6625
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b4872c0753b54bdddf2c7778a13819726eea4a90
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321637"
 ---
-
-
 # <a name="subscription-workflow-overview"></a>Vue d'ensemble du workflow de l'abonnement 
 
 [!include [banner](../includes/banner.md)]
@@ -57,6 +55,5 @@ Deux jours plus tard, votre client appelle pour dire que l'abonnement doit être
 À la fin de chaque mois, vous provisionnez le produit d'un mois de l'abonnement du client sur le compte de résultat et sur les comptes des travaux en cours. Pour plus d'informations sur le produit à recevoir pour les abonnements, voir [Provisionner le produit d'abonnement](accrue-subscription-revenue.md).
 
   
-
 
 

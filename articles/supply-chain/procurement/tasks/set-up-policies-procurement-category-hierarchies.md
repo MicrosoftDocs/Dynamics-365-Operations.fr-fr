@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement"
-description: "Cette procédure permet de définir des règles pour commander des produits dans une catégorie."
+---
+title: Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement
+description: Cette procédure permet de définir des règles pour commander des produits dans une catégorie.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d1fdf357466de12bd0188fc43cd266c67af762c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 50764f99be04d27e04047824f870e724336cb452
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323155"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement
 
@@ -58,5 +58,4 @@ Cette procédure permet de définir des règles pour commander des produits dans
     * Choisissez une règle pour contrôler le genre de fournisseur qui peut être choisi pour la catégorie quand des demandes sont créées.  
 7. Cliquez sur Fermer.
     * Les règles de stratégie que vous avez définies concernaient des demandes de type Consommation. Pour définir des stratégies pour des demandes de type Réapprovisionnement, vous devez créer une règle pour le type de règle de stratégie appelé « Règle de stratégie d'accès à la catégorie de réapprovisionnement ».  
-
 

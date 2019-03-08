@@ -1,32 +1,31 @@
 ---
-title: "Hiérarchie des dimensions"
-description: "Cette rubrique fournit des informations sur les hiérarchies de dimensions. Vous utilisez une hiérarchie de dimensions pour définir la structure d'entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion."
+title: Hiérarchie des dimensions
+description: Cette rubrique fournit des informations sur les hiérarchies de dimensions. Vous utilisez une hiérarchie de dimensions pour définir la structure d'entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320211"
 ---
-
 # <a name="dimension-hierarchy"></a>Hiérarchie des dimensions
 
 [!include [banner](../includes/banner.md)]
@@ -329,9 +328,8 @@ Les paramètres de la hiérarchie de la liste d'accès sont utilisés pour contr
 - Power BI :
 
     - Données qui sont affichées dans une visualisation Power BI
-    - Les visualisations des données Power BI sont intégrées dans le client Microsoft Dynamics 365 for Finance and Operations
+    - Visualisations des données Power BI intégrées dans le client Microsoft Dynamics 365 for Finance and Operations
 
 > [!NOTE] 
 > - Avant que la hiérarchie de la liste d'accès puisse affecter des données Power BI, la hiérarchie de la liste d'accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d'informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La hiérarchie de la liste d'accès ne permet pas de sécuriser l'exportation des données dans Excel. Par conséquent, cet outil de génération d'états doit uniquement être utilisé par les comptables et les responsables de coût qui doivent avoir un accès complet pour afficher les données.
-

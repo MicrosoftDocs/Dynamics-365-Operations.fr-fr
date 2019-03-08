@@ -1,13 +1,13 @@
 ---
-title: "Approbations de factures par téléphone portable"
-description: "Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles dans Dynamics 365 for Finance and Operations en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation."
+title: Approbations de factures par téléphone portable
+description: Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles dans Dynamics 365 for Finance and Operations en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314392"
 ---
-
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
 [!include [banner](../includes/banner.md)]
 
-Les fonctionnalités mobiles de Microsoft Dynamics 365 for Finance and Operations permettent à un utilisateur professionnel de concevoir des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d'étendre les capacités comme ils le désirent. Le moyen le plus efficace d'apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation. Cette rubrique doit vous aider à créer d'autres variations de scénarios et peut également être appliquée à d'autres scénarios non liés aux factures fournisseur.
+Les capacités mobiles dans Microsoft Dynamics 365 for Finance and Operations permettent aux entreprises de créer des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d'étendre les capacités comme ils le désirent. Le moyen le plus efficace d'apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation. Cette rubrique doit vous aider à créer d'autres variations de scénarios et peut également être appliquée à d'autres scénarios non liés aux factures fournisseur.
 
 <a name="prerequisites"></a>Conditions préalables
 -------------
@@ -37,7 +36,7 @@ Les fonctionnalités mobiles de Microsoft Dynamics 365 for Finance and Operatio
 | Logiciel requis                                                                                            | Description                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pré-lecture manuel mobile                                                                                |[Plateforme mobile](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| Dynamics 365 for Finance and Operations                                                                             | Un environnement disposant de la version 1611 de Microsoft Dynamics 365 for Operations et de la mise à jour 3 de Microsoft Dynamics for Operations (novembre 2016).                   |
+| Dynamics 365 for Finance and Operations                                                                             | Un environnement avec Microsoft Dynamics 365 for Operations version 1611 et Microsoft Dynamics for Operations platform update 3 (novembre 2016)                   |
 | Installez le correctif KB 3204341.                                                                              | L'enregistreur de tâches peut enregistrer de manière erronée deux commandes Fermer pour les boîtes de dialogue déroulantes, incluses dans Dynamics 365 for Operations mise à jour 3 (mise à jour novembre 2016) |
 | Installez le correctif KB 3207800.                                                                              | Ce correctif permet d'afficher les pièces jointes sur le client mobile, ce qui est inclus dans Dynamics 365 for Operations mise à jour 3 (mise à jour de novembre 2016).           |
 | Installez le correctif KB 3208224.                                                                              | Le code d'application pour la demande d'approbation de facture fournisseur mobile est inclus dans l'application Microsoft Dynamics AX 7.0.1 (mai 2016).                          |
@@ -297,7 +296,7 @@ Pour ajouter des actions de workflow, utilisez la page **VendMobileInvoiceHeader
 
 1. Cliquez sur le bouton **Paramètres** (engrenage) dans la partie supérieure droite de la page, puis cliquez sur **Application mobile**
 2. Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail.
-3. Sélectionnez la page <strong>Détails de la facture** créée précédemment, puis cliquez sur **Modifier</strong>.
+3. Sélectionnez la page <strong>Détails de la facture **créée précédemment, puis cliquez sur** Modifier</strong>.
 4. Définissez l'option **Gestion des documents** sur **Oui** comme suit. **Remarque :** s'il n'existe aucune exigence d'afficher les pièces jointes sur le périphérique mobile, vous pouvez laisser cette option définie sur **Non**, qui est le paramètre par défaut.
    ![Gestion des documents](./media/docmanagement-216x300.png)
 5. Cliquez sur **Terminé** pour quitter le mode d'édition.
@@ -488,7 +487,6 @@ Les modifications suivantes peuvent être effectuées pour le scénario 1, selon
     3.  Idéalement, les répartitions doivent être affichées dans le contexte d'une ligne de facture dans ce scénario. Par conséquent, veillez à ce que l'utilisateur puisse explorer une ligne pour afficher la page des répartitions. Utilisez la fonctionnalité de lien de page pour établir le suivi, tout comme vous l'avez fait pour les pages d'en-tête et de détails dans le scénario 1.
 
 2.  Comme plusieurs types de montant sont prévus sur les répartitions dans le scénario 2 (taxes, frais, etc.), il est utile d'afficher la description du type de montant. (Nous avons omis ces informations dans le scénario 1).
-
 
 
 

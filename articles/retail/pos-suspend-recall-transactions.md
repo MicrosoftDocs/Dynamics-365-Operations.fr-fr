@@ -1,13 +1,13 @@
 ---
 title: Suspendre et reprendre une transaction dans le point de vente (PDV)
-description: "Cette rubrique explique comment les utilisateurs peuvent suspendre des transactions en cours et les reprendre ultérieurement ou sur une autre caisse à l'aide de Microsoft Dynamics 365 for Retail."
+description: Cette rubrique explique comment les utilisateurs peuvent suspendre des transactions en cours et les reprendre ultérieurement ou sur une autre caisse à l'aide de Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ffb04609318c7de4b9ef729a8e03a7f9395806b8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333896"
 ---
-
 # <a name="suspend-and-resume-transactions-in-the-point-of-sale-pos"></a>Suspendre et reprendre des transactions dans le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -83,4 +82,3 @@ Pour rappeler rapidement et facilement une transaction suspendue, lisez le code-
 ### <a name="void-a-suspended-transaction"></a>Annuler une transaction suspendue
 
 Vous pouvez annuler des transactions suspendues en rappelant la transaction puis en effectuant l'opération **Annuler la transaction**, ou en sélectionnant la transaction dans la liste **Rappeler la transaction** et en sélectionnant **Annuler** sur la barre d'application. Sinon, le magasin peut être configuré pour inviter les utilisateurs à annuler les transactions suspendues lorsqu'ils clôturent leur équipe.
-

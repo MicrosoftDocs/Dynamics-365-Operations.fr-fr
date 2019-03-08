@@ -1,13 +1,13 @@
 ---
-title: "Intégrer des fournisseurs"
-description: "Cette rubrique décrit le processus d'intégration de nouveaux fournisseurs. Elle explique les actions requises par différents rôles au cours de ce processus."
+title: Intégrer des fournisseurs
+description: Cette rubrique décrit le processus d'intégration de nouveaux fournisseurs. Elle explique les actions requises par différents rôles au cours de ce processus.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,27 +15,26 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322143"
 ---
-
 # <a name="onboard-vendors"></a>Intégrer des fournisseurs
 [!include [banner](../includes/banner.md)]
 
 ---
 
-De nouveaux fournisseurs peuvent être intégrés et enregistrés comme fournisseurs dans Microsoft Dynamics 365 for Finance and Operations en fonction des informations collectées auprès d'un représentant du fournisseur.
+De nouveaux fournisseurs peuvent être intégrés et enregistrés comme fournisseurs dans Microsoft Dynamics 365 for Finance and Operations en fonction des informations collectées auprès d'un représentant du fournisseur.
 
 Ce processus comprend les étapes suivantes, où différents rôles exécutent des actions dans le système.
 
 1. **Gestion des données OData** – Importation d'entité - La demande initiale est la demande d'enregistrement du fournisseur potentiel. En général, cette demande émane d'une source telle qu'un site Web hébergé par un client qui autorise l'accès anonyme. Les fournisseurs peuvent s'inscrire en fournissant des informations de base, telles que le nom du fournisseur, la justification, le numéro de l'organisation et le nom et l'adresse e-mail de la personne à contacter. Les demandes sont importées via l'interface de gestion des données.
 2. **Page de liste Demande d'enregistrement d'un fournisseur potentiel** - Sur la base des informations fournies dans la demande d'enregistrement du fournisseur potentiel, un professionnel de l'approvisionnement décide si le fournisseur doit être intégré. Le professionnel de l'approvisionnement affiche la demande entrante sur la page de liste **Demandes d'enregistrement d'un fournisseur potentiel** dans Finance and Operations.
-3. **Workflow de mise en service de l'utilisateur** - Une fois qu'un professionnel de l'approvisionnement a vérifié les informations dans la demande entrante et décidé de poursuivre le processus d'intégration, le workflow de demande de l'utilisateur met en service le nouvel utilisateur et envoie un e-mail d'invitation pour accepter la personne à contacter en tant qu'utilisateur authentifié de Microsoft Dynamics 365.
+3. **Workflow de mise en service de l'utilisateur** - Une fois qu'un professionnel de l'approvisionnement a vérifié les informations dans la demande entrante et décidé de poursuivre le processus d'intégration, le workflow de demande de l'utilisateur met en service le nouvel utilisateur et envoie un e-mail d'invitation pour accepter la personne à contacter en tant qu'utilisateur authentifié de Microsoft Dynamics 365.
 4. **Assistant d'enregistrement du fournisseur** - La personne à contacter chez le fournisseur se connecte à Finance and Operations à l'aide du nouveau compte d'utilisateur. Elle exécute l'assistant d'enregistrement du fournisseur pour fournir des informations telles que les adresses, les informations sur l'entreprise, les catégories d'approvisionnement et les réponses au questionnaire.
 5. **Workflow d'approbation** - Une demande fournisseur contenant les informations d'enregistrement est créée. Cette demande fournisseur est envoyée à un workflow, puis acheminée pour révision et approbation.
 6. **Création des données principales du fournisseur et modification du rôle d'utilisateur** - Lorsque la demande fournisseur est approuvée, un enregistrement fournisseur est créé. Le compte d'utilisateur de la personne à contacter chez le fournisseur est autorisé à accéder à la collaboration fournisseur ou est désactivé.
@@ -46,10 +45,10 @@ Le tableau suivant présente les étapes et les rôles impliqués dans le proces
 |--------------------------|---|---|---|---|---|---|
 | Système                   | La demande d'un nouveau fournisseur est importée. | | | | | Une fois que la demande fournisseur est acceptée, l'enregistrement fournisseur est créé. |
 | Professionnel de l'approvisionnement | | Lancez le processus d'intégration. | | | Examinez et acceptez ou rejetez la demande fournisseur. | |
-| Administrator            | | | Créez un utilisateur dans Finance and Operations et Microsoft Azure. | | | |
+| Administrateur            | | | Créez un utilisateur dans Finance and Operations et Microsoft Azure. | | | |
 | Personne à contacter chez le fournisseur    | | | Envoyez un e-mail à la personne à contacter. | Enregistrez les informations sur le fournisseur. | | |
 
-Pour une démonstration rapide du processus d'intégration des fournisseurs, consultez cette courte vidéo YouTube : [Intégrer un nouveau fournisseur dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Pour une démonstration rapide du processus d'intégration des fournisseurs, visionnez cette petite vidéo YouTube : [Intégrer un nouveau fournisseur dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importation de la demande d'enregistrement du fournisseur potentiel
 
@@ -174,5 +173,4 @@ Les différents statuts de la demande d'enregistrement d'un fournisseur potentie
 |  Demande fournisseur créée  |                                                                     L'assistant d'enregistrement du fournisseur a été exécuté.                                                                      | Une demande de désactivation de l'utilisateur est créée, et la demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées.<blockquote>[!NOTE]<br>Vous ne pouvez pas utiliser l'action <strong>Supprimer</strong> lorsque la demande fournisseur est en cours de révision dans le workflow.</blockquote> |
 |         Approbation         |                                                                               La demande fournisseur est approuvée.                                                                               |                                                                                                   La demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées.                                                                                                    |
 |         Rejeté         |                                                                               La demande fournisseur est rejetée.                                                                               |                                                                                                   La demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées.                                                                                                    |
-
 

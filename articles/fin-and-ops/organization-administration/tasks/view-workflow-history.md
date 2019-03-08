@@ -1,13 +1,13 @@
---- 
+---
 title: Afficher l'historique du workflow
-description: "Utilisez ces étapes pour afficher le statut d'un document envoyé au système de workflow pour traitement et approbation."
+description: Utilisez ces étapes pour afficher le statut d'un document envoyé au système de workflow pour traitement et approbation.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 212f9fe8bc7807b9209523564ead716959875241
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309654"
 ---
 # <a name="view-workflow-history"></a>Afficher l'historique du workflow
 
@@ -46,5 +46,4 @@ Utilisez ces étapes pour afficher le statut d'un document envoyé au système d
     * Assurez-vous que la section Éléments de travail est développée.    Dans cette section, vous pouvez afficher les éléments de travail associés au document sélectionné. Par exemple, il se peut qu'il faille terminer une tâche ou approuver un document.  
     * Le bouton Réaffecter ouvre une boîte de dialogue dans laquelle vous pouvez réaffecter un élément de travail à un autre utilisateur.  
     * Assurez-vous que la section Détails du suivi est développée.    Dans cette section, vous pouvez afficher l'historique du workflow du document sélectionné.  
-
 

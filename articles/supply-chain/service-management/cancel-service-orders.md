@@ -1,31 +1,30 @@
 ---
 title: Annuler des commandes de service
-description: "Vous pouvez annuler une commande de service ou une ligne de commande de service à partir de la commande de service elle-même ou annuler plusieurs commandes de service en exécutant une tâche périodique."
+description: Vous pouvez annuler une commande de service ou une ligne de commande de service à partir de la commande de service elle-même ou annuler plusieurs commandes de service en exécutant une tâche périodique.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1495fa139ea2c3cb7f2450b402126822f5549f60
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8e5ad119c28bba18b75bb5ed7854e94a4e734d55
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327042"
 ---
-
 # <a name="cancel-service-orders"></a>Annuler des commandes de service   
 
 [!include [banner](../includes/banner.md)]
@@ -77,6 +76,5 @@ Soit les commandes de service sélectionnées sont annulées, soit leur statut d
 
 
   
-
 
 

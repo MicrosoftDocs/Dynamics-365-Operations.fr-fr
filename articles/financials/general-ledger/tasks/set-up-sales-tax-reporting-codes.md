@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer des codes déclaration de taxe"
-description: "Les codes déclaration de taxe font référence à un numéro de champ dans la déclaration de taxe."
+---
+title: Paramétrer des codes déclaration de taxe
+description: Les codes déclaration de taxe font référence à un numéro de champ dans la déclaration de taxe.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4543cf7eaa0b1ef8e32d3fdafa2c354cd3739256
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fa32a12e49b6578c41ceb8991237a19ae3f77e17
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335667"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Paramétrer des codes déclaration de taxe
 
@@ -41,5 +41,4 @@ La société fictive DEMF sert d'exemple dans cet enregistrement.
 5. Dans le champ Texte d'état, entrez une description à afficher dans les états.
 6. Dans le champ Brève description, entrez une description à des fins internes.
 7. Cliquez sur Enregistrer.
-
 

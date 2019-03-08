@@ -1,37 +1,36 @@
 ---
-title: Synchroniser les ordres de travail entre Finance and Operations et Field Service
-description: "Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres de travail avec un numéro de projet entre Microsoft Dynamics 365 for Field Service et Microsoft Dynamics 365 for Finance and Operations."
+title: Synchroniser les ordres de travail avec un projet entre Field Service et Finance and Operations
+description: Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les ordres d'exécution avec un nombre de projets depuis Microsoft Dynamics 365 for Field Service vers la commande client dans Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 12/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
+ms.openlocfilehash: 6b61411a5a235e2d0aad8bb25ae4a3bfcf1248d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
-ms.openlocfilehash: f5bd6b8c554688d0d1b2bfd93a34a60a95412bf3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/20/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329848"
 ---
-
 # <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>Synchroniser les ordres de travail avec un projet entre Field Service et Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres de travail avec un numéro de projet entre Microsoft Dynamics 365 for Field Service et Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les ordres d'exécution avec un nombre de projets depuis Microsoft Dynamics 365 for Field Service vers la commande client dans Microsoft Dynamics 365 for Finance and Operations.
 
 [![Synchronisation des processus d'entreprise entre Finance and Operations et Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
@@ -76,4 +75,3 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 ### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderservice"></a>Ordres de travail avec projet (Field Service vers Finance and Operations) : WorkOrderService
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSWOP4.png)](./media/FSWOP4.png)
-

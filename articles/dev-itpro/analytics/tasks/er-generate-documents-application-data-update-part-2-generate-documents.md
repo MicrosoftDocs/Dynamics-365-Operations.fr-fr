@@ -1,13 +1,13 @@
---- 
-title: "Concevoir des configurations pour générer des documents avec des données d'application"
-description: "Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, ER Générer des documents avec la mise à jour des données d'application (Partie 1 - Importer les configurations)."
+---
+title: Concevoir des configurations pour générer des documents avec des données d'application
+description: Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, ER Générer des documents avec la mise à jour des données d'application (Partie 1 - Importer les configurations).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8376107a33dd83e04f82fcab6847e7f073f08dbc
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316347"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Concevoir des configurations pour générer des documents avec des données d'application
 
@@ -58,5 +58,4 @@ Avant de commencer, modifiez le contexte de pays pour la société DEMF de DEU (
     * Comme le format ER exécuté ne contient pas de paramètres pour la mise à jour des données d'application, les détails de l'état de déclaration d'échanges de biens n'ont pas été archivés.  
 10. Fermez la page.
 11. Fermez la page.
-
 

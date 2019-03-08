@@ -1,13 +1,13 @@
 ---
-title: "Effectuer un amortissement dégressif"
-description: "Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif."
+title: Effectuer un amortissement dégressif
+description: Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e36a7e1a5d83a95de53b70b8e3c3b667aae9c6c0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9416af0efdf9b33b1de559d302a1ff4c5f530dce
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321177"
 ---
-
 # <a name="reduce-balance-depreciation"></a>Effectuer un amortissement dégressif
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,6 @@ En utilisant la méthode d'amortissement dégressif, les 30 % de la base d'amort
 
 
 -
-
 
 
 

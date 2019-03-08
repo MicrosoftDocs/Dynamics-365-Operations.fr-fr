@@ -1,13 +1,13 @@
 ---
 title: Supprimer des environnements Talent
-description: "Cette rubrique décrit le processus de suppression d'un environnement de test ou de production pour Microsoft Dynamics 365 for Talent."
+description: Cette rubrique décrit le processus de suppression d'un pilote test ou d'un environnement de production pour Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304449"
 ---
 # <a name="remove-talent-environments"></a>Supprimer des environnements Talent
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit le processus de suppression d'un environnement de test ou de production pour Microsoft Dynamics 365 for Talent.
+Cette rubrique décrit le processus de suppression d'un pilote test ou d'un environnement de production pour Microsoft Dynamics 365 for Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Suppression d'un environnement de test
 
@@ -73,5 +73,4 @@ Pour supprimer un environnement Talent d'un environnement PowerApps existant, pr
 6. Dans votre projet LCS, sélectionnez la vignette **Gestion de l'application Talent**. 
 7. Sélectionnez l'instance à supprimer, qui doit être marquée avec un statut de déploiement **Échec**.
 8. Sélectionnez **Supprimer l'instance** et confirmez votre décision. 
-
 

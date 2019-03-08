@@ -1,13 +1,13 @@
---- 
-title: "ER Mapper des composants au format créé à des éléments de modèle de données (novembre 2016)"
-description: "La procédure suivante explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut mettre en correspondance des éléments de modèle de données aux composants de la configuration de la gestion des états électroniques, qui définit un format de document électronique pour le domaine de paiements de l'entreprise."
+---
+title: ER Mapper des composants au format créé à des éléments de modèle de données (novembre 2016)
+description: La procédure suivante explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut mettre en correspondance des éléments de modèle de données aux composants de la configuration de la gestion des états électroniques, qui définit un format de document électronique pour le domaine de paiements de l'entreprise.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323546"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Mapper des composants au format créé à des éléments de modèle de données (novembre 2016)
 
@@ -113,5 +113,4 @@ La procédure suivante explique comment un utilisateur dont le rôle est Adminis
 ## <a name="restrict-access-to-created-format-from-companies"></a>Limiter l'accès au format créé des sociétés
 1. Développez la section Codes pays/région ISO.
     * Chaque accès au format peut être limité en identifiant les pays/régions particuliers dans lesquels un format s'applique. Lorsque la liste de pays/régions pour le format spécifique est vide, ce format peut être utilisé dans n'importe quelle société. Lorsque certains codes pays/région ISO sont insérés dans la liste de pays/régions, le format ne peut être utilisé que pour des sociétés pour lesquelles l'adresse principale se trouve dans le pays/la région.  
-
 

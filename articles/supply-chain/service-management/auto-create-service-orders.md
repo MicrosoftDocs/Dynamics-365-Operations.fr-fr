@@ -1,31 +1,30 @@
 ---
-title: "Créer automatiquement des commandes de service"
-description: "Vous pouvez générer des commandes de service en fonction d'un accord de service pour la période de validité de l'accord de service."
+title: Créer automatiquement des commandes de service
+description: Vous pouvez générer des commandes de service en fonction d'un accord de service pour la période de validité de l'accord de service.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0189a9f99ffbb6ed2387211ba9e3b9f3bcdb3b52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2d942d4448e0f792945603d3f5960fb82095be30
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331182"
 ---
-
 # <a name="automatically-create-service-orders"></a>Créer automatiquement des commandes de service 
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,5 @@ L'accord de service s'étend du 1er janvier 2012 au 31 décembre 2012. Si l'
 L'accord de service s'étend du 1er janvier 2012 au 31 décembre 2012. Deux lignes d'accord de service y sont associées. La date de début de la première ligne d'accord de service est le 2 janvier 2012 et sa date de fin est le 1er mars 2012. La date de début de la deuxième ligne d'accord de service est le 1er avril 2012 et sa date de fin est le 31 décembre 2012. Vous spécifiez une période dans l'écran **Créer des commandes de service** qui s'étend du 1er octobre 2012 au 31 décembre 2012. Par conséquent, les commandes de service ne sont générées que pour la deuxième ligne d'accord car les dates de début et de fin de la première ligne d'accord sont antérieures à la période spécifiée pour la commande de service.
 
   
-
 
 

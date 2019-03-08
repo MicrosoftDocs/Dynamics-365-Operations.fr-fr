@@ -1,13 +1,13 @@
 ---
 title: Fusionner les traitements par lots de stock
-description: "Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné."
+description: Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné.
 author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319820"
 ---
-
 # <a name="merge-inventory-batches"></a>Fusionner les traitements par lots de stock
 
 [!include [banner](../includes/banner.md)]
@@ -141,4 +140,3 @@ Vous pouvez approuver le journal de stock pour la fusion de traitements par lots
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Une fois que j'ai fusionné un article de poids variable, pourquoi est-ce que je ne peux pas afficher les informations de poids variable dans le journal de stock ?
 Vous pouvez fusionner des lots d'articles de poids variable comme tous les autres articles. Toutefois, les informations de poids variable ne sont pas affichées dans le journal de stock. Il est recommandé de vérifier les informations de poids variable avant de transférer la fusion de traitements par lots vers le journal de stock.
-

@@ -1,13 +1,13 @@
 ---
-title: "Paramétrer les cours de formation"
-description: "Les administrateurs des ressources humaines et les responsables peuvent utiliser les fonctionnalités du cours pour tenir à jour des informations sur la formation qui est offerte aux employés."
+title: Paramétrer les cours de formation
+description: Les administrateurs des ressources humaines et les responsables peuvent utiliser les fonctionnalités du cours pour tenir à jour des informations sur la formation qui est offerte aux employés.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3e0a13d0b1882e6160a05925d97ecd85f1edfbaa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/23/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304371"
 ---
-
 # <a name="set-up-training-courses"></a>Paramétrer les cours de formation
 
 [!include [banner](includes/banner.md)]
@@ -135,7 +134,6 @@ Les participants du cours sont des employés, des candidats ou des personnes à 
 --------
 
 Les employés qui s'inscrivent à un cours via la page **Libre service employé** peuvent faire suivre leur inscription via le workflow pour approbation.  Un workflow peut être affecté à un cours dans l'organisateur **Général** de la page **Cours**.
-
 
 
 

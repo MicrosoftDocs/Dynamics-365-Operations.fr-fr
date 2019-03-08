@@ -1,13 +1,13 @@
 ---
-title: "Clôture du stock"
-description: "Dans le cadre du processus pour régler les transactions de sortie avec des transactions de réception, vous pouvez également choisir de mettre à jour la comptabilité pour refléter les ajustements effectués."
+title: Clôture du stock
+description: Dans le cadre du processus pour régler les transactions de sortie avec des transactions de réception, vous pouvez également choisir de mettre à jour la comptabilité pour refléter les ajustements effectués.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326490"
 ---
-
 # <a name="inventory-close"></a>Clôture du stock
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ Dans certaines circonstances, vous ne pourrez peut-être pas résoudre les avert
 Il se peut que vous deviez occasionnellement contrepasser une clôture de stock terminée pour redéfinir les règlements sur l'état où ils se trouvaient avant les ajustements. Lorsque vous contrepassez une clôture de stock terminée, le stock est rouvert pour permettre la validation dans la période couverte par la clôture de stock. Les modifications liées peuvent également être introduites dans la comptabilité. Après avoir apporté des ajustements, vous pouvez effectuer de nouveau une clôture de stock pour la période sur laquelle vous travaillez. 
 
 **Remarque :** Seule la dernière période de stock clôturée peut être rouverte. Pour contrepasser une clôture de stock antérieure, vous devez contrepasser chaque clôture de stock une par une, en commençant par la plus récente.
-
 
 
 

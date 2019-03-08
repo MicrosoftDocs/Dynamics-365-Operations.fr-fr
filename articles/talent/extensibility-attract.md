@@ -1,14 +1,14 @@
 ---
-title: "Extensibilité dans Attract"
-description: "Cette rubrique décrit comment vous pouvez étendre l'application Microsoft Dynamics 365 for Talent - Attract à l'aide de Microsoft Power Platform."
+title: Extensibilité dans Attract
+description: Cette rubrique décrit comment vous pouvez étendre l'application Microsoft Dynamics 365 for Talent - Attract à l'aide de la plateforme Microsoft Power.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 0af60a0aea0f7a5de793631445aaebb37dbb0d74
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304345"
 ---
-
 # <a name="extensibility-in-attract"></a>Extensibilité dans Attract
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent est généré sur la plateforme Common Data Service (CDS) pour les applications, et peut être étendu de différentes manières à l'aide de Microsoft Power Platform et des capacités que Common Data Service pour les applications offre. Par conséquent, vous pouvez configurer et personnaliser le système à l'aide de Microsoft PowerApps et Microsoft Flow. Vous pouvez également obtenir des analyses supplémentaire sur les personnes à l'aide Microsoft Power BI. En outre, de nouvelles activités personnalisées, telles que les activités PowerApps et de contenu web (iframe), rendent le processus de recrutement plus adaptable que jamais. Avec ces activités, vous pouvez personnaliser dans le processus de recrutement selon les besoins et processus de votre entreprise, et vous assurer que l'équipe de recrutement et les candidats ont une expérience transparente et personnalisée.
+Microsoft Dynamics 365 for Talent est généré sur la plateforme Common Data Service (CDS) pour les applications, et peut être étendu de différentes manières à l'aide de la plateforme Microsoft Power et des fonctionnalités de Common Data Service pour les applications. Par conséquent, vous pouvez configurer et personnaliser le système à l'aide de Microsoft PowerApps et Microsoft Flow. Vous pouvez également obtenir des analyses supplémentaire sur les personnes à l'aide Microsoft Power BI. En outre, de nouvelles activités personnalisées, telles que les activités PowerApps et de contenu web (iframe), rendent le processus de recrutement plus adaptable que jamais. Avec ces activités, vous pouvez personnaliser dans le processus de recrutement selon les besoins et processus de votre entreprise, et vous assurer que l'équipe de recrutement et les candidats ont une expérience transparente et personnalisée.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Tirer profit de Microsoft Power Platform 
 
-Étant donné que toutes les données Attract résident dans Common Data Service pour les applications, vous pouvez utiliser des outils de Microsoft Power Platform de manière à intégrer vos besoins métier uniques dans Attract.
+Étant donné que toutes les données Attract résident dans Common Data Service pour les applications, vous pouvez utiliser des outils de la plateforme Microsoft Power de manière à intégrer vos besoins métier uniques dans Attract.
 
 ### <a name="powerapps"></a>PowerApps
 
@@ -44,11 +43,11 @@ Par exemple, vous pouvez facilement organiser des salons de l'emploi dans des un
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-Vous pouvez utiliser Microsoft Flow pour créer des workflows automatisés s'exécutant avec les données Attract. Vous pouvez facilement vous connecter à des centaines d'applications et services populaires sans devoir écrire du code. Lorsque vous générez des flux qui interagissent avec des entités de mission, de candidat et d'application Attract dans Common Data Service pour les applications, vous pouvez automatiser différentes actions. Par exemple, lorsqu'un candidat accepte une offre, une notification peut être envoyées à une équipe d'accueil, ou les nouvelles peuvent être annoncées sur Twitter. Pour plus d'informations sur les flux, voir [la documentation Microsoft Flow](https://docs.microsoft.com/en-us/flow/).
+Vous pouvez utiliser Microsoft Flow pour créer des workflows automatisés s'exécutant avec les données Attract. Vous pouvez facilement vous connecter à des centaines d'applications et services populaires sans devoir écrire du code. Lorsque vous générez des flux qui interagissent avec des entités de mission, de candidat et d'application Attract dans Common Data Service pour les applications, vous pouvez automatiser différentes actions. Par exemple, lorsqu'un candidat accepte une offre, une notification peut être envoyées à une équipe d'accueil, ou les nouvelles peuvent être annoncées sur Twitter. Pour plus d'informations sur les flux, voir la [Documentation Microsoft Flow ](https://docs.microsoft.com/en-us/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI vous permet de générer et d'afficher des états et des tableaux de bord personnalisés vous offrant un aperçu approfondi de vos données Attract. Pour plus d'informations sur Power BI et comment générer des états et des tableaux de bord interactifs, voir la [documentation Power BI](https://docs.microsoft.com/en-us/power-bi/).
+Power BI vous permet de générer et d'afficher des états et des tableaux de bord personnalisés vous offrant un aperçu approfondi de vos données Attract. Pour plus d'informations sur Power BI et comment générer des états et des tableaux de bord interactifs, voir la [documentation Power BI ](https://docs.microsoft.com/en-us/power-bi/).
 
 ### <a name="custom-activities"></a>Activités personnalisées 
 
@@ -67,4 +66,3 @@ L'activité de contenu web (iframe) permet d'inclure une solution web personnali
 
 > [!NOTE]
 > L'activité de contenu web n'est disponible qu'avec le Composant additionnel de recrutement complet.
-

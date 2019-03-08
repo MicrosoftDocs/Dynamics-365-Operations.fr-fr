@@ -1,13 +1,13 @@
---- 
-title: "Modifier les règles de kanban pour une tâche de traitement"
-description: "Cette procédure traite de la modification de la règle de kanban utilisée pour un kanban donné."
+---
+title: Modifier les règles de kanban pour une tâche de traitement
+description: Cette procédure traite de la modification de la règle de kanban utilisée pour un kanban donné.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 38d9ff0a7d6aeb0a589fd6b9ab34b818c46644cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f8b2a67e03a64deae9d4bc9c7e3e714d134443c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314944"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>Modifier les règles de kanban pour une tâche de traitement
 
@@ -48,5 +48,4 @@ Cette procédure traite de la modification de la règle de kanban utilisée pour
     * Sélectionnez la règle de kanban créée précédemment. Il s'agit de la règle de kanban avec le numéro le plus élevé.  
 7. Cliquez sur Terminer.
     * Actuellement, la tâche de kanban utilise une autre règle de kanban. Cela peut être utile pour l'équilibrage de charge des cellules de travail.  
-
 

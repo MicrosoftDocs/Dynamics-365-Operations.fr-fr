@@ -1,13 +1,13 @@
 ---
 title: Obtenir de l'aide sur Finance and Operations et Lifecycle Services (LCS)
-description: "Cet article explique comment obtenir de l'aide pour Microsoft Dynamics 365 for Finance and Operations ou Microsoft Dynamics Lifecycle Services (LCS)."
+description: Cet article décrit comment obtenir de l'aide avec Microsoft Dynamics 365 for Finance and Operations ou Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
 ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/21/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334770"
 ---
-
 # <a name="get-support-for-finance-and-operations-or-lifecycle-services-lcs"></a>Obtenir de l'aide sur Finance and Operations et Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
@@ -47,13 +46,13 @@ Pour obtenir de l'aide pour Finance and Operations ou LCS, utilisez les ressourc
 <thead>
 <tr class="header">
 <th>Tâche</th>
-<th>Informations supplémentaires</th>
+<th>Plus d'informations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Demander à la communauté.</td>
-<td>Accédez à la page <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Communauté Dynamics 365 for Finance and Operations</span></a> pour demander l'aide de la communauté Dynamics.</td>
+<td>Accédez à la page <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Communauté Dynamics 365 for Finance and Operations</span></a> pour demander l'aide de la communauté Dynamics.</td>
 </tr>
 <tr class="even">
 <td>Utiliser l'outil Recherche d'incidents.</td>
@@ -90,8 +89,7 @@ Pour les questions techniques relatives à la connexion ou à l'accès à Custom
 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-- [Obtenir de l'aide sur Dynamics 365 for Retail](../../retail/retail-support.md)
-- [Obtenir de l'aide sur Dynamics 365 for Talent](../../talent/talent-support.md)
+- [Obtenir de l'aide pour Dynamics 365 for Retail](../../retail/retail-support.md)
+- [Obtenir de l'aide pour Dynamics 365 for Talent](../../talent/talent-support.md)
 - Pour plus d'informations sur les offres de support Microsoft Dynamics, voir [Support en ligne Microsoft Dynamics](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer des groupes de taxe et groupes de taxe d'article"
-description: "Cet enregistrement de tâche décrit le paramétrage des groupes Taxe et Taxe d'article."
+---
+title: Paramétrer des groupes de taxe et groupes de taxe d'article
+description: Cet enregistrement de tâche décrit le paramétrage des groupes Taxe et Taxe d'article.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ec5bbe37aa06f18172c417e903538cadc8a6f312
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4d7f1093edcfff65fd466fa8138b1bb5203648b3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320050"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Paramétrer des groupes de taxe et groupes de taxe d'article
 
@@ -49,5 +49,4 @@ Cet enregistrement de tâche décrit le paramétrage des groupes Taxe et Taxe d'
 18. Dans le champ Code taxe, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 19. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 20. Cliquez sur Enregistrer.
-
 

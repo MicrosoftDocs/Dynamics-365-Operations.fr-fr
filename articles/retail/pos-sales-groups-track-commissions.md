@@ -5,9 +5,9 @@ author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325110"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Suivre les commissions dans le point de vente (PDV) avec des groupes de ventes
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ Le PDV permet aux utilisateurs de configurer les groupes de boutons, qui sont in
 ## <a name="calculating-commissions"></a>Calcul des commissions
 
 La commission est calculée pour les collaborateurs aux groupes de ventes spécifiés lors de la validation du relevé ou de la validation d'une commande client. Le montant de la commission est déterminé sur le partage de la commission du collaborateur, comme défini dans le groupe de ventes et les paramètres associés de calcul de la commission pour le client et/ou les produits sur la transaction.
-

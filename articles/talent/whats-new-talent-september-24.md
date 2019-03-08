@@ -1,31 +1,31 @@
 ---
-title: "Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (24 septembre 2018)"
-description: "Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version actuelle de Microsoft Dynamics 365 for Talent Core HR."
+title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (24 septembre 2018)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 94950fbe5c1aad3dfbd3de59d1bcb47337ff68ea
 ms.openlocfilehash: aeb75fe4c775b9003c6429de536498f495224098
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304379"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-24-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (24 septembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-24-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (24 septembre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,3 @@ Cette version contient plusieurs correctifs de bogue supplémentaires.
 ## <a name="known-issue"></a>Problème connu
 
 -   **Problème** : lors de l'ajout d'une nouvelle pièce jointe à un collaborateur, les boutons **Nouveau** et **Modifier** sont grisés. **Solution de contournement** : avant d'ouvrir la page de la pièce jointe, vérifiez que les récapitulatifs de la page **Collaborateur** sont fermés. Si les récapitulatifs sont fermés lorsque la page **Collaborateur** est chargée, les boutons des pièces jointes sont activés. (Ce problème sera résolu dans la prochaine mise à jour de la plateforme.)
-

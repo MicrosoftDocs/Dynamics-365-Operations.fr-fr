@@ -1,13 +1,13 @@
 ---
-title: "Traiter la rémunération"
-description: "Le traitement de la rémunération vous permet de calculer les nouveaux montants de rémunération de vos employés en fonction des augmentations pour mérite, des cibles d'augmentation au mérite et des performances."
+title: Traiter la rémunération
+description: Le traitement de la rémunération vous permet de calculer les nouveaux montants de rémunération de vos employés en fonction des augmentations pour mérite, des cibles d'augmentation au mérite et des performances.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304388"
 ---
-
 # <a name="process-compensation"></a>Traiter la rémunération
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Lorsque les montants de rémunération ont été revus pour un employé et que l
 Une fois qu'un ou que plusieurs événements d'employé ont reçu leur statut mis à jour et approuvé, ils peuvent être chargés dans les enregistrements de rémunération fixe des employés. Cela peut se faire, soit en sélectionnant chaque événement d'employé et en cliquant sur le bouton **Charger la rémunération d'employé** dans la page **Résultats des employés**, soit en cliquant sur **Charger la rémunération** dans la page **Résultats du processus** pour charger tous les événements d'employé approuvés simultanément.
 
 Cliquer sur **OK** dans la boîte de dialogue **Charger la rémunération** permet d'ajouter des lignes d'action de rémunération autre que zéro à la page **Rémunération fixe de l'employé**.
-

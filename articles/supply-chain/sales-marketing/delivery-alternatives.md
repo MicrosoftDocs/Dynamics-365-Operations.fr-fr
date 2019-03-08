@@ -1,13 +1,13 @@
 ---
 title: Autres modes de livraison
-description: "Les responsables des commandes client peuvent utiliser la page Autres modes de livraison pour connaître les options alternatives d'exécution de commande."
+description: Les responsables des commandes client peuvent utiliser la page Autres modes de livraison pour connaître les options alternatives d'exécution de commande.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 1fbf8f08322c954a482777abcf041ff0b9d8fb77
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328376"
 ---
-
 # <a name="delivery-alternatives"></a>Autres modes de livraison
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,7 @@ La méthode de contrôle de la date de livraison détermine comment le système 
 <td><strong>Description</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Aucun</strong></td>
+<td><strong>Aucune</strong></td>
 <td><ul>
 <li>Les alternatives de livraison pour les lignes de vente ne sont pas prises en charge. Cette option arrête le contrôle des données de livraison.</li>
 </ul></td>
@@ -150,7 +149,6 @@ Cet onglet met en surbrillance l'impact de l'alternative de livraison sélection
 --------
 
 [Promesse de commande](delivery-dates-available-promise-calculations.md)
-
 
 
 

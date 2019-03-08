@@ -1,13 +1,13 @@
 ---
-title: "Intégration des immobilisations"
-description: "Le module Immobilisations peut être intégré avec les modules Comptabilité, Gestion des stocks, Ventes et Achats. Vous pouvez également paramétrer le module Immobilisations en vue de son intégration avec les commandes fournisseur."
+title: Intégration des immobilisations
+description: Le module Immobilisations peut être intégré avec les modules Comptabilité, Gestion des stocks, Ventes et Achats. Vous pouvez également paramétrer le module Immobilisations en vue de son intégration avec les commandes fournisseur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1f1cf8ef9f75b7463188d47d8e8dd0efff61a030
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336978"
 ---
-
 # <a name="fixed-assets-integration"></a>Intégration des immobilisations
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ Pour supprimer l'association entre un projet et une immobilisation, désactivez 
 Vous pouvez également identifier une immobilisation que vous créez ou fabriquez comme partie intégrante d'un projet d'estimation. À la fin d'un tel projet, vous avez la possibilité de valider automatiquement une transaction d'acquisition d'immobilisation.
 
 Pour plus d'informations, voir [Acquérir les actifs via l'approvisionnement](acquire-assets-procurement.md)
-
 
 
 

@@ -1,31 +1,30 @@
 ---
 title: Accords de service
-description: "Les accords de service permettent de définir les ressources utilisées dans une visite de service classique et leur mode de facturation au client."
+description: Les accords de service permettent de définir les ressources utilisées dans une visite de service classique et leur mode de facturation au client.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c6425dcf1c89f625d997be0dd4a52aaecb6e6d65
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: bf9df2a31c758ba6b63ac7952e00065df04552dc
-ms.openlocfilehash: aaff0c1d71fcf2656d5d6e76a2bf4b7b3a699281
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/19/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315036"
 ---
-
 # <a name="service-agreements"></a>Accords de service
 
 [!include [banner](../includes/banner.md)]
@@ -80,4 +79,3 @@ Chaque ligne d'accord de service décrit précisément le contenu de la tâche d
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Création d'accords de service](create-service-agreements.md)
-

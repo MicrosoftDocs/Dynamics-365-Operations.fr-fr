@@ -1,13 +1,13 @@
 ---
-title: "Vue d'ensemble de la fidélité"
-description: "Cette rubrique décrit les fonctionnalités de fidélité dans Microsoft Dynamics 365 for Retail et les étapes de configuration correspondantes permettant au détaillant de démarrer facilement leurs programmes de fidélité."
+title: Vue d'ensemble de la fidélité
+description: Cette rubrique décrit les fonctionnalités de fidélité dans Microsoft Dynamics 365 for Retail et les étapes de configuration correspondantes permettant au détaillant de démarrer facilement leurs programmes de fidélité.
 author: scott-tucker
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 01/08/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 09d4e46694e89b648981352f64da4a43ab1522e1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320119"
 ---
-
 # <a name="loyalty-overview"></a>Vue d'ensemble de la fidélité
 
 [!include [banner](includes/banner.md)]
 
-Les programmes de fidélité peuvent améliorer la fidélité des clients en les récompensant pour leurs interactions avec la marque du détaillant. Dans Microsoft Dynamics 365 for Retail, vous pouvez paramétrer des programmes de fidélité simples ou complexes qui s'appliquent entre les entités juridiques de tout canal de vente au détail. Cette rubrique décrit les fonctionnalités de fidélité dans Microsoft Dynamics 365 for Retail et les étapes de configuration correspondantes permettant au détaillant de démarrer facilement leurs programmes de fidélité.
+Les programmes de fidélité peuvent améliorer la fidélité des clients en les récompensant pour leurs interactions avec la marque du détaillant. Dans Microsoft Dynamics 365 for Retail, vous pouvez paramétrer des programmes de fidélité simples ou complexes qui s'appliquent entre les entités juridiques de tout canal de vente au détail. Cette rubrique décrit les fonctionnalités de fidélité dans Microsoft Dynamics 365 for Retail et les étapes de configuration correspondantes permettant au détaillant de démarrer facilement leurs programmes de fidélité.
 
 Vous pouvez paramétrer votre programme de fidélité de manière à ce qu'il inclut les options suivantes.
 
@@ -43,7 +42,7 @@ Vous pouvez paramétrer votre programme de fidélité de manière à ce qu'il in
 
 ## <a name="setting-up-loyalty-programs"></a>Paramétrage des programmes de fidélité
 
-Vous devez paramétrer plusieurs composants pour activer la fonctionnalité de fidélité dans Dynamics 365 for Retail. Le diagramme suivant illustre les composants de fidélité et comment ils sont liés les uns aux autres.
+Vous devez paramétrer plusieurs composants pour activer la fonctionnalité de fidélité dans Dynamics 365 for Retail. Le diagramme suivant illustre les composants de fidélité et comment ils sont liés les uns aux autres.
 
 ![Flux de processus du paramétrage du programme de fidélité](./media/loyaltyprocess.gif "Composants de fidélité et comment ils sont liés les uns aux autres")
 
@@ -70,7 +69,7 @@ Le tableau suivant décrit les processus qui doivent être exécutés pour envoy
 
 | Nom du processus                         | Description | Nom de la page |
 |--------------------------------------|-------------|-----------|
-| 1050 (informations sur la fidélité)           | Exécutez ce processus pour envoyer les données de fidélité de Dynamics 365 for Retail aux magasins de vente au détail. Il est recommandé de planifier l'exécution régulière de ce processus, de manière à ce que les données de fidélité soient transmises à tous les magasins. | Programme de distribution |
+| 1050 (informations sur la fidélité)           | Exécutez ce processus pour envoyer les données de configuration de fidélité de Dynamics 365 for Retail aux magasins de vente au détail. Il est recommandé de planifier l'exécution régulière de ce processus, de manière à ce que les données de fidélité soient transmises à tous les magasins. | Programme de distribution |
 | Traiter les programmes de fidélité              | Exécutez ce processus pour associer les plans de fidélité aux canaux de vente au détail auxquels le plan de fidélité est affecté. Ce processus peut être planifié pour s'exécuter en tant que processus de traitement par lots. Vous devez exécuter ce processus si vous modifiez les données de configuration de fidélité, telles que les plans de fidélité, les programmes de fidélité ou les points de récompense de fidélité. | Traiter les programmes de fidélité |
 | Traiter les transactions de fidélité hors connexion | Exécutez ce processus pour mettre à jour les cartes de fidélité de manière à inclure les transactions qui ont été traitées hors connexion. Ce processus s'applique uniquement si la case à cocher **Gagner hors connexion** est activée dans la page **Paramètres partagés de la vente au détail**, afin que des récompenses puissent être gagnées hors connexion. | Traiter les transactions de fidélité hors connexion |
 | Mettre à jour les niveaux de cartes de fidélité            | Exécutez ce processus pour évaluer l'activité de bénéfice du client par rapport aux règles de niveau d'un programme de fidélité et mettre à jour le statut de niveau du client. Ce processus est nécessaire uniquement si vous modifiez les règles de niveau dans les programmes de fidélité et que vous souhaitez que les règles mises à jour soient rétroactivement appliquées aux cartes de fidélité déjà émises. Ce processus peut être exécuté en tant que processus de traitement par lots ou pour des cartes individuelles. | Mettre à jour les niveaux de cartes de fidélité |
@@ -90,7 +89,7 @@ Retail dispose d'une nouvelle fonctionnalité de programme de fidélité dans le
 
     ![Affiliations exclues](./media/Excluded%20affiliations.png "Exclure les affiliations de gagner des points de fidélité")
     
-- Les détaillants peuvent générer des numéros de carte de fidélité dans les canaux. Avant la mise à jour d'octobre 2018, les détaillants pouvaient utiliser des cartes de fidélité physiques ou générer une carte de fidélité à l'aide de certaines informations client uniques telles qu'un numéro de téléphone. Pour permettre la génération automatique de cartes de fidélité dans les magasins de vente au détail, activez **Générer un numéro de la carte de fidélité** dans le profil de la fonctionnalité associée au magasin. Pour les canaux en ligne, les détaillants peuvent utiliser l'API IssueLoyaltyCard pour fournir des cartes de fidélité aux clients. Les détaillants peuvent fournir un numéro de carte de fidélité à cette API, qui sera utilisée pour générer la carte de fidélité, ou le système utilise la souche de numéros de cartes de fidélité définie dans Dynamics 365 for Retail. Toutefois, en l'absence de souche de numéros définie, et si le détaillant ne fournit pas de numéro de carte de fidélité en appelant l'API, une erreur s'affiche.
+- Les détaillants peuvent générer des numéros de carte de fidélité dans les canaux. Avant la mise à jour d'octobre 2018, les détaillants pouvaient utiliser des cartes de fidélité physiques ou générer une carte de fidélité à l'aide de certaines informations client uniques telles qu'un numéro de téléphone. Pour permettre la génération automatique de cartes de fidélité dans les magasins de vente au détail, activez **Générer un numéro de la carte de fidélité** dans le profil de la fonctionnalité associée au magasin. Pour les canaux en ligne, les détaillants peuvent utiliser l'API IssueLoyaltyCard pour fournir des cartes de fidélité aux clients. Les détaillants peuvent fournir un numéro de carte de fidélité à cette API, qui sera utilisée pour générer la carte de fidélité, ou le système utilise la souche de numéros de cartes de fidélité définie dans Dynamics 365 for Retail. Toutefois, en l'absence de souche de numéros définie, et si le détaillant ne fournit pas de numéro de carte de fidélité en appelant l'API, une erreur s'affiche.
 
     ![Générer une carte de fidélité](./media/Generate%20loyalty%20card.png "Générer automatiquement un numéro de carte de fidélité")
 
@@ -118,12 +117,29 @@ Retail dispose d'une nouvelle fonctionnalité de programme de fidélité dans le
 
     ![Points arrivant à expiration](./media/Expiring%20points.png "Afficher les points arrivant à expiration")
     
-## <a name="upcoming-enhancements"></a>Améliorations à venir
 
-Les fonctionnalités suivantes seront disponibles dans les futures mises à jour mensuelles de Dynamics 365 for Retail.
-    
-- Les clients souhaitent pouvoir afficher les détails du solde de points de fidélité sur les canaux côté consommateur. De même, il est important pour les caissiers d'afficher l'historique des points de fidélité du client dans MPOS/CPOS pour répondre rapidement à toutes les requêtes du client. Dans une prochaine version mensuelle, les clients et les caissiers pourront afficher les détails de l'historique des points de fidélité.
-- De nombreux détaillants peuvent récompenser de points de fidélité uniquement en fonction des transactions de vente, mais les détaillants davantage orientés client souhaitent récompenser leurs clients pour toutes leurs activités d'engagement avec leur marque. Par exemple, ils souhaitent offrir des récompenses pour remplir une enquête en ligne, visiter un magasin, aimer les détaillants sur Facebook, tweeter à propos du détaillant, etc. À l'avenir, nous ajouterons la fonctionnalité d'ajout de points de fidélité pour toute activité client. Pour cela, le détaillant peut définir un « Autre type d'activité » et définir les règles de bénéfice pour ces activités. Nous exposerons également une API de serveur Retail qui pourra être appelée lorsqu'une activité sera identifiée qui utilise la règle de bénéfice pour récompenser des points de fidélité requis.
-- Pour permettre une véritable expérience de vente au détail omni-canal, nous permettrons aux clients de gagner et d'échanger des points de fidélité entre les canaux.
-- L'expédition gratuite ou avec remise est l'un des facteurs les plus motivants pour que les clients achètent en ligne. Pour permettre aux détaillants de configurer des promotions sur l'expédition, nous introduirons un nouveau type de promotion dans lequel le détaillant pourra définir des seuils qui, une fois atteints, qualifieront les clients pour une expédition gratuite ou avec remise.
+- Avec la version 8.1.3, nous avons activé l'option « Paiement fidélité » dans le canal de centre d'appels. Pour activer cette option, créez un mode de paiement de fidélité et associez-le au centre d'appels. 
 
+>[!NOTE]
+> Parce que les paiements de fidélité sont définis comme modes de paiement, vous devrez sélectionner une carte depuis la page **Paramétrage de carte**. 
+
+![Paramétrage de la carte fidélité](./media/LoyaltyCardSetup.png "Paramétrage de la carte fidélité")
+
+Une fois ce paramètre défini, les clients peuvent rembourser leurs points de fidélité dans le centre d'appels. En outre, nous améliorons davantage l'expérience utilisateur pour afficher le « Montant couvert par les points fidélité », de telle sorte que les utilisateurs de centre d'appels n'ont pas à accéder à un autre écran pour afficher le solde de fidélité.
+
+- De nombreux détaillants sont en mesure de récompenser de points de fidélité uniquement en fonction des transactions de vente, mais les détaillants davantage orientés client souhaitent récompenser leurs clients pour toutes leurs activités d'engagement avec leur marque. Par exemple, ils souhaitent offrir des récompenses pour remplir une enquête en ligne, visiter un magasin, aimer les détaillants sur Facebook, tweeter à propos du détaillant, etc. Pour cela, le détaillant peut définir tout « Autre type d'activité » et définir les règles de bénéfice pour ces activités. Nous exposerons également une API de serveur Retail « PostNonTransactionalActivityLoyaltyPoints » qui pourra être appelée lorsqu'une activité sera identifiée qui utilise la règle de bénéfice pour récompenser des points de fidélité requis. Cette API anticipe l'ID de carte de fidélité, l'ID de canal et l'autre ID de type d'activité, de sorte que le client qui doit être récompensé puisse être localisé et la règle de rémunération pour l'activité peut être identifiée. 
+
+    L'attribution des points pour les activités de non transaction a généralement deux étapes importantes :
+    - La réalisation d'une activité doit être récompensée.
+    - Récompenser les points appropriés.
+
+    La première étape est externe à Microsoft Dynamics 365 for Retail, comme tweeter sur la marque ou aimer la marque sur Facebook. Une fois cette activité reconnue, les détaillants peuvent appeler l'API de Retail Server mentionné ci-dessus et attribuer les points de fidélité en temps réel. Dans de tels scénarios, une étape de révision est inutile, car une activité s'est produite et les points correspondants doivent être attribués. Toutefois, dans certains scénarios, le détaillant souhaite réviser les enregistrements avant d'attribuer les points. Par exemple, le détaillant a installé un atelier en boutique auquel les clients s'inscrivent sur le site Web d'e-commerce ou toute autre demande de participation à un événement. Cependant, seuls les clients participant doivent gagner des points de fidélité. Pour ce type de scénarios, dans la version 10.0, nous avons introduit une entité de données intitulée **Fidélité de la vente au détail Lignes de type autre activité**. Cette entité de données permet aux détaillants d'utiliser l'environnement d'importation/exportation des données (DIXF) ou l'API OData pour enregistrer les activités quoi doivent récompenser les clients avec des points fidélité. L'entité de données stocke les activités dans un journal intitulé **Lignes de fidélité pour d'autres activités**, qui peut être utilisé à des fins de analyse et de modification. Une fois les données révisées, l'utilisateur informatique peut valider manuellement les lignes d'activité ou exécuter une tâche nommée **Traiter l'autre type d'activité pour les lignes de fidélité**, qui valide toutes les lignes d'activité non publiées et attribue les points aux clients selon les règles de rémunération. Dans le scénario ci-dessus, la demande de participation à un événement appellerait l'API OData pour envoyer les informations client vers Dynamics 365 for Retail. Toutefois, l'utilisateur informatique peut publier les lignes d'activité pour uniquement ces clients ayant participé à l'atelier et supprimer les lignes d'activité pour les autres clients. 
+
+> [!NOTE]
+> Actuellement, le système force les utilisateurs à définir une séquence de numéros pour les « autres types d'activité », mais cette étape ne sera pas obligatoire dans les prochaines versions. Pour définir une séquence de nombres, accédez à **Paramètres partagés de la vente au détail > Séquences de nombres** et sélectionnez une séquence de nombre pour **ID autre type d'activité de fidélité**.
+
+- Pour fournir un bon service client et résoudre efficacement les requêtes client, il est important pour les caissiers d'avoir accès au profil complet des clients. Avec la version 10.0, les caissiers seront en mesure de voir les détails de l'historique du programme de fidélité avec le programme de fidélité associé et les informations associées au PDV.
+- L'expédition gratuite ou avec remise est l'un des facteurs les plus motivants pour que les clients achètent en ligne. Pour permettre aux détaillants de configurer des promotions sur l'expédition, avec la version 10.0, nous avons introduit un nouveau type de promotion intitulée « Remise seuil pour expédition » dans lequel le détaillant pourra définir des seuils qui, une fois atteints, qualifieront les clients pour une expédition gratuite ou avec remise. Par exemple, dépensez 35 USD pour bénéficier d'une « Expédition sous deux jours » gratuite ou « Expédition sous deux jours » gratuite pour tous les clients du programme fidélité. Ces remises s'appliquent uniquement aux frais d'expédition appliqués aux commandes. Parce qu'un détaillant peut définir plusieurs types de frais, comme traitement ou installation, le détaillant doit préciser quels frais sont considérés comme des frais d'expédition. Cette configuration est intitulée « Code frais d'expédition » et est disponible sous l'onglet **Commandes client** sur la page **Paramètres des ventes au détail**. Cette remise respecte toutes les fonctionnalités de remise standard existantes, telles qu'autoriser le détaillant à limiter ces remises avec les coupons de telle sorte que seuls les clients avec des coupons peuvent obtenir ces remises. De plus, ces remises tirent bénéficient de la fonctionnalité des groupes de prix pour déterminer l'éligibilité de telles remises. Par exemple, le détaillant peut choisir d'exécuter ces promotions uniquement dans les canaux en ligne et/ou à travers les canaux pour certains groupes de clients tels que les clients des programmes de fidélité. Une fois que les lignes de commande avec le mode de livraison spécifié répondent au seuil défini, la remise d'expédition est appliquée et réduit les frais d'expédition selon le paramétrage de remise. 
+
+> [!NOTE]
+> Contrairement aux autres remises périodiques, telles que quantité, simple, mix and match et remises seuil, la remise d'expédition ne crée pas de lignes de remise, des mises à jour des frais d'expédition doivent être effectués directement.

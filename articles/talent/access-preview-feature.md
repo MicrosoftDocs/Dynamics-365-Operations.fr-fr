@@ -1,14 +1,14 @@
 ---
-title: "Accéder aux fonctions d'aperçu de Talent"
-description: "Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu. Elle répertorie également les fonctionnalités qui sont actuellement activées pour le mode aperçu."
+title: Accéder aux fonctions d'aperçu de Talent
+description: Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu. Elle répertorie également les fonctionnalités qui sont actuellement activées pour le mode aperçu.
 author: rschloma
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304351"
 ---
-
 # <a name="access-preview-features-in-talent"></a>Accéder aux fonctions d'aperçu de Talent
 
 [!include[banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ Cette rubrique décrit comment un administrateur peut activer les fonctionnalit�
 
 ## <a name="enable-or-disable-preview-features"></a>Activer ou désactiver les fonctionnalités d'aperçu
 
-Vous pouvez utiliser le paramètre **Fonctionnalités d'aperçu** dans le centre d'administration Microsoft Dynamics 365 for Talent pour activer ou désactiver les fonctionnalités d'aperçu. Par défaut, le paramètre est désactivé. L'action d'activation et de désactivation des fonctionnalités d'aperçu est propre à l'environnement.
+Vous pouvez utiliser le paramètre **Fonctionnalités d'aperçu** dans le centre d'administration Microsoft Dynamics 365 for Talent pour activer ou désactiver les fonctionnalités d'aperçu. Par défaut, le paramètre est désactivé. L'action d'activation et de désactivation des fonctionnalités d'aperçu est propre à l'environnement.
 
 > [!IMPORTANT]
 > En activant le paramètre **Fonctionnalités d'aperçu**, vous activez les fonctionnalités d'aperçu pour tous les utilisateurs de votre organisation qui se trouvent dans cet environnement. En désactivant le paramètre, vous désactivez les fonctionnalités d'aperçu et les rendez inaccessibles à vos utilisateurs. Les fonctionnalités d'aperçu ont une prise en charge limitée dans Talent. Elles peuvent utiliser moins de mesures de confidentialité et de sécurité, et elles ne sont pas incluses dans le contrat de niveau de service de Talent. Vous ne devez pas utiliser les fonctionnalités d'aperçu pour traiter des données personnelles (c'est-à-dire, toute information susceptible de vous identifier), ou pour traiter d'autres données soumises à des exigences de conformité juridique ou réglementaire.
@@ -45,7 +44,7 @@ Vous pouvez utiliser le paramètre **Fonctionnalités d'aperçu** dans le centre
 
 #### <a name="attract"></a>Attract
 
-1. Connectez-vous à Microsoft Dynamics 365 for Talent.
+1. Connectez-vous à Microsoft Dynamics 365 for Talent : Attract.
 2. Dans le menu **Paramétrage** (symbole en forme d'engrenage) dans le coin supérieur droit, sélectionnez **Paramètres d'administration**.
 3. Sous l'onglet **Gestion des fonctionnalités**, sélectionnez l'option en regard de **Fonctionnalités d'aperçu** afin qu'elle devienne bleu.
 4. Vous pouvez éventuellement contrôler certaines fonctionnalités en activant/désactivant des fonctionnalités spécifiques sur cette page.
@@ -92,4 +91,3 @@ N'ajoutez pas des données personnelles (toute information susceptible de vous i
 
 > [!TIP]
 > Marquez cette rubrique et consultez-la régulièrement pour rester informé des nouvelles fonctionnalités d'aperçu dès leur parution.
-

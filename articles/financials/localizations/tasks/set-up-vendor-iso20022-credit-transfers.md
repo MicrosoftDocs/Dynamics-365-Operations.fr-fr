@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022"
-description: "Cette procédure illustre comment paramétrer le fournisseur et les informations de compte bancaire spécifiques au fournisseur qui sont requises pour le virement ISO20022 ou toute autre génération du fichier de paiement fournisseur."
+---
+title: Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022
+description: Cette procédure illustre comment paramétrer le fournisseur et les informations de compte bancaire spécifiques au fournisseur qui sont requises pour le virement ISO20022 ou toute autre génération du fichier de paiement fournisseur.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 13b3c37f5d013dd896a456018813f20e5e70350b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f01947840553a65af4aba1309d89f9b3e9ced872
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311609"
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/06/2017
 Cette procédure illustre comment paramétrer le fournisseur et les informations de compte bancaire spécifiques au fournisseur qui sont requises pour le virement ISO20022 ou toute autre génération du fichier de paiement fournisseur. 
 
 La société fictive de démonstration utilisée pour créer cette procédure est DEMF.
-Il s'agit de la quatrième des cinq procédures illustrant le processus de paiement fournisseur à l'aide des configurations de génération d'états électroniques. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Il s'agit de la quatrième des cinq procédures illustrant le processus de paiement fournisseur à l'aide des configurations de génération d'états électroniques. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="set-up-bank-details"></a>Paramétrer les détails bancaires
@@ -51,5 +51,4 @@ Il s'agit de la quatrième des cinq procédures illustrant le processus de paiem
 3. Dans le champ Mode de paiement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 4. Dans la liste, cliquez sur le lien dans la ligne SEPA CT.
 5. Cliquez sur Enregistrer.
-
 

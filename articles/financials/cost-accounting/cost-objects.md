@@ -1,13 +1,13 @@
 ---
-title: "Dimensions d'objets de coût"
-description: "Lorsque vous analysez les coûts, vous utilisez des dimensions d'élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d'objet de coût pour déterminer où vous devez affecter des coûts. Cette rubrique fournit des informations sur les dimensions d'objet de coût."
+title: Dimensions d'objets de coût
+description: Lorsque vous analysez les coûts, vous utilisez des dimensions d'élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d'objet de coût pour déterminer où vous devez affecter des coûts. Cette rubrique fournit des informations sur les dimensions d'objet de coût.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 60a6575387a6ebe3b349a61368a7561d78dc69f3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ed6aa29234f8e9dc8dbb4835ec260adc538989d3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310344"
 ---
-
 # <a name="cost-object-dimensions"></a>Dimensions d'objets de coût
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ Les objets de coût sont appelés *dimensions d'objet de coût*. Une fois que vo
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>Importer les membres de la dimension d'objet de coût à l'aide de connecteurs de données
 Pour faciliter l'importation de membres de dimension d'objet de coût, vous utilisez des connecteurs de données pour récupérer les valeurs des entités à utiliser en tant que dimensions de coût d'objet. Vous pouvez utiliser des connecteurs de données préconçus ou des personnalisés que vous créez.
-
 
 
 

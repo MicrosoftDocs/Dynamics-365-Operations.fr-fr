@@ -1,13 +1,13 @@
 ---
-title: "Stratégies de rapprochement à trois facteurs"
-description: "Cette rubrique fournit des exemples de rapprochement à trois facteurs."
+title: Stratégies de rapprochement à trois facteurs
+description: Cette rubrique fournit des exemples de rapprochement à trois facteurs.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f02f6831709dcc0998c74a9ddd04216a2213970d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318946"
 ---
-
 # <a name="three-way-matching-policies"></a>Stratégies de rapprochement à trois facteurs
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ Les stratégies de rapprochement de factures de cet exemple aident les personnes
 1.  Sammy, travailleur dans le département Réception de Fabrikam, reçoit la quantité totale de machines qui sont expédiées par Contoso. Il entre la quantité 5 sur un accusé de réception de marchandises. Étant donné que la commande fournisseur a été entièrement reçue, le statut de la commande fournisseur passe à Reçu.
 2.  April, coordinatrice des Achats chez Fabrikam, entre et vérifie la facture envoyée par Contoso. Elle vérifie les informations suivantes :
     -   Pour les articles nécessitant un rapprochement à trois facteurs, la quantité de la ligne de facture correspond à la quantité reçue. La quantité reçue est indiquée sur l'accusé de réception de marchandises mis en correspondance avec la facture.
-    -   Pour les articles nécessitant un rapprochement à deux ou trois facteurs, les prix figurant sur la ligne de facture sont compris dans les tolérances définies dans Microsoft Dynamics 365 for Finance and Operations. Cela inclut les types de rapprochement de prix suivants :
+    -   Pour les articles nécessitant un rapprochement à deux ou trois facteurs, les prix figurant sur la ligne de facture sont compris dans les tolérances définies dans Microsoft Dynamics 365 for Finance and Operations. Cela inclut les types de rapprochement de prix suivants :
         -   Rapprochement des prix unitaires nets – Le prix unitaire net de la ligne de facture correspond au prix unitaire net de la ligne de commande fournisseur et est compris dans le pourcentage de tolérance. Dans cet exemple, la tolérance de prix unitaire net est de 8 %.
         -   Rapprochement des prix totaux – Le montant net de la ligne de facture correspond au montant net de la ligne de commande fournisseur et est compris dans le pourcentage et/ou le montant de tolérance. Dans cet exemple, la tolérance de rapprochement des prix totaux est de +15 %.
 
@@ -143,7 +142,6 @@ Si une approbation est requise pour que les factures soient validées avec des �
 
 
 Pour plus d'informations, voir [Rapprochement de factures du module Achats](accounts-payable-invoice-matching.md).
-
 
 
 

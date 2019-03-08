@@ -1,13 +1,13 @@
 ---
-title: "Utilisation d'une remise supérieure à la remise calculée pour un paiement fournisseur"
-description: "Cet article vous fait parcourir un scénario où un escompte de règlement est pris pour un montant qui est supérieur à la remise qui était initialement disponible sur la facture. Ce scénario peut se produire si une organisation parvient à un accord avec le fournisseur pour payer un montant plus bas sur la facture."
+title: Utilisation d'une remise supérieure à la remise calculée pour un paiement fournisseur
+description: Cet article vous fait parcourir un scénario où un escompte de règlement est pris pour un montant qui est supérieur à la remise qui était initialement disponible sur la facture. Ce scénario peut se produire si une organisation parvient à un accord avec le fournisseur pour payer un montant plus bas sur la facture.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 66296bc22cb3b940ed914b77b8c3a7c054d4aa71
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 39830014593b7b1bc2868afffcca0f77a0c8a029
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326835"
 ---
-
 # <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Utilisation d'une remise supérieure à la remise calculée pour un paiement fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Les informations de remise s'affichent au bas de la page **Règlement des transa
 | Montant de l'escompte de règlement à accepter | 60,00     |
 
 Elle valide ensuite le journal des paiements. La facture est entièrement réglée avec un paiement de 940,00 et une remise de 60,00.
-
 
 
 

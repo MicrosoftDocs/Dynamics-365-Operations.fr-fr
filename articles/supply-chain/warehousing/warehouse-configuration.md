@@ -1,13 +1,13 @@
 ---
-title: "Configuration de l'entrepôt"
-description: "Cet article explique comment configurer un entrepôt. Elle contient des informations sur l'activation d'une présentation d'entrepôt et sur les processus d'entrepôt."
+title: Configuration de l'entrepôt
+description: Cet article explique comment configurer un entrepôt. Elle contient des informations sur l'activation d'une présentation d'entrepôt et sur les processus d'entrepôt.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318440"
 ---
-
 # <a name="warehouse-configuration"></a>Configuration de l'entrepôt
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Pour faciliter et accélérer la définition des actions associées à chaque li
 --------
 
 [Configurer l'emplacement dans un entrepôt compatible WMS (guide de tâche)](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

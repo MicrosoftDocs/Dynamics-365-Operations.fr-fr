@@ -1,13 +1,13 @@
 ---
-title: "Effectuer des ajustements manuels sur la prévision de base"
-description: "Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision."
+title: Effectuer des ajustements manuels sur la prévision de base
+description: Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7c7d1fcaaeef7a01b43886e4d69458dbd942439
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 543a88a8df4252e5bf1b6b27b5209650c1ceca0b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315887"
 ---
-
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
 
 [!include [banner](../includes/banner.md)]
@@ -82,7 +81,6 @@ Vous pouvez également effectuer des ajustements manuels de la prévision dans l
 [Surveillance de la précision de la prévision](monitor-forecast-accuracy.md)
 
 [Génération de prévisions de base statistiques](generate-statistical-baseline-forecast.md)
-
 
 
 

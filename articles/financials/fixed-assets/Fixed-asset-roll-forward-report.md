@@ -1,14 +1,14 @@
 ---
-title: "État Récupération d'immobilisations"
-description: "Cette rubrique explique comment utiliser l'état Récupération d'immobilisations."
+title: État Récupération d'immobilisations
+description: Cette rubrique explique comment utiliser l'état Récupération d'immobilisations.
 author: saraschi2
-manager: 
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313748"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>État Récupération d'immobilisations
 
@@ -33,7 +33,7 @@ L'état **Récupération d'immobilisations** fournit, dans un format Microsoft E
 
 L'état **Récupération d'immobilisations** utilise la structure de gestion des états électroniques. Avant d'exécuter l'état, les configurations Modèle d'immobilisations et Récupération d'immobilisations doivent être importées depuis Microsoft Dynamics Lifecycle Services (LCS). Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
-Cet état est disponible dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, ou en tant que correctif pour Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017). Trois correctifs doivent être appliqués aux environnements de la version de juillet 2017 :
+Cet état est disponible dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, ou comme correctif pour Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017). Trois correctifs doivent être appliqués aux environnements de la version de juillet 2017 :
 
 - **KB 4041754 :** la configuration des états électroniques ne peut pas être téléchargée à partir de LCS, car elle n'est pas applicable pour la version actuelle de l'application après application du package de mise à jour de la plateforme
 - **KB 4056107 :** mise à jour cumulative 5 pour les états électroniques
@@ -66,5 +66,4 @@ Le tableau suivant décrit les champs disponibles dans l'état.
 |            Cessions : valeur de vente            |                                                                                               Valeur de vente pour le registre des immobilisations avec une cession (transaction de vente).                                                                                                |
 |           Cessions : valeur de mise au rebut            |                                                                                               Valeur de mise au rebut pour le registre des immobilisations avec une cession (transaction de mise au rebut).                                                                                               |
 |           Cessions : résultat            |                                                                                 Valeur du résultat qui est calculée dans le cadre de la transaction de cession pour le registre des immobilisations.                                                                                 |
-
 

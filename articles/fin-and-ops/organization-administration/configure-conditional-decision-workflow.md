@@ -1,13 +1,13 @@
 ---
-title: "Configurer des décisions conditionnelles dans un workflow"
-description: "La procédure suivante permet de configurer les propriétés d'une décision conditionnelle."
+title: Configurer des décisions conditionnelles dans un workflow
+description: La procédure suivante permet de configurer les propriétés d'une décision conditionnelle.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a01290b3e2810aa1762f2230e8d01d219d6b10bf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 64e8b2ed5c538cb982f9f03c1db24e38472be868
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328192"
 ---
-
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Configurer des décisions conditionnelles dans un workflow
 
 [!include [banner](../includes/banner.md)]
@@ -54,4 +53,3 @@ Le système détermine la branche utilisée en évaluant si le document soumis r
     2. Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l'écran.
     3. Cliquez sur **Tester**. Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées.
     4. Cliquez sur **OK** ou sur **Annuler** pour revenir à l'écran **Propriétés**.
-

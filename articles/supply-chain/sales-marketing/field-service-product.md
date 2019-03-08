@@ -1,37 +1,36 @@
 ---
 title: Synchroniser des produits de Finance and Operations sur des produits de Field Service
-description: "Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les produits entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Field Service."
+description: Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les produits depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 3f26240ec289f5ddcc2682e598bbf93f516b99af
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: bf5de13fee6db1b467c1cf4d5cc65b46c67b29fe
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316324"
 ---
-
 # <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>Synchroniser des produits de Finance and Operations sur des produits de Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les produits entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Field Service.
+Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les produits depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
 
 Le modèle **Produits Field Service (Fin and Ops vers Field Service)** utilisé est basé sur le modèle **Produits (Fin and Ops vers Sales) – Direct** de Prospect en disponibilités. Pour plus d'informations, voir [Produits (entre Fin and Ops et Sales) - Direct](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
@@ -74,4 +73,3 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 ### <a name="field-service-products-fin-and-ops-to-field-service-products---products"></a>Produits Field Service (Fin and Ops vers Field Service) : Produits - produits
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSProduct.png)](./media/FSProduct.png)
-

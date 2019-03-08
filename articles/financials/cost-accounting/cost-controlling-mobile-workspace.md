@@ -1,13 +1,13 @@
 ---
-title: "Espace de travail mobile Contrôle des coûts"
-description: "Cette rubrique fournit des informations sur l'espace de travail mobile Contrôle des coûts. Cet espace de travail permet aux responsables de centre de coût d'afficher des informations sur les performances du centre de coût à tout moment et n'importe où."
+title: Espace de travail mobile Contrôle des coûts
+description: Cette rubrique fournit des informations sur l'espace de travail mobile Contrôle des coûts. Cet espace de travail permet aux responsables de centre de coût d'afficher des informations sur les performances du centre de coût à tout moment et n'importe où.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: b6cdb69f32de2118e685c149605d50b78105c098
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317566"
 ---
-
 # <a name="cost-controlling-mobile-workspace"></a>Espace de travail mobile Contrôle des coûts
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Contrô
 
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Microsoft Dynamics 365 for Unified Operations
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 L'espace de travail mobile **Contrôle des coûts** fournit une vue instantanée des performances actuelles des centres de coût en comparant les coûts réels aux coûts budgétés. Vous pouvez accéder au statut des éléments de coût individuels.
 
 Par exemple, un employé reçoit une invitation à une conférence internationale, mais l'organisation doit couvrir toutes les dépenses de déplacement. L'employé demande à son responsable s'il peut assister à la conférence. Le responsable ouvre rapidement l'espace de travail **Contrôle des coûts** sur son téléphone portable de voir s'il dispose du budget nécessaire.
@@ -76,13 +75,13 @@ L'espace de travail mobile **Contrôle des coûts** fournit les actions, les vue
     [![Carte pour un élément de coût ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>Conditions préalables
-Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
+Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions préalables si vous utilisez Microsoft Dynamics 365 for Finance and Operations
-Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Contrôle des coûts**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions requises si vous utilisez Microsoft Dynamics 365 for Finance and Operations
+Si Microsoft Dynamics 365 for Finance and Operationsa été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Contrôle des coûts**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
-Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes.
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
+Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes.
 
 <table>
 <thead>
@@ -99,7 +98,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 
 <td>Le KB 4013633 est une mise à jour X++ ou un correctif de métadonnées qui contient l'espace de travail mobile <strong>Contrôle des coûts</strong>. Pour implémenter le KB 4013633, un administrateur système doit procéder comme suit :
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées depuis Microsoft Dynamics Lifecycle Services</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Installez le correctif de métadonnées</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Créez un module déployable</a> contenant le modèle <strong>SCMMobile</strong> et téléchargez le module déployable vers LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Appliquer le package déployable</a>.</li>
@@ -118,7 +117,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
 Téléchargez et installez l'application mobile Dynamics 365 for Unified Operations :
 
--   [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
@@ -144,5 +143,4 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 10. Sélectionnez le lien **Détails pour la période actuelle**.
 11. Affichez les performances des éléments de coût individuels.
 12. Vous pouvez également rechercher des éléments de coût spécifiques.
-
 

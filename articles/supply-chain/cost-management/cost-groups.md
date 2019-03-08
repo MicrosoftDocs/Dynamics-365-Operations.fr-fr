@@ -1,13 +1,13 @@
 ---
-title: "Groupes de coûts"
-description: "Les groupes de coûts servent de base pour la segmentation et l'analyse des contributions de coûts dans le coût calculé d'un article fabriqué, telles que les contributions de coûts pour les matériaux, la main-d'œuvre et les frais généraux. La segmentation des groupes de coûts a plusieurs synonymes dans les environnements de fabrication, comme répartition des coûts, décomposition des coûts ou classification des coûts."
+title: Groupes de coûts
+description: Les groupes de coûts servent de base pour la segmentation et l'analyse des contributions de coûts dans le coût calculé d'un article fabriqué, telles que les contributions de coûts pour les matériaux, la main-d'œuvre et les frais généraux. La segmentation des groupes de coûts a plusieurs synonymes dans les environnements de fabrication, comme répartition des coûts, décomposition des coûts ou classification des coûts.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 022cca99bc5ad1f4c023b0b7aba748a2ef6b1d60
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337415"
 ---
-
 # <a name="cost-groups"></a>Groupes de coûts
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Un type de groupe de coûts et un comportement pour une segmentation supplément
 
 -   **Type de groupe de coûts** − Chaque groupe de coûts peut se voir affecter un type de groupes de coûts pour indiquer que le groupe de coûts s'applique au matériel direct, à la fabrication directe ou à la sous-traitance directe, ou pour le désigner comme étant indirect ou indéterminé. Un groupe de coûts désigné comme faisant partie du matériel direct peut être affecté aux articles. Un groupe de coûts de la fabrication directe peut être affecté aux catégories de coûts. Un groupe de coûts de sous-traitance directe peut être affecté à un type de produit de service, pour vous permettre de classer les coûts associés à l'achat de service en activités de sous-traitance. Un groupe de coûts indirects peut être affecté aux coûts indirects pour les surcharges ou les taux. Un groupe de coûts indéterminé peut être affecté aux articles, aux catégories de coûts ou aux coûts indirects. L'affectation d'un type de groupe de coûts a différents objectifs. Premièrement, elle offre la possibilité d'affecter un groupe de coûts et d'afficher la liste des groupes de coûts applicables. Deuxièmement, elle offre une segmentation supplémentaire pour la génération d'états. Troisièmement, elle peut servir à l'affectation de comptes généraux pour les écarts.
 -   **Comportement** − Un comportement peut éventuellement être affecté à chaque groupe de coûts pour indiquer que le groupe de coûts s'applique aux coûts fixes ou variables. Un groupe de coûts avec la valeur null pour le comportement est traité comme des coûts variables. L'affectation d'un comportement sert uniquement à la génération d'états. Par exemple, les coûts peuvent être affichés avec la segmentation de coûts fixes et variables sur la feuille d'évaluation des coûts et dans la page**Repositionnement des coûts par groupe de coûts**. Si vous affectez un pourcentage de paramétrage de profit à chaque groupe de coûts, le calcul de nomenclature définit un prix de vente suggéré basé sur une approche coût plus majoration.
-
 
 
 

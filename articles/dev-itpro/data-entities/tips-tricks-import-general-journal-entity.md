@@ -1,13 +1,13 @@
 ---
-title: "Bonnes pratiques pour l'importation de numéros document à l'aide de l'entité du journal des opérations diverses"
-description: "Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l'entité de Journal des opérations diverses."
+title: Bonnes pratiques pour l'importation de numéros document à l'aide de l'entité du journal des opérations diverses
+description: Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l'entité de Journal des opérations diverses.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 29cb4b940875b96cabaff540360674da528f8f39
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322511"
 ---
-
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Bonnes pratiques pour l'importation de numéros document à l'aide de l'entité du journal des opérations diverses
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ Les sections suivantes décrivent l’effet de ces paramètres et expliquent ég
 - Si le champ **N° de document** est défini sur **Généré automatiquement**, l’importation ne réussira pas. Le paramètre **Généré automatiquement** pour le champ **N° de document** n’est pas pris en charge.
 
 Par défaut, l’entité de journal des opérations diverses utilise le traitement basé sur les jeux. Après avoir évalué les besoins commerciaux de votre organisation, vous pouvez modifier le paramètre **Traitement basé sur les jeux** en cliquant sur **Entités de données** dans l'espace de travail **Gestion des données**. Le traitement basé sur les jeux est utilisé pour accélérer le processus d’importation. Si vous n’utilisez pas le traitement basé sur les jeux, l’importation de l'entité de journal des opérations diverses sera plus lente.
-

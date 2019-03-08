@@ -1,13 +1,13 @@
---- 
-title: "Traiter le journal de répartition comptable"
-description: "Utilisez la page Traiter la demande de répartition pour créer un journal de répartition qui puisse être consulté et approuvé avant la validation dans la comptabilité ou être validé directement dans la comptabilité."
+---
+title: Traiter le journal de répartition comptable
+description: Utilisez la page Traiter la demande de répartition pour créer un journal de répartition qui puisse être consulté et approuvé avant la validation dans la comptabilité ou être validé directement dans la comptabilité.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d2046e25719c9023bee99736488a4ee6f22723fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7d299657758b1e1322aef07bfe8c71f7bf00b0ca
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335644"
 ---
 # <a name="process-ledger-allocation-journal"></a>Traiter le journal de répartition comptable
 
@@ -43,5 +43,4 @@ Utilisez la page Traiter la demande de répartition pour créer un journal de r�
 10. Cliquez sur Lignes.
 11. Cliquez sur Valider.
 12. Cliquez sur Valider.
-
 

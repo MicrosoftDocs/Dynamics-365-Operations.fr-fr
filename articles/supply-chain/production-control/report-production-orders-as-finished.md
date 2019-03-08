@@ -1,13 +1,13 @@
 ---
-title: "Déclaration de fin des ordres de fabrication"
-description: "La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l'ordre de fabrication au stock."
+title: Déclaration de fin des ordres de fabrication
+description: La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l'ordre de fabrication au stock.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdJournalTransJob, ProdJournalTransProd, ProdJournalTransRoute, ProdParmReportFinished, ProdRouteOprOverview
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 61c12ee3a831abcb46af18645eba55fe100c99c9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f8adcbcc2157058151c26179eb2eb925b0092d2d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315818"
 ---
-
 # <a name="report-production-orders-as-finished"></a>Déclaration de fin des ordres de fabrication
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ La quantité est déclarée à l'emplacement de sortie. Le travail d'entrepôt e
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Définir un ordre de fabrication sur Déclaration de fin
 Vous pouvez définir un ordre de fabrication sur **Déclaration de fini** via la fonction standard de mise à jour de l'ordre de fabrication ou via les journaux de gammes et de bons de travail, ou encore via le journal des **déclarations de fin**. Vous pouvez également mettre à jour le stade **Déclaration de fin** via les pages Terminal des bons de travail et Périphérique pour le bon de travail lorsque vous faites une déclaration concernant la dernière tâche de l'ordre de fabrication. Enfin, vous pouvez activer l'option **Déclaration de fin** comme processus pour la solution de l'appareil portable d'entrepôt.  
-
 
 
 

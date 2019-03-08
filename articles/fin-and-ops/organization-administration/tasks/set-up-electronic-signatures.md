@@ -1,13 +1,13 @@
---- 
-title: "Paramétrage de signatures électroniques"
-description: "Utilisez cette procédure pour configurer des signatures électroniques."
+---
+title: Paramétrage de signatures électroniques
+description: Utilisez cette procédure pour configurer des signatures électroniques.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysConfiguration, SIGParameters, SIGReasonCode, SIGProcSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eb6bf529b1e94d598e219482f182140402f2928a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 11fee0b2358e6a2b84c221f8eb06e32c888e5f44
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318578"
 ---
 # <a name="set-up-electronic-signatures"></a>Paramétrage de signatures électroniques
 
@@ -77,5 +77,4 @@ Utilisez cette procédure pour configurer des signatures électroniques. Une sig
     * Spécifiez le moment auquel une signature est obligatoire.     Sélectionnez Toujours si une signature est obligatoire lorsque les données d'un champ sont modifiées.     Sélectionnez Uniquement pour spécifier qu'une signature n'est obligatoire que dans certaines conditions. Si vous sélectionnez Uniquement, vous devez également sélectionner l'une des options suivantes : Lorsqu'un enregistrement est inséré, Lorsqu'un enregistrement est mis à jour, ou Lorsqu'un enregistrement est supprimé.  
 10. Cliquez sur Enregistrer.
 11. Fermez la page.
-
 

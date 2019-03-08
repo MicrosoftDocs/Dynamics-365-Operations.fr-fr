@@ -1,13 +1,13 @@
 ---
-title: "Suivi du coût moyen en vigueur par dimension de stock"
-description: "Un groupe de dimensions de stock est associé à chaque article en stock. Par conséquent, le prix de revient moyen en vigueur d'un article est calculé à partir des dimensions de stock sélectionnées qui sont suivies au niveau financier."
+title: Suivi du coût moyen en vigueur par dimension de stock
+description: Un groupe de dimensions de stock est associé à chaque article en stock. Par conséquent, le prix de revient moyen en vigueur d'un article est calculé à partir des dimensions de stock sélectionnées qui sont suivies au niveau financier.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventOnhandItem
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f8ade2981056e9e4f49726a8c01c45f77b8e151b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 48db7ff047a50343bd473d2c71f878e4ee2201e5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313495"
 ---
-
 # <a name="track-running-average-cost-per-inventory-dimension"></a>Suivi du coût moyen en vigueur par dimension de stock
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Le prix de revient moyen en vigueur pour l'entrepôt EG est de 11,20 EUR, et le 
 -   Une commande fournisseur comportant deux articles à un prix de revient de 15,00 EUR a été facturée pour l'entrepôt EG et le lot BBB.
 
 Le prix de revient moyen en vigueur pour l'entrepôt EG et le lot AAA est de 11,20 EUR, et le prix de revient moyen en vigueur pour l'entrepôt EP et le lot BBB est de 15,00 EUR.
-
 
 
 

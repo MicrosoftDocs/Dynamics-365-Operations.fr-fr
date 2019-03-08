@@ -1,13 +1,13 @@
 ---
-title: "Lettres de crédit"
-description: "Les lettres de crédit sont des documents bancaires fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales."
+title: Lettres de crédit
+description: Les lettres de crédit sont des documents bancaires fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28c8056557a8680c60cd843634f5c4f3625a8859
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 64446efd518390ee2a7204e2c977fa4174581808
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317382"
 ---
-
 # <a name="letters-of-credit"></a>Lettres de crédit
 
 [!include [banner](../includes/banner.md)]
@@ -52,6 +51,5 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Exporter une lettre de crédit](tasks/export-letter-credit.md)
 
 [Créer un accord d'établissement bancaire pour une lettre de crédit](tasks/create-bank-facility-agreement-letter-credit.md)
-
 
 

@@ -1,31 +1,30 @@
 ---
-title: "Enregistrer les guides de tâche dans LCS et les relire"
-description: "Cette rubrique explique comment enregistrer les guides de tâches dans Microsoft Dynamics Lifecycle Services (LCS) puis les relire."
+title: Enregistrer les guides de tâches dans LCS et les rediffuser
+description: Cette rubrique explique comment enregistrer les guides de tâches dans Microsoft Dynamics Lifecycle Services (LCS) puis les relire.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 40b4c3154a04a557b8a670e1f1ae3722c71122fe
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304386"
 ---
-
-# <a name="save-task-guides-to-lcs-and-replay-them"></a>Enregistrer les guides de tâche dans LCS et les relire
+# <a name="save-task-guides-to-lcs-and-replay-them"></a>Enregistrer les guides de tâches dans LCS et les rediffuser
 
 [!include [banner](includes/banner.md)]
 
@@ -66,4 +65,3 @@ Procédez comme suit pour relire le guide de tâche sur LCS.
 2. Sélectionnez **Ouvrir depuis LCS**.
 3. Sélectionnez la bibliothèque et le nœud BPM dans lesquels se trouve le guide de tâche enregistré.
 4. Ouvrez le guide de tâche.
-

@@ -1,13 +1,13 @@
 ---
-title: "Paramètres de langue et d'utilisateur de l'application Point of sale (POS)"
-description: "Cette rubrique décrit la modification des paramètres de langue dans Retail Modern POS (MPOS) et Cloud POS."
+title: Paramètres de langue et d'utilisateur de l'application Point of sale (POS)
+description: Cette rubrique décrit la modification des paramètres de langue dans Retail Modern POS (MPOS) et Cloud POS.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: faf8cdcee70b55842072298b51789f6cd7a577af
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336748"
 ---
-
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Paramètres de langue et d'utilisateur de l'application Point of sale (POS)
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit la modification des paramètres de langue dans Retail Modern POS (MPOS) et Cloud POS.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Retail Modern POS (MPOS) et Cloud POS prennent en charge les environnements dans lesquels les paramètres de langue et les traductions peuvent varier entre le magasin et les paramètres d'utilisateur. Par exemple, le magasin peut être situé dans une région où l'anglais est la langue la plus parlée par les clients, mais certains collaborateurs préfèrent utiliser l'application avec des traductions françaises.
 
@@ -67,4 +66,3 @@ Le paramètre de langue de l'utilisateur du PDV est défini à partir de **Tous 
 | **Société** | Valeur par défaut                    | Valeur par défaut                                                       |
 | **Magasin**   | Remplace la société          | Remplace la société                                             |
 | **Utilisateur**    | Remplace le magasin ou la société | Jamais                                                         |
-

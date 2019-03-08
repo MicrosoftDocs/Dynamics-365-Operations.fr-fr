@@ -1,13 +1,13 @@
 ---
-title: "Fonctionnalités de Attract"
-description: "Cette rubrique décrit les fonctionnalités que fournit Attract pour la gestion du processus de recrutement de nouveaux talents."
+title: Fonctionnalités de Attract
+description: Cette rubrique décrit les fonctionnalités que fournit Attract pour la gestion du processus de recrutement de nouveaux talents.
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304370"
 ---
 # <a name="attract-features-and-capabilities"></a>Fonctionnalités de Attract
 
@@ -35,7 +35,7 @@ Cette rubrique décrit les fonctionnalités que Attract fournit.
 ## <a name="attract-dashboard"></a>Tableau de bord Attract
 Sur le tableau de bord, les membres de l'équipe de recrutement peuvent afficher les détails des missions auxquelles ils participent. Le tableau de bord est aussi là où un responsable de l'embauche ou un recruteur peut ajouter de nouveaux postes dans Attract, soit en les créant individuellement, soit en en important plusieurs simultanément à partir d'une feuille de calcul Microsoft Excel.
 
-## <a name="jobs"></a>Postes
+## <a name="jobs"></a>Missions
 Sur la page **Poste**, des détails tels que la description du poste et le lieu du poste peuvent être affichés et modifiés. La page **Poste** est également l'endroit où l'équipe d'embauche est réunie et où vous pouvez ajouter ou changer les recruteurs et les personnes chargées des entretiens au sein de l'équipe. De nouveaux candidats peuvent également être ajoutés sur la page **Poste**.
 
 ## <a name="candidates"></a>Candidats
@@ -46,4 +46,3 @@ Attract fournit un processus d'embauche prédéfini qui contient quatre étapes 
 
 ## <a name="candidate-app"></a>Candidature
 Dès qu'ils ont été ajoutés à un poste, les candidats reçoivent un e-mail avec un lien pour obtenir l'application web. L'application fournit les détails du poste et utilisée pour communiquer avec l'équipe d'embauche. Les candidats peuvent l'utiliser pour soumettre leur disponibilité pour les entretiens.
-

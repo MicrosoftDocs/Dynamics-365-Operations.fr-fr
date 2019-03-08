@@ -1,13 +1,13 @@
---- 
-title: "Créer un nouveau produit"
-description: "Cette tâche indique comment créer un nouveau produit partagé."
+---
+title: Créer un nouveau produit
+description: Cette tâche indique comment créer un nouveau produit partagé.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7a603d89749242a4c6039ab83da286ec6ab727d8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 56ce5d965952d0cb41278915e4631ae9d920f5f9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328537"
 ---
 # <a name="create-a-new-product"></a>Créer un nouveau produit
 
@@ -46,5 +46,4 @@ Cette tâche indique comment créer un nouveau produit partagé. Elle est géné
 3. Saisissez ou sélectionnez une valeur dans le champ Groupe de dimension de suivi.
     * Le groupe de dimension de suivi détermine les dimensions de suivi que vous devez entrer pour chaque transaction pour le produit et la manière dont il sera géré dans le stock.  
 4. Cliquez sur OK.
-
 

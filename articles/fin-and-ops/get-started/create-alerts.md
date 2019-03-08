@@ -1,13 +1,13 @@
 ---
-title: "Créer des règles d'alerte"
-description: "Cette rubrique fournit des informations sur les alertes et décrit la procédure de création d'une règle d'alerte pour être informé d'événements, par exemple une date qui arrive ou une modification spécifique qui se produit."
+title: Créer des règles d'alerte
+description: Cette rubrique fournit des informations sur les alertes et décrit la procédure de création d'une règle d'alerte pour être informé d'événements, par exemple une date qui arrive ou une modification spécifique qui se produit.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,21 +16,20 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: cbf4917424e72a70a6d513b5daf45f6bf9cd57c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 78e1e6f7be04e1d4fecae080cbd4a285358590fb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329411"
 ---
-
 # <a name="create-alert-rules"></a>Créer des règles d'alerte
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="getting-started"></a>Mise en route
 
-Avant de définir une règle d'alerte, déterminez quand ou dans quelles situations vous souhaitez recevoir des alertes. Après avoir déterminé l'événement dont vous souhaitez être averti, dans Microsoft Dynamics 365 for Finance and Operations, recherchez la page où les données causant cet événement apparaissent. L'événement peut être une date qui arrive ou une modification spécifique qui se produit. Par conséquent, vous devez rechercher la page dans laquelle la date est spécifiée, ou dans laquelle le champ modifié ou le nouvel enregistrement créé apparaît. Une fois que vous disposez de ces informations, vous pouvez créer la règle d'alerte.
+Avant de définir une règle d'alerte, déterminez quand ou dans quelles situations vous souhaitez recevoir des alertes. Après avoir déterminé l'événement dont vous souhaitez être averti, dans Microsoft Dynamics 365 for Finance and Operations, recherchez la page où les données causant cet événement apparaissent. L'événement peut être une date qui arrive ou une modification spécifique qui se produit. Par conséquent, vous devez rechercher la page dans laquelle la date est spécifiée, ou dans laquelle le champ modifié ou le nouvel enregistrement créé apparaît. Une fois que vous disposez de ces informations, vous pouvez créer la règle d'alerte.
 
 Lorsque vous créez une règle d'alerte, vous définissez les critères devant être remplis pour qu'une alerte soit déclenchée. Vous pouvez imaginer les critères comme une correspondance entre l'occurrence d'un événement et l'accomplissement d'une condition spécifique. Quand un événement se produit, le système vérifie s'il répond aux conditions définies dans Finance and Operations.
 
@@ -84,4 +83,3 @@ Dans l'organisateur **Alertez-moi avec** de la boîte de dialogue **Créer une r
 7. Dans l'organisateur **Alertez-moi avec**, dans le champ **Objet**, acceptez l'objet par défaut du message e-mail, ou entrez-en un nouveau. Le texte est utilisé comme objet pour le message e-mail que vous recevez en cas de déclenchement d'alerte.
 8. Dans le champ **Message**, entrez un message facultatif. Le texte sera le message envoyé en cas de déclenchement d'alerte.
 9. Sélectionnez **OK** pour enregistrer les paramètres et créer la règle d'alerte.
-

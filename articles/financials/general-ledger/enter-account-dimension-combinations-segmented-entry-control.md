@@ -1,13 +1,13 @@
 ---
-title: "Entrer des combinaisons de compte et de dimensions (contrôle d'accès segmenté)"
-description: "Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L'expérience de saisie est souvent appelée « contrôle d'accès segmenté »."
+title: Entrer des combinaisons de compte et de dimensions (contrôle d'accès segmenté)
+description: Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L'expérience de saisie est souvent appelée « contrôle d'accès segmenté ».
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9addb2897bac68115a38f0239764ab65af2378c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 610b21069d9f13a511f8017d0069fda0371abf10
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315657"
 ---
-
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Entrer des combinaisons de compte et de dimensions (contrôle d'accès segmenté)
 
 [!include [banner](../includes/banner.md)]
@@ -110,7 +109,6 @@ Le tableau suivant décrit les raccourcis clavier qui peuvent être utilisés lo
 </tr>
 </tbody>
 </table>
-
 
 
 

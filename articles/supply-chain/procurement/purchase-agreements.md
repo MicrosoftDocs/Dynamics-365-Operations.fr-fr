@@ -1,13 +1,13 @@
 ---
 title: Contrats d'achat
-description: "Cet article fournit des informations sur les contrats d'achat. Un contrat d'achat est un contrat par lequel une organisation s'engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l'acheteur a droit à des prix spéciaux et des remises."
+description: Cet article fournit des informations sur les contrats d'achat. Un contrat d'achat est un contrat par lequel une organisation s'engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l'acheteur a droit à des prix spéciaux et des remises.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314530"
 ---
-
 # <a name="purchase-agreements"></a>Contrats d'achat
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,6 @@ Vous pouvez copier les dimensions financières vers des en-têtes de document ou
 [Créer un contrat d'achat (guide de tâche)](tasks/create-purchase-agreement.md)
 
 [Création d'un ordre de lancement d'achat à partir d'un contrat d'achat (guide de tâche)](tasks/create-purchase-release-order-purchase-agreement.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Organisations et hiérarchies d'organisation"
-description: "Une organisation est un groupe de personnes qui travaillent ensemble pour réaliser un processus entreprise ou atteindre un objectif. Les hiérarchies organisationnelles représentent les relations entre les organisations qui composent votre entreprise."
+title: Organisations et hiérarchies d'organisation
+description: Une organisation est un groupe de personnes qui travaillent ensemble pour réaliser un processus entreprise ou atteindre un objectif. Les hiérarchies organisationnelles représentent les relations entre les organisations qui composent votre entreprise.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 21dae54c91b699f402c5c7a7105dc36e7ee5bb52
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322235"
 ---
-
 # <a name="organizations-and-organizational-hierarchies"></a>Organisations et hiérarchies d'organisation
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Une organisation est un groupe de personnes qui travaillent ensemble pour réali
 
 ## <a name="organizations"></a>Organisations
 
-Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez définir les types suivants d'organisations internes : entités juridiques, sections et équipes.
+Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez définir les types suivants d'organisations internes : entités juridiques, sections et équipes.
 
 Toutes les organisations internes sont des types de l'entité **Partie**. C'est pourquoi, ces organisations utilisent le carnet d'adresses pour stocker les informations d'adresse et de contact. Une partie (personne ou organisation) peut appartenir à un ou plusieurs carnets d'adresses.
 
@@ -42,13 +41,13 @@ Toutes les organisations internes sont des types de l'entité **Partie**. C'est 
 
 Une entité juridique est une organisation qui dispose d'une structure juridique enregistrée ou légalement déclarée. Les entités juridiques peuvent passer des contrats juridiques et sont tenues de préparer des relevés faisant état de leurs performances.
 
-Une société est un type d'entité juridique. Dans cette version de Microsoft Dynamics 365 for Finance and Operations, les entreprises sont les seuls types d'entité juridique que vous pouvez créer et chaque entité juridique est associée à un ID société. Cette association existe car certaines zones fonctionnelles du programme utilisent un ID société, ou DataAreaId, dans leurs modèles de données. Dans ces zones fonctionnelles, les sociétés sont utilisées en tant que limite pour la sécurité des données. Les utilisateurs peuvent accéder aux données uniquement pour la société à laquelle ils sont actuellement connectés.
+Une société est un type d'entité juridique. Dans cette version de Microsoft Dynamics 365 for Finance and Operations, les entreprises sont les seuls types d'entité juridique que vous pouvez créer et chaque entité juridique est associée à un ID société. Cette association existe car certaines zones fonctionnelles du programme utilisent un ID société, ou DataAreaId, dans leurs modèles de données. Dans ces zones fonctionnelles, les sociétés sont utilisées en tant que limite pour la sécurité des données. Les utilisateurs peuvent accéder aux données uniquement pour la société à laquelle ils sont actuellement connectés.
 
 ### <a name="operating-units"></a>Sections
 
 Une section est une organisation utilisée pour partager le contrôle des ressources économiques et des processus opérationnels dans une société. Dans une section, les personnes ont la responsabilité d'optimiser l'utilisation des ressources rares, d'améliorer les processus et de justifier leurs performances.
 
-Dans Microsoft Dynamics 365 for Finance and Operations, les types de sections incluent les centres de coût, les unités commerciales, les chaînes de valeur, les départements et les canaux de vente au détail. Le tableau suivant fournit d'autres informations sur chaque type de section.
+Dans Microsoft Dynamics 365 for Finance and Operations, les types d'unités opérationnelles incluent les centres de coût, les unités commerciales, les chaînes de valeur, les départements et les chaînes de vente au détail. Le tableau suivant fournit d'autres informations sur chaque type de section.
 
 | Type de section | description ; | Objectif |
 |---------------------|-------------|---------|
@@ -69,4 +68,3 @@ Paramétrez des hiérarchies organisationnelles pour afficher et créer des éta
 Un objet est affecté à chaque hiérarchie dans Microsoft Dynamics 365 for Finance and Operations. L'objet d'une hiérarchie détermine les types d'organisations pouvant être inclus dans la hiérarchie. L'objet définit également dans quels scénarios d'application la hiérarchie peut être utilisée.
 
 Les organisations d'une hiérarchie peuvent partager des paramètres, des stratégies et des transactions. Une organisation peut hériter des paramètres de son organisation parent ou les remplacer. Cependant, les données principales partagées, telle que les produits et les carnets d'adresses, s'appliquent à l'ensemble de l'organisation et ne peuvent pas être remplacées pour les organisations individuelles. La création d'organisations et de hiérarchies nécessite une planification soignée. Pour plus d'informations voir [Planification de la hiérarchie d'organisation](plan-organizational-hierarchy.md).
-

@@ -1,13 +1,13 @@
---- 
-title: "Sélectionner des définitions de modèle de données lorsque vous créez des formats"
-description: "Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, ER Créer un fournisseur de configuration et le marquer comme actif."
+---
+title: Sélectionner des définitions de modèle de données lorsque vous créez des formats
+description: Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, ER Créer un fournisseur de configuration et le marquer comme actif.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334494"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Sélectionner des définitions de modèle de données lorsque vous créez des formats
 
@@ -81,7 +81,7 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
     * Utilisez le concepteur ER pour spécifier les mises en correspondance de modèle pour les éléments racine requis.  
 2. Cliquez sur Concepteur.
     * Simulez le paramétrage de la mise en correspondance de modèle sélectionnée pour l'élément racine du modèle sélectionné.  
-3. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de tables ».
+3. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
 4. Cliquez sur Ajouter racine.
 5. Dans le champ Nom, tapez « Comptabilité ».
 6. Dans le champ Table, tapez « LedgerJournalTrans ».
@@ -98,5 +98,4 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
 4. Dans le champ Définition du modèle de données, entrez ou sélectionnez une valeur.
     * Notez qu'un seul élément racine est désormais disponible pour la mise en correspondance avec les sources de données d'application. Si au moins une mise en correspondance de modèle est introduite, seuls les éléments racine du modèle qui sont mis en correspondance avec les sources de données d'application peuvent être sélectionnés comme définition de modèle lorsque le format ER est ajouté.   
 5. Fermez la page.
-
 

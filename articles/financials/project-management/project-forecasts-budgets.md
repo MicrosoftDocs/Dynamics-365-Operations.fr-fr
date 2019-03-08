@@ -1,13 +1,13 @@
 ---
-title: "Prévisions de projet et budgets"
-description: "Microsoft Dynamics 365 for Finance and Operations fournit des prévisions de projet et des budgets de projet permettant de gérer et de contrôler vos projets."
+title: Prévisions de projet et budgets
+description: Microsoft Dynamics 365 for Finance and Operations offre deux méthodes de prévision et de budgétisation des projets pour gérer et contrôler vos projets.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310390"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>Prévisions de projet et budgets
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations fournit deux manières de gérer et contrôler vos projets : les prévisions de projet et les budgets de projet. 
+Microsoft Dynamics 365 for Finance and Operations propose deux façons de gérer et contrôler vos projets : prévisions de projet et budgets de projet. 
 
 Utilisez les prévisions de projet si votre organisation a une perspective opérationnelle orientée sur les produits et les coûts qui sont dérivés de transactions spécifiques. Utilisez la budgétisation de projet si votre organisation s'oriente plus sur les montants financiers. 
 
@@ -80,7 +79,6 @@ Les budgets de projet sont automatiquement associés à deux modèles de prévis
 Les modèles de prévision sont dotés d'une hiérarchie à une seule couche. Cela signifie qu'une prévision de projet doit être associée à un modèle de prévision.
 
 Si vous utilisez des prévisions de projet, vous pouvez identifier des modèles comme sous-modèles, ce qui permet de créer des prévisions par département, période ou région. Par exemple, vous pouvez créer un modèle de prévision pour une année, puis créer des sous-modèles pour les prévisions des régions Nord-Est, Sud-Est, Nord-Ouest et Sud-Ouest, qui sont soumises par les directions régionales. En sélectionnant différentes options dans les états disponibles, vous pouvez afficher les informations par prévision totale ou par sous-modèle.
-
 
 
 

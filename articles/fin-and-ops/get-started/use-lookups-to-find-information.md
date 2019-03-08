@@ -1,13 +1,13 @@
 ---
-title: "Trouver des informations à l'aide des recherches"
-description: "Dans Microsoft Dynamics 365 for Finance and Operations, de nombreux champs sont pourvus d'une option de recherche qui vous permettent de facilement retrouver la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces commandes plus faciles à utiliser et augmentent la productivité des utilisateurs. Dans cette rubrique, vous découvrirez les nouvelles fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système."
+title: Rechercher des informations à l'aide des recherches
+description: Dans Microsoft Dynamics 365 for Finance and Operations, de nombreux champs ont des recherches susceptibles de vous aider à trouver facilement la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces commandes plus faciles à utiliser et augmentent la productivité des utilisateurs. Dans cette rubrique, vous découvrirez les nouvelles fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328353"
 ---
-
-# <a name="find-information-by-using-lookups"></a>Trouver des informations à l'aide des recherches
+# <a name="find-information-by-using-lookups"></a>Rechercher des informations à l'aide des recherches
 
 [!include [banner](../includes/banner.md)]
 
-Dans Microsoft Dynamics 365 for Finance and Operations, de nombreux champs sont pourvus d'une option de recherche qui vous permettent de facilement retrouver la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces commandes plus faciles à utiliser et augmentent la productivité des utilisateurs. Dans cette rubrique, vous découvrirez les nouvelles fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système.
+Dans Microsoft Dynamics 365 for Finance and Operations, de nombreux champs ont des recherches susceptibles de vous aider à trouver facilement la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces commandes plus faciles à utiliser et augmentent la productivité des utilisateurs. Dans cette rubrique, vous découvrirez les nouvelles fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système.
 
 ## <a name="responsive-lookups"></a>Recherches réactives
 
@@ -85,4 +84,3 @@ Au lieu de cela, l'utilisateur doit effacer la valeur du contrôle de recherche,
 Une fois le filtre appliqué (voir l'image ci-dessous), l'utilisateur peut rechercher et sélectionner la ligne comme normalement.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
-

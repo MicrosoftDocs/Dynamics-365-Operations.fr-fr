@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI Vue d'ensemble des disponibilités"
-description: "Cette rubrique décrit le contenu Power BI Vue d'ensemble des disponibilités. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+title: Contenu Power BI Vue d'ensemble des disponibilités
+description: Cette rubrique décrit le contenu Power BI Vue d'ensemble des disponibilités. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: saraschi2
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
@@ -16,21 +16,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318647"
 ---
-
 # <a name="cash-overview-power-bi-content"></a>Contenu Power BI Vue d'ensemble des disponibilités
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit le contenu Microsoft Power BI **Vue d'ensemble des disponibilités**. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Le contenu Power BI **Vue d'ensemble des disponibilités** a été créé pour les personnes responsables de la trésorerie dans leur organisation. Le contenu Power BI **Vue d'ensemble des disponibilités** fournit une visibilité dans votre flux de trésorerie. Il fournit également des prévisions qui vous aideront à prendre les meilleures décisions et donc d'améliorer la santé de votre flux de trésorerie. Vous pouvez analyser les disponibilités par entité juridique, la devise, et le compte bancaire pour obtenir une meilleure compréhension des excédents et des déficits.
 
@@ -42,7 +41,7 @@ Pour afficher les états de prévisions de flux de trésorerie avec des données
 
 À des fins de démonstration, vous pouvez ajouter des données de démonstration de prévisions de flux de trésorerie à l'aide de la page **Générer des données** du module de données de démonstration.  Ce script insèrera des données dans des tables de prévisions de flux de trésorerie pour renseigner rapidement les informations nécessaires pour les rapports.  Ce module est uniquement disponible si vous avez le modèle de suite de données de démonstration déployé dans l'environnement. 
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
 Le tableau suivant fournit des détails sur les mesures disponibles sur chaque page d'état du contenu Power BI **Vue d'ensemble des disponibilités**.
 
 | Etat                                | Sommaire |
@@ -68,6 +67,5 @@ Le tableau suivant indique les entités sur lesquelles le contenu Power BI **Vue
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Synthèse des encaissements, décaissements et soldes en utilisant la devise comptable de chaque société |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Synthèse des encaissements, décaissements et soldes en utilisant la devise système de toutes les sociétés |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Synthèse des montants de transactions nets et solde des devises en utilisant la devise de transaction |
-
 
 

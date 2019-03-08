@@ -1,13 +1,13 @@
 ---
 title: Lettres de garantie
-description: "Cet article fournit des informations sur les lettres de garantie. Dans une lettre de garantie, une banque s'engage à payer une somme d'argent spécifique à une personne si l'un des clients de la banque ne règle pas un paiement ou une obligation au bénéficiaire."
+description: Cet article fournit des informations sur les lettres de garantie. Dans une lettre de garantie, une banque s'engage à payer une somme d'argent spécifique à une personne si l'un des clients de la banque ne règle pas un paiement ou une obligation au bénéficiaire.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLGGuarantee
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3146a4a910a76c21ca8c65d52748ede61220b964
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d7144a979b98b3dbd2052661945e6d4fe22220a7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313288"
 ---
-
 # <a name="letters-of-guarantee"></a>Lettres de garantie
 
 [!include [banner](../includes/banner.md)]
@@ -64,6 +63,5 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Transaction de lettre de garantie](tasks/letter-guarantee-transaction.md)
 
 [Paramétrer les établissements bancaires et les profils de validation pour les lettres de garantie](tasks/set-up-bank-facilities-posting-profiles.md)
-
 
 

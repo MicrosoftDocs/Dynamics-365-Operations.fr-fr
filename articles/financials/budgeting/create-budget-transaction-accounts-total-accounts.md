@@ -1,13 +1,13 @@
 ---
-title: "Créer un budget à partir des comptes de transactions et des comptes de type Total"
-description: "Cet article fournit une vue d'ensemble du processus de création des budgets en fonction des comptes de type total. Il décrit également comment activer le contrôle budgétaire des comptes de type total, si le contrôle budgétaire est requis."
+title: Créer un budget à partir des comptes de transactions et des comptes de type Total
+description: Cet article fournit une vue d'ensemble du processus de création des budgets en fonction des comptes de type total. Il décrit également comment activer le contrôle budgétaire des comptes de type total, si le contrôle budgétaire est requis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration, BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6129a5431cba22ea656e4d6f473a4e93a81131ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fd6dc5173fd37f0257c98c1a41f3e6ce40b5b680
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331711"
 ---
-
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Créer un budget à partir des comptes de transactions et des comptes de type Total
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ Lorsqu'un budget est utilisé dans la génération d'états, par exemple, dans u
 -   le montant du budget entré directement sur le compte global.
 
 Par conséquent, vous pouvez créer des budgets distincts pour les comptes de transactions les plus importants dans l'intervalle du compte de type Total et ajouter le montant de budget disponible au compte de type Total.
-
 
 
 

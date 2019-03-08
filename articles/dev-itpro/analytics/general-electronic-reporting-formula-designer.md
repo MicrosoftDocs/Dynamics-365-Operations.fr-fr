@@ -1,13 +1,13 @@
 ---
-title: "Concepteur de formule dans les états électroniques (ER)"
-description: "Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques."
+title: Concepteur de formule dans les états électroniques (ER)
+description: Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques.
 author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,25 +18,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331274"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques. Lorsque vous créez un format pour un document électronique spécifique dans ER, vous pouvez utiliser des formules pour transformer les données afin qu'elles répondent aux exigences d'exécution et de mise en forme du document. Ces formules ressemblent aux formules dans Microsoft Excel. Plusieurs types de fonctions sont pris en charge dans les formules : texte, date et heure, mathématique, logique, informations, conversion du type de données et autre (fonctions spécifiques au métier).
+Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques. Lorsque vous créez un format pour un document électronique spécifique dans ER, vous pouvez utiliser des formules pour transformer les données afin qu'elles répondent aux exigences d'exécution et de mise en forme du document. Ces formules sont semblables aux formules dans Microsoft Excel. Plusieurs types de fonctions sont pris en charge dans les formules : texte, date et heure, mathématique, logique, informations, conversion du type de données et autre (fonctions spécifiques au métier).
 
 ## <a name="formula-designer-overview"></a>Vue d'ensemble du concepteur de formule
 
 La fonctionnalité de génération d'états électroniques prend en charge le concepteur de formule. Par conséquent, au moment de la conception, vous pouvez configurer des expressions qui peuvent être utilisées pour les tâches suivantes au moment de l'exécution :
 
-- Transformer les données reçues d'une base de données Microsoft Dynamics 365 for Finance and Operations qui doivent être saisies dans un modèle de données de génération d'états électroniques qui est conçu pour être une source de données pour les formats de génération d'états électroniques. (Par exemple, ces transformations peuvent inclure le filtrage, le regroupement et la conversion des types de données.)
+- Transformez les données provenant d'une base de données Microsoft Dynamics 365 for Finance and Operations, et qui doivent être saisies dans un modèle de données ER conçues pour être une source de données pour les formats ER. (Par exemple, ces transformations peuvent inclure le filtrage, le regroupement et la conversion des types de données.)
 - Mettre en forme des données qui doivent être émises vers un document électronique en cours de génération en accord avec la mise en forme et les conditions d'un format de génération d'états électroniques spécifique. (Par exemple, la mise en forme peut être effectuée en accord avec la langue, la culture ou le codage demandé.)
 - Contrôler le processus de création de documents électroniques. (Par exemple, les expressions peuvent activer ou désactiver l'émission d'éléments spécifiques du format, en fonction des données de traitement. Elles peuvent également interrompre le processus de création du document ou envoyer des messages aux utilisateurs.)
 
@@ -625,7 +624,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </ul></li>
 <li>Libellé Finance and Operations SYS18389, avec le texte suivant :
 <ul>
-<li><strong>Pour l'anglais :</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
+<li><strong>Pour l'anglais américain :</strong> &quot;Customer %1is stopped for %2.&quot;</li>
 <li><strong>Pour l'allemand :</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
@@ -692,7 +691,7 @@ Lorsque ces sources de données sont définies, vous pouvez utiliser une express
 <tr>
 <td>JSONVALUE (id, path)</td>
 <td>Analysez les données au format JavaScript Object Notation (JSON) qui sont accessibles par le chemin spécifié pour extraire une valeur scalaire basée sur l'ID spécifié.</td>
-<td>La source de données <strong>$JsonField</strong> contient les données suivantes au format JSON : <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Pour cette source de données, </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> renvoie la valeur <strong>7.3.1234.1</strong> du type de données <strong>Chaîne</strong>.</td>
+<td>La source des données <strong>$JsonField</strong> contient les données suivantes au format JSON : <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Pour cette source de données, </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> renvoie la valeur <strong>7.3.1234.1</strong> du type de données <strong>Chaîne</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -731,7 +730,7 @@ Lorsque ces sources de données sont définies, vous pouvez utiliser une express
 | FA\_BALANCE (fixed asset code, value model code, reporting year, reporting date) | Renvoie le conteneur de données préparé du solde des immobilisations. L'année de génération d'états doit être spécifiée comme valeur de l'énumération **AssetYear** dans Finance and Operations. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** renvoie le conteneur de données préparé des soldes de l'immobilisation **"COMP-000001"** avec le modèle de valeur **"Current"** à la date de la session Finance and Operations actuelle. |
 | TABLENAME2ID (string) | Renvoie une représentation sous forme d'entier d'un ID table pour le nom de table spécifié. | **TABLENAME2ID ("Intrastat")** renvoie **1510**. |
 | ISVALIDCHARACTERISO7064 (string) | Renvoie la valeur booléenne **TRUE** lorsque la chaîne donnée représente un numéro de compte bancaire international (IBAN) valide. Sinon, renvoie la valeur booléenne **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** retourne **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** retourne **FALSE**. |
-| NUMSEQVALUE (code souche de numéros, portée, ID portée) | Retourne la nouvelle valeur générée à partir d'une souche de numéros, selon le code souche de numéros, la portée, ainsi que l'ID portée spécifiés. La portée doit être spécifié comme valeur de l'énumération **ERExpressionNumberSequenceScopeType** (**Partagé**, **Entité juridique**, ou **Société**). Pour la portée **Partagé**, spécifiez une chaîne vide comme ID portée. Pour les portées **Société** et **Entité juridique**, spécifiez le code société comme ID portée. Pour les portées **Société** et **Entité juridique**, si vous spécifiez une chaîne vide comme ID portée, le code société actuel est utilisé. | Vous définissez les sources de données suivantes dans la mise en correspondance des modèles :<ul><li>**enumScope** (type **énumération Dynamics 365 for Operations**), qui fait référence à l'énumération **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (type **Champ calculé**), qui contient l'expression **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Lorsque la source de données **NumSeq** est appelée, elle renvoie la nouvelle valeur générée de la souche de numéros **Gene\_1** qui a été configurée pour la société qui fournit le contexte sous lequel le format ER est exécuté. |
+| NUMSEQVALUE (code souche de numéros, portée, ID portée) | Retourne la nouvelle valeur générée à partir d'une souche de numéros, selon le code souche de numéros, la portée, ainsi que l'ID portée spécifiés. La portée doit être spécifié comme valeur de l'énumération **ERExpressionNumberSequenceScopeType** (**Partagé**, **Entité juridique**, ou **Société**). Pour la portée **Partagé**, spécifiez une chaîne vide comme ID portée. Pour les portées **Société** et **Entité juridique**, spécifiez le code société comme ID portée. Pour les portées **Société** et **Entité juridique**, si vous spécifiez une chaîne vide comme ID portée, le code société actuel est utilisé. | Vous définissez les sources de données suivantes dans la mise en correspondance des modèles :<ul><li>**enumScope** (**Type d'énumération Dynamics 365 for Operations**), qui fait référence à l'énumération **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (type **Champ calculé**), qui contient l'expression **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Lorsque la source de données **NumSeq** est appelée, elle renvoie la nouvelle valeur générée de la souche de numéros **Gene\_1** qui a été configurée pour la société qui fournit le contexte sous lequel le format ER est exécuté. |
 | NUMSEQVALUE (code souche de numéros) | Retourne la nouvelle valeur générée d'une souche de numéros, d'après la souche de numéros spécifiée, la portée **Société**, et (comme ID portée) le code société qui fournit le contexte sous lequel format ER est exécuté. | Vous définissez la source de données suivante dans votre modèle de mise en correspondance : **NumSeq** (type **Champ calculé**). Cette source de données contient l'expression **NUMSEQVALUE ("Gene\_1")**. Lorsque la source de données **NumSeq** est appelée, elle renvoie la nouvelle valeur générée de la souche de numéros **Gene\_1** qui a été configurée pour la société qui fournit le contexte sous lequel le format ER est exécuté. |
 | NUMSEQVALUE (ID enregistrement de souche de numéros) | Retourne la nouvelle valeur générée à partir d'une souche de numéros, selon l'ID enregistrement de la souche de numéros spécifié. | Vous définissez les sources de données suivantes dans la mise en correspondance des modèles :<ul><li>**LedgerParms** (type **Table**), qui fait référence à la table LedgerParameters</li><li>**NumSeq** (type **Champ calculé**), qui contient l'expression **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Lorsque la source de données **NumSeq** est appelée, elle renvoie la nouvelle valeur générée de la souche de numéros qui a été configurée dans les paramètres de la comptabilité pour la société qui fournit le contexte sous lequel le format ER est exécuté. Cette souche de numéros identifie de manière unique les journaux et sert de numéro de lot qui relie les transactions. |
 
@@ -743,4 +742,3 @@ La génération d'état électroniques prend en charge une capacité d'extension
 
 - [Vue d'ensemble des États électroniques](general-electronic-reporting.md)
 - [Extension de la liste des fonctions de génération d'états électroniques (ER)](general-electronic-reporting-formulas-list-extension.md)
-

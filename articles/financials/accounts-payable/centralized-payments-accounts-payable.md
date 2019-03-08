@@ -1,13 +1,13 @@
 ---
-title: "Paiements centralisés pour la comptabilité fournisseur"
-description: "Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, il n'est pas nécessaire d'entrer les mêmes paiements dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios."
+title: Paiements centralisés pour la comptabilité fournisseur
+description: Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, il n'est pas nécessaire d'entrer les mêmes paiements dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327065"
 ---
-
 # <a name="centralized-payments-for-accounts-payable"></a>Paiements centralisés pour la comptabilité fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -297,7 +296,6 @@ Fabrikam génère un paiement de 75,00 pour le fournisseur 3004, Fourth Coffee. 
 | Dû à Fabrikam (Fabrikam West)      |              | 75,00         |
 | Achats (Fabrikam West)     | 25,00        |               |
 | Dû à Fabrikam East (Fabrikam West) |              | 25,00         |
-
 
 
 

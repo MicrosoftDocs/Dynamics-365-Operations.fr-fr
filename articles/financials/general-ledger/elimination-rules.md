@@ -1,13 +1,13 @@
 ---
-title: "Règles d'élimination"
-description: "Cette rubrique fournit des informations sur les règles d'élimination et les différentes options permettant de générer un état sur les éliminations."
+title: Règles d'élimination
+description: Cette rubrique fournit des informations sur les règles d'élimination et les différentes options permettant de générer un état sur les éliminations.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0736d63c9a582948d197dc267f9941cbbd3e3c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333091"
 ---
-
 # <a name="elimination-rules"></a>Règles d'élimination
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,7 @@ Votre entité juridique (entité juridique A) vend des widgets à une autre enti
 Toutes ces transactions créent des transactions intersociétés validées sur des comptes vostro et nostro. De plus, ces transactions peuvent inclure des montants majorés et minorés lorsque le montant de la vente intersociétés est différent du coût des marchandises vendues.
 
 ## <a name="set-up-elimination-rules"></a>Configurer les règles d'élimination
-Lors du paramétrage des règles d'élimination dans Microsoft Dynamics 365 for Finance and Operations, il est recommandé de créer une dimension financière spécialement à des fins d'élimination. La plupart des clients la nomment « Partenaire commercial » ou un nom similaire. Si vous décidez de ne pas utiliser une dimension financière, assurez-vous d'avoir des comptes principaux qui sont spécifiques aux transactions intersociétés uniquement. 
+Lors du paramétrage des règles d'élimination dans Microsoft Dynamics 365 for Finance and Operations, il est recommandé de créer une dimension financière spécialement à des fins d'élimination. La plupart des clients la nomment « Partenaire commercial » ou un nom similaire. Si vous décidez de ne pas utiliser une dimension financière, assurez-vous d'avoir des comptes principaux qui sont spécifiques aux transactions intersociétés uniquement. 
 
 Le paramétrage des éliminations est effectué dans la zone Paramétrage du module Consolidations. Après avoir entré une description pour la règle, vous devez sélectionner la société dans laquelle le journal d'élimination sera validé. Il doit s'agir d'une société pour laquelle l'option **Utiliser pour le processus d'élimination financière** est sélectionnée dans le paramétrage de l'entité juridique. 
 
@@ -153,7 +152,6 @@ Il existe deux manières de traiter les transactions d'élimination : pendant l
 Dans une société définie comme société d'élimination, sélectionnez **Journal d'élimination** dans le module Consolidations. Après avoir sélectionné le nom du journal, cliquez sur **Lignes**. Vous pouvez exécuter la proposition en sélectionnant le menu **Propositions**, puis **Proposition d'élimination**.
 
 Sélectionnez la société qui est la source des données consolidées, puis choisissez la règle que vous souhaitez traiter. Entrez une date de début pour démarrer la recherche des montants d'élimination, et une date de fin pour terminer la recherche. Le champ **Date de validation dans la Comptabilité** est la date utilisée pour valider le journal dans la comptabilité. Après avoir cliqué sur **OK**, vous pouvez examiner les montants et valider le journal.
-
 
 
 

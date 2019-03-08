@@ -1,13 +1,13 @@
---- 
-title: "Vérification d'emploi i9 vérification"
-description: "Aux États-Unis, l'IRCA (Immigration Reform and Control Act) requiert que les employeurs vérifient l'admissibilité des employés nouvellement engagés."
+---
+title: Vérification d'emploi i9 vérification
+description: Aux États-Unis, l'IRCA (Immigration Reform and Control Act) requiert que les employeurs vérifient l'admissibilité des employés nouvellement engagés.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4d7346507179d237f60459978b9b7c6351f48611
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333321"
 ---
 # <a name="employment-verification-i9-verification"></a>Vérification d'emploi i9 vérification
 
@@ -54,5 +54,4 @@ Aux États-Unis, l'IRCA (Immigration Reform and Control Act) requiert que les em
 21. Dans le champ Type de document I-9, sélectionnez le type de document que le collaborateur a fourni.
 22. Entrez ou sélectionnez une valeur dans le champ Numéro de référence.
 23. Cliquez sur Enregistrer.
-
 

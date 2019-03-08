@@ -1,13 +1,13 @@
---- 
-title: "Créer des factures financières"
-description: "Cette rubrique explique comment créer des factures financières."
+---
+title: Créer des factures financières
+description: Cette rubrique explique comment créer des factures financières.
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
 ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332240"
 ---
-
 # <a name="create-free-text-invoices"></a>Créer des factures financières
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ Après avoir copié des lignes, vous pouvez modifier les informations si nécess
 Vous pouvez créer une facture financière à partir d'un modèle. Lorsque vous sélectionnez **Nouveau à partir d'un modèle** sous l'onglet **Facture**, vous pouvez sélectionner un nom de modèle et le compte client pour la nouvelle facture financière. Les valeurs par défaut telles que les conditions de paiement et le mode de paiement peuvent être automatiquement renseignées à partir du client, ou vous pouvez utiliser les valeurs enregistrées dans le modèle.
 
 Une facture financière est créée et vous pouvez modifier les valeurs si nécessaire.
-

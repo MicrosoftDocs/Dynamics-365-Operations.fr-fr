@@ -1,13 +1,13 @@
 ---
-title: "Générer des écrans FTI imprimables"
-description: "Cette rubrique explique comment utiliser la structure de gestion des états électroniques pour générer des écrans de facture financière imprimables (FTI) en tant que documents Microsoft Office."
+title: Générer des écrans FTI imprimables
+description: Cette rubrique explique comment utiliser la structure de gestion des états électroniques pour générer des écrans de facture financière imprimables (FTI) en tant que documents Microsoft Office.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d27a11a0d925b0f1164578f9c04e6abd4736b2b2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325524"
 ---
-
 # <a name="generate-printable-fti-forms"></a>Générer des écrans FTI imprimables
 
 [!include[banner](../includes/banner.md)]
@@ -112,7 +111,7 @@ Vous pouvez également générer des écrans FTI lorsque vous validez une FTI, e
 La structure de gestion des états électroniques prend en charge actuellement les destinations suivantes pour les documents générés :
 
 - **Fichier téléchargé** – Les écrans générés sont proposés en tant que téléchargements que vous pouvez enregistrer à l'aide du navigateur.
-- **Écran** – Microsoft Office 365 Excel est utilisé pour afficher un aperçu des écrans FTI générés au format Excel.
+- **Écran** – Microsoft Office 365 Excel est utilisé pour afficher un aperçu des écrans FTI générés au format Excel.
 - **Dossier SharePoint** – Les écrans générés sont stockés selon les paramètres de la structure de gestion des documents.
 - **Archives d'application** – Les écrans générés sont stockés en tant que pièces jointes des enregistrements de journal d'exécution dans le stockage Microsoft Azure.
 - **E-mail** – Les écrans générés sont envoyés en tant que pièces jointes.
@@ -226,4 +225,3 @@ L'expression **Emailing.TxtToUse.Body** de l'exemple de format est configurée p
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
-

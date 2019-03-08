@@ -1,13 +1,13 @@
 ---
-title: "Remplacement des matériaux lors de la fabrication"
-description: "Cette rubrique décrit comment remplacer des matériaux durant le processus de production."
+title: Remplacement des matériaux lors de la fabrication
+description: Cette rubrique décrit comment remplacer des matériaux durant le processus de production.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c98facf37659cc7039fc7f3057a530ceead5aa6a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327617"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>Remplacement des matériaux lors de la fabrication
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Vous pouvez remplacer les matériaux durant la planification uniquement lorsque 
 
 ## <a name="substituting-material-during-production"></a>Remplacement d'un matériau durant la production
 Imaginez le scénario suivant : une plaque métallique est requise pour une opération de soudure. Durant l'opération, un magasinier informe l'opérateur que la plaque est en rupture de stock. Toutefois, il est décidé que la plaque peut être remplacée par une plaque légèrement plus épaisse. Ainsi, l'opération peut être finalisée. Le matériau peut être ajouté à la nomenclature pour un ordre de fabrication en cours. Si l'ordre de fabrication a le statut **Commencé**, les utilisateurs sont invités à réévaluer l'ordre lorsqu'ils ajoutent un nouvel article à la nomenclature de production. Une fois le matériau ajouté, de nouveaux prélèvements peuvent être créés pour le nouvel article. Il n'est pas nécessaire d'ajouter le nouveau matériau à la nomenclature de production. Vous pouvez l'ajouter directement aux prélèvements de production. Ensuite, lorsque les prélèvements sont validés, le système ajoute le matériau à la nomenclature de production.
-
 
 
 

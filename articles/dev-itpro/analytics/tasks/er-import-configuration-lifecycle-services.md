@@ -1,13 +1,13 @@
---- 
-title: "ER Charger une configuration à partir de Lifecycle Services"
-description: "Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut importer une nouvelle version d'une configuration pour la génération d'états électroniques (ER) à partir de Microsoft Lifecycle Services (LCS)."
+---
+title: ER Charger une configuration à partir de Lifecycle Services
+description: Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut importer une nouvelle version d'une configuration pour la génération d'états électroniques (ER) à partir de Microsoft Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 036d7e7e3f79e0945d6fef866a30edd41e688c07
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337254"
 ---
-
 # <a name="er-import-a-configuration-from-lifecycle-services"></a>ER Charger une configuration à partir de Lifecycle Services
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -70,5 +69,4 @@ Dans cet exemple, vous allez sélectionner la version souhaitée de la configura
 11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
     * Sélectionnez la version de cette configuration dont le statut est « Partagé ».  
     * Notez que seule la version partagée 1 de la configuration de modèle de données sélectionnée est maintenant disponible.  
-
 

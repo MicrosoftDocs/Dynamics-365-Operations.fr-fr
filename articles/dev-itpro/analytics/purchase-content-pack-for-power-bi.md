@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI Analyse des dépenses d'achat"
-description: "Cette rubrique décrit ce qui est inclus dans le contenu Power BI Analyse des dépenses d'achat. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+title: Contenu Power BI Analyse des dépenses et des achats
+description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI Analyse des dépenses d'achat. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: FrankDahl
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,21 +18,20 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313840"
 ---
-
-# <a name="purchase-spend-analysis-power-bi-content"></a>Contenu Power BI Analyse des dépenses d'achat
+# <a name="purchase-spend-analysis-power-bi-content"></a>Contenu Power BI Analyse des dépenses et des achats
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **Analyse des dépenses d'achat**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit ce qui est inclus dans le contenu Power BI **Analyse des dépenses d'achat**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Le contenu Power BI **Analyse des dépenses d'achat** a été conçu pour aider les directeurs des achats et autres gestionnaires qui sont responsables des budgets à garder un œil sur les dépenses d'achat. Les gestionnaires peuvent analyser les dépenses d'achat des manières suivantes :
 
@@ -44,8 +43,8 @@ Le contenu utilise les données transactionnelles d'achats, et fournit une vue g
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 Le contenu Power BI **Analyse des dépenses d'achat** s'affiche sur la page **Analyse des dépenses et des achats** (**Approvisionnements** \> **Recherches et états** \> **Analyse des performances d'achat** \> **Analyse des dépenses et des achats**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
-Le contenu Power BI **Analyse des dépenses d'achat** comprend un état constitué d'un ensemble d'éléments de mesure. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. Le tableau suivant offre une vue d'ensemble des visualisations.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le pack de contenu Power BI
+Le pack de contenu Power BI **Analyse des dépenses d'achat** comprend un état constitué d'un ensemble d'éléments de mesure. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. Le tableau suivant offre une vue d'ensemble des visualisations.
 
 <table>
 <thead>
@@ -129,9 +128,9 @@ Le contenu Power BI **Analyse des dépenses d'achat** comprend un état constitu
 \* Achats cette année et l'année dernière, et croissance par catégorie d'approvisionnement
 
 ## <a name="data-model-and-entities"></a>Modèle de données et entités
-Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Analyse des dépenses d'achat**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md)
+Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Analyse des dépenses d'achat**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md).
 
-Les mesures globales dans ce contenu sont le sous-ensemble des mesures globales qui sont disponibles dans le Cube d'achat dans Microsoft Dynamics AX 2012 et Microsoft Dynamics AX 2012 R3. Pour enregistrer les mesures globales du cube dans le magasin d'entités, vous devez les rendre déployables. Pour plus d'informations, voir la procédure d'enregistrement des mesures globales dans le magasin d'entités dans [Vue d'ensemble de l'intégration de Power BI avec le magasin d'entités](power-bi-integration-entity-store.md). Les mesures globales clés suivantes sont disponibles directement depuis l'entité Lignes de facture et sont utilisées comme base du contenu.
+Les mesures globales dans ce pack de contenu sont le sous-ensemble des mesures globales qui sont disponibles dans le Cube d'achat dans Microsoft Dynamics AX 2012 et Microsoft Dynamics AX 2012 R3. Pour enregistrer les mesures globales du cube dans le magasin d'entités, vous devez les rendre déployables. Pour plus d'informations, voir la procédure d'enregistrement des mesures globales dans le magasin d'entités dans [Vue d'ensemble de l'intégration de Power BI avec le magasin d'entités](power-bi-integration-entity-store.md). Les mesures globales clés suivantes sont disponibles directement depuis l'entité Lignes de facture et sont utilisées comme base du contenu.
 
 | Entité        | Mesures globales clés | Source de données                                 | Champ              | Description                            |
 |---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
@@ -156,4 +155,3 @@ Les dimensions clés suivantes dans le contenu sont utilisées comme filtres pou
 | dates ;                  | Dates, Contrepartie de l'année                                    |
 
 Par défaut, le contenu affiche les données pour l'année civile en cours. Toutefois, vous pouvez modifier le filtre date dans la section de filtres d'état. Vous pouvez également modifier le filtre par société.
-

@@ -1,13 +1,13 @@
---- 
-title: "Configuration d'un fuseau horaire préféré de l'utilisateur"
-description: "Cette procédure suivante explique comment un utilisateur ayant un rôle d'administrateur système peut définir un fuseau horaire pour un utilisateur."
+---
+title: Configuration d'un fuseau horaire préféré de l'utilisateur
+description: Cette procédure suivante explique comment un utilisateur ayant un rôle d'administrateur système peut définir un fuseau horaire pour un utilisateur.
 author: pvillads
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b5eac00d5054296921c3f22004f8c8e710727afc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b39b0f0acf0a0fcdc472ba0bbfc3b15451c7a274
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309723"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Configuration d'un fuseau horaire préféré de l'utilisateur
 
@@ -36,5 +36,4 @@ Cette procédure suivante explique comment un utilisateur ayant un rôle d'admin
 5. Cliquez sur l'onglet Préférences.
 6. Dans le champ Fuseau horaire, sélectionnez une option.
 7. Cliquez sur Enregistrer.
-
 

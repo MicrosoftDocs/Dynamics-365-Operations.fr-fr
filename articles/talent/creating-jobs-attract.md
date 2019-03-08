@@ -1,39 +1,38 @@
 ---
-title: "Créer, approuver et publier des missions dans Attract"
-description: "Cette rubrique décrit les éléments d'une mission dans Attract. Elle décrit également comment créer une mission."
+title: Créer, approuver et publier des missions dans Attract
+description: Cette rubrique décrit les éléments d'une mission dans Attract. Elle décrit également comment créer une mission.
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304391"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>Créer, approuver et publier des missions dans Attract
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les éléments d'une mission dans Microsoft Dynamics 365 for Talent - Attract. Elle décrit également comment créer une mission.
+Cette rubrique décrit les éléments d'une mission dans Microsoft Dynamics 365 for Talent : Attract. Elle décrit également comment créer une mission.
 
-## <a name="job-creation"></a>Création de missions
+## <a name="job-creation"></a>Création de tâches
 
 Les administrateurs, les recruteurs et les responsables de l'embauche peuvent créer des missions. Lorsque vous créez une mission, vous êtes invité à sélectionner votre rôle dans le processus : responsable de l'embauche ou recruteur. Après avoir sélectionné un rôle, vous êtes invité à sélectionner un modèle de processus. Si vous sélectionnez **Ignorer**, le modèle par défaut est utilisé. Pour plus d'informations sur les modèles de processus, voir [Créer un modèle de processus dans Attract](./process-templates-attract.md).
 
@@ -127,7 +126,7 @@ Une fois une mission enregistrée, elle peut être soumise pour approbation. Le 
 
 Dans la liste des postes, vous pouvez filtrer les statuts des missions.
 
-Des approbations peuvent être envoyées à tout utilisateur Microsoft Azure Active Directory (Azure AD) de la société. Les approbations sont envoyées simultanément à toutes les personnes qui sont répertoriées comme approbateurs. Une fois une mission approuvée, elle peut être activée.
+Les approbations peuvent être envoyées à tous les utilisateurs de Microsoft Azure Active Directory (Azure AD) de la société. Les approbations sont envoyées simultanément à toutes les personnes qui sont répertoriées comme approbateurs. Une fois une mission approuvée, elle peut être activée.
 
 Les personnes répertoriées comme approbateurs reçoivent une notification dans Attract pour les informer qu'ils doivent approuver un élément. Un élément d'approbation s'affiche également dans la section **Affecté à vous** sur le tableau de bord. Une fois que quelqu'un accepte ou approuve une mission, l'équipe chargée du recrutement reçoit une notification. Enfin, l'équipe chargée du recrutement reçoit une notification lorsque la mission est approuvée.
 
@@ -169,4 +168,3 @@ Pour créer une mission, procédez comme suit.
 
 13. Pour activer la mission, sélectionnez **Activer**.
 14. Pour publier la mission, accédez à **Publications**, puis sélectionnez **Publier maintenant** sous le site Carrières Talent ou LinkedIn.
-

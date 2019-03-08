@@ -1,13 +1,13 @@
 ---
-title: "Clôture des ventes"
-description: "La rubrique suivante répertorie les pages qui prennent en charge processus d'entreprise Comptabilité client."
+title: Clôture des ventes
+description: La rubrique suivante répertorie les pages qui prennent en charge processus d'entreprise Comptabilité client.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ce3081127e942efb8a5eef560cfd78eb5ddb88e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8532b778c89c972a833ac9ffe28243f15f01426c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312782"
 ---
-
 # <a name="close-accounts-receivable"></a>Clôture des ventes
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Création et envoi de la liste des ventes intracommunautaires
 | Nom de la page                            | Utilisation                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |Liste des ventes intracommunautaires                         | Génération d'un état sur les ventes intracommunautaires à des fins de déclaration de la TVA à l'administration fiscale.                                                                                                                           |
-
 
 
 

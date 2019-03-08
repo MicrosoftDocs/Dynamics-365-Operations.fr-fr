@@ -1,32 +1,31 @@
 ---
-title: "Bases de répartition"
-description: "Cette rubrique fournit des informations sur les bases de répartition. Les bases de répartition sont des composants clé dans le contrôle de gestion et permettent généralement d'affecter des frais généraux."
+title: Bases de répartition
+description: Cette rubrique fournit des informations sur les bases de répartition. Les bases de répartition sont des composants clé dans le contrôle de gestion et permettent généralement d'affecter des frais généraux.
 author: AndersGirke
 manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 223174
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 92824cf0fb5ad361090d8dccfd64353d2c16317c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 111ebf578e455408c5b6168e5a7af705f3624d78
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311678"
 ---
-
 # <a name="allocation-bases"></a>Bases de répartition 
 
 [!include [banner](../includes/banner.md)]
@@ -430,5 +429,4 @@ Voici l'exemple d'une règle de répartition des coûts si la base de répartiti
 |    CC001    |     RH      | 1,837.50  | (1,837.50 ÷ 18,162.50) × Montant  |
 |    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × Montant  |
 |    CC003    |     TS      | 13,250.00 | (13,250.00 ÷ 18,162.50) × Montant |
-
 

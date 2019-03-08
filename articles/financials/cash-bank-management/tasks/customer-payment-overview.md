@@ -1,13 +1,13 @@
---- 
+---
 title: Vue d'ensemble des paiements client
-description: "Ce guide de tâche présente diverses méthodes utilisées pour entrer des paiements client."
+description: Ce guide de tâche présente diverses méthodes utilisées pour entrer des paiements client.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6e82be0d68165f62bbdc72a70b0675c7418b14ae
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317405"
 ---
 # <a name="customer-payment-overview"></a>Vue d'ensemble des paiements client
 
@@ -62,5 +62,4 @@ Ce guide de tâche présente diverses méthodes utilisées pour entrer des paiem
 21. Dans le champ Référence de paiement, entrez une référence de paiement. .
     * La référence de paiement n'est requise que si vous choisissez d'inclure le paiement sur un bordereau de remise.  
 22. Validez les paiements client. 
-
 

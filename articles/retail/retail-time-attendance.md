@@ -1,13 +1,13 @@
 ---
 title: Planifier la gestion du pointage dans Retail
-description: "Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Retail."
+description: Cette rubrique décrit les scénarios pris en charge pour la Gestion du pointage de vente au détail dans Microsoft Dynamics 365 for Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321269"
 ---
-
 # <a name="time-and-attendance-management-in-retail"></a>Planifier la gestion du pointage dans Retail
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les scénarios pris en charge pour la gestion des heures et de la présence dans Microsoft Dynamics 365 for Retail.
+Cette rubrique décrit les scénarios pris en charge pour la Gestion du pointage de vente au détail dans Microsoft Dynamics 365 for Retail.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Gérer la configuration et la planification des collaborateurs
 
@@ -126,7 +125,7 @@ Sur le PDV :
 
 ## <a name="process-and-manage-time-registrations"></a>Traitement et gestion des enregistrements des heures
 
-L'utilisateur de Dynamics 365 for Retail suit le workflow pour calculer, approuver et transférer les enregistrements des heures à la paie.
+L'utilisateur de Dynamics 365 for Retail suit le workflow pour calculer, approuver et transférer les enregistrements des heures à la paie.
 
 ### <a name="primary-operations"></a>Opérations principales
 
@@ -140,4 +139,3 @@ L'utilisateur de Dynamics 365 for Retail suit le workflow pour calculer, approu
 - Enregistrer des absences
 
 Pour plus d'informations sur le traitement des enregistrements des heures et des présences, voir [Traitement des enregistrements de pointage](https://technet.microsoft.com/library/aa573180.aspx).
-

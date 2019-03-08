@@ -1,13 +1,13 @@
---- 
-title: "Utiliser des configurations de mise en correspondance de modèles pour les calculs globaux au niveau de la base de données"
-description: "Cette procédure fournit des informations sur la création d'une configuration de mise en correspondance des modèles d'états électroniques et l'utilisation des fonctions ER intégrées pour effectuer des calculs globaux efficaces."
+---
+title: Utiliser des configurations de mise en correspondance de modèles pour les calculs globaux au niveau de la base de données
+description: Cette procédure fournit des informations sur la création d'une configuration de mise en correspondance des modèles d'états électroniques et l'utilisation des fonctions ER intégrées pour effectuer des calculs globaux efficaces.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313633"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Utiliser des configurations de mise en correspondance de modèles pour les calculs globaux au niveau de la base de données
 
@@ -37,7 +37,7 @@ Cette procédure est créée pour les utilisateurs auxquels le rôle Administrat
 3. Dans l'arborescence, sélectionnez « Modèle de déclaration d'échanges de biens\Exemple de mise en correspondance de déclaration d'échanges de biens ».
 4. Cliquez sur Concepteur.
 5. Cliquez sur Concepteur.
-6. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de tables ».
+6. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
 7. Cliquez sur Ajouter racine.
     * Ajoutez une nouvelle source de données représentant les enregistrements que vous souhaitez regrouper.  
 8. Dans le champ Nom, tapez « Transactions ».
@@ -116,5 +116,4 @@ Cette procédure est créée pour les utilisateurs auxquels le rôle Administrat
 67. Dans l'arborescence, développez « Commodity record(Intrastat) ».
 68. Cliquez sur Enregistrer.
     * Notez que « exécution » dans le champ indique que ce regroupement est exécuté au moment de l'exécution dans la mémoire même s'il n'existe pas de regroupement défini et que la source de données sélectionnée de type « Enregistrements de table » fait référence à la même table « Déclaration d'échanges de biens ». Cela est dû au fait que la source de données contient certains champs calculés qui ne peuvent pas encore être convertis au niveau de base de données SQL.  
-
 

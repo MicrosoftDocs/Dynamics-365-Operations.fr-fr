@@ -1,13 +1,13 @@
 ---
 title: amortissement de la prime
-description: "Cet article offre une vue d'ensemble de la fonctionnalité d'amortissement de la prime."
+description: Cet article offre une vue d'ensemble de la fonctionnalité d'amortissement de la prime.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e05c0c195ddb948547ae008d050686bbcdc6ed3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 53d05e66670194e38d1d1f748001ba1eac5f7b94
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323316"
 ---
-
 # <a name="bonus-depreciation"></a>amortissement de la prime
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ En cas de calcul de l'amortissement de la prime à l'aide du processus de propos
 Vous pouvez créer un nombre illimité d'enregistrements d'amortissement de la prime. Une fois que vous affectez ces enregistrements à un registre de groupe d'immobilisations, ils sont appliqués au registre des immobilisations. 
 
 L'amortissement de la prime est entré comme pourcentage ou montant fixe. Lorsque vous validez des propositions d'amortissement, les transactions d'amortissement de la prime sont validées dans le registre comme transactions distinctes des transactions d'amortissement.
-
 
 
 

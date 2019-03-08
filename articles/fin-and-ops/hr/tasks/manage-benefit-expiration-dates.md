@@ -1,13 +1,13 @@
---- 
-title: "Gérer les dates d'expiration des avantages"
-description: "Cette procédure indique comment faire expirer ou prolonger un avantage et gérer les dates d'inscription des collaborateurs inscrits dans cet avantage."
+---
+title: Gérer les dates d'expiration des avantages
+description: Cette procédure indique comment faire expirer ou prolonger un avantage et gérer les dates d'inscription des collaborateurs inscrits dans cet avantage.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: c256dc54a2f28889ce328b5c09ba19e6d67eb6b6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334609"
 ---
 # <a name="manage-benefit-expiration-dates"></a>Gérer les dates d'expiration des avantages
 
@@ -47,5 +47,4 @@ Cette procédure indique comment faire expirer ou prolonger un avantage et gére
 14. Développez la section Informations personnelles.
 15. Cliquez sur Avantages.
 16. Recherchez et sélectionnez l'enregistrement dans la liste. Notez la nouvelle date de fin de la couverture.
-
 

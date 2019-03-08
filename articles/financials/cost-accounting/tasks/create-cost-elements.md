@@ -1,13 +1,13 @@
---- 
-title: "Créer des éléments de coût"
-description: "Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion."
+---
+title: Créer des éléments de coût
+description: Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bbaf4f7533d51d554d838e8e9e2aa05ca451298a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1e665fc53455e457a2488f4ec28ebb5b715d90eb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321706"
 ---
 # <a name="create-cost-elements"></a>Créer des éléments de coût 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion. Cette procédure indique comment créer des éléments de coût en important les comptes principaux via un connecteur de données. La société fictive USMF a été utilisée pour créer cette procédure. Cette procédure s'applique à une fonction Contrôle de gestion qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion. Cette procédure indique comment créer des éléments de coût en important les comptes principaux via un connecteur de données. La société fictive USMF a été utilisée pour créer cette procédure. Cette procédure s'applique à une fonction du contrôle de gestion qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="create-new-cost-elements"></a>Créer des éléments de coût
@@ -57,5 +57,4 @@ Il existe plusieurs façons de créer des éléments de coût dans le contrôle 
 ## <a name="view-the-imported-accounts-as-cost-elements"></a>Afficher les comptes importés en tant qu'éléments de coût
 1. Cliquez sur Afficher les membres de la dimension.
     * Affichez les comptes généraux importés en tant qu'éléments de coût de votre entreprise vers lesquels les coûts peuvent se diriger.  
-
 

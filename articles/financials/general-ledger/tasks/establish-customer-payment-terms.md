@@ -1,13 +1,13 @@
---- 
-title: "Établir les conditions de paiement client"
-description: "Cette procédure définit un escompte de règlement et une date d'échéance."
+---
+title: Établir les conditions de paiement client
+description: Cette procédure définit un escompte de règlement et une date d'échéance.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 49f4047ab4bff6bdfbe8326a6680f9d8f9762c95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312483"
 ---
 # <a name="establish-customer-payment-terms"></a>Établir les conditions de paiement client
 
@@ -66,5 +66,4 @@ Cette procédure définit un escompte de règlement et une date d'échéance. La
     * Si vous sélectionnez « Comptes sur les lignes de facture », l'escompte de règlement va valider sur le même compte principal de dépense/d'actif sur les lignes de la facture fournisseur. Si vous sélectionnez « Utiliser le compte principal pour les factures fournisseur », l'escompte de règlement va valider sur le même compte principal que celui défini dans Compte principal pour les factures fournisseur. Pour cet exemple, sélectionnez « Utiliser le compte principal pour les factures fournisseur ».  
 26. Entrez le compte principal dans lequel l'escompte de règlement va valider les factures fournisseur.
 27. Cliquez sur Enregistrer.
-
 

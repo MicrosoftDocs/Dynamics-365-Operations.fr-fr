@@ -1,13 +1,13 @@
 ---
-title: "Gestion des congés et des absences"
-description: "Cette rubrique fournit une vue d'ensemble du module de gestion des congés et des absences."
+title: Gestion des congés et des absences
+description: Cette rubrique fournit une vue d'ensemble du module de gestion des congés et des absences.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 72bfbb878fa076e204e00c3ccaceb4ba04c00ea9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304369"
 ---
 # <a name="leave-and-absence-management"></a>Gestion des congés et des absences
 
@@ -68,4 +68,3 @@ La gestion des congés et des absences fournit les fonctions suivantes :
 - **Soumettre des demandes de congés.**
 
     Les employés peuvent envoyer des demandes de congés en fonction de leurs heures disponibles. Les demandes peuvent être des demandes simples d'un jour ou des demandes de plusieurs jours qui comprennent plusieurs types de congés et d'absences. Si un workflow n'est pas activé, les demandes sont automatiquement approuvées. Si un workflow est activé, l'approbation peut être automatique, ou elle peut exiger une approbation, en fonction de la configuration du workflow.
-

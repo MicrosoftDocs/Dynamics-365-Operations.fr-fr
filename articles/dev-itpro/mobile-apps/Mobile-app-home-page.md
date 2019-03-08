@@ -1,13 +1,13 @@
 ---
-title: "Page d'accueil de l'application Dynamics 365 for Unified Operations Mobile"
-description: "Cette rubrique décrit l'application mobile Microsoft Dynamics 365 for Unified Operations et fournit des liens vers des ressources qui peuvent vous aider à l'implémentation de votre organisation."
+title: Page d'accueil de l'application Dynamics 365 for Unified Operations Mobile
+description: Cette rubrique décrit l'application Microsoft Dynamics 365 for Unified Operations Mobile et fournit des liens vers des ressources qui peuvent vous aider à l'implémentation de votre organisation.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,29 +17,28 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321384"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Page d'accueil de l'application Dynamics 365 for Unified Operations Mobile
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l'application mobile Microsoft Dynamics 365 for Unified Operations et fournit des liens vers des ressources qui peuvent vous aider à l'implémentation de votre organisation.
+Cette rubrique décrit l'application Microsoft Dynamics 365 for Unified Operations Mobile et fournit des liens vers des ressources qui peuvent vous aider à l'implémentation de votre organisation.
 
 > [!NOTE]
-> L'application mobile était précédemment nommée *Microsoft Dynamics 365 for Finance and Operations*.
+> L'application mobile a été précédemment nommée *Microsoft Dynamics 365 for Finance and Operations*.
 
-<a name="overview"></a>Vue d'ensemble
+<a name="overview"></a>Présentation
 --------
 
 L'application mobile permet à votre organisation de rendre ses processus métiers disponibles sur des appareils mobiles. Lorsque votre administrateur informatique active des espaces de travail mobiles pour votre organisation, les utilisateurs peuvent se connecter à l'application et commencer à exécuter les processus métiers depuis leurs mobiles. L'application mobile inclut les fonctions suivantes qui permettent d'augmenter la productivité :
 
-- Les utilisateurs peuvent afficher, modifier, et agir sur les données commerciales, même avec une connectivité réseau intermittente ou si les appareils mobiles sont entièrement hors ligne. Lorsqu'un appareil rétablira une connexion réseau, les opérations de données hors ligne seront automatiquement synchronisées avec Dynamics 365 for Finance and Operations.
+- Les utilisateurs peuvent afficher, modifier, et agir sur les données commerciales, même avec une connectivité réseau intermittente ou si les appareils mobiles sont entièrement hors ligne. Lorsqu'un appareil rétablira une connexion réseau, les opérations de données hors ligne seront automatiquement synchronisées avec Dynamics 365 for Finance and Operations.
 - Les administrateurs ou les développeurs informatiques peuvent générer et publier des espaces de travail mobiles conçus en fonction de leur organisation. L'application utilise vos actifs de code existants. Par conséquent, vous n'aurez pas à réexécuter vos procédures de contrôle, votre logique métier, ou votre configuration de sécurité.
 - Les administrateurs ou les développeurs informatiques peuvent concevoir facilement des espaces de travail mobiles à l'aide du concepteur d'espace de travail inclus dans le client, par simple pointer-cliquer.
 - Ils peuvent éventuellement optimiser les capacités hors connexion des espaces de travail à l'aide de la technologie d'extensibilité de logique du système. Comme les données continuent à être traitées lorsqu'un appareil est hors ligne, les scénarios mobiles restent riches et fluides, même si les appareils ne sont pas constamment connectés au réseau.
@@ -90,7 +89,7 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 <tr class="even">
 <td>2</td>
 <td>Administrateur système</td>
-<td><strong>Si vous utilisez Microsoft Dynamics 365 for Operations version 1611 :</strong> Téléchargez et installez les articles de la Base de connaissances qui activent les espaces de travail mobiles fournis par Microsoft.</td>
+<td><strong>Si vous utilisez Microsoft Dynamics 365 for Operations version 1611 :</strong> téléchargez et installez les KB qui activent les espaces de travail mobiles fournis par Microsoft.</td>
 <td>Voir les rubriques suivantes pour plus d'informations :
 <ul>
 
@@ -153,4 +152,3 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 </tr>
 </tbody>
 </table>
-

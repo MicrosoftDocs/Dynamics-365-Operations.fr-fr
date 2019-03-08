@@ -1,13 +1,13 @@
---- 
-title: "Déplacer les tâches de kanban planifiées"
-description: "Cette procédure se concentre sur le déplacement des tâches de kanban d'un processus planifié dans une autre période."
+---
+title: Déplacer les tâches de kanban planifiées
+description: Cette procédure se concentre sur le déplacement des tâches de kanban d'un processus planifié dans une autre période.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/07/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: f791c9048ef6efe1585c991f998099cd1fc12df7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310850"
 ---
-
 # <a name="move-scheduled-kanban-jobs"></a>Déplacer les tâches de kanban planifiées
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -63,4 +62,3 @@ Cette procédure se concentre sur le déplacement des tâches de kanban d'un pro
 2. Cliquez sur **Suivant**. Notez que la tâche est déplacée une ligne vers le bas dans la liste. 
 
 3. Cliquez sur **Précédent**. Notez que la tâche est déplacée une ligne vers le haut dans la liste.
-

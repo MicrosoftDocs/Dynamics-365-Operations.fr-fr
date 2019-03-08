@@ -1,13 +1,13 @@
---- 
-title: "Créer une série de lettres de relance"
-description: "Utilisez ce guide de tâche pour créer une série de lettres de relance."
+---
+title: Créer une série de lettres de relance
+description: Utilisez ce guide de tâche pour créer une série de lettres de relance.
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: db5264f6d8d7723ff01d13e99728c2bfebcb4515
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6331c3680169b305c4bfbfada4ba106b619be092
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311563"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Créer une série de lettres de relance
 
@@ -65,5 +65,4 @@ Utilisez ce guide de tâche pour créer une série de lettres de relance. La soc
 26. Développer l'organisateur Note.
 27. Entrez le texte tel que vous souhaitez qu'il apparaisse dans la lettre de relance pour le code lettre de relance sélectionné.
     * Vous pouvez traduire ce texte dans plusieurs langues à l'aide du menu Traductions au-dessus de la zone de note.  
-
 

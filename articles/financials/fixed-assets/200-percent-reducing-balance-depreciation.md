@@ -1,13 +1,13 @@
 ---
-title: "Amortissements dégressifs de 200 %"
-description: "Cet article propose une vue d'ensemble de la méthode d'amortissement dégressif de 200 %."
+title: Amortissements dégressifs de 200 %
+description: Cet article propose une vue d'ensemble de la méthode d'amortissement dégressif de 200 %.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ec51f9e12e31e81c56fab9e82d0fc18d45beb5e6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 46afd002a370a43c9e1d2fb7cc5e61ece9033be9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322718"
 ---
-
 # <a name="200-percent-reducing-balance-depreciation"></a>Amortissements dégressifs de 200 %
 
 [!include [banner](../includes/banner.md)]
@@ -78,17 +77,16 @@ Si vous sélectionnez **Fiscal** comme année d'amortissement, les options suiva
 | Années de durée de vie             | 5      |
 | Pourcentage d'amortissement annuel | 40 %    |
 
-La méthode d'amortissement dégressif de 200 % divise 200 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l'actif afin de déterminer le montant d'amortissement pour chaque année.
+La méthode d'amortissement dégressif de 200 % divise 200 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l'actif afin de déterminer le montant d'amortissement pour chaque année.
 
 | Période | Calcul du montant d'amortissement annuel | Valeur comptable             | Valeur comptable nette à la fin de l'exercice |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| Année 1 | (11 000 - 1 000) × 40 % = 4 000                | 11 000 - 4 000 = 7 000 | 11 000 - 1 000 - 4 000 = 6 000        |
-| Année 2 | 6 000 × 40 % = 2 400                           | 7 000 - 2 400 = 4 600  | 6 000 - 2 400 = 3 600                 |
-| Année 3 | 3 600 × 40 % = 1 440                           | 4 600 - 1 440 = 3 160  | 3 600 - 1 440 = 2 160                 |
+| Année 1 | (11 000 - 1 000) × 40 % = 4 000                | 11 000 - 4 000 = 7 000 | 11 000 - 1 000 - 4 000 = 6 000        |
+| Année 2 | 6 000 × 40 % = 2 400                           | 7 000 - 2 400 = 4 600  | 6 000 - 2 400 = 3 600                 |
+| Année 3 | 3 600 × 40 % = 1 440                           | 4 600 - 1 440 = 3 160  | 3 600 - 1 440 = 2 160                 |
 
 > [!NOTE] 
 > Généralement, si le montant calculé via la méthode d'amortissement dégressif de 200 % est inférieur au montant calculé via la méthode linéaire, passer à la méthode linéaire pour la durée de vie restante reste possible.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Générer des prévisions de base statistiques"
-description: "Cet article fournit des informations sur les paramètres et les filtres utilisés dans le calcul de prévision de la demande."
+title: Générer des prévisions de base statistiques
+description: Cet article fournit des informations sur les paramètres et les filtres utilisés dans le calcul de prévision de la demande.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326421"
 ---
-
 # <a name="generate-a-statistical-baseline-forecast"></a>Générer des prévisions de base statistiques
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Lorsque la stratégie de prévision est définie sur **Copier sur la demande his
 
 Pour empêcher toute confusion dans les calendriers de production, un certain nombre d'intervalles de prévision peuvent être figés. Ce nombre est défini dans le champ **Plage de temps bloquée**. Dans la page **Ajustement de la prévision de demande**, les cellules pour les intervalles figés sont désactivées, pour donner une indication visuelle que ces valeurs ne doivent pas être modifiées. 
 
-La date de début de la prévision de la demande de base ne doit pas être la date du jour ou une date dans le futur. Pour définir une date de début différente, utilisez le champ **Date de début de prévision de base - Date de début**. Par exemple, en juin, les utilisateurs peuvent générer une prévision pour l'année suivante. Étant donné que les intervalles de prévision entre la fin d'une demande historique et le début de la base sont manquants, il se peut que les prévisions ne soient pas précises. Si vous utilisez le service de prévision de la demande de Microsoft Dynamics 365 for Finance and Operations, il existe quatre méthodes qui permettent de combler les écarts manquants. Vous pouvez sélectionner la méthode que vous souhaitez en définissant le paramètre MISSING\_VALUE\_SUBSTITUTION dans la page **Paramètres de prévision de la demande**. 
+La date de début de la prévision de la demande de base ne doit pas être la date du jour ou une date dans le futur. Pour définir une date de début différente, utilisez le champ **Date de début de prévision de base - Date de début**. Par exemple, en juin, les utilisateurs peuvent générer une prévision pour l'année suivante. Étant donné que les intervalles de prévision entre la fin d'une demande historique et le début de la base sont manquants, il se peut que les prévisions ne soient pas précises. Si vous utilisez le service de prévision de la demande de Microsoft Dynamics 365 for Finance and Operations, il existe quatre méthodes qui permettent de combler les écarts manquants. Vous pouvez sélectionner la méthode que vous souhaitez en définissant le paramètre MISSING\_VALUE\_SUBSTITUTION dans la page **Paramètres de prévision de la demande**. 
 
 Le champ **Date de début de prévision de base** - **Date de début** doit être défini au début d'un intervalle de prévision, par exemple, aux États-unis, un dimanche si l'intervalle de prévision est la semaine. Le système règle automatiquement le champ **Date de début de prévision de base** - **Date de début** pour correspondre au début d'un intervalle de prévision. 
 
@@ -72,7 +71,6 @@ Si la prévision n'est pas générée pour un grand ensemble d'articles, mais, p
 [Effectuer des ajustements manuels sur la prévision de base](manual-adjustments-baseline-forecast.md)
 
 [Autorisation de la prévision ajustée](authorize-adjusted-forecast.md)
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Initialiser les niveaux des stocks dans l'entrepôt"
-description: "Cette procédure décrit la manière dont vous obtenez le stock disponible mis à jour manuellement à l'aide du journal des mouvements de stock."
+---
+title: Initialiser les niveaux des stocks dans l'entrepôt
+description: Cette procédure décrit la manière dont vous obtenez le stock disponible mis à jour manuellement à l'aide du journal des mouvements de stock.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4bfa40c19e34631edb68b8cff42e7f72eb9ce2ad
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45c93febbbc4ea78fe2b87735ed96fd773605d96
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332286"
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>Initialiser les niveaux des stocks dans l'entrepôt
 
@@ -59,5 +59,4 @@ Cette procédure décrit la manière dont vous obtenez le stock disponible mis �
 24. Cliquez sur OK.
 25. Fermez la page.
 26. Fermez la page.
-
 

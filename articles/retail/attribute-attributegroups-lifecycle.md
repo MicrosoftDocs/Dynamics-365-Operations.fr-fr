@@ -1,37 +1,36 @@
 ---
 title: Attributs et groupes d'attributs
-description: "Cette rubrique décrit comment utiliser les attributs pour décrire un produit et ses caractéristiques par le biais de champs définis par l'utilisateur."
+description: Cette rubrique décrit comment utiliser les attributs pour décrire un produit et ses caractéristiques par le biais de champs définis par l'utilisateur.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326237"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>Attributs et groupes d'attributs
 
 [!include [banner](includes/banner.md)]
 
-Les *Attributs* permettent de décrire de façon plus précise un produit et ses caractéristiques dans les champs définis par l'utilisateur (tels que **Capacité de stockage**, **Capacité du disque dur**, **Est conforme à la norme Energy Star**, etc.). Dans Microsoft Dynamics 365 for Finance and Operations, les attributs peuvent être associés à diverses entités Retail, telles que des catégories de produits et des canaux de vente au détail, et des valeurs par défaut peuvent être définies pour eux. Les produits héritent ensuite les attributs et les valeurs par défaut lorsqu'ils sont associés aux catégories de produits ou à des canaux de vente au détail. Les valeurs par défaut peuvent être remplacées au niveau du produit individuel, au niveau de canal de vente au détail, ou dans un catalogue de vente au détail.
+Les *Attributs* permettent de décrire de façon plus précise un produit et ses caractéristiques dans les champs définis par l'utilisateur (tels que **Capacité de stockage**, **Capacité du disque dur**, **Est conforme à la norme Energy Star**, etc.). Les attributs Microsoft Dynamics 365 for Finance and Operations peuvent être associés à diverses entités de vente au détail, telles que des catégories de produits et des canaux de vente au détail, et des valeurs par défaut peuvent être définies pour eux. Les produits héritent ensuite les attributs et les valeurs par défaut lorsqu'ils sont associés aux catégories de produits ou à des canaux de vente au détail. Les valeurs par défaut peuvent être remplacées au niveau du produit individuel, au niveau de canal de vente au détail, ou dans un catalogue de vente au détail.
 
 Par exemple, un produit de télévision classique peut avoir les attributs suivants.
 
@@ -257,4 +256,3 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
 
     > [!NOTE]
     > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
-

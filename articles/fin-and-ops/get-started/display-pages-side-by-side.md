@@ -1,13 +1,13 @@
 ---
-title: "Afficher côte à côte des pages à l'aide de la fonctionnalité Ouvrir dans une nouvelle fenêtre"
-description: "Cet article explique comment afficher des pages côte à côte dans Microsoft Dynamics 365 for Finance and Operations."
+title: Afficher côte à côte des pages à l'aide de la fonctionnalité Ouvrir dans une nouvelle fenêtre
+description: Cet article explique comment afficher des pages côte à côte dans Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 09/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df9b091735a4971446c5b5d0e054076260040683
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8e3ef29618f11b0f247999e3a24e54bff44bf51a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330170"
 ---
-
-# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Afficher côte à côte des pages à l'aide de la fonctionnalité Ouvrir dans une nouvelle fenêtre
+# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Afficher côte à côte des pages à l'aide de la fonction Ouvrir dans une nouvelle fenêtre
 
 [!include [banner](../includes/banner.md)]
 
 Cet article explique comment afficher des pages côte à côte dans Microsoft Dynamics 365 for Finance and Operations.
 
-Microsoft Dynamics 365 for Finance and Operations vous aide à effectuer vos tâches plus efficacement. Dans certains cas, vous pouvez afficher plusieurs pages côte à côte pour accomplir des tâches plus rapidement. Par exemple, vous souhaitez peut-être valider ou entrer des lignes dans plusieurs journaux. Généralement, pour ce faire vous devez aller et venir entre la page qui affiche la liste des journaux, et la page qui affiche les lignes d'un journal donné. Toutefois, la fonction **Ouvrir dans une nouvelle fenêtre** vous permet d'afficher ces pages côte à côte afin de pouvoir effectuer vos tâches rapidement.
+Microsoft Dynamics 365 for Finance and Operations vous aide à effectuer les tâches de manière efficace. Dans certains cas, vous pouvez afficher plusieurs pages côte à côte pour accomplir des tâches plus rapidement. Par exemple, vous souhaitez peut-être valider ou entrer des lignes dans plusieurs journaux. Généralement, pour ce faire vous devez aller et venir entre la page qui affiche la liste des journaux, et la page qui affiche les lignes d'un journal donné. Toutefois, la fonction **Ouvrir dans une nouvelle fenêtre** vous permet d'afficher ces pages côte à côte afin de pouvoir effectuer vos tâches rapidement.
 
 Dans la suite de l'exemple ci-dessus, quand vous affichez les lignes, vous pouvez cliquer sur l'icône **Ouvrir dans une nouvelle fenêtre**.
 
@@ -50,4 +49,3 @@ Avant d'utiliser la fonctionnalité **Ouvrir dans une nouvelle fenêtre**, vous 
 La fonction **Ouvrir dans une nouvelle fenêtre** n'est disponible que lorsqu'il existe plusieurs page ouvertes dans la fenêtre. En outre, la fenêtre contextuelle se ferme automatiquement lorsqu'il n'y a plus de page ouverte (autrement dit, lorsque la dernière page dans cette fenêtre est fermée.) Finance and Operations ferme également les pages ouvertes lorsque vous accédez à une autre zone de l'application. Par conséquent, si vous avez des fenêtres contextuelles ouvertes et que vous accédez à une autre zone de l'application, les fenêtres contextuelles sont automatiquement fermées car les pages de ces fenêtres ont été fermées par le système.
 
 La barre supérieure dans les fenêtres contextuelles affiche des informations sur la société dans laquelle la page a été ouverte et est en lecture seule. Les fenêtres contextuelles s'appuient également sur les fenêtres du navigateur principal de Finance and Operations. Si la fenêtre principale est fermée ou actualisée, toutes les fenêtres contextuelles ouvertes passent en lecture seule. Cela signifie que vous pouvez toujours voir les informations dans ces fenêtres, mais vous ne pourrez pas interagir avec.
-

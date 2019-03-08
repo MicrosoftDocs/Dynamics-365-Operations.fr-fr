@@ -1,13 +1,13 @@
---- 
-title: "Créer des commandes de centre d'appels"
-description: "Cette procédure décrit la recherche d'un client, la création d'une commande, la recherche d'un produit et la collecte du paiement auprès du client."
+---
+title: Créer des commandes de centre d'appels
+description: Cette procédure décrit la recherche d'un client, la création d'une commande, la recherche d'un produit et la collecte du paiement auprès du client.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRCustomerService, SalesTable, MCRSourceIdTargetLookup, MCRSalesQuickQuote, MCRSalesOrderRecap, MCRCustPaymDialog, MCRCustPaymLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4867ad67dc570ab42420ba12fc7dc2da6b5ba503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: b2e986df1e089ef2a394d0e9d9236d39f2726c77
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334310"
 ---
 # <a name="create-call-center-orders"></a>Créer des commandes de centre d'appels
 
@@ -55,5 +55,4 @@ Cette procédure décrit la recherche d'un client, la création d'une commande, 
     * Pour cette procédure, saisissez un montant égal au solde de la commande qui s'affiche dans la page Résumé de la commande client à gauche du champ de montant. Vous pourrez ainsi terminer la commande comme étant intégralement payée.  
 17. Cliquez sur OK.
 18. Cliquez sur Soumettre.
-
 

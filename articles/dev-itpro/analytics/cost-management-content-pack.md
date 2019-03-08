@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI de gestion des coûts"
-description: "Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des coûts."
+title: Contenu Power BI Gestion des coûts
+description: Cette rubrique décrit les données incluses dans le contenu Power BI Gestion des coûts.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,24 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327801"
 ---
-
-# <a name="cost-management-power-bi-content"></a>Contenu Power BI de gestion des coûts
+# <a name="cost-management-power-bi-content"></a>Contenu Power BI Gestion des coûts
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Le contenu Microsoft Power BI **Gestion des coûts** est prévu pour des comptables de stock ou des personnes de l'organisation responsables ou intéressés par le statut du stock ou des travaux en cours, ou responsables ou intéressés par l'analyse des écarts de coûts standard.
 
 > [!NOTE]
-> Le contenu Power BI de **Gestion des coûts** décrit dans cette rubrique s'applique à Dynamics 365 for Finance and Operations 8.0.
+> Le contenu Power BI  **Gestion des coûts** décrit dans cette rubrique s'applique à Dynamics 365 for Finance and Operations 8.0.
 > 
 > Le pack de contenu Power BI de **Gestion des coûts**, disponible sur le site AppSource, est devenu obsolète. Pour plus d'informations sur cette obsolescence, voir [Packs de contenu Power BI disponibles sur AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
@@ -63,7 +62,7 @@ L'espace de travail **Analyse des coûts** contient les onglets suivants :
 - **Analyse de la comptabilité de fabrication** – Cet onglet affiche le contenu Power BI.
 - **Analyse des écarts de coût standard** – Cet onglet affiche le contenu Power BI.
 
-## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Pages d'état incluses dans le contenu Power BI
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Pages d'états incluses dans le pack de contenu Power BI
 
 Le contenu Power BI **Gestion des coûts** inclut un ensemble de pages d'état composé d'un ensemble de mesures. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. 
 
@@ -173,7 +172,7 @@ Les tableaux suivants fournissent une vue d'ensemble des visualisations dans le 
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 
-Les données de Microsoft Dynamics 365 for Finance and Operations sont utilisées pour remplir les pages d'états du contenu Power BI de la **Gestion des coûts**. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données Microsoft SQL Server optimisée pour l'analyse. Pour plus d'informations, voir [Intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md)
+Les données de Microsoft Dynamics 365 for Finance and Operations sont utilisées pour remplir les pages d'état dans le contenu Power BI **Analyse du contrôle de gestion**. Ces données sont représentées sous forme de mesures globales stockées dans le magasin d'entité, qui est une base de données Microsoft SQL Server optimisée pour l'analyse. Pour plus d'informations, voir [Intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md).
 
 Les mesures globales clés des objets suivants sont utilisées comme base du contenu Power BI.
 
@@ -209,4 +208,3 @@ Les dimensions clés suivantes sont utilisées comme filtres pour diviser les me
 | Entités juridiques                                          | Noms d'entité juridique                              |
 | Calendriers fiscaux                                        | Calendrier fiscal, Année, Trimestre, Période, Mois   |
 | Site                                                    | ID, Nom, Adresse, Région, Pays               |
-

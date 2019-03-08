@@ -1,13 +1,13 @@
 ---
-title: "Ajustement des valeurs de coût du stock disponible"
-description: "Utilisez la page Ajustement du stock disponible pour ajuster le coût des quantités de stock disponible une fois qu'un processus de clôture de stock a été exécuté."
+title: Ajustement des valeurs de coût du stock disponible
+description: Utilisez la page Ajustement du stock disponible pour ajuster le coût des quantités de stock disponible une fois qu'un processus de clôture de stock a été exécuté.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventAdjInventOnHand
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2417a278e58f4309873ab4d33b0d1f1686081951
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2b4a27465908b5ffe19e91cb7ad0d29bce49505a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335161"
 ---
-
 # <a name="adjust-on-hand-inventory-cost-values"></a>Ajustement des valeurs de coût du stock disponible
 
 [!include [banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Cet article était paramétré avec le modèle de stock FIFO (premier entré, pr
 -   5 février : quantité de 1 à un coût de 13,00 EUR.
 
 Pour définir le coût de ces deux articles sur 15,00 EUR, utilisez l'option d'ajustement disponible et ajustez les quantités disponibles ouvertes à partir de la dernière période de clôture de stock. **Remarque :** la date de validation de la transaction d'ajustement disponible sera la date de la dernière clôture de stock. Cette date ne peut pas être modifiée.
-

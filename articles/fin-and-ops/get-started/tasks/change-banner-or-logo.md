@@ -1,13 +1,13 @@
---- 
-title: "Modifier la bannière ou le logo"
-description: "La procédure suivante répertorie les étapes que les administrateurs système peuvent utiliser pour mettre à jour l'image de bannière ou de logo affichée pour une entité juridique."
+---
+title: Modifier la bannière ou le logo
+description: La procédure suivante répertorie les étapes que les administrateurs système peuvent utiliser pour mettre à jour l'image de bannière ou de logo affichée pour une entité juridique.
 author: aneesmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ed0a4e31e840f771f1620b42518ed0e03dbad151
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332953"
 ---
 # <a name="change-the-banner-or-logo"></a>Modifier la bannière ou le logo
 
@@ -41,5 +41,4 @@ La procédure suivante répertorie les étapes que les administrateurs système 
 8. Accédez à Commun > Commun > Tableau de bord par défaut.
     * Vous devez voir la nouvelle image de bannière ou de logo dans le tableau de bord.  
     * Vous devez peut-être modifier votre société, à l'aide du sélecteur de société, pour faire figurer celle pour laquelle vous avez téléchargé la bannière.  
-
 

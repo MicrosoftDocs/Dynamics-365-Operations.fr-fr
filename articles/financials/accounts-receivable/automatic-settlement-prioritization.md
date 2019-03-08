@@ -1,13 +1,13 @@
 ---
-title: "Règlement automatique et attribution de priorités"
-description: "Cette rubrique décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement."
+title: Règlement automatique et attribution de priorités
+description: Cette rubrique décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 775ce10cdba5e38fbb5fc058c6df297143229f79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318969"
 ---
-
 # <a name="automatic-settlement-and-prioritization"></a>Règlement automatique et attribution de priorités
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
 
-Vous avez deux options lorsque vous réglez des paiements avec des factures et d'autres transactions. Vous pouvez sélectionner manuellement les transactions à régler ou Microsoft Dynamics 365 for Finance and Operations peut sélectionner les transactions automatiquement à l'aide de la fonctionnalité de règlement automatique. Vous pouvez également personnaliser la manière dont les règlements automatiques sont traités à l'aide de l'option **Classer le règlement par ordre de priorité**. Toutes ces options font partie des paramètres de règlement définis dans la page **Paramètres de la comptabilité client**. La manière dont les transactions sont réglées automatiquement peut varier, en fonction de la méthode que vous utilisez pour le règlement automatique. Les méthodes disponibles sont les suivantes :
+Vous avez deux options lorsque vous réglez des paiements avec des factures et d'autres transactions. Vous pouvez sélectionner manuellement les transactions à régler ou Microsoft Dynamics 365 for Finance and Operations peut sélectionner les transactions automatiquement à l'aide de la fonctionnalité de règlement automatique. Vous pouvez également personnaliser la manière dont les règlements automatiques sont traités à l'aide de l'option **Classer le règlement par ordre de priorité**. Toutes ces options font partie des paramètres de règlement définis dans la page **Paramètres de la comptabilité client**. La manière dont les transactions sont réglées automatiquement peut varier, en fonction de la méthode que vous utilisez pour le règlement automatique. Les méthodes disponibles sont les suivantes :
 
 -   Priorité de règlement définie par l'utilisateur
 -   Règlement automatique par défaut
@@ -44,9 +43,9 @@ Les exemples de règlements présentés plus loin dans cet article sont basés s
 
 | Transaction   | date ;        | Montant | Conditions d'escompte de règlement | Date d'escompte de règlement | Commentaires                                                                                                                                                                                      |
 |---------------|-------------|--------|---------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Facture 1     | 15 août   | 100,00 | 2%14, Net 30        | 29 août          |                                                                                                                                                                                               |
+| Facture 1     | 15 août   | 100,00 | 2%14, Net 30        | 29 août          |                                                                                                                                                                                               |
 | Facture 2     | 1 septembre | 250,00 | 2%14, Net 30        | 15 septembre       |                                                                                                                                                                                               |
-| Facture 3     | 15 octobre  | 500,00 | 2% 14/Net 30        | 29 octobre         |                                                                                                                                                                                               |
+| Facture 3     | Octobre 15  | 500,00 | 2% 14/Net 30        | 29 octobre         |                                                                                                                                                                                               |
 | Note d'intérêt | 15 octobre  | 7h00   |                     |                    | Cette note d'intérêt concerne la facture 1 et la facture 2. Le montant calculé représente 2 % d'intérêts sur les montants qui sont en souffrance depuis 30 jours ou plus. Par exemple, 0,02 × (100,00 + 250,00) = 7,00. |
 
 ## <a name="user-defined-settlement-priority"></a>Priorité de règlement définie par l'utilisateur
@@ -79,7 +78,6 @@ En l'absence de priorité de règlement définie par l'utilisateur, les transact
 | Facture 2     | 9/1/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | Facture 3     | 10/15/2015 |         | 500,00                         | 350,00           | 150,00  | USD      |
 | Note d'intérêt | 10/15/2015 |         | 7h00                           | 0,00             | 0,00    | USD      |
-
 
 
 

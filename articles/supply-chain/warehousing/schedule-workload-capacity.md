@@ -1,13 +1,13 @@
 ---
-title: "Planifier la capacité de charge de travail"
-description: "Cette rubrique explique comment paramétrer et planifier la capacité de charge de travail pour les collaborateurs d'un entrepôt ou pour un entrepôt entier."
+title: Planifier la capacité de charge de travail
+description: Cette rubrique explique comment paramétrer et planifier la capacité de charge de travail pour les collaborateurs d'un entrepôt ou pour un entrepôt entier.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317290"
 ---
-
 # <a name="schedule-workload-capacity"></a>Planifier la capacité de charge de travail
 
 [!include[banner](../includes/banner.md)]
@@ -81,4 +80,3 @@ Si ces informations ne sont pas spécifiées correctement, vous recevez un messa
 3. Dans le champ **Type de commande**, sélectionnez **Prévu et confirmé**, **Prévu** ou **Confirmé** pour indiquer le type de commandes à projeter dans l'état.
 4. Dans le champ **Type de charge**, sélectionnez un type de charge pour spécifier si la capacité de la charge de travail est projetée pour le volume ou le poids.
 5. Dans le champ **Capacité de la charge de travail**, sélectionnez un paramétrage pour la capacité de la charge de travail.
-

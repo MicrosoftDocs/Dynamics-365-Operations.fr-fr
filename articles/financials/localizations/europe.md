@@ -1,13 +1,13 @@
 ---
 title: Europe
-description: "Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 for Finance and Operations pour l'Europe."
+description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 for Finance and Operations pour l'Europe.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321729"
 ---
-
 # <a name="europe"></a>Europe 
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer Dynamics 365 for Finance and Operations pour les entités juridiques dont l'adresse principale est en Europe. 
+Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer Dynamics 365 for Finance and Operations pour les entités juridiques dont l'adresse principale est en Europe. 
 
 - [Détenteurs d'avance](emea-advance-holders.md)
  - [Transactions des détenteurs d'avance](emea-advance-holders-transactions.md)
@@ -99,5 +98,4 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 
 - [Vue d'ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
 

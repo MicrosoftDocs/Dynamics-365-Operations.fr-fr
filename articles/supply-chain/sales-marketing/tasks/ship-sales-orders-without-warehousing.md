@@ -1,13 +1,13 @@
---- 
-title: "Expédier des commandes client sans entreposage"
-description: "Ce guide montre comment mettre une commande client à jour lorsque les produits sont expédiés au client."
+---
+title: Expédier des commandes client sans entreposage
+description: Ce guide montre comment mettre une commande client à jour lorsque les produits sont expédiés au client.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ae70e09dbc4da90b7d1802d076384eae2d00da0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3f1b9dd4b99bcbcc6cfbc5cfd8e3271fa80c628c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312966"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Expédier des commandes client sans entreposage
 
@@ -59,5 +59,4 @@ Ce guide montre comment mettre une commande client à jour lorsque les produits 
 20. Cliquez sur Prélever et emballer dans le volet Actions.
 21. Cliquez sur Bon de livraison.
     * La page du journal des bons de livraison contient tous les documents de bon de livraison générés pour votre commande. Vous pouvez réviser les détails de chaque document et les imprimer, si vous le souhaitez.  
-
 

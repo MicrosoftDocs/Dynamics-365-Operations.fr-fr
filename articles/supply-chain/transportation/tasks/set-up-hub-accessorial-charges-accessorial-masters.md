@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer des frais annexes de terminal et des données principales annexes"
-description: "Cette procédure décrit la création de données principales annexes pour un terminal et l'utilisation de ces données principales pour créer des frais annexes de terminal."
+---
+title: Paramétrer des frais annexes de terminal et des données principales annexes
+description: Cette procédure décrit la création de données principales annexes pour un terminal et l'utilisation de ces données principales pour créer des frais annexes de terminal.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9959c20f9a8fd07cbf0cfd76f7760b44d7b5cae1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6381416640ffacf0a9d96d7da96bc33612ca7137
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331895"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Paramétrer des frais annexes de terminal et des données principales annexes
 
@@ -52,5 +52,4 @@ Cette procédure décrit la création de données principales annexes pour un te
     * Sélectionnez les données principales que vous venez de créer.  
 9. Cliquez sur Enregistrer.
 10. Fermez la page.
-
 

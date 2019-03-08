@@ -1,13 +1,13 @@
 ---
-title: "Mettre à niveau la gestion des entrepôts de Microsoft Dynamics AX 2012 vers Finance and Operations"
+title: Mettre à niveau la gestion des entrepôts de Microsoft Dynamics AX 2012 vers Finance and Operations
 description: Cette rubrique fournit une vue d'ensemble des options de migration de produits et des stocks.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,20 +18,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324466"
 ---
-
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Mettre à niveau la gestion des entrepôts de Microsoft Dynamics AX 2012 vers Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Mettre à niveau la gestion des entrepôts de Microsoft Dynamics AX 2012 vers Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble du processus de mise à niveau de Microsoft Dynamics AX 2012 R3, exécutant le module WMSII, vers Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique fournit une vue d'ensemble du processus de mise à niveau depuis Microsoft Dynamics AX 2012 R3, en exécutant le module WMSII, vers Microsoft Dynamics 365 for Finance and Operations.
 
 Finance and Operations ne prend plus en charge le module **WMSII** hérité de Microsoft Dynamics AX 2012. À la place, vous pouvez utiliser le module **Gestion des entrepôts**. Dans le module WMSII, les dimensions de stock Emplacement et ID palette peuvent être sélectionnées pour le stock financier. Cependant, la dimension de stock ID palette ne peut pas être utilisée pour le stock financier dans Finance and Operations.
 
@@ -84,4 +83,3 @@ Pour pouvoir utiliser des produits lancés dans le module **Gestion des entrepô
 6.  Dans la page **Modifier le groupe de dimensions de stockage pour les articles**, ajoutez les numéros d'article, les groupes de dimensions de stockage et les groupes de séquences d'unités. Vous pouvez effectuer cette étape directement sur la page, à l'aide de l'intégration Microsoft Office, ou en utilisant le traitement de l'entité de données dans [Gestion des données](../../dev-itpro/data-entities/data-entities.md).
 7.  Validez les modifications. Dans le cadre du processus de validation, différentes validations de l'intégrité des données se produisent. Dans le cadre d'un processus de mise à niveau plus vaste, les problèmes qui se produisent doivent être ajustés sur l'implémentation source. Dans ce cas, une mise à niveau supplémentaire des données sera nécessaire.
 8.  Traitez les modifications. Une mise à jour de toutes les dimensions de stock peut prendre un certain temps. Vous pouvez surveiller la progression à l'aide des tâches de traitement par lots.
-

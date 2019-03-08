@@ -1,13 +1,13 @@
 ---
-title: "Catégories de coûts utilisées dans Contrôle de la production et dans Gestion et comptabilité de projets"
-description: "Certains types de travaux de production peuvent s'appliquer aux générations d'états et aux estimations de temps du projet. Cet article fournit des informations sur les catégories de coûts que vous devez définir pour ces types de productions à des fins de production et de projet."
+title: Catégories de coûts utilisées dans Contrôle de la production et dans Gestion et comptabilité de projets
+description: Certains types de travaux de production peuvent s'appliquer aux générations d'états et aux estimations de temps du projet. Cet article fournit des informations sur les catégories de coûts que vous devez définir pour ces types de productions à des fins de production et de projet.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cab4629740e92f9075b7afc7a5d228b2e01c4664
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1fcc7914f2bb283a746b5e10993f91f949818473
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326030"
 ---
-
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Catégories de coûts utilisées dans Contrôle de la production et dans Gestion et comptabilité de projets
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ Certains types de travaux de production peuvent s'appliquer aux générations d'
 -   En général, les comptes généraux relatifs aux coûts et aux ventes sont définis pour le groupe de catégories affecté à la catégorie de coûts. Toutefois, des comptes spécifiques peuvent être définis pour une catégorie de coûts individuelle.
 
 Des boutons supplémentaires sur la page **Catégories de coûts** vous donnent accès aux informations relatives à un projet concernant une catégorie de coûts sélectionnée. Par exemple, vous pouvez afficher les transactions relatives aux projets, définir les employés ou les projets, définir les coûts horaires et les prix de vente et afficher des états.
-
 
 
 

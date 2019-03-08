@@ -1,13 +1,13 @@
---- 
-title: "Générer et traiter les remises client"
-description: "Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l'étape pendant laquelle elles passent en régularisations à la comptabilité client."
+---
+title: Générer et traiter les remises client
+description: Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l'étape pendant laquelle elles passent en régularisations à la comptabilité client.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336449"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Générer et traiter les remises client
 
@@ -83,5 +83,4 @@ Cette procédure illustre comment traiter les remises client de la génération 
 9. Dans le champ Client, saisissez ou sélectionnez une valeur.
 10. Cliquez sur OK.
     * Un message indique que la remise a été traitée correctement et que le statut des réclamations a été modifié sur Marquer. Cela signifie que conséquemment à la validation d'un journal de régularisation des remises : a) les réclamations sont désormais transférées au solde client temporaire comme déductions ; b) le compte de régularisation de remise a été crédité pour représenter le futur passif envers le client ; et c) le compte de frais de remise a été débité, reconnaissant ainsi le coût engagé en relation avec les ventes.   
-
 

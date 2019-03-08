@@ -1,13 +1,13 @@
 ---
 title: Gestion des magasiniers
-description: "Cet article décrit la manière dont vous pouvez utiliser Dynamics 365 for Finance and Operations pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts."
+description: Cet article décrit la manière dont vous pouvez utiliser Dynamics 365 for Finance and Operations pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310988"
 ---
-
 # <a name="manage-warehouse-workers"></a>Gestion des magasiniers
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit la manière dont vous pouvez utiliser Microsoft Dynamics 365 for Finance and Operations pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
+Cet article décrit la manière dont vous pouvez utiliser Microsoft Dynamics 365 for Finance and Operations pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
 
 Si vous utilisez la fonctionnalité de gestion des entrepôts, toutes les opérations des magasiniers sont appelées *travail*. Les travaux tels que le prélèvement, le déplacement, et l'inventaire du stock disponible sont enregistrés en utilisant des périphériques mobiles. Pour qu'un magasinier puisse effectuer le travail, il doit être associé à un collaborateur dans les Ressources humaines. Chaque compte de **Collaborateur** peut être associé à plusieurs utilisateurs de travail d'entrepôt. Ces utilisateurs de travail peuvent travailler dans différents entrepôts et avoir des niveaux d'accès différents aux menus du périphérique portable. Vous pouvez penser aux utilisateurs de travail d'entrepôt comme plusieurs connexions pour le collaborateur sélectionné. Chaque utilisateur de travail a un entrepôt par défaut, et des workflows spécifiques sont exposés par les articles de menus qui sont accessibles à cet utilisateur de travail. 
 
@@ -54,7 +53,6 @@ L'analyse du temps qui est utilisée pour traiter les éléments de travail perm
 
 -   **Main d'œuvre par utilisateur** – Cet état indique la productivité du collaborateur, par comparaison entre les durées réelles et les durées estimées.
 -   **Main d'œuvre par type de transaction de travail** – Vous pouvez utiliser cet état pour rechercher les inefficacités dans les processus spécifiques d'entrepôt. Par exemple, vous remarquez que les prélèvements pour les ordres de transfert prennent plus longtemps cette semaine que dans les semaines précédentes. Vous pouvez ensuite utiliser ces informations pour une étude ultérieure.
-
 
 
 

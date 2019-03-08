@@ -1,13 +1,13 @@
 ---
 title: Statuts du stock
-description: "Cet article décrit la manière dont vous pouvez utiliser les statuts du stock pour classer et faire le suivi du stock."
+description: Cet article décrit la manière dont vous pouvez utiliser les statuts du stock pour classer et faire le suivi du stock.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: be5e512dcb23ce525439f11b7674cc35d7306159
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 70b084ac2eb8ffbd8832df2e562e8862e4ac8e57
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322787"
 ---
-
 # <a name="inventory-statuses"></a>Statuts du stock
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ Pour un travail sortant, utilisez les articles qui ont un statut de stock dispon
 Après avoir paramétré des statuts de stock, vous pouvez définir le statut du stock par défaut pour un site, un article, et un entrepôt. Vous pouvez également définir un statut par défaut pour les ventes, le transfert, les commandes fournisseur. Le statut par défaut pour les commandes client et l'ordre de transfert sortant ne peut pas avoir l'option **Blocage du stock** définie sur **Oui**. Le statut de stock qui est hérité des paramètres par défaut sur un site, un entrepôt, un article, une commande fournisseur, un ordre de transfert ou une commande client peut être modifié à l'aide de l'appareil mobile, ou sur la ligne de la commande fournisseur, de la commande client, ou de l'ordre de transfert.
 
 Pour planifier la couverture pour les articles ayant un statut du stock disponible, sélectionnez l'option **Plan de couverture par dimension** pour une dimension de stockage dans la page **Groupes de dimensions de stockage**. Lorsque vous ouvrez l'Assistant **Couverture d'article**, les articles ayant un statut disponible s'affichent sur la page **Statut**. Pour créer des paramètres de couverture pour ces articles, sélectionnez l'ID de statut de stock pour les statuts de stock disponible. En fonction des paramètres de couverture, vous pouvez calculer les demandes d'articles et prévoir l'offre et la demande pour les articles disponibles pendant la planification. Vous ne pouvez pas créer un paramétrage de couverture d'article qui a un statut de stock bloqué. Sinon, utilisez la page **Couverture de l'article** pour créer ou modifier les paramètres de couverture d'article.
-

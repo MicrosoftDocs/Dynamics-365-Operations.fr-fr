@@ -1,13 +1,13 @@
---- 
-title: "Activer l'impression d'étiquette de contenant"
-description: "Cette procédure active l'impression automatique d'un code conteneur d'expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes."
+---
+title: Activer l'impression d'étiquette de contenant
+description: Cette procédure active l'impression automatique d'un code conteneur d'expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCorpNetPrinterList, WHSParameters, NumberSequenceTableListPage, NumberSequenceDetails, WHSDocumentRoutingLayout, WHSDocumentRouting, WHSRFMenuItem, WHSRFMenu, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8d906ca9f5a6536870fa0c322a0792ed5672c25e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6d186bf7e4aee8cfa97adbd90b9090085e842f9b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324029"
 ---
 # <a name="enable-license-plate-label-printing"></a>Activer l'impression d'étiquette de contenant
 
@@ -108,5 +108,4 @@ Cette procédure active l'impression automatique d'un code conteneur d'expéditi
 9. Cliquez sur Déplacer vers le haut.
 10. Cliquez sur Enregistrer.
 11. Fermez la page.
-
 

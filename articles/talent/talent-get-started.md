@@ -1,13 +1,13 @@
 ---
 title: Prise en main de Talent
-description: "Cette rubrique fournit des informations sur la procédure d'adaptation de l'interface utilisateur selon vos préférences, ainsi que sur la connexion aux ressources d'aide disponibles dans le produit et sur le site docs.microsoft.com."
+description: Cette rubrique fournit des informations sur la procédure d'adaptation de l'interface utilisateur selon vos préférences, ainsi que sur la connexion aux ressources d'aide disponibles dans le produit et sur le site docs.microsoft.com.
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304437"
 ---
 # <a name="get-started-with-talent"></a>Prise en main de Talent
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/08/2018
 Dans Microsoft Dynamics 365 for Talent, il est facile de modifier l'interface utilisateur et de définir des options qui rendent le logiciel plus intuitif pour vos besoins. Cette rubrique inclut des liens vers des rubriques qui fournissent des informations sur la procédure d'adaptation de l'interface utilisateur selon vos préférences. Elle inclut également des liens vers des informations qui vous aident à rechercher efficacement et correctement des informations dans le système. 
 
 > [!NOTE] 
-> Les produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations, Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont généralement liées à la vente au détail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont généralement liées à Talent, le nom du produit sera Dynamics 365 for Talent ; et dans les rubriques associées au produit central, le nom du produit sera Dynamics 365 Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
+> Les trois produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations ; Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont principalement dédiées à Retail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont principalement dédiées au produit central (Finance and Operations), le nom du produit sera Dynamics 365 for Talent ; dans les rubriques qui sont principalement associées au produit central, le nom du produit sera Dynamics 365 for Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
 ## <a name="personalizing-talent"></a>Personnalisation de Talent 
 Les rubriques suivantes présentent la procédure de paramétrage de nombreuses fonctions dans Dynamics 365 for Talent afin de vous permettre de réaliser vos tâches en temps voulu. 
@@ -58,12 +58,11 @@ Les rubriques suivantes expliquent comment utiliser les fonctionnalités de rech
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 ### <a name="whats-new-and-in-development"></a>Nouveautés et développements
-Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement.
+Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement.
 
 ### <a name="blogs"></a>Blogs
-Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité fournisseur et d'autres solutions dans [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité fournisseur et d'autres solutions sur le blog de [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>Vidéos
-Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

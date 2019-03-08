@@ -1,13 +1,13 @@
 ---
-title: "Planification de votre hiérarchie d'organisation"
-description: "Avant de paramétrer des organisations et des hiérarchies d'organisation, assurez-vous de bien comprendre comment modéliser votre entreprise."
+title: Planification de votre hiérarchie d'organisation
+description: Avant de paramétrer des organisations et des hiérarchies d'organisation, assurez-vous de bien comprendre comment modéliser votre entreprise.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331987"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Planification de votre hiérarchie d'organisation
 
 [!include [banner](../includes/banner.md)]
@@ -168,7 +167,7 @@ Les entités juridiques utilisent le contexte de pays de l'entité juridique par
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Si l'organisation est modélisée comme entité juridique
 
-Pour les pays/régions pris en charge par Finance and Operations, la plupart des états statutaires peuvent être créés. Pour plus d'informations sur les états disponibles pour chaque pays/région, voir [Portail de localisation Microsoft Dynamics](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) pour Finance and Operations. (Une connexion CustomerSource est requise.)
+Pour les pays/régions pris en charge par Finance and Operations, la plupart des états statutaires peuvent être créés. Pour plus d'informations sur les états disponibles pour chaque pays/région, voir le [Portail de localisation Microsoft Dynamics](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) pour Finance and Operations. (Un identifiant de connexion CustomerSource est requis.)
 
 > [!NOTE]
 > Dans Finance and Operations, une couche de validation dans la comptabilité vous permet d'effectuer des entrées d'ajustement pour une société mère qui utilise un standard de comptabilité différent de celui de la société enfant. Par exemple, pour une société qui utilise la pratique comptable actuelle du Royaume-Uni (GAAP BRITANNIQUE), vous pouvez effectuer les entrées d'ajustement dans la couche de validation. Ces entrées peuvent être consolidées dans une société mère qui utilise les principes comptables généraux des États-Unis (GAAP). Les entrées d'ajustement n'affectent pas la génération d'états GAAP BRITANNIQUE.
@@ -243,4 +242,3 @@ Les pratiques suivantes sont recommandées lorsque vous implémentez une hiérar
 - Avant de modéliser des scénarios de restructuration majeurs, utilisez les dates d'effet de la hiérarchie pour réaliser une analyse des impacts et un test de contrôle.
 - Utilisez le mode brouillon pour modifier une hiérarchie avant de publier une nouvelle version dans un environnement de production.
 - Limitez le nombre d'utilisateurs disposant d'autorisations pour ajouter ou supprimer des organisations d'une hiérarchie dans un environnement de production. Ce nombre réduit permet d'éviter les erreurs coûteuses et la nécessité d'effectuer des corrections.
-

@@ -1,13 +1,13 @@
 ---
 title: Simulation de prix
-description: "Cet article fournit des informations sur la simulation de prix pour les devis. La simulation de prix vous permet d'évaluer l'effet des déductions sur le futur prix de vente au cours du processus de devis, avant de s'engager à un prix spécifique."
+description: Cet article fournit des informations sur la simulation de prix pour les devis. La simulation de prix vous permet d'évaluer l'effet des déductions sur le futur prix de vente au cours du processus de devis, avant de s'engager à un prix spécifique.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316531"
 ---
-
 # <a name="price-simulation"></a>Simulation de prix
 
 [!include [banner](../includes/banner.md)]
@@ -143,7 +142,6 @@ Vous exécutez une simulation de prix avec une remise totale de 10 % sur les uni
 | Nouveau taux de contribution total                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38,93 %   |
 
 La simulation de prix affecte uniquement la ligne à laquelle elle est appliquée et réduit le total de cette ligne.
-
 
 
 

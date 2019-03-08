@@ -1,13 +1,13 @@
 ---
-title: "Dimension financières et validation"
-description: "Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifier la manière dont les différents composants fonctionneront ensemble lorsque vous validez un document ou un journal. Ces composants incluent les structures de compte, des règles avancées, et bilan et des dimensions fixes. Cette rubrique explique ce qu'est chaque composant et comment les composants fonctionnent ensemble."
+title: Dimension financières et validation
+description: Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifier la manière dont les différents composants fonctionneront ensemble lorsque vous validez un document ou un journal. Ces composants incluent les structures de compte, des règles avancées, et bilan et des dimensions fixes. Cette rubrique explique ce qu'est chaque composant et comment les composants fonctionnent ensemble.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327939"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>Dimension financières et validation 
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Lorsque vous planifiez et paramétrez votre plan de comptes, vous devez vérifie
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Composants Plan de comptes et Dimension financière
 
-Microsoft Dynamics 365 for Finance and Operations a un système riche basé sur les règles pour définir des combinaisons valides de comptes principaux et de valeurs de dimension financière. Cette section fournit une brève vue d'ensemble de la fonctionnalité de chaque composant et explique où vous pouvez rechercher le composant.
+Microsoft Dynamics 365 for Finance and Operations dispose d'un système riche en règles pour définir des combinaisons valides des principaux comptes et valeurs de dimensions financières. Cette section fournit une brève vue d'ensemble de la fonctionnalité de chaque composant et explique où vous pouvez rechercher le composant.
 
 ### <a name="account-structures"></a>Structures de compte
 
@@ -59,7 +58,7 @@ Les personnes ont souvent des questions sur l'ordre dans lequel les différents 
 > [!NOTE]
 > Ces informations ne s'appliquent qu'à l'application des dimensions par défaut dans l'application. Si vous importez des données à l'aide de Microsoft Excel ou du cadre de gestion des données, le comportement diffère.
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1 :
 
 **Structure de compte**
 
@@ -123,9 +122,8 @@ Certaines des ressources suivantes se réfèrent à une version antérieure de F
 
 [Plan de comptes](plan-chart-of-accounts.md) 
 
-[Planification de votre plan de comptes dans AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Ce lien dirige vers la partie 1 d'une série en sept parties.
+[Planification de votre plan de comptes dans le blog AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Ce lien mène à la partie 1 d'une série de 7 parties.
 
 [Utilisation de valeurs par défaut pour les dimensions dans les répartitions comptable](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Utilisation de valeurs par défaut pour les dimensions dans la structure de dimensions](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

@@ -1,13 +1,13 @@
---- 
-title: "Vérifier des configurations pour générer des états dans des formats Office avec des images intégrées"
-description: "Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du guide de tâche « ER Créer des états aux formats MS Office avec des images intégrées (Partie 1 - Définir les paramètres) »."
+---
+title: Vérifier des configurations pour générer des états dans des formats Office avec des images intégrées
+description: Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du guide de tâche « ER Créer des états aux formats MS Office avec des images intégrées (Partie 1 - Définir les paramètres) ».
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331412"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Vérifier des configurations pour générer des états dans des formats Office avec des images intégrées
 
@@ -91,5 +91,4 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
 14. Dans l'arborescence, développez « labels: Container ».
     * Certains libellés présentés dans le formulaire de chèque pré-imprimé sont inclus dans l'état lorsqu'il est créé à des fins de test. Toutefois, ces libellés ne sont pas imprimés pendant l'impression réelle, car ils sont déjà présents dans le formulaire pré-imprimé.  
 15. Fermez la page.
-
 

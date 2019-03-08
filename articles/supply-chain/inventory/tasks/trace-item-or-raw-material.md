@@ -1,13 +1,13 @@
---- 
-title: "Suivre un article ou une matière première"
-description: "Cette procédure illustre comment utiliser le suivi d'article pour identifier où les articles ou les matières premières ont été ou sont utilisés."
+---
+title: Suivre un article ou une matière première
+description: Cette procédure illustre comment utiliser le suivi d'article pour identifier où les articles ou les matières premières ont été ou sont utilisés.
 author: pjacobse
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 897a777b3f4ce05fe995aa98a72feb99d82837ef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d7eb282ddf9597385d6660a3fc0ef73f403ab898
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315841"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Suivre un article ou une matière première
 
@@ -55,5 +55,4 @@ Cette procédure illustre comment utiliser le suivi d'article pour identifier o�
 8. Dans le volet Actions, cliquez sur Suivi.
 9. Cliquez sur Commandes client non expédiées.
 10. Fermez la page.
-
 

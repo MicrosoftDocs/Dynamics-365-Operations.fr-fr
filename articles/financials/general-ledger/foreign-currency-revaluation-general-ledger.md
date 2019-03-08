@@ -1,13 +1,13 @@
 ---
-title: "Réévaluation des comptes en devises pour la comptabilité"
+title: Réévaluation des comptes en devises pour la comptabilité
 description: "Cette rubrique fournit une vue d'ensemble des fonctionnalités du processus de réévaluation des comptes en devises de la comptabilité : paramétrage, exécution du processus, calcul du processus, et contrepassation des transactions de réévaluation, si nécessaire."
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fe87d76de257d12a5042ee13244b5cda8e965ff3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315542"
 ---
-
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Réévaluation des comptes en devises pour la comptabilité
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ L'écriture comptable suivante est créée.
 Si vous devez contrepasser la transaction de réévaluation, sélectionnez le bouton **Transaction de contrepassation** sur la page **Réévaluation des comptes en devises**. Un enregistrement historique de réévaluation des comptes en devises est créé pour tenir à jour le suivi d'audit historique du moment où la réévaluation s'est produite ou a été contrepassée. 
 
 Vous pouvez contrepasser les résultats de l'ordre obsolète de réévaluation, mais vous devez contrepasser également une réévaluation plus récente pour garantir les soldes corrects de chaque compte principal réévalué. Les contrepassations peuvent être exécutées dans un ordre obsolète car il n'y a aucune façon de contrôler quels comptes principaux sont réévalués et la fréquence à laquelle ils sont réévalués. Par exemple, une organisation peut choisir de réévaluer les comptes principaux de disponibilités chaque trimestre, et tous les autres comptes principaux chaque mois.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Paramétrer des programmes de continuité pour les centres d'appels"
-description: "Cet article décrit le paramétrage d'un programme périodique pour un centre d'appels."
+title: Paramétrer des programmes de continuité pour les centres d'appels
+description: Cet article décrit le paramétrage d'un programme périodique pour un centre d'appels.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 369856f33c6da49b6c6b3f51f42c99a8f07fe777
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 9952785afd8e5d1877e96239ee23f9de1c332bcf
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320970"
 ---
-
 # <a name="set-up-continuity-programs-for-call-centers"></a>Paramétrer des programmes de continuité pour les centres d'appels
 
 [!include [banner](includes/banner.md)]
@@ -51,4 +50,3 @@ Après avoir paramétré un programme périodique comme décrit ci-dessus, vous 
 - **Étendre les lignes périodiques** (le cas échéant) – Permet de prolonger le nombre de répétitions possibles d'un événement périodique. La récurrence des expéditions peut ensuite s'étendre au-delà de la limite qui a été définie dans le champ **Seuil de répétition de la périodicité** dans les paramètres du centre d'appels.
 - **Réaliser une mise à jour périodique** (le cas échéant) – Permet de synchroniser les modifications entre le programme périodique et des commandes client parentes périodiques.
 - **Clôturer les commandes et lignes parentes périodiques** – Permet de clôturer les commandes périodiques.
-

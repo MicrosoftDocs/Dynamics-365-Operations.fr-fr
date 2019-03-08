@@ -1,32 +1,31 @@
 ---
 title: Recherche de stock dans le point de vente (PDV)
-description: "Cette rubrique décrit les options disponibles pour afficher les informations de stock dans le point de vente (PDV)."
+description: Cette rubrique décrit les options disponibles pour afficher les informations de stock dans le point de vente (PDV).
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314415"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Recherche de stock dans le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -53,7 +52,7 @@ Les quantités**Réservé** et **Commandé** sont également affichées pour cha
 La liste des emplacements inclut deux types d'entités :
 
 - **Magasins de vente au détail** – La liste affiche les magasins configurés à l'aide du groupe de localisateurs de magasin du magasin actuel dans Retail Siège.
-- **Centres de distribution** – Différents types de centres de distribution (tels que les entrepôts) peuvent être configurés dans Microsoft Dynamics 365 for Retail. Toutefois, la liste affiche les informations de stock disponible uniquement pour les centres de distribution de type par défaut **Standard**.
+- **Centres de distribution** – Différents types de centres de distribution (tels que les entrepôts) peuvent être configurés dans Microsoft Dynamics 365 for Retail. Toutefois, la liste affiche les informations de stock disponible uniquement pour les centres de distribution de type par défaut **Standard**.
 
     > [!NOTE]
     > Les informations de stock disponible ne sont pas affichées pour les entrepôts de type **Transit**, **Contrôle**, et **Marchandises en route** du PDV.
@@ -116,4 +115,3 @@ Le tableau suivant fournit d'autres informations sur les actions supplémentaire
 | Disponibilité         | Affichez des informations DAV pour la combinaison de variables sélectionnée pour l'emplacement sélectionné. |
 | Afficher tous les emplacements   | Passez à la vue de recherche de stock standard, et mettez en surbrillance les informations de stock disponible pour la variante d'article dans tous les magasins du groupe de localisateurs de magasin, ainsi que dans les centres de distribution de type **Standard/Par défaut**. |
 | Afficher les détails du produit | Redirigez l'utilisateur vers la page **Détails du produit** du produit générique associé. |
-

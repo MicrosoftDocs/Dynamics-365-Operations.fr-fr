@@ -1,13 +1,13 @@
 ---
-title: "Nouveautés ou modifications apportées à la version 1611 de Dynamics 365 for Operations (novembre 2016)"
-description: "Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 1611 de Dynamics 365 for Operations."
+title: Nouveautés ou modifications dans Dynamics 365 for Operations version 1611 (novembre 2016)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Operations version 1611.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339071"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Nouveautés ou modifications apportées à la version 1611 de Dynamics 365 for Operations (novembre 2016)
+# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Nouveautés ou modifications dans Dynamics 365 for Operations version 1611 (novembre 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 1611 de Dynamics 365 for Operations.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Operations version 1611.
 
 ## <a name="cost-accounting"></a>Contrôle de gestion
 
@@ -101,7 +100,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </tr>
 <tr>
 <td>Créez des états à l'aide d'Excel.
-<blockquote>[!NOTE] Vous devez exécuter Microsoft Excel 2016.</blockquote>
+<blockquote>[!NOTE] Vous devez exécuter le traitement par lots Microsoft Excel 2016</blockquote>
 </td>
 <td>Vous pouvez exporter les données de contrôle de gestion directement vers Excel via les entités de données et utiliser Microsoft PivotTable pour créer des rapports.</td>
 </tr>
@@ -265,7 +264,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 <td>Vous pouvez définir une période pour une évaluation des performances et les dates de début et de fin de l'évaluation sont entrés automatiquement. Toutefois, vous pouvez modifier ces dates par défaut si nécessaire.</td>
 </tr>
 <tr>
-<td>Accès à cinq nouveaux packs de contenu Power BI pour les Ressources humaines</td>
+<td>Accès à cinq nouveaux packs de contenu Power BI pour les Ressources humaines</td>
 <td>Les nouveaux packs de contenu permettent aux organisations des ressources humaines et aux responsables des ressources humaines d'analyser ce qui suit :
 <p>Mesures de main-d'œuvre</p>
 <ul>
@@ -748,7 +747,7 @@ Le commerce de canal Omni transparent fait référence à la gestion et au trait
 |-----------------|-----------------------|
 | Consommateur : Le lancement actuel de l'application face au client active les fonctionnalités suivantes : recherche de produit, parcours de catégories, ajout au chariot et validation des achats. Les détaillants peuvent également appliquer la stratégie de marque de leur société à l'application, puis l'empaqueter pour les boutiques d'applications Android et iOS. | Les détaillants peuvent facilement créer une application face au client qui permet à leurs clients de parcourir, de rechercher des produits et d'expédier des produits en tant qu'invité sur leurs appareils mobiles. |
 | Listes de souhaits client pour les vitrines en ligne de commerce électronique | Les éditeurs de logiciels indépendants (ISV) peuvent utiliser le contrôle de liste de souhaits pour permettre aux utilisateurs de créer et de gérer plusieurs listes dans leur vitrine en ligne, et afficher/utiliser ces listes dans le PDV. |
-| Création de client asynchrone via les vitrines en ligne de commerce électronique | Les ISV peuvent désormais créer des comptes client, même si Commerce Data Exchange: Real-time Service n'est pas disponible. |
+| Création de client asynchrone via les vitrines en ligne de commerce électronique | Les ISV peuvent désormais créer des comptes client, même si Commerce Data Exchange : Real-time Service n'est pas disponible. |
 | Publiez des produits du canal depuis le serveur de vente au détail à des vitrines tierces. | Le serveur de vente au détail prend désormais en charge une authentification de service à service. Les ISV peuvent bénéficier de la publication de produit de canal sur le serveur de vente au détail sur des vitrines tierces. |
 
 ### <a name="extensibility"></a>Extensibilité
@@ -764,7 +763,7 @@ Le commerce de canal Omni transparent fait référence à la gestion et au trait
 
 | Ce que vous pouvez faire | Pourquoi c'est important |
 |-----------------|-----------------------|
-| Affichez les recommandations de produit personnalisées en plusieurs points de contact des points de vente (PDV) pour déterminer ce qui pourrait intéresser un client en fonction de son historique d'achats, des articles de sa liste de souhaits et des articles que d'autres clients ont acheté en ligne et dans les magasins physiques. | Pour les détaillants ayant des catalogues, les recommandations personnalisées aident le client à découvrir des produits offrent aux employés des magasins une facilité de gestion intelligente de la clientèle. En mettant en avant des produits ciblés selon les intérêts et les habitudes d'achat des clients, les recommandations de produit peuvent aider les détaillants à réaliser des ventes incitatives et à accroître la conservation des clients. Dans Microsoft Dynamics 365 for Retail, les recommandations de produit sont fondées sur le Machine learning et les Cognitive Services de Microsoft Azure. |
+| Affichez les recommandations de produit personnalisées en plusieurs points de contact des points de vente (PDV) pour déterminer ce qui pourrait intéresser un client en fonction de son historique d'achats, des articles de sa liste de souhaits et des articles que d'autres clients ont acheté en ligne et dans les magasins physiques. | Pour les détaillants ayant des catalogues, les recommandations personnalisées aident le client à découvrir des produits offrent aux employés des magasins une facilité de gestion intelligente de la clientèle. En mettant en avant des produits ciblés selon les intérêts et les habitudes d'achat des clients, les recommandations de produit peuvent aider les détaillants à réaliser des ventes incitatives et à accroître la conservation des clients. Dans Microsoft Dynamics 365 for Retail, les recommandations des produits sont définies par des services cognitifs et le Machine Learning Microsoft Azure. |
 
 ### <a name="pos-task-recorder"></a>Enregistreur de tâches du PDV
 
@@ -819,7 +818,7 @@ Actuellement, Retail Modern POS est disponible uniquement en tant qu'application
 | En tant que fournisseur, obtenez les informations sur la quantité de stock consigné transférée au client. | Pour facturer un client, le fournisseur requiert des informations sur les matières premières achetées dans le stock de consignation et la date de l'achat. Le fournisseur peut également contrôler le stock disponible sur le site du client à l'aide de l'interface de collaboration du fournisseur. |
 | Déplacez le stock appartenant au fournisseur à l'aide d'un journal de transfert. | Pour effectuer le suivi de l'emplacement physique du stock appartenant au fournisseur, vous devez pouvoir enregistrer l'emplacement dans le système. Grâce à l'utilisation d'un journal de transfert, vous pouvez enregistrer les mouvements physiques du stock, tels que le mouvement d'un emplacement dans un entrepôt à un autre emplacement dans cet entrepôt. |
 | Ajustez le stock appartenant au fournisseur à l'aide d'un journal d'inventaire. | Il est important que vous conserviez le stock disponible dans le système synchronisé sur le stock physique réel. Le stock appartenant au fournisseur peut être ajusté en entrée et en sortie à l'aide des processus d'inventaire, tels que les processus d'ajustement de quantité et de journal d'inventaire. |
-| En savoir plus sur la prise en charge de la consignation dans Dynamics 365 for Operations | Pour plus d'informations sur la prise en charge des processus de consignation, consultez [Consignation](../../supply-chain/inventory/consignment.md), [Paramétrage de la consignation](../../supply-chain/inventory/set-up-consignment.md), [Créer une commande de réapprovisionnement de consignation (guide de tâche)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md), et [Modifier la propriété du stock de consignation en fonction de la demande de production (guide de tâche)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| En savoir plus sur le support de consignation dans Dynamics 365 for Operations | Pour plus d'informations sur la prise en charge des processus de consignation, consultez [Consignation](../../supply-chain/inventory/consignment.md), [Paramétrage de la consignation](../../supply-chain/inventory/set-up-consignment.md), [Créer une commande de réapprovisionnement de consignation (guide de tâche)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md), et [Modifier la propriété du stock de consignation en fonction de la demande de production (guide de tâche)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Collaboration du fournisseur (précédemment appelé le portail fournisseur)
 
@@ -828,7 +827,7 @@ Actuellement, Retail Modern POS est disponible uniquement en tant qu'application
 | Autorisez les fournisseurs à répondre à chaque ligne de commande fournisseur et à suggérer des modifications. | Dans certains cas, les fournisseurs souhaitent accepter certaines lignes de commande fournisseur mais en refuser d'autres. Les fournisseurs peuvent désormais gérer individuellement les lignes de commande fournisseur. Chaque ligne peut être refusée, acceptée, ou acceptée avec des modifications. Par exemple, les fournisseurs peuvent modifier la date de livraison, fractionner la livraison et la quantité, ou suggérer un article de remplacement. |
 | Permettez aux fournisseurs de gérer les informations de contact. | Les fournisseurs peuvent tenir à jour des informations de contact de leur société. Ces informations incluent les noms, les adresses e-mail, et les numéros de téléphone. L'accès à cette fonctionnalité est accordé via un rôle de sécurité dédié. |
 | Partagez des documents associés aux commandes fournisseur avec des fournisseurs. | Si vous devez en partager un document avec un fournisseur, tel qu'un document sur les besoins, il est utile de lier le document à la commande fournisseur concernée. Le fournisseur peut ensuite partager des notes et des pièces jointes avec le client en liant le document à sa réponse à la commande fournisseur. La gestion des documents est la structure de prise en charge sous-jacente, et seules des notes et des documents joints classifiés comme « externes » peut être partagés avec des fournisseurs. |
-| Mettez en service de nouveaux utilisateurs fournisseur. | Si vos fournisseurs utilisent l'interface de collaboration fournisseur, ils disposent d'une façon transparente de demander de nouveaux comptes utilisateur lorsque de nouveaux contacts nécessitent l'accès à la collaboration fournisseur. Les professionnels de l'approvisionnement peuvent soumettre une demande de compte d'utilisateur pour un contact dans l'organisation du fournisseur. Un contact fournisseur qui est déjà un utilisateur de collaboration fournisseur peut également envoyer ce type de demande. Cette demande crée un utilisateur dans Dynamics 365 for Operations ayant des rôles de sécurité spécifiques au fournisseur. Elle permet également de faire une demande au portail Microsoft Azure B2B pour mettre l'utilisateur en service avec un nouveau compte d'utilisateur Azure Active Directory (Azure AD). Les fournisseurs peuvent également demander que des comptes d'utilisateur fournisseur spécifiques soient désactivés, ou que des rôles de sécurité soient modifiés. |
+| Mettez en service de nouveaux utilisateurs fournisseur. | Si vos fournisseurs utilisent l'interface de collaboration fournisseur, ils disposent d'une façon transparente de demander de nouveaux comptes utilisateur lorsque de nouveaux contacts nécessitent l'accès à la collaboration fournisseur. Les professionnels de l'approvisionnement peuvent soumettre une demande de compte d'utilisateur pour un contact dans l'organisation du fournisseur. Un contact fournisseur qui est déjà un utilisateur de collaboration fournisseur peut également envoyer ce type de demande. Cette demande crée un utilisateur dans Dynamics 365 for Operations ayant des rôles de sécurité spécifiques au fournisseur. Il facilite également une requête vers le portail B2B Microsoft Azure pour donner à l'utilisateur un nouveau compte d'utilisateur Azure Active Directory (Azure AD). Les fournisseurs peuvent également demander que des comptes d'utilisateur fournisseur spécifiques soient désactivés, ou que des rôles de sécurité soient modifiés. |
 | En savoir plus sur la prise en charge de la collaboration fournisseur dans Dynamics 365 for Operations. | Pour plus d'informations sur la collaboration fournisseur, consultez [Collaboration fournisseur avec des fournisseurs externes](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Collaboration fournisseur avec des clients](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Gestion des utilisateurs de la collaboration fournisseur](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Paramétrage et mise à jour de la collaboration fournisseur](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md), et [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
 
 ### <a name="intercompany-order-processing"></a>Traitement des commandes intersociétés
@@ -885,7 +884,7 @@ Actuellement, Retail Modern POS est disponible uniquement en tant qu'application
 | Ce que vous pouvez faire | Pourquoi c'est important |
 |-----------------|-----------------------|
 | Modélisez différents types de conteneurs. | Vous pouvez utiliser différents types de conteneurs dans l'entrepôt pour optimiser le stockage et pour d'autres motifs. La nouvelle entité de type de conteneur a les caractéristiques physiques des types de conteneurs. Vous pouvez désormais associer les contenants avec un type de conteneur spécifique et utiliser les limites de stockage de l'emplacement. Par exemple, vous pouvez utiliser cette fonction pour contrôler le nombre de palettes (ou d'autres types de conteneurs) que vous autorisez à un emplacement spécifique. Les types de conteneurs ont également été ajoutés aux groupes de séquences d'unités pour ajouter les types de conteneur par défaut pour le processus de réception. Les types de conteneurs peuvent être utilisés avec les instructions d'emplacement entrant et sortant. Ils peuvent également être utilisés dans la vue de stock disponible pour vous aider à déterminer le nombre de types de conteneurs actuellement stockés disponibles. Pour plus d'informations, voir la publication de blog [Utilisation de plaques d'immatriculation associées à un type de conteneur pour piloter les processus de gestion en entrepôt](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Bien que ce cette publication de blog décrive une mise à jour vers Microsoft Dynamics AX 2012, la même prise en charge est désormais ajoutée à Dynamics 365 for Operations. |
-| Contrepassez des expéditions. | Dans un entrepôt, vous devez pouvoir gérer les modifications de dernière minute. Par exemple, certaines marchandises peuvent être endommagées, de sorte que vous ne puissiez pas les expédier. Sinon, un client peut faire une demande tardive pour annuler ou modifier une commande. Dynamics 365 for Operations vous permet désormais de contrepasser une expédition. Par conséquent, vous pouvez annuler un bon de livraison afin de le mettre à jour avec les quantités correctes ultérieurement. De même, dans le flux entrant, vous pouvez annuler des accusés de réception de marchandises afin qu'une version mise à jour puisse être créée. |
+| Contrepassez des expéditions. | Dans un entrepôt, vous devez pouvoir gérer les modifications de dernière minute. Par exemple, certaines marchandises peuvent être endommagées, de sorte que vous ne puissiez pas les expédier. Sinon, un client peut faire une demande tardive pour annuler ou modifier une commande. Dynamics 365 for Operations permet à présent de contrepasser une expédition. Par conséquent, vous pouvez annuler un bon de livraison afin de le mettre à jour avec les quantités correctes ultérieurement. De même, dans le flux entrant, vous pouvez annuler des accusés de réception de marchandises afin qu'une version mise à jour puisse être créée. |
 | Utilisez les palettes comportant différents types d'articles. | Vous pouvez désormais recevoir et enregistrer une palette « mixte ». Une palette mixte consiste en différents articles qui sont rassemblées sur une palette pour une ou plusieurs commandes ou lignes fournisseur. Tous les enregistrements peuvent être résumés en un contenant cible. Ce processus est activé par l'appareil mobile de l'entrepôt. Par exemple, lorsque la palette d'articles de différents types arrive à l'entrepôt, le commis de réception identifie les articles et les quantités sur la palette avant que la palette soit déplacée à des emplacements de rangement dédiés. Les emplacements de rangement sont identifiés par les modèles de travail et les instructions d'emplacement. Si les emplacements de rangement sont répartis sur plusieurs articles ayant des emplacements fixes, cette fonction crée autant de lignes de travail qu'il existe d'articles distincts figurant sur la palette mixte. Cette fonction rend l'enregistrement et le rangement des palettes mixtes reçues d'articles plus rapides et plus flexibles. Pour plus d'informations, voir la publication de blog [Recevoir et enregistrer une palette avec les lignes du document source mixte à l’aide d'un contenant](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) et les informations sur la prise en charge de palette mixte dans l'[annonce de notre mise à jour cumulative récente](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Bien que ce cette publication de blog décrive une mise à jour vers AX 2012, la même prise en charge est désormais ajoutée à Dynamics 365 for Operations. |
 
 ### <a name="minor-feature-enhancements-in-supply-chain-management"></a>Améliorations mineures de fonction dans la gestion de la chaîne d'approvisionnement
@@ -946,4 +945,3 @@ Actuellement, Retail Modern POS est disponible uniquement en tant qu'application
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Nouveautés ou changements](whats-new-changed.md)
-

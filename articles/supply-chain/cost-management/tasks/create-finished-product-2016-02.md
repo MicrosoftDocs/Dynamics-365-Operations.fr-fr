@@ -1,13 +1,13 @@
---- 
-title: "Créer un produit fini (février 2016 uniquement)"
-description: "Cette tâche consiste à créer un produit fini."
+---
+title: Créer un produit fini (février 2016 uniquement)
+description: Cette tâche consiste à créer un produit fini.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 44f9693e04160ffe9307de5e454d8269ca883679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5485c949e932572542ba22e052007e9625e20314
-ms.openlocfilehash: a14b56b508e5d46bb2898828bd30fdf6c3c14023
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/08/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339025"
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>Créer un produit fini (février 2016 uniquement)
 
@@ -52,5 +52,4 @@ Cette tâche consiste à créer un produit fini. Il s'agit de la première tâch
 14. Dans le champ Site de vente, entrez ou sélectionnez une valeur.
     * Pour cet exemple, sélectionnez Site 1.  
 15. Fermez la page.
-
 

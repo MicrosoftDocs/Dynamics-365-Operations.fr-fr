@@ -1,13 +1,13 @@
 ---
-title: "Paramètres de commande par défaut pour les dimensions et les variantes de produit"
-description: "Les paramètres de commande par défaut définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande."
+title: Paramètres de commande par défaut pour les dimensions et les variantes de produit
+description: Les paramètres de commande par défaut définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326375"
 ---
-
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Paramètres de commande par défaut pour les dimensions et les variantes de produits
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Les paramètres de commande par défaut dans Microsoft Dynamics 365 for Finance and Operations définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d'ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l'article, au site, à une variante de produit, ou à une dimension de produit.
+Les paramètres de commande par défaut dans Microsoft Dynamics 365 for Finance and Operations définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d'ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l'article, au site, à une variante de produit, ou à une dimension de produit.
 
 Vous pouvez définir les paramètres de commande par défaut sur la page **Paramètres de commande par défaut**. Pour ouvrir cette page, accédez à **Gestion des informations sur les produits** &gt; **Produits** &gt; **Produits lancés** &gt; **Sélectionnez un produit lancé** &gt; sur le Volet d'action **Plan** ou **Gérer le stock** Paramètres de &gt; **la commande** &gt; **Paramètres de commande par défaut**.
 
@@ -170,7 +169,6 @@ Si le système de règles des paramètres de commande par défaut est trop encom
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 Le classement dans ce cas n'importe pas réellement, vous pouvez donc choisir de le masquer. Cette solution introduit éventuellement un problème de maintenance. Toutefois, vous pouvez envisager d'utiliser ce paramètre si vous envisagez d'intégrer des systèmes de Gestion des cycles de vie des produits.
-
 
 
 

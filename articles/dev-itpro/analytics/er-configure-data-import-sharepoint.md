@@ -1,13 +1,13 @@
 ---
-title: "Configurer l'importation des données à partir de SharePoint"
-description: "Cette rubrique décrit la procédure d'importation des données à partir de Microsoft SharePoint."
+title: Configurer l'importation des données à partir de SharePoint
+description: Cette rubrique décrit la procédure d'importation des données à partir de Microsoft SharePoint.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
 ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331090"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurer l'importation des données à partir de SharePoint
 
 [!include[banner](../includes/banner.md)]
 
-Pour importer des données à partir d'un fichier entrant à l'aide de la structure de gestion des états électroniques, vous devez configurer un format ER prenant en charge l'importation et exécuter une mise en correspondance de modèles du type **Vers la destination** qui utilise ce format comme source de données. Pour importer des données, vous devez accéder au fichier à importer. Le fichier entrant peut être sélectionné manuellement par l'utilisateur. Avec la nouvelle fonctionnalité ER de prise en charge de l'importation des données à partir de Microsoft SharePoint, ce processus peut être configuré en mode sans assistance. Vous pouvez utiliser les configurations ER pour procéder à l'importation des données à partir des fichiers stockés dans les dossiers Microsoft SharePoint. Cette rubrique explique comment effectuer l'importation de SharePoint vers Microsoft Dynamics 365 for Finance and Operations. Les exemples utilisent les transactions fournisseur comme données commerciales.
+Pour importer des données à partir d'un fichier entrant à l'aide de la structure de gestion des états électroniques, vous devez configurer un format ER prenant en charge l'importation et exécuter une mise en correspondance de modèles du type **Vers la destination** qui utilise ce format comme source de données. Pour importer des données, vous devez accéder au fichier à importer. Le fichier entrant peut être sélectionné manuellement par l'utilisateur. Avec la nouvelle fonctionnalité ER de prise en charge de l'importation des données à partir de Microsoft SharePoint, ce processus peut être configuré en mode sans assistance. Vous pouvez utiliser les configurations ER pour procéder à l'importation des données à partir des fichiers stockés dans les dossiers Microsoft SharePoint. Cette rubrique explique comment terminer l'importation à partir de SharePoint vers Microsoft Dynamics 365 for Finance and Operations. Les exemples utilisent les transactions fournisseur comme données commerciales.
 
-## <a name="prerequisites"></a>Logiciels requis
+## <a name="prerequisites"></a>Conditions préalables
 Pour exécuter les exemples décrits dans cette rubrique, vous devez disposer de l'accès suivant :
 
 - L'accès à Finance and Operations pour l'un des rôles suivants :
@@ -56,7 +56,7 @@ Lisez les guides de tâches **ER Importer des données à partir d'un fichier Mi
 
 - Fichier Excel **1099import-data.xlsx**, avec les transactions fournisseur qui doivent être importées dans Finance and Operations.
 
-![Exemple de fichier Microsoft Excel pour l'importation à partir de SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
+![Exemple de fichier Microsoft Excel pour importer depuis SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > Le format d'importation des transactions fournisseur est sélectionné comme mise en correspondance des modèles par défaut. Par conséquent, si vous exécutez une mise en correspondance du **Modèle de paiements de déclaration des honoraires** et si cette mise en correspondance du modèle est de type **Vers la destination**, la mise en correspondance des modèles exécute ce format pour importer les données à partir de fichiers externes. Elle utilise ensuite ces données pour mettre à jour les tables d'application.
@@ -117,7 +117,7 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Importer des données à partir de fichiers Excel contenus dans un dossier SharePoint
 1. Dans SharePoint, transférez le fichier Microsoft Excel **1099import-data.xlsx** contenant les transactions fournisseur vers le dossier SharePoint **Source d'importation de fichiers (principale)** que vous avez créé précédemment.
 
-    [![Contenu SharePoint – Fichier Microsoft Excel pour l'importation](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![Contenu SharePoint – Fichier Microsoft Excel pour importation](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. Dans Finance and Operations, dans la page **États de fichier pour les sources**, sélectionnez **Actualiser** pour actualiser la page. Notez que le fichier Excel qui a été transféré vers SharePoint est affiché sur cette page avec le statut **Prêt**. Les statuts suivants sont actuellement pris en charge :
 
@@ -129,7 +129,7 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 
     [![Page d'états de fichier ER pour les sources sélectionnées](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
-## <a name="import-data-from-sharepoint-files"></a>Importer des données à partir de fichiers SharePoint
+## <a name="import-data-from-sharepoint-files"></a>Importation des données d'une filiale à partir de fichiers SharePoint
 1. Ouvrez l'arborescence des configurations ER, sélectionnez **Modèle de paiements de déclaration des honoraires**, puis développez la liste des composants de modèle ER.
 2. Sélectionnez le nom de la mise en correspondance des modèles pour ouvrir la liste des mises en correspondance de modèles de la configuration de modèle ER sélectionnée.
 
@@ -165,7 +165,7 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 ## <a name="prepare-an-excel-file-for-import"></a>Préparer un fichier Excel pour l'importation
 1. Ouvrez le fichier Excel que vous avez précédemment utilisé. Dans la ligne 3 colonne 1, ajoutez un code de fournisseur qui n'existe pas dans l'application. Ajoutez des informations fournisseur supplémentaires à la ligne.
 
-    [![Exemple de fichier Microsoft Excel pour l'importation à partir de SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![Exemple de fichier Microsoft Excel pour importer depuis SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Transférez le fichier Excel mis à jour contenant les transactions fournisseur vers le dossier SharePoint **Source d'importation de fichiers (principale)**.
 3. Dans Finance and Operations, ouvrez l'arborescence des configurations ER, sélectionnez **Modèle de paiements de déclaration des honoraires**, puis développez la liste des composants de modèle ER.
@@ -192,4 +192,3 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 11. Dans Finance and Operations, sélectionnez **Comptabilité fournisseur** \> **Tâches périodiques** \> **Taxe sur les honoraires** \> **Règlement fournisseur pour les déclarations d'honoraires**, entrez les valeurs appropriées dans les champs **Date de début** et **Date de fin**, puis sélectionnez **Transactions manuelles de déclaration d'honoraires**.
 
     Seules les transactions pour le document V-00001 sont disponibles. Aucune transaction pour le document V-00002 n'est disponible même si l'erreur pour la dernière transaction importée a été trouvée dans le fichier Excel.
-

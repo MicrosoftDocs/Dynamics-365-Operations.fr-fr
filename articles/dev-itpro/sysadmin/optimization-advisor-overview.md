@@ -1,45 +1,44 @@
 ---
 title: Conseiller en optimisation
-description: "Cette rubrique décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Microsoft Dynamics 365 Finance and Operations."
+description: Cette rubrique décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Microsoft Dynamics 365 Finance and Operations.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335621"
 ---
-
-# <a name="optimization-advisor"></a>Conseiller en optimisation
+# <a name="optimization-advisor"></a>Conseiller d'optimisation
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Microsoft Dynamics 365 Finance and Operations.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 La configuration et le paramétrage incorrects d'un module peuvent compromettre la disponibilité des fonctions dans Finance et Operations, les performances du système et le bon fonctionnement des processus d'entreprise. La qualité des données d'entreprise (par exemple, l'exactitude, l'exhaustivité et l'intégrité des données) affecte également les performances du système, les capacités de prise de décision d'une organisation, la productivité, etc.
 
 L'espace de travail **Conseiller en optimisation** est un outil qui permet aux utilisateurs avancés, aux analystes d'entreprise, aux consultants fonctionnels et au support informatique d'identifier les problèmes liés à la configuration du module et aux données d'entreprise. Le conseiller en optimisation suggère les pratiques recommandées pour la configuration du module et identifie les données d'entreprise obsolètes ou incorrectes.
 
-Le conseiller en optimisation exécute périodiquement un ensemble de règles de recommandation. Un ensemble de règles par défaut est publié avec la version 8.0 de Microsoft Dynamics 365 for Finance and Operations (avril 2018). Toutefois, les utilisateurs peuvent également créer des règles spécifiques à leurs personnalisations, aux solutions des éditeurs de logiciels indépendants (ISV) et aux données d'entreprise. Pour plus d'informations sur la création de règles, voir [Créer des règles](./create-rules-optimization-advisor.md).
+Le conseiller en optimisation exécute périodiquement un ensemble de règles de recommandation. Un ensemble de règles par défaut est publié avec Microsoft Dynamics 365 for Finance and Operations version 8.0 (avril 2018). Toutefois, les utilisateurs peuvent également créer des règles spécifiques à leurs personnalisations, aux solutions des éditeurs de logiciels indépendants (ISV) et aux données d'entreprise. Pour plus d'informations sur la création de règles, voir [Créer des règles](./create-rules-optimization-advisor.md).
 
 Lorsqu'une violation d'une règle est détectée, une opportunité d'optimisation est générée et apparaît dans l'espace de travail **Conseiller en optimisation**. Un utilisateur peut prendre les mesures correctives appropriées directement dans l'espace de travail **Conseiller en optimisation**.
 
@@ -49,7 +48,7 @@ Les stratégies de sécurité standard s'appliquent aux opportunités d'optimisa
 
 Lorsque vous prenez des mesures sur certaines opportunités d'optimisation, le système calcule l'impact de l'opportunité en termes de réduction sur l'exécution des processus d'entreprise. Malheureusement, cette fonction n'est pas disponible pour toutes les opportunités d'optimisation.
 
-Pour en savoir plus sur le conseiller en optimisation, visionnez la courte vidéo [Conseiller en optimisation dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Pour en savoir plus sur le conseiller en optimisation, consultez le vidéo [Conseiller en optimisation dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Règles d'optimisation
 
@@ -95,5 +94,4 @@ Pour désactiver l'évaluation de règles spécifiques, sélectionnez l'opportun
 
 [Créer des règles](./create-rules-optimization-advisor.md)
 
-[Conseiller en optimisation dans Dynamics 365 for Finance and Operations (vidéo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+[Conseiller en optimisation dans Dynamics 365 for Finance and Operations (vidéo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

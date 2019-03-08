@@ -1,13 +1,13 @@
 ---
-title: "Vue d'ensemble de la prévision de la demande"
-description: "La prévision de la demande est utilisée pour prévoir une demande indépendante des commandes client et une demande dépendante à n'importe quel point de découplage pour les commandes client. Les règles améliorées de réduction de prévision de la demande fournissent une solution idéale pour la personnalisation collective."
+title: Vue d'ensemble de la prévision de la demande
+description: La prévision de la demande est utilisée pour prévoir une demande indépendante des commandes client et une demande dépendante à n'importe quel point de découplage pour les commandes client. Les règles améliorées de réduction de prévision de la demande fournissent une solution idéale pour la personnalisation collective.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309999"
 ---
-
 # <a name="demand-forecasting-overview"></a>Vue d'ensemble de la prévision de la demande
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Le diagramme suivant illustre le flux de base dans une prévision de la demande.
 
 [![diagramme d'introduction de la prévision de la demande](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-La génération de la prévision de la demande commence dans Finance and Operations. Les données transactionnelles historiques de la base de données transactionnelle de Finance and Operations sont collectées et remplissent une table intermédiaire. Cette table intermédiaire est ultérieurement fournie à un service Machine Learning. En effectuant une personnalisation minimale, vous pouvez raccorder diverses sources de données à la table intermédiaire. Les sources de données peuvent inclure des fichiers Microsoft Excel, des fichiers de valeurs séparées par des virgules (CSV) et des données de Microsoft Dynamics AX 2009 et Microsoft Dynamics AX 2012. Par conséquent, vous pouvez générer des prévisions de la demande qui considèrent un historique des données réparti entre plusieurs systèmes. Toutefois, les données principales, telles que les noms d'article et les unités de mesure, doivent être identiques entre les différentes sources de données.
+La génération de la prévision de la demande commence dans Finance and Operations. Les données transactionnelles historiques de la base de données transactionnelle de Finance and Operations sont collectées et remplissent une table intermédiaire. Cette table intermédiaire est ultérieurement fournie à un service Machine Learning. En effectuant une personnalisation minimale, vous pouvez raccorder diverses sources de données à la table intermédiaire. Les sources de données peuvent inclure des fichiers Microsoft Excel, les fichiers CSV et les données Microsoft Dynamics AX 2009 et Microsoft Dynamics AX 2012. Par conséquent, vous pouvez générer des prévisions de la demande qui considèrent un historique des données réparti entre plusieurs systèmes. Toutefois, les données principales, telles que les noms d'article et les unités de mesure, doivent être identiques entre les différentes sources de données.
 
 Si vous utilisez les expériences de prévision de demande Finance and Operations de Machine Learning, elles recherchent un ajustement entre cinq méthodes de prévision de l'algorithme pour calculer une prévision de base. Les paramètres pour ces modes de prévision sont gérés dans Finance and Operations. 
 
@@ -88,7 +87,6 @@ La prévision de la demande dans Finance and Operations est un outil qui permet 
 [Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d'une prévision de la demande](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Prolonger la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
 
 
 

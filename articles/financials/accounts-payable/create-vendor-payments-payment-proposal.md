@@ -1,13 +1,13 @@
 ---
-title: "Création de paiements fournisseur via une proposition de paiement"
-description: "Cette rubrique fournit une vue d'ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées."
+title: Création de paiements fournisseur via une proposition de paiement
+description: Cette rubrique fournit une vue d'ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327410"
 ---
-
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Création de paiements fournisseur via une proposition de paiement
 
 [!include [banner](../includes/banner.md)]
@@ -70,14 +69,14 @@ Le 1er juillet, April a payé les fournisseurs. Elle utilise une proposition de 
 
 ### <a name="option-1-by-cash-discount"></a>Option 1 : Par escompte de règlement
 
-April sélectionne **Escompte de règlement** comme type de proposition. Pour la plage de dates de paiement, elle saisit la plage du 26 juin au 10 juillet. Les factures suivantes sont incluses dans la proposition :
+April sélectionne **Escompte de règlement** comme type de proposition. Pour la plage de dates de paiement, elle saisit la plage du 26 juin au 10 juillet. Les factures suivantes sont incluses dans la proposition :
 
 -   1002, car la date de remise du 4 juillet est comprise dans la plage de dates de paiement.
 -   1004, car la date de remise du 1er juillet est comprise dans la plage de dates de paiement.
 
 Les factures suivantes ne sont pas incluses dans la proposition :
 
--   1001, car la date de remise du 29 juin a déjà expiré, aussi cette facture n'est plus éligible pour l'escompte de règlement.
+-   1001, car la date de remise du 29 juin a déjà expiré, aussi cette facture n'est plus éligible pour l'escompte de règlement.
 -   1003, car la facture n'a pas de date de remise.
 
 ### <a name="option-2-by-due-date"></a>Option 2 : Par date d'échéance
@@ -102,14 +101,14 @@ April sélectionne **Échéance et escompte de règlement** comme type de propos
 
 Les factures suivantes ne sont pas incluses dans la proposition :
 
--   1001, car la date de remise du 29 juin a déjà expiré, aussi cette facture n'est plus éligible à l'escompte de règlement, et la date d'échéance du 15 juillet est également en dehors de la période.
+-   1001, car la date de remise du 29 juin a déjà expiré, aussi cette facture n'est plus éligible à l'escompte de règlement, et la date d'échéance du 15 juillet est également en dehors de la période.
 
 ## <a name="country-specific-considerations"></a>Considérations spécifique au pays
 ### <a name="norway"></a>Norvège
 
 #### <a name="dimension-control"></a>Contrôle de la dimension
 
-Le contrôle des dimensions vous permet de contrôler le regroupement de lignes générées par la proposition de paiement et de définir par défaut des dimensions en fonction des dimensions financières utilisées pour les factures appliquées. Dans le contexte de la Norvège, pour chaque mode de paiement il existe un onglet de dimension financière dans lequel vous pouvez activer le contrôle des dimensions ainsi qu'activer le regroupement de chaque dimension. Les options disponibles sont :
+Le contrôle des dimensions vous permet de contrôler le regroupement de lignes générées par la proposition de paiement et de définir par défaut des dimensions en fonction des dimensions financières utilisées pour les factures appliquées. Dans le contexte de la Norvège, pour chaque mode de paiement il existe un onglet de dimension financière dans lequel vous pouvez activer le contrôle des dimensions ainsi qu'activer le regroupement de chaque dimension. Les options disponibles sont :
 
 -   Le champ **Contrôle de dimension** est désactivé. La proposition de paiement se comporte comme pour tout autre pays.
 -   Le champ **Contrôle de dimension** est activé sans définir davantage les dimensions. La proposition de paiement est créée sans prendre en considération les dimensions. La transaction créée n'hérite d'aucune dimension de l'entrée appliquée.
@@ -120,8 +119,7 @@ Le contrôle des dimensions vous permet de contrôler le regroupement de lignes 
 
 #### <a name="bank-account-selection"></a>Sélection de compte bancaire
 
-Vous pouvez définir un compte de paiement de débit standard par mode de paiement quel que soit le contexte du pays. Cela est défini dans les lignes de paiement générées par une proposition. Avec la fonctionnalité du compte bancaire, vous pouvez définir plusieurs comptes bancaires de débit gérés par dimension et par devise ou une combinaison de ces éléments pour utiliser différents comptes bancaires de débit, en fonction de chaque combinaison. Vous pouvez paramétrer ces combinaisons sur la page **Modes de paiement** à l'aide du bouton **Comptes bancaires** disponible pour chaque mode de paiement avec **Type de compte de validation** = **Banque**.
-
+Vous pouvez définir un compte de paiement de débit standard par mode de paiement quel que soit le contexte du pays. Cela est défini dans les lignes de paiement générées par une proposition. Avec la fonctionnalité du compte bancaire, vous pouvez définir plusieurs comptes bancaires de débit gérés par dimension et par devise ou une combinaison de ces éléments pour utiliser différents comptes bancaires de débit, en fonction de chaque combinaison. Vous pouvez paramétrer ces combinaisons sur la page **Modes de paiement** à l'aide du bouton  **Comptes bancaires** disponible pour chaque mode de paiement avec **Type de compte de validation** = **Banque**.
 
 
 

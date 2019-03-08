@@ -1,13 +1,13 @@
---- 
-title: "Créer un plan de matériaux pour des coproduits"
-description: "Le responsable de production organise les besoins en matières pour les articles qui sont des coproduits de formules."
+---
+title: Créer un plan de matériaux pour des coproduits
+description: Le responsable de production organise les besoins en matières pour les articles qui sont des coproduits de formules.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 2958f1e5c2e8a0cfa9cc6312f688d3b11b8e013c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337139"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Créer un plan de matériaux pour des coproduits
 
@@ -110,5 +110,4 @@ Le responsable de production organise les besoins en matières pour les articles
 18. Accédez à Planification > Paramétrage > Paramètres de planification.
 19. Sélectionnez Non dans le champ Désactiver tous les processus de planification.
 20. Fermez la page.
-
 

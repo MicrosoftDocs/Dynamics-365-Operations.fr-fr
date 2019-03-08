@@ -1,13 +1,13 @@
 ---
 title: Saisir des soldes d'ouverture de salaire
-description: "La rubrique décrit les étapes pour entrer des soldes d'ouverture pour les codes de rémunération, les déductions, les avantages et les taxes. Ces informations sont précieuses pour les partenaires pour migrer ou transférer des données pour une nouvelle implémentation du salaire à partir d'un autre système."
+description: La rubrique décrit les étapes pour entrer des soldes d'ouverture pour les codes de rémunération, les déductions, les avantages et les taxes. Ces informations sont précieuses pour les partenaires pour migrer ou transférer des données pour une nouvelle implémentation du salaire à partir d'un autre système.
 author: kherr75
 manager: AnnBe
 ms.date: 07/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1e7bdfca55e1bdaba0b5ebdf55b46744e584ab2c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312989"
 ---
-
 # <a name="enter-payroll-beginning-balances"></a>Saisir des soldes d'ouverture de salaire
 
 [!include [banner](../../includes/banner.md)]
@@ -168,4 +167,3 @@ Il est possible de contrepasser et d'entrer de nouveau les transactions. Pour co
 2. Cliquez sur **Oui** lorsque le message « Lorsque vous contrepassez ce bordereau de paie, un bordereau de paie de contrepassation est créé pour contrebalancer ce bordereau de paie Aucun bordereau de paie ne peut être modifié. Voulez-vous contrepasser ce bordereau de paie ? s'affiche. 
 
 Après avoir contrepassé le bordereau de paie, vous pouvez générer un nouveau bordereau de paie pour le travailleur avec l'état des revenus que vous avez créé précédemment. Veillez à résoudre toutes les lignes incorrectes dans l'état des revenus avant de générer le nouveau bordereau de paie, puis générez de nouveaux bordereaux de paie avec les montants appropriés. 
-

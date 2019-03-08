@@ -1,13 +1,13 @@
---- 
-title: "Saisie d'un supplément à une immobilisation"
-description: "Cette procédure décrit comment ajouter un supplément à une immobilisation existante."
+---
+title: Saisie d'un supplément à une immobilisation
+description: Cette procédure décrit comment ajouter un supplément à une immobilisation existante.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3c9733f07f995dd37669f3c33fd0f082daa34dd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 3579148033023f648e1a78a3dd009018f153fdad
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324420"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Saisie d'un supplément à une immobilisation
 
@@ -47,5 +47,4 @@ La procédure utilise le rôle de comptable et les données de démonstration po
 11. Cliquez sur l'onglet Général.
     * Définissez Augmente la durée de vie si le supplément augmente la durée de vie de l'immobilisation.  
     * Ce champ est fourni uniquement à titre indicatif. Pour augmenter la durée de vie, modifiez la durée de vie sur les modèles de valeur et/ou les registres des amortissements pour l'actif.  
-
 

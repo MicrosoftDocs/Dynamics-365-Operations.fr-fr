@@ -1,13 +1,13 @@
 ---
-title: "Configurer la gestion des dépenses"
-description: "Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics 365 for Finance and Operations."
+title: Configurer la gestion des dépenses
+description: Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322028"
 ---
-
 # <a name="configure-expense-management"></a>Configurer la gestion des dépenses
 
 [!include [banner](../includes/banner.md)]
@@ -163,4 +162,3 @@ En créant des stratégies d'état de dépenses, vous pouvez aider votre organis
 - Quand la stratégie arrive-t-elle à expiration ?
 - Quelle est la règle de stratégie ?
 - Quel est le résultat de la règle de stratégie ?
-

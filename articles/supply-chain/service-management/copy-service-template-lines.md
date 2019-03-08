@@ -1,31 +1,30 @@
 ---
-title: "Copie de lignes de modèles de service"
-description: "Les informations relatives aux modèles peuvent être copiées vers un accord de service ou une commande de service."
+title: Copie de lignes de modèles de service
+description: Les informations relatives aux modèles peuvent être copiées vers un accord de service ou une commande de service.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 533fe7fbecb8878a7f9ddf527c33dd68b53ec698
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5424442b6698b589a55611296d3f404af7707a0b
-ms.openlocfilehash: 791b97cea9f45eff41b99a9d09f399ad1e431af9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/27/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326122"
 ---
-
 # <a name="copy-service-templates-lines"></a>Copie de lignes de modèles de service 
 
 [!include [banner](../includes/banner.md)]
@@ -59,6 +58,5 @@ Les lignes de modèle de service sont maintenant copiées dans la nouvelle comma
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Modèles de service](service-template.md)
-
 
 

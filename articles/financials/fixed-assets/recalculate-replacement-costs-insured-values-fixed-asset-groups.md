@@ -1,13 +1,13 @@
 ---
-title: "Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d'immobilisations"
-description: "Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations."
+title: Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d'immobilisations
+description: Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0756287406ad12237632ffbd455dbc6ba15d9915
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: eb3db5863bf2fcca31b6af878e7324b079f1c630
-ms.openlocfilehash: ad706a9ee441858a6f4a128ff978e24efb6ecfce
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/12/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324374"
 ---
-
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d'immobilisations
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Le jour suivant, votre gestionnaire vous signale que les ordinateurs ont diminu�
 
 > [!NOTE]  
 > Vous ne pouvez pas contrepasser le facteur –10 en entrant un facteur positif 10 (ou un facteur 2, la différence entre –10 et –8) car les montants ne seront pas calculés comme vous le souhaitez. 
-
 
 
 

@@ -1,36 +1,35 @@
 ---
-title: Choix entre Retail Modern POS (MPOS) et Cloud POS
-description: "Cette rubrique explique les principales différences entre Retail Modern POS et Cloud POS. Elle décrit également les différents facteurs qui doivent être pris en considération par les détaillants qui implémentent Microsoft Dynamics 365 for Retail pour les aider à faire le meilleur choix pour leurs besoins."
+title: Choix entre Retail Modern POS (MPOS) et PDV Cloud
+description: Cette rubrique explique les principales différences entre Retail Modern POS et Cloud POS. Elle décrit également les différents facteurs qui doivent être pris en considération par les détaillants qui implémentent Microsoft Dynamics 365 for Retail pour les aider à faire le meilleur choix pour leurs besoins.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336242"
 ---
-
-# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Choix entre Retail Modern POS (MPOS) et Cloud POS
+# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Choix entre Retail Modern POS (MPOS) et PDV Cloud
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit aux responsables de l'implémentation un contexte, des conseils et des instructions supplémentaires sur les facteurs qu'ils doivent prendre en considération lorsqu'ils déploient Microsoft Dynamics 365 for Retail. En passant en revue et en suivant ces instructions dans le cadre du processus de déploiement, les responsables de l'implémentation peuvent éviter les problèmes susceptibles d'affecter la satisfaction ou les performances de l'utilisateur.
+Cette rubrique fournit aux responsables de l'implémentation un contexte, des conseils et des instructions supplémentaires sur les facteurs qu'ils doivent prendre en considération lorsqu'ils déploient Microsoft Dynamics 365 for Retail. En passant en revue et en suivant ces instructions dans le cadre du processus de déploiement, les responsables de l'implémentation peuvent éviter les problèmes susceptibles d'affecter la satisfaction ou les performances de l'utilisateur.
 
 ## <a name="insights"></a>Analyse
 
@@ -41,9 +40,9 @@ Retail offre un large éventail d'options de déploiement et de topologie. Par c
 Retail prend en charge les options POS suivantes :
 
 - Retail Modern POS (MPOS) pour Microsoft Windows
-- MPOS pour Microsoft Windows Phone
+- MPOS pour téléphone Microsoft Windows
 - MPOS pour tablette iPad Apple ou Android Google
-- Cloud POS (CPOS), qui prend en charge les navigateurs Microsoft Edge, Internet Explorer et Google Chrome
+- Cloud POS (CPOS), qui prend en charge Microsoft Edge, Internet Explorer et les navigateurs Google Chrome
 
 Dans tous les cas, le POS (MPOS et CPOS) partage le même code d'application principal. Ce point est important pour les raisons suivantes :
 
@@ -58,10 +57,10 @@ Bien que MPOS et CPOS soient identiques en grande partie, il existe des différe
 
 #### <a name="mpos"></a>MPOS
 
-MPOS sur un appareil Windows, iOS ou Android est une application mises en package, installée, et mise en service sur cet appareil.
+MPOS sur un appareil Windows, iOS ou Android est une application sous pack, installée et mise en service sur cet appareil.
 
 - **Windows** – L'application MPOS pour Windows contient l'intégralité du code d'application et le Commerce Runtime (CRT) incorporé. 
-- **iOS/Android** – Sur ces plateformes, l'application agit comme un hôte pour le code d'application CPOS. Autrement dit, le code d'application provient du serveur CPOS sur Microsoft Azure ou de l'Unité d'échelle de magasin de vente au détail (RSSU). Pour plus d'informations, voir [Vue d'ensemble Unité d'échelle de magasin de vente au détail](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – Sur ces plateformes, l'application agit comme un hôte pour le code d'application CPOS. Autrement dit, le code d'application provient du serveur de CPOS sur Microsoft Azure ou Retail Store Scale Unit (RSSU). Pour plus d'informations, voir [Vue d'ensemble Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -75,7 +74,7 @@ Outre une plateforme et un facteur de forme, les détaillants doivent également
 |-------------------------|---------------|-------------------|
 | MPOS pour Windows        | Cloud ou RSSU | Oui               |
 | MPOS pour iOS ou Android | Cloud ou RSSU | N°                |
-| Cloud POS               | Cloud ou RSSU | N°                |
+| PDV Cloud               | Cloud ou RSSU | N°                |
 
 #### <a name="retail-server"></a>Serveur de vente au détail
 
@@ -106,4 +105,3 @@ Tenez compte des informations suivantes lorsque vous planifiez votre implémenta
 - **Périphériques matériels/Périphériques** – Un aspect important d'un système Retail POS est la possibilité d'utiliser des périphériques POS tels que des imprimantes, des tiroirs-caisse et des terminaux de paiement. Même si toutes les options POS disponibles peuvent utiliser les périphériques, seul MPOS pour Windows les prend en charge directement. Pour toutes les autres applications, une ou plusieurs stations matérielles sont requises. Bien que cette approche soit plus flexible, des composants supplémentaires doivent être déployés, configurés et mis en service.
 - **Configuration requise** – La configuration requise pour l'application POS varie. Veillez à vérifier les dernières informations disponibles avant de faire votre choix. Par exemple, comme CPOS s'exécute dans un navigateur, il prend en charge un plus grand nombre de systèmes d'exploitation. Pour plus d'informations sur la configuration requise, voir [Configuration requise pour les déploiements Cloud](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Déploiement et mise en service** – La complexité des exigences de déploiement et de mise en service peut varier, selon l'application et le déploiement choisis. Par exemple, pour un déploiement CPOS hébergé dans le cloud, il n'est pas nécessaire d'installer et de mettre à jour chaque appareil. Par conséquent, cette approche réduit considérablement la complexité et le coût. Toutefois, si vous déployez MPOS sur chaque caisse enregistreuse et activez le mode hors connexion, et si vous déployez également les stations matérielles partagées, vous augmentez considérablement le nombre de points de terminaison à gérer.
-

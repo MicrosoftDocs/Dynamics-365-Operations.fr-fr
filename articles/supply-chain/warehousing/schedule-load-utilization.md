@@ -1,13 +1,13 @@
 ---
 title: Programmer l'utilisation de l'espace de chargement
-description: "Cette rubrique explique comment configurer et planifier la charge d'un entrepôt."
+description: Cette rubrique explique comment configurer et planifier la charge d'un entrepôt.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 15f3735f79671ac41789d39a5473722a5f35fde0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d52ad452c615a61739582431fcd100a7efa3d93a
-ms.openlocfilehash: 350666cee8f2643c53e9eed8ee73299bbea1e757
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332033"
 ---
-
 # <a name="schedule-load-utilization"></a>Programmer l'utilisation de l'espace de chargement
 
 [!include[banner](../includes/banner.md)]
@@ -73,4 +72,3 @@ Vous pouvez prévoir l'utilisation de l'espace en générant l'état **Utilisati
 
 4. Dans le champ **Type de charge**, sélectionnez **Volume** ou **Poids** pour spécifier l'unité opérationnelle d'entrepôt pour laquelle prévoir l'espace.
 5. Dans le champ **Paramétrage de l'utilisation de l'espace**, sélectionnez le paramétrage de l'utilisation de l'espace sur lequel la projection doit être basée.
-

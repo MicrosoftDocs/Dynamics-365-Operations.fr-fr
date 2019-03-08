@@ -1,13 +1,13 @@
 ---
 title: FAQ relatif aux carnets d'adresses
-description: "Cette rubrique contient les réponses du forum aux questions (FAQ) relatives aux carnets d'adresse dans Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique donne des réponses aux questions fréquentes relatives aux carnets d'adresses dans Microsoft Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: bb0239fd9bd80ae15bd2cca08d5a5f5258aef638
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337806"
 ---
-
-# <a name="address-books-faq"></a>FAQ relatif aux carnets d'adresses
+# <a name="address-books-faq"></a>FAQ sur les carnets d'adresses
 
 [!include [banner](../includes/banner.md)]
 
@@ -68,5 +67,4 @@ Vous pouvez entrer des enregistrements de parties soit dans le carnet d'adresses
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Puis-je traduire les informations d'adresse pour les enregistrements de partie ?
 
-Vous pouvez paramétrer des traductions des informations d'adresse afin que les informations s'affichent dans votre langue d'utilisateur (langue du système) dans Microsoft Dynamics 365 for Finance and Operations, mais dans une autre langue sur les documents tels que les commandes client. Vous pouvez entrer des traductions pour les noms de pays/régions, les objets d'adresse et les séquences de nom. Par exemple, la langue du système est le Danois et vous créez une commande client pour un client en France. Dans ce cas, vous pouvez afficher l'enregistrement client en danois dans le programme mais afficher les informations d'adresse en français sur la commande client imprimée. Lorsque vous paramétrez des traductions, vous devez entrer une traduction pour chaque article de la liste. Tout article pour lequel vous n'entrez pas de traduction s'affichera dans la langue du système. Par exemple, la langue du système est le Danois et vous envoyez un document à un client en Espagne. Si vous n'avez pas entré de traductions en espagnol (ESP) pour les informations d'adresse, ces informations s'affichent en danois dans le programme et sur le document imprimé.
-
+Vous pouvez paramétrer des traductions des informations d'adresse afin que les informations s'affichent dans votre langue d'utilisateur (langue du système) dans Microsoft Dynamics 365 for Finance and Operations, mais dans une autre langue sur les documents tels que les commandes client. Vous pouvez entrer des traductions pour les noms de pays/régions, les objets d'adresse et les séquences de nom. Par exemple, la langue du système est le Danois et vous créez une commande client pour un client en France. Dans ce cas, vous pouvez afficher l'enregistrement client en danois dans le programme mais afficher les informations d'adresse en français sur la commande client imprimée. Lorsque vous paramétrez des traductions, vous devez entrer une traduction pour chaque article de la liste. Tout article pour lequel vous n'entrez pas de traduction s'affichera dans la langue du système. Par exemple, la langue du système est le Danois et vous envoyez un document à un client en Espagne. Si vous n'avez pas entré de traductions en espagnol (ESP) pour les informations d'adresse, ces informations s'affichent en danois dans le programme et sur le document imprimé.

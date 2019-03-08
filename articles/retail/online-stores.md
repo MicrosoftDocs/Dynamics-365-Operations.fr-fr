@@ -1,13 +1,13 @@
 ---
-title: "Définir des magasins en ligne"
-description: "Cet article fournit des informations sur des stockages en ligne Retail et comment les paramétrer dans Microsoft Dynamics 365 for Retail."
+title: Définir des magasins en ligne
+description: Cet article fournit des informations sur des stockages en ligne Retail et comment les paramétrer dans Microsoft Dynamics 365 for Retail.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelManagementWorkspace, RetailOnlineStoreList
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 2b736b5e5ce5b5b384181a73c72bbb89b072a284
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324926"
 ---
-
-# <a name="set-up-online-stores"></a>Définir des magasins en ligne
+# <a name="set-up-online-stores"></a>Paramétrer des magasins en ligne
 
 [!include [banner](includes/banner.md)]
 
 Cet article fournit des informations sur des stockages en ligne Retail et comment les paramétrer dans Microsoft Dynamics 365 for Retail.
 
-Dynamics 365 for Retail prend en charge plusieurs canaux de vente au détail. Ces canaux de vente au détail comprennent les magasins en ligne, les centres d'appels et les magasins de vente au détail (également appelés magasins traditionnels). Les magasins en ligne permettent à un détaillant d'être présent en ligne, afin de donner aux clients la possibilité de se procurer ses produits en ligne, en plus de ses magasins de vente au détail. Si les clients achètent des produits dans un magasin en ligne, ils peuvent se faire expédier les produits ou aller les chercher dans un magasin de vente au détail local. Vous créez un magasin en ligne dans le client Dynamics 365 for Retail. Ce magasin en ligne est ensuite publié sur un magasin en ligne tiers qui est intégré à Dynamics 365 for Retail. Le magasin en ligne tiers sert de vitrine au magasin en ligne, et vous fournit un système de gestion des clients (CMS) et des fonctionnalités d'interface utilisateur. Plusieurs intégrations de ce type sont disponibles pour Dynamics 365 for Retail. Les propriétés que vous définissez pour le magasin en ligne régissent le comportement du magasin en ligne. Par exemple, vous définissez la hiérarchie des catégories de navigation dans Dynamics 365 for Retail et l'affectez au magasin en ligne. Lorsque vous publiez le magasin en ligne sur un magasin en ligne tiers, la hiérarchie des catégories de navigation s'affiche dans la version en ligne du magasin. Les clients utilisent ensuite la hiérarchie des catégories de navigation pour parcourir le magasin en ligne et rechercher des produits. Pour créer un magasin en ligne, vous devez paramétrer les composants qui activent les transactions à traiter pour le magasin. Par exemple, vous devez ajouter des assortiments, appliquer des attributs et paramétrer les modes de paiement et d'expédition. Vous pouvez également définir des prix, des promotions, des remises, des accords commerciaux et des conditions d'expédition qui sont spécifiques au magasin en ligne. Après avoir publié le magasin en ligne sur le magasin en ligne tiers, vous pouvez créer des catalogues de produits vendus au détail pour le magasin en ligne. Les produits du catalogue deviennent des listes de produits dans le magasin en ligne. Lorsqu'un client achète des produits dans le magasin en ligne, le stock disponible est mis à jour et synchronisé dans le client. En outre, les commandes client sont générées pour les achats et transmises au client pour être traitées et exécutées.
+Dynamics 365 for Retail prend en charge plusieurs canaux de vente au détail. Ces canaux de vente au détail comprennent les magasins en ligne, les centres d'appels et les magasins de vente au détail (également appelés magasins traditionnels). Les magasins en ligne permettent à un détaillant d'être présent en ligne, afin de donner aux clients la possibilité de se procurer ses produits en ligne, en plus de ses magasins de vente au détail. Si les clients achètent des produits dans un magasin en ligne, ils peuvent se faire expédier les produits ou aller les chercher dans un magasin de vente au détail local. Vous créez un magasin en ligne dans le client Dynamics 365 for Retail. Ce magasin en ligne est ensuite publié sur un magasin en ligne tiers qui est intégré à Dynamics 365 for Retail. Le magasin en ligne tiers sert de vitrine au magasin en ligne, et vous fournit un système de gestion des clients (CMS) et des fonctionnalités d'interface utilisateur. Plusieurs intégrations de ce type sont disponibles pour Dynamics 365 for Retail. Les propriétés que vous définissez pour le magasin en ligne régissent le comportement du magasin en ligne. Par exemple, vous définissez la hiérarchie des catégories de navigation dans Dynamics 365 for Retail et l'affectez au magasin en ligne. Lorsque vous publiez le magasin en ligne sur un magasin en ligne tiers, la hiérarchie des catégories de navigation s'affiche dans la version en ligne du magasin. Les clients utilisent ensuite la hiérarchie des catégories de navigation pour parcourir le magasin en ligne et rechercher des produits. Pour créer un magasin en ligne, vous devez paramétrer les composants qui activent les transactions à traiter pour le magasin. Par exemple, vous devez ajouter des assortiments, appliquer des attributs et paramétrer les modes de paiement et d'expédition. Vous pouvez également définir des prix, des promotions, des remises, des accords commerciaux et des conditions d'expédition qui sont spécifiques au magasin en ligne. Après avoir publié le magasin en ligne sur le magasin en ligne tiers, vous pouvez créer des catalogues de produits vendus au détail pour le magasin en ligne. Les produits du catalogue deviennent des listes de produits dans le magasin en ligne. Lorsqu'un client achète des produits dans le magasin en ligne, le stock disponible est mis à jour et synchronisé dans le client. En outre, les commandes client sont générées pour les achats et transmises au client pour être traitées et exécutées.
 
 ## <a name="set-up-an-online-store"></a>Paramétrage d'un magasin en ligne
 
@@ -60,4 +59,3 @@ Avant de créer un magasin en ligne, vous devez définir la hiérarchie de navig
 ## <a name="organization-hierarchies"></a>Hiérarchies d'organisation
 
 Les hiérarchies d'organisation permettent de structurer les canaux de vente au détail. Les hiérarchies d'organisation représentent les relations entre les organisations qui composent votre entreprise. Lorsque vous paramétrez des magasins en ligne, vous pouvez les ajouter à une hiérarchie d'organisation. Les magasins partagent ensuite les données utilisées pour les assortiments, le réapprovisionnement et la génération d'états. Lorsque vous créez une hiérarchie d'organisation, vous lui affectez un objectif. L'objectif indiquer comment la hiérarchie est utilisée dans la structure commerciale. Vous pouvez créer une hiérarchie d'organisation pour vos opérations de magasin et l'utiliser pour les assortiments, le réapprovisionnement et la génération d'états. Sinon, vous pouvez créer une hiérarchie d'organisation distincte pour chaque objectif. Vous pouvez également créer plusieurs hiérarchies ayant le même objectif et affecter un canal distinct à chacune d'entre elles. Si vous prévoyez de publier des catalogues de produits vendus au détail sur le magasin en ligne, vous devez, au minimum, ajouter le magasin en ligne à une hiérarchie d'organisation pour les assortiments. Les produits d'un catalogue sont sélectionnés à partir des assortiments affectés au magasin en ligne. Lors de la publication du catalogue, le processus de publication compare les dates d'effet de l'assortiment affecté au magasin en ligne aux produits inclus dans le catalogue afin de déterminer les produits à mettre à disposition dans le magasin en ligne.
-

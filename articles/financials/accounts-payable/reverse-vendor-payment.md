@@ -1,13 +1,13 @@
 ---
 title: Contrepasser un paiement fournisseur
-description: "Cet article décrit les différences entre contrepasser, supprimer, annuler et rejeter un paiement. En outre, il détaille les deux méthodes pour contrepasser une vérification fournisseur."
+description: Cet article décrit les différences entre contrepasser, supprimer, annuler et rejeter un paiement. En outre, il détaille les deux méthodes pour contrepasser une vérification fournisseur.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d58aac20f9ef54e4ee41464a30b7c8190ade26b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 736432a7e128f6b7b0d7ed5e0156c0769407bbaa
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329618"
 ---
-
 # <a name="reverse-a-vendor-payment"></a>Contrepasser un paiement fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Si le chèque contrepassé était émis pour un remboursement client, les évén
 
 -   Une transaction est validée pour le compte client pour la contrepassation du paiement et le règlement entre le paiement d'origine et le document pour lequel le paiement était réglé à l'origine est contrepassé (un paiement négatif est créé).
 -   Une contrepassation de paiement est réglée avec le paiement d'origine. Le champ **N° document dernier règlement** dans la page **Transactions client** pour le paiement d'origine du client est mis à jour pour refléter le n° document de la transaction contrepassée.
-
 
 
 

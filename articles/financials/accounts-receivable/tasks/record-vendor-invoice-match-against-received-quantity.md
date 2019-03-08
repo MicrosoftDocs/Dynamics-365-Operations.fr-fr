@@ -1,13 +1,13 @@
---- 
-title: "Enregistrer la facture fournisseur et la mettre en correspondance avec la quantité reçue"
-description: "Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement."
+---
+title: Enregistrer la facture fournisseur et la mettre en correspondance avec la quantité reçue
+description: Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5d7458c62b3b71adf981a1ce5a7260da9bfdbcd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a64413ac1840ef535252bd2d9752d52b26ccade1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330216"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Enregistrer la facture fournisseur et la mettre en correspondance avec la quantité reçue
 
@@ -64,5 +64,4 @@ La société fictive USMF sert d'exemple dans cette procédure. Les différentes
 9. Cliquez sur OK.
 10. Cliquez sur Revoir dans le volet Actions.
 11. Cliquez sur Mise en correspondance des détails.
-
 

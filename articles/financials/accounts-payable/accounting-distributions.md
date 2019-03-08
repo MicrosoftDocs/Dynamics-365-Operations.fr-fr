@@ -1,13 +1,13 @@
 ---
-title: "Répartitions comptables"
-description: "Cet article fournit des informations sur les répartitions comptables et décrit les options disponibles pour les traiter. Les répartitions comptables sont utilisées pour répartir les montants en devises d'un document source dans des comptes généraux spécifiques."
+title: Répartitions comptables
+description: Cet article fournit des informations sur les répartitions comptables et décrit les options disponibles pour les traiter. Les répartitions comptables sont utilisées pour répartir les montants en devises d'un document source dans des comptes généraux spécifiques.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ba6a581efe8353ccb9e02606db58d18550d71af
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bbf23d9cab01e8cdbae776c9310fbd19b429443d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320464"
 ---
-
 # <a name="accounting-distributions"></a>Répartitions comptables
 
 [!include [banner](../includes/banner.md)]
@@ -57,6 +56,5 @@ Les fonctionnalités de répartition comptable générique fournissent les optio
 
 
 Pour plus d'informations, voir [Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures financières](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
 
 

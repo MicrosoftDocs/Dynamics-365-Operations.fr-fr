@@ -1,13 +1,13 @@
---- 
-title: "Créer une commande fournisseur avec un plan de livraison"
-description: "Cette procédure illustre comment créer un calendrier de livraison pour une commande fournisseur."
+---
+title: Créer une commande fournisseur avec un plan de livraison
+description: Cette procédure illustre comment créer un calendrier de livraison pour une commande fournisseur.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a9b7b233339d41605e1b115bd14a18b706ef226
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333827"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Créer une commande fournisseur avec un plan de livraison
 
@@ -75,5 +75,4 @@ Cette procédure illustre comment créer un calendrier de livraison pour une com
     * Notez comment l'accusé de réception de marchandises est créé pour les deux lignes de livraison et pas la ligne de commande d'origine. Si l'accusé de réception de marchandises avait été enregistré dans l'entrepôt, il aurait également été enregistré sur les lignes du plan de livraison.  
 7. Réduisez la section Lignes.
 8. Cliquez sur OK pour valider la réception.
-
 

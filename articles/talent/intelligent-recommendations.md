@@ -1,14 +1,14 @@
 ---
 title: Recommandations intelligentes
-description: "Cette rubrique explique comment le Machine Learning peut être utilisé pour fournir des recommandations pour des missions et des candidats à un poste."
+description: Cette rubrique explique comment le Machine Learning peut être utilisé pour fournir des recommandations pour des missions et des candidats à un poste.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304375"
 ---
-
 # <a name="intelligent-recommendations"></a>Recommandations intelligentes
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Pour n'importe quel candidat recommandé, vous pouvez sélectionner **Afficher l
 ## <a name="job-recommendations"></a>Recommandations professionnelles 
 
 Lorsqu'un employé potentiel utilise le site de carrière pour postuler à une mission, d'autres postes vacants au sein de l'organisation sont recommandés. Ces recommandations sont basées sur les candidatures passées du prospect, et sur son CV ou profil de candidat. Par conséquent, les recommandations de missions permettent aux prospects d'identifier rapidement les postes les mieux adaptés pour eux. Les recommandations de poste sont fournies aux prospects si plus de dix missions sont publiées sur le site de carrière. Les prospects peuvent ouvrir les détails d'un annonce d'emploi de la fiche recommandation. Ils peuvent également fournir une rétroaction sur une recommandation afin d'améliorer les futures recommandations.
-

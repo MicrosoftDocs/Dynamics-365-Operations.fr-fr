@@ -1,13 +1,13 @@
 ---
 title: Modes de paiement
-description: "Chaque type de paiement accepté par un détaillant doit être configurée lors du paramétrage du système. Cet article décrit les types de paiement que vous pouvez paramétrer, ainsi que leur procédure de paramétrage."
+description: Chaque type de paiement accepté par un détaillant doit être configurée lors du paramétrage du système. Cet article décrit les types de paiement que vous pouvez paramétrer, ainsi que leur procédure de paramétrage.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1ba80e48c8b3b5ed94b9e03302788099a1d31909
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328974"
 ---
-
 # <a name="payment-methods"></a>Modes de paiement
 
 [!include [banner](includes/banner.md)]
 
 Chaque type de paiement accepté par un détaillant doit être configurée lors du paramétrage du système. Cet article décrit les types de paiement que vous pouvez paramétrer, ainsi que leur procédure de paramétrage.
 
-Les détaillants peuvent accepter différents types de paiement en échange des produits et des services qu'ils vendent. Bien que les espèces soient la forme de paiement la plus courante, les détaillants peuvent également être payés par chèques, cartes, N° document, etc. Chaque type de paiement accepté par le détaillant doit être configuré dans Dynamics 365 for Retail lors du paramétrage du système. La liste suivante décrit chaque type de paiement pouvant être paramétré dans Dynamics 365 for Retail :
+Les détaillants peuvent accepter différents types de paiement en échange des produits et des services qu'ils vendent. Bien que les espèces soient la forme de paiement la plus courante, les détaillants peuvent également être payés par chèques, cartes, N° document, etc. Chaque type de paiement accepté par le détaillant doit être configurée dans Dynamics 365 for Retail lors du paramétrage du système. La liste suivante décrit chaque type de paiement pouvant être paramétré dans Dynamics 365 for Retail :
 
 - **Espèces** – Argent sous forme physique de devises, comme des billets de banque et des pièces. Cette devise peut être celle de la société ou la devise locale du magasin.
 - **Chèque** – Effet négociable donnant un ordre de paiement d'un montant spécifique pour une devise particulière, tiré sur une banque spécifiée. Un chèque est généralement valide indéfiniment ou pendant six mois à compter de sa date d'émission, sauf si une autre période de validité est spécifiée. Cette période peut varier en fonction de la banque sur laquelle le chèque est tiré. Il existe différents types de chèques, tels que les chèques à ordre, les chèques-guichets, les chèques au porteur et les chèques à porter en compte. Vous pouvez paramétrer les chèques comme mode de paiement pour chaque magasin. Les chèques sont acceptés dans la devise définie au niveau de la société ou du magasin. Avant d'accepter un paiement par chèque dans un magasin, vous devez paramétrer les chèques comme mode de paiement.
@@ -50,4 +49,3 @@ Pour paramétrer les modes de paiement dans , vous devez effectuer les tâches s
 2. Création de types et de numéros de cartes pour l'organisation. Si les cartes de crédit ou de débit sont acceptées, vous devez créer un mode de paiement par carte, puis créer les types et numéros de cartes pour toute l'organisation.
 3. Paramétrer le mode de paiement du magasin. Associez les modes de paiement à chaque magasin, puis entrez les paramètres propres au magasin pour chaque mode de paiement de ce dernier.
 4. Paramétrer les modes de paiement par carte pour les magasins. Vous devez paramétrer la carte pour tous les modes de paiement par carte acceptés par le magasin.
-

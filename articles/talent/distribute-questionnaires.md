@@ -1,13 +1,13 @@
 ---
 title: Distribuer et planifier des questionnaires
-description: "Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu'ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront."
+description: Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu'ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront.
 author: kherr75
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: eafcb047117eab73fddbd93c4c1d0aafb0023ebd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304327"
 ---
-
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuer et planifier des questionnaires
 
 [!include [banner](includes/banner.md)]
@@ -84,7 +83,7 @@ Vous pouvez spécifier les types de planification pour un programme de questionn
 
 Les types de référence aident à entrer les critères de sélection des personnes interrogées lorsque vous planifiez un questionnaire. 
 
-Utilisez la page **Types de référence** pour paramétrer les types de référence pour un questionnaire. Chaque type de référence correspond à une table dans Microsoft Dynamics 365 for Finance and Operations. Lorsque vous créez des programmes de questionnaires, vous pouvez spécifier des enregistrements individuels dans la table ou une plage d'enregistrements qui seront associés au questionnaire. 
+Utilisez la page **Types de référence** pour paramétrer les types de référence pour un questionnaire. Chaque type de référence correspond à une table dans Microsoft Dynamics 365 for Finance and Operations. Lorsque vous créez des programmes de questionnaires, vous pouvez spécifier des enregistrements individuels dans la table ou une plage d'enregistrements qui seront associés au questionnaire. 
 
 Par exemple, si vous sélectionnez la table Cours, vous pouvez décider à quel cours spécifique le questionnaire se rapporte. Lorsque vous paramétrez un type de référence pour la table Cours, certains champs et boutons de la page **Cours** deviennent disponibles.
 
@@ -132,6 +131,5 @@ Les questionnaires peuvent être accessibles à des utilisateurs ou groupes d'ut
 [Utilisation de questionnaires](questionnaires.md)
 
 [Affichage et évaluation des résultats des questionnaire](evaluate-questionnaire-results.md)
-
 
 

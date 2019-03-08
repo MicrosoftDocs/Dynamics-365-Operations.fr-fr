@@ -1,13 +1,13 @@
---- 
-title: "Configurer les emplacements dans un entrepôt compatible WMS"
-description: "Ce guide vous indique comment configurer le paramétrage d'emplacement pour un nouvel entrepôt compatible WMS (un entrepôt qui utilise des processus avancés de gestion des entrepôts)."
+---
+title: Configurer les emplacements dans un entrepôt compatible WMS
+description: Ce guide vous indique comment configurer le paramétrage d'emplacement pour un nouvel entrepôt compatible WMS (un entrepôt qui utilise des processus avancés de gestion des entrepôts).
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2be3c7cb33225041872e8b747ba28063f897dae9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1082c86361180db84bb2b5c0b8158816f76a219e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337323"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurer les emplacements dans un entrepôt compatible WMS
 
@@ -193,5 +193,4 @@ Ce guide vous indique comment configurer le paramétrage d'emplacement pour un n
 5. Dans le champ Emplacement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 6. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 7. Fermez la page.
-
 

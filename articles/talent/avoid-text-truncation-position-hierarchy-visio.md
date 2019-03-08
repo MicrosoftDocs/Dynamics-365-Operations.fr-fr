@@ -1,30 +1,29 @@
 ---
-title: "Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio"
-description: "Cette rubrique explique comment résoudre un problème dans lequel les noms des personnes et les postes sont tronqués lorsque les clients affichent la hiérarchie des postes dans Microsoft Dynamics 365 for Talent. La troncation de texte peut rendre difficile l'exécution d'une capture d'écran ou d'une impression de la hiérarchie."
+title: Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
+description: Cette rubrique explique comment résoudre un problème dans lequel les noms des personnes et les postes sont tronqués lorsque les clients affichent la hiérarchie des postes dans Dynamics 365 for Talent. La troncation de texte peut rendre difficile l'exécution d'une capture d'écran ou d'une impression de la hiérarchie.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304336"
 ---
-
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
 
 [!include [banner](includes/banner.md)]
@@ -107,4 +106,3 @@ Selon les champs sélectionnés à inclure dans le diagramme, chaque nœud affic
 **Option supplémentaire**
 
 Dans Talent, vous pouvez également pouvoir utiliser l'espace de travail **Personnes** pour afficher des informations associées à la hiérarchie.
-

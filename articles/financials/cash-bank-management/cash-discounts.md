@@ -1,13 +1,13 @@
 ---
-title: "Escomptes de règlement"
-description: "Les escomptes de règlement sont paramétrés et partagés pour la Comptabilité fournisseur et la Comptabilité client.  L'escompte de règlement disponible peut être défini sur la facture client ou la facture fournisseur, et sera utilisé si la facture est payée pendant la période d'escompte de règlement."
+title: Escomptes de règlement
+description: Les escomptes de règlement sont paramétrés et partagés pour la Comptabilité fournisseur et la Comptabilité client.  L'escompte de règlement disponible peut être défini sur la facture client ou la facture fournisseur, et sera utilisé si la facture est payée pendant la période d'escompte de règlement.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dd15a021244e55ea988a95184a758a321ebeafb3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320027"
 ---
-
 # <a name="cash-discounts"></a>Escomptes de règlement
 
 [!include [banner](../includes/banner.md)]
@@ -65,6 +64,5 @@ La devise comptable de votre entité juridique est EUR et les taux de change sui
 Une facture de 1 000 USD avec des conditions d'escompte de règlement de 20D2% est validée le 15 février. Le montant de la facture, exprimé en devise comptable, est de 1 100 EUR. Un paiement de 980 USD est réglé avec la facture le 1er mars. Le montant de l'escompte de règlement est de 20 USD. Le montant du paiement en devise comptable est de 784 EUR. Le montant de l'escompte de règlement, exprimé en devise comptable, est calculé à partir du taux de change du 1er mars : 20 \* 80 / 100 = 16 EUR.
 
 > [!NOTE]
-> Si l'option Calcule les escomptes de règlement pour les paiements partiels est sélectionnée dans les pages Paramètres de la comptabilité client ou Paramètres de la comptabilité fournisseur, le taux de change en vigueur à la date de chaque paiement partiel est utilisé. 
-
+> Si l'option Calcule les escomptes de règlement pour les paiements partiels est sélectionnée dans les pages Paramètres de la comptabilité client ou Paramètres de la comptabilité fournisseur, le taux de change en vigueur à la date de chaque paiement partiel est utilisé. 
 

@@ -1,13 +1,13 @@
---- 
-title: "Définir l'inventaire tournant"
-description: "L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les articles en stock disponibles."
+---
+title: Définir l'inventaire tournant
+description: L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les articles en stock disponibles.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2832547f81b0153d42ac4664184f18bd66f1acdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f9cdb0a7de0199363279c53e817c98085b31fe6b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337300"
 ---
 # <a name="define-cycle-counting"></a>Définir l'inventaire tournant 
 
@@ -100,5 +100,4 @@ L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les arti
 20. Dans le champ Critères, saisissez ou sélectionnez une valeur.
 21. Cliquez sur OK.
 22. Fermez la page.
-
 

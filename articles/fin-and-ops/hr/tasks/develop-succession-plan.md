@@ -1,13 +1,13 @@
---- 
-title: "Développer un plan de succession"
-description: "À mesure que votre organisation se développe et que vous planifiez la relève, vous pouvez souhaiter rechercher une personne ayant des qualifications similaires à une autre personne."
+---
+title: Développer un plan de succession
+description: À mesure que votre organisation se développe et que vous planifiez la relève, vous pouvez souhaiter rechercher une personne ayant des qualifications similaires à une autre personne.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 63999252fa00ba474d1e40f696029973f746ba2c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339186"
 ---
 # <a name="develop-succession-plan"></a>Développer un plan de succession
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/14/2018
 27. Cliquez sur Résultat.
 28. Cliquez sur État.
     * L'état indiquera les meilleures correspondances tout en haut.  Vous pouvez noter qu'un écart est répertorié.  Il s'agit de la différence entre le niveau qui était indiqué sur la mise en correspondance des qualifications, et le niveau de la qualification affectée à la personne.  
-
 

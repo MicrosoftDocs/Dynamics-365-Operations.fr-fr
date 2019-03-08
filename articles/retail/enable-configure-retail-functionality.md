@@ -1,13 +1,13 @@
 ---
-title: "Initialiser les données de départ dans de nouveaux environnements de vente au détail"
-description: "Cet article décrit les données créées dans le cadre du processus d'initialisation de Microsoft Dynamics 365 for Retail."
+title: Initialiser les données de départ dans de nouveaux environnements de vente au détail
+description: Cet article décrit les données créées dans le cadre du processus d'initialisation de Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,28 +19,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327893"
 ---
-
-# <a name="initialize-seed-data-in-new-retail-environments"></a>Initialiser les données de départ dans de nouveaux environnements de vente au détail
+# <a name="initialize-seed-data-in-new-retail-environments"></a>Initialiser les données d'origine dans de nouveaux environnement Retail
 
 [!include [banner](includes/banner.md)]
 
-Cet article décrit les données créées dans le cadre du processus d'initialisation de Microsoft Dynamics 365 for Retail.
+Cet article décrit les données créées dans le cadre du processus d'initialisation de Microsoft Dynamics 365 for Retail.
 
-Une fois la solution Retail déployée via les Microsoft Dynamics Lifecycle Services (LCS), vous devez initialiser la configuration de vente au détail pour créer les données de configuration de base.
+Une fois la solution Retail déployée via Microsoft Dynamics Lifecycle Services (LCS), vous devez initialiser la configuration de vente au détail pour créer les données de configuration de base.
 
 > [!IMPORTANT]
 > Avant d'initialiser la configuration de vente au détail, vérifiez que vous avez spécifié une langue et une adresse postale pour chaque entité juridique dans laquelle vous paramétrez des magasins de vente au détail. Cette étape doit être exécutée pour chaque entité juridique que vous utilisez pour la vente au détail.
 
 Pour initialiser la configuration de vente au détail, procédez comme suit.
 
-1. Démarrez le client Dynamics 365 for Retail.
+1. Démarrez le client Dynamics 365 for Retail.
 2. Cliquez sur **Vente au détail** &gt; **Configuration du siège** &gt; **Paramètres** &gt; **Paramètres des ventes au détail**.
 3. Cliquez sur **Initialiser**.
 
@@ -58,7 +57,7 @@ L'initialisation crée les données de configuration par défaut suivantes :
 - Modèles de validation de l'entité
 - Traitement par lots pour vider l'historique des sessions Commerce Data Exchange
 
-En outre, l'enregistrement qui est liée à PCI (Payment Card Industry) est activé pour la base de données Dynamics 365 for Retail.
+En outre, l'enregistrement qui est liée à PCI (Payment Card Industry) est activé pour la base de données Dynamics 365 for Retail.
 
 > [!NOTE]
 > Il existe une option pour configurer séparément Retail Planification. Cette option permet de rétablir les paramètres par défaut de la configuration de Retail Planification.
@@ -70,4 +69,3 @@ Une fois l'initialisation terminée, vous devez configurer les données de vente
 - Canaux de vente au détail
 - Registres et périphériques
 - Assortiments
-

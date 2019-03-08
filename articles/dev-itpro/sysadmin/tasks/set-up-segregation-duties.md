@@ -1,13 +1,13 @@
---- 
-title: "Configurer les règles de répartition des tâches"
-description: "Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs."
+---
+title: Configurer les règles de répartition des tâches
+description: Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 68e1a4419eaa11a59e1b634deb8e76a2bb9b6fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 754f28cd2831d8a9a57c408518d240de460b732b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318785"
 ---
 # <a name="set-up-segregation-of-duties"></a>Configurer les règles de répartition des tâches
 
@@ -48,5 +48,4 @@ Vous pouvez configurer des règles sur des tâches séparées qui doivent être 
 12. Dans le champ Atténuation de sécurité, tapez une valeur.
     * Entrez une description des actions que vous prenez pour atténuer le risque de sécurité. Par exemple, vous pouvez atténuer le risque en conduisant des examens plus détaillés du processus, en conduisant une révision décisionnelle mensuelle, ou en partageant des ressources avec d'autres départements.  
 13. Cliquez sur Enregistrer.
-
 

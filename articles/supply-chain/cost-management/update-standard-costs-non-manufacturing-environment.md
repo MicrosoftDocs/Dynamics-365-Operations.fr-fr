@@ -1,13 +1,13 @@
 ---
-title: "Mettre à jour des coûts standard dans un environnement hors fabrication"
-description: "Cet article fournit des instructions pour mettre à jour les coûts standard dans un environnement hors fabrication."
+title: Mettre à jour des coûts standard dans un environnement hors fabrication
+description: Cet article fournit des instructions pour mettre à jour les coûts standard dans un environnement hors fabrication.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4fa545aa6903bd6f789dda20ab5755ffe9a12b88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b428af5a694668ac161a7187d5a949f44e8ec2a2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323017"
 ---
-
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Mettre à jour des coûts standard dans un environnement hors fabrication
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Pour corriger, ajuster ou mettre à jour les coûts standard de nouveaux article
 4.  Utilisez la page **Mise à jour de la version d'évaluation des coûts** pour modifier la balise de blocage afin d'autoriser l'activation des enregistrements de coûts en attente inclus dans la deuxième version d'évaluation des coûts.
 5.  Utilisez la page **Activer les prix** (que vous pouvez ouvrir à partir de la page **Mise à jour de la version d'évaluation des coûts**) pour activer tous les enregistrements de coûts d'article en attente inclus dans la deuxième version d'évaluation des coûts. Vous pouvez également activer les enregistrements des coûts en attente pour des articles individuels en cliquant sur le bouton **Activer les coûts en attente** dans la page **Prix d'article**.
 6.  Afin d'empêcher toute maintenance des données supplémentaire, utilisez la page **Paramétrage de la version d'évaluation des coûts** pour modifier les balises de blocage incluses dans la deuxième version d'évaluation des coûts. Les stratégies de blocage empêchent la saisie de nouveaux coûts en attente et l'activation de coûts en attente.
-
 
 
 

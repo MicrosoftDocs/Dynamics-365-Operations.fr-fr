@@ -1,13 +1,13 @@
---- 
-title: "Paramétrage d'une hiérarchie des catégories d'approvisionnement"
-description: "Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérarchie des catégories d'approvisionnement et comment configurer une catégorie d'approvisionnement à utiliser dans processus d'approvisionnement."
+---
+title: Paramétrage d'une hiérarchie des catégories d'approvisionnement
+description: Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérarchie des catégories d'approvisionnement et comment configurer une catégorie d'approvisionnement à utiliser dans processus d'approvisionnement.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/06/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01809a8a3256342682d8a9cfb296a355310fe4ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
-ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334517"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Paramétrage d'une hiérarchie des catégories d'approvisionnement
 
@@ -74,5 +74,4 @@ Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérar
 6. Activez ou désactivez l'extension de la section Page des catégories.
     * Les pages Catégorie sont créées dans la page Hiérarchie de catégories. Elles contiennent des 'informations sur la catégorie d'approvisionnement, comme le type de produits dans une catégorie, des images de produits dans une catégorie ou des annonces, telles que les remises disponibles dans une catégorie. Les informations dans une page de catégorie sont affichées sur les demandes d'achat.  
 7. Fermez la page.
-
 

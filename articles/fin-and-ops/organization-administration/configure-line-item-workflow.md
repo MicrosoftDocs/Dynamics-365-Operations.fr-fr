@@ -1,13 +1,13 @@
 ---
 title: Configuration des workflows pour ligne
-description: "Cette rubrique explique comment configurer un élément de workflow pour ligne."
+description: Cette rubrique explique comment configurer un élément de workflow pour ligne.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 66e79389bba4566176330914ace462110cd0aa22
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336104"
 ---
-
 # <a name="configure-line-item-workflows"></a>Configuration des workflows pour ligne
 
 [!include [banner](../includes/banner.md)]
@@ -56,4 +55,3 @@ Procédez comme suit pour indiquer si le même workflow est utilisé pour traite
     6. Pour vérifier que l'ensemble de conditions que vous avez entrées est correctement paramétré, cliquez sur **Tester**. Sur la page **Condition de workflow de test**, sélectionnez un enregistrement dans la zone **Contrôler la condition**, puis cliquez sur **Tester**. Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées. Cliquez sur **OK** ou sur **Annuler** pour revenir à la page **Propriétés**.
 
     Sous l'onglet **Workflow**, sélectionnez le workflow à utiliser pour traiter les articles de lignes qui remplissent l'ensemble de conditions que vous avez définies.
-

@@ -1,13 +1,13 @@
 ---
 title: Conception de questionnaires
-description: "Cette rubrique décrit le processus de création d'un questionnaire. La première étape consiste à concevoir le questionnaire. Lorsque vous créez un questionnaire, vous entrez non seulement les questions et les réponses, mais créez également la structure qui active l'enregistrement et l'organisation des réponses."
+description: Cette rubrique décrit le processus de création d'un questionnaire. La première étape consiste à concevoir le questionnaire. Lorsque vous créez un questionnaire, vous entrez non seulement les questions et les réponses, mais créez également la structure qui active l'enregistrement et l'organisation des réponses.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304376"
 ---
-
 # <a name="design-questionnaires"></a>Conception de questionnaires
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ Les codes souche de numéros servent à classer les questions et les réponses. 
 Vous devez définir tous les paramètres avant de commencer à créer vos données. Vous pouvez modifier les paramètres de questionnaire à tout moment.
 
 ## <a name="questionnaire-components"></a>Composants du questionnaire
-Les questionnaires incluent trois éléments principaux : les groupes de réponses contenant les réponses pour les questions à choix multiple, les questions et le questionnaire lui-même Vous pouvez également regrouper les questions à un questionnaire en groupes de résultats. Les groupes de résultats permettent de classer les questions et de fournir une analyse approfondie du questionnaire. 
+Les questionnaires incluent trois éléments principaux : les groupes de réponses contenant les réponses pour les questions à choix multiple, les questions et le questionnaire lui-même Vous pouvez également regrouper les questions à un questionnaire en groupes de résultats. Les groupes de résultats permettent de classer les questions et de fournir une analyse approfondie du questionnaire. 
 
 [![Composants du questionnaire](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -111,7 +110,7 @@ Les groupes de réponses et les réponses sont des composants qui constituent le
 
 Vous pouvez utiliser un groupe de réponses pour plusieurs questions d'un même questionnaire et pour plusieurs questionnaires. 
 
-**Remarque :** si vous modifiez le texte de la réponse dans des groupes de réponses qui ont déjà été utilisés dans des questionnaires terminés, les données peuvent devenir difficiles à évaluer et les résultats du questionnaire peuvent plus être valides. Si vous devez modifier un groupe de réponses, envisagez de créer un nouveau groupe de réponses au lieu de modifier l'existant. Vous ne pouvez pas supprimer les groupes de réponses associés à une question ou à une réponse ou qui ont été complétés.
+**Remarque :** si vous modifiez le texte de la réponse dans des groupes de réponses qui ont déjà été utilisés dans des questionnaires terminés, les données peuvent devenir difficiles à évaluer et les résultats du questionnaire peuvent plus être valides. Si vous devez modifier un groupe de réponses, envisagez de créer un nouveau groupe de réponses au lieu de modifier l'existant. Vous ne pouvez pas supprimer les groupes de réponses associés à une question ou à une réponse ou qui ont été complétés.
 
 ### <a name="questions"></a>Questions
 
@@ -154,13 +153,13 @@ Dans la page **Questionnaires**, cliquez sur **Valider** pour vérifier si le qu
 
 ### <a name="modify-a-questionnaire"></a>Modification d'un questionnaire
 
-Vous pouvez effectuer les opérations suivantes dans la page **Questionnaires** :
+Vous pouvez effectuer les opérations suivantes dans la page **Questionnaires** :
 
 -   modifier les informations du questionnaire, y compris ses groupes de résultats et questions ;
 -   supprimer et ajouter des questions ;
 -   apporter des modifications aux groupes de résultats et au numéro d'ordre. 
 
-**Attention :** Soyez prudent lorsque vous apportez des modifications à des questionnaires déjà complétés. Les modifications peuvent réduire la précision des statistiques et donc en faire une base d'évaluation médiocre. Songez à créer une question au lieu de modifier une question pour laquelle une réponse existe déjà.
+**Attention :** Soyez prudent lorsque vous apportez des modifications à des questionnaires déjà complétés. Les modifications peuvent réduire la précision des statistiques et donc en faire une base d'évaluation médiocre. Songez à créer une question au lieu de modifier une question pour laquelle une réponse existe déjà.
 
 Dans un questionnaire, vous ne pouvez pas supprimer les types de questions suivants :
 
@@ -188,7 +187,7 @@ Pour associer des questions à un questionnaire à l'aide des groupes de résult
 
 Vous pouvez paramétrer plusieurs groupes de résultats afin d'évaluer les points obtenus par une personne interrogée dans chaque catégorie. Une fois qu'un questionnaire est terminé, vous pouvez afficher les points qui ont été obtenus pour chaque groupe de résultats. 
 
-**Conseil :** Pour évaluer un questionnaire à l'aide de points, et non à l'aide de catégories distinctes, vous pouvez ajouter toutes les questions à un seul groupe de résultats. 
+**Conseil :** Pour évaluer un questionnaire à l'aide de points, et non à l'aide de catégories distinctes, vous pouvez ajouter toutes les questions à un seul groupe de résultats. 
 
 Pour chaque groupe de résultats, vous pouvez également paramétrer un ou plusieurs messages motivés par les points que les personnes interrogées recevront après avoir répondu à un questionnaire. Le texte affiché peut varier en fonction du score obtenu par la personne interrogée dans un groupe de résultats. Pour utiliser les messages motivés par les points, vous devez définir des intervalles de points et une description de chaque intervalle. Lorsqu'une personne interrogée réalise un score dans un intervalle spécifique, le texte pour cet intervalle est intégré dans l'état des résultats. 
 
@@ -202,7 +201,7 @@ Vous utilisez un questionnaire pour un test de direction qui comporte 15 questio
 -   Aptitudes à diriger
 -   Aptitudes techniques
 
-Pour utiliser les messages motivés par les points, vous pouvez paramétrer des intervalles de texte pour chaque groupe de résultats. Deux points sont affectés à chaque question. Par conséquent, le nombre maximal de points total de chaque groupe de résultats est 10. 
+Pour utiliser les messages motivés par les points, vous pouvez paramétrer des intervalles de texte pour chaque groupe de résultats. Deux points sont affectés à chaque question. Par conséquent, le nombre maximal de points total de chaque groupe de résultats est 10. 
 
 Le tableau suivant indique les messages motivés par les points définis pour le groupe de résultats « capacités de leadership ».
 
@@ -238,5 +237,4 @@ De la même manière, vous pouvez paramétrer un questionnaire afin que, si une 
 [Distribuer et remplir des questionnaires](distribute-questionnaires.md)
 
 [Affichage et évaluation des résultats des questionnaire](evaluate-questionnaire-results.md)
-
 

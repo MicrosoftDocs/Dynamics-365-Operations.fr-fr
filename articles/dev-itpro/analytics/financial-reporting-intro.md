@@ -1,13 +1,13 @@
 ---
-title: "États financiers"
-description: "La génération d'états financiers pour Finance and Operations permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d'analyse. Elle dépasse les contraintes traditionnelles liées à la génération d'états pour vous aider à concevoir efficacement différents types d'états."
+title: États financiers
+description: La génération d'états financiers pour Finance and Operations permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d'analyse. Elle dépasse les contraintes traditionnelles liées à la génération d'états pour vous aider à concevoir efficacement différents types d'états.
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323776"
 ---
-
 # <a name="financial-reporting"></a>États financiers
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ Les composants suivants la génération d'états financiers sont simples à util
 <ul>
 <li>Programmez les états afin qu'ils soient générés automatiquement sur une base journalière, hebdomadaire, mensuelle ou annuelle.</li>
 <li>Exportez au format XPS en lecture seule, offrant une sécurité optimale des documents grâce aux signatures numériques.</li>
-<li>Exportez vers une feuille de calcul Microsoft Excel.</li>
+<li>Exporter vers une feuille de calcul Microsoft Excel.</li>
 <li>Pour partager des états, vous pouvez créer des e-mails contenant des liens vers les états en question.</li>
 </ul>
 </td>
@@ -98,4 +97,3 @@ Les composants suivants la génération d'états financiers sont simples à util
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 [Générer un état financier](generate-financial-report.md)
-

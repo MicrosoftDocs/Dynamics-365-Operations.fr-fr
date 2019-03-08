@@ -1,13 +1,13 @@
 ---
-title: "Valider avec des registres dérivés"
-description: "Cet article décrit l'utilisation des registres déduits."
+title: Valider avec des registres dérivés
+description: Cet article décrit l'utilisation des registres déduits.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff1dbf67a53a5639e448da707898b55cd00cba94
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aaacf596f2ea1107a53647d779e9d2b6c37ab530
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339140"
 ---
-
 # <a name="post-with-derived-books"></a>Valider avec des registres dérivés
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Si une acquisition est validée pour une immobilisation avec le registre MV 1, e
 > Si vous n'utilisez pas de registre déduit, vous devez valider l'acquisition de l'immobilisation tant pour le registre MV 1 que pour le registre MV 2.
 
 Pour plus d'informations, voir [Registres dérivés](derived-books.md).
-
 
 
 

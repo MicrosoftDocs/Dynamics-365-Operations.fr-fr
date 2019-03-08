@@ -1,13 +1,13 @@
 ---
 title: Types de journaux comptables
-description: "Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers."
+description: Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308665"
 ---
-
 # <a name="ledger-journal-types"></a>Types de journaux comptables
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. Utilisez la page **Noms de journal** pour paramétrer les journaux que vous pouvez utiliser dans Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers. Utilisez la page **Noms de journal** pour paramétrer les journaux que vous pouvez utiliser dans Microsoft Dynamics 365 for Finance and Operations.
 
 | Type de journal                      | Objectif                       | Entrer les transactions sur cette page                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -64,7 +63,6 @@ Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour le
 | Enregistrement de facture fournisseur          | Permet de valider les factures fournisseur qui figurent dans un journal.                                                                                                                                                                                                                                                                                                                 | Journal des factures                                                |
 | Renouvellement de billets à ordre     | Renouveler un billet à ordre préalablement réglé par la banque de votre organisation.                                                                                                                                                                                                                                                                      | Journal de renouvellement des billets à ordre                                 |
 | Règlement des billets à ordre des fournisseurs     | Créer des transactions de règlement de billets à ordre des fournisseurs.                                                                                                                                                                                                                                                                                                          | Journal des règlements des billets à ordre                                 |
-
 
 
 
