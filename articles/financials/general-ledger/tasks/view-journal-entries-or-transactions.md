@@ -1,13 +1,13 @@
---- 
-title: "Afficher les entrées de journal ou les transactions"
-description: "Cette procédure indique comment utiliser la demande de transactions de N° document pour rechercher des entrées ou des transactions de journal."
+---
+title: Afficher les entrées de journal ou les transactions
+description: Cette procédure indique comment utiliser la demande de transactions de N° document pour rechercher des entrées ou des transactions de journal.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysQueryForm, LedgerTransVoucher, LedgerTransBase, Originaldocuments
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,33 +16,32 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 53e966a4caf6ee8907b05b5fd9c0978187d64f1d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349260"
 ---
-# <a name="view-journal-entries-or-transactions"></a><span data-ttu-id="a675c-103">Afficher les entrées de journal ou les transactions</span><span class="sxs-lookup"><span data-stu-id="a675c-103">View journal entries or transactions</span></span>
+# <a name="view-journal-entries-or-transactions"></a><span data-ttu-id="42157-103">Afficher les entrées de journal ou les transactions</span><span class="sxs-lookup"><span data-stu-id="42157-103">View journal entries or transactions</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="a675c-104">Cette procédure indique comment utiliser la demande de transactions de N° document pour rechercher des entrées ou des transactions de journal.</span><span class="sxs-lookup"><span data-stu-id="a675c-104">This procedure shows how to use the Voucher transactions inquiry to search for journal entries or transactions.</span></span>
+<span data-ttu-id="42157-104">Cette procédure indique comment utiliser la demande de transactions de N° document pour rechercher des entrées ou des transactions de journal.</span><span class="sxs-lookup"><span data-stu-id="42157-104">This procedure shows how to use the Voucher transactions inquiry to search for journal entries or transactions.</span></span>
 
-1. <span data-ttu-id="a675c-105">Allez dans Comptabilité > Recherches et états > Pièces comptables.</span><span class="sxs-lookup"><span data-stu-id="a675c-105">Go to General ledger > Inquiries and reports > Voucher transactions.</span></span>
-2. <span data-ttu-id="a675c-106">Sélectionnez le champ pour lequel vous souhaitez définir des critères de filtre.</span><span class="sxs-lookup"><span data-stu-id="a675c-106">Select the field for which you want to define a filter criteria.</span></span>
-3. <span data-ttu-id="a675c-107">Saisissez vos critères de filtre pour le champ sélectionné.</span><span class="sxs-lookup"><span data-stu-id="a675c-107">Enter your filter critieria for the selected field.</span></span>
-    * <span data-ttu-id="a675c-108">Vous pouvez filtrer selon une valeur unique ou une plage.</span><span class="sxs-lookup"><span data-stu-id="a675c-108">You could filter on a single value or a range.</span></span> <span data-ttu-id="a675c-109">Lorsque vous définissez une plage, vérifiez que la syntaxe appropriée est utilisée.</span><span class="sxs-lookup"><span data-stu-id="a675c-109">When defining a range, make sure the correct syntax is used.</span></span> <span data-ttu-id="a675c-110">Les valeurs doivent être séparées par deux points (..).</span><span class="sxs-lookup"><span data-stu-id="a675c-110">The values should be separated by a double period (..).</span></span>  
-4. <span data-ttu-id="a675c-111">Cliquez sur l'onglet Jointures pour ajouter des tables supplémentaires à partir desquelles appliquer un filtre.</span><span class="sxs-lookup"><span data-stu-id="a675c-111">Click the Joins tab to add additional tables from which to filter.</span></span>
-5. <span data-ttu-id="a675c-112">Dans l'arborescence, sélectionnez Tables\Entrée de journal des opérations diverses.</span><span class="sxs-lookup"><span data-stu-id="a675c-112">In the tree, select 'Tables\General journal entry'.</span></span>
-6. <span data-ttu-id="a675c-113">Cliquez sur Ajouter une jointure de table.</span><span class="sxs-lookup"><span data-stu-id="a675c-113">Click Add table join.</span></span>
-7. <span data-ttu-id="a675c-114">Cliquez sur Annuler si vous décidez de ne pas ajouter une table supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="a675c-114">Click Cancel if you decide not to add an additional table.</span></span>
-8. <span data-ttu-id="a675c-115">Cliquez sur l'onglet Plage.</span><span class="sxs-lookup"><span data-stu-id="a675c-115">Click the Range tab.</span></span>
-9. <span data-ttu-id="a675c-116">Cliquez sur OK pour exécuter la requête.</span><span class="sxs-lookup"><span data-stu-id="a675c-116">Click OK to run the query.</span></span>
-10. <span data-ttu-id="a675c-117">Cliquez sur Origine de la transaction.</span><span class="sxs-lookup"><span data-stu-id="a675c-117">Click Transaction origin.</span></span>
-    * <span data-ttu-id="a675c-118">Divers boutons relatifs à la grille peuvent être utilisés pour rechercher des informations supplémentaires sur l'enregistrement sélectionné du N° document.</span><span class="sxs-lookup"><span data-stu-id="a675c-118">Various buttons about the grid can be used to research additional information about the selected record of the voucher.</span></span> <span data-ttu-id="a675c-119">Il se peut que certains boutons ne soient pas disponibles, selon le type de transaction et les caractéristiques de la transaction.</span><span class="sxs-lookup"><span data-stu-id="a675c-119">Some buttons may not be available, depending on the type of transaction and characteristics of the transaction.</span></span>  
-11. <span data-ttu-id="a675c-120">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="a675c-120">Close the page.</span></span>
-12. <span data-ttu-id="a675c-121">Cliquez sur Document d'origine.</span><span class="sxs-lookup"><span data-stu-id="a675c-121">Click Original document.</span></span>
-13. <span data-ttu-id="a675c-122">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="a675c-122">Close the page.</span></span>
-
+1. <span data-ttu-id="42157-105">Allez dans Comptabilité > Recherches et états > Pièces comptables.</span><span class="sxs-lookup"><span data-stu-id="42157-105">Go to General ledger > Inquiries and reports > Voucher transactions.</span></span>
+2. <span data-ttu-id="42157-106">Sélectionnez le champ pour lequel vous souhaitez définir des critères de filtre.</span><span class="sxs-lookup"><span data-stu-id="42157-106">Select the field for which you want to define a filter criteria.</span></span>
+3. <span data-ttu-id="42157-107">Saisissez vos critères de filtre pour le champ sélectionné.</span><span class="sxs-lookup"><span data-stu-id="42157-107">Enter your filter critieria for the selected field.</span></span>
+    * <span data-ttu-id="42157-108">Vous pouvez filtrer selon une valeur unique ou une plage.</span><span class="sxs-lookup"><span data-stu-id="42157-108">You could filter on a single value or a range.</span></span> <span data-ttu-id="42157-109">Lorsque vous définissez une plage, vérifiez que la syntaxe appropriée est utilisée.</span><span class="sxs-lookup"><span data-stu-id="42157-109">When defining a range, make sure the correct syntax is used.</span></span> <span data-ttu-id="42157-110">Les valeurs doivent être séparées par deux points (..).</span><span class="sxs-lookup"><span data-stu-id="42157-110">The values should be separated by a double period (..).</span></span>  
+4. <span data-ttu-id="42157-111">Cliquez sur l'onglet Jointures pour ajouter des tables supplémentaires à partir desquelles appliquer un filtre.</span><span class="sxs-lookup"><span data-stu-id="42157-111">Click the Joins tab to add additional tables from which to filter.</span></span>
+5. <span data-ttu-id="42157-112">Dans l'arborescence, sélectionnez Tables\Entrée de journal des opérations diverses.</span><span class="sxs-lookup"><span data-stu-id="42157-112">In the tree, select 'Tables\General journal entry'.</span></span>
+6. <span data-ttu-id="42157-113">Cliquez sur Ajouter une jointure de table.</span><span class="sxs-lookup"><span data-stu-id="42157-113">Click Add table join.</span></span>
+7. <span data-ttu-id="42157-114">Cliquez sur Annuler si vous décidez de ne pas ajouter une table supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="42157-114">Click Cancel if you decide not to add an additional table.</span></span>
+8. <span data-ttu-id="42157-115">Cliquez sur l'onglet Plage.</span><span class="sxs-lookup"><span data-stu-id="42157-115">Click the Range tab.</span></span>
+9. <span data-ttu-id="42157-116">Cliquez sur OK pour exécuter la requête.</span><span class="sxs-lookup"><span data-stu-id="42157-116">Click OK to run the query.</span></span>
+10. <span data-ttu-id="42157-117">Cliquez sur Origine de la transaction.</span><span class="sxs-lookup"><span data-stu-id="42157-117">Click Transaction origin.</span></span>
+    * <span data-ttu-id="42157-118">Divers boutons relatifs à la grille peuvent être utilisés pour rechercher des informations supplémentaires sur l'enregistrement sélectionné du N° document.</span><span class="sxs-lookup"><span data-stu-id="42157-118">Various buttons about the grid can be used to research additional information about the selected record of the voucher.</span></span> <span data-ttu-id="42157-119">Il se peut que certains boutons ne soient pas disponibles, selon le type de transaction et les caractéristiques de la transaction.</span><span class="sxs-lookup"><span data-stu-id="42157-119">Some buttons may not be available, depending on the type of transaction and characteristics of the transaction.</span></span>  
+11. <span data-ttu-id="42157-120">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="42157-120">Close the page.</span></span>
+12. <span data-ttu-id="42157-121">Cliquez sur Document d'origine.</span><span class="sxs-lookup"><span data-stu-id="42157-121">Click Original document.</span></span>
+13. <span data-ttu-id="42157-122">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="42157-122">Close the page.</span></span>
 

@@ -1,13 +1,13 @@
---- 
-title: "Créer des modules de produit pour les commandes fournisseur"
-description: "Cette procédure vous guide lors de la création d'un ensemble de produits et de son utilisation sur une commande fournisseur."
+---
+title: Créer des modules de produit pour les commandes fournisseur
+description: Cette procédure vous guide lors de la création d'un ensemble de produits et de son utilisation sur une commande fournisseur.
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Retail
@@ -16,61 +16,60 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: b7a7386a9be15f4eeef7aaab73cb320b71994eea
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360438"
 ---
-# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="66a14-103">Créer des modules de produit pour les commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="66a14-103">Create product packages for purchase orders</span></span>
+# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="f6455-103">Créer des modules de produit pour les commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="f6455-103">Create product packages for purchase orders</span></span>
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="66a14-104">Cette procédure vous guide lors de la création d'un ensemble de produits et de son utilisation sur une commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="66a14-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="66a14-105">La commande fournisseur sera utilisée pour créer une commande pour un ensemble prédéfini de produits.</span><span class="sxs-lookup"><span data-stu-id="66a14-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="66a14-106">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="66a14-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="f6455-104">Cette procédure vous guide lors de la création d'un ensemble de produits et de son utilisation sur une commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="f6455-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="f6455-105">La commande fournisseur sera utilisée pour créer une commande pour un ensemble prédéfini de produits.</span><span class="sxs-lookup"><span data-stu-id="f6455-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="f6455-106">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="f6455-106">This procedure uses the USRT demo data company.</span></span>
 
 
-## <a name="create-a-product-package"></a><span data-ttu-id="66a14-107">Créer un ensemble de produits</span><span class="sxs-lookup"><span data-stu-id="66a14-107">Create a product package</span></span>
-1. <span data-ttu-id="66a14-108">Accédez à Commerce et vente au détail > Gestion des stocks > Réapprovisionnement > Ensembles de produits.</span><span class="sxs-lookup"><span data-stu-id="66a14-108">Go to Retail and commerce > Inventory management > Replenishment > Product packages.</span></span>
-2. <span data-ttu-id="66a14-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="66a14-109">Click New.</span></span>
-3. <span data-ttu-id="66a14-110">Dans le champ Numéro d'ensemble, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="66a14-110">In the Package number field, type a value.</span></span>
-4. <span data-ttu-id="66a14-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="66a14-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="66a14-112">Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="66a14-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="66a14-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="66a14-113">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="66a14-114">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="66a14-114">Click Add.</span></span>
-8. <span data-ttu-id="66a14-115">Dans le champ Numéro d'article, tapez « 0160 ».</span><span class="sxs-lookup"><span data-stu-id="66a14-115">In the Item number field, type '0160'.</span></span>
-9. <span data-ttu-id="66a14-116">Dans le champ Taille, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="66a14-116">In the Size field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="66a14-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="66a14-117">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="66a14-118">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="66a14-118">In the Quantity field, enter a number.</span></span>
-12. <span data-ttu-id="66a14-119">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="66a14-119">Click Add.</span></span>
-13. <span data-ttu-id="66a14-120">Dans le champ Numéro d'article, tapez « 0160 ».</span><span class="sxs-lookup"><span data-stu-id="66a14-120">In the Item number field, type '0160'.</span></span>
-14. <span data-ttu-id="66a14-121">Dans le champ Numéro de variante, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="66a14-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="66a14-122">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="66a14-122">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="66a14-123">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="66a14-123">In the Quantity field, enter a number.</span></span>
-17. <span data-ttu-id="66a14-124">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="66a14-124">Click Add.</span></span>
-18. <span data-ttu-id="66a14-125">Dans le champ Numéro d'article, tapez « 0175 ».</span><span class="sxs-lookup"><span data-stu-id="66a14-125">In the Item number field, type '0175'.</span></span>
-19. <span data-ttu-id="66a14-126">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="66a14-126">In the Quantity field, enter a number.</span></span>
-20. <span data-ttu-id="66a14-127">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="66a14-127">Click Save.</span></span>
-21. <span data-ttu-id="66a14-128">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="66a14-128">Close the page.</span></span>
+## <a name="create-a-product-package"></a><span data-ttu-id="f6455-107">Créer un ensemble de produits</span><span class="sxs-lookup"><span data-stu-id="f6455-107">Create a product package</span></span>
+1. <span data-ttu-id="f6455-108">Accédez à Commerce et vente au détail > Gestion des stocks > Réapprovisionnement > Ensembles de produits.</span><span class="sxs-lookup"><span data-stu-id="f6455-108">Go to Retail and commerce > Inventory management > Replenishment > Product packages.</span></span>
+2. <span data-ttu-id="f6455-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f6455-109">Click New.</span></span>
+3. <span data-ttu-id="f6455-110">Dans le champ Numéro d'ensemble, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f6455-110">In the Package number field, type a value.</span></span>
+4. <span data-ttu-id="f6455-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f6455-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f6455-112">Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="f6455-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="f6455-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f6455-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="f6455-114">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="f6455-114">Click Add.</span></span>
+8. <span data-ttu-id="f6455-115">Dans le champ Numéro d'article, tapez « 0160 ».</span><span class="sxs-lookup"><span data-stu-id="f6455-115">In the Item number field, type '0160'.</span></span>
+9. <span data-ttu-id="f6455-116">Dans le champ Taille, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="f6455-116">In the Size field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="f6455-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f6455-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="f6455-118">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="f6455-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="f6455-119">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="f6455-119">Click Add.</span></span>
+13. <span data-ttu-id="f6455-120">Dans le champ Numéro d'article, tapez « 0160 ».</span><span class="sxs-lookup"><span data-stu-id="f6455-120">In the Item number field, type '0160'.</span></span>
+14. <span data-ttu-id="f6455-121">Dans le champ Numéro de variante, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="f6455-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="f6455-122">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f6455-122">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="f6455-123">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="f6455-123">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="f6455-124">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="f6455-124">Click Add.</span></span>
+18. <span data-ttu-id="f6455-125">Dans le champ Numéro d'article, tapez « 0175 ».</span><span class="sxs-lookup"><span data-stu-id="f6455-125">In the Item number field, type '0175'.</span></span>
+19. <span data-ttu-id="f6455-126">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="f6455-126">In the Quantity field, enter a number.</span></span>
+20. <span data-ttu-id="f6455-127">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="f6455-127">Click Save.</span></span>
+21. <span data-ttu-id="f6455-128">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f6455-128">Close the page.</span></span>
 
-## <a name="add-package-to-purchase-order"></a><span data-ttu-id="66a14-129">Ajouter un ensemble à une commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="66a14-129">Add package to purchase order</span></span>
-1. <span data-ttu-id="66a14-130">Accédez à Comptabilité fournisseur > Commandes fournisseur > Toutes les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="66a14-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="66a14-131">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="66a14-131">Click New.</span></span>
-3. <span data-ttu-id="66a14-132">Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="66a14-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="66a14-133">Dans la liste, sélectionnez le même fournisseur pour lequel l'ensemble de produits a été précédemment créé, si un fournisseur a été sélectionné.</span><span class="sxs-lookup"><span data-stu-id="66a14-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
-5. <span data-ttu-id="66a14-134">Activez ou désactivez l'extension de la section Général.</span><span class="sxs-lookup"><span data-stu-id="66a14-134">Toggle the expansion of the General section.</span></span>
-6. <span data-ttu-id="66a14-135">Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="66a14-135">In the Site field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="66a14-136">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="66a14-136">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="66a14-137">Dans le champ Entrepôt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="66a14-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="66a14-138">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="66a14-138">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="66a14-139">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="66a14-139">Click OK.</span></span>
-11. <span data-ttu-id="66a14-140">Activez ou désactivez l'extension de la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="66a14-140">Toggle the expansion of the Line details section.</span></span>
-12. <span data-ttu-id="66a14-141">Cliquez sur l'onglet Ensembles de produits.</span><span class="sxs-lookup"><span data-stu-id="66a14-141">Click the Product packages tab.</span></span>
-13. <span data-ttu-id="66a14-142">Cliquez sur Ligne de commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="66a14-142">Click Purchase order line.</span></span>
-14. <span data-ttu-id="66a14-143">Cliquez sur Créer des lignes à partir de l'ensemble.</span><span class="sxs-lookup"><span data-stu-id="66a14-143">Click Create lines from package.</span></span>
-15. <span data-ttu-id="66a14-144">Dans la liste, recherchez et sélectionnez l'ensemble de produits créé à l'étape précédente.</span><span class="sxs-lookup"><span data-stu-id="66a14-144">In the list, find and select the product package created in previous step.</span></span>
-16. <span data-ttu-id="66a14-145">Entrez un numéro dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="66a14-145">In the Quantity field, enter a number.</span></span>
-17. <span data-ttu-id="66a14-146">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="66a14-146">Click Create.</span></span>
-18. <span data-ttu-id="66a14-147">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="66a14-147">Click Save.</span></span>
-
+## <a name="add-package-to-purchase-order"></a><span data-ttu-id="f6455-129">Ajouter un ensemble à une commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="f6455-129">Add package to purchase order</span></span>
+1. <span data-ttu-id="f6455-130">Accédez à Comptabilité fournisseur > Commandes fournisseur > Toutes les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="f6455-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="f6455-131">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f6455-131">Click New.</span></span>
+3. <span data-ttu-id="f6455-132">Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="f6455-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="f6455-133">Dans la liste, sélectionnez le même fournisseur pour lequel l'ensemble de produits a été précédemment créé, si un fournisseur a été sélectionné.</span><span class="sxs-lookup"><span data-stu-id="f6455-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
+5. <span data-ttu-id="f6455-134">Activez ou désactivez l'extension de la section Général.</span><span class="sxs-lookup"><span data-stu-id="f6455-134">Toggle the expansion of the General section.</span></span>
+6. <span data-ttu-id="f6455-135">Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="f6455-135">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="f6455-136">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f6455-136">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="f6455-137">Dans le champ Entrepôt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="f6455-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="f6455-138">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f6455-138">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="f6455-139">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="f6455-139">Click OK.</span></span>
+11. <span data-ttu-id="f6455-140">Activez ou désactivez l'extension de la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="f6455-140">Toggle the expansion of the Line details section.</span></span>
+12. <span data-ttu-id="f6455-141">Cliquez sur l'onglet Ensembles de produits.</span><span class="sxs-lookup"><span data-stu-id="f6455-141">Click the Product packages tab.</span></span>
+13. <span data-ttu-id="f6455-142">Cliquez sur Ligne de commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="f6455-142">Click Purchase order line.</span></span>
+14. <span data-ttu-id="f6455-143">Cliquez sur Créer des lignes à partir de l'ensemble.</span><span class="sxs-lookup"><span data-stu-id="f6455-143">Click Create lines from package.</span></span>
+15. <span data-ttu-id="f6455-144">Dans la liste, recherchez et sélectionnez l'ensemble de produits créé à l'étape précédente.</span><span class="sxs-lookup"><span data-stu-id="f6455-144">In the list, find and select the product package created in previous step.</span></span>
+16. <span data-ttu-id="f6455-145">Entrez un numéro dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="f6455-145">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="f6455-146">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="f6455-146">Click Create.</span></span>
+18. <span data-ttu-id="f6455-147">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="f6455-147">Click Save.</span></span>
 

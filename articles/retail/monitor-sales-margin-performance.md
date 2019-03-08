@@ -1,13 +1,13 @@
 ---
 title: Surveiller les performances des ventes et des marges
-description: "Vous pouvez surveiller les ventes et les performances de marge en temps réel à l'aide de Microsoft Dynamics 365 for Retail."
+description: Vous pouvez surveiller les performances des ventes et des marges en temps réel à l'aide de Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
 ms.reviewer: josaw
@@ -19,35 +19,33 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: e2b3591f6403542c79457d12ae850ad40d9253a1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357264"
 ---
-
-# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="bead3-103">Surveiller les performances des ventes et des marges</span><span class="sxs-lookup"><span data-stu-id="bead3-103">Monitor sales and margin performance</span></span>
+# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="ad547-103">Surveiller les performances des ventes et des marges</span><span class="sxs-lookup"><span data-stu-id="ad547-103">Monitor sales and margin performance</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="bead3-104">Vous pouvez surveiller les ventes et les performances de marge en temps réel à l'aide de Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="bead3-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="ad547-104">Vous pouvez surveiller les performances des ventes et des marges en temps réel à l'aide de Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="ad547-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
 
-<span data-ttu-id="bead3-105">Dans le cadre de Microsoft Dynamics 365 for Retail, les utilisateurs peuvent surveiller les performances des ventes et des marges en temps réel entre différents niveaux de la hiérarchie d'organisation pour les dimensions suivantes :</span><span class="sxs-lookup"><span data-stu-id="bead3-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
+<span data-ttu-id="ad547-105">Dans le cadre de Dynamics 365 for Retail, les utilisateurs peuvent surveiller les performances des ventes et des marges en temps réel entre différents niveaux de la hiérarchie d'organisation pour les dimensions suivantes :</span><span class="sxs-lookup"><span data-stu-id="ad547-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
-- <span data-ttu-id="bead3-106">Produits</span><span class="sxs-lookup"><span data-stu-id="bead3-106">Products</span></span>
-- <span data-ttu-id="bead3-107">Catégories</span><span class="sxs-lookup"><span data-stu-id="bead3-107">Categories</span></span>
-- <span data-ttu-id="bead3-108">Remises</span><span class="sxs-lookup"><span data-stu-id="bead3-108">Discounts</span></span>
-- <span data-ttu-id="bead3-109">Années comme période de temps</span><span class="sxs-lookup"><span data-stu-id="bead3-109">Years as time period</span></span>
-- <span data-ttu-id="bead3-110">Registres/terminaux</span><span class="sxs-lookup"><span data-stu-id="bead3-110">Registers/terminals</span></span>
-- <span data-ttu-id="bead3-111">Personnel/employés</span><span class="sxs-lookup"><span data-stu-id="bead3-111">Staff/employees</span></span>
-- <span data-ttu-id="bead3-112">Clients</span><span class="sxs-lookup"><span data-stu-id="bead3-112">Customers</span></span>
-- <span data-ttu-id="bead3-113">Unités opérationnelles</span><span class="sxs-lookup"><span data-stu-id="bead3-113">Operating units</span></span>
+- <span data-ttu-id="ad547-106">Produits</span><span class="sxs-lookup"><span data-stu-id="ad547-106">Products</span></span>
+- <span data-ttu-id="ad547-107">Catégories</span><span class="sxs-lookup"><span data-stu-id="ad547-107">Categories</span></span>
+- <span data-ttu-id="ad547-108">Remises</span><span class="sxs-lookup"><span data-stu-id="ad547-108">Discounts</span></span>
+- <span data-ttu-id="ad547-109">Années comme période de temps</span><span class="sxs-lookup"><span data-stu-id="ad547-109">Years as time period</span></span>
+- <span data-ttu-id="ad547-110">Registres/terminaux</span><span class="sxs-lookup"><span data-stu-id="ad547-110">Registers/terminals</span></span>
+- <span data-ttu-id="ad547-111">Personnel/employés</span><span class="sxs-lookup"><span data-stu-id="ad547-111">Staff/employees</span></span>
+- <span data-ttu-id="ad547-112">Clients</span><span class="sxs-lookup"><span data-stu-id="ad547-112">Customers</span></span>
+- <span data-ttu-id="ad547-113">Unités opérationnelles</span><span class="sxs-lookup"><span data-stu-id="ad547-113">Operating units</span></span>
 
-<span data-ttu-id="bead3-114">En outre, deux états uniques qui tirent profit d'une structuration de la grille hiérarchique permettent aux utilisateurs de contrôler les performances des ventes et des marges en zoomant en avant depuis le nœud de catégorie supérieure jusqu'aux nœuds terminaux individuels de la catégorie dans la hiérarchie de catégories de produits vendus au détail par défaut.</span><span class="sxs-lookup"><span data-stu-id="bead3-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="bead3-115">Les utilisateurs peuvent également zoomer en avant à partir de l'unité opérationnelle supérieure à un canal individuel dans la hiérarchie d'organisation définie comme la hiérarchie d'organisation par défaut pour les objectifs de la hiérarchie d'organisation de la génération d'états sur les ventes au détail.</span><span class="sxs-lookup"><span data-stu-id="bead3-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="bead3-116">Vous pouvez ouvrir ces états à partir de tous les emplacements suivants :</span><span class="sxs-lookup"><span data-stu-id="bead3-116">You can open the reports from any of the following locations:</span></span>
+<span data-ttu-id="ad547-114">En outre, deux états uniques qui tirent profit d'une structuration de la grille hiérarchique permettent aux utilisateurs de contrôler les performances des ventes et des marges en zoomant en avant depuis le nœud de catégorie supérieure jusqu'aux nœuds terminaux individuels de la catégorie dans la hiérarchie de catégories de produits vendus au détail par défaut.</span><span class="sxs-lookup"><span data-stu-id="ad547-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="ad547-115">Les utilisateurs peuvent également zoomer en avant à partir de l'unité opérationnelle supérieure à un canal individuel dans la hiérarchie d'organisation définie comme la hiérarchie d'organisation par défaut pour les objectifs de la hiérarchie d'organisation de la génération d'états sur les ventes au détail.</span><span class="sxs-lookup"><span data-stu-id="ad547-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="ad547-116">Vous pouvez ouvrir ces états à partir de tous les emplacements suivants :</span><span class="sxs-lookup"><span data-stu-id="ad547-116">You can open the reports from any of the following locations:</span></span>
 
-- <span data-ttu-id="bead3-117">Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États**</span><span class="sxs-lookup"><span data-stu-id="bead3-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
-- <span data-ttu-id="bead3-118">Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Produit et catégories** &gt; **Gestion du magasin de vente au détail** &gt; **États**</span><span class="sxs-lookup"><span data-stu-id="bead3-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
-- <span data-ttu-id="bead3-119">Espace de travail **Gestion de la tarification et des remises** &gt; **Vente au détail** &gt; **Tarification et remises** &gt; **Gestion du magasin de vente au détail** &gt; **États**</span><span class="sxs-lookup"><span data-stu-id="bead3-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
-- <span data-ttu-id="bead3-120">Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes**</span><span class="sxs-lookup"><span data-stu-id="bead3-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
-
+- <span data-ttu-id="ad547-117">Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États**</span><span class="sxs-lookup"><span data-stu-id="ad547-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="ad547-118">Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Produit et catégories** &gt; **Gestion du magasin de vente au détail** &gt; **États**</span><span class="sxs-lookup"><span data-stu-id="ad547-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="ad547-119">Espace de travail **Gestion de la tarification et des remises** &gt; **Vente au détail** &gt; **Tarification et remises** &gt; **Gestion du magasin de vente au détail** &gt; **États**</span><span class="sxs-lookup"><span data-stu-id="ad547-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="ad547-120">Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes**</span><span class="sxs-lookup"><span data-stu-id="ad547-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
