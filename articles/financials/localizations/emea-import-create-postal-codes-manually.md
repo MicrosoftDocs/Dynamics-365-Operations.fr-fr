@@ -1,13 +1,13 @@
 ---
-title: "Importer ou créer manuellement des codes postaux"
-description: "Cette rubrique décrit la procédure d'importation et de création manuelle de codes postaux au format approprié. Cette rubrique inclut des informations sur les fonctions qui ont été ajoutées pour Microsoft Dynamics 365 for Finance and Operations."
+title: Importer ou créer manuellement des codes postaux
+description: Cette rubrique décrit la procédure d'importation et de création manuelle de codes postaux au format approprié. Cette rubrique comprend des informations sur la fonction qui a été ajoutée ou modifiée dans Microsoft Dynamics 365 for Finance and Operations.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LogisticsAddressSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,35 +17,33 @@ ms.search.region: Belgium, Netherlands, Sweden
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: db7090e47301aad9ab56a62efd807140db62ab3b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370734"
 ---
-
-# <a name="import-or-manually-create-postal-codes"></a><span data-ttu-id="8f13d-104">Importer ou créer manuellement des codes postaux</span><span class="sxs-lookup"><span data-stu-id="8f13d-104">Import or manually create postal codes</span></span>
+# <a name="import-or-manually-create-postal-codes"></a><span data-ttu-id="25d79-104">Importer ou créer manuellement des codes postaux</span><span class="sxs-lookup"><span data-stu-id="25d79-104">Import or manually create postal codes</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8f13d-105">Cette rubrique décrit la procédure d'importation et de création manuelle de codes postaux au format approprié.</span><span class="sxs-lookup"><span data-stu-id="8f13d-105">This topic explains how to import and manually create postal codes in the correct format.</span></span> <span data-ttu-id="8f13d-106">Cette rubrique inclut des informations sur les fonctions qui ont été ajoutées pour Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8f13d-106">This topic includes information about feature that was added for Microsoft Dynamics 365 for Finance and Operations.</span></span> 
+<span data-ttu-id="25d79-105">Cette rubrique décrit la procédure d'importation et de création manuelle de codes postaux au format approprié.</span><span class="sxs-lookup"><span data-stu-id="25d79-105">This topic explains how to import and manually create postal codes in the correct format.</span></span> <span data-ttu-id="25d79-106">Cette rubrique comprend des informations sur la fonction qui a été ajoutée ou modifiée dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="25d79-106">This topic includes information about feature that was added for Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-<span data-ttu-id="8f13d-107">Le processus d'importation permet de mettre à jour les codes postaux d'un pays ou d'une région spécifique.</span><span class="sxs-lookup"><span data-stu-id="8f13d-107">The import process lets you update the ZIP/postal codes for a specific country/region.</span></span> <span data-ttu-id="8f13d-108">Vous pouvez également créer les codes postaux manuellement.</span><span class="sxs-lookup"><span data-stu-id="8f13d-108">You can also create postal codes manually.</span></span>
+<span data-ttu-id="25d79-107">Le processus d'importation permet de mettre à jour les codes postaux d'un pays ou d'une région spécifique.</span><span class="sxs-lookup"><span data-stu-id="25d79-107">The import process lets you update the ZIP/postal codes for a specific country/region.</span></span> <span data-ttu-id="25d79-108">Vous pouvez également créer les codes postaux manuellement.</span><span class="sxs-lookup"><span data-stu-id="25d79-108">You can also create postal codes manually.</span></span>
 
-## <a name="import-zippostal-codes"></a><span data-ttu-id="8f13d-109">Importer des codes postaux</span><span class="sxs-lookup"><span data-stu-id="8f13d-109">Import ZIP/postal codes</span></span>
-<span data-ttu-id="8f13d-110">Vous pouvez utiliser la page **Importer des codes postaux** pour importer de nouveaux codes postaux dans Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8f13d-110">You can use the **Import ZIP/postal codes** page to import new postal codes into Finance and Operations.</span></span> <span data-ttu-id="8f13d-111">Lorsque vous importez les codes, les codes postaux existants sont remplacés par le nouveau format, et les nouveaux codes sont ajoutés.</span><span class="sxs-lookup"><span data-stu-id="8f13d-111">When you import the codes, the existing ZIP or postal codes are replaced with the new format, and any new codes are added.</span></span>
+## <a name="import-zippostal-codes"></a><span data-ttu-id="25d79-109">Importer des codes postaux</span><span class="sxs-lookup"><span data-stu-id="25d79-109">Import ZIP/postal codes</span></span>
+<span data-ttu-id="25d79-110">Vous pouvez utiliser la page **Importer des codes postaux** pour importer de nouveaux codes postaux dans Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="25d79-110">You can use the **Import ZIP/postal codes** page to import new postal codes into Finance and Operations.</span></span> <span data-ttu-id="25d79-111">Lorsque vous importez les codes, les codes postaux existants sont remplacés par le nouveau format, et les nouveaux codes sont ajoutés.</span><span class="sxs-lookup"><span data-stu-id="25d79-111">When you import the codes, the existing ZIP or postal codes are replaced with the new format, and any new codes are added.</span></span>
 
-<span data-ttu-id="8f13d-112">Pour certains pays, vous devez utiliser l'infrastructure de gestion des données pour importer des codes, tandis que pour d'autres pays, seul un fichier doit être téléchargé.</span><span class="sxs-lookup"><span data-stu-id="8f13d-112">For some countries, you must use the Data management framework to import codes, while for other countries only an upload file is required.</span></span> <span data-ttu-id="8f13d-113">Un fichier doit être téléchargé pour la Belgique, les Pays-Bas et la Suède.</span><span class="sxs-lookup"><span data-stu-id="8f13d-113">Belgium, Netherlands, and Sweden require a file to upload.</span></span>
+<span data-ttu-id="25d79-112">Pour certains pays, vous devez utiliser l'infrastructure de gestion des données pour importer des codes, tandis que pour d'autres pays, seul un fichier doit être téléchargé.</span><span class="sxs-lookup"><span data-stu-id="25d79-112">For some countries, you must use the Data management framework to import codes, while for other countries only an upload file is required.</span></span> <span data-ttu-id="25d79-113">Un fichier doit être téléchargé pour la Belgique, les Pays-Bas et la Suède.</span><span class="sxs-lookup"><span data-stu-id="25d79-113">Belgium, Netherlands, and Sweden require a file to upload.</span></span>
 
 > [!NOTE]
-> -   <span data-ttu-id="8f13d-114">Pour la Belgique, la page Web officielle de la poste belge fournit la liste officielle des codes postaux et les noms de ville correspondants.</span><span class="sxs-lookup"><span data-stu-id="8f13d-114">For Belgium, the official webpage from the Belgian Post provides an official list of the postcodes and the corresponding city names.</span></span> <span data-ttu-id="8f13d-115">L'importation prend en charge le format de fichier HTML.</span><span class="sxs-lookup"><span data-stu-id="8f13d-115">The import supports html file format.</span></span>
-> -   <span data-ttu-id="8f13d-116">Pour les Pays-Bas, une organisation tierce fournit le fichier contenant les codes postaux.</span><span class="sxs-lookup"><span data-stu-id="8f13d-116">For Netherlands, a third-party organization provides the file that contains postal codes.</span></span> <span data-ttu-id="8f13d-117">Une fois l'importation terminée, tous les codes postaux s'affichent au format (NNNN AA.)</span><span class="sxs-lookup"><span data-stu-id="8f13d-117">After the import is completed, all postal codes will appear in the format (NNNN AA).</span></span>
-> -   <span data-ttu-id="8f13d-118">Pour la Suède, Postnummerservice.se propose deux types de fichiers : les codes postaux suédois et les adresses suédoises.</span><span class="sxs-lookup"><span data-stu-id="8f13d-118">For Sweden, Postnummerservice.se provides two types of files: Swedish postal codes and Swedish addresses.</span></span> <span data-ttu-id="8f13d-119">L'importation prend en charge le format de fichier texte pour les deux types.</span><span class="sxs-lookup"><span data-stu-id="8f13d-119">The import supports text file format for both types.</span></span>
+> -   <span data-ttu-id="25d79-114">Pour la Belgique, la page Web officielle de la poste belge fournit la liste officielle des codes postaux et les noms de ville correspondants.</span><span class="sxs-lookup"><span data-stu-id="25d79-114">For Belgium, the official webpage from the Belgian Post provides an official list of the postcodes and the corresponding city names.</span></span> <span data-ttu-id="25d79-115">L'importation prend en charge le format de fichier HTML.</span><span class="sxs-lookup"><span data-stu-id="25d79-115">The import supports html file format.</span></span>
+> -   <span data-ttu-id="25d79-116">Pour les Pays-Bas, une organisation tierce fournit le fichier contenant les codes postaux.</span><span class="sxs-lookup"><span data-stu-id="25d79-116">For Netherlands, a third-party organization provides the file that contains postal codes.</span></span> <span data-ttu-id="25d79-117">Une fois l'importation terminée, tous les codes postaux s'affichent au format (NNNN AA.)</span><span class="sxs-lookup"><span data-stu-id="25d79-117">After the import is completed, all postal codes will appear in the format (NNNN AA).</span></span>
+> -   <span data-ttu-id="25d79-118">Pour la Suède, Postnummerservice.se propose deux types de fichiers : les codes postaux suédois et les adresses suédoises.</span><span class="sxs-lookup"><span data-stu-id="25d79-118">For Sweden, Postnummerservice.se provides two types of files: Swedish postal codes and Swedish addresses.</span></span> <span data-ttu-id="25d79-119">L'importation prend en charge le format de fichier texte pour les deux types.</span><span class="sxs-lookup"><span data-stu-id="25d79-119">The import supports text file format for both types.</span></span>
 
 
-## <a name="create-zippostal-codes-manually"></a><span data-ttu-id="8f13d-120">Création manuelle des codes postaux</span><span class="sxs-lookup"><span data-stu-id="8f13d-120">Create ZIP/postal codes manually</span></span>
-<span data-ttu-id="8f13d-121">Au lieu d'importer les codes, vous pouvez utiliser la page **Configuration de l'adresse** pour ajouter manuellement de nouveaux codes postaux.</span><span class="sxs-lookup"><span data-stu-id="8f13d-121">Instead of importing codes, you can use the **Address setup** page to manually add new ZIP/postal codes.</span></span>
-
+## <a name="create-zippostal-codes-manually"></a><span data-ttu-id="25d79-120">Création manuelle des codes postaux</span><span class="sxs-lookup"><span data-stu-id="25d79-120">Create ZIP/postal codes manually</span></span>
+<span data-ttu-id="25d79-121">Au lieu d'importer les codes, vous pouvez utiliser la page **Configuration de l'adresse** pour ajouter manuellement de nouveaux codes postaux.</span><span class="sxs-lookup"><span data-stu-id="25d79-121">Instead of importing codes, you can use the **Address setup** page to manually add new ZIP/postal codes.</span></span>
 
 
