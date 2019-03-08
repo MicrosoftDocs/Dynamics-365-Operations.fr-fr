@@ -1,13 +1,13 @@
 ---
-title: "Paramétrage du crédit et des recouvrements"
-description: "Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement."
+title: Paramétrage du crédit et des recouvrements
+description: Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6b1dcd6ad0ca05a94409d5d23039ccefe53392e3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09296ae02c690fa683d853cc91a5abf243bcafa7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351836"
 ---
-
 # <a name="set-up-credit-and-collections"></a>Paramétrage du crédit et des recouvrements
 
 [!include [banner](../includes/banner.md)]
@@ -100,5 +99,4 @@ Pour plus d'informations, voir les rubriques suivantes :
  - [Traiter les lettres de relance](tasks/process-collection-letters.md)
 
  - [Réviser les informations de recouvrement](tasks/review-collections-information.md)
-
 

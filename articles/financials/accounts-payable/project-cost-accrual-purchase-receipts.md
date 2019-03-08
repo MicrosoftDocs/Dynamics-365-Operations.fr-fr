@@ -1,13 +1,13 @@
 ---
-title: "Régularisation des coûts de projet dans les réceptions d'achat"
-description: "Cette rubrique décrit la manière dont les coûts de projet des réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 for Finance and Operations."
+title: Régularisation des coûts de projet dans les réceptions d'achat
+description: Cette rubrique décrit comment les coûts de projet régularisés depuis les réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc822652abbba68f094fe5b8a65f796165a92c4c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9a74b684e955376b9c3036954f4a6e6628c468f0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340428"
 ---
-
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Régularisation des coûts de projet dans les réceptions d'achat
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la manière dont les coûts de projet des réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 for Finance and Operations. 
+Cette rubrique décrit comment les coûts de projet régularisés depuis les réceptions d'achat peuvent être suivis dans Microsoft Dynamics 365 for Finance and Operations. 
 
 Les factures pour un projet arrivent souvent plus tard que les marchandises et les services livrés, ce qui peut avoir un impact considérable sur des indicateurs de performance clé (KPIs) du projet. Il est important de pouvroir suivre ces transactions dans des rapports financiers et de projet.
 
@@ -82,7 +81,6 @@ Dans la page **Coût engagé**, les enregistrements créés à l'étape 1 seront
 [![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 La facture fournisseur reste à l'état d'attente en attendant l'arrivée de la facture fournisseur réelle.
-
 
 
 

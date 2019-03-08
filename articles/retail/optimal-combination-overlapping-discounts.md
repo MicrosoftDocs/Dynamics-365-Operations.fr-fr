@@ -1,13 +1,13 @@
 ---
-title: "Déterminer la combinaison optimale de chevauchement les remises"
-description: "Lorsque les remises se chevauchent, vous devez déterminer la combinaison de chevauchement des remises qui produit le plus petit total de transaction ou la remise totale la plus élevée. Lorsque le montant de la remise varie en fonction du prix des produits achetés, comme dans le cas de la vente au détail 'Buy 1, get 1 X percent off' (BOGO), ce processus devient un problème d'optimisation combinatoire."
+title: Déterminer la combinaison optimale de chevauchement les remises
+description: Lorsque les remises se chevauchent, vous devez déterminer la combinaison de chevauchement des remises qui produit le plus petit total de transaction ou la remise totale la plus élevée. Lorsque le montant de la remise varie en fonction du prix des produits achetés, comme dans le cas de la vente au détail 'Buy 1, get 1 X percent off' (BOGO), ce processus devient un problème d'optimisation combinatoire.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360691"
 ---
-
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Déterminer la combinaison optimale de chevauchement les remises
 
 [!include [banner](includes/banner.md)]
 
 Lorsque les remises se chevauchent, vous devez déterminer la combinaison de chevauchement des remises qui produit le plus petit total de transaction ou la remise totale la plus élevée. Lorsque le montant de la remise varie en fonction du prix des produits achetés, comme dans le cas de la vente au détail « Buy 1, get 1 X percent off » (BOGO), ce processus devient un problème d'optimisation combinatoire.
 
-Cet article s'applique à Microsoft Dynamics AX 2012 R3 avec la Base de connaissances 3105973 (version du 2 novembre 2015) ou ultérieurement, et à la version de février 365 de Microsoft Dynamics 365 for Retail. Pour déterminer la combinaison chevauchant les remises à appliquer en temps voulu, nous avons introduit une méthode pour appliquer des remises se chevauchant Nous appelons cette nouvelle méthode **classement de valeur marginale**. Le classement de valeur marginale est utilisé lorsque le temps requis afin d'évaluer les combinaisons possibles de chevauchement des remises dépasse un seuil configurable sur la page **Paramètres des ventes au détail**. Dans la méthode de classement de valeur marginale, une valeur est calculée pour chaque remise se chevauchant à l'aide de la valeur de la remise sur les produits partagés. Les remises chevauchées sont ensuite appliquées de la valeur relative la plus élevée à la valeur relative la plus faible. Pour plus d'informations sur la nouvelle méthode, voir la section « Valeur marginale », plus loin dans cet article. Le classement de valeur marginale n'est pas utilisé lorsque les montants de remise pour un produit ne sont pas affectés par un autre produit dans la transaction. Par exemple, cette méthode n'est pas utilisée pour deux remises simples, ou pour une remise simple et une remise unique de la quantité de produits.
+Cet article s'applique à Microsoft Dynamics AX 2012 R3 avec la Base de connaissances 3105973 (publiée le 2 novembre 2015) ou ultérieure, et Microsoft Dynamics 365 for Retail. Pour déterminer la combinaison chevauchant les remises à appliquer en temps voulu, nous avons introduit une méthode pour appliquer des remises se chevauchant Nous appelons cette nouvelle méthode **classement de valeur marginale**. Le classement de valeur marginale est utilisé lorsque le temps requis afin d'évaluer les combinaisons possibles de chevauchement des remises dépasse un seuil configurable sur la page **Paramètres des ventes au détail**. Dans la méthode de classement de valeur marginale, une valeur est calculée pour chaque remise se chevauchant à l'aide de la valeur de la remise sur les produits partagés. Les remises chevauchées sont ensuite appliquées de la valeur relative la plus élevée à la valeur relative la plus faible. Pour plus d'informations sur la nouvelle méthode, voir la section « Valeur marginale », plus loin dans cet article. Le classement de valeur marginale n'est pas utilisé lorsque les montants de remise pour un produit ne sont pas affectés par un autre produit dans la transaction. Par exemple, cette méthode n'est pas utilisée pour deux remises simples, ou pour une remise simple et une remise unique de la quantité de produits.
 
 ## <a name="discount-examples"></a>Exemples de remise
 
@@ -85,4 +84,3 @@ Pour résoudre le problème d'un nombre exponentiel de combinaisons qui doivent 
 ![Zone de liste des remises se chevauchant 06](./media/overlapping-discount-combo-06.jpg)
 
 Après calcul de la valeur marginale de chaque remise sur un ensemble de produits partagés, les réductions s'appliquent aux produits partagés dans l'ordre, de manière exhaustive, de la valeur marginale la plus élevée à la valeur marginale la plus faible. Pour cette méthode, toutes les possibilités restantes de remise ne sont pas comparées à chaque fois qu'une seule instance d'une remise est appliquée. Au lieu de cela, les remises se chevauchant sont comparées une fois et ensuite appliquées dans l'ordre. Aucune comparaison supplémentaire n'est effectuée. Vous pouvez configurer le seuil pour passer à la méthode de la valeur marginale sur l'onglet **Remise** de la page **Paramètres des ventes au détail**. La durée acceptable pour calculer la remise totale varie entre différents secteurs au détail. Toutefois, la durée correspondante est en général une plage comprise entre des dizaines de millisecondes et une seconde.
-

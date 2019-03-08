@@ -1,13 +1,13 @@
 ---
 title: Avant d'acheter
-description: "Recommandation pas-à-pas à utiliser lorsque vous envisagez d'acheter Dynamics 365 for Finance and Operations."
+description: Recommandation pas-à-pas à utiliser lorsque vous envisagez d'acheter Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,27 +16,26 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345465"
 ---
-
 # <a name="before-you-buy"></a>Avant d'acheter
 
 [!include [banner](../includes/banner.md)]
 
-Nouveautés de Dynamics 365 for Finance and Operations ? Nous vous préparé des instructions pas-à-pas si vous évaluez Finance and Operations ou si vous êtes prêt à effectuer un achat.
+Nouveautés Dynamics 365 for Finance and Operations ? Nous vous préparé des instructions pas-à-pas si vous évaluez Finance and Operations ou si vous êtes prêt à effectuer un achat.
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Étape une : Essayez Finance and Operations gratuitement pendant 30 jours
 
-Vous pouvez tester Dynamics 365 for Finance and Operations pendant 30 jours via un simple e-mail d'inscription. La version d'évaluation de Finance and Operations inclut des guides de démarrage qui fournissent des instructions détaillées vous permettant d'afficher des scénarios spécifiques en action. Le produit est disponible pour explorer et essayer des scénarios, mais ne peut pas être personnalisé. Les données de démonstration sont incluses pour faciliter l'utilisation du produit et rendre l'expérience plus évocatrice. Un e-mail de rappel sera envoyé 3 jours avant l'expiration de la version d'évaluation. Obtenez des détails à [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+Vous pouvez tester Dynamics 365 for Finance and Operations pendant 30 jours via une simple signature électronique. La version d'évaluation de Finance and Operations inclut des guides de démarrage qui fournissent des instructions détaillées vous permettant d'afficher des scénarios spécifiques en action. Le produit est disponible pour explorer et essayer des scénarios, mais ne peut pas être personnalisé. Les données de démonstration sont incluses pour faciliter l'utilisation du produit et rendre l'expérience plus évocatrice. Un e-mail de rappel sera envoyé 3 jours avant l'expiration de la version d'évaluation. Obtenez des détails à [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Étape deux : Choisissez une option de déploiement
 
-Vous pouvez à présent déployer Microsoft Dynamics 365 for Finance and Operations dans le cloud ou sur site. Les déploiements dans le cloud offrent un service d'ERP qui est entièrement géré par Microsoft, tandis que les déploiements sur site sont déployés localement dans le centre de données d'un client.
+Vous pouvez désormais déployer Microsoft Dynamics 365 for Finance and Operations dans le cloud ou en local. Les déploiements dans le cloud offrent un service d'ERP qui est entièrement géré par Microsoft, tandis que les déploiements sur site sont déployés localement dans le centre de données d'un client.
 
 Les points suivants doivent être pris en compte lorsque vous choisissez l'option de déploiement sur site :
 
@@ -46,7 +45,7 @@ Les points suivants doivent être pris en compte lorsque vous choisissez l'optio
 - [Configuration minimale de l'infrastructure requise](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> Les déploiements sur site de Microsoft Dynamics 365 for Finance and Operations ne sont pas pris en charge dans une infrastructure de cloud public, notamment Azure.
+> Les déploiements en local de Microsoft Dynamics 365 for Finance and Operations ne sont pas pris en charge dans aucune infrastructure du cloud public, notamment Azure.
 
 Pour plus d'informations, voir [Options de déploiement](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -54,7 +53,7 @@ Pour plus d'informations, voir [Options de déploiement](../../dev-itpro/deploym
 
 Pour explorer les options d'abonnement, accédez à la page de la tarification [Dynamics 365](https://www.microsoft.com/dynamics365/pricing). Cette page inclut plusieurs forfaits afin de s'adapter aux besoins de votre organisation.
 
-Il existe plusieurs types de souscrire à un abonnement de Microsoft Dynamics 365 for Finance and Operations :
+Il existe de nombreuses façons de souscrire à un abonnement Dynamics 365 for Finance and Operations :
 
 - Acheter via un partenaire, puis utiliser le programme de licence en volume (dans le cloud ou sur site)
 - Acheter via un fournisseur de solutions dans le cloud (dans le cloud uniquement)
@@ -79,7 +78,7 @@ Un fournisseur de solution dans le cloud Microsoft peut fonctionner étroitement
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Acheter via un partenaire Dynamics (sur site)
 
-Vous devez travailler avec un partenaire pour acheter Finance and Operations sur site. Pour plus d'informations, voir [Acheter Dynamics 365 for Finance and Operations (sur site)](purchase-on-premises.md)
+Vous devez travailler avec un partenaire pour acheter Finance and Operations sur site. Pour plus d'informations, voir la rubrique [Acheter Dynamics 365 for Finance and Operations (en local)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Choisir votre option de support
 
@@ -88,7 +87,7 @@ Microsoft fournit un support, des services, et des ressources de pointe et flexi
 Plus d'informations :
 
 - [Support Dynamics 365](https://www.microsoft.com/dynamics365/support)
-- [Guide de démarrage rapide sur les avantages du support de service dans le cloud de Microsoft Dynamics](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Guide de démarrage rapide pour les avantages de support de service dans le cloud de Microsoft Dynamics](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Étape quatre : Renseignez-vous sur FastTrack et planifiez votre déploiement
 
@@ -97,4 +96,3 @@ Microsoft FastTrack for Dynamics 365 est notre service de réussite client conç
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Si vous mettez à niveau depuis Dynamics AX 2012 ou que vous effectuez une migration depuis AX 2009
 
 Si vous êtes un client qui effectue une mise à niveau depuis Microsoft Dynamics AX 2012 ou que vous effectuez une migration depuis Microsoft Dynamics AX 2009, vous pouvez être éligible pour un essai plus long. Contactez <daxcf@microsoft.com> pour plus d'informations.
-

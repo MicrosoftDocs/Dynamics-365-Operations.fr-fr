@@ -1,13 +1,13 @@
 ---
-title: "Visibilité des exceptions de matières"
-description: "Cette rubrique décrit comment vous pouvez obtenir une meilleure visibilité des exceptions de matières premières pour les ordres de fabrication et les lots de commandes."
+title: Visibilité des exceptions de matières
+description: Cette rubrique décrit comment vous pouvez obtenir une meilleure visibilité des exceptions de matières premières pour les ordres de fabrication et les lots de commandes.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -16,13 +16,13 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344752"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilité des exceptions de matières
 
@@ -67,4 +67,3 @@ Lorsque la vignette est sélectionnée, la page **Toutes les vagues de productio
 La vignette **Travail d'entrepôt en cours nécessitant une attention** affiche le nombre de lignes de nomenclature et de formule qui ont été lancées dans l'entrepôt, dont le travail n'est pas traité et dont la date de consommation des matières premières est antérieure ou identique à la date de l'espace de travail. Les lignes doivent également être consommées par une ressource opérationnelle qui s'applique au filtre de l'espace de travail.
 
 Lorsque la vignette est sélectionnée, la page **Tout le travail** est ouverte. Cette page est filtrée en fonction du nombre d'en-têtes de travail en cours contenant des lignes de travail à partir des lignes de nomenclature et de formule lancées qui répondent aux critères de la vignette. Dans la page **Tout le travail**, vous pouvez traiter manuellement le travail.
-

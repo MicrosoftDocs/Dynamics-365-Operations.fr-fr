@@ -1,13 +1,13 @@
 ---
 title: Contenu Power BI Avantages
-description: "Cette rubrique décrit le contenu Power BI Avantages. Elle explique également comment accéder aux états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+description: Cette rubrique décrit le contenu Power BI Avantages. Elle explique également comment accéder aux états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,27 +16,26 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355240"
 ---
-
 # <a name="benefits-power-bi-content"></a>Contenu Power BI Avantages
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Microsoft Power BI **Avantages**. Elle explique également comment accéder aux états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit le contenu Microsoft Power BI **Avantage**. Elle explique également comment accéder aux états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 Le contenu Power BI **Avantages** s'affiche dans l'espace de travail **Gestion des avantages** si vous utilisez l'un des produits suivants :
 
-- Microsoft Dynamics 365 for Finance and Operations
-- Microsoft Dynamics 365 for Talent
+- Microsoft Dynamics 365 for Finance and Operations
+- Microsoft Dynamics 365 for Talent
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
 Les états inclus dans le contenu Power BI **Avantages** contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
 
 | Etat                      | Sommaire                                                                                       |
@@ -71,4 +70,3 @@ Les données suivantes sont utilisées pour remplir les états dans le contenu P
 | Nom de l'employé            | Prénom, nom et nom complet                                                                       | Employé actuel, Employé dont le contrat est terminé, Tendance de l'employé |
 | Titre de l'employé           | Titre et date d'ancienneté                                                                                   | Employé actuel, Employé dont le contrat est terminé, Tendance de l'employé |
 | Tendance de l'employé           | Collaborateurs dans le temps, effectif, société et poste                                                        | Société, Rémunération, Emplacement géographique, Nom de l'employé, Génère un état pour, Décalage de calendrier, Date, Titre de l'employé, Démographie, Emploi, Tâche, Avantages |
-

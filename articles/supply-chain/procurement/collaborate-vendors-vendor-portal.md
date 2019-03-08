@@ -1,13 +1,13 @@
 ---
-title: "Collaborer avec des fournisseurs à l'aide du portail Fournisseur"
-description: "Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX."
+title: Collaborer avec des fournisseurs à l'aide du portail Fournisseur
+description: Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 &amp; de mai 2016 de Dynamics AX.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339876"
 ---
-
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborer avec des fournisseurs à l'aide du portail Fournisseur
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX.
+Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 &amp; de mai 2016 de Dynamics AX.
 
-Les informations de cette rubrique ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX. La fonctionnalité de portail fournisseur a été remplacée par la fonctionnalité étendue de collaboration fournisseur dans la version 1611 de Dynamics 365 for Operations. Pour plus d'informations sur la nouvelle fonctionnalité de collaboration fournisseur, voir [Utilisation de la collaboration fournisseur pour utiliser des fournisseurs externes](vendor-collaboration-work-external-vendors.md).  
+Les informations de cette rubrique ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX. La fonctionnalité de portail fournisseur a été remplacée par la fonctionnalité étendue de collaboration fournisseur dans la version 1611 de Dynamics 365 for Operations. Pour plus d'informations sur la nouvelle fonctionnalité de collaboration fournisseur, voir [Utilisation de la collaboration fournisseur pour utiliser des fournisseurs externes](vendor-collaboration-work-external-vendors.md).  
 
 Le portail Fournisseur est destiné aux fournisseurs qui n'ont pas d'intégration de l'échange de données informatisé (EDI) avec Microsoft Dynamics AX pour échanger des informations de commande fournisseur (CF). Le portail permet aux agents des achats d'envoyer une CF au fournisseur puis de recevoir une réponse Confirmée ou Rejetée directement dans Dynamics AX.  
 
@@ -63,7 +62,7 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 
 | Action                                                   | Statut et version                                                                                    |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| La première version de la CF est créée dans Dynamics AX | Le statut est **Approuvé**.                                                                           |
+| La première version de la CF est créée dans Dynamics AX. | Le statut est **Approuvé**.                                                                           |
 | La CF est envoyée vers le portail Fournisseur.                     | Une version est enregistrée dans le portail Fournisseur et le statut devient **En cours de révision externe**.    |
 | Vous apportez certaines modifications qui sont requises par le fournisseur.  | Le statut redevient **Approuvé**.                                                            |
 | Vous envoyez la nouvelle version de la CF vers le portail fournisseur. | Une nouvelle version est enregistrée dans le portail Fournisseur et le statut est changé en **En cours de révision externe**. |
@@ -88,7 +87,7 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 
 |                                                    Action                                                     |                                                                                                                                                                                                                      Statut et version                                                                                                                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                           La première version de la CF est créée dans Dynamics AX                            |                                                                                                                                                                                                            Le statut est <strong>Brouillon</strong>.                                                                                                                                                                                                             |
+|                           La première version de la CF est créée dans Dynamics AX.                            |                                                                                                                                                                                                            Le statut est <strong>Brouillon</strong>.                                                                                                                                                                                                             |
 | La CF est soumise au processus d'approbation. (Il s'agit d'un processus interne dans lequel le fournisseur n'est pas impliqué.) |                                                                                                                        Le statut passe de <strong>Brouillon</strong> à <strong>En cours de révision</strong> à <strong>Approuvé</strong> si la CF n'est pas rejetée au cours du processus d'approbation. La CF approuvée est enregistrée comme une version.                                                                                                                        |
 |                                      La CF est envoyée sur le portail Fournisseur.                                      |                                                                                                                                                                      La version est enregistrée dans le portail Fournisseur et le statut devient <strong>En cours de révision externe</strong>.                                                                                                                                                                       |
 |                            Vous apportez certaines modifications qui sont requises par le fournisseur.                            |                                                                                                                                                                                                    Le statut redevient <strong>Brouillon</strong>.                                                                                                                                                                                                     |
@@ -102,7 +101,6 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 [Configuration de la sécurité pour les utilisateurs de la collaboration fournisseur](configure-security-vendor-portal-users.md)
 
 [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
-
 
 
 

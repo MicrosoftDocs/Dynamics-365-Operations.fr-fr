@@ -1,13 +1,13 @@
 ---
-title: "Syntaxe de requête et de filtrage avancé"
-description: "Cet article décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l'opérateur de correspondances dans le volet Filtre ou les filtres d'en-tête de colonne de la grille."
+title: Syntaxe de requête et de filtrage avancé
+description: Cet article décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l'opérateur de correspondances dans le volet Filtre ou les filtres d'en-tête de colonne de la grille.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 01a508e97721099f92b9167dfdfa1b9669b9341c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355953"
 ---
-
 # <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancée
 
 [!include [banner](../includes/banner.md)]
@@ -237,4 +236,3 @@ Consultez le tableau de la section suivante pour obtenir des informations suppl�
 </tr>
 </tbody>
 </table>
-

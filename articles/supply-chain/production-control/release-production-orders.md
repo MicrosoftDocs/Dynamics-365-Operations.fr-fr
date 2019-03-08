@@ -1,13 +1,13 @@
 ---
 title: Lancement des ordres de fabrication
-description: "Un ordre de fabrication lancé est une commande qui a été autorisée pour la production. Le terme Lancé permet de décrire un état du cycle de vie de l'ordre de fabrication où l'ordre de fabrication est disponible pour l'exécution dans l'atelier de production et pour les processus d'entrepôt."
+description: Un ordre de fabrication lancé est une commande qui a été autorisée pour la production. Le terme Lancé permet de décrire un état du cycle de vie de l'ordre de fabrication où l'ordre de fabrication est disponible pour l'exécution dans l'atelier de production et pour les processus d'entrepôt.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmRelease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 400c2786d80681827829286e6e9667b4d51612c4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aa38c50a58bed5702332182b9e0827b863f536f7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339370"
 ---
-
 # <a name="release-production-orders"></a>Lancement des ordres de fabrication
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Le travail pour le prélèvement des matières premières est généré lors du 
 -   Une directive d'emplacement pour le prélèvement des matières premières qui détermine où prélever les matériaux dans l'entrepôt
 -   Un modèle de vague pour les matières premières, où sont configurées les stratégies d'exécution du travail d'entrepôt
 -   Un emplacement d'entrée en production qui détermine où sont déposées les matières
-
 
 
 

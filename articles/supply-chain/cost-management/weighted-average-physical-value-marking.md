@@ -1,13 +1,13 @@
 ---
-title: "Moyenne pondérée avec valeur physique et marquage"
-description: "La moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée, dans lequel les sorties de stock correspondent à la valeur moyenne des articles reçus en stock au cours de la période de clôture du stock, plus le stock disponible éventuel de la période précédente."
+title: Moyenne pondérée avec valeur physique et marquage
+description: La moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée, dans lequel les sorties de stock correspondent à la valeur moyenne des articles reçus en stock au cours de la période de clôture du stock, plus le stock disponible éventuel de la période précédente.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc70b9cffd8716bc1d90cdb611076b4fc0bf6b30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355677"
 ---
-
 # <a name="weighted-average-with-physical-value-and-marking"></a>Moyenne pondérée avec valeur physique et marquage
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ Le diagramme suivant illustre cette série de transactions avec les effets du ch
 - Les mouvements de stock sont représentés par les flèches verticales.
 - Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
 - Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
-- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantity@Unitprice.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
 - La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
 - La valeur d'un mouvement de stock sans parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
@@ -111,7 +110,7 @@ Le diagramme suivant illustre cette série de transactions avec les effets du ch
 - Les mouvements de stock sont représentés par les flèches verticales.
 - Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
 - Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
-- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantity@Unitprice.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
 - La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
 - La valeur d'un mouvement de stock sans parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
@@ -140,7 +139,7 @@ Le diagramme suivant illustre cette série de transactions avec les effets du ch
 - Les mouvements de stock sont représentés par les flèches verticales.
 - Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
 - Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
-- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantity@Unitprice.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
 - La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
 - La valeur d'un mouvement de stock sans parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
@@ -173,7 +172,7 @@ Le diagramme suivant illustre cette série de transactions avec les effets du ch
 - Les mouvements de stock sont représentés par les flèches verticales.
 - Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
 - Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
-- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantity@Unitprice.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
 - La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
 - La valeur d'un mouvement de stock sans parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
@@ -221,14 +220,13 @@ Le diagramme suivant illustre cette série de transactions avec les effets du ch
 - Les mouvements de stock sont représentés par les flèches verticales.
 - Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
 - Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
-- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@"Unitprice".
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@"Prix unitaire".
 - La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
 - La valeur d'un mouvement de stock sans parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
 - Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
 - Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé Clôture du stock.
 - Les règlements effectués par clôture de stock sont représentés par des flèches rouges en pointillé, en diagonale, d'une réception vers une sortie.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Estimation de coût de l'ordre de fabrication"
-description: "Cet article fournit des informations sur l'estimation du coût de production. L'estimation du coût de production fournit les coûts de consommation de matière et de capacité projetés liés à la production d'un article dans la quantité de l'ordre de fabrication planifiée."
+title: Estimation de coût de l'ordre de fabrication
+description: Cet article fournit des informations sur l'estimation du coût de production. L'estimation du coût de production fournit les coûts de consommation de matière et de capacité projetés liés à la production d'un article dans la quantité de l'ordre de fabrication planifiée.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcTrans, InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93546fc170757ee2c39144842bae12d78400fd32
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 172bb55358c20ba80b1c32b05f1ae8e6aff8901f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350479"
 ---
-
 # <a name="production-order-cost-estimation"></a>Estimation de coût de l'ordre de fabrication
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,6 @@ Une estimation des coûts fournit également les informations suivantes :
 -   des comparaisons d'informations de coûts à partir de productions précédentes ;
 -   des informations de budget et de prévision ;
 -   des estimations de la taille de production requise pour maintenir un coût particulier.
-
 
 
 

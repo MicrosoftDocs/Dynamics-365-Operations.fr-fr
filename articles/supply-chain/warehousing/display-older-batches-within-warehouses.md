@@ -1,13 +1,13 @@
 ---
-title: "Configuration des lots plus anciens d'affichage dans l'entrepôt sur un périphérique mobile"
-description: "Cette rubrique décrit la procédure de paramétrage d'un appareil mobile pour afficher une liste des emplacements avec des lots plus anciens que l'emplacement actuel d'une ligne de travail."
+title: Configuration des lots plus anciens d'affichage dans l'entrepôt sur un périphérique mobile
+description: Cette rubrique décrit la procédure de paramétrage d'un appareil mobile pour afficher une liste des emplacements avec des lots plus anciens que l'emplacement actuel d'une ligne de travail.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 946266e73d59bdf383f1f91cdf70dd58f01b995c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cd0a9c2e9fbfea987b045e301fb73a505a0f2a4e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352641"
 ---
-
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>Configuration des lots plus anciens d'affichage dans l'entrepôt sur un périphérique mobile
 
 [!include [banner](../includes/banner.md)]
@@ -40,5 +39,4 @@ Lots plus anciens d'affichage dans l'entrepôt est configuré sur les options du
 La configuration **Lots plus anciens d'affichage dans l'entrepôt** est disponible dans les options du menu d'appareil mobile lorsque l'option **Prélever le traitement par lots le plus ancien** est définie sur **Avertir**.
 
 - Sous **Gestion des entrepôts** > **Paramétrage** > **Appareil mobile** > **Options de menu d'appareil mobile**, définissez **Utiliser un travail existant** sur **Oui** pour l'option de menu, et sélectionnez **Avertir** dans le champ **Prélever le traitement par lots le plus ancien**. 
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Créer une règle de kanban de retrait"
-description: "Cette procédure permet d'indiquer le paramétrage nécessaire pour créer une règle de kanban de prélèvement pour transférer les matériaux dans un environnement lean."
+---
+title: Créer une règle de kanban de retrait
+description: Cette procédure permet d'indiquer le paramétrage nécessaire pour créer une règle de kanban de prélèvement pour transférer les matériaux dans un environnement lean.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a77c66b64512274f2703543293c2f48f2df2acf5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 02c7133d2e02b27fb428874deeda21e2bab28fb6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341624"
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a>Créer une règle de kanban de retrait
 
@@ -63,5 +63,4 @@ Cette procédure permet d'indiquer le paramétrage nécessaire pour créer une r
 3. Cliquez sur Créer.
     * Cette opération crée deux kanbans.  
     * Notez que 2 kanbans, chacun pour 5 unités, ont été créés pour cette règle de kanban de prélèvement.  Il s'agit de la dernière étape de cette procédure.  
-
 

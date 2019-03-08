@@ -1,13 +1,13 @@
---- 
-title: "Création d'une immobilisation"
-description: "La société fictive USMF sert d'exemple dans ce guide de tâche."
+---
+title: Création d'une immobilisation
+description: La société fictive USMF sert d'exemple dans ce guide de tâche.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetBook
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0e2975ace61320c227631657a2e51ad785d9e20f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 352d8700df234f80381c4778c5f90b4b6f1a2297
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362554"
 ---
 # <a name="create-a-fixed-asset"></a>Création d'une immobilisation
 
@@ -41,5 +41,4 @@ La société fictive USMF sert d'exemple dans ce guide de tâche.  Une nouvelle 
     * Entrez les informations supplémentaires dont votre entreprise a besoin pour ce registre.  
     * Entrez les informations supplémentaires dont votre entreprise a besoin pour les registres restants.  
 8. Fermez la page.
-
 

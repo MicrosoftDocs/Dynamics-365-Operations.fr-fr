@@ -1,13 +1,13 @@
 ---
-title: "Réutiliser des configurations de produit"
-description: "Vous pouvez spécifier que vous souhaitez réutiliser automatiquement une configuration existante pour un produit. Ensuite, lorsqu'un utilisateur a terminé une session de configuration, le système vérifie si une configuration qui correspond aux sélections effectuée par l'utilisateur existe déjà. Si une configuration correspondante est trouvée, l'ID configuration, la nomenclature correspondante et la gamme sont réutilisés."
+title: Réutiliser des configurations de produit
+description: Vous pouvez spécifier que vous souhaitez réutiliser automatiquement une configuration existante pour un produit. Ensuite, lorsqu'un utilisateur a terminé une session de configuration, le système vérifie si une configuration qui correspond aux sélections effectuée par l'utilisateur existe déjà. Si une configuration correspondante est trouvée, l'ID configuration, la nomenclature correspondante et la gamme sont réutilisés.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 18a3e5fb583ed620c825164f2628a26b6b0cb469
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: c447440c33c1f80c6056974086b90d3b43e8499e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359633"
 ---
-
 # <a name="reuse-product-configurations"></a>Réutiliser des configurations de produit
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ Pour activer les configurations à réutiliser, vous devez spécifier les inform
 
 ## <a name="resetting-configuration-reuse"></a>Réinitialisation de la réutilisation de configuration
 Lorsque vous réinitialisez la réutilisation de configuration, les configurations précédemment créées ne sont plus prises en compte. Vous pouvez réinitialiser la réutilisation de configuration si la nomenclature ou la gamme a été modifiée, mais aucun attribut associé n'a été modifié. Vous réinitialisez la réutilisation de configuration sur l'organisateur **Général** du composant.
-
 
 
 

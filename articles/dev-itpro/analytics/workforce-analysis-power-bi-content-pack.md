@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI de mesures de la main-d'œuvre"
-description: "Cette rubrique décrit le contenu Power BI Mesures de la main-d'œuvre. Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+title: Contenu Power BI Mesures de main d'œuvre
+description: Cette rubrique décrit le contenu Power BI Mesures de la main-d'œuvre. Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,27 +18,26 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345787"
 ---
-
-# <a name="workforce-metrics-power-bi-content"></a>Contenu Power BI de mesures de la main-d'œuvre
+# <a name="workforce-metrics-power-bi-content"></a>Contenu Power BI Mesures de main d'œuvre
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Microsoft Power BI **Mesures de la main-d'œuvre**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit le contenu Power BI **Mesures de la main d'œuvre**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Le contenu Power BI **Mesures de la main-d'œuvre** s'affiche dans l'espace de travail **Gestion du personnel** si vous utilisez l'un des produits suivants :
+Le contenu Power BI **Mesures de la main d'œuvre** s'affiche dans l'espace de travail **Gestion du personnel** si vous utilisez l'un des produits suivants :
 
-- Microsoft Dynamics 365 for Finance and Operations
-- Microsoft Dynamics 365 for Talent
+- Microsoft Dynamics 365 for Finance and Operations
+- Microsoft Dynamics 365 for Talent
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le pack de contenu Power BI
 Le tableau suivant répertorie les mesures affichées dans chaque état.
 
 | Etat                                           | Métriques |
@@ -59,7 +58,7 @@ Le tableau suivant répertorie les mesures affichées dans chaque état.
 
 Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Veillez à télécharger le contenu Power BI **Mesures de main-d'œuvre** qui s'applique à la version de Microsoft Dynamics 365 que vous utilisez.
+Veillez à télécharger le contenu Power BI **Mesures de la main œuvre** qui s'applique à la version de Microsoft Dynamics 365 que vous utilisez.
 
 > [!NOTE]
 > Les fichiers .pbix disponibles dans Lifecycle Services s'appliquent uniquement à Finance and Operations.
@@ -88,4 +87,3 @@ Le tableau suivant indique les entités sur lesquelles le contenu est basé.
 | Tendance de l'employé           | Collaborateurs dans le temps, effectif, société et poste                                 | Société, Emplacement géographique, Nom de l'employé, Génère un état pour, Décalage de calendrier, Date, Titre de l'employé, Démographie, Emploi, Tâche |
 | Projet d'embauche collective        | Nombre de projets d'embauche collective, propriétaire du projet et statut du projet                     | Société, ligne d'embauche collective |
 | Ligne d'embauche collective           | Département, type d'emploi et poste                                           | Date, tâche, projet d'embauche collective |
-

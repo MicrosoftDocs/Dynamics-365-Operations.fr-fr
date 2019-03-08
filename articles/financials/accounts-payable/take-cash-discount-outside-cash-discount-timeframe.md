@@ -1,13 +1,13 @@
 ---
-title: "Prélever un escompte de règlement en dehors de la période d'escompte de règlement"
-description: "Cet article fournit deux scénarios qui indiquent comment un escompte de règlement peut être pris même si le paiement est effectué en dehors de la période d'escompte de règlement."
+title: Prélever un escompte de règlement en dehors de la période d'escompte de règlement
+description: Cet article fournit deux scénarios qui indiquent comment un escompte de règlement peut être pris même si le paiement est effectué en dehors de la période d'escompte de règlement.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f02bba975e5438443c4719e887a38247094cb20b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2a497eb874150456bc071a959a5440e9371837aa
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356873"
 ---
-
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Prélever un escompte de règlement en dehors de la période d'escompte de règlement
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ Les informations de remise s'affichent au bas de la page **Régler les transacti
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | 0,00      |
 | Montant de l'escompte de règlement à accepter | -5,05.     |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur"
-description: "Cette rubrique décrit comment vous pouvez demander la mise en service de nouveaux utilisateurs de collaboration fournisseur, et comment ajouter de nouveaux contacts de collaboration fournisseur."
+title: Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur
+description: Cette rubrique décrit comment vous pouvez demander la mise en service de nouveaux utilisateurs de collaboration fournisseur, et comment ajouter de nouveaux contacts de collaboration fournisseur.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
-ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356689"
 ---
-
 # <a name="manage-vendor-collaboration-users"></a>Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Lorsqu'une demande est envoyée, elle est ajoutée à la liste **Demandes d'util
 Avant de demander qu'un nouvel utilisateur soit mis en service, cette personne doit être paramétrée comme contact pour un ou plusieurs comptes fournisseur. Pour créer une demande d'utilisateur de collaboration fournisseur :
 
 1. Sur la page **Tous les contacts**, cliquez sur **Mettre en service un utilisateur fournisseur**.
-2. Entrez une adresse électronique pour l'utilisateur. Cette adresse sera utilisée par l'utilisateur pour se connecter à Finance and Operations. Si l'adresse de messagerie électronique appartient à un domaine enregistré comme un locataire de Microsoft Azure, celle-ci doit être un compte Azure Active Directory (AAD) existant pour que le processus demise en service réussisse. Si l'adresse de messagerie électronique n'appartient pas à un domaine enregistré dans Microsoft Azure, un compte ADD sera créé dans le cadre du processus de mise en service et le nouvel utilisateur recevra un message électronique d'invitation. Les adresses de messagerie électronique de consommateurs avec des domaines tels que @hotmail.com, @gmail.com ou @comcast.net ne peuvent pas être utilisés pour enregistrer un utilisateur Finance and Operations.
+2. Entrez une adresse électronique pour l'utilisateur. Cette adresse sera utilisée par l'utilisateur pour se connecter à Finance and Operations. Si l'adresse de messagerie électronique appartient à un domaine enregistré comme un locataire de Microsoft Azure, celle-ci doit être un compte Azure Active Directory (AAD) existant pour que le processus de mise en service réussisse. Si l'adresse de messagerie électronique n'appartient pas à un domaine enregistré dans Microsoft Azure, un compte AAD sera créé dans le cadre du processus de mise en service et le nouvel utilisateur recevra un message électronique d'invitation. Les adresses de messagerie électronique de consommateurs avec des domaines tels que @hotmail.com, @gmail.com, ou @comcast.net ne peuvent pas être utilisés pour enregistrer un utilisateur Finance and Operations.
 3. Définissez l'option **Accès autorisé à la collaboration fournisseur** sur **Oui** pour toutes les entités juridiques auxquelles l'utilisateur doit accéder.
 4. Dans la section **Affecter des rôles utilisateur**, activez la case à cocher **Affecter** des rôles de sécurité que le nouvel utilisateur doit avoir.
 5. Cliquez sur **Soumettre**.
@@ -91,7 +90,6 @@ Pour demander que des rôles de sécurité sont modifiés pour un utilisateur :
 2.  Écrivez un commentaire dans le champ **Justification de la demande**.
 3.  Dans la section **Tenir à jour les rôles d'utilisateur**, sélectionnez les rôles de sécurité que vous souhaitez affecter, ou désactivez ceux que vous souhaitez supprimer.
 4.  Cliquez sur **Soumettre**.
-
 
 
 

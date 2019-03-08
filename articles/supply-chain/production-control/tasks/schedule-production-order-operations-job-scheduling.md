@@ -1,13 +1,13 @@
---- 
-title: "Programmer un ordre de fabrication avec la planification d'opérations et de travaux"
-description: "Cette procédure se concentre sur la planification d’un ordre de fabrication avec la planification des opérations et la planification des tâches."
+---
+title: Programmer un ordre de fabrication avec la planification d'opérations et de travaux
+description: Cette procédure se concentre sur la planification d’un ordre de fabrication avec la planification des opérations et la planification des tâches.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdSchedule, ProdTable, ProdRouteJob
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 00698e9cd2ed0481e5fed301c8a8c2e98690a5db
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d4aac437876862e9f776264fc81f246c820bdf45
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352457"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>Programmer un ordre de fabrication avec la planification d'opérations et de travaux
 
@@ -63,5 +63,4 @@ Cette procédure se concentre sur la planification d’un ordre de fabrication a
 6. Cliquez sur Ordre de fabrication dans le volet Actions.
 7. Cliquez sur Toutes les tâches.
     * Notez qu’en fonction de la gamme active, 5 tâches sont créées avec la planification des tâches.  
-
 

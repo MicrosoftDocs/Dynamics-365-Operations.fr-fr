@@ -1,13 +1,13 @@
 ---
-title: "Paramètres de gestion des dépenses"
-description: "Les paramètres suivants contrôlent le comportement dans Gestion des dépenses."
+title: Paramètres de gestion des dépenses
+description: Les paramètres suivants contrôlent le comportement dans Gestion des dépenses.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: b6f67d44e0c64c145bb6d477c83d5a245b1682d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355930"
 ---
-
 # <a name="expense-management-parameters"></a>Paramètres de gestion des dépenses
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ Les paramètres contrôlent le comportement général dans Gestion des dépenses
 |  <strong>Afficher l'attestation anticorruption</strong>  | Sélectionnez cette option pour afficher le texte anti-corruption en créant un état de dépenses. Des catégories de dépenses spécifiques peuvent ensuite être activées qui nécessitent l'attestation anticorruption à sélectionner dans l'état de dépenses. Par exemple, une catégorie de cadeau associée à une dépense officielle du gouvernement peut nécessiter de l'employé qu'il confirme que la dépense respecte la stratégie de la société liée aux fonctionnaires gouvernementaux. |
 | <strong>Message anticorruption pour l'auteur de l'envoi</strong> |                                                                                             Entrez le texte qui sera affiché à l'employé lorsque vous créez un état de dépenses. Cliquez sur le bouton <strong>Traductions</strong> pour entrer un texte spécifique à une langue qui sera affiché en fonction de la langue d'utilisateur.                                                                                             |
 | <strong>Message anticorruption pour l'approbateur</strong>  |                                                                                             Entrez le texte qui sera affiché à l'approbateur lorsque vous créez un état de dépenses. Cliquez sur le bouton <strong>Traductions</strong> pour entrer un texte spécifique à une langue qui sera affiché en fonction de la langue d'utilisateur.                                                                                             |
-
 

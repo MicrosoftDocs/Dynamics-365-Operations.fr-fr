@@ -1,13 +1,13 @@
---- 
-title: "Assurer le libre service pour télécharger une station matérielle"
-description: "Cette procédure décrit comment télécharger une station matérielle prédéfinie."
+---
+title: Assurer le libre service pour télécharger une station matérielle
+description: Cette procédure décrit comment télécharger une station matérielle prédéfinie.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: bd7749adbeab37c5aac7b2ca50a2610d76d98a55
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361519"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>Assurer le libre service pour télécharger une station matérielle
 
@@ -36,5 +36,4 @@ Cette procédure décrit comment télécharger une station matérielle prédéfi
 4. Activez ou désactivez l'extension de la section Stations matérielles.
 5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 6. Cliquez sur Télécharger.
-
 

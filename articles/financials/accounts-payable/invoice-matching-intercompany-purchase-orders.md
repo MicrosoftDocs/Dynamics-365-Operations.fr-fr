@@ -1,13 +1,13 @@
 ---
-title: "Rapprochement de factures et commandes fournisseur intersociétés"
-description: "L'entité juridique acheteuse impliquée dans une transaction commerciale intersociétés peut être paramétrée pour utiliser le rapprochement de factures d'Achats. Dans ce cas, les conditions de validation pour le commerce intersociétés et le rapprochement de factures d'Achats doivent être remplies pour que les factures fournisseur intersociétés puissent être validées."
+title: Rapprochement de factures et commandes fournisseur intersociétés
+description: L'entité juridique acheteuse impliquée dans une transaction commerciale intersociétés peut être paramétrée pour utiliser le rapprochement de factures d'Achats. Dans ce cas, les conditions de validation pour le commerce intersociétés et le rapprochement de factures d'Achats doivent être remplies pour que les factures fournisseur intersociétés puissent être validées.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357563"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Rapprochement de factures et commandes fournisseur intersociétés
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Par exemple, procédez comme suit :
 2.  Mettez à jour la facture pour CCIS999 dans Fabrikam Sales. La validation échoue, car l'article est indisponible et n'a pas encore été reçu. Par conséquent, les informations financières ne peuvent pas être mises à jour.
 3.  Dans Fabrikam Sales, enregistrez la réception des articles et validez un bon de livraison pour CCIS999. Un accusé de réception de marchandises pour CFIS333 est automatiquement validé dans Fabrikam Purchase. La quantité reçue de l'article P-R14 dans Fabrikam Purchase passe à 100.
 4.  Mettez à jour la facture pour CCIS999 dans Fabrikam Sales. La validation est réussie dans les deux entités juridiques. La quantité achetée pour l'article P-R14 dans Fabrikam Purchase passe à 100.
-
 
 
 

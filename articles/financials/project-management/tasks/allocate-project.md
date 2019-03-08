@@ -1,13 +1,13 @@
---- 
-title: "Répartition d'un budget de projet ou d'une révision budgétaire sur plusieurs périodes"
-description: "Cette procédure montre comment affecter des montants de budget de projet sur plusieurs périodes."
+---
+title: Répartition d'un budget de projet ou d'une révision budgétaire sur plusieurs périodes
+description: Cette procédure montre comment affecter des montants de budget de projet sur plusieurs périodes.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d001cd3d922fc4790a1e5288f432df13e90ce03c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a253a37bc83482c5bc971cad585e18ccb230b16f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344154"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Répartition d'un budget de projet ou d'une révision budgétaire sur plusieurs périodes
 
@@ -42,6 +42,5 @@ Une fois qu'un budget ou une révision budgétaire est réparti, vous pouvez con
 8. Sur l'écran Répartition budgétaire du projet et sur l'écran Répartition de la révision budgétaire de projet, consultez ou mettez à jour les montants répartis. 
 9. Fermez la page.
 10. Lorsque la répartition correspond à ce que vous souhaitez, cliquez sur Soumettre sur la page Budget du projet pour soumettre le budget ou les révisions budgétaires au workflow d'approbation.  
-
 
 

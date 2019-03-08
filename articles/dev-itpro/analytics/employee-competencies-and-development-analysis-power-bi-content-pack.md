@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI des compétences et du développement des employés"
-description: "Cette rubrique décrit le contenu Power BI Compétences et développement des employés dans Finance and Operations."
+title: Contenu Power BI Compétences et développement des employés
+description: Cette rubrique décrit le contenu Power BI Compétences et développement des employés dans Finance and Operations.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352917"
 ---
-
-# <a name="employee-competencies-and-development-power-bi-content"></a>Contenu Power BI des compétences et du développement des employés
+# <a name="employee-competencies-and-development-power-bi-content"></a>Contenu Power BI Compétences et développement des employés
 
 [!include [banner](../includes/banner.md)]
 
@@ -71,4 +70,3 @@ Les données Finance and Operations sont utilisées pour remplir les états du p
 | Workforce\_WorkerName             | Prénom, nom et nom complet                                                                       | |
 | Workforce\_WorkerTitle            | Titre et date d'ancienneté                                                                                   | |
 | Workorce\_WorkerTrend             | Collaborateurs dans le temps, effectif, société et poste                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |
-

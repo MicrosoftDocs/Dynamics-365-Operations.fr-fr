@@ -1,13 +1,13 @@
 ---
 title: Inclure le poids et le volume du conteneur dans la charge
-description: "Cette rubrique explique comment configurer et appliquer des fonctionnalités pour inclure le poids et le volume du conteneur sur des charges."
+description: Cette rubrique explique comment configurer et appliquer des fonctionnalités pour inclure le poids et le volume du conteneur sur des charges.
 author: pjacobse
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: adbaa379889d373d597b2f6882b78f82bd71ae57
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: b137db6f67da30d6ac3a973940c1df1fd7268a1a
-ms.openlocfilehash: ac1df9b430feb025e4a544a7ecd7baa0c919cbe4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/02/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356597"
 ---
-
 # <a name="include-container-weight-and-volume-on-load"></a>Inclure le poids et le volume du conteneur dans la charge
 
 [!include [banner](../includes/banner.md)]
@@ -46,4 +45,3 @@ Le nombre de conteneurs qui doit être pris en compte pour une charge est calcul
 -   Pour définir le poids et le volume pour un conteneur, cliquez sur **Gestion des entrepôts** \> **Paramétrage** \> **Conteneurs** \> **Types de conteneur**.
 
 -   Pour définir le pourcentage d'utilisation d'un conteneur, cliquez sur **Gestion des entrepôts** \> **Paramétrage** \> **Conteneurs** \> **Groupes de conteneur**, puis entrez une valeur dans le champ **Pourcentage d'utilisation du conteneur**.
-

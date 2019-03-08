@@ -1,13 +1,13 @@
---- 
-title: "Tenir à jour la nomenclature d'un modèle de configuration de produit"
-description: "L'exécution de cette procédure nécessite un modèle de configuration de produit existant."
+---
+title: Tenir à jour la nomenclature d'un modèle de configuration de produit
+description: L'exécution de cette procédure nécessite un modèle de configuration de produit existant.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCBOMLineDetails, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 457aa5720919d8455a3099b200980bb36f60577f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c017d7719ac6af43b0c8a162080bb753587df030
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342383"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>Tenir à jour la nomenclature d'un modèle de configuration de produit
 
@@ -57,5 +57,4 @@ L'exécution de cette procédure nécessite un modèle de configuration de produ
 8. Cliquez sur l'onglet Dimension.
     * Vérifiez si des dimensions de produit sont actives ; elles doivent donc avoir une valeur ou un attribut affecté.  
 9. Cliquez sur OK.
-
 

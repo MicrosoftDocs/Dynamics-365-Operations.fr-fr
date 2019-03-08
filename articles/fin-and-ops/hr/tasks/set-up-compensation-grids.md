@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer les grilles de rémunération"
-description: "Les grilles de rémunération permettent de définir et de tenir à jour les structures de paie pour les régimes de rémunération fixe."
+---
+title: Paramétrer les grilles de rémunération
+description: Les grilles de rémunération permettent de définir et de tenir à jour les structures de paie pour les régimes de rémunération fixe.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompGridView
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 139c4e2adbf5029f8084c7c934a05def04cd31ca
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340405"
 ---
 # <a name="set-up-compensation-grids"></a>Paramétrer les grilles de rémunération
 
@@ -93,5 +93,4 @@ Les grilles de rémunération permettent de définir et de tenir à jour les str
 28. Dans le champ Point de référence, saisissez ou sélectionnez une valeur.
 29. Dans la liste, cochez ou décochez toutes les lignes.
 30. Cliquez sur Appliquer à la grille.
-
 

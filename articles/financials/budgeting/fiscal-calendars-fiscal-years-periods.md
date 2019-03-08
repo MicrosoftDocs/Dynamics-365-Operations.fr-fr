@@ -1,13 +1,13 @@
 ---
-title: "Calendriers fiscaux, exercices et périodes"
-description: "Cet article présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation."
+title: Calendriers fiscaux, exercices et périodes
+description: Cet article présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7fbc0ead48e4cceb1e91e882dd1af38abb65ddb6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361657"
 ---
-
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendriers fiscaux, exercices et périodes
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Les cycles budgétaires sont la durée pendant laquelle un budget est utilisé. 
 
 ## <a name="maintain-periods-for-your-organization"></a>Mise à jour des périodes pour votre organisation
 La page Calendrier comptable permet d'afficher les détails du calendrier fiscal, des exercices et des périodes utilisés par votre organisation. Vous pouvez également modifier le statut des périodes et sélectionner les utilisateurs pouvant valider les transactions de comptabilité dans les périodes. Par exemple, au début d'une nouvelle période, vous souhaitiez qu'un groupe d'utilisateurs termine la validation des transactions financières de la période précédente et que les autres groupes travaillent uniquement sur la nouvelle période.
-
 
 
 

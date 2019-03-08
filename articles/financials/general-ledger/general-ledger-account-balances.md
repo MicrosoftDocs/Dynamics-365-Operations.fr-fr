@@ -1,13 +1,13 @@
 ---
-title: "Soldes de la comptabilité"
+title: Soldes de la comptabilité
 description: "Cet article décrit deux manières d'afficher les soldes de compte général : la page de liste de balance comptable et les états financiers. Il explique également comment mettre à jour les soldes de l'ensemble de dimensions."
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a505610e94daeb73abef37a88f6c506a6bd7bc30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05db6bc373b69a623939eb0e39876332b64cd64b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354849"
 ---
-
 # <a name="general-ledger-account-balances"></a>Soldes de la comptabilité
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Lorsqu'un utilisateur modifie les paramètres les soldes sont actualisés. L'uti
 Les utilisateurs peuvent faire un zoom avant sur les soldes pour afficher les transactions qui constituent le solde.    
 
 Pour plus d'informations, voir [Afficher les états financiers](view-financial-reports.md).
-
 
 
 

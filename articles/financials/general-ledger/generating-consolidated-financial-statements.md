@@ -1,14 +1,14 @@
 ---
-title: "Générer des tableaux d'analyse consolidés"
-description: "Cette rubrique décrit les différents scénarios où vous pouvez générer des tableaux d'analyse consolidés."
+title: Générer des tableaux d'analyse consolidés
+description: Cette rubrique décrit les différents scénarios où vous pouvez générer des tableaux d'analyse consolidés.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 2a9ceb774a8f205e39abe6a12a0deb69dd4cb69b
 ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355194"
 ---
-
 # <a name="generate-consolidated-financial-statements"></a>Générer des tableaux d'analyse consolidés
 
 [!include [banner](../includes/banner.md)]
@@ -225,4 +224,3 @@ Pour obtenir des montants correctement convertis lorsque des devises sont utilis
 Pour plus d'informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
 
 Pour plus d'informations sur la saisie des détails des consolidations en ligne, voir [Consolidation en ligne](./consolidate-online.md).
-

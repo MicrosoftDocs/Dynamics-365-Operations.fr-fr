@@ -1,13 +1,13 @@
 ---
 title: Afficher et exporter les descriptions de champ
-description: "Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions."
+description: Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359334"
 ---
-
 # <a name="view-and-export-field-descriptions"></a>Afficher et exporter les descriptions de champ
 
 [!include [banner](../includes/banner.md)]
 
 Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions.
 
-Microsoft Dynamics 365 for Finance and Operations offre des descriptions pour les champs les plus complexes. Ces descriptions s’affichent lorsque vous survolez un champ. Vous pouvez également afficher et exporter des descriptions sur la page **Descriptions de champ**.
+Microsoft Dynamics 365 for Finance and Operations offre des descriptions pour les champs les plus complexes. Ces descriptions s’affichent lorsque vous survolez un champ. Vous pouvez également afficher et exporter des descriptions sur la page **Descriptions de champ**.
 
 Toutes les pages n'ont pas des descriptions de champ. Nous souhaitons uniquement fournir des descriptions pour les champs plus complexes, et non ceux dont l'utilisation du champ est évidente. Par conséquent, certaines pages n’ont pas de descriptions de champ, certaines pages comportent quelques descriptions et certaines des pages plus complexes, comme la plupart des pages de paramètres, comportent de nombreuses descriptions.
 
@@ -43,7 +42,7 @@ Si vous avez accès à l'environnement de développement Finance and Operations,
 Vous pouvez afficher les descriptions de champ en plaçant le curseur sur un champ. Si aucune description n’est disponible, vous voyez le nom du champ lorsque vous placez le pointeur sur le champ.
 
 > [!NOTE]
-> Dans Dynamics AX 7.0 (février 2016), les descriptions de champ peuvent être affichées uniquement sur la page **Descriptions de champs**.
+> Dans Dynamics AX 7.0 (février 2016), les descriptions de champ peuvent être affichées uniquement sur la page **Descriptions de champs**.
 
 L’illustration suivante montre la description de champ qui s’affiche lorsque vous survolez le champ **Verrouiller les articles lors du comptage**.
 
@@ -109,4 +108,3 @@ Pour plus d’informations sur les différentes façons de trouver une page, con
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Personnaliser l'aide du champ](../../dev-itpro/user-interface/customize-field-help.md)
-

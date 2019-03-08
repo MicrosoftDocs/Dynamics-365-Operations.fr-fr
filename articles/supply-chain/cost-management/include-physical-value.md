@@ -1,13 +1,13 @@
 ---
 title: Inclure la valeur physique
-description: "Vous utilisez la case à cocher Inclure la valeur physique dans l'organisateur Modèle de stock de la page Groupes de modèles d'article pour spécifier si les transactions mises à jour physiquement sont considérées dans le calcul du prix de revient moyen en cours pour un article."
+description: Vous utilisez la case à cocher Inclure la valeur physique dans l'organisateur Modèle de stock de la page Groupes de modèles d'article pour spécifier si les transactions mises à jour physiquement sont considérées dans le calcul du prix de revient moyen en cours pour un article.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e96d5e2a658a027d66663868329cf4eedcb1d46f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fa59031ed2144c2e92399933cd5dd40bfca0f2ae
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357310"
 ---
-
 # <a name="include-physical-value"></a>Inclure la valeur physique
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ La case à cocher produit des résultats légèrement différents en fonction du
 -   Une commande fournisseur comportant 3 articles à un prix de revient de 12,00 EUR qui a été mise à jour par une facture.
 
 Dans ce cas, le prix de revient moyen en cours sera de 11,20 EUR car les transactions mises à jour physiquement et financièrement sont utilisées pour calculer le prix de revient. **Exemple 2** Vous n'avez pas activé la case à cocher **Inclure la valeur physique** et le prix de revient sur le paramétrage de l'article est de 10,00 EUR. Vous recevez une commande fournisseur comportant 20 articles à un prix de revient de 12,00 EUR qui a été mise à jour par bon de livraison. Lorsque une commande client est validée, le montant du coût validé est de 10,00 EUR car le prix de revient moyen en cours n'inclut pas les transactions validées physiquement. **Remarque :** À des fins de comparaison, si vous activez la case à cocher **Inclure la valeur physique** pour cet article, lorsqu'une commande client est validée, le montant du coût validé sera de 12,00 EUR.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Analyse du coût de l'ordre de fabrication"
-description: "Cet article fournit des informations sur l'analyse des coûts que vous pouvez effectuer pour les ordres de fabrication terminés et en cours. Analysez les coûts estimés et réels à l'aide de la page Calcul des prix ou les estimations des coûts ou de l'état Estimations et évaluations des coûts. Vous pouvez afficher les informations relatives aux coûts estimés et réels (et à la quantité) pour chaque composant, opération de gamme et coût indirect."
+title: Analyse du coût de l'ordre de fabrication
+description: Cet article fournit des informations sur l'analyse des coûts que vous pouvez effectuer pour les ordres de fabrication terminés et en cours. Analysez les coûts estimés et réels à l'aide de la page Calcul des prix ou les estimations des coûts ou de l'état Estimations et évaluations des coûts. Vous pouvez afficher les informations relatives aux coûts estimés et réels (et à la quantité) pour chaque composant, opération de gamme et coût indirect.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f027d6521d5f57a7e2d2cac1bed8dc08ae9f20f1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353561"
 ---
-
 # <a name="production-order-cost-analysis"></a>Analyse du coût de l'ordre de fabrication
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Des états séparés présentent des informations sur chaque type de transaction
 --------
 
 [Sources courantes des écarts de production](common-sources-of-production-variances.md)
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Créer des profils visuels de point de vente (PDV)"
-description: "Cette procédure décrit la création d'un profil visuel de point de vente (PDV)."
+---
+title: Créer des profils visuels de point de vente (PDV)
+description: Cette procédure décrit la création d'un profil visuel de point de vente (PDV).
 author: jashanno
 manager: AnnBe
 ms.date: 12/05/2015
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: 0234512e037d8818ce2282959cfd0763b41b9429
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358138"
 ---
 # <a name="create-point-of-sale-pos-visual-profiles"></a>Créer des profils visuels de point de vente (PDV)
 
@@ -47,5 +47,4 @@ Cette procédure décrit la création d'un profil visuel de point de vente (PDV)
 16. RequestPopup de l'ID image.
 17. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 18. Cliquez sur Enregistrer.
-
 

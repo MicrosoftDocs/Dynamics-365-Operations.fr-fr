@@ -1,13 +1,13 @@
---- 
+---
 title: " Créer, calculer et valider un relevé pour un magasin de vente au détail"
-description: "Cette procédure décrit les étapes manuelles pour créer, calculer et valider un relevé pour un magasin."
+description: Cette procédure décrit les étapes manuelles pour créer, calculer et valider un relevé pour un magasin.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354389"
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Créer, calculer et valider un relevé pour un magasin de vente au détail
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Cette procédure décrit les étapes manuelles pour créer, calculer et valider un relevé pour un magasin. Des traitements par lots peuvent également être configurés pour les mêmes tâches. Les étapes de configuration et d'exécution des traitements par lots sont disponibles dans d'autres rubriques. Pour effectuer cette procédure, vous devez disposer des transactions effectuées dans le PDV et extraites dans Dynamics AX. Cet enregistrement utilise la société USRT dans les données de démonstration. Cette procédure peut faire référence à Microsoft Dynamics AX. Notez que Dynamics AX est maintenant appelé Microsoft Dynamics 365 for Operations.
+Cette procédure décrit les étapes manuelles pour créer, calculer et valider un relevé pour un magasin. Des traitements par lots peuvent également être configurés pour les mêmes tâches. Les étapes de configuration et d'exécution des traitements par lots sont disponibles dans d'autres rubriques. Pour effectuer cette procédure, vous devez disposer des transactions effectuées dans le PDV et extraites dans Dynamics AX. Cet enregistrement utilise la société USRT dans les données de démonstration. Cette procédure peut faire référence à Microsoft Dynamics AX. Notez que Dynamics AX est maintenant appelé Microsoft Dynamics 365 for Operations.
 
 1. Accédez à Tous les espaces de travail > .. > Finances du magasin de vente au détail.
 2. Cliquez sur Nouveau relevé.
@@ -47,5 +47,4 @@ Cette procédure décrit les étapes manuelles pour créer, calculer et valider 
 10. Cliquez sur Fermer.
 11. Accédez à Commerce et vente au détail > Canaux > Finances du magasin de vente au détail.
 12. Cliquez sur l'onglet Relevés validés.
-
 

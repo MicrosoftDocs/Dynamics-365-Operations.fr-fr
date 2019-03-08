@@ -1,13 +1,13 @@
 ---
 title: Utiliser des catalogues externes pour PunchOut eProcurement
-description: "Cette rubrique explique comment utiliser des catalogues externes pour créer et envoyer des demandes."
+description: Cette rubrique explique comment utiliser des catalogues externes pour créer et envoyer des demandes.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 76d0c911bdddbc5a34644dc96ec13dd8fd53a338
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342797"
 ---
-
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Utiliser des catalogues externes pour PunchOut eProcurement
 
 [!include [banner](../includes/banner.md)]
@@ -51,4 +50,3 @@ S'il existe plusieurs options pour les catégories d'approvisionnement, sélecti
 Une fois que les lignes ont été ajoutées à une demande, vous pouvez ajouter d'autres lignes sans utiliser des catalogues externes. Vous pouvez également continuer à utiliser des catalogues externes pour ajouter des lignes.
 
 Lorsque la demande est prête, utilisez l'action **Workflow** > **Envoyer** pour l'envoyer pour approbation.
-

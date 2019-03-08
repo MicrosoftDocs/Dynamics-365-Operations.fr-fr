@@ -1,13 +1,13 @@
---- 
-title: "Créer une hiérarchie de classification de produit"
-description: "Cette procédure indique comment créer une nouvelle hiérarchie de catégories et affecter un type de hiérarchie des nomenclatures douanières."
+---
+title: Créer une hiérarchie de classification de produit
+description: Cette procédure indique comment créer une nouvelle hiérarchie de catégories et affecter un type de hiérarchie des nomenclatures douanières.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fb49f5f3f8a5a788cb4c6d1be69534ba808e3675
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0c107c9d15e0e023de51891f23c2d2360c3b8e7f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/08/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346822"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Créer une hiérarchie de classification de produit
 
@@ -67,5 +67,4 @@ Cette procédure indique comment créer une nouvelle hiérarchie de catégories 
 7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 9. Fermez la page.
-
 

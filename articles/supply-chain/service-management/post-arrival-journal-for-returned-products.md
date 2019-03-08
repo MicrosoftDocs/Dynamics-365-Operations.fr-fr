@@ -1,32 +1,30 @@
 ---
-title: "Validation du journal des arrivées pour les produits retournés"
-description: "Validation du journal des arrivées pour les produits retournés."
+title: Validation du journal des arrivées pour les produits retournés
+description: Validation du journal des arrivées pour les produits retournés.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSArrivalOverview
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 75f37ce016acb4b479a9cf4dff205562ce00f02c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: cbe60846f0a16b5061349d9960c49bb5310bd6f9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343579"
 ---
-
-
 # <a name="post-arrival-journal-for-returned-products"></a>Validation du journal des arrivées pour les produits retournés 
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +56,5 @@ Une fois le journal validé, les articles retournés sont enregistrés en stock 
 [Journal des emplacements (écran)](https://technet.microsoft.com/en-us/library/aa584822\(v=ax.60\))
 
   
-
 
 

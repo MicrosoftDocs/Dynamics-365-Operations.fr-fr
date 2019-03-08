@@ -1,13 +1,13 @@
 ---
-title: "Générer des documents électroniques et mettre à jour des données de l'application à l'aide de la gestion des états électroniques (ER)"
-description: "Vous pouvez concevoir des formats d'états électroniques (ER) qui peuvent être utilisés dans l'application Finance and Operations pour générer des documents électroniques sortants. Vous pouvez également concevoir les formats ER qui analysent les documents électroniques entrants et utilisent le contenu de ces documents pour mettre à jour des données d'application."
+title: Générer des documents électroniques et mettre à jour des données de l'application à l'aide de la gestion des états électroniques (ER)
+description: Vous pouvez concevoir des formats d'états électroniques (ER) qui peuvent être utilisés dans l'application Finance and Operations pour générer des documents électroniques sortants. Vous pouvez également concevoir les formats ER qui analysent les documents électroniques entrants et utilisent le contenu de ces documents pour mettre à jour des données d'application.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a989b0000766478c71b243d7793b2fc8c4ece28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349214"
 ---
-
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Générer des documents électroniques et mettre à jour des données de l'application à l'aide de la gestion des états électroniques (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -42,4 +41,3 @@ Pour en savoir plus sur cette fonction, consultez l'ensemble ER Générer des do
 - [Configuration du modèle de données ER : Déclaration d'échanges de biens (modèle)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuration du mappage de modèle ER : Déclaration d'échanges de biens (mappage)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuration du format ER : Déclaration d'échanges de biens (format)](https://go.microsoft.com/fwlink/?linkid=849038)
-

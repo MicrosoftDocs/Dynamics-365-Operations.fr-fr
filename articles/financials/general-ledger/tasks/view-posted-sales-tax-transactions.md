@@ -1,13 +1,13 @@
---- 
-title: "Afficher les transactions de taxe validées"
-description: "Vous pouvez afficher des transactions de taxe validées à partir de différentes pages en fonction de ce que vous devez afficher."
+---
+title: Afficher les transactions de taxe validées
+description: Vous pouvez afficher des transactions de taxe validées à partir de différentes pages en fonction de ce que vous devez afficher.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTrans, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f18f2ab02af571f81149ec3564bbac0f98b1d2c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3a6aa136018e586fd66e77c0f2af3a9f321f822f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356367"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Afficher les transactions de taxe validées
 
@@ -41,5 +41,4 @@ Vous pouvez afficher des transactions de taxe validées à partir de différente
 10. Accédez à Taxes > Taxes indirectes > Taxe > Codes taxe.
 11. Dans le volet Actions, cliquez sur le code Taxe.
 12. Cliquez sur Taxe validée.
-
 

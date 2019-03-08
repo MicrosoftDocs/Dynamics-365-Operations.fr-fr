@@ -1,13 +1,13 @@
 ---
-title: "Vue d'ensemble des régularisations"
-description: "Cet article décrit les régularisations, et fournit des informations sur leur paramétrage pour créer des transactions."
+title: Vue d'ensemble des régularisations
+description: Cet article décrit les régularisations, et fournit des informations sur leur paramétrage pour créer des transactions.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c6a3402e4bc4a22d764017ba56554001300a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fb120715090638bf7c6c3833822d942cb6dda8c5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339692"
 ---
-
 # <a name="accruals-overview"></a>Vue d'ensemble des régularisations
 
 [!include [banner](../includes/banner.md)]
@@ -47,4 +46,3 @@ Lorsque vous entrez un journal, vous pouvez cliquer sur **Régularisation des co
 
 
 Pour plus d'informations, voir [Créer des plans de régularisation](tasks/create-accrual-schemes.md) et [Créer des transactions de régularisation des comptes](tasks/create-ledger-accrual-transactions.md).
-

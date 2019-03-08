@@ -1,14 +1,14 @@
 ---
-title: "Consolidations financières et conversion de devises"
-description: "Cette rubrique décrit les consolidations financières et la conversion de devises dans le module Comptabilité."
+title: Consolidations financières et conversion de devises
+description: Cette rubrique décrit les consolidations financières et la conversion de devises dans le module Comptabilité.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: 8427d53bac3216d362b2bf8983a847f069351b3b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353998"
 ---
-
 # <a name="financial-consolidations-and-currency-translation"></a>Consolidations financières et conversion de devises
 
 [!include [banner](../includes/banner.md)]
@@ -181,4 +180,3 @@ Voici quelques-uns des scénarios de consolidation pris en charge par l'outil É
 
 ## <a name="generating-consolidated-financial-statements"></a>Génération de tableaux d'analyse consolidés
 Pour plus d'informations sur les scénarios où vous pouvez générer des tableaux d'analyse consolidés, voir [Générer des tableaux d'analyse consolidés](./generating-consolidated-financial-statements.md).
-

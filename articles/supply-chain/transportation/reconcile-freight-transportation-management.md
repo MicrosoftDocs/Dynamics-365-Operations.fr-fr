@@ -1,13 +1,13 @@
 ---
 title: Rapprochement du fret dans la gestion du transport
-description: "Cet article décrit le processus de rapprochement du fret."
+description: Cet article décrit le processus de rapprochement du fret.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0e9dd669ff08c02a8bbb1f83e19dfa62298f317b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344775"
 ---
-
 # <a name="reconcile-freight-in-transportation-management"></a>Rapprochement du fret dans la gestion du transport
 
 [!include [banner](../includes/banner.md)]
@@ -41,11 +40,10 @@ Les frais de transport sont calculés par le moteur de frais qui est associé au
 [![Processus de rapprochement du fret](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Rapprochement manuel
-Si vous rapprochez manuellement le fret, vous devez faire correspondre chaque ligne de facture avec la ou les lignes de facturation de fret pour la charge en cours de facturation. Vous effectuez cette correspondance sur la page **Facture des frais de transport et rapprochement de factures**. Si le montant de la ligne de facture ne correspond pas au montant de la facture de transport, vous devez sélectionner un motif de rapprochement de la différence. S’il existe plusieurs motifs pour le rapprochement, vous pouvez répartir le montant qui ne correspond pas entre eux. Le motif du rapprochement détermine comment les montants de différence sont validés dans la comptabilité. Lorsque le rapprochement de l’intégralité du montant de la facture est comptabilisé, il est soumis pour approbation, et ensuite le journal est validé. La figure suivante indique comment générer une facture de transport et exécuter le rapprochement du fret dans Microsoft Dynamics 365 for Finance and Operations. 
+Si vous rapprochez manuellement le fret, vous devez faire correspondre chaque ligne de facture avec la ou les lignes de facturation de fret pour la charge en cours de facturation. Vous effectuez cette correspondance sur la page **Facture des frais de transport et rapprochement de factures**. Si le montant de la ligne de facture ne correspond pas au montant de la facture de transport, vous devez sélectionner un motif de rapprochement de la différence. S’il existe plusieurs motifs pour le rapprochement, vous pouvez répartir le montant qui ne correspond pas entre eux. Le motif du rapprochement détermine comment les montants de différence sont validés dans la comptabilité. Lorsque le rapprochement de l’intégralité du montant de la facture est comptabilisé, il est soumis pour approbation, et ensuite le journal est validé. La figure suivante indique comment générer une facture de transport et exécuter le rapprochement du fret dans Microsoft Dynamics 365 for Finance and Operations. 
 [![Tâches de rapprochement de frais de transport dans Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>Rapprochement automatique
 Pour utiliser le rapprochement automatique, vous devez spécifier la planification du rapprochement et les factures et les transporteurs à utiliser. La mise en correspondance des lignes de facture et des factures de transport s’effectue en fonction du paramétrage des données principales d’audit et du type de facture de transport. Après avoir exécuté le rapprochement automatique, vous devez gérer toutes les factures que le système ne peut pas faire correspondre. Vous devez traiter ces factures manuellement avant de pouvoir valider toutes les factures à des fins de paiement.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Créer un mandat de débit direct pour un client"
-description: "Ce guide de tâche montre comment créer un mandat de débit direct et l'utiliser dans une facture."
+---
+title: Créer un mandat de débit direct pour un client
+description: Ce guide de tâche montre comment créer un mandat de débit direct et l'utiliser dans une facture.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, BankAccountTable, CustPaymMode, CustDirectDebitMandate, BankAccountTableLookUp, SrsReportViewerForm,  LogisticsAddressCityLookup, CustFreeInvoice, CustTableLookup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fc3052fdfc6e3dcf2826b3069f6d644201a70c3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d01c7c19925a3c7064ab3f845b92b610b162066c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346891"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Créer un mandat de débit direct pour un client
 
@@ -89,5 +89,4 @@ Ce guide de tâche montre comment créer un mandat de débit direct et l'utilise
 2. Cliquez sur Nouveau.
 3. Sélectionnez le client pour lequel vous avez ajouté le mandat.
 4. Dans le champ ID mandat de débit direct, entrez ou sélectionnez une valeur.
-
 

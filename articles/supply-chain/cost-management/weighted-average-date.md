@@ -1,13 +1,13 @@
 ---
-title: "Date moyenne pondérée"
-description: "La date moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée, dans lequel les sorties de stock correspondent à la valeur moyenne des articles reçus en stock pour chaque jour de la période de clôture du stock."
+title: Date moyenne pondérée
+description: La date moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée, dans lequel les sorties de stock correspondent à la valeur moyenne des articles reçus en stock pour chaque jour de la période de clôture du stock.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355401"
 ---
-
 # <a name="weighted-average-date"></a>Date moyenne pondérée
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ Les mouvements de sortie du stock, notamment les commandes client, les journaux 
 
 Les règlements correspondent à des validations de clôture du stock qui ajustent les sorties à la moyenne pondérée correcte depuis la date de clôture. 
 
-**Remarque :** pour plus d'informations sur les règlements, voir l'article concernant la clôture de stock. Les exemples suivants illustrent l'impact du modèle de moyenne pondérée avec cinq configurations :
+**Remarque :**  pour plus d'informations sur les règlements, voir l'article concernant la clôture de stock. Les exemples suivants illustrent l'impact du modèle de moyenne pondérée avec cinq configurations :
 
 -   Règlement direct à la date moyenne pondérée sans l'option **Inclure la valeur physique**
 -   Règlement récapitulatif à la date moyenne pondérée sans l'option **Inclure la valeur physique**
@@ -195,7 +194,6 @@ Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions
 -   Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
 -   Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
 -   Les règlements effectués par clôture de stock sont représentés par des flèches rouges en pointillé, en diagonale, d'une réception vers une sortie.
-
 
 
 

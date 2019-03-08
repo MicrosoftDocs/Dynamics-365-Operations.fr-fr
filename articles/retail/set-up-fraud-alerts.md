@@ -1,13 +1,13 @@
 ---
-title: "Paramétrer et utiliser les alertes pour fraude dans le centre d'appels"
-description: "Cette rubrique décrit le paramétrage des règles pour alerter les représentants du service client en cas d'informations potentiellement frauduleuses lorsque des commandes sont traitées. Vous pouvez définir des codes spécifiques qui sont utilisés pour mettre en attente automatiquement ou manuellement des commandes suspectes."
+title: Paramétrer et utiliser les alertes pour fraude dans le centre d'appels
+description: Cette rubrique décrit le paramétrage des règles pour alerter les représentants du service client en cas d'informations potentiellement frauduleuses lorsque des commandes sont traitées. Vous pouvez définir des codes spécifiques qui sont utilisés pour mettre en attente automatiquement ou manuellement des commandes suspectes.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361496"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Paramétrer et utiliser les alertes pour fraude dans le centre d'appels
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ La commande est enregistrée, mais l'indicateur **Ne pas traiter** est défini. 
 Pour afficher et gérer les commandes mises en attente pour révision, accédez à **Vente au détail** \> **Clients** \> **Blocage de commandes**. Dans la page **Blocage de commandes**, sélectionnez une entrée dans la liste, puis cliquez sur **Blocage de commande** pour afficher une vue plus détaillée contenant des informations sur le motif du blocage. Dans l'organisateur **Détails de la fraude**, vous pouvez afficher les critères de fraude systématiques considérés comme une correspondance pour la commande et les scores appliqués. Si la commande est mise en attente manuelle, vous pouvez examiner les commentaires saisis par l'utilisateur qui a mis la commande en attente en consultant la section **Notes relatives à la fraude** dans l'organisateur **Notes**.
 
 Pour plus d'informations sur l'utilisation des commandes en attente, voir [Blocage de commandes](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-

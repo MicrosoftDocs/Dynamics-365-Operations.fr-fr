@@ -1,13 +1,13 @@
 ---
-title: "Configuration de dénominations des disponibilités pour le point de vente (PDV)"
-description: "Les dénominations des disponibilités pour les billets et les pièces peuvent être définies dans l'arrière-guichet qui sera utilisé par les caissiers, les associés de vente et les directeurs du magasin à partir du PDV."
+title: Configuration de dénominations des disponibilités pour le point de vente (PDV)
+description: Les dénominations des disponibilités pour les billets et les pièces peuvent être définies dans l'arrière-guichet qui sera utilisé par les caissiers, les associés de vente et les directeurs du magasin à partir du PDV.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343510"
 ---
-
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configuration de dénominations des disponibilités pour le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -53,4 +52,3 @@ Lors du règlement en espèces dans le PVD, l'utilisateur peut utiliser les dén
 
 - **Supérieur ou égal au montant dû** : par défaut, le PDV n'affiche que les dénominations de billet qui sont supérieures au montant dû, ce qui permet d'effectuer la transaction en une seule étape. Par exemple, si le montant dû est $7,50, le PDV affiche les dénominations suivantes : $10, $20, $50 et $100 Si vous touchez l'un de ces montants, la vente est automatiquement enregistrée pour ce montant. Les billets de $1 et $5 ne sont pas affichés, car ces montants sont inférieurs au montant dû.
 - **Toutes les dénominations** : sélectionnez cette option pour afficher systématiquement toutes les dénominations de billet dans le PDV, quel que soit le montant dû. Cela signifie que l'utilisateur peut utiliser une combinaison de billets pour atteindre le montant dû. Par exemple, si le montant dû est $25,00, l'utilisateur peut choisir $20 et $5 pour terminer la vente.
-

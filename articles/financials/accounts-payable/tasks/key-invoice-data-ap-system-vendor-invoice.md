@@ -1,13 +1,13 @@
---- 
-title: "Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur"
-description: "Ce guide de tâche vous aidera à créer une facture fournisseur à partir d'une commande fournisseur et à afficher les résultats du rapprochement de la commande fournisseur, de l'accusé de réception et de la facture (rapprochement à trois facteurs)."
+---
+title: Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur
+description: Ce guide de tâche vous aidera à créer une facture fournisseur à partir d'une commande fournisseur et à afficher les résultats du rapprochement de la commande fournisseur, de l'accusé de réception et de la facture (rapprochement à trois facteurs).
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e1d2e31a5de7cefd20996c18bf4771296a587997
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359104"
 ---
 # <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur
 
@@ -79,5 +79,4 @@ Ce guide de tâche vous aidera à créer une facture fournisseur à partir d'une
 19. Cliquez sur Valider.
 20. Permet de fermer l'écran.
     * Notez que la commande fournisseur n'est plus répertoriée comme étant reçue mais non facturée.  
-
 

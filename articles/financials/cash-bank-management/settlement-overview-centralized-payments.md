@@ -1,13 +1,13 @@
 ---
-title: "Vue d'ensemble des règlements des paiements centralisés"
-description: "Cette rubrique décrit les règlements des paiements centralisés pour Microsoft Dynamics 365 for Finance and Operations."
+title: Vue d'ensemble des règlements des paiements centralisés
+description: Cette rubrique décrit le règlement pour les paiements centralisés pour Microsoft Dynamics 365 for Finance and Operations.
 author: abruer
 manager: AnnBe
 ms.date: 08/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
 ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358575"
 ---
-
 # <a name="settlement-overview-for-centralized-payments"></a>Vue d'ensemble des règlements des paiements centralisés
 
 [!include [banner](../includes/banner.md)]
@@ -109,4 +108,3 @@ Pour les paiements fournisseur, les transactions d'échéance dans l'entité jur
 
 ## <a name="withholding-tax"></a>Retenue à la source
 Le compte fournisseur associé à la facture est utilisé pour déterminer si la retenue à la source doit être calculée. Si la retenue à la source s'applique, elle est calculée dans l'entité juridique associée à la facture. Si les entités juridiques utilisent différentes monnaies, c'est le taux de change de l'entité juridique associée à la facture qui est utilisé.
-

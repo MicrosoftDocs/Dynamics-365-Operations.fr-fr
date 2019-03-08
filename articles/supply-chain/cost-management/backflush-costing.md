@@ -1,13 +1,13 @@
 ---
-title: "Calcul des coûts de post-consommation"
-description: "Cette rubrique présente le concept de comptabilité à rebours utilisé pour la production au plus juste."
+title: Calcul des coûts de post-consommation
+description: Cette rubrique présente le concept de comptabilité à rebours utilisé pour la production au plus juste.
 author: cvocph
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: f233818903143da24adc31eaae67033762d1b4ed
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352710"
 ---
-
 # <a name="backflush-costing"></a>Calcul des coûts de post-consommation
 
 [!include [banner](../includes/banner.md)]
@@ -62,11 +61,11 @@ Pour les produits fournis hors du flux de production, le calcul de nomenclature 
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Calcul basé sur le flux de production
 
-La production au plus juste de Microsoft Dynamics 365 for Finance and Operations est indépendante des gammes. Le calcul des coûts pour les produits provenant d'un flux de production peut être basé sur le flux de production proprement dit. Avant que le calcul soit effectué, vous devez créer une règle de kanban qui fournit le produit hors du flux de production. Si un produit peut être fourni par plusieurs flux de production au même site à la date du calcul, vous pouvez sélectionner le flux de production pour le calcul de nomenclature. Dans la page **Flux de production par défaut**, vous pouvez configurer un flux de production par défaut pour chaque article. Si plusieurs règles de kanban existent pour le même produit dans le même flux de production actif à la date du calcul, le calcul sélectionne la première règle de kanban qui est active pour le calcul.
+La production au plus juste pour Microsoft Dynamics 365 for Finance and Operations est indépendante des gammes. Le calcul des coûts pour les produits provenant d'un flux de production peut être basé sur le flux de production proprement dit. Avant que le calcul soit effectué, vous devez créer une règle de kanban qui fournit le produit hors du flux de production. Si un produit peut être fourni par plusieurs flux de production au même site à la date du calcul, vous pouvez sélectionner le flux de production pour le calcul de nomenclature. Dans la page **Flux de production par défaut**, vous pouvez configurer un flux de production par défaut pour chaque article. Si plusieurs règles de kanban existent pour le même produit dans le même flux de production actif à la date du calcul, le calcul sélectionne la première règle de kanban qui est active pour le calcul.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Calcul basé sur la gamme
 
-Le calcul basé sur une gamme est tout aussi valide que le calcul basé sur un flux de production. Toutefois, le calcul basé sur une gamme n'utilise pas l'évaluation des coûts pour la fonctionnalité de production au plus juste. La gamme doit utiliser des demandes de ressources pour les groupes de ressources. Pour éviter les écarts systématiques, elle doit également utiliser les mêmes cellules de travail, ou au moins les mêmes catégories de coûts. Là aussi, vous devez éviter les catégories de coûts pour le paramétrage et la quantité. Elles ne permettent pas de calculer le coût selon une allocation plus granulaire que la post-consommation des coûts de la production au plus juste. Pour déterminer quelle option (flux de production ou gamme) utiliser pour calculer le coût, examinez les résultats de l'analyse des coûts. La version la plus proche de la réalité et qui génère le moins d'écarts est l'option à privilégier. Dans un environnement de production au plus juste, lorsqu'un produit est fourni par un flux de production unique et une règle de kanban unique, le calcul qui est basé sur le flux de production est probablement le plus précis. Pour un article pouvant être fourni par la production au plus juste et des ordres de fabrication dans le même site, ou qui peut avoir plusieurs flux de production ou plusieurs règles de kanban dans le même flux, le calcul sera plus précis s'il se base sur une version de gamme créée spécialement pour le calcul des coûts, pas pour la production. Le calcul du flux de production doit être utilisé pour calculer les produits inclus dans la sous-traitance. Dans Microsoft Dynamics 365 for Finance and Operations, les modèles de coût pour la sous-traitance via des ordres de fabrication et pour la sous-traitance dans la structure Production au plus juste utilisent deux approches. Le production au plus juste présente un nouveau type de groupe de coûts, **Externalisation directe**, pour calculer les services sous-traités.
+Le calcul basé sur une gamme est tout aussi valide que le calcul basé sur un flux de production. Toutefois, le calcul basé sur une gamme n'utilise pas l'évaluation des coûts pour la fonctionnalité de production au plus juste. La gamme doit utiliser des demandes de ressources pour les groupes de ressources. Pour éviter les écarts systématiques, elle doit également utiliser les mêmes cellules de travail, ou au moins les mêmes catégories de coûts. Là aussi, vous devez éviter les catégories de coûts pour le paramétrage et la quantité. Elles ne permettent pas de calculer le coût selon une allocation plus granulaire que la post-consommation des coûts de la production au plus juste. Pour déterminer quelle option (flux de production ou gamme) utiliser pour calculer le coût, examinez les résultats de l'analyse des coûts. La version la plus proche de la réalité et qui génère le moins d'écarts est l'option à privilégier. Dans un environnement de production au plus juste, lorsqu'un produit est fourni par un flux de production unique et une règle de kanban unique, le calcul qui est basé sur le flux de production est probablement le plus précis. Pour un article pouvant être fourni par la production au plus juste et des ordres de fabrication dans le même site, ou qui peut avoir plusieurs flux de production ou plusieurs règles de kanban dans le même flux, le calcul sera plus précis s'il se base sur une version de gamme créée spécialement pour le calcul des coûts, pas pour la production. Le calcul du flux de production doit être utilisé pour calculer les produits inclus dans la sous-traitance. Dans Microsoft Dynamics 365 for Finance and Operations, les modèles de coût pour la sous-traitance via des ordres de fabrication et pour la sous-traitance dans la structure Production au plus juste utilisent deux approches. Le production au plus juste présente un nouveau type de groupe de coûts, **Externalisation directe**, pour calculer les services sous-traités.
 
 ## <a name="material-consumption"></a>Consommation de matières
 Lorsque le matériel est consommé à partir du stock vers les travaux en cours, le coût de la matière est ajouté aux travaux en cours à son coût standard réel pour un groupe de coûts. Cette opération est effectuée dans les cas suivants :
@@ -83,7 +82,7 @@ Les produits sont réceptionnés du flux de production dans les cas suivants :
 Les produits reçus du flux de production sont déduits des travaux en cours.
 
 ## <a name="products-in-wip"></a>Produits dans les travaux en cours
-Le modèle de travaux en cours de la production au plus juste dans Microsoft Dynamics 365 for Finance and Operations vous permet d'utiliser le statut d'unité de manutention de kanban pour gérer les matières, les produits semi-finis, et les produits finis qui font partie des travaux en cours.
+Le modèle de travaux en cours de la production au plus juste dans Microsoft Dynamics 365 for Finance and Operations vous permet d'utiliser le statut d'unité de manutention de kanban pour gérer les matières, les produits semi-finis, et les produits finis qui font partie des travaux en cours.
 
 -   **Affecté** - Le kanban peut avoir consommé les matières qui sont comptabilisées dans les travaux en cours.
 -   **Reçu** - Si le kanban fait référence à une dernière activité où le **Stock mis à jour à la réception** est défini sur **Non**, cela représente une unité de manutention totale d'un produit ou d'un produit semi-fini non enregistré en stock.
@@ -122,7 +121,6 @@ Vous devez exécuter la comptabilité à rebours régulièrement pour évaluer l
     -   Tous les coûts indirects calculés pour le matériel consommé dans la période sont calculés et déduits des travaux en cours. Le coût indirect restant est validé comme écart.
 
 5.  Calculer les écarts de production en fonction du coût standard. L'écart est calculé par groupe de coûts.
-
 
 
 

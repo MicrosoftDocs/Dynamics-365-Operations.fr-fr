@@ -1,32 +1,30 @@
 ---
 title: Interaction entre le statut de service et le champ Progression
-description: "Dans l'écran Commandes de service, le champ Progression de l'en-tête reflète le statut de la totalité de la commande de service, et le champ Statut indique le statut des lignes de commande de service individuelles."
+description: Dans l'écran Commandes de service, le champ Progression de l'en-tête reflète le statut de la totalité de la commande de service, et le champ Statut indique le statut des lignes de commande de service individuelles.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2dd7b5160149a38dd62535901c1225bf704f404d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 51ef39266e8de00488954918568d00a297a9b50a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346132"
 ---
-
-
 # <a name="service-status-and-progress-field-interaction"></a>Interaction entre le statut de service et le champ Progression 
 
 [!include [banner](../includes/banner.md)]
@@ -95,6 +93,5 @@ La progression d'une commande de service est en cours si toutes les lignes affic
 Si toutes les lignes d'une commande de service affichent le statut **Validé**, la progression de la commande de service est **Validé**. Si certaines lignes ont le statut **Validé** et d'autres lignes ont le statut **Annulé**, la progression est toujours **Validé**.
 
   
-
 
 

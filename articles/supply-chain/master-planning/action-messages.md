@@ -1,13 +1,13 @@
 ---
 title: Messages d'action
-description: "Un message d'action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant."
+description: Un message d'action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a417abc8b725f4d57ada595da57505ae1347bfc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 33656d6910165dd7c0552c8a033d675561e5542a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349651"
 ---
-
 # <a name="action-messages"></a>Messages d'action
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Sur la page **Groupes de couverture**, vous pouvez sélectionner les messages d'
 | **Diminution**        | Si vous sélectionnez ce message, des commandes fournisseur et d'autres transactions de réception doivent être diminués afin d'éviter des dépassements de niveaux de stock.                                                                                                   |
 | **Augmentation**        | Si vous sélectionnez ce message, des commandes fournisseur et d'autres transactions de réception doivent être augmentés afin d'éviter des ruptures de stock.                                                                                                    |
 | **Actions déduites** | Si vous sélectionnez ce message, des messages d'action sont créés pour les besoins déduits, par exemple, les actions pour les commandes de composants accomplissant la production.                                                                                                   |
-
 
 
 

@@ -1,28 +1,27 @@
 ---
-title: "Informations sur le paiement client (aperçu)"
-description: "Cette rubrique décrit comment les informations sur le paiement client peuvent vous aider à prévoir quand une facture sera payées et permettre aux organisations de créer des stratégies d'optimisation pour améliorer la probabilité d'être payées à temps."
+title: Informations sur le paiement client (aperçu)
+description: Cette rubrique décrit comment les informations sur le paiement client peuvent vous aider à prévoir quand une facture sera payées et permettre aux organisations de créer des stratégies d'optimisation pour améliorer la probabilité d'être payées à temps.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-04-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 9e722db6302d7ef51c01601cde245d4f4a333eba
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344660"
 ---
-
 # <a name="customer-payment-insights-preview"></a>Informations sur le paiement client (aperçu)
 
 [!include[banner](../includes/banner.md)]
@@ -77,5 +76,4 @@ Si vous souhaitez pour tester les informations sur le paiement client (aperçu),
 
 ## <a name="privacy-statement"></a>Déclaration de confidentialité
 
-Les aperçus stockent les données client aux États-Unis. En outre, les aperçus (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 for Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d'un support limité.
-
+Les aperçus stockent les données client aux États-Unis. En outre, les aperçus (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 for Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d'un support limité.

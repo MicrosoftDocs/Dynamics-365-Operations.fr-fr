@@ -1,13 +1,13 @@
---- 
-title: "Inscrire et annuler l'inscription des travailleurs à des avantages"
-description: "Cette procédure illustre comment un collaborateur peut être inscrit à un ou plusieurs avantages, et comment plusieurs collaborateurs peuvent être inscrits à un avantage."
+---
+title: Inscrire et annuler l'inscription des travailleurs à des avantages
+description: Cette procédure illustre comment un collaborateur peut être inscrit à un ou plusieurs avantages, et comment plusieurs collaborateurs peuvent être inscrits à un avantage.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 32f0e641f5e6824df89112aa5ea21dc3a708efa0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341854"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Inscrire et annuler l'inscription des travailleurs à des avantages
 
@@ -57,5 +57,4 @@ Cette procédure illustre comment un collaborateur peut être inscrit à un ou p
 13. Localisez l'enregistrement des résultats d'avantage que vous recherchez.
 14. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 15. Cette page vous permet de consulter quels employés ont été inscrits à l'avantage, ainsi que tous les employés qui n'ont pas été inscrits.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Inscrire un employé à un régime de rémunération fixe"
-description: "La gestionnaire de rémunération et avantages peut affecter des employés à des régimes de rémunération fixe pour gérer leur salaire de base."
+---
+title: Inscrire un employé à un régime de rémunération fixe
+description: La gestionnaire de rémunération et avantages peut affecter des employés à des régimes de rémunération fixe pour gérer leur salaire de base.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: c9c11292feec06a53cd4426a25bfb2aaac7de3e8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353331"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Inscrire un employé à un régime de rémunération fixe
 
@@ -40,5 +40,4 @@ La gestionnaire de rémunération et avantages peut affecter des employés à de
     * Les dates d'effet et d'expiration pour la valeur de rémunération sont définies par défaut entre la date de début et de fin de l'affectation de poste du travailleur. Vous pouvez modifier ces dates si nécessaire.  
     * Si le régime de rémunération fixe est un régime à étapes, sélectionnez l'étape contenant le taux de salaire approprié pour l'employé. Si le régime de rémunération fixe est un régime de niveau, entrez le taux de salaire approprié pour l'employé. Le taux de salaire sera validé par rapport aux paramètres de tolérance pour le plan, et les points de référence minimum et maximum pour le niveau de rémunération de la tâche.  
 8. Cliquez sur OK.
-
 

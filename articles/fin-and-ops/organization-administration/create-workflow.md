@@ -1,13 +1,13 @@
 ---
-title: "Créer des workflows"
-description: "Cette rubrique illustre la création d'un workflow."
+title: Créer des workflows
+description: Cette rubrique illustre la création d'un workflow.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353354"
 ---
-
 # <a name="create-workflows"></a>Créer des workflows
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Cette rubrique illustre la création d'un workflow.
 
 ## <a name="open-the-workflow-editor"></a>Ouverture de l'éditeur de workflow
 
-Le module Microsoft Dynamics 365 for Finance and Operations que vous utilisez détermine les types de workflows que vous pouvez créer. Procédez comme suit pour sélectionner le type de workflow à créer et ouvrir l'éditeur de workflow.
+Le module Microsoft Dynamics 365 for Finance and Operations dans lequel vous travaillez détermine les types de workflow que vous pouvez créer. Procédez comme suit pour sélectionner le type de workflow à créer et ouvrir l'éditeur de workflow.
 
 1. Ouvrez le module pour lequel vous souhaitez créer un workflow. Par exemple, pour créer un workflow pour les demandes d'achat, cliquez sur **Approvisionnements**.
 2. Cliquez sur **Paramétrage** &gt; **\[Workflows de [nom du module\]**.
@@ -85,4 +84,3 @@ Lorsque vous êtes prêts à enregistrer et à activer le workflow, procédez co
 
     - Pour activer cette version du workflow, cliquez sur **Activer la nouvelle version**. Lorsqu'un workflow est activé, les utilisateurs peuvent y soumettre des documents pour traitement.
     - Si vous ne souhaitez pas activer cette version, cliquez sur **Ne pas activer la nouvelle version**. Vous pouvez activer le workflow ultérieurement.
-

@@ -1,13 +1,13 @@
---- 
-title: "Créer un objectif"
-description: "Vous pouvez créer des objectifs, ajouter des activités aux objectifs, suivre les mesures et lier les objectifs à une révision."
+---
+title: Créer un objectif
+description: Vous pouvez créer des objectifs, ajouter des activités aux objectifs, suivre les mesures et lier les objectifs à une révision.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350709"
 ---
 # <a name="create-a-goal"></a>Créer un objectif
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Vous pouvez créer des objectifs, ajouter des activités aux objectifs, suivre les mesures et lier les objectifs à une révision. Cette procédure a été créée à l'aide de la société fictive USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Vous pouvez créer des objectifs, ajouter des activités aux objectifs, suivre les mesures et lier les objectifs à une révision. Cette procédure a été créée à l'aide de la société fictive USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 1. Accédez à Tous les espaces de travail > Libre-service employé.
 2. Cliquez sur Afficher tous les objectifs
@@ -59,5 +59,4 @@ Vous pouvez créer des objectifs, ajouter des activités aux objectifs, suivre l
     * Il existe souvent des objectifs identiques ou similaires pour les membres de l'équipe ou tous les employés.     Votre administrateur ou responsable des ressources humaines peut créer des modèles d'objectif pour ces objectifs. Vous pouvez ajouter un objectif à partir d'un modèle, puis le modifier en fonction de vos chronologies.  
     * Il existe souvent plusieurs objectifs identiques ou similaires pour les membres de l'équipe ou tous les employés.     Votre administrateur ou responsable des ressources humaines peut créer des groupes d'objectif contenant un ou plusieurs modèles d'objectif. Vous pouvez ajouter des objectifs à partir d'un groupe d'objectifs, puis les modifier en fonction de vos chronologies.  
     * Lorsque vous créez une révision, vous pouvez ajouter des objectifs à cette révision. Reportez-vous au guide de tâche pour les révisions pour savoir comment ajouter des objectifs à vos révisions.  
-
 

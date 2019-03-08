@@ -1,13 +1,13 @@
---- 
-title: "Concevoir des expressions de génération d'états électroniques pour appeler les méthodes de classe d'application"
-description: "Ce guide fournit des informations sur la procédure de réutilisation de la logique d'application existante dans les configurations d'états électroniques en appelant les méthodes requises des classes d'application des expressions ER."
+---
+title: Concevoir des expressions de génération d'états électroniques pour appeler les méthodes de classe d'application
+description: Ce guide fournit des informations sur la procédure de réutilisation de la logique d'application existante dans les configurations d'états électroniques en appelant les méthodes requises des classes d'application des expressions ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357241"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Concevoir des expressions de génération d'états électroniques pour appeler les méthodes de classe d'application
 
@@ -34,7 +34,7 @@ Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de la configuration pour la société fictive Litware, Inc. est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».   
-    * Supposons que vous créiez un processus d'analyse des relevés bancaires entrants pour une mise à jour des données d'application. Vous recevrez les relevés bancaires entrants en tant que fichiers TXT contenant les codes IBAN. Dans le cadre du processus d'importation des relevés bancaires, vous devez valider l'exactitude des codes IBAN à l'aide de la logique qui est déjà disponible dans Dynamics 365 for Finance and Operations.   
+    * Supposons que vous créiez un processus d'analyse des relevés bancaires entrants pour une mise à jour des données d'application. Vous recevrez les relevés bancaires entrants en tant que fichiers TXT contenant les codes IBAN. Dans le cadre du processus d'importation des relevés bancaires, vous devez valider l'exactitude des codes IBAN à l'aide de la logique qui est déjà disponible dans Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importer une nouvelle configuration du modèle ER
 1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
@@ -103,7 +103,7 @@ Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la
     * Mise en correspondance avec le modèle de données  
 6. Cliquez sur Enregistrer.
 7. Cliquez sur Concepteur.
-8. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Classe ».
+8. Dans l'arborescence, sélectionnez Dynamics 365 for Operations\Classe.
 9. Cliquez sur Ajouter racine.
     * Ajoutez une nouvelle source de données pour appeler la logique d'application existante pour la validation des codes IBAN.  
 10. Dans le champ Nom, tapez « check_codes ».
@@ -157,5 +157,4 @@ Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la
     * Cliquez sur Parcourir et accédez au fichier SampleIncomingMessage.txt que vous avez précédemment téléchargé.  
 2. Cliquez sur OK.
     * Examinez la sortie au format XML, qui représente les données importées depuis le fichier sélectionné et transférées vers le modèle de données. Notez que seules 3 lignes du fichier TXT importé ont été traitées. Le code IBAN sur la ligne 4 qui n'est pas valide a été ignoré et un message d'erreur s'affiche dans la fenêtre Informations.  
-
 

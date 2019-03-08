@@ -1,13 +1,13 @@
 ---
-title: "Créer et utiliser des champs personnalisés"
-description: "Cette rubrique décrit comment Microsoft Dynamics 365 for Finance and Operations permet à certains utilisateurs de créer des champs personnalisés pour adapter l'application à leur entreprise."
+title: Créer et utiliser des champs personnalisés
+description: Cette rubrique présente comment Microsoft Dynamics 365 for Finance and Operations autorise certains utilisateurs à créer des champs pour personnaliser l'application afin qu'elle réponde à leur activité.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,23 +16,22 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348018"
 ---
-
 # <a name="create-and-work-with-custom-fields"></a>Créer et utiliser des champs personnalisés
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations fournit un ensemble étendu de champs prédéfinis pour gérer une large éventail de processus d'entreprise, mais une société doit parfois suivre des informations supplémentaires dans le système. Pour répondre à ce besoin, Finance and Operations vous permet de créer des champs personnalisés pour adapter l'application à votre entreprise, à condition que vous disposiez des autorisations appropriées pour la fonction.
+Microsoft Dynamics 365 for Finance and Operations fournit un ensemble étendu de champs prédéfinis pour gérer une large éventail de processus d'entreprise, mais une société doit parfois suivre des informations supplémentaires dans le système. Pour répondre à ce besoin, Finance and Operations vous permet de créer des champs personnalisés pour adapter l'application à votre entreprise, à condition que vous disposiez des autorisations appropriées pour la fonction.
 
 La capacité d'ajouter des champs personnalisés est disponible dans la mise à jour de la plateforme 13 et versons ultérieures.
 
-Cette vidéo montre comment il est facile d'ajouter un champ personnalisé à une page : [Ajouter des champs personnalisés dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
+Cette vidéo montre comment il est facile d'ajouter un champ personnalisé à une page : [Ajouter des champs personnalisés dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
 ## <a name="creating-custom-fields"></a>Création de champs personnalisés
 
@@ -160,4 +159,3 @@ Pour des raisons de performances et techniques, seules les tables qui répondent
 - La table ne peut pas étendre une autre table.
 - La table ne peut pas être marquée comme une table système.
 - La table ne peut pas être une table temporaire.
-

@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer des codes taxe"
-description: "Les codes taxe sont créés pour chaque taxe indirecte ou responsabilité que l'entité juridique est obligée de calculer, de collecter et de payer à l'administration fiscale."
+---
+title: Paramétrer des codes taxe
+description: Les codes taxe sont créés pour chaque taxe indirecte ou responsabilité que l'entité juridique est obligée de calculer, de collecter et de payer à l'administration fiscale.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f29442c2ef2e3d0008a74298fda218e4cbd93f8e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 968f4bb9f7d54cdb4de4f7842ed1777c9a9acd64
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349168"
 ---
 # <a name="set-up-sales-tax-codes"></a>Paramétrer des codes taxe
 
@@ -52,5 +52,4 @@ La société fictive USMF est citée en exemple dans cette tâche.
 15. Cliquez sur Enregistrer.
 16. Fermez la page.
 17. Cliquez sur Enregistrer.
-
 

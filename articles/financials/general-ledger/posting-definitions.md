@@ -1,13 +1,13 @@
 ---
-title: "Définitions de validation"
-description: "Cet article fournit des informations sur les définitions de validation, et comment les définir et les lier. Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables."
+title: Définitions de validation
+description: Cet article fournit des informations sur les définitions de validation, et comment les définir et les lier. Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans, LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88e9d1e593f58e8fc9e12ddac7664b6e67ecda6a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9c49e4abe28078f62f46b4eea4e22a268339b569
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359771"
 ---
-
 # <a name="posting-definitions"></a>Définitions de validation
 
 [!include [banner](../includes/banner.md)]
@@ -62,6 +61,5 @@ Les restrictions suivantes s'appliquent lorsque vous créez des liens dans les d
 
 
 Pour plus d'informations, voir [Exemples de définitions de validation](example-posting-definitions.md). 
-
 
 

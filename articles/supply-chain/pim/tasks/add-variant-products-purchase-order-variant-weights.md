@@ -1,13 +1,13 @@
---- 
-title: "Ajouter des variantes de produits à des commandes fournisseur à l'aide des poids des variantes"
-description: "Cette procédure vous guide au long des étapes permettant d'utiliser les poids des variantes pour renseigner automatiquement des lignes de commande fournisseur pour chaque variante d'un produit."
+---
+title: Ajouter des variantes de produits à des commandes fournisseur à l'aide des poids des variantes
+description: Cette procédure vous guide au long des étapes permettant d'utiliser les poids des variantes pour renseigner automatiquement des lignes de commande fournisseur pour chaque variante d'un produit.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 446260a09bd5177877637ac8a288ad584dfa2b2b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3db13646c82ea6dc6949aaa714a5769f9c5ad2a9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345488"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Ajouter des variantes de produits à des commandes fournisseur à l'aide des poids des variantes
 
@@ -46,5 +46,4 @@ Cette procédure vous guide au long des étapes permettant d'utiliser les poids 
 16. Dans le champ Numéro d'article, tapez « 0140 ».
 17. Définir la Quantité sur « 1000 ».
 18. Cliquez sur Enregistrer.
-
 

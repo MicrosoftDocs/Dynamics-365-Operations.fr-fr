@@ -1,13 +1,13 @@
 ---
-title: "Méthode de répartition des coûts totaux"
-description: "Cette rubrique fournit des instructions pour utiliser la répartition des coûts totaux (RCT). La RCT est une méthode de calcul du coût entre l'élément de formule principal pour un lot de commandes et des coproduits définis pour la formule."
+title: Méthode de répartition des coûts totaux
+description: Cette rubrique fournit des instructions pour utiliser la répartition des coûts totaux (RCT). La RCT est une méthode de calcul du coût entre l'élément de formule principal pour un lot de commandes et des coproduits définis pour la formule.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341578"
 ---
-
 # <a name="total-cost-allocation-method"></a>Méthode de répartition des coûts totaux
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Le champ **Répartition des coûts de sous-produit** dans la page **Coproduits**
 -   **Pourcentage** ─ Le montant du coût est calculé comme un pourcentage du coût total des matières premières consommées dans la production. Le pourcentage utilisé pour le calcul est entré dans le champ.
 -   **Quantité de base** ─ Le montant du coût calculé équivaut à un montant par taille de lot standard de l'ordre de fabrication. Ce montant est indépendant de la quantité déclarée dans la production. Le montant utilisé pour le calcul est entré dans le champ.
 -   **Par quantité** ─ Le montant du coût est calculé comme un montant par quantité déclarée de l'élément de formule dans la production. Le montant utilisé pour le calcul est entré dans le champ.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Facturation de projet
-description: "Cet article fournit une vue d'ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs."
+description: Cet article fournit une vue d'ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 57d62293311ec7143b691d4220fa0357d6ba9ef1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346316"
 ---
-
 # <a name="project-invoicing"></a>Facturation de projet
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ Le même document peut inclure des transactions sélectionnées pour l'établiss
 Pour créditer un montant facturé, vous commencez par sélectionner le montant facturé à créditer, puis vous créez un avoir. Vous créez un avoir en suivant la même procédure de création que vous utiliseriez pour générer une facture client. 
 
 Vous pouvez créer une facture dont le montant est négatif ; cette facture est alors classée comme un avoir. Pour créer et imprimer un avoir, vous devez sélectionner les transactions précédemment validées pour une facture client, puis les modifier. À moins que l'adresse principale de l'entité juridique soit située en Allemagne, le titre de la facture est « Facture corrective ».
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Journaux de stock
-description: "Cette rubrique décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique."
+description: Cette rubrique décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique.
 author: perlynne
 manager: AnnBe
 ms.date: 04/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361680"
 ---
-
 # <a name="inventory-journals"></a>Journaux de stock
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,7 @@ Les entités de données prennent en charge les types de scénarios d'intégrati
 Pour plus d'informations, voir [Entités de données](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> OData est activé sur tous les journaux de stock, vous ne pouvez donc pas utiliser le connecteur de données Excel pour que les données soient oubliées, mises à jour et ré-importées dans Dynamics 365 for Finance and Operations. 
+> OData est activé sur tous les journaux de stock, vous ne pouvez donc pas utiliser le connecteur de données Excel pour que les données soient oubliées, mises à jour et ré-importées dans Dynamics 365 for Finance and Operations. 
 
 Une autre différence entre les entités de données de journal est la possibilité d'utiliser des entités composites qui incluent les données d'en-tête et de ligne. Actuellement, vous pouvez utiliser les entités composites pour :
 -   Journal d'ajustement du stock
@@ -120,4 +119,3 @@ Ces deux journaux de stock prennent en charge uniquement le scénario *Initialis
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Entités de données](../../dev-itpro/data-entities/data-entities.md)
-

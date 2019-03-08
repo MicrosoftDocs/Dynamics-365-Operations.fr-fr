@@ -1,30 +1,29 @@
 ---
 title: Espace de travail des paiements fournisseur
-description: "Cette rubrique fournit des informations sur l'espace de travail Paiements fournisseur. L'espace de travail Paiements fournisseur affiche les informations associées au traitement des paiements fournisseur."
+description: Cette rubrique fournit des informations sur l'espace de travail Paiements fournisseur. L'espace de travail Paiements fournisseur affiche les informations associées au traitement des paiements fournisseur.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: fa8ddf52d34c3662e120509156ab0b343bb4cc16
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346109"
 ---
-
 # <a name="vendor-payments-workspace"></a>Espace de travail des paiements fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -69,5 +68,4 @@ Le tableau suivant indique les visualisations qui sont disponibles sur chaque pa
 |         Workflow de paiement          |                                                                                <ul><li>Instances de workflow de paiement fournisseur</li><li>Instances de workflow de paiement fournisseur par approbateur</li><li>Instances de workflow de paiement fournisseur par société</li><li>Nombre moyen de jours dans le workflow par approbateur</li></ul>                                                                                |
 |    Solde fournisseur et client     |                                                                                                                   <ul><li>Solde fournisseur et client</li><li>Solde fournisseur et client par société</li><li>Détails du solde fournisseur et client</li></ul>                                                                                                                    |
 |    Factures avec mise en attente du paiement     |                                                                                         <ul><li>Factures avec mise en attente du paiement</li><li>Détails des factures avec mise en attente du paiement</li><li>Factures avec mise en attente du paiement par société</li><li>Factures avec mise en attente du paiement par groupe de fournisseurs</li></ul>                                                                                          |
-
 

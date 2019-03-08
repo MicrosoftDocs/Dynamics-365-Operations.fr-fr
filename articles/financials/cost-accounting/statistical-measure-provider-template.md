@@ -1,32 +1,31 @@
 ---
-title: "Membres de la dimension statistique et modèles de fournisseur de mesures statistiques"
-description: "Cette rubrique fournit des informations sur les membres de la dimension statistique et les modèles de fournisseur de modèles statistiques. Les membres de la dimension statistique peuvent être utilisés comme base de répartition dans les stratégies telles que la distribution et la répartition des coûts. Ils peuvent également être utilisés pour déclarer la consommation des coûts non monétaires."
+title: Membres de la dimension statistique et modèles de fournisseur de mesures statistiques
+description: Cette rubrique fournit des informations sur les membres de la dimension statistique et les modèles de fournisseur de modèles statistiques. Les membres de la dimension statistique peuvent être utilisés comme base de répartition dans les stratégies telles que la distribution et la répartition des coûts. Ils peuvent également être utilisés pour déclarer la consommation des coûts non monétaires.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360300"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membres de la dimension statistique et modèles de fournisseur de mesures statistiques
 
 [!include [banner](../includes/banner.md)]
@@ -73,7 +72,7 @@ Voici quelques exemples de membres classiques de la dimension statistique.
 
 ## <a name="statistical-measure-provider-template"></a>Modèle de fournisseur de mesures statistiques
 
-Les mesures statistiques peuvent provenir de plusieurs types de sources. Microsoft Dynamics 365 for Finance and Operations est une importante source d'extraction de mesures statistiques. Vous pouvez utiliser un modèle de fournisseur de mesures statistiques pour configurer facilement les mesures statistiques que vous souhaitez extraire.
+Les mesures statistiques peuvent provenir de plusieurs types de sources. Microsoft Dynamics 365 for Finance and Operations est une source formidable pour l'extraction des mesures statistiques. Vous pouvez utiliser un modèle de fournisseur de mesures statistiques pour configurer facilement les mesures statistiques que vous souhaitez extraire.
 
 La définition d'un modèle de fournisseur de mesures statistiques est générique et peut être réutilisée dans plusieurs membres de la dimension statistique.
 
@@ -132,13 +131,13 @@ Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de ges
 > [!NOTE]
 > Dans cet exemple, nous allons créer une relation uniquement pour la **Version réelle**.
 
-Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Dynamics 365 for Finance and Operations – Mesures statistiques**, car nous souhaitons extraire des données de Finance and Operations.
+Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Dynamics 365 for Finance and Operations – Mesures statistiques**, car nous souhaitons extraire des données de Finance and Operations.
 
 **Source de données**
 
 | Nom        | Connecteur de données                                                                     | Membre de la dimension statistique |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| ETP D365FO | Dynamics 365 for Finance and Operations – Mesures statistiques | ETP                         |
+| ETP D365FO | Dynamics 365 for Finance and Operations - Mesures statistiques | ETP                         |
 
 **Configuration du fournisseur de données**
 
@@ -220,13 +219,13 @@ Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de ges
 > [!NOTE]
 > Dans cet exemple, nous allons créer une relation uniquement pour la **Version réelle**.
 
-Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Dynamics 365 for Finance and Operations – Mesures statistiques**, car nous souhaitons extraire des données de Finance and Operations.
+Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Dynamics 365 for Finance and Operations – Mesures statistiques**, car nous souhaitons extraire des données de Finance and Operations.
 
 **Source de données**
 
 | Nom           | Connecteur de données                                                                     | Membre de la dimension statistique |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| CC emballage D365FO | Dynamics 365 for Finance and Operations – Mesures statistiques | CC emballage                      |
+| CC emballage D365FO | Dynamics 365 for Finance and Operations - Mesures statistiques | CC emballage                      |
 
 Le système identifie que ProdRouteTrans est une table où chaque enregistrement appartient à une entité juridique distincte. Par conséquent, vous devez sélectionner l'entité juridique à partir de laquelle les transactions doivent être importées.
 
@@ -347,4 +346,3 @@ Si la base de répartition des membres de la dimension prédéfinie Électricit�
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Bases de répartition](allocation-bases.md)
-

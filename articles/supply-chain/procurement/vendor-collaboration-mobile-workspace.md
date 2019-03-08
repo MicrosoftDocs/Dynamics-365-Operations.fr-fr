@@ -1,13 +1,13 @@
 ---
-title: "Espace de travail de collaboration fournisseur sur téléphone mobile"
-description: "Cette rubrique fournit des informations sur l'espace de travail mobile Collaboration du fournisseur. Cet espace de travail permet aux fournisseurs d'être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour."
+title: Espace de travail de collaboration fournisseur sur téléphone mobile
+description: Cette rubrique fournit des informations sur l'espace de travail mobile Collaboration du fournisseur. Cet espace de travail permet aux fournisseurs d'être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358644"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>Espace de travail de collaboration fournisseur sur téléphone mobile
 
 [!include [banner](../includes/banner.md)]
@@ -33,8 +32,8 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Collabo
 
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Microsoft Dynamics 365 for Unified Operations
 
-## <a name="overview"></a>Vue d'ensemble 
-L'espace de travail mobile **Collaboration du fournisseur** tient les fournisseurs informés des nouvelles commandes fournisseur, de sorte qu'ils puissent les afficher et y répondre dans le client Web Microsoft Dynamics 365 for Finance and Operations. 
+## <a name="overview"></a>Présentation 
+L'espace de travail mobile **Collaboration du fournisseur** tient les fournisseurs informés des nouvelles commandes fournisseur, de sorte qu'ils puissent y répondre dans le client Web Microsoft Dynamics 365 for Finance and Operations. 
 
 >[!NOTE]
 > L'espace de travail mobile doit être utilisé comme complément de l'interface Web de collaboration du fournisseur, mais pas comme un outil de remplacement. 
@@ -58,13 +57,13 @@ L'espace de travail mobile **Collaboration du fournisseur** permet à un fournis
 -   Afficher les informations sur une demande utilisateur soumise par le fournisseur, et suivre l'état de la demande. (Cette tâche nécessite un rôle de sécurité supplémentaire.)
 
 ## <a name="prerequisites"></a>Conditions préalables
-Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
+Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions préalables si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
-Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Collaboration du fournisseur**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions requises si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
+Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Collaboration du fournisseur**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
-Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Update 3 ou version ultérieure
+Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Update 3 ou version ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
 
 <table>
 <thead>
@@ -76,11 +75,11 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 </thead>
 <tbody>
 <tr class="odd">
-<td>Le KB 3216943 doit être implémenté si vous utilisez Platform update 3.</td>
+<td>Le KB 3216943 doit être implémenté si vous utilisez Platform Update 3.</td>
 <td>Administrateur système</td>
-<td>Le KB 3216943 est une mise à jour binaire qui est requise si vous utilisez Platform update 3. Pour implémenter ce KB, l'administrateur système doit procéder comme suit :
+<td>Le KB 3216943 est une mise à jour binaire qui est requise si vous utilisez Platform Update 3. Pour implémenter ce KB, l'administrateur système doit procéder comme suit :
 <ol>
-<li>Téléchargez le KB 3216943 depuis Microsoft Dynamics Lifecycle Services (LCS).</li>
+<li>Téléchargez KB 3216943 depuis Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Installez la mise à jour binaire, qui est fournie en tant que package déployable. Pour plus d'informations sur l'application d'un package déployable, voir <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Appliquer un package déployable</a>.</li>
 </ol></td>
 </tr>
@@ -115,12 +114,12 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 
 Téléchargez et installez l'application mobile Dynamics 365 for Unified Operations :
 
--   [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
 1.  Démarrez l'application sur votre appareil mobile.
-2.  Entrez votre URL Microsoft Dynamics 365.
+2.  Saisissez votre URL Microsoft Dynamics 365.
 4.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d'identification.
 5.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
@@ -171,4 +170,3 @@ Toutes les modifications apportées à la réponse de la ligne de commande sont 
 
 ### <a name="open-confirmed-orders"></a>Commandes confirmées en cours
 Lorsque la commande fournisseur est confirmée par le client (son statut est passé à **Confirmé**), elle apparaît dans la liste des commandes confirmées en cours. Elle restera dans la liste jusqu'à ce qu'elle soit enregistrée comme reçue par le client.
-

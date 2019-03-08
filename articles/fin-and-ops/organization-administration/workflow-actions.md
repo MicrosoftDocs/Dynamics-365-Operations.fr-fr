@@ -1,13 +1,13 @@
 ---
 title: Actions dans les processus d'approbation d'un workflow
-description: "Cet article décrit les mesures que peut prendre chaque participant au processus d'approbation de workflow."
+description: Cet article décrit les mesures que peut prendre chaque participant au processus d'approbation de workflow.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 829ee16b8fd72a0808a657419524487d9c1b3123
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361749"
 ---
-
 # <a name="actions-in-workflow-approval-processes"></a>Actions dans les processus d'approbation d'un workflow
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Lorsqu'un approbateur demande la modification d'un document, ce dernier est renv
 Supposons que Sam ait envoyé un état de dépenses de 12 000 EUR, et que ce document soit affecté à Sue. Si Sue demande une modification, l'état de dépenses est renvoyé à Sam.
 
 Sam peut soumettre de nouveau l'état de dépenses. Il peut effectuer les modifications demandées d'abord, ou soumettre de nouveau la version d'origine de l'état de dépenses. S'il soumet de nouveau l'état de dépenses, celui-ci est renvoyé à Frank pour approbation, car Frank est le premier approbateur dans le processus d'approbation.
-

@@ -1,13 +1,13 @@
---- 
-title: "Créer une option de menu d'appareil mobile pour la consolidation de contenants"
-description: "Cette procédure décrit comment créer une option de menu d'appareil mobile pour le travail de consolidation de contenants."
+---
+title: Créer une option de menu d'appareil mobile pour la consolidation de contenants
+description: Cette procédure décrit comment créer une option de menu d'appareil mobile pour le travail de consolidation de contenants.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bfe07426e9ff11c60c5f703b810ba09d6c863399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7b8d20561ff092bd64c17c5d9335e9f54a1d191b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343648"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Créer une option de menu d'appareil mobile pour la consolidation de contenants
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment créer une option de menu d'appareil mobile pour le travail de consolidation de contenants. Cela permet aux magasiniers de consolider les articles d'un contenant avec les articles d'un autre contenant dans le même emplacement. Par exemple, ils peuvent utiliser cette procédure si les étapes intermédiaires suivantes sont les mêmes sur les deux ordres d'exécution, de sorte que le travail ne doit être exécuté qu'une seule fois pour les articles fusionnés. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. La tâche est généralement effectuée par un responsable d'entrepôt. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Cette procédure décrit comment créer une option de menu d'appareil mobile pour le travail de consolidation de contenants. Cela permet aux magasiniers de consolider les articles d'un contenant avec les articles d'un autre contenant dans le même emplacement. Par exemple, ils peuvent utiliser cette procédure si les étapes intermédiaires suivantes sont les mêmes sur les deux ordres d'exécution, de sorte que le travail ne doit être exécuté qu'une seule fois pour les articles fusionnés. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. La tâche est généralement effectuée par un responsable d'entrepôt. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 1. Accédez à Gestion des entrepôts > Configuration > Appareil mobile > Options de menu d'appareil mobile.
 2. Cliquez sur Nouveau.
@@ -36,5 +36,4 @@ Cette procédure décrit comment créer une option de menu d'appareil mobile pou
 4. Tapez une valeur dans le champ Titre.
 5. Dans le champ Mode, sélectionnez « Indirect ».
 6. Dans le champ Code d'activité, sélectionnez « Consolider les contenants ».
-
 

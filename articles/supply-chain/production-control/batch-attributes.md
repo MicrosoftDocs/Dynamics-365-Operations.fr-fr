@@ -1,13 +1,13 @@
 ---
 title: Attributs de lot
-description: "Cette rubrique fournit des informations sur les attributs de lot. Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. La rubrique décrit également les manières d'affecter des attributs de lot et d'y effectuer une recherche lorsque vous réservez des traitements par lots."
+description: Cette rubrique fournit des informations sur les attributs de lot. Les attributs de lot sont des caractéristiques de matières premières et de produits finis qui constituent des lots de stock. La rubrique décrit également les manières d'affecter des attributs de lot et d'y effectuer une recherche lorsque vous réservez des traitements par lots.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 325e647185e3eb4c0eacdfd00c320804e31ddb48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347627"
 ---
-
 # <a name="batch-attributes"></a>Attributs de lot
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Vous pouvez accéder aux pages des produits que vous sélectionnez dans la page 
 
 ## <a name="reserve-batches"></a>Réservation de lots
 Vous pouvez effectuer une recherche dans les attributs de lot lorsque vous effectuez des réservations de lot pour une commande client pour honorer la commande d'un client, ou lorsque vous prélevez et réservez des lots pour un ordre de fabrication. La recherche permet de trouver un lot de stock qui contient le produit présentant l'attribut de lot souhaité. Une fois le ou les lots trouvés, vous pouvez réserver le produit dans la ligne de mouvement de stock d'origine.
-
 
 
 

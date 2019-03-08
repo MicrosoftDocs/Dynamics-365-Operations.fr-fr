@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer les affectations d'élément accessoire"
-description: "Cette procédure décrit comment paramétrer une affectation d'élément accessoire."
+---
+title: Paramétrer les affectations d'élément accessoire
+description: Cette procédure décrit comment paramétrer une affectation d'élément accessoire.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b69bd2029914efd31569c57272339e27ef1bd6a3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 31787aa180639b934b837b98dc170070d33fd56f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356620"
 ---
 # <a name="set-up-accessorial-assignments"></a>Paramétrer les affectations d'élément accessoire
 
@@ -48,5 +48,4 @@ Cette procédure décrit comment paramétrer une affectation d'élément accesso
     * Le type Frais accessoires détermine comment calculer les frais réels. Dans cet exemple il s'agit de frais fixes.  
 14. Entrez un nombre dans le champ Frais accessoires.
 15. Cliquez sur Enregistrer.
-
 

@@ -1,31 +1,30 @@
 ---
 title: Vente et retourner des produits ne faisant pas partie de l'assortiment d'un magasin
-description: "Avec Dynamics 365 for Retail, vous pouvez vendre et retourner des produits en dehors d'assortiments."
+description: Avec Dynamics 365 for Retail, vous pouvez vendre et renvoyer les produits en dehors des assortiments.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352296"
 ---
-
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Vente et retourner des produits ne faisant pas partie de l'assortiment d'un magasin
 
 [!include [banner](includes/banner.md)]
@@ -38,7 +37,7 @@ Voici quelques scénarios classiques :
 + Un détaillant ne propose pas des produits spécifiques dans le magasin ou n'en a pas en stock dans le magasin où le client s'est rendu, mais les produits sont disponibles dans d'autres magasins. L'associé du magasin aide le client en recherchant ou en parcourant les produits dans l'autre magasin, les ajoute au chariot et procède à la validation en sélectionnant un mode de livraison.
 + Un détaillant a plusieurs magasins dans et autour d'une ville ou d'un code postal spécifique et ne souhaite pas obliger les clients à retourner les produits dans le magasin d'achat. À la place, les clients peuvent retourner les produits dans n'importe quel magasin.
 
-Ces scénarios courants sont disponibles pour les détaillants qui utilisent Dynamics 365 for Retail. Retail vous permet de :
+Ces scénarios courants sont disponibles pour les détaillants qui utilisent Dynamics 365 for Retail. Retail vous permet de :
 
 + Rechercher ou parcourir les produits dans d'autres magasins.
 + Rechercher ou parcourir tous les produits lancés.
@@ -47,4 +46,3 @@ Ces scénarios courants sont disponibles pour les détaillants qui utilisent Dyn
 + Récupérer les produits dans le magasin actuel ou un autre magasin.
 + Annuler une commande dans le magasin actuel ou un autre magasin.
 + Retourner une commande avec ou sans l'accusé de réception dans le magasin actuel ou un autre magasin.
-

@@ -1,13 +1,13 @@
 ---
-title: "Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded"
-description: "Cette rubrique explique comment inclure un état Power BI sous l'onglet Analyses d'un espace de travail."
+title: Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
+description: Cette rubrique explique comment inclure un état Power BI sous l'onglet Analyses d'un espace de travail.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355217"
 ---
-
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,7 @@ Si vous étendez un espace de travail d'application existant ou que vous introdu
 ## <a name="add-a-pbix-file-as-a-resource"></a>Ajoutez un fichier .pbix comme ressource
 Avant de commencer, vous devez créer ou obtenir l'état Power BI que vous inclurez de l'espace de travail. Pour plus d'informations sur la création des états analytiques, voir [Mise en route de Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
 
-Procédez comme suit pour ajouter un fichier .pbix comme artefact de projet Visual Studio.
+Procédez comme suit pour ajouter un fichier Visual Studio comme artefact de projet Visual Studio.
 
 1. Créez un projet dans le modèle approprié.
 2. Dans l'Explorateur de solution, sélectionnez le projet, cliquez avec le bouton droit, puis sélectionnez **Ajouter** \> **Nouvel article**.
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | Valeur booléenne qui indique si le volet de filtre doit être affiché (**vrai**) ou masqué (**faux**).     |
 | showNavPane      | Valeur booléenne qui indique si le volet de navigation doit être affiché (**vrai**) ou masqué (**faux**). |
 | defaultFilters   | Filtres par défaut pour l'état Power BI.                                                                 |
-

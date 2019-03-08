@@ -1,13 +1,13 @@
 ---
-title: "Périphériques de vente au détail"
-description: "Cette rubrique explique les concepts relatifs aux périphériques de vente au détail."
+title: Périphériques de vente au détail
+description: Cette rubrique explique les concepts relatifs aux périphériques de vente au détail.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347857"
 ---
-
 # <a name="retail-peripherals"></a>Périphériques de vente au détail
 
 [!include [banner](includes/banner.md)]
@@ -40,13 +39,13 @@ Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &g
 
 ### <a name="devices"></a>Périphériques
 
-Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Périphériques**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé à une caisse enregistreuse de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. Les unités peuvent être mappées sur les types d'application suivants : Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android et Retail Modern POS – iOS.
+Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Périphériques**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé à une caisse enregistreuse de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. Les appareils peuvent être associés aux types d'application suivants : Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android et Retail Modern POS – iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
 Modern POS est le programme de PDV pour Microsoft Windows. Il peut être déployé sur les systèmes d'exploitation (OS) Windows 10.
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a>PDV Cloud
 
 Cloud POS est une version basée sur navigateur du programme Modern POS, accessible par un navigateur Web.
 
@@ -75,7 +74,7 @@ Les périphériques de PDV sont généralement divisés en classes. Cette sectio
 
 ### <a name="printer"></a>Imprimante
 
-Les imprimantes comprennent les imprimantes traditionnelles de tickets de PDV et les imprimantes pleine page. Les imprimante sont prises en charge via le standard Liaison et incorporation d'objets pour PDV (OPOS) et les interfaces de pilotes Microsoft Windows. Il est possible d'utiliser jusqu'à deux imprimantes en même temps. Cette capacité prend en charge les cas où les tickets clients des transactions au comptant sans livraison sont imprimés sur les imprimantes de ticket, alors que les commandes client, qui contiennent plus d'informations, sont imprimées sur une imprimante pleine page. Les imprimantes de tickets peuvent être connectées directement à un ordinateur par USB, à un réseau par Ethernet, ou être connectées par Bluetooth.
+Les imprimantes comprennent les imprimantes traditionnelles de tickets de PDV et les imprimantes pleine page. Les imprimantes sont prises en charge via les liaisons et l'intégration d'objets pour les périphériques Retail POS (OPOS) et les interfaces de pilotes Microsoft Windows. Il est possible d'utiliser jusqu'à deux imprimantes en même temps. Cette capacité prend en charge les cas où les tickets clients des transactions au comptant sans livraison sont imprimés sur les imprimantes de ticket, alors que les commandes client, qui contiennent plus d'informations, sont imprimées sur une imprimante pleine page. Les imprimantes de tickets peuvent être connectées directement à un ordinateur par USB, à un réseau par Ethernet, ou être connectées par Bluetooth.
 
 ### <a name="scanner"></a>Scanneur
 
@@ -117,9 +116,9 @@ La prise en charge des périphériques de paiement est implémentée par l'inter
 
 ### <a name="opos"></a>OPOS
 
-Pour permettre d'utiliser la plus large gamme possible de périphériques avec Microsoft Dynamics 365 for Retail, la norme OLE pour le secteur des PDV est la principale plateforme de périphériques prise en charge dans Microsoft Dynamics 365 for Retail. La norme OLE pour le secteur des PDV a été produite par NRF (National Retail Federation), qui établit les protocoles de transmission standard pour les périphériques de vente au détail. OPOS est une implémentation largement adoptée de la norme OLE pour le secteur des PDV. Il a été développé dans le milieu des années 1990 et a depuis lors été plusieurs fois actualisé. OPOS fournit une architecture de pilote de périphérique qui permet l'intégration facile des matériels de PDV avec les systèmes de PDV fondés sur Windows. Les contrôles OPOS gèrent les communications entre les matériels compatibles et le logiciel de PDV. Un contrôle OPOS est composé de deux parties :
+Pour permettre d'utiliser la plus large gamme possible de périphériques avec Microsoft Dynamics 365 for Retail, la norme OLE pour le secteur des PDV est la principale plateforme de périphériques prise en charge dans Microsoft Dynamics 365 for Retail. La norme OLE pour le secteur des PDV a été produite par NRF (National Retail Federation), qui établit les protocoles de transmission standard pour les périphériques de vente au détail. OPOS est une implémentation largement adoptée de la norme OLE pour le secteur des PDV. Il a été développé dans le milieu des années 1990 et a depuis lors été plusieurs fois actualisé. OPOS fournit une architecture de pilote de périphérique qui permet l'intégration facile des matériels de PDV avec les systèmes de PDV fondés sur Windows. Les contrôles OPOS gèrent les communications entre les matériels compatibles et le logiciel de PDV. Un contrôle OPOS est composé de deux parties :
 
-- **Objet de contrôle** – L'objet de contrôle pour une classe de périphérique (comme une ligne d'affichage) fournit l'interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d'objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant PDV de Microsoft Dynamics 365 for Retail. Par conséquent, les tests garantissent que, si Microsoft Dynamics 365 for Retail prend en charge une classe de périphérique via OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n'est pas nécessaire de tester explicitement chaque type de périphérique.
+- **Objet de contrôle** – L'objet de contrôle pour une classe de périphérique (comme une ligne d'affichage) fournit l'interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d'objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant de PDV de Microsoft Dynamics 365 for Retail. Par conséquent, les tests garantissent que, si Microsoft Dynamics 365 for Retail prend en charge une classe de périphérique via OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n'est pas nécessaire de tester explicitement chaque type de périphérique.
 - **Objet de service** – L'objet de service fournit les communications entre l'objet de contrôle (CCO) et le périphérique. Généralement, l'objet de service pour un périphérique est fourni par le fabricant de celui-ci. Toutefois, dans certains cas, vous devez télécharger l'objet de service à partir du site Web du fabricant. Par exemple, il peut s'y trouver un objet de service plus récent disponible. Pour trouver l'adresse du site Web du fabricant, consultez la documentation de votre matériel.
 
 [![Objet de contrôle et objet de service](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -127,7 +126,7 @@ Pour permettre d'utiliser la plus large gamme possible de périphériques avec M
 La prise en compte de la norme OLE pour l'implémentation d'OPOS pour les PDV garantit que, si les fabricants de périphérique et les éditeurs de PDV implémentent la norme correctement, les systèmes de PDV et les périphériques pris en charge peuvent fonctionner ensemble, même s'ils n'ont pas été testés ensemble au préalable.
 
 > [!NOTE]
-> La prise en charge d'OPOS ne garantit pas la prise en charge de tous les périphériques dotés de pilotes OPOS. Microsoft Dynamics 365 for Retail doit en premier lieu prendre en charge ce type ou cette classe de périphérique par l'intermédiaire d'OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.
+> La prise en charge d'OPOS ne garantit pas la prise en charge de tous les périphériques dotés de pilotes OPOS. Microsoft Dynamics 365 for Retail doit d'abord prendre en charge ce type de périphérique, ou la classe, via OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.
 
 ### <a name="windows"></a>Windows
 
@@ -137,7 +136,7 @@ L'impression de tickets au PDV est optimisée pour OPOS. L'impression via OPOS t
 - les périphériques qui sont connectés via l'imprimante (« en guirlande ») peuvent ne pas fonctionner correctement lors de l'utilisation des pilotes Windows. Par exemple, la caisse enregistreuse peut ne pas s'ouvrir, ou l'imprimante de bordereau peut ne pas fonctionner comme prévu.
 - OPOS prend également en charge un ensemble plus étendu de variables spécifiques aux imprimantes de tickets de vente au détail, telles que l'impression de bordereau ou la coupe du papier.
 
-Si les contrôles OPOS sont disponibles pour l'imprimante Windows que vous utilisez, l'imprimante doit encore fonctionner correctement avec Microsoft Dynamics 365 for Retail.
+Si les contrôles OPOS sont disponibles pour l'imprimante Windows que vous utilisez, l'imprimante doit encore fonctionner correctement avec Microsoft Dynamics 365 for Retail.
 
 ### <a name="universal-windows-platform"></a>Universal Windows Platform
 
@@ -203,7 +202,7 @@ Pour plus d'informations, voir [Installation et configuration de la station mat�
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Paramétrage et configuration de Modern POS pour Windows
 
-Pour plus d'informations, voir [Installation et configuration de Retail Modern POS](retail-modern-pos-device-activation.md).
+Pour plus d'informations, voir [Installation et configuration de Retail Modern POS](retail-modern-pos-device-activation.md)
 
 ### <a name="opos-device-setup-and-configuration"></a>Paramétrage et configuration de périphérique OPOS
 
@@ -223,7 +222,7 @@ Le tableau suivant indique les topologies et les scénarios de déploiement pris
 | Client      | Station matérielle IPC | Station matérielle IIS |
 |-------------|----------------------|----------------------|
 | Application Windows | Oui                  | Oui                  |
-| Cloud POS   | N°                   | Oui                  |
+| PDV Cloud   | N°                   | Oui                  |
 | Android     | N°                   | Oui                  |
 | iOS         | N°                   | Oui                  |
 
@@ -234,7 +233,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 | Client      | Station matérielle IPC | Station matérielle IIS |
 |-------------|----------------------|----------------------|
 | Application Windows | Oui                  | Oui                  |
-| Cloud POS   | N°                   | Oui                  |
+| PDV Cloud   | N°                   | Oui                  |
 | Android     | N°                   | Oui                  |
 | iOS         | N°                   | Oui                  |
 
@@ -296,7 +295,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 <ul>
 <li>OPOS</li>
 <li>Réseau
-<blockquote>[!NOTE] Un seul tiroir-caisse peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</blockquote>
+<blockquote>REMARQUE : Un seul tiroir-caisse peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 <ul>
 <li>OPOS</li>
 <li>Réseau
-<blockquote>[!NOTE] Un seul tiroir-caisse peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</blockquote>
+<blockquote>REMARQUE : Un seul tiroir-caisse peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 <ul>
 <li>OPOS</li>
 <li>Pilote Windows
-<blockquote>[!NOTE] Pour les imprimantes Windows en réseau, l'utilisateur de la station de matière doit disposer d'une autorisation d'accès à l'imprimante.</blockquote>
+<blockquote>REMARQUE : Pour les imprimantes Windows en réseau, l'utilisateur de la station de matière doit disposer d'une autorisation d'accès à l'imprimante.</blockquote>
 </li>
 <li>Réseau</li>
 </ul>
@@ -405,7 +404,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 <ul>
 <li>OPOS</li>
 <li>Réseau
-<blockquote>[!NOTE] Un seul tiroir-caisse par profil matériel peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</blockquote>
+<blockquote>REMARQUE : Un seul tiroir-caisse par profil matériel peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 <ul>
 <li>OPOS</li>
 <li>Pilote Windows
-<blockquote>[!NOTE] Pour les imprimantes Windows en réseau, l'utilisateur de la station de matière doit disposer d'une autorisation d'accès à l'imprimante.</blockquote>
+<blockquote>REMARQUE : Pour les imprimantes Windows en réseau, l'utilisateur de la station de matière doit disposer d'une autorisation d'accès à l'imprimante.</blockquote>
 </li>
 <li>Réseau</li>
 </ul>
@@ -492,7 +491,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 <ul>
 <li>OPOS</li>
 <li>Réseau
-<blockquote>[!NOTE] Un seul tiroir-caisse par profil matériel peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</blockquote>
+<blockquote>REMARQUE : Un seul tiroir-caisse par profil matériel peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</blockquote>
 </li>
 </ul>
 </td>
@@ -523,7 +522,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 Pour plus d'informations sur la création de profils matériels, voir [Définir et tenir à jour des clients de canal, y compris des registres et des stations matérielles](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Pour Microsoft Dynamics 365 for Retail, version 1611, le profil de station matérielle n'est plus utilisé. Les attributs que vous avez préalablement paramétrés dans le profil de station matérielle font désormais partie de la station matérielle elle-même.
+> Pour la version 1611 de Microsoft Dynamics 365 for Retail, le profil de station matérielle n'est plus utilisé. Les attributs que vous avez préalablement paramétrés dans le profil de station matérielle font désormais partie de la station matérielle elle-même.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS pour Windows avec une station matérielle IPC (intégrée)
 
@@ -743,7 +742,6 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Personnalisée    | Connecté via le réseau     |
-| Star         | TSP100   | OPOS      | Nécessite les pilotes TSP650II |
 | HP           | F7M67AA  | OPOS      | Alimenté par USB               |
 
 #### <a name="bar-code-scanner"></a>Lecteur de codes-barres
@@ -818,7 +816,6 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Personnalisée    | Connecté via le réseau     |
-| Star         | TSP100   | OPOS      | Nécessite les pilotes TSP650II |
 | HP           | F7M67AA  | OPOS      | Alimenté par USB               |
 
 #### <a name="payment-terminal"></a>Terminal de paiement
@@ -894,4 +891,3 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Simulateur périphérique pour la vente au détail](dev-itpro/retail-peripheral-simulator.md)
-

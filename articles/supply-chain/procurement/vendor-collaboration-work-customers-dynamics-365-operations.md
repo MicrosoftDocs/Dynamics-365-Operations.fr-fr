@@ -1,13 +1,13 @@
 ---
 title: Collaboration fournisseur avec des clients
-description: "Cette rubrique décrit comment utiliser la collaboration fournisseur dans Microsoft Dynamics 365 for Finance and Operations pour utiliser des CF et surveiller le stock de consignation."
+description: Cette rubrique décrit comment utiliser la collaboration fournisseur dans Microsoft Dynamics 365 for Finance and Operations pour utiliser des CF et surveiller le stock de consignation.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342935"
 ---
-
 # <a name="vendor-collaboration-with-customers"></a>Collaboration fournisseur avec des clients
 
 [!include [banner](../includes/banner.md)]
@@ -144,4 +143,3 @@ Les informations accessibles sont le nom du fournisseur, les adresses, les infor
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md)
-

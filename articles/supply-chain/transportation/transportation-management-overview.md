@@ -1,13 +1,13 @@
 ---
 title: Vue d'ensemble de la gestion du transport
-description: "Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355608"
 ---
-
 # <a name="transportation-management-overview"></a>Vue d'ensemble de la gestion du transport
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
 
-La Gestion du transport vous permet d'utiliser les transports de votre société et d'identifier les solutions utilisant des fournisseurs et des prestataires d'acheminement spécifiques pour les commandes entrantes et sortantes. Par exemple, vous pouvez identifier le parcours le plus rapide ou le moins cher pour une expédition. Le tableau suivant décrit les principaux scénarios utilisés pour la gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
+La Gestion du transport vous permet d'utiliser les transports de votre société et d'identifier les solutions utilisant des fournisseurs et des prestataires d'acheminement spécifiques pour les commandes entrantes et sortantes. Par exemple, vous pouvez identifier le parcours le plus rapide ou le moins cher pour une expédition. Le tableau suivant décrit les principaux scénarios utilisés pour la Gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
 
 <table>
 <colgroup>
@@ -51,12 +50,12 @@ La Gestion du transport vous permet d'utiliser les transports de votre société
 <td>Utilisez la Gestion du transport pour le transport entrant et/ou sortant.</td>
 </tr>
 <tr class="even">
-<td>La propre flotte de la société est disponible pour la livraison/le chargement et les frais de livraison sont transférés aux clients.</td>
+<td>La propre flotte de la société est disponible pour la livraison/le chargement et les frais de livraison sont transférés aux clients.</td>
 <td>Pour les processus sortants, vous pouvez utiliser la Gestion du transport pour déterminer les frais de transport et les transférer aux clients. Toutefois, le processus de rapprochement de la facture du transporteur n'est nécessaire.</td>
 </tr>
 <tr class="odd">
 <td>La propre flotte de la société est disponible pour la livraison/le chargement, mais des frais de livraison ne sont pas transférés aux clients, car les prix des produits comprennent le transport.</td>
-<td>Une grande partie de la fonctionnalité Gestion du transport n'est pas nécessaire. Toutefois, vous pouvez utiliser la Gestion du transport pour déterminer les taux de transport et pour ajuster le prix de vente en conséquence.</td>
+<td>Une grande partie de la fonctionnalité Gestion du transport n'est pas nécessaire. Toutefois, vous pouvez utiliser la Gestion du transport pour déterminer les taux de transport et pour ajuster le prix de vente en conséquence.</td>
 </tr>
 <tr class="even">
 <td>Le service logistique est fourni par une autre entité juridique dans la même société.</td>
@@ -85,7 +84,6 @@ Vous pouvez planifier et traiter une charge sortante pour expédier des articles
 
 ## <a name="load-building"></a>Création de chargement
 Finance and Operations fournit une stratégie de création de chargement qui est nommée Stratégie de création de chargement basée sur le volume. Cette stratégie vous permet d'utiliser les valeurs maximales spécifiées pour la hauteur et le poids dans le modèle de chargement, sinon vous pouvez remplacer les paramètres en entrant de nouvelles valeurs. Pour utiliser cette stratégie, sélectionnez-la dans le champ **Stratégie de création de chargement** dans l'organisateur **Paramétrage** sur la page **Atelier de création de chargement**. En outre, vous pouvez ajouter vos propres stratégies de création de chargement en créant une nouvelle classe dans l'arbre d'objets d'application (AOA).
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Gestion de processus de recrutement
-description: "Cet article décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d'un processus de recrutement, notamment les moyens pour annoncer les postes vacants et recruter des candidats, en suivant les informations propres aux candidats et aux candidatures, en interviewant les candidats et en sélectionnant un ou plusieurs candidats pour pourvoir les postes vacants au sein de votre organisation."
+description: Cet article décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d'un processus de recrutement, notamment les moyens pour annoncer les postes vacants et recruter des candidats, en suivant les informations propres aux candidats et aux candidatures, en interviewant les candidats et en sélectionnant un ou plusieurs candidats pour pourvoir les postes vacants au sein de votre organisation.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9695a7a3f98220f48627e85a51bc6dae5adb35c2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345672"
 ---
-
 # <a name="manage-recruiting-processes"></a>Gestion de processus de recrutement
 
 [!include [banner](../includes/banner.md)]
@@ -105,4 +104,3 @@ Les champs **Mise en correspondance des qualifications** et **Profils de mise en
 ## <a name="hiring-applicants"></a>Embauche de candidats
 
 Utilisez la page **Candidatures** pour embaucher un candidat. Lorsque vous engagez un candidat, l'enregistrement de la candidature aura le statut **Employé** et l'enregistrement de personne du carnet d'adresses global du candidat est associé au nouvel enregistrement du collaborateur. Les modifications apportées aux informations du carnet d'adresses global pour le nouvel enregistrement de travailleur sont également affichées dans l'enregistrement de candidat. Cela permet de réduire la saisie de données si le nouveau collaborateur pose un jour une candidature pour un autre poste au sein de votre entreprise. Pour embaucher un collaborateur existant à un nouveau poste, cliquez sur **Modifier le poste** dans le menu déroulant **Statut de la candidature** pour lancer le processus de transfert.
-

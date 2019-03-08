@@ -1,13 +1,13 @@
 ---
 title: Contenu Power BI Recrutement
-description: "Cette rubrique décrit le contenu Power BI Recrutement. Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+description: Cette rubrique décrit le contenu Power BI Recrutement. Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347995"
 ---
-
 # <a name="recruiting-power-bi-content"></a>Contenu Power BI Recrutement
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ Cette rubrique décrit le contenu Microsoft Power BI **Recrutement**. Elle expli
 Le contenu Power BI **Recrutement** s'affiche dans l'espace de travail **Gestion des recrutements**.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>États et éléments visuels de l'espace de travail Gestion des recrutements
-L'espace de travail **Gestion des recrutements** contient un onglet **Analyses** . Cet onglet contient le contenu Power BI intégré pour le recrutement. Le contenu se compose d'un onglet Vue d'ensemble et d'onglets supplémentaires contenant des détails. Le tableau suivant décrit les états de chaque onglet.
+L'espace de travail **Gestion des recrutements** contient un onglet **Analyses**. Cet onglet contient le contenu Power BI intégré pour le recrutement. Le contenu se compose d'un onglet Vue d'ensemble et d'onglets supplémentaires contenant des détails. Le tableau suivant décrit les états de chaque onglet.
 
 | Etat               | Sommaire |
 |----------------------|----------|
@@ -48,7 +47,7 @@ L'espace de travail **Gestion des recrutements** contient un onglet **Analyses**
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Le tableau suivant indique les entités sur lesquelles le contenu Power BI **Recrutement** est basé.
+Le tableau suivant indique les entités sur lesquelles le pack de contenu Power BI **Recrutement** est basé.
 
 | Entité               | Sommaire                                                         | Relations avec d'autres entités |
 |----------------------|------------------------------------------------------------------|-----------------------------------|
@@ -66,4 +65,3 @@ Le tableau suivant indique les entités sur lesquelles le contenu Power BI **Rec
 | Performances          | Classement, description et modèle de classement                            | Candidat, candidat employé, candidat dont le contrat est terminé |
 | Projet de recrutement  | Description, statut du projet, et ouvertures de projet                | Candidat, candidat employé, candidat dont le contrat est terminé |
 | Candidat dont le contrat est terminé | Candidats terminés, motif, performances et date de fin de contrat | Société, décalage de calendrier, date, emplacement géographique, performances, démographie, emploi, support, projet de recrutement, nom du candidat |
-

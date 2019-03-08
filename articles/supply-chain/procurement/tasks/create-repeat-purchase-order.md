@@ -1,13 +1,13 @@
---- 
-title: "Créer une commande fournisseur répétée"
-description: "Cette procédure vous montre comment créer une commande fournisseur répétée (CF) en copiant des lignes d'un document de commande fournisseur précédent dans un nouveau CF ou un CF existant."
+---
+title: Créer une commande fournisseur répétée
+description: Cette procédure vous montre comment créer une commande fournisseur répétée (CF) en copiant des lignes d'un document de commande fournisseur précédent dans un nouveau CF ou un CF existant.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 74dcee8a614363cf1f1ebc71e3e39a14c59bb774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 257582d889ff55753f9bdbd234f0540503d20f27
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345879"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Créer une commande fournisseur répétée
 
@@ -84,5 +84,4 @@ Cette procédure vous montre comment créer une commande fournisseur répétée 
     * Notez que la ligne de commande unique qui est sur cette commande fournisseur est également sélectionnée.  
 7. Cliquez sur OK.
     * La ligne de commande supplémentaire a été ajoutée à votre commande fournisseur.  
-
 

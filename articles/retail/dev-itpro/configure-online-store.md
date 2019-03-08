@@ -1,13 +1,13 @@
 ---
 title: Configurer les magasins en ligne
-description: "Cet article fournit des liens vers des rubriques qui vous aident à configurer et à gérer de manière centralisée un magasin en ligne."
+description: Cet article fournit des liens vers des rubriques qui vous aident à configurer et à gérer de manière centralisée un magasin en ligne.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations, Retail
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: d353baf67540b64168f29be3506d73e721e73523
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354366"
 ---
-
 # <a name="configure-online-stores"></a>Configurer les magasins en ligne
 
 [!include [banner](../includes/banner.md)]
@@ -54,12 +53,11 @@ Les rubriques répertoriées dans l'aide du tableau suivant vous permettent de c
 | Gérer les frais d'expédition.             | Paramétrez et gérez les frais d'expédition qui sont spécifiques au magasin en ligne.                                                                     | [Paramétrer les frais d'expédition des magasins en ligne](https://technet.microsoft.com/en-us/library/jj728714.aspx) (Contenu TechNet pour AX 2012)                                                                                                                           |
 | Gérer les modes de livraison.            | Gérez les modes de livraison proposés par le magasin en ligne.                                                                                        | [Paramétrer les modes de livraison](https://technet.microsoft.com/en-us/library/jj728719.aspx) (Contenu TechNet pour AX 2012)                                                                                                                                            |
 
-## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Paramétrer l'échange de données entre Microsoft Dynamics 365 for Retail et le magasin en ligne
+## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Paramétrage de l'échange de données entre Microsoft Dynamics 365 for Retail et le magasin en ligne
 
 | Tâche                                 | Détails                                                                                                                               | Rubriques                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Paramétrer les profils d'intégration de canal. | Les profils permettent aux composants de Retail de communiquer entre eux. Paramétrez des profils avant de configurer les paramètres d'échange de données. | [Paramétrer un profil Real-time Service](https://technet.microsoft.com/en-us/library/hh580631.aspx) (Contenu TechNet pour AX 2012) [Paramétrage d'un profil de canal](https://technet.microsoft.com/en-us/library/jj677402.aspx) (Contenu TechNet pour AX 2012) |
-
 
 
 

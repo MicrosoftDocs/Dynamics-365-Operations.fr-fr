@@ -1,13 +1,13 @@
---- 
-title: "Tenir à jour les modèles par défaut de dimension financière"
-description: "Cette procédure indique comment paramétrer les modèles par défaut de dimension financière."
+---
+title: Tenir à jour les modèles par défaut de dimension financière
+description: Cette procédure indique comment paramétrer les modèles par défaut de dimension financière.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 374c162fce2bc9ff5006737ac31fcb3d436fd540
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6a4cb15bdfc89081e0dc9d1161670eddc412281d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349237"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Tenir à jour les modèles par défaut de dimension financière
 
@@ -42,5 +42,4 @@ Cette procédure indique comment paramétrer les modèles par défaut de dimensi
 10. Entrez un autre pourcentage de sorte que le pourcentage total soit égal à 100 %.
 11. Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.
 12. Cliquez sur Enregistrer.
-
 

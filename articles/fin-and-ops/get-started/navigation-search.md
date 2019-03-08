@@ -1,13 +1,13 @@
 ---
 title: Recherche de navigation
-description: "Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages dans Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages dans Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353009"
 ---
-
 # <a name="navigation-search"></a>Recherche de navigation
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ La liste des résultats de la recherche est limitée à 10 articles. Si vous ne 
 ## <a name="development"></a>Développement
 
 D'un point de vue du développement, la fonctionnalité de recherche de navigation est très accessible car il n'existe pratiquement aucun délai entre le déploiement des options de menu et leur capacité à s'afficher dans les résultats de la recherche. Tant que les options de menu sont liées au volet de navigation ou au tableau de bord, elles peuvent automatiquement faire l'objet d'une recherche.
-

@@ -1,13 +1,13 @@
---- 
-title: "Afficher les entrées de coût d'un objet de coût"
-description: "Cette procédure décrit la manière d'afficher les entrées de coût pour un objet de coût."
+---
+title: Afficher les entrées de coût d'un objet de coût
+description: Cette procédure décrit la manière d'afficher les entrées de coût pour un objet de coût.
 author: AndersGirke
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, InventValueTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9c67ac7dd06219b9521e4832b18204bcf8662a81
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 611d4c211d59d3077a54f92dea82a078145eb310
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350318"
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Afficher les entrées de coût d'un objet de coût
 
@@ -38,5 +38,4 @@ Cette procédure décrit la manière d'afficher les entrées de coût pour un ob
 6. Cliquez sur Entrées de coût.
 7. Utiliser le filtre rapide pour appliquer un filtre au champ Nombre avec une valeur de « p000031 ».
     * Si les entrées de coût sont vides, définissez Date de début au 31 janvier 2012 et Date de fin au 31 décembre 2012.  
-
 

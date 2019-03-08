@@ -1,13 +1,13 @@
 ---
-title: "Vue d'ensemble du débit direct SEPA"
-description: "L'Espace unique de paiement en euros (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l'entreprise ou l'organisation et la banque sont localisées. Il n'existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l'Union européenne (EU), ainsi que l'Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l'Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes."
+title: Vue d'ensemble du débit direct SEPA
+description: L'Espace unique de paiement en euros (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l'entreprise ou l'organisation et la banque sont localisées. Il n'existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l'Union européenne (EU), ainsi que l'Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l'Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c418c6412e4bd300616eed4577e2b1d3f3d181
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bf4ad99938eb3da5e72afbad9a5440df16854606
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359196"
 ---
-
 # <a name="sepa-direct-debit-overview"></a>Vue d'ensemble du débit direct SEPA
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Vous pouvez générer des fichiers de paiement électronique pour les débits di
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Comment les remboursements et les retours fonctionnent-ils avec les débits directs SEPA ?
 Dans les deux modèles de débit direct SEPA, les clients ont certains droits de remboursement. Le client peut rappeler toutes les transactions autorisées pendant une période de huit semaines après la date d'échéance sans donner de motif. Dans le cas de transactions non autorisées, la période est étendue à 13 mois après la date d'échéance. Les contrepassations de tous les paiements qui ont été effectuées sont accomplies manuellement à l'aide du bouton Annuler le paiement dans l'écran Transactions client.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Finaliser le paramétrage de base d'un produit générique lancé"
-description: "Cette procédure indique comment terminer la configuration minimale requise avant que le produit générique puisse être utilisé dans les versions de nomenclature."
+---
+title: Finaliser le paramétrage de base d'un produit générique lancé
+description: Cette procédure indique comment terminer la configuration minimale requise avant que le produit générique puisse être utilisé dans les versions de nomenclature.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0d3a91977c38c0ce0f9fe114bec943c7cb32a5d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 35617f5bec877fbe8a89d015eda16a66ee14d335
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354780"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Finaliser le paramétrage de base d'un produit générique lancé
 
@@ -63,5 +63,4 @@ Il s'agit de la troisième procédure (parmi les huit) qui explique comment cré
     * Sélectionnez Production pour spécifier que l'option d'approvisionnement par défaut pour ce produit générique est de le produire.  
 24. Fermez la page.
 25. Fermez le formulaire Détails des produits lancés.
-
 

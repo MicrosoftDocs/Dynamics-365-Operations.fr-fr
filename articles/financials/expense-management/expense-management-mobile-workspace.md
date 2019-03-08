@@ -1,13 +1,13 @@
 ---
-title: "Espace de travail mobile pour la gestion des dépenses"
-description: "Cette rubrique fournit des informations sur l'espace de travail mobile pour la gestion des dépenses. Cet espace de travail permet aux utilisateurs de capturer et charger une réception, afin de pouvoir l'associer à un état de dépenses ultérieurement. Les utilisateurs peuvent également créer rapidement une ligne de dépense à l'aide d'un reçu joint, puis créer et gérer leurs états de dépenses."
+title: Espace de travail mobile pour la gestion des dépenses
+description: Cette rubrique fournit des informations sur l'espace de travail mobile pour la gestion des dépenses. Cet espace de travail permet aux utilisateurs de capturer et charger une réception, afin de pouvoir l'associer à un état de dépenses ultérieurement. Les utilisateurs peuvent également créer rapidement une ligne de dépense à l'aide d'un reçu joint, puis créer et gérer leurs états de dépenses.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344338"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Espace de travail mobile pour la gestion des dépenses
 
 [!include [banner](../includes/banner.md)]
@@ -35,18 +34,18 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **pour la
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Microsoft Dynamics 365 for Unified Operations
 
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Plusieurs organisations exigent qu'une copie du reçu soit ajoutée à un état de dépenses de voyage ou commerciales afin que l'employé soit remboursé. L'espace de travail mobile **Gestion des dépenses** permet aux utilisateurs de créer rapidement de nouvelles lignes de dépense sur l'appareil mobile de leur choix en joignant la photo du reçu. Alternativement, les utilisateurs peuvent prendre en photo le reçu puis l'associer à un état de dépenses ultérieurement. Les employés peuvent également créer et gérer leurs états de dépenses, puis les soumettre pour approbation et remboursement à l'aide d'un appareil mobile.
 
 
 Spécifiquement, l'espace de travail mobile **Gestion des dépenses** permet aux utilisateurs d'effectuer les tâches suivantes :
 
-- Prendre une photo d'un reçu, et la télécharger dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez ensuite joindre cette photo à un état de dépenses ultérieurement.
+- Prenez une photo d'une réception, et téléchargez-la dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez ensuite joindre cette photo à un état de dépenses ultérieurement.
 - Charger un fichier contenant le reçu capturé. Vous pouvez ensuite joindre ce fichier à un état de dépenses ultérieurement.
 - Créer une nouvelle ligne de dépense à l'aide d'un reçu joint. Vous pouvez alors ajouter une ligne à un état de dépenses ultérieurement, et l'envoyer pour approbation et remboursement.
 
-Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, vous pouvez également utiliser les fonctionnalités suivantes :
+Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, vous pouvez également utiliser ces fonctions :
 
 - Créer un nouvel état de dépenses.
 - Associer des transactions de carte de crédit et autres dépenses précédemment créées dans un état de dépenses.
@@ -58,13 +57,13 @@ Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, vous pouvez
 - Approuver ou rejeter les états de dépenses dont vous êtes un approbateur.
 
 ## <a name="prerequisites"></a>Conditions préalables
-Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
+Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions préalables si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
-Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Gestion des dépenses**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions requises si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
+Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Gestion des dépenses**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
-Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
+Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 <td>Administrateur système</td>
 <td>Le KB 4019015 est une mise à jour X++ ou un correctif de métadonnées qui contient l'espace de travail mobile <strong>Gestion des dépenses</strong>. Pour implémenter le KB 4019015, un administrateur système doit procéder comme suit :
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées depuis Microsoft Dynamics Lifecycle Services</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Installez le correctif de métadonnées</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Créez un module déployable</a> contenant les modèles <strong>ApplicationSuite</strong> et <strong>ExpenseMobile</strong>, et téléchargez le module déployable vers LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Appliquer le package déployable</a>.</li>
@@ -94,10 +93,10 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Télécharger et installer l'application mobile Dynamics 365 for Operations
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Téléchargez et installez l'application mobile Dynamics 365 for Operations.
 Téléchargez et installez l'application mobile Dynamics 365 for Unified Operations :
 
-- [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
@@ -243,4 +242,3 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 22. Sélectionnez **Soumettre**.
 23. Entrez des commentaires pour l'approbateur.
 24. Sélectionnez **Terminé**.
-

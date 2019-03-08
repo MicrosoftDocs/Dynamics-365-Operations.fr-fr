@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer les ordres de qualité"
-description: "Cette procédure décrit comment activer un processus de gestion de la qualité dans lequel le stock entrant doit être inspecté immédiatement après l'enregistrement des arrivées."
+---
+title: Paramétrer les ordres de qualité
+description: Cette procédure décrit comment activer un processus de gestion de la qualité dans lequel le stock entrant doit être inspecté immédiatement après l'enregistrement des arrivées.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters, InventTestReportSetup, InventTestTable, DefaultDashboard, InventTestVariable, InventTestVariableOutcome, InventItemSampling, InventTestQualityGroup, InventTestItemQualityGroupAdd, SysQueryForm, InventTestItemQualityGroup, InventTestGroup, InventTestAssociationTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5a073de7bdfd2ef597c09a8066ff2b6a7721ca62
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 73981313fc662094ee4f8bb15a88271e16d41193
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356988"
 ---
 # <a name="set-up-quality-orders"></a>Paramétrer les ordres de qualité
 
@@ -143,5 +143,4 @@ Cette procédure décrit comment activer un processus de gestion de la qualité 
 15. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 16. Cliquez sur Enregistrer.
 17. Fermez la page.
-
 

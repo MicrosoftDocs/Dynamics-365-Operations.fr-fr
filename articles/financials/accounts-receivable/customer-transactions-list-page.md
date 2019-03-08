@@ -1,13 +1,13 @@
 ---
 title: Page de liste des transactions client
-description: Cette rubrique fournit des informations sur la page de liste Transactions client pour Microsoft Dynamics 365 for Finance and Operations.
+description: Cette rubrique fournit des informations sur la page de la liste des transactions client pour Microsoft Dynamics 365 for Finance and Operations.
 author: mikefalkner
 manager: aolson
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
+ms.openlocfilehash: b9936a66cc8c8abb24601dae91dcfca77e4f58a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341693"
 ---
-
 # <a name="customer-transactions-list-page"></a>Page de liste des transactions client
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Le bouton **Afficher les règlements** dans le volet Actions permet d'accéder r
 
 4. Dans la boîte de dialogue, vous pouvez effectuer plusieurs tâches. Sélectionnez un ou plusieurs N° documents, puis sélectionnez l'un des boutons suivants :
 
-    - **Afficher les informations associées** – Affiche toutes les transactions du journal des paiements qui ont été créées dans le journal des paiements associé au document sélectionné. En outre, tous les règlements associés à ces paiements sont affichés. Lorsque vous affichez les paiements associés, le libellé de ce bouton est remplacé par **Afficher les règlements**. Sélectionnez **Afficher les règlements** pour afficher uniquement les transactions disponibles lorsque vous avez ouvert pour la première fois la boîte de dialogue **Afficher les règlements**.
+    - **Vue associée** – Permet d'afficher toutes les transactions du journal des paiements et toutes les transactions du grand livre pour le client qui ont été créées dans les journaux dans lesquels les documents affichés dans la liste ont été créés. Par exemple, si un paiement est affiché, tous les paiements du journal des paiements dans lesquels il a été créé, seront affichés. Si une facture ou un paiement est affiché et s'il a été créé dans un grand livre, tous les documents du grand livre dans lequel il a été créé seront affichés. Tous les règlements associés à la liste des documents apparaissent également. Lorsque vous affichez les paiements associés, le libellé de ce bouton est remplacé par **Afficher les règlements**. Sélectionnez **Afficher les règlements** pour afficher uniquement les transactions disponibles lorsque vous avez ouvert pour la première fois la boîte de dialogue **Afficher les règlements**.
     - **Afficher l'historique** – Affiche l'historique des règlements pour les N° documents. Sélectionnez **Fermer** pour fermer la boîte de dialogue.
     - **Afficher la comptabilité** – Affiche tous les N° documents associés aux documents sélectionnés. Sélectionnez **Fermer** pour fermer la boîte de dialogue.
     - **Exporter** – Exportez les N° documents sélectionnés vers Microsoft Excel.
@@ -98,4 +97,3 @@ Chaque champ a un impact différent sur la transaction lorsque vous le modifiez�
 - **Modifier les conditions d'escompte de règlement** - Les escomptes de règlement sont modifiés, selon la date de référence et les conditions d'escompte de règlement.
 
 Lorsque vous avez terminé de modifier les paramètres de paiement, cliquez sur **Fermer** pour enregistrer vos modifications.
-

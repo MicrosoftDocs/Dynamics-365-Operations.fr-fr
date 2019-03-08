@@ -1,13 +1,13 @@
---- 
-title: "Cycle de vie d'un lot de commandes de la création au démarrage"
-description: "Cette procédure vous guide dans la première partie du cycle de vie d'un lot de commandes."
+---
+title: Cycle de vie d'un lot de commandes de la création au démarrage
+description: Cette procédure vous guide dans la première partie du cycle de vie d'un lot de commandes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, ProdBOM, PmfProdCoBy, ProdParmCostEstimation, ProdCalcTrans, ProdParmRelease, ProdSchedule, ProdRouteJob, ProdParmStartUp, ProdJournalTransBOM, ProdJournalTransRoute
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6484c1954ff4cc600938adb07b5384f1edce8bf7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 94f706241545282fd2744c3be4edc253f2998aff
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343119"
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>Cycle de vie d'un lot de commandes de la création au démarrage
 
@@ -91,5 +91,4 @@ Les conditions préalables à l'exécution de la procédure avec un autre ensemb
 11. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 12. Fermez la page.
 13. Fermez la page.
-
 

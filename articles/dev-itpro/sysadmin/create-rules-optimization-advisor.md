@@ -1,32 +1,31 @@
 ---
-title: "Créer des règles pour le Conseiller en optimisation"
-description: "Cette rubrique décrit comment ajouter de nouvelles règles au Conseiller en optimisation."
+title: Créer des règles pour le Conseiller en optimisation
+description: Cette rubrique décrit comment ajouter de nouvelles règles au Conseiller en optimisation.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354159"
 ---
-
 # <a name="create-rules-for-optimization-advisor"></a>Créer des règles pour le Conseiller en optimisation
 
 [!include [banner](../includes/banner.md)]
@@ -255,5 +254,4 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-Pour plus d'informations, visionnez la courte vidéo YouTube : [Conseiller en optimisation dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
+Pour plus d'informations, consultez la brève vidéo YouTube : [Conseiller en optimisation dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

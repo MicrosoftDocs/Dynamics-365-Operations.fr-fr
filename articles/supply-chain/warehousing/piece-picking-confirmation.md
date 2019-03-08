@@ -1,13 +1,13 @@
 ---
-title: "Confirmation de prélèvement de pièces"
-description: "Cette rubrique décrit comment vous paramétrez et appliquez la confirmation de prélèvement des pièces d'un périphérique mobile."
+title: Confirmation de prélèvement de pièces
+description: Cette rubrique décrit comment vous paramétrez et appliquez la confirmation de prélèvement des pièces d'un périphérique mobile.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9b85414dd1385dc3d8c97632eaaeb252759590ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62b637b81a522c353067248deea79cfbf98518e9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349628"
 ---
-
 # <a name="piece-picking-confirmation"></a>Confirmation de prélèvement de pièces
 
 [!include [banner](../includes/banner.md)]
@@ -51,5 +50,4 @@ Les options suivantes sont disponibles pour la sélection lorsque le type de tra
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Confirmation de prélèvement de pièces | Disponible pour les types de travail de prélèvement et d'inventaire. La confirmation de produit est automatiquement activée. Permet de confirmer chaque pièce du stock de l'appareil mobile. |
 |  Nombre maximal de pièces  |                   Disponible pour le travail de prélèvement si la confirmation de prélèvement de pièce est activée. Fixe une limite au nombre de pièces que vous devez confirmer.                   |
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Supprimer une tâche de kanban du programme"
-description: "Cette procédure consiste à supprimer une tâche de kanban d'un processus planifié du programme en basculant le statut de la tâche sur Non planifié."
+---
+title: Supprimer une tâche de kanban du programme
+description: Cette procédure consiste à supprimer une tâche de kanban d'un processus planifié du programme en basculant le statut de la tâche sur Non planifié.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, SysLookupMultiSelectGrid, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b4d994be5c6bb1edc6f0fc64494a19a5babf72ae
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9a0f246bfe42dde0befdf5c4f01d2ad1e1200b12
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352066"
 ---
 # <a name="remove-a-kanban-job-from-the-schedule"></a>Supprimer une tâche de kanban du programme
 
@@ -45,5 +45,4 @@ Cette procédure consiste à supprimer une tâche de kanban d'un processus plani
 3. Cliquez sur Rétablir le statut de la tâche.
 4. Cliquez sur OK.
     * Cela va basculer le statut de la tâche actuel de « Planifié » à « Non planifié » et l'enlèvera du tableau de traitement.   
-
 

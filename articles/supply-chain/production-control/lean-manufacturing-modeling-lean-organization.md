@@ -1,13 +1,13 @@
 ---
-title: "Modélisation d'une organisation au plus juste"
-description: "L'article fournit des informations sur les concepts clés de la modélisation d'une organisation au plus juste."
+title: Modélisation d'une organisation au plus juste
+description: L'article fournit des informations sur les concepts clés de la modélisation d'une organisation au plus juste.
 author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 254616174d3f3c449e2a55dfc5f080d6276105b0
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350985"
 ---
-
 # <a name="modeling-a-lean-organization"></a>Modélisation d'une organisation au plus juste
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Dans les scénarios de production basés sur des ordres de fabrication, les mati
 
 Pour réduire les délais de livraison et le stock excédentaire entre les centres de travail provoqués par la production par lots, le concept de lean manufacturing introduit les réapprovisionnements de kanban et les supermarchés dans la fabrication et le réapprovisionnement d'entrepôt. En général, ces fonctionnalités perturbent la production des cycles de kanban partiellement indépendants. Le réapprovisionnement d'un kanban pour un produit semi-fini n'est plus déclenché par une commande pour un produit fini. 
 
-Pour rétablir un contexte de production et de coût pour les différents scénarios de kanban proposés dans Microsoft Dynamics 365 for Finance and Operations, les flux de production basés sur l'activité sont présentés comme l'épine dorsale du lean manufacturing. Toutes les règles de kanban se rapportent à cette structure prédéfinie. Le modèle basé sur les activités prend en charge le paramétrage d'un large éventail de scénarios. Toutefois, ce modèle ne complique pas les choses pour les employés de l'atelier, car tous les scénarios utilisent la même interface utilisateur basée sur les activités.
+Pour rétablir un contexte de production et de coût pour les différents scénarios de kanban proposés dans Microsoft Dynamics 365 for Finance and Operations, les flux de production basés sur l'activité sont présentés comme l'épine dorsale du lean manufacturing. Toutes les règles de kanban se rapportent à cette structure prédéfinie. Le modèle basé sur les activités prend en charge le paramétrage d'un large éventail de scénarios. Toutefois, ce modèle ne complique pas les choses pour les employés de l'atelier, car tous les scénarios utilisent la même interface utilisateur basée sur les activités.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Produits semi-finis (niveaux autres que la nomenclature)
 Lean manufacturing intègre des kanbans pour les produits et les produits semi-finis inventoriés en une structure unique, offrant ainsi une expérience utilisateur unifiée pour tous les incidents. En raison de cette architecture, des niveaux supplémentaires de nomenclature n'ont plus besoin d'être entrés pour permettre d'utiliser des kanbans pour les produits semi-finis. Cette architecture permet également de réduire les mouvements de stock à un minimum.
@@ -65,7 +64,6 @@ Pour mieux prendre en charge l'amélioration continue, les flux de production so
 
 ## <a name="simplicity"></a>Simplicité
 Pour la mise en œuvre de Lean Manufacturing, nous avons choisi l'approche axée sur le flux de production et l'activité, qui autorise la modélisation de scénarios de production simples et complexes dans une architecture évolutive unique.  Un examen plus attentif du concept d'activité révèle une nouvelle simplicité pour les utilisateurs qui en ont vraiment besoin : les collaborateurs de l'atelier et de la logistique. En générant des états en fonction des tâches basées sur l'activité au lieu des mouvements de stock, une interface utilisateur unifiée pour toutes les variantes de lean manufacturing transfère la complexité commerciale de l'interface utilisateur vers sa juste place : le flux de production en tant qu'épine dorsale du lean manufacturing.
-
 
 
 

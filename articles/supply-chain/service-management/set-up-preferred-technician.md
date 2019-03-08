@@ -1,32 +1,30 @@
 ---
-title: "Paramétrage d'un technicien préféré"
-description: "Vous pouvez sélectionner tout travailleur comme technicien préféré pour un accord ou une commande de service."
+title: Paramétrage d'un technicien préféré
+description: Vous pouvez sélectionner tout travailleur comme technicien préféré pour un accord ou une commande de service.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable, SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e904db7312563b8b7dc584c9fa4d40b947db4db5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 390e436b63fdfe82e0b743e7f286cae3bb29be55
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341509"
 ---
-
-
 # <a name="set-up-a-preferred-technician"></a>Paramétrage d'un technicien préféré 
 
 [!include [banner](../includes/banner.md)]
@@ -68,6 +66,5 @@ Vous pouvez sélectionner tout travailleur comme technicien préféré pour un a
 
 [Accords de service (écran)](https://technet.microsoft.com/en-us/library/aa617823\(v=ax.60\))
   
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Synchroniser les catégories de dépense de projet entre Finance and Operations et Project Service Automation"
-description: "Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les catégories de dépense de projet entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Project Service Automation."
+title: Synchroniser les catégories de dépense de projet entre Finance and Operations et Project Service Automation
+description: Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les catégories de dépense du projet entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Project Service Automation.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: c4d09fde2cf4335553243c136590f9f3135db97a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347834"
 ---
-
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchroniser les catégories de dépense de projet entre Finance and Operations et Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les catégories de dépense de projet entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Project Service Automation.
+Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les catégories de dépense du projet entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Project Service Automation.
 
 > [!NOTE]
-> - L'intégration de tâche de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et le verrouillage des fonctionnalités sont disponibles dans la version 8.0 de Microsoft Dynamics 365 for Finance and Operations.
-> - L'intégration des transactions réelles est disponible dans la version 8.01 de Microsoft Dynamics 365 for Finance and Operations ou ultérieure.
-> - Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, après avoir installé KB 4132657 et KB 4132660, vous pourrez utiliser les modèles pour intégrer les tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et les transactions réelles, ainsi que pour configurer le verrouillage des fonctionnalités. Si vous devez réinitialiser les répartitions comptables, nous vous recommandons d'installer également KB 4131710.
+> - L'intégration des tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et le verrouillage des fonctionnalités sont disponibles dans la version 8.0 de Microsoft Dynamics 365 for Finance and Operations.
+> - L'intégration des chiffres réels est disponible dans Microsoft Dynamics 365 for Finance and Operations version 8.0.1 ou version ultérieure.
+> - Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, après avoir installé KB 4132657 et KB 4132660, vous pourrez utiliser les modèles pour intégrer les tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et les transactions réelles, ainsi que pour configurer le verrouillage des fonctionnalités. Si vous devez réinitialiser les répartitions comptables, nous vous recommandons d'installer également KB 4131710.
 
 ## <a name="data-flow-for-project-service-automation-and-finance-and-operations"></a>Flux de données pour Project Service Automation et Finance and Operations
 
@@ -125,4 +124,3 @@ L'illustration suivante présente un exemple de mise en correspondance des tâch
 > La mise en correspondance indique les informations de champ qui sont synchronisées entre Project Service Automation et Finance and Operations.
 
 [![Mise en correspondance des modèles](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
-

@@ -1,13 +1,13 @@
---- 
-title: "Calculer une nomenclature à l'aide d'une même structure de niveaux (février 2016)"
-description: "Cette procédure montre comment calculer le coût d'un produit fini à l'aide d'un éclatement à un seul niveau basé sur la feuille de coûts."
+---
+title: Calculer une nomenclature à l'aide d'une même structure de niveaux (février 2016)
+description: Cette procédure montre comment calculer le coût d'un produit fini à l'aide d'un éclatement à un seul niveau basé sur la feuille de coûts.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: f74f8e4efc4474693f0a5b543c1300c3b64ecda0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361588"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Calculer une nomenclature à l'aide d'une même structure de niveaux (février 2016)
 
@@ -43,5 +43,4 @@ Cette procédure montre comment calculer le coût d'un produit fini à l'aide d'
 8. Cliquez sur Afficher les détails du calcul.
     * Il vous faudra peut-être cliquer sur les points de suspension (…) pour afficher cette option du menu supérieur.    Voici la composition du coût : •    10 est dérivé d'ITEM_A, 10 d'ITEM_B, 10 de BOM_2. Dans ce cas, il n'existe aucun détail pour BOM_2, car il a été entré comme coût standard de 10 mais n'a pas été obtenu via le calcul.  •  7 est dérivé du temps de réglage, qui est un coût constant, et le chiffre 7 supplémentaire est dérivé de l'opération d'exécution (processus).  •   Il existe également d'autres montants qui correspondent aux coûts indirects.  
 9. @SysTaskRecorder:_RequestClose
-
 

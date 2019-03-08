@@ -1,13 +1,13 @@
 ---
-title: "Définir les stratégies de dépenses"
-description: "Vous pouvez définir des stratégies de dépenses que vos employés doivent suivre lorsqu'ils saisissent et soumettent des états de dépenses et des demandes de voyage dans Microsoft Dynamics 365 for Finance and Operations."
+title: Définir les stratégies de dépenses
+description: Vous pouvez définir des stratégies de dépenses que vos travailleurs sont tenus de suivre lorsqu'ils entrent et soumettent des états de dépenses et des demandes de voyage dans Microsoft Dynamics 365 for Finance and Operations.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342429"
 ---
-
 # <a name="expense-policies"></a>Stratégies des dépenses
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ Vous pouvez définir trois types de stratégies :
   et New York soient chers pendant la période de vacances. Vous pouvez définir une règle de frais de vol limitant      
   les frais des vols vers New York à 5 000 DKK et spécifier que cette règle s'applique entre le 15 mars et      
   le 15 septembre.
-

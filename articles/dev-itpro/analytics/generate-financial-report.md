@@ -1,13 +1,13 @@
 ---
-title: "Générer les états financiers"
-description: "Cette rubrique fournit des informations sur la génération d'un état financier."
+title: Générer les états financiers
+description: Cette rubrique fournit des informations sur la génération d'un état financier.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340888"
 ---
-
 # <a name="generate-financial-reports"></a>Générer les états financiers
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ Lorsque vous générez un état, les options que vous avez spécifiées sous les
 
 ## <a name="generate-a-financial-report"></a>Générer un état financier
 
-Pour générer un état financier avec Microsoft Dynamics 365 for Finance and Operations, accédez à **Comptabilité** \> **Recherches et états** \> **États financiers**.
+Pour générer un état financier avec Microsoft Dynamics 365 for Finance and Operations, accédez à **Comptabilité** \> **Recherches et états** \> **États financiers**.
 
 - Sélectionnez un état à générer, puis cliquez sur **Générer**.
 - Renseignez le champ **Date de l'état** et cliquez sur **OK**.
@@ -115,7 +114,7 @@ Les comptes manquants sont déterminés à l'aide des valeurs les plus basses et
 > [!TIP]
 > À des fins de validation, ce processus doit être exécuté avant la génération des rapports mensuels et lorsque vous créez des blocs élémentaires.
 
-Les états qui ont des plages des valeurs sont moins susceptibles d'avoir des comptes manquants. Si possible, utilisez les plages dans le bloc élémentaire pour inclure de nouveaux comptes lorsqu'ils sont créés. Si une définition d'état est définie sur la société @ANY, vous pouvez alors vous connecter à une société spécifique et exécuter une analyse de compte manquante pour cette société.
+Les états qui ont des plages des valeurs sont moins susceptibles d'avoir des comptes manquants. Si possible, utilisez les plages dans le bloc élémentaire pour inclure de nouveaux comptes lorsqu'ils sont créés. Si une définition de rapport est définie sur @ANY (n'importe quelle société), vous pouvez vous connecter à une société spécifique et exécuter l'analyse des comptes manquants pour cette société.
 
 > [!NOTE]
 > Si une nouvelle société a été ajoutée, vous devez l'ajouter dans les arborescences de génération d'états dans tous les états existants, sinon elle ne sera pas incluse dans l'analyse des comptes manquants.
@@ -158,4 +157,3 @@ Lorsque vous exécutez une analyse de compte manquante, les raccourcis clavier s
 [États financiers](financial-reporting-intro.md)
 
 [Interface du Concepteur de rapports](report-designer-interface.md)
-

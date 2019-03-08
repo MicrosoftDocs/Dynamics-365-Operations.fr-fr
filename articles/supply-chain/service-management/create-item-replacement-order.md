@@ -1,30 +1,29 @@
 ---
-title: "Création d'un ordre de remplacement d'article"
-description: "Les ordres de remplacement d'article sont généralement créés après le retour et l'inspection d'un produit."
+title: Création d'un ordre de remplacement d'article
+description: Les ordres de remplacement d'article sont généralement créés après le retour et l'inspection d'un produit.
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f0cd629658972f98e2233dfa287940c4444b82a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355010"
 ---
-
 # <a name="create-an-item-replacement-order"></a>Création d'un ordre de remplacement d'article 
 
 [!include [banner](../includes/banner.md)]
@@ -50,9 +49,9 @@ Les ordres de remplacement d'article sont généralement créés après le retou
 
 1.  Cliquez sur **Ventes et marketing** \> **Commun** \> **Ordres de retour** \> **Tous les ordres de retour**.
 
-2.  Créez un ordre de retour, ou sélectionnez un ordre de retour dans la liste pour ouvrir l'écran **Ordre de retour - Numéro de retour marchandises : %1, %2**.
+2.  Créez un ordre de retour, ou sélectionnez une commande retournée dans la liste pour ouvrir l'écran **Ordre de retour - Numéro de retour marchandises : %1, %2**.
 
-3.  Cliquez sur **Rechercher une commande client** si vous souhaitez identifier la commande client correspondante à l'article retourné. Renseignez l'écran **Rechercher une commande client** puis cliquez sur **OK** pour fermer l'écran et revenir à l'écran **Ordre de retour - Numéro de retour marchandises : %1, %2**. La ligne de la commande client pour l'article retourné est copiée dans l'ordre de retour.
+3.  Cliquez sur **Rechercher une commande client** si vous souhaitez identifier la commande client correspondante à l'article retourné. Renseignez l'écran **Rechercher une commande client**, puis cliquez sur **OK** pour fermer l'écran et revenir à l'écran **Ordre de retour - Numéro de retour marchandises : %1, %2**. La ligne de la commande client pour l'article retourné est copiée dans l'ordre de retour.
 
 4.  Cliquez sur **Ordre de remplacement** pour ouvrir l'écran **Créer une commande client**.
 
@@ -66,6 +65,5 @@ Les ordres de remplacement d'article sont généralement créés après le retou
     
     Si l'identificateur du contrat de vente est automatiquement affiché dans le champ **ID contrat de vente**, le contrat de vente a été lié à l'en-tête de la commande client pour l'ordre de remplacement d'article. S'il existe un engagement applicable dans le contrat de vente qui n'a pas été respecté, et la commande client est créée avant que le contrat de vente expire, un lien est établi entre la ligne du contrat de vente et la ligne de la commande client. Par conséquent, les informations du contrat de vente, telles que le prix de l'article, sont copiées vers la nouvelle ligne de la commande client. 
   
-
 
 

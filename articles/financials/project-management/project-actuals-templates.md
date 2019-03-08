@@ -1,13 +1,13 @@
 ---
-title: "Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d'intégration des projets pour la validation dans Finance and Operations"
-description: "Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les transactions réelles du projet directement entre Microsoft Dynamics 365 for Project Service Automation et Microsoft Dynamics 365 for Finance and Operations."
+title: Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d'intégration des projets pour la validation dans Finance and Operations
+description: Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les chiffres réels de projet directement depuis Microsoft Dynamics 365 for Project Service Automation vers Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343349"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d'intégration des projets pour la validation dans Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les transactions réelles du projet directement entre Microsoft Dynamics 365 for Project Service Automation et Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les chiffres réels de projet directement depuis Microsoft Dynamics 365 for Project Service Automation vers Microsoft Dynamics 365 for Finance and Operations.
 
 Le modèle synchronise les transactions de Project Service Automation dans une table intermédiaire de Finance and Operations. Une fois la synchronisation terminée, vous **devez** importer les données de la table intermédiaire dans le journal d'intégration.
 
 > [!NOTE]
-> - L'intégration des transactions réelles du projet est disponible dans la version 8.01 de Microsoft Dynamics 365 for Finance and Operations ou ultérieure.
-> - Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, après avoir installé KB 4132657 et KB 4132660, vous pourrez utiliser les modèles pour intégrer les tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et les transactions réelles, ainsi que pour configurer le verrouillage des fonctionnalités. Si vous devez réinitialiser les répartitions comptables, nous vous recommandons d'installer également KB 4131710.
+> - L'intégration des chiffres réels de projet est disponible dans Microsoft Dynamics 365 for Finance and Operations version 8.0.1 ou version ultérieure.
+> - Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, après avoir installé KB 4132657 et KB 4132660, vous pourrez utiliser les modèles pour intégrer les tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et les transactions réelles, ainsi que pour configurer le verrouillage des fonctionnalités. Si vous devez réinitialiser les répartitions comptables, nous vous recommandons d'installer également KB 4131710.
 > - Si vous utilisez Finance and Operations 7.3.0, et que vous apportez des transactions de frais de Project Service Automation, vous devez installer KB 4345320 pour inclure ces frais de la facture de projet.
 > - Si vous entrez les montants de taxe des transactions de temps et de dépense dans Project Service Automation, vous devez installer la mise à jour 7 de Project Service Automation. Sinon, les montants réels de taxe ne seront pas liés aux transactions réelles de temps ou de dépense associées et ne seront pas synchronisés avec Finance and Operations. Pour plus d'informations, contactez le support.
 
@@ -50,7 +50,7 @@ L'illustration suivante indique comment les données sont synchronisées entre P
 
 ### <a name="template-and-tasks"></a>Modèle et tâches
 
-Pour accéder aux modèles disponibles, dans le centre d'administration de Microsoft PowerApps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
+Pour accéder aux modèles disponibles, dans le centre d'administrateur de Microsoft PowerApps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
 
 Le modèle et les tâches sous-jacentes ci-après sont utilisés pour synchroniser les transactions réelles du projet entre Project Service Automation et Finance and Operations :
 
@@ -140,4 +140,3 @@ Les illustrations suivantes présentent des exemples de mise en correspondance d
 [![Mise en correspondance des modèles](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mise en correspondance des modèles](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

@@ -1,13 +1,13 @@
---- 
-title: "Importer des configurations pour générer des documents avec des données d'application"
-description: "Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Créer un fournisseur de configuration et le marquer comme actif »."
+---
+title: Importer des configurations pour générer des documents avec des données d'application
+description: Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Créer un fournisseur de configuration et le marquer comme actif ».
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340796"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Importer des configurations pour générer des documents avec des données d'application
 
@@ -75,5 +75,4 @@ Les étapes de cette procédure expliquent comment créer des configurations ER 
 29. Dans l'arborescence, sélectionnez « Fichier ».
     * Examinez la structure du format utilisé pour générer l'état de déclaration d'échanges de biens. Notez qu'elle est conçue pour générer un fichier XML en remplissant les données du modèle de données, qui est basé sur l'élément racine « Pour le document sortant ». Vérifiez que le nom du fichier généré est défini sur l'écran Boîte de dialogue utilisateur (la source de données « fn » est utilisée à cet effet).   
 30. Fermez la page.
-
 

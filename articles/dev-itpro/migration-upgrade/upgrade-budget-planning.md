@@ -1,13 +1,13 @@
 ---
-title: "Mise à jour de la planification budgétaire"
-description: "Il existe des différences significatives dans la planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Finance and Operations. Certaines fonctions n'ont pas été mises à jour et nécessitent par conséquent une reconfiguration. Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau."
+title: Mise à jour de la planification budgétaire
+description: Il existe des différences significatives de planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Finance and Operations. Certaines fonctions n'ont pas été mises à jour et nécessitent par conséquent une reconfiguration. Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 178e4fdef12e4adfe322837fb41597d24943920e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342958"
 ---
-
 # <a name="upgrade-budget-planning"></a>Mise à jour de la planification budgétaire
 
 [!include [banner](../includes/banner.md)]
 
-Il existe des différences significatives dans la planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Finance and Operations. Certaines fonctions n'ont pas été mises à jour et nécessitent par conséquent une reconfiguration. Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau.  
+Il existe des différences significatives de planification budgétaire entre Microsoft Dynamics AX 2012 et Microsoft Dynamics 365 for Finance and Operations. Certaines fonctions n'ont pas été mises à jour et nécessitent par conséquent une reconfiguration. Cette rubrique explique ce qui doit être reconfiguré et décrit également les nouvelles fonctions qui doivent être examinées après la mise à niveau.  
 
-La planification budgétaire dans Microsoft Dynamics 365 for Finance and Operations comporte plusieurs fonctions qui n'étaient pas disponibles dans Microsoft Dynamics AX 2012. Cette rubrique explique les modifications que les clients qui mettent à niveau leur système peuvent effectuer. Elle précise également les nouvelles fonctions qui doivent être prises en compte dans le processus de mise à niveau. En raison de l'extension des modifications, aucun plan budgétaire existant ne peut être ouvert avant que les modifications expliquées dans cette rubrique ne soient effectuées. Toutefois, les états devraient fonctionner normalement et sans qu'il soit nécessaire d'apporter des modifications supplémentaires.
+La planification budgétaire dans Microsoft Dynamics 365 for Finance and Operations dispose de nombreuses fonctions qui n'étaient pas disponibles dans Microsoft Dynamics AX 2012. Cette rubrique explique les modifications que les clients qui mettent à niveau leur système peuvent effectuer. Elle précise également les nouvelles fonctions qui doivent être prises en compte dans le processus de mise à niveau. En raison de l'extension des modifications, aucun plan budgétaire existant ne peut être ouvert avant que les modifications expliquées dans cette rubrique ne soient effectuées. Toutefois, les états devraient fonctionner normalement et sans qu'il soit nécessaire d'apporter des modifications supplémentaires.
 
 ## <a name="overview-of-changes"></a>Vue d'ensemble des modifications
 De nombreuses modifications importantes ont été apportées dans la budgétisation pour Finance and Operations. Ces modifications visent à faciliter la configuration et l'utilisation de la planification budgétaire, afin de réduire la maintenance et la configuration d'une année sur l'autre. Les zones suivantes dans AX 2012 ne figurent plus dans Finance and Operations :
@@ -41,7 +40,7 @@ De nombreuses modifications importantes ont été apportées dans la budgétisat
 -   Contraintes de scénario (configuration de la planification budgétaire)
 -   Modèles de règles de stade de planification budgétaire et autres modèles (processus de planification budgétaire)
 -   Champs de matrice pour les modèles de feuille de calcul
--   Assistant de modèles Microsoft Excel pour le plan budgétaire
+-   Assistant Modèle Microsoft Excel de plan budgétaire
 
 Certains nouveaux concepts ne peuvent pas directement être mis à niveau depuis les fonctionnalités précédentes. Par conséquent, vous devez effectuer une reconfiguration pour inclure ces nouveaux concepts. Les sections suivantes expliquent les concepts qui ont remplacé les éléments de la liste précédente.
 
@@ -59,7 +58,7 @@ Les processus de planification budgétaire sont pour la plupart les mêmes que d
 
 ### <a name="attachments"></a>Documents joints
 
-Dans Dynamics AX 2012, les documents justificatifs ont été enregistrés dans un dossier joint. Aucun document justificatif précédent n'est mis à niveau. Les documents justificatifs sont maintenant stockés dans la base de données. Si ces informations doivent est enregistrées dans la version mise à niveau, vous pouvez télécharger les documents justificatifs pour chaque plan en tant que pièce jointe à l'aide du bouton **Justification** du volet Actions. Dans AX 2012, les feuilles de calcul Excel pour chaque plan budgétaire ont été créées sur la base du modèle. Dans Finance and Operations, tous les plans ouvrent une copie de la mise en page. Toutefois, aucune modification du fichier Excel n'est enregistrée. Toutes les formules ou informations de support utilisées pour chaque plan doivent être ajoutées au moyen de commentaires, de documents justificatifs, ou d'un autre processus supplémentaire.
+Dans AX 2012, les documents justificatifs ont été enregistrés dans un dossier joint. Aucun document justificatif précédent n'est mis à niveau. Les documents justificatifs sont maintenant stockés dans la base de données. Si ces informations doivent est enregistrées dans la version mise à niveau, vous pouvez télécharger les documents justificatifs pour chaque plan en tant que pièce jointe à l'aide du bouton **Justification** du volet Actions. Dans AX 2012, les feuilles de calcul Excel pour chaque plan budgétaire ont été créées sur la base du modèle. Dans Finance and Operations, tous les plans ouvrent une copie de la mise en page. Toutefois, aucune modification du fichier Excel n'est enregistrée. Toutes les formules ou informations de support utilisées pour chaque plan doivent être ajoutées au moyen de commentaires, de documents justificatifs, ou d'un autre processus supplémentaire.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Configurer un environnement mis à niveau depuis AX 2012
 Pour vous aider à déterminer comment configurer le système mis à niveau, l'exemple suivant illustre un processus de mise à niveau du budget à partir des données de démonstration d'AX 2012. Les données de configuration par défaut pour les colonnes ont été créées pour vous aider lors du processus de mise à niveau. Vous pouvez mettre à jour ou supprimer ces données par défaut si elles ne répondent pas à vos exigences de configuration. **Remarque :** il y a de nouveaux champs obligatoires qui ne sont pas définis dans le système. Si vous êtes coincé sur une page, telle que la page **Configuration de planification budgétaire**, et ne pouvez pas accéder à d'autres pages, vous pouvez fermer votre navigateur puis le rouvrir à une autre page pour entrer les détails dans l'ordre correct. Il existe des champs obligatoires qui ne sont pas encore définis. Par conséquent, des problèmes peuvent se produire jusqu'à ce que tout soit configuré et tous les champs requis aient été définis. Cette rubrique explique comment définir ces champs, tel que réquis. Voici quelques exemples de champs requis :
@@ -160,7 +159,6 @@ Plusieurs entités de données ont été ajoutées pour activer l'implémentatio
 -   Priorités de plan budgétaire
 -   Colonnes du plan budgétaire
 -   Éléments de mise en page du plan budgétaire
-
 
 
 

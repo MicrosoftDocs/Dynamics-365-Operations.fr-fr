@@ -1,13 +1,13 @@
 ---
-title: "Synchroniser les tâches de projet directement de Project Service Automation vers Finance and Operations"
-description: "Cette rubrique décrit le modèle et la tâche sous-jacente utilisés pour synchroniser les tâches du projet directement entre Microsoft Dynamics 365 for Project Service Automation et Microsoft Dynamics 365 for Finance and Operations."
+title: Synchroniser les tâches de projet directement de Project Service Automation vers Finance and Operations
+description: Cette rubrique décrit le modèle et la tâche sous-jacente utilisés pour synchroniser les tâches de projet directement depuis Microsoft Dynamics 365 for Project Service Automation vers Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 53e4eab0d455af4ac1e17754f31d46458db742c3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355171"
 ---
-
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchroniser les tâches de projet directement de Project Service Automation vers Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit le modèle et la tâche sous-jacente utilisés pour synchroniser les tâches du projet directement entre Microsoft Dynamics 365 for Project Service Automation et Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique décrit le modèle et la tâche sous-jacente utilisés pour synchroniser les tâches de projet directement depuis Microsoft Dynamics 365 for Project Service Automation vers Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> - L'intégration de tâche de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et le verrouillage des fonctionnalités sont disponibles dans la version 8.0 de Microsoft Dynamics 365 for Finance and Operations.
-> - Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, après avoir installé KB 4132657 et KB 4132660, vous pourrez utiliser les modèles pour intégrer les tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et les transactions réelles, ainsi que pour configurer le verrouillage des fonctionnalités. Si vous devez réinitialiser les répartitions comptables, nous vous recommandons d'installer également KB 4131710.
-> - L'intégration des transactions réelles est disponible dans la version 8.01 de Microsoft Dynamics 365 for Finance and Operations ou ultérieure.
+> - L'intégration des tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et le verrouillage des fonctionnalités sont disponibles dans la version 8.0 de Microsoft Dynamics 365 for Finance and Operations.
+> - Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, après avoir installé KB 4132657 et KB 4132660, vous pourrez utiliser les modèles pour intégrer les tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et les transactions réelles, ainsi que pour configurer le verrouillage des fonctionnalités. Si vous devez réinitialiser les répartitions comptables, nous vous recommandons d'installer également KB 4131710.
+> - L'intégration des chiffres réels est disponible dans Microsoft Dynamics 365 for Finance and Operations version 8.0.1 ou version ultérieure.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Flux de données pour Project Service Automation et Finance and Operations
 
@@ -84,4 +83,3 @@ Si vous devez utiliser Power Query, suivez l'instruction ci-après :
 L'illustration suivante présente un exemple de mise en correspondance des tâches du modèle dans le module Intégration des données. La mise en correspondance indique les informations de champ qui sont synchronisées entre Project Service Automation et Finance and Operations.
 
 [![Mise en correspondance des modèles](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-

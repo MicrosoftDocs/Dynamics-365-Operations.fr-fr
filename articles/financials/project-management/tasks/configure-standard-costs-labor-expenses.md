@@ -1,13 +1,13 @@
---- 
-title: "Configurer les coûts standard pour le travail et les dépenses"
-description: "Cette procédure décrit comment paramétrer les coûts standard pour le travail et les dépenses d'un projet."
+---
+title: Configurer les coûts standard pour le travail et les dépenses
+description: Cette procédure décrit comment paramétrer les coûts standard pour le travail et les dépenses d'un projet.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f89590c87aec1a7200e95aeac6b2765fc64bb623
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 432b5b195b29fb03786cb0560e277735b531b7d7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339393"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configurer les coûts standard pour le travail et les dépenses
 
@@ -59,5 +59,4 @@ Cette procédure décrit comment paramétrer les coûts standard pour le travail
 24. Dans le champ Tarification, entrez un nombre.
     * Le prix de vente réel appliqué lorsqu'un collaborateur entre une transaction dans un journal de dépenses est le prix de vente ayant le plus haut niveau de détail. Par exemple, si un prix de vente général et un prix de vente spécifique à un collaborateur ont été paramétrés, le prix de vente spécifique au collaborateur est utilisé.  
 25. Cliquez sur Enregistrer.
-
 

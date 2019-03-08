@@ -1,13 +1,13 @@
 ---
 title: Ressources humaines
-description: "Le module Ressources humaines simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée. Ces domaines incluent le recrutement et la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications."
+description: Le module Ressources humaines simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée. Ces domaines incluent le recrutement et la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications.
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341762"
 ---
-
 # <a name="human-resources"></a>Ressources humaines
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ En plus de rémunérer votre équipe avec des traitements, des salaires et des p
 
 - [Gérer un programme d'avantages](../../talent/manage-benefit-program.md)
 - [Stratégies de droit aux avantages](../../talent/benefit-eligibility-policies.md)
-- [Gérer les articles prêtés aux employés](../../talent/loan-items.md)
+- [Gérer les articles prêtés aux collaborateurs](../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Tenir à jour la conformité et la sécurité de l’espace de travail
 
@@ -95,4 +94,3 @@ Vous pouvez concevoir et administrer des questionnaires afin de recueillir des i
 - [Conception d'un questionnaire](../../talent/design-questionnaires.md)
 - [Distribuer et remplir un questionnaire](../../talent/distribute-questionnaires.md)
 - [Afficher et évaluer les résultats d'un questionnaire](../../talent/evaluate-questionnaire-results.md)
-

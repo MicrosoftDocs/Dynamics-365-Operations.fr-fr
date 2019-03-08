@@ -1,13 +1,13 @@
---- 
-title: "Créer une classe de travail"
-description: "Cette procédure décrit le processus de paramétrage d'une classe de travail."
+---
+title: Créer une classe de travail
+description: Cette procédure décrit le processus de paramétrage d'une classe de travail.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5def9be0966d65728ffb0897229c0d749e7e13a0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9a775366bdaecb59a375f245f7a4d17a659cab11
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356022"
 ---
 # <a name="create-a-work-class"></a>Créer une classe de travail
 
@@ -38,5 +38,4 @@ Cette procédure décrit le processus de paramétrage d'une classe de travail. L
 7. Dans le champ Emplacement, tapez une valeur.
     * Si vous sélectionnez un type d'emplacement, ceci définit une restriction quant au lieu dans lequel les articles peuvent être mis une fois qu'ils ont été prélevés. Ce paramètre est utilisé lors de tentatives d'une directive d'emplacement pour résoudre l'emplacement, ou si un employé de l'entrepôt fournit manuellement l'emplacement pour l'élément du menu du périphérique portable.  
 8. Fermez la page.
-
 

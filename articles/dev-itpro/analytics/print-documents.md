@@ -1,13 +1,13 @@
 ---
 title: Impression de document
-description: "Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez imprimer des documents à l'aide d'une imprimante locale ou d'un périphérique réseau connecté. Cet article fournit une vue d'ensemble de la manière dont les documents sont imprimés."
+description: Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez imprimer des documents à l'aide d'une imprimante locale ou d'un périphérique réseau connecté. Cet article fournit une vue d'ensemble de la manière dont les documents sont imprimés.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362048"
 ---
-
 # <a name="document-printing"></a>Impression de document
 
 [!include [banner](../includes/banner.md)]
 
-Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez imprimer des documents à l'aide d'une imprimante locale ou d'un périphérique réseau connecté. Cet article fournit une vue d'ensemble de la manière dont les documents sont imprimés.
+Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez imprimer des documents à l'aide d'une imprimante locale ou d'un périphérique réseau connecté. Cet article fournit une vue d'ensemble de la manière dont les documents sont imprimés.
 
 ## <a name="printing-overview"></a>Vue d'ensemble de l'impression
 
@@ -53,7 +52,7 @@ Le tableau suivant décrit les trois principaux scénarios d'impression dans les
 Comme la solution varie, selon le scénario, les applications Finance and Operations fournissent des services et des outils intégrés pour aider les utilisateurs à atteindre leurs objectifs :
 
 - Le **Scénario 1** est pris en charge par le rendu du client HTML5 du navigateur.
-- Le **Scénario 2** utilise des applications client et des services Microsoft Office 365.
+- Le **Scénario 2** utilise des applications client et des services Microsoft Office 365.
 - Le **Scénario 3** requiert la prise en charge des applications client et des services hébergés dans Microsoft Azure.
 
 Outre la plateforme déployée dans l'abonnement Azure, les applications Finances and Operations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l'impression de documents.
@@ -76,4 +75,3 @@ Les diagramme suivant présente les composants de base permettant la prise en ch
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Notez qu'une seule imprimante peut être enregistrée avec plusieurs agents d'acheminement de document. Pour résoudre les préférences d'imprimante, le service hébergé utilise le chemin réseau identifiant de manière unique chaque imprimante réseau. Par conséquent, même si une imprimante est enregistrée par plusieurs clients, elle apparaît comme sélection unique dans la liste des imprimantes disponibles dans les applications Finance and Operations.
-

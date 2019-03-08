@@ -1,32 +1,31 @@
 ---
-title: "Paramètres de production dans Contrôle et suivi de la production"
-description: "Cette rubrique fournit des informations sur la configuration des paramètres de production dans Contrôle et suivi de la production."
+title: Paramètres de production dans Contrôle et suivi de la production
+description: Cette rubrique fournit des informations sur la configuration des paramètres de production dans Contrôle et suivi de la production.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgProdParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bf1afd18132e92cf081b7bde5067e1be90314467
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339462"
 ---
-
 # <a name="production-parameters-in-manufacturing-execution"></a>Paramètres de production dans Contrôle et suivi de la production
 
 [!include [banner](../includes/banner.md)]
@@ -154,5 +153,4 @@ Vous pouvez utiliser les paramètres suivants si des matières doivent être dé
 |     Operations     |   Consommation de nomenclature automatique    | <strong>Jamais</strong>  |
 | Déclaration de fin |   Consommation de nomenclature automatique    | <strong>Jamais</strong>  |
 | Déclaration de fin | Mettre à jour déclaration de fin en ligne | <strong>Statut</strong> |
-
 

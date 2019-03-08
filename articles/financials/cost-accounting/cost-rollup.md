@@ -1,32 +1,31 @@
 ---
-title: "Stratégie de repositionnement des coûts et calcul des frais généraux"
-description: "Cette rubrique fournit des informations sur la façon de déterminer le niveau correct d'éléments de coût secondaires et de créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l'organisation et à la traçabilité des coûts."
+title: Stratégie de repositionnement des coûts et calcul des frais généraux
+description: Cette rubrique fournit des informations sur la façon de déterminer le niveau correct d'éléments de coût secondaires et de créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l'organisation et à la traçabilité des coûts.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e809cb2cadadc623134805e028de7f2e64dd662f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356137"
 ---
-
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stratégie de repositionnement des coûts et calcul des frais généraux 
 
 [!include [banner](../includes/banner.md)]
@@ -257,7 +256,7 @@ Après exécution du **calcul des frais généraux**, vous pouvez déclarer les 
 
 Les hiérarchies de dimensions vous permettent d'afficher des données à différents niveaux d'agrégation.
 
-Voici un exemple d'une génération d'états PowerPivot dans Excel.
+Voici un exemple d'une génération d'états Power Pivot dans Excel.
 
 | **Relevé de compte de résultat** | **Objet de coût** |                |               |               |  **Total**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
@@ -302,4 +301,3 @@ Cette séparation précise entre **Affectation des coûts** et **Stratégies de 
 -  [Dimensions d'éléments de coût](cost-elements.md)
 -  [Hiérarchies des dimensions](dimension-hierarchy.md)
 -  [Calcul des frais généraux](overhead-calculation.md)
-
