@@ -1,13 +1,13 @@
 ---
 title: Approvisionnements dans le secteur public
-description: "Cette vue d'ensemble présente la fonctionnalité d'approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d'achat, et les montants de ligne de commande fournisseur."
+description: Cette vue d'ensemble présente la fonctionnalité d'approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d'achat, et les montants de ligne de commande fournisseur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AgreementClassification, BudgetParameters, ProcCategoryHierarchyManagement, PurchTableListPage, smmActivities, VendCertificationType, VendTableListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 479f5d448f4677d70b47cd049a5ba89ac867b03e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b00c7f2ee619bcae03f427a41162ad11999d68f5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370743"
 ---
-
 # <a name="procurement-and-sourcing-in-the-public-sector"></a>Approvisionnements dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,7 @@ Pour les organisations françaises, des étapes supplémentaires peuvent être n
 Les sections suivantes décrivent les fonctionnalités d'approvisionnements disponible pour le secteur public.
 
 ## <a name="what-are-vendor-certification-types"></a>Que sont les types de certification des fournisseurs ?
-Vous pouvez créer et affecter aux organisations de fournisseurs n'importe quels types de certification que les fournisseurs détiennent. Il s'agit non seulement d'informations d'identification professionnelles, comme la licence d'un ingénieur professionnel ou la certification Microsoft SQL Server, mais également de déterminer s'ils détiennent une assurance en responsabilité civile, un statut de minorité ou s'ils sont en conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur. 
+Vous pouvez créer et affecter aux organisations de fournisseurs n'importe quels types de certification que les fournisseurs détiennent. Il s'agit non seulement d'informations d'identification professionnelles, comme la licence d'un ingénieur professionnel ou la certification Microsoft SQL Server, mais aussi de l'assurance du passif, du statut minoritaire ou de la conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur. 
 
 La page **Type de certification** de la comptabilité fournisseur vous permet de spécifier le type et la description de la certification.
 
@@ -138,7 +137,6 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 
 
 Pour plus d'informations, voir [Approvisionnements](../../supply-chain/procurement/procurement-sourcing-overview.md) et [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
-
 
 
 

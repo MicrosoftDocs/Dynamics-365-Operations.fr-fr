@@ -1,13 +1,13 @@
 ---
-title: "Réception de contenant mixte"
-description: "Cette rubrique décrit comment utiliser la réception de contenant mixte pour enregistrer et créer le travail pour plusieurs articles avec un appareil mobile."
+title: Réception de contenant mixte
+description: Cette rubrique décrit comment utiliser la réception de contenant mixte pour enregistrer et créer le travail pour plusieurs articles avec un appareil mobile.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a44165bc59d65a9dfdf8e591152f427b97930b34
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0e785d71e7ae3c5f60d36d8b190001b5e356c626
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365889"
 ---
-
 # <a name="mixed-license-plate-receiving"></a>Réception de contenant mixte
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ Vous devez créer une option de menu avec le mode de travail qui n'utilise pas l
 - Réception et rangement de contenant mixte
 
 Les options permettant d'identifier les lignes du document source sont Article de commande fournisseur, Ligne de commande fournisseur, Ordre de retour, Article d'ordre de transfert et Ligne d'ordre de transfert. Ces options peuvent modifier l'ordre de réception dans un contenant unique. La dernière option concerne le chargement d'articles. Vous pouvez ajouter plusieurs articles à un contenant, mais vous ne pouvez pas basculer entre plusieurs chargements.
-

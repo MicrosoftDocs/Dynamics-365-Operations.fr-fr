@@ -1,13 +1,13 @@
 ---
-title: "Analyse budgétaire dans le secteur public"
-description: "Cette rubrique décrit l'utilisation de la page d'analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d'analyse de budget et la page de statistiques de contrôle budgétaire."
+title: Analyse budgétaire dans le secteur public
+description: Cette rubrique décrit l'utilisation de la page d'analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d'analyse de budget et la page de statistiques de contrôle budgétaire.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetAnalysisInquiry_PSN, BudgetControlStatistics, DimensionDetails, LedgerPeriodCode, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 103e7b855325cdf22e7ec455065110e416d105b4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 597af28f9b07c7f590882c4bfa3b3f9e96b3dd5d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370737"
 ---
-
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,6 @@ Si les grilles sont vides sur la page **Analyse budgétaire**, tentez les action
 
 ## <a name="how-do-i-see-updated-numbers-in-the-columns-when-i-change-the-dimension-set-dates-posting-layers-and-other-settings"></a>Comment afficher les numéros mis à jour dans les colonnes lorsque je modifie l'ensemble de dimensions, les dates, les couches de validation, et d'autres paramètres ?
 Après avoir modifié les paramètres en haut de la page, cliquez sur **Mettre à jour les totaux** pour afficher les résultats de votre requête.
-
 
 
 

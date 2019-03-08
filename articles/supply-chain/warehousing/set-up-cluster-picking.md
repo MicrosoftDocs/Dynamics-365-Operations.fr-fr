@@ -1,13 +1,13 @@
 ---
-title: "Paramétrer le prélèvement de groupement"
-description: "Cette rubrique décrit la procédure de paramétrage du prélèvement de groupement et comment appliquer la confirmation d'article avec le prélèvement de groupement."
+title: Paramétrer le prélèvement de groupement
+description: Cette rubrique décrit la procédure de paramétrage du prélèvement de groupement et comment appliquer la confirmation d'article avec le prélèvement de groupement.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2ec0890963b2b01407acac8003453faf370894b4
-ms.openlocfilehash: 1c23421ddfda8c5f6fa27a31831a00ead6094db9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/11/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364095"
 ---
-
 [!include[banner](../includes/banner.md)]
 
 # <a name="set-up-cluster-picking"></a>Paramétrer le prélèvement de groupement
@@ -37,7 +36,7 @@ Une fois les ordres de fabrication lancés dans l'entrepôt, le collaborateur pe
 
 Si nécessaire, un collaborateur peut transmettre un groupement à un autre collaborateur. Le statut du groupement devient alors Transmis. Lorsque le collaborateur utilise un appareil mobile pour indiquer que le travail de prélèvement et de rangement est terminé, l'expédition ou le chargement doit être confirmé dans le client Dynamics 365 for Finance and Operations.
 
-## <a name="set-up-cluster-picking"></a>Paramétrer le prélèvement de groupement
+## <a name="set-up-cluster-picking"></a>Paramétrer le prélèvement du groupement
 
 Pour activer le prélèvement de groupement, vous devez paramétrer les éléments suivants :
 
@@ -81,4 +80,3 @@ Lorsque la sélection du groupement est appliqué, la confirmation d'article est
 1.  Dans une option de menu de l'appareil mobile, ouvrez l'écran de paramétrage pour la confirmation du travail : **Gestion des entrepôts** \> **Gestion des entrepôts** \> **Paramétrage** \> **Appareil mobile** \> **Options de menu d'appareil mobile**.
 
 2.  Dans l'option de menu de l'appareil mobile, ouvrez **Paramétrage de la confirmation du travail**. L'option **Confirmation du produit** permet de confirmer chaque pièce du stock de l'appareil mobile lors de la lecture.
-

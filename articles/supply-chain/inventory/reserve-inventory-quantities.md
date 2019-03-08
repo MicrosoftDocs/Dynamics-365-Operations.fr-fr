@@ -1,13 +1,13 @@
 ---
-title: "Réservation de quantités en stock"
-description: "La présente rubrique décrit les différentes options disponibles pour la réservation du stock."
+title: Réservation de quantités en stock
+description: La présente rubrique décrit les différentes options disponibles pour la réservation du stock.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 89441ee4c799e2d1215fbd82e0490d7168e2aa1b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 67c7582665255e65995be688ef133e71938e7c28
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365452"
 ---
-
 # <a name="reserve-inventory-quantities"></a>Réservation de quantités en stock
 
 [!include [banner](../includes/banner.md)]
@@ -84,4 +83,3 @@ Il existe deux options liées aux réservations sur la page **Paramètres de ges
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Stratégies de réservation de stock sur la page Paramètres de production
 
 La valeur du champ **Réservation** sous l'onglet **Général** sur la page **Paramètres de production** détermine le moment par défaut du processus de production auquel le stock doit être réservé. Par exemple, le stock peut être réservé lorsque le travail est planifiée, ou lorsque le travail est lancé.
-

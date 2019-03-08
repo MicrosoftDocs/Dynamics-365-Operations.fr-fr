@@ -1,13 +1,13 @@
 ---
-title: "État du bordereau de paiement pour l'Europe"
-description: "Cette rubrique fournit des informations sur les états de bordereau de paiement pour l'Europe."
+title: État du bordereau de paiement pour l'Europe
+description: Cette rubrique fournit des informations sur les états de bordereau de paiement pour l'Europe.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntities, ProjFormletterParameters, CustFormletterParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 1e3e8ca7356001d113c676b25bd27f890ef1d650
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 2afdc11b428ffe5d2ca0f65d040507e89e0b8c02
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370692"
 ---
-
 # <a name="payment-slip-report-for-europe"></a>État du bordereau de paiement pour l'Europe
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Après avoir paramétré le format du bordereau de paiement associé aux facture
 2.  Créez un client ou sélectionnez-en un.
 3.  Dans l'organisateur **Facture et livraison**, dans les champs **Sur une facture client**, **Sur une facture financière**, **Sur une note d'intérêt**, **Sur une lettre de relance**, **Sur une facture de projet** et **Sur un relevé de compte**, sélectionnez le format des bordereaux de paiement associés aux documents de chaque type qui sont envoyés au client sélectionné.
 4.  Fermez l'écran pour enregistrer vos modifications.
-
 
 
 

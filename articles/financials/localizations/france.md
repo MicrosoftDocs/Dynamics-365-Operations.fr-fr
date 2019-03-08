@@ -1,34 +1,33 @@
 ---
 title: France
-description: "Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 for Finance and Operations pour la France."
+description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 for Finance and Operations pour la France.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 07/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0cd07788a3a408f0d359e0500be83de9a50404ea
 ms.openlocfilehash: b2ef6cd003c1873ee4cc54c484bed4fdf375270f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370713"
 ---
-
 # <a name="france"></a>France 
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer Dynamics 365 for Finance and Operations pour les entités juridiques dont l'adresse principale en France. 
+Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer Dynamics 365 for Finance and Operations pour les entités juridiques dont l'adresse principale est en France. 
 
 - Secteur public
   - [Comptabilité secteur public](emea-fra-public-sector-accounting.md)
@@ -61,5 +60,4 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 
 - [Vue d'ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-- [Portail de localisation de Microsoft Dynamics : État australien (nécessite un compte CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/france.html)
-
+- [Portail de localisation Microsoft Dynamics : état australien (exige un compte CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/france.html)

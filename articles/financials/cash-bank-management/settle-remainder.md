@@ -1,13 +1,13 @@
 ---
-title: "Solde de règlement"
-description: "Vous pouvez régler le montant restant de l'activité de règlement en appliquant ce montant à un compte général."
+title: Solde de règlement
+description: Vous pouvez régler le montant restant de l'activité de règlement en appliquant ce montant à un compte général.
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367200"
 ---
-
 # <a name="settle-remainder"></a>Solde de règlement
 
 [!include [banner](../includes/banner.md)]
@@ -71,4 +70,3 @@ Pour régler le solde, procédez comme suit :
 7)  Vous pouvez également choisir de créer un journal des paiements avec le solde de règlement ou seulement le valider sans journal. Sélectionnez **Oui** pour **Modifier dans le journal** pour créer un journal des paiements. Vous pourrez modifier le journal des paiements que vous créez.
 8)  Cliquez sur **Solde de règlement**. Si vous choisissez de créer un journal, le bouton devient **Créer un journal**. Cliquez sur **Créer un journal** à la place.
 9)  Si vous avez créé un journal des paiements, la page du journal s'ouvre lorsque vous cliquez sur **Solde de règlement**. Une ligne de journal sera ajoutée au journal avec le montant du solde de règlement comme montant et le compte de montant de règlement comme compte de contrepartie. Si vous avez ajouté un client ou fournisseur afin de pouvoir déplacer le montant du règlement vers un autre client ou fournisseur, une ligne supplémentaire sera ajoutée au journal pour déplacer le montant du règlement vers ce client ou fournisseur.
-

@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchYearEndClose
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b9a89bd38feac2e580c3d1511d3bee8eca04115d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f2d3aa3c27a215bbbbb4b8268b5d699adf05517c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370758"
 ---
-
 # <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d'exercice dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,6 @@ Vous devez sélectionner un type de clôture pour chaque compte dans votre plan 
 -   **Non applicable** – Le compte n'est pas inclus dans le traitement de fin d'exercice.
 
 Les définitions de validation régissent la comptabilité qui concerne les entrées de clôture, et elles permettent également de créer des transactions d'ouverture pour la nouvelle année. Pour plus d'informations, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
-
 
 
 

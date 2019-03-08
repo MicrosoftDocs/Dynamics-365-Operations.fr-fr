@@ -1,13 +1,13 @@
 ---
-title: "Instructions relatives à la taxe pour Europe"
-description: "Vous pouvez spécifier d'inclure une explication des codes taxe sur les factures client et les factures de projet. Vous pouvez imprimer les numéros de référence sur les factures client, sur les factures financières, et sur les factures de projet."
+title: Instructions relatives à la taxe pour Europe
+description: Vous pouvez spécifier d'inclure une explication des codes taxe sur les factures client et les factures de projet. Vous pouvez imprimer les numéros de référence sur les factures client, sur les factures financières, et sur les factures de projet.
 author: epodkolz
 manager: AnnBe
 ms.date: 05/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 42861a66b44d6156341bf2d4d895a4bf35295ee6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 1a2d4531e13d158dd8b93d9b9e94a17a8f94c50a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370648"
 ---
-
 # <a name="tax-directives-for-europe"></a>Instructions relatives à la taxe pour Europe
 
 [!include [banner](../includes/banner.md)]
@@ -31,5 +30,4 @@ La Directive de l'UE prévoit une réglementation à suivre par tous les États 
 
 - Pour imprimer une description de codes taxe sur une facture client, la facture financière ou l'état des factures du projet, paramétrez le texte de référence aux instructions relatives à la taxe sur les codes de taxe.
 - Pour les avoirs, le numéro et la date de la facture d'origine sont imprimés avec le motif de la correction.
-
 

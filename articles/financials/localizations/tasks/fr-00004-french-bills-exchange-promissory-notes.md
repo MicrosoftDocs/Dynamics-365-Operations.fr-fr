@@ -1,13 +1,13 @@
---- 
-title: "FR-00004 Effets de commerce et billets à ordre français"
-description: "L'état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées."
+---
+title: FR-00004 Effets de commerce et billets à ordre français
+description: L'état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, CustVendPaymFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 31caed0c1eb94992a2c1dae50ccfbdaa9f8f8196
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370680"
 ---
 # <a name="fr-00004-french-bills-of-exchange-and-promissory-notes"></a>FR-00004 Effets de commerce et billets à ordre français
 
@@ -64,5 +64,4 @@ Cette procédure a été créée à l'aide des données fictives de la société
 19. Tapez une valeur dans le champ Nom du fichier.
 20. Cliquez sur OK.
     * Vous pouvez être invité à entrer une date de traitement.  
-
 

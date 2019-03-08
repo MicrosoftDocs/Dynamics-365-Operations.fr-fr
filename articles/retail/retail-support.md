@@ -1,35 +1,34 @@
 ---
-title: Obtenir de l'aide sur Dynamics 365 for Retail
-description: "Cet article explique comment obtenir de l'aide sur Microsoft Dynamics 365 for Retail."
+title: Obtenir de l'aide pour Dynamics 365 for Retail
+description: Cet article décrit comment obtenir de l'aide avec Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364049"
 ---
-
-# <a name="get-support-for-dynamics-365-for-retail"></a>Obtenir de l'aide sur Dynamics 365 for Retail
+# <a name="get-support-for-dynamics-365-for-retail"></a>Obtenir de l'aide pour Dynamics 365 for Retail
 
 [!include [banner](../includes/banner.md)]
 
-Cet article explique comment obtenir de l'aide sur Dynamics 365 for Retail.
+Cet article décrit comment obtenir de l'aide avec Dynamics 365 for Retail.
 
 ## <a name="contact-support"></a>Contacter le support
 
@@ -43,13 +42,13 @@ Pour obtenir de l'aide sur Retail, utilisez les ressources du tableau suivant. C
 <thead>
 <tr>
 <th>Tâche</th>
-<th>Informations supplémentaires</th>
+<th>Plus d'informations</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Demander à la communauté.</td>
-<td>Accédez à la page de la communauté <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> pour poser vos questions à la communauté Dynamics.</td>
+<td>Accédez à la page Communauté <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> pour demander l'aide de la communauté Dynamics.</td>
 </tr>
 <tr>
 <td>Utiliser l'outil Recherche d'incidents.</td>
@@ -67,7 +66,7 @@ Pour obtenir de l'aide sur Retail, utilisez les ressources du tableau suivant. C
 </tr>
 <tr>
 <td>Ouvrir un ticket auprès de l'équipe de support.</td>
-<td>Si vous avez des problèmes lorsque vous tentez d'envoyer un ticket à Microsoft à partir de la vignette <strong>Support</strong> de LCS, voir <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">Contacter le support Microsoft Business Solutions</a> pour savoir comment contacter un centre Microsoft Dynamics Regional Operations Center. L'équipe de support peut vous aider à résoudre les types suivants de problèmes techniques :
+<td>Si vous avez des problèmes lorsque vous tentez d'envoyer un ticket à Microsoft à partir de la vignette <strong>Support</strong> dans LCS, voir <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">Contacter le support Microsoft Business Solutions</a> pour savoir comment contacter un centre des opérations régionales de Microsoft Dynamics. L'équipe de support peut vous aider à résoudre les types suivants de problèmes techniques :
 <ul>
 <li>Erreurs qui se produisent lorsque vous utilisez LCS ou problèmes qui se produisent lorsque vous tentez d'accéder à LCS.</li>
 <li>Erreurs qui se produisent lorsque vous utilisez Retail.</li>
@@ -85,5 +84,4 @@ Pour les questions techniques relatives à la connexion ou à l'accès à Custom
 </tbody>
 </table>
 
-Pour plus d'informations sur les offres de support Microsoft Dynamics, voir [Support en ligne Microsoft Dynamics](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
-
+Pour plus d'informations sur les offres de support Microsoft Dynamics, voir [Support en ligne Microsoft Dynamics](https://dynamics.microsoft.com/en-us/support/).

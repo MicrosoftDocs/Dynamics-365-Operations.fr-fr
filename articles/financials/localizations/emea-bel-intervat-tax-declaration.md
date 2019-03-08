@@ -1,13 +1,13 @@
 ---
-title: "Déclaration de taxe INTERVAT"
-description: "Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement."
+title: Déclaration de taxe INTERVAT
+description: Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.
 author: v-oloski
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxIntervat
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
+ms.openlocfilehash: c7c30076abfdfe0758d751559257c0c557ca146e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f5c30b13aa18e959fed3b6ac2040f4470157ddf3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370708"
 ---
-
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
 [!include [banner](../includes/banner.md)]
@@ -92,7 +91,7 @@ Pour paramétrer l'affectation des codes de déclaration de taxe aux codes taxe,
 Pour consulter ou modifier la configuration de la déclaration INTERVAT pour les entités juridiques en Belgique, dans la page **Configurations des états**, sélectionnez **Modèle INTERVAT** dans la liste des modèles. Ce modèle est utilisé pour la déclaration INTERVAT belge. Dans le volet Actions, cliquez sur **Concepteur** pour examiner ou modifier le modèle. Pour consulter ou modifier le format de la déclaration INTERVAT pour les entités juridiques en Belgique, dans la page **Configurations des états**, sélectionnez **Modèle INTERVAT** dans la liste des modèles, puis, sous **Modèle INTERVAT**, sélectionnez **Format INTERVAT (BE)**. Dans le volet Actions, cliquez sur **Concepteur** pour examiner ou modifier le format.
 
 ## <a name="generate-an-intervat-tax-declaration"></a>Générer une déclaration de taxe INTERVAT
-À la fin de la période de déclaration de TVA, exécutez la déclaration de taxe INTERVAT (cliquez &gt;sur **Taxe****Déclarations** &gt; **Taxe**) pour calculer les lignes de déclaration selon la définition des codes de déclaration de taxe créés. Le tableau suivant décrit les champs à paramétrer.
+À la fin de la période de déclaration de TVA, exécutez la déclaration de taxe INTERVAT (cliquez &gt;sur **Taxe** **Déclarations** &gt; **Taxe**) pour calculer les lignes de déclaration selon la définition des codes de déclaration de taxe créés. Le tableau suivant décrit les champs à paramétrer.
 
 | Champ                    | description ;                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -134,7 +133,6 @@ Pour entrer la correction, cliquez sur **Corrections de taxe** &gt; **Ajustement
 --------
 
 [Codes déclaration de taxe Belgique](http://www.taxexpert.be/bestand/Betekenis%20vakken%20BTW-aangifte.pdf)
-
 
 
 

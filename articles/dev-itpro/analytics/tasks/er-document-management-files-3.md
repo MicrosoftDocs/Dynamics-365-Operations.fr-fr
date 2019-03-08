@@ -1,13 +1,13 @@
---- 
-title: "Créer des formats pour utiliser les fichiers de gestion des documents dans la sortie ER"
-description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents dans la sortie ER."
+---
+title: Créer des formats pour utiliser les fichiers de gestion des documents dans la sortie ER
+description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents dans la sortie ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1815a0004eee6734b3c7d2c2f9e75ce5fe16af1c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362945"
 ---
-
 # <a name="create-formats-to-use-document-management-files-in-er-output"></a>Créer des formats pour utiliser les fichiers de gestion des documents dans la sortie ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -32,7 +31,7 @@ Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'admi
 
 Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 2 : Étendre le modèle de données) ».
 
-Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="create-a-format-to-process-invoices"></a>Créer un format pour traiter les factures
@@ -120,5 +119,4 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 22. Cliquez sur Lier.
 23. Cliquez sur Enregistrer.
 24. Fermez la page.
-
 

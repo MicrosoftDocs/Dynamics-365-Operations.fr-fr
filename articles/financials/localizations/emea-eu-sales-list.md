@@ -1,13 +1,13 @@
 ---
-title: "Déclaration de la liste des ventes intracommunautaires"
-description: "Cet article fournit des informations sur la génération d'un état relatif à la liste des ventes intracommunautaires."
+title: Déclaration de la liste des ventes intracommunautaires
+description: Cet article fournit des informations sur la génération d'un état relatif à la liste des ventes intracommunautaires.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2c4fe1c93693cee9164f2c22ad71a29abd6473d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e1eff86902170401e593019ea555d9c2a4c11c04
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370782"
 ---
-
 # <a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
 
 [!include [banner](../includes/banner.md)]
@@ -158,7 +157,6 @@ Vous pouvez déclarer un état **Liste des ventes intracommunautaires** à l'aid
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>Clôture de la période de déclaration de la liste des ventes intracommunautaires
 
 Lorsque vous avez terminé le processus de génération d'états pour une période spécifique (par exemple, lorsque les administrations fiscales ont accepté l'état **Liste des ventes intracommunautaires**), vous pouvez marquer les enregistrements de la liste des ventes intracommunautaires inclus dans l'état pour la période en définissant la valeur **Statut de génération d'états** sur **Clôturé**. Pour définir ce statut, utilisez la fonction **Marquer comme clôturé**de la page **Liste des ventes intracommunautaires**. Si vous rétablissez la clôture de la période, vous pouvez marquer les enregistrements de la liste des ventes intracommunautaires en définissant la valeur de **Statut de génération d'états** sur **Inclus**. Ces enregistrements peuvent ensuite de nouveau être inclus dans **Liste des ventes intracommunautaires**. Pour définir ce statut, utilisez la fonction **Marquer comme** **inclus** de la page **Liste des ventes intracommunautaires**.
-
 
 
 

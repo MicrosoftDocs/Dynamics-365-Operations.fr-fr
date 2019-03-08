@@ -1,13 +1,13 @@
 ---
 title: Interface du Concepteur de rapports
-description: "Cet article explique comment naviguer dans le générateur d'états et comment utiliser les différentes options pour répondre à vos besoins spécifiques."
+description: Cet article explique comment naviguer dans le générateur d'états et comment utiliser les différentes options pour répondre à vos besoins spécifiques.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e9b77e2b510a72d1e3fe3c68c997d58245a86a27
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368028"
 ---
-
 # <a name="report-designer-interface"></a>Interface du Concepteur de rapports
 
 [!include [banner](../includes/banner.md)]
@@ -139,7 +138,7 @@ Le menu **Outils** est à la disposition pour tous les utilisateurs, mais certai
 |-------------------------------|-------------|
 | Protéger                       | Permet d'appliquer un mot de passe au bloc élémentaire en cours. Cette commande est à la disposition des utilisateurs ayant le rôle de **Concepteur** ou d'**Administrateur**. |
 | État de la file d'attente de rapports           | Permet d'ouvrir la boîte de dialogue **État de la file d'attente de rapports** dans laquelle vous pouvez voir tous les rapports générés récemment et les détails de chaque rapport. |
-| Informations du système source     | Permet d'afficher les paramètres pour votre système Microsoft Dynamics ERP. Cette commande est à la disposition des utilisateurs ayant le rôle de **Concepteur** ou d'**Administrateur**. |
+| Informations sur le système source     | Affichez les paramètres pour votre système ERP Microsoft Dynamics. Cette commande est à la disposition des utilisateurs ayant le rôle de **Concepteur** ou d'**Administrateur**. |
 | Éléments extraits             | Permet d'afficher les définitions de ligne, de colonne, d'organigramme d'entreprise et de rapport en cours. Cette commande est à la disposition des utilisateurs ayant le rôle de **Concepteur** ou d'**Administrateur**. |
 | Actualiser les données financières en cache | Permet de mettre à jour les données dans la colonne des dimensions financières. |
 | Options                       | Permet d'ouvrir la boîte de dialogue **Options** dans laquelle vous pouvez modifier les préférences utilisateur pour le Concepteur de rapports. |
@@ -229,4 +228,3 @@ La barre d'outils du générateur d'états fournit l'accès rapide aux commandes
 [États financiers](financial-reporting-intro.md)
 
 [Générer un état financier](generate-financial-report.md)
-

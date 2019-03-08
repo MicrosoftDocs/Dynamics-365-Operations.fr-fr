@@ -1,13 +1,13 @@
 ---
-title: "Priorité de règlement (Secteur public)"
-description: "Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez sélectionner manuellement les transactions à régler, ou vous pouvez utiliser la fonctionnalité de règlement automatique. Les organisations du secteur public ont des options supplémentaires pour classer les règlements à l'aide des classifications de facturation. Ces options peuvent être utilisées avec le règlement automatique ou manuel."
+title: Priorité de règlement (Secteur public)
+description: Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez sélectionner manuellement les transactions à régler, ou vous pouvez utiliser la fonctionnalité de règlement automatique. Les organisations du secteur public ont des options supplémentaires pour classer les règlements à l'aide des classifications de facturation. Ces options peuvent être utilisées avec le règlement automatique ou manuel.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustBillingClassification, CustBillingCode, CustParameters, CustSettlementPrioritySetup, LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37470f4ba4d9863b15a74d4c2e1a8be4b6994184
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055021b237ae1c14ed974f72a7b0f73964362254
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370664"
 ---
-
 # <a name="settlement-priority-in-the-public-sector"></a>Priorité de règlement (Secteur public)
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Lors du processus de règlement, les attributs de règlement sont considérés e
 -   Après avoir ajouté des codes facturation à une classification de facturation, utilisez les boutons **Haut** et **Bas** de l'organisateur **Codes facturation** pour organiser les codes facturation par ordre de priorité. (Cela est uniquement nécessaire si vous envisagez d'utiliser **Code facturation** comme votre priorité de ligne de facture.)
 -   Après avoir créé toutes les classifications de facturation pour votre organisation, utilisez les boutons **Haut** et **Bas** situés en haut de la page **Classifications de facturation** pour organiser les classifications de facturation par ordre de priorité.
 -   Après avoir activé l'attribut **Facturation** sur la page **Priorité de règlement**, utilisez les boutons **Haut** et **Bas** situés en haut de la page pour organiser les attributs actifs de règlement par ordre de priorité.
-
 
 
 

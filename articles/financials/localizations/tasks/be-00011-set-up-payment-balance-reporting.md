@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer la déclaration de la balance des paiements (Belgique)"
-description: "Utilisez cette procédure pour paramétrer les informations BLWI (Belgisch Luxemburgs Wissel Instituut) pour la Belgique."
+---
+title: Paramétrer la déclaration de la balance des paiements (Belgique)
+description: Utilisez cette procédure pour paramétrer les informations BLWI (Belgisch Luxemburgs Wissel Instituut) pour la Belgique.
 author: v-oloski
 manager: AnnBe
 ms.date: 07/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 002610305ea1335305b1380bc62974511b06727e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f2916d4c0e9f81f7c596ec801f6d365858896819
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370723"
 ---
 # <a name="set-up-payment-balance-reporting-belgium"></a>Paramétrer la déclaration de la balance des paiements (Belgique)
 
@@ -76,5 +76,4 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse
 9. Dans le champ Code objectif de la banque centrale, entrez ou sélectionnez une valeur.
 10. Activez la case à cocher Inclure le paiement.
     * Notez que les transactions de paiement ne sont pas transférées vers l'étude de la balance des paiements par défaut. L'utilisateur doit activer le champ Inclure le paiement pour les codes objectif.  
-
 

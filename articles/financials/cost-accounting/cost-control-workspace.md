@@ -1,32 +1,31 @@
 ---
-title: "Espace de travail de contrôle des coûts"
-description: "Cette rubrique fournit des informations sur l'espace de travail Contrôle des coûts. Cet espace de travail est un point central où les responsables chargés de contrôler un objet de coût ou un ensemble d'objets de coûts dans une dimension ou dans plusieurs dimensions peuvent accéder aux états."
+title: Espace de travail de contrôle des coûts
+description: Cette rubrique fournit des informations sur l'espace de travail Contrôle des coûts. Cet espace de travail est un point central où les responsables chargés de contrôler un objet de coût ou un ensemble d'objets de coûts dans une dimension ou dans plusieurs dimensions peuvent accéder aux états.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c6a196c677ed27666efec8a180f1d3b7e7ee931c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363750"
 ---
-
 # <a name="cost-control-overview"></a>Vue d'ensemble du Contrôle des coûts 
 
 [!include [banner](../includes/banner.md)]
@@ -157,6 +156,5 @@ Dans l'exemple suivant, la base de répartition est du type **Base de répartiti
 Ressources supplémentaires 
 
 [Définir les droits d'accès des contrôleurs d'objet de coût](access-rights-cost-object-controller.md)
-
 
 

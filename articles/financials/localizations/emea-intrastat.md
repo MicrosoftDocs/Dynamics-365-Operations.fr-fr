@@ -1,13 +1,13 @@
 ---
-title: "Déclaration d'échanges de biens"
-description: "Cette rubrique fournit des informations sur la génération d'états de déclaration d'échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l'Union européenne (UE). Il fournit une vue d'ensemble du processus de déclaration, et décrit les paramètres et les conditions préalables requises."
+title: Déclaration d'échanges de biens
+description: Cette rubrique fournit des informations sur la génération d'états de déclaration d'échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l'Union européenne (UE). Il fournit une vue d'ensemble du processus de déclaration, et décrit les paramètres et les conditions préalables requises.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
 ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370768"
 ---
-
 # <a name="intrastat"></a>Déclaration d'échanges de biens
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,7 @@ Les sections suivantes décrivent le flux global d'informations utilisé pour la
 
 ### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Entrez une transaction qui franchit la frontière d'un autre pays de l'Union Européenne.
 
-Une facture client, une facture financière, une facture d'achat, une facture de projet, un bon de livraison du client, un accusé de réception de marchandises de fournisseur ou un ordre de transfert est transféré au journal Intrastat uniquement si le type de pays/région de destination (à l'expédition) ou la consignation (à l'arrivée) est **EU**. Cette fonctionnalité a été étendue pour Microsoft Dynamics 365 for Operations (1611) et permet de spécifier des adresses de chargement pour une transaction intracommunautaire. Si une adresse de chargement diffère de l'adresse commerciale d'un fournisseur (ou de l'adresse commerciale d'un client pour l'ordre de retour), la déclaration d'échanges de biens utilisera ces informations. Lorsque vous créez une commande client, une facture financière, une commande fournisseur, une facture fournisseur, une facture de projet ou un ordre de transfert, certains champs liés au commerce extérieur ont des valeurs par défaut dans l'en-tête de document ou sur la ligne. Le code transaction par défaut provient du champ correspondant de la page **Paramètres de commerce extérieur**. Le code marchandise par défaut, le pays/la région d'origine, et l'état/la province d'origine proviennent de l'article. Vous pouvez modifier les valeurs par défaut et vous pouvez également remplir d'autres informations liées au commerce extérieur : la procédure statistique, le mode de transport, et le port.
+Une facture client, une facture financière, une facture d'achat, une facture de projet, un bon de livraison du client, un accusé de réception de marchandises de fournisseur ou un ordre de transfert est transféré au journal Intrastat uniquement si le type de pays/région de destination (à l'expédition) ou la consignation (à l'arrivée) est **EU**. Cette fonctionnalité a été étendue pour Microsoft Dynamics 365 for Operations (1611) et permet de spécifier des adresses de chargement pour une transaction intracommunautaire. Si une adresse de chargement diffère de l'adresse commerciale d'un fournisseur (ou de l'adresse commerciale d'un client pour l'ordre de retour), la déclaration d'échanges de biens utilisera ces informations. Lorsque vous créez une commande client, une facture financière, une commande fournisseur, une facture fournisseur, une facture de projet ou un ordre de transfert, certains champs liés au commerce extérieur ont des valeurs par défaut dans l'en-tête de document ou sur la ligne. Le code transaction par défaut provient du champ correspondant de la page **Paramètres de commerce extérieur**. Le code marchandise par défaut, le pays/la région d'origine, et l'état/la province d'origine proviennent de l'article. Vous pouvez modifier les valeurs par défaut et vous pouvez également remplir d'autres informations liées au commerce extérieur : la procédure statistique, le mode de transport, et le port.
 
 ### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Le journal de déclaration d'échanges de biens vous permet de générer des informations sur le commerce entre pays/régions de l'Union européenne.
 
@@ -228,7 +227,7 @@ La page **Paramètres de commerce extérieur** permet de définir les paramètre
 </tr>
 <tr class="even">
 <td>Coordonnées des agents</td>
-<td>Spécifiez le nom, l'adresse, le numéro identifiant TVA, le numéro de téléphone, et le numéro de télécopie de l'agent.</td>
+<td>Spécifiez le nom, l'adresse, le numéro identifiant TVA, le numéro de téléphone, et le numéro de télécopie de l'agent.</td>
 </tr>
 <tr class="odd">
 <td>Propriétés de pays/régions</td>
@@ -240,5 +239,4 @@ La page **Paramètres de commerce extérieur** permet de définir les paramètre
 </tr>
 </tbody>
 </table>
-
 

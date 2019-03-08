@@ -1,13 +1,13 @@
 ---
-title: "Création d'une facture client"
-description: "Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client."
+title: Création d'une facture client
+description: Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
 ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365268"
 ---
-
 # <a name="create-a-customer-invoice"></a>Création d'une facture client
 
 [!include [banner](../includes/banner.md)]
@@ -97,10 +96,10 @@ Les champs suivants modifient le comportement du processus de validation.
 </ul></td>
 </tr>
 <tr class="even">
-<td>Comptabilisation</td>
+<td>Validation</td>
 <td><ul>
 <li>Sélectionnez cette option pour journaliser la commande client.</li>
-<li>Désactivez cette option pour imprimer une commande client pro forma. <strong>Remarque :</strong> si vous avez créé un accord pour un échéancier de paiement, ce dernier ne s'affiche pas sur la facture client pro forma. Les échéanciers de paiement ne seront visibles que sur les commandes client réelles.</li>
+<li>Désactivez cette option pour imprimer une commande client pro forma. <strong>Remarque :</strong> si vous avez créé un accord pour un échéancier de paiement, ce dernier ne s'affiche pas sur la facture client pro forma. Les échéanciers de paiement ne seront visibles que sur les commandes client réelles.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -154,7 +153,7 @@ Les champs suivants modifient le comportement du processus de validation.
 <td>Mise à jour récapitulative pour</td>
 <td>Sélectionnez la manière de récapituler plusieurs commandes client.
 <ul>
-<li><strong>Aucun(e)</strong> – Permet de ne pas récapituler les commandes client. Par exemple, une facture distincte est créée pour chaque commande client.</li>
+<li><strong>Aucun(e)</strong> - Permet de ne pas récapituler les commandes client. Par exemple, une facture distincte est créée pour chaque commande client.</li>
 <li><strong>Compte de facturation</strong> – Récapitulez toutes les commandes sélectionnées, en fonction des critères paramétrés sur la page <strong>Paramètres de mise à jour récapitulative</strong>.</li>
 <li><strong>Commande</strong> – Permet de récapituler une plage sélectionnée de commandes en une seule que vous spécifiez. Les commandes sont récapitulées en fonction des critères définis sur la page <strong>Paramètres de mise à jour récapitulative</strong>. Si vous sélectionnez cette option, vous devez sélectionner une valeur dans le champ <strong>Commande client</strong>.</li>
 <li><strong>Synthèse automatique</strong> – Si les mises à jour récapitulatives ont été spécifiées sur la page <strong>Mise à jour récapitulative</strong>, récapitulez toutes les commandes sélectionnées en fonction des critères définis sur la page <strong>Paramètres de mise à jour récapitulative</strong>. Si des mises à jour récapitulatives n'ont pas été spécifiées, la commande est validée séparément.</li>
@@ -163,7 +162,6 @@ Les champs suivants modifient le comportement du processus de validation.
 </tr>
 </tbody>
 </table>
-
 
 
 

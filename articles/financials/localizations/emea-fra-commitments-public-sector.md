@@ -1,13 +1,13 @@
 ---
 title: Engagements dans le secteur public en France
-description: "Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France. Ils permettent de réserver des montants budgétés afin qu'une organisation puisse explicitement suivre des réservations budgétaires à des fins de gestion et de déclaration tout au long du cycle des dépenses."
+description: Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France. Ils permettent de réserver des montants budgétés afin qu'une organisation puisse explicitement suivre des réservations budgétaires à des fins de gestion et de déclaration tout au long du cycle des dépenses.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration, PurchAgreement, PurchCommitment_PSN, PurchTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 2d36867016f6bfeb149e417c1d86b585e01d59b2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370645"
 ---
-
 # <a name="commitments-in-the-public-sector-in-france"></a>Engagements dans le secteur public en France
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Les engagements doivent être clôturés manuellement.
 --------
 
 [Comptabilité du secteur public en France](emea-fra-public-sector-accounting.md)
-
 
 
 

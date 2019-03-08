@@ -1,13 +1,13 @@
 ---
-title: Contenu Power BI pour les performances de production
-description: "Cette rubrique décrit ce qui est inclus dans le contenu Power BI Performances de production. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+title: Contenu Power BI Performances de production
+description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI Performances de production. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,21 +16,20 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365958"
 ---
-
-# <a name="production-performance-power-bi-content"></a>Contenu Power BI pour les performances de production
+# <a name="production-performance-power-bi-content"></a>Contenu Power BI Performances de production
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **Performances de production**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit ce qui est inclus dans le contenu Power BI **Performances de production**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Le contenu Power BI **Performances de production** est destiné aux responsables de production ou aux personnes au sein de l'organisation qui sont chargées du contrôle de la production.
 
@@ -45,7 +44,7 @@ Le contenu Power BI **Performances de production** inclut les données provenant
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 Le contenu Power BI **Performances de production** s'affiche sur la page **Performances de production** (**Contrôle de la production** \> **Recherches et états** \> **Analyse des performances de production** \> **Performances de production**). 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le pack de contenu Power BI
 
 Le contenu Power BI **Performances de production** comprend un ensemble de pages d'état. Chaque page contient un ensemble de mesures visualisées sous forme de graphiques, de vignettes et de tables.
 
@@ -130,4 +129,3 @@ Le tableau suivant affiche les dimensions clés utilisées comme filtres pour di
 | Entités                  | ID et nom                                                   |
 | Ressources                 | ID de ressource, nom de la ressource, type de ressource et groupe de ressources |
 | Produits                  | Numéro de produit, nom du produit, ID d'article et groupe d'articles         |
-

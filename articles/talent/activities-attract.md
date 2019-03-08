@@ -1,14 +1,14 @@
 ---
-title: "Activités dans les processus"
-description: "Cette rubrique fournit des informations sur les différents types d'activités qui peuvent être utilisés dans le processus de recrutement."
-author: 
+title: Activités dans les processus
+description: Cette rubrique fournit des informations sur les différents types d'activités qui peuvent être utilisés dans le processus de recrutement.
+author: ''
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374755"
 ---
-
 # <a name="activities-in-the-hiring-processes"></a>Activités dans les processus de recrutement
 
 [!include[banner](../includes/banner.md)]
 
-Des activités peuvent être ajoutées dans le cadre du processus de recrutement dans Microsoft Dynamics 365 for Talent : Attract. Des activités peuvent être ajoutées à un modèle de processus, ou directement au processus de recrutement de la mission. Lorsqu'une mission est définie, un modèle de processus est sélectionné, et les activités incluses dans le modèle sont appliquées à la mission. Si un modèle n'est pas sélectionné, le modèle par défaut est utilisé. Le processus de recrutement peut également être modifié sur la mission une fois le modèle appliqué.
+Des activités peuvent être ajoutées dans le cadre du processus de recrutement dans Microsoft Dynamics 365 for Talent : Attract. Des activités peuvent être ajoutées à un modèle de processus, ou directement au processus de recrutement de la mission. Lorsqu'une mission est définie, un modèle de processus est sélectionné, et les activités incluses dans le modèle sont appliquées à la mission. Si un modèle n'est pas sélectionné, le modèle par défaut est utilisé. Le processus de recrutement peut également être modifié sur la mission une fois le modèle appliqué.
 
 > [!NOTE] 
 > Les modèles de processus sont disponibles avec le Composant additionnel de recrutement complet.
@@ -43,31 +42,9 @@ L'activité du prospect contrôle si des prospects peuvent être ajoutés à une
 
 L'activité de candidature est requise dans le modèle de processus de recrutement. Pour envoyer un courrier électronique aux candidats lorsqu'ils soumettent leurs candidature ou sont ajoutés à la phase de candidature, définissez l'option **Envoyer l'e-mail au candidat** sur **Activé**.
 
-## <a name="scheduler-activity"></a>Activité de planificateur
+## <a name="interview-schedule-and-feedback-activity"></a>Planification des entretiens et activité de rétroaction
 
-L'activité du planificateur est facultative. Cette activité a deux composants : Disponibilité du candidat et programme. Le composant Disponibilité du candidat permet d'utiliser des e-mails pour demander la disponibilité d'un candidat. Le composant Programme permet de programmer des entretiens avec le candidat et l'équipe de recrutement. Dans l'activité du planificateur, les options suivantes peuvent être configurées : **Demander la disponibilité du candidat**, **Réunion en ligne** et **Envoyer un e-mail au candidat**.
-
-- Pour envoyer un e-mail aux candidats pour leur demander leur disponibilité, définissez l'option **Demander la disponibilité du candidat** sur **Activé**. Si vous définissez l'option sur **Désactivé**, cette étape n'est pas affichée dans le processus de recrutement sur la mission.
-- Pour diffuser en continu ou faire une conférence téléphonique à l'aide de Skype Entreprise, définissez le champ **Réunion en ligne** sur **Skype Entreprise**. Le lien **Rejoindre la réunion de Skype** correct est alors ajouté à la demande de réunion d'entretien envoyées aux intervieweurs.
-- Pour envoyer un e-mail aux candidats pour finaliser le programme, définissez l'option **Envoyer l'e-mail au candidat** sur **Activé**. Si vous définissez l'option sur **Désactivé**, les candidats recevront le programme d'entretien uniquement lorsqu'ils se connecteront au portail du candidat.
-
-## <a name="feedback-activity"></a>Activité de rétroaction
-
-L'activité de rétroaction est facultative. Cette activité permet aux participants à un entretien d'entrer des recommandations pour un candidat. Ils peuvent également entrer leurs commentaires de rétroaction. Si vous activez l'option **Hériter les participants aux commentaires de l'équipe de recrutement**, le recruteur, le responsable de l'embauche, et les intervieweurs sont automatiquement entrés dans l'activité de rétroaction. Les organisations peuvent permettre aux intervieweurs d'afficher les commentaires d'autres personnes avant d'envoyer leurs propres commentaires. Les organisations peuvent également autoriser les intervieweurs à modifier leur commentaire l'avoir envoyé.
-
-## <a name="interview-activity"></a>Activité d'entretien
-
-L'activité d'entretien est facultative. Cette activité a trois composants : Disponibilité du candidat, programme et commentaire. Le composant Disponibilité du candidat permet d'utiliser des e-mails pour demander la disponibilité d'un candidat. Le composant Programme permet de programmer des entretiens avec le candidat et l'équipe de recrutement. Dans l'activité du planificateur, les options suivantes peuvent être configurées : **Demander la disponibilité du candidat**, **Réunion en ligne** et **Envoyer un e-mail au candidat**.
-
-- Pour envoyer un e-mail aux candidats pour leur demander leur disponibilité, définissez l'option **Demander la disponibilité du candidat** sur **Activé**. Si vous définissez l'option sur **Désactivé**, cette étape n'est pas affichée dans le processus de recrutement sur la mission.
-- Pour diffuser en continu ou faire une conférence téléphonique à l'aide de Skype Entreprise, définissez le champ **Réunion en ligne** sur **Skype Entreprise**. Le lien **Rejoindre la réunion de Skype** correct est alors ajouté à la demande de réunion d'entretien.
-- Pour envoyer un e-mail aux candidats pour finaliser le programme, définissez l'option **Envoyer l'e-mail au candidat** sur **Activé**. Si vous définissez l'option sur **Désactivé**, les candidats recevront le programme d'entretien uniquement lorsqu'ils se connecteront au portail du candidat.
-
->[!NOTE]
-> - Pour tous les entretiens individuels, des rappels sont envoyés aux interviewers toutes les 24 heures si l'interviewer n'a pas répondu (accepté ou refusé) à la demande d'entretien.
-> - Pour tous les entretiens collectifs, il n'existe aucun rappel automatisé auquel répondre à une demande d'entretien. Pour déclencher un rappel manuellement, modifiez l'entretien et utilisez l'option **Mettre à jour et envoyer** pour renvoyer la demande aux interviewers.
-
-Le composant de commentaire permet aux personnes d'entrer des recommandations sur un candidat. Ils peuvent également entrer leurs commentaires de rétroaction. Si vous activez l'option **Hériter les participants aux commentaires de l'équipe de recrutement**, le recruteur, le responsable de l'embauche, et les intervieweurs sont automatiquement entrés dans le composant de rétroaction. Les organisations peuvent permettre aux intervieweurs d'afficher les commentaires d'autres personnes avant d'envoyer leurs propres commentaires. Les organisations peuvent également autoriser les intervieweurs à modifier leur commentaire l'avoir envoyé.
+Cette activité a trois composants : Demande de disponibilité du candidat, programme et commentaire. Utilisez l'activité d'entretien dans le modèle de poste si vous souhaitez inclure la demande de disponibilité du candidat, le programme et les commentaires dans le cadre du processus plutôt que de les utiliser de manière individuelle dans le cadre du processus de recrutement. Pour en savoir plus, consultez la rubrique [Planification et commentaires sur les entretiens](interview-scheduling-feedback.md).
 
 ## <a name="powerapps-activity"></a>Activité PowerApps
 
@@ -102,4 +79,3 @@ Dans Microsoft Forms, les auteurs peuvent modifier leurs paramètres pour permet
 
 > [!NOTE]
 > L'activité Microsoft Forms n'est disponible qu'avec le Composant additionnel de recrutement complet.
-

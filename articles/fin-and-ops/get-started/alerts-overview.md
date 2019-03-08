@@ -1,13 +1,13 @@
 ---
 title: Alertes
-description: "Cette rubrique donne des informations générales sur les alertes dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail."
+description: Cette rubrique fournit des informations générales sur les alertes dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367453"
 ---
-
 # <a name="alerts"></a>Alertes
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>À propos des alertes
-Les alertes forment un système de notification pour les événements critiques dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail. Vous pouvez facilement créer votre propre ensemble de règles d'alerte pour être prévenu des livraisons en retard, des suppressions de commandes, des modifications de prix et d'autres événements nécessitant une réaction de votre part.
+Les alertes constituent un système de notification pour des événements critiques dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail. Vous pouvez facilement créer votre propre ensemble de règles d'alerte pour être prévenu des livraisons en retard, des suppressions de commandes, des modifications de prix et d'autres événements nécessitant une réaction de votre part.
 
 Dans un système ERP (Enterprise Resource Planning), il existe plusieurs scénarios standard où la fonction d'alertes dans Finance and Operations peut être utilisée. Voici quelques exemples.
 
@@ -78,4 +77,3 @@ Une règle d'alerte a cinq composants :
 ## <a name="email-notifications-from-alerts"></a>Notifications par e-mail des alertes
 
 Les notifications par e-mail des alertes ne sont pas encore été activées. Cette option sera activée dans une prochaine mise à jour.
-

@@ -1,13 +1,13 @@
 ---
 title: Groupes de calculs de nomenclature
-description: "Cet article fournit des informations sur les groupes de calcul des nomenclatures et leur configuration. Pour exécuter un calcul de nomenclature, vous devez soit définir les groupes de calcul et les affecter à des articles individuels ou définir un groupe de calcul par défaut. Les paramètres de calcul du groupe de calcul sont utilisés ensuite comme valeurs par défaut sur la page Calcul de coût nomenclature au moment du calcul du coût de nomenclature."
+description: Cet article fournit des informations sur les groupes de calcul des nomenclatures et leur configuration. Pour exécuter un calcul de nomenclature, vous devez soit définir les groupes de calcul et les affecter à des articles individuels ou définir un groupe de calcul par défaut. Les paramètres de calcul du groupe de calcul sont utilisés ensuite comme valeurs par défaut sur la page Calcul de coût nomenclature au moment du calcul du coût de nomenclature.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362876"
 ---
-
 # <a name="bom-calculations-groups"></a>Groupes de calculs de nomenclature
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Un calcul de nomenclature génère des messages d’avertissement. Vous pouvez a
 -   Identifier lorsque le pourcentage de rentabilité de l'article d'une ligne de nomenclature est inférieur à la valeur attendue.
 
 Vous pouvez définir plusieurs groupes de calcul de nomenclature, en fonction de vos besoins en matière de variations dans les messages d’avertissement. Par exemple, un groupe de calcul de nomenclature avec des conditions d'avertissement sur une nomenclature active, une quantité de composants nulle et un coût de composant nul peut être suffisant. Lorsque vous lancez un calcul de nomenclature, vous pouvez remplacer les conditions d'avertissement associées au groupe de calcul de nomenclature. Vous pouvez également ajouter ou supprimer des conditions d'avertissement. Par exemple, quand la situation n'implique pas de données d'acheminement, vous pouvez supprimer la condition d'avertissement sur une gamme active. **Remarque :** Pointage inclut une page **Groupes de calcul**, mais que cette page n’a aucune relation avec les groupes de calcul de nomenclature. Dans Pointage, les travailleurs peuvent être affectés à des groupes de calcul qui reflètent le regroupement des travailleurs associés au même superviseur ou directeur. Le calcul des enregistrements des travailleurs peut être effectué automatiquement ou manuellement par un superviseur ou un directeur.
-
 
 
 

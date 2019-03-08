@@ -1,13 +1,13 @@
 ---
-title: "Paramétrage de la comptabilité intersociétés"
-description: "Cette rubrique décrit la procédure de paramétrage de la comptabilité intersociétés afin de pouvoir utiliser les journaux intersociétés pour les répartitions comptables et les journaux financiers, tels que les journaux, les journaux de factures fournisseurs, et les journaux des paiements d'opérations diverses."
+title: Paramétrage de la comptabilité intersociétés
+description: Cette rubrique décrit la procédure de paramétrage de la comptabilité intersociétés afin de pouvoir utiliser les journaux intersociétés pour les répartitions comptables et les journaux financiers, tels que les journaux, les journaux de factures fournisseurs, et les journaux des paiements d'opérations diverses.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ce07a29d7aa5057d0b61c7fcc6bb87a0a2755fc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9c5e73d97f6f52a417cb71dc5bfb57658765aaa1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363980"
 ---
-
 # <a name="intercompany-accounting-setup"></a>Paramétrage de la comptabilité intersociétés
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Sélectionnez le **compte de débit (Dû par)** et le **compte de crédit** (Dû
 Enfin, sélectionnez l'entité juridique qui reçevra la comptabilité pour les montants de prise en charge, tels que l'escompte de règlement ou les profits/pertes réalisés pour les paiements centralisés. 
 
 Une relation réciproque peut être facilement définie sur la page **Comptabilité intersociétés** à l'aide du bouton **Créer une relation réciproque** après la création de la première paire d'entité juridique. Lorsque la paire réciproque est créée, les informations de la société de destination sont copiéees vers la société d'origine et inversement. Le journal défini pour la société de destination est conservé. La plupart des organisations utilisent la même convention d'appellation pour leurs noms de journal, de sorte que le nom du journal soit identique. Si le nom du journal est différent, un avertissement apparaît dans le champ pour vous informer que le journal n'existe pas et qu'un autre journal peut être sélectionné.
-
 
 
 

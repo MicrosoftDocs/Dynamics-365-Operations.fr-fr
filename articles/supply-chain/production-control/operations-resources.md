@@ -1,13 +1,13 @@
 ---
 title: Ressources Operations
-description: "Les ressources opérationnelles réalisent les activités d'un projet ou d'un processus de production. Elles peuvent être de différents types et avoir différentes capacités."
+description: Les ressources opérationnelles réalisent les activités d'un projet ou d'un processus de production. Elles peuvent être de différents types et avoir différentes capacités.
 author: sorenva
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366602"
 ---
-
 # <a name="operations-resources"></a>Ressources Operations
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,6 @@ Lorsqu'un groupe de ressources est utilisé comme cellule de travail au plus jus
 
 ## <a name="costing-resources"></a>Ressources d'évaluation des coûts
 Lorsque vous définissez une activité telle qu'une opération de gamme ou une prévision en heures de projet, vous pouvez définir les besoins d'une ressource opérationnelle ou d'un groupe de ressources spécifique. Toutefois, vous pouvez également spécifier les besoins d'une ressource opérationnelle d'un type spécifique, ou d'une ressource opérationnelle ayant une capacité ou une compétence spécifique. Pour cette raison, l'affectation de ressources réelle n'est pas effectuée jusqu'à ce que l'activité soit planifiée et la capacité réservée. Par conséquent, sur une opération de gamme, vous pouvez spécifier que l'estimation et le calcul de nomenclature doivent être basés sur une ressource opérationnelle spécifique. Cette ressource opérationnelle est appelée ressource d'évaluation des coûts. Vous pouvez également transférer les catégories de coûts et les durées d'opération de la ressource d'évaluation des coûts vers l'activité. Lorsque l'opération est planifiée, l'estimation et le calcul de nomenclature sont effectués à l'aide de la ressource opérationnelle réellement planifiée.
-
 
 
 

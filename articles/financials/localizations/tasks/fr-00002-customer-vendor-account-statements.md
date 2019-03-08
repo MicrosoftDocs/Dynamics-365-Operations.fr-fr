@@ -1,13 +1,13 @@
---- 
-title: "FR-00002 Relevés de compte client et fournisseur"
-description: "Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée."
+---
+title: FR-00002 Relevés de compte client et fournisseur
+description: Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SrsReportViewerForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5b390bb30f5bc26dd465a13306e152b6668eb3b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370722"
 ---
 # <a name="fr-00002-customer-and-vendor-account-statements"></a>FR-00002 Relevés de compte client et fournisseur
 
@@ -49,5 +49,4 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse
 3. Entrez une date dans le champ Date de fin.
 4. Dans le champ Évaluation, entrez une date.
 5. Cliquez sur OK.
-
 

@@ -1,32 +1,31 @@
 ---
-title: "Présentation des informations sur les produits"
-description: "Cette rubrique fournit des informations sur la gestion des informations sur les produits. La gestion des informations sur les produits nécessite une définition, une catégorisation et des identifiants de produits partagés dans toutes les entités juridiques, ainsi que les configurations spécifiques d'un produit, pour s'adapter aux processus d'entreprise."
+title: Présentation des informations sur les produits
+description: Cette rubrique fournit des informations sur la gestion des informations sur les produits. La gestion des informations sur les produits nécessite une définition, une catégorisation et des identifiants de produits partagés dans toutes les entités juridiques, ainsi que les configurations spécifiques d'un produit, pour s'adapter aux processus d'entreprise.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363014"
 ---
-
 # <a name="product-information-overview"></a>Présentation des informations sur les produits
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,7 @@ Notez que, dans les organisations dynamiques et agiles, les informations sur le 
 
 ## <a name="product-masters-and-product-variants"></a>Produits génériques et variantes de produit
 
-Dans un monde Agile, où les produits doivent être rapidement adaptés aux besoins du client, les définitions de produit spécifient un ensemble de produits au lieu de produits distincts. Dans Microsoft Dynamics 365 for Finance and Operations, ces produits sont appelés *Produits génériques*. Les produits génériques tiennent à jour la définition et les règles qui indiquent comment les produits distincts sont décrits et se comportent dans les processus d'entreprise. En fonction de ces définitions, des produits distincts peuvent être générés. Ces produits distincts sont appelés *variantes de produit*.
+Dans un monde Agile, où les produits doivent être rapidement adaptés aux besoins du client, les définitions de produit spécifient un ensemble de produits au lieu de produits distincts. Dans Microsoft Dynamics 365 for Finance and Operations, ces produits génériques sont appelés *produits génériques*. Les produits génériques tiennent à jour la définition et les règles qui indiquent comment les produits distincts sont décrits et se comportent dans les processus d'entreprise. En fonction de ces définitions, des produits distincts peuvent être générés. Ces produits distincts sont appelés *variantes de produit*.
 
 Dans Finance and Operations, un produit générique est associé à un groupe de dimensions de produit et une technologie de configuration pour spécifier les règles métier. Les dimensions de produit (Couleur, Taille, Style et Configuration) sont un ensemble spécifique d'attributs qui peuvent être utilisés dans l'application pour définir et suivre les comportements spécifiques des produits associés. Ces dimensions aident également les utilisateurs à rechercher et identifier les produits.
 
@@ -97,4 +96,3 @@ L'espace de travail se compose d'une synthèse de vignettes et de deux listes. L
 ### <a name="manually-creating-a-new-released-product"></a>Créer manuellement un nouveau produit lancé
 
 Vous pouvez créer manuellement un produit lancé en une seule exécution, en fonction des processus de l'organisation et de toutes les règles d'entreprise indiquant si cette fonction doit être utilisée. Cette fonction permet de créer un nouveau produit et de le lancer automatiquement dans l'entité juridique actuelle. Pour créer un nouveau produit, cliquez sur **Produits lancés** dans l'espace de travail **Gestion des produits lancés** ou dans la page de liste **Produit lancé**.
-

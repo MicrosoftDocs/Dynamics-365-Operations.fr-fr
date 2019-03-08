@@ -1,13 +1,13 @@
 ---
-title: "Pénalités pour les paiements client en retard en France"
-description: "En France, vous pouvez appliquer une pénalité lorsqu'un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d'échéance du paiement."
+title: Pénalités pour les paiements client en retard en France
+description: En France, vous pouvez appliquer une pénalité lorsqu'un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d'échéance du paiement.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustInvoiceJournal, CustFormletterParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 32b8f7d29c0b26a739cbc297b0a174669e87cfa8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 7898fbae09eb1f309f7c65520c2eb5acf10ac202
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370699"
 ---
-
 # <a name="penalties-for-past-due-customer-payments-in-france"></a>Pénalités pour les paiements client en retard en France
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Lorsque vous avez paramétré l'impression du texte récupéré du montant forfa
 -   Factures financières
 -   Factures pro forma client
 -   Avoirs du client
-
 
 
 

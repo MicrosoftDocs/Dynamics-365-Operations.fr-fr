@@ -1,13 +1,13 @@
 ---
-title: "Rapprochement des relevés bancaires et des paiements pour l'UE"
-description: "Cette rubrique donne une vue d'ensemble de la fonctionnalité permettant de rapprocher les informations de paiement des banques dans les formats utilisés par les pays européens."
+title: Rapprochement des relevés bancaires et des paiements pour l'UE
+description: Cette rubrique donne une vue d'ensemble de la fonctionnalité permettant de rapprocher les informations de paiement des banques dans les formats utilisés par les pays européens.
 author: neserovleo
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -17,21 +17,20 @@ ms.search.region: Belgium, Norway, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 40742ff82e916b64e68662f79899baf2549b1f2c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3dc0b968fdf217554b350a152195a4b3d235fdf0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370644"
 ---
-
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Rapprochement des relevés bancaires et des paiements pour l'UE
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique donne une vue d'ensemble de la fonctionnalité permettant de rapprocher les informations de paiement des banques dans les formats utilisés par les pays européens.
 
-Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez importer des transactions bancaires et régler ces transactions avec les transactions existantes. En Europe, vous pouvez le faire pour les scénarios suivants :
+Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez importer des transactions bancaires et régler ces transactions avec les transactions existantes. En Europe, vous pouvez le faire pour les scénarios suivants :
 
 -   Importation des relevés bancaires
 -   Importation des paiements
@@ -60,6 +59,5 @@ Outre un relevé bancaire, les banques peuvent fournir des messages spécifiques
 -   (DNK) BetalingsserviceBasis-returformat – Format de retour pour le format d'exportation Betalingsservice client
 -   [Formats de paiement d'importation pour la Suède](emea-swe-payment-formats-import.md) - Retours Bankgirot Autogiro
 -   (SWE) Retour BankGirot – Format de retour des paiements fournisseur, qui correspond au format d'exportation Bankgirot
-
 
 

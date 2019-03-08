@@ -1,13 +1,13 @@
---- 
-title: "Embaucher des employés existants via le recrutement"
-description: "Les postes vacants peuvent parfois être remplis par des candidats déjà employés de votre organisation."
+---
+title: Embaucher des employés existants via le recrutement
+description: Les postes vacants peuvent parfois être remplis par des candidats déjà employés de votre organisation.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365383"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Embaucher des employés existants via le recrutement
 
@@ -40,5 +40,4 @@ Les postes vacants peuvent parfois être remplis par des candidats déjà employ
 8. Une autre solution consiste à sélectionner un code motif. Exemple : Réorganisation
 9. Cliquez sur Modifier le poste.
     * Vous pouvez également modifier la rémunération à ce moment-là. Si vous n'affectez pas la rémunération à ce moment, vous pouvez la modifier en allant dans l'écran du collaborateur, en sélectionnant l'onglet Rémunération, et en choisissant « Régime fixe ». Après avoir sélectionné « Modifier le poste », le statut de la candidature est mis à jour sur « Employé ».  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "EUR-00015 Paramétrer l'ID de TVA"
-description: "Cette procédure décrit les conditions préalables à l'enregistrement de l'ID de TVA, par exemple le paramétrage d'un type d'enregistrement et son affectation à une catégorie d'enregistrement."
+---
+title: EUR-00015 Paramétrer l'ID de TVA
+description: Cette procédure décrit les conditions préalables à l'enregistrement de l'ID de TVA, par exemple le paramétrage d'un type d'enregistrement et son affectation à une catégorie d'enregistrement.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxRegistrationType, TaxRegistrationTypeCreate, TaxRegistrationLegislationTypes
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 66ee7215dc21921f9d8e405c3f77d9b5e0b89a9e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370729"
 ---
 # <a name="eur-00015-set-up-vat-id"></a>EUR-00015 Paramétrer l'ID de TVA
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/14/2018
 
 Cette procédure décrit les conditions préalables à l'enregistrement de l'ID de TVA, par exemple le paramétrage d'un type d'enregistrement et son affectation à une catégorie d'enregistrement. Vous trouverez des informations supplémentaires sur les ID d'enregistrement et leur traitement, notamment les conditions préalables requises, dans la rubrique d'aide sur les ID d'enregistrement. 
 
-Les informations ici s'appliquent à tous les pays/régions européens. La tâche a été créée avec les données de démonstration de la société fictive DEMF, avec Allemagne comme adresse principale de l'entité juridique. Cette tâche est destinée aux administrateurs système. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Les informations ici s'appliquent à tous les pays/régions européens. La tâche a été créée avec les données de démonstration de la société fictive DEMF, avec Allemagne comme adresse principale de l'entité juridique. Cette tâche est destinée aux administrateurs système. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 1. Accédez à Administration d'organisation > Carnet d'adresse global > Types d'enregistrement > Types d'enregistrement.
 2. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
@@ -60,5 +60,4 @@ Les informations ici s'appliquent à tous les pays/régions européens. La tâch
 21. Dans le champ Catégorie d'enregistrement, sélectionnez « ID TVA ».
     * Affectez le type d'enregistrement que vous avez créé à une catégorie d'enregistrement prédéfinie.  
 22. Cliquez sur Enregistrer.
-
 

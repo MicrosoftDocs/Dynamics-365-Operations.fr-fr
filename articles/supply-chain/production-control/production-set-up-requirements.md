@@ -1,13 +1,13 @@
 ---
-title: "Conditions requises pour le paramétrage de la production"
-description: "Cet article fournit des informations sur les conditions requises pour le paramétrage avant d'utiliser le contrôle de la production."
+title: Conditions requises pour le paramétrage de la production
+description: Cet article fournit des informations sur les conditions requises pour le paramétrage avant d'utiliser le contrôle de la production.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b5df3c6c776a8dafdcfb3be7e2f273e01d70bcae
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366625"
 ---
-
 # <a name="production-setup-requirements"></a>Conditions requises pour le paramétrage de la production
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Si vous utilisez des gammes, les opérations doivent être définies pour chaque
 1.  **Groupes de productions** – Paramétrez les groupes de production afin de définir les relations entre l'ordre de fabrication et les comptes généraux. Ces derniers sont utilisés pour valider ou regrouper les ordres à des fins de génération d'états.
 2.  **Regroupements de productions** – Créez des regroupements de production afin de regrouper les ordres de fabrication pour leur traitement urgent ou pour la suppression ou la validation des groupes d'ordres.
 3.  **Propriétés** – Définissez les propriétés pour créer les attributs spéciaux que vous pouvez affecter à vos ressources pour contrôler la séquence de production. Ces attributs sont connectés au modèle de temps de travail.
-
 
 
 

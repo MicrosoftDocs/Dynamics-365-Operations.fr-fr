@@ -1,13 +1,13 @@
 ---
-title: "Impression du texte récupéré du montant forfaitaire sur une facture client"
-description: "Cet article fournit des informations sur la procédure pour imprimer un texte récupéré du montant forfaitaire qui affiche le montant de la pénalité sur les factures client."
+title: Impression du texte récupéré du montant forfaitaire sur une facture client
+description: Cet article fournit des informations sur la procédure pour imprimer un texte récupéré du montant forfaitaire qui affiche le montant de la pénalité sur les factures client.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFormletterParameters, CustInvoiceJournal
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5730f21249f0b81a8e70be44a9c9d61ac04c7677
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 5075d282dd838e14de4bed74988efcc7a0b9fc5d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370654"
 ---
-
 # <a name="print-lump-sum-recovery-text-on-a-customer-invoice"></a>Impression du texte récupéré du montant forfaitaire sur une facture client
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,6 @@ Utilisez la page **Paramétrage d'écran** pour définir les paramètres d'impre
 
 ## <a name="print-the-lump-sum-recovery-text-on-a-customer-invoice"></a>Impression du texte récupéré du montant forfaitaire sur une facture client
 Utilisez la page **Validation de la facture** pour imprimer le texte récupéré du montant forfaitaire qui affiche le montant de pénalité sur les factures client. Dans la page **Validation de la facture**, activez la case à cocher **Imprimer le texte récupéré du montant forfaitaire** pour chaque ligne. Lorsque cette case à cocher est activée, cela indique que le texte récupéré de la somme forfaitaire est imprimé sur les factures client. Lorsque vous validez la commande client, le texte récupéré du montant forfaitaire est imprimé sur la facture client. Vous pouvez également imprimer le texte récupéré du montant forfaitaire sur une facture client que vous imprimez à partir de la page **Journal des factures**.
-
 
 
 

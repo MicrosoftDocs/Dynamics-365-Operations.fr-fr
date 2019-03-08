@@ -1,14 +1,14 @@
 ---
-title: "Gestion de la sécurité et des rôles dans Attract"
-description: "Cette rubrique fournit des informations sur les rôles de sécurité dans Microsoft Dynamics 365 for Talent - Attract."
+title: Gestion de la sécurité et des rôles dans Attract
+description: Cette rubrique fournit des informations sur la sécurité des rôles dans Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374778"
 ---
-
 # <a name="security-and-role-management-in-attract"></a>Gestion de la sécurité et des rôles dans Attract
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent - Attract utilise la sécurité basée sur des rôles. En d'autres termes, l'accès n'est pas accordé aux utilisateurs individuels, mais aux rôles de sécurité affectés aux utilisateurs. Un utilisateur affecté à un rôle de sécurité a accès à l'ensemble de privilèges associé à ce rôle.
+Microsoft Dynamics 365 for Talent : Attract utilise la sécurité des rôles. En d'autres termes, l'accès n'est pas accordé aux utilisateurs individuels, mais aux rôles de sécurité affectés aux utilisateurs. Un utilisateur affecté à un rôle de sécurité a accès à l'ensemble de privilèges associé à ce rôle.
 
 Attract propose cinq rôles d'utilisateur de base :
 
@@ -108,7 +107,7 @@ Les privilèges suivants s'appliquent aux données spécifiques aux missions pou
 | Changer de stade           | Peut rejeter si l'utilisateur fait partie de l'équipe de recrutement | Peut avancer si l'utilisateur fait partie de l'équipe de recrutement | Non autorisé |
 | Lancer la gestion des offres | Peut commencer la gestion des offres | Il existe une option de configuration sur l'activité d'offre. | Non autorisé |
 
-\*\* Une option de configuration dans le [paramétrage d'activité de rétroaction](./activities-attract.md#feedback-activity) contrôle si les intervieweurs peuvent afficher les commentaires des uns et des autres.
+\*\* Une option de configuration dans le [paramétrage d'activité de rétroaction](activities-attract.md#feedback-activity) contrôle si les intervieweurs peuvent afficher les commentaires des uns et des autres.
 
 ## <a name="process-templates"></a>Modèles de processus
 
@@ -146,4 +145,3 @@ Les candidats sont des personnes qui ont été ajoutées à un vivier de talents
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profil – détails du candidat | Créer, lire, mettre à jour et supprimer | Créer, lire, mettre à jour et supprimer | Pas d'accès   |
 | Documents                   | Créer, lire, mettre à jour et supprimer | Créer, lire, mettre à jour et supprimer | Pas d'accès   |
-

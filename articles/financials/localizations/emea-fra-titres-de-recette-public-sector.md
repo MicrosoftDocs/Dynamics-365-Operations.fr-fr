@@ -1,13 +1,13 @@
 ---
 title: Titres de recette dans le secteur public en France
-description: "Le titre de recette permet au directeur d'informer le comptable que l'organisation est autorisée à recouvrer un montant spécifique auprès d'une autre entité et d'autoriser le comptable à déposer ledit montant. Le directeur ou le comptable peut déléguer la tâche à un commercial, mais il a toujours la responsabilité de chaque tâche. Le titre permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable."
+description: Le titre de recette permet au directeur d'informer le comptable que l'organisation est autorisée à recouvrer un montant spécifique auprès d'une autre entité et d'autoriser le comptable à déposer ledit montant. Le directeur ou le comptable peut déléguer la tâche à un commercial, mais il a toujours la responsabilité de chaque tâche. Le titre permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable.
 author: rschloma
 manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ba76e50abd5ce124b91515eacf860dbe2e81ae2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b87d96dca92f3ef4e755e71649bd0b183f62f982
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370702"
 ---
-
 # <a name="titres-de-recette-in-the-public-sector-in-france"></a>Titres de recette dans le secteur public en France
 
 [!include [banner](../includes/banner.md)]
 
 Le titre de recette permet au directeur d'informer le comptable que l'organisation est autorisée à recouvrer un montant spécifique auprès d'une autre entité et d'autoriser le comptable à déposer ledit montant. Le directeur ou le comptable peut déléguer la tâche à un commercial, mais il a toujours la responsabilité de chaque tâche. Le titre permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable.
 
-Dans Microsoft Dynamics 365 for Finance and Operations, chaque titre est affecté à une seule ligne de facture financière. Cela permet de garantir que chaque titre ne concerne qu'un seul débiteur et n'inclut qu'un seul compte budgétaire. Un groupe de titres liés avec leurs documents associés sont affectés à un bordereau de titre pour être soumis au comptable.
+Dans Microsoft Dynamics 365 for Finance and Operations, une seule ligne de facture financière est affectée à chaque titre. Cela permet de garantir que chaque titre ne concerne qu'un seul débiteur et n'inclut qu'un seul compte budgétaire. Un groupe de titres liés avec leurs documents associés sont affectés à un bordereau de titre pour être soumis au comptable.
 
 ## <a name="directors-tasks"></a>Tâches du directeur
 Sur la page **Tenir à jour les titres de recette**, le directeur peut effectuer les tâches suivantes :
@@ -72,7 +71,6 @@ Pour ouvrir la page de recherche dans la base de données à partir de la page *
   | Enregistrement | Table dérivée | Champ                        | Critères   |
   |-------|---------------|------------------------------|------------|
   | Titre | Titre         | Statut d'acceptation du comptable | « Rejeté(e) » |
-
 
 
 

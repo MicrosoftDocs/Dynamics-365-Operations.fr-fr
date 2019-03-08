@@ -1,13 +1,13 @@
 ---
-title: "Configurer des tâches automatiques dans un workflow"
-description: "Cette rubrique explique comment configurer les propriétés d'une tâche automatique."
+title: Configurer des tâches automatiques dans un workflow
+description: Cette rubrique explique comment configurer les propriétés d'une tâche automatique.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5a9f37228beedafa085987668d5c89b06c6c9d61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365107"
 ---
-
 # <a name="configure-automated-tasks-in-a-workflow"></a>Configurer des tâches automatiques dans un workflow
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,7 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une tâche automatiqu
     </tr>
     <tr>
     <td>Utilisateur</td>
-    <td>Utilisateurs de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition spécifiques</td>
+    <td>Utilisateurs Microsoft Dynamics 365 for Finance and Operations spécifiques</td>
     <td>
     <ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
@@ -112,4 +111,3 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une tâche automatiqu
     </table>
 
 8. Répétez les étapes 3 à 7 pour chaque événement que vous avez sélectionné à l'étape 2.
-

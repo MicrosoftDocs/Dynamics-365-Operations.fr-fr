@@ -1,13 +1,13 @@
---- 
-title: "Créer un code de facturation pour le secteur public"
-description: "Les champs personnalisés du code facturation permettent de rassembler les valeurs des champs de code facturation lors de la création de factures financières."
+---
+title: Créer un code de facturation pour le secteur public
+description: Les champs personnalisés du code facturation permettent de rassembler les valeurs des champs de code facturation lors de la création de factures financières.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCustomField
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3a93cd1d7145353e2a83c87fe87d1f4d6b85f12c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: da9b072e9eeb1c581e900882648daa8b87d3bf1d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370742"
 ---
 # <a name="create-a-billing-code-for-the-public-sector"></a>Créer un code de facturation pour le secteur public
 
@@ -40,5 +40,4 @@ Les champs personnalisés du code facturation permettent de rassembler les valeu
 6. Facultatif : dans le champ Description de l'utilisation, décrivez comment le champ personnalisé doit être utilisé. Ces informations sont à usage interne uniquement. Elle ne sont pas visibles pour l'utilisateur.
 7. Ouvrez la section Références du code facturation. Lorsque vous affectez ce champ personnalisé à un code facturation, le code facturation est indiqué ici.
 8. Cliquez sur Enregistrer.
-
 

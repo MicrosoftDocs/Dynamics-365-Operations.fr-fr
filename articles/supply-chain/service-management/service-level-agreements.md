@@ -1,31 +1,30 @@
 ---
 title: Contrats de niveau de service
-description: "Dans le cadre d'un contrat de niveau de service, le client accepte un temps de réponse minimal (de l'enregistrement du problème par la société de service jusqu'à la résolution du problème)."
+description: Dans le cadre d'un contrat de niveau de service, le client accepte un temps de réponse minimal (de l'enregistrement du problème par la société de service jusqu'à la résolution du problème).
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cffe3a7766502dd5d888a7a99a32150967911301
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63389ed348e9b1bebe00d9aaa9f78b97ac39317b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364578"
 ---
-
 # <a name="service-level-agreements"></a>Contrats de niveau de service        
 
 [!include [banner](../includes/banner.md)]
@@ -80,6 +79,5 @@ Lorsque vous créez une commande de service pour un accord de service auquel le 
 [Affichage de la conformité avec les contrats SLA](view-compliance-with-service-level-agreements.md)
 
   
-
 
 

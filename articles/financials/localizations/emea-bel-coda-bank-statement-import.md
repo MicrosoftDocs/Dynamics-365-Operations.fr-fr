@@ -1,13 +1,13 @@
 ---
-title: "Relevé bancaire CODA"
-description: "Cette rubrique contient des informations sur CODA, qui est un format d'état utilisé par le système d'opérations bancaires électroniques belge."
+title: Relevé bancaire CODA
+description: Cette rubrique contient des informations sur CODA, qui est un format d'état utilisé par le système d'opérations bancaires électroniques belge.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, BankCodaAccountStatement, BankCodaAccountStatementLines, BankCodaParameters, BankCodaTrans, BankCodaTransCategory, BankCodaTransDefTable, BankCodaTransFamily
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Belgium
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7195e9e9a45137b959be2e08736ec2ba88df4ef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 07788dab44cd45c163097a4e9b357a76c9d5ea00
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370712"
 ---
-
 # <a name="coda-bank-statement"></a>Relevé bancaire CODA
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,6 @@ Effectuez les étapes suivantes pour traiter les transactions de relevé bancair
 4. Une fois que toutes les transactions du relevé bancaire sont réglées, elles sont prêtes à être transférées vers le journal de comptabilité (<strong>CODA</strong> &gt;<strong>Transfert vers la comptabilité</strong>). Les paramètres du journal doivent être spécifiés pour le compte bancaire. Les journaux peuvent être ouverts sur la page <strong>Comptes bancaires** pour l'enregistrement sélectionné en cliquant sur **Paramétrage</strong> &gt; <strong>Journal CODA</strong>.
 
 Une fois que le traitement des transactions de relevé bancaire est terminé, un journal de comptabilité est créé et prêt à être validé.
-
 
 
 

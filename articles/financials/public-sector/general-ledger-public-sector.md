@@ -1,13 +1,13 @@
 ---
-title: "Comptabilité dans le secteur public"
-description: "Cette rubrique décrit la fonctionnalité de comptabilité disponible pour le secteur public."
+title: Comptabilité dans le secteur public
+description: Cette rubrique décrit la fonctionnalité de comptabilité disponible pour le secteur public.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AdvancedLedgerEntry, JournalizingDefinition, LedgerDerivedFinHierarchies, LedgerFundType, LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dc56ddac1b7790bab1a489aae523804cf2a72fb2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d6927eced6b7c36f89a958800b6e1e6aed1d178f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370793"
 ---
-
 # <a name="general-ledger-in-the-public-sector"></a>Comptabilité dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Vous pouvez utiliser des hiérarchies financières dérivées afin de recueillir
 --------
 
 [Comptabilité](../general-ledger/general-ledger.md)
-
 
 
 

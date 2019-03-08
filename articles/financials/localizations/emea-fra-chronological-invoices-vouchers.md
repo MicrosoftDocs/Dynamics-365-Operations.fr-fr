@@ -1,13 +1,13 @@
 ---
-title: "Numéros de facture et de document chronologiques pour la France"
-description: "Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client pour les entités juridiques en France."
+title: Numéros de facture et de document chronologiques pour la France
+description: Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client pour les entités juridiques en France.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, NumberSequenceGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 4f57cc7e472dc0e2081056f7df1d59c1ade25347
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ae35bf41328e5177a673a8b6f72baa5faa05b849
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370750"
 ---
-
 # <a name="chronological-invoice-and-voucher-numbers-for-france"></a>Numéros de facture et de document chronologiques pour la France
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Si différents clients utilisent différents modèles de numérotation, vous dev
 
 ## <a name="invoice-posting"></a>Validation de facture
 Lorsque vous validez une facture ou un avoir, la souche de numéros appropriée est utilisée pour générer un numéro. Cette souche de numéros est sélectionnée selon la période valide contenant la date de la facture. La numérotation chronologique spécifique au client a une priorité plus élevée que la numérotation chronologique.
-
 
 
 

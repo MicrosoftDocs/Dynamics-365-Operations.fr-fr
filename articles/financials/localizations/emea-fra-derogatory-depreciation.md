@@ -1,13 +1,13 @@
 ---
-title: "Amortissement dérogatoire pour la France"
-description: "Cet article fournit des informations sur l'amortissement dérogatoire et la manière de le paramétrer. Dans l'amortissement dérogatoire, un montant d'amortissement supplémentaire est calculé comme étant la différence entre le montant d'amortissement du modèle de valeur de taxe et le montant d'amortissement du modèle de valeur comptable pendant la durée de vie d'une immobilisation."
+title: Amortissement dérogatoire pour la France
+description: Cet article fournit des informations sur l'amortissement dérogatoire et la manière de le paramétrer. Dans l'amortissement dérogatoire, un montant d'amortissement supplémentaire est calculé comme étant la différence entre le montant d'amortissement du modèle de valeur de taxe et le montant d'amortissement du modèle de valeur comptable pendant la durée de vie d'une immobilisation.
 author: Anasyash
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting, AssetBook, AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8d9f533c1fa16a32c6d7da8e5dfc5d80a8c2ab4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 97cb87a3599364a76c70b25878c829504b1cdec6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370715"
 ---
-
 # <a name="derogatory-depreciation-for-france"></a>Amortissement dérogatoire pour la France
 
 [!include [banner](../includes/banner.md)]
@@ -48,4 +47,3 @@ Dans la page **Profils de validation d'immobilisation**, paramétrez les comptes
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Fusion du modèle de valeur et du registre des amortissements](../fixed-assets/fixed-asset-value-model-depreciation-book-merge.md)
-

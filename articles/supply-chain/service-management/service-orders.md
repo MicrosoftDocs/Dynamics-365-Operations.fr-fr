@@ -1,31 +1,30 @@
 ---
 title: Commandes de service
-description: "Une commande de service représente la visite d'un site client par un technicien de service à une date spécifique."
+description: Une commande de service représente la visite d'un site client par un technicien de service à une date spécifique.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 647bbe9cca0167d33048ad07e092708f90b41fc3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366510"
 ---
-
 # <a name="service-orders"></a>Commandes de service   
 
 [!include [banner](../includes/banner.md)]
@@ -88,6 +87,5 @@ Au cours du second semestre, le client décide que les visites de service sont t
 [Commandes de service (écran)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
 
   
-
 
 

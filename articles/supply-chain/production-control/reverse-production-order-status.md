@@ -1,13 +1,13 @@
 ---
 title: Inverser le statut d'ordre de fabrication
-description: "Cette rubrique décrit la procédure pour contrepasser le statut de l'ordre de fabrication."
+description: Cette rubrique décrit la procédure pour contrepasser le statut de l'ordre de fabrication.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 10ce698ef07e9f290547b0eedd7c357f54852e76
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367315"
 ---
-
 # <a name="reverse-the-production-order-status"></a>Inverser le statut d'ordre de fabrication
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Lorsque vous contrepassez le statut d'un ordre de fabrication de **Lancé** à *
 
 ## <a name="from-started-to-released"></a>Du statut Commencé au statut Lancé
 Lorsque vous contrepassez le statut d'un ordre de fabrication de **Commencé** à **Lancé**, tous les articles déclarés comme terminés sont redéfinis. Si du matériel a été prélevé ou si des livraisons entrantes ou sortantes ont été effectuées en production, ces paramètres sont contrepassés. Le champ **Statut du solde** des lignes de nomenclature de l'ordre de fabrication passe de **Terminé** à **Consommation de matières**. Si le délai a été enregistré ou si des quantités ont été déclarées comme terminées pour les opérations de la gamme de production, ces paramètres sont contrepassés. Le champ **Statut du solde** passe de **Terminé** à **Consommation de gamme** dans la gamme de production. Les paramètres de tous les articles validés comme étant en cours ou des travaux en cours sont contrepassés. Dans la page **Détails de l'ordre de fabrication**, les champs qui indiquent une quantité commencée ou déclarée comme terminée sont réinitialisés. Les dates pour ces transactions sont également réinitialisées.
-
 
 
 

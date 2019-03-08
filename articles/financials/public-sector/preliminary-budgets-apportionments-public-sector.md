@@ -1,13 +1,13 @@
 ---
-title: "Budgets préliminaires et répartitions dans le secteur public"
-description: "Cette rubrique couvre la création d'un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire."
+title: Budgets préliminaires et répartitions dans le secteur public
+description: Cette rubrique couvre la création d'un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetBalancesActuals, BudgetControlConfiguration, BudgetTransactionCode
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b94f565efca2cec3b7cecfe0b451cf2af89cb248
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4accdbfd13e242c1fcf1dd69b2498f70da5e05e8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370802"
 ---
-
 # <a name="preliminary-budgets-and-apportionments-in-the-public-sector"></a>Budgets préliminaires et répartitions dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -125,7 +124,6 @@ Pour afficher des informations supplémentaires sur les budgets préliminaires, 
 Lorsque vous créez une écriture budgétaire d'origine et que vous utilisez le modèle de budget et des valeurs de dimension qui contiennent des montants budgétaires préliminaires, ceux-ci peuvent être contrepassés. Par exemple, vous pouvez entrer un montant budgétaire préliminaire de 2 500 dollars dans le compte général 50 000. Par la suite, si vous entrez un montant budgétaire d'origine de 10 000 dollars dans le compte général 50 000, le montant budgétaire préliminaire de 2 500 dollars sera contrepassé. Le compte général 50000 afficherait un montant budgétaire de 10 000 €. 
 
 Vous pouvez afficher les écritures de registre budgétaires pour le budget d'origine en sélectionnant l'écriture de compte budgétaire dans l'organisateur **Écritures de compte budgétaires** de la page **Écriture de registre budgétaire**. Dans la barre de menus, cliquez sur **Informations associées**, puis sur **Écritures de registre budgétaires**.
-
 
 
 

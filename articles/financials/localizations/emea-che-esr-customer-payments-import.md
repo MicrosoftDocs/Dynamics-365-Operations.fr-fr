@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -17,21 +17,20 @@ ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: a3215142e214ada75bc1978055f055c269a0791a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f6b63f212bbd868cef5a2fef41825de0d789ca0a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370755"
 ---
-
 # <a name="esr-customer-payments-import"></a>Importation des paiements client ESR
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur l'importation de paiements client au format ESR.
 
-ESR est un service de débit électronique qui utilise des bordereaux de paiement pour collecter de l'argent. Il s'agit du système standard de paiement électronique créé par la Poste suisse. Vous pouvez recevoir les fichiers de paiement client au format ESR, qui peuvent inclure les transactions et les frais bancaires. Cette fonctionnalité est destinée aux transactions client importées basées sur les références de paiement initialement générées dans Microsoft Dynamics 365 for Finance and Operations et imprimées sur le bordereau de paiement.
+ESR est un service de débit électronique qui utilise des bordereaux de paiement pour collecter de l'argent. Il s'agit du système standard de paiement électronique créé par la Poste suisse. Vous pouvez recevoir les fichiers de paiement client au format ESR, qui peuvent inclure les transactions et les frais bancaires. Cette fonctionnalité est destinée aux transactions client importées basées sur les références de paiement initialement générées dans Microsoft Dynamics 365 for Finance and Operations et imprimées sur le bordereau de paiement.
 
 ## <a name="generate-payment-references"></a>Générer les références de paiement
 Les références de paiement doivent être imprimées sur le bordereau de paiement après validation. Vous pouvez également vérifier les références de paiement dans la page **Journal des factures** pour la commande client sélectionnée. Pour générer les références de paiement, les paramètres suivants doivent être spécifiés.
@@ -52,7 +51,6 @@ Pour plus d'informations, voir [État du bordereau de paiement (virement)](emea-
    >  Avant de pouvoir effectuer cette étape, vous devez avoir déjà importé les configurations **ESR (CH)** à partir de Lifecycle Services (LCS) et paramétré le mode de paiement ESR. Pour plus d'informations, voir [Formats de fichier des modes de paiement](emea-select-file-formats-for-the-method-of-payments.md).
 
 Après avoir importé le fichier de paiement, les lignes du journal des paiements sont créées et marquées pour règlement avec les factures client basées sur la référence de paiement. Si des frais spécifiés pour le compte bancaire sont représentés dans le fichier, par exemple les transactions entre le compte principal et le compte de frais, ces frais seront ajoutés au journal.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Analyser les documents entrants au format Excel
-description: "Cette rubrique fournit des informations sur la création de formats de gestion des états électroniques pour analyser le contenu des fichiers Microsoft Excel entrants."
+description: Cette rubrique fournit des informations sur la création de formats de gestion des états électroniques pour analyser le contenu des fichiers Microsoft Excel entrants.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 490a9325be25908564a40478a1ee29feea67fc02
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 32fd82f0e46068c7ed7bfcfddc4ff84603bd20b4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367476"
 ---
-
 # <a name="parse-incoming-documents-in-excel-format"></a>Analyser les documents entrants au format Excel
 
 [!include[banner](../includes/banner.md)]
@@ -48,4 +47,3 @@ Si vous n'avez pas encore lu le guide de tâches suivant, [ER Créer des configu
 | Description du contenu    | Fichier                                                            |
 |------------------------|-----------------------------------------------------------------|
 | Configuration du modèle ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
-

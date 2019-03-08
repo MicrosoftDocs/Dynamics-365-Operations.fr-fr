@@ -1,13 +1,13 @@
---- 
-title: "Créer une hiérarchie d'états d'organisation"
-description: "Utilisez cette procédure pour créer une hiérarchie d'état pour la génération d'états d'organisation."
+---
+title: Créer une hiérarchie d'états d'organisation
+description: Utilisez cette procédure pour créer une hiérarchie d'état pour la génération d'états d'organisation.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9a06a67f851e4a73df90f999683d5ea27f38e66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
-ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365498"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Créer une hiérarchie d'états d'organisation
 
@@ -94,5 +94,4 @@ Utilisez cette procédure pour créer une hiérarchie d'état pour la générati
 58. Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.
     * Sélectionnez le membre de dimension qui correspond au nœud.  
 59. Cliquez sur Enregistrer.
-
 

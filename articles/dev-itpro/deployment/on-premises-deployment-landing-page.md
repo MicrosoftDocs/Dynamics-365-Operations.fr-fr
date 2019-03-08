@@ -1,34 +1,34 @@
 ---
-title: "Page d'accueil des déploiements sur site"
-description: "Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site."
+title: Page d'accueil des déploiements sur site
+description: Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site.
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373275"
 ---
 # <a name="on-premises-deployments-home-page"></a>Page d'accueil des déploiements sur site
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations (sur site). Lorsque vous sélectionnez un type de déploiement sur site, la configuration système requise, le calibrage du matériel, et la fonctionnalité diffèrent d'un déploiement dans le cloud. Cette rubrique fournit des liens vers du contenu contenant des informations spécifiques sur les déploiements sur site.
+Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations (local). Lorsque vous sélectionnez un type de déploiement sur site, la configuration système requise, le calibrage du matériel, et la fonctionnalité diffèrent d'un déploiement dans le cloud. Cette rubrique fournit des liens vers du contenu contenant des informations spécifiques sur les déploiements sur site.
 
 ## <a name="get-started"></a>Mise en route
 - [Option de déploiement sur site](on-premises-overview.md)
@@ -62,7 +62,8 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations (sur si
 - [Configurer, installer et activer Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
 - [Configurer et installer Retail Store Scale Unit](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>Mettre à niveau
+- [Processus de mise à niveau en place pour les environnements locaux](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Ressources connexes
 - [Résoudre les problèmes de déploiements sur site](troubleshoot-on-prem.md)
@@ -71,4 +72,3 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations (sur si
 - [Fonctions supprimées ou obsolètes](../migration-upgrade/deprecated-features.md)
 - [Stratégie du cycle de vie de logiciel et versions sur site](../migration-upgrade/on-prem-version-update-policy.md)
  
-

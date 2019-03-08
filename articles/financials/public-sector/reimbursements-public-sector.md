@@ -1,13 +1,13 @@
 ---
 title: Remboursements dans le secteur public
-description: "Cette rubrique répond aux questions courantes associées aux remboursements dans le secteur public."
+description: Cette rubrique répond aux questions courantes associées aux remboursements dans le secteur public.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustBillingClassification
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b08e821cae0a2ac6c133f63d71c068c3d950a6fa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9ee5536d6e157ced0518e36fab0c92301a33a66d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370675"
 ---
-
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,6 @@ N° Les remboursements ne sont traités pour aucun client qui possède des règl
 
 ## <a name="can-i-reverse-reimbursement-settlements"></a>Puis-je contrepasser des règlements de remboursement ?
 Non, pas directement. Toutefois, vous pouvez utiliser les entrées du journal des opérations diverses pour créer les transactions qui auraient l'effet de contrepasser les écritures comptables.
-
 
 
 

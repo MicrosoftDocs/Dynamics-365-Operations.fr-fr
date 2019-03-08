@@ -1,13 +1,13 @@
 ---
-title: "Factures financières dans le secteur public"
-description: "Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l'utilisation des classifications de facturation et des codes de facturation avec les factures financières."
+title: Factures financières dans le secteur public
+description: Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l'utilisation des classifications de facturation et des codes de facturation avec les factures financières.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustBillingClassification, CustBillingCode, CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 98030d14d85770c427aa2ef6e3f0c5560fc6bc99
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 205f4bb240e9188876ec9ace5d4b2b00dce49b4f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370812"
 ---
-
 # <a name="free-text-invoices-in-the-public-sector"></a>Factures financières dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ Pour plus d'informations sur les codes facturation, voir [Classifications de fac
 
 ## <a name="where-does-the-interest-code-on-a-free-text-invoice-come-from"></a>D'où vient le code intérêt sur une facture financière ?
 Le code intérêt peut être défini sur le code facturation, la classification de facturation ou le profil de validation.
-
 
 
 

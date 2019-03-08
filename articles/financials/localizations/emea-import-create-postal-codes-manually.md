@@ -1,13 +1,13 @@
 ---
-title: "Importer ou créer manuellement des codes postaux"
-description: "Cette rubrique décrit la procédure d'importation et de création manuelle de codes postaux au format approprié. Cette rubrique inclut des informations sur les fonctions qui ont été ajoutées pour Microsoft Dynamics 365 for Finance and Operations."
+title: Importer ou créer manuellement des codes postaux
+description: Cette rubrique décrit la procédure d'importation et de création manuelle de codes postaux au format approprié. Cette rubrique comprend des informations sur la fonction qui a été ajoutée ou modifiée dans Microsoft Dynamics 365 for Finance and Operations.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LogisticsAddressSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Belgium, Netherlands, Sweden
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: db7090e47301aad9ab56a62efd807140db62ab3b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 77fa370692ad1fe73a6a2dac84655b11e9a13703
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370734"
 ---
-
 # <a name="import-or-manually-create-postal-codes"></a>Importer ou créer manuellement des codes postaux
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure d'importation et de création manuelle de codes postaux au format approprié. Cette rubrique inclut des informations sur les fonctions qui ont été ajoutées pour Microsoft Dynamics 365 for Finance and Operations. 
+Cette rubrique décrit la procédure d'importation et de création manuelle de codes postaux au format approprié. Cette rubrique comprend des informations sur la fonction qui a été ajoutée ou modifiée dans Microsoft Dynamics 365 for Finance and Operations. 
 
 Le processus d'importation permet de mettre à jour les codes postaux d'un pays ou d'une région spécifique. Vous pouvez également créer les codes postaux manuellement.
 
@@ -46,6 +45,5 @@ Pour certains pays, vous devez utiliser l'infrastructure de gestion des données
 
 ## <a name="create-zippostal-codes-manually"></a>Création manuelle des codes postaux
 Au lieu d'importer les codes, vous pouvez utiliser la page **Configuration de l'adresse** pour ajouter manuellement de nouveaux codes postaux.
-
 
 

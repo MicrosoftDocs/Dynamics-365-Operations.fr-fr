@@ -1,31 +1,30 @@
 ---
-title: "Recevoir des livraisons partielles d'articles retournés"
-description: "Des livraisons partielles sont définies en termes de lignes d'ordre de retour, pas d'expéditions de retour."
+title: Recevoir des livraisons partielles d'articles retournés
+description: Des livraisons partielles sont définies en termes de lignes d'ordre de retour, pas d'expéditions de retour.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2b7bfad1e0d80675848353d4118960d44f2dc01
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f9f596d31f2438a353b02bf939786b284937db86
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363911"
 ---
-
 # <a name="receive-partial-deliveries-of-returned-items"></a>Recevoir des livraisons partielles d'articles retournés    
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Si une expédition de retour contient une quantité inférieure à celle indiqu�
 4.  Dans le champ **Quantité fractionnée**, entrez la quantité correspondant au nombre total d'articles reçus, puis cliquez sur **OK**.
 
 5.  Dans l'écran **Lignes de journal, emplacements**, sélectionnez la ligne indiquant la quantité d'articles arrivés, puis cliquez sur **Valider**. Vous pouvez valider la ligne pour la quantité supplémentaire une fois les articles arrivés.
-
 
 
 

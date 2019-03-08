@@ -1,13 +1,13 @@
 ---
 title: Espace de travail mobile Commandes client
-description: "Cette rubrique fournit des informations sur l'espace de travail mobile Commandes client. Cet espace de travail vous permet de rester à jour de vos commandes client à tout moment et n'importe où."
+description: Cette rubrique fournit des informations sur l'espace de travail mobile Commandes client. Cet espace de travail vous permet de rester à jour de vos commandes client à tout moment et n'importe où.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365061"
 ---
-
 # <a name="sales-orders-mobile-workspace"></a>Espace de travail mobile Commandes client
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Command
 
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Microsoft Dynamics 365 for Unified Operations
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 L'espace de travail mobile **Commandes client** permet d'afficher des informations détaillées sur chaque commande client. Ces informations incluent le statut de la commande, les informations de contact du client, et les informations de contact du responsable de la commande. L'espace de travail mobile **Commandes client** fournit une vue instantanée des commandes client. Vous pouvez afficher toutes les commandes client, afficher les commandes client par client, ou afficher des informations sur une commande client spécifique. 
 
 L'espace de travail mobile fournit deux vues pour vous aider à analyser les commandes client en profondeur.
@@ -82,13 +81,13 @@ Cette vue répertorie les commandes client par client.
         -   Expéditions qui affichent quand et comment une commande client a été expédiée
 
 ## <a name="prerequisites"></a>Conditions préalables
-Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
+Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions préalables si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
-Si Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Commandes client**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions requises si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
+Si Dynamics 365 for Finance and Operationsa été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Commandes client**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 de Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
-Si la version 1611 de Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
+Si la version 1611 de Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
 
 <table>
 <thead>
@@ -105,7 +104,7 @@ Si la version 1611 de Dynamics 365 for Operations avec la mise à jour de plat
 
 <td>Le KB 4013633 est une mise à jour X++ ou un correctif de métadonnées qui contient l'espace de travail mobile <strong>Commandes client</strong>. Pour implémenter le KB 4013633, un administrateur système doit procéder comme suit :
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées depuis Microsoft Dynamics Lifecycle Services</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Installez le correctif de métadonnées</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Créez un module déployable</a> contenant le modèle <strong>SCMMobile</strong> et téléchargez le module déployable vers LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Appliquer le package déployable</a>.</li>
@@ -123,7 +122,7 @@ Si la version 1611 de Dynamics 365 for Operations avec la mise à jour de plat
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
 Téléchargez et installez l'application mobile Dynamics 365 for Unified Operations :
 
--   [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
@@ -143,4 +142,3 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 4.  Sélectionnez le client
 5.  Sélectionnez **Informations de contact** ou **Commandes client**. Si vous sélectionnez **Commandes client**, une liste des commandes client du client s'affiche.
 6.  Sélectionnez **Commandes client**. Vous pouvez maintenant afficher des informations sur les lignes de commande client, les expéditions, les informations de contact du client et les informations de contact de la personne qui a pris la commande.
-

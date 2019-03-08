@@ -1,13 +1,13 @@
 ---
-title: "Amortissement linéaire sur la durée de vie"
-description: "Cet article donne une vue d'ensemble de la méthode d'amortissement linéaire sur la durée de vie restante."
+title: Amortissement linéaire sur la durée de vie
+description: Cet article donne une vue d'ensemble de la méthode d'amortissement linéaire sur la durée de vie restante.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b48cf3970379f8dd2ea529cd8a434c0bdc196a1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2b8c078841ca2e4bd994bbfbbe2abb130a4cf6fa
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365682"
 ---
-
 # <a name="straight-line-service-life-depreciation"></a>Amortissement linéaire sur la durée de vie
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,6 @@ La durée de vie de l'ajustement d'acquisition est identique à celle de l'immob
 | Année 6 | 800 restants\*                           | 1 800 – 800 = 1 000                   |
 
 \*Comme le montant restant est inférieur au montant d'amortissement, seul le montant restant moins la valeur résiduelle est pris.
-
 
 
 

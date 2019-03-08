@@ -1,13 +1,13 @@
 ---
-title: "Personnaliser l'expérience de l'utilisateur"
+title: Personnaliser l'expérience de l'utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363474"
 ---
-
 # <a name="personalize-the-user-experience"></a>Personnaliser l'expérience de l'utilisateur
 
 [!include [banner](../includes/banner.md)]
@@ -171,4 +170,3 @@ Lorsque vous personnalisez le paramétrage des dimensions de stock sur une page,
 Les paramètres **Affichage des dimensions** s'appliquent à toutes les pages et remplacent tout paramétrage personnalisé des champs de la dimension de stock sur des pages individuelles.
 
 Par conséquent, dans l'exemple précédent, si vous ne souhaitez pas afficher la colonne de la dimension de stock Numéro de lot, vous devez désactiver cette dimension dans le cadre de l'option **Afficher les dimensions** pour la table. Cette modification s'applique non seulement à une page spécifique, mais aussi à l'ensemble des pages.
-

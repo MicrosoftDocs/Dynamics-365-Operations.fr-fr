@@ -1,13 +1,13 @@
 ---
-title: "Page d'accueil de comptabilité et d'états financiers"
-description: "Utilisez le module Comptabilité pour définir et gérer les enregistrements financiers de l'entité juridique."
+title: Page d'accueil de comptabilité et d'états financiers
+description: Utilisez le module Comptabilité pour définir et gérer les enregistrements financiers de l'entité juridique.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: fr-fr
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363359"
 ---
-
 # <a name="general-ledger"></a>Comptabilité 
 
 [!include [banner](../includes/banner.md)]
@@ -60,18 +59,17 @@ Accédez aux [Notes de publication](https://docs.microsoft.com/en-us/business-ap
 
 ### <a name="videos"></a>Vidéos
 
-Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>Blogs
 
-Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité fournisseur et d'autres solutions sur le [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité fournisseur et d'autres solutions sur le [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-De nombreuses publications concernent la Comptabilité fournisseur dans le [blog de l'équipe de produit Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Bien que certains de ces articles aient été rédigés pour la version précédente du module Comptabilité, les mêmes concepts s'appliquent toujours et les procédures sont également similaires dans la version actuelle.
+De nombreuses publications concernent la comptabilité dans le [blog de l'équipe de produit Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Bien que certains de ces articles aient été rédigés pour la version précédente du module Comptabilité, les mêmes concepts s'appliquent toujours et les procédures sont également similaires dans la version actuelle.
 
-Le [Blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
+Le [blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
 
 #### <a name="community-blogs"></a>Blogs de la communauté
 
-- [Ce que vous devez savoir sur la comptabilité dans Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
+- [Ce que vous devez savoir de la comptabilité dans Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 

@@ -1,13 +1,13 @@
 ---
-title: "Sécurité de l'utilisateur du portail fournisseur"
-description: "Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX."
+title: Sécurité de l'utilisateur du portail fournisseur
+description: Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 &amp; de mai 2016 de Dynamics AX.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 176eeb2ddb145d21f7ff9fd94a9a56e173caee59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5819d21a91ac2a7c91f19fd6d80fd7b983411545
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367062"
 ---
-
-# <a name="vendor-portal-user-security"></a>Sécurité de l'utilisateur du portail fournisseur
+# <a name="vendor-portal-user-security"></a>Sécurité utilisateur du portail fournisseur
 
 [!include [banner](../includes/banner.md)]
 
-Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX.
+Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 &amp; de mai 2016 de Dynamics AX.
 
-La fonctionnalité de portail fournisseur a été remplacée par la fonctionnalité étendue de collaboration fournisseur dans la version 1611 de Dynamics 365 for Operations. Pour plus d'informations sur le paramétrage de la sécurité pour la collaboration fournisseur, voir [Paramétrer et mettre à jour la collaboration fournisseur](set-up-maintain-vendor-collaboration.md). Le portail Fournisseur expose un ensemble limité d'informations sur les commandes fournisseur (CF) aux fournisseurs externes. Il est important de paramétrer correctement des autorisations utilisateur pour le portail Fournisseur dans Microsoft Dynamics AX, de sorte que les fournisseurs n'aient pas un accès involontaire aux informations supplémentaires dans votre installation de Dynamics AX. **Important :** à la différence d'autres utilisateurs, les fournisseurs externes ne doivent pas avoir le rôle **SystemUser**. Le rôle **SystemUser** octroie l'accès à un ensemble de privilèges qui ne sont pas appropriés aux utilisateurs externes.
+La fonctionnalité de portail fournisseur a été remplacée par la fonctionnalité étendue de collaboration fournisseur dans la version 1611 de Dynamics 365 for Operations. Pour plus d'informations sur le paramétrage de la sécurité pour la collaboration fournisseur, voir [Paramétrer et mettre à jour la collaboration fournisseur](set-up-maintain-vendor-collaboration.md). Le portail Fournisseur expose un ensemble limité d'informations sur les commandes fournisseur (CF) aux fournisseurs externes. Il est important de paramétrer correctement des autorisations utilisateur pour le portail Fournisseur dans Microsoft Dynamics AX, de sorte que les fournisseurs n'aient pas un accès involontaire aux informations supplémentaires dans votre installation de Dynamics AX. **Important :** à la différence d'autres utilisateurs, les fournisseurs externes ne doivent pas avoir le rôle **SystemUser**. Le rôle **SystemUser** octroie l'accès à un ensemble de privilèges qui ne sont pas appropriés aux utilisateurs externes.
 
 ## <a name="setting-up-a-vendor-portal-user"></a>Paramétrage d'un utilisateur du portail Fournisseur
 Avant de créer un compte utilisateur pour une personne qui utilise le portail Fournisseur, vous devez paramétrer le fournisseur pour autoriser sa collaboration au portail Fournisseur. Utilisez le champ **Collaboration de commande fournisseur** sous l'onglet **Général** dans la page **Fournisseurs**. Les fournisseurs externes qui utilisent le portail Fournisseur doivent avoir le paramétrage suivant :
@@ -48,7 +47,6 @@ Si la même personne a besoin d'accéder au portail Fournisseur pour plusieurs c
 --------
 
 [Collaboration du fournisseur](collaborate-vendors-vendor-portal.md)
-
 
 
 
