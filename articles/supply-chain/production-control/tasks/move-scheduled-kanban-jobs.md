@@ -1,13 +1,13 @@
---- 
-title: "Déplacer les tâches de kanban planifiées"
-description: "Cette procédure se concentre sur le déplacement des tâches de kanban d'un processus planifié dans une autre période."
+---
+title: Déplacer les tâches de kanban planifiées
+description: Cette procédure se concentre sur le déplacement des tâches de kanban d'un processus planifié dans une autre période.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/07/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,51 +16,49 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: f791c9048ef6efe1585c991f998099cd1fc12df7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310850"
 ---
-
-# <a name="move-scheduled-kanban-jobs"></a><span data-ttu-id="5482c-103">Déplacer les tâches de kanban planifiées</span><span class="sxs-lookup"><span data-stu-id="5482c-103">Move scheduled kanban jobs</span></span>
+# <a name="move-scheduled-kanban-jobs"></a><span data-ttu-id="357c7-103">Déplacer les tâches de kanban planifiées</span><span class="sxs-lookup"><span data-stu-id="357c7-103">Move scheduled kanban jobs</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5482c-104">Cette procédure se concentre sur le déplacement des tâches de kanban d'un processus planifié dans une autre période.</span><span class="sxs-lookup"><span data-stu-id="5482c-104">This procedure focuses on moving planned process kanban jobs to a different period.</span></span> <span data-ttu-id="5482c-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="5482c-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5482c-106">Cette procédure est destinée au superviseur d'atelier ou au responsable de production qui utilisent des kanbans.</span><span class="sxs-lookup"><span data-stu-id="5482c-106">This procedure is intended for the shop floor supervisor or production planner working with kanbans.</span></span>
+<span data-ttu-id="357c7-104">Cette procédure se concentre sur le déplacement des tâches de kanban d'un processus planifié dans une autre période.</span><span class="sxs-lookup"><span data-stu-id="357c7-104">This procedure focuses on moving planned process kanban jobs to a different period.</span></span> <span data-ttu-id="357c7-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="357c7-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="357c7-106">Cette procédure est destinée au superviseur d'atelier ou au responsable de production qui utilisent des kanbans.</span><span class="sxs-lookup"><span data-stu-id="357c7-106">This procedure is intended for the shop floor supervisor or production planner working with kanbans.</span></span>
 
-## <a name="select-scheduled-kanban-jobs"></a><span data-ttu-id="5482c-107">Sélectionner les tâches de kanban planifiées.</span><span class="sxs-lookup"><span data-stu-id="5482c-107">Select scheduled kanban jobs.</span></span> 
+## <a name="select-scheduled-kanban-jobs"></a><span data-ttu-id="357c7-107">Sélectionner les tâches de kanban planifiées.</span><span class="sxs-lookup"><span data-stu-id="357c7-107">Select scheduled kanban jobs.</span></span> 
 
-1. <span data-ttu-id="5482c-108">Accédez à **Contrôle de la production > Kanban > Planification de tâches de kanban**.</span><span class="sxs-lookup"><span data-stu-id="5482c-108">Go to **Production control > Kanban > Kanban job scheduling**.</span></span> 
+1. <span data-ttu-id="357c7-108">Accédez à **Contrôle de la production > Kanban > Planification de tâches de kanban**.</span><span class="sxs-lookup"><span data-stu-id="357c7-108">Go to **Production control > Kanban > Kanban job scheduling**.</span></span> 
 
-2. <span data-ttu-id="5482c-109">Dans le champ **Cellule de travail**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="5482c-109">In the **Work cell** field, click the drop-down button to open the lookup.</span></span> 
+2. <span data-ttu-id="357c7-109">Dans le champ **Cellule de travail**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="357c7-109">In the **Work cell** field, click the drop-down button to open the lookup.</span></span> 
 
-3. <span data-ttu-id="5482c-110">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="5482c-110">In the list, mark the selected row.</span></span> 
-   - <span data-ttu-id="5482c-111">Sélectionnez la cellule de travail 1250.</span><span class="sxs-lookup"><span data-stu-id="5482c-111">Select work cell 1250.</span></span> 
-4. <span data-ttu-id="5482c-112">Cliquez sur **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="5482c-112">Click **Select**.</span></span> 
+3. <span data-ttu-id="357c7-110">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="357c7-110">In the list, mark the selected row.</span></span> 
+   - <span data-ttu-id="357c7-111">Sélectionnez la cellule de travail 1250.</span><span class="sxs-lookup"><span data-stu-id="357c7-111">Select work cell 1250.</span></span> 
+4. <span data-ttu-id="357c7-112">Cliquez sur **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="357c7-112">Click **Select**.</span></span> 
 
-5. <span data-ttu-id="5482c-113">Sélectionnez **Planifié** dans le champ **Afficher le statut de la tâche**.</span><span class="sxs-lookup"><span data-stu-id="5482c-113">In the **Display job status** field, select **Scheduled**.</span></span> <span data-ttu-id="5482c-114">Cette opération filtre la liste des tâches pour afficher uniquement les tâches de kanban planifiées.</span><span class="sxs-lookup"><span data-stu-id="5482c-114">This filters the job list to display only the scheduled kanban jobs.</span></span> 
+5. <span data-ttu-id="357c7-113">Sélectionnez **Planifié** dans le champ **Afficher le statut de la tâche**.</span><span class="sxs-lookup"><span data-stu-id="357c7-113">In the **Display job status** field, select **Scheduled**.</span></span> <span data-ttu-id="357c7-114">Cette opération filtre la liste des tâches pour afficher uniquement les tâches de kanban planifiées.</span><span class="sxs-lookup"><span data-stu-id="357c7-114">This filters the job list to display only the scheduled kanban jobs.</span></span> 
 
-## <a name="move-kanban-jobs-to-a-different-period"></a><span data-ttu-id="5482c-115">Déplacer les tâches de kanban vers une autre période de planification.</span><span class="sxs-lookup"><span data-stu-id="5482c-115">Move kanban jobs to a different period.</span></span> 
+## <a name="move-kanban-jobs-to-a-different-period"></a><span data-ttu-id="357c7-115">Déplacer les tâches de kanban vers une autre période de planification.</span><span class="sxs-lookup"><span data-stu-id="357c7-115">Move kanban jobs to a different period.</span></span> 
 
-1. <span data-ttu-id="5482c-116">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="5482c-116">In the list, find and select the desired record.</span></span> <span data-ttu-id="5482c-117">Sélectionnez une tâche dont le statut est **Planifié**, par exemple, une tâche prévue le 20 décembre 2012 dans le champ **Période planifiée**.</span><span class="sxs-lookup"><span data-stu-id="5482c-117">Select a job that has the **Planned job** status, for example, a job scheduled on December 20, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="5482c-118">Déplacez ensuite la tâche vers la période précédente.</span><span class="sxs-lookup"><span data-stu-id="5482c-118">Then move the job to the previous period.</span></span> 
+1. <span data-ttu-id="357c7-116">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="357c7-116">In the list, find and select the desired record.</span></span> <span data-ttu-id="357c7-117">Sélectionnez une tâche dont le statut est **Planifié**, par exemple, une tâche prévue le 20 décembre 2012 dans le champ **Période planifiée**.</span><span class="sxs-lookup"><span data-stu-id="357c7-117">Select a job that has the **Planned job** status, for example, a job scheduled on December 20, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="357c7-118">Déplacez ensuite la tâche vers la période précédente.</span><span class="sxs-lookup"><span data-stu-id="357c7-118">Then move the job to the previous period.</span></span> 
 
-2. <span data-ttu-id="5482c-119">Cliquez sur **Période précédente**.</span><span class="sxs-lookup"><span data-stu-id="5482c-119">Click **Previous period**.</span></span> 
+2. <span data-ttu-id="357c7-119">Cliquez sur **Période précédente**.</span><span class="sxs-lookup"><span data-stu-id="357c7-119">Click **Previous period**.</span></span> 
 
-3. <span data-ttu-id="5482c-120">Cliquez sur **Fin** pour déplacer la tâche à la fin de la liste des tâches comme la dernière tâche de la période précédente.</span><span class="sxs-lookup"><span data-stu-id="5482c-120">Click **End** to move the job to the end of the job list as the last job in the previous period.</span></span> 
+3. <span data-ttu-id="357c7-120">Cliquez sur **Fin** pour déplacer la tâche à la fin de la liste des tâches comme la dernière tâche de la période précédente.</span><span class="sxs-lookup"><span data-stu-id="357c7-120">Click **End** to move the job to the end of the job list as the last job in the previous period.</span></span> 
 
-4. <span data-ttu-id="5482c-121">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="5482c-121">In the list, find and select the desired record.</span></span> <span data-ttu-id="5482c-122">Sélectionnez une tâche dont le statut est **Planifié**, par exemple, une tâche prévue le 18 décembre 2012 dans le champ **Période planifiée**.</span><span class="sxs-lookup"><span data-stu-id="5482c-122">Select a job that has the **Planned job** status, for example, a job scheduled on December 18, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="5482c-123">Déplacez ensuite la tâche vers la période suivante.</span><span class="sxs-lookup"><span data-stu-id="5482c-123">Then move the job to the next period.</span></span> 
+4. <span data-ttu-id="357c7-121">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="357c7-121">In the list, find and select the desired record.</span></span> <span data-ttu-id="357c7-122">Sélectionnez une tâche dont le statut est **Planifié**, par exemple, une tâche prévue le 18 décembre 2012 dans le champ **Période planifiée**.</span><span class="sxs-lookup"><span data-stu-id="357c7-122">Select a job that has the **Planned job** status, for example, a job scheduled on December 18, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="357c7-123">Déplacez ensuite la tâche vers la période suivante.</span><span class="sxs-lookup"><span data-stu-id="357c7-123">Then move the job to the next period.</span></span> 
 
-5. <span data-ttu-id="5482c-124">Cliquez sur **Période suivante**.</span><span class="sxs-lookup"><span data-stu-id="5482c-124">Click **Next period**.</span></span> 
+5. <span data-ttu-id="357c7-124">Cliquez sur **Période suivante**.</span><span class="sxs-lookup"><span data-stu-id="357c7-124">Click **Next period**.</span></span> 
 
-6. <span data-ttu-id="5482c-125">Cliquez sur **Début** pour déplacer la tâche au début de la liste des tâches comme la première tâche de la période précédente.</span><span class="sxs-lookup"><span data-stu-id="5482c-125">Click **Start** to move the job to the start of the job list as the first job in the previous period.</span></span> 
+6. <span data-ttu-id="357c7-125">Cliquez sur **Début** pour déplacer la tâche au début de la liste des tâches comme la première tâche de la période précédente.</span><span class="sxs-lookup"><span data-stu-id="357c7-125">Click **Start** to move the job to the start of the job list as the first job in the previous period.</span></span> 
 
-## <a name="move-a-job-within-a-period"></a><span data-ttu-id="5482c-126">Déplacer une tâche dans une période.</span><span class="sxs-lookup"><span data-stu-id="5482c-126">Move a job within a period.</span></span> 
+## <a name="move-a-job-within-a-period"></a><span data-ttu-id="357c7-126">Déplacer une tâche dans une période.</span><span class="sxs-lookup"><span data-stu-id="357c7-126">Move a job within a period.</span></span> 
 
-1. <span data-ttu-id="5482c-127">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="5482c-127">In the list, find and select the desired record.</span></span> <span data-ttu-id="5482c-128">Sélectionnez une tâche dont le statut est planifié, par exemple, la deuxième tâche prévue le 19 décembre 2012 dans le champ **Période planifiée**.</span><span class="sxs-lookup"><span data-stu-id="5482c-128">Select a job that has the Planned job status, for example, the second job scheduled on December 19, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="5482c-129">Déplacez ensuite la tâche dans la période planifiée.</span><span class="sxs-lookup"><span data-stu-id="5482c-129">Then move the job within the planned period.</span></span> 
+1. <span data-ttu-id="357c7-127">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="357c7-127">In the list, find and select the desired record.</span></span> <span data-ttu-id="357c7-128">Sélectionnez une tâche dont le statut est planifié, par exemple, la deuxième tâche prévue le 19 décembre 2012 dans le champ **Période planifiée**.</span><span class="sxs-lookup"><span data-stu-id="357c7-128">Select a job that has the Planned job status, for example, the second job scheduled on December 19, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="357c7-129">Déplacez ensuite la tâche dans la période planifiée.</span><span class="sxs-lookup"><span data-stu-id="357c7-129">Then move the job within the planned period.</span></span> 
 
-2. <span data-ttu-id="5482c-130">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="5482c-130">Click **Forward**.</span></span> <span data-ttu-id="5482c-131">Notez que la tâche est déplacée une ligne vers le bas dans la liste.</span><span class="sxs-lookup"><span data-stu-id="5482c-131">Notice that the job is moved one line down on the list.</span></span> 
+2. <span data-ttu-id="357c7-130">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="357c7-130">Click **Forward**.</span></span> <span data-ttu-id="357c7-131">Notez que la tâche est déplacée une ligne vers le bas dans la liste.</span><span class="sxs-lookup"><span data-stu-id="357c7-131">Notice that the job is moved one line down on the list.</span></span> 
 
-3. <span data-ttu-id="5482c-132">Cliquez sur **Précédent**.</span><span class="sxs-lookup"><span data-stu-id="5482c-132">Click **Backward**.</span></span> <span data-ttu-id="5482c-133">Notez que la tâche est déplacée une ligne vers le haut dans la liste.</span><span class="sxs-lookup"><span data-stu-id="5482c-133">Notice that the job is moved one line up on the list.</span></span>
-
+3. <span data-ttu-id="357c7-132">Cliquez sur **Précédent**.</span><span class="sxs-lookup"><span data-stu-id="357c7-132">Click **Backward**.</span></span> <span data-ttu-id="357c7-133">Notez que la tâche est déplacée une ligne vers le haut dans la liste.</span><span class="sxs-lookup"><span data-stu-id="357c7-133">Notice that the job is moved one line up on the list.</span></span>

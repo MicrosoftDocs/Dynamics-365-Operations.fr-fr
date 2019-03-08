@@ -1,13 +1,13 @@
---- 
-title: "Activer l'impression d'étiquette de contenant"
-description: "Cette procédure active l'impression automatique d'un code conteneur d'expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes."
+---
+title: Activer l'impression d'étiquette de contenant
+description: Cette procédure active l'impression automatique d'un code conteneur d'expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCorpNetPrinterList, WHSParameters, NumberSequenceTableListPage, NumberSequenceDetails, WHSDocumentRoutingLayout, WHSDocumentRouting, WHSRFMenuItem, WHSRFMenu, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,96 +17,95 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 8d906ca9f5a6536870fa0c322a0792ed5672c25e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324029"
 ---
-# <a name="enable-license-plate-label-printing"></a><span data-ttu-id="f38e4-103">Activer l'impression d'étiquette de contenant</span><span class="sxs-lookup"><span data-stu-id="f38e4-103">Enable license plate label printing</span></span>
+# <a name="enable-license-plate-label-printing"></a><span data-ttu-id="9000a-103">Activer l'impression d'étiquette de contenant</span><span class="sxs-lookup"><span data-stu-id="9000a-103">Enable license plate label printing</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f38e4-104">Cette procédure active l'impression automatique d'un code conteneur d'expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes.</span><span class="sxs-lookup"><span data-stu-id="f38e4-104">This procedure enables the automatic printing of a Serial shipping container code (SSCC) label after the last item is picked from inventory in a sales picking work process.</span></span> <span data-ttu-id="f38e4-105">Vous pouvez exécuter cette procédure dans les données de démonstration de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="f38e4-105">You can run this procedure in demo data company USMF.</span></span> <span data-ttu-id="f38e4-106">Si vous l'exécutez à l'aide de vos propres données, vous devez avoir une souche de numéros pour les plaques d'immatriculation.</span><span class="sxs-lookup"><span data-stu-id="f38e4-106">If you’re run it using your own data, you need to have a number sequence set up for license plates.</span></span> <span data-ttu-id="f38e4-107">Vous devez paramétrer une imprimante d'étiquettes avant de commencer cette tâche.</span><span class="sxs-lookup"><span data-stu-id="f38e4-107">You need to set up a label printer before you begin this task.</span></span> <span data-ttu-id="f38e4-108">Accédez à Administration d'organisation > Configuration > Imprimantes réseau.</span><span class="sxs-lookup"><span data-stu-id="f38e4-108">Go to Organization administration > Setup > Network printers.</span></span> <span data-ttu-id="f38e4-109">Dans le volet Actions, cliquez sur Options, puis cliquez sur le bouton Télécharger le fichier d'installation d'un agent d'acheminement de document.</span><span class="sxs-lookup"><span data-stu-id="f38e4-109">On the Action pane, click Options, and then click the Download document routing agent installer button.</span></span> <span data-ttu-id="f38e4-110">Exécutez le programme d'installation et assurez-vous d'avoir une imprimante réseau définie sur Actif avant de poursuivre la procédure.</span><span class="sxs-lookup"><span data-stu-id="f38e4-110">Run the installer and make sure that you have a working network printer set to Active before you continue with the procedure.</span></span>
+<span data-ttu-id="9000a-104">Cette procédure active l'impression automatique d'un code conteneur d'expédition en série (SSCC) une fois le dernier article prélevé du stock dans un processus de prélèvements des ventes.</span><span class="sxs-lookup"><span data-stu-id="9000a-104">This procedure enables the automatic printing of a Serial shipping container code (SSCC) label after the last item is picked from inventory in a sales picking work process.</span></span> <span data-ttu-id="9000a-105">Vous pouvez exécuter cette procédure dans les données de démonstration de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="9000a-105">You can run this procedure in demo data company USMF.</span></span> <span data-ttu-id="9000a-106">Si vous l'exécutez à l'aide de vos propres données, vous devez avoir une souche de numéros pour les plaques d'immatriculation.</span><span class="sxs-lookup"><span data-stu-id="9000a-106">If you’re run it using your own data, you need to have a number sequence set up for license plates.</span></span> <span data-ttu-id="9000a-107">Vous devez paramétrer une imprimante d'étiquettes avant de commencer cette tâche.</span><span class="sxs-lookup"><span data-stu-id="9000a-107">You need to set up a label printer before you begin this task.</span></span> <span data-ttu-id="9000a-108">Accédez à Administration d'organisation > Configuration > Imprimantes réseau.</span><span class="sxs-lookup"><span data-stu-id="9000a-108">Go to Organization administration > Setup > Network printers.</span></span> <span data-ttu-id="9000a-109">Dans le volet Actions, cliquez sur Options, puis cliquez sur le bouton Télécharger le fichier d'installation d'un agent d'acheminement de document.</span><span class="sxs-lookup"><span data-stu-id="9000a-109">On the Action pane, click Options, and then click the Download document routing agent installer button.</span></span> <span data-ttu-id="9000a-110">Exécutez le programme d'installation et assurez-vous d'avoir une imprimante réseau définie sur Actif avant de poursuivre la procédure.</span><span class="sxs-lookup"><span data-stu-id="9000a-110">Run the installer and make sure that you have a working network printer set to Active before you continue with the procedure.</span></span>
 
 
-## <a name="set-up-the-gs1-company-prefix"></a><span data-ttu-id="f38e4-111">Paramétrer le préfixe de la société GS1</span><span class="sxs-lookup"><span data-stu-id="f38e4-111">Set up the GS1 company prefix</span></span>
-1. <span data-ttu-id="f38e4-112">Acccédez à Gestion des entrepôts > Configuration > Paramètres de gestion des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="f38e4-112">Go to Warehouse management > Setup > Warehouse management parameters.</span></span>
-2. <span data-ttu-id="f38e4-113">Dans le champ Préfixe société GS1, entrez les 7 chiffres de numéro de l'entreprise GS1.</span><span class="sxs-lookup"><span data-stu-id="f38e4-113">In the GS1 company prefix field, enter the 7 numbers for your GS1 company number.</span></span>
-3. <span data-ttu-id="f38e4-114">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-114">Click Save.</span></span>
-4. <span data-ttu-id="f38e4-115">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f38e4-115">Close the page.</span></span>
+## <a name="set-up-the-gs1-company-prefix"></a><span data-ttu-id="9000a-111">Paramétrer le préfixe de la société GS1</span><span class="sxs-lookup"><span data-stu-id="9000a-111">Set up the GS1 company prefix</span></span>
+1. <span data-ttu-id="9000a-112">Acccédez à Gestion des entrepôts > Configuration > Paramètres de gestion des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="9000a-112">Go to Warehouse management > Setup > Warehouse management parameters.</span></span>
+2. <span data-ttu-id="9000a-113">Dans le champ Préfixe société GS1, entrez les 7 chiffres de numéro de l'entreprise GS1.</span><span class="sxs-lookup"><span data-stu-id="9000a-113">In the GS1 company prefix field, enter the 7 numbers for your GS1 company number.</span></span>
+3. <span data-ttu-id="9000a-114">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9000a-114">Click Save.</span></span>
+4. <span data-ttu-id="9000a-115">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9000a-115">Close the page.</span></span>
 
-## <a name="setup-the-sscc-license-plate-number-sequence"></a><span data-ttu-id="f38e4-116">Définir la séquence pour le numéro de contenant SSCC</span><span class="sxs-lookup"><span data-stu-id="f38e4-116">Setup the SSCC license plate number sequence</span></span>
-1. <span data-ttu-id="f38e4-117">Accédez à Administration d'organisation > Séquences de nombres > Séquences de nombres.</span><span class="sxs-lookup"><span data-stu-id="f38e4-117">Go to Organization administration > Number sequences > Number sequences.</span></span>
-2. <span data-ttu-id="f38e4-118">Sélectionnez une option dans le champ Zone.</span><span class="sxs-lookup"><span data-stu-id="f38e4-118">In the Area field, select an option.</span></span>
-3. <span data-ttu-id="f38e4-119">Sélectionnez une option dans le champ Référence.</span><span class="sxs-lookup"><span data-stu-id="f38e4-119">In the Reference field, select an option.</span></span>
-4. <span data-ttu-id="f38e4-120">Tapez une valeur dans le champ Société.</span><span class="sxs-lookup"><span data-stu-id="f38e4-120">In the Company field, type a value.</span></span>
-5. <span data-ttu-id="f38e4-121">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f38e4-121">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="f38e4-122">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f38e4-122">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="f38e4-123">Développez la section Segments.</span><span class="sxs-lookup"><span data-stu-id="f38e4-123">Expand the Segments section.</span></span>
-8. <span data-ttu-id="f38e4-124">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="f38e4-124">Click Edit.</span></span>
-9. <span data-ttu-id="f38e4-125">Sélectionnez la première ligne du tableau Segment.</span><span class="sxs-lookup"><span data-stu-id="f38e4-125">In the Segments table, select the first row</span></span>
-10. <span data-ttu-id="f38e4-126">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-126">Click Remove.</span></span>
-11. <span data-ttu-id="f38e4-127">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-127">Click Remove.</span></span>
-12. <span data-ttu-id="f38e4-128">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-128">Click Save.</span></span>
-13. <span data-ttu-id="f38e4-129">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f38e4-129">Close the page.</span></span>
+## <a name="setup-the-sscc-license-plate-number-sequence"></a><span data-ttu-id="9000a-116">Définir la séquence pour le numéro de contenant SSCC</span><span class="sxs-lookup"><span data-stu-id="9000a-116">Setup the SSCC license plate number sequence</span></span>
+1. <span data-ttu-id="9000a-117">Accédez à Administration d'organisation > Séquences de nombres > Séquences de nombres.</span><span class="sxs-lookup"><span data-stu-id="9000a-117">Go to Organization administration > Number sequences > Number sequences.</span></span>
+2. <span data-ttu-id="9000a-118">Sélectionnez une option dans le champ Zone.</span><span class="sxs-lookup"><span data-stu-id="9000a-118">In the Area field, select an option.</span></span>
+3. <span data-ttu-id="9000a-119">Sélectionnez une option dans le champ Référence.</span><span class="sxs-lookup"><span data-stu-id="9000a-119">In the Reference field, select an option.</span></span>
+4. <span data-ttu-id="9000a-120">Tapez une valeur dans le champ Société.</span><span class="sxs-lookup"><span data-stu-id="9000a-120">In the Company field, type a value.</span></span>
+5. <span data-ttu-id="9000a-121">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9000a-121">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="9000a-122">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9000a-122">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="9000a-123">Développez la section Segments.</span><span class="sxs-lookup"><span data-stu-id="9000a-123">Expand the Segments section.</span></span>
+8. <span data-ttu-id="9000a-124">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="9000a-124">Click Edit.</span></span>
+9. <span data-ttu-id="9000a-125">Sélectionnez la première ligne du tableau Segment.</span><span class="sxs-lookup"><span data-stu-id="9000a-125">In the Segments table, select the first row</span></span>
+10. <span data-ttu-id="9000a-126">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="9000a-126">Click Remove.</span></span>
+11. <span data-ttu-id="9000a-127">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="9000a-127">Click Remove.</span></span>
+12. <span data-ttu-id="9000a-128">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9000a-128">Click Save.</span></span>
+13. <span data-ttu-id="9000a-129">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9000a-129">Close the page.</span></span>
 
-## <a name="create-the-document-route-layout"></a><span data-ttu-id="f38e4-130">Créer la mise en page de l'acheminement du document</span><span class="sxs-lookup"><span data-stu-id="f38e4-130">Create the document route layout</span></span>
-1. <span data-ttu-id="f38e4-131">Accédez à Gestion des entrepôts > Paramétrage > Acheminement de document > Mises en page de l'acheminement de document.</span><span class="sxs-lookup"><span data-stu-id="f38e4-131">Go to Warehouse management > Setup > Document routing > Document routing layouts.</span></span>
-    * <span data-ttu-id="f38e4-132">Activez la structure de SSCC.</span><span class="sxs-lookup"><span data-stu-id="f38e4-132">Enable the SSCC layout.</span></span>  
-2. <span data-ttu-id="f38e4-133">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f38e4-133">Click New.</span></span>
-3. <span data-ttu-id="f38e4-134">Tapez une valeur dans le champ ID mise en page.</span><span class="sxs-lookup"><span data-stu-id="f38e4-134">In the Layout ID field, type a value.</span></span>
-4. <span data-ttu-id="f38e4-135">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="f38e4-135">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="f38e4-136">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="f38e4-136">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="f38e4-137">Cliquez sur Insérer à la fin du texte.</span><span class="sxs-lookup"><span data-stu-id="f38e4-137">Click Insert at end of text.</span></span>
-7. <span data-ttu-id="f38e4-138">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-138">Click Save.</span></span>
-8. <span data-ttu-id="f38e4-139">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f38e4-139">Close the page.</span></span>
+## <a name="create-the-document-route-layout"></a><span data-ttu-id="9000a-130">Créer la mise en page de l'acheminement du document</span><span class="sxs-lookup"><span data-stu-id="9000a-130">Create the document route layout</span></span>
+1. <span data-ttu-id="9000a-131">Accédez à Gestion des entrepôts > Paramétrage > Acheminement de document > Mises en page de l'acheminement de document.</span><span class="sxs-lookup"><span data-stu-id="9000a-131">Go to Warehouse management > Setup > Document routing > Document routing layouts.</span></span>
+    * <span data-ttu-id="9000a-132">Activez la structure de SSCC.</span><span class="sxs-lookup"><span data-stu-id="9000a-132">Enable the SSCC layout.</span></span>  
+2. <span data-ttu-id="9000a-133">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9000a-133">Click New.</span></span>
+3. <span data-ttu-id="9000a-134">Tapez une valeur dans le champ ID mise en page.</span><span class="sxs-lookup"><span data-stu-id="9000a-134">In the Layout ID field, type a value.</span></span>
+4. <span data-ttu-id="9000a-135">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="9000a-135">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9000a-136">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="9000a-136">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="9000a-137">Cliquez sur Insérer à la fin du texte.</span><span class="sxs-lookup"><span data-stu-id="9000a-137">Click Insert at end of text.</span></span>
+7. <span data-ttu-id="9000a-138">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9000a-138">Click Save.</span></span>
+8. <span data-ttu-id="9000a-139">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9000a-139">Close the page.</span></span>
 
-## <a name="set-up-the-document-routing"></a><span data-ttu-id="f38e4-140">Définir l'acheminement de document</span><span class="sxs-lookup"><span data-stu-id="f38e4-140">Set up the document routing</span></span>
-1. <span data-ttu-id="f38e4-141">Accédez à Gestion des entrepôts > Configuration > Acheminement de document > Acheminement de document.</span><span class="sxs-lookup"><span data-stu-id="f38e4-141">Go to Warehouse management > Setup > Document routing > Document routing.</span></span>
-2. <span data-ttu-id="f38e4-142">Sélectionnez une option dans le champ Type d'ordre d'exécution.</span><span class="sxs-lookup"><span data-stu-id="f38e4-142">In the Work order type field, select an option.</span></span>
-3. <span data-ttu-id="f38e4-143">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f38e4-143">Click New.</span></span>
-4. <span data-ttu-id="f38e4-144">Tapez une valeur dans le champ Entrepôts.</span><span class="sxs-lookup"><span data-stu-id="f38e4-144">In the Warehouse field, type a value.</span></span>
-5. <span data-ttu-id="f38e4-145">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="f38e4-145">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="f38e4-146">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f38e4-146">Click New.</span></span>
-7. <span data-ttu-id="f38e4-147">Saisissez ou sélectionnez une valeur dans le champ ID mise en page.</span><span class="sxs-lookup"><span data-stu-id="f38e4-147">In the Layout ID field, enter or select a value.</span></span>
-8. <span data-ttu-id="f38e4-148">Dans le champ Nom, entrez le nom de l'imprimante à utiliser.</span><span class="sxs-lookup"><span data-stu-id="f38e4-148">In the Name field, enter the printer name that you want to use..</span></span>
-9. <span data-ttu-id="f38e4-149">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-149">Click Save.</span></span>
-10. <span data-ttu-id="f38e4-150">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f38e4-150">Close the page.</span></span>
+## <a name="set-up-the-document-routing"></a><span data-ttu-id="9000a-140">Définir l'acheminement de document</span><span class="sxs-lookup"><span data-stu-id="9000a-140">Set up the document routing</span></span>
+1. <span data-ttu-id="9000a-141">Accédez à Gestion des entrepôts > Configuration > Acheminement de document > Acheminement de document.</span><span class="sxs-lookup"><span data-stu-id="9000a-141">Go to Warehouse management > Setup > Document routing > Document routing.</span></span>
+2. <span data-ttu-id="9000a-142">Sélectionnez une option dans le champ Type d'ordre d'exécution.</span><span class="sxs-lookup"><span data-stu-id="9000a-142">In the Work order type field, select an option.</span></span>
+3. <span data-ttu-id="9000a-143">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9000a-143">Click New.</span></span>
+4. <span data-ttu-id="9000a-144">Tapez une valeur dans le champ Entrepôts.</span><span class="sxs-lookup"><span data-stu-id="9000a-144">In the Warehouse field, type a value.</span></span>
+5. <span data-ttu-id="9000a-145">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="9000a-145">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="9000a-146">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9000a-146">Click New.</span></span>
+7. <span data-ttu-id="9000a-147">Saisissez ou sélectionnez une valeur dans le champ ID mise en page.</span><span class="sxs-lookup"><span data-stu-id="9000a-147">In the Layout ID field, enter or select a value.</span></span>
+8. <span data-ttu-id="9000a-148">Dans le champ Nom, entrez le nom de l'imprimante à utiliser.</span><span class="sxs-lookup"><span data-stu-id="9000a-148">In the Name field, enter the printer name that you want to use..</span></span>
+9. <span data-ttu-id="9000a-149">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9000a-149">Click Save.</span></span>
+10. <span data-ttu-id="9000a-150">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9000a-150">Close the page.</span></span>
 
-## <a name="create-mobile-device-menu"></a><span data-ttu-id="f38e4-151">Créer un menu d'appareil mobile</span><span class="sxs-lookup"><span data-stu-id="f38e4-151">Create mobile device menu</span></span>
-1. <span data-ttu-id="f38e4-152">Accédez à Gestion des entrepôts > Configuration > Appareil mobile > Options de menu d'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="f38e4-152">Go to Warehouse management > Setup > Mobile device > Mobile device menu items.</span></span>
-2. <span data-ttu-id="f38e4-153">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f38e4-153">Click New.</span></span>
-3. <span data-ttu-id="f38e4-154">Saisissez une valeur dans le champ Nom de l'option de menu.</span><span class="sxs-lookup"><span data-stu-id="f38e4-154">In the Menu item name field, type a value.</span></span>
-4. <span data-ttu-id="f38e4-155">Tapez une valeur dans le champ Titre.</span><span class="sxs-lookup"><span data-stu-id="f38e4-155">In the Title field, type a value.</span></span>
-5. <span data-ttu-id="f38e4-156">Sélectionnez une option dans le champ Mode.</span><span class="sxs-lookup"><span data-stu-id="f38e4-156">In the Mode field, select an option.</span></span>
-6. <span data-ttu-id="f38e4-157">Sélectionnez Oui dans le champ Utiliser un travail existant.</span><span class="sxs-lookup"><span data-stu-id="f38e4-157">Select Yes in the Use existing work field.</span></span>
-7. <span data-ttu-id="f38e4-158">Sélectionnez Oui dans le champ Générer un contenant.</span><span class="sxs-lookup"><span data-stu-id="f38e4-158">Select Yes in the Generate license plate field.</span></span>
-8. <span data-ttu-id="f38e4-159">Développez la section Classes de travail.</span><span class="sxs-lookup"><span data-stu-id="f38e4-159">Expand the Work classes section.</span></span>
-9. <span data-ttu-id="f38e4-160">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f38e4-160">Click New.</span></span>
-10. <span data-ttu-id="f38e4-161">Tapez une valeur dans le champ ID classe de travail.</span><span class="sxs-lookup"><span data-stu-id="f38e4-161">In the Work class ID field, type a value.</span></span>
-11. <span data-ttu-id="f38e4-162">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-162">Click Save.</span></span>
-12. <span data-ttu-id="f38e4-163">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f38e4-163">Close the page.</span></span>
-13. <span data-ttu-id="f38e4-164">Accédez à Gestion des entrepôts > Configuration > Appareil mobile > Menu d'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="f38e4-164">Go to Warehouse management > Setup > Mobile device > Mobile device menu.</span></span>
-14. <span data-ttu-id="f38e4-165">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="f38e4-165">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="f38e4-166">Dans l'arborescence, sélectionnez « Dans l'arborescence, sélectionner l'option de menu que vous avez créée avant. ».</span><span class="sxs-lookup"><span data-stu-id="f38e4-166">In the tree, select 'In the tree, select the menu item that you created before.'.</span></span>
-16. <span data-ttu-id="f38e4-167">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="f38e4-167">Click Edit.</span></span>
-17. <span data-ttu-id="f38e4-168">Cliquez sur la flèche pour ajouter l'option de menu dans le menu.</span><span class="sxs-lookup"><span data-stu-id="f38e4-168">Click on the arrow to add the menu item to the menu.</span></span>
-18. <span data-ttu-id="f38e4-169">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-169">Click Save.</span></span>
-19. <span data-ttu-id="f38e4-170">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f38e4-170">Close the page.</span></span>
+## <a name="create-mobile-device-menu"></a><span data-ttu-id="9000a-151">Créer un menu d'appareil mobile</span><span class="sxs-lookup"><span data-stu-id="9000a-151">Create mobile device menu</span></span>
+1. <span data-ttu-id="9000a-152">Accédez à Gestion des entrepôts > Configuration > Appareil mobile > Options de menu d'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="9000a-152">Go to Warehouse management > Setup > Mobile device > Mobile device menu items.</span></span>
+2. <span data-ttu-id="9000a-153">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9000a-153">Click New.</span></span>
+3. <span data-ttu-id="9000a-154">Saisissez une valeur dans le champ Nom de l'option de menu.</span><span class="sxs-lookup"><span data-stu-id="9000a-154">In the Menu item name field, type a value.</span></span>
+4. <span data-ttu-id="9000a-155">Tapez une valeur dans le champ Titre.</span><span class="sxs-lookup"><span data-stu-id="9000a-155">In the Title field, type a value.</span></span>
+5. <span data-ttu-id="9000a-156">Sélectionnez une option dans le champ Mode.</span><span class="sxs-lookup"><span data-stu-id="9000a-156">In the Mode field, select an option.</span></span>
+6. <span data-ttu-id="9000a-157">Sélectionnez Oui dans le champ Utiliser un travail existant.</span><span class="sxs-lookup"><span data-stu-id="9000a-157">Select Yes in the Use existing work field.</span></span>
+7. <span data-ttu-id="9000a-158">Sélectionnez Oui dans le champ Générer un contenant.</span><span class="sxs-lookup"><span data-stu-id="9000a-158">Select Yes in the Generate license plate field.</span></span>
+8. <span data-ttu-id="9000a-159">Développez la section Classes de travail.</span><span class="sxs-lookup"><span data-stu-id="9000a-159">Expand the Work classes section.</span></span>
+9. <span data-ttu-id="9000a-160">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9000a-160">Click New.</span></span>
+10. <span data-ttu-id="9000a-161">Tapez une valeur dans le champ ID classe de travail.</span><span class="sxs-lookup"><span data-stu-id="9000a-161">In the Work class ID field, type a value.</span></span>
+11. <span data-ttu-id="9000a-162">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9000a-162">Click Save.</span></span>
+12. <span data-ttu-id="9000a-163">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9000a-163">Close the page.</span></span>
+13. <span data-ttu-id="9000a-164">Accédez à Gestion des entrepôts > Configuration > Appareil mobile > Menu d'appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="9000a-164">Go to Warehouse management > Setup > Mobile device > Mobile device menu.</span></span>
+14. <span data-ttu-id="9000a-165">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="9000a-165">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="9000a-166">Dans l'arborescence, sélectionnez « Dans l'arborescence, sélectionner l'option de menu que vous avez créée avant. ».</span><span class="sxs-lookup"><span data-stu-id="9000a-166">In the tree, select 'In the tree, select the menu item that you created before.'.</span></span>
+16. <span data-ttu-id="9000a-167">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="9000a-167">Click Edit.</span></span>
+17. <span data-ttu-id="9000a-168">Cliquez sur la flèche pour ajouter l'option de menu dans le menu.</span><span class="sxs-lookup"><span data-stu-id="9000a-168">Click on the arrow to add the menu item to the menu.</span></span>
+18. <span data-ttu-id="9000a-169">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9000a-169">Click Save.</span></span>
+19. <span data-ttu-id="9000a-170">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9000a-170">Close the page.</span></span>
 
-## <a name="update-a-work-template"></a><span data-ttu-id="f38e4-171">Mettre à jour un modèle de travail</span><span class="sxs-lookup"><span data-stu-id="f38e4-171">Update a work template</span></span>
-1. <span data-ttu-id="f38e4-172">Accédez à Gestion des entrepôts > Configuration > Travail > Modèles de travail.</span><span class="sxs-lookup"><span data-stu-id="f38e4-172">Go to Warehouse management > Setup > Work > Work templates.</span></span>
-2. <span data-ttu-id="f38e4-173">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="f38e4-173">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="f38e4-174">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="f38e4-174">Click Edit.</span></span>
-4. <span data-ttu-id="f38e4-175">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="f38e4-175">Click New.</span></span>
-5. <span data-ttu-id="f38e4-176">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f38e4-176">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="f38e4-177">Dans le champ Type de travail, sélectionnez Imprimer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-177">In the Work type field, select 'Print'.</span></span>
-7. <span data-ttu-id="f38e4-178">Saisissez ou sélectionnez une valeur dans le champ ID classe de travail.</span><span class="sxs-lookup"><span data-stu-id="f38e4-178">In the Work class ID field, enter or select a value.</span></span>
-8. <span data-ttu-id="f38e4-179">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="f38e4-179">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="f38e4-180">Cliquez sur Déplacer vers le haut.</span><span class="sxs-lookup"><span data-stu-id="f38e4-180">Click Move up.</span></span>
-10. <span data-ttu-id="f38e4-181">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="f38e4-181">Click Save.</span></span>
-11. <span data-ttu-id="f38e4-182">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="f38e4-182">Close the page.</span></span>
-
+## <a name="update-a-work-template"></a><span data-ttu-id="9000a-171">Mettre à jour un modèle de travail</span><span class="sxs-lookup"><span data-stu-id="9000a-171">Update a work template</span></span>
+1. <span data-ttu-id="9000a-172">Accédez à Gestion des entrepôts > Configuration > Travail > Modèles de travail.</span><span class="sxs-lookup"><span data-stu-id="9000a-172">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="9000a-173">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="9000a-173">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="9000a-174">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="9000a-174">Click Edit.</span></span>
+4. <span data-ttu-id="9000a-175">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9000a-175">Click New.</span></span>
+5. <span data-ttu-id="9000a-176">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9000a-176">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="9000a-177">Dans le champ Type de travail, sélectionnez Imprimer.</span><span class="sxs-lookup"><span data-stu-id="9000a-177">In the Work type field, select 'Print'.</span></span>
+7. <span data-ttu-id="9000a-178">Saisissez ou sélectionnez une valeur dans le champ ID classe de travail.</span><span class="sxs-lookup"><span data-stu-id="9000a-178">In the Work class ID field, enter or select a value.</span></span>
+8. <span data-ttu-id="9000a-179">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9000a-179">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="9000a-180">Cliquez sur Déplacer vers le haut.</span><span class="sxs-lookup"><span data-stu-id="9000a-180">Click Move up.</span></span>
+10. <span data-ttu-id="9000a-181">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="9000a-181">Click Save.</span></span>
+11. <span data-ttu-id="9000a-182">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9000a-182">Close the page.</span></span>
 

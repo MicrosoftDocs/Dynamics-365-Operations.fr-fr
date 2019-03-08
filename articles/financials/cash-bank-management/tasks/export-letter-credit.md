@@ -1,13 +1,13 @@
---- 
-title: "Lettre de crédit d'exportation"
-description: "Cette procédure décrit le processus associé à une lettre de crédit d'exportation."
+---
+title: Lettre de crédit d'exportation
+description: Cette procédure décrit le processus associé à une lettre de crédit d'exportation.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, DefaultDashboard, SalesTableListPage, SalesCreateOrder, SalesTable, BankLCExport, SalesEditLines,  LedgerJournalTable, LedgerJournalTransCustPaym, CustOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,128 +16,127 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 730a6cc6ed4872f8d0ad92b89665587f472f6791
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335897"
 ---
-# <a name="export-letter-of-credit"></a><span data-ttu-id="d8e3e-103">Lettre de crédit d'exportation</span><span class="sxs-lookup"><span data-stu-id="d8e3e-103">Export letter of credit</span></span>
+# <a name="export-letter-of-credit"></a><span data-ttu-id="8e101-103">Lettre de crédit d'exportation</span><span class="sxs-lookup"><span data-stu-id="8e101-103">Export letter of credit</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d8e3e-104">Cette procédure décrit le processus associé à une lettre de crédit d'exportation.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-104">This procedure walks through the process of the Export letter of credit.</span></span>
+<span data-ttu-id="8e101-104">Cette procédure décrit le processus associé à une lettre de crédit d'exportation.</span><span class="sxs-lookup"><span data-stu-id="8e101-104">This procedure walks through the process of the Export letter of credit.</span></span>
 
-<span data-ttu-id="d8e3e-105">Une lettre de crédit est un accord émis par une banque, dans lequel la banque accepte de garantir le paiement au nom de l'acheteur, si les conditions de l'accord entre l'acheteur et le vendeur sont satisfaites.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-105">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span>
-
-
-
-<span data-ttu-id="d8e3e-106">Préalablement à cette procédure, exécutez la procédure « Paramétrage des établissements bancaires et profils de validation » et la procédure « Lettre de crédit_Création d'un accord d'établissement bancaire ».</span><span class="sxs-lookup"><span data-stu-id="d8e3e-106">Run the 'Set up bank facilities and posting profiles' procedure and the 'Letter of Credit_Create a bank facility agreement' procedure prior to this procedure.</span></span> <span data-ttu-id="d8e3e-107">Pour exécuter cette procédure correctement, vous devez sélectionner la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-107">The USMF demo company must be selected in order to run this procedure successfully.</span></span>
+<span data-ttu-id="8e101-105">Une lettre de crédit est un accord émis par une banque, dans lequel la banque accepte de garantir le paiement au nom de l'acheteur, si les conditions de l'accord entre l'acheteur et le vendeur sont satisfaites.</span><span class="sxs-lookup"><span data-stu-id="8e101-105">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span>
 
 
 
+<span data-ttu-id="8e101-106">Préalablement à cette procédure, exécutez la procédure « Paramétrage des établissements bancaires et profils de validation » et la procédure « Lettre de crédit_Création d'un accord d'établissement bancaire ».</span><span class="sxs-lookup"><span data-stu-id="8e101-106">Run the 'Set up bank facilities and posting profiles' procedure and the 'Letter of Credit_Create a bank facility agreement' procedure prior to this procedure.</span></span> <span data-ttu-id="8e101-107">Pour exécuter cette procédure correctement, vous devez sélectionner la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="8e101-107">The USMF demo company must be selected in order to run this procedure successfully.</span></span>
 
-## <a name="create-sales-order-for-export-letter-of-credit"></a><span data-ttu-id="d8e3e-108">Créer une commande client pour une lettre de crédit d'exportation</span><span class="sxs-lookup"><span data-stu-id="d8e3e-108">Create Sales Order for Export letter of credit</span></span>
-1. <span data-ttu-id="d8e3e-109">Accédez à Comptabilité client > Commandes > Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="d8e3e-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-110">Click New.</span></span>
-3. <span data-ttu-id="d8e3e-111">Dans le champ Compte client, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="d8e3e-112">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-112">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="d8e3e-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-113">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="d8e3e-114">Développez ou réduisez la section Général.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-114">Expand or collapse the General section.</span></span>
-7. <span data-ttu-id="d8e3e-115">Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-115">In the Site field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="d8e3e-116">Sélectionner le site où l'article qui doit sortir est stocké.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-116">Select the Site where the item to be issued is stocked.</span></span>  
-8. <span data-ttu-id="d8e3e-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="d8e3e-118">Dans le champ Entrepôt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-118">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="d8e3e-119">Sélectionner l'entrepôt où l'article qui doit sortir est stocké.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-119">Select the Warehouse where item to be issued is stocked.</span></span>  
-10. <span data-ttu-id="d8e3e-120">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-120">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="d8e3e-121">Remarque : le champ « Type de document bancaire » doit être sélectionné et renseigné avec la valeur « Lettre de crédit ».</span><span class="sxs-lookup"><span data-stu-id="d8e3e-121">Note: The Bank document type field should be selected with the value 'Letter of credit'.</span></span>  
-11. <span data-ttu-id="d8e3e-122">Dans le champ Type de document bancaire, sélectionnez « Lettre de crédit ».</span><span class="sxs-lookup"><span data-stu-id="d8e3e-122">In the Bank document type field, select 'Letter of credit'.</span></span>
-12. <span data-ttu-id="d8e3e-123">Développez ou réduisez la section Livraison.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-123">Expand or collapse the Delivery section.</span></span>
-    * <span data-ttu-id="d8e3e-124">Sélectionnez Vérification de la date de livraison = Aucun(e).</span><span class="sxs-lookup"><span data-stu-id="d8e3e-124">Select Delivery date control = None.</span></span>  
-13. <span data-ttu-id="d8e3e-125">Dans le champ Date de réception demandée, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-125">In the Requested receipt date field, enter a date.</span></span>
-14. <span data-ttu-id="d8e3e-126">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-126">Click OK.</span></span>
-15. <span data-ttu-id="d8e3e-127">Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-127">In the Item number field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="d8e3e-128">Sélectionnez l'article requis qui doit sortir/être vendu.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-128">Select the required item to be Issued/Sold.</span></span>  
-16. <span data-ttu-id="d8e3e-129">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-129">In the list, find and select the desired record.</span></span>
-17. <span data-ttu-id="d8e3e-130">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-130">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="d8e3e-131">Entrez un nombre dans le champ Prix unitaire.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-131">In the Unit price field, enter a number.</span></span>
-19. <span data-ttu-id="d8e3e-132">Développez ou réduisez la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-132">Expand or collapse the Line details section.</span></span>
-20. <span data-ttu-id="d8e3e-133">Cliquez sur l'onglet Livraison.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-133">Click the Delivery tab.</span></span>
-21. <span data-ttu-id="d8e3e-134">Dans le champ Date d'expédition demandée, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-134">In the Requested ship date field, enter a date.</span></span>
-22. <span data-ttu-id="d8e3e-135">Dans le champ Date d'expédition confirmée, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-135">In the Confirmed ship date field, enter a date.</span></span>
-23. <span data-ttu-id="d8e3e-136">Dans le volet Actions, cliquez sur Gérer.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-136">On the Action Pane, click Manage.</span></span>
-24. <span data-ttu-id="d8e3e-137">Cliquez sur Lettre de crédit.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-137">Click Letter of credit.</span></span>
-25. <span data-ttu-id="d8e3e-138">Dans le champ Numéro de document bancaire, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-138">In the Bank document number field, type a value.</span></span>
-26. <span data-ttu-id="d8e3e-139">Entrez une date et une heure dans le champ Date d'expiration.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-139">In the Expiration date field, enter a date and time.</span></span>
-27. <span data-ttu-id="d8e3e-140">Développez ou réduisez la section Détails bancaires.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-140">Expand or collapse the Bank details section.</span></span>
-28. <span data-ttu-id="d8e3e-141">Dans le champ Banque émettrice, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-141">In the Issuing bank field, click the drop-down button to open the lookup.</span></span>
-29. <span data-ttu-id="d8e3e-142">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-142">In the list, click the link in the selected row.</span></span>
-30. <span data-ttu-id="d8e3e-143">Dans le champ Banque conseillère, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-143">In the Advising bank field, click the drop-down button to open the lookup.</span></span>
-31. <span data-ttu-id="d8e3e-144">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-144">In the list, find and select the desired record.</span></span>
-32. <span data-ttu-id="d8e3e-145">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-145">In the list, click the link in the selected row.</span></span>
-33. <span data-ttu-id="d8e3e-146">Cliquez sur Extraire les expéditions de la commande client.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-146">Click Fetch sales order shipments.</span></span>
-34. <span data-ttu-id="d8e3e-147">Cliquez sur Émettre le document bancaire.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-147">Click Issue bank document.</span></span>
-35. <span data-ttu-id="d8e3e-148">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-148">Close the page.</span></span>
 
-## <a name="post-packing-slip"></a><span data-ttu-id="d8e3e-149">Valider un bon de livraison</span><span class="sxs-lookup"><span data-stu-id="d8e3e-149">Post Packing slip</span></span>
-1. <span data-ttu-id="d8e3e-150">Cliquez sur Prélever et emballer dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-150">On the Action Pane, click Pick and pack.</span></span>
-2. <span data-ttu-id="d8e3e-151">Cliquez sur Validation du bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-151">Click Post packing slip.</span></span>
-3. <span data-ttu-id="d8e3e-152">Développez ou réduisez la section Paramètres.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-152">Expand or collapse the Parameters section.</span></span>
-4. <span data-ttu-id="d8e3e-153">Sélectionnez Tout dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-153">In the Quantity field, select 'All'.</span></span>
-5. <span data-ttu-id="d8e3e-154">Développez ou réduisez la section Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-154">Expand or collapse the Setup section.</span></span>
-6. <span data-ttu-id="d8e3e-155">Dans le champ Date de bon de livraison, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-155">In the Packing slip date field, enter a date.</span></span>
-7. <span data-ttu-id="d8e3e-156">Sélectionnez le numéro d'expédition.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-156">Select the Shipment number.</span></span>
-8. <span data-ttu-id="d8e3e-157">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-157">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="d8e3e-158">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-158">Click OK.</span></span>
-10. <span data-ttu-id="d8e3e-159">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-159">Click OK.</span></span>
 
-## <a name="post-sales-invoice"></a><span data-ttu-id="d8e3e-160">Valider une facture client</span><span class="sxs-lookup"><span data-stu-id="d8e3e-160">Post sales invoice</span></span>
-1. <span data-ttu-id="d8e3e-161">Dans le volet Actions, cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-161">On the Action Pane, click Invoice.</span></span>
-2. <span data-ttu-id="d8e3e-162">Cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-162">Click Invoice.</span></span>
-3. <span data-ttu-id="d8e3e-163">Développez ou réduisez la section Vue d'ensemble.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-163">Expand or collapse the Overview section.</span></span>
-4. <span data-ttu-id="d8e3e-164">Sélectionnez le numéro d'expédition.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-164">Select the Shipment number.</span></span>
-5. <span data-ttu-id="d8e3e-165">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-165">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="d8e3e-166">Développez ou réduisez la section Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-166">Expand or collapse the Setup section.</span></span>
-7. <span data-ttu-id="d8e3e-167">Entrez une date dans le champ Date de facture.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-167">In the Invoice date field, enter a date.</span></span>
-8. <span data-ttu-id="d8e3e-168">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-168">Click OK.</span></span>
-9. <span data-ttu-id="d8e3e-169">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-169">Click OK.</span></span>
 
-## <a name="shipment-document-submitted-status"></a><span data-ttu-id="d8e3e-170">Statut du document d'expédition soumis</span><span class="sxs-lookup"><span data-stu-id="d8e3e-170">Shipment document submitted status</span></span>
-1. <span data-ttu-id="d8e3e-171">Dans le volet Actions, cliquez sur Gérer.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-171">On the Action Pane, click Manage.</span></span>
-2. <span data-ttu-id="d8e3e-172">Cliquez sur Lettre de crédit.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-172">Click Letter of credit.</span></span>
-3. <span data-ttu-id="d8e3e-173">Développez ou réduisez la section Lignes.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-173">Expand or collapse the Lines section.</span></span>
-    * <span data-ttu-id="d8e3e-174">Remarque : le champ « Document soumis » doit être défini à « Oui ».</span><span class="sxs-lookup"><span data-stu-id="d8e3e-174">Note: The 'Document submitted' field should be set to 'Yes'.</span></span>  
+## <a name="create-sales-order-for-export-letter-of-credit"></a><span data-ttu-id="8e101-108">Créer une commande client pour une lettre de crédit d'exportation</span><span class="sxs-lookup"><span data-stu-id="8e101-108">Create Sales Order for Export letter of credit</span></span>
+1. <span data-ttu-id="8e101-109">Accédez à Comptabilité client > Commandes > Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="8e101-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="8e101-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="8e101-110">Click New.</span></span>
+3. <span data-ttu-id="8e101-111">Dans le champ Compte client, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8e101-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="8e101-112">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="8e101-112">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="8e101-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="8e101-114">Développez ou réduisez la section Général.</span><span class="sxs-lookup"><span data-stu-id="8e101-114">Expand or collapse the General section.</span></span>
+7. <span data-ttu-id="8e101-115">Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8e101-115">In the Site field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="8e101-116">Sélectionner le site où l'article qui doit sortir est stocké.</span><span class="sxs-lookup"><span data-stu-id="8e101-116">Select the Site where the item to be issued is stocked.</span></span>  
+8. <span data-ttu-id="8e101-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="8e101-118">Dans le champ Entrepôt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8e101-118">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="8e101-119">Sélectionner l'entrepôt où l'article qui doit sortir est stocké.</span><span class="sxs-lookup"><span data-stu-id="8e101-119">Select the Warehouse where item to be issued is stocked.</span></span>  
+10. <span data-ttu-id="8e101-120">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="8e101-121">Remarque : le champ « Type de document bancaire » doit être sélectionné et renseigné avec la valeur « Lettre de crédit ».</span><span class="sxs-lookup"><span data-stu-id="8e101-121">Note: The Bank document type field should be selected with the value 'Letter of credit'.</span></span>  
+11. <span data-ttu-id="8e101-122">Dans le champ Type de document bancaire, sélectionnez « Lettre de crédit ».</span><span class="sxs-lookup"><span data-stu-id="8e101-122">In the Bank document type field, select 'Letter of credit'.</span></span>
+12. <span data-ttu-id="8e101-123">Développez ou réduisez la section Livraison.</span><span class="sxs-lookup"><span data-stu-id="8e101-123">Expand or collapse the Delivery section.</span></span>
+    * <span data-ttu-id="8e101-124">Sélectionnez Vérification de la date de livraison = Aucun(e).</span><span class="sxs-lookup"><span data-stu-id="8e101-124">Select Delivery date control = None.</span></span>  
+13. <span data-ttu-id="8e101-125">Dans le champ Date de réception demandée, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="8e101-125">In the Requested receipt date field, enter a date.</span></span>
+14. <span data-ttu-id="8e101-126">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8e101-126">Click OK.</span></span>
+15. <span data-ttu-id="8e101-127">Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8e101-127">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="8e101-128">Sélectionnez l'article requis qui doit sortir/être vendu.</span><span class="sxs-lookup"><span data-stu-id="8e101-128">Select the required item to be Issued/Sold.</span></span>  
+16. <span data-ttu-id="8e101-129">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="8e101-129">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="8e101-130">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-130">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="8e101-131">Entrez un nombre dans le champ Prix unitaire.</span><span class="sxs-lookup"><span data-stu-id="8e101-131">In the Unit price field, enter a number.</span></span>
+19. <span data-ttu-id="8e101-132">Développez ou réduisez la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="8e101-132">Expand or collapse the Line details section.</span></span>
+20. <span data-ttu-id="8e101-133">Cliquez sur l'onglet Livraison.</span><span class="sxs-lookup"><span data-stu-id="8e101-133">Click the Delivery tab.</span></span>
+21. <span data-ttu-id="8e101-134">Dans le champ Date d'expédition demandée, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="8e101-134">In the Requested ship date field, enter a date.</span></span>
+22. <span data-ttu-id="8e101-135">Dans le champ Date d'expédition confirmée, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="8e101-135">In the Confirmed ship date field, enter a date.</span></span>
+23. <span data-ttu-id="8e101-136">Dans le volet Actions, cliquez sur Gérer.</span><span class="sxs-lookup"><span data-stu-id="8e101-136">On the Action Pane, click Manage.</span></span>
+24. <span data-ttu-id="8e101-137">Cliquez sur Lettre de crédit.</span><span class="sxs-lookup"><span data-stu-id="8e101-137">Click Letter of credit.</span></span>
+25. <span data-ttu-id="8e101-138">Dans le champ Numéro de document bancaire, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="8e101-138">In the Bank document number field, type a value.</span></span>
+26. <span data-ttu-id="8e101-139">Entrez une date et une heure dans le champ Date d'expiration.</span><span class="sxs-lookup"><span data-stu-id="8e101-139">In the Expiration date field, enter a date and time.</span></span>
+27. <span data-ttu-id="8e101-140">Développez ou réduisez la section Détails bancaires.</span><span class="sxs-lookup"><span data-stu-id="8e101-140">Expand or collapse the Bank details section.</span></span>
+28. <span data-ttu-id="8e101-141">Dans le champ Banque émettrice, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8e101-141">In the Issuing bank field, click the drop-down button to open the lookup.</span></span>
+29. <span data-ttu-id="8e101-142">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-142">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="8e101-143">Dans le champ Banque conseillère, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8e101-143">In the Advising bank field, click the drop-down button to open the lookup.</span></span>
+31. <span data-ttu-id="8e101-144">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="8e101-144">In the list, find and select the desired record.</span></span>
+32. <span data-ttu-id="8e101-145">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-145">In the list, click the link in the selected row.</span></span>
+33. <span data-ttu-id="8e101-146">Cliquez sur Extraire les expéditions de la commande client.</span><span class="sxs-lookup"><span data-stu-id="8e101-146">Click Fetch sales order shipments.</span></span>
+34. <span data-ttu-id="8e101-147">Cliquez sur Émettre le document bancaire.</span><span class="sxs-lookup"><span data-stu-id="8e101-147">Click Issue bank document.</span></span>
+35. <span data-ttu-id="8e101-148">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="8e101-148">Close the page.</span></span>
 
-## <a name="verify-export-letter-of-credit"></a><span data-ttu-id="d8e3e-175">Vérifier la lettre de crédit d'exportation</span><span class="sxs-lookup"><span data-stu-id="d8e3e-175">Verify Export letter of credit</span></span>
-1. <span data-ttu-id="d8e3e-176">Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d'exportation/relance d'importation.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-176">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
-2. <span data-ttu-id="d8e3e-177">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-177">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="d8e3e-178">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-178">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="d8e3e-179">Vérifiez que la lettre de crédit d'exportation est dotée du statut d'expédition « Facturée ».</span><span class="sxs-lookup"><span data-stu-id="d8e3e-179">Verify that the Export letter of credit has a Shipment status of 'Invoiced'.</span></span>  
+## <a name="post-packing-slip"></a><span data-ttu-id="8e101-149">Valider un bon de livraison</span><span class="sxs-lookup"><span data-stu-id="8e101-149">Post Packing slip</span></span>
+1. <span data-ttu-id="8e101-150">Cliquez sur Prélever et emballer dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="8e101-150">On the Action Pane, click Pick and pack.</span></span>
+2. <span data-ttu-id="8e101-151">Cliquez sur Validation du bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="8e101-151">Click Post packing slip.</span></span>
+3. <span data-ttu-id="8e101-152">Développez ou réduisez la section Paramètres.</span><span class="sxs-lookup"><span data-stu-id="8e101-152">Expand or collapse the Parameters section.</span></span>
+4. <span data-ttu-id="8e101-153">Sélectionnez Tout dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="8e101-153">In the Quantity field, select 'All'.</span></span>
+5. <span data-ttu-id="8e101-154">Développez ou réduisez la section Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="8e101-154">Expand or collapse the Setup section.</span></span>
+6. <span data-ttu-id="8e101-155">Dans le champ Date de bon de livraison, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="8e101-155">In the Packing slip date field, enter a date.</span></span>
+7. <span data-ttu-id="8e101-156">Sélectionnez le numéro d'expédition.</span><span class="sxs-lookup"><span data-stu-id="8e101-156">Select the Shipment number.</span></span>
+8. <span data-ttu-id="8e101-157">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-157">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="8e101-158">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8e101-158">Click OK.</span></span>
+10. <span data-ttu-id="8e101-159">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8e101-159">Click OK.</span></span>
 
-## <a name="customer-payment"></a><span data-ttu-id="d8e3e-180">Client - Paiements</span><span class="sxs-lookup"><span data-stu-id="d8e3e-180">Customer payment</span></span>
-1. <span data-ttu-id="d8e3e-181">Accédez à Comptabilité client > Paiements > Journal des paiements.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-181">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="d8e3e-182">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-182">Click New.</span></span>
-3. <span data-ttu-id="d8e3e-183">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-183">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="d8e3e-184">Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-184">In the Name field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="d8e3e-185">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-185">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="d8e3e-186">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-186">Click Lines.</span></span>
-7. <span data-ttu-id="d8e3e-187">Entrez une date dans le champ Date.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-187">In the Date field, enter a date.</span></span>
-8. <span data-ttu-id="d8e3e-188">Dans le champ Compte, spécifiez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-188">In the Account field, specify the desired values.</span></span>
-9. <span data-ttu-id="d8e3e-189">Cliquez sur Règlement.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-189">Click Settlement.</span></span>
-10. <span data-ttu-id="d8e3e-190">Cochez la case dans l'en-tête de Totaux.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-190">Select the check box on the header of Totals.</span></span>
-    * <span data-ttu-id="d8e3e-191">Remarque : définissez le champ Afficher à « Lettre de crédit ».</span><span class="sxs-lookup"><span data-stu-id="d8e3e-191">Note: Set the Show field to 'Letter of credit'.</span></span>  
-11. <span data-ttu-id="d8e3e-192">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-192">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="d8e3e-193">Activez ou désactivez la case à cocher Marquer.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-193">Select or clear the Mark check box.</span></span>
-13. <span data-ttu-id="d8e3e-194">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-194">Click OK.</span></span>
-14. <span data-ttu-id="d8e3e-195">Cliquez sur l'onglet Paiement.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-195">Click the Payment tab.</span></span>
-    * <span data-ttu-id="d8e3e-196">Vérifier les détails de numéro de document bancaire et de numéro d'expédition</span><span class="sxs-lookup"><span data-stu-id="d8e3e-196">Verify Bank document number and Shipment number details</span></span>  
-15. <span data-ttu-id="d8e3e-197">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-197">Click Post.</span></span>
+## <a name="post-sales-invoice"></a><span data-ttu-id="8e101-160">Valider une facture client</span><span class="sxs-lookup"><span data-stu-id="8e101-160">Post sales invoice</span></span>
+1. <span data-ttu-id="8e101-161">Dans le volet Actions, cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="8e101-161">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="8e101-162">Cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="8e101-162">Click Invoice.</span></span>
+3. <span data-ttu-id="8e101-163">Développez ou réduisez la section Vue d'ensemble.</span><span class="sxs-lookup"><span data-stu-id="8e101-163">Expand or collapse the Overview section.</span></span>
+4. <span data-ttu-id="8e101-164">Sélectionnez le numéro d'expédition.</span><span class="sxs-lookup"><span data-stu-id="8e101-164">Select the Shipment number.</span></span>
+5. <span data-ttu-id="8e101-165">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-165">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="8e101-166">Développez ou réduisez la section Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="8e101-166">Expand or collapse the Setup section.</span></span>
+7. <span data-ttu-id="8e101-167">Entrez une date dans le champ Date de facture.</span><span class="sxs-lookup"><span data-stu-id="8e101-167">In the Invoice date field, enter a date.</span></span>
+8. <span data-ttu-id="8e101-168">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8e101-168">Click OK.</span></span>
+9. <span data-ttu-id="8e101-169">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8e101-169">Click OK.</span></span>
 
-## <a name="verify-export-letter-of-credit-after-payment"></a><span data-ttu-id="d8e3e-198">Vérifier la lettre de crédit d'exportation après paiement</span><span class="sxs-lookup"><span data-stu-id="d8e3e-198">Verify Export letter of credit after payment</span></span>
-1. <span data-ttu-id="d8e3e-199">Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d'exportation/relance d'importation.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-199">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
-2. <span data-ttu-id="d8e3e-200">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-200">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="d8e3e-201">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-201">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="d8e3e-202">Vérifiez que Statut de l'expédition = Paiement reçu et que le montant du solde = 0,00.</span><span class="sxs-lookup"><span data-stu-id="d8e3e-202">Verify Shipment status = Payment received and balance amount = 0.00.</span></span>  
+## <a name="shipment-document-submitted-status"></a><span data-ttu-id="8e101-170">Statut du document d'expédition soumis</span><span class="sxs-lookup"><span data-stu-id="8e101-170">Shipment document submitted status</span></span>
+1. <span data-ttu-id="8e101-171">Dans le volet Actions, cliquez sur Gérer.</span><span class="sxs-lookup"><span data-stu-id="8e101-171">On the Action Pane, click Manage.</span></span>
+2. <span data-ttu-id="8e101-172">Cliquez sur Lettre de crédit.</span><span class="sxs-lookup"><span data-stu-id="8e101-172">Click Letter of credit.</span></span>
+3. <span data-ttu-id="8e101-173">Développez ou réduisez la section Lignes.</span><span class="sxs-lookup"><span data-stu-id="8e101-173">Expand or collapse the Lines section.</span></span>
+    * <span data-ttu-id="8e101-174">Remarque : le champ « Document soumis » doit être défini à « Oui ».</span><span class="sxs-lookup"><span data-stu-id="8e101-174">Note: The 'Document submitted' field should be set to 'Yes'.</span></span>  
 
+## <a name="verify-export-letter-of-credit"></a><span data-ttu-id="8e101-175">Vérifier la lettre de crédit d'exportation</span><span class="sxs-lookup"><span data-stu-id="8e101-175">Verify Export letter of credit</span></span>
+1. <span data-ttu-id="8e101-176">Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d'exportation/relance d'importation.</span><span class="sxs-lookup"><span data-stu-id="8e101-176">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
+2. <span data-ttu-id="8e101-177">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="8e101-177">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="8e101-178">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-178">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="8e101-179">Vérifiez que la lettre de crédit d'exportation est dotée du statut d'expédition « Facturée ».</span><span class="sxs-lookup"><span data-stu-id="8e101-179">Verify that the Export letter of credit has a Shipment status of 'Invoiced'.</span></span>  
+
+## <a name="customer-payment"></a><span data-ttu-id="8e101-180">Client - Paiements</span><span class="sxs-lookup"><span data-stu-id="8e101-180">Customer payment</span></span>
+1. <span data-ttu-id="8e101-181">Accédez à Comptabilité client > Paiements > Journal des paiements.</span><span class="sxs-lookup"><span data-stu-id="8e101-181">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="8e101-182">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="8e101-182">Click New.</span></span>
+3. <span data-ttu-id="8e101-183">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-183">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="8e101-184">Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8e101-184">In the Name field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="8e101-185">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-185">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="8e101-186">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="8e101-186">Click Lines.</span></span>
+7. <span data-ttu-id="8e101-187">Entrez une date dans le champ Date.</span><span class="sxs-lookup"><span data-stu-id="8e101-187">In the Date field, enter a date.</span></span>
+8. <span data-ttu-id="8e101-188">Dans le champ Compte, spécifiez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="8e101-188">In the Account field, specify the desired values.</span></span>
+9. <span data-ttu-id="8e101-189">Cliquez sur Règlement.</span><span class="sxs-lookup"><span data-stu-id="8e101-189">Click Settlement.</span></span>
+10. <span data-ttu-id="8e101-190">Cochez la case dans l'en-tête de Totaux.</span><span class="sxs-lookup"><span data-stu-id="8e101-190">Select the check box on the header of Totals.</span></span>
+    * <span data-ttu-id="8e101-191">Remarque : définissez le champ Afficher à « Lettre de crédit ».</span><span class="sxs-lookup"><span data-stu-id="8e101-191">Note: Set the Show field to 'Letter of credit'.</span></span>  
+11. <span data-ttu-id="8e101-192">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="8e101-192">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="8e101-193">Activez ou désactivez la case à cocher Marquer.</span><span class="sxs-lookup"><span data-stu-id="8e101-193">Select or clear the Mark check box.</span></span>
+13. <span data-ttu-id="8e101-194">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8e101-194">Click OK.</span></span>
+14. <span data-ttu-id="8e101-195">Cliquez sur l'onglet Paiement.</span><span class="sxs-lookup"><span data-stu-id="8e101-195">Click the Payment tab.</span></span>
+    * <span data-ttu-id="8e101-196">Vérifier les détails de numéro de document bancaire et de numéro d'expédition</span><span class="sxs-lookup"><span data-stu-id="8e101-196">Verify Bank document number and Shipment number details</span></span>  
+15. <span data-ttu-id="8e101-197">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="8e101-197">Click Post.</span></span>
+
+## <a name="verify-export-letter-of-credit-after-payment"></a><span data-ttu-id="8e101-198">Vérifier la lettre de crédit d'exportation après paiement</span><span class="sxs-lookup"><span data-stu-id="8e101-198">Verify Export letter of credit after payment</span></span>
+1. <span data-ttu-id="8e101-199">Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d'exportation/relance d'importation.</span><span class="sxs-lookup"><span data-stu-id="8e101-199">Go to Cash and bank management > Letters of credit > Export letter of credit and import collection.</span></span>
+2. <span data-ttu-id="8e101-200">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="8e101-200">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="8e101-201">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8e101-201">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="8e101-202">Vérifiez que Statut de l'expédition = Paiement reçu et que le montant du solde = 0,00.</span><span class="sxs-lookup"><span data-stu-id="8e101-202">Verify Shipment status = Payment received and balance amount = 0.00.</span></span>  
 
