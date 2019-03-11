@@ -1,32 +1,31 @@
 ---
 title: Page d'accueil de la planification
-description: "La planification permet aux sociétés de déterminer et d'équilibrer les futurs besoins en matières premières et en capacités afin d'atteindre leurs objectifs."
+description: La planification permet aux sociétés de déterminer et d'équilibrer les futurs besoins en matières premières et en capacités afin d'atteindre leurs objectifs.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314783"
 ---
-
 # <a name="master-planning-home-page"></a>Page d'accueil de la planification
 
 [!include [banner](../includes/banner.md)]
@@ -69,10 +68,10 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 ### <a name="roadmaps"></a>Calendriers de lancement
-Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement.
+Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement.
 
 ### <a name="blogs"></a>Blogs
-Vous trouverez des avis, des actualités et d'autres informations concernant la planification et d'autres solutions sur le [Blog de l'équipe R&D de Dynamics AX chargée de la fabrication](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l'équipe R&D de Dynamics AX chargée de la gestion de la chaîne d'approvisionnement](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Vous trouverez des avis, des actualités et d'autres informations concernant la planification et d'autres solutions sur le [Blog de l'équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l'équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guides de tâches
 Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton **Aide** de n'importe quelle page.
@@ -84,7 +83,6 @@ Une aide supplémentaire est disponible sous forme de guides de tâche dans Fina
 -  [Prolonger la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Planification principale - conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
 -  [Besoin d'aide ! La production est lente !](https://youtu.be/RLXybx20B5o)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Paramétrer des centres d'appels"
-description: "Cette rubrique fournit des informations sur le traitement des commandes pour les centres d'appels en utilisant Microsoft Dynamics 365 for Retail."
+title: Paramétrer des centres d'appels
+description: Cette rubrique offre des informations sur le traitement des commandes pour les centres d'appels avec Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334839"
 ---
-
-# <a name="set-up-call-center-channels"></a>Paramétrer des centres d'appels
+# <a name="set-up-call-center-channels"></a>Paramétrer des canaux de centre d'appels
 
 [!include [banner](includes/banner.md)]
 
-Une société peut définir plusieurs canaux de centre d'appels dans Microsoft Dynamics 365 for Retail. Les canaux de centre d'appels sont configurés dans **Retail** \> **Canaux** \> **Centres d'appels** \> **Tous les centres d'appels**, et ils sont spécifiques à une entité juridique.
+Une société peut définir plusieurs canaux pour les centres d'appels dans Microsoft Dynamics 365 for Retail. Les canaux de centre d'appels sont configurés dans **Retail** \> **Canaux** \> **Centres d'appels** \> **Tous les centres d'appels**, et ils sont spécifiques à une entité juridique.
 
 Lorsqu'un canal de centre d'appels est créé, un numéro de section lui est systématiquement affecté. Comme les centres d'appels sont créés en tant qu'unités opérationnelles, les utilisateurs peuvent lier le canal de centre d'appels à plusieurs fonctionnalités Retail, telles que les assortiments, les catalogues, et les modes de livraison spécifiques.
 
@@ -77,7 +76,6 @@ Lorsque vous définissez le canal de centre d'appels, vous devez lier les utilis
 
 Par défaut, l'indicateur **Vente au détail** de l'en-tête de la commande client est activé pour toutes les commandes que les utilisateurs de centre d'appels créent. Les commandes peuvent ensuite tirer parti des fonctionnalités de prix et de promotions spécifiques à la vente au détail du système.
 
-Les utilisateurs qui ne sont pas associés à un canal de centre d'appels utilisent les fonctionnalités de saisie de commande standard de Microsoft Dynamics 365 for Finance and Operations. Les commandes qu'ils entrent via l'écran de saisie de commande client ne seront pas systématiquement identifiées comme des commandes Retail. En outre, ces commandes saisies par ces utilisateurs ne sont pas sujettes à l'une des règles de traitement d'achèvement de commande, à la logique de tarification de vente au détail, ou à d'autres validations de commande qui peuvent être définies dans la configuration du canal de centre d'appels ou les paramètres système du canal de centre d'appels.
+Les utilisateurs qui ne sont pas associés à un canal de centre d'appels utilisent les fonctionnalités de saisie de commande standard de Microsoft Dynamics 365 for Finance and Operations. Les commandes qu'ils entrent via l'écran de saisie de commande client ne seront pas systématiquement identifiées comme des commandes Retail. En outre, ces commandes saisies par ces utilisateurs ne sont pas sujettes à l'une des règles de traitement d'achèvement de commande, à la logique de tarification de vente au détail, ou à d'autres validations de commande qui peuvent être définies dans la configuration du canal de centre d'appels ou les paramètres système du canal de centre d'appels.
 
 Lorsque vous avez terminé de configurer le canal de centre d'appels et de définir les utilisateurs du canal, pour garantir le comportement système souhaité, assurez-vous que tous les paramètres du centre d'appels requis sont définis dans **Retail** \> **Paramétrage du canal** \> **Paramétrage du centre d'appels** \> **Paramètres du centre d'appels**. Assurez-vous que des souches de numéros associées sont également définies.
-

@@ -1,13 +1,13 @@
---- 
-title: "Créer des règles avancées pour les journaux"
-description: "Cette procédure consiste à créer des règles avancées pour les journaux."
+---
+title: Créer des règles avancées pour les journaux
+description: Cette procédure consiste à créer des règles avancées pour les journaux.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalControl, CompanyLookup, LedgerJournalPostControl
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e3fc764a6fa92a050084ae610a11acac46995d2a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1bb1663b0f5d7e6a550e1ffd2ee2edf3771a13b3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326168"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Créer des règles avancées pour les journaux
 
@@ -57,5 +57,4 @@ Cette procédure consiste à créer des règles avancées pour les journaux. Cel
 3. Dans le champ Comment voulez-vous paramétrer des restrictions de validation ?, sélectionnez par Groupe d'utilisateurs.
 4. Dans l'arborescence, activez « Le groupe pour lequel vous souhaitez autoriser la validation pour ce nom de journal. ».
 5. Cliquez sur OK.
-
 

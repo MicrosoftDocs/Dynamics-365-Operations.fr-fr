@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer un fonds dans le secteur public"
-description: "Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds."
+---
+title: Paramétrer un fonds dans le secteur public
+description: Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerFund
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c5d54d47b481c634a3a7332569363ef16932e346
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8c0d2eabd0519b1029f3c0a33a502f3550adb6e4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370808"
 ---
 # <a name="set-up-a-fund-in-the-public-sector"></a>Paramétrer un fonds dans le secteur public
 
@@ -42,5 +42,4 @@ Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds. Cha
 10. Définir l'option Ignorer l'option de fin d'exercice sélectionnée à Oui ou à Non.
 11. Si vous définissez l'option Ignorer l'option de fin d'exercice sélectionnée à Oui, sélectionnez une option de fin d'exercice.
 12. Cliquez sur Enregistrer.
-
 

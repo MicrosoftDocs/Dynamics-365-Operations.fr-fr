@@ -1,13 +1,13 @@
 ---
 title: Automatisation des factures fournisseur
-description: "Cette rubrique explique les fonctionnalités disponibles pour l'automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes."
+description: Cette rubrique explique les fonctionnalités disponibles pour l'automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6ea483a82b8215f0e6d8f420c007da349313daa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324512"
 ---
 # <a name="vendor-invoice-automation"></a>Automatisation des factures fournisseur
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 Cette rubrique explique les fonctionnalités disponibles pour l'automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
 
-Les organisations qui souhaitent simplifier leurs processus de compatibilité fournisseur identifient souvent le traitement des factures comme l'un des principaux domaines de processus dont l'efficacité doit être améliorée. Dans de nombreux cas, ces organisations confient le traitement des factures papier à un fournisseur de services de reconnaissance optique des caractères (OCR) tiers. Elles reçoivent ensuite les métadonnées de facture dans un format lisible par une machine avec une image numérisée de chaque facture. Pour faciliter l'automatisation, une solution de « dernier kilomètre » est créée pour activer la consommation de ces artefacts dans le système de facturation. Microsoft Dynamics 365 for Finance and Operations active automatiquement cette automatisation de « dernier kilomètre », par le biais d'une solution d'automatisation des factures.
+Les organisations qui souhaitent simplifier leurs processus de compatibilité fournisseur identifient souvent le traitement des factures comme l'un des principaux domaines de processus dont l'efficacité doit être améliorée. Dans de nombreux cas, ces organisations confient le traitement des factures papier à un fournisseur de services de reconnaissance optique des caractères (OCR) tiers. Elles reçoivent ensuite les métadonnées de facture dans un format lisible par une machine avec une image numérisée de chaque facture. Pour faciliter l'automatisation, une solution de « dernier kilomètre » est créée pour activer la consommation de ces artefacts dans le système de facturation. Microsoft Dynamics 365 for Finance and Operations dispose désormais de cette automatisation du « dernier kilomètre », via une solution d'automatisation des factures.
 
 ## <a name="solution-context"></a>Contexte de la solution
 
@@ -232,4 +232,3 @@ Les rôles suivants donnent un accès en lecture seule à la visionneuse de piè
 + **Commis à la comptabilité fournisseur** et **Responsable Comptabilité fournisseur** – Le droit Tenir à jour les factures fournisseur est affecté à ces rôles.
 
 Par défaut, si le rôle d'utilisateur donne des droits de modification sur n'importe quelle page, l'utilisateur aura également des droits de modification sur la visionneuse de pièce jointe pour les actions de mise en surbrillance, de blocage et d'ajout d'annotations. Toutefois, s'il existe des scénarios où un rôle spécifique doit avoir des droits de modification sur la page mais pas sur la visionneuse de pièce jointe, les privilèges appropriés de la liste précédente peuvent être utilisés pour respecter le cas d'utilisation.
-

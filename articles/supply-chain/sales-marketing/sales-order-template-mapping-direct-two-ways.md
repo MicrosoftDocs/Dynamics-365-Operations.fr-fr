@@ -1,37 +1,36 @@
 ---
 title: Synchronisation entre les commandes client directement entre Sales et Finance and Operations
-description: "La rubrique présente les modèles et les tâches sous-jacentes utilisés pour exécuter la synchronisation des commandes client directement entre Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations."
+description: La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les commandes client directement depuis Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
 ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339117"
 ---
-
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Synchronisation entre les commandes client directement entre Sales et Finance and Operations
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Synchronisation des commandes client directement entre Sales et Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-La rubrique présente les modèles et les tâches sous-jacentes utilisés pour exécuter la synchronisation des commandes client directement entre Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations.
+La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les commandes client directement depuis Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flux de données dans Prospect en disponibilités
 
@@ -198,4 +197,3 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Prospect en disponibilités](prospect-to-cash.md)
-

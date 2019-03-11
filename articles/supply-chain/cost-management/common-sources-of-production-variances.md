@@ -1,13 +1,13 @@
 ---
-title: "Sources courantes des écarts de production"
-description: "Cet article décrit diverses sources typiques de chaque type d'écart de production."
+title: Sources courantes des écarts de production
+description: Cet article décrit diverses sources typiques de chaque type d'écart de production.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCostTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 50f8cd7904e1d32175edd321fbd6533e985fb324
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 041cd20e6b0ab7d1cb31e8925aa3a755ea556706
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308688"
 ---
-
 # <a name="common-sources-of-production-variances"></a>Sources courantes des écarts de production
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Voici quelques sources typiques d'écart d'une **substitution de production** :
 -   Vous ajoutez manuellement une opération à la gamme de production et déclarez cette opération comme étant consommée.
 -   Lorsque vous créez l'ordre de fabrication, vous sélectionnez une version de nomenclature différente de celle utilisée dans le calcul de coûts standard.
 -   Lorsque vous créez l'ordre de fabrication, vous sélectionnez une version de gamme différente de celle utilisée dans le calcul de coûts standard.
-
 
 
 

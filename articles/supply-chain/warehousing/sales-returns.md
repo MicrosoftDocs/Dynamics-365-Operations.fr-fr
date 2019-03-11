@@ -1,13 +1,13 @@
 ---
 title: Retours sur ventes
-description: "Cette rubrique fournit des informations sur le processus d'ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l'évaluation des coûts et les quantités de stock disponible."
+description: Cette rubrique fournit des informations sur le processus d'ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l'évaluation des coûts et les quantités de stock disponible.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362692"
 ---
-
 # <a name="sales-returns"></a>Retours sur ventes
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des informations sur le processus d'ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l'évaluation des coûts et les quantités de stock disponible.
 
-Les clients peuvent retourner des articles pour différentes raisons. Par exemple, un article peut être défectueux, ou il peut ne pas répondre aux attentes du client. Le processus de retour démarre lorsqu'un client émet une demande de retour d'un article. Une fois la demande du client reçue, un ordre de retour est créé dans Microsoft Dynamics 365 for Finance and Operations.
+Les clients peuvent retourner des articles pour différentes raisons. Par exemple, un article peut être défectueux, ou il peut ne pas répondre aux attentes du client. Le processus de retour démarre lorsqu'un client émet une demande de retour d'un article. Une fois la demande client reçue, un ordre de retour est créé dans Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="return-order-process"></a>Processus d'ordre de retour
 L'illustration suivante fournit une vue d'ensemble du processus d'ordre de retour.  
@@ -329,7 +328,6 @@ Dans cet exemple, la ligne d'ordre de retour est créée à l'aide de la fonctio
 ![Ligne d'ordre de retour créée à l'aide de la fonction Rechercher une commande client ](./media/SalesReturn11.png)  
 
 >[Remarque!] **Remise** et **Prix de vente de retour** sont définis correctement. Par conséquent, une contrepassation exacte de la facture client est réalisée.
-
 
 
 

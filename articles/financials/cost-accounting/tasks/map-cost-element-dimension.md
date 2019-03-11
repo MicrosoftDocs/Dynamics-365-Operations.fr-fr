@@ -1,13 +1,13 @@
---- 
-title: "Mapper une dimension d'élément de coût"
-description: "Un contrôleur de coûts peut utiliser cette procédure pour mettre en correspondance une dimension d'élément de coût avec une dimension d'élément de coût de l'entité juridique MXMF."
+---
+title: Mapper une dimension d'élément de coût
+description: Un contrôleur de coûts peut utiliser cette procédure pour mettre en correspondance une dimension d'élément de coût avec une dimension d'élément de coût de l'entité juridique MXMF.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 52b9f6a5b71349d404fe9621b58f58aab843a71f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3ff31db3dbb6da9570bb85bbcaa3b444852d91d7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308504"
 ---
 # <a name="map-a-cost-element-dimension"></a>Mapper une dimension d'élément de coût
 
@@ -43,5 +43,4 @@ Un contrôleur de coûts peut utiliser cette procédure pour mettre en correspon
 10. Dans le champ Membre de la dimension de fin, entrez ou sélectionnez une valeur.
     * Pour cet exemple, sélectionnez le membre de dimension 6001004 Telefono.  
 11. Cliquez sur Enregistrer.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Règlement d'un paiement fournisseur partiel avec plusieurs périodes de remise"
-description: "Cet article vous fait parcourir les étapes d'un scénario dans lequel plusieurs paiements partiels sont effectués pour un fournisseur qui offre plusieurs escomptes de règlement."
+title: Règlement d'un paiement fournisseur partiel avec plusieurs périodes de remise
+description: Cet article vous fait parcourir les étapes d'un scénario dans lequel plusieurs paiements partiels sont effectués pour un fournisseur qui offre plusieurs escomptes de règlement.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c697d20bcbe6ab8f2bc38c03b181104db1f36838
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 609664ff9008da72ce26a4c29fb9f56d89a4a84c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357954"
 ---
-
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Règlement d'un paiement fournisseur partiel avec plusieurs périodes de remise
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,6 @@ Le 20 juillet, April crée un paiement final de 200,00. Aucune escompte de règl
 | APP-10061  | 7/12/2015 |         | 495,00                               |                                       | 0,00    | USD      |
 | DISC-10061 | 7/12/2015 |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10062  | 20/7/2015 |         | 200,00                               |                                       | 0,00    | USD      |
-
 
 
 

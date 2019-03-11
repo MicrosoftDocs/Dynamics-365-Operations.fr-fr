@@ -1,13 +1,13 @@
 ---
-title: "Connexion au système d'aide"
-description: "Cette rubrique décrit les composants du système Aide pour Microsoft Dynamics 365 for Finance and Operations, explique comment les connecter entre eux et résume la création de l'aide personnalisée."
+title: Connexion au système d'aide
+description: Cette rubrique décrit les composants du système d'aide pour Microsoft Dynamics 365 for Finance and Operations, explique comment les connecter entre eux et résume la création de l'aide personnalisée.
 author: margoc
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317727"
 ---
-
 # <a name="connect-the-help-system"></a>Connexion au système d'aide
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les composants du système d'aide Microsoft Dynamics 365 for Finance and Operations. Elle fournit une vue d'ensemble de la procédure de connexion de ces composants et une synthèse de la création de l'aide personnalisée.
+Cette rubrique décrit les composants du système d'aide pour Microsoft Dynamics 365 for Finance and Operations. Elle fournit une vue d'ensemble de la procédure de connexion de ces composants et une synthèse de la création de l'aide personnalisée.
 
 ## <a name="help-architecture"></a>Architecture de l'aide
 
@@ -44,7 +43,7 @@ La figure suivante illustre les parties du système d'aide de Finance and Operat
 ## <a name="connecting-the-help-system"></a>Connexion au système d'aide
 
 > [!NOTE]
-> L'onglet **Guides de tâches** n'est pas disponible dans Microsoft Dynamics 365 for Talent et Microsoft Dynamics 365 for Retail. Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version. Les guides des tâches dans l'expérience Mise en route dans Talent restent disponibles pour couvrir les fonctionnalités de base. L'aide procédurale est également disponible sur le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) pour Retail et Talent.
+> L'onglet **Guides de tâche** n'est pas disponible actuellement dans Microsoft Dynamics 365 for Talent et Microsoft Dynamics 365 for Retail. Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version. Les guides des tâches dans l'expérience Mise en route dans Talent restent disponibles pour couvrir les fonctionnalités de base. L'aide procédurale est également disponible sur le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) pour Retail et Talent.
 
 En utilisant le formulaire **Paramètres système**, les administrateurs système connectent les parties du système d'aide pour une implémentation.
 
@@ -102,4 +101,3 @@ Microsoft a fourni un livre blanc et un exemple de code qui expliquent comment c
 [Vue d'ensemble de l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md)
 
 [Procédure de création d'un enregistrement de tâche à utiliser comme documentation ou formation](../../dev-itpro/user-interface/task-recorder-training-docs.md)
-

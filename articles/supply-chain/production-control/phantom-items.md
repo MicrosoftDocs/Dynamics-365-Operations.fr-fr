@@ -1,13 +1,13 @@
 ---
-title: "Articles fantôme"
-description: "Cette rubrique décrit, en détail, la manière dont le type de ligne Fantôme peut être utilisé pour les lignes d'une nomenclature et d'une formule dans Microsoft Dynamics 365 for Finance and Operations."
+title: Articles fantôme
+description: Cette rubrique décrit, en détail, la manière dont le type de ligne Fantôme peut être utilisé pour les lignes d'une nomenclature et d'une formule dans Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: shylaw
@@ -15,16 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validfrom: 
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.search.validfrom: ''
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: a92dd82f309867586f047e0dfc36e452a44a0f9c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341808"
 ---
-
 # <a name="phantom-items"></a>Articles fantôme
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Dans cette structure, vous pouvez voir que la notion de pièces F et G n'existe 
 
 Contrairement à la nomenclature d'ingénierie, qui a deux feuilles d'opérations, la nomenclature de fabrication n'en a qu'une seule. L'opération d'emballage associée à la pièce G a également été élevée et fait désormais partie de la feuille d'opérations du produit H. L'assemblage de l'unité électrique est la première opération. Cet ordre est logique, car cette unité est utilisée dans l'opération suivante, c'est-à-dire l'assemblage de la machine. La dernière opération est l'opération d'emballage, qui utilise deux matériaux d'emballage (C et D).
 
-Dans Microsoft Dynamics 365 for Finance and Operations, la transition entre la nomenclature d'ingénierie et la nomenclature de fabrication est activée par le biais du type de ligne de nomenclature Fantôme. Comme le terme » fantôme » l'indique, les pièces F et G ont disparu pendant la transition entre les deux types de nomenclature. Dans cet exemple, le type de ligne Fantôme est appliqué aux lignes de nomenclature pour les pièces F et G de la nomenclature d'ingénierie. Lorsqu'un ordre de fabrication ou un ordre de traitement par lots est créé, la nomenclature d'ingénierie est copiée dans l'ordre de fabrication ou de traitement par lots. Ensuite, lorsque l'ordre d'exécution est estimé, la transition de la nomenclature d'ingénierie à la nomenclature de fabrication a lieu, comme indiqué dans les illustrations précédentes. Dans la feuille d'opérations de la deuxième illustration, les matériaux d'emballage C et D sont des entrées pour l'opération. 
+Dans Microsoft Dynamics 365 for Finance and Operations, la transition entre la nomenclature d'ingénierie et la nomenclature de fabrication est activée via le type de ligne de nomenclature Fantôme. Comme le terme » fantôme » l'indique, les pièces F et G ont disparu pendant la transition entre les deux types de nomenclature. Dans cet exemple, le type de ligne Fantôme est appliqué aux lignes de nomenclature pour les pièces F et G de la nomenclature d'ingénierie. Lorsqu'un ordre de fabrication ou un ordre de traitement par lots est créé, la nomenclature d'ingénierie est copiée dans l'ordre de fabrication ou de traitement par lots. Ensuite, lorsque l'ordre d'exécution est estimé, la transition de la nomenclature d'ingénierie à la nomenclature de fabrication a lieu, comme indiqué dans les illustrations précédentes. Dans la feuille d'opérations de la deuxième illustration, les matériaux d'emballage C et D sont des entrées pour l'opération. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Structures de nomenclature fantôme à plusieurs niveaux
 Le type de ligne Fantôme peut être utilisé dans les structures de nomenclature à plusieurs niveaux, comme le montre l'illustration suivante. Dans cette illustration, (a) est la nomenclature du produit G, et (b) est la feuille de gamme des pièces E et F et du produit G. 
@@ -74,4 +73,3 @@ Les nomenclatures fantômes peuvent également être utilisées pour une nomencl
 Dans l'illustration suivante, (a) est la nomenclature du produit G et de la pièce F, et (b) est la feuille de gamme du produit G et de la pièce F.
 
 ![Produit G et pièce F avec feuilles de gamme](media/product-G-part-F-with-route-sheet.png)
-

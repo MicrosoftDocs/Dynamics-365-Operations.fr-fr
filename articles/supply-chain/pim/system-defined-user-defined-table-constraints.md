@@ -1,13 +1,13 @@
 ---
-title: "Contraintes de table définies par l'utilisateur et par le système"
+title: Contraintes de table définies par l'utilisateur et par le système
 description: "Cet article explique les deux types de contraintes de table pour les composants d'un modèle de configuration de produit : définie par l'utilisateur et définie par le système. Les contraintes de table représentent des matrices des combinaisons d'attributs autorisées dans lesquelles chaque ligne définit un ensemble de valeurs d'attribut possibles."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2c29adc87b9ef435b714a46ba1a96ef8226759b6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: cd5fc329877bbb1f8f4ec26191e66914da29d034
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314990"
 ---
-
 # <a name="system-defined-and-user-defined-table-constraints"></a>Contraintes de table définies par l'utilisateur et par le système
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ Avant qu'une contrainte de table puisse prendre effet dans un modèle de configu
 --------
 
 [Concepts clés en matière de modèles de configuration du produit](product-configuration-models.md)
-
 
 
 

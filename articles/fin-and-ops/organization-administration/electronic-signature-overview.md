@@ -1,13 +1,13 @@
 ---
-title: "Signatures électroniques"
-description: "Cet article fournit une vue d'ensemble des signatures électroniques et décrit leur utilisation dans Microsoft Dynamics 365 for Finance and Operations."
+title: Signatures électroniques
+description: Cet article fournit une vue d'ensemble des signatures électroniques et décrit la manière de les utiliser dans Microsoft Dynamics 365 for Finance and Operations.
 author: maertenm
 manager: AnnBe
 ms.date: 08/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325662"
 ---
-
 # <a name="electronic-signatures"></a>Signatures électroniques
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit une vue d'ensemble des signatures électroniques et décrit leur utilisation dans Microsoft Dynamics 365 for Finance and Operations.
+Cet article fournit une vue d'ensemble des signatures électroniques et décrit la manière de les utiliser dans Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="what-is-an-electronic-signature"></a>Qu'est-ce qu'une signature électronique ?
 
@@ -111,4 +110,3 @@ Pour désigner des approbateurs, procédez comme suit :
 1. Sur la page **Options**, sur l'onglet **Comptes**, cliquez sur **Désigner l’approbateur**.
 2. Dans le champ **ID utilisateur approbateur**, sélectionnez l'ID de l'utilisateur qui doit signer les modifications d'un autre utilisateur.
 3. Dans le champ **Signer pour l'ID utilisateur**, sélectionnez l'ID de l'utilisateur dont les modifications doivent être signées.
-

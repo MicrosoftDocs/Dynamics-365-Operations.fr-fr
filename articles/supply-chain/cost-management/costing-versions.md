@@ -1,13 +1,13 @@
 ---
-title: "Versions d'évaluation des coûts"
-description: "Cet article fournit des informations sur les versions d'évaluation des coûts, comment les tenir à jour, et les types de données que vous pouvez y inclure. L'objectif principal d'une version d'évaluation de coûts est de contenir des enregistrements de coûts relatifs aux articles, des catégories de coûts et des formules de calcul pour les coûts indirects."
+title: Versions d'évaluation des coûts
+description: Cet article fournit des informations sur les versions d'évaluation des coûts, comment les tenir à jour, et les types de données que vous pouvez y inclure. L'objectif principal d'une version d'évaluation de coûts est de contenir des enregistrements de coûts relatifs aux articles, des catégories de coûts et des formules de calcul pour les coûts indirects.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d22abca3f55ffbe162060bd75191c480992d485
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330147"
 ---
-
 # <a name="costing-versions"></a>Versions d'évaluation des coûts
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Le motif principal pour l'activation des données de prix d'achat est de défini
 Pour ce faire, vous devez d'abord définir un groupe de calcul de nomenclature qui contient un modèle de prix de revient pour le prix d'achat de l'article, puis affecter le groupe de calcul de nomenclature aux articles achetés. Vous devez ensuite utiliser un modèle de prix de revient pour le groupe de calcul de nomenclature lors des calculs de nomenclature qui utilisent des coûts planifiés afin de calculer le prix de vente des articles fabriqués. 
 
 Les enregistrements de prix d'achat des articles servent également d'informations de référence. En modifiant le statut d'un enregistrement de prix d'achat d'article pour le faire passer de **En attente** à **Actif**, vous pouvez mettre à jour le prix d'achat de base de l'article. Toutefois, le prix d'achat de base n'est pas spécifique à un site et peut être remplacé manuellement. Le prix d'achat de base de l'article sert de prix d'achat par défaut pour les commandes fournisseur.
-
 
 
 

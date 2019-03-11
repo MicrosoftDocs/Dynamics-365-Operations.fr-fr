@@ -1,13 +1,13 @@
 ---
-title: "Mon espace de travail mobile Équipe"
-description: "Cette rubrique fournit des informations sur l'espace de travail mobile Mon équipe, qui permet aux responsables d'afficher leurs rapports directs et leur personnel étendu. Les utilisateurs peuvent également envoyer des récompenses aux personnes de leur chaîne hiérarchique."
+title: Mon espace de travail mobile Équipe
+description: Cette rubrique fournit des informations sur l'espace de travail mobile Mon équipe, qui permet aux responsables d'afficher leurs rapports directs et leur personnel étendu. Les utilisateurs peuvent également envoyer des récompenses aux personnes de leur chaîne hiérarchique.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346914"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Mon espace de travail mobile Équipe
 
 [!include [banner](../includes/banner.md)]
@@ -31,7 +30,7 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Mon éq
 
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Microsoft Dynamics 365 for Unified Operations
 
-## <a name="overview"></a>Vue d'ensemble 
+## <a name="overview"></a>Présentation 
 L'espace de travail mobile **Mon équipe** permet aux responsables d'effectuer les tâches suivantes :
 
 - Afficher la liste des états directs d'un responsable.
@@ -53,8 +52,8 @@ Avant d'utiliser cet espace de travail mobile, les conditions requises suivantes
 <tbody>
 <tr class="odd">
 <td>Un des produits suivants doit être déployés dans votre organisation :
-<ul><li>Microsoft Dynamics 365 for Finance and Operations</li>
-<li>Microsoft Dynamics 365 for Talent</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations</li>
+<li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>
 <td>Administrateur système</td>
@@ -73,12 +72,12 @@ Avant d'utiliser cet espace de travail mobile, les conditions requises suivantes
 
 Téléchargez et installez l'application mobile Dynamics 365 for Unified Operations :
 
--   [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
 1.  Démarrez l'application sur votre appareil mobile.
-2.  Entrez votre URL Microsoft Dynamics 365.
+2.  Saisissez votre URL Microsoft Dynamics 365.
 3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d'identification.
 4.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
@@ -99,4 +98,3 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 1.  Sélectionnez **Envoyer une récompense**. 
 1. Permet d'entrer le texte de la récompense à envoyer. 
 1. Sélectionnez **Terminé**.
-

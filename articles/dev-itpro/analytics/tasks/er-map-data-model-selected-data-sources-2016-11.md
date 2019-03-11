@@ -1,13 +1,13 @@
---- 
-title: "ER Mapper le modèle de données aux sources de données sélectionnées"
-description: "Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de donnés Dynamics 365 for Finance and Operations, Enterprise edition sélectionnées."
+---
+title: ER Mapper le modèle de données aux sources de données sélectionnées
+description: Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de données Dynamics 365 for Finance and Operations, Enterprise Edition sélectionnées.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 249bf3f3806ed43eccf39086bdf9697a3e879c27
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331550"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER Mapper le modèle de données aux sources de données sélectionnées
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de donnés Dynamics 365 for Finance and Operations, Enterprise edition sélectionnées. Cette mise en correspondance de modèles sera utilisée ultérieurement comme source de données dans la configuration du format à utiliser pour gérer des documents de paiement électronique. Dans cet exemple, vous mettez en correspondance un modèle de données pour la société témoin, Litware, Inc. avec des sources de données. Pour effectuer ces étapes,, vous devez tout d'abord appliquer la procédure « Sélectionner des sources de données pour la mise en correspondance de modèles ».
+Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de données Dynamics 365 for Finance and Operations, Enterprise Edition sélectionnées. Cette mise en correspondance de modèles sera utilisée ultérieurement comme source de données dans la configuration du format à utiliser pour gérer des documents de paiement électronique. Dans cet exemple, vous mettez en correspondance un modèle de données pour la société témoin, Litware, Inc. avec des sources de données. Pour effectuer ces étapes,, vous devez tout d'abord appliquer la procédure « Sélectionner des sources de données pour la mise en correspondance de modèles ».
 
 
 ## <a name="open-er-configurations-tree"></a>Ouvrir l'arborescence de configurations d'ER
@@ -146,5 +146,4 @@ Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle A
 4. Cliquez sur OK.
 5. Sélectionnez la version terminée de la configuration actuelle.
     * Notez que la configuration créée est enregistrée comme version 1 terminée.  
-
 

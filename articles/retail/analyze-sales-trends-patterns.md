@@ -1,13 +1,13 @@
 ---
-title: "Analyser les évolutions et modèles des ventes"
-description: "Vous pouvez étudier les évolutions et les modèles des ventes en temps réel dans Microsoft Dynamics 365 for Retail."
+title: Analyser les évolutions et modèles des ventes
+description: Vous pouvez étudier les évolutions et les modèles des ventes en temps réel dans Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelReport, SysReportViewerForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 46aa385d14f913a24e1cc3c4cc2fd00243b30e75
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358000"
 ---
-
 # <a name="analyze-sales-trends-and-patterns"></a>Analyser les évolutions et modèles des ventes
 
 [!include [banner](includes/banner.md)]
 
-Vous pouvez étudier les évolutions et les modèles des ventes en temps réel dans Microsoft Dynamics 365 for Retail.
+Vous pouvez étudier les évolutions et les modèles des ventes en temps réel dans Microsoft Dynamics 365 for Retail.
 
-Dans le cadre de Microsoft Dynamics 365 for Retail, les utilisateurs peuvent étudier les évolutions et les modèles des ventes en temps réel entre différents niveaux de la hiérarchie d'organisation sur une période annuelle à l'aide de l'état prêt à l'emploi **Ventes de canal par année**. Vous pouvez ouvrir cet état à partir de tous les emplacements suivants :
+Dans le cadre de Dynamics 365 for Retail, les utilisateurs peuvent étudier les évolutions et les modèles des ventes en temps réel entre différents niveaux de la hiérarchie d'organisation sur une période annuelle à l'aide de l'état prêt à l'emploi **Ventes de canal par année**. Vous pouvez ouvrir cet état à partir de tous les emplacements suivants :
 
 - Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**
 - Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par année**
@@ -44,4 +43,3 @@ Les utilisateurs peuvent également étudier les évolutions et les modèles des
 - Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**
 - Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**
 - Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par heure**
-

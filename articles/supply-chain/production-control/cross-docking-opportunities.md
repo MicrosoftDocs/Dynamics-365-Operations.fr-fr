@@ -1,13 +1,13 @@
 ---
-title: "Cross-docking des ordres de fabrication aux quais d’expédition"
-description: "Cette rubrique décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d'une ligne de production à un quai de transport sortant."
+title: Cross-docking des ordres de fabrication aux quais d’expédition
+description: Cette rubrique décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d'une ligne de production à un quai de transport sortant.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8691bb6702028070810a1503add33985de5ede3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329020"
 ---
-
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docking des ordres de fabrication aux quais d’expédition
 
 [!include [banner](../includes/banner.md)]
@@ -126,6 +125,5 @@ Une fois que le produit est déclaré terminé à la ligne de production, il est
 ### <a name="additional-information"></a>Informations supplémentaires
 
 -   Le scénario de cross-docking est pris en charge pour les articles contrôlés par lot et de série, avec les dimensions de lot et de numéro de série définies au-dessus de l'emplacement dans la hiérarchie de réservation. 
-
 
 

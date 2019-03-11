@@ -1,13 +1,13 @@
---- 
-title: "Envoyer et approuver la révision du budget du projet"
-description: "Cette procédure fournit des informations sur la révision d'un budget de projet."
+---
+title: Envoyer et approuver la révision du budget du projet
+description: Cette procédure fournit des informations sur la révision d'un budget de projet.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 24f7f0b8238b017cd7e2dab65a1c0be98e425c40
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348662"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>Envoyer et approuver la révision du budget du projet
 
@@ -45,5 +45,4 @@ Cette tâche utilise l'ensemble de données SSI.
 11. Cliquez sur Soumettre.
 12. Dans le champ Commentaire, tapez une valeur.
 13. Cliquez sur Soumettre.
-
 

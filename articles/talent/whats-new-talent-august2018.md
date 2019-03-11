@@ -1,38 +1,37 @@
 ---
-title: "Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (août 2018)"
-description: "Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version actuelle de Microsoft Dynamics 365 for Talent Core HR."
+title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (août 2018)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: cdf0893835c1ee9edd89c43b3c5c842d89e6d526
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304415"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (août 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (août 2018)
 
 [!include [banner](includes/banner.md)]
 
 **Version 8.1.104**
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Talent Core HR.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Talent Core HR.
 
 ## <a name="view-expiring-records-in-manager-self-service"></a>Afficher les enregistrements arrivant à expiration dans Responsable en libre-service
 
@@ -78,7 +77,7 @@ Cette fonctionnalité vous permet de définir la base de la période de régular
 
 Lorsque qu'il est configuré pour utiliser l'une des dates spécifiques à l'employé, le processus d'inscription utilisera la date spécifiée pour calculer les périodes de régularisation. La base de la période de régularisation est également affichée dans l'inscription de l'employé à un plan pour vous aider à comprendre ce qui est utilisé lors du processus de régularisation.
 
-## <a name="microsoft-word-integration"></a>Intégration de Microsoft Word
+## <a name="microsoft-word-integration"></a>Intégration à Microsoft Word
 
 Les modèles de document ont été activés via Core HR. Cette fonctionnalité vous permet de créer des lettres et des états basés sur les modèles Word que vous créez.
 
@@ -88,4 +87,3 @@ Des informations supplémentaires sur cette fonctionnalité sont disponibles dan
 ## <a name="other-fixes"></a>Autres correctifs
 
 Cette version inclut également plusieurs correctifs de bogue, l'ajout de nouvelles entités, des correctifs aux entités existantes et des modifications d'étiquette localisées.
-

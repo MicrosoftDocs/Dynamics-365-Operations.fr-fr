@@ -1,13 +1,13 @@
---- 
-title: "Créer les matières premières (février 2016 uniquement)"
-description: "Cette tâche consiste à créer les composants de produits finis et semi-finis."
+---
+title: Créer les matières premières (février 2016 uniquement)
+description: Cette tâche consiste à créer les composants de produits finis et semi-finis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 869acddf6f7e9754bb4952176ded4b22c74eaffd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 3d77dcc20fe7402af83dd724e7fef848977e5bf8
-ms.openlocfilehash: f6af7b93d8d1d9a6f7474f24177b16e5295e90d6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/08/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327295"
 ---
 # <a name="create-raw-materials-february-2016-only"></a>Créer les matières premières (février 2016 uniquement)
 
@@ -155,5 +155,4 @@ Cette tâche consiste à créer les composants de produits finis et semi-finis. 
 25. Cliquez sur Activer le ou les prix en attente.
 26. Fermez la page.
 27. Fermez la page.
-
 

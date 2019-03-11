@@ -1,13 +1,13 @@
 ---
 title: Emplacement de stockage
-description: "Les emplacements de stockage sont utilisés avec l'entreposage de base (WMS I) pour déterminer où les articles sont enregistrés et où les articles sont prélevés dans un entrepôt WMS I."
+description: Les emplacements de stockage sont utilisés avec l'entreposage de base (WMS I) pour déterminer où les articles sont enregistrés et où les articles sont prélevés dans un entrepôt WMS I.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSLocation
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 789272e1ee02c7f5dbab4e325cefe56425a3d1a7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 11be82682fc870cb21959d9e531ff8bf67993fa3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350801"
 ---
-
 # <a name="inventory-locations"></a>Emplacement de stockage
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ Il est possible de copier des emplacements d'un entrepôt à un autre et de cré
 --------
 
 [Créer une structure d'entrepôt (guide de tâche)](tasks/create-new-warehouse-layout.md)
-

@@ -1,13 +1,13 @@
---- 
-title: "Concevoir des configurations pour générer des états dans des formats Office avec des images intégrées"
-description: "Les étapes de cette rubrique donnent des informations sur la création de configurations d'états électroniques qui génèrent des documents électroniques aux formats Microsoft Office (Excel et Word) qui contiennent des images intégrées."
+---
+title: Concevoir des configurations pour générer des états dans des formats Office avec des images intégrées
+description: Les étapes de cette rubrique donnent des informations sur la création de configurations d'états électroniques qui génèrent des documents électroniques aux formats Microsoft Office (Excel et Word) qui contiennent des images intégrées.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1fb02e561f6792c57b924ba64a5ca3d3974289ee
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358092"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Concevoir des configurations pour générer des états dans des formats Office avec des images intégrées
 
@@ -34,7 +34,7 @@ Pour réaliser les étapes de cette procédure, commencez par effectuer la proc�
  3. Cliquez sur Configurations des états.  
  
 ## <a name="add-a-new-er-model-configuration"></a>Ajouter une nouvelle configuration du modèle ER  
- 1. Au lieu de créer un modèle, vous pouvez charger le fichier de configuration du modèle ER (Modèle pour les chèques.xml) que vous avez enregistré précédemment. Ce fichier contient l'exemple de modèle de données pour les chèques de paiement et la mise en correspondance du modèle de données avec les composants de données de l'application Dynamics 365 for Operations.   
+ 1. Au lieu de créer un modèle, vous pouvez charger le fichier de configuration du modèle ER (Modèle pour les chèques.xml) que vous avez enregistré précédemment. Ce fichier contient l'exemple de modèle de données pour les chèques de paiement et la mise en correspondance du modèle de données avec les composants de données de l'application Dynamics 365 for Operations.   
  2. Dans l'organisateur Versions, cliquez sur Exchange.   
  3. Cliquez sur Charger depuis le fichier XML.  
  4. Cliquez sur Parcourir, puis sélectionnez Modèle pour les chèques.xml.   
@@ -91,4 +91,3 @@ Pour réaliser les étapes de cette procédure, commencez par effectuer la proc�
  30. Sélectionnez Oui dans le champ Autoriser la création d'une note préliminaire sur des comptes bancaires inactifs.  
  31. Cliquez sur Enregistrer.  
  32. Fermez la page.  
-

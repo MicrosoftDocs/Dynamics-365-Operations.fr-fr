@@ -1,13 +1,13 @@
 ---
 title: Vue d'ensemble des virements SEPA
-description: "Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d'une société ou d'une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement."
+description: Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d'une société ou d'une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363773"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>Vue d'ensemble des virements SEPA
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ L'EPC, qui est constitué de banques européennes, développe les infrastructure
 Le virement SEPA est un paiement d'une société ou d'une personne à une société ou une autre personne. Les paiements doivent être en euro, et doivent inclure le numéro de compte international (IBAN) et le code d'identificateur de la banque (BIC, Bank Identifier Code) pour les deux parties. (Le code BIC est également appelé SWIFT (Society for Worldwide Interbank Financial Telecommunication \[SWIFT\].) En outre, les coûts des transactions doivent être partagés entre les deux parties. Les virements bancaires qui surviennent entre les pièces doivent utiliser des fichiers XML conformes aux normes de traitement des paiements ISO 20022 et au format XML, tels qu'ils sont spécifiés par le CEP.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Comment est implémenté un virement ?
-Le format de virement pour les pays européens est implémenté à l'aide de la fonctionnalité Génération d'états électroniques (ER) et de modes de paiement dans Microsoft Dynamics 365 for Finance and Operations. Quelques formats de virement utilisés dans d'autres régions utilisent toujours l'ancienne structure de paiement. Parmi de nombreux autres formats, il existe douze formats de virement ISO 20022 disponibles. Ces formats d'exportation sont conformes à la norme SEPA ISO 20022 XML. Ils sont utilisés pour générer des transferts de paiement non en euros pour les pays ou régions où ils sont utilisés et des paiements en euros comme spécifié dans la version 8.2 du Règlement des schémas de virement SEPA publié par l'EPC. Avant de pouvoir implémenter les virements, vous devez contacter votre banque pour obtenir le logiciel requis afin de télécharger les fichiers d'opérations bancaires électroniques. Vous l'utiliserez pour transférer les fichiers XML contenant les ordres de paiement à votre banque.
+Le format de virement pour les pays européens est implémenté à l'aide de la fonctionnalité Génération d'états électroniques (ER) et de modes de paiement dans Microsoft Dynamics 365 for Finance and Operations. Quelques formats de virement utilisés dans d'autres régions utilisent toujours l'ancienne structure de paiement. Parmi de nombreux autres formats, il existe douze formats de virement ISO 20022 disponibles. Ces formats d'exportation sont conformes à la norme SEPA ISO 20022 XML. Ils sont utilisés pour générer des transferts de paiement non en euros pour les pays ou régions où ils sont utilisés et des paiements en euros comme spécifié dans la version 8.2 du Règlement des schémas de virement SEPA publié par l'EPC. Avant de pouvoir implémenter les virements, vous devez contacter votre banque pour obtenir le logiciel requis afin de télécharger les fichiers d'opérations bancaires électroniques. Vous l'utiliserez pour transférer les fichiers XML contenant les ordres de paiement à votre banque.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Quels formats de virement sont actuellement pris en charge dans Finance and Operations ?
 Vous devez toujours aller dans la bibliothèque d'actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d'actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers une rubrique qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.
@@ -124,7 +123,6 @@ Le numéro de compte bancaire international (IBAN) et le code identificateur de 
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Comment puis-je communiquer un fichier de paiement à la banque ?
 Lorsque vous générez des paiements, le fichier de paiement est généré, et vous êtes invité à l'enregistrer de votre navigateur Web dans n'importe quel emplacement disponible. L'étape suivante consiste à envoyer le fichier XML à votre banque. Ce processus varie d'une banque à l'autre. Suivez les instructions de votre banque pour envoyer les fichiers à la banque aux fins de traitement.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Installer le concepteur de mise en page du Point de vente au détail (PDV)"
-description: "Vous pouvez utiliser le concepteur en un seul clic pour concevoir différentes mises en page Retail Modern POS (MPOS) et PDV Cloud, en mode paysage ou en mode portrait, pour les magasins, les caisses enregistreuses, les caissiers, et les responsables."
+title: Installer le concepteur de mise en page du Point de vente au détail (PDV)
+description: Vous pouvez utiliser le concepteur en un seul clic pour concevoir différentes mises en page Retail Modern POS (MPOS) et PDV Cloud, en mode paysage ou en mode portrait, pour les magasins, les caisses enregistreuses, les caissiers, et les responsables.
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4c647f49101dcbbe7dd1feac2dd9aad5c6dd5bcc
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327640"
 ---
-
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Installer le concepteur de mise en page du Point de vente au détail (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -37,7 +36,7 @@ Le l'interface de conception graphique de MPOS ou PDV Cloud est contrôlée par 
 
 ## <a name="install-the-one-click-designer"></a>Installer le concepteur en un seul clic
 
-1. Dans Microsoft Dynamics 365 for Retail, utilisez le menu dans le volet supérieur gauche pour accéder à **Commerce et** **vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage** &gt; **PDV** &gt; **Mises en page de l'écran**.
+1. Dans Microsoft Dynamics 365 for Retail, utilisez le menu dans le volet supérieur gauche pour accéder à **Vente au détail** **et commerce** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **PDV** &gt; **Mises en page de l'écran**.
 2. Sélectionnez n'importe quelle mise en page ayant un type d'application **Modern POS pour Windows** ou **PDV Cloud**, puis cliquez **Concepteur de mise en page**.
 3. Dans la barre de Notification qui apparaît au bas de la fenêtre d'Internet Explorer, cliquez sur **Ouvrir** pour installer le concepteur en un seul clic. (La barre de notification peut apparaître dans un emplacement différent dans d'autres navigateurs.)
 4. Dans la zone de message **Exécution d'application - Avertissement de sécurité** qui s'affiche, cliquez sur **Exécuter** pour installer l'hôte du concepteur Retail. Un indicateur de progression indique la progression de l'installation.
@@ -53,15 +52,14 @@ Le l'interface de conception graphique de MPOS ou PDV Cloud est contrôlée par 
     **Solutions :**
 
     - Dans Internet Explorer, assurez-vous que le bloqueur de fenêtres publicitaires est désactivé pour ce site. Cliquez sur **Paramètres** &gt; **Options** &gt; **Confidentialité** &gt; **Rechercher le bloqueur de fenêtres publicitaires**, et modifiez le paramètre, si une modification est requise.
-    - Dans Internet Explorer, ajoutez l'URL de Dynamics 365 for Retail à vos sites de confiance. Cliquez sur **Paramètres** &gt; **Options** &gt; **Sécurité** &gt; **Sites de confiance** &gt; **Sites** &gt; **Ajouter**.
+    - Dans Internet Explorer, ajoutez l'URL Dynamics 365 for Retail à vos sites de confiance. Cliquez sur **Paramètres** &gt; **Options** &gt; **Sécurité** &gt; **Sites de confiance** &gt; **Sites** &gt; **Ajouter**.
 
 - Le programme ne démarre pas, et vous recevez l'instruction de contacter le fournisseur.
 
-    **Solution :** Dans Internet Explorer, ajoutez l'URL de Dynamics 365 for Retail à vos sites de confiance. Cliquez sur **Paramètre** &gt; **Options** &gt; **Sécurité** &gt; **Sites de confiance** &gt; **Sites** &gt; **Ajouter**.
+    **Solution :** Dans Internet Explorer, ajoutez l'URL Dynamics 365 for Retail à vos sites de confiance. Cliquez sur **Paramètre** &gt; **Options** &gt; **Sécurité** &gt; **Sites de confiance** &gt; **Sites** &gt; **Ajouter**.
 
 **Problème connu :** Le concepteur ne fonctionne pas correctement dans les navigateurs Google Chrome et Mozilla Firefox. Nous œuvrons à corriger ce problème.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Configurer, télécharger, installer, et activer Retail Modern POS](retail-modern-pos-device-activation.md)
-
+[Configurer, télécharger, installer et activer Retail Modern POS](retail-modern-pos-device-activation.md)

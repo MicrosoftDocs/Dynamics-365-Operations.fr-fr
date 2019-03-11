@@ -1,13 +1,13 @@
 ---
-title: "Intégration de la planification budgétaire avec d'autres modules"
-description: "Les plans budgétaires peuvent être générés à partir de plusieurs ressources différentes : Les éléments de base du processus périodique sont identiques pour toutes les ressources."
+title: Intégration de la planification budgétaire avec d'autres modules
+description: 'Les plans budgétaires peuvent être générés à partir de plusieurs ressources différentes : Les éléments de base du processus périodique sont identiques pour toutes les ressources.'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 97c33a222d31e690d2a395f972c0ddc4b89e8fdb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353032"
 ---
-
 # <a name="budget-planning-integration-with-other-modules"></a>Intégration de la planification budgétaire avec d'autres modules
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ Sélectionnez une ligne, puis cliquez sur le bouton **Lignes de plan budgétaire
 Utilisez les boutons **Prévision d'approvisionnement** et **Prévision de la demande** pour exécuter ces requêtes. Dans les deux cas, la requête recherche des lignes de prévision qui peuvent avoir créé les lignes du plan budgétaire. 
 
 Les états supplémentaires disponibles sont notamment l'état **Postes de prévision par plan budgétaire**. Cet état est particulièrement utile si vous souhaitez déterminer si un poste a été correctement affecté aux plans budgétaires.
-
 
 
 

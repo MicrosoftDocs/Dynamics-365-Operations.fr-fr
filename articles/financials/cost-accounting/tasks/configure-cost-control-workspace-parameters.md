@@ -1,13 +1,13 @@
---- 
-title: "Configurer les paramètres de l'espace de travail de contrôle des coûts"
-description: "Cette procédure permet de configurer l'espace de travail Contrôle des coûts afin que les gestionnaires à différents niveaux d'une organisation puissent obtenir des informations sur leurs objets de coût, tels que les centres de coût et les groupes de produits."
+---
+title: Configurer les paramètres de l'espace de travail de contrôle des coûts
+description: Cette procédure permet de configurer l'espace de travail Contrôle des coûts afin que les gestionnaires à différents niveaux d'une organisation puissent obtenir des informations sur leurs objets de coût, tels que les centres de coût et les groupes de produits.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f9c50bb0ab7f1b0afadfabb687932f96ab6e689
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8ede40951d08e159358b713fc3dde46576a1b4e3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308573"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurer les paramètres de l'espace de travail de contrôle des coûts
 
@@ -57,5 +57,4 @@ Cette procédure permet de configurer l'espace de travail Contrôle des coûts a
 26. Dans le champ Période de calendrier fiscal, entrez ou sélectionnez une valeur.
 27. Dans le champ Nœud de hiérarchie des dimensions d'objet de coût, entrez ou sélectionnez une valeur.
     * Après avoir sélectionné une hiérarchie Dimension d'objet de coût, développez la hiérarchie Dimension d'élément de coût pour afficher les valeurs de coût souhaitées. Par exemple, vous pouvez développer la hiérarchie des frais généraux de fabrication pour afficher la valeur.  
-
 

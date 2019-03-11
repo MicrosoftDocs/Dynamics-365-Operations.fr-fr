@@ -1,13 +1,13 @@
 ---
 title: Importer les taux de change des devises
-description: "Si une entité juridique a reçu des factures dans des devises étrangères, il est nécessaire de convertir la devise étrangère en devise locale. Cela signifie que des taux de change à jour pour les différentes devises sont requis. Cette rubrique donne un aperçu des paramètres requis et du traitement pour l'importation de taux de référence de change publiés sur Internet par les fournisseurs de taux, tels que la Banque centrale européenne et la Banque centrale de Russie."
+description: Si une entité juridique a reçu des factures dans des devises étrangères, il est nécessaire de convertir la devise étrangère en devise locale. Cela signifie que des taux de change à jour pour les différentes devises sont requis. Cette rubrique donne un aperçu des paramètres requis et du traitement pour l'importation de taux de référence de change publiés sur Internet par les fournisseurs de taux, tels que la Banque centrale européenne et la Banque centrale de Russie.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333390"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Importer les taux de change des devises
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Si une entité juridique a reçu des factures dans des devises étrangères, il 
 Les sections suivantes décrivent le flux global d'informations utilisé pour le paramétrage et le traitement de l'importation des taux de change étrangers.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Configurer un fournisseur de taux de change
-Avant de pouvoir importer des taux de change, vous devez paramétrer les informations requises par les fournisseurs qui offrent des taux de change. Utilisez la page **Configurer les fournisseurs de taux de change** pour sélectionner les fournisseurs de taux de change. Certains fournisseurs de taux de change sont inclus dans les données de démonstration dans Microsoft Dynamics 365 for Finance and Operations. Le tableau suivant décrit les contrôles de cette page.
+Avant de pouvoir importer des taux de change, vous devez paramétrer les informations requises par les fournisseurs qui offrent des taux de change. Utilisez la page **Configurer les fournisseurs de taux de change** pour sélectionner les fournisseurs de taux de change. Certains fournisseurs de taux de change sont inclus avec les données de démonstration dans Microsoft Dynamics 365 for Finance and Operations. Le tableau suivant décrit les contrôles de cette page.
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +55,6 @@ Vous pouvez importer des taux de change de la source de fournisseurs de taux de 
 | **Créer les paires de devises nécessaires**    | Cette case à cocher gère la création automatique de paire de devises, si les paires de devises qui sont importées n'existent pas. Cette option n'est peut-être pas disponible pour certains fournisseurs.                                                                                                                                                                                               |
 | **Remplacer les taux de change existants**   | Cette case à cocher permet de gérer la mise à jour du taux de change existant pour une paire de devises lorsque le taux de change pour une date spécifique existe déjà. Si vous n'activez pas cette case à cocher, le taux de change des dates spécifiques n'est pas importé si un autre taux de change existe déjà.                                                                                       |
 | **Éviter l'importation un jour de fête nationale** | Cette case à cocher gère l'importation du taux de change pour une date qui est un jour férié. Par exemple, si vous activez cette case à cocher et utilisez la banque centrale européenne comme fournisseur de taux de change, le système ne met pas le taux de change à jour sur un jour férié associé à l'entité juridique actuelle. Cette option n'est peut-être pas disponible pour certains fournisseurs. |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV"
-description: "Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 for Retail."
+title: Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV
+description: Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320441"
 ---
-
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV
 
 [!include [banner](includes/banner.md)]
@@ -34,9 +33,9 @@ ms.lasthandoff: 01/04/2019
 > [!NOTE]
 > Nous supprimons la version actuelle du service de recommandation de produit car nous remodelons cette fonction avec un meilleur algorithme et de nouvelles fonctionnalités orientées détail. Pour plus d'informations voir [Fonctions supprimées ou obsolètes](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).
 
-Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 for Retail.
+Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 for Retail.
 
-Vous pouvez afficher les recommandations de produit sur votre périphérique de PDV lorsque vous utilisez Microsoft Dynamics 365 for Retail. Les *Recommandations* sont des articles susceptibles d'intéresser vos clients en fonction de leur historique d'achat, des articles de leur liste de souhaits et des articles achetés par d'autres clients en ligne ou dans des magasins traditionnels. Pour afficher les recommandations de produit, vous devez ajouter un contrôle à l'écran de transaction à l'aide du concepteur de mise en page de l'écran.
+Vous pouvez afficher les recommandations de produit sur votre périphérique de PDV lorsque vous utilisez Microsoft Dynamics 365 for Retail. Les *Recommandations* sont des articles susceptibles d'intéresser vos clients en fonction de leur historique d'achat, des articles de leur liste de souhaits et des articles achetés par d'autres clients en ligne ou dans des magasins traditionnels. Pour afficher les recommandations de produit, vous devez ajouter un contrôle à l'écran de transaction à l'aide du concepteur de mise en page de l'écran.
 
 ## <a name="open-layout-designer"></a>Ouvrir le concepteur de mise en page de l'écran
 
@@ -67,7 +66,7 @@ Deux options de configuration sont disponibles. Choisissez l'option qui convient
     [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Cliquez sur **X** pour enregistrer et fermer le concepteur de mise en page.
-4. Dans Dynamics 365 for Retail, accédez à **Vente au détail** &gt; **Informatique au détail** &gt; **Programmes de distribution**.
+4. Dans Dynamics 365 for Retail, accédez à **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 5. Dans la liste, sélectionnez  **Caisses enregistreuses 1090**.
 6. Cliquez sur **Exécuter maintenant**.
 
@@ -88,11 +87,10 @@ Deux options de configuration sont disponibles. Choisissez l'option qui convient
 7. Dans le champ **Image**, sélectionnez l'image à afficher sous l'onglet.
 8. Cliquez sur **OK**. Le nouvel onglet apparaît dans le groupe de boutons.
 9. Cliquez sur **X** pour enregistrer et fermer le concepteur de mise en page.
-10. Dans Dynamics 365 for Retail, accédez à **Vente au détail** &gt; **Informatique au détail** &gt; **Programmes de distribution**.
+10. Dans Dynamics 365 for Retail, accédez à **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 11. Dans la liste, sélectionnez **Caisses enregistreuses 1090**.
 12. Cliquez sur **Exécuter maintenant**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble des recommandations produit personnalisées](personalized-product-recommendations.md)
-

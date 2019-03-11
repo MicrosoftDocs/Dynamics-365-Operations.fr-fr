@@ -1,13 +1,13 @@
---- 
-title: "ER Créer des configurations pour importer des données d'un fichier externe"
-description: "Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut concevoir des configurations de format pour la génération d'états électroniques (ER) pour importer des données dans une application Dynamics 365 for Finance and Operations, Enterprise Edition à partir d'un fichier externe."
+---
+title: ER Créer des configurations pour importer des données d'un fichier externe
+description: Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut concevoir des configurations de format pour la génération d'états électroniques (ER) pour importer des données dans une application Dynamics 365 for Finance and Operations, Enterprise Edition à partir d'un fichier externe.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6675f35c9ec163a620e63af32ecdbff02197d3c3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "337369"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Créer des configurations pour importer des données d'un fichier externe
 
@@ -36,7 +36,7 @@ Les étapes suivantes expliquent comment un utilisateur dont le rôle est Admini
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc. est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».   
 2. Cliquez sur Configurations des états.
-    * Plutôt que de créer un modèle pour prendre en charge l'importation de données, chargez le fichier, 1099model.xml, que vous avez précédemment téléchargé. Ce fichier contient le modèle personnalisé de données des transactions des fournisseurs. Ce modèle de données est mappé à des composants de données Dynamics 365 for Finance and Operations, Enterprise Edition, qui sont dans l'entité de données AOT.   
+    * Plutôt que de créer un modèle pour prendre en charge l'importation de données, chargez le fichier, 1099model.xml, que vous avez précédemment téléchargé. Ce fichier contient le modèle personnalisé de données des transactions des fournisseurs. Ce modèle de données est mis en correspondance avec les composants de données de Dynamics 365 for Finance and Operations, Enterprise Edition situés dans l'entité de données AOA.   
 3. Cliquez sur Échanger.
 4. Cliquez sur Charger depuis le fichier XML.
     * Cliquez sur Parcourir et accédez au fichier 1099model.xml que vous avez précédemment téléchargé.  
@@ -177,17 +177,16 @@ Les étapes suivantes expliquent comment un utilisateur dont le rôle est Admini
 18. Fermez la page.
 19. Fermez la page.
 20. Cliquez sur Modifier.
-    * Si vous avez installé le correctif « 4012871 Prise en charge des mises en correspondance des modèles GER dans des configurations séparées avec la possibilité de spécifier différents types de conditions préalables afin de les déployer dans différentes versions de Dynamics 365 for Finance and Operations, Enterprise edition » (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), exécutez l'étape suivante « Activer l'indicateur Valeur par défaut de la mise en correspondance des modèles pour la configuration de format entrée ». Sinon, passez à l'étape suivante.  
+    * Si vous avez installé le correctif « Support 4012871 de mises en correspondance des modèles GER dans des configurations séparées avec la possibilité de spécifier différents types de conditions préalables afin de les déployer dans différentes versions de Dynamics 365 for Finance and Operations, Enterprise Edition » (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), exécutez l'étape suivante « Activer l'indicateur "Valeur par défaut de la mise en correspondance des modèles" pour la configuration de format entrée ». Sinon, passez à l'étape suivante.  
 21. Sélectionnez Oui dans le champ Valeur par défaut de la mise en correspondance des modèles.
 22. Dans l'arborescence, sélectionnez « Modèles de paiements de déclaration des honoraires »
 23. Cliquez sur Concepteur.
 24. Cliquez sur Mettre en correspondance le modèle à la source de données.
 25. Cliquez sur Exécuter.
-    * Si vous avez installé le correctif, 4012871 Prise en charge des mises en correspondance des modèles GER dans des configurations séparées avec la possibilité de spécifier différents types de conditions préalables afin de les déployer dans différentes versions de Dynamics 365 for Finance and Operations, Enterprise edition (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), sélectionnez la mise en correspondance des modèles préférée dans le champ de recherche. Si vous n'avez pas encore installé le correctif, passez à l'étape suivante, la mise en correspondance ayant déjà été sélectionnée par la définition de la configuration de format par défaut.  
+    * Si vous avez installé le correctif, 4012871 Prise en charge des mises en correspondance des modèles GER dans des configurations séparées avec la possibilité de spécifier différents types de conditions préalables afin de les déployer dans différentes versions de Dynamics 365 for Finance and Operations, Enterprise Edition (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), sélectionnez la mise en correspondance des modèles préférée dans le champ de recherche. Si vous n'avez pas encore installé le correctif, passez à l'étape suivante, la mise en correspondance ayant déjà été sélectionnée par la définition de la configuration de format par défaut.  
     * Si vous n'avez pas installé le correctif, KB 4012871, notez que la boîte de dialogue contient une question de mise en correspondance de modèles supplémentaire utilisée pour analyser le fichier importé. Les données sont alors déplacées de la boîte de dialogue vers le modèle de données. Actuellement, vous pouvez choisir la mise en correspondance de format à utiliser en fonction du type de fichier que vous envisagez d'importer.  
     * Si vous envisagez d'appeler cette mise en correspondance de modèles à partir d'un point de Dynamics 365 for Finance and Operations, Enterprise Edition qui est spécialement conçu pour l'action, la destination ER et la mise en correspondance des formats doivent être marquées comme faisant partie de l'intégration.  
 26. Cliquez sur Annuler.
 27. Fermez la page.
 28. Fermez la page.
-
 

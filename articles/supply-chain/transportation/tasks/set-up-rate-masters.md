@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer des tables maître des taux"
-description: "Cette procédure décrit le processus de paramétrage des données principales de taux."
+---
+title: Paramétrer des tables maître des taux
+description: Cette procédure décrit le processus de paramétrage des données principales de taux.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 462bfce89fa77c8830a93a22b0dd6c8c8fb2cde6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b7c02e5a6f5eeee270ca4b6f91e90f7799c2ca11
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344913"
 ---
 # <a name="set-up-rate-masters"></a>Paramétrer des tables maître des taux
 
@@ -83,5 +83,4 @@ Cette procédure décrit le processus de paramétrage des données principales d
     * Spécifiez le code postal à partir duquel cette affectation de base de taux doit être valide.    
 10. Dans le champ Région du pays d'enlèvement, saisissez « USA ».
 11. Cliquez sur Enregistrer.
-
 

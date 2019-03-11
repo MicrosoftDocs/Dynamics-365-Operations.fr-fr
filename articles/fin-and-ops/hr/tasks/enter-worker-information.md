@@ -1,13 +1,13 @@
---- 
+---
 title: Saisir les informations du collaborateur
-description: "Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées."
+description: Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject, HRMMassHireLine
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0d850f271a3add191fcdc8ff5624bebbc6c6327f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339554"
 ---
 # <a name="enter-worker-information"></a>Saisir les informations du collaborateur
 
@@ -44,5 +44,4 @@ Une fois que le recruteur a créé un projet d'embauche collective et généré 
 7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 8. Dans la liste, désactiver la ligne sélectionnée.
     * Sélectionnez le poste de projet suivant et continuez à entrer les informations pour chaque personne que vous engagez.  
-
 

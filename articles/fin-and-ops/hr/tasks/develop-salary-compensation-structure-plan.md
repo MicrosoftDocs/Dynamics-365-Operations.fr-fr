@@ -1,13 +1,13 @@
---- 
-title: "Développer le plan et la structure du salaire/de la rémunération"
-description: "Ce guide de tâche décrit le processus de création d'un régime de rémunération fixe et d'activation des employés à inscrire dans le plan via des règles d'admissibilité."
+---
+title: Développer le plan et la structure du salaire/de la rémunération
+description: Ce guide de tâche décrit le processus de création d'un régime de rémunération fixe et d'activation des employés à inscrire dans le plan via des règles d'admissibilité.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332769"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Développer le plan et la structure du salaire/de la rémunération
 
@@ -74,5 +74,4 @@ Ce guide de tâche décrit le processus de création d'un régime de rémunérat
     * Sélectionnez les critères que l'employé doit remplir pour prétendre à l'enregistrement dans un régime de rémunération. Les critères peuvent inclure un département, un syndicat, un emplacement (région de rémunération), une tâche, une fonction, un type de tâche ou un niveau de rémunération. L'employé doit remplir tous les critères spécifiés pour être admissible dans un régime de rémunération. Si aucun critère n'est spécifié, tous les employés sont admissibles pour le régime de rémunération. Si un employé ne répond pas aux critères spécifiés dans la règle d'admissibilité, ou si une règle d'admissibilité n'a pas été spécifiée pour un régime de rémunération, ce régime de rémunération n'apparaît pas dans la recherche lorsque vous créez un enregistrement de rémunération fixe pour un employé.  
 7. Fermez la page.
 8. Fermez la page.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Planification des tâches de kanban"
-description: "Cette procédure se concentre sur des tâches de kanban du processus de planification pour une cellule de travail spécifique."
+---
+title: Planification des tâches de kanban
+description: Cette procédure se concentre sur des tâches de kanban du processus de planification pour une cellule de travail spécifique.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookupMultiSelectGrid, KanbanBoardScheduleJobForward
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5170fecf0190591d74f45d35fecc4472e7f5e900
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359541"
 ---
 # <a name="schedule-kanban-jobs"></a>Planification des tâches de kanban
 
@@ -61,5 +61,4 @@ Cette procédure se concentre sur des tâches de kanban du processus de planific
 6. Cliquez sur Programme.
     * Notez que les deux tâches sont ajoutées à la période souhaitée.  
     * Dans la section Capacité de la période, vous pouvez afficher la charge pour chaque période. Le champ Consommation affiche la consommation prévue pendant cette période. Si la consommation prévue est supérieure à la capacité disponible pendant cette période, la consommation surchargée sera sélectionnée.  
-
 

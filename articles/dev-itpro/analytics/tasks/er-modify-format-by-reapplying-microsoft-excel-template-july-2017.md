@@ -1,13 +1,13 @@
---- 
-title: "Modifier des formats en réappliquant des modèles Excel"
-description: "Pour réaliser les étapes de cette procédure, vous devez d'abord effectuer la procédure, ER - Concevoir une configuration pour générer des états au format OPENXML »."
+---
+title: Modifier des formats en réappliquant des modèles Excel
+description: Pour réaliser les étapes de cette procédure, vous devez d'abord effectuer la procédure, ER - Concevoir une configuration pour générer des états au format OPENXML ».
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327111"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Modifier des formats en réappliquant des modèles Excel
 
@@ -83,5 +83,4 @@ Cette procédure explique comment modifier une configuration du format ER en ré
 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Utiliser la version brouillon modifiée du format ER pour le traitement du journal des paiements
     * Examinez la feuille de calcul créée, notamment les nouveaux détails des lignes de paiement – date de paiement.  
-
 

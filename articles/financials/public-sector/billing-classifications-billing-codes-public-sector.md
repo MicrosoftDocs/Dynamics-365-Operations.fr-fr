@@ -1,13 +1,13 @@
 ---
 title: Classifications de facturation et codes facturation dans le secteur public
-description: "Les organisations du secteur public peuvent utiliser les classifications de facturation et des codes de facturation pour gérer les factures financières."
+description: Les organisations du secteur public peuvent utiliser les classifications de facturation et des codes de facturation pour gérer les factures financières.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustBillingClassification, CustBillingCode, CustCustomField
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3c6d7655461e12e819a2ddc498000ab0a5fe09f1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8cf735a8ff33833aac748d17e33d4de5740ed875
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370772"
 ---
-
 # <a name="billing-classifications-and-billing-codes-in-the-public-sector"></a>Classifications de facturation et codes facturation dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ Lorsque les codes facturation doivent être mis à jour, il n'est pas nécessair
 
 ## <a name="can-i-assign-the-same-billing-code-to-more-than-one-billing-classification"></a>Puis-je affecter le même code facturation à plusieurs classification de facturation ?
 Non, mais il existe tout de même une manière d'obtenir les résultats dont vous avez besoin. Supposons que votre organisation utilise une classification de facturation distincte pour chaque département. Trois de ces départements ont besoin d'un code facturation pour des contrats de licence. Vous ne pouvez pas affecter un code facturation unique « Contrat de licence » à trois classifications de facturation, mais vous pouvez créer un ensemble de trois codes facturation identiques, puis en affecter un à chaque département.
-
 
 
 

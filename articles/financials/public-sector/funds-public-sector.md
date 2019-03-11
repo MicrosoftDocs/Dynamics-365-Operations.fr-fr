@@ -1,13 +1,13 @@
 ---
 title: Fonds dans le secteur public
-description: "Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l'utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière."
+description: Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l'utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerFund, LedgerFundType
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 96f94ac9c201aec5767fd29032126eeee9a04915
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6a56254e04ce600a8674c7e82ffa09c7882affd1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370819"
 ---
-
 # <a name="funds-in-the-public-sector"></a>Fonds dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Le Governmental Accounting Standards Board (GASB) recommande un ensemble de prin
     -   Fonds d'affectation spéciale
     -   Fonds en fidéicommis
 
-Les trois classes de fonds GAAP, plus une classe **Mémo**, sont des options prédéfinies dans Microsoft Dynamics 365 for Finance and Operations. 
+Les trois classes de fonds GAAP, plus une classe **Mémo**, sont des options prédéfinies dans Microsoft Dynamics 365 for Finance and Operations. 
 
 Les types de fonds sont définis en fonction des besoins de l'organisation. Dans la plupart des cas, vous paramètrerez les huit types de fonds GAAP. Les types de fonds regroupent les fonds à des fins de suivi et de génération d'états fiscaux détaillés. Si de nombreux fonds peuvent être inclus dans un seul état de niveau supérieur, chaque fonds reste toutefois une entité fiscale et comptable distincte disposant d'une comptabilité, de comptes de résultats et de bilans qui lui sont propres. 
 
@@ -106,7 +105,6 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Création d'un type de fonds](tasks/create-fund-type-public-sector.md)
 
 [Paramétrer un fonds](tasks/set-up-fund-public-sector.md)
-
 
 
 

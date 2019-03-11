@@ -1,13 +1,13 @@
 ---
-title: "Délai d'émission de facture"
-description: "Cet article explique comment définir les paramètres pour calculer les dates d'échéance d'émission des factures client et des factures fournisseur dans l'Union européenne (UE)."
+title: Délai d'émission de facture
+description: Cet article explique comment définir les paramètres pour calculer les dates d'échéance d'émission des factures client et des factures fournisseur dans l'Union européenne (UE).
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 942b48170d7c164e16d2b8f5544b8777668adab3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370774"
 ---
-
 # <a name="invoice-issue-deadline"></a>Délai d'émission de facture
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Utilisez la page **Paramétrer le calcul pour la date d'échéance d'émission d
 Vous pouvez également définir des paramètres de contrôle de date pour garantir que les factures client et les avoirs pour les transactions client sont générés dans la période spécifiée, une fois la livraison effectuée. Vous pouvez trouver ces paramètres dans la zone **Contrôle des dates de facture** de la page **Paramètres des ventes**.
 
 ## <a name="example"></a>Exemple
-Pour paramétrer Microsoft Dynamics 365 for Finance and Operations pour calculer les dates d'échéance d'émission des factures pour les expéditions intra-européennes au 15ème jour du mois suivant une fois la livraison effectuée, créez un code intervalle de dates et une règle de calcul avec les paramètres suivants :
+Pour paramétrer Microsoft Dynamics 365 for Finance and Operations pour calculer les dates d'échéance d'émission des factures pour les expéditions intra-européennes au 15ème jour du mois suivant une fois la livraison effectuée, créez un code intervalle de dates et une règle de calcul avec les paramètres suivants :
 
 ### <a name="date-interval-code"></a>Code intervalle de dates
 
@@ -118,7 +117,6 @@ Si vous n'avez pas accès aux pages qui vous permettent d'effectuer les tâches 
 </tr>
 </tbody>
 </table>
-
 
 
 

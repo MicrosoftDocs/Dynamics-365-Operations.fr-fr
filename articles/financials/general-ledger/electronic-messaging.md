@@ -1,33 +1,32 @@
 ---
-title: "Messagerie électronique"
-description: "Cette rubrique fournit une vue d'ensemble et des informations de paramétrage pour la messagerie électronique dans Microsoft Dynamics 365 for Finance and Operations."
+title: Messagerie électronique
+description: Cette rubrique fournit des informations générales et de configuration pour la messagerie électronique dans Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357931"
 ---
-
-# <a name="electronic-messaging"></a>Messagerie électronique
+# <a name="electronic-messaging"></a>Messages électroniques
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble et des informations de paramétrage pour la messagerie électronique dans Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique fournit des informations générales et de configuration pour la messagerie électronique dans Microsoft Dynamics 365 for Finance and Operations.
 
 Récemment, les gouvernements et autorités législatives de différents pays/régions du monde entier ont implémenté l'obligation de génération d'états pour les sociétés qui sont enregistrées dans ces pays ou régions. L'objectif de ces obligations vise à permettre d'obtenir des données de ces sociétés au format électronique, directement depuis les systèmes auxquelles elles ont été comptabilisées, enregistrées, et traitées.
 
@@ -452,4 +451,3 @@ Vous pouvez désormais supprimer ou mettre à jour le statut du message. Pour me
 ![Mettre à jour le statut du message](media/update-status.png)
 
 Le statut du message est mis jour sur **Préparé**, et vous pouvez désormais générer l'état en sélectionnant **Générer l'état**. L'état est généré, et le statut du message et le journal des actions sont mis à jour. Pour afficher l'état généré, sélectionnez le bouton **Pièce jointe** sur le volet Actions.
-

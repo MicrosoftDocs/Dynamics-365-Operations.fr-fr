@@ -1,13 +1,13 @@
 ---
-title: "Stratégies d'unité de mesure et de stockage"
-description: "Cet article décrit la manière dont les unités par défaut, les séquences d'unité et les conversions d'unités sont utilisées dans les processus d'entrepôt."
+title: Stratégies d'unité de mesure et de stockage
+description: Cet article décrit la manière dont les unités par défaut, les séquences d'unité et les conversions d'unités sont utilisées dans les processus d'entrepôt.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 80bd5978ffe137e48da3f5eac6c75ad0f5e2f06a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318095"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>Stratégies d'unité de mesure et de stockage
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Pour définir les unités par défaut à utiliser pour les processus de récepti
 
 ## <a name="default-order-settings"></a>Paramètres de commande par défaut
 Dans le cadre de la création des produits lancés, vous devez sélectionner les unités par défaut pour les achats, les ventes et le stock pour traiter les différentes commandes. Vous pouvez définir les unités et les quantités par défaut pour les différents documents sources à l'aide des pages **Paramètres de commande par défaut** et **Paramètres de commande spécifiques au site**. Vous pouvez accéder à ces pages à partir de la page **Produits lancés**.
-
 
 
 

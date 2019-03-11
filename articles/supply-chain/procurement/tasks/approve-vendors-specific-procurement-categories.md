@@ -1,13 +1,13 @@
---- 
-title: "Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques"
-description: "Quand une demande d'achat est créée, il peut y avoir une condition pour choisir un fournisseur agréé ou préféré, selon la façon dont les politiques d'achat sont définies."
+---
+title: Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques
+description: Quand une demande d'achat est créée, il peut y avoir une condition pour choisir un fournisseur agréé ou préféré, selon la façon dont les politiques d'achat sont définies.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, DirPartyEcoResCategory, EcoResCategorySingleLookup, ProcCategoryHierarchyManagement
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b783d1ce8f02ad119dc6768e6d9cd3c61ae07e70
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83945932d56abf6bf44476e5647f8ae7abdc3602
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308389"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques
 
@@ -46,5 +46,4 @@ Quand une demande d'achat est créée, il peut y avoir une condition pour choisi
 13. Dans l'arborescence, sélectionnez Ciseaux.
 14. Choisissez Non dans le champ Héritez des fournisseurs de la catégorie parent.
 15. Choisissez Oui dans le champ Héritez des fournisseurs de la catégorie parent.
-
 

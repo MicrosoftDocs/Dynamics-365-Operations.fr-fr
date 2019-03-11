@@ -1,13 +1,13 @@
 ---
-title: "Configurer des étapes d'approbation dans un workflow"
-description: "Cette rubrique explique comment configurer les propriétés d'une étape d'approbation."
+title: Configurer des étapes d'approbation dans un workflow
+description: Cette rubrique explique comment configurer les propriétés d'une étape d'approbation.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368051"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurer des étapes d'approbation dans un workflow
 
 [!include [banner](../includes/banner.md)]
@@ -135,7 +134,7 @@ Procédez comme suit pour indiquer à qui affecter la tâche d'approbation.
     </tr>
     <tr>
     <td>Utilisateur</td>
-    <td>Utilisateurs de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition spécifiques</td>
+    <td>Utilisateurs Microsoft Dynamics 365 for Finance and Operations spécifiques</td>
     <td>
     <ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
@@ -278,4 +277,3 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
 
 5. Répétez les étapes 3 à 4 pour chaque utilisateur à ajouter au chemin de réaffectation. Vous pouvez modifier l'ordre des utilisateurs.
 6. Si les utilisateurs du chemin de réaffectation ne répondent pas dans le délai imparti, le système traite automatiquement le document. Pour indiquer l'action exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une action sous l'onglet **Terminer l'action**.
-

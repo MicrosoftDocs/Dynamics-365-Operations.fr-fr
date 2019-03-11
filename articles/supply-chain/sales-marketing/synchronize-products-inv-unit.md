@@ -1,37 +1,36 @@
 ---
-title: "Synchroniser les produits avec l'unité de stock entre Finance and Operations et Field Service"
-description: "Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les produits avec l'unité de stock entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Field Service."
+title: Synchroniser les produits avec l'unité de stock entre Finance and Operations et Field Service
+description: Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les produits avec l'unité de stock depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 12/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
 ms.openlocfilehash: 5d3767c1a499f3d888d8fc2ce06c2837442e39f0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359242"
 ---
-
 # <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Synchroniser les produits avec l'unité de stock entre Finance and Operations et Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les produits avec l'unité de stock entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Field Service.
+Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les produits avec l'unité de stock depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
 
 [![Synchronisation des processus d'entreprise entre Finance and Operations et Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
@@ -62,4 +61,3 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 ### <a name="field-service-products-with-inventory-unit-finance-and-operations-to-field-service-products"></a>Produits Field Service avec unité de stock (Finance and Operations vers Field Service) : Produits
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSProduct1.png)](./media/FSProduct1.png)
-

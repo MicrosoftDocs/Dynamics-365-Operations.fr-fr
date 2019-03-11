@@ -1,13 +1,13 @@
 ---
-title: "Catégories de coûts utilisées dans l'acheminement de la production"
-description: "Cet article fournit des informations sur les catégories de coûts qui s'appliquent aux environnements de fabrication qui utilisent l'acheminement."
+title: Catégories de coûts utilisées dans l'acheminement de la production
+description: Cet article fournit des informations sur les catégories de coûts qui s'appliquent aux environnements de fabrication qui utilisent l'acheminement.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b1c3af55423677a95e9ab5a230c91913058f91ef
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315795"
 ---
-
 # <a name="cost-categories-used-in-production-routing"></a>Catégories de coûts utilisées dans l'acheminement de la production
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ L'enregistrement des coûts associé à une catégorie de coûts peut être spé
 Généralement, une opération de gamme hérite des catégories de coûts affectées à la ressource opérationnelle ou à l'opération principale. Lors de la création d'un ordre de fabrication, les opérations de gamme de la gamme de production reflètent la version de gamme sélectionnée. Vous pouvez remplacer les catégories de coûts qui sont affectées aux opérations de la gamme de production. 
 
 Certains types de travaux de production peuvent s'appliquer aux générations d'états et aux estimations de temps du projet. Dans ce cas, une catégorie de coûts est requise à des fins de production et de projet. Vous devez définir des informations supplémentaires relatives à un projet lorsqu'une catégorie de coûts est balisée à des fins d'utilisation dans des projets.
-
 
 
 

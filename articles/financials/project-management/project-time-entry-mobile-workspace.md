@@ -1,13 +1,13 @@
 ---
 title: Espace de travail mobile de saisie de l'heure du projet
-description: "Cette rubrique fournit des informations sur l'espace de travail mobile Saisie des heures du projet. Cet espace de travail permet aux utilisateurs d'entrer et de gagner du temps sur un projet à l'aide d'un appareil mobile."
+description: Cette rubrique fournit des informations sur l'espace de travail mobile Saisie des heures du projet. Cet espace de travail permet aux utilisateurs d'entrer et de gagner du temps sur un projet à l'aide d'un appareil mobile.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332999"
 ---
-
 # <a name="project-time-entry-mobile-workspace"></a>Espace de travail mobile de saisie de l'heure du projet
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Saisie 
 
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Microsoft Dynamics 365 for Unified Operations 
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 Dans le cadre de leur travail quotidien, les collaborateurs qui travaillent à un projet sont souvent sur site ou en voyage. L'espace de travail mobile **Saisie des heures du projet** permet aux utilisateurs d'entrer les heures facturables ou non facturables pour un projet sur l'appareil mobile de leur choix. Par conséquent, ils peuvent enregistrer les heures à tout moment et n'importe où. Ils peuvent également afficher les heures déjà consignées. 
 
 Spécifiquement, dans l'espace de travail mobile **Saisie des heures du projet**, les utilisateurs peuvent effectuer les tâches suivantes :
@@ -46,13 +45,13 @@ Spécifiquement, dans l'espace de travail mobile **Saisie des heures du projet**
 -   Facultatif : il permet de saisir des commentaires externes ou internes.
 
 ## <a name="prerequisites"></a>Conditions préalables
-Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
+Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions préalables si vous utilisez Microsoft Dynamics 365 for Finance and Operations
-Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Saisie des heures du projet**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions requises si vous utilisez Microsoft Dynamics 365 for Finance and Operations
+Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Saisie du temps de projet**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
-Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
+Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
 
 <table>
 <thead>
@@ -69,7 +68,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 <td>Administrateur système</td>
 <td>Le KB 4018050 est une mise à jour X++ ou un correctif de métadonnées qui contient l'espace de travail mobile <strong>Saisie des heures du projet</strong>. Pour implémenter le KB 4018050, un administrateur système doit procéder comme suit :
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées depuis Microsoft Dynamics Lifecycle Services</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Installez le correctif de métadonnées</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Créez un module déployable</a> contenant les modèles <strong>ApplicationSuite</strong> et <strong>ProjectMobile</strong>, et téléchargez le module déployable vers LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Appliquer le package déployable</a>.</li>
@@ -88,7 +87,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 
 Téléchargez et installez l'application mobile Dynamics 365 for Unified Operations :
 
--   [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
@@ -114,4 +113,3 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 11. Sélectionner la propriété de ligne.
 12. Facultatif : saisissez des commentaires externes et internes.
 13. Sélectionnez **Terminé**.
-

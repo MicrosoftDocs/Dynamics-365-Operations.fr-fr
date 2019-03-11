@@ -1,13 +1,13 @@
 ---
-title: "Dimensions d'éléments de coût"
-description: "En tant que l'un des piliers de base du contrôle de gestion, les dimensions d'éléments de coût sont utilisées pour catégoriser et suivre le flux des coûts."
+title: Dimensions d'éléments de coût
+description: En tant que l'un des piliers de base du contrôle de gestion, les dimensions d'éléments de coût sont utilisées pour catégoriser et suivre le flux des coûts.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c703d1a9ae36d4342dc652d70dd82379187057c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 00a09120116183785d96ed1e18c577d5430fa16b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366073"
 ---
-
 # <a name="cost-element-dimensions"></a>Dimensions d'éléments de coût
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Pour faciliter le paramétrage des membres de la dimension d'élément de coût 
 
 ## <a name="implementation-considerations"></a>Considérations d'implémentation
 Puisque les éléments de coûts représentent le niveau le plus bas des détails de coût, vous devez vous assurer que tous les éléments de coût requis pour la génération d'états de gestionnaire sont inclus lorsque vous implémentez la structure d'éléments de coût. Cela peut être un défi de rechercher un numéro d'éléments de coût approprié pour le contrôle des coûts. Avoir des milliers d'éléments de coût peut rendre difficile le contrôle de chaque élément de coût. À la place, vous pouvez regrouper des éléments de coût et gérer le contrôle des coûts à un niveau agrégé.
-
 
 
 

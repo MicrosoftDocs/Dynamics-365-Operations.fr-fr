@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff8575749a33321450ea61fe1f01105c005e9092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337438"
 ---
-
 # <a name="fixed-asset-depreciation-conventions"></a>Conventions d'amortissement des immobilisations
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ Les conventions d'amortissement peuvent être affectées au paramétrage pour un
 | Mi-mois (15 du mois) |                                                                                                                                                        Pour calculer votre déduction d'amortissement pour l'exercice lorsque vous mettez la propriété en service, multipliez l'amortissement pour une année complète par une fraction. Le numérateur (nombre supérieur) de cette fraction est le nombre de mois complets de l'année pendant lesquels la propriété est en service, plus 1/2 ou (0,5). Le dénominateur (nombre inférieur) est 12. Si vous cédez la propriété avant la fin de la période de récupération, utilisez la même méthode pour calculer votre déduction d'amortissement pour l'exercice de cession.                                                                                                                                                        |
 | Semestre (début d'exercice) |                                                                                                                                                                                                                                                          Les actifs dont la date de <strong>Mise en service</strong> se trouve dans la première moitié de l'année commencent à s'amortir le premier jour de l'exercice (année complète). Les actifs dont la date de <strong>Mise en service</strong> se trouve dans la seconde moitié de l'année commencent à s'amortir au milieu de l'année.                                                                                                                                                                                                                                                          |
 |   Semestre (exercice suivant)   |                                                            Les actifs dont la date de <strong>Mise en service</strong> se trouve dans la première moitié de l'année commencent à s'amortir le premier jour de l'exercice (année complète). Les actifs dont la date de <strong>Mise en service</strong> se trouve dans la seconde moitié de l'année commencent à s'amortir le premier jour de l'exercice suivant. Les actifs désaffectés au cours de la première moitié de l'année sont considérés comme désaffectés à des fins d'amortissement le dernier jour de l'année précédente. Tout amortissement validé pendant l'année en cours doit être contrepassé ou ajusté en sortie. Les actifs qui sont mis hors service au second semestre de l'année sont considérés comme désaffectés à des fins d'amortissement le dernier jour de l'année de la mise hors service.                                                            |
-
 

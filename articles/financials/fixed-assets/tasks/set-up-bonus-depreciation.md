@@ -1,13 +1,13 @@
---- 
-title: "Paramétrage de l'amortissement de la prime"
-description: "Cette procédure indique comment créer une provision spéciale pour amortissement et l'associer à un registre d'immobilisations."
+---
+title: Paramétrage de l'amortissement de la prime
+description: Cette procédure indique comment créer une provision spéciale pour amortissement et l'associer à un registre d'immobilisations.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBonus, AssetGroup, AssetGroupBookSetup, AssetGroupSetupBonus
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6bbd6b78d05fcc9d95f6e6409db2619a210ad760
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e6ebb13084626b477b6e0b24acdc09e2c0d3d6d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339209"
 ---
 # <a name="set-up-bonus-depreciation"></a>Paramétrage de l'amortissement de la prime
 
@@ -48,5 +48,4 @@ Cette procédure indique comment créer une provision spéciale pour amortisseme
 7. Dans le champ Provision spéciale pour amortissement, entrez ou sélectionnez une valeur.
     * La valeur par défaut du pourcentage ou du montant provient du paramétrage de la provision spéciale pour amortissement.  
 8. Dans le champ Priorité, entrer un numéro.
-
 

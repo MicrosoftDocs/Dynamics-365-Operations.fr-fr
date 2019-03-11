@@ -1,13 +1,13 @@
 ---
-title: "Règlement d'un paiement client partiel avec plusieurs périodes de remise"
-description: "Cet article décrit la manière dont les paiements client partiels sont réglés lorsqu'il existe plusieurs périodes de remise."
+title: Règlement d'un paiement client partiel avec plusieurs périodes de remise
+description: Cet article décrit la manière dont les paiements client partiels sont réglés lorsqu'il existe plusieurs périodes de remise.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60c8b9b3a5aebed7e1a999335aab0baf83ea952a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 048a4ca44d457849e2f632da1686dfbeb81dd61b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337898"
 ---
-
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Règlement d'un paiement client partiel avec plusieurs périodes de remise
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ Le solde de la facture est désormais de 0,00. Arnie visualise les informations 
 | DISC-10030 |  Escompte de règlement   | 6/28/2015 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Paiement         | 7/8/2015  |         |                                      | 693,00                                | 0,00    | USD      |
 | DISC-1031  |  Escompte de règlement   | 7/8/2015  |         |                                      | 7h00                                  | 0,00    | USD      |
-
 
 
 

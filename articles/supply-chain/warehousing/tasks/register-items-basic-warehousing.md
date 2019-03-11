@@ -1,13 +1,13 @@
---- 
-title: "Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles"
-description: "Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks."
+---
+title: Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
+description: Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, WMSJournalTable, WMSJournalCreate, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 5c53a38eb6afdf8d3cc1a316c8da5e84549ab60d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361427"
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
 
@@ -57,5 +57,4 @@ Cette procédure décrit la manière dont vous enregistrez des articles à l'aid
 1. Cliquez sur Fonctions.
 2. Cliquez sur Accusé de réception de marchandises.
 3. Cliquez sur OK.
-
 

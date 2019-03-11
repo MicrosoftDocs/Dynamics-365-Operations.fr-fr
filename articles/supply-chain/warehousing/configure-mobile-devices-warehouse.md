@@ -1,13 +1,13 @@
 ---
-title: "Configuration des appareils mobiles pour le travail d'entrepôt"
-description: "Cette rubrique décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile."
+title: Configuration des appareils mobiles pour le travail d'entrepôt
+description: Cette rubrique décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/03/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347949"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d'entrepôt
 
 [!include [banner](../includes/banner.md)]
@@ -208,7 +207,7 @@ Outre la configuration des options de menu pour créer le travail d'entrepôt, v
 </thead>
 <tbody>
 <tr class="odd">
-<td>None</td>
+<td>Aucune</td>
 <td>Cette valeur par défaut ne traite pas le travail.</td>
 </tr>
 <tr class="even">
@@ -246,7 +245,7 @@ Cette option est utile, par exemple, lorsque plusieurs palettes sont prévues po
 </tr>
 <tr class="even">
 <td>Regroupement d'inventaires tournants</td>
-<td>Le collaborateur sélectionne une zone, un pool de travail ou un emplacement, et Microsoft Dynamics 365 for Finance and Operations affecte le travail en fonction de la sélection. Si cette option est sélectionnée, vous pouvez cliquer sur <strong>Inventaire tournant</strong> dans le volet Actions pour spécifier des informations supplémentaires à afficher, et vous pouvez également spécifier le nombre de fois que le collaborateur doit répéter l'opération si une différence est trouvée.</td>
+<td>Le collaborateur sélectionne une zone, un pool de travail, ou un emplacement, et Microsoft Dynamics 365 for Finance and Operations affecte le travail en fonction de la sélection. Si cette option est sélectionnée, vous pouvez cliquer sur <strong>Inventaire tournant</strong> dans le volet Actions pour spécifier des informations supplémentaires à afficher, et vous pouvez également spécifier le nombre de fois que le collaborateur doit répéter l'opération si une différence est trouvée.</td>
 </tr>
  <tr class="odd">
 <td>Chargement de transport</td>
@@ -367,7 +366,7 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="even">
 <td>Champ de regroupement système</td>
-<td>Sélectionnez le champ qui détermine comment Microsoft Dynamics 365 for Finance and Operations groupe les travaux de prélèvement pour les collaborateurs. Par exemple, si vous sélectionnez le champ <strong>ShipmentId</strong>, le collaborateur numérisera l'ID d'expédition pour regrouper les travaux de prélèvement. Tout le travail d'expédition est alors affecté au collaborateur. Ce champ nécessite la création d'une option de menu pour utiliser le travail existant qui est groupé par le système. Vous devez également entrer du texte dans le champ <strong>Étiquette de regroupement système</strong> pour indiquer au collaborateur ce qu'il doit numériser.</td>
+<td>Sélectionnez le champ qui détermine comment Microsoft Dynamics 365 for Finance and Operations groupera les travaux de prélèvement pour les collaborateurs. Par exemple, si vous sélectionnez le champ <strong>ShipmentId</strong>, le collaborateur numérisera l'ID d'expédition pour regrouper les travaux de prélèvement. Tout le travail d'expédition est alors affecté au collaborateur. Ce champ nécessite la création d'une option de menu pour utiliser le travail existant qui est groupé par le système. Vous devez également entrer du texte dans le champ <strong>Étiquette de regroupement système</strong> pour indiquer au collaborateur ce qu'il doit numériser.</td>
 </tr>
 <tr class="odd">
 <td>Étiquette de regroupement système</td>
@@ -387,7 +386,7 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="odd">
 <td>Code modèle de travail</td>
-<td>Sélectionnez le modèle de travail qui crée le travail pour un processus. Par exemple, si vous recevez un article pour une commande fournisseur, le travail de rangement sera généré selon le modèle de travail. Si vous ne sélectionnez pas un modèle de travail, Microsoft Dynamics 365 for Finance and Operations affecte un modèle selon des critères de requête. Pour plus d'informations sur les modèles de travail, voir <a href="control-warehouse-location-directives.md">Contrôle du travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement</a>.</td>
+<td>Sélectionnez le modèle de travail qui crée le travail pour un processus. Par exemple, si vous recevez un article pour une commande fournisseur, le travail de rangement sera généré selon le modèle de travail. Si vous ne sélectionnez pas de modèle de travail, Microsoft Dynamics 365 for Finance and Operations affecte un modèle selon des critères de requête. Pour plus d'informations sur les modèles de travail, voir <a href="control-warehouse-location-directives.md">Contrôle du travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -420,6 +419,5 @@ Le tableau suivant décrit les différents types de travail avec lesquels vous p
 
 [Configurer une option de menu de périphérique portable pour enregistrer les articles reçus (guide de tâche)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [Avantages de l'utilisation de statuts de stock](../inventory/inventory-statuses.md)
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Système d'aide de Finance and Operations"
-description: "Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations."
+title: Système d'aide de Finance and Operations
+description: Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,28 +18,27 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350732"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Système d'aide de Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique fournit une vue d'ensemble des composants du système d'aide Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> Les produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations, Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont généralement liées à la vente au détail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont généralement liées à Talent, le nom du produit sera Dynamics 365 for Talent ; et dans les rubriques associées au produit central, le nom du produit sera Dynamics 365 Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
+> Les trois produits suivants sont étroitement liés : Dynamics 365 for Finance and Operations ; Dynamics 365 for Retail et Dynamics 365 for Talent. Les mêmes fonctionnalités peuvent apparaître dans les trois produits. Par conséquent, dans les rubriques qui sont principalement dédiées à Retail, le nom du produit sera Dynamics 365 for Retail ; dans les rubriques qui sont principalement dédiées au produit central (Finance and Operations), le nom du produit sera Dynamics 365 for Talent ; dans les rubriques qui sont principalement associées au produit central, le nom du produit sera Dynamics 365 for Finance and Operations. Les rubriques qui sont écrites pour un produit peuvent s'appliquer à la même fonctionnalité d'un produit associé.
 
 Le système d'aide est partagé par les produits suivants :
 
-- Dynamics 365 for Finance and Operations
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
+- Dynamics 365 for Finance and Operations
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 Finance and Operations comprend un système d'aide basé sur deux composants principaux :
 
@@ -60,7 +59,7 @@ Le site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](
 - **L'accès au contenu le plus récent** – Le site est un moyen plus rapide et plus flexible pour créer, mettre à disposition et mettre à jour la documentation produit . Par conséquent, il aide à garantir que vous avez accès aux dernières informations techniques.
 - **Un contenu rédigé par des experts** – Le site fournit un ensemble plus riche de documentation produit pouvant être amélioré par les membres de la Communauté, aussi bien à l'intérieur qu'à l'extérieur de Microsoft.
 - **Accès à différents types de contenu** – Le site permet d'accéder rapidement à différents types de contenu sur Finance and Operations, comme les guides de tâches, les vidéos et les rubriques.
-- **Un contenu utile pour vos processus métier** – Le site inclut des contenus orientés sur les processus métier, qui tirent profit du modeleur de processus métier (BPM) des LCS (Lifecycle Services) de Microsoft Dynamics.
+- **Contenu utile pour vos processus métier** – Le site inclut des contenus orientés sur les processus métier, qui tirent profit du modeleur de processus métier (BPM) des LCS (Lifecycle Services) de Microsoft Dynamics.
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Recherche sur docs.microsoft.com
 
@@ -137,7 +136,7 @@ Pour accéder au contenu de l'aide dans Finance and Operations, cliquez sur l'ic
 À partir du volet Aide, vous pouvez accéder aux articles qui s'appliquent au client Finance and Operations. Lorsque vous ouvrez le volet d'aide et que vous cliquez sur l'onglet **Aide**, vous verrez les articles qui s'appliquent à la page sur laquelle vous vous trouvez dans Finance and Operations. Si aucun article n'est trouvé, vous pouvez entrer des mots clés pour affiner votre recherche. Lorsque vous cliquez sur un article dans le volet Aide, un nouvel onglet s'ouvre dans votre navigateur et affiche l'article.
 
 > [!IMPORTANT]
-> Cette section ne s'applique pas à Dynamics 365 for Talent. Le système d'aide de Talent est automatiquement connecté aux guides de tâches pour le produit. De même, vous ne pouvez pas créer de guides de tâche personnalisés pour Talent.
+> Cette section ne s'applique pas à Dynamics 365 for Talent. Le système d'aide de Talent est automatiquement connecté aux guides de tâches pour le produit. De même, vous ne pouvez pas créer de guides de tâche personnalisés pour Talent.
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Accès aux guides de tâche à partir du volet Aide
 
@@ -158,7 +157,7 @@ Sur la page **Paramètres système**, procédez comme suit :
 2. Sélectionnez le projet Lifecycle Services auquel se connecter.
 3. Sélectionnez les bibliothèques BPM (dans le projet sélectionné) à partir desquelles récupérer les enregistrements de tâche.
 
-    - Pour le contenu Finance and Operations et Microsoft, sélectionnez la bibliothèque unifiée QPC de février 2017 pour Microsoft Dynamics 365 for Finance and Operations.
+    - Pour Finance and Operations, pour le contenu Microsoft, sélectionnez la bibliothèque unifiée par QPC de février 2017 pour Microsoft Dynamics 365 for Finance and Operations.
     - Pour Retail, nous lancerons une bibliothèque en juillet.
     - Vous n'avez pas besoin de sélectionner une bibliothèque pour Talent - la connexion à la bibliothèque appropriée est établie pour vous.
 
@@ -200,4 +199,3 @@ Le tableau suivant répertorie nos sites Web. Les sites qui ont un astérisque (
 | [Communauté Dynamics](https://community.dynamics.com/)                                          | Héberge des blogs, des forums et des vidéos. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Fournit une évaluation et des informations commerciales. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Héberge certains ressources de formation pour Finance and Operations, des états et des livres blancs téléchargeables, et est le principal site de support pour les titulaires d'un plan de services. Peut nécessiter un plan de services pour accéder à certaines ressources sur le site. |
-

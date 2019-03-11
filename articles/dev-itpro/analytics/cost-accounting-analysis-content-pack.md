@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI d'analyse du contrôle de gestion"
-description: "Cette rubrique décrit les données incluses dans le contenu Power BI d'analyse du contrôle de gestion. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+title: Contenu Power BI Analyse de contrôle de gestion
+description: Cette rubrique décrit les données incluses dans le contenu Power BI d'analyse du contrôle de gestion. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d0b563044843157940f456b07479bbd6006a42f9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347443"
 ---
-
-# <a name="cost-accounting-analysis-power-bi-content"></a>Contenu Power BI d'analyse du contrôle de gestion
+# <a name="cost-accounting-analysis-power-bi-content"></a>Contenu Power BI Analyse de contrôle de gestion
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les données incluses dans le contenu Microsoft Power BI **Analyse du contrôle de gestion**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit les données incluses dans le contenu Power BI **Analyse du contrôle de gestion**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Le contenu Power BI **Analyse du contrôle de gestion** est destiné aux contrôleurs de coûts ou à toute personne chargée de contrôler les coûts d'une organisation. Il inclut les mesures clés, telles que le coût, la magnitude et le taux de coût par coût réel, coût budgétaire et coût budgétaire flexible. Il utilise les données de transaction du module **Contrôle de gestion** et fournit une vue globale des coûts pour l'ensemble de l'organisation dans une devise de déclaration. Les responsables peuvent filtrer les données par objet de coût pour contrôler les coûts de leurs unités d'organisation, même si l'organisation peut avoir plusieurs entités juridiques.
 
@@ -53,7 +52,7 @@ Veillez à télécharger le contenu **Analyse du contrôle de gestion** qui s'ap
 > [!NOTE]
 > Le KB 4011327 doit être consulté pour ce contenu Power BI. Une fois que vous êtes connecté à LCS, vous pouvez accéder à la Base de connaissances à l'adresse <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le pack de contenu Power BI
 Le contenu comprend un ensemble de pages d'état. Chaque page contient un ensemble de mesures visualisées sous forme de graphiques, de vignettes et de tables. Le tableau suivant donne une vue d'ensemble des visualisations dans le contenu Power BI **Analyse du contrôle de gestion**.
 
 | Page d'état                      | Graphique                                                                                                                         | Vignette                                          |
@@ -75,7 +74,7 @@ Le contenu comprend un ensemble de pages d'état. Chaque page contient un ensemb
 |                                  | Coût réel par nom du membre de la dimension d'objet de coût et nom du membre de la dimension d'élément de coût                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Analyse du contrôle de gestion**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md)
+Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Analyse du contrôle de gestion**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md).
 
 Les mesures globales clés suivantes sont utilisées comme base du contenu.
 
@@ -127,4 +126,3 @@ Les dimensions clés suivantes sont utilisées comme filtres pour diviser les me
 | Calendriers fiscaux                   | Calendrier, description du calendrier                                                                                       |
 | Exercices                       | Année civile                                                                                                        |
 | Périodes fiscales                     | Période de l'année civile                                                                                                 |
-

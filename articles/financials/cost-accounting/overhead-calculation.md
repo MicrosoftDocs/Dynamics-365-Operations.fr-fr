@@ -1,13 +1,13 @@
 ---
-title: "Calcul des frais généraux"
-description: "Cette rubrique décrit les processus habituels pour calculer et affecter des frais généraux."
+title: Calcul des frais généraux
+description: Cette rubrique décrit les processus habituels pour calculer et affecter des frais généraux.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
 ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335115"
 ---
-
 # <a name="overhead-calculation"></a>Calcul des frais généraux
 
 [!include [banner](../includes/banner.md)]
@@ -1413,7 +1412,6 @@ Dans la comptabilité financière, un coût de 10 000,00 pour l'électricité e
 
 > [!NOTE]
 > Cette rubrique explique comment un élément de coût principal, 10001 Électricité, alimente les objets de coût. Par conséquent, ce coût de frais généraux est affecté au plus bas niveau dans l'organisation. Autrement dit, les objets de coût de plus bas niveau supportent le coût. Pour obtenir un flux visuel du coût entre les objets de coût, vous pouvez utiliser les règles de stratégie de repositionnement des coûts de visualiser le flux de coûts. Pour plus d'informations, voir [Repositionnement des coûts](cost-rollup.md).
-
 
 
 

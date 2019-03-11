@@ -1,13 +1,13 @@
 ---
-title: "Gestion d'équipe et de tiroir-caisse"
-description: "Cette rubrique explique comment paramétrer et utiliser les équipes dans Retail POS."
+title: Gestion d'équipe et de tiroir-caisse
+description: Cette rubrique explique comment paramétrer et utiliser les équipes dans Retail POS.
 author: jblucher
 manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313012"
 ---
-
 # <a name="shift-and-cash-drawer-management"></a>Gestion d'équipe et de tiroir-caisse
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment paramétrer et utiliser les équipes dans Retail POS.
 
-Dans Microsoft Dynamics 365 for Retail, le terme *équipe* décrit l'ensemble des activités et des données de transaction POS entre deux périodes de temps. Pour chaque équipe, la somme d'argent attendue est comparée au montant comptabilisé et déclaré.
+Dans Microsoft Dynamics 365 for Retail, le terme *équipe* décrit l'ensemble des activités et des données de transaction POS entre deux périodes de temps. Pour chaque équipe, la somme d'argent attendue est comparée au montant comptabilisé et déclaré.
 
 Généralement, les équipes sont ouvertes au début du jour ouvrable. À ce stade, un utilisateur déclare le montant de départ contenu dans le tiroir-caisse. Les transactions de vente sont ensuite exécutées tout au long de la journée. Enfin, à la fin de la journée, le tiroir-caisse est comptabilisé, et les montants de clôture sont déclarés. L'équipe est clôturée, et un Z de caisse est généré. Le Z de caisse indique s'il y a un excédent ou un déficit.
 
@@ -70,7 +69,7 @@ Pour pouvoir utiliser les équipes partagées dans un magasin, le tiroir-caisse 
 
 ## <a name="shift-and-drawer-operations"></a>Opérations liées aux équipes et tiroirs-caisses
 
-Plusieurs opérations peuvent être effectuées pour modifier l'état d'une équipe ou pour augmenter ou diminuer la somme d'argent dans le tiroir-caisse. Cette section décrit ces opérations d'équipe pour Microsoft Dynamics 365 for Retail Modern POS et Cloud POS.
+Plusieurs opérations peuvent être effectuées pour modifier l'état d'une équipe ou pour augmenter ou diminuer la somme d'argent dans le tiroir-caisse. Cette section décrit ces opérations d'équipe pour Microsoft Dynamics 365 for Retail Modern POS et Cloud POS.
 
 ### <a name="open-shift"></a>Équipe de travail en cours
 
@@ -159,4 +158,3 @@ Accédez à **Vente au détail \> Canaux \> Magasins de vente au détail \> Tous
 Ce paramétrage permet de garantir que les relevés de l'arrière-guichet incluent les mêmes transactions que les équipes du POS, et que les données sont résumées en fonction de cette équipe.
 
 Pour plus d'informations sur les méthodes de relevé et de clôture, voir [Enregistrer les configurations pour les relevés de vente au détail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
-

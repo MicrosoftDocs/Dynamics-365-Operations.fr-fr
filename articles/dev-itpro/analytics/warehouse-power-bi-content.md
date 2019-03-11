@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI pour les performances de l'entrepôt"
-description: "Cette rubrique décrit les données incluses dans le contenu Power BI pour les performances de l'entrepôt. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+title: Contenu Power BI Performances d'entrepôt
+description: Cette rubrique décrit les données incluses dans le contenu Power BI pour les performances de l'entrepôt. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365360"
 ---
-
-# <a name="warehouse-performance-power-bi-content"></a>Contenu Power BI pour les performances de l'entrepôt
+# <a name="warehouse-performance-power-bi-content"></a>Contenu Power BI Performances d'entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **Performances de l'entrepôt**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit les données incluses dans le contenu Power BI pour les **performances de l'entrepôt**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Le contenu Power BI **Performances de l'entrepôt** a été créé afin que les responsables de l'entrepôt et des opérations puissent surveiller les entrants, sortants et mesures de stock importants. Il utilise la gestion des entrepôts, les produits, ainsi que d'autres données transactionnelles de votre système, et fournit à la fois une vue globale des performances d'entrepôt et une répartition pour les fournisseurs, les groupes de produits et les produits, les sites et les entrepôts.
 
@@ -45,10 +44,10 @@ Les responsables d'entrepôt peuvent utiliser le contenu Power BI **Performances
 ## <a name="accessing-the-power-bi-content-pack"></a>Accès au pack de contenu Power BI
 Le contenu Power BI **Performances d'entrepôt** s'affiche sur la page **Performances d'entrepôt** (**Gestion des entrepôts** \> **Recherches et états** \> **Analyse des performances d'entrepôt** \> **Performances d'entrepôt**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le contenu Power BI
-Le contenu Power BI **Performances de l'entrepôt** inclut un état. Cet état contient un ensemble de mesures visualisées sous forme de graphiques, de vignettes et de tables. Le tableau suivant donne une vue d'ensemble des visualisations dans le contenu Power BI **Performances de l'entrepôt**.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le pack de contenu Power BI
+Le contenu Power BI **Performances de l'entrepôt** inclut un état. Cet état contient un ensemble de mesures visualisées sous forme de graphiques, de vignettes et de tables. Le tableau suivant donne une vue d'ensemble des visualisations dans le contenu Power BI **Performances d'entrepôt**.
 
-| Page d'état                 | Graphiques                                   | description ; |
+| Page d'état                 | Graphiques                                   | Description |
 |-----------------------------|------------------------------------------|-------------|
 | Performances entrants         | Total des rangements                          | Nombre de lignes de travail de rangement traitées au cours d'un délai imparti. |
 | Performances entrants         | Temps moyen de rangement                    | Le temps moyen, en heures, pour toutes les lignes de rangement de commande fournisseur qui sont traitées, de l'enregistrement des articles jusqu'au dernier rangement. |
@@ -79,7 +78,7 @@ Le contenu Power BI **Performances de l'entrepôt** inclut un état. Cet état c
 | Performances d'expédition        | Expéditions par site/entrepôt              | Pourcentage qui est expédié en avance, à temps, ou en retard par site ou entrepôt. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Compréhension du modèle de données et des calculs
-Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Performances d'entrepôt**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md)
+Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Performances d'entrepôt**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md).
 
 Les mesures globales clés suivantes sont utilisées comme base du contenu.
 
@@ -113,4 +112,3 @@ Les mesures globales clés suivantes sont utilisées comme base du contenu.
 | Performances d'expédition        | Expéditions par produit                       | CustPackingSlipOnTimeStatus           | En avance, À temps, et En retard (voir les descriptions plus haut dans cette table). |
 | Performances d'expédition        | Expéditions par client                      | CustPackingSlipOnTimeStatus           | En avance, À temps, et En retard (voir les descriptions plus haut dans cette table). |
 | Performances d'expédition        | Expéditions par site/entrepôt              | CustPackingSlipOnTimeStatus           | En avance, À temps, et En retard (voir les descriptions plus haut dans cette table). |
-

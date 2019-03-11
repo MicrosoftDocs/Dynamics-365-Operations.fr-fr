@@ -1,13 +1,13 @@
 ---
-title: "Budgétisation dans le secteur public"
-description: "Cette vue d'ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l'analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation."
+title: Budgétisation dans le secteur public
+description: Cette vue d'ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l'analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlApportionments, BudgetControlConfiguration, BudgetControlStatistics, BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59d6420cbea2e9cd6d81a72dc8727e0178ea8aeb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0f58a2c42d9f78d7d974542ff2869b48c6a4ba37
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370636"
 ---
-
 # <a name="budgeting-in-the-public-sector"></a>Budgétisation dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,6 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 [Créer un budget préliminaire](tasks/create-preliminary-budget-public-sector.md)
 
 [Créer un budget d'origine et contrepasser les écritures budgétaires préliminaires](tasks/create-original-budget.md)
-
 
 
 

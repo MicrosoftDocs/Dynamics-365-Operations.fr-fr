@@ -1,13 +1,13 @@
---- 
-title: "EUR-00011 Générer l'état Liste des ventes intracommunautaires"
-description: "Cette procédure vous guide dans la génération de l'état de la liste des ventes intracommunautaires."
+---
+title: EUR-00011 Générer l'état Liste des ventes intracommunautaires
+description: Cette procédure vous guide dans la génération de l'état de la liste des ventes intracommunautaires.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  EUSalesList, EUSalesListSelection, SysQueryForm, SysLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370806"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 Générer l'état Liste des ventes intracommunautaires
 
@@ -100,5 +100,4 @@ Cette procédure est destinée aux comptables.
     * Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à marquer comme Clôturées.  
 7. Cliquez sur OK.
 8. Dans le champ Sélection, sélectionnez « Clôturé ».
-
 

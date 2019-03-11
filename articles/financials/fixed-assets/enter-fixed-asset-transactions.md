@@ -1,13 +1,13 @@
 ---
-title: Options des transactions d'immobilisation
-description: "Cet article décrit les différentes méthodes disponibles pour créer des transactions d'immobilisation."
+title: Options de transactions d'immobilisations
+description: Cette rubrique décrit les différentes méthodes disponibles pour créer des transactions d'immobilisation.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3d16b43eda0157e63a0d30fe806dac9a359d5fa4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377180"
 ---
-
-# <a name="fixed-asset-transaction-options"></a>Options des transactions d'immobilisation
+# <a name="fixed-asset-transaction-options"></a>Options de transactions d'immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les différentes méthodes disponibles pour créer des transactions d'immobilisation.
+Cette rubrique décrit les différentes méthodes disponibles pour créer des transactions d'immobilisation.
 
 Vous pouvez paramétrer le module Immobilisations pour qu'il s'intègre avec les modules Comptabilité, Achats, Ventes et Approvisionnements. Vous pouvez également transférer des articles du module Gestion des stocks dans le module Immobilisations si vous souhaitez utiliser ces articles en interne.
 
@@ -66,9 +65,6 @@ Vous pouvez valider tout type de transaction d'immobilisation dans la page Journ
 | ** **                               | Module Comptabilité client      | Facture financière                         |
 
 
+La valeur restante des périodes d'amortissement de l'immobilisation n'est pas mise à jour lorsqu'une ligne de journal de type transaction d'amortissement est créée manuellement ou importée via une entité des données. Cette valeur est mise à jour lorsque le processus de proposition d'amortissement est utilisé pour créer la ligne de journal.
 
 Pour plus d'informations, voir [Intégration des immobilisations](fixed-asset-integration.md).
-
-
-
-

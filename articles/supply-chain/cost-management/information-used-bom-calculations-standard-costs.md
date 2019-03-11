@@ -1,13 +1,13 @@
 ---
-title: "Informations utilisées dans les calculs de nomenclature avec les coûts standard"
-description: "Les calculs de nomenclature utilisent les données de plusieurs sources pour calculer les coûts standard d'un article fabriqué. Les sources incluent des informations sur les articles, les gammes de nomenclatures, les formules de calcul des coûts indirects et la version d'évaluation des coûts."
+title: Informations utilisées dans les calculs de nomenclature avec les coûts standard
+description: Les calculs de nomenclature utilisent les données de plusieurs sources pour calculer les coûts standard d'un article fabriqué. Les sources incluent des informations sur les articles, les gammes de nomenclatures, les formules de calcul des coûts indirects et la version d'évaluation des coûts.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4ec6ffe41d6dae10693b1a1ebd6e5012c32bc2e6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 187482f29e6982220b844777ef31997f0d5ef0d3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333758"
 ---
-
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informations utilisées dans les calculs de nomenclature avec les coûts standard
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Les informations de version d'évaluation des coûts utilisées dans le cadre du
 -   Le contenu de la version d'évaluation des coûts doit inclure des coûts − Le contenu doit inclure des coûts. Il peut éventuellement inclure des prix de vente afin de calculer les prix de vente suggérés pour les articles fabriqués.
 
 Plusieurs sources d'informations peuvent être spécifiées lors de l'élaboration d'un calcul de nomenclature. Il s'agit du site, de la date de calcul et de la version d'évaluation des coûts.
-
 
 
 

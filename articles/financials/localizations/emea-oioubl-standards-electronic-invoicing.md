@@ -1,30 +1,29 @@
 ---
-title: "Normes prises en charge pour la facturation électronique en Europe"
-description: "Cette rubrique explique le niveau de couverture existant pour la facturation électronique dans Microsoft Dynamics 365 for Finance and Operations en Europe."
+title: Normes prises en charge pour la facturation électronique en Europe
+description: Cette rubrique décrit le niveau de couverture qui existe pour la facturation électronique dans Microsoft Dynamics 365 for Finance and Operations pour Europe.
 author: mrolecki
 manager: AnnBe
 ms.date: 07/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 366e67415b82c6bbc6b066b4ce44e4654bd93103
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 354b9fd50dbd628b91fd4d77c4cb323ddc36428f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370672"
 ---
-
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Normes prises en charge pour la facturation électronique en Europe
 
 [!include [banner](../includes/banner.md)]
@@ -78,4 +77,3 @@ Pour plus de détails sur le paramétrage des factures électroniques, vous pouv
 
 > [!NOTE] 
 > Bien que ces guides de tâches ont été créés pour le format de facture électronique spécifique au Danemark, *OIOUBL*, ils s'appliquent à d'autres pays avec des variantes mineures.
-

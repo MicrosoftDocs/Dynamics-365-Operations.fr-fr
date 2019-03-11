@@ -1,13 +1,13 @@
---- 
-title: "Définir un modèle de travail pour les commandes fournisseur"
-description: "Cette procédure consiste à réaliser le paramétrage d'un modèle de travail simple à utiliser pour le rangement des articles reçus."
+---
+title: Définir un modèle de travail pour les commandes fournisseur
+description: Cette procédure consiste à réaliser le paramétrage d'un modèle de travail simple à utiliser pour le rangement des articles reçus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d737f9dfd1888602266a87853e54407618ae2781
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbbe019bdca2d5182466a20370418a14032fe63d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318026"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Définir un modèle de travail pour les commandes fournisseur
 
@@ -70,5 +70,4 @@ Cette procédure consiste à réaliser le paramétrage d'un modèle de travail s
     * Les instructions de prélèvement et de placement sont un ensemble. Chaque ensemble prélever/placer doit avoir la même classe de travail. Utilisez la même classe de travail que vous avez fournie pour l'instruction de prélèvement.  
 7. Cliquez sur Enregistrer.
     * Notez que la case à cocher Valide est maintenant activée.  
-
 

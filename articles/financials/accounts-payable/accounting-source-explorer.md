@@ -1,13 +1,13 @@
 ---
-title: "Explorateur de comptabilité source"
-description: "Cet article fournit des informations sur l'explorateur de comptabilité source, que vous pouvez utiliser pour l'analyse détaillée d'informations sources à l'origine des écritures comptables."
+title: Explorateur de comptabilité source
+description: Cet article fournit des informations sur l'explorateur de comptabilité source, que vous pouvez utiliser pour l'analyse détaillée d'informations sources à l'origine des écritures comptables.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: de5de039c0e3332943bae4846768fc628810906e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: d21f214ef8a29c19f0af1d4a2bdfc3264987f0b8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330193"
 ---
-
 # <a name="accounting-source-explorer"></a>Explorateur de comptabilité source
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Pour les documents sources qui utilisent le concept des identités de référenc
 -   Remises par fournisseur, produit, département
 
 Pour ces documents, vous pouvez également accéder au document source réel de l'explorateur de comptabilité source.
-
 
 
 

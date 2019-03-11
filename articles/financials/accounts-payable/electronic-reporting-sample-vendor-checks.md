@@ -1,29 +1,28 @@
 ---
-title: "Gestion des états électroniques pour les exemples de chèques fournisseur"
-description: "Cette rubrique fournit des informations générales sur l'utilisation des exemples de formats de chèque pour la génération d'états électroniques."
+title: Gestion des états électroniques pour les exemples de chèques fournisseur
+description: Cette rubrique fournit des informations générales sur l'utilisation des exemples de formats de chèque pour la génération d'états électroniques.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 6cae0ce1ec88f0500f8d281d314d59dc7001a384
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359679"
 ---
-
 [!include [banner](../includes/banner.md)]
 
 # <a name="electronic-reporting-sample-check-formats"></a>Gestion des états électroniques pour les formats de chèques
@@ -34,7 +33,7 @@ Vous pouvez utiliser un état électronique (ER) pour mettre en forme les chèqu
 
 Vous devez toujours aller dans la bibliothèque d'actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste actuelle des fichiers disponibles dont le type d'actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers une rubrique qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.
 
-Microsoft Dynamics 365 for Finance and Operations comprend un exemple de format dans lequel le chèque est en premier, suivi de deux sections de remise. Il inclut également un exemple de format dans lequel le chèque est au milieu, entre deux sections de remise. Ces exemples de formats correspondent aux formats de chèques professionnels Deluxe.
+Microsoft Dynamics 365 for Finance and Operations inclut également un exemple de format dans lequel le chèque est en haut, suivi de deux sections de remise. Il inclut également un exemple de format dans lequel le chèque est au milieu, entre deux sections de remise. Ces exemples de formats correspondent aux formats de chèques professionnels Deluxe.
 
 ## <a name="what-do-i-have-to-set-up"></a>Que dois-je paramétrer ?
 
@@ -45,4 +44,3 @@ Microsoft Dynamics 365 for Finance and Operations comprend un exemple de format
 - Lorsque vous générez des paiements pour le compte bancaire paramétré dans le journal des paiements, les chèques sont imprimés à l'aide du format spécifié.
 
 Pour plus d'informations, voir [Modifier un format de gestion d'états électroniques](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
-

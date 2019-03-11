@@ -1,36 +1,35 @@
 ---
-title: "Expédier des commandes depuis un autre magasin à l'aide de la fonction Facturer l'envoi"
-description: "Cette rubrique décrit la fonction Facturer l'envoi."
+title: Expédier des commandes depuis un autre magasin à l'aide de la fonction Facturer l'envoi
+description: Cette rubrique décrit la fonction Facturer l'envoi.
 author: ashishmsft
 manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354067"
 ---
-
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Expédier des commandes depuis un autre magasin à l'aide de la fonction Facturer l'envoi
 
 [!include [banner](includes/banner.md)]
 
-Avec la fonction Facturer l'envoi de Dynamics 365 for Retail, les commandes client peuvent être passées dans un magasin et expédiées depuis un autre magasin.
+Avec la fonction Facturer l'envoi de Dynamics 365 for Retail, les commandes client peuvent être passées dans un magasin et expédiées depuis un autre magasin.
 
 Les commandes client du point de vente (PDV) prennent en charge les plusieurs options d'exécution. Parmi les options d'exécution de commande notons :
 
@@ -43,4 +42,3 @@ La fonction Facturer l'envoi utilise les opérations du PDV suivantes : Expédi
 La capacité de sélectionner des adresses d'« expédition » reste inchangée.
 
 Les méthodes d'expédition qui peuvent être utilisées pour honorer la ligne de commande sont basées sur la configuration de modes de livraison valides pour les produits et les adresses. Du fait que les règles sur les modes de livraison valides sont tenues à jour uniquement dans Retail Siège, un client du PDV effectue un appel en temps réel pour extraire les modes de livraison valides pour une ligne d'expédition.
-

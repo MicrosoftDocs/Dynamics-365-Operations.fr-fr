@@ -1,13 +1,13 @@
 ---
-title: "États de rapprochement pour la Belgique"
-description: "Cette rubrique décrit les états standard que Microsoft Dynamics 365 for Finance and Operations fournit pour l'analyse de la déclaration de taxe INTERVAT et de rapprochement."
+title: États de rapprochement pour la Belgique
+description: Cette rubrique décrit les états standard que Microsoft Dynamics 365 for Finance and Operations fournit pour l'analyse de la déclaration de taxe INTERVAT et de rapprochement.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Belgium
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
+ms.openlocfilehash: b22edc7c3ace39f7dd818e3ff423edfd57618676
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b6268775c707a777a8391bcb41b061c1635b8942
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370704"
 ---
-
 # <a name="reconciliation-reports-for-belgium"></a>États de rapprochement pour la Belgique
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les états standard que Microsoft Dynamics 365 for Finance and Operations fournit pour l'analyse de la déclaration de taxe INTERVAT et de rapprochement.
+Cette rubrique décrit les états standard que Microsoft Dynamics 365 for Finance and Operations fournit pour l'analyse de la déclaration de taxe INTERVAT et de rapprochement.
 
 Selon les entrées de taxe pour les périodes sélectionnées, la déclaration périodique belge de taxe sur la valeur ajoutée (TVA) combine des montants de taxe dans des zones (codes déclaration de taxe) en triant, en fractionnant et en totalisant les informations de manières spécifiques. Par conséquent, des états de contrôle sont requis, de sorte que les montants de la déclaration de TVA puissent être vérifiés en détail. Le reste de cette rubrique décrit les états qui incluent les détails des données dans la déclaration de TVA.
 
@@ -88,7 +87,6 @@ Les paramètres de cet état permettent beaucoup de flexibilité. Vous pouvez co
 
 ## <a name="purchase-sales-tax-transactions"></a>Transactions de taxe sur les achats
 L'état **Transactions de taxe sur les achats** affiche les transactions comportant des droits de douane sur les achats. Les droits de douane sur les achats sont calculés et validés avec les paiements de taxe. Les droits de douane sur les achats et les taxes sont déclarés pour la période de règlement. La période de règlement varie selon l'administration fiscale définie sur la page **Périodes de règlement de la taxe**. Les informations dans la section d'en-tête de l'état fournissent des détails tels que le numéro identifiant TVA, le numéro d'entreprise, la période. Ces informations de détail incluent le journal, le N° document, la date, le compte fournisseur, le nom, le montant taxte comprise, et les codes déclaration de taxe. Cet état est un rapport externe. Le comptable ou gestionnaire comptable le génère et la soumet périodiquement aux administrations appropriées. Pour imprimer le rapport **Transactions de taxe sur les achats**, cliquez sur **Taxe** &gt; **Recherches et états** &gt; **Déclarations de taxe** &gt; **Transactions de taxe sur les achats**.
-
 
 
 

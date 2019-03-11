@@ -1,13 +1,13 @@
---- 
-title: "Créer une question fermée"
-description: "Les questions fermées permettent à la personne interrogée de choisir des options."
+---
+title: Créer une question fermée
+description: Les questions fermées permettent à la personne interrogée de choisir des options.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6b08988a3872cec39b7592732d23862e959aae79
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332263"
 ---
 # <a name="create-a-closed-ended-question"></a>Créer une question fermée
 
@@ -67,5 +67,4 @@ Les questions fermées permettent à la personne interrogée de choisir des opti
 4. Sélectionnez une option dans le champ Type de saisie.
 5. Saisissez ou sélectionnez une valeur dans le champ Groupe de réponses.
 6. Tapez une valeur dans le champ Texte.
-
 

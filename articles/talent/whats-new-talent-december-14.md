@@ -1,31 +1,31 @@
 ---
-title: "Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (14 décembre 2018)"
-description: "Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version actuelle de Microsoft Dynamics 365 for Talent Core HR."
+title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (14 décembre 2018)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 844c23fc908c962203e644f1154cc480425d830b
 ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304294"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (14 décembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (14 décembre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -59,7 +59,7 @@ Une modification a été apportée pour inclure les éléments de sécurité cor
 
 Une modification a été apportée pour corriger l'erreur « Référence null » lors de l'utilisation de l'espace réservé %Reviews.PerfPeriod% dans les instructions de soumission.
 
-### <a name="workforce-power-bi-report-shows-error-when-worker-seniority-date-is-a-leap-day"></a>l'état Power BI sur la main-d'œuvre affiche une erreur lorsque la date d'ancienneté du collaborateur est un jour intercalaire
+### <a name="workforce-power-bi-report-shows-error-when-worker-seniority-date-is-a-leap-day"></a>L'état Power BI sur la main-d'œuvre affiche une erreur lorsque la date d'ancienneté du collaborateur est un jour intercalaire
 
 Avec cette modification, les jours intercalaires sont maintenant pris en charge dans Power BI.
 
@@ -151,4 +151,3 @@ Les mises en correspondance mises à jour doivent ressembler aux illustrations s
 ![Tâche Collaborateurs à Collaborateurs](./media/WorkerMapping.png)
 
 ![Transformation du champ Sexe](./media/WorkerTransform.png)
-

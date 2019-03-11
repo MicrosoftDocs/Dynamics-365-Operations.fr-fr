@@ -1,13 +1,13 @@
 ---
 title: Raccourcis clavier
-description: "Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations."
+description: Les raccourcis clavier suivants s'appliquent dans tout Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335943"
 ---
-
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
 [!include [banner](../includes/banner.md)]
 
-Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for Finance and Operations.
+Les raccourcis clavier suivants s'appliquent dans tout Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
 > Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
@@ -233,4 +232,3 @@ Les raccourcis clavier suivants s'appliquent à l'ensemble de Dynamics 365 for 
 | Monter/descendre d'une ligne dans la recherche                                                                                        | Flèche Haut/Flèche Bas            |
 | Monter/descendre d'une page dans la recherche                                                                                       | Page précédente / Page suivante              |
 | Atteindre le haut ou le bas de la recherche                                                                                    | Début/Fin                       |
-

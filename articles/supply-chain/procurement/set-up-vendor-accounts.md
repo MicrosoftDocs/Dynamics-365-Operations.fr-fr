@@ -1,13 +1,13 @@
 ---
-title: "Paramétrer les comptes fournisseur"
-description: "Cette rubrique décrit les types d'informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur."
+title: Paramétrer les comptes fournisseur
+description: Cette rubrique décrit les types d'informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e871acb38ccfdbe8bf298ebb05b8420c55e0093f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329135"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Paramétrer les comptes fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -61,13 +60,13 @@ Vous pouvez enregistrer des contacts pour un fournisseur. Ces contacts peuvent �
 
 Pour ajouter des contacts pour un fournisseur, dans la page **Tous les fournisseurs**, sous l'onglet, **Fournisseur**, dans le groupe **Paramétrage**, cliquez sur **Contacts** &gt; **Ajouter des contacts**.  
 
-Vous pouvez créer des contacts fournisseur de toutes pièces. Sinon, vous pouvez copier les détails d'une autre personne déjà enregistrée dans Microsoft Dynamics 365 for Finance and Operations, et modifier les informations comme vous le souhaitez.  
+Vous pouvez créer des contacts fournisseur de toutes pièces. Sinon, vous pouvez copier les détails d'une autre personne déjà enregistrée dans Microsoft Dynamics 365 for Finance and Operations, et modifier les informations comme vous le souhaitez.  
 
 **Remarque :** Le fait d'ajouter un contact pour un fournisseur n'est pas la même chose qu'ajouter des informations de contact pour ce fournisseur. Bien que vous puissiez ajouter des informations de contact générales pour un fournisseur, vous pouvez également définir plusieurs personnes spécifiques qui sont des contacts à cette société, et qui ont toutes leurs propres informations de contact.  
 
 Vous ne pouvez pas supprimer l'enregistrement d'une personne à contacter si le contact est référencé sur un document. Au lieu de cela, vous pouvez désactiver le contact.  
 
-Vous pouvez ajouter des contacts fournisseur à vos contacts personnels dans Microsoft Office 365. Toutefois, vous devez d'abord paramétrer la synchronisation entre Finance and Operations et Office 365 dans la synchronisation de Microsoft Exchange Server et l'Assistant Paramétrage de Microsoft Outlook.
+Vous pouvez ajouter des contacts fournisseur à vos contacts personnels dans Microsoft Office 365. Toutefois, vous devez d'abord paramétrer la synchronisation entre Finance and Operations et Office 365 dans la synchronisation de Microsoft Exchange Server et l'Assistant Paramétrage de Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Fournisseurs dans plusieurs entités juridiques
 Si un fournisseur est enregistré pour une seule entité juridique de votre organisation, et que d'autres entités juridiques doivent enregistrer le même fournisseur, vous pouvez utiliser la page **Ajouter le fournisseur à une autre entité juridique** pour configurer le fournisseur pour qu'il exerce son activité avec une autre entité juridique. Vous devez sélectionner un groupe de fournisseurs, une devise et un statut de blocage pour le fournisseur dans l'entité juridique sélectionnée.  
@@ -116,7 +115,6 @@ Si vous devez effectuer des paiements vers un compte bancaire fournisseur, vous 
 Vous pouvez spécifier les comptes par défaut qui s'affichent automatiquement dans les journaux des factures fournisseur pour le fournisseur spécifié. Cette fonctionnalité peut être utile si vous payez généralement les même articles ou services auprès des mêmes fournisseurs. Si vous spécifiez un compte par défaut, vous pouvez entrer rapidement et efficacement des entrées de journal dans le journal des factures. Les comptes par défaut que vous spécifiez ne sont pas utilisés pour les commandes fournisseur ou les factures fournisseur entrées dans l'écran **Facture fournisseur**.  
 
 Vous devez sélectionner les comptes par défaut dans la page **Paramétrage du compte par défaut**, accessible à partir de l'onglet **Facture** dans l'enregistrement de fournisseur. Les comptes que vous sélectionnez ici s'affichent dans la liste filtrée des comptes du compte fournisseur lorsque vous entrez une entrée de journal. Vous pouvez définir l'un des comptes comme celui par défaut.
-
 
 
 

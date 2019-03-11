@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 26cbbfbec1d2314d007cb880b4af1db8bf8a8786
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338588"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>Page d'accueil Approvisionnements
 
 [!include [banner](../includes/banner.md)]
@@ -56,11 +55,11 @@ Le module Approvisionnements couvre toutes les étapes : identification d'un bes
 -   [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md)
 -   [Paramétrer et mettre à jour la collaboration fournisseur](set-up-maintain-vendor-collaboration.md)
--   [Démo de script de stock de consignation entrant pour Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(livre blanc)
+-   [Script de démonstration pour stock de consignation entrant pour Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(livre blanc)
 -   [Contrôler le stock de consignation à l'aide de la collaboration fournisseur](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Collaboration avec des fournisseurs via le portail fournisseur](collaborate-vendors-vendor-portal.md)  (versions de février 2016 et mai 2016 de Dynamics AX uniquement)
+-   [Collaboration avec les fournisseurs à l'aide du portail fournisseur](collaborate-vendors-vendor-portal.md)  (versions de février et mai 2016 de Dynamics AX uniquement)
 -   [Configuration de sécurité pour les utilisateurs du portail fournisseur](configure-security-vendor-portal-users.md) (versions de février 2016 et mai 2016 de Finance and Operations uniquement)
--   [Espace de travail mobile Collaboration du fournisseur pour l'application Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
+-   [Espace de travail mobile de collaboration des fournisseurs pour l'application Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Gestion des produits d'approvisionnement
 -   [Catalogues d'approvisionnement](procurement-catalogs.md)
@@ -102,7 +101,6 @@ Le module Approvisionnements couvre toutes les étapes : identification d'un bes
 -   [Définition des flux de travail de processus entreprise pour les demandes d'achat](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
 -   [Politiques d'achat](purchase-policies.md)
 -   [Créer des stratégies d'achat](tasks/create-purchasing-policies.md)
-
 
 
 

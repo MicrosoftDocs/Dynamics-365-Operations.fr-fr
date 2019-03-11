@@ -1,13 +1,13 @@
 ---
-title: "Simuler des modifications de coûts à l'aide d'une version d'évaluation des coûts pour les coûts planifiés"
-description: "Cet article explique comment simuler les effets des modifications de coûts sur les coûts calculés d'un article fabriqué à l'aide d'une version d'évaluation des coûts séparée pour les coûts planifiés."
+title: Simuler des modifications de coûts à l'aide d'une version d'évaluation des coûts pour les coûts planifiés
+description: Cet article explique comment simuler les effets des modifications de coûts sur les coûts calculés d'un article fabriqué à l'aide d'une version d'évaluation des coûts séparée pour les coûts planifiés.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ef3cdb2ede2c30609db4addfc10b819629cdc64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e50d4b1a4a5deb440763dc0f11462bed2932cda8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318877"
 ---
-
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simuler des modifications de coûts à l'aide d'une version d'évaluation des coûts pour les coûts planifiés
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Les scénarios suivants illustrent l'utilisation de la version d'évaluation des
 -   Simulez la modification de coûts dans une formule de calcul des coûts indirects. Par exemple, la modification des coûts peut refléter une augmentation ou une diminution prévue des frais généraux de fabrication. Pour définir la modification dans une formule de calcul des coûts indirects, la page **Paramétrage de la feuille de coûts** permet d'entrer un enregistrement de coûts en attente dans la version d'évaluation des coûts de simulation et de valider et d'enregistrer la modification.
 
 Après avoir entré les modifications des coûts simulés, calculez les coûts des articles fabriqués qui sont touchés par les modifications de coûts. Utilisez la page **Calcul** pour la version de simulation des coûts et identifiez les articles fabriqués sélectionnés qui seront touchés par les modifications de coûts. Les calculs de nomenclature s'appliquent à tous les articles fabriqués à moins que vous sélectionnez des articles spécifiques. Vous pouvez également utiliser l'option de calcul de nomenclature pour des mises à jour d'analyses des utilisations. Affichez les enregistrements des coûts des articles dans la version d'évaluation des coûts de simulation pour analyser la manière dont les modifications des coûts simulées ont touché les coûts des articles fabriqués sélectionnés. La page **Prix de l'article** et la page **Calculer le coût de l'article** permettent d'afficher et d'analyser les coûts.
-
 
 
 

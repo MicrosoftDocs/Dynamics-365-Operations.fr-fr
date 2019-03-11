@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer des souches de numéros sur une base individuelle"
-description: "Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction qui en ont besoin."
+---
+title: Paramétrer des souches de numéros sur une base individuelle
+description: Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction qui en ont besoin.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6734d66a06f8a8dc90a48bd68b7b4e22177b4672
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362209"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Paramétrer des souches de numéros sur une base individuelle
 
@@ -43,5 +43,4 @@ Les souches de numéros permettent de générer des identificateurs uniques et c
 8. Développez la section Général.
     * Dans l'organisateur Général, indiquez si la souche de numéros est manuelle, continue ou discontinue. De plus, entrez le plus petit et le plus grand des numéros pouvant être utilisés dans la souche de numéros.     Il n'est pas conseillé de modifier une souche de numéros non continue en une souche de numéros continue. La souche de numéros ne sera pas véritablement continue. Cette modification peut également entraîner des violations de clé dupliquée dans la base de données. En outre, les souches de numéros continues ont un plus grand effet sur les performances.   
 9. Cliquez sur Enregistrer.
-
 

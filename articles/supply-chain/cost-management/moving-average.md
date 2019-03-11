@@ -1,13 +1,13 @@
 ---
 title: Moyenne mobile
-description: "La moyenne de déplacement est une méthode d'évaluation des coûts définitive basée sur le principe de moyenne, où les coûts des sorties de stock ne changent pas lorsque le coût d'achat est modifié. La différence est capitalisée et est basée sur un calcul proportionnel. Le montant restant est mis en dépenses."
+description: La moyenne de déplacement est une méthode d'évaluation des coûts définitive basée sur le principe de moyenne, où les coûts des sorties de stock ne changent pas lorsque le coût d'achat est modifié. La différence est capitalisée et est basée sur un calcul proportionnel. Le montant restant est mis en dépenses.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348064"
 ---
-
 # <a name="moving-average"></a>Moyenne mobile
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,7 @@ Le coût actuel de la moyenne de déplacement est affecté aux transactions anti
 Sur la page **Mouvements de stock**, vous pouvez voir qu'une valeur de 4,00 mise en dépenses comme moyenne de déplacement actuelle du produit est 16,00. Vous pouvez valider à une date passée, mais la différence de coût est mise en dépenses de sorte que le coût de la moyenne de déplacement n'est pas affecté.
 
 ## <a name="inventory-value-report"></a>État de valeur de stock
-Dans cet exemple de moyenne de déplacement, l'état Valeur en stock est imprimé pour prendre en charge le calcul actuel de la moyenne de déplacement pour un produit. La valeur du stock peut imprimer les transactions dans l'ordre chronologique, ainsi que le coût, pour prendre en charge le calcul du coût de la moyenne de déplacement d'un produit. L'état affiche le coût de la moyenne de déplacement du produit. Dans la boîte de dialogue **États de valeur de stock**, un intervalle de dates vous permet de sélectionner l'**Heure de transaction** ou la **Date de validation** pour trier par état. L'option **Date de validation** permet de voir comment l'état est généralement imprimé. L'option **Heure de transaction** est la date réelle à laquelle la transaction est déclarée et le coût de la moyenne de déplacement du produit est mis à jour. Vous pouvez imprimer la valeur du stock à l'aide de l'option **Tri par heure de transaction** si vous souhaitez voir le calcul du coût de la moyenne de déplacement au fil du temps. Le tableau suivant affiche les transactions pour le produit pour lequel l'état est imprimé lorsque l'option de tri **Tri par heure de transaction** est utilisée.
+Dans cet exemple de moyenne de déplacement, l'état Valeur en stock est imprimé pour prendre en charge le calcul actuel de la moyenne de déplacement pour un produit. La valeur du stock peut imprimer les transactions dans l'ordre chronologique, ainsi que le coût, pour prendre en charge le calcul du coût de la moyenne de déplacement d'un produit. L'état affiche le coût de la moyenne de déplacement du produit. Dans la boîte de dialogue **États de valeur de stock**, un intervalle de dates vous permet de sélectionner l'**Heure de transaction** ou la **Date de validation** pour trier par état. L'option **Date de validation** permet de voir comment l'état est généralement imprimé. L'option **Heure de transaction** est la date réelle à laquelle la transaction est déclarée et le coût de la moyenne de déplacement du produit est mis à jour. Vous pouvez imprimer la valeur du stock à l'aide de l'option **Tri par heure de transaction** si vous souhaitez voir le calcul du coût de la moyenne de déplacement au fil du temps. Le tableau suivant affiche les transactions pour le produit pour lequel l'état est imprimé lorsque l'option de tri **Tri par heure de transaction** est utilisée.
 
 | Heure de transaction | Date         | Type de transaction           | la quantité ; | Montant | Coût unitaire moyen |
 |------------------|--------------|----------------------------|----------|--------|-------------------|
@@ -113,8 +112,7 @@ Dans cet exemple de moyenne de déplacement, l'état Valeur en stock est imprim�
 | 8 octobre        | 8 octobre    | Réévaluation de la moyenne mobile |          | 4,00   | 16,00             |
 |                  | 31 octobre   | Total                      | 2        | 32,00  | 16,00             |
 
- **Remarque :** vous ne pouvez pas rapprocher la comptabilité avec le stock à l'aide de l'option de tri **Tri par heure de transaction**. L'état doit être imprimé à l'aide de l'option **Date de validation**.
-
+ **Remarque :** vous ne pouvez pas rapprocher la comptabilité avec le stock à l'aide de l'option de tri **Tri par heure de transaction**. L'état doit être imprimé à l'aide de l'option **Date de validation**.
 
 
 

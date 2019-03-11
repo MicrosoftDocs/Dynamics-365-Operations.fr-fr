@@ -1,13 +1,13 @@
---- 
-title: "Créer un paiement de taxe"
-description: "La tâche Régler et valider la taxe permet de régler les soldes de taxe dans les comptes de taxe et de les compenser dans le compte de règlement de la taxe pour une période donnée."
+---
+title: Créer un paiement de taxe
+description: La tâche Régler et valider la taxe permet de régler les soldes de taxe dans les comptes de taxe et de les compenser dans le compte de règlement de la taxe pour une période donnée.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b0d72c88d6ba851e96ca07b896630549690e9396
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ee84da7fd055c8b0b50c43f134c0fc048ecfaeb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321752"
 ---
 # <a name="create-a-sales-tax-payment"></a>Créer un paiement de taxe
 
@@ -36,5 +36,4 @@ La tâche Régler et valider la taxe permet de régler les soldes de taxe dans l
     * Si l'option Inclure les corrections n'est pas sélectionnée dans la page Paramètres de comptabilité, le règlement peut être traité pour différentes versions. L'original est le premier règlement pour un intervalle de périodes et peut seulement être traité une fois pour un intervalle de périodes. Les dernières corrections permettent de régler les transactions de taxe validées après la création de la version d'origine.   
 5. Entrez une date dans le champ Date de transaction.
 6. Cliquez sur OK.
-
 

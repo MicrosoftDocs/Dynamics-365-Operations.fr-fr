@@ -1,13 +1,13 @@
 ---
-title: "Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur"
-description: "Cet article vous fait parcourir les étapes d'un scénario dans lequel un avoir est réglé grâce à une facture."
+title: Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur
+description: Cet article vous fait parcourir les étapes d'un scénario dans lequel un avoir est réglé grâce à une facture.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c094b0c3c580a47e7ed876e682c83afc6d9d4c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fb61a3dd6534cd20f311b5b0c85b9e712981a5dd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367890"
 ---
-
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,6 @@ Elle peut revoir les transactions fournisseur dans la page **Transactions fourni
 | Inv-10071  |                  | 7/2/2015  | CR10071 | 200,00                               |                                       | 0,00    | USD      |
 | DISC-10071 |  Escompte de règlement   | 7/2/2015  |         | 2,00                                 |                                       | 0,00    | USD      |
 | DISC-10071 |  Escompte de règlement   | 7/2/2015  |         |                                      | 2,00                                  | 0,00    | USD      |
-
 
 
 

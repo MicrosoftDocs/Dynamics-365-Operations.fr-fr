@@ -1,13 +1,13 @@
---- 
-title: "Créer une commande fournisseur"
-description: "Cette procédure vous indique comment créer une commande fournisseur manuellement."
+---
+title: Créer une commande fournisseur
+description: Cette procédure vous indique comment créer une commande fournisseur manuellement.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 50bf9927626a2a78a5f007b0b73d338585bbf9ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330906"
 ---
 # <a name="create-a-purchase-order"></a>Créer une commande fournisseur
 
@@ -75,5 +75,4 @@ Cette procédure vous indique comment créer une commande fournisseur manuelleme
     * Cette boîte de dialogue affiche les totaux de la commande entière.  
     * Le champ de sélection vous permet de modifier la manière dont les totaux sont calculés. Par exemple, vous pouvez choisir Quantité de l'accusé de réception de marchandises pour indiquer les totaux liés à la quantité de produits reçus, ou Quantité commandée pour indiquer la quantité de produit commandée.  
 2. Cliquez sur OK.
-
 

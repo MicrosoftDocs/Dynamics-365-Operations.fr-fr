@@ -1,13 +1,13 @@
 ---
-title: "Accusé de réception de marchandises et commandes fournisseur"
-description: "Cette rubrique décrit les différentes options d'enregistrement des marchandises comme étant reçues."
+title: Accusé de réception de marchandises et commandes fournisseur
+description: Cette rubrique décrit les différentes options d'enregistrement des marchandises comme étant reçues.
 author: FrankDahl
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
 ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356666"
 ---
-
 # <a name="product-receipt-against-purchase-orders"></a>Accusé de réception de marchandises et commandes fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Vous pouvez créer des lignes de CF où l'option **Nouvelle immobilisation** est
 
 Vous pouvez sélectionner plusieurs commandes et traiter la réception de toutes ces commandes ensemble. Cette approche n’est pas très souvent utilisée, mais vous pouvez l’utiliser si un fournisseur a consolidé des expéditions pour vous en un seul chargement. Lors de la réception de la marchandises à l’achat, il existe une fonction pour effectuer des mises à jour récapitulatives. Les mises à jour récapitulatives vous permettent de valider un bon de livraison unique du fournisseur plusieurs CF.  
 
-Les CF peuvent être créées à partir d’une commande client où l'option **Livraison directe** a été sélectionnée. Si la livraison directe est utilisée, les marchandises n'arrivent jamais dans votre entrepôt mais sont livrés directement du fournisseur au client. Dans ce cas, la réception est en général enregistrée directement sur la CF. La réception peut être faite automatiquement, notamment grâce à l’intégration de l'échange de données informatisé (EDI) avec le fournisseur. Sinon, si la CF est une CF intersociétés, Microsoft Dynamics 365 for Finance and Operations automatise la réception de la commande client intersociétés lors de l’expédition. Lors de la livraison directe est utilisée, les marchandises sont toujours prises en compte en tant que stock, même si elles n’arrivent pas physiquement dans l’entrepôt. Par conséquent, lorsque la réception de marchandises est enregistrée sur la CF, la commande client est automatiquement mis à jour avec un bon de livraison, afin que les modifications globales d’inventaire soient à 0 (zéro). Dans les scénarios de livraison directe, vous ne devez pas exiger de préenregistrement. Si vous utilisez des entrepôts qui sont activés pour la gestion des entrepôts, vous pouvez contourner l’obligation d’enregistrement des plaques d’immatriculation en spécifiant un entrepôt virtuel à la place. Vous spécifiez cet entrepôt dans le champ **Entrepôt des livraisons directes** sur le produit. 
+Les CF peuvent être créées à partir d’une commande client où l'option **Livraison directe** a été sélectionnée. Si la livraison directe est utilisée, les marchandises n'arrivent jamais dans votre entrepôt mais sont livrés directement du fournisseur au client. Dans ce cas, la réception est en général enregistrée directement sur la CF. La réception peut être faite automatiquement, notamment grâce à l’intégration de l'échange de données informatisé (EDI) avec le fournisseur. Sinon, si la CF est une CF intersociétés, Microsoft Dynamics 365 for Finance and Operations automatise la réception de la commande client intersociétés lors de l’expédition. Lors de la livraison directe est utilisée, les marchandises sont toujours prises en compte en tant que stock, même si elles n’arrivent pas physiquement dans l’entrepôt. Par conséquent, lorsque la réception de marchandises est enregistrée sur la CF, la commande client est automatiquement mis à jour avec un bon de livraison, afin que les modifications globales d’inventaire soient à 0 (zéro). Dans les scénarios de livraison directe, vous ne devez pas exiger de préenregistrement. Si vous utilisez des entrepôts qui sont activés pour la gestion des entrepôts, vous pouvez contourner l’obligation d’enregistrement des plaques d’immatriculation en spécifiant un entrepôt virtuel à la place. Vous spécifiez cet entrepôt dans le champ **Entrepôt des livraisons directes** sur le produit. 
 
 Une fois l’accusé de réception de marchandises traitée sur la CF, le statut de la CF est défini sur **Reçue** pour indiquer que la facture peut être traitée pour la commande. Vous pouvez consulter les détails sur les marchandises qui ont déjà été reçues à l’aide de la page **Journaux d'accusés de réception de marchandises**.  
 
@@ -69,7 +68,6 @@ Vous pouvez accéder à cette page à partir du groupe d'actions **Réception** 
 [Approbation et confirmation de la commande fournisseur](purchase-order-approval-confirmation.md)
 
 [Vue d'ensemble des factures fournisseur](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

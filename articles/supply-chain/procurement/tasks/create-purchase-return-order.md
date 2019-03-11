@@ -1,13 +1,13 @@
---- 
-title: "Créer une commande fournisseur de retour"
-description: "Cette procédure vous montre comment créer une commande fournisseur retournée à l'aide de l'action Avoir pour copier des lignes d'un document de facturation fournisseur à une nouvelle CF."
+---
+title: Créer une commande fournisseur de retour
+description: Cette procédure vous montre comment créer une commande fournisseur retournée à l'aide de l'action Avoir pour copier des lignes d'un document de facturation fournisseur à une nouvelle CF.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e080252006d889e2f27db2bccb7b541f3ee4cf9e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9124100f84afb13acc2ac9dda7b9483afb01754
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354136"
 ---
 # <a name="create-a-purchase-return-order"></a>Créer une commande fournisseur de retour
 
@@ -77,5 +77,4 @@ Cette procédure vous montre comment créer une commande fournisseur retournée 
     * Ce champ permet d'entrer une référence qui sera utilisée comme N° document pour le journal de réception de marchandises.  
 5. Cliquez sur OK.
     * Les marchandises sont désormais enregistrées comme expédiées sur la commande fournisseur retournée et un journal des accusés de réception de marchandises est créé. Vous pouvez utiliser l'action Accusé de réception de marchandises pour passer en revue les journaux créés avec la commande fournisseur, et voir ce qui a été reçu ou retourné, et quand.  
-
 

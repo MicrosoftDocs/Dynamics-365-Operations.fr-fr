@@ -1,13 +1,13 @@
---- 
-title: "Créer des configurations d'états électroniques pour importer des données à partir de fichiers CSV externes"
-description: "Cette procédure permet de créer des configurations d'états électroniques pour importer des données dans l'application Dynamics 365 for Finance and Operations à partir d'un fichier externe au format CSV."
+---
+title: Créer des configurations d'états électroniques pour importer des données à partir de fichiers CSV externes
+description: Cette procédure permet de créer des configurations d'états électroniques pour importer des données dans l'application Dynamics 365 for Finance and Operations, à partir d'un fichier externe au format CSV.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365222"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Créer des configurations d'états électroniques pour importer des données à partir de fichiers CSV externes
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure permet de créer des configurations d'états électroniques pour importer des données dans l'application Dynamics 365 for Finance and Operations à partir d'un fichier externe au format CSV. Dans cette procédure, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Créer un fournisseur de configuration et le marquer comme actif. » 
+Cette procédure permet de créer des configurations d'états électroniques pour importer des données dans l'application Dynamics 365 for Finance and Operations, à partir d'un fichier externe au format CSV. Dans cette procédure, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Créer un fournisseur de configuration et le marquer comme actif. » 
 
 Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. Ces étapes peuvent être effectuées à l'aide de l'ensemble de données USMF. 
 
 Vous devez également télécharger et enregistrer localement les fichiers suivants : (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-    * Vous pouvez configurer un processus pour importer des fichiers externes au format XML, TXT ou CSV dans des tables de l'application Dynamics 365 for Finance and Operations. Tout d'abord, vous devez créer un modèle de données abstrait pour représenter les données importées, d'un point de vue commercial - une configuration de modèle de données ER est créée pour cela. Ensuite, définissez une structure du fichier importé qui correspond au modèle de données conçu comme moyen de transférer les données du fichier vers le modèle de données abstrait - une configuration de format ER est créée pour cela. Enfin, la configuration du modèle de données ER doit être étendue avec une nouvelle mise en correspondance de modèle décrivant comment les données du fichier importé restent des données de modèle de données abstrait, et comment elles sont utilisées pour la mise à jour des tables d'application ou des entités de données.  
+    * Vous pouvez configurer un processus pour importer des fichiers externes au format XML, TXT ou CSV dans des tables de l'application Dynamics 365 for Finance and Operations. Tout d'abord, vous devez créer un modèle de données abstrait pour représenter les données importées, d'un point de vue commercial - une configuration de modèle de données ER est créée pour cela. Ensuite, définissez une structure du fichier importé qui correspond au modèle de données conçu comme moyen de transférer les données du fichier vers le modèle de données abstrait - une configuration de format ER est créée pour cela. Enfin, la configuration du modèle de données ER doit être étendue avec une nouvelle mise en correspondance de modèle décrivant comment les données du fichier importé restent des données de modèle de données abstrait, et comment elles sont utilisées pour la mise à jour des tables d'application ou des entités de données.  
     * Les étapes suivantes décrivent comment les transactions fournisseur suivies en externe sont importées depuis le fichier CSV externe pour une utilisation ultérieure dans le règlement fournisseur pour les déclarations d'honoraires.   
     * Vérifiez que le fournisseur de la configuration pour la société fictive Litware, Inc. est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».  
 2. Cliquez sur Configurations des états.
@@ -119,5 +119,4 @@ Vous devez également télécharger et enregistrer localement les fichiers suiva
     * Examinez la sortie au format XML, qui représente les données importées depuis le fichier sélectionné et transférées vers le modèle de données. Notez que toutes les 7 lignes du fichier CSV importé ont été traitées. Les titres des champs sur la ligne 1 ont été ignorés, 4 transactions ont été correctement analysées et 2 transactions ont été reconnues comme non valides.   
 3. Fermez la page.
 4. Fermez la page.
-
 

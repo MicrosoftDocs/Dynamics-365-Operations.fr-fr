@@ -1,13 +1,13 @@
 ---
-title: "Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur"
-description: "Les répartitions comptables permettent de définir la façon dont un montant sera pris en compte, par exemple, la manière dont la dépense, l'immobilisation, la taxe ou les frais seront reportés sur la facture fournisseur. Chaque montant qui doit être pris en compte lorsque la facture fournisseur est journalisée aura une ou plusieurs répartitions comptables."
+title: Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur
+description: Les répartitions comptables permettent de définir la façon dont un montant sera pris en compte, par exemple, la manière dont la dépense, l'immobilisation, la taxe ou les frais seront reportés sur la facture fournisseur. Chaque montant qui doit être pris en compte lorsque la facture fournisseur est journalisée aura une ou plusieurs répartitions comptables.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f59eb2f61bc6bc887461683408b57c4672ce5bf1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f8169c32dc47c1635f6d3d00852d14d677678868
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351353"
 ---
-
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -246,7 +245,6 @@ Il est impossible de créer des répartitions comptables pour les taxes tant que
 Avant de valider une facture fournisseur, vous pouvez afficher l'écriture comptable complète de la facture, qui inclut des débits et des crédits, pour vérifier que la facture est validée dans les comptes corrects. Cette vue de l'écriture de compte complète est appelée écriture de journal de comptabilité auxiliaire. 
 
 Si l'écriture de journal de comptabilité auxiliaire est incorrecte lorsque vous en affichez un aperçu avant de journaliser la facture fournisseur, vous ne pouvez pas la modifier. Vous devez plutôt modifier les répartitions comptables ou le profil de validation. Les répartitions comptables permettent de définir un côté de l'écriture de compte, de débit ou de crédit. L'écriture de compte de journal de comptabilité auxiliaire de contrepartie est créée à l'aide des profils de validation, par exemple le compte fournisseur ou la taxe.
-
 
 
 

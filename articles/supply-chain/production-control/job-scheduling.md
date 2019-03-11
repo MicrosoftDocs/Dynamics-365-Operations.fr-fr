@@ -1,13 +1,13 @@
 ---
-title: "Planification de tâche"
-description: "Cet article fournit des informations sur la planification des tâches, qui constitue une forme plus détaillée de planification que la planification d'opérations. La planification des tâches permet de programmer des tâches ou ordres d'atelier, et de contrôler l'environnement de fabrication."
+title: Planification de tâche
+description: Cet article fournit des informations sur la planification des tâches, qui constitue une forme plus détaillée de planification que la planification d'opérations. La planification des tâches permet de programmer des tâches ou ordres d'atelier, et de contrôler l'environnement de fabrication.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d506a6fbeb7e88dc6b1709203bc0822b1f4dc0f8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 53923db7cbd3b74c1d1db72f51076640815c7df4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339531"
 ---
-
 # <a name="job-scheduling"></a>Planification de tâche
 
 [!include [banner](../includes/banner.md)]
@@ -75,7 +74,6 @@ Des ressources sont affectées aux tâches lors de la planification des tâches.
 
 ## <a name="resource-efficiency"></a>Rendement des ressources
 La planification des tâches prend en compte les pourcentages de rendement spécifiés pour les ressources. Les pourcentages de rendement augmentent ou diminuent le temps réservé pour la ressource. Ainsi, le délai est également augmenté ou réduit. La formule suivante est utilisée pour le calcul : Planification du temps = Temps × 100 ÷ Pourcentage de rendement où le *Temps* inclut le temps d'exécution et le temps de réglage.
-
 
 
 

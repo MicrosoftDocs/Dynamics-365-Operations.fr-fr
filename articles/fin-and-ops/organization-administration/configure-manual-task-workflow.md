@@ -1,13 +1,13 @@
 ---
-title: "Configurer des tâches manuelles dans un workflow"
-description: "Cette rubrique explique comment configurer les propriétés d'une tâche manuelle."
+title: Configurer des tâches manuelles dans un workflow
+description: Cette rubrique explique comment configurer les propriétés d'une tâche manuelle.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309746"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>Configurer des tâches manuelles dans un workflow
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,7 @@ Procédez comme suit pour indiquer à qui affecter la tâche manuelle.
     </tr>
     <tr>
     <td>Utilisateur</td>
-    <td>Utilisateurs de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition spécifiques</td>
+    <td>Utilisateurs Microsoft Dynamics 365 for Finance and Operations spécifiques</td>
     <td>
     <ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
@@ -383,4 +382,3 @@ Lorsque la tâche manuelle est affectée à un utilisateur, l'utilisateur doit a
 5. Activez la case à cocher **Déléguer** si vous voulez que l'utilisateur puisse affecter la tâche à un autre utilisateur.
 6. Activez la case à cocher **Réaffecter** si vous voulez que l'utilisateur puisse réaffecter la tâche à un autre utilisateur de la file d'attente des éléments de travail.
 7. Activez la case à cocher **Lancer** si vous voulez que l'utilisateur puisse réaffecter la tâche à la file d'attente des éléments de travail. Un autre utilisateur peut effectuer la tâche.
-

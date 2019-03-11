@@ -1,13 +1,13 @@
 ---
 title: Modes de paiement dans les centres d'appels
-description: "Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d'appels de Microsoft Dynamics 365 for Retail."
+description: Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d'appels de Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 0b86388efab113af605d62c6ad76c8169d9c4643
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355378"
 ---
-
 # <a name="payment-methods-in-call-centers"></a>Modes de paiement dans les centres d'appels
 
 [!include [banner](includes/banner.md)]
 
-Dans Microsoft Dynamics 365 for Retail, la configuration du canal de centre d'appels inclut un paramètre **Activer l'achèvement de commande**. Ce paramètre permet de garantir que toutes les commandes que les utilisateurs du canal créent sont lancées vers le traitement des commandes uniquement si elles ont un acompte ou un paiement pré-autorisé qui correspond aux tolérances approuvées. Si le paramètre **Activer l'achèvement de la commande** est activé, les utilisateurs du centre d'appels peuvent entrer des paiements pour des commandes client à l'aide des fonctionnalités de traitement des paiements du centre d'appels. Si le paramètre est désactivé, les utilisateurs du centre d'appels ne peuvent pas utiliser les fonctionnalités de traitement de paiement du centre d'appels, mais ils peuvent encore appliquer des acomptes aux commandes client à l'aide de la fonctionnalité de Comptabilité client standard.
+Dans Microsoft Dynamics 365 for Retail, la configuration du canal de centre d'appels inclut un paramètre **Activer l'achèvement de commande**. Ce paramètre permet de garantir que toutes les commandes que les utilisateurs du canal créent sont lancées vers le traitement des commandes uniquement si elles ont un acompte ou un paiement pré-autorisé qui correspond aux tolérances approuvées. Si le paramètre **Activer l'achèvement de la commande** est activé, les utilisateurs du centre d'appels peuvent entrer des paiements pour des commandes client à l'aide des fonctionnalités de traitement des paiements du centre d'appels. Si le paramètre est désactivé, les utilisateurs du centre d'appels ne peuvent pas utiliser les fonctionnalités de traitement de paiement du centre d'appels, mais ils peuvent encore appliquer des acomptes aux commandes client à l'aide de la fonctionnalité de Comptabilité client standard.
 
 Lors de la configuration du canal, une société peut définir les modes de paiement autorisés pour un canal de centre d'appels. Le canal de centre d'appels utilise les mêmes modes de paiement définis pour les canaux de magasin de vente au détail.
 
@@ -54,4 +53,3 @@ Lorsque vous créez un mode de paiement, il existe cinq fonctions de mode de pai
 Pour les scénarios de traitement des remboursements, le centre d'appels utilise également des modes de paiement définis dans Comptabilité client. Pour configurer ces modes de paiement, accédez à **Retail** \> **Paramétrage de canal** \> **Paramétrage de centre d'appels** \> **Méthodes de remboursement du centre d'appels**. Vous devez effectuer cette configuration pour traiter les chèques de remboursement aux clients. Par exemple, si un client a payé initialement pour une commande au comptant ou à l'aide d'un chèque, l'utilisateur peut avoir besoin d'envoyer au client un chèque de remboursement via la Comptabilité client. Dans ce cas, les types de paiement au comptant et par chèque dans le centre d'appels doivent être mis en correspondance avec le mode de paiement approprié dans Comptabilité client pour garantir que le remboursement soit correctement traité.
 
 En outre, si un utilisateur traite un ordre de retour en tant qu'utilisateur du centre d'appels dans Retail, mais qu'il ne peut pas lier le retour à une vente d'origine, le mode de paiement **Retour** doit être défini dans les paramètres du centre d'appels. Accédez à **Retail** \> **Paramétrage du canal** \> **Paramétrage du centre d'appels** \> **Paramètres du centre d'appels**, puis, dans l'onglet **Retour marchandises/Retour**, dans le champ **Mode de paiement**, vérifiez qu'un mode de paiement est défini. Le mode de paiement est le mode de paiement utilisé pour les remboursements. Généralement, il est défini comme méthode de vérification ou méthode de compte client.
-

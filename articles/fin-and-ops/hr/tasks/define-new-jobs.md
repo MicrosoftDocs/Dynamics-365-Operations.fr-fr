@@ -1,13 +1,13 @@
---- 
-title: "Définir les nouvelles tâches"
-description: "Cette tâche se concentre sur la création d'une nouvelle tâche."
+---
+title: Définir les nouvelles tâches
+description: Cette tâche se concentre sur la création d'une nouvelle tâche.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347926"
 ---
 # <a name="define-new-jobs"></a>Définir les nouvelles tâches
 
@@ -57,7 +57,7 @@ Cette tâche se concentre sur la création d'une nouvelle tâche. Elle est effec
 21. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 22. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 23. Activez ou désactivez l'extension de la section Qualifications.
-    * Notez que les champs des organisateurs Qualifications, Certificats et Formation sont vides. Une fois les informations d'un modèle de poste copiées, les informations contenues dans ces champs sont entrées en une seule étape.   
+    * Notez que les champs des organisateurs Qualifications, Certificats et Formation sont vides. Une fois les informations d'un modèle de poste copiées, les informations contenues dans ces champs sont entrées en une seule étape.   
 24. Cliquez sur Enregistrer.
 25. Cliquez sur Copier depuis.
 26. Cliquez sur Copier à partir d'un modèle.
@@ -70,5 +70,4 @@ Cette tâche se concentre sur la création d'une nouvelle tâche. Elle est effec
 32. Activez ou désactivez l'extension de la section Certificats.
 33. Activez ou désactivez l'extension de la section Formation.
 34. Cliquez sur Enregistrer.
-
 

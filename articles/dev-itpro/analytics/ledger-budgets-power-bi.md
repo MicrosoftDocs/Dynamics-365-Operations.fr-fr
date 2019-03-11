@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI Comparatif Réel/Budget"
-description: "Cette rubrique décrit le contenu Power BI Comparatif Réel/Budget. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+title: Contenu Power BI Comparatif Réel/Budget
+description: Cette rubrique décrit le contenu Power BI Comparatif Réel/Budget. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: ryansandness
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: sericks
@@ -16,28 +16,27 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: c801544e9e37a528203f5a1730aa8cb526d63dbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: fa0c56f4773b9062d616772e2bca9a576ad37ce2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343487"
 ---
-
 # <a name="actual-vs-budget-power-bi-content"></a>Contenu Power BI Comparatif Réel/Budget
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit le contenu Power BI **Comparatif Réel/Budget**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Le contenu Power BI **Comparatif Réel/Budget** a été créé pour les personnes chargées de surveiller le comparatif des performances de budget dans leur organisation. Le contenu Power BI **Comparatif Réel/Budget** fournit une visibilité dans les écarts de budget. Vous pouvez analyser le budget de l'année en cours par catégorie de compte, code budgétaire, compte principal, description de compte principal ou période fiscale pour obtenir une meilleure compréhension de la cause de tous les écarts.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 Les états du contenu Power BI **Comparatif Réel/Budget** s'affichent dans les espaces de travail **Budget comptable et prévisions** et **CFO**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
 Le tableau suivant fournit des détails sur les mesures disponibles sur chaque page d'état du contenu Power BI **Comparatif Réel/Budget**.
 
 | Etat                      | Métriques                                                                             |
@@ -59,4 +58,3 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 | Comptabilités                   | Comptabilité permettant de filtrer l'état dans la comptabilité actuelle              |
 | Codes budgétaires              | Codes budgétaires selon lesquels filtrer les états                                                |
 | Entités juridiques            | Les entités juridiques permettant de filtrer l'état dans l'entité juridique actuelle |
-

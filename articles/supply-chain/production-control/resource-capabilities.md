@@ -1,13 +1,13 @@
 ---
-title: "Capacités de ressources"
-description: "Cet article fournit des informations sur les capacités de ressource. Une capacité est la capacité d'une ressource opérationnelle à exercer une activité spécifique. L'article décrit la manière dont les capacités et les concepts liés, tels que le niveau de qualification et la priorité, permettent de sélectionner les ressources appropriées pour une activité."
+title: Capacités de ressources
+description: Cet article fournit des informations sur les capacités de ressource. Une capacité est la capacité d'une ressource opérationnelle à exercer une activité spécifique. L'article décrit la manière dont les capacités et les concepts liés, tels que le niveau de qualification et la priorité, permettent de sélectionner les ressources appropriées pour une activité.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 29c42feec36f7fe1fc00918a8c24e42de8a6dda2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319291"
 ---
-
 # <a name="resource-capabilities"></a>Capacités de ressources
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Dans cet exemple, les deux machines peuvent être sélectionnées par le moteur 
 
 ## <a name="competencies-for-human-resources"></a>Compétences pour les ressources humaines
 Lorsque vous avez des ressources opérationnelles de type **Ressources humaines** associées aux collaborateurs dans le module Ressources humaines, vous pouvez également tirer profit des compétences des collaborateurs lorsque vous définissez les demandes de ressources pour une gamme de production. En d'autres termes, vous pouvez également spécifier des exigences en matière de compétences, de cours, de certificats ou de fonctions spécifiques. Le moteur de planification peut ensuite sélectionner les ressources associées aux collaborateurs, et la sélection sera basée sur les compétences de ces collaborateurs. Les compétences sont paramétrés dans le module Ressources humaines, et non sur la page **Capacités de ressources**. Lorsque vous définissez des compétences, des cours, des certificats ou des fonctions comme demandes de ressources, vous devez utiliser la fonctionnalité Ressources humaines et associer chaque ressource de type **Ressources humaines** au collaborateur correspondant. Si vous n'utilisez pas la fonctionnalité Ressources humaines, vous pouvez définir les capacités sur la page **Capacités de ressources**, qui ressemblent ou dupliquent les compétences du module Ressources humaines. Toutefois, la page **Capacités de ressources** ne contient pas la fonctionnalité requise pour tenir à jour les compétences, les cours, les certifications ou les fonctions.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement"
-description: "Cette rubrique décrit comment utiliser les modèles de travail et les instructions d'emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l'entrepôt."
+title: Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement
+description: Cette rubrique décrit comment utiliser les modèles de travail et les instructions d'emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l'entrepôt.
 author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325409"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement
 
 [!include [banner](../includes/banner.md)]
@@ -163,4 +162,3 @@ Sélectionnez cette option pour utiliser des stratégies de traitement par lots 
 Pour cet exemple, imaginez un processus de commande fournisseur dans lequel l'instruction d'emplacement doit trouver de la capacité disponible dans un entrepôt pour des articles en stock qui viennent d'être enregistrés au quai de réception. Vous devez d'abord trouver de la capacité disponible dans l'entrepôt en consolidant le stock disponible existant. Si la consolidation n'est pas possible, vous devez trouver un emplacement vide. 
 
 Pour ce scénario, vous devez définir deux actions d'instruction d'emplacement. La première action dans l'ordre doit utiliser la stratégie **Consolider**, et la deuxième doit utiliser la stratégie **Emplacement vide sans travail entrant**. À moins de définir une troisième action pour gérer un scénario de dépassement de capacité, deux résultats sont possibles lorsqu'il n'y a plus de capacité dans l'entrepôt : le travail peut être créé même si aucun emplacement n'est défini, ou le processus de création de travail peut échouer. Les résultats sont déterminés par le paramétrage dans la page **Échecs d'instruction d'emplacement**, dans laquelle vous pouvez décider de sélectionner ou non l'option **Arrêter le travail à l'échec d'instruction d'emplacement** pour chaque type d'ordre de travail.
-

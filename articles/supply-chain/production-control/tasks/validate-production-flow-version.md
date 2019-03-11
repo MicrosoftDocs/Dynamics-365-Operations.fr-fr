@@ -1,13 +1,13 @@
---- 
+---
 title: Valider un flux de production et une version
-description: "Cette procédure montre comment créer un flux de production et une première version pour la lean manufacturing."
+description: Cette procédure montre comment créer un flux de production et une première version pour la lean manufacturing.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4ae4c5f55d317a99e23ba6e76fc50ddece1e55a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7fb52291f15bfe9063b2a9d4a572dcdc44286402
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352848"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Valider un flux de production et une version
 
@@ -63,5 +63,4 @@ Cette procédure montre comment créer un flux de production et une première ve
 12. Entrez un nombre de jours dans la période pour la durée de cycle réelle.
     * La période pour la durée de cycle réelle est le nombre de jours pendant lesquels les tâches sont regroupées à rebours à partir de la minute actuelle pour calculer la durée de cycle réelle. Cette valeur peut être modifiée à tout moment et n'est utilisée que pour le calcul des durées de cycle réelles.  
 13. Cliquez sur Enregistrer.
-
 

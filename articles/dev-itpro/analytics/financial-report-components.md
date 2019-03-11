@@ -1,13 +1,13 @@
 ---
 title: Composants des rapports financiers
-description: "Cet article décrit l’utilisation des composants ou des blocs élémentaires, de définitions d'état dans la génération d’états financiers. Ces blocs élémentaires incluent les définitions de lignes, les définitions de colonnes et les définitions d'arborescence de génération d'états. Cet article explique comment organiser et verrouiller les blocs élémentaires et comment utiliser des groupes de blocs élémentaires."
+description: Cet article décrit l’utilisation des composants ou des blocs élémentaires, de définitions d'état dans la génération d’états financiers. Ces blocs élémentaires incluent les définitions de lignes, les définitions de colonnes et les définitions d'arborescence de génération d'états. Cet article explique comment organiser et verrouiller les blocs élémentaires et comment utiliser des groupes de blocs élémentaires.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368143"
 ---
-
 # <a name="financial-report-components"></a>Composants des rapports financiers
 
 [!include [banner](../includes/banner.md)]
@@ -128,4 +127,3 @@ Lorsque vous ouvrez un bloc élémentaire, d'autres utilisateurs peuvent accéde
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
-

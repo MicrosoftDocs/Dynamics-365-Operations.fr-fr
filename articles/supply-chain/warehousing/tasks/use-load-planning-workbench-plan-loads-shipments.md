@@ -1,13 +1,13 @@
---- 
-title: "Planifier les chargements et les expéditions à l'aide de l'atelier Planification des chargements"
-description: "Cette procédure indique comment utiliser la console de planification des chargements pour créer une charge pour une commande client."
+---
+title: Planifier les chargements et les expéditions à l'aide de l'atelier Planification des chargements
+description: Cette procédure indique comment utiliser la console de planification des chargements pour créer une charge pour une commande client.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f840a4c15305af5f55451ae7f1cec2da25e685a4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343901"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Planifier les chargements et les expéditions à l'aide de l'atelier Planification des chargements
 
@@ -65,5 +65,4 @@ Cette procédure indique comment utiliser la console de planification des charge
 5. Cliquez sur Affecter.
 6. Fermez la page.
 7. Fermez la page.
-
 

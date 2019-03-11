@@ -1,31 +1,30 @@
 ---
 title: Importer les catalogues fournisseur
-description: "Cette rubrique décrit le processus pour importer les données du catalogue fournisseur."
+description: Cette rubrique décrit le processus pour importer les données du catalogue fournisseur.
 author: mkirknel
 manager: AnnBe
 ms.date: 03/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
-ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362025"
 ---
-
 # <a name="import-vendor-catalogs"></a>Importer les catalogues fournisseur
 [!include[banner](../includes/banner.md)]
 
@@ -53,7 +52,7 @@ Pour importer les données d'un catalogue fournisseur, procédez comme suit :
 
 6.  Téléchargez le fichier DMC.
 
-7.  Révisez, approuvez ou rejetez les produits du catalogue fournisseur. Les produits sont automatiquement mis en correspondance avec les catégories d'approvisionnement dans Dynamics 365 for Finance and Operations. 
+7.  Révisez, approuvez ou rejetez les produits du catalogue fournisseur. Les produits sont automatiquement mis en correspondance avec les catégories d'approvisionnement dans Dynamics 365 for Finance and Operations. 
     
 Les produits approuvés sont ajoutés au produit générique et sont lancés dans les entités juridiques sélectionnées. Seuls les produits approuvés peuvent être ajoutés au catalogue d'approvisionnement.
 
@@ -70,4 +69,3 @@ Le modèle de fichier d'importation de catalogue est un fichier XSD que vous pou
 3. Dans la boîte de dialogue **Enregistrer sous**, sélectionnez l'emplacement de stockage du modèle de fichier de catalogue et enregistrez le fichier.
 
 Pour plus d'informations et pour obtenir des exemples, consultez ce billet de blog : [Catalogues fournisseur dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
-

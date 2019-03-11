@@ -1,38 +1,37 @@
 ---
-title: "Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (10 septembre 2018)"
-description: "Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version actuelle de Microsoft Dynamics 365 for Talent Core HR."
+title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (10 septembre 2018)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 7d4a049a44374276655dce696b5bbbe2e6f9fba9
 ms.openlocfilehash: b41ce93c8ae93054d2b0d71340b99e0910d4510f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304420"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (10 septembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (10 septembre 2018)
 
 [!include [banner](includes/banner.md)]
 
 **Version 8.1.138.0**
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version actuelle de Microsoft Dynamics 365 for Talent Core HR.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
 
 ## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a>Indiquer un moment spécifique de la journée dans les demandes de congés (demi-journées)
 
@@ -101,4 +100,3 @@ Cette version contient plusieurs correctifs de bogue supplémentaires :
 - Lorsqu'un fournisseur est embauché, l'onglet **Rémunération** ne doit pas être disponible dans la page de demande/d'action.
 - Au cours du processus de résiliation de la demande, vous ne pouvez pas continuer tant que tous les champs obligatoires ne contiennent pas des données.
 - Les problèmes d'ordre de tri et d'affichage de la date dans le module Analyse de la gestion du personnel ont été résolus.
-

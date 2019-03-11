@@ -1,13 +1,13 @@
 ---
 title: Comptes de validation d'acquisition d'immobilisations
-description: "Cet article explique comment paramétrer les comtes de validation de la comptabilité afin d'acquérir des immobilisations."
+description: Cet article explique comment paramétrer les comtes de validation de la comptabilité afin d'acquérir des immobilisations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a3ac1580e33197c0cd8a82f34804d4639945d861
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 887616463856875e2382a00b1d56520391ead844
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325363"
 ---
-
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Comptes de validation d'acquisition d'immobilisations
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ Lorsque le Journal des factures ou les Commandes fournisseur du module Achats so
 Pour les acquisitions validées à l'aide du journal Stock vers immobilisations dans le module Comptabilité, l'immobilisation n'est pas achetée à des sources externes, mais transférée depuis le propre stock de la société. Ainsi, le compte de contrepartie est un compte de sorties de stock pour l'article en stock dans le module Gestion des stocks.
 
 Pour plus d'informations, voir [Acquérir les actifs via l'approvisionnement](acquire-assets-procurement.md).
-
 
 
 

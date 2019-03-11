@@ -1,13 +1,13 @@
 ---
-title: "Régimes de rémunération"
-description: "Les gestionnaires de rémunération et avantages peuvent utiliser la gestion des rémunérations pour tenir à jour et traiter les régimes de rémunération fixes et variables des employés de l'organisation."
+title: Régimes de rémunération
+description: Les gestionnaires de rémunération et avantages peuvent utiliser la gestion des rémunérations pour tenir à jour et traiter les régimes de rémunération fixes et variables des employés de l'organisation.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: e80b3ebc9c374073ff5a2dfc8c2acf1d7f6c6287
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 86070204769b866b947405436437eb0eb746de11
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304349"
 ---
-
 # <a name="compensation-plans"></a>Régimes de rémunération
 
 [!include [banner](includes/banner.md)]
@@ -132,7 +131,6 @@ Chaque fois qu'un événement de processus est exécuté, un événement de rém
 
 ## <a name="recommendations"></a>Recommandations
 Après avoir exécuté un événement des traitements de données, vous pouvez recommander des ajustements au montant de la prime et à l'augmentation pour mérite d'un employé, sur la base des résultats du calcul de l'événement des traitements de données. Pour être en mesure d'émettre des recommandations pour les employés, vous devez autoriser les recommandations lorsque vous paramétrez les régimes de rémunération ou l'événement des traitements de données.
-
 
 
 

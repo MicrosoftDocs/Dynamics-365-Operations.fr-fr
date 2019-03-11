@@ -1,13 +1,13 @@
 ---
-title: "Feuilles de coûts"
-description: "Le paramétrage de la feuille d'évaluation des coûts a deux objectifs. Premièrement, vous définissez le format d'affichage des informations des prix des marchandises vendues sur un article fabriqué ou un ordre de fabrication. L'affichage formaté est appelé feuille de coûts. Deuxièmement, vous définissez la base de calcul des coûts indirects. Le paramétrage de la feuille d'évaluation des coûts se base sur la fonctionnalité de groupe de coûts pour l'affichage d'informations et pour les formules de calcul des coûts indirects. Les deux objectifs du paramétrage de la feuille d'évaluation des coûts sont décrits dans cet article."
+title: Feuilles de coûts
+description: Le paramétrage de la feuille d'évaluation des coûts a deux objectifs. Premièrement, vous définissez le format d'affichage des informations des prix des marchandises vendues sur un article fabriqué ou un ordre de fabrication. L'affichage formaté est appelé feuille de coûts. Deuxièmement, vous définissez la base de calcul des coûts indirects. Le paramétrage de la feuille d'évaluation des coûts se base sur la fonctionnalité de groupe de coûts pour l'affichage d'informations et pour les formules de calcul des coûts indirects. Les deux objectifs du paramétrage de la feuille d'évaluation des coûts sont décrits dans cet article.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7aaa8a6a47bbd5c1d26cea7b05c3c5d031495382
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312759"
 ---
-
 # <a name="costing-sheets"></a>Feuilles de coûts
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Deux stratégies de blocage pour une version d'évaluation des coûts détermine
 Après avoir défini le format de la feuille de coûts et les calculs des coûts indirects, vous devez effectuer une étape séparée pour vérifier et enregistrer les informations. La feuille de coûts représente un format à l'échelle de la société pour afficher de façon cohérente les informations sur le coût des marchandises vendues. 
 
 La feuille de coûts s'affiche dans la page **Calculer le coût de l'article**. La feuille de coûts peut être affichée pour l'enregistrement des coûts calculés d'un article fabriqué dans la page **Prix de l'article** ou pour un enregistrement de calcul spécifique à l'ordre dans la page **Résultats du calcul de nomenclature**. Elle peut également être affichée dans le cadre de la page **Calcul de prix** pour un ordre de fabrication.
-
 
 
 

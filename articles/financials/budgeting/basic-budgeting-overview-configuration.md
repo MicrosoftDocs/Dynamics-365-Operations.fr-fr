@@ -1,13 +1,13 @@
 ---
 title: Vue d'ensemble du budget
-description: "Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 for Finance and Operations pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers."
+description: Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 for Finance and Operations pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332309"
 ---
-
 # <a name="budgeting-overview"></a>Vue d'ensemble du budget 
 
 [!include [banner](../includes/banner.md)]
 
-Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 for Finance and Operations pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
+Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 for Finance and Operations pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
 
 <a name="overview"></a>Vue d'ensemble
 --------
@@ -80,7 +79,6 @@ Le responsable du budget peut consulter l'état actuel d'un budget dans l'espace
 La page de recherche **Comparatif Réel/Budget** vous permet de zoomer sur les détails du budget par rapport aux montants réels. Sélectionnez une ligne sur la page de recherche, puis cliquez sur **Soldes de la période** pour afficher les montants du budget et les montants réels répartis sur plusieurs périodes fiscales. La page **Écritures de compte budgétaires** permet d'extraire les détails du montant du budget des écritures de registre budgétaires. La page **Écritures du journal des opérations diverses** affiche les écritures comptables incluses dans le montant **Chiffres réels** calculé. 
 
 Une société qui utilise la fonctionnalité de planification budgétaire peut créer et utiliser les *prévisions budgétaires* dans l'espace de travail **Budgets comptables et prévisions**.
-
 
 
 

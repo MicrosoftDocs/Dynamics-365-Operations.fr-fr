@@ -1,13 +1,13 @@
 ---
 title: Gestion des reprises
-description: "Cette rubrique décrit la gestion des reprises pour Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique décrit la gestion des reprises pour Microsoft Dynamics 365 for Finance and Operations.
 author: t-benebo
 manager: AnnBe
 ms.date: 08/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: c3794535cf9230389d7da3f9dbde010e5c48cf2f
 ms.openlocfilehash: 907d59f850d8d761e2dd4e04bd288a696f00964d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318808"
 ---
-
 # <a name="trade-allowance-management"></a>Gestion des reprises
 
 [!include [banner](../includes/banner.md)]
@@ -199,5 +198,4 @@ L'onglet **Crédits de facturation rétroactive** contient les détails des diff
 Pour obtenir une vue d'ensemble plus analytique des différentes mesures de performances pour la promotion, vous pouvez utiliser la vue Analyse. Pour accéder à la vue Analyse, cliquez sur **Ventes et marketing** \> **Reprises** \> **Accords de reprise**. Dans le volet Actions, cliquez sur **Analyse**.  
 
 Pour obtenir une vue d'ensemble plus analytique des différentes mesures de performances pour la promotion, vous pouvez utiliser la vue Analyse. Pour accéder à la vue Analyse, cliquez sur **Ventes et marketing** \> **Reprises** \> **Accords de reprise**. Dans le volet Actions, cliquez sur **Analyse**. 
-
 

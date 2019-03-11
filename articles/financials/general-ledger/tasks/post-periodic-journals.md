@@ -1,13 +1,13 @@
---- 
-title: "Valider des journaux périodiques"
-description: "Les journaux périodiques sont parfois appelés journaux récurrents car le montant, le texte, ainsi que d'autres informations sont répétés à chaque extraction du journal périodique."
+---
+title: Valider des journaux périodiques
+description: Les journaux périodiques sont parfois appelés journaux récurrents car le montant, le texte, ainsi que d'autres informations sont répétés à chaque extraction du journal périodique.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: deae523d922e1d6a4f7bb05433e9b1568c9c1ee9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8eae11e0501db78e467e517b29a2bc19f5765e75
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351307"
 ---
 # <a name="post-periodic-journals"></a>Valider des journaux périodiques
 
@@ -67,5 +67,4 @@ Les journaux périodiques sont parfois appelés journaux récurrents car le mont
 29. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 30. Cliquez sur OK.
     * Le journal périodique peut désormais être révisé, approuvé ou validé selon les besoins et le paramétrage.  
-
 

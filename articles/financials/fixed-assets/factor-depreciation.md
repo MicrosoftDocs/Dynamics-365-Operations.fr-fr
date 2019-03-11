@@ -1,13 +1,13 @@
 ---
-title: "Amortissement paramétrable"
-description: "Cet article donne une vue d'ensemble de la méthode d'amortissement paramétrable."
+title: Amortissement paramétrable
+description: Cet article donne une vue d'ensemble de la méthode d'amortissement paramétrable.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa8bc4566def9dd770a97facb459e6b977bfaffb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4b87d96e80b343a2b57db59b5d4c19e70d0a94ea
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338795"
 ---
-
 # <a name="factor-depreciation"></a>Amortissement paramétrable
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,6 @@ Le prix d'acquisition s'élève à 10 000, le facteur est de 20, la durée de 
 
 ## <a name="straight-line-depreciation"></a>Amortissement linéaire
 La valeur du champ **Facteur** est égale à **50**. Dans ce cas, l'amortissement est identique pour chaque période, et vous devez prendre en compte les implications des valeurs que vous avez spécifiées dans d'autres champs, comme décrit dans [Amortissement linéaire sur la durée de vie](straight-line-service-life-depreciation.md).
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Réévaluation des comptes en devises pour les Achats et les Ventes"
-description: "Des fluctuations des taux de change entraînent une variation de la valeur théorique (valeur comptable) des transactions en cours en devises étrangères avec le temps. Cet article fournit des informations sur le processus de réévaluation des comptes en devises que vous exécutez pour mettre à jour la valeur des transactions en cours dans Comptabilité fournisseur et Comptabilité client."
+title: Réévaluation des comptes en devises pour les Achats et les Ventes
+description: Des fluctuations des taux de change entraînent une variation de la valeur théorique (valeur comptable) des transactions en cours en devises étrangères avec le temps. Cet article fournit des informations sur le processus de réévaluation des comptes en devises que vous exécutez pour mettre à jour la valeur des transactions en cours dans Comptabilité fournisseur et Comptabilité client.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: da1aee4c678cb4786d52abc81b787edceaa5aa38
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b092529bef976558490c5aa4351e1626725b209b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341325"
 ---
-
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Réévaluation des comptes en devises pour les Achats et les Ventes
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Un enregistrement est conservé chaque fois que vous exécutez la tâche périod
     -   **Aucune** – Aucune dimension financière n'est validée. Si vous avez une dimension financière requise dans votre structure de compte, le processus de réévaluation est toujours exécuté et crée les écritures comptables sans dimension financière. Vous recevrez tout d'abord un message d'avertissement, afin de pouvoir annuler la réévaluation.
     -   **Table** – Les dimensions financières du compte client ou fournisseur sont validées pour les transactions de réévaluation des comptes en devises.
     -   **Validation** – Les dimensions financières de la transaction en cours de réévaluation sont validées pour les transactions de réévaluation des comptes en devises. Par défaut, les dimensions financières du compte général Achats/Ventes de la transaction d'origine sont utilisées pour le compte principal Achats/Ventes de la transaction de réévaluation, et les dimensions financières du compte général Dépense/Actif/Résultat de la transaction d'origine sont utilisées pour le compte principal du profit/perte non réalisé(e) de la transaction de réévaluation.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Gérer la mise en correspondance de modèle de gestion d'états électroniques dans des configurations de gestion d'états électroniques distinctes"
-description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut gérer des mises en correspondance de modèle d'états électroniques dans des configurations ER distinctes."
+---
+title: Gérer la mise en correspondance de modèle de gestion d'états électroniques dans des configurations de gestion d'états électroniques distinctes
+description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut gérer des mises en correspondance de modèle d'états électroniques dans des configurations ER distinctes.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349145"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gérer la mise en correspondance de modèle de gestion d'états électroniques dans des configurations de gestion d'états électroniques distinctes
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/08/2018
 
 Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut gérer des mises en correspondance de modèle d'états électroniques dans des configurations ER distinctes. Dans ce guide de tâche, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Pour réaliser les étapes de ce guide de tâche, vous devez d'abord effectuer les étapes du guide de tâche, « ER Créer un fournisseur de configuration et le marquer comme actif ». 
 
-Comme les configurations ER sont partagées entre les sociétés, vous pouvez réaliser les étapes de ce guide de tâche en utilisant l'ensemble de données de société de votre choix. La fonctionnalité de ce guide de tâche est disponible si vous avez installé l'un des correctifs suivants : https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 pour la version 7.0 de Dynamics AX ou https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 pour la version Dynamics 365 for Operations.
+Comme les configurations ER sont partagées entre les sociétés, vous pouvez réaliser les étapes de ce guide de tâche en utilisant l'ensemble de données de société de votre choix. La fonctionnalité de ce guide de tâche est disponible si vous avez installé l'un des correctifs suivants : https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 pour la version 7.0 de Dynamics AX ou https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 pour la version Dynamics 365 for Operations.
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de la configuration pour la société fictive Litware, Inc. est disponible et marqué comme actif. Si ce fournisseur de configuration ne s'affiche pas, vous devez d'abord effectuer les étapes du guide de tâche, Créer un fournisseur de configuration et le marquer comme actif.   
@@ -70,7 +70,7 @@ Comme les configurations ER sont partagées entre les sociétés, vous pouvez r�
 6. Cliquez sur Concepteur.
     * Notez que la configuration de mise en correspondance de modèle créée contient une nouvelle mise en correspondance vide portant le même nom que la configuration créée. Notez que lorsqu'une configuration de modèle parent sélectionnée contient des mises en correspondance de modèle, celles-ci sont copiées dans une nouvelle configuration de mise en correspondance de modèle.   
 7. Cliquez sur Concepteur.
-8. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Table ».
+8. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Table ».
 9. Cliquez sur Ajouter racine.
 10. Dans le champ Nom, tapez « Société ».
     * Société  
@@ -123,7 +123,7 @@ Comme les configurations ER sont partagées entre les sociétés, vous pouvez r�
 5. Cliquez sur Créer une configuration.
 6. Cliquez sur Concepteur.
 7. Cliquez sur Concepteur.
-8. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Table ».
+8. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Table ».
 9. Cliquez sur Ajouter racine.
 10. Dans le champ Nom, tapez « Société ».
     * Société  
@@ -161,5 +161,4 @@ Comme les configurations ER sont partagées entre les sociétés, vous pouvez r�
 6. Cliquez sur Exécuter.
 7. Cliquez sur OK.
     * Notez que la configuration de mise en correspondance de modèle par défaut est utilisée par cette configuration de format pour générer le document électronique (la sortie créée contient le code de la société).  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Gestion des états électroniques"
-description: "Cette rubrique fournit une vue d'ensemble de l'outil de gestion des états électroniques (ER). Il comporte des informations sur les concepts essentiels, les scénarios pris en charge par l'ER et une liste des formats conçus et lancés dans le cadre de la solution."
+title: Gestion des états électroniques
+description: Cette rubrique fournit une vue d'ensemble de l'outil de gestion des états électroniques (ER). Il comporte des informations sur les concepts essentiels, les scénarios pris en charge par l'ER et une liste des formats conçus et lancés dans le cadre de la solution.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310804"
 ---
-
 # <a name="electronic-reporting-er"></a>Gestion des états électroniques
 
 [!include [banner](../includes/banner.md)]
@@ -36,12 +35,12 @@ Cette rubrique fournit une vue d'ensemble de l'outil de gestion des états élec
 
 Le moteur d'états électroniques est destiné aux utilisateurs professionnels, plutôt qu'aux développeurs. Étant donné que vous configurez des formats, à la place du code, les processus de création et d’ajustement des formats pour les documents électroniques sont plus rapides et plus faciles.
 
-La génération d'états électroniques prend en charge les formats TEXT, XML, Document Microsoft Word et OPENXML. Toutefois, une interface d’extension prend en charge d'autres formats.
+Les états électroniques prennent actuellement en charge les formats de feuille de calcul texte, XML, Microsoft Word et OPENXML. Toutefois, une interface d’extension prend en charge d'autres formats.
 
 ## <a name="capabilities"></a>Capacités
 Le moteur d'états électroniques est doté des fonctionnalités suivantes :
 
-- Il représente un outil partagé unique pour la génération d'états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d'états électronique Microsoft Dynamics 365 for Finance and Operations.
+- il représente un outil commun unique partagé pour la génération d'états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d'états électronique Microsoft Dynamics 365 for Finance and Operations.
 - Il isole le format d’un état de l’implémentation actuelle de Finance and Operations. En d’autres termes, le format est applicable aux différentes versions de Finance and Operations.
 - Il prend en charge la création d’un format personnalisé qui est basé sur un format d’origine. Il inclut également des fonctionnalités permettant de mettre à niveau automatiquement le format personnalisé lorsque le format d’origine est modifié du fait que des spécifications de localisation/personnalisation sont introduites.
 - Il devient l'outil standard principal pour prendre en charge les exigences de localisation dans les états électroniques, pour Microsoft ainsi que pour les partenaires de Microsoft.
@@ -381,4 +380,3 @@ ER vous permet d'adopter automatiquement les modifications de la version la plus
 [Exigences de localisation – créer une configuration de génération d’états électroniques](electronic-reporting-configuration.md)
 
 [Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Connecter des périphériques au point de vente (POS)"
-description: "Cette rubrique décrit comment connecter des périphériques à votre Retail POS."
+title: Connecter des périphériques au point de vente (POS)
+description: Cette rubrique décrit comment connecter des périphériques à votre Retail POS.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308780"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connecter des périphériques au point de vente (POS)
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 Cette rubrique décrit comment connecter des périphériques à votre Retail POS.
 
 > [!NOTE]
-> Pour obtenir des instructions d’installation spécifiques, consultez [Installation et la configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md) et [Téléchargement/installation en libre-service de Retail Modern POS, et activation de périphérique de Modern POS et Cloud POS](retail-modern-pos-device-activation.md).
+> Pour obtenir des instructions d’installation spécifiques, consultez [Installation et la configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md) et [Retail Modern POSTéléchargement/installation en libre-service de Retail Modern POS, et activation de périphérique de Modern POS et Cloud POS](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Composants principaux
 
@@ -188,4 +187,3 @@ Les informations supplémentaires relatives à l’activation comprennent le tra
 ### <a name="client-data-synchronization"></a>Synchronisation des données client
 
 Toutes les modifications apportées à un client de PDV, à l’exception des modifications apportées à l’état d’activation du périphérique, doivent être synchronisées sur la base de données du canal pour être prises en compte. Pour synchroniser les modifications apportées à la base de données de canal, accédez à **Vente au détail** &gt; **Informatique au détail** &gt; **Programme de distribution** et exécutez le programme de distribution requis. Pour les modifications du client, vous devez exécuter les programmes de distribution « Caisses enregistreuses » et « Configuration des canaux ».
-

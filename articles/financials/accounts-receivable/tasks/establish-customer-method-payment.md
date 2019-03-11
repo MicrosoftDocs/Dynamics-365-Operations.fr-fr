@@ -1,13 +1,13 @@
---- 
-title: "Établir le mode de paiement client"
-description: "Créez un mode de paiement pour les paiements client."
+---
+title: Établir le mode de paiement client
+description: Créez un mode de paiement pour les paiements client.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ab035c6268b701c78da32d589e99ece38c31781d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cabcfe83ac83a8210ce4e0d46a08acdc48f4bf3b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348961"
 ---
 # <a name="establish-customer-method-of-payment"></a>Établir le mode de paiement client
 
@@ -54,5 +54,4 @@ Créez un mode de paiement pour les paiements client. La société fictive USMF 
     * Par exemple, si tous les paiements doivent être déposés avec ce mode de paiement, vous pouvez sélectionner cette option sous cet onglet.  
 15. Utilisez l'onglet Attributs de paiement pour indiquer les attributs de paiement que vous souhaitez utiliser pour ce mode de paiement.
 16. Cliquez sur Enregistrer.
-
 

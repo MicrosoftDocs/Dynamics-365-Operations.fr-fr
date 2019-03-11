@@ -1,13 +1,13 @@
---- 
-title: "Définir la dépendance des configurations ER vis-à-vis d'autres composants"
-description: "Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS)."
+---
+title: Définir la dépendance des configurations ER vis-à-vis d'autres composants
+description: Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365084"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Définir la dépendance des configurations ER vis-à-vis d'autres composants
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/08/2018
 
 Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS).
 
-Cette procédure indique comment créer une configuration ER et spécifier sa dépendance vis-à-vis d'autres composants logiciels, afin vous puissiez garantir que la configuration est correctement téléchargée vers une version spécifique de Microsoft Dynamics 365 for Finance and Operations. Dans cet exemple, vous créerez les configurations ER requises pour la société fictive, Litware, Inc. 
+Cette procédure indique comment créer une configuration ER et spécifier sa dépendance vis-à-vis d'autres composants logiciels, afin vous puissiez garantir que la configuration est correctement téléchargée vers une version spécifique de Microsoft Dynamics 365 for Finance and Operations. Dans cet exemple, vous créerez les configurations ER requises pour la société fictive, Litware, Inc. 
 
 Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. Les étapes peuvent être effectuées dans n'importe quelle société, car les configurations ER sont partagées entre les sociétés. 
 
@@ -59,10 +59,10 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
 15. Cliquez sur Modifier.
 16. Cliquez sur Nouveau.
 17. Sélectionnez le composant prérequis Produit.
-18. Sélectionnez Microsoft Dynamics AX 7.0 RTW.
+18. Sélectionnez Microsoft Dynamics AX 7.0 RTW.
 19. Dans le champ Version, tapez « [7.0.1265.3015,7.1) ».
     * [7.0.1265.3015,7.1)  
-    * Les dépendances sont évaluées lorsque la configuration est téléchargée à partir d'un référentiel ER. Cette version de configuration est téléchargée à partir du référentiel ER lorsque la version 1 de la configuration « Exemple de modèle de données » est déjà en place ou téléchargée à l'avance. Si elle est téléchargée à l'avance, elle doit être exécutée dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, dont la version doit être 7.0.1265.3015 ou ultérieure, mais ne doit pas dépasser la version secondaire 1.   
+    * Les dépendances sont évaluées lorsque la configuration est téléchargée à partir d'un référentiel ER. Cette version de configuration est téléchargée à partir du référentiel ER lorsque la version 1 de la configuration « Exemple de modèle de données » est déjà en place ou téléchargée à l'avance. Si elle est téléchargée à l'avance, elle doit être exécutée dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, dont la version doit être 7.0.1265.3015 ou ultérieure, mais ne doit pas dépasser la version secondaire 1.   
 20. Cliquez sur Enregistrer.
 21. Fermez la page.
 22. Cliquez sur Modifier le statut.
@@ -140,5 +140,4 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
 26. Dans l'arborescence, développez « Exemple de modèle de données ».
     * Notez que la configuration de mise en correspondance de modèle « Exemple de mise en correspondance » a été téléchargée avec la configuration de modèle de données sélectionnée. Les deux fichiers sont téléchargés ensemble, car la configuration « Exemple de mise en correspondance » a été définie comme implémentant le modèle de données sélectionné et qu'elle s'applique à Finance and Operations. La configuration « Exemple de mise en correspondance (autre) » n'a pas été téléchargée, car la condition pour la version d'application requise n'est pas remplie.   
     * Si vous vous connectez à Dynamics 365 for Finance and Operations, Enterprise Edition, enregistrez le même fournisseur, accédez au même projet LCS et téléchargez la même configuration de modèle de données, la configuration « Exemple de mise en correspondance (autre) » sera téléchargée, tandis que la configuration « Exemple de mise en correspondance » sera ignorée.  
-
 

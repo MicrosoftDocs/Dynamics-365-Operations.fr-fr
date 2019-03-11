@@ -1,13 +1,13 @@
---- 
-title: "Enregistrer l'arrivée et le départ d'un chauffeur pour un rendez-vous"
-description: "Cette procédure indique comment enregistrer l'arrivée et le départ d'un chauffeur."
+---
+title: Enregistrer l'arrivée et le départ d'un chauffeur pour un rendez-vous
+description: Cette procédure indique comment enregistrer l'arrivée et le départ d'un chauffeur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSDriverLogListPage, TMSDriverCheckIn
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 557d4d1942d190760f6a3b3d0e0aca0769f8d385
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dcafcb067717a1d0ca6f45a57628fe001d1074f2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315680"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Enregistrer l'arrivée et le départ d'un chauffeur pour un rendez-vous
 
@@ -45,5 +45,4 @@ Cette procédure montre comment enregistrer l'arrivée et le départ d'un chauff
 ## <a name="register-driver-check-out"></a>Enregistrer le départ d'un chauffeur
 1. Cliquez sur Vérification au départ du chauffeur.
 2. Cliquez sur OK.
-
 

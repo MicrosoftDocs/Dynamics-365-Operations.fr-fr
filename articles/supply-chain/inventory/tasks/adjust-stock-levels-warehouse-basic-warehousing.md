@@ -1,13 +1,13 @@
---- 
-title: "Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)"
-description: "Cette procédure vous accompagne au long du processus de création et de validation d'un journal d'ajustement du stock afin d'ajuster les niveaux de stock des produits dans l'entrepôt."
+---
+title: Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)
+description: Cette procédure vous accompagne au long du processus de création et de validation d'un journal d'ajustement du stock afin d'ajuster les niveaux de stock des produits dans l'entrepôt.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventJournalCreate, InventLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 330ebacf4a036b2df6ca22728477cae5b347354d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9ca5841fe857990cae8d9551ccf79c3c0fd490ae
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317451"
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ajuster les niveaux des stocks dans l'entrepôt (entreposage de base)
 
@@ -59,5 +59,4 @@ Cette procédure vous accompagne au long du processus de création et de validat
 4. Cliquez sur OK.
 5. Permet de fermer l'écran.
 6. Fermez la page.
-
 

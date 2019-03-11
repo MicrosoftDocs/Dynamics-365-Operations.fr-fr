@@ -1,13 +1,13 @@
 ---
 title: Appels d'offre
-description: "Cette rubrique fournit une vue d'ensemble des appels d'offre. Les organisations émettent des appels d'offre lorsqu'elles souhaitent comparer les offres de plusieurs fournisseurs pour les articles ou les services qu'elles doivent acheter."
+description: Cette rubrique fournit une vue d'ensemble des appels d'offre. Les organisations émettent des appels d'offre lorsqu'elles souhaitent comparer les offres de plusieurs fournisseurs pour les articles ou les services qu'elles doivent acheter.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9b840f5511f6a0df0e9ce3db4be69a0ab4ec3261
-ms.openlocfilehash: 8d7b07027443d1ca3894ccb7ed7f3cf49a4dc3e3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 06/21/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351284"
 ---
-
 # <a name="requests-for-quotation-rfqs"></a>Appels d'offre
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ Vous pouvez créer une demande de devis à partir des commandes planifiées, d'u
 
 Après avoir préparé la demande de devis et ajouté des fournisseurs, sélectionnez **Envoyer** (**Envoyer et publier** pour le secteur public) sur la demande de devis. Un journal d'appel d'offre est généré pour chaque fournisseur auquel vous envoyez l'appel d'offre. Vous pouvez configurer les options d'impression pour l'action Envoyer afin d'imprimer un état pour chaque fournisseur dans une archive ou pour envoyer un état à l'adresse électronique de chaque fournisseur. En outre, vous pouvez utiliser le journal d'appel d'offre de chaque fournisseur pour générer un état que vous pouvez envoyer ou renvoyer au fournisseur ultérieurement. Vous pouvez également configurer l'action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.
 
-Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration fournisseur, les fournisseurs peuvent entrer des offres directement dans Microsoft Dynamics 365 for Finance and Operations. Pour plus d'informations voir [Collaboration fournisseur avec des clients](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
+Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration de fournisseur, les fournisseurs peuvent saisir directement les offres dans Microsoft Dynamics 365 for Finance and Operations. Pour plus d'informations voir [Collaboration fournisseur avec des clients](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 
 Si vous devez modifier un appel d'offre après son envoi, vous pouvez le renvoyer aux fournisseurs lorsque vous avez terminé à l'aide des deux actions de modification : Créer et Finaliser.+
 
@@ -58,7 +57,7 @@ Lorsque vous recevez des offres par courrier électronique, vous pouvez gérer c
 Si une deuxième itération d'une réponse d'un fournisseur est requise, sélectionnez **Retour** sur la page **Appel d'offre**. L'action Retour génère un nouveau journal et un état qui seront imprimés, archivés et envoyés conformément à vos paramètres d'impression.
 
 > [!NOTE]
-> Le nom de la page **Appel d'offre** a été modifiée. Dans les versions antérieures de Dynamics 365 for Finance and Operations, cette page était appelée **Réponse d'appel d'offre**.
+> Le nom de la page **Appel d'offre** a été modifiée. Dans les versions précédentes de Dynamics 365 for Finance and Operations, cette page est appelée **Réponse aux appels d'offre**.
 
 Si vous avez ajouté des critères de score à votre dossier d'appel d'offre, la demande de devis dispose d'un volet de score où vous pouvez saisir les scores. Tous les scores s'affichent sur l'appel d'offre lorsque vous comparez les réponses sur la page **Comparer les réponses**. Sur la page **Comparer les réponses**, vous pouvez également comparer les autres données de réponse, telles que le prix de la ligne, la date de livraison et le prix total.
 
@@ -268,5 +267,4 @@ L'exemple ci-dessous présente les statuts le plus élevé et le moins élevé d
 |------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
 | Acceptez l'une des offres. (ou au moins une ligne) |                          Reçu(e)                           |                           Acceptée                           |                    Reçu(e)                    |                    Acceptée                     |                   Reçu(e)                   |                   Acceptée                    |
 |           Rejetez toutes les autres offres.           |                          Rejeté                           |                           Acceptée                           |                    Rejeté                    |                    Acceptée                     |                   Rejeté                   |                   Accepté(e)                    |
-
 

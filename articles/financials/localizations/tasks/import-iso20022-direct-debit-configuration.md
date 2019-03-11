@@ -1,13 +1,13 @@
---- 
-title: "Importer la configuration du débit direct ISO20022"
-description: "Cette procédure montre comment importer une configuration de génération d'états électroniques pour un paiement client."
+---
+title: Importer la configuration du débit direct ISO20022
+description: Cette procédure montre comment importer une configuration de génération d'états électroniques pour un paiement client.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1757a1477e46f71e327bb70cf4780767b7509e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9911528dbe0d72bb2e01884eaf6a1291d52d130c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333068"
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Importer la configuration du débit direct ISO20022
 
@@ -48,5 +48,4 @@ Il s'agit de la première des cinq procédures illustrant le processus de paieme
 8. Cliquez sur Importer.
     * Si le bouton Importer n'est pas disponible, cela signifie que la configuration a déjà été importée.  
 9. Cliquez sur Oui.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Paramétrage de masques de codes-barres"
-description: "Cette rubrique décrit la procédure de paramétrage des caractères de masque de code-barres, des masques de code-barres, ainsi que la procédure d'affectation de masques de code-barres aux codes-barres."
+title: Paramétrage de masques de codes-barres
+description: Cette rubrique décrit la procédure de paramétrage des caractères de masque de code-barres, des masques de code-barres, ainsi que la procédure d'affectation de masques de code-barres aux codes-barres.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340612"
 ---
-
 # <a name="set-up-bar-code-masks"></a>Paramétrage de masques de codes-barres
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ Les masques de code-barres permettent de créer des codes-barres et d'identifier
 | Employé         | Indique le segment de code-barres pour le numéro d'ID employé utilisé pour la connexion au PDV de code-barres. |
 | Client         | Indique le segment d'ID client. |
 | Saisie de données       | *Pas encore mis en œuvre.* |
-| Code remise    | *Obsolète* à partir de la version printemps 2017 de Dynamics 365 for Retail. Précédemment : indique le code remise pour un code-barres utilisé pour ajouter une remise à une transaction de point de vente. |
+| Code remise    | *Obsolète* à partir de Dynamics 365 for Retail printemps 2017. Précédemment : indique le code remise pour un code-barres utilisé pour ajouter une remise à une transaction de point de vente. |
 | Code coupon      | Indique le code de coupon pour un code-barres utilisé pour ajouter une remise à une commande de vente au détail. Il a remplacé le code de remise. |
 | Carte cadeau        | Indique un numéro de carte cadeau lors de l'émission d'une carte cadeau ou du règlement par ce moyen. |
 | Carte de fidélité     | Ajoute un numéro de fidélité client à la transaction, et peut être utilisé lors du règlement par points de fidélité. |
@@ -84,4 +83,3 @@ Les masques de codes-barres doivent être affectés à des codes-barres pour pou
 5. Cliquez sur **Enregistrer**.
 
 Le masque de code-barres peut à présent être utilisé pour créer des codes-barres pour des produits. Les étapes ci-dessus sont des exemples de création de masques de codes-barres pour des produits, mais elles illustrent également comment créer des masques de codes-barres pour tous les autres types de codes-barres pris en charge. Les masques, les types et la longueur de codes-barres doivent être ajustés à l'utilisation dans votre environnement spécifique.
-

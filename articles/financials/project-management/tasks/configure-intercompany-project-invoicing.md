@@ -1,13 +1,13 @@
---- 
-title: "Configurer la facturation de projets intersociétés"
-description: "Cette procédure décrit comment paramétrer la facturation d'un projet entre deux sociétés de votre organisation."
+---
+title: Configurer la facturation de projets intersociétés
+description: Cette procédure décrit comment paramétrer la facturation d'un projet entre deux sociétés de votre organisation.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2fe06978d3a1c41a1133a568cca61df05b49d235
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4de7257ed5e9c9c08ec6cc423c29739a541926d5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352756"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurer la facturation de projets intersociétés
 
@@ -67,5 +67,4 @@ Cette procédure décrit comment paramétrer la facturation d'un projet entre de
 35. Dans le champ Modèle de prix de transfert, sélectionnez une option.
 36. Dans le champ Tarification, entrez un nombre.
 37. Cliquez sur Enregistrer.
-
 

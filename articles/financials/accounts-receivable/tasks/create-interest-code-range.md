@@ -1,13 +1,13 @@
---- 
-title: "Créer un code intérêt avec une plage"
-description: "Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d'intérêt en fonction d'une plage de valeurs."
+---
+title: Créer un code intérêt avec une plage
+description: Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d'intérêt en fonction d'une plage de valeurs.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2d76ae320ee43a473b64afe311876cc94b953b20
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367637"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Créer un code intérêt avec une plage
 
@@ -51,5 +51,4 @@ Vous pouvez paramétrer les codes intérêt de sorte à calculer différents mon
 20. Spécifiez 7 pour la valeur suivante, ce qui correspond au prochain mois où vous calculerez un nouveau montant des intérêts.
 21. Spécifiez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 7. Dans notre exemple, la valeur est 2,5.
 22. Cliquez sur Fermer pour terminer le paramétrage.
-
 

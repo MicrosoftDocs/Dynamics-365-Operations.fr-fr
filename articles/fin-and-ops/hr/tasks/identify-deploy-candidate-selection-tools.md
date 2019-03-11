@@ -1,13 +1,13 @@
---- 
-title: "Identifier et déployer les outils de sélection de candidats"
-description: "Il peut être difficile de trouver un groupe de candidats qualifiés pour pourvoir les postes vacants, en particulier lorsqu'un poste nécessite un seul ensemble de qualifications."
+---
+title: Identifier et déployer les outils de sélection de candidats
+description: Il peut être difficile de trouver un groupe de candidats qualifiés pour pourvoir les postes vacants, en particulier lorsqu'un poste nécessite un seul ensemble de qualifications.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: df7956cfdc3c470b5e652b62e659060120cdd770
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332723"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identifier et déployer les outils de sélection de candidats
 
@@ -57,5 +57,4 @@ Il peut être difficile de trouver un groupe de candidats qualifiés pour pourvo
     * L'état indiquera les meilleures correspondances tout en haut.  Vous pouvez noter qu'un écart est répertorié.  Il s'agit de la différence entre le niveau qui était indiqué sur la mise en correspondance des qualifications, et le niveau de la qualification affectée à la personne.  
 24. Fermez la page.
 25. Cliquez sur Enregistrer.
-
 

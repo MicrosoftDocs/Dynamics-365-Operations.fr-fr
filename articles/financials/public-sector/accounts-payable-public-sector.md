@@ -1,13 +1,13 @@
 ---
-title: "Comptabilité fournisseur dans le secteur public"
-description: "Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur."
+title: Comptabilité fournisseur dans le secteur public
+description: Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters, CustParameters, LedgerJournalTable, OMLegalEntity, PurchAgreementListPage, PurchTableListPage, SrmParameters, VendCertificationType, VendCoverPageLayout, VendOpenInvoicesListPage, VendParametersVendParameters, VendTableListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -19,19 +19,18 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc5fd2698f8a8d10e06dcf742995c653e87a817f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b18ce06d6d4dc4ca68e13d0298bd142464180710
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370801"
 ---
-
 # <a name="accounts-payable-in-the-public-sector"></a>Comptabilité fournisseur dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur. 
+Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur. 
 
 <a name="what-are-the-prerequisites-for-setting-up-accounts-payable-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la comptabilité fournisseur dans le secteur public ?
 --------------------------------------------------------------------------------
@@ -75,7 +74,7 @@ La page **Escomptes de règlement** du module Comptabilité fournisseur ou Compt
 
 ### <a name="how-do-i-specify-and-assign-certification-types-for-vendors"></a>Comment spécifier et affecter les types de certification pour les fournisseurs ?
 
-Vous pouvez créer et affecter aux organisations de fournisseurs n'importe quel type de certification que ces fournisseurs détiennent. Cette certification inclut des informations d'identification professionnelles, telles que la licence d'un ingénieur professionnel ou la certification SQL Server Microsoft. Toutefois, la certification peut également spécifier que les fournisseurs ont une assurance en responsabilité civile ou le statut de minorité, ou qu'ils sont en conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur. La page **Type de certification** vous permet de créer des types et des descriptions de certification.
+Vous pouvez créer et affecter aux organisations de fournisseurs n'importe quel type de certification que ces fournisseurs détiennent. Cette certification inclut des informations d'identification professionnelles, telles que la licence d'un ingénieur professionnel ou la certification Microsoft SQL Server. Toutefois, la certification peut également spécifier que les fournisseurs ont une assurance en responsabilité civile ou le statut de minorité, ou qu'ils sont en conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur. La page **Type de certification** vous permet de créer des types et des descriptions de certification.
 
 ### <a name="how-do-i-view-or-enter-summary-information-for-purchase-agreement-activity"></a>Comment afficher ou saisir des informations récapitulatives pour une activité de contrat d'achat ?
 
@@ -116,4 +115,3 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Importer et créer plusieurs fournisseurs occasionnels et factures](tasks/import-multiple-one-time-vendors.md)
 
 [Paramétrer des classifications de contrat d'achat](tasks/set-up-purchase-agreement-classifications-public-sector.md)
-

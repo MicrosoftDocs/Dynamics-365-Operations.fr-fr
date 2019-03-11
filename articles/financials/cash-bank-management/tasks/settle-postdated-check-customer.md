@@ -1,13 +1,13 @@
---- 
-title: "Règlement d'un chèque postdaté provenant d'un client"
-description: "Vous pouvez régler un chèque postdaté après que celui-ci ait été compensé par la banque."
+---
+title: Règlement d'un chèque postdaté provenant d'un client
+description: Vous pouvez régler un chèque postdaté après que celui-ci ait été compensé par la banque.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 86cefaac99a1ce5aa777f4f62456c3248045cc27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a905166dcfbf8cee5b0e5831b47c95d443a74f8d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338243"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Règlement d'un chèque postdaté provenant d'un client
 
@@ -55,5 +55,4 @@ La société fictive USMF sert d'exemple dans cette procédure.
 9. Cliquez sur Lignes.
 10. Cliquez Document.
 11. Fermez la page.
-
 

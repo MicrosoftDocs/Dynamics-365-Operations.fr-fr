@@ -1,13 +1,13 @@
---- 
+---
 title: Configurer le carnet d'adresses global
-description: "Cette procédure permet de définir les valeurs par défaut et les stratégies de sécurité du carnet d'adresses global."
+description: Cette procédure permet de définir les valeurs par défaut et les stratégies de sécurité du carnet d'adresses global.
 author: kfend
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 230d3c089189ddb6186bc2ca4b647b8ad5b003ce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f2ce9dcbe095125f709abafe3cf9fb139f262b52
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328813"
 ---
 # <a name="configure-the-global-address-book"></a>Configurer le carnet d'adresses global
 
@@ -46,5 +46,4 @@ Les données fictives utilisées pour créer cette tâche correspondent à la so
 13. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
     * Appuyez sur la touche Shift pour sélectionner plusieurs rôles à ajouter au volet Rôles sélectionnés, puis cliquez sur la flèche pour ajouter les rôles sélectionnés.  
 14. Cliquez sur Enregistrer.
-
 

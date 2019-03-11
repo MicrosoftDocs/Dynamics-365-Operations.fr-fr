@@ -1,13 +1,13 @@
 ---
-title: "Créer des dimensions et importer des membres de la dimension"
-description: "Le Contrôle de gestion est un module indépendant qui nécessite les données principales d'autres modules."
+title: Créer des dimensions et importer des membres de la dimension
+description: Le Contrôle de gestion est un module indépendant qui nécessite les données principales d'autres modules.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d48ba0a0b80d251e107baa0ceeb66d8e328f13dc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0fb276e7d62e2f7c02934e74741c8cf74778fc12
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342314"
 ---
-
 # <a name="create-dimensions-and-import-dimension-members"></a>Créer des dimensions et importer des membres de la dimension
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Une fois que les données sont importées dans le Contrôle de gestion, vous pou
 -  [Mappage de membres de dimension d'élément de coût à un ensemble commun de membres de dimension](map-cost-elements-dimension-members.md)
 -  [Mapper une dimension d'élément de coût (guide de tâche)](./tasks/map-cost-element-dimension.md)
 -  [Membres de la dimension statistique et modèles de fournisseur de mesures statistiques](statistical-measure-provider-template.md)
-
 
 
 

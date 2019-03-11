@@ -1,13 +1,13 @@
 ---
 title: Validation de la production
-description: "Cet article fournit des informations sur différents types de validations du processus de production."
+description: Cet article fournit des informations sur différents types de validations du processus de production.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0b44d57fe89ef7ae3def835865e4da80c260f907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f965fd7fc4386665befedd89f33c6d32401c9132
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332401"
 ---
-
 # <a name="production-posting"></a>Validation de la production
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ Dans **Paramètres de contrôle de production**, vous pouvez utiliser le champ *
 -   **Groupes de production** : permet d'utiliser les comptes généraux paramétrés dans les groupes de production à la fois pour la consommation des matières et du temps. Les groupes de production sont associés aux produits lancés et copiés dans les ordres de fabrication lorsque ces commandes sont créées. La validation des ordres de fabrication suivra ensuite les groupes de production associés à l'ordre de fabrication.
 
 **Remarque :** Si la méthode standard de calcul du coût de l'article fini a été appliquée, les transactions finales tiennent également compte de cela. Si les coûts réels et les coûts calculés par la méthode standard sont différents, la différence est validée sur le compte qui affiche un profit ou une perte.
-
 
 
 

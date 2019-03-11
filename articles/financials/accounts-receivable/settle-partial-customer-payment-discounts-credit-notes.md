@@ -1,13 +1,13 @@
 ---
-title: "Régler un paiement partiel client ayant des remises sur les avoirs"
-description: "Cet article vous fait parcourir les étapes d'un scénario où un escompte de règlement est prélevé sur un avoir lorsque la facture d'origine a également bénéficié d'un escompte de règlement."
+title: Régler un paiement partiel client ayant des remises sur les avoirs
+description: Cet article vous fait parcourir les étapes d'un scénario où un escompte de règlement est prélevé sur un avoir lorsque la facture d'origine a également bénéficié d'un escompte de règlement.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa641f996d1ee516f588fcd1520bdc23d5d25f86
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c396bef3d31f343da972d163d89543dcea873cc0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333436"
 ---
-
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Régler un paiement partiel client ayant des remises sur les avoirs
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Les informations de remise s'affichent au bas de la page **Règlement des transa
 | Montant de l'escompte de règlement à accepter | -1,00     |
 
 Le règlement sera de 100,00, et inclura un paiement de 99,00 et une remise de 1,00.
-
 
 
 

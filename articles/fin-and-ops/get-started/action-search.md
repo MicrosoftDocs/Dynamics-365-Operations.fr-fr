@@ -1,13 +1,13 @@
 ---
 title: Recherche d'actions
-description: "Cet article décrit la fonctionnalité de recherche d'actions dans Microsoft Dynamics 365 for Finance and Operations. La recherche d'actions vous aide à rechercher et à exécuter des actions sur une page."
+description: Cet article décrit la fonctionnalité de recherche d'actions dans Microsoft Dynamics 365 for Finance and Operations. La recherche d'actions vous aide à rechercher et à exécuter des actions sur une page.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 960c715c487fbda5d93630327f07380e6d8fbd3c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317497"
 ---
-
 # <a name="action-search"></a>Recherche d'actions
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit la fonctionnalité de recherche d'actions dans Microsoft Dynamics 365 for Finance and Operations. La recherche d'actions vous aide à rechercher et à exécuter des actions sur une page.
+Cet article décrit la fonctionnalité de recherche d'actions dans Microsoft Dynamics 365 for Finance and Operations. La recherche d'actions vous aide à rechercher et à exécuter des actions sur une page.
 
 ## <a name="introduction"></a>Introduction
 
-Les pages de Microsoft Dynamics 365 for Finance and Operations exposent principalement les commandes des volets Actions, le volet Actions standard qui apparaît en haut de la page et les barres d'outils qui apparaissent dans différentes sections de la page. Dans les versions précédentes, les fonctions des touches accélératrices vous permettent d'accéder rapidement à n'importe quel bouton du volet Actions en appuyant sur la touche Alt, puis sur des séries de lettres.
+Les pages de Microsoft Dynamics 365 for Finance and Operations exposent principalement les commandes des volets Actions, le volet Actions standard qui apparaît en haut de la page et les barres d'outils qui apparaissent dans différentes sections d'une page. Dans les versions précédentes, les fonctions des touches accélératrices vous permettent d'accéder rapidement à n'importe quel bouton du volet Actions en appuyant sur la touche Alt, puis sur des séries de lettres.
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 

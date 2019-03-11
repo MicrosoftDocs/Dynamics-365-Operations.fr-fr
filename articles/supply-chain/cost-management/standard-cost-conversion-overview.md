@@ -1,13 +1,13 @@
 ---
-title: "Vue d'ensemble de la conversion du coût standard"
-description: "Cet article fournit une vue d'ensemble du processus pour vous aider à paramétrer et exécuter une conversion de coût standard. Les étapes répertoriées sont destinées à être effectuées après que vous avez réalisé les conditions préalables à la conversion de coût standard."
+title: Vue d'ensemble de la conversion du coût standard
+description: Cet article fournit une vue d'ensemble du processus pour vous aider à paramétrer et exécuter une conversion de coût standard. Les étapes répertoriées sont destinées à être effectuées après que vous avez réalisé les conditions préalables à la conversion de coût standard.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5818bcf55cd7efc2d62f7b382a85653eb8bcbad6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313679"
 ---
-
 # <a name="standard-cost-conversion-overview"></a>Vue d'ensemble de la conversion du coût standard
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,6 @@ L'état **Relevé d'analyse d'écart** vous permet d'analyser l'écart de réév
 --------
 
 [Conditions préalables à la conversion de coût standard](prerequisites-standard-cost-conversion.md)
-
 
 
 

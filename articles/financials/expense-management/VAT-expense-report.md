@@ -1,13 +1,13 @@
 ---
-title: "Recouvrement de la TVA dans le module Gestion des dépenses"
-description: "Cette rubrique explique comment recevoir des remboursements sur les transactions de taxe sur la valeur ajoutée (TVA) admissibles."
+title: Recouvrement de la TVA dans le module Gestion des dépenses
+description: Cette rubrique explique comment recevoir des remboursements sur les transactions de taxe sur la valeur ajoutée (TVA) admissibles.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359564"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>Recouvrement de la TVA dans le module Gestion des dépenses
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Lorsqu'Arnie est prêt à envoyer les données de l'état de dépense au fournis
 Arnie doit vérifier que les transactions d'état de dépenses sont admissibles pour la récupération de la TVA et que les reçus numériques sont joints aux états. Pour commencer à traiter les dépenses admissibles pour la récupération de la TVA locale, Arnie ouvre la page **Recouvrement fiscal des dépenses** et sélectionne l'état de dépenses à vérifier. Il vérifie que les reçus sont au nom de la société au lieu de l'employé. Pour une récupération de la TVA, les reçus doivent être au nom de la société. Il confirme ensuite que le groupe de taxe et les codes taxe corrects ont été appliqués.
 
 Lorsqu'Arnie reçoit les reçus papier, il attribue le statut **Prêt pour la récupération** à l'état de dépenses. Il peut ensuite remplir la déclaration auprès de l'administration fiscale appropriée. Dans ce cas, il s'agit de l'IRS (Internal Revenue Service), située aux États-Unis.
-

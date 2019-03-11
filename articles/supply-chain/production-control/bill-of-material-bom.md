@@ -1,13 +1,13 @@
 ---
 title: Nomenclatures et formules
-description: "Cette rubrique fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit."
+description: Cette rubrique fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0833143722df5402a17e4f8f456a923792c478a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317106"
 ---
-
 # <a name="bills-of-materials-and-formulas"></a>Nomenclatures et formules
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Sélectionnez le type de ligne **Approvisionnement invariable** lorsque vous sou
 Sélectionnez le type de ligne **Vendor** si le processus de production utilise un sous-traitant et si vous souhaitez créer automatiquement une sous-production ou une commande fournisseur pour le sous-traitant.  
 
 **Remarque sur les opérations sous-traitées dans une nomenclature :** le service ou les travaux effectués par le sous-traitant doivent être créés comme article de service suivi dans le stock. Vous devez associer l'article de service à l'article parent comme une ligne de nomenclature. La gamme doit contenir une opération affectée à la ressource opérationnelle du sous-traitant.
-
 
 
 

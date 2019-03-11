@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer l'emballage manuel (février 2016 et mai 2016)"
+---
+title: Paramétrer l'emballage manuel (février 2016 et mai 2016)
 description: Le processus d'emballage vous permet de valider et conditionner les produits dans des conteneurs.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347719"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Paramétrer l'emballage manuel (février 2016 et mai 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Le processus d'emballage vous permet de valider et conditionner les produits dans des conteneurs. Dans ce processus, les magasiniers prélèvent les produits dans les emplacements de stockage et les déplacent dans un centre d'emballage dans lequel ils vérifient les quantités et les types d'article, puis ils les affectent aux conteneurs appropriés. Lorsqu'un conteneur est entièrement emballé, ils peuvent le fermer et le déplacer vers les quais d’expédition, et les produits sont alors prêts à expédier. La société fictive USMF sert d'exemple dans cette procédure. Cette procédure s'applique aux versions de février 2016 et mai 2016 de Dynamics 365 for Operations uniquement.
+Le processus d'emballage vous permet de valider et conditionner les produits dans des conteneurs. Dans ce processus, les magasiniers prélèvent les produits dans les emplacements de stockage et les déplacent dans un centre d'emballage dans lequel ils vérifient les quantités et les types d'article, puis ils les affectent aux conteneurs appropriés. Lorsqu'un conteneur est entièrement emballé, ils peuvent le fermer et le déplacer vers les quais d’expédition, et les produits sont alors prêts à expédier. La société fictive USMF sert d'exemple dans cette procédure. Cette procédure s'applique aux versions de février 2016 et mai 2016 de Dynamics 365 for Operations uniquement.
 
 
 ## <a name="set-up-location-profiles"></a>Définir des profils d'emplacement
@@ -94,5 +94,4 @@ Le processus d'emballage vous permet de valider et conditionner les produits dan
     * Il s'agit de l'emplacement où les produits seront déplacés une fois les conteneurs clôturés. Cet emplacement doit avoir un profil d'emplacement défini dans les paramètres d'entrepôt.  
 8. Saisissez ou sélectionnez une valeur dans le champ Unité de poids.
 9. Cliquez sur Enregistrer.
-
 

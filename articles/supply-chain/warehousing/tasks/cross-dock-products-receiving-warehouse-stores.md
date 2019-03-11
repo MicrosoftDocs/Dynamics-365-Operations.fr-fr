@@ -1,13 +1,13 @@
---- 
-title: "Produits croisés entre l'entrepôt de réception et les magasins"
-description: "Cette procédure décrit les étapes pour créer et traiter un cross-docking afin de distribuer les produits depuis l'emplacement de réception d'une commande fournisseur vers un ou plusieurs magasins."
+---
+title: Produits croisés entre l'entrepôt de réception et les magasins
+description: Cette procédure décrit les étapes pour créer et traiter un cross-docking afin de distribuer les produits depuis l'emplacement de réception d'une commande fournisseur vers un ou plusieurs magasins.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/17/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: daa42bb83d6b988e8fd18db6ad8386c67fd3e6e5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364394"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Produits croisés entre l'entrepôt de réception et les magasins
 
@@ -47,5 +47,4 @@ Cette procédure décrit les étapes pour créer et traiter un cross-docking afi
 14. Cliquez sur Oui.
 15. Dans la liste, recherchez et sélectionnez un entrepôt qui a reçu des produits
 16. Cliquez sur Commande pour afficher les commandes créées pour l'entrepôt sélectionné
-
 

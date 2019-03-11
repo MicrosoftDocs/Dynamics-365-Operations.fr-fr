@@ -1,32 +1,30 @@
 ---
 title: Suppression d'une nomenclature des services
-description: "Une commande de service représente la visite d'un site client par un technicien de service à une date spécifique."
+description: Une commande de service représente la visite d'un site client par un technicien de service à une date spécifique.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 05664236d696818b120757ce78037c6bd7c491ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b05e05ca796f15b39112ba829b8ede32f70fbe48
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310873"
 ---
-
-
 # <a name="delete-a-service-bom"></a>Suppression d'une nomenclature des services 
 
 [!include [banner](../includes/banner.md)]
@@ -53,6 +51,5 @@ ms.lasthandoff: 05/08/2018
 [Gestion des modèles de nomenclatures sur des relations d'objets](manage-template-boms-on-object-relations.md)
 
   
-
 
 

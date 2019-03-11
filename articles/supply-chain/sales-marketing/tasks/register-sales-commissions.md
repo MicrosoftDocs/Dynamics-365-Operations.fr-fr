@@ -1,13 +1,13 @@
---- 
+---
 title: Enregistrer les commissions sur les ventes
-description: "Cette procédure vous montre comment les commissions sur les ventes sont calculées et enregistrées."
+description: Cette procédure vous montre comment les commissions sur les ventes sont calculées et enregistrées.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CommissionTrans, LedgerTransVoucher
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2c39b2fcf521106dfb58466bc45a316c0b506345
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 5535f1627526b97ddc9ca2c210db4e332782d656
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355148"
 ---
 # <a name="register-sales-commissions"></a>Enregistrer les commissions sur les ventes
 
@@ -73,5 +73,4 @@ Prenez note des numéros de client et d'article que vous avez choisis pour le pr
 5. Fermez la page.
 6. Cliquez Document.
     * Vous pouvez examiner les transactions du N° document pour les montants de commission qui ont été validés dans les comptes prédéfinis de dépense et de commission à payer.  
-
 

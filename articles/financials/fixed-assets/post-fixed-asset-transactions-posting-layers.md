@@ -1,13 +1,13 @@
 ---
 title: Valider des transactions d'immobilisation dans des couches de validation
-description: "Cet article donne une vue d'ensemble de la fonctionnalité de couche de validation pour les transactions d'immobilisation."
+description: Cet article donne une vue d'ensemble de la fonctionnalité de couche de validation pour les transactions d'immobilisation.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 22feb15a1891c57576a5809f4ff3f4d089c6dfa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 10e7fc67f8f13a6363b4359fd1b7684f1b80675e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323339"
 ---
-
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Valider des transactions d'immobilisation dans des couches de validation
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ Vous pouvez désigner les comptes généraux pour les transactions d'immobilisat
 > En utilisant les registres déduits, vous pouvez valider des transactions dans les différentes couches de validation simultanément. Vous créez les transactions du registre principal dans un journal dans lequel la couche de validation qui correspond à la couche de validation du registre. Lors de la validation, les transactions du registre déduit sont validées dans leurs couches de validation appropriées.
 
 Pour plus d'informations, voir [Registres dérivés](derived-books.md) et [Validation avec des registres déduits](post-derived-value-models.md).
-
 
 
 

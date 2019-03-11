@@ -1,13 +1,13 @@
 ---
-title: "Définitions d'états dans le générateur d'états financiers"
-description: "Cet article fournit des informations sur les définitions d'état. Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. Une définition d'état fournit également les paramètres et les options pour la personnalisation d’un état."
+title: Définitions d'états dans le générateur d'états financiers
+description: Cet article fournit des informations sur les définitions d'état. Une définition d'état est un composant d'état (ou bloc élémentaire) qui utilise une définition de ligne, de colonne et d'organigramme d'entreprise facultatif pour créer un état. Une définition d'état fournit également les paramètres et les options pour la personnalisation d’un état.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 322f1cca32053224e1cd6dbaf29c098b983b5e1f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327341"
 ---
-
 # <a name="report-definitions-in-financial-report-designer"></a>Définitions d'états dans le générateur d'états financiers
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,7 @@ Une définition d'état est un composant d'état (ou bloc élémentaire) qui uti
 - Financier et Compte
 - Financier, Compte et Transaction
 
-Toutefois, en fonction de la manière dont les données sont enregistrées dans le système ERP Microsoft Dynamics, les détails des transactions peuvent ne pas être disponibles dans les états.
+Toutefois, en fonction de la manière dont les données sont stockées dans le système Microsoft Dynamics ERP, il se peut que les détails de la transaction ne soient pas disponibles dans les rapports.
 
 ## <a name="create-a-report-definition"></a>Créer une définition d'état
 1. Dans le générateur d'état, dans le menu **Fichier**, cliquez sur **Nouveau**, puis sélectionnez **Définition d'état**.
@@ -86,4 +85,3 @@ Le tableau suivant décrit les onglets dans une définition d'état, ainsi que l
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Clôture de la comptabilité en fin de période"
-description: "Cette rubrique décrit les tâches qui sont généralement effectuées lors de l'exécution d'une clôture de période pour la comptabilité."
+title: Clôture de la comptabilité en fin de période
+description: Cette rubrique décrit les tâches qui sont généralement effectuées lors de l'exécution d'une clôture de période pour la comptabilité.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23d4b9b070a48e1964ecd6896afe071b564d1194
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 16acadf0b814ff5863873280cd8d6e6ddbdcffc8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329296"
 ---
-
 # <a name="close-the-general-ledger-at-period-end"></a>Clôture de la comptabilité en fin de période
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Pour plus d'informations, voir les rubriques suivantes :
 - [Espace de travail de clôture de période comptable](financial-period-close-workspace.md) 
 - [Clôture de fin d'exercice](Year-end-close.md)  
 - [Secteur de clôture de période comptable](tasks/mass-financial-period-close.md)
-
 
 
 

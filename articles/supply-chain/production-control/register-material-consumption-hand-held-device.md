@@ -1,13 +1,13 @@
 ---
-title: "Enregistrement de la consommation de matières à l'aide d'un appareil mobile"
-description: "Cette rubrique décrit un workflow qui active l'enregistrement de la consommation de matières premières dans la production à l'aide d'un appareil portable."
+title: Enregistrement de la consommation de matières à l'aide d'un appareil mobile
+description: Cette rubrique décrit un workflow qui active l'enregistrement de la consommation de matières premières dans la production à l'aide d'un appareil portable.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5b9c73cf9b23eb8ad9ed872b76b92b395609e9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b84b63ec519ae686b55905170c956fcb2b08334a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336127"
 ---
-
 # <a name="register-material-consumption-using-a-mobile-device"></a>Enregistrement de la consommation de matières à l'aide d'un appareil mobile
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Ce workflow est utile s'il y a une obligation stricte de traçabilité des mati�
 
 Un processus de production continue (5) consomme la matière première contrôlée par lots RM-100. La matière est disponible à l'emplacement Bulk-001 (1) sur le contenant PL-1 avec deux lots, B1 et B2, tous deux d'une quantité de 100 kilos. Le travail d'entrepôt (2) est lancé et traité pour RM-100, et la matière est prélevée de Bulk-001 vers l'emplacement d'entrée en production PIL-01 (3), qui est défini comme un emplacement qui ne fait pas l'objet d'un contrôle de contenant. L'opérateur pèse la matière dans l'emplacement d'entrée en production (3) et enregistre le poids et le numéro de lot comme étant consommés (4). Dans l'emplacement d'entrée en production, une partie de la matière est ajoutée manuellement au processus de production à des intervalles de temps définis. Lorsque l'opérateur ajoute la matière, elle est pesée sur une échelle et le numéro de lot est enregistré.
 
-## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Paramétrer le workflow pour enregistrer la consommation à l'aide d'un appareil portable
+## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>Paramétrer le workflow pour enregistrer la consommation à l'aide d'un appareil portable
 Créez un produit fini, FG-100, avec une nomenclature contenant la matière première contrôlée par lots RM-100. Ajoutez deux lots, B1 et B2, de RM-100 d'une quantité de 100 à l'emplacement : Bulk-001 sur le contenant : PL-1. Le principe d'effacement sur la ligne de nomenclature pour RM-100 est défini sur **Manuel**. Définissez l'emplacement d'entrée en production sur PIL-01. Pour ce faire, sélectionnez cet emplacement comme emplacement d'entrée en production par défaut dans l'entrepôt 51.
 
 1.  Créez une option de menu d'appareil mobile : 
@@ -51,7 +50,7 @@ Créez un produit fini, FG-100, avec une nomenclature contenant la matière prem
 -    **Mode** - Indirect. 
 -    **Code d'activité** – Permet d'enregistrer la consommation de matières.
 
-2.  Ajoutez l'option de menu au menu d'appareil mobile **Production**.
+2.  Ajoutez l'option de menu au menu d'appareil mobile **Production mobile**.
 3.  Créez un ordre de fabrication pour le produit fini : 
 
 -    **Numéro d'article** - FG-100 
@@ -69,7 +68,7 @@ Les matières sont transférées de l'emplacement de stockage en gros vers l'emp
 
 Une fois l'ordre de fabrication démarré, vous pouvez enregistrer la consommation de matières avec le workflow pour l'appareil portable. Commençons par enregistrer la consommation de 25 kilos du lot B1.
 
-6.  Sélectionnez l'option de menu **Enregistrer la consommation de** **matières** et, dans le menu de l'appareil portable, entrez les informations suivantes : 
+6.  Sélectionnez l'option de menu **Enregistrer la consommation de** **matières** et, dans le menu de l'appareil portable, entrez les informations suivantes : 
 
 -    Numéro de l'ordre de fabrication. 
 -    Emplacement dans lequel les matières seront consommées, dans ce cas PIL-01. 
@@ -91,6 +90,5 @@ Après avoir terminé votre enregistrement, sélectionnez **Terminé** pour vali
 -   Le nouveau workflow prend également en charge l'enregistrement de numéros de série.
 -   Il est uniquement possible d'enregistrer un numéro d'article défini dans la nomenclature ou dans la formule pour l'ordre de fabrication ou le lot de commandes sélectionné.
 -   Les matières peuvent être surconsommées. Par exemple, si les matières sont estimées pour être utilisées avec la quantité de 100 kilos, elles peuvent être surconsommées avec une quantité de 105 kilos, par exemple.
-
 
 

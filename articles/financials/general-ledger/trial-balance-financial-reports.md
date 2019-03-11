@@ -1,13 +1,13 @@
 ---
-title: "États financiers de balance comptable"
-description: "Cet article décrit les états par défaut des balances comptables. Il décrit également les blocs élémentaires associés à ces états et comment il est possible de modifier ces états pour les adapter à vos exigences métier."
+title: États financiers de balance comptable
+description: Cet article décrit les états par défaut des balances comptables. Il décrit également les blocs élémentaires associés à ces états et comment il est possible de modifier ces états pour les adapter à vos exigences métier.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9e8c16724364df4dd62150056299e818470aa63
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a61369033202bdb99fe4b36b24051c64cb9ca4b1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309102"
 ---
-
 # <a name="trial-balance-financial-reports"></a>États financiers de balance comptable
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Cet article décrit les états par défaut des balances comptables. Il décrit �
 <a name="default-trial-balance-reports"></a>États de la balance comptable par défaut
 -----------------------------
 
-Trois états de balance comptable sont disponibles dans les états financiers dans Microsoft Dynamics 365 for Finance and Operations.
+Trois états de balance comptable sont disponibles dans les états financiers dans Microsoft Dynamics 365 for Finance and Operations.
 
 | État par défaut                                 | Fonction                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -108,7 +107,6 @@ Chaque état de balance comptable utilise une définition de colonne différente
 [Afficher les états financiers](view-financial-reports.md)
 
 [États financiers Dynamics (blog)](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
 
 
 

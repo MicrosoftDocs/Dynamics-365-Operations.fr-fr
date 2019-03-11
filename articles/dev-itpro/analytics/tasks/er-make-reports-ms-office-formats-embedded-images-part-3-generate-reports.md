@@ -1,13 +1,13 @@
---- 
-title: "Générer des états dans des formats Office avec des images intégrées"
-description: "Les étapes suivantes expliquent comment un utilisateur jouant le rôle de « Administrateur système » ou de « Développeur d'états électroniques » peut créer des configurations d'états électroniques (ER) pour générer des documents électroniques au format MS Office (Excel et Word) contenant des images intégrées."
+---
+title: Générer des états dans des formats Office avec des images intégrées
+description: Les étapes suivantes expliquent comment un utilisateur jouant le rôle de « Administrateur système » ou de « Développeur d'états électroniques » peut créer des configurations d'états électroniques (ER) pour générer des documents électroniques au format MS Office (Excel et Word) contenant des images intégrées.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 5ef7ec2f8b5b7fdf456ebb71b863e620ae21e6b5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327180"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Générer des états dans des formats Office avec des images intégrées
 
@@ -119,5 +119,4 @@ Dans cet exemple, vous utiliserez les configurations ER créées pour la sociét
 22. Cliquer sur Test d'impression.
 23. Cliquez sur OK.
     * Examinez la sortie créée. Notez que la sortie a été générée en tant que document MS Word avec des images intégrées présentant le logo de la société, la signature d'une personne autorisée et le texte sélectionné du filigrane.  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Créer un projet d'embauche collective"
-description: "Cette procédure décrit le processus de paramétrage d'un projet d'embauche collective."
+---
+title: Créer un projet d'embauche collective
+description: Cette procédure décrit le processus de paramétrage d'un projet d'embauche collective.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject,  HRMMassHireLineCreate, HcmJobLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f352435f8ad04f676aa786aae4669e3586a5715c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a8789d7c5b06e83d0d1799b249b48a00e7c0ae34
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328215"
 ---
 # <a name="create-a-mass-hire-project"></a>Créer un projet d'embauche collective
 
@@ -47,5 +47,4 @@ Cette procédure décrit le processus de paramétrage d'un projet d'embauche col
     * la valeur équivalent temps plein par défaut provient de la tâche sélectionnée. Vous pouvez la modifier si nécessaire.  
     * Le cas échéant, sélectionnez le département pour les nouveaux postes.  
 13. Cliquez sur OK.
-
 

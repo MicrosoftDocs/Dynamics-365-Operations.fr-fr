@@ -1,13 +1,13 @@
 ---
 title: Immobilisations dans le secteur public
-description: "Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public."
+description: Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTransfer
 audience: Application User
 ms.reviewer: shylaw
@@ -19,14 +19,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 237f6d87008ccfae31b6f2f0edf718f706b4c9b4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6c8cd94315617be741622e3561e863327f201429
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370760"
 ---
-
 # <a name="fixed-assets-in-the-public-sector"></a>Immobilisations dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Les organisations du secteur public ont généralement besoin des écritures éq
 Les comptes d'origine et de destination ne sont pas les comptes dans lesquels la valeur nette de l'immobilisation est conservée. En revanche, Les comptes d'origine et de destination sont les comptes principaux utilisés pour équilibrer les écritures dans les dimensions financières. Ils sont utilisés uniquement lorsqu'une dimension financière pour l'immobilisation exige un équilibrage. Le compte Prov. transfert présentera une entrée de débit, et le compte Dest. transfert présentera une entrée de crédit.
 
 Pour plus d'informations, voir [Fonds dans le secteur public](funds-public-sector.md).
-
 
 
 

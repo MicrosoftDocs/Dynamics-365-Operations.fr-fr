@@ -1,13 +1,13 @@
---- 
+---
 title: Traiter les lettres de relance
-description: "Cette procédure indique comment créer, imprimer, et valider les lettres de relance."
+description: Cette procédure indique comment créer, imprimer, et valider les lettres de relance.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/04/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
 ms.reviewer: shylaw
@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 8a3f74d2891c050294e089eae14ba2386449d7c9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358851"
 ---
 # <a name="process-collection-letters"></a>Traiter les lettres de relance
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Cette procédure indique comment créer, imprimer, et valider les lettres de relance. La société fictive USMF est citée en exemple dans cette tâche.
 
@@ -81,4 +80,3 @@ Si vous incluez des paiements et des avoirs dans les transactions à inclure dan
 Pour ignorer les paiements et les avoirs lors du calcul du code lettre de relance, procédez comme suit.
 1. Accédez à **Crédit et relances > Paramétrage > Paramètres de la comptabilité client** et cliquez sur l'onglet **Recouvrements**. 
 2. Modifiez la valeur de **Ignorer les paiements et les avoirs lors du calcul du code lettre de relance** avec **Oui**.
-

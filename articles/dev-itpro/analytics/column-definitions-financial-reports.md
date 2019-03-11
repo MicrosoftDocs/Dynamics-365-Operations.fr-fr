@@ -1,13 +1,13 @@
 ---
-title: "Définitions de colonne dans les états financiers"
-description: "Cet article fournit des informations sur les définitions de colonne. Une définition de colonne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu des colonnes d’un état. Comme les définitions de ligne, des définitions de colonne de base peuvent être utilisées dans plusieurs états."
+title: Définitions de colonne dans les états financiers
+description: Cet article fournit des informations sur les définitions de colonne. Une définition de colonne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu des colonnes d’un état. Comme les définitions de ligne, des définitions de colonne de base peuvent être utilisées dans plusieurs états.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356344"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
 
 [!include [banner](../includes/banner.md)]
@@ -121,11 +120,11 @@ Le tableau suivant décrit les codes de restriction de colonne.
 | ADJ                     | Restreint les montants dans la colonne aux montants d'ajustement de période, si ces montants sont disponibles. |
 | XAD                     | Restreint les montants dans la colonne, de sorte que les montants d'ajustement de période sont exclus. |
 | TP                      | Restreint les montants dans la colonne, de sorte que seules les transactions validées sont incluses, si ces transactions sont disponibles. |
-| UPT                     | Restreint les montants dans la colonne, de sorte que seules les transactions non validées sont incluses, si ces transactions sont disponibles.<blockquote>[!NOTE] Les fournisseurs de données ne prennent pas tous en charge les transactions non validées. Pour plus d'informations, voir le <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>Guide d'intégration des données</a> de votre système ERP Microsoft Dynamics.</blockquote> |
+| UPT                     | Restreint les montants dans la colonne, de sorte que seules les transactions non validées sont incluses, si ces transactions sont disponibles.<blockquote>[!NOTE] Les fournisseurs de données ne prennent pas tous en charge les transactions non validées. Pour plus d'informations, voir le <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guide d'intégration de données</a> pour votre système ERP Microsoft Dynamics.</blockquote> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restreindre une colonne à une unité de déclaration
 
-1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
+1. Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Unité de déclaration** de la colonne à limiter.
 3. Dans la boîte de dialogue **Sélectionner une unité de déclaration**, dans la liste **Arborescence de génération d'états**, sélectionnez une arborescence.
 4. Développez ou réduisez la liste des unités, sélectionnez une unité de déclaration, puis cliquez sur **OK**.
@@ -171,7 +170,7 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 ### <a name="create-an-automatically-generated-header"></a>Créer un en-tête généré automatiquement
 
-Le générateur d'états peut générer automatiquement des en-têtes de colonne, selon des codes d'insertion automatique. Les codes d'insertion automatique sont des variables mises à jour à chaque fois qu'un état est généré. Tout en-tête de colonne peut inclure de ces codes pour spécifier les informations d'état susceptibles de varier, comme les dates ou les numéros de période. Par conséquent, vous pouvez utiliser une définition de colonne pour plusieurs définitions d'état, de périodes et d'arborescences de génération d'états. Comme les codes d'insertion automatique se fondent sur les informations de calendrier des lignes détaillées de la définition de colonne, ils sont pris en charge uniquement pour les colonnes **CALC**, **FD** et **WKS**. La manière dont le code d'insertion automatique s'affiche dans la cellule d'en-tête de colonne affecte la manière dont ces informations sont affichées dans l'état. Dans la boîte de dialogue **En-tête de colonne**, les codes d'insertion automatique apparaissent en combinaison de majuscules et minuscules. Par conséquent, le texte apparaît dans la même combinaison dans l'état. Par exemple, dans une année civile standard, **@CalMonthLong** résout le mois **7** sur **Juillet**. Si le nom du mois doit être en majuscules (par exemple **JUILLET**), entrez le code d'insertion automatique en caractères majuscules dans le champ **Texte d'en-tête de colonne**. Par exemple, entrez **@CALMONTHLONG**. Vous pouvez mélanger codes et textes. Par exemple, vous entrez le texte d'en-tête suivant : **Période @FiscalPeriod-@FiscalYear du @StartDate au @EndDate**. Le titre d'état généré ressemble au texte suivant : **Période 1-02 du 01/01/02 au 01/31/02**.
+Le générateur d'états peut générer automatiquement des en-têtes de colonne, selon des codes d'insertion automatique. Les codes d'insertion automatique sont des variables mises à jour à chaque fois qu'un état est généré. Tout en-tête de colonne peut inclure de ces codes pour spécifier les informations d'état susceptibles de varier, comme les dates ou les numéros de période. Par conséquent, vous pouvez utiliser une définition de colonne pour plusieurs définitions d'état, de périodes et d'arborescences de génération d'états. Comme les codes d'insertion automatique se fondent sur les informations de calendrier des lignes détaillées de la définition de colonne, ils sont pris en charge uniquement pour les colonnes **CALC**, **FD** et **WKS**. La manière dont le code d'insertion automatique s'affiche dans la cellule d'en-tête de colonne affecte la manière dont ces informations sont affichées dans l'état. Dans la boîte de dialogue **En-tête de colonne**, les codes d'insertion automatique apparaissent en combinaison de majuscules et minuscules. Par conséquent, le texte apparaît dans la même combinaison dans l'état. Par exemple, dans une année civile standard, **@CalMonthLong** résout le mois **7** sur **Juillet**. Si le mois doit apparaître en majuscules (par exemple **JUILLET**), tapez le code d'insertion automatique en majuscules dans le champ **Texte de l'en-tête de colonne**. Par exemple, entrez **@CALMONTHLONG**. Vous pouvez mélanger codes et textes. Par exemple, vous entrez le texte d'en-tête suivant : **Période @ FiscalPeriod-@FiscalYear du @StartDate au @EndDate**. Le titre d'état généré ressemble au texte suivant : **Période 1-02 du 01/01/02 au 01/31/02**.
 
 > [!NOTE]
 > Le format d'une partie du texte, comme la date au format long, dépend des paramètres régionaux du serveur Finance and Operations. Pour modifier ces paramètres, cliquez sur le bouton **Début**, cliquez sur **Panneau de configuration**, puis cliquez sur **Région et langue**. Le tableau suivant répertorie les options disponibles d'insertion automatique pour les en-têtes de colonnes.
@@ -181,7 +180,7 @@ Le générateur d'états peut générer automatiquement des en-têtes de colonne
 |-----------------------------------------|-------------|
 | Nom du mois (@CalMonthLong)              | Imprime le nom du mois actuel dans l'en-tête de colonne. Si vous décidez d'arrondir les montants dans l'état aux milliers, millions ou milliards, ou si vous définissez la largeur de colonne de l'état à moins de neuf caractères, le nom du mois est abrégé à ses trois premiers caractères. |
 | Nom du mois abrégé (@CalMonthShort) | Imprime le nom du mois abrégé de la période fiscale sélectionnée. |
-| Valeur de la période (@FiscalPeriod)           | Imprime le formulaire numérique de la période fiscale identifiée pour cette colonne. Si la colonne s'étend sur plusieurs périodes, la dernière période de la sélection est imprimée. |
+| Nombre de périodes (@FiscalPeriod)           | Imprime le formulaire numérique de la période fiscale identifiée pour cette colonne. Si la colonne s'étend sur plusieurs périodes, la dernière période de la sélection est imprimée. |
 | Description de la période (@FiscalPeriodName)  | Imprime la description de la période fiscale identifiée dans les données financières. |
 | Exercice (@FiscalYear)               | Imprime l'exercice pour la colonne au format numérique. |
 | Année civile (@CalYear)                | Imprime l'année calendaire pour la colonne au format numérique. |
@@ -216,12 +215,12 @@ Les en-têtes à étendue conditionnelle peuvent couvrir plusieurs colonnes bas�
 Phyllis crée un état pour une prévision dynamique de six mois. Elle veut que le mot « Réel » soit imprimé sur les colonnes contenant des données réelles, et le mot « Budget » sur les colonnes qui contiennent les prévisions du budget. Chaque mois que l'état est exécuté, il contient une colonne « Réel » de plus et une colonne « Budget » de moins. Bien que Phyllis puisse modifier la définition de colonne manuellement à chaque fois que l'état est généré pour ajuster les en-têtes, pour s'épargner du temps et des efforts, elle décide de créer des en-têtes à étendue conditionnelle qui créeront automatiquement les en-têtes sur les colonnes appropriées chaque exécution de l'état. Phyllis ouvre le générateur d'état, clique sur **Définition de colonne** dans le volet de navigation, et ouvre la définition de colonne de l'état. Elle entre alors les informations suivantes : la période de base dans la définition d'état est 4.
 
 
-|                     |  A   | B             | C             | D             | E             | Ve             | V             | A             | I             | J             | k             | R             | L             |
+|                     |  A   | B             | C             | D             | E             | Ve             | V             | A             | I             | J             | k             | L             | F             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
 | En-tête 1            |      | Réel        | Budget        |               |               |               |               |               |               |               |               |               |               |
 | En-tête 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | En-tête 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| Type de colonne         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
+| Type de colonne         | DESC | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | FD            | FD            |
 | Code registre/Attribut |      | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    |
 | Année fiscale         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
 | Période               |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
@@ -612,4 +611,3 @@ Vous pouvez diviser le montant dans une colonne par un nombre de périodes spéc
 [Définitions de ligne dans les états financiers](row-definitions-financial-reporting.md)
 
 [Options de mise en forme avancées dans les états financiers](advanced-formatting-options-financial-reporting.md)
-

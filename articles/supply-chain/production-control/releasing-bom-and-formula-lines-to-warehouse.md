@@ -1,13 +1,13 @@
 ---
-title: "Lancer les lignes de nomenclature et de formule dans l'entrepôt"
-description: "Cette rubrique décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l'entrepôt."
+title: Lancer les lignes de nomenclature et de formule dans l'entrepôt
+description: Cette rubrique décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l'entrepôt.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343142"
 ---
-
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Lancer les lignes de nomenclature et de formule dans l'entrepôt
 
 [!include [banner](../includes/banner.md)]
@@ -84,7 +83,7 @@ L'illustration suivante présente un ordre de fabrication contenant deux opérat
 
 ![Exemple de lancement de matières par numéro d'opération](media/two-operations.PNG)
 
-Pour une démonstration rapide du lancement des matières sur la base de la quantité de produits finis, visionnez cette courte vidéo YouTube : [Améliorations du processus de lancement d'un ordre de fabrication dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
+Pour une démonstration rapide du lancement des matières sur la base de la quantité de produits finis, visionnez cette courte vidéo YouTube : [Améliorations du processus de lancement d'un ordre de fabrication dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Lancer les matières sur la base de la quantité de produits finis
 
@@ -99,4 +98,3 @@ Vous pouvez lancer les matières premières pour une quantité partielle de prod
     Les unités disponibles sont définies dans l'ID de groupe de séquences d'unités du produit fini.
 
     Par exemple, un produit fini a la conversion d'unité suivante entre kilos (kg) et palette (PL) : 1 PL = 100 kg. Pour créer un ordre de fabrication pour 10 000 kg du produit fini, vous pouvez lancer les matières premières pour le nombre de palettes que vous prévoyez de produire. Sélectionnez **PL** comme unité, puis sélectionnez un nombre correspondant dans le champ **Quantité**.
-

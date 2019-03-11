@@ -1,13 +1,13 @@
 ---
 title: Configurer des processus d'approbation dans un workflow
-description: "La procédure suivante permet de configurer les propriétés du processus d'approbation."
+description: La procédure suivante permet de configurer les propriétés du processus d'approbation.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325639"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurer des processus d'approbation dans un workflow
 
 [!include [banner](../includes/banner.md)]
@@ -124,11 +123,11 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'un document a été a
     </tr>
     <tr>
     <td><strong>Utilisateur</strong></td>
-    <td>Utilisateurs de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition spécifiques</td>
+    <td>Utilisateurs Microsoft Dynamics 365 for Finance and Operations spécifiques</td>
     <td>
     <ol>
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
-    <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs Microsoft Dynamics 365 for Finance and Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
+    <li>La liste <strong>Utilisateurs disponibles</strong> : inclut tous les utilisateurs Microsoft Dynamics 365 for Finance and Operations. Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ Un processus d'approbation comprend plusieurs étapes. Procédez comme suit pour
 1. Dans l'éditeur de workflow, double-cliquez sur le processus d'approbation. L'éditeur de workflow affiche les étapes du processus d'approbation.
 2. Pour ajouter une étape d'approbation, faites glisser l'étape de la zone **Éléments du workflow** sur le canevas.
 3. Pour configurer une étape d'approbation, voir [Configurer une étape d'approbation](configure-approval-step-workflow.md).
-

@@ -1,13 +1,13 @@
 ---
-title: "États financiers du bilan"
-description: "Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états."
+title: États financiers du bilan
+description: Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ff778af1bb3af3a10132ab3193ad1cd5daa24e1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1c92ccb37b62a39e5ab4808454f8c6f84560d917
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342291"
 ---
-
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Les définitions de colonne contiennent différents types de colonnes afin d'off
 [Afficher les états financiers](view-financial-reports.md)
 
 [États financiers Dynamics (blog)](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
 
 
 

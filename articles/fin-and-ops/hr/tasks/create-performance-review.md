@@ -1,13 +1,13 @@
---- 
-title: "Créer une évaluation des performances"
-description: "Cette procédure indique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation."
+---
+title: Créer une évaluation des performances
+description: Cette procédure indique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338473"
 ---
 # <a name="create-a-performance-review"></a>Créer une évaluation des performances
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure indique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation. Cette procédure a été créée à l'aide de la société fictive USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Cette procédure indique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation. Cette procédure a été créée à l'aide de la société fictive USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 1. Cliquez sur Libre-service employé.
 2. Cliquez sur Nouvelle révision pour créer une révision.
@@ -79,5 +79,4 @@ Cette procédure indique comment créer une évaluation des performances et déc
     * Étant donné que la révision passe par les différents statuts, l'employé et le responsable peuvent ajouter des commentaires pour chaque objectif ou compétence.  
 42. Cliquez sur l'onglet Validations.
     * Le collaborateur et le responsable peuvent valider la révision. Lorsque toutes les validations requises sont effectuées, le statut passe à Terminé et aucune autre modification n'est possible.  
-
 

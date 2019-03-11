@@ -1,13 +1,13 @@
---- 
-title: "Paramétrage des groupes de validation dans la comptabilité de la taxe"
-description: "La taxe est calculée et validée dans les comptes principaux spécifiés dans les groupes de validation dans la comptabilité."
+---
+title: Paramétrage des groupes de validation dans la comptabilité de la taxe
+description: La taxe est calculée et validée dans les comptes principaux spécifiés dans les groupes de validation dans la comptabilité.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308343"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Paramétrage des groupes de validation dans la comptabilité de la taxe
 
@@ -48,5 +48,4 @@ La taxe est calculée et validée dans les comptes principaux spécifiés dans l
 11. Dans le champ Client - Escompte de règlement, sélectionnez le compte principal pour valider l'escompte de règlement pour les codes taxe associés à ce groupe de validation dans la comptabilité.
     * Ceci est facultatif et si aucun compte n'est entré, le compte principal des codes escompte de règlement est alors utilisé. Il peut être utile d'utiliser différents comptes par groupe de validation dans la comptabilité si vous utilisez l'option Contrepasser la taxe sur l'escompte de règlement dans les groupes de taxe.  
 12. Cliquez sur Enregistrer.
-
 

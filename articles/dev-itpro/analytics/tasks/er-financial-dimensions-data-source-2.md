@@ -1,13 +1,13 @@
---- 
-title: "ER Utiliser les dimensions financières comme source de données (Partie 2 - Mise en correspondance des modèles)"
-description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un modèle de génération d'états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER."
+---
+title: ER Utiliser les dimensions financières comme source de données (Partie 2 - Mise en correspondance des modèles)
+description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un modèle de génération d'états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319590"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER Utiliser les dimensions financières comme source de données (Partie 2 : Mise en correspondance des modèles)
 
@@ -43,7 +43,7 @@ Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la proc�
 8. Dans le champ Description, tapez « Mise en correspondance des données de dimensions ».
 9. Cliquez sur Enregistrer.
 10. Cliquez sur Concepteur.
-11. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Table ».
+11. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Table ».
 12. Cliquez sur Ajouter racine.
 13. Dans le champ Nom, tapez « Société ».
 14. Dans le champ Table, tapez « CompanyInfo ».
@@ -59,7 +59,7 @@ Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la proc�
 21. Sélectionnez Oui dans le champ Demander le compte principal.
     * Définissez « Demander le compte principal » sur Oui pour autoriser les utilisateurs à sélectionner le compte principal dans le cadre de la liste de dimensions.   Si cette option est définie sur Non, le compte principal n'est pas inclus dans la liste des dimensions et l'option « Compte principal obligatoire » est activée. Si « Compte principal obligatoire » est défini sur Oui, incluez le compte principal dans la liste des dimensions quelle que soit la sélection de l'utilisateur.  
 22. Cliquez sur OK.
-23. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de tables ».
+23. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
 24. Cliquez sur Ajouter racine.
 25. Dans le champ Nom, tapez « LedgerJournal ».
 26. Sélectionnez Oui dans le champ Demander une requête.
@@ -143,5 +143,4 @@ Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la proc�
 3. Cliquez sur Modifier le statut.
 4. Cliquez sur Terminé.
 5. Cliquez sur OK.
-
 

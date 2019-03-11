@@ -1,13 +1,13 @@
 ---
-title: "Sous-traitance basée sur des activités"
-description: "Cette rubrique décrit, en détail, comment utiliser les activités sous-traitées dans un flux de production pour le lean manufacturing."
+title: Sous-traitance basée sur des activités
+description: Cette rubrique décrit, en détail, comment utiliser les activités sous-traitées dans un flux de production pour le lean manufacturing.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 000bfcf5c3daea75fc257374dd471c62e94fbc16
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350042"
 ---
-
 # <a name="activity-based-subcontracting"></a>Sous-traitance basée sur des activités
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit, en détail, comment utiliser les activités sous-traitées dans un flux de production pour le lean manufacturing.
 
-Dans Microsoft Dynamics 365 for Finance and Operations, il existe deux approches de sous-traitance : les ordres de fabrication et le lean manufacturing. Dans l'approche du lean manufacturing, le travail de sous-traitance est modélisé comme un service associé à une activité de flux de production. Un type spécial de groupe de coûts nommé **Externalisation directe** a été introduit, et les services de sous-traitance ne font plus partie d'une nomenclature. Le contrôle de gestion du travail sous-traité est entièrement intégré dans la solution d'évaluation des coûts pour le lean manufacturing.
+Dans Microsoft Dynamics 365 for Finance and Operations, il existe deux approches pour la sous-traitance : ordres de fabrication et production au plus juste. Dans l'approche du lean manufacturing, le travail de sous-traitance est modélisé comme un service associé à une activité de flux de production. Un type spécial de groupe de coûts nommé **Externalisation directe** a été introduit, et les services de sous-traitance ne font plus partie d'une nomenclature. Le contrôle de gestion du travail sous-traité est entièrement intégré dans la solution d'évaluation des coûts pour le lean manufacturing.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Flux de production impliquant des sous-traitants
 Le principe de base d'un flux de production ne change pas lorsque les activités sont sous-traitées. Les matières circulent toujours entre des emplacements, les activités de processus convertissent les matières en produits et les activités de transfert déplacent les matières ou les produits d'un emplacement à un autre. Vous pouvez modéliser les emplacements et les cellules de travail de manière à ce qu'ils soient gérés par un fournisseur en affectant le compte fournisseur à un entrepôt ou à une ressource d'un groupe de ressources.  
@@ -104,7 +103,6 @@ Les gens considèrent souvent le transport comme une activité non productive et
 La sous-traitance basée sur des activités dans le lean manufacturing permet d'intégrer les transporteurs et les fournisseurs de transport qui déplacent des matières et des produits entre les emplacements d'un flux de production. En modélisant une activité de transfert, vous pouvez affecter un transporteur ou un fournisseur. Les activités ou tâches de transfert sont basées sur un contrat de service et d'achat, et vous pouvez créer des commandes fournisseur et des avis de réception, en fonction des tâches de transfert réelles. Cette fonctionnalité est la même que celle pour les activités de processus sous-traitées.  
 
 Par conséquent, Finance and Operations prend désormais en charge le calcul de nomenclature qui inclut les services de transport, la création des commandes fournisseur associées, l'enregistrement intégré des réceptions et l'intégration des coûts du service de transport dans l'évaluation des coûts du flux de production.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Relevés de la vente au détail"
-description: "Cette rubrique décrit la procédure de création et de validation des relevés."
+title: Relevés de la vente au détail
+description: Cette rubrique décrit la procédure de création et de validation des relevés.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347696"
 ---
-
-# <a name="retail-statements"></a>Relevés de la vente au détail
+# <a name="retail-statements"></a>Relevés de vente au détail
 
 [!include [banner](includes/banner.md)]
 
-Dans Microsoft Dynamics 365 for Retail, le processus de validation des relevés est utilisé pour comptabiliser les transactions qui ont lieu dans le point de vente (PDV) du cloud ou le Modern POS (MPOS). Le processus de validation des relevés utilise le programme de distribution pour extraire un ensemble de transactions de PDV au siège du client. Les paramètres définis sur les pages **Paramètres des ventes au détail** et **Magasins** permettent de sélectionner les transactions qui sont extraites dans des relevés individuels.
+Dans Microsoft Dynamics 365 for Retail, le processus de validation des relevés est utilisé pour comptabiliser les transactions qui ont lieu dans le point de vente (PDV) du cloud ou le Modern POS (MPOS). Le processus de validation des relevés utilise le programme de distribution pour extraire un ensemble de transactions de PDV au siège du client. Les paramètres définis sur les pages **Paramètres des ventes au détail** et **Magasins** permettent de sélectionner les transactions qui sont extraites dans des relevés individuels.
 
 L'illustration suivante présente le processus de validation du relevé. Dans ce processus, les transactions enregistrées dans le PDV sont transmises au client à l'aide de Retail Planification. Une fois que le client a reçu les transactions, vous pouvez créer, calculer et valider les relevés de transaction du magasin.
 
@@ -86,7 +85,6 @@ Si la case à cocher **Valider comme jour ouvrable** est désactivée pour le m�
 Lorsque vous validez un relevé, les commandes client et les factures sont créées pour les ventes au détail du relevé.
 
 - Les ventes cash and carry sont regroupées sur une commande client et facturées pour le client par défaut affecté au magasin.
-- Les ventes au détail pour lesquelles un client a été ajouté à la transaction dans le PDV de Microsoft Dynamics 365 for Retail génèrent des commandes client et factures distinctes, une pour chaque client unique.
+- Les ventes au détail pour lesquelles un client a été ajouté à la transaction dans Microsoft Dynamics 365 for Retail génèrent des commandes client et factures distinctes, une pour chaque client unique.
 
 Les journaux de paiements sont automatiquement créés pour les paiements dans le relevé, et le stock est mis à jour pour le magasin du PDV.
-

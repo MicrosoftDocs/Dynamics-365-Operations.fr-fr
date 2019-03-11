@@ -1,13 +1,13 @@
 ---
-title: "Paramétrage de paiements centralisés"
-description: "Cette procédure permet de préparer le traitement des paiements dans une entité juridique au nom d'autres entités juridiques de votre organisation."
+title: Paramétrage de paiements centralisés
+description: Cette procédure permet de préparer le traitement des paiements dans une entité juridique au nom d'autres entités juridiques de votre organisation.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c91d02bfb5e51a7eb34234abb982242bc9f7610f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361910"
 ---
-
 # <a name="set-up-centralized-payments"></a>Paramétrage de paiements centralisés
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Lorsque vous créez un paiement dans une entité juridique qui règle les factur
 
 ## <a name="set-up-default-descriptions"></a>Paramétrage des descriptions par défaut
 Vous pouvez définir des descriptions par défaut pour les N° document de règlement intersociétés. La description par défaut est incluse dans les transactions d'échéance au cours du traitement du règlement de société croisée. Sur la page **Descriptions par défaut**, vous pouvez créer de nouvelles descriptions pour les champs **Règlement client intersociétés** et **Règlement fournisseur intersociétés** en sélectionnant une langue, puis en entrant le texte.
-
 
 
 

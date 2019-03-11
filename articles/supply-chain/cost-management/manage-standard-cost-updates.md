@@ -1,13 +1,13 @@
 ---
-title: "Gérer des mises à jour des coûts standard"
+title: Gérer des mises à jour des coûts standard
 description: "Les mises à jour des données de coût standard peuvent être gérées à l'aide de deux approches : l'approche à une version ou l'approche à deux versions."
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e72d4e90ac83787ed7c58d91c2102696acfac68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b64d9e53736fd3b81ee997ed28ccfa62ed7e9ce6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367545"
 ---
-
 # <a name="manage-standard-cost-updates"></a>Gérer des mises à jour des coûts standard
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ L'exemple suivant illustre l'utilisation des approches à une version et à deux
 -   **Approche à deux versions des mises à jour de données de coûts** − L'approche à deux versions nécessite une version d'évaluation des coûts supplémentaire qui contient uniquement les mises à jour des coûts. L'identificateur de cette version est 2016-STD-CHANGES. Les mises à jour des coûts sont enregistrées dans 2016-STD-CHANGES et sont définies sur le statut « En attente ». Avec l'approche à deux versions, les calculs de nomenclature des coûts en attente pour les articles fabriqués nécessitent une source de données de secours. En effet, la version d'évaluation des coûts supplémentaire 2016-STD-CHANGES contient uniquement un sous-ensemble de données de coûts. Le secours peut être exprimé comme coûts actifs ou comme version d'évaluation des coûts 2016-STD car les deux identifient la source des données de coûts lorsqu'elle n'est pas incluse dans 2016-STD-CHANGES. Une fois les coûts en attente activés, la version d'évaluation des coûts 2016-STD-CHANGES contient les coûts actifs actuels qui reflètent les mises à jour, alors que la version d'évaluation des coûts d'origine 2016-STD reste inchangée. Lorsque l'approche à deux versions est utilisée, les stratégies de blocage pour la version d'évaluation des coûts d'origine doivent être définies de façon à empêcher les mises à jour. Des stratégies de blocage identiques doivent être définies pour la version d'évaluation des coûts supplémentaire, à l'exception de la date de début spécifiée et de l'utilisation sélective des stratégies de blocage pour permettre les mises à jour. La date de début spécifiée doit être mise à jour avec chaque lot de modifications pour refléter la date d'activation prévue.
 
 L'exemple utilise une version d'évaluation des coûts supplémentaire pour la gestion des mises à jour au cours de l'année 2016. Plusieurs versions d'évaluation des coûts supplémentaires peuvent être utilisées, telles qu'une version distincte pour chaque lot de mises à jour. Dans ce cas, le secours doit être exprimé comme les coûts actifs car ils pourraient être dispersés entre plusieurs versions d'évaluation des coûts.
-
 
 
 

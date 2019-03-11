@@ -1,13 +1,13 @@
 ---
-title: "Dépannage de la budgétisation de poste"
-description: "Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération."
+title: Dépannage de la budgétisation de poste
+description: Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0800a4a7c92a1a5f4d4f66bb37032eacccc4cb4e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 421520fcd1b215a19c126ccea51b025977552448
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367108"
 ---
-
 # <a name="position-budgeting-troubleshooting"></a>Dépannage de la budgétisation de poste
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Les dates de la ligne d'élément de coût du poste de prévision doivent se tro
 -   Les dates d'activation et de suppression du poste.
 -   Les dates d'activation et d'expiration de l'élément de coût budgétaire.
 -   Les dates de début et de fin du cycle budgétaire associé au processus de planification budgétaire du poste de prévision.
-
 
 
 

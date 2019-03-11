@@ -1,32 +1,31 @@
 ---
-title: "Définir les droits d'accès des contrôleurs d'objets de coût"
-description: "Cette rubrique fournit des informations sur les droits d'accès pour les contrôleurs d'objet de coût."
+title: Définir les droits d'accès des contrôleurs d'objets de coût
+description: Cette rubrique fournit des informations sur les droits d'accès pour les contrôleurs d'objet de coût.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355539"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>Droits d'accès d'un contrôleur d'objet de coût
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,7 @@ Les paramètres de la hiérarchie de la liste d'accès sont utilisés pour contr
 - Microsoft Power BI :
 
     - Données qui sont affichées dans une visualisation Power BI
-    - Les visualisations des données Power BI sont intégrées dans le client Microsoft Dynamics 365 for Finance and Operations
+    - Visualisations des données Power BI intégrées dans le client Microsoft Dynamics 365 for Finance and Operations
 
 > [!IMPORTANT]
 > - Avant que la hiérarchie de la liste d'accès puisse affecter des données Power BI, la hiérarchie de la liste d'accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d'informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
@@ -107,4 +106,3 @@ Ressources supplémentaires
 - [Espace de travail de contrôle des coûts](cost-control-workspace.md)
 - [Hiérarchie des dimensions](dimension-hierarchy.md)
 - [Paramétrer la sécurité du pack de contenu Contrôle de gestion pour Power BI](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

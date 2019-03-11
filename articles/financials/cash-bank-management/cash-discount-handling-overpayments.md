@@ -1,13 +1,13 @@
 ---
-title: "Traitement de l'escompte de règlement pour les trop-perçus"
-description: "Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d'un escompte de règlement tout en payant un montant supérieur."
+title: Traitement de l'escompte de règlement pour les trop-perçus
+description: Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d'un escompte de règlement tout en payant un montant supérieur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b1af073e1f5a2e36be24fe0b57a878c77bff8907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364946"
 ---
-
 # <a name="handling-cash-discounts-for-overpayments"></a>Traitement de l'escompte de règlement pour les trop-perçus
 
 [!include [banner](../includes/banner.md)]
@@ -135,7 +134,6 @@ Le montant de l'escompte de règlement est réduit de 10,50 à 10,00. Le paiemen
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Escompte de règlement (le champ **Compte principal pour les remises client** sur la page **Escomptes de règlement**) | 10,50        |               |
 | Module Comptabilité client                                                                              |              | 10,50         |
-
 
 
 

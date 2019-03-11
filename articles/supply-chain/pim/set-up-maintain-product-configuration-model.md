@@ -1,13 +1,13 @@
 ---
-title: "Paramétrer un modèle de configuration de produit"
-description: "Cet article décrit les étapes de paramétrage et de création d'un modèle de configuration de produit."
+title: Paramétrer un modèle de configuration de produit
+description: Cet article décrit les étapes de paramétrage et de création d'un modèle de configuration de produit.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360668"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>Paramétrer un modèle de configuration de produit
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Cet article décrit les étapes de paramétrage et de création d'un modèle de 
 | Tester un modèle de configuration de produits.                         | Permet de tester le modèle de configuration de produit depuis la page **Détails du modèle de configuration de produits basée sur les contraintes** ou la page **Liste des modèles de configuration de produits**. Le fait de tester des modèles de configuration de produit simule le processus de configuration du modèle de produit qui se produit pendant le traitement des commandes.                                                                                                |
 | Créer un modèle de modèle de configuration de produit.                | Permet de créer un modèle de configuration de produit sur la page **Modèles de configuration**. Un modèle de configuration inclut des valeurs pour les attributs du modèle de configuration de produit. Sélectionnez les valeurs d'attribut sur la page **Configurer la ligne**. Vous pouvez choisir de charger un modèle de modèle de configuration de produit pendant la configuration du modèle de produit.                                                   |
 | Configurer un article.                                          | Les modèles de configuration de produit peuvent être configurés à partir d'une commande client, d'un devis de vente, d'une commande fournisseur, ou d'un ordre de fabrication.                                                                                                                                                                                                                                                                           |
-
 
 
 

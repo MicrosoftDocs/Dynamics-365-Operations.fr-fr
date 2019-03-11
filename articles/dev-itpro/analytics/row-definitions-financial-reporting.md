@@ -1,13 +1,13 @@
 ---
-title: "Définitions de ligne dans le générateur d'états financiers"
-description: "Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d'arborescence de génération d'état et les définitions d'état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés."
+title: Définitions de ligne dans le générateur d'états financiers
+description: Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d'arborescence de génération d'état et les définitions d'état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350433"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Définitions de ligne dans le générateur d'états financiers
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Une définition de ligne est un composant de l’état, ou un bloc élémentaire
 Une définition de ligne peut contenir jusqu'à 20 000 lignes de dimensions financières et peut inclure les informations suivantes :
 
 - Texte descriptif précisant le rapport en créant des titres de section, des lignes et des espaces tels que **Espèces** ou **Produit total**
-- Liens vers des données financières, qui peuvent inclure des valeurs de dimension dans Microsoft Dynamics 365 for Finance and Operations.
+- Liens vers des données financières, qui peuvent inclure des valeurs de dimension dans Microsoft Dynamics 365 for Finance and Operations
 
     > [!NOTE]
     > Vous pouvez configurer une définition de ligne de manière à extraire les données du système des dimensions financières chaque fois que le rapport est généré.
@@ -158,7 +157,7 @@ Vous pouvez créer et modifier des styles de police pour l'état. Vous pouvez en
 
 ### <a name="format-row-text"></a>Mise en forme du texte de ligne
 
-Cette mise en forme spécifiée dans la définition de colonne remplace la mise en forme spécifiée dans la définition de colonne et la définition d'état. Vous pouvez modifier le format du texte à l’aide des contrôles de la barre d’outils Mise en forme. Ces commandes sont les commandes Microsoft Windows standards.
+Cette mise en forme spécifiée dans la définition de colonne remplace la mise en forme spécifiée dans la définition de colonne et la définition d'état. Vous pouvez modifier le format du texte à l’aide des contrôles de la barre d’outils Mise en forme. Ces commandes sont des commandes Microsoft Windows standard.
 
 1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
 2. Sélectionnez les cellules à mettre en forme. Pour sélectionner plusieurs cellules, maintenez la touche CTRL enfoncée tout en sélectionnant les cellules souhaitées.
@@ -189,4 +188,3 @@ Pour faciliter l'affichage des colonnes sur lesquelles vous travaillez dans la d
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
-

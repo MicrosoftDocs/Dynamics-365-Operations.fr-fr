@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI Perfectionnement de l'employé"
-description: "Cette rubrique décrit le contenu Power BI Perfectionnement de l'employé."
+title: Contenu Power BI Perfectionnement de l'employé
+description: Cette rubrique décrit le contenu Power BI Perfectionnement de l'employé.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347167"
 ---
-
 # <a name="employee-development-power-bi-content"></a>Contenu Power BI Perfectionnement de l'employé
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Microsoft Power BI **Perfectionnement de l'employé**.
+Cette rubrique décrit le contenu Power BI **Perfectionnement de l'employé**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
 Les états inclus dans le contenu Power BI **Perfectionnement de l'employé** contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
 
 | Etat                        | Sommaire |
@@ -70,4 +69,3 @@ Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et 
 | Analyse des qualifications de l'employé  | Certifié, niveau, date du niveau et qualification                                                                    | Nom de l'employé, Qualification |
 | Performances              | Classement, description et modèle de classement                                                                      | Employé actuel, Poste actuel, Tendance de l'employé, Qualification préférée par tâche, Affectation antérieure de postes, Tendance du poste, Employé dont le contrat est terminé |
 | Qualification                    | Qualification, type de qualification et évaluation                                                                              | Analyse des qualifications de l'employé, Qualification préférée pour la tâche |
-

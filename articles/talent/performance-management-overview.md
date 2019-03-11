@@ -1,13 +1,13 @@
 ---
 title: Gestion des performances
-description: "Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés."
+description: Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés.
 author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304312"
 ---
-
 # <a name="performance-management"></a>Gestion des performances
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Lorsqu'elle est appelée depuis l'espace de travail **ESS**, la page du **journa
 
 Vous pouvez également associer le journal des performances à un site Web externe en enregistrant l'URL de ce site. Si le journal est associé aux objectifs ou aux entretiens d'évaluation des performances, vous pouvez également le lier à un ou plusieurs d'entre eux. Lorsque le journal des performances est appelé depuis la page **MSS**, vous pouvez entrer les mêmes informations que celles du journal de l'employé. En outre, vous pouvez spécifier l'employé pour lequel le journal est créé. Vous pouvez choisir de partager le journal du responsable avec votre employé.
 
-### <a name="praise"></a>Récompense
+### <a name="send-feedback"></a>Envoyer vos commentaires
 
-Le journal des performances contient une fonctionnalité supplémentaire appelée Récompense. Lorsque vous cliquez sur **Envoyer une récompense**, vous pouvez sélectionner un employé et lui transmettre des commentaires par courrier électronique. Le message est envoyé à l'employé qui est récompensé, à son responsable, à l'employé qui envoie la récompense, et au responsable de ce dernier. Une entrée est créée dans le journal des performances pour chaque personne qui reçoit le message de récompense.
+Le journal des performances contient une fonctionnalité supplémentaire appelée Commentaires. Lorsque vous cliquez sur **Envoyer des commentaires**, vous pouvez sélectionner un employé et lui transmettre des commentaires par courrier électronique. Le message est envoyé à l'employé qui reçoit les commentaires, à son responsable, à l'employé qui envoie les commentaires, et au responsable de ce dernier. Une entrée est créée dans le journal des performances pour chaque personne qui reçoit le message de commentaires.
 
 ## <a name="goals"></a>Objectifs
 La page **Objectifs de performances** vous aide à suivre les objectifs que vous et votre responsable vous êtes fixés. Vous pouvez créer un nombre quelconque d'objectifs qui peuvent s'étendre sur plusieurs périodes et sur plusieurs entretiens d'évaluation des performances. Vous pouvez également créer des objectifs simples ou complexes, en fonction du volume d'informations que vous souhaitez entrer. Les objectifs ne sont pas requis pour les entretiens d'évaluation des performances. 
@@ -151,7 +150,6 @@ Les types de source du journal des performances décrivent l'origine des journau
 ### <a name="review-types"></a>Types de révision
 
 Les types de révision des performances permettent de contrôler le comportement d'une révision. Vous pouvez activer ou désactiver le workflow pour une révision. Si la révision n'utilise pas de workflow, vous pouvez définir le statut par défaut utilisé lorsque la révision est créée. Vous pouvez également décider si l'employé, le responsable, ou les deux sont nécessaires pour valider la révision.
-
 
 
 

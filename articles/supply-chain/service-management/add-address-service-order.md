@@ -1,37 +1,36 @@
 ---
-title: "Ajout d'une adresse à une commande de service"
-description: "Cette rubrique explique comment ajouter une adresse du client à une commande de service."
+title: Ajout d'une adresse à une commande de service
+description: Cette rubrique explique comment ajouter une adresse du client à une commande de service.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 58188be6f82b6587011188379e5370b81f8fd114
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e6dfa27b2101e84fbab678e781c26126cf1db898
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311908"
 ---
-
 # <a name="add-an-address-to-a-service-order"></a>Ajout d'une adresse à une commande de service    
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique explique comment ajouter une adresse du client à une commande de service. Lorsque vous créez une commande de service, les informations d'adresse sont transférées à partir du projet auquel la commande de service est associée. Toutefois, vous pouvez sélectionner un autre emplacement à partir des adresses qui sont déjà entrées dans Microsoft Dynamics AX pour des clients, des fournisseurs, des sites, des entrepôts, des commandes de service et des projets.
+Cette rubrique explique comment ajouter une adresse du client à une commande de service. Lorsque vous créez une commande de service, les informations d'adresse sont transférées à partir du projet auquel la commande de service est associée. Toutefois, vous pouvez sélectionner un autre emplacement à partir des adresses qui sont déjà entrées dans Microsoft Dynamics AX pour des clients, des fournisseurs, des sites, des entrepôts, des commandes de service, et des projets.
 
 Vous pouvez aussi créer une nouvelle adresse. Par défaut, la nouvelle adresse est transférée au projet. Toutefois, vous pouvez spécifier que la nouvelle adresse n'est applicable qu'à cette instance de service. Dans ce cas, la nouvelle adresse n'est pas transférée au projet.
 
@@ -74,6 +73,5 @@ Pour ajouter une adresse alternative à une commande de service, procédez comme
 
 
   
-
 
 

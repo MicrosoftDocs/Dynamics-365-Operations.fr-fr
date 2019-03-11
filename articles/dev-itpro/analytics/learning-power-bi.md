@@ -1,13 +1,13 @@
 ---
 title: Contenu Power BI Apprentissage
-description: "Cette rubrique décrit le contenu Power BI Apprentissage."
+description: Cette rubrique décrit le contenu Power BI Apprentissage.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,28 +15,27 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ee0cc2e22609d1a87e7d2b6dcd031606191f879
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321453"
 ---
-
 # <a name="learning-power-bi-content"></a>Contenu Power BI Apprentissage
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit le contenu Microsoft Power BI **Apprentissage**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
 
 Les états inclus dans le contenu Power BI **Apprentissage** contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
 
 | Etat                | Sommaire |
 |-----------------------|----------|
 | Vue d'ensemble Apprentissage     | Synthèse des autres états |
-| Analyse de cours       | Enregistrement par emplacement, participant par statut, cours par type par société et présence aux cours par tâche |
+| Analyse de cours       | Enregistrement par emplacement, participant par statut, cours par type par société et présence aux cours par tâche |
 | Analyse de l'enregistrement | Liste des inscriptions |
 | Types de cours          | Types de cours par qualification |
 | Analyse de l'instructeur   | Ratio cours/instructeurs, nombre d'instructeurs, cours par instructeur et emploi du temps par instructeur |
@@ -64,4 +63,3 @@ Les données suivantes sont utilisées pour remplir les états dans le contenu P
 | Poste         | Poste, fonction et équivalent du temps plein                  | Emploi du temps du cours, Participants aux cours |
 | Nom de l'employé    | Prénom, nom et nom complet                             | Participants aux cours |
 | Titre de l'employé   | Titre et date d'ancienneté                                         | Participants aux cours |
-

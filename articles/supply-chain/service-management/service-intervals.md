@@ -1,31 +1,30 @@
 ---
 title: Intervalles de services
-description: "L'intervalle de services indique la fréquence de création des lignes de commande de service pour les lignes d'accord de service lorsque vous créez des commandes de service."
+description: L'intervalle de services indique la fréquence de création des lignes de commande de service pour les lignes d'accord de service lorsque vous créez des commandes de service.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10078cbd02209126e9655b823fcf844b692a4794
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: 4a51a3c3483e81cefdaf3d8e62a4f1f47fcd706b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/20/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352940"
 ---
-
 # <a name="service-intervals"></a>Intervalles de services
 
 [!include [banner](../includes/banner.md)]
@@ -94,5 +93,4 @@ Trois lignes de commande de service ont été créées dans le délai spécifié
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Paramétrage des intervalles de services](set-up-service-intervals.md)  
-
 

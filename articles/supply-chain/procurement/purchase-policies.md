@@ -1,13 +1,13 @@
 ---
 title: Politiques d'achat
-description: "Cet article fournit des informations sur les politiques d'achat. Une stratégie d'achat est une collection de règles qui contrôlent le processus de demande. Les stratégies d'achat permettent aux administrateurs de l'approvisionnement d'implémenter leur stratégie d'approvisionnement en créant une structure de stratégie qui est aligné sur les besoins d'achats stratégiques de l'organisation."
+description: Cet article fournit des informations sur les politiques d'achat. Une stratégie d'achat est une collection de règles qui contrôlent le processus de demande. Les stratégies d'achat permettent aux administrateurs de l'approvisionnement d'implémenter leur stratégie d'approvisionnement en créant une structure de stratégie qui est aligné sur les besoins d'achats stratégiques de l'organisation.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 494eb9af2b293c6dbf22d80825e50dc80987c3ea
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358759"
 ---
-
 # <a name="purchasing-policies"></a>Politiques d'achat
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ La règle de création des commandes fournisseur et de consolidation de la deman
     -   **Ne pas autoriser la consolidation de la demande** : aucune ligne de demande d'achat approuvée ne peut être prise en compte pour une consolidation de demande. Cette option est sélectionnée par défaut et ne s'applique qu'aux lignes de demande d'achat qui requièrent le traitement manuel de la création des commandes fournisseur.
     -   **Toujours autoriser la consolidation de la demande** : toutes les lignes de demande d'achat approuvée peuvent être prises en compte pour une consolidation de demande. **Remarque :** Si vous sélectionnez l'option **Toujours autoriser la consolidation de la demande** sous l'onglet **Exiger la consolidation**, mais si vous sélectionnez l'option **Créer automatiquement des commandes fournisseur** sous l'onglet **Création manuelle des commandes fournisseur**, toutes les demandes d'achat sont conservées pour être traitées manuellement.
     -   **Autoriser la consolidation de la demande dans ces conditions** : permet de définir les critères déterminant si des lignes de demande d'achat approuvée peuvent être prises en compte pour une consolidation de demande. Vous pouvez définir les critères par catégorie d'approvisionnement et par fournisseur pour chaque type de ligne de demande d'achat. Si vous sélectionnez **Autoriser la consolidation de la demande dans ces conditions**, vous pouvez définir les critères par catégorie d'approvisionnement et par fournisseur pour chaque type de ligne de demande d'achat. Lorsque vous sélectionnez une catégorie d'approvisionnement, toutes ses sous-catégories sont également sélectionnées. Si vous sélectionnez l'option **Tout** pour un type de ligne spécifique, toutes les lignes de demande d'achat peuvent être prises en compte pour une consolidation de demande.
-
 
 
 

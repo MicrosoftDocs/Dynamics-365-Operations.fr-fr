@@ -1,13 +1,13 @@
---- 
-title: "ER Créer une configuration de format (novembre 2016)"
-description: "es étapes suivantes expliquent comment un utilisateur dans l'administrateur système ou le rôle Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER)."
+---
+title: ER Créer une configuration de format (novembre 2016)
+description: es étapes suivantes expliquent comment un utilisateur dans l'administrateur système ou le rôle Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377547"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Créer une configuration de format (novembre 2016)
 
@@ -35,8 +35,10 @@ es étapes suivantes expliquent comment un utilisateur dans l'administrateur sys
 2. Cliquez sur **Configurations des états**.
 3. Dans l'arborescence, sélectionnez **Paiements (modèle simplifié)**.
 4. Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue.
+
  > [!NOTE]
  > Si vous ne voyez pas **Créer la configuration**, vous devez activer le mode Configuration de la page **Paramètres de gestion des états électroniques**. 
+ 
 5. Dans le champ **Nouveau**, entrez **Format basé sur le PaymentModel du modèle du paiement**.
 6. Dans le champ **Nom**, tapez **LE SYSTÈME BACS (R-U factice)**.
 7. Dans le champ **Description**, entrez **Format de paiement fournisseur du SYSTÈME BACS (R-U factice)**.
@@ -44,9 +46,6 @@ es étapes suivantes expliquent comment un utilisateur dans l'administrateur sys
     * Un format spécifique de document électronique peut être défini. Laissez ce champ vide si vous souhaitez sélectionner un format au moment de l'exécution.  
 8. Dans le champ **Définition du modèle de données**, entrez ou sélectionnez une valeur.
 9. Cliquez sur **Créer une configuration**. Une nouvelle configuration client a été créée. La version temporaire peut servir à enregistrer le format de conception pour gérer des documents électroniques.  
- > [!NOTE]
- > Si vous ne voyez pas **Créer la configuration**, vous devez activer le mode Configuration de la page **Paramètres de gestion des états électroniques**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>Créer le format d'un document électronique
 1. Cliquez sur **Concepteur**.
@@ -159,5 +158,4 @@ es étapes suivantes expliquent comment un utilisateur dans l'administrateur sys
 41. Cliquez sur **OK**.
 42. Cliquez sur **Enregistrer**.
 43. Fermez la page.
-
 

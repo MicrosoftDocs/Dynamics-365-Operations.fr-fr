@@ -1,31 +1,30 @@
 ---
-title: "Recherche de candidats à l'aide de viviers de talents"
-description: "Cette rubrique explique comment créer et paramétrer des viviers de talents dans Attract."
-author: 
+title: Recherche de candidats à l'aide de viviers de talents
+description: Cette rubrique explique comment créer et paramétrer des viviers de talents dans Attract.
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304359"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Recherche de candidats à l'aide de viviers de talents
 
 [!include[banner](../includes/banner.md)]
@@ -108,7 +107,7 @@ Tous les utilisateurs ont un point de vue commun des profils de candidats. Séle
 
 - L'onglet **Documents** affiche tous les documents que le candidat a ajoutés depuis son profil ou lors de candidatures à un poste. Cet onglet permet de gérer les CV du candidat, ses lettres d'accompagnement, son travail de portefeuille, etc. Vous pouvez également utiliser cet onglet pour ajouter des documents.
 
-    Pour afficher un document, sélectionnez le nom du document dans la liste des documents. Vous pouvez afficher des documents Microsoft Word dans la candidature à l'aide de Microsoft Office 365. Vous pouvez également télécharger les documents sur votre ordinateur local à l'aide de l'option **Télécharger** pour chaque document.
+    Pour afficher un document, sélectionnez le nom du document dans la liste des documents. Vous pouvez afficher les documents Microsoft Word dans l'application à l'aide de Microsoft Office 365. Vous pouvez également télécharger les documents sur votre ordinateur local à l'aide de l'option **Télécharger** pour chaque document.
 
 - L'onglet **LinkedIn** affiche les informations LinkedIn du candidat. Pour utiliser cet onglet, vous devez connecter votre compte LinkedIn dans les paramètres utilisateur, et la connexion de LinkedIn Recruiter de votre environnement doit être établie. Pour plus d'informations, voir [Approvisionnement avec LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
@@ -139,4 +138,3 @@ Souvent, plusieurs bons candidats pour un poste ne sont pas sélectionnés, mais
 1. Sur la page de candidature, sélectionnez **Ajouter au vivier de talents**. Une liste des viviers de talents auxquels vous avez accès s'affiche.
 
 1. Sélectionnez ou recherchez le vivier de talents, puis sélectionnez **Ajouter** pour ajouter le candidat à ce vivier de talents.
-

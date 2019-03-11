@@ -1,13 +1,13 @@
 ---
 title: Publier des lignes de journal et les documents d'Excel
-description: "Cette rubrique explique comment entrer et publier des lignes de journaux d'opérations diverses issues de Microsoft Excel. Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez."
+description: Cette rubrique explique comment entrer et publier des lignes de journaux d'opérations diverses issues de Microsoft Excel. Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36eed913e658433b9200043163aad38521381be2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321039"
 ---
-
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Publier des lignes de journal et les documents d'Excel
 
 [!include [banner](../includes/banner.md)]
@@ -48,10 +47,9 @@ Les utilisateurs peuvent entrer et publier des lignes pour les journaux financie
 | Journal des paiements client | Compte : Compte de contrepartie client : Comptabilité, Intersociétés banque est pris en charge.                                               | Journal des paiements client                                                                |
 | Journal des dépenses de projet  | Compte : Projet, Comptabilité, Client, Fournisseur, Compte de contrepartie fournisseur : Projet, Comptabilité, Client, Fournisseur, Intersociétés fournisseurs est pris en charge. | Dépenses de journal d'opérations diverses (sous Gestion de projets et comptabilité)                       |
 
-Lorsque les lignes sont émises, elles sont validées pour s'assurer qu'elles sont conformes aux règles paramétrées dans les journaux financiers. Une fois que les lignes sont émises, les utilisateurs peuvent modifier ou valider les documents Microsoft Dynamics 365 for Finance and Operations. 
+Lorsque les lignes sont émises, elles sont validées pour s'assurer qu'elles sont conformes aux règles paramétrées dans les journaux financiers. Une fois que les lignes sont émises, les utilisateurs peuvent modifier ou valider les documents Microsoft Dynamics 365 for Finance and Operations. 
 
 Pour ajouter des dimensions financières à un modèle, des modifications supplémentaires sont requises. Pour plus d'informations, voir [Ajouter des dimensions au modèle Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). Une fois que les dimensions sont ajoutées à l'entité, elles sont disponibles dans le concepteur Excel et peuvent être ajoutées au modèle.
-
 
 
 

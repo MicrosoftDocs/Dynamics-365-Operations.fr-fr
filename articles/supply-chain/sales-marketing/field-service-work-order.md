@@ -1,37 +1,36 @@
 ---
-title: "Synchroniser les ordres d'exécution de Field Service sur les commandes client de Finance and Operations"
-description: "Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres d'exécution de Field Service sur les commandes client de Finance and Operations."
+title: Synchroniser les ordres d'exécution de Field Service sur les commandes client de Finance and Operations
+description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres d'exécution de Field Service sur les commandes client de Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
-ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
-ms.contentlocale: fr-fr
-ms.lasthandoff: 06/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324098"
 ---
-
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>Synchroniser les ordres d'exécution de Field Service sur les commandes client de Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres d'exécution de Microsoft Dynamics 365 for Field Service sur les commandes client de Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres d'exécution dans Microsoft Dynamics 365 for Field Service vers la commande client dans Microsoft Dynamics 365 for Finance and Operations.
 
 [![Synchronisation des processus d'entreprise entre Finance and Operations et Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -273,4 +272,3 @@ Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstat
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004) ou (msdyn_allocated ne true))
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-

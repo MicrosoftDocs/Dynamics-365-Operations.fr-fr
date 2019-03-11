@@ -1,13 +1,13 @@
---- 
-title: "Créer une écriture comptable avancée dans le secteur public"
-description: "Les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables."
+---
+title: Créer une écriture comptable avancée dans le secteur public
+description: Les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AdvancedLedgerEntry, AdvancedLedgerEntryCreate, ProjTableLookup, ProjCategoryLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: efb0fa85c5c34cf058bf9c48a6d6928c9b2d7acd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e5baa12a3915c76fde36435b1e95abaf96ba07dd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370786"
 ---
 # <a name="create-an-advanced-ledger-entry-in-the-public-sector"></a>Créer une écriture comptable avancée dans le secteur public
 
@@ -49,5 +49,4 @@ Les organisations du secteur public peuvent utiliser les écritures comptables a
     * Si vous sélectionnez la catégorie de projet, le compte général est automatiquement spécifié.  
     * Ajoutez un montant de débit ou de crédit à cette ligne. Si nécessaire, cliquez sur Ajouter une ligne pour ajouter des lignes supplémentaires.  
 17. Cliquez sur Enregistrer.
-
 

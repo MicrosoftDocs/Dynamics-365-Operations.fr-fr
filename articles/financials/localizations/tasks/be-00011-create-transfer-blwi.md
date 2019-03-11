@@ -1,13 +1,13 @@
---- 
-title: "Création et transfert de transactions vers l'état BLWI (Belgique)"
-description: "Cette procédure vous guide dans la création d'un état BLWI pour la Belgique."
+---
+title: Création et transfert de transactions vers l'état BLWI (Belgique)
+description: Cette procédure vous guide dans la création d'un état BLWI pour la Belgique.
 author: v-oloski
 manager: AnnBe
 ms.date: 07/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 147a2bf84459a5b67ffe633d5a7dd24b31bf10da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a6e6a58fecad57673508f428f041009147125dc0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370779"
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Création et transfert de transactions vers l'état BLWI (Belgique)
 
@@ -50,5 +50,4 @@ Les transactions client/fournisseur marquées avec l'un des codes objectif de pa
 16. Entrez une date dans le champ Date.
 17. Cliquez sur OK.
 18. Fermez la page.
-
 

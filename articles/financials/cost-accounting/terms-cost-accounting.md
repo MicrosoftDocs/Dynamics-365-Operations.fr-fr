@@ -1,13 +1,13 @@
 ---
-title: "Terminologie du contrôle de gestion"
-description: "Cette rubrique définit les termes clés utilisées dans le contrôle de gestion."
+title: Terminologie du contrôle de gestion
+description: Cette rubrique définit les termes clés utilisées dans le contrôle de gestion.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365935"
 ---
-
 # <a name="cost-accounting-terminology"></a>Terminologie du contrôle de gestion
 
 [!include [banner](../includes/banner.md)]
@@ -119,7 +118,7 @@ Il existe deux hiérarchies de dimensions : la hiérarchie de catégorisation et
 Le contrôle de gestion prend en charge l'intégration des données des systèmes sources via un ensemble de connecteurs de données. Les connecteurs de données suivants sont disponibles :
 
 -  Transactions importées (préconfigurées)
--  Dynamics 365 for Finance and Operations (préconfiguré)
+-  Dynamics 365 for Finance and Operations (pré-configuré)
 -  Dynamics AX (configuration obligatoire)
 
 **Remarque :** Les transactions importées du connecteur de données sont basées sur les entités de données.
@@ -128,7 +127,7 @@ Le contrôle de gestion prend en charge l'intégration des données des système
 
 La plupart des systèmes sources peuvent fournir les données qui correspondent à une ou plusieurs sources de données dans le contrôle de gestion. Pour aligner les données des systèmes sources à la source de données dans le contrôle de gestion, un fournisseur de données doit être configuré. Le tableau suivant répertorie la disponibilité des fournisseurs de données par connecteur de données et source de données.
 
-|  **Sources de données** |  **Connecteur de données pour les transactions importées** | **Connecteur de données Dynamics 365 for Finance and Operations**  | **Connecteur de données Dynamics AX**  |
+|  **Sources de données** |  **Connecteur de données pour les transactions importées** | **Connecteur de données Dynamics 365 for Finance and Operations**  | **Connecteur de données Dynamics AX**  |
 |---|---|---|---|
 | Membres de la dimension d'élément de coût  |  Oui | Oui  | Oui  |
 |  Membres de la dimension d'objet de coût |  Oui | Oui  | Oui  |
@@ -204,6 +203,5 @@ Les relevés sont des vues pour les responsables chargés de contrôler les coû
 **Version**
 
 Les versions sont utilisées pour simuler, afficher, puis comparer différents résultats. Par défaut, tous les coûts réels sont affichés dans une version de base *réelle*. Pour les budgets et les calculs, vous pouvez utiliser autant de versions que vous le souhaitez. Par exemple, vous pouvez importer les données du budget dans une version d'origine puis modifier le budget d'une version modifiée. Pour les calculs, vous pouvez créer plusieurs versions. Dans ces différentes versions, vous pouvez créer des calculs à l'aide de différentes règles de calcul qui s'appliqueront pour la répartition des coûts.
-
 
 

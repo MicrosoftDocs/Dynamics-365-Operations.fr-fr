@@ -1,13 +1,13 @@
 ---
-title: "Journaux d'opérations diverses"
-description: "Cette rubrique décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis."
+title: Journaux d'opérations diverses
+description: Cette rubrique décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358437"
 ---
-
 # <a name="general-journal-processing"></a>Journaux d'opérations diverses
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
+Cette rubrique décrit les fonctionnalités de Microsoft Dynamics 365 for Finance and Operations qui vous permettent d'effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n'est pas compromis.  
 
 ## <a name="journal-names"></a>Noms de journal
 
@@ -97,4 +96,3 @@ Pour plus d'informations, voir les rubriques suivantes :
 La fonction **Simuler la validation** est disponible dans le menu **Valider** pour la plupart des journaux. Lorsque vous validez un journal à l'aide de la fonction **Valider**, le système teste le journal pour rechercher des conditions d'erreur spécifiques. Si vous utilisez la fonction **Simuler la validation**, le système exécute les mêmes processus que ceux exécutés pendant la validation sans valider réellement le journal. Vous pouvez ensuite consulter les messages de validation affichés, corriger les erreurs trouvées, puis cliquer sur le menu **Valider** pour valider le journal. 
 
 La fonction **Simuler la validation** n'est pas disponible pour le traitement par lots. Toutefois, un code est disponible pour simuler la validation par lots et les développeurs peuvent étendre le code pour ajouter cette fonctionnalité.  
-

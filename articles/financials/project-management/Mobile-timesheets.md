@@ -1,13 +1,13 @@
 ---
 title: Feuilles de temps de projet sur un appareil mobile
-description: "Mes feuilles de temps (optimisées pour les appareils mobiles) permettent aux employés de créer et de soumettre des feuilles de temps de projet pour enregistrer leurs heures pour un projet spécifique sur un appareil mobile."
+description: Mes feuilles de temps (optimisées pour les appareils mobiles) permettent aux employés de créer et de soumettre des feuilles de temps de projet pour enregistrer leurs heures pour un projet spécifique sur un appareil mobile.
 author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360944"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>Feuilles de temps de projet sur un appareil mobile
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 04/13/2018
 
 **Feuilles de temps pour révision (optimisées pour mobile)** permet aux chefs de projet, disposant de droits d'approbation de feuilles de temps, de réviser et d'approuver des feuilles de temps de projet sur un appareil mobile. La modification et l'affichage des informations de dimension financière ne sont pas pris en charge par l'application mobile. **Feuilles de temps pour révision (optimisées pour mobile)** est accessible via le navigateur Web de votre appareil mobile.
 
-Cette application mobile est compatible pour l'iPhone avec Dynamics 365 for Finance and Operations platform update 15.
+Cette application mobile est compatible pour l'iPhone avec Dynamics 365 for Finance and Operations platform update 15.
 Android est compatible avec Platform update 16, lorsqu'elle devient disponible.
 
 <a name="create-a-project-timesheet-on-your-mobile-device"></a>Créer une feuille de temps de projet sur votre appareil mobile
@@ -66,4 +65,3 @@ Android est compatible avec Platform update 16, lorsqu'elle devient disponible.
 13. Facultatif : entrez des lignes supplémentaires de feuille de temps.
 
 14. Après avoir entré les lignes de feuille de temps, sélectionnez l'action **Workflow** \> **Soumettre** pour envoyer votre feuille de temps au processus d'approbation de workflow.
-

@@ -1,13 +1,13 @@
---- 
-title: "Créer un accord commercial"
-description: "Cette procédure vous indique comment créer un accord commercial dans lequel vous enregistrer un prix de vente de produit dont vous avez convenu avec un client spécifique."
+---
+title: Créer un accord commercial
+description: Cette procédure vous indique comment créer un accord commercial dans lequel vous enregistrer un prix de vente de produit dont vous avez convenu avec un client spécifique.
 author: omulvad
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f7df0a91948a494465fbd55af99757e3890357ce
 ms.openlocfilehash: e132cd20437b7929e81fcaa123d70bb57fb320c8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323500"
 ---
 # <a name="create-a-new-trade-agreement"></a>Créer un accord commercial
 
@@ -68,5 +68,4 @@ Cette procédure vous indique comment créer un accord commercial dans lequel vo
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 ### <a name="community-blogs"></a>Blogs de la communauté
-- [Prix de vente dans Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
-
+- [Prix de vente dans Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)

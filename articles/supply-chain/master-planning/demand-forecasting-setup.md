@@ -1,13 +1,13 @@
 ---
-title: "Paramétrage de la prévision de la demande"
-description: "Cette rubrique décrit les tâches de paramétrage que vous devez effectuer pour préparer la prévision de la demande."
+title: Paramétrage de la prévision de la demande
+description: Cette rubrique décrit les tâches de paramétrage que vous devez effectuer pour préparer la prévision de la demande.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330446"
 ---
-
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ Un article et ses dimensions doivent faire partie d'une seule clé de répartiti
 Pour ajouter une unité de stockage (SKU) à une clé de répartition par article, accédez à **Planification** &gt; **Paramétrage** &gt; **Prévision de la demande** &gt; **Clés de répartition par article**. La page **Affecter des articles** permet d'affecter un article à une clé de répartition.
 
 ## <a name="intercompany-planning-groups"></a>Groupes de planification intersociétés
-La prévision de demande génère des prévisions de société croisée. Dans Microsoft Dynamics 365 for Finance and Operations, les sociétés qui sont planifiées ensemble sont regroupées dans un groupe de planification intersociétés. Pour indiquer, par société, les clés de répartition par article qui doivent être considérées pour la prévision de la demande, associez une clé de répartition par article au membre du groupe de planification intersociétés en allant sur **Planification** &gt; **Paramétrage** &gt; **Groupes de planification intersociétés**. 
+La prévision de demande génère des prévisions de société croisée. Dans Microsoft Dynamics 365 for Finance and Operations, les sociétés qui sont planifiées ensemble sont regroupées dans un groupe de planification intersociétés. Pour indiquer, par société, les clés de répartition par article qui doivent être considérées pour la prévision de la demande, associez une clé de répartition par article au membre du groupe de planification intersociétés en allant sur **Planification** &gt; **Paramétrage** &gt; **Groupes de planification intersociétés**. 
 
 Par défaut, si aucune clé de répartition par article n'est affectée aux membres du groupe de planification intersociétés, une prévision de la demande est calculée pour tous les articles affectés à toutes les clés de répartition par article de toutes les sociétés Finance and Operations. Des options de filtrage supplémentaires pour les sociétés et les clés de répartition par article sont disponibles dans la page **Générer des prévisions de base statistiques**. 
 
@@ -86,7 +85,6 @@ Pour afficher les paramètres qui peuvent être configurés pour le service de p
 [Génération de prévisions de base statistiques](generate-statistical-baseline-forecast.md)
 
 [Effectuer des ajustements manuels sur la prévision de base](manual-adjustments-baseline-forecast.md)
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Ajouter un prédécesseur à une activité de flux de production"
-description: "Dans une version de flux de production, toutes les activités doivent être séquencées."
+---
+title: Ajouter un prédécesseur à une activité de flux de production
+description: Dans une version de flux de production, toutes les activités doivent être séquencées.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9acb1c2672af70f535f3dce1c8f5a97e8d479158
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d19fb20e8cc941daeaa506e4bf1cb0c7031cf2ee
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343671"
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Ajouter un prédécesseur à une activité de flux de production
 
@@ -51,5 +51,4 @@ Pour en savoir plus, lisez le livre blanc « Production flows and activities in
 4. Entrez un nombre dans le champ Ratio de durée de cycle.
     * Le ratio de durée de cycle par défaut d'une relation d'activité est 1. Cela suppose que les deux activités s'exécutent au même rythme ou takt time. Si un prédécesseur s'exécute à un rythme plus élevé (takt time inférieur), le ratio peut être inférieur à 1, si le prédécesseur s'exécute à un rythme plus lent (takt time supérieur), le ratio de durée de cycle est supérieur à 1.  
 5. Cliquez sur OK.
-
 

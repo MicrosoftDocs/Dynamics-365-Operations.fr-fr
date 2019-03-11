@@ -1,13 +1,13 @@
 ---
 title: Promesse de commande
-description: "Cet article fournit des informations sur les promesses de commande. Les promesses de commandes vous permettent de promettre de manière fiable des dates de livraison à vos clients et vous offre une certaine flexibilité pour pouvoir respecter ces dates."
+description: Cet article fournit des informations sur les promesses de commande. Les promesses de commandes vous permettent de promettre de manière fiable des dates de livraison à vos clients et vous offre une certaine flexibilité pour pouvoir respecter ces dates.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2c0b31f6e51de4489a35dbd91a6e9886e620f421
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312345"
 ---
-
 # <a name="order-promising"></a>Promesse de commande
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Vous créez une ligne de commande client pour le produit et entrez la valeur **1
 Étant donné que le contrôle de la date de livraison est DAV, les données DAV sont calculées de sorte à rechercher la date d'expédition la plus proche possible. Selon les paramètres, la commande fournisseur et la commande client retardées sont prises en compte, et la quantité DAV qui en résulte pour la date actuelle est 0. Demain, lorsque la réception de la commande fournisseur retardée est prévue, la quantité DAV est calculée comme supérieure à 0 (dans ce cas, elle est calculée comme étant de 125). Toutefois, dans 10 jours à compter d'aujourd'hui, lorsque la réception de la commande fournisseur supplémentaire pour 100 pièces est prévue, la quantité DAV devient supérieure à 150.  
 
 Par conséquent, la date d'expédition est définie sur 10 jours à compter d'aujourd'hui, selon le calcul DAV. Vous devez donc informer le client que la quantité demandée peut être livrée dans 10 jours.
-
 
 
 

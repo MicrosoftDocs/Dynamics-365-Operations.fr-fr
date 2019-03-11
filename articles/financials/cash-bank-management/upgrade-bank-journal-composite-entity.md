@@ -1,13 +1,13 @@
 ---
-title: "Mise à jour de l'entité composite du journal des banques"
-description: "Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite."
+title: Mise à jour de l'entité composite du journal des banques
+description: Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 70db65dca4cfadd1ed8769386b4b437cecc217a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 18b2b228f287a946eb18536b1ea93b0d6af6900c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359357"
 ---
-
 # <a name="update-the-bank-journal-composite-entity"></a>Mise à jour de l'entité composite du journal des banques
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Les étapes suivantes permettent d'ajouter le champ BankTransactionType supplém
             -   Vérifiez que le type de transaction bancaire est mappé entre Source et Intermédiaire.
 
 3.  Importez le nouveau relevé.
-
 
 
 

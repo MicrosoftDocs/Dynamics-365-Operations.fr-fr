@@ -1,13 +1,13 @@
---- 
-title: "FR-00004 Paramétrer le mode de paiement"
-description: "La procédure vous guide dans la configuration des modes de paiement d'établissement afin de vous aider à créer et valider la lettre de change après l'avoir approuvée dans le journal de création de lettres de change."
+---
+title: FR-00004 Paramétrer le mode de paiement
+description: La procédure vous guide dans la configuration des modes de paiement d'établissement afin de vous aider à créer et valider la lettre de change après l'avoir approuvée dans le journal de création de lettres de change.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, CustVendPaymFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: fb1fdb9dd7cd3df3bd4a89a81517733f99b50241
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370776"
 ---
 # <a name="fr-00004-setup-method-of-payment"></a>FR-00004 Paramétrer le mode de paiement
 
@@ -64,5 +64,4 @@ Pour effectuer cette procédure, vous devez avoir le rôle de responsable de la 
 19. Cochez ou décochez la case Créer et valider automatiquement le journal de création lors de la validation des factures.
 20. Cochez ou décochez la case à cocher Exécuter le script d'exportation.
 21. Cliquez sur Enregistrer.
-
 

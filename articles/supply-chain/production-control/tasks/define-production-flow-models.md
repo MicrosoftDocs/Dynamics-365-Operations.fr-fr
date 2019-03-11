@@ -1,13 +1,13 @@
---- 
-title: "Définir des modèles de flux de production"
-description: "Les modèles de flux de production décrivent comment la capacité des cellules de travail Lean Manufacturing est calculée et mise à jour."
+---
+title: Définir des modèles de flux de production
+description: Les modèles de flux de production décrivent comment la capacité des cellules de travail Lean Manufacturing est calculée et mise à jour.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336725"
 ---
 # <a name="define-production-flow-models"></a>Définir des modèles de flux de production
 
@@ -45,5 +45,4 @@ Les modèles de flux de production décrivent comment la capacité des cellules 
     * La plage de gestion de planification décrit le nombre de jours où les réservations de capacité peuvent être effectuées pour les cellules de travail connexes. Dans la plage de gestion de planification, entrez le nombre de jours.   Les tâches de traitement Kanban qui tombent en dehors de cette période ne sont pas prévues avec la planification automatique. La plage de gestion de planification est généralement deux fois supérieure au délai de stock moyen des produits produits dans un flux de production ou une cellule de travail. Le cycle EPE ne doit pas être supérieur à la moitié de la plage de gestion de planification.     
 8. Dans le champ Réaction de pénurie de capacité, sélectionnez une option.
     * Les options sont les suivantes : Ajourner - Ajourner la demande complète de l'événement de planification au prochain jour de production disponible, avec le débit disponible. Annuler - Terminer la planification automatique pour l'événement de planification et laisser les tâches connexes non planifiées.   Ajouter au jour demandé - Planifier les tâches demandées pour la période requise. Cela surcharge la cellule pour le jour en question et exige que le planificateur effectue un examen et une interaction manuelle.   Répartir sur les périodes disponibles - Distribuer les différentes tâches de l'événement de planification à tous les jours de production disponibles, à partir du premier jour disponible. La quantité de distribution minimum correspond à la quantité de tâches de kanban. La distribution affecte la quantité de planification minimale (quantité de kanban) à chaque jour doté de suffisamment de débit disponible.  
-
 

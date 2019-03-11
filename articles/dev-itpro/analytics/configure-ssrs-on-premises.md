@@ -1,34 +1,34 @@
 ---
-title: "Configurer SQL Server Reporting Services pour des déploiements sur site"
-description: "Cette rubrique fournit des informations sur la configuration de SQL Server Reporting Services (SSRS) pour un déploiement sur site."
+title: Configurer SQL Server Reporting Services pour des déploiements sur site
+description: Cette rubrique fournit des informations sur la configuration de SQL Server Reporting Services (SSRS) pour un déploiement sur site.
 author: sarvanisathish
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 166d419f16866f699b96013222ce8da147a5ec21
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315128"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>Configurer SQL Server Reporting Services pour des déploiements sur site
 
 [!include [banner](../includes/banner.md)]
 
-Utilisez les étapes de cette rubrique pour configurer SQL Server Reporting Services (SSRS) pour le déploiement de votre système Microsoft Dynamics 365 for Finance and Operations (sur site).
+Procédez comme indiqué dans cette rubrique pour Configurer SQL Server Reporting Services pour un déploiement sur site de Microsoft Dynamics 365 for Finance and Operations.
 
 1. Ouvrez l'application Gestionnaire de configuration de Reporting Services.
 2. Laissez la valeur par défaut de **Nom de serveur**, qui doit être le nom de la machine actuelle, et **Instance de serveur d'états**, **MSSQLSERVER**.
@@ -87,11 +87,10 @@ Utilisez les étapes de cette rubrique pour configurer SQL Server Reporting Serv
 
     [![Onglet Environnement de déploiement avec montée en puissance parallèle](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
 
-    Ne modifiez pas les paramètres par défaut de l'onglet **Intégration Power BI**.
+    Ne modifiez pas les paramètres par défaut de l'onglet **Intégration Power BI**. 
 
     [![Onglet Intégration Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
 
 13. Cliquez sur **Quitter** pour fermer le **Gestionnaire de configuration de Reporting Services**.
 
     [![Fermer le Gestionnaire de configuration de Reporting Services](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
-

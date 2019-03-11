@@ -1,13 +1,13 @@
---- 
-title: "EUR-00015 Recherche de partie à l'aide de l'ID de TVA"
-description: "Cette procédure indique comment effectuer une recherche de partie à l'aide d'un ID d'enregistrement."
+---
+title: EUR-00015 Recherche de partie à l'aide de l'ID de TVA
+description: Cette procédure indique comment effectuer une recherche de partie à l'aide d'un ID d'enregistrement.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyTable, DirPartTaxRegistrationSearch
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: ec36ead402882c1022811b7b398a03c6325ef7c0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370714"
 ---
 # <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015 Recherche de partie à l'aide de l'ID de TVA
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/14/2018
 
 Cette procédure indique comment effectuer une recherche de partie à l'aide d'un ID d'enregistrement. Pour pouvoir effectuer cette procédure, vous devez paramétrer les ID de TVA et entrer les ID de TVA des fournisseurs, clients ou entités juridiques.
 
-Cette procédure s'applique à tous les pays/régions européens. La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Allemagne. Cette procédure s'adresse à un responsable de la comptabilité fournisseur ou à un responsable de la comptabilité client. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Cette procédure s'applique à tous les pays/régions européens. La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Allemagne. Cette procédure s'adresse à un responsable de la comptabilité fournisseur ou à un responsable de la comptabilité client. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 1. Accédez à Administration d'organisation > Carnet d'adresses global > Carnet d'adresses global.
 2. Cliquez sur Recherche d'ID d'enregistrement.
@@ -41,5 +41,4 @@ Cette procédure s'applique à tous les pays/régions européens. La procédure 
 6. Dans le champ Numéro d'enregistrement, tapez une valeur.
 7. Cliquez sur Rechercher.
     * Toutes les parties avec cet ID d'enregistrement sont affichées.  
-
 

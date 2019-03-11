@@ -1,13 +1,13 @@
 ---
-title: "Ouvrir des données d'entité dans Excel et les mettre à jour à l'aide du module complémentaire Excel"
-description: "Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel."
+title: Ouvrir des données d'entité dans Excel et les mettre à jour à l'aide du module complémentaire Excel
+description: Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,26 +17,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340635"
 ---
-
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Ouvrir des données d'entité dans Excel et les mettre à jour à l'aide du module complémentaire Excel
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d'entité, vous pouvez utiliser Excel ou Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique explique comment ouvrir des données d'entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l'aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d'entité, vous pouvez commencer à partir d'Excel ou de Microsoft Dynamics 365 for Finance and Operations.
 
-En ouvrant des données d'entité dans Excel, vous pouvez rapidement les étudier et les modifier à l'aide du module complémentaire pour Excel. Ce module complémentaire nécessite Microsoft Excel 2016.
+En ouvrant des données d'entité dans Excel, vous pouvez rapidement les étudier et les modifier à l'aide du module complémentaire pour Excel. Ce complément exige Microsoft Excel 2016.
 
 > [!NOTE]
 > Remarque : si votre location Microsoft Azure Active Directory (Azure AD) est configurée pour utiliser les services AD FS (Active Directory Federation Services), vous devez vous assurer que la mise à jour de mai 2016 pour Office a été appliquée, de sorte de pouvoir vous connecter correctement au module complémentaire Excel.
 
-Pour en savoir plus sur l'utilisation du module complémentaire Excel, consultez la courte vidéo [Créer un modèle Excel pour les modèles d'en-tête et de ligne dans Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+Pour en savoir plus sur l'utilisation du module complémentaire Excel, consultez la courte vidéo [Créer un modèle Excel pour les modèles d'en-tête et de ligne dans Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Ouvrir des données d'entité dans Excel au démarrage de Finance and Operations
 1. Dans une page de Finance and Operations, cliquez sur **Ouvrir dans Microsoft Office**.
@@ -125,4 +124,3 @@ Il existe quelques problèmes pouvant être résolus en quelques pas.
 - **Le bouton Charger les applets s'affiche** – Si le complément Excel comporte un bouton **Charger les applets** après la connexion, vous n'êtes probablement pas connecté sous le bon compte d'utilisateur. Pour résoudre ce problème, vérifiez que le nom d'utilisateur approprié s'affiche dans le coin supérieur droit du complément Excel. Si un nom d'utilisateur incorrect s'affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
 - **Vous recevez un message « Interdit »** – Si vous recevez un message « Interdit » alors que le complément Excel charge les métadonnées, le compte qui est connecté dans le complément Excel ne dispose pas de l'autorisation d'utilisation du service, de l'instance ou de la base de données cible. Pour résoudre ce problème, vérifiez que le nom d'utilisateur approprié s'affiche dans le coin supérieur droit du complément Excel. Si un nom d'utilisateur incorrect s'affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
 - **Une page Web vide s'affiche au-dessus d'Excel** – Si une page Web vide s'affiche lors du processus de connexion, le compte nécessite AD FS, mais la version d'Excel qui exécute le complément n'est pas assez récente pour charger la boîte de dialogue de connexion. Pour résoudre ce problème, mettez à jour la version d'Excel que vous utilisez. Pour mettre à jour la version d'Excel lorsque vous êtes dans une entreprise se trouvant dans un canal différé, utilisez l'[Outil de déploiement Office](https://technet.microsoft.com/library/jj219422.aspx) pour [passer du canal différé au canal actuel](https://technet.microsoft.com/library/mt455210.aspx).
-

@@ -1,13 +1,13 @@
---- 
-title: "Créer une commande client"
-description: "Cette procédure vous indique comment créer une commande client."
+---
+title: Créer une commande client
+description: Cette procédure vous indique comment créer une commande client.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352112"
 ---
 # <a name="create-sales-orders"></a>Créer une commande client
 
@@ -68,5 +68,4 @@ Cette procédure vous indique comment créer une commande client. Vous pouvez ut
 2. Cliquez sur Totaux.
     * La page Totaux affiche des détails sur la commande entière. Cela inclut le montant du sous-total (la somme des montants nets de toutes les lignes ajustée pour les éventuelles remises de ligne), le montant total de la facture (le montant du sous-total ajusté pour la remise de niveau commande), les frais et les taxes, la situation de limite de crédit du client, etc.  Le montant de la facture correspond au montant qui s'affiche sur la facture du client.  
 3. Cliquez sur OK.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Afficher d'un état de dépenses dans la comptabilité ou les approvisionnements"
-description: "Cette rubrique explique comment afficher l'état de dépenses d'origine sur lequel une transaction apparaît."
+title: Afficher d'un état de dépenses dans la comptabilité ou les approvisionnements
+description: Cette rubrique explique comment afficher l'état de dépenses d'origine sur lequel une transaction apparaît.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e88af5a815803d20cf97f21f6ae50bcf98539b83
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6397ca01ef100b6149c70a335ce854bc0439aff2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316393"
 ---
-
 # <a name="view-an-expense-report"></a>Afficher un état de dépenses
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ Pour les états de dépenses, vous pouvez accéder à l'état d'origine depuis u
 Pour accéder à l'état de dépenses d'origine sur lequel une transaction est apparue, sélectionnez la transaction, puis **Document d'origine**.
 
 Lorsque vous affichez des transactions individuelles, vous pouvez également afficher des données supplémentaires liées à une transaction. Par exemple, pour des frais d'hôtel détaillés, vous pouvez afficher une liste détaillée des dépenses (par exemple, l'accès à Internet, les appels téléphoniques et le service d'étage).
-

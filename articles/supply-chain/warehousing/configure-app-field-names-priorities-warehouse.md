@@ -1,13 +1,13 @@
 ---
 title: Configurer les noms de champ d'application dans l'application Entreposage
-description: "Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Finance and Operations."
+description: Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0162014189ed6bffb17e6718a67eecfd55c334a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d029481d31a0064a193e2cb9eeaf79df28bfa159
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351330"
 ---
-
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configurer les noms de champ d'application dans l'application Entreposage
 
 [!include [banner](../includes/banner.md)]
@@ -144,7 +143,6 @@ Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées 
 --------
 
 [Installation et configuration de Microsoft Dynamics 365 for Finance and Operations – Entreposage](install-configure-warehousing-app.md)
-
 
 
 

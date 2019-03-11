@@ -1,13 +1,13 @@
---- 
+---
 title: Configurer le traitement de la vague
-description: "Cette rubrique décrit la procédure de paramétrage des critères qui déterminent le travail généré pour un entrepôt lorsqu'une vague est traitée et si les vagues sont traitées manuellement ou automatiquement."
+description: Cette rubrique décrit la procédure de paramétrage des critères qui déterminent le travail généré pour un entrepôt lorsqu'une vague est traitée et si les vagues sont traitées manuellement ou automatiquement.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337507"
 ---
 # <a name="configure-wave-processing"></a>Configurer le traitement de la vague
 
@@ -68,5 +68,4 @@ Cette rubrique décrit la procédure de paramétrage des critères qui détermin
 24. Sélectionnez une option dans le champ Libérer dans l'entrepôt.
     * Pour les commandes client et des commandes kanban, le stock doit être réservé avant que la commande ne soit libérée dans l'entrepôt. Sinon, les articles ou les lignes de répartition ne pourront pas être traités dans une vague. Pour les ordres de fabrication, vous avez également la possibilité de choisir Autoriser une réservation partielle. Par exemple, cela peut s'avérer utile si vous disposez des matières premières nécessaires pour démarrer une production, et si pouvez attendre jusqu'à ce que les matières premières supplémentaires deviennent disponibles pour terminer le processus. Si vous sélectionnez cette option, vous devez répéter manuellement le processus de libération dans l'entrepôt lorsque des matières premières supplémentaires deviennent disponibles.  
 25. Fermez la page.
-
 

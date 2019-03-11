@@ -1,13 +1,13 @@
 ---
-title: "Afficher les entrées de journal et les transactions"
-description: "Cet article explique les différentes manières dont vous pouvez afficher les entrées de journal et les transactions."
+title: Afficher les entrées de journal et les transactions
+description: Cet article explique les différentes manières dont vous pouvez afficher les entrées de journal et les transactions.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTransVoucher
 audience: Application User
 ms.reviewer: robinr
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366694"
 ---
-
 # <a name="view-journal-entries-and-transactions"></a>Afficher les entrées de journal et les transactions
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Outre les états financiers, vous pouvez utiliser les états suivants de comptab
 - [Explorateur de comptabilité source](../accounts-payable/accounting-source-explorer.md)
 - [États financiers](financial-reporting-getting-started.md)
 - [Afficher les entrées de journal](tasks/view-journal-entries-or-transactions.md)
-
 
 
 

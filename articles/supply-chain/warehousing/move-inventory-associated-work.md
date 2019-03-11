@@ -1,13 +1,13 @@
 ---
-title: "Mouvements de stock avec le travail associé dans la gestion d'entrepôt"
-description: "Cette rubrique décrit comment vous paramétrez et appliquez la confirmation de prélèvement des pièces d'un périphérique mobile."
+title: Mouvements de stock avec le travail associé dans la gestion d'entrepôt
+description: Cette rubrique décrit comment vous paramétrez et appliquez la confirmation de prélèvement des pièces d'un périphérique mobile.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorker
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 618942ff22b6a81c75bd472955e4add14e6f4d84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 463e438418c4bc1b38fd1bde8251d1383cb44a13
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347650"
 ---
-
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Mouvements de stock avec le travail associé dans la gestion d'entrepôt
 
 [!include [banner](../includes/banner.md)]
@@ -59,5 +58,4 @@ Pour le collaborateur qui doit être autorisé à déplacer le stock réservé, 
 
 Cette fonction a également été ajoutée à Microsoft Dynamics AX 2012 R3 et est disponible dans le cadre de CU12.
 Elle peut être chargée individuellement via le numéro 3192548 de la Base de connaissances. 
-
 

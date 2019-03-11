@@ -1,13 +1,13 @@
---- 
-title: "Prêter l'article à un collaborateur"
-description: "Cette procédure décrit comment prêter un article à un collaborateur et comment enregistrer le collaborateur qui retourne un article."
+---
+title: Prêter l'article à un collaborateur
+description: Cette procédure décrit comment prêter un article à un collaborateur et comment enregistrer le collaborateur qui retourne un article.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPersonLoan, HcmPersonLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9041a24a7197c350a38339408197f643f2b9b6dd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332217"
 ---
 # <a name="loan-item-to-a-worker"></a>Prêter l'article à un collaborateur
 
@@ -43,5 +43,4 @@ Cette procédure décrit comment prêter un article à un collaborateur et comme
 1. Accédez à Ressources humaines > Collaborateurs > Articles empruntés > Équipement emprunté.
 2. Cliquez sur Modifier.
 3. Entrez une date dans le champ Retour réel.
-
 

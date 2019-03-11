@@ -1,13 +1,13 @@
 ---
-title: "Contenu Power BI pour la gestion des crédits et des relances"
-description: "Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des crédits et des relances. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+title: Contenu Power BI Gestion des crédits et des relances
+description: Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des crédits et des relances. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,21 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325179"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>Contenu Power BI pour la gestion des crédits et des relances
+# <a name="credit-and-collections-management-power-bi-content"></a>Contenu Power BI Gestion des crédits et des relances
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les données incluses dans le contenu Power BI **Gestion des crédits et des relances**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit les données incluses dans le contenu Power BI de **gestion des crédits et des relances**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Le contenu Power BI **Gestion des crédits et des relances** a été créé pour les responsables des crédits et des relances, ainsi que les agents de recouvrement. Il fournit des mesures importantes sur les crédits et relances, comme les ventes quotidiennes restantes, le solde en retard, l'exposition au crédit et les clients qui dépassent leur limite de crédit autorisé. Il utilise des données transactionnelles et fournit une vue agrégée des crédits et relances dans toutes les sociétés. Il fournit également une répartition par société, groupe de clients et client.
 
@@ -44,9 +43,9 @@ Tous les montants sont indiqués dans la devise système. Vous pouvez définir l
 Par défaut, les données liées aux crédits et aux relances pour la société actuelle s'affichent. Pour afficher les données entre toutes les sociétés, affectez le droit **CustCollectionsBICrossCompany** au rôle.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Le contenu Power BI **Gestion des crédits et des relances** s'affiche dans l'espace de travail **Crédits et relances client**.
+Le contenu Power BI **Gestion des crédits** et des relances s'affiche dans l'espace de travail **Crédits et relances client**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
 
 Le contenu Power BI **CustCollectionsBICrossCompany** inclut un état composé d'un ensemble de mesures. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. Le tableau suivant donne une vue d'ensemble des visualisations dans le contenu Power BI **CustCollectionsBICrossCompany**.
 
@@ -67,7 +66,7 @@ Les graphiques et les vignettes sur tous ces états peuvent être filtrés et é
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 
-Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestion des crédits et des relances**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](../../dev-itpro/analytics/power-bi-integration-entity-store.md)
+Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestion des crédits et des relances**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
 
 |                   Entité                    |      Mesures globales clés      |             Source de données              |                           Champ                            |                                    Description                                     |
@@ -88,5 +87,4 @@ Les données suivantes sont utilisées pour remplir les pages d'état dans le co
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Nombre de notes d'intérêt qui ont été créées.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Nombre total de commandes client qui sont en attente.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Somme des transactions annulées.                 |
-
 

@@ -1,13 +1,13 @@
 ---
 title: Synchroniser les estimations de projet directement de Project Service Automation vers Finance and Operations
-description: "Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les estimations des heures du projet et les estimations des dépenses du projet directement entre Microsoft Dynamics 365 for Project Service Automation et Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les estimations d'heure projet et les estimations de dépense projet directement depuis Microsoft Dynamics 365 for Project Service Automation vers Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 21338b889e0377dbfd5adfd461ea81b39a75baf8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353952"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchroniser les estimations de projet directement de Project Service Automation vers Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les estimations des heures du projet et les estimations des dépenses du projet directement entre Microsoft Dynamics 365 for Project Service Automation et Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les estimations d'heure projet et les estimations de dépense projet directement depuis Microsoft Dynamics 365 for Project Service Automation vers Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> - L'intégration de tâche de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et le verrouillage des fonctionnalités sont disponibles dans la version 8.0 de Microsoft Dynamics 365 for Finance and Operations.
-> - L'intégration des transactions réelles est disponible dans la version 8.01 de Microsoft Dynamics 365 for Finance and Operations ou ultérieure.
-> - Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, après avoir installé KB 4132657 et KB 4132660, vous pourrez utiliser les modèles pour intégrer les tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et les transactions réelles, ainsi que pour configurer le verrouillage des fonctionnalités. Si vous devez réinitialiser les répartitions comptables, nous vous recommandons d'installer également KB 4131710.
+> - L'intégration des tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et le verrouillage des fonctionnalités sont disponibles dans la version 8.0 de Microsoft Dynamics 365 for Finance and Operations.
+> - L'intégration des chiffres réels est disponible dans Microsoft Dynamics 365 for Finance and Operations version 8.0.1 ou version ultérieure.
+> - Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, après avoir installé KB 4132657 et KB 4132660, vous pourrez utiliser les modèles pour intégrer les tâches de projet, les catégories de transaction de dépense, les estimations des heures, les estimations des dépenses et les transactions réelles, ainsi que pour configurer le verrouillage des fonctionnalités. Si vous devez réinitialiser les répartitions comptables, nous vous recommandons d'installer également KB 4131710.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Flux de données pour Project Service Automation et Finance and Operations
 
@@ -47,7 +47,7 @@ L'illustration suivante indique comment les données sont synchronisées entre P
 
 ### <a name="template-and-tasks"></a>Modèle et tâches
 
-Pour accéder aux modèles disponibles, dans le centre d'administration de Microsoft PowerApps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
+Pour accéder aux modèles disponibles, dans le centre d'administrateur de Microsoft PowerApps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
 
 Le modèle et les tâches sous-jacentes ci-après sont utilisés pour synchroniser les estimations des heures du projet entre Project Service Automation et Finance and Operations :
 
@@ -171,4 +171,3 @@ Les illustrations suivantes présentent des exemples de mise en correspondance d
 [![Mise en correspondance des modèles](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mise en correspondance des modèles](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
-

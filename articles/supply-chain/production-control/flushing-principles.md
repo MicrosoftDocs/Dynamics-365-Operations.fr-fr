@@ -1,13 +1,13 @@
 ---
 title: Principes d'effacement
-description: "Cette rubrique décrit les quatre principes d'effacement utilisés pour la consommation de matières premières."
+description: Cette rubrique décrit les quatre principes d'effacement utilisés pour la consommation de matières premières.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358299"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Contrôler la consommation de matières premières à l'aide des principes d'effacement
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ La principe d'effacement de fin indique que le matériel est automatiquement con
 
 ### <a name="available-at-location"></a>Disponible à l'emplacement
 Le principe d'effacement sur site disponible indique que les matières sont automatiquement consommées lorsqu'elles sont enregistrées comme prélevées pour la production. Les matières sont enregistrées comme prélevées de l'emplacement lorsque le prélèvement de matières premières est terminé, ou lorsque la matière est disponible à l'emplacement d'entrée en production et que la ligne de matière est lancée à l'entrepôt. Les prélèvements générés lors du processus sont validés dans un traitement par lots. Ce principe est utile si, par exemple, vous avez plusieurs activités de prélèvement pour un ordre de fabrication. Dans ce cas, vous ne devez pas mettre les prélèvements à jour manuellement, et vous pouvez obtenir une vue actuelle du solde des travaux en cours.
-

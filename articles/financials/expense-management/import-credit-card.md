@@ -1,13 +1,13 @@
 ---
-title: "Importer et tenir à jour les transactions de carte de crédit"
-description: "Cette rubrique décrit la procédure d'importation et de gestion des transactions de carte de crédit liées aux dépenses. Ces transactions peuvent être configurées en vue d'être importées automatiquement dans un calendrier récurrent, ou elles peuvent être importées manuellement en fonction des besoins."
+title: Importer et tenir à jour les transactions de carte de crédit
+description: Cette rubrique décrit la procédure d'importation et de gestion des transactions de carte de crédit liées aux dépenses. Ces transactions peuvent être configurées en vue d'être importées automatiquement dans un calendrier récurrent, ou elles peuvent être importées manuellement en fonction des besoins.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 3379e2f850653cb99231d4ab030b64beb72b626a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322649"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Importer et tenir à jour les transactions de carte de crédit
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Pour plus d'informations sur les entités de données, voir la rubrique [Entité
 Une fois qu'un enregistrement d'employé est terminé, le compte des services de domaine Active Directory (AD DS) de l'employé est désactivé. Toutefois, il peut y avoir des transactions de carte de crédit actives qui doivent encore faire l'objet d'une dépense et d'un remboursement. Dans la page **Transactions de carte de crédit**, vous pouvez réaffecter à l'employé toute transaction de carte de crédit pour laquelle le contrat de l'employé associé a pris fin.
 
 Sélectionnez une ou plusieurs transactions de carte de crédit, puis sélectionnez **Réaffecter les transactions**. Vous pouvez ensuite sélectionner un autre employé auquel affecter les transactions de carte de crédit. Une fois les transactions de carte de crédit réaffectées, elles peuvent être sélectionnées pour un rapport de dépenses et payées selon le processus habituel de remboursement des dépenses.
-

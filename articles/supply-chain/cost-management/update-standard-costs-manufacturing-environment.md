@@ -1,13 +1,13 @@
 ---
-title: "Mise à jour des coûts standard dans un environnement de fabrication"
-description: "Cet article fournit des instructions sur la mise à jour des coûts standard dans un environnement de fabrication."
+title: Mise à jour des coûts standard dans un environnement de fabrication
+description: Cet article fournit des instructions sur la mise à jour des coûts standard dans un environnement de fabrication.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fccfcec3d74bd13aa1b6511ebd37ee1454d1b47b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a5340baad38864388abcfab3235cf459887cba9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332355"
 ---
-
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Mise à jour des coûts standard dans un environnement de fabrication
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Les mises à jour peuvent refléter les nouveaux articles, les catégories de co
 -   Calculez les coûts pour un nouvel article fabriqué sur la base de sa nomenclature définie, approuvée et active et de ses informations de gamme.
 
 Chaque cas nécessite un examen attentif de la façon de mettre à jour les coûts standard.
-
 
 
 

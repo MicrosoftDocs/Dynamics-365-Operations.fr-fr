@@ -1,13 +1,13 @@
 ---
 title: Synchroniser les contrats de projet et les projets directement de Project Service Automation vers Finance and Operations
-description: "Cette rubrique décrit le modèle et les tâches sous-jacentes qui sont utilisés pour synchroniser les contrats de projet et les projets directement entre Microsoft Dynamics 365 for Project Service Automation et Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique décrit le modèle et les tâches sous-jacentes utilisés pour synchroniser les contrats de projet et les projets directement depuis Microsoft Dynamics 365 for Project Service Automation vers Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312115"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchroniser les contrats de projet et les projets directement de Project Service Automation vers Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit le modèle et les tâches sous-jacentes qui sont utilisés pour synchroniser les contrats de projet et les projets directement entre Microsoft Dynamics 365 for Project Service Automation et Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique décrit le modèle et les tâches sous-jacentes utilisés pour synchroniser les contrats de projet et les projets directement depuis Microsoft Dynamics 365 for Project Service Automation vers Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE] 
-> Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, vous devez installer KB 4074835.
+> Si vous utilisez Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0, vous devez installer KB 4074835.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Flux de données pour Project Service Automation et Finance and Operations
 
@@ -47,7 +46,7 @@ L'illustration suivante indique comment les données sont synchronisées entre P
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
-Pour accéder aux modèles disponibles, dans le centre d'administration de Microsoft PowerApps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
+Pour accéder aux modèles disponibles, dans le centre d'administrateur de Microsoft PowerApps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
 
 Le modèle et les tâches sous-jacentes ci-après sont utilisés pour synchroniser les contrats de projet et les projets entre Project Service Automation et Finance and Operations :
 
@@ -95,8 +94,8 @@ Lorsque la solution d'intégration de Project Service Automation avec Finance an
 ## <a name="prerequisites-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
 - Avant toute synchronisation des contrats de projet et des projets, vous devez synchroniser les comptes.
-- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_organizationalunits** à **msdyn\_name \[Name\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir [Intégration de données dans Common Data Service pour les applications](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_projects** à **msdynce\_projectnumber \[Project Number\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir [Intégration de données dans Common Data Service pour les applications](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_organizationalunits** à **msdyn\_name \[Name\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir la section [Intégration des données dans Common Data Service pour les applications](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_projects** à **msdynce\_projectnumber \[Project Number\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir la section [Intégration des données dans Common Data Service pour les applications](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 - **SourceDataID** pour les contrats de projet et les projets peut être mis à jour sur une autre valeur ou supprimé de la mise en correspondance. La valeur de modèle par défaut est **Project Service Automation**.
 - La mise en correspondance **PaymentTerms** doit être mise à jour pour refléter les conditions de paiement valides dans Finance and Operations. Vous pouvez également supprimer la mise en correspondance de la tâche de projet. La mise en correspondance des valeurs par défaut a des valeurs par défaut pour les données de démonstration. Le tableau suivant indique les valeurs dans Project Service Automation.
 
@@ -111,7 +110,7 @@ Lorsque la solution d'intégration de Project Service Automation avec Finance an
 
 Vous devez utiliser Microsoft Power Query pour Excel pour filtrer les données si les conditions suivantes sont réunies :
 
-- Des commandes client sont disponibles dans Microsoft Dynamics 365 for Sales.
+- Vous avez des commandes client dans Microsoft Dynamics 365 for Sales.
 - Plusieurs unités d'organisation sont disponibles dans Project Service Automation, et ces unités d'organisation sont mises en correspondance avec plusieurs entités juridiques dans Finance and Operations.
 
 Si vous devez utiliser Power Query, suivez les instructions ci-après :
@@ -135,4 +134,3 @@ Les illustrations suivantes présentent des exemples de mise en correspondance d
 [![Mise en correspondance des modèles](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![Mise en correspondance des modèles](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

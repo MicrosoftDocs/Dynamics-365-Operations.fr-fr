@@ -1,13 +1,13 @@
 ---
 title: Mises en attente du paiement d'une facture fournisseur dans le secteur public en France
-description: "Les processus standard liés aux mises en attente de paiement d'une facture fournisseur dans Microsoft Dynamics 365 for Finance and Operations ont été étendus pour les entités françaises du secteur public. Cette rubrique décrit la fonctionnalité de mises en attente de paiement d'une facture fournisseur utilisée par le secteur public en France."
+description: Les processus standard liés aux mises en attente de paiement d'une facture fournisseur dans Microsoft Dynamics 365 for Finance and Operations ont été étendus pour les entités françaises du secteur public. Cette rubrique décrit la fonctionnalité de mises en attente de paiement d'une facture fournisseur utilisée par le secteur public en France.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymTerm
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cea944d84f90bf96dc5c8630224c07a770bd0c81
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8ed76dd2b8b46056807ebc3e015cf413d357a035
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370676"
 ---
-
 # <a name="vendor-invoice-payment-holds-in-the-public-sector-in-france"></a>Mises en attente du paiement d'une facture fournisseur dans le secteur public en France
 
 [!include [banner](../includes/banner.md)]
 
-Les processus standard liés aux mises en attente de paiement d'une facture fournisseur dans Microsoft Dynamics 365 for Finance and Operations ont été étendus pour les entités françaises du secteur public. Cette rubrique décrit la fonctionnalité de mises en attente de paiement d'une facture fournisseur utilisée par le secteur public en France.
+Les processus standard liés aux mises en attente de paiement d'une facture fournisseur dans Microsoft Dynamics 365 for Finance and Operations ont été étendus pour les entités françaises du secteur public. Cette rubrique décrit la fonctionnalité de mises en attente de paiement d'une facture fournisseur utilisée par le secteur public en France.
 
 <a name="set-up-rules-for-vendor-invoice-payment-holds"></a>Définition de règles pour les mises en attente de paiement d'une facture fournisseur
 ---------------------------------------------
@@ -70,7 +69,6 @@ Créez ou supprimer une mise en attente de paiement pour toutes les factures fou
 
 ## <a name="can-i-settle-an-invoice-that-is-on-hold"></a>Puis-je régler une facture qui est en attente ?
 Si vous assumez le même rôle utilisateur que la personne qui a créé la mise en attente, vous pouvez y mettre fin à partir de la page **Règlement des transactions** et régler la facture fournisseur. Lorsque vous créez une mise en attente de paiement, l'option **Blocage de paiement de facture** est automatiquement sélectionnée sous l'onglet **Paiement** de la page **Règlement des transactions**. Cela permet d'empêcher qu'une facture fournisseur ne soit réglée avant la suppression de la mise en attente.
-
 
 
 

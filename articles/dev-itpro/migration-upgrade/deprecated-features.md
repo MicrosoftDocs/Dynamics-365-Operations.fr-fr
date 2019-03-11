@@ -1,13 +1,13 @@
 ---
-title: "Fonctions supprimées ou obsolètes"
-description: "Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer."
+title: Fonctions supprimées ou obsolètes
+description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer.
 author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329250"
 ---
-
 # <a name="removed-or-deprecated-features"></a>Fonctions supprimées ou déconseillées
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les fonctions qui ont été supprimées ou déconseillées pour Dynamics 365 for Finance and Operations.
+Cette rubrique décrit les fonctions qui ont été supprimées, ou qui sont devenues obsolètes pour Dynamics 365 for Finance and Operations.
 
 - Une fonction *supprimée* n'est plus disponible dans le produit.
 - Une fonction *déconseillée* n'est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
@@ -37,12 +36,12 @@ Cette rubrique décrit les fonctions qui ont été supprimées ou déconseillée
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
 > [!Note]
-> À partir de la version de juillet 2017 de Dynamics 365 for Finance and Operations avec platform update 8, les types de déploiements sont indiqués pour chaque fonction supprimée ou déconseillée. Toutes les versions précédentes mentionnées dans cette rubrique ne prenaient en charge que les déploiements dans le cloud.
+> À partir de la version de juillet 2017 de Dynamics 365 for Finance and Operations avec platform update 8, les types de déploiements sont indiqués pour chaque fonction supprimée ou déconseillée. Toutes les versions précédentes mentionnées dans cette rubrique ne prenaient en charge que les déploiements dans le cloud.
 
 > [!Note]
 > Des informations détaillées sur les objets dans Finance and Operations peuvent être consultés dans les [États de référence technique](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version de Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 avec platform update 20
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 avec platform update 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Règles de transfert par lots des écritures de compte de journal de comptabilité auxiliaire
 Le mode de transfert synchrone n'est plus utilisé dans les paramètres de comptabilité.  Ce mode est remplacé par le mode asynchrone et le traitement par lots planifié uniquement, qui existent déjà comme options de transfert. 
@@ -62,9 +61,9 @@ Fonction de configuration des formats de fichier .txt et .xml des déclarations.
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Remplacé par l'outil de gestion des états électroniques. |
 | **Remplacé par une autre fonctionnalité ?**   | Oui. |
-| **Zones de produit affectées**         | Comptabilité générale |
+| **Zones de produit affectées**         | Comptabilité |
 | **Option de déploiement**              | Tous |
-| **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Générateur d'états financiers pour la Russie
 Outil pour paramétrer la collecte des données pour la comptabilité et les états fiscaux et pour exporter les données vers les modèles d'état XLS et DOC. Parties fonctionnelles : la fonction d'exportation des données vers les modèles d'état XLS et DOC, les requêtes, les conditions requises fixes sont supprimées. 
@@ -75,7 +74,7 @@ Outil pour paramétrer la collecte des données pour la comptabilité et les ét
 | **Remplacé par une autre fonctionnalité ?**   | Oui. L'interface utilisateur de paramétrage des états financiers doit être utilisée pour paramétrer les règles de collecte de données par les comptes généraux ou les registres de taxe. La fonction d'exportation des données vers divers types de fichiers, les conditions requises fixes et les règles de collecte des données de type requête doivent être configurées dans l'outil de gestion des états électroniques. |
 | **Zones de produit affectées**         | Comptabilité générale. |
 | **Option de déploiement**              | Tous |
-| **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Intégration avec les fournisseurs externes pour l'envoi des états électroniques via les canaux de communication pour la Russie
 Fonction d'exportation des fichiers électroniques générés des déclarations vers un dossier pour l'envoi ultérieur aux fournisseurs officiels d'états électroniques, ainsi que pour la réimportation de l'état.
@@ -86,7 +85,7 @@ Fonction d'exportation des fichiers électroniques générés des déclarations 
 | **Remplacé par une autre fonctionnalité ?**   | Oui.  |
 | **Zones de produit affectées**         | Comptabilité générale, Taxe |
 | **Option de déploiement**              | Tous |
-| **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Assistant de registre de l'impôt sur les bénéfices
@@ -98,13 +97,13 @@ Fonctionnalité pour créer des modèles de nouveaux registres de l'impôt sur l
 | **Remplacé par une autre fonctionnalité ?**   | N° |
 | **Zones de produit affectées**         | Taxes |
 | **Option de déploiement**              | Tous |
-| **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Finance and Operations 8.1 avec platform update 20. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations avec platform update 15
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 avec platform update 15
 Aucune fonctionnalité n'a été supprimée ou rendue obsolète avec cette version. Platform update 15 est cumulative et contient les fonctionnalités, nouvelles ou modifiées, depuis Platform update 13, Platform update 14, et Platform update 15.
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 avec mise à jour 12 de la plateforme
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 avec platform update 12
 
 ### <a name="personalized-product-recommendations"></a>Recommandations de produit personnalisées 
 À compter du 15 février 2018, les détaillants ne pourront plus afficher des recommandations de produits personnalisées sur un appareil de point de vente (PDV). Pour plus d'informations, voir [Recommandations produit personnalisées](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
@@ -115,7 +114,7 @@ Aucune fonctionnalité n'a été supprimée ou rendue obsolète avec cette versi
 | **Remplacé par une autre fonctionnalité ?**   | N° Cependant, après le printemps 2018, nous prévoyons de rétablir cette fonctionnalité pour tirer parti d'un nouveau service de recommandation.   |
 | **Zones de produit affectées**         | Recommandations de produit personnalisées dans le PDV.                                                    |
 | **Option de déploiement**              | Tout                                                                                      |
-| **Statut**                         |Supprimé à partir de 15 février 2018. Cela concerne les clients exécutant Dynamics 365 for Operations 1611 et version ultérieure.  |
+| **Statut**                         |Supprimé à partir de 15 février 2018. Cela concerne les clients exécutant Dynamics 365 for Operations 1611 et versions ultérieures.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Extension de la liste des fonctions de génération d'états électroniques (ER)
 La possibilité d'introduire des fonctions personnalisées à utiliser dans le générateur d'expression ER (pour plus d'informations, voir [Extension de la liste des fonctions de génération d'états électroniques](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) n'est plus prise en charge. En raison des modifications des API de génération d'états électroniques, l'API pour appeler les fonctions intégrées à partir du générateur d'expression ER est devenue interne et ne peut plus être étendue.
@@ -125,8 +124,8 @@ La possibilité d'introduire des fonctions personnalisées à utiliser dans le g
 | **Motif de l'abandon/de la suppression** | Initiative de scellage du code  |
 | **Remplacé par une autre fonctionnalité ?**   | Aucun(e). Lorsqu'une nouvelle fonction intégrée est requise, une nouvelle demande d'extension doit être adressée à l'équipe de la structure ER.<br><br>En tant que travail temporaire pendant que la fonction demandée est en cours de développement par l'équipe ER, la logique requise peut être programmée en tant que méthode d'une classe d'application personnalisée. Cette méthode est accessible dans une expression ER en tant que propriété de la source de données ER ajoutée du type **Application\Classe** qui fait référence à cette classe d'application personnalisée.  |
 | **Zones de produit affectées**         | Structure de gestion des états électroniques                                                      |
-| **Option de déploiement**              | Tout                                                                                      |
-| **Statut**                         | Supprimé à compter de Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.    |
+| **Option de déploiement**              | Tous                                                                                      |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>États Stock par groupe d'articles et Stock par balance âgée des dimensions de stock
 
@@ -141,12 +140,12 @@ Ces deux rapports ne sont plus pris en charge dans Finance and Operations. À la
 | **Statut**                       | Déconseillé : les options de menu des deux états ont été supprimées dans la version 7.3. Toutefois, le code des états est conservé dans le produit. L'objectif est de supprimer le code dans une prochaine version. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Packs de contenu Power BI disponibles sur AppSource
-Les packs de contenu **Gestion des coûts**, **Performances financières** et **Performances du canal de vente au détail**, disponibles sur le site [Microsoft AppSource](https://appsource.microsoft.com), sont déconseillés suite aux mises à jour de produit dans Microsoft Power BI. Les écrans d'administration du système utilisés pour déployer ces packs de contenu sur PowerBI.com sont également déconseillés dans Finance and Operations.
+Les packs de contenu **Gestion des coûts**, **Performances financières** et **Retail Channel Performance**, disponibles sur le site [Microsoft AppSource](https://appsource.microsoft.com), sont déconseillés suite aux mises à jour de produit dans Microsoft Power BI. Les écrans d'administration du système utilisés pour déployer ces packs de contenu sur PowerBI.com sont également déconseillés dans Finance and Operations.
 
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Mises à jour de produit dans Microsoft Power BI. |
-| **Remplacé par une autre fonctionnalité ?**   | Les packs de contenu **Gestion des coûts**, **Performances financières** et **Performances du canal de vente au détail**, disponibles sur le site [AppSource](https://appsource.microsoft.com), sont remplacés par des applications analytiques qui permettent l'intégration de solutions au niveau de la base de données. Pour plus d'informations sur les applications analytiques, voir [Power BI intégré dans les espaces de travail](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Remplacé par une autre fonctionnalité ?**   | Les packs de contenu **Gestion des coûts**, **Performances financières** et **Retail Channel Performance**, disponibles sur le site [AppSource](https://appsource.microsoft.com), sont remplacés par des applications analytiques qui permettent l'intégration de solutions au niveau de la base de données. Pour plus d'informations sur les applications analytiques, voir [Power BI intégré dans les espaces de travail](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Zones de produit affectées**         | Gestion des coûts, Finance et Vente au détail                                                                                               |
 | **Option de déploiement**              | Cloud uniquement (l'intégration à PowerBI.com n'est pas prise en charge dans les déploiements sur site.)                                                                                                            |
 | **Statut**                         | Déconseillé : le délai cible pour la suppression de la fonctionnalité est le deuxième trimestre 2018.    |
@@ -209,7 +208,7 @@ Les utilisateurs peuvent le télécharger à partir du portail gouvernemental.
 | **Statut**                                  | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.  |    
 
 
-## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
+## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Recommandations de produit personnalisées 
 À compter du 15 février 2018, les détaillants ne pourront plus afficher des recommandations de produits personnalisées sur un appareil de point de vente (PDV). Pour plus d'informations, voir [Recommandations produit personnalisées](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
@@ -220,10 +219,10 @@ Les utilisateurs peuvent le télécharger à partir du portail gouvernemental.
 | **Remplacé par une autre fonctionnalité ?**   | N° Cependant, après le printemps 2018, nous prévoyons de rétablir cette fonctionnalité pour tirer parti d'un nouveau service de recommandation.   |
 | **Zones de produit affectées**         | Recommandations de produit personnalisées dans le PDV.                                                    |
 | **Option de déploiement**              | Tout                                                                                      |
-| **Statut**                         |Supprimé à partir de 15 février 2018. Cela concerne les clients exécutant Dynamics 365 for Retail 7.2 et version ultérieure. |
+| **Statut**                         |Supprimé à partir de 15 février 2018. Cela concerne les clients exécutant Dynamics 365 for Retail 7.2 et versions ultérieures. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition, juillet 2017, avec mise à jour 8 de la plateforme
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition juillet 2017 avec platform update 8
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversion de devise pour les devises comptables et de déclaration
 
@@ -244,7 +243,7 @@ Le Portail des appareils mobiles d'entrepôt (WMDP) est un composant autonome qu
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Fonction doublon.       |
-| **Remplacé par une autre fonctionnalité ?**   | Oui. Cette fonction a été remplacée par Finance and Operations - entreposant. Pour plus d'informations sur le paramétrage et les conditions préalables, voir [Installation et configuration de Microsoft Dynamics 365 for Finance and Operations – Entreposage](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. Cette fonction a été remplacée par Finance and Operations - entreposant. Pour plus d'informations sur le paramétrage et les conditions préalables, voir [Installation et configuration de Microsoft Dynamics 365 for Finance and Operations - Entreposage](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Zones de produit affectées**         | Gestion des entrepôts, Gestion du transport     |
 | **Option de déploiement**              | Le Portail des appareils mobiles d'entrepôt (WMDP) est un composant autonome qui a été prévu pour l'auto-déploiement local.               |
 | **Statut**                         | Obsolète : le délai cible pour la suppression de la fonctionnalité est le quatrième trimestre 2019.   |
@@ -258,10 +257,10 @@ Règle de correspondance utilisée pour sélectionner et marquer un document ban
 | **Motif de l'abandon/de la suppression** | Utilisation limitée.                                                                         |
 | **Remplacé par une autre fonctionnalité ?**   | N° Les fonctions de filtrage de colonnes doivent permettre de rechercher des documents pour le rapprochement. |
 | **Zones de produit affectées**         | Gestion de la trésorerie et de la banque                                                               |
-| **Option de déploiement**              | Tout                                                                                    |
+| **Option de déploiement**              | Tous                                                                                    |
 | **Statut**                         | Supprimé à partir de juillet 2017.                                                               |
 
-## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>Dynamics 365 for Operations 1611 avec mise à jour 3 de la plateforme
+## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>Dynamics 365 for Operations 1611 avec platform update 3
 
 ### <a name="aeb-payment-formats-for-spain"></a>Formats de paiement AEB pour l'Espagne
 
@@ -481,7 +480,7 @@ Informations sur les salaires dans Ressources humaines
 | **Motif de l'abandon/de la suppression** | Cette fonctionnalité a été remplacée par les pages Paie et Ressources humaines principales.  |
 | **Remplacé par une autre fonctionnalité ?**   | Les pages **Avantages**, **Rémunérations**, et les autres pages associées qui étaient précédemment dans Paie États-Unis ont été reconfigurées et font désormais partie de la configuration du module Ressources humaines principal pour aider à prendre en charge le traitement externe de la paie. Cette fonctionnalité est accessible à l'aide de la clé de configuration **Ressources humaines 1** \> **Paie**. |
 | **Zones de produit affectées**         | Ressources humaines, Paie   |
-| **Statut**                         | Supprimé à partir de la version 1611 de Dynamics 365 for Operations.    |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Operations version 1611.    |
 
 ### <a name="performance-management-goal-workflow"></a>Workflow de l'objectif de gestion des performances
 
@@ -492,7 +491,7 @@ La gestion des performances inclut la gestion et l'intégration d'objectifs incl
 | **Motif de l'abandon/de la suppression** | La gestion des performances a été remodelée, et le nombre de pages d'objectifs a été réduit pour simplifier le processus.                 |
 | **Remplacé par une autre fonctionnalité ?**   | Non. Les objectifs sont visibles des responsables via le portail en libre-service pour responsables, qui peuvent être changés et affichés par le responsable. |
 | **Zones de produit affectées**         | Gestion du capital humain       |
-| **Statut**                         | Supprimé à partir de la version 1611 de Dynamics 365 for Operations.    |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Operations version 1611.    |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Formats de paiement Postgirot et Postgirot Utland pour la Suède
 
@@ -514,7 +513,7 @@ L'identification par radio-fréquence (RFID) est une technologie de collecte de 
 | **Motif de l'abandon/de la suppression** | Faible utilisation de la part des clients et ensemble de fonctionnalités limité.   |
 | **Remplacé par une autre fonctionnalité ?**   | N°                                              |
 | **Zones de produit affectées**         | Gestion des stocks                            |
-| **Statut**                         | Supprimé à partir de Dynamics 365 for Operations 1611. |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Operations 1611. |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>État sur la numérotation des factures d'état pour la Lettonie
 
@@ -545,7 +544,7 @@ Les noms du responsable et du comptable général d'une société peuvent être 
 | **Motif de l'abandon/de la suppression** | Fonctionnalité en double   |
 | **Remplacé par une autre fonctionnalité ?**   | Partiellement remplacé par la gestion du transport |
 | **Zones de produit affectées**         | Gestion des stocks, Ventes et marketing  |
-| **Statut**                         | Supprimé à partir de la version 1611 de Dynamics 365 for Operations.  |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Operations version 1611.  |
 
 ### <a name="telepay-payment-formats-for-norway"></a>Formats de paiement Telepay pour la Norvège
 
@@ -576,7 +575,7 @@ Deux formats pour exporter les paiements sont disponibles pour la Finlande. LM02
 | **Motif de l'abandon/de la suppression** | La solution Gestion des entrepôts II (WMS II) qui était disponible dans le module **Gestion des stocks** duplique la fonctionnalité située dans le module **Gestion des entrepôts** qui a été lancée dans Microsoft Dynamics AX 2012 R3.                                                                         |
 | **Remplacé par une autre fonctionnalité ?**   | Le module **Gestion des entrepôts** qui a été lancé dans AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 et Dynamics AX 2012 R3 CU9 remplace les fonctionnalités de Gestion des entrepôts II. Le nouveau module a des fonctionnalités plus avancées et des processus de gestion des entrepôts plus flexibles que dans le module Gestion des entrepôts II. |
 | **Zones de produit affectées**         | Gestion des stocks, Ventes et marketing, Approvisionnements   |
-| **Statut**                         | Supprimé à partir de la version 1611 de Dynamics 365 for Operations.    |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Operations version 1611.    |
 
 ### <a name="worker-reminders-in-human-resources"></a>Rappels pour les travailleurs dans le module Ressources humaines
 
@@ -587,7 +586,7 @@ Informations sur les salaires dans Ressources humaines
 | **Motif de l'abandon/de la suppression** | Faible utilisation                                                           |
 | **Remplacé par une autre fonctionnalité ?**   | N°                                                                  |
 | **Zones de produit affectées**         | Ressources humaines                                                     |
-| **Statut**                         | Supprimé à partir de la version 1611 de Dynamics 365 for Operations |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Operations version 1611 |
 
 ### <a name="workflow-for-creating-goals"></a>Workflow pour créer des objectifs
 
@@ -595,12 +594,12 @@ Un workflow pour la gestion de la création des objectifs de l'employé est l'un
 
 |   |  |
 |------------|--------------------|
-| **Motif de l'abandon/de la suppression** | La gestion des performances a été complètement remodelée dans Microsoft Dynamics 365 for Finance and Operations.     |
+| **Motif de l'abandon/de la suppression** | Le module Gestion des performances a été entièrement revisité dans Microsoft Dynamics 365 for Finance and Operations.     |
 | **Remplacé par une autre fonctionnalité ?**   | La fonction de gestion des performances remodelée donne plus de contrôle sur le contenu des objectifs, les mesures utilisées pour suivre la progression, et l'association des documents associés. Les objectifs peuvent être stockés comme des modèles pour être réutilisés. Cette fonction peut vous aider à paramétrer des objectifs supplémentaires pour vos employés plus rapidement. |
 | **Zones de produit affectées**         | Gestion du capital humain                 |
-| **Statut**                         | Supprimé à partir de la version 1611 de Dynamics 365 for Operations. |
+| **Statut**                         | Supprimé à partir de Dynamics 365 for Operations version 1611. |
 
-## <a name="dynamics-ax-70"></a>Dynamics AX 7.0 
+## <a name="dynamics-ax-70"></a>Dynamics AX 7.0 
 
 
 ### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a>Possibilité d'annuler les modifications apportées à une facture fournisseur
@@ -783,7 +782,7 @@ Microsoft Dynamics AX 2012 autorisait le stockage de pièces jointes dans la ba
 
 |   |  |
 |------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Le stockage de partage de fichiers n'est plus pris en charge car les environnements hébergés dans le cloud ne peuvent pas communiquer avec les partages de fichier locaux. Le stockage de base de données a été abandonné en faveur du stockage Azure Blob. Le stockage Azure Blob est l'équivalent du stockage dans la base de données, car les documents peuvent uniquement être accessibles via les écrans client Dynamics 365 for Finance and Operations. Ceci offre l'avantage supplémentaire de fournir un stockage qui n'affecte pas négativement les performances de la base de données. Le stockage d'objet Blob est le mécanisme par défaut de stockage pour la gestion des documents et fonctionne immédiatement. |
+| **Motif de l'abandon/de la suppression** | Le stockage de partage de fichiers n'est plus pris en charge car les environnements hébergés dans le cloud ne peuvent pas communiquer avec les partages de fichier locaux. Le stockage de base de données a été abandonné en faveur du stockage Azure Blob. Le stockage Azure Blob est l'équivalent du stockage dans la base de données, car les documents peuvent uniquement être accessibles via les écrans client Dynamics 365 for Finance and Operations. Ceci offre l'avantage supplémentaire de fournir un stockage qui n'affecte pas négativement les performances de la base de données. Le stockage d'objet Blob est le mécanisme par défaut de stockage pour la gestion des documents et fonctionne immédiatement. |
 | **Remplacé par une autre fonctionnalité ?**   | Le stockage de base de données a été abandonné en faveur du stockage Azure Blob.   |
 | **Zones de produit affectées**         | Tous les modules  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.   |
@@ -808,13 +807,13 @@ Microsoft Dynamics AX 2012 autorisait le stockage de pièces jointes dans la ba
 
 ### <a name="direct-database-connection"></a>Connexion directe à la base de données
 
-Dans Dynamics AX 2012 R3, le terminal Retail Modern POS pouvait se connecter directement à la BDD des canaux de façon similaire au PDV de l'entreprise. Cela a été ajouté à la méthode standard de communication du terminal Retail Modern POS via le serveur de vente au détail.
+Dans Dynamics AX 2012 R3, le terminal Retail Modern POS pouvait se connecter directement à la base de données des canaux de façon similaire au PDV de l'entreprise. Cela a été ajouté à la méthode standard de communication du terminal Retail Modern POS via le serveur de vente au détail.
 
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | La connexion directe à la base de données nécessitait un niveau de sécurité moindre au niveau des protocoles et a été utilisée principalement pour atteindre des niveaux de performances supérieurs. En raison des améliorations au niveau des performances et de la sécurité dans Finance and Operations, cette fonctionnalité entraîne désormais plus de problèmes qu'elle n'en résout. |
 | **Remplacé par une autre fonctionnalité ?**   | N° Seule la communication standard via le serveur de vente au détail est désormais prise en charge.  |
-| **Zones de produit affectées**         | BDD des canaux/Terminal Retail Modern POS   |
+| **Zones de produit affectées**         | Base de données des canaux/Retail Modern POS   |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.  |
 
 ### <a name="dutch-swift-mt940"></a>SWIFT MT940 néerlandais
@@ -873,7 +872,7 @@ La génération de notes préliminaires ne peut pas être effectuée à l'aide d
 | **Motif de l'abandon/de la suppression** | Il n'existe aucun écran pour maintenir et afficher le fichier de notes préliminaires lorsqu'il est généré à l'aide d'un traitement par lots. |
 | **Remplacé par une autre fonctionnalité ?**   | Les notes préliminaires peuvent toujours être générées, et l'utilisateur peut contrôler où le fichier est stocké.   |
 | **Zones de produit affectées**         | Comptabilité fournisseur, Comptabilité client, Gestion de la trésorerie et de la banque  |
-| **Statut**                         | Supprimé à partir de Dynamics AX 7.0.    |
+| **Statut**                         | Supprimé à partir de AX 7.0.    |
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Exportation de paiement DTAUS et importation de relevé de compte allemands (totaux et transactions)
 
@@ -966,7 +965,7 @@ Cette fonctionnalité a permis la génération de factures électroniques mexica
 
 ### <a name="mexico-realized-and-unrealized-vat"></a>TVA réalisées et non réalisées au Mexique
 
-Microsoft Dynamics AX 2012 gérait la taxe sur la valeur ajoutée non réalisée (VAT) à l'aide de la fonctionnalité spécifique au Mexique pour la taxe non réalisée.
+Microsoft Dynamics AX 2012 gérait la taxe sur la valeur ajoutée non réalisée (VAT) à l'aide de la fonctionnalité spécifique au Mexique pour la taxe non réalisée.
 
 |   |  |
 |------------|--------------------|
@@ -980,9 +979,9 @@ Microsoft Dynamics AX 2012 gérait la taxe sur la valeur ajoutée non réalis�
 
 |   |  |
 |------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Cette fonctionnalité a été remplacée par l'intégration à Microsoft Exchange Server. |
+| **Motif de l'abandon/de la suppression** | Cette fonctionnalité a été remplacée par l'intégration Microsoft Exchange Server. |
 | **Remplacé par une autre fonctionnalité ?**   | Oui                                                                            |
-| **Zones de produit affectées**         | Ventes et marketing                                                            |
+| **Zones de produit affectées**         | Sales and Marketing                                                            |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.                                                 |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Blocage privé des journaux de gestion de stock et d'entrepôt.
@@ -1003,7 +1002,7 @@ Le configurateur était utilisé pour la configuration dynamique d'articles à p
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Le configurateur exposait du code X++ aux utilisateurs finaux et il n'est pas pris en charge dans la version actuelle de Dynamics AX. Il a été supprimé pour éviter les efforts de maintenance en double en matière de chevauchement et de codebases importants.  |
-| **Remplacé par une autre fonctionnalité ?**   | Oui. La configuration basée sur les contraintes a été introduite dans Dynamics AX 2012 où l'abandon du configurateur dans les prochaines versions était déjà annoncé. La technologie de configuration basée sur les contraintes est sélectionnée sur les produits génériques pour activer la configuration. Pour en savoir plus, voir [Créer un modèle de configuration de produit](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. La configuration basée sur les contraintes a été introduite dans Dynamics AX 2012 où l'abandon du configurateur dans les prochaines versions était déjà annoncé. La technologie de configuration basée sur les contraintes est sélectionnée sur les produits génériques pour activer la configuration. Pour en savoir plus, voir [Créer un modèle de configuration de produit](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Zones de produit affectées**         | Gestion d'informations sur les produits, Ventes et marketing  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.      |
 
@@ -1037,7 +1036,7 @@ Dans Dynamics AX 2012 R3, le serveur de vente au détail pouvait fonctionner vi
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | En raison de nouvelles exigences de sécurité, seule la communication sécurisée via TLS 1.2 (ou version ultérieure, si disponible) est maintenant prise en charge. Le programme d'installation en libre-service configurera automatiquement l'ordinateur pour la communication. |
 | **Remplacé par une autre fonctionnalité ?**   | N° Seule la communication standard HTTPS est désormais prise en charge. |
-| **Zones de produit affectées**         | Serveur Retail  |
+| **Zones de produit affectées**         | Serveur de vente au détail  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0. |
 
 ### <a name="role-center-pages"></a>Pages d'Aperçu interactif
@@ -1127,5 +1126,4 @@ L'application pour tablettes Windows 8 a fourni la fonctionnalité pour la sais
 |  <strong>Remplacé par une autre fonctionnalité ?</strong>  | Management Reporter (appelé <strong>États financiers</strong> dans la version actuelle de Dynamics AX) |
 |     <strong>Zones de produit affectées</strong>     |                                              Comptabilité                                              |
 |             <strong>Statut</strong>             |                                      Supprimé à partir de Dynamics AX 2012                                      |
-
 

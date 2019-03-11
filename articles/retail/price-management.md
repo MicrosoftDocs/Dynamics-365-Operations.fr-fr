@@ -1,14 +1,14 @@
 ---
 title: Gestion des prix de vente dans Retail
-description: "Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Microsoft Dynamics 365 for Retail."
+description: Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,19 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362140"
 ---
-
-# <a name="retail-sales-price-management"></a>Gestion des prix de vente dans Retail
+# <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur le processus de création et de gestion des prix de vente dans Microsoft Dynamics 365 for Retail. Elle se concentre sur les concepts impliqués dans ce processus, et sur les effets des différentes options de configuration sur les prix de vente.
+Cette rubrique fournit des informations sur le processus de création et de gestion des prix de vente dans Microsoft Dynamics 365 for Retail. Elle se concentre sur les concepts impliqués dans ce processus, et sur les effets des différentes options de configuration sur les prix de vente.
 
 ## <a name="terminology"></a>Terminologie
 
@@ -81,7 +80,7 @@ Les programmes de fidélité ont des fonctionnalités supplémentaires en plus d
 
 ### <a name="catalogs"></a>Catalogues
 
-Certains détaillants utilisent des catalogues physiques ou virtuels pour mettre des produits sur le marché et afficher leurs prix en fonction des groupes de clients ciblés. Dans le cadre de leur modèle d'entreprise consistant à cibler le marketing via un catalogue, ces détaillants peuvent définir des prix différentiels sur les différents catalogues. Microsoft Dynamics 365 prend en charge cette capacité en vous permettant de définir des remises et des prix spécifiques au catalogue, tout comme vous pouvez définir des remises spécifiques aux canaux ou aux affiliations. Lorsque vous modifiez un catalogue, vous pouvez associer des groupes de prix au catalogue, tout comme vous pouvez les associer à un canal, à une affiliation, ou à un programme de fidélité.
+Certains détaillants utilisent des catalogues physiques ou virtuels pour mettre des produits sur le marché et afficher leurs prix en fonction des groupes de clients ciblés. Dans le cadre de leur modèle d'entreprise consistant à cibler le marketing via un catalogue, ces détaillants peuvent définir des prix différentiels sur les différents catalogues. Microsoft Dynamics 365 prend en charge cette capacité en vous permettant de définir des remises et des prix spécifiques au catalogue, tout comme vous pouvez définir des remises spécifiques aux canaux ou aux affiliations. Lorsque vous modifiez un catalogue, vous pouvez associer des groupes de prix au catalogue, tout comme vous pouvez les associer à un canal, à une affiliation, ou à un programme de fidélité.
 
 ### <a name="best-practices-for-price-groups"></a>Pratiques recommandées pour les groupes de prix
 
@@ -149,7 +148,7 @@ Bien que l'unité du prix ne soit pas un scénario de vente au détail courant, 
 
 ### <a name="sales-price-trade-agreement"></a>Accord commercial de prix de vente
 
-À l'aide du journal d'accords commerciaux, vous pouvez créer des accords commerciaux de prix de vente pour chaque produit. Dans Microsoft Dynamics 365, il existe trois portées client pour les accords commerciaux de prix de vente : **Table**, **Groupe**, et **Tous**. La portée client détermine les clients auxquels un accord commercial de prix de vente donné s'applique.
+À l'aide du journal d'accords commerciaux, vous pouvez créer des accords commerciaux de prix de vente pour chaque produit. Dans Microsoft Dynamics 365, il existe trois portées client pour les accords commerciaux de prix de vente : **Table**, **Groupe**, et **Tous**. La portée client détermine les clients auxquels un accord commercial de prix de vente donné s'applique.
 
 Un accord commercial de prix de vente **Table** concerne un seul client qui est défini directement dans l'accord commercial. Ce scénario n'est pas un scénario entreprise-client (B2C) de vente au détail standard. Toutefois, s'il se produit, le moteur de la tarification de vente au détail utilise les accords commerciaux **Table** lorsqu'il détermine le prix.
 
@@ -205,7 +204,7 @@ Pour mettre facilement à jour les différents prix des produits de différentes
 Microsoft SQL Server Express est souvent utilisé pour des bases de données de canaux en raison du coût (gratuit). N'oubliez pas que SQL Server Express a des limites matérielles et des limites de taille de données. Si vous ne planifiez pas correctement, vous pouvez rapidement atteindre les limites de taille de données de SQL Server Express. Cette considération ne s'applique pas uniquement à la tarification mais également à d'autres zones du produit. Voici quelques meilleures pratiques pour vous permettre de réduire la taille de vos données :
 
 - Si vous utilisez des accords commerciaux, et que vos prix changent, vous devez faire expirer les anciens accords commerciaux en définissant une date de fin. Au fil du temps, cette approche vous permet de réduire le nombre d'accords commerciaux qui sont conservés dans les bases de données des canaux. Elle permet également de réduire le volume de données que l'algorithme de calcul de prix doit utiliser.
-- Si vos prix varient par variante de produit, envisagez d'utiliser le prix de base du produit comme prix de la variante la plus courante. Utilisez ensuite les accords commerciaux uniquement pour les prix variables qui sont des exceptions. Cette approche contribue à réduire le nombre d'enregistrements d'accords commerciaux. Comme il est très facile d'importer des données dans Microsoft Dynamics 365, vous pouvez être tenté d'importer un accord commercial pour chaque variante de chaque produit. Toutefois, cette approche peut produire plusieurs accords commerciaux ayant la même valeur. Par conséquent, cela peut inutilement augmenter la taille de vos données.
+- Si vos prix varient par variante de produit, envisagez d'utiliser le prix de base du produit comme prix de la variante la plus courante. Utilisez ensuite les accords commerciaux uniquement pour les prix variables qui sont des exceptions. Cette approche contribue à réduire le nombre d'enregistrements d'accords commerciaux. Comme il est très facile d'importer des données dans Microsoft Dynamics 365, vous pouvez être tenté d'importer un accord commercial pour chaque variante de chaque produit. Toutefois, cette approche peut produire plusieurs accords commerciaux ayant la même valeur. Par conséquent, cela peut inutilement augmenter la taille de vos données.
 - Retail traite les prix spécifiques aux variantes dans l'ordre du plus spécifique au moins spécifique. Si une dimension de produit n'affecte pas le prix, vous ne devez pas définir d'accords commerciaux pour celle-ci. Par exemple, un produit est disponible dans trois couleurs et quatre tailles, mais le prix varie uniquement par taille. Si vous définissez un accord commercial pour chaque variante, vous créez 12 enregistrements. Au lieu de cela, vous pouvez définir un accord commercial juste pour chaque taille et laisser le champ de dimension de couleur vide. Dans ce cas, vous ne produisez que quatre enregistrements.
 
     Sinon, si chaque valeur d'une dimension ne produit pas un prix différent, vous pouvez définir un accord commercial pour le produit générique et laisser toutes les dimensions de produits vides. Définissez ensuite un accord commercial distinct juste pour chaque valeur de dimension qui génère un prix différent. Par exemple, si la taille de XXL a un prix supérieur, mais que toutes les autres tailles ont le même prix, vous n'avez besoin que de deux accords commerciaux : un pour le produit générique et un pour la taille XXL.
@@ -232,4 +231,3 @@ De plus, **seul** le moteur de tarification de vente au détail prend en charge 
 
 - Le prix est basé sur les dimensions de produit, dans l'ordre du prix variable le plus spécifique au prix variable le moins spécifique jusqu'au prix du produit générique. Un prix défini à l'aide de deux dimensions de produit (par exemple, de couleur et de taille) est utilisé avant un prix défini à l'aide d'une seule dimension de produit (par exemple, de taille).
 - Le même groupe de prix peut être utilisé pour contrôler la tarification et les remises.
-

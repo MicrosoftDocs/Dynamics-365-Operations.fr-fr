@@ -1,13 +1,13 @@
 ---
 title: ID enregistrement
-description: "Cette rubrique fournit des informations sur le paramétrage et l'utilisation des ID d'enregistrement."
+description: Cette rubrique fournit des informations sur le paramétrage et l'utilisation des ID d'enregistrement.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350502"
 ---
-
 # <a name="registration-ids"></a>ID enregistrement
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ Une catégorie d'enregistrement est un identificateur d'enregistrement de pays/r
 |-----------------------|----------------|
 | Type d'enregistrement     | Type d'enregistrement dans un pays/région particulier.|
 | Limité à         | Le type de restriction s'applique au type d'enregistrement de taxe : Aucun, Personne, Organisation.|
-| Catégorie d'enregistrement | Identificateur d'enregistrement unique approuvé pour être utilisé dans le pays. Voici la liste complète des composants pris en charge dans les catégories Microsoft Dynamics 365 for Finance and Operations : |
+| Catégorie d'enregistrement | Identificateur d'enregistrement unique approuvé pour être utilisé dans le pays. La liste complète des catégories Microsoft Dynamics 365 for Finance and Operations prises en charge est répertoriée ci-dessous. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Entrer les ID d'enregistrement pour les enregistrements de carnet d'adresses global
 
@@ -93,7 +92,7 @@ Le tableau suivant répertorie les types d'enregistrement pris en charge dans Fi
 | RRC                                                           | Fédération de Russie| RRC (RRC de type législatif dans AX 2012 R3)|
 | OKDP                                                          | Fédération de Russie| OKDP (OKDP de type législatif dans AX 2012 R3)|
 | OKPO                                                          | Fédération de Russie| OKPO (OKPO de type législatif dans AX 2012 R3)|
-| RCOAD                                                         | Fédération de Russie| RCOAD (RCOAD de type législatif dans AX2012 R3)|
+| RCOAD                                                         | Fédération de Russie| RCOAD (RCOAD de type législatif dans AX 2012 R3)|
 | OGRN                                                          | Fédération de Russie| OGRN (OGRN de type législatif dans AX 2012 R3) |
 | SNILS                                                         | Fédération de Russie| SNILS (SNILS de type législatif dans AX 2012 R3)|
 | CIFTS                                                         | Fédération de Russie| CIFTS (CIFTS de type législatif dans AX 2012 R3)|
@@ -109,7 +108,6 @@ Pour plus d'informations sur le traitement des ID d'enregistrement, notamment le
 -   Paramétrer l'ID de TVA
 -   Enregistrement de l'ID de TVA du fournisseur
 -    Recherche de partie à l'aide de l'ID de TVA
-
 
 
 

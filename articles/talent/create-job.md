@@ -1,13 +1,13 @@
 ---
-title: "Paramétrer les composants d'une tâche"
-description: "Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d'utilisation de ces éléments dans votre organisation."
+title: Paramétrer les composants d'une tâche
+description: Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d'utilisation de ces éléments dans votre organisation.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
 ms.author: rschloma
@@ -18,19 +18,17 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377157"
 ---
-
 # <a name="set-up-the-components-of-a-job"></a>Paramétrer les composants d'une tâche
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d'utilisation de ces éléments dans votre organisation. 
 
@@ -92,4 +90,3 @@ Utilisez les domaines de responsabilité pour indiquer les rôles, les processus
 
 ## <a name="steps-for-creating-a-job"></a>Étapes pour créer une tâche
 Reportez-vous à la rubrique [Définir les nouvelles tâches](../fin-and-ops/hr/tasks/define-new-jobs.md) pour connaître la procédure pas à pas pour créer une tâche. 
-

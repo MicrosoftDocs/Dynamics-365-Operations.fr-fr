@@ -1,13 +1,13 @@
---- 
-title: "Déclarer comme terminé à un emplacement ne faisant pas l'objet d'un contrôle de contenant (application, mai 2016)"
-description: "Ce guide de tâche présente un exemple de déclaration de fin à un emplacement qui ne fait pas l'objet d'un contrôle de contenant."
+---
+title: Déclarer comme terminé à un emplacement ne faisant pas l'objet d'un contrôle de contenant (application, mai 2016)
+description: Ce guide de tâche présente un exemple de déclaration de fin à un emplacement qui ne fait pas l'objet d'un contrôle de contenant.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdParmCostEstimation, ProdParmStartUp, ProdParmReportFinished, WHSWorkTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4da6868a2184a76c435efe824f4670504e1134e7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344545"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Déclarer comme terminé à un emplacement ne faisant pas l'objet d'un contrôle de contenant (application, mai 2016)
 
@@ -61,5 +61,4 @@ Ce guide de tâche présente un exemple de déclaration de fin à un emplacement
 17. Cliquez sur Entrepôt dans le volet Actions.
 18. Cliquez sur Détails du travail.
     * Lorsque l'ordre de fabrication a été déclaré comme terminé, aucune tâche de rangement n'a été générée. Cela se produit car une stratégie de travail est définie et empêche la tâche d'être générée lorsque le produit L0101 est déclaré comme terminé à l'emplacement 001.  
-
 

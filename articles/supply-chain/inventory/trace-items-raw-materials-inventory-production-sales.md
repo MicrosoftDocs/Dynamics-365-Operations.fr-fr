@@ -1,13 +1,13 @@
 ---
-title: "Suivi des articles et des matières premières dans le stock, la production et les ventes"
-description: "Cette rubrique décrit la manière dont vous pouvez utiliser le suivi d'article pour identifier où les articles ou les matières premières ont été, sont ou seront utilisés dans les processus de production et de vente."
+title: Suivi des articles et des matières premières dans le stock, la production et les ventes
+description: Cette rubrique décrit la manière dont vous pouvez utiliser le suivi d'article pour identifier où les articles ou les matières premières ont été, sont ou seront utilisés dans les processus de production et de vente.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310068"
 ---
-
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Suivi des articles et des matières premières dans le stock, la production et les ventes
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,7 @@ Si vous souhaitez utiliser les options **Nouveau suivi en arrière** ou **Nouvea
 Enregistrez les informations dans l'onglet <strong>Détails</strong> en tant que fichier XML en cliquant sur <strong>Exporter</strong> sous l'action *<strong><em>Suivi</em></strong>* dans le volet Actions. Outre les détails du suivi, le fichier XML inclut les critères de suivi, le nœud parent et la quantité disponible. La capacité d'enregistrer les détails d'un suivi est utile si, par exemple, vous souhaitez joindre les informations à un ordre de qualité ou à une autre documentation de conformité. Vous pouvez spécifier l'emplacement d'enregistrement du fichier. Pour afficher directement le fichier, activez l'option <strong>Afficher le document</strong>. <strong>Remarque :</strong> Le fichier est toujours enregistré, même si vous souhaitez uniquement l'afficher. Par défaut, le fichier XML s'ouvre dans une fenêtre de navigateur. Toutefois, vous pouvez cliquer avec le bouton droit sur le fichier, puis choisir <strong>Ouvrir avec</strong> puis sélectionner le programme à utiliser pour afficher le contenu.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Est-ce que je peux calculer un solde pour un article ou un ingrédient donné ?
-Exportez les informations des pages récapitulatives dans Microsoft Excel. Ouvrez la page appropriée, cliquez sur l'icone **Ouvrir dans Microsoft Office**, puis sélectionnez **Exporter vers Microsoft Excel**. Cette fonctionnalité est particulièrement utile lorsque vous souhaitez calculer un bilan de matières pour un article ou une substance à partir de la page **Synthèse des transactions**. Dans la page **Synthèse des transactions**, vous pouvez filtrer l'article ou la substance et le traitement par lots (en option), puis exporter les informations dans Excel. Dans Excel, vous pouvez par exemple isoler la quantité disponible, la quantité vendue et le montant utilisé dans la production.
+Vous pouvez exporter les informations des pages récapitulatives dans Microsoft Excel. Ouvrez la page appropriée, cliquez sur l'icone **Ouvrir dans Microsoft Office**, puis sélectionnez **Exporter vers Microsoft Excel**. Cette fonctionnalité est particulièrement utile lorsque vous souhaitez calculer un bilan de matières pour un article ou une substance à partir de la page **Synthèse des transactions**. Dans la page **Synthèse des transactions**, vous pouvez filtrer l'article ou la substance et le traitement par lots (en option), puis exporter les informations dans Excel. Dans Excel, vous pouvez par exemple isoler la quantité disponible, la quantité vendue et le montant utilisé dans la production.
 
 ## <a name="can-i-investigate-whether-there-is-a-history-of-issues-with-items-or-raw-materials"></a>Puis-je rechercher s'il existe un historique des problèmes concernant des articles ou des matières premières ?
 Les détails du suivi incluent des informations sur les ordres de qualité et les non-conformités qui impliquent l'article ou la matière première. Pour afficher un résumé des ordres de qualité et des non-conformités, cliquez sur **Ordres de qualité** ou **Non-conformités** dans le volet Actions. **Remarque :** Des ordres de qualité destructifs peuvent apparaître plus d'une fois dans les détails du suivi. Lorsqu'un ordre de qualité destructif est créé pour un document, tel qu'une commande fournisseur, il s'affiche pour chaque transaction de ce document.
@@ -141,4 +140,3 @@ Vous pouvez générer l'état **Expédié aux clients** pour identifier la quant
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Puis-je suivre des coproduits et des sous-produits ?
 Vous pouvez suivre des coproduits, mais pas des sous-produits, car ces derniers n'ont généralement pas de dimension de suivi. Lorsque vous suivez un article, les détails du suivi sont inclus dans tous les coproduits associés. Les détails d'un nœud contenant un coproduit incluent le mot « coproduit ». Vous pouvez également afficher des détails concernant un coproduit en sélectionnant le nœud dans les détails du suivi, puis en cliquant sur l'organisateur **Production**.
-

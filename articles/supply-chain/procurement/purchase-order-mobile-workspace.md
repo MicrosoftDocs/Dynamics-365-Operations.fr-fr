@@ -1,13 +1,13 @@
 ---
 title: Espace de travail mobile Approbation des commandes fournisseur
-description: "Cette rubrique fournit des informations sur l'espace de travail mobile Approbation des commandes fournisseur, qui permet d'afficher les commandes fournisseur et d'y répondre par des actions. Par exemple, vous pouvez approuver ou rejeter une commande fournisseur."
+description: Cette rubrique fournit des informations sur l'espace de travail mobile Approbation des commandes fournisseur, qui permet d'afficher les commandes fournisseur et d'y répondre par des actions. Par exemple, vous pouvez approuver ou rejeter une commande fournisseur.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348846"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>Espace de travail mobile Approbation des commandes fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -36,16 +35,16 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Approba
 ## <a name="overview"></a>Vue d'ensemble 
 Les commandes fournisseur qui nécessitent une approbation passent par un workflow d'approbation. Le workflow peut inclure plusieurs étapes qui nécessitent qu'une ou plusieurs personnes effectuent des actions. Par exemple, une personne devra peut-être exécuter une tâche ou approuver la commande fournisseur. 
 
-L'espace de travail mobile **Approbation des commandes fournisseur** permet d'afficher facilement les commandes fournisseur depuis votre appareil mobile et d'y répondre. Cet espace de travail permet également d'effectuer les mêmes actions de workflow que celles que vous pouvez effectuer dans le client Web Microsoft Dynamics 365 for Finance and Operations.
+L'espace de travail mobile **Approbation des commandes fournisseur** permet d'afficher facilement les commandes fournisseur depuis votre appareil mobile et d'y répondre. Cet espace de travail permet également d'effectuer les mêmes actions de workflow que celles que vous pouvez effectuer dans le client Web Microsoft Dynamics 365 for Finance and Operations.
 
-## <a name="prerequisites"></a>Logiciels requis
+## <a name="prerequisites"></a>Conditions préalables
 Les conditions préalables varient, en fonction de la version de Finance and Operations qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions préalables si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
-Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Approbation des commandes fournisseur**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions requises si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
+Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Approbation de la commande fournisseur**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
-Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Update 3 ou version ultérieure
+Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Update 3 ou version ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
 
 <table>
 <thead>
@@ -61,7 +60,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 <td>Administrateur système</td>
 <td>Le KB 4017918 est une mise à jour X++ ou un correctif de métadonnées qui contient l'espace de travail mobile <strong>Approbation des commandes fournisseur</strong>. Pour implémenter le KB 4017918, un administrateur système doit procéder comme suit :
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Télécharger le correctif de métadonnées depuis Microsoft Dynamics Lifecycle Services</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Installez le correctif de métadonnées</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Créez un module déployable</a> contenant le modèle <strong>SCMMobile</strong> et téléchargez le module déployable vers LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Appliquer le package déployable</a>.</li>
@@ -76,16 +75,16 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jo
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
-Téléchargez et installez l'application mobile Microsoft Dynamics 365 for Unified Operations :
+Téléchargez et installez l'application Microsoft Dynamics 365 for Unified Operations Mobile :
 
-- [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 
 ## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
 
 1. Démarrez l'application sur votre appareil mobile.
-2. Entrez votre URL Microsoft Dynamics 365.
+2. Saisissez votre URL Microsoft Dynamics 365.
 3. Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d'identification.
 4. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
@@ -116,4 +115,3 @@ Après avoir affiché la commande fournisseur qui vous est affectée et avoir lu
 5. Sélectionnez l'action appropriée.
 6. Dans la page **Terminer la tâche**, entrez un commentaire. Notez que si vous sélectionnez l'action **Déléguer**, vous devez sélectionner un utilisateur auquel déléguer la tâche.
 7. Sélectionnez **Terminé**. Après avoir actualisé votre espace de travail, la commande fournisseur ne figurera plus dans votre liste. 
-

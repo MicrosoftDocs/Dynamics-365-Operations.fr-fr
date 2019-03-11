@@ -1,13 +1,13 @@
---- 
-title: "Déposer les paiements client"
-description: "Déposez des paiements client."
+---
+title: Déposer les paiements client
+description: Déposez des paiements client.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustPaym, CustTableLookup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f58cebce20e8516dc918e0bad1e020ffd7f791ee
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dbf21bd5df70cd80e4fe3f2f5d699aa82b62423b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313380"
 ---
 # <a name="deposit-customer-payments"></a>Déposer les paiements client
 
@@ -54,5 +54,4 @@ Déposez des paiements client. La société fictive USMF est citée en exemple d
     * La première page permet de créer le bordereau de remise.  
 19. Cliquez sur OK.
     * La deuxième étape consiste à imprimer le bordereau de remise, mais cette étape n'est pas nécessaire.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Conditions préalables à la conversion de coût standard"
-description: "Cette rubrique décrit les tâches à effectuer avant d'exécuter une conversion de coût standard."
+title: Conditions préalables à la conversion de coût standard
+description: Cette rubrique décrit les tâches à effectuer avant d'exécuter une conversion de coût standard.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0ee55ef8a1d7ee47ff3b7d24b50da613dd2ac4ce
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351928"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Conditions préalables à la conversion de coût standard
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Avant d'exécuter une conversion du coût standard, procédez comme suit :
 
         Une analyse active des coûts signifie que l'activation du coût d'un article fabriqué entraînera le stockage du résultat dans la segmentation des groupes de coûts dans l'enregistrement des coûts de l'article. Si vous ne renseignez pas le champ **Analyse des coûts**, la segmentation des groupes de coûts ne sera pas mise à jour pour les articles de coûts standard. Un coût standard d'article fabriqué sera donc calculé et mis à jour en tant que montant unique sans segmentation des groupes de coûts et les contributions de coûts des composants fabriqués seront regroupées sur le montant unique.
     -   Le champ **Écarts par rapport à standard** permet de sélectionner un groupe récapitulé ou un groupe par coût. La sélection par groupe par coûts permet d'identifier les écarts de prix d'achat et les écarts de production par groupe de coûts. Elle permet également d'identifier les quatre types d'écarts de production (taille du lot, quantité, prix et écarts de remplacement). Si vous sélectionnez un groupe récapitulé, vous ne pouvez pas identifier les écarts par groupe de coûts, ni les quatre types d'écarts de production. Vous pouvez uniquement afficher un écart de production récapitulé. La stratégie d'écarts de coûts standard fonctionne indépendamment de la stratégie d'analyse des coûts. Vous pouvez donc ne choisir aucune stratégie d'analyse des coûts et sélectionner des écarts par groupe de coûts, pour que les écarts de production par groupe de coûts soient tout de même capturés.
-
 
 
 

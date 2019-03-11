@@ -1,13 +1,13 @@
 ---
 title: Estimer un ordre de fabrication
-description: "Vous pouvez exécuter cette procédure en utilisant les données de démonstration de la société USMF ou utiliser vos propres données."
+description: Vous pouvez exécuter cette procédure en utilisant les données de démonstration de la société USMF ou utiliser vos propres données.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8274e390a177f51649f5cad70ef7ad5bd50a8830
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 862281adac67757e1ce0e9ddd1e96483363abb9a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351859"
 ---
 # <a name="estimate-a-production-order"></a>Estimer un ordre de fabrication
 
@@ -42,4 +42,3 @@ Vous pouvez exécuter cette procédure en utilisant les données de démonstrati
 1. Cliquez sur Gérer les coûts dans le volet Actions.
 2. Cliquez sur Afficher les détails du calcul.
     * Cette page affiche la répartition des coûts. Par exemple, vous pouvez afficher le prix de revient total par unité pour le produit fini dans la première ligne. Les lignes suivantes contiennent les coûts correspondant à la nomenclature, à la gamme de production, et aux coûts indirects.  
-

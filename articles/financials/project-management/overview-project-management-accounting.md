@@ -1,13 +1,13 @@
 ---
-title: "Gestion et comptabilité des projets"
-description: "La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit, ou atteindre résultat."
+title: Gestion et comptabilité des projets
+description: La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit, ou atteindre résultat.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311333"
 ---
-
 # <a name="project-management-and-accounting"></a>Gestion et comptabilité des projets
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ La fonctionnalité de gestion de projets et de comptabilité peut être utilisé
 
 [![Projets couvrant plusieurs secteurs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Dans un centre d'appels, un ticket peut être utilisé pour décrire l'ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les sociétés de gestion ou de consultance techniques ou les agences de publicité, désignent leurs activités comme des projets. En marketing, une campagne représente un ensemble de travail qui doit être livré. Dans la fabrication basée sur projet, un ordre de fabrication se rapporte à l'ensemble du travail varié qui doit être effectué pour produire des produits finis donnés. Quelque soit le nom que l'on emploie, ces projets impliquent des ressources, des programmes et des coûts, et la fonctionnalité de gestion de projets et de comptabilité dans Microsoft Dynamics 365 for Finance and Operations peut aider à organiser, exécuter et analyser ces projets.
+Dans un centre d'appels, un ticket peut être utilisé pour décrire l'ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les sociétés de gestion ou de consultance techniques ou les agences de publicité, désignent leurs activités comme des projets. En marketing, une campagne représente un ensemble de travail qui doit être livré. Dans la fabrication basée sur projet, un ordre de fabrication se rapporte à l'ensemble du travail varié qui doit être effectué pour produire des produits finis donnés. Quelque soit le nom que l'on emploie, ces projets impliquent des ressources, des programmes et des coûts, et la fonctionnalité de gestion de projets et de comptabilité dans Microsoft Dynamics 365 for Finance and Operations peut aider à organiser, exécuter et analyser ces projets.
 
 ## <a name="project-phases"></a>Projet de projet
 Bien que le flux de processus suivant concerne des projets externes, ou des projets terminés pour un ou plusieurs clients, la fonctionnalité s'applique également aux projets internes et aux projets à coût uniquement. 
@@ -129,7 +128,7 @@ Voici quelques manières dont vous pouvez utiliser la fonctionnalité de planifi
 -   Modifier les affectations de ressources pour différentes unités de temps, telles que jour, semaine ou mois pour optimiser l'utilisation des collaborateurs.
 
 ## <a name="execute-the-project"></a>Exécuter le projet
-Lors de l'exécution du projet, les membres de l'équipe ou les responsables enregistrent le travail et les dépenses effectués à l'aide de feuilles de temps, d'états de dépenses, et d'autres documents commerciaux. Les chefs de projet ont des outils qui leur permettent de contrôler la consommation des montants budgétés pour le projet. Les chefs de projet peuvent également commander, prélever, ou obtenir des matières pour les projets à l'aide de commandes fournisseur et d'autres documents commerciaux. Les factures sont préparées et approuvées, de sorte que les clients soient facturés pour le travail réel. Enfin, le produit est identifié lors de ce processus pour affecter les finances de l'organisation.
+Lors de l'exécution du projet, les membres de l'équipe ou les responsables enregistrent le travail et les dépenses effectués à l'aide de feuilles de temps, d'états de dépenses, et d'autres documents commerciaux. Les chefs de projet ont des outils qui leur permettent de contrôler la consommation des montants budgétés pour le projet. Les chefs de projet peuvent également commander, prélever, ou obtenir des matières pour les projets à l'aide de commandes fournisseur et d'autres documents commerciaux. Les factures sont préparées et approuvées, de sorte que les clients soient facturés pour le travail réel. Enfin, le produit est identifié lors de ce processus pour affecter les finances de l'organisation.
 
 ### <a name="manage-work-breakdown-structures"></a>Gestion des structures de répartition du travail
 
@@ -233,7 +232,7 @@ Pour plus d'informations sur le traitement des factures de projet, voir [Factura
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcul du coût à terminer d'un projet
 
-Lorsque vous créez une estimation, vous pouvez choisir la méthode utilisée pour calculer le coût de réalisation du projet. Vous sélectionnez une méthode dans le champ **Méthode de coût à terminer** de la page **Créer une estimation**. La méthode que vous choisissez est appliquée séparément à chaque ligne de coût dans l'estimation de coût. Quand une ligne a le statut **Créé**, vous pouvez modifier la méthode appliquée à celle-ci dans la page **Estimation des coûts**. 
+Lorsque vous créez une estimation, vous pouvez choisir la méthode utilisée pour calculer le coût de réalisation du projet. Vous sélectionnez une méthode dans le champ **Méthode de coût à terminer** de la page **Créer une estimation**. La méthode que vous choisissez est appliquée séparément à chaque ligne de coût dans l'estimation de coût. Quand une ligne a le statut **Créé**, vous pouvez modifier la méthode appliquée à celle-ci dans la page **Estimation des coûts**. 
 
 Le tableau suivant décrit les méthodes de calcul du coût à terminer du projet.
 
@@ -301,7 +300,7 @@ Selon votre paramétrage, vous pouvez prévoir les apports de disponibilités po
 -   **Date de projet :** 5 mars 2012.
 -   **Date de la facture :** 31 mars 2012. Cette date est déterminée en fonction de la fréquence de facture. Dans cet exemple, vous définissez la fréquence de facturation au mois actuel. Par conséquent, cela signifie que toutes les transactions validées en mars sont facturées le dernier jour du mois.
 -   **Date d'échéance :** 14 avril 2012. Cette date est déterminée d'après les conditions de paiement définies pour le projet. Pour cet exemple, vous avez sélectionné des conditions de paiement de 14 jours. Par conséquent, 14 jours sont ajoutés à la date de facture pour qu'elle parvienne à la date d'échéance du 14 avril 2012.
--   **Date prévue de paiement des ventes :** 27 avril 2012. Cette date est calculée en ajoutant le nombre de jours dans le champ **Jours intermédiaires généraux** dans la page **Paramètres de gestion de projets et comptabilité** au nombre de jours dans le champ **Jours de marge individuelle** de la page **Contrats de projet**, et en additionnant le total au nombre de jours dans le champ **Date d'échéance**. Pour cet exemple, vous avez entré **3** dans le champ **Jours intermédiaires généraux** et **10** dans le champ **Jours de marge individuelle**. Par conséquent, 13 jours sont ajoutés à la date d'échéance pour qu'elle parvienne à la date prévue de paiement des ventes du 27 avril 2012.
+-   **Date prévue de paiement des ventes :** 27 avril 2012. Cette date est calculée en ajoutant le nombre de jours dans le champ **Jours intermédiaires généraux** dans la page **Paramètres de gestion de projets et comptabilité**  au nombre de jours dans le champ **Jours de marge individuelle** de la page **Contrats de projet**, et en additionnant le total au nombre de jours dans le champ **Date d'échéance**. Pour cet exemple, vous avez entré **3** dans le champ **Jours intermédiaires généraux** et **10** dans le champ **Jours de marge individuelle**. Par conséquent, 13 jours sont ajoutés à la date d'échéance pour qu'elle parvienne à la date prévue de paiement des ventes du 27 avril 2012.
 
 Les jours intermédiaires généraux peuvent remplacer les jours intermédiaires individuels ou être ajoutés à ces derniers :
 
@@ -372,7 +371,7 @@ Si **Budget restant** est sélectionné comme méthode de contrôle des coûts d
 -   **Budget restant** – Montant budgété d'origine qui est toujours disponible pour la ligne de coût sélectionnée. Le montant budgété restant est calculé dans la page **Aperçu comptable**.
 -   **Coût total**– Somme du coût réel, du coût engagé et du budget restant.
 
-Dans la page **Contrôle des coûts**, sous l'onglet **Écart**, vous pouvez afficher la comparaison du coût total prévu avec le budget d'origine. Cette comparaison indique les différences entre ces montants. Par conséquent, vous pouvez voir l'origine des disparités entre les données. Les montants des écarts sont calculés comme suit :
+Dans la page **Contrôle des coûts**, sous l'onglet **Écart**, vous pouvez afficher la comparaison du coût total prévu avec le budget d'origine. Cette comparaison indique les différences entre ces montants. Par conséquent, vous pouvez voir l'origine des disparités entre les données. Les montants des écarts sont calculés comme suit :
 
 -   **Budget d'origine** – Montant initialement budgété pour la ligne de coût sélectionnée. Le montant budgété d'origine est calculé dans la page **Aperçu comptable**.
 -   **Coût total** – Somme du coût réel, du coût engagé et du budget restant, telle qu'indiquée sous l'onglet **Général**.
@@ -382,7 +381,7 @@ Dans la page **Contrôle des coûts**, sous l'onglet **Écart**, vous pouvez aff
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Affichage des montants budgétés totaux
 
-Si **Budget total** est sélectionné comme méthode de contrôle des coûts dans la page **Paramètres de gestion de projets et comptabilité**, la page **Contrôle des coûts** calcule les coûts réels et les coûts totaux du projet pour vous aider à détecter toute différence entre les deux. En particulier, dans la page **Contrôle des coûts**, les montants indiqués dans le volet inférieur de l'onglet **Général** sont calculés comme suit :
+Si **Budget total** est sélectionné comme méthode de contrôle des coûts dans la page **Paramètres de gestion de projets et comptabilité**, la page **Contrôle des coûts** calcule les coûts réels et les coûts totaux du projet pour vous aider à détecter toute différence entre les deux. En particulier, dans la page **Contrôle des coûts**, les montants indiqués dans le volet inférieur de l'onglet **Général** sont calculés comme suit :
 
 -   **Coût budgété total** – Montant budgété total pour la ligne de coût sélectionnée.
 -   **Coût réel** – Montant total des coûts qui ont été engagés à ce jour sur le projet pour les lignes de coût sélectionnées.
@@ -415,11 +414,11 @@ Vous calculez les taux d'utilisation dans la page **Utilisation des heures**. Le
 -   **Conformément à la Propriété de ligne** – Les propriétés de ligne d'une transaction horaire particulière déterminent si les heures sont considérées comme une utilisation facturable ou de rendement.
 -   **Non inclus** – Les heures ne sont pas factorisées dans le calcul de l'utilisation facturable ou de rendement.
 
-Dans la page **Utilisation des heures**, à côté du pourcentage global de taux d'utilisation pour un collaborateur ou un projet, vous pouvez afficher le nombre d'heures qui ont été utilisées dans les calculs du taux d'utilisation de chacun des types d'heure suivants :
+Dans la page **Utilisation des heures**, à côté du pourcentage global de taux d'utilisation pour un collaborateur ou un projet, vous pouvez afficher le nombre d'heures qui ont été utilisées dans les calculs du taux d'utilisation de chacun des types d'heure suivants :
 
 -   **Heures non incluses** – Ces heures ne sont pas incluses dans le taux d'utilisation des heures.
 -   **Heures incluses** – Ces heures sont calculées par l'addition des heures d'utilisation et des heures de charge. Ces heures sont incluses dans le taux d'utilisation.
--   **Heures non facturables** – Si vous calculez un taux facturable, ces heures sont les mêmes que les heures non imputables. Si vous calculez un taux de rendement, ces heures sont les mêmes que les heures non productives.
+-   **Heures non facturables** – Si vous calculez un taux facturable, ces heures sont les mêmes que les heures non imputables. Si vous calculez un taux de rendement, ces heures sont les mêmes que les heures non productives.
 -   **Heures d'utilisation** – Si vous calculez un taux facturable, ces heures sont les mêmes que les heures imputables. Si vous calculez un taux de rendement, ces heures sont les mêmes que les heures productives.
 
 Lorsque vous calculez le taux d'utilisation d'un travailleur, vous pouvez utiliser les heures normales ou incluses. Si vous utilisez les heures incluses, vous devez vérifier que les collaborateurs enregistrent tout leur temps de travail pour les périodes des feuilles de temps, car le calcul est exprimé en pourcentage des heures entrées. Lorsque vous calculez le taux d'utilisation des heures pour un projet, un contrat de projet, un enregistrement client, ou une catégorie, vous devez utiliser les heures incluses pour votre calcul.
@@ -441,4 +440,3 @@ Une fois que les statistiques sont calculées, vous pouvez afficher les informat
 -   **Consommation** – Informations sur la consommation d'heures, d'articles, de dépenses, et de transactions de paie.
 -   **Facture** – Informations sur les factures et la facturation en compte.
 -   **Taux horaire** – Taux horaires des heures validées sur les comptes de produit et de coût.
-

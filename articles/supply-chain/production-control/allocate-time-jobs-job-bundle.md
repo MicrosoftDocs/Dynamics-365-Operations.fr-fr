@@ -1,13 +1,13 @@
 ---
-title: "Répartir du temps aux tâches figurant dans un regroupement de tâches"
-description: "Dans Contrôle et suivi de la production, vous pouvez regrouper des tâches. Vous pouvez ensuite démarrer plusieurs tâches simultanément dans la page Liste de tâches."
+title: Répartir du temps aux tâches figurant dans un regroupement de tâches
+description: Dans Contrôle et suivi de la production, vous pouvez regrouper des tâches. Vous pouvez ensuite démarrer plusieurs tâches simultanément dans la page Liste de tâches.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33d6bab9beb28d18e2094d7fb5e670e9425aac39
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 26dc5a5a667f32d67fb86b3f765acaf37eeb38fb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329112"
 ---
-
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Répartir du temps aux tâches figurant dans un regroupement de tâches
 
 [!include [banner](../includes/banner.md)]
@@ -109,7 +108,6 @@ Supposons que les 3 tâches sont réalisées par un collaborateur dont le salair
 | Tâche 3 | (3,33 ÷ 5) × 12,00 EUR                 | 8,00 EUR                | 5 heures        | 40,00 EUR         |
 
 Le coût horaire corrigé et le temps de tâche sont validés dans le journal de production. **Remarque :** Si vous sélectionnez l'option **Catégorie de coûts** de l'onglet **Général** sur la page **Valeurs par défaut de l'ordre de fabrication**, le temps réel pour chaque tâche est transféré vers un journal de production, où le coût est appliqué à la catégorie de coûts de la tâche spécifique.
-
 
 
 

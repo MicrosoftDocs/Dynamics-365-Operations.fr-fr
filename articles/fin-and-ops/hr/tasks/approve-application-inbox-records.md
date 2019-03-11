@@ -1,13 +1,13 @@
---- 
-title: "Approuver les enregistrements de la boîte de réception des candidatures"
-description: "Cette procédure décrit comment réviser les candidatures reçues via les pages Libre-service employé."
+---
+title: Approuver les enregistrements de la boîte de réception des candidatures
+description: Cette procédure décrit comment réviser les candidatures reçues via les pages Libre-service employé.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplicationBasket, HRMApplicationBasketApprove, HRMApplication
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 87a08b33e0dc004fd836142121dca9da6d6e1a6d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1f614b507d28429922902d6c3676483b689ac3d2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310091"
 ---
 # <a name="approve-application-inbox-records"></a>Approuver les enregistrements de la boîte de réception des candidatures
 
@@ -48,5 +48,4 @@ Cette procédure décrit comment réviser les candidatures reçues via les pages
 1. Accédez à Ressources humaines > Recrutement > Candidatures > Candidatures.
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 3. Développez la section Documents joints.
-
 

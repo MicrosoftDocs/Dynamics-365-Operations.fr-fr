@@ -1,13 +1,13 @@
---- 
-title: "Ajouter un calcul à un modèle de configuration de produit"
-description: "Cette procédure montre comment ajouter un nouveau calcul à un modèle de configuration de produit."
+---
+title: Ajouter un calcul à un modèle de configuration de produit
+description: Cette procédure montre comment ajouter un nouveau calcul à un modèle de configuration de produit.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9754c46010e7bbdb2edef0d6e68162f344bb1257
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2db8fb922b085a7f118822ef4fd974ac338f4d99
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343165"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>Ajouter un calcul à un modèle de configuration de produit
 
@@ -38,5 +38,4 @@ Cette procédure montre comment ajouter un nouveau calcul à un modèle de confi
 3. Cliquez sur Valider.
 4. Cliquez sur Fermer.
 5. Cliquez sur OK.
-
 

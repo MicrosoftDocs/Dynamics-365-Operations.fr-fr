@@ -1,13 +1,13 @@
 ---
 title: Espace de travail mobile Approbations de factures
-description: "Cette rubrique fournit des informations sur l'espace de travail mobile Approbations de factures. Cet espace de travail fournit une liste de factures qui vous ont été affectées dans le processus de workflow d'en-tête de facture fournisseur."
+description: Cette rubrique fournit des informations sur l'espace de travail mobile Approbations de factures. Cet espace de travail fournit une liste de factures qui vous ont été affectées dans le processus de workflow d'en-tête de facture fournisseur.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326996"
 ---
-
 # <a name="invoice-approvals-mobile-workspace"></a>Espace de travail mobile Approbations de factures
 
 [!include [banner](../includes/banner.md)]
@@ -31,7 +30,7 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Approba
 
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Microsoft Dynamics 365 for Unified Operations
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 L'espace de travail mobile **Approbations des facture** permet aux employés et aux responsables d'afficher les factures qui leur sont affectées dans le cadre du processus de workflow d'en-tête de facture fournisseur. Vous pouvez afficher les informations de facturation, et même les détails de ligne et de répartition, pour vous permettre de prendre des décisions d'approbation informées. Dans l'espace de travail, vous pouvez déplacer la facture via le processus de workflow. 
 
@@ -44,12 +43,12 @@ Avant d'utiliser cet espace de travail mobile, les conditions requises suivantes
 <tr class="header">
 <th>Logiciel requis</th>
 <th>Rôle</th>
-<th>Description </th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations doit être déployé dans votre organisation.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations doit être déployé dans votre organisation.</td>
 <td>Administrateur système</td>
 <td>Voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>.
 </td>
@@ -66,13 +65,13 @@ Avant d'utiliser cet espace de travail mobile, les conditions requises suivantes
 
 Téléchargez et installez l'application mobile Dynamics 365 for Unified Operations :
 
--   [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
 
 1.  Démarrez l'application sur votre appareil mobile.
-2.  Entrez votre URL Microsoft Dynamics 365.
+2.  Saisissez votre URL Microsoft Dynamics 365.
 3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d'identification.
 4.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
@@ -88,4 +87,3 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 7.  Sélectionnez **Documents joints** pour afficher les notes ou les fichiers associés à la facture.
 8.  Dans la page **Détails de la facture**, sélectionnez l'action de workflow appropriée pour compléter votre processus de révision.
 9.  Sélectionnez **Terminé**.
-

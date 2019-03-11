@@ -1,13 +1,13 @@
---- 
-title: "EUR-00002 Générer un fichier de déclaration d'échanges de biens de l'UE"
-description: "Cette procédure vous fait parcourir les étapes requises pour exporter la déclaration d'échanges de biens dans le format de fichier électronique et pour prévisualiser les données de déclaration dans un format Excel."
+---
+title: EUR-00002 Générer un fichier de déclaration d'échanges de biens de l'UE
+description: Cette procédure vous fait parcourir les étapes requises pour exporter la déclaration d'échanges de biens dans le format de fichier électronique et pour prévisualiser les données de déclaration dans un format Excel.
 author: Anasyash
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1236f27a3a5c208ffec41374a6593d1f0e7c4433
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370732"
 ---
 # <a name="eur-00002-generate-an-eu-intrastat-declaration"></a>EUR-00002 Générer un fichier de déclaration d'échanges de biens de l'UE
 
@@ -58,7 +58,7 @@ Cette procédure a été créée à l'aide des données fictives de la société
     * Entrez la précision de l'arrondi, par exemple, entrez 0,01.  
 7. Entrez un nombre dans le champ Nombre de décimales pour le montant.
     * Entrez 2, par exemple.  
-8. Sélectionnez une option dans le champ Arrondi en dessous d'un (1) kg.
+8. Sélectionnez une option dans le champ Arrondi en dessous d'un (1) kg.
     * Sélectionnez Arrondi à 1 kg, par exemple.  
 9. Entrez un nombre dans le champ Règle d'arrondi.
     * Entrez 1, par exemple pour arrondir le poids à l'entier.  
@@ -113,5 +113,4 @@ Cette procédure a été créée à l'aide des données fictives de la société
 26. Sélectionnez une option dans le champ Direction.
     * Sélectionnez Répartitions, par exemple.  
 27. Cliquez sur OK.
-
 

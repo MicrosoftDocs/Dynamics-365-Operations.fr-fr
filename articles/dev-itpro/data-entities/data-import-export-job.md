@@ -1,13 +1,13 @@
 ---
-title: "Tâches d'importation et d'exportation de données"
-description: "L'espace de travail Gestion des données vous permet de créer et de gérer des tâches d'importation et d'exportation de données."
+title: Tâches d'importation et d'exportation de données
+description: L'espace de travail Gestion des données vous permet de créer et de gérer des tâches d'importation et d'exportation de données.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360208"
 ---
-
 # <a name="data-import-and-export-jobs"></a>Tâches d'importation et d'exportation de données
 
 [!include [banner](../includes/banner.md)]
 
-Pour créer et gérer des tâches d'importation et d'exportation de données dans Microsoft Dynamics 365 for Finance and Operations, utilisez l'espace de travail **Gestion des données**. Par défaut, le processus d'importation et d'exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
+Pour créer et gérer des tâches d'importation et d'exportation de données dans Microsoft Dynamics 365 for Finance and Operations, vous utilisez l'espace de travail **Gestion des données**. Par défaut, le processus d'importation et d'exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
 
 > [!NOTE]
 > La présente rubrique suppose que vous êtes familiarisé avec les [entités de données](data-entities.md).
@@ -158,4 +157,3 @@ Vous pouvez nettoyer les tables intermédiaires à l'aide de la fonction **Netto
 - **Projets de données** – Si un seul projet de données est sélectionné, tous les enregistrements de toutes les entités et de toutes les tâches du projet de données sélectionné sont supprimés.
 
 Vous pouvez également associer les options pour restreindre davantage l'ensemble des enregistrements à supprimer.
-

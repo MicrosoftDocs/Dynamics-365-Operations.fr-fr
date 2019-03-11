@@ -1,13 +1,13 @@
 ---
-title: "Paramétrage de lettres de change"
-description: "Cette rubrique décrit la procédure de paramétrage des lettres de change."
+title: Paramétrage de lettres de change
+description: Cette rubrique décrit la procédure de paramétrage des lettres de change.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 09/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustBillOfExchangeJour
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: c9d6866bb994cb9fb411bdd6a9ccae0e67d2d6f3
 ms.openlocfilehash: cda597b1d99e99ac5c5c396bcfcec9c0712f0eb1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344706"
 ---
-
 # <a name="set-up-bills-of-exchange"></a>Paramétrage de lettres de change
 
 [!include [banner](../includes/banner.md)]
@@ -82,7 +81,6 @@ Dans la page **Comptes bancaires**, cliquez sur **Paramétrer**, puis spécifiez
 ## <a name="set-up-customers-for-bills-of-exchange"></a>Paramétrage des clients pour les lettres de change
 
 Dans la page **Clients**, pour chaque client qui a accepté de payer à l'aide d'une lettre de change, vous pouvez paramétrer un mode de paiement par défaut pour les lettres de change sous l'onglet **Valeurs par défaut de paiement**.
-
 
 
 

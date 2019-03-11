@@ -1,13 +1,13 @@
 ---
-title: "Générer un modèle de configuration de produit"
-description: "La nécessité de configurer des produits pour répondre aux exigences spéciales devient la règle plutôt que l'exception, dans les relations interentreprises comme dans les relations entreprise-client."
+title: Générer un modèle de configuration de produit
+description: La nécessité de configurer des produits pour répondre aux exigences spéciales devient la règle plutôt que l'exception, dans les relations interentreprises comme dans les relations entreprise-client.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327456"
 ---
-
 # <a name="build-a-product-configuration-model"></a>Générer un modèle de configuration de produit
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,7 @@ Les contraintes de table peuvent être définies par l'utilisateur ou par le sys
 
 Une contrainte de table définie par l'utilisateur est élaborée par l'utilisateur. L'utilisateur sélectionne une combinaison des types d'attributs pour représenter les colonnes de la table puis entre les valeurs provenant des domaines des types d'attributs sélectionnés pour former les lignes de la contrainte de table.  
 
-Une contrainte de table définie par le système est définie en sélectionnant quelle table de Microsoft Dynamics 365 for Finance and Operations doit être utilisée comme référence, puis en sélectionnant les champs de cette table pour former les colonnes de la contrainte. Les lignes de la contrainte de table sont les lignes de la table Finance and Operations qui sont présentes au moment de la configuration.  
+Une contrainte de table définie par le système est définie en sélectionnant quelle table de Microsoft Dynamics 365 for Finance and Operations doit être utilisée comme référence, puis en sélectionnant les champs de cette table pour former les colonnes de la contrainte. Les lignes de la contrainte de table sont les lignes de la table Finance and Operations qui sont présentes au moment de la configuration.  
 
 Une contrainte de table est incluse dans un modèle de configuration de produit en référençant la définition de contrainte de table et en mettant en correspondance les attributs pertinents dans le modèle avec les colonnes dans la contrainte de table.
 
@@ -158,7 +157,6 @@ L'objectif de la configuration est de créer une variante distincte du produit q
 ### <a name="multiple-sites-and-intercompany"></a>Plusieurs sites et intersociétés
 
 Si la configuration doit être effectuée sur un site, ou même au sein d'une société, qui diffère du site ou de la société dans laquelle la production aura lieu, la nomenclature et la gamme sont créées pour et placées sur le site du fournisseur au sein de la société d'approvisionnement. La variante de produit sera lancée dans toutes les sociétés qui participent à la chaîne d'approvisionnement.
-
 
 
 

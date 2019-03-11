@@ -1,13 +1,13 @@
 ---
-title: "Réapprovisionnement"
-description: "Cette rubrique décrit les stratégies de réapprovisionnement disponibles pour les entrepôts qui utilisent la fonctionnalité qui est disponible dans Gestion des entrepôts."
+title: Réapprovisionnement
+description: Cette rubrique décrit les stratégies de réapprovisionnement disponibles pour les entrepôts qui utilisent la fonctionnalité qui est disponible dans Gestion des entrepôts.
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344522"
 ---
-
 # <a name="replenishment"></a>Réapprovisionnement
 
 [!include [banner](../includes/banner.md)]
@@ -77,5 +76,4 @@ Au lieu de devoir ajouter la demande à la fin d'un processus de répartition et
 |    Profils d'emplacement    |                                                                                                        Les profils d’emplacement sont nécessaires pour créer des emplacements.                                                                                                        |
 |   Instructions d'emplacement   |                                                       Les instructions d’emplacement sont nécessaires pour guider le travail vers les emplacements où le réapprovisionnement est requis et vers les emplacements d'où est tiré le stock.                                                        |
 |     Modèles de travail      |                                                   Les modèles de travail du type <strong>Réapprovisionnement</strong> sont requis pour créer le travail de réapprovisionnement afin que le stock puisse être déplacé vers les emplacements souhaités.                                                    |
-
 

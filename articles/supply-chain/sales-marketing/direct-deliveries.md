@@ -1,13 +1,13 @@
 ---
 title: Livraison directe
-description: "Cet article fournit des informations sur les livraisons directes. Les livraisons directes sont des livraisons expédiées directement du fournisseur au client."
+description: Cet article fournit des informations sur les livraisons directes. Les livraisons directes sont des livraisons expédiées directement du fournisseur au client.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9c4a695c591865c52ad5ee6d37a515139f58bf8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a62c1c78ae66ffff7e36fe17757bb98d2e7fbc54
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312276"
 ---
-
 # <a name="direct-deliveries"></a>Livraison directe
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Si vous tentez de supprimer une ligne de commande client avec le type de livrais
 
 ## <a name="warehouse"></a>Entrepôt
 Lorsque vous créez une livraison directe, les articles que vous vendez n'arrivent jamais physiquement à votre entrepôt. Toutefois, vous devez toujours spécifier un entrepôt dans la ligne de commande client. De même, les besoins en matière de prélèvement peuvent être spécifiés dans le groupe de modèles d'article pour l'article. Toutefois, comme les articles n'arrivent jamais physiquement à votre entrepôt, ces besoins sont ignorés lorsque la commande client est une livraison directe.
-
 
 
 

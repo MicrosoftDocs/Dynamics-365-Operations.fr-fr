@@ -1,13 +1,13 @@
---- 
-title: "Paramétrage des administrations fiscales"
-description: "Les administrations fiscales sont des entités auprès desquelles les taxes doivent être déclarées et payées."
+---
+title: Paramétrage des administrations fiscales
+description: Les administrations fiscales sont des entités auprès desquelles les taxes doivent être déclarées et payées.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 909433a04c1185039938f6233b30c235e7b8ed8b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f75ee28343161026a73dd889b345d65ecc345884
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366349"
 ---
 # <a name="set-up-sales-tax-authorities"></a>Paramétrage des administrations fiscales
 
@@ -40,5 +40,4 @@ Les administrations fiscales sont des entités auprès desquelles les taxes doiv
 9. Entrez des valeurs dans les champs Type d'arrondi et Arrondi pour spécifier la manière dont le montant total de la taxe à payer doit être arrondi. Les différences d'arrondi seront validées sur les comptes pour les transactions automatiques paramétrées dans Comptabilité.
 10. Entrez un nombre dans le champ Arrondi.
 11. Cliquez sur Enregistrer.
-
 

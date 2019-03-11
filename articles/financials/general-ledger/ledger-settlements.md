@@ -1,13 +1,13 @@
 ---
-title: "Règlements comptables"
-description: "Cette rubrique explique comment utiliser la page Règlements comptables pour régler des écritures comptables et contrepasser des règlements."
+title: Règlements comptables
+description: Cette rubrique explique comment utiliser la page Règlements comptables pour régler des écritures comptables et contrepasser des règlements.
 author: mikefalkner
 manager: aolson
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTransSettlement
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b02a1a066913c9959e9a55e78789e5ff1a175c56
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: ec659a53c187b1bdfd81565d6e2f20a59e08834c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308481"
 ---
-
 # <a name="ledger-settlements"></a>Règlements comptables
 
 [!include [banner](../includes/banner.md)]
@@ -76,4 +75,3 @@ Vous pouvez contrepasser un règlement effectué par erreur.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Mettre à jour la liste des comptes inclus dans la liste des transactions
 
 Sélectionnez **Comptes de règlement comptable** pour ouvrir une boîte de dialogue dans laquelle vous pouvez modifier les comptes inclus dans la liste des transactions. Sélectionnez **Nouveau** pour ajouter de nouveaux comptes à la liste. Cette liste est utilisée pour filtrer la liste des transactions qui apparaît sur la page **Règlements comptables**.
-

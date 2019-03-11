@@ -1,13 +1,13 @@
 ---
-title: "Workflow des dépenses"
-description: "Cette rubrique explique comment utiliser le système de flux de travail dans Microsoft Dynamics 365 for Finance and Operations pour configurer un processus de révision des notes de frais dans la Gestion des dépenses."
+title: Workflow des dépenses
+description: Cette rubrique explique comment utiliser le système de flux de travail dans Microsoft Dynamics 365 for Finance and Operations pour configurer un processus de révision des notes de frais dans la Gestion des dépenses.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310114"
 ---
-
 # <a name="expense-workflow"></a>Workflow des dépenses
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez utiliser le système de flux de travail dans Microsoft Dynamics 365 for Finance and Operations pour configurer un processus de révision des notes de frais dans la Gestion des dépenses. Vous pouvez paramétrer un workflow qui utilise les critères suivants pour déterminer qui approuve les états de dépenses :
+Vous pouvez utiliser le système de workflow dans Microsoft Dynamics 365 for Finance and Operations pour paramétrer un processus de révision pour les états de dépenses dans Gestion des dépenses. Vous pouvez paramétrer un workflow qui utilise les critères suivants pour déterminer qui approuve les états de dépenses :
 
 - La hiérarchie de génération d'états des employés et le plafond autorisé prédéfinis
 - Approbation à plusieurs niveaux qui prend en charge les approbateurs intermédiaires et un approbateur final
@@ -58,4 +57,3 @@ Le processus suivant est un exemple de workflow de gestion des dépenses pour un
 Une fois ces conditions vérifiées, l'état de dépenses est validé.
 
 Une fois l'état de dépenses validé, le paiement est autorisé pour l'état de dépenses et l'employé est remboursé.
-

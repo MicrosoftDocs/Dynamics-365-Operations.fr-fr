@@ -1,13 +1,13 @@
---- 
+---
 title: Transaction de lettre de garantie
-description: "Cette procédure décrit le processus associé à une lettre de garantie."
+description: Cette procédure décrit le processus associé à une lettre de garantie.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c2e215f1ae16f907c8b64ea1f05cf67bfb0a04b6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333643"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transaction de lettre de garantie
 
@@ -147,5 +147,4 @@ La société fictive USMF sert d'exemple dans cette procédure.
 15. Cliquez sur Lignes.
     * Vérifiez les écritures de journal validées.  
 16. Fermez la page.
-
 

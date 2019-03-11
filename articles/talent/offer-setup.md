@@ -1,34 +1,34 @@
 ---
-title: "Paramétrer la gestion des offres"
-description: "Cette rubrique décrit comment paramétrer les offres dans Talent."
+title: Paramétrer la gestion des offres
+description: Cette rubrique décrit comment paramétrer les offres dans Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
+ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "376505"
 ---
 # <a name="set-up-offer-management"></a>Paramétrer la gestion des offres 
 
 [!include [banner](includes/banner.md)]
 
-Lorsqu'un candidat est déplacé vers le stade de l'offre dans Dynamics 365 for Talent - Attract, vous devez vous assurer que les offres peuvent être rapidement créées pour le candidat, approuvées au besoin, et soumises au candidat. Comme la plupart des offres sont standard, elles peuvent être créées à partir de modèles réutilisables. Dans Attract, toutes les offres sont regroupées dans un package d'offre, qui est un ensemble d'un ou plusieurs documents d'offre. 
+Lorsqu'un candidat est déplacé vers le stade de l'offre dans Dynamics 365 for Talent : Attract, vous devez vous assurer que les offres peuvent être rapidement créées pour le candidat, approuvées au besoin, et soumises au candidat. Comme la plupart des offres sont standard, elles peuvent être créées à partir de modèles réutilisables. Dans Attract, toutes les offres sont regroupées dans un package d'offre, qui est un ensemble d'un ou plusieurs documents d'offre. 
 
 Cette rubrique répertorie toutes les étapes qu'un administrateur Attract doit suivre pour paramétrer différents modèles de package d'offre dans le cadre de la fonctionnalité de gestion des offres d'Attract. Les utilisateurs avec des rôles non-administrateurs n'ont pas accès à ces fonctionnalités.
 
@@ -203,5 +203,7 @@ Il existe plusieurs parties du processus de création d'offre qui peuvent être 
 
     - ESign - Il s'agit de l'option par défaut, prédéfinie, permettant à l'utilisateur de signer une offre en entrant son nom et ses initiales.
 
-Pour en savoir plus sur le processus de création d'offre, voir [Création, approbation et signature des offres](./creating-offers.md).
+>[!NOTE]
+> Pour les licences Adobe Sign et une version d'évaluation, consultez ce [lien](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+Pour en savoir plus sur le processus de création d'offre, voir [Création, approbation et signature des offres](./creating-offers.md).

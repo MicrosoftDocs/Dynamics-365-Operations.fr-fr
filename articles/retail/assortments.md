@@ -1,13 +1,13 @@
 ---
 title: Gestion des assortiments
-description: "Cette rubrique explique les concepts fondamentaux relatifs à la gestion des assortiments dans Microsoft Dynamics 365 for Retail et fournit des considérations pour la mise en œuvre de votre projet."
+description: Cette rubrique explique les concepts fondamentaux relatifs à la gestion des assortiments dans Microsoft Dynamics 365 for Retail et fournit des considérations pour la mise en œuvre de votre projet.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365038"
 ---
-
 # <a name="assortment-management"></a>Gestion des assortiments
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
-Microsoft Dynamics 365 for Retail fournit des *assortiments* vous permettant de gérer la disponibilité des produits entre plusieurs canaux. Les assortiments déterminent les produits disponibles dans des magasins spécifiques et pendant une période spécifique.
+Microsoft Dynamics 365 for Retail fournit des *assortiments* vous permettant de gérer la disponibilité des produits entre plusieurs canaux. Les assortiments déterminent les produits disponibles dans des magasins spécifiques et pendant une période spécifique.
 
 Dans Retail, un assortiment est une mise en correspondance d'un ou de plusieurs canaux (ou de groupes de canaux, lorsque des hiérarchies d'organisation sont utilisées) avec un ou plusieurs produits (ou groupes de produits, lorsque des hiérarchies de catégories sont utilisées).
 
@@ -108,4 +107,3 @@ Tenez compte des exigences de mise en œuvre suivantes lorsque vous planifiez et
 - **Ventes et retours en dehors des assortiments** : cette capacité permet aux détaillants de gérer efficacement leurs assortiments en leur laissant limiter le nombre de produits disponibles aux produits appartenant au mix produit de base du magasin. Cette capacité permet également aux détaillants de gérer les situations au cours desquelles un produit a été omis par erreur d'un assortiment, ou lorsqu'un produit a été retourné en dehors des dates d'effet de l'assortiment.
 
 Si les données de produit n'existent pas dans la base de données du canal, le PDV effectue des appels en temps réel aux sièges sociaux pour récupérer les informations requises, de sorte que le produit pusse être vendu, retourné ou placé sur une commande client. Les informations sur le produit extraites de cette manière sont disponibles uniquement dans le cadre de cette transaction. Le produit n'est pas ajouté à la définition de l'assortiment. Par conséquent, les appels en temps réel consécutifs seront effectués au cas par cas.
-

@@ -1,13 +1,13 @@
---- 
-title: "Créer une règle de kanban d'événement de vente"
-description: "Cette procédure consiste à réaliser le paramétrage nécessaire pour créer une règle de kanban qui est déclenchée pendant la création d'une commande client."
+---
+title: Créer une règle de kanban d'événement de vente
+description: Cette procédure consiste à réaliser le paramétrage nécessaire pour créer une règle de kanban qui est déclenchée pendant la création d'une commande client.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d2bee6e81acd029406c95237f0b4ba4ab2565ea1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f1f66157b2e74ad1b490e10112cbc121ac9826fb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342015"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Créer une règle de kanban d'événement de vente
 
@@ -73,5 +73,4 @@ Cette procédure consiste à réaliser le paramétrage nécessaire pour créer u
 1. Cliquez sur Produit et approvisionnement.
 2. Cliquez sur Afficher l'arborescence d'origine des besoins.
     * Notez qu'un kanban est créé avec la même quantité que la ligne de vente. Vous pouvez également afficher les sorties de matériel nécessaires pour produire le L0050. Il s'agit de la dernière étape de cette procédure.  
-
 

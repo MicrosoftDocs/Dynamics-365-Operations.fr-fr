@@ -1,13 +1,13 @@
 ---
 title: Page d'accueil de l'administration de l'organisation
-description: "Cette rubrique redirige vers des ressources utiles pour exploiter Microsoft Dynamics 365 for Finance and Operations dans votre organisation."
+description: Cette rubrique redirige vers des ressources utiles pour exploiter Microsoft Dynamics 365 for Finance and Operations dans votre organisation.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332815"
 ---
-
 # <a name="organization-administration-home-page"></a>Page d'accueil de l'administration de l'organisation
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique redirige vers un contenu qui aidera les utilisateurs et les administrateurs à configurer Microsoft Dynamics 365 for Finance and Operations. Ce contenu les aidera à configurer le système pour qu'il fonctionne sans heurts et efficacement pour votre organisation et votre activité.
+Cette rubrique donne le contenu qui guidera les utilisateurs et les administrateurs à la configuration de Microsoft Dynamics 365 for Finance and Operations. Ce contenu les aidera à configurer le système pour qu'il fonctionne sans heurts et efficacement pour votre organisation et votre activité.
 
 La plupart du contenu répertorié ici s'applique aux fonctions du module **Administration de l'organisation**. Cependant, plusieurs tâches, telles que la création et l'utilisation d'un modèle d'enregistrement, peuvent être effectuées dans n'importe quel module pour aider votre organisation à fonctionner plus efficacement.
 
@@ -103,4 +102,3 @@ Les modèles d'enregistrement vous aident à créer des enregistrements plus rap
 - [Configurer la gestion des documents](configure-document-management.md)
 - [Configuration et envoi d'e-mail](configure-email.md)
 - [Données de date/d'heure et fuseaux horaires](date-time-zones.md)
-

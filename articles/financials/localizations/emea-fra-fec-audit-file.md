@@ -1,13 +1,13 @@
 ---
-title: "Génération du fichier d'audit standard pour la France (FEC)"
-description: "Cette rubrique décrit le processus de génération du fichier d'audit standard pour la France (FEC) dans Microsoft Dynamics 365 for Finance and Operations."
+title: Génération du fichier d'audit standard pour la France (FEC)
+description: Cette rubrique décrit le processus de génération du fichier d'audit standard pour la France (FEC) dans Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59bd79048d2f2e6d95cd22c5a1ca2bcc255dbc76
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 62e418550d4a8ea5e31c51478574491753b4a481
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370698"
 ---
-
 # <a name="create-standard-audit-file-for-france-fec"></a>Créer un fichier d'audit standard pour la France (FEC)
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ Avant de pouvoir générer un fichier FEC, vous devez importer la version la plu
 1.  Accédez à **Comptabilité** > **Recherches et états** > **États de Comptabilité** > **Exportation de données comptables FEC** pour ouvrir la page **Paramètres des états électroniques**.
 2.  Entrez la plage de dates du fichier.
 3.  Cliquez sur **OK**.
-

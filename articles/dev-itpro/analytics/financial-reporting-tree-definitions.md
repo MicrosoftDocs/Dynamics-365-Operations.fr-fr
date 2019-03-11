@@ -1,13 +1,13 @@
 ---
-title: "Définitions d'arborescence de génération d'états dans les états financiers"
-description: "Cet article fournit des informations sur les définitions d'arborescence de génération d'états. Une définition d’arborescence de génération d'états est un composant d’état, ou un bloc élémentaire, qui vous permet de définir la structure et la hiérarchie de votre organisation."
+title: Définitions d'arborescence de génération d'états dans les états financiers
+description: Cet article fournit des informations sur les définitions d'arborescence de génération d'états. Une définition d’arborescence de génération d'états est un composant d’état, ou un bloc élémentaire, qui vous permet de définir la structure et la hiérarchie de votre organisation.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316945"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Définitions d'arborescence de génération d'états dans les états financiers
 
 [!include [banner](../includes/banner.md)]
@@ -49,9 +48,9 @@ Vous pouvez créer un nombre illimité d'arborescences de génération d'état p
 ## <a name="create-a-reporting-tree-definition"></a> Créer une définition d'arborescence de génération d'états
 Une définition d'arborescence de génération d'états contient les colonnes décrites dans le tableau suivant.
 
-| Colonne d'arborescence de génération d'états | description ; |
+| Colonne d'arborescence de génération d'états | Description |
 |-----------------------|-------------|
-| Société               | Nom de la société pour l'unité de déclaration. La valeur **@ANY**, qui est généralement affectée uniquement au niveau de synthèse, active l'arborescence de génération d'états à utiliser pour toutes les sociétés. Toutes les branches enfants sont affectées à une société. |
+| Société               | Nom de la société pour l'unité de déclaration. La valeur **@ANY**, qui n'est généralement affectée qu'au niveau de synthèse, permet d'utiliser l'organigramme d'entreprise pour toutes les sociétés. Toutes les branches enfants sont affectées à une société. |
 | Nom de l'unité             | Code identifiant cette unité de déclaration dans l'arborescence graphique de génération d'état. Veillez à établir un système de codage unique qui est cohérent et qui sera facile à comprendre pour les utilisateurs. |
 | Description de l'unité      | Le titre de l'unité de déclaration apparaît dans l'en-tête ou le pied de page de l'état si vous entrez **UnitDesc** comme code sous l'onglet **En-têtes et pieds de page** de la définition d'état. Le titre apparaît dans la description de ligne d'état si vous entrez **UnitDesc** dans la cellule **Description** de la définition de ligne. |
 | Dimensions            | Une unité de déclaration qui tire les informations directement des données financières. Elle définit le positionnement logique et les longueurs pour le compte et les segments associés. Chaque ligne d'unité de génération de rapports doit avoir une dimension dans cette colonne. Vous pouvez également insérer une dimension dans une ligne d’unité de synthèse (par exemple, pour les dépenses qui sont directement liées à cette unité). Si vous entrez une dimension dans une ligne d'unité de synthèse, les comptes utilisés dans les unités parent ne doivent pas être utilisés dans les unités enfant. Dans le cas contraire, les montants peuvent être dupliqués. |
@@ -77,7 +76,7 @@ Pour créer une définition d'arborescence de génération d'états, procédez c
     | Inclure/Position de caractère       | Cette section répertorie les dimensions définies dans les données financières et indique le nombre de caractères dans la valeur définie la plus longue pour chaque dimension. Activez la case à cocher d'une dimension pour inclure celle-ci dans la hiérarchie de l'arborescence de génération d'états. |
     | Hiérarchie et plages de segments     | Cette section indique la hiérarchie de dimensions. Vous pouvez déplacer les dimensions dans la liste pour modifier leur ordre de génération d'état. Dans les zones **Dimension source** et **Dimension cible**, vous pouvez spécifier une plage de valeurs dans chaque dimension. Si vous ne spécifiez pas de plage, toutes les valeurs de dimension sont insérées dans l’arborescence de génération d'états.<blockquote>[!NOTE] Si vous utilisez plusieurs dimensions, seules les combinaisons de dimensions qui ont été validées sont renvoyées dans les résultats.</blockquote> |
 
-    Pour une capture d’écran qui illustre un exemple de la boite de dialogue **Insérer les unités organisationnelles à partir des dimensions**, reportez-vous à la section « Exemple d'insertion d'unités de déclaration à partir de la boîte de dialogue Dimensions » plus loin dans cet article.
+    Pour une capture d’écran qui illustre un exemple de la boite de dialogue **Insérer les unités organisationnelles à partir des dimensions**, reportez-vous à la section « Exemple d'insertion d'unités de déclaration à partir de la boîte de dialogue Dimensions » plus loin dans cet article.
 
 5. Pour créer des segments supplémentaires (par exemple en divisant un segment en deux segments plus petits), cliquez sur l'emplacement approprié dans le champ **Position de caractère**, puis cliquez sur **Diviser les segments**.
 6. Pour fusionner deux segments en un seul, cliquez sur dans l'une des zones des segments à fusionner, puis cliquez sur **Combiner les segments**.
@@ -87,7 +86,7 @@ Pour créer une définition d'arborescence de génération d'états, procédez c
     1. Dans le champ **Dimension source** pour cette dimension, entrez la première valeur de la plage.
     2. Dans le **Dimension cible** , entrez la dernière valeur dans la plage.
 
-9. Répétez les étapes 7 à 8 pour chaque dimension dans la zone **Hiérarchie et plages de segments**.
+9. Répétez les étapes 7 à 8 pour chaque dimension dans la zone **Hiérarchie et plages de segments**.
 10. Après avoir terminé de définir la manière dont les unités de déclaration seront introduites dans la nouvelle arborescence de génération d'états, cliquez sur **OK**.
 11. Cliquez sur **Fichier** &gt; **Enregistrer** pour enregistrer l'arborescence de génération d'états. Entrez un nom unique et une description pour l'arborescence de génération d'états, puis cliquez sur **OK**.
 
@@ -107,7 +106,7 @@ Lorsque vous utilisez une arborescence de génération d'états, vous pouvez agr
     > Si vous spécifiez des dimensions pour des unités enfant et des unités parent, vous pouvez causer la duplication des données dans l'état.
 
 - Les unités de déclaration contenant des dimensions dans l'arborescence de génération d'états correspondent aux dimensions utilisées dans les définitions de ligne et de colonne. La combinaison des dimensions détermine les montants retournés pour cette unité. Par exemple, les lignes 6 et 7 de l'exemple 2 renverront uniquement les valeurs pour les départements 00 et 01, respectivement.
-- Les montants des unités de déclaration parent qui ne contiennent pas de dimension dans l'arborescence de génération d'états sont déterminés à partir de l'état de l'unité enfant et se cumulent au montant de l'unité parent spécifiée. Par exemple, si l'unité parent (voir Contoso USA dans l'exemple 2 des exemples de cumul des données) a deux unités enfant (022 et 023) et ne contient pas de dimension, un état est généré pour chaque enfant et le parent. Le total parent est la somme des deux montants enfant.
+- Les montants des unités de déclaration parent qui ne contiennent pas de dimension dans l'arborescence de génération d'états sont déterminés à partir de l'état de l'unité enfant et se cumulent au montant de l'unité parent spécifiée. Par exemple, si l'unité parent (voir Contoso USA dans l'exemple 2 des exemples de cumul des données) a deux unités enfant (022 et 023) et ne contient pas de dimension, un état est généré pour chaque enfant et le parent. Le total parent est la somme des deux montants enfant.
 
 ### <a name="manage-reporting-units"></a>Gestion des unités de déclaration
 
@@ -166,9 +165,9 @@ Vous pouvez empêcher certains utilisateurs et groupes d'accéder à une unité 
 3. Dans la boîte de dialogue **Sécurité de l'unité**, sélectionnez un nom, puis cliquez sur **Supprimer**.
 4. Cliquez sur **OK**.
 
-### <a name="link-to-reports"></a>Lien vers les états
+### <a name="link-toreports"></a>Lien vers les états
 
-Après avoir créé une colonne **État** dans la définition de ligne et avoir spécifié l'état à inclure dans l'état, vous devez mettre à jour l'arborescence de génération d'états avec la colonne liée et les informations d'état. Un état peut être importé dans n'importe quelle unité de l'arborescence de génération d'états.
+Après avoir créé une colonne **État** dans la définition de ligne et avoir spécifié l'état à inclure dans l'état, vous devez mettre à jour l'arborescence de génération d'états avec la colonne liée et les informations d'état. Un état peut être importé dans n'importe quelle unité de l'arborescence de génération d'états.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Identifier l'état dans une arborescence de génération d'états
 
@@ -222,4 +221,3 @@ Les exemples suivants montrent les informations possiblement utilisées dans une
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
-

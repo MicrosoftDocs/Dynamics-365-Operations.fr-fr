@@ -1,13 +1,13 @@
 ---
-title: "Définitions de validation dans le secteur public"
-description: "Cet article fournit des exemples de définitions de validation dans le secteur public qui vous permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés. Ces exemples incluent des affectations budgétaires, des réglementations en espèces regroupés, des radiations, des règlements de contre remboursement, des écritures comptables avancées, une clôture de fin d'exercice de comptabilité et des fonds propriétaires."
+title: Définitions de validation dans le secteur public
+description: Cet article fournit des exemples de définitions de validation dans le secteur public qui vous permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés. Ces exemples incluent des affectations budgétaires, des réglementations en espèces regroupés, des radiations, des règlements de contre remboursement, des écritures comptables avancées, une clôture de fin d'exercice de comptabilité et des fonds propriétaires.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetDetailsInquiry, CustGroup, JournalizingDefinition, JournalizingDefinitionTrans, LedgerFund, LedgerParameters, LedgerTransferOpening, MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4505717b340f72779de5e118226320d564fd4cca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e537c19fec5b4ae1964d81d34fe299d477e564ae
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370798"
 ---
-
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 
 [!include [banner](../includes/banner.md)]
@@ -471,7 +470,7 @@ Les organisations utilisent les définitions de validation dans le cadre de la c
 > Pour utiliser les définitions de validation pour la clôture et l'ouverture de fin d'exercice, vous devez effectuer les tâches de paramétrage suivantes :
 
 -   Sur la page **Paramètres de comptabilité**, dans la section **Comptabilité**, dans l'organisateur **Clôture d'exercice**, sélectionnez l'option **Créer des transactions de clôture lors du transfert**.
--   Sur la page **Comptes principaux - plan de comptes : %1**, créez un compte de clôture.
+-   Sur la page **Comptes principaux - plan de comptes : %1**, créez un compte de clôture.
 
 Les exemples suivants de définition de validation indiquent la clôture de fin d'exercice pour les fonds gouvernementaux et les fonds propriétaires.
 
@@ -621,7 +620,6 @@ La définition de validation recherche un rapprochement avec toute partie du com
 [Budgétisation dans le secteur public](budgeting-public-sector.md)
 
 [Comptabilité dans le secteur public](general-ledger-public-sector.md)
-
 
 
 

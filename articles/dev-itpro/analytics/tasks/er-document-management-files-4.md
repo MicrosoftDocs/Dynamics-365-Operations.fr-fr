@@ -1,13 +1,13 @@
---- 
-title: "Exécuter des formats pour utiliser les fichiers de gestion des documents dans la sortie ER"
-description: "Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents dans la sortie ER."
+---
+title: Exécuter des formats pour utiliser les fichiers de gestion des documents dans la sortie ER
+description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents dans la sortie ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364785"
 ---
 # <a name="run-formats-to-use-document-management-files-in-er-output"></a>Exécuter des formats pour utiliser les fichiers de gestion des documents dans la sortie ER
 
@@ -31,7 +31,7 @@ Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'admi
 
 Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 : Créer un format) ».
 
-Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a>Ajoutez les pièces jointes nécessaires pour la commande client d'une facture unique
@@ -69,5 +69,4 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 10. Cliquez sur OK.
 11. Cliquez sur OK.
     * Examinez la sortie générée. Notez que pour chaque pièce jointe, un nœud XML simple a été créé. Le contenu de la pièce jointe est rempli avec la sortie XML au format MIME (base64).  
-
 

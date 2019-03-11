@@ -1,13 +1,13 @@
 ---
 title: Page d'accueil des solutions PowerBI.com
-description: "Cette rubrique répertorie les solutions PowerBI.com disponibles et vous indique les ressources complémentaires."
+description: Cette rubrique répertorie les solutions PowerBI.com disponibles et vous indique les ressources complémentaires.
 author: sericks007
 manager: AnnBe
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,26 +18,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 1a391c0111ad39cb8c4ec809eccb3eb7cfb18687
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316692"
 ---
-
 # <a name="powerbicom-solutions-home-page"></a>Page d'accueil des solutions PowerBI.com
 
 [!include [banner](../includes/banner.md)]
 
-Les solutions PowerBI.com suivantes sont disponibles pour les environnements Dynamics 365 for Finance and Operations.
+Les solutions PowerBI.com suivantes sont disponibles pour les environnements Dynamics 365 for Finance and Operations.
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Solutions PowerBI.com disponibles dans Lifecycle Services (LCS)
 
 Les solutions PowerBI.com suivantes sont disponibles dans la bibliothèque Actifs partagés de LCS. Consultez les informations de version dans la bibliothèque Actifs partagés pour télécharger la version correcte pour votre environnement.
 
 > [!NOTE]
-> La plupart des solutions PowerBI.com contenues dans la liste suivante ont été intégrées dans les espaces de travail analytiques des versions récentes de Dynamics 365 for Finance and Operations. Lorsque vous utilisez les espaces de travail analytiques, il n'est pas nécessaire de télécharger ces solutions à partir de la bibliothèque Actifs partagés de LCS. Les rubriques de cette liste indiquent où ces solutions PowerBI.com ont été intégrées dans Finance and Operations, si nécessaire.
+> La plupart des solutions PowerBI.com contenues dans la liste suivante ont été intégrées dans les espaces de travail analytiques des versions récentes de Dynamics 365 for Finance and Operations. Lorsque vous utilisez les espaces de travail analytiques, il n'est pas nécessaire de télécharger ces solutions à partir de la bibliothèque Actifs partagés de LCS. Les rubriques de cette liste indiquent où ces solutions PowerBI.com ont été intégrées dans Finance and Operations, si nécessaire.
 
 - [Comparatif Réel/Budget](ledger-budgets-power-bi.md)
 - [Vue d'ensemble des disponibilités](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
@@ -59,7 +58,7 @@ Les solutions PowerBI.com suivantes sont disponibles dans la bibliothèque Actif
 
 ## <a name="powerbicom-solutions-available-from-appsource"></a>Solutions PowerBI.com disponibles dans AppSource
 
-Les solutions PowerBI.com suivantes sont disponibles dans [Microsoft AppSource](https://appsource.microsoft.com).
+Les solutions PowerBI.com suivantes sont disponibles depuis [Microsoft AppSource](https://appsource.microsoft.com).
 
 > [!NOTE]
 > Ces solutions ne sont plus utilisées comme indiqué dans [Packs de contenu Power BI disponibles sur AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -67,4 +66,3 @@ Les solutions PowerBI.com suivantes sont disponibles dans [Microsoft AppSource](
 - Gestion des coûts
 - [Performances financières](financial-performance-power-bi-content-pack.md)
 - [Performances du canal de vente au détail](retail-channel-performance-dashboard-power-bi-data.md)
-

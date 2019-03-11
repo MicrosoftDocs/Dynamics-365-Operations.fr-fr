@@ -1,13 +1,13 @@
 ---
-title: "Destinations de la gestion des états électroniques"
-description: "Vous pouvez configurer une destination pour chaque configuration de génération d'états électroniques (ER) et son composant de sortie (un dossier ou un fichier). Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. Cet article explique la gestion des destinations des états électroniques, les types de destinations pris en charge et des considérations sur la sécurité."
+title: Destinations de la gestion des états électroniques
+description: Vous pouvez configurer une destination pour chaque configuration de génération d'états électroniques (ER) et son composant de sortie (un dossier ou un fichier). Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. Cet article explique la gestion des destinations des états électroniques, les types de destinations pris en charge et des considérations sur la sécurité.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314921"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Destinations de la gestion des états électroniques
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ Vous pouvez configurer une destination pour chaque configuration de génération
 Les configurations de format des états électroniques contiennent généralement au moins un composant de sortie : un fichier. En règle générale, les configurations contiennent plusieurs composants de sortie de fichiers de différents types (par exemple, XML, TXT ou XLSX) qui sont regroupés dans un dossier unique ou dans plusieurs dossiers. La gestion des destinations des états électroniques vous permet de préconfigurer ce qui se produit lors de l’exécution de chaque composant. Par défaut, lorsqu'une configuration est exécutée, une boîte de dialogue s'affiche pour permettre à l'utilisateur d'enregistrer ou d'ouvrir le fichier. Le même comportement est également utilisé lorsque vous importez une configuration d'état électronique et que vous ne configurez pas de destinations spécifiques pour lui. Après la création d’une destination pour un composant de sortie principal, cette destination remplace le comportement par défaut et le dossier ou le fichier est envoyé en fonction des paramètres de la destination.
 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilité et conditions préalables générales
-La fonctionnalité des destinations d'états électroniques n’est pas disponible dans Microsoft Dynamics AX 7.0 (février 2016). Par conséquent, vous devez installer Microsoft Dynamics 365 for Operations version 1611 (novembre 2016) pour utiliser toutes les fonctions décrites dans cette rubrique. Vous pouvez également installer l'un des éléments requis suivants. Toutefois, notez que ces solutions de remplacement offrent une expérience plus limitée.
+La fonctionnalité des destinations d'états électroniques n’est pas disponible dans Microsoft Dynamics AX 7.0 (février 2016). Par conséquent, vous devez installer Microsoft Dynamics 365 for Operations version 1611 (novembre 2016) pour utiliser toutes les fonctions décrites dans cette rubrique. Vous pouvez également installer l'un des éléments requis suivants. Toutefois, notez que ces solutions de remplacement offrent une expérience plus limitée.
 
-- Application Microsoft Dynamics AX 7.0.1 (mai 2016)
+- Application Microsoft Dynamics AX version 7.0.1 (mai 2016)
 - [Correctif d’application](https://fix.lcs.dynamics.com/issue/results/?q=3160213) de gestion des destinations d'états électoniques
 
 Vous pouvez paramétrer des destinations uniquement pour les configurations d'états électroniques qui ont été importées et pour les formats qui sont disponibles sur la page **Configurations des états électroniques**.
@@ -165,4 +164,3 @@ La condition préalable est que le format doit être disponible dans les configu
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
-

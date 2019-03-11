@@ -1,13 +1,13 @@
 ---
-title: "Configuration du système Talent et politique de mise à jour"
-description: "Cette rubrique répertorie la configuration requise pour Dynamics 365 for Talent. Elle décrit également la stratégie de mise à jour."
+title: Configuration du système Talent et politique de mise à jour
+description: Cette rubrique répertorie les besoins pour Dynamics 365 for Talent. Elle décrit également la stratégie de mise à jour.
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304293"
 ---
-
 # <a name="talent-system-requirements-and-update-policy"></a>Configuration du système Talent et politique de mise à jour
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique répertorie la configuration requise pour Microsoft Dynamics 365 for Talent. Elle décrit également la stratégie de mise à jour.
+Cette rubrique répertorie les besoins pour Microsoft Dynamics 365 for Talent. Elle décrit également la stratégie de mise à jour.
 
 ## <a name="supported-web-browsers"></a>Navigateurs Web pris en charge
 
-L'application Web Microsoft Dynamics 365 for Talent peut s'exécuter dans n'importe lequel des navigateurs Web suivants qui s'exécutent sur les systèmes d'exploitation spécifiés : 
+L'application Web Microsoft Dynamics 365 for Talent peut s'exécuter dans n'importe lequel des navigateurs Web suivants qui s'exécutent sur les systèmes d'exploitation spécifiés : 
 
 *   Microsoft Edge (dernière version publique disponible) sur Windows 10
 *   Internet Explorer 11 sur Windows 10, Windows 8.1, ou Windows 7
@@ -44,23 +43,22 @@ Pour trouver la dernière version pour chaque navigateur Web, accédez au site I
 
 > [!NOTE]
 > * Pour capturer des images générées à partir de l'enregistreur de tâches et les inclure dans les documents Microsoft Word, vous devez avoir une extension Chrome installée. 
-> * L'éditeur de workflow démarre en tant qu'application ClickOnce. Seuls Microsoft Edge et Internet Explorer (dans une version prise en charge de Microsoft Windows) prennent en charge les applications ClickOnce. L'application ClickOnce d'éditeur de workflow nécessite un système d'exploitation compatible 64 bits.
+> * L'éditeur de workflow démarre en tant qu'application ClickOnce. Seuls Microsoft Edge et Internet Explorer (sur une version prise en charge Microsoft Windows) prennent en charge les applications de ClickOnce. L'application ClickOnce d'éditeur de workflow nécessite un système d'exploitation compatible 64 bits.
 > * Pour afficher un aperçu des fichiers PDF, nous vous recommandons d'utiliser des navigateurs tels que Microsoft Edge (dernière version disponible) sous Windows 10, ou Google Chrome (dernière version disponible) sous Windows 10, Windows 8,1, Windows 8, Windows 7, ou sur la tablette Google Nexus 10.
 >   Exigences réseau
-> * Dynamics 365 for Talent est conçu pour les réseaux ayant une latence de 250 à 300 millisecondes (ms) ou moins. C'est la latence entre un client de navigateur et le centre de données Microsoft Azure qui héberge Dynamics 365 for Talent. Nous vous recommandons de tester la latence du réseau à l'adresse [www.azurespeed.com](https://www.azurespeed.com "Test de latence Azure").
-> * Les besoins en bande passante pour Dynamics 365 for Talent dépendent de votre scénario. La plupart des scénarios habituels nécessitent une bande passante de plus de 50 kilo-octets par seconde (KBps).
+> * Dynamics 365 for Talent est conçu pour les réseaux ayant une latence inférieure à 250 à 300 millisecondes (ms) ou moins. Cette latence est la latence entre un client de navigateur et le centre de données Microsoft Azure qui héberge Dynamics 365 for Talent. Nous vous recommandons de tester la latence du réseau à l'adresse [www.azurespeed.com](https://www.azurespeed.com "Test de latence Azure").
+> * La bande passante requise pour Dynamics 365 for Talent dépend de votre scénario. La plupart des scénarios habituels nécessitent une bande passante de plus de 50 kilo-octets par seconde (KBps).
 > 
 > [!WARNING]
-> Ne calculez pas la bande passante d'un emplacement client nécessaire en multipliant le nombre d'utilisateurs par la bande passante minimale requise. Il est très difficile de calculer l'utilisation simultanée d'un emplacement donné. Pour les clients qui s'inquiètent des besoins de bande passante, utilisez une version d'évaluation de Dynamics 365 for Talent.
+> Ne calculez pas la bande passante d'un emplacement client nécessaire en multipliant le nombre d'utilisateurs par la bande passante minimale requise. Il est très difficile de calculer l'utilisation simultanée d'un emplacement donné. Pour les clients qui s'inquiètent des besoins de bande passante, utilisez une version d'évaluation de Dynamics 365 for Talent.
 
 ## <a name="supported-microsoft-office-applications"></a>Applications Microsoft Office prises en charge
 
-* Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus de détails sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Dépannage de l'intégration d'Office").
-* Pour afficher les documents qui sont générés par la fonctionnalité Exporter vers Excel ou Exporter vers Word, vous devez disposer de Microsoft Office 2007 ou version ultérieure.
+* Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus de détails sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Dépannage de l'intégration d'Office").
+* Pour afficher les documents qui sont générés par la fonctionnalité Exporter vers Excel ou Exporter vers Word, vous devez disposer de Microsoft Office 2007 ou version ultérieure.
 
 ## <a name="update-policy"></a>Stratégie de mise à jour
 
-Microsoft Dynamics 365 for Talent est mis en service en tant qu'offre de cloud. Les mises à jour de Dynamics 365 for Talent sont continues et appliquées automatiquement par Microsoft.
+Microsoft Dynamics 365 for Talent fait l'objet d'une maintenance dans le cadre d'une offre Cloud. Les mises à jour de Dynamics 365 for Talent sont continues et appliquées automatiquement par Microsoft.
 
-Les mises à jour sont publiées régulièrement et s'appliquent à tous les environnements.  Dynamics 365 for Talent est pris en charge conformément à la [Stratégie Microsoft Support Lifecycle](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), qui fournit des instructions cohérentes et prévisibles pour la disponibilité du support produit.
-
+Les mises à jour sont publiées régulièrement et s'appliquent à tous les environnements.  Dynamics 365 for Talent est pris en charge conformément à la [Stratégie Microsoft Support Lifecycle](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), qui fournit des instructions cohérentes et prévisibles pour la disponibilité du support produit.

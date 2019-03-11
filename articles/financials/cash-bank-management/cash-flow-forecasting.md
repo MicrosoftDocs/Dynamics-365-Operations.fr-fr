@@ -1,13 +1,13 @@
 ---
-title: "Prévision des flux de trésorerie"
-description: "Cette rubrique fournit une vue d'ensemble du processus de prévisions des flux de trésorerie. Elle décrit également comment les prévisions des flux de trésorerie sont intégrées avec d'autres modules dans le système."
+title: Prévision des flux de trésorerie
+description: Cette rubrique fournit une vue d'ensemble du processus de prévisions des flux de trésorerie. Elle décrit également comment les prévisions des flux de trésorerie sont intégrées avec d'autres modules dans le système.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 681817f2879034d65b53666a9d56ec00cc175ad8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324489"
 ---
-
 # <a name="cash-flow-forecasting"></a>Prévision des flux de trésorerie
 
 [!include [banner](../includes/banner.md)]
@@ -138,5 +137,4 @@ En outre, vous pouvez afficher des données de prévision des flux de trésoreri
 - **Toutes les commandes fournisseur** : Dans l'onglet **Facture**, sélectionnez **Prévisions de flux de trésorerie** pour afficher l'impact de disponibilités prévu de la commande fournisseur sélectionnée.
 - **Prévision d'approvisionnement** : Sélectionnez **Prévisions de flux de trésorerie** pour afficher les futurs flux de trésorerie associés à la prévision d'approvisionnement de l'article sélectionné.
 - **Prévision de la demande** : Sélectionnez **Prévisions de flux de trésorerie** pour afficher les futurs flux de trésorerie associés à la prévision de demande de l'article sélectionné.
-
 

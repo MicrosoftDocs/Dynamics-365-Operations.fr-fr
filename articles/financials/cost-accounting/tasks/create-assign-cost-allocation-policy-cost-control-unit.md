@@ -1,13 +1,13 @@
---- 
-title: "Créer et affecter une stratégie d'affectation des coûts à une unité de contrôle des coûts"
-description: "Cette procédure permet de créer et d'affecter une stratégie de répartition des coûts et les règles correspondantes à une unité de contrôle des coûts."
+---
+title: Créer et affecter une stratégie d'affectation des coûts à une unité de contrôle des coûts
+description: Cette procédure permet de créer et d'affecter une stratégie de répartition des coûts et les règles correspondantes à une unité de contrôle des coûts.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 92f41eb99b84bbc596e79b413971f9d92f2555b6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 491d8292b7c951be930d2858362c8107caaa76ff
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324397"
 ---
 # <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a>Créer et affecter une stratégie d'affectation des coûts à une unité de contrôle des coûts
 
@@ -65,5 +65,4 @@ Cette procédure permet de créer et d'affecter une stratégie de répartition d
     * Les règles ont une date d'effet. Un utilisateur ou le système peut faire expirer les règles si une version plus récente est créée.  
 5. Dans le champ Unité de contrôle des coûts, entrez ou sélectionnez une valeur.
 6. Cliquez sur Enregistrer.
-
 

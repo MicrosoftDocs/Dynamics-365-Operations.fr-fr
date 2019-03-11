@@ -1,13 +1,13 @@
 ---
 title: Blocage du stock
-description: "Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés."
+description: Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: eb6291e2f012f148b247b747f84155b96cf09677
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b7c788f4b054c7d20df69459c31bb16994d8a9ec
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352043"
 ---
-
 # <a name="inventory-blocking"></a>Blocage du stock
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
+Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 
 Les méthodes suivantes permettent de bloquer les articles en stock :
 -   Manuellement
@@ -68,4 +67,3 @@ Vous pouvez spécifier quels statuts du stock sont des statuts de blocage à l'a
 [Processus de gestion de la qualité](quality-management-processes.md)
 
 [Inspecter la qualité des marchandises (guide de tâche)](tasks/inspect-quality-goods.md)
-

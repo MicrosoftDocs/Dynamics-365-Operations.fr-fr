@@ -1,40 +1,39 @@
 ---
-title: "Opérations du point de vente (PDV), en ligne et hors connexion"
-description: "Cette rubrique fournit des détails sur les opérations de point de vente (PDV) dans Microsoft Dynamics 365 for Retail. Elle spécifie où dans l'application les opérations peuvent être invoquées, et si elles sont disponibles dans le mode hors ligne."
+title: Opérations du point de vente (PDV), en ligne et hors connexion
+description: Cette rubrique fournit les détails relatifs aux opérations du PDV dans Microsoft Dynamics 365 for Retail. Elle spécifie où dans l'application les opérations peuvent être invoquées, et si elles sont disponibles dans le mode hors ligne.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353814"
 ---
-
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
 [!include [banner](includes/banner.md)]
 
-La plupart des actions que l'utilisateur exécute dans le point de vente (PDV) sont considérées comme des opérations. Les opérations sont configurées et gérées dans les services administratifs de Microsoft Dynamics 365 for Retail. De nombreuses opérations peuvent être ajoutées aux boutons du groupe de boutons du PDV. Les utilisateurs peuvent ensuite sélectionner les boutons pour appeler les opérations et effectuer leur fonction. D'autres opérations font partie de l'application de PDV principale, et sont appelées par les boutons à l'écran ou dans le cadre d'autres workflows ou processus.
+La plupart des actions que l'utilisateur exécute dans le point de vente (PDV) sont considérées comme des opérations. Les opérations sont configurées et gérées dans les services administratifs de Microsoft Dynamics 365 for Retail. De nombreuses opérations peuvent être ajoutées aux boutons du groupe de boutons du PDV. Les utilisateurs peuvent ensuite sélectionner les boutons pour appeler les opérations et effectuer leur fonction. D'autres opérations font partie de l'application de PDV principale, et sont appelées par les boutons à l'écran ou dans le cadre d'autres workflows ou processus.
 
-Le tableau suivant fournit des détails sur les opérations disponibles dans Retail Modern POS et Cloud POS pour Dynamics 365 for Retail. Le tableau spécifie où dans l'application les opérations peuvent être invoquées, et si elles sont disponibles lorsque le PDV est dans le mode hors ligne.
+Le tableau suivant fournit les détails relatifs aux opérations disponibles dans Retail Modern POS et Cloud POS pour Dynamics 365 for Retail. Le tableau spécifie où dans l'application les opérations peuvent être invoquées, et si elles sont disponibles lorsque le PDV est dans le mode hors ligne.
 
-Certaines opérations ne sont pas actuellement disponibles dans Retail Modern POS ou Cloud POS pour Dynamics 365 for Retail. Certaines de ces opérations sont des opérations spécifiques aux paramètres régionaux qui nécessitent des extensions et une configuration supplémentaires. D'autres sont des fonctions de Microsoft Dynamics AX 2012 qui ne sont actuellement pas prises en charge.
+Certains opérations ne sont actuellement pas disponibles dans Retail Modern POS ou Cloud POS pour Dynamics 365 for Retail. Certaines de ces opérations sont des opérations spécifiques aux paramètres régionaux qui nécessitent des extensions et une configuration supplémentaires. D'autres sont des fonctions de Microsoft Dynamics AX 2012 qui ne sont actuellement pas prises en charge.
 
 Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 
@@ -43,7 +42,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 - **Écran de bienvenue** – L'opération peut être invoquée à partir des groupes de boutons du PDV configurés sur l'écran de bienvenue.
 
 > [!NOTE]
-> Les opérations répertoriées ci-dessous s'appliquent à la version la plus récente de Dynamics 365 for Retail. Certaines opérations peuvent avoir été modifiées ou ne pas être disponibles dans les versions précédentes.
+> Les opérations répertoriées ci-dessous s'appliquent à la version la plus récente de Dynamics 365 for Retail. Certaines opérations peuvent avoir été modifiées ou ne pas être disponibles dans les versions précédentes.
 
 | ID | Opération | Description | Groupe de boutons | Écran de transaction | Écran de bienvenue | Disponible hors connexion | Spécifique aux paramètres locaux |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -199,4 +198,3 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 § Lorsque le PDV est hors connexion, seules les transactions dans la base de données hors connexion peuvent être rappelées pour un retour.
 
 \*\* Lorsque le PDV est hors connexion, seules les transactions dans la base de données de canal hors connexion sont affichées dans le journal.
-

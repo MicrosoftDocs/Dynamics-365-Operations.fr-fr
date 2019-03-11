@@ -1,13 +1,13 @@
 ---
-title: "Équilibrage du lot"
-description: "Cette rubrique décrit le processus d'équilibrage du lot."
+title: Équilibrage du lot
+description: Cette rubrique décrit le processus d'équilibrage du lot.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358621"
 ---
-
 # <a name="batch-balancing"></a>Équilibrage du lot
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit la prise en charge du processus d'équilibrage du lot. 
 
-Visionnez une [vidéo sur l'équilibrage du lot dans Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
+Visionnez une [vidéo sur l'équilibrage du lot dans Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 Lors du processus d'équilibrage du lot, le nombre de substances à utiliser dans un lot de production est calculé à partir de la concentration de substances actives dans les lots de produits sélectionnés.
 
@@ -194,4 +193,3 @@ Il existe une exception à la règle selon laquelle les lots de commandes peuven
 Si une formule contient une substance active pour un produit qui est activé pour les processus de gestion des entrepôts, mais que le numéro de lot est situé sous à un emplacement dans la hiérarchie de réservation, le lot de commandes ne s'applique pas à l'équilibrage du lot.
 
 Un lot de commandes qui ne s'applique pas à l'équilibrage du lot passe par le cycle de processus habituel des lots de commandes.
-

@@ -1,31 +1,30 @@
 ---
-title: "Prix de vente de retour et n° de lot de retour"
-description: "Vous pouvez vous arranger pour que le coût des produits retournés soit égal au coût des produits au moment où vous les avez vendus au client. Pour ce faire, utilisez le champ **N° de traitement de retours**."
+title: Prix de vente de retour et n° de lot de retour
+description: Vous pouvez vous arranger pour que le coût des produits retournés soit égal au coût des produits au moment où vous les avez vendus au client. Pour ce faire, utilisez le champ **N° de traitement de retours**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335138"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Prix de vente de retour et n° de lot de retour        
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ Il s'agit de la méthode recommandée à utiliser pour créer des lignes de reto
 
 3.  Dans l'écran **Créer un ordre de retour**, sélectionnez un compte client, puis cliquez sur **Ajouter**.
 
-4.  Dans l'écran **Ordre de retour - Numéro de retour marchandises : %1, %2**, dans le volet **Actions**, cliquez sur **Rechercher une commande client**.
+4.  Dans l'écran **Ordre de retour - Numéro de retour marchandises : %1, %2**, dans le **volet Actions**, cliquez sur **Rechercher une commande client**.
 
 5.  Dans l'écran **Rechercher une commande client**, sélectionnez la ligne de facture à retourner, puis cliquez sur **OK**.
     
@@ -109,7 +108,6 @@ Lorsque vous utilisez le champ **N° de traitement de retours** d'une ligne d'or
 10. Dans le module Gestion des stocks et des entrepôts, utilisez l'écran **Clôture et ajustement** pour exécuter la procédure **3. Clôturer**.
     
     Cette action règle le coût de la ligne de vente d'origine qui a été évaluée à -35,00 (5 pièces \* 7,00) sur -30,00 (5 pièces \* 6,00). Cela est dû au fait que le groupe de modèles de stock utilise le modèle Premier entré, premier sorti (First In, First Out, ou FIFO) et que 6,00 est le coût FIFO de la première commande fournisseur. En outre, l'action règle le coût de la ligne de vente de retour de manière à correspondre au coût par pièce de la ligne de vente d'origine. Ainsi, le coût de la ligne de retour est ajusté de 35,00 à 30,00.
-
 
 
 

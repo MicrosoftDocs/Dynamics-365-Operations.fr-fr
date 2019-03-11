@@ -1,13 +1,13 @@
 ---
 title: Amortissement de consommation
-description: "Cet article donne une vue d'ensemble de la méthode de consommation de l'amortissement."
+description: Cet article donne une vue d'ensemble de la méthode de consommation de l'amortissement.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0f64fee275f63a3e6b31a196df872e41c84dde6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0c48877058edf8251ef6eb5dd63d7eecd1866f33
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319682"
 ---
-
 # <a name="consumption-depreciation"></a>Amortissement de consommation
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Le facteur suivant pour l'amortissement par consommation est paramétré pour le
 -   La quantité estimée de l'immobilisation est de 2 000.
 
 La proposition d'amortissement du 31 janvier est la suivante : Quantité estimée × Pourcentage x Amortissement à l'unité 2 000 × 0,10 × 1,5 = 300
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Limites de crédit pour les clients"
-description: "Cet article fournit un aperçu de la façon dont les limites de crédit fonctionnent dans Microsoft Dynamics 365 for Finance and Operations."
+title: Limites de crédit pour les clients
+description: Cet article présente une vue d'ensemble de la procédure les limites de crédit dans Microsoft Dynamics 365 for Finance and Operations.
 author: omulvad
 manager: AnnBe
 ms.date: 09/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 333a99d483415ee024e1ec67f27d02698463ae4f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312667"
 ---
-
 # <a name="credit-limits-for-customers"></a>Limites de crédit pour les clients
 
 [!include [banner](../includes/banner.md)]
@@ -139,4 +138,3 @@ Parfois, vous devez vérifier manuellement la limite de crédit d'un client. Par
 1.  Cliquez sur **Ventes et marketing** \> **Commun** \> **Commandes client** \> **Toutes les commandes client**. Double-cliquez sur une commande client.
 
 2.  Dans l'écran **Commande client**, dans le volet Actions, sous l'onglet **Gérer**, cliquez sur **Vérifier la limite de crédit**.
-

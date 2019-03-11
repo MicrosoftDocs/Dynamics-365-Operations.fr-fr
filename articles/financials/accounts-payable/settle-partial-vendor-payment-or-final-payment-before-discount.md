@@ -1,13 +1,13 @@
 ---
-title: "Règlement d'un paiement fournisseur partiel et règlement total du paiement final avant la date de remise"
-description: "Cet article vous fait parcourir les étapes d'un scénario dans lequel des paiements partiels sont effectués pour une facture fournisseur et un escompte de règlement est prélevé."
+title: Règlement d'un paiement fournisseur partiel et règlement total du paiement final avant la date de remise
+description: Cet article vous fait parcourir les étapes d'un scénario dans lequel des paiements partiels sont effectués pour une facture fournisseur et un escompte de règlement est prélevé.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ada8331e0ddac9fd0aaf8e2c75b6b64ede1d5cd9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8436f7456f7a19320afa83ceb970d9cd0c64ac68
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361105"
 ---
-
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Règlement d'un paiement fournisseur partiel et règlement total du paiement final avant la date de remise
 
 [!include [banner](../includes/banner.md)]
@@ -138,7 +137,6 @@ April valide le journal des paiements et consulte les transactions fournisseur s
 | DISC-10010 | Escompte de règlement    | 7/1/2015  |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10011  | Paiement          | 7/8/2015  |         | 495,00                               |                                       | 0,00    | USD      |
 | DISC-10011 | Escompte de règlement    | 7/8/2015  |         | 5,00                                 |                                       | 0,00    | USD      |
-
 
 
 

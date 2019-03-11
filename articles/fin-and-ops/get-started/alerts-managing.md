@@ -1,13 +1,13 @@
 ---
 title: Traitement par lots des alertes
-description: "Cette rubrique donne des informations sur le traitement par lots des alertes dans Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique fournit des informations sur le traitement par lots des alertes dans Microsoft Dynamics 365 for Finance and Operations.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 482cf30b4f82e8801ebc12e3925c1efb09f7eb1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341923"
 ---
-
 # <a name="batch-processing-of-alerts"></a>Traitement par lots des alertes
 
 [!include [banner](../includes/banner.md)]
 
-Les alertes sont traitées par la fonctionnalité de traitement par lots dans Microsoft Dynamics 365 for Finance and Operations. Vous devez paramétrer le traitement par lots avant que les alertes puissent être remises.
+Les alertes sont traitées par la fonction de traitement par lots dans Microsoft Dynamics 365 for Finance and Operations. Vous devez paramétrer le traitement par lots avant que les alertes puissent être remises.
 
 Finance and Operations prend en charge deux types d'événements :
 
@@ -84,4 +83,3 @@ Si vous paramétrez une fenêtre de traitement par lots, une alerte est envoyée
 
 1. Accédez à **Administration du système** &gt; **Tâches périodiques** &gt; **Alertes** &gt; **Alertes de date d'échéance**.
 2. Dans la boîte de dialogue **Alertes de date d'échéance**, entrez les informations appropriées.
-

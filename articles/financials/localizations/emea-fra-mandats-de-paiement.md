@@ -1,13 +1,13 @@
 ---
 title: Mandats de paiement dans le secteur public en France
-description: "Le mandat de paiement est utilisé par le directeur pour informer le comptable que l'organisation doit payer un montant donné à une autre entité et pour autoriser le comptable à payer ledit montant. Le mandat permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable."
+description: Le mandat de paiement est utilisé par le directeur pour informer le comptable que l'organisation doit payer un montant donné à une autre entité et pour autoriser le comptable à payer ledit montant. Le mandat permet de garantir une séparation nette obligatoire entre le rôle opérationnel du directeur et le rôle comptable du comptable.
 author: rschloma
 manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 57f6285b403ba68fd9795836dceef1fae2067974
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 930a18ec4f2ad8db1295466f83e2b9723478a5a8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370682"
 ---
-
 # <a name="mandats-de-paiement-in-the-public-sector-in-france"></a>Mandats de paiement dans le secteur public en France
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,6 @@ Pour ouvrir la page de recherche dans la base de données à partir de la page *
   | Enregistrement  | Table dérivée | Champ                        | Critères   |
   |--------|---------------|------------------------------|------------|
   | Mandat | Mandat        | Statut d'acceptation du comptable | « Rejeté(e) » |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Mappage de membres de dimension d'élément de coût à un ensemble commun de membres de dimension"
-description: "En mappant différents membres de la dimension d'élément de coût à un ensemble commun de membres de la dimension d'élément de coût, vous fusionnez les données en un format commun à des fins de analyse."
+title: Mappage de membres de dimension d'élément de coût à un ensemble commun de membres de dimension
+description: En mappant différents membres de la dimension d'élément de coût à un ensemble commun de membres de la dimension d'élément de coût, vous fusionnez les données en un format commun à des fins de analyse.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e5c9387d74443ec6ca5dc70ad923b67f962181dc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b15e251410937ff4f85ecdfaa55ca1a998d1d1ac
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318141"
 ---
-
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mappage de membres de dimension d'élément de coût à un ensemble commun de membres de dimension
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Les différents plans de comptes que vous utilisez peuvent être paramétrés po
 
 ## <a name="update-mappings-at-any-time"></a>Mettre à jour les mappages à tout moment
 Vous pouvez mettre à jour les définitions de mappage pour une dimension d'article de coût à tout moment. Comme les mappages n'ont pas de dates d'effet, les modifications sont appliquées la prochaine fois que vous exécutez des transactions de coût ou des calculs de coûts.
-
 
 
 

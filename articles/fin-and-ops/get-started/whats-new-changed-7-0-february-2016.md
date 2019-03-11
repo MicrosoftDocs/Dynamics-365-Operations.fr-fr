@@ -1,13 +1,13 @@
 ---
-title: "Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)"
-description: "Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics AX 7.0. Cette version contient des fonctions de plateforme et d’application et a été publiée en février 2016."
+title: Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics AX 7.0. Cette version contient des fonctions de plateforme et d’application et a été publiée en février 2016.
 author: sericks007
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334885"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 
 [!include [banner](../includes/banner.md)]
@@ -37,9 +36,9 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 <thead>
 <tr>
 <th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
-<th>Pourquoi est-ce important ?</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
+<th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
 <tbody>
@@ -113,13 +112,13 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d'évaluation des
 
 ## <a name="developer"></a>Développeur
 
-| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
+| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
 | Possibilité de créer des solutions Web dans le cloud accessibles sur plusieurs périphériques. | Non disponible | La version actuelle de Dynamics AX est basée sur un nouveau client Web et une infrastructure cliente. | Vous pouvez fournir des solutions de deuxième génération à vos utilisateurs finaux. |
-| Possibilité d'utiliser Microsoft Visual Studio pour développer vos solutions. | Microsoft MorphX est l'environnement de développement principal, mais certains développements ont lieu dans Visual Studio. | Visual Studio est le seul environnement de développement. | Il conserve les concepts familiers de Dynamics AX 2012, et les adapte facilement à la structure et aux paradigmes de Visual Studio. Il active l'interopérabilité standard avec d'autres langues et projets .NET. |
+| Possibilité d'utiliser Microsoft Visual Studio pour développer vos solutions. | Microsoft MorphX est l'environnement de développement principal, mais certains développements ont lieu dans Visual Studio. | Visual Studio est l'unique environnement de développement intégré. | Il conserve les concepts familiers de Dynamics AX 2012, et les adapte facilement à la structure et aux paradigmes de Visual Studio. Il active l'interopérabilité standard avec d'autres langues et projets .NET. |
 | Langage intermédiaire commun (CIL) de compilation pour toutes les fonctionnalités. | X++ compilé en code P. | Le tout nouveau compilateur X++ génère du CIL pour toutes les fonctionnalités. CIL est le même langage intermédiaire que celui utilisé par d'autres langages basés sur .NET. | CIL est plus rapide, il peut référencer efficacement des classes dans les bibliothèques de liens dynamiques gérées (DLL) et peut s'exécuter sur une grande base d'outils d'utilitaires .NET. |
 | Intégration de visualisations et de rapports Business Intelligence (BI) dans le client Microsoft Dynamics AX. | Non disponible | Création de visualisations fluides et très intuitives. | Il fournit des analyses de prise de décision basées sur BI. |
-| Intégration à Microsoft Office Outlook. | Non disponible | Les nouvelles fonctionnalités incluent l'application de connecteur de données Excel, la page **Concepteur des classeurs**, l'API d'exportation, et la gestion des documents. | Vous pouvez créer des solutions de productivité pour les utilisateurs finaux. |
+| Intégrez avec Microsoft Office. | Non disponible | Les nouvelles fonctionnalités incluent l'application de connecteur de données Excel, la page **Concepteur des classeurs**, l'API d'exportation, et la gestion des documents. | Vous pouvez créer des solutions de productivité pour les utilisateurs finaux. |
 | Automatisation de la version, du test et du déploiement. | Partiellement disponible | Déploiement de la topologie pour développeur à l'aide du développeur et de Build VM. Auto-configuration de Build VM pour découvrir, créer des modules à partir de Visual Studio Online (VSO) et exécuter des tests. La compilation et les références de module C\# et X++ sont prises en charge. | Cela augmente la productivité des développeurs en réduisant le coût et les efforts pour les tests et les validations. |
 | Personnalisation avec une superposition de couches et des extensions. | Les extensions ne sont pas disponibles. | La version actuelle de Dynamics AX comporte un nouveau modèle de personnalisation. | Vous pouvez personnaliser le code source et les métadonnées des éléments modèles expédiés par Microsoft ou les partenaires Microsoft tiers. |
 | Création de contrôles et d'éléments d'interface utilisateur à l'aide de X++ et d'une infrastructure Web moderne. | Les contrôles personnalisés reposent sur les infrastructures externes, notamment Microsoft ActiveX et Windows Presentation Foundation (WPF). | Il est plus simple de créer des contrôles dans la version actuelle. L'infrastructure X++ peut être utilisée pour le comportement et la logique métier de l'application, et un client basé sur HTML/JavaScript autorise des visualisations modernes. | Vos contrôles peuvent être conçus pour ressembler et se comporter exactement comme nos contrôles prêts à l'emploi Dynamics AX. |
@@ -134,8 +133,8 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d'évaluation des
 <thead>
 <tr>
 <th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
 <th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
@@ -213,15 +212,15 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d'évaluation des
 <td>Vous pouvez désormais afficher des états financiers sans avoir à accéder à un client/une candidature différent(e).</td>
 </tr>
 <tr>
-<td>Imprimer des états financiers (Management Reporter) depuis le client Microsoft Dynamics AX.</td>
+<td>Imprimez des états financiers (Management Reporter) depuis le client Microsoft Dynamics AX.</td>
 <td>L’impression d’un état utiliserait les options d’impression du navigateur pour l'impression et n'imprime que ce que l’utilisateur peut voir à l’écran.</td>
 <td>L’utilisateur peut choisir le niveau de détail et la mise en page d’un état à l’aide de l’option d’impression de l’état financier dans le client Dynamics AX.</td>
 <td>Impression d'états imprimés de la manière souhaitées par les utilisateurs au lieu d’imprimer une page web.</td>
 </tr><tr>
 <td>Analyser les données financières à l'aide du contenu Power BI « Surveiller les performances financières ».</td>
 <td>Non disponible</td>
-<td>Dans PowerBI.com, sélectionnez <strong>Obtenir des données</strong>, puis sélectionnez le pack de contenu <strong>Dynamics AX – Performances financières</strong>. Permet d'entrer l'URL de votre point de terminaison Dynamics AX pour afficher vos données répercutées dans le tableau de bord.</td>
-<td>En trois à quatre clics, les organisations peuvent déployer un tableau de bord PowerBI contenant des données financières importantes. Le contenu peut être personnalisé par l'organisation.</td>
+<td>Dans PowerBI.com, sélectionnez <strong>Obtenir des données</strong>, puis sélectionnez le pack de contenu <strong>Dynamics AX – Performances financières</strong>. Permet d'entrer l'URL de votre point de terminaison Dynamics AX pour afficher vos données répercutées dans le tableau de bord.</td>
+<td>En trois à quatre clics, les organisations peuvent déployer un tableau de bord Power BI contenant des données financières importantes. Le contenu peut être personnalisé par l'organisation.</td>
 </tr>
 <tr>
 <td>Suivi des processus de clôture de période comptable.</td>
@@ -267,10 +266,10 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d'évaluation des
 <table>
 <thead>
 <tr>
-<th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
-<th>Pourquoi est-ce important ?</th>
+<th>Que pouvez-vous faire ?</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
+<th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
 <tbody>
@@ -313,9 +312,9 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d'évaluation des
 <thead>
 <tr>
 <th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
-<th>Pourquoi est-ce important ?</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
+<th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
 <tbody>
@@ -334,9 +333,9 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d'évaluation des
 <thead>
 <tr>
 <th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
-<th>Pourquoi est-ce important ?</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
+<th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
 <tbody>
@@ -419,9 +418,9 @@ Aucune nouvelle fonctionnalité n'a été ajoutée :
 <thead>
 <tr>
 <th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
-<th>Pourquoi est-ce important ?</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
+<th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
 <tbody>
@@ -538,32 +537,32 @@ Aucune nouvelle fonctionnalité n'a été ajoutée :
 
 ## <a name="manufacturing"></a>Fabrication
 
-| Que pouvez-vous faire ? | Dynamics AX 2012 |
+| Que pouvez-vous faire ? | Dynamics AX 2012 |
 |------------------|------------------|
 | Effectuez une vérification de la disponibilité des matières premières pour les ordres de fabrication sur une page indépendante ouverte à partir de l'espace de travail **Gestion de l'atelier de production**. | Non disponible |
 | Vous pouvez démarrer et déclarer la progression des tâches de production à l'aide de la nouvelle page **Périphérique pour le bon de travail**. | L'écran **Enregistrement de tâche** vise principalement les grands écrans, et la consultation de l'IU se fait généralement par clics de souris. |
 
 ## <a name="master-planning-and-forecasting"></a>Planification et prévisions
 
-| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
+| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
 | Prévenez l'utilisateur si une commande client ou un ordre de fabrication n'est pas prêt pour la livraison à la date prévue. | Les avertissements créés par la planification sont appelés *messages de perspectives*. Un contrat de type *Perspectives* est un contrat entre deux parties pour acheter ou vendre une immobilisation à un prix convenu le jour même (le *prix des perspectives*), bien que la livraison et le paiement se produisent à une date ultérieure (la *date de livraison*). | Les *messages de perspectives* et les *dates à venir* ont été renommés *retards calculés* et *dates retardées*, respectivement. | La terminologie utilisée dans AX 2012 était inexacte et provoquait des traductions incorrectes. |
 | Possibilité d'obtenir une analyse rapide du statut d'exécution d'une planification, des ordres prévisionnels urgents, et des ordres prévisionnels qui provoquent des retards. | Les informations sont disponibles, mais elles ont dispersées entre plusieurs écrans. | L'espace de travail **Planification** offre un aperçu de la date de la dernière exécution de la planification, si des erreurs ont eu lieu, quels sont les ordres prévisionnels urgents et quels ordres prévisionnels ont provoqué des retards. | Vous tirez profit de la vue d'ensemble fournie par l'espace de travail. Les informations pertinentes sont rassemblées pour guider la planification et aider à améliorer la productivité. |
 | Utilisation d'Excel pour mettre à jour les prévisions de la demande. | Non disponible | Vous pouvez tirer profit de l'intégration transparente dans Excel lorsque vous entrez des prévisions de la demande, que vous effectuez les mises à jour, et que vous supprimez des prévisions de la demande. | Cela permet d'augmenter le rendement et la productivité. |
-| Estimez la demande future et de créer des prévisions de la demande en fonction des données de transaction historiques. | Dans Microsoft Dynamics AX 2012 R3, les modèles de prévision du service d'analyse de Microsoft SQL Server Analysis Services permettent de créer des prévisions de la demande. | Estimation des demande futures à l'aide de la puissance et de l'extensibilité d'un service cloud Microsoft Azure Machine Learning. Il est facile d'utiliser et d'étendre les modèles de prévision dans Machine Learning pour répondre aux exigences des clients. Le service sélectionne le modèle qui concorde le mieux et offre des indicateurs de performance clés (KPI) pouvant servir à calculer l'exactitude de la prévision. | Génération de prévisions plus exactes à l'aide de techniques d'apprentissage automatique. |
+| Estimez la demande future et de créer des prévisions de la demande en fonction des données de transaction historiques. | Dans Microsoft Dynamics AX 2012 R3, les modèles prévus dans le service d'analyse Microsoft SQL Server sont utilisés pour créer des prévisions de la demande. | Estimation des demande futures à l'aide de la puissance et de l'extensibilité d'un service cloud Microsoft Azure Machine Learning. Il est facile d'utiliser et d'étendre les modèles de prévision dans Machine Learning pour répondre aux exigences des clients. Le service sélectionne le modèle qui concorde le mieux et offre des indicateurs de performance clés (KPI) pouvant servir à calculer l'exactitude de la prévision. | Génération de prévisions plus exactes à l'aide de techniques d'apprentissage automatique. |
 | Optimisation de la date et de la quantité de commande, selon une vue d'ensemble des actions associées à partir de l'exécution d'une planification générale. | La vue d'ensemble du graphique des actions est disponible mais affiche toutes les actions associées. Lorsque des actions sont appliquées, elles disparaissent immédiatement de la vue. | Le graphique des actions fournit une meilleure vue d'ensemble. Il inclut les options qui permettent d'afficher uniquement les actions appliquées et des actions directement associées. Lorsque des actions sont appliquées, elles semblent estompées mais sont toujours affichées. Par conséquent, la vue d'ensemble est conservée. Les informations supplémentaires sont ajoutées au plan d'actions pour afficher les données dans une page. | Vous tirez bénéfice de l'amélioration de la productivité, car vous pouvez vous concentrer uniquement sur les actions appropriées. |
 
 ## <a name="procurement-and-sourcing"></a>Approvisionnements
 
-| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
+| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
 | Utilisez l'espace de travail **Préparation des commandes fournisseur** pour obtenir une analyse rapide du statut de commandes fournisseur qui sont préparées. | Non pris en charge | L'espace de travail **Préparation des commandes fournisseur** offre une vue d'ensemble des commandes à partir de la date de leur création en tant que brouillon et de leur suivi, via les états d'approbation de workflow, puis ultérieurement en vue d'une confirmation. | Votre département Achats n'a plus à rechercher des informations sur plusieurs pages mais tire profit de la mise à jour de la vue d'ensemble fournie par l'espace de travail. |
 | Utilisez l'espace de travail **Réception et suivi de commande fournisseur** pour obtenir une analyse rapide des commandes fournisseur en attente de réception pour aider au niveau du suivi. | Non pris en charge | L'espace de travail **Réception et suivi de commande fournisseur** offre une vue d'ensemble des commandes fournisseur confirmées qui sont en attente de réception ou d'expédition. L'espace de travail inclut des listes de réceptions en retard et en attente pour aider la révision proactive et le suivi par le fournisseur. L'espace de travail liste également les commandes fournisseur pour lesquelles l'enregistrement d'arrivée a eu lieu dans l'entrepôt, afin de garantir que la réception est validée. Les retours de commande fournisseur qui n'ont pas encore été expédiées sont également disponibles pour révision. | Le département Achats tire bénéfice de la vue d'ensemble fournie par l'espace de travail. Les informations pertinentes sont rassemblées pour guider le suivi et aider à améliorer la productivité. |
-| Envoi des commandes fournisseur pour confirmation à un portail fournisseur hébergé dans le client Dynamics AX. Possibilité de laisser le fournisseur confirmer ou rejeter. | Non pris en charge | L'interface du portail fournisseur permet aux fournisseurs de recevoir des commandes fournisseur à confirmer ou à rejeter. Il permet également au fournisseur d'avoir une vue d'ensemble de toutes les commandes fournisseur confirmées pour un compte. L'agent des achats peut soumettre une commande fournisseur nécessitant une confirmation du fournisseur. Le fournisseur doit être un utilisateur Microsoft Azure Active Directory (Azure AD) enregistré dans Dynamics AX, une personne à contacter pour le fournisseur et avoir un rôle de sécurité dédié. | Votre département Achats tire bénéfice de la réduction de paperasserie et peut tenir à jour manuellement les réponses sur les commandes fournisseur, car le flux va directement dans le système. Le fait d'avoir une seule source d'informations réduit les malentendus entre le client et le fournisseur. |
+| Envoi des commandes fournisseur pour confirmation à un portail fournisseur hébergé dans le client Dynamics AX. Possibilité de laisser le fournisseur confirmer ou rejeter. | Non pris en charge | L'interface du portail fournisseur permet aux fournisseurs de recevoir des commandes fournisseur à confirmer ou à rejeter. Il permet également au fournisseur d'avoir une vue d'ensemble de toutes les commandes fournisseur confirmées pour un compte. L'agent des achats peut soumettre une commande fournisseur nécessitant une confirmation du fournisseur. Le fournisseur doit être un utilisateur AAD enregistré dans Microsoft Azure Active Directory (Azure AD) dans Dynamics AX, une personne à contacter pour le fournisseur et avoir un rôle de sécurité dédié. | Votre département Achats tire bénéfice de la réduction de paperasserie et peut tenir à jour manuellement les réponses sur les commandes fournisseur, car le flux va directement dans le système. Le fait d'avoir une seule source d'informations réduit les malentendus entre le client et le fournisseur. |
 
 ## <a name="projects"></a>Projets
 
-| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
+| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
 | Réservation des collaborateurs comme ressources pour des projets. | Similaires aux ressources, les collaborateurs sont réservés directement dans les projets en plus des ressources. | La table Poste de charge où les ressources pour la fabrication et la production sont enregistrées peut désormais être utilisée pour réserver des collaborateurs en tant que ressources pour un projet. | Lorsque vous réservez des projets, vous devez uniquement réserver les ressources. |
 
@@ -571,14 +570,14 @@ Aucune nouvelle fonctionnalité n'a été ajoutée :
 
 ### <a name="retail-hq"></a>Siège social de Retail
 
-Le siège social de Retail hébergé par Microsoft Azur offre une gestion centralisée et une visibilité complète de tous les aspects des opérations commerciales via un client Web.
+Le siège social de Retail hébergé par Microsoft Azure offre une gestion centralisée et une visibilité complète de tous les aspects des opérations commerciales via un client Web.
 
 <table>
 <thead>
 <tr>
-<th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Que pouvez-vous faire ?</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
 <th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
@@ -624,7 +623,7 @@ L'espace de travail <strong>Gestion du catalogue</strong> active les fonctionnal
 <ul>
 <li>Créer et configurer de nouveaux canaux et les entités associées.</li>
 <li>Gérer les activités de travail quotidiennes du magasin.</li>
-<li>Traiter des transactions commerciales dans Microsoft Dynamics AX, générer des relevés de vente au détail et mettre à jour le stock et les finances de Microsoft Dynamics AX.</li>
+<li>Traitez les transactions de vente au détail dans Microsoft Dynamics AX, générez les relevés de vente au détail et mettez à jour le stock et les finances de Microsoft Dynamics AX.</li>
 </ul>
 </td>
 <td>L'espace de travail <strong>Déploiement de canal</strong> permet d'effectuer les tâches suivantes :
@@ -655,7 +654,7 @@ L'espace de travail <strong>Gestion du catalogue</strong> active les fonctionnal
 <tr>
 <td>Gérer les opérations d'informatique au détail.</td>
 <td>L'utilisateur doit accéder à plusieurs écrans.</td>
-<td>L'espace de travail <strong>Informatique au détail</strong> active les recherches de Commerce Data Exchange dans un emplacement unique pour un canal donné, afin que vous puissiez effectuer les tâches suivantes :
+<td>L'espace de travail <strong>Informatique au détail</strong> active les recherches de Commerce Data Exchange dans un emplacement unique pour un canal donné, afin que vous puissiez effectuer les tâches suivantes :
 <ul>
 <li>Télécharger des sessions.</li>
 <li>Charger des sessions.</li>
@@ -667,7 +666,7 @@ L'espace de travail <strong>Gestion du catalogue</strong> active les fonctionnal
 <tr>
 <td>Importer/exporter des données à l'aide des entités de données.</td>
 <td>AX 2012 prend en charge la migration de Microsoft Dynamics Retail Management System (RMS) prête à l'emploi via l'environnement d'importation/exportation des données.</td>
-<td>Les entités de données commercialisées ont été développées pour prendre en charge les données principales et les données de référence associées à la vente au détail. La prise en charge des entités de données a également été améliorée dans toute la solution Dynamics AX.</td>
+<td>Les entités de données commercialisées ont été développées pour prendre en charge les données principales et les données de référence associées à la vente au détail. La prise en charge des entités de données a également été améliorée dans toute la solution Dynamics AX.</td>
 <td>Les entités de données permettent aux clients d'effectuer des importations et des exportations des données fondées sur les métadonnées. Les entités OData permettent également aux clients d'intégrer Dynamics AX dans les programmes tiers.</td>
 </tr>
 <tr>
@@ -679,8 +678,8 @@ L'espace de travail <strong>Gestion du catalogue</strong> active les fonctionnal
 <tr>
 <td>Possibilité d'analyser des données de ventes du canal de vente au détail à l'aide du contenu Power BI « Surveiller Retail Channel Performance ».</td>
 <td>Non disponible</td>
-<td>Dans PowerBI.com, sélectionnez <strong>Obtenir des données</strong>, puis sélectionnez le pack de contenu <strong>Dynamics AX – Performances du canal de vente au détail</strong>. Permet d'entrer l'URL de votre point de terminaison Dynamics AX pour afficher vos données répercutées dans le tableau de bord.</td>
-<td>En trois à quatre clics, les organisations peuvent déployer un tableau de bord PowerBI contenant des données financières importantes. Le contenu peut être personnalisé par l'organisation. En outre, les utilisateurs peuvent incorporer des vignettes de tableau de bord Power BI dans leurs espaces de travail personnalisés dans Dynamics AX, afin de pouvoir ensuite consulter les informations analytiques d'un seul coup d'œil.</td>
+<td>Dans PowerBI.com, sélectionnez <strong>Obtenir des données</strong>, puis sélectionnez le pack de contenu <strong>Dynamics AX – Retail Channel Performance</strong>. Permet d'entrer l'URL de votre point de terminaison Dynamics AX pour afficher vos données répercutées dans le tableau de bord.</td>
+<td>En trois à quatre clics, les organisations peuvent déployer un tableau de bord Power BI contenant des données financières importantes. Le contenu peut être personnalisé par l'organisation. En outre, les utilisateurs peuvent incorporer des vignettes de tableau de bord Power BI dans leurs espaces de travail personnalisés dans Dynamics AX, afin de pouvoir ensuite consulter les informations analytiques d'un seul coup d'œil.</td>
 </tr>
 <tr>
 <td>Configurer des autorisations client.</td>
@@ -703,7 +702,7 @@ L'espace de travail <strong>Gestion du catalogue</strong> active les fonctionnal
 
 ### <a name="retail-hardware-station"></a>Station matérielle de vente au détail
 
-| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
+| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
 | Possibilité d'activer les périphériques du PDV pour se connecter à des périphériques tels que des imprimantes, des tiroirs-caisses, ou des appareils de paiement. | Le profil matériel de MPOS permet de spécifier les périphériques utilisés. | Un profil matériel ajouté prend en charge des matériaux plus divers d'une station à l'autre. Un nouveau profil de station matérielle prend en charge un seul ID de terminal pour chaque station matérielle lorsque des transactions de transfert électronique de fonds (TEF) sont traitées. La prise en charge de TEF a été fusionnée dans la station matérielle pour réduire l'implication de MPOS dans le traitement des paiements de TEF. | Cela fournit une plus grande flexibilité pour les implémentations. Cela fournit également une meilleure sécurité et une exposition moindre aux données de carte de crédit. |
 
@@ -715,8 +714,8 @@ Le serveur de vente au détail et la gestion des données permettent aux utilisa
 <thead>
 <tr>
 <th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
 <th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
@@ -734,16 +733,16 @@ Le serveur de vente au détail et la gestion des données permettent aux utilisa
 <td>Elle fournit des services hébergés et d'e-commerce évolutifs qui peuvent être utilisés avec des magasins en ligne tiers.</td>
 </tr>
 <tr>
-<td>Possibilité de déplacer les données entre le back-office et les canaux Microsoft Dynamics AX à l'aide de Commerce Data Exchange.</td>
-<td>Commerce Data Exchange est un système qui transfère des données entre Microsoft Dynamics AX et les canaux de vente au détail, tels que des magasins en ligne ou des magasins traditionnels. Pour plus d'informations, voir <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
-<td>Il existe une parité fonctionnelle avec Microsoft Dynamics AX 2012 CU8. Notez toutefois les informations suivantes :
+<td>Déplacez les données entre les services administratifs et les canaux Microsoft Dynamics AX via Commerce Data Exchange.</td>
+<td>Commerce Data Exchange est un système qui transfère des données entre Microsoft Dynamics AX et canaux de vente au détail, tels que des magasins en ligne et les magasins traditionnels. Pour plus d'informations, voir <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Il y a une parité fonctionnelle avec Microsoft Dynamics AX 2012 CU8. Notez toutefois les informations suivantes :
 <ul>
 <li>Commerce Data Exchange a été repensé pour le cloud.</li>
 <li>Le service Async utilise l'accès direct à la base de données dans la base de données de canal.</li>
-<li>Commerce Data Exchange : Le service en temps réel est hébergé en tant que service personnalisé de Microsoft Dynamics AX.</li>
+<li>Commerce Data Exchange : le service en temps réel est hébergé comme service personnalisé Microsoft Dynamics AX.</li>
 <li>MPOS gère la synchronisation entre les bases de données hors connexion et le serveur de vente au détail.</li>
 </ul></td>
-<td>Commerce Data Exchange a été repensé pour la plateforme cloud. Il continue à gérer le transfert des données entre Microsoft Dynamics AX et les canaux de vente au détail, tels que des magasins en ligne ou des magasins traditionnels.</td>
+<td>Commerce Data Exchange a été repensé pour la plateforme du cloud. Il continue à gérer le transfert des données entre Microsoft Dynamics AX et les canaux de vente au détail, tels que des magasins en ligne ou des magasins traditionnels.</td>
 </tr>
 <tr>
 <td>Prise en charge du plug and play, du traitement du paiement inter-canal semi-intégré via le kit de développement logiciel (SDK) du paiement.</td>
@@ -758,7 +757,7 @@ Le serveur de vente au détail et la gestion des données permettent aux utilisa
 <td>Cela permet au client de traiter les transactions par cartes de crédit, cartes de débit pour les paiements.</td>
 </tr>
 <tr>
-<td>Activation des périphériques à l'aide d'un compte (Microsoft Azure Active Directory (Azure AD)).</td>
+<td>Activez les périphériques à l'aide d'un compte Microsoft (Microsoft Azure Active Directory (Azure AD)).</td>
 <td>Non disponible</td>
 <td>La fonctionnalité suivante est fournie :
 <ul>
@@ -770,7 +769,7 @@ Le serveur de vente au détail et la gestion des données permettent aux utilisa
 </ul></td>
 <td>Cela fournit les avantages suivants :
 <ul>
-<li>La sécurité est améliorée via Azure AD et le jeton/l'ID de périphérique (appels RS utilisant un jeton, stockage d'application spécifique à un utilisateur).</li>
+<li>La sécurité est améliorée via Azure AD et le jeton/l'ID de périphérique (appels RS utilisant un jeton, stockage d'application spécifique à un utilisateur).</li>
 <li>Elle interrompt l'utilisation distante non-autorisée de MPOS (périphérique physique).</li>
 <li>Elle suit des périphériques MPOS à des fins de conformité de PCI.</li>
 <li>Elle met en correspondance les périphériques physiques avec une entité commerciale (registre) à l'aide d'un jeton de périphérique.</li>
@@ -786,7 +785,7 @@ Le serveur de vente au détail et la gestion des données permettent aux utilisa
 <li>Prise en charge du chargement et de l'affichage d'image à partir des pages d'entité (<strong>Produits</strong>, <strong>Catalogues</strong>, etc.) en liant une image à partir de la galerie et en téléchargeant une image à partir du bureau.</li>
 <li>Optimisation des images pour les miniatures, la taille personnalisée et l'original.</li>
 <li>Liaison en bloc des entités à l'aide d'un modèle et des travaux d'arrière-plan pour l'association en bloc.</li>
-<li>L'intégration de Microsoft Excel remplace les limitations de groupe d'attributs des conventions de dénomination et des chemins prédéfinis.</li>
+<li>Microsoft Excel remplace les limitations de groupe d'attributs des conventions de dénomination et des chemins prédéfinis.</li>
 <li>Prise en charge des images hors connexion et des images sécurisées pour le contenu des informations d'identification personnelle, comme les images des clients et des employés hébergés par Retail.</li>
 </ul></td>
 <td><ul>
@@ -807,8 +806,8 @@ La vente au détail offre des expériences de mobilité immersives n'importe où
 <thead>
 <tr>
 <th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
 <th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
@@ -839,7 +838,7 @@ La vente au détail offre des expériences de mobilité immersives n'importe où
 <ul>
 <li>Activation du périphérique à l'aide d'AAD</li>
 <li>Conception d'une mise en page réactive</li>
-<li>Prise en charge des navigateurs Chrome, Internet Explorer et Edge.</li>
+<li>Prise en charge des navigateurs Edge, Internet Explorer et Chrome.</li>
 </ul></td>
 <td>Fourniture d'un PDV d'application Web dont la fonctionnalité est compatible avec MPOS, et qui peut être utilisé dans plusieurs plateformes et navigateurs sans aucun coût de déploiement.</td>
 </tr>
@@ -874,7 +873,7 @@ La vente au détail offre des expériences de mobilité immersives n'importe où
 
 Une option de configuration orientée sur le commerce et la vente au détail aide à simplifier les déploiements spécifiques à la vente au détail.
 
-| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
+| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
 | Utilisation du tableau de bord Essentiel du commerce. | Une page de zone avec des liens vers les options du menu est disponible. | Le tableau de bord Essentiel du commerce fournit des liens vers les tâches fréquentes, notamment des liens vers des espaces de travail, le contrôle Web Power BI, les favoris, les pages récentes, et les éléments de travail actuels. | Le tableau de bord amélioré responsabilise les collaborateurs en les rendant plus efficaces et en fournissant un point de départ flexible pour toute tâche de vente au détail. |
 | Utilisation d'entités de données pour accéder aux modifications de compte. | Les modifications de compte sont exportées vers un dossier sur le système de fichiers. | Les modifications de compte sont accessibles via les entités de données. | Cette fonctionnalité fournit une flexibilité supérieure lors du déplacement des données entre les systèmes disparates. Elle peut aussi être améliorée via des applications OData. |
@@ -888,8 +887,8 @@ Une option de configuration orientée sur le commerce et la vente au détail aid
 <thead>
 <tr>
 <th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
 <th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
@@ -913,9 +912,9 @@ Une option de configuration orientée sur le commerce et la vente au détail aid
 <thead>
 <tr>
 <th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
-<th>Pourquoi est-ce important ?</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
+<th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
 <tbody>
@@ -941,9 +940,9 @@ Lifecycle Services (LCS) fournit un ensemble de services que les clients et les 
 <table>
 <thead>
 <tr>
-<th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Que pouvez-vous faire ?</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
 <th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
@@ -972,7 +971,7 @@ Installation améliorée du composant client « à faible contact » via l'ins
 </tr>
 <tr>
 <td>Surveillance de la santé du système, et diagnostic des erreurs et des problèmes.</td>
-<td>Cette fonctionnalité nécessite le <a href="http://www.microsoft.com/download/details.aspx?id=42636">Pack de gestion du centre système 2012 pour Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Cette fonctionnalité nécessite le <a href="http://www.microsoft.com/download/details.aspx?id=42636">Pack de gestion du centre système 2012 pour Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>La surveillance et le diagnostic pour les composants Retail sont à présent disponibles via le tableau de bord <strong>Aperçu opérationnel</strong> dans LCS.</td>
 <td>Le tableau de bord <strong>Aperçu opérationnel</strong> est un portail de surveillance basé sur le cloud qui remplace la nécessité d'installer l'infrastructure System Center Operations Manager (SCOM).</td>
 </tr>
@@ -990,9 +989,9 @@ Installation améliorée du composant client « à faible contact » via l'ins
 <table>
 <thead>
 <tr>
-<th>Que pouvez-vous faire ?</th>
-<th>Dynamics AX 2012</th>
-<th>Dynamics AX 7.0</th>
+<th>Que pouvez-vous faire ?</th>
+<th>Dynamics AX 2012</th>
+<th>Dynamics AX 7.0</th>
 <th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
@@ -1025,7 +1024,7 @@ Aucune nouvelle fonctionnalité n'a été ajoutée :
 
 ## <a name="warehouse-management"></a>Gestion des entrepôts
 
-| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
+| Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
 | Possibilité de télécharger, d'installer et de configurer le portail des appareils mobiles d'entrepôt. | Vous pouvez télécharger, installer et configurer le portail lors du processus d'installation de Microsoft Dynamics AX, via un paramétrage standard. Il est conçu pour le déploiement et la configuration autonomes sur site. | Vous pouvez télécharger un installateur autonome via une option de menu dans le module gestion des entrepôts. Il est conçu pour le déploiement et la configuration autonomes sur site. | Lorsque vous configurez l'utilisation de la fonctionnalité de périphérique mobile, vous devez installer et configurer le portail des appareils mobiles d'entrepôt localement et obtenir une connexion à Dynamics AX dans le cloud. |
 
@@ -1034,4 +1033,3 @@ Aucune nouvelle fonctionnalité n'a été ajoutée :
 [Nouveautés ou changements](whats-new-changed.md)
 
 [Nouveaux guides des tâche disponibles (février 2016)](new-task-guides-available-february-2016.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d'approbation de facture"
-description: "Cette rubrique vous aide à décider où affecter les comptes par défaut pour les journaux des factures."
+title: Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d'approbation de facture
+description: Cette rubrique vous aide à décider où affecter les comptes par défaut pour les journaux des factures.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f876e5dfdab67dd98b2449993c3ba2baacde1587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 90b24e8e00a78c122e0f7c712a694c9c62bd4824
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320257"
 ---
-
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d'approbation de facture
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ Utilisez le tableau suivant pour vous aider à décider où affecter les comptes
 </tr>
 </tbody>
 </table>
-
 
 
 

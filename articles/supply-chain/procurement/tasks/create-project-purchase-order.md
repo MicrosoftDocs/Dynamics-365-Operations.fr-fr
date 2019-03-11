@@ -1,13 +1,13 @@
---- 
-title: "Créer une commande fournisseur de projet"
-description: "Cette procédure vous indique comment créer une commande fournisseur de projet."
+---
+title: Créer une commande fournisseur de projet
+description: Cette procédure vous indique comment créer une commande fournisseur de projet.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, PurchCreateOrder, PurchTable, InventItemIdLookupPurchase
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0fa5f60abafb1200a61e1c9d8013fb9e28e28f48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5023ca589b3ab25d808a52a9162f27430bd69241
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315220"
 ---
 # <a name="create-project-purchase-order"></a>Créer une commande fournisseur de projet
 
@@ -47,5 +47,4 @@ Cette procédure vous indique comment créer une commande fournisseur de projet.
 13. Cliquez sur l'onglet Projet.
     * Vérifiez que les ventes et les prix de revient sont disponibles. S'ils ne le sont pas, mais requis, entrez ces éléments.  
 14. Cliquez sur Enregistrer.
-
 

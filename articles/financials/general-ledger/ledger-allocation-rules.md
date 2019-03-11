@@ -1,13 +1,13 @@
 ---
-title: "Règles d'affectation comptable"
-description: "Cet article fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles."
+title: Règles d'affectation comptable
+description: Cet article fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: abbeb1bb4481139dff902916362a479f94fb96e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 87b98811dabb6a8593cd4a75ad9c5a028f653867
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365728"
 ---
-
 # <a name="ledger-allocation-rules"></a>Règles d'affectation comptable
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Chaque règle de répartition contient quatre composants : général, source, de
 -   **Destination** – Ce composant définit la manière dont le résultat du calcul de la répartition doit être distribué et comptabilisé. Par exemple, il peut y avoir une ligne de destination pour chaque département.
 -   **Contrepartie** – Ce composant définit la manière dont les comptes principaux et les dimensions doivent être déterminés pour les entrées de contrepartie qui soldent les entrées de destination. Les options définies par l'utilisateur sont généralement utilisées à la place des comptes et dimensions basés sur la source. Lorsque **Source de données** est défini sur **Valeur fixe**, **Source** ne peut pas être utilisé comme option.
 -   **Règles de base de répartition comptable** – Ces règles utilisent leurs propres critères de filtre source pour déterminer les soldes comptables à utiliser pour la répartition (par exemple, le produit par département). Chaque règle de base de répartition peut être utilisée avec plusieurs règles de répartition.
-
 
 
 

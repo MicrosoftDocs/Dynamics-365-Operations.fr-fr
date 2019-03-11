@@ -1,13 +1,13 @@
 ---
-title: "Rétroaction de production"
-description: "Cet article fournit des informations sur les commentaires de production qui donnent aux collaborateurs des commentaires sur les tâches de production. L'article inclut des informations sur les différentes manières de mettre à jour les commentaires de production."
+title: Rétroaction de production
+description: Cet article fournit des informations sur les commentaires de production qui donnent aux collaborateurs des commentaires sur les tâches de production. L'article inclut des informations sur les différentes manières de mettre à jour les commentaires de production.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5b0a49cf05a7eee838dcf9fb699d273d0f7518a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ea291810bcbfa1968045af2c6b9b51a6ddb01a27
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340911"
 ---
-
 # <a name="production-feedback"></a>Rétroaction de production
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,6 @@ ms.lasthandoff: 09/29/2017
 Cet article fournit des informations sur les commentaires de production qui donnent aux collaborateurs des commentaires sur les tâches de production. L'article inclut des informations sur les différentes manières de mettre à jour les commentaires de production.
 
 La rétroaction de production fournit aux collaborateurs une rétroaction sur les tâches de production. Elle enregistre la consommation de temps et de matériel sur les ordres de fabrication, les quantités et les statuts des opérations et les erreurs qui provoquent l'échec d'une tâche ou d'une opération. La rétroaction de production peut être mise à jour dans les journaux liés aux ordres de fabrication. Les journaux **Production - Bon de travail** et **Production - Fiche production** permettent d'enregistrer le temps et les quantités par tâche ou opération. Pour générer un état sur la dernière opération ou tâche, les quantités du produit fini peuvent être déclarées comme terminées. La rétroaction de production peut également être mise à jour dans les pages **Terminal des bons de travail** et **Périphérique pour le bon de travail**. Ces pages permettent la mise à jour de la rétroaction de production dans l'atelier et font partie de la fonctionnalité de contrôle et suivi de la production dans le module **Contrôle de la production**. La page**Terminal des bons de travail** a une interface utilisateur configurable qui affiche la liste des tâches lancées par ordre de priorité pour une zone de travail sélectionnée. Elle fournit également des options avancées comme le regroupement des tâches et le travail en équipe. La page **Périphérique pour le bon de travail** a une interface utilisateur optimisée par écran tactile. La rétroaction de production sur les deux pages est mise à jour à partir des journaux de production.
-
 
 
 

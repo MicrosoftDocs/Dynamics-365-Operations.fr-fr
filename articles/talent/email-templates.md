@@ -1,14 +1,14 @@
 ---
-title: "Modèles d'e-mail"
-description: "Cette rubrique fournit des informations sur les modèles d'e-mail que vous pouvez créer et utiliser dans Microsoft Dynamics 365 for Talent - Attract."
+title: Modèles d'e-mail
+description: Cette rubrique fournit des informations sur les modèles d'e-mail que vous pouvez créer et utiliser dans Dynamics 365 for Talent - Attract.
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,18 +18,17 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304411"
 ---
-
 # <a name="email-templates"></a>Modèles d'e-mail
 [!include[banner](../includes/banner.md)]
 
-Grâce à la bibliothèque de modèles d'e-mail, les administrateurs peuvent créer un thème et une personnalisation uniformes pour tous les e-mails envoyés via Microsoft Dynamics 365 for Talent - Attract. Les administrateurs peuvent également organiser une collection de modèles de contenu d'e-mail que d'autres utilisateurs peuvent consommer. L'équipe de recrutement peut utiliser ces modèles dans leur workflow pour envoyer des e-mails plus efficacement. Certains e-mails dans Attract sont configurés pour être envoyés automatiquement, et l'administrateur peut utiliser la bibliothèque de modèles d'e-mails pour personnaliser le contenu de ces e-mails.
+Grâce à la bibliothèque de modèles d'e-mail, les administrateurs peuvent créer un thème et une personnalisation uniformes pour tous les e-mails envoyés via Dynamics 365 for Talent : Attract. Les administrateurs peuvent également organiser une collection de modèles de contenu d'e-mail que d'autres utilisateurs peuvent consommer. L'équipe de recrutement peut utiliser ces modèles dans leur workflow pour envoyer des e-mails plus efficacement. Certains e-mails dans Attract sont configurés pour être envoyés automatiquement, et l'administrateur peut utiliser la bibliothèque de modèles d'e-mails pour personnaliser le contenu de ces e-mails.
 
 > [!NOTE]
 > Pour utiliser des modèles d'e-mail, votre organisation doit disposer du complément additionnel de recrutement complet.
@@ -81,4 +80,3 @@ Lorsque l'équipe de recrutement envoie un e-mail, elle peut utiliser les modèl
 
 > [!NOTE] 
 > Pour les e-mails envoyés automatiquement, plusieurs modèles peuvent être créés. Cependant, un seul modèle peut être défini comme modèle actif. Comme ce processus est déclenché par des événements, seul l'administrateur peut déterminer le modèle à utiliser, selon la combinaison des badges **Par défaut** et **Envoyé automatiquement** de la bibliothèque de modèles.
-

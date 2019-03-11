@@ -1,13 +1,13 @@
---- 
-title: "Définir les mises en correspondance de modèles de gestion d'états électroniques et sélectionner des sources de données pour eux"
-description: "Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d'états électroniques peut sélectionner des sources de données pour un modèle de données de génération d'états électroniques."
+---
+title: Définir les mises en correspondance de modèles de gestion d'états électroniques et sélectionner des sources de données pour eux
+description: Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d'états électroniques peut sélectionner des sources de données pour un modèle de données de génération d'états électroniques.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348869"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Définir les mises en correspondance de modèles de gestion d'états électroniques et sélectionner des sources de données pour eux
 
@@ -51,7 +51,7 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Définir des sources de données pour la mise en correspondance de modèle existante
 1. Cliquez sur Concepteur.
-2. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de tables ».
+2. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
 3. Cliquez sur Ajouter racine.
     * Entrez cette source de données pour accéder à des transactions de paiement.  
 4. Dans le champ Nom, tapez « Transactions ».
@@ -110,7 +110,7 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 41. Dans l'arborescence , développer « Transactions ».
 42. Dans l'arborescence, développez ou réduisez « Transactions\$Amount ».
 43. Dans l'arborescence, développez ou réduisez « Transactions ».
-44. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de tables ».
+44. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
 45. Cliquez sur Ajouter racine.
     * Entrez cette source de données pour accéder aux détails du compte bancaire de la société.  
 46. Dans le champ Nom, tapez « BankAccount ».
@@ -157,5 +157,4 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 70. Fermez la page.
 71. Fermez la page.
 72. Fermez la page.
-
 

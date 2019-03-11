@@ -1,13 +1,13 @@
 ---
-title: "Générer des états en ajoutant du contenu au format XML brut"
-description: "Vous pouvez créer des formats de gestion des états électroniques qui génèrent des documents sortants au format XML."
+title: Générer des états en ajoutant du contenu au format XML brut
+description: Vous pouvez créer des formats de gestion des états électroniques qui génèrent des documents sortants au format XML.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312184"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>Générer des états en ajoutant du contenu en tant que XML brut
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ Vous pouvez utiliser le nouvel élément de format **XML BRUT** pour créer des 
 > Notez que la structure ne contrôle pas si le contenu XML placé dans le document généré à l'aide de l'élément de format **XML BRUT** est correct.
 
 Pour plus d'informations sur cette fonction, lisez les guides de tâches **ER Utiliser les données XML brutes pour générer des états XML (Partie 1 : Créer un modèle de données)** et **ER Utiliser les données XML brutes pour générer des états XML (Partie 2 : Créer et exécuter un état)**, qui font partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** et qui peuvent être téléchargés à partir du [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Ces guides de tâches vous guident tout au long du processus de configuration d'un format ER pour insérer des données XML brutes dans des fichiers générés.
-

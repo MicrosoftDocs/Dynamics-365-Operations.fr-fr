@@ -1,39 +1,38 @@
 ---
-title: "Stratégie du solveur pour la configuration du produit"
-description: "Cette rubrique décrit comment utiliser la stratégie du solveur pour améliorer les performances de configuration du produit."
+title: Stratégie du solveur pour la configuration du produit
+description: Cette rubrique décrit comment utiliser la stratégie du solveur pour améliorer les performances de configuration du produit.
 author: cvocph
 manager: AnnBe
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4544128e580b30b14a6236a9a6147ff0a8641d72
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351146"
 ---
-
 # <a name="solver-strategy-for-product-configuration"></a>Stratégie du solveur pour la configuration du produit
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment utiliser la stratégie du solveur pour améliorer les performances de configuration du produit.
 
-Le concept de stratégies du solveur a été introduit pour la première fois dans la mise à jour cumulative 7 (CU7) de Microsoft Dynamics AX 2012 R2. Il a été étendu à la mise à jour cumulative 8 (CU8) de Microsoft Dynamics AX 2012 R3 et de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.
+Le concept de stratégies du solveur a été introduit pour la première fois dans la mise à jour cumulative 7 (CU7) de Microsoft Dynamics AX 2012 R2. Il a été étendu dans la mise à jour cumulative 8 (CU8) pour Microsoft Dynamics AX R3 2012 et Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.
 
 Le concept de stratégie du solveur comprend désormais les stratégies suivantes :
 
@@ -74,4 +73,3 @@ Le tableau suivant fournit des recommandations sur la stratégie du solveur à u
 [Heuristique](https://techterms.com/definition/heuristic)
 
 [Problème de satisfaction de contraintes](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
-

@@ -1,13 +1,13 @@
 ---
-title: "Présentation de lean manufacturing"
-description: "Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Dynamics 365 for Finance and Operations."
+title: Présentation de lean manufacturing
+description: Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99030966587a2784f61cecbfc7f9985f75f6d779
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359886"
 ---
-
 # <a name="lean-manufacturing-overview"></a>Vue d'ensemble du Lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Microsoft Dynamics 365 for Finance and Operations.
+Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Microsoft Dynamics 365 for Finance and Operations.
 
 Le lean manufacturing offre des outils que vous pouvez utiliser pour modéliser des opérations de production au plus juste. Ces outils prennent en charge et encouragent les concepts et des activités économiques suivants :
 -   Création d'une base de lean manufacturing en modélisant les processus de fabrication et logistiques comme flux de production.
@@ -52,7 +51,7 @@ Pour créer une base de lean manufacturing, modélisez les processus de fabricat
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Utilisation des kanbans pour signaler les besoins de demande
 Un système de traction ne produit des marchandises que lorsqu'elles sont nécessaires. Cette pratique réduit les délais de livraison et le stock excédentaire. Vous pouvez utiliser des kanbans pour planifier, suivre et traiter les demandes basées sur les flux de production. Pour créer une structure de kanbans, créez des règles de kanban qui définissent le moment de création des kanbans, ainsi que la façon dont les besoins sont satisfaits. Vous pouvez créer deux types de règles de kanban. Les règles de fabrication créent des tâches de kanban de traitement, et les règles de kanban de prélèvement créent des tâches de kanban de transfert. Vous pouvez définir les stratégies de réapprovisionnement suivantes :
--   **Nombre fixe** les règles de kanban sont liées à un nombre d'unités de manutention fixe, ce qui signifie que le nombre de kanbans actifs est constant. Dès que tous les produits d'un kanban sont consommés et que les unités de manutention sont manuellement vidées, un nouveau kanban du même type est créé. Lorsque vous créez des règles de kanban de quantité fixe, vous pouvez calculer les quantités de kanban optimales et les quantités de produits utilisées. Le calcul prend en compte la prévision, la demande réelle des commandes en cours, le délai de réapprovisionnement des articles, et les demandes historiques.
+-   **Nombre fixe** les règles de kanban sont liées à un nombre d'unités de manutention fixe, ce qui signifie que le nombre de kanbans actifs est constant. Dès que tous les produits d'un kanban sont consommés et que les unités de manutention sont manuellement vidées, un nouveau kanban du même type est créé. Lorsque vous créez des règles de kanban de quantité fixe, vous pouvez calculer les quantités de kanban optimales et les quantités de produits utilisées. Le calcul prend en compte la prévision, la demande réelle des commandes en cours, le délai de réapprovisionnement des articles, et les demandes historiques.
 -   **Prévu** Les règles de kanban réapprovisionnent les besoins qui sont calculés par la planification. La planification génère des kanbans planifiés qui peuvent être confirmés comme kanbans.
 -   **Événement** Les règles de kanban réapprovisionnent les besoins émanant des lignes de commande, des lignes de nomenclature de production, des lignes de kanban ou des paramètres de stock minimal. Lorsque des kanbans d'événement sont générés, ils sont liés aux demandes source.
 
@@ -66,7 +65,7 @@ Le lean manufacturing fournit une visibilité vis-à-vis du statut actuel des ac
 -   Effectuez le suivi et l'enregistrement des tâches de kanban.
 
 La liste suivante décrit les tableaux kanban spécialisés :
--   Planification des tâches de kanban – fournit une vue d'ensemble des tâches de kanban. Le tableau affiche les tâches de kanban et leur statut pour une ou plusieurs cellules de travail. Les tâches sont répertoriées selon les périodes de planification (jours ou semaines) définies dans le modèle de flux de production. Le tableau affiche également la consommation de capacité pour chaque période de planification, afin de pouvoir surveiller la charge prévue. Vous pouvez modifier le statut des tâches de kanban, replanifier des opérations kanban dans différentes périodes de planification, et effectuer d'autres tâches.
+-   Planification des tâches de kanban – fournit une vue d'ensemble des tâches de kanban. Le tableau affiche les tâches de kanban et leur statut pour une ou plusieurs cellules de travail. Les tâches sont répertoriées selon les périodes de planification (jours ou semaines) définies dans le modèle de flux de production. Le tableau affiche également la consommation de capacité pour chaque période de planification, afin de pouvoir surveiller la charge prévue. Vous pouvez modifier le statut des tâches de kanban, replanifier des opérations kanban dans différentes périodes de planification, et effectuer d'autres tâches.
 -   Tableau kanban pour les tâches de transfert – Ce tableau fournit une vue d'ensemble des tâches de transfert en cours. Vous pouvez mettre à jour et enregistrer les listes de prélèvements, débuter et terminer des tâches de transfert, et effectuer d'autres tâches.
 -   Tableau kanban pour les opérations de traitement – cette carte est conçue pour prendre en charge le flux de production normal et pour donner une vue d'ensemble de la situation actuelle dans une ou plusieurs cellules de travail. À partir de ce tableau, les kanbans peuvent être classés par ordre de priorité, prélevés, ou fabriqués. Le tableau est également conçu pour prendre en charge la lecture des codes-barres pour la génération d'états de kanban.
 
@@ -79,7 +78,6 @@ Les tâches de kanban sont totalement intégrées aux processus actuels pour les
 En outre, le lean manufacturing prend en charge les processus d'achat et de facturation pour les services référencés par des activités sous-traitées.
 -   Vous pouvez affecter des lignes de contrat d'achat et des services aux activités sous-traitées.
 -   Vous pouvez créer des commandes fournisseur et des avis de réception périodiques pour prendre en charge l'achat et la facturation des services.
-
 
 
 

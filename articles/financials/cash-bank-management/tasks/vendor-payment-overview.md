@@ -1,13 +1,13 @@
---- 
+---
 title: Vue d'ensemble des paiements fournisseurs
-description: "Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l'utilisation d'une proposition de paiement ou la saisie manuelle d'un paiement unique."
+description: Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l'utilisation d'une proposition de paiement ou la saisie manuelle d'un paiement unique.
 author: kweekley
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d892366a11edcd92f34f37b3e855631820ba816b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
-ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359955"
 ---
 # <a name="vendor-payment-overview"></a>Vue d'ensemble des paiements fournisseurs
 
@@ -76,5 +76,4 @@ Ce guide de tâche décrit diverses méthodes permettent de créer des paiements
 32. Cliquez sur OK.
 33. Cliquez sur OK pour générer les paiements.
 34. Cliquez sur Valider si tous les paiements sont approuvés et générés. 
-
 

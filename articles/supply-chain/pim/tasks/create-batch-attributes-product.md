@@ -1,13 +1,13 @@
---- 
-title: "Créer les attributs de lot pour un produit"
-description: "Cette procédure décrit comment créer un attribut de lot, affecter des plages de valeur par défaut et inclure l'attribut à un groupe."
+---
+title: Créer les attributs de lot pour un produit
+description: Cette procédure décrit comment créer un attribut de lot, affecter des plages de valeur par défaut et inclure l'attribut à un groupe.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 65153dbcfa69046e4f38eb6ffa013bb6fb87ebd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5694ac4ec47b446c19681bfb5c6b07ff82f4575f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330653"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Créer les attributs de lot pour un produit
 
@@ -53,5 +53,4 @@ Cette procédure décrit comment créer un attribut de lot, affecter des plages 
     * Un attribut peut être inclus dans n'importe quel groupe.  
 22. Cliquez sur Enregistrer.
 23. Fermez la page.
-
 

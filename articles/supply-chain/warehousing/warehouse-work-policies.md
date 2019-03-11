@@ -1,13 +1,13 @@
 ---
-title: "Stratégies de travail d'entrepôt"
-description: "Les stratégies de travail d'entrepôt contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit."
+title: Stratégies de travail d'entrepôt
+description: Les stratégies de travail d'entrepôt contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0710eac8daba7f51f6b5d1522476b812a130960d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325593"
 ---
-
 # <a name="warehouse-work-policies"></a>Stratégies de travail d'entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Les stratégies de travail d'entrepôt dans Microsoft Dynamics 365 for Finance and Operations contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
+Les stratégies de travail d'entrepôt dans Microsoft Dynamics 365 for Finance and Operations contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
 
 Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production. Vous pouvez paramétrer la stratégie de travail à l'aide d'une combinaison de **types d'ordres d'exécution**, d'**emplacement de stockage**, et de **produit** Par exemple, le produit L0101 est déclaré comme terminé à l'emplacement de sortie 001. Le produit fini est consommé ultérieurement dans un autre ordre de fabrication à l'emplacement de sortie 001. Dans ce cas, vous pouvez paramétrer une stratégie de travail pour empêcher de créer un travail pour ranger le produit fini lorsque vous déclarez le produit L0101 terminé à l'emplacement de sortie 001. La stratégie de travail est une entité individuelle qui peut être décrite à l'aide des informations suivantes :
 
@@ -126,7 +125,7 @@ Cette procédure présente un exemple de déclaration de fin à un emplacement q
 <tr>
 <td></td>
 <td>2.</td>
-<td>Sélectionnez le groupe de ressources 5102 dans la liste.</td>
+<td>Dans la liste, sélectionnez le groupe de ressources 5102.</td>
 </tr>
 <tr>
 <td></td>
@@ -136,12 +135,12 @@ Cette procédure présente un exemple de déclaration de fin à un emplacement q
 <tr>
 <td></td>
 <td>4.</td>
-<td>Entrez 51 dans le champ Entrepôt de sortie.</td>
+<td>Dans le champ Entrepôt de sortie, saisissez 51.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>Entrez 001 dans le champ Emplacement de sortie.</td>
+<td>Dans le champ Emplacement de sortie, saisissez 001.</td>
 </tr>
 <tr>
 <td></td>
@@ -169,7 +168,7 @@ Cette procédure présente un exemple de déclaration de fin à un emplacement q
 <tr>
 <td></td>
 <td>4.</td>
-<td>Entrez L0101 dans le champ Numéro d'article.</td>
+<td>Dans le champ Numéro d'article, saisissez L0101.</td>
 </tr>
 <tr>
 <td></td>
@@ -248,7 +247,6 @@ Cette procédure présente un exemple de déclaration de fin à un emplacement q
 </tr>
 </tbody>
 </table>
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Belgique
-description: "Cette rubrique fournit une vue d'ensemble de la fonctionnalité spécifique à la Belgique."
+description: Cette rubrique fournit une vue d'ensemble de la fonctionnalité spécifique à la Belgique.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: belgium
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: c8ea2de3c4ccdf7e94aeddebc7d0aacfee029ab8
 ms.openlocfilehash: f622644ca7858bd858ec5f669b0d0eb8fa8884fc
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370705"
 ---
-
 # <a name="belgium"></a>Belgique
 
 [!include[banner](../includes/banner.md)]
@@ -47,8 +46,7 @@ Pour plus d'informations sur la configuration et la création de la déclaration
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Portail de localisation de Microsoft Dynamics : État belge](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/Belgium.html) (nécessite le compte de CustomerSource)
+- [Portail de localisation Microsoft Dynamics : état belge](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/Belgium.html) (nécessite le compte CustomerSource)
 - [Vue d'ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Fonctions locales et relatives aux réglementations](../../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
-

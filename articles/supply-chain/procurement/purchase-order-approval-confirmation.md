@@ -1,13 +1,13 @@
 ---
 title: Approuver et passer en revue des commandes fournisseur
-description: "Cette rubrique décrit les statuts par lesquels passe une commande fournisseur (CF) après qu'elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF."
+description: Cette rubrique décrit les statuts par lesquels passe une commande fournisseur (CF) après qu'elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF.
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -15,18 +15,17 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336955"
 ---
-
 # <a name="approve-and-confirm-purchase-orders"></a>Approuver et passer en revue des commandes fournisseur
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Après avoir créé une commande fournisseur (CF), celle-ci peut devoir passer p
 ## <a name="approval-of-purchase-orders"></a>Approbation de commandes fournisseur
 Les CF qui n’utilisent pas la gestion des modifications ont un statut **Approuvée** dès qu’elles sont créées, les CF qui utilisent la gestion des modifications ont un statut **Brouillon** lorsqu’elles sont créées. Une commande fournisseur qui a été créée lors de la confirmation d'un ordre prévisionnel de la planification est toujours définie sur **Approuvée**, quels que soient les paramètres de gestion des modifications. Une CF crée des mouvements de stock uniquement lorsqu’elle atteint le statut **Approuvée**. Par conséquent, ce stock n’apparaît pas comme disponible pour la réservation ou le marquage tant que la commande n'est pas acceptée.  
 
-Vous activez la gestion des modifications pour les CF en définissant l'option **Activer la gestion des modifications** sur la page **Paramètres d’approvisionnement**. Lorsque la gestion des modifications est activée, les CF doivent passer par un workflow d’approbation après avoir été terminées. Microsoft Dynamics 365 for Finance and Operations a un éditeur de processus de workflow dans lequel vous pouvez définir un workflow pour représenter votre processus d’approbation. Ce workflow peut inclure des règles d’approbation automatique, des règles qui déterminent qui sera affecté pour approuver certaines CF et les règles de transmission d’un workflow qui a été en attente d’approbation pendant une longue période. Vous pouvez activer le processus de gestion des modifications pour tous les fournisseurs ou pour des fournisseurs spécifiques. Vous pouvez également définir le processus de sorte qu’il puisse être substitué pour des CF individuelles.  
+Vous activez la gestion des modifications pour les CF en définissant l'option **Activer la gestion des modifications** sur la page **Paramètres d’approvisionnement**. Lorsque la gestion des modifications est activée, les CF doivent passer par un workflow d’approbation après avoir été terminées. Microsoft Dynamics 365 for Finance and Operations a un éditeur de processus de workflow dans lequel vous pouvez définir un workflow pour représenter votre processus d’approbation. Ce workflow peut inclure des règles d’approbation automatique, des règles qui déterminent qui sera affecté pour approuver certaines CF et les règles de transmission d’un workflow qui a été en attente d’approbation pendant une longue période. Vous pouvez activer le processus de gestion des modifications pour tous les fournisseurs ou pour des fournisseurs spécifiques. Vous pouvez également définir le processus de sorte qu’il puisse être substitué pour des CF individuelles.  
 
 Lorsque de la gestion des modifications est activée, les CF passent par six statuts d’approbation, de **Brouillon** à **Finalisée**. Une fois une commande approuvée, les utilisateurs qui souhaitent la modifier doivent utiliser l'action **Demander une modification**.
 
@@ -86,7 +85,6 @@ Une fois qu'une commande a été confirmée, vous ne pouvez plus la supprimer. T
 [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
 
 [Vue d'ensemble des factures fournisseur](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

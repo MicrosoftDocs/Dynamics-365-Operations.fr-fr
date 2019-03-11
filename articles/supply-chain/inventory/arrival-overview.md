@@ -1,13 +1,13 @@
 ---
-title: "Vue d'ensemble des arrivées"
-description: "Cette rubrique fournit des informations sur la fonctionnalité Vue d'ensemble des arrivées. La page Vue d'ensemble des arrivées fait partie de cette fonction et fournit une vue d'ensemble de tous les articles attendus en tant qu'articles entrants."
+title: Vue d'ensemble des arrivées
+description: Cette rubrique fournit des informations sur la fonctionnalité Vue d'ensemble des arrivées. La page Vue d'ensemble des arrivées fait partie de cette fonction et fournit une vue d'ensemble de tous les articles attendus en tant qu'articles entrants.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 43e49fb6e8deead7c6dfe24a25337aeb35f1fcc0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355999"
 ---
-
 # <a name="arrival-overview"></a>Vue d'ensemble des arrivées
 
 [!include [banner](../includes/banner.md)]
@@ -122,4 +121,3 @@ Lorsque toutes les marchandises ont été enregistrées, le gestionnaire d'entre
 
 ## <a name="summary"></a>Synthèse
 La page **Vue d'ensemble des arrivées** donne au gestionnaire d'entrepôt et aux collaborateurs d'entrepôt une vue d'ensemble du travail prévu qui doit être effectué dans le cadre du processus entrant. La page peut également être utilisée pour démarrer le processus d'arrivée d'articles, pour garantir que les articles sont suivis à la première entrée dans l'entrepôt.
-

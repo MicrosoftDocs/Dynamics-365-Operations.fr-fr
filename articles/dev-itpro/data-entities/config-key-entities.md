@@ -1,13 +1,13 @@
 ---
-title: "Clés de configuration et entités de données"
-description: "Cette rubrique décrit la relation entre les clés de configuration et les entités de données dans Microsoft Dynamics 365 for Finance and Operations."
+title: Clés de configuration et entités de données
+description: Cette rubrique décrit la relation entre les clés de configuration et les entités de données dans Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336472"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>Clés de configuration et entités de données
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ Les validations des temps d'exécution sont effectuées dans les cas d'utilisati
 Lorsque vous mettez à jour les clés de configuration au niveau de l'entité, de la table ou du champ, la liste des entités de l'infrastructure de gestion des données doit être actualisée. Ce processus garantit que l'infrastructure sélectionne les paramètres de la clé de configuration les plus récents. Tant que la liste des entités n'est pas actualisée, l'avertissement suivant s'affiche sur la page Liste des entités. Les modifications de la clé de configuration prennent effet immédiatement après l'actualisation de la liste des entités. Nous vous recommandons de valider les tâches et les projets de données existants pour vous assurer qu'ils fonctionnent comme prévu une fois que les modifications des clés de configuration sont appliquées.
 
 ![Champs cibles](./media/Target_fields_3.png)
-

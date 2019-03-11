@@ -1,13 +1,13 @@
 ---
 title: Montant arrondi pour les calculs d'amortissement
-description: "Cet article présente le champ Arrondir l'amortissement qui est indiqué dans les pages de paramétrage du registre."
+description: Cet article présente le champ Arrondir l'amortissement qui est indiqué dans les pages de paramétrage du registre.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7721e46a72e0f8133ed67c597a066a97ffd61669
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ae5c24633a9ce4ce43e213581eb64c8548eecf5d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308412"
 ---
-
 # <a name="round-off-amount-for-depreciation-calculations"></a>Montant arrondi pour les calculs d'amortissement
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Un amortissement sans arrondi est calculé comme égal à 2 444,44. Selon la man
 | Arrondi 1,00   | 2 444,00            |
 | Arrondi 10,00  | 2 440,00            |
 | Arrondi 100,00 | 2 400,00            |
-
 
 
 

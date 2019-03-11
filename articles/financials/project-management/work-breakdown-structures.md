@@ -1,13 +1,13 @@
 ---
-title: "Structures de répartition du travail"
-description: "Une structure de répartition du travail (WBS) est une description du travail qui sera effectué pour un projet. Il s'agit d'une hiérarchie des tâches qui représente la compréhension par l'équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche."
+title: Structures de répartition du travail
+description: Une structure de répartition du travail (WBS) est une description du travail qui sera effectué pour un projet. Il s'agit d'une hiérarchie des tâches qui représente la compréhension par l'équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358897"
 ---
-
 # <a name="work-breakdown-structures"></a>Structures de répartition du travail
 
 [!include [banner](../includes/banner.md)]
@@ -90,7 +89,7 @@ Vous pouvez effectuer les opérations suivantes de hiérarchie pour activer la c
 
 **Nouvelle tâche** Toute nouvelle tâche que vous créez est automatiquement ajoutée sous le nœud racine, et un numéro WBS lui est automatiquement affecté. Le numéro WBS représente le niveau de la tâche dans la hiérarchie. Pour les tâches du premier niveau sous la tâche racine du projet, on utilise un modèle de numérotation 1, 2, 3, etc. Pour les tâches en dessous du premier niveau, on utilise un modèle de numérotation 1.1, 1.2, 1.3, etc. Pour chaque niveau qui est ajouté sous un niveau précédent, on ajoute une série de numéros à points. 
 
-Actuellement, vous ne pouvez pas personnaliser la numérotation WBS. 
+Actuellement, vous ne pouvez pas personnaliser la numérotation WBS. 
 
 **Retrait d'une tâche** Lorsque vous appliquez un retrait à une tâche, elle devient enfant de la tâche qui la précède. Le numéro WBS de la nouvelle tâche enfant est recalculé automatiquement en fonction du numéro WBS de son nouveau parent. La tâche parent est désormais une tâche de synthèse ou de conteneur, et devient donc un regroupement de ses tâches constitutives. 
 
@@ -314,7 +313,6 @@ Effort = Nombre de ressources × Durée × Nombre d'heures dans un jour de trava
 Vous pouvez corriger toutes les erreurs de planification en même temps en cliquant sur **Corriger toutes les erreurs de planification**. 
 
 Sinon, vous pouvez corriger les erreurs de planification individuellement en cliquant sur l'icône d'avertissement pour chaque tâche.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Espace de travail de clôture de période comptable"
-description: "Cet article fournit une vue d'ensemble de l'espace de travail de clôture de période comptable et la configuration associée."
+title: Espace de travail de clôture de période comptable
+description: Cet article fournit une vue d'ensemble de l'espace de travail de clôture de période comptable et la configuration associée.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326904"
 ---
-
 # <a name="financial-period-close-workspace"></a>Espace de travail de clôture de période comptable
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Deux indicateurs sont utilisés pour les tâches :
 -   Une icône de point d'exclamation indique que la tâche est en retard. Pour les tâches en retard, la date d'échéance est également mise en surbrillance en rouge.
 -   Une icône de verrou indique que la tâche dépend d'autres tâches qui ne sont pas terminées. Une tâche qui est bloquée par des dépendances ne peut pas être marquée comme terminée. Vous pouvez définir des dépendances pour une tâche à l'aide de l'action **Définir la dépendance**.
 
-Le nom de la tâche est un lien hypertexte vers la page Microsoft Dynamics 365 for Operations ou vers une autre page Web où l'utilisateur doit effectuer le travail. Vous pouvez définir ce lien hypertexte à l'aide du champ **Lien des tâches** lorsque vous modifiez ou créez une tâche. 
+Le nom de la tâche est un lien hypertexte vers la page Microsoft Dynamics 365 for Operations ou une autre page Web où l'utilisateur doit aller pour terminer le travail. Vous pouvez définir ce lien hypertexte à l'aide du champ **Lien des tâches** lorsque vous modifiez ou créez une tâche. 
 
 Vous pouvez joindre des fichiers, des notes, des images et des URL à une tâche à l'aide de l'action **Documents joints**. Par exemple, vous pouvez indiquer les numéros de journal utilisés dans le cadre d'une tâche, ajouter des commentaires sur une tâche spécifique ou joindre un fichier d'état qui a été imprimé pour une tâche. Une icône apparaît dans la colonne **Pièce jointe** concernant la tâche si une pièce jointe est présente. 
 
@@ -63,7 +62,7 @@ L'option **Tâche terminée** doit être sélectionnée manuellement une fois la
 Vous pouvez afficher toutes les tâches de clôture de période comptable précédentes et actuelles dans la page de liste **Toutes les tâches de clôture de période comptable**. Cette page de liste est optimale pour l'analyse historique de votre processus de clôture, car elle inclut des informations sur la date d'échéance planifiée, la date de fin réelle et la personne qui a effectué la tâche. Vous pouvez facilement exporter les informations de cette page de liste vers Microsoft Excel à des fins d'audit et de génération d'états.
 
 ## <a name="financial-period-close-configuration-page"></a>Page Configuration de clôture de période comptable
-Avant d'utiliser l'espace de travail **Clôture de période comptable**, vous devez configurer le processus dans Microsoft Dynamics 365 for Finance and Operations à l'aide de la page **Configuration de clôture de période comptable**. (Cliquez sur **Comptabilité** &gt; **Clôturer la période** &gt; **Configuration de clôture de période comptable**).
+Avant d'utiliser l'espace de travail **Clôture de période comptable**, vous devez configurer le processus dans Microsoft Dynamics 365 for Finance and Operations à l'aide de la page **Configuration de clôture de période comptable**. (Cliquez sur **Comptabilité** &gt; **Clôturer la période** &gt; **Configuration de clôture de période comptable**).
 
 ### <a name="resources"></a>Ressources
 
@@ -88,7 +87,7 @@ Vous utilisez un modèle de clôture financière pour définir toutes les tâche
 
 Vous pouvez affecter une tâche dans le modèle à une ou plusieurs sociétés dans lesquelles cette tâche s'applique. Si une personne différente est affectée à la réalisation de ce travail dans chaque société, il peut être utile de créer plusieurs tâches pour le même travail. Créez une tâche pour chaque société. 
 
-L'option de menu **Lien des tâches** est associée au travail correspondant à la tâche et peut être utilisée pour accéder directement à la page associée à partir du lien de tâche dans l'espace de travail. Par exemple, une tâche de clôture destinée à exécuter le processus de réévaluation de la devise pour la Comptabilité fournisseur peut être liée à la page **Réévaluation des comptes en devises** dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez également lier à une URL externe. 
+L'option de menu **Lien des tâches** est associée au travail correspondant à la tâche et peut être utilisée pour accéder directement à la page associée à partir du lien de tâche dans l'espace de travail. Par exemple, une tâche de clôture destinée à exécuter le processus de réévaluation de la devise pour la Comptabilité fournisseur peut être liée à la page **Réévaluation des comptes en devises** dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez également lier à une URL externe. 
 
 > [!TIP]
 > Si vous souhaitez lier un état Management Reporter spécifique à une tâche de clôture de période comptable, vous pouvez utiliser l'URL de l'état. Pour accéder à l'URL de l'état, ouvrez l'état dans le concepteur d'état, puis cliquez sur **Fichier** &gt; **Afficher l'état** pour ouvrir l'état dans un navigateur Web. Vous pouvez ensuite copier l'URL dans la barre d'adresse du navigateur et la coller dans le champ **Lien des tâches** **URL**. 
@@ -106,7 +105,6 @@ Affectez le calendrier approprié pour le programme de clôture, pour indiquer l
 Vous devez également définir les sociétés qui seront associées au programme de clôture. Si des tâches de modèle sont affectées à plusieurs sociétés, des tâches distinctes seront créées pour chaque société du programme de clôture assignée à la tâche du modèle. 
 
 Une fois qu'un programme de clôture est terminé, sélectionnez l'option **Clôturé** pour ce programme. L'historique des tâches sera toujours disponible dans la page de liste **Toutes les tâches de clôture de période comptable**, mais le programme de clôture sera supprimé de l'espace de travail. Une fois qu'un programme de clôture a été marqué comme **Clôturé**, vous ne pourrez pas lui ajouter de tâches, modifier des tâches ou lui supprimer des tâches.
-
 
 
 

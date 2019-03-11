@@ -1,13 +1,13 @@
---- 
-title: "Auditer les factures et les données clé dans le système de comptabilité fournisseur"
-description: "Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement."
+---
+title: Auditer les factures et les données clé dans le système de comptabilité fournisseur
+description: Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
 ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331527"
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Auditer les factures et les données clé dans le système de comptabilité fournisseur
 
@@ -61,5 +61,4 @@ La société fictive USMF sert d'exemple dans cette procédure. Les différentes
 8. Cliquez sur **OK**.
 9. Cliquez sur **Revoir** dans le volet Actions.
 10. Cliquez sur **Mise en correspondance des détails**.
-
 

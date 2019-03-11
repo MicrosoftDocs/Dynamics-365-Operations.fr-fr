@@ -1,13 +1,13 @@
 ---
-title: "Planifier des itinéraires de transport de fret avec plusieurs arrêts"
-description: "Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Dynamics 365 for Finance and Operations."
+title: Planifier des itinéraires de transport de fret avec plusieurs arrêts
+description: Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328307"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planifier des itinéraires de transport de fret avec plusieurs arrêts
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Microsoft Dynamics 365 for Finance and Operations.
+Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Microsoft Dynamics 365 for Finance and Operations.
 
 Vous pouvez utiliser les plans des routes et les guides des routes pour les routes de transport complexes avec plusieurs arrêts. Si la même route va être utilisé sur une base régulière, vous pouvez définir une route planifiée.
 
@@ -51,7 +50,6 @@ Une route planifiée est un plan de route prédéfini qui a une planification po
 
 ## <a name="load-building-workbench"></a>Atelier de création de chargement
 L’Atelier de création de chargement utilise les adresses des clients et les dates de livraison des commandes client, et les routes planifiées disponibles, pour proposer une charge. Par défaut, les valeurs de la route sont entrés dans l’atelier. Toutefois, vous pouvez sélectionner une date « de » antérieure à la date « de » de la route. Lorsqu’une charge est proposée, l’adresse de livraison et la date de livraison de toutes les commandes client en cours sont vérifiées. Si le code postal de l’adresse de livraison correspond au code postal d’un point de transbordement sur le plan de route, et si la date de livraison est dans la plage sélectionnée dans les critères, la commande client est proposé pour la charge. La capacité du modèle de charge est également prise en compte. Une seule charge est proposée à la fois. Si vous avez une commande client qui n’est pas incluse, vous devrez peut-être utiliser un modèle de charge différent (par exemple, un modèle de charge pour un camion ou un conteneur plus grand) ou planifier une livraison supplémentaire.
-
 
 
 

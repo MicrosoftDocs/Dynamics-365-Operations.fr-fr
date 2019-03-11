@@ -1,13 +1,13 @@
 ---
 title: Options de calcul Montant entier et Intervalle pour les codes taxe
-description: "Cet article décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers."
+description: Cet article décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d16ea19a6d3cfea325281f301e0502bb051381d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bab0f6ca21f4216b70cccf24f5781e0dbf48b7f8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344062"
 ---
-
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Options de calcul Montant entier et Intervalle pour les codes taxe
 
 [!include [banner](../includes/banner.md)]
@@ -88,7 +87,6 @@ La taxe est égale à la somme des montants de taxe calculés pour chaque interv
 
 
 Pour plus d'informations, voir [Détermination des taux de taxe en fonction des champs Base marginale et Mode de calcul](marginal-base-field.md).
-
 
 
 

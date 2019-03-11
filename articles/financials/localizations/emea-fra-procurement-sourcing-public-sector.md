@@ -1,13 +1,13 @@
 ---
 title: Approvisionnements dans le secteur public en France
-description: "Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics."
+description: Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AgreementClassification, PurchAgreement, SysPolicy
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7cf70c9dace0a1e8239ae9964eed853244c7c38e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 761fc8fbc861ef5e05a5045bf13ac904bc8dc9e7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370650"
 ---
-
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a>Approvisionnements dans le secteur public en France
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,6 @@ Vous pouvez créer des classifications de contrat d'achat qui ajoutent des champ
 -   Pour ajouter aux contrats d'achat des informations relatives aux sous-traitants, sélectionnez l'option **Sous-traitants** dans la classification de contrat d'achat.  Les contrats d'achat peuvent avoir un fournisseur principal, des fournisseurs secondaires et des sous-traitants. Le fournisseur principal peut être affecté au contrat d'achat parent et un fournisseur secondaire ou un sous-traitant peut être affecté à des contrats enfants spécifiques.
 -   Pour ajouter aux contrats d'achat des informations relatives aux certifications pour les fournisseurs, sélectionnez l'option **Certifications** de la classification de contrat d'achat. Les informations de certification permettent de générer un état que vous pouvez utiliser pour vérifier que les fournisseurs répondent bien aux exigences en matière de certification.
 -   Pour ajouter aux contrats d'achat des informations relatives aux jalons et aux tâches, sélectionnez l'option **Activités** de la classification de contrat d'achat.
-
 
 
 

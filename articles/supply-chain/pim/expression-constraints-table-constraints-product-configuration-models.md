@@ -1,13 +1,13 @@
 ---
-title: "Contraintes d'expression et contraintes de table dans les modèles de configuration de produit"
-description: "Cette rubrique décrit l'utilisation des contraintes d'expression et de table. Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes."
+title: Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
+description: Cette rubrique décrit l'utilisation des contraintes d'expression et de table. Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356643"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
 
 [!include [banner](../includes/banner.md)]
@@ -170,7 +169,7 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 </tr>
 <tr class="even">
 <td>Puissance</td>
-<td>Prend un exponentiel. L'exponentiation est appliquée de droite à gauche. (Autrement dit, elle est associative à droite.) Par conséquent, <strong>Power[a, b, c]</strong> est équivalent à <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> peut être utilisé uniquement si l'exposant est une constante positive.</td>
+<td>Prend un exponentiel. L'exponentiation est appliquée de droite à gauche. Autrement dit, elle est associative à droite. Par conséquent, <strong>Power[a, b, c]</strong> est équivalent à <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> peut être utilisé uniquement si l'exposant est une constante positive.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Power[x, 2] == y</li>
@@ -252,7 +251,6 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 [Création d'une contrainte d'expression (Guide de tâches)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Ajouter un calcul à un modèle de configuration de produit (guide de tâche)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

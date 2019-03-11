@@ -1,13 +1,13 @@
 ---
-title: "Amortissement dégressif de 125 %"
-description: "Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif de 125 %."
+title: Amortissement dégressif de 125 %
+description: Cet article donne une vue d'ensemble de la méthode d'amortissement dégressif de 125 %.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f7af5413376a98c3b2b7ded46c757c9156a3fadf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 680396bd251cda603dbcd244664fa3421d12e85a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362715"
 ---
-
 # <a name="125-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 125 %
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ Si vous sélectionnez **Exercice** comme année d'amortissement, les options sui
 | Années de durée de vie             | 5      |
 | Pourcentage d'amortissement annuel | 25 %    |
 
-La méthode d'amortissement dégressif de 125 % divise 125 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l'actif afin de déterminer le montant d'amortissement pour chaque année.
+La méthode d'amortissement dégressif de 125 % divise 125 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l'actif afin de déterminer le montant d'amortissement pour chaque année.
 
 | Période | Calcul du montant d'amortissement annuel | Valeur comptable                    | Valeur comptable nette à la fin de l'exercice |
 |--------|-----------------------------------------------|-------------------------------|---------------------------------------|
@@ -86,7 +85,6 @@ La méthode d'amortissement dégressif de 125 % divise 125 % par le nombre d'ann
 
 > [!NOTE] 
 > Généralement, si le montant calculé via la méthode d'amortissement dégressif de 125 % est inférieur au montant calculé via la méthode linéaire, passer à la méthode linéaire pour la durée de vie restante reste possible.
-
 
 
 

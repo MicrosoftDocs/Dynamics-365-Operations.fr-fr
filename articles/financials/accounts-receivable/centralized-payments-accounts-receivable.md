@@ -1,13 +1,13 @@
 ---
-title: "Paiements centralisés pour la comptabilité client"
-description: "Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios."
+title: Paiements centralisés pour la comptabilité client
+description: Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6327d9cab1651d22cd411f718f6e3a2f8733e13e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330745"
 ---
-
 # <a name="centralized-payments-for-accounts-receivable"></a>Paiements centralisés pour la comptabilité client
 
 [!include [banner](../includes/banner.md)]
@@ -297,7 +296,6 @@ Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, N
 | Ventes (Fabrikam West)    |              | 75,00         |
 | Dû par Fabrikam East (Fabrikam West) | 25,00        |               |
 | Ventes (Fabrikam West)    |              | 25,00         |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Enregistrement dans Contrôle et suivi de la production"
-description: "Cette rubrique décrit les concepts et les termes importants que vous devez comprendre pour configurer et utiliser le contrôle et suivi de la production."
+title: Enregistrement dans Contrôle et suivi de la production
+description: Cette rubrique décrit les concepts et les termes importants que vous devez comprendre pour configurer et utiliser le contrôle et suivi de la production.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1bbcd7ebea869f921c2eadd05e64509ff9246aa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 939cb219a63a27ee9cb05036041d2722df3b0abc
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318164"
 ---
-
 # <a name="registration-for-manufacturing-execution"></a>Enregistrement dans Contrôle et suivi de la production
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Les collaborateurs peuvent entrer plusieurs types d'enregistrements dans le modu
 -   **Enregistrer des pauses** (disponible dans Pointage) – Durant la journée de travail, les collaborateurs peuvent enregistrer le fait qu'ils quittent leur station de travail pour prendre une pause. Plusieurs types de pauses peuvent être paramétrés. Lorsqu'un collaborateur revient et se reconnecte, le système enregistre le retour du collaborateur et l'enregistrement de la pause s'arrête.
 -   **Enregistrer des activités indirectes** (disponible dans Pointage) –Les activités indirectes sont des activités non productives que les collaborateurs peuvent effectuer au cours d'une journée de travail (par exemple, réunion de service, réunion d'équipe ou tâche de maintenance à l'atelier). Les travailleurs peuvent effectuer des enregistrements sur les activités indirectes paramétrées.
 -   **Enregistrer des heures supplémentaires** (temps disponible dans Pointage) – Les collaborateurs qui ont été invités à travailler plus longtemps peuvent sélectionner si les heures supplémentaires doivent être enregistrées comme horaire flexible ou heures supplémentaires.
-
 
 
 

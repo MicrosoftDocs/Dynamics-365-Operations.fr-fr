@@ -1,13 +1,13 @@
 ---
-title: "Amortissement des coûts constants pour un article fabriqué"
-description: "Les coûts constants d'un article fabriqué reflètent les temps de réglage de l'opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante."
+title: Amortissement des coûts constants pour un article fabriqué
+description: Les coûts constants d'un article fabriqué reflètent les temps de réglage de l'opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 7ccd5ce3e2ed58db8f13eebbcfa6fe5fb544d6c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b5345fde8e77b75fd160d08153b19a9be01f18ab
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329457"
 ---
-
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Amortissement des coûts constants pour un article fabriqué
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ La quantité d'une taille de lot d'évaluation des coûts pour un article fabriq
 -   Quantité de calcul spécifiée dans un calcul de nomenclature spécifique à une commande : un calcul de nomenclature spécifique à une commande peut être réalisé pour une ligne d'une commande client, d'un devis de vente ou d'une commande de service. Par défaut, la quantité de calcul spécifiée utilise la quantité de la ligne d'origine, mais la quantité par défaut peut être remplacée. Vous pouvez décider que le calcul de nomenclature spécifique à une commande utilise un mode d'éclatement de fabrication à la commande ou à plusieurs niveaux.
 
 Le montant calculé des coûts constants amortis d'un article fabriqué est appelé frais.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Prix de revient moyen en cours
-description: "La clôture du stock règle les transactions de sortie avec des transactions de réception sur la base du modèle d'évaluation du stock sélectionné dans le groupe de modèles d'article associé à l'article. Toutefois, avant d'exécuter la clôture du stock, le système calcule un prix de revient moyen en cours qui est généralement utilisé lorsque les transactions de sortie sont validées."
+description: La clôture du stock règle les transactions de sortie avec des transactions de réception sur la base du modèle d'évaluation du stock sélectionné dans le groupe de modèles d'article associé à l'article. Toutefois, avant d'exécuter la clôture du stock, le système calcule un prix de revient moyen en cours qui est généralement utilisé lorsque les transactions de sortie sont validées.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e14f38baaef32c72761594147feca8d08651a050
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 875325bca949c0f3dfc0eab55f64db5659a2faef
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312023"
 ---
-
 # <a name="running-average-cost-price"></a>Prix de revient moyen en cours
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,6 @@ Toutefois, si votre modèle commercial les autorise, les pratiques suivantes vou
 -   Si vous ne sélectionnez *pas* l'option **Inclure la valeur physique** pour un article, désactivez l'option **Stock physique négatif** dans la page **Groupes de modèles d'article**.
 
 En outre, souvenez-vous que la valeur maximale de votre stock physique est limitée par le nombre de transactions physiques et la différence entre les prix physiques et financiers. À condition que l'ensemble des transactions physiques soit mis à jour financièrement à terme, la valeur physique ne peut pas atteindre des niveaux extrêmes. Enfin, notez que l'effet d'amplification diminue considérablement lorsque la valeur cumulée est répartie sur plusieurs pièces disponibles et non pas sur une seule.
-
 
 
 

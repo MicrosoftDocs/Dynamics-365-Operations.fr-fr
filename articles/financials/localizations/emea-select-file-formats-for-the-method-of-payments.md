@@ -1,13 +1,13 @@
 ---
 title: Formats de fichier des modes de paiement
-description: "Cette rubrique décrit les deux méthodes d'obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement."
+description: Cette rubrique décrit les deux méthodes d'obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 350bea3e4a698e5e7c71fe4fcbb7e7386939511e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: f6f9e94f7bf590a82d022affb8bc4a3bea5ab56c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370752"
 ---
-
 # <a name="file-formats-for-methods-of-payment"></a>Formats de fichier des modes de paiement
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Pour sélectionner les formats de fichier basés sur le code X++, procédez comm
 4.  Sélectionnez un format de fichier dans la liste **Disponible** et déplacez-le vers la liste **Sélectionné** avec le contrôle de flèche.
 5.  Fermez la page **Formats de fichier des modes de paiement**.
 6.  Dans l'organisateur **Formats de fichier**, sélectionnez le format de fichier à utiliser pour le mode de paiement dans le champ de format de fichier approprié. Les options de génération d'états électroniques génériques doivent être définies sur **Non** pour les formats de fichier X++.
-
 
 
 

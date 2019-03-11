@@ -1,13 +1,13 @@
 ---
 title: Plans de livraison
-description: "Les plans de livraison vous permettent de suivre la quantité sur la ligne de commande lorsque vous effectuez plusieurs livraisons pour une seule commande client, un devis de vente ou une commande fournisseur."
+description: Les plans de livraison vous permettent de suivre la quantité sur la ligne de commande lorsque vous effectuez plusieurs livraisons pour une seule commande client, un devis de vente ou une commande fournisseur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchDeliverySchedule, SalesDeliverySchedule, SalesQuotationDeliverySchedule
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 068a881a7fa9b19198bd3ad22988465be49c1fa3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 84ae84a567e5f45bc0b20538d04917c6feb21336
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325133"
 ---
-
 # <a name="delivery-schedules"></a>Plans de livraison
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ Les impressions des commandes et des devis contenant un plan de livraison affich
 -   Parcourir les pages de listes et les états
 
 Lorsque vous confirmez des devis de vente, les commandes client générées affichent l'ensemble du plan de livraison, même les lignes de commande contenant plusieurs livraisons. En outre, l'ensemble du plan de livraison s'affiche sur toutes les pages principales (commandes client, devis de vente et commandes fournisseur).
-
 
 
 

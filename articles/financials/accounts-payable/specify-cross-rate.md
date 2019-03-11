@@ -1,14 +1,14 @@
 ---
-title: "Spécification du taux croisé"
-description: "Cette rubrique donne des informations sur les taux croisés dans Microsoft Dynamics 365 for Finance and Operations."
+title: Spécification du taux croisé
+description: Cette rubrique fournit des informations générales sur les taux croisés dans Microsoft Dynamics 365 for Finance and Operations.
 author: abruer
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 112f77738b33aae94babe0cf8e9e61ff2ea3d004
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320234"
 ---
-
 # <a name="specify-the-cross-rate"></a>Spécification du taux croisé
 
 [!include [banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Par exemple, la devise comptable est USD, la devise de facturation est CAD, et l
 3.  Pour un client, dans la page de liste **Tous les clients**, accédez à **Collecter > Régler les transactions en cours**. Pour un fournisseur, dans la page de liste **Tous les fournisseurs**, accédez à **Facture > Régler les transactions en cours**. 
 4.  Sélectionnez la transaction qui est le paiement principal, puis cliquez sur **Marquer le paiement**. La case à cocher dans la colonne **Marquer** est activée et une icône d'information s'affiche dans la colonne **Paiement principal**. 
 5.  Dans le champ **Taux croisé**, entrez le taux de change entre la devise de la facture et la devise de paiement, à compter de la date de règlement. 
-

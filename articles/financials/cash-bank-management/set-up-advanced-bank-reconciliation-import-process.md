@@ -1,13 +1,13 @@
 ---
-title: "Paramétrage du processus d'importation du rapprochement bancaire avancé"
-description: "La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires."
+title: Paramétrage du processus d'importation du rapprochement bancaire avancé
+description: La fonctionnalité de rapprochement bancaire avancé permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7a04517de6e7695cd27bbc6e6a825e1ccaac7306
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334563"
 ---
-
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Paramétrage du processus d'importation du rapprochement bancaire avancé
 
 [!include [banner](../includes/banner.md)]
 
-La fonctionnalité de rapprochement bancaire avancée vous permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires. 
+La fonctionnalité de rapprochement bancaire avancé permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 for Finance and Operations. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires. 
 
 Le paramétrage de l’importation de relevé bancaire varie selon le format de votre relevé bancaire électronique. Finance and Operations prend en charge trois formats de relevés bancaires prêts à l'emploi : ISO20022, MT940 et BAI2.
 
@@ -176,7 +175,6 @@ La dernière étape consiste à tester l'importation de votre relevé bancaire.
 8.  Cliquez sur **OK**.
 
 Si l’importation réussit, vous recevrez un message indiquant que votre relevé a été importé. Si l’importation n’était pas réussie, dans l'espace de travail **Gestion des données**, dans la section **Historique des travaux**, recherchez la tâche. Cliquez sur **Détails de l’exécution** de la tâche pour ouvrir la page **Résumé d’exécution**, puis cliquez sur **Afficher le journal d’exécution** pour afficher les erreurs d’importation.
-
 
 
 

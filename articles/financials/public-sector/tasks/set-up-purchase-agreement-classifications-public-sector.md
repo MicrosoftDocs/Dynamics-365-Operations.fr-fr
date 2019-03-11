@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer les classifications de contrat d'achat dans le secteur public"
-description: "La classification de contrat d'achat vous permet de contrôler les informations administratives disponibles dans les contrats d'achat."
+---
+title: Paramétrer les classifications de contrat d'achat dans le secteur public
+description: La classification de contrat d'achat vous permet de contrôler les informations administratives disponibles dans les contrats d'achat.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AgreementClassification
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8c7c36f348df39e9b91ddbc02237b3072c20e8ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 1827f885d188ae04d35748c83698db7801b8eee1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370754"
 ---
 # <a name="set-up-purchase-agreement-classifications-in-the-public-sector"></a>Paramétrer les classifications de contrat d'achat dans le secteur public
 
@@ -43,5 +43,4 @@ Cette procédure a été créée pour le secteur public français, en utilisant 
 7. Facultatif : sélectionnez l'option Exiger une facturation directe pour empêcher l'utilisation d'ordres de lancement.
 8. Facultatif : sélectionnez l'option Activités pour inclure des informations sur les tâches et les jalons.
 9. Cliquez sur Enregistrer.
-
 

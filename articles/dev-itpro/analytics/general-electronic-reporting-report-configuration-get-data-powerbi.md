@@ -1,13 +1,13 @@
 ---
-title: "Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI"
-description: "Cette rubrique explique comment vous pouvez utiliser la configuration de génération d'états électroniques (ER) pour organiser le transfert des données entre votre instance de Finance and Operations vers les services Power BI."
+title: Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
+description: Cette rubrique explique comment vous pouvez utiliser la configuration de génération d'états électroniques (ER) pour organiser le transfert des données entre votre instance de Finance and Operations vers les services Power BI.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335782"
 ---
-
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique explique comment vous pouvez utiliser la configuration de génération d'états électroniques (ER) pour organiser le transfert des données entre votre instance de Finance and Operations vers les services Power BI. En guise d'exemple, cette rubrique utilise les transactions de déclaration d'échanges de biens comme données commerciales qui doivent être transférées. La visualisation de carte Power BI utilise ces données de transaction de déclaration d'échanges de biens pour présenter une vue permettant l'analyse des activités d'importation/d'exportation de la société sur l'état Power BI.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
-Microsoft Power BI est un ensemble de services logiciels, d'applications, et de connecteurs qui fonctionnent ensemble pour transformer des sources de données externes en analyses logiques, visuellement immersives et interactives. La génération d'états électroniques (ER) permet aux utilisateurs de Microsoft Dynamics 365 for Finance and Operations de configurer facilement des sources de données et d'organiser simplement le transfert des données de Finance and Operations vers Power BI. Les données sont transférées en tant que fichiers dans le format de feuille de calcul OpenXML (fichier classeur Microsoft Excel). Les fichiers transférés sont stockés sur un serveur Microsoft SharePoint Server qui a été configuré à cette fin. Les fichiers stockés sont utilisés dans Power BI pour générer des états qui incluent des visualisations (tableaux, graphiques, cartes, etc.). Les états Power BI sont partagés avec les utilisateurs Power BI, et ils sont accessibles dans des tableaux de bord Power BI et sur les pages Finance and Operations. Cette rubrique décrit les tâches suivantes :
+Microsoft Power BI est un ensemble de services logiciels, d'applications, et de connecteurs qui fonctionnent ensemble pour transformer des sources de données externes en analyses logiques, visuellement immersives et interactives. Les états électroniques (ER) permettent aux utilisateurs Microsoft Dynamics 365 for Finance and Operations de facilement configurer des sources de données et d'organiser le transfert des données à partir de Finance and Operations vers Power BI. Les données sont transférées en tant que fichiers dans le format de feuille de calcul OpenXML (fichier classeur Microsoft Excel). Les fichiers transférés sont stockés sur un serveur Microsoft SharePoint Server qui a été configuré à cette fin. Les fichiers stockés sont utilisés dans Power BI pour générer des états qui incluent des visualisations (tableaux, graphiques, cartes, etc.). Les états Power BI sont partagés avec les utilisateurs Power BI, et ils sont accessibles dans des tableaux de bord Power BI et sur les pages Finance and Operations. Cette rubrique décrit les tâches suivantes :
 
 - Configurer Finance and Operations.
 - Préparez votre configuration du format d'ER pour obtenir des données de Finance and Operations.
@@ -51,7 +50,7 @@ Pour exécuter l'exemple décrit dans cette rubrique, vous devez disposer de l'a
     - Administrateur système
 
 - L'accès au serveur SharePoint Server configuré pour être utilisé avec Finance and Operations
-- L'accès à la structure Power BI
+- L'accès au cadre Power BI
 
 ## <a name="configure-document-management-parameters"></a>Configurer les paramètres de gestion des documents
 1. Sur la page **Paramètres de gestion des documents**, configurez l'accès au serveur SharePoint Server qui sera utilisé dans la société à laquelle vous êtes connecté (la société DEMF dans cet exemple).
@@ -198,4 +197,3 @@ Paramétrez l'intégration entre Finance and Operations et Power BI. Pour plus d
 [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 
 [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
-

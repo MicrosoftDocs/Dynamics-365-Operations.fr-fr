@@ -1,13 +1,13 @@
 ---
 title: Contrats de projet
-description: "Cette rubrique fournit des exemples de contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique décrit les contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0f0fcec64ce03c6e1d877fb1c8d004bb416bd95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310367"
 ---
-
 # <a name="project-contracts"></a>Contrats de projet
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des exemples de contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Finance and Operations.
+Cet article décrit les contrats de projet à créer pour divers types de projets et de sources de financement (et en fournit des exemples), ainsi que la manière de gérer les contrats et facturer les clients des projets dans Microsoft Dynamics 365 for Finance and Operations.
 
 Le type de projet que vous créez pour un contrat de projet détermine la méthode utilisée pour facturer les clients du projet. Vous pouvez modifier un contrat de projet et le projet qui lui est associé, mais vous ne pouvez pas modifier le type de projet. 
 
@@ -342,7 +341,6 @@ Lorsque vous définissez le contrat de projet, vous convenez que le temps passé
 -   Vous créez une facture client à la fin de chaque mois du calendrier pendant la durée du projet.
 
 Durant le premier mois, un total de 800 heures sont enregistrées par les consultants. Le coût des fournitures de bureau facturées pour le projet s'élève à 2 000. Par conséquent, à la fin du mois, vous créez une facture de 122 000, qui englobe 800 heures à 150 de l'heure, plus 2 000 de fournitures de bureau.
-
 
 
 

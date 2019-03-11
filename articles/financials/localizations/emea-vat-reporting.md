@@ -1,13 +1,13 @@
 ---
-title: "Déclaration de TVA pour l'Europe"
-description: "Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens."
+title: Déclaration de TVA pour l'Europe
+description: Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 5c5cd61c45eb7cbc6f040f054a99d9a54e1ee854
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370726"
 ---
-
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l'Europe
 
 [!include [banner](../includes/banner.md)]
@@ -273,7 +272,6 @@ La déclaration de TVA pour chaque pays doit répondre aux exigences de la légi
 | Lituanie      | [Détails de la déclaration de TVA pour la Lituanie](emea-ltu-vat-statement-details.md)         |
 | Pays-Bas    |                                                                                 |
 | Suède         |                                                                                 |
-
 
 
 

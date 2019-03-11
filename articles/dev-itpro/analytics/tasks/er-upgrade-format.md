@@ -1,13 +1,13 @@
---- 
-title: "ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format"
-description: "Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut conserver une configuration de format pour la génération d'états électronique (ER)."
+---
+title: ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format
+description: Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut conserver une configuration de format pour la génération d'états électronique (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342268"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format
 
@@ -199,5 +199,4 @@ Pour effectuer ces étapes, vous devez tout d'abord appliquer les procédures «
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Tester le format personnalisé pour la génération des fichiers de paiement
     * Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Dynamics 365 for Finance and Operations, Enterprise Edition. Sélectionnez le format BACS (nom personnalisé fictif britannique) créé dans les paramètres de mode de paiement électronique. Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment par Proseware, Inc. présentant le code de compte IBAN conformément aux besoins spécifiques. Le fichier doit également contenir le nœud de XML récemment introduit par Litware, Inc. présentant le code de banque SWIFT dans l'accord aux besoins de pays.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Autoriser une prévision ajustée"
-description: "Certaines données de prévision ne doivent pas être autorisées immédiatement. Cet article explique comment spécifier la période pour laquelle une prévision est autorisée. Elle décrit également comment autoriser la prévision pour des sociétés spécifiques et des modèles de prévision."
+title: Autoriser une prévision ajustée
+description: Certaines données de prévision ne doivent pas être autorisées immédiatement. Cet article explique comment spécifier la période pour laquelle une prévision est autorisée. Elle décrit également comment autoriser la prévision pour des sociétés spécifiques et des modèles de prévision.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6c397329993bd3014b608cdc50d5002dcd5ed6a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 64838fd20349c21bf3c0a3b9a3c68d4f19f60745
-ms.contentlocale: fr-fr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313472"
 ---
-
 # <a name="authorize-an-adjusted-forecast"></a>Autoriser une prévision ajustée
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Il est très important que vous compreniez comment fonctionne la case à cocher 
 [Effectuer des ajustements manuels sur la prévision de base](manual-adjustments-baseline-forecast.md)
 
 [Surveillance de la précision de la prévision](monitor-forecast-accuracy.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Certificat d'entrée de l'UE"
-description: "Cet article fournit des informations sur les certificats d'entrée dans l'Union européenne (UE)."
+title: Certificat d'entrée de l'UE
+description: Cet article fournit des informations sur les certificats d'entrée dans l'Union européenne (UE).
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustEntryCertificateJour_W, CustParameters, CustTable, SalesTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9b3346a5229d0cc9e7af74f17ea6a327e5ba253a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6856a52ce85d31c4ef8225e56159e8a7ec698fd7
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370709"
 ---
-
 # <a name="eu-entry-certificates"></a>Certificat d'entrée dans l'UE
 
 [!include [banner](../includes/banner.md)]
@@ -122,7 +121,6 @@ Si vous n'avez pas accès aux pages qui vous permettent d'effectuer cette tâche
 </tr>
 </tbody>
 </table>
-
 
 
 

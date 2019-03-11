@@ -1,13 +1,13 @@
 ---
-title: "Mises à jour physiques et financières"
-description: "Cette rubrique fournit une vue d'ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent."
+title: Mises à jour physiques et financières
+description: Cette rubrique fournit une vue d'ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07ed503b7c441cb594e8e96ddcd9a81c0745a963
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322580"
 ---
-
 # <a name="physical-and-financial-updates"></a>Mises à jour physiques et financières
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,6 @@ Lorsqu'une transaction financière est validée, le statut de l'enregistrement d
 -   Journaux de stock de quantité négative, tels que mouvement, résultat, inventaire, nomenclatures et transferts
 
 Les transactions qui diminuent la quantité sont validées au prix de revient moyen en vigueur. Aussi, la procédure de clôture du stock est requise pour régler les transactions de sorties en transactions de réception sur la base du modèle de stock affecté à chaque article.
-
 
 
 

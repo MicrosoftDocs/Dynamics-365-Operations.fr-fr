@@ -1,13 +1,13 @@
---- 
-title: "Modifier la propriété du stock de consignation en fonction de la demande de production"
-description: "Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu'il existe une demande de stock en production."
+---
+title: Modifier la propriété du stock de consignation en fonction de la demande de production
+description: Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu'il existe une demande de stock en production.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d1324da6996230eb383e2f37d3a133ec35cb0f41
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319015"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Modifier la propriété du stock de consignation en fonction de la demande de production
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu'il existe une demande de stock en production. Cette modification de propriété est effectuée en créant et en validant un journal des modifications de propriété du stock. Les lignes du journal des modifications de propriété peuvent être créées manuellement ou, comme indiqué dans cet enregistrement, selon la demande de production existante. Généralement, un superviseur d'atelier exécute cette tâche. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF ou utiliser vos propres données. Si vous utilisez vos propres données, vérifiez que les conditions préalables suivantes sont remplies : un nom de journal de stock paramétré pour la modification de propriété du stock, des articles disponibles appartenant au fournisseur physiquement enregistré et une ou plusieurs lignes d'ordre de fabrication pour les matières. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu'il existe une demande de stock en production. Cette modification de propriété est effectuée en créant et en validant un journal des modifications de propriété du stock. Les lignes du journal des modifications de propriété peuvent être créées manuellement ou, comme indiqué dans cet enregistrement, selon la demande de production existante. Généralement, un superviseur d'atelier exécute cette tâche. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF ou utiliser vos propres données. Si vous utilisez vos propres données, vérifiez que les conditions préalables suivantes sont remplies : un nom de journal de stock paramétré pour la modification de propriété du stock, des articles disponibles appartenant au fournisseur physiquement enregistré et une ou plusieurs lignes d'ordre de fabrication pour les matières. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="create-an-inventory-ownership-journal"></a>Créer un journal de propriété de stock
@@ -52,5 +52,4 @@ Cette procédure indique comment faire passer le propriétaire du stock de consi
     * Lorsque le journal est validé, le stock appartenant au fournisseur est libéré en utilisant une référence « Modification de propriété ». Le stock est ensuite reçu comme stock disponible à l'aide d'un mouvement de stock qui est mis à jour avec un accusé de réception de marchandises de la commande fournisseur. Notez que seules les transactions associées au journal validé sont créées. Aucun mouvement de stock prévu n'est créé.  
 2. Cliquez sur OK.
 3. Fermez la page.
-
 

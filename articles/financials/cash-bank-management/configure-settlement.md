@@ -1,13 +1,13 @@
 ---
-title: "Configurer un règlement"
-description: "La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cette rubrique décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client."
+title: Configurer un règlement
+description: La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cette rubrique décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client.
 author: kweekley
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
 ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319268"
 ---
-
 # <a name="configure-settlement"></a>Configurer un règlement
 
 [!include [banner](../includes/banner.md)]
 
 La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cette rubrique décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client. 
 
-Les paramètres suivants affectent la manière dont les règlements sont traités dans Microsoft Dynamics 365 for Finance and Operations. Le règlement est le processus qui consiste à régler une facture à l'aide d'un paiement ou d'un avoir. Ces paramètres sont situés dans la zone **Règlement** des pages **Paramètres de la comptabilité client** et **Paramètres de la comptabilité fournisseur**.
+Les paramètres suivants affectent la manière dont les règlements sont traités dans Microsoft Dynamics 365 for Finance and Operations. Le règlement est le processus qui consiste à régler une facture à l'aide d'un paiement ou d'un avoir. Ces paramètres sont situés dans la zone **Règlement** des pages **Paramètres de la comptabilité client** et **Paramètres de la comptabilité fournisseur**.
 
 - **Règlement automatique** – Définissez cette option sur **Oui** si une transaction doit être réglée automatiquement avec d'autres transactions en cours lors de sa validation. Si cette option est définie sur **Non**, les utilisateurs peuvent régler manuellement les transactions lorsqu'ils entrent des paiements, ou ultérieurement, à l'aide de la page **Règlement des transactions**.
 - **Administration d'escompte de règlement** – Spécifiez comment un [escompte de règlement est géré lorsqu'une facture est surpayée](cash-discount-handling-overpayments.md). Pour un trop-perçu, l'escompte de règlement peut être réduit, il peut être considéré comme une différence, ou peut rester en compte pour le fournisseur ou le client.
@@ -68,4 +67,3 @@ Pour éviter les écritures comptables supplémentaires, le débit et le crédit
 
 -   Les organisations utilisent souvent des dimensions fixes pour renseigner avec des zéros une dimension financière qui n'est pas requise. Cela est généralement le cas pour les comptes de bilan, tels que la comptabilité client/comptabilité fournisseur. Les structures de compte peuvent être utilisées pour ne pas suivre les dimensions financières qui sont généralement renseignées avec des zéros.  Vous pouvez supprimer la dimension financière pour les comptes de bilan, ce qui évite d'utiliser des dimensions fixes.
 -   Si votre organisation nécessite des dimensions fixes sur le compte principal de la comptabilité client/comptabilité fournisseur, trouvez un moyen de définir par défaut la dimension fixe sur le paiement, afin que la valeur de la dimension fixe soit enregistrée dans la transaction fournisseur pour le paiement. Cela permet au système de reconstruire le compte principal de la comptabilité client/comptabilité fournisseur pour inclure les valeurs de la dimension fixe. La valeur de la dimension fixe peut être définie comme valeur par défaut sur les fournisseurs ou le nom de journal pour le journal des paiements.
-

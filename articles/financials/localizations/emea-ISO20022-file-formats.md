@@ -1,13 +1,13 @@
 ---
 title: Importation de fichiers ISO20022
-description: "Cette rubrique explique comment importer des fichiers de paiement au format camt.054 et pain.002 de la norme ISO 20022 dans Microsoft Dynamics 365 for Finance and Operations."
+description: Cette rubrique explique comment importer des fichiers de paiement au format camt.054 et pain.002 de la norme ISO 20022 dans Microsoft Dynamics 365 for Finance and Operations.
 author: neserovleo
 manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: d91e937c62d4d498e67d753e39676514835f4161
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f55e8fbc4d13f84686298cb8dbcebb4baf134cf3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370686"
 ---
-
 # <a name="import-iso20022-files"></a>Importer des fichiers ISO20022
 
 [!include [banner](../includes/banner.md)]
@@ -130,4 +129,3 @@ Pour plus d'informations sur les états électronique, voir, [Vue d'ensemble des
 - [Paramétrer le mode de paiement pour les virements ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Paramétrer le mode de paiement pour le débit direct ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
-

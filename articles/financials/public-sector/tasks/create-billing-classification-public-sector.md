@@ -1,13 +1,13 @@
---- 
-title: "Créer une classification de facturation dans le secteur public"
-description: "Les organisations du secteur public peuvent utiliser les classifications de facturation pour gérer les factures financières."
+---
+title: Créer une classification de facturation dans le secteur public
+description: Les organisations du secteur public peuvent utiliser les classifications de facturation pour gérer les factures financières.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustBillingClassification
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 09b075391f73c68e5311379babf0642dea8c0635
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8858ca9e11ba4e6345fc31b439a1b69540837519
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370666"
 ---
 # <a name="create-a-billing-classification-in-the-public-sector"></a>Créer une classification de facturation dans le secteur public
 
@@ -42,5 +42,4 @@ Les organisations du secteur public peuvent utiliser les classifications de fact
 9. Dans le champ Code facturation, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 10. Dans la liste, cliquez sur un code facturation à ajouter à cette classification de facturation.
 11. Cliquez sur Enregistrer.
-
 

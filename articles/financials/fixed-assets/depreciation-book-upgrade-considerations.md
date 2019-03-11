@@ -1,13 +1,13 @@
 ---
-title: "Vue d'ensemble de la mise à niveau du registre des amortissements"
+title: Vue d'ensemble de la mise à niveau du registre des amortissements
 description: "Dans les versions précédentes, il y avait deux concepts d'évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations (1611), la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre. Cette rubrique fournit des éléments à prendre en compte pour la mise à niveau."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d6ce53d4d9335348d0203a524e62dbbdfd1580b6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359311"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>Vue d'ensemble de la mise à niveau du registre des amortissements
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,6 @@ Lorsque vous utilisez l'approche de souches de numéros générée par le systè
 Lorsque vous utilisez l'approche de souches de numéros définie par l'utilisateur existante (option 2), la mise à niveau des données vérifie si la souche de numéros avec la portée spécifiée existe dans la base de données pour chaque partition et société avec des transactions du registre des amortissements. Si tel est le cas, la mise à niveau utilise le traitement ligne par ligne pour répartir les N° de documents comme spécifié par la souche de numéros à l'aide de la structure de souche de numéros. Si la souche de numéros n'existe pas avec la portée spécifiée, la mise à niveau utilise l'approche de souche de numéros définie par le système par défaut pour répartir les N° de documents, et crée une souche de numéros avec les paramètres par défaut spécifiés après la répartition.
 
 Quelle que soit l'approche, le script de mise à niveau des données utilise également la souche de numéros pour le champ **Souche de documents** sur les nouveaux noms de journaux comptables créés pour les anciens noms des journaux du registre des amortissements.
-
 
 
 

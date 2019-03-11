@@ -1,32 +1,31 @@
 ---
-title: "Traitement du stock de sécurité pour les articles"
-description: "Cette rubrique décrit le traitement du stock de sécurité et le paramétrage de la quantité de stock de sécurité pour les articles."
+title: Traitement du stock de sécurité pour les articles
+description: Cette rubrique décrit le traitement du stock de sécurité et le paramétrage de la quantité de stock de sécurité pour les articles.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: fr-fr
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341532"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>Traitement du stock de sécurité pour les articles
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,7 @@ L'illustration suivante présente un exemple pour le code couverture **Demande**
 [![Planification d'un article avec le code couverture **MinMax** et l'option **Première sortie**](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png) À la date d'exécution de la planification, si le stock disponible est déjà en dessous de la limite du stock de sécurité, les options **Date du jour** et **Date du jour + délai d'approvisionnement** déclenchent immédiatement le réapprovisionnement. L'option **Première sortie** attend jusqu'à ce qu'une autre transaction de sortie soit disponible, par exemple une demande de ligne de commande client ou de nomenclature pour l'article, puis il déclenche le réapprovisionnement à la date de cette transaction. À la date d'exécution de la planification, si le stock disponible n'est pas en dessous de la limite du stock de sécurité, les options **Date du jour** et **Première sortie** génèrent exactement le même résultat, comme le montre l'illustration ci-dessous. 
 
 [![NotUnderLimit](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png) À la date d'exécution de la planification, si le stock disponible n'est pas en dessous de la limite de stock de sécurité, l'option **Date du jour + délai d'approvisionnement** génère le résultat suivant, car elle reporte l'exécution jusqu'à la fin du délai d'approvisionnement.
-![Planification d'un article avec le code couverture **Demande ** et l'option **Première sortie**](./media/ReqTodayLT.png)
+![Planification d'un article avec le code couverture **Demande** et l'option **Première sortie**](./media/ReqTodayLT.png)
 ### <a name="coverage-time-fence"></a>Plage de gestion de la couverture
 La quantité minimale indiquée est atteinte pendant la période indiquée dans le champ **Plage de gestion de la couverture**. Cette option est utile lorsque la planification n'autorise pas l'utilisation du stock disponible pour les commandes réelles, telles que les ventes ou les transferts, lors de la tentative de maintien du niveau de sécurité. Toutefois, dans une prochaine version, ce mode de réapprovisionnement ne sera plus nécessaire, et cette option sera déconseillée.
 ## <a name="plan-safety-stock-replenishment-for-first-expired-first-out-fefo-items"></a>Planifier le réapprovisionnement du stock de sécurité pour les articles FEFO (Premier arrivé à expiration, premier sorti)
@@ -117,4 +116,3 @@ La transaction de demande de stock de sécurité n'est pas traitée en priorité
 Pendant la phase de couverture de la planification, le réapprovisionnement du stock de sécurité n'est plus dépriorisé. Le stock disponible peut être utilisé avant les autres types de demande. Lors du calcul du retard, une nouvelle logique est ajoutée pour parcourir les lignes de vente retardées, les demandes de ligne de nomenclature et tous les autres types de demande, pour déterminer si la livraison peut être effectuée à temps, à condition que le stock de sécurité soit utilisé. Si le système détermine qu'il peut réduire les retards à l'aide du stock de sécurité, les lignes de vente ou de nomenclature remplacent leur couverture d'origine par le stock de sécurité, et le système déclenche à la place le réapprovisionnement du stock de sécurité.
 
 Si le plan ou l'article n'est pas paramétré pour le calcul du retard, la contrainte du stock de sécurité a la même priorité que les autres types de demande. Cela signifie qu'il existe une réserve de stock disponible avant les autres types de demande.
-

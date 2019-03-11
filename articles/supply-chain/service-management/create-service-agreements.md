@@ -1,31 +1,30 @@
 ---
-title: "Création d'accords de service"
-description: "Cette rubrique décrit l'utilisation des fonctionnalités des modules de comptabilité Gestion des services et Gestion de projets pour la création d'accords de service."
+title: Création d'accords de service
+description: Cette rubrique décrit l'utilisation des fonctionnalités des modules de comptabilité Gestion des services et Gestion de projets pour la création d'accords de service.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a094ce9f0d9323b089055e74d41cf1f45323a7d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2a46173a3566a56a21add9d42c111d456b1ae7c1
-ms.openlocfilehash: 517bc1b9de9b2512f42e4f32b4a19e517e349e8e
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/19/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310942"
 ---
-
 # <a name="create-service-agreements"></a>Création d'accords de service
 
 [!include [banner](../includes/banner.md)]
@@ -61,6 +60,5 @@ Cette rubrique décrit l'utilisation des fonctionnalités des modules de comptab
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Accords de service](service-agreements.md)
-
 
 

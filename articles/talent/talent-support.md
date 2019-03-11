@@ -1,13 +1,13 @@
 ---
 title: Obtenir de l'aide sur Talent
-description: "Cette rubrique explique comment obtenir de l'aide sur Dynamics 365 for Talent."
+description: Cette rubrique décrit comment obtenir de l'aide avec Dynamics 365 for Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 9b2d7159b458b6f3b2cbb3271210c10ab486f496
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304443"
 ---
-
 # <a name="get-support-for-talent"></a>Obtenir de l'aide sur Talent
 
 [!include [banner](includes/banner.md)]
@@ -55,4 +54,3 @@ Pour obtenir de l'aide sur Attract et Onboard, utilisez les ressources du tablea
 | Signaler un problème                                                        | Sélectionnez l'icône **?** dans le menu et sélectionnez les options pour signaler un problème. Décrivez le problème et indiquez une adresse électronique si vous souhaitez suivre le problème signalé.                                                                                           |
 | Poser des questions sur les licences Talent                         | Contactez votre partenaire ou votre représentant commercial Microsoft.                                                                                                                                                                                                                                        |
 | Demander de nouvelles fonctionnalités dans Attract et Onboard | Cliquez sur l'icône **?** et sélectionnez **Idées**, ou utilisez les liens suivants pour afficher, rechercher, voter ou ajouter de nouvelles idées : [Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract) ou [Onboard](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard). |
-

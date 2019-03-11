@@ -1,37 +1,36 @@
 ---
-title: Contenu Power BI du gestionnaire de pratique
-description: "Cette rubrique décrit les données incluses dans le contenu Power BI du gestionnaire de pratique. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu."
+title: Contenu Power BI Gestionnaire de pratique
+description: Cette rubrique décrit les données incluses dans le contenu Power BI du gestionnaire de pratique. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367798"
 ---
-
-# <a name="practice-manager-power-bi-content"></a>Contenu Power BI du gestionnaire de pratique
+# <a name="practice-manager-power-bi-content"></a>Contenu Power BI Gestionnaire de pratique
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **Gestionnaire de pratique**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit les données incluses dans le contenu Power BI **Gestionnaire de pratique**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Présentation
 
 Le contenu Power BI **Gestionnaire de pratique** a été créé pour les gestionnaires de pratique et les chefs de projet. Il fournit des mesures clés associées aux projets sur lesquels l'organisation travaille. Le tableau de bord fournit une vue d'ensemble des projets et des clients associés. Un filtre au niveau de l'état peut être utilisé pour générer un état pour des entités juridiques spécifiques. Ce contenu Power BI extrait des données des mesures globales comptables du projet.
 
@@ -43,7 +42,7 @@ Tous les montants du contenu sont indiqués dans la devise du système. Vous pou
 
 Le contenu Power BI **Gestionnaire de pratique** s'affiche dans l'espace de travail **Gestion de projets**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le contenu Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
 
 Le tableau suivant fournit des détails sur les mesures disponibles sur chaque page d'état du contenu Power BI **Gestionnaire de pratique**.
 
@@ -59,7 +58,7 @@ Les graphiques et les vignettes sur tous ces états peuvent être filtrés et é
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 
-Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestionnaire de pratique**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md)
+Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestionnaire de pratique**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md).
 
 Les sections suivantes décrivent les mesures globales utilisées dans chaque entité.
 
@@ -119,4 +118,3 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 | Mesure globale clé       | Champ               | Description |
 |---------------------------------|---------------------|-------------|
 | Coût prévisionnel de l'activité terminée | Sum(TotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées. |
-

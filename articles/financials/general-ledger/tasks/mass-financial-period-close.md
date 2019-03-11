@@ -1,13 +1,13 @@
---- 
-title: "Secteur de clôture de période comptable"
-description: "Cette procédure indique comment mettre une période en attente ou clôturer définitivement une période ou plusieurs entités juridiques simultanément."
+---
+title: Secteur de clôture de période comptable
+description: Cette procédure indique comment mettre une période en attente ou clôturer définitivement une période ou plusieurs entités juridiques simultanément.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a2988b7ab0837cc9a3e4f1c4eaf3fe6e219fa721
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8d7151cbcd02f9312ca6b0de5e27231a0b0dc9d6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311379"
 ---
 # <a name="mass-financial-period-close"></a>Secteur de clôture de période comptable
 
@@ -46,5 +46,4 @@ Cette procédure indique comment mettre une période en attente ou clôturer dé
 11. Sélectionnez Mettre à jour le statut de la période et définissez le statut sur En attente, En cours ou Clôturé définitivement.
     * En cours indique la période pendant laquelle la validation est possible, pour autant que l'utilisateur ait accès. En attente signifie que la période ne peut faire l'objet d'aucune validation, mais elle peut être rouverte. Clôturé définitivement signifie que la période est clôturée et ne peut jamais être ouverte. Les ajustements ne peuvent pas être validés. Il n'est pas recommandé de définir une période comme définitivement clôturée avant que tous les ajustements et audits soient terminés.  
 12. Cliquez sur Mise à jour.
-
 

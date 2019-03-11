@@ -1,13 +1,13 @@
 ---
 title: Codes info et groupes de codes info
-description: "Cet article fournit une vue d'ensemble à propos des codes d'informations, des groupes de codes d'informations et la manière de les utiliser."
+description: Cet article fournit une vue d'ensemble à propos des codes d'informations, des groupes de codes d'informations et la manière de les utiliser.
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340819"
 ---
-
 # <a name="info-codes-and-info-code-groups"></a>Codes info et groupes de codes info
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ Vous pouviez les codes info de sorte à ce que lorsqu'un code info se déclenche
 **Exemple 2 : Lier des codes info à des groupes de codes info**
 
 Lorsque vous vendez certains produits, par exemple des appareils mobiles, vous souhaitez toujours collecter un ensemble d'informations spécifiques, tel que le numéro de téléphone, l'identificateur de l'équipement mobile (MEID), et le numéro de série. Toutefois, vous souhaitez également collecter des informations différentes pour une tablette/un téléphone portable. Vous pouvez paramétrer un groupe de codes info qui inclut des invites pour le numéro de téléphone, le MEID et le numéro de série, puis lier le groupe de codes info à un code info individuel. Lorsque le code info spécifique au produit est déclenché, le groupe de codes info peut être ensuite déclenché pour vous permettre de collecter les données communes sans devoir définir plusieurs ensembles de codes info liés pour chaque périphérique.
-

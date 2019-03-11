@@ -1,31 +1,30 @@
 ---
-title: "Créer des objets de service"
+title: Créer des objets de service
 description: Les objets de service sont des actifs et des produits d'un client pour lesquels vous pouvez effectuer un service.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4675ad83d5e569f2286ce667acd59ed294dc5d82
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: 406198196a3da2583002b747f177fcc44c4fdba1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331458"
 ---
-
 # <a name="create-service-objects"></a>Créer des objets de service  
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,6 @@ Les objets de service sont des actifs et des produits d'un client pour lesquels 
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Objets du service](service-objects.md)
-
 
 
 

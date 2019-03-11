@@ -1,13 +1,13 @@
 ---
 title: Remises fournisseur
-description: "Cette rubrique fournit une vue d'ensemble des tâches les plus courantes que vous souhaitez peut-être effectuer lorsque vous utilisez des remises fournisseur. Les remises fournisseur aident au mieux les sociétés à gérer leurs programmes de remise fournisseur en automatisant les tâches nécessaires afin d'administrer, de suivre et de réclamer les remises dues."
+description: Cette rubrique fournit une vue d'ensemble des tâches les plus courantes que vous souhaitez peut-être effectuer lorsque vous utilisez des remises fournisseur. Les remises fournisseur aident au mieux les sociétés à gérer leurs programmes de remise fournisseur en automatisant les tâches nécessaires afin d'administrer, de suivre et de réclamer les remises dues.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
+ms.openlocfilehash: 90bee2925f135b3d626ba898a0e9995b5b8437ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 477c1648ce700592677adfd8bfc8701c27fbab6f
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341072"
 ---
-
 # <a name="vendor-rebates"></a>Remises fournisseur
 [!include [banner](../includes/banner.md)]
 
@@ -159,4 +158,3 @@ Le processus de gestion des remises fournisseur implique plusieurs tâches de su
 - Génération de réclamations de remise précises
 - Accumulation de la créance et du gain intermédiaire attendus dans la comptabilité
 - Mise à jour du solde fournisseur et du compte de résultat avec la réduction due
-

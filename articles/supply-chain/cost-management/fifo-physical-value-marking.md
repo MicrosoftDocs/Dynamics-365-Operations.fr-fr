@@ -1,13 +1,13 @@
 ---
 title: FIFO avec valeur physique et marquage
-description: "Premier entré, premier sorti (First In, First Out, ou FIFO) est un modèle de stock selon lequel les premières réceptions en stock sont sorties en premier. Les sorties de stock mises à jour financièrement sont réglées avec les premières réceptions en stock, en fonction de la date financière du mouvement de stock."
+description: Premier entré, premier sorti (First In, First Out, ou FIFO) est un modèle de stock selon lequel les premières réceptions en stock sont sorties en premier. Les sorties de stock mises à jour financièrement sont réglées avec les premières réceptions en stock, en fonction de la date financière du mouvement de stock.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3e05b45e2c9ad57074fff5a7d86d0b347482fd63
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348823"
 ---
-
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO avec valeur physique et marquage
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions
 - Les mouvements de stock sont représentés par les flèches verticales.
 - Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
 - Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
-- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantity@Unitprice.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
 - La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
 - La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
@@ -92,7 +91,7 @@ La transaction 5b sera réglée en fonction de la transaction de réception 1b. 
 - Les mouvements de stock sont représentés par les flèches verticales.
 - Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
 - Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
-- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantity@Unitprice.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
 - La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
 - La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
@@ -122,14 +121,13 @@ Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions
 - Les mouvements de stock sont représentés par les flèches verticales.
 - Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
 - Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
-- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantity@Unitprice.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
 - La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
 - La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
 - Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
 - Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
 - Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
-
 
 
 

@@ -1,37 +1,36 @@
 ---
-title: "Synchroniser les en-têtes et les lignes de facture client provenant directement du module Finance and Operations avec Sales"
-description: "Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de facture client directement entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Sales."
+title: Synchroniser les en-têtes et les lignes de facture client provenant directement du module Finance and Operations avec Sales
+description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de factures commerciales directement depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: afbf4a24b737cf7221bac4b688b8801b1bcd839c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319498"
 ---
-
-# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Synchroniser directement les en-têtes et les lignes de facture client provenant du module Finance and Operations sur Sales
+# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Synchroniser directement les en-têtes et les lignes de facture client entre Finance and Operations et Sales
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de facture client directement entre Microsoft Dynamics 365 for Finance and Operations et Microsoft Dynamics 365 for Sales.
+Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de factures commerciales directement depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flux de données dans Prospect en disponibilités
 
@@ -139,7 +138,6 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 [Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations](contacts-template-mapping-direct.md)
 
 [Synchroniser les en-têtes et les lignes de commande client directement entre le module Finance and Operations et Sales](sales-order-template-mapping-direct-two-ways.md)
-
 
 
 

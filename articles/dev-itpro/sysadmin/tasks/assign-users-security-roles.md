@@ -1,13 +1,13 @@
---- 
-title: "Affecter des utilisateurs à des rôles de sécurité"
-description: "Pour accéder à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, des rôles de sécurité doivent être affectés aux utilisateurs."
+---
+title: Affecter des utilisateurs à des rôles de sécurité
+description: Pour accéder à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, les utilisateurs doivent être affectés à des rôles de sécurité.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
 ms.reviewer: margoc
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349950"
 ---
 # <a name="assign-users-to-security-roles"></a>Affecter des utilisateurs à des rôles de sécurité
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Pour accéder à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, des rôles de sécurité doivent être affectés aux utilisateurs. Cette procédure explique comment les administrateurs système peuvent affecter des utilisateurs aux rôles automatiquement, selon les données commerciales. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Pour accéder à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, les utilisateurs doivent être affectés à des rôles de sécurité. Cette procédure explique comment les administrateurs système peuvent affecter des utilisateurs aux rôles automatiquement, selon les données commerciales. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Affecter automatiquement des utilisateurs à des rôles
@@ -52,5 +52,4 @@ Pour accéder à Microsoft Dynamics 365 for Finance and Operations, Enterprise 
     * Sélectionner un utilisateur.  
 6. Cliquez sur Exclure du rôle.
     * Cliquez sur Exclure du rôle pour exclure les utilisateurs sélectionnés du rôle. Pour supprimer des exclusions, sélectionnez les utilisateurs à supprimer des exclusions, puis cliquez sur Redéfinition du statut. Lorsque vous supprimez une exclusion en réinitialisant le statut de l'utilisateur, le rôle d'utilisateur est de nouveau affecté automatiquement. Toutefois, l'utilisateur n'est pas immédiatement affecté au rôle ou exclu du rôle lorsque vous réinitialisez le statut. Au lieu de cela, l'utilisateur est affecté au rôle ou exclu de celui-ci la prochaine fois que les règles pour l'affectation de rôle automatique sont exécutées.  
-
 

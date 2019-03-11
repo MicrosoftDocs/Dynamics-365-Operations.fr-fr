@@ -1,13 +1,13 @@
---- 
-title: "Paramétrer les codes disposition"
-description: "Cette procédure se concentre sur le paramétrage du code disposition qui peut être utilisé sur un périphérique portable pour l'ordre de retour recevant le processus."
+---
+title: Paramétrer les codes disposition
+description: Cette procédure se concentre sur le paramétrage du code disposition qui peut être utilisé sur un périphérique portable pour l'ordre de retour recevant le processus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324121"
 ---
 # <a name="set-up-dispositions-codes"></a>Paramétrer les codes disposition
 
@@ -39,5 +39,4 @@ Cette procédure se concentre sur le paramétrage du code disposition qui peut �
     * Facultatif : sélectionnez un code de modèle de travail associé à un ordre de retour. Si aucune valeur n'est fournie, le modèle de travail est résolu à l'aide des règles standard configurées dans votre système. La sélection d'un modèle de travail limitera les processus dans lesquels ce code disposition pourra être utilisé. Par exemple, si le code disposition a un modèle de travail avec un ordre d'entretien de type commande fournisseur, il ne peut pas être utilisé pour enregistrer les retours clients.  
 6. Dans le champ Disposition des retours, tapez une valeur.
     * Le code disposition de retour détermine le reste du processus d'ordre de retour pour les articles enregistrés. Dans cet exemple, le client doit recevoir un avoir. Ajoutez un code disposition de retours qui contient un crédit d'action.  
-
 

@@ -1,14 +1,14 @@
 ---
-title: "N° document"
-description: "La fonctionnalité N° document pour les journaux financiers (journal des opérations diverses, journal des immobilisations, journal des paiements fournisseur, etc.) permet d'entrer plusieurs transactions de comptabilité auxiliaire dans le contexte d'un N° document unique."
+title: N° document
+description: La fonctionnalité N° document pour les journaux financiers (journal des opérations diverses, journal des immobilisations, journal des paiements fournisseur, etc.) permet d'entrer plusieurs transactions de comptabilité auxiliaire dans le contexte d'un N° document unique.
 author: kweekley
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
+ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 26ae31efe55eeaf6d09ef14112811ea8977bfb0a
-ms.openlocfilehash: 62c30ea748c49b0a3cfe544c7ba10eb52389c50a
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/05/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308550"
 ---
-
 # <a name="one-voucher"></a>N° document
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,7 @@ En raison des problèmes mentionnés précédemment, la fonctionnalité N° docu
 - **Version du printemps 2018** – Par défaut, la fonctionnalité sera désactivée par défaut via le paramètre **Autoriser plusieurs transactions dans un N° document** sous l'onglet **Général** de la page **Paramètres de comptabilité**. Toutefois, vous pouvez activer la fonctionnalité si votre organisation a un scénario qui s'inscrit dans l'un des écarts de scénario fonctionnels répertoriés plus loin dans cette rubrique.
 
     - Si des clients ont un scénario d'entreprise qui ne nécessite pas la fonctionnalité N° document, ils ne doivent pas activer la fonctionnalité. Microsoft ne corrigera pas les « bogues » dans les zones identifiées plus loin dans cette rubrique si cette fonctionnalité est utilisée même si une autre solution existe.
-    - Arrêtez d'utiliser la fonctionnalité N° document pour les intégrations dans Microsoft Dynamics 365 for Finance and Operations, sauf si la fonctionnalité est requise pour l'un des écarts fonctionnels.
+    - Arrêtez d'utiliser la fonctionnalité N° document pour les intégrations dans Microsoft Dynamics 365 for Finance and Operations, sauf si la fonctionnalité est requise pour l'un des écarts fonctionnels.
 
 - **Versions ultérieures** – Tous les écarts fonctionnels seront comblés. **Une fois les écarts fonctionnels comblés et de nouvelles fonctionnalités fournies, au moins un an s'écoulera avant que la fonctionnalité N° document soit définitivement désactivée**, car les clients et les éditeurs de logiciels indépendants doivent avoir suffisamment de temps pour réagir à la nouvelle fonctionnalité. Par exemple, ils peuvent devoir mettre leurs processus d'entreprise, entités, et intégrations à jour.
 
@@ -153,7 +152,7 @@ Les organisations souhaitent souvent effectuer une validation récapitulative da
 
 Ce scénario est généralement utilisé dans les organisations de vente au détail où les clients peuvent utiliser plusieurs modes de paiement pour les achats. Dans ce scénario, l'organisation doit pouvoir enregistrer plusieurs paiements non validés et les régler pour la facture client.
 
-Une nouvelle fonctionnalité ajoutée dans la version 1611 de Microsoft Dynamics 365 for Operations (novembre 2016) permet de régler plusieurs paiements non validés pour une facture unique. Il n'est plus nécessaire d'entrer plusieurs paiements client dans un N° document unique.
+Une nouvelle fonctionnalité ajoutée dans la version 1611 de Microsoft Dynamics 365 for Operations (novembre 2016) permet de régler plusieurs paiements non validés pour une facture unique. Il n'est plus nécessaire d'entrer plusieurs paiements client dans un N° document unique.
 
 ### <a name="import-bank-statement-transactions"></a>Importer les transactions de relevé bancaire
 

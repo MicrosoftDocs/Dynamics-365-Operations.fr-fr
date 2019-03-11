@@ -1,13 +1,13 @@
 ---
-title: "Page d'accueil de la fonctionnalité de budgétisation"
-description: "Cette rubrique fournit une vue d'ensemble des composants de la fonctionnalité de budgétisation, des outils de budgétisation et des fonctionnalités de génération d'états dans Microsoft Dynamics 365 for Finance and Operations."
+title: Page d'accueil de la fonctionnalité de budgétisation
+description: Cette rubrique fournit une vue d'ensemble des composants de la fonctionnalité de budget, des outils de budgétisation et des fonctionnalités de génération d'états dans Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302285"
 ---
-
 # <a name="budgeting-home-page"></a>Page d'accueil de la fonctionnalité de budgétisation
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Pour plus d'informations sur l'entrée de données de planification d'autres mod
 Dans Finance and Operations, les utilisateurs peuvent créer des plans budgétaires directement dans le client Finance and Operations (à l'aide d'une page configurable de document de plan budgétaire) ou à l'aide d'Excel. Excel fournit plusieurs capacités supplémentaires. Par exemple, vous pouvez utiliser des données externes comme source pour un plan budgétaire, effectuer des calculs personnalisés, et utiliser Microsoft PivotTable et des graphiques. La plupart des variables du processus de planification budgétaire peuvent être configurées. 
 
 Par exemple, vous pouvez définir qui effectue la budgétisation, qu'est-ce qui est budgété, et à quoi ressemble le processus. Bien que vous puissiez utiliser Excel pour la planification de budget, Finance and Operations demeure la source unique de la vérité et empêche les problèmes de contrôle budgétaire. Des processus périodiques peuvent être utilisés pour remplir le plan budgétaire avec les données initiales de budgétisation. Pour générer un état, Finance and Operations offre un ensemble de pages standard de recherche qui permettent d'afficher et d'analyser les données de budgétisation. Les données du plan budgétaire peuvent être consultées par Management Reporter, et il est possible d'afficher les scénarios de plan budgétaire distincts en colonnes dans l'état de Management Reporter.
-
 
 
 

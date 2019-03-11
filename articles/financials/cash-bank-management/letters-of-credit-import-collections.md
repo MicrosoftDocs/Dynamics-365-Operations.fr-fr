@@ -1,13 +1,13 @@
 ---
-title: "Lettres de crédit et relances d'importation"
-description: "Cet article fournit des informations générales sur les lettres de crédit et des relances d'importation. Ces deux types de documents bancaires sont fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales."
+title: Lettres de crédit et relances d'importation
+description: Cet article fournit des informations générales sur les lettres de crédit et des relances d'importation. Ces deux types de documents bancaires sont fréquemment utilisés pour l'achat et la vente de biens au-delà des frontières internationales.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4332c7bb0344bd0caabd5d1a26fb8e4bb4fc862d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323040"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>Lettres de crédit et relances d'importation
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Une lettre de crédit peut être **révocable** ou **irrévocable**. La nature d
 Une relance d'importation est un accord entre la banque et l'exportateur (vendeur) dans lequel la banque accepte de transférer la documentation d'expédition à l'importateur international (acheteur). La banque est supposée transmettre la documentation d'expédition dès réception du paiement pour les biens expédiés au comptant ou dès réception via d'une lettre de change signée pour le paiement. 
 
 Une relance d'importation permet de garantir que le vendeur est payé lorsque l'acheteur récupère les documents d'expédition pour réceptionner la livraison des biens importés.
-
 
 
 

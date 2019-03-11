@@ -1,13 +1,13 @@
 ---
 title: Configurer et utiliser des blocages de commande dans le centre d'appels
-description: "Cette rubrique décrit l'utilisation de blocages sur les commandes à l'aide de Microsoft Dynamics 365 for Retail."
+description: Cette rubrique décrit l'utilisation de blocages sur les commandes à l'aide de Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335299"
 ---
-
-# <a name="configure-and-work-with-call-center-order-holds"></a>Configurer et utiliser des blocages de commande dans le centre d'appels
+# <a name="configure-and-work-with-call-center-order-holds"></a>Configurer et utiliser les blocages de commande dans le centre d'appels
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctions de blocage de commande de Microsoft Dynamics 365 for Retail pour les commandes du centre d'appels.
+Cette rubrique décrit les fonctions de blocage de commande de Microsoft Dynamics 365 for Retail pour les commandes du centre d'appels.
 
 ## <a name="configuring-call-center-order-holds"></a>Configuration des blocages de commande dans le centre d'appels
 
@@ -104,4 +103,3 @@ Si les utilisateurs souhaitent supprimer un blocage mais effectuer des modificat
 ## <a name="reporting-options"></a>Options de génération d'états
 
 Accédez à **Vente au détail** \> **Recherches et états** \> **États du centre d'appels** \> **État des commandes en attente** pour exécuter un état sur les mises en attente de commande par plage de dates, code de blocage ou d'autres critères associés.
-

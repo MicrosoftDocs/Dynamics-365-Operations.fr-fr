@@ -1,13 +1,13 @@
 ---
-title: "Paramétrer l'analyse RFM (récence, fréquence et valeur monétaire)"
-description: "Cette rubrique décrit comment paramétrer une analyse RFM (récence, fréquence et valeur monétaire) de vos clients."
+title: Paramétrer l'analyse RFM (récence, fréquence et valeur monétaire)
+description: Cette rubrique décrit comment paramétrer une analyse RFM (récence, fréquence et valeur monétaire) de vos clients.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRRFMDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336633"
 ---
-
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Paramétrer l'analyse RFM (récence, fréquence et valeur monétaire)
 
 [!include [banner](includes/banner.md)]
@@ -98,4 +97,3 @@ Cette procédure permet d'afficher ou de supprimer l'historique d'un enregistrem
 2. Sur la page **Analyse RFM**, sélectionnez l'enregistrement à afficher.
 3. Pour afficher l'historique de l'enregistrement, sélectionnez l'organisateur **Historique**.
 4. Pour effacer l'historique de l'enregistrement, sélectionnez **Effacer l'historique**.
-

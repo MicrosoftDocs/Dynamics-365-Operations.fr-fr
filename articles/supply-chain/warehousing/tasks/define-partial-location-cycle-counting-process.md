@@ -1,13 +1,13 @@
---- 
-title: "Définir le processus de comptage de cycle partiel d'emplacement"
-description: "Lorsque vous utilisez des plans d'inventaire tournant pour créer le travail d'inventaire, vous pouvez guider les opérations d'inventaire réelles en demandant que seuls des produits et des variantes de produit spécifiques soient comptabilisés au lieu de l'ensemble du stock disponible dans l'emplacement."
+---
+title: Définir le processus de comptage de cycle partiel d'emplacement
+description: Lorsque vous utilisez des plans d'inventaire tournant pour créer le travail d'inventaire, vous pouvez guider les opérations d'inventaire réelles en demandant que seuls des produits et des variantes de produit spécifiques soient comptabilisés au lieu de l'ensemble du stock disponible dans l'emplacement.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e92b5cd4d903a68d30f7c25fd7e3df8989bb82d1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373398"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Définir le processus de comptage de cycle partiel d'emplacement 
 
@@ -71,5 +71,4 @@ Lorsque vous utilisez des plans d'inventaire tournant pour créer le travail d'i
 13. Dans le champ Critères, saisissez ou sélectionnez une valeur.
 14. Cliquez sur OK.
 15. Fermez la page.
-
 

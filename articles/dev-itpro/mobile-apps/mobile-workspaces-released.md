@@ -1,13 +1,13 @@
 ---
 title: Espaces de travail mobiles disponibles
-description: "Cette rubrique répertorie les espaces de travail mobiles disponibles."
+description: Cette rubrique répertorie les espaces de travail mobiles disponibles.
 author: sericks007
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354964"
 ---
-
 # <a name="available-mobile-workspaces"></a>Espaces de travail mobiles disponibles
 
 [!include [banner](../includes/banner.md)]
@@ -30,7 +29,7 @@ ms.lasthandoff: 08/08/2018
 Cette rubrique liste les espaces de travail mobiles qui peuvent être utilisés avec l'application mobile Dynamics 365 for Unified Operations.
 
 > [!NOTE]
-> L'application mobile était précédemment nommée *Microsoft Dynamics 365 for Finance and Operations*.
+> L'application mobile a été précédemment nommée *Microsoft Dynamics 365 for Finance and Operations*.
 
 | Espace de travail mobile     | Description   | Disponibilité   |
 |----------------------|---------------|--------------|
@@ -44,5 +43,4 @@ Cette rubrique liste les espaces de travail mobiles qui peuvent être utilisés 
 | [Stock disponible](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Permet d'obtenir des informations sur le stock réservé et disponible.                                                                                                    |   Janvier 2017       |
 | [Commandes client](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Vous pouvez rester à jour de vos commandes client.                                                                                                                          |  Janvier 2017                  |
 | [Collaboration du fournisseur](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Les fournisseurs peuvent être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour. |Janvier 2017    |
-
 

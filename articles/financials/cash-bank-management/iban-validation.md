@@ -1,13 +1,13 @@
 ---
-title: "Gérer la validation d'un compte IBAN (Numéro de compte bancaire international)"
-description: "Cette rubrique explique comment gérer la validation d'un compte IBAN (Numéro de compte bancaire international)."
+title: Gérer la validation d'un compte IBAN (Numéro de compte bancaire international)
+description: Cette rubrique explique comment gérer la validation d'un compte IBAN (Numéro de compte bancaire international).
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
 ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360001"
 ---
-
 # <a name="manage-international-bank-account-number-iban-validation"></a>Gérer la validation d'un IBAN (Numéro de compte bancaire international)
 
 [!include [banner](../includes/banner.md)]
 
 La validation d'un IBAN (Numéro de compte bancaire international) augmente le niveau de validation lorsque vous ajoutez un IBAN à un compte bancaire.
 
-Les informations sur la structure de l'IBAN sont stockées dans Microsoft Dynamics 365 for Finance and Operations. Ces informations sont chargées automatiquement lorsque vous utilisez pour la première fois l'IBAN sur les comptes bancaires. Elles contiennent la longueur de l'IBAN, les positions de départ du numéro de compte bancaire et du numéro d'acheminement, et la longueur du numéro de compte bancaire et du numéro d'acheminement.
+Les informations sur la structure IBAN sont enregistrées dans Microsoft Dynamics 365 for Finance and Operations. Ces informations sont chargées automatiquement lorsque vous utilisez pour la première fois l'IBAN sur les comptes bancaires. Elles contiennent la longueur de l'IBAN, les positions de départ du numéro de compte bancaire et du numéro d'acheminement, et la longueur du numéro de compte bancaire et du numéro d'acheminement.
 
 ## <a name="set-up-iban-structures"></a>Paramétrer les structures IBAN
 
@@ -49,4 +48,3 @@ Les informations sur la structure de l'IBAN sont stockées dans Microsoft Dynami
     La validation vérifie également que le numéro de compte bancaire correspond à la partie de l'IBAN qui représente le numéro de compte bancaire. Si le numéro de compte bancaire ne correspond pas, vous recevrez un message d'avertissement. Ce message n'est qu'un avertissement. Vous pouvez continuer même si le numéro de compte bancaire ne correspond pas.
 
     La validation vérifie également que le numéro d'acheminement correspond à la partie de l'IBAN qui représente le numéro d'acheminement. Le numéro d'acheminement contient un numéro bancaire et souvent une agence bancaire supplémentaire. Si le numéro d'acheminement bancaire ne correspond pas, vous recevrez un message d'avertissement. Ce message n'est qu'un avertissement. Vous pouvez continuer même si le numéro d'acheminement bancaire ne correspond pas.
-

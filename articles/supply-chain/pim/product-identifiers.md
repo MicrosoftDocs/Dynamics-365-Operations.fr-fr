@@ -1,32 +1,31 @@
 ---
 title: Identificateurs du produit
-description: "Cette rubrique fournit des informations sur les différents types d'identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit."
+description: Cette rubrique fournit des informations sur les différents types d'identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit.
 author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: afd542a652abdf6e45c83a6097dc8f0d36efa905
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/23/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335414"
 ---
-
 # <a name="product-identifiers"></a>Identificateurs du produit 
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ Lorsque vous travaillez avec des produits dans l'atelier ou dans un entrepôt av
 
 ## <a name="unique-product-numberproduct-id"></a>Numéro de produit/ID de produit unique
 
-Dans Microsoft Dynamics 365 for Finance and Operations, l'identificateur principal d'un produit est le numéro de produit (c'est-à-dire, l'ID de produit unique). Ce numéro peut être généré automatiquement par une souche de numéros, ou il peut être associé manuellement à un produit. Pour les variantes de produit, les numéros peuvent être définis à l'aide du modèle de nomenclature produit.
+Dans Microsoft Dynamics 365 for Finance and Operations, l'identificateur principal d'un produit est le numéro de produit (c'est-à-dire, l'ID de produit unique). Ce numéro peut être généré automatiquement par une souche de numéros, ou il peut être associé manuellement à un produit. Pour les variantes de produit, les numéros peuvent être définis à l'aide du modèle de nomenclature produit.
 
 Dans de nombreux cas, le numéro de produit n'est pas créé initialement dans Finance and Operations. Au lieu de cela, il est associé à un produit dans un système de gestion des cycles de vie des produits ou un système de gestion d'informations sur les produits. Dans ce cas, vous utilisez des entités de données pour importer les produits et les variantes de produit. Finance and Operations utilise ensuite les numéros dans toutes les opérations.
 
@@ -47,7 +46,7 @@ Lorsque vous utilisez Common Data Service (CDS), le numéro de produit dans Fina
 
 ## <a name="item-number-and-product-dimensions"></a>Numéro d'article et dimensions de produit
 
-Le numéro d'article est l'identificateur de produit utilisé par une entité juridique spécifique. Idéalement, le numéro d'article doit être identique au numéro de produit. Si la nomenclature diffère selon l'entité juridique, il devient difficile de suivre un produit tout au long de la chaîne d'approvisionnement, et des processus fastidieux de réétiquetage et référencement doivent être mis en place. Pour des raisons de compatibilité avec des versions précédentes (c'est-à-dire, avec Microsoft Dynamics AX 2009 et versions antérieures), nous avons retenu ce modèle. Toutefois, il est recommandé d'éliminer les identificateurs spécifiques aux entités juridiques chaque fois que possible, et d'utiliser le numéro de produit unique comme identificateur principal à la place.
+Le numéro d'article est l'identificateur de produit utilisé par une entité juridique spécifique. Idéalement, le numéro d'article doit être identique au numéro de produit. Si la nomenclature diffère selon l'entité juridique, il devient difficile de suivre un produit tout au long de la chaîne d'approvisionnement, et des processus fastidieux de réétiquetage et référencement doivent être mis en place. Pour des raisons de compatibilité avec des versions précédentes (c'est-à-dire, avec Microsoft Dynamics AX 2009 et versions antérieures), nous avons retenu ce modèle. Toutefois, il est recommandé d'éliminer les identificateurs spécifiques aux entités juridiques chaque fois que possible, et d'utiliser le numéro de produit unique comme identificateur principal à la place.
 
 En outre, une variante de produit ne peut pas être identifié de façon unique par un numéro d'article. Elle nécessite toujours la combinaison d'un numéro d'article et de toutes les dimensions de produit qui sont définies sur le produit générique. Cette condition requise peut devenir encombrante et ralentir les processus d'identification. C'est pourquoi il est recommandé d'utiliser le numéro de produit unique à la place du numéro d'article chaque fois que possible.
 
@@ -186,4 +185,3 @@ Vous pouvez désormais utiliser s entités de données **Entité d'identificateu
 ## <a name="related-topic"></a>Rubrique connexe
 
 [Rechercher des produits et des variantes de produits lors de la saisie de commande](search-products-product-variants.md)
-

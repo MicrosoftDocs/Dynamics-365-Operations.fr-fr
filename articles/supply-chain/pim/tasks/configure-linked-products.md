@@ -1,13 +1,13 @@
---- 
-title: "Configurer les produits liés"
-description: "Cette procédure décrit la configuration de produits liés."
+---
+title: Configurer les produits liés
+description: Cette procédure décrit la configuration de produits liés.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 306e9ebca811c576b06de3aef697ed64cbe85180
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322465"
 ---
 # <a name="configure-linked-products"></a>Configurer les produits liés
 
@@ -39,5 +39,4 @@ Cette procédure décrit la configuration de produits liés. Cette procédure ut
 9. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 10. Dans le champ Quantité, entrer un numéro.
 11. Cliquez sur Enregistrer.
-
 

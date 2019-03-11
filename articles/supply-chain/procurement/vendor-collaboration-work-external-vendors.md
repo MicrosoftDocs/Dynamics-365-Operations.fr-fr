@@ -1,13 +1,13 @@
 ---
 title: Collaboration fournisseur avec des fournisseurs externes
-description: "Cette rubrique explique comment les agents des achats peuvent collaborer avec des fournisseurs externes pour échanger des informations sur les commandes fournisseur et le stock de consignation."
+description: Cette rubrique explique comment les agents des achats peuvent collaborer avec des fournisseurs externes pour échanger des informations sur les commandes fournisseur et le stock de consignation.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350019"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
 [!include [banner](../includes/banner.md)]
 
-Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont pas l'intégration d'échange de données informatisé (EDI) avec Microsoft Dynamics 365 for Finance and Operations. Il permet aux fournisseurs d'utiliser les commandes fournisseur, les factures, les informations sur le stock de consignation et les appels d'offre. Il leur permet également d'accéder à des parties de leurs données principales. Cette rubrique explique comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l'interface de collaboration fournisseur pour utiliser les CF, les appels d'offre et le stock de consignation. Elle explique également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations visibles par tous les fournisseurs qui répondent à une commande fournisseur.
+Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont pas l'intégration d'échange de données informatisé (EDI) avec Microsoft Dynamics 365 for Finance and Operations. Il permet aux fournisseurs d'utiliser les commandes fournisseur, les factures, les informations sur le stock de consignation et les appels d'offre. Il leur permet également d'accéder à des parties de leurs données principales. Cette rubrique explique comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l'interface de collaboration fournisseur pour utiliser les CF, les appels d'offre et le stock de consignation. Elle explique également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations visibles par tous les fournisseurs qui répondent à une commande fournisseur.
 
 Pour plus d'informations sur ce que les fournisseurs externes peuvent effectuer dans l'interface de collaboration fournisseur, voir [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Les informations sur la collaboration fournisseur contenues dans cette rubrique s'appliquent uniquement à la version actuelle de Dynamics 365 for Finance and Operations. Dans la version d'application 7.0.1 de Microsoft Dynamics AX 7.0 (février 2016) et de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l'aide du module **Portail fournisseur**. Pour plus d'informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
+> Les informations sur la collaboration fournisseur contenues dans cette rubrique s'appliquent uniquement à la version actuelle de Dynamics 365 for Finance and Operations. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l'application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l'aide du module **Portail fournisseur**. Pour plus d'informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
 
 Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d'informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
@@ -260,4 +259,3 @@ L'utilisateur qui configure les paramètres pour le processus d'appel d'offre pe
 - %createddate%
 
 Si une modification est requise et envoyée après l'envoi de l'appel d'offre, l'appel d'offre est renvoyé à tous les fournisseurs invités. Le document publié est également mis à jour sur la page **Appels d'offre publiés en cours**.
-

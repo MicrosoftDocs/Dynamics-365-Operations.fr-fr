@@ -1,13 +1,13 @@
---- 
+---
 title: Revoir les informations de recouvrement
-description: "Cette procédure vous guide dans l'examen des informations de recouvrement ainsi que dans l'utilisation de diverses options relatives au paramétrage et aux transactions de recouvrement."
+description: Cette procédure vous guide dans l'examen des informations de recouvrement ainsi que dans l'utilisation de diverses options relatives au paramétrage et aux transactions de recouvrement.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349099"
 ---
 # <a name="review-collections-information"></a>Revoir les informations de recouvrement
 
@@ -131,5 +131,4 @@ Cette procédure vous guide dans l'examen des informations de recouvrement ainsi
     * Permet de sélectionner une demande de devis de recouvrement affectée au client ou de laisser ce champ vide. Si une demande de devis est sélectionnée, seules les transactions et les activités associées à celles-ci sont affichées dans cet écran.  
 8. Cliquez sur Afficher la liste.
     * Permet de sélectionner un compte client ou d'utiliser le compte par défaut. Par défaut, il s'agit du compte client sélectionné dans la page de liste ou l'écran à partir duquel vous avez ouvert cet écran. Si vous avez ouvert l'écran à partir d'une page de liste, les clients de la liste sont les clients inclus dans le regroupement de recouvrements utilisé dans la page de liste.  
-
 
