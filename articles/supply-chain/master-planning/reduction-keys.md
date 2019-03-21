@@ -3,7 +3,7 @@ title: Clés de réduction
 description: Cet article fournit des exemples qui indiquent comment paramétrer une clé de réduction. Il inclut des informations sur les différents paramètres de clé de réduction et les résultats de chacun d'entre eux. Vous pouvez utiliser une clé de réduction pour définir la méthode permettant de réduire les besoins de prévision.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e62431a1fdbeb81dda68297f034ee00adece079
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7457aca4ca4d5188bafb497d3052276cfc154ad1
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364808"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770914"
 ---
 # <a name="reduction-keys"></a>Clés de réduction
 
@@ -98,6 +98,7 @@ Dans la plupart des cas, les systèmes sont paramétrés de telle sorte que les 
 
    Dans cette prévision, il n'y a pas de période précise entre les dates de prévision : entre les première et deuxième dates, il y a une période de quatre jours, et entre les deuxième et troisième dates, il y a une période de sept jours. Ces différentes périodes sont les périodes dynamiques.
 2. Créez des lignes de commande client comme suit.
+
    | Date                             | Quantité de la commande client |
    |----------------------------------|----------------------|
    | 15 décembre de l'année précédente | 500                  |

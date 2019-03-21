@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313403"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403212"
 ---
 # <a name="expense-management"></a>Gestion des dépenses
 
@@ -37,15 +37,13 @@ Utilisez le module Gestion des dépenses pour créer un workflow intégré dans 
 
 #### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
-Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement. 
+Accédez aux [Notes de publication Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) pour afficher les nouvelles fonctions prévues. 
 
 #### <a name="blogs"></a>Blogs
 
-Vous trouverez des avis, des actualités et d'autres informations concernant la Comptabilité client et d'autres solutions sur le [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Des avis, actualités et autres informations sont disponibles sur le [Blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) et le [Blog financier Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-De nombreuses publications concernent la Comptabilité client dans le [blog de l'équipe de produit Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Bien que certaines de ces publications aient été rédigées pour la version précédente du module Comptabilité client, les mêmes concepts s'appliquent toujours et les procédures sont également similaires dans la version actuelle.
-
-Le [blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
+Le [blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations. 
 
 #### <a name="task-guides"></a>Guides de tâches
 Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.

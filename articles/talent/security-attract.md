@@ -3,7 +3,7 @@ title: Gestion de la sécurité et des rôles dans Attract
 description: Cette rubrique fournit des informations sur la sécurité des rôles dans Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374778"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789695"
 ---
 # <a name="security-and-role-management-in-attract"></a>Gestion de la sécurité et des rôles dans Attract
 
@@ -100,14 +100,16 @@ Les privilèges suivants s'appliquent aux données spécifiques aux missions pou
 | Données ou action          | Recruteur | Responsable du recrutement | Intervieweur |
 |-------------------------|-----------|----------------|-------------|
 | Documents de candidature   | Créer, lire, mettre à jour, et supprimer les missions pour lesquelles l'utilisateur fait partie de l'équipe de recrutement | Créer, lire, mettre à jour, et supprimer les missions pour lesquelles l'utilisateur fait partie de l'équipe de recrutement | Lecture seule |
-| Notes de candidature       | Créer, lire, mettre à jour, et supprimer les missions pour lesquelles l'utilisateur fait partie de l'équipe de recrutement | Créer, lire, mettre à jour, et supprimer les missions pour lesquelles l'utilisateur fait partie de l'équipe de recrutement | Créer |
+| Notes de candidature       | Créer, lire, mettre à jour, et supprimer les missions pour lesquelles l'utilisateur fait partie de l'équipe de recrutement | Créer, lire, mettre à jour, et supprimer les missions pour lesquelles l'utilisateur fait partie de l'équipe de recrutement | Lecture seule|
 | Activité de candidature    | Afficher, si l'utilisateur fait partie de l'équipe de recrutement | Afficher, si l'utilisateur fait partie de l'équipe de recrutement | Lecture seule |
 | Rétroaction sur la candidature    | Ajouter et afficher tous les commentaires si l'utilisateur fait partie de l'équipe de recrutement | Ajouter et afficher tous les commentaires si l'utilisateur fait partie de l'équipe de recrutement | Peut ajouter des commentaires\*\* |
 | Rejeter la candidature      | Peut rejeter si l'utilisateur fait partie de l'équipe de recrutement | Non autorisé | Non autorisé |
 | Changer de stade           | Peut rejeter si l'utilisateur fait partie de l'équipe de recrutement | Peut avancer si l'utilisateur fait partie de l'équipe de recrutement | Non autorisé |
 | Lancer la gestion des offres | Peut commencer la gestion des offres | Il existe une option de configuration sur l'activité d'offre. | Non autorisé |
 
-\*\* Une option de configuration dans le [paramétrage d'activité de rétroaction](activities-attract.md#feedback-activity) contrôle si les intervieweurs peuvent afficher les commentaires des uns et des autres.
+
+\*\* Une option de configuration dans le [paramétrage d'activité de rétroaction](./activities-attract.md) contrôle si les intervieweurs peuvent afficher les commentaires des uns et des autres.
+
 
 ## <a name="process-templates"></a>Modèles de processus
 

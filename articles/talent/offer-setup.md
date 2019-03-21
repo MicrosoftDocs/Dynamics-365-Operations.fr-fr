@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376505"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768880"
 ---
 # <a name="set-up-offer-management"></a>Paramétrer la gestion des offres 
 
@@ -199,11 +199,11 @@ Il existe plusieurs parties du processus de création d'offre qui peuvent être 
 - **Expérience d'offre du candidat** : En tant qu'administrateur, vous pouvez choisir de définir si toutes les offres ont une date d'expiration et, le cas échéant, quelle doit être la contrepartie par défaut pour la date d'expiration. Vous pouvez également configurer si les candidats peuvent refuser une offre.
 
 - **Signatures électroniques** - Tant donc qu'administrateur, vous pouvez également sélectionner la méthode que les candidats peuvent utiliser pour signer des offres.
-    - Adobe Sign - Tous les packages d'offre sont envoyés et signés via Adobe Sign. Chaque créateur d'offre publiant l'offre doit avoir sa licence Adobe Sign connectée Attract. 
+    - Adobe Sign - Tous les packages d'offre sont envoyés et signés via Adobe Sign. Chaque créateur d'offre publiant l'offre doit avoir son compte Adobe Sign connecté à Attract. Pour les licences Adobe Sign et une version d'évaluation, consultez ce [lien](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+    - DocuSign - Tous les packages d'offre sont envoyés et signés via DocuSign. Chaque créateur d'offre publiant l'offre doit avoir son compte DocuSign connecté à Attract. 
+    
     - ESign - Il s'agit de l'option par défaut, prédéfinie, permettant à l'utilisateur de signer une offre en entrant son nom et ses initiales.
 
->[!NOTE]
-> Pour les licences Adobe Sign et une version d'évaluation, consultez ce [lien](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
 Pour en savoir plus sur le processus de création d'offre, voir [Création, approbation et signature des offres](./creating-offers.md).

@@ -3,7 +3,7 @@ title: Frais automatiques avancés omnicanaux
 description: Cette rubrique décrit les capacités pour gérer les frais supplémentaires des commandes du canal Retail via les fonctions de frais automatiques avancés.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345557"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789769"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Frais automatiques avancés omnicanaux
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Cette rubrique fournit des informations sur la configuration et le déploiement de la fonction de frais automatiques avancés disponible dans Dynamics 365 for Retail version 10.0.
@@ -49,7 +48,7 @@ Sur la page **Vente au détail \> Configuration du siège \> Paramètres \> Para
 
 ![Paramètre de frais automatiques avancés](media/advancedchargesparameter.png)
 
-Lorsque les frais automatiques avancés sont activés, les utilisateurs sont invités plus longtemps à saisir manuellement des frais d'expédition au terminal de PDV lors de la création d'une commande client de type « Expédier tout » ou « Expédition sélectionnée ». Les frais de commande au PDV sont systématiquement calculés et ajoutés à la transaction au PDV (si un tableau de frais automatiques correspondant qui répond aux critères de la commande créée est trouvé). Les utilisateurs peuvent également ajouter ou conserver manuellement des frais au niveau de l'en-tête ou de la ligne manuellement via les opérations en PDV récemment ajoutées qui peuvent être ajoutées aux mises en page de l'écran de PDV.  
+Lorsque les frais automatiques avancés sont activés, les utilisateurs ne sont plus invités à saisir manuellement des frais d'expédition au terminal de PDV lors de la création d'une commande client de type « Expédier tout » ou « Expédition sélectionnée ». Les frais de commande au PDV sont systématiquement calculés et ajoutés à la transaction au PDV (si un tableau de frais automatiques correspondant qui répond aux critères de la commande créée est trouvé). Les utilisateurs peuvent également ajouter ou conserver manuellement des frais au niveau de l'en-tête ou de la ligne manuellement via les opérations en PDV récemment ajoutées qui peuvent être ajoutées aux mises en page de l'écran de PDV.  
 
 Lorsque les frais automatiques avancés sont activés, l'option existante **Paramètres de vente au détail** pour **Code frais d'expédition** et **Rembourser les frais d'expédition** ne sont plus utilisées. Ces paramètres s'appliquent uniquement si le paramètre **Utiliser les frais automatiques avancés** est défini sur **Non**.
 
@@ -67,6 +66,8 @@ Les nouvelles opérations sont les suivantes.
 - **143 - Recalculer les frais** - Utilisez cette opération pour effectuer un recalcul complet des frais pour la transaction de vente. Tous les frais automatiques précédemment remplacés par l'utilisateur seront recalculés selon la configuration actuelle du panier.  
 
 Comme avec toutes les opérations du PDV, les configurations de sécurité peuvent être faites pour exiger l'approbation du responsable afin d'exécuter l'opération.
+
+Il est important d'observer que les opérations de PDV répertoriées ci-dessus peuvent être également ajoutées à la mise en page du PDV même si le paramètre **Utiliser les frais automatiques avancés** est désactivé. Dans ce scénario, les organisations bénéficient toujours d'avantages supplémentaires pour visualiser les frais ajoutés manuellement et les modifier avec l'opération **Gérer les frais**. Les utilisateurs peuvent également utiliser les opérations **Ajouter des frais d'en-tête** et **Ajouter des frais de ligne** pour les transactions de PDV même lorsque le paramètre **Utiliser les frais automatiques avancés** est désactivé. L'opération **Recalculer les frais** a une fonctionnalité moindre si elle est utilisée lorsque l'option **Utiliser les frais automatiques avancés** est désactivée. Dans ce scénario, rien n'a été recalculé et tous les frais ajoutés manuellement à la transaction sont réinitialisés sur 0,00 USD.
 
 ## <a name="use-case-examples"></a>Utiliser des exemples de scénario
 Dans cette section, des exemples de scénarios d'utilisation sont présentés pour vous aider à comprendre la configuration et l'utilisation des frais automatiques et divers frais dans le contexte de commandes du canal de vente au détail. Les exemples suivants illustrent le comportement de l'application lorsque le paramètre **Utiliser les frais automatiques avancés** a été activé.
@@ -207,3 +208,7 @@ Nous recommandons à l'organisation d'ajouter également des champs de texte lib
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Prévenir contre le calcul des frais avant la fin de la commande du PDV
 
 Certaines organisations préfèreront attendre jusqu'à ce que l'utilisateur ait fini d'ajouter toutes les lignes de vente à la transaction du PDV avant de calculer les frais. Pour empêcher le calcul des frais puisque les articles sont ajoutés à la transaction en PDV, activez le paramètre **Calcul manuel des frais** dans le **Profil de la fonctionnalité** utilisé par le magasin. Si vous activez ce paramètre, l'utilisateur du PDV pourra utiliser l'opération **Calculer les totaux** lorsqu'il aura terminé d'ajouter les produits à la transaction du PDV. L'opération **Calculer les totaux** déclenchera ensuite le calcul de tous les frais automatiques de l'en-tête ou des lignes de la commande, le cas échéant.
+
+### <a name="charges-override-reports"></a>États de remplacement des frais
+
+Si les utilisateurs remplacent manuellement les frais calculés ou ajoutent des frais manuels à la transaction, ces données sont disponibles pour audit dans l'état **Historique de remplacement des frais**. L'état peut être accessible depuis **Vente au détail \> Recherches et états \> Historique de remplacement des frais**.  Il est important d'observer que les données requises pour cet état sont importées depuis la base de données des canaux dans le siège social via les tâches de programme de distribution « P ». Par conséquent, les informations concernant les remplacements effectués dans le PDV peuvent ne pas être immédiatement disponibles sur cet état tant que cette tâche n'a pas chargé les données de transaction du magasin au siège. 

@@ -3,7 +3,7 @@ title: Acquérir les actifs via l'approvisionnement
 description: Cette rubrique décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eef69de1c93de5c19b9f197838f1f2d3eb2e7645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ba3484e62caa790a5b05ae0693f69926514f6425
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355792"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778222"
 ---
 # <a name="acquire-assets-through-procurement"></a>Acquérir les actifs via l'approvisionnement
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations.
+Cette rubrique décrit comment paramétrer l'intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d'acquisition et d'ajustement d'acquisition pour des immobilisations. Une ligne d'achat crée un actif, quelle que soit la quantité figurant sur la ligne d'achat. Si vous avez besoin de créer plusieurs immobilisations, vous devez créer plusieurs lignes d'achat.
 
  Vous devez choisir l'une des méthodes d'intégration suivantes disponibles pour Immobilisations et Achats et l'utiliser pour toutes les immobilisations :
 -   Vous créez manuellement une immobilisation avant d'ajouter le numéro d'immobilisation à la ligne correspondante de la commande fournisseur ou de la facture fournisseur. Une transaction d'acquisition est validée automatiquement pour l'actif lorsque vous validez la facture fournisseur. Il s'agit de la méthode par défaut.

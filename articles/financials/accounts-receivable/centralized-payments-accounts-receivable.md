@@ -3,7 +3,7 @@ title: Paiements centralisés pour la comptabilité client
 description: Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330745"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390141"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Paiements centralisés pour la comptabilité client
 
@@ -33,7 +33,7 @@ Les organisations qui comprennent plusieurs entités juridiques peuvent créer e
 
 Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. En outre, l'organisation gagne ainsi du temps, car les processus pour les propositions de paiement, les règlements et la modification des transactions en cours et clôturées pour les paiements centralisés sont rationalisés. 
 
-Dans une organisation de paiements centralisés, il existe de nombreuses entités juridiques pour les opérations, et chaque entité juridique d'exploitation gère ses propres informations de factures fournisseur. Les paiements pour toutes les entités juridiques d'exploitation sont reçus par une entité juridique unique, qui est appelée entité juridique du paiement. Au cours du processus de règlement, les transactions vostro et nostro applicables sont générées. Vous pouvez spécifier l'entité juridique de l'organisation qui reçoit les transactions de profit réalisé ou de perte réalisée et la façon dont les transactions d'escompte de règlement associées à un paiement centralisé sont gérées. 
+Dans une organisation de paiements centralisés, il existe de nombreuses entités juridiques pour les opérations, et chaque entité juridique d'exploitation gère ses propres informations de factures fournisseur. Les paiements pour toutes les entités juridiques d'exploitation sont reçus par une entité juridique unique, qui est appelée entité juridique du paiement. Au cours du processus de règlement, les transactions vostro et nostro applicables sont générées. Vous pouvez spécifier l'entité juridique de l'organisation qui reçoit les transactions de profit réalisé ou de perte réalisée et la façon dont les transactions d'escompte de règlement associées à un paiement centralisé sont gérées. Sur la ligne du journal des paiements centralisés, l'option **Type de compte** doit être définie sur Client. L'option **Type de compte de contrepartie** doit être définie sur Compte bancaire ou Compte général. Le compte bancaire doit être dans la société actuelle. 
 
 Les exemples suivants montrent comment la validation est gérée dans différents scénarios. La configuration suivante est supposée pour tous ces exemples :
 
@@ -296,8 +296,3 @@ Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, N
 | Ventes (Fabrikam West)    |              | 75,00         |
 | Dû par Fabrikam East (Fabrikam West) | 25,00        |               |
 | Ventes (Fabrikam West)    |              | 25,00         |
-
-
-
-
-

@@ -3,7 +3,7 @@ title: Paramétrer l'intégration fiscale pour les canaux de vente au détail
 description: Cette rubrique donne des instructions pour paramétrer la fonctionnalité d'intégration fiscale pour les canaux de vente au détail.
 author: josaw
 manager: annbe
-ms.date: 2/01/2019
+ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 3c2945c4310dc4c1ae74f215e9b28056e7d1ede9
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377305"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773325"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Paramétrer l'intégration fiscale pour les canaux de vente au détail
 
@@ -175,7 +175,7 @@ Dans certains cas, un texte spécifique doit être imprimé sur un reçu fiscal 
     3. Dans le champ **Texte du reçu fiscal**, spécifiez un texte fiscal qui doit être imprimé sur un reçu fiscal.
 
     > [!NOTE]
-    > Si plusieurs remises sont appliquées à la même ligne de transaction, le reçu fiscal contient les textes fiscaux de toutes les remises associées à cette ligne de transaction. 
+    > Si plusieurs remises sont appliquées à la même ligne de transaction, le reçu fiscal contient les textes fiscaux de toutes les remises associées à cette ligne de transaction.
 
 ## <a name="set-error-handling-settings"></a>Définir les paramètres de traitement des erreurs
 
@@ -210,3 +210,4 @@ Pour activer les états X/Z fiscaux à exécuter depuis le PDV, vous devez ajout
     2. Ajoutez un nouveau bouton, puis définissez la propriété de bouton **Imprimer X fiscal**.
     3. Ajoutez un nouveau bouton, puis définissez la propriété de bouton **Imprimer Z fiscal**.
     4. Sur la page **Planification de la distribution**, exécutez la tâche **1090** pour transférer les changements vers la base de données des canaux.
+

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340727"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768412"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Configuration requise pour le calibrage de matériel pour les environnements sur site
 
@@ -65,17 +65,17 @@ De gauche à droite, le premier facteur, et le plus important, nécessaire pour 
 
 ## <a name="sizing-your-finance-and-operations-environment"></a>Calibrage de votre environnement Finance and Operations
 
-Pour comprendre vos besoins en calibrage, vous devez connaître le volume de pointe des transactions que vous devez traiter. La plupart des systèmes connexes, comme Management Reporter ou SSRS, sont moins critiques pour la mission. Par conséquent, ce document se concentre principalement sur Microsoft Dynamics AX Application Object Server (AOS) et SQL Server.
+Pour comprendre vos besoins en calibrage, vous devez connaître le volume de pointe des transactions que vous devez traiter. La plupart des systèmes connexes, comme Management Reporter ou SSRS, sont moins critiques pour la mission. Par conséquent, ce document se concentre principalement sur AOS et SQL Server.
 
 > [!NOTE]
-> En général, les niveaux de calcul montent en puissance et doivent être paramétrés de façon N+1, c.-à-d. si vous estimez trois Microsoft Dynamics AX Application Object Server (AOS), ajoutez un quatrième Microsoft Dynamics AX Application Object Server (AOS). Le niveau de base de données doit être configuré avec un paramétrage à haute disponibilité Always-On.
+> En général, les niveaux de calcul montent en puissance et doivent être paramétrés de façon N+1, c.-à-d. si vous estimez trois AOS, ajoutez un quatrième AOS. Le niveau de base de données doit être configuré avec un paramétrage à haute disponibilité Always-On.
 
 ## <a name="sql-server-oltp"></a>SQL Server (OLTP)
 
 ### <a name="sizing"></a>Calibrage
 
 - 3 000 à 15 000 lignes de transaction par heure par noyau sur le serveur de base de données.
-- Taux de noyau Microsoft Dynamics AX Application Object Server (AOS) vers SQL de 3:1 pour le SQL Server principal. Les noyaux supplémentaires sont requis conformément à la configuration à haute disponibilité choisie.
+- Taux de noyau AOS vers SQL de 3:1 pour le SQL Server principal. Les noyaux supplémentaires sont requis conformément à la configuration à haute disponibilité choisie.
 
     - Le traitement des opérations lourdes de base de données peut faire régresser cela à 2:1.
 
@@ -86,7 +86,7 @@ Pour comprendre vos besoins en calibrage, vous devez connaître le volume de poi
     - Utilisation de fonctionnalités supplémentaires, telles que le journal de base de données et les alertes. L'enregistrement de base de données extrême réduire davantage le débit horaire par noyau sous le niveau de 3 000 lignes.
     - Complexité de la composition des données : Un plan de comptes unique et un plan de comptes détaillé a des implications sur le débit (comme exemple).
     - Caractérisation de la transaction.
-    - 2 Go à 4 Go de mémoire pour chaque noyau.
+    - 2 Go à 16 Go de mémoire pour chaque noyau.
     - Les bases de données auxiliaires sur le serveur de base de données comme bases de données Management reporter et SSRS.
     - Temp DB = 15 % de la taille de la base de données, avec autant de fichiers comme processeurs physiques.
     - Taille et débit du réseau SAN basés sur le volume/l'utilisation totaux de la transaction simultanée.
@@ -101,7 +101,7 @@ Pour le calibrage d'AD FS, voir la [documentation relative à la capacité du s
 
 Une [feuille de calibrage](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) est disponible pour planifier le nombre d'instances dans votre déploiement.
 
-## <a name="aos-online-and-batch"></a>Microsoft Dynamics AX Application Object Server (AOS) (en ligne et par traitement par lots)
+## <a name="aos-online-and-batch"></a>AOS (en ligne et par traitement par lots)
 
 ### <a name="sizing"></a>Calibrage
 
@@ -119,12 +119,12 @@ Une [feuille de calibrage](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapaci
     - 1 à 4 threads de traitement par lots par noyau
     - Calibrage basé sur la caractérisation de la fenêtre de traitement par lots
 
-- Notez que Microsoft Dynamics AX Application Object Server (AOS), la gestion des données, et le traitement par lots ont le même rôle dans Service Fabric. Vous devez calibrer ces trois charges de travail combinées, et ne pas les séparer comme dans Microsoft Dynamics AX 2012.
+- Notez que AOS, la gestion des données, et le traitement par lots ont le même rôle dans Service Fabric. Vous devez calibrer ces trois charges de travail combinées, et ne pas les séparer comme dans Microsoft Dynamics AX 2012.
 - Les mêmes facteurs de variabilité pour SQL Server s'appliquent ici.
 
 ### <a name="high-availability"></a>Haute disponibilité
 
-- Assurez-vous que vous disposez d'au moins 1 à 2 Microsoft Dynamics AX Application Object Server (AOS) disponibles de plus que vous estimez.
+- Assurez-vous que vous disposez d'au moins 1 à 2 AOS disponibles de plus que vous estimez.
 - Assurez-vous d'avoir au moins 3 à 4 hôtes virtuels disponibles.
 
 ## <a name="management-reporter"></a>Management Reporter
@@ -141,4 +141,4 @@ Le service Orchestrator est le service qui assure le déploiement et les communi
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualisation et sursouscription
 
-Les services critiques pour la mission comme Microsoft Dynamics AX Application Object Server (AOS) doivent être hébergés sur des hôtes virtuels qui ont des ressources dédiées : des noyaux, de la mémoire et un disque.
+Les services critiques pour la mission comme AOS doivent être hébergés sur des hôtes virtuels qui ont des ressources dédiées : des noyaux, de la mémoire et un disque.

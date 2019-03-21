@@ -3,7 +3,7 @@ title: Créer, approuver et publier des missions dans Attract
 description: Cette rubrique décrit les éléments d'une mission dans Attract. Elle décrit également comment créer une mission.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304391"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772809"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Créer, approuver et publier des missions dans Attract
 
@@ -76,8 +76,23 @@ Pour plus d'informations sur les activités qui peuvent être ajoutées au proce
 
 Une fois la mission activée, elle peut être publiée. Seuls les recruteurs et les administrateurs peuvent publier des tâches. La mission peut être publiée dans Carrières Talent (site de carrières de Microsoft Dynamics 365 for Talent) ou LinkedIn. 
 
+L'équipe Attract travaille continuellement pour créer des partenariats avec des agrégateurs d'offres d'emploi. Cette liste se développera au fil du temps.
+
+Pour plus d'informations sur les publications de postes, voir [Fonctionnalité de site de carrière dans Attract](career-site.md).
+
 > [!NOTE]
-> Il existe trois éléments importantes à noter sur le processus de publications de mission dans LinkedIn.
+> La fonctionnalité de publication de poste est disponible uniquement le Composant additionnel de recrutement complet pour Attract.
+
+### <a name="posting-jobs-to-linkedin"></a>Publication d'offres d'emploi sur LinkedIn 
+
+Avant de publier un poste depuis Attract vers LinkedIn, l'administrateur doit ajouter l'ID de société LinkedIn ainsi que le nom de société LinkedIn dans **Paramètres d'administration**. L'ID de société LinkedIn est requis pour veiller à ce que vos offres d'emploi publiées depuis Attract soient bien associées à la page de la société concernée.
+
+Votre identifiant de société LinkedIn n'est autre qu'une chaîne de numéros qui identifie uniquement votre société au sein de LinkedIn. Pour en savoir plus sur la façon de trouver votre identifiant de société LinkedIn, rendez-vous sur le [site LinkedIn](https://aka.ms/findID).
+
+Pour mettre à jour votre société LinkedIn, sélectionnez **Centre d'administration** sur le menu **Paramètres**  (symbole d'engrenage), puis sélectionnez l'onglet **Intégration de LinkedIn** . Sous la section **Se connecter à LinkedIn**, saisissez le nom de société LinkedIn et l'identifiant de société LinkedIn, puis enregistrez les paramètres.
+
+> [!NOTE]
+> Il convient de noter quatre éléments importants concernant le processus de publication des postes dans LinkedIn.
 > 1. Les missions publiées dans LinkedIn sont publiées comme des « offres d'emploi limitées ». Les offres d'emploi limitées ne peuvent pas être promues sur le site de LinkedIn. Si vous souhaitez promouvoir les offres d'emploi limitées publiées sur LinkedIn à partir d'Attract, vous devez utiliser LinkedIn pour activer la « diffusion automatique des offres d'emploi ». Consultez les liens ci-dessous et contactez le support technique de LinkedIn pour plus de détails.
 >
 >    [Offres d'emploi limitées et job slots Premium pour la diffusion automatique des offres d'emploi](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ Une fois la mission activée, elle peut être publiée. Seuls les recruteurs et 
 >
 >    Si vous rencontrez des problèmes après cette étape, contactez le support LinkedIn. 
 > 
+> 1. Les offres d'emploi publiées sur LinkedIn s'affichent sur le site LinkedIn. Il n'existe pas d'environnement de test pour publier les offres d'emploi sur LinkedIn. 
+>
 > 1. Les missions publiées sur LinkedIn peuvent prendre jusqu'à 24 heures pour être visibles aux candidats à partir de LinkedIn, en raison du processus actuel de publication par traitement par lots de LinkedIn.
 
-L'équipe Attract travaille continuellement pour créer des partenariats avec des agrégateurs d'offres d'emploi. Cette liste se développera au fil du temps.
-
-Pour plus d'informations sur les publications de postes, voir [Fonctionnalité de site de carrière dans Attract](./career-site.md).
-
-> [!NOTE]
-> La fonctionnalité de publication de poste est disponible uniquement le Composant additionnel de recrutement complet pour Attract.
 
 ## <a name="activate"></a>Activer
 

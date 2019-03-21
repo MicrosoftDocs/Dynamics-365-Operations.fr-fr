@@ -3,7 +3,7 @@ title: Recherche de produits et de clients dans le point de vente (PDV)
 description: Cette rubrique fournit une vue d'ensemble des améliorations apportées à la fonctionnalité de recherche de produits et de clients dans Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313587"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789867"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Recherche de produits et de clients dans le point de vente (PDV)
 
@@ -69,7 +69,7 @@ L'expérience en matière de recherche de produit locale est devenue plus conviv
 
 ## <a name="customer-search"></a>Recherche du client
 
-La recherche de client est utilisée pour trouver des clients à différentes fins. Par exemple, les caissiers peuvent afficher la liste des souhaits d'un client ou l'historique de ses achats, ou encore ajouter le client à une transaction. Dans le cas de la recherche de plusieurs mots clés, l'algorithme de recherche de clients retourne tous les clients qui correspondent à l'un des mots clés recherchés. Cependant, les clients qui correspondent le plus aux mots-clés apparaissent en haut des résultats. Ce comportement est analogue à la manière dont les autres moteurs de recherche affichent les résultats. Ils affichent d'abord les résultats qui correspondent aux critères les plus recherchés, puis ils affichent les résultats qui correspondent partiellement aux mots clés de votre recherche. Cela aide les caissiers lorsqu'ils utilisent plusieurs mots clés pour leur recherche, mais qu'un des mots clés comporte une erreur d'orthographe.
+La recherche de client est utilisée pour trouver des clients à différentes fins. Par exemple, les caissiers peuvent afficher la liste des souhaits d'un client ou l'historique de ses achats, ou encore ajouter le client à une transaction. L'algorithme de recherche associe les termes de la recherche et les valeurs présentes dans les propriétés de client suivantes : nom, e-mail, téléphone, numéro de carte de fidélité, adresse et numéro de compte. Entre autres, la propriété du nom offre la plus grande flexibilité quand il s'agit de recherches à plusieurs mots clés puisque l'algorithme renvoie tous les clients qui correspondent à un des mots clés de la recherche et les clients qui correspondent à la plupart des mots clés s'affichent en haut des résultats. Ainsi, cela aide les caissiers lorsqu'ils effectuent une recherche en saisissant le nom entier, mais lorsque le nom de famille et le prénom ont été ignorés pendant la saisie initiale des données. Toutefois, pour des raisons de performance, toutes les autres propriétés respectent l'ordre des mots clés de recherche. Aussi, si les mots clés de la recherche ne correspondent pas à l'ordre dans lequel les données sont stockées, aucun résultat n'est renvoyé.
 
 Par défaut, une recherche de client est effectuée sur les carnets d'adresses du client associés au magasin. Ce type de recherche est appelé *recherche de client locale*. Toutefois, les employés peuvent également rechercher des clients globalement. Autrement dit, ils peuvent effectuer une recherche parmi les magasins de la société et dans toutes les autres entités juridiques. Ce type de recherche est appelé *recherche de client à distance*.
 

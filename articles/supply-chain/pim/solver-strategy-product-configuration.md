@@ -3,7 +3,7 @@ title: Stratégie du solveur pour la configuration du produit
 description: Cette rubrique décrit comment utiliser la stratégie du solveur pour améliorer les performances de configuration du produit.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351146"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403914"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Stratégie du solveur pour la configuration du produit
 
@@ -62,8 +62,8 @@ Le tableau suivant fournit des recommandations sur la stratégie du solveur à u
 | Stratégie du solveur      | Utiliser la stratégie dans ce scénario |
 |----------------------|-----------------------------------|
 | Par défaut              | La stratégie **Par défaut** a été optimisée pour résoudre les modèles basés sur des contraintes de table. Des études d'implémentation client ont montré que cette stratégie est la plus efficace dans les scénarios où les contraintes de table sont utilisées de manière intensive. |
-| Nombre minimal de domaines en premier | Les stratégies **Nombre minimal de domaines en premier** et **Haut-Bas** sont étroitement liées. Des études d'implémentation client ont montré que la stratégie **Haut-bas**, introduite dans CU8, est plus performante que la stratégie **Nombre minimal de domaines d'abord**. Toutefois, la stratégie **Nombre minimal de domaines d'abord** est conservée dans le produit pour la compatibilité ascendante. Ces deux stratégies du solveur se sont avérées plus efficaces pour résoudre les modèles contenant plusieurs expressions arithmétiques où aucune contrainte de table n'est utilisée. Toutefois, dans certains cas, la stratégie **Par défaut** est plus performante que ces deux stratégies. Il est donc recommandé d'essayer chaque stratégie. |
-| Haut-bas             | Les stratégies **Nombre minimal de domaines en premier** et **Haut-Bas** sont étroitement liées. Des études d'implémentation client ont montré que la stratégie **Haut-bas**, introduite dans CU8, est plus performante que la stratégie **Nombre minimal de domaines d'abord**. Toutefois, la stratégie **Nombre minimal de domaines d'abord** est conservée dans le produit pour la compatibilité ascendante. Ces deux stratégies du solveur se sont avérées plus efficaces pour résoudre les modèles contenant plusieurs expressions arithmétiques où aucune contrainte de table n'est utilisée. Toutefois, dans certains cas, la stratégie **Par défaut** est plus performante que ces deux stratégies. Il est donc recommandé d'essayer chaque stratégie. |
+| Nombre minimal de domaines en premier | Les stratégies **Nombre minimal de domaines en premier** et **Haut-Bas** sont étroitement liées. Des études d'implémentation client ont montré que la stratégie **Haut-bas** est plus performante que la stratégie **Nombre minimal de domaines en premier**. Toutefois, la stratégie **Nombre minimal de domaines en premier** est conservée dans le produit pour la compatibilité ascendante. Ces deux stratégies du solveur se sont avérées plus efficaces pour résoudre les modèles contenant plusieurs expressions arithmétiques où aucune contrainte de table n'est utilisée. Toutefois, dans certains cas, la stratégie **Par défaut** est plus performante que ces deux stratégies. Il est donc recommandé d'essayer chaque stratégie. |
+| Haut-bas             | Les stratégies **Nombre minimal de domaines en premier** et **Haut-Bas** sont étroitement liées. Des études d'implémentation client ont montré que la stratégie **Haut-bas** est plus performante que la stratégie **Nombre minimal de domaines en premier**. Toutefois, la stratégie **Nombre minimal de domaines en premier** est conservée dans le produit pour la compatibilité ascendante. Ces deux stratégies du solveur se sont avérées plus efficaces pour résoudre les modèles contenant plusieurs expressions arithmétiques où aucune contrainte de table n'est utilisée. Toutefois, dans certains cas, la stratégie **Par défaut** est plus performante que ces deux stratégies. Il est donc recommandé d'essayer chaque stratégie. |
 | Z3                   | Nous vous recommandons d'utiliser la stratégie **Z3** comme stratégie du solveur par défaut. Si vous êtes préoccupé par les performances et l'évolutivité, vous pouvez évaluer les autres stratégies. |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
