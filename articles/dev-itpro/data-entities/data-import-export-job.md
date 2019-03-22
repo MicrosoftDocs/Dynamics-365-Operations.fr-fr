@@ -3,7 +3,7 @@ title: Tâches d'importation et d'exportation de données
 description: L'espace de travail Gestion des données vous permet de créer et de gérer des tâches d'importation et d'exportation de données.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360208"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834658"
 ---
 # <a name="data-import-and-export-jobs"></a>Tâches d'importation et d'exportation de données
 
@@ -128,6 +128,9 @@ Une tâche peut être sécurisée par des rôles, des utilisateurs et une entit�
 
 ## <a name="run-the-import-or-export-job"></a>Exécuter la tâche d'importation ou d'exportation
 Vous pouvez exécuter une tâche ponctuelle en sélectionnant le bouton **Importer** ou **Exporter** après avoir défini la tâche. Pour paramétrer une tâche régulière, sélectionnez **Créer une tâche de données répétitive**.
+
+[!NOTE]
+Une tâche d'importation ou d'exportation peut être exécutée de façon asynchrone en sélectionnant le bouton **Importer** ou **Exporter**. L'exécution en mode asynchrone utilise la structure asynchrone dans Finance and Operations, ce qui diffère d'une structure par lots. Toutefois, à l'instar de la structure par lots, la structure asynchrone peut également subir un étranglement et par conséquent, la tâche peut ne pas s'exécuter immédiatement. Les tâches peuvent être exécutées également de manière synchrone en sélectionnant **Importer maintenant** ou **Exporter maintenant**. Cela lance la tâche immédiatement et est utile si le mode asynchrone ou par lots ne se lance pas en raison d'un étranglement. Les tâches peuvent également être effectuées dans un lot en sélectionnant l'option **Exécuter en mode de traitement par lots**. Les ressources par lots sont sujettes à l'étranglement, aussi le traitement par lots pourrait ne pas se lancer immédiatement. L'option asynchrone est utile lorsque les utilisateurs interagissent directement avec l'interface utilisateur et ne sont pas des utilisateurs expérimentés en matière de planification par lots. Utiliser un lot reste possible si de grands volumes doivent être exportés ou importés. Les traitements par lots peuvent être prévus pour une exécution sur un groupe de lots spécifique, ce qui permet un plus grand contrôle depuis une perspective d'équilibrage de charge. Si le mode asynchrone et le mode par lots rencontrent tous deux un étranglement en raison de l'utilisation intensive des ressources sur le système, une solution de contournement immédiate consisterait à utiliser la version synchrone de l'importation/exportation. L'option synchrone se lance immédiatement et bloque l'interface utilisateur, qui s'exécute de façon synchrone. La fenêtre du navigateur doit rester ouverte lorsque l'opération synchrone est en cours.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Vérifier que la tâche a été exécutée comme prévu
 L'historique des tâches est disponible pour dépanner et rechercher des tâches d'importation et d'exportation. Les exécutions d'historique des tâches sont planifiées par périodes.

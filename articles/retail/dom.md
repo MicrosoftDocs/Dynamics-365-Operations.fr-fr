@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302281"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "380014"
 ---
 # <a name="distributed-order-management-dom"></a>Gestion des commandes distribuées (DOM)
 
@@ -63,7 +63,7 @@ L'illustration suivante présente le cycle de vie d'une commande client dans un 
 
         1. Dans Microsoft Dynamics Lifecycle Services, ouvrez la bibliothèque d'actifs partagés, sélectionnez **Modèle** comme type d'actif, puis chargez le fichier **Licence DOM**.
         2. Démarrez le gestionnaire Microsoft Internet Information Services (IIS), cliquez avec le bouton droit sur **Site Web AOSService**, puis sélectionnez **Exploration**. Une fenêtre de l'Explorateur Windows s'ouvre dans **\<Racine du service AOS\>\\webroot**. Notez le chemin \<Racine du service AOS\>, car vous allez l'utiliser dans l'étape suivante.
-        3. Copiez le fichier de configuration dans le répertoire **\<Racine de service AOS\>\\PackagesLocalDirectory\\DOM\\Corbeille**.
+        3. Copiez le fichier de configuration dans le répertoire **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
         4. Accédez au client Retail Headquarters et ouvrez la page **Paramètres DOM**. Dans l'onglet **Solveur**, dans le champ **Type de solveur**, sélectionnez **Solveur de production**, et vérifiez qu'il n'y a pas de message d'erreur.
 
         > [!NOTE]

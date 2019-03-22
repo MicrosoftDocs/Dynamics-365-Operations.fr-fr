@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d636e77888fff383849b3a91bf643475a6d516ac
-ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
+ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377876"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770891"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>Intégration à Microsoft Dynamics 365 for Field Service
 
@@ -75,7 +75,7 @@ La fonctionnalité supplémentaire de cette deuxième phase est axée sur la pos
 ### <a name="system-requirements-for-finance-and-operations"></a>Configuration requise pour Finance and Operations
 L'intégration Field Service prend en charge les versions suivantes :
 
-- Dynamics 365 for Finance and Operations version 8.1.2 (décembre 2019) a été publié en décembre 2019 et a pour numéro de version de l'application 8.1.195 avec Platform Update 22 (7.0.5095). 
+- Dynamics 365 for Finance and Operations version 8.1.2 (décembre 2018) a été publié en décembre 2018 et a pour numéro de version de l'application 8.1.195 avec Platform Update 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>Configuration requise pour Field Service
 Pour utiliser la solution d'intégration Field Service, vous devez installer les composants suivants :

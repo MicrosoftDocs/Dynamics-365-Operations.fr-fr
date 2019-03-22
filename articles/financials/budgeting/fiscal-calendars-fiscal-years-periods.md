@@ -3,7 +3,7 @@ title: Calendriers fiscaux, exercices et périodes
 description: Cet article présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361657"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778199"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendriers fiscaux, exercices et périodes
 
@@ -43,7 +43,7 @@ Une période de clôture permet de séparer les écritures comptables générée
 Lorsque vous créez une période de clôture, sélectionnez une période avec le statut Ouverte et les dates que vous souhaitez utiliser. La nouvelle période de clôture copie les dates de début et de fin à partir de la période existante. La période d'origine continue d'exister. Par exemple, sélectionnez Période 12, dernière période de l'exercice dont les dates vont du 1er août au 31 août. Entrez un nom pour la période de clôture, tel que Clôture. Une fois que vous avez créé la période de clôture, vous avez désormais la période d'origine et la période de clôture. Les dates de ces deux périodes débutent le 1er août et prennent fin le 31 août.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Sélection des calendriers fiscaux pour la comptabilité, les immobilisations et les cycles budgétaires
-Les calendriers fiscaux sont utilisés dans le cadre de l'amortissement des immobilisations, des transactions financières et des cycles budgétaires. Lorsque vous créez un calendrier fiscal, vous pouvez l'utiliser à plusieurs fins. Vous pouvez sélectionner un calendrier pour un modèle de valeur ou un registre des amortissements afin de le convertir en calendrier des immobilisations. Vous pouvez sélectionner un calendrier fiscal pour la comptabilité pour le convertir en calendrier comptable. Vous pouvez également sélectionner un calendrier fiscal pour un cycle budgétaire pour le convertir en calendrier budgétaire. Vous pouvez utiliser le même calendrier fiscal pour toutes ces opérations.
+Les calendriers fiscaux sont utilisés dans le cadre de l'amortissement des immobilisations, des transactions financières et des cycles budgétaires. Lorsque vous créez un calendrier fiscal, vous pouvez l'utiliser à plusieurs fins. Vous pouvez sélectionner un calendrier fiscal pour un registre des immobilisations afin de le convertir en calendrier des immobilisations. Vous pouvez sélectionner un calendrier fiscal pour la comptabilité pour le convertir en calendrier comptable. Vous pouvez également sélectionner un calendrier fiscal pour un cycle budgétaire pour le convertir en calendrier budgétaire. Vous pouvez utiliser le même calendrier fiscal pour toutes ces opérations.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Sélection d'un calendrier fiscal pour votre entité juridique
 
@@ -51,7 +51,7 @@ Sélectionnez le calendrier fiscal à utiliser pour la comptabilité de votre en
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Sélection d'un calendrier fiscal pour les immobilisations
 
-Vous pouvez sélectionner un calendrier fiscal pour un modèle de valeur ou un registre des amortissements, qui sera utilisé par les immobilisations utilisant le modèle de valeur ou le registre des amortissements sélectionné. Vous pouvez effectuer votre sélection à partir de n'importe quel calendrier fiscal défini sur la page Calendriers fiscaux.
+Vous pouvez sélectionner un calendrier fiscal pour un registre des amortissements, qui sera utilisé par les immobilisations utilisant le registre sélectionné. Vous pouvez effectuer votre sélection à partir de n'importe quel calendrier fiscal défini sur la page Calendriers fiscaux.
 
 ### <a name="define-budget-cycle-time-spans"></a>Définition des périodes de cycle budgétaire
 

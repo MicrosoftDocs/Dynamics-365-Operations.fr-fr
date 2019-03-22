@@ -3,7 +3,7 @@ title: Extensibilité dans Attract
 description: Cette rubrique décrit comment vous pouvez étendre l'application Microsoft Dynamics 365 for Talent - Attract à l'aide de la plateforme Microsoft Power.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,18 +18,41 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c77c64070cb82180441f4b629b6884981b9b81d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304345"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789649"
 ---
 # <a name="extensibility-in-attract"></a>Extensibilité dans Attract
 
 [!include[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent est généré sur la plateforme Common Data Service (CDS) pour les applications, et peut être étendu de différentes manières à l'aide de la plateforme Microsoft Power et des fonctionnalités de Common Data Service pour les applications. Par conséquent, vous pouvez configurer et personnaliser le système à l'aide de Microsoft PowerApps et Microsoft Flow. Vous pouvez également obtenir des analyses supplémentaire sur les personnes à l'aide Microsoft Power BI. En outre, de nouvelles activités personnalisées, telles que les activités PowerApps et de contenu web (iframe), rendent le processus de recrutement plus adaptable que jamais. Avec ces activités, vous pouvez personnaliser dans le processus de recrutement selon les besoins et processus de votre entreprise, et vous assurer que l'équipe de recrutement et les candidats ont une expérience transparente et personnalisée.
+
+## <a name="extending-option-sets-in-attract"></a>Étendre les ensembles d'options dans Attract
+
+Un **Ensemble d'options** (liste au choix) désigne un type de champ pouvant être inclus dans une entité. Il définit un ensemble d'options. Lorsqu'un ensemble d'options s'affiche dans un formulaire, il utilise une commande de liste déroulante.  Dans Attract, il existe plusieurs champs qui sont des ensembles d'options.  Nous commençons à introduire la fonctionnalité pour étendre les ensembles d'options, en commençant par le champ Raison du refus, le champ Type d'emploi et le champ Type d'ancienneté.   En outre, vous pouvez ajouter des étiquettes d'affichage localisées pour les options que vous ajoutez.  Veuillez consulter le lien suivant pour en savoir plus :  [Personnaliser les étiquettes des ensembles d'options](https://docs.microsoft.com/en-us/poweapps/developer/common-data-service/customize-labels-suport-multiple-languages)
+
+> [!NOTE]
+> La fonctionnalité de publication d'annonce sur LinkedIn exige d'utiliser les champs **Type d'emploi** et **Type d'ancienneté** sur la page **Détails du poste**. Les valeurs par défaut dans ces champs sont compatibles avec LinkedIn et s'affichent lors de la publication de l'offre d'emploi. Par conséquent, si vous publiez des offres d'emploi sur LinkedIn et si vous modifiez les valeurs d'ensembles d'options existantes pour ces champs, les offres d'emploi sont publiées, mais LinkedIn n'affiche pas les valeurs **Type d'emploi** et **Type d'ancienneté**.  
+
+Ci-après figurent les étapes pour mettre à jour le champ **Raison du refus** avec les valeurs propres à votre activité.  
+
+1. Pour étendre l'ensemble d'options **Raison du refus**, accédez au [Site Web d'administrateur de PowerApps.](Https://admin.powerapps.microsoft.com)
+2. Vous pouvez être invité à vous connecter à votre compte. Renseignez votre identifiant d'utilisateur ainsi que votre mot de passe pour vous connecter à Dynamics365 et/ou Office365, puis cliquez sur **Suivant**.
+3. Dans l'onglet **Environnements**, sélectionnez l'environnement que vous souhaitez gérer, et double-cliquez pour accéder à l'onglet **Détails**.
+4. Dans l'onglet **Détails**, sélectionnez **Centre d'administration de Dynamics 365**.
+5. Sélectionnez l'instance à modifier, puis cliquez sur **Ouvrir**.
+6. Accédez à **Paramètres**, puis sur **Personnalisations**, et sélectionnez **Personnaliser le système**.
+7. Recherchez l'entité pour laquelle vous souhaitez développer l'ensemble d'options en sélectionnant **Entités**, puis développez le groupe. Dans cet exemple, il s'agit de l'**Entité de candidature**.
+8. Accédez au champ pour lequel vous souhaitez étendre l'ensemble d'options en sélectionnant l'option **Champs**. Dans cet exemple, il s'agit de **msdyn_rejectionreason**. Double-cliquez sur le champ.
+9. Dans le champ **Ensemble d'options**, choisissez **Modifier**.
+10. Sélectionnez l'icône **+**.
+11. Saisissez une **Étiquette**.  (Il doit s'agir d'une valeur unique, pas de doublon).
+12. Sélectionnez **Enregistrer**.
+13. Sélectionnez **Publier** en haut de la page.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Tirer profit de Microsoft Power Platform 
 

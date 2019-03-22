@@ -3,7 +3,7 @@ title: Traitement des produits en poids variable avec la gestion des entrepôts
 description: Cette rubrique décrit comment utiliser les modèles de travail et les instructions d'emplacement afin de déterminer de quelle manière et où effectuer le travail dans l'entrepôt.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5161860e3b1c5b0ae795d109159268be085ec5af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334057"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777270"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
-[!include [preview banner](../../includes/preview-banner.md)]
+
 [!include [banner](../includes/banner.md)]
 
-**Exposition de la fonctionnalité**
+## <a name="feature-exposure"></a>Exposition de la fonctionnalité
 
 Pour utiliser la gestion des entrepôts dans le cadre du traitement des produits en poids variable, vous devez utiliser une clé de configuration de licence pour activer la fonctionnalité. (Accédez à **Administration système \> Paramétrage \> Configuration des licences**. Puis, dans l'onglet **Clés de configuration**, développez **Commerce \> Gestion des entrepôts et du transport**, puis cochez la case **Poids variable pour les entrepôts**).
 
 > [!NOTE]
-> La clé de configuration de licence **Gestion des entrepôts et du transport** et les clés de configuration de licence **Traiter la distribution en poids variable** doivent être également activées.
+> La clé de configuration de licence **Gestion des entrepôts et du transport** et les clés de configuration de licence **Traiter la distribution \> en poids variable** doivent être également activées.
 
 Une fois la clé de configuration de licence activée, lorsque vous créez un produit lancé, vous pouvez sélectionner **Poids variable**. Vous pouvez également associer le produit lancé à un groupe de dimensions de stockage pour lequel le paramètre **Utiliser les processus de gestion des entrepôts** est sélectionné.
 

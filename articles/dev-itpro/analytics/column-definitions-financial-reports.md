@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356344"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832146"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
 
@@ -62,7 +62,7 @@ Une définition de colonne peut contenir jusqu'à 255 colonnes.
 Une définition de colonne comprend les informations suivantes :
 
 - une colonne des descriptions des définitions de ligne ;
-- les colonnes de montants qui contiennent des données issues des données financières, une feuille de calcul Microsoft Excel, ou des calculs basés sur d'autres données dans la définition de colonne ;
+- les colonnes de montants qui affichent les données issues des données financières ou des calculs basés sur d'autres données dans la définition de colonne ;
 - des colonnes de mise en forme ;
 - des colonnes d'attribut.
 
@@ -170,7 +170,7 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 ### <a name="create-an-automatically-generated-header"></a>Créer un en-tête généré automatiquement
 
-Le générateur d'états peut générer automatiquement des en-têtes de colonne, selon des codes d'insertion automatique. Les codes d'insertion automatique sont des variables mises à jour à chaque fois qu'un état est généré. Tout en-tête de colonne peut inclure de ces codes pour spécifier les informations d'état susceptibles de varier, comme les dates ou les numéros de période. Par conséquent, vous pouvez utiliser une définition de colonne pour plusieurs définitions d'état, de périodes et d'arborescences de génération d'états. Comme les codes d'insertion automatique se fondent sur les informations de calendrier des lignes détaillées de la définition de colonne, ils sont pris en charge uniquement pour les colonnes **CALC**, **FD** et **WKS**. La manière dont le code d'insertion automatique s'affiche dans la cellule d'en-tête de colonne affecte la manière dont ces informations sont affichées dans l'état. Dans la boîte de dialogue **En-tête de colonne**, les codes d'insertion automatique apparaissent en combinaison de majuscules et minuscules. Par conséquent, le texte apparaît dans la même combinaison dans l'état. Par exemple, dans une année civile standard, **@CalMonthLong** résout le mois **7** sur **Juillet**. Si le mois doit apparaître en majuscules (par exemple **JUILLET**), tapez le code d'insertion automatique en majuscules dans le champ **Texte de l'en-tête de colonne**. Par exemple, entrez **@CALMONTHLONG**. Vous pouvez mélanger codes et textes. Par exemple, vous entrez le texte d'en-tête suivant : **Période @ FiscalPeriod-@FiscalYear du @StartDate au @EndDate**. Le titre d'état généré ressemble au texte suivant : **Période 1-02 du 01/01/02 au 01/31/02**.
+Le générateur d'états peut générer automatiquement des en-têtes de colonne, selon des codes d'insertion automatique. Les codes d'insertion automatique sont des variables mises à jour à chaque fois qu'un état est généré. Tout en-tête de colonne peut inclure de ces codes pour spécifier les informations d'état susceptibles de varier, comme les dates ou les numéros de période. Par conséquent, vous pouvez utiliser une définition de colonne pour plusieurs définitions d'état, de périodes et d'arborescences de génération d'états. Comme les codes d'insertion automatique se fondent sur les informations de calendrier des lignes détaillées de la définition de colonne, ils sont pris en charge uniquement pour les colonnes **CALC** et **FD**. La manière dont le code d'insertion automatique s'affiche dans la cellule d'en-tête de colonne affecte la manière dont ces informations sont affichées dans l'état. Dans la boîte de dialogue **En-tête de colonne**, les codes d'insertion automatique apparaissent en combinaison de majuscules et minuscules. Par conséquent, le texte apparaît dans la même combinaison dans l'état. Par exemple, dans une année civile standard, **@CalMonthLong** résout le mois **7** sur **Juillet**. Si le mois doit apparaître en majuscules (par exemple **JUILLET**), tapez le code d'insertion automatique en majuscules dans le champ **Texte de l'en-tête de colonne**. Par exemple, entrez **@CALMONTHLONG**. Vous pouvez mélanger codes et textes. Par exemple, vous entrez le texte d'en-tête suivant : **Période @ FiscalPeriod-@FiscalYear du @StartDate au @EndDate**. Le titre d'état généré ressemble au texte suivant : **Période 1-02 du 01/01/02 au 01/31/02**.
 
 > [!NOTE]
 > Le format d'une partie du texte, comme la date au format long, dépend des paramètres régionaux du serveur Finance and Operations. Pour modifier ces paramètres, cliquez sur le bouton **Début**, cliquez sur **Panneau de configuration**, puis cliquez sur **Région et langue**. Le tableau suivant répertorie les options disponibles d'insertion automatique pour les en-têtes de colonnes.
@@ -291,7 +291,7 @@ La cellule **Espaces supplémentaires avant la colonne** spécifie la largeur du
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Dans la cellule **Espaces supplémentaires avant la colonne**, entrez le nombre d'espaces à insérer entre les colonnes.
 
-### <a name="specify-a-currency"></a>Spécifier une devise
+### <a name="specify-a-format-currency-override"></a>Spécifier un remplacement de devise/format
 
 La cellule **Remplacement de format/devise** spécifie la mise en forme de la décimale, de la devise et des montants en pourcentage dans la colonne. Cette mise en forme remplace toute mise en forme spécifiée dans la définition d'état ou les réglages par défaut du système.
 
@@ -360,8 +360,8 @@ Le type d'informations que chaque colonne comporte dans un état est spécifié 
     </thead>
     <tbody>
     <tr>
-    <td>FD</td>
-    <td>Utilisez ce code pour afficher des données financières ou des données à partir d'une feuille de calcul Excel lorsque vous utilisez une colonne <strong>Lien vers les dimensions financières</strong> ou <strong>Lien vers la feuille de calcul</strong> dans la définition de colonne. Lorsque vous sélectionnez le type de la colonne <strong>DF</strong>, les paramètres par défaut sont automatiquement spécifiés pour les lignes suivantes : <ul>
+    <td>DF</td>
+    <td>Permet d'afficher les données financières lorsque vous utilisez une colonne <strong>Lier aux dimensions financières</strong> dans la définition de ligne. Lorsque vous sélectionnez le type de la colonne <strong>DF</strong>, les paramètres par défaut sont automatiquement spécifiés pour les lignes suivantes : <ul>
     <li><strong>Code registre / Catégorie d'attribut :</strong> RÉEL</li>
     <li><strong>Code registre / Catégorie d'attribut :</strong> RÉEL</li>
     <li><strong>Année fiscale :</strong> BASE</li>
@@ -394,14 +394,6 @@ Vous pouvez modifier ces paramètres par défaut.</td>
     <tr>
     <td>PAGE</td>
     <td>Insérer un saut de page vertical dans l'état. Les colonnes qui se trouvent à droite de la colonne <strong>PAGE</strong> s'affichent sur une autre page.</td>
-    </tr>
-    <tr>
-    <td>WKS</td>
-    <td>Affiche les données extraites d'une feuille de calcul Excel. Lorsque vous sélectionnez le type de la colonne <strong>FLC</strong>, les paramètres par défaut sont automatiquement spécifiés dans les lignes suivantes : <ul>
-    <li><strong>Année fiscale :</strong> PERIODIC</li>
-    <li><strong>Période :</strong> BASE</li>
-    </ul>
-Vous pouvez modifier ces paramètres par défaut.</td>
     </tr>
     <tr>
     <td>ATTR</td>
@@ -518,13 +510,13 @@ Vous pouvez également utiliser n'importe quelle combinaison de caractères alph
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Mettre en forme un état à plusieurs devises dans une définition de colonne
 
-Un état à plusieurs devises peut afficher les montants dans la devise naturelle (locale), la devise fonctionnelle (par défaut), ou la devise de déclaration. La devise fonctionnelle d'une société est définie dans le système ERP Microsoft Dynamics. Ne confondez pas ce paramètre ERP avec les options régionales spécifiques du système d'exploitation, dans lesquelles vous pouvez configurer les symboles de devise par défaut utilisés dans les états. Les cellules relatives aux devises suivantes sont disponibles dans la définition de colonne :
+Un état à plusieurs devises peut afficher des montants dans la devise comptable de la comptabilité, la déclaration comptable, la devise de transaction d'origine ou la devise de déclaration convertie. La devise comptable d'une société est définie dans les paramètres de comptabilité. Ne confondez pas ce paramètre avec les options régionales spécifiques du système d'exploitation, où vous pouvez configurer les symboles de devise par défaut utilisés dans les états. Les cellules relatives aux devises suivantes sont disponibles dans la définition de colonne :
 
-- **Afficher la devise** – Spécifie le type de devise (naturel, fonctionnel ou de génération d'états) dans lequel les transactions sont affichées. Cette fonctionnalité est parfois désignée conversion de devise. La conversion de devise est la possibilité de déclarer les montants de la comptabilité dans une devise qui n'est pas forcément la devise fonctionnelle de la société ou la devise dans laquelle la transaction a été entrée.
+- **Affichage de devise** – Permet de spécifier le type de devise (comptabilité, déclaration, transaction ou déclaration convertie) dans lequel les transactions sont affichées. La conversion en une fonctionnalité de devise de déclaration est parfois appelée conversion de devise. La conversion de devise désigne la capacité de déclarer les montants de la comptabilité dans une devise qui n'est pas forcément la devise fonctionnelle ou de déclaration de la société ou la devise dans laquelle la transaction a été saisie.
 - **Filtre de devise** – Spécifie un filtre de devise. Seules les transactions qui sont entrées dans la devise sélectionnée sont affichées dans l'état.
 
-> [!NOTE]
-> Pour créer des états utilisant plusieurs devises, vous devez activer la case à cocher **Inclure toutes les devises de déclaration** sous l'onglet **État** de la définition d'état. Pour déterminer la devise fonctionnelle d'une société, procédez comme suit.
+> 
+Pour déterminer la devise comptable d'une société, procédez comme suit.
 
 1. Dans le Concepteur de rapports, dans le menu **Société**, cliquez sur **Sociétés**.
 2. Dans la boîte de dialogue **Sociétés**, sélectionnez une société, puis cliquez sur **Afficher**.
@@ -533,20 +525,18 @@ Un état à plusieurs devises peut afficher les montants dans la devise naturell
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Spécifier la devise dans un état à plusieurs devises
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2. Double-cliquez sur la cellule **Afficher la devise** dans la colonne **FD** appropriée, puis sélectionnez l'option d'affichage des informations de devise : **Devise naturelle/d'origine**, **Devise fonctionnelle issue des informations de la société**, ou la devise de déclaration.
+2. Double-cliquez sur la cellule **Affichage de devise** dans la colonne **FD** appropriée, puis sélectionnez l'option d'affichage des informations de devise : **Devise comptable**, **Déclaration de comptabilité**, la devise de conversion ou sélectionnez pour convertir en une autre devise de déclaration.
 3. Double-cliquez sur la cellule **Filtre de devise** dans la colonne **FD** appropriée, puis sélectionnez le code devise approprié dans la liste. Seules les transactions qui sont entrées dans cette devise sont affichées dans l'état.
 
-> [!NOTE]
-> Les options qui sont décrites ici peuvent différer selon le système ERP. Pour plus d'informations, voir la [Documentation du système ERP Microsoft.](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Exemple pour les cellules Afficher la devise et Filtre de devise
 
 Phyllis a effectué les sélections de devise suivantes dans sa définition de colonne :
 
 - **Filtre de devise :** Yen
-- **Affichage de devise :** Fonctionnel (dollar américain USD)
+- **Affichage de devise :** devise comptable de la comptabilité (dollars américains)
 
-En raison du filtre de devise que Phyllis a sélectionné, l'état inclut seulement les transactions qui ont été entrées en Yens japonais (JPY). En raison de l'affichage de devise qu'elle a sélectionné, l'état affiche ces transactions dans la devise fonctionnelle, le dollar américain (USD).
+En raison du filtre de devise que Phyllis a sélectionné, l'état inclut seulement les transactions qui ont été entrées en Yens japonais (JPY). En raison de l'affichage de devise sélectionné, l'état affiche ces transactions dans la devise comptable, à savoir le dollar américain (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Combinaisons de Filtre de devise de Afficher la devise
 
@@ -555,10 +545,10 @@ Le tableau suivant présente les résultats de l'état qui peuvent exister pour 
 
 | Cellule Afficher la devise                        | Cellule Filtre de devise | Résultat de l'état |
 |----------------------------------------------|----------------------|---------------|
-| Devise naturelle/d'origine                 | **YEN**              | **Y6 000** – Le résultat affiche uniquement les transactions qui ont été entrées en JPY. |
-| Devise fonctionnelle issue des informations de la société | **YEN**              |**$60** – Le résultat affiche uniquement les transactions qui ont été entrées en JPY et affiche ces transactions en USD.<blockquote>[!NOTE] Le taux de conversion est approximativement 100 JPY pour 1 USD.</blockquote> |
-| Devise fonctionnelle à partir des informations de la société | Vide                | **$2310** – Le résultat affiche toutes les données dans la devise fonctionnelle spécifiée dans les informations de la société.<blockquote>[!NOTE] Ce montant correspond à la somme de toutes les transactions dans la devise fonctionnelle.</blockquote> |
-| Devise naturelle/d'origine                 | Vide                | **$2 250** – Le résultat affiche tous les montants dans la devise dans laquelle la transaction a été exécutée. |
+| Devise de la transaction                 | **YEN**              | **Y6 000** – Le résultat affiche uniquement les transactions qui ont été entrées en JPY. |
+| Devise comptable de la comptabilité | **YEN**              |**$60** – Le résultat affiche uniquement les transactions qui ont été entrées en JPY et affiche ces transactions en USD.<blockquote>[!NOTE] Le taux de conversion est approximativement 100 JPY pour 1 USD.</blockquote> |
+| Devise comptable de la comptabilité | Vide                | **2 310 USD** - Le résultat affiche toutes les données dans la devise comptable spécifiée en comptabilité.<blockquote>[!NOTE] Ce montant correspond à la somme de toutes les transactions dans la devise comptable.</blockquote> |
+| Devise de la transaction                 | Vide                | **$2 250** – Le résultat affiche tous les montants dans la devise dans laquelle la transaction a été exécutée. Autrement dit, le total est ajouté aux montants de différentes devises. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Colonne de calcul dans une définition de colonne
 

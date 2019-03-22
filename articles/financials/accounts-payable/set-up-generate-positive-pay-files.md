@@ -1,9 +1,9 @@
 ---
 title: Paramétrer et générer des fichiers de paiement positif
-description: Cet article décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif.
+description: Cette rubrique décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dbc512c6d214dc8cf2527ac23103529111896ec5
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346086"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778176"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Paramétrer et générer des fichiers de paiement positif
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif. 
+Cette rubrique décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif. 
 
 Paramétrez le paiement positif pour générer la liste électronique de chèques qui est fournie à la banque. Puis, lorsque le chèque est présenté à la banque, la banque le compare avec la liste des chèques. Si le chèque correspond à un chèque de la liste, la banque le compense. Si le chèque ne correspond pas à un chèque dans la liste, la banque le conserve pour examen.
 
@@ -94,7 +94,7 @@ Les fichiers de paiement positifs sont créés à l'aide d'entités de données.
           <xsl:value-of select="'
     '" />
           <!--Header End-->
-          <xsl:for-each select="Document/BankPositivePayExportEntity">
+          <xsl:for-each select="Document/BANKPOSITIVEPAYEXPORTENTITY">
             <!--Cheque Detail begin-->
             <xsl:value-of select='RECIPIENTACCOUNTNUM/text()'/>
             <xsl:value-of select="','" />

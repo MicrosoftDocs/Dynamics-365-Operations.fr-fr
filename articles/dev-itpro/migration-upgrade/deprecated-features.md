@@ -3,7 +3,7 @@ title: Fonctions supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329250"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836346"
 ---
 # <a name="removed-or-deprecated-features"></a>Fonctions supprimées ou déconseillées
 
@@ -35,11 +35,77 @@ Cette rubrique décrit les fonctions qui ont été supprimées, ou qui sont deve
 
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
-> [!Note]
+> [!NOTE]
 > À partir de la version de juillet 2017 de Dynamics 365 for Finance and Operations avec platform update 8, les types de déploiements sont indiqués pour chaque fonction supprimée ou déconseillée. Toutes les versions précédentes mentionnées dans cette rubrique ne prenaient en charge que les déploiements dans le cloud.
 
-> [!Note]
+> [!NOTE]
 > Des informations détaillées sur les objets dans Finance and Operations peuvent être consultés dans les [États de référence technique](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version de Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 avec platform update 25
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.1 avec Platform Update 25 est disponible pour des utilisateurs ciblés dans le cadre d'une préversion. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour plus d'informations sur les préversions, voir [Mises à jour de service pour la version standard et la première version](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>API obsolètes et dernières modifications potentielles
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>Abandon de la dérivation depuis les classes internes
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de créer une classe ou une table à partir d'une classe/d'une table interne définie dans un autre pack/module. Cela n'est pas une pratique de codage sûre. Depuis Platform Update 25, le compilateur affiche un message d'avertissement si vous essayez de ce faire.|
+| **Remplacé par une autre fonctionnalité ?**   | L'avertissement du compilateur sera remplacé par une erreur dans une prochaine mise à jour de la plateforme. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, si vous exécutez Platform Update 25 ou version ultérieure, elle peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation. |
+| **Zones de produit affectées**         | Outils de développement Visual Studio. |
+| **Option de déploiement**              | Tous |
+| **État**                         | Abandonné - L'avertissement devient une erreur de compilation dans une mise à jour prochaine de la plateforme. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>Abandon des modes internes de remplacement
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de remplacer une méthode interne dans une classe dérivée définie dans un autre pack/module. Cela n'est pas une pratique de codage sûre. Depuis Platform Update 25, le compilateur affiche un message d'avertissement si vous essayez de ce faire.|
+| **Remplacé par une autre fonctionnalité ?**   | Cet avertissement sera remplacé par une erreur de compilation dans une prochaine mise à jour de la plateforme. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, si vous exécutez Platform Update 25 ou version ultérieure, elle peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation. |
+| **Zones de produit affectées**         | Outils de développement Visual Studio. |
+| **Option de déploiement**              | Tous |
+| **État**                         | Abandonné - L'avertissement devient une erreur de compilation dans une mise à jour prochaine de la plateforme. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 avec platform update 23
+
+### <a name="print-to-screen-functionality"></a>Fonctionnalité d'impression écran
+Les clients peuvent utiliser l'action **Importer** proposée par le contrôle de la visionneuse des états pour télécharger les documents produits par les applications Finance and Operations. Cette présentation basée sur HTML de l'état offre aux utilisateurs un aperçu non paginé du document.
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | La nature non paginée de l'expérience d'aperçu HTML n'offre **pas** une fidélité par rapport aux documents physiques finalement produits par Finance and Operations. En adoptant intégralement le format PDF en standard pour les opérations métier, nous sommes en mesure de simplifier considérablement les options des utilisateurs pour interagir avec les états d'application et rationaliser les processus de rendu des documents. |
+| **Remplacé par une autre fonctionnalité ?**   | De même, le format PDF des documents est le format par défaut pour les états rendus par Finance and Operations.   |
+| **Zones de produit affectées**         | Cette modification n'a **pas** d'impact sur les scénarios clients où les états sont distribués de manière électronique ou envoyés directement vers les imprimantes.    |
+| **Option de déploiement**              | Tous  |
+| **État**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction. La fonctionnalité pour télécharger automatiquement les états d'application vers le navigateur comme documents PDF est prévue pour Platform Update de mai 2019. <br><br>**Important :** Les clients existants qui comptent sur la fonction Impression écran sont invités à prévenir le  [Support](../lifecycle-services/lcs-support.md) en amont de la mise à niveau vers Platform Update 26. |
+
+### <a name="client-kpi-controls"></a>Contrôles KPI client
+Les indicateurs de performance clé intégrés (KPI) peuvent être modélisés dans Visual Studio par un développeur et personnalisés davantage par l'utilisateur final.
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Les contrôles client natifs utilisés pour définir les KPI sont peu utilisés par les clients et reposent sur un développeur afin de bénéficier d'ajout de mesures de suivi. |
+| **Remplacé par une autre fonctionnalité ?**   | Le service PowerBI.com fournit des outils de première classe pour définir et gérer les KPI selon les données depuis des sources externes.  Dans un prochaine version, nous prévoyons de vous permettre d'intégrer des solutions hébergées sur PowerBI.com dans les espaces de travail de l'application.   |
+| **Zones de produit affectées**         | Cette mise à jour empêche les développeurs d'introduire de nouveaux contrôles de KPI dans le concepteur Visual Studio.    |
+| **Option de déploiement**              | Tous  |
+| **État**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>API obsolètes et dernières modifications à venir
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Groupes de champ contenant des références de champs non valides
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Il est possible pour les définitions de métadonnées de table d'avoir des groupes de champs contenant des références de champs non valides. Ce problème est actuellement catégorisé comme *avertissement du compilateur* plutôt que comme *erreur*, ce qui signifie que la création et le déploiement d'un pack déployable peuvent survenir sans corriger ce problème. En cas de déploiement, cela peut provoquer des erreurs d'exécution dans Financial Reporting et SQL Server Reporting Services (SSRS). Pour résoudre ce problème :<br><br>1. Supprimez la référence de champ non valide de la définition du groupe de champs de table.<br><br>2. Recompilez.<br><br>3. Veillez à ce que tous les avertissements ou toutes les erreurs soient traitées. |
+| **Remplacé par une autre fonctionnalité ?**   | Cet avertissement du compilateur sera remplacé par une erreur de compilation dans une prochaine version.  |
+| **Zones de produit affectées**         | Outils de développement Visual Studio. |
+| **Option de déploiement**              | Tout. |
+| **État**                         | Abandonné - L'avertissement va devenir une erreur du temps de compilation dans une prochaine version. Actuellement, nous visons Platform Update 30. |
+
+#### <a name="complete-list"></a>Liste complète
+Pour accéder à la liste complète des API en cours d'abandon, voir [Abandon des méthodes et des éléments de métadonnées](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 avec platform update 20
 
@@ -52,7 +118,7 @@ Le mode de transfert synchrone n'est plus utilisé dans les paramètres de compt
 | **Remplacé par une autre fonctionnalité ?**   | Le mode asynchrone et le traitement par lots planifié sont les options à utiliser à la place du mode synchrone.   |
 | **Zones de produit affectées**         | Comptabilité, Comptabilité fournisseur, Comptabilité client, Approvisionnement, Dépenses    |
 | **Option de déploiement**              | Tous  |
-| **Statut**                         | Obsolète - Le délai cible pour la suppression de la fonctionnalité est la version 10.0.|
+| **État**                         | Abandon - Le délai cible pour la suppression de la fonctionnalité est la version 10.0.|
 
 ### <a name="electronic-reporting-for-russia"></a>Gestion des états électroniques pour la Russie
 Fonction de configuration des formats de fichier .txt et .xml des déclarations. 

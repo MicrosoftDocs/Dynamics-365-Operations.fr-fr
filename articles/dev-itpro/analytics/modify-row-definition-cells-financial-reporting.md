@@ -1,9 +1,9 @@
 ---
 title: Modifier les cellules de définition de ligne
-description: Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
+description: Cette rubrique décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323638"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379662"
 ---
 # <a name="modify-row-definition-cells"></a>Modifier les cellules de définition de ligne
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
+Cette rubrique décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Spécifier un code de ligne dans une définition de ligne
 
@@ -386,7 +386,7 @@ Vous pouvez limiter une ligne à un code registre existant. La définition de co
 Certains systèmes comptables prennent en charge les attributs de compte et de transaction dans les données financières. Ces attributs fonctionnent comme des segments de compte virtuel, et peuvent comporter des informations supplémentaires sur le compte ou la transaction. Ces informations supplémentaires peuvent être des ID de compte, des ID de lots, des codes postaux ou d'autres attributs. Si votre système comptable prend en charge les attributs, vous pouvez utiliser les attributs de compte ou les attributs de transaction comme modificateurs de ligne dans la définition de ligne. Pour plus d'informations sur la manière de remplacer les informations de ligne, consultez la section « Remplacer une définition de colonne » plus haut dans le présent article.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Spécifier un lien vers la cellule Dimensions financières
-La cellule **Lier aux dimensions financières** contient des liens vers des données financières qui doivent être incluses dans chaque ligne d'un état. Cette cellule contient les valeurs de dimension, mais vous pouvez spécifier des cellules dans une feuille de calcul Microsoft Excel au lieu de valeurs de segment ou de dimension, ou conjointement à celles-ci. Pour ouvrir la boîte de dialogue **Dimensions**, double-cliquez sur la cellule **Lier aux dimensions financières**.
+La cellule **Lier aux dimensions financières** contient des liens vers des données financières qui doivent être incluses dans chaque ligne d'un état. Cette cellule contient les valeurs de dimension. Pour ouvrir la boîte de dialogue **Dimensions**, double-cliquez sur la cellule **Lier aux dimensions financières**.
 
 > [!NOTE]
 > Le générateur d'état ne peut pas sélectionner de comptes, de dimensions ni de champs à partir du système ERP Microsoft Dynamics comportant des caractères réservés suivants : &, \*, \[, \], {ou }. Pour spécifier des informations pour une ligne figurant déjà dans la définition de ligne, ajoutez les informations dans la cellule **Lien vers les dimensions financières**. Pour ajouter de nouvelles lignes liées aux données financières, utilisez la boîte de dialogue **Insérer des lignes à partir de** pour créer des lignes dans la définition d'état. L'en-tête de colonne change, selon la configuration de la colonne, comme indiqué dans le tableau suivant.
@@ -394,9 +394,7 @@ La cellule **Lier aux dimensions financières** contient des liens vers des donn
 | Type de lien sélectionné       | La description de la colonne Lier change comme suit |
 |----------------------------------|----------------------------------------------------|
 | Dimensions financières             | Lier aux dimensions financières                       |
-| Feuille de calcul externe               | Lier à une feuille de calcul                                  |
-| Dimensions financières + feuille de calcul | Lier aux dimensions financières + à une feuille de calcul           |
-| État Management Reporter       | État Management Reporter                         |
+| Feuille de calcul d'état                 | État de génération d'états financiers                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Spécifier une dimension ou une plage
 

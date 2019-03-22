@@ -1,9 +1,9 @@
 ---
 title: Afficher les états financiers
-description: Cet article décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
+description: Cette rubrique décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312943"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791439"
 ---
 # <a name="view-financial-reports"></a>Afficher les états financiers
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
+Cette rubrique décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 
 <a name="financial-reporting-overview"></a>Présentation des états financiers
 ----------------------------
@@ -67,18 +67,15 @@ Un état financier peut être affiché dans n'importe quelle devise, à tout mom
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Afficher une vue de synthèse de l'état financier
 Un état financier peut contenir des lignes spécifiques et les lignes récapitulatives. Les lignes spécifiques sont des lignes contenant les comptes principaux ou des dimensions. Les lignes récapitulatives sont des lignes de description, de total et de calcul. Pour afficher seulement les lignes récapitulatives d'un état, cliquez sur **Afficher**, puis sur **Lignes de synthèse uniquement**. L'état est réduit et affiche uniquement les lignes récapitulatives. Pour afficher les lignes spécifique avec les lignes récapitulatives, cliquez sur **Afficher**, puis de nouveau sur **Lignes de synthèse uniquement**.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Ouvrir un état financier d'un mois précédent
-Vous pouvez afficher les états pour le mois en cours ou les mois précédent sans régénérer l'état. Pour ouvrir l'état pour un mois précédent, cliquez sur **Afficher**, puis cliquer sur **États précédents**. La liste des mois précédent pour lesquels des états ont été générés s'affiche. Développez le mois pour lequel afficher l'état, sélectionnez la date, puis cliquez sur **OK**. L'état du mois précédent s'affiche. Pour revenir à l'état du mois en cours, cliquez que **Annuler**.
-
 ## <a name="print-a-financial-report"></a>Imprimer un état financier
-Pour imprimer un état financier, dans le Volet Action, cliquez sur **Imprimer**, puis suivez une ou plusieurs des étapes suivantes pour définir les options d'impression :
+L'impression d'un état financier génère un fichier PDF qui peut être ensuite imprimé manuellement. Pour créer un état financier imprimable, dans le Volet Actions, cliquez sur **Imprimer**, puis suivez une ou plusieurs des étapes suivantes pour définir les options d'impression :
 
 -   Pour inclure les différents niveaux de détail dans l'état imprimé, mettez le curseur sur **Oui** ou **Non**. Si un état utilise une arborescence de déclaration, vous pouvez choisir d'inclure toutes les unités d'état ou seulement l'unité d'état actuelle.
 -   Pour définir la taille de la page, sélectionnez une taille de page dans la liste.
 -   Pour définir la mise en page, sélectionnez une mise en page dans la liste. Si vous souhaitez que le contenu de l'état s'adapte à la largeur sélectionnée, mettez le curseur sur **Oui**.
 -   Pour définir les marges de page, entrez la taille des marges supérieur, inférieure, de gauche et de droite en pouces.
 
-Après avoir terminé de définir les options d'impression, cliquez sur **Imprimer** pour imprimer l'état. Si vous décidez que vous ne souhaitez pas imprimer l'état, cliquez sur **Annuler**. Un aperçu de l'état imprimé s'affiche. Vous pouvez sélectionner l'imprimante à laquelle envoyer l'état, et vous pouvez également régler les options d'impression.
+Après avoir défini les options d'impression, cliquez sur **Imprimer** pour continuer et indiquer si vous souhaitez télécharger le fichier ou l'enregistrer vers OneDrive ou SharePoint. Si vous ne souhaitez pas continuer, cliquez sur **Annuler**. Si vous continuez, l'état commence le rendu sur le serveur et vous êtes invité à télécharger l'état au format PDF. Désormais, vous pouvez afficher l'état dans votre visionneuse PDF et de là, vous pouvez sélectionner l'imprimante vers laquelle envoyer l'état, et faire les ajustements supplémentaires pour les options d'impression.
 
 ## <a name="export-a-financial-report"></a>Exporter un état financier
 Pour exporter un état financier, dans le Volet Action, cliquez sur **Exporter**. L'état est exporté vers Microsoft Excel, et votre navigateur vous invite à ouvrir ou enregistrer le fichier exporté. Les paramètres d'exportation définis dans la création de l'état sont appliqués à l'état exporté.    
@@ -86,7 +83,7 @@ Pour exporter un état financier, dans le Volet Action, cliquez sur **Exporter**
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[États financiers pour Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
+[États financiers](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

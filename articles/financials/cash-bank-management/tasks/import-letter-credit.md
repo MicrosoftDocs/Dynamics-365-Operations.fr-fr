@@ -3,7 +3,7 @@ title: Importer une lettre de crédit
 description: Cette procédure décrit le processus d'importation d'une lettre de crédit.
 author: kweekley
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3d5539fbd17c880d8bbadd47444c9cc53fce039c
+ms.sourcegitcommit: 0c1deb100d0bf6dacd14b328968bbc7a9d92583a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313564"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "771229"
 ---
 # <a name="import-letter-of-credit"></a>Importer une lettre de crédit
 
@@ -111,8 +111,7 @@ La société fictive USMF sert d'exemple dans cette procédure.
 1. Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d'importation/relance d'importation.
 2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Vérifiez le statut de la lettre de crédit d'importation.    
-    *   
+    * Vérifiez le statut de la lettre de crédit d'importation.     
 4. Fermez la page.
 5. Fermez la page.
 

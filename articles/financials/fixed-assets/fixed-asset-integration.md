@@ -3,7 +3,7 @@ title: Intégration des immobilisations
 description: Le module Immobilisations peut être intégré avec les modules Comptabilité, Gestion des stocks, Ventes et Achats. Vous pouvez également paramétrer le module Immobilisations en vue de son intégration avec les commandes fournisseur.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336978"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778153"
 ---
 # <a name="fixed-assets-integration"></a>Intégration des immobilisations
 
@@ -41,7 +41,7 @@ Sur la page **Profils de validation des immobilisations**, vous définissez les 
 ## <a name="inventory-management"></a>Gestion des stocks
 Dans le journal de stock pour des immobilisations, vous pouvez entrer l'acquisition d'immobilisations que l'entité juridique a produites ou construites pour elle-même. Vous pouvez ensuite transférer des articles en stock vers les immobilisations comme acquisition ou dans le cadre d'une acquisition. 
 
-Vous pouvez également acquérir des immobilisations à l'aide de commandes fournisseur. Lorsque des commandes fournisseur contiennent des articles de stock désignés comme immobilisations, le paramétrage de l'option **Autoriser l'acquisition d'actifs à partir d'Achats** de la page **Paramètre des immobilisations** détermine si une acquisition est validée pour l'immobilisation lors de la validation de la facture. L'effet de l'acquisition d'immobilisations sur le stock dépend du paramétrage de l'entité juridique. 
+Vous pouvez également acquérir des immobilisations à l'aide de commandes fournisseur. Lorsque des commandes fournisseur contiennent des articles de stock désignés comme immobilisations, le paramétrage de l'option **Autoriser l'acquisition d'actifs à partir d'Achats** de la page **Paramètre des immobilisations** détermine si une acquisition est validée pour l'immobilisation lors de la validation de la facture. Une ligne d'achat crée une immobilisation, indépendamment de la quantité. L'effet de l'acquisition d'immobilisations sur le stock dépend du paramétrage de l'entité juridique. 
 
 Quand un article en stock devient une acquisition d'immobilisation, par l'intermédiaire du journal de stock, d'une commande fournisseur ou d'une proposition d'acquisition, une transaction de registre d'immobilisation est créée. Si une acquisition de registre inclut un registre des amortissements dérivé, une transaction d'acquisition du registre dérivé est également créée. 
 

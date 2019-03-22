@@ -3,7 +3,7 @@ title: Rapprochement des factures dans le module Achats
 description: Le rapprochement de factures du module Achats est le processus de rapprochement des informations de la facture fournisseur, de la commande fournisseur et de l'accusé de réception de marchandises.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6d1582d268be759cd1f1686c9e80f6cf7eeb2da8
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310275"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389931"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Rapprochement des factures dans le module Achats
 
@@ -49,7 +49,7 @@ Vous pouvez utiliser les types suivants de rapprochements de factures du module 
 
 Les rapprochements à deux et à trois facteurs rapprochent toujours les informations relatives au prix unitaire. Vous pouvez également configurer ces stratégies de rapprochement de sorte qu'elles rapprochent les informations relatives au prix total.
 -   Rapprochement des prix unitaires nets - Lors d'un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le prix unitaire net de chaque ligne de la facture avec le prix unitaire net correspondant de la commande fournisseur. Le prix unitaire net est déterminé par la formule suivante : Montant net de la ligne/Quantité de la ligne
--   Rapprochement des totaux des prix - Lors d'un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le montant net (total des prix) de chaque ligne de la facture avec le montant net correspondant de la commande fournisseur. Le montant net est déterminé par la formule suivante : (Prix unitaire \* Quantité de la ligne) + Frais de la ligne - Remises de la ligne
+-   Rapprochement des totaux des prix - Lors d'un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le montant net (total des prix) de chaque ligne de la facture avec le montant net correspondant de la commande fournisseur. Le montant net est déterminé par la formule suivante : *(Prix unitaire \* Quantité de la ligne) + Frais de la ligne - Remises de la ligne*. Lors du rapprochement des totaux des prix par pourcentage, le système compare les valeurs à l'aide de la devise de transaction. Lors du rapprochement des totaux des prix par montant, le système compare les valeurs à l'aide de la devise comptable.
 
 Les calculs de rapprochement de factures sont généralement effectués automatiquement lorsque vous modifiez les factures fournisseur dans la page Facture fournisseur. Sinon, le rapprochement de factures peut être effectué à la demande, le cas échéant. Le rapprochement de factures à la demande est contrôlé pour l'entité juridique par l'option Mettre à jour automatiquement le statut d'en-tête des factures de la page Paramètres de la comptabilité fournisseur sur l'onglet Contrôle de la facture. Le rapprochement de factures peut également être exécuté dans le cadre du processus de vérification des factures. Vous pouvez afficher les résultats du rapprochement de factures sur la page Facture fournisseur et les pages de rapprochement de factures associés.
 

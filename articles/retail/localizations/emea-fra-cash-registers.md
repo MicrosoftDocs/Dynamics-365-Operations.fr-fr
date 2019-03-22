@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: ad2ecbc6e184adf77cb30f98b586c11b8ec89248
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e68e6450d1229f646341bdfa5ca7c3d67daf4ba3
+ms.sourcegitcommit: 2cf5498098e7a5ade1c16eac6df26bc98e4565cd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370688"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "760717"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -349,7 +349,7 @@ Pour activer les événements d'audit, vous devez réinitialiser les énumérati
 
 Dans l'organisateur **Général** de la page **Paramètres des ventes au détail**, cliquez sur **Initialiser**. Pour plus d'information, voir [Initialiser les données d'origine](../enable-configure-retail-functionality.md)
 
-Il existe une option pour configurer séparément Retail Planification. Cliquez sur **Retail Planification** > **Initialiser Retail Planification**. Dans la page **Initialiser Retail Planification**, cliquez sur **OK**.
+Il existe une option pour configurer séparément Retail Planification. Cliquez sur **Retail Planification** \> **Initialiser Retail Planification**. Dans la page **Initialiser Retail Planification**, cliquez sur **OK**.
 
 ### <a name="configure-retail-channel-components"></a>Configurer les composants de canal Retail
 

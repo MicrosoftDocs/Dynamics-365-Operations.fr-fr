@@ -5,6 +5,10 @@ items:
   items:
   - name: Nouveautés ou modifications
     href: get-started/whats-new.md
+  - name: Fonctionnalités d'aperçu dans Dynamics 365 for Retail 10.0.1
+    href: get-started/whats-new-10-0-1.md
+  - name: Nouveautés et modifications dans Dynamics 365 for Retail (avril 2019)
+    href: get-started/april-whats-new.md
   - name: Avant d'acheter Retail
     href: get-started/before-you-buy.md
   - name: Souscrire un abonnement d'aperçu
@@ -58,7 +62,7 @@ items:
     href: ../financials/accounts-receivable/credit-card-authorizations.md
   - name: Configurer les dénominations des espèces pour le point de vente
     href: cash-denominations.md
-  - name: Connecteur de paiement Microsoft Dynamics 365 pour Adyen
+  - name: Connecteur de paiement Dynamics 365 pour Adyen
     href: dev-itpro/adyen-connector.md
   - name: Paramétrer des scénarios de règlement de facture
     href: payinvoice.md
@@ -109,7 +113,11 @@ items:
   - name: Options de calcul montant entier et intervalle pour les codes taxe
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Frais automatiques avancés omnicanaux
-  href: omni-auto-charges.md
+  items:
+  - name: Configurer et utiliser les frais automatiques avancés
+    href: omni-auto-charges.md
+  - name: Ventilation et regroupement des frais automatiques d'en-tête
+    href: pro-rate-charges-matching-lines.md
 - name: Centre d'appels
   items:
   - name: Fonctionnalité de vente du centre d'appels
@@ -387,7 +395,7 @@ items:
     - name: Fonctionnalité de la caisse enregistreuse
       href: localizations/emea-swe-cash-registers.md
     - name: Exemple pour l'intégration de Retail POS avec des unités de contrôle
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: Tâches de Retail
   items:
   - name: Créer un produit
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: Remplacer le gestionnaire de demandes du point de vente
       href: dev-itpro/pos-handler.md
+    - name: Afficher des informations sur les packages d'extension POS
+      href: view-pos-extension-package-details.md
   - name: Hardware Station et extensibilité
     href: dev-itpro/hardware-station-extensibility.md
   - name: Extensibilité de Retail Server
@@ -659,9 +669,9 @@ items:
     items:
     - name: Extension de fidélité
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377249"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791636"
