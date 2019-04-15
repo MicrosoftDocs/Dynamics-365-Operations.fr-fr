@@ -278,7 +278,7 @@ items:
         href: extensibility/class-extensions.md
       - name: Extension de classe via une encapsulation de méthode et une chaîne de commandes
         href: extensibility/method-wrapping-coc.md
-      - name: Instructions de dénomination pour les extensions de modèle
+      - name: Instructions de dénomination pour les extensions
         href: extensibility/naming-guidelines-extensions.md
       - name: Assouplir les restrictions du modèle pour refactoriser la surexposition dans les extensions
         href: extensibility/refactoring-over-layering.md
@@ -374,6 +374,28 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: Filtrage SysTest à l'aide des attributs de classe et de méthode
       href: perf-test/systest-filtering.md
+    - name: Bibliothèque de tests d'acceptation
+      href: perf-test/acceptance-test-library.md
+    - name: Concepts de navigation
+      href: perf-test/concepts-navigation.md
+    - name: Méthodes de données de test
+      href: perf-test/test-data-methods.md
+    - name: Entités de la bibliothèque de tests d'acceptation
+      href: perf-test/concepts-entities.md
+    - name: Commandes de la bibliothèque de tests d'acceptation
+      href: perf-test/concepts-commands.md
+    - name: Créateurs de la bibliothèque de tests d'acceptation
+      href: perf-test/concepts-creators.md
+    - name: Requêtes de la bibliothèque de tests d'acceptation
+      href: perf-test/concepts-queries.md
+    - name: Classes de spécification
+      href: perf-test/concepts-specifications.md
+    - name: Assistant de génération de code de la bibliothèque de tests d'acceptation
+      href: perf-test/code-generation-wizard.md
+    - name: Pratiques recommandées pour la bibliothèque de tests d'acceptation
+      href: perf-test/atl-best-practices.md
+    - name: Forum aux questions
+      href: perf-test/atl-faq.md
   - name: Prise d'effet de date
     href: dev-tools/date-effectivity.md
   - name: Gestionnaire de licences ISV
@@ -451,6 +473,8 @@ items:
       href: user-interface/control-checklist.md
   - name: Messages
     items:
+    - name: Légendes de fonction
+      href: user-interface/feature-callouts.md
     - name: Boîtes de dialogue Curseur et MessageBox
       href: user-interface/slider-messagebox.md
     - name: Centre de message, barre de message et API de détails d'un message
@@ -920,7 +944,7 @@ items:
       href: deployment/apply-deployable-package-system.md
     - name: Appliquer les mises à jour et les extensions aux composants du canal Retail hébergés dans le cloud
       href: deployment/Update-retail-channel.md
-    - name: Initialiser les composants du canal Retail hébergés dans le cloud
+    - name: Initialiser Retail Cloud Scale Unit
       href: deployment/Initialize-Retail-Channels.md
   - name: Déploiement sur site
     href: deployment/on-premises-deployment-landing-page.md
@@ -1044,7 +1068,7 @@ items:
     items:
     - name: Processus de déplacement vers la dernière mise à jour
       href: migration-upgrade/upgrade-latest-update.md
-    - name: Mettre à jour les environnements de la version 8.0 vers la version 8.1
+    - name: Mettre à jour les environnements de la version 8.0 vers la version 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
     - name: Stratégie du cycle de vie de logiciel et versions de cloud
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: Traitement par lots de gérer la defragmentation de l'index SQL
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: Configurer des alertes de traitement par lots
+      href: sysadmin/alerts.md
+    - name: Formulaires de traitement par lots améliorés
+      href: sysadmin/enhanced-forms.md
+    - name: Nettoyer l'historique de traitement par lots
+      href: sysadmin/batch-history-cleanup.md
   - name: Conseiller en optimisation
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1229,8 +1259,10 @@ items:
     items:
     - name: Actualiser à des fins de formation
       href: database/dbmovement-scenario-general-refresh.md
-    - name: Débogage et diagnostics
+    - name: Déboguer une copie de la base de données de production
       href: database/dbmovement-scenario-debugdiag.md
+    - name: Exporter une copie de la base de données de tests d'acceptation utilisateur standard
+      href: database/dbmovement-scenario-exportuat.md
     - name: Promotion de la configuration Golden
       href: database/dbmovement-scenario-goldenconfig.md
     - name: Tests destructifs
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Gérer les expériences d'assistance Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773800"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976010"
