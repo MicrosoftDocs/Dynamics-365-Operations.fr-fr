@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c53a38eb6afdf8d3cc1a316c8da5e84549ab60d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e3e8ffa6cee7742de1cd98c9c83d134b6d5e4a89
+ms.sourcegitcommit: 529763612e8af315d588e85ba807a5c849df57bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361427"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894676"
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks. Cette opération est généralement effectuée par la personne qui s'occupe de la réception. Vous pouvez exécuter cette procédure dans la société USMF fictive avec les valeurs d'exemple affichées.  Si vous n'utilisez pas USMF, vous devez avoir une commande fournisseur confirmée avec une ligne de commande fournisseur en cours avant de lancer ce guide. L'article de la ligne doit être stocké et il ne doit ni utiliser les variantes de produit ni avoir des dimensions de suivi. Et l'article doit être associé à un groupe de dimension de stockage, dans lequel le site et l'entrepôt sont actifs.
+Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks. Cette opération est généralement effectuée par la personne qui s'occupe de la réception. Vous pouvez exécuter cette procédure dans la société USMF fictive avec les valeurs d'exemple affichées.  Si vous n'utilisez pas USMF, vous devez avoir une commande fournisseur confirmée avec une ligne de commande fournisseur en cours avant de lancer ce guide. L'article de la ligne doit être stocké. Et l'article doit être associé à un groupe de dimension de stockage, dans lequel le site et l'entrepôt sont actifs.
 
 
 ## <a name="create-item-arrival-journal-header"></a>Créer l'en-tête du journal des arrivées d'articles

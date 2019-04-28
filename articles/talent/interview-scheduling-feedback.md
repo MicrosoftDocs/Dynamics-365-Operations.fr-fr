@@ -1,25 +1,25 @@
 ---
 title: Planification des entretiens et commentaires
 description: Cette rubrique fournit des informations sur la planification des entretiens et les activités de commentaires dans Attract.
-author: ''
+author: hasrivas
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
-ms.author: hasrivas
-ms.openlocfilehash: 7bc5a66bb221cb0ab2c69fcb1013ed48a7c664a6
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.author: shielas
+ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374898"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "989935"
 ---
 # <a name="interview-scheduling-and-feedback"></a>Planification des entretiens et commentaires
 
@@ -28,6 +28,8 @@ ms.locfileid: "374898"
 ## <a name="scheduler-activity"></a>Activité de planificateur
 
 L'activité de planification reste en option et se distingue par deux composants : Demande de disponibilité du candidat et Planification. Le composant Disponibilité du candidat permet d'utiliser des e-mails pour demander la disponibilité d'un candidat. Le composant Programme permet de programmer des entretiens avec le candidat et l'équipe de recrutement.
+
+Pour paramétrer l'activité du planificateur de sorte à inclure ou limiter les candidats à programmer, sélectionnez une valeur dans le champ **Qui est programmé**. Les options disponibles sont **Tous les candidats**, **Candidats externes** et **Candidats internes**. Par exemple, si vous souhaitez ignorer les candidats internes au premier tour de la planification, vous pouvez affecter l'activité de planification aux seuls candidats externes en définissant **Qui est programmé** sur **Candidats externes**.
 
 ### <a name="candidate-availability-request"></a>Demande de disponibilité du candidat
 
@@ -54,7 +56,7 @@ Plusieurs configurations sont disponibles pour la planification des entretiens a
 
 2. Sélectionnez la durée d'entretien pour chaque événement d'entretien, puis cliquez sur **OK** pour commencer à créer le programme.
 
-    Si l'option **Recommandations** est sélectionnée, des suggestions sont affichées et la grille d'entretien est pré-remplie. Vous pourrez consulter le calendrier actuel de disponibilité de tous les intervieweurs sélectionnés. Vous pouvez également afficher le calendrier du candidat s'il s'agit d'un candidat interne.
+    Si l'option **Recommandations** est sélectionnée, des suggestions sont affichées et la grille d'entretien est pré-remplie. Vous pourrez consulter le calendrier actuel de disponibilité de tous les intervieweurs sélectionnés. Vous pouvez également afficher le calendrier du candidat s'il s'agit d'un candidat interne. Pour les interviewers et les candidats internes, vous pouvez afficher leurs créneaux occupés, leurs heures de travail, leurs heures hors bureau, et également remarquer s'ils ont indiqué dans leur calendrier qu'ils travaillent ailleurs à des créneaux particuliers. 
 
 3. Si aucune suggestion n'est disponible, dans la colonne **Intervieweurs**, cliquez sur un créneau horaire, indiquez le titre de l'entretien, les détails, et remplissez les détails concernant l'emplacement, le cas échéant. Vous pouvez choisir d'inclure le lien **Skype Entreprise** pour l'entretien.
 
@@ -73,19 +75,30 @@ Plusieurs configurations sont disponibles pour la planification des entretiens a
 
     Les réponses des intervieweurs sont saisies et apparaissent dans Attract. Si un intervieweur refuse l'invitation, vous en êtes informé pour procéder à une modification. Pour afficher leur réponse dans la vue de grille **Planificateur**, cliquez sur l'icône bulle.
 
-[![Vue du recruteur Attract de la réponse d'un intervieweur](./media/schedule-interviewer-response.png)](./media/schedule-interviewer-response.png)
+[![Vue du recruteur Attract de la réponse d'un intervieweur](./media/schedule-interviewer-response2.png)](./media/schedule-interviewer-response2.png)
 
 7. Une fois le programme d'entretien prêt pour partage avec le candidat, cliquez sur **Envoyer au candidat**. Vous pouvez choisir de masquer ou d'afficher les noms des intervieweurs et les créneaux au candidat.
 
-8. Sélectionnez un modèle de courrier électronique et envoyez le récapitulatif de l'entretien au candidat. Le candidat peut visualiser ces informations dans sa boîte de réception ainsi que sur son portail candidat.
+8. Sélectionnez un modèle d'e-mail et envoyez le récapitulatif de l'entretien au candidat. Le candidat peut visualiser ces informations dans sa boîte de réception ainsi que sur son portail candidat.
     
 >[!NOTE] 
 > La disponibilité du calendrier d'un candidat s'affiche uniquement si le candidat est interne. De même, l'amélioration des recommandations du programme des entretiens est soumise uniquement aux candidats internes. Actuellement, les candidats (externes ou internes) ne reçoivent pas d'invitation à une réunion par e-mail. Ils ne reçoivent qu'un récapitulatif des entretiens.
 
-## <a name="feedback-activity"></a>Activité de rétroaction
+Les candidats recevront l'e-mail résumant leur boucle d'entretien. Les e-mail contiennent un fichier .ics qui peut être enregistré dans leur calendrier personnel pour être facilement accessible et recevoir des notifications pour l'entretien.
 
-L'activité de commentaires est facultative dans un modèle de poste. Cette activité permet aux participants de renseigner des recommandations ou des commentaires pour un candidat. Si vous sélectionnez le champ **Hériter les participants aux commentaires de l'équipe de recrutement**, le recruteur, le responsable du recrutement et les intervieweurs sont automatiquement renseignés dans l'activité de commentaires. Les organisations peuvent permettre aux intervieweurs d'afficher les commentaires d'autres personnes avant d'envoyer leurs propres commentaires. Les organisations peuvent également autoriser les intervieweurs à modifier leur commentaire l'avoir envoyé. Les intervieweurs doivent envoyer leurs commentaires pour les entretiens récemment menés selon la configuration prédéfinie dans le cadre du modèle de poste. Le responsable du recrutement ou un recruteur peut également choisir de rappeler manuellement à un intervieweur d'envoyer ses commentaires.
+>[!TIP] 
+> Au cas où vous renvoyiez le programme d'entretien au candidat, il reçoit une autre pièce jointe de fichier .ics. Nous vous recommandons de mettre à jour les modèles d'e-mail de synthèse d'entretien des candidats pour vous assurer que les candidats suppriment les événements d'entretien précédemment ajoutés et ne voient pas de doublons dans leur calendrier. 
+
+## <a name="feedback-activity"></a>Activité de commentaire
+
+L'activité de commentaires est facultative dans un modèle de poste. Cette activité permet aux participants de renseigner des recommandations ou des commentaires pour un candidat. 
+
+Pour inclure ou limiter les candidats sur lesquels fournir des commentaires, sélectionnez une valeur dans le champ **Sur qui doit les interviewers doivent fournir des commentaires**.  Les options disponibles sont **Tous les candidats**, **Candidats externes** et **Candidats internes**. Par exemple, si vous souhaitez ignorer les candidats internes au premier tour de la planification, définissez **Sur qui doit les interviewers doivent fournir des commentaires** sur **Candidats externes**.
+
+Si vous sélectionnez le champ **Hériter les participants aux commentaires de l'équipe de recrutement**, le recruteur, le responsable du recrutement et les intervieweurs sont automatiquement renseignés dans l'activité de commentaires. Les organisations peuvent permettre aux intervieweurs d'afficher les commentaires d'autres personnes avant d'envoyer leurs propres commentaires. Les organisations peuvent également autoriser les intervieweurs à modifier leur commentaire l'avoir envoyé. Les intervieweurs doivent envoyer leurs commentaires pour les entretiens récemment menés selon la configuration prédéfinie dans le cadre du modèle de poste. Le responsable du recrutement ou un recruteur peut également choisir de rappeler manuellement à un intervieweur d'envoyer ses commentaires.
 
 ## <a name="interview-activity"></a>Activité d'entretien
 
-L'activité d'entretien est une activité facultative avec trois composants : Demande de disponibilité du candidat, Planification et Commentaires. Utilisez l'activité d'entretien dans le modèle de poste si vous souhaitez utiliser tous les composants Demande de disponibilité du candidat, Planification et Commentaires dans le cadre du processus, plutôt que de les utiliser individuellement dans le cadre du processus de recrutement.
+L'activité d'entretien est une activité facultative avec trois composants : **Demande de disponibilité du candidat**, **Planification** et **Commentaires**. Utilisez l'activité d'entretien dans le modèle de poste si vous souhaitez inclure l'ensemble demande de disponibilité du candidat - programme - commentaires dans le cadre du processus plutôt que de les utiliser de manière individuelle.
+
+Pour inclure ou limiter les candidats à interviewer, sélectionnez une valeur dans le champ **Qui passe l'entretien**. Les options disponibles sont **Tous les candidats**, **Candidats externes** et **Candidats internes**. Par exemple, si vous souhaitez ignorer les candidats internes au premier tour d'entretien, définissez **Qui passe l'entretien** sur **Candidats externes**.

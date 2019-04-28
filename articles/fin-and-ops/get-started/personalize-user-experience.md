@@ -3,7 +3,7 @@ title: Personnaliser l'expérience de l'utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363474"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975849"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l'expérience de l'utilisateur
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
 
@@ -47,6 +48,8 @@ La page **Options utilisateur** contient plusieurs paramètres à l'échelle du 
 - **Préférences** – Permet de sélectionner des valeurs par défaut qui sont utilisées chaque fois que vous ouvrez Finance and Operations. Ces valeurs sont notamment la société, la page initiale et le mode affichage/modification par défaut. (Le mode affichage/modification détermine si une page est verrouillée pour l'affichage ou ouverte pour la modification chaque fois que vous l'ouvrez). Cet onglet contient également des options pour la langue, le fuseau horaire et le format de date/heure et de nombre. Enfin, cet onglet contient plusieurs préférences qui varient d'une version à l'autre.
 - **Compte** – Permet d'ajuster votre nom d'utilisateur et d'autres options relatives au compte.
 - **Workflow** – Permet de sélectionner les options associées au workflow.
+
+Outre modifier les paramètres utilisateur, vous pouvez également afficher et supprimer vos données et personnalisations d'utilisation en cliquant sur le bouton **Données d'utilisation**. Lorsque vous utilisez l'application, la plupart de vos sélections sont enregistrées pour faciliter l'utilisation ultérieure du système. L'onglet **Personnalisation**, en particulier, permet d'afficher et de gérer les modifications personnelles que vous avez apportées aux pages du système. Les légendes des fonctions, les fenêtres contextuelles qui vous présentent de nouvelles fonctions du produit (disponible dans Platform update 26), peuvent également être réinitialisées à partir de cet onglet de manière à être averti de nouveau sur les fonctions précédemment rencontrées.  
 
 ## <a name="implicit-personalizations"></a>Personnalisations implicites
 
@@ -72,7 +75,7 @@ Certaines des modifications les plus courantes et importantes qui peuvent être 
 
 En outre, les types les plus classiques de personnalisations explicites sont disponibles en cliquant avec le bouton droit sur un élément et en sélectionnant **Personnaliser**. (Notez que tous les éléments sur la page ne peuvent pas être personnalisés). Lorsque vous utilisez cette méthode de personnalisation, la fenêtre des propriétés de l'élément s'affiche.
 
-[![Personnalisation des propriétés d’un élément](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![Personnalisation des propriétés d'un élément](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
 
 Vous pouvez utiliser la fenêtre des propriétés pour personnaliser un élément comme suit :
 
@@ -160,7 +163,7 @@ Les utilisateurs ayant des droits d'administrateur peuvent également gérer les
 
 - **Appliquer** – Vous pouvez importer ou sélectionner une personnalisation pour un ou plusieurs utilisateurs. Pour appliquer une personnalisation à un ou plusieurs utilisateurs, sélectionnez d'abord un rôle et des utilisateurs disposant ce rôle. Sélectionnez ensuite une personnalisation existante à appliquer aux utilisateurs sélectionnés, ou importez un fichier de personnalisation. La personnalisation est validée et sera appliquée à tous les utilisateurs sélectionnés la prochaine fois qu'ils ouvriront la page sélectionnée.
 - **Effacer** – Vous pouvez effacer toutes les personnalisations d'une page ou d'un espace de travail pour un ou plusieurs utilisateurs. Sélectionnez d'abord une page ou un espace de travail pour afficher la liste des utilisateurs qui l'ont personnalisé. Ensuite, sélectionnez les utilisateurs dont les personnalisations pour cette page ou cet espace de travail doivent être effacées. Enfin, sélectionnez **Effacer**. Toutes les personnalisations que les utilisateurs sélectionnés ont appliqué à la page ou à l'espace de travail sélectionné(e) sont supprimées. Cette action ne peut pas être annulée. Toutefois, si une personnalisation a été enregistrée pour la page ou l'espace de travail, cette personnalisation peut être réimportée.
-- **Gérer par utilisateur** – Sélectionnez un utilisateur pour afficher la liste des pages personnalisées par celui-ci. Vous pouvez ensuite activer ou désactiver la possibilité que l'utilisateur sélectionné utilise les personnalisations pour des pages spécifiques ou pour l'ensemble du système. Vous pouvez également importer, exporter ou effacer une personnalisation pour l'utilisateur sélectionné.
+- **Gérer par utilisateur** : sélectionnez un utilisateur pour afficher la liste des pages personnalisées par celui-ci. Vous pouvez ensuite activer ou désactiver la possibilité que l'utilisateur sélectionné utilise les personnalisations pour des pages spécifiques ou pour l'ensemble du système. Vous pouvez également importer, exporter ou effacer une personnalisation pour l'utilisateur sélectionné. En outre, vous pouvez réinitialiser les légendes des fonction pour l'utilisateur sélectionné. Cela aura pour effet que toutes les fenêtres contextuelles de présentation de nouvelles fonctions qui avaient été auparavant ignorées s'afficheront de nouveau lorsque l'utilisateur rencontrera ces fonctions.   
 - **Système** – Vous pouvez désactiver temporairement toutes les personnalisations pour l'ensemble des utilisateurs du système. Dans ce cas, les personnalisations sont supprimées. Toutes les pages sont simplement réinitialisées à leur état par défaut pour tous les utilisateurs. Si vous réactivez la personnalisation ultérieurement, toutes les personnalisations seront réappliquées. Vous pouvez également supprimer définitivement toutes les personnalisations pour l'ensemble des utilisateurs du système. Il n'existe aucun moyen de récupérer des personnalisations qui ont été supprimées. Par conséquent, avant d'effectuer cette tâche, veillez à exporter les personnalisations que vous souhaitez utiliser ultérieurement.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Personnalisation des dimensions de stock

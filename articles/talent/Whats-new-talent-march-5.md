@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782869"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949803"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (5 mars 2019)
 
@@ -35,7 +35,7 @@ Cette rubrique décrit les fonctionnalités inédites ou ayant fait l'objet de m
 
 ### <a name="extending-option-sets-in-attract"></a>Extension des ensembles d'options dans Attract
 
-Dans Attract, plusieurs champs sont des ensembles d'options dans Common Data Service (CDS). De nouvelles fonctionnalités ont été introduites pour étendre les ensembles d'options, en commençant par le champ du motif de **Rejet**, le champ **Type d'emploi** et le champ **Type d'ancienneté**.
+Dans Attract, plusieurs champs sont des ensembles d'options dans Common Data Service. De nouvelles fonctionnalités ont été introduites pour étendre les ensembles d'options, en commençant par le champ du motif de **Rejet**, le champ **Type d'emploi** et le champ **Type d'ancienneté**.
 
 > [!IMPORTANT]
 > La fonctionnalité de publication d'annonce sur LinkedIn exige d'utiliser les champs **Type d'emploi** et **Type d'ancienneté** sur la page **Détails du poste**. Les valeurs par défaut dans ces champs sont compatibles avec LinkedIn et s'affichent lors de la publication de l'offre d'emploi. Si vous publiez des offres d'emploi sur LinkedIn et si vous modifiez les valeurs d'ensembles d'options existantes pour ces champs, l'offre d'emploi est publiée, mais LinkedIn n'affiche pas les valeurs **Type d'emploi** et **Type d'ancienneté**.
@@ -70,8 +70,8 @@ Avec cette modification, lors de la demande de modifications des postes existant
 ### <a name="other-miscellaneous-bug-fixes"></a>Autres correctifs de bogues divers
 Cette version comprend d'autres correctifs de bogues mineurs.
 
-### <a name="upgrade-to-cds-for-apps"></a>Mettre à niveau vers CDS pour les applications
-Les dates butoirs pour la mise à niveau vers CDS pour les applications arrivent à grands pas. Connectez-vous au centre d'administration de PowerApps pour définir si votre base de données doit être mise à niveau. Pour en savoir plus sur les dates butoirs et les étapes indispensables pour la mise à niveau, voir [Mettre à niveau vers Common Data Service pour les applications](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Effectuez une mise à niveau vers Common Data Service.
+Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à grands pas. Connectez-vous au centre d'administration de PowerApps pour définir si votre base de données doit être mise à niveau. Pour en savoir plus sur les dates butoirs et les étapes indispensables pour la mise à niveau, voir [Mise à niveau vers Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Prochainement
 

@@ -1,7 +1,7 @@
 ---
 title: Modèles d'e-mail
 description: Cette rubrique fournit des informations sur les modèles d'e-mail que vous pouvez créer et utiliser dans Dynamics 365 for Talent - Attract.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304411"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857058"
 ---
 # <a name="email-templates"></a>Modèles d'e-mail
 [!include[banner](../includes/banner.md)]

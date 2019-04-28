@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773275"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950402"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Vue d'ensemble de l'intégration fiscale pour les canaux de vente au détail
 
@@ -81,12 +81,37 @@ La structure d'intégration fiscale offre les options suivantes pour traiter les
 
 Les options **Ignorer** et **Marquer comme enregistrée** permettent aux codes info de saisir certaines informations spécifiques concernant l'échec, comme la raison de l'échec ou la justification de l'omission de l'enregistrement fiscal ou du marquage de la transaction comme enregistrée. Pour en savoir plus sur la manière de configurer les paramètres de traitement des erreurs, voir [Définir les paramètres de traitement des erreurs](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
+### <a name="optional-fiscal-registration"></a>Enregistrement fiscal facultatif
+
+L'enregistrement fiscal peut être obligatoire pour certaines opérations mais facultatif pour d'autres. Par exemple, l'enregistrement fiscal des ventes et retours ordinaires peut être obligatoire, mais l'enregistrement fiscal des opérations associées à des dépôts client peut être facultatif. Dans ce cas, le manquement à réaliser l'enregistrement fiscal d'une vente bloquerait les ventes suivantes, mais le manquement à réaliser l'enregistrement fiscal d'un dépôt client ne bloquerait pas les ventes suivantes. Pour distinguer les opérations obligatoires et facultatives, nous vous recommandons de les gérer via différents fournisseurs de document, et de configurer des étapes distinctes dans le processus d'enregistrement fiscal pour ces fournisseurs. Le paramètre **Continuer lors d'erreurs** doit être activé pour chaque étape liée à l'enregistrement fiscal facultatif. Pour en savoir plus sur la manière de configurer les paramètres de traitement des erreurs, voir [Définir les paramètres de traitement des erreurs](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
+### <a name="manually-running-fiscal-registration"></a>Exécuter manuellement l'enregistrement fiscal
+
+Si l'enregistrement fiscal d'une transaction ou d'un événement a été reporté après un échec (par exemple, si l'opérateur a sélectionné **Annuler** dans la boîte de dialogue de gestion des erreurs), vous pouvez relancer manuellement l'enregistrement fiscal en appelant une opération correspondante. Pour plus de détails, voir [Activer l'exécution manuelle d'un enregistrement fiscal reporté](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="fiscal-registration-health-check"></a>Contrôle d'intégrité d'enregistrement fiscal
+
+La procédure de contrôle d'intégrité des enregistrements fiscaux vérifie la disponibilité du dispositif ou du service fiscal lorsque des événements spécifiques ont lieu. Si l'enregistrement fiscal ne peut actuellement pas être réalisé, l'opérateur en est averti par avance.
+
+L'appareil de PDV exécute le contrôle d'intégrité lorsque les événements suivants se produisent :
+
+- Une nouvelle transaction est ouverte.
+- Une transaction en suspens est rappelée.
+- Une transaction de vente ou de retour est finalisée.
+
+Si le contrôle d'intégrité échoue, l'appareil de PDV affiche la boîte de dialogue de contrôle d'intégrité. Cette boîte de dialogue contient les boutons suivants :
+
+- **OK** : ce bouton permet à l'opérateur d'ignorer une erreur de contrôle d'intégrité et de continuer à traiter l'opération. L'opérateur ne peut sélectionner ce bouton que si l'autorisation **Autoriser d'ignorer l'erreur du contrôle d'intégrité** est activée pour lui.
+- **Annuler** : si l'opérateur sélectionne ce bouton, l'appareil de PDV annule la dernière action (par exemple, un article n'est pas ajouté à une nouvelle transaction).
+
+> [!NOTE]
+> Le contrôle d'intégrité n'est effectué que si l'opération actuelle nécessite un enregistrement fiscal, et si le paramètre **Continuer lors d'erreurs** est désactivé pour l'étape actuelle du processus d'enregistrement fiscal. Pour plus de détails, voir [Définir les paramètres de traitement des erreurs](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Enregistrer la réponse fiscale dans la transaction fiscale
 
 Si l'enregistrement fiscal d'une transaction ou d'un événement est une réussite, une transaction fiscale est créée dans la base de données du canal et associée à la transaction ou à l'événement d'origine. De même, si l'option **Ignorer** ou **Marquer comme enregistrée** est activée pour un enregistrement fiscal ayant connu un échec, ces informations sont enregistrées dans une transaction fiscale. Une transaction fiscale détient la réponse fiscale du périphérique ou du service fiscal. Si le processus d'enregistrement fiscal est constitué de plusieurs étapes, une transaction fiscale est créée pour chaque étape du processus ayant résulté en un échec ou une réussite de l'enregistrement.
 
-Les transactions fiscales sont transférées vers Retail Siège par la *Tâche-P* ainsi que les transactions de vente au détail. Dans l'organisateur **Transactions fiscales** de la page **Transactions de magasin de vente au détail**, vous pouvez afficher les transactions fiscales liées aux transactions de vente au détail.
-
+Les transactions fiscales sont transférées vers Retail Headquarters par la *Tâche-P*, de même que les transactions de vente au détail. Dans l'organisateur **Transactions fiscales** de la page **Transactions de magasin de vente au détail**, vous pouvez afficher les transactions fiscales liées aux transactions de vente au détail.
 
 Une transaction fiscale stocke les informations suivantes :
 
@@ -111,10 +136,11 @@ Des exemples d'intégration fiscale sont actuellement disponibles dans le SDK de
 
 - [Exemple d'intégration de l'imprimante fiscale pour l'Italie](emea-ita-fpi-sample.md)
 - [Exemple d'intégration de l'imprimante fiscale pour la Pologne](emea-pol-fpi-sample.md)
+- [Exemple d'intégration du service d'enregistrement fiscal pour l'Australie](emea-aut-fi-sample.md)
+- [Exemple d'intégration du service d'enregistrement fiscal pour la République tchèque](emea-cze-fi-sample.md)
 
 La fonctionnalité d'intégration fiscale suivante est également disponible dans le SDK de Retail, mais ne bénéficie pas actuellement du cadre de l'intégration fiscale. La migration de cette fonctionnalité vers le cadre de l'intégration fiscale est prévue pour des mises à jour ultérieures.
 
 - [Signature numérique pour la France](emea-fra-cash-registers.md)
 - [Signature numérique pour la Norvège](emea-nor-cash-registers.md)
 - [Exemple d'intégration de l'unité de contrôle pour la Suède](./retail-sdk-control-unit-sample.md)
-

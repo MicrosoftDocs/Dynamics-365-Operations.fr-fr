@@ -1,29 +1,29 @@
 ---
 title: Recherche de candidats à l'aide de viviers de talents
 description: Cette rubrique explique comment créer et paramétrer des viviers de talents dans Attract.
-author: ''
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/22/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304359"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949342"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Recherche de candidats à l'aide de viviers de talents
 
@@ -34,7 +34,7 @@ Les recruteurs et responsables de l'embauche peuvent organiser leurs candidats �
 
 ## <a name="create-and-share-a-talent-pool"></a>Création et partage d'un vivier de talents
 
-Tout utilisateur ayant le rôle de recruteur, de responsable de l'embauche, ou d'administrateur Attract peut créer des viviers de talents. Le propriétaire d'un vivier de talents peut également partager ce vivier avec d'autres utilisateurs afin que les groupes d'utilisateurs, en particulier les recruteurs, puissent consulter un vivier de candidats partagé.
+Tout utilisateur ayant le rôle de recruteur, de responsable de l'embauche ou d'administrateur Attract peut créer des viviers de talents. Le propriétaire d'un vivier de talents peut également partager ce vivier avec d'autres utilisateurs afin que les groupes d'utilisateurs, en particulier les recruteurs, puissent consulter un vivier de candidats partagé.
 
 Les contributeurs à un vivier de talents peuvent afficher la liste des candidats de ce vivier. Ils peuvent également ajouter des candidats au vivier ou supprimer des candidats de celui-ci.
 
@@ -44,7 +44,7 @@ Procédez comme suit pour créer et partager vivier de talents.
 
     L'onglet **Mes viviers de talents** affiche tous les viviers de talents auxquels vous avez accès, avec des détails sur chacun d'eux. Ces détails incluent le propriétaire du vivier et le nombre de candidats que celui-ci contient.
 
-1. Dans le coin supérieur droit, sélectionnez **+ Nouveau** pour ouvrir la boîte de dialogue **Créez un vivier de talents**.
+1. Dans le coin supérieur droit de la page, sélectionnez **Nouveau** pour ouvrir la boîte de dialogue **Créez un vivier de talents**.
 1. Entrez un nom unique pour le vivier de talents.
 1. Pour ajouter des personnes comme contributeurs au vivier, recherchez leurs noms à l'aide du sélecteur de personnes, puis ajoutez-les à la liste. Vous pouvez partager un vivier de talents uniquement avec les utilisateurs ayant le rôle de recruteur, de responsable de l'embauche, ou d'administrateur Attract.
 1. Sélectionnez **Ajouter** pour créer le vivier de talents.
@@ -78,26 +78,35 @@ Le propriétaire et les contributeurs du vivier de talents peuvent ajouter des c
 
 ## <a name="search-and-view-candidate-profiles"></a>Rechercher et afficher des profils de candidats
 
-Les utilisateurs d'un vivier de talents peuvent afficher le profil d'un candidat, ses informations LinkedIn, des documents connexes, ou l'historique complet de la candidature du candidat. Vous pouvez également rechercher l'ensemble de votre base de données de candidatures pour tout candidat ayant déjà postulé à un poste dans votre organisation, ou ayant déjà été ajouté à un vivier de talents.
+> [!NOTE] 
+> Cette fonctionnalité est actuellement en mode aperçu. Si vous souhaitez l'essayer, vous devez [l'activer dans les paramètres administrateur d'Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
 
-1. Utilisez le champ de recherche en haut de l'onglet **Mes viviers de talents** pour rechercher dans l'ensemble de votre base de données de candidats.
-1. Recherchez parmi différents attributs de profil. Sélectionnez la catégorie d'attribut de recherche, créez une requête de recherche, puis sélectionnez la flèche vers la droite (**-\>**) pour exécuter la recherche.
+Les viviers de talents vous permettent de consulter le profil, les informations LinkedIn, les documents associés, et l'historique de candidature des candidats. Vous pouvez effectuer une rechercher dans la base de données complète de tous les candidats ajoutés à n'importe quel vivier de talents, y compris les candidats clôturés et actifs.
 
-    Vous pouvez rechercher des candidats par leur nom, l'organisation pour laquelle ils travaillent, les qualifications pour lesquelles ils ont été référencés, leur historique de formation, leur fonction actuelle, ou le diplôme qu'ils ont obtenu, si ces informations sont incluses dans leur profil.
+>[!NOTE]
+> Lorsque vous ajoutez de nouveaux candidats, ces ajouts peuvent demander jusqu'à 15 minutes pour être indexés pour la recherche.
 
-    Vous pouvez également créer une requête de recherche qui utilise deux ou plusieurs de ces attributs comme critères. Combinez les critères à l'aide d'un opérateur **and**.
+Avec l'expérience de recherche améliorée, vous pouvez effectuer des recherches dans tous les documents des candidats et les filtrer par médaille d'argent, sources, compétences, formation, entre autres. Dans les versions précédentes, vous deviez spécifier l'entité dans laquelle vous souhaitez chercher. Attract peut désormais rechercher dans tous les champs associés au candidat et classer les résultats.
 
-    Si les candidats correspondent à votre requête de recherche, ils sont répertoriés dans les résultats de la recherche.
+1. Pour démarrer une nouvelle recherche dans la base de données de candidats, entrez le texte à rechercher dans la zone de recherche de l'onglet **Viviers de talents**. 
 
-1. Pour affiner les résultats, vous pouvez mettre à jour la requête de recherche à l'aide du champ de recherche en haut.
+Vous pouvez taper le nom d'un candidat ou n'importe quel attribut que vous recherchez. Pour séparer les attributs, utilisez un espace.
 
-    Sinon, utilisez la liste des filtres intelligents à droite. Ces filtres intelligents sont extraits de manière dynamique, selon les résultats de la recherche.
+Vous pouvez limiter les résultats en modifiant votre requête de recherche ou en utilisant les filtres intelligents à gauche de la page.
 
-    Les résultats de la recherche affichent les 20 principales compétences, écoles, organisations, etc., qui se trouvent le plus souvent dans la liste des candidats. Vous pouvez ajouter d'autres filtres pour l'un de ces attributs pour affiner encore plus les résultats de la recherche.
+Les résultats de la recherche mettent en évidence les différents attributs qui correspondent à votre requête de recherche. Sélectionnez le candidat qui vous intéresse pour afficher son profil.
 
-1. Après avoir identifié un candidat, sélectionnez la ligne correspondant à ce candidat pour afficher son profil.
+### <a name="syntax-highlights"></a>Éléments de syntaxe 
 
-Tous les utilisateurs ont un point de vue commun des profils de candidats. Sélectionnez la ligne d'un candidat dans un ensemble de résultats de recherche ou d'un vivier de talents pour afficher son profil. L'onglet **Profil** affiche toutes les informations sur les qualifications, l'expérience professionnelle, et l'éducation que le candidat a mis à jour dans le portail de carrière.
+| Opérateur | Utilisation                                                      | Exemple              |
+|----------|------------------------------------------------------------|----------------------|
+| \*       | Recherche des sous-chaînes ; permet de renvoyer tous les enregistrements | Entrée : Mi\* <br></br> Résultat : tous les enregistrements contenant un champ commençant par « MI », comme Microsoft, Midtown ou Middleton <br></br>Entrée : \* <br></br> Résultat : tous les enregistrements de la base de données |
+| “”       | Recherche d'une correspondance exacte                                | Entrée : « Microsoft » <br></br> Résultat : tous les enregistrements contenant « Microsoft »                    |
+
+>[!WARNING]
+> Ne désactivez pas la recherche par pertinence pour votre instance de Common Data Service. Cela désactiverait l'expérience de recherche dans Attract.
+
+Tous les utilisateurs ont un point de vue commun des profils de candidats. L'onglet **Profil** affiche toutes les informations sur les qualifications, l'expérience professionnelle et l'éducation que le candidat a fournies dans le cadre de sa candidature dans le portail de carrière.
 
 - Vous pouvez afficher les détails du contact du candidat. Vous pouvez également modifier ou mettre à jour les informations comme vous le souhaitez à l'aide du bouton **Modifier les détails**.
 
@@ -109,7 +118,7 @@ Tous les utilisateurs ont un point de vue commun des profils de candidats. Séle
 
     Pour afficher un document, sélectionnez le nom du document dans la liste des documents. Vous pouvez afficher les documents Microsoft Word dans l'application à l'aide de Microsoft Office 365. Vous pouvez également télécharger les documents sur votre ordinateur local à l'aide de l'option **Télécharger** pour chaque document.
 
-- L'onglet **LinkedIn** affiche les informations LinkedIn du candidat. Pour utiliser cet onglet, vous devez connecter votre compte LinkedIn dans les paramètres utilisateur, et la connexion de LinkedIn Recruiter de votre environnement doit être établie. Pour plus d'informations, voir [Approvisionnement avec LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- L'onglet **LinkedIn** affiche les informations LinkedIn du candidat. Pour utiliser cet onglet, vous devez connecter votre compte LinkedIn dans les paramètres utilisateur, et la connexion à LinkedIn Recruiter de votre environnement doit être établie. Pour plus d'informations, voir [Approvisionnement avec LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Ajouter des candidats d'un vivier de talents à un poste
 
@@ -117,7 +126,7 @@ Depuis les résultats d'une recherche ou un vivier de talents, vous pouvez trans
 
 1. Recherchez le candidat à l'aide de l'option de recherche, puis ouvrez son profil. Sinon, ouvrez le vivier de talents depuis l'onglet **Mes viviers de talents**, recherchez le candidat dans le vivier de talents, puis ouvrez son profil.
 
-1. Dans la page de profil du candidat, sélectionnez **+ Ajouter au poste** dans le coin supérieur droit. 
+1. Dans la page de profil du candidat, sélectionnez **Ajouter au poste** dans le coin supérieur droit. 
      
      Une liste de postes pour lesquelles vous appartenez à l'équipe de recrutement, en tant que recruteur ou responsable de l'embauche, s'affiche.
 

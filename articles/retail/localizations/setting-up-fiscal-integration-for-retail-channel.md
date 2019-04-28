@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773325"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898975"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Paramétrer l'intégration fiscale pour les canaux de vente au détail
 
@@ -60,7 +60,7 @@ Avant d'utiliser la fonctionnalité d'intégration fiscale, vous devez configure
 2. Téléchargez les configurations des connecteurs fiscaux et des fournisseurs de documents fiscaux.
 
     Un fournisseur de documents fiscaux est responsable de la génération des documents fiscaux qui représentent les transactions de vente au détail et les événements enregistrés sur le PDV dans un format également compatible avec un périphérique ou un service fiscal. Par exemple, un fournisseur de documents fiscaux peut générer une représentation de reçu fiscal au format XML.
-    
+
     Un connecteur fiscal est responsable de la communication avec un périphérique ou un service fiscal. Par exemple, un connecteur fiscal peut envoyer un reçu fiscal qu'un fournisseur de documents fiscaux a créé au format XML vers une imprimante fiscale. Pour en savoir plus sur les composants de l'intégration fiscale, voir [Processus d'enregistrement fiscal et exemples d'intégration fiscale pour les périphériques fiscaux](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. Sur la page **Connecteurs fiscaux** (**Vente au détail \> Paramétrage du canal \> Intégration fiscale \> Connecteurs fiscaux**), téléchargez une configuration XML pour chaque périphérique ou service que vous prévoyez d'utiliser à des fins d'intégration fiscale.
@@ -150,7 +150,7 @@ Avant d'utiliser la fonctionnalité d'intégration fiscale, vous devez configure
     - Après avoir apporté des changements à un processus d'enregistrement fiscal, et une fois que ces changements sont susceptibles d'entraîner la sélection d'un autre connecteur fiscal lors de l'exécution (par exemple, si vous changez le groupe de connecteurs pour une étape de processus d'enregistrement fiscal, activez un profil fonctionnel de connecteur dans un groupe de connecteurs, ou ajoutez un nouveau profil fonctionnel de connecteur à un groupe de connecteurs).
     - Vous pouvez ensuite apporter des modifications à l'affectation des profils techniques du connecteur aux profils matériels.
 
-8. Sur la page **Planification de la distribution**, exécutez les tâches **1070** et **1090** pour transférer des données vers la base de données des canaux.
+8. Sur la page **Programme de distribution**, exécutez les tâches **1070** et **1090** pour transférer des données vers la base de données des canaux.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Configurer les textes fiscaux pour les remises
 
@@ -185,8 +185,12 @@ Les options de traitement des erreurs disponibles dans l'intégration fiscale so
 
     - **Autoriser Ignorer** – Ce paramètre active l'option **Ignorer** dans la boîte de dialogue de traitement des erreurs.
     - **Autoriser Marquer comme enregistrée** – Ce paramètre active l'option **Marquer comme enregistrée** dans la boîte de dialogue de traitement des erreurs.
+    - **Continuer lors d'erreurs** : si ce paramètre est activé, le processus d'enregistrement fiscal peut se poursuivre sur l'appareil de PDV si l'enregistrement fiscal d'une transaction ou d'un événement échoue. Dans le cas contraire, pour exécuter l'enregistrement fiscal de la transaction ou de l'événement suivant, l'opérateur doit renouveler la tentative d'enregistrement fiscal échoué, l'ignorer, ou marquer la transaction ou l'événement comme enregistré. Pour plus d'informations, voir [Enregistrement fiscal facultatif](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
-2. Les options **Ignorer** et **Marquer comme enregistrée** dans la boîte de dialogue de traitement des erreurs nécessite l'autorisation **Autoriser Ignorer ou Marquer comme enregistrée**. Par conséquent, sur la page **Groupes d'autorisations** (**Vente au détail \> Employés \> Groupes d'autorisations**), activez l'autorisation **Autoriser Ignorer ou Marquer comme enregistrée**.
+    > [!NOTE]
+    > Si le paramètre **Continuer lors d'erreurs** est activé, les paramètres **Autoriser Ignorer** et **Autoriser Marquer comme enregistré** sont automatiquement désactivés.
+
+2. Les options **Ignorer** et **Marquer comme enregistré** dans la boîte de dialogue de traitement des erreurs nécessite l'autorisation **Autoriser Ignorer l'enregistrement ou Marquer comme enregistré**. Par conséquent, sur la page **Groupes d'autorisations** (**Vente au détail \> Employés \> Groupes d'autorisations**), activez l'autorisation **Autoriser Ignorer l'enregistrement ou Marquer comme enregistrée**.
 3. Les options **Ignorer** et **Marquer comme enregistrée** permettent aux opérateurs de renseigner des informations supplémentaires lorsque l'enregistrement fiscal échoue. Pour rendre cette fonctionnalité disponible, vous devez spécifier les codes info **Ignorer** et **Marquer comme enregistrée** sur un groupe de connecteurs fiscaux. Les informations que les opérateurs saisissent sont ensuite enregistrées comme transaction de code info liée à la transaction fiscale. Pour plus d'informations sur les codes info, voir [Codes info et groupes de codes info](../info-codes-retail.md).
 
     > [!NOTE]
@@ -200,6 +204,8 @@ Les options de traitement des erreurs disponibles dans l'intégration fiscale so
     > - **Document fiscal** – Désigne un document obligatoire qui doit être enregistré avec succès (par exemple, un reçu fiscal).
     > - **Document non fiscal** – Désigne un document supplémentaire pour la transaction ou l'événement (par exemple, un bordereau de carte cadeau).
 
+4. Si l'opérateur doit pouvoir continuer le traitement de l'opération en cours (par exemple, la création ou la finalisation d'une transaction) après la survenue d'une erreur de contrôle d'intégrité, vous devez activer l'autorisation **Autoriser d'ignorer l'erreur du contrôle d'intégrité** dans la page **Groupes d'autorisations** (**Vente au détail \> Employés \> Groupes d'autorisations**). Pour plus d'informations sur la procédure de contrôle d'intégrité, voir [Contrôle d'intégrité d'enregistrement fiscal](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Configurer les états X/Z fiscaux depuis le PDV
 
 Pour activer les états X/Z fiscaux à exécuter depuis le PDV, vous devez ajouter de nouveaux boutons à la mise en page d'un écran de PDV.
@@ -211,3 +217,12 @@ Pour activer les états X/Z fiscaux à exécuter depuis le PDV, vous devez ajout
     3. Ajoutez un nouveau bouton, puis définissez la propriété de bouton **Imprimer Z fiscal**.
     4. Sur la page **Planification de la distribution**, exécutez la tâche **1090** pour transférer les changements vers la base de données des canaux.
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Activer l'exécution manuelle d'un enregistrement fiscal reporté
+
+Pour activer l'exécution manuelle d'un enregistrement fiscal reporté, vous devez ajouter un nouveau bouton à la disposition de l'appareil de PDV.
+
+- Sur la page **Groupes de boutons**, suivez les instructions d'installation dans [Ajouter un bouton d'opération personnalisé à la mise en page d'un écran de PDV dans Retail Siège](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) pour installer le concepteur et mettre à jour la mise en page d'un écran de PDV.
+
+    1. Permet de sélectionner la mise en page à mettre à jour.
+    2. Ajoutez un nouveau bouton, puis définissez la propriété du bouton **Terminer le processus d'enregistrement fiscal**.
+    3. Dans la page **Programme de distribution**, exécutez la tâche **1090** pour transférer vos modifications vers la base de données des canaux.

@@ -3,14 +3,14 @@ title: Gestion des états électroniques
 description: Cette rubrique fournit une vue d'ensemble de l'outil de gestion des états électroniques (ER). Il comporte des informations sur les concepts essentiels, les scénarios pris en charge par l'ER et une liste des formats conçus et lancés dans le cadre de la solution.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310804"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902958"
 ---
 # <a name="electronic-reporting-er"></a>Gestion des états électroniques
 
@@ -33,16 +33,16 @@ Cette rubrique fournit une vue d'ensemble de l'outil de gestion des états élec
 
 États électroniques est un outil que vous pouvez utiliser pour configurer les formats de documents électroniques entrants et sortants conformément aux exigences légales des différents pays/régions. Il vous permet de gérer ces formats au cours de leur cycle de vie. Par exemple, vous pouvez adopter de nouvelles exigences réglementaires et générer des documents commerciaux au format requis pour échanger des informations avec les organismes publics, les banques et d'autres parties par voie électronique.
 
-Le moteur d'états électroniques est destiné aux utilisateurs professionnels, plutôt qu'aux développeurs. Étant donné que vous configurez des formats, à la place du code, les processus de création et d’ajustement des formats pour les documents électroniques sont plus rapides et plus faciles.
+Le moteur d'états électroniques est destiné aux utilisateurs professionnels, plutôt qu'aux développeurs. Étant donné que vous configurez des formats, à la place du code, les processus de création et d'ajustement des formats pour les documents électroniques sont plus rapides et plus faciles.
 
-Les états électroniques prennent actuellement en charge les formats de feuille de calcul texte, XML, Microsoft Word et OPENXML. Toutefois, une interface d’extension prend en charge d'autres formats.
+Les états électroniques prennent actuellement en charge les formats de feuille de calcul texte, XML, Microsoft Word et OPENXML. Toutefois, une interface d'extension prend en charge d'autres formats.
 
 ## <a name="capabilities"></a>Capacités
 Le moteur d'états électroniques est doté des fonctionnalités suivantes :
 
 - il représente un outil commun unique partagé pour la génération d'états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d'états électronique Microsoft Dynamics 365 for Finance and Operations.
-- Il isole le format d’un état de l’implémentation actuelle de Finance and Operations. En d’autres termes, le format est applicable aux différentes versions de Finance and Operations.
-- Il prend en charge la création d’un format personnalisé qui est basé sur un format d’origine. Il inclut également des fonctionnalités permettant de mettre à niveau automatiquement le format personnalisé lorsque le format d’origine est modifié du fait que des spécifications de localisation/personnalisation sont introduites.
+- Il isole le format d'un état de l'implémentation actuelle de Finance and Operations. En d'autres termes, le format est applicable aux différentes versions de Finance and Operations.
+- Il prend en charge la création d'un format personnalisé qui est basé sur un format d'origine. Il inclut également des fonctionnalités permettant de mettre à niveau automatiquement le format personnalisé lorsque le format d'origine est modifié du fait que des spécifications de localisation/personnalisation sont introduites.
 - Il devient l'outil standard principal pour prendre en charge les exigences de localisation dans les états électroniques, pour Microsoft ainsi que pour les partenaires de Microsoft.
 - Il prend en charge la capacité à distribuer des formats aux partenaires et aux clients via Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -58,7 +58,7 @@ Un composant de modèle de données est une représentation abstraite d'une stru
 - un modèle de données, en tant qu'ensemble d'entités commerciales spécifiques au domaine, ainsi qu'une définition hiérarchiquement structurée des relations entre elles.
 - une mise en correspondance de modèle en tant qu'ensemble de sources de données Finance and Operations avec des éléments individuels de ce modèle de données qui spécifie au moment de l'exécution le flux de données et les règles de population de données commerciales dans le composant de modèle de données.
 
-Une entité commerciale de modèle de données est représentée comme un conteneur (enregistrement). Les propriétés d'entité commerciale sont représentées comme des articles de données (champs). Chaque article de données est doté d'un nom, d'un libellé, d'une description et d'une valeur uniques. La valeur de chaque élément de données peut être conçu de sorte qu’il soit reconnu comme une chaîne, entier, réel, date, énumération, booléen, etc. En outre, il peut s'agir d'un autre enregistrement ou d'une liste d'enregistrements.
+Une entité commerciale de modèle de données est représentée comme un conteneur (enregistrement). Les propriétés d'entité commerciale sont représentées comme des articles de données (champs). Chaque article de données est doté d'un nom, d'un libellé, d'une description et d'une valeur uniques. La valeur de chaque élément de données peut être conçu de sorte qu'il soit reconnu comme une chaîne, entier, réel, date, énumération, booléen, etc. En outre, il peut s'agir d'un autre enregistrement ou d'une liste d'enregistrements.
 
 Un composant de modèle de données unique peut contenir plusieurs hiérarchies des entités commerciales spécifiques à un domaine. Il contient également les mappages de modèles qui prennent en charge le flux de données spécifiques aux états au moment de l'exécution. Les hiérarchies sont différenciées par un enregistrement unique sélectionné comme racine de la mise en correspondance de modèle. Par exemple, le modèle de données du domaine du paiement peut prendre en charge les mises en correspondance suivantes :
 
@@ -133,7 +133,7 @@ Le contrôle de versions est pris en charge pour les composants d'états électr
 Les versions dotées du statut **Terminée** ou **Partagée** sont disponibles pour un autre échange de données. Les actions suivantes peuvent être exécutées sur un composant possédant ces statuts :
 
 - Le composant peut être sérialisé au format XML et exporté vers un fichier au format XML.
-- Le composant peut être resérialisé à partir d’un fichier XML et importé dans Finance and Operations sous la forme d’une nouvelle version d’un composant d'état électronique.
+- Le composant peut être resérialisé à partir d'un fichier XML et importé dans Finance and Operations sous la forme d'une nouvelle version d'un composant d'état électronique.
 
 #### <a name="component-date-effectivity"></a>Validité de date du composant
 
@@ -141,7 +141,7 @@ Les versions du composant d'état électronique est soumis à une date d'effet. 
 
 #### <a name="component-access"></a>Accès au composant
 
-L'accès aux composants de format d'états électroniques dépend du paramètre du code de pays/région ISO. Lorsque ce paramètre est vide pour une version sélectionnée d’une configuration de format, un composant de format est accessible à partir de n’importe quelle société au moment de l’exécution. Lorsqu'il contient des codes pays/région ISO, un composant de format est disponible uniquement à partir des sociétés dont l'adresse principale est défini pour l'un des codes pays/régions ISO du composant de format.
+L'accès aux composants de format d'états électroniques dépend du paramètre du code de pays/région ISO. Lorsque ce paramètre est vide pour une version sélectionnée d'une configuration de format, un composant de format est accessible à partir de n'importe quelle société au moment de l'exécution. Lorsqu'il contient des codes pays/région ISO, un composant de format est disponible uniquement à partir des sociétés dont l'adresse principale est défini pour l'un des codes pays/régions ISO du composant de format.
 
 Différentes versions d'un composant de format de données peuvent avoir différents paramètres de codes pays/région ISO.
 
@@ -149,7 +149,7 @@ Différentes versions d'un composant de format de données peuvent avoir différ
 
 Une configuration de la génération d'états électroniques est le wrapper d'un composant de génération d'états électroniques particulier. Ce composant peut être un composant du modèle de données ou un composant de format. Une configuration peut inclure différentes versions d'un composant d'état électronique. Chaque configuration est marquée comme possédée par un fournisseur de configuration spécifique. La version **Brouillon** d'un composant d'une configuration peut être modifiée lorsque le propriétaire d'une configuration a été sélectionné comme fournisseur actif dans les paramètres d'états électroniques de Finance and Operations.
 
-Chaque configuration de modèle contient un composant de modèle de données. Une nouvelle configuration de format peut être dérivée d'une configuration de modèle de données spécifique. Dans l'arborescence de configuration, la configuration de format qui est créée apparaît en tant qu’enfant de la configuration de modèle de données d’origine.
+Chaque configuration de modèle contient un composant de modèle de données. Une nouvelle configuration de format peut être dérivée d'une configuration de modèle de données spécifique. Dans l'arborescence de configuration, la configuration de format qui est créée apparaît en tant qu'enfant de la configuration de modèle de données d'origine.
 
 La configuration de format qui est créée contient un composant de format. Le composant de modèle de données de cette configuration de modèle d'origine est automatiquement inséré dans le composant de format de la configuration de format enfant comme source de données par défaut.
 
@@ -163,28 +163,40 @@ Pour savoir comment enregistrer un nouveau fournisseur d'états électroniques, 
 
 #### <a name="repository"></a>Référentiel
 
-Un référentiel d'états électroniques enregistre les configurations d'états électroniques. Quatre types de référentiels ER sont actuellement pris en charge : **Ressources opérationnelles**, **Projet LCS (LCS)**, **Système de fichiers** et **Service de configuration réglementaire (RCS)**.
+Un référentiel d'états électroniques enregistre les configurations d'états électroniques. Les types de référentiels ER suivants sont actuellement pris en charge : 
 
-Un référentiel **Ressources opérationnelles** permet d'accéder à la liste des configurations que Microsoft, en tant que fournisseur de configurations d'états électroniques, livre dans le cadre de la solution Finance and Operations. Ces configurations peuvent être importées dans l’instance actuelle de Finance and Operations et utilisées pour l'état électronique. Elles peuvent également être utilisées pour des localisations et personnalisations.
+- Bibliothèque LCS partagée
+- Projet LCS
+- Fichier système
+- Regulatory Configuration Services (RCS)
+- Ressources opérationnelles
+
+
+Un référentiel **Bibliothèque LCS partagée** permet d'accéder à la liste des configurations dans la bibliothèque des actifs partagés de Lifecycle Services (LCS). Ce type de référentiel ER ne peut être enregistré que pour le fournisseur Microsoft. À partir de la bibliothèque d'actifs LCS partagés, vous pouvez importer les dernières versions des configurations ER dans l'instance Finance and Operations actuelle.
 
 Un référentiel de **projet LCS** permet d'accéder à la liste des configurations d'un projet LCS spécifique (bibliothèque d'actifs de projet LCS) sélectionné à l'enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l'instance Finance and Operations actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers l'instance Finance and Operations actuelle.
 
-Un référentiel **Système de fichiers** permet d'accéder à la liste des configurations situées en tant que fichiers xml dans le dossier spécifique du système de fichiers local de l'ordinateur où le service AOS est hébergé. Le dossier requis est sélectionné au stade d'enregistrement du référentiel. Vous pouvez importer des configurations depuis un référentiel **Système de fichiers** vers l'instance Finance and Operations actuelle. Notez que ce type de référentiel est accessible dans les environnements Dynamics 365 for Finance and Operations suivants :
+Un référentiel **Système de fichiers** permet d'accéder à la liste des configurations situées en tant que fichiers xml dans le dossier spécifique du système de fichiers local de l'ordinateur où le service AOS est hébergé. Le dossier requis est sélectionné au stade d'enregistrement du référentiel. Vous pouvez importer des configurations depuis un référentiel **Système de fichiers** vers l'instance Finance and Operations actuelle. 
+
+Notez que ce type de référentiel est accessible dans les environnements Dynamics 365 for Finance and Operations suivants :
+
 - environnements hébergés dans le cloud déployés à des fins de développement (contenant des modèles de test de suites incluses)
-- environnements déployés localement (déploiement sur site ou de données commerciales locales)
+- environnements déployés localement (sur site)
 
-Visitez la page [Importer des configurations de gestion des états électroniques (ER)](./electronic-reporting-import-ger-configurations.md) pour plus d'informations.
+Pour plus d'informations, voir [Importer les configurations de génération d'états électroniques (ER)](./electronic-reporting-import-ger-configurations.md).
 
-Un référentiel d'**Instance RCS** permet d'accéder à la liste des configurations d'une instance RCS spécifique sélectionnée à l'enregistrement du référentiel. La génération d'états électroniques permet d'importer des configurations terminées ou partagées de l'instance RCS sélectionnée dans l'instance Finance and Operations actuelle et utilisée pour la génération d'états électroniques.
+Un référentiel d'**Instance RCS** permet d'accéder à la liste des configurations d'une instance RCS spécifique sélectionnée à l'enregistrement du référentiel. La génération d'états électroniques permet d'importer des configurations terminées ou partagées de l'instance RCS sélectionnée dans l'instance Finance and Operations actuelle, de manière à pouvoir les utiliser pour la génération d'états électroniques.
 
-Visitez la page [Importer des configurations de gestion des états électroniques (ER) depuis les Services de configuration réglementaire (RCS)](./rcs-download-configurations.md) pour plus d'informations.
+Pour plus d'informations, voir [Importer les configurations des états électroniques (ER) des services de configuration réglementaires (RCS)](./rcs-download-configurations.md).
+
+Un référentiel **Ressources opérationnelles** permet d'accéder à la liste des configurations que Microsoft, en tant que fournisseur de configurations d'états électroniques, fournit à l'origine dans le cadre de la solution Finance and Operations. Ces configurations peuvent être importées dans l'instance actuelle de Finance and Operations et être utilisées pour la génération d'états électroniques ou la lecture d'exemples de guides de tâches. Elles peuvent également être utilisées pour des localisations et personnalisations. Notez que les dernières versions des configurations ER fournies par Microsoft doivent être importées à partir de la bibliothèque des actifs LCS partagés à l'aide du référentiel ER correspondant.
 
 Les référentiels **Projet LCS**, **Système de fichiers** et **Services de configuration réglementaire (RCS)** requis peuvent être enregistrés individuellement pour chaque fournisseur de configuration de l'instance Finance and Operations actuelle. Chaque référentiel peut être consacré à un fournisseur de configuration spécifique.
 
 ## <a name="supported-scenarios"></a>Scénarios pris en charge
 ### <a name="building-a-data-model"></a>Élaboration d'un modèle de données
 
-L'état électronique propose un concepteur de modèle vous permettant de créer un modèle de données pour un domaine de l'entreprise donné. Toutes les entités commerciales spécifiques à un domaine et les relations entre elles peuvent être présentées dans un modèle de données en tant que structure hiérarchique. L’illustration suivante montre un exemple de ce type de modèle de données (le modèle de données du domaine de paiement).
+L'état électronique propose un concepteur de modèle vous permettant de créer un modèle de données pour un domaine de l'entreprise donné. Toutes les entités commerciales spécifiques à un domaine et les relations entre elles peuvent être présentées dans un modèle de données en tant que structure hiérarchique. L'illustration suivante montre un exemple de ce type de modèle de données (le modèle de données du domaine de paiement).
 
 [![Modèle de données de domaine de paiement](./media/ER-overview-04.png)](./media/ER-overview-04.png)
 
@@ -197,7 +209,7 @@ Le contenu du modèle de données (étiquettes et descriptions) peut être tradu
 - Au moment de la conception, pour rendre le contenu plus intelligible aux concepteurs de format parlant une langue étrangère qui utilisent le modèle de données pour la mise en correspondance des données des composants de format.
 - Au moment de l'exécution, pour rendre le contenu plus convivial pour la présentation des invites et de l'aide pour les paramètres d'exécution ainsi que des messages de validation configurés (erreurs et avertissements) dans la langue que l'utilisateur actuellement connecté préfère.
 
-L’illustration suivante montre un exemple de la traduction du contenu du modèle de données de l’anglais vers le japonais.
+L'illustration suivante montre un exemple de la traduction du contenu du modèle de données de l'anglais vers le japonais.
 
 [![Contenu du modèle de données en anglais](./media/ER-overview-05.png)](./media/ER-overview-05.png)
 
@@ -212,19 +224,19 @@ L'état électronique fournit un concepteur de mise en correspondance de modèle
 Pour vous familiariser avec ce scénario en détails, visionnez les guides de tâche **ER Définir le mappage de modèles et sélectionner des sources de données** et **ER Mapper le modèle de données aux sources de données sélectionnées** (qui font partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Configuration des mappages de modèle de données pour les documents entrants
-L'état électronique fournit un concepteur de mise en correspondance de modèle qui permet aux utilisateurs de mapper des modèles de données qu'ils ont conçus pour des destinations spécifiques. Par exemple, des modèles de données peuvent être mappés aux composants Finance and Operations pouvant être mis à jour (tables, entités de données et vues). Selon le mappage, les données Finance and Operations sont mises à jour au moment de l'exécution à l'aide des données du modèle de données. Pour un stockage abstrait du format de génération d'états électroniques, le modèle de données contient les données importées depuis un document électronique entrant. L’illustration suivante montre un exemple de ce type de mappage de modèle de données. Dans cet exemple, le mappage de modèle **Mappage d'importation pour NETS** du domaine de paiement est utilisé pour prendre en charge l'importation des relevés bancaires au format de banque NETS de la Norvège.
+L'état électronique fournit un concepteur de mise en correspondance de modèle qui permet aux utilisateurs de mapper des modèles de données qu'ils ont conçus pour des destinations spécifiques. Par exemple, des modèles de données peuvent être mappés aux composants Finance and Operations pouvant être mis à jour (tables, entités de données et vues). Selon le mappage, les données Finance and Operations sont mises à jour au moment de l'exécution à l'aide des données du modèle de données. Pour un stockage abstrait du format de génération d'états électroniques, le modèle de données contient les données importées depuis un document électronique entrant. L'illustration suivante montre un exemple de ce type de mappage de modèle de données. Dans cet exemple, le mappage de modèle **Mappage d'importation pour NETS** du domaine de paiement est utilisé pour prendre en charge l'importation des relevés bancaires au format de banque NETS de la Norvège.
 
 [![Exemple de modèle de données de mappage d'importation pour NETS](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Stockage du composant de modèle conçu en tant que modèle de configuration
 
-ER peut stocker un modèle de données conçu avec des mises en correspondance de données associées en tant que configuration de modèle de l'instance actuelle Finance and Operations. L’illustration suivante montre un exemple de ce type de configuration de modèle de données (la configuration du modèle de paiement).
+ER peut stocker un modèle de données conçu avec des mises en correspondance de données associées en tant que configuration de modèle de l'instance actuelle Finance and Operations. L'illustration suivante montre un exemple de ce type de configuration de modèle de données (la configuration du modèle de paiement).
 
 Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Mapper le modèle de données aux sources de données sélectionnées** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** .
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Élaboration d'un format qui utilise un modèle de données en tant que base
 
-ER prend en charge un concepteur de format que vous pouvez utiliser pour élaborer le format d'un document électronique pour le domaine d'entreprise en sélectionné d'affaires en sélectionnant le composant modèle comme base. Le même concepteur de format ER vous permet de mettre en correspondance un format créé et la mise en correspondance du modèle de données du domaine sélectionné comme source de données. L’illustration suivante montre un exemple de ce type de format (la configuration du format qui prend en charge le format de paiement **BACS** pour le Royaume-Uni).
+ER prend en charge un concepteur de format que vous pouvez utiliser pour élaborer le format d'un document électronique pour le domaine d'entreprise en sélectionné d'affaires en sélectionnant le composant modèle comme base. Le même concepteur de format ER vous permet de mettre en correspondance un format créé et la mise en correspondance du modèle de données du domaine sélectionné comme source de données. L'illustration suivante montre un exemple de ce type de format (la configuration du format qui prend en charge le format de paiement **BACS** pour le Royaume-Uni).
 
 [![Exemple d'un format qui utilise un modèle de données en tant que base](./media/ER-overview-09.png)](./media/ER-overview-09.png)
 
@@ -232,14 +244,14 @@ Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâc
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Création d'une configuration pour générer des documents électroniques au format de feuille de calcul OPENXML
 
-Le concepteur de format ER peut être utilisé pour générer un document électronique particulier au format de feuille de calcul OPENXML. L’illustration suivante montre un exemple de ce type de format (configuration de format permettant de générer une feuille de calcul OPENXML avec les détails d’un journal des paiements sélectionné).
+Le concepteur de format ER peut être utilisé pour générer un document électronique particulier au format de feuille de calcul OPENXML. L'illustration suivante montre un exemple de ce type de format (configuration de format permettant de générer une feuille de calcul OPENXML avec les détails d'un journal des paiements sélectionné).
 
 [![Pic-ER-format-Excel](./media/ER-overview-10.png)](./media/ER-overview-10.png)
 
 Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Créer une configuration pour des états au format OPENXML** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**). Dans le cadre de l'étape du guide de tâche pour importer un modèle, utilisez le fichier Excel [Modèle d'état de paiement (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) en tant que modèle.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Création d'une configuration pour générer des documents électroniques au format de document Word
-Le concepteur de format ER peut être utilisé pour générer un document électronique particulier au format de document Word. L’illustration suivante montre un exemple de ce type de format. Notez que ce format réutilise la configuration ER existante qui a été conçue initialement pour générer la sortie d'état au format OPENXML.
+Le concepteur de format ER peut être utilisé pour générer un document électronique particulier au format de document Word. L'illustration suivante montre un exemple de ce type de format. Notez que ce format réutilise la configuration ER existante qui a été conçue initialement pour générer la sortie d'état au format OPENXML.
 
 [![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
@@ -264,7 +276,7 @@ Pour vous familiariser avec ce scénario en détails, consultez le guide de tâc
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Stockage d'un composant de format conçu dans une configuration de format
 
-ER peut stocker un format conçu avec des mises en correspondance de données configurées en tant que configuration de format de l'instance actuelle Finance and Operations. L’illustration ci-dessus montre un exemple de ce type de configuration de format (**BACS (Royaume-Uni)**, qui est un enfant de la configuration **Modèle de paiement**). Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Concevoir un format spécifique au domaine** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** .
+ER peut stocker un format conçu avec des mises en correspondance de données configurées en tant que configuration de format de l'instance actuelle Finance and Operations. L'illustration ci-dessus montre un exemple de ce type de configuration de format (**BACS (Royaume-Uni)**, qui est un enfant de la configuration **Modèle de paiement**). Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Concevoir un format spécifique au domaine** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** .
 
 ### <a name="configuring-finance-and-operations-to-start-to-use-a-created-format-internally"></a>Configuration de Finance and Operations pour utiliser le format créé en interne
 
@@ -283,15 +295,15 @@ Le propriétaire d'un composant (modèle ou format) qui a été créé peut util
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>Importation du composant ER depuis LCS pour l'utiliser en interne
 
-ER vous permet d’importer des composants ER à partir de LCS vers l’instance actuelle de Finance and Operations. Un référentiel de type **Projet LCS** est requis. Lorsqu'un composant ER a été importé de LCS vers l'instance actuelle Finance and Operations, le propriétaire de l'instance Dynamics AX devient un consommateur du service fourni par le propriétaire (auteur) du composant importé. Par exemple, si un composant de format est conçu pour générer à partir de Finance and Operations un document électronique donné dans un format spécifique à un pays/région particulier (scénario de localisation), cette consommation de service suppose la possibilité d'obtenir les mises à jour de ce format afin qu'il demeure conforme aux exigences législatives. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Charger une configuration à partir de Lifecycle Services** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
+ER vous permet d'importer des composants ER à partir de LCS vers l'instance actuelle de Finance and Operations. Un référentiel de type **Projet LCS** est requis. Lorsqu'un composant ER a été importé de LCS vers l'instance actuelle Finance and Operations, le propriétaire de l'instance devient un consommateur du service fourni par le propriétaire (auteur) du composant importé. Par exemple, si un composant de format est conçu pour générer à partir de Finance and Operations un document électronique donné dans un format spécifique à un pays/région particulier (scénario de localisation), cette consommation de service suppose la possibilité d'obtenir les mises à jour de ce format afin qu'il demeure conforme aux exigences législatives. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Charger une configuration à partir de Lifecycle Services** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Élaboration d'un format en sélectionnant un autre format en tant que base (personnalisation)
 
-ER vous permet de que créer (dériver) un nouveau composant à partir de la version actuelle d’un composant (base) qui a été importé à partir de LCS. Par exemple, un utilisateur souhaite dériver un nouveau format pour mettre en œuvre une configuration spécifique pour un document électronique (par exemple, un champ supplémentaire ou une description complète) pour prendre en charge un scénario de personnalisation. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Mettre à niveau le format par adoption d'une nouvelle version de base** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
+ER vous permet de que créer (dériver) un nouveau composant à partir de la version actuelle d'un composant (base) qui a été importé à partir de LCS. Par exemple, un utilisateur souhaite dériver un nouveau format pour mettre en œuvre une configuration spécifique pour un document électronique (par exemple, un champ supplémentaire ou une description complète) pour prendre en charge un scénario de personnalisation. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Mettre à niveau le format par adoption d'une nouvelle version de base** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
 ### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>Mise à niveau d'un format en sélectionnant une nouvelle version du format de base (redéfinir)
 
-ER vous permet d'adopter automatiquement les modifications de la version la plus récente du composant de base dans la version brouillon actuelle du composant dérivé. Ce processus est appelé *redéfinition de la base*. Par exemple, une nouvelle modification réglementaire (introduite dans la version la plus récente du composant de format importé depuis LCS) peut être automatiquement fusionnée dans la propre version personnalisée de ce format de document électronique. Toutes les modifications qui ne peuvent pas être fusionnées automatiquement sont considérées comme des conflits. Ces conflits sont présentés pour une résolution manuelle dans l’outil de concepteur pour le composant approprié. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Mettre à niveau le format par adoption d'une nouvelle version de base de ce format** (qui fait partie du processus d'entreprise **7.5.5.3 Acquérir/Développer un composant de services/solutions informatiques modifié (10683)**).
+ER vous permet d'adopter automatiquement les modifications de la version la plus récente du composant de base dans la version brouillon actuelle du composant dérivé. Ce processus est appelé *redéfinition de la base*. Par exemple, une nouvelle modification réglementaire (introduite dans la version la plus récente du composant de format importé depuis LCS) peut être automatiquement fusionnée dans la propre version personnalisée de ce format de document électronique. Toutes les modifications qui ne peuvent pas être fusionnées automatiquement sont considérées comme des conflits. Ces conflits sont présentés pour une résolution manuelle dans l'outil de concepteur pour le composant approprié. Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Mettre à niveau le format par adoption d'une nouvelle version de base de ce format** (qui fait partie du processus d'entreprise **7.5.5.3 Acquérir/Développer un composant de services/solutions informatiques modifié (10683)**).
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Liste de configurations ER qui sont fournies dans la solution de Finance and Operations
 
@@ -311,7 +323,7 @@ ER vous permet d'adopter automatiquement les modifications de la version la plus
 |                                                  |                       | XML de journaux (Mexique)                                 | Format d'états de transactions de journal pour le Mexique                      |
 |                                                  |                       | XML de balance comptable (Mexique)                            | Format d'état de balance comptable pour le Mexique                             |
 | Modèle Elster                                     | Déclaration de taxe         |                                                   |                                                                    |
-|                                                  |                       | Elster (Allemagne)                                       | Format ELSTER pour l’Allemagne                                          |
+|                                                  |                       | Elster (Allemagne)                                       | Format ELSTER pour l'Allemagne                                          |
 | Modèle de liste des ventes intracommunautaires                              | États commerciaux       |                                                   |                                                                    |
 |                                                  |                       | Liste des ventes intracommunautaires (Allemagne)                                | Format TXT de liste des ventes intracommunautaires pour l'Allemagne                               |
 |                                                  |                       | Liste des ventes intracommunautaires (Danemark)                                | Format TXT de liste des ventes intracommunautaires pour le Danemark                               |
@@ -322,11 +334,11 @@ ER vous permet d'adopter automatiquement les modifications de la version la plus
 |                                                  |                       | État Liste des ventes intracommunautaires par colonnes                   | État Liste des ventes intracommunautaires par colonnes                                    |
 |                                                  |                       | État Liste des ventes intracommunautaires par lignes                      | État Liste des ventes intracommunautaires par lignes                                       |
 | Modèle de comptabilité FEC (FR)                        | Déclaration de taxe         |                                                   |                                                                    |
-|                                                  |                       | XML de données comptables FEC (France)                      | Format XML d’exportation des données comptables FEC pour la France                   |
+|                                                  |                       | XML de données comptables FEC (France)                      | Format XML d'exportation des données comptables FEC pour la France                   |
 | Fichier d'audit allemand                                | Audit financier       |                                                   |                                                                    |
-|                                                  |                       | Sortie du fichier d'audit allemand                          | Sortie du fichier d'audit pour l’Allemagne et l’Autriche                          |
+|                                                  |                       | Sortie du fichier d'audit allemand                          | Sortie du fichier d'audit pour l'Allemagne et l'Autriche                          |
 | Modèle de déclaration d'échanges de biens                                  | États commerciaux       |                                                   |                                                                    |
-|                                                  |                       | Déclaration d'échanges de biens (Allemagne)                                    | Format de déclaration d'échanges de biens pour l’Allemagne                                       |
+|                                                  |                       | Déclaration d'échanges de biens (Allemagne)                                    | Format de déclaration d'échanges de biens pour l'Allemagne                                       |
 |                                                  |                       | Déclaration d'échanges de biens (Danemark)                                    | Format de déclaration d'échanges de biens pour le Danemark                                       |
 |                                                  |                       | Format INTRACOM pour la déclaration d'échanges de biens (FR)                           | Format INTRACOM pour la déclaration d'échanges de biens pour la France                               |
 |                                                  |                       | Format SAISUNIC pour la déclaration d'échanges de biens (FR)                           | Format SAISUNIC pour la déclaration d'échanges de biens pour la France                               |
@@ -347,26 +359,26 @@ ER vous permet d'adopter automatiquement les modifications de la version la plus
 |                                                  |                       | Prélèvements CFONB (FR)                           | Format de paiement de débit direct CFONB pour la France                       |
 |                                                  |                       | Virements CFONB (FR)                              | Format de paiement de fournisseur local CFONB pour la France                    |
 |                                                  |                       | Fournisseur Nordea (Danemark)                                | Format de paiement de fournisseur Nordea Corporate Netbank pour le Danemark         |
-|                                                  |                       | Service de crédit direct ANZ (Australie)                    | Format de service de crédit direct ANZ pour l’Australie                 |
-|                                                  |                       | Service de crédit direct CBA (Australie)                    | Format de service de crédit direct CBA pour l’Australie                 |
-|                                                  |                       | Service de crédit direct NAB (Australie)                    | Format de service de crédit direct NAB pour l’Australie                 |
-|                                                  |                       | Service de crédit direct STG (Australie)                    | Format de service de crédit direct STG pour l’Australie                 |
-|                                                  |                       | Système de saisie directe WBC (Australie)                      | Format de système de saisie directe WBC pour l’Australie                   |
+|                                                  |                       | Service de crédit direct ANZ (Australie)                    | Format de service de crédit direct ANZ pour l'Australie                 |
+|                                                  |                       | Service de crédit direct CBA (Australie)                    | Format de service de crédit direct CBA pour l'Australie                 |
+|                                                  |                       | Service de crédit direct NAB (Australie)                    | Format de service de crédit direct NAB pour l'Australie                 |
+|                                                  |                       | Service de crédit direct STG (Australie)                    | Format de service de crédit direct STG pour l'Australie                 |
+|                                                  |                       | Système de saisie directe WBC (Australie)                      | Format de système de saisie directe WBC pour l'Australie                   |
 |                                                  |                       | DirectLink (Nouvelle-Zélande)                                   | Format DirectLink pour la Nouvelle-Zélande                              |
 |                                                  |                       | Fichier de paiement JBA (Japon)                             | Format de paiement de JBA pour le Japon                                       |
-|                                                  |                       | Virement ISO20022                          | Format de virement SEPA pour l’Europe                             |
+|                                                  |                       | Virement ISO20022                          | Format de virement SEPA pour l'Europe                             |
 |                                                  |                       | Virement ISO20022 (France)                     | Format de virement SEPA pour la France                             |
 |                                                  |                       | Virement ISO20022 (Allemagne)                     | Format de virement SEPA pour l'Allemagne                            |
 |                                                  |                       | Virement ISO20022 (P.-B.)                     | Format de virement SEPA pour les Pays-Bas                    |
-|                                                  |                       | Débit direct ISO20022                             | Format de débit Direct SEPA pour l’Europe                                |
+|                                                  |                       | Débit direct ISO20022                             | Format de débit Direct SEPA pour l'Europe                                |
 |                                                  |                       | Débit direct ISO20022 (France)                        | Format de débit direct SEPA pour la France                                |
-|                                                  |                       | Débit direct ISO20022 (Allemagne)                        | Format de débit Direct SEPA pour l’Allemagne                               |
+|                                                  |                       | Débit direct ISO20022 (Allemagne)                        | Format de débit Direct SEPA pour l'Allemagne                               |
 |                                                  |                       | Débit direct ISO20022 (P.-B.)                        | Format de débit direct SEPA pour les Pays-Bas                       |
 |                                                  |                       | BACS (ROYAUME-UNI)                                         | Format de paiement fournisseur BACS pour le Royaume-Uni                  |
 | Taxe au preneur                                   | Déclaration de taxe         |                                                   |                                                                    |
 |                                                  |                       | Liste des ventes soumises à la taxe au preneur                         | Format de liste des ventes soumises à la taxe au preneur                                   |
 | Modèle d'intégration XBRL néerlandais                     | Déclaration XBRL        |                                                   |                                                                    |
-|                                                  |                       | Semansys XBRL (P.-B.)                                | Format d’exportation Semansys XBRL pour les Pays-Bas                    |
+|                                                  |                       | Semansys XBRL (P.-B.)                                | Format d'exportation Semansys XBRL pour les Pays-Bas                    |
 | Modèle GAF (Malaisie)                                   | Audit financier       |                                                   |                                                                    |
 |                                                  |                       | Fichier GAF (Malaisie)                                     | Format de GAF pour la Malaisie                                         |
 | Balance âgée des fournisseurs (Chine)                         | Analyse de données de fournisseurs |                                                   |                                                                    |
@@ -377,6 +389,5 @@ ER vous permet d'adopter automatiquement les modifications de la version la plus
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Exigences de localisation – créer une configuration de génération d’états électroniques](electronic-reporting-configuration.md)
-
-[Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Exigences de localisation – créer une configuration de génération d'états électroniques](electronic-reporting-configuration.md)
+- [Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md)

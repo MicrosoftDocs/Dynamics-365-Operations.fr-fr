@@ -1,9 +1,9 @@
 ---
 title: Afficher les états financiers
-description: Cette rubrique décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
+description: Cette rubrique décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu'ils incluent.
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791439"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894586"
 ---
 # <a name="view-financial-reports"></a>Afficher les états financiers
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
+Cette rubrique décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 for Finance and Operations. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu'ils incluent.
 
 <a name="financial-reporting-overview"></a>Présentation des états financiers
 ----------------------------
 
 ## <a name="open-a-financial-report"></a>Ouvrir un état financier
-Pour ouvrir un état, sélectionnez le nom de l'état. La première fois que l'état est ouvert, il est automatiquement généré pour le mois précédent. Par exemple, si vous ouvrez un état pour la première fois en août 2015, l'état est généré pour le 31 juillet 2015. Après l’ouverture d’un état, vous pouvez démarrer l'exploration en accédant à des ensembles de données spécifiques et en modifiant les options d'état.
+Pour ouvrir un état, sélectionnez le nom de l'état. La première fois que l'état est ouvert, il est automatiquement généré pour le mois précédent. Par exemple, si vous ouvrez un état pour la première fois en août 2015, l'état est généré pour le 31 juillet 2015. Après l'ouverture d'un état, vous pouvez démarrer l'exploration en accédant à des ensembles de données spécifiques et en modifiant les options d'état.
 
 ## <a name="drill-down-on-a-financial-report"></a>Exploration d'un état financier
 Les états financiers peuvent inclure plusieurs niveaux de détail. Le niveau financier est le premier niveau proposé lorsque vous ouvrez un état financier. Pour accéder au niveau des comptes, sélectionnez les données à explorer. Par exemple, pour afficher les détails de compte pour les ventes, sélectionnez les données de vente que vous souhaitez explorer. à partir du niveau du compte, vous pouvez faire un zoom avant pour afficher les transactions qui constituent le solde de compte. Il existe deux manières d'afficher les transactions : transactions d'état et transactions de N° document.
@@ -46,12 +46,11 @@ Les états financiers peuvent inclure plusieurs niveaux de détail. Le niveau fi
 Si les données sont des données de budget, vous pouvez choisir d'ouvrir les écritures de compte budgétaires. Pour fermer l'un des niveaux de l'état et revenir au point de départ, vous pouvez appuyer sur la touche échap ou sur le bouton **Fermer**(**X**) en haut à droite.
 
 ## <a name="change-report-options"></a>Modifier les options d'état
-Vous pouvez modifier la date d'état, appliquer des filtres d'attribut et de dimension, ou modifier le scénario de budget dans l'état **Réel versus budget**. Dans le Volet Action, cliquez sur **Options d'état**, puis suivez une ou plusieurs des étapes suivantes :
+Vous pouvez appliquer des filtres d'attribut et de dimension, ou modifier le scénario de budget dans l'état **Réel versus budget**. Dans le Volet Action, cliquez sur **Options d'état**, puis suivez une ou plusieurs des étapes suivantes :
 
--   Pour modifier la période de base et l'année de référence d'un état, sélectionnez une période de base et l'année de référence, puis cliquez sur **OK**.
 -   Pour appliquer des filtres d'attributs à un état, sélectionnez **Ajoutez un filtre d'attribut**. Sélectionnez l'attribut, entrez la valeur d'attribut, puis cliquez sur **OK**. Par exemple, si vous sélectionnez l'attribut **Catégorie de compte**, entrez **VENTES** comme valeur de l'attribut. Pour supprimer un filtre d'attributs, cliquez sur **Effacer**.
 -   Pour appliquer des filtres de dimension à un état, sélectionnez **Ajouter un filtre de dimension**. Sélectionnez la dimension, puis entrez l'ID de dimension ou sélectionnez la dimension dans la liste. Pour supprimer un filtre de dimension, cliquez sur **Effacer**.
--   Pour modifier le scénario dans un état **Réel versus budget**, sélectionnez un nouveau scénario, puis cliquez sur **OK**. Si le scénario sélectionné concerne une autre année, veillez à mettre à jour l'année de référence. Par exemple, si le scénario actuel est pour FY2015, et que vous sélectionnez un scénario qui concerne FY2016, vous devez modifier l'année de référence sur **2016**.
+-   Pour modifier le scénario dans un état **Réel versus budget**, sélectionnez un nouveau scénario, puis cliquez sur **OK**. Si le scénario sélectionné concerne un autre exercice, aucun résultat ne sera retourné. Par exemple, si un rapport est généré pour l'exercice 2015, que le scénario actuel est pour l'exercice 2015 et que le nouveau scénario sélectionné est pour l'exercice 2016, aucun résultat ne sera retourné. Si un nouveau scénario pour un exercice autre est nécessaire, générez une nouvelle version de l'état pour l'exercice lié au scénario.
 
 Lorsque vous cliquez sur **OK**, toutes les options sélectionnées sont appliquées à l'état. Si vous décidez que vous ne souhaitez pas appliquer les options sélectionnées, cliquez sur **Annuler**.
 

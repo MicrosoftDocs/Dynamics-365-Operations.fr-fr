@@ -1,7 +1,7 @@
 ---
 title: Ressources humaines
 description: Le module Ressources humaines simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée. Ces domaines incluent le recrutement et la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c8b743e667413dfc263fe640b4c6c7350e887142
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341762"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859803"
 ---
 # <a name="human-resources"></a>Ressources humaines
 
@@ -51,7 +51,7 @@ Lorsque vous travaillez avec le module Ressources humaines, vous décidez commen
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Recruter, embaucher et motiver les employés
 
-Les projets de recrutement permettent de gérer le contenu utilisé dans les annonces des postes à pourvoir et peuvent vous aider à gérer les candidatures aux emplois vacants. Vous pouvez les utiliser pour suivre les réponses aux offres d'emploi pour un projet de recrutement spécifique ou des candidatures spécifiques, et pour mettre à jour le statut des postes vacants. Vous pouvez également embaucher des candidats uniques ou gérer des « projets d’embauche collective », qui facilitent l’embauche de plusieurs travailleurs, par exemple, pour répondre aux besoins saisonniers de l’entreprise.
+Les projets de recrutement permettent de gérer le contenu utilisé dans les annonces des postes à pourvoir et peuvent vous aider à gérer les candidatures aux emplois vacants. Vous pouvez les utiliser pour suivre les réponses aux offres d'emploi pour un projet de recrutement spécifique ou des candidatures spécifiques, et pour mettre à jour le statut des postes vacants. Vous pouvez également embaucher des candidats uniques ou gérer des « projets d'embauche collective », qui facilitent l'embauche de plusieurs travailleurs, par exemple, pour répondre aux besoins saisonniers de l'entreprise.
 
 - [Gestion d'un processus de recrutement](manage-recruiting-process.md)
 - [Projets d'embauche collective](mass-hire-projects.md) 
@@ -72,15 +72,15 @@ Pour aider vos employés à atteindre leurs objectifs de carrière tout en répo
 
 ## <a name="create-and-maintain-benefits"></a>Créer des avantages et les tenir à jour
 
-En plus de rémunérer votre équipe avec des traitements, des salaires et des primes, vous pouvez créer des programmes d'avantages et des plans d’épargne retraite. Vous pouvez également gérer des avantages tels que les programmes de prêt, à travers lesquels votre société prête des actifs, tels que des ordinateurs ou à des téléphones, à ses employés.
+En plus de rémunérer votre équipe avec des traitements, des salaires et des primes, vous pouvez créer des programmes d'avantages et des plans d'épargne retraite. Vous pouvez également gérer des avantages tels que les programmes de prêt, à travers lesquels votre société prête des actifs, tels que des ordinateurs ou à des téléphones, à ses employés.
 
 - [Gérer un programme d'avantages](../../talent/manage-benefit-program.md)
 - [Stratégies de droit aux avantages](../../talent/benefit-eligibility-policies.md)
 - [Gérer les articles prêtés aux collaborateurs](../../talent/loan-items.md)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Tenir à jour la conformité et la sécurité de l’espace de travail
+## <a name="maintain-workplace-safety-and-compliance"></a>Tenir à jour la conformité et la sécurité de l'espace de travail
 
-Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail sécurisé conforme aux lois applicables, y compris à la législation sur le handicap, l’immigration et la naturalisation, entre autres. Par exemple, vous pouvez gérer les exigences physiques pour des tâches spécifiques, ainsi que le suivi des demandes d'aménagements pouvant aider votre organisation à optimiser les qualifications de son personnel.
+Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail sécurisé conforme aux lois applicables, y compris à la législation sur le handicap, l'immigration et la naturalisation, entre autres. Par exemple, vous pouvez gérer les exigences physiques pour des tâches spécifiques, ainsi que le suivi des demandes d'aménagements pouvant aider votre organisation à optimiser les qualifications de son personnel.
 
 - [Écran I-9 - Vérification d'emploi](localizations/noam-usa-form-i-9-verification.md)
 - [Respect de l'ADA](localizations/noam-usa-comply-ada.md)
@@ -88,7 +88,7 @@ Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail s
 
 ## <a name="gather-information-using-questionnaires"></a>Réunir des informations à l'aide de questionnaires
 
-Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu'il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
+Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu'un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu'il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
 
 - [Questionnaires](../../talent/questionnaires.md)
 - [Conception d'un questionnaire](../../talent/design-questionnaires.md)

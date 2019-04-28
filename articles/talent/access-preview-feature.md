@@ -1,7 +1,7 @@
 ---
 title: Accéder aux fonctions d'aperçu de Talent
 description: Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu. Elle répertorie également les fonctionnalités qui sont actuellement activées pour le mode aperçu.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304351"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856322"
 ---
 # <a name="access-preview-features-in-talent"></a>Accéder aux fonctions d'aperçu de Talent
 
@@ -73,7 +73,7 @@ Vous pouvez utiliser le paramètre **Fonctionnalités d'aperçu** dans le centre
 - **Postulant** – Les candidats internes et externes peuvent désormais postuler directement depuis la page des postes sur le site de carrière.
 - **Gestion des offres** – Les utilisateurs peuvent désormais créer des lettres d'offre à partir de modèles qui incluent des espaces réservés. Lorsque les candidats passent à l'étape Offre, les recruteurs et les responsables du recrutement peuvent utiliser l'outil Offre pour préparer l'offre formelle d'un candidat à l'aide de modèles, envoyer l'offre pour approbation interne et enfin envoyer l'offre au candidat pour signature. De nombreuses fonctionnalités seront ajoutées à l'outil Offre au fil du temps, et la fonctionnalité d'aperçu sera mise à jour avec ces fonctionnalités dès que nous serons prêts à les publier en mode aperçu.
 
-### <a name="core-hr"></a>Ressources humaines principales
+### <a name="core-hr"></a>Core HR
 
 - **Inscription en cours** – L'inscription en cours aux avantages offre aux employés une expérience simple de sélection de leurs avantages en libre service. Les administrateurs des ressources humaines peuvent configurer le processus d'inscription en cours aux avantages pour leur organisation, et l'expérience d'inscription des employés en utilisant une solution guidée facile à suivre.
 
@@ -85,7 +85,7 @@ Que vos commentaires soient positifs ou négatifs, nous souhaitons en savoir plu
 - Utilisez les sites suivants pour proposer des idées de produit. Faites-nous part des fonctionnalités que vous souhaitez voir dans le produit, ainsi que les modifications qui, selon vous, doivent être apportées aux fonctionnalités.
 
     - [Idées pour Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
-    - [Ressources humaines principales](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+    - [Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
 N'ajoutez pas des données personnelles (toute information susceptible de vous identifier) dans vos commentaires ou vos demandes d'évaluation du produit. Les informations collectées peuvent être analysées davantage, et elles ne seront pas utilisées pour répondre à des demandes aux termes des lois applicables sur la confidentialité. Les données personnelles qui sont collectées séparément dans le cadre de ces programmes sont soumises à la [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/privacystatement).
 
