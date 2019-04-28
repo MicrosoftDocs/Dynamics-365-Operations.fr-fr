@@ -3,7 +3,7 @@ title: Synchroniser les transferts et les ajustements de stock entre Field Servi
 description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ajustements de stock et les transferts depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308366"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842413"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Synchroniser les ajustements de stock entre Field Service et Finance and Operations
 
@@ -38,8 +38,8 @@ Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pou
 Le modèle suivant et les tâches sous-jacentes sont utilisées pour exécuter la synchronisation les ajustements de stock et les transferts de Microsoft Dynamics 365 for Field Service vers Microsoft Dynamics 365 for Finance and Operations.
 
 **Modèles dans l'intégration de données**
-- Ajustement de stock (Field Service vers Finance and Operations)
-- Transferts de stock (Field Service vers Finance and Operations)
+- Ajustement de stock (Field Service vers Fin and Ops)
+- Transferts de stock (Field Service vers Fin and Ops)
 
 **Tâches des projets d'intégration des données**
 - Ajustements de stock
@@ -71,11 +71,11 @@ Les journaux de stock d'intégration générés par l'intégration peuvent être
 
 Les illustrations suivantes présentent la mise en correspondance de modèles dans le module Intégration des données.
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>Ajustement de stock (Field Service vers Finance and Operations) : Ajustement de stock
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>Ajustement de stock (Field Service vers Fin and Ops) : Ajustement de stock
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Transfert de stock (Field Service vers Finance and Operations) : Transfert de stock
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>Transfert de stock (Field Service vers Fin and Ops) : Transfert de stock
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSTrans1.png)](./media/FSTrans1.png)
