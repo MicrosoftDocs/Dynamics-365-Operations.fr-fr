@@ -1,28 +1,28 @@
 ---
 title: Comparaison des fonctionnalités dans le cloud et sur site
 description: La rubrique indique les fonctionnalités prises en charge dans le cloud et sur site.
-author: robinarh
+author: sericks007
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 04/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: robinr
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
-ms.author: robinr
+ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 18f668bdc49da1022230278f1de8494150e8a5f9
+ms.sourcegitcommit: bdcdcdddcb0517f0c64d541258ccbd119b960719
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313978"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "977204"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparaison des fonctionnalités dans le cloud et sur site
 
@@ -56,9 +56,12 @@ Les tableaux suivants décrivent les zones de produit. La prise en charge en clo
 | ? | | Oui | Non |
 | Ressources humaines | | Oui | Oui |
 | Intelligence | | Oui | Oui |
-| | Gestion des états électroniques - Intégration à LCS | Oui | N° |
-| | Gestion des états électroniques - Intégration à SharePoint | Oui | N° |
-| | Intégration à PowerBI.com | Oui | N° |
+| | Gestion des états électroniques | Oui | Oui |
+| | ER : Intégration avec LCS | Oui | Non |
+| | ER : Intégration avec SharePoint | Oui | Non |
+| | ER : Intégration avec Regulatory Configuration Service (RCS) | Oui | Non |
+| | ER : Utilise le système de fichiers local comme stockage des configurations ER accessibles via les référentiel ER | Non | Oui |
+| | Intégration à PowerBI.com | Oui | Non |
 | | Espaces de travail analytiques | Oui | Non |
 | | Processus métier intelligent : Recommandations | Oui | N° |
 | | Création d'états Power BI avec OData à l'aide des outils Power BI Desktop ou Excel PowerQuery | Oui | N° |

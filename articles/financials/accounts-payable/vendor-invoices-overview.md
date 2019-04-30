@@ -1,9 +1,9 @@
 ---
 title: Vue d'ensemble des factures fournisseur
 description: Cet article fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329756"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975800"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d'ensemble des factures fournisseur
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Cet article fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques. 
 
-<a name="vendor-invoices"></a>Factures fournisseur
----------------
+## <a name="vendor-invoices"></a>Factures fournisseur
 
 Une facture fournisseur basée sur une commande fournisseur est une facture produite lorsque des produits ou des services sont reçus en fonction d'une commande fournisseur placée auprès d'un fournisseur. La facture fournisseur contient un en-tête et une ou plusieurs lignes pour des articles ou services. Une facture fournisseur termine le cycle de la commande fournisseur à la réception des produits et à la facture fournisseur. 
 
@@ -79,8 +79,15 @@ Pour plus d'informations, voir [Enregistrer la facture fournisseur et la mettre 
 
 Vous pouvez utiliser plusieurs factures à la fois et les valider toutes à la fois. Si vous devez créer plusieurs factures, utilisez la page **Factures fournisseur en attente**. Si vous devez valider et imprimer plusieurs factures fournisseur, utilisez le journal d'approbation des factures. Si vous utilisez journal d'approbation des factures, au moins un accusé de réception de marchandises doit être validé pour la commande fournisseur, et une facture pour la commande fournisseur doit être validée dans un registre des factures. Les informations financières pour la facture viennent de la facture qui a été validée dans le registre.
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>Récupération de factures fournisseur en cours d'utilisation
 
-Pour plus d'informations, voir : 
+Quand une facture fournisseur est utilisée, elle ne peut pas être modifiée par un autre utilisateur. Toutefois, l'état d'une facture peut parfois indiquer que la facture est en cours d'utilisation, même si elle n'est pas activement modifiée. Par exemple, l'application peut avoir cessé de répondre pendant la modification de la facture, ou un utilisateur peut avoir par inadvertance laissé la facture ouverte dans l'application.
+
+Vous pouvez utiliser la page **Récupérer les factures fournisseur** pour récupérer ou libérer les factures fournisseur qui ont été utilisée pendant plus de quatre heures, afin qu'elles puissent être modifiées. Vous pouvez ouvrir cette page à partir de l'écran **Tâche périodique** ou d'une vignette de l'espace de travail **Saisie de facture fournisseur**. Une fois qu'une facture a été récupérée, elle est disponible à la modification dans la page **Facture fournisseur**.
+
+Vous pouvez accéder à la page **Récupérer les factures fournisseur** uniquement si vous disposez du privilège et du droit de sécurité **Récupérer les factures fournisseur en cours de utilisation**. En outre, le paramètre **Autoriser la récupération des factures fournisseur** de la page **Paramètres de la comptabilité fournisseur** doit être activé.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
 
  - [Paramétrer des stratégies de facture fournisseur](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 

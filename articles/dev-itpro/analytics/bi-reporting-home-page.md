@@ -3,7 +3,7 @@ title: Page d'accueil des outils Business Intelligence (BI) et de génération d
 description: Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir plus sur les outils Business Intelligence et de génération d'états disponibles dans Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302259"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902840"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Page d'accueil des outils Business Intelligence (BI) et de génération d'états
 
@@ -33,7 +33,7 @@ Cette rubrique décrit les ressources que vous pouvez utiliser pour en savoir pl
 ## <a name="get-started"></a>Mise en route
 - [Accès aux informations et génération d'états](information-access-reporting.md)
 - [Forum technique : options de génération d'états](https://www.youtube.com/watch?v=NzZONjKs5xA) (vidéo)
-- [Finance and Operations : Business Intelligence](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blog)
+- [Finance and Operations : blog sur les services d'analyse et de génération d'états Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Espaces de travail analytiques
 Finance and Operations fournit des états interactifs qui sont intégrés de façon transparente dans les espaces de travail de l'application. Les espaces de travail peuvent utiliser des éléments infographiques et visuels complets qui sont pris en charge par Microsoft Power BI. Ces éléments infographiques et visuels comprennent de nombreux contrôles fournis par des tiers. Par conséquent, les espaces de travail peuvent offrir une expérience visuelle interactive aux utilisateurs.

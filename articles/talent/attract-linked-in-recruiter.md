@@ -1,7 +1,7 @@
 ---
 title: Approvisionnement avec LinkedIn Recruiter
 description: Cette rubrique fournit des informations sur l'utilisation du Machine Learning pour obtenir des recommandations de poste et de candidat à un poste.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,33 +10,33 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304317"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859572"
 ---
 # <a name="sourcing-with-linkedin-recruiter"></a>Approvisionnement avec LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
-LinkedIn est la plus grande base de données de talents au monde et souvent le principal système que les recruteurs utilisent pour rechercher, communiquer, et approvisionner en candidats de sources pour les postes que les recruteurs cherchent à pourvoir. L'intégration de LinkedIn Recruiter à Dynamics 365 for Talent : Attract permet aux utilisateurs de facilement embaucher et conserver les données synchronisées entre les deux systèmes.
+LinkedIn est la plus grande base de données de talents au monde et souvent le principal système que les recruteurs utilisent pour rechercher, communiquer, et approvisionner en candidats de sources pour les postes que les recruteurs cherchent à pourvoir. L'intégration de LinkedIn Recruiter à Dynamics 365 for Talent - Attract permet aux utilisateurs de facilement embaucher et de conserver les données synchronisées entre les deux systèmes.
 
 > [!NOTE]
-> Vous avez besoin du Composant additionnel de recrutement complet et de licences LinkedIn Recruiter pour pouvoir utiliser l'intégration de LinkedIn Recruiter à Attract.
+> Vous avez besoin du module complémentaire Recrutement complet et de licences LinkedIn Recruiter pour pouvoir utiliser l'intégration de LinkedIn Recruiter à Attract.
 
 ## <a name="set-up-linkedin-recruiter-with-attract"></a>Paramétrage de LinkedIn Recruiter avec Attract 
 
-Avant de pouvoir utiliser les fonctionnalités de LinkedIn Recruiter, vous devez configurer un accès au niveau du contrat ou de la société avec votre instance Attract. Pour terminer le processus de configuration, vous devez collaborer avec l'utilisateur qui est un administrateur de votre contrat LinkedIn Recruiter. Procédez comme suit pour configurer LinkedIn Recruiter avec Attract.
+Avant de pouvoir utiliser les fonctionnalités de LinkedIn Recruiter, vous devez configurer un accès au niveau du contrat ou au niveau de l'entreprise avec votre instance Attract. Pour terminer le processus de configuration, vous devez collaborer avec l'utilisateur qui est un administrateur de votre contrat LinkedIn Recruiter. Procédez comme suit pour configurer LinkedIn Recruiter avec Attract.
 
 1.  Connectez-vous à Attract en tant qu'administrateur et accédez à **Paramètres d'administration**.
 
@@ -126,7 +126,7 @@ Lors de l'approvisionnement en candidats dans LinkedIn, vous pouvez exporter en 
 
 ### <a name="inmail-history"></a>Historique InMail
 
-L'historique des notes InMail LinkedIn est disponible avec l'accès au niveau du contrat avec LinkedIn Recruiter. Lorsqu'il est activé, vous pouvez afficher l'historique InMail complet avec le candidat. Vous pouvez également voir qui d'autre dans votre organisation a échangé sur InMail avec le candidat, mais vous ne pouvez pas afficher les messages entre eux.
+L'historique LinkedIn InMail est disponible avec l'accès au niveau du contrat avec LinkedIn Recruiter. Lorsqu'il est activé, vous pouvez afficher l'historique InMail complet avec le candidat. Vous pouvez également voir qui d'autre dans votre organisation a échangé sur InMail avec le candidat, mais vous ne pouvez pas afficher les messages entre eux.
 
 Pour afficher l'historique InMail, accédez au profil d'un candidat, accédez à l'onglet **LinkedIn** et faites défiler vers le bas de page pour afficher l'historique. Vous pouvez afficher l'historique InMail si vous avez eu une discussion avec le candidat. Les messages InMail se synchronisent avec Attract toutes les deux heures.
 
@@ -134,7 +134,7 @@ Pour afficher l'historique InMail, accédez au profil d'un candidat, accédez à
 
 L'historique des notes LinkedIn est disponible avec l'accès au niveau du contrat avec LinkedIn Recruiter. Lorsqu'il est activé, vous pouvez afficher les notes qui ont été capturées sur le candidat par les différents recruteurs de votre organisation.
 
-Pour afficher l'historique Notes, accédez au profil d'un candidat, accédez à l'onglet **LinkedIn** et faites défiler vers le bas de page pour afficher l'historique. Vous pouvez afficher toutes les notes sur le candidat dans LinkedIn Recruiter.
+Pour afficher l'historique Notes, accédez au profil d'un candidat, accédez à l'onglet **LinkedIn** et faites défiler vers le bas de page pour afficher l'historique. Vous pouvez afficher toutes les notes sur le candidat à partir de LinkedIn Recruiter.
 
 ### <a name="inmail-stub-profile"></a>Profil de bordereau InMail
 

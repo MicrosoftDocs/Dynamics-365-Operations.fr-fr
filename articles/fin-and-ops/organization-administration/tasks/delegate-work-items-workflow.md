@@ -3,7 +3,7 @@ title: Délégation d'éléments de travail dans un workflow
 description: Si vous pensez vous absenter du bureau ou être dans l'incapacité d'agir sur des éléments de travail, vous pouvez déléguer ou réaffecter vos éléments de travail à d'autres utilisateurs.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346247"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976779"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Délégation d'éléments de travail dans un workflow
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Si vous pensez vous absenter du bureau ou être dans l'incapacité d'agir sur des éléments de travail, vous pouvez déléguer ou réaffecter vos éléments de travail à d'autres utilisateurs. Cette procédure vous permet de configurer le système pour déléguer automatiquement vos éléments de travail à un autre utilisateur.
+## <a name="manually-delegate-a-work-item"></a>Délégation manuelle d'un élément de travail
 
+Pour déléguer un élément de travail individuel, sélectionnez l'option **Déléguer** dans le menu **Workflow** puis entrez l'utilisateur à qui déléguer l'élément de travail en y ajoutant un commentaire. Cela réaffectera l'élément de travail à cet utilisateur afin qu'il puisse l'exécuter.
 
+## <a name="automatically-delegate-work-items"></a>Déléguer automatiquement des éléments de travail
 
-Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Si vous prévoyez de vous absenter du bureau ou être indisponible d'une manière quelconque pour agir sur des éléments de travail pendant une période donnée, vous pouvez automatiquement déléguer de nouveaux éléments de travail à d'autres utilisateurs à l'aide de la page **Options utilisateur**.
 
-
-## <a name="set-up-automatic-delegation"></a>Paramétrage de la délégation automatique
+### <a name="set-up-automatic-delegation"></a>Paramétrage de la délégation automatique
 1. Accédez à Commun > Paramétrage > Options utilisateur.
 2. Cliquez sur l'onglet Workflow.
     * Assurez-vous que la section Délégation est développée.    Pour configurer le système de sorte à déléguer vos éléments de travail automatiquement à d'autres utilisateurs, vous devez créer des règles de délégation lorsque certains types d'éléments de travail sont délégués. Pour créer une règle de délégation, procédez comme suit :  

@@ -3,7 +3,7 @@ title: Synchroniser la liste des projets entre Finance and Operations et Field S
 description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les projets depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312506"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842602"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Synchroniser la liste des projets entre Finance and Operations et Field Service
 
@@ -38,13 +38,13 @@ Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pou
 Le modèle suivant et les tâches sous-jacentes sont utilisées pour exécuter la synchronisation des projets de Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
 
 **Modèle dans l'intégration de données**
-- Projets (Finance and Operations vers Field Service)
+- Projets (Fin and Ops vers Field Service)
 
 **Tâche du projet d'intégration des données**
 - Projets
 
 Les tâches de synchronisation suivantes sont requises avant que la synchronisation de la liste de projets puisse avoir lieu :
-- Comptes (Sales vers Finance and Operations) 
+- Comptes (Sales vers Fin and Ops) 
 
 ## <a name="entity-set"></a>Ensemble d'entités
 | Field Service           | Finance and Operations  |
@@ -64,6 +64,6 @@ Activer le suivi des modifications pour les projets d'entité de données
 ## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>Projets (Finance and Operations vers Field Service) : Projets
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>Projets (Fin and Ops vers Field Service) : Projets
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSProject1.png)](./media/FSProject1.png)

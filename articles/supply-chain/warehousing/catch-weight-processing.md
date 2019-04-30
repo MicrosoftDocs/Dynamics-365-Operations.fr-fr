@@ -3,7 +3,7 @@ title: Traitement des produits en poids variable avec la gestion des entrepôts
 description: Cette rubrique décrit comment utiliser les modèles de travail et les instructions d'emplacement afin de déterminer de quelle manière et où effectuer le travail dans l'entrepôt.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777270"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946431"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
@@ -97,7 +97,9 @@ Par exemple, **Boîte** est l'unité en poids variable, et vous recevez une pale
 
 Si le suivi des balises en poids variable n'est pas utilisé, le poids peut être saisi pour chaque dimension définie (par exemple, le contenant et la dimension de suivi). À défaut, le poids peut être saisi à un niveau agrégé, comme cinq contenants (palettes).
 
-Pour les méthodes de saisie du poids sortant, vous pouvez définir si la pesée est réalisée pour chaque unité en poids variable (à savoir, par boîte) ou si le poids est saisi selon la quantité prélevée (par exemple, trois boîtes). Sachez que pour le processus de prélèvement de ligne de production, le poids moyen est utilisé si l'option **Non capturé** est utilisée.
+Pour les méthodes de saisie du poids sortant, vous pouvez définir si la pesée est réalisée pour chaque unité en poids variable (à savoir, par boîte) ou si le poids est saisi selon la quantité prélevée (par exemple, trois boîtes). Sachez que pour le processus de prélèvement de ligne de production et les processus de mouvement interne, le poids moyen est utilisé si l'option **Non capturé** est utilisée.
+
+Pour empêcher les processus de prélèvement de la gestion des entrepôts de capturer des poids pouvant résulter en ajustements de résultat de poids variable, il est possible d'utiliser la méthode d'écart de poids sortant.
 
 ## <a name="supported-scenarios"></a>Scénarios pris en charge
 
@@ -121,14 +123,12 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
  
 ### <a name="order-processing"></a>Traitement des commandes
 
-- Le traitement des commandes intersociétés n'est pas pris en charge.
 - La création de l'avis préalable d'expédition (structures de conditionnement/APE) ne prend pas en charge les informations relatives au poids.
 - La quantité commandée doit être mise à jour selon l'unité en poids variable.
  
 ### <a name="inbound-warehouse-processing"></a>Traitement d'entrepôt entrant
 
 - La réception de contenants exige que les poids soient attribués pendant l'enregistrement, car les informations relatives au poids ne sont pas prises en charge dans le cadre de l'avis préalable d'expédition. Si des processus de balise en poids variable sont utilisés, le numéro de balise doit être manuellement attribué par unité en poids variable.
-- La réception de contenants mixtes n'est pas prise en charge pour les produits en poids variable.
  
 ### <a name="inventory-and-warehouse-operations"></a>Opérations en entrepôt et stocks
 
@@ -169,7 +169,6 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Autres restrictions et comportements pour le traitement des produits en poids variable avec la gestion des entrepôts
 
-- Lorsque les balises e, poids variable sont saisies dans le cadre d'un traitement d'application en entrepôt, l'utilisateur ne peut pas annuler le workflow.
 - Lors des processus de prélèvement, lorsque l'utilisateur n'est pas invité à identifier les dimensions de suivi, l'affectation du poids est effectuée selon la pondération moyenne. Ce comportement survient lorsque, par exemple, une association des dimensions de suivi est utilisée dans le même emplacement et, une fois qu'un utilisateur procède au prélèvement, seule une valeur de dimension de suivi reste à l'emplacement.
 - Si le stock est réservé pour un produit en poids variable configuré pour les processus de gestion des entrepôts, la réservation se fait selon le poids minimum défini, même si cette quantité est la dernière quantité de traitement disponible. Ce comportement diffère du comportement pour les articles non configurés pour les processus de gestion des entrepôts.
 - Les processus qui utilisent le poids dans le cadre des calculs de capacité (seuils de vague, pauses max. de travail, max. de conteneurs, capacités de chargement de l'emplacement, etc.) n'utilisent pas le poids réel du stock. En lieu et place, les processus sont basés sur le poids de traitement physique défini pour le produit.
@@ -193,3 +192,5 @@ Actuellement, la fonctionnalité pour les balises en poids variable est prise en
 - Lorsque les conteneurs sont réouverts.
 - Lorsque les produits de formule sont signalés comme finis à l'aide de l'application de l'entrepôt.
 - Lorsque les charges de transport sont traitées à l'aide de l'application de l'entrepôt.
+
+Une balise de poids variable peut être créée à l'aide d'un processus de l'application d'entreposage, être créée manuellement dans l'écran, ou être créée à l'aide d'un processus d'entité de données. Si une balise de poids variable est associée à une ligne de document source entrant, comme une ligne de commande fournisseur, la balise est enregistrée. Si la ligne est utilisée pour le traitement sortant, la balise est mise à jour comme expédiée.

@@ -3,7 +3,7 @@ title: Gestion et comptabilité des projets
 description: La fonctionnalité de gestion de projets et de comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit, ou atteindre résultat.
 author: KimANelson
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 82a2da882ba951c2ff6420b726e0546e9073d2e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311333"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969398"
 ---
 # <a name="project-management-and-accounting"></a>Gestion et comptabilité des projets
 
@@ -150,8 +150,8 @@ En fonction des combinaisons de ces facteurs, utilisez l'une des méthodes suiva
 
 - **Article fini/lié à la commande** – Lie le projet à une commande client ou à une demande d'articles. Avec cette méthode, les coûts de projet réels sont validés lorsque la commande client est facturée ou lorsque le bon de livraison est mis à jour avec la demande d'articles. Le coût est validé en tant qu'article fini.
 - **Article fini/pas de lien avec la commande** – Les coûts réels ne peuvent pas être validés tant que le cycle de production d'un article a le statut **Terminé**. Le coût de l'article fini est validé en tant que transaction unique.
-- **Article consommé/lié à la commande** – Lie le projet à une demande d'articles. Cette méthode permet d'afficher les coûts de projet réels lorsque la production a le statut **Commencé** ou est déclarée terminée. Les coûts seront validés sous la forme de plusieurs transactions d’article de projet pour les matières premières et les heures consommées pour la production. Lorsque le bon de livraison est mis à jour avec la demande d'articles, aucun coût de projet n'est validé. Vous pouvez également définir le niveau de hiérarchie de la nomenclature auquel les projets sont suivis dans la production.
-- *<strong><em>Article consommé/lié à la commande</em></strong>* – Lie le projet à une demande d'articles. Cette méthode permet d'afficher les coûts de projet réels lorsque la production a le statut <strong>Commencé</strong> ou est déclarée terminée. Les coûts sont validés sous la forme de plusieurs transactions d’article de projet pour les matières premières et les heures consommées pour la production. Vous pouvez également définir le niveau de hiérarchie de la nomenclature auquel les projets sont suivis dans la production.
+- **Article consommé/lié à la commande** – Lie le projet à une demande d'articles. Cette méthode permet d'afficher les coûts de projet réels lorsque la production a le statut **Commencé** ou est déclarée terminée. Les coûts seront validés sous la forme de plusieurs transactions d'article de projet pour les matières premières et les heures consommées pour la production. Lorsque le bon de livraison est mis à jour avec la demande d'articles, aucun coût de projet n'est validé. Vous pouvez également définir le niveau de hiérarchie de la nomenclature auquel les projets sont suivis dans la production.
+- *<strong><em>Article consommé/lié à la commande</em></strong>* – Lie le projet à une demande d'articles. Cette méthode permet d'afficher les coûts de projet réels lorsque la production a le statut <strong>Commencé</strong> ou est déclarée terminée. Les coûts sont validés sous la forme de plusieurs transactions d'article de projet pour les matières premières et les heures consommées pour la production. Vous pouvez également définir le niveau de hiérarchie de la nomenclature auquel les projets sont suivis dans la production.
 
 ### <a name="procure-products-and-services"></a>Définition de l'approvisionnement des produits et des services
 

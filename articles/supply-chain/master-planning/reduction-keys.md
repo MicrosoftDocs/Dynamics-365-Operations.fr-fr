@@ -1,6 +1,6 @@
 ---
-title: Clés de réduction
-description: Cet article fournit des exemples qui indiquent comment paramétrer une clé de réduction. Il inclut des informations sur les différents paramètres de clé de réduction et les résultats de chacun d'entre eux. Vous pouvez utiliser une clé de réduction pour définir la méthode permettant de réduire les besoins de prévision.
+title: Clés de réduction des prévisions
+description: Cette rubrique fournit des exemples qui indiquent comment paramétrer une clé de réduction. Il inclut des informations sur les différents paramètres de clé de réduction et les résultats de chacun d'entre eux. Vous pouvez utiliser une clé de réduction pour définir la méthode permettant de réduire les besoins de prévision.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/28/2019
@@ -19,52 +19,83 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7457aca4ca4d5188bafb497d3052276cfc154ad1
-ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
+ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
+ms.sourcegitcommit: a95ccf4cee8757c5fb2442a2aaeb45b1e33b6492
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "770914"
+ms.lasthandoff: 04/14/2019
+ms.locfileid: "993042"
 ---
-# <a name="reduction-keys"></a>Clés de réduction
+# <a name="method-used-to-reduce-forecast-requirements"></a>Méthode utilisée pour réduire les besoins de prévision
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des exemples qui indiquent comment paramétrer une clé de réduction. Il inclut des informations sur les différents paramètres de clé de réduction et les résultats de chacun d'entre eux. Vous pouvez utiliser une clé de réduction pour définir la méthode permettant de réduire les besoins de prévision.
+Cette rubrique fournit des informations sur les différentes méthodes utilisées pour réduire les besoins prévisionnels. Elle présente des exemples de résultats de chaque méthode. Elle décrit également comment créer, paramétrer et utiliser une clé de réduction des prévisions. Certaines méthodes utilisent une clé de réduction de prévision pour réduire les besoins prévisionnels.
 
-<a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>Exemple 1 : Pourcentage - principe de réduction prévisionnelle de la clé de réduction
----------------------------------------------------------------
+## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Méthodes utilisées pour réduire les besoins prévisionnels
+
+Lorsque vous incluez une prévision dans un plan général, vous pouvez sélectionner la façon dont les besoins prévisionnels sont réduits lors de l'inclusion de la demande réelle.
+
+Pour inclure une prévision dans un plan général et sélectionner la méthode utilisée pour réduire les besoins prévisionnels, accédez à **Planification \> Paramétrage \> Plans \> Plans généraux**. Dans le champ **Modèle de prévision**, sélectionnez un modèle de prévision. Dans le champ **Méthode utilisée pour réduire les besoins prévisionnels**, sélectionnez une méthode. Les options disponibles sont les suivantes :
+
+- Aucune
+- Pourcentage – clé de réduction
+- Transactions – clé de réduction
+- Transactions – période dynamique
+
+Les sections suivantes fournissent des informations supplémentaires sur chaque option.
+
+### <a name="none"></a>Aucune
+
+Si vous sélectionnez **Aucun(e)**, les besoins prévisionnels ne sont pas réduits lors du calcul PDP/MRP. Dans ce cas, la planification crée des ordres prévisionnels pour livrer la demande prévue (les besoins prévisionnels). Ces ordres prévisionnels conservent la quantité suggérée, indépendamment d'autres types de demande. Par exemple, si des commandes client sont passées, la planification crée des ordres prévisionnels supplémentaires pour fournir les commandes client. La quantité des besoins prévisionnels n'est pas réduite.
+
+### <a name="percent--reduction-key"></a>Pourcentage – clé de réduction
+
+Si vous sélectionnez **Pourcentage - clé de réduction**, les besoins prévisionnels sont réduits en fonction des pourcentages et périodes définis par la clé de réduction. Dans ce cas, la planification crée des ordres prévisionnels où la quantité est calculée comme quantité prévue × clé de réduction sur chaque période. S'il existe d'autres types de demande, la planification crée également des ordres prévisionnels pour fournir cette demande.
+
+#### <a name="example-percent--reduction-key"></a>Exemple : Pourcentage – clé de réduction
 
 Cet exemple décrit la manière dont une clé de réduction réduit les besoins de prévision de la demande en fonction des pourcentages et périodes définis par la clé de réduction.
 
-1. Dans la page **Clés de réduction**, paramétrez les lignes suivantes.
+Pour cet exemple, incluez la prévision de la demande suivante dans un plan général.
 
-   | Monnaie | Unité  | Pourcentage |
-   |--------|-------|---------|
-   |   1    | Mois |   100   |
-   |   2    | Mois |   75    |
-   |   3    | Mois |   50    |
-   |   4    | Mois |   25    |
+| Mois    | Prévision de la demande |
+|----------|-----------------|
+| Janvier  | 1 000           |
+| Février | 1 000           |
+| Mars    | 1 000           |
+| Avril    | 1 000           |
 
+Dans la page **Clés de réduction**, paramétrez les lignes suivantes.
 
-2. Liez la clé de réduction au groupe de couverture de l'article.
-3. Dans la page **Plans généraux**, dans le champ **Principe de réduction**, sélectionnez **Pourcentage - clé de réduction**.
-4. Créez une prévision de la demande de 1 000 pièces par mois.
+| Monnaie | Unité  | Pourcentage |
+|--------|-------|---------|
+| 1      | Mois | 100     |
+| 2      | Mois | 75      |
+| 3      | Mois | 50      |
+| 4      | Mois | 25      |
 
-Si vous lancez le calendrier des prévisions le 1er janvier, les besoins de prévision de la demande sont utilisés en fonction des pourcentages définis dans la page **Clés de réduction**. Les quantités requises suivantes sont transférées vers le plan général.
+Affectez la clé de réduction au groupe de couverture de l'article. Ensuite, dans la page **Plans généraux**, dans le champ **Méthode utilisée pour réduire les besoins prévisionnels**, sélectionnez **Pourcentage - clé de réduction**.
 
-| Mois                | Nombre de pièces requises |
-|----------------------|---------------------------|
-| Janvier              | 0                         |
-| Février             | 250                       |
-| Mars                | 500                       |
-| Avril                | 750                       |
-| Mai à décembre | 1 000                     |
+Dans ce cas, si vous lancez le calendrier des prévisions le 1er janvier, les besoins de prévision de la demande sont utilisés en fonction des pourcentages définis dans la page **Clés de réduction**. Les quantités requises suivantes sont transférées vers le plan général.
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Exemple 2 : Transactions  principe de réduction prévisionnelle de la clé de réduction
+| Mois                | Quantité d'ordre prévisionnel | Calcul    |
+|----------------------|------------------------|----------------|
+| Janvier              | 0                      | = 0 % × 1000   |
+| Février             | 250                    | = 25 % × 1000  |
+| Mars                | 500                    | = 50 % × 1000  |
+| Avril                | 750                    | = 75 % × 1000  |
+| Mai à décembre | 1 000                  | = 100 % × 1000 |
+
+### <a name="transactions--reduction-key"></a>Transactions – clé de réduction
+
+Si vous sélectionnez **Transactions - Clé de réduction**, les besoins prévisionnels sont réduits par les transactions qui surviennent au cours de périodes définies par la clé de réduction.
+
+#### <a name="example-transactions--reduction-key"></a>Exemple : Transactions - clé de réduction
+
 Cet exemple décrit la manière dont les commandes réelles, qui se produisent durant les périodes définies par la clé de réduction, réduisent les besoins de prévision de la demande.
 
--   Dans la page **Plans généraux**, dans le champ **Principe de réduction**, sélectionnez **Transactions - clé de réduction**.
+Pour cet exemple, sélectionnez **Transactions - clé de réduction** dans le champ **Méthode utilisée pour réduire les besoins prévisionnels**, de la page **Plans généraux**.
 
 Les commandes client suivantes sont prises en compte le 1er janvier.
 
@@ -75,7 +106,7 @@ Les commandes client suivantes sont prises en compte le 1er janvier.
 | Mars    | 451                      |
 | Avril    | 119                      |
 
-Si vous utilisez les mêmes prévisions de la demande de 1 000 pièces par mois, les quantités requises suivantes sont transférées vers le plan général.
+Si vous utilisez les mêmes prévisions de la demande de 1000 pièces par mois utilisées dans l'exemple précédent, les quantités requises suivantes sont transférées vers le plan général.
 
 | Mois                | Nombre de pièces requises |
 |----------------------|---------------------------|
@@ -85,56 +116,114 @@ Si vous utilisez les mêmes prévisions de la demande de 1 000 pièces par mois,
 | Avril                | 881                       |
 | Mai à décembre | 1 000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Exemple 3 : Transactions  principe de réduction prévisionnelle de la période dynamique
-Dans la plupart des cas, les systèmes sont paramétrés de telle sorte que les transactions réduisent la prévision de la demande durant des périodes prévisionnelles spécifiques : semaines, mois, etc. Ces périodes sont définies dans la clé de réduction. Toutefois, la durée entre deux lignes de prévision de la demande peut également *impliquer* une période.
+### <a name="transactions--dynamic-period"></a>Transactions – période dynamique
 
-1. Créez une prévision de la demande pour les dates et les quantités suivantes.
+Si vous sélectionnez **Transactions - période dynamique**, les besoins prévisionnels sont réduits par les transactions de commande actuelles qui interviennent au cours de la période dynamique. La période dynamique couvre les dates de prévision actuelles et se termine au début de la prochaine prévision. Dans ce cas, la planification crée des ordres prévisionnels pour livrer la demande prévue (les besoins prévisionnels). Toutefois, lorsque des transactions de commande réelles sont passées, les besoins prévisionnels sont réduits. Les transactions réelles consomment une partie des besoins prévisionnels.
 
-   | Date       | Prévision de la demande |
-   |------------|-----------------|
-   | 1er janvier  | 1.000           |
-   | 5 janvier  | 500             |
-   | 12 janvier | 1.000           |
+Lorsque cette option est utilisée, le comportement suivant se produit :
 
-   Dans cette prévision, il n'y a pas de période précise entre les dates de prévision : entre les première et deuxième dates, il y a une période de quatre jours, et entre les deuxième et troisième dates, il y a une période de sept jours. Ces différentes périodes sont les périodes dynamiques.
-2. Créez des lignes de commande client comme suit.
+- Les clés de réduction ne sont pas requises ou ne sont pas utilisées. 
+- Si la prévision est réduite complètement, les besoins prévisionnels actuels passent à 0 (zéro).
+- En l'absence de prévision à venir, les besoins de la dernière prévision entrée sont réduits.
+- Les plages de gestion sont incluses dans le calcul de réduction des prévisions.
+- Les jours positifs sont inclus dans le calcul de réduction des prévisions.
+- Si les transactions de commande réelles dépassent les besoins prévisionnels, les transactions restantes ne sont pas expédiées à la période suivante de prévision.
 
-   | Date                             | Quantité de la commande client |
-   |----------------------------------|----------------------|
-   | 15 décembre de l'année précédente | 500                  |
-   | 3 janvier                        | 100                  |
-   | 10 janvier                       | 200                  |
+#### <a name="example-1-transactions--dynamic-period"></a>Exemple 1 : Transactions - période dynamique
 
-La prévision est réduite comme suit :
+Voici un exemple simple qui montre le fonctionnement de la méthode **Transactions - période dynamique**.
 
--   La première commande client n'est pas effectuée dans une période donnée, elle ne réduit donc aucune prévision.
--   La deuxième commande client est effectuée entre le 1er et le 5 janvier, elle réduit donc la prévision du 1er janvier de 100.
--   La troisième commande client est effectuée entre le 5 et le 12 janvier, elle réduit donc la prévision du 5 janvier de 200.
+Pour cet exemple, incluez la prévision de la demande suivante dans un plan général.
 
-L'ordre prévisionnel suivant est créé pour exécuter la prévision.
+| Date       | Prévision de la demande |
+|------------|-----------------|
+| 1er janvier  | 1 000           |
+| 1 février | 500             |
 
-| Date de prévision de la demande | Quantité réduite |
-|----------------------|------------------|
-| 1er janvier            | 900              |
-| 5 janvier            | 300              |
-| 12 janvier           | 1.000            |
+Créez également les commandes client suivantes.
 
-Voici un résumé de la réduction **Transactions - période dynamique** :
+| Date        | Quantité de la commande client |
+|-------------|----------------------|
+| 15 janvier  | 500                  |
+| 15 février | 100                  |
 
--   Les besoins prévisionnels sont réduits par les transactions de commande réelles qui surviennent dans la période dynamique. La période dynamique couvre les dates de prévision actuelles et se termine au début de la prochaine prévision.
--   Cette méthode n'utilise pas ou ne nécessite pas une clé de réduction.
--   Lorsque cette option est utilisée, le comportement suivant se produit :
-    -   Si la prévision est réduite complètement, les besoins prévisionnels actuels passent à 0 (zéro).
-    -   En l'absence de prévision à venir, les besoins de la dernière prévision entrée sont réduits.
-    -   Les plages de gestion sont incluses dans le calcul de réduction des prévisions.
-    -   Les jours positifs sont inclus dans le calcul de réduction des prévisions.
-    -   Si les transactions de commande réelles dépassent les besoins prévisionnels, les transactions restantes ne sont pas expédiées à la période suivante de prévision.
+Dans ce cas, les ordres prévisionnels suivants sont créés.
 
+| Date de prévision de la demande | Quantité | Explication                           |
+|--------------------- |----------|---------------------------------------|
+| 1er janvier            | 800      | Besoins prévisionnels (= 1000 – 200) |
+| 15 janvier           | 200      | Besoins pour les commandes client             |
+| 1 février           | 600      | Besoins prévisionnels (= 1000 – 400) |
+| 15 février          | 400      | Besoins pour les commandes client             |
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+#### <a name="example-2-transactions--dynamic-period"></a>Exemple 2 : Transactions - période dynamique
+
+Dans la plupart des cas, les systèmes sont paramétrés de telle sorte que les transactions réduisent la prévision de la demande durant des périodes prévisionnelles spécifiques : semaines, mois, etc. Ces périodes sont définies dans la clé de réduction. Toutefois, la durée entre deux lignes de prévision de la demande peut également *impliquer* une période.
+
+Pour cet exemple, créez une prévision de la demande pour les dates et les quantités suivantes.
+
+| Date       | Prévision de la demande |
+|------------|-----------------|
+| 1er janvier  | 1 000           |
+| 5 janvier  | 500             |
+| 12 janvier | 1 000           |
+
+Notez que, dans cette prévision, il n'existe pas de période précise entre les dates de prévision. La première et la deuxième date sont séparées par quatre jours, et la deuxième et la troisième date sont séparées par sept jours. Ces durées sont les périodes dynamiques.
+
+Créez également les lignes de commande client suivantes.
+
+| Date                             | Quantité de la commande client |
+|----------------------------------|----------------------|
+| 15 décembre de l'année précédente | 500                  |
+| 3 janvier                        | 100                  |
+| 10 janvier                       | 200                  |
+
+Dans ce cas, la prévision est réduite de la façon suivante :
+
+- Comme la première commande client n'est pas effectuée dans une période donnée, elle ne réduit aucune prévision.
+- Comme la deuxième commande client est effectuée entre le 1er et le 5 janvier, elle réduit la prévision du 1er janvier de 100.
+- Comme la troisième commande client est effectuée entre le 5 et le 12 janvier, elle réduit la prévision du 5 janvier de 200.
+
+Par conséquent, les ordres prévisionnels suivants sont créés.
+
+| Date de prévision de la demande             | Quantité | Explication                                                         |
+|----------------------------------|----------|---------------------------------------------------------------------|
+| 15 décembre de l'année précédente | 500      | Besoins de commande client                                            |
+| 1er janvier                        | 900      | Besoins prévisionnels pour la période du 1er janvier au 5 janvier (= 1000 – 100) |
+| 3 janvier                        | 100      | Besoins de commande client                                            |
+| 5 janvier                        | 300      | Besoins prévisionnels pour la période du 5 janvier au 10 janvier (= 500 – 200)  |
+| 12 janvier                       | 1 000    | Besoins prévisionnels pour la période du 12 janvier à fin janvier                      |
+
+## <a name="create-and-set-up-a-forecast-reduction-key"></a>Création et paramétrage d'une clé de réduction de la prévision
+
+Une clé de réduction des prévisions est utilisée dans les méthodes **Transactions - clé de réduction** et **Pourcentage - clé de réduction** pour réduire les besoins prévisionnels. Procédez comme suit pour créer et paramétrer une clé de réduction.
+
+1. Accédez à **Planification \> Paramétrage \> Couverture \> Clés de réduction**.
+2. Sélectionnez **Nouveau** ou appuyez sur **Ctrl+N** pour créer une clé de réduction.
+3. Dans le champ **Clé de réduction**, entrez un identificateur unique pour la clé de réduction des prévisions. Entrez ensuite un nom dans le champ **Nom**. 
+4. Définissez les périodes et le pourcentage de clé de réduction dans chaque période :
+
+    - Le champ **Date d'effet** indique la date de début de création de la période. Lorsque l'option **Utiliser la date d'effet** est définie sur **Oui**, la période débute à la date d'effet. Lorsqu'elle est définie **Non**, la période débute à la date d'exécution de la planification.
+    - Définissez les périodes auxquelles la réduction des prévisions doit avoir lieu.
+    - Pour une période spécifique, indiquez les pourcentages de réduction qui doivent être appliqués aux besoins prévisionnels. Vous pouvez entrer des valeurs positives pour réduire les besoins ou des valeurs négatives pour augmenter les besoins.
+
+## <a name="use-a-reduction-key"></a>Utilisation d'une clé de réduction
+
+Une clé de réduction des prévisions doit être affectée au groupe de couverture de l'article. Procédez comme suit pour affecter une clé de réduction au groupe de couverture d'un article.
+
+1. Accédez à **Planification \> Paramétrage \> Couverture \> Groupes de couverture**.
+2. Dans l'organisateur **Autres**, dans le champ **Clé de réduction**, sélectionnez la clé de réduction à affecter au groupe de couverture. La clé de réduction s'applique ensuite à tous les articles appartenant au groupe de couverture.
+3. Pour utiliser une clé de réduction afin de calculer la réduction des prévisions lors du calcul PDP/MRP, vous devez définir ce paramètre dans le paramétrage du programme prévisionnel ou du plan général. Accédez à l'un des emplacements suivants :
+
+    - Planification \> Paramétrage \> Plans \> Programmes prévisionnels
+    - Planification \> Paramétrage \> Plans \> Plans généraux
+
+4. Dans la page **Programmes prévisionnels** ou **Plans généraux**, sous l'organisateur **Général**, dans le champ **Méthode utilisée pour réduire les besoins prévisionnels**, sélectionnez **Pourcentage - clé de réduction** ou **Transactions - clé de réduction**.
+
+## <a name="reduce-a-forecast-by-transactions"></a>Réduction de la prévision par les transactions
+
+Lorsque vous sélectionnez **Transactions - clé de réduction** ou **Transactions - période dynamique** comme méthode de réduction des besoins prévisionnels, vous pouvez spécifier quelles transactions réduisent la prévision. Dans la page **Produits lancés**, sous l'organisateur **Autre**, dans le champ **Soustraire des prévisions**, sélectionnez **Toutes les transactions** si toutes les transactions doivent réduire la prévision ou **Commandes** si seules les commandes client doivent diminuer la prévision.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Plans généraux](master-plans.md)
-
-
-

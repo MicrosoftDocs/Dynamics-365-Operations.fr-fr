@@ -1,7 +1,7 @@
 ---
 title: Approbations de factures par téléphone portable
 description: Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles dans Dynamics 365 for Finance and Operations en prenant les approbations de facture de fournisseur pour mobile en tant que cas d'utilisation.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5a48ea7b0c1faf5726de21a246e3d8b4d98f166a
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "314392"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897176"
 ---
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
@@ -37,8 +37,8 @@ Les capacités mobiles dans Microsoft Dynamics 365 for Finance and Operations pe
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pré-lecture manuel mobile                                                                                |[Plateforme mobile](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Un environnement avec Microsoft Dynamics 365 for Operations version 1611 et Microsoft Dynamics for Operations platform update 3 (novembre 2016)                   |
-| Installez le correctif KB 3204341.                                                                              | L'enregistreur de tâches peut enregistrer de manière erronée deux commandes Fermer pour les boîtes de dialogue déroulantes, incluses dans Dynamics 365 for Operations mise à jour 3 (mise à jour novembre 2016) |
-| Installez le correctif KB 3207800.                                                                              | Ce correctif permet d'afficher les pièces jointes sur le client mobile, ce qui est inclus dans Dynamics 365 for Operations mise à jour 3 (mise à jour de novembre 2016).           |
+| Installez le correctif KB 3204341.                                                                              | L'enregistreur de tâches peut enregistrer de manière erronée deux commandes Fermer pour les boîtes de dialogue déroulantes, incluses dans Dynamics 365 for Operation, Platform Update 3 (mise à jour novembre 2016) |
+| Installez le correctif KB 3207800.                                                                              | Ce correctif permet d'afficher les pièces jointes sur le client mobile, ce qui est inclus dans Dynamics 365 for Operation, Platform Update 3 (mise à jour de novembre 2016).           |
 | Installez le correctif KB 3208224.                                                                              | Le code d'application pour la demande d'approbation de facture fournisseur mobile est inclus dans l'application Microsoft Dynamics AX 7.0.1 (mai 2016).                          |
 | Périphérique Android ou iOS ou Windows doté de l'application mobile installée pour Finance and Operations | Recherche de l'application dans le magasin d'application adéquat.                                                                                                                     |
 

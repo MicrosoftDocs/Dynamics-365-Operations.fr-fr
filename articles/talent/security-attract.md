@@ -1,7 +1,7 @@
 ---
 title: Gestion de la sécurité et des rôles dans Attract
 description: Cette rubrique fournit des informations sur la sécurité des rôles dans Microsoft Dynamics 365 for Talent - Attract.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789695"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993689"
 ---
 # <a name="security-and-role-management-in-attract"></a>Gestion de la sécurité et des rôles dans Attract
 
@@ -70,6 +70,16 @@ Tout utilisateur ayant un compte Microsoft Azure Active Directory (Azure AD) dan
 
 Les utilisateurs affectés au rôle Lecture seule ont accès en lecture seule à toutes les données de l'environnement Attract. Toutefois, ils ne peuvent ni créer, ni modifier les données.
 
+## <a name="find-out-which-roles-you-have"></a>Découvrir les rôles dont vous disposez
+
+1.  Dans Attract, cliquez sur le point d'interrogation (**?**) dans le coin supérieur droit de la page.
+
+2.  Cliquez sur **A propos**.
+
+    Vous verrez les rôles dont vous disposez pour Attract dans la fenêtre qui s'affiche :
+
+    ![Afficher votre type de licence Attract](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>Rôles délégués
 
 Pour chaque mission pour laquelle ils font partie de l'équipe de recrutement, les recruteurs et responsables de recrutement peuvent indiquer un ou plusieurs délégués pour eux. Toutefois, ils ne peuvent pas indiquer des délégués pour d'autres personnes de l'équipe de recrutement.

@@ -1,30 +1,30 @@
 ---
 title: Créer, approuver et publier des missions dans Attract
 description: Cette rubrique décrit les éléments d'une mission dans Attract. Elle décrit également comment créer une mission.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772809"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969347"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Créer, approuver et publier des missions dans Attract
 
@@ -44,7 +44,7 @@ L'onglet **Détails de la mission** contient des détails sur les responsabilit�
 
 Par défaut, le champ **Nombre de postes à pourvoir** est défini sur **1**. Vous pouvez toutefois modifier la valeur. Lorsqu'une offre a été préparée pour une mission, la valeur du champ **Nombre de postes à pourvoir disponibles** est décrémentée.
 
-Si la gestion des postes a été activée dans le centre d'administration, la recherche **Mettre à jour les postes** est disponible. Cette recherche parcourt l'entité JobPosition dans Common Data Service pour les applications et retourne une liste des postes pouvant être sélectionnés pour la mission. Si le nombre de postes sélectionnés dépasse le nombre de postes à pourvoir, vous recevez un avertissement. Vous recevez également un avertissement si un poste est utilisé sur plusieurs missions.
+Si la gestion des postes a été activée dans le centre d'administration, la recherche **Mettre à jour les postes** est disponible. Cette recherche parcourt l'entité JobPosition dans Common Data Service et retourne une liste des postes pouvant être sélectionnés pour la mission. Si le nombre de postes sélectionnés dépasse le nombre de postes à pourvoir, vous recevez un avertissement. Vous recevez également un avertissement si un poste est utilisé sur plusieurs missions.
 
 > [!NOTE]
 > La gestion des postes est disponible avec le Composant additionnel de recrutement complet.
@@ -74,9 +74,7 @@ Pour plus d'informations sur les activités qui peuvent être ajoutées au proce
 
 ## <a name="postings"></a>Publications
 
-Une fois la mission activée, elle peut être publiée. Seuls les recruteurs et les administrateurs peuvent publier des tâches. La mission peut être publiée dans Carrières Talent (site de carrières de Microsoft Dynamics 365 for Talent) ou LinkedIn. 
-
-L'équipe Attract travaille continuellement pour créer des partenariats avec des agrégateurs d'offres d'emploi. Cette liste se développera au fil du temps.
+Une fois la mission activée, elle peut être publiée. Seuls les recruteurs et les administrateurs peuvent publier des tâches. La mission peut être publiée dans Carrières Talent (site de carrières de Microsoft Dynamics 365 for Talent) ou LinkedIn. L'équipe Attract travaille continuellement pour créer des partenariats avec des agrégateurs d'offres d'emploi. Cette liste se développera au fil du temps. Lorsqu'une offre d'emploi est publiée en interne seulement, les candidats ont besoin d'un compte AAD pour afficher l'offre et y postuler. Si l'offre est répertoriée comme publique, les candidats peuvent l'afficher et y postuler en utilisant toutes les options d'authentification. 
 
 Pour plus d'informations sur les publications de postes, voir [Fonctionnalité de site de carrière dans Attract](career-site.md).
 
@@ -137,9 +135,14 @@ Une fois une mission enregistrée, elle peut être soumise pour approbation. Le 
 
 Dans la liste des postes, vous pouvez filtrer les statuts des missions.
 
-Les approbations peuvent être envoyées à tous les utilisateurs de Microsoft Azure Active Directory (Azure AD) de la société. Les approbations sont envoyées simultanément à toutes les personnes qui sont répertoriées comme approbateurs. Une fois une mission approuvée, elle peut être activée.
+Les approbations peuvent être envoyées à tous les utilisateurs de Microsoft Azure Active Directory (Azure AD) de la société. Les approbations sont envoyées simultanément à toutes les personnes qui sont répertoriées comme approbateurs. Tous les approbateurs doivent approuver l'offre avant qu'elle puisse passer à l'étape suivante. Si un seul approbateur rejette l'offre d'emploi, elle affiche l'état **Rejeté**. Une fois une mission approuvée, elle peut être activée.
 
-Les personnes répertoriées comme approbateurs reçoivent une notification dans Attract pour les informer qu'ils doivent approuver un élément. Un élément d'approbation s'affiche également dans la section **Affecté à vous** sur le tableau de bord. Une fois que quelqu'un accepte ou approuve une mission, l'équipe chargée du recrutement reçoit une notification. Enfin, l'équipe chargée du recrutement reçoit une notification lorsque la mission est approuvée.
+Si un utilisateur modifie l'offre d'emploi après qu'elle a été approuvée, mais pas activée, le statut de l'offre est redéfini sur **Brouillon**, puis l'offre doit être à nouveau soumise à l'approbation. Une fois l'offre d'emploi approuvée activée, vous ne pouvez pas la modifier.
+
+Les personnes répertoriées comme approbateurs reçoivent une notification dans Attract et un e-mail pour les informer qu'elles doivent approuver un élément.  Dans l'e-mail, les approbateurs peuvent cliquer sur le lien pour ouvrir l'offre d'emploi, en examiner les détails, puis l'approuver ou la rejeter. Une fois le statut de la tâche défini sur **Approuvé** ou **Rejeté**, le soumettant en est informé dans Attract et reçoit un e-mail. En outre, les approbateurs reçoivent un e-mail de rappel s'ils n'ont pas répondu à la demande d'approbation dans les 24 heures.
+
+> [!NOTE]
+> Vous pouvez créer des modèles d'e-mail personnalisés pour les e-mails d'approbation. Pour plus d'informations, voir [Création et gestion des modèles d'e-mail](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Créer une mission
 

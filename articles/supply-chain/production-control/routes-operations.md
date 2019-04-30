@@ -3,7 +3,7 @@ title: Gammes et opérations
 description: Cette rubrique fournit des informations sur les gammes et les opérations.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333344"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850666"
 ---
 # <a name="routes-and-operations"></a>Gammes et opérations
 
@@ -57,13 +57,12 @@ Si vous activez uniquement les gammes simples dans les paramètres de contrôle 
 
 Si vous activez les réseaux de gammes plus complexes dans les paramètres de contrôle de la production, vous pouvez définir des gammes ayant plusieurs points de départ et des opérations pouvant être exécutées en parallèle.  
 
-[![Réseau de gamme](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Réseau de gammes](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Remarques :**
-
--   Chaque opération ne peut avoir qu'une opération successive, et la gamme entière doit se terminer par une seule opération.
--   Il n'est pas garanti que plusieurs opérations ayant la même opération successive (par exemple, les opérations 30 et 40 dans l'illustration précédente) seront réellement exécutées en parallèle. La disponibilité et la capacité des ressources peuvent imposer des contraintes à la planification des opérations.
--   Vous ne pouvez pas utiliser 0 (zéro) comme numéro d'opération. Ce numéro est réservé et permet d'indiquer que la dernière opération de la gamme n'a aucune opération successive.
+> [!NOTE]
+> -   Chaque opération ne peut avoir qu'une opération successive, et la gamme entière doit se terminer par une seule opération.
+> -   Cela ne garantit pas que plusieurs opérations ayant la même opération successive (par exemple, les opérations 30 et 40 dans l'illustration précédente) seront réellement exécutées en parallèle. La disponibilité et la capacité des ressources peuvent imposer des contraintes à la planification des opérations.
+> -   Vous ne pouvez pas utiliser 0 (zéro) comme numéro d'opération. Ce numéro est réservé et permet d'indiquer que la dernière opération de la gamme n'a aucune opération successive.
 
 ### <a name="parallel-operations"></a>Opérations parallèles
 
@@ -122,7 +121,8 @@ Vous pouvez également spécifier qu'une relation d'opération est spécifique �
 
 Les relations d'opération vous accordent une grande flexibilité lorsque vous définissez vos gammes. En outre, la capacité de définir propriétés par défaut permettent de réduire la quantité de données principales à maintenir. Toutefois, cette flexibilité signifie également que vous devez tenir compte du contexte dans lequel vous modifiez une relation d'opération.  
 
-**Remarque :** comme les propriétés opérationnelles sont enregistrées dans les relations d'opération par opération et par gamme, toutes les occurrences de la même opération (par exemple, l'assemblage) ont les mêmes temps de réglage, temps d'exécution, ressources nécessaires, etc. Par conséquent, si deux occurrences d'une opération doivent se produire dans la même gamme mais avoir des temps d'exécution différents, vous devez créer deux opérations distinctes, telles que Assemblage1 et Assemblage2.
+> [!NOTE]
+> Comme les propriétés opérationnelles sont enregistrées dans les relations d'opération par opération et pour chaque gamme, toutes les occurrences de la même opération (par exemple, l'assemblage) ont les mêmes temps de réglage, temps d'exécution et ressources nécessaires. Par conséquent, si deux occurrences d'une opération doivent se produire dans la même gamme mais avoir des temps d'exécution différents, vous devez créer deux opérations distinctes, telles que Assemblage1 et Assemblage2.
 
 ### <a name="modifying-product-specific-routes"></a>Modifier les gammes spécifiques à un produit
 
@@ -132,7 +132,8 @@ Dans la page **Gamme**, vous pouvez modifier les propriétés opérationnelles d
 
 Vous pouvez également créer manuellement une opération spécifique à une gamme et à un produit lancé en utilisant la fonction **Copier et modifier la relation**.  
 
-**Remarque :** si vous ajoutez une opération à une gamme dans la page **Gamme**, une relation d'opération est créée uniquement pour le produit lancé actuel. Par conséquent, si la gamme est également utilisée pour fabriquer d'autres produits lancés, aucune relation d'opération applicable n'existera pour ces produits lancés, et la gamme ne pourra plus être utilisée pour ces produits lancés.
+> [!NOTE]
+> Si vous ajoutez une opération à une gamme dans la page **Gamme**, une relation d'opération est créée uniquement pour le produit lancé actuel. Par conséquent, si la gamme est également utilisée pour fabriquer d'autres produits lancés, aucune relation d'opération applicable n'existera pour ces produits lancés, et la gamme ne pourra plus être utilisée pour ces produits lancés.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Conservation des relations d'opération par gamme
 
@@ -228,17 +229,32 @@ Si vous ne spécifiez pas de ressource opérationnelle ou de groupe de ressource
 -   **Lot** – Une capacité de lot est calculée à l'aide des informations issues de la relation d'opération. Le nombre de lots et, par conséquent, le temps d'exécution, peuvent ensuite être calculés en fonction de la quantité de la commande.
 -   **Lot de ressource** – Cette option est fondamentalement la même que l'option **Lot**. Toutefois, le calcul comprend le champ **Capacité de lot** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources.
 
+### <a name="set-up-route-groups"></a>Paramétrer des groupes de gammes
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+Vous pouvez définir des groupes de gammes et le paramétrage pour ces types de gamme ou de tâche sous **Contrôle de la production > Paramétrage > Gammes > Groupes de gammes**. Pour chaque type de gamme/tâche dans le groupe de gammes, vous pouvez activer ou désactiver les options suivantes :
 
-[Nomenclatures et formules](bill-of-material-bom.md)
+- **Activation** : sélectionnez cette option pour activer les calculs et la planification du type de tâche sélectionné et de recevoir des commentaires sur les tâches lorsque vous exécutez la planification des tâches. Vous devez sélectionner cette option pour activer le type de tâche, puis sélectionner le reste des options pour ce type de tâche. Si l'activation n'est pas sélectionnée, ce type de tâche n'est pas activé, indépendamment de la sélection des autres options. 
+- **Gestion des tâches** : sélectionnez cette option pour inclure le type de tâche dans la gestion des tâches lorsque vous exécutez la planification des tâches. 
+- **Temps de travail** : sélectionnez cette option pour planifier le type de tâche en fonction du calendrier du temps de travail défini pour la ressource opérationnelle. Sinon, le calendrier grégorien est sélectionné. Le temps de travail peut être planifié selon le calendrier grégorien ou le calendrier du temps de travail défini. Si vous sélectionnez cette option, la planification est basée sur le calendrier du temps de travail défini. En outre, la tâche du type de tâche est planifiée à partir minuit à la date définie comme date de début de la tâche.
+- **Capacité** : sélectionnez cette option pour réserver la capacité pour le type de tâche lorsque vous exécutez la planification des tâches. So vous sélectionnez cette option, la capacité est réservée lorsque vous exécutez la planification pour le type de tâche sélectionné. Cela donne une vue d'ensemble des types de tâches dans chaque groupe de gammes qui utilisent les ressources opérationnelles. Par exemple, dans une situation dans laquelle les ressources de séchage sont des ressources critiques (goulot d'étranglement), ces ressources doivent être spécifiées comme critiques. Les opérations de séchage affectées aux types de tâches de temps d'attente réserveront les ressources de séchage. 
 
-[Catégories de coûts utilisées dans les gammes de production](../cost-management/cost-categories-used-production-routings.md)
+Pour chacun des types de tâches, vous devez déabord l'activer ou le désactiver. Lorsqu'il est désactivé, aucun des autres paramétrages (gestion des tâches, temps de travail et capacité) ne sera pris en compte, car le type de tâche n'est pas actif. 
 
-[Capacités de ressources](resource-capabilities.md)
+Parmi les types de tâches, vous trouvez le Chevauchement. Le chevauchement permet de réaliser simultanément différentes tâches. Lorsque les tâches se chevauchent, les ressources peuvent être utilisées mais ne peuvent pas être réservées pour des tâches spécifiques.
+Par conséquent, lorsque l'activation est activée pour le chevauchement, le reste des paramètres (gestion des tâches, temps de travail et capacité) n'ont aucun impact sur le groupe de gammes. 
 
-[Vue d'ensemble de la signature électronique](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Lorsque vous mettez des versions à niveau, vous pouvez rencontrer l'erreur suivante : **Une erreur CLR s'est produite lors de l'appel du moteur de planification**. Si vous recevez cette erreur, accédez à la page **Groupes de gammes** et, pour toutes les gammes pour lesquelles vous avez activé le **Chevauchement**, désactivez les options **Gestion des tâches**, **Temps de travail** et **Capacité**. 
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Nomenclatures et formules](bill-of-material-bom.md)
+
+- [Catégories de coûts utilisées dans les gammes de production](../cost-management/cost-categories-used-production-routings.md)
+
+- [Capacités de ressources](resource-capabilities.md)
+
+- [Vue d'ensemble de la signature électronique](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

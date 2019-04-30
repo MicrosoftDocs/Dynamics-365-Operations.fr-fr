@@ -3,7 +3,7 @@ title: Synchroniser les informations sur le niveau de stock entre Finance and Op
 description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les informations au niveau du stock depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356781"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842554"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Synchroniser les informations sur le niveau de stock entre Finance and Operations et Field Service 
 
@@ -38,14 +38,14 @@ Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pou
 Le modèle suivant et les tâches sous-jacentes sont utilisées pour exécuter la synchronisation aux niveaux du stock disponible de Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
 
 **Modèle dans l'intégration de données**
-- Produit de stock (Finance and Operations vers Field Service)
+- Stock produit (Fin and Ops vers Field Service)
   
 **Tâche du projet d'intégration des données**
 - Produit de stock
 
 Les tâches de synchronisation suivantes sont requises avant que la synchronisation des niveaux de stock puisse avoir lieu :
-- Entrepôts (Finance and Operations vers Field Service) 
-- Produits Field Service avec l'unité de stock (Finance and Operations vers Sales) 
+- Entrepôts (Fin and Ops vers Field Service) 
+- Produits Field Service avec unité de stock (Fin and Ops vers Sales) 
 
 ## <a name="entity-set"></a>Ensemble d'entités
 
@@ -80,6 +80,6 @@ Vous pouvez appliquer des filtres avec Requête et filtrage avancés afin de con
 
 ## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Produit de stock (Finance and Operations vers Field Service) : Produit de stock
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Stock produit (Fin and Ops vers Field Service) : Stock produit
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

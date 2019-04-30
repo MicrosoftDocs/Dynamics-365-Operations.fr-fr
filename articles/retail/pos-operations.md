@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353814"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842720"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -93,7 +93,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 614 | Modifier la commande client | Permet de rappeler la commande sélectionnée afin qu'elle puisse être modifiée dans le PDV. | N° | N° | N° | N° | N° |
 | 615 | Modifier le devis | Permet de rappeler le devis sélectionné afin qu'il puisse être modifié dans le PDV. | N° | N° | N° | N° | N° |
 | 518 | Comptes de dépenses | Permet d'enregistrer la somme d'argent retirée du tiroir-caisse pour des dépenses occasionnelles. | Oui | Oui | Oui | Oui | N° |
-| 919 | Connexion étendue | Permet d'affecter ou de supprimer l'autorisation de se connecter via la lecture d'un code-barres ou le passage d'une carte. | Oui | Oui | Oui | N° | N° |
+| 919 | Connexion étendue | Permet d'affecter ou de supprimer l'autorisation de se connecter via la lecture d'un code-barres ou le passage d'une carte. | Oui | Oui | Oui | Oui | Non |
 | 1201 | Entrée de fond de caisse | Cette opération permet à l'utilisateur d'ajouter de l'argent supplémentaire pour le tiroir-caisse ou à l'équipe actuels. | Oui | Oui | Oui | Oui | N° |
 | 1 218 | Forcer le déverrouillage du périphérique | Le système utilise cette opération en interne pour déverrouiller les périphériques du PDV. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
 | 520 | Solde de la carte cadeau | Permet d'afficher le solde d'une carte cadeau. | Oui | Oui | N° | N° | N° |

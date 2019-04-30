@@ -3,7 +3,7 @@ title: Fonctions supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer.
 author: sericks007
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836346"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992881"
 ---
 # <a name="removed-or-deprecated-features"></a>Fonctions supprimées ou déconseillées
 
@@ -41,45 +41,114 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 > [!NOTE]
 > Des informations détaillées sur les objets dans Finance and Operations peuvent être consultés dans les [États de référence technique](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version de Finance and Operations.
 
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 avec Platform update 26
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.2 avec Platform Update 26 est disponible pour des utilisateurs ciblés dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour plus d'informations sur les préversions, voir [Disponibilité des mises à jour de service](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-default-action-behavior"></a>Comportement hérité des actions par défaut
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Le comportement hérité pour les actions par défaut dans les grilles a pour effet qu'une colonne inattendue comporte le lien d'action par défaut après la réorganisation des colonnes de grille suite à la personnalisation. La nouvelle fonctionnalité d'action par défaut rémanente corrige ce problème. Pour plus de détails, voir [Actions par défaut rémanentes dans les grilles](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Remplacé par une autre fonctionnalité ?**   | À compter de Platform update 21, la fonctionnalité des « actions par défaut rémanentes » a été introduite. Cette fonction peut être activée dans la page **Options de performances du client**. |
+| **Zones de produit affectées**         | Grilles dans le client Web |
+| **Option de déploiement**              | Tous |
+| **État**                         | Obsolète : à compter d'avril 2020, les actions par défaut rémanentes sont le comportement par défaut, sans mécanisme de rétablissement au comportement antérieur. |
+
+### <a name="legacy-is-one-of-filtering-experience"></a>L'ancien comportement est l'expérience de filtrage « est l'un de »
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | L'expérience de filtrage « Est l'un de » a subi une refonte dans la Platform update 22. Le projet est qu'elle soit finalement la seule expérience de filtrage « Est l'un de ». |
+| **Remplacé par une autre fonctionnalité ?**   | Depuis la Platform update 22, une expérience améliorée Platform update 22 est disponible dans la page **Options de performances du client**. Pour plus d'informations, voir [Optimisation de l'expérience de filtrage « Est l'un de »](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Zones de produit affectées**         | Client Web |
+| **Option de déploiement**              | Tous |
+| **État**                         | Obsolète : à compter d'avril 2020, l'expérience de filtrage « Est l'un de » améliorée est le comportement par défaut, sans mécanisme de rétablissement au comportement antérieur. |
+
+### <a name="deriving-from-internal-classes-is-deprecated"></a>Abandon de la dérivation depuis les classes internes
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de créer une classe ou une table à partir d'une classe/d'une table interne définie dans un autre package/module. Cela n'est pas une pratique de codage sûre. À partir de Platform update 25, le compilateur affiche un avertissement. |
+| **Remplacé par une autre fonctionnalité ?**   | L'avertissement du compilateur sera remplacé par une erreur dans Platform update 26. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, Platform Update 25 ou une version ultérieure peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation.|
+| **Zones de produit affectées**         | Outils de développement Visual Studio |
+| **Option de déploiement**              | Tous |
+| **État**                         | Obsolète : l'avertissement devient une erreur de compilation dans Platform update 26. |
+
+### <a name="overriding-internal-methods-is-deprecated"></a>Abandon des modes internes de remplacement
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de remplacer une méthode interne dans une classe dérivée définie dans un autre package/module. Cela n'est pas une pratique de codage sûre. À partir de Platform update 25, le compilateur affiche un avertissement. |
+| **Remplacé par une autre fonctionnalité ?**   | Cet avertissement sera remplacé par une erreur de compilation dans Platform Update 26. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, Platform Update 25 ou une version ultérieure peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation. |
+| **Zones de produit affectées**         | Outils de développement Visual Studio |
+| **Option de déploiement**              | Tous |
+| **État**                         | Obsolète : l'avertissement devient une erreur de compilation dans Platform update 26. |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Paramètre pour activer les commandes client avec plusieurs sources de financement de contrat de projet
+La prise en charge de la création de commandes client basées sur le projet où le projet inclut plusieurs sources de financement est activée à l'aide du paramètre **Paramètres de gestion de projets** défini sur **Autoriser les commandes client pour les projets avec plusieurs sources de financement**. Par défaut, ce paramètre n'est pas activé. 
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | La fonctionnalité demeure activée après la suppression du paramètre. |
+| **Remplacé par une autre fonctionnalité ?**   | N° La fonctionnalité de prise en charge des commandes client basée sur un projet avec plusieurs sources de financement sera toujours activée.   |
+| **Zones de produit affectées**         |Le paramètre **Autoriser les commandes client pour les projets avec plusieurs sources de financement** sera supprimé. Les méthodes suivantes seront modifiées lorsque le paramètre sera supprimé : méthode **ctrlSalesOrderTable** dans la classe **ProjStatusType**, méthode **validate** pour le champ **ProjId**, et méthode **run** dans l'écran **SalescreateOrder**. Les méthodes suivantes seront abandonnées lorsque le paramètre sera supprimé : **IsSalesOrderAllowedForMultipleFundingSources** dans le fichier de table **ProjTable**, méthode **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** dans le fichier de table **ProjTable**, champ de données **AllowSalesOrdersForMultipleFundingSources** dans l'écran **ProjParameters** et les fichiers **ProjParameterEntity**, méthode privée **IsAssociatedToMultipleFundingSourcesContract** dans le fichier de table **ProjTable**. |
+| **Option de déploiement**              | Tous  |
+| **État**                         | L'abandon est prévu pour la vague de publication d'avril 2020. |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>États de workflow hérités pour le statut du suivi et des instances
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Les états de workflow hérités pour le statut du suivi et des instances sont obsolètes car ils ne sont plus référencés dans la navigation. Les noms d'état sont WorkflowWorkflowInstanceByStatusReport et WorkflowWorkflowTrackingReport. |
+| **Remplacé par une autre fonctionnalité ?**   | L'écran Historique du workflow peut être utilisé à la place. |
+| **Zones de produit affectées**         | Client Web |
+| **Option de déploiement**              | Tous |
+| **État**                         | Obsolète : le délai cible pour la suppression de la fonctionnalité est avril 2020. |
+
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 avec platform update 25
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 avec Platform Update 25 est disponible pour des utilisateurs ciblés dans le cadre d'une préversion. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour plus d'informations sur les préversions, voir [Mises à jour de service pour la version standard et la première version](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> Dynamics 365 for Finance and Operations 10.0.1 avec Platform Update 25 est disponible pour des utilisateurs ciblés dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour plus d'informations sur les préversions, voir [Disponibilité des mises à jour de service](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>API obsolètes et dernières modifications potentielles
+
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Abandon de la dérivation depuis les classes internes
 
 |   |  |
 |------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de créer une classe ou une table à partir d'une classe/d'une table interne définie dans un autre pack/module. Cela n'est pas une pratique de codage sûre. Depuis Platform Update 25, le compilateur affiche un message d'avertissement si vous essayez de ce faire.|
-| **Remplacé par une autre fonctionnalité ?**   | L'avertissement du compilateur sera remplacé par une erreur dans une prochaine mise à jour de la plateforme. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, si vous exécutez Platform Update 25 ou version ultérieure, elle peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation. |
-| **Zones de produit affectées**         | Outils de développement Visual Studio. |
+| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de créer une classe ou une table à partir d'une classe/d'une table interne définie dans un autre package/module. Cela n'est pas une pratique de codage sûre. À partir de Platform update 25, le compilateur affiche un avertissement. |
+| **Remplacé par une autre fonctionnalité ?**   | L'avertissement du compilateur sera remplacé par une erreur dans Platform update 26. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, Platform Update 25 ou une version ultérieure peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation.|
+| **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tous |
-| **État**                         | Abandonné - L'avertissement devient une erreur de compilation dans une mise à jour prochaine de la plateforme. |
+| **État**                         | Obsolète : l'avertissement devient une erreur de compilation dans Platform update 26. |
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Abandon des modes internes de remplacement
 
 |   |  |
 |------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de remplacer une méthode interne dans une classe dérivée définie dans un autre pack/module. Cela n'est pas une pratique de codage sûre. Depuis Platform Update 25, le compilateur affiche un message d'avertissement si vous essayez de ce faire.|
-| **Remplacé par une autre fonctionnalité ?**   | Cet avertissement sera remplacé par une erreur de compilation dans une prochaine mise à jour de la plateforme. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, si vous exécutez Platform Update 25 ou version ultérieure, elle peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation. |
-| **Zones de produit affectées**         | Outils de développement Visual Studio. |
+| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de remplacer une méthode interne dans une classe dérivée définie dans un autre package/module. Cela n'est pas une pratique de codage sûre. À partir de Platform update 25, le compilateur affiche un avertissement. |
+| **Remplacé par une autre fonctionnalité ?**   | Cet avertissement sera remplacé par une erreur de compilation dans Platform Update 26. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, Platform Update 25 ou une version ultérieure peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation. |
+| **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tous |
-| **État**                         | Abandonné - L'avertissement devient une erreur de compilation dans une mise à jour prochaine de la plateforme. |
+| **État**                         | Obsolète : l'avertissement devient une erreur de compilation dans Platform update 26. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 avec platform update 23
 
-### <a name="print-to-screen-functionality"></a>Fonctionnalité d'impression écran
-Les clients peuvent utiliser l'action **Importer** proposée par le contrôle de la visionneuse des états pour télécharger les documents produits par les applications Finance and Operations. Cette présentation basée sur HTML de l'état offre aux utilisateurs un aperçu non paginé du document.
+### <a name="sql-server-reporting-services-reportviewer-control"></a>Contrôle ReportViewer des états SQL Server Reporting Services
+Les clients peuvent utiliser l'action **Exporter** proposée par le contrôle intégré ReportViewer des états SQL Server Reporting Services (SSRS) pour télécharger les documents produits par les applications Finance and Operations. Cette présentation basée sur HTML de l'état offre aux utilisateurs un aperçu non paginé du document.
 
 |   |  |
 |------------|--------------------|
-| **Motif de l'abandon/de la suppression** | La nature non paginée de l'expérience d'aperçu HTML n'offre **pas** une fidélité par rapport aux documents physiques finalement produits par Finance and Operations. En adoptant intégralement le format PDF en standard pour les opérations métier, nous sommes en mesure de simplifier considérablement les options des utilisateurs pour interagir avec les états d'application et rationaliser les processus de rendu des documents. |
+| **Motif de l'abandon/de la suppression** | La nature non paginée de l'expérience d'aperçu HTML n'offre **pas** une fidélité par rapport aux documents physiques finalement produits par Finance and Operations. Comme le format PDF est entièrement pris en charge comme format standard des documents commerciaux, les utilisateurs peuvent bénéficier d'une expérience de visualisation moderne avec de meilleurs performances lors de la générations d'états d'application. |
 | **Remplacé par une autre fonctionnalité ?**   | De même, le format PDF des documents est le format par défaut pour les états rendus par Finance and Operations.   |
 | **Zones de produit affectées**         | Cette modification n'a **pas** d'impact sur les scénarios clients où les états sont distribués de manière électronique ou envoyés directement vers les imprimantes.    |
 | **Option de déploiement**              | Tous  |
-| **État**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction. La fonctionnalité pour télécharger automatiquement les états d'application vers le navigateur comme documents PDF est prévue pour Platform Update de mai 2019. <br><br>**Important :** Les clients existants qui comptent sur la fonction Impression écran sont invités à prévenir le  [Support](../lifecycle-services/lcs-support.md) en amont de la mise à niveau vers Platform Update 26. |
+| **État**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction. La fonctionnalité de prévisualisation automatique des états d'application à l'aide d'une visionneuse PDF intégrée est prévue pour Platform Update de mai 2019. |
 
 ### <a name="client-kpi-controls"></a>Contrôles KPI client
 Les indicateurs de performance clé intégrés (KPI) peuvent être modélisés dans Visual Studio par un développeur et personnalisés davantage par l'utilisateur final.
@@ -102,7 +171,7 @@ Les indicateurs de performance clé intégrés (KPI) peuvent être modélisés d
 | **Remplacé par une autre fonctionnalité ?**   | Cet avertissement du compilateur sera remplacé par une erreur de compilation dans une prochaine version.  |
 | **Zones de produit affectées**         | Outils de développement Visual Studio. |
 | **Option de déploiement**              | Tout. |
-| **État**                         | Abandonné - L'avertissement va devenir une erreur du temps de compilation dans une prochaine version. Actuellement, nous visons Platform Update 30. |
+| **État**                         | Obsolète : l'avertissement deviendra une erreur de compilation dans une prochaine version. Actuellement, nous visons Platform Update 30. |
 
 #### <a name="complete-list"></a>Liste complète
 Pour accéder à la liste complète des API en cours d'abandon, voir [Abandon des méthodes et des éléments de métadonnées](deprecation-deletion-apis.md).
@@ -110,7 +179,7 @@ Pour accéder à la liste complète des API en cours d'abandon, voir [Abandon de
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 avec platform update 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Règles de transfert par lots des écritures de compte de journal de comptabilité auxiliaire
-Le mode de transfert synchrone n'est plus utilisé dans les paramètres de comptabilité.  Ce mode est remplacé par le mode asynchrone et le traitement par lots planifié uniquement, qui existent déjà comme options de transfert. 
+Le mode de transfert synchrone n'est plus utilisé dans les paramètres de comptabilité.  Ce mode est remplacé par le mode asynchrone et le traitement par lots planifié uniquement, qui existent déjà comme options de transfert. Pour plus de détails, voir le blog [Paramètres de comptabilité – Règles de transfert des traitements par lots](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
 
 |   |  |
 |------------|--------------------|
@@ -172,7 +241,7 @@ Aucune fonctionnalité n'a été supprimée ou rendue obsolète avec cette versi
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 avec platform update 12
 
 ### <a name="personalized-product-recommendations"></a>Recommandations de produit personnalisées 
-À compter du 15 février 2018, les détaillants ne pourront plus afficher des recommandations de produits personnalisées sur un appareil de point de vente (PDV). Pour plus d'informations, voir [Recommandations produit personnalisées](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+À compter du 15 février 2018, les détaillants ne pourront plus afficher des recommandations de produits personnalisées sur un appareil de point de vente (PDV). Pour plus d'informations, voir [Recommandations produit personnalisées](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -277,7 +346,7 @@ Les utilisateurs peuvent le télécharger à partir du portail gouvernemental.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Recommandations de produit personnalisées 
-À compter du 15 février 2018, les détaillants ne pourront plus afficher des recommandations de produits personnalisées sur un appareil de point de vente (PDV). Pour plus d'informations, voir [Recommandations produit personnalisées](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+À compter du 15 février 2018, les détaillants ne pourront plus afficher des recommandations de produits personnalisées sur un appareil de point de vente (PDV). Pour plus d'informations, voir [Recommandations produit personnalisées](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -309,7 +378,7 @@ Le Portail des appareils mobiles d'entrepôt (WMDP) est un composant autonome qu
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Fonction doublon.       |
-| **Remplacé par une autre fonctionnalité ?**   | Oui. Cette fonction a été remplacée par Finance and Operations - entreposant. Pour plus d'informations sur le paramétrage et les conditions préalables, voir [Installation et configuration de Microsoft Dynamics 365 for Finance and Operations - Entreposage](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. Cette fonction a été remplacée par Finance and Operations - entreposant. Pour plus d'informations sur le paramétrage et les conditions préalables, voir [Installation et configuration de Microsoft Dynamics 365 for Finance and Operations - Entreposage](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Zones de produit affectées**         | Gestion des entrepôts, Gestion du transport     |
 | **Option de déploiement**              | Le Portail des appareils mobiles d'entrepôt (WMDP) est un composant autonome qui a été prévu pour l'auto-déploiement local.               |
 | **Statut**                         | Obsolète : le délai cible pour la suppression de la fonctionnalité est le quatrième trimestre 2019.   |
@@ -686,7 +755,18 @@ Dans l'environnement d'intégration applicative (AIF), les données peuvent êtr
 | **Motif de l'abandon/de la suppression** | L'architecture d'AIF et d'AxDs ne pouvait pas être mise à l'échelle vers un service cloud. Il y avait des problèmes de performances avec l'importation en bloc.                                        |
 | **Remplacé par une autre fonctionnalité ?**   | Cette fonctionnalité est remplacée par l'environnement d'importation/exportation des données, qui prend en charge l'importation/exportation en bloc récurrente. Pour AxBC, il est recommandé d'utiliser les tables réelles. |
 | **Zones de produit affectées**         | AxDs, AxBCs et AIF   |
-| **Statut**                         | Supprimé à partir de Dynamics AX 7.0.   |
+| **État**                         | Supprimé à partir de Dynamics AX 7.0.   |
+
+### <a name="billing-code-rate-scripts"></a>Scripts de taux des codes de facturation
+
+Les scripts de facturation étaient utilisés pour calculer les taux de facturation pour les codes de facturation. Ces scripts nécessitaient un développement personnalisé dans le langage de programmation C# ou Visual Basic. Dans la version actuelle de Dynamics AX, les **scripts de taux des code de facturation** ne sont pas pris en charge.
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | La prise en charge des scripts C# ou Visual Basic n'a pas été ajoutée dans Dynamics AX 7.0. |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                                                                      |
+| **Zones de produit affectées**         | Secteur public, Comptabilité client                                    |
+| **État**                         | Supprimé à partir de Dynamics AX 7.0.                                                          |
 
 ### <a name="boms-without-bom-versions"></a>Nomenclatures sans versions de nomenclature
 
@@ -836,7 +916,7 @@ Les partitions de données fournissent une séparation logique des données dans
 
 |   |  |
 |------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Les partitions de données ont été introduites dans Microsoft Dynamics AX 2012 R2 pour permettre l'isolement des données. Dans un scénario courant, une société possède des filiales, et les données d’une filiale ne doivent pas être visibles d'une autre filiale, même si les deux filiales sont gérés par le même service informatique. Toutefois, des scripts supplémentaires et du temps système de gestion tout au long du programme ont été requis afin de créer des partitions et de les remplir avec des données et pour sauvegarder les données de la partition. Dans le cloud, sur lequel nous avons accès aux services de base de données PaaS (Platform as a Service) (base de données Microsoft Azure SQL), il est beaucoup plus efficace d’utiliser une base de données en tant que conteneur d’isolation que de faire de l’isolation dans le programme. Même si le partitionnement des données est requis pour les filiales, pour plusieurs locataires ou juste pour une mise à l'échelle, nous pensons que les scénarios peuvent être mieux gérés par l’intermédiaire de plusieurs instances de Finance and Operations. |
+| **Motif de l'abandon/de la suppression** | Les partitions de données ont été introduites dans Microsoft Dynamics AX 2012 R2 pour permettre l'isolement des données. Dans un scénario courant, une société possède des filiales, et les données d'une filiale ne doivent pas être visibles d'une autre filiale, même si les deux filiales sont gérés par le même service informatique. Toutefois, des scripts supplémentaires et du temps système de gestion tout au long du programme ont été requis afin de créer des partitions et de les remplir avec des données et pour sauvegarder les données de la partition. Dans le cloud, sur lequel nous avons accès aux services de base de données PaaS (Platform as a Service) (base de données Microsoft Azure SQL), il est beaucoup plus efficace d'utiliser une base de données en tant que conteneur d'isolation que de faire de l'isolation dans le programme. Même si le partitionnement des données est requis pour les filiales, pour plusieurs locataires ou juste pour une mise à l'échelle, nous pensons que les scénarios peuvent être mieux gérés par l'intermédiaire de plusieurs instances de Finance and Operations. |
 | **Remplacé par une autre fonctionnalité ?**   | Les clients qui utilisent les partitions de données doivent utiliser plusieurs instances de Finance and Operations si la séparation au niveau de la base de données est un problème critique.    |
 | **Zones de produit affectées**         | Tous les modules  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.  |
@@ -1068,7 +1148,7 @@ Le configurateur était utilisé pour la configuration dynamique d'articles à p
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Le configurateur exposait du code X++ aux utilisateurs finaux et il n'est pas pris en charge dans la version actuelle de Dynamics AX. Il a été supprimé pour éviter les efforts de maintenance en double en matière de chevauchement et de codebases importants.  |
-| **Remplacé par une autre fonctionnalité ?**   | Oui. La configuration basée sur les contraintes a été introduite dans Dynamics AX 2012 où l'abandon du configurateur dans les prochaines versions était déjà annoncé. La technologie de configuration basée sur les contraintes est sélectionnée sur les produits génériques pour activer la configuration. Pour en savoir plus, voir [Créer un modèle de configuration de produit](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. La configuration basée sur les contraintes a été introduite dans Dynamics AX 2012 où l'abandon du configurateur dans les prochaines versions était déjà annoncé. La technologie de configuration basée sur les contraintes est sélectionnée sur les produits génériques pour activer la configuration. Pour en savoir plus, voir [Créer un modèle de configuration de produit](../../supply-chain/pim/build-product-configuration-model.md). |
 | **Zones de produit affectées**         | Gestion d'informations sur les produits, Ventes et marketing  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.      |
 

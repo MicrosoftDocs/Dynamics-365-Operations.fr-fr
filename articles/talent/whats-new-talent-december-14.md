@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304294"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949849"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (14 décembre 2018)
 
@@ -65,7 +65,7 @@ Avec cette modification, les jours intercalaires sont maintenant pris en charge 
 
 ### <a name="integration-between-core-hr-and-attract"></a>Intégration entre Core HR et Attract
 
-Une modification a été apportée pour mettre à jour l'intégration entre Core HR et Attract concernant les candidats à embaucher. Pour que les candidats à embaucher soient visibles dans l'espace de travail **Gestion du personnel**, les entités CDS pour les applications (CDS 2.0) suivantes sont utilisés :
+Une modification a été apportée pour mettre à jour l'intégration entre Core HR et Attract concernant les candidats à embaucher. Pour que les candidats à embaucher soient visibles dans l'espace de travail **Gestion du personnel**, les entités Common Data Service suivantes sont utilisés :
 
 Candidature
 - La raison du statut doit être définie sur Offre acceptée
@@ -139,7 +139,7 @@ La tâche Collaborateurs à Travail nécessite que les mises en correspondance s
 
 La transformation du champ Sexe doit également être mise à jour. Sélectionnez le type de mise en correspondance **fn** (fonction) pour Sexe et mettez à jour les mises en correspondance de valeurs suivantes.
 
-| Valeur CDS                   | Valeur Finance and Operations                     |
+| Valeur Common Data Service                   | Valeur Finance and Operations                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | Masculin                                             |
 | 75440001                    | Féminin                                           |

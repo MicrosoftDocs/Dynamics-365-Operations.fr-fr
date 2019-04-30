@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5326642553c7efcebc6c6af953e2dafe9e62e9ec
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.openlocfilehash: 2753f2828b4890d9893a1538e905bd7061e1bc33
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832193"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902888"
 ---
 # <a name="electronic-messaging"></a>Messages électroniques
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 Cette rubrique fournit des informations générales et de configuration pour la messagerie électronique dans Microsoft Dynamics 365 for Finance and Operations.
 
@@ -32,13 +33,13 @@ Récemment, les gouvernements et autorités législatives de différents pays/r�
 
 La fonctionnalité de messagerie électronique dans Finance and Operations prend en charge différents processus d'interopérabilité électronique entre Finance and Operations et les systèmes que les gouvernements et les autorités législatives offrent pour la génération d'états, la soumission, et la réception d'informations officielle.
 
-La fonctionnalité de messagerie électronique est intégrée au module **États électroniques** (ER). Par conséquent, vous pouvez paramétrer des formats d'ER pour les messageries électroniques. Pour plus d'informations, voir [États électroniques (ER)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+La fonctionnalité de messagerie électronique est intégrée au module **États électroniques** (ER). Par conséquent, vous pouvez paramétrer des formats d'ER pour les messageries électroniques. Pour plus d'informations, voir [États électroniques (ER)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 La messagerie électronique est basée sur les entités suivantes :
 
 - **Message électronique** : État ou déclaration qui doit être déclaré et/ou transmis en interne. Par exemple, un état transmis à un centre des impôts.
 - **Éléments de messagerie électronique** : Enregistrements à inclure dans le message qui est déclaré.
-- **Traitement de message électronique** : Chaîne d'actions, liées ou non, qui doivent être effectuées pour collecter les données nécessaires, générer des états, stocker des données dans le stockage d'objet blob Microsoft Azure, transmettre des états en dehors du système, obtenir des réponses en dehors du système, et mettre à jour la base de données, selon les informations reçues.
+- **Traitement de message électronique** : chaîne d'actions qui doivent être effectuées pour collecter les données nécessaires, générer des états, stocker des données dans le stockage d'objet blob Microsoft Azure, transmettre des états en dehors du système, recevoir des réponses extérieures au système et mettre à jour la base de données. Les actions de la chaîne peuvent être liées ou non.
 
 L'illustration suivante présente le flux des données pour la messagerie électronique.
 
@@ -46,22 +47,22 @@ L'illustration suivante présente le flux des données pour la messagerie élect
 
 La fonctionnalité de message électronique prend en charge les scénarios suivants :
 
-- Créez des messages et générez des états manuellement qui sont basées sur des formats d'exportation d'ER de différents types : Microsoft Excel, XML, JSON (JavaScript Object Notation), PDF, Texte et Microsoft Word.
-- Créez et traitez automatiquement les messages qui sont basées sur les informations demandées et obtenues depuis une autorité via un format d'ER d'importation associé.
-- Collectez et traitez les informations d'une source de données (table Finance and Operations) comme des éléments du message.
+- Créez des messages et générez manuellement des états qui sont basés sur des formats d'exportation d'ER de différents types : Microsoft Excel, XML, JSON (JavaScript Object Notation), PDF, Texte et Microsoft Word.
+- Créez et traitez automatiquement les messages qui sont basées sur les informations demandées et reçues depuis une autorité via un format d'ER d'importation associé.
+- Collectez et traitez les informations d'une source de données comme des éléments du message. La source de données est une table Finance and Operations.
 - Stockez des informations supplémentaires, et évaluez différentes valeurs en appelant des classes exécutables définies spécifiquement concernant les messages ou les éléments du message.
 - Regroupez les informations collectées dans les éléments de message, répartissez les informations par message, et générez des états dans des formats d'ER d'exportation associés.
 - Transmettez les états générés à un service Web à l'aide des informations de sécurité stockées dans Azure Key Vault.
-- Obtenez une réponse d'un service Web, interprétez la réponse, et mettez à jour les données dans Finance and Operations au besoin.
+- Recevez une réponse d'un service Web, interprétez la réponse, et mettez à jour les données dans Finance and Operations au besoin.
 - Stockez et vérifiez tous les états générés.
 - Stockez et vérifiez toutes les informations de journal associées aux actions exécutées pour un message ou un élément du message.
 - Contrôlez le traitement par l'intermédiaire de différents statuts de message et statuts d'élément du message.
 
 ## <a name="set-up-electronic-messaging"></a>Paramétrage d'une messagerie électronique
 
-La messagerie électronique peut vous aider à gérer différents processus de génération d'états électroniques pour chaque type de document. Dans certains scénarios complexes, la messagerie électronique est paramétrée pour avoir une combinaison de nombreux statuts de message, de statuts d'éléments de message, d'actions, de champs supplémentaires, et de classes exécutables. Pour ces scénarios, les packages d'entités de données sont disponibles pour l'importation. Si vous utilisez ces packages d'entité de données, vous devez les importer dans une entité juridique à l'aide de l'outil de gestion des données. Pour plus d'informations sur l'utilisation de l'outil de gestion de données, voir [Gestion des données](../../dev-itpro/data-entities/data-entities-data-packages.md).
+La messagerie électronique peut vous aider à gérer différents processus de génération d'états électroniques pour chaque type de document. Dans certains scénarios complexes, la messagerie électronique est paramétrée de manière à avoir une combinaison de nombreux statuts de message, de statuts d'éléments de message, d'actions, de champs supplémentaires, et de classes exécutables. Pour ces scénarios, les packages d'entités de données sont disponibles pour l'importation. Si vous utilisez ces packages d'entité de données, vous devez les importer dans une entité juridique à l'aide de l'outil de gestion des données. Pour plus d'informations sur l'utilisation de l'outil de gestion de données, voir [Gestion des données](../../dev-itpro/data-entities/data-entities-data-packages.md).
 
-Si vous n'importez pas un packages d'entité de données, vous pouvez paramétrer manuellement la fonctionnalité de messages électroniques. Dans ce cas, vous devez paramétrer les éléments suivants : 
+Si vous n'importez pas un packages d'entité de données, vous pouvez paramétrer manuellement la fonctionnalité de messages électroniques. Dans ce cas, vous devez paramétrer les éléments suivants :
 
 - [Souches de numéros](#number-sequences)
 - [Types et statuts d'élément du message](#message-item-types-and-statuses)
@@ -78,7 +79,7 @@ Les sections suivantes fournissent des informations supplémentaires sur chacun 
 
 ### <a name="number-sequences"></a>Souches de numéros
 
-Paramétrez les souches de numéros pour les messages et les éléments de message. Les souches de numéros sont utilisées pour compter automatiquement les messages et les éléments de message, et les numéros affectés sont utilisés comme identificateurs uniques pour les messages et éléments de message dans le système. Vous pouvez paramétrer des souches de numéros pour la messagerie électronique sur la page **Paramètres de comptabilité** (**Comptabilité générale** \> **Paramétrage de la comptabilité** \> **Paramètres de comptabilité**).
+Paramétrez les souches de numéros pour les messages et les éléments de message. Les souches de numéros sont utilisées pour numéroter automatiquement les messages et les éléments de message. Les numéros affectés sont utilisés comme identificateurs uniques pour les messages et éléments de message dans le système. Vous pouvez paramétrer des souches de numéros pour la messagerie électronique sur la page **Paramètres de comptabilité** (**Comptabilité générale** \> **Paramétrage de la comptabilité** \> **Paramètres de comptabilité**).
 
 ### <a name="message-item-types-and-statuses"></a>Types et statuts d'élément du message
 
@@ -86,49 +87,49 @@ Les types d'éléments du message identifient les types d'enregistrements utilis
 
 Les statuts d'élément de message identifient les statuts qui s'appliquent aux éléments du message dans le traitement que vous paramétrez. Vous pouvez paramétrer les types d'éléments de message sur la page **Statuts d'éléments de message** (**Taxe** \> **Paramétrage** \> **Messageries électroniques** \> **Statuts d'élément de message**).
 
-Le paramètre **Autoriser la suppression** d'un statut d'élément de message définit si l'utilisateur est autorisé à supprimer un élément de message dans ce statut via l'écran **Messages électroniques** ou **Éléments du message électronique**. 
+Le paramètre **Autoriser la suppression** d'un statut d'élément de message définit si les utilisateurs peuvent supprimer des éléments de message ayant ce statut dans la page **Messages électroniques** ou **Éléments du message électronique**.
 
 ### <a name="message-statuses"></a>Statuts du message
 
 Paramétrez les statuts du message qui doivent être disponibles dans le traitement des messages. Vous pouvez paramétrer les statuts d'éléments de message sur la page **Statuts du message** (**Taxe** \> **Paramétrage** \> **Messageries électroniques** \> **Statuts du message**).
 
-Description des champs :
+Le tableau suivant décrit les champs de la page **Statuts du message**.
 
-| Nom du champ           | Description |
-|----------------------|-------------|
-|Statut du message        | Nom unique d'un statut de message électronique qui caractérise l'état d'un message de manière très précise en termes de temps. Ce nom s'affiche dans un écran Messages électroniques et dans un journal associé au message électronique. |
-|Description           | Description associée au statut du message électronique      |
-|Type de réponse         | Certaines actions d'un traitement peuvent générer plusieurs types de réponse. Par exemple, l'action de type **Service Web** peut entraîner une réponse de type **Exécution réussie** ou **Erreur technique** selon le résultat de son exécution. Dans ce cas, il convient de définir un statut du message pour les deux types de réponses. Voir [Types d'action](#message-processing-action-types) pour en savoir plus sur les types d'action et les types de réponse qui y sont associés. |
-|Statut de l'élément de message   |Dans certains cas, le statut de message électronique doit influencer respectivement les statuts des éléments de message associés. Associez un tel statut d'élément de message dans ce champ en le sélectionnant depuis la recherche. |
-|Autoriser la suppression          | Le paramètre **Autoriser la suppression** d'un statut d'élément de message électronique définit si l'utilisateur est autorisé à supprimer un élément de message électronique dans ce statut via l'écran **Messages électroniques**.            |
+| Nom du champ          | Description |
+|---------------------|-------------|
+| Statut du message      | Permet d'entrer un nom unique pour le statut du message. Les statuts de message sont utilisés pour caractériser l'état d'un message électronique à tout moment. Le nom que vous entrez s'affiche dans la page **Messages électroniques** et dans un journal associé aux messages électroniques. |
+| Description         | Entrez une description du statut de message. |
+| Type de réponse       | Sélectionnez le type de réponse pour le statut de message. Certaines actions d'un traitement peuvent produire plusieurs types de réponse. Par exemple, les actions du type **Service Web** peuvent entraîner une réponse de type **Exécution réussie** ou **Erreur technique** selon le résultat de leur exécution. Dans ce cas, il convient de définir des statuts de message pour les deux types de réponses. Pour en savoir plus sur les types d'action et les types de réponse qui y sont associés, voir [Types d'actions de traitement des messages](#message-processing-action-types). |
+| Statut de l'élément de message | Parfois, le statut d'un message électronique doit influencer le statut des éléments de message associés. Sélectionnez un statut d'élément de message dans ce champ pour l'associer au statut du message. |
+| Autoriser la suppression        | Activez cette case à cocher si les utilisateurs doivent pouvoir supprimer les message électroniques ayant ce statut sur la page **Messages électroniques**. |
 
 ### <a name="additional-fields"></a>Champs supplémentaires
 
-La fonctionnalité de messages électroniques permet de renseigner les enregistrements à partir d'une table de transactions. De cette manière, vous pouvez préparer les enregistrements pour la gestion des états électroniques puis les générer. Parfois, les informations sont insuffisantes dans la table de transactions pour déclarer un enregistrement selon les besoins d'état. Vous pouvez renseigner toutes les informations à déclarer pour un enregistrement en paramétrant des champs supplémentaires. Les champs supplémentaires peuvent être associés à des messages et des éléments de message. Vous pouvez paramétrer des champs supplémentaires sur la page **Champs supplémentaires** (**Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Champs supplémentaires**).
+La fonctionnalité de messages électroniques permet de renseigner les enregistrements à partir d'une table de transactions. De cette manière, vous pouvez préparer les enregistrements pour la gestion des états électroniques puis les générer. Toutefois, les tables transactionnelles n'ont parfois pas assez d'informations pour renseigner les enregistrements de manière à respecter les exigences de la génération d'états. Pour renseigner toutes les informations à déclarer pour un enregistrement, vous pouvez paramétrer des champs supplémentaires. Les champs supplémentaires peuvent être associés à des messages et des éléments de message. Vous pouvez paramétrer des champs supplémentaires sur la page **Champs supplémentaires** (**Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Champs supplémentaires**).
 
-Le tableau suivant décrit les champs généraux de la page **Champs supplémentaires** :
+Le tableau suivant décrit les champs généraux de la page **Champs supplémentaires**.
+
+| Champ       | Description |
+|-------------|-------------|
+| Nom du champ  | Entrez le nom d'un attribut supplémentaire des éléments de message qui sont liés au processus. Ce nom est affiché dans l'interface utilisateur (IU) lorsque vous utilisez le processus. Il peut également être utilisé dans les configurations d'ER liées au processus. |
+| Description | Entrez une description des champs supplémentaires. |
+| Modification utilisateur   | Définissez cette option sur **Oui** si les utilisateurs doivent pouvoir modifier la valeur du champ supplémentaire à partir de l'IU. |
+| Compteur     | Définissez cette option sur **Oui** si le champ supplémentaire doit contenir une souche de numéros dans un message électronique. La valeur du champ supplémentaire sera renseignée automatiquement lors de l'exécution d'une action de type **Exportation de la gestion des états électroniques**. |
+| Masqué      | Définissez cette option sur **Oui** si le champ supplémentaire est masqué dans l'IU. |
+
+Chaque champ supplémentaire peut avoir différentes valeurs pour le traitement. Vous pouvez définir ces valeurs dans l'organisateur **Valeurs**. Le tableau suivant décrit ces champs.
 
 | Champ                | Description |
 |----------------------|-------------|
-| Nom du champ           | Entrez le nom d'un attribut supplémentaire des éléments de message qui sont liés au processus. Ce nom est affiché dans l'interface utilisateur lorsque vous utilisez le processus. Il peut également être utilisé dans les configurations d'ER liées au processus. |
-| Description          | Entrez une description de l'attribut supplémentaire des éléments de message qui sont liés au processus. |
-| Modification utilisateur            | Si un utilisateur doit être en mesure de modifier la valeur du champ supplémentaire depuis l'interface utilisateur, cochez cette case **Oui** ; sinon, cochez la case **Non**. |
-| Compteur              | Lorsque le champ supplémentaire doit contenir un numéro de séquence dans un message électronique, cochez cette case. Les valeurs du champ supplémentaire sont renseignées automatiquement lors de l'exécution d'une action de type « Exportation de la gestion des états électroniques ».  |
-| Masqué               | Lorsque le champ supplémentaire doit être masqué depuis l'interface utilisateur, activez cette case à cocher.  |
-
-Chaque champ supplémentaire peut avoir différentes valeurs pour le traitement. Vous pouvez définir ces valeurs sur l'organisateur Valeurs :
-
-| Champ                | Description |
-|----------------------|-------------|
-| Valeur de champ          | Entrez la valeur du champ à utiliser pour un élément de message lors de la génération d'états. |
-| Description du champ    | Entrez une description de la valeur du champ à utiliser par rapport à un message ou à un élément de message lors de la génération d'états. |
-| Type de compte         | Certaines valeurs de champs supplémentaires peuvent être limitées à des types de comptes spécifiques. Sélectionner l'une des valeurs suivantes : **Tous**, **Client** et **Fournisseur**. |
-| Compte - valide pour         | Si vous avez sélectionné **Client** ou **Fournisseur** dans le champ **Type de compte**, vous pouvez limiter davantage l'utilisation des valeurs de champ à un groupe ou à une table spécifique. |
+| Valeur de champ          | Entrez la valeur du champ à utiliser pour un message ou un élément de message lors de la génération d'états. |
+| Description          | Entrez une description de la valeur du champ. |
+| Type de compte         | Certaines valeurs de champs peuvent être limitées à des types de comptes spécifiques. Sélectionner l'une des valeurs suivantes : **Tous**, **Client** et **Fournisseur**. |
+| Compte - valide pour         | Si vous avez sélectionné **Client** ou **Fournisseur** dans le champ **Type de compte**, vous pouvez limiter davantage l'utilisation de la valeur du champ à un groupe ou à une table spécifique. |
 | Numéro de compte/groupe | Si vous avez sélectionné **Client** ou **Fournisseur** dans le champ **Type de compte**, et si vous avez entré un groupe ou une table dans le champ **Code du compte**, vous pouvez entrer un groupe ou un contragent spécifique dans ce champ. |
 | Date d'effet            | Spécifiez la date à laquelle la valeur doit commencer à être prise en compte. |
 | Expiration           | Spécifiez la date à laquelle la valeur doit arrêter d'être prise en compte. |
 
-Les associations des critères définies dans **Numéro de compte/groupe**, **Code de compte**, **Date d'effet**, **Expiration** n'ont pas d'impact par défaut sur le choix de la valeur pour le champ supplémentaire, mais peuvent être utilisées dans une classe exécutable pour mettre en place une certaine logique de calcul spécifique d'une valeur de champ supplémentaire.
+Par défaut, les combinaisons des critères définis par les champs **Numéro de compte/groupe**, **Code compte**, **Date d'effet** et **Date d'expiration** n'influencent pas la sélection des valeurs pour les champs supplémentaires. Toutefois, ces combinaisons peuvent être utilisées dans une classe exécutable pour implémenter un logique spécifique de calcul des valeurs pour les champs supplémentaires.
 
 ### <a name="executable-class-settings"></a>Paramètres de la classe exécutable
 
@@ -144,16 +145,16 @@ Vous pouvez paramétrer manuellement une classe exécutable sur la page **Param�
 | Niveau d'exécution       | Ce champ est défini automatiquement, car la valeur doit être prédéfinie pour la classe exécutable sélectionnée. Ce champ limite le niveau auquel on exécute l'évaluation associée. |
 | Description de la classe     | Ce champ est défini automatiquement, car la valeur doit être prédéfinie pour la classe exécutable sélectionnée. |
 
-Certaines classes exécutables peuvent avoir des paramètres obligatoires qui doivent être définis avant la première exécution de la classe exécutable. Pour définir de tels paramètres, cliquez sur le bouton **Paramètres** du volet Actions, configurez les valeurs correspondantes et les champs dans la boîte de dialogue, puis cliquez sur le bouton **OK**. Il est important de cliquer sur le bouton **OK** ici. À défaut, les paramètres ne sont pas enregistrés vers la base et la classe exécutable n'est pas correctement appelée.
+Certaines classes exécutables peuvent avoir des paramètres obligatoires qui doivent être définis avant la première exécution de la classe exécutable. Pour définir ces paramètres, sélectionnez **Paramètres** dans le volet Actions, définissez les champs de la boîte de dialogue qui s'affiche, puis sélectionnez **OK**. Il est important de sélectionner **OK**. Dans le cas contraire, les paramètres ne seront pas enregistrés dans la base de données et la classe exécutable ne sera pas appelée correctement.
 
 ### <a name="populate-records-actions"></a>Actions Renseignement des enregistrements
 
-Vous utilisez les actions de renseignement des enregistrements pour paramétrer des actions qui ajoutent des enregistrements à la table Éléments de message de sorte qu'ils puissent être ajoutés à un message électronique. Par exemple, si votre message électronique doit déclarer des factures client, vous devez paramétrer une action **Renseigner les enregistrements** qui est liée à la table **Journal des factures client** (dans le champ **Source de données** ). Vous pouvez paramétrer des actions de renseignements d'enregistrements sur la page **Action de renseignement d'enregistrements** (**Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Action de renseignement d'enregistrements**). Créez un enregistrement pour chaque action qui doit ajouter des enregistrements à la table, puis définissez les champs suivants.
+Vous utilisez les actions de renseignement des enregistrements pour paramétrer des actions qui ajoutent des enregistrements à la table Éléments de message de sorte qu'ils puissent être ajoutés à un message électronique. Par exemple, si votre message électronique doit déclarer des factures client, vous devez paramétrer une action Renseigner les enregistrements qui est liée au champ **Source de données** dans la table Journal des factures client. Vous pouvez paramétrer des actions de renseignements d'enregistrements sur la page **Action de renseignement d'enregistrements** (**Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Action de renseignement d'enregistrements**). Créez un enregistrement pour chaque action qui doit ajouter des enregistrements à la table, puis définissez les champs suivants.
 
-| Champ       | Description                                                               |
-|-------------|---------------------------------------------------------------------------|
-| Nom        | Entrez un nom pour l'action qui renseigne les enregistrements dans votre processus.       |
-| Description | Entrez une description de l'action qui renseigne les enregistrements dans votre processus. |
+| Champ       | Description |
+|-------------|-------------|
+| Nom        | Entrez un nom pour l'action qui renseigne les enregistrements dans votre processus. |
+| Description | Entrez une description de l'action Renseigner les enregistrements. |
 
 Dans l'organisateur **Paramétrage des sources de données**, ajoutez une ligne pour chaque source de données utilisée pour le processus, puis définissez les champs suivants.
 
@@ -166,38 +167,39 @@ Dans l'organisateur **Paramétrage des sources de données**, ajoutez une ligne 
 | Champ Numéro du document  | Sélectionnez le champ dans lequel le numéro de document doit être extrait dans la table sélectionnée. |
 | Champ Date du document    | Sélectionnez le champ dans lequel la date de document doit être extraite dans la table sélectionnée. |
 | Champ Compte du document | Sélectionnez le champ dans lequel le compte du document doit être extrait dans la table sélectionnée. |
-| Requête utilisateur             | Si cette case à cocher est activée, vous pouvez paramétrer une requête en sélectionnant **Modifier la requête** au-dessus de la grille. Sinon, tous les enregistrements seront renseignés à partir de la source de données. |
+| Requête utilisateur             | Si cette case à cocher est activée, vous pouvez paramétrer une requête en sélectionnant **Modifier la requête** au-dessus de la grille. Sinon, tous les enregistrements seront renseignés à partir de la source de données sélectionnée. |
 
 ### <a name="web-applications"></a>Applications Web
 
-Vous utilisez la page d'applications Web pour configurer les paramètres d'une application Web pour prendre en charge le standard ouvert OAuth 2.0 qui permet aux utilisateurs d'accorder un « accès sécurisé délégué » à l'application pour leur compte, sans partager leurs identifiants d'accès. Depuis cette page, vous pouvez également accéder au processus d'autorisation en obtenant un code d'autorisation et un jeton d'accès. Vous pouvez définir les paramètres d'application Web sur la page **Applications Web** (**Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Applications Web**).
+Vous utilisez les paramètres d'application Web pour paramétrer une application Web afin qu'elle prenne en charge l'autorisation Open Authorization (OAuth) 2.0. OAuth est la norme ouverte actuelle qui permet aux utilisateurs d'« accorder l'accès sécurisé délégué » à l'application en leur nom, sans partager leurs informations d'identification d'accès. Vous pouvez également accéder au processus d'autorisation en obtenant un code d'autorisation et un jeton d'accès. Vous pouvez définir les paramètres d'application Web sur la page **Applications Web** (**Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Applications Web**).
 
 Le tableau suivant décrit les champs de la page **Applications Web**.
 
-| Champ                         | Description |
-|-------------------------------|-------------|
-| Nom de l'application              | Permet d'entrer un nom pour l'application Web. |
-| Description                   | Permet d'entrer une description de l'application Web. |
-| URL de base                      | Permet d'entrer l'adresse Internet de base de l'application Web. |
-| Chemin de l'URL d'autorisation        | Permet de préciser le chemin pour constituer l'URL pour autorisation.  |
-| Chemin de l'URL du jeton                | Permet de préciser le chemin pour constituer l'URL pour le jeton.  |
-| URL de redirection                  | Permet de saisir l'URL de redirection.  |
-| ID client                     | Permet de saisir l'identifiant client de l'application Web.  |
-| Question secrète du client                 | Permet de saisir le secret du client de l'application Web.  |
-| Jeton de serveur                  | Permet de saisir le jeton de serveur de l'application Web.  |
-| Mise en correspondance des formats d'autorisation  | Permet de sélectionner un format de déclarations électroniques à utiliser pour générer la demande d'autorisation.   |
-| Mise en correspondance des modèles de jeton d'importation    | Permet de sélectionner une mise en correspondance des modèles d'importation des états électroniques à utiliser pour enregistrer le jeton d'accès.  |
-| Portée autorisée      Le jeton d'accès expire dans  | Ce champ est mis à jour automatiquement. Sa valeur indique la portée autorisée des demandes de l'application Web.  |
-| Accepter                        | Permet de préciser la propriété d'acceptation de la demande Web. Par exemple, « application/vnd.hmrc. 1.0+json ».  |
-| Type de contenu           | Permet de préciser le type de contenu. Par exemple, « application/json ».  |
+| Champ                        | Description |
+|------------------------------|-------------|
+| Nom de l'application             | Permet d'entrer un nom pour l'application Web. |
+| Description                  | Permet d'entrer une description de l'application Web. |
+| URL de base                     | Permet d'entrer l'adresse Internet de base de l'application Web. |
+| Chemin de l'URL d'autorisation       | Permet de préciser le chemin utilisé pour constituer l'URL pour l'autorisation. |
+| Chemin de l'URL du jeton               | Permet de préciser le chemin utilisé pour constituer l'URL pour le jeton. |
+| URL de redirection                 | Permet de saisir l'URL de redirection. |
+| ID client                    | Permet de saisir l'identifiant client de l'application Web. |
+| Question secrète du client                | Permet de saisir le secret du client de l'application Web. |
+| Jeton de serveur                 | Permet de saisir le jeton de serveur de l'application Web. |
+| Mise en correspondance des formats d'autorisation | Permet de sélectionner le format d'états électroniques utilisé pour générer la demande d'autorisation. |
+| Mise en correspondance des modèles de jeton d'importation   | Permet de sélectionner une mise en correspondance des modèles d'importation des états électroniques utilisés pour enregistrer le jeton d'accès. |
+| Portée accordée                | La portée accordée pour les requêtes à l'application. Ce champ est mis à jour automatiquement. |
+| Le jeton d'accès expirera dans  | Le temps restant avant l'expiration du jeton d'accès. | 
+| Accepter                       | Permet de spécifier la propriété **Accepter** de la requête Web. Par exemple, entrez **application/vnd.hmrc.1.0+json**. |
+| Type de contenu                 | Spécifiez le type de contenu. Par exemple, entrez **application/json**. |
 
-Les fonctions suivantes sont disponibles depuis la page **Applications Web** pour prendre en charge le processus d'autorisation :
--   **Obtenir le code d'autorisation** - Permet de lancer l'autorisation de l'application Web.
--   **Obtenir un jeton d'accès** - Permet de lancer l'obtention d'un jeton d'accès.
--   **Actualiser le jeton d'accès** - Permet d'actualiser un jeton d'accès.
+En outre, les boutons suivants sont disponibles dans le volet Actions de la page **Applications Web** pour prendre en charge le processus d'autorisation :
 
-Lorsqu'un jeton d'accès à une application Web est enregistré dans la base de données du système au format chiffré, il peut être utilisé pour les demandes vers un service Web. À des fins de sécurité, l'accès au jeton d'accès doit être limité uniquement aux rôles de sécurité qui doivent être autorisés à traiter ces demandes. Lorsqu'un utilisateur en dehors du groupe de sécurité essaie de traiter une demande, une exception informe l'utilisateur qu'il n'est pas autorisé à interagir via l'application Web sélectionnée.
-Utilisez l'organisateur **Rôles de sécurité** de la page Taxe > Paramétrage > Messages électroniques > Applications Web pour configurer les rôles qui doivent avoir accès au jeton d'accès. Lorsque les rôles de sécurité ne sont pas définis pour une application Web, seul un administrateur système est en mesure d'interagir via cette application Web.
+- **Obtenir le code d'autorisation** - initialise l'autorisation de l'application Web.
+- **Obtenir un jeton d'accès** - initialise le processus d'obtention d'un jeton d'accès.
+- **Actualiser le jeton d'accès** - Actualise un jeton d'accès.
+
+Lorsqu'un jeton d'accès à une application Web est enregistré dans la base de données du système dans un format chiffré, il peut être utilisé pour les requêtes vers un service Web. À des fins de sécurité, l'accès au jeton d'accès doit être limité aux rôles de sécurité qui doivent être autorisés à traiter ces requêtes. Si des utilisateurs extérieurs au groupe de sécurité essaient d'envoyer une requête, il reçoivent une erreur indiquant qu'ils ne sont pas autorisés à interagir à l'aide de l'application Web sélectionnée. Pour paramétrer les rôles de sécurité qui doivent avoir accès au jeton d'accès, utilisez l'organisateur **Rôles de sécurité** de la page **Applications Web**. Si les rôles de sécurité ne sont pas définis pour une application Web, seul un administrateur système est en mesure d'interagir via cette application Web.
 
 ### <a name="web-service-settings"></a>Paramètres du service Web
 
@@ -205,21 +207,21 @@ Vous utilisez des paramètres de service Web pour paramétrer la transmission de
 
 Le tableau suivant décrit les champs de la page **Paramètres de service Web**.
 
-| Champ                   | Description |
-|-------------------------|-------------|
-| Service Web             | Entrez un nom pour le service Web. |
-| Description             | Permet d'entrer une description du service Web. |
-| Adresse Internet        | Entrez l'adresse Internet du service Web. Si une application Web est spécifiée pour un service Web et si l'adresse Internet doit être identique à celle définie pour l'application Web sélectionnée, cliquez sur le bouton **Copier l'URL de base** pour copier l'**URL de base** depuis l'application Web vers le champ **Adresse Internet** du service Web.  |
-| Certificat             | Sélectionnez un certificat de coffre de clés précédemment paramétré. |
-| Application Web         | Sélectionnez un certificat de coffre de clés précédemment paramétré. |
-| Type de réponse – XML | Définissez cette option sur **Oui** si le type de réponse est XML. |
-| Méthode de la demande          | Spécifiez la méthode de demande. HTTP définit un ensemble de méthodes de demande qui indiquent l'action à effectuer pour une ressource donnée. La méthode peut être **GET**, **POST**, ou une autre méthode HTTP. |
-| En-tête de la demande         | Spécifiez les en-têtes de la demande. Un en-tête de demande est un en-tête HTTP pouvant être utilisée dans une demande HTTP, et qui n'est pas lié au contenu du message. |
-| Accepter                  | Permet de préciser la propriété d'acceptation de la demande Web. |
-| Accepter le codage         | Spécifiez Accepter le codage. L'en-tête HTTP de demande Accepter le codage publie l'encodage du contenu que le client peut comprendre. Cet encodage de contenu est généralement un algorithme de compression. |
-| Type de contenu            | Spécifiez le type de contenu. L'en-tête d'entité Type de contenu indique le type de support de la ressource. |
-| Code de réponse réussie   | Permet de spécifier le code de statut HTTP indiquant la réussite de la demande. |
-| Mise en correspondance des formats pour les en-têtes de demande  | Permet de sélectionner le format des états électroniques pour générer les en-têtes de demande Web. |
+| Champ                          | Description |
+|--------------------------------|-------------|
+| Service Web                    | Entrez un nom pour le service Web. |
+| Description                    | Permet d'entrer une description du service Web. |
+| Adresse Internet               | Entrez l'adresse Internet du service Web. Si une application Web est spécifiée pour un service Web et que l'adresse Internet du service Web doit être identique à celle définie pour l'application Web sélectionnée, sélectionnez **Copier l'URL de base** pour copier l'URL de base de l'application Web dans ce champ. |
+| Certificat                    | Sélectionnez un certificat de coffre de clés précédemment paramétré. |
+| Application Web                | Sélectionnez un certificat de coffre de clés précédemment paramétré. |
+| Type de réponse – XML        | Définissez cette option sur **Oui** si le type de réponse est XML. |
+| Méthode de la demande                 | Spécifiez la méthode de demande. HTTP définit un ensemble de méthodes de demande qui indiquent l'action à effectuer pour une ressource donnée. La méthode de requête peut être **GET**, **POST**, ou une autre méthode HTTP. |
+| En-tête de la demande                | Spécifiez les en-têtes de la demande. Un en-tête de demande est un en-tête HTTP pouvant être utilisée dans une demande HTTP, et qui n'est pas lié au contenu du message. |
+| Accepter                         | Permet de spécifier la propriété **Accepter** de la requête Web. |
+| Accepter le codage                | Permet de spécifier la valeur **Accepter le codage**. L'en-tête HTTP de demande Accepter le codage publie l'encodage du contenu que le client peut comprendre. Cet encodage de contenu est généralement un algorithme de compression. |
+| Type de contenu                   | Spécifiez le type de contenu. L'en-tête HTTP d'entité Type de contenu indique le type de support de la ressource. |
+| Code de réponse réussie       | Permet de spécifier le code de statut HTTP indiquant la réussite de la requête. |
+| Mise en correspondance des formats pour les en-têtes de demande | Permet de sélectionner le format d'états électroniques utilisé pour générer les en-têtes de requête Web. |
 
 ### <a name="message-processing-actions"></a>Actions de traitement des messages
 
@@ -229,76 +231,76 @@ Les tableaux suivants décrivent les champs de la page **Actions de traitement d
 
 #### <a name="general-fasttab"></a>Organisateur Général
 
-| Champ                   | Description |
-|-------------------------|-------------|
-| Type d'action             | Permet de sélectionner le type de l'action. Pour plus d'informations sur les options disponibles, voir la section [Types d'actions de traitement des messages](#message-processing-action-types). |
-| Mise en correspondance des formats          | Sélectionnez le format d'ER qui doit être appelé pour l'action. Ce champ n'est disponible que pour les actions de types **Exportation de la gestion des états électroniques**, **Importation de la gestion des états électroniques** et **Message d'exportation pour la gestion des états électroniques**. |
-| Mise en correspondance des formats pour le chemin de l'URL | Sélectionnez le format d'ER qui doit être appelé pour l'action. Ce champ n'est disponible que pour les actions de type **Service Web** et est utilisé pour constituer le chemin de l'adresse URL qui est ajoutée à l'adresse Internet de base spécifiée pour le serveur Web sélectionné. |
-| Type d'élément de message       | Sélectionnez le type d'enregistrements pour lequel l'action doit être évaluée. Ce champ est disponible pour les actions de types **Niveau d'exécution de l'élément de message**, **Exportation de la gestion des états électroniques** et **Importation de la gestion des états électroniques**, **Service Web** ainsi que d'autres types d'action. Si vous laissez ce champ vide, tous les types d'éléments de message définis pour le traitement des messages sont évalués. |
-| Classe exécutable        | Sélectionnez les paramètres de classe exécutable créés précédemment. Ce champ n'est disponible que pour les actions **Niveau d'exécution de l'élément de message** et **Niveau d'exécution de l'élément de message**. |
-| Action Renseigner des enregistrements | Sélectionnez une action de renseignement des enregistrements paramétrée auparavant. Ce champ n'est disponible que pour les actions du type **Renseigner les enregistrements**. |
-| Service Web  | Sélectionnez un service Web paramétré précédemment. Ce champ n'est disponible que pour les actions de type **Service Web**.  |
-| Nom de fichier  | Permet de préciser le nom du fichier qui entraîne l'action en réponse à un serveur Web ou la génération d'un état. Ce champ n'est disponible que pour les actions de type **Service Web** et **Message d'exportation pour la gestion des états électroniques**.   |
-| Afficher la boîte de dialogue  | Cochez cette case si une boîte de dialogue doit être affichée à l'attention d'un utilisateur avant la génération des états. Ce champ n'est disponible que pour les actions de type **Message d'exportation pour la gestion des états électroniques**.   |
+| Champ                       | Description |
+|-----------------------------|-------------|
+| Type d'action                 | Permet de sélectionner le type de l'action. Pour plus d'informations sur les options disponibles, voir la section [Types d'actions de traitement des messages](#message-processing-action-types). |
+| Mise en correspondance des formats              | Sélectionnez le format d'ER qui doit être appelé pour l'action. Ce champ n'est disponible que pour les actions de types **Exportation de la gestion des états électroniques**, **Importation de la gestion des états électroniques** et **Message d'exportation pour la gestion des états électroniques**. |
+| Mise en correspondance des formats pour le chemin de l'URL | Sélectionnez le format d'ER qui doit être appelé pour l'action. Ce champ n'est disponible que pour les actions de type **Service Web**. Il est utilisé pour composer le chemin de l'adresse URL qui sera ajoutée à l'adresse Internet de base spécifiée pour le serveur Web sélectionné. |
+| Type d'élément de message           | Sélectionnez le type d'enregistrements pour lequel l'action doit être évaluée. Ce champ est disponible pour les actions de types **Niveau d'exécution de l'élément de message**, **Exportation de la gestion des états électroniques** et **Importation de la gestion des états électroniques**, **Service Web** ainsi que d'autres types d'action. Si vous laissez ce champ vide, tous les types d'éléments de message définis pour le traitement des messages sont évalués. |
+| Classe exécutable            | Sélectionnez les paramètres de classe exécutable créés précédemment. Ce champ n'est disponible que pour les actions **Niveau d'exécution de l'élément de message** et **Niveau d'exécution de l'élément de message**. |
+| Action Renseigner des enregistrements     | Sélectionnez une action de renseignement des enregistrements paramétrée auparavant. Ce champ n'est disponible que pour les actions du type **Renseigner les enregistrements**. |
+| Service Web                 | Sélectionnez un service Web paramétré précédemment. Ce champ n'est disponible que pour les actions de type **Service Web**. |
+| Nom de fichier                   | Permet de spécifier le nom du fichier qui est le résultat de l'action. Ce fichier peut être la réponse du serveur Web ou l'état généré. Ce champ n'est disponible que pour les actions de type **Service Web** et **Message d'exportation pour la gestion des états électroniques**. |
+| Afficher la boîte de dialogue                 | Définissez cette option sur **Oui** si une boîte de dialogue doit être présentée à l'utilisateur avant la génération des états. Ce champ n'est disponible que pour les actions de type **Message d'exportation pour la gestion des états électroniques**. |
 
 ##### <a name="message-processing-action-types"></a>Types d'actions de traitement des messages
 
 Les options suivantes sont disponibles dans le champ **Type d'action** :
 
-- **Créer un message** : Utilisez ce type pour permettre aux utilisateurs de créer manuellement des messages sur la page **Message électronique**. Un statut initial ne peut pas être paramétré pour une action de ce type.
-- **Renseigner les enregistrements** : Une action **Renseigner les enregistrements** doit déjà être paramétrée. Associez-la à une action de type **Renseigner les enregistrements** pour activer sont inclusion lors de traitement. Il est supposé que ce type d'action est utilisé pour la première action dans le traitement des messages (lorsqu'aucun message électronique n'est créé à l'avance) ou comme action ajoutant des éléments de message à un message précédemment créé (par une action de type **Créer un message**). Par conséquent, seul un statut de résultats des éléments de message peut être paramétré pour une action de ce type. Un statut initial peut être paramétré pour le message uniquement.
-- **Niveau d'exécution du message** : Utilisez ce type pour paramétrer une classe exécutable à évaluer au niveau du message.
-- **Niveau d'exécution de l'élément de message** : Utilisez ce type pour paramétrer une classe exécutable à évaluer au niveau de l'élément de message.
-- **Exportation de la gestion des états électroniques** : Utilisez ce type pour les actions devant générer un état basé sur une configuration d'exportation de la gestion des ER au niveau de l'élément de message.
-- **Message d'exportation pour la gestion des états électroniques** : Utilisez ce type pour les actions devant générer un état basé sur une configuration d'exportation de la gestion des ER au niveau du message (par exemple, lorsqu'un message ne contient pas d'éléments de message).
-- **Importation de la gestion des états électroniques** : Utilisez ce type pour les actions devant générer un état basé sur une configuration d'importation de la gestion des ER.
-- **Traitement utilisateur au niveau du message** : Utilisez ce type pour les actions qui assument certaines actions manuelles par l'utilisateur. Par exemple, l'utilisateur peut mettre à jour le statut des messages.
-- **Traitement utilisateur** : Utilisez ce type pour les actions qui assument certaines actions manuelles par l'utilisateur. Par exemple, l'utilisateur peut mettre à jour le statut des éléments de messages.
-- **Service Web** : Utilisez ce type pour les actions devant transmettre l'état généré à un service Web. Ce type d'action n'est pas utilisé pour la génération d'états de communication de factures d'achat et client italiens. Pour les actions de type **Service Web**, vous pouvez préciser un **Texte de confirmation** sur l'organisateur **Détails divers** des **Actions de traitement des messages**. Ce texte de confirmation s'affiche pour l'utilisateur avant le traitement de la demande par le service Web sélectionné.
-- **Vérification de la demande** : Utilisez ce type pour demander une vérification d'un serveur.
+- **Créer un message** : utilisez ce type d'action pour permettre aux utilisateurs de créer manuellement des messages sur la page **Message électronique**. Un statut initial ne peut pas être paramétré pour une action de ce type.
+- **Renseigner les enregistrements** : une action du type **Renseigner les enregistrements** doit déjà être paramétrée. Associez ce type d'action à une action de type Renseigner les enregistrements pour activer son inclusion dans le traitement. Il est supposé que ce type d'action est utilisé pour la première action dans le traitement des messages (lorsqu'aucun message électronique n'a été créé à l'avance) ou pour une action qui ajoute des éléments de message à un message précédemment créé par une action du type **Créer un message**. Par conséquent, pour les actions de ce type, un statut de résultats ne peut être paramétré que pour les éléments de message. Un statut initial ne peut être paramétré que pour les messages.
+- **Niveau d'exécution du message** : utilisez ce type d'action pour paramétrer une classe exécutable à évaluer au niveau du message.
+- **Niveau d'exécution de l'élément de message** : utilisez ce type d'action pour paramétrer une classe exécutable à évaluer au niveau de l'élément de message.
+- **Exportation de la gestion des états électroniques** : utilisez ce type d'action pour les actions devant générer un état basé sur une configuration d'exportation de la gestion des ER au niveau de l'élément de message.
+- **Message d'exportation pour la gestion des états électroniques** : utilisez ce type d'action pour les actions devant générer un état basé sur une configuration d'exportation de la gestion des ER au niveau du message (par exemple, lorsqu'un message ne contient pas d'éléments de message).
+- **Importation de la gestion des états électroniques** : utilisez ce type d'action pour les actions devant générer un état basé sur une configuration d'importation de la gestion des ER.
+- **Traitement utilisateur au niveau du message** : utilisez ce type d'action pour les actions qui impliquent certaines actions manuelles de l'utilisateur au niveau des messages. Par exemple, l'utilisateur peut mettre à jour le statut des messages.
+- **Traitement utilisateur** : utilisez ce type d'action pour les actions qui impliquent certaines actions manuelles de l'utilisateur au niveau de l'élément de message. Par exemple, l'utilisateur peut mettre à jour le statut des éléments de messages.
+- **Service Web** : utilisez ce type d'action pour les actions devant transmettre l'état généré à un service Web. Ce type d'action n'est pas utilisé pour la génération d'états de communication de factures d'achat et client italiens. Pour les actions de type **Service Web**, la page **Actions de traitement des messages** comprend un organisateur **Détails divers** où vous pouvez préciser un texte de confirmation. Ce texte de confirmation s'affiche aux utilisateurs avant le traitement des requêtes au service Web sélectionné.
+- **Vérification de la demande** : utilisez ce type d'action pour demander une vérification à partir d'un serveur.
 
 #### <a name="initial-statuses-fasttab"></a>Organisateur Statuts initiaux
 
 > [!NOTE]
-> L'organisateur **Statuts initiaux** n'est pas disponible pour les actions avec un type initial défini sur **Créer un message**.
+> L'organisateur **Statuts initiaux** n'est pas disponible pour les actions dont le type d'action initial est défini sur **Créer un message**.
 
-| Champ               | Description                                                                                         |
-|---------------------|-----------------------------------------------------------------------------------------------------|
+| Champ               | Description |
+|---------------------|-------------|
 | Statut de l'élément de message | Sélectionnez le statut de l'élément de message indiquant que l'action de traitement du message sélectionné doit être évaluée. |
-| Description         | Description du statut de l'élément de message sélectionné.                                                  |
+| Description         | Description du statut de l'élément de message sélectionné. |
 
 #### <a name="result-statuses-fasttab"></a>Organisateur Statuts de résultat
 
 | Champ               | Description |
 |---------------------|-------------|
-| Statut du message      | Sélectionnez les statuts de message indiquant que l'action de traitement du message sélectionné doit être évaluée. Ce champ est disponible uniquement pour les actions de traitement de message qui sont évaluées au niveau de message. Par exemple, il est disponible pour les actions des types **Exportation de la gestion des états électroniques** et **Importation de la gestion des états électroniques**. Il n'est pas disponible pour les actions des types **Traitement utilisateur** et **Niveau d'exécution de l'élément de message**. |
+| Statut du message      | Sélectionnez les statuts de message indiquant que l'action de traitement du message sélectionné doit être évaluée. Ce champ est disponible uniquement pour les actions de traitement de message qui sont évaluées au niveau de message. Par exemple, il est disponible pour les actions des types **Exportation de la gestion des états électroniques** et **Importation de la gestion des états électroniques**, mais n'est pas disponible pour les actions des types **Traitement utilisateur** et **Niveau d'exécution de l'élément de message**. |
 | Description         | Description du statut de message sélectionné. |
 | Type de réponse       | Type de réponse du statut de message sélectionné. |
 | Statut de l'élément de message | Sélectionnez les statuts résultants devant être disponibles une fois l'action de traitement du message sélectionné évaluée. Ce champ est disponible uniquement pour les actions de traitement de message qui sont évaluées au niveau de l'élément de message. Par exemple, il est disponible pour les actions des types **Traitement utilisateur** et **Niveau d'exécution de l'élément de message**. Pour les actions de traitement de messages évaluées au niveau du message, ce champ affiche le statut de l'élément de message paramétré pour le statut de message sélectionné. |
 
-Le tableau suivant illustre les statuts de résultat à configurer par rapport aux types d'actions :
+Le tableau suivant indique les statuts de résultat à paramétrer pour différents types d'actions et types de réponses.
 
-| Type de réponse/d'action de message électronique  | Exécution réussie  | Erreur commerciale  | Erreur technique  | Défini par l'utilisateur  | Annuler  |
-|-------------------------------------------------|--------------|---------|-------|-----|-----------------|
-| Créer un message                                  | O            |         |       |     |                 |
-| Exportation de la gestion des états électroniques                     | O            |         |       |     |                 |
-| Importation de la gestion des états électroniques                     |              |         |       |     |                 |
-| Service Web                                     | O            |         | O     |     |                 |
-| Traitement des utilisateurs                                 |              |         |       |     |                 |
-| Niveau d'exécution du message                         |              |         |       |     |                 |
-| Renseigner les enregistrements                                |              |         |       |     |                 |
-| Niveau d'exécution de l'élément de message                    |              |         |       |     |                 |
-| Vérification de la demande                            | O            |  O      | O     |     |                 |
-| Message d'exportation pour la gestion des états électroniques             | O            |         |       |     |                 |
-| Traitement utilisateur au niveau du message                   |              |         |       |     |                 |
+| Type de réponse/d'action de message électronique | Exécution réussie | Erreur commerciale | Erreur technique | Défini par l'utilisateur | Annuler |
+|----------------------------------------------|-----------------------|----------------|-----------------|--------------|--------|
+| Créer un message                               | O                     |                |                 |              |        |
+| Exportation de la gestion des états électroniques                  | O                     |                |                 |              |        |
+| Importation de la gestion des états électroniques                  |                       |                |                 |              |        |
+| Service Web                                  | O                     |                | O               |              |        |
+| Traitement des utilisateurs                              |                       |                |                 |              |        |
+| Niveau d'exécution du message                      |                       |                |                 |              |        |
+| Renseigner les enregistrements                             |                       |                |                 |              |        |
+| Niveau d'exécution de l'élément de message                 |                       |                |                 |              |        |
+| Vérification de la demande                         | O                     | O              | O               |              |        |
+| Message d'exportation pour la gestion des états électroniques          | O                     |                |                 |              |        |
+| Traitement utilisateur au niveau du message                |                       |                |                 |              |        |
 
 ### <a name="electronic-message-processing"></a>Traitement du message électronique
 
-Le traitement de message électronique est un concept de base de la fonctionnalité de messages électroniques. Il regroupe les actions à évaluer pour les messages électroniques. Les actions peuvent être liées via un statut initial et un statut de résultat. Sinon, les actions de type **Traitement utilisateur** peuvent être démarrées individuellement. Sur la page **Traitement du message électronique** (**Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Traitement du message électronique**), vous pouvez également sélectionner des champs supplémentaires à prendre en charge pour le traitement au niveau du message ou au niveau des éléments du message.
+Le traitement de message électronique est un concept de base de la fonctionnalité de messages électroniques. Il regroupe les actions à évaluer pour les messages électroniques. Les actions peuvent être liées via un statut initial et un statut de résultat. Sinon, les actions de type **Traitement utilisateur** peuvent être démarrées individuellement. Dans la page **Traitement du message électronique** (**Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Traitement du message électronique**), vous pouvez également sélectionner des champs supplémentaires à prendre en charge pour le traitement au niveau du message ou au niveau des éléments du message.
 
-L'organisateur **Action** vous permet d'ajouter des actions prédéfinies au traitement. Vous pouvez spécifier si une action doit être exécutée séparément, ou si elle peut être lancée par le traitement. Pour définir si l'action peut être lancée par un utilisateur uniquement, cochez la case **Exécuter séparément** pour l'action dans le traitement. Désactivez le paramètre **Exécuter séparément** si vous souhaitez que l'action soit lancée en traitant quand le statut des messages ou les éléments de message est défini comme initial pour cette action. L'action de type **Action utilisateur** doit être exécutée séparément. 
+L'organisateur **Action** vous permet d'ajouter des actions prédéfinies au traitement. Vous pouvez spécifier si une action doit être exécutée séparément, ou si elle peut être démarrée par le traitement. Pour spécifier qu'une action du traitement ne peut être lancée que par un utilisateur, définissez le champ **Exécuter séparément** sur **Oui** pour cette action. Si une action doit être démarrée par le traitement des messages ou des éléments de message dont le statut est celui défini dans le statut initial de l'action, définissez le champ **Exécuter séparément** sur **Non**. Les actions du type **Action utilisateur** doivent toujours être exécutées séparément.
 
-Parfois, il peut être utile de regrouper plusieurs actions en une séquence, même lorsque la première d'entre elles est définie pour être exécutée séparément. Par exemple, lorsqu'il est nécessaire que la génération des états soit initialisée par un utilisateur, mais une seule fois, l'état généré doit être envoyé immédiatement vers un service Web et la réponse du service Web doit être indiquée dans le système. Pour ce faire, vous pouvez utiliser **Séquence inséparable**. Pour ce faire, cliquez sur le bouton **Séquence inséparable** sur le volet Actions de l'organisateur **Actions** sur la page **Traitement des messages électroniques**, créez une séquence et sélectionnez-la dans la colonne **Séquence inséparable** afin que ces actions soient toujours exécutées ensemble. La première action dans ce cas peut être définie sur **Exécuter séparément**, contrairement à toutes les autres.
+Parfois, plusieurs actions doivent être regroupées en séquence, même si la première action est paramétrée de manière à être exécutée séparément. Par exemple, un utilisateur doit initialiser la génération d'états mais, immédiatement après que les états ont été générés, ils doivent être envoyés vers un service Web et la réponse du service Web doit être répercutée dans le système. Dans ce cas, vous pouvez créer une séquence inséparable des actions qui doivent toujours être exécutées ensemble. Sous l'organisateur **Action**, sélectionnez **Séquences inséparables** au-dessus de la grille, puis créez une séquence. Ensuite, pour toutes les actions qui doivent s'exécuter ensemble, sélectionnez la séquence dans le champ **Séquence inséparable**. Dans ce cas, le champ **Exécuter séparément** peut être défini sur **Oui** pour la première action dans la séquence mais sur **Non** pour toutes les autres actions.
 
 L'organisateur **Champs supplémentaires de l'élément du message** vous permet d'ajouter des champs supplémentaires prédéfinis liés aux éléments de message. Vous devez ajouter des champs supplémentaires pour chaque type d'élément de message auquel les champs sont liés.
 
@@ -308,7 +310,7 @@ L'organisateur **Rôles de sécurité** vous permet de paramétrer les rôles de
 
 L'organisateur **Traitement par lot** vous permet de paramétrer le traitement pour fonctionner à un régime de lots.
 
-## <a name="work-with-electronic-messages-functionality"></a>Utiliser la fonctionnalité de messages électroniques
+## <a name="work-with-the-electronic-messages-functionality"></a>Utiliser la fonctionnalité de messages électroniques
 
 Si vous travaillez au niveau du message, la page **Messages électroniques** (**Taxe** \> **Recherches et états** \> **Messages électroniques** \> **Messages électroniques**) est plus utile. Si vous travaillez au niveau de la collecte de données (élément de message), la page **Éléments du message électronique** (**Taxe** \> **Recherches et états** \> **Messages électroniques** \> **Éléments du message électronique**) est plus utile.
 
@@ -320,32 +322,32 @@ L'organisateur **Messages** affiche les messages électroniques du traitement s�
 
 - **Nouveau** : Ce bouton est associé aux actions du type **Créer un message**.
 - **Supprimer** : Ce bouton est disponible si la case à cocher **Autoriser la suppression** est activée pour le statut actuel du message sélectionné.
-- **Collecte des données** - Ce bouton est associé à l'action de type **Renseigner les enregistrements**.
+- **Collecte des données** – Ce bouton est associé aux actions de type **Renseigner les enregistrements**.
 - **Générer un état** : Ce bouton est associé aux actions du type **Message d'exportation pour la gestion des états électroniques**.
 - **Envoyer un état** : Ce bouton est associé aux actions du type **Service Web**.
-- **Importer une réponse** - Ce bouton est associé aux actions de type **Importation de la gestion des états électroniques**.
+- **Importer une réponse** – Ce bouton est associé aux actions de type **Importation de la gestion des états électroniques**.
 - **Mettre à jour le statut** : Ce bouton est associé aux actions du type **Traitement utilisateur au niveau du message**.
 - **Éléments du message** : Ouvre la page **Éléments du message électronique**.
 
-L'organisateur **Journal des actions** présente des informations sur toutes les actions exécutées pour le message sélectionné. Si une action a entraîné une erreur, les informations relatives à l'erreur sont jointes à la ligne du journal des actions associé. Sélectionnez la ligne et cliquez sur le bouton **Clip** dans l'angle supérieur droit de la page pour vérifier les informations relatives à l'erreur.
+L'organisateur **Journal des actions** présente des informations sur toutes les actions exécutées pour le message sélectionné. Si une action a causé une erreur, les informations relatives à l'erreur sont jointes à la ligne associée dans la grille. Pour vérifier les informations sur l'erreur, sélectionnez la ligne dans la grille, puis sélectionnez le bouton **Pièce jointe** (le symbole du trombone) dans le coin supérieur droit de la page.
 
 L'organisateur **Champs supplémentaires du message** affiche tous les champs supplémentaires définis pour les messages dans le paramétrage du traitement. Il affiche également les valeurs de ces champs supplémentaires.
 
-L'organisateur **Éléments du message** affiche tous les éléments du message liés au message sélectionné. Pour chacun des éléments de message, les fonctions suivantes peuvent être utilisées selon le statut de cet élément de message :
+L'organisateur **Éléments du message** affiche tous les éléments du message liés au message sélectionné. Selon le statut du message sélectionné, vous pouvez exécuter certaines actions en sélectionnant les boutons au-dessus de la grille :
 
 - **Supprimer** - Ce bouton est disponible si la case à cocher **Autoriser la suppression** est activée pour le statut actuel de l'élément de message sélectionné.
 - **Mettre à jour le statut** - Ce bouton est associé aux actions de type **Traitement utilisateur**.
-- **Document d'origine** - Ce bouton permet à l'utilisateur d'ouvrir une page avec le document d'origine du message sélectionné.
+- **Document d'origine** – Ouvre une page qui affiche le document d'origine de l'élément de message sélectionné.
 
-Vous pouvez réviser toutes les pièces jointes du message sélectionné. Ces pièces jointes sont des états déjà générés et reçus. Sélectionnez le message pour réviser les pièces jointes, puis sélectionnez le bouton **Pièce jointe** sur le volet Actions.
+Tous les états qui ont déjà été générés et reçus pour un message sont liés à ce message. Pour examiner les pièces jointes associées à un message, sélectionnez le message, puis sélectionnez le bouton **Pièce jointe** (le symbole du trombone) dans le coin supérieur droit de la page.
 
 ![Bouton Pièce jointe](media/attachment-icon.png)
 
-La page **Pièces jointes** affiche toutes les pièces jointes associées au message. Pour afficher un fichier, sélectionnez-le dans la liste à gauche, puis sélectionnez **Ouvrir** sur le volet Actions.
+La page **Pièces jointes** affiche toutes les pièces jointes associées au message sélectionné. Pour afficher un fichier, sélectionnez-le dans la liste à gauche, puis sélectionnez **Ouvrir** sur le volet Actions.
 
 ![Bouton Ouvrir](media/open-button.png)
 
-Pour réviser une pièce jointe liée à une action spécifique précédemment exécutée pour un message, sélectionnez le message sur la page **Messages électroniques**, puis, dans l'organisateur **Journal des actions**, sélectionnez l'action. Ensuite, sélectionnez le bouton **Pièce jointe** sur le volet Action.
+Vous pouvez également consulter les pièces jointes associées à une action spécifique qui a été précédemment exécutée pour un message. Dans la page **Messages électroniques**, sélectionnez le message dans l'organisateur **Messages**, sélectionnez l'action dans l'organisateur **Journal d'actions**, puis sélectionnez le bouton **Pièce jointe** dans le coin supérieur droit de la page.
 
 Vous pouvez également exécuter l'ensemble du traitement ou seulement une action spécifique en sélectionnant **Exécuter le traitement** sur le volet Action.
 
@@ -400,7 +402,7 @@ Le tableau suivant décrit les champs de la page **Éléments du message**.
 </tr>
 <tr>
 <td>Numéro de compte</td>
-<td>Numéro de compte d'un client ou d'un fournisseur (ou autre valeur de champ, selon le champ défini dans l'action <strong>Renseigner les enregistrements</strong>). Ce champ peut être renseigné automatiquement uniquement si une facture est ajoutée à la table Éléments du message.</td>
+<td>Numéro de compte d'un client ou d'un fournisseur (ou autre valeur de champ, selon le champ défini dans l'action Renseigner les enregistrements). Ce champ peut être renseigné automatiquement uniquement si une facture est ajoutée à la table Éléments du message.</td>
 </tr>
 <tr>
 <td>Message</td>
@@ -412,7 +414,7 @@ Le tableau suivant décrit les champs de la page **Éléments du message**.
 </tr>
 <tr>
 <td>Action suivante</td>
-<td>Actions suivantes pouvant être initiées pour le statut actuel de l'élément du message.</td>
+<td>Actions suivantes pouvant être démarrées pour le statut actuel de l'élément du message.</td>
 </tr>
 </tbody>
 </table>
@@ -421,7 +423,7 @@ L'onglet **Champs supplémentaires** affiche les champs supplémentaires de l'é
 
 #### <a name="run-processing"></a>Exécuter le traitement
 
-Sélectionnez **Exécuter le traitement** sur le volet Actions pour exécuter le traitement des éléments du message. Pour exécuter une action spécifique, dans la boîte de dialogue **Exécuter le traitement**, définissez l'option **Sélectionner l'action** sur **Oui**, puis sélectionnez une action. Pour exécuter le traitement complet, laissez l'option **Sélectionner l'action** définie sur **Non**.
+Sélectionnez **Exécuter le traitement** sur le volet Actions pour exécuter le traitement des éléments du message. Pour exécuter une action spécifique, dans la boîte de dialogue **Exécuter le traitement**, définissez l'option **Choisir l'action** sur **Oui**, puis sélectionnez une action. Pour exécuter le traitement complet, laissez l'option **Choisir l'action** définie sur **Non**.
 
 #### <a name="generate-report"></a>Générer un état
 
@@ -429,13 +431,13 @@ Sélectionnez **Générer un état** sur le volet Actions pour générer un éta
 
 #### <a name="update-status"></a>Mise à jour du statut
 
-Sélectionnez **Mettre à jour le statut** sur le volet Actions pour mettre à jour le statut d'un ou de plusieurs éléments du message. Dans la boîte de dialogue **Mettre à jour le statut**, utilisez l'organisateur **Enregistrements à inclure** pour sélectionner les éléments du message pour la mise à jour. Assurez-vous de définir correctement les critères de sélection, car les statuts d'élément du message sont mis à jour selon ces critères, le statut initial de l'action sélectionnée, et la valeur **Nouveau statut** définie. Une fois la mise à jour du statut terminée, il sera difficile de déterminer les éléments mis à jour. Par conséquent, il sera difficile d'annuler les mises à jour de statut.
+Sélectionnez **Mettre à jour le statut** sur le volet Actions pour mettre à jour le statut d'un ou de plusieurs éléments du message. Dans la boîte de dialogue **Mettre à jour le statut**, utilisez l'organisateur **Enregistrements à inclure** pour sélectionner les éléments de message à mettre à jour. Assurez-vous de définir correctement les critères de sélection, car les statuts d'élément du message sont mis à jour selon ces critères, le statut initial de l'action sélectionnée, et la valeur **Nouveau statut** spécifiée. Une fois la mise à jour du statut terminée, il sera difficile de déterminer les éléments mis à jour. Par conséquent, il sera difficile d'annuler la mise à jour de statut.
 
 #### <a name="electronic-messages"></a>Messages électroniques
 
-Sélectionnez **Message électronique** sur le volet Actions pour réviser une message électronique associé à l'élément du message sélectionné.
+Sélectionnez **Messages électroniques** dans le volet Actions pour réviser un message électronique associé à l'élément de message sélectionné.
 
-Vous pouvez également réviser tous les fichiers correspondant à l'élément du message. Sélectionnez le champ **Message** de l'élément du message, ou sélectionnez **Message électronique** sur le volet Actions. Sur la page **Message électronique**, sélectionnez le message pour lequel réviser un état, puis sélectionnez le bouton **Pièce jointe** sur le volet Actions.
+Vous pouvez également réviser tous les fichiers associés à un élément de message spécifique. Sélectionnez le champ **Message** pour l'élément de message, ou sélectionnez **Messages électroniques** dans le volet Actions. Ensuite, dans la page **Message électronique**, sélectionnez le message dont vous souhaitez examiner les fichiers, puis sélectionnez le bouton **Pièce jointe** (le symbole du trombone) dans le coin supérieur droit de la page.
 
 ![Bouton Pièce jointe](media/attachment-icon.png)
 
@@ -447,21 +449,17 @@ La page **Pièces jointes** affiche toutes les pièces jointes associées au mes
 
 Sélectionnez **Document d'origine** sur le volet Actions pour ouvrir le document d'origine de l'élément du message sélectionné.
 
-## <a name="example"></a>Exemple
+## <a name="example-set-up-and-run-processing-to-call-a-simple-er-exporting-format-to-generate-an-excel-report"></a>Exemple : paramétrez et exécutez le traitement pour appeler un format d'exportation d'états électroniques pour générer un état Excel
 
 Après avoir créé votre format d'ER, l'avoir mappé à des sources de données, et l'avoir terminé, vous pouvez l'exécuter à l'aide de l'espace de travail **Gestion des états électroniques**. Un état est généré que vous pouvez enregistrer localement.
 
 Pour contrôler les aspects suivants du processus de gestion d'états, vous devez paramétrer le traitement par messagerie électronique :
 
 - Enregistrez les informations sur l'utilisateur ayant généré l'état.
-- Enregistrez la date et l'heure auxquelles l'état a été généré.
+- Enregistrez les informations sur le moment de génération de l'état.
 - Enregistrez les états générés pour les périodes précédentes.
 
-Cette section fournit un exemple qui indique comment vous pouvez paramétrer la fonctionnalité de messages électroniques pour établir un processus de génération d'états.
-
-### <a name="set-up-and-run-processing-to-call-a-simple-er-exporting-format-to-generate-an-excel-report"></a>Paramétrez et exécutez le traitement pour appeler format d'exportation d'ER pour générer un état d'Excel
-
-Cette section fournit un exemple qui indique comment paramétrer la messagerie électronique pour générer un état basé sur un format d'exportation ER pour Excel. Pour suivre cet exemple, le format d'exportation Excel d'ER doit déjà être créé, mappé à des sources de données, et être terminé. Une souche de numéros doit déjà être paramétrée pour les messages électroniques.
+Cette section fournit un exemple qui indique comment paramétrer la messagerie électronique pour générer un état basé sur un format d'exportation ER pour Excel. Si vous souhaitez suivre cet exemple, le format d'exportation Excel des états électroniques doit déjà être créé, mappé sur des sources de données, et être terminé. En outre, une souche de numéros doit déjà être paramétrée pour les messages électroniques.
 
 Lorsque vous créez le traitement, il est utile de commencer par définir les actions et les statuts de traitement à paramétrer. L'illustration suivante présente à quoi ce traitement ressemble pour cet exemple.
 
@@ -518,7 +516,7 @@ Pour cet exemple, vous allez créer les actions suivantes :
 
     - Sur l'organisateur **Général**, dans le champ **Type d'action**, sélectionnez **Traitement utilisateur au niveau du message**.
     - Sur l'organisateur **Statuts initiaux**, dans le champ **Statut du message**, sélectionnez **Généré**.
-    - Sur l'organisateur **Statuts de résultat**, dans le champ **Statut du message**, sélectionnez **Préparé** ou (et) **Nouveau**. Dans le champ **Type de réponse**, entrez **Exécution réussie**.
+    - Dans l'organisateur **Statuts de résultat**, ajoutez une ligne distincte pour les deux statuts de message (**Préparé** et **Nouveau**). Pour les deux lignes, définissez le champ **Type de réponse** sur **Avec succès**.
 
 #### <a name="electronic-message-processing"></a>Traitement du message électronique
 
@@ -526,7 +524,7 @@ Dans cet exemple, toutes les actions doivent être paramétrées de manière à 
 
 1. Accédez à **Taxe \> Paramétrage \> Messages électroniques \> Traitement du message électronique**.
 2. Ajoutez un enregistrement pour votre traitement, puis ajoutez toutes les actions définies précédemment et un champ supplémentaire.
-3. Facultatif : Sur l'organisateur **Rôles de sécurité**, définissez des rôles de sécurité pour votre traitement afin de restreindre l'accès à l'état spécifique.
+3. Facultatif : dans l'organisateur **Rôles de sécurité**, définissez des rôles de sécurité pour votre traitement afin de limiter l'accès à l'état spécifique.
 4. Accédez à **Taxe \> Recherches et états \> Messages électroniques \> Messages électroniques**.
 5. Sélectionnez **Nouveau** pour créer un message. À ce stade, vous pouvez ajouter des dates et une description. Vous pouvez également mettre à jour la valeur du champ supplémentaire au besoin.
 
@@ -534,8 +532,8 @@ Dans cet exemple, toutes les actions doivent être paramétrées de manière à 
 
 La grille sur l'organisateur **Journal des actions** est renseignée automatiquement avec un journal de toutes les actions effectuées sur le message.
 
-Vous pouvez désormais supprimer ou mettre à jour le statut du message. Pour mettre à jour le statut du message, sélectionnez **Mettre à jour le statut**, puis, dans le champ **Nouveau statut**, sélectionnez **Préparé**. Puis sélectionnez **OK**.
+Vous pouvez désormais supprimer ou mettre à jour le statut du message. Pour mettre à jour le statut de message, sélectionnez **Mettre à jour le statut**. Dans le champ **Nouveau statut**, sélectionnez **Préparé**, puis sélectionnez **Ajouter**.
 
 ![Mettre à jour le statut du message](media/update-status.png)
 
-Le statut du message est mis jour sur **Préparé**, et vous pouvez désormais générer l'état en sélectionnant **Générer l'état**. L'état est généré, et le statut du message et le journal des actions sont mis à jour. Pour afficher l'état généré, sélectionnez le bouton **Pièce jointe** sur le volet Actions.
+Le statut du message est mis jour sur **Préparé**, et vous pouvez désormais générer l'état en sélectionnant **Générer l'état**. L'état est généré, et le statut du message et le journal des actions sont mis à jour. Pour afficher l'état généré, sélectionnez le bouton **Pièce jointe** (le symbole du trombone) dans le coin supérieur droit de la page.

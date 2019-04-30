@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782870"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949895"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (27 février 2019)
 
@@ -87,7 +87,7 @@ Généralement, les employés qui rejoignent une organisation ont un date de dé
 
 ## <a name="known-issues"></a>Problèmes connus
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>Modifications apportées au modèle d'intégration Core HR (Talent Common Data Service pour les applications vers Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Modifications apportées au modèle d'intégration Core HR (Talent Common Data Service vers Finance and Operations)
 Le modèle pour Core HR a été mis à jour vers un « modèle de requête avancé ». Par conséquent, par défaut, la requête avancée est disponible pour les projets créés à l'aide de ce modèle. En outre, les fonctions de mise en correspondance par défaut sont visibles uniquement dans l'éditeur de requête avancé. (Les fonctions de mise en correspondance par défaut s'affichent comme « FN » dans les mises en correspondance.)
 
 Pour en savoir plus sur les erreurs de mise en correspondance, voir [Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (14 décembre 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
@@ -100,19 +100,19 @@ Pour mettre à jour votre modèle existant, procédez comme suit.
 
     - **Postes d'une mission aux postes :** supprimez cette mise en correspondance.
     - **Attribution des postes d'une mission au poste parent des missions :** supprimez cette mise en correspondance.
-    - **Postes d'une mission au poste de base :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service pour les applications vers l'entité **Poste de base** de Finance and Operations. Déplacez-le au poste 7 dans la séquence.
+    - **Postes d'une mission au poste de base :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service vers l'entité **Poste de base** de Finance and Operations. Déplacez-le au poste 7 dans la séquence.
 
         [![Mise en correspondance des postes d'une mission avec le poste de base](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Postes d'une mission aux détails du poste :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service pour les applications vers l'entité **Détails du poste** de Finance and Operations. Déplacez-le au poste 8 dans la séquence.
+    - **Postes d'une mission aux détails du poste :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service vers l'entité **Détails du poste** de Finance and Operations. Déplacez-le au poste 8 dans la séquence.
 
         [![Mise en correspondance des postes d'une mission avec les détails du poste](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Postes d'une mission aux durées du poste :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service pour les applications vers l'entité **Durées du poste** de Finance and Operations.
+    - **Postes d'une mission aux durées du poste :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service vers l'entité **Durées du poste** de Finance and Operations.
 
         [![Mise en correspondance des postes d'une mission avec les durées du poste](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Postes d'une mission aux hiérarchies du poste :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service pour les applications vers l'entité **Hiérarchies du poste** de Finance and Operations. Sélectionnez **Requête avancée** pour rendre la requête avancée disponible pour votre projet.
+    - **Postes d'une mission aux hiérarchies du poste :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service vers l'entité **Hiérarchies du poste** de Finance and Operations. Sélectionnez **Requête avancée** pour rendre la requête avancée disponible pour votre projet.
 
        [![Bouton de requête avancée](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
