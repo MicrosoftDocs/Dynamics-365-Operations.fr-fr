@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0751d2e754f5fe40aa2301bf1e744694ac60da5c
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.openlocfilehash: e063d5df4bb67345820a6091af27be84b2b7e518
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "370826"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512904"
 ---
 # <a name="create-a-fund-type-in-the-public-sector"></a>Créer un type de fonds dans le secteur public
 

@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a00c5422e0a7671a76345bb1652e99faaca11109
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 26fc7d567fe9c986078a3268e8f1ac9f4fa34bc8
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370809"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537909"
 ---
 # <a name="fr-00004-post-protest-draw-bill-of-exchange-journal"></a>FR-00004 Valider le journal de création et de contestation des lettres de change
 
