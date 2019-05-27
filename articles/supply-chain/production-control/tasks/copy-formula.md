@@ -17,51 +17,51 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dd87ded3bcc20b94fae723424d9cc6b94049a1a5
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312437"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558766"
 ---
-# <a name="copy-a-formula"></a><span data-ttu-id="ff057-103">Copier une formule</span><span class="sxs-lookup"><span data-stu-id="ff057-103">Copy a formula</span></span>
+# <a name="copy-a-formula"></a><span data-ttu-id="b93ed-103">Copier une formule</span><span class="sxs-lookup"><span data-stu-id="b93ed-103">Copy a formula</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ff057-104">Cette procédure se focalise sur la création d'une formule incluant les mêmes ingrédients qu'une formule existante, mais avec des différences mineures.</span><span class="sxs-lookup"><span data-stu-id="ff057-104">This procedure focuses on creating a formula that includes the same ingredients as an existing formula, but with minor differences.</span></span> <span data-ttu-id="ff057-105">Pour créer les lignes de la formule, vous pouvez utiliser la fonction Copie pour copier une formule existante qui a la plupart des ingrédients dont vous avez besoin.</span><span class="sxs-lookup"><span data-stu-id="ff057-105">To create the formula lines, you can use the Copy function to copy an existing formula that has most of the ingredients that you need.</span></span> <span data-ttu-id="ff057-106">Vous pouvez ensuite effectuer toutes les modifications nécessaires aux différentes lignes dans la nouvelle version.</span><span class="sxs-lookup"><span data-stu-id="ff057-106">You can then make any necessary changes to the individual lines in the new version.</span></span> <span data-ttu-id="ff057-107">En utilisant la fonction Copie, il n'est pas nécessaire de créer plusieurs formules qui sont presque identiques.</span><span class="sxs-lookup"><span data-stu-id="ff057-107">By using the Copy function, you do not have to create multiple formulas that are almost identical.</span></span> <span data-ttu-id="ff057-108">La société fictive de démonstration utilisée pour créer cette tâche est USP2.</span><span class="sxs-lookup"><span data-stu-id="ff057-108">The demo data company used to create this task is USP2.</span></span>
+<span data-ttu-id="b93ed-104">Cette procédure se focalise sur la création d'une formule incluant les mêmes ingrédients qu'une formule existante, mais avec des différences mineures.</span><span class="sxs-lookup"><span data-stu-id="b93ed-104">This procedure focuses on creating a formula that includes the same ingredients as an existing formula, but with minor differences.</span></span> <span data-ttu-id="b93ed-105">Pour créer les lignes de la formule, vous pouvez utiliser la fonction Copie pour copier une formule existante qui a la plupart des ingrédients dont vous avez besoin.</span><span class="sxs-lookup"><span data-stu-id="b93ed-105">To create the formula lines, you can use the Copy function to copy an existing formula that has most of the ingredients that you need.</span></span> <span data-ttu-id="b93ed-106">Vous pouvez ensuite effectuer toutes les modifications nécessaires aux différentes lignes dans la nouvelle version.</span><span class="sxs-lookup"><span data-stu-id="b93ed-106">You can then make any necessary changes to the individual lines in the new version.</span></span> <span data-ttu-id="b93ed-107">En utilisant la fonction Copie, il n'est pas nécessaire de créer plusieurs formules qui sont presque identiques.</span><span class="sxs-lookup"><span data-stu-id="b93ed-107">By using the Copy function, you do not have to create multiple formulas that are almost identical.</span></span> <span data-ttu-id="b93ed-108">La société fictive de démonstration utilisée pour créer cette tâche est USP2.</span><span class="sxs-lookup"><span data-stu-id="b93ed-108">The demo data company used to create this task is USP2.</span></span>
 
 
-## <a name="create-a-formula"></a><span data-ttu-id="ff057-109">Création d'une formule</span><span class="sxs-lookup"><span data-stu-id="ff057-109">Create a formula</span></span>
-1. <span data-ttu-id="ff057-110">Accédez à Gestion d'informations sur les produits > Nomenclatures et formules > Formules.</span><span class="sxs-lookup"><span data-stu-id="ff057-110">Go to Product information management > Bills of materials and formulas > Formulas.</span></span>
-2. <span data-ttu-id="ff057-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ff057-111">Click New.</span></span>
-3. <span data-ttu-id="ff057-112">Dans le champ Formule, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ff057-112">In the Formula field, type a value.</span></span>
-4. <span data-ttu-id="ff057-113">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="ff057-113">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="ff057-114">Tapez un nom descriptif pour la formule.</span><span class="sxs-lookup"><span data-stu-id="ff057-114">Type a meaningful name for the formula.</span></span>  
-5. <span data-ttu-id="ff057-115">Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="ff057-115">In the Site field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="ff057-116">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ff057-116">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="ff057-117">Dans le champ Groupe d'articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="ff057-117">In the Item group field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="ff057-118">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ff057-118">In the list, find and select the desired record.</span></span>
-9. <span data-ttu-id="ff057-119">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ff057-119">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="ff057-120">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ff057-120">Click Save.</span></span>
+## <a name="create-a-formula"></a><span data-ttu-id="b93ed-109">Création d'une formule</span><span class="sxs-lookup"><span data-stu-id="b93ed-109">Create a formula</span></span>
+1. <span data-ttu-id="b93ed-110">Accédez à Gestion d'informations sur les produits > Nomenclatures et formules > Formules.</span><span class="sxs-lookup"><span data-stu-id="b93ed-110">Go to Product information management > Bills of materials and formulas > Formulas.</span></span>
+2. <span data-ttu-id="b93ed-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="b93ed-111">Click New.</span></span>
+3. <span data-ttu-id="b93ed-112">Dans le champ Formule, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b93ed-112">In the Formula field, type a value.</span></span>
+4. <span data-ttu-id="b93ed-113">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="b93ed-113">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="b93ed-114">Tapez un nom descriptif pour la formule.</span><span class="sxs-lookup"><span data-stu-id="b93ed-114">Type a meaningful name for the formula.</span></span>  
+5. <span data-ttu-id="b93ed-115">Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="b93ed-115">In the Site field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="b93ed-116">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b93ed-116">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="b93ed-117">Dans le champ Groupe d'articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="b93ed-117">In the Item group field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="b93ed-118">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="b93ed-118">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="b93ed-119">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b93ed-119">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="b93ed-120">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="b93ed-120">Click Save.</span></span>
 
-## <a name="copy-formula-lines"></a><span data-ttu-id="ff057-121">Copier des lignes de formule</span><span class="sxs-lookup"><span data-stu-id="ff057-121">Copy formula lines</span></span>
-1. <span data-ttu-id="ff057-122">Dans le volet Actions, cliquez sur Formule.</span><span class="sxs-lookup"><span data-stu-id="ff057-122">On the Action Pane, click Formula.</span></span>
-2. <span data-ttu-id="ff057-123">Cliquez sur Copier.</span><span class="sxs-lookup"><span data-stu-id="ff057-123">Click Copy.</span></span>
-3. <span data-ttu-id="ff057-124">Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="ff057-124">In the Item number field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="ff057-125">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ff057-125">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="ff057-126">Dans le champ Version de la formule, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="ff057-126">In the Formula version field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="ff057-127">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ff057-127">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="ff057-128">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ff057-128">Click OK.</span></span>
+## <a name="copy-formula-lines"></a><span data-ttu-id="b93ed-121">Copier des lignes de formule</span><span class="sxs-lookup"><span data-stu-id="b93ed-121">Copy formula lines</span></span>
+1. <span data-ttu-id="b93ed-122">Dans le volet Actions, cliquez sur Formule.</span><span class="sxs-lookup"><span data-stu-id="b93ed-122">On the Action Pane, click Formula.</span></span>
+2. <span data-ttu-id="b93ed-123">Cliquez sur Copier.</span><span class="sxs-lookup"><span data-stu-id="b93ed-123">Click Copy.</span></span>
+3. <span data-ttu-id="b93ed-124">Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="b93ed-124">In the Item number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="b93ed-125">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b93ed-125">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="b93ed-126">Dans le champ Version de la formule, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="b93ed-126">In the Formula version field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="b93ed-127">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b93ed-127">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="b93ed-128">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b93ed-128">Click OK.</span></span>
 
-## <a name="adjust-copied-formula-lines"></a><span data-ttu-id="ff057-129">Ajuster des lignes de formule copiées</span><span class="sxs-lookup"><span data-stu-id="ff057-129">Adjust copied formula lines</span></span>
-1. <span data-ttu-id="ff057-130">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ff057-130">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="ff057-131">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="ff057-131">Click Delete.</span></span>
-3. <span data-ttu-id="ff057-132">Cliquez sur Oui.</span><span class="sxs-lookup"><span data-stu-id="ff057-132">Click Yes.</span></span>
+## <a name="adjust-copied-formula-lines"></a><span data-ttu-id="b93ed-129">Ajuster des lignes de formule copiées</span><span class="sxs-lookup"><span data-stu-id="b93ed-129">Adjust copied formula lines</span></span>
+1. <span data-ttu-id="b93ed-130">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b93ed-130">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="b93ed-131">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="b93ed-131">Click Delete.</span></span>
+3. <span data-ttu-id="b93ed-132">Cliquez sur Oui.</span><span class="sxs-lookup"><span data-stu-id="b93ed-132">Click Yes.</span></span>
 
-## <a name="approve-formula"></a><span data-ttu-id="ff057-133">Approuver la formule</span><span class="sxs-lookup"><span data-stu-id="ff057-133">Approve formula</span></span>
-1. <span data-ttu-id="ff057-134">Dans le volet Actions, cliquez sur Formule.</span><span class="sxs-lookup"><span data-stu-id="ff057-134">On the Action Pane, click Formula.</span></span>
-2. <span data-ttu-id="ff057-135">Cliquez sur Approuver la formule.</span><span class="sxs-lookup"><span data-stu-id="ff057-135">Click Approve formula.</span></span>
-3. <span data-ttu-id="ff057-136">Dans le champ Approbateur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="ff057-136">In the Approved by field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="ff057-137">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ff057-137">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="ff057-138">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="ff057-138">Click Select.</span></span>
-6. <span data-ttu-id="ff057-139">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ff057-139">Click OK.</span></span>
+## <a name="approve-formula"></a><span data-ttu-id="b93ed-133">Approuver la formule</span><span class="sxs-lookup"><span data-stu-id="b93ed-133">Approve formula</span></span>
+1. <span data-ttu-id="b93ed-134">Dans le volet Actions, cliquez sur Formule.</span><span class="sxs-lookup"><span data-stu-id="b93ed-134">On the Action Pane, click Formula.</span></span>
+2. <span data-ttu-id="b93ed-135">Cliquez sur Approuver la formule.</span><span class="sxs-lookup"><span data-stu-id="b93ed-135">Click Approve formula.</span></span>
+3. <span data-ttu-id="b93ed-136">Dans le champ Approbateur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="b93ed-136">In the Approved by field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="b93ed-137">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b93ed-137">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="b93ed-138">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="b93ed-138">Click Select.</span></span>
+6. <span data-ttu-id="b93ed-139">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b93ed-139">Click OK.</span></span>
 

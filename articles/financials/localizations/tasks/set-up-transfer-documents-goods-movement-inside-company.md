@@ -17,60 +17,60 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 69542df1384bb36d89e2df5e5bc5fbe3dbe3c4cf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311839"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565018"
 ---
-# <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a><span data-ttu-id="01e46-103">Paramétrer les documents de transfert pour le mouvement de marchandises dans une société</span><span class="sxs-lookup"><span data-stu-id="01e46-103">Set up the transfer documents for goods movement inside a company</span></span>
+# <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a><span data-ttu-id="ad86f-103">Paramétrer les documents de transfert pour le mouvement de marchandises dans une société</span><span class="sxs-lookup"><span data-stu-id="ad86f-103">Set up the transfer documents for goods movement inside a company</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="01e46-104">Cette procédure indique comment créer des documents de transfert pour le mouvement de marchandises dans une société.</span><span class="sxs-lookup"><span data-stu-id="01e46-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="01e46-105">Cette procédure est uniquement disponible pour les entités juridiques dont l'adresse principale se situe en Lituanie.</span><span class="sxs-lookup"><span data-stu-id="01e46-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="01e46-106">La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Lituanie.</span><span class="sxs-lookup"><span data-stu-id="01e46-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="01e46-107">Avant d'exécuter cette procédure, vous devez exécuter la procédure « Paramétrer les documents de transfert pour le mouvement de marchandises dans une société ».</span><span class="sxs-lookup"><span data-stu-id="01e46-107">Before you can complete this procedure, you must complete the “Set up transfer documents for goods movement inside a company” procedure.</span></span> <span data-ttu-id="01e46-108">Cette procédure est destinée aux comptables de stock.</span><span class="sxs-lookup"><span data-stu-id="01e46-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="01e46-109">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="01e46-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="ad86f-104">Cette procédure indique comment créer des documents de transfert pour le mouvement de marchandises dans une société.</span><span class="sxs-lookup"><span data-stu-id="ad86f-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="ad86f-105">Cette procédure est uniquement disponible pour les entités juridiques dont l'adresse principale se situe en Lituanie.</span><span class="sxs-lookup"><span data-stu-id="ad86f-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="ad86f-106">La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Lituanie.</span><span class="sxs-lookup"><span data-stu-id="ad86f-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="ad86f-107">Avant d'exécuter cette procédure, vous devez exécuter la procédure « Paramétrer les documents de transfert pour le mouvement de marchandises dans une société ».</span><span class="sxs-lookup"><span data-stu-id="ad86f-107">Before you can complete this procedure, you must complete the “Set up transfer documents for goods movement inside a company” procedure.</span></span> <span data-ttu-id="ad86f-108">Cette procédure est destinée aux comptables de stock.</span><span class="sxs-lookup"><span data-stu-id="ad86f-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="ad86f-109">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="ad86f-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-transfer-order"></a><span data-ttu-id="01e46-110">Création d'un ordre de transfert</span><span class="sxs-lookup"><span data-stu-id="01e46-110">Create a transfer order</span></span>
-1. <span data-ttu-id="01e46-111">Accédez à Gestion des stocks > Commandes entrantes > Ordre de transfert.</span><span class="sxs-lookup"><span data-stu-id="01e46-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
-2. <span data-ttu-id="01e46-112">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="01e46-112">Click New.</span></span>
-3. <span data-ttu-id="01e46-113">Dans le champ Entrepôt d'origine, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-113">In the From warehouse field, enter or select a value.</span></span>
-4. <span data-ttu-id="01e46-114">Dans le champ Entrepôt de destination, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-114">In the To warehouse field, enter or select a value.</span></span>
-5. <span data-ttu-id="01e46-115">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="01e46-115">Click Add.</span></span>
-6. <span data-ttu-id="01e46-116">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="01e46-116">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="01e46-117">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="01e46-117">In the Item number field, enter or select a value.</span></span>
+## <a name="create-a-transfer-order"></a><span data-ttu-id="ad86f-110">Création d'un ordre de transfert</span><span class="sxs-lookup"><span data-stu-id="ad86f-110">Create a transfer order</span></span>
+1. <span data-ttu-id="ad86f-111">Accédez à Gestion des stocks > Commandes entrantes > Ordre de transfert.</span><span class="sxs-lookup"><span data-stu-id="ad86f-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
+2. <span data-ttu-id="ad86f-112">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ad86f-112">Click New.</span></span>
+3. <span data-ttu-id="ad86f-113">Dans le champ Entrepôt d'origine, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-113">In the From warehouse field, enter or select a value.</span></span>
+4. <span data-ttu-id="ad86f-114">Dans le champ Entrepôt de destination, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-114">In the To warehouse field, enter or select a value.</span></span>
+5. <span data-ttu-id="ad86f-115">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="ad86f-115">Click Add.</span></span>
+6. <span data-ttu-id="ad86f-116">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ad86f-116">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="ad86f-117">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="ad86f-117">In the Item number field, enter or select a value.</span></span>
 
-## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="01e46-118">Entrer les détails du transport pour l'ordre de transfert</span><span class="sxs-lookup"><span data-stu-id="01e46-118">Enter transportation details for the transfer order</span></span>
-1. <span data-ttu-id="01e46-119">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="01e46-119">Click Save.</span></span>
-2. <span data-ttu-id="01e46-120">Dans le volet Actions, cliquez sur Expédier.</span><span class="sxs-lookup"><span data-stu-id="01e46-120">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="01e46-121">Cliquez sur Détails du transport.</span><span class="sxs-lookup"><span data-stu-id="01e46-121">Click Transportation details.</span></span>
-4. <span data-ttu-id="01e46-122">Sélectionnez Oui dans le champ Imprimer les détails du transport.</span><span class="sxs-lookup"><span data-stu-id="01e46-122">Select Yes in the Print transportation details field.</span></span>
-5. <span data-ttu-id="01e46-123">Dans le champ Marchandises émises par, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-123">In the Goods issued by field, enter or select a value.</span></span>
-6. <span data-ttu-id="01e46-124">Dans le champ Colis, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-124">In the Package field, type a value.</span></span>
-7. <span data-ttu-id="01e46-125">Dans le champ Niveau de risque de la charge, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-125">In the Risk level of the load field, type a value.</span></span>
-8. <span data-ttu-id="01e46-126">Dans le champ Transporteur, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-126">In the Carrier field, enter or select a value.</span></span>
-9. <span data-ttu-id="01e46-127">Dans le champ Modèle, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-127">In the Model field, enter or select a value.</span></span>
-10. <span data-ttu-id="01e46-128">Dans le champ Numéro d'enregistrement, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-128">In the Registration number field, type a value.</span></span>
-11. <span data-ttu-id="01e46-129">Dans le champ Numéro d'enregistrement de la remorque, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-129">In the Trailer registration number field, type a value.</span></span>
-12. <span data-ttu-id="01e46-130">Dans le champ Chauffeur, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-130">In the Driver field, enter or select a value.</span></span>
-13. <span data-ttu-id="01e46-131">Dans le champ Nom du chauffeur, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="01e46-131">In the Driver name field, type a value.</span></span>
-14. <span data-ttu-id="01e46-132">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="01e46-132">Click Save.</span></span>
-15. <span data-ttu-id="01e46-133">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="01e46-133">Close the page.</span></span>
+## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="ad86f-118">Entrer les détails du transport pour l'ordre de transfert</span><span class="sxs-lookup"><span data-stu-id="ad86f-118">Enter transportation details for the transfer order</span></span>
+1. <span data-ttu-id="ad86f-119">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ad86f-119">Click Save.</span></span>
+2. <span data-ttu-id="ad86f-120">Dans le volet Actions, cliquez sur Expédier.</span><span class="sxs-lookup"><span data-stu-id="ad86f-120">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="ad86f-121">Cliquez sur Détails du transport.</span><span class="sxs-lookup"><span data-stu-id="ad86f-121">Click Transportation details.</span></span>
+4. <span data-ttu-id="ad86f-122">Sélectionnez Oui dans le champ Imprimer les détails du transport.</span><span class="sxs-lookup"><span data-stu-id="ad86f-122">Select Yes in the Print transportation details field.</span></span>
+5. <span data-ttu-id="ad86f-123">Dans le champ Marchandises émises par, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-123">In the Goods issued by field, enter or select a value.</span></span>
+6. <span data-ttu-id="ad86f-124">Dans le champ Colis, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-124">In the Package field, type a value.</span></span>
+7. <span data-ttu-id="ad86f-125">Dans le champ Niveau de risque de la charge, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-125">In the Risk level of the load field, type a value.</span></span>
+8. <span data-ttu-id="ad86f-126">Dans le champ Transporteur, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-126">In the Carrier field, enter or select a value.</span></span>
+9. <span data-ttu-id="ad86f-127">Dans le champ Modèle, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-127">In the Model field, enter or select a value.</span></span>
+10. <span data-ttu-id="ad86f-128">Dans le champ Numéro d'enregistrement, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-128">In the Registration number field, type a value.</span></span>
+11. <span data-ttu-id="ad86f-129">Dans le champ Numéro d'enregistrement de la remorque, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-129">In the Trailer registration number field, type a value.</span></span>
+12. <span data-ttu-id="ad86f-130">Dans le champ Chauffeur, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-130">In the Driver field, enter or select a value.</span></span>
+13. <span data-ttu-id="ad86f-131">Dans le champ Nom du chauffeur, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ad86f-131">In the Driver name field, type a value.</span></span>
+14. <span data-ttu-id="ad86f-132">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ad86f-132">Click Save.</span></span>
+15. <span data-ttu-id="ad86f-133">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ad86f-133">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="01e46-134">Afficher le bon de livraison pour l'ordre de transfert non validé</span><span class="sxs-lookup"><span data-stu-id="01e46-134">View the packing slip for the unposted transfer order</span></span>
-1. <span data-ttu-id="01e46-135">Cliquez sur Bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="01e46-135">Click Packing slip.</span></span>
-2. <span data-ttu-id="01e46-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="01e46-136">Click OK.</span></span>
-3. <span data-ttu-id="01e46-137">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="01e46-137">Close the page.</span></span>
+## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="ad86f-134">Afficher le bon de livraison pour l'ordre de transfert non validé</span><span class="sxs-lookup"><span data-stu-id="ad86f-134">View the packing slip for the unposted transfer order</span></span>
+1. <span data-ttu-id="ad86f-135">Cliquez sur Bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="ad86f-135">Click Packing slip.</span></span>
+2. <span data-ttu-id="ad86f-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ad86f-136">Click OK.</span></span>
+3. <span data-ttu-id="ad86f-137">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ad86f-137">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="01e46-138">Afficher le bon de livraison pour l'ordre de transfert validé</span><span class="sxs-lookup"><span data-stu-id="01e46-138">View the packing slip for the posted transfer order</span></span>
-1. <span data-ttu-id="01e46-139">Dans le volet Actions, cliquez sur Ordre de transfert.</span><span class="sxs-lookup"><span data-stu-id="01e46-139">On the Action Pane, click Transfer order.</span></span>
-2. <span data-ttu-id="01e46-140">Dans le volet Actions, cliquez sur Expédier.</span><span class="sxs-lookup"><span data-stu-id="01e46-140">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="01e46-141">Cliquez sur Expédier l'ordre de transfert.</span><span class="sxs-lookup"><span data-stu-id="01e46-141">Click Ship transfer order.</span></span>
-4. <span data-ttu-id="01e46-142">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="01e46-142">Click the General tab.</span></span>
-5. <span data-ttu-id="01e46-143">Dans le champ Mettre à jour, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="01e46-143">In the Update field, select an option.</span></span>
-6. <span data-ttu-id="01e46-144">Cliquez sur l'onglet Vue d'ensemble.</span><span class="sxs-lookup"><span data-stu-id="01e46-144">Click the Overview tab.</span></span>
-7. <span data-ttu-id="01e46-145">Tapez une valeur dans le champ Bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="01e46-145">In the Packing slip field, type a value.</span></span>
-8. <span data-ttu-id="01e46-146">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="01e46-146">Click OK.</span></span>
-9. <span data-ttu-id="01e46-147">Dans le volet Actions, cliquez sur Expédier.</span><span class="sxs-lookup"><span data-stu-id="01e46-147">On the Action Pane, click Ship.</span></span>
-10. <span data-ttu-id="01e46-148">Cliquez sur Bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="01e46-148">Click Packing slip.</span></span>
-11. <span data-ttu-id="01e46-149">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="01e46-149">Click OK.</span></span>
+## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="ad86f-138">Afficher le bon de livraison pour l'ordre de transfert validé</span><span class="sxs-lookup"><span data-stu-id="ad86f-138">View the packing slip for the posted transfer order</span></span>
+1. <span data-ttu-id="ad86f-139">Dans le volet Actions, cliquez sur Ordre de transfert.</span><span class="sxs-lookup"><span data-stu-id="ad86f-139">On the Action Pane, click Transfer order.</span></span>
+2. <span data-ttu-id="ad86f-140">Dans le volet Actions, cliquez sur Expédier.</span><span class="sxs-lookup"><span data-stu-id="ad86f-140">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="ad86f-141">Cliquez sur Expédier l'ordre de transfert.</span><span class="sxs-lookup"><span data-stu-id="ad86f-141">Click Ship transfer order.</span></span>
+4. <span data-ttu-id="ad86f-142">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="ad86f-142">Click the General tab.</span></span>
+5. <span data-ttu-id="ad86f-143">Dans le champ Mettre à jour, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="ad86f-143">In the Update field, select an option.</span></span>
+6. <span data-ttu-id="ad86f-144">Cliquez sur l'onglet Vue d'ensemble.</span><span class="sxs-lookup"><span data-stu-id="ad86f-144">Click the Overview tab.</span></span>
+7. <span data-ttu-id="ad86f-145">Tapez une valeur dans le champ Bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="ad86f-145">In the Packing slip field, type a value.</span></span>
+8. <span data-ttu-id="ad86f-146">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ad86f-146">Click OK.</span></span>
+9. <span data-ttu-id="ad86f-147">Dans le volet Actions, cliquez sur Expédier.</span><span class="sxs-lookup"><span data-stu-id="ad86f-147">On the Action Pane, click Ship.</span></span>
+10. <span data-ttu-id="ad86f-148">Cliquez sur Bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="ad86f-148">Click Packing slip.</span></span>
+11. <span data-ttu-id="ad86f-149">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ad86f-149">Click OK.</span></span>
 
