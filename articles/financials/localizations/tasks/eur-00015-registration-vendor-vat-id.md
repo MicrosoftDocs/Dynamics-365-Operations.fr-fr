@@ -16,51 +16,51 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9788a35e768a4a289742e9cd864b3ca185a0407
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 33e21137e604ead6cc3a7ad6f0b5bb6bfdc6992e
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370816"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537905"
 ---
-# <a name="eur-00015-registration-of-vendor-vat-id"></a><span data-ttu-id="461e8-103">EUR-00015 Enregistrement de l'ID de TVA du fournisseur</span><span class="sxs-lookup"><span data-stu-id="461e8-103">EUR-00015 Registration of vendor VAT ID</span></span>
+# <a name="eur-00015-registration-of-vendor-vat-id"></a><span data-ttu-id="eb38d-103">EUR-00015 Enregistrement de l'ID de TVA du fournisseur</span><span class="sxs-lookup"><span data-stu-id="eb38d-103">EUR-00015 Registration of vendor VAT ID</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="461e8-104">Cette procédure indique comment ajouter des ID d'enregistrement de TVA et un numéro sans TVA à un compte fournisseur.</span><span class="sxs-lookup"><span data-stu-id="461e8-104">This procedure shows how to add VAT registration IDs and a tax except number to a vendor account.</span></span> <span data-ttu-id="461e8-105">Ce processus est similaire pour les entités juridiques et les clients.</span><span class="sxs-lookup"><span data-stu-id="461e8-105">This process is similar for legal entities and customers.</span></span> 
+<span data-ttu-id="eb38d-104">Cette procédure indique comment ajouter des ID d'enregistrement de TVA et un numéro sans TVA à un compte fournisseur.</span><span class="sxs-lookup"><span data-stu-id="eb38d-104">This procedure shows how to add VAT registration IDs and a tax except number to a vendor account.</span></span> <span data-ttu-id="eb38d-105">Ce processus est similaire pour les entités juridiques et les clients.</span><span class="sxs-lookup"><span data-stu-id="eb38d-105">This process is similar for legal entities and customers.</span></span> 
 
-<span data-ttu-id="461e8-106">Pour pouvoir effectuer cette procédure, vous devez paramétrer des ID de TVA.</span><span class="sxs-lookup"><span data-stu-id="461e8-106">Before you can complete this procedure you must set up VAT IDs.</span></span> <span data-ttu-id="461e8-107">Cette procédure s'applique à tous les pays/régions européens.</span><span class="sxs-lookup"><span data-stu-id="461e8-107">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="461e8-108">La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Allemagne.</span><span class="sxs-lookup"><span data-stu-id="461e8-108">The procedure was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="461e8-109">Cette procédure s'adresse à un administrateur de la gestion des données, à un responsable de la comptabilité fournisseur ou à un responsable de la comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="461e8-109">This procedure is intended for a data management administrator, accounts payable manager, or accounts receivable manager.</span></span> <span data-ttu-id="461e8-110">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="461e8-110">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="eb38d-106">Pour pouvoir effectuer cette procédure, vous devez paramétrer des ID de TVA.</span><span class="sxs-lookup"><span data-stu-id="eb38d-106">Before you can complete this procedure you must set up VAT IDs.</span></span> <span data-ttu-id="eb38d-107">Cette procédure s'applique à tous les pays/régions européens.</span><span class="sxs-lookup"><span data-stu-id="eb38d-107">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="eb38d-108">La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Allemagne.</span><span class="sxs-lookup"><span data-stu-id="eb38d-108">The procedure was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="eb38d-109">Cette procédure s'adresse à un administrateur de la gestion des données, à un responsable de la comptabilité fournisseur ou à un responsable de la comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="eb38d-109">This procedure is intended for a data management administrator, accounts payable manager, or accounts receivable manager.</span></span> <span data-ttu-id="eb38d-110">Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="eb38d-110">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. <span data-ttu-id="461e8-111">Accédez à Comptabilité fournisseur > Fournisseurs > Tous les fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="461e8-111">Go to Accounts payable > Vendors > All vendors.</span></span>
-2. <span data-ttu-id="461e8-112">Dans la liste, recherchez et sélectionnez le fournisseur DE-01001</span><span class="sxs-lookup"><span data-stu-id="461e8-112">In the list find and select vendor DE-01001</span></span>
-3. <span data-ttu-id="461e8-113">Cliquez sur ID enregistrement.</span><span class="sxs-lookup"><span data-stu-id="461e8-113">Click Registration IDs.</span></span>
-4. <span data-ttu-id="461e8-114">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="461e8-114">Click Add.</span></span>
-5. <span data-ttu-id="461e8-115">Sélectionnez l'ID de TVA.</span><span class="sxs-lookup"><span data-stu-id="461e8-115">Select VAT ID.</span></span>
-6. <span data-ttu-id="461e8-116">Dans le champ Numéro d'enregistrement, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="461e8-116">In the Registration number field, type a value.</span></span>
-    * <span data-ttu-id="461e8-117">Spécifiez un ID de TVA en Allemagne pour le fournisseur sélectionné.</span><span class="sxs-lookup"><span data-stu-id="461e8-117">Specify a VAT ID in Germany for the selected vendor.</span></span> <span data-ttu-id="461e8-118">L'ID doit correspondre au format spécifié du type d'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="461e8-118">The ID must match the specified format of the registration type.</span></span>  
-7. <span data-ttu-id="461e8-119">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="461e8-119">Click the General tab.</span></span>
-8. <span data-ttu-id="461e8-120">Dans le champ Effet, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="461e8-120">In the Effective field, enter a date.</span></span>
-9. <span data-ttu-id="461e8-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="461e8-121">Click Save.</span></span>
-10. <span data-ttu-id="461e8-122">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="461e8-122">Click New.</span></span>
-11. <span data-ttu-id="461e8-123">Tapez une valeur dans le champ Nom ou description.</span><span class="sxs-lookup"><span data-stu-id="461e8-123">In the Name or description field, type a value.</span></span>
-    * <span data-ttu-id="461e8-124">Par exemple, entrez ITA.</span><span class="sxs-lookup"><span data-stu-id="461e8-124">For example, enter ITA.</span></span>  
-12. <span data-ttu-id="461e8-125">Dans le champ Pays/Région, sélectionnez ou entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="461e8-125">In the Country/region field, enter or select a value.</span></span>
-    * <span data-ttu-id="461e8-126">Par exemple, sélectionnez ITA.</span><span class="sxs-lookup"><span data-stu-id="461e8-126">For example, select ITA.</span></span>  
-13. <span data-ttu-id="461e8-127">Sélectionnez Oui dans le champ Principal pour le pays.</span><span class="sxs-lookup"><span data-stu-id="461e8-127">Select Yes in the Primary for country field.</span></span>
-14. <span data-ttu-id="461e8-128">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="461e8-128">Click Save.</span></span>
-15. <span data-ttu-id="461e8-129">Cliquez sur l'onglet Vue d'ensemble.</span><span class="sxs-lookup"><span data-stu-id="461e8-129">Click the Overview tab.</span></span>
-16. <span data-ttu-id="461e8-130">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="461e8-130">Click Add.</span></span>
-17. <span data-ttu-id="461e8-131">Dans le champ Type d'enregistrement, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="461e8-131">In the Registration type field, enter or select a value.</span></span>
-    * <span data-ttu-id="461e8-132">Par exemple, sélectionnez ID TVA.</span><span class="sxs-lookup"><span data-stu-id="461e8-132">For example, select VAT ID.</span></span>  
-18. <span data-ttu-id="461e8-133">Dans le champ Numéro d'enregistrement, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="461e8-133">In the Registration number field, type a value.</span></span>
-    * <span data-ttu-id="461e8-134">Par exemple, spécifiez un ID de TVA en Italie.</span><span class="sxs-lookup"><span data-stu-id="461e8-134">For example, specify a VAT ID in Italy.</span></span>  <span data-ttu-id="461e8-135">L'ID doit avoir le même format que le type d'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="461e8-135">The ID must have the same format as the registration type.</span></span>  
-19. <span data-ttu-id="461e8-136">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="461e8-136">Click Save.</span></span>
-20. <span data-ttu-id="461e8-137">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="461e8-137">Close the page.</span></span>
-21. <span data-ttu-id="461e8-138">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="461e8-138">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="461e8-139">Par exemple, sélectionnez DE-01001.</span><span class="sxs-lookup"><span data-stu-id="461e8-139">For example, select DE-01001.</span></span>  
-22. <span data-ttu-id="461e8-140">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="461e8-140">In the list, click the link in the selected row.</span></span>
-23. <span data-ttu-id="461e8-141">Développez la section Facturation et livraison.</span><span class="sxs-lookup"><span data-stu-id="461e8-141">Expand the Invoice and delivery section.</span></span>
-24. <span data-ttu-id="461e8-142">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="461e8-142">Click Edit.</span></span>
-25. <span data-ttu-id="461e8-143">Dans le champ Numéro identifiant TVA, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="461e8-143">In the Tax exempt number field, enter or select a value.</span></span>
-26. <span data-ttu-id="461e8-144">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="461e8-144">Click Save.</span></span>
+1. <span data-ttu-id="eb38d-111">Accédez à Comptabilité fournisseur > Fournisseurs > Tous les fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="eb38d-111">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="eb38d-112">Dans la liste, recherchez et sélectionnez le fournisseur DE-01001</span><span class="sxs-lookup"><span data-stu-id="eb38d-112">In the list find and select vendor DE-01001</span></span>
+3. <span data-ttu-id="eb38d-113">Cliquez sur ID enregistrement.</span><span class="sxs-lookup"><span data-stu-id="eb38d-113">Click Registration IDs.</span></span>
+4. <span data-ttu-id="eb38d-114">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="eb38d-114">Click Add.</span></span>
+5. <span data-ttu-id="eb38d-115">Sélectionnez l'ID de TVA.</span><span class="sxs-lookup"><span data-stu-id="eb38d-115">Select VAT ID.</span></span>
+6. <span data-ttu-id="eb38d-116">Dans le champ Numéro d'enregistrement, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="eb38d-116">In the Registration number field, type a value.</span></span>
+    * <span data-ttu-id="eb38d-117">Spécifiez un ID de TVA en Allemagne pour le fournisseur sélectionné.</span><span class="sxs-lookup"><span data-stu-id="eb38d-117">Specify a VAT ID in Germany for the selected vendor.</span></span> <span data-ttu-id="eb38d-118">L'ID doit correspondre au format spécifié du type d'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="eb38d-118">The ID must match the specified format of the registration type.</span></span>  
+7. <span data-ttu-id="eb38d-119">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="eb38d-119">Click the General tab.</span></span>
+8. <span data-ttu-id="eb38d-120">Dans le champ Effet, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="eb38d-120">In the Effective field, enter a date.</span></span>
+9. <span data-ttu-id="eb38d-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="eb38d-121">Click Save.</span></span>
+10. <span data-ttu-id="eb38d-122">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="eb38d-122">Click New.</span></span>
+11. <span data-ttu-id="eb38d-123">Tapez une valeur dans le champ Nom ou description.</span><span class="sxs-lookup"><span data-stu-id="eb38d-123">In the Name or description field, type a value.</span></span>
+    * <span data-ttu-id="eb38d-124">Par exemple, entrez ITA.</span><span class="sxs-lookup"><span data-stu-id="eb38d-124">For example, enter ITA.</span></span>  
+12. <span data-ttu-id="eb38d-125">Dans le champ Pays/Région, sélectionnez ou entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="eb38d-125">In the Country/region field, enter or select a value.</span></span>
+    * <span data-ttu-id="eb38d-126">Par exemple, sélectionnez ITA.</span><span class="sxs-lookup"><span data-stu-id="eb38d-126">For example, select ITA.</span></span>  
+13. <span data-ttu-id="eb38d-127">Sélectionnez Oui dans le champ Principal pour le pays.</span><span class="sxs-lookup"><span data-stu-id="eb38d-127">Select Yes in the Primary for country field.</span></span>
+14. <span data-ttu-id="eb38d-128">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="eb38d-128">Click Save.</span></span>
+15. <span data-ttu-id="eb38d-129">Cliquez sur l'onglet Vue d'ensemble.</span><span class="sxs-lookup"><span data-stu-id="eb38d-129">Click the Overview tab.</span></span>
+16. <span data-ttu-id="eb38d-130">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="eb38d-130">Click Add.</span></span>
+17. <span data-ttu-id="eb38d-131">Dans le champ Type d'enregistrement, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="eb38d-131">In the Registration type field, enter or select a value.</span></span>
+    * <span data-ttu-id="eb38d-132">Par exemple, sélectionnez ID TVA.</span><span class="sxs-lookup"><span data-stu-id="eb38d-132">For example, select VAT ID.</span></span>  
+18. <span data-ttu-id="eb38d-133">Dans le champ Numéro d'enregistrement, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="eb38d-133">In the Registration number field, type a value.</span></span>
+    * <span data-ttu-id="eb38d-134">Par exemple, spécifiez un ID de TVA en Italie.</span><span class="sxs-lookup"><span data-stu-id="eb38d-134">For example, specify a VAT ID in Italy.</span></span>  <span data-ttu-id="eb38d-135">L'ID doit avoir le même format que le type d'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="eb38d-135">The ID must have the same format as the registration type.</span></span>  
+19. <span data-ttu-id="eb38d-136">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="eb38d-136">Click Save.</span></span>
+20. <span data-ttu-id="eb38d-137">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="eb38d-137">Close the page.</span></span>
+21. <span data-ttu-id="eb38d-138">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="eb38d-138">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="eb38d-139">Par exemple, sélectionnez DE-01001.</span><span class="sxs-lookup"><span data-stu-id="eb38d-139">For example, select DE-01001.</span></span>  
+22. <span data-ttu-id="eb38d-140">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="eb38d-140">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="eb38d-141">Développez la section Facturation et livraison.</span><span class="sxs-lookup"><span data-stu-id="eb38d-141">Expand the Invoice and delivery section.</span></span>
+24. <span data-ttu-id="eb38d-142">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="eb38d-142">Click Edit.</span></span>
+25. <span data-ttu-id="eb38d-143">Dans le champ Numéro identifiant TVA, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="eb38d-143">In the Tax exempt number field, enter or select a value.</span></span>
+26. <span data-ttu-id="eb38d-144">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="eb38d-144">Click Save.</span></span>
 

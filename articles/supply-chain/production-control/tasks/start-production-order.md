@@ -17,56 +17,56 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f83091a9f3e96a9176860bd16fa5969507488a25
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346224"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547466"
 ---
-# <a name="start-a-production-order"></a><span data-ttu-id="9d33e-103">Démarrer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="9d33e-103">Start a production order</span></span>
+# <a name="start-a-production-order"></a><span data-ttu-id="6d2e0-103">Démarrer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="6d2e0-103">Start a production order</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="9d33e-104">Cette procédure indique comment démarrer un ordre de fabrication à l'atelier.</span><span class="sxs-lookup"><span data-stu-id="9d33e-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="9d33e-105">La consommation de matières et de temps est déclarée dans ce processus.</span><span class="sxs-lookup"><span data-stu-id="9d33e-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="9d33e-106">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="9d33e-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9d33e-107">Il s'agit de la cinquième des sept procédures expliquant le cycle de vie de l'ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="9d33e-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="6d2e0-104">Cette procédure indique comment démarrer un ordre de fabrication à l'atelier.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="6d2e0-105">La consommation de matières et de temps est déclarée dans ce processus.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="6d2e0-106">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6d2e0-107">Il s'agit de la cinquième des sept procédures expliquant le cycle de vie de l'ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a><span data-ttu-id="9d33e-108">Démarrer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="9d33e-108">Start a production order</span></span>
-1. <span data-ttu-id="9d33e-109">Accédez à Contrôle de la production > Ordres de fabrication > Tous les ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="9d33e-109">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="9d33e-110">Sélectionnez un ordre de fabrication ayant le statut Lancé.</span><span class="sxs-lookup"><span data-stu-id="9d33e-110">Select a production order that has the Released status.</span></span>  
-2. <span data-ttu-id="9d33e-111">Cliquez sur Ordre de fabrication dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="9d33e-111">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="9d33e-112">Cliquez sur Démarrer.</span><span class="sxs-lookup"><span data-stu-id="9d33e-112">Click Start.</span></span>
-    * <span data-ttu-id="9d33e-113">Dans cette page, vous pouvez confirmer le début de l'ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="9d33e-113">On this page, you can confirm the start of the production order.</span></span>  
-4. <span data-ttu-id="9d33e-114">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="9d33e-114">Click the General tab.</span></span>
-5. <span data-ttu-id="9d33e-115">Dans le champ Du n° opér.,</span><span class="sxs-lookup"><span data-stu-id="9d33e-115">In the From Oper.</span></span> <span data-ttu-id="9d33e-116">N°</span><span class="sxs-lookup"><span data-stu-id="9d33e-116">No.</span></span> <span data-ttu-id="9d33e-117">entrez 10.</span><span class="sxs-lookup"><span data-stu-id="9d33e-117">field, enter '10'.</span></span>
-6. <span data-ttu-id="9d33e-118">Dans le champ Consommation de gamme automatique, sélectionnez « Toujours ».</span><span class="sxs-lookup"><span data-stu-id="9d33e-118">In the Automatic route consumption field, select 'Always'.</span></span>
-7. <span data-ttu-id="9d33e-119">Cochez la case Valider fiche production maintenant.</span><span class="sxs-lookup"><span data-stu-id="9d33e-119">Click the Post route card now checkbox.</span></span>
-8. <span data-ttu-id="9d33e-120">Dans le champ Consommation de nomenclature automatique, sélectionnez « Toujours ».</span><span class="sxs-lookup"><span data-stu-id="9d33e-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
-9. <span data-ttu-id="9d33e-121">Cochez la case Valider les prélèvements maintenant.</span><span class="sxs-lookup"><span data-stu-id="9d33e-121">Click the Post picking list now checkbox.</span></span>
-10. <span data-ttu-id="9d33e-122">Cochez la case Imprimer les prélèvements.</span><span class="sxs-lookup"><span data-stu-id="9d33e-122">Click the Print picking list checkbox.</span></span>
-11. <span data-ttu-id="9d33e-123">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9d33e-123">Click OK.</span></span>
-    * <span data-ttu-id="9d33e-124">Il s'agit de la liste de prélèvements imprimée qui indique les matières utilisées pour l'ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="9d33e-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
-12. <span data-ttu-id="9d33e-125">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9d33e-125">Close the page.</span></span>
+## <a name="start-a-production-order"></a><span data-ttu-id="6d2e0-108">Démarrer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="6d2e0-108">Start a production order</span></span>
+1. <span data-ttu-id="6d2e0-109">Accédez à Contrôle de la production > Ordres de fabrication > Tous les ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="6d2e0-110">Sélectionnez un ordre de fabrication ayant le statut Lancé.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="6d2e0-111">Cliquez sur Ordre de fabrication dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="6d2e0-112">Cliquez sur Démarrer.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-112">Click Start.</span></span>
+    * <span data-ttu-id="6d2e0-113">Dans cette page, vous pouvez confirmer le début de l'ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="6d2e0-114">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-114">Click the General tab.</span></span>
+5. <span data-ttu-id="6d2e0-115">Dans le champ Du n° opér.,</span><span class="sxs-lookup"><span data-stu-id="6d2e0-115">In the From Oper.</span></span> <span data-ttu-id="6d2e0-116">N°</span><span class="sxs-lookup"><span data-stu-id="6d2e0-116">No.</span></span> <span data-ttu-id="6d2e0-117">entrez 10.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="6d2e0-118">Dans le champ Consommation de gamme automatique, sélectionnez « Toujours ».</span><span class="sxs-lookup"><span data-stu-id="6d2e0-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="6d2e0-119">Cochez la case Valider fiche production maintenant.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="6d2e0-120">Dans le champ Consommation de nomenclature automatique, sélectionnez « Toujours ».</span><span class="sxs-lookup"><span data-stu-id="6d2e0-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="6d2e0-121">Cochez la case Valider les prélèvements maintenant.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="6d2e0-122">Cochez la case Imprimer les prélèvements.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="6d2e0-123">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-123">Click OK.</span></span>
+    * <span data-ttu-id="6d2e0-124">Il s'agit de la liste de prélèvements imprimée qui indique les matières utilisées pour l'ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="6d2e0-125">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a><span data-ttu-id="9d33e-126">Valider les prélèvements.</span><span class="sxs-lookup"><span data-stu-id="9d33e-126">Validate the picking list</span></span>
-1. <span data-ttu-id="9d33e-127">Cliquez sur Afficher dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="9d33e-127">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="9d33e-128">Cliquez sur Prélèvements.</span><span class="sxs-lookup"><span data-stu-id="9d33e-128">Click Picking list.</span></span>
-3. <span data-ttu-id="9d33e-129">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="9d33e-129">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="9d33e-130">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9d33e-130">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="9d33e-131">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="9d33e-131">Click Edit.</span></span>
-6. <span data-ttu-id="9d33e-132">Entrez un nombre dans le champ Consommation.</span><span class="sxs-lookup"><span data-stu-id="9d33e-132">In the Consumption field, enter a number.</span></span>
-7. <span data-ttu-id="9d33e-133">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="9d33e-133">Click Post.</span></span>
-8. <span data-ttu-id="9d33e-134">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9d33e-134">Click OK.</span></span>
-    * <span data-ttu-id="9d33e-135">Dans le journal des prélèvements, les matières consommées par l'ordre de fabrication sont validées.</span><span class="sxs-lookup"><span data-stu-id="9d33e-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="9d33e-136">Avant de valider le journal, vous pouvez procéder à des ajustements s'il existe une différence entre la quantité estimée et la quantité réelle consommée.</span><span class="sxs-lookup"><span data-stu-id="9d33e-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
-9. <span data-ttu-id="9d33e-137">Cliquez sur l'onglet Volet de grille.</span><span class="sxs-lookup"><span data-stu-id="9d33e-137">Click the GridPanel tab.</span></span>
-10. <span data-ttu-id="9d33e-138">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9d33e-138">Close the page.</span></span>
+## <a name="validate-the-picking-list"></a><span data-ttu-id="6d2e0-126">Valider les prélèvements.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-126">Validate the picking list</span></span>
+1. <span data-ttu-id="6d2e0-127">Cliquez sur Afficher dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="6d2e0-128">Cliquez sur Prélèvements.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-128">Click Picking list.</span></span>
+3. <span data-ttu-id="6d2e0-129">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="6d2e0-130">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="6d2e0-131">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-131">Click Edit.</span></span>
+6. <span data-ttu-id="6d2e0-132">Entrez un nombre dans le champ Consommation.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="6d2e0-133">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-133">Click Post.</span></span>
+8. <span data-ttu-id="6d2e0-134">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-134">Click OK.</span></span>
+    * <span data-ttu-id="6d2e0-135">Dans le journal des prélèvements, les matières consommées par l'ordre de fabrication sont validées.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="6d2e0-136">Avant de valider le journal, vous pouvez procéder à des ajustements s'il existe une différence entre la quantité estimée et la quantité réelle consommée.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="6d2e0-137">Cliquez sur l'onglet Volet de grille.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="6d2e0-138">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a><span data-ttu-id="9d33e-139">Vérifier le journal des fiches production</span><span class="sxs-lookup"><span data-stu-id="9d33e-139">Verify the route card journal</span></span>
-1. <span data-ttu-id="9d33e-140">Cliquez sur Afficher dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="9d33e-140">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="9d33e-141">Cliquez sur Fiche production.</span><span class="sxs-lookup"><span data-stu-id="9d33e-141">Click Route card.</span></span>
-3. <span data-ttu-id="9d33e-142">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="9d33e-142">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="9d33e-143">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9d33e-143">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="9d33e-144">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="9d33e-144">Click Edit.</span></span>
-6. <span data-ttu-id="9d33e-145">Dans le champ Heures, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="9d33e-145">In the Hours field, enter a number.</span></span>
-7. <span data-ttu-id="9d33e-146">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="9d33e-146">Click Post.</span></span>
-8. <span data-ttu-id="9d33e-147">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9d33e-147">Click OK.</span></span>
-    * <span data-ttu-id="9d33e-148">Dans le journal des fiches production, le temps passé sur les opérations individuelles est enregistré.</span><span class="sxs-lookup"><span data-stu-id="9d33e-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="9d33e-149">Les quantités correctes et erronées peuvent également être déclarées.</span><span class="sxs-lookup"><span data-stu-id="9d33e-149">Good and error quantity can also be reported.</span></span>  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="6d2e0-139">Vérifier le journal des fiches production</span><span class="sxs-lookup"><span data-stu-id="6d2e0-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="6d2e0-140">Cliquez sur Afficher dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="6d2e0-141">Cliquez sur Fiche production.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-141">Click Route card.</span></span>
+3. <span data-ttu-id="6d2e0-142">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="6d2e0-143">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="6d2e0-144">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-144">Click Edit.</span></span>
+6. <span data-ttu-id="6d2e0-145">Dans le champ Heures, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="6d2e0-146">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-146">Click Post.</span></span>
+8. <span data-ttu-id="6d2e0-147">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-147">Click OK.</span></span>
+    * <span data-ttu-id="6d2e0-148">Dans le journal des fiches production, le temps passé sur les opérations individuelles est enregistré.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="6d2e0-149">Les quantités correctes et erronées peuvent également être déclarées.</span><span class="sxs-lookup"><span data-stu-id="6d2e0-149">Good and error quantity can also be reported.</span></span>  

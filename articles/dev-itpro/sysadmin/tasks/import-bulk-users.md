@@ -16,35 +16,35 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 339cc1d3bcdc1dc93b796c385d2165f45f8f7ecf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "338726"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548085"
 ---
-# <a name="import-users-in-bulk"></a><span data-ttu-id="e6b8f-103">Importer des utilisateurs en bloc</span><span class="sxs-lookup"><span data-stu-id="e6b8f-103">Import users in bulk</span></span>
+# <a name="import-users-in-bulk"></a><span data-ttu-id="05ff0-103">Importer des utilisateurs en bloc</span><span class="sxs-lookup"><span data-stu-id="05ff0-103">Import users in bulk</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e6b8f-104">Cette procédure peut être utilisée par les administrateurs système pour importer un grand nombre d'utilisateurs depuis Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-104">This procedure can be used by system administrators to import a large number of users from Azure Active Directory.</span></span>
+<span data-ttu-id="05ff0-104">Cette procédure peut être utilisée par les administrateurs système pour importer un grand nombre d'utilisateurs depuis Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="05ff0-104">This procedure can be used by system administrators to import a large number of users from Azure Active Directory.</span></span>
 
 
-## <a name="run-as-a-batch-job"></a><span data-ttu-id="e6b8f-105">Exécuter comme un traitement par lots</span><span class="sxs-lookup"><span data-stu-id="e6b8f-105">Run as a batch job</span></span>
-1. <span data-ttu-id="e6b8f-106">Accédez à Administration système > Utilisateurs > Utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-106">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="e6b8f-107">Cliquez sur Importation par lots.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-107">Click Batch import.</span></span>
-3. <span data-ttu-id="e6b8f-108">Développez la section Exécuter à l'arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-108">Expand the Run in the background section.</span></span>
-4. <span data-ttu-id="e6b8f-109">Sélectionnez Oui dans le champ Traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-109">Select Yes in the Batch processing field.</span></span>
-5. <span data-ttu-id="e6b8f-110">Dans le champ Description de la tâche, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-110">In the Task description field, type a value.</span></span>
-6. <span data-ttu-id="e6b8f-111">Dans le champ Groupe de traitement par lots, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-111">In the Batch group field, enter or select a value.</span></span>
-    * <span data-ttu-id="e6b8f-112">Cette étape est facultative.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-112">This is an optional step.</span></span>  
-7. <span data-ttu-id="e6b8f-113">Sélectionnez Oui dans le champ Privé.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-113">Select Yes in the Private field.</span></span>
-    * <span data-ttu-id="e6b8f-114">Cette étape est facultative.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-114">This is an optional step.</span></span>  
-8. <span data-ttu-id="e6b8f-115">Sélectionnez Oui dans le champ Tâche critique.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-115">Select Yes in the Critical Job field.</span></span>
-    * <span data-ttu-id="e6b8f-116">Cette étape est facultative.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-116">This is an optional step.</span></span>  
-9. <span data-ttu-id="e6b8f-117">Dans le champ Catégorie de surveillance, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-117">In the Monitoring category field, select an option.</span></span>
-10. <span data-ttu-id="e6b8f-118">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-118">Click OK.</span></span>
+## <a name="run-as-a-batch-job"></a><span data-ttu-id="05ff0-105">Exécuter comme un traitement par lots</span><span class="sxs-lookup"><span data-stu-id="05ff0-105">Run as a batch job</span></span>
+1. <span data-ttu-id="05ff0-106">Accédez à Administration système > Utilisateurs > Utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="05ff0-106">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="05ff0-107">Cliquez sur Importation par lots.</span><span class="sxs-lookup"><span data-stu-id="05ff0-107">Click Batch import.</span></span>
+3. <span data-ttu-id="05ff0-108">Développez la section Exécuter à l'arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="05ff0-108">Expand the Run in the background section.</span></span>
+4. <span data-ttu-id="05ff0-109">Sélectionnez Oui dans le champ Traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="05ff0-109">Select Yes in the Batch processing field.</span></span>
+5. <span data-ttu-id="05ff0-110">Dans le champ Description de la tâche, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="05ff0-110">In the Task description field, type a value.</span></span>
+6. <span data-ttu-id="05ff0-111">Dans le champ Groupe de traitement par lots, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="05ff0-111">In the Batch group field, enter or select a value.</span></span>
+    * <span data-ttu-id="05ff0-112">Cette étape est facultative.</span><span class="sxs-lookup"><span data-stu-id="05ff0-112">This is an optional step.</span></span>  
+7. <span data-ttu-id="05ff0-113">Sélectionnez Oui dans le champ Privé.</span><span class="sxs-lookup"><span data-stu-id="05ff0-113">Select Yes in the Private field.</span></span>
+    * <span data-ttu-id="05ff0-114">Cette étape est facultative.</span><span class="sxs-lookup"><span data-stu-id="05ff0-114">This is an optional step.</span></span>  
+8. <span data-ttu-id="05ff0-115">Sélectionnez Oui dans le champ Tâche critique.</span><span class="sxs-lookup"><span data-stu-id="05ff0-115">Select Yes in the Critical Job field.</span></span>
+    * <span data-ttu-id="05ff0-116">Cette étape est facultative.</span><span class="sxs-lookup"><span data-stu-id="05ff0-116">This is an optional step.</span></span>  
+9. <span data-ttu-id="05ff0-117">Dans le champ Catégorie de surveillance, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="05ff0-117">In the Monitoring category field, select an option.</span></span>
+10. <span data-ttu-id="05ff0-118">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="05ff0-118">Click OK.</span></span>
 
-## <a name="run-in-a-sandbox-environment"></a><span data-ttu-id="e6b8f-119">Exécuter dans un environnement de bac à sable</span><span class="sxs-lookup"><span data-stu-id="e6b8f-119">Run in a sandbox environment</span></span>
-1. <span data-ttu-id="e6b8f-120">Cliquez sur Importation par lots.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-120">Click Batch import.</span></span>
-2. <span data-ttu-id="e6b8f-121">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e6b8f-121">Click OK.</span></span>
+## <a name="run-in-a-sandbox-environment"></a><span data-ttu-id="05ff0-119">Exécuter dans un environnement de bac à sable</span><span class="sxs-lookup"><span data-stu-id="05ff0-119">Run in a sandbox environment</span></span>
+1. <span data-ttu-id="05ff0-120">Cliquez sur Importation par lots.</span><span class="sxs-lookup"><span data-stu-id="05ff0-120">Click Batch import.</span></span>
+2. <span data-ttu-id="05ff0-121">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="05ff0-121">Click OK.</span></span>
 

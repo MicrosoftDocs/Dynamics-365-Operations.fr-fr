@@ -17,44 +17,44 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: bbaf4f7533d51d554d838e8e9e2aa05ca451298a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321706"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1543793"
 ---
-# <a name="create-cost-elements"></a><span data-ttu-id="d532a-103">Créer des éléments de coût</span><span class="sxs-lookup"><span data-stu-id="d532a-103">Create cost elements</span></span> 
+# <a name="create-cost-elements"></a><span data-ttu-id="7c030-103">Créer des éléments de coût</span><span class="sxs-lookup"><span data-stu-id="7c030-103">Create cost elements</span></span> 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d532a-104">Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="d532a-104">There are several ways to create cost elements in Cost accounting.</span></span> <span data-ttu-id="d532a-105">Cette procédure indique comment créer des éléments de coût en important les comptes principaux via un connecteur de données.</span><span class="sxs-lookup"><span data-stu-id="d532a-105">This procedure shows how to create cost elements by importing main accounts via a data connector.</span></span> <span data-ttu-id="d532a-106">La société fictive USMF a été utilisée pour créer cette procédure.</span><span class="sxs-lookup"><span data-stu-id="d532a-106">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="d532a-107">Cette procédure s'applique à une fonction du contrôle de gestion qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="d532a-107">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
+<span data-ttu-id="7c030-104">Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="7c030-104">There are several ways to create cost elements in Cost accounting.</span></span> <span data-ttu-id="7c030-105">Cette procédure indique comment créer des éléments de coût en important les comptes principaux via un connecteur de données.</span><span class="sxs-lookup"><span data-stu-id="7c030-105">This procedure shows how to create cost elements by importing main accounts via a data connector.</span></span> <span data-ttu-id="7c030-106">La société fictive USMF a été utilisée pour créer cette procédure.</span><span class="sxs-lookup"><span data-stu-id="7c030-106">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="7c030-107">Cette procédure s'applique à une fonction du contrôle de gestion qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="7c030-107">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
-## <a name="create-new-cost-elements"></a><span data-ttu-id="d532a-108">Créer des éléments de coût</span><span class="sxs-lookup"><span data-stu-id="d532a-108">Create new cost elements</span></span>
-1. <span data-ttu-id="d532a-109">Accédez à Contrôle de gestion > Dimensions > Dimensions d'éléments de coût.</span><span class="sxs-lookup"><span data-stu-id="d532a-109">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
-2. <span data-ttu-id="d532a-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="d532a-110">Click New.</span></span>
-3. <span data-ttu-id="d532a-111">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="d532a-111">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="d532a-112">Dans le champ Connecteur de données pour les membres de la dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d532a-112">In the Data connector for dimension members field, enter or select a value.</span></span>
-5. <span data-ttu-id="d532a-113">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d532a-113">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="d532a-114">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="d532a-114">Click Save.</span></span>
+## <a name="create-new-cost-elements"></a><span data-ttu-id="7c030-108">Créer des éléments de coût</span><span class="sxs-lookup"><span data-stu-id="7c030-108">Create new cost elements</span></span>
+1. <span data-ttu-id="7c030-109">Accédez à Contrôle de gestion > Dimensions > Dimensions d'éléments de coût.</span><span class="sxs-lookup"><span data-stu-id="7c030-109">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
+2. <span data-ttu-id="7c030-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="7c030-110">Click New.</span></span>
+3. <span data-ttu-id="7c030-111">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="7c030-111">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="7c030-112">Dans le champ Connecteur de données pour les membres de la dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7c030-112">In the Data connector for dimension members field, enter or select a value.</span></span>
+5. <span data-ttu-id="7c030-113">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7c030-113">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="7c030-114">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="7c030-114">Click Save.</span></span>
 
-## <a name="configure-the-data-connector"></a><span data-ttu-id="d532a-115">Configurer le connecteur de données</span><span class="sxs-lookup"><span data-stu-id="d532a-115">Configure the data connector</span></span>
-1. <span data-ttu-id="d532a-116">Cliquez sur Configurer le fournisseur du membre de dimension.</span><span class="sxs-lookup"><span data-stu-id="d532a-116">Click Configure dimension member provider.</span></span>
-2. <span data-ttu-id="d532a-117">Dans le champ Plan de comptes, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d532a-117">In the Chart of accounts field, enter or select a value.</span></span>
-    * <span data-ttu-id="d532a-118">Sélectionnez Partagé pour utiliser le plan de comptes partagé.</span><span class="sxs-lookup"><span data-stu-id="d532a-118">Select Shared to use the shared chart of accounts.</span></span>  
-3. <span data-ttu-id="d532a-119">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="d532a-119">Click New.</span></span>
-4. <span data-ttu-id="d532a-120">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d532a-120">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="d532a-121">Vous pouvez appliquer des filtres aux comptes pour répondre à vos critères.</span><span class="sxs-lookup"><span data-stu-id="d532a-121">You can apply filters to accounts to meet your criteria.</span></span>  
-5. <span data-ttu-id="d532a-122">Dans le champ Compte principal de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d532a-122">In the From main account field, enter or select a value.</span></span>
-6. <span data-ttu-id="d532a-123">Dans le champ Vers compte principal, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d532a-123">In the To main account field, enter or select a value.</span></span>
-7. <span data-ttu-id="d532a-124">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="d532a-124">Click OK.</span></span>
+## <a name="configure-the-data-connector"></a><span data-ttu-id="7c030-115">Configurer le connecteur de données</span><span class="sxs-lookup"><span data-stu-id="7c030-115">Configure the data connector</span></span>
+1. <span data-ttu-id="7c030-116">Cliquez sur Configurer le fournisseur du membre de dimension.</span><span class="sxs-lookup"><span data-stu-id="7c030-116">Click Configure dimension member provider.</span></span>
+2. <span data-ttu-id="7c030-117">Dans le champ Plan de comptes, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7c030-117">In the Chart of accounts field, enter or select a value.</span></span>
+    * <span data-ttu-id="7c030-118">Sélectionnez Partagé pour utiliser le plan de comptes partagé.</span><span class="sxs-lookup"><span data-stu-id="7c030-118">Select Shared to use the shared chart of accounts.</span></span>  
+3. <span data-ttu-id="7c030-119">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="7c030-119">Click New.</span></span>
+4. <span data-ttu-id="7c030-120">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="7c030-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="7c030-121">Vous pouvez appliquer des filtres aux comptes pour répondre à vos critères.</span><span class="sxs-lookup"><span data-stu-id="7c030-121">You can apply filters to accounts to meet your criteria.</span></span>  
+5. <span data-ttu-id="7c030-122">Dans le champ Compte principal de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7c030-122">In the From main account field, enter or select a value.</span></span>
+6. <span data-ttu-id="7c030-123">Dans le champ Vers compte principal, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7c030-123">In the To main account field, enter or select a value.</span></span>
+7. <span data-ttu-id="7c030-124">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7c030-124">Click OK.</span></span>
 
-## <a name="import-main-accounts"></a><span data-ttu-id="d532a-125">Importer les comptes principaux</span><span class="sxs-lookup"><span data-stu-id="d532a-125">Import main accounts</span></span>
-1. <span data-ttu-id="d532a-126">Cliquez sur Importer les membres de la dimension.</span><span class="sxs-lookup"><span data-stu-id="d532a-126">Click Import dimension members.</span></span>
-    * <span data-ttu-id="d532a-127">Les comptes principaux sont importés dans le contrôle de gestion et utilisés comme éléments de coût.</span><span class="sxs-lookup"><span data-stu-id="d532a-127">Main accounts will be imported into Cost accounting and used as cost elements.</span></span>  
-2. <span data-ttu-id="d532a-128">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="d532a-128">Click OK.</span></span>
+## <a name="import-main-accounts"></a><span data-ttu-id="7c030-125">Importer les comptes principaux</span><span class="sxs-lookup"><span data-stu-id="7c030-125">Import main accounts</span></span>
+1. <span data-ttu-id="7c030-126">Cliquez sur Importer les membres de la dimension.</span><span class="sxs-lookup"><span data-stu-id="7c030-126">Click Import dimension members.</span></span>
+    * <span data-ttu-id="7c030-127">Les comptes principaux sont importés dans le contrôle de gestion et utilisés comme éléments de coût.</span><span class="sxs-lookup"><span data-stu-id="7c030-127">Main accounts will be imported into Cost accounting and used as cost elements.</span></span>  
+2. <span data-ttu-id="7c030-128">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7c030-128">Click OK.</span></span>
 
-## <a name="view-the-imported-accounts-as-cost-elements"></a><span data-ttu-id="d532a-129">Afficher les comptes importés en tant qu'éléments de coût</span><span class="sxs-lookup"><span data-stu-id="d532a-129">View the imported accounts as cost elements</span></span>
-1. <span data-ttu-id="d532a-130">Cliquez sur Afficher les membres de la dimension.</span><span class="sxs-lookup"><span data-stu-id="d532a-130">Click View dimension members.</span></span>
-    * <span data-ttu-id="d532a-131">Affichez les comptes généraux importés en tant qu'éléments de coût de votre entreprise vers lesquels les coûts peuvent se diriger.</span><span class="sxs-lookup"><span data-stu-id="d532a-131">View the imported ledger accounts as cost elements in your business that costs can flow to.</span></span>  
+## <a name="view-the-imported-accounts-as-cost-elements"></a><span data-ttu-id="7c030-129">Afficher les comptes importés en tant qu'éléments de coût</span><span class="sxs-lookup"><span data-stu-id="7c030-129">View the imported accounts as cost elements</span></span>
+1. <span data-ttu-id="7c030-130">Cliquez sur Afficher les membres de la dimension.</span><span class="sxs-lookup"><span data-stu-id="7c030-130">Click View dimension members.</span></span>
+    * <span data-ttu-id="7c030-131">Affichez les comptes généraux importés en tant qu'éléments de coût de votre entreprise vers lesquels les coûts peuvent se diriger.</span><span class="sxs-lookup"><span data-stu-id="7c030-131">View the imported ledger accounts as cost elements in your business that costs can flow to.</span></span>  
 

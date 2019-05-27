@@ -17,87 +17,87 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e0e9ddf38106fce3ed6a6f908826f2196c97a45a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332010"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562113"
 ---
-# <a name="mass-create-sales-quotations"></a><span data-ttu-id="60d7f-103">Création en masse de devis de vente</span><span class="sxs-lookup"><span data-stu-id="60d7f-103">Mass create sales quotations</span></span>
+# <a name="mass-create-sales-quotations"></a><span data-ttu-id="b512e-103">Création en masse de devis de vente</span><span class="sxs-lookup"><span data-stu-id="b512e-103">Mass create sales quotations</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="60d7f-104">Cette procédure illustre comment créer efficacement des devis offrant un ensemble de produits ou de services à envoyer à plusieurs clients.</span><span class="sxs-lookup"><span data-stu-id="60d7f-104">This procedure demonstrates how to efficiently create quotations offering a set of products or services that are to be sent to multiple customers.</span></span> <span data-ttu-id="60d7f-105">Cette création de devis en masse est basée sur des modèles de devis.</span><span class="sxs-lookup"><span data-stu-id="60d7f-105">This mass quotation creation is based on quotation templates.</span></span> <span data-ttu-id="60d7f-106">Vous pouvez exécuter cette procédure avec vos propres données ou avec la société fictive de démonstration USMF.</span><span class="sxs-lookup"><span data-stu-id="60d7f-106">You can run this procedure on your own data or in demo data company USMF.</span></span>
+<span data-ttu-id="b512e-104">Cette procédure illustre comment créer efficacement des devis offrant un ensemble de produits ou de services à envoyer à plusieurs clients.</span><span class="sxs-lookup"><span data-stu-id="b512e-104">This procedure demonstrates how to efficiently create quotations offering a set of products or services that are to be sent to multiple customers.</span></span> <span data-ttu-id="b512e-105">Cette création de devis en masse est basée sur des modèles de devis.</span><span class="sxs-lookup"><span data-stu-id="b512e-105">This mass quotation creation is based on quotation templates.</span></span> <span data-ttu-id="b512e-106">Vous pouvez exécuter cette procédure avec vos propres données ou avec la société fictive de démonstration USMF.</span><span class="sxs-lookup"><span data-stu-id="b512e-106">You can run this procedure on your own data or in demo data company USMF.</span></span>
 
 
-## <a name="create-a-quotation-template"></a><span data-ttu-id="60d7f-107">Créer un modèle de devis</span><span class="sxs-lookup"><span data-stu-id="60d7f-107">Create a quotation template</span></span>
-1. <span data-ttu-id="60d7f-108">Accédez à Ventes et marketing > Configuration > Devis > Groupes de modèles.</span><span class="sxs-lookup"><span data-stu-id="60d7f-108">Go to Sales and marketing > Setup > Quotations > Template groups.</span></span>
-2. <span data-ttu-id="60d7f-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="60d7f-109">Click New.</span></span>
-3. <span data-ttu-id="60d7f-110">Dans le champ ID groupe, tapez un ID de votre choix.</span><span class="sxs-lookup"><span data-stu-id="60d7f-110">In the Group ID field, type an ID of your choice.</span></span>
-4. <span data-ttu-id="60d7f-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="60d7f-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="60d7f-112">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="60d7f-112">Click Save.</span></span>
-6. <span data-ttu-id="60d7f-113">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="60d7f-113">Close the page.</span></span>
-7. <span data-ttu-id="60d7f-114">Accédez à Ventes et marketing > Devis de vente > Tous les devis.</span><span class="sxs-lookup"><span data-stu-id="60d7f-114">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-8. <span data-ttu-id="60d7f-115">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="60d7f-115">Click New.</span></span>
-9. <span data-ttu-id="60d7f-116">Sélectionnez « Client » dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="60d7f-116">In the Account type field, select 'Customer'.</span></span>
-10. <span data-ttu-id="60d7f-117">Entrez ou sélectionnez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="60d7f-117">In the Customer account field, enter or select a value.</span></span>
-11. <span data-ttu-id="60d7f-118">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="60d7f-118">Click OK.</span></span>
-    * <span data-ttu-id="60d7f-119">Pour qu'un devis devienne un modèle, vous devez effectuer des étapes de paramétrage dans l'en-tête du devis.</span><span class="sxs-lookup"><span data-stu-id="60d7f-119">For a quotation to become a template you must carry out  setup steps on the quotation header.</span></span> <span data-ttu-id="60d7f-120">Cela doit être effectué avant d'ajouter des lignes au devis.</span><span class="sxs-lookup"><span data-stu-id="60d7f-120">This must be done before you add lines to the quotation.</span></span>   
-12. <span data-ttu-id="60d7f-121">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="60d7f-121">On the Action Pane, click Options.</span></span>
-13. <span data-ttu-id="60d7f-122">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="60d7f-122">Click Change view.</span></span>
-14. <span data-ttu-id="60d7f-123">Cliquez sur Vue de l'en-tête.</span><span class="sxs-lookup"><span data-stu-id="60d7f-123">Click Header view.</span></span>
-15. <span data-ttu-id="60d7f-124">Développez la section Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="60d7f-124">Expand the Setup section.</span></span>
-16. <span data-ttu-id="60d7f-125">Saisissez ou sélectionnez une valeur dans le champ ID groupe.</span><span class="sxs-lookup"><span data-stu-id="60d7f-125">In the Group ID field, enter or select a value.</span></span>
-17. <span data-ttu-id="60d7f-126">Tapez une valeur dans le champ Nom de modèle.</span><span class="sxs-lookup"><span data-stu-id="60d7f-126">In the Template name field, type a value.</span></span>
-18. <span data-ttu-id="60d7f-127">Sélectionnez Oui dans le champ Actif.</span><span class="sxs-lookup"><span data-stu-id="60d7f-127">Select Yes in the Active field.</span></span>
-    * <span data-ttu-id="60d7f-128">Seuls les modèles actifs peuvent être utilisés lorsque vous appliquez un modèle à un nouveau devis de vente.</span><span class="sxs-lookup"><span data-stu-id="60d7f-128">Only active templates can be used when you apply a template to a new sales quotation.</span></span>  
-19. <span data-ttu-id="60d7f-129">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="60d7f-129">On the Action Pane, click Options.</span></span>
-20. <span data-ttu-id="60d7f-130">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="60d7f-130">Click Change view.</span></span>
-21. <span data-ttu-id="60d7f-131">Cliquez sur Affichage des lignes.</span><span class="sxs-lookup"><span data-stu-id="60d7f-131">Click Line view.</span></span>
-22. <span data-ttu-id="60d7f-132">Dans le champ Article, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="60d7f-132">In the Item field, enter or select a value.</span></span>
-23. <span data-ttu-id="60d7f-133">Dans le champ Article, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="60d7f-133">In the Item field, type a value.</span></span>
-24. <span data-ttu-id="60d7f-134">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="60d7f-134">Close the page.</span></span>
-25. <span data-ttu-id="60d7f-135">Entrez un nombre dans le champ Pourcentage de remise.</span><span class="sxs-lookup"><span data-stu-id="60d7f-135">In the Discount percent field, enter a number.</span></span>
-26. <span data-ttu-id="60d7f-136">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="60d7f-136">Click Add line.</span></span>
-27. <span data-ttu-id="60d7f-137">Dans le champ Article, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="60d7f-137">In the Item field, enter or select a value.</span></span>
-28. <span data-ttu-id="60d7f-138">Dans le champ Article, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="60d7f-138">In the Item field, type a value.</span></span>
-29. <span data-ttu-id="60d7f-139">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="60d7f-139">Close the page.</span></span>
-30. <span data-ttu-id="60d7f-140">Dans le champ Prix unitaire, entrez un nouveau prix ou modifiez le prix actuel.</span><span class="sxs-lookup"><span data-stu-id="60d7f-140">In the Unit price field, enter a new price or change the current one.</span></span>
-31. <span data-ttu-id="60d7f-141">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="60d7f-141">Click Add line.</span></span>
-32. <span data-ttu-id="60d7f-142">Dans le champ Article, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="60d7f-142">In the Item field, enter or select a value.</span></span>
-33. <span data-ttu-id="60d7f-143">Dans le champ Article, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="60d7f-143">In the Item field, type a value.</span></span>
-34. <span data-ttu-id="60d7f-144">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="60d7f-144">Close the page.</span></span>
-35. <span data-ttu-id="60d7f-145">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="60d7f-145">In the Quantity field, enter a number.</span></span>
-36. <span data-ttu-id="60d7f-146">Entrez un nombre dans le champ Remise.</span><span class="sxs-lookup"><span data-stu-id="60d7f-146">In the Discount field, enter a number.</span></span>
-37. <span data-ttu-id="60d7f-147">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="60d7f-147">Click Save.</span></span>
+## <a name="create-a-quotation-template"></a><span data-ttu-id="b512e-107">Créer un modèle de devis</span><span class="sxs-lookup"><span data-stu-id="b512e-107">Create a quotation template</span></span>
+1. <span data-ttu-id="b512e-108">Accédez à Ventes et marketing > Configuration > Devis > Groupes de modèles.</span><span class="sxs-lookup"><span data-stu-id="b512e-108">Go to Sales and marketing > Setup > Quotations > Template groups.</span></span>
+2. <span data-ttu-id="b512e-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="b512e-109">Click New.</span></span>
+3. <span data-ttu-id="b512e-110">Dans le champ ID groupe, tapez un ID de votre choix.</span><span class="sxs-lookup"><span data-stu-id="b512e-110">In the Group ID field, type an ID of your choice.</span></span>
+4. <span data-ttu-id="b512e-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b512e-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="b512e-112">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="b512e-112">Click Save.</span></span>
+6. <span data-ttu-id="b512e-113">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b512e-113">Close the page.</span></span>
+7. <span data-ttu-id="b512e-114">Accédez à Ventes et marketing > Devis de vente > Tous les devis.</span><span class="sxs-lookup"><span data-stu-id="b512e-114">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+8. <span data-ttu-id="b512e-115">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="b512e-115">Click New.</span></span>
+9. <span data-ttu-id="b512e-116">Sélectionnez « Client » dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="b512e-116">In the Account type field, select 'Customer'.</span></span>
+10. <span data-ttu-id="b512e-117">Entrez ou sélectionnez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="b512e-117">In the Customer account field, enter or select a value.</span></span>
+11. <span data-ttu-id="b512e-118">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b512e-118">Click OK.</span></span>
+    * <span data-ttu-id="b512e-119">Pour qu'un devis devienne un modèle, vous devez effectuer des étapes de paramétrage dans l'en-tête du devis.</span><span class="sxs-lookup"><span data-stu-id="b512e-119">For a quotation to become a template you must carry out  setup steps on the quotation header.</span></span> <span data-ttu-id="b512e-120">Cela doit être effectué avant d'ajouter des lignes au devis.</span><span class="sxs-lookup"><span data-stu-id="b512e-120">This must be done before you add lines to the quotation.</span></span>   
+12. <span data-ttu-id="b512e-121">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="b512e-121">On the Action Pane, click Options.</span></span>
+13. <span data-ttu-id="b512e-122">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="b512e-122">Click Change view.</span></span>
+14. <span data-ttu-id="b512e-123">Cliquez sur Vue de l'en-tête.</span><span class="sxs-lookup"><span data-stu-id="b512e-123">Click Header view.</span></span>
+15. <span data-ttu-id="b512e-124">Développez la section Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="b512e-124">Expand the Setup section.</span></span>
+16. <span data-ttu-id="b512e-125">Saisissez ou sélectionnez une valeur dans le champ ID groupe.</span><span class="sxs-lookup"><span data-stu-id="b512e-125">In the Group ID field, enter or select a value.</span></span>
+17. <span data-ttu-id="b512e-126">Tapez une valeur dans le champ Nom de modèle.</span><span class="sxs-lookup"><span data-stu-id="b512e-126">In the Template name field, type a value.</span></span>
+18. <span data-ttu-id="b512e-127">Sélectionnez Oui dans le champ Actif.</span><span class="sxs-lookup"><span data-stu-id="b512e-127">Select Yes in the Active field.</span></span>
+    * <span data-ttu-id="b512e-128">Seuls les modèles actifs peuvent être utilisés lorsque vous appliquez un modèle à un nouveau devis de vente.</span><span class="sxs-lookup"><span data-stu-id="b512e-128">Only active templates can be used when you apply a template to a new sales quotation.</span></span>  
+19. <span data-ttu-id="b512e-129">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="b512e-129">On the Action Pane, click Options.</span></span>
+20. <span data-ttu-id="b512e-130">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="b512e-130">Click Change view.</span></span>
+21. <span data-ttu-id="b512e-131">Cliquez sur Affichage des lignes.</span><span class="sxs-lookup"><span data-stu-id="b512e-131">Click Line view.</span></span>
+22. <span data-ttu-id="b512e-132">Dans le champ Article, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b512e-132">In the Item field, enter or select a value.</span></span>
+23. <span data-ttu-id="b512e-133">Dans le champ Article, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b512e-133">In the Item field, type a value.</span></span>
+24. <span data-ttu-id="b512e-134">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b512e-134">Close the page.</span></span>
+25. <span data-ttu-id="b512e-135">Entrez un nombre dans le champ Pourcentage de remise.</span><span class="sxs-lookup"><span data-stu-id="b512e-135">In the Discount percent field, enter a number.</span></span>
+26. <span data-ttu-id="b512e-136">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="b512e-136">Click Add line.</span></span>
+27. <span data-ttu-id="b512e-137">Dans le champ Article, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b512e-137">In the Item field, enter or select a value.</span></span>
+28. <span data-ttu-id="b512e-138">Dans le champ Article, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b512e-138">In the Item field, type a value.</span></span>
+29. <span data-ttu-id="b512e-139">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b512e-139">Close the page.</span></span>
+30. <span data-ttu-id="b512e-140">Dans le champ Prix unitaire, entrez un nouveau prix ou modifiez le prix actuel.</span><span class="sxs-lookup"><span data-stu-id="b512e-140">In the Unit price field, enter a new price or change the current one.</span></span>
+31. <span data-ttu-id="b512e-141">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="b512e-141">Click Add line.</span></span>
+32. <span data-ttu-id="b512e-142">Dans le champ Article, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b512e-142">In the Item field, enter or select a value.</span></span>
+33. <span data-ttu-id="b512e-143">Dans le champ Article, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b512e-143">In the Item field, type a value.</span></span>
+34. <span data-ttu-id="b512e-144">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b512e-144">Close the page.</span></span>
+35. <span data-ttu-id="b512e-145">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="b512e-145">In the Quantity field, enter a number.</span></span>
+36. <span data-ttu-id="b512e-146">Entrez un nombre dans le champ Remise.</span><span class="sxs-lookup"><span data-stu-id="b512e-146">In the Discount field, enter a number.</span></span>
+37. <span data-ttu-id="b512e-147">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="b512e-147">Click Save.</span></span>
 
-## <a name="apply-the-template-to-create-a-single-quotation"></a><span data-ttu-id="60d7f-148">Appliquer le modèle pour créer un devis unique</span><span class="sxs-lookup"><span data-stu-id="60d7f-148">Apply the template to create a single quotation</span></span>
-1. <span data-ttu-id="60d7f-149">Accédez à Ventes et marketing > Devis de vente > Tous les devis.</span><span class="sxs-lookup"><span data-stu-id="60d7f-149">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-    * <span data-ttu-id="60d7f-150">Notez que le devis que vous venez de créer est marqué comme modèle.</span><span class="sxs-lookup"><span data-stu-id="60d7f-150">Note that the quotation you have just created is marked as template.</span></span>  
-2. <span data-ttu-id="60d7f-151">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="60d7f-151">Click New.</span></span>
-3. <span data-ttu-id="60d7f-152">Sélectionnez « Client » dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="60d7f-152">In the Account type field, select 'Customer'.</span></span>
-4. <span data-ttu-id="60d7f-153">Entrez ou sélectionnez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="60d7f-153">In the Customer account field, enter or select a value.</span></span>
-5. <span data-ttu-id="60d7f-154">Développez la section Modèle.</span><span class="sxs-lookup"><span data-stu-id="60d7f-154">Expand the Template section.</span></span>
-6. <span data-ttu-id="60d7f-155">Saisissez ou sélectionnez une valeur dans le champ ID groupe.</span><span class="sxs-lookup"><span data-stu-id="60d7f-155">In the Group ID field, enter or select a value.</span></span>
-7. <span data-ttu-id="60d7f-156">Saisissez ou sélectionnez une valeur dans le champ Nom du modèle.</span><span class="sxs-lookup"><span data-stu-id="60d7f-156">In the Template name field, enter or select a value.</span></span>
-8. <span data-ttu-id="60d7f-157">Dans le champ Mode de calcul, sélectionnez « En fonction des valeurs du modèle ».</span><span class="sxs-lookup"><span data-stu-id="60d7f-157">In the Calculation method field, select 'Based on template values'.</span></span>
-9. <span data-ttu-id="60d7f-158">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="60d7f-158">Click OK.</span></span>
-    * <span data-ttu-id="60d7f-159">Le nouveau devis a maintenant été créé, en fonction des données et des conditions du modèle.</span><span class="sxs-lookup"><span data-stu-id="60d7f-159">The new quotation has now been created, based on the data and terms of the template.</span></span>  
-10. <span data-ttu-id="60d7f-160">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="60d7f-160">Close the page.</span></span>
-11. <span data-ttu-id="60d7f-161">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="60d7f-161">Close the page.</span></span>
+## <a name="apply-the-template-to-create-a-single-quotation"></a><span data-ttu-id="b512e-148">Appliquer le modèle pour créer un devis unique</span><span class="sxs-lookup"><span data-stu-id="b512e-148">Apply the template to create a single quotation</span></span>
+1. <span data-ttu-id="b512e-149">Accédez à Ventes et marketing > Devis de vente > Tous les devis.</span><span class="sxs-lookup"><span data-stu-id="b512e-149">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="b512e-150">Notez que le devis que vous venez de créer est marqué comme modèle.</span><span class="sxs-lookup"><span data-stu-id="b512e-150">Note that the quotation you have just created is marked as template.</span></span>  
+2. <span data-ttu-id="b512e-151">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="b512e-151">Click New.</span></span>
+3. <span data-ttu-id="b512e-152">Sélectionnez « Client » dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="b512e-152">In the Account type field, select 'Customer'.</span></span>
+4. <span data-ttu-id="b512e-153">Entrez ou sélectionnez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="b512e-153">In the Customer account field, enter or select a value.</span></span>
+5. <span data-ttu-id="b512e-154">Développez la section Modèle.</span><span class="sxs-lookup"><span data-stu-id="b512e-154">Expand the Template section.</span></span>
+6. <span data-ttu-id="b512e-155">Saisissez ou sélectionnez une valeur dans le champ ID groupe.</span><span class="sxs-lookup"><span data-stu-id="b512e-155">In the Group ID field, enter or select a value.</span></span>
+7. <span data-ttu-id="b512e-156">Saisissez ou sélectionnez une valeur dans le champ Nom du modèle.</span><span class="sxs-lookup"><span data-stu-id="b512e-156">In the Template name field, enter or select a value.</span></span>
+8. <span data-ttu-id="b512e-157">Dans le champ Mode de calcul, sélectionnez « En fonction des valeurs du modèle ».</span><span class="sxs-lookup"><span data-stu-id="b512e-157">In the Calculation method field, select 'Based on template values'.</span></span>
+9. <span data-ttu-id="b512e-158">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b512e-158">Click OK.</span></span>
+    * <span data-ttu-id="b512e-159">Le nouveau devis a maintenant été créé, en fonction des données et des conditions du modèle.</span><span class="sxs-lookup"><span data-stu-id="b512e-159">The new quotation has now been created, based on the data and terms of the template.</span></span>  
+10. <span data-ttu-id="b512e-160">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b512e-160">Close the page.</span></span>
+11. <span data-ttu-id="b512e-161">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b512e-161">Close the page.</span></span>
 
-## <a name="apply-the-template-to-mass-create-quotations"></a><span data-ttu-id="60d7f-162">Appliquer le modèle à la création en masse de devis</span><span class="sxs-lookup"><span data-stu-id="60d7f-162">Apply the template to mass create quotations</span></span>
-1. <span data-ttu-id="60d7f-163">Accédez à Ventes et marketing > Devis de vente > Mise à jour du devis > Création en masse de devis.</span><span class="sxs-lookup"><span data-stu-id="60d7f-163">Go to Sales and marketing > Sales quotations > Quotation update > Mass create quotations.</span></span>
-2. <span data-ttu-id="60d7f-164">Sélectionnez « Client » dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="60d7f-164">In the Account type field, select 'Customer'.</span></span>
-3. <span data-ttu-id="60d7f-165">Saisissez ou sélectionnez une valeur dans le champ ID groupe.</span><span class="sxs-lookup"><span data-stu-id="60d7f-165">In the Group ID field, enter or select a value.</span></span>
-4. <span data-ttu-id="60d7f-166">Saisissez ou sélectionnez une valeur dans le champ Nom du modèle.</span><span class="sxs-lookup"><span data-stu-id="60d7f-166">In the Template name field, enter or select a value.</span></span>
-5. <span data-ttu-id="60d7f-167">Dans le champ Mode de calcul, sélectionnez « En fonction des valeurs du modèle ».</span><span class="sxs-lookup"><span data-stu-id="60d7f-167">In the Calculation method field, select 'Based on template values'.</span></span>
-6. <span data-ttu-id="60d7f-168">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="60d7f-168">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="60d7f-169">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="60d7f-169">Click Filter.</span></span>
-8. <span data-ttu-id="60d7f-170">Dans le champ Critères définissez le filtre de sorte à couvrir une gamme de clients à inclure dans cette création en masse de devis.</span><span class="sxs-lookup"><span data-stu-id="60d7f-170">In the Criteria field, set the filter to cover a range of customers you want to include in this mass quotation creation.</span></span> <span data-ttu-id="60d7f-171">Utilisez le format suivant : "Client1..ClientN.</span><span class="sxs-lookup"><span data-stu-id="60d7f-171">Use the following format "Customer1..CustomerN.</span></span>
-    * <span data-ttu-id="60d7f-172">Par exemple, vous pouvez définir le filtre sur : US-001...US-004</span><span class="sxs-lookup"><span data-stu-id="60d7f-172">For example, you could set the filter to: US-001..US-004</span></span>  
-9. <span data-ttu-id="60d7f-173">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="60d7f-173">Click OK.</span></span>
-10. <span data-ttu-id="60d7f-174">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="60d7f-174">Click OK.</span></span>
-11. <span data-ttu-id="60d7f-175">Accédez à Ventes et marketing > Devis de vente > Tous les devis.</span><span class="sxs-lookup"><span data-stu-id="60d7f-175">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-    * <span data-ttu-id="60d7f-176">Vérifiez que des devis ont été créés pour tous les clients spécifiés dans la routine de mise à jour collective, comme l'indique le modèle sélectionné.</span><span class="sxs-lookup"><span data-stu-id="60d7f-176">Verify that quotations have been created for all the customers specified in the mass update routine, as based on the selected template.</span></span>  
+## <a name="apply-the-template-to-mass-create-quotations"></a><span data-ttu-id="b512e-162">Appliquer le modèle à la création en masse de devis</span><span class="sxs-lookup"><span data-stu-id="b512e-162">Apply the template to mass create quotations</span></span>
+1. <span data-ttu-id="b512e-163">Accédez à Ventes et marketing > Devis de vente > Mise à jour du devis > Création en masse de devis.</span><span class="sxs-lookup"><span data-stu-id="b512e-163">Go to Sales and marketing > Sales quotations > Quotation update > Mass create quotations.</span></span>
+2. <span data-ttu-id="b512e-164">Sélectionnez « Client » dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="b512e-164">In the Account type field, select 'Customer'.</span></span>
+3. <span data-ttu-id="b512e-165">Saisissez ou sélectionnez une valeur dans le champ ID groupe.</span><span class="sxs-lookup"><span data-stu-id="b512e-165">In the Group ID field, enter or select a value.</span></span>
+4. <span data-ttu-id="b512e-166">Saisissez ou sélectionnez une valeur dans le champ Nom du modèle.</span><span class="sxs-lookup"><span data-stu-id="b512e-166">In the Template name field, enter or select a value.</span></span>
+5. <span data-ttu-id="b512e-167">Dans le champ Mode de calcul, sélectionnez « En fonction des valeurs du modèle ».</span><span class="sxs-lookup"><span data-stu-id="b512e-167">In the Calculation method field, select 'Based on template values'.</span></span>
+6. <span data-ttu-id="b512e-168">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="b512e-168">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="b512e-169">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="b512e-169">Click Filter.</span></span>
+8. <span data-ttu-id="b512e-170">Dans le champ Critères définissez le filtre de sorte à couvrir une gamme de clients à inclure dans cette création en masse de devis.</span><span class="sxs-lookup"><span data-stu-id="b512e-170">In the Criteria field, set the filter to cover a range of customers you want to include in this mass quotation creation.</span></span> <span data-ttu-id="b512e-171">Utilisez le format suivant : "Client1..ClientN.</span><span class="sxs-lookup"><span data-stu-id="b512e-171">Use the following format "Customer1..CustomerN.</span></span>
+    * <span data-ttu-id="b512e-172">Par exemple, vous pouvez définir le filtre sur : US-001...US-004</span><span class="sxs-lookup"><span data-stu-id="b512e-172">For example, you could set the filter to: US-001..US-004</span></span>  
+9. <span data-ttu-id="b512e-173">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b512e-173">Click OK.</span></span>
+10. <span data-ttu-id="b512e-174">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b512e-174">Click OK.</span></span>
+11. <span data-ttu-id="b512e-175">Accédez à Ventes et marketing > Devis de vente > Tous les devis.</span><span class="sxs-lookup"><span data-stu-id="b512e-175">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="b512e-176">Vérifiez que des devis ont été créés pour tous les clients spécifiés dans la routine de mise à jour collective, comme l'indique le modèle sélectionné.</span><span class="sxs-lookup"><span data-stu-id="b512e-176">Verify that quotations have been created for all the customers specified in the mass update routine, as based on the selected template.</span></span>  
 

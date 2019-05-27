@@ -16,29 +16,29 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbcf6d8dc71b833b3d90e72e7ef6c9d438241640
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0f1c0e289a5505bfacb20726a5e74a779afdb9cb
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370694"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537917"
 ---
-# <a name="eur-00012-receive-an-eu-entry-certificate"></a><span data-ttu-id="5696b-103">EUR-00012 Recevoir un certificat d'entrée de l'UE</span><span class="sxs-lookup"><span data-stu-id="5696b-103">EUR-00012 Receive an EU entry certificate</span></span>
+# <a name="eur-00012-receive-an-eu-entry-certificate"></a><span data-ttu-id="0181b-103">EUR-00012 Recevoir un certificat d'entrée de l'UE</span><span class="sxs-lookup"><span data-stu-id="0181b-103">EUR-00012 Receive an EU entry certificate</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5696b-104">Cette procédure présente la démarche pour enregistrer un certificat d'entrée de l'UE émis par un tiers et reçu de votre client.</span><span class="sxs-lookup"><span data-stu-id="5696b-104">This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</span></span>
+<span data-ttu-id="0181b-104">Cette procédure présente la démarche pour enregistrer un certificat d'entrée de l'UE émis par un tiers et reçu de votre client.</span><span class="sxs-lookup"><span data-stu-id="0181b-104">This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</span></span>
 
 
 
-<span data-ttu-id="5696b-105">La société fictive de démonstration utilisée pour créer cette procédure est DEMF.</span><span class="sxs-lookup"><span data-stu-id="5696b-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="0181b-105">La société fictive de démonstration utilisée pour créer cette procédure est DEMF.</span><span class="sxs-lookup"><span data-stu-id="0181b-105">The demo data company used to create this procedure is DEMF.</span></span>
 
-1. <span data-ttu-id="5696b-106">Accédez à Comptabilité client > Recherches et états > Journal des certificats d'entrée.</span><span class="sxs-lookup"><span data-stu-id="5696b-106">Go to Accounts receivable > Inquiries and reports > Entry certificate journal.</span></span>
-2. <span data-ttu-id="5696b-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="5696b-107">Click New.</span></span>
-3. <span data-ttu-id="5696b-108">Dans le champ Certificat d'entrée, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="5696b-108">In the Entry certificate field, type a value.</span></span>
-4. <span data-ttu-id="5696b-109">Dans le champ Compte client, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="5696b-109">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="5696b-110">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="5696b-110">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="5696b-111">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="5696b-111">Click Save.</span></span>
-    * <span data-ttu-id="5696b-112">Joignez des informations supplémentaires au journal.</span><span class="sxs-lookup"><span data-stu-id="5696b-112">Attach additional information to the journal.</span></span>  
-    * <span data-ttu-id="5696b-113">Par exemple, liez une image scannée du certificat d'entrée de l'UE au journal.</span><span class="sxs-lookup"><span data-stu-id="5696b-113">For example, attach a scanned image of the EU Entry certificate to the journal.</span></span>  
+1. <span data-ttu-id="0181b-106">Accédez à Comptabilité client > Recherches et états > Journal des certificats d'entrée.</span><span class="sxs-lookup"><span data-stu-id="0181b-106">Go to Accounts receivable > Inquiries and reports > Entry certificate journal.</span></span>
+2. <span data-ttu-id="0181b-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="0181b-107">Click New.</span></span>
+3. <span data-ttu-id="0181b-108">Dans le champ Certificat d'entrée, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="0181b-108">In the Entry certificate field, type a value.</span></span>
+4. <span data-ttu-id="0181b-109">Dans le champ Compte client, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="0181b-109">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="0181b-110">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="0181b-110">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="0181b-111">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="0181b-111">Click Save.</span></span>
+    * <span data-ttu-id="0181b-112">Joignez des informations supplémentaires au journal.</span><span class="sxs-lookup"><span data-stu-id="0181b-112">Attach additional information to the journal.</span></span>  
+    * <span data-ttu-id="0181b-113">Par exemple, liez une image scannée du certificat d'entrée de l'UE au journal.</span><span class="sxs-lookup"><span data-stu-id="0181b-113">For example, attach a scanned image of the EU Entry certificate to the journal.</span></span>  
 

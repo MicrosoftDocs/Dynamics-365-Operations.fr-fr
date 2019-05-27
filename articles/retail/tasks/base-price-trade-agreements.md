@@ -18,60 +18,60 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4830ac553318cfbb3cb74395d1662e74dff75290
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320418"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548529"
 ---
-# <a name="base-price-and-trade-agreements"></a><span data-ttu-id="e7aa5-103"> Prix de base et accords commerciaux</span><span class="sxs-lookup"><span data-stu-id="e7aa5-103">Base price and trade agreements</span></span>
+# <a name="base-price-and-trade-agreements"></a><span data-ttu-id="4f364-103"> Prix de base et accords commerciaux</span><span class="sxs-lookup"><span data-stu-id="4f364-103">Base price and trade agreements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e7aa5-104">Cette procédure décrit la création d'accords commerciaux sur les prix de vente spécifiques au canal.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-104">This procedure walks through creating channel-specific sales price trade agreements.</span></span> <span data-ttu-id="e7aa5-105">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-105">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="4f364-104">Cette procédure décrit la création d'accords commerciaux sur les prix de vente spécifiques au canal.</span><span class="sxs-lookup"><span data-stu-id="4f364-104">This procedure walks through creating channel-specific sales price trade agreements.</span></span> <span data-ttu-id="4f364-105">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="4f364-105">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="e7aa5-106">Accédez à Commerce et vente au détail > Tarification et remises > Groupes de prix > Tous les groupes de prix.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-106">Go to Retail and commerce > Pricing and discounts > Price groups > All price groups.</span></span>
-    * <span data-ttu-id="e7aa5-107">Les groupes de prix désignent la manière dont les accords commerciaux sont affectés à des canaux spécifiques.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-107">Price groups are how trade agreements are assigned to specific channels.</span></span> <span data-ttu-id="e7aa5-108">L'utilisation de groupes de prix pour affecter des accords commerciaux à un canal active la tarification propre au canal.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-108">Using price groups to assign trade agreements to a channel enables channel-specific pricing.</span></span>  
-2. <span data-ttu-id="e7aa5-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-109">Click New.</span></span>
-3. <span data-ttu-id="e7aa5-110">Dans le champ Groupes de prix, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-110">In the Price groups field, type a value.</span></span>
-4. <span data-ttu-id="e7aa5-111">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="e7aa5-112">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-112">Click Save.</span></span>
-6. <span data-ttu-id="e7aa5-113">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-113">Close the page.</span></span>
-7. <span data-ttu-id="e7aa5-114">Accédez à Commerce et vente au détail > Canaux > Magasins de vente au détail > Tous les magasins de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-114">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
-8. <span data-ttu-id="e7aa5-115">Dans la liste, sélectionnez « New York ».</span><span class="sxs-lookup"><span data-stu-id="e7aa5-115">In the list, select 'New York'</span></span>
-9. <span data-ttu-id="e7aa5-116">Dans le volet Actions, cliquez sur Magasin.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-116">On the Action Pane, click Store.</span></span>
-10. <span data-ttu-id="e7aa5-117">Cliquez sur Groupes de prix.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-117">Click Price groups.</span></span>
-11. <span data-ttu-id="e7aa5-118">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-118">Click New.</span></span>
-12. <span data-ttu-id="e7aa5-119">Dans le champ Groupes de prix, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-119">In the Price groups field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="e7aa5-120">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="e7aa5-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-121">Click Save.</span></span>
-15. <span data-ttu-id="e7aa5-122">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-122">Close the page.</span></span>
-16. <span data-ttu-id="e7aa5-123">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-123">Close the page.</span></span>
-17. <span data-ttu-id="e7aa5-124">Accédez à Commerce et vente au détail > Produits et catégories > Produits lancés par catégorie.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-124">Go to Retail and commerce > Products and categories > Released products by category.</span></span>
-18. <span data-ttu-id="e7aa5-125">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-125">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="e7aa5-126">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-126">Click Edit.</span></span>
-20. <span data-ttu-id="e7aa5-127">Activez ou désactivez l'extension de la section Vendre.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-127">Toggle the expansion of the Sell section.</span></span>
-21. <span data-ttu-id="e7aa5-128">Dans le champ Prix, saisissez un numéro.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-128">In the Price field, enter a number.</span></span>
-    * <span data-ttu-id="e7aa5-129">Ce prix est utilisé si aucun accord commercial applicable n'est trouvé.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-129">This price is used if no applicable trade agreements are found.</span></span>  
-22. <span data-ttu-id="e7aa5-130">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-130">Click Save.</span></span>
-23. <span data-ttu-id="e7aa5-131">Cliquez sur Vendre dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-131">On the Action Pane, click Sell.</span></span>
-24. <span data-ttu-id="e7aa5-132">Cliquez sur Créer des accords commerciaux.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-132">Click Create trade agreements.</span></span>
-25. <span data-ttu-id="e7aa5-133">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-133">Click New.</span></span>
-26. <span data-ttu-id="e7aa5-134">Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-134">In the Name field, click the drop-down button to open the lookup.</span></span>
-27. <span data-ttu-id="e7aa5-135">Dans la liste, sélectionnez « Vente au détail ».</span><span class="sxs-lookup"><span data-stu-id="e7aa5-135">In the list, select 'Retail'.</span></span>
-    * <span data-ttu-id="e7aa5-136">Dans les données de démonstration, le nom de journal « Vente au détail » a la relation par défaut « Prix (vente) ».</span><span class="sxs-lookup"><span data-stu-id="e7aa5-136">In the demo data, the 'Retail' journal name has the default relation of 'Price (sales)'.</span></span> <span data-ttu-id="e7aa5-137">Cela signifie que toutes les lignes créées utilisent par défaut les accords commerciaux sur les prix de vente.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-137">That means all new lines created will default to sales price trade agreements.</span></span>  
-28. <span data-ttu-id="e7aa5-138">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-138">Click Lines.</span></span>
-29. <span data-ttu-id="e7aa5-139">Dans le champ Code de compte, sélectionnez « Groupe ».</span><span class="sxs-lookup"><span data-stu-id="e7aa5-139">In the Account code field, select 'Group'.</span></span>
-30. <span data-ttu-id="e7aa5-140">Dans le champ Sélection du compte, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-140">In the Account selection field, click the drop-down button to open the lookup.</span></span>
-31. <span data-ttu-id="e7aa5-141">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-141">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="e7aa5-142">Cela exécutera le lien entre le canal et le groupe de prix pour l'accord commercial.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-142">This will complete the link from Channel to Price group to Trade agreement.</span></span>  
-32. <span data-ttu-id="e7aa5-143">Dans le champ Relation d'article, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-143">In the Item relation field, type a value.</span></span>
-33. <span data-ttu-id="e7aa5-144">Dans le champ Montant en devise, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-144">In the Amount in currency field, enter a number.</span></span>
-34. <span data-ttu-id="e7aa5-145">Activez ou désactivez la case à cocher Suivant.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-145">Check or uncheck the Find next checkbox.</span></span>
-    * <span data-ttu-id="e7aa5-146">Lorsque l'option Suivant est définie sur « Oui », le moteur de tarification continue de rechercher des accords commerciaux applicables avec un prix de vente inférieur.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-146">When Find next is set to 'Yes', the pricing engine will continue to search for applicable trade agreements with a lower sale price.</span></span> <span data-ttu-id="e7aa5-147">Lorsque l'option Suivant est définie sur « Non », le moteur de tarification arrête la recherche et utilise l'accord commercial.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-147">When Find next is set to 'No', the price engine stops searching and uses the trade agreement.</span></span>  
-35. <span data-ttu-id="e7aa5-148">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-148">Click Post.</span></span>
-36. <span data-ttu-id="e7aa5-149">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-149">Click OK.</span></span>
-37. <span data-ttu-id="e7aa5-150">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-150">Close the page.</span></span>
-38. <span data-ttu-id="e7aa5-151">Cliquez sur Vendre dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-151">On the Action Pane, click Sell.</span></span>
-39. <span data-ttu-id="e7aa5-152">Cliquez sur Prix de vente.</span><span class="sxs-lookup"><span data-stu-id="e7aa5-152">Click Sales price.</span></span>
+1. <span data-ttu-id="4f364-106">Accédez à Commerce et vente au détail > Tarification et remises > Groupes de prix > Tous les groupes de prix.</span><span class="sxs-lookup"><span data-stu-id="4f364-106">Go to Retail and commerce > Pricing and discounts > Price groups > All price groups.</span></span>
+    * <span data-ttu-id="4f364-107">Les groupes de prix désignent la manière dont les accords commerciaux sont affectés à des canaux spécifiques.</span><span class="sxs-lookup"><span data-stu-id="4f364-107">Price groups are how trade agreements are assigned to specific channels.</span></span> <span data-ttu-id="4f364-108">L'utilisation de groupes de prix pour affecter des accords commerciaux à un canal active la tarification propre au canal.</span><span class="sxs-lookup"><span data-stu-id="4f364-108">Using price groups to assign trade agreements to a channel enables channel-specific pricing.</span></span>  
+2. <span data-ttu-id="4f364-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="4f364-109">Click New.</span></span>
+3. <span data-ttu-id="4f364-110">Dans le champ Groupes de prix, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="4f364-110">In the Price groups field, type a value.</span></span>
+4. <span data-ttu-id="4f364-111">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="4f364-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="4f364-112">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4f364-112">Click Save.</span></span>
+6. <span data-ttu-id="4f364-113">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4f364-113">Close the page.</span></span>
+7. <span data-ttu-id="4f364-114">Accédez à Commerce et vente au détail > Canaux > Magasins de vente au détail > Tous les magasins de vente au détail.</span><span class="sxs-lookup"><span data-stu-id="4f364-114">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
+8. <span data-ttu-id="4f364-115">Dans la liste, sélectionnez « New York ».</span><span class="sxs-lookup"><span data-stu-id="4f364-115">In the list, select 'New York'</span></span>
+9. <span data-ttu-id="4f364-116">Dans le volet Actions, cliquez sur Magasin.</span><span class="sxs-lookup"><span data-stu-id="4f364-116">On the Action Pane, click Store.</span></span>
+10. <span data-ttu-id="4f364-117">Cliquez sur Groupes de prix.</span><span class="sxs-lookup"><span data-stu-id="4f364-117">Click Price groups.</span></span>
+11. <span data-ttu-id="4f364-118">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="4f364-118">Click New.</span></span>
+12. <span data-ttu-id="4f364-119">Dans le champ Groupes de prix, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="4f364-119">In the Price groups field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="4f364-120">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="4f364-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="4f364-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4f364-121">Click Save.</span></span>
+15. <span data-ttu-id="4f364-122">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4f364-122">Close the page.</span></span>
+16. <span data-ttu-id="4f364-123">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4f364-123">Close the page.</span></span>
+17. <span data-ttu-id="4f364-124">Accédez à Commerce et vente au détail > Produits et catégories > Produits lancés par catégorie.</span><span class="sxs-lookup"><span data-stu-id="4f364-124">Go to Retail and commerce > Products and categories > Released products by category.</span></span>
+18. <span data-ttu-id="4f364-125">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="4f364-125">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="4f364-126">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="4f364-126">Click Edit.</span></span>
+20. <span data-ttu-id="4f364-127">Activez ou désactivez l'extension de la section Vendre.</span><span class="sxs-lookup"><span data-stu-id="4f364-127">Toggle the expansion of the Sell section.</span></span>
+21. <span data-ttu-id="4f364-128">Dans le champ Prix, saisissez un numéro.</span><span class="sxs-lookup"><span data-stu-id="4f364-128">In the Price field, enter a number.</span></span>
+    * <span data-ttu-id="4f364-129">Ce prix est utilisé si aucun accord commercial applicable n'est trouvé.</span><span class="sxs-lookup"><span data-stu-id="4f364-129">This price is used if no applicable trade agreements are found.</span></span>  
+22. <span data-ttu-id="4f364-130">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="4f364-130">Click Save.</span></span>
+23. <span data-ttu-id="4f364-131">Cliquez sur Vendre dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="4f364-131">On the Action Pane, click Sell.</span></span>
+24. <span data-ttu-id="4f364-132">Cliquez sur Créer des accords commerciaux.</span><span class="sxs-lookup"><span data-stu-id="4f364-132">Click Create trade agreements.</span></span>
+25. <span data-ttu-id="4f364-133">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="4f364-133">Click New.</span></span>
+26. <span data-ttu-id="4f364-134">Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="4f364-134">In the Name field, click the drop-down button to open the lookup.</span></span>
+27. <span data-ttu-id="4f364-135">Dans la liste, sélectionnez « Vente au détail ».</span><span class="sxs-lookup"><span data-stu-id="4f364-135">In the list, select 'Retail'.</span></span>
+    * <span data-ttu-id="4f364-136">Dans les données de démonstration, le nom de journal « Vente au détail » a la relation par défaut « Prix (vente) ».</span><span class="sxs-lookup"><span data-stu-id="4f364-136">In the demo data, the 'Retail' journal name has the default relation of 'Price (sales)'.</span></span> <span data-ttu-id="4f364-137">Cela signifie que toutes les lignes créées utilisent par défaut les accords commerciaux sur les prix de vente.</span><span class="sxs-lookup"><span data-stu-id="4f364-137">That means all new lines created will default to sales price trade agreements.</span></span>  
+28. <span data-ttu-id="4f364-138">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="4f364-138">Click Lines.</span></span>
+29. <span data-ttu-id="4f364-139">Dans le champ Code de compte, sélectionnez « Groupe ».</span><span class="sxs-lookup"><span data-stu-id="4f364-139">In the Account code field, select 'Group'.</span></span>
+30. <span data-ttu-id="4f364-140">Dans le champ Sélection du compte, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="4f364-140">In the Account selection field, click the drop-down button to open the lookup.</span></span>
+31. <span data-ttu-id="4f364-141">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="4f364-141">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="4f364-142">Cela exécutera le lien entre le canal et le groupe de prix pour l'accord commercial.</span><span class="sxs-lookup"><span data-stu-id="4f364-142">This will complete the link from Channel to Price group to Trade agreement.</span></span>  
+32. <span data-ttu-id="4f364-143">Dans le champ Relation d'article, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="4f364-143">In the Item relation field, type a value.</span></span>
+33. <span data-ttu-id="4f364-144">Dans le champ Montant en devise, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="4f364-144">In the Amount in currency field, enter a number.</span></span>
+34. <span data-ttu-id="4f364-145">Activez ou désactivez la case à cocher Suivant.</span><span class="sxs-lookup"><span data-stu-id="4f364-145">Check or uncheck the Find next checkbox.</span></span>
+    * <span data-ttu-id="4f364-146">Lorsque l'option Suivant est définie sur « Oui », le moteur de tarification continue de rechercher des accords commerciaux applicables avec un prix de vente inférieur.</span><span class="sxs-lookup"><span data-stu-id="4f364-146">When Find next is set to 'Yes', the pricing engine will continue to search for applicable trade agreements with a lower sale price.</span></span> <span data-ttu-id="4f364-147">Lorsque l'option Suivant est définie sur « Non », le moteur de tarification arrête la recherche et utilise l'accord commercial.</span><span class="sxs-lookup"><span data-stu-id="4f364-147">When Find next is set to 'No', the price engine stops searching and uses the trade agreement.</span></span>  
+35. <span data-ttu-id="4f364-148">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="4f364-148">Click Post.</span></span>
+36. <span data-ttu-id="4f364-149">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="4f364-149">Click OK.</span></span>
+37. <span data-ttu-id="4f364-150">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="4f364-150">Close the page.</span></span>
+38. <span data-ttu-id="4f364-151">Cliquez sur Vendre dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="4f364-151">On the Action Pane, click Sell.</span></span>
+39. <span data-ttu-id="4f364-152">Cliquez sur Prix de vente.</span><span class="sxs-lookup"><span data-stu-id="4f364-152">Click Sales price.</span></span>
 
