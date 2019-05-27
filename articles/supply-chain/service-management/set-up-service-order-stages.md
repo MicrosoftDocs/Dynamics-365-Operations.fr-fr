@@ -19,31 +19,31 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 30f6a6afa6ab91bed41bb19b8312dc7e25bd2478
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "366763"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551717"
 ---
-# <a name="set-up-service-order-stages"></a><span data-ttu-id="7ed34-103">Paramétrer des stades de commande de service</span><span class="sxs-lookup"><span data-stu-id="7ed34-103">Set up service order stages</span></span> 
+# <a name="set-up-service-order-stages"></a><span data-ttu-id="f059d-103">Paramétrer des stades de commande de service</span><span class="sxs-lookup"><span data-stu-id="f059d-103">Set up service order stages</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="7ed34-104">Cliquez sur **Gestion des services** \> **Paramétrage** \> **Commandes de service** \> **Stades du service**.</span><span class="sxs-lookup"><span data-stu-id="7ed34-104">Click **Service management** \> **Setup** \> **Service orders** \> **Service stages**.</span></span>
+1.  <span data-ttu-id="f059d-104">Cliquez sur **Gestion des services** \> **Paramétrage** \> **Commandes de service** \> **Stades du service**.</span><span class="sxs-lookup"><span data-stu-id="f059d-104">Click **Service management** \> **Setup** \> **Service orders** \> **Service stages**.</span></span>
 
-2.  <span data-ttu-id="7ed34-105">Appuyez sur Ctrl+N pour créer un enregistrement.</span><span class="sxs-lookup"><span data-stu-id="7ed34-105">Press CTRL+N to create a new record.</span></span>
+2.  <span data-ttu-id="f059d-105">Appuyez sur Ctrl+N pour créer un enregistrement.</span><span class="sxs-lookup"><span data-stu-id="f059d-105">Press CTRL+N to create a new record.</span></span>
 
-3.  <span data-ttu-id="7ed34-106">Dans les champs **Stade du service** et **Description**, entrez l'ID et la description du stade de service.</span><span class="sxs-lookup"><span data-stu-id="7ed34-106">In the **Service stage** and **Description** fields, specify a service stage ID and description.</span></span>
+3.  <span data-ttu-id="f059d-106">Dans les champs **Stade du service** et **Description**, entrez l'ID et la description du stade de service.</span><span class="sxs-lookup"><span data-stu-id="f059d-106">In the **Service stage** and **Description** fields, specify a service stage ID and description.</span></span>
 
-4.  <span data-ttu-id="7ed34-107">Sélectionnez les paramètres appropriés pour le stade.</span><span class="sxs-lookup"><span data-stu-id="7ed34-107">Select the appropriate parameters for the stage.</span></span>
+4.  <span data-ttu-id="f059d-107">Sélectionnez les paramètres appropriés pour le stade.</span><span class="sxs-lookup"><span data-stu-id="f059d-107">Select the appropriate parameters for the stage.</span></span>
 
-5.  <span data-ttu-id="7ed34-108">Sélectionnez le stade parent du stade actif ou laissez le champ **Parent** vide si le stade actif correspond au stade initial du paramétrage de stade.</span><span class="sxs-lookup"><span data-stu-id="7ed34-108">Select the parent stage for the current stage or leave the **Parent** field blank if the stage is the initial stage in the stage setup.</span></span>
+5.  <span data-ttu-id="f059d-108">Sélectionnez le stade parent du stade actif ou laissez le champ **Parent** vide si le stade actif correspond au stade initial du paramétrage de stade.</span><span class="sxs-lookup"><span data-stu-id="f059d-108">Select the parent stage for the current stage or leave the **Parent** field blank if the stage is the initial stage in the stage setup.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="7ed34-109">Une fois le stade enregistré, il n'est plus possible de modifier le champ <STRONG>Parent</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="7ed34-109">You cannot modify the <STRONG>Parent</STRONG> field after you save the stage.</span></span> <span data-ttu-id="7ed34-110">Vous pouvez supprimer l'enregistrement et le créer à nouveau en sélectionnant un autre élément dans le champ <STRONG>Parent</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="7ed34-110">Instead, you can delete the record and create the record again with a different selection in the <STRONG>Parent</STRONG> field.</span></span></P>
-> <P><span data-ttu-id="7ed34-111">En outre, vous ne pouvez créer qu'un seul stade avec un champ <STRONG>Parent</STRONG> vide.</span><span class="sxs-lookup"><span data-stu-id="7ed34-111">Also, you can only create one stage with a blank <STRONG>Parent</STRONG> field.</span></span> <span data-ttu-id="7ed34-112">Cela signifie qu'un seul stade initial est autorisé.</span><span class="sxs-lookup"><span data-stu-id="7ed34-112">That is, only one initial stage is permitted.</span></span></P>
+> <P><span data-ttu-id="f059d-109">Une fois le stade enregistré, il n'est plus possible de modifier le champ <STRONG>Parent</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="f059d-109">You cannot modify the <STRONG>Parent</STRONG> field after you save the stage.</span></span> <span data-ttu-id="f059d-110">Vous pouvez supprimer l'enregistrement et le créer à nouveau en sélectionnant un autre élément dans le champ <STRONG>Parent</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="f059d-110">Instead, you can delete the record and create the record again with a different selection in the <STRONG>Parent</STRONG> field.</span></span></P>
+> <P><span data-ttu-id="f059d-111">En outre, vous ne pouvez créer qu'un seul stade avec un champ <STRONG>Parent</STRONG> vide.</span><span class="sxs-lookup"><span data-stu-id="f059d-111">Also, you can only create one stage with a blank <STRONG>Parent</STRONG> field.</span></span> <span data-ttu-id="f059d-112">Cela signifie qu'un seul stade initial est autorisé.</span><span class="sxs-lookup"><span data-stu-id="f059d-112">That is, only one initial stage is permitted.</span></span></P>
 
 
   

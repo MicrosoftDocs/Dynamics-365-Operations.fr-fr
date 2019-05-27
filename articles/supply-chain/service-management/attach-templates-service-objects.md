@@ -19,38 +19,38 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3cfd653278169c935095b54f488b65a8939d8309
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311011"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545334"
 ---
-# <a name="attach-templates-to-service-objects"></a><span data-ttu-id="5b2c1-103">Association de modèles à des objets de service</span><span class="sxs-lookup"><span data-stu-id="5b2c1-103">Attach templates to service objects</span></span>    
+# <a name="attach-templates-to-service-objects"></a><span data-ttu-id="02bdc-103">Association de modèles à des objets de service</span><span class="sxs-lookup"><span data-stu-id="02bdc-103">Attach templates to service objects</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="5b2c1-104">Une nomenclature des modèles peut être liée à une relation d'objets de service.</span><span class="sxs-lookup"><span data-stu-id="5b2c1-104">A template bill of materials (BOM) can be attached to a service object relation.</span></span> <span data-ttu-id="5b2c1-105">La relation d'objets de service peut ensuite être associée à des commandes de service ou des accords de service.</span><span class="sxs-lookup"><span data-stu-id="5b2c1-105">The service object relation can then be associated with either service orders or service agreements.</span></span>
+<span data-ttu-id="02bdc-104">Une nomenclature des modèles peut être liée à une relation d'objets de service.</span><span class="sxs-lookup"><span data-stu-id="02bdc-104">A template bill of materials (BOM) can be attached to a service object relation.</span></span> <span data-ttu-id="02bdc-105">La relation d'objets de service peut ensuite être associée à des commandes de service ou des accords de service.</span><span class="sxs-lookup"><span data-stu-id="02bdc-105">The service object relation can then be associated with either service orders or service agreements.</span></span>
 
-1.  <span data-ttu-id="5b2c1-106">Cliquez sur **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Objets du service**.</span><span class="sxs-lookup"><span data-stu-id="5b2c1-106">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
+1.  <span data-ttu-id="02bdc-106">Cliquez sur **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Objets du service**.</span><span class="sxs-lookup"><span data-stu-id="02bdc-106">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
 
-2.  <span data-ttu-id="5b2c1-107">Sélectionnez un objet de service.</span><span class="sxs-lookup"><span data-stu-id="5b2c1-107">Select a service object.</span></span>
+2.  <span data-ttu-id="02bdc-107">Sélectionnez un objet de service.</span><span class="sxs-lookup"><span data-stu-id="02bdc-107">Select a service object.</span></span>
 
-3.  <span data-ttu-id="5b2c1-108">Cliquez sur **Accords de service** ou **Commandes de service** pour afficher les accords de service ou les commandes de service auxquels l'objet de service a été associé.</span><span class="sxs-lookup"><span data-stu-id="5b2c1-108">Click **Service agreements** or **Service orders** to display the service agreements or service orders that the service object has been associated with.</span></span>
+3.  <span data-ttu-id="02bdc-108">Cliquez sur **Accords de service** ou **Commandes de service** pour afficher les accords de service ou les commandes de service auxquels l'objet de service a été associé.</span><span class="sxs-lookup"><span data-stu-id="02bdc-108">Click **Service agreements** or **Service orders** to display the service agreements or service orders that the service object has been associated with.</span></span>
 
-4.  <span data-ttu-id="5b2c1-109">Sélectionnez un accord de service ou une commande de service, cliquez sur **Fonctions**, puis sur **Joindre une nomenclature des modèles**.</span><span class="sxs-lookup"><span data-stu-id="5b2c1-109">Select a service agreement or a service order, click **Functions**, and then click **Attach template BOM**.</span></span>
+4.  <span data-ttu-id="02bdc-109">Sélectionnez un accord de service ou une commande de service, cliquez sur **Fonctions**, puis sur **Joindre une nomenclature des modèles**.</span><span class="sxs-lookup"><span data-stu-id="02bdc-109">Select a service agreement or a service order, click **Functions**, and then click **Attach template BOM**.</span></span>
 
-5.  <span data-ttu-id="5b2c1-110">Sélectionnez la nomenclature des modèles que vous souhaitez lier à l'objet.</span><span class="sxs-lookup"><span data-stu-id="5b2c1-110">Select the template BOM to attach to the object.</span></span>
+5.  <span data-ttu-id="02bdc-110">Sélectionnez la nomenclature des modèles que vous souhaitez lier à l'objet.</span><span class="sxs-lookup"><span data-stu-id="02bdc-110">Select the template BOM to attach to the object.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="5b2c1-111">Pour déplacer une nomenclature liée vers un autre objet de service ou pour supprimer une nomenclature liée, dans l'écran <STRONG>Objets du service</STRONG>, cliquez sur <STRONG>Fonctions</STRONG>, puis sur <STRONG>Déplacer la nomenclature des services</STRONG> ou <STRONG>Supprimer la nomenclature des services</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="5b2c1-111">To move an attached BOM to another service object or to delete an attached BOM, in the <STRONG>Service objects</STRONG> form, click <STRONG>Functions</STRONG>, and then click <STRONG>Move service BOM</STRONG> or <STRONG>Delete service BOM</STRONG>.</span></span></P>
+> <P><span data-ttu-id="02bdc-111">Pour déplacer une nomenclature liée vers un autre objet de service ou pour supprimer une nomenclature liée, dans l'écran <STRONG>Objets du service</STRONG>, cliquez sur <STRONG>Fonctions</STRONG>, puis sur <STRONG>Déplacer la nomenclature des services</STRONG> ou <STRONG>Supprimer la nomenclature des services</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="02bdc-111">To move an attached BOM to another service object or to delete an attached BOM, in the <STRONG>Service objects</STRONG> form, click <STRONG>Functions</STRONG>, and then click <STRONG>Move service BOM</STRONG> or <STRONG>Delete service BOM</STRONG>.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="5b2c1-112">Voir également :</span><span class="sxs-lookup"><span data-stu-id="5b2c1-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="02bdc-112">Voir également :</span><span class="sxs-lookup"><span data-stu-id="02bdc-112">See also</span></span>
 
-[<span data-ttu-id="5b2c1-113">Créer des objets de service</span><span class="sxs-lookup"><span data-stu-id="5b2c1-113">Create service objects</span></span>](create-service-objects.md)
+[<span data-ttu-id="02bdc-113">Créer des objets de service</span><span class="sxs-lookup"><span data-stu-id="02bdc-113">Create service objects</span></span>](create-service-objects.md)
 
   
 

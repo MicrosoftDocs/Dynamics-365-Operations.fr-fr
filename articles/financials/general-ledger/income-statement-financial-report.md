@@ -19,55 +19,55 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9105e1de86ed2834b04f75c7d08c4021402bcfda
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364003"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549148"
 ---
-# <a name="income-statement-financial-report"></a><span data-ttu-id="b75df-104">Rapport financier du relevé des revenus</span><span class="sxs-lookup"><span data-stu-id="b75df-104">Income statement financial report</span></span>
+# <a name="income-statement-financial-report"></a><span data-ttu-id="20b6a-104">Rapport financier du relevé des revenus</span><span class="sxs-lookup"><span data-stu-id="20b6a-104">Income statement financial report</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b75df-105">Cet article décrit l'état par défaut des comptes de résultats.</span><span class="sxs-lookup"><span data-stu-id="b75df-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="b75df-106">Il décrit également les blocs de construction associés à cet état.</span><span class="sxs-lookup"><span data-stu-id="b75df-106">It also describes the building blocks that are associated with this report.</span></span> 
+<span data-ttu-id="20b6a-105">Cet article décrit l'état par défaut des comptes de résultats.</span><span class="sxs-lookup"><span data-stu-id="20b6a-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="20b6a-106">Il décrit également les blocs de construction associés à cet état.</span><span class="sxs-lookup"><span data-stu-id="20b6a-106">It also describes the building blocks that are associated with this report.</span></span> 
 
-<a name="default-income-statement-report"></a><span data-ttu-id="b75df-107">Rapport par défaut du relevé des revenus</span><span class="sxs-lookup"><span data-stu-id="b75df-107">Default income statement report</span></span>
+<a name="default-income-statement-report"></a><span data-ttu-id="20b6a-107">Rapport par défaut du relevé des revenus</span><span class="sxs-lookup"><span data-stu-id="20b6a-107">Default income statement report</span></span>
 -------------------------------
 
-| <span data-ttu-id="b75df-108">État par défaut</span><span class="sxs-lookup"><span data-stu-id="b75df-108">Default report</span></span>             | <span data-ttu-id="b75df-109">Fonction</span><span class="sxs-lookup"><span data-stu-id="b75df-109">What it does</span></span>                                                                                              |
+| <span data-ttu-id="20b6a-108">État par défaut</span><span class="sxs-lookup"><span data-stu-id="20b6a-108">Default report</span></span>             | <span data-ttu-id="20b6a-109">Fonction</span><span class="sxs-lookup"><span data-stu-id="20b6a-109">What it does</span></span>                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="b75df-110">Relevé des revenus – Par défaut.</span><span class="sxs-lookup"><span data-stu-id="b75df-110">Income Statement – Default</span></span> | <span data-ttu-id="b75df-111">Permet d'afficher la rentabilité de l'organisation pour la période en cours ainsi que pour l'année en cours.</span><span class="sxs-lookup"><span data-stu-id="b75df-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
+| <span data-ttu-id="20b6a-110">Relevé des revenus – Par défaut.</span><span class="sxs-lookup"><span data-stu-id="20b6a-110">Income Statement – Default</span></span> | <span data-ttu-id="20b6a-111">Permet d'afficher la rentabilité de l'organisation pour la période en cours ainsi que pour l'année en cours.</span><span class="sxs-lookup"><span data-stu-id="20b6a-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="b75df-112">Blocs élémentaires</span><span class="sxs-lookup"><span data-stu-id="b75df-112">Building blocks</span></span>
-<span data-ttu-id="b75df-113">Le rapport financier du relevé des revenus utilise les blocs élémentaires suivants.</span><span class="sxs-lookup"><span data-stu-id="b75df-113">The income statement financial report uses the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="20b6a-112">Blocs élémentaires</span><span class="sxs-lookup"><span data-stu-id="20b6a-112">Building blocks</span></span>
+<span data-ttu-id="20b6a-113">Le rapport financier du relevé des revenus utilise les blocs élémentaires suivants.</span><span class="sxs-lookup"><span data-stu-id="20b6a-113">The income statement financial report uses the following building blocks.</span></span>
 
-| <span data-ttu-id="b75df-114">Rapport par défaut</span><span class="sxs-lookup"><span data-stu-id="b75df-114">Default report</span></span>             | <span data-ttu-id="b75df-115">Définition de ligne</span><span class="sxs-lookup"><span data-stu-id="b75df-115">Row definition</span></span>                     | <span data-ttu-id="b75df-116">Définition de colonne</span><span class="sxs-lookup"><span data-stu-id="b75df-116">Column definition</span></span>          |
+| <span data-ttu-id="20b6a-114">Rapport par défaut</span><span class="sxs-lookup"><span data-stu-id="20b6a-114">Default report</span></span>             | <span data-ttu-id="20b6a-115">Définition de ligne</span><span class="sxs-lookup"><span data-stu-id="20b6a-115">Row definition</span></span>                     | <span data-ttu-id="20b6a-116">Définition de colonne</span><span class="sxs-lookup"><span data-stu-id="20b6a-116">Column definition</span></span>          |
 |----------------------------|------------------------------------|----------------------------|
-| <span data-ttu-id="b75df-117">Relevé des revenus - Par défaut</span><span class="sxs-lookup"><span data-stu-id="b75df-117">Income Statement - Default</span></span> | <span data-ttu-id="b75df-118">Récapitulatif du relevé des revenus - Par défaut</span><span class="sxs-lookup"><span data-stu-id="b75df-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="b75df-119">Périodique et Année en cours - Par défaut</span><span class="sxs-lookup"><span data-stu-id="b75df-119">Periodic and YTD - Default</span></span> |
+| <span data-ttu-id="20b6a-117">Relevé des revenus - Par défaut</span><span class="sxs-lookup"><span data-stu-id="20b6a-117">Income Statement - Default</span></span> | <span data-ttu-id="20b6a-118">Récapitulatif du relevé des revenus - Par défaut</span><span class="sxs-lookup"><span data-stu-id="20b6a-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="20b6a-119">Périodique et Année en cours - Par défaut</span><span class="sxs-lookup"><span data-stu-id="20b6a-119">Periodic and YTD - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="b75df-120">Définition de ligne</span><span class="sxs-lookup"><span data-stu-id="b75df-120">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="20b6a-120">Définition de ligne</span><span class="sxs-lookup"><span data-stu-id="20b6a-120">Row definition</span></span>
 
-<span data-ttu-id="b75df-121">La définition de ligne, Récapitulatif du relevé des revenus - Par défaut, contient une section pour chaque partie d'un relevé de revenus traditionnel.</span><span class="sxs-lookup"><span data-stu-id="b75df-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="b75df-122">La dimension Catégorie de compte principal est utilisée afin d'établir cette définition de ligne.</span><span class="sxs-lookup"><span data-stu-id="b75df-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="b75df-123">Par conséquent, n'importe qui peut générer le rapport sans avoir à apporter de modifications.</span><span class="sxs-lookup"><span data-stu-id="b75df-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
+<span data-ttu-id="20b6a-121">La définition de ligne, Récapitulatif du relevé des revenus - Par défaut, contient une section pour chaque partie d'un relevé de revenus traditionnel.</span><span class="sxs-lookup"><span data-stu-id="20b6a-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="20b6a-122">La dimension Catégorie de compte principal est utilisée afin d'établir cette définition de ligne.</span><span class="sxs-lookup"><span data-stu-id="20b6a-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="20b6a-123">Par conséquent, n'importe qui peut générer le rapport sans avoir à apporter de modifications.</span><span class="sxs-lookup"><span data-stu-id="20b6a-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="b75df-124">Définition de colonne</span><span class="sxs-lookup"><span data-stu-id="b75df-124">Column Definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="20b6a-124">Définition de colonne</span><span class="sxs-lookup"><span data-stu-id="20b6a-124">Column Definition</span></span>
 
-<span data-ttu-id="b75df-125">Les définitions de colonne contiennent différents types de colonnes afin d'offrir différents niveaux de détails et de données financières.</span><span class="sxs-lookup"><span data-stu-id="b75df-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="20b6a-125">Les définitions de colonne contiennent différents types de colonnes afin d'offrir différents niveaux de détails et de données financières.</span><span class="sxs-lookup"><span data-stu-id="20b6a-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="b75df-126">**Périodique et Année en cours – Types de colonne par défaut :**</span><span class="sxs-lookup"><span data-stu-id="b75df-126">**Periodic and YTD – Default column types:**</span></span>
-    -   <span data-ttu-id="b75df-127">**DESC** : Description de la définition de ligne.</span><span class="sxs-lookup"><span data-stu-id="b75df-127">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="b75df-128">**DF** – Données financières pour la période en cours</span><span class="sxs-lookup"><span data-stu-id="b75df-128">**FD** – Financial data for the current period</span></span>
-    -   <span data-ttu-id="b75df-129">**DF** – Données financières pour l'année en cours</span><span class="sxs-lookup"><span data-stu-id="b75df-129">**FD** – Financial data for the year to date</span></span>
+-   <span data-ttu-id="20b6a-126">**Périodique et Année en cours – Types de colonne par défaut :**</span><span class="sxs-lookup"><span data-stu-id="20b6a-126">**Periodic and YTD – Default column types:**</span></span>
+    -   <span data-ttu-id="20b6a-127">**DESC** : Description de la définition de ligne.</span><span class="sxs-lookup"><span data-stu-id="20b6a-127">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="20b6a-128">**DF** – Données financières pour la période en cours</span><span class="sxs-lookup"><span data-stu-id="20b6a-128">**FD** – Financial data for the current period</span></span>
+    -   <span data-ttu-id="20b6a-129">**DF** – Données financières pour l'année en cours</span><span class="sxs-lookup"><span data-stu-id="20b6a-129">**FD** – Financial data for the year to date</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="b75df-130">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="b75df-130">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="20b6a-130">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="20b6a-130">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="b75df-131">États financiers</span><span class="sxs-lookup"><span data-stu-id="b75df-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="20b6a-131">États financiers</span><span class="sxs-lookup"><span data-stu-id="20b6a-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="b75df-132">Afficher les états financiers</span><span class="sxs-lookup"><span data-stu-id="b75df-132">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="20b6a-132">Afficher les états financiers</span><span class="sxs-lookup"><span data-stu-id="20b6a-132">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="b75df-133">États financiers Dynamics (blog)</span><span class="sxs-lookup"><span data-stu-id="b75df-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="20b6a-133">États financiers Dynamics (blog)</span><span class="sxs-lookup"><span data-stu-id="20b6a-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

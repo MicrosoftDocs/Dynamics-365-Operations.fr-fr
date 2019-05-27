@@ -19,26 +19,26 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5341e760bf4cde2dcebebee0dacc1e88506368fe
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358345"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570081"
 ---
-# <a name="indexed-sales-prices"></a><span data-ttu-id="4ea2b-103">Prix de vente indexés</span><span class="sxs-lookup"><span data-stu-id="4ea2b-103">Indexed sales prices</span></span>  
+# <a name="indexed-sales-prices"></a><span data-ttu-id="a06fc-103">Prix de vente indexés</span><span class="sxs-lookup"><span data-stu-id="a06fc-103">Indexed sales prices</span></span>  
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="4ea2b-104">L'indice pour un prix de vente d'abonnement doit être paramétré lors de la création de frais d'abonnement.</span><span class="sxs-lookup"><span data-stu-id="4ea2b-104">You set up the index for a subscription sales price when you create a subscription fee.</span></span>
+<span data-ttu-id="a06fc-104">L'indice pour un prix de vente d'abonnement doit être paramétré lors de la création de frais d'abonnement.</span><span class="sxs-lookup"><span data-stu-id="a06fc-104">You set up the index for a subscription sales price when you create a subscription fee.</span></span>
 
-<span data-ttu-id="4ea2b-105">Dans l'écran **Créer des frais d'abonnement**, définissez le champ **Récupérer le prix de** sur **Prix de base indexé**, puis multipliez le prix de base par le pourcentage dans le champ **Changement de prix en pourcentage** pour obtenir le prix de vente de la transaction d'abonnement.</span><span class="sxs-lookup"><span data-stu-id="4ea2b-105">In the **Create subscription fee** form, set the **Get pricing from** field to **Indexed base price**, and then multiply the base price by the percentage in the **Percent price change** field to get the sales price of the subscription transaction.</span></span>
+<span data-ttu-id="a06fc-105">Dans l'écran **Créer des frais d'abonnement**, définissez le champ **Récupérer le prix de** sur **Prix de base indexé**, puis multipliez le prix de base par le pourcentage dans le champ **Changement de prix en pourcentage** pour obtenir le prix de vente de la transaction d'abonnement.</span><span class="sxs-lookup"><span data-stu-id="a06fc-105">In the **Create subscription fee** form, set the **Get pricing from** field to **Indexed base price**, and then multiply the base price by the percentage in the **Percent price change** field to get the sales price of the subscription transaction.</span></span>
 
-<span data-ttu-id="4ea2b-106">Par exemple, si le prix de base est de 1 000 EUR et l'indice 110, le prix de vente est de 1 100 EUR.</span><span class="sxs-lookup"><span data-stu-id="4ea2b-106">For example, if the base price is EUR 1,000, and the index is 110, the sales price is EUR 1,100.</span></span>
+<span data-ttu-id="a06fc-106">Par exemple, si le prix de base est de 1 000 EUR et l'indice 110, le prix de vente est de 1 100 EUR.</span><span class="sxs-lookup"><span data-stu-id="a06fc-106">For example, if the base price is EUR 1,000, and the index is 110, the sales price is EUR 1,100.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4ea2b-107">Voir également :</span><span class="sxs-lookup"><span data-stu-id="4ea2b-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a06fc-107">Voir également :</span><span class="sxs-lookup"><span data-stu-id="a06fc-107">See also</span></span>
 
-[<span data-ttu-id="4ea2b-108">Créer des transactions de redevance</span><span class="sxs-lookup"><span data-stu-id="4ea2b-108">Create subscription fee transactions</span></span>](create-subscription-fee-transactions.md)
+[<span data-ttu-id="a06fc-108">Créer des transactions de redevance</span><span class="sxs-lookup"><span data-stu-id="a06fc-108">Create subscription fee transactions</span></span>](create-subscription-fee-transactions.md)
 
   
 
