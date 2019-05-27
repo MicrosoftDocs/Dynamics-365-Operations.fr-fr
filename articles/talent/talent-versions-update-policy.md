@@ -3,7 +3,7 @@ title: Configuration du système Talent et politique de mise à jour
 description: Cette rubrique répertorie les besoins pour Dynamics 365 for Talent. Elle décrit également la stratégie de mise à jour.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2389f00b22ec3b5284eeffb2c015533b7a3d13e0
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856299"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518003"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Configuration du système Talent et politique de mise à jour
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique répertorie les besoins pour Microsoft Dynamics 365 for Talent. Elle décrit également la stratégie de mise à jour.
+Cette rubrique décrit les besoins pour Microsoft Dynamics 365 for Talent, y compris Attract, Onboard et Core HR. Elle décrit également les pays et régions où Talent est disponible, et fournit des informations sur les langues et la localisation des données pour Talent. En outre, cette rubrique fournit la stratégie de mise à jour de Talent.
 
 ## <a name="supported-web-browsers"></a>Navigateurs Web pris en charge
 
@@ -57,8 +57,17 @@ Pour trouver la dernière version pour chaque navigateur Web, accédez au site I
 * Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus de détails sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Dépannage de l'intégration d'Office").
 * Pour afficher les documents qui sont générés par la fonctionnalité Exporter vers Excel ou Exporter vers Word, vous devez disposer de Microsoft Office 2007 ou version ultérieure.
 
+## <a name="regional-availability-languages-and-localization"></a>Disponibilité, langues et localisation régionales
+
+Vous pouvez télécharger un fichier PDF des pays, régions et langues pris en charge par Talent dans [Disponibilité internationale de Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability). 
+
+> [!NOTE]
+> Bien que l'interface utilisateur soit localisée dans d'autres langues, toutes les données d'utilisateur sont stockées dans la langue dans laquelle elles ont été entrées. Vous pouvez créer des e-mails et des modèles dans d'autres langues, mais les données telles que les informations de planification sont uniquement disponibles en anglais à ce stade.
+
+Si vous êtes développeur et intéressé à créer des personnalisations spécifiques à un pays ou une région, ou à créer une solution pour un pays ou une région actuellement non pris en charge par Microsoft, voir [Globalisation](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+
 ## <a name="update-policy"></a>Stratégie de mise à jour
 
 Microsoft Dynamics 365 for Talent fait l'objet d'une maintenance dans le cadre d'une offre Cloud. Les mises à jour de Dynamics 365 for Talent sont continues et appliquées automatiquement par Microsoft.
 
-Les mises à jour sont publiées régulièrement et s'appliquent à tous les environnements.  Dynamics 365 for Talent est pris en charge conformément à la [Stratégie Microsoft Support Lifecycle](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), qui fournit des instructions cohérentes et prévisibles pour la disponibilité du support produit.
+Les mises à jour sont publiées régulièrement et s'appliqueront à tous les environnements. Dynamics 365 for Talent est pris en charge conformément à la [Stratégie Microsoft Support Lifecycle](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), qui fournit des instructions cohérentes et prévisibles pour la disponibilité du support produit.

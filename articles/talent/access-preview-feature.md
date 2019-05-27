@@ -1,12 +1,12 @@
 ---
 title: Accéder aux fonctions d'aperçu de Talent
 description: Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu. Elle répertorie également les fonctionnalités qui sont actuellement activées pour le mode aperçu.
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856322"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518030"
 ---
 # <a name="access-preview-features-in-talent"></a>Accéder aux fonctions d'aperçu de Talent
 
@@ -72,6 +72,7 @@ Vous pouvez utiliser le paramètre **Fonctionnalités d'aperçu** dans le centre
 
 - **Postulant** – Les candidats internes et externes peuvent désormais postuler directement depuis la page des postes sur le site de carrière.
 - **Gestion des offres** – Les utilisateurs peuvent désormais créer des lettres d'offre à partir de modèles qui incluent des espaces réservés. Lorsque les candidats passent à l'étape Offre, les recruteurs et les responsables du recrutement peuvent utiliser l'outil Offre pour préparer l'offre formelle d'un candidat à l'aide de modèles, envoyer l'offre pour approbation interne et enfin envoyer l'offre au candidat pour signature. De nombreuses fonctionnalités seront ajoutées à l'outil Offre au fil du temps, et la fonctionnalité d'aperçu sera mise à jour avec ces fonctionnalités dès que nous serons prêts à les publier en mode aperçu.
+- **[États analytiques](analytic-reports.md)** – Les équipes de recrutement peuvent afficher des mesures clés pour un seul poste avec Analyses du poste ou des mesures globales sur tous les postes dans le Concentrateur d'analyses.
 
 ### <a name="core-hr"></a>Core HR
 

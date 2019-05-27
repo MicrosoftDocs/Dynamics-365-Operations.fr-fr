@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347857"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571556"
 ---
 # <a name="retail-peripherals"></a>Périphériques de vente au détail
 
@@ -209,7 +209,7 @@ Pour plus d'informations, voir [Installation et configuration de Retail Modern P
 Pour plus d'informations sur les composants OPOS, voir la section « Interfaces prises en charge » de ce document. De manière générale, les pilotes OPOS sont fournis par le fabricant du périphérique. Lorsqu'un pilote de périphérique OPOS est installé, il ajoute une clé au registre de Windows dans l'un des emplacements suivants :
 
 - **Système 32 bits :** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
-- **Système 64 bits ::** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+- **Système 64 bits :** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
 Dans l'emplacement du registre ServiceOPOS, les périphériques configurés sont organisés selon leur classe de périphérique OPOS. Plusieurs pilotes de périphérique sont stockés.
 

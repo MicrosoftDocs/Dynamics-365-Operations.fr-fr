@@ -17,11 +17,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e1d2e31a5de7cefd20996c18bf4771296a587997
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359104"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569630"
 ---
 # <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur
 

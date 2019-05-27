@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321729"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545460"
 ---
 # <a name="europe"></a>Europe 
 
@@ -90,7 +90,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
   - [Taux de change TVA](emea-vat-exchange-rate.md)
   - [État de rapprochement de TVA](tasks/eur-00018-vat-reconciliation-report.md)
   - [Transactions d'enregistrement de TVA pour l'Europe de l'Est](emea-vat-register-transactions.md)
-  - [Génération d'états TVA](emea-vat-reporting.md)
+  - [Déclaration de TVA](emea-vat-reporting.md)
   - [Créer et envoyer une déclaration de TVA](tasks/create-submit-vat-report.md)
   - [Affichage des transactions pour règlement](emea-transactions-settlement-form.md)
 
