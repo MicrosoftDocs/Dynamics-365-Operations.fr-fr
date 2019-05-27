@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44e7039dc7712e6dc0fda19166080ad68c24af1d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: aa33f5d0346dc1a0d5c351ca9296539f0ed39943
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370674"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537940"
 ---
 # <a name="public-sector-accounting-in-france"></a>Comptabilité du secteur public en France
 

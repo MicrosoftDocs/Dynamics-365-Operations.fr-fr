@@ -1,9 +1,9 @@
 ---
 title: Vue d'ensemble des règlements
-description: Cet article fournit des informations générales sur le processus de règlement. Il décrit les types de transactions pouvant être réglées, quand et comment les transactions peuvent être réglées ainsi que les résultats du processus de règlement.
+description: Cette rubrique fournit des informations générales sur le processus de règlement. Il décrit les types de transactions pouvant être réglées, quand et comment les transactions peuvent être réglées ainsi que les résultats du processus de règlement.
 author: kweekley
 manager: AnnBe
-ms.date: 12/06/2018
+ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e13bdcdcf6dac68a95e6c2759a66bc59013464cb
+ms.sourcegitcommit: fd3db9f2052c76a5d906b9ec23cb16222452a362
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "338289"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "1539965"
 ---
 # <a name="settlement-overview"></a>Vue d'ensemble des règlements
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations générales sur le processus de règlement. Il décrit les types de transactions pouvant être réglées, quand et comment les transactions peuvent être réglées ainsi que les résultats du processus de règlement.
+Cette rubrique fournit des informations générales sur le processus de règlement. Il décrit les types de transactions pouvant être réglées, quand et comment les transactions peuvent être réglées ainsi que les résultats du processus de règlement.
 
 Lors d'un règlement, les transactions dans un document sont appliquées aux transactions dans un autre document pour augmenter ou diminuer le solde de chaque document. Par exemple, un paiement peut être appliqué à une facture. Différents types de transaction peuvent être réglés, à différents moments et par différentes méthodes. Un règlement peut également entraîner la génération de nouvelles transactions.
 
@@ -40,7 +40,7 @@ Un règlement dans la comptabilité fournisseur et la comptabilité client peut 
 Les transactions peuvent être réglées au moment de la saisie du paiement. Par exemple, lorsque vous effectuez un paiement à un fournisseur, vous sélectionnez généralement les factures à payer. En sélectionnant les factures, vous les marquez pour règlement par rapport au paiement. Lorsque les commis aux paiements de la comptabilité client enregistrent un paiement client, ils peuvent marquer les factures appropriées pour règlement, selon les informations fournies avec le paiement du client. La page **Régler les transactions** permet de marquer les transactions pour règlement. Cette page peut être ouverte à partir d'une facture ou d'un paiement non validé. Lorsque la transaction est validée, le règlement l'est également. Les transactions peuvent également être réglées après leur validation. Vous pouvez entrer et valider un paiement client sans le régler pour des factures. Toutefois, vous devez d'abord effectuer des recherches pour vérifier que le paiement est réglé pour la facture appropriée. La page **Régler les transactions** peut être ouverte à partir de la page **Tous les clients** ou **Tous les fournisseurs**, ou de la page **Transactions** pour un client ou fournisseur. Vous pouvez également réserver des acomptes validés pour une facture en marquant le paiement pour règlement par rapport à une commande fournisseur ou une commande client. Dans ce cas, le paiement a toujours un solde en cours, mais il ne peut pas être réglé par rapport à une autre facture. Le paiement sera réglé automatiquement par rapport à la facture qui a été créée à partir de la commande fournisseur ou de la commande client.
 
 ## <a name="how-to-settle-transactions"></a>Comment régler des transactions
-Les transactions peuvent être réglées manuellement, automatiquement ou en utilisant une combinaison des deux méthodes. Le choix d'un mode de règlement dépend des processus d'entreprise, qui peuvent ensuite être implémentés via le paramétrage du règlement dans les paramètres de la comptabilité fournisseur et les paramètres de la comptabilité client. Vous pouvez créer des paiements fournisseur et des paiements client de débit direct à l'aide d'une proposition de paiement, utilisée pour sélectionner les factures à payer. La proposition de paiement est activée manuellement, mais Microsoft Dynamics 365 for Finance and Operations marque automatiquement les factures sélectionnées pour règlement lorsque les paiements sont créés. Si les paiements sont créés manuellement, vous pouvez utiliser la page **Régler les transactions** pour sélectionner les factures pour règlement. Vous pouvez sélectionner manuellement les factures, ou vous pouvez utiliser l'option **Marquer par priorité** pour marquer automatiquement les factures pour règlement. L'option **Marquer par priorité** n'est disponible que pour la comptabilité client. Pour activer cette option, utilisez la page **Priorité de règlement** dans les paramètres de la comptabilité client. Si un commis aux paiement entre un paiement, mais ne règle pas ce paiement avant de le valider, le paiement peut être réglé automatiquement. Vous pouvez activer le règlement automatique dans les paramètres de la comptabilité client et de la comptabilité fournisseur. Lorsque vous utilisez le règlement automatique, vous pouvez utiliser l'ordre de règlement prédéfini, ou vous pouvez définir votre propre ordre de priorité de règlement dans les paramètres de la comptabilité client. Cette fonctionnalité n'est disponible que pour la comptabilité client.
+Les transactions peuvent être réglées manuellement, automatiquement ou en utilisant une combinaison des deux méthodes. Le choix d'un mode de règlement dépend des processus d'entreprise, qui peuvent ensuite être implémentés via le paramétrage du règlement dans les paramètres de la comptabilité fournisseur et les paramètres de la comptabilité client. Vous pouvez créer des paiements fournisseur et des paiements client de débit direct à l'aide d'une proposition de paiement, utilisée pour sélectionner les factures à payer. La proposition de paiement est activée manuellement, et Dynamics 365 for Finance and Operations marque automatiquement les factures sélectionnées pour règlement lorsque les paiements sont créés. Si les paiements sont créés manuellement, vous pouvez utiliser la page **Régler les transactions** pour sélectionner les factures pour règlement. Vous pouvez sélectionner manuellement les factures, ou vous pouvez utiliser l'option **Marquer par priorité** pour marquer automatiquement les factures pour règlement. L'option **Marquer par priorité** n'est disponible que pour la comptabilité client. Pour activer cette option, utilisez la page **Priorité de règlement** dans les paramètres de la comptabilité client. Si un commis aux paiement entre un paiement mais ne règle pas ce paiement avant de le valider, le paiement peut être réglé automatiquement. Vous pouvez activer le règlement automatique dans les paramètres de la comptabilité client et de la comptabilité fournisseur. Le règlement automatique règle les transactions au sein de la même entité juridique mais ne les règle pas dans plusieurs entités juridiques. Lorsque vous utilisez le règlement automatique, vous pouvez utiliser l'ordre de règlement prédéfini, ou vous pouvez définir votre propre ordre de priorité de règlement dans les paramètres de la comptabilité client. Cette fonctionnalité n'est disponible que pour la comptabilité client.
 
 ## <a name="results-of-settlement"></a>Résultats du règlement
 Lorsque les transactions sont réglées, le solde impayé de chaque transaction est augmenté ou diminué selon le cas. Dans un scénario classique, lorsqu'une facture et un paiement sont réglés, le statut et le solde de chaque transaction sont mis à jour selon les règles suivantes :

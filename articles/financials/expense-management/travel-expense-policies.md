@@ -1,27 +1,27 @@
 ---
 title: Définir les stratégies de dépenses
 description: Vous pouvez définir des stratégies de dépenses que vos travailleurs sont tenus de suivre lorsqu'ils entrent et soumettent des états de dépenses et des demandes de voyage dans Microsoft Dynamics 365 for Finance and Operations.
-author: saraschi2
+author: ryansandness
 manager: AnnBe
-ms.date: 02/23/2018
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9f0ff56f0ff106bc168b6a27612e08743a539a07
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342429"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1514437"
 ---
 # <a name="expense-policies"></a>Stratégies des dépenses
 
@@ -42,9 +42,13 @@ Vous pouvez définir trois types de stratégies :
 
 - Erreur – Nécessite que le travailleur modifie la dépense pour respecter la stratégie avant d'envoyer l'état de dépenses ou la demande de voyage.       
  
-  - Justification – Nécessite que le travailleur ou un responsable entre une justification du dépassement du montant prévu par la stratégie avant d'envoyer l'état de dépenses ou la demande de voyage.        
- 
-  Vous pouvez également paramétrer une plage de dates pendant laquelle les stratégies des dépenses s'appliquent. Par exemple, il se peut que le prix des vols entre le Danemark      
-  et New York soient chers pendant la période de vacances. Vous pouvez définir une règle de frais de vol limitant      
-  les frais des vols vers New York à 5 000 DKK et spécifier que cette règle s'applique entre le 15 mars et      
-  le 15 septembre.
+ - Justification – Nécessite que le travailleur ou un responsable entre une justification du dépassement du montant prévu par la stratégie avant d'envoyer l'état de dépenses ou la demande de voyage.        
+
+# <a name="policy-tips"></a>Conseils de stratégie
+Voici quelques suggestions pour vous aider lors de la création de nouvelles stratégies pour la gestion des dépenses. 
+* Les stratégies sont effectives de date et ne prennent pas effet si la stratégie est créée avec une date postérieure à la date à laquelle la dépense s'est produite. Par exemple, si vous créez une stratégie aujourd'hui pour appliquer une dépense de repas maximale de 50 $, aucune dépense existante entrée depuis d'hier n'est vérifiée par rapport à cette stratégie.
+* En créant une stratégie pour une catégorie de dépenses qui peut être détaillée, envisagez d'ajouter une condition pour le type de ligne de dépense. Certaines stratégies pouvant nécessiter un reçu peuvent ne pas être utile pour les lignes détaillées et doivent être uniquement appliquées à l'en-tête de ligne ou une ligne non détaillée. 
+
+# <a name="when-to-evaluate-policies"></a>Quand évaluer des stratégies
+
+Dans les paramètres de gestion des dépenses, il existe une option pour évaluer les stratégies de gestion des dépenses lorsqu'une ligne est enregistrée ou lorsqu'un état de dépenses est soumis. Si vous choisissez d'évaluer lorsqu'une ligne est enregistrée cela garantit que les utilisateurs ont une visibilité antérieure de ce qu'ils doivent effectuer pour renseigner leur état de dépenses en une seule fois. Sinon, vous pouvez retarder l'évaluation de la stratégie et gagner du temps si vous effectuez une validation à la fin, lors de la soumission au workflow.

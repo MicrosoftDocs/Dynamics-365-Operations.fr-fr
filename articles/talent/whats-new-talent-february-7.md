@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-02-07
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: b89fc15130755a80b56f26cf7c61674a26f43e36
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "858926"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517964"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-7-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (7 février 2019)
 

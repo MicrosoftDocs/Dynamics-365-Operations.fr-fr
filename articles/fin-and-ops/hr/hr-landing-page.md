@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c8b743e667413dfc263fe640b4c6c7350e887142
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859803"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1508006"
 ---
 # <a name="human-resources"></a>Ressources humaines
 
@@ -88,7 +88,7 @@ Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail s
 
 ## <a name="gather-information-using-questionnaires"></a>Réunir des informations à l'aide de questionnaires
 
-Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu'un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu'il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
+Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu'il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
 
 - [Questionnaires](../../talent/questionnaires.md)
 - [Conception d'un questionnaire](../../talent/design-questionnaires.md)

@@ -1,9 +1,9 @@
 ---
 title: Entrer et comparer des appels d'offre et octroyer des contrats
-description: Cette procédure décrit comment entrer des réponses à un appel d'offre, marquer et comparer les offres, puis attribuer une offre à l'un des fournisseurs.
+description: Cette procédure décrit comment entrer des réponses à un appel d'offre, marquer et comparer les offres, puis attribuer le contrat à l'un des fournisseurs.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,130 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cd4876acfebcc9595abb358cfc9b355e93041d6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 45ddab03810b331bcd8965f6a2ba699ffb138910
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "349996"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1533350"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Entrer et comparer des appels d'offre et octroyer des contrats
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment entrer des réponses à un appel d'offre, marquer et comparer les offres, puis attribuer une offre à l'un des fournisseurs. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Avant de commencer, vous devez avoir un appel d'offre avec deux lignes qui a été envoyé au moins à deux fournisseurs. Vous pouvez exécuter la procédure « Création d'une demande de devis » comme étape préliminaire pour créer cela. Vous devez avoir paramétré les critères d'attribution de score pour pouvoir exécuter cette procédure.
+Cette procédure décrit comment entrer des réponses à un appel d'offre, marquer et comparer les offres que vous recevez, puis attribuer le contrat à l'un des fournisseurs ayant fait une offre. Vous pouvez utiliser cette procédure dans les données fictives de la société **USMF**.
 
+Avant de commencer cette procédure, vous devez avoir un appel d'offre avec deux lignes et qui a été envoyé au moins à deux fournisseurs. Pour créer cet appel d'offre, suivez la procédure [Créer un appel d'offre](create-request-quotation.md). Des critères d'attribution de score doivent également avoir été paramétrés pour pouvoir exécuter cette procédure.
 
-## <a name="enter-a-reply-from-a-vendor"></a>Entrer la réponse d'un fournisseur
-1. Accédez à Approvisionnements > Demandes de devis > Toutes les demandes de devis
-2. Sélectionnez un appel d'offre ayant le statut Envoyé, puis cliquez sur le lien sur le numéro de dossier de l'appel d'offre.
-    * L'appel d'offre aurait dû être envoyé à au moins à 2 fournisseurs.  
-3. Cliquez sur l'en-tête pour accéder à la liste des fournisseurs.
-4. Sélectionnez le fournisseur pour lequel vous souhaitez entrer une réponse dans l'appel d'offre.
-5. Cliquez sur Entrer une réponse.
-6. Cliquez sur Répondre dans le volet Actions.
-7. Cliquez sur Copier des données dans la réponse.
-    * Cette action copiera les données sélectionnées, par exemple, la quantité du dossier d'appel d'offre est copiée dans la réponse d'appel d'offre. Vous pouvez également ignorer cette action et remplir tous les champs manuellement lorsque vous modifiez la réponse.  
-8. Cliquez sur Modifier.
-9. Entrez un nombre dans le champ Prix unitaire.
-10. Choisissez l'autre ligne de devis.
-11. Entrez un nombre dans le champ Prix unitaire.
+Vous pouvez entrer l'offre comme fournisseur ou professionnel des approvisionnements. Pour plus d'informations, voir [Paramétrer et mettre à jour la collaboration fournisseur](../set-up-maintain-vendor-collaboration.md).
 
-## <a name="score-the-bid"></a>Attribuer un score à l'offre
-1. Cliquez sur l'en-tête pour accéder à l'attribution de score de l'offre.
-2. Développez la section Attribution de score de l'offre.
-3. Entrez un nombre pour l'un des critères d'attribution de score dans le champ Score.
-    * Si vous passez la souris sur l'un des critères d'attribution de score, une info-bulle indique la plage dans laquelle vous devez marquer les points. Dans cette démonstration vous pouvez ajouter un nombre compris entre 1 et 5 à n'importe lequel des critères.  
-4. Sélectionnez un autre critère d'attribution de score.
-5. Entrez un nombre dans le champ Score.
-6. Développez la section Questionnaires.
-    * Si l'appel d'offre a un questionnaire qui a été soumis aux fournisseurs, vous pouvez entrer leurs réponses dans la section questionnaire.  
-7. Fermez la page.
+## <a name="enter-a-reply-as-a-vendor"></a>Entrer la réponse en tant que fournisseur
 
-## <a name="enter-a-reply-for-another-vendor"></a>Entrer une réponse pour un autre fournisseur
-1. Sélectionnez le fournisseur suivant en désactivant le fournisseur pour lequel vous venez d'entrer la réponse, puis en sélectionnant la ligne du fournisseur suivant.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-3. Cliquez sur Entrer une réponse.
-4. Cliquez sur Copier des données dans la réponse.
-5. Cliquez sur Modifier.
-6. Entrez un nombre dans le champ Prix unitaire.
-7. Choisissez l'autre ligne de devis.
-8. Entrez un nombre dans le champ Prix unitaire.
+1. Sur le tableau de bord, sélectionnez **Offre du fournisseur**.
+2. Dans la liste **Nouvelles invitations à une offre**, recherchez un appel d'offre qui vient juste d'être envoyé. Sélectionnez l'appel d'offre pour examiner ce qui a été demandé.
+3. Sélectionnez **Pièces jointes à l'appel d'offre** pour examiner les pièces jointes ayant été ajoutées.
+4. Sélectionnez **Offre** pour rendre les champs modifiables. Notez que le champ **Progression de l'offre** est défini sur **Le fournisseur effectue une mise à jour**.
+5. Sur l'en-tête et les lignes, entrez les valeurs de la réponse à l'offre.
+6. Si des pièces jointes doivent être ajoutées à l'offre, sélectionnez **Pièces jointes à l'offre**.
+7. Sélectionnez l'organisateur **Instructions de soumission** pour afficher si des documents sont requis.
+8. Sélectionnez l'organisateur **Avenants** pour afficher si l'appel d'offre a été modifié.
+9. Sélectionnez l'organisateur **Questionnaire**. Tous les questionnaires qui apparaissent ici doivent être remplis.
+10. Sélectionnez l'organisateur **Détails de la ligne** pour afficher des informations supplémentaires sur la ligne.
+11. Sélectionnez **Réinitialiser à partir de l'appel d'offre** uniquement si vous devez réinitialisé les valeurs entrées dans les valeurs d'appel d'offre d'origine.
+12. Vous pouvez enregistrer l'offre à tout moment et effectuer un traitement supplémentaire ultérieurement, avant que la date et l'heure d'expiration se soient écoulées. Dans ce cas, vous pouvez trouver l'offre dans la liste **Offres en cours** dans l'espace de travail **Offre du fournisseur**.
+13. Lorsque l'offre est prête à être soumise, sélectionnez **Soumettre**. Si vous ne souhaitez pas faire d'offre, sélectionnez **Refuser**.
 
-## <a name="score-the-second-bid"></a>Attribuer un score à la deuxième offre
-1. Cliquez sur l'en-tête pour accéder à l'attribution de score de l'offre.
-2. Entrez un nombre dans le champ Score.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-4. Entrez un nombre dans le champ Score.
+    Les offres envoyées sont disponibles dans la liste **Offres envoyées** de l'espace de travail **Offre du fournisseur**.
+
+14. Une fois l'offre soumise, vous pouvez la rappeler à tout moment avant la date et l'heure d'expiration. Notez que lorsqu'une offre est rappelée, elle n'est pas traitée comme soumise.
+
+    Lorsque l'offre est acceptée ou refusée par département d'approvisionnement, elle apparaît dans **Offres attribuées** ou **Offres perdues** dans l'espace de travail **Offre du fournisseur**.
+
+## <a name="enter-a-reply-from-a-vendor-as-a-procurement-professional"></a>Entrer une réponse d'un fournisseur en tant professionnel de l'approvisionnement
+
+1. Assurez-vous que l'autorisation de modifier les offres du fournisseur est paramétrée. Accédez à **Approvisionnements \> Paramétrage \> Paramètres d'approvisionnements**. Dans l'onglet **Appels d'offre**, définissez l'option **L'acheteur peut modifier l'offre des fournisseurs** sur **Oui**.
+2. Accédez à **Approvisionnements \> Appels d'offre \> Toutes les demandes de devis**.
+3. Sélectionnez un appel d'offre ayant le statut **Envoyé**, puis sélectionnez le lien dans le champ **Dossier d'appel d'offre**.
+4. Sélectionnez **Gérer les réponses**. La page qui apparaît présente un appel d'offre pour chaque fournisseur invité à faire une offre.
+5. Sélectionnez un appel d'offre qui n'a pas reçu de réponse. (Le champ **Progression de la réponse** devrait être défini sur **Non commencé**.)
+6. Sélectionnez **Modifier \> Modifier la réponse à l'appel d'offre**.
+
+    La page **Modifier la réponse** s'affiche. En tant que professionnel des approvisionnements, vous pouvez désormais entrer la réponse au nom du fournisseur. Notez que le champ **Progression de l'offre** est défini sur **L'acheteur effectue une mise à jour**.
+
+7. Entrez les données de l'offre. Lorsque vous avez terminé, sélectionnez **Soumettre**.
+
+## <a name="score-the-bids"></a>Attribuer un score aux offres
+
+1. Dans la page **Toutes les demandes de devis**, sélectionnez le dossier d'appel d'offre auquel vous souhaitez attribuer des points pour les réponses.
+2. Sélectionnez **Gérer les réponses**.
+3. Sélectionnez la réponse à laquelle attribuer des points.
+4. Sélectionnez **En-tête** afin de pouvoir afficher les points obtenus par l'offre.
+5. Sur l'organisateur **Attribution de score de l'offre**, entrez un nombre dans le champ **Score** pour l'un des critères d'attribution de score.
+
+    Si vous passez la souris sur l'un des critères d'attribution de score, une info-bulle indique la plage dans laquelle doit se trouver le score. Dans cette démonstration, vous pouvez entrer un nombre compris entre 1 et 5 à n'importe lequel des critères d'attribution de score.
+
+6. Répétez l'étape 5 pour un autre critère d'attribution de score.
+7. Si le dossier d'appel d'offre a un questionnaire qui a été soumis aux fournisseurs, vous pouvez entrer leurs réponses sur l'organisateur **Questionnaires**.
+8. Fermez la page.
+9. Répétez les étapes 1 à 8 pour toutes les autres offres.
 
 ## <a name="compare-the-replies"></a>Comparer les réponses
-1. Cliquez sur Général dans le volet Actions.
-2. Cliquez sur Comparer les réponses.
-3. Entrez un nombre dans le champ Rang.
-    * Cette page affiche les offres avec l'en-tête et les lignes, et le score total au niveau de l'en-tête. Vous pouvez comparer les lignes en effectuant un tri dans la grille afin que les lignes comparables soient les unes à côté des autres. Les informations incluent également : Quantité : Quantité faisant l'objet d'un devis d'un fournisseur. Celle-ci peut ne pas être égale à la quantité indiquée dans l'appel d'offre.   Montant HT : Prix du devis d'un fournisseur, après soustraction de toutes les remises pour les articles de la ligne.   Écart : Nombre de jours d'écart entre la date de livraison de l'en-tête ou la ligne de l'offre et la date de livraison de l'en-tête ou la ligne de l'appel d'offre.   Vous pouvez entrer un classement pour chaque offre.  
-4. Sélectionnez la ligne d'en-tête de l'autre offre que vous souhaitez classer.
-5. Entrez un nombre dans le champ Rang.
-6. Cliquez sur Enregistrer.
+
+1. Dans le volet Actions, sous l'onglet **Général**, sélectionnez **Comparer les réponses**.
+2. Dans le champ **Rang**, entrez un nombre.
+
+    Cette page affiche les offres avec les informations d'en-tête et de ligne, ainsi que le score total au niveau de l'en-tête. Vous pouvez comparer les lignes en effectuant un tri dans la grille afin que les lignes comparables soient les unes à côté des autres. Les informations suivantes sont également incluses :
+
+    - **Quantité** – Quantité ayant fait l'objet du devis du fournisseur. Cette quantité peut ne pas être égale à la quantité indiquée dans l'appel d'offre.
+    - **Montant net** – Prix du devis du fournisseur pour les articles de la ligne, après soustraction de toutes les remises.
+    - **Écart** – Nombre de jours d'écart entre la date de livraison de l'en-tête ou la ligne de l'offre et la date de livraison de l'en-tête ou la ligne de l'appel d'offre. Vous pouvez entrer un classement pour chaque offre.
+
+3. Sélectionnez la ligne d'en-tête de l'autre offre que vous souhaitez classer.
+4. Dans le champ **Rang**, entrez un nombre.
+5. Sélectionnez **Enregistrer**.
 
 ## <a name="reject-a-bid"></a>Rejeter une offre
+
 1. Sélectionnez la ligne d'en-tête de l'autre offre que vous souhaitez rejeter.
-    * Vous pouvez uniquement accepter, rejeter ou retourner une offre ou des lignes d'une offre à la fois.  
-2. Cochez la case Marquer.
-    * Si vous activez la case à cocher Marquer dans l'en-tête de l'offre, toutes les lignes sont également marquées. Vous pouvez également choisir de marquer un sous-ensemble des lignes dans l'offre pour les refuser ou les recevoir. Il est possible d'accepter l'offre d'un fournisseur pour certaines lignes d'un appel d'offre, puis d'attribuer d'autres lignes d'appel d'offre à un autre fournisseur, toutefois, vous devez procéder en 2 étapes, une offre à la fois. Si d'autres lignes sont présentes, vous pouvez uniquement accepter la ligne d'offre d'origine ou sa remplaçante, mais pas les deux.  
-3. Cliquez sur Rejeter.
-4. Cliquez sur Paramètres pour ouvrir la boîte de dialogue.
-5. Saisissez ou sélectionnez une valeur dans le champ Motif du refus.
-    * Le motif du rejet sera stocké dans la réponse.  
-6. Cliquez sur OK.
-7. Cliquez sur OK.
-8. Fermez la page.
-9. Fermez la page.
-10. Actualisez la page.
+
+    Vous pouvez accepter, rejeter ou retourner uniquement une offre ou les lignes d'une offre à la fois.
+
+2. Activez la case à cocher **Marquer**.
+
+    Si vous activez la case à cocher **Marquer** dans l'en-tête de l'offre, toutes les lignes sont également marquées. Pour rejeter ou accepter uniquement certaines lignes sous l'offre, vous pouvez marquer juste ces lignes. De plus, vous pouvez accepter l'offre d'un fournisseur pour certaines lignes d'un appel d'offre, puis attribuer d'autres lignes d'appel d'offre à un autre fournisseur. Toutefois, vous devez effectuer une offre à la fois.
+
+    Si d'autres lignes sont présentes, vous pouvez accepter la ligne d'offre d'origine ou sa remplaçante, mais pas les deux.
+
+3. Sélectionnez **Refuser**.
+4. Sélectionnez **Paramètres**, puis, dans le champ **Motif du refus**, entrez ou sélectionnez le motif du refus de l'offre.
+
+    Le motif est enregistré dans la réponse.
+
+5. Cliquez sur **OK**.
+6. Cliquez sur **OK**.
 
 ## <a name="accept-a-bid"></a>Accepter une offre
-1. Sélectionnez l'offre à accepter, puis cliquez sur le lien dans le champ Appel d'offre.
-2. Cliquez sur Répondre dans le volet Actions.
-3. Cliquez sur Accepter.
-    * Si vous avez marqué des lignes spécifiques et pas d'autres, l'action d'acceptation va inclure seulement les lignes marquées. Si vous souhaitez accepter toutes les lignes de l'offre, vous ne devez pas marquer de lignes.  
-4. Cliquez sur Paramètres pour ouvrir la boîte de dialogue.
-    * Cela vous permet d'enregistrer un motif d'acceptation de l'offre. Le motif sera stocké dans l'offre.  
-5. Saisissez ou sélectionnez une valeur dans le champ Motif d'acceptation.
-6. Cliquez sur OK.
-7. Cliquez sur OK.
-    * Lorsque vous cliquez sur OK, cela génère une commande fournisseur basée sur les lignes incluses dans l'acceptation d'appel d'offre. S'il existe d'autres offres qui n'ont pas été traitées (acceptées, rejetées ou retournées), alors le système vous invite à rejeter les offres restantes.  
 
-## <a name="view-the-purchase-order-thats-been-generated"></a>Afficher la commande fournisseur générée
-1. Cliquez sur Général dans le volet Actions.
-2. Cliquez sur Commande fournisseur.
-    * Ici vous pouvez voir la commande fournisseur générée lorsque vous avez accepté l'offre.  
-3. Fermez la page.
-4. Fermez la page.
-5. Fermez la page.
-6. Fermez la page.
+1. Sélectionnez l'offre à accepter, puis le lien dans le champ **Appel d'offre**.
 
+    Si vous êtes sur la page **Comparer les réponses aux appels d'offre**, l'offre en surbrillance est l'offre que le système prendra en compte pendant l'action Accepter. Vous pouvez accepter les lignes d'une seule offre à la fois.
+
+2. Dans le volet Actions, sélectionnez **Répondre**.
+3. Sélectionner **Accepter**.
+
+    Si vous avez marqué uniquement des lignes spécifiques, l'action Accepter inclut uniquement ces lignes. Si vous souhaitez accepter toutes les lignes de l'offre, vous n'avez pas besoin de marquer les lignes.
+
+4. Sélectionnez **Paramètres**, puis, dans le champ **Motif d'acceptation**, entrez ou sélectionnez le motif de l'acceptation de l'offre.
+
+    Le motif est enregistré dans l'offre.
+
+5. Cliquez sur **OK**.
+6. Cliquez sur **OK**.
+
+    Lorsque vous sélectionnez **OK**, une commande fournisseur est générée sur la base sur les lignes incluses dans l'acceptation d'appel d'offre. S'il existe d'autres offres qui n'ont pas été traitées (acceptées, rejetées ou retournées), le système vous invite à les rejeter.
+
+## <a name="view-the-purchase-order-that-is-generated"></a>Afficher la commande fournisseur générée
+
+- Dans le volet Actions, sous l'onglet **Général**, sélectionnez **Commande fournisseur**.
+
+    La page qui s'affiche indique la commande fournisseur générée lorsque vous avez accepté l'offre.

@@ -3,7 +3,7 @@ title: Devise double
 description: Cette rubrique fournit des informations sur la devise double, où la devise de déclaration est utilisée comme deuxième devise comptable pour Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330308"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532246"
 ---
 # <a name="dual-currency"></a>Devise double
 
@@ -61,6 +61,9 @@ Pour divers états et requêtes, la logique étaient également ajoutée pour su
 ## <a name="financial-journals"></a>Journaux financiers
 
 Les journaux financiers, tels que le journal des opérations diverses et le journal des factures fournisseur, ont été mis à jour afin d'inclure des informations supplémentaires sur la devise de déclaration. Les totaux pour le N° document et le journal s'affichent désormais dans la devise de déclaration. En outre, des informations sur le taux de change de la devise de déclaration apparaissent désormais dans l'onglet **Général** des lignes de journal. Par conséquent, vous pouvez remplacer le taux de change de la devise de déclaration lorsque vous entrez des transactions.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Factures fournisseur, commandes client et contrats de vente
+Les factures fournisseur, les commandes client et les contrats de vente ont été mis à jour pour inclure un taux de change fixe pour la devise de déclaration. Un taux de change fixe peut être défini pour la devise comptable et la devise de déclaration lorsque la devise de transaction est différente. Lorsque la devise comptable et la devise de déclaration sont identiques, le taux de change fixe est conservé synchronisé à l'aide du taux fixe de la devise comptable comme taux fixe de la devise de déclaration. Le taux de change fixe de la devise de déclaration ne peut pas être modifié pour cette configuration. Lorsque la devise comptable et la devise de déclaration diffèrent, un taux de change fixe peut être défini pour la devise comptable et la devise de déclaration lors de la saisie de la transaction. Si la devise de déclaration n'a pas été définie dans la comptabilité, le champ **Taux de change fixe de la devise de déclaration** n'est pas activé, et aucun montant de devise de déclaration n'est calculé.
 
 ## <a name="module-changes"></a>Modifications des modules
 

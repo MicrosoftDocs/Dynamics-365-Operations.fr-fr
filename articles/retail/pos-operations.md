@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842720"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505094"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -70,7 +70,9 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 106 | Effacer la quantité | Permet de réinitialiser la quantité de la ligne sélectionnée actuellement sur **1**. | Oui | Oui | N° | Oui | N° |
 | 640 | Effacer le représentant sur la ligne | Permet de supprimer le groupe de ventes de commission (commercial) de la ligne sélectionnée actuellement. | Oui | Oui | N° | Oui | N° |
 | 121 | Effacer le vendeur | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
-| 1 055 | Clôturer l'équipe de travail | Permet de fermer l'équipe actuelle, d'imprimer un Z de caisse, et de déconnecter l'utilisateur du système. | Oui | Oui | Oui | N° | N° |
+| 1 055 | Clôturer l'équipe de travail | Permet de fermer l'équipe actuelle, d'imprimer un Z de caisse, et de déconnecter l'utilisateur du système. | Oui | Oui | Oui | Non | Non |
+| 139 | Conclure la transaction | Invite l'utilisateur à sélectionner un mode de paiement | Oui | Oui | Non | Oui | Non |
+| 620 | Créer la commande client | Permet de convertir la transaction de PDV en commande client. | Oui | Oui | Non | Oui\* | Non |
 | 925 | Copier le chèque bancaire | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Oui |
 | 620 | Créer la commande client | Permet de convertir la transaction de PDV en commande client. | Oui | Oui | N° | Oui\* | N° |
 | 621 | Créer un devis | Permet de convertir la transaction de PDV en devis de vente. | Oui | Oui | N° | Oui\* | N° |

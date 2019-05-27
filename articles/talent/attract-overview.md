@@ -3,7 +3,7 @@ title: Fonctionnalités de Attract
 description: Cette rubrique décrit les fonctionnalités que fournit Attract pour la gestion du processus de recrutement de nouveaux talents.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d80e4d6359e51841e28ab5ef96e281838831db92
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: 6b76913ea5a3e9a2e935d8b0cfde88dd721cb5db
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859734"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518027"
 ---
 # <a name="attract-features-and-capabilities"></a>Fonctionnalités de Attract
 
@@ -46,3 +46,6 @@ Attract fournit un processus d'embauche prédéfini qui contient quatre étapes 
 
 ## <a name="candidate-app"></a>Candidature
 Dès qu'ils ont été ajoutés à un poste, les candidats reçoivent un e-mail avec un lien pour obtenir l'application web. L'application fournit les détails du poste et utilisée pour communiquer avec l'équipe d'embauche. Les candidats peuvent l'utiliser pour soumettre leur disponibilité pour les entretiens.
+
+## <a name="analytic-reports"></a>États analytiques
+Les équipes de recrutement peuvent utiliser des mesures de processus de recrutement clés de vue pour un seul poste ou des mesures globales pour tous les postes avec [les états analytiques dans Attract](analytic-reports.md). Cette fonctionnalité est actuellement dans [l'aperçu](access-preview-feature.md) pour les clients avec le [Module complémentaire Recrutement complet](attract-comprehensive-hiring.md).

@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09b075391f73c68e5311379babf0642dea8c0635
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 86adbaefed25d067e7b9dab0ab51e907e8a07766
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370666"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537877"
 ---
 # <a name="create-a-billing-classification-in-the-public-sector"></a>Créer une classification de facturation dans le secteur public
 

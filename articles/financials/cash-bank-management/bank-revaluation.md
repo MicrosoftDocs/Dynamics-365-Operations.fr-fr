@@ -3,7 +3,7 @@ title: Réévaluation des comptes en devises/bancaires
 description: Cette rubrique fournit une vue d'ensemble du processus de réévaluation des comptes en devises bancaires. Elle inclut des informations sur le paramétrage, l'exécution du processus, les calculs pour le processus, et la contrepassation des transactions de réévaluation.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976657"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538630"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Réévaluation des comptes en devises/bancaires
 
@@ -52,7 +52,7 @@ Vous devez activer la fonction de réévaluation des comptes en devises bancaire
 3. Dans l'onglet **Souches de numéros**, ajoutez une souche de numéros pour la réévaluation des comptes en devises.
 4. Actualisez le navigateur pour voir **Réévaluation des comptes en devises** dans la section **Tâches périodiques** de la page de zone.
 
-Vous devez activer la fonction pour chaque entité juridique qui utilise la réévaluation des comptes en devises.
+Vous devez activer la fonction pour chaque entité juridique qui utilise la réévaluation des comptes en devises. Si vous le rôle d'Administrateur système ou le rôle de Gestionnaire de fonctionnalités vous est attribué, vous pouvez supprimer cette étape en activant la fonctionnalité nommée **Activer la réévaluation bancaire sans paramètre** dans l'espace de travail **Gestion des fonctionnalités**.
 
 > [!NOTE]
 > Si votre entité juridique utilise un code de pays/région russe, polonais ou hongrois, vous pouvez déjà effectuer la réévaluation des comptes en devises bancaires. Vous ne pourrez pas utiliser la réévaluation des comptes en devises utilisées par d'autres pays ou régions.

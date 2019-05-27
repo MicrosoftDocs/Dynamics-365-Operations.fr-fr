@@ -3,14 +3,14 @@ title: Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de
 description: Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 for Talent utilisant Microsoft PowerApps et Microsoft Flow.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949918"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517972"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de scénarios
 
@@ -101,7 +101,21 @@ Ce modèle peut être étendu pour être utilisé dans tout scénario utilisant 
 
 Pour télécharger le modèle **Intégration Flow – SharePoint**, accédez à [Intégration Flow – SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) dans le Centre de téléchargement Microsoft.
 
+## <a name="admin-console-to-manage-talent-pools"></a>Console d'administration pour gérer les viviers de talents
 
+Lorsque vous activez l'intégration avec LinkedIn, Attract crée automatiquement un vivier de talents LinkedIn. Lorsqu'un recruteur échange un InMail avec une recrue via LinkedIn, Attract crée un profil pour la recrue, et celle-ci devient un membre du viviers de talents LinkedIn. Cette application PowerApps est utile pour réorganiser les candidats dans le vivier de talents en fonction des compétences.
+
+Exécutez cette application PowerApps comme console d'administration pour effectuer les tâches suivantes :
+
+- Répertorier des candidat dans un vivier de talents
+- Ajouter et supprimer des candidats d'un vivier de talents
+- Déplacer des candidats vivier de talents à un autre
+- Déterminer si les candidats font déjà partie d'un vivier de talents avant de les déplacer
+- Vérifier les qualifications d'un candidat avant de le déplacer vers d'autres viviers de talents
+
+Cette application PowerApps utilise des relations plusieurs à plusieurs, afin que vous puissiez l'utiliser comme modèle pour d'autres cas où vous devez extraire des enregistrements avec des relations plusieurs à plusieurs.
+
+Pour télécharger le modèle **Console d'administration pour gérer des viviers de talents**, accédez à la [console d'administration pour gérer les viviers de talents](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) dans le Centre de téléchargement Microsoft.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

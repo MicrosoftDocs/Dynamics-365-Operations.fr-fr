@@ -1,9 +1,9 @@
 ---
 title: Afficher les notifications dans le point de vente (PDV)
-description: Cette rubrique décrit la procédure d'activation des notifications de commande dans le point de vente et l'infrastructure de notifications. Le cas échéant, les développeurs pourront étendre ces notifications aux opérations en plus des opérations d'exécution de commande.
+description: Cette rubrique décrit la procédure d'activation des notifications de commande dans le point de vente et l'infrastructure de notifications.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361335"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530268"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Afficher les notifications dans le point de vente (PDV)
 
@@ -67,6 +67,10 @@ Les boutons du PDV peuvent désormais afficher un nombre permettant aux travaill
 L'illustration suivante présente les paramètres de contenu en direct dans le concepteur de grille de boutons.
 
 ![Paramètres de contenu en direct dans le concepteur de grille de boutons](./media/ButtonGridDesigner.png "Paramètres de contenu en direct dans le concepteur de grille de boutons")
+
+Pour afficher le nombre de notifications sur un bouton, vous devez vous assurer que la mise en page de l'écran appropriée est mise à jour. Pour déterminer la mise en page de l'écran utilisée par le PDV, sélectionnez l'icône **Paramètres** dans l'angle supérieur droit et notez l'**ID mise en page de l'écran** et **Résolution de mise en page**. Maintenant, à l'aide du navigateur Edge, cliquez sur la page **Mise en page de l'écran** dans Dynamics 365 for Finance and Operations, recherchez l'**ID mise en page de l'écran** et **Résolution de mise en page** identifiés ci-dessus et activez la case à cocher **Activer le contenu en direct**. Accédez à **Vente au détail > Informatique au détail > Programme de distribution** et exécutez les 1 090 tâches (Registres) pour synchroniser les modifications de la mise en page. 
+
+![Rechercher la mise en page de l'écran utilisée par POS](./media/Choose_screen_layout.png "Rechercher la mise en page de l'écran ")
 
 L'illustration suivante présente les effets de la sélection de **Haut-Droite** par rapport à **Centré** dans le champ **Alignement de contenu** pour les boutons de différentes tailles.
 

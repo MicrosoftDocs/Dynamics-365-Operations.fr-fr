@@ -20,11 +20,11 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336610"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1553574"
 ---
 # <a name="customer-orders-in-retail-modern-pos-mpos"></a>Commandes client dans Retail Modern POS (MPOS)
 
@@ -96,7 +96,7 @@ Les commandes client peuvent être créées à partir du client de point de vent
 1. Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profil POS** &gt; **Profils de fonctionnalité**.
 2. Dans l'organisateur **Général**, définissez l'option **Créer une commande client en mode asynchrone** sur **Oui**.
 
-Lorsque l'option **Créer une commande client en mode asynchrone** est définie sur **Oui**, les commandes client sont toujours créées en mode asynchrone, même si Retail Transaction Service (RTS) est disponible. Si vous définissez cette option sur **Non**, les commandes client sont toujours créées en mode synchrone à l'aide de RTS. Lorsque les commandes client sont créées en mode asynchrone, elles sont extraites et insérées dans Dynamics AX par les tâches de traction Retail (P). Les commandes client correspondantes sont créées dans Retail lorsque l'option **Synchroniser les commandes** est exécutée manuellement ou via un processus de traitement par lots.
+Lorsque l'option **Créer une commande client en mode asynchrone** est définie sur **Oui**, les commandes client sont toujours créées en mode asynchrone, même si Retail Transaction Service (RTS) est disponible. Si vous définissez cette option sur **Non**, les commandes client sont toujours créées en mode synchrone à l'aide de RTS. Lorsque les commandes client sont créées en mode asynchrone, elles sont extraites et insérées dans les tâches de traction Retail (P). Les commandes client correspondantes sont créées dans Retail lorsque l'option **Synchroniser les commandes** est exécutée manuellement ou via un processus de traitement par lots.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

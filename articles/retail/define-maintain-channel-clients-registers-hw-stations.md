@@ -20,11 +20,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308780"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568043"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connecter des périphériques au point de vente (POS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "308780"
 Cette rubrique décrit comment connecter des périphériques à votre Retail POS.
 
 > [!NOTE]
-> Pour obtenir des instructions d’installation spécifiques, consultez [Installation et la configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md) et [Retail Modern POSTéléchargement/installation en libre-service de Retail Modern POS, et activation de périphérique de Modern POS et Cloud POS](retail-modern-pos-device-activation.md).
+> Pour obtenir des instructions d’installation spécifiques, consultez [Installation et la configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md) et [Téléchargement/installation en libre-service de Retail Modern POS, et activation de périphérique de Modern POS et Cloud POS](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Composants principaux
 

@@ -3,7 +3,7 @@ title: Améliorations de la fonctionnalité de validation du relevé
 description: Cette rubrique décrit les améliorations apportées à la fonction de validation des relevés.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321430"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541289"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Améliorations de la fonctionnalité de validation du relevé
 
@@ -43,7 +43,7 @@ Finance and Operations comprend les contrôles suivants qui sont associés à ce
 - Les mêmes clés de configuration doivent être utilisées pour toutes les opérations exécutées sur un relevé donné pendant son cycle de vie (créer, calculer, effacer, valider, etc.). Par exemple, vous ne pouvez pas créer et calculer un relevé lorsque la clé de configuration **Relevé de vente au détail (hérité)** est activée et essayer de valider le même relevé lorsque la clé de configuration **Relevé de vente au détail** est activée.
 
 > [!NOTE]
-> Nous vous recommandons d'utiliser la clé de configuration **Relevés de vente au détail** pour la fonction améliorée de validation des relevés, sauf si vous avez des raisons valables d'utiliser la clé de configuration **Relevés de vente au détail (hérités)** à la place. Microsoft continuera à investir dans la fonction nouvelle et améliorée de validation des relevés, et il est important de l'utiliser dans les meilleurs délais pour en tirer parti. La fonction héritée de validation des relevés sera supprimée dans une prochaine version.
+> Nous vous recommandons d'utiliser la clé de configuration **Relevés de vente au détail** pour la fonction améliorée de validation des relevés, sauf si vous avez des raisons valables d'utiliser la clé de configuration **Relevés de vente au détail (hérités)** à la place. Microsoft continuera à investir dans la fonction nouvelle et améliorée de validation des relevés, et il est important de l'utiliser dans les meilleurs délais pour en tirer parti. La fonction héritée de validation des relevés est supprimée depuis la version 8.0.
 
 ## <a name="setup"></a>Configuration
 
@@ -56,11 +56,15 @@ Dans le cadre des améliorations de la fonction de validation des relevés, troi
 
 - **Désactivation du comptage obligatoire** – Lorsque cette option est définie sur **Oui**, le processus de validation d'un relevé continue, même si la différence entre le montant calculé et le montant de la transaction sur le relevé dépasse le seuil défini dans l'organisateur **Relevé** pour les magasins de vente au détail.
 
-En outre, le champ **Nombre maximal de validation de relevés en parallèle** a été introduit dans l'organisateur **Traitement par lots**. Ce champ définit le nombre de tâches de traitement par lots à exécuter simultanément. Pour le moment, vous devez définir manuellement la valeur de ce champ.
+En outre, les paramètres suivants ont été introduits dans l'organisateur **Traitement par lots** de l'onglet **Validation** de la page **Paramètres des ventes au détail** : 
 
-En outre, avec le nouveau processus de validation, il est nécessaire de définir un **Produit de la carte cadeau** dans l'organisateur **Carte cadeau** sous l'onglet **Validation** de la page **Paramètres des ventes au détail**. Cela est valable même si aucune carte cadeau n'est utilisée par l'organisation.
+- **Nombre maximal de validation de relevés en parallèle** - Ce champ définit le nombre de tâches de traitement par lots qui seront utilisées pour valider plusieurs relevés. 
+- **Thread maximal pour le traitement des commandes par relevé** - Ce champ représente le nombre maximal de threads utilisés par le traitement par lots de validation de relevé pour créer et facturer les commandes client d'un seul relevé. Le nombre total de threads qui seront utilisés par le processus de validation du relevé sera calculé en fonction de la valeur de ce paramètre multipliée par la valeur indiquée dans le paramètre **Nombre maximal de validation de relevés en parallèle**. La définition de la valeur de ce paramètre trop élevée peut avoir un impact négatif sur les performances du processus de validation du relevé.
+- **Nombre maximal de lignes de transaction incluses dans l'agrégation** - Ce champ définit le nombre de lignes de transaction qui seront incluses dans une seule transaction regroupée avant qu'une nouvelle soit créée. Les transactions regroupées sont créées selon différents critères d'agrégation, tels que le client, date d'activité ou les dimensions financières. Il est important de noter que les lignes d'une transaction unique de vente au détail ne sont pas fractionnées entre différentes transactions regroupées. Cela signifie qu'il y a un risque que le nombre de lignes d'une transaction regroupée soit légèrement supérieur ou inférieur en fonction de facteurs comme le nombre de produits distincts.
+- **Nombre maximal de threads pour valider les transactions en magasin** - Ce champ définit le nombre de threads qui seront utilisés pour valider les transactions de vente au détail. La validation des transactions de vente au détail est une étape obligatoire qui doit être effectuée avant que les transactions puissent être extraites dans les relevés. Vous devez également définir un **Produit de la carte cadeau** dans l'organisateur **Carte cadeau** sous l'onglet **Validation** de la page **Paramètres des ventes au détail**. Cela doit être défini, même si aucune carte cadeau n'est utilisée par l'organisation.
 
-Notez que tous les paramètres associés aux validations de relevé et définis dans les magasins de vente au détail et sur la page **Paramètres des ventes au détail** s'appliquent à la fonction améliorée de validation des relevés.
+> [!NOTE]
+> Tous les paramètres associés aux validations de relevé et définis dans les magasins de vente au détail et sur la page **Paramètres des ventes au détail** s'appliquent à la fonction améliorée de validation des relevés.
 
 ## <a name="processing"></a>Traitement
 

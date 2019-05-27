@@ -19,11 +19,11 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c0f0fcec64ce03c6e1d877fb1c8d004bb416bd95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310367"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561431"
 ---
 # <a name="project-contracts"></a>Contrats de projet
 
@@ -132,10 +132,10 @@ Le tableau suivant fournit des scénarios pour gérer la répartition de finance
 <li>Source　de financement　4</li>
 </ul></td>
 <td><ul>
-<li>75 %</li>
-<li>25 %</li>
-<li>50 %</li>
-<li>50 %</li>
+<li>75 %</li>
+<li>25 %</li>
+<li>50 %</li>
+<li>50 %</li>
 </ul></td>
 <td><ul>
 <li>1</li>
@@ -151,8 +151,8 @@ Le tableau suivant fournit des scénarios pour gérer la répartition de finance
 <li>Source　de financement　2</li>
 </ul></td>
 <td><ul>
-<li>25 %</li>
-<li>100 %</li>
+<li>25 %</li>
+<li>100 %</li>
 </ul></td>
 <td><ul>
 <li>1</li>
@@ -216,20 +216,20 @@ Le tableau suivant présente ce scénario plus en détail.
 <td>Transaction 1</td>
 <td><strong>Montant de la transaction :</strong> 100,00<strong>Financement :</strong> la transaction est payée conformément à la règle 1 uniquement, car la transaction est intégralement payée une fois la règle 1 appliquée. La transaction est financée de manière égale entre la source de financement 2 et la source de financement 3.
 <ul>
-<li>Source de financement 2 : 50,00</li>
-<li>Source de financement 3 : 50,00</li>
+<li>Source de financement 2 : 50,00</li>
+<li>Source de financement 3 : 50,00</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Transaction 2</td>
 <td><strong>Montant de la transaction :</strong> 5 000,00<strong>Financement :</strong> la transaction est payée conformément aux trois règles. <strong>Règle 1</strong>
 <ul>
-<li>Source de financement 2 : 450,00</li>
-<li>Source de financement 3 : 450,00</li>
+<li>Source de financement 2 : 450,00</li>
+<li>Source de financement 3 : 450,00</li>
 </ul>
 <strong>Règle 2</strong>
 <ul>
-<li>Source de financement 3 :: 250,00 (= 750,00 – 50,00 – 450,00)</li>
+<li>Source de financement 3 : 250,00 (= 750,00 – 50,00 – 450,00)</li>
 </ul>
 <strong>Règle 3</strong>
 <ul>

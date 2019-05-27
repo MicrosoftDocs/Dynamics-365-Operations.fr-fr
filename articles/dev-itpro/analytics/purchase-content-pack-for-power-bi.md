@@ -3,7 +3,7 @@ title: Contenu Power BI Analyse des dépenses et des achats
 description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI Analyse des dépenses d'achat. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313840"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527715"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Contenu Power BI Analyse des dépenses et des achats
 
@@ -33,7 +33,7 @@ Cette rubrique décrit ce qui est inclus dans le contenu Power BI **Analyse des 
 
 ## <a name="overview"></a>Présentation
 
-Le contenu Power BI **Analyse des dépenses d'achat** a été conçu pour aider les directeurs des achats et autres gestionnaires qui sont responsables des budgets à garder un œil sur les dépenses d'achat. Les gestionnaires peuvent analyser les dépenses d'achat des manières suivantes :
+Le contenu Power BI **Analyse des dépenses d'achat** a été conçu pour aider les directeurs des achats et autres gestionnaires qui sont responsables des budgets à effectuer le suivi des dépenses d'achat. Les gestionnaires peuvent analyser les dépenses d'achat des manières suivantes :
 
 - Achat depuis le début de l'année (par groupe de fournisseurs et fournisseurs individuels, catégorie d'approvisionnement et produits individuels et emplacement du fournisseur)
 - Changement d'achat d'une année sur l'autre (par groupe de fournisseurs et catégorie d'approvisionnement)
@@ -44,88 +44,88 @@ Le contenu utilise les données transactionnelles d'achats, et fournit une vue g
 Le contenu Power BI **Analyse des dépenses d'achat** s'affiche sur la page **Analyse des dépenses et des achats** (**Approvisionnements** \> **Recherches et états** \> **Analyse des performances d'achat** \> **Analyse des dépenses et des achats**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le pack de contenu Power BI
-Le pack de contenu Power BI **Analyse des dépenses d'achat** comprend un état constitué d'un ensemble d'éléments de mesure. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. Le tableau suivant offre une vue d'ensemble des visualisations.
+Le pack de contenu Power BI **Analyse des dépenses d'achat** comprend un état constitué d'un ensemble d'éléments de mesure. Ces mesures sont visualisées sous forme de graphiques, vignettes et tableaux. 
 
-<table>
-<thead>
-<tr>
-<th>Page d'état</th>
-<th>Graphiques</th>
-<th>Vignettes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Achat par fournisseur</td>
-<td><ul>
-<li>Les 10 principaux vendeurs par achat (graphique à barres empilées)</li>
-<li>Achat total par groupe de fournisseurs / pays / nom (graphique à secteurs)</li>
-<li>Achat par groupe de fournisseurs / pays / nom (histogramme)</li>
-<li>Achat moyen par groupe de fournisseurs / pays / nom (histogramme)</li>
-</ul></td>
-<td><ul>
-<li>Total des achats</li>
-<li>Croissance des achats en cumul annuel</li>
-<li>Nombre total de fournisseurs</li>
-<li>Nombre total de fournisseurs actifs</li>
-</ul></td>
-</tr>
-<tr>
-<td>Achat par produit</td>
-<td><ul>
-<li>Achat par catégorie d'approvisionnement / nom du produit (histogramme)</li>
-<li>Achat total par catégorie d'approvisionnement / nom du produit (graphique à secteurs)</li>
-<li>Les 10 principaux produits par achat (graphique à barres empilées)</li>
-</ul></td>
-<td><ul>
-<li>Nombre total de produits</li>
-<li>Nombre total de produit actifs et pourcentage du total de produits</li>
-<li>Nombre de produits constituant 80 % de l'achat</li>
-</ul></td>
-</tr>
-<tr>
-<td>Achat par période*</td>
-<td><ul>
-<li>Achat par mois/jour (histogramme)</li>
-<li>Variation en cumul annuel des achats (graphique cascade)</li>
-<li>Croissance en cumul annuel des achats totaux (histogramme)</li>
-<li>Relevé d'approvisionnement (matrice)</li>
-</ul></td>
-<td><ul>
-<li>Croissance des achats en cumul annuel</li>
-<li>% de croissance des achats en cumul annuel</li>
-</ul></td>
-</tr>
-<tr>
-<td>Achat par emplacement de fournisseur</td>
-<td><ul>
-<li>Achat par ville</li>
-<li>% de croissance en cumul annuel des achats</li>
-<li>Achat par pays</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Analyse des dépenses d'achat par période</td>
-<td><ul>
-<li>Achats de l'année en cours par mois / jour (graphique en courbes)</li>
-<li>Achats de l'année en cours et de l'année dernière (graphique en courbes et histogramme)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Analyse des dépenses d'achat par fournisseur</td>
-<td><ul>
-<li>10 principaux achats fournisseur en % (icône conique)</li>
-<li>10 premiers fournisseurs avec dépenses augmentées en cumul annuel</li>
-<li>10 premiers fournisseurs avec dépenses réduites en cumul annuel</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+Les sections suivantes offrent une vue d'ensemble des visualisations.
 
-\* Achats cette année et l'année dernière, et croissance par catégorie d'approvisionnement
+### <a name="purchase-by-vendor-report-page"></a>Page État des achats par fournisseur
+**Graphiques**
+- Les 10 principaux vendeurs par achat (graphique à barres empilées)
+- Achat total par groupe de fournisseurs / pays / nom (graphique à secteurs)
+- Achat par groupe de fournisseurs / pays / nom (histogramme)
+- Achat moyen par groupe de fournisseurs / pays / nom (histogramme)
+
+**Vignettes**
+- Total des achats
+- Croissance des achats en cumul annuel
+- Nombre total de fournisseurs
+- Nombre total de fournisseurs actifs
+
+**Exemple**
+<img src="media/spend1.PNG" alt="Purchase by vendor">
+
+### <a name="purchase-by-product-report-page"></a>Page État des achats par produit
+
+**Graphiques**
+- Achat par catégorie d'approvisionnement / nom du produit (histogramme)
+- Achat total par catégorie d'approvisionnement / nom du produit (graphique à secteurs)
+- Les 10 principaux produits par achat (graphique à barres empilées)
+
+**Vignettes**
+- Nombre total de produits</li>
+- Nombre total de produit actifs et pourcentage du total de produits
+- Nombre de produits constituant 80 % de l'achat
+
+**Exemple**
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a>Page État des achats par période
+Cette page affiche les achats de cette année et de l'année dernière, et la croissance par catégorie d'approvisionnement.
+
+**Graphiques** 
+- Achat par mois/jour (histogramme)
+- Variation en cumul annuel des achats (graphique cascade)
+- Croissance en cumul annuel des achats totaux (histogramme)
+- Relevé d'approvisionnement (matrice)
+
+**Vignettes**
+- Croissance des achats en cumul annuel
+- % de croissance des achats en cumul annuel
+
+**Exemple**
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a>Page État des achats par emplacement de fournisseur
+
+**Graphiques**
+- Achat par ville
+- % de croissance en cumul annuel des achats
+- Achat par pays
+
+**Exemple**
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a>Page État des analyses des dépenses d'achat par période
+
+**Graphiques** 
+- Achats de l'année en cours par mois / jour (graphique en courbes)
+- Achats de l'année en cours et de l'année dernière (graphique en courbes et histogramme)
+
+**Exemple**
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Page État des analyses des dépenses d'achat par fournisseur
+
+**Graphiques** 
+- 10 principaux achats fournisseur en % (icône conique)
+- 10 premiers fournisseurs avec dépenses augmentées en cumul annuel
+- 10 premiers fournisseurs avec dépenses réduites en cumul annuel
+
+**Exemple :** 
+<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
 
 ## <a name="data-model-and-entities"></a>Modèle de données et entités
 Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Analyse des dépenses d'achat**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md).
