@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992881"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527669"
 ---
 # <a name="removed-or-deprecated-features"></a>Fonctions supprimées ou déconseillées
 
@@ -66,26 +66,6 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Zones de produit affectées**         | Client Web |
 | **Option de déploiement**              | Tous |
 | **État**                         | Obsolète : à compter d'avril 2020, l'expérience de filtrage « Est l'un de » améliorée est le comportement par défaut, sans mécanisme de rétablissement au comportement antérieur. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>Abandon de la dérivation depuis les classes internes
-
-|   |  |
-|------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de créer une classe ou une table à partir d'une classe/d'une table interne définie dans un autre package/module. Cela n'est pas une pratique de codage sûre. À partir de Platform update 25, le compilateur affiche un avertissement. |
-| **Remplacé par une autre fonctionnalité ?**   | L'avertissement du compilateur sera remplacé par une erreur dans Platform update 26. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, Platform Update 25 ou une version ultérieure peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation.|
-| **Zones de produit affectées**         | Outils de développement Visual Studio |
-| **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : l'avertissement devient une erreur de compilation dans Platform update 26. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>Abandon des modes internes de remplacement
-
-|   |  |
-|------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Dans les versions antérieures à Platform Update 25, il était possible de remplacer une méthode interne dans une classe dérivée définie dans un autre package/module. Cela n'est pas une pratique de codage sûre. À partir de Platform update 25, le compilateur affiche un avertissement. |
-| **Remplacé par une autre fonctionnalité ?**   | Cet avertissement sera remplacé par une erreur de compilation dans Platform Update 26. Cette modification est rétrocompatible lors de l'exécution. Autrement dit, Platform Update 25 ou une version ultérieure peut être déployée dans n'importe quel environnement de bac à sable (sandbox) ou de production sans avoir besoin de modifier le code personnalisé. Cette modification ne concerne que le développement et le temps de compilation. |
-| **Zones de produit affectées**         | Outils de développement Visual Studio |
-| **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : l'avertissement devient une erreur de compilation dans Platform update 26. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Paramètre pour activer les commandes client avec plusieurs sources de financement de contrat de projet
 La prise en charge de la création de commandes client basées sur le projet où le projet inclut plusieurs sources de financement est activée à l'aide du paramètre **Paramètres de gestion de projets** défini sur **Autoriser les commandes client pour les projets avec plusieurs sources de financement**. Par défaut, ce paramètre n'est pas activé. 

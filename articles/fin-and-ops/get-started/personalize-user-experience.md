@@ -3,7 +3,7 @@ title: Personnaliser l'expérience de l'utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975849"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528842"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l'expérience de l'utilisateur
 
@@ -75,7 +75,7 @@ Certaines des modifications les plus courantes et importantes qui peuvent être 
 
 En outre, les types les plus classiques de personnalisations explicites sont disponibles en cliquant avec le bouton droit sur un élément et en sélectionnant **Personnaliser**. (Notez que tous les éléments sur la page ne peuvent pas être personnalisés). Lorsque vous utilisez cette méthode de personnalisation, la fenêtre des propriétés de l'élément s'affiche.
 
-[![Personnalisation des propriétés d'un élément](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![Personnalisation des propriétés d'un élément](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 Vous pouvez utiliser la fenêtre des propriétés pour personnaliser un élément comme suit :
 
@@ -91,7 +91,7 @@ La fenêtre des propriétés peut contenir d'autres fonctionnalités de personna
 
 Si vous souhaitez apporter plusieurs modifications à une page ou effectuer des modifications qui ne sont pas disponibles par le biais d'autres mécanismes (comme la réorganisation des éléments), vous pouvez utiliser la barre d'outils **Personnalisation**. Pour ouvrir la barre d'outils **Personnalisation**, sélectionnez **Personnaliser cet écran** dans la fenêtre des propriétés d'un élément. Vous pouvez également sélectionner **Personnaliser cet écran** dans le groupe **Personnaliser** de l'onglet **Options** du volet Actions de chaque page.
 
-[![Barre d'outils de personnalisation](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![Barre d'outils de personnalisation](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navigation dans la page
 

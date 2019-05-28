@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c5cd61c45eb7cbc6f040f054a99d9a54e1ee854
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d3496e0dec51daa640ff80355b9bcc63f8ba7ea2
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370726"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513100"
 ---
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l'Europe
 
@@ -65,7 +65,7 @@ Les codes déclaration de taxe sont des codes de zone dans la déclaration de TV
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>Codes taxe pour la déclaration de TVA
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> Les montants de base et les montants de taxe des transactions de taxe peuvent être regroupés à l'aide de codes déclaration dans la déclaration de TVA (balises XML ou zones de déclaration). Pour ce faire, associez les codes déclaration de taxe pour différents types de transaction aux codes taxe dans la page <strong>Codes taxe</strong>. Le tableau suivant décrit les types de transaction dans le paramétrage d'état pour les codes taxe. Le calcul comprend les transactions pour tous les types de sources à l'exception de la taxe.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).-->  Les montants de base et les montants de taxe des transactions de taxe peuvent être regroupés à l'aide de codes déclaration dans la déclaration de TVA (balises XML ou zones de déclaration). Pour ce faire, associez les codes déclaration de taxe pour différents types de transaction aux codes taxe dans la page <strong>Codes taxe</strong>. Le tableau suivant décrit les types de transaction dans le paramétrage d'état pour les codes taxe. Le calcul comprend les transactions pour tous les types de sources à l'exception de la taxe.
 
 <table>
 <colgroup>

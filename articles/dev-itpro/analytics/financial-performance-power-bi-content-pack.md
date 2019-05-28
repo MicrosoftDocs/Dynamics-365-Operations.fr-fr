@@ -18,11 +18,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315105"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1553950"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solution PowerBI.com Performances financières
 
@@ -34,7 +34,7 @@ ms.locfileid: "315105"
 Cette rubrique décrit la solution PowerBI.com **Performances financières**. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer la solution.
 
 ## <a name="main-account-setup"></a>Paramétrage des comptes principaux
-Comme les organisations souhaitent que les passifs et les montants du produit apparaissent comme des montants positifs dans les états, le paramétrage des comptes principaux est important. Pour faire apparaître ces comptes principaux comme montants positifs, le type de compte principal doit être défini sur **Passif** ou **Produit**. Lorsque ces types de comptes sont utilisés, la génération d'états via Power BI contrepasse les signes et affiche les montants comme positifs.
+Comme les organisations souhaitent que les passifs et les montants du produit apparaissent comme des montants positifs dans les états, le paramétrage des comptes principaux est important. Pour faire apparaître ces comptes principaux comme montants positifs, le type de compte principal doit être défini sur **Passif** ou **Produit**. Lorsque ces types de comptes sont utilisés, la génération d'états via Power BI contrepasse les signes et affiche les montants comme positifs.
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Tableau de bord et états inclus dans la solution PowerBI.com
 Le tableau de bord contient les vignettes résumées des données basées sur les états sous-jacents. Chaque vignette contient des informations résumées pour l'année en cours dans toutes les sociétés d'une organisation. Voici quelques-unes des vignettes :

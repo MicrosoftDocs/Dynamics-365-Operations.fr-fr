@@ -19,11 +19,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fc5b0798397047d1adedfc19406a7875c853bea6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353423"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570997"
 ---
 # <a name="create-documentation-or-training-by-using-task-recordings"></a>Création d'une documentation ou d'une formation à l'aide d'enregistrements de tâches
 
@@ -84,7 +84,7 @@ Voilà à quoi ressemble l'annotation de notes dans la « bulle » dans le Gui
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Étape d'informations** : ces annotations sont créées en cliquant avec le bouton droit sur un contrôle ou n'importe où dans un écran &lt; **Enregistreur de tâches** &lt; **Ajouter une étape d'informations**. Les étapes d'informations s'affichent sous la forme d'une étape numérotée partout où vous les insérez, même si aucune action n'a été enregistrée dans l'IU. Vous pouvez ajouter une étape d'informations au niveau de l'écran ou une étape d'informations associée à un contrôle. Lorsqu'une étape d'informations est associée à un écran, la « bulle » du guide de tâche apparaît quelque part dans l'écran, sans pointeur, lors de la lecture du guide. Lorsqu'une étape d'informations est associée à un contrôle, la « bulle » du guide de tâche pointe vers le contrôle lors de la lecture du guide. Dans le volet Aide, une annotation d'étape d'informations s'affiche comme une étape numérotée, indépendamment du texte que vous avez entré. Utilisez les étapes d'informations pour préparer l'utilisateur pour les étapes suivantes, pour décrire les étapes qui doivent être effectuées en dehors de Microsoft Dynamics 365 for Finance and Operations, ou pour faire référence à d'autres enregistrements (bien que vous ne puissiez pas créer d'hyperliens dans les annotations.).
+-   **Étape d'informations** : Ces annotations sont créées en cliquant avec le bouton droit sur un contrôle ou n'importe où dans un écran &lt; **Enregistreur de tâches** &lt; **Ajouter une étape d'informations.** Les étapes d'informations s'affichent sous la forme d'une étape numérotée partout où vous les insérez, même si aucune action n'a été enregistrée dans l'IU. Vous pouvez ajouter une étape d'informations au niveau de l'écran ou une étape d'informations associée à un contrôle. Lorsqu'une étape d'informations est associée à un écran, la « bulle » du guide de tâche apparaît quelque part dans l'écran, sans pointeur, lors de la lecture du guide. Lorsqu'une étape d'informations est associée à un contrôle, la « bulle » du guide de tâche pointe vers le contrôle lors de la lecture du guide. Dans le volet Aide, une annotation d'étape d'informations s'affiche comme une étape numérotée, indépendamment du texte que vous avez entré. Utilisez les étapes d'informations pour préparer l'utilisateur pour les étapes suivantes, pour décrire les étapes qui doivent être effectuées en dehors de Microsoft Dynamics 365 for Finance and Operations, ou pour faire référence à d'autres enregistrements (bien que vous ne puissiez pas créer d'hyperliens dans les annotations.).
 
 **Déterminez la longueur votre enregistrement**
 

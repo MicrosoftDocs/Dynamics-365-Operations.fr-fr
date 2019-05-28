@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353791"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530866"
 ---
 # <a name="define-financial-dimensions"></a>Définir des dimensions financières
 
@@ -33,7 +33,7 @@ Ce guide illustre l'ajout d'une dimension financière soutenue par une entité e
 ## <a name="create-an-entity-backed-financial-dimension"></a>Créer une dimension financière soutenue par une entité
 1. Accédez à Comptabilité > Plan de comptes > Dimensions > Dimensions financières.
 2. Cliquez sur Nouveau.
-3. Dans le champ Valeur utilisateur à partir de, sélectionnez une entité définie par le système sur laquelle baser la dimension financière. 
+3. Dans le champ du formulaire Valeur utilisateur, sélectionnez une entité définie par le système sur laquelle baser la dimension financière. 
 4. Dans le champ Nom de la dimension, entrez une valeur pour décrire la dimension financière.
     * Le nom peut être différent de celui de l'entité définie par le système mais ne peut pas contenir d'espaces ou de caractères spéciaux.  
 5. Cliquez sur Activer.
@@ -47,7 +47,7 @@ Ce guide illustre l'ajout d'une dimension financière soutenue par une entité e
 ## <a name="create-a-custom-financial-dimension"></a>Créez une dimension financière personnalisée.
 1. Fermez la page.
 2. Cliquez sur Nouveau.
-3. Dans le champ Utiliser les valeurs à partir de, sélectionnez <Custom dimension>.
+3. Dans le champ Utiliser les valeurs de, sélectionnez Dimension personnalisée.
 4. Dans le champ Nom de la dimension, entrez une valeur pour décrire la dimension financière.
     * Le nom ne peut pas contenir d'espaces ou de caractères spéciaux.  
     * Vous pouvez également spécifier un compte pour limiter la quantité et le type d'informations que vous pouvez entrer pour les valeurs de dimension.   

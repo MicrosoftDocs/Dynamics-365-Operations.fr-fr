@@ -1,16 +1,16 @@
 ---
 title: Options de mise en forme avancées dans les états financiers
 description: Lorsque vous créez un état dans les états financiers, les fonctions de mise en forme supplémentaires sont disponibles, notamment des filtres pour des dimensions, des restrictions pour des colonnes et des unités organisationnelles, des lignes non imprimées, et des instructions IF/THEN/ELSE dans les calculs.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335575"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502563"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Options de mise en forme avancées dans les états financiers
 
@@ -41,6 +41,7 @@ Le tableau suivant décrit les fonctions de mise en forme avancées disponibles 
 | Restriction de colonne         | La restriction de colonne dans la définition de ligne est utile pour masquer des valeurs pertinentes uniquement dans certaines lignes de l'état. Lorsque des calculs de pourcentage sont effectués sur une ligne, la restriction de colonne empêche les colonnes de totaux ou d'autres colonnes d'être imprimées lorsque ces numéros ne s'appliquent pas. |
 | Saut de colonne               | Vous pouvez ajouter des sauts de colonne dans une définition de ligne pour afficher les informations d'état côte à côte. Vous pouvez ajouter plusieurs sauts de colonne dans une seule définition de ligne, les en-têtes de colonne sont alors répétés en haut de chaque colonne après le saut de colonne. Les commentaires sur un état sont indiqués entre les sauts de colonne. |
 | Instruction IF/THEN/ELSE     | Vous pouvez modifier les calculs dans une définition de ligne ou une définition de colonne. |
+| Utilisez des apostrophes ('') et une esperluette (&) pour les valeurs de dimension | Vous pouvez utiliser des valeurs de dimension, notamment l'esperluette (&) pour la conception d'état. |
 
 ## <a name="advanced-cell-placement"></a>Positionnement avancé de cellules
 Le positionnement avancé de cellules, ou *forçage*, implique de disposer des valeurs spécifiques dans des cellules spécifiques. Le forçage est par exemple souvent utilisé pour déplacer le solde approprié dans un relevé de flux de trésorerie. Vous pouvez utiliser le forçage pour les besoins suivants :
@@ -271,7 +272,7 @@ Les formules **THEN** et **ELSE** peuvent être n'importe quel calcul valide et 
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Restriction d'un calcul dans une unité de déclaration dans une définition de ligne
 
-Pour limiter un calcul à une seule unité de génération dans une arborescence de génération d'états, de sorte que le montant qui en résulte ne soit pas reporté sur une unité de niveau supérieur, vous pouvez utiliser le code **@Unit**dans la cellule **Formules/lignes/unités associées** dans la définition de ligne. Le code **@Unit** est répertorié dans la colonne B de l'arborescence de génération d'états **Nom d'unité**. Lorsque vous utilisez le code **@Unit**, les valeurs ne sont pas reportées, mais le calcul est évalué à chaque niveau de l'arborescence de génération d'états.
+Pour limiter un calcul à une seule unité de génération dans une arborescence de génération d'états, de sorte que le montant qui en résulte ne soit pas reporté sur une unité de niveau supérieur, vous pouvez utiliser le code **@Unit** dans la cellule **Formules/lignes/unités associées** dans la définition de ligne. Le code **@Unit** est répertorié dans la colonne B de l'arborescence de génération d'états **Nom d'unité**. Lorsque vous utilisez le code **@Unit**, les valeurs ne sont pas reportées, mais le calcul est évalué à chaque niveau de l'arborescence de génération d'états.
 
 > [!NOTE]
 > Pour utiliser cette fonction, une arborescence de génération d'états doit être associée à la définition de ligne.
@@ -297,3 +298,9 @@ Une instruction **IF/THEN/ELSE** permet à n'importe quel calcul de dépendre de
 
 > [!NOTE]
 > Vous ne pouvez pas mettre les résultats d'un calcul dans une autre colonne. Les résultats doivent figurer dans la colonne qui contient la formule.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Utiliser des apostrophes et une esperluette pour les valeurs de dimension dans une ligne, une colonne ou une arborescence
+
+Vous pouvez concevoir des états à l'aide de valeurs de dimension contenant une esperluette (&). 
+
+Dans tout champ **Lier aux dimensions financières**, vous pouvez entrer une valeur comme **'Compte&Résultat'**. L'insertion d'apostrophes (' ') de part et d'autre de la valeur de la dimension indique que vous utilisez la valeur littérale, par exemple en incluant l'esperluette (&). 

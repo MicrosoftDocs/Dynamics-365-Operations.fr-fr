@@ -3,7 +3,7 @@ title: Synchronisation entre les commandes client directement entre Sales et Fin
 description: La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les commandes client directement depuis Microsoft Dynamics 365 for Sales et Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339117"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539112"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Synchronisation des commandes client directement entre Sales et Finance and Operations
 
@@ -146,6 +146,16 @@ Avant de synchroniser les commandes client, il est important de mettre les syst�
 ### <a name="setup-in-finance-and-operations"></a>Configuration dans Finance and Operations
 
 - Allez dans **Ventes et marketing** &gt; **Tâches périodiques** &gt; **Calcule les totaux de vente**, et configurez la tâche pour qu'elle s'exécute comme un traitement par lots. Définissez l'option **Calculer les totaux des commandes client** sur **Oui**. Cette étape est importante, car seules les commandes client où les totaux de vente ont été calculés sont synchronisées avec Sales. La fréquence du traitement par lots doit être alignée avec la fréquence de la synchronisation des commandes client.
+
+Si vous utilisez également l'intégration de l'ordre d'exécution, vous devez paramétrer l'origine des ventes. L'origine des ventes utilisée pour distinguer les commandes client de Finance and Operations créées à partir d'ordres d'exécution de Field Service. Lorsqu'une commande client a pour origine le type **Intégration de l'ordre d'exécution**, le champ **Statut de l'ordre d'exécution externe** apparaît dans l'en-tête de la commande client. En outre, l'origine des ventes permet de s'assurer que les commandes client créées à partir d'ordres d'exécution dans Field Service sont filtrées lors de la synchronisation des commandes client entre Finance and Operations et Field Service.
+
+1. Allez à **Ventes et marketing** \> **Paramétrage** \> **Commandes client** \> **Origine des ventes**.
+2. Sélectionnez **Nouveau** pour créer une origine des ventes.
+3. Dans le champ **Origine des ventes**, entrez un nom pour l'origine des ventes, par exemple **SalesOrder**.
+4. Dans le champ **Description**, entrez une description, comme **Commande client des ventes**.
+5. Activez la case à cocher **Affectation du type d'origine**.
+6. Définissez le champ **Type d'origine des ventes** sur **Intégration de la commande client**.
+7. Sélectionnez **Enregistrer**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Configuration dans les commandes client (entre Sales et Fin and Ops) - projet d'intégration Direct Data
 

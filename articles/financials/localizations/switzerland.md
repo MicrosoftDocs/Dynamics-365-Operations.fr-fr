@@ -16,12 +16,12 @@ ms.search.region: Switzerland
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daabdf183cb4de55d3b6cae24c7f353ffc39059f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 87ffd19e9ce22b1ecb57ef47070b393ce7374bcf
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370639"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537925"
 ---
 # <a name="switzerland"></a>Suisse 
 

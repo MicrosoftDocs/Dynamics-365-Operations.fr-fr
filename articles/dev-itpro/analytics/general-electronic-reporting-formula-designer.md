@@ -3,7 +3,7 @@ title: Concepteur de formule dans les états électroniques (ER)
 description: Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques.
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331274"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541266"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
@@ -440,6 +440,11 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>Renvoie la liste spécifiée une fois que la requête a été modifiée pour filtrer la condition spécifiée. Cette fonction diffère de la fonction <strong>WHERE</strong>, car la condition spécifiée est appliquée à toute source de données ER du type <strong>Enregistrements de table</strong> au niveau de la base de données. La liste et la condition peuvent être définies à l'aide de tables et de relations.</td>
 <td>Si <strong>Fournisseur</strong> est configuré comme source de données de génération d'états électroniques qui fait référence à la table VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> renvoie la liste des fournisseurs faisant partie du groupe de fournisseurs 40. Si <strong>Fournisseur</strong> est configuré comme source de données de génération d'états électroniques qui fait référence à la table VendTable et si <strong>parmVendorBankGroup</strong> est configuré comme source de données de génération d'états électroniques qui renvoie une valeur du type de données <strong>Chaîne</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> renvoie la liste des comptes fournisseurs appartenant à un groupe bancaire spécifique.</td>
 </tr>
+<tr>
+<td>INDEX (list, index)</td>
+<td>Cette fonction retourne un enregistrement sélectionné par un index numérique spécifique dans la liste. Une exception est levée si l'index est hors des limites des enregistrements dans la liste.</td>
+<td>Si vous entrez la source de données <strong>DS</strong> pour le type <strong>Champ calculé</strong> et qu'elle contient l'expression <strong>SPLIT ("A|B|C", “|”), 2)</strong>, l'expression <strong>DS.Value</strong> retourne la valeur de texte, « B ». L'expression <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> renvoie également la valeur de texte « B ».</td>
+</tr>
 </tbody>
 </table>
 
@@ -512,7 +517,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 
 ### <a name="mathematical-functions"></a>Fonctions mathématiques
 
-| Fonction | Description  | Exemple |
+| Fonction | Description | Exemple |
 |----------|-------------|---------|
 | Retour marchandises (numéro) | Renvoie la valeur absolue du nombre spécifié. (En d'autres termes, renvoie le nombre sans son signe.) | **ABS (-1)** renvoie **1**. |
 | POWER (number, power) | Renvoie le résultat d'élever le nombre positif spécifié à la puissance spécifiée. | **POWER (10, 2)** renvoie **100**. |
@@ -612,7 +617,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>FORMAT (string 1, string 2[, string 3, …])</td>
-<td>Renvoie la chaîne spécifiée une fois qu'elle a été mise en forme en substituant toutes les occurrences de <strong>%N</strong> par le <em>ième</em> argument. Les arguments sont des chaînes. Si un argument n'est pas fourni pour un paramètre, le paramètre est renvoyé comme <strong>&quot;%N&quot;</strong> dans la chaîne. Pour les valeurs de type <strong>real</strong>, la conversion de chaîne est limitée à deux décimales.</td>
+<td>Renvoie la chaîne spécifiée une fois qu'elle a été mise en forme en substituant toutes les occurrences de <strong>%N</strong> par le <em>n</em>ième argument. Les arguments sont des chaînes. Si un argument n'est pas fourni pour un paramètre, le paramètre est renvoyé comme <strong>&quot;%N&quot;</strong> dans la chaîne. Pour les valeurs de type <strong>real</strong>, la conversion de chaîne est limitée à deux décimales.</td>
 <td>Dans l'illustration suivante, la source de données <strong>PaymentModel</strong> renvoie la liste des enregistrements client via le composant <strong>Customer</strong> et la valeur de la date de traitement via le champ <strong>ProcessingDate</strong>.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>Dans le format de génération d'états électroniques conçu pour générer un fichier électronique pur les clients sélectionnés, <strong>PaymentModel</strong> est sélectionné comme source de données et contrôle le flux de processus. Une exception est levée pour informer les utilisateurs finaux lorsqu'un client sélectionné est arrêté à la date lorsque l'état est traité. La formule qui est conçue pour ce type de contrôle de traitement peut utiliser les ressources suivantes :</p>
@@ -624,7 +629,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </ul></li>
 <li>Libellé Finance and Operations SYS18389, avec le texte suivant :
 <ul>
-<li><strong>Pour l'anglais américain :</strong> &quot;Customer %1is stopped for %2.&quot;</li>
+<li><strong>Pour l'anglais américain :</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
 <li><strong>Pour l'allemand :</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>

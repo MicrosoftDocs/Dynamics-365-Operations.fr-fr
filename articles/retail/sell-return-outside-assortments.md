@@ -19,11 +19,11 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "352296"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567906"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Vente et retourner des produits ne faisant pas partie de l'assortiment d'un magasin
 

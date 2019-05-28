@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334885"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561808"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 
@@ -49,7 +49,7 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 <td>Les contrôleurs de coûts veulent savoir si le solde du relevé du stock ou du stock des travaux en cours augmente ou diminue au fil du temps. En classifiant des événements opérationnels sur le relevé, le contrôleur de coûts peut obtenir une vue d'ensemble de l'écoulement du stock. Si le stock ou le stock de travaux en cours est valorisé par les coûts standard, l'écart global enregistré peut également être considéré.</td>
 </tr>
 <tr>
-<td>Utilisez le module<strong> Gestion des coûts</strong>.</td>
+<td>Utilisez le module <strong>Gestion des coûts</strong>.</td>
 <td>Non applicable</td>
 <td>Le module Gestion des coûts est présenté comme une zone de domaine. La configuration et l'analyse associées aux coûts ont été dispersées dans les modules Gestion des stocks, Contrôle de la production et Comptabilité fournisseur.</td>
 <td>Étant donné que toutes les tâches associées à la gestion des coûts sont centralisées dans un module, les contrôleurs de coût pourront plus facilement tenir le système à jour.</td>
@@ -219,7 +219,7 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d'évaluation des
 </tr><tr>
 <td>Analyser les données financières à l'aide du contenu Power BI « Surveiller les performances financières ».</td>
 <td>Non disponible</td>
-<td>Dans PowerBI.com, sélectionnez <strong>Obtenir des données</strong>, puis sélectionnez le pack de contenu <strong>Dynamics AX – Performances financières</strong>. Permet d'entrer l'URL de votre point de terminaison Dynamics AX pour afficher vos données répercutées dans le tableau de bord.</td>
+<td>Dans PowerBI.com, sélectionnez <strong>Obtenir des données</strong>, puis sélectionnez le pack de contenu <strong>Dynamics AX – Performances financières</strong>. Permet d'entrer l'URL de votre point de terminaison Dynamics AX pour afficher vos données répercutées dans le tableau de bord.</td>
 <td>En trois à quatre clics, les organisations peuvent déployer un tableau de bord Power BI contenant des données financières importantes. Le contenu peut être personnalisé par l'organisation.</td>
 </tr>
 <tr>
@@ -281,7 +281,7 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d'évaluation des
 </tr>
 <tr>
 <td>Soyez productif à l'aide du nouvel enregistreur de tâches.</td>
-<td>L'enregistreur de tâches d'AX 2012 a besoin d'accès direct à un ordinateur Serveur d'objets d'application (AOS) et des privilèges élevés, et ne fournit pas d'option de modification.</td>
+<td>L'enregistreur de tâches d'AX 2012 a besoin d'accès direct à un ordinateur Serveur d'objets d'application (AOS) et des privilèges élevés, et ne fournit pas d'option de modification.</td>
 <td>Le nouvel Enregistreur de tâches peut être utilisé à partir du client web. L'accès à l'enregistreur de tâches ne nécessite pas de droits d'administrateur. Les étapes enregistrées peuvent être visualisées en direct lors de l'enregistrement, de nouvelles options de modification ont été introduites, et l'enregistreur de tâches prend en charge plus de scénarios en plus des scénarios Concepteur de processus d'entreprise (BPM) existants.</td>
 <td>Le nouvel enregistreur de tâches fournit une expérience profilée et de nouvelles fonctionnalités dans Dynamics AX. Certaines de ces fonctionnalités sont désormais disponibles, d'autres suivront plus tard.</td>
 </tr>
@@ -516,7 +516,7 @@ Aucune nouvelle fonctionnalité n'a été ajoutée :
 </tr>
 <tr>
 <td>(UE) Déclarez la quantité dans les unités supplémentaires pour la déclaration d'échanges de biens à l’aide du paramètre de conversion d’unité.</td>
-<td>Le code de marchandise de la déclaration d'échanges de biens a un champ de texte pour identifier les unités supplémentaires et la carte<strong> Produit</strong> a un champ pour identifier la quantité d’unités supplémentaires en kilogrammes.</td>
+<td>Le code de marchandise de la déclaration d'échanges de biens a un champ de texte pour identifier les unités supplémentaires et la carte <strong>Produit</strong> a un champ pour identifier la quantité d’unités supplémentaires en kilogrammes.</td>
 <td>Les unités supplémentaires du code de marchandise de la déclaration d'échanges de biens sont choisies dans la liste des unités. La quantité d’unités supplémentaires est calculée au moyen des paramètres de conversion d’unité.</td>
 <td>Cela unifie l’approche pour le nouveau calcul d’unités de transaction dans les unités supplémentaires.</td>
 </tr>
@@ -634,14 +634,14 @@ L'espace de travail <strong>Gestion du catalogue</strong> active les fonctionnal
 <li>Suivre le statut des périphériques, puis valider et télécharger directement l'installation du programme Retail Modern POS (MPOS) dans les magasins.</li>
 <li>Accéder à toutes les pages associées.</li>
 </ul>L'espace de travail 
-<strong>Gestion du magasin de vente au détail</strong> permet d'effectuer les tâches suivantes :
+<strong>Gestion du magasin de vente au détail</strong> permet d'effectuer les tâches suivantes :
 <ul>
 <li>Gérer les collaborateurs et les autorisations de point de vente (PDV) associées.</li>
 <li>Suivre le statut de l'équipe de travail pour un magasin ou un groupe de magasins donnés.</li>
 <li>Valider et télécharger directement l'installation du programme MPOS dans les magasins.</li>
 <li>Imprimer des états et accéder aux pages associées.</li>
 </ul>L'espace de travail 
-<strong>Finances du magasin de vente au détail</strong> permet d'effectuer les tâches suivantes :
+<strong>Finances du magasin de vente au détail</strong> permet d'effectuer les tâches suivantes :
 <ul>
 <li>Créer, calculer et valider des relevés pour un canal donné.</li>
 <li>Programmer les traitements par lots pour mettre à jour le stock, puis calculer et valider les instructions.</li>
@@ -654,7 +654,7 @@ L'espace de travail <strong>Gestion du catalogue</strong> active les fonctionnal
 <tr>
 <td>Gérer les opérations d'informatique au détail.</td>
 <td>L'utilisateur doit accéder à plusieurs écrans.</td>
-<td>L'espace de travail <strong>Informatique au détail</strong> active les recherches de Commerce Data Exchange dans un emplacement unique pour un canal donné, afin que vous puissiez effectuer les tâches suivantes :
+<td>L'espace de travail <strong>Informatique au détail</strong> active les recherches de Commerce Data Exchange dans un emplacement unique pour un canal donné, afin que vous puissiez effectuer les tâches suivantes :
 <ul>
 <li>Télécharger des sessions.</li>
 <li>Charger des sessions.</li>
@@ -678,7 +678,7 @@ L'espace de travail <strong>Gestion du catalogue</strong> active les fonctionnal
 <tr>
 <td>Possibilité d'analyser des données de ventes du canal de vente au détail à l'aide du contenu Power BI « Surveiller Retail Channel Performance ».</td>
 <td>Non disponible</td>
-<td>Dans PowerBI.com, sélectionnez <strong>Obtenir des données</strong>, puis sélectionnez le pack de contenu <strong>Dynamics AX – Retail Channel Performance</strong>. Permet d'entrer l'URL de votre point de terminaison Dynamics AX pour afficher vos données répercutées dans le tableau de bord.</td>
+<td>Dans PowerBI.com, sélectionnez <strong>Obtenir des données</strong>, puis sélectionnez le pack de contenu <strong>Dynamics AX – Retail Channel Performance</strong>. Permet d'entrer l'URL de votre point de terminaison Dynamics AX pour afficher vos données répercutées dans le tableau de bord.</td>
 <td>En trois à quatre clics, les organisations peuvent déployer un tableau de bord Power BI contenant des données financières importantes. Le contenu peut être personnalisé par l'organisation. En outre, les utilisateurs peuvent incorporer des vignettes de tableau de bord Power BI dans leurs espaces de travail personnalisés dans Dynamics AX, afin de pouvoir ensuite consulter les informations analytiques d'un seul coup d'œil.</td>
 </tr>
 <tr>
@@ -863,7 +863,7 @@ La vente au détail offre des expériences de mobilité immersives n'importe où
 <li>Service client</li>
 <li>Tarification intégrée et promotions/remises</li>
 </ul></td>
-<td>Parité disponible avec la solution de centre d'appels d'AX 2012 (sauf pour les remplacements des prix).</td>
+<td>Parité disponible avec la solution de centre d'appels d'AX 2012 (sauf pour les remplacements des prix).</td>
 <td>Les centres d'appel sont un type de canal de vente au détail qui permettent aux collaborateurs de prendre des commandes clients par téléphone et de créer des commandes client.</td>
 </tr>
 </tbody>
@@ -999,7 +999,7 @@ Installation améliorée du composant client « à faible contact » via l'ins
 <tr>
 <td>Obtention d'un aperçu rapide des alternatives de livraison lorsque vous promettez des commandes aux clients.</td>
 <td>En cas de contraintes en matière de disponibilité des produits, et si la date de livraison demandée par le client pour un ou plusieurs produits sur la commande ne peut pas être respectée, la tâche liée à la commande devient problématique. Pour rechercher des alternatives pouvant compenser la disponibilité et les problèmes de délai d'expédition afin que la date demandée par le client puisse être respectée, ou pour offrir aux clients une solution de livraison acceptable et fiable, le gestionnaire des commandes peut avoir à ouvrir plusieurs écrans, offrant chacun uniquement un sous-ensemble des informations requises. Un écran affiche par exemple la quantité disponible sur plusieurs sites, un autre écran affiche la quantité disponible dans le paramètre intersociétés, un troisième écran permet aux utilisateurs de calculer la date disponible la plus proche pour un site/une variante à la fois, et un quatrième écran affiche les commandes d'approvisionnement. Par conséquent, les utilisateurs n'ont pas la certitude d'avoir pris en compte toutes les options appropriées au lieu de choisir juste une solution immédiate mais sous-optimale. En outre, les utilisateurs ne se sentent pas efficaces, car de nombreuses interruptions surviennent au cours de la commande lorsqu'ils ouvrent et ferment plusieurs pages, et combinent les analyses et les options.</td>
-<td>Selon les algorithmes existants pour le calcul de la date de livraison, la page <strong>Autres modes de livraison </strong> offre une nouvelle expérience utilisateur pour la promesse de commande :
+<td>Selon les algorithmes existants pour le calcul de la date de livraison, la page <strong>Autres modes de livraison </strong>offre une nouvelle expérience utilisateur pour la promesse de commande :
 <ul>
 <li>Elle consolide les informations pertinentes à partir de plusieurs écrans dans un espace.</li>
 <li>Elle offre d'autres packages de livraison « prêts à l'emploi », tels qu'une combinaison site/entreposage/variante/mode de transport, selon le critère de livraison le plus rapide (date disponible la plus proche) que l'utilisateur peut sélectionner.</li>

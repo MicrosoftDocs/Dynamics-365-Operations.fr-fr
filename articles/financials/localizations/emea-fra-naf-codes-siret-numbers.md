@@ -17,12 +17,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 692932884f5d693ea166b990bf2b502f8d7a6677
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d0712b49572f996eef7955e589f31cadeaa159b4
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370740"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537942"
 ---
 # <a name="naf-codes-and-siret-numbers"></a>Codes NAF et numéros Siret
 

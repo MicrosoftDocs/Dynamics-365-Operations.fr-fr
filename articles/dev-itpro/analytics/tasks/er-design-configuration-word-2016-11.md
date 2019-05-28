@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "362347"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551508"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Créer des configurations de gestion d'états électroniques pour générer des états au format Word
 
@@ -29,7 +29,7 @@ ms.locfileid: "362347"
 
 Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques (ER) peut configurer des formats de données de génération d'états électroniques pour générer des états sous forme de fichiers Microsoft Word. Ces étapes peuvent être effectuées dans la société GBSI.
 
-Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche de la section « Créer une configuration ER pour générer des états au format OPENXML ». Au préalable, vous devez également télécharger et enregistrer localement les modèles suivants pour l'exemple d'état : http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx. Au préalable, vous devez également télécharger et enregistrer localement les modèles suivants pour l'exemple d'état :
+Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche de la section « Créer une configuration ER pour générer des états au format OPENXML ». Au préalable, vous devez également télécharger et enregistrer localement les modèles suivants pour l'exemple d'état :
 
 - [Modèle d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266)
 - [Modèle lié d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266)

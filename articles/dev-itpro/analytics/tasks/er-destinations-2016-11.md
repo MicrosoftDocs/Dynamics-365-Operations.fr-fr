@@ -17,17 +17,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "309861"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544861"
 ---
 # <a name="er-configure-destinations"></a>ER Configurer des destinations
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure illustre le paramétrage et l'utilisation de différentes destinations pour les composants de sortie de génération d'états électroniques (ER), tels qu'un dossier ou un fichier. La société fictive de démonstration utilisée pour créer cette procédure est DEMF. L'Allemagne est le pays\région de l'adresse principale de l'entité juridique, toutefois, vous pouvez utiliser n'importe quelle entité juridique pour cette procédure. 
+Cette procédure illustre le paramétrage et l'utilisation de différentes destinations pour les composants de sortie de génération d'états électroniques (ER), tels qu'un dossier ou un fichier. La société fictive de démonstration utilisée pour créer cette procédure est DEMF. L'Allemagne est le pays/région de l'adresse principale de l'entité juridique, toutefois, vous pouvez utiliser n'importe quelle entité juridique pour cette procédure. 
 
 Le format utilisé dans cet exemple est Virement ISO20022, mais vous pouvez utiliser n'importe quel format que vous avez déjà importé. Notez que cette procédure est un exemple de paramétrage d'un fichier unique et d'une destination unique. Vous trouverez plus d'informations sur la gestion des destinations d'états électroniques dans l'aide de Dynamics 365 for Finance and Operations.
 

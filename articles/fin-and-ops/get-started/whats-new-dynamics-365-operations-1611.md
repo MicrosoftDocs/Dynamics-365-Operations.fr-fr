@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339071"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548030"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Nouveautés ou modifications dans Dynamics 365 for Operations version 1611 (novembre 2016)
 
@@ -716,7 +716,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 | Ce que vous pouvez faire | Pourquoi c'est important |
 |-----------------|-----------------------|
 | Utilisez la sélection ultérieure lorsque vous validez des propositions de facture dans un lot. | Les comptables de projet peuvent paramétrer un traitement par lots pour prélever automatiquement des propositions de facture pour la validation, si ces propositions répondent aux critères spécifiés sur le traitement par lots. Cette fonctionnalité améliore l'automatisation de la validation de factures, car le traitement par lots peut fonctionner en continu et prélever automatiquement des propositions pour la validation. |
-| Créez des analyses dans Power BI Desktop. | Le contenu Business Intelligence (BI) pour les données associées au projet et aux ressources peut être facilement créé dans Power BI Desktop. |
+| Créez des analyses dans Power BI desktop. | Le contenu Business Intelligence (BI) pour les données associées au projet et aux ressources peut être facilement créé dans Power BI desktop. |
 | Utilisez les acomptes de commande fournisseur, et incluez-les correctement au processus d'estimation du projet. | Pour les commandes fournisseur de projet, les acomptes doivent être traités avant que des paiements puissent être transmis aux fournisseurs. Ces factures d'acompte s'affichent désormais dans le processus d'estimation/constatation de projet pour des projets de types à **Prix fixe**. |
 | Accédez aux estimations de coût et de produit et gérez-les, ainsi que les demandes d'articles, directement depuis une tâche de structure de répartition du travail (WBS). | Vous pouvez gérer les estimations de coût, les estimations de produit, et les demandes d'articles pour une tâche WBS spécifique dans la boîte de dialogue de détails de cette tâche dans la vue de planification WBS. |
 | Choisissez une source de financement dans les journaux de frais. | Si le contrat d'un projet contient plusieurs sources de financement, vous pouvez sélectionner une source de financement spécifique lorsque des frais sont validés. Si ne sélectionnez pas de source de financement spécifique, les règles de financement spécifiées sur le contrat sont utilisées pour affecter les frais. |
