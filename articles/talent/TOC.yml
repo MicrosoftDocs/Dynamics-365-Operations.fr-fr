@@ -1,371 +1,588 @@
-- name: Dynamics 365 for Talent
-  href: index.md
-  items:
-    - name: Mise en route
-      href: talent-get-started.md
-      items:
-        - name: Nouveautés ou modifications dans Talent
-          href: whats-new.md
-          items:
-            - name: "6\_mai\_2019"
-              href: whats-new-talent-may-6-2019.md
-            - name: "30\_avril\_2019"
-              href: whats-new-talent-april-30-2019.md
-            - name: "25\_avril\_2019"
-              href: whats-new-talent-april-25-2019.md
-            - name: "16\_avril\_2019"
-              href: whats-new-talent-april-16-2019.md
-            - name: "9\_avril\_2019"
-              href: whats-new-talent-april-9-2019.md
-            - name: "2\_avril\_2019"
-              href: whats-new-talent-april-2-2019.md
-            - name: "26\_mars\_2019"
-              href: whats-new-talent-march-26-2019.md
-            - name: "20\_mars\_2019"
-              href: whats-new-talent-march-20.md
-            - name: "14\_mars\_2019"
-              href: whats-new-talent-march-14.md
-            - name: "5\_mars\_2019"
-              href: whats-new-talent-march-5.md
-            - name: "Nouvelles archives\_2019"
-              items:
-                - name: "27\_février\_2019"
-                  href: whats-new-talent-feb-27.md
-                - name: "14\_février\_2019"
-                  href: whats-new-talent-feb14.md
-                - name: "7\_février\_2019"
-                  href: whats-new-talent-february-7.md
-                - name: "31\_janvier\_2019"
-                  href: whats-new-talent-january-29.md
-                - name: "23\_janvier\_2019"
-                  href: whats-new-talent-january-23.md
-                - name: "17\_janvier\_2019"
-                  href: whats-new-talent-january-17.md
-                - name: "11\_janvier\_2019"
-                  href: whats-new-talent-january-11.md
-            - name: "Nouvelles archives\_2018"
-              items:
-                - name: "14\_décembre\_2018"
-                  href: whats-new-talent-december-14.md
-                - name: "6\_décembre\_2018"
-                  href: whats-new-talent-december-6.md
-                - name: "27\_novembre\_2018"
-                  href: whats-new-talent-november-27.md
-                - name: "15\_novembre\_2018"
-                  href: whats-new-talent-november-15.md
-                - name: "31\_octobre\_2018"
-                  href: whats-new-talent-october-31.md
-                - name: "19\_octobre\_2018"
-                  href: whats-new-talent-october-19.md
-                - name: "15\_octobre\_2018"
-                  href: whats-new-talent-october-11.md
-                - name: "8\_octobre\_2018"
-                  href: whats-new-talent-october-8.md
-                - name: "1er\_octobre\_2018"
-                  href: whats-new-talent-october-01.md
-                - name: "24\_septembre\_2018"
-                  href: whats-new-talent-september-24.md
-                - name: "17\_septembre\_2018"
-                  href: whats-new-talent-september-17-2018.md
-                - name: "10\_septembre\_2018"
-                  href: whats-new-talent-september-10.md
-                - name: "Août\_2018"
-                  href: whats-new-talent-august2018.md
-                - name: "Juillet\_2018"
-                  href: whats-new-talent-july2018.md
-        - name: Configuration système et politique de mise à jour
-          href: talent-versions-update-policy.md
-        - name: Mettre en service Talent
-          href: provisioning-talent.md
-        - name: Supprimer des environnements Talent
-          href: remove-talent-environment.md
-        - name: Mise en service pour l'application Onboard
-          href: modular-app-tech-faq.md
-        - name: Incorporer les applications PowerApps
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR et Common Data Service
-          href: CoreHREntities.md
-        - name: Accéder aux fonctionnalités d'aperçu
-          href: access-preview-feature.md
-        - name: Obtenir de l'aide sur Talent
-          href: talent-support.md
-    - name: 'Organisation du personnel à l''aide des départements, tâches et postes'
-      href: departments-jobs-positions.md
-      items:
-        - name: Paramétrer les composants d'une tâche
-          href: create-job.md
-        - name: Créer des départements et les inclure dans la hiérarchie des départements
-          href: create-department-add-department-hierarchy.md
-        - name: Configuration des paramètres RH dans les entités juridiques
-          href: set-up-hr-parameters-across-legal-entities.md
-        - name: Configurer les paramètres RH spécifiques à la société
-          href: set-up-company-specific-hr-parameters.md
-        - name: FAQ sur les actions du personnel
-          href: personnel-actions-faq.md
-        - name: Formaliser les processus d'entreprise
-          href: formalize-business-processes.md
-        - name: Utiliser des workflows pour gérer les informations relatives aux employés
-          href: workflow-manage-employee-information.md
-    - name: Gérer les congés et les absences
-      href: leave-absence-overview.md
-      items:
-        - name: Concepts liés aux congés et absences
-          href: leave-absence-concepts.md
-        - name: Cumuler des congés sur la base des heures travaillées
-          href: leave-accrue-hours-worked.md
-        - name: Calendriers de temps de travail
-          href: working-time-calendars.md
-    - name: Dotation en personnel de votre organisation
-      items:
-        - name: "Quelle version de Attract\_?"
-          href: attract-comprehensive-hiring.md
-        - name: Fonctionnalités de Attract
-          href: attract-overview.md
-        - name: Créer un modèle de processus dans Attract
-          href: Process-templates-Attract.md
-        - name: 'Créer, approuver et publier des postes dans Attract'
-          href: Creating-jobs-Attract.md
-        - name: Publier des postes sur des sites externes à partir de Attract
-          href: posting-jobs-external.md
-        - name: Identifier des candidats avec les viviers de talents
-          href: attract-talent-pools.md
-        - name: Identification de candidats avec LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
-        - name: Activités dans les processus de recrutement
-          href: activities-attract.md
-        - name: Planification et commentaires sur les entretiens
-          href: interview-scheduling-feedback.md
-        - name: Extensibilité
-          href: extensibility-attract.md
-        - name: Fonctionnalité de site de carrière dans Attract
-          href: career-site.md
-        - name: Paramétrer la gestion des offres
-          href: offer-setup.md
-        - name: 'Créer, approuver et signer des offres'
-          href: creating-offers.md
-        - name: Modèles d'e-mail
-          href: email-templates.md
-        - name: Gestion de la sécurité et des rôles dans Attract
-          href: security-attract.md
-        - name: Paramètres d'administration dans Attract
-          href: Admin-Settings-Attract.md
-        - name: Recommandations intelligentes
-          href: Intelligent-Recommendations.md
-        - name: Créer une expérience d'intégration attractive
-          href: create-onboarding-experience.md
-        - name: Suivre les sources pour les profils de candidat et les candidatures
-          href: source-tracking.md
-        - name: Utiliser les états analytiques pour obtenir des informations sur le processus de recrutement
-          href: analytic-reports.md
-    - name: Motiver les employés
-      items:
-        - name: Régimes de rémunération
-          href: compensation-plans.md
-        - name: Créer des régimes de rémunération fixe
-          href: create-fixed-compensation-plans.md
-        - name: Créer des régimes de rémunération variable
-          href: create-variable-compensation-plans.md
-        - name: Traiter la rémunération
-          href: process-compensation.md
-        - name: Paramétrer les composants d'une tâche
-          href: create-job.md
-    - name: Faire évoluer et former les employés
-      items:
-        - name: Gestion des performances
-          href: performance-management-overview.md
-        - name: Aligner les qualifications du personnel aux besoins de l'entreprise
-          href: skills.md
-        - name: Configurer des cours de formation
-          href: courses.md
-    - name: Définir et gérer un programme social
-      items:
-        - name: Définir et gérer un programme social
-          href: manage-benefit-program.md
-        - name: Stratégies de droit aux avantages
-          href: benefit-eligibility-policies.md
-        - name: Générer des états sur la Loi sur les soins abordables (ACA)
-          href: generate-aca-reports.md
-        - name: Gérer les articles prêtés aux collaborateurs
-          href: loan-items.md
-    - name: Questionnaires
-      href: questionnaires.md
-      items:
-        - name: Créer des questionnaires
-          href: design-questionnaires.md
-        - name: Distribuer et programmer des questionnaires
-          href: distribute-questionnaires.md
-        - name: Afficher et évaluer les résultats des questionnaires
-          href: evaluate-questionnaire-results.md
-    - name: Conformité et sécurité sur le lieu de travail (États-Unis)
-      items:
-        - name: Répondre à une demande de données personnelles dans Talent
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Écran I-9 - Vérification d'emploi
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Se conformer à ADA
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Intelligence
-      items:
-        - name: Power BI intégré dans les espaces de travail
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Application mobile
-      items:
-        - name: Espaces de travail mobiles
-          items:
-            - name: Espace de travail mobile Répertoire de la société
-              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Mon espace de travail mobile Équipe
-              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Publier les espaces de travail mobiles
-          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Intégration
-      items:
-        - name: Intégrer à Dynamics 365 for Finance and Operations
-          href: talent-financeandoperations-integration.md
-        - name: Configurer l'intégration de la paie entre Talent et Dayforce
-          href: configure-payroll-integration.md
-        - name: Instructions d'intégration des données pour Dynamics 365 for Talent
-          href: data-integration.md
-        - name: FAQ sur l'intégration
-          href: talent-fo-integration.md
-        - name: Exportation des données récurrentes en utilisant Azure Logic Apps
-          href: tutorial-integration-recurring-export.md
-    - name: Extensibilité
-      items:
-        - name: Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de scénarios
-          href: extensibility-examples.md
-        - name: Suivre les modifications apportées aux données de recrutement
-          href: process-auditing.md
-        - name: Extensibilité dans Attract
-          href: extensibility-attract.md
-        - name: Champs personnalisés dans Core HR
-          href: corehr-custom-fields.md
-    - name: Intégration Office
-      items:
-        - name: Didacticiel pour l'intégration Office
-          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Mettre à jour des données d'entité dans Excel
-          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Créer des expériences Ouvrir dans Excel
-          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Résoudre les problèmes d'intégration Office
-          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Administration d'organisation
-      items:
-        - name: Souches de numéros
-          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Paramétrer des souches de numéros sur une base individuelle
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Configurer les souches de numéros à l'aide d'un assistant
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Organisations et hiérarchies d'organisation
-          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Planification de votre hiérarchie d'organisation
-              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Créer une hiérarchie d'organisation
-              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Créer une entité juridique
-              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Créer une unité opérationnelle
-              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Carnet d'adresses global
-          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Planifier le carnet d'adresses global et autres
-              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Configurer le carnet d'adresses global
-              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: FAQ sur les carnets d'adresses
-              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Workflow
-          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Éléments du workflow
-              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Actions dans les processus d'approbation d'un workflow
-              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Créer des workflows
-              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-              items:
-                - name: Configuration des propriétés de workflow
-                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Configuration de tâches manuelles
-                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Configuration de tâches automatiques
-                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Configuration de processus d'approbation
-                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Configuration d'étapes d'approbation
-                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Configuration de décisions manuelles
-                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Configuration de décisions conditionnelles
-                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Configuration d'activités parallèles
-                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Configuration de branches parallèles
-                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Configuration de workflows pour ligne
-                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Configurer le traitement par lots du traitement des messages
-              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Délégation d'éléments de travail dans un workflow
-              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Afficher l'historique du workflow
-              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Permettre aux utilisateurs de recevoir des e-mails liés au workflow
-              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Alertes
-          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Créer des règles d'alerte
-              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Traitement par lots des alertes
-              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Gestion des dossiers
-          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: 'Planifier la sécurité, les processus, et les catégories d''incident'
-              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Configurer la gestion des documents
-          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Configuration et envoi d'e-mail
-          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Données de date/d'heure et fuseaux horaires
-          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Tâches des ressources humaines
-      items:
-        - name: Ajouter des informations à votre journal de performances et envoyer une récompense à une personne
-          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Créer un objectif
-          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Créer une évaluation des performances
-          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Résoudre les problèmes dans Talent
-      items:
-        - name: Les états analytiques ne sont pas mis à jour
-          href: analytic-reports-not-updated.md
-        - name: Impossible de créer un environnement dans le centre d'administration PowerApps
-          href: create-envi-powerapps-admin-ctr.md
-        - name: Déconnexion du client Talent
-          href: client-disconnects.md
-        - name: Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
-          href: avoid-text-truncation-position-hierarchy-visio.md
-        - name: Exécuter le processus de rémunération
-          href: run-compensation-process.md
-        - name: Enregistrer les guides de tâches dans LCS et les rediffuser
-          href: save-play-task-guides-LCS.md
-        - name: Accéder aux adresses privées selon les rôles de sécurité
-          href: security-roles-addresses.md
-        - name: Talent ne figure pas dans les applications Microsoft Dynamics 365 (Common Data Service 1.0)
-          href: talent-not-in-home-CDS.md
-        - name: L'utilisateur peut accéder à Core HR mais pas à l'application Onboard ou Attract
-          href: user-access-core-hr.md
-        - name: Options de génération d'états dans Talent
-          href: talent-reporting-options.md
-        - name: FAQ sur l'intégration
-          href: talent-FO-integration.md
-        - name: Utilisateurs Azure Active Directory introuvables dans le sélecteur de personnes
-          href: people-picker-user-not-found.md
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="TOC.yml" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>TOC.8820d6.dea47d376e4da04c15c94a8207856ec23522f4a7.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>dea47d376e4da04c15c94a8207856ec23522f4a7</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>7e223ddd04184fe5a9861be1405fcc0eb8dd166c</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/04/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\talent\TOC.yml</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101">
+          <source>Dynamics 365 for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dynamics 365 for Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102">
+          <source>Get started</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mise en route</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Get started with Talent</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Mise en route de Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>What's new or changed in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Nouveautés ou modifications dans Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>May 28, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">28 mai 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>May 21, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">21 mai 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>May 13, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">13 mai 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>May 6, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">6 mai 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>April 30, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">30 avril 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>April 25, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">25 avril 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>April 16, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">16 avril 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>April 9, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">9 avril 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>April 2, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2 avril 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>March 26, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">26 mars 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>March 20, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20 mars 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>March 14, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14 mars 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>March 5, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5 mars 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>What's new archives 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nouvelles archives 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>February 27, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">27 février 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>February 14, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14 février 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>February 7, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7 février 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>January 31, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31 janvier 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>January 23, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">23 janvier 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>January 17, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">17 janvier 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>January 11, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">11 janvier 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>What's new archives 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nouvelles archives 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>December 14, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14 décembre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>December 6, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6 décembre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>November 27, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">27 novembre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>November 15, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">15 novembre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>October 31, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31 octobre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>October 19, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">19 octobre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>October 15, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">15 octobre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>October 8, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8 octobre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>October 1, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1er octobre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>September 24, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">24 septembre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>September 17, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">17 septembre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>September 10, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 septembre 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>August 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Août 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>July 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juillet 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>System requirements and update policy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration système et politique de mise à jour</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Provision Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mettre en service Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Remove Talent environments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Supprimer des environnements Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Provisioning for the Onboard app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mise en service pour l'application Onboard</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Embed PowerApps apps</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Incorporer les applications PowerApps</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Core HR and Common Data Service</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Core HR et Common Data Service</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Access preview features</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Accéder aux fonctionnalités d'aperçu</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Get support for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Obtenir de l'aide sur Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Staff your organization with Attract</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Dotation en personnel de votre organisation avec Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Which version of Attract?</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Quelle version de Attract ?</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Attract features and capabilities</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Fonctionnalités de Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Create a process template in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer un modèle de processus dans Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Create, approve, and post jobs in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Créer, approuver et publier des postes dans Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Post jobs to external career sites from Attract</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">Publier des postes sur des sites de carrière externes à partir de Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Source candidates by using talent pools</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Identifier des candidats avec les viviers de talents</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Sourcing with LinkedIn Recruiter</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Identification de candidats avec LinkedIn Recruiter</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Activities in the hiring processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Activités dans les processus de recrutement</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Interview scheduling and feedback</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Planification et commentaires sur les entretiens</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Extensibilité dans Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Career site functionality in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Fonctionnalité de site de carrière dans Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Set up offer management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Paramétrer la gestion des offres</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Create, approve, and sign offers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer, approuver et signer des offres</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Email templates</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modèles d'e-mail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Security and role management in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestion de la sécurité et des rôles dans Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Admin settings in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paramètres d'administration dans Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Intelligent recommendations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recommandations intelligentes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Create an engaging onboarding experience</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer une expérience d'intégration attractive</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Track sources for candidate profiles and applications</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Suivre les sources pour les profils de candidat et les candidatures</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Use analytic reports for hiring process insights</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Utiliser les états analytiques pour obtenir des informations sur le processus de recrutement</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Manage your workforce with Core HR</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Gérer votre personnel avec Core HR</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Organize your workforce</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Organisation du personnel</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Organize your workforce by using departments, jobs, and positions</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Organisation du personnel à l'aide des départements, tâches et postes</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Set up the components of a job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paramétrer les composants d'une tâche</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Create departments and include them in the department hierarchy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer des départements et les inclure dans la hiérarchie des départements</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Set up HR parameters across legal entities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration des paramètres RH dans les entités juridiques</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Set up company-specific HR parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurer les paramètres RH spécifiques à la société</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Personnel actions FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FAQ sur les actions du personnel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Formalize business processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Formaliser les processus d'entreprise</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Use workflows to manage employee information</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Utiliser des workflows pour gérer les informations relatives aux employés</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Set up number sequences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Définir des souches de numéros</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Number sequence overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Vue d'ensemble des souches de numéros</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Set up number sequences on an individual basis</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Paramétrer des souches de numéros sur une base individuelle</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Set up number sequences by using a wizard</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Configurer les souches de numéros à l'aide d'un assistant</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Configure organizations and organizational hierarchies</source><target logoport:matchpercent="84" state="translated" state-qualifier="fuzzy-match">Configurer les organisations et les hiérarchies d'organisation</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Organizations overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">Vue d'ensemble des organisations</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Plan your organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Planification de votre hiérarchie d'organisation</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Create an organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Créer une hiérarchie d'organisation</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Create a legal entity</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Créer une entité juridique</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Create an operating unit</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Créer une unité opérationnelle</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Set up a global address book</source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match">Définir un carnet d'adresses global</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Global address book overview</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Vue d'ensemble du carnet d'adresses global</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>Plan for the global address book and others</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Planifier le carnet d'adresses global et autres</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Configure the global address book</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Configurer le carnet d'adresses global</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Address books FAQ</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">FAQ sur les carnets d'adresses</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Configure workflows</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Configuration de workflows</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Workflow overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Vue d'ensemble du workflow</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Workflow elements</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Éléments du workflow</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Actions in workflow approval processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Actions dans les processus d'approbation d'un workflow</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Create workflows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer des workflows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Configure workflow properties</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration des propriétés de workflow</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Configure manual tasks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration de tâches manuelles</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Configure automated tasks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration de tâches automatiques</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Configure approval processes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration de processus d'approbation</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Configure approval steps</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration d'étapes d'approbation</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Configure manual decisions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration de décisions manuelles</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Configure conditional decisions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration de décisions conditionnelles</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Configure parallel activities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration d'activités parallèles</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Configure parallel branches</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration de branches parallèles</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Configure line-item workflows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration de workflows pour ligne</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Configure the message processing batch job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurer le traitement par lots du traitement des messages</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Delegate work items in a workflow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Délégation d'éléments de travail dans un workflow</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>View workflow history</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Afficher l'historique du workflow</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Enable users to receive workflow-related email messages</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Permettre aux utilisateurs de recevoir des e-mails liés au workflow</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Set up alerts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Paramétrer les alertes</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Alerts overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">Vue d'ensemble des alertes</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Create alert rules</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Créer des règles d'alerte</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>Batch processing of alerts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Traitement par lots des alertes</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Manage cases</source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match">Gérer les dossiers</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Case management overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Vue d'ensemble de la gestion des dossiers</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Plan case security, processes, and categories</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Planifier la sécurité, les processus, et les catégories d'incident</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Configure document management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Configurer la gestion des documents</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Configure and send email</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Configuration et envoi d'e-mail</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Date/time data and time zones</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Données de date/d'heure et fuseaux horaires</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Set up leave and absence</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Définir les congés et les absences</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Manage leave and absence</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Gérer les congés et les absences</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Leave and absence concepts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Concepts liés aux congés et absences</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Accrue time off based on hours worked</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Cumuler des congés sur la base des heures travaillées</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Working time calendars</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Calendriers de temps de travail</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Set up compensation plans</source><target logoport:matchpercent="79" state="translated" state-qualifier="fuzzy-match">Définir les régimes de rémunération</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Compensation plans overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">Vue d'ensemble des régimes de rémunération</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Create fixed compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Créer des régimes de rémunération fixe</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Create variable compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Créer des régimes de rémunération variable</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Process compensation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Traiter la rémunération</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Set up the components of a job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paramétrer les composants d'une tâche</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Develop and train employees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faire évoluer et former les employés</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Performance management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestion des performances</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Align workforce skills with business needs</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Aligner les qualifications du personnel aux besoins de l'entreprise</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Set up training courses</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Configurer des cours de formation</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Add to your performance journal and send praise to someone</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ajouter des informations à votre journal de performances et envoyer une récompense à une personne</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Create a goal</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Créer un objectif</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Create a performance review</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Créer une évaluation des performances</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Define and manage a benefits program</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Définir et gérer un programme social</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Define and manage a benefits program</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Définir et gérer un programme social</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Benefit eligibility policies</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stratégies de droit aux avantages</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Generate Affordable Care Act (ACA) reports</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Générer des états sur la Loi sur les soins abordables (ACA)</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Manage items lent to workers</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Gérer les articles prêtés aux collaborateurs</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Evaluate key metrics with questionnaires</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Évaluer les mesures principales avec des questionnaires</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Gather information with questionnaires</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Réunir des informations avec des questionnaires</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Design questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Créer des questionnaires</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Distribute and schedule questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Distribuer et programmer des questionnaires</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>View and evaluate the results of questionnaires</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afficher et évaluer les résultats des questionnaires</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Workplace safety and compliance (United States)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conformité et sécurité sur le lieu de travail (États-Unis)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Respond to a request for personal data in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Répondre à une demande de données personnelles dans Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Form I-9 employment verification</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Écran I-9 - Vérification d'emploi</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Comply with the ADA</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Se conformer à ADA</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Intégration</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Integrate with Dynamics 365 for Finance and Operations</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Intégration à Dynamics 365 for Finance and Operations</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Configure the payroll integration between Talent and Dayforce</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Configurer l'intégration de la paie entre Talent et Dayforce</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Data integration guidance for Dynamics 365 for Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instructions d'intégration des données pour Dynamics 365 for Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Integration FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FAQ sur l'intégration</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Recurring data export using Azure Logic apps</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Exportation des données récurrentes en utilisant Azure Logic Apps</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Office integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Intégration Office</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Office integration tutorial</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Didacticiel pour l'intégration Office</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Update entity data in Excel</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mettre à jour des données d'entité dans Excel</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Create Open in Excel experiences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Créer des expériences Ouvrir dans Excel</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Troubleshoot the Office integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Résoudre les problèmes d'intégration Office</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>Extensibility</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Extensibilité</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Embedded Power BI in workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Power BI intégré dans les espaces de travail</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Extend Talent by using PowerApps and Microsoft Flow - Example scenarios</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de scénarios</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Mobile app</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Application mobile</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>Mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Espaces de travail mobiles</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Company directory mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Espace de travail mobile Répertoire de la société</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>My team mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mon espace de travail mobile Équipe</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Publish mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Publier les espaces de travail mobiles</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>Track changes in recruiting data</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Suivre les modifications apportées aux données de recrutement</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Extensibilité dans Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Custom fields in Core HR</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Champs personnalisés dans Core HR</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Troubleshoot Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Résoudre les problèmes dans Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Analytic reports aren't updated</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Les états analytiques ne sont pas mis à jour</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Can't create an environment in the PowerApps Admin center</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Impossible de créer un environnement dans le centre d'administration PowerApps</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Talent client disconnects</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Déconnexion du client Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Avoid text truncation on the position hierarchy and export to Visio</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Run the compensation process</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exécuter le processus de rémunération</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>Save task guides to LCS and replay them</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Enregistrer les guides de tâches dans LCS et les rediffuser</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Access to private addresses by security role</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accéder aux adresses privées selon les rôles de sécurité</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Talent doesn't appear among the Microsoft Dynamics 365 apps (Common Data Service 1.0)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent ne figure pas dans les applications Microsoft Dynamics 365 (Common Data Service 1.0)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>User can access Core HR but not the Onboard or Attract app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'utilisateur peut accéder à Core HR mais pas à l'application Onboard ou Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Reporting options in Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Options de génération d'états dans Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Integration FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FAQ sur l'intégration</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Azure Active Directory users not found in People Picker</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisateurs Azure Active Directory introuvables dans le sélecteur de personnes</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

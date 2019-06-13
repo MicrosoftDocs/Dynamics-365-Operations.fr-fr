@@ -1,102 +1,186 @@
----
-title: Page d'accueil de gestion de la trésorerie et de la banque
-description: Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l'entité juridique et les instruments financiers qui y sont associés.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/26/2017
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: BankTreasurerWorkspace
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 21941
-ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
-ms.search.region: Global
-ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b09396c43864ae0797a737d84f981922bab6bbf5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508572"
----
-# <a name="cash-and-bank-management-home-page"></a>Page d'accueil de gestion de la trésorerie et de la banque
-
-[!include [banner](../includes/banner.md)]
-
-Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l'entité juridique et les instruments financiers qui y sont associés. 
-
-Ces instruments incluent des bordereaux de remise, des chèques, des lettres de change et des billets à ordre. Vous pouvez également rapprocher les relevés bancaires et imprimer les données bancaires dans les états standard.
-
-**Processus d'entreprise**
-
-[![Processus d'entreprise](./media/Cash-process.PNG)](./media/Cash-process.PNG)
-
--   [Escomptes de règlement](cash-discounts.md)
--   [Vue d'ensemble des règlements](settlement-overview.md)
--   [Configurer un règlement](configure-settlement.md)
--   [Réévaluation des comptes en devises pour la comptabilité fournisseur et la comptabilité client](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
--   [Lettres de crédit](letters-of-credit.md)
--   [Lettres de crédit et relances d'importation](letters-of-credit-import-collections.md)
--   [Lettre de garantie](letters-of-guarantee.md)
--   [Paramétrage de paiements centralisés](set-up-centralized-payments.md)
-
-### <a name="bank-reconciliation"></a>Rapprochement bancaire
-
--   [Vue d'ensemble du rapprochement bancaire avancé](advanced-bank-reconciliation-overview.md)
--   [Configurer le rapprochement bancaire avancé](configure-advanced-bank-reconciliation.md)
--   [Paramétrage de l'importation du rapprochement bancaire avancé](set-up-advanced-bank-reconciliation-import-process.md)
--   [Rapprochement de relevés bancaires à l'aide du rapprochement bancaire avancé](reconcile-bank-statements-advanced-bank-reconciliation.md)
--   [Configurer les règles de correspondance de rapprochement bancaire](set-up-bank-reconciliation-matching-rules.md)
-
-
-## <a name="accounts-payable-payments-and-settlements"></a>Paiements et règlements Comptabilité fournisseur
--   [Paiements centralisés de la comptabilité fournisseur](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Créer des factures fournisseur à l'aide d'une proposition de paiement](../accounts-payable/create-vendor-payments-payment-proposal.md)
--   [Contrepasser un paiement fournisseur](../accounts-payable/reverse-vendor-payment.md)
--   [Paiements fournisseur pour un montant partiel](../accounts-payable/vendor-payments-partial-amount.md)
--   [Vue d'ensemble des acomptes et des factures d’acompte](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Scénario : règlement d'un paiement fournisseur partiel et règlement total du paiement final avant la date de remise](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scénario : régler un paiement partiel fournisseur avant la date de remise avec un paiement final après la date de remise](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Scénario : régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Scénario : règlement d'un paiement fournisseur partiel avec plusieurs périodes de remise](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Scénario : utilisation d'une remise supérieure à la remise calculée pour un paiement fournisseur](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Scénario : prélever un escompte de règlement en dehors de la période d'escompte de règlement](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
-
-## <a name="accounts-receivable-payments-and-settlements"></a>Paiements et règlements de la comptabilité client
--   [Paiements centralisés de la comptabilité client](../accounts-receivable/centralized-payments-accounts-receivable.md)
--   [Paiements client pour un montant partiel](../accounts-receivable/customer-payments-partial-amount.md)
--   [Rembourser les clients](../accounts-receivable/reimburse-customers.md)
--   [Scénario : règlement automatique et attribution de priorités](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Scénario : traitement de l'escompte de règlement pour les trop-perçus](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Scénario : règlement d'un paiement client partiel et règlement total du paiement final avant la date de remise](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Scénario : régler un paiement partiel client avant la date de remise avec un paiement final après la date de remise](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Scénario : régler un paiement partiel client ayant des remises sur les avoirs](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Scénario : règlement d'un paiement client partiel avec plusieurs périodes de remise](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Scénario : utiliser un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-
-
-
-### <a name="additional-resources"></a>Ressources supplémentaires
-
-#### <a name="whats-new-and-in-development"></a>Nouveautés et développements
-
-Accédez aux [Notes de publication Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
-
-#### <a name="blogs"></a>Blogs
-
-Vous trouverez des avis, des actualités et d'autres informations sur le blog de [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)et le blog de [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
-
-Le [blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
-
-#### <a name="task-guides"></a>Guides de tâches
-Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.
-
-#### <a name="videos"></a>Vidéos
-
-Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="cash-bank-management.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>cash-bank-management.bc9b73.d15ff8add8a77c27a9f0153c9e881ecae3d9da78.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>d15ff8add8a77c27a9f0153c9e881ecae3d9da78</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\cash-bank-management\cash-bank-management.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Cash and bank management home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Page d'accueil de gestion de la trésorerie et de la banque</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l'entité juridique et les instruments financiers qui y sont associés.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Cash and bank management home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Page d'accueil de gestion de la trésorerie et de la banque</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l'entité juridique et les instruments financiers qui y sont associés.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>These instruments include deposit slips, checks, bills of exchange, and promissory notes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ces instruments incluent des bordereaux de remise, des chèques, des lettres de change et des billets à ordre.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>You can also reconcile bank statements and print bank data on standard reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également rapprocher les relevés bancaires et imprimer les données bancaires dans les états standard.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source><bpt id="p1">**</bpt>Business processes<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Processus d'entreprise<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Business process<ept id="p1">](./media/Cash-process.PNG)](./media/Cash-process.PNG)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Processus d'entreprise<ept id="p1">](./media/Cash-process.PNG)](./media/Cash-process.PNG)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source><bpt id="p1">[</bpt>Cash discounts<ept id="p1">](cash-discounts.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Escomptes de règlement<ept id="p1">](cash-discounts.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source><bpt id="p1">[</bpt>Settlement overview<ept id="p1">](settlement-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vue d'ensemble des règlements<ept id="p1">](settlement-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source><bpt id="p1">[</bpt>Configure settlement<ept id="p1">](configure-settlement.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Configurer un règlement<ept id="p1">](configure-settlement.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source><bpt id="p1">[</bpt>Foreign currency revaluation for Accounts payable and Accounts receivable<ept id="p1">](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Réévaluation des comptes en devises pour la comptabilité fournisseur et la comptabilité client<ept id="p1">](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Letters of credit<ept id="p1">](letters-of-credit.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Lettres de crédit<ept id="p1">](letters-of-credit.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">[</bpt>Letters of credit and import collections<ept id="p1">](letters-of-credit-import-collections.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Lettres de crédit et relances d'importation<ept id="p1">](letters-of-credit-import-collections.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">[</bpt>Letter of guarantee<ept id="p1">](letters-of-guarantee.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Lettre de garantie<ept id="p1">](letters-of-guarantee.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">[</bpt>Set up centralized payments<ept id="p1">](set-up-centralized-payments.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Paramétrage de paiements centralisés<ept id="p1">](set-up-centralized-payments.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Bank reconciliation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapprochement bancaire</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">[</bpt>Advanced bank reconciliation overview<ept id="p1">](advanced-bank-reconciliation-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vue d'ensemble du rapprochement bancaire avancé<ept id="p1">](advanced-bank-reconciliation-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source><bpt id="p1">[</bpt>Configure advanced bank reconciliation<ept id="p1">](configure-advanced-bank-reconciliation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Configurer le rapprochement bancaire avancé<ept id="p1">](configure-advanced-bank-reconciliation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">[</bpt>Set up the advanced bank reconciliation import<ept id="p1">](set-up-advanced-bank-reconciliation-import-process.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Paramétrage de l'importation du rapprochement bancaire avancé<ept id="p1">](set-up-advanced-bank-reconciliation-import-process.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">[</bpt>Reconcile bank statements using advanced bank reconciliation<ept id="p1">](reconcile-bank-statements-advanced-bank-reconciliation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Rapprochement de relevés bancaires à l'aide du rapprochement bancaire avancé<ept id="p1">](reconcile-bank-statements-advanced-bank-reconciliation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">[</bpt>Set up bank reconciliation matching rules<ept id="p1">](set-up-bank-reconciliation-matching-rules.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Configurer les règles de correspondance de rapprochement bancaire<ept id="p1">](set-up-bank-reconciliation-matching-rules.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Accounts payable payments and settlements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paiements et règlements Comptabilité fournisseur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">[</bpt>Centralized payments for Accounts payable<ept id="p1">](../accounts-payable/centralized-payments-accounts-payable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Paiements centralisés de la comptabilité fournisseur<ept id="p1">](../accounts-payable/centralized-payments-accounts-payable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">[</bpt>Create vendor invoices using a payment proposal<ept id="p1">](../accounts-payable/create-vendor-payments-payment-proposal.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Créer des factures fournisseur à l'aide d'une proposition de paiement<ept id="p1">](../accounts-payable/create-vendor-payments-payment-proposal.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Reverse a vendor payment<ept id="p1">](../accounts-payable/reverse-vendor-payment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Contrepasser un paiement fournisseur<ept id="p1">](../accounts-payable/reverse-vendor-payment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">[</bpt>Vendor payments for a partial amount<ept id="p1">](../accounts-payable/vendor-payments-partial-amount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Paiements fournisseur pour un montant partiel<ept id="p1">](../accounts-payable/vendor-payments-partial-amount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">[</bpt>Prepayment invoices and prepayments overview<ept id="p1">](../accounts-payable/prepayments-invoices-vs-prepayments.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vue d'ensemble des acomptes et des factures d’acompte<ept id="p1">](../accounts-payable/prepayments-invoices-vs-prepayments.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : règlement d'un paiement fournisseur partiel et règlement total du paiement final avant la date de remise<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : régler un paiement partiel fournisseur avant la date de remise avec un paiement final après la date de remise<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment that has discounts on vendor credit notes<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment that has multiple discount periods<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : règlement d'un paiement fournisseur partiel avec plusieurs périodes de remise<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">[</bpt>Scenario: Take a discount that is more than the calculated discount for a vendor payment<ept id="p1">](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : utilisation d'une remise supérieure à la remise calculée pour un paiement fournisseur<ept id="p1">](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">[</bpt>Scenario: Take a cash discount outside the cash discount period<ept id="p1">](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : prélever un escompte de règlement en dehors de la période d'escompte de règlement<ept id="p1">](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Accounts receivable payments and settlements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paiements et règlements de la comptabilité client</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">[</bpt>Centralized payments for Accounts receivable<ept id="p1">](../accounts-receivable/centralized-payments-accounts-receivable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Paiements centralisés de la comptabilité client<ept id="p1">](../accounts-receivable/centralized-payments-accounts-receivable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">[</bpt>Customer payments for a partial amount<ept id="p1">](../accounts-receivable/customer-payments-partial-amount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Paiements client pour un montant partiel<ept id="p1">](../accounts-receivable/customer-payments-partial-amount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>Reimburse customers<ept id="p1">](../accounts-receivable/reimburse-customers.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Rembourser les clients<ept id="p1">](../accounts-receivable/reimburse-customers.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt>Scenario: Automatic settlement and prioritization<ept id="p1">](../accounts-receivable/automatic-settlement-prioritization.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : règlement automatique et attribution de priorités<ept id="p1">](../accounts-receivable/automatic-settlement-prioritization.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">[</bpt>Scenario: Handling cash discount for overpayments<ept id="p1">](../cash-bank-management/cash-discount-handling-overpayments.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : traitement de l'escompte de règlement pour les trop-perçus<ept id="p1">](../cash-bank-management/cash-discount-handling-overpayments.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment and settle the final payment in full before the discount date<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : règlement d'un paiement client partiel et règlement total du paiement final avant la date de remise<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : régler un paiement partiel client avant la date de remise avec un paiement final après la date de remise<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment that has discounts on credit notes<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : régler un paiement partiel client ayant des remises sur les avoirs<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment that has multiple discount periods<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : règlement d'un paiement client partiel avec plusieurs périodes de remise<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source><bpt id="p1">[</bpt>Scenario: Use one customer payment to settle multiple invoice that span multiple discount periods<ept id="p1">](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scénario : utiliser un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise<ept id="p1">](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ressources supplémentaires</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>What's new and in development</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nouveautés et développements</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Go to the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> to see what new features have been planned.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez aux <bpt id="p1">[</bpt>Notes de publication Microsoft Dynamics 365<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> pour découvrir les nouvelles fonctions qui sont en cours de développement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Blogs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Blogs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>You can find opinions, news, and other information on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> and the <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials blog<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous trouverez des avis, des actualités et d'autres informations sur le blog de <bpt id="p1">[</bpt>Microsoft Dynamics 365<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept>et le blog de <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The <bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le <bpt id="p1">[</bpt>blog de la communauté de partenaires Microsoft Dynamics Operations<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Task guides</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Guides de tâches</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Additional help is available as task guides inside Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>To access task guides, click the Help button on any page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Videos</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vidéos</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel] (<ph id="ph1">https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365] (<ph id="ph1">https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ph>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
