@@ -1,67 +1,192 @@
----
-title: Copier des fournisseurs à l'aide de souches de numéros partagées
-description: Cette rubrique explique comment utiliser des souches de numéros partagées pour copier un fournisseur dans une autre entité juridique tout en conservant le même ID fournisseur.
-author: mikefalkner
-manager: aolson
-ms.date: 08/24/2018
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: VendTable
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: mikefalkner
-ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 14e361b38f417ee7017981f564eac1b12c93b9f5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508874"
----
-# <a name="copy-vendors-by-using-shared-number-sequences"></a><span data-ttu-id="4413b-103">Copier des fournisseurs à l'aide de souches de numéros partagées</span><span class="sxs-lookup"><span data-stu-id="4413b-103">Copy vendors by using shared number sequences</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="4413b-104">Vous pouvez utiliser des souches de numéros partagées pour affecter des ID fournisseur.</span><span class="sxs-lookup"><span data-stu-id="4413b-104">You can use shared number sequences to assign vendor IDs.</span></span> <span data-ttu-id="4413b-105">Les souches de numéros partagées vous permettent également de copier des fournisseurs d'une entité juridique à une autre tout en utilisant les mêmes ID fournisseur dans les deux entités juridiques.</span><span class="sxs-lookup"><span data-stu-id="4413b-105">Shared number sequences also let you copy vendors from one legal entity to another legal entity but use the same vendor IDs in both legal entities.</span></span>
-
-## <a name="setup"></a><span data-ttu-id="4413b-106">Configuration</span><span class="sxs-lookup"><span data-stu-id="4413b-106">Setup</span></span>
-
-<span data-ttu-id="4413b-107">La fonction est activée lorsque vous utilisez une souche de numéros partagée pour affecter des ID fournisseur.</span><span class="sxs-lookup"><span data-stu-id="4413b-107">The feature is activated when you use a shared number sequence to assign vendor IDs.</span></span> <span data-ttu-id="4413b-108">Vous devez utiliser la même souche de numéros dans chaque entité juridique dans laquelle vous souhaitez copier un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="4413b-108">You must use the same number sequence in every legal entity that you want to copy a vendor to.</span></span> <span data-ttu-id="4413b-109">Vous modifiez la souche de numéros fournisseur dans la page **Paramètres de la comptabilité fournisseur** pour chaque entité juridique.</span><span class="sxs-lookup"><span data-stu-id="4413b-109">You change the vendor number sequence on the **Accounts payable parameters** page for each legal entity.</span></span> <span data-ttu-id="4413b-110">Sélectionnez **Comptabilité fournisseur** \> **Paramétrage** \> **Paramètres de la comptabilité fournisseur**, puis sélectionnez l'onglet **Souches de numéros**.</span><span class="sxs-lookup"><span data-stu-id="4413b-110">Select **Accounts payable** \> **Setup** \> **Accounts payable parameters**, and then select the **Number sequences** tab.</span></span>
-
-<span data-ttu-id="4413b-111">Vous pouvez également paramétrer des souches de numéros fournisseur pour chaque groupe de fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="4413b-111">You can also set up vendor number sequences for each vendor group.</span></span> <span data-ttu-id="4413b-112">Ces souches de numéros doivent également être partagées.</span><span class="sxs-lookup"><span data-stu-id="4413b-112">These number sequences must also be shared.</span></span> <span data-ttu-id="4413b-113">La souche de numéros d'un groupe de fournisseurs est utilisée en premier.</span><span class="sxs-lookup"><span data-stu-id="4413b-113">The number sequence for a vendor group is used first.</span></span> <span data-ttu-id="4413b-114">Si aucune souche de numéros n'est spécifiée pour un groupe de fournisseurs, la souche de numéros spécifiée dans la page **Paramètres de la comptabilité fournisseur** est utilisée.</span><span class="sxs-lookup"><span data-stu-id="4413b-114">If no number sequence is specified for a vendor group, the number sequence that is specified on the **Accounts payable parameters** page is used.</span></span>
-
-<span data-ttu-id="4413b-115">Vous pouvez également copier des fournisseurs entre entités juridiques si vous utilisez des ID fournisseur manuels.</span><span class="sxs-lookup"><span data-stu-id="4413b-115">You can also copy vendors between legal entities if you use manual vendor IDs.</span></span> <span data-ttu-id="4413b-116">Toutefois, si vous tentez de copier un fournisseur dans une entité juridique où l'ID fournisseur existe déjà, le processus de copie ne démarrera pas.</span><span class="sxs-lookup"><span data-stu-id="4413b-116">However, if you try to copy a vendor to a legal entity where the vendor ID already exists, the copy process won't be started.</span></span>
-
-## <a name="copy-a-vendor"></a><span data-ttu-id="4413b-117">Copier un fournisseur</span><span class="sxs-lookup"><span data-stu-id="4413b-117">Copy a vendor</span></span>
-
-<span data-ttu-id="4413b-118">Pour copier un fournisseur, sélectionnez **Nouveau** dans la page de liste **Tous les fournisseurs** pour ouvrir la page **Tous les fournisseurs, nouvel enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="4413b-118">To copy a vendor, select **New** on the **All vendors** list page to open the **All vendors, new record** page.</span></span> <span data-ttu-id="4413b-119">Notez que le nouvel ID fournisseur n'est pas affecté immédiatement.</span><span class="sxs-lookup"><span data-stu-id="4413b-119">Notice that the new vendor ID isn't assigned immediately.</span></span> <span data-ttu-id="4413b-120">Ce comportement est différent du comportement dans les versions précédentes de Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4413b-120">This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="4413b-121">Comme vous n'avez pas encore sélectionné le groupe de fournisseurs, le système ne peut pas déterminer la souche de numéros appropriée à utiliser.</span><span class="sxs-lookup"><span data-stu-id="4413b-121">Because you haven't yet selected the vendor group, the system can't determine the correct number sequence to use.</span></span> <span data-ttu-id="4413b-122">En outre, il ne peut pas déterminer si vous essayez de créer un fournisseur ou de copier un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="4413b-122">Additionally, it can't determine whether you're trying to create a new vendor or copy a vendor.</span></span> <span data-ttu-id="4413b-123">Par conséquent, l'ID fournisseur n'est pas affecté tant que vous ne cliquez pas sur **Enregistrer** en bas de la page.</span><span class="sxs-lookup"><span data-stu-id="4413b-123">Therefore, the vendor ID isn't assigned until you select **Save** at the bottom of the page.</span></span>
-
-<span data-ttu-id="4413b-124">Si vous créez un nouveau fournisseur, vous pouvez continuer à renseigner tous les champs comme vous le faites habituellement.</span><span class="sxs-lookup"><span data-stu-id="4413b-124">If you're creating a new vendor, you can continue to fill in all the fields as you usually do.</span></span> <span data-ttu-id="4413b-125">Lorsque vous avez terminé et que vous cliquez sur **Enregistrer**, vous verrez que l'ID fournisseur a été affecté automatiquement.</span><span class="sxs-lookup"><span data-stu-id="4413b-125">When you've finished, and you select **Save**, you will see that the vendor ID was assigned automatically.</span></span> <span data-ttu-id="4413b-126">Sinon, pour les souches de numéros manuelles, vous verrez que votre ID fournisseur manuel a été utilisé.</span><span class="sxs-lookup"><span data-stu-id="4413b-126">Alternatively, for manual number sequences, you will see that your manual vendor ID was used.</span></span>
-
-<span data-ttu-id="4413b-127">Pour copier un fournisseur, dans le champ **Nom**, entrez un ou plusieurs caractères qui représentent le fournisseur que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="4413b-127">To copy a vendor, in the **Name** field, enter one or more characters that represent the vendor that you're looking for.</span></span> <span data-ttu-id="4413b-128">Une boîte de dialogue de recherche affiche une liste de parties qui peuvent représenter le fournisseur que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="4413b-128">A search dialog box shows a list of parties that might represent the vendor that you're looking for.</span></span> <span data-ttu-id="4413b-129">Lorsque vous sélectionnez une des parties, des informations supplémentaires s'affichent à droite de la boîte de dialogue :</span><span class="sxs-lookup"><span data-stu-id="4413b-129">When you select one of the parties, additional information appears on the right side of the dialog box:</span></span>
-
-- <span data-ttu-id="4413b-130">L'onglet **Général** affiche le numéro de téléphone et l'adresse de la partie.</span><span class="sxs-lookup"><span data-stu-id="4413b-130">The **General** tab shows the party's phone number and address.</span></span>
-- <span data-ttu-id="4413b-131">L'onglet **Rôles** affiche les rôles disponibles pour la partie sélectionnée et l'entité juridique où se trouve chaque rôle.</span><span class="sxs-lookup"><span data-stu-id="4413b-131">The **Roles** tab shows the roles that the selected party can have and the legal entity where it has each role.</span></span>
-- <span data-ttu-id="4413b-132">L'onglet **ID enregistrement de taxe** affiche les ID enregistrement de taxe affectés à la partie.</span><span class="sxs-lookup"><span data-stu-id="4413b-132">**Tax registration ID** tab shows the tax registration IDs that are assigned to the party.</span></span>
-
-<span data-ttu-id="4413b-133">Vous pouvez copier une partie uniquement si un rôle fournisseur lui est affecté et si ce rôle se trouve dans une entité juridique qui n'est pas l'entité juridique actuelle.</span><span class="sxs-lookup"><span data-stu-id="4413b-133">You can copy a party only if it has a vendor role, and if it has that role in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="4413b-134">Lorsque vous trouvez une partie qui répond à ces critères, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="4413b-134">When you find a party that meets these criteria, follow these steps.</span></span>
-
-1. <span data-ttu-id="4413b-135">L'option **Copier un fournisseur** s'affiche.</span><span class="sxs-lookup"><span data-stu-id="4413b-135">A **Copy vendor** option appears.</span></span> <span data-ttu-id="4413b-136">Par défaut, cette option est définie sur **Non**.</span><span class="sxs-lookup"><span data-stu-id="4413b-136">By default, this option is set to **No**.</span></span> <span data-ttu-id="4413b-137">Pour copier le fournisseur dans l'entité juridique actuelle, définissez l'option sur **Oui**.</span><span class="sxs-lookup"><span data-stu-id="4413b-137">To copy the vendor to the current legal entity, set the option to **Yes**.</span></span> 
-2. <span data-ttu-id="4413b-138">Le champ **Entité juridique** s'affiche.</span><span class="sxs-lookup"><span data-stu-id="4413b-138">A **Legal entity** field appears.</span></span> <span data-ttu-id="4413b-139">Sélectionnez l'entité juridique à partir de laquelle copier le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="4413b-139">Select the legal entity to copy the vendor from.</span></span> <span data-ttu-id="4413b-140">Si le fournisseur existe dans une seule entité juridique, le champ est défini sur cette entité juridique par défaut.</span><span class="sxs-lookup"><span data-stu-id="4413b-140">If the vendor exists in only one legal entity, the field is set to that legal entity by default.</span></span>
-3. <span data-ttu-id="4413b-141">Cliquez sur **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="4413b-141">Select **Select**.</span></span> <span data-ttu-id="4413b-142">Le nouveau fournisseur est créé.</span><span class="sxs-lookup"><span data-stu-id="4413b-142">The new vendor is created.</span></span>
-
-## <a name="validation"></a><span data-ttu-id="4413b-143">Validation</span><span class="sxs-lookup"><span data-stu-id="4413b-143">Validation</span></span>
-
-<span data-ttu-id="4413b-144">Lorsque vous copiez un fournisseur, le système essaie d'enregistrer les nouvelles informations sur le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="4413b-144">When you copy a vendor, the system tries to save the new vendor information.</span></span> <span data-ttu-id="4413b-145">Les validations sont exécutées pour vérifier que les données copiées sont correctes.</span><span class="sxs-lookup"><span data-stu-id="4413b-145">Validations are run to verify that the data that was copied is good.</span></span> <span data-ttu-id="4413b-146">Vous recevez un message d'erreur pour chaque validation qui échoue.</span><span class="sxs-lookup"><span data-stu-id="4413b-146">You receive an error message for every validation that fails.</span></span> <span data-ttu-id="4413b-147">Les messages d'erreur expliquent quelles informations doivent être mises à jour.</span><span class="sxs-lookup"><span data-stu-id="4413b-147">The error messages explain what information must be updated.</span></span> <span data-ttu-id="4413b-148">La copie du fournisseur ne peut pas être enregistrée tant que vous ne résolvez pas toutes les erreurs de validation.</span><span class="sxs-lookup"><span data-stu-id="4413b-148">The copy of the vendor can't be saved until you fix all the validation errors.</span></span>
-
-## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a><span data-ttu-id="4413b-149">Copie d'un fournisseur à l'aide de la fonction de recherche du numéro identifiant TVA</span><span class="sxs-lookup"><span data-stu-id="4413b-149">Copy a vendor by using the Tax exempt number search feature</span></span>
-
-<span data-ttu-id="4413b-150">Vous pouvez également copier des fournisseurs à l'aide de la fonction de recherche du numéro identifiant TVA qui est disponible dans le groupe **Enregistrement** sous l'onglet **Fournisseurs** du volet Actions de la page **Tous les fournisseurs**.</span><span class="sxs-lookup"><span data-stu-id="4413b-150">You can also copy vendors by using the Tax exempt number search feature that is in the **Registration** group on the **Vendor** tab on the Action Pane of the **All vendors** page.</span></span> <span data-ttu-id="4413b-151">La boîte de dialogue **Recherche du numéro identifiant TVA** qui s'affiche répertorie les numéros identifiant TVA, l'ID fournisseur, le nom du fournisseur et l'entité juridique où l'ID identifiant TVA est utilisé.</span><span class="sxs-lookup"><span data-stu-id="4413b-151">The **Tax exempt number search** dialog box that appears shows tax exempt numbers, the vendor ID, the vendor name, and the legal entity where the tax exempt ID is used.</span></span> <span data-ttu-id="4413b-152">Vous pouvez copier un fournisseur uniquement s'il se trouve dans une entité juridique qui n'est pas l'entité juridique actuelle.</span><span class="sxs-lookup"><span data-stu-id="4413b-152">You can copy a vendor only if it's in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="4413b-153">Après avoir sélectionné un fournisseur qui répond à ce critère, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="4413b-153">After you select a vendor that meets this criterion, follow these steps.</span></span>
-
-1. <span data-ttu-id="4413b-154">L'option **Copier un fournisseur** s'affiche.</span><span class="sxs-lookup"><span data-stu-id="4413b-154">A **Copy vendor** option appears.</span></span> <span data-ttu-id="4413b-155">Par défaut, cette option est définie sur **Non**.</span><span class="sxs-lookup"><span data-stu-id="4413b-155">By default, this option is set to **No**.</span></span> <span data-ttu-id="4413b-156">Pour copier le fournisseur dans l'entité juridique actuelle, définissez l'option sur **Oui**.</span><span class="sxs-lookup"><span data-stu-id="4413b-156">To copy the vendor to the current legal entity, set the option to **Yes**.</span></span>
-2. <span data-ttu-id="4413b-157">Cliquez sur **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="4413b-157">Select **Select**.</span></span> <span data-ttu-id="4413b-158">Le nouveau fournisseur est créé.</span><span class="sxs-lookup"><span data-stu-id="4413b-158">The new vendor is created.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="vendor-copy.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>vendor-copy.deb9a6.0c492cd76fc9742aa4cff8fe588541cb2c6f1863.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>0c492cd76fc9742aa4cff8fe588541cb2c6f1863</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\accounts-payable\vendor-copy.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Copy vendors by using shared number sequences</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copier des fournisseurs à l'aide de souches de numéros partagées</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to use shared number sequences to copy a vendor to another legal entity but keep the same vendor ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique explique comment utiliser des souches de numéros partagées pour copier un fournisseur dans une autre entité juridique tout en conservant le même ID fournisseur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Copy vendors by using shared number sequences</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copier des fournisseurs à l'aide de souches de numéros partagées</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can use shared number sequences to assign vendor IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez utiliser des souches de numéros partagées pour affecter des ID fournisseur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Shared number sequences also let you copy vendors from one legal entity to another legal entity but use the same vendor IDs in both legal entities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les souches de numéros partagées vous permettent également de copier des fournisseurs d'une entité juridique à une autre tout en utilisant les mêmes ID fournisseur dans les deux entités juridiques.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Setup</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuration</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The feature is activated when you use a shared number sequence to assign vendor IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La fonction est activée lorsque vous utilisez une souche de numéros partagée pour affecter des ID fournisseur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>You must use the same number sequence in every legal entity that you want to copy a vendor to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous devez utiliser la même souche de numéros dans chaque entité juridique dans laquelle vous souhaitez copier un fournisseur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>You change the vendor number sequence on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept> page for each legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous modifiez la souche de numéros fournisseur dans la page <bpt id="p1">**</bpt>Paramètres de la comptabilité fournisseur<ept id="p1">**</ept> pour chaque entité juridique.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Accounts payable parameters<ept id="p3">**</ept>, and then select the <bpt id="p4">**</bpt>Number sequences<ept id="p4">**</ept> tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Comptabilité fournisseur<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Paramétrage<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Paramètres de la comptabilité fournisseur<ept id="p3">**</ept>, puis sélectionnez l'onglet <bpt id="p4">**</bpt>Souches de numéros<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>You can also set up vendor number sequences for each vendor group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également paramétrer des souches de numéros fournisseur pour chaque groupe de fournisseurs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>These number sequences must also be shared.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ces souches de numéros doivent également être partagées.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>The number sequence for a vendor group is used first.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La souche de numéros d'un groupe de fournisseurs est utilisée en premier.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>If no number sequence is specified for a vendor group, the number sequence that is specified on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept> page is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si aucune souche de numéros n'est spécifiée pour un groupe de fournisseurs, la souche de numéros spécifiée dans la page <bpt id="p1">**</bpt>Paramètres de la comptabilité fournisseur<ept id="p1">**</ept> est utilisée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>You can also copy vendors between legal entities if you use manual vendor IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également copier des fournisseurs entre entités juridiques si vous utilisez des ID fournisseur manuels.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>However, if you try to copy a vendor to a legal entity where the vendor ID already exists, the copy process won't be started.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toutefois, si vous tentez de copier un fournisseur dans une entité juridique où l'ID fournisseur existe déjà, le processus de copie ne démarrera pas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Copy a vendor</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copier un fournisseur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>To copy a vendor, select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>All vendors<ept id="p2">**</ept> list page to open the <bpt id="p3">**</bpt>All vendors, new record<ept id="p3">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour copier un fournisseur, sélectionnez <bpt id="p1">**</bpt>Nouveau<ept id="p1">**</ept> dans la page de liste <bpt id="p2">**</bpt>Tous les fournisseurs<ept id="p2">**</ept> pour ouvrir la page <bpt id="p3">**</bpt>Tous les fournisseurs, nouvel enregistrement<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Notice that the new vendor ID isn't assigned immediately.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notez que le nouvel ID fournisseur n'est pas affecté immédiatement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ce comportement est différent du comportement dans les versions précédentes de Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Because you haven't yet selected the vendor group, the system can't determine the correct number sequence to use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comme vous n'avez pas encore sélectionné le groupe de fournisseurs, le système ne peut pas déterminer la souche de numéros appropriée à utiliser.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Additionally, it can't determine whether you're trying to create a new vendor or copy a vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En outre, il ne peut pas déterminer si vous essayez de créer un fournisseur ou de copier un fournisseur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Therefore, the vendor ID isn't assigned until you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> at the bottom of the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par conséquent, l'ID fournisseur n'est pas affecté tant que vous ne cliquez pas sur <bpt id="p1">**</bpt>Enregistrer<ept id="p1">**</ept> en bas de la page.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>If you're creating a new vendor, you can continue to fill in all the fields as you usually do.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous créez un nouveau fournisseur, vous pouvez continuer à renseigner tous les champs comme vous le faites habituellement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>When you've finished, and you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>, you will see that the vendor ID was assigned automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous avez terminé et que vous cliquez sur <bpt id="p1">**</bpt>Enregistrer<ept id="p1">**</ept>, vous verrez que l'ID fournisseur a été affecté automatiquement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Alternatively, for manual number sequences, you will see that your manual vendor ID was used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sinon, pour les souches de numéros manuelles, vous verrez que votre ID fournisseur manuel a été utilisé.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>To copy a vendor, in the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter one or more characters that represent the vendor that you're looking for.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour copier un fournisseur, dans le champ <bpt id="p1">**</bpt>Nom<ept id="p1">**</ept>, entrez un ou plusieurs caractères qui représentent le fournisseur que vous recherchez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>A search dialog box shows a list of parties that might represent the vendor that you're looking for.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une boîte de dialogue de recherche affiche une liste de parties qui peuvent représenter le fournisseur que vous recherchez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>When you select one of the parties, additional information appears on the right side of the dialog box:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous sélectionnez une des parties, des informations supplémentaires s'affichent à droite de la boîte de dialogue :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>The <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab shows the party's phone number and address.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'onglet <bpt id="p1">**</bpt>Général<ept id="p1">**</ept> affiche le numéro de téléphone et l'adresse de la partie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>The <bpt id="p1">**</bpt>Roles<ept id="p1">**</ept> tab shows the roles that the selected party can have and the legal entity where it has each role.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'onglet <bpt id="p1">**</bpt>Rôles<ept id="p1">**</ept> affiche les rôles disponibles pour la partie sélectionnée et l'entité juridique où se trouve chaque rôle.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">**</bpt>Tax registration ID<ept id="p1">**</ept> tab shows the tax registration IDs that are assigned to the party.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'onglet <bpt id="p1">**</bpt>ID enregistrement de taxe<ept id="p1">**</ept> affiche les ID enregistrement de taxe affectés à la partie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>You can copy a party only if it has a vendor role, and if it has that role in a legal entity that isn't the current legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez copier une partie uniquement si un rôle fournisseur lui est affecté et si ce rôle se trouve dans une entité juridique qui n'est pas l'entité juridique actuelle.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>When you find a party that meets these criteria, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous trouvez une partie qui répond à ces critères, procédez comme suit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>A <bpt id="p1">**</bpt>Copy vendor<ept id="p1">**</ept> option appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'option <bpt id="p1">**</bpt>Copier un fournisseur<ept id="p1">**</ept> s'affiche.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par défaut, cette option est définie sur <bpt id="p1">**</bpt>Non<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>To copy the vendor to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour copier le fournisseur dans l'entité juridique actuelle, définissez l'option sur <bpt id="p1">**</bpt>Oui<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>A <bpt id="p1">**</bpt>Legal entity<ept id="p1">**</ept> field appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le champ <bpt id="p1">**</bpt>Entité juridique<ept id="p1">**</ept> s'affiche.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Select the legal entity to copy the vendor from.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez l'entité juridique à partir de laquelle copier le fournisseur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>If the vendor exists in only one legal entity, the field is set to that legal entity by default.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si le fournisseur existe dans une seule entité juridique, le champ est défini sur cette entité juridique par défaut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur <bpt id="p1">**</bpt>Sélectionner<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The new vendor is created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le nouveau fournisseur est créé.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Validation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Validation</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>When you copy a vendor, the system tries to save the new vendor information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous copiez un fournisseur, le système essaie d'enregistrer les nouvelles informations sur le fournisseur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Validations are run to verify that the data that was copied is good.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les validations sont exécutées pour vérifier que les données copiées sont correctes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>You receive an error message for every validation that fails.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous recevez un message d'erreur pour chaque validation qui échoue.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>The error messages explain what information must be updated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les messages d'erreur expliquent quelles informations doivent être mises à jour.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The copy of the vendor can't be saved until you fix all the validation errors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La copie du fournisseur ne peut pas être enregistrée tant que vous ne résolvez pas toutes les erreurs de validation.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Copy a vendor by using the Tax exempt number search feature</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copie d'un fournisseur à l'aide de la fonction de recherche du numéro identifiant TVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>You can also copy vendors by using the Tax exempt number search feature that is in the <bpt id="p1">**</bpt>Registration<ept id="p1">**</ept> group on the <bpt id="p2">**</bpt>Vendor<ept id="p2">**</ept> tab on the Action Pane of the <bpt id="p3">**</bpt>All vendors<ept id="p3">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également copier des fournisseurs à l'aide de la fonction de recherche du numéro identifiant TVA qui est disponible dans le groupe <bpt id="p1">**</bpt>Enregistrement<ept id="p1">**</ept> sous l'onglet <bpt id="p2">**</bpt>Fournisseurs<ept id="p2">**</ept> du volet Actions de la page <bpt id="p3">**</bpt>Tous les fournisseurs<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The <bpt id="p1">**</bpt>Tax exempt number search<ept id="p1">**</ept> dialog box that appears shows tax exempt numbers, the vendor ID, the vendor name, and the legal entity where the tax exempt ID is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La boîte de dialogue <bpt id="p1">**</bpt>Recherche du numéro identifiant TVA<ept id="p1">**</ept> qui s'affiche répertorie les numéros identifiant TVA, l'ID fournisseur, le nom du fournisseur et l'entité juridique où l'ID identifiant TVA est utilisé.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>You can copy a vendor only if it's in a legal entity that isn't the current legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez copier un fournisseur uniquement s'il se trouve dans une entité juridique qui n'est pas l'entité juridique actuelle.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>After you select a vendor that meets this criterion, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Après avoir sélectionné un fournisseur qui répond à ce critère, procédez comme suit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>A <bpt id="p1">**</bpt>Copy vendor<ept id="p1">**</ept> option appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'option <bpt id="p1">**</bpt>Copier un fournisseur<ept id="p1">**</ept> s'affiche.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par défaut, cette option est définie sur <bpt id="p1">**</bpt>Non<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>To copy the vendor to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour copier le fournisseur dans l'entité juridique actuelle, définissez l'option sur <bpt id="p1">**</bpt>Oui<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur <bpt id="p1">**</bpt>Sélectionner<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>The new vendor is created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le nouveau fournisseur est créé.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
