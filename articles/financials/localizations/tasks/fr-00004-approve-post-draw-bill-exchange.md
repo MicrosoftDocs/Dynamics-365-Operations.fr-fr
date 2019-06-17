@@ -1,48 +1,66 @@
----
-title: FR-00004 Approuver et valider la création des lettres de change client
-description: Cette procédure vous guide dans l'approbation et la validation des lettres de change.
-author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: LedgerJournalTable, LedgerJournalTransCustBillOfExchange, CustBillOfExchangeJour
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: France
-ms.author: epopov
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a659a81444a8536f4c925896335fc3aa45cce404
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537915"
----
-# <a name="fr-00004-approve-and-post-draw-bill-of-exchange"></a>FR-00004 Approuver et valider la création des lettres de change client
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-Cette procédure vous guide dans l'approbation et la validation des lettres de change.
-
-Cette procédure a été créée à l'aide des données fictives de la société FRSI. 
-
-Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.
-
-
-
-1. Accédez à Comptabilité client > Paiements > Lettre de change > Journal de création des lettres de change.
-2. Dans la liste, marquez la ligne sélectionnée.
-    * Sélectionnez le numéro de lot du journal le plus élevé.  
-3. Cliquez sur Lignes.
-4. Dans la liste, marquez la ligne sélectionnée.
-5. Cliquez sur Statut de paiement.
-6. Cliquez sur Approuvé.
-7. Cliquez sur OK.
-8. Cliquez sur Valider.
-9. Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="fr-00004-approve-post-draw-bill-exchange.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>fr-00004-approve-post-draw-bill-exchange.befe6a.6e0d81a0dfd869345f2556f8425c722f66ee8770.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>6e0d81a0dfd869345f2556f8425c722f66ee8770</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\fr-00004-approve-post-draw-bill-exchange.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>FR-00004 Approve and post draw bill of exchange</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00004 Approuver et valider la création des lettres de change client</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks you through approval and posting Bill of Exchange.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure vous guide dans l'approbation et la validation des lettres de change.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>FR-00004 Approve and post draw bill of exchange</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00004 Approuver et valider la création des lettres de change client</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks you through approval and posting Bill of Exchange.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure vous guide dans l'approbation et la validation des lettres de change.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure was created using the demo data company FRSI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This functionality is available for legal entities whose primary address is in France.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Go to Accounts receivable &gt; Payments &gt; Bill of exchange &gt; Draw bill of exchange journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Paiements &gt; Lettre de change &gt; Journal de création des lettres de change.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquez la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Select the highest journal batch number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le numéro de lot du journal le plus élevé.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Click Lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Lignes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquez la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Click Payment status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Statut de paiement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Click Approved.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Approuvé.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Click Post.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Valider.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Go to Accounts receivable &gt; Inquiries and reports &gt; Payments &gt; Bill of exchange journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Recherches et états &gt; Paiements &gt; Journal des lettres de change.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,115 +1,219 @@
----
-title: Publication d'emplois sur des sites de carrière externes à partir d'Attract
-description: Cette rubrique explique comment utiliser Dynamics 365 for Talent - Attract pour publier des offres d'emploi sur des sites de recrutement externes
-author: pganapmsft
-manager: AnnBe
-ms.date: 03/20/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-talent
-ms.technology: ''
-audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Talent
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.author: anbichse
-ms.search.validFrom: 2019-03-19
-ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517999"
----
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Publication d'emplois sur des sites de carrière externes à partir d'Attract
-
-[!include [banner](../includes/banner.md)]
-
-Vous souhaitez présenter vos postes vacants à autant de candidats qualifiés que possible. Les sites de recrutement comme Broadbean vous aident à y parvenir. Microsoft Dynamics 365 Talent - Attract vous permet désormais de publier des offres sur Broadbean, et Microsoft propose continuellement de nouvelles options dans ce domaine.
-
-## <a name="post-jobs-to-broadbean"></a>Publier des offres sur Broadbean
-
-Avant de publier des offres sur Broadbean, vous devez configurer l'intégration de Broadbean.
-
-> [!NOTE]
-> - Pour publier des offres sur des sites externes, vous devez avoir le [Module complémentaire Recrutement complet](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Cette fonctionnalité est actuellement en mode aperçu. Si vous souhaitez l'essayer, vous devez [l'activer dans les paramètres administrateur d'Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
-
-### <a name="configure-broadbean-integration"></a>Configurer l'intégration de Broadbean
-
-1. Connectez-vous à Attract en tant qu'administrateur.
-2. Sélectionnez le bouton **Paramètres** (le symbole d'engrenage) dans le coin supérieur droit de la page, puis sélectionnez **Centre d'administration**.
-3. Dans l'onglet **Paramètres des offres d'emploi**, dans la section **Activer l'intégration de Broadbean**, activez l'intégration.
-4. Contactez Broadbean, puis entrez vos informations dans **Nom d'utilisateur, ID client, jeton de chiffrement**.
-
-> [!WARNING]
-> Les informations d'identification Broadbean sont précieuses et confidentielles. Conservez-les et partagez-les de manière responsable en conséquence. Toute personne disposant du rôle Administrateur dans Attract peut afficher ces informations d'identification.
-
-> [!NOTE]
-> Microsoft et Attract ne sont pas impliqués dans la création et la conservation de ces valeurs. Il est de votre responsabilité de les garder à jour dans Attract et de faire appel à Broadbean pour résoudre éventuels les problèmes impliquant vos informations d'identification.
-
-### <a name="post-a-job-to-broadbean"></a>Publication d'une offre sur Broadbean
-
-Une fois Broadbean activé, les recruteurs et les administrateurs peuvent y publier une offre d'emploi. Vous devez posséder une URL de candidature pour l'emploi.
-
-1. Dans Attract, ouvrez l'emploi que vous souhaitez publier dans Broadbean.
-2. Dans la section **Publications**, sélectionnez le bouton **Publier maintenant** correspondant à Broadbean.
-3. Suivez les instructions de la fenêtre Broadbean.
-
-Attract transmet les informations suivantes à Broadbean :
-
-- ID demande
-- Titre du poste
-- Description du poste
-- Emplacement du poste
-- URL de candidature
-- Informations sur le recruteur
-
-Une fois la publication terminée avec succès dans Broadbean, la section **Validations** de l'emploi dans Attract affiche le statut de Broadbean comme **Publié**.
-
-> [!NOTE]
-> - Broadbean nécessite le champ **Secteur**. Actuellement, ce champ est défini sur **IT** par défaut. Toutefois, vous pouvez modifier la valeur sur le secteur approprié dans la fenêtre de publication d'emploi dans Broadbean.
-> - Il faut un certain temps pour que Broadbean mène à bien la publication de votre offre sur tous les sites d'emplois que vous avez sélectionnés. Par conséquent, il peut y avoir un léger délai avant qu'Attract ne mette à jour le statut de l'offre d'emploi.
-
-### <a name="view-a-broadbean-job-posting"></a>Afficher une publication d'offre d'emploi Broadbean
-
-Après avoir publié une offre dans Broadbean, vous pouvez la voir depuis Attract.
-
-1. Dans Attract, ouvrez l'emploi que vous souhaitez afficher dans Broadbean.
-2. Dans la section **Publications**, sélectionnez le bouton représentant des points de suspension (**...**) qui correspond Broadbean, puis sélectionnez **Afficher**.
-
-La publication d'offre d'emploi Broadbean apparaît dans une nouvelle fenêtre.
-
-### <a name="update-a-broadbean-job-posting"></a>Mise à jour d'une publication d'offre d'emploi Broadbean
-
-Vous pouvez mettre à jour une publication d'offre d'emploi Broadbean de deux manières.
-
-1. Dans Attract, ouvrez l'emploi que vous souhaitez mettre à jour.
-2. Dans la section **Publications**, sélectionnez le bouton **Mettre à jour la publication** correspondant à Broadbean.
-3. Modifiez la publication dans la fenêtre Broadbean.
-
-- ou -
-
-1. Dans Attract, ouvrez l'emploi que vous souhaitez afficher dans Broadbean.
-2. Dans la section **Publications**, sélectionnez le bouton représentant des points de suspension (**...**) qui correspond Broadbean, puis sélectionnez **Afficher**.
-3. Dans la fenêtre Broadbean, modifiez les détails de l'emploi, puis publiez à nouveau l'offre d'emploi. Les détails de l'emploi dans Attract ne sont pas modifiés.
-
-### <a name="remove-a-broadbean-job-posting"></a>Supprimer une publication d'offre d'emploi Broadbean
-
-Vous pouvez supprimer une publication d'offre d'emploi de Broadbean comme bon vous semble.
-
-1. Dans Attract, ouvrez l'emploi que vous souhaitez supprimer.
-2. Dans la section **Publications**, sélectionnez le bouton représentant des points de suspension (**...**) qui correspond Broadbean, puis sélectionnez **Supprimer la publication**.
-
-Une fois que Broadbean a supprimé l'offre d'emploi, l'article Broadbean dans Attract a un bouton **Publier maintenant**. La présence de ce bouton indique que l'offre d'emploi a été supprimée et peut être publiée de nouveau.
-
-### <a name="troubleshoot-the-broadbean-integration"></a>Résoudre les problèmes d'intégration de Broadbean
-
-Si vous avez des problèmes pour publier une offre d'emploi sur Broadbean, essayez ce qui suit.
-
-1. Vérifiez que les informations d'identification Broadbean entrées dans Attract sont valides et correctes.
-2. Si les informations d'identification sont valides et cerrectes, contactez le [Support Broadbean](https://www.broadbean.com/resources/support/).
-3. Si le problème persiste, contactez le [Support Microsoft](./talent-support.md).
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="posting-jobs-external.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>posting-jobs-external.8aa4da.9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>cadce85ca3004d53caf6bc49147a524c1bfd421f</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/16/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\talent\posting-jobs-external.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Post jobs to external career sites from Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Publication d'emplois sur des sites de carrière externes à partir d'Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to use Dynamics 365 for Talent - Attract to post jobs to external recruiting sites</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique explique comment utiliser Dynamics 365 for Talent - Attract pour publier des offres d'emploi sur des sites de recrutement externes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Post jobs to external career sites from Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Publication d'emplois sur des sites de carrière externes à partir d'Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You want to get your open positions in front of as many qualified candidates as possible.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous souhaitez présenter vos postes vacants à autant de candidats qualifiés que possible.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Recruiting sites such as Broadbean help you accomplish this goal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les sites de recrutement comme Broadbean vous aident à y parvenir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Microsoft Dynamics 365 Talent: Attract now lets you post jobs to Broadbean, and Microsoft is constantly providing new offerings in this area.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 Talent - Attract vous permet désormais de publier des offres sur Broadbean, et Microsoft propose continuellement de nouvelles options dans ce domaine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Post jobs to Broadbean</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Publier des offres sur Broadbean</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Before you can post jobs to Broadbean, you must configure the Broadbean integration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avant de publier des offres sur Broadbean, vous devez configurer l'intégration de Broadbean.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>To post jobs to external sites, you must have the <bpt id="p1">[</bpt>Comprehensive hiring add-on<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)</ept>.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pour publier des offres sur des sites externes, vous devez avoir le <bpt id="p1">[</bpt>Module complémentaire Recrutement complet<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>To post jobs to Broadbean through Attract, you must have a Broadbean subscription.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Pour afficher des missions dans Broadbean via Attract, vous devez avoir un abonnement à Broadbean.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>This feature is currently in preview.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Cette fonctionnalité est actuellement en mode aperçu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>If you want to try it, you must <bpt id="p1">[</bpt>turn it on in the Attract admin settings<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)</ept>.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Si vous souhaitez l'essayer, vous devez <bpt id="p1">[</bpt>l'activer dans les paramètres administrateur d'Attract<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Configure Broadbean integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurer l'intégration de Broadbean</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Sign in to Attract as an admin.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Connectez-vous à Attract en tant qu'administrateur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Select the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> button (the gear symbol) in the upper-right corner of the page, and then select <bpt id="p2">**</bpt>Admin center<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le bouton <bpt id="p1">**</bpt>Paramètres<ept id="p1">**</ept> (le symbole d'engrenage) dans le coin supérieur droit de la page, puis sélectionnez <bpt id="p2">**</bpt>Centre d'administration<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>On the <bpt id="p1">**</bpt>Job board settings<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Enable Broadbean integration<ept id="p2">**</ept> section, turn on the integration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans l'onglet <bpt id="p1">**</bpt>Paramètres des offres d'emploi<ept id="p1">**</ept>, dans la section <bpt id="p2">**</bpt>Activer l'intégration de Broadbean<ept id="p2">**</ept>, activez l'intégration.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Contact Broadbean, and enter your information in <bpt id="p1">**</bpt>Username, Client ID, Encryption Token<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contactez Broadbean, puis entrez vos informations dans <bpt id="p1">**</bpt>Nom d'utilisateur, ID client, jeton de chiffrement<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Your Broadbean credentials are sensitive and confidential.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les informations d'identification Broadbean sont précieuses et confidentielles.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Therefore, store and share them responsibly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conservez-les et partagez-les de manière responsable en conséquence.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Anyone who has an Administrator role in Attract can view these credentials.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toute personne disposant du rôle Administrateur dans Attract peut afficher ces informations d'identification.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Microsoft and Attract aren't involved in creating and maintaining these values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft et Attract ne sont pas impliqués dans la création et la conservation de ces valeurs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>It's your responsibility to keep them up to date in Attract and to work with Broadbean to resolve any issues that involve your credentials.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il est de votre responsabilité de les garder à jour dans Attract et de faire appel à Broadbean pour résoudre éventuels les problèmes impliquant vos informations d'identification.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Post a job to Broadbean</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Publication d'une offre sur Broadbean</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>After Broadbean has been turned on, recruiters and admins can post a job to it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une fois Broadbean activé, les recruteurs et les administrateurs peuvent y publier une offre d'emploi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>You must have an apply URL for the job.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous devez posséder une URL de candidature pour l'emploi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>In Attract, open the job that you want to post to Broadbean.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans Attract, ouvrez l'emploi que vous souhaitez publier dans Broadbean.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>In the <bpt id="p1">**</bpt>Postings<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>Post Now<ept id="p2">**</ept> button that corresponds to Broadbean.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la section <bpt id="p1">**</bpt>Publications<ept id="p1">**</ept>, sélectionnez le bouton <bpt id="p2">**</bpt>Publier maintenant<ept id="p2">**</ept> correspondant à Broadbean.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Follow the instructions in the Broadbean window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suivez les instructions de la fenêtre Broadbean.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Attract passes the following information to Broadbean:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attract transmet les informations suivantes à Broadbean :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Request ID</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ID demande</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Job title</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Titre du poste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Job description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Description du poste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Job location</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Emplacement du poste</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Apply URL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">URL de candidature</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Recruiter information</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informations sur le recruteur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>After Broadbean successfully completes the posting, the <bpt id="p1">**</bpt>Postings<ept id="p1">**</ept> section of the job in Attract shows the Broadbean status as <bpt id="p2">**</bpt>Posted<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une fois la publication terminée avec succès dans Broadbean, la section <bpt id="p1">**</bpt>Validations<ept id="p1">**</ept> de l'emploi dans Attract affiche le statut de Broadbean comme <bpt id="p2">**</bpt>Publié<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Broadbean requires the <bpt id="p1">**</bpt>Industry<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Broadbean nécessite le champ <bpt id="p1">**</bpt>Secteur<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Currently, this field is set to <bpt id="p1">**</bpt>IT<ept id="p1">**</ept> by default.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actuellement, ce champ est défini sur <bpt id="p1">**</bpt>IT<ept id="p1">**</ept> par défaut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>However, you can change the value to the correct industry in the window for Broadbean job posting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toutefois, vous pouvez modifier la valeur sur le secteur approprié dans la fenêtre de publication d'emploi dans Broadbean.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>It takes some time for Broadbean to finish posting your job to all the job boards that you selected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il faut un certain temps pour que Broadbean mène à bien la publication de votre offre sur tous les sites d'emplois que vous avez sélectionnés.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Therefore, there might be a slight delay before Attract provides a status update for the job.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par conséquent, il peut y avoir un léger délai avant qu'Attract ne mette à jour le statut de l'offre d'emploi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>View a Broadbean job posting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afficher une publication d'offre d'emploi Broadbean</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>After you post a job to Broadbean, you can view it from Attract.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Après avoir publié une offre dans Broadbean, vous pouvez la voir depuis Attract.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>In Attract, open the job that you want to view on Broadbean.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans Attract, ouvrez l'emploi que vous souhaitez afficher dans Broadbean.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>In the <bpt id="p1">**</bpt>Postings<ept id="p1">**</ept> section, select the ellipsis button (<bpt id="p2">**</bpt>...<ept id="p2">**</ept>) that corresponds to Broadbean, and then select <bpt id="p3">**</bpt>View<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la section <bpt id="p1">**</bpt>Publications<ept id="p1">**</ept>, sélectionnez le bouton représentant des points de suspension (<bpt id="p2">**</bpt>...<ept id="p2">**</ept>) qui correspond Broadbean, puis sélectionnez <bpt id="p3">**</bpt>Afficher<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>The Broadbean job posting appears in a new window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La publication d'offre d'emploi Broadbean apparaît dans une nouvelle fenêtre.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Update a Broadbean job posting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mise à jour d'une publication d'offre d'emploi Broadbean</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>You can update a Broadbean job posting in two ways.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez mettre à jour une publication d'offre d'emploi Broadbean de deux manières.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>In Attract, open the job that you want to update.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans Attract, ouvrez l'emploi que vous souhaitez mettre à jour.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>In the <bpt id="p1">**</bpt>Postings<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>Update Post<ept id="p2">**</ept> button that corresponds to Broadbean.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la section <bpt id="p1">**</bpt>Publications<ept id="p1">**</ept>, sélectionnez le bouton <bpt id="p2">**</bpt>Mettre à jour la publication<ept id="p2">**</ept> correspondant à Broadbean.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Edit the posting in the Broadbean window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modifiez la publication dans la fenêtre Broadbean.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>–or–</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- ou -</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>In Attract, open the job that you want to view on Broadbean.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans Attract, ouvrez l'emploi que vous souhaitez afficher dans Broadbean.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>In the <bpt id="p1">**</bpt>Postings<ept id="p1">**</ept> section, select the ellipsis button (<bpt id="p2">**</bpt>...<ept id="p2">**</ept>) that corresponds to Broadbean, and then select <bpt id="p3">**</bpt>View<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la section <bpt id="p1">**</bpt>Publications<ept id="p1">**</ept>, sélectionnez le bouton représentant des points de suspension (<bpt id="p2">**</bpt>...<ept id="p2">**</ept>) qui correspond Broadbean, puis sélectionnez <bpt id="p3">**</bpt>Afficher<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>In the Broadbean window, edit the job details, and then repost the job.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la fenêtre Broadbean, modifiez les détails de l'emploi, puis publiez à nouveau l'offre d'emploi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>The job details in Attract aren't changed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les détails de l'emploi dans Attract ne sont pas modifiés.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Remove a Broadbean job posting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Supprimer une publication d'offre d'emploi Broadbean</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>You can remove a job posting from Broadbean as you require.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez supprimer une publication d'offre d'emploi de Broadbean comme bon vous semble.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>In Attract, open the job that you want to remove.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans Attract, ouvrez l'emploi que vous souhaitez supprimer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>In the <bpt id="p1">**</bpt>Postings<ept id="p1">**</ept> section, select the ellipsis button (<bpt id="p2">**</bpt>...<ept id="p2">**</ept>) that corresponds to Broadbean, and then select <bpt id="p3">**</bpt>Remove Post<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la section <bpt id="p1">**</bpt>Publications<ept id="p1">**</ept>, sélectionnez le bouton représentant des points de suspension (<bpt id="p2">**</bpt>...<ept id="p2">**</ept>) qui correspond Broadbean, puis sélectionnez <bpt id="p3">**</bpt>Supprimer la publication<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>After Broadbean removes the job, the Broadbean item in Attract has a <bpt id="p1">**</bpt>Post Now<ept id="p1">**</ept> button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une fois que Broadbean a supprimé l'offre d'emploi, l'article Broadbean dans Attract a un bouton <bpt id="p1">**</bpt>Publier maintenant<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>The presence of this button indicates that the job has been removed and can be posted again.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La présence de ce bouton indique que l'offre d'emploi a été supprimée et peut être publiée de nouveau.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Troubleshoot the Broadbean integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Résoudre les problèmes d'intégration de Broadbean</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>If you're having trouble posting a job to Broadbean, try these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous avez des problèmes pour publier une offre d'emploi sur Broadbean, essayez ce qui suit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Verify that the Broadbean credentials that you entered in Attract are valid and correct.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vérifiez que les informations d'identification Broadbean entrées dans Attract sont valides et correctes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>If the credentials are valid and correct, contact <bpt id="p1">[</bpt>Broadbean support<ept id="p1">](https://www.broadbean.com/resources/support/)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si les informations d'identification sont valides et cerrectes, contactez le <bpt id="p1">[</bpt>Support Broadbean<ept id="p1">](https://www.broadbean.com/resources/support/)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>If the issue persists, contact <bpt id="p1">[</bpt>Microsoft support<ept id="p1">](./talent-support.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si le problème persiste, contactez le <bpt id="p1">[</bpt>Support Microsoft<ept id="p1">](./talent-support.md)</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

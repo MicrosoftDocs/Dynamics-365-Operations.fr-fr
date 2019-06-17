@@ -1,48 +1,78 @@
----
-title: Créer des fournisseurs de configuration et les marquer comme actifs
-description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut créer un fournisseur de configuration pour la génération d'états électroniques (ER).
-author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: nselin
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544907"
----
-# <a name="create-configuration-providers-and-mark-them-as-active"></a>Créer des fournisseurs de configuration et les marquer comme actifs
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut créer un fournisseur de configuration pour la génération d'états électroniques (ER). Chaque configuration ER fait référence au fournisseur en tant que l'auteur de la configuration. Dans cet exemple, vous allez créer un fournisseur de configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les fournisseurs de configurations ER sont partagés entre toutes les sociétés.
-
-
-## <a name="create-a-provider"></a>Créer un fournisseur
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-2. Cliquez sur Fournisseurs de configuration.
-3. Cliquez sur Nouveau.
-    * Un enregistrement fournisseur a un nom et une URL uniques. Examinez le contenu de cette page et ignorez cette procédure si un enregistrement pour Litware, Inc. (http://www.litware.com) existe déjà.  
-4. Tapez Litware, Inc. dans le champ Nom.
-    * Litware, Inc.  
-5. Dans le champ Adresse Internet, tapez « http://www.litware.com ».
-    * http://www.litware.com  
-6. Cliquez sur Enregistrer.
-7. Fermez la page.
-
-## <a name="select-as-an-active-provider"></a>Sélectionner en tant que fournisseur actif
-1. Sélectionnez le fournisseur Litware, Inc. .
-2. Cliquez sur Activer.
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="er-configuration-provider-mark-it-active-2016-11.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>er-configuration-provider-mark-it-active-2016-11.48153b.a4b1cd7a02cdf4c650af50199f4425eb53cef0a8.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>a4b1cd7a02cdf4c650af50199f4425eb53cef0a8</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\tasks\er-configuration-provider-mark-it-active-2016-11.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Create configuration providers and mark them as active</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer des fournisseurs de configuration et les marquer comme actifs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut créer un fournisseur de configuration pour la génération d'états électroniques (ER).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Create configuration providers and mark them as active</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer des fournisseurs de configuration et les marquer comme actifs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut créer un fournisseur de configuration pour la génération d'états électroniques (ER).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Each ER configuration will refer to the provider as the author of the configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Chaque configuration ER fait référence au fournisseur en tant que l'auteur de la configuration.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans cet exemple, vous allez créer un fournisseur de configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les fournisseurs de configurations ER sont partagés entre toutes les sociétés.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Create a provider</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer un fournisseur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Administration d'organisation &gt; Espaces de travail &gt; États électroniques.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Click Configuration providers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Fournisseurs de configuration.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>A provider record has a unique name and URL.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un enregistrement fournisseur a un nom et une URL uniques.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Review the content of this page and skip this procedure if a record for Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> already exists.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Examinez le contenu de cette page et ignorez cette procédure si un enregistrement pour Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> existe déjà.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Name field, type 'Litware, Inc.'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tapez Litware, Inc. dans le champ Nom.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Litware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>In the Internet address field, type '<ph id="ph1">https://www.litware.com</ph>'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Adresse Internet, tapez « <ph id="ph1">https://www.litware.com</ph> ».</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fermez la page.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Select as an active provider</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionner en tant que fournisseur actif</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Select the Litware, Inc. provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le fournisseur Litware, Inc. .</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Activer.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
