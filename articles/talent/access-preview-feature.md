@@ -1,94 +1,282 @@
----
-title: Accéder aux fonctions d'aperçu de Talent
-description: Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu. Elle répertorie également les fonctionnalités qui sont actuellement activées pour le mode aperçu.
-author: tracykeya
-manager: AnnBe
-ms.date: 04/29/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Talent, Core
-ms.custom: 7521
-ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
-ms.search.region: Global
-ms.author: trkeya
-ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518030"
----
-# <a name="access-preview-features-in-talent"></a><span data-ttu-id="5f6ed-103">Accéder aux fonctions d'aperçu de Talent</span><span class="sxs-lookup"><span data-stu-id="5f6ed-103">Access preview features in Talent</span></span>
-
-[!include[banner](../includes/banner.md)]
-
-<span data-ttu-id="5f6ed-104">Dans le cadre de notre lancement continu de fonctionnalités du produit, nous souhaitons que nos clients expérimentent de nouvelles fonctionnalités dès que possible.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-104">As part of our continuous rollout of product capabilities, we want to let customers experience new features as soon as possible.</span></span> <span data-ttu-id="5f6ed-105">Les administrateurs peuvent afficher et utiliser les fonctionnalités d'aperçu dans leurs environnements.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-105">Administrators can see and use preview features in their environments.</span></span> <span data-ttu-id="5f6ed-106">Ces fonctionnalités sont presque prêtes pour la mise à disposition générale et ont fait l'objet de tests étendus.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-106">These features are almost ready for general availability and have gone through extensive testing.</span></span> <span data-ttu-id="5f6ed-107">Nous attendons les derniers commentaires et validations des clients avant leur mise à disposition générale.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-107">We are just looking for a final round of customer feedback and validation before we generally release them.</span></span>
-
-<span data-ttu-id="5f6ed-108">Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu. Elle répertorie également les fonctionnalités qui sont actuellement disponibles en mode aperçu.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-108">This topic describes how an administrator can enable preview features, and it lists the features that are currently available for preview.</span></span> <span data-ttu-id="5f6ed-109">Cette liste sera mise à jour lorsque les fonctionnalités seront mises à la disposition générale et que de nouvelles fonctionnalités seront disponibles en mode aperçu.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-109">This list will be updated as features are released to general availability and as new features are released to preview.</span></span> <span data-ttu-id="5f6ed-110">Aucune notification n'est fournie lorsque de nouvelles fonctionnalités sont disponibles en mode aperçu.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-110">No notification is given when new features are released to preview.</span></span> <span data-ttu-id="5f6ed-111">Les utilisateurs commenceront simplement à voir les fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-111">Users will just start to see the features.</span></span>
-
-## <a name="enable-or-disable-preview-features"></a><span data-ttu-id="5f6ed-112">Activer ou désactiver les fonctionnalités d'aperçu</span><span class="sxs-lookup"><span data-stu-id="5f6ed-112">Enable or disable preview features</span></span>
-
-<span data-ttu-id="5f6ed-113">Vous pouvez utiliser le paramètre **Fonctionnalités d'aperçu** dans le centre d'administration Microsoft Dynamics 365 for Talent pour activer ou désactiver les fonctionnalités d'aperçu.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-113">You can use the **Preview Features** setting in the Microsoft Dynamics 365 for Talent admin center to enable or disable preview features.</span></span> <span data-ttu-id="5f6ed-114">Par défaut, le paramètre est désactivé.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-114">By default, the setting is turned off.</span></span> <span data-ttu-id="5f6ed-115">L'action d'activation et de désactivation des fonctionnalités d'aperçu est propre à l'environnement.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-115">The action of enabling or disabling preview features is environment-specific.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="5f6ed-116">En activant le paramètre **Fonctionnalités d'aperçu**, vous activez les fonctionnalités d'aperçu pour tous les utilisateurs de votre organisation qui se trouvent dans cet environnement.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-116">By turning on the **Preview Features** setting, you enable preview features for all users in your organization who are in that environment.</span></span> <span data-ttu-id="5f6ed-117">En désactivant le paramètre, vous désactivez les fonctionnalités d'aperçu et les rendez inaccessibles à vos utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-117">By turning off the setting, you disable preview features and make them inaccessible to your users.</span></span> <span data-ttu-id="5f6ed-118">Les fonctionnalités d'aperçu ont une prise en charge limitée dans Talent.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-118">Preview features have limited support in Talent.</span></span> <span data-ttu-id="5f6ed-119">Elles peuvent utiliser moins de mesures de confidentialité et de sécurité, et elles ne sont pas incluses dans le contrat de niveau de service de Talent.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-119">They might use fewer privacy and security measures, and they aren't included in the Talent service level agreement.</span></span> <span data-ttu-id="5f6ed-120">Vous ne devez pas utiliser les fonctionnalités d'aperçu pour traiter des données personnelles (c'est-à-dire, toute information susceptible de vous identifier), ou pour traiter d'autres données soumises à des exigences de conformité juridique ou réglementaire.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-120">You should not use preview features to process personal data (that is, any information that could identify you), or to process other data that is subject to legal or regulatory compliance requirements.</span></span>
-
-### <a name="enable-or-disable-preview-features-for-your-organization"></a><span data-ttu-id="5f6ed-121">Activer ou désactiver les fonctionnalités d'aperçu pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="5f6ed-121">Enable or disable preview features for your organization</span></span>
-
-#### <a name="attract"></a><span data-ttu-id="5f6ed-122">Attract</span><span class="sxs-lookup"><span data-stu-id="5f6ed-122">Attract</span></span>
-
-1. <span data-ttu-id="5f6ed-123">Connectez-vous à Microsoft Dynamics 365 for Talent : Attract.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-123">Sign in to Microsoft Dynamics 365 for Talent: Attract.</span></span>
-2. <span data-ttu-id="5f6ed-124">Dans le menu **Paramétrage** (symbole en forme d'engrenage) dans le coin supérieur droit, sélectionnez **Paramètres d'administration**.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-124">On the **Setup** menu (the gear symbol) in the upper-right corner, select **Admin settings**.</span></span>
-3. <span data-ttu-id="5f6ed-125">Sous l'onglet **Gestion des fonctionnalités**, sélectionnez l'option en regard de **Fonctionnalités d'aperçu** afin qu'elle devienne bleu.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-125">On the **Feature management** tab, select the option next to **Preview features** so that it turns blue.</span></span>
-4. <span data-ttu-id="5f6ed-126">Vous pouvez éventuellement contrôler certaines fonctionnalités en activant/désactivant des fonctionnalités spécifiques sur cette page.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-126">Optionally you can control individual features by enabling/disabling specific features on this page.</span></span>
-5. <span data-ttu-id="5f6ed-127">Actualisez votre navigateur pour commencer à voir les nouvelles fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-127">Refresh your browser to start to see the new features.</span></span> <span data-ttu-id="5f6ed-128">(Les utilisateurs qui sont déjà connectés verront les fonctionnalités lors de leur prochaine connexion, ou ils peuvent actualiser leur navigateur pour voir les fonctionnalités immédiatement.)</span><span class="sxs-lookup"><span data-stu-id="5f6ed-128">(Any users who are already signed in will see the features the next time that they sign in, or they can refresh their browser to see the features immediately.)</span></span>
-
-#### <a name="core-hr"></a><span data-ttu-id="5f6ed-129">Core HR</span><span class="sxs-lookup"><span data-stu-id="5f6ed-129">Core HR</span></span>
-
-1. <span data-ttu-id="5f6ed-130">Connectez-vous à Talent.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-130">Sign in to Talent.</span></span> <span data-ttu-id="5f6ed-131">L'espace de travail Ressources humaines principales s'ouvre pour vous permettre d'effectuer les étapes restantes.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-131">The core Human resources workspace will open, from which you'll complete the remaining steps.</span></span> 
-2. <span data-ttu-id="5f6ed-132">Sélectionnez **Administration système \> Paramètres système**.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-132">Select **System administration \> Links System parameters**.</span></span>
-3. <span data-ttu-id="5f6ed-133">Dans la page **Paramètres système**, sous l'onglet **Fonctionnalités d'aperçu**, définissez l'option **Activer le mode aperçu pour tous les utilisateurs** sur **Oui** pour rendre les fonctionnalités d'aperçu disponibles.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-133">On the **System Parameters page**, on the **Preview features** tab, set the **Enable preview mode for all users** option to **Yes** to make preview features available.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="5f6ed-134">Pour désactiver les fonctionnalités d'aperçu, utilisez les mêmes étapes de base.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-134">To disable preview features, use the same basic steps.</span></span> <span data-ttu-id="5f6ed-135">Lorsque vous désactivez les fonctionnalités d'aperçu, elles deviennent inaccessibles aux utilisateurs, et des erreurs peuvent se produire dans les processus associés aux fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-135">When you disable preview features, they become inaccessible to your users, and errors might occur in processes that are associated with the features.</span></span>
-
-## <a name="features-that-are-currently-in-preview"></a><span data-ttu-id="5f6ed-136">Fonctionnalités actuellement en mode aperçu</span><span class="sxs-lookup"><span data-stu-id="5f6ed-136">Features that are currently in preview</span></span>
-
-### <a name="attract"></a><span data-ttu-id="5f6ed-137">Attract</span><span class="sxs-lookup"><span data-stu-id="5f6ed-137">Attract</span></span>
-
-- <span data-ttu-id="5f6ed-138">**Candidats correspondant à une mission** : Les recruteurs et les responsables de l'embauche peuvent aisément voir les candidats pouvant être les plus pertinents pour la mission parmi tous les candidats.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-138">**Relevant Candidates in a Job** – Recruiters and hiring managers can easily see which candidates may be the most relevant for the job across all applicants.</span></span> <span data-ttu-id="5f6ed-139">Les 5 principaux candidats sont affichés selon la pertinence de leur CV/profil par rapport la description de la mission.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-139">The top 5 applicants are shown based on their the relevance of their resume/profile to the job description.</span></span>
-- <span data-ttu-id="5f6ed-140">**Missions pertinentes** : Les candidats voient maintenant une liste d'autres missions qui leur correspondent selon leur CV/profil et les descriptions de mission.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-140">**Relevant Jobs** – Candidates now see a list of other jobs that are relevant to them based on their resume/profile and the job descriptions.</span></span>  <span data-ttu-id="5f6ed-141">Actuellement les candidats sont affichés une fois qu'ils postulent comme suggestion pour d'autres opportunités.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-141">Currently this is shown to candidates once they apply as a suggestion for other opportunities.</span></span>
-- <span data-ttu-id="5f6ed-142">**Prise en charge d'Égalité des chances d'emploi/Bureau des programmes fédéraux de conformité des contrats** : De nouveaux types d'activités permettent l'utilisation d'un écran prédéfini pour la collecte de données relatives à l'Égalité des chances d'emploi/Bureau des programmes fédéraux de conformité des contrats du candidat.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-142">**EEO/OFCCP Support** – New activity types enable the use of a predefined form for the collection of Equal Employment Opportunity  (EEO) and Office of Federal Contract Compliance Program (OFCCP) data from the candidate.</span></span>  <span data-ttu-id="5f6ed-143">Il s'agit d'un écran prédéfini qui peut pas être modifié.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-143">This is a predefined form and is not editable.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="5f6ed-144">Les postes publiés sont visibles uniquement par les clients qui se sont abonnés à un ou plusieurs produits de la liste des postes sur LinkedIn.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-144">Jobs that are posted are visible only to customers who subscribe to one or more LinkedIn job listing products.</span></span> <span data-ttu-id="5f6ed-145">Sinon, les clients voient un poste uniquement s'ils effectuent une recherche explicite.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-145">Otherwise, customers see a job only if they explicitly search for it.</span></span> <span data-ttu-id="5f6ed-146">Les postes sont publiés sur LinkedIn avec du retard.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-146">There is a delay when jobs are posted to LinkedIn.</span></span> <span data-ttu-id="5f6ed-147">L'affichage d'un poste peut prendre quelques heures après sa publication depuis Attract.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-147">A job might take up to a few hours to appear after it's posted from Attract.</span></span>
-
-- <span data-ttu-id="5f6ed-148">**Postulant** – Les candidats internes et externes peuvent désormais postuler directement depuis la page des postes sur le site de carrière.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-148">**Candidate apply** – Both internal and external candidates can now apply directly from the job page on the career site.</span></span>
-- <span data-ttu-id="5f6ed-149">**Gestion des offres** – Les utilisateurs peuvent désormais créer des lettres d'offre à partir de modèles qui incluent des espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-149">**Offer management** – Users can now create offer letters from templates that include placeholders.</span></span> <span data-ttu-id="5f6ed-150">Lorsque les candidats passent à l'étape Offre, les recruteurs et les responsables du recrutement peuvent utiliser l'outil Offre pour préparer l'offre formelle d'un candidat à l'aide de modèles, envoyer l'offre pour approbation interne et enfin envoyer l'offre au candidat pour signature.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-150">As candidates advance to the Offer stage, recruiters and hiring managers can use the Offer tool to prepare a candidate's formal offer via templates, send the offer for internal approval, and finally send the offer to the candidate for signature.</span></span> <span data-ttu-id="5f6ed-151">De nombreuses fonctionnalités seront ajoutées à l'outil Offre au fil du temps, et la fonctionnalité d'aperçu sera mise à jour avec ces fonctionnalités dès que nous serons prêts à les publier en mode aperçu.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-151">Many new capabilities will be added to the Offer tool over time, and the preview feature will be updated with these capabilities as we are ready to release them to preview.</span></span>
-- <span data-ttu-id="5f6ed-152">**[États analytiques](analytic-reports.md)** – Les équipes de recrutement peuvent afficher des mesures clés pour un seul poste avec Analyses du poste ou des mesures globales sur tous les postes dans le Concentrateur d'analyses.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-152">**[Analytic reports](analytic-reports.md)** – Hiring teams can view key metrics for a single job with Job Analytics or aggregated metrics accross all jobs in the Analytics Hub.</span></span>
-
-### <a name="core-hr"></a><span data-ttu-id="5f6ed-153">Core HR</span><span class="sxs-lookup"><span data-stu-id="5f6ed-153">Core HR</span></span>
-
-- <span data-ttu-id="5f6ed-154">**Inscription en cours** – L'inscription en cours aux avantages offre aux employés une expérience simple de sélection de leurs avantages en libre service.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-154">**Open Enrollment** – Benefits open enrollment gives employees a simple, self-service experience for selecting their benefits.</span></span> <span data-ttu-id="5f6ed-155">Les administrateurs des ressources humaines peuvent configurer le processus d'inscription en cours aux avantages pour leur organisation, et l'expérience d'inscription des employés en utilisant une solution guidée facile à suivre.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-155">Human Resource (HR) administrators can configure the benefits open enrollment process for their organization, and the enrollment experience for employees, by using an easy-to-follow guided solution.</span></span>
-
-## <a name="feedback"></a><span data-ttu-id="5f6ed-156">Commentaire</span><span class="sxs-lookup"><span data-stu-id="5f6ed-156">Feedback</span></span>
-
-<span data-ttu-id="5f6ed-157">Que vos commentaires soient positifs ou négatifs, nous souhaitons en savoir plus sur votre utilisation des fonctionnalités d'aperçu.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-157">Regardless of whether the feedback is positive or negative, we want to hear from you about your use of the preview features.</span></span> <span data-ttu-id="5f6ed-158">Nous vous encourageons à publier régulièrement vos commentaires sur les sites suivants lorsque vous utilisez ces fonctionnalités ou d'autres.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-158">We encourage you to regularly post your feedback on the following sites as you use these or any other features.</span></span>
-
-- <span data-ttu-id="5f6ed-159">[Communauté](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) – Ce site est une ressource utile où les utilisateurs peuvent discuter de cas d'utilisation, poser des questions et obtenir l'aide de la communauté.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-159">[Community](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) – This site is a great resource where users can discuss use cases, ask questions, and get community help.</span></span>
-- <span data-ttu-id="5f6ed-160">Utilisez les sites suivants pour proposer des idées de produit.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-160">Use the following sites to suggest product ideas.</span></span> <span data-ttu-id="5f6ed-161">Faites-nous part des fonctionnalités que vous souhaitez voir dans le produit, ainsi que les modifications qui, selon vous, doivent être apportées aux fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-161">Let us know about features that you want to see in the product, and also any changes that you think should be made to existing features.</span></span>
-
-    - [<span data-ttu-id="5f6ed-162">Idées pour Attract</span><span class="sxs-lookup"><span data-stu-id="5f6ed-162">Attract Ideas</span></span>](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
-    - [<span data-ttu-id="5f6ed-163">Core HR</span><span class="sxs-lookup"><span data-stu-id="5f6ed-163">Core HR</span></span>](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
-
-<span data-ttu-id="5f6ed-164">N'ajoutez pas des données personnelles (toute information susceptible de vous identifier) dans vos commentaires ou vos demandes d'évaluation du produit.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-164">Don't include personal data (any information that could identify you) in your feedback or product review submissions.</span></span> <span data-ttu-id="5f6ed-165">Les informations collectées peuvent être analysées davantage, et elles ne seront pas utilisées pour répondre à des demandes aux termes des lois applicables sur la confidentialité.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-165">Information that is collected might be analyzed further, and it won't be used to answer requests under applicable privacy laws.</span></span> <span data-ttu-id="5f6ed-166">Les données personnelles qui sont collectées séparément dans le cadre de ces programmes sont soumises à la [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/privacystatement).</span><span class="sxs-lookup"><span data-stu-id="5f6ed-166">Personal data that is collected separately under these programs is subject to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).</span></span>
-
-> [!TIP]
-> <span data-ttu-id="5f6ed-167">Marquez cette rubrique et consultez-la régulièrement pour rester informé des nouvelles fonctionnalités d'aperçu dès leur parution.</span><span class="sxs-lookup"><span data-stu-id="5f6ed-167">Bookmark this topic, and check back often to stay up to date about new preview features as we release them.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="access-preview-feature.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>access-preview-feature.b608ae.2858451435c358380503c8edc5cb162e6834894a.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>2858451435c358380503c8edc5cb162e6834894a</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>fcae2e7938d7dbd94b76b0948b084d90d5fc919c</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\talent\access-preview-feature.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Access preview features in Microsoft Dynamics 365 for Talent</source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match">Accéder aux fonctionnalités d'aperçu de Microsoft Dynamics 365 for Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes how an administrator can enable preview features in Microsoft Dynamics 365 for Talent, and it lists the features that are currently enabled for preview.</source><target logoport:matchpercent="88" state="translated" state-qualifier="fuzzy-match">Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu dans Microsoft Dynamics 365 for Talent. Elle répertorie également les fonctionnalités qui sont actuellement activées pour le mode aperçu.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Access preview features in Talent</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Accéder aux fonctions d'aperçu de Talent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>As part of our continuous rollout of human capital management (HCM) capabilities for Microsoft Dynamics 365 for Talent, we want to let customers experience new features as soon as possible.</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Dans le cadre de notre lancement continu de fonctionnalités de gestion du capital humain (GCH) pour Microsoft Dynamics 365 for Talent, nous souhaitons que nos clients expérimentent de nouvelles fonctionnalités dès que possible.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Administrators can see and use preview features in their environments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les administrateurs peuvent afficher et utiliser les fonctionnalités d'aperçu dans leurs environnements.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>These features are almost ready for general availability and have gone through extensive testing.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Ces fonctionnalités sont presque prêtes pour la mise à disposition générale et ont fait l'objet de tests étendus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>We're just looking for a final round of customer feedback and validation before we release them for general availability.</source><target logoport:matchpercent="84" state="translated" state-qualifier="fuzzy-match">Nous attendons les derniers commentaires et validations des clients avant leur publication pour une disponibilité générale.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>This topic describes how you can enable preview features, and it lists the features that are currently available for preview.</source><target logoport:matchpercent="89" state="translated" state-qualifier="fuzzy-match">Cette rubrique décrit comment vous pouvez activer les fonctionnalités d'aperçu. Elle répertorie également les fonctionnalités qui sont actuellement disponibles en mode aperçu.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>This list will be updated as features are released to general availability and as new features are released to preview.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette liste sera mise à jour lorsque les fonctionnalités seront mises à la disposition générale et que de nouvelles fonctionnalités seront disponibles en mode aperçu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>No notification is given when new features are released to preview.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Aucune notification n'est fournie lorsque de nouvelles fonctionnalités sont disponibles en mode aperçu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Users will just start to see the features.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Les utilisateurs commenceront simplement à voir les fonctionnalités.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>For more information about new features in Talent, see <bpt id="p1">[</bpt>What's new or changed in Dynamics 365 for Talent<ept id="p1">](./whats-new.md)</ept> and <bpt id="p2">[</bpt>Dynamics 365 and Power Platform Release Notes<ept id="p2">](https://docs.microsoft.com/business-applications-release-notes)</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Pour plus d'informations sur les nouvelles fonctions dans Talent, voir <bpt id="p1">[</bpt>Nouveautés ou modifications dans Dynamics 365 for Talent<ept id="p1">](./whats-new.md)</ept> et <bpt id="p2">[</bpt>Notes de publication de Dynamics 365 et Power Platform<ept id="p2">](https://docs.microsoft.com/business-applications-release-notes)</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Enable or disable preview features</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Activer ou désactiver les fonctionnalités d'aperçu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>To access preview features, you must first enable them in your environment.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Pour accéder aux fonctionnalités d'aperçu, vous devez commencer par les activer dans votre environnement.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Enabling or disabling preview features is environment-specific.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">L'activation ou la désactivation des fonctionnalités d'aperçu est propre à l'environnement.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>When you turn on the <bpt id="p1">**</bpt>Preview Features<ept id="p1">**</ept> setting, you enable preview features for all users in your organization who are in that environment.</source><target logoport:matchpercent="92" state="translated" state-qualifier="x-fuzzy-match-unedited">En activant le paramètre <bpt id="p1">**</bpt>Fonctionnalités d'aperçu<ept id="p1">**</ept>, vous activez les fonctionnalités d'aperçu pour tous les utilisateurs de votre organisation qui se trouvent dans cet environnement.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>When you turn off the setting, you disable preview features and make them inaccessible to your users.</source><target logoport:matchpercent="89" state="translated" state-qualifier="x-fuzzy-match-unedited">En désactivant le paramètre, vous désactivez les fonctionnalités d'aperçu et les rendez inaccessibles à vos utilisateurs.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Preview features have limited support in Talent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les fonctionnalités d'aperçu ont une prise en charge limitée dans Talent.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>They might use fewer privacy and security measures, and they aren't included in the Talent service level agreement (SLA).</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Elles peuvent utiliser moins de mesures de confidentialité et de sécurité, et elles ne sont pas incluses dans le contrat de niveau de service de Talent (SLA).</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>You should not use preview features to process personal data (that is, any information that could identify you), or to process other data that is subject to legal or regulatory compliance requirements.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Vous ne devez pas utiliser les fonctionnalités d'aperçu pour traiter des données personnelles (c'est-à-dire, toute information susceptible de vous identifier), ou pour traiter d'autres données soumises à des exigences de conformité juridique ou réglementaire.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Attract</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Sign in to Microsoft Dynamics 365 for Talent: Attract.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Connectez-vous à Microsoft Dynamics 365 for Talent : Attract.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>On the <bpt id="p1">**</bpt>Setup<ept id="p1">**</ept> menu (the gear symbol) in the upper-right corner, select <bpt id="p2">**</bpt>Admin center<ept id="p2">**</ept>.</source><target logoport:matchpercent="92" state="translated" state-qualifier="fuzzy-match">Dans le menu <bpt id="p1">**</bpt>Paramétrage<ept id="p1">**</ept> (symbole en forme d'engrenage) dans le coin supérieur droit, sélectionnez <bpt id="p2">**</bpt>Centre d'administration<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>On the <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> tab, select the option next to <bpt id="p2">**</bpt>Preview features<ept id="p2">**</ept> so that it turns blue and says <bpt id="p3">**</bpt>On<ept id="p3">**</ept>.</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">Sous l'onglet <bpt id="p1">**</bpt>Gestion des fonctionnalités<ept id="p1">**</ept>, sélectionnez l'option en regard de <bpt id="p2">**</bpt>Fonctionnalités d'aperçu<ept id="p2">**</ept> afin qu'elle devienne bleu et indique <bpt id="p3">**</bpt>Activé<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Enable preview features in Attract</source><target logoport:matchpercent="70" state="translated" state-qualifier="fuzzy-match">Activer les fonctionnalités d'aperçu dans Attract</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Select or cancel the selection of individual preview features.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Sélectionnez ou annuler la sélection de fonctionnalités d'aperçu individuelles.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>If you do nothing, all available preview features are enabled.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Si vous n'entrez rien, toutes les fonctionnalités d'aperçu disponibles sont activées.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Refresh your browser to start to see the new features.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Actualisez votre navigateur pour commencer à voir les nouvelles fonctionnalités.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Any users who are already signed in will see the features the next time they sign in, or they can refresh their browser to see the features immediately.</source><target logoport:matchpercent="97" state="translated" state-qualifier="fuzzy-match">Les utilisateurs qui sont déjà connectés verront les fonctionnalités lors de leur prochaine connexion, ou ils peuvent actualiser leur navigateur pour voir les fonctionnalités immédiatement.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Some preview features might require additional configuration.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Certaines fonctionnalités d'aperçu peuvent nécessiter une autre configuration.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Follow the links next to the preview feature to complete the setup for it.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Suivez les liens en regard de la fonctionnalité d'aperçu pour compléter le paramétrage pour celui-ci.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Core HR</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Core HR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Sign in to Talent.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Connectez-vous à Talent.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Select <bpt id="p1">**</bpt>System administration<ept id="p1">**</ept>, and then select the <bpt id="p2">**</bpt>Links<ept id="p2">**</ept> tab.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Sélectionnez <bpt id="p1">**</bpt>Administration du système<ept id="p1">**</ept>, puis sélectionnez l'onglet <bpt id="p2">**</bpt>Liens<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>On the <bpt id="p1">**</bpt>System administration<ept id="p1">**</ept> page, under <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>System parameters<ept id="p3">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Dans la page <bpt id="p1">**</bpt>Administration du système<ept id="p1">**</ept>, sous <bpt id="p2">**</bpt>Paramétrage<ept id="p2">**</ept>, sélectionnez <bpt id="p3">**</bpt>Paramètres système<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>On the <bpt id="p1">**</bpt>System parameters<ept id="p1">**</ept> page, select the <bpt id="p2">**</bpt>Preview features<ept id="p2">**</ept> tab.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Dans la page <bpt id="p1">**</bpt>Paramètres système<ept id="p1">**</ept>, sélectionnez l'onglet <bpt id="p2">**</bpt>Fonctionnalités d'aperçu<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Set the <bpt id="p1">**</bpt>Enable preview mode for all users<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to make preview features available.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Définissez l'option <bpt id="p1">**</bpt>Activer le mode d'aperçu pour tous les utilisateurs<ept id="p1">**</ept> sur <bpt id="p2">**</bpt>Oui<ept id="p2">**</ept> pour rendre les fonctionnalités d'aperçu disponibles.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Enable preview features in Core HR</source><target logoport:matchpercent="79" state="translated" state-qualifier="fuzzy-match">Activer les fonctionnalités d'aperçu dans Core HR</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>To disable preview features, use the same steps, but set the <bpt id="p1">**</bpt>Enable preview mode for all users<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>No<ept id="p2">**</ept>.</source><target logoport:matchpercent="72" state="translated" state-qualifier="fuzzy-match">Pour désactiver les fonctionnalités d'aperçu, procédez de la même manière, mais définissez l'option <bpt id="p1">**</bpt>Activer le mode d'aperçu pour tous les utilisateurs<ept id="p1">**</ept> sur <bpt id="p2">**</bpt>Non<ept id="p2">**</ept> .</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>When you disable preview features, they become inaccessible to your users, and errors might occur in processes that are associated with the features.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Lorsque vous désactivez les fonctionnalités d'aperçu, elles deviennent inaccessibles aux utilisateurs, et des erreurs peuvent se produire dans les processus associés aux fonctionnalités.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Onboard</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Intégrer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>No preview features are currently available for Microsoft Dynamics 365 for Talent: Onboard.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Aucune fonctionnalité d'aperçu n'est actuellement disponible pour Microsoft Dynamics 365 for Talent: Onboard.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Features that are currently in preview</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Fonctionnalités actuellement en mode aperçu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Attract</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Attract</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source><bpt id="p1">[</bpt>Candidate recommendation<ept id="p1">](./intelligent-recommendations.md#candidate-recommendations)</ept> – If more than ten candidates have resumes or complete profiles, the candidates who most closely meet a job's requirements appear in the <bpt id="p2">**</bpt>Applicants to consider<ept id="p2">**</ept> section on that job's page.</source><target logoport:matchpercent="76" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>Recommandation du candidat<ept id="p1">](./intelligent-recommendations.md#candidate-recommendations)</ept> – S'il y a plus de dix candidats avec des CV ou des profils complets, les candidats qui répondent le mieux aux exigences de la mission s'affichent dans la section <bpt id="p2">**</bpt>Candidats à prendre en compte<ept id="p2">**</ept> de la page de cette mission.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">[</bpt>Job recommendation<ept id="p1">](./intelligent-recommendations.md#job-recommendations)</ept> – If more than ten jobs are posted on your career site, Attract provides job recommendations to prospects.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Recommandation professionnelle<ept id="p1">](./intelligent-recommendations.md#job-recommendations)</ept> – Si plus de dix missions sont publiées sur votre site de carrière, Attract fournit des recommandations professionnelles aux prospects.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source><bpt id="p1">[</bpt>Broadbean integration<ept id="p1">](./posting-jobs-external.md#post-jobs-to-broadbean)</ept> – You can post jobs from Attract to Broadbean, an external job posting site.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Intégration à Broadbean<ept id="p1">](./posting-jobs-external.md#post-jobs-to-broadbean)</ept> – Vous pouvez publier des missions d'Attract vers Broadbean, un site de publication de missions externe.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>After you enable this preview feature, you must complete the setup by entering your Broadbean username, client ID, and encryption token.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Après avoir activé cette fonctionnalité d'aperçu, vous devez terminer le paramétrage en entrant votre nom d'utilisateur, ID client et jeton de chiffrement Broadbean.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source><bpt id="p1">[</bpt>Analytics<ept id="p1">](./analytic-reports.md)</ept> – In the Analytics Hub, hiring teams can view key metrics for a single job, plus aggregated metrics across all jobs.</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>Analyses<ept id="p1">](./analytic-reports.md)</ept> – Dans le Concentrateur d'analyses, les équipes de recrutement peuvent afficher des mesures clés pour un seul poste, ainsi que des mesures globales sur tous les postes.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">[</bpt>EEO<ept id="p1">](./activities-attract.md)</ept> – New activity types let you use a predefined form to collect Equal Employment Opportunity (EEO) and Office of Federal Contract Compliance Program (OFCCP) data from a candidate.</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>Égalité des chances d'emploi<ept id="p1">](./activities-attract.md)</ept> – De nouveaux types d'activités vous permettent l'utilisation d'un écran prédéfini pour la collecte de données relatives à l'Égalité des chances d'emploi et du Bureau des programmes fédéraux de conformité des contrats d'un candidat.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The predefined form can't be edited.</source><target logoport:matchpercent="73" state="translated" state-qualifier="fuzzy-match">L'écran prédéfini ne peut pas être modifié.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">[</bpt>Prospect recommendation<ept id="p1">](./intelligent-recommendations.md#prospect-recommendations)</ept> – Attract reviews past applicants and current candidates to provide a list of prospects who are a good match for your job.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Recommandation de prospect<ept id="p1">](./intelligent-recommendations.md#prospect-recommendations)</ept> – Attract vérifie les anciens candidats et les candidats actuels pour fournir une liste des prospects qui correspondent à la mission.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source><bpt id="p1">[</bpt>Relevance search<ept id="p1">](./attract-talent-pools.md#search-and-view-candidate-profiles)</ept> – You can search your whole candidate database for specific skills, names, or educational backgrounds.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Recherche de pertinence<ept id="p1">](./attract-talent-pools.md#search-and-view-candidate-profiles)</ept> – Vous pouvez consulter votre base de données complète de candidatures pour rechercher des qualifications, des noms, ou des formations spécifiques.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Attract searches the whole profile and highlights all the matches that it finds.</source><target logoport:matchpercent="78" state="translated" state-qualifier="x-fuzzy-match-unedited">Attract recherche dans tout le profil et met en évidence toutes les correspondances trouvées.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Attract also searches all documents that are available for a candidate and intelligently ranks the search results.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Attract recherche également dans tous les documents disponibles pour un candidat et classe intelligemment les résultats de la recherche.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source><bpt id="p1">[</bpt>Activity audience<ept id="p1">](./whats-new-talent-march-20.md#setting-the-audience-on-activities)</ept> – You can set the audience for activities (such as Interview, Schedule, or Feedback) to <bpt id="p2">**</bpt>All candidates<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Internal candidates<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>External candidates<ept id="p4">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Public des activités<ept id="p1">](./whats-new-talent-march-20.md#setting-the-audience-on-activities)</ept> – Vous pouvez définir le public des activités (telles que Entretien, Programme ou Commentaire) sur <bpt id="p2">**</bpt>Tous les candidats<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Candidats internes<ept id="p3">**</ept> ou <bpt id="p4">**</bpt>Candidats externes<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>You can deliver customer activities, such as YouTube videos, web content, and Microsoft Forms, to all candidates, internal candidates only, external candidates only, or the hiring team.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Vous pouvez fournir des activités client, comme des vidéos YouTube, du contenu Web et Microsoft Forms à tous les candidats, aux candidats internes uniquement, aux candidats externes uniquement, ou à l'équipe de recrutement.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source><bpt id="p1">[</bpt>Apply with LinkedIn<ept id="p1">](./career-site.md#enable-applying-for-jobs-with-linkedin-profiles)</ept> – You can set up an option on your Attract career site to let job candidates apply by using LinkedIn.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Postuler avec LinkedIn<ept id="p1">](./career-site.md#enable-applying-for-jobs-with-linkedin-profiles)</ept> – Vous pouvez paramétrer une option de votre site de carrière Attract pour permettre aux candidats d'une mission de postuler à l'aide de LinkedIn.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>This feature streamlines the application process for your candidates by letting them use their LinkedIn profile to automatically fill in their applications on your career site.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Cette fonction rationalise le processus de candidature pour vos candidats en les laissant utiliser leur profil LinkedIn pour renseigner automatiquement leurs candidatures sur votre site de carrière.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source><bpt id="p1">[</bpt>Source tracking<ept id="p1">](./source-tracking.md)</ept> – Attract tracks the source of candidate applications to provide valuable information that can help you target your recruiting efforts.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Suivi de source<ept id="p1">](./source-tracking.md)</ept> – Attract suit la source des candidatures des candidats pour fournir des informations précieuses qui vous aident à cibler vos efforts de recrutement.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>You can also select an application source when you're adding a candidate to a job or talent pool.</source><target logoport:matchpercent="73" state="translated" state-qualifier="fuzzy-match">Vous pouvez également sélectionner une source de candidature lorsque vous ajoutez un candidat à un emploi ou à un vivier de talents.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source><bpt id="p1">[</bpt>Silver medalist<ept id="p1">](./whats-new-talent-march-20.md#designate-silver-medalists-to-assign-high-value-applicants-for-future-positions)</ept> – If any candidates are a great fit for your organization, but you didn't extend an offer to them for your current position, you can designate them as silver medalists.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Médaillé d'argent<ept id="p1">](./whats-new-talent-march-20.md#designate-silver-medalists-to-assign-high-value-applicants-for-future-positions)</ept> – Si les candidats correspondent particulièrement à votre organisation, mais que vous ne leur avez pas fait d'offre pour votre poste actuel, vous pouvez les désigner comme médaillés d'argent.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>This feature helps reduce your time to hire the next time you have a similar position available.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Cette fonctionnalité permet de réduire le temps passé embaucher la prochaine fois que vous avez un poste similaire disponible.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Core HR</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Core HR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source><bpt id="p1">[</bpt>Validate position hierarchy data<ept id="p1">](./whats-new-talent-may-13-2019.md#new-page-to-validate-position-hierarchy-data)</ept> – You can validate the managerial hierarchy for any circular references that were inadvertently imported.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Valider les données de hiérarchie des postes<ept id="p1">](./whats-new-talent-may-13-2019.md#new-page-to-validate-position-hierarchy-data)</ept> – Vous pouvez contrôler la hiérarchie managériale pour toutes les références circulaires importées par inadvertance.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source><bpt id="p1">[</bpt>Specify reason codes on leave types<ept id="p1">](./whats-new-talent-may-13-2019.md#specify-reason-codes-on-leave-types)</ept> – You can specify reason codes for leave types.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Spécifier les codes motif des types de départ<ept id="p1">](./whats-new-talent-may-13-2019.md#specify-reason-codes-on-leave-types)</ept> – Vous pouvez spécifier des codes motif pour les types de départ.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source><bpt id="p1">[</bpt>Require reason codes on time-off requests<ept id="p1">](./whats-new-talent-may-13-2019.md#require-reason-codes-for-specific-leave-types-on-time-off-requests)</ept> – In addition to specifying reason codes for leave types, you can require reason codes for time-off requests.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Demander des codes motif pour les demandes de congés<ept id="p1">](./whats-new-talent-may-13-2019.md#require-reason-codes-for-specific-leave-types-on-time-off-requests)</ept> – Outre la spécification des codes motif pour les types de départs, vous pouvez demander des codes motif pour les demandes de congés.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source><bpt id="p1">[</bpt>Provide a leave and absence transaction list for HR<ept id="p1">](./whats-new-talent-may-13-2019.md#provide-a-leave-and-absence-transaction-list-for-hr)</ept> – You can view a list of leave and absence transactions to help provide insights into time-off balances.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Fournir une liste des transactions de départ et de congés pour les RH<ept id="p1">](./whats-new-talent-may-13-2019.md#provide-a-leave-and-absence-transaction-list-for-hr)</ept> – Vous pouvez afficher la liste des transactions de départ et de congés pour aider à fournir des informations sur les soldes de congés.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Onboard</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Intégrer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>No preview features are currently available for Onboard.</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">Aucune fonctionnalité d'aperçu n'est actuellement disponible pour Onboard.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Feedback</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rétroaction</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>We want to hear from you about your experience with any of these preview features.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Nous voulons connaître votre opinion sur votre expérience avec l'une de ces fonctionnalités d'aperçu.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>We encourage you to regularly post your feedback on the following sites as you use these or any other features:</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Nous vous encourageons à publier régulièrement vos commentaires sur les sites suivants lorsque vous utilisez ces fonctionnalités ou d'autres :</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source><bpt id="p1">[</bpt>Community<ept id="p1">](https://community.dynamics.com/enterprise/f/759?pi53869=0&amp;category=Talent)</ept> – This site is a great resource where users can discuss use cases, ask questions, and get community help.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Communauté<ept id="p1">](https://community.dynamics.com/enterprise/f/759?pi53869=0&amp;category=Talent)</ept> – Ce site est une ressource utile où les utilisateurs peuvent discuter de cas d'utilisation, poser des questions et obtenir l'aide de la communauté.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Let us know about features that you want to see in the product, or let us know about any changes you think we should make to existing features.</source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match">Faites-nous part des fonctionnalités que vous souhaitez voir dans le produit ou des modifications qui, selon vous, doivent être apportées aux fonctionnalités.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Suggest product ideas on the following sites:</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">Proposez des idées de produit pour les sites suivants :</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source><bpt id="p1">[</bpt>Attract ideas<ept id="p1">](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)</ept></source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited"><bpt id="p1">[</bpt>Idées pour Attract<ept id="p1">](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source><bpt id="p1">[</bpt>Core HR ideas<ept id="p1">](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)</ept></source><target logoport:matchpercent="66" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>Idées pour Core HR<ept id="p1">](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source><bpt id="p1">[</bpt>Onboard ideas<ept id="p1">](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard)</ept></source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Idées pour Onboard<ept id="p1">](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Make sure that you don't include personal data (any information that could identify you) in your feedback or product review submissions.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Assurez-vous de ne pas ajouter de données personnelles (toute information susceptible de vous identifier) dans vos commentaires ou vos demandes d'évaluation du produit.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Collected information might be analyzed further and isn't used to answer requests under applicable privacy laws.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Les informations collectées peuvent être analysées davantage, et ne sont pas utilisées pour répondre à des demandes aux termes des lois applicables sur la confidentialité.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Personal data that is collected separately under these programs is subject to the <bpt id="p1">[</bpt>Microsoft Privacy Statement<ept id="p1">](https://privacy.microsoft.com/privacystatement)</ept>.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Les données personnelles qui sont collectées séparément dans le cadre de ces programmes sont soumises à la <bpt id="p1">[</bpt>Déclaration de confidentialité Microsoft<ept id="p1">](https://privacy.microsoft.com/privacystatement)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Bookmark this topic, and check back often to stay up to date about new preview features as we release them.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Marquez cette rubrique et consultez-la régulièrement pour rester informé des nouvelles fonctionnalités d'aperçu dès leur parution.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>See also</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Voir également :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source><bpt id="p1">[</bpt>Try or buy Talent apps<ept id="p1">](https://dynamics.microsoft.com/talent/overview/)</ept></source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Essayer ou acheter des applications Talent<ept id="p1">](https://dynamics.microsoft.com/talent/overview/)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source><bpt id="p1">[</bpt>What's new<ept id="p1">](./whats-new.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Nouveautés<ept id="p1">](./whats-new.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source><bpt id="p1">[</bpt>Release notes<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/index)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Note de publication<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/index)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source><bpt id="p1">[</bpt>Get support for Talent<ept id="p1">](./talent-support.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Obtenir de l'aide sur Talent<ept id="p1">](./talent-support.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

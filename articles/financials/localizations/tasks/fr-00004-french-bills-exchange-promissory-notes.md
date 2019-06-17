@@ -1,67 +1,129 @@
----
-title: FR-00004 Effets de commerce et billets à ordre français
-description: L'état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées.
-author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: CustPaymMode, CustVendPaymFormat
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: France
-ms.author: epopov
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccccddf3b9e24b2a5114dd3ae16f1127e0f4d884
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537910"
----
-# <a name="fr-00004-french-bills-of-exchange-and-promissory-notes"></a><span data-ttu-id="db46c-103">FR-00004 Effets de commerce et billets à ordre français</span><span class="sxs-lookup"><span data-stu-id="db46c-103">FR-00004 French bills of exchange and promissory notes</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="db46c-104">L'état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées.</span><span class="sxs-lookup"><span data-stu-id="db46c-104">The French bill of exchange remittance report displays details about remitted bills of exchange.</span></span> <span data-ttu-id="db46c-105">L'état inclut des informations sur le compte bancaire, l'entité juridique et le type de remise.</span><span class="sxs-lookup"><span data-stu-id="db46c-105">The report includes information about your bank account, legal entity, and remittance type.</span></span> <span data-ttu-id="db46c-106">Il fournit également la liste des transactions client qui sont affectées par la lettre de change.</span><span class="sxs-lookup"><span data-stu-id="db46c-106">It also provides a list of customer transactions that are affected by the bill of exchange.</span></span> <span data-ttu-id="db46c-107">Cet état est utilisé par les commis à la comptabilité client et les commis à la comptabilité fournisseur pour mettre à jour des paiements client.</span><span class="sxs-lookup"><span data-stu-id="db46c-107">This report is used by accounts receivable clerks and accounts payable clerks to maintain customer payments.</span></span> 
-
-
-
-<span data-ttu-id="db46c-108">Cette procédure vous fait parcourir les étapes de la création du journal de remise de lettre de change et de la génération de l'état de remise de lettre de change.</span><span class="sxs-lookup"><span data-stu-id="db46c-108">This procedure walks you through creating the bill of exchange remittance journal and generating the bill of exchange remittance report.</span></span>
-
-<span data-ttu-id="db46c-109">Avant d'exécuter cette procédure, vous devez créer, approuver et valider la création du journal des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="db46c-109">Before you can complete this procedure, you must create, approve, and post draw the bill of exchange journal.</span></span>
-
-<span data-ttu-id="db46c-110">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="db46c-110">This procedure was created using the demo data company FRSI.</span></span>
-
-1. <span data-ttu-id="db46c-111">Accédez à Comptabilité client > Paiements > Lettre de change > Journal des remises.</span><span class="sxs-lookup"><span data-stu-id="db46c-111">Go to Accounts receivable > Payments > Bill of exchange > Remittance journal.</span></span>
-2. <span data-ttu-id="db46c-112">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="db46c-112">Click New.</span></span>
-3. <span data-ttu-id="db46c-113">Saisissez ou sélectionnez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="db46c-113">In the Name field, enter or select a value.</span></span>
-4. <span data-ttu-id="db46c-114">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="db46c-114">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="db46c-115">Entrez RemiseBque, par exemple.</span><span class="sxs-lookup"><span data-stu-id="db46c-115">For example, enter 'RemiseBque'.</span></span>  
-5. <span data-ttu-id="db46c-116">Cliquez sur l'onglet Lettre de change.</span><span class="sxs-lookup"><span data-stu-id="db46c-116">Click the Bill of exchange tab.</span></span>
-6. <span data-ttu-id="db46c-117">Dans le champ Compte en banque, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="db46c-117">In the Bank account field, enter or select a value.</span></span>
-7. <span data-ttu-id="db46c-118">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="db46c-118">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="db46c-119">Sélectionnez FRN, par exemple.</span><span class="sxs-lookup"><span data-stu-id="db46c-119">For example, select 'FRN'.</span></span>  
-8. <span data-ttu-id="db46c-120">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="db46c-120">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="db46c-121">Cliquez sur l'onglet Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="db46c-121">Click the Setup tab.</span></span>
-10. <span data-ttu-id="db46c-122">Sélectionnez Banque dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="db46c-122">In the Account type field, select 'Bank'.</span></span>
-11. <span data-ttu-id="db46c-123">Spécifiez les valeurs souhaitées dans le champ Compte de contrepartie.</span><span class="sxs-lookup"><span data-stu-id="db46c-123">In the Offset account field, specify the desired values.</span></span>
-    * <span data-ttu-id="db46c-124">Sélectionnez FRSI OPER, par exemple.</span><span class="sxs-lookup"><span data-stu-id="db46c-124">For example, select 'FRSI OPER'.</span></span>  
-12. <span data-ttu-id="db46c-125">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="db46c-125">Click Lines.</span></span>
-13. <span data-ttu-id="db46c-126">Dans le champ Compte, spécifiez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="db46c-126">In the Account field, specify the desired values.</span></span>
-    * <span data-ttu-id="db46c-127">Sélectionnez FR_SI_0020, par exemple.</span><span class="sxs-lookup"><span data-stu-id="db46c-127">For example, select 'FR_SI_0020'.</span></span>  
-14. <span data-ttu-id="db46c-128">Cliquez sur Régler les transactions.</span><span class="sxs-lookup"><span data-stu-id="db46c-128">Click Settle transactions.</span></span>
-    * <span data-ttu-id="db46c-129">Sélectionnez les lignes à inclure.</span><span class="sxs-lookup"><span data-stu-id="db46c-129">Select the lines to include.</span></span>  
-15. <span data-ttu-id="db46c-130">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="db46c-130">Click OK.</span></span>
-16. <span data-ttu-id="db46c-131">Cliquez sur Générer une remise.</span><span class="sxs-lookup"><span data-stu-id="db46c-131">Click Generate remittance.</span></span>
-17. <span data-ttu-id="db46c-132">Entrez ou sélectionnez une valeur dans le champ Mode de paiement.</span><span class="sxs-lookup"><span data-stu-id="db46c-132">In the Method of payment field, enter or select a value.</span></span>
-18. <span data-ttu-id="db46c-133">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="db46c-133">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="db46c-134">Sélectionnez BOEPDF, par exemple.</span><span class="sxs-lookup"><span data-stu-id="db46c-134">For example, select 'BOEPDF'.</span></span>  
-19. <span data-ttu-id="db46c-135">Tapez une valeur dans le champ Nom du fichier.</span><span class="sxs-lookup"><span data-stu-id="db46c-135">In the File name field, type a value.</span></span>
-20. <span data-ttu-id="db46c-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="db46c-136">Click OK.</span></span>
-    * <span data-ttu-id="db46c-137">Vous pouvez être invité à entrer une date de traitement.</span><span class="sxs-lookup"><span data-stu-id="db46c-137">You might be asked to enter a processing date.</span></span>  
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="fr-00004-french-bills-exchange-promissory-notes.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>fr-00004-french-bills-exchange-promissory-notes.901a43.31caed0c1eb94992a2c1dae50ccfbdaa9f8f8196.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>31caed0c1eb94992a2c1dae50ccfbdaa9f8f8196</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\fr-00004-french-bills-exchange-promissory-notes.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>FR-00004 French bills of exchange and promissory notes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00004 Effets de commerce et billets à ordre français</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>The French bill of exchange remittance report displays details about remitted bills of exchange.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>FR-00004 French bills of exchange and promissory notes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00004 Effets de commerce et billets à ordre français</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>The French bill of exchange remittance report displays details about remitted bills of exchange.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The report includes information about your bank account, legal entity, and remittance type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'état inclut des informations sur le compte bancaire, l'entité juridique et le type de remise.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>It also provides a list of customer transactions that are affected by the bill of exchange.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il fournit également la liste des transactions client qui sont affectées par la lettre de change.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>This report is used by accounts receivable clerks and accounts payable clerks to maintain customer payments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cet état est utilisé par les commis à la comptabilité client et les commis à la comptabilité fournisseur pour mettre à jour des paiements client.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>This procedure walks you through creating the bill of exchange remittance journal and generating the bill of exchange remittance report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure vous fait parcourir les étapes de la création du journal de remise de lettre de change et de la génération de l'état de remise de lettre de change.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Before you can complete this procedure, you must create, approve, and post draw the bill of exchange journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avant d'exécuter cette procédure, vous devez créer, approuver et valider la création du journal des lettres de change.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>This procedure was created using the demo data company FRSI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Go to Accounts receivable &gt; Payments &gt; Bill of exchange &gt; Remittance journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Paiements &gt; Lettre de change &gt; Journal des remises.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Name field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saisissez ou sélectionnez une valeur dans le champ Nom.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the list, click the link in the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>For example, enter 'RemiseBque'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez RemiseBque, par exemple.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Click the Bill of exchange tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur l'onglet Lettre de change.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the Bank account field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Compte en banque, saisissez ou sélectionnez une valeur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>For example, select 'FRN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez FRN, par exemple.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the list, click the link in the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Click the Setup tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur l'onglet Paramétrage.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>In the Account type field, select 'Bank'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Banque dans le champ Type de compte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In the Offset account field, specify the desired values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spécifiez les valeurs souhaitées dans le champ Compte de contrepartie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>For example, select 'FRSI OPER'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez FRSI OPER, par exemple.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Click Lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Lignes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>In the Account field, specify the desired values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Compte, spécifiez les valeurs souhaitées.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>For example, select 'FR_SI_0020'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez FR_SI_0020, par exemple.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Click Settle transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Régler les transactions.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Select the lines to include.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez les lignes à inclure.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Click Generate remittance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Générer une remise.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>In the Method of payment field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez ou sélectionnez une valeur dans le champ Mode de paiement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>For example, select 'BOEPDF'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez BOEPDF, par exemple.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>In the File name field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tapez une valeur dans le champ Nom du fichier.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>You might be asked to enter a processing date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez être invité à entrer une date de traitement.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

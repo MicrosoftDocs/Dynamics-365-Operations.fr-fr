@@ -1,71 +1,123 @@
----
-title: Factures financières dans le secteur public
-description: Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l'utilisation des classifications de facturation et des codes de facturation avec les factures financières.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: CustBillingClassification, CustBillingCode, CustFreeInvoice
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 25821
-ms.assetid: 483e2726-ec48-4d1f-82f5-bffddea301ce
-ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: brpotter
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b808f1b7200e5ec5034005d19fdb2167a528d7bf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512933"
----
-# <a name="free-text-invoices-in-the-public-sector"></a><span data-ttu-id="4dde9-103">Factures financières dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="4dde9-103">Free text invoices in the public sector</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="4dde9-104">Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l'utilisation des classifications de facturation et des codes de facturation avec les factures financières.</span><span class="sxs-lookup"><span data-stu-id="4dde9-104">This topic describes the free text invoice functionality that is available for public sector as well as answers common questions about using billing classifications and billing codes with free text invoices.</span></span>
-
-<a name="do-i-have-to-select-a-billing-classification-for-every-free-text-invoice"></a><span data-ttu-id="4dde9-105">Dois-je sélectionner une classification de facturation pour chaque facture financière ?</span><span class="sxs-lookup"><span data-stu-id="4dde9-105">Do I have to select a billing classification for every free text invoice?</span></span>
--------------------------------------------------------------------------
-
-<span data-ttu-id="4dde9-106">Oui, lorsque les classifications de facturation sont activées, vous devez entrer une classification de facturation pour chaque facture financière.</span><span class="sxs-lookup"><span data-stu-id="4dde9-106">Yes, when billing classifications are enabled, you have to enter a billing classification for every free text invoice.</span></span> <span data-ttu-id="4dde9-107">La classification de facturation contrôle quels codes facturation vous pouvez entrer sur la facture.</span><span class="sxs-lookup"><span data-stu-id="4dde9-107">The billing classification controls which billing codes that you can enter on the invoice.</span></span> <span data-ttu-id="4dde9-108">Elle régit également les conditions générales de paiement, les souches de numéros et le traitement de la facture.</span><span class="sxs-lookup"><span data-stu-id="4dde9-108">It also governs payment terms and conditions, number sequences, and the processing of the invoice.</span></span> <span data-ttu-id="4dde9-109">Pour plus d'informations sur les classifications de facturation, voir [Classifications de facturation et codes facturation dans le secteur public](billing-classifications-billing-codes-public-sector.md).</span><span class="sxs-lookup"><span data-stu-id="4dde9-109">To learn more about billing classifications, see [Billing classifications and billing codes in the public sector](billing-classifications-billing-codes-public-sector.md).</span></span>
-
-## <a name="what-happens-if-ive-already-created-free-text-invoices-when-i-enable-billing-classifications"></a><span data-ttu-id="4dde9-110">Que se passe-t-il si j'ai déjà créé des factures financières lorsque j'active les classifications de facturation ?</span><span class="sxs-lookup"><span data-stu-id="4dde9-110">What happens if I’ve already created free text invoices when I enable billing classifications?</span></span>
-<span data-ttu-id="4dde9-111">Si une facture n'était pas encore validée lorsque vous avez activé les classifications de facturation, vous devez affecter une classification de facturation à la facture avant de pouvoir la valider.</span><span class="sxs-lookup"><span data-stu-id="4dde9-111">If an invoice was not yet posted when you enabled billing classifications, you have to assign a billing classification to the invoice before you can post it.</span></span> <span data-ttu-id="4dde9-112">Lorsque vous ouvrez la page pour afficher la facture, vous obtenez un message indiquant que la classification de facturation est requise.</span><span class="sxs-lookup"><span data-stu-id="4dde9-112">When you open the page to view the invoice, you'll get a message telling you that the billing classification is required.</span></span>
-
-## <a name="why-should-i-use-billing-codes-when-i-create-free-text-invoices"></a><span data-ttu-id="4dde9-113">Pourquoi utiliser les codes facturation lorsque je crée des factures financières ?</span><span class="sxs-lookup"><span data-stu-id="4dde9-113">Why should I use billing codes when I create free text invoices?</span></span>
-<span data-ttu-id="4dde9-114">Lorsque vous sélectionnez un code facturation, les valeurs par défaut sont automatiquement entrées dans de nombreux champs de la ligne de facture.</span><span class="sxs-lookup"><span data-stu-id="4dde9-114">When you select a billing code, default values are automatically entered in many fields on the invoice line.</span></span> <span data-ttu-id="4dde9-115">Cela rend la saisie de données plus rapide et plus exacte.</span><span class="sxs-lookup"><span data-stu-id="4dde9-115">This makes data entry faster and more accurate.</span></span> <span data-ttu-id="4dde9-116">Les codes facturation sont également utilisés avec les définitions de validation pour contrôler la façon dont les transactions de comptabilité client sont validées dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="4dde9-116">Billing codes are also used with posting definitions to control how Accounts receivable transactions are posted to the ledger.</span></span>
-
-## <a name="im-creating-a-free-text-invoice-and-the-billing-code-that-i-want-to-use-isnt-available-what-should-i-do"></a><span data-ttu-id="4dde9-117">Je crée une facture financière, et le code facturation que je souhaite utiliser n'est pas disponible.</span><span class="sxs-lookup"><span data-stu-id="4dde9-117">I’m creating a free text invoice, and the billing code that I want to use isn’t available.</span></span> <span data-ttu-id="4dde9-118">Que dois-je faire ?</span><span class="sxs-lookup"><span data-stu-id="4dde9-118">What should I do?</span></span>
-<span data-ttu-id="4dde9-119">Assurez-vous d'abord que la facture utilise la bonne classification de facturation.</span><span class="sxs-lookup"><span data-stu-id="4dde9-119">First make sure that the invoice is using the right billing classification.</span></span> <span data-ttu-id="4dde9-120">Seuls certains codes facturation peuvent être utilisés avec chaque classification de facturation.</span><span class="sxs-lookup"><span data-stu-id="4dde9-120">Only certain billing codes can be used with each billing classification.</span></span> <span data-ttu-id="4dde9-121">Si la classification de facturation est correcte, vous devez alors sélectionner l'un des codes facturation disponibles pour la facture financière que vous créez.</span><span class="sxs-lookup"><span data-stu-id="4dde9-121">If the billing classification is correct, then you should select one of the billing codes that are available for the free text invoice that you are creating.</span></span>
-
-## <a name="i-can-change-some-of-the-fields-on-my-free-text-invoices-all-of-the-time-and-i-can-change-all-of-the-fields-some-of-the-time-but-some-of-the-fields-i-can-only-change-some-of-the-time-whats-up-with-that"></a><span data-ttu-id="4dde9-122">Je peux modifier certains champs de mes factures financières à tout moment, et je peux modifier tous les champs une partie du temps.</span><span class="sxs-lookup"><span data-stu-id="4dde9-122">I can change some of the fields on my free text invoices all of the time, and I can change all of the fields some of the time.</span></span> <span data-ttu-id="4dde9-123">Mais je peux uniquement modifier certains champs une partie du temps.</span><span class="sxs-lookup"><span data-stu-id="4dde9-123">But some of the fields I can only change some of the time.</span></span> <span data-ttu-id="4dde9-124">Qu'est-ce que cela signifie ?</span><span class="sxs-lookup"><span data-stu-id="4dde9-124">What’s up with that?</span></span>
-<span data-ttu-id="4dde9-125">Les paramètres du code facturation contrôlent si vous pouvez modifier certains champs.</span><span class="sxs-lookup"><span data-stu-id="4dde9-125">Settings on the billing code control whether you can change certain fields.</span></span>
-
--   <span data-ttu-id="4dde9-126">Si le code facturation sur une ligne de facture financière n'autorise pas les modifications de taux sur la facture, vous ne pouvez pas modifier le montant, le prix unitaire ni les détails du montant sur la ligne.</span><span class="sxs-lookup"><span data-stu-id="4dde9-126">If the billing code on a free text invoice line doesn’t allow rate changes on the invoice, you can’t change the amount, the unit price, or the amount details on the line.</span></span> 
-
-> [!TIP] 
-> <span data-ttu-id="4dde9-127">Si le champ **Le code facturation détermine** est défini à « prix unitaire », vous ne pouvez pas modifier le prix unitaire, mais vous pouvez modifier le montant indirectement en modifiant la quantité.</span><span class="sxs-lookup"><span data-stu-id="4dde9-127">If the **Billing code determines** field is set to unit price, you can’t change the unit price, but you can change the amount indirectly by changing the quantity.</span></span>
-
--   <span data-ttu-id="4dde9-128">Si le code facturation sur une ligne de facture financière n'autorise pas les modifications aux comptes généraux, vous ne pouvez pas modifier les répartitions comptables sur la ligne.</span><span class="sxs-lookup"><span data-stu-id="4dde9-128">If the billing code on a free text invoice line doesn’t allow changes to the ledger accounts, you can’t change the accounting distributions on the line.</span></span> <span data-ttu-id="4dde9-129">Vous pouvez modifier le compte principal qui s'affiche sur la ligne de facture financière, mais cette modification a un impact uniquement sur ce qui s'affiche.</span><span class="sxs-lookup"><span data-stu-id="4dde9-129">You can change the main account that displays on the free text invoice line, but that change affects only what is displayed.</span></span> <span data-ttu-id="4dde9-130">Modifier le compte principal n'affecte pas les répartitions.</span><span class="sxs-lookup"><span data-stu-id="4dde9-130">Changing the main account does not affect the distributions.</span></span>
--   <span data-ttu-id="4dde9-131">Lorsqu'un projet est associé à la ligne de facture, le code facturation contrôle si vous pouvez modifier l'ID projet, la catégorie et le compte général.</span><span class="sxs-lookup"><span data-stu-id="4dde9-131">When there’s a project associated with the invoice line, the billing code controls whether you can change the project ID, category, and ledger account.</span></span> 
-
-> [!TIP] 
-> <span data-ttu-id="4dde9-132">Pour modifier le compte général pour les lignes de facture associées à des projets, les modifications doivent être autorisées à la fois sur le code facturation lui-même et dans la section Projets de la page Paramètres de la comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="4dde9-132">To change the ledger account for invoice lines related to projects, changes have to be allowed both on the billing code itself and on the Projects section of the Accounts receivable parameters page.</span></span>
-
-<span data-ttu-id="4dde9-133">Pour plus d'informations sur les codes facturation, voir [Classifications de facturation et codes facturation dans le secteur public](billing-classifications-billing-codes-public-sector.md).</span><span class="sxs-lookup"><span data-stu-id="4dde9-133">To learn more about billing codes, see [Billing classifications and billing codes in the public sector](billing-classifications-billing-codes-public-sector.md).</span></span>
-
-## <a name="where-does-the-interest-code-on-a-free-text-invoice-come-from"></a><span data-ttu-id="4dde9-134">D'où vient le code intérêt sur une facture financière ?</span><span class="sxs-lookup"><span data-stu-id="4dde9-134">Where does the interest code on a free text invoice come from?</span></span>
-<span data-ttu-id="4dde9-135">Le code intérêt peut être défini sur le code facturation, la classification de facturation ou le profil de validation.</span><span class="sxs-lookup"><span data-stu-id="4dde9-135">The interest code can be set on the billing code, the billing classification, or the posting profile.</span></span>
-
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="free-text-invoices-public-sector.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>free-text-invoices-public-sector.2e651f.98030d14d85770c427aa2ef6e3f0c5560fc6bc99.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>98030d14d85770c427aa2ef6e3f0c5560fc6bc99</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\public-sector\free-text-invoices-public-sector.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Free text invoices in the public sector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Factures financières dans le secteur public</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes the free text invoice functionality that is available for public sector as well as answers common questions about using billing classifications and billing codes with free text invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l'utilisation des classifications de facturation et des codes de facturation avec les factures financières.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Free text invoices in the public sector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Factures financières dans le secteur public</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic describes the free text invoice functionality that is available for public sector as well as answers common questions about using billing classifications and billing codes with free text invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l'utilisation des classifications de facturation et des codes de facturation avec les factures financières.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Do I have to select a billing classification for every free text invoice?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dois-je sélectionner une classification de facturation pour chaque facture financière ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Yes, when billing classifications are enabled, you have to enter a billing classification for every free text invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oui, lorsque les classifications de facturation sont activées, vous devez entrer une classification de facturation pour chaque facture financière.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The billing classification controls which billing codes that you can enter on the invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La classification de facturation contrôle quels codes facturation vous pouvez entrer sur la facture.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>It also governs payment terms and conditions, number sequences, and the processing of the invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elle régit également les conditions générales de paiement, les souches de numéros et le traitement de la facture.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>To learn more about billing classifications, see <bpt id="p1">[</bpt>Billing classifications and billing codes in the public sector<ept id="p1">](billing-classifications-billing-codes-public-sector.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour plus d'informations sur les classifications de facturation, voir <bpt id="p1">[</bpt>Classifications de facturation et codes facturation dans le secteur public<ept id="p1">](billing-classifications-billing-codes-public-sector.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>What happens if I’ve already created free text invoices when I enable billing classifications?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Que se passe-t-il si j'ai déjà créé des factures financières lorsque j'active les classifications de facturation ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>If an invoice was not yet posted when you enabled billing classifications, you have to assign a billing classification to the invoice before you can post it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si une facture n'était pas encore validée lorsque vous avez activé les classifications de facturation, vous devez affecter une classification de facturation à la facture avant de pouvoir la valider.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>When you open the page to view the invoice, you'll get a message telling you that the billing classification is required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous ouvrez la page pour afficher la facture, vous obtenez un message indiquant que la classification de facturation est requise.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Why should I use billing codes when I create free text invoices?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pourquoi utiliser les codes facturation lorsque je crée des factures financières ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>When you select a billing code, default values are automatically entered in many fields on the invoice line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous sélectionnez un code facturation, les valeurs par défaut sont automatiquement entrées dans de nombreux champs de la ligne de facture.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>This makes data entry faster and more accurate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cela rend la saisie de données plus rapide et plus exacte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Billing codes are also used with posting definitions to control how Accounts receivable transactions are posted to the ledger.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les codes facturation sont également utilisés avec les définitions de validation pour contrôler la façon dont les transactions de comptabilité client sont validées dans la comptabilité.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>I’m creating a free text invoice, and the billing code that I want to use isn’t available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Je crée une facture financière, et le code facturation que je souhaite utiliser n'est pas disponible.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>What should I do?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Que dois-je faire ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>First make sure that the invoice is using the right billing classification.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Assurez-vous d'abord que la facture utilise la bonne classification de facturation.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Only certain billing codes can be used with each billing classification.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seuls certains codes facturation peuvent être utilisés avec chaque classification de facturation.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>If the billing classification is correct, then you should select one of the billing codes that are available for the free text invoice that you are creating.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si la classification de facturation est correcte, vous devez alors sélectionner l'un des codes facturation disponibles pour la facture financière que vous créez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>I can change some of the fields on my free text invoices all of the time, and I can change all of the fields some of the time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Je peux modifier certains champs de mes factures financières à tout moment, et je peux modifier tous les champs une partie du temps.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>But some of the fields I can only change some of the time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mais je peux uniquement modifier certains champs une partie du temps.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>What’s up with that?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Qu'est-ce que cela signifie ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Settings on the billing code control whether you can change certain fields.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les paramètres du code facturation contrôlent si vous pouvez modifier certains champs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>If the billing code on a free text invoice line doesn’t allow rate changes on the invoice, you can’t change the amount, the unit price, or the amount details on the line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si le code facturation sur une ligne de facture financière n'autorise pas les modifications de taux sur la facture, vous ne pouvez pas modifier le montant, le prix unitaire ni les détails du montant sur la ligne.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>If the <bpt id="p1">**</bpt>Billing code determines<ept id="p1">**</ept> field is set to unit price, you can’t change the unit price, but you can change the amount indirectly by changing the quantity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si le champ <bpt id="p1">**</bpt>Le code facturation détermine<ept id="p1">**</ept> est défini à « prix unitaire », vous ne pouvez pas modifier le prix unitaire, mais vous pouvez modifier le montant indirectement en modifiant la quantité.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>If the billing code on a free text invoice line doesn’t allow changes to the ledger accounts, you can’t change the accounting distributions on the line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si le code facturation sur une ligne de facture financière n'autorise pas les modifications aux comptes généraux, vous ne pouvez pas modifier les répartitions comptables sur la ligne.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>You can change the main account that displays on the free text invoice line, but that change affects only what is displayed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez modifier le compte principal qui s'affiche sur la ligne de facture financière, mais cette modification a un impact uniquement sur ce qui s'affiche.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Changing the main account does not affect the distributions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modifier le compte principal n'affecte pas les répartitions.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>When there’s a project associated with the invoice line, the billing code controls whether you can change the project ID, category, and ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsqu'un projet est associé à la ligne de facture, le code facturation contrôle si vous pouvez modifier l'ID projet, la catégorie et le compte général.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>To change the ledger account for invoice lines related to projects, changes have to be allowed both on the billing code itself and on the Projects section of the Accounts receivable parameters page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour modifier le compte général pour les lignes de facture associées à des projets, les modifications doivent être autorisées à la fois sur le code facturation lui-même et dans la section Projets de la page Paramètres de la comptabilité client.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>To learn more about billing codes, see <bpt id="p1">[</bpt>Billing classifications and billing codes in the public sector<ept id="p1">](billing-classifications-billing-codes-public-sector.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour plus d'informations sur les codes facturation, voir <bpt id="p1">[</bpt>Classifications de facturation et codes facturation dans le secteur public<ept id="p1">](billing-classifications-billing-codes-public-sector.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Where does the interest code on a free text invoice come from?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">D'où vient le code intérêt sur une facture financière ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>The interest code can be set on the billing code, the billing classification, or the posting profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le code intérêt peut être défini sur le code facturation, la classification de facturation ou le profil de validation.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

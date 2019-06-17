@@ -1,57 +1,93 @@
----
-title: FR-00004 Valider le journal de création et de contestation des lettres de change
-description: Cette procédure vous guide au cours des étapes des contestation d'une lettre de change impayée.
-author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: LedgerJournalTable, LedgerJournalTransCustBillOfExchange, CustOpenTrans
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: France
-ms.author: epopov
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26fc7d567fe9c986078a3268e8f1ac9f4fa34bc8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537909"
----
-# <a name="fr-00004-post-protest-draw-bill-of-exchange-journal"></a><span data-ttu-id="78675-103">FR-00004 Valider le journal de création et de contestation des lettres de change</span><span class="sxs-lookup"><span data-stu-id="78675-103">FR-00004 Post protest draw bill of exchange journal</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="78675-104">Cette procédure vous guide au cours des étapes des contestation d'une lettre de change impayée.</span><span class="sxs-lookup"><span data-stu-id="78675-104">This procedure walks you through the steps of protesting bill of exchange.</span></span>
-
-<span data-ttu-id="78675-105">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="78675-105">This procedure was created using the demo data company FRSI.</span></span> 
-
-<span data-ttu-id="78675-106">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="78675-106">This functionality is available for legal entities whose primary address is in France.</span></span>
-
-<span data-ttu-id="78675-107">Pour effectuer cette procédure, vous devez avoir le rôle de commis à la comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="78675-107">You should have a role of Accounts receivables clerk to complete this procedure.</span></span>
-
-
-
-1. <span data-ttu-id="78675-108">Accédez à Comptabilité client > Paiements > Lettre de change > Journal des lettres de change impayées.</span><span class="sxs-lookup"><span data-stu-id="78675-108">Go to Accounts receivable > Payments > Bill of exchange > Protest bill of exchange journal.</span></span>
-2. <span data-ttu-id="78675-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="78675-109">Click New.</span></span>
-3. <span data-ttu-id="78675-110">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="78675-110">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="78675-111">Saisissez ou sélectionnez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="78675-111">In the Name field, enter or select a value.</span></span>
-5. <span data-ttu-id="78675-112">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="78675-112">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="78675-113">Sélectionnez « LitigeEAR »</span><span class="sxs-lookup"><span data-stu-id="78675-113">Select "LitigeEAR"</span></span>  
-6. <span data-ttu-id="78675-114">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="78675-114">Click Lines.</span></span>
-7. <span data-ttu-id="78675-115">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="78675-115">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="78675-116">Dans le champ Compte, spécifiez les valeurs « FR_SI_0001 ».</span><span class="sxs-lookup"><span data-stu-id="78675-116">In the Account field, specify the values 'FR_SI_0001'.</span></span>
-9. <span data-ttu-id="78675-117">Cliquez sur Régler les transactions.</span><span class="sxs-lookup"><span data-stu-id="78675-117">Click Settle transactions.</span></span>
-10. <span data-ttu-id="78675-118">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="78675-118">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="78675-119">Marquer le journal de création de lettres de change le plus récemment validé</span><span class="sxs-lookup"><span data-stu-id="78675-119">Mark the most recently posted draw bill of exchange journal</span></span>  
-11. <span data-ttu-id="78675-120">Cochez la case Marquer.</span><span class="sxs-lookup"><span data-stu-id="78675-120">Select the Mark check box.</span></span>
-12. <span data-ttu-id="78675-121">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="78675-121">Click OK.</span></span>
-13. <span data-ttu-id="78675-122">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="78675-122">Click Post.</span></span>
-14. <span data-ttu-id="78675-123">Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="78675-123">Go to Accounts receivable > Inquiries and reports > Payments > Bill of exchange journal.</span></span>
-    * <span data-ttu-id="78675-124">Vérifiez que le statut du journal récemment validé est Impayés.</span><span class="sxs-lookup"><span data-stu-id="78675-124">Verify that Status for the newly posted journal should be Protested.</span></span> <span data-ttu-id="78675-125">Si c'est le cas, le processus est terminé.</span><span class="sxs-lookup"><span data-stu-id="78675-125">If yes, the process is complete</span></span>  
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="fr-00004-post-protest-draw-bill-exchange-journal.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>fr-00004-post-protest-draw-bill-exchange-journal.dac600.a00c5422e0a7671a76345bb1652e99faaca11109.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>a00c5422e0a7671a76345bb1652e99faaca11109</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\fr-00004-post-protest-draw-bill-exchange-journal.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>FR-00004 Post protest draw bill of exchange journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00004 Valider le journal de création et de contestation des lettres de change</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks you through the steps of protesting bill of exchange.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure vous guide au cours des étapes des contestation d'une lettre de change impayée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>FR-00004 Post protest draw bill of exchange journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00004 Valider le journal de création et de contestation des lettres de change</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks you through the steps of protesting bill of exchange.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure vous guide au cours des étapes des contestation d'une lettre de change impayée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure was created using the demo data company FRSI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This functionality is available for legal entities whose primary address is in France.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>You should have a role of Accounts receivables clerk to complete this procedure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour effectuer cette procédure, vous devez avoir le rôle de commis à la comptabilité client.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Go to Accounts receivable &gt; Payments &gt; Bill of exchange &gt; Protest bill of exchange journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Paiements &gt; Lettre de change &gt; Journal des lettres de change impayées.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquez la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In the Name field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saisissez ou sélectionnez une valeur dans le champ Nom.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the list, click the link in the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Select "LitigeEAR"</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez « LitigeEAR »</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Click Lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Lignes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquez la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In the Account field, specify the values 'FR_SI_0001'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Compte, spécifiez les valeurs « FR_SI_0001 ».</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Click Settle transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Régler les transactions.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquez la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Mark the most recently posted draw bill of exchange journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marquer le journal de création de lettres de change le plus récemment validé</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Select the Mark check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cochez la case Marquer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Click Post.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Valider.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Go to Accounts receivable &gt; Inquiries and reports &gt; Payments &gt; Bill of exchange journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Recherches et états &gt; Paiements &gt; Journal des lettres de change.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Verify that Status for the newly posted journal should be Protested.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vérifiez que le statut du journal récemment validé est Impayés.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>If yes, the process is complete</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si c'est le cas, le processus est terminé.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

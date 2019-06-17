@@ -1,47 +1,63 @@
----
-title: FR-00018 Calcul des intérêts quotidiens de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance
-description: Indiquez le calcul des intérêts sur une facture.
-author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: SalesTableListPage, SalesEditLines
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: France
-ms.author: epopov
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eebd3fd29ee8b45dcd3d50907518f024dd9abe43
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537906"
----
-# <a name="fr-00018-daily-interest-calculation-for-late-payment-and-lump-sum-in-the-invoice-and-collection-letter"></a><span data-ttu-id="d64db-103">FR-00018 Calcul des intérêts quotidiens de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance</span><span class="sxs-lookup"><span data-stu-id="d64db-103">FR-00018 Daily interest calculation for late payment and lump sum in the invoice and collection letter</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="d64db-104">Indiquez le calcul des intérêts sur une facture.</span><span class="sxs-lookup"><span data-stu-id="d64db-104">Indicate the interest calculation on an invoice.</span></span>
-
-<span data-ttu-id="d64db-105">Cette procédure a été créée à l'aide des données fictives de la société FRRT.</span><span class="sxs-lookup"><span data-stu-id="d64db-105">This procedure was created using the demo data company FRRT.</span></span> 
-
-<span data-ttu-id="d64db-106">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="d64db-106">This functionality is available for legal entities whose primary address is in France.</span></span>
-
-
-
-1. <span data-ttu-id="d64db-107">Accédez à Comptabilité client > Commandes > Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="d64db-107">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="d64db-108">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d64db-108">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="d64db-109">Dans le volet Actions, cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="d64db-109">On the Action Pane, click Invoice.</span></span>
-4. <span data-ttu-id="d64db-110">Cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="d64db-110">Click Invoice.</span></span>
-5. <span data-ttu-id="d64db-111">Activez ou désactivez la case à cocher Imprimer la facture.</span><span class="sxs-lookup"><span data-stu-id="d64db-111">Select or clear the Print invoice check box.</span></span>
-6. <span data-ttu-id="d64db-112">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="d64db-112">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="d64db-113">Activez ou désactivez la case à cocher Imprimer le texte récupéré du montant forfaitaire.</span><span class="sxs-lookup"><span data-stu-id="d64db-113">Select or clear the Print lump sum recovery text check box.</span></span>
-8. <span data-ttu-id="d64db-114">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="d64db-114">Click OK.</span></span>
-9. <span data-ttu-id="d64db-115">Cliquez sur Oui.</span><span class="sxs-lookup"><span data-stu-id="d64db-115">Click Yes.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="fr-00018-daily-interest.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>fr-00018-daily-interest.9bac1c.b9ce7f2beb38308cc9c00b4775303bbab917e730.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>b9ce7f2beb38308cc9c00b4775303bbab917e730</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\fr-00018-daily-interest.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>FR-00018 Daily interest calculation for late payment and lump sum in the invoice and collection letter</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00018 Calcul des intérêts quotidiens de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>Indicate the interest calculation on an invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Indiquez le calcul des intérêts sur une facture.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>FR-00018 Daily interest calculation for late payment and lump sum in the invoice and collection letter</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00018 Calcul des intérêts quotidiens de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Indicate the interest calculation on an invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Indiquez le calcul des intérêts sur une facture.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure was created using the demo data company FRRT.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure a été créée à l'aide des données fictives de la société FRRT.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This functionality is available for legal entities whose primary address is in France.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Commandes &gt; Toutes les commandes client.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquez la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le volet Actions, cliquez sur Facture.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Facture.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Select or clear the Print invoice check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Activez ou désactivez la case à cocher Imprimer la facture.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquer la ligne sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Select or clear the Print lump sum recovery text check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Activez ou désactivez la case à cocher Imprimer le texte récupéré du montant forfaitaire.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Click Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Oui.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

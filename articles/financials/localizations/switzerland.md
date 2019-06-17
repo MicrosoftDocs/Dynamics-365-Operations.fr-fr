@@ -1,32 +1,33 @@
----
-title: Suisse
-description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 for Finance and Operations pour la Suisse.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 07/17/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: ''
-ms.search.region: Switzerland
-ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87ffd19e9ce22b1ecb57ef47070b393ce7374bcf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537925"
----
-# <a name="switzerland"></a><span data-ttu-id="19b62-103">Suisse</span><span class="sxs-lookup"><span data-stu-id="19b62-103">Switzerland</span></span> 
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="19b62-104">Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse.</span><span class="sxs-lookup"><span data-stu-id="19b62-104">This topic provides links to documentation resources for Switzerland.</span></span> 
-
-- [<span data-ttu-id="19b62-105">Importer des paiements client dans ESR</span><span class="sxs-lookup"><span data-stu-id="19b62-105">Import customer payments in ESR</span></span>](emea-che-esr-customer-payments-import.md)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="switzerland.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>switzerland.1c5760.daabdf183cb4de55d3b6cae24c7f353ffc39059f.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>daabdf183cb4de55d3b6cae24c7f353ffc39059f</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\switzerland.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Switzerland</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suisse</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides links to  Microsoft Dynamics 365 for Finance and Operations documentation resources for Switzerland.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 for Finance and Operations pour la Suisse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Switzerland</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suisse</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides links to documentation resources for Switzerland.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source><bpt id="p1">[</bpt>Import customer payments in ESR<ept id="p1">](emea-che-esr-customer-payments-import.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Importer des paiements client dans ESR<ept id="p1">](emea-che-esr-customer-payments-import.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

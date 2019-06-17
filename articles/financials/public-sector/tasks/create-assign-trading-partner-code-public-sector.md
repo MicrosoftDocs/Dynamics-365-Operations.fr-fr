@@ -1,50 +1,81 @@
----
-title: Créer et affecter un code de partenaire commercial dans le secteur public
-description: Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales.
-author: twheeloc
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: CustGroup, CustTradingPartnerCode, CustTable
-audience: Application User
-ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: twheeloc
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f1cd3e0de196c252c3c14521177df150efa61e0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537872"
----
-# <a name="create-and-assign-a-trading-partner-code-in-the-public-sector"></a><span data-ttu-id="33aca-103">Créer et affecter un code de partenaire commercial dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="33aca-103">Create and assign a trading partner code in the public sector</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="33aca-104">Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales.</span><span class="sxs-lookup"><span data-stu-id="33aca-104">Create a trading partner code and assign it to a government agency that your organization does business with.</span></span> <span data-ttu-id="33aca-105">Pour que vous puissiez effectuer cette tâche, l'enregistrement client pour l'agence doit exister.</span><span class="sxs-lookup"><span data-stu-id="33aca-105">The customer record for the agency must exist before you can perform this task.</span></span> <span data-ttu-id="33aca-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="33aca-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
-
-
-## <a name="create-a-trading-partner-code"></a><span data-ttu-id="33aca-107">Créer un code partenaire commercial</span><span class="sxs-lookup"><span data-stu-id="33aca-107">Create a trading partner code</span></span>
-1. <span data-ttu-id="33aca-108">Accédez à Comptabilité client > Paramétrage > Codes partenaire commercial.</span><span class="sxs-lookup"><span data-stu-id="33aca-108">Go to Accounts receivable > Setup > Trading partner codes.</span></span>
-2. <span data-ttu-id="33aca-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="33aca-109">Click New.</span></span>
-3. <span data-ttu-id="33aca-110">Dans le champ Code partenaire commercial, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="33aca-110">In the Trading partner code field, type a value.</span></span>
-    * <span data-ttu-id="33aca-111">Les codes partenaire commercial pour les agences gouvernementales sont définis par le Département du Trésor des États-Unis.</span><span class="sxs-lookup"><span data-stu-id="33aca-111">The trading partner codes for government agencies are defined by the United States Department of the Treasury.</span></span>  
-4. <span data-ttu-id="33aca-112">Dans le champ Description, entrez le nom de l'agence utilisant ce code.</span><span class="sxs-lookup"><span data-stu-id="33aca-112">In the Description field, type the name of the agency that uses this code..</span></span>
-5. <span data-ttu-id="33aca-113">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="33aca-113">Click Save.</span></span>
-
-## <a name="assign-a-trading-partner-code"></a><span data-ttu-id="33aca-114">Affecter un code partenaire commercial</span><span class="sxs-lookup"><span data-stu-id="33aca-114">Assign a trading partner code</span></span>
-1. <span data-ttu-id="33aca-115">Accédez à Comptabilité client > Clients > Tous les clients.</span><span class="sxs-lookup"><span data-stu-id="33aca-115">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="33aca-116">Dans la liste, recherchez et sélectionnez l'agence à laquelle affecter un code partenaire commercial.</span><span class="sxs-lookup"><span data-stu-id="33aca-116">In the list, find and select the agency to assign a trading partner code to.</span></span>
-3. <span data-ttu-id="33aca-117">Cliquez pour suivre le lien dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="33aca-117">Click to follow the link in the Name field.</span></span>
-4. <span data-ttu-id="33aca-118">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="33aca-118">Click Edit.</span></span>
-5. <span data-ttu-id="33aca-119">Développez la section Détails divers.</span><span class="sxs-lookup"><span data-stu-id="33aca-119">Expand the Miscellaneous details section.</span></span>
-6. <span data-ttu-id="33aca-120">Dans le champ Code partenaire commercial, sélectionnez le code partenaire commercial pour cette agence.</span><span class="sxs-lookup"><span data-stu-id="33aca-120">In the Trading partner code field, select the trading partner code for this agency..</span></span>
-7. <span data-ttu-id="33aca-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="33aca-121">Click Save.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="create-assign-trading-partner-code-public-sector.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>create-assign-trading-partner-code-public-sector.b03a67.346b0481b3839ef7fcef3d2e8427bf9037b3683a.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>346b0481b3839ef7fcef3d2e8427bf9037b3683a</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\public-sector\tasks\create-assign-trading-partner-code-public-sector.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Create and assign a trading partner code in the public sector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer et affecter un code de partenaire commercial dans le secteur public</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>Create a trading partner code and assign it to a government agency that your organization does business with.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Create and assign a trading partner code in the public sector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer et affecter un code de partenaire commercial dans le secteur public</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Create a trading partner code and assign it to a government agency that your organization does business with.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The customer record for the agency must exist before you can perform this task.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour que vous puissiez effectuer cette tâche, l'enregistrement client pour l'agence doit exister.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This procedure was created using the PSUS demo company data in the public sector partition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Create a trading partner code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer un code partenaire commercial</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Go to Accounts receivable &gt; Setup &gt; Trading partner codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Paramétrage &gt; Codes partenaire commercial.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In the Trading partner code field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Code partenaire commercial, tapez une valeur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The trading partner codes for government agencies are defined by the United States Department of the Treasury.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les codes partenaire commercial pour les agences gouvernementales sont définis par le Département du Trésor des États-Unis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Description field, type the name of the agency that uses this code..</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Description, entrez le nom de l'agence utilisant ce code.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Assign a trading partner code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Affecter un code partenaire commercial</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Go to Accounts receivable &gt; Customers &gt; All customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Clients &gt; Tous les clients.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In the list, find and select the agency to assign a trading partner code to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, recherchez et sélectionnez l'agence à laquelle affecter un code partenaire commercial.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Click to follow the link in the Name field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez pour suivre le lien dans le champ Nom.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Modifier.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Expand the Miscellaneous details section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Détails divers.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the Trading partner code field, select the trading partner code for this agency..</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Code partenaire commercial, sélectionnez le code partenaire commercial pour cette agence.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

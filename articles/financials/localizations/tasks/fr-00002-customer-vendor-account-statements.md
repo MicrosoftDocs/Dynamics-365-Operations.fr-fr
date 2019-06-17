@@ -1,52 +1,72 @@
----
-title: FR-00002 Relevés de compte client et fournisseur
-description: Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.
-author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: SrsReportViewerForm
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: France
-ms.author: epopov
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb08f152f71d7b7a25f9fdfe5d9f7ec903d846de
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537912"
----
-# <a name="fr-00002-customer-and-vendor-account-statements"></a><span data-ttu-id="3d816-103">FR-00002 Relevés de compte client et fournisseur</span><span class="sxs-lookup"><span data-stu-id="3d816-103">FR-00002 Customer and vendor account statements</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="3d816-104">Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3d816-104">You can print accounts statements for customers and vendors that display information for a time period that you select.</span></span>
-
-<span data-ttu-id="3d816-105">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="3d816-105">This procedure was created using the demo data company FRSI.</span></span> 
-
-<span data-ttu-id="3d816-106">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="3d816-106">This functionality is available for legal entities whose primary address is in France.</span></span>
-
-
-
-
-## <a name="print-the-customer-account-statement-report"></a><span data-ttu-id="3d816-107">Imprimer l'état du relevé de compte client</span><span class="sxs-lookup"><span data-stu-id="3d816-107">Print the customer account statement report</span></span>
-1. <span data-ttu-id="3d816-108">Accédez à Comptabilité > Recherches et états > Clients > État de relevé de compte client - France.</span><span class="sxs-lookup"><span data-stu-id="3d816-108">Go to Accounts receivable > Inquiries and reports > Customers > Customer account statement report - France.</span></span>
-2. <span data-ttu-id="3d816-109">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="3d816-109">In the From date field, enter a date.</span></span>
-3. <span data-ttu-id="3d816-110">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="3d816-110">In the To date field, enter a date.</span></span>
-4. <span data-ttu-id="3d816-111">Dans le champ Évaluation, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="3d816-111">In the Assessment date field, enter a date.</span></span>
-5. <span data-ttu-id="3d816-112">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="3d816-112">Click OK.</span></span>
-
-## <a name="print-the-vendor-account-statement-report"></a><span data-ttu-id="3d816-113">Imprimer l'état du relevé de compte fournisseur</span><span class="sxs-lookup"><span data-stu-id="3d816-113">Print the vendor account statement report</span></span>
-1. <span data-ttu-id="3d816-114">Accédez à Comptabilité fournisseur > Recherches et états > États fournisseur > Relevé de compte.</span><span class="sxs-lookup"><span data-stu-id="3d816-114">Go to Accounts payable > Inquiries and reports > Vendor reports > Account statement.</span></span>
-2. <span data-ttu-id="3d816-115">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="3d816-115">In the From date field, enter a date.</span></span>
-3. <span data-ttu-id="3d816-116">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="3d816-116">In the To date field, enter a date.</span></span>
-4. <span data-ttu-id="3d816-117">Dans le champ Évaluation, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="3d816-117">In the Assessment date field, enter a date.</span></span>
-5. <span data-ttu-id="3d816-118">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="3d816-118">Click OK.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="fr-00002-customer-vendor-account-statements.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>fr-00002-customer-vendor-account-statements.7caa6a.b5b390bb30f5bc26dd465a13306e152b6668eb3b.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>b5b390bb30f5bc26dd465a13306e152b6668eb3b</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\fr-00002-customer-vendor-account-statements.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>FR-00002 Customer and vendor account statements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00002 Relevés de compte client et fournisseur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You can print accounts statements for customers and vendors that display information for a time period that you select.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>FR-00002 Customer and vendor account statements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00002 Relevés de compte client et fournisseur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can print accounts statements for customers and vendors that display information for a time period that you select.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure was created using the demo data company FRSI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This functionality is available for legal entities whose primary address is in France.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Print the customer account statement report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Imprimer l'état du relevé de compte client</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Go to Accounts receivable &gt; Inquiries and reports &gt; Customers &gt; Customer account statement report - France.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité &gt; Recherches et états &gt; Clients &gt; État de relevé de compte client - France.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>In the From date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez une date dans le champ Date de début.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In the To date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez une date dans le champ Date de fin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In the Assessment date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Évaluation, entrez une date.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Print the vendor account statement report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Imprimer l'état du relevé de compte fournisseur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Go to Accounts payable &gt; Inquiries and reports &gt; Vendor reports &gt; Account statement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité fournisseur &gt; Recherches et états &gt; États fournisseur &gt; Relevé de compte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>In the From date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez une date dans le champ Date de début.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In the To date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez une date dans le champ Date de fin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the Assessment date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Évaluation, entrez une date.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

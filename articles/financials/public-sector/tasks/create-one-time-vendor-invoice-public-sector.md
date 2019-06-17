@@ -1,40 +1,60 @@
----
-title: Créer un fournisseur occasionnel et une facture dans le secteur public
-description: L'enregistrement fournisseur utilise les valeurs du compte fournisseur occasionnel par défaut.
-author: twheeloc
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: VendOpenInvoicesListPage, VendOneTimeVendInvoice_PSN
-audience: Application User
-ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: twheeloc
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5770c2f43484e9451fd7a5bf066762ee2efbff0e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537881"
----
-# <a name="create-a-one-time-vendor-and-invoice-in-the-public-sector"></a><span data-ttu-id="a2754-103">Créer un fournisseur occasionnel et une facture dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="a2754-103">Create a one-time vendor and invoice in the public sector</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="a2754-104">L'enregistrement fournisseur utilise les valeurs du compte fournisseur occasionnel par défaut.</span><span class="sxs-lookup"><span data-stu-id="a2754-104">The vendor record uses values from the default one-time vendor account.</span></span> <span data-ttu-id="a2754-105">Pour afficher les détails du compte, accédez à la page Tous les fournisseurs, puis double-cliquez sur le numéro de compte du fournisseur occasionnel par défaut.</span><span class="sxs-lookup"><span data-stu-id="a2754-105">To view the account details, go to the All vendors page, and then double-click the vendor account number of the default one-time vendor.</span></span> <span data-ttu-id="a2754-106">Vous pouvez créer et affecter aux fournisseurs n'importe quels types de certification qu'ils sont susceptibles de détenir.</span><span class="sxs-lookup"><span data-stu-id="a2754-106">You can create and assign to vendors any types of certification that they may hold.</span></span> <span data-ttu-id="a2754-107">Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="a2754-107">This task guide was created using the PSUS demo company data in the public sector partition.</span></span>
-
-1. <span data-ttu-id="a2754-108">Accédez à Comptabilité fournisseur > Factures > Factures fournisseur en cours.</span><span class="sxs-lookup"><span data-stu-id="a2754-108">Go to Accounts payable > Invoices > Open vendor invoices.</span></span>
-2. <span data-ttu-id="a2754-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a2754-109">Click New.</span></span>
-3. <span data-ttu-id="a2754-110">Cliquez sur Fournisseur occasionnel et facture.</span><span class="sxs-lookup"><span data-stu-id="a2754-110">Click One-time vendor and invoice.</span></span>
-4. <span data-ttu-id="a2754-111">Sélectionnez une option dans le champ Type.</span><span class="sxs-lookup"><span data-stu-id="a2754-111">In the Type field, select an option.</span></span>
-    * <span data-ttu-id="a2754-112">Renseignez les autres champs si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="a2754-112">Fill out the other fields as necessary.</span></span>  
-5. <span data-ttu-id="a2754-113">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="a2754-113">Click Create.</span></span>
-    * <span data-ttu-id="a2754-114">La page Facture fournisseur s'ouvre, affichant les informations relatives au fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a2754-114">The Vendor invoice page opens, displaying the vendor information.</span></span>  
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="create-one-time-vendor-invoice-public-sector.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>create-one-time-vendor-invoice-public-sector.5b3432.e3ad4dd612293816899b6e70400b19eb0465338a.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>e3ad4dd612293816899b6e70400b19eb0465338a</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\public-sector\tasks\create-one-time-vendor-invoice-public-sector.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Create a one-time vendor and invoice in the public sector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer un fournisseur occasionnel et une facture dans le secteur public</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>The vendor record uses values from the default one-time vendor account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'enregistrement fournisseur utilise les valeurs du compte fournisseur occasionnel par défaut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Create a one-time vendor and invoice in the public sector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer un fournisseur occasionnel et une facture dans le secteur public</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>The vendor record uses values from the default one-time vendor account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'enregistrement fournisseur utilise les valeurs du compte fournisseur occasionnel par défaut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>To view the account details, go to the All vendors page, and then double-click the vendor account number of the default one-time vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour afficher les détails du compte, accédez à la page Tous les fournisseurs, puis double-cliquez sur le numéro de compte du fournisseur occasionnel par défaut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>You can create and assign to vendors any types of certification that they may hold.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez créer et affecter aux fournisseurs n'importe quels types de certification qu'ils sont susceptibles de détenir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>This task guide was created using the PSUS demo company data in the public sector partition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Go to Accounts payable &gt; Invoices &gt; Open vendor invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité fournisseur &gt; Factures &gt; Factures fournisseur en cours.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Click One-time vendor and invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Fournisseur occasionnel et facture.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In the Type field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez une option dans le champ Type.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Fill out the other fields as necessary.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Renseignez les autres champs si nécessaire.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Click Create.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Créer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>The Vendor invoice page opens, displaying the vendor information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La page Facture fournisseur s'ouvre, affichant les informations relatives au fournisseur.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
