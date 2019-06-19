@@ -1,105 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="index.md" target-language="fr-FR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>index.84b867.437c9ba7142dadcb49c9255b119586598511453d.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>437c9ba7142dadcb49c9255b119586598511453d</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\index.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Financial management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Page d'accueil de la gestion financière</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique fournit une liste de ressources et d'autres informations pour les fonctionnalités de gestion financière dans Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Financial management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Page d'accueil de la gestion financière</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique fournit une liste de ressources et d'autres informations pour les fonctionnalités de gestion financière dans Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Select a feature area to learn more about it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez une zone de fonctionnalités pour en savoir plus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source><bpt id="p1">[</bpt>Accounts payable<ept id="p1">](accounts-payable/accounts-payable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Comptabilité fournisseur<ept id="p1">](accounts-payable/accounts-payable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source><bpt id="p1">[</bpt>Accounts receivable<ept id="p1">](accounts-receivable/accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Comptabilité client<ept id="p1">](accounts-receivable/accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source><bpt id="p1">[</bpt>Budgeting<ept id="p1">](budgeting/budgeting-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Budget<ept id="p1">](budgeting/budgeting-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source><bpt id="p1">[</bpt>Cash and bank management<ept id="p1">](cash-bank-management/cash-bank-management.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gestion de la trésorerie et de la banque<ept id="p1">](cash-bank-management/cash-bank-management.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source><bpt id="p1">[</bpt>Cost accounting<ept id="p1">](cost-accounting/cost-accounting-home-page.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Contrôle de gestion<ept id="p1">](cost-accounting/cost-accounting-home-page.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">[</bpt>Expense management<ept id="p1">](expense-management/expense-management.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gestion des dépenses<ept id="p1">](expense-management/expense-management.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source><bpt id="p1">[</bpt>Financial reporting<ept id="p1">](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>États financiers<ept id="p1">](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">[</bpt>Fixed assets<ept id="p1">](fixed-assets/fixed-assets.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Immobilisations<ept id="p1">](fixed-assets/fixed-assets.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">[</bpt>General ledger<ept id="p1">](general-ledger/general-ledger.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Comptabilité<ept id="p1">](general-ledger/general-ledger.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">[</bpt>Project management<ept id="p1">](project-management/overview-project-management-accounting.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gestion de projets<ept id="p1">](project-management/overview-project-management-accounting.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">[</bpt>Public sector<ept id="p1">](public-sector/public-sector-functionality.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Secteur public<ept id="p1">](public-sector/public-sector-functionality.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ressources supplémentaires</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Blogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Blogs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Blog de Microsoft Dynamics 365<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Financials blog<ept id="p1">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Blog sur Financials<ept id="p1">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Blog de la communauté de partenaires Microsoft Dynamics Operations<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Guides de tâches</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Additional help is available as task guides inside Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>To access task guides, click the Help button on any page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Videos</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vidéos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Check out the how-to videos that are now available on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube Channel<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Consultez les vidéos de procédure qui sont désormais disponibles sur la <bpt id="p1">[</bpt>chaîne YouTube Microsoft Dynamics 365<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Country/region functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fonctionnalité spécifique à un pays/une région</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Country/region regulations affect tax setup and other areas of financial management.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les réglementations spécifiques à un pays/une région affectent le paramétrage des taxes et d'autres domaines de la gestion financière.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Refer to the <bpt id="p1">[</bpt>Localization and regulatory features<ept id="p1">](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)</ept> section of our help content to learn about country/region-specific functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reportez-vous à la section <bpt id="p1">[</bpt>Fonctions locales et relatives aux réglementations<ept id="p1">](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)</ept> de notre contenu d'aide pour en savoir plus sur les fonctionnalités spécifiques à un pays/une région.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Page d'accueil de la gestion financière
+description: Cette rubrique fournit une liste de ressources et d'autres informations pour les fonctionnalités de gestion financière dans Microsoft Dynamics 365 for Finance and Operations.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2018
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 206434
+ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 437c9ba7142dadcb49c9255b119586598511453d
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559686"
+---
+# <a name="financial-management-home-page"></a>Page d'accueil de la gestion financière
+
+[!include [banner](includes/banner.md)]
+
+Cette rubrique fournit une liste de ressources et d'autres informations pour les fonctionnalités de gestion financière dans Microsoft Dynamics 365 for Finance and Operations. 
+
+Sélectionnez une zone de fonctionnalités pour en savoir plus.
+
+:::row:::
+    :::column:::
+        - [Comptabilité fournisseur](accounts-payable/accounts-payable.md) 
+        - [Comptabilité client](accounts-receivable/accounts-receivable.md)
+        - [Budget](budgeting/budgeting-overview.md) 
+        - [Gestion de la trésorerie et de la banque](cash-bank-management/cash-bank-management.md)
+        - [Contrôle de gestion](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Gestion des dépenses](expense-management/expense-management.md)
+        - [États financiers](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Immobilisations](fixed-assets/fixed-assets.md)
+        - [Comptabilité](general-ledger/general-ledger.md) 
+        - [Gestion de projets](project-management/overview-project-management-accounting.md)
+        - [Secteur public](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
+
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+### <a name="blogs"></a>Blogs
+
+- [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [Blog sur Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [Blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
+
+### <a name="task-guides"></a>Guides de tâches
+Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.
+
+### <a name="videos"></a>Vidéos
+
+Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+### <a name="countryregion-functionality"></a>Fonctionnalité spécifique à un pays/une région
+
+Les réglementations spécifiques à un pays/une région affectent le paramétrage des taxes et d'autres domaines de la gestion financière. Reportez-vous à la section [Fonctions locales et relatives aux réglementations](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) de notre contenu d'aide pour en savoir plus sur les fonctionnalités spécifiques à un pays/une région.
+

@@ -1,240 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="eur-00011-eu-sales-list-report.md" target-language="fr-FR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>eur-00011-eu-sales-list-report.8c82a6.9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00011-eu-sales-list-report.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>EUR-00011 Generate the EU sales list report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00011 Générer l'état Liste des ventes intracommunautaires</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure walks you through generating the EU sales list report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure vous guide dans la génération de l'état de la liste des ventes intracommunautaires.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>EUR-00011 Generate the EU sales list report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00011 Générer l'état Liste des ventes intracommunautaires</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure walks you through generating the EU sales list report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure vous guide dans la génération de l'état de la liste des ventes intracommunautaires.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This includes transferring intra-community trade transactions to the EU sales list and running the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cela inclut le transfert des transactions d'échanges intracommunautaires dans la liste des ventes intracommunautaires et l'exécution de l'état.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This  procedure also includes creating an intra-community trade transaction for demo purposes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure inclut également la création d'une transaction d'échanges intracommunautaires à des fins de démonstration.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>For more information about EU Sales list reporting, including required prerequisites, refer to the Dynamics 365 for Finance and Operations Help.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour plus d'informations sur la déclaration de la liste des ventes intracommunautaires, notamment les conditions préalables requises, reportez-vous à l'aide de Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>This procedure applies to all European countries/regions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure s'applique à tous les pays/régions européens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The procedure was created using the demo data company DEMF and consequently Germany as an exemplar domestic country/region.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La procédure a été créée à l'aide de la société DEMF fictive, avec l'Allemagne comme exemple de pays/région locaux.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>The procedure also uses Portugal as an exemplar EU country/region.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La procédure utilise également le Portugal comme exemple de pays/région européen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Before you can complete this procedure, you must configure EU sales list reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avant d'exécuter cette procédure, vous devez configurer la génération d'états de liste des ventes intracommunautaires.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>This procedure is intended for accountants.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure est destinée aux comptables.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Create an intra-community sales transaction for demo purposes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer une transaction de vente intracommunautaire à des fins de démonstration</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Commandes &gt; Toutes les commandes client.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>In the Customer account field, type 'PRT-001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tapez PRT-001 dans le champ Compte client.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>In the Item number field, type 'D0001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez « D0001 » dans le champ Numéro d'article.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Expand the Line details section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Détails de ligne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click the Setup tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur l'onglet Paramétrage.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the Item sales tax group field, type 'FULL'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Groupe de taxe d'article, tapez la valeur « FULL ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Click Add line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Ajouter une ligne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>In the Item number field, type 'D0003'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez « D0003 » dans le champ Numéro d'article.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Item sales tax group field, type 'RED'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Groupe de taxe d'article, tapez la valeur « RED ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le volet Actions, cliquez sur Facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Expand the Parameters section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Paramètres.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the Quantity field, select 'All'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez « Tout » dans le champ Quantité.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Expand the Setup section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Paramétrage.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>In the Invoice date field, set the date to '01/11/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Date de facture, définissez la date à « 01/11/2016 ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Transfer intra-community trade transactions to the EU sales list</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transférer des transactions d'échanges intracommunautaires vers la liste des ventes intracommunautaires.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Go to Tax &gt; Declarations &gt; Foreign trade &gt; EU sales list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Taxe &gt; Déclarations &gt; Commerce extérieur &gt; Liste des ventes intracommunautaires.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Click Transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Transférer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Select Yes in the Item field to transfer item transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Oui dans le champ Article pour transférer les transactions d'article.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Select Yes in the Service field to transfer service transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Oui dans le champ Service pour transférer les transactions de service.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>You can also specify additional filters on intra-community trade transactions to transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à transférer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Click Transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Transférer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Verify that the intra-community sales transaction is successfully transferred to the EU sales list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vérifiez que la transaction de vente intracommunautaire est correctement transférée vers la liste des ventes intracommunautaires.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Generate the EU sales list report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Générer l'état Liste des ventes intracommunautaires</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Click Reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Génération d'états.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>In the Reporting period field, select 'Monthly'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Génération d'états, sélectionnez « Mensuel ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>In the From date field, set the date to '01/01/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Date de début, définissez la date à « 01/01/2016 ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Select Yes in the Generate file field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Oui dans le champ Générer un fichier.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Select Yes in the Generate report field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Oui dans le champ Générer un état.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>In the File name field, type 'EUSalesList'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Nom de fichier, tapez « EUSalesList ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>In the Report file name field, type 'EUSalesList'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Nom du fichier d'état, tapez « EUSalesList ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>In the EU Sales List Registration ID field, type '123'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ ID de la liste des ventes intracommunautaires, tapez « 123 ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>This field is only available for Germany.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ce champ est uniquement disponible pour l'Allemagne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>You can also specify additional filters on intra-community trade transactions to include in the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à inclure au rapport.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Verify that pop-up windows appear to confirm that the file and the control report are being downloaded.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vérifiez que les fenêtres contextuelles confirment que le fichier et l'état de contrôle sont en cours de téléchargement.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Mark EU sales list lines as Reported</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marquer les lignes de la liste des ventes intracommunautaires comme déclarées</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Click Mark.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Marquer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Click Mark as reported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Marquer comme déclarée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>In the list, select the row for the Invoice date field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, sélectionnez la ligne pour le champ Date de facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>In the Criteria field, type '01/01/2016..01/31/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Critères, tapez « 01/01/2016..01/31/2016 ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the list, select the row for the Reporting status field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, sélectionnez la ligne pour le champ Statut de génération d'états.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>In the Criteria field, select 'Included'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Critères, sélectionnez « Inclus ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>You can also specify additional filters on intra-community trade transactions to mark as Reported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à marquer comme Déclarées.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>In the Selection field, select 'Reported'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Sélection, sélectionnez « Déclarée ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Mark EU sales list lines as Closed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marquer les lignes de la liste des ventes intracommunautaires comme clôturées</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Click Mark.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Marquer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Click Mark as closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Marquer comme clôturé.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>In the list, mark the row for the Invoice date field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquez la ligne pour le champ Date de facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>In the Criteria field, type '01/01/2016..01/31/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Critères, tapez « 01/01/2016..01/31/2016 ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>In the list, mark the row for the Reporting status field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquez la ligne pour le champ Statut de génération d'états.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>In the Criteria field, select ‘Reported’.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Critères, sélectionnez « Déclaré ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>You can also specify additional filters on intra-community trade transactions to mark as Closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à marquer comme Clôturées.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>In the Selection field, select 'Closed'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Sélection, sélectionnez « Clôturé ».</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: EUR-00011 Générer l'état Liste des ventes intracommunautaires
+description: Cette procédure vous guide dans la génération de l'état de la liste des ventes intracommunautaires.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  EUSalesList, EUSalesListSelection, SysQueryForm, SysLookup
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: epopov
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564430"
+---
+# <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 Générer l'état Liste des ventes intracommunautaires
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+Cette procédure vous guide dans la génération de l'état de la liste des ventes intracommunautaires. Cela inclut le transfert des transactions d'échanges intracommunautaires dans la liste des ventes intracommunautaires et l'exécution de l'état. Cette procédure inclut également la création d'une transaction d'échanges intracommunautaires à des fins de démonstration. Pour plus d'informations sur la déclaration de la liste des ventes intracommunautaires, notamment les conditions préalables requises, reportez-vous à l'aide de Dynamics 365 for Finance and Operations.
+
+Cette procédure s'applique à tous les pays/régions européens. La procédure a été créée à l'aide de la société DEMF fictive, avec l'Allemagne comme exemple de pays/région locaux. La procédure utilise également le Portugal comme exemple de pays/région européen. Avant d'exécuter cette procédure, vous devez configurer la génération d'états de liste des ventes intracommunautaires.
+
+Cette procédure est destinée aux comptables.
+
+
+## <a name="create-an-intra-community-sales-transaction-for-demo-purposes"></a>Créer une transaction de vente intracommunautaire à des fins de démonstration
+1. Accédez à Comptabilité client > Commandes > Toutes les commandes client.
+2. Cliquez sur Nouveau.
+3. Tapez PRT-001 dans le champ Compte client.
+4. Cliquez sur OK.
+5. Entrez « D0001 » dans le champ Numéro d'article.
+6. Développez la section Détails de ligne.
+7. Cliquez sur l'onglet Paramétrage.
+8. Dans le champ Groupe de taxe d'article, tapez la valeur « FULL ».
+9. Cliquez sur Ajouter une ligne.
+10. Entrez « D0003 » dans le champ Numéro d'article.
+11. Dans le champ Groupe de taxe d'article, tapez la valeur « RED ».
+12. Cliquez sur Enregistrer.
+13. Dans le volet Actions, cliquez sur Facture.
+14. Cliquez sur Facture.
+15. Développez la section Paramètres.
+16. Sélectionnez « Tout » dans le champ Quantité.
+17. Développez la section Paramétrage.
+18. Dans le champ Date de facture, définissez la date à « 01/11/2016 ».
+19. Cliquez sur OK.
+20. Cliquez sur OK.
+
+## <a name="transfer-intra-community-trade-transactions-to-the-eu-sales-list"></a>Transférer des transactions d'échanges intracommunautaires vers la liste des ventes intracommunautaires.
+1. Accédez à Taxe > Déclarations > Commerce extérieur > Liste des ventes intracommunautaires.
+2. Cliquez sur Transférer.
+3. Sélectionnez Oui dans le champ Article pour transférer les transactions d'article.
+4. Sélectionnez Oui dans le champ Service pour transférer les transactions de service.
+    * Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à transférer.  
+5. Cliquez sur Transférer.
+    * Vérifiez que la transaction de vente intracommunautaire est correctement transférée vers la liste des ventes intracommunautaires.  
+
+## <a name="generate-the-eu-sales-list-report"></a>Générer l'état Liste des ventes intracommunautaires
+1. Cliquez sur Génération d'états.
+2. Dans le champ Génération d'états, sélectionnez « Mensuel ».
+3. Dans le champ Date de début, définissez la date à « 01/01/2016 ».
+4. Sélectionnez Oui dans le champ Générer un fichier.
+5. Sélectionnez Oui dans le champ Générer un état.
+6. Dans le champ Nom de fichier, tapez « EUSalesList ».
+7. Dans le champ Nom du fichier d'état, tapez « EUSalesList ».
+8. Dans le champ ID de la liste des ventes intracommunautaires, tapez « 123 ».
+    * Ce champ est uniquement disponible pour l'Allemagne.  
+    * Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à inclure au rapport.  
+9. Cliquez sur OK.
+    * Vérifiez que les fenêtres contextuelles confirment que le fichier et l'état de contrôle sont en cours de téléchargement.  
+
+## <a name="mark-eu-sales-list-lines-as-reported"></a>Marquer les lignes de la liste des ventes intracommunautaires comme déclarées
+1. Cliquez sur Marquer.
+2. Cliquez sur Marquer comme déclarée.
+3. Dans la liste, sélectionnez la ligne pour le champ Date de facture.
+4. Dans le champ Critères, tapez « 01/01/2016..01/31/2016 ».
+5. Dans la liste, sélectionnez la ligne pour le champ Statut de génération d'états.
+6. Dans le champ Critères, sélectionnez « Inclus ».
+    * Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à marquer comme Déclarées.  
+7. Cliquez sur OK.
+8. Dans le champ Sélection, sélectionnez « Déclarée ».
+
+## <a name="mark-eu-sales-list-lines-as-closed"></a>Marquer les lignes de la liste des ventes intracommunautaires comme clôturées
+1. Cliquez sur Marquer.
+2. Cliquez sur Marquer comme clôturé.
+3. Dans la liste, marquez la ligne pour le champ Date de facture.
+4. Dans le champ Critères, tapez « 01/01/2016..01/31/2016 ».
+5. Dans la liste, marquez la ligne pour le champ Statut de génération d'états.
+6. Dans le champ Critères, sélectionnez « Déclaré ».
+    * Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à marquer comme Clôturées.  
+7. Cliquez sur OK.
+8. Dans le champ Sélection, sélectionnez « Clôturé ».
+
