@@ -1,267 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-invoice-issue-deadline.md" target-language="fr-FR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-invoice-issue-deadline.f2832d.942b48170d7c164e16d2b8f5544b8777668adab3.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>942b48170d7c164e16d2b8f5544b8777668adab3</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-invoice-issue-deadline.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Invoice issue deadline</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Délai d'émission de facture</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This article explains how to set up parameters to calculate the due dates for issuing customer invoices and vendor invoices in the European Union (EU).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cet article explique comment définir les paramètres pour calculer les dates d'échéance d'émission des factures client et des factures fournisseur dans l'Union européenne (UE).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Invoice issue deadline</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Délai d'émission de facture</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This article explains how to set up parameters to calculate the due dates for issuing customer invoices and vendor invoices in the European Union (EU).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cet article explique comment définir les paramètres pour calculer les dates d'échéance d'émission des factures client et des factures fournisseur dans l'Union européenne (UE).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>European Union (EU) Directive 45/2010 and other directives require that shipments within the EU (intra-EU shipments) must be invoiced on or before the fifteenth day of the month after the delivery is made.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La directive 45/2010 de l'Union européenne (EU) et d'autres directives demandent que les expéditions au sein de l'UE (expéditions intra-UE) doivent être facturées avant le quinzième jour du mois après que la livraison soit effectuée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>At the same time, each EU country can have different invoicing deadlines for domestic deliveries.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En même temps, chaque pays européen peut avoir différentes limites de facturation pour les livraisons intérieures.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Invoice issue due date functionality lets you align the date interval to the country/region type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La fonctionnalité de date d'échéance d'émission de facture permet d'aligner l'intervalle de dates au type de pays/région.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Then, for all shipments to and from a country/region of a particular type, the invoice issue due date is calculated by using rules that are set in the specified date interval.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ensuite, pour toutes les expéditions vers et depuis un pays/une région d'un type particulier, la date d'échéance d'émission de la facture est calculée à l'aide des règles définies dans l'intervalle de dates spécifié.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>In addition, you can get all packing slips that have a specific invoice issue due date, filter by invoice issue due date during periodic sales invoicing, and control the sales invoice issue date during invoice posting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En outre, vous pouvez obtenir tous les bons de livraison portant une date d'échéance d'émission de facture spécifique, filtrer par date d'échéance d'émission de facture au cours de la facturation des ventes périodiques, et contrôler la date d'émission des factures client lors de la validation des factures.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>You can set up a date interval code, and then set up a calculation rule for the invoice issue date by assigning the date interval code to a country/region type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez paramétrer un code intervalle de dates, puis une règle de calcul pour la date d'émission des factures en affectant un code intervalle de dates à un type de pays/région.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>The calculation rule is used to calculate the due date for issuing invoices for the following transactions:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La règle de calcul est utilisée pour calculer la date d'échéance d'émission des factures pour les transactions suivantes :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Intra-EU shipments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expéditions intra-UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Domestic shipments within an EU member state</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expéditions locales au sein d'un état membre de l'UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>You can also set up date controls to help guarantee that customer invoices and credit notes for customer transactions are generated within the specified period after the delivery is made.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également paramétrer des contrôles de date pour garantir que les factures client et les avoirs pour les transactions client sont générés dans la période spécifiée, une fois la livraison effectuée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Prerequisites</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Logiciels requis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>The following table shows the prerequisites that must be in place before you can use the invoice issue due date functionality .</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le tableau suivant indique les paramétrages qui doivent être en place avant d'utiliser la fonctionnalité de date d'échéance d'émission de facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Category</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Catégorie</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Prerequisite</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Logiciel requis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Country/region</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pays/Région</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>The primary address of the legal entity must be in a EU member state.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'adresse principale de l'entité juridique doit être dans un pays membre de l'UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Related setup tasks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tâches associées de paramétrage</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>On the <bpt id="p1">**</bpt>Date intervals<ept id="p1">**</ept> page, set up a date interval that is used to calculate the invoice issue due date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la page <bpt id="p1">**</bpt>Intervalles de dates<ept id="p1">**</ept>, paramétrez un intervalle de dates utilisé pour calculer la date d'échéance d'émission de facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>(Click <bpt id="p1">**</bpt>General Ledger<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Ledger setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Date intervals<ept id="p3">**</ept>.) On the <bpt id="p4">**</bpt>Foreign trade parameters<ept id="p4">**</ept> page, set up foreign trade properties for various countries/regions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Cliquez sur <bpt id="p1">**</bpt>Comptabilité<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Paramétrage de la comptabilité<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Intervalles de dates<ept id="p3">**</ept>.) Dans la page <bpt id="p4">**</bpt>Paramètres du commerce extérieur<ept id="p4">**</ept>, paramétrez les propriétés du commerce extérieur pour différents pays/régions.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>(Click <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Foreign trade<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Foreign trade parameters<ept id="p4">**</ept>.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Cliquez sur <bpt id="p1">**</bpt>Taxe<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Paramétrage<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Commerce extérieur<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Paramètres du commerce extérieur<ept id="p4">**</ept>.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Invoice issue due date calculation rule</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Règle de calcul de la date d'échéance d'émission des factures</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Use the <bpt id="p1">**</bpt>Set up calculation for invoice issue due date<ept id="p1">**</ept> page to set up an invoice issue due date calculation rule by assigning a date interval code to a country/region type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez la page <bpt id="p1">**</bpt>Paramétrer le calcul pour la date d'échéance d'émission des factures<ept id="p1">**</ept> pour définir une règle de calcul pour la date d'émission des factures en affectant un code intervalle de dates à un type de pays/région.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Date control parameters for customer invoices and credit notes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paramètres de contrôle de date pour les factures client et les avoirs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>You can set up date control parameters to help guarantee that customer invoices and credit notes for customer transactions are generated within the specified period after the delivery is made.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également définir des paramètres de contrôle de date pour garantir que les factures client et les avoirs pour les transactions client sont générés dans la période spécifiée, une fois la livraison effectuée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>You can find these parameters in the <bpt id="p1">**</bpt>Invoice dates control<ept id="p1">**</ept> area of the <bpt id="p2">**</bpt>Accounts receivable parameters<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez trouver ces paramètres dans la zone <bpt id="p1">**</bpt>Contrôle des dates de facture<ept id="p1">**</ept> de la page <bpt id="p2">**</bpt>Paramètres des ventes<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Example</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exemple</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>To set up Microsoft Dynamics 365 for Finance and Operations to calculate invoice issue due dates for intra-EU shipments on the fifteenth day of the month after the supply is delivered, create a date interval code and calculation rule that have the following settings.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour paramétrer Microsoft Dynamics 365 for Finance and Operations pour calculer les dates d'échéance d'émission des factures pour les expéditions intra-européennes au 15ème jour du mois suivant une fois la livraison effectuée, créez un code intervalle de dates et une règle de calcul avec les paramètres suivants :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Date interval code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Code intervalle de dates</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Champ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valeur</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Date interval code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Code intervalle de dates</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>15-NM</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">15-NM</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Description</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Fifteenth day of the next month</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quinzième jour du mois suivant</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Before (In the <bpt id="p1">**</bpt>To date<ept id="p1">**</ept> field group)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avant (Dans le groupe de champs <bpt id="p1">**</bpt>Date de fin<ept id="p1">**</ept>)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Month</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mois</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Start/End (In the <bpt id="p1">**</bpt>To date<ept id="p1">**</ept> field group)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Début/fin (Dans le groupe de champs <bpt id="p1">**</bpt>Date de fin<ept id="p1">**</ept>)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>End</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fin</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>+/- (In the <bpt id="p1">**</bpt>To date<ept id="p1">**</ept> field group)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">+/- (Dans le groupe de champs <bpt id="p1">**</bpt>Date de fin<ept id="p1">**</ept>)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>15</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">15</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Days, months, years or periods (In the <bpt id="p1">**</bpt>To date<ept id="p1">**</ept> field group)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jours, mois, années ou périodes (Dans le groupe de champs <bpt id="p1">**</bpt>Date de fin<ept id="p1">**</ept>)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Days</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jours</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Invoice issue due date calculation rule</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Règle de calcul de la date d'échéance d'émission des factures</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Champ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valeur</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Country/region type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Type de pays/région</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source><bpt id="p1">**</bpt>EU<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>UE<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Start date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Date de début</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Enter the date when the current setup line becomes valid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez la date à laquelle la ligne actuelle de paramétrage devient valide.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Date interval code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Code intervalle de dates</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source><bpt id="p1">**</bpt>15-NM<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>15-NM<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Next steps</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Étapes suivantes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>After you've finished setting up the parameters to calculate invoice issue due dates, you can create and post the following transactions to automatically calculate and update the due dates for issuing invoices:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Après avoir terminé de définir les paramètres pour calculer les dates d'échéance d'émission des factures, vous pouvez créer et valider les transactions suivantes pour calculer et mettre à jour automatiquement les dates d'échéance d'émission des factures :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">**</bpt>Sales orders<ept id="p1">**</ept> – When you create a sales order and post a packing slip, the due date for issuing the invoice is calculated and updated on the packing slip.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Commandes client<ept id="p1">**</ept> – Lorsque vous créez une commande client et validez un bon de livraison, la date d'échéance d'émission des factures est calculée et mise à jour sur le bon de livraison.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>The due date is calculated based on the date interval that is associated with the country/region that is specified in the delivery address of the sales order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La date d'échéance est calculée en fonction de l'intervalle de dates associé au pays ou à la région spécifié dans l'adresse de livraison de la commande client.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>After you post the packing slip, you can verify the invoice issue due date in the <bpt id="p1">**</bpt>Invoice issue due date<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Packing slip journal<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Après avoir validé le bon de livraison, vous pouvez vérifier la date d'échéance d'émission de facture dans le champ <bpt id="p1">**</bpt>Date d'échéance d'émission des factures<ept id="p1">**</ept> de la page <bpt id="p2">**</bpt>Journal des bons de livraison<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>(Click <bpt id="p1">**</bpt>Sales and marketing<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Sales order<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Order shipping<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Packing slip<ept id="p4">**</ept>.) You can view all the packing slips that aren't invoiced, and their invoice issue due dates, on the <bpt id="p5">**</bpt>Packing slips not invoiced<ept id="p5">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Cliquez sur <bpt id="p1">**</bpt>Ventes et marketing<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Commande client<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Expédition de commande<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Bon de livraison<ept id="p4">**</ept>.) Vous pouvez afficher tous les bons de livraison qui ne sont pas facturés, et leur date d'échéance d'émission de facture dans la page <bpt id="p5">**</bpt>Bons de livraison non facturés<ept id="p5">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>(Click <bpt id="p1">**</bpt>Sales and marketing<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Sales order<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Order shipping<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Packing slips not invoiced<ept id="p4">**</ept>.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Cliquez sur <bpt id="p1">**</bpt>Ventes et marketing<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Commande client<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Expédition de commande<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Bons de livraison non facturés<ept id="p4">**</ept>.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source><bpt id="p1">**</bpt>Purchase orders<ept id="p1">**</ept> – When you create a purchase order and post a product receipt, the due date for issuing the invoice is calculated and updated on the product receipt.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Commandes client<ept id="p1">**</ept> – Lorsque vous créez une commande client et validez un accusé de réception de marchandises, la date d'échéance d'émission des factures est calculée et mise à jour sur l'accusé de réception de marchandises.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>The due date is calculated based on the date interval that is associated with the country/region that is specified in the primary address of the vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La date d'échéance est calculée en fonction de l'intervalle de dates associé au pays/région spécifié dans l'adresse de livraison principale du fournisseur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>After you post the product receipt, you can verify the invoice issue due date in the <bpt id="p1">**</bpt>Invoice issue due date<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Product receipt journal<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Après avoir validé l'accusé de réception de marchandises, vous pouvez vérifier la date d'échéance d'émission de facture dans le champ <bpt id="p1">**</bpt>Date d'échéance d'émission des factures<ept id="p1">**</ept> de la page <bpt id="p2">**</bpt>Journal d'accusé de réception de marchandises<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>(Click <bpt id="p1">**</bpt>Procurement and sourcing<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Purchase orders<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Receiving products<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Product receipt<ept id="p4">**</ept>.) You can view all the product receipts that aren't invoiced, and their invoice issue due dates, on the <bpt id="p5">**</bpt>Product receipts not invoiced<ept id="p5">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Cliquez sur <bpt id="p1">**</bpt>Approvisionnements<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Commandes fournisseur<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Réception des produits<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Accusé de réception de marchandises<ept id="p4">**</ept>.) Vous pouvez afficher tous les accusés de réception de marchandises qui ne sont pas facturés et leur date d'échéance d'émission de facture dans la page <bpt id="p5">**</bpt>Accusés de réception de marchandises non facturés<ept id="p5">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>(Click <bpt id="p1">**</bpt>Procurement and sourcing<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Purchase orders<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Receiving products<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Product receipts not invoiced<ept id="p4">**</ept>.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Cliquez sur <bpt id="p1">**</bpt>Approvisionnements<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Commandes fournisseur<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Réception des produits<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Accusés de réception de marchandises non facturés<ept id="p4">**</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Technical information for system administrators</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informations destinées aux administrateurs système</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>If you don't have access to the pages that are used to complete the tasks that are mentioned in this article, contact your system administrator, and provide the information that is shown in the following table.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous n'avez pas accès aux pages qui vous permettent d'effectuer les tâches mentionnées dans cet article, contactez votre administrateur système et fournissez les informations répertoriées dans le tableau suivant.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Category</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Catégorie</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Prerequisite</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Logiciel requis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Configuration keys</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clés de configuration</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Click <bpt id="p1">&lt;strong&gt;</bpt>System administration<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>Setup<ept id="p2">&lt;/strong&gt;</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Licensing<ept id="p3">&lt;/strong&gt;</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">&lt;strong&gt;</bpt>License configuration<ept id="p4">&lt;/strong&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur <bpt id="p1">&lt;strong&gt;</bpt>Administration du système<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>Paramétrage<ept id="p2">&lt;/strong&gt;</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Gestionnaire de licences<ept id="p3">&lt;/strong&gt;</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">&lt;strong&gt;</bpt>Configuration des licences<ept id="p4">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Click the <bpt id="p1">&lt;strong&gt;</bpt>General ledger<ept id="p1">&lt;/strong&gt;</ept> configuration key.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur la clé de configuration <bpt id="p1">&lt;strong&gt;</bpt>Comptabilité<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Security roles and duties</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rôles de sécurité et droits</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>To perform this task, you must be a member of a security role that includes the following duties:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour effectuer cette tâche, vous devez être membre d'un rôle de sécurité comprenant les responsabilités suivantes :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>CustInvoiceInvoiceAndCashProcessEnable<ept id="p1">&lt;/strong&gt;</ept> (Enable invoice and cash process)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>CustInvoiceInvoiceAndCashProcessEnable<ept id="p1">&lt;/strong&gt;</ept> (Activer le processus de facturation et de disponibilités)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>VendInvoiceInvoicePaymentProcessEnable<ept id="p1">&lt;/strong&gt;</ept> (Enable invoice and payment process)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>VendInvoiceInvoicePaymentProcessEnable<ept id="p1">&lt;/strong&gt;</ept> (Activer le processus de facturation et de paiement)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Security roles and privileges</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rôles de sécurité et privilèges</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>To perform this task, you must be a member of a security role that includes the following privileges:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour effectuer cette tâche, vous devez être membre d'un rôle de sécurité comprenant les privilèges suivants :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>CustPackingSlipJournalView<ept id="p1">&lt;/strong&gt;</ept> (View sales packing slips)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>CustPackingSlipJournalView<ept id="p1">&lt;/strong&gt;</ept> (Afficher les bons de livraisons liés aux ventes)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>VendPackingSlipJournalView<ept id="p1">&lt;/strong&gt;</ept> (View product receipt journal from purchase order)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>VendPackingSlipJournalView<ept id="p1">&lt;/strong&gt;</ept> (Afficher le journal des accusés de réception de marchandises de la commande fournisseur)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>LedgerInvoiceIssueDueDateSetupMaintain_W<ept id="p1">&lt;/strong&gt;</ept> (Calculate invoice issue due dates)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>LedgerInvoiceIssueDueDateSetupMaintain_W<ept id="p1">&lt;/strong&gt;</ept> (Calculer les dates d'échéance d'émission des factures)</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Délai d'émission de facture
+description: Cet article explique comment définir les paramètres pour calculer les dates d'échéance d'émission des factures client et des factures fournisseur dans l'Union européenne (UE).
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 10923
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Iceland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: mrolecki
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 942b48170d7c164e16d2b8f5544b8777668adab3
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549084"
+---
+# <a name="invoice-issue-deadline"></a><span data-ttu-id="ba376-103">Délai d'émission de facture</span><span class="sxs-lookup"><span data-stu-id="ba376-103">Invoice issue deadline</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="ba376-104">Cet article explique comment définir les paramètres pour calculer les dates d'échéance d'émission des factures client et des factures fournisseur dans l'Union européenne (UE).</span><span class="sxs-lookup"><span data-stu-id="ba376-104">This article explains how to set up parameters to calculate the due dates for issuing customer invoices and vendor invoices in the European Union (EU).</span></span>
+
+<span data-ttu-id="ba376-105">La directive 45/2010 de l'Union européenne (EU) et d'autres directives demandent que les expéditions au sein de l'UE (expéditions intra-UE) doivent être facturées avant le quinzième jour du mois après que la livraison soit effectuée.</span><span class="sxs-lookup"><span data-stu-id="ba376-105">European Union (EU) Directive 45/2010 and other directives require that shipments within the EU (intra-EU shipments) must be invoiced on or before the fifteenth day of the month after the delivery is made.</span></span> <span data-ttu-id="ba376-106">En même temps, chaque pays européen peut avoir différentes limites de facturation pour les livraisons intérieures.</span><span class="sxs-lookup"><span data-stu-id="ba376-106">At the same time, each EU country can have different invoicing deadlines for domestic deliveries.</span></span> <span data-ttu-id="ba376-107">La fonctionnalité de date d'échéance d'émission de facture permet d'aligner l'intervalle de dates au type de pays/région.</span><span class="sxs-lookup"><span data-stu-id="ba376-107">Invoice issue due date functionality lets you align the date interval to the country/region type.</span></span> <span data-ttu-id="ba376-108">Ensuite, pour toutes les expéditions vers et depuis un pays/une région d'un type particulier, la date d'échéance d'émission de la facture est calculée à l'aide des règles définies dans l'intervalle de dates spécifié.</span><span class="sxs-lookup"><span data-stu-id="ba376-108">Then, for all shipments to and from a country/region of a particular type, the invoice issue due date is calculated by using rules that are set in the specified date interval.</span></span> <span data-ttu-id="ba376-109">En outre, vous pouvez obtenir tous les bons de livraison portant une date d'échéance d'émission de facture spécifique, filtrer par date d'échéance d'émission de facture au cours de la facturation des ventes périodiques, et contrôler la date d'émission des factures client lors de la validation des factures.</span><span class="sxs-lookup"><span data-stu-id="ba376-109">In addition, you can get all packing slips that have a specific invoice issue due date, filter by invoice issue due date during periodic sales invoicing, and control the sales invoice issue date during invoice posting.</span></span> <span data-ttu-id="ba376-110">Vous pouvez paramétrer un code intervalle de dates, puis une règle de calcul pour la date d'émission des factures en affectant un code intervalle de dates à un type de pays/région.</span><span class="sxs-lookup"><span data-stu-id="ba376-110">You can set up a date interval code, and then set up a calculation rule for the invoice issue date by assigning the date interval code to a country/region type.</span></span> <span data-ttu-id="ba376-111">La règle de calcul est utilisée pour calculer la date d'échéance d'émission des factures pour les transactions suivantes :</span><span class="sxs-lookup"><span data-stu-id="ba376-111">The calculation rule is used to calculate the due date for issuing invoices for the following transactions:</span></span>
+
+-   <span data-ttu-id="ba376-112">Expéditions intra-UE</span><span class="sxs-lookup"><span data-stu-id="ba376-112">Intra-EU shipments</span></span>
+-   <span data-ttu-id="ba376-113">Expéditions locales au sein d'un état membre de l'UE</span><span class="sxs-lookup"><span data-stu-id="ba376-113">Domestic shipments within an EU member state</span></span>
+
+<span data-ttu-id="ba376-114">Vous pouvez également paramétrer des contrôles de date pour garantir que les factures client et les avoirs pour les transactions client sont générés dans la période spécifiée, une fois la livraison effectuée.</span><span class="sxs-lookup"><span data-stu-id="ba376-114">You can also set up date controls to help guarantee that customer invoices and credit notes for customer transactions are generated within the specified period after the delivery is made.</span></span>
+
+## <a name="prerequisites"></a><span data-ttu-id="ba376-115">Logiciels requis</span><span class="sxs-lookup"><span data-stu-id="ba376-115">Prerequisites</span></span>
+<span data-ttu-id="ba376-116">Le tableau suivant indique les paramétrages qui doivent être en place avant d'utiliser la fonctionnalité de date d'échéance d'émission de facture.</span><span class="sxs-lookup"><span data-stu-id="ba376-116">The following table shows the prerequisites that must be in place before you can use the invoice issue due date functionality .</span></span>
+
+| <span data-ttu-id="ba376-117">Catégorie</span><span class="sxs-lookup"><span data-stu-id="ba376-117">Category</span></span>            | <span data-ttu-id="ba376-118">Logiciel requis</span><span class="sxs-lookup"><span data-stu-id="ba376-118">Prerequisite</span></span>                                                                                                                                                                                                                                                                                                                                                                             |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="ba376-119">Pays/Région</span><span class="sxs-lookup"><span data-stu-id="ba376-119">Country/region</span></span>      | <span data-ttu-id="ba376-120">L'adresse principale de l'entité juridique doit être dans un pays membre de l'UE.</span><span class="sxs-lookup"><span data-stu-id="ba376-120">The primary address of the legal entity must be in a EU member state.</span></span>                                                                                                                                                                                                                                                                                                                    |
+| <span data-ttu-id="ba376-121">Tâches associées de paramétrage</span><span class="sxs-lookup"><span data-stu-id="ba376-121">Related setup tasks</span></span> | <span data-ttu-id="ba376-122">Dans la page **Intervalles de dates**, paramétrez un intervalle de dates utilisé pour calculer la date d'échéance d'émission de facture.</span><span class="sxs-lookup"><span data-stu-id="ba376-122">On the **Date intervals** page, set up a date interval that is used to calculate the invoice issue due date.</span></span> <span data-ttu-id="ba376-123">(Cliquez sur **Comptabilité** &gt; **Paramétrage de la comptabilité** &gt; **Intervalles de dates**.) Dans la page **Paramètres du commerce extérieur**, paramétrez les propriétés du commerce extérieur pour différents pays/régions.</span><span class="sxs-lookup"><span data-stu-id="ba376-123">(Click **General Ledger** &gt; **Ledger setup** &gt; **Date intervals**.) On the **Foreign trade parameters** page, set up foreign trade properties for various countries/regions.</span></span> <span data-ttu-id="ba376-124">(Cliquez sur **Taxe** &gt; **Paramétrage** &gt; **Commerce extérieur** &gt; **Paramètres du commerce extérieur**.)</span><span class="sxs-lookup"><span data-stu-id="ba376-124">(Click **Tax** &gt; **Setup** &gt; **Foreign trade** &gt; **Foreign trade parameters**.)</span></span> |
+
+## <a name="invoice-issue-due-date-calculation-rule"></a><span data-ttu-id="ba376-125">Règle de calcul de la date d'échéance d'émission des factures</span><span class="sxs-lookup"><span data-stu-id="ba376-125">Invoice issue due date calculation rule</span></span>
+<span data-ttu-id="ba376-126">Utilisez la page **Paramétrer le calcul pour la date d'échéance d'émission des factures** pour définir une règle de calcul pour la date d'émission des factures en affectant un code intervalle de dates à un type de pays/région.</span><span class="sxs-lookup"><span data-stu-id="ba376-126">Use the **Set up calculation for invoice issue due date** page to set up an invoice issue due date calculation rule by assigning a date interval code to a country/region type.</span></span>
+
+## <a name="date-control-parameters-for-customer-invoices-and-credit-notes"></a><span data-ttu-id="ba376-127">Paramètres de contrôle de date pour les factures client et les avoirs</span><span class="sxs-lookup"><span data-stu-id="ba376-127">Date control parameters for customer invoices and credit notes</span></span>
+<span data-ttu-id="ba376-128">Vous pouvez également définir des paramètres de contrôle de date pour garantir que les factures client et les avoirs pour les transactions client sont générés dans la période spécifiée, une fois la livraison effectuée.</span><span class="sxs-lookup"><span data-stu-id="ba376-128">You can set up date control parameters to help guarantee that customer invoices and credit notes for customer transactions are generated within the specified period after the delivery is made.</span></span> <span data-ttu-id="ba376-129">Vous pouvez trouver ces paramètres dans la zone **Contrôle des dates de facture** de la page **Paramètres des ventes**.</span><span class="sxs-lookup"><span data-stu-id="ba376-129">You can find these parameters in the **Invoice dates control** area of the **Accounts receivable parameters** page.</span></span>
+
+## <a name="example"></a><span data-ttu-id="ba376-130">Exemple</span><span class="sxs-lookup"><span data-stu-id="ba376-130">Example</span></span>
+<span data-ttu-id="ba376-131">Pour paramétrer Microsoft Dynamics 365 for Finance and Operations pour calculer les dates d'échéance d'émission des factures pour les expéditions intra-européennes au 15ème jour du mois suivant une fois la livraison effectuée, créez un code intervalle de dates et une règle de calcul avec les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="ba376-131">To set up Microsoft Dynamics 365 for Finance and Operations to calculate invoice issue due dates for intra-EU shipments on the fifteenth day of the month after the supply is delivered, create a date interval code and calculation rule that have the following settings.</span></span>
+
+### <a name="date-interval-code"></a><span data-ttu-id="ba376-132">Code intervalle de dates</span><span class="sxs-lookup"><span data-stu-id="ba376-132">Date interval code</span></span>
+
+| <span data-ttu-id="ba376-133">Champ</span><span class="sxs-lookup"><span data-stu-id="ba376-133">Field</span></span>                                                           | <span data-ttu-id="ba376-134">Valeur</span><span class="sxs-lookup"><span data-stu-id="ba376-134">Value</span></span>                           |
+|-----------------------------------------------------------------|---------------------------------|
+| <span data-ttu-id="ba376-135">Code intervalle de dates</span><span class="sxs-lookup"><span data-stu-id="ba376-135">Date interval code</span></span>                                              | <span data-ttu-id="ba376-136">15-NM</span><span class="sxs-lookup"><span data-stu-id="ba376-136">15-NM</span></span>                           |
+| <span data-ttu-id="ba376-137">Description</span><span class="sxs-lookup"><span data-stu-id="ba376-137">Description</span></span>                                                     | <span data-ttu-id="ba376-138">Quinzième jour du mois suivant</span><span class="sxs-lookup"><span data-stu-id="ba376-138">Fifteenth day of the next month</span></span> |
+| <span data-ttu-id="ba376-139">Avant (Dans le groupe de champs **Date de fin**)</span><span class="sxs-lookup"><span data-stu-id="ba376-139">Before (In the **To date** field group)</span></span>                         | <span data-ttu-id="ba376-140">Mois</span><span class="sxs-lookup"><span data-stu-id="ba376-140">Month</span></span>                           |
+| <span data-ttu-id="ba376-141">Début/fin (Dans le groupe de champs **Date de fin**)</span><span class="sxs-lookup"><span data-stu-id="ba376-141">Start/End (In the **To date** field group)</span></span>                      | <span data-ttu-id="ba376-142">Fin</span><span class="sxs-lookup"><span data-stu-id="ba376-142">End</span></span>                             |
+| <span data-ttu-id="ba376-143">+/- (Dans le groupe de champs **Date de fin**)</span><span class="sxs-lookup"><span data-stu-id="ba376-143">+/- (In the **To date** field group)</span></span>                            | <span data-ttu-id="ba376-144">15</span><span class="sxs-lookup"><span data-stu-id="ba376-144">15</span></span>                              |
+| <span data-ttu-id="ba376-145">Jours, mois, années ou périodes (Dans le groupe de champs **Date de fin**)</span><span class="sxs-lookup"><span data-stu-id="ba376-145">Days, months, years or periods (In the **To date** field group)</span></span> | <span data-ttu-id="ba376-146">Jours</span><span class="sxs-lookup"><span data-stu-id="ba376-146">Days</span></span>                            |
+
+### <a name="invoice-issue-due-date-calculation-rule"></a><span data-ttu-id="ba376-147">Règle de calcul de la date d'échéance d'émission des factures</span><span class="sxs-lookup"><span data-stu-id="ba376-147">Invoice issue due date calculation rule</span></span>
+
+| <span data-ttu-id="ba376-148">Champ</span><span class="sxs-lookup"><span data-stu-id="ba376-148">Field</span></span>               | <span data-ttu-id="ba376-149">Valeur</span><span class="sxs-lookup"><span data-stu-id="ba376-149">Value</span></span>                                                     |
+|---------------------|-----------------------------------------------------------|
+| <span data-ttu-id="ba376-150">Type de pays/région</span><span class="sxs-lookup"><span data-stu-id="ba376-150">Country/region type</span></span> | <span data-ttu-id="ba376-151">**UE**</span><span class="sxs-lookup"><span data-stu-id="ba376-151">**EU**</span></span>                                                    |
+| <span data-ttu-id="ba376-152">Date de début</span><span class="sxs-lookup"><span data-stu-id="ba376-152">Start date</span></span>          | <span data-ttu-id="ba376-153">Entrez la date à laquelle la ligne actuelle de paramétrage devient valide.</span><span class="sxs-lookup"><span data-stu-id="ba376-153">Enter the date when the current setup line becomes valid.</span></span> |
+| <span data-ttu-id="ba376-154">Code intervalle de dates</span><span class="sxs-lookup"><span data-stu-id="ba376-154">Date interval code</span></span>  | <span data-ttu-id="ba376-155">**15-NM**</span><span class="sxs-lookup"><span data-stu-id="ba376-155">**15-NM**</span></span>                                                 |
+
+## <a name="next-steps"></a><span data-ttu-id="ba376-156">Étapes suivantes</span><span class="sxs-lookup"><span data-stu-id="ba376-156">Next steps</span></span>
+<span data-ttu-id="ba376-157">Après avoir terminé de définir les paramètres pour calculer les dates d'échéance d'émission des factures, vous pouvez créer et valider les transactions suivantes pour calculer et mettre à jour automatiquement les dates d'échéance d'émission des factures :</span><span class="sxs-lookup"><span data-stu-id="ba376-157">After you've finished setting up the parameters to calculate invoice issue due dates, you can create and post the following transactions to automatically calculate and update the due dates for issuing invoices:</span></span>
+
+-   <span data-ttu-id="ba376-158">**Commandes client** – Lorsque vous créez une commande client et validez un bon de livraison, la date d'échéance d'émission des factures est calculée et mise à jour sur le bon de livraison.</span><span class="sxs-lookup"><span data-stu-id="ba376-158">**Sales orders** – When you create a sales order and post a packing slip, the due date for issuing the invoice is calculated and updated on the packing slip.</span></span> <span data-ttu-id="ba376-159">La date d'échéance est calculée en fonction de l'intervalle de dates associé au pays ou à la région spécifié dans l'adresse de livraison de la commande client.</span><span class="sxs-lookup"><span data-stu-id="ba376-159">The due date is calculated based on the date interval that is associated with the country/region that is specified in the delivery address of the sales order.</span></span> <span data-ttu-id="ba376-160">Après avoir validé le bon de livraison, vous pouvez vérifier la date d'échéance d'émission de facture dans le champ **Date d'échéance d'émission des factures** de la page **Journal des bons de livraison**.</span><span class="sxs-lookup"><span data-stu-id="ba376-160">After you post the packing slip, you can verify the invoice issue due date in the **Invoice issue due date** field on the **Packing slip journal** page.</span></span> <span data-ttu-id="ba376-161">(Cliquez sur **Ventes et marketing** &gt; **Commande client** &gt; **Expédition de commande** &gt; **Bon de livraison**.) Vous pouvez afficher tous les bons de livraison qui ne sont pas facturés, et leur date d'échéance d'émission de facture dans la page **Bons de livraison non facturés**.</span><span class="sxs-lookup"><span data-stu-id="ba376-161">(Click **Sales and marketing** &gt; **Sales order** &gt; **Order shipping** &gt; **Packing slip**.) You can view all the packing slips that aren't invoiced, and their invoice issue due dates, on the **Packing slips not invoiced** page.</span></span> <span data-ttu-id="ba376-162">(Cliquez sur **Ventes et marketing** &gt; **Commande client** &gt; **Expédition de commande** &gt; **Bons de livraison non facturés**.)</span><span class="sxs-lookup"><span data-stu-id="ba376-162">(Click **Sales and marketing** &gt; **Sales order** &gt; **Order shipping** &gt; **Packing slips not invoiced**.)</span></span>
+-   <span data-ttu-id="ba376-163">**Commandes client** – Lorsque vous créez une commande client et validez un accusé de réception de marchandises, la date d'échéance d'émission des factures est calculée et mise à jour sur l'accusé de réception de marchandises.</span><span class="sxs-lookup"><span data-stu-id="ba376-163">**Purchase orders** – When you create a purchase order and post a product receipt, the due date for issuing the invoice is calculated and updated on the product receipt.</span></span> <span data-ttu-id="ba376-164">La date d'échéance est calculée en fonction de l'intervalle de dates associé au pays/région spécifié dans l'adresse de livraison principale du fournisseur.</span><span class="sxs-lookup"><span data-stu-id="ba376-164">The due date is calculated based on the date interval that is associated with the country/region that is specified in the primary address of the vendor.</span></span> <span data-ttu-id="ba376-165">Après avoir validé l'accusé de réception de marchandises, vous pouvez vérifier la date d'échéance d'émission de facture dans le champ **Date d'échéance d'émission des factures** de la page **Journal d'accusé de réception de marchandises**.</span><span class="sxs-lookup"><span data-stu-id="ba376-165">After you post the product receipt, you can verify the invoice issue due date in the **Invoice issue due date** field on the **Product receipt journal** page.</span></span> <span data-ttu-id="ba376-166">(Cliquez sur **Approvisionnements** &gt; **Commandes fournisseur** &gt; **Réception des produits** &gt; **Accusé de réception de marchandises**.) Vous pouvez afficher tous les accusés de réception de marchandises qui ne sont pas facturés et leur date d'échéance d'émission de facture dans la page **Accusés de réception de marchandises non facturés**.</span><span class="sxs-lookup"><span data-stu-id="ba376-166">(Click **Procurement and sourcing** &gt; **Purchase orders** &gt; **Receiving products** &gt; **Product receipt**.) You can view all the product receipts that aren't invoiced, and their invoice issue due dates, on the **Product receipts not invoiced** page.</span></span> <span data-ttu-id="ba376-167">(Cliquez sur **Approvisionnements** &gt; **Commandes fournisseur** &gt; **Réception des produits** &gt; **Accusés de réception de marchandises non facturés**).</span><span class="sxs-lookup"><span data-stu-id="ba376-167">(Click **Procurement and sourcing** &gt; **Purchase orders** &gt; **Receiving products** &gt; **Product receipts not invoiced**.)</span></span>
+
+## <a name="technical-information-for-system-administrators"></a><span data-ttu-id="ba376-168">Informations destinées aux administrateurs système</span><span class="sxs-lookup"><span data-stu-id="ba376-168">Technical information for system administrators</span></span>
+<span data-ttu-id="ba376-169">Si vous n'avez pas accès aux pages qui vous permettent d'effectuer les tâches mentionnées dans cet article, contactez votre administrateur système et fournissez les informations répertoriées dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="ba376-169">If you don't have access to the pages that are used to complete the tasks that are mentioned in this article, contact your system administrator, and provide the information that is shown in the following table.</span></span>
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="ba376-170">Catégorie</span><span class="sxs-lookup"><span data-stu-id="ba376-170">Category</span></span></th>
+<th><span data-ttu-id="ba376-171">Logiciel requis</span><span class="sxs-lookup"><span data-stu-id="ba376-171">Prerequisite</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="ba376-172">Clés de configuration</span><span class="sxs-lookup"><span data-stu-id="ba376-172">Configuration keys</span></span></td>
+<td><span data-ttu-id="ba376-173">Cliquez sur <strong>Administration du système</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Gestionnaire de licences</strong> &gt; <strong>Configuration des licences</strong>.</span><span class="sxs-lookup"><span data-stu-id="ba376-173">Click <strong>System administration</strong> &gt; <strong>Setup</strong> &gt; <strong>Licensing</strong> &gt; <strong>License configuration</strong>.</span></span> <span data-ttu-id="ba376-174">Cliquez sur la clé de configuration <strong>Comptabilité</strong>.</span><span class="sxs-lookup"><span data-stu-id="ba376-174">Click the <strong>General ledger</strong> configuration key.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="ba376-175">Rôles de sécurité et droits</span><span class="sxs-lookup"><span data-stu-id="ba376-175">Security roles and duties</span></span></td>
+<td><span data-ttu-id="ba376-176">Pour effectuer cette tâche, vous devez être membre d'un rôle de sécurité comprenant les responsabilités suivantes :</span><span class="sxs-lookup"><span data-stu-id="ba376-176">To perform this task, you must be a member of a security role that includes the following duties:</span></span>
+<ul>
+<li><span data-ttu-id="ba376-177"><strong>CustInvoiceInvoiceAndCashProcessEnable</strong> (Activer le processus de facturation et de disponibilités)</span><span class="sxs-lookup"><span data-stu-id="ba376-177"><strong>CustInvoiceInvoiceAndCashProcessEnable</strong> (Enable invoice and cash process)</span></span></li>
+<li><span data-ttu-id="ba376-178"><strong>VendInvoiceInvoicePaymentProcessEnable</strong> (Activer le processus de facturation et de paiement)</span><span class="sxs-lookup"><span data-stu-id="ba376-178"><strong>VendInvoiceInvoicePaymentProcessEnable</strong> (Enable invoice and payment process)</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="ba376-179">Rôles de sécurité et privilèges</span><span class="sxs-lookup"><span data-stu-id="ba376-179">Security roles and privileges</span></span></td>
+<td><span data-ttu-id="ba376-180">Pour effectuer cette tâche, vous devez être membre d'un rôle de sécurité comprenant les privilèges suivants :</span><span class="sxs-lookup"><span data-stu-id="ba376-180">To perform this task, you must be a member of a security role that includes the following privileges:</span></span>
+<ul>
+<li><span data-ttu-id="ba376-181"><strong>CustPackingSlipJournalView</strong> (Afficher les bons de livraisons liés aux ventes)</span><span class="sxs-lookup"><span data-stu-id="ba376-181"><strong>CustPackingSlipJournalView</strong> (View sales packing slips)</span></span></li>
+<li><span data-ttu-id="ba376-182"><strong>VendPackingSlipJournalView</strong> (Afficher le journal des accusés de réception de marchandises de la commande fournisseur)</span><span class="sxs-lookup"><span data-stu-id="ba376-182"><strong>VendPackingSlipJournalView</strong> (View product receipt journal from purchase order)</span></span></li>
+<li><span data-ttu-id="ba376-183"><strong>LedgerInvoiceIssueDueDateSetupMaintain_W</strong> (Calculer les dates d'échéance d'émission des factures)</span><span class="sxs-lookup"><span data-stu-id="ba376-183"><strong>LedgerInvoiceIssueDueDateSetupMaintain_W</strong> (Calculate invoice issue due dates)</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+

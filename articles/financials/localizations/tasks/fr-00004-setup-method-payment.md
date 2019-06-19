@@ -1,114 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="fr-00004-setup-method-payment.md" target-language="fr-FR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>fr-00004-setup-method-payment.d3f7c8.fb1fdb9dd7cd3df3bd4a89a81517733f99b50241.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>fb1fdb9dd7cd3df3bd4a89a81517733f99b50241</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\fr-00004-setup-method-payment.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>FR-00004 Setup method of payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00004 Paramétrer le mode de paiement</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>The procedure walks you through setting up methods of payment so that you can create and post the bill of exchange after approving it from the draw bill of exchange journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La procédure vous guide dans la configuration des modes de paiement d'établissement afin de vous aider à créer et valider la lettre de change après l'avoir approuvée dans le journal de création de lettres de change.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>FR-00004 Setup method of payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FR-00004 Paramétrer le mode de paiement</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>The procedure walks you through setting up methods of payment so that you can create and post the bill of exchange after approving it from the draw bill of exchange journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La procédure vous guide dans la configuration des modes de paiement d'établissement afin de vous aider à créer et valider la lettre de change après l'avoir approuvée dans le journal de création de lettres de change.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This procedure was created using the demo data company FRSI.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This functionality is available for legal entities whose primary address is in France.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>You should have a role of Accounts receivables manager to perform this procedure.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour effectuer cette procédure, vous devez avoir le rôle de responsable de la comptabilité client.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Go to Accounts receivable &gt; Payments setup &gt; Methods of payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Paramétrage des paiements &gt; Modes de paiement.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>In the Method of payment field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tapez une valeur dans le champ Mode de paiement.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Description, entrez une valeur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>In the Payment status field, select 'Approved'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Statut de paiement, sélectionnez « Approuvé ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the Payment type field, select 'Bill of exchange'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Type de paiement, sélectionnez « Lettre de change ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Expand or collapse the General section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez ou réduisez la section Général.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the Account type field, select 'Bank'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Banque dans le champ Type de compte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>In the Payment account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Compte de paiement, indiquez les valeurs souhaitées.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>For example: 'FRSI OPER'</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple : « FRSI OPER »</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Expand or collapse the File formats section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez ou réduisez la section Formats de fichier.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Click Setup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Paramétrage.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Find and select "French bill of exchange" and use the arrow to move it to the Selected list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recherchez et sélectionnez « Lettre de change française » et utilisez la flèche pour la déplacer vers la liste sélectionnée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fermez la page.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Name field, click the drop-down button to open the lookup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Select "EnmmEAR"</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez « EnmmEAR »</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Export format field, click the drop-down button to open the lookup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Format d'exportation, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>For example: Select "French bill of exchange"</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple : Sélectionnez « Lettre de change française »</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Select or clear the Create and post draw journal automatically when posting invoices check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cochez ou décochez la case Créer et valider automatiquement le journal de création lors de la validation des factures.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Select or clear the Run export script check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cochez ou décochez la case à cocher Exécuter le script d'exportation.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: FR-00004 Paramétrer le mode de paiement
+description: La procédure vous guide dans la configuration des modes de paiement d'établissement afin de vous aider à créer et valider la lettre de change après l'avoir approuvée dans le journal de création de lettres de change.
+author: EvgenyPopovMBS
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustPaymMode, CustVendPaymFormat
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: France
+ms.author: epopov
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fb1fdb9dd7cd3df3bd4a89a81517733f99b50241
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556593"
+---
+# <a name="fr-00004-setup-method-of-payment"></a><span data-ttu-id="e29f1-103">FR-00004 Paramétrer le mode de paiement</span><span class="sxs-lookup"><span data-stu-id="e29f1-103">FR-00004 Setup method of payment</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="e29f1-104">La procédure vous guide dans la configuration des modes de paiement d'établissement afin de vous aider à créer et valider la lettre de change après l'avoir approuvée dans le journal de création de lettres de change.</span><span class="sxs-lookup"><span data-stu-id="e29f1-104">The procedure walks you through setting up methods of payment so that you can create and post the bill of exchange after approving it from the draw bill of exchange journal.</span></span>
+
+<span data-ttu-id="e29f1-105">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="e29f1-105">This procedure was created using the demo data company FRSI.</span></span> 
+
+<span data-ttu-id="e29f1-106">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="e29f1-106">This functionality is available for legal entities whose primary address is in France.</span></span>
+
+<span data-ttu-id="e29f1-107">Pour effectuer cette procédure, vous devez avoir le rôle de responsable de la comptabilité client.</span><span class="sxs-lookup"><span data-stu-id="e29f1-107">You should have a role of Accounts receivables manager to perform this procedure.</span></span>
+
+
+
+
+
+1. <span data-ttu-id="e29f1-108">Accédez à Comptabilité client > Paramétrage des paiements > Modes de paiement.</span><span class="sxs-lookup"><span data-stu-id="e29f1-108">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
+2. <span data-ttu-id="e29f1-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e29f1-109">Click New.</span></span>
+3. <span data-ttu-id="e29f1-110">Tapez une valeur dans le champ Mode de paiement.</span><span class="sxs-lookup"><span data-stu-id="e29f1-110">In the Method of payment field, type a value.</span></span>
+4. <span data-ttu-id="e29f1-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e29f1-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="e29f1-112">Dans le champ Statut de paiement, sélectionnez « Approuvé ».</span><span class="sxs-lookup"><span data-stu-id="e29f1-112">In the Payment status field, select 'Approved'.</span></span>
+6. <span data-ttu-id="e29f1-113">Dans le champ Type de paiement, sélectionnez « Lettre de change ».</span><span class="sxs-lookup"><span data-stu-id="e29f1-113">In the Payment type field, select 'Bill of exchange'.</span></span>
+7. <span data-ttu-id="e29f1-114">Développez ou réduisez la section Général.</span><span class="sxs-lookup"><span data-stu-id="e29f1-114">Expand or collapse the General section.</span></span>
+8. <span data-ttu-id="e29f1-115">Sélectionnez Banque dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="e29f1-115">In the Account type field, select 'Bank'.</span></span>
+9. <span data-ttu-id="e29f1-116">Dans le champ Compte de paiement, indiquez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="e29f1-116">In the Payment account field, specify the desired values.</span></span>
+    * <span data-ttu-id="e29f1-117">Par exemple : « FRSI OPER »</span><span class="sxs-lookup"><span data-stu-id="e29f1-117">For example: 'FRSI OPER'</span></span>  
+10. <span data-ttu-id="e29f1-118">Développez ou réduisez la section Formats de fichier.</span><span class="sxs-lookup"><span data-stu-id="e29f1-118">Expand or collapse the File formats section.</span></span>
+11. <span data-ttu-id="e29f1-119">Cliquez sur Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="e29f1-119">Click Setup.</span></span>
+12. <span data-ttu-id="e29f1-120">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="e29f1-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e29f1-121">Recherchez et sélectionnez « Lettre de change française » et utilisez la flèche pour la déplacer vers la liste sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e29f1-121">Find and select "French bill of exchange" and use the arrow to move it to the Selected list.</span></span>  
+13. <span data-ttu-id="e29f1-122">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e29f1-122">Click Save.</span></span>
+14. <span data-ttu-id="e29f1-123">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e29f1-123">Close the page.</span></span>
+15. <span data-ttu-id="e29f1-124">Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="e29f1-124">In the Name field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="e29f1-125">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e29f1-125">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="e29f1-126">Sélectionnez « EnmmEAR »</span><span class="sxs-lookup"><span data-stu-id="e29f1-126">Select "EnmmEAR"</span></span>  
+17. <span data-ttu-id="e29f1-127">Dans le champ Format d'exportation, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="e29f1-127">In the Export format field, click the drop-down button to open the lookup.</span></span>
+18. <span data-ttu-id="e29f1-128">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e29f1-128">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="e29f1-129">Par exemple : Sélectionnez « Lettre de change française »</span><span class="sxs-lookup"><span data-stu-id="e29f1-129">For example: Select "French bill of exchange"</span></span>  
+19. <span data-ttu-id="e29f1-130">Cochez ou décochez la case Créer et valider automatiquement le journal de création lors de la validation des factures.</span><span class="sxs-lookup"><span data-stu-id="e29f1-130">Select or clear the Create and post draw journal automatically when posting invoices check box.</span></span>
+20. <span data-ttu-id="e29f1-131">Cochez ou décochez la case à cocher Exécuter le script d'exportation.</span><span class="sxs-lookup"><span data-stu-id="e29f1-131">Select or clear the Run export script check box.</span></span>
+21. <span data-ttu-id="e29f1-132">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e29f1-132">Click Save.</span></span>
+

@@ -1,519 +1,191 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="transfer-transactions-intrastat.md" target-language="fr-FR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>transfer-transactions-intrastat.25c761.13cc9dc2119ad3dc85d580e92edee7bb9ef2075c.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>13cc9dc2119ad3dc85d580e92edee7bb9ef2075c</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\transfer-transactions-intrastat.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Transfer transactions to the Intrastat</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transférer des transactions dans la déclaration d'échanges de biens</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure walks you through how to set up Intrastat parameters and transfer transactions to Intrastat.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure vous guide dans le paramétrage des paramètres de déclaration d'échanges de biens et le transfert des transactions dans la déclaration d'échanges de biens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Transfer transactions to the Intrastat</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transférer des transactions dans la déclaration d'échanges de biens</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure walks you through how to set up Intrastat parameters and transfer transactions to Intrastat.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure vous guide dans le paramétrage des paramètres de déclaration d'échanges de biens et le transfert des transactions dans la déclaration d'échanges de biens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This procedure was created using the demo data company DEMF.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette procédure a été créée à l'aide des données fictives de la société DEMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Create new and update existing commodity code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crée et mettre à jour un code marchandise existant</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Go to Product information management &gt; Setup &gt; Categories and attributes &gt; Category hierarchies.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Gestion des informations sur les produits &gt; Paramétrage &gt; Catégories et d'attributs &gt; Hiérarchies de catégories.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>In the list, find or select the record "Intrastat commodity codes."</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, recherchez ou sélectionnez l'enregistrement « Codes marchandise de la déclaration d'échanges de biens ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>In the tree, select 'a record'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez un enregistrement dans l'arborescence.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>For example, select 'Intrastat\Speaker'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Déclaration d'échanges de biens\Haut-parleur, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Modifier.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Expand the Foreign trade section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Commerce extérieur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>In the Additional units field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saisissez ou sélectionnez une valeur dans le champ Unités additionnelles.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>For example, choose 'pcs'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez pcs, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Select Yes in the Weight not applicable field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Oui dans le champ Poids non applicable.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>In the tree, select 'Intrastat'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Déclaration d'échanges de biens dans l'arborescence.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Click New category node.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau nœud de catégorie.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>In the Name field, enter the name of commodity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez le nom de la marchandise dans le champ Nom.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>For example, type 'Other commodity'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez Autre marchandise, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the Code field, enter the commodity code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrer le code marchandise dans le champ Code.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>For example, type '995 00 00'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez 995 00 00, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>In the Friendly name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Nom convivial, saisissez une valeur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>For example, type 'Other'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez Autre, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fermez la page.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Assign commodity code to product hierarchy and released product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Affecter un code marchandise à la hiérarchie des produits et au produit lancé</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Use the Quick Filter to find records.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez le Filtre rapide pour rechercher les enregistrements.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>For example, filter on the Name field with a value of 'sales'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple, filtrez sur le champ Nom avec une valeur de « ventes ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>In the tree, expand 'a category node'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans l'arborescence, développez un nœud de catégorie.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>For example, expand 'Sales hierarchy\Home audio'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez Hiérarchie de vente\Audio d'accueil, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In the tree, select 'the category to assign to the commodity code'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans l'arborescence, sélectionnez la catégorie à affecter au code marchandise.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>For example, select 'Sales hierarchy\Home audio\Speakers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Hiérarchie de vente\Audio d'accueil\Haut-parleurs, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Expand the Commodity codes section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Codes marchandise.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Click Add.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Ajouter.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>In the Select hierarchy field, select 'Intrastat'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Déclaration d'échanges de biens dans le champ Sélectionner une hiérarchie.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In the list, find and select the commodity code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, recherchez et sélectionnez le code marchandise.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>For example, select '920 20 34 Speaker'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Haut-parleur 920 20 34, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Click SelectCodes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur SelectCodes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Go to Product information management &gt; Products &gt; Released products.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allez à Gestion des informations sur les produits &gt; Produits &gt; Produits lancés.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>In the list, choose the released product that you will assign to the commodity code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, choisissez le produit lancé à affecter au code marchandise.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>For example, choose 'D0001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez D0001, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Modifier.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Expand the Foreign trade section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Commerce extérieur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>In the Commodity field, enter the commodity code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez le code marchandise dans le champ Marchandise.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>For example, select value '920 20 34 Speaker'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez la valeur Haut-parleur 920 20 34, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>In the Charges percentage field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez un nombre dans le champ Pourcentage de frais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>For example, enter '3'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez 3, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>In the Country/region field, enter or select a country or region of origin</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Pays/Région, entrez ou sélectionnez un pays ou une région d'origine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>For example, select 'AUT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez AUT, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Expand the Manage inventory section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Gérer le stock.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>In the Net weight field, enter a weight in kg.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez un poids en kg dans le champ Poids net.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>For example, enter '2.5'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez 2,5 par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Set up Intrastat transaction codes and foreign trade parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paramétrer des codes de transaction de déclaration d'échanges de biens et des paramètres de commerce extérieur</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Go to Tax &gt; Setup &gt; Foreign trade &gt; Transaction codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Taxes &gt; Paramétrage &gt; Commerce extérieur &gt; Codes transaction.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the Transaction code field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tapez une valeur dans le champ Code transaction.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>For example, enter '21' for the transaction code used as return.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez 21, par exemple pour le code de transaction utilisé comme retour.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>In the Name field, type the name of transaction code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tapez le nom du code de transaction dans le champ Nom.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>For example, enter 'Return'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez Retour, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>In the Statistical amount field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez une option dans le champ Montant statistique.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>For example, select 'Empty' which indicates that the Statistical value to be reported for transactions with Transaction code of "21" will always be zero.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Vide, par exemple, ce qui indique que la valeur statistique à déclarer pour les transactions avec le code transaction 21 est toujours zéro.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Go to Tax &gt; Setup &gt; Foreign trade &gt; Foreign trade parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Taxe &gt; Paramétrage &gt; Commerce extérieur &gt; Paramètres de commerce extérieur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>In the Transaction code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saisissez ou sélectionnez une valeur dans le champ Code transaction.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>For example, select '11'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez 11, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>In the Credit note field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez ou sélectionnez une valeur dans le champ Avoir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>This value also identifies the physical return.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette valeur identifie également le retour physique.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>The credit note for the physical return will be transferred in the Intrastat journal with opposite direction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'avoir pour le retour physique est transféré dans le journal de déclaration d'échanges de biens dans le sens opposé.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>For example, the return of arrival is transferred as dispatch.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple, le retour de l'arrivée est transféré en tant qu'expédition.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Otherwise, the credit note is considered a correction and is transferred with the same direction and opposite sign.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sinon, l'avoir est considéré comme une correction et il est transféré avec le même sens et le signe contraire.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>For example, the correction of arrival is transferred as an arrival with negative amount and the active flag is set to "Correction".</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple, la correction de l'arrivée est transférée sous la forme d'une arrivée avec un montant négatif et la balise active est définie sur « Correction ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Expand the Transfer section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Transfert.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Select Yes in the Items with commodity code field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Oui dans le champ Articles avec code marchandise.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Select this option to transfer only the transactions with a commodity code assigned.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez cette option pour transférer uniquement les transactions ayant un code marchandise affecté.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Transactions without a commodity code won't be transferred to Intrastat.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les transactions sans code marchandise ne sont pas transférées à la déclaration d'échanges de biens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>In the Transfer when meeting criterion for field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez une option dans le champ Transférer en cas de réalisation du critère.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>For example, select 'One of the selected'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez « Un des critères », par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Expand the Commodity code hierarchy section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Hiérarchie des nomenclatures douanières.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Click the Country/region properties tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur l'onglet Propriétés de pays/régions.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>In the Country/region field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Pays/Région, sélectionnez ou entrez une valeur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>For example, select the value 'FRA'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez la valeur FRA, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>In the Intrastat code field, enter the ISO code for the country.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez le code pays ISO pour le pays dans le champ Code de déclaration d'échanges de biens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>For example, type 'FR'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez FR, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>In the Country/region type field, select 'EU'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le champ Type de pays/région, sélectionnez UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Click the Number sequences tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur l'onglet Souches de numéros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Set up Modes of delivery and rules for including charges in Intrastat</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paramétrer des modes de livraison et des règles pour inclure les frais de déclaration d'échanges de biens</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Go to Sales and marketing &gt; Setup &gt; Distribution &gt; Modes of delivery</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Ventes et marketing &gt; Paramétrage &gt; Distribution &gt; Modes de livraison.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>For example, select '20 Air'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez 20 Air, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Expand the Foreign trade section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Commerce extérieur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Modifier.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>In the Transport field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saisissez ou sélectionnez une valeur dans le champ Transport.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>For example, select '02'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez 02, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Go to Accounts receivable &gt; Charges setup &gt; Charges code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Paramétrage des frais &gt; Code frais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Use the Quick Filter to find records.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez le Filtre rapide pour rechercher les enregistrements.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>For example, filter on the Charges code field with a value of 'freight'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple, filtrez sur le champ Code frais avec une valeur de « transport ».</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Expand the Foreign trade section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Commerce extérieur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Modifier.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Select Yes in the Intrastat invoice value field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Oui dans le champ Valeur de la facture de la déclaration d'échanges de biens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>The amount will be transferred to the  Invoice charges field and will be summarized with the amount transferred in the Invoice amount field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le montant est transféré dans le champ Frais de la facture et il est résumé avec le montant transféré dans le champ Montant de la facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Select Yes in the Intrastat statistical value field if the amount of changes need to be transferred to the field Statistical charges and summarized with Statistical amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Oui dans le champ Valeur statistique de la déclaration d'échanges de biens si la quantité de modifications doit être transférée vers le champ des frais statistiques et être récapitulée avec le montant statistique.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Sell products for EU customers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vendre des produits pour les clients de l'UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Comptabilité client &gt; Commandes &gt; Toutes les commandes client.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>In the Customer account field, select an EU customer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez un client de l'UE dans le champ Compte client.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>For example, select "DE-012 Litware Retail".</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez DE-012 Litware Retail, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Expand the Delivery section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Livraison.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>In the Mode of delivery field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saisissez ou sélectionnez une valeur dans le champ Mode de livraison.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>For example, select '20 Air'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez 20 Air, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Place the cursor on the first row of sales order lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Placez le curseur sur la première ligne des lignes de commande client.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>In the Item number field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>For example, select 'D001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez D001, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Expand the Line details section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Détails de ligne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Click the Foreign trade tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur l'onglet Commerce extérieur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>The transport is filled automatically from the chosen Mode of delivery.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le transport est renseigné automatiquement à partir du mode de livraison sélectionné.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>In the Port field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saisissez ou sélectionnez une valeur dans le champ Port.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Click Financials.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Finances.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>As per the settings, this amount will be included in Intrastat invoice value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conformément aux paramètres, ce montant sera inclus dans la valeur de la facture de la déclaration d'échanges de biens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Click Maintain charges.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Tenir les frais à jour.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>In the Charges code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saisissez ou sélectionnez une valeur dans le champ Code frais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>For example, select 'FREIGHT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez FREIGHT, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Select the Keep check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Activez la case à cocher Conserver.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>In the Charges value field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez un nombre dans le champ Valeur des frais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>For example, enter '10'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez 10, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fermez la page.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le volet Actions, cliquez sur Facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Expand the Parameters section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Paramètres.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>In the Quantity field, select 'All'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez « Tout » dans le champ Quantité.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Expand the Setup section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Développez la section Paramétrage.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>In the Invoice date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez une date dans le champ Date de facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>For example, enter '2015-01-31'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez 31-01-2015, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fermez la page.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Nouveau.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>In the Customer account field, select an EU customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez un client de l'UE dans le champ Compte client.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>For example, select 'DE-013 Trey Wholesales'</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez DE-013 Trey Wholesales, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>In the Item number field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>For example, select 'D0001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez D0001, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Enregistrer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>In the Invoice date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez une date dans le champ Date de facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>For example, enter the date '2015-01-31'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez la date 31-01-2015, par exemple.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Transfer transactions to the Intrastat</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transférer des transactions dans la déclaration d'échanges de biens</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Go to Tax &gt; Declarations &gt; Foreign trade &gt; Intrastat.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accédez à Taxe &gt; Déclarations &gt; Commerce extérieur &gt; Déclaration d'échanges de biens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Click Transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Transférer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Select Yes in the Customer invoice field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Oui dans le champ Facture client.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>Click Filter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur Filtre.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>In the list, mark the row with Date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, marquer la ligne avec la date.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>In the Criteria field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tapez une valeur dans le champ Critères.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>For example, enter the filter for the period January 2015 (the exact value depends on your date format): 1/1/2015..1/31/2015</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple, entrez le filtre pour janvier 2015 (la valeur exacte dépend du format de date) : 1/1/2015..31/1/2015</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>In the list, find and selected the transferred record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste, recherchez et sélectionnez l'enregistrement transféré.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Click the General tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez sur l'onglet Général.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Review transferred data, including country\region of destination/dispatch, country of origin, weight, quantity, quantity in additional units, commodity, transaction code, invoice amounts and statistical amounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Examinez les données transférées, notamment pays\la région de destination/d'expédition, pays d'origine, poids, quantité, quantité en unités supplémentaires, marchandise, code de transaction, montants facturés et montants statistiques.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>You can modify data if necessary.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez modifier les données, le cas échéant.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Transférer des transactions dans la déclaration d'échanges de biens
+description: Cette procédure vous guide dans le paramétrage des paramètres de déclaration d'échanges de biens et le transfert des transactions dans la déclaration d'échanges de biens.
+author: Anasyash
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategory, UnitOfMeasureLookup, ProcCategoryAddCommodityCode, EcoResProductDetailsExtended, IntrastatCommodityLookup, IntrastatTransactionCode, IntrastatParameters, DeliveryMode, MarkupTable, SalesTableListPage, SalesCreateOrder, SalesTable, MarkupTrans, SalesEditLines,  Intrastat, SysQueryForm
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: anasyash
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 13cc9dc2119ad3dc85d580e92edee7bb9ef2075c
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559319"
+---
+# <a name="transfer-transactions-to-the-intrastat"></a><span data-ttu-id="ef494-103">Transférer des transactions dans la déclaration d'échanges de biens</span><span class="sxs-lookup"><span data-stu-id="ef494-103">Transfer transactions to the Intrastat</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="ef494-104">Cette procédure vous guide dans le paramétrage des paramètres de déclaration d'échanges de biens et le transfert des transactions dans la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="ef494-104">This procedure walks you through how to set up Intrastat parameters and transfer transactions to Intrastat.</span></span> <span data-ttu-id="ef494-105">Cette procédure a été créée à l'aide des données fictives de la société DEMF.</span><span class="sxs-lookup"><span data-stu-id="ef494-105">This procedure was created using the demo data company DEMF.</span></span>
+
+
+## <a name="create-new-and-update-existing-commodity-code"></a><span data-ttu-id="ef494-106">Crée et mettre à jour un code marchandise existant</span><span class="sxs-lookup"><span data-stu-id="ef494-106">Create new and update existing commodity code</span></span>
+1. <span data-ttu-id="ef494-107">Accédez à Gestion des informations sur les produits > Paramétrage > Catégories et d'attributs > Hiérarchies de catégories.</span><span class="sxs-lookup"><span data-stu-id="ef494-107">Go to Product information management > Setup > Categories and attributes > Category hierarchies.</span></span>
+2. <span data-ttu-id="ef494-108">Dans la liste, recherchez ou sélectionnez l'enregistrement « Codes marchandise de la déclaration d'échanges de biens ».</span><span class="sxs-lookup"><span data-stu-id="ef494-108">In the list, find or select the record "Intrastat commodity codes."</span></span>
+3. <span data-ttu-id="ef494-109">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ef494-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="ef494-110">Sélectionnez un enregistrement dans l'arborescence.</span><span class="sxs-lookup"><span data-stu-id="ef494-110">In the tree, select 'a record'.</span></span>
+    * <span data-ttu-id="ef494-111">Sélectionnez Déclaration d'échanges de biens\Haut-parleur, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-111">For example, select 'Intrastat\Speaker'.</span></span>  
+5. <span data-ttu-id="ef494-112">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="ef494-112">Click Edit.</span></span>
+6. <span data-ttu-id="ef494-113">Développez la section Commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="ef494-113">Expand the Foreign trade section.</span></span>
+7. <span data-ttu-id="ef494-114">Saisissez ou sélectionnez une valeur dans le champ Unités additionnelles.</span><span class="sxs-lookup"><span data-stu-id="ef494-114">In the Additional units field, enter or select a value.</span></span>
+    * <span data-ttu-id="ef494-115">Sélectionnez pcs, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-115">For example, choose 'pcs'.</span></span>  
+8. <span data-ttu-id="ef494-116">Sélectionnez Oui dans le champ Poids non applicable.</span><span class="sxs-lookup"><span data-stu-id="ef494-116">Select Yes in the Weight not applicable field.</span></span>
+9. <span data-ttu-id="ef494-117">Sélectionnez Déclaration d'échanges de biens dans l'arborescence.</span><span class="sxs-lookup"><span data-stu-id="ef494-117">In the tree, select 'Intrastat'.</span></span>
+10. <span data-ttu-id="ef494-118">Cliquez sur Nouveau nœud de catégorie.</span><span class="sxs-lookup"><span data-stu-id="ef494-118">Click New category node.</span></span>
+11. <span data-ttu-id="ef494-119">Entrez le nom de la marchandise dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="ef494-119">In the Name field, enter the name of commodity.</span></span>
+    * <span data-ttu-id="ef494-120">Entrez Autre marchandise, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-120">For example, type 'Other commodity'.</span></span>  
+12. <span data-ttu-id="ef494-121">Entrer le code marchandise dans le champ Code.</span><span class="sxs-lookup"><span data-stu-id="ef494-121">In the Code field, enter the commodity code.</span></span>
+    * <span data-ttu-id="ef494-122">Entrez 995 00 00, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-122">For example, type '995 00 00'.</span></span>  
+13. <span data-ttu-id="ef494-123">Dans le champ Nom convivial, saisissez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ef494-123">In the Friendly name field, type a value.</span></span>
+    * <span data-ttu-id="ef494-124">Entrez Autre, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-124">For example, type 'Other'.</span></span>  
+14. <span data-ttu-id="ef494-125">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ef494-125">Click Save.</span></span>
+15. <span data-ttu-id="ef494-126">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ef494-126">Close the page.</span></span>
+
+## <a name="assign-commodity-code-to-product-hierarchy-and-released-product"></a><span data-ttu-id="ef494-127">Affecter un code marchandise à la hiérarchie des produits et au produit lancé</span><span class="sxs-lookup"><span data-stu-id="ef494-127">Assign commodity code to product hierarchy and released product</span></span>
+1. <span data-ttu-id="ef494-128">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="ef494-128">Use the Quick Filter to find records.</span></span> <span data-ttu-id="ef494-129">Par exemple, filtrez sur le champ Nom avec une valeur de « ventes ».</span><span class="sxs-lookup"><span data-stu-id="ef494-129">For example, filter on the Name field with a value of 'sales'.</span></span>
+2. <span data-ttu-id="ef494-130">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ef494-130">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="ef494-131">Dans l'arborescence, développez un nœud de catégorie.</span><span class="sxs-lookup"><span data-stu-id="ef494-131">In the tree, expand 'a category node'.</span></span>
+    * <span data-ttu-id="ef494-132">Développez Hiérarchie de vente\Audio d'accueil, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-132">For example, expand 'Sales hierarchy\Home audio'.</span></span>  
+4. <span data-ttu-id="ef494-133">Dans l'arborescence, sélectionnez la catégorie à affecter au code marchandise.</span><span class="sxs-lookup"><span data-stu-id="ef494-133">In the tree, select 'the category to assign to the commodity code'.</span></span>
+    * <span data-ttu-id="ef494-134">Sélectionnez Hiérarchie de vente\Audio d'accueil\Haut-parleurs, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-134">For example, select 'Sales hierarchy\Home audio\Speakers.</span></span>  
+5. <span data-ttu-id="ef494-135">Développez la section Codes marchandise.</span><span class="sxs-lookup"><span data-stu-id="ef494-135">Expand the Commodity codes section.</span></span>
+6. <span data-ttu-id="ef494-136">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="ef494-136">Click Add.</span></span>
+7. <span data-ttu-id="ef494-137">Sélectionnez Déclaration d'échanges de biens dans le champ Sélectionner une hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="ef494-137">In the Select hierarchy field, select 'Intrastat'.</span></span>
+8. <span data-ttu-id="ef494-138">Dans la liste, recherchez et sélectionnez le code marchandise.</span><span class="sxs-lookup"><span data-stu-id="ef494-138">In the list, find and select the commodity code</span></span>
+    * <span data-ttu-id="ef494-139">Sélectionnez Haut-parleur 920 20 34, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-139">For example, select '920 20 34 Speaker'.</span></span>  
+9. <span data-ttu-id="ef494-140">Cliquez sur SelectCodes.</span><span class="sxs-lookup"><span data-stu-id="ef494-140">Click SelectCodes.</span></span>
+10. <span data-ttu-id="ef494-141">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ef494-141">Click OK.</span></span>
+11. <span data-ttu-id="ef494-142">Allez à Gestion des informations sur les produits > Produits > Produits lancés.</span><span class="sxs-lookup"><span data-stu-id="ef494-142">Go to Product information management > Products > Released products.</span></span>
+12. <span data-ttu-id="ef494-143">Dans la liste, choisissez le produit lancé à affecter au code marchandise.</span><span class="sxs-lookup"><span data-stu-id="ef494-143">In the list, choose the released product that you will assign to the commodity code.</span></span>
+    * <span data-ttu-id="ef494-144">Sélectionnez D0001, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-144">For example, choose 'D0001'.</span></span>  
+13. <span data-ttu-id="ef494-145">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="ef494-145">Click Edit.</span></span>
+14. <span data-ttu-id="ef494-146">Développez la section Commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="ef494-146">Expand the Foreign trade section.</span></span>
+15. <span data-ttu-id="ef494-147">Entrez le code marchandise dans le champ Marchandise.</span><span class="sxs-lookup"><span data-stu-id="ef494-147">In the Commodity field, enter the commodity code</span></span>
+    * <span data-ttu-id="ef494-148">Sélectionnez la valeur Haut-parleur 920 20 34, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-148">For example, select value '920 20 34 Speaker'.</span></span>    
+16. <span data-ttu-id="ef494-149">Entrez un nombre dans le champ Pourcentage de frais.</span><span class="sxs-lookup"><span data-stu-id="ef494-149">In the Charges percentage field, enter a number.</span></span>
+    * <span data-ttu-id="ef494-150">Entrez 3, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-150">For example, enter '3'.</span></span>  
+17. <span data-ttu-id="ef494-151">Dans le champ Pays/Région, entrez ou sélectionnez un pays ou une région d'origine.</span><span class="sxs-lookup"><span data-stu-id="ef494-151">In the Country/region field, enter or select a country or region of origin</span></span>
+    * <span data-ttu-id="ef494-152">Sélectionnez AUT, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-152">For example, select 'AUT'.</span></span>  
+18. <span data-ttu-id="ef494-153">Développez la section Gérer le stock.</span><span class="sxs-lookup"><span data-stu-id="ef494-153">Expand the Manage inventory section.</span></span>
+19. <span data-ttu-id="ef494-154">Entrez un poids en kg dans le champ Poids net.</span><span class="sxs-lookup"><span data-stu-id="ef494-154">In the Net weight field, enter a weight in kg.</span></span>
+    * <span data-ttu-id="ef494-155">Entrez 2,5 par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-155">For example, enter '2.5'.</span></span>  
+20. <span data-ttu-id="ef494-156">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ef494-156">Click Save.</span></span>
+
+## <a name="set-up-intrastat-transaction-codes-and-foreign-trade-parameters"></a><span data-ttu-id="ef494-157">Paramétrer des codes de transaction de déclaration d'échanges de biens et des paramètres de commerce extérieur</span><span class="sxs-lookup"><span data-stu-id="ef494-157">Set up Intrastat transaction codes and foreign trade parameters</span></span>
+1. <span data-ttu-id="ef494-158">Accédez à Taxes > Paramétrage > Commerce extérieur > Codes transaction.</span><span class="sxs-lookup"><span data-stu-id="ef494-158">Go to Tax > Setup > Foreign trade > Transaction codes</span></span>
+2. <span data-ttu-id="ef494-159">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ef494-159">Click New.</span></span>
+3. <span data-ttu-id="ef494-160">Tapez une valeur dans le champ Code transaction.</span><span class="sxs-lookup"><span data-stu-id="ef494-160">In the Transaction code field, type a value.</span></span>
+    * <span data-ttu-id="ef494-161">Entrez 21, par exemple pour le code de transaction utilisé comme retour.</span><span class="sxs-lookup"><span data-stu-id="ef494-161">For example, enter '21' for the transaction code used as return.</span></span>  
+4. <span data-ttu-id="ef494-162">Tapez le nom du code de transaction dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="ef494-162">In the Name field, type the name of transaction code.</span></span>
+    * <span data-ttu-id="ef494-163">Entrez Retour, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-163">For example, enter 'Return'.</span></span>  
+5. <span data-ttu-id="ef494-164">Sélectionnez une option dans le champ Montant statistique.</span><span class="sxs-lookup"><span data-stu-id="ef494-164">In the Statistical amount field, select an option.</span></span>
+    * <span data-ttu-id="ef494-165">Sélectionnez Vide, par exemple, ce qui indique que la valeur statistique à déclarer pour les transactions avec le code transaction 21 est toujours zéro.</span><span class="sxs-lookup"><span data-stu-id="ef494-165">For example, select 'Empty' which indicates that the Statistical value to be reported for transactions with Transaction code of "21" will always be zero.</span></span>  
+6. <span data-ttu-id="ef494-166">Accédez à Taxe > Paramétrage > Commerce extérieur > Paramètres de commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="ef494-166">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
+7. <span data-ttu-id="ef494-167">Saisissez ou sélectionnez une valeur dans le champ Code transaction.</span><span class="sxs-lookup"><span data-stu-id="ef494-167">In the Transaction code field, enter or select a value.</span></span>
+    * <span data-ttu-id="ef494-168">Sélectionnez 11, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-168">For example, select '11'.</span></span>  
+8. <span data-ttu-id="ef494-169">Entrez ou sélectionnez une valeur dans le champ Avoir.</span><span class="sxs-lookup"><span data-stu-id="ef494-169">In the Credit note field, enter or select a value.</span></span>
+    * <span data-ttu-id="ef494-170">Cette valeur identifie également le retour physique.</span><span class="sxs-lookup"><span data-stu-id="ef494-170">This value also identifies the physical return.</span></span> <span data-ttu-id="ef494-171">L'avoir pour le retour physique est transféré dans le journal de déclaration d'échanges de biens dans le sens opposé.</span><span class="sxs-lookup"><span data-stu-id="ef494-171">The credit note for the physical return will be transferred in the Intrastat journal with opposite direction.</span></span> <span data-ttu-id="ef494-172">Par exemple, le retour de l'arrivée est transféré en tant qu'expédition.</span><span class="sxs-lookup"><span data-stu-id="ef494-172">For example, the return of arrival is transferred as dispatch.</span></span>   <span data-ttu-id="ef494-173">Sinon, l'avoir est considéré comme une correction et il est transféré avec le même sens et le signe contraire.</span><span class="sxs-lookup"><span data-stu-id="ef494-173">Otherwise, the credit note is considered a correction and is transferred with the same direction and opposite sign.</span></span> <span data-ttu-id="ef494-174">Par exemple, la correction de l'arrivée est transférée sous la forme d'une arrivée avec un montant négatif et la balise active est définie sur « Correction ».</span><span class="sxs-lookup"><span data-stu-id="ef494-174">For example, the correction of arrival is transferred as an arrival with negative amount and the active flag is set to "Correction".</span></span>  
+9. <span data-ttu-id="ef494-175">Développez la section Transfert.</span><span class="sxs-lookup"><span data-stu-id="ef494-175">Expand the Transfer section.</span></span>
+10. <span data-ttu-id="ef494-176">Sélectionnez Oui dans le champ Articles avec code marchandise.</span><span class="sxs-lookup"><span data-stu-id="ef494-176">Select Yes in the Items with commodity code field.</span></span>
+    * <span data-ttu-id="ef494-177">Sélectionnez cette option pour transférer uniquement les transactions ayant un code marchandise affecté.</span><span class="sxs-lookup"><span data-stu-id="ef494-177">Select this option to transfer only the transactions with a commodity code assigned.</span></span> <span data-ttu-id="ef494-178">Les transactions sans code marchandise ne sont pas transférées à la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="ef494-178">Transactions without a commodity code won't be transferred to Intrastat.</span></span>  
+11. <span data-ttu-id="ef494-179">Sélectionnez une option dans le champ Transférer en cas de réalisation du critère.</span><span class="sxs-lookup"><span data-stu-id="ef494-179">In the Transfer when meeting criterion for field, select an option.</span></span>
+    * <span data-ttu-id="ef494-180">Sélectionnez « Un des critères », par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-180">For example, select 'One of the selected'.</span></span>  
+12. <span data-ttu-id="ef494-181">Développez la section Hiérarchie des nomenclatures douanières.</span><span class="sxs-lookup"><span data-stu-id="ef494-181">Expand the Commodity code hierarchy section.</span></span>
+13. <span data-ttu-id="ef494-182">Cliquez sur l'onglet Propriétés de pays/régions.</span><span class="sxs-lookup"><span data-stu-id="ef494-182">Click the Country/region properties tab.</span></span>
+14. <span data-ttu-id="ef494-183">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ef494-183">Click New.</span></span>
+15. <span data-ttu-id="ef494-184">Dans le champ Pays/Région, sélectionnez ou entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ef494-184">In the Country/region field, enter or select a value.</span></span>
+    * <span data-ttu-id="ef494-185">Sélectionnez la valeur FRA, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-185">For example, select the value 'FRA'.</span></span>  
+16. <span data-ttu-id="ef494-186">Entrez le code pays ISO pour le pays dans le champ Code de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="ef494-186">In the Intrastat code field, enter the ISO code for the country.</span></span>
+    * <span data-ttu-id="ef494-187">Entrez FR, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-187">For example, type 'FR'.</span></span>  
+17. <span data-ttu-id="ef494-188">Dans le champ Type de pays/région, sélectionnez UE.</span><span class="sxs-lookup"><span data-stu-id="ef494-188">In the Country/region type field, select 'EU'.</span></span>
+18. <span data-ttu-id="ef494-189">Cliquez sur l'onglet Souches de numéros.</span><span class="sxs-lookup"><span data-stu-id="ef494-189">Click the Number sequences tab.</span></span>
+
+## <a name="set-up-modes-of-delivery-and-rules-for-including-charges-in-intrastat"></a><span data-ttu-id="ef494-190">Paramétrer des modes de livraison et des règles pour inclure les frais de déclaration d'échanges de biens</span><span class="sxs-lookup"><span data-stu-id="ef494-190">Set up Modes of delivery and rules for including charges in Intrastat</span></span>
+1. <span data-ttu-id="ef494-191">Accédez à Ventes et marketing > Paramétrage > Distribution > Modes de livraison.</span><span class="sxs-lookup"><span data-stu-id="ef494-191">Go to Sales and marketing > Setup > Distribution > Modes of delivery</span></span>
+2. <span data-ttu-id="ef494-192">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ef494-192">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ef494-193">Sélectionnez 20 Air, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-193">For example, select '20 Air'.</span></span>  
+3. <span data-ttu-id="ef494-194">Développez la section Commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="ef494-194">Expand the Foreign trade section.</span></span>
+4. <span data-ttu-id="ef494-195">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="ef494-195">Click Edit.</span></span>
+5. <span data-ttu-id="ef494-196">Saisissez ou sélectionnez une valeur dans le champ Transport.</span><span class="sxs-lookup"><span data-stu-id="ef494-196">In the Transport field, enter or select a value.</span></span>
+    * <span data-ttu-id="ef494-197">Sélectionnez 02, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-197">For example, select '02'.</span></span>  
+6. <span data-ttu-id="ef494-198">Accédez à Comptabilité client > Paramétrage des frais > Code frais.</span><span class="sxs-lookup"><span data-stu-id="ef494-198">Go to Accounts receivable > Charges setup > Charges code.</span></span>
+7. <span data-ttu-id="ef494-199">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="ef494-199">Use the Quick Filter to find records.</span></span> <span data-ttu-id="ef494-200">Par exemple, filtrez sur le champ Code frais avec une valeur de « transport ».</span><span class="sxs-lookup"><span data-stu-id="ef494-200">For example, filter on the Charges code field with a value of 'freight'.</span></span>
+8. <span data-ttu-id="ef494-201">Développez la section Commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="ef494-201">Expand the Foreign trade section.</span></span>
+9. <span data-ttu-id="ef494-202">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="ef494-202">Click Edit.</span></span>
+10. <span data-ttu-id="ef494-203">Sélectionnez Oui dans le champ Valeur de la facture de la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="ef494-203">Select Yes in the Intrastat invoice value field.</span></span>
+    * <span data-ttu-id="ef494-204">Le montant est transféré dans le champ Frais de la facture et il est résumé avec le montant transféré dans le champ Montant de la facture.</span><span class="sxs-lookup"><span data-stu-id="ef494-204">The amount will be transferred to the  Invoice charges field and will be summarized with the amount transferred in the Invoice amount field.</span></span>    <span data-ttu-id="ef494-205">Sélectionnez Oui dans le champ Valeur statistique de la déclaration d'échanges de biens si la quantité de modifications doit être transférée vers le champ des frais statistiques et être récapitulée avec le montant statistique.</span><span class="sxs-lookup"><span data-stu-id="ef494-205">Select Yes in the Intrastat statistical value field if the amount of changes need to be transferred to the field Statistical charges and summarized with Statistical amount.</span></span>  
+
+## <a name="sell-products-for-eu-customers"></a><span data-ttu-id="ef494-206">Vendre des produits pour les clients de l'UE</span><span class="sxs-lookup"><span data-stu-id="ef494-206">Sell products for EU customers</span></span>
+1. <span data-ttu-id="ef494-207">Accédez à Comptabilité client > Commandes > Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="ef494-207">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="ef494-208">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ef494-208">Click New.</span></span>
+3. <span data-ttu-id="ef494-209">Sélectionnez un client de l'UE dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="ef494-209">In the Customer account field, select an EU customer</span></span>
+    * <span data-ttu-id="ef494-210">Sélectionnez DE-012 Litware Retail, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-210">For example, select "DE-012 Litware Retail".</span></span>  
+4. <span data-ttu-id="ef494-211">Développez la section Livraison.</span><span class="sxs-lookup"><span data-stu-id="ef494-211">Expand the Delivery section.</span></span>
+5. <span data-ttu-id="ef494-212">Saisissez ou sélectionnez une valeur dans le champ Mode de livraison.</span><span class="sxs-lookup"><span data-stu-id="ef494-212">In the Mode of delivery field, enter or select a value.</span></span>
+    * <span data-ttu-id="ef494-213">Sélectionnez 20 Air, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-213">For example, select '20 Air'.</span></span>  
+6. <span data-ttu-id="ef494-214">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ef494-214">Click OK.</span></span>
+7. <span data-ttu-id="ef494-215">Placez le curseur sur la première ligne des lignes de commande client.</span><span class="sxs-lookup"><span data-stu-id="ef494-215">Place the cursor on the first row of sales order lines.</span></span>
+8. <span data-ttu-id="ef494-216">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="ef494-216">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="ef494-217">Sélectionnez D001, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-217">For example, select 'D001'.</span></span>  
+9. <span data-ttu-id="ef494-218">Développez la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="ef494-218">Expand the Line details section.</span></span>
+10. <span data-ttu-id="ef494-219">Cliquez sur l'onglet Commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="ef494-219">Click the Foreign trade tab.</span></span>
+    * <span data-ttu-id="ef494-220">Le transport est renseigné automatiquement à partir du mode de livraison sélectionné.</span><span class="sxs-lookup"><span data-stu-id="ef494-220">The transport is filled automatically from the chosen Mode of delivery.</span></span>  
+11. <span data-ttu-id="ef494-221">Saisissez ou sélectionnez une valeur dans le champ Port.</span><span class="sxs-lookup"><span data-stu-id="ef494-221">In the Port field, enter or select a value.</span></span>
+12. <span data-ttu-id="ef494-222">Cliquez sur Finances.</span><span class="sxs-lookup"><span data-stu-id="ef494-222">Click Financials.</span></span>
+    * <span data-ttu-id="ef494-223">Conformément aux paramètres, ce montant sera inclus dans la valeur de la facture de la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="ef494-223">As per the settings, this amount will be included in Intrastat invoice value.</span></span>  
+13. <span data-ttu-id="ef494-224">Cliquez sur Tenir les frais à jour.</span><span class="sxs-lookup"><span data-stu-id="ef494-224">Click Maintain charges.</span></span>
+14. <span data-ttu-id="ef494-225">Saisissez ou sélectionnez une valeur dans le champ Code frais.</span><span class="sxs-lookup"><span data-stu-id="ef494-225">In the Charges code field, enter or select a value.</span></span>
+    * <span data-ttu-id="ef494-226">Sélectionnez FREIGHT, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-226">For example, select 'FREIGHT'.</span></span>  
+15. <span data-ttu-id="ef494-227">Activez la case à cocher Conserver.</span><span class="sxs-lookup"><span data-stu-id="ef494-227">Select the Keep check box.</span></span>
+16. <span data-ttu-id="ef494-228">Entrez un nombre dans le champ Valeur des frais.</span><span class="sxs-lookup"><span data-stu-id="ef494-228">In the Charges value field, enter a number.</span></span>
+    * <span data-ttu-id="ef494-229">Entrez 10, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-229">For example, enter '10'.</span></span>  
+17. <span data-ttu-id="ef494-230">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ef494-230">Click Save.</span></span>
+18. <span data-ttu-id="ef494-231">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ef494-231">Close the page.</span></span>
+19. <span data-ttu-id="ef494-232">Dans le volet Actions, cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="ef494-232">On the Action Pane, click Invoice.</span></span>
+20. <span data-ttu-id="ef494-233">Cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="ef494-233">Click Invoice.</span></span>
+21. <span data-ttu-id="ef494-234">Développez la section Paramètres.</span><span class="sxs-lookup"><span data-stu-id="ef494-234">Expand the Parameters section.</span></span>
+22. <span data-ttu-id="ef494-235">Sélectionnez « Tout » dans le champ Quantité.</span><span class="sxs-lookup"><span data-stu-id="ef494-235">In the Quantity field, select 'All'.</span></span>
+23. <span data-ttu-id="ef494-236">Développez la section Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="ef494-236">Expand the Setup section.</span></span>
+24. <span data-ttu-id="ef494-237">Entrez une date dans le champ Date de facture.</span><span class="sxs-lookup"><span data-stu-id="ef494-237">In the Invoice date field, enter a date.</span></span>
+    * <span data-ttu-id="ef494-238">Entrez 31-01-2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-238">For example, enter '2015-01-31'.</span></span>  
+25. <span data-ttu-id="ef494-239">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ef494-239">Click OK.</span></span>
+26. <span data-ttu-id="ef494-240">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ef494-240">Click OK.</span></span>
+27. <span data-ttu-id="ef494-241">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ef494-241">Close the page.</span></span>
+28. <span data-ttu-id="ef494-242">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ef494-242">Click New.</span></span>
+29. <span data-ttu-id="ef494-243">Sélectionnez un client de l'UE dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="ef494-243">In the Customer account field, select an EU customer.</span></span>
+    * <span data-ttu-id="ef494-244">Sélectionnez DE-013 Trey Wholesales, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-244">For example, select 'DE-013 Trey Wholesales'</span></span>  
+30. <span data-ttu-id="ef494-245">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ef494-245">Click OK.</span></span>
+31. <span data-ttu-id="ef494-246">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="ef494-246">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="ef494-247">Sélectionnez D0001, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-247">For example, select 'D0001'.</span></span>  
+32. <span data-ttu-id="ef494-248">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ef494-248">Click Save.</span></span>
+33. <span data-ttu-id="ef494-249">Cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="ef494-249">Click Invoice.</span></span>
+34. <span data-ttu-id="ef494-250">Entrez une date dans le champ Date de facture.</span><span class="sxs-lookup"><span data-stu-id="ef494-250">In the Invoice date field, enter a date.</span></span>
+    * <span data-ttu-id="ef494-251">Entrez la date 31-01-2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="ef494-251">For example, enter the date '2015-01-31'.</span></span>  
+35. <span data-ttu-id="ef494-252">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ef494-252">Click OK.</span></span>
+36. <span data-ttu-id="ef494-253">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ef494-253">Click OK.</span></span>
+
+## <a name="transfer-transactions-to-the-intrastat"></a><span data-ttu-id="ef494-254">Transférer des transactions dans la déclaration d'échanges de biens</span><span class="sxs-lookup"><span data-stu-id="ef494-254">Transfer transactions to the Intrastat</span></span>
+1. <span data-ttu-id="ef494-255">Accédez à Taxe > Déclarations > Commerce extérieur > Déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="ef494-255">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+2. <span data-ttu-id="ef494-256">Cliquez sur Transférer.</span><span class="sxs-lookup"><span data-stu-id="ef494-256">Click Transfer.</span></span>
+3. <span data-ttu-id="ef494-257">Sélectionnez Oui dans le champ Facture client.</span><span class="sxs-lookup"><span data-stu-id="ef494-257">Select Yes in the Customer invoice field.</span></span>
+4. <span data-ttu-id="ef494-258">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="ef494-258">Click Filter.</span></span>
+5. <span data-ttu-id="ef494-259">Dans la liste, marquer la ligne avec la date.</span><span class="sxs-lookup"><span data-stu-id="ef494-259">In the list, mark the row with Date</span></span>
+6. <span data-ttu-id="ef494-260">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="ef494-260">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="ef494-261">Par exemple, entrez le filtre pour janvier 2015 (la valeur exacte dépend du format de date) : 1/1/2015..31/1/2015</span><span class="sxs-lookup"><span data-stu-id="ef494-261">For example, enter the filter for the period January 2015 (the exact value depends on your date format): 1/1/2015..1/31/2015</span></span>  
+7. <span data-ttu-id="ef494-262">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ef494-262">Click OK.</span></span>
+8. <span data-ttu-id="ef494-263">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ef494-263">Click OK.</span></span>
+9. <span data-ttu-id="ef494-264">Dans la liste, recherchez et sélectionnez l'enregistrement transféré.</span><span class="sxs-lookup"><span data-stu-id="ef494-264">In the list, find and selected the transferred record.</span></span>
+10. <span data-ttu-id="ef494-265">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="ef494-265">Click the General tab.</span></span>
+    * <span data-ttu-id="ef494-266">Examinez les données transférées, notamment pays\la région de destination/d'expédition, pays d'origine, poids, quantité, quantité en unités supplémentaires, marchandise, code de transaction, montants facturés et montants statistiques.</span><span class="sxs-lookup"><span data-stu-id="ef494-266">Review transferred data, including country\region of destination/dispatch, country of origin, weight, quantity, quantity in additional units, commodity, transaction code, invoice amounts and statistical amounts.</span></span>   <span data-ttu-id="ef494-267">Vous pouvez modifier les données, le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="ef494-267">You can modify data if necessary.</span></span>  
+

@@ -1,147 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-fra-chronological-invoices-vouchers.md" target-language="fr-FR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-fra-chronological-invoices-vouchers.357635.4f57cc7e472dc0e2081056f7df1d59c1ade25347.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>4f57cc7e472dc0e2081056f7df1d59c1ade25347</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-fra-chronological-invoices-vouchers.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Chronological invoice and voucher numbers for France</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Numéros de facture et de document chronologiques pour la France</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic explains how to set up and use chronological numbers for invoices and vouchers in Accounts receivable for legal entities in France.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client pour les entités juridiques en France.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Chronological invoice and voucher numbers for France</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Numéros de facture et de document chronologiques pour la France</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic explains how to set up and use chronological numbers for invoices and vouchers in Accounts receivable for legal entities in France.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client pour les entités juridiques en France.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>In France, there is a legal requirement that all invoices and related vouchers that are issued be numbered in chronological order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En France, il est obligatoire que toutes les factures et les documents associés émis soient numérotés dans l'ordre chronologique.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>The chronology must be supported by fiscal periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La chronologie doit être prise en charge par les périodes fiscales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>All the numbers that belong to earlier periods must be less than the numbers that belong to later periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tous les numéros qui appartiennent à des périodes antérieures doivent être inférieurs aux numéros qui appartiennent aux périodes ultérieures.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Within one fiscal period, chronological order isn't mandatory, but there must be no gaps in the numbering.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans une période fiscale, l'ordre chronologique n'est pas obligatoire, mais il ne doit y avoir aucun écart dans la numérotation.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>To meet this requirement, chronological numbering in Accounts receivable affects the following documents:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour répondre à cette exigence, la numérotation chronologique dans le module Comptabilité client affecte les documents suivants :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Free text invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Facture financière</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Free text invoice voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N° document de facture financière</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Free text credit note</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avoir financier</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Free text credit note voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N° document d'avoir financier</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Sales invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Facture client</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Sales invoice voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Document de facture client</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Sales credit note</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avoir sur vente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Sales credit note voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N° document d'avoir sur vente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Prerequisites</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conditions préalables</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Category</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Catégorie</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Prerequisite</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Logiciel requis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Country/region</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pays/région</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>The primary address of the legal entity must be in France.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'adresse principale de l'entité juridique doit être en France.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Related setup tasks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tâches associées de paramétrage</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>On the <bpt id="p1">&lt;strong&gt;</bpt>Accounts receivable parameters<ept id="p1">&lt;/strong&gt;</ept> page, on the <bpt id="p2">&lt;strong&gt;</bpt>Updates<ept id="p2">&lt;/strong&gt;</ept> tab, set the <bpt id="p3">&lt;strong&gt;</bpt>Chronological numbering<ept id="p3">&lt;/strong&gt;</ept> option to <bpt id="p4">&lt;strong&gt;</bpt>Yes<ept id="p4">&lt;/strong&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la page <bpt id="p1">&lt;strong&gt;</bpt>Paramètres de la comptabilité client<ept id="p1">&lt;/strong&gt;</ept>, sous l'onglet <bpt id="p2">&lt;strong&gt;</bpt>Mises à jour<ept id="p2">&lt;/strong&gt;</ept>, définissez l'option <bpt id="p3">&lt;strong&gt;</bpt>Numérotation chronologique<ept id="p3">&lt;/strong&gt;</ept> sur <bpt id="p4">&lt;strong&gt;</bpt>Oui<ept id="p4">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>On the <bpt id="p1">&lt;strong&gt;</bpt>Number sequences<ept id="p1">&lt;/strong&gt;</ept> page, define as many number sequences as you require to cover the affected fiscal periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la page <bpt id="p1">&lt;strong&gt;</bpt>Souches de numéros<ept id="p1">&lt;/strong&gt;</ept>, définissez autant de souches de numéros qu'il est nécessaire pour couvrir les périodes fiscales affectées.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>You should specify a company for each number sequence.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous devez spécifier une société pour chaque souche de numéros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>The segments of the number sequences must be defined so that they provide chronological order for periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les segments des souches de numéros doivent être définis de manière à fournir l'ordre chronologique des périodes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>For example, the segment names can contain a special prefix that identifies a specific period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple, les noms de segment peuvent contenir un préfixe spécial qui identifie une période spécifique.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Set up chronological numbering</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paramétrer la numérotation chronologique</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Accounts receivable parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paramètres de la comptabilité client</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>On the <bpt id="p1">**</bpt>Accounts receivable parameters<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Number sequences<ept id="p2">**</ept> tab, select one of the supported references, such as <bpt id="p3">**</bpt>Free text invoice<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la page <bpt id="p1">**</bpt>Paramètres de la comptabilité client<ept id="p1">**</ept>, sous l'onglet <bpt id="p2">**</bpt>Souches de numéros<ept id="p2">**</ept>, sélectionnez l'une des références prises en charge, par exemple <bpt id="p3">**</bpt>Facture financière<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Then click the <bpt id="p1">**</bpt>Chronological numbering setup<ept id="p1">**</ept> button that will be available for the supported references.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliquez ensuite sur le bouton <bpt id="p1">**</bpt>Paramétrage de la numérotation chronologique<ept id="p1">**</ept> qui sera disponible pour les références prises en charge.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>On the <bpt id="p1">**</bpt>Chronological numbering setup<ept id="p1">**</ept> page, define the date-effective number sequences that have valid periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la page <bpt id="p1">**</bpt>Paramétrage de la numérotation chronologique<ept id="p1">**</ept>, définissez les souches de numéros ayant des périodes valides.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Number sequence groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Groupes de souches de numéros</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>If different customers use different patterns for numbering, you must set up chronological numbering at the level of the number sequence group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si différents clients utilisent différents modèles de numérotation, vous devez paramétrer la numérotation chronologique au niveau du groupe de souches de numéros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>On the <bpt id="p1">**</bpt>Accounts receivable parameters<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Number sequences<ept id="p2">**</ept> tab, select one of the supported references, and then click <bpt id="p3">**</bpt>Group<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la page <bpt id="p1">**</bpt>Paramètres de la comptabilité client<ept id="p1">**</ept>, sous l'onglet <bpt id="p2">**</bpt>Souches de numéros<ept id="p2">**</ept>, sélectionnez l'une des références prises en charge, puis cliquez sur <bpt id="p3">**</bpt>Groupe<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>On the <bpt id="p1">**</bpt>Number sequence group<ept id="p1">**</ept> page, select an existing group, or create a new group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la page <bpt id="p1">**</bpt>Groupe de souches de numéros<ept id="p1">**</ept>, sélectionnez un groupe existant ou créez-en un.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In the <bpt id="p1">**</bpt>Reference<ept id="p1">**</ept> section, select one of the supported references, and then click <bpt id="p2">**</bpt>Chronological numbering setup<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la section <bpt id="p1">**</bpt>Référence<ept id="p1">**</ept>, sélectionnez l'une des références prises en charge, puis cliquez sur <bpt id="p2">**</bpt>Paramétrage de la numérotation chronologique<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>On the <bpt id="p1">**</bpt>Chronological numbering setup<ept id="p1">**</ept> page, define date-effective number sequences that have valid periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la page <bpt id="p1">**</bpt>Paramétrage de la numérotation chronologique<ept id="p1">**</ept>, définissez les souches de numéros ayant des périodes valides.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Invoice posting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Validation de facture</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>When you post an invoice or a credit note, the appropriate number sequence is used to generate a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous validez une facture ou un avoir, la souche de numéros appropriée est utilisée pour générer un numéro.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>This number sequence is selected based on the valid period that contains the invoice date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cette souche de numéros est sélectionnée selon la période valide contenant la date de la facture.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Customer-specific chronological numbering has higher priority than chronological numbering.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La numérotation chronologique spécifique au client a une priorité plus élevée que la numérotation chronologique.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Numéros de facture et de document chronologiques pour la France
+description: Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client pour les entités juridiques en France.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustParameters, NumberSequenceGroup
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 264514
+ms.search.region: France
+ms.author: ilyako
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 4f57cc7e472dc0e2081056f7df1d59c1ade25347
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547175"
+---
+# <a name="chronological-invoice-and-voucher-numbers-for-france"></a><span data-ttu-id="e2367-103">Numéros de facture et de document chronologiques pour la France</span><span class="sxs-lookup"><span data-stu-id="e2367-103">Chronological invoice and voucher numbers for France</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="e2367-104">Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client pour les entités juridiques en France.</span><span class="sxs-lookup"><span data-stu-id="e2367-104">This topic explains how to set up and use chronological numbers for invoices and vouchers in Accounts receivable for legal entities in France.</span></span>  
+
+<span data-ttu-id="e2367-105">En France, il est obligatoire que toutes les factures et les documents associés émis soient numérotés dans l'ordre chronologique.</span><span class="sxs-lookup"><span data-stu-id="e2367-105">In France, there is a legal requirement that all invoices and related vouchers that are issued be numbered in chronological order.</span></span> <span data-ttu-id="e2367-106">La chronologie doit être prise en charge par les périodes fiscales.</span><span class="sxs-lookup"><span data-stu-id="e2367-106">The chronology must be supported by fiscal periods.</span></span> <span data-ttu-id="e2367-107">Tous les numéros qui appartiennent à des périodes antérieures doivent être inférieurs aux numéros qui appartiennent aux périodes ultérieures.</span><span class="sxs-lookup"><span data-stu-id="e2367-107">All the numbers that belong to earlier periods must be less than the numbers that belong to later periods.</span></span> <span data-ttu-id="e2367-108">Dans une période fiscale, l'ordre chronologique n'est pas obligatoire, mais il ne doit y avoir aucun écart dans la numérotation.</span><span class="sxs-lookup"><span data-stu-id="e2367-108">Within one fiscal period, chronological order isn't mandatory, but there must be no gaps in the numbering.</span></span> <span data-ttu-id="e2367-109">Pour répondre à cette exigence, la numérotation chronologique dans le module Comptabilité client affecte les documents suivants :</span><span class="sxs-lookup"><span data-stu-id="e2367-109">To meet this requirement, chronological numbering in Accounts receivable affects the following documents:</span></span>
+
+-   <span data-ttu-id="e2367-110">Facture financière</span><span class="sxs-lookup"><span data-stu-id="e2367-110">Free text invoice</span></span>
+-   <span data-ttu-id="e2367-111">N° document de facture financière</span><span class="sxs-lookup"><span data-stu-id="e2367-111">Free text invoice voucher</span></span>
+-   <span data-ttu-id="e2367-112">Avoir financier</span><span class="sxs-lookup"><span data-stu-id="e2367-112">Free text credit note</span></span>
+-   <span data-ttu-id="e2367-113">N° document d'avoir financier</span><span class="sxs-lookup"><span data-stu-id="e2367-113">Free text credit note voucher</span></span>
+-   <span data-ttu-id="e2367-114">Facture client</span><span class="sxs-lookup"><span data-stu-id="e2367-114">Sales invoice</span></span>
+-   <span data-ttu-id="e2367-115">Document de facture client</span><span class="sxs-lookup"><span data-stu-id="e2367-115">Sales invoice voucher</span></span>
+-   <span data-ttu-id="e2367-116">Avoir sur vente</span><span class="sxs-lookup"><span data-stu-id="e2367-116">Sales credit note</span></span>
+-   <span data-ttu-id="e2367-117">N° document d'avoir sur vente</span><span class="sxs-lookup"><span data-stu-id="e2367-117">Sales credit note voucher</span></span>
+
+## <a name="prerequisites"></a><span data-ttu-id="e2367-118">Conditions préalables</span><span class="sxs-lookup"><span data-stu-id="e2367-118">Prerequisites</span></span>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="e2367-119">Catégorie</span><span class="sxs-lookup"><span data-stu-id="e2367-119">Category</span></span></th>
+<th><span data-ttu-id="e2367-120">Logiciel requis</span><span class="sxs-lookup"><span data-stu-id="e2367-120">Prerequisite</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="e2367-121">Pays/région</span><span class="sxs-lookup"><span data-stu-id="e2367-121">Country/region</span></span></td>
+<td><span data-ttu-id="e2367-122">L'adresse principale de l'entité juridique doit être en France.</span><span class="sxs-lookup"><span data-stu-id="e2367-122">The primary address of the legal entity must be in France.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e2367-123">Tâches associées de paramétrage</span><span class="sxs-lookup"><span data-stu-id="e2367-123">Related setup tasks</span></span></td>
+<td><ul>
+<li><span data-ttu-id="e2367-124">Dans la page <strong>Paramètres de la comptabilité client</strong>, sous l'onglet <strong>Mises à jour</strong>, définissez l'option <strong>Numérotation chronologique</strong> sur <strong>Oui</strong>.</span><span class="sxs-lookup"><span data-stu-id="e2367-124">On the <strong>Accounts receivable parameters</strong> page, on the <strong>Updates</strong> tab, set the <strong>Chronological numbering</strong> option to <strong>Yes</strong>.</span></span></li>
+<li><span data-ttu-id="e2367-125">Dans la page <strong>Souches de numéros</strong>, définissez autant de souches de numéros qu'il est nécessaire pour couvrir les périodes fiscales affectées.</span><span class="sxs-lookup"><span data-stu-id="e2367-125">On the <strong>Number sequences</strong> page, define as many number sequences as you require to cover the affected fiscal periods.</span></span> <span data-ttu-id="e2367-126">Vous devez spécifier une société pour chaque souche de numéros.</span><span class="sxs-lookup"><span data-stu-id="e2367-126">You should specify a company for each number sequence.</span></span> <span data-ttu-id="e2367-127">Les segments des souches de numéros doivent être définis de manière à fournir l'ordre chronologique des périodes.</span><span class="sxs-lookup"><span data-stu-id="e2367-127">The segments of the number sequences must be defined so that they provide chronological order for periods.</span></span> <span data-ttu-id="e2367-128">Par exemple, les noms de segment peuvent contenir un préfixe spécial qui identifie une période spécifique.</span><span class="sxs-lookup"><span data-stu-id="e2367-128">For example, the segment names can contain a special prefix that identifies a specific period.</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="set-up-chronological-numbering"></a><span data-ttu-id="e2367-129">Paramétrer la numérotation chronologique</span><span class="sxs-lookup"><span data-stu-id="e2367-129">Set up chronological numbering</span></span>
+### <a name="accounts-receivable-parameters"></a><span data-ttu-id="e2367-130">Paramètres de la comptabilité client</span><span class="sxs-lookup"><span data-stu-id="e2367-130">Accounts receivable parameters</span></span>
+
+<span data-ttu-id="e2367-131">Dans la page **Paramètres de la comptabilité client**, sous l'onglet **Souches de numéros**, sélectionnez l'une des références prises en charge, par exemple **Facture financière**.</span><span class="sxs-lookup"><span data-stu-id="e2367-131">On the **Accounts receivable parameters** page, on the **Number sequences** tab, select one of the supported references, such as **Free text invoice**.</span></span> <span data-ttu-id="e2367-132">Cliquez ensuite sur le bouton **Paramétrage de la numérotation chronologique** qui sera disponible pour les références prises en charge.</span><span class="sxs-lookup"><span data-stu-id="e2367-132">Then click the **Chronological numbering setup** button that will be available for the supported references.</span></span> <span data-ttu-id="e2367-133">Dans la page **Paramétrage de la numérotation chronologique**, définissez les souches de numéros ayant des périodes valides.</span><span class="sxs-lookup"><span data-stu-id="e2367-133">On the **Chronological numbering setup** page, define the date-effective number sequences that have valid periods.</span></span>
+
+### <a name="number-sequence-groups"></a><span data-ttu-id="e2367-134">Groupes de souches de numéros</span><span class="sxs-lookup"><span data-stu-id="e2367-134">Number sequence groups</span></span>
+
+<span data-ttu-id="e2367-135">Si différents clients utilisent différents modèles de numérotation, vous devez paramétrer la numérotation chronologique au niveau du groupe de souches de numéros.</span><span class="sxs-lookup"><span data-stu-id="e2367-135">If different customers use different patterns for numbering, you must set up chronological numbering at the level of the number sequence group.</span></span> <span data-ttu-id="e2367-136">Dans la page **Paramètres de la comptabilité client**, sous l'onglet **Souches de numéros**, sélectionnez l'une des références prises en charge, puis cliquez sur **Groupe**.</span><span class="sxs-lookup"><span data-stu-id="e2367-136">On the **Accounts receivable parameters** page, on the **Number sequences** tab, select one of the supported references, and then click **Group**.</span></span> <span data-ttu-id="e2367-137">Dans la page **Groupe de souches de numéros**, sélectionnez un groupe existant ou créez-en un.</span><span class="sxs-lookup"><span data-stu-id="e2367-137">On the **Number sequence group** page, select an existing group, or create a new group.</span></span> <span data-ttu-id="e2367-138">Dans la section **Référence**, sélectionnez l'une des références prises en charge, puis cliquez sur **Paramétrage de la numérotation chronologique**.</span><span class="sxs-lookup"><span data-stu-id="e2367-138">In the **Reference** section, select one of the supported references, and then click **Chronological numbering setup**.</span></span> <span data-ttu-id="e2367-139">Dans la page **Paramétrage de la numérotation chronologique**, définissez les souches de numéros ayant des périodes valides.</span><span class="sxs-lookup"><span data-stu-id="e2367-139">On the **Chronological numbering setup** page, define date-effective number sequences that have valid periods.</span></span>
+
+## <a name="invoice-posting"></a><span data-ttu-id="e2367-140">Validation de facture</span><span class="sxs-lookup"><span data-stu-id="e2367-140">Invoice posting</span></span>
+<span data-ttu-id="e2367-141">Lorsque vous validez une facture ou un avoir, la souche de numéros appropriée est utilisée pour générer un numéro.</span><span class="sxs-lookup"><span data-stu-id="e2367-141">When you post an invoice or a credit note, the appropriate number sequence is used to generate a number.</span></span> <span data-ttu-id="e2367-142">Cette souche de numéros est sélectionnée selon la période valide contenant la date de la facture.</span><span class="sxs-lookup"><span data-stu-id="e2367-142">This number sequence is selected based on the valid period that contains the invoice date.</span></span> <span data-ttu-id="e2367-143">La numérotation chronologique spécifique au client a une priorité plus élevée que la numérotation chronologique.</span><span class="sxs-lookup"><span data-stu-id="e2367-143">Customer-specific chronological numbering has higher priority than chronological numbering.</span></span>
+
+
+
