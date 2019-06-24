@@ -3,7 +3,7 @@ title: Financial Insights
 description: Financial Insights utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d'analyse.
 author: kweekley
 manager: AnnBe
-ms.date: 08/14/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9edcb192d2fac5acb954d8b87be691f0943e0db7
+ms.sourcegitcommit: 23ab3c99d05869ea2c73514754608e8684697d8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554090"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595074"
 ---
 # <a name="financial-insights"></a>Financial Insights
 
@@ -67,10 +67,9 @@ Les données de **Financial Insights** sont extraites du magasin des entités (*
 
 Vous devez mettre à jour les entités suivantes pour visualiser les données dans les espaces de travail **Financial Insights** et **Vue d'ensemble d'un processus CFO** :
 
+- Données de transaction d'états financiers version 2 (**Remarque :** il est nouveau avec la version 10.0.1 et remplace l'entité précédente.)
+- Données de transaction des états financiers
 - CustCollectionsBIMeasurements
-- FinancialReportingOtherData
-- FinancialReportingReferenceData
-- FinancialReportingTransactionData
 - LedgerCovLiquidityMeasurement
 - Cube d'achat
 - Cube de vente
@@ -162,7 +161,7 @@ Les dimensions suivantes sont utilisées dans les états par défaut. Aucune de 
 
 - Fournisseur
 - Groupe de fournisseurs
-- Client 
+- Client
 - Groupe de clients
 - Pays/région
 - Région/Province

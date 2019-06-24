@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6972d750b61004549f75a068a816b61b5fd6f8f6
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e24720abaf872647618f190b3de268e240015a86
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537892"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572306"
 ---
 # <a name="derived-financial-hierarchies-in-the-public-sector"></a>Hiérarchies financières dérivées dans le secteur public
 

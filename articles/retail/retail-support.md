@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567974"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577842"
 ---
 # <a name="get-support-for-dynamics-365-for-retail"></a>Obtenir de l'aide pour Dynamics 365 for Retail
 
@@ -61,7 +61,7 @@ Pour obtenir de l'aide sur Retail, utilisez les ressources du tableau suivant. C
 <li>Sous l'onglet <strong>Problème actif</strong>, sélectionnez votre problème, puis cliquez <strong>Envoyer à Microsoft</strong>.</li>
 <li>Sous l'onglet <strong>Envoyé à Microsoft</strong>, cliquez sur <strong>Envoyer un nouvel incident</strong> pour soumettre le problème.</li>
 </ul>
-<blockquote>[!NOTE] Les clients et partenaires Microsoft Premier peuvent également envoyer des tickets d'assistance en suivant la procédure ci-dessus.</blockquote>
+<p><strong>Remarque :</strong> les clients et partenaires Microsoft Premier peuvent également envoyer des tickets d'assistance en suivant la procédure ci-dessus.</p>
 </td>
 </tr>
 <tr>
@@ -84,4 +84,4 @@ Pour les questions techniques relatives à la connexion ou à l'accès à Custom
 </tbody>
 </table>
 
-Pour plus d'informations sur les offres de support Microsoft Dynamics, voir [Support en ligne Microsoft Dynamics](https://dynamics.microsoft.com/en-us/support/).
+Pour plus d'informations sur les offres de support Microsoft Dynamics, voir [Support en ligne Microsoft Dynamics](https://dynamics.microsoft.com/support/).

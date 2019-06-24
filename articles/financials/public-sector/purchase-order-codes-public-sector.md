@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 838d8c21d530d33c9d0f723eb62450eeb3a5f398
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5163f41c5bfa1b88d949c7539bd5712dd7356fd6
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537890"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550223"
 ---
 # <a name="purchase-order-codes-in-the-public-sector"></a>Codes de commande fournisseur dans le secteur public
 

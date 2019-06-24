@@ -3,7 +3,7 @@ title: Publication d'emplois sur des sites de carrière externes à partir d'Att
 description: Cette rubrique explique comment utiliser Dynamics 365 for Talent - Attract pour publier des offres d'emploi sur des sites de recrutement externes
 author: pganapmsft
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517999"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590480"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>Publication d'emplois sur des sites de carrière externes à partir d'Attract
 
@@ -36,6 +36,7 @@ Avant de publier des offres sur Broadbean, vous devez configurer l'intégration 
 
 > [!NOTE]
 > - Pour publier des offres sur des sites externes, vous devez avoir le [Module complémentaire Recrutement complet](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Pour afficher des missions dans Broadbean via Attract, vous devez avoir un abonnement à Broadbean.
 > - Cette fonctionnalité est actuellement en mode aperçu. Si vous souhaitez l'essayer, vous devez [l'activer dans les paramètres administrateur d'Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="configure-broadbean-integration"></a>Configurer l'intégration de Broadbean

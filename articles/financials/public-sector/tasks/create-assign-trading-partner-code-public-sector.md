@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f1cd3e0de196c252c3c14521177df150efa61e0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 346b0481b3839ef7fcef3d2e8427bf9037b3683a
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537872"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557237"
 ---
 # <a name="create-and-assign-a-trading-partner-code-in-the-public-sector"></a>Créer et affecter un code de partenaire commercial dans le secteur public
 

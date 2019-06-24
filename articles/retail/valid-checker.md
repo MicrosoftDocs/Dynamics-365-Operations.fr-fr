@@ -3,7 +3,7 @@ title: Vérificateur de cohérence des transactions de vente au détail
 description: Cette rubrique décrit la fonctionnalité Vérificateur de cohérence des transactions de vente au détail dans Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 01/08/2019
+ms.date: 05/30/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 972c4d6b244eebc85cc801353ce8fb25ecbc0655
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517063"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617318"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Vérificateur de cohérence des transactions de vente au détail
 
@@ -33,12 +33,12 @@ ms.locfileid: "1517063"
 
 Cette rubrique décrit la fonctionnalité Vérificateur de cohérence des transactions de vente au détail introduite dans Microsoft Dynamics 365 for Finance and Operations version 8.1.3. Le vérificateur de cohérence identifie et isole les transactions incohérentes avant leur prélèvement par le processus de validation des relevés.
 
-Lorsqu'un relevé est validé dans Retail, la validation peut échouer en raison de données incohérentes dans les tables de transactions de vente au détail. Ce problème de données peut être causé par des problèmes imprévus dans l'application POS, ou si les transactions ont été mal importées à partir de systèmes POS tiers. Voici des exemples de cas où ces incohérences peuvent apparaître : 
+Lorsqu'un relevé est validé dans Microsoft Dynamics 365 for Retail, la validation peut échouer en raison de données incohérentes dans les tables de transactions de vente au détail. Ce problème de données peut être causé par des problèmes imprévus dans l'application POS, ou si les transactions ont été mal importées à partir de systèmes POS tiers. Voici des exemples de cas où ces incohérences peuvent apparaître : 
 
-  - Le total des transactions dans la table des en-têtes ne correspond pas au total des transactions sur les lignes.
-  - Le nombre de lignes dans la table des en-têtes ne correspond pas au nombre de lignes dans la table des transactions.
-  - Les taxes dans la table des en-têtes ne correspondent pas au montant des taxes sur les lignes. 
-  
+- Le total des transactions dans la table des en-têtes ne correspond pas au total des transactions sur les lignes.
+- Le nombre de lignes dans la table des en-têtes ne correspond pas au nombre de lignes dans la table des transactions.
+- Les taxes dans la table des en-têtes ne correspondent pas au montant des taxes sur les lignes. 
+
 Lorsque des transactions incohérentes sont prélevées par le processus de validation des relevés, des factures client et des journaux de paiement incohérents sont créés, et l'ensemble du processus de validation des relevés échoue. La récupération des relevés de cet état implique des correctifs de données complexes sur plusieurs tables de transactions. Le vérificateur de cohérence des transactions de vente au détail empêche ces problèmes.
 
 Le graphique suivant illustre le processus de validation avec le vérificateur de cohérence des transactions.
@@ -47,13 +47,24 @@ Le graphique suivant illustre le processus de validation avec le vérificateur d
 
 Le processus de traitement par lots **Valider les transactions en magasin** vérifie la cohérence des tables de transactions de vente au détail pour les scénarios suivants.
 
-- Compte client - Valide que le compte client dans les tables de transactions de vente au détail existe dans les données principales client HQ.
-- Nombre de lignes - Valide que le nombre de lignes capturées dans la table des en-têtes de transaction correspond au nombre de lignes dans les tables de transactions de vente.
+- **Compte client** - Valide que le compte client dans les tables de transactions de vente au détail existe dans les données principales client HQ.
+- **Nombre de lignes** - Valide que le nombre de lignes capturées dans la table des en-têtes de transaction correspond au nombre de lignes dans les tables de transactions de vente.
+- **Prix incluant la taxe** – Valide que le paramètre **Prix incluant la taxe** est cohérent dans les lignes de transaction.
+- **Montant brut** – Valide que le montant brut dans l'en-tête est la somme des montants nets sur les lignes plus le montant de la taxe.
+- **Montant net** – Valide que le montant net dans l'en-tête est la somme des montants nets sur les lignes.
+- **Moins-perçu/Trop-perçu** – Valide que la différence entre le montant brut dans l'en-tête et le montant du paiement ne dépasse pas la configuration maximale du moins-perçu/trop-perçu.
+- **Montant de remise** – Valide que le montant de remise dans les tables de remise et le montant de remise dans les tables de lignes de transaction de vente au détail sont cohérents, et que le montant de remise dans l'en-tête est la somme des montants de remise sur les lignes.
+- **Remise ligne** – Valide que la remise ligne sur la ligne de transaction est la somme de toutes les lignes de la table de remise correspondant à la ligne de transaction.
+- **Article Carte cadeau** – Retail ne prend pas en charge le retour des articles Carte cadeau. Toutefois, le solde d'une carte cadeau peut être décaissé. Le processus de validation du relevé échoue pour tout article Carte cadeau qui est traité comme une ligne de retour au lieu d'une ligne de décaissement. Le processus de validation pour les articles Carte cadeau garantit que seules les lignes de retour de carte cadeau dans les tables de transactions de vente au détail sont des lignes de décaissement de carte cadeau.
+- **Prix négatif** – Valide qu'il n'existe aucune ligne de transaction avec un prix négatif.
+- **Article et variante** – Valide que les articles et les variantes sur les lignes de transaction existent dans le fichier principal des articles et variantes.
 
 ## <a name="set-up-the-consistency-checker"></a>Paramétrer le vérificateur de cohérence
+
 Configurez le processus de traitement par lots « Valider les transactions en magasin » sous **Vente au détail \> Informatique au détail \> Validation POS** pour les exécutions périodiques. Le traitement par lots peut être planifié en fonction de la hiérarchie d'organisation du magasin, qui est similaire au mode de paramétrage des processus « Calculer les relevés en mode de traitement par lots » et « Valider les relevés en mode de traitement par lots ». Il est recommandé de configurer ce processus de traitement par lots pour qu'il s'exécute plusieurs fois par jour et de le planifier pour qu'il s'exécute à la fin de l'exécution de chaque tâche P.
 
 ## <a name="results-of-validation-process"></a>Résultats du processus de validation
+
 Les résultats du contrôle de validation par le processus de traitement par lots sont référencés dans la transaction de vente au détail appropriée. Le champ **Statut de validation** dans l'enregistrement de la transaction de vente au détail est défini sur **Réussite** ou **Erreur**, et la date de la dernière exécution de la validation s'affiche dans le champ **Heure de la dernière validation**.
 
 Pour afficher un texte plus descriptif de l'erreur associée à un échec de validation, sélectionnez l'enregistrement de transaction de vente au détail approprié et cliquez sur le bouton **Erreurs de validation**.

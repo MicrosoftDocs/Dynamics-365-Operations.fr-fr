@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1954b691d84b0aa8710da621af21415c6c116539
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517987"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590503"
 ---
 # <a name="performance-management"></a>Gestion des performances
 
@@ -109,7 +109,7 @@ Vous pouvez afficher les articles du journal des performances associés à la r�
 
 ### <a name="ratings"></a>Classements
 
-Vous pouvez appliquer un classement à n'importe quel objectif ou compétence figurant sur la révision. Vous pouvez définir des modèles de classement pour chaque révision. Les valeurs par défaut pour les classements se trouvent sur la page **Paramètres des ressources humaines** sous **Performances.**
+Vous pouvez appliquer un classement à n'importe quel objectif ou compétence figurant sur la révision. Vous pouvez définir des modèles de classement pour chaque révision. Les valeurs par défaut pour les classements se trouvent sur la page **Paramètres partagés des ressources humaines** sous **Performances.**
 
 ### <a name="sign-offs"></a>Validations
 

@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c2fb0043e87840bd811d7a4936ebd3212bf544e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b9a89bd38feac2e580c3d1511d3bee8eca04115d
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537868"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557121"
 ---
 # <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d'exercice dans le secteur public
 

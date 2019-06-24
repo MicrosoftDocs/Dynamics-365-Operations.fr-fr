@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccccddf3b9e24b2a5114dd3ae16f1127e0f4d884
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 31caed0c1eb94992a2c1dae50ccfbdaa9f8f8196
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537910"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556590"
 ---
 # <a name="fr-00004-french-bills-of-exchange-and-promissory-notes"></a>FR-00004 Effets de commerce et billets à ordre français
 

@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbe64b789e59e893f677a580c410ce32eaf8abfa
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8c7c36f348df39e9b91ddbc02237b3072c20e8ed
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537871"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557169"
 ---
 # <a name="set-up-purchase-agreement-classifications-in-the-public-sector"></a>Paramétrer les classifications de contrat d'achat dans le secteur public
 

@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a886948b0b2b2b39b85d64f0a85913ad1ea385ed
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 37470f4ba4d9863b15a74d4c2e1a8be4b6994184
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537875"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557243"
 ---
 # <a name="settlement-priority-in-the-public-sector"></a>Priorité de règlement (Secteur public)
 

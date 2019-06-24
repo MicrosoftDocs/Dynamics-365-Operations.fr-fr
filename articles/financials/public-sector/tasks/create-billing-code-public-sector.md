@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3831a217499c3d8e52a11080feafc45a6b033bab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a93cd1d7145353e2a83c87fe87d1f4d6b85f12c
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537880"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557227"
 ---
 # <a name="create-a-billing-code-for-the-public-sector"></a>Créer un code de facturation pour le secteur public
 

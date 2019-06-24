@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d2f4cc99ec239c4c35c44a226235d01e18d4185f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c256569135a00ea98a5c059b9dd12a07a000ee6a
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546361"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606939"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Paramétrer et gérer des images pour Retail Modern POS (MPOS)
 
@@ -49,11 +49,11 @@ Dans les procédures suivantes, des images sont paramétrés pour l'entité de c
 1. Ouvrez le portail Dynamics 365 for Retail HQ.
 2. Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Profils du canal**.
 
-    [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![Navigation](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. Dans le profil de canal que votre magasin utilise pour MPOS, mettez à jour le champ **URL de base de support** avec l'URL de base de votre serveur multimédia ou CDN. L'URL de base est la première partie de l'URL qui est partagée par tous les fichiers d'image de différentes entités.
 
-    [![channel-profile2](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![Page Profils du canal](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Définissez le modèle de média d'une entité
 
@@ -71,7 +71,7 @@ Dans les procédures suivantes, des images sont paramétrés pour l'entité de c
 8. Exécutez les tâches de synchronisation pour pousser le nouveau modèle dans la base de données de canal, de sorte que MPOS puisse utiliser le modèle pour accéder aux images.
 9. Pour mettre à jour le modèle de média pour les images du catalogue côté canal, veillez à l'exécution de la **Tâche de catalogue 1150** dans **IT de vente au détail** &gt; **Programme de distribution**.
 
-    [![catalog1](./media/catalog1.png)](./media/catalog1.png)
+    [![Définir la boîte de dialogue Modèle de support](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Afficher l'aperçu d'une image à partir du niveau d'entité
 
@@ -80,12 +80,12 @@ Dans les procédures suivantes, des images sont paramétrés pour l'entité de c
 3. Vous pouvez utiliser les boutons **Ajouter** et **Supprimer** pour modifier manuellement le chemin d'accès basé sur le modèle implicite et utilisé pour une image spécifique. Pour plus d'informations, voir la section [Remplacement du modèle de média pour les articles d'entité](#overwriting-the-media-template-for-entity-items) ultérieurement dans cet article.
 4. Après avoir terminé de prévisualiser une image et d'apporter les modifications nécessaires, démarrez l'instance de MPOS pour le magasin approprié, et vérifiez si les images du catalogue sont affichées.
 
-    [![catalog4](./media/catalog4.png)](./media/catalog4.png)
+    [![Boîte de dialogue Images](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > Vous pouvez utiliser la même procédure pour les cinq entités qui sont prises en charge : Collaborateur, Client, Catalogue, Catégorie et Produits. « Produits du catalogue » (produits définis au niveau du catalogue) et « Produits du canal » (produits définis au niveau du canal) utilisent le modèle de média défini pour l'entité Produits. Pour le modèle de média Produits, vous pouvez sélectionner le nombre d'images de produit à afficher par produit. Vous pouvez également définir l'image par défaut pour un produit donné. De cette manière, vous pouvez empêcher les images vides dans MPOS et aider à contrôler quelle image est utilisée comme image par défaut pour un article. Dans l'exemple suivant, chaque produit a cinq images, et la première image est définie comme image par défaut. Les variantes de produits sont traitées la même manière que les produits principaux. Le nom du fichier image doit être basé sur le numéro de produit. Certains caractères sont également échappés lorsque le nom de fichier est généré. Par conséquent, il est bon de vérifier le nom de fichier à l'aide de la section **Générer des URL d'image pour Excel**.
 >
-> [![prods](./media/prods.png)](./media/prods.png)
+> [![Définir la boîte de dialogue Modèle de support](./media/prods.png)](./media/prods.png)
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Tâches de synchronisation pour envoyer un modèle de média du côté du canal
 
@@ -111,11 +111,11 @@ Comme vous l'avez appris dans la section précédente, le modèle de média d'un
     > [!IMPORTANT]
     > Dès que le modèle de média est modifié, vous devez cliquer sur **Générer** pour pouvoir utiliser la fonctionnalité Modifier dans Excel.
 
-    [![excel1](./media/excel1.jpg)](./media/excel1.jpg)
+    [![Générer des URL d'image pour l'organisateur Excel](./media/excel1.jpg)](./media/excel1.jpg)
 
     Vous voyez désormais s'afficher un aperçu des URL d'image qui ont été générées selon le dernier modèle de média enregistré.
 
-    [![excel2](./media/excel2.png)](./media/excel2.png)
+    [![Générer des URL d'image pour Excel dans l'organisateur après avoir cliqué sur Générer](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
     > Les URL générées pour Excel utilisent le chemin d'accès et les conventions du modèle de support défini. Ces conventions incluent des conventions pour les noms de fichier. Vous devez normalement avoir paramétré les images physiques en dehors de Dynamics 365 for Retail, et les images peuvent être récupérés à partir des URL qui sont dérivées du modèle de média défini précédemment. Vous pouvez remplacer ces URL dérivés à l'aide de la fonctionnalité Modifier dans Excel.
@@ -160,11 +160,11 @@ Pour toutes les entités à l'exception des Produits, vous pouvez remplacer l'UR
 3. Si vous souhaitez que cette image s'affiche dans MPOS pour le catalogue, vous pouvez la définir comme image par défaut.
 4. Cliquez sur **OK**. L'URL d'image est mise à jour avec cette image de catalogue, puis un aperçu s'affiche.
 
-    [![preview3](./media/preview3.png)](./media/preview3.png)
+    [![URL mise à jour dans la boîte de dialogue Nouvelle image](./media/preview3.png)](./media/preview3.png)
 
 5. Vous pouvez également afficher l'aperçu d'image pour toutes les URL d'image remplacées dans la page de galerie **Images de catalogue**.
 
-    [![preview-4](./media/preview-4.png)](./media/preview-4.png)
+    [![Page de galerie Images de catalogue](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > Actuellement, la galerie n'affiche pas les aperçus d'image pour les URL d'image de modèle de média. Pour les entités Catalogue, Collaborateur, Client, et Catégorie, si l'utilisateur fournit explicitement une URL via cette page, il est recommandé d'indiquer quelle est l'image par défaut, car les clients du serveur Retail n'indiquent qu'une seule image par Catalogue, Client, Collaborateur et Catégorie. Si l'utilisateur ne spécifie pas une image par défaut, le système détermine l'image par défaut et l'envoie à l'appelant du service Retail (MPOS ou commerce électronique).
@@ -179,7 +179,7 @@ Pour remplacer les URL d'image pour les images de produits du catalogue, vous de
 4. Cliquez sur **Ajouter**, puis remplacez l'URL d'image avec un nouvel URL.
 5. Cliquez sur **OK**. Vous voyez désormais l'aperçu de la nouvelle image et pouvez la définir comme image par défaut.
 
-    [![cat3](./media/cat3.png)](./media/cat3.png)
+    [![Aperçu de l'image dans la boîte de dialogue Nouvelle image](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > Après l'association d'une image de catégorie, vous devez publier le canal et exécuter la Tâche du canal pour garantir que les modifications sont publiées dans la base de données du canal.
@@ -200,7 +200,7 @@ Les images de produits qui doivent être utilisées en mode hors connexion peuve
 6. Alors que MPOS est en mode en ligne, exécutez la tâche de catalogue dans HQ, assurez-vous que les données sont envoyées au moins une fois à la base de données hors ligne.
 7. Mettez MPOS en mode hors ligne. Vous devez voir l'image que vous avez téléchargée pour le produit spécifique dans HQ.
 
-    [![offline1](./media/offline1.png)](./media/offline1.png)
+    [![Image du produit en mode hors connexion](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Paramétrer des images de catalogue, de catégorie, d'employé et de client à afficher en mode hors connexion pour MPOS
 
@@ -212,4 +212,4 @@ Les images de catalogue, de catégorie, d'employé, et de client qui doivent êt
 4. Exécutez la tâche de catalogue. Cette image est désormais utilisée comme image hors connexion pour ce catalogue dans MPOS.
 5. Suivez un processus similaire pour d'autres entités, telles que Catégorie, Employé, et Client.
 
-    [![offline2](./media/offline2.png)](./media/offline2.png)
+    [![Image en mode hors connexion](./media/offline2.png)](./media/offline2.png)

@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c6bec2b9be3cf668a7f5915bfd7c9eabd67c7b8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ce5da2c6613ea00c060eb7e575387b8c90bbf095
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537907"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556591"
 ---
 # <a name="fr-00004-post-re-draw-bill-of-exchange-journal"></a>FR-00004 Valider le journal de renouvellement de lettres de change
 

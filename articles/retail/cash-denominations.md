@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558571"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606754"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configuration de dénominations des disponibilités pour le point de vente (PDV)
 
@@ -34,9 +34,9 @@ Les dénominations des disponibilités pour les billets et les pièces peuvent �
 
 ## <a name="define-denominations"></a>Définir des dénominations
 
-Les dénominations sont paramétrées par magasin dans la page **Paramétrage** \> **Option de déclaration des montants en caisse à partir de la propriété du magasin**.
+Les dénominations sont paramétrées par magasin sur l'option **Paramétrage** \> **Déclaration des montants en caisse** à partir de la propriété du magasin.
 
-![dénominations des disponibilités](./media/image1-denomination.png)
+![Option Déclaration des montants en caisse](./media/image1-denomination.png)
 
 Pour définir une dénomination :
 
@@ -44,7 +44,7 @@ Pour définir une dénomination :
 1. Spécifiez le type (pièce ou billet).
 1. Spécifiez le montant (valeur).
 
-![dénominations des disponibilités](./media/image2-denomination.png)
+![Page Dénominations des déclarations des montants en caisse](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Configurer le profil de la fonctionnalité
 

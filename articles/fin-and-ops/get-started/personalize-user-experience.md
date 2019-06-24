@@ -1,9 +1,9 @@
 ---
 title: Personnaliser l'expérience de l'utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
-author: TLeforMicrosoft
+author: jasongre
 manager: AnnBe
-ms.date: 04/24/2019
+ms.date: 05/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,20 +15,19 @@ ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
-ms.author: tlefor
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
+ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1528842"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620012"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l'expérience de l'utilisateur
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
 
@@ -75,7 +74,7 @@ Certaines des modifications les plus courantes et importantes qui peuvent être 
 
 En outre, les types les plus classiques de personnalisations explicites sont disponibles en cliquant avec le bouton droit sur un élément et en sélectionnant **Personnaliser**. (Notez que tous les éléments sur la page ne peuvent pas être personnalisés). Lorsque vous utilisez cette méthode de personnalisation, la fenêtre des propriétés de l'élément s'affiche.
 
-[![Personnalisation des propriétés d'un élément](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
+![Personnalisation des propriétés d'un élément](./media/personalization-element-properties.png)
 
 Vous pouvez utiliser la fenêtre des propriétés pour personnaliser un élément comme suit :
 

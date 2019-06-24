@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47a0578a2286c432fd592e5f5bf94ecb09f8fe7f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bc5fd2698f8a8d10e06dcf742995c653e87a817f
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537902"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572314"
 ---
 # <a name="accounts-payable-in-the-public-sector"></a>Comptabilité fournisseur dans le secteur public
 

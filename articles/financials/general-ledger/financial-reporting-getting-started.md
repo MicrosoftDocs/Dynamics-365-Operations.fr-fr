@@ -3,7 +3,7 @@ title: États financiers
 description: Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 for Finance and Operations et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis.
 author: aprilolson
 manager: AnnBe
-ms.date: 09/26/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550303"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594958"
 ---
 # <a name="financial-reporting"></a>États financiers
 
@@ -64,7 +64,7 @@ Les fonctions de génération d'états financiers sont disponibles aux utilisate
 
 | Nom du privilège                       | Description                                                             | Nom d'AOA                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
-| Tenir à jour la sécurité des états financiers | Tenir à jour la sécurité des états financiers et exécuter des tâches d'administration. | FinancialReportsSecurityMaintain |
+| Tenir à jour la sécurité des états financiers | Tenir à jour la sécurité des états financiers et exécuter des tâches d'administration. | FinancialReportsSecuritySystemMaintain |
 | Tenir à jour les états financiers            | Créer et tenir à jour les états financiers.                                  | FinancialReportsMaintainReports  |
 | Générer les états financiers            | Générer et actualiser les états financiers.                                 | FinancialReportsGenerateReports  |
 | Afficher les états financiers                | Afficher les états financiers.                                                 | FinancialReportsView             |

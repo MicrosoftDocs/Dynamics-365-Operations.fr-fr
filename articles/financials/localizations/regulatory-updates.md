@@ -3,7 +3,7 @@ title: Mises à jour réglementaires
 description: Cette rubrique fournit une liste des mises à jour réglementaires prévues et publiées pour Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530705"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593341"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -52,9 +52,20 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 |      2019 avril          |   10.0.1      |   Allemagne     |Facturation électronique - Les factures des clients s'exportent au format xRechnung 1.1         |
 |      2019 avril          |   10.0.1      |    Royaume-Uni     |[Modifications de l'envoi des déclarations de TVA (la taxe devient numérique)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 avril          |   10.0.1      |    Brésil     |Nouveau NT NF-e 2018.005         |
-|      2019 avril          |   10.0.1      |    Russie     |Modification du format de déclaration de la TVA à compter de 2019         |
-|      2019 avril          |   10.0.1      |    Russie     |Modification du format de déclaration de TVA à compter de 2019 (Registres de vente et d'achat) 
+|      2019 avril          |   10.0.1      |    Russie     |[Modification du format de déclaration de la TVA à compter de 2019](rus-VAT-declaration.md) |
+|      2019 avril          |   10.0.1      |    Russie     |Modification du format de déclaration de TVA à compter de 2019 (Registres de vente et d'achat) |
+|      2019 avril          |   10.0.1      |    Russie     |Modifications de la déclaration de taxe foncière de 2018 |
+|      2019 avril          |   10.0.1      |    Russie     |[Modifications de la déclaration de taxe foncière de 2019](rus-assessed-tax-declaration.md)|
+|      2019 avril          |   10.0.1      |    Russie     |Modifications de la déclaration de taxe sur le transport de 2019  |
+|      2019 avril            |   10.0.1      | Hongrie      |  Hongrie : Facturation en ligne v.1.1 2019 dans Microsoft Dynamics 365 for Finance and Operations  |
 |      mai 2019            |   10.0.2      | Brésil      |   SPED ECD Disposition 7   |
+|      Facture en attente            |   10.0.3      | Brésil      |   NF-e new NT 2018.005 - v.1.20   |
+|      Facture en attente            |   10.0.3      | Brésil      |   SPED ECD Disposition 7   |
+|      Facture en attente            |   10.0.3      | Brésil      |   Sped ECF - Disposition 5 pour 2019   |
+|      Facture en attente            |   10.0.3      | Lituanie    |   L'état i.SAF permet à l'utilisateur de définir les codes taxe système en association avec des codes taxe juridiques    |
+|      Facture en attente            |   10.0.3      | Pologne     |   Factures SAF (JPK_FA) v.2 depuis le 1er juillet 2019  |
+|      Facture en attente            |   10.0.3      | Brésil   |   Les ajustements des document fiscaux ICMS activent la table 5.2   |
+|      Facture en attente            |   10.0.3      | Brésil    |   N-F-e Décret 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

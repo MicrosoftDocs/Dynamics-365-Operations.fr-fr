@@ -16,16 +16,16 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541289"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606962"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Améliorations de la fonctionnalité de validation du relevé
 
-[!include[banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Cette rubrique décrit le premier ensemble d'améliorations apportées à la fonction de validation des relevés. Ces améliorations sont disponibles dans Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -58,10 +58,10 @@ Dans le cadre des améliorations de la fonction de validation des relevés, troi
 
 En outre, les paramètres suivants ont été introduits dans l'organisateur **Traitement par lots** de l'onglet **Validation** de la page **Paramètres des ventes au détail** : 
 
-- **Nombre maximal de validation de relevés en parallèle** - Ce champ définit le nombre de tâches de traitement par lots qui seront utilisées pour valider plusieurs relevés. 
-- **Thread maximal pour le traitement des commandes par relevé** - Ce champ représente le nombre maximal de threads utilisés par le traitement par lots de validation de relevé pour créer et facturer les commandes client d'un seul relevé. Le nombre total de threads qui seront utilisés par le processus de validation du relevé sera calculé en fonction de la valeur de ce paramètre multipliée par la valeur indiquée dans le paramètre **Nombre maximal de validation de relevés en parallèle**. La définition de la valeur de ce paramètre trop élevée peut avoir un impact négatif sur les performances du processus de validation du relevé.
-- **Nombre maximal de lignes de transaction incluses dans l'agrégation** - Ce champ définit le nombre de lignes de transaction qui seront incluses dans une seule transaction regroupée avant qu'une nouvelle soit créée. Les transactions regroupées sont créées selon différents critères d'agrégation, tels que le client, date d'activité ou les dimensions financières. Il est important de noter que les lignes d'une transaction unique de vente au détail ne sont pas fractionnées entre différentes transactions regroupées. Cela signifie qu'il y a un risque que le nombre de lignes d'une transaction regroupée soit légèrement supérieur ou inférieur en fonction de facteurs comme le nombre de produits distincts.
-- **Nombre maximal de threads pour valider les transactions en magasin** - Ce champ définit le nombre de threads qui seront utilisés pour valider les transactions de vente au détail. La validation des transactions de vente au détail est une étape obligatoire qui doit être effectuée avant que les transactions puissent être extraites dans les relevés. Vous devez également définir un **Produit de la carte cadeau** dans l'organisateur **Carte cadeau** sous l'onglet **Validation** de la page **Paramètres des ventes au détail**. Cela doit être défini, même si aucune carte cadeau n'est utilisée par l'organisation.
+- **Nombre maximal de validation de relevés en parallèle** – Ce champ définit le nombre de tâches de traitement par lots qui seront utilisées pour valider plusieurs relevés. 
+- **Thread maximal pour le traitement des commandes par relevé** – Ce champ représente le nombre maximal de threads utilisés par le traitement par lots de validation de relevé pour créer et facturer les commandes client d'un seul relevé. Le nombre total de threads qui seront utilisés par le processus de validation du relevé sera calculé en fonction de la valeur de ce paramètre multipliée par la valeur indiquée dans le paramètre **Nombre maximal de validation de relevés en parallèle**. La définition de la valeur de ce paramètre trop élevée peut avoir un impact négatif sur les performances du processus de validation du relevé.
+- **Nombre maximal de lignes de transaction incluses dans l'agrégation** – Ce champ définit le nombre de lignes de transaction qui seront incluses dans une seule transaction regroupée avant qu'une nouvelle soit créée. Les transactions regroupées sont créées selon différents critères d'agrégation, tels que le client, date d'activité ou les dimensions financières. Il est important de noter que les lignes d'une transaction unique de vente au détail ne sont pas fractionnées entre différentes transactions regroupées. Cela signifie qu'il y a un risque que le nombre de lignes d'une transaction regroupée soit légèrement supérieur ou inférieur en fonction de facteurs comme le nombre de produits distincts.
+- **Nombre maximal de threads pour valider les transactions en magasin** – Ce champ définit le nombre de threads qui seront utilisés pour valider les transactions de vente au détail. La validation des transactions de vente au détail est une étape obligatoire qui doit être effectuée avant que les transactions puissent être extraites dans les relevés. Vous devez également définir un **Produit de la carte cadeau** dans l'organisateur **Carte cadeau** sous l'onglet **Validation** de la page **Paramètres des ventes au détail**. Cela doit être défini, même si aucune carte cadeau n'est utilisée par l'organisation.
 
 > [!NOTE]
 > Tous les paramètres associés aux validations de relevé et définis dans les magasins de vente au détail et sur la page **Paramètres des ventes au détail** s'appliquent à la fonction améliorée de validation des relevés.

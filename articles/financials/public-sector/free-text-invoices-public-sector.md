@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b808f1b7200e5ec5034005d19fdb2167a528d7bf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 98030d14d85770c427aa2ef6e3f0c5560fc6bc99
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512933"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550262"
 ---
 # <a name="free-text-invoices-in-the-public-sector"></a>Factures financières dans le secteur public
 

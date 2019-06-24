@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536708"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617971"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Exposition de la fonctionnalité
@@ -138,10 +138,6 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
 - La création manuelle des ordres de contrôle n'est pas prise en charge pour les produits en poids variable.
 - Le mouvement manuel des stocks associés au travail n'est pas pris en charge pour les produits en poids variable.
 - La consolidation des contenants n'est pas prise en charge pour les produits en poids variable.
-- Les modifications apportées au statut du stock de l'entrepôt dans le cadre d'une tâche périodique ne sont pas prises en charge pour les produits en poids variable.
-- Les modifications apportées au statut du stock définies par une requête ne sont pas prises en charge pour les produits en poids variable. (Les modifications apportées au statut du stock de l'ordre de qualité ne sont pas pris en charge également.)
-- Pour les produits en poids variable, le statut de stock ne peut pas être modifié depuis la page **Disponible par emplacement**.
-- Pour les produits en poids variable, le statut de stock ne peut pas être modifié dans le cadre du travail de mouvement de stock dans l'application d'entrepôt.
 - Le chargement du contenant pour initialiser le stock de l'entrepôt n'est pas pris en charge pour les produits en poids variable.
 - Les processus d'équilibrage du lot ne sont pas pris en charge pour les produits en poids variable.
 - La gestion des stocks physiques négatifs n'est pas prise en charge pour les produits en poids variable.
@@ -151,7 +147,6 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
 
 - La fonctionnalité pour le prélèvement de groupement n'est pas prise en charge pour les produits en poids variable.
 - Le processus de prélèvement et de conditionnement en entrepôt n'est pas pris en charge pour les produits en poids variable.
-- Pour les produits en poids variable, le travail ne peut pas être exécuté depuis la page **Travail**.
 - Pour les produits en poids variable, le travail défini dans un modèle de travail peut être exécuté automatiquement.
 - La fonctionnalité pour un travail de contrepassation n'est pas prise en charge pour les produits en poids variable.
 - Pour les produits en poids variable, le traitement manuel de la station de conditionnement où le travail est créé une fois les conteneurs fermés n'est pas pris en charge.
@@ -163,7 +158,7 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
 - La fonctionnalité Kanban n'est pas prise en charge pour les produits en poids variable.
 - Pour les produits en poids variable, les numéros de série ne peuvent pas être enregistrés avant consommation.
 - La fonctionnalité pour la contrepassation des contenants n'est pas prise en charge pour les produits en poids variable.
-- Pour les produits en poids variable, la déclaration de fin peut être enregistrée par numéro de série.
+- Pour les produits en poids variable, la déclaration de fin ne peut être enregistrée par numéro de série.
 
 ### <a name="transportation-management-processing"></a>Traitement de la gestion du transport
 

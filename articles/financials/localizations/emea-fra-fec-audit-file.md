@@ -15,12 +15,12 @@ ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5376923ed5e4c9acafd6a0f2d7af3cdc1a0a9e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b5a28d7f1b0dd840a1374b2a4b1d2965b21c0251
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537941"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620609"
 ---
 # <a name="create-standard-audit-file-for-france-fec"></a>Créer un fichier d'audit standard pour la France (FEC)
 
@@ -28,9 +28,13 @@ ms.locfileid: "1537941"
 
 Cette procédure vous montre comment générer le fichier d'audit standard (FEC) pour la France dans le format de fichier électronique. L'administration fiscale française a besoin de fichiers d'audit générés au format FEC.
 
-Avant de pouvoir générer un fichier FEC, vous devez importer la version la plus récente de la Configuration de la gestion des états électroniques **Importer le fichier XML des données de comptabilité FEC de configuration (FR)**. Pour plus d'informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+Avant de générer un fichier d'audit FEC, vous devez 
+1. Importer la dernière version du **Fichier d'audit FEC français** de la configuration de génération d'états électroniques. Pour plus d'informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+2. Dans la page **Configurations**, développez **Modèle d'exportation des données**, sélectionnez **Mise en correspondance de modèle FEC français**. Définissez **Valeur par défaut de la mise en correspondance des modèles** sur **Oui**
 
 ## <a name="generate-the-standard-audit-file-for-france"></a>Génération du fichier d'audit standard pour la France
-1.  Accédez à **Comptabilité** > **Recherches et états** > **États de Comptabilité** > **Exportation de données comptables FEC** pour ouvrir la page **Paramètres des états électroniques**.
-2.  Entrez la plage de dates du fichier.
-3.  Cliquez sur **OK**.
+1. Accédez à **Comptabilité générale** > **Tâches périodiques** > **Exportation de données** pour ouvrir la page **Exportation de données**.
+2. Dans le champ **Mise en correspondance des formats**, sélectionnez *Fichier d'audit FEC français*.
+3. Cliquez sur **OK**.
+4. Dans la page **Paramètres de génération d'états électroniques**, entrez les dates de début et de fin de la période dans les champs **Période - date de début**, **Période - Date de fin** et cliquez sur **OK**.
+5. Examinez le fichier généré.

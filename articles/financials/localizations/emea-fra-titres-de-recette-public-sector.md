@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb556ebec7070f6291df019b1215a5fcacf6967
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0ba76e50abd5ce124b91515eacf860dbe2e81ae2
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513118"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559653"
 ---
 # <a name="titres-de-recette-in-the-public-sector-in-france"></a>Titres de recette dans le secteur public en France
 

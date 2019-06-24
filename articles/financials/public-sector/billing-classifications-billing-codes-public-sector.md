@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d6d374d1c738aaa95b9853b2300108e86eae04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3c6d7655461e12e819a2ddc498000ab0a5fe09f1
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537900"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572308"
 ---
 # <a name="billing-classifications-and-billing-codes-in-the-public-sector"></a>Classifications de facturation et codes facturation dans le secteur public
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553043"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606824"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Paramétrer l'analyse RFM (récence, fréquence et valeur monétaire)
 
@@ -46,7 +46,7 @@ Par exemple, votre organisation a défini les évaluations sur une échelle de 1
 
 Si votre organisation utilise un nombre entier pour le score, les classements individuels sont additionnés. Pour le même exemple, le client a un score de 13 (5 + 3 + 5).
 
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Pour paramétrer l'analyse RFM pour les clients de votre organisation
+## <a name="set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Paramétrer l'analyse RFM pour les clients de votre organisation
 
 1. Accédez à **Centre d'appels** \> **Périodique** \> **Analyse RFM**.
 2. Sur la page **Analyse RFM**, sélectionnez **Nouveau**. Dans le champ **Définition FRM**, entrez un nom pour la définition RFM. Par exemple, vous pouvez appeler la définition RFM-A.

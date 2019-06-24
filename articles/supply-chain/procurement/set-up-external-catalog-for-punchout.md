@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571629"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595609"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Paramétrer un catalogue externe pour PunchOut eProcurement
 
@@ -58,9 +58,11 @@ Cette section fournit des informations supplémentaires sur la tâche 4 de la s
 3. Indiquez si le site Web du catalogue externe du fournisseur doit apparaître dans la même fenêtre de navigateur que celle où l'employé a créé la demande, ou s'il doit s'ouvrir dans une nouvelle fenêtre.
 4. Sélectionnez le fournisseur pour le catalogue. Dans la liste **Entités juridiques**, il existe une ligne pour chaque entité juridique dans laquelle le fournisseur est paramétré. Pour autoriser les utilisateurs à demander des produits directement à partir du catalogue du fournisseur dans certains entités juridiques mais pas dans d'autres, vous pouvez utiliser le bouton **Empêcher l'accès** ou **Autoriser l'accès** pour chaque entité juridique dans laquelle vous souhaitez que le catalogue soit disponible ou non.
 5. Dans le champ **Expiration par défaut (jours)**, entrez le nombre de jours pendant lesquels un devis reçu du catalogue externe est valide et peut être utilisé pour effectuer des achats auprès du fournisseur externe. Lorsqu'un devis est créé et extrait du site du catalogue externe du fournisseur, il est valide à partir de la date système actuelle, et reste valide pendant le nombre de jours entrés dans ce champ.
-6. Cliquez sur le bouton **Ajouter** pour commencer à mettre en correspondance les catégories d'approvisionnement avec le catalogue externe. Puis, dans la liste Nom de la catégorie, sélectionnez une catégorie. La liste des catégories est un superensemble de catégories d'approvisionnement avec lesquelles le fournisseur a été mis en correspondance dans toutes les entités juridiques paramétrées pour le fournisseur.
-[!NOTE]
-Les stratégies d'approvisionnement sont utilisées pour autoriser ou limiter l'accès aux catégories pour l'entité juridique d'achat ou l'unité opérationnelle de réception. Le pointage vers un catalogue externe requiert que l'accès soit autorisé à au moins une des catégories d'approvisionnement mises en correspondance avec le catalogue.
+6. Cliquez sur le bouton **Ajouter** pour commencer à mettre en correspondance les catégories d'approvisionnement avec le catalogue externe. Puis, dans la liste Nom de la catégorie, sélectionnez une catégorie. La liste des catégories est un superensemble de catégories d'approvisionnement avec lesquelles le fournisseur a été mis en correspondance dans toutes les entités juridiques paramétrées pour le fournisseur.
+
+    > [!NOTE]
+    > Les stratégies d'approvisionnement sont utilisées pour autoriser ou limiter l'accès aux catégories pour l'entité juridique d'achat ou l'unité opérationnelle de réception. Le pointage vers un catalogue externe requiert que l'accès soit autorisé à au moins une des catégories d'approvisionnement mises en correspondance avec le catalogue.
+
 7. Paramétrez le message de demande de paramétrage cXML qui est envoyé au fournisseur. Le format du message généré automatiquement est le modèle minimal requis pour démarrer une session. Renseignez les valeurs des balises.
 
 À tout moment, vous pouvez recharger le modèle de message généré par le système en cliquant sur **Restaurer le format du message**. 
@@ -85,7 +87,7 @@ Vous trouverez ci-dessous une description des balises incluses dans le modèle 
 
 Les informations supplémentaires représentent un élément extrinsèque, comme un nom d'utilisateur basé sur un utilisateur qui s'exécute. L'élément extrinsèque est défini lorsque l'exécution se produit et il peut être envoyé dans le message de configuration de la demande.
 Votre fournisseur peut exiger de recevoir un élément extrinsèque dans la demande de paramétrage. Dans ce cas, vous devez ajouter l'élément extrinsèque à la liste des éléments extrinsèques dans la section **Format du message** de la page **Catalogue externe**. Spécifiez un nom pour l'élément extrinsèque que le fournisseur peut identifier, et mettez-le en correspondance avec une valeur. Les options pour les valeurs sont : Nom d'utilisateur, E-mail de l'utilisateur ou Valeur aléatoire.
-Pour plus d'informations sur le protocole cXML, voir : http://cxml.org/
+Pour plus d'informations sur le protocole cXML, voir le [site web cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Message de publication
 Le message de publication est le message reçu du fournisseur lorsque l'utilisateur procède à la validation à partir du site externe et retourne dans Finance and Operations. Les messages de publication ne peuvent pas être configurés. Les messages sont basés sur la définition du protocole cXML. Voici les informations qui peuvent faire partie du message de publication reçu sur une ligne de demande :

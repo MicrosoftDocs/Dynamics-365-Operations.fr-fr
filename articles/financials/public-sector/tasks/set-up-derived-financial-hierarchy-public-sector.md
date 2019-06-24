@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8591942f6127ba3c37e14dcae34f9262e6f5153
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d4a48a7df85a653d9feb3e336d39f0950ed13dbd
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537870"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557173"
 ---
 # <a name="set-up-a-derived-financial-hierarchy-in-the-public-sector"></a>Paramétrer une hiérarchie financière dérivée dans le secteur public
 

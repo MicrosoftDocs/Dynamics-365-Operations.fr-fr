@@ -3,7 +3,7 @@ title: États de dépenses repensés
 description: Cette rubrique fournit des informations sur l'expérience remodelée et repensée de saisie de l'état de dépenses dans Microsoft Dynamics 365 for Finance and Operations. La nouvelle expérience simplifie le processus de renseignement des états de dépenses et réduit le temps requis.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3039cda3f2cf9259ca06207bdf941bc6b0fb28e1
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538686"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592635"
 ---
 # <a name="expense-reports-reimagined"></a>États de dépenses repensés
 
@@ -46,10 +46,9 @@ Pour activer la nouvelle expérience, utilisez l'espace de travail **Gestion de 
 
 ## <a name="getting-started-video-for-new-users"></a>Vidéo de démarrage pour les nouveaux utilisateurs
 
-Vous pouvez visionner une courte vidéo présentant les principales fonctionnalités de la saisie de dépenses.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-> [!NOTE]
-> Le vidéo n'est pas encore disponible. Cette rubrique sera mise à jour lorsque la vidéo sera disponible.
+La vidéo [Expérience de dépenses dans Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (présentée ci-dessus) est incluse dans [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 ## <a name="new-features"></a>Nouvelles fonctionnalités
 

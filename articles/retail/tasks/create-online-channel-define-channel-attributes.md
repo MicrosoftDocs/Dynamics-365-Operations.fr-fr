@@ -3,7 +3,7 @@ title: Créer un canal en ligne et définir les attributs du canal
 description: Cette procédure décrit la création d'un canal en ligne et son ajout à la hiérarchie d'organisation.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863
+ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569519"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1618294"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Créer un canal en ligne et définir les attributs du canal
 
@@ -60,4 +60,10 @@ Cette procédure décrit la création d'un canal en ligne et son ajout à la hi�
 9. Cliquez sur Publier pour ouvrir l'écran de boîte de dialogue.
 10. Entrez une date et une heure dans le champ Date d'effet.
 11. Cliquez sur Publier.
+
+## <a name="configure-orders-for-near-realtime-notification"></a>Configurez les commandes de la notification en temps quasi réel
+1. Accédez à Vente au détail > Configuration du siège > Paramètres > Paramètres des ventes au détail.
+2. Définissez Utiliser le service en temps réel pour la création de commandes de commerce électronique sur « Oui ».
+3. Exécutez le programme de distribution 1070 pour synchroniser les modifications avec la base de données des canaux. 
+
 

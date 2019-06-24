@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544447"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595438"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format
 
@@ -36,7 +36,7 @@ Pour effectuer ces étapes, vous devez tout d'abord appliquer les procédures «
 
 ## <a name="select-format-configuration-for-customization"></a>Sélectionner la configuration du format pour la personnalisation
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-    * Dans cet exemple, la société fictive Litware, Inc. (http://www.litware.com) fait office de fournisseur de configuration qui prend en charge les configurations de format pour les paiements électroniques pour un pays particulier.    La société fictive Proseware, Inc. (http://www.proseware.com) fait office de consommateur de la configuration du format fourni par Litware, Inc. Proseware, Inc. utilise des formats dans certaines régions de ce pays.  
+    * Dans cet exemple, la société fictive Litware, Inc. (https://www.litware.com) fait office de fournisseur de configuration qui prend en charge les configurations de format pour les paiements électroniques pour un pays particulier.    La société fictive Proseware, Inc. (http://www.proseware.com) fait office de consommateur de la configuration du format fourni par Litware, Inc. Proseware, Inc. utilise des formats dans certaines régions de ce pays.  
 2. Cliquez sur Configurations des états.
 3. Cliquez sur Afficher les filtres.
 4. Appliquez les filtres suivants : entrez la valeur de filtre « BACS (nom fictif britannique) » dans le champ « Nom » à l'aide de l'opérateur de filtre « commence par ».

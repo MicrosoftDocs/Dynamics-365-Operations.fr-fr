@@ -44,9 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Fonctions non implémentées dans les déploiements sur site
               href: get-started/features-not-implemented-on-prem.md
+            - name: "Fonctions en version préliminaire dans Finance and Operations version\_10.0.4 (juillet\_2019)"
+              href: get-started/whats-new-changed-10-0-4.md
             - name: "Fonctions en version préliminaire dans Finance and Operations version\_10.0.3 (juin\_2019)"
               href: get-started/whats-new-changed-10-0-3.md
-            - name: "Fonctions en version préliminaire dans Finance and Operations version\_10.0.2 (mai\_2019)"
+            - name: "Finance and Operations version\_10.0.2 (mai\_2019)"
               href: get-started/whats-new-changed-10-0-2.md
             - name: "Finance and Operations version\_10.0.1 (avril\_2019)"
               href: get-started/whats-new-changed-10-0-1.md
@@ -54,9 +56,11 @@
               href: get-started/whats-new-changed-10.md
             - name: "Finance and Operations version\_8.1.3 (janvier\_2019)"
               href: get-started/whats-new-changed-8-1-3.md
+            - name: "Fonctions en version préliminaire dans Finance and Operations platform update\_28 (juillet\_2019)"
+              href: get-started/whats-new-platform-update-28.md
             - name: "Fonctions en version préliminaire dans Finance and Operations platform update\_27 (mai\_2019)"
               href: get-started/whats-new-platform-update-27.md
-            - name: "Fonctions en version préliminaire dans Finance and Operations platform update\_26 (mai\_2019)"
+            - name: "Platform update\_26 (mai\_2019)"
               href: get-started/whats-new-platform-update-26.md
             - name: "Platform update\_25 (avril\_2019)"
               href: get-started/whats-new-platform-25.md
@@ -1261,6 +1265,8 @@
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Créer un budget préliminaire pour le secteur public
                   href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
+                - name: État d'analyse budgétaire
+                  href: ../financials/public-sector/budget-analysis-report.md
                 - name: Analyse budgétaire (Secteur public)
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: Budgets préliminaires et répartitions (Secteur public)
@@ -2277,6 +2283,7 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Paramétrer les taux de change pour les transactions en devise
                   href: ../financials/localizations/rus-exchange-difference.md
+                - name: Importer les taux de change des devises à partir de CBRF ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Détenteurs d'avance
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2638,7 +2645,6 @@
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Paramétrer les avantages
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
-            - name: Fréquences et cycles
             - name: Paramétrer les cycles de paie et les périodes de rémunération
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
             - name: Paramétrer les fréquences de calcul de la paie
@@ -2922,6 +2928,8 @@
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: Analyser les documents entrants au format CSV
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
+            - name: Suivre l'exécution des formats d'état électronique pour résoudre les problèmes de performances
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
             - name: Fractionner les fichiers XML générés selon la taille et la quantité de contenu
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
@@ -3877,7 +3885,11 @@
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
         - name: Application mobile des feuilles de temps du projet
           href: ../financials/project-management/project-timesheet.md
-    - name: Sales and Marketing
+        - name: Feuilles de temps de projet sur un appareil mobile
+          href: ../financials/project-management/mobile-timesheets.md
+        - name: Mettre en œuvre des champs personnalisés pour l'application mobile Feuille de temps du projet
+          href: ../financials/project-management/custom-fields-mobile.md
+    - name: Ventes et marketing
       href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:
         - name: Commandes client

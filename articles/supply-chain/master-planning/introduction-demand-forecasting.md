@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552367"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595544"
 ---
 # <a name="demand-forecasting-overview"></a>Vue d'ensemble de la prévision de la demande
 
@@ -52,7 +52,7 @@ Trois sujets principaux sont implémentés dans une prévision de la demande :
     -   Vous pouvez télécharger les expériences de prévision de la demande de Finance and Operations, les modifier pour répondre à vos exigences métier, les publier comme service Web sur Azure, puis les utiliser pour générer des prévisions de la demande. Les expériences sont téléchargeables si vous avez acheté un abonnement à Finance and Operations pour un responsable de production utilisateur au niveau de l'entreprise.
     -   Vous pouvez télécharger les expériences de prévision de la demande actuellement disponibles à partir de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). Étant donné que les expériences de prévision de la demande de Finance and Operations sont automatiquement intégrées à Finance and Operations, les partenaires et clients doivent gérer l'intégration des expériences qu'ils téléchargent à partir de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). Par conséquent, les expériences de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) ne sont pas aussi simples à utiliser que les expériences de prévision de la demande de Finance and Operations. Vous devez modifier le code des expériences de sorte qu'elles utilisent l'interface de programmation d'applications (API) de Finance and Operations.
     -   Vous pouvez créer vos propres expériences dans Microsoft Azure Machine Learning Studio, les publier comme services sur Azure, puis les utiliser pour générer des prévisions de la demande.
-    -   Si vous n'avez pas besoin d'une haute performance, ou de traiter un grand nombre de données, vous pouvez utiliser la rangée gratuite de Machine Learning. Il est recommandé de toujours démarrer à partir de cette rangée, en particulier lors des phases de mise en œuvre et de test. Si vous avez besoin d'une plus haute performance et d'un stockage supplémentaire, vous pouvez utiliser la rangée standard de Machine Learning. Cette rangée nécessite un abonnement à Azure et entraîne des frais supplémentaires. Pour plus d'informations sur la tarification de Machine Learning, voir <http://aka.ms/machine-learning-price-info>.
+    -   Si vous n'avez pas besoin d'une haute performance, ou de traiter un grand nombre de données, vous pouvez utiliser la rangée gratuite de Machine Learning. Il est recommandé de toujours démarrer à partir de cette rangée, en particulier lors des phases de mise en œuvre et de test. Si vous avez besoin d'une plus haute performance et d'un stockage supplémentaire, vous pouvez utiliser la rangée standard de Machine Learning. Cette rangée nécessite un abonnement à Azure et entraîne des frais supplémentaires. Pour plus d'informations sur la tarification de Machine Learning, voir [Tarifs de Machine Learning Studio](https://aka.ms/machine-learning-price-info).
 -   **Réduction des prévisions à n'importe quel point de découplage** – La prévision de la demande dans Finance and Operations s'appuie sur cette fonction, qui vous permet de prévoir à la fois la demande dépendante et indépendante à n'importe quel point de découplage.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Flux de base dans une prévision de la demande

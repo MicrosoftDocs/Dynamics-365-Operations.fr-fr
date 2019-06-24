@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ef582259882f49fb5c2412653f17be4ff9e3f67
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f79c02ab98e89a24c6b7a4933c5119a8ae175a22
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537878"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557245"
 ---
 # <a name="add-a-certification-type-to-a-vendor-in-the-public-sector"></a>Ajouter un type de certification à un fournisseur dans le secteur public
 

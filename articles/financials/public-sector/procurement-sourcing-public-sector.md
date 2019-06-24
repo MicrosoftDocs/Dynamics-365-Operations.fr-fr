@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd2648a00451adc5748af8bc4b285fa051e5ba49
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 479f5d448f4677d70b47cd049a5ba89ac867b03e
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537886"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550248"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector"></a>Approvisionnements dans le secteur public
 

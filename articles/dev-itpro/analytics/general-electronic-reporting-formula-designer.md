@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541266"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592658"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
@@ -443,7 +443,7 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <tr>
 <td>INDEX (list, index)</td>
 <td>Cette fonction retourne un enregistrement sélectionné par un index numérique spécifique dans la liste. Une exception est levée si l'index est hors des limites des enregistrements dans la liste.</td>
-<td>Si vous entrez la source de données <strong>DS</strong> pour le type <strong>Champ calculé</strong> et qu'elle contient l'expression <strong>SPLIT ("A|B|C", “|”), 2)</strong>, l'expression <strong>DS.Value</strong> retourne la valeur de texte, « B ». L'expression <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> renvoie également la valeur de texte « B ».</td>
+<td>Si vous entrez la source de données <strong>DS</strong> pour le type <strong>Champ calculé</strong> et qu'elle contient l'expression <strong>SPLIT ("A|B|C", “|”), 2</strong>, l'expression <strong>DS.Value</strong> retourne la valeur de texte, « B ». L'expression <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> renvoie également la valeur de texte « B ».</td>
 </tr>
 </tbody>
 </table>

@@ -3,7 +3,7 @@ title: Configurer les structures de compte
 description: Cette rubrique fournit des informations sur les structures de compte et les dimensions financières.
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552001"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617294"
 ---
 # <a name="configure-account-structures"></a>Configurer les structures de compte
 
@@ -70,6 +70,16 @@ La section **Détails des valeurs autorisées** vous aide à créer des critère
 
 [![Autoriser des valeurs](./media/account.png)](./media/account.png) 
 
+Les valeurs autorisées seront par défaut celles d'un journal ou d'une page d'entrée de répartition comptable s'il n'y a pas de autres valeurs possibles à sélectionner en fonction du paramétrage de la structure de compte.
+
+Voici un exemple de **Structure de compte de résultat**.
+
+|Compte principal          | Unité commerciale    |Département          | Centre de coût    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | 002 | 022 | 014 |
+
+Lorsque vous saisissez dans un journal et que vous sélectionnez un compte dans la plage du compte de résultat, sélectionner l'unité commerciale « 002 » génère les valeurs 022 et 014 comme valeurs par défaut du contrôle de compte. Ce comportement se produira également avec la page de répartition comptable. 
+
 ## <a name="more-than-7-criteria-needed"></a>Plus de 7 critères requis
 
 Si plus de 7 critères sont requis, vous pouvez continuer à les ajouter sur la ligne suivante. Vous remarquerez lors de l'utilisation de la section **Détails des valeurs autorisées** que le critère **+Ajouter nouveau** n'est plus actif après la saisie du septième critère. Cela est dû à de nombreux facteurs tels que : 
@@ -79,8 +89,6 @@ Si plus de 7 critères sont requis, vous pouvez continuer à les ajouter sur la
  - Facilité d'utilisation  
  
 Pour continuer à ajouter des critères supplémentaires, cliquez sur la section **Doublon dans le segment** et **Valeurs autorisées**. Les critères sont copiés sur une nouvelle ligne. Vous pouvez ensuite effectuer votre saisie ou modifier la section **Détails des valeurs autorisées**.
-
-(LIEN VERS LA VIDÉO QUI SERA CRÉÉE)
 
 ## <a name="best-practices"></a>Utilisation optimale
 Lors du paramétrage de vos structures de compte, certaines pratiques recommandées peuvent être suivies. Toutefois, il s'agit seulement de recommandations, une discussion holistique sur votre entreprise, votre plan de croissance et votre plan de maintenance doit être envisagée dans le cadre de cette discussion.

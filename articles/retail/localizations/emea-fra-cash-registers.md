@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: 57830ceeaf16fe5b1a8d3a1d107f5466c1df4c28
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6da0c0b14ea0d8d6fd23395777e40a5672c4b5ef
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537865"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577883"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France dans Microsoft Dynamics 365 for Retail. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 

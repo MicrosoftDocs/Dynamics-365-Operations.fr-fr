@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d30bccb9f47f36a19887869d7d839c79e4d06818
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b2ef6cd003c1873ee4cc54c484bed4fdf375270f
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537927"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545428"
 ---
 # <a name="france"></a>France 
 

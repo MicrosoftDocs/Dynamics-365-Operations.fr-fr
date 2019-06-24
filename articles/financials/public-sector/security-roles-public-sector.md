@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf4e162919778a2de6c3702bfa01655fa05e94a8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8119ae2e5fbf24944f980db6b0ca4023032c501f
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537873"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557247"
 ---
 # <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité dans le secteur public
 

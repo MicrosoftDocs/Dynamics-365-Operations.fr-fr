@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bc6243be59b9c0b2f552f4d6372b4b639c0ca43
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c0b609af963c0732ad61585816c5a9d3d4d117f3
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537879"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557177"
 ---
 # <a name="create-a-vendor-certification-type-in-the-public-sector"></a>Créer un type de certification fournisseur dans le secteur public
 

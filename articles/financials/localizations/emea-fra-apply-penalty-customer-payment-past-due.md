@@ -17,12 +17,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5f747d632c1a8679b6c2fc65bfff4a1495fdd26
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 32b8f7d29c0b26a739cbc297b0a174669e87cfa8
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537943"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547176"
 ---
 # <a name="penalties-for-past-due-customer-payments-in-france"></a>Pénalités pour les paiements client en retard en France
 

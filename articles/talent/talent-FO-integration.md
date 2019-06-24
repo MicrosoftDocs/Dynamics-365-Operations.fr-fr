@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518041"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617341"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>FAQ sur l'intégration Dynamics 365 for Talent à Dynamics 365 for Finance and Operations
 
@@ -46,7 +46,7 @@ Les dimensions financières ne sont actuellement pas dans Common Data Service po
 
 Pour les données résidant dans Finance and Operations, mais qui n'existent pas dans Talent, associez les deux systèmes en utilisant **Configurer les liens** dans Talent. Pour en savoir plus sur la manière de configurer les liens entre Talent et Finance and Operations, voir [Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (31 octobre 2018)](whats-new-talent-october-31.md).
 
-![](media/MapFinancialDimensions.png)
+![Mettre en correspondance les dimensions financières](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Parfois, dans le cadre de l'importation d'employés, ces derniers deviennent inactifs dans Finance and Operations. Pourquoi ?
 
@@ -60,14 +60,14 @@ La synchronisation des données respecte le programme d'exécution. L'intégrati
 
 En utilisant « Requête avancée », vous pouvez filtrer et reconstituer les données source avant de les transmettre à la cible.
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Requête avancé Collaborateurs actifs](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Puis-je préciser quels champs à envoyer à Finance and Operations pour une entité spécifique ?
 
 Les champs peuvent être ajoutés ou supprimés depuis la tâche d'intégration. Les champs de données qui existent dans l'entité Common Data Service ne sont pas tous renseignés depuis Core HR.
 Des informations supplémentaires peuvent être renseignées via PowerApps.
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![Ajouter ou supprimer des champs depuis une tâche d'intégration](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Je paramètre l'intégration en tant que traitement par lots, mais Talent a perdu la connexion au système cible. Comment puis-je envoyer le même jeu de modifications au système cible ?
 

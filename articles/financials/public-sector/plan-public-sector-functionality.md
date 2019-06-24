@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 637299cfa2c1174e9211efbf50ddf77fdc36cb41
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 84b7bdb8a95ec1491824cecf187894d70087c543
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537867"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550254"
 ---
 # <a name="plan-for-public-sector-functionality"></a>Planification de la fonctionnalité Secteur public
 

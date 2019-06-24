@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552715"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606893"
 ---
 # <a name="attributes-and-attribute-groups"></a>Attributs et groupes d'attributs
 
@@ -176,8 +176,8 @@ Procédez comme suit pour affecter des groupes d'attributs aux catégories de la
 > [!NOTE]
 > Cette procédure peut également être utilisée pour affecter des groupes d'attributs aux catégories de la hiérarchie des catégories de navigation du canal et la hiérarchie de catégories de produits supplémentaire. Dans l'étape 2, utilisez les chemins de navigation suivants :
 >
-> - **Retail** &gt; **Gestion des catégories et des produits** &gt; **Catégories de navigation du canal**
-> - **Retail** &gt; **Gestion des catégories et des produits** &gt; **Catégories de produit supplémentaires**
+> - Retail &gt; Gestion des catégories et des produits &gt; Catégories de navigation du canal
+> - Retail &gt; Gestion des catégories et des produits &gt; Catégories de produit supplémentaires
 
 ### <a name="assign-attribute-groups-to-retail-stores"></a>Affecter des groupes d'attributs à des catégories de magasins de vente au détail
 

@@ -3,7 +3,7 @@ title: Mise en service de Talent
 description: Cette rubrique décrit le processus de mise en service d'un nouvel environnement pour Microsoft Dynamics 365 for Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 00/05/2019
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 98f60e466b8b97215fdba0f48ca53ca57157283b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
+ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517997"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1576919"
 ---
 # <a name="provision-talent"></a>Mettre en service Talent
 
@@ -47,13 +47,14 @@ Pour plus d'informations sur la mise en route de Talent, consultez la méthodolo
 Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Talent dans un environnement.
 
 1. Dans votre projet LCS, sélectionnez la vignette **Gestion de l'application Talent**.
-2. Talent est toujours mis en service dans un environnement Microsoft PowerApps pour permettre l'intégration et l'extensibilité des applications PowerApps. Lisez la section « Sélectionnant d'un environnement PowerApps » de cette rubrique avant de continuer. Si vous n'avez pas déjà un environnement PowerApps, sélectionnez Gérer les environnements dans LCS ou accédez au centre d'administration de PowerApps. Puis suivez les étapes pour [Créer un environnement PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+2. Indiquez s'il s'agit d'une instance de bac à sable ou de production de Talent. Des fonctionnalité d'aperçu anticipées peuvent être disponibles dans les instances de Sandbox pour permettre des commentaire et des test anticipés. 
+3. Sélectionnez l'option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même ensemble de données de démonstration que celui utilisé dans l'environnement de test de Talent. Cette option est utile pour les environnements de démonstration ou de formation à long terme, et ne doit jamais être utilisée pour les environnements de production.  Notez que vous devez sélectionner cette option lors du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
+4. Talent est toujours mis en service dans un environnement Microsoft PowerApps pour permettre l'intégration et l'extensibilité des applications PowerApps. Lisez la section « Sélectionnant d'un environnement PowerApps » de cette rubrique avant de continuer. Si vous n'avez pas déjà un environnement PowerApps, sélectionnez Gérer les environnements dans LCS ou accédez au centre d'administration de PowerApps. Puis suivez les étapes pour [Créer un environnement PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Pour afficher les environnements existants ou en créer de nouveaux, la licence P2 PowerApps doit être affectée à l'administrateur qui met en service Talent. Si votre organisation ne dispose pas d'une licence P2 PowerApps, vous pouvez en obtenir une auprès de votre fournisseur CSP ou à partir de la [Page de tarification PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
 
-4. Sélectionnez **Ajouter**, puis sélectionnez l'environnement dans lequel mettre en service Talent.
-5. Sélectionnez l'option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même ensemble de données de démonstration que celui utilisé dans l'environnement de test de Talent. Cette option est utile pour les environnements de démonstration ou de formation à long terme, et ne doit jamais être utilisée pour les environnements de production.  Notez que vous devez sélectionner cette option lors du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
+5. Sélectionnez l'environnement dans lequel mettre en œuvre Talent.
 6. Sélectionnez **Oui** pour accepter les termes et commencer le déploiement.
 
     Votre nouvel environnement apparaît dans la liste des environnements dans le volet de navigation à gauche. Toutefois, vous ne pouvez pas commencer à utiliser l'environnement jusqu'à ce que le statut de déploiement soit mis jour sur **Déployé**. Ce processus prend généralement quelques minutes. Si le processus d'approvisionnement est infructueux, vous devez contacter le support technique.

@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 39a309213ec2d2b31d5e8df30c9c7d1cf43cc471
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e1bff2f153939af0b993946a8ea3cdd50e32d9a4
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537930"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595567"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Normes prises en charge pour la facturation électronique en Europe
 
@@ -30,7 +30,7 @@ ms.locfileid: "1537930"
 
 Cette rubrique décrit le niveau de couverture qui existe pour la facturation électronique pour Europe. 
 
-L'implémentation et l'adoption de la facturation électronique à l'échelle de l'Union européenne est réglementée [Directive 2010/45/EU](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:189:0001:0008:EN:PDF), ce qui affecte tous les États membres de l'UE. Les sociétés qui souhaitent tirer parti de la facturation électronique doivent envoyer les factures de commande client, les factures financières, les factures de projet, les avoirs de commande client et les avoirs de facture de projet sous forme de fichiers .xml au gouvernement ou à d'autres partenaires commerciaux qui mandatent l'utilisation de la facturation électronique. Ces fichiers .xml doivent être conformes à certaines normes. Les exigences spécifiques au pays et leur implémentation peuvent différer entre les États membres de l'UE, mais généralement ils utilisent le langage universel des affaires ([UBL](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl)) dans différentes versions avec des personnalisations ainsi que les spécifications [PEPPOL](http://www.peppol.eu) et les points d'accès pour la validation et le transport. Le principal l'avantage du langage UBL est que les documents commerciaux peuvent être normalisés à différentes fins. Comme le langage UBL est une norme internationale flexible qui répond à de nombreuses exigences métier, ces documents commerciaux peuvent être échangés entre les frontières nationales.
+L'implémentation et l'adoption de la facturation électronique à l'échelle de l'Union européenne est réglementée [Directive 2010/45/EU](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:189:0001:0008:EN:PDF), ce qui affecte tous les États membres de l'UE. Les sociétés qui souhaitent tirer parti de la facturation électronique doivent envoyer les factures de commande client, les factures financières, les factures de projet, les avoirs de commande client et les avoirs de facture de projet sous forme de fichiers .xml au gouvernement ou à d'autres partenaires commerciaux qui mandatent l'utilisation de la facturation électronique. Ces fichiers .xml doivent être conformes à certaines normes. Les exigences spécifiques au pays et leur implémentation peuvent différer entre les États membres de l'UE, mais généralement ils utilisent le langage universel des affaires ([UBL](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl)) dans différentes versions avec des personnalisations ainsi que les spécifications [PEPPOL](https://www.peppol.eu) et les points d'accès pour la validation et le transport. Le principal l'avantage du langage UBL est que les documents commerciaux peuvent être normalisés à différentes fins. Comme le langage UBL est une norme internationale flexible qui répond à de nombreuses exigences métier, ces documents commerciaux peuvent être échangés entre les frontières nationales.
 
 ## <a name="what-electronic-invoice-formats-are-currently-available-in-finance-and-operations"></a>Quels formats de facture électronique sont actuellement disponibles dans Finance and Operations ?
 

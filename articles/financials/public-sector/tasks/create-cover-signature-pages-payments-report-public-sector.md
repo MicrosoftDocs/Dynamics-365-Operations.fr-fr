@@ -17,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e44edd6422a2b8e6a32d6851ee574bbb7caf3012
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 70a3dc9b47c37b6b727c783d7a8ca53496a7d664
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537874"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557229"
 ---
 # <a name="create-cover-and-signature-pages-for-a-payments-report-for-the-public-sector"></a>Créer une couverture et des pages de signature pour un état de paiement pour le secteur public
 

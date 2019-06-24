@@ -3,7 +3,7 @@ title: Vue d'ensemble des applications mobiles du projet
 description: Cette rubrique fournit des informations générales sur les applications liées aux heures du projet pour Microsoft Dynamics 365, disponibles sur un appareil mobile.
 author: KimANelson
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 22ccc70e242ffc9a487720c6a25fa6c5b8d78073
+ms.sourcegitcommit: 2d4b10fb5d3d0fbe518acdd921ebdd1bdc1d135e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1529969"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "1608136"
 ---
 # <a name="project-mobile-applications-overview"></a>Vue d'ensemble des applications mobiles du projet
 
@@ -45,4 +45,4 @@ Mes feuilles de temps (optimisée pour mobile) et Feuilles de temps pour révisi
 
 ## <a name="for-more-information"></a>Plus d'informations
 
-Pour plus de détails, voir [Application mobile Microsoft Dynamics 365 Project Timesheet](project-timesheet.md), [Entrée d'heure du projet]( project-time-entry-mobile-workspace.md) et [Feuilles de temps de projet sur un appareil mobile](Mobile-timesheets.md).
+Pour plus de détails, voir [Application mobile Microsoft Dynamics 365 Project Timesheet](project-timesheet.md), et [Entrée d'heure du projet]( project-time-entry-mobile-workspace.md), [Feuilles de temps de projet sur un appareil mobile](Mobile-timesheets.md) et [Mettre en œuvre des champs personnalisés pour l'application mobile Project Timesheet](custom-fields-mobile.md).

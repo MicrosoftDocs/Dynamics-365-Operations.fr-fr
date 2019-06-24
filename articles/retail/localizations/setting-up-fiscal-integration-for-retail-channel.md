@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525323"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577898"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Paramétrer l'intégration fiscale pour les canaux de vente au détail
 
@@ -88,7 +88,7 @@ Avant d'utiliser la fonctionnalité d'intégration fiscale, vous devez configure
         Vous pouvez changer les paramètres de mise en correspondance des données dans un profil fonctionnel de connecteur. Pour rétablir les paramètres par défaut définis dans la configuration du fournisseur de documents fiscaux, sélectionnez **Mettre à jour**.
 
         **Exemples**
-    
+
         |   | Formats | Exemple |
         |---|--------|---------|
         | **Paramètres de taux de TVA** | valeur : VATrate | 1 : 2 000, 2 : 1 800 |
@@ -111,7 +111,7 @@ Avant d'utiliser la fonctionnalité d'intégration fiscale, vous devez configure
 4. Créez des groupes de connecteurs fiscaux.
 
     Un groupe de connecteurs fiscaux associe des profils fonctionnels des connecteurs fiscaux exécutant des fonctions identiques et utilisés à la même étape d'un processus d'enregistrement fiscal. Par exemple, si plusieurs modèles fiscaux d'impression peuvent être utilisés dans un magasin de vente au détail, les connecteurs fiscaux pour ces imprimantes fiscales peuvent être associés en un groupe de connecteurs fiscaux.
-    
+
     1. Sur la page **Groupe de connecteurs fiscaux** (**Vente au détail \> Paramétrage du canal \> Intégration fiscale \> Groupes de connecteurs fiscaux**), créez un nouveau groupe de connecteurs fiscaux.
     2. Ajoutez des profils fonctionnels dans le groupe de connecteurs. Sur l'onglet **Profils fonctionnels**, sélectionnez **Ajouter**, puis sélectionnez un numéro de profil. Chaque connecteur fiscal au sein d'un groupe de connecteurs ne peut avoir qu'un profil fonctionnel.
     3. Pour interrompre l'utilisation du profil fonctionnel, définissez **Désactiver** sur **Oui**. Cette modification affecte uniquement le groupe de connecteurs actuel. Vous pouvez continuer à utiliser le même profil fonctionnel dans d'autres groupes de connecteurs.
@@ -119,7 +119,7 @@ Avant d'utiliser la fonctionnalité d'intégration fiscale, vous devez configure
 5. Créez un processus d'enregistrement fiscal.
 
     Un processus d'enregistrement fiscal est défini par la séquence des étapes d'enregistrement et du groupe de connecteurs utilisé dans chaque étape.
-    
+
     1. Sur la page **Processus d'enregistrement fiscal** (**Vente au détail \> Paramétrage du canal \> Intégration fiscale \> Processus d'intégration fiscale**), créez un enregistrement pour chaque processus unique d'enregistrement fiscal.
     2. Ajoutez les étapes d'enregistrement au processus :
 
@@ -145,7 +145,7 @@ Avant d'utiliser la fonctionnalité d'intégration fiscale, vous devez configure
 7. Sur la page **Processus d'enregistrement fiscal** (**Vente au détail \> Paramétrage du canal \> Intégration fiscale \> Processus d'intégration fiscale**), sélectionnez **Valider** pour valider le processus d'enregistrement fiscal.
 
     Nous vous recommandons d'exécuter ce type de validation dans les cas suivants :
-    
+
     - Après avoir exécuté tous les paramètres pour un nouveau processus d'enregistrement, y compris l'affectation des processus d'enregistrement aux profils de fonctionnalité du PDV et aux profils matériels.
     - Après avoir apporté des changements à un processus d'enregistrement fiscal, et une fois que ces changements sont susceptibles d'entraîner la sélection d'un autre connecteur fiscal lors de l'exécution (par exemple, si vous changez le groupe de connecteurs pour une étape de processus d'enregistrement fiscal, activez un profil fonctionnel de connecteur dans un groupe de connecteurs, ou ajoutez un nouveau profil fonctionnel de connecteur à un groupe de connecteurs).
     - Vous pouvez ensuite apporter des modifications à l'affectation des profils techniques du connecteur aux profils matériels.

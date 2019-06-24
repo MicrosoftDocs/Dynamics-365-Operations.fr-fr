@@ -3,7 +3,7 @@ title: Mises en page de l'écran pour le point de vente (PDV)
 description: Cette rubrique fournit des informations sur les mises en page de l'écran pour les expériences pour PDV Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549426"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607034"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Mises en page de l'écran pour le point de vente (PDV)
 
@@ -51,6 +51,7 @@ Les profils visuels sont affectés aux registres et ils spécifient les élémen
 - **Thème** – Vous pouvez choisir entre les thèmes d'application Clair et Foncé. Le thème affecte les couleurs de police et d'arrière-plan dans l'application.
 - **Couleur d'accentuation** – La couleur d'accentuation est utilisée dans le POS pour différencier ou mettre en évidence des éléments visuels spécifiques tels que des vignettes, des boutons de commande et des liens hypertextes. En général, ces éléments sont modifiables.
 - **Couleur d'en-tête** – Vous pouvez configurer la couleur de l'en-tête de page pour répondre aux exigences de marque du détaillant. Cette fonction est disponible uniquement dans Microsoft Dynamics 365 for Retail version 1611.
+- **Afficher date/heure** – Lorsque cette option est activée, la date et l'heure actuelles sont affichées dans l'en-tête POS.
 - **Arrière-plan de connexion** – Vous pouvez spécifier une image d'arrière-plan pour l'écran de connexion. La taille du fichier des images d'arrière-plan devrait être aussi petite que possible, car le stockage et le chargement de fichiers volumineux peuvent affecter le comportement et les performances de l'application.
 - **Arrière-plan d'application** – Vous pouvez spécifier une image d'arrière-plan qui est utilisée à la place de la couleur de thème unie dans l'application. Comme pour les arrières-plans de connexion, la taille de fichier devrait être aussi petite que possible.
 

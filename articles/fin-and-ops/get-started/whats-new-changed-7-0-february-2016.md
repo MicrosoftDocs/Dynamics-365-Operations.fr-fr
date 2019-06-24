@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561808"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595660"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 
@@ -716,7 +716,7 @@ Le serveur de vente au détail et la gestion des données permettent aux utilisa
 <th>Que pouvez-vous faire ?</th>
 <th>Dynamics AX 2012</th>
 <th>Dynamics AX 7.0</th>
-<th>Pourquoi est-ce important ?</th>
+<th>Pourquoi est-ce important ?</th>
 </tr>
 </thead>
 <tbody>
@@ -971,7 +971,7 @@ Installation améliorée du composant client « à faible contact » via l'ins
 </tr>
 <tr>
 <td>Surveillance de la santé du système, et diagnostic des erreurs et des problèmes.</td>
-<td>Cette fonctionnalité nécessite le <a href="http://www.microsoft.com/download/details.aspx?id=42636">Pack de gestion du centre système 2012 pour Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Cette fonctionnalité nécessite le <a href="https://www.microsoft.com/download/details.aspx?id=42636">Pack de gestion du centre système 2012 pour Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>La surveillance et le diagnostic pour les composants Retail sont à présent disponibles via le tableau de bord <strong>Aperçu opérationnel</strong> dans LCS.</td>
 <td>Le tableau de bord <strong>Aperçu opérationnel</strong> est un portail de surveillance basé sur le cloud qui remplace la nécessité d'installer l'infrastructure System Center Operations Manager (SCOM).</td>
 </tr>

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502728"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595337"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
 
@@ -120,7 +120,7 @@ Le tableau suivant décrit les codes de restriction de colonne.
 | ADJ                     | Restreint les montants dans la colonne aux montants d'ajustement de période, si ces montants sont disponibles. |
 | XAD                     | Restreint les montants dans la colonne, de sorte que les montants d'ajustement de période sont exclus. |
 | TP                      | Restreint les montants dans la colonne, de sorte que seules les transactions validées sont incluses, si ces transactions sont disponibles. |
-| UPT                     | Restreint les montants dans la colonne, de sorte que seules les transactions non validées sont incluses, si ces transactions sont disponibles.<blockquote>[!NOTE] Les fournisseurs de données ne prennent pas tous en charge les transactions non validées. Pour plus d'informations, voir le <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guide d'intégration de données</a> pour votre système ERP Microsoft Dynamics.</blockquote> |
+| UPT                     | Restreint les montants dans la colonne, de sorte que seules les transactions non validées sont incluses, si ces transactions sont disponibles.<p><strong>Remarque :</strong> tous les fournisseurs de données ne prennent pas en charge les transactions non validées. Pour plus d'informations, voir le <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>guide d'intégration de données</a> pour votre système ERP Microsoft Dynamics.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restreindre une colonne à une unité de déclaration
 
@@ -223,7 +223,7 @@ Phyllis crée un état pour une prévision dynamique de six mois. Elle veut que 
 | Type de colonne         | DESC | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | FD            | FD            |
 | Code registre/Attribut |      | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    | RÉEL        | BUDGET2012    |
 | Année fiscale         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
-| Période               |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
+| Période              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
 | Périodes couvertes     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
 | Largeur de colonne        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Contrôle d'impression       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
@@ -310,7 +310,7 @@ La cellule **Contrôle d'impression** peut contenir des codes qui règlent les c
 | Code de contrôle d'impression | Traduction                                     | Description |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Non imprimable                                     | Exclut les montants de cette colonne de l'état imprimé et des calculs. Pour inclure une colonne non imprimable dans un calcul, consultez la colonne directement dans la formule de calcul. Par exemple, la colonne C non imprimable est incluse dans le calcul suivant : **B+C+D**. Cependant, la colonne C non imprimable n'est pas incluse dans le calcul suivant : **B:D**. |
-| XCR                | Modifie le signe si le solde typique de la ligne est un crédit | Crée un budget ou un état comparatif où tout écart défavorable (tel qu'un déficit de produit ou un dépassement de dépense) est toujours négatif. Appliquez ce code à une colonne **CALC** pour inverser le signe du montant de la colonne si le solde typique d'une ligne donnée est un crédit (comme identifié par un **C** dans la colonne **Solde normal** de la définition de ligne).<blockquote>[!NOTE] Pour les lignes <strong>TOT</strong> et </strong>CAL</strong> qui comportent généralement un solde, veillez à entrer un <strong>C</strong> dans la colonne <strong>Solde normal</strong> dans la définition de ligne.</blockquote> |
+| XCR                | Modifie le signe si le solde typique de la ligne est un crédit | Crée un budget ou un état comparatif où tout écart défavorable (tel qu'un déficit de produit ou un dépassement de dépense) est toujours négatif. Appliquez ce code à une colonne **CALC** pour inverser le signe du montant de la colonne si le solde typique d'une ligne donnée est un crédit (comme identifié par un **C** dans la colonne **Solde normal** de la définition de ligne).<p><strong>Remarque :</strong> pour les lignes <strong>TOT</strong> et </strong>CAL</strong> qui comportent généralement un solde, veillez à entrer un <strong>C</strong> dans la colonne <strong>Solde normal</strong> dans la définition de ligne.</p> |
 | X0                 | Supprime la colonne si elle ne contient que des zéros ou des espaces          | Permet d'exclure une colonne **FD** de l'état si toutes les cellules dans cette colonne sont vides ou contiennent des zéros. |
 | SR                 | Permet de supprimer l'arrondi                               | Permet d'empêcher les montants de cette colonne d'être arrondis. |
 | XR                 | Permet de supprimer le cumul                                 | Permet de supprimer le cumul Si l'état utilise une arborescence de génération d'états, les montants de cette colonne ne sont pas cumulés dans les nœuds parent suivants. |
@@ -546,8 +546,8 @@ Le tableau suivant présente les résultats de l'état qui peuvent exister pour 
 | Cellule Afficher la devise                        | Cellule Filtre de devise | Résultat de l'état |
 |----------------------------------------------|----------------------|---------------|
 | Devise de la transaction                 | **YEN**              | **Y6 000** – Le résultat affiche uniquement les transactions qui ont été entrées en JPY. |
-| Devise comptable de la comptabilité | **YEN**              |**$60** – Le résultat affiche uniquement les transactions qui ont été entrées en JPY et affiche ces transactions en USD.<blockquote>[!NOTE] Le taux de conversion est approximativement 100 JPY pour 1 USD.</blockquote> |
-| Devise comptable de la comptabilité | Vide                | **2 310 USD** - Le résultat affiche toutes les données dans la devise comptable spécifiée en comptabilité.<blockquote>[!NOTE] Ce montant correspond à la somme de toutes les transactions dans la devise comptable.</blockquote> |
+| Devise comptable de la comptabilité | **YEN**              |**$60** – Le résultat affiche uniquement les transactions qui ont été entrées en JPY et affiche ces transactions en USD.<p><strong>Remarque :</strong> le taux de conversion est approximativement 100 JPY pour 1 USD.</p> |
+| Devise comptable de la comptabilité | Vide                | **2 310 USD** - Le résultat affiche toutes les données dans la devise comptable spécifiée en comptabilité.<p><strong>Remarque :</strong> Ce montant correspond à la somme de toutes les transactions dans la devise comptable.</p> |
 | Devise de la transaction                 | Vide                | **$2 250** – Le résultat affiche tous les montants dans la devise dans laquelle la transaction a été exécutée. Autrement dit, le total est ajouté aux montants de différentes devises. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Colonne de calcul dans une définition de colonne
@@ -565,7 +565,7 @@ Pour ajouter, soustraire, multiplier ou diviser des colonnes, entrez les lettres
 |----------|---------------------|-------------|
 | +        | A+C                 | Additionne le montant de la colonne A au montant de la colonne C. |
 | :        | A:C A:C-D           | Additionne une plage de colonnes consécutives. Par exemple, la formule **A:C** additionne les sommes des colonnes A à c, et la formule **A:C-D** additionne les sommes des colonnes A à c, puis soustrait le montant de la colonne D. |
-| -        | A-C                 | Permet de soustraire le montant de la colonne A du montant de la colonne C.<blockquote>[!NOTE] Vous pouvez également utiliser le signe moins (-) pour inverser les signes d'une colonne. Par exemple, utilisez <strong>- A+B</strong> pour ajouter l'opposé du montant de la colonne A au montant de la colonne B.</blockquote> |
+| -        | A-C                 | Permet de soustraire le montant de la colonne A du montant de la colonne C.<p><strong>Remarque :</strong> Vous pouvez également utiliser le signe moins (-) pour inverser les signes d'une colonne. Par exemple, utilisez <strong>- A+B</strong> pour ajouter l'opposé du montant de la colonne A au montant de la colonne B.</p> |
 | \*       | A\*C                | Multiplie le montant de la colonne A par le montant de la colonne C. |
 | /        | A/C                 | Divise le montant de la colonne A par le montant de la colonne C. |
 

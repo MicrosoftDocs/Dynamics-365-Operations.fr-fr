@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8d3a6eabfe84885a98a20b29ada04ac39a54459
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 7cf70c9dace0a1e8239ae9964eed853244c7c38e
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537939"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547164"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a>Approvisionnements dans le secteur public en France
 

@@ -3,7 +3,7 @@ title: Gestion des prix de vente dans Retail
 description: Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 04/20/2018
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
+ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549396"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1594068"
 ---
 # <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
 
@@ -231,3 +231,9 @@ De plus, **seul** le moteur de tarification de vente au détail prend en charge 
 
 - Le prix est basé sur les dimensions de produit, dans l'ordre du prix variable le plus spécifique au prix variable le moins spécifique jusqu'au prix du produit générique. Un prix défini à l'aide de deux dimensions de produit (par exemple, de couleur et de taille) est utilisé avant un prix défini à l'aide d'une seule dimension de produit (par exemple, de taille).
 - Le même groupe de prix peut être utilisé pour contrôler la tarification et les remises.
+
+## <a name="pricing-api-enhancements"></a>Optimisation de l'API de tarification
+
+Le prix est l'un des facteurs principaux qui régit les décisions de achat de nombreux clients, et de nombreux clients comparent les prix sur plusieurs sites avant qu'ils fassent un achat. Pour s'assurer qu'ils fournissent des prix concurrentiels, les détaillants conservent un œil sur leurs concurrents et offrent des promotions fréquemment. Par conséquent, pour aider les détaillants à attirer des clients, il est primordial que la recherche de produit, la fonctionnalité Parcourir, les listes, et la page de détails des produits indiquent les prix les plus précis.
+
+Dans une version suivante de Retail, l'interface de programmation d'application **GetActivePrices** (API) retourne des prix incluant des remises simples (par exemple, des remises à ligne unique qui ne dépendent pas d'autres articles dans le chariot). Ainsi, les prix indiqués sont affichés aussi proches du montant réel que les clients payeront pour les articles. Cette API inclura tous les types de remises simples : remises basées sur l'affiliation, sur la fidélité, sur le catalogue, et sur le canal. En outre, l'API retournera les noms et des informations de validité sur les remises appliquées, de sorte que les détaillants puissent fournir une description plus détaillée du prix et créer un sentiment d'urgence si la validité de la remise expire prochainement.
