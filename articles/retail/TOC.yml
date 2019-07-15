@@ -1,10 +1,10 @@
-- name: Bienvenue dans Dynamics 365 for Retail
+- name: Bienvenue à Dynamics 365 for Retail
   href: index.md
 - name: Mise en route
   items:
     - name: Nouveautés ou modifications
       href: get-started/whats-new.md
-    - name: "Fonctionnalités en version préliminaire dans Dynamics 365 for Retail\_10.0.3"
+    - name: "Nouveautés ou modifications dans Dynamics 365 for Retail\_10.0.3"
       href: get-started/whats-new-10-0-3.md
     - name: "Nouveautés ou modifications dans Dynamics 365 for Retail\_10.0.2"
       href: get-started/whats-new-10-0-2.md
@@ -407,6 +407,10 @@
       items:
         - name: Exemple d'intégration de l'imprimante fiscale pour l'Italie
           href: localizations/emea-ita-fpi-sample.md
+    - name: Mexique
+      items:
+        - name: Factures électroniques CFDI générales pour le Mexique
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: Norvège
       items:
         - name: Fonctionnalité de la caisse enregistreuse
@@ -602,7 +606,7 @@
           href: dev-itpro/extend-metadata.md
         - name: Appeler le service CRT en mode hors connexion
           href: dev-itpro/call-crt-service-offline.md
-    - name: Extensibilité de Commerce Runtime (CRT)
+    - name: Extensibilité Commerce Runtime (CRT)
       items:
         - name: Architecture et configuration de CRT
           href: dev-itpro/commerce-runtime-overview.md
