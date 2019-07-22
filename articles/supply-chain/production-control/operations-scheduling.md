@@ -3,7 +3,7 @@ title: Ordonnancement
 description: Cette rubrique fournit des informations sur l'ordonnancement. Vous pouvez utiliser l'ordonnancement pour fournir une estimation globale du processus de production dans le temps.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560255"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691460"
 ---
 # <a name="operations-scheduling"></a>Ordonnancement
 
@@ -67,6 +67,9 @@ L'ordonnancement détermine également la planification, qui établit les calcul
 -   **Productions retardées** – Produits planifiés, lancés ou démarrés
 -   **Disponibilité des matières** – Stock, sous-productions et fournisseurs
 -   **Disponibilité de la capacité** – Ressources requises pour la production
+
+> [!NOTE]
+> Si vous utilisez une planification maître et un ordonnancement des opérations multithread, la capacité finie n'est pas prise en compte. 
 
 ## <a name="cancellations"></a>Annulations
 Lorsque vous exécutez l'ordonnancement, vous pouvez annuler certaines parties de l'acheminement. Cela inclut le temps d'attente, le temps de réglage, le temps d'exécution, la période de chevauchement et les heures de transport.

@@ -3,7 +3,7 @@ title: Paramétrer la distribution d'intérêts pour les comptes de disponibilit
 description: Cette rubrique explique comment configurer vos comptes de disponibilités participants dans la page de règles de distribution d'intérêts. Vous devez effectuer ce paramétrage avant de distribuer les intérêts.
 author: velofog
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,16 @@ ms.search.industry: public sector
 ms.author: v-alpavk
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 9785fc350824e83f06b8813b48d43fca4db07cf4
-ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
+ms.openlocfilehash: 6cb47e03ac3a8dd1b93c428dc74c7ccfe881dfbe
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1539151"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1631993"
 ---
 # <a name="set-up-interest-distribution-for-cash-accounts"></a>Paramétrer la distribution d'intérêts pour les comptes de disponibilités
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 Votre agence peut affecter (distribuer) les intérêts sur un compte bancaire à des comptes généraux spécifiques, selon le solde quotidien moyen dans les comptes de disponibilités. Cette procédure vous permet de générer une écriture comptable avancée pour les montants d'intérêts. Sinon, vous pouvez générer les montants d'intérêts pour révision, sans les valider.
 

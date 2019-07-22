@@ -3,7 +3,7 @@ title: Profils de validation fournisseur
 description: Les profils de validation fournisseur contrôlent la validation des transactions fournisseur pour la comptabilité.
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e81f8b472e7ac7578c184716dcb4e5f3d7aeb65d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c3f62df7ec5627556561db950d54ff4347d2b4d6
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512166"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625893"
 ---
 # <a name="vendor-posting-profiles"></a>Profils de validation fournisseur
 
@@ -34,22 +34,22 @@ Les profils de validation fournisseur contrôlent la validation des transactions
 <a name="vendor-posting-profiles"></a>Profils de validation fournisseur
 -----------------------
 
-Les profils de validation fournisseur permettent d'affecter des comptes généraux et des paramètres de document à tous les fournisseurs, à un groupe de fournisseurs ou à un fournisseur unique. Ces paramètres sont utilisés lorsque vous créez des commandes fournisseur, des factures fournisseur et des paiements en espèces. Pour certaines transactions, vous pouvez sélectionner un profil de validation différent qui prime sur les profils de validation paramétrés pour les transactions dans cette page. Le profil de validation par défaut est défini dans l'organisateur Comptabilité et Taxe dans la page de paramètres de la Comptabilité fournisseur. Le profil de validation par défaut est alors automatiquement inclus dans l'en-tête des nouveaux documents dans lesquels vous pouvez le modifier en un profil de validation différent, si nécessaire.
+Les profils de validation fournisseur permettent d'affecter des comptes généraux et des paramètres de document à tous les fournisseurs, à un groupe de fournisseurs ou à un fournisseur unique. Ces paramètres sont utilisés lorsque vous créez des commandes fournisseur, des factures fournisseur et des paiements en espèces. Pour certaines transactions, vous pouvez sélectionner un profil de validation différent qui prime sur les profils de validation paramétrés pour les transactions dans cette page. Le profil de validation par défaut est défini dans l'organisateur **Comptabilité et Taxe** dans la page des **Paramètres de la Comptabilité fournisseur**. Le profil de validation par défaut est alors automatiquement inclus dans l'en-tête des nouveaux documents dans lesquels vous pouvez le modifier en un profil de validation différent, si nécessaire.
 
-Vous pouvez également associer des définitions de validation aux types de validation de transaction sur la page Définitions de validation de transaction. Les définitions de validation contrôlent la validation des transactions fournisseur dans la comptabilité à la place des profils de validation.
+Vous pouvez également associer des définitions de validation aux types de validation de transaction sur la page **Définitions de validation de transaction**. Les définitions de validation contrôlent la validation des transactions fournisseur dans la comptabilité à la place des profils de validation.
 
 ## <a name="creating-a-posting-profile"></a>Création d'un profil de validation
 ### <a name="setup"></a>**Paramétrage**
 
-Permet de spécifier les comptes généraux utilisés dans la validation des transactions dont le profil de validation est sélectionné. Permet de sélectionner un code compte et, si possible, un numéro de compte ou de groupe pour le profil de validation sélectionné. Lors de la validation, le profil de validation qui convient le mieux à chaque transaction est localisé en recherchant la combinaison code compte, numéro de compte ou groupe et numéro la plus spécifique selon la priorité suivante :
+Permet de spécifier les comptes généraux utilisés dans la validation des transactions dont le profil de validation est sélectionné. Permet de sélectionner un code compte et, si possible, un numéro de compte ou de groupe pour le profil de validation sélectionné. Lors de la validation, le profil de validation qui convient le mieux à chaque transaction est localisé en recherchant la combinaison code compte, numéro de compte ou groupe et numéro la plus spécifique selon la priorité suivante.
 
 | Valeur du champ **Code de compte** | Valeur du champ **Numéro de compte/groupe**        | Priorité de recherche |
 |------------------------------|---------------------------------------------|-----------------|
 | **Enregistrement**                    | Compte fournisseur spécifique                     | 1               |
-| **Groupe**                    | groupe de fournisseurs assigné au fournisseur | 2               |
-| **Tout**                      | Blanc                                       | 3               |
+| **Regrouper**                    | Groupe de fournisseurs assigné au fournisseur | 2               |
+| **Tous**                      | Blanc                                       | 3               |
 
-Si vous souhaitez que toutes les transactions fournisseur aient le même profil de validation, paramétrez un seul profil de validation à l'aide de la valeur Tous du champ Code de compte. Spécifiez les valeurs suivantes pour paramétrer votre profil de validation :
+Si vous souhaitez que toutes les transactions fournisseur aient le même profil de validation, paramétrez un seul profil de validation à l'aide de la valeur **Tous** du champ **Code de compte**. Spécifiez les valeurs suivantes pour paramétrer votre profil de validation.
 
 <table>
 <thead>
@@ -71,32 +71,20 @@ Si vous souhaitez que toutes les transactions fournisseur aient le même profil 
 <td><strong>Code de compte</strong></td>
 <td>Permet de spécifier si le profil de validation s'applique à un fournisseur spécifique, à un groupe de fournisseurs ou à tous les fournisseurs :
 <ul>
-<li><strong>Table</strong> – Le profil de validation s'applique à un seul fournisseur. Sélectionnez le compte fournisseur dans le champ Numéro de compte/groupe.</li>
-<li><strong>Groupe</strong> – Le profil de validation s'applique à un groupe de fournisseurs. Sélectionnez le groupe de fournisseurs dans le champ Numéro de compte/groupe.</li>
-<li><strong>Tous</strong> – Le profil de validation s'applique à tous les fournisseurs. Laissez vide le champ Numéro de compte/groupe.</li>
+<li><strong>Table</strong> – Le profil de validation s'applique à un seul fournisseur. Sélectionnez le compte fournisseur dans le champ <strong>Numéro de compte/groupe</strong>.</li>
+<li><strong>Groupe</strong> – Le profil de validation s'applique à un groupe de fournisseurs. Sélectionnez le groupe de fournisseurs dans le champ <strong>Numéro de compte/groupe</strong>.</li>
+<li><strong>Tous</strong> – Le profil de validation s'applique à tous les fournisseurs. Laissez vide le champ <strong>Numéro de compte/groupe</strong>.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>Numéro de compte/groupe</strong></td>
-<td>Si Table est sélectionné dans le champ Code de compte, sélectionnez le numéro de compte du fournisseur associé au profil de validation. Si Groupe est sélectionné, sélectionnez un groupe de fournisseurs. Si l'option Tous est sélectionnée, laissez ce champ vide.</td>
+<td>Si <strong>Table</strong> est sélectionné dans le champ <strong>Code de compte</strong>, sélectionnez le numéro de compte du fournisseur associé au profil de validation. Si <strong>Groupe</strong> est sélectionné, sélectionnez un groupe de fournisseurs. Si l'option <strong>Tous</strong> est sélectionnée, laissez ce champ vide.</td>
 </tr>
 <tr class="odd">
 <td><strong>Compte collectif</strong></td>
-<td>Permet de sélectionner le compte général qui sera utilisé comme compte collectif pour les fournisseurs auxquels se rapporte le profil de validation.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Remarque" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Remarque</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si l'option Utiliser les définitions de validation est activée dans la page Paramètres de comptabilité, la définition de validation de transaction pour les factures fournisseur est utilisée à la place du compte collectif.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
+<td>Permet de sélectionner le compte général qui sera utilisé comme compte collectif pour les fournisseurs auxquels se rapporte le profil de validation. Le paramètre <strong>Ne pas autoriser la saisie manuelle</strong> pour ce compte principal est marqué. Si vous supprimez ensuite ce compte du profil de validation, validez le paramètre <strong>Ne pas autoriser la saisie manuelle</strong> sur la page <strong>Comptes principaux</strong>. 
+<p><strong>Remarque :</strong> Si l'option <strong>Utiliser les définitions de validation</strong> est activée dans la page <strong>Paramètres de comptabilité</strong>, la définition de validation de transaction pour les factures fournisseur est utilisée à la place du compte collectif.</p>
+</td>
 </tr>
 <tr class="even">
 <td><strong>Compte de règlement</strong></td>
@@ -105,24 +93,12 @@ Si vous souhaitez que toutes les transactions fournisseur aient le même profil 
 <tr class="odd">
 <td><strong>Acomptes de taxe</strong></td>
 <td>Permet de sélectionner le compte pour les paiements de taxe reçus en avance.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Remarque" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Remarque</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le profil de validation utilisé lorsque le paiement est marqué comme acompte est sélectionné dans le champ Profil de validation avec N° document du journal des acomptes dans la zone Comptabilité et Taxe de la page de paramètres de la comptabilité fournisseur.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
+<p><strong>Remarque :</strong> Le profil de validation utilisé lorsque le paiement est marqué comme acompte est sélectionné dans le champ <strong>Profil de validation</strong> avec le champ <strong>N° document du journal des acomptes</strong> dans la zone <strong>Comptabilité et Taxe</strong> de la page <strong>Paramètres de la comptabilité fournisseur</strong>.</p>
+</td>
 </tr>
 <tr class="even">
 <td><strong>Arrivée</strong></td>
-<td>Permet de sélectionner le compte général sur lequel les informations relatives aux factures fournisseur non approuvées sont validées. Les informations sont entrées dans le journal du registre des factures. Par exemple, un utilisateur entre des informations très élémentaires sur des factures fournisseur lors de leur réception dans le registre des factures. Lors de la validation du registre des factures, les transactions sont validées sur le compte entré ici et dans le champ Compte de contrepartie. Lors de l'approbation des factures, la dette est transférée du compte Arrivée vers le compte collectif fournisseur.</td>
+<td>Permet de sélectionner le compte général sur lequel les informations relatives aux factures fournisseur non approuvées sont validées. Les informations sont entrées dans le journal du registre des factures. Par exemple, un utilisateur entre des informations très élémentaires sur des factures fournisseur lors de leur réception dans le registre des factures. Lors de la validation du registre des factures, les transactions sont validées sur le compte entré ici et dans le champ <strong>Compte de contrepartie</strong>. Lors de l'approbation des factures, la dette est transférée du compte Arrivée vers le compte collectif fournisseur.</td>
 </tr>
 <tr class="odd">
 <td><strong>Compte de contrepartie</strong></td>
@@ -136,15 +112,10 @@ Si vous souhaitez que toutes les transactions fournisseur aient le même profil 
 
 Pour les transactions dont le profil de validation est sélectionné, spécifiez si les transactions seront réglées automatiquement, si des intérêts seront calculés et si des lettres de relance seront émises. Vous pouvez également sélectionner le compte utilisé lorsque des transactions dont le profil de validation est sélectionné sont clôturées.
 
-Spécifiez les valeurs suivantes pour paramétrer votre profil de validation :
+Spécifier les valeurs suivantes pour paramétrer votre profil de validation
 
 | Champ          | Description                                                                                                                                                                                                    |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Règlement** | Sélectionnez cette option pour activer le règlement automatique des transactions bénéficiant de ce profil de validation. Si cette option est désactivée, vous devez régler manuellement les transactions à l'aide de la page Régler les transactions en cours. |
+| **Lettrage** | Sélectionnez cette option pour activer le règlement automatique des transactions bénéficiant de ce profil de validation. Si cette option est désactivée, vous devez régler manuellement les transactions à l'aide de la page **Régler les transactions en cours**. |
 | **Annuler**     | Sélectionnez cette option pour pouvoir annuler les transactions associées à ce profil de validation.                                                                                                               |
 | **Clôture**      | Permet de sélectionner un autre profil de validation à utiliser lors de la clôture des transactions présentant ce profil de validation. Une transaction est considérée comme clôturée si elle a été totalement réglée.                                       |
-
-
-
-
-

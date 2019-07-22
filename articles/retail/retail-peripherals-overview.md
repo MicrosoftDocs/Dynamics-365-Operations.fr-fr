@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577927"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624810"
 ---
 # <a name="retail-peripherals"></a>Périphériques de vente au détail
 
@@ -156,13 +156,13 @@ Le type de périphérique **Windows** est utilisé pour les imprimantes uniqueme
 
 ### <a name="network"></a>Réseau
 
-Les caisses enregistreuses adressables en réseau, les imprimantes de tickets et les terminaux de paiement peuvent être utilisés sur un réseau, soit directement via la station matérielle IPC (Interprocess Communications) qui est intégrée dans le Modern POS de l'application Windows ou via la station matérielle IIS pour les autres clients Modern POS.
+Les caisses enregistreuses adressables en réseau, les imprimantes de tickets et les terminaux de paiement peuvent être utilisés sur un réseau, soit directement via la station matérielle IPC (Interprocess Communications) qui est intégrée dans les applications Modern POS pour Windows ou Android, ou via la station matérielle IIS pour les autres clients Modern POS.
 
 ## <a name="hardware-station-deployment-options"></a>Options de déploiement de station matérielle
 
 ### <a name="ipc-built-in"></a>IPC (intégré)
 
-La station matérielle IPC (Interprocess Communications) est intégrée dans l'application Modern POS pour Windows. Pour utiliser la station matérielle IPC, affectez un profil matériel à un registre qui utilise le Modern POS de l'application Windows. Créez ensuite une station matérielle du type **Dédié** pour le magasin où le registre sera utilisé. Lorsque vous démarrez Modern POS, la station matérielle IPC est active, et les périphériques de PDV configurés sont prêts à être utilisés. Si temporairement vous n'avez pas besoin du matériel local pour une raison quelconque, utilisez l'opération **Gérer les stations matérielles** pour interrompre les fonctionnalités de la station matérielle. Modern POS peut également utiliser la station matérielle IPC pour communiquer directement avec des périphériques en réseau.
+La station matérielle IPC (Interprocess Communications) est intégrée dans les applications Modern POS pour Windows ou Android. Pour utiliser la station matérielle IPC, affectez un profil matériel à un registre qui utilise le Modern POS de l'application Windows. Créez ensuite une station matérielle du type **Dédié** pour le magasin où le registre sera utilisé. Lorsque vous démarrez Modern POS, la station matérielle IPC est active, et les périphériques de PDV configurés sont prêts à être utilisés. Si temporairement vous n'avez pas besoin du matériel local pour une raison quelconque, utilisez l'opération **Gérer les stations matérielles** pour interrompre les fonctionnalités de la station matérielle. Modern POS peut également utiliser la station matérielle IPC pour communiquer directement avec des périphériques en réseau.
 
 ### <a name="iis"></a>IIS
 
@@ -190,7 +190,11 @@ La désignation réseau des périphériques dans le profil matériel permet que 
 
 Vous pouvez spécifier l'adresse IP des périphériques réseau à deux endroits. Si le client Modern POS Windows utilise un seul ensemble de périphériques réseau, vous devez définir les adresse IP de ces périphériques à l'aide de l'option **Configuration IP** dans le volet Actions pour le registre lui-même. Dans le cas de périphériques réseau qui doivent être partagés entre les registres de PDV, un profil matériel ayant des périphériques réseau attribués peut être mis en correspondance directement avec une station matérielle partagée. Pour affecter les adresse IP, sélectionnez la station matérielle dans la page **Magasins de vente au détail**, puis utilisez l'option **Configuration IP** dans la section **Stations matérielles** pour spécifier les périphériques réseau affectés à cette station matérielle. Pour les stations matérielles qui n'ont que des périphériques réseau, vous n'avez pas à déployer la station matérielle elle-même. Dans ce cas, la station matérielle est requise uniquement pour regrouper conceptuellement les périphériques adressables en réseau en fonction de leur emplacement dans le magasin de vente au détail.
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS pour iOS et Modern POS pour Android
+#### <a name="modern-pos-for-android"></a>Modern POS pour Android
+
+À partir de la version 8.1.3 de Dynamics 365 for Retail, l'application Modern POS pour Android inclut une station matérielle IPC intégrée. Cette station matérielle prend en charge la communication avec les imprimantes réseau et les connecteurs de paiement. Pour plus d'informations, consultez l'article [Documentation de l'application hybride pour Android](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+
+#### <a name="cloud-pos-and-modern-pos-for-ios"></a>PDV cloud et Modern POS pour iOS
 
 La logique qui gère les périphériques connectés physiquement ceux qui sont adressables en réseau est contenue dans la station matérielle. Par conséquent, pour tous les clients POS, à l'exception de Modern POS pour Windows, une station matérielle IIS doit être déployée et active pour permettre au POS de communiquer avec les périphériques, indépendamment du fait que ces périphériques sont connectés physiquement à une station matérielle ou adressés sur le réseau.
 
@@ -222,9 +226,9 @@ Le tableau suivant indique les topologies et les scénarios de déploiement pris
 | Client      | Station matérielle IPC | Station matérielle IIS |
 |-------------|----------------------|----------------------|
 | Application Windows | Oui                  | Oui                  |
-| PDV Cloud   | N°                   | Oui                  |
-| Android     | N°                   | Oui                  |
-| iOS         | N°                   | Oui                  |
+| PDV Cloud   | Non                   | Oui                  |
+| Android     | Oui                  | Oui                  |
+| iOS         | Non                   | Oui                  |
 
 ### <a name="network-peripherals"></a>Périphériques réseau
 
@@ -233,9 +237,9 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 | Client      | Station matérielle IPC | Station matérielle IIS |
 |-------------|----------------------|----------------------|
 | Application Windows | Oui                  | Oui                  |
-| PDV Cloud   | N°                   | Oui                  |
-| Android     | N°                   | Oui                  |
-| iOS         | N°                   | Oui                  |
+| PDV Cloud   | Non                   | Oui                  |
+| Android     | Oui                  | Oui                  |
+| iOS         | Non                   | Oui                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Types de périphériques pris en charge par type de station matérielle
 
@@ -661,14 +665,15 @@ Les périphériques suivants ont été testés à l'aide de la station matériel
 
 #### <a name="printer"></a>Imprimante
 
-| Fabricant | Modèle    | Interface | Commentaires                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Personnalisée    | Connecté via le réseau   |
-| Star         | mPOP     | OPOS      | Connecté via Bluetooth |
-| HP           | F7M67AA  | OPOS      | Alimenté par USB             |
+| Fabricant | Modèle      | Interface | Commentaires                |
+|--------------|------------|-----------|-------------------------|
+| Epson        | Tm-T88IV   | OPOS      |                         |
+| Epson        | TM-T88V    | OPOS      |                         |
+| Epson        | ePOS-Print | Personnalisée    | Connecté via le réseau   |
+| Star         | TSP650II   | OPOS      |                         |
+| Star         | TSP650II   | Personnalisée    | Connecté via le réseau   |
+| Star         | mPOP       | OPOS      | Connecté via Bluetooth |
+| HP           | F7M67AA    | OPOS      | Alimenté par USB             |
 
 #### <a name="bar-code-scanner"></a>Lecteur de codes-barres
 
@@ -688,11 +693,12 @@ Les périphériques suivants ont été testés à l'aide de la station matériel
 
 #### <a name="payment-terminal"></a>Terminal de paiement
 
-| Fabricant | Modèle | Interface | Commentaires                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement                                |
-| VeriFone     | MX925 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
-| VeriFone     | MX915 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
+| Fabricant | Modèle        | Interface | Commentaires                                                                       |
+|--------------|--------------|-----------|--------------------------------------------------------------------------------|
+| Equinox      | L5300        | Personnalisée    | Nécessite la personnalisation du connecteur de paiement                                |
+| VeriFone     | MX925        | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
+| VeriFone     | MX915        | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
+| Verifone     | Voir les commentaires | Adyen     | Le connecteur Adyen prend en charge tous les périphériques répertoriés [ici](https://www.adyen.com/pos-payments/terminals) |
 
 #### <a name="cash-drawer"></a>Tiroir-caisse
 

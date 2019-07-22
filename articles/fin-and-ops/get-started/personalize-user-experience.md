@@ -3,7 +3,7 @@ title: Personnaliser l'expérience de l'utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser Microsoft Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 05/17/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
-ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
+ms.openlocfilehash: 51c4cbbba36ed4c93fbbba907031023060d51495
+ms.sourcegitcommit: 0273905ceb371ba17d3a37d690e1f568aa968b4f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620012"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625009"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l'expérience de l'utilisateur
 
@@ -169,6 +169,6 @@ Les utilisateurs ayant des droits d'administrateur peuvent également gérer les
 
 Lorsque vous personnalisez le paramétrage des dimensions de stock sur une page, tenez compte des paramètres qui ont été créés à l'aide de l'option **Afficher les dimensions**. Par exemple, vous utilisez la personnalisation pour masquer une colonne de la dimension de stock Numéro de lot, mais la colonne s'affiche à la prochaine ouverture de la page. Ce comportement se produit car les paramètres **Affichage des dimensions** contrôlent les colonnes de la dimension de stock affichées.
 
-Les paramètres **Affichage des dimensions** s'appliquent à toutes les pages et remplacent tout paramétrage personnalisé des champs de la dimension de stock sur des pages individuelles.
+Les paramètres **Affichage des dimensions** s'appliquent à toutes les pages et remplacent tout paramétrage personnalisé des champs de la dimension de stock sur chaque page individuelle.
 
-Par conséquent, dans l'exemple précédent, si vous ne souhaitez pas afficher la colonne de la dimension de stock Numéro de lot, vous devez désactiver cette dimension dans le cadre de l'option **Afficher les dimensions** pour la table. Cette modification s'applique non seulement à une page spécifique, mais aussi à l'ensemble des pages.
+Par conséquent, dans l'exemple précédent, si vous ne souhaitez pas afficher la colonne de la dimension de stock Numéro de lot sur une page, vous devez désactiver cette dimension dans le cadre de l'option **Afficher les dimensions** pour cette page.

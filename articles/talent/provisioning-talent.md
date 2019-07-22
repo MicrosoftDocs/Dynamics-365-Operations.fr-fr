@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
-ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
+ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576919"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624605"
 ---
 # <a name="provision-talent"></a>Mettre en service Talent
 
@@ -48,6 +48,8 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Talen
 
 1. Dans votre projet LCS, sélectionnez la vignette **Gestion de l'application Talent**.
 2. Indiquez s'il s'agit d'une instance de bac à sable ou de production de Talent. Des fonctionnalité d'aperçu anticipées peuvent être disponibles dans les instances de Sandbox pour permettre des commentaire et des test anticipés. 
+    > [!NOTE]
+    > Le type d'instance Talent est distincte du type d'instance de l'environnement PowerApps, que vous définissez dans le Centre d'administration PowerApps.
 3. Sélectionnez l'option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même ensemble de données de démonstration que celui utilisé dans l'environnement de test de Talent. Cette option est utile pour les environnements de démonstration ou de formation à long terme, et ne doit jamais être utilisée pour les environnements de production.  Notez que vous devez sélectionner cette option lors du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
 4. Talent est toujours mis en service dans un environnement Microsoft PowerApps pour permettre l'intégration et l'extensibilité des applications PowerApps. Lisez la section « Sélectionnant d'un environnement PowerApps » de cette rubrique avant de continuer. Si vous n'avez pas déjà un environnement PowerApps, sélectionnez Gérer les environnements dans LCS ou accédez au centre d'administration de PowerApps. Puis suivez les étapes pour [Créer un environnement PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 

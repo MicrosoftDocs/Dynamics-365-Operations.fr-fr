@@ -3,7 +3,7 @@ title: Page d'accueil des déploiements sur site
 description: Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site.
 author: kfend
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 01e29bb56f03223ff90343186a2e4cf3de13a27d
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550950"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702721"
 ---
 # <a name="on-premises-deployments-home-page"></a>Page d'accueil des déploiements sur site
 
@@ -67,6 +67,7 @@ Vous pouvez déployer Microsoft Dynamics 365 for Finance and Operations (local).
 
 ## <a name="other-resources"></a>Ressources connexes
 - [Résoudre les problèmes de déploiements sur site](troubleshoot-on-prem.md)
+- [Rotation du certificat](certificate-rotation-on-prem.md)
 - [Diagnostics sur site](on-premises-diagnostics.md)
 - [Fonctionnalités non implémentées dans les déploiements sur site](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Fonctions supprimées ou obsolètes](../migration-upgrade/deprecated-features.md)

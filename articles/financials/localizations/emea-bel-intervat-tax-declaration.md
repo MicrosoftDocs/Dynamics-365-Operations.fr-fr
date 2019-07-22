@@ -17,12 +17,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: c7c30076abfdfe0758d751559257c0c557ca146e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84439393c557274c950a2d98dc46dce081a71390
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563682"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624922"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -128,11 +128,6 @@ Pour entrer la correction, cliquez sur **Corrections de taxe** &gt; **Ajustement
 | Montant            | Entrez le montant de la correction.                                                                                                                                                              |
 
 
-
-<a name="additional-resources"></a>Ressources supplémentaires
---------
-
-[Codes déclaration de taxe Belgique](http://www.taxexpert.be/bestand/Betekenis%20vakken%20BTW-aangifte.pdf)
 
 
 
