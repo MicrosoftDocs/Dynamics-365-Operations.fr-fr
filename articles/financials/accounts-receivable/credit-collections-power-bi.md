@@ -3,7 +3,7 @@ title: Contenu Power BI Gestion des crédits et des relances
 description: Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des crédits et des relances. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547230"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702770"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenu Power BI Gestion des crédits et des relances
 
@@ -42,7 +42,17 @@ Tous les montants sont indiqués dans la devise système. Vous pouvez définir l
 
 Par défaut, les données liées aux crédits et aux relances pour la société actuelle s'affichent. Pour afficher les données entre toutes les sociétés, affectez le droit **CustCollectionsBICrossCompany** au rôle.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Paramétrage requis pour afficher le contenu de Power BI
+
+Le paramétrage suivant doit être réalisé pour que les données s'affichent dans les visuels **Crédits et relances client** de Power BI.
+
+1. Accédez à **Administration système > Paramétrage > Paramètres système** pour définir la **Devise système** et le **Taux de change système**.
+2. Accédez à **Comptabilité > Configuration > Comptabilité** et définissez la **Devise comptable** et le **Type de taux de change**.
+3. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
+4. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **CustCollectionsBIMeasurements**.
+
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
+
 Le contenu Power BI **Gestion des crédits** et des relances s'affiche dans l'espace de travail **Crédits et relances client**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
@@ -63,28 +73,3 @@ Le contenu Power BI **CustCollectionsBICrossCompany** inclut un état composé d
 | Lettres de relance         | <ul><li>Montants de code relance</li><li>Détails sur les montants de code relance</li><li>Montants de lettres de relance par société</li><li>Montant de lettres de relance par groupe de clients</li><li>Montant de lettres de relance par région</li></ul> |
 
 Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Vous pouvez également utiliser la fonctionnalité Exporter les données sous-jacentes pour exporter les données sous-jacentes qui sont résumées dans une visualisation.
-
-## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-
-Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestion des crédits et des relances**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Vue d'ensemble de l'intégration de Power BI au magasin d'entité](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Entité                    |      Mesures globales clés      |             Source de données              |                           Champ                            |                                    Description                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Le nombre d'activités fermées et le temps moyen pour fermer ces activités.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Le nombre d'activités en cours.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             Somme des soldes chronologiques.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Montants en retard.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Le nombre de dossiers clôturés et le temps moyen pour fermer ces dossiers.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Le nombre de dossiers en cours.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Nombre de lettres de relances en cours.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Solde des lettres de relance validées.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Solde des transactions avec le statut de relance.                 |
-|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Somme de l'exposition au crédit et montants que les clients dépassent par rapport à leur limite de crédit autorisé. |
-|         CustCollectionsBICustOnHold         |               Bloqué                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Nombre de clients qui sont en attente.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Ventes quotidiennes restantes pendant 30 jours.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Somme des paiements attendus dans l'année suivante.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Nombre de notes d'intérêt qui ont été créées.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Nombre total de commandes client qui sont en attente.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Somme des transactions annulées.                 |
-

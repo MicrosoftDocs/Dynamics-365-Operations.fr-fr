@@ -3,7 +3,7 @@ title: Opérations du point de vente (PDV), en ligne et hors connexion
 description: Cette rubrique fournit les détails relatifs aux opérations du PDV dans Microsoft Dynamics 365 for Retail. Elle spécifie où dans l'application les opérations peuvent être invoquées, et si elles sont disponibles dans le mode hors ligne.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505094"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625663"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -159,9 +159,9 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 114 | Transaction de retour | Permet de rappeler une transaction précédente par son numéro de ticket de caisse pour retourner certains ou tous les produits. | Oui | Oui | Oui | Oui§ | N° |
 | 1 211 | Mise en coffre-fort | Permet de déplacer l'argent de la caisse vers un coffre-fort. | Oui | Oui | Oui | Oui | N° |
 | 516 | Facture client | Cette opération permet au client d'effectuer des paiements pour la facture client sélectionnée. | Oui | Oui | N° | N° | N° |
-| 502 | Commercial | Cette opération permet à l'utilisateur de définir la valeur **Acheteur** sur une commande client pour des commandes client dans le PDV. | Oui | Oui | N° | Oui\* | N° |
-| 2 000 | Gestion du programme | Cette opération permet aux utilisateurs de créer, de modifier ou d'afficher les plannings des employés. | Oui | Oui | Oui | N° | N° |
-| 2 001 | Demandes de programme | Cette opération permet à l'utilisateur de demander des congés, de changer d'équipe ou d'offrir des équipes à d'autres employés. | Oui | Oui | Oui | N° | N° |
+| 502 | Commercial | Cette opération permet à l'utilisateur de définir la valeur **Acheteur** sur une commande client pour des commandes client dans le PDV. | Oui | Oui | Non | Oui\* | Non |
+| 2000 | Gestion du programme | Cette opération n'est pas encore prise en charge. | Oui | Oui | Oui | Non | Non |
+| 2001 | Demandes de programme | Cette opération n'est pas encore prise en charge. | Oui | Oui | Oui | Non | Non |
 | 622 | Rechercher des commandes | Cette opération permet aux utilisateurs de préconfigurer des boutons du PDV pour effectuer des recherches par article, client ou catégorie. | Oui | Oui | Oui | Oui | N° |
 | 1 213 | Rechercher l'adresse d'expédition | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
 | 709 | Sélectionner une station matérielle | Cette opération permet à l'utilisateur de sélectionner une station matérielle dans une liste de stations matérielles disponibles. | Oui | Oui | Oui | Oui | N° |

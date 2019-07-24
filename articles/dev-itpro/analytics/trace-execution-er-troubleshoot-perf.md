@@ -3,7 +3,7 @@ title: Suivez l'exécution du format d'ER pour résoudre les problèmes de perfo
 description: Cette rubrique fournit des informations sur l'utilisation de la fonctionnalité de suivi des performances dans la gestion des états électroniques (ER) pour résoudre les problèmes de performances.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: aa71db2752889bc905c22bab1cf2fa46d7ee07c7
-ms.sourcegitcommit: 67d00b95952faf0db580d341249d4e50be59119c
+ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
+ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576544"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "1703873"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Suivez l'exécution des formats d'ER pour résoudre les problèmes de performances
 
@@ -346,3 +346,29 @@ Si vous utilisez une de ces versions de Finance and Operations, vous pouvez anal
 Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cette rubrique pour générer un nouveau suivi des performances.
 
 Notez que le navigateur web fournit un fichier zip à télécharger. Ce fichier contient le suivi des performances dans le format PerfView. Vous pouvez ensuite utiliser l'outil d'analyse des performances PerfView pour analyser les détails de l'exécution de format ER.
+
+![Suivre les informations pour le format ER exécuté dans PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+
+## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utiliser des outils externes pour examiner une trace d'exécution comprenant des requêtes de base de données
+
+En raison des améliorations apportées à la structure ER, le suivi des performances généré dans le format PerfView offre désormais plus de détails sur l'exécution du format ER. Dans la version Microsoft Dynamics 365 for Finance and Operations 10.0.4 (juillet 2019), ce suivi peut également inclure des détails sur les requêtes SQL exécutées envers la base de données d'application.
+
+### <a name="configure-user-parameters"></a>Configurer les paramètres utilisateur
+
+1. Dans Finance and Operations, accédez à **Administration d'organisation** \> **Gestion des états électroniques** \> **Configurations**.
+2. Dans la page **Configurations**, dans le volet Actions, sous l'onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Paramètres utilisateur**.
+3. Dans la boîte de dialogue **Paramètres utilisateur**, dans la section **Suivi d'exécution**, définissez les paramètres suivants :
+
+    - Dans le champ **Format du suivi d'exécution**, sélectionnez **PerfView XML**.
+    - Définissez l'option **Collecter les statistiques sur les requêtes** sur **Oui**.
+    - Définissez l'option **Suivre les requêtes** sur **Oui**.
+
+    ![Boîte de dialogue Paramètres utilisateur dans Finance and Operations](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+
+### <a name="run-the-er-format"></a>Exécuter le format ER
+
+Répétez les étapes de la section [Exécuter le format ER](#run-format) plus haut dans cette rubrique pour générer un nouveau suivi des performances.
+
+Notez que le navigateur web fournit un fichier zip à télécharger. Ce fichier contient le suivi des performances dans le format PerfView. Vous pouvez ensuite utiliser l'outil d'analyse des performances PerfView pour analyser les détails de l'exécution de format ER. Ce suivi comprend désormais les détails de l'accès à la base de données SQL lors de l'exécution du format ER.
+
+![Suivre les informations pour le format ER exécuté dans PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)

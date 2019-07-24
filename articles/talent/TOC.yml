@@ -8,6 +8,16 @@
         - name: Nouveautés ou modifications dans Talent
           href: whats-new.md
           items:
+            - name: "2\_juillet\_2019"
+              href: whats-new-talent-july-2-2019.md
+            - name: "25\_juin\_2019"
+              href: whats-new-talent-june-25-2019.md
+            - name: "18\_juin\_2019"
+              href: whats-new-talent-june-18-2019.md
+            - name: "11\_juin\_2019"
+              href: whats-new-talent-june-11-2019.md
+            - name: "4\_juin\_2019"
+              href: whats-new-talent-june-4-2019.md
             - name: "28\_mai\_2019"
               href: whats-new-talent-may-28-2019.md
             - name: "21\_mai\_2019"
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: "6\_mai\_2019"
               href: whats-new-talent-may-6-2019.md
-            - name: "30\_avril\_2019"
-              href: whats-new-talent-april-30-2019.md
-            - name: "25\_avril\_2019"
-              href: whats-new-talent-april-25-2019.md
-            - name: "16\_avril\_2019"
-              href: whats-new-talent-april-16-2019.md
-            - name: "9\_avril\_2019"
-              href: whats-new-talent-april-9-2019.md
-            - name: "2\_avril\_2019"
-              href: whats-new-talent-april-2-2019.md
-            - name: "26\_mars\_2019"
-              href: whats-new-talent-march-26-2019.md
-            - name: "20\_mars\_2019"
-              href: whats-new-talent-march-20.md
-            - name: "14\_mars\_2019"
-              href: whats-new-talent-march-14.md
-            - name: "5\_mars\_2019"
-              href: whats-new-talent-march-5.md
             - name: "Nouvelles archives\_2019"
               items:
+                - name: "30\_avril\_2019"
+                  href: whats-new-talent-april-30-2019.md
+                - name: "25\_avril\_2019"
+                  href: whats-new-talent-april-25-2019.md
+                - name: "16\_avril\_2019"
+                  href: whats-new-talent-april-16-2019.md
+                - name: "9\_avril\_2019"
+                  href: whats-new-talent-april-9-2019.md
+                - name: "2\_avril\_2019"
+                  href: whats-new-talent-april-2-2019.md
+                - name: "26\_mars\_2019"
+                  href: whats-new-talent-march-26-2019.md
+                - name: "20\_mars\_2019"
+                  href: whats-new-talent-march-20.md
+                - name: "14\_mars\_2019"
+                  href: whats-new-talent-march-14.md
+                - name: "5\_mars\_2019"
+                  href: whats-new-talent-march-5.md
                 - name: "27\_février\_2019"
                   href: whats-new-talent-feb-27.md
                 - name: "14\_février\_2019"
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: Fonctionnalités de Attract
           href: attract-overview.md
+        - name: FAQ LinkedIn
+          href: attract-linkedin-faq.md
+        - name: Configurer les paramètres d'e-mail
+          href: attract-configure-email-settings.md
         - name: Créer un modèle de processus dans Attract
           href: Process-templates-Attract.md
-        - name: 'Créer, approuver et publier des postes dans Attract'
+        - name: Créer et valider des postes
           href: Creating-jobs-Attract.md
-        - name: Publier des postes sur des sites de carrière externes à partir de Attract
+        - name: Paramétrer l'intégration avec LinkedIn
+          href: attract-admin-linkedin.md
+        - name: Publier des postes sur LinkedIn à partir de Attract
+          href: attract-post-jobs-to-linkedin.md
+        - name: Publier des postes sur Broadbean à partir de Attract
           href: posting-jobs-external.md
         - name: Identifier des candidats avec les viviers de talents
           href: attract-talent-pools.md
-        - name: Identification de candidats avec LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
+        - name: Recruter des candidats avec LinkedIn Recruiter
+          href: attract-linkedin-recruiter.md
         - name: Activités dans les processus de recrutement
           href: activities-attract.md
         - name: Planification et commentaires sur les entretiens
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: Recommandations intelligentes
           href: Intelligent-Recommendations.md
-        - name: Créer une expérience d'intégration attractive
-          href: create-onboarding-experience.md
         - name: Suivre les sources pour les profils de candidat et les candidatures
           href: source-tracking.md
         - name: Utiliser les états analytiques pour obtenir des informations sur le processus de recrutement
           href: analytic-reports.md
+    - name: Accueillir les nouvelles recrues avec Onboard
+      items:
+        - name: Mise en route de Onboard
+          href: create-onboarding-experience.md
+        - name: Obtenir l'application Onboard
+          href: onboard-get-app.md
+        - name: Créer et envoyer un guide d'intégration
+          href: onboard-create-guide.md
+        - name: Créer un modèle d'intégration
+          href: onboard-create-template.md
+        - name: Modifier les guides et modèles
+          href: onboard-edit-guides-templates.md
+        - name: Partager le contenu
+          href: onboard-share-template.md
+        - name: Afficher le statut
+          href: onboard-view-status.md
+        - name: Créer une équipe de recrutement
+          href: onboard-create-team.md
     - name: Gérer votre personnel avec Core HR
       items:
         - name: Organisation du personnel
@@ -357,6 +391,8 @@
           href: corehr-custom-fields.md
     - name: Résoudre les problèmes dans Talent
       items:
+        - name: Régler les problèmes de validation des postes dans LinkedIn
+          href: attract-troubleshoot-linkedin.md
         - name: Les états analytiques ne sont pas mis à jour
           href: analytic-reports-not-updated.md
         - name: Impossible de créer un environnement dans le centre d'administration PowerApps

@@ -3,7 +3,7 @@ title: Recherche de candidats à l'aide de viviers de talents
 description: Cette rubrique explique comment créer et paramétrer des viviers de talents dans Attract.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/02/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
+ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517955"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "1711292"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Recherche de candidats à l'aide de viviers de talents
 
@@ -110,15 +110,16 @@ Tous les utilisateurs ont un point de vue commun des profils de candidats. L'ong
 
 - Vous pouvez afficher les détails du contact du candidat. Vous pouvez également modifier ou mettre à jour les informations comme vous le souhaitez à l'aide du bouton **Modifier les détails**.
 
-- Vous pouvez ajouter des balises de qualifications pour aider à identifier les qualifications d'un candidat.
-
 - Vous pouvez afficher l'historique complet de la candidature du candidat. Vous pouvez voir tous les postes auxquels le candidat a postulé dans votre organisation et le statut de ces candidatures. Si vous faites partie de l'équipe de recrutement d'un poste, vous pouvez sélectionner **Afficher** pour consulter la candidature en détail.
 
-- L'onglet **Documents** affiche tous les documents que le candidat a ajoutés depuis son profil ou lors de candidatures à un poste. Cet onglet permet de gérer les CV du candidat, ses lettres d'accompagnement, son travail de portefeuille, etc. Vous pouvez également utiliser cet onglet pour ajouter des documents.
+- L'onglet **Documents** affiche tous les documents que le candidat a ajoutés depuis son profil ou lors de candidatures à un poste. Cet onglet permet de gérer les CV du candidat, ses lettres de motivation, son portefeuille d'emploi, etc. Vous pouvez également utiliser cet onglet pour ajouter des documents.
 
     Pour afficher un document, sélectionnez le nom du document dans la liste des documents. Vous pouvez afficher les documents Microsoft Word dans l'application à l'aide de Microsoft Office 365. Vous pouvez également télécharger les documents sur votre ordinateur local à l'aide de l'option **Télécharger** pour chaque document.
 
 - L'onglet **LinkedIn** affiche les informations LinkedIn du candidat. Pour utiliser cet onglet, vous devez connecter votre compte LinkedIn dans les paramètres utilisateur, et la connexion à LinkedIn Recruiter de votre environnement doit être établie. Pour plus d'informations, voir [Approvisionnement avec LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+
+> [!NOTE]
+> Seuls les candidats peuvent actualiser leurs qualifications, leur historique de formation et leur expérience professionnelle.
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Ajouter des candidats d'un vivier de talents à un poste
 

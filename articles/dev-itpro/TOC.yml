@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: Développer et déployer les modèles personnalisés sur les environnements sur site
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: Intégration de PowerBI.com aux environnements sur site
+          href: analytics/entity-store-on-prem.md
         - name: Configurer les proxys de contrepassation pour les environnements sur site
           href: deployment/onprem-reverseproxy.md
         - name: Appliquer des mises à jour à un déploiement sur site
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: Résoudre les problèmes de déploiements sur site
           href: deployment/troubleshoot-on-prem.md
+        - name: Rotation du certificat
+          href: deployment/certificate-rotation-on-prem.md
     - name: Déployer du code personnalisé
       items:
         - name: Créer des packages déployables de modèles

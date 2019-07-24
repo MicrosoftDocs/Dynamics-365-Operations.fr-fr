@@ -3,7 +3,7 @@ title: Mises à jour réglementaires
 description: Cette rubrique fournit une liste des mises à jour réglementaires prévues et publiées pour Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593341"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624309"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -66,6 +66,13 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 |      Facture en attente            |   10.0.3      | Pologne     |   Factures SAF (JPK_FA) v.2 depuis le 1er juillet 2019  |
 |      Facture en attente            |   10.0.3      | Brésil   |   Les ajustements des document fiscaux ICMS activent la table 5.2   |
 |      Facture en attente            |   10.0.3      | Brésil    |   N-F-e Décret 54.308/18 (RS)   |
+  | Facture en attente            |   10.0.4      | Brésil    |   Prochain document fiscal 66   |
+   | Facture en attente            |   10.0.4      | Brésil    |   NF-e et NFC-e - Résolution 13/2019 et Ordonnance SUCIEF 55/2019- RJ - nouvelles conditions des balises d'exonération dans NF-e.   |
+   | Facture en attente            |   10.0.4      | Inde   |   Affichage de « Lieu d'approvisionnement » au lieu de « État » dans la facture fiscale GST  |
+   | Facture en attente            |   10.0.4      | Mexique   |  Déclaration de tiers DIOT : modifications de la mise en page 2019   |
+   | Facture en attente            |   10.0.4      | Brésil    |   NF-e ICMS-ST - Ordonnance CAT 42/18 pour l'état SP - CAT 42/18
+   | Facture en attente            |   10.0.4      | Brésil    |   NF-e Décret 54.308/18 - RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

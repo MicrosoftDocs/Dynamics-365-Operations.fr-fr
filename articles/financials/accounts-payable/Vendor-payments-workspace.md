@@ -3,7 +3,7 @@ title: Espace de travail des paiements fournisseur
 description: Cette rubrique fournit des informations sur l'espace de travail Paiements fournisseur. L'espace de travail Paiements fournisseur affiche les informations associées au traitement des paiements fournisseur.
 author: abruer
 manager: AnnBe
-ms.date: 05/09/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6f5ffe65b2f9be7423f1fe420594c936e15550fb
+ms.sourcegitcommit: 6f0e5bf82a5f61bab52c3cf4c82849fae5c5d50b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509220"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702933"
 ---
 # <a name="vendor-payments-workspace"></a>Espace de travail des paiements fournisseur
 
 [!include [banner](../includes/banner.md)]
 
 L'espace de travail **Paiements fournisseur** affiche les informations associées au traitement des paiements fournisseur. Cet espace de travail contient une vue **Mon travail** et une page **Analyses**. La vue **Mon travail** affiche les vignettes récapitulatives, les grilles de transaction fournisseur et les informations fournisseur associées. La page **Analyses** utilise les fonctionnalités de Microsoft Power BI pour afficher les éléments visuels associés aux paiements fournisseur.
+
+## <a name="setup-needed-to-view-power-bi-content"></a>Paramétrage requis pour afficher le contenu de Power BI
+
+Le paramétrage suivant doit être réalisé pour que les données s'affichent dans les visuels **Paiements fournisseur** de Power BI.
+1. Accédez à **Administration système > Paramétrage > Paramètres système** pour définir la **Devise système** et le **Taux de change système**.
+2. Accédez à **Comptabilité > Configuration > Comptabilité** pour définir la **Devise comptable** et le **Type de taux de change**. 
+2. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
+3. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **VendPaymentBIMeasure**. 
 
 ## <a name="my-work-view"></a>Vue Mon travail
 

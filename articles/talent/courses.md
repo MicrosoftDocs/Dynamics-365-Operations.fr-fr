@@ -3,7 +3,7 @@ title: Paramétrer les cours de formation
 description: Les administrateurs des ressources humaines et les responsables peuvent utiliser les fonctionnalités du cours pour tenir à jour des informations sur la formation qui est offerte aux employés.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 83f88d17c744bb53dad975b77d169a09375d20d1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 26e76d68c6d5c8bd965e65e65d57f239fb8a2918
+ms.sourcegitcommit: 87e8b811680b1f87a973ce1680f07d657fa23046
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517949"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701388"
 ---
 # <a name="set-up-training-courses"></a>Paramétrer les cours de formation
 
@@ -128,12 +128,12 @@ Le tableau suivant répertorie les statuts de cours possibles et les actions que
 </table>
 
 ## <a name="course-participants"></a>Participants du cours
-Les participants du cours sont des employés, des candidats ou des personnes à contacter qui prennent part à un cours de formation ou un événement. Vous pouvez inscrire des participants aux cours actifs. Le nombre minimal et maximal de participants que vous pouvez inscrire à un cours est défini dans l'organisateur **General** de la page **Cours**.
+Les participants du cours sont des employés qui prennent part à un cours de formation ou un événement. Vous pouvez inscrire des participants aux cours actifs. Le nombre minimal et maximal de participants que vous pouvez inscrire à un cours est défini dans l'organisateur **General** de la page **Cours**.
 
 <a name="workflow"></a>Workflow
 --------
 
-Les employés qui s'inscrivent à un cours via la page **Libre service employé** peuvent faire suivre leur inscription via le workflow pour approbation.  Un workflow peut être affecté à un cours dans l'organisateur **Général** de la page **Cours**.
+Les employés qui s'inscrivent à un cours via la page **Libre service employé** peuvent faire suivre leur inscription via le workflow pour approbation. Vous pouvez affecter un workflow à un cours dans l'organisateur **Général** de la page **Cours**.
 
 
 

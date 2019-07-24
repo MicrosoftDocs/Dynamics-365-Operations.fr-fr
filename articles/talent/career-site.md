@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518033"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729701"
 ---
 # <a name="career-site-functionality-in-attract"></a>Fonctionnalité de site de carrière dans Attract
 
@@ -48,11 +48,14 @@ Pour définir des valeurs pour les éléments suivants, connectez-vous à Attrac
  
 Pour définir des valeurs pour les éléments suivants, connectez-vous à Attract en tant qu'administrateur, sélectionnez **Centre d'administration** dans le menu **Paramètres**, puis sélectionnez l'onglet **Gestion du site de carrière**.
 
--   **Optimisation du moteur de recherche** - Lorsque cette option est activée, tous les emplois publics publiés sur le site de carrière d'Attract peuvent être trouvés à l'aide des moteurs de recherche comme Bing et Google.
+-   **Optimisation du moteur de recherche** - Lorsque cette option est activée, tous les emplois publics publiés sur le site de carrière d'Attract peuvent être trouvés à l'aide des moteurs de recherche comme Bing et Google. 
 
     > [!NOTE] 
     > Il se peut qu'il y ait un temps d'attente entre l'activation de ce paramètre et l'apparition des résultats de recherche, selon le moteur de recherche que vous utilisez.
-         
+    
+-   **Conditions générales** - Une fois activées, tous les candidats doit accepter les conditions générales de l'organisation lorsqu'ils postulent à un emploi. L'administrateur d'Attract peut configurer son propre texte de consentement, ainsi que le lien vers la page Conditions générales. 
+
+        
 ## <a name="career-site-urls"></a>URL du site de carrière
 
 La liste suivante contient les URL de site de carrière couramment utilisées et comment y accéder.

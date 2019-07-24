@@ -3,7 +3,7 @@ title: Vue d'ensemble des factures fournisseur
 description: Cette rubrique fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques.
 author: abruer
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
-ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
+ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
+ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1618271"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625077"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d'ensemble des factures fournisseur
 
@@ -91,13 +91,6 @@ Vous pouvez utiliser la page **Récupérer les factures fournisseur** pour récu
 
 Vous pouvez accéder à la page **Récupérer les factures fournisseur** uniquement si vous disposez du privilège et du droit de sécurité **Récupérer les factures fournisseur en cours de utilisation**. En outre, le paramètre **Autoriser la récupération des factures fournisseur** de la page **Paramètres de la comptabilité fournisseur** doit être activé.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Réinitialiser le statut de workflow pour les factures fournisseur d'Irrécupérable à Brouillon
-
-Une instance de workflow arrêtée en raison d'une erreur irrécupérable aura le statut de workflow de **Irrécupérable**. Lorsque le statut d'un workflow de facture fournisseur est **Irrécupérable**, vous pouvez le réinitialiser sur **Brouillon**. Vous pouvez ensuite modifier la facture fournisseur. Cette fonctionnalité est disponible que si le paramètre **Réinitialiser le statut de workflow pour les factures fournisseur d'Irrécupérable à Brouillon** sur la page **Gestion des fonctionnalités** est activé.
-
-Vous pouvez utiliser la page **Réinitialiser le statut de workflow pour les factures fournisseur** pour réinitialiser le statut de workflow sur **Brouillon**. Vous pouvez ouvrir cette page depuis la navigation **Tâche périodique**. La page présente toutes les factures fournisseur avec le statut de workflow de **Irrécupérable** dans l'entité juridique actuelle. Elle présente également l'utilisateur qui a envoyé chaque facture au workflow et l'identificateur de facture, et fournit un lien vers l'historique du workflow. Pour réinitialiser le statut de workflow sur **Brouillon**, sélectionnez une ou plusieurs factures, puis sélectionnez **Mettre à jour en Brouillon**. Une fois le statut du workflow réinitialisé sur **Brouillon**, il devient disponible pour modifier sur la page **Facture fournisseur**.
-
-Vous pouvez accéder à la page **Réinitialiser le statut de workflow pour les factures fournisseur** que si le droit de sécurité **Maintenir le statut du workflow de facture fournisseur** et le privilège **Réinitialiser le statut du workflow de facture fournisseur** vous sont affectés.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

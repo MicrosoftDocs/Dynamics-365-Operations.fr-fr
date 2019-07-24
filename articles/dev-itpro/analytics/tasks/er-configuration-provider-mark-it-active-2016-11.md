@@ -1,9 +1,9 @@
 ---
-title: Créer des fournisseurs de configuration et les marquer comme actifs
-description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut créer un fournisseur de configuration pour la génération d'états électroniques (ER).
+title: Créer des fournisseurs de configuration et les marquer comme actif
+description: Cette rubrique explique comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut créer un fournisseur de configuration pour la génération d'états électroniques (ER) dans Dynamics 365 for Finance and Operations.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,33 +16,31 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e02cd51478528db56a4f50b134fabf7f9e1dc8ea
+ms.sourcegitcommit: a1354c6218b328d4d7dcc149d1339a7af10c48bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595393"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "1723118"
 ---
-# <a name="create-configuration-providers-and-mark-them-as-active"></a>Créer des fournisseurs de configuration et les marquer comme actifs
+# <a name="create-configuration-providers-and-mark-them-as-active"></a>Créer des fournisseurs de configuration et les marquer comme actif
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut créer un fournisseur de configuration pour la génération d'états électroniques (ER). Chaque configuration ER fait référence au fournisseur en tant que l'auteur de la configuration. Dans cet exemple, vous allez créer un fournisseur de configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les fournisseurs de configurations ER sont partagés entre toutes les sociétés.
-
+Cette rubrique explique comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut créer un fournisseur de configuration pour la génération d'états électroniques (ER) dans Dynamics 365 for Finance and Operations. Chaque configuration ER fait référence au fournisseur en tant que l'auteur de la configuration. Dans cet exemple, vous allez créer un fournisseur de configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les fournisseurs de configurations ER sont partagés entre toutes les sociétés.
 
 ## <a name="create-a-provider"></a>Créer un fournisseur
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-2. Cliquez sur Fournisseurs de configuration.
-3. Cliquez sur Nouveau.
-    * Un enregistrement fournisseur a un nom et une URL uniques. Examinez le contenu de cette page et ignorez cette procédure si un enregistrement pour Litware, Inc. (https://www.litware.com) existe déjà.  
-4. Tapez Litware, Inc. dans le champ Nom.
-    * Litware, Inc.  
-5. Dans le champ Adresse Internet, tapez « https://www.litware.com ».
-    * https://www.litware.com  
-6. Cliquez sur Enregistrer.
-7. Fermez la page.
+1. Accédez au **volet de navigation** dans le coin supérieur gauche et sélectionnez **Administration d'organisation**.
+2. Accédez à **Espaces de travail > États électroniques**.
+3. Accédez à **Liens connexes > Fournisseurs de configuration**.
+4. Sélectionnez **Nouveau**.
+    - Un enregistrement fournisseur a un nom et une URL uniques. Examinez le contenu de cette page et ignorez cette procédure si un enregistrement pour Litware, Inc. (https://www.litware.com) existe déjà.  
+5. Dans le champ Nom, saisissez `Litware, Inc.`.
+6. Dans le champ Adresse Internet, tapez « `https://www.litware.com` ».
+7. Sélectionnez **Enregistrer**.
+8. Fermez la page.
 
 ## <a name="select-as-an-active-provider"></a>Sélectionner en tant que fournisseur actif
 1. Sélectionnez le fournisseur Litware, Inc. .
-2. Cliquez sur Activer.
+2. Sélectionnez **Activer**.
 
