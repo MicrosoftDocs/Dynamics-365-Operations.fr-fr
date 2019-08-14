@@ -106,10 +106,28 @@
           items:
             - name: Référence du langage X++
               href: dev-ref/xpp-language-reference.md
-            - name: Variables et types de données X++
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'Instructions, boucles et gestion des exceptions X++'
-              href: dev-ref/xpp-statements-loops.md
+            - name: Variables et types de données
+              items:
+                - name: Variables
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: Types de données primitifs
+                  href: dev-ref/xpp-data-primitive.md
+                - name: Types de données composites
+                  href: dev-ref/xpp-data-composite.md
+                - name: Classes de relance
+                  href: dev-ref/xpp-data-collection.md
+                - name: Extended Data Types
+                  href: dev-ref/xpp-data-edt.md
+            - name: 'Instructions, boucles et gestion des exceptions'
+              items:
+                - name: 'Commentaires, utilisation et impression'
+                  href: dev-ref/xpp-statements-loops.md
+                - name: Instructions conditionnelles
+                  href: dev-ref/xpp-conditional.md
+                - name: Instructions en boucle
+                  href: dev-ref/xpp-loops.md
+                - name: Traitement des exceptions
+                  href: dev-ref/xpp-exceptions.md
             - name: Exception X++ des erreurs de connexion SQL
               href: dev-ref/sql-connection-error.md
             - name: Opérateurs X++
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: Sélection et manipulation de données X++
               href: dev-ref/xpp-data-query.md
+            - name: Accès aux données à l'aide de l'API SysDa
+              href: dev-ref/sysda.md
             - name: Macros X++
               href: dev-ref/xpp-macros.md
             - name: Classes d'attribut X++
@@ -438,6 +458,10 @@
           href: user-interface/page-layout.md
         - name: Police Symbol de Dynamics
           href: user-interface/symbol-font.md
+        - name: Vues enregistrées
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: Écrans de version utilisant entièrement des vues enregistrées
+          href: user-interface/understanding-saved-views.md
         - name: Écrans de test utilisant des modèles personnalisés
           href: user-interface/testing-forms-custom-patterns.md
         - name: Créer des URL sécurisées à partager (liens profonds)
@@ -496,7 +520,7 @@
           href: user-interface/messaging-api-center-bar-details.md
         - name: 'Centre de message, barre de message et FAQ de détails d''un message'
           href: user-interface/messaging-user.md
-    - name: Recommandations concernant le modèle d'écran principal
+    - name: Recommandations concernant le modèle d'écran
       items:
         - name: Modèles d'écran pour les écrans migrés
           href: user-interface/select-form-pattern.md
@@ -946,7 +970,7 @@
     - name: Déploiement Cloud
       href: deployment/cloud-deployment-overview.md
       items:
-        - name: Déploiement libre service
+        - name: Déploiement libre-service
           href: deployment/infrastructure-stack.md
           items:
             - name: Déployer un nouvel environnement
@@ -961,7 +985,7 @@
               href: deployment/updateenvironment-newinfrastructure.md
             - name: Résoudre les problèmes liés aux environnements déployés par le biais du déploiement libre-service
               href: deployment/troubleshoot-newinfrastructure.md
-        - name: Terminer l'intégration de Azure Resource Manager
+        - name: Terminer l'intégration d'Azure Resource Manager
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute et Finance and Operations
           href: deployment/expressroute.md
@@ -1091,7 +1115,7 @@
       items:
         - name: Préparer la migration du code
           href: migration-upgrade/prepare-migration.md
-        - name: Configurer la mise en correspondance de Azure DevOps
+        - name: Configurer la mise en correspondance d'Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: Modèle fractionné
           href: dev-tools/model-split.md
@@ -1103,7 +1127,7 @@
           href: migration-upgrade/upgrade-latest-update.md
         - name: Chemins vers une version
           items:
-            - name: Mise à niveau en libre service vers la version la plus récente
+            - name: Mise à niveau en libre-service vers la version la plus récente
               href: migration-upgrade/self-service-upgrade.md
             - name: Recréer et mettre à jour vers la version la plus récente
               href: migration-upgrade/appupdate-80-81.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: Correctifs
       items:
-        - name: Télécharger des correctifs à partir de Lifecycle Services
+        - name: Obtenir des mises à jour à partir de Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: Appliquer des mises à jour à des environnements cloud
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: Exporter des utilisateurs B2B vers Azure AD
       href: sysadmin/implement-b2b.md
+    - name: Définir le délai d'inactivité de session
+      href: sysadmin/session-idle-timeout.md
     - name: Sécurité basée sur les rôles
       href: sysadmin/role-based-security.md
       items:
@@ -1192,7 +1218,7 @@
           href: sysadmin/activeperiod.md
         - name: Rôle de sécurité Gestionnaire des traitements par lots
           href: sysadmin/runby.md
-        - name: Traitement par lots de gérer la defragmentation de l'index SQL
+        - name: Traitement par lots de gérer la défragmentation de l'index SQL
           href: sysadmin/batch-job-SQL-defragmentation.md
         - name: Configurer des alertes de traitement par lots
           href: sysadmin/alerts.md
@@ -1310,6 +1336,8 @@
   items:
     - name: Obtenir de l'aide sur Finance and Operations et Lifecycle Services
       href: lifecycle-services/lcs-support.md
+    - name: "Vue d'ensemble du support technique de Dynamics\_365"
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: Obtenir de l'aide sur Finance and Operations exploité par 21Vianet en Chine
       href: lifecycle-services/21vianet-support.md
     - name: Enregistrer un ticket d'assistance Premier
