@@ -27,6 +27,8 @@
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
                 - name: Finance and Operations exploité par 21Vianet en Chine
                   href: ../dev-itpro/deployment/china-local-deployment.md
+                - name: Finance and Operations en France
+                  href: ../dev-itpro/deployment/france-local-deployment.md
             - name: Disponibilité des mises à jour de service
               href: get-started/public-preview-releases.md
             - name: Acheter Finance and Operations
@@ -44,6 +46,8 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Fonctions non implémentées dans les déploiements sur site
               href: get-started/features-not-implemented-on-prem.md
+            - name: Fonctions en version préliminaire dans Finance and Operations version 10.0.5 (octobre 2019)
+              href: get-started/whats-new-changed-10-0-5.md
             - name: "Finance and Operations version\_10.0.4 (juillet\_2019)"
               href: get-started/whats-new-changed-10-0-4.md
             - name: "Finance and Operations version\_10.0.3 (juin\_2019)"
@@ -56,6 +60,8 @@
               href: get-started/whats-new-changed-10.md
             - name: "Finance and Operations version\_8.1.3 (janvier\_2019)"
               href: get-started/whats-new-changed-8-1-3.md
+            - name: Fonctionnalités d'aperçu dans Platform update 29 (octobre 2019)
+              href: get-started/whats-new-platform-update-29.md
             - name: "Platform update 28 (juillet\_2019)"
               href: get-started/whats-new-platform-update-28.md
             - name: "Platform update 27 (juin\_2019)"
@@ -156,6 +162,8 @@
               href: get-started/navigation-search.md
             - name: Personnaliser l'expérience de l'utilisateur
               href: get-started/personalize-user-experience.md
+            - name: Vues enregistrées
+              href: get-started/saved-views.md
             - name: Créer et utiliser des champs personnalisés
               href: get-started/user-defined-fields.md
             - name: Incorporer les applications PowerApps
@@ -267,14 +275,14 @@
           items:
             - name: Utiliser les événements commerciaux avec Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-    - name: Conformité
-      items:
-        - name: Règles de stratégie d'audit
-          href: ../financials/general-ledger/audit-policy-rules.md
-        - name: Violations et incidents de stratégie d'audit
-          href: ../financials/general-ledger/audit-policy-violations-cases.md
-        - name: Définir des stratégies d'audit pour les documents sources
-          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Utiliser les événements commerciaux avec Azure Event Grid
+              href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
+            - name: Utiliser les événements commerciaux avec Azure Service Bus
+              href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
+            - name: Utiliser les événements commerciaux d'approbation de workflow
+              href: ../dev-itpro/business-events/how-to/how-to-workflow.md
+            - name: Utiliser Microsoft Forms Pro avec des événements commerciaux
+              href: ../dev-itpro/business-events/how-to/FormsPro.md
     - name: Gestion des coûts
       href: ../supply-chain/cost-management/cost-management-home-page.md
       items:
@@ -419,61 +427,85 @@
                 - name: Créer des enregistrements à l'aide de modèles d'enregistrement
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Intégration de données à l'aide de Common Data Service
-              href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Configurer un scénario Prospect en disponibilités
-                  href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                - name: Présentation de l'intégration de données
+                  href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
+                - name: Intégration synchrone et bidirectionnelle
                   items:
-                    - name: Synchroniser directement les comptes provenant du module Sales sur les clients de Finance and Operations
-                      href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                    - name: Synchroniser directement les produits provenant de Finance and Operations sur les produits du module Sales
-                      href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                    - name: Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations
-                      href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                    - name: Synchroniser directement les en-têtes et les lignes de devis provenant du module Sales sur Finance and Operations
-                      href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                    - name: Synchronisation des commandes client directement entre Sales et Finance and Operations
-                      href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                    - name: Synchroniser directement les en-têtes et les lignes de facture client entre Finance and Operations et Sales
-                      href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                - name: Configuration de l'intégration avec Field Service
-                  href: ../supply-chain/sales-marketing/field-service.md
+                    - name: Intégration des données en quasi temps réel
+                      href: ../dev-itpro/data-entities/dual-write-overview.md?toc=/fin-and-ops/toc.json
+                    - name: Hiérarchie d'organisation sur Common Data Service
+                      href: ../dev-itpro/data-entities/dual-write-organization.md?toc=/fin-and-ops/toc.json
+                    - name: Concept de société dans Common Data Service
+                      href: ../dev-itpro/data-entities/dual-write-company.md?toc=/fin-and-ops/toc.json
+                    - name: Données principales client intégrées
+                      href: ../dev-itpro/data-entities/dual-write-customer.md?toc=/fin-and-ops/toc.json
+                    - name: Données principales fournisseur intégrées
+                      href: ../dev-itpro/data-entities/dual-write-vendor.md?toc=/fin-and-ops/toc.json
+                    - name: Synchronisation initiale
+                      href: ../dev-itpro/data-entities/dual-write-initial.md?toc=/fin-and-ops/toc.json
+                    - name: Dépannage de l'intégration de données
+                      href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
+                - name: Intégration asynchrone et unidirectionnelle
                   items:
-                    - name: Synchroniser des produits de Finance and Operations sur des produits de Field Service
-                      href: ../supply-chain/sales-marketing/field-service-product.md
-                    - name: Synchroniser des bons de travail de Field Service sur des commandes client de Finance and Operations
-                      href: ../supply-chain/sales-marketing/field-service-work-order.md
-                    - name: Synchroniser des factures d'accord de Field Service sur des factures financières dans Finance and Operations
-                      href: ../supply-chain/sales-marketing/field-service-invoice.md
-                    - name: Synchroniser les transferts et les ajustements de stock entre Field Service et Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                    - name: Synchroniser les informations sur le niveau de stock entre Finance and Operations et Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                    - name: Synchroniser les produits avec l'unité de stock entre Finance and Operations et Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                    - name: Synchroniser la liste des projets entre Finance and Operations et Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
-                    - name: Synchroniser les entrepôts entre Finance and Operations et Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-                    - name: Synchroniser les ordres de travail avec un projet entre Field Service et Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                - name: Configurer l'intégration de Project Service Automation
-                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
-                  items:
-                    - name: Paramètres d'intégration de Project Service Automation
-                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
-                    - name: Synchroniser les contrats de projet et les projets
-                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Synchroniser les tâches de projet
-                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
-                    - name: Synchroniser les catégories de dépenses de projet
-                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Synchroniser les estimations de projet à partir des prévisions de projet
-                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Synchroniser les transactions réelles du projet avec le journal d'intégration du projet
-                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Prospect en disponibilités
+                      items:
+                        - name: Configurer un scénario Prospect en disponibilités
+                          href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Synchroniser directement les comptes provenant du module Sales sur les clients de Finance and Operations
+                          href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Synchroniser directement les produits provenant de Finance and Operations sur les produits du module Sales
+                          href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations
+                          href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Synchroniser directement les en-têtes et les lignes de devis provenant du module Sales sur Finance and Operations
+                          href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Synchronisation des commandes client directement entre Sales et Finance and Operations
+                          href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Synchroniser directement les en-têtes et les lignes de facture client entre Finance and Operations et Sales
+                          href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Field Service
+                      items:
+                        - name: Configuration de l'intégration avec Field Service
+                          href: ../supply-chain/sales-marketing/field-service.md
+                        - name: Synchroniser des produits de Finance and Operations sur des produits de Field Service
+                          href: ../supply-chain/sales-marketing/field-service-product.md
+                        - name: Synchroniser des bons de travail de Field Service sur des commandes client de Finance and Operations
+                          href: ../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Synchroniser des factures d'accord de Field Service sur des factures financières dans Finance and Operations
+                          href: ../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Synchroniser les transferts et les ajustements de stock entre Field Service et Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Synchroniser les informations sur le niveau de stock entre Finance and Operations et Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Synchroniser les produits avec l'unité de stock entre Finance and Operations et Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Synchroniser la liste des projets entre Finance and Operations et Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Synchroniser les entrepôts entre Finance and Operations et Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Synchroniser les ordres de travail avec un projet entre Field Service et Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation
+                      items:
+                        - name: Configurer l'intégration de Project Service Automation
+                          href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                        - name: Paramètres d'intégration de Project Service Automation
+                          href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                        - name: Synchroniser les contrats de projet et les projets
+                          href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Synchroniser les tâches de projet
+                          href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                        - name: Synchroniser les catégories de dépenses de projet
+                          href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Synchroniser les estimations de projet à partir des prévisions de projet
+                          href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Synchroniser les transactions réelles du projet avec le journal d'intégration du projet
+                          href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
         - name: Consommation de services Web externes
           href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Messages électroniques
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Gestion des données
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -666,6 +698,8 @@
               href: ../financials/accounts-receivable/set-up-collections.md
             - name: Réviser les informations de recouvrement
               href: ../financials/accounts-receivable/tasks/review-collections-information.md
+            - name: Présentation de la constatation du produit
+              href: ../financials/accounts-receivable/revenue-recognition-overview.md
             - name: Paramétrer et traiter des factures récurrentes
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
             - name: Répartitions comptables et entrées de journal de comptabilité auxiliaire pour les factures financières
@@ -1068,167 +1102,7 @@
         - name: Comptabilité
           href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Comptes
-              items:
-                - name: Vue d'ensemble des régularisations
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Règles d'élimination
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Combinaisons de comptes et de dimensions
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Journaux équilibrés pour la comptabilité interunit
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Définitions de validation
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: Exemples de définition de validation
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: Soldes de la comptabilité
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Définir des dimensions financières
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Tenir à jour les modèles par défaut de dimension financière
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Créer des structures de compte
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Dimensions financières et validation
-                  href: ../financials/general-ledger/default-dimensions.md
-                - name: Créer des plans de régularisation
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Consolidations financières et conversion de devises
-                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
-                  items:
-                    - name: Consolidation en ligne
-                      href: ../financials/general-ledger/consolidate-online.md
-                    - name: Générer des tableaux d'analyse consolidés
-                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
-                - name: Créer des groupes de consolidation et un compte de consolidation supplémentaire
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Types de compte principal
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Créer un compte principal
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Plan de comptes
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Régler des transactions entre des comptes généraux
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Paramétrer un alias de compte général
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Paramétrer des catégories de compte principal
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Explorateur de comptabilité source
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Répartitions comptables
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Traiter les répartitions
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Dimensions financières
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Convertir des devises comptables ou de déclaration
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Groupes et comptes de consolidation
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Vue d'ensemble de la consolidation et de l'élimination
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Calendriers fiscaux, exercices et périodes'
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-                - name: Configurer les structures de compte
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Devise double
-                  href: ../financials/general-ledger/dual-currency.md
-            - name: Journaux et livres comptables
-              items:
-                - name: Journaux d'opérations diverses
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Valider des journaux périodiques
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Traiter le journal de répartition comptable
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Paramétrer la comptabilité intersociétés
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: Règles d'affectation comptable
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Créer des règles avancées pour les journaux
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Créer et affecter des structures de règle avancées
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: Types de journaux comptables
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Créer et valider des journaux
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Afficher les entrées de journal ou les transactions
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Afficher un document intersociétés associé d'un journal
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Créer une entrée de journal à l'aide d'un modèle
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: Création de transactions de régularisation des comptes
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Publier des lignes de journal et des documents à partir d'Excel
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Afficher les entrées de journal et les transactions
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Journaliser les entrées de journal validées
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Réévaluer une devise dans une société de consolidation
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Réévaluation des comptes en devises dans la comptabilité
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Importer les taux de change des devises
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-                - name: N° document
-                  href: ../financials/general-ledger/one-voucher.md
-                - name: Lettrages comptables
-                  href: ../financials/general-ledger/ledger-settlements.md
-            - name: Clôture de fin de période
-              items:
-                - name: Clôture de la comptabilité en fin de période
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Espace de travail de clôture de période comptable
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Clôture de fin d'exercice
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Clôturer l'exercice
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Secteur de clôture de période comptable
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: Taxe
-              items:
-                - name: Vue d'ensemble des taxes
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: Taxe estimée selon la base et les modes de calcul marginaux
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: Règles d'arrondissement et de paiements de taxe
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: Modes de calcul des taxes dans le champ Origine
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Options de calcul montant entier et intervalle pour les codes taxe
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Calculer et ajuster la taxe sur une facture fournisseur
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Créer un paiement de taxe
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: Créer des transactions de taxe sur les documents
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Paramétrer des groupes de validation dans la comptabilité pour la taxe
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Paramétrer les administrations fiscales
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Paramétrer des codes taxe
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Paramétrer des groupes de taxe et groupes de taxe d'article
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Paramétrer des codes déclaration de taxe
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Paramétrer des périodes de règlement fiscal
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Paramétrer la retenue à la source
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Afficher les transactions de taxe validées
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
-        - name: Secteur public
-          href: ../financials/public-sector/public-sector-functionality.md
-          items:
-            - name: Planification de la fonctionnalité Secteur public
+            - name: Planifier la fonctionnalité Secteur public
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: Créer une couverture et des pages de signature pour un état de paiement pour le secteur public
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
@@ -2429,7 +2303,8 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Paramétrer les taux de change pour les transactions en devise
                   href: ../financials/localizations/rus-exchange-difference.md
-                - name: Importer les taux de change des devises à partir de CBRF ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Importer les taux de change des devises à partir de BCFR
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Détenteurs d'avance
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2453,6 +2328,8 @@
                   href: ../financials/localizations/rus-currency-sale-purchase.md
             - name: TVA
               items:
+                - name: Validation locale spécifique de la TVA d'aval
+                  href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
                 - name: Taxe sur la valeur ajoutée (TVA) pour les mandataires fiscaux
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: Déclaration de TVA
@@ -2535,6 +2412,22 @@
                   href: ../financials/localizations/rus-officials.md
                 - name: Divisions de la société
                   href: ../financials/localizations/rus-company-divisions.md
+            - name: Reports
+              items:
+                - name: Configuration des reports
+                  href: ../financials/localizations/rus-set-up-deferrals.md
+                - name: Créer ou générer des références
+                  href: ../financials/localizations/rus-create-generate-deferrals.md
+                - name: Réception de reports
+                  href: ../financials/localizations/rus-deferral-transactions.md
+                - name: Annulation de reports
+                  href: ../financials/localizations/rus-write-off-deferral.md
+                - name: Cession de reports
+                  href: ../financials/localizations/rus-dispose-deferrals.md
+                - name: Inventaire des reports
+                  href: ../financials/localizations/rus-counting-deferrals.md
+                - name: Génération d'états pour les reports
+                  href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Arabie saoudite
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2648,9 +2541,9 @@
               href: ../talent/create-department-add-department-hierarchy.md
             - name: Créer des calendriers et générer les horaires de travail
               href: hr/tasks/create-calendar-working-times.md
-            - name: Configuration des paramètres RH dans les entités juridiques
+            - name: Configurer des paramètres de RH dans les entités juridiques
               href: ../talent/set-up-hr-parameters-across-legal-entities.md
-            - name: Configurer les paramètres RH spécifiques à la société
+            - name: Configurer des paramètres de RH spécifiques à la société
               href: ../talent/set-up-company-specific-hr-parameters.md
             - name: FAQ sur les actions du personnel
               href: ../talent/personnel-actions-faq.md
@@ -2949,204 +2842,204 @@
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
             - name: Afficher un aperçu des documents PDF avec une visionneuse intégrée
               href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
-    - name: Gestion des états électroniques
-      items:
-        - name: Vue d'ensemble des états électroniques
-          href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Configurations
+        - name: Gestion des états électroniques
           items:
-            - name: Créer des configurations
-              href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
-            - name: Préparer les composants de la solution de gestion des états électroniques
+            - name: Vue d'ensemble des états électroniques
+              href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Configurations
               items:
-                - name: Concevoir un modèle de données spécifique au domaine
-                  href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Préparer les métadonnées spécifiques à l'application
+                - name: Créer des configurations
+                  href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+                - name: Préparer les composants de la solution de gestion des états électroniques
                   items:
-                    - name: (Gestion des états électroniques) Préparer les métadonnées d'application à utiliser dans RCS
-                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) Accéder aux métadonnées d'application à l'aide de la configuration de la gestion des états électroniques
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) Accéder aux métadonnées d'application à l'aide des applications connectées
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
-                - name: Définir les mises en correspondance de modèles et sélectionner des sources de données
-                  href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Mettre en correspondance le modèle de données avec les sources de données sélectionnées
-                  href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Créer une configuration de format
-                  href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Mettre en correspondance les composants du format créé avec les éléments du modèle de données
-                  href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Tester la solution de gestion des états électroniques préparée dans l'application cible
+                    - name: Concevoir un modèle de données spécifique au domaine
+                      href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Préparer les métadonnées spécifiques à l'application
+                      items:
+                        - name: (Gestion des états électroniques) Préparer les métadonnées d'application à utiliser dans RCS
+                          href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) Accéder aux métadonnées d'application à l'aide de la configuration de la gestion des états électroniques
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) Accéder aux métadonnées d'application à l'aide des applications connectées
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
+                    - name: Définir les mises en correspondance de modèles et sélectionner des sources de données
+                      href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Mettre en correspondance le modèle de données avec les sources de données sélectionnées
+                      href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Créer une configuration de format
+                      href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Mettre en correspondance les composants du format créé avec les éléments du modèle de données
+                      href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Tester la solution de gestion des états électroniques préparée dans l'application cible
+                  items:
+                    - name: (Gestion des états électroniques) Importer les configurations depuis RCS
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: Générer les documents électroniques pour les paiements à l'aide d'une configuration de format
+                      href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
+                - name: Mettre à niveau votre format en adoptant la nouvelle version de base de ce format
+                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+            - name: Concepteur de formule dans la gestion des états électroniques
+              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations de gestion des états électroniques distinctes
+              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Sélectionner des définitions de modèle de données lorsque vous créez des formats
+              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Générer des états en ajoutant du contenu en tant que XML brut
+              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+            - name: (Gestion des états électroniques) Sources de données de société croisée dans la gestion des états électroniques
+              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+            - name: Créer des formats de gestion des états électroniques pour générer des documents électroniques sortants sous différents formats
               items:
-                - name: (Gestion des états électroniques) Importer les configurations depuis RCS
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
-                - name: Générer les documents électroniques pour les paiements à l'aide d'une configuration de format
-                  href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-            - name: Mettre à niveau votre format en adoptant la nouvelle version de base de ce format
-              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-        - name: Concepteur de formule dans la gestion des états électroniques
-          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-        - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations de gestion des états électroniques distinctes
-          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Sélectionner des définitions de modèle de données lorsque vous créez des formats
-          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Générer des états en ajoutant du contenu en tant que XML brut
-          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-        - name: (Gestion des états électroniques) Sources de données de société croisée dans la gestion des états électroniques
-          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-        - name: Créer des formats de gestion des états électroniques pour générer des documents électroniques sortants sous différents formats
-          items:
-            - name: (Gestion des états électroniques) Concevoir une configuration pour générer des états au format OPENXML
-              href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: (Gestion des états électroniques) Créer des configurations pour générer des états au format Word
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Concevoir des configurations pour renseigner des modèles PDF
-              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
-        - name: Inclure des images et des formes
-          items:
-            - name: (Gestion des états électroniques) Intégrer des images et des formes dans les documents que vous générez
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: Exemple d'intégration d'images et de formes
+                - name: (Gestion des états électroniques) Concevoir une configuration pour générer des états au format OPENXML
+                  href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: (Gestion des états électroniques) Créer des configurations pour générer des états au format Word
+                  href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Concevoir des configurations pour renseigner des modèles PDF
+                  href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+            - name: Inclure des images et des formes
               items:
-                - name: Concevoir des configurations pour générer des états aux formats Office avec des images intégrées
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Passer en revue des configurations pour générer des états aux formats Office avec des images intégrées
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Générer des états aux formats Office avec des images intégrées
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-        - name: Modifier des formats de gestion des états électroniques en réappliquant des modèles Excel
-          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-        - name: Concevoir des configurations de gestion des états électroniques selon la version de Finance and Operations
-          items:
-            - name: Définir la dépendance des configurations de gestion des états électroniques sur d'autres composants
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Concevoir une solution de gestion des états électroniques pour utiliser les dimensions financières
-          items:
-            - name: Concevoir des modèles de données pour utiliser les dimensions financières comme sources de données
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-            - name: Mettre en correspondance les modèles pour utiliser les dimensions financières comme sources de données
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-            - name: Concevoir des états pour utiliser les dimensions financières comme sources de données
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-            - name: Exécuter des états qui utilisent les dimensions financières comme sources de données
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-        - name: Créer des formats de gestion des états électroniques pour exécuter le comptage et la synthèse à l'aide d'informations de la sortie générée
-          items:
-            - name: Créer des formats pour effectuer le comptage et la synthèse
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-            - name: Configurer un format pour effectuer le comptage et la synthèse
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-            - name: Utiliser les calculs pour générer la sortie permettant d'effectuer le comptage et la synthèse
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-            - name: Exécuter des formats pour effectuer le comptage et la synthèse
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-        - name: Ajouter dynamiquement des colonnes aux rapports Excel en tant que plages extensibles horizontalement
-          items:
-            - name: Créer des formats pour ajouter dynamiquement des colonnes aux rapports Excel tant que plages extensibles horizontalement
-              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-            - name: Exécuter des formats pour ajouter dynamiquement des colonnes aux rapports Excel tant que plages extensibles horizontalement
-              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-        - name: Utiliser les fichiers de gestion des documents dans les sorties de format
-          items:
-            - name: Préparer des modèles de données pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-            - name: Étendre des modèles de données pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-            - name: Créer des formats pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-            - name: Exécuter des formats pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-            - name: Modifier et exécuter des formats pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-        - name: Mettre à jour les données d'application à l'aide de la gestion des états électroniques
-          items:
-            - name: Générer des documents électroniques et mettre à jour les données d'application
-              href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
-            - name: Importer des configurations pour générer des documents contenant des données d'application
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Concevoir des configurations pour générer des documents contenant des données d'application
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-            - name: Modifier les modèles et les mises en correspondance pour générer des documents contenant des données d'application
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-            - name: Modifier les formats pour générer des documents contenant des données d'application
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-            - name: Générer des documents contenant des données d'application
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-        - name: Importer des données depuis les fichiers entrants via les solutions de gestion des états électroniques
-          items:
-            - name: Analyser les documents entrants sous différents formats
-              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
-            - name: Configurer l'importation des données depuis les fichiers sélectionnés manuellement
+                - name: (Gestion des états électroniques) Intégrer des images et des formes dans les documents que vous générez
+                  href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+                - name: Exemple d'intégration d'images et de formes
+                  items:
+                    - name: Concevoir des configurations pour générer des états aux formats Office avec des images intégrées
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
+                    - name: Passer en revue des configurations pour générer des états aux formats Office avec des images intégrées
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: Générer des états aux formats Office avec des images intégrées
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+            - name: Modifier des formats de gestion des états électroniques en réappliquant des modèles Excel
+              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+            - name: Concevoir des configurations de gestion des états électroniques selon la version de Finance and Operations
               items:
-                - name: Créer des configurations pour importer des données à partir d'un fichier XML externe
-                  href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-            - name: Configurer l'importation des données en mode lot depuis les fichiers basés sur SharePoint
-              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Importer les fichiers au format XML
+                - name: Définir la dépendance des configurations de gestion des états électroniques sur d'autres composants
+                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Concevoir une solution de gestion des états électroniques pour utiliser les dimensions financières
               items:
-                - name: Importer les fichiers au format XML avec des attributs facultatifs
-                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
-                - name: Configurer les formats de gestion des états électroniques pour importer les fichiers au format XL avec des attributs facultatifs
-                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                - name: Concevoir des modèles de données pour utiliser les dimensions financières comme sources de données
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+                - name: Mettre en correspondance les modèles pour utiliser les dimensions financières comme sources de données
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+                - name: Concevoir des états pour utiliser les dimensions financières comme sources de données
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+                - name: Exécuter des états qui utilisent les dimensions financières comme sources de données
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+            - name: Créer des formats de gestion des états électroniques pour exécuter le comptage et la synthèse à l'aide d'informations de la sortie générée
+              items:
+                - name: Créer des formats pour effectuer le comptage et la synthèse
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+                - name: Configurer un format pour effectuer le comptage et la synthèse
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+                - name: Utiliser les calculs pour générer la sortie permettant d'effectuer le comptage et la synthèse
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+                - name: Exécuter des formats pour effectuer le comptage et la synthèse
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+            - name: Ajouter dynamiquement des colonnes aux rapports Excel en tant que plages extensibles horizontalement
+              items:
+                - name: Créer des formats pour ajouter dynamiquement des colonnes aux rapports Excel tant que plages extensibles horizontalement
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+                - name: Exécuter des formats pour ajouter dynamiquement des colonnes aux rapports Excel tant que plages extensibles horizontalement
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+            - name: Utiliser les fichiers de gestion des documents dans les sorties de format
+              items:
+                - name: Préparer des modèles de données pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+                - name: Étendre des modèles de données pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+                - name: Créer des formats pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+                - name: Exécuter des formats pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+                - name: Modifier et exécuter des formats pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+            - name: Mettre à jour les données d'application à l'aide de la gestion des états électroniques
+              items:
+                - name: Générer des documents électroniques et mettre à jour les données d'application
+                  href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+                - name: Importer des configurations pour générer des documents contenant des données d'application
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Concevoir des configurations pour générer des documents contenant des données d'application
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+                - name: Modifier les modèles et les mises en correspondance pour générer des documents contenant des données d'application
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+                - name: Modifier les formats pour générer des documents contenant des données d'application
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+                - name: Générer des documents contenant des données d'application
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: Importer des données depuis les fichiers entrants via les solutions de gestion des états électroniques
+              items:
+                - name: Analyser les documents entrants sous différents formats
+                  href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+                - name: Configurer l'importation des données depuis les fichiers sélectionnés manuellement
+                  items:
+                    - name: Créer des configurations pour importer des données à partir d'un fichier XML externe
+                      href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
+                - name: Configurer l'importation des données en mode lot depuis les fichiers basés sur SharePoint
+                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+                - name: Importer les fichiers au format XML
+                  items:
+                    - name: Importer les fichiers au format XML avec des attributs facultatifs
+                      href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                    - name: Configurer les formats de gestion des états électroniques pour importer les fichiers au format XL avec des attributs facultatifs
+                      href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: Fractionner les fichiers XML générés selon la taille et la quantité de contenu
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
-        - name: Cycle de vie de configuration
-          items:
-            - name: Gérer le cycle de vie de configuration
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-            - name: Charger des configurations dans Lifecycle Services
-              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: Importer des configurations à partir de Lifecycle Services
-              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: Télécharger des configurations à partir de Lifecycle Services
-              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-            - name: Importer des configurations
-              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Télécharger les configurations de gestion des états électroniques depuis le référentiel RCS
+            - name: Cycle de vie de configuration
               items:
-                - name: Télécharger les configurations depuis le référentiel de gestion des états électroniques pour le type RCS
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Importer les configurations depuis RCS
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
-        - name: Utiliser les solutions de gestion des états électroniques dans Finance and Operations
-          items:
-            - name: Configurer la structure
+                - name: Gérer le cycle de vie de configuration
+                  href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+                - name: Charger des configurations dans Lifecycle Services
+                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Importer des configurations à partir de Lifecycle Services
+                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Télécharger des configurations à partir de Lifecycle Services
+                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+                - name: Importer des configurations
+                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Télécharger les configurations de gestion des états électroniques depuis le référentiel RCS
+                  items:
+                    - name: Télécharger les configurations depuis le référentiel de gestion des états électroniques pour le type RCS
+                      href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: Importer les configurations depuis RCS
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+            - name: Utiliser les solutions de gestion des états électroniques dans Finance and Operations
               items:
-                - name: Configurer la structure de gestion des états électroniques
-                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-                - name: Créer des fournisseurs de configuration et les marquer comme actif
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Destinations
+                - name: Configurer la structure
+                  items:
+                    - name: Configurer la structure de gestion des états électroniques
+                      href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: Créer des fournisseurs de configuration et les marquer comme actif
+                      href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Destinations
+                  items:
+                    - name: Présentation des destinations
+                      href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                    - name: Configurer des destinations
+                      href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Valider automatiquement les états générés
+                  items:
+                    - name: Suivre les résultats de rapport généré et les comparer avec des valeurs de base
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                    - name: Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de base
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                    - name: Automatiser les tests avec la gestion des états électroniques
+                      href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+                - name: Automatiser les processus métier avec les configurations de gestion des états électroniques
+                  items:
+                    - name: Configurer la gestion des états électroniques pour extraire les données dans Power BI
+                      href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                    - name: Générer des formulaires imprimables de type FTI
+                      href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+                - name: Suivre l'exécution des formats d'état électronique pour résoudre les problèmes de performances
+                  href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+            - name: API de la structure de gestion des états électroniques
               items:
-                - name: Vue d'ensemble de l'estimation
-                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-                - name: Configurer des destinations
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Valider automatiquement les rapports générés
-              items:
-                - name: Suivre les résultats de rapport généré et les comparer avec des valeurs de base
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-                - name: Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de base
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
-                - name: Automatiser les tests avec la gestion des états électroniques
-                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
-            - name: Automatiser les processus métier avec les configurations de gestion des états électroniques
-              items:
-                - name: Configurer la gestion des états électroniques pour extraire les données dans Power BI
-                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-                - name: Générer des formulaires imprimables de type FTI
-                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: Suivre l'exécution des formats de gestion des états électroniques pour résoudre les problèmes de performances
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
-        - name: API de la structure de gestion des états électroniques
-          items:
-            - name: Étendre la liste des fonctions de gestion des états électroniques
-              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-            - name: "Modifications de l'API de la structure de gestion des états électroniques pour Application update\_7.3"
-              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-            - name: Spécifier un emplacement de stockage personnalisé pour les documents générés
-              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: Étendre la liste des fonctions de gestion des états électroniques
+                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+                - name: "Modifications de l'API de la structure de gestion des états électroniques pour Application update\_7.3"
+                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+                - name: Spécifier un emplacement de stockage personnalisé pour les documents générés
+                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: Solutions analytiques intégrées
           items:
             - name: Power BI intégré dans les espaces de travail
@@ -3281,6 +3174,97 @@
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
     - name: Chaîne d'approvisionnement
       href: ../supply-chain/index.md
+    - name: Gestion des actifs
+      items:
+        - name: Présentation de la gestion des actifs
+          href: ../supply-chain/asset-management/index.md
+          items:
+            - name: Actifs et emplacements fonctionnels
+              href: ../supply-chain/asset-management/overview/functional-locations-and-objects.md
+            - name: Actifs et ordres de travail
+              href: ../supply-chain/asset-management/overview/objects-and-work-orders.md
+        - name: Paramétrage des emplacements fonctionnels
+          items:
+            - name: États du cycle de vie de l'emplacement fonctionnel
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-stages.md
+            - name: Types d'attribut de maintenance
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-types.md
+            - name: Types d'emplacement fonctionnels
+              href: ../supply-chain/asset-management/setup-for-functional-locations/specification-types.md
+        - name: Emplacement fonctionnels
+          items:
+            - name: Présentation des emplacements fonctionnels
+              href: ../supply-chain/asset-management/functional-locations/introduction-to-functional-locations.md
+            - name: Créer des emplacement fonctionnels
+              href: ../supply-chain/asset-management/functional-locations/create-functional-locations.md
+            - name: Installer des actifs et des emplacements fonctionnels
+              href: ../supply-chain/asset-management/functional-locations/install-objects-on-functional-locations.md
+        - name: Configurer des actifs
+          items:
+            - name: Types d'actif
+              href: ../supply-chain/asset-management/setup-for-objects/object-types.md
+            - name: Évaluation de la condition
+              href: ../supply-chain/asset-management/setup-for-objects/condition-assessment.md
+            - name: Fabricant et modèle d'actif
+              href: ../supply-chain/asset-management/setup-for-objects/product-and-model.md
+            - name: Compteurs
+              href: ../supply-chain/asset-management/setup-for-objects/counters.md
+            - name: Paramètres de gestion des actifs
+              href: ../supply-chain/asset-management/setup-for-objects/enterprise-asset-management-parameters.md
+            - name: États du cycle de vie des actifs
+              href: ../supply-chain/asset-management/setup-for-objects/object-stages.md
+            - name: Niveaux de service des actifs
+              href: ../supply-chain/asset-management/setup-for-objects/object-priorities.md
+            - name: Éléments critiques des actifs
+              href: ../supply-chain/asset-management/setup-for-objects/object-criticalities.md
+            - name: Documents des actifs
+              href: ../supply-chain/asset-management/setup-for-objects/object-documents.md
+            - name: Agents de maintenance et groupes de collaborateurs
+              href: ../supply-chain/asset-management/setup-for-objects/workers-and-worker-groups.md
+        - name: Actifs
+          items:
+            - name: Présentation des actifs
+              href: ../supply-chain/asset-management/objects/introduction-to-objects.md
+            - name: Créer un actif
+              href: ../supply-chain/asset-management/objects/create-an-object.md
+            - name: Actifs à plusieurs niveaux
+              href: ../supply-chain/asset-management/objects/multi-level-objects.md
+            - name: 'Déplacer, remplacer et installer des actifs'
+              href: ../supply-chain/asset-management/objects/move-replace-and-install-objects.md
+            - name: Créer des actifs basés sur les commandes fournisseur
+              href: ../supply-chain/asset-management/objects/create-objects-based-on-purchase-orders.md
+            - name: Nomenclature des actifs
+              href: ../supply-chain/asset-management/objects/object-bom.md
+            - name: Historique des événements d'actifs
+              href: ../supply-chain/asset-management/objects/object-timeline.md
+            - name: Vue des actifs
+              href: ../supply-chain/asset-management/objects/object-view.md
+            - name: Vue d'ensemble des attributs des actifs
+              href: ../supply-chain/asset-management/objects/object-specification-overview.md
+        - name: Paramétrage des demandes de maintenance
+          items:
+            - name: Demandes de maintenance
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/requests.md
+            - name: États du cycle de vie de la demande de maintenance
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-stages.md
+            - name: Types de demandes de maintenance
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-types.md
+            - name: Collaborateurs responsables de la maintenance
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/responsible-workers.md
+        - name: Gérer les demandes de maintenance
+          items:
+            - name: Demandes de maintenance
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-overview.md
+            - name: Créer une demande de maintenance
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-a-maintenance-request.md
+            - name: Créer un ordre de travail à partir d'une demande de maintenance
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-work-order-from-a-maintenance-request.md
+            - name: Financements reposant sur l'actif
+              href: ../supply-chain/asset-management/manage-maintenance-requests/asset-loan.md
+            - name: Actifs entrants et sortants
+              href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
+            - name: États de demande de maintenance
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
     - name: Planification
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
@@ -3289,6 +3273,8 @@
           items:
             - name: Paramétrer les plans généraux
               href: ../supply-chain/master-planning/master-planning-setup.md
+            - name: Assistant Paramétrage de planification
+              href: ../supply-chain/master-planning/master-planning-setup-wizard.md
             - name: Paramètres de couverture
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: Définir des règles de couverture pour les articles
@@ -3363,7 +3349,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Modifier une prévision de la demande manuellement
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Application Dynamics 365 for Unified Operations Mobile
+    - name: Application mobile
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Espaces de travail mobiles disponibles
@@ -3615,9 +3601,27 @@
               href: organization-administration/tasks/view-workflow-history.md
             - name: Configuration du système pour envoyer un e-mail de workflow associé aux utilisateurs
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
-            - name: Rapport sur les types de workflow
+            - name: Types de workflow
+              items:
+                - name: Création d'un type de workflow
+                  href: organization-administration/workflow-type-create.md
+                - name: Liste de contrôle des types de workflow
+                  href: organization-administration/workflow-type-checklist.md
+                - name: Créer une catégorie de workflow
+                  href: organization-administration/workflow-type-category.md
+                - name: Créer une requête pour un type de workflow
+                  href: organization-administration/workflow-type-query.md
+                - name: Créer un type de workflow
+                  href: organization-administration/workflow-type-create-new.md
+                - name: Créer une classe de document de workflow
+                  href: organization-administration/workflow-type-document-create.md
+                - name: Créer une classe SubmitToWorkflow
+                  href: organization-administration/workflow-type-submit-to-workflow.md
+                - name: Associer une classe de document de workflow avec un type de workflow
+                  href: organization-administration/workflow-type-associate-document.md
+            - name: État sur les types de workflow
               href: organization-administration/workflow-types-report.md
-            - name: FAQ sur le workflow
+            - name: FAQ sur les workflow
               href: organization-administration/workflow-FAQ.md
         - name: Alertes
           href: get-started/alerts-overview.md
@@ -4491,6 +4495,8 @@
               href: ../supply-chain/warehousing/tasks/create-work-class.md
             - name: Gestion des magasiniers
               href: ../supply-chain/warehousing/manage-warehouse-workers.md
+            - name: Traitement différé du travail d'entrepôt
+              href: ../supply-chain/warehousing/deferred-put.md
         - name: Lancement partiel et expédition partielle
           items:
             - name: Expédition partielle d'un chargement de transport

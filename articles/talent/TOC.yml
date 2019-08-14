@@ -3,11 +3,17 @@
   items:
     - name: Mise en route
       items:
-        - name: Mise en route de Talent
+        - name: Prise en main de Talent
           href: talent-get-started.md
         - name: Nouveautés ou modifications dans Talent
           href: whats-new.md
           items:
+            - name: "23\_juillet\_2019"
+              href: whats-new-talent-july-24-2019.md
+            - name: "16\_juillet\_2019"
+              href: whats-new-talent-july-16-2019.md
+            - name: "9\_juillet\_2019"
+              href: whats-new-talent-july-9-2019.md
             - name: "2\_juillet\_2019"
               href: whats-new-talent-july-2-2019.md
             - name: "25\_juin\_2019"
@@ -102,8 +108,6 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR et Common Data Service
           href: CoreHREntities.md
-        - name: Accéder aux fonctionnalités d'aperçu
-          href: access-preview-feature.md
         - name: Obtenir de l'aide sur Talent
           href: talent-support.md
     - name: Dotation en personnel de votre organisation avec Attract
@@ -112,51 +116,71 @@
           href: attract-comprehensive-hiring.md
         - name: Fonctionnalités de Attract
           href: attract-overview.md
-        - name: FAQ LinkedIn
-          href: attract-linkedin-faq.md
-        - name: Configurer les paramètres d'e-mail
-          href: attract-configure-email-settings.md
-        - name: Créer un modèle de processus dans Attract
-          href: Process-templates-Attract.md
+        - name: Forum aux questions
+          items:
+            - name: FAQ sur l'intégration de LinkedIn
+              href: attract-linkedin-faq.md
+        - name: Configurer les paramètres du système
+          items:
+            - name: Configurer les informations sur la société
+              href: admin-settings-attract.md
+            - name: Définir les autorisations utilisateur
+              href: security-attract.md
+            - name: Gérer les fonctionnalités
+              href: access-preview-feature.md
+            - name: Configurer votre site carrière
+              href: career-site.md
+            - name: Activer l'intégration à Broadbean
+              href: attract-admin-job-board-settings.md
+            - name: Configurer les paramètres d'e-mail
+              href: attract-configure-email-settings.md
+            - name: Configurer l'intégration à LinkedIn
+              href: attract-admin-linkedin.md
+        - name: Créer un processus de recrutement
+          items:
+            - name: Créer un modèle de processus
+              href: process-templates-attract.md
+            - name: Activités du processus de recrutement
+              href: activities-attract.md
+            - name: Modèles d'e-mail
+              href: email-templates.md
+            - name: Utiliser les états analytiques
+              href: analytic-reports.md
         - name: Créer et valider des postes
-          href: Creating-jobs-Attract.md
-        - name: Paramétrer l'intégration avec LinkedIn
-          href: attract-admin-linkedin.md
-        - name: Publier des postes sur LinkedIn à partir de Attract
-          href: attract-post-jobs-to-linkedin.md
-        - name: Publier des postes sur Broadbean à partir de Attract
-          href: posting-jobs-external.md
-        - name: Identifier des candidats avec les viviers de talents
-          href: attract-talent-pools.md
-        - name: Recruter des candidats avec LinkedIn Recruiter
-          href: attract-linkedin-recruiter.md
-        - name: Activités dans les processus de recrutement
-          href: activities-attract.md
-        - name: Planification et commentaires sur les entretiens
-          href: interview-scheduling-feedback.md
+          items:
+            - name: Créer un projet
+              href: creating-jobs-attract.md
+            - name: Publier des postes sur LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: Publier des postes sur Broadbean
+              href: posting-jobs-external.md
+            - name: Clôturer un poste
+              href: attract-close-job.md
+        - name: Identifier des candidats
+          items:
+            - name: Identifier des candidats avec les viviers de talents
+              href: attract-talent-pools.md
+            - name: Identifier des candidats avec LinkedIn Recruiter
+              href: attract-linkedin-recruiter.md
+            - name: Suivre les sources de candidats
+              href: source-tracking.md
+            - name: Recommandations intelligentes
+              href: Intelligent-Recommendations.md
+        - name: Paramétrer des entretiens
+          items:
+            - name: Planification et commentaires sur les entretiens
+              href: interview-scheduling-feedback.md
+        - name: Faire une offre
+          items:
+            - name: Paramétrer la gestion des offres
+              href: offer-setup.md
+            - name: 'Créer, approuver et signer des offres'
+              href: creating-offers.md
         - name: Extensibilité dans Attract
           href: extensibility-attract.md
-        - name: Fonctionnalité de site de carrière dans Attract
-          href: career-site.md
-        - name: Paramétrer la gestion des offres
-          href: offer-setup.md
-        - name: 'Créer, approuver et signer des offres'
-          href: creating-offers.md
-        - name: Modèles d'e-mail
-          href: email-templates.md
-        - name: Gestion de la sécurité et des rôles dans Attract
-          href: security-attract.md
-        - name: Paramètres d'administration dans Attract
-          href: Admin-Settings-Attract.md
-        - name: Recommandations intelligentes
-          href: Intelligent-Recommendations.md
-        - name: Suivre les sources pour les profils de candidat et les candidatures
-          href: source-tracking.md
-        - name: Utiliser les états analytiques pour obtenir des informations sur le processus de recrutement
-          href: analytic-reports.md
     - name: Accueillir les nouvelles recrues avec Onboard
       items:
-        - name: Mise en route de Onboard
+        - name: Prise en main de Onboard
           href: create-onboarding-experience.md
         - name: Obtenir l'application Onboard
           href: onboard-get-app.md
@@ -182,10 +206,12 @@
               href: create-job.md
             - name: Créer des départements et les inclure dans la hiérarchie des départements
               href: create-department-add-department-hierarchy.md
-            - name: Configuration des paramètres RH dans les entités juridiques
+            - name: Configurer des paramètres de RH dans les entités juridiques
               href: set-up-hr-parameters-across-legal-entities.md
-            - name: Configurer les paramètres RH spécifiques à la société
+            - name: Configurer des paramètres de RH spécifiques à la société
               href: set-up-company-specific-hr-parameters.md
+            - name: Champs de date et d'heure dans Talent
+              href: date-time-fields-in-talent.md
             - name: FAQ sur les actions du personnel
               href: personnel-actions-faq.md
             - name: Formaliser les processus d'entreprise

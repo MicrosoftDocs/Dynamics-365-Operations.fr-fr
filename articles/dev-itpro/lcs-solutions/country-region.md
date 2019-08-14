@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9815ee404981719888e4fdf637bd81f1744d7fb
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517067"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850613"
 ---
 # <a name="globalization"></a>Globalisation
 
@@ -74,7 +74,7 @@ L'outil de gestion des états électroniques (ER) vous permet de configurer des 
 -   [Vue d'ensemble des états électroniques](../analytics/general-electronic-reporting.md)
 -   [Gérer le cycle de vie de la configuration des états électroniques](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Créer une configuration de gestion des états électroniques](../analytics/electronic-reporting-configuration.md)
--   [Extension de la liste des fonctions de génération d'états électroniques](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [Étendre la liste des fonctions de gestion des états électroniques](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Destinations pour la gestion des états électroniques](../analytics/electronic-reporting-destinations.md)
 -   [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Importer des configurations de gestion des états électroniques](../analytics/electronic-reporting-import-ger-configurations.md)
