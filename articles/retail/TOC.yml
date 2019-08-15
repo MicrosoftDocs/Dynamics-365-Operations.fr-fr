@@ -1,9 +1,11 @@
-- name: Bienvenue à Dynamics 365 for Retail
+- name: Bienvenue dans Dynamics 365 for Retail
   href: index.md
 - name: Mise en route
   items:
     - name: Nouveautés ou modifications
       href: get-started/whats-new.md
+    - name: "Fonctionnalités en version préliminaire dans Dynamics 365 for Retail\_10.0.5"
+      href: get-started/whats-new-10-0-5.md
     - name: "Nouveautés ou modifications dans Dynamics 365 for Retail\_10.0.3"
       href: get-started/whats-new-10-0-3.md
     - name: "Nouveautés ou modifications dans Dynamics 365 for Retail\_10.0.2"
@@ -67,7 +69,7 @@
       href: payment-methods.md
     - name: 'Paramétrage, autorisation et capture de carte de crédit'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Configurer les dénominations des espèces pour le point de vente
+    - name: Configurer les dénominations des espèces pour le PDV
       href: cash-denominations.md
     - name: Connecteur de paiement Dynamics 365 pour Adyen
       href: dev-itpro/adyen-connector.md
@@ -173,13 +175,13 @@
       href: dev-itpro/retail-POS-activation-changes.md
     - name: Mises en page de l'écran de données de démonstration dans MPOS et Cloud POS
       href: demo-data.md
-    - name: Recherche de produits et de clients dans PDV
+    - name: Recherche de produits et de clients dans le PDV
       href: POS-search-improvements.md
     - name: Améliorations de la gestion des disponibilités
       href: cash-mgmt.md
-    - name: Recherche de stock dans POS
+    - name: Recherche de stock dans le PDV
       href: product-variants-POS.md
-    - name: Interrompre et reprendre des transactions dans POS
+    - name: Interrompre et reprendre des transactions dans le PDV
       href: pos-suspend-recall-transactions.md
     - name: Périphériques matériels
       items:
@@ -187,33 +189,33 @@
           href: retail-peripherals-overview.md
         - name: Simulateur périphérique Retail
           href: dev-itpro/retail-peripheral-simulator.md
-        - name: Connecter des périphériques au POS
+        - name: Connecter des périphériques au PDV
           href: define-maintain-channel-clients-registers-hw-stations.md
     - name: Mises en page de l'écran
       items:
         - name: Mises en page de l'écran de données de démonstration dans MPOS/CPOS
           href: demo-data.md
-        - name: Mises en page d'écran pour le POS
+        - name: Mises en page d'écran pour le PDV
           href: pos-screen-layouts.md
         - name: Installer le concepteur de mise en page de Retail POS
           href: install-pos-layout-designer.md
         - name: Choisir les paramètres de notification
           href: Notifications-POS.md
-        - name: Paramètres de langue et d'utilisateur de POS
+        - name: Paramètres de langue et d'utilisateur de PDV
           href: pos-application-user-language-settings.md
         - name: Paramétrer et gérer des images pour MPOS
           href: set-up-manage-images-retail-mpos.md
     - name: Codes info et groupes de codes info
       href: info-codes-retail.md
-    - name: Améliorations du POS pour les produits sérialisés
+    - name: Améliorations du PDV pour les produits sérialisés
       href: serialized-inventory.md
     - name: Recommandations produit
       items:
         - name: Recommandations de produit personnalisées
           href: personalized-product-recommendations.md
-        - name: Ajouter un contrôle de recommandations sur des périphérique POS
+        - name: Ajouter un contrôle de recommandations sur des périphérique PDV
           href: add-recommendations-control-pos-screen.md
-    - name: Fonctionnalité de POS hors connexion
+    - name: Fonctionnalité de PDV hors connexion
       href: pos-offline-functionality.md
     - name: Gestion d'équipe et de tiroir-caisse
       href: shift-drawer-management.md
@@ -227,7 +229,7 @@
           href: hybrid-customer-orders.md
     - name: Associés de vente
       items:
-        - name: Suivre les commissions dans POS avec des groupes de ventes
+        - name: Suivre les commissions dans le PDV avec des groupes de ventes
           href: pos-sales-groups-track-commissions.md
     - name: Expédier des commandes à partir d'un autre magasin
       href: charge-send.md
@@ -253,10 +255,12 @@
       href: Order-fulfillment-overview.md
     - name: Paramétrer l'exécution des commandes pour les magasins
       href: Order-fulfillment-POS-setup.md
-    - name: Afficher les notifications de commande dans le point de vente
+    - name: Afficher les notifications de commande dans le PDV
       href: Notifications-POS.md
 - name: Retours
   items:
+    - name: Remboursements associés
+      href: dev-itpro/linked-refunds.md
     - name: Vendre et retourner des produits non inclus dans l'assortiment d'un magasin
       href: sell-return-outside-assortments.md
     - name: Configurer et traiter un échange suite à un ordre de retour
@@ -357,7 +361,7 @@
       href: ../supply-chain/inventory/quarantine-orders.md
     - name: Prix de revient moyen en cours
       href: ../supply-chain/cost-management/running-average-cost-price.md
-    - name: Suivi du coût moyen en vigueur par dimension de stock
+    - name: Suivre le coût moyen en vigueur par dimension de stock
       href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
 - name: Ressources humaines
   items:
@@ -445,7 +449,7 @@
       href: tasks/create-associate-device.md
     - name: Créer des Hardware Stations
       href: tasks/create-associate-hardware-station.md
-    - name: Créer des caisses enregistreuses POS
+    - name: Créer des caisses enregistreuses PDV
       href: tasks/create-associate-registers.md
     - name: Créer des commandes de centre d'appels
       href: tasks/create-call-center-orders.md
@@ -455,9 +459,9 @@
       href: tasks/create-financial-dimensions-retail-channels.md
     - name: Créer des canaux en ligne et définir les attributs du canal
       href: tasks/create-online-channel-define-channel-attributes.md
-    - name: Créer des groupes d'autorisations POS
+    - name: Créer des groupes d'autorisations PDV
       href: tasks/create-pos-permission-groups.md
-    - name: Créer des profils visuels POS
+    - name: Créer des profils visuels PDV
       href: tasks/create-pos-visual-profile-2016-02.md
     - name: Créer des modules de produit pour les commandes fournisseur
       href: tasks/create-product-packages-purchase-orders.md
@@ -564,9 +568,9 @@
       items:
         - name: Mise en page de l'écran Retail POS
           href: pos-screen-layouts.md
-        - name: Ouvrir une URL dans le point de vente
+        - name: Ouvrir une URL dans le PDV
           href: Open-URL-in-POS.md
-        - name: Installer le concepteur de mise en page de POS
+        - name: Installer le concepteur de mise en page de PDV
           href: install-pos-layout-designer.md
         - name: Retail Modern POS en mode hors connexion
           href: dev-itpro/retail-modern-pos-offline.md
@@ -574,13 +578,13 @@
           href: dev-itpro/pos-dual-display-extension.md
         - name: Extensibilité du déclencheur Retail Modern POS et Cloud POS
           href: dev-itpro/modern-pos-trigger-extensibility.md
-        - name: Ajouter des contrôles personnalisés à des vues POS
+        - name: Ajouter des contrôles personnalisés à des vues PDV
           href: dev-itpro/pos-custom-control.md
-        - name: Ajouter des opérations POS aux mises en page POS à l'aide du concepteur de groupe de boutons
+        - name: Ajouter des opérations PDV aux mises en page PDV à l'aide du concepteur de groupe de boutons
           href: dev-itpro/add-POS-operations.md
         - name: API Retail POS
           href: dev-itpro/POS-APIs.md
-        - name: Extension de paiement POS
+        - name: Extension de paiement PDV
           href: dev-itpro/pos-payment-extension.md
         - name: Prendre en charge des cartes cadeaux externes
           href: dev-itpro/gift-card.md
@@ -588,9 +592,9 @@
           href: dev-itpro/create-retail-experience-app.md
         - name: Paramétrer l'application POS Hybrid sur Android et iOS
           href: dev-itpro/hybridApp.md
-        - name: Remplacer le gestionnaire de demandes du point de vente
+        - name: Remplacer le gestionnaire de demandes du PDV
           href: dev-itpro/pos-handler.md
-        - name: Afficher des informations sur les packages d'extension POS
+        - name: Afficher des informations sur les packages d'extension PDV
           href: dev-itpro/view-pos-extension-package-details.md
     - name: Hardware Station et extensibilité
       href: dev-itpro/hardware-station-extensibility.md
@@ -670,7 +674,7 @@
           href: dev-itpro/channel-db-extensions.md
         - name: Activer la synchronisation CDX personnalisée via une extension
           href: dev-itpro/cdx-extensibility.md
-        - name: Ajouter des champs personnalisés au volet Totaux de POS
+        - name: Ajouter des champs personnalisés au volet Totaux de PDV
           href: dev-itpro/custom-field-pos-totals.md
         - name: Définir les attributs de commande
           href: dev-itpro/order-attributes.md
@@ -680,17 +684,17 @@
           href: dev-itpro/typescript-proxy-retail-pos.md
         - name: Exécuter les exemples de Retail POS
           href: dev-itpro/pos-run-samples.md
-        - name: Étendre les vues POS pour ajouter des colonnes personnalisées et des boutons à la barre d'application
+        - name: Étendre les vues PDV pour ajouter des colonnes personnalisées et des boutons à la barre d'application
           href: dev-itpro/pos-view-extension.md
         - name: Ajouter des contrôles personnalisés aux pages de transaction Retail Modern POS
           href: dev-itpro/pos-custom-transaction.md
-        - name: Ajouter des colonnes personnalisées à des grilles de transaction POS
+        - name: Ajouter des colonnes personnalisées à des grilles de transaction PDV
           href: dev-itpro/pos-custom-transaction-column.md
-        - name: Appeler les API ou les opérations POS à partir des extensions POS
+        - name: Appeler les API ou les opérations PDV à partir des extensions PDV
           href: dev-itpro/pos-api-extension.md
         - name: Déclencheurs et impression de Retail Modern POS
           href: dev-itpro/pos-trigger-printing.md
-        - name: Ajouter des contrôles personnalisés aux vues POS basées sur un concepteur hors écran
+        - name: Ajouter des contrôles personnalisés aux vues PDV basées sur un concepteur hors écran
           href: dev-itpro/pos-control-non-screen.md
         - name: Développement dans les environnements de développement hébergés dans le cloud sans accès administrateur
           href: dev-itpro/cloud-dev-box.md
