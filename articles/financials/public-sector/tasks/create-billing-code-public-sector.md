@@ -10,34 +10,34 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCustomField
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a93cd1d7145353e2a83c87fe87d1f4d6b85f12c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: daff3a231fbacf803cebf4311d5d98fdd7305ab6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557227"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836033"
 ---
-# <a name="create-a-billing-code-for-the-public-sector"></a><span data-ttu-id="081ca-103">Créer un code de facturation pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="081ca-103">Create a billing code for the public sector</span></span>
+# <a name="create-a-billing-code-for-the-public-sector"></a><span data-ttu-id="76d86-103">Créer un code de facturation pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="76d86-103">Create a billing code for the public sector</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="081ca-104">Les champs personnalisés du code facturation permettent de rassembler les valeurs des champs de code facturation lors de la création de factures financières.</span><span class="sxs-lookup"><span data-stu-id="081ca-104">Billing code custom fields allow you to collect values for billing code fields when free text invoices are created.</span></span> <span data-ttu-id="081ca-105">Une fois que vous avez affecté le champ personnalisé aux codes facturation,les utilisateurs peuvent accéder au champ lorsque le code facturation est sélectionné au niveau d'une ligne de facture financière.</span><span class="sxs-lookup"><span data-stu-id="081ca-105">After you assign the custom field to billing codes, users can access the field when the billing code is selected on a free text invoice line.</span></span> <span data-ttu-id="081ca-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="081ca-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
+<span data-ttu-id="76d86-104">Les champs personnalisés du code facturation permettent de rassembler les valeurs des champs de code facturation lors de la création de factures financières.</span><span class="sxs-lookup"><span data-stu-id="76d86-104">Billing code custom fields allow you to collect values for billing code fields when free text invoices are created.</span></span> <span data-ttu-id="76d86-105">Une fois que vous avez affecté le champ personnalisé aux codes facturation,les utilisateurs peuvent accéder au champ lorsque le code facturation est sélectionné au niveau d'une ligne de facture financière.</span><span class="sxs-lookup"><span data-stu-id="76d86-105">After you assign the custom field to billing codes, users can access the field when the billing code is selected on a free text invoice line.</span></span> <span data-ttu-id="76d86-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="76d86-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. <span data-ttu-id="081ca-107">Accédez à Comptabilité client > Configuration > Champs personnalisés du code facturation.</span><span class="sxs-lookup"><span data-stu-id="081ca-107">Go to Accounts receivable > Setup > Billing code custom fields.</span></span>
-2. <span data-ttu-id="081ca-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="081ca-108">Click New.</span></span>
-3. <span data-ttu-id="081ca-109">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="081ca-109">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="081ca-110">Sélectionnez une option dans le champ Type.</span><span class="sxs-lookup"><span data-stu-id="081ca-110">In the Type field, select an option.</span></span>
-    * <span data-ttu-id="081ca-111">Lorsque vous sélectionnez une option, les champs de la section Description changent pour refléter les paramètres disponibles pour cette option.</span><span class="sxs-lookup"><span data-stu-id="081ca-111">When you select an option, the fields in the Description section will change to the settings available for that option.</span></span>  
-    * <span data-ttu-id="081ca-112">Dans la section Détails, entrez la valeur par défaut pour ce champ personnalisé et toutes autres valeurs nécessaires.</span><span class="sxs-lookup"><span data-stu-id="081ca-112">In the Details section, enter the default value for this custom field and any other values that are needed.</span></span>  
-5. <span data-ttu-id="081ca-113">Ouvrez la section Description.</span><span class="sxs-lookup"><span data-stu-id="081ca-113">Open the Description section.</span></span>
-6. <span data-ttu-id="081ca-114">Facultatif : dans le champ Description de l'utilisation, décrivez comment le champ personnalisé doit être utilisé.</span><span class="sxs-lookup"><span data-stu-id="081ca-114">Optional: In the Usage description field, describe how the custom field should be used.</span></span> <span data-ttu-id="081ca-115">Ces informations sont à usage interne uniquement.</span><span class="sxs-lookup"><span data-stu-id="081ca-115">This information is for internal purposes only.</span></span> <span data-ttu-id="081ca-116">Elle ne sont pas visibles pour l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="081ca-116">It is not visible to the user.</span></span>
-7. <span data-ttu-id="081ca-117">Ouvrez la section Références du code facturation.</span><span class="sxs-lookup"><span data-stu-id="081ca-117">Open the Billing code references section.</span></span> <span data-ttu-id="081ca-118">Lorsque vous affectez ce champ personnalisé à un code facturation, le code facturation est indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="081ca-118">When you assign this custom field to a billing code, the billing code will be listed here.</span></span>
-8. <span data-ttu-id="081ca-119">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="081ca-119">Click Save.</span></span>
+1. <span data-ttu-id="76d86-107">Accédez à Comptabilité client > Configuration > Champs personnalisés du code facturation.</span><span class="sxs-lookup"><span data-stu-id="76d86-107">Go to Accounts receivable > Setup > Billing code custom fields.</span></span>
+2. <span data-ttu-id="76d86-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="76d86-108">Click New.</span></span>
+3. <span data-ttu-id="76d86-109">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="76d86-109">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="76d86-110">Sélectionnez une option dans le champ Type.</span><span class="sxs-lookup"><span data-stu-id="76d86-110">In the Type field, select an option.</span></span>
+    * <span data-ttu-id="76d86-111">Lorsque vous sélectionnez une option, les champs de la section Description changent pour refléter les paramètres disponibles pour cette option.</span><span class="sxs-lookup"><span data-stu-id="76d86-111">When you select an option, the fields in the Description section will change to the settings available for that option.</span></span>  
+    * <span data-ttu-id="76d86-112">Dans la section Détails, entrez la valeur par défaut pour ce champ personnalisé et toutes autres valeurs nécessaires.</span><span class="sxs-lookup"><span data-stu-id="76d86-112">In the Details section, enter the default value for this custom field and any other values that are needed.</span></span>  
+5. <span data-ttu-id="76d86-113">Ouvrez la section Description.</span><span class="sxs-lookup"><span data-stu-id="76d86-113">Open the Description section.</span></span>
+6. <span data-ttu-id="76d86-114">Facultatif : dans le champ Description de l'utilisation, décrivez comment le champ personnalisé doit être utilisé.</span><span class="sxs-lookup"><span data-stu-id="76d86-114">Optional: In the Usage description field, describe how the custom field should be used.</span></span> <span data-ttu-id="76d86-115">Ces informations sont à usage interne uniquement.</span><span class="sxs-lookup"><span data-stu-id="76d86-115">This information is for internal purposes only.</span></span> <span data-ttu-id="76d86-116">Elle ne sont pas visibles pour l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="76d86-116">It is not visible to the user.</span></span>
+7. <span data-ttu-id="76d86-117">Ouvrez la section Références du code facturation.</span><span class="sxs-lookup"><span data-stu-id="76d86-117">Open the Billing code references section.</span></span> <span data-ttu-id="76d86-118">Lorsque vous affectez ce champ personnalisé à un code facturation, le code facturation est indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="76d86-118">When you assign this custom field to a billing code, the billing code will be listed here.</span></span>
+8. <span data-ttu-id="76d86-119">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="76d86-119">Click Save.</span></span>
 

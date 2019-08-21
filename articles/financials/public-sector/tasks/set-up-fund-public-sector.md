@@ -10,36 +10,36 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerFund
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5d54d47b481c634a3a7332569363ef16932e346
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b91b5c5345a95f305d5e45ddff369579b910448c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557171"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836000"
 ---
-# <a name="set-up-a-fund-in-the-public-sector"></a><span data-ttu-id="bba60-103">Paramétrer un fonds dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="bba60-103">Set up a fund in the public sector</span></span>
+# <a name="set-up-a-fund-in-the-public-sector"></a><span data-ttu-id="8c5c0-103">Paramétrer un fonds dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="8c5c0-103">Set up a fund in the public sector</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="bba60-104">Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds.</span><span class="sxs-lookup"><span data-stu-id="bba60-104">Fund types must be created before you set up funds.</span></span> <span data-ttu-id="bba60-105">Chaque fonds doit posséder un nom et un numéro unique ; un type et une classe de fonds doivent lui être affectés.</span><span class="sxs-lookup"><span data-stu-id="bba60-105">Each fund must have a name and a unique number, and must be assigned a fund type and fund class.</span></span> <span data-ttu-id="bba60-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="bba60-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
+<span data-ttu-id="8c5c0-104">Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-104">Fund types must be created before you set up funds.</span></span> <span data-ttu-id="8c5c0-105">Chaque fonds doit posséder un nom et un numéro unique ; un type et une classe de fonds doivent lui être affectés.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-105">Each fund must have a name and a unique number, and must be assigned a fund type and fund class.</span></span> <span data-ttu-id="8c5c0-106">Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. <span data-ttu-id="bba60-107">Accédez à Comptabilité > Plan de comptes > Fonds > Fonds.</span><span class="sxs-lookup"><span data-stu-id="bba60-107">Go to General ledger > Chart of accounts > Funds > Funds.</span></span>
-2. <span data-ttu-id="bba60-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="bba60-108">Click New.</span></span>
-3. <span data-ttu-id="bba60-109">Dans le champ Numéro de fonds, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="bba60-109">In the Fund number field, type a value.</span></span>
-4. <span data-ttu-id="bba60-110">Dans le champ Nom du fonds, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="bba60-110">In the Fund name field, type a value.</span></span>
-5. <span data-ttu-id="bba60-111">Dans le champ Type de fonds, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="bba60-111">In the Fund type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="bba60-112">Dans la liste, sélectionnez le type de ce fonds.</span><span class="sxs-lookup"><span data-stu-id="bba60-112">In the list, select the fund type for this fund.</span></span>
-7. <span data-ttu-id="bba60-113">Dans le champ Classe de fonds, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="bba60-113">In the Fund class field, select an option.</span></span>
-8. <span data-ttu-id="bba60-114">Définissez l'option Fonds ne servant pas à la génération d'états à Oui ou à Non.</span><span class="sxs-lookup"><span data-stu-id="bba60-114">Set the Non-reporting fund option to Yes or No.</span></span>
-9. <span data-ttu-id="bba60-115">Définissez l'option Fonds principal à Oui ou à Non.</span><span class="sxs-lookup"><span data-stu-id="bba60-115">Set the Major fund option to Yes or No.</span></span>
-10. <span data-ttu-id="bba60-116">Définir l'option Ignorer l'option de fin d'exercice sélectionnée à Oui ou à Non.</span><span class="sxs-lookup"><span data-stu-id="bba60-116">Set the Override selected year-end option to Yes or No.</span></span>
-11. <span data-ttu-id="bba60-117">Si vous définissez l'option Ignorer l'option de fin d'exercice sélectionnée à Oui, sélectionnez une option de fin d'exercice.</span><span class="sxs-lookup"><span data-stu-id="bba60-117">If you set the Override selected year-end option to Yes, select a year-end option.</span></span>
-12. <span data-ttu-id="bba60-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="bba60-118">Click Save.</span></span>
+1. <span data-ttu-id="8c5c0-107">Accédez à Comptabilité > Plan de comptes > Fonds > Fonds.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-107">Go to General ledger > Chart of accounts > Funds > Funds.</span></span>
+2. <span data-ttu-id="8c5c0-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-108">Click New.</span></span>
+3. <span data-ttu-id="8c5c0-109">Dans le champ Numéro de fonds, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-109">In the Fund number field, type a value.</span></span>
+4. <span data-ttu-id="8c5c0-110">Dans le champ Nom du fonds, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-110">In the Fund name field, type a value.</span></span>
+5. <span data-ttu-id="8c5c0-111">Dans le champ Type de fonds, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-111">In the Fund type field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="8c5c0-112">Dans la liste, sélectionnez le type de ce fonds.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-112">In the list, select the fund type for this fund.</span></span>
+7. <span data-ttu-id="8c5c0-113">Dans le champ Classe de fonds, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-113">In the Fund class field, select an option.</span></span>
+8. <span data-ttu-id="8c5c0-114">Définissez l'option Fonds ne servant pas à la génération d'états à Oui ou à Non.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-114">Set the Non-reporting fund option to Yes or No.</span></span>
+9. <span data-ttu-id="8c5c0-115">Définissez l'option Fonds principal à Oui ou à Non.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-115">Set the Major fund option to Yes or No.</span></span>
+10. <span data-ttu-id="8c5c0-116">Définir l'option Ignorer l'option de fin d'exercice sélectionnée à Oui ou à Non.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-116">Set the Override selected year-end option to Yes or No.</span></span>
+11. <span data-ttu-id="8c5c0-117">Si vous définissez l'option Ignorer l'option de fin d'exercice sélectionnée à Oui, sélectionnez une option de fin d'exercice.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-117">If you set the Override selected year-end option to Yes, select a year-end option.</span></span>
+12. <span data-ttu-id="8c5c0-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="8c5c0-118">Click Save.</span></span>
 

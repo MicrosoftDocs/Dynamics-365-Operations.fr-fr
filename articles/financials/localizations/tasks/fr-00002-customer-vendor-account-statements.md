@@ -10,43 +10,43 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SrsReportViewerForm
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5b390bb30f5bc26dd465a13306e152b6668eb3b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f88427290168a494e803318ec58177fab4c643a1
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556596"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852663"
 ---
-# <a name="fr-00002-customer-and-vendor-account-statements"></a><span data-ttu-id="97c6d-103">FR-00002 Relevés de compte client et fournisseur</span><span class="sxs-lookup"><span data-stu-id="97c6d-103">FR-00002 Customer and vendor account statements</span></span>
+# <a name="fr-00002-customer-and-vendor-account-statements"></a><span data-ttu-id="638d5-103">FR-00002 Relevés de compte client et fournisseur</span><span class="sxs-lookup"><span data-stu-id="638d5-103">FR-00002 Customer and vendor account statements</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="97c6d-104">Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="97c6d-104">You can print accounts statements for customers and vendors that display information for a time period that you select.</span></span>
+<span data-ttu-id="638d5-104">Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="638d5-104">You can print accounts statements for customers and vendors that display information for a time period that you select.</span></span>
 
-<span data-ttu-id="97c6d-105">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="97c6d-105">This procedure was created using the demo data company FRSI.</span></span> 
+<span data-ttu-id="638d5-105">Cette procédure a été créée à l'aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="638d5-105">This procedure was created using the demo data company FRSI.</span></span> 
 
-<span data-ttu-id="97c6d-106">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="97c6d-106">This functionality is available for legal entities whose primary address is in France.</span></span>
-
-
+<span data-ttu-id="638d5-106">Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="638d5-106">This functionality is available for legal entities whose primary address is in France.</span></span>
 
 
-## <a name="print-the-customer-account-statement-report"></a><span data-ttu-id="97c6d-107">Imprimer l'état du relevé de compte client</span><span class="sxs-lookup"><span data-stu-id="97c6d-107">Print the customer account statement report</span></span>
-1. <span data-ttu-id="97c6d-108">Accédez à Comptabilité > Recherches et états > Clients > État de relevé de compte client - France.</span><span class="sxs-lookup"><span data-stu-id="97c6d-108">Go to Accounts receivable > Inquiries and reports > Customers > Customer account statement report - France.</span></span>
-2. <span data-ttu-id="97c6d-109">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="97c6d-109">In the From date field, enter a date.</span></span>
-3. <span data-ttu-id="97c6d-110">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="97c6d-110">In the To date field, enter a date.</span></span>
-4. <span data-ttu-id="97c6d-111">Dans le champ Évaluation, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="97c6d-111">In the Assessment date field, enter a date.</span></span>
-5. <span data-ttu-id="97c6d-112">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="97c6d-112">Click OK.</span></span>
 
-## <a name="print-the-vendor-account-statement-report"></a><span data-ttu-id="97c6d-113">Imprimer l'état du relevé de compte fournisseur</span><span class="sxs-lookup"><span data-stu-id="97c6d-113">Print the vendor account statement report</span></span>
-1. <span data-ttu-id="97c6d-114">Accédez à Comptabilité fournisseur > Recherches et états > États fournisseur > Relevé de compte.</span><span class="sxs-lookup"><span data-stu-id="97c6d-114">Go to Accounts payable > Inquiries and reports > Vendor reports > Account statement.</span></span>
-2. <span data-ttu-id="97c6d-115">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="97c6d-115">In the From date field, enter a date.</span></span>
-3. <span data-ttu-id="97c6d-116">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="97c6d-116">In the To date field, enter a date.</span></span>
-4. <span data-ttu-id="97c6d-117">Dans le champ Évaluation, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="97c6d-117">In the Assessment date field, enter a date.</span></span>
-5. <span data-ttu-id="97c6d-118">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="97c6d-118">Click OK.</span></span>
+
+## <a name="print-the-customer-account-statement-report"></a><span data-ttu-id="638d5-107">Imprimer l'état du relevé de compte client</span><span class="sxs-lookup"><span data-stu-id="638d5-107">Print the customer account statement report</span></span>
+1. <span data-ttu-id="638d5-108">Accédez à Comptabilité > Recherches et états > Clients > État de relevé de compte client - France.</span><span class="sxs-lookup"><span data-stu-id="638d5-108">Go to Accounts receivable > Inquiries and reports > Customers > Customer account statement report - France.</span></span>
+2. <span data-ttu-id="638d5-109">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="638d5-109">In the From date field, enter a date.</span></span>
+3. <span data-ttu-id="638d5-110">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="638d5-110">In the To date field, enter a date.</span></span>
+4. <span data-ttu-id="638d5-111">Dans le champ Évaluation, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="638d5-111">In the Assessment date field, enter a date.</span></span>
+5. <span data-ttu-id="638d5-112">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="638d5-112">Click OK.</span></span>
+
+## <a name="print-the-vendor-account-statement-report"></a><span data-ttu-id="638d5-113">Imprimer l'état du relevé de compte fournisseur</span><span class="sxs-lookup"><span data-stu-id="638d5-113">Print the vendor account statement report</span></span>
+1. <span data-ttu-id="638d5-114">Accédez à Comptabilité fournisseur > Recherches et états > États fournisseur > Relevé de compte.</span><span class="sxs-lookup"><span data-stu-id="638d5-114">Go to Accounts payable > Inquiries and reports > Vendor reports > Account statement.</span></span>
+2. <span data-ttu-id="638d5-115">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="638d5-115">In the From date field, enter a date.</span></span>
+3. <span data-ttu-id="638d5-116">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="638d5-116">In the To date field, enter a date.</span></span>
+4. <span data-ttu-id="638d5-117">Dans le champ Évaluation, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="638d5-117">In the Assessment date field, enter a date.</span></span>
+5. <span data-ttu-id="638d5-118">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="638d5-118">Click OK.</span></span>
 

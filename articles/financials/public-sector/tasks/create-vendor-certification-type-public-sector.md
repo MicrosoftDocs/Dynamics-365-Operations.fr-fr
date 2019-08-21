@@ -10,29 +10,29 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendCertificationType
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c0b609af963c0732ad61585816c5a9d3d4d117f3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 16591af03484e1dcd61a5b5e9cf1c40ffd9307aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557177"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845727"
 ---
-# <a name="create-a-vendor-certification-type-in-the-public-sector"></a><span data-ttu-id="e9ee3-103">Créer un type de certification fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="e9ee3-103">Create a vendor certification type in the public sector</span></span>
+# <a name="create-a-vendor-certification-type-in-the-public-sector"></a><span data-ttu-id="d108f-103">Créer un type de certification fournisseur dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="d108f-103">Create a vendor certification type in the public sector</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e9ee3-104">Vous pouvez créer et affecter aux organisations de fournisseurs tout type de certification détenus par les fournisseurs, tels que des informations d'identification professionnelles, l'assurance en responsabilité civile, le statut minoritaire ou la conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur.</span><span class="sxs-lookup"><span data-stu-id="e9ee3-104">You can create and assign vendor organizations any type of certification that the vendors hold, such as professional credentials, liability insurance, minority status, or compliance with various environmental or consumer safety standards.</span></span> <span data-ttu-id="e9ee3-105">Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="e9ee3-105">This task guide was created using the PSUS demo company data in the public sector partition.</span></span>
+<span data-ttu-id="d108f-104">Vous pouvez créer et affecter aux organisations de fournisseurs tout type de certification détenus par les fournisseurs, tels que des informations d'identification professionnelles, l'assurance en responsabilité civile, le statut minoritaire ou la conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur.</span><span class="sxs-lookup"><span data-stu-id="d108f-104">You can create and assign vendor organizations any type of certification that the vendors hold, such as professional credentials, liability insurance, minority status, or compliance with various environmental or consumer safety standards.</span></span> <span data-ttu-id="d108f-105">Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="d108f-105">This task guide was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. <span data-ttu-id="e9ee3-106">Accédez à Approvisionnements > Paramétrage > Fournisseurs > Type de certification.</span><span class="sxs-lookup"><span data-stu-id="e9ee3-106">Go to Procurement and sourcing > Setup > Vendors > Certification type.</span></span>
-2. <span data-ttu-id="e9ee3-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e9ee3-107">Click New.</span></span>
-3. <span data-ttu-id="e9ee3-108">Dans le champ Type de certification, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e9ee3-108">In the Certification type field, type a value.</span></span>
-4. <span data-ttu-id="e9ee3-109">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e9ee3-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="e9ee3-110">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e9ee3-110">Click Save.</span></span>
+1. <span data-ttu-id="d108f-106">Accédez à Approvisionnements > Paramétrage > Fournisseurs > Type de certification.</span><span class="sxs-lookup"><span data-stu-id="d108f-106">Go to Procurement and sourcing > Setup > Vendors > Certification type.</span></span>
+2. <span data-ttu-id="d108f-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="d108f-107">Click New.</span></span>
+3. <span data-ttu-id="d108f-108">Dans le champ Type de certification, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d108f-108">In the Certification type field, type a value.</span></span>
+4. <span data-ttu-id="d108f-109">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d108f-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d108f-110">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="d108f-110">Click Save.</span></span>
 
