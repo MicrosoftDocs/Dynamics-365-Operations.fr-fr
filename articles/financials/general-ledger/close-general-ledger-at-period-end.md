@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23d4b9b070a48e1964ecd6896afe071b564d1194
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7eca533ed1621ec3507d8510f75842c0f0165275
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567258"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839543"
 ---
-# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="c150b-103">Clôture de la comptabilité en fin de période</span><span class="sxs-lookup"><span data-stu-id="c150b-103">Close the general ledger at period end</span></span>
+# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="a2c2a-103">Clôture de la comptabilité en fin de période</span><span class="sxs-lookup"><span data-stu-id="a2c2a-103">Close the general ledger at period end</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c150b-104">Cette rubrique décrit les tâches qui sont généralement effectuées lors de l'exécution d'une clôture de période pour la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="c150b-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
+<span data-ttu-id="a2c2a-104">Cette rubrique décrit les tâches qui sont généralement effectuées lors de l'exécution d'une clôture de période pour la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
 
-<span data-ttu-id="c150b-105">Dans la comptabilité, vous pouvez exécuter les procédures de clôture pour une période ou année.</span><span class="sxs-lookup"><span data-stu-id="c150b-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="c150b-106">Les procédures de clôture préparent le système pour une nouvelle période.</span><span class="sxs-lookup"><span data-stu-id="c150b-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="c150b-107">Pour préparer le système pour une année, vous devez exécuter le processus de clôture de fin d'exercice.</span><span class="sxs-lookup"><span data-stu-id="c150b-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="c150b-108">Chaque organisation a différents processus et étapes qu'elle effectue pour la fin d'une période.</span><span class="sxs-lookup"><span data-stu-id="c150b-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="c150b-109">Voici quelques étapes facultatives pour les fins de période :</span><span class="sxs-lookup"><span data-stu-id="c150b-109">Here are some optional steps for period ends:</span></span>
+<span data-ttu-id="a2c2a-105">Dans la comptabilité, vous pouvez exécuter les procédures de clôture pour une période ou année.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="a2c2a-106">Les procédures de clôture préparent le système pour une nouvelle période.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="a2c2a-107">Pour préparer le système pour une année, vous devez exécuter le processus de clôture de fin d'exercice.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="a2c2a-108">Chaque organisation a différents processus et étapes qu'elle effectue pour la fin d'une période.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="a2c2a-109">Voici quelques étapes facultatives pour les fins de période :</span><span class="sxs-lookup"><span data-stu-id="a2c2a-109">Here are some optional steps for period ends:</span></span>
 
--   <span data-ttu-id="c150b-110">Complétez toutes les tâches de tous les autres modules, tels que Comptabilité client Comptabilité fournisseur et Stock.</span><span class="sxs-lookup"><span data-stu-id="c150b-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
--   <span data-ttu-id="c150b-111">Vérifiez que tous les journaux sont validés.</span><span class="sxs-lookup"><span data-stu-id="c150b-111">Verify that all journals are posted.</span></span>
--   <span data-ttu-id="c150b-112">Exécutez la réévaluation des comptes en devises pour générer tous les montants de profit non réalisé ou de perte.</span><span class="sxs-lookup"><span data-stu-id="c150b-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
--   <span data-ttu-id="c150b-113">Réglez les transactions pour chaque compte général.</span><span class="sxs-lookup"><span data-stu-id="c150b-113">Settle transactions for each ledger account.</span></span>
--   <span data-ttu-id="c150b-114">Traitez toutes les répartitions demandées.</span><span class="sxs-lookup"><span data-stu-id="c150b-114">Process any required allocations.</span></span>
--   <span data-ttu-id="c150b-115">Validez manuellement les ajustements de fin de période.</span><span class="sxs-lookup"><span data-stu-id="c150b-115">Manually post period-end adjustments.</span></span>
--   <span data-ttu-id="c150b-116">Journalisez les transactions, et examinez l'état **Journal comptable**.</span><span class="sxs-lookup"><span data-stu-id="c150b-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
--   <span data-ttu-id="c150b-117">Exécutez une consolidation à l'aide d'une société de consolidation ou des états financiers.</span><span class="sxs-lookup"><span data-stu-id="c150b-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
--   <span data-ttu-id="c150b-118">Générez des tableaux d'analyse de période de fin à l'aide des états financiers.</span><span class="sxs-lookup"><span data-stu-id="c150b-118">Generate period-end financial statements by using Financial reporting.</span></span>
--   <span data-ttu-id="c150b-119">Définissez les périodes comptables sur **En attente**, afin qu'aucune autre validation ne se produise.</span><span class="sxs-lookup"><span data-stu-id="c150b-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="c150b-120">Vous pouvez également limiter une période à un groupe d'utilisateurs spécifique pendant que les activités de période de fin ont lieu, pour un meilleur contrôle.</span><span class="sxs-lookup"><span data-stu-id="c150b-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="c150b-121">Il n'est pas recommandé de définir des périodes sur **Clôturé définitivement**, car vous ne pouvez pas rouvrir une période clôturée.</span><span class="sxs-lookup"><span data-stu-id="c150b-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
+-   <span data-ttu-id="a2c2a-110">Complétez toutes les tâches de tous les autres modules, tels que Comptabilité client Comptabilité fournisseur et Stock.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
+-   <span data-ttu-id="a2c2a-111">Vérifiez que tous les journaux sont validés.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-111">Verify that all journals are posted.</span></span>
+-   <span data-ttu-id="a2c2a-112">Exécutez la réévaluation des comptes en devises pour générer tous les montants de profit non réalisé ou de perte.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
+-   <span data-ttu-id="a2c2a-113">Réglez les transactions pour chaque compte général.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-113">Settle transactions for each ledger account.</span></span>
+-   <span data-ttu-id="a2c2a-114">Traitez toutes les répartitions demandées.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-114">Process any required allocations.</span></span>
+-   <span data-ttu-id="a2c2a-115">Validez manuellement les ajustements de fin de période.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-115">Manually post period-end adjustments.</span></span>
+-   <span data-ttu-id="a2c2a-116">Journalisez les transactions, et examinez l'état **Journal comptable**.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
+-   <span data-ttu-id="a2c2a-117">Exécutez une consolidation à l'aide d'une société de consolidation ou des états financiers.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
+-   <span data-ttu-id="a2c2a-118">Générez des tableaux d'analyse de période de fin à l'aide des états financiers.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-118">Generate period-end financial statements by using Financial reporting.</span></span>
+-   <span data-ttu-id="a2c2a-119">Définissez les périodes comptables sur **En attente**, afin qu'aucune autre validation ne se produise.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="a2c2a-120">Vous pouvez également limiter une période à un groupe d'utilisateurs spécifique pendant que les activités de période de fin ont lieu, pour un meilleur contrôle.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="a2c2a-121">Il n'est pas recommandé de définir des périodes sur **Clôturé définitivement**, car vous ne pouvez pas rouvrir une période clôturée.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
 
-<span data-ttu-id="c150b-122">L'espace de travail Clôture de période comptable peut être utilisé pour organiser et suivre les tâches requises pour différents processus de fin de période.</span><span class="sxs-lookup"><span data-stu-id="c150b-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
+<span data-ttu-id="a2c2a-122">L'espace de travail Clôture de période comptable peut être utilisé pour organiser et suivre les tâches requises pour différents processus de fin de période.</span><span class="sxs-lookup"><span data-stu-id="a2c2a-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
 
 
-<span data-ttu-id="c150b-123">Pour plus d'informations, voir les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="c150b-123">For more information, see the following topics for more information:</span></span>
-- [<span data-ttu-id="c150b-124">Espace de travail de clôture de période comptable</span><span class="sxs-lookup"><span data-stu-id="c150b-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
-- [<span data-ttu-id="c150b-125">Clôture de fin d'exercice</span><span class="sxs-lookup"><span data-stu-id="c150b-125">Year end close</span></span>](Year-end-close.md)  
-- [<span data-ttu-id="c150b-126">Secteur de clôture de période comptable</span><span class="sxs-lookup"><span data-stu-id="c150b-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
+<span data-ttu-id="a2c2a-123">Pour plus d'informations, voir les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="a2c2a-123">For more information, see the following topics for more information:</span></span>
+- [<span data-ttu-id="a2c2a-124">Espace de travail de clôture de période comptable</span><span class="sxs-lookup"><span data-stu-id="a2c2a-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
+- [<span data-ttu-id="a2c2a-125">Clôture de fin d'exercice</span><span class="sxs-lookup"><span data-stu-id="a2c2a-125">Year end close</span></span>](Year-end-close.md)  
+- [<span data-ttu-id="a2c2a-126">Secteur de clôture de période comptable</span><span class="sxs-lookup"><span data-stu-id="a2c2a-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
 
 
 

@@ -9,34 +9,34 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 296d74a9ca68758d43be1c46acdba7d13d99e9d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 77583232ee69819ea9ba28dd101326341d61c42d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543699"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841199"
 ---
-# <a name="define-cost-control-units"></a><span data-ttu-id="24b6f-103">Définir des unités de contrôle des coûts</span><span class="sxs-lookup"><span data-stu-id="24b6f-103">Define cost control units</span></span>
+# <a name="define-cost-control-units"></a><span data-ttu-id="95883-103">Définir des unités de contrôle des coûts</span><span class="sxs-lookup"><span data-stu-id="95883-103">Define cost control units</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="24b6f-104">Cette procédure indique comment définir des unités de contrôle des coûts dans la comptabilité de contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="24b6f-104">This procedure shows how to define cost control units in the cost accounting ledger.</span></span> <span data-ttu-id="24b6f-105">Vous sélectionnez la dimension d'objet de coût pour laquelle vous souhaitez contrôler les coûts dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="24b6f-105">You select the cost object dimension for which you want to control costs in the ledger.</span></span> <span data-ttu-id="24b6f-106">Les membres de la dimension d'objet de coût sont transformés en objets de coût des unités de contrôle des coûts.</span><span class="sxs-lookup"><span data-stu-id="24b6f-106">The cost object dimension members are transformed into cost objects of the cost control units.</span></span> <span data-ttu-id="24b6f-107">La société fictive de démonstration utilisée pour créer cette procédure est USP2.</span><span class="sxs-lookup"><span data-stu-id="24b6f-107">The demo data company used to create this procedure is USP2.</span></span>
+<span data-ttu-id="95883-104">Cette procédure indique comment définir des unités de contrôle des coûts dans la comptabilité de contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="95883-104">This procedure shows how to define cost control units in the cost accounting ledger.</span></span> <span data-ttu-id="95883-105">Vous sélectionnez la dimension d'objet de coût pour laquelle vous souhaitez contrôler les coûts dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="95883-105">You select the cost object dimension for which you want to control costs in the ledger.</span></span> <span data-ttu-id="95883-106">Les membres de la dimension d'objet de coût sont transformés en objets de coût des unités de contrôle des coûts.</span><span class="sxs-lookup"><span data-stu-id="95883-106">The cost object dimension members are transformed into cost objects of the cost control units.</span></span> <span data-ttu-id="95883-107">La société fictive de démonstration utilisée pour créer cette procédure est USP2.</span><span class="sxs-lookup"><span data-stu-id="95883-107">The demo data company used to create this procedure is USP2.</span></span>
 
-1. <span data-ttu-id="24b6f-108">Accédez à Contrôle de gestion > Paramétrage de la comptabilité > Comptabilités de contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="24b6f-108">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="24b6f-109">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="24b6f-109">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="24b6f-110">Cliquez sur Unités de contrôle.</span><span class="sxs-lookup"><span data-stu-id="24b6f-110">Click Control units.</span></span>
-4. <span data-ttu-id="24b6f-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="24b6f-111">Click New.</span></span>
-5. <span data-ttu-id="24b6f-112">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="24b6f-112">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="24b6f-113">Dans le champ Dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="24b6f-113">In the Dimension field, enter or select a value.</span></span>
-7. <span data-ttu-id="24b6f-114">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="24b6f-114">Click Save.</span></span>
-8. <span data-ttu-id="24b6f-115">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="24b6f-115">Click New.</span></span>
-9. <span data-ttu-id="24b6f-116">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="24b6f-116">In the Name field, type a value.</span></span>
-10. <span data-ttu-id="24b6f-117">Dans le champ Dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="24b6f-117">In the Dimension field, enter or select a value.</span></span>
-11. <span data-ttu-id="24b6f-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="24b6f-118">Click Save.</span></span>
+1. <span data-ttu-id="95883-108">Accédez à Contrôle de gestion > Paramétrage de la comptabilité > Comptabilités de contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="95883-108">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="95883-109">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="95883-109">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="95883-110">Cliquez sur Unités de contrôle.</span><span class="sxs-lookup"><span data-stu-id="95883-110">Click Control units.</span></span>
+4. <span data-ttu-id="95883-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="95883-111">Click New.</span></span>
+5. <span data-ttu-id="95883-112">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="95883-112">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="95883-113">Dans le champ Dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="95883-113">In the Dimension field, enter or select a value.</span></span>
+7. <span data-ttu-id="95883-114">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="95883-114">Click Save.</span></span>
+8. <span data-ttu-id="95883-115">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="95883-115">Click New.</span></span>
+9. <span data-ttu-id="95883-116">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="95883-116">In the Name field, type a value.</span></span>
+10. <span data-ttu-id="95883-117">Dans le champ Dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="95883-117">In the Dimension field, enter or select a value.</span></span>
+11. <span data-ttu-id="95883-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="95883-118">Click Save.</span></span>
 

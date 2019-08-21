@@ -3,80 +3,73 @@ title: Données de facture clés dans le système de comptabilité fournisseur �
 description: Ce guide de tâche vous aidera à créer une facture fournisseur à partir d'une commande fournisseur et à afficher les résultats du rapprochement de la commande fournisseur, de l'accusé de réception et de la facture (rapprochement à trois facteurs).
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1d2e31a5de7cefd20996c18bf4771296a587997
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7abae6d680d899a0294ad3c298a4b0264ba01d0b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569630"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835428"
 ---
-# <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a><span data-ttu-id="8cc16-103">Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur</span><span class="sxs-lookup"><span data-stu-id="8cc16-103">Key invoice data in AP system using vendor invoice</span></span>
+# <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a><span data-ttu-id="47b8d-103">Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur</span><span class="sxs-lookup"><span data-stu-id="47b8d-103">Key invoice data in AP system using vendor invoice</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="8cc16-104">Ce guide de tâche vous aidera à créer une facture fournisseur à partir d'une commande fournisseur et à afficher les résultats du rapprochement de la commande fournisseur, de l'accusé de réception et de la facture (rapprochement à trois facteurs).</span><span class="sxs-lookup"><span data-stu-id="8cc16-104">This task guide will help you create a vendor invoice from a purchase order and view the results of matching the purchase order, receipt, and invoice (3 way matching).</span></span>
+<span data-ttu-id="47b8d-104">Ce guide de tâche vous aidera à créer une facture fournisseur à partir d'une commande fournisseur et à afficher les résultats du rapprochement de la commande fournisseur, de l'accusé de réception et de la facture (rapprochement à trois facteurs).</span><span class="sxs-lookup"><span data-stu-id="47b8d-104">This task guide will help you create a vendor invoice from a purchase order and view the results of matching the purchase order, receipt, and invoice (3 way matching).</span></span>
 
 
-## <a name="create-a-purchase-order"></a><span data-ttu-id="8cc16-105">Créer une commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="8cc16-105">Create a purchase order</span></span>
-1. <span data-ttu-id="8cc16-106">Accédez à Comptabilité fournisseur > Commandes fournisseur > Toutes les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="8cc16-106">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="8cc16-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="8cc16-107">Click New.</span></span>
-3. <span data-ttu-id="8cc16-108">Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8cc16-108">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="8cc16-109">Recherchez un fournisseur à sélectionner.</span><span class="sxs-lookup"><span data-stu-id="8cc16-109">Find a vendor to select.</span></span> <span data-ttu-id="8cc16-110">Par exemple, faites défiler l'écran jusqu'à US-104.</span><span class="sxs-lookup"><span data-stu-id="8cc16-110">For example, scroll down to US-104.</span></span>
-5. <span data-ttu-id="8cc16-111">Sélectionnez le fournisseur US-104.</span><span class="sxs-lookup"><span data-stu-id="8cc16-111">Select vendor US-104.</span></span>
-6. <span data-ttu-id="8cc16-112">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8cc16-112">Click OK.</span></span>
-7. <span data-ttu-id="8cc16-113">Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8cc16-113">In the Item number field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="8cc16-114">Sélectionnez un article en stock.</span><span class="sxs-lookup"><span data-stu-id="8cc16-114">Select an inventory item.</span></span> <span data-ttu-id="8cc16-115">Sélectionnez le numéro d'article 1000, par exemple.</span><span class="sxs-lookup"><span data-stu-id="8cc16-115">For example, select item number 1000.</span></span>
-9. <span data-ttu-id="8cc16-116">Développez ou réduisez la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="8cc16-116">Expand or collapse the Line details section.</span></span>
-10. <span data-ttu-id="8cc16-117">Cliquez sur l'onglet Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="8cc16-117">Click the Setup tab.</span></span>
-    * <span data-ttu-id="8cc16-118">Vous pouvez remplacer la stratégie de rapprochement pour n'utiliser aucun rapprochement, utiliser le rapprochement à deux facteurs ou le rapprochement à trois facteurs.</span><span class="sxs-lookup"><span data-stu-id="8cc16-118">You can override the matching policy to use no matching, 2-way matching, or 3-way matching.</span></span>  
-11. <span data-ttu-id="8cc16-119">Développez ou réduisez la section Détails de ligne.</span><span class="sxs-lookup"><span data-stu-id="8cc16-119">Expand or collapse the Line details section.</span></span>
-12. <span data-ttu-id="8cc16-120">Cliquez sur Achats dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="8cc16-120">On the Action Pane, click Purchase.</span></span>
-13. <span data-ttu-id="8cc16-121">Cliquez sur Confirmer.</span><span class="sxs-lookup"><span data-stu-id="8cc16-121">Click Confirm.</span></span>
+## <a name="create-a-purchase-order"></a><span data-ttu-id="47b8d-105">Créer une commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="47b8d-105">Create a purchase order</span></span>
+1. <span data-ttu-id="47b8d-106">Dans le volet de navigation, allez dans **Modules > Comptabilité fournisseur > Commandes fournisseur > Toutes les commandes fournisseur**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-106">In the Navigation pane, go to **Modules > Accounts payable > Purchase orders > All purchase orders**.</span></span>
+2. <span data-ttu-id="47b8d-107">Cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-107">Click **New**.</span></span>
+3. <span data-ttu-id="47b8d-108">Dans le champ **Compte fournisseur**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="47b8d-108">In the **Vendor account** field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="47b8d-109">Recherchez un fournisseur à sélectionner.</span><span class="sxs-lookup"><span data-stu-id="47b8d-109">Find a vendor to select.</span></span> <span data-ttu-id="47b8d-110">Par exemple, faites défiler l'écran jusqu'à US-104.</span><span class="sxs-lookup"><span data-stu-id="47b8d-110">For example, scroll down to US-104.</span></span>
+5. <span data-ttu-id="47b8d-111">Sélectionnez le fournisseur US-104.</span><span class="sxs-lookup"><span data-stu-id="47b8d-111">Select vendor US-104.</span></span>
+6. <span data-ttu-id="47b8d-112">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-112">Click **OK**.</span></span>
+7. <span data-ttu-id="47b8d-113">Dans le champ **Numéro d'article**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="47b8d-113">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="47b8d-114">Sélectionnez un article en stock.</span><span class="sxs-lookup"><span data-stu-id="47b8d-114">Select an inventory item.</span></span> <span data-ttu-id="47b8d-115">Sélectionnez le numéro d'article 1000, par exemple.</span><span class="sxs-lookup"><span data-stu-id="47b8d-115">For example, select item number 1000.</span></span>
+9. <span data-ttu-id="47b8d-116">Développez le raccourci **Détails de ligne**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-116">Expand the **Line details** fastTab.</span></span>
+10. <span data-ttu-id="47b8d-117">Cliquez sur l'onglet **Paramétrage**. Vous pouvez remplacer la stratégie de rapprochement pour n'utiliser aucun rapprochement, utiliser le rapprochement à deux facteurs ou le rapprochement à trois facteurs.</span><span class="sxs-lookup"><span data-stu-id="47b8d-117">Click the **Setup** tab. You can override the matching policy to use no matching, 2-way matching, or 3-way matching.</span></span>  
+11. <span data-ttu-id="47b8d-118">Dans le volet Actions, cliquez sur **Achat**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-118">On the Action Pane, click **Purchase**.</span></span>
+12. <span data-ttu-id="47b8d-119">Cliquez sur **Confirmer**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-119">Click **Confirm**.</span></span>
 
-## <a name="receive-the-products"></a><span data-ttu-id="8cc16-122">Recevoir les produits</span><span class="sxs-lookup"><span data-stu-id="8cc16-122">Receive the products</span></span>
-1. <span data-ttu-id="8cc16-123">Dans le volet Actions, cliquez sur Recevoir.</span><span class="sxs-lookup"><span data-stu-id="8cc16-123">On the Action Pane, click Receive.</span></span>
-2. <span data-ttu-id="8cc16-124">Cliquez sur Accusé de réception de marchandises.</span><span class="sxs-lookup"><span data-stu-id="8cc16-124">Click Product receipt.</span></span>
-3. <span data-ttu-id="8cc16-125">Dans le champ Accusé de réception de marchandises, entrez le numéro d'accusé de réception de marchandises.</span><span class="sxs-lookup"><span data-stu-id="8cc16-125">In the Product receipt field, enter the product receipt number.</span></span> <span data-ttu-id="8cc16-126">Par exemple, entrez PR123.</span><span class="sxs-lookup"><span data-stu-id="8cc16-126">For example, enter PR123.</span></span>
-4. <span data-ttu-id="8cc16-127">Cliquez sur OK pour valider l'accusé de réception de marchandises.</span><span class="sxs-lookup"><span data-stu-id="8cc16-127">Click OK to post the product receipt.</span></span>
-5. <span data-ttu-id="8cc16-128">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="8cc16-128">Close the page.</span></span>
+## <a name="receive-the-products"></a><span data-ttu-id="47b8d-120">Recevoir les produits</span><span class="sxs-lookup"><span data-stu-id="47b8d-120">Receive the products</span></span>
+1. <span data-ttu-id="47b8d-121">Dans le volet Action, cliquez sur **Recevoir**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-121">On the Action Pane, click **Receive**.</span></span>
+2. <span data-ttu-id="47b8d-122">Cliquez sur **Accusé de réception de marchandises**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-122">Click **Product receipt**.</span></span>
+3. <span data-ttu-id="47b8d-123">Dans le champ **Accusé de réception de marchandises**, entrez le numéro d'accusé de réception de marchandises.</span><span class="sxs-lookup"><span data-stu-id="47b8d-123">In the **Product receipt** field, enter the product receipt number.</span></span> <span data-ttu-id="47b8d-124">Par exemple, entrez PR123.</span><span class="sxs-lookup"><span data-stu-id="47b8d-124">For example, enter PR123.</span></span>
+4. <span data-ttu-id="47b8d-125">Cliquez sur **OK** pour valider l'accusé de réception de marchandises.</span><span class="sxs-lookup"><span data-stu-id="47b8d-125">Click **OK** to post the product receipt.</span></span>
+5. <span data-ttu-id="47b8d-126">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="47b8d-126">Close the page.</span></span>
 
-## <a name="create-a-vendor-invoice"></a><span data-ttu-id="8cc16-129">Créer une facture fournisseur</span><span class="sxs-lookup"><span data-stu-id="8cc16-129">Create a vendor invoice</span></span>
-1. <span data-ttu-id="8cc16-130">Accédez à Comptabilité fournisseur > Commandes fournisseur > Commandes fournisseur reçues mais pas facturées.</span><span class="sxs-lookup"><span data-stu-id="8cc16-130">Go to Accounts payable > Purchase orders > Purchase orders received but not invoiced.</span></span>
-2. <span data-ttu-id="8cc16-131">Sélectionnez la commande fournisseur que vous avez créée.</span><span class="sxs-lookup"><span data-stu-id="8cc16-131">Select the purchase order that you created.</span></span>
-3. <span data-ttu-id="8cc16-132">Cliquez sur Facture dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="8cc16-132">On the Action Pane, click Invoice.</span></span>
-4. <span data-ttu-id="8cc16-133">Cliquez sur Facture.</span><span class="sxs-lookup"><span data-stu-id="8cc16-133">Click Invoice.</span></span>
-5. <span data-ttu-id="8cc16-134">Entrez le numéro de la facture dans le champ Numéro.</span><span class="sxs-lookup"><span data-stu-id="8cc16-134">In the Number field, enter the invoice number.</span></span>
-6. <span data-ttu-id="8cc16-135">Entrez une valeur dans le champ Description de la facture.</span><span class="sxs-lookup"><span data-stu-id="8cc16-135">In the Invoice description field, type a value.</span></span>
-7. <span data-ttu-id="8cc16-136">Entrez une date dans le champ Date de facture.</span><span class="sxs-lookup"><span data-stu-id="8cc16-136">In the Invoice date field, enter a date.</span></span>
-8. <span data-ttu-id="8cc16-137">Entrez 1200 dans le champ Prix unitaire.</span><span class="sxs-lookup"><span data-stu-id="8cc16-137">In the Unit price field, enter 1200.</span></span>
-9. <span data-ttu-id="8cc16-138">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="8cc16-138">Click Add line.</span></span>
-10. <span data-ttu-id="8cc16-139">Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="8cc16-139">In the Item number field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="8cc16-140">Dans la liste, recherchez le numéro d'article de frais d'installation.</span><span class="sxs-lookup"><span data-stu-id="8cc16-140">In the list, find the installation charge item number.</span></span> <span data-ttu-id="8cc16-141">Par exemple, S0001.</span><span class="sxs-lookup"><span data-stu-id="8cc16-141">For example, S0001</span></span>
-12. <span data-ttu-id="8cc16-142">Sélectionnez le numéro d'article de frais d'installation.</span><span class="sxs-lookup"><span data-stu-id="8cc16-142">Select the installation charge item number.</span></span>
-    * <span data-ttu-id="8cc16-143">Notez qu'aucun rapprochement n'a été effectué depuis que vous avez apporté des modifications.</span><span class="sxs-lookup"><span data-stu-id="8cc16-143">Note that matching has not been performed since you made the changes.</span></span>  
-13. <span data-ttu-id="8cc16-144">Cliquez sur Mettre à jour le statut de rapprochement.</span><span class="sxs-lookup"><span data-stu-id="8cc16-144">Click Update match status.</span></span>
-14. <span data-ttu-id="8cc16-145">Cliquez sur Revoir dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="8cc16-145">On the Action Pane, click Review.</span></span>
-15. <span data-ttu-id="8cc16-146">Cliquez sur Mise en correspondance des détails.</span><span class="sxs-lookup"><span data-stu-id="8cc16-146">Click Matching details.</span></span>
-    * <span data-ttu-id="8cc16-147">La nouvelle ligne avec les services n'a pas besoin d'être mise en correspondance, le statut indique donc « Non exécuté ».</span><span class="sxs-lookup"><span data-stu-id="8cc16-147">The new line with services does not need to be matched so the status stays "Not performed".</span></span>  
-16. <span data-ttu-id="8cc16-148">Sélectionnez l'accusé de réception de marchandises pour l'article en stock que vous avez reçu.</span><span class="sxs-lookup"><span data-stu-id="8cc16-148">Select the product receipt for the inventory item that you received.</span></span>
-    * <span data-ttu-id="8cc16-149">La ligne contenant l'accusé de réception de marchandises a été rapprochée, mais elle a échoué car il y a une incohérence au niveau de la quantité ou du prix.</span><span class="sxs-lookup"><span data-stu-id="8cc16-149">The line with the product receipt was matched but there is a mismatch of quantity or price so it fails.</span></span>  
-17. <span data-ttu-id="8cc16-150">Entrez un nombre dans le champ Prix unitaire.</span><span class="sxs-lookup"><span data-stu-id="8cc16-150">In the Unit price field, enter a number.</span></span>
-    * <span data-ttu-id="8cc16-151">Maintenant que le prix unitaire correspond, le statut est mis à jour et indique Transmis.</span><span class="sxs-lookup"><span data-stu-id="8cc16-151">Now that the unit price matches, the status is updated to Passed.</span></span> <span data-ttu-id="8cc16-152">Si votre stratégie autorise les écarts ou si le rapprochement n'est qu'un avertissement, vous pouvez toujours valider la facture.</span><span class="sxs-lookup"><span data-stu-id="8cc16-152">If your policy allows discrepancies or if matching is only a warning, you can still post the invoice.</span></span>  
-18. <span data-ttu-id="8cc16-153">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="8cc16-153">Close the page.</span></span>
-19. <span data-ttu-id="8cc16-154">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="8cc16-154">Click Post.</span></span>
-20. <span data-ttu-id="8cc16-155">Permet de fermer l'écran.</span><span class="sxs-lookup"><span data-stu-id="8cc16-155">Close the form.</span></span>
-    * <span data-ttu-id="8cc16-156">Notez que la commande fournisseur n'est plus répertoriée comme étant reçue mais non facturée.</span><span class="sxs-lookup"><span data-stu-id="8cc16-156">Note that the purchase order is no longer listed as received but not invoiced.</span></span>  
+## <a name="create-a-vendor-invoice"></a><span data-ttu-id="47b8d-127">Créer une facture fournisseur</span><span class="sxs-lookup"><span data-stu-id="47b8d-127">Create a vendor invoice</span></span>
+1. <span data-ttu-id="47b8d-128">Dans le volet de navigation, allez dans **Modules > Comptabilité fournisseur > Commandes fournisseur > Commandes fournisseur reçues mais pas facturées**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-128">In the Navigation pane, go to **Modules > Accounts payable > Purchase orders > Purchase orders received but not invoiced**.</span></span>
+2. <span data-ttu-id="47b8d-129">Sélectionnez la commande fournisseur que vous avez créée.</span><span class="sxs-lookup"><span data-stu-id="47b8d-129">Select the purchase order that you created.</span></span>
+3. <span data-ttu-id="47b8d-130">Cliquez sur **Facture** dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="47b8d-130">On the Action Pane, click **Invoice**.</span></span>
+4. <span data-ttu-id="47b8d-131">Cliquez sur **Facture**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-131">Click **Invoice**.</span></span>
+5. <span data-ttu-id="47b8d-132">Entrez le numéro de la facture dans le champ **Numéro**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-132">In the **Number** field, enter the invoice number.</span></span>
+6. <span data-ttu-id="47b8d-133">Entrez une valeur dans le champ **Description de la facture**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-133">In the **Invoice description** field, type a value.</span></span>
+7. <span data-ttu-id="47b8d-134">Entrez une date dans le champ **Date de facture**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-134">In the **Invoice date** field, enter a date.</span></span>
+8. <span data-ttu-id="47b8d-135">Entrez 1 200 dans le champ **Prix unitaire**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-135">In the **Unit price** field, enter 1200.</span></span>
+9. <span data-ttu-id="47b8d-136">Cliquez sur **Ajouter une ligne**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-136">Click **Add line**.</span></span>
+10. <span data-ttu-id="47b8d-137">Dans le champ **Numéro d'article**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="47b8d-137">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="47b8d-138">Dans la liste, recherchez le numéro d'article de frais d'installation.</span><span class="sxs-lookup"><span data-stu-id="47b8d-138">In the list, find the installation charge item number.</span></span> <span data-ttu-id="47b8d-139">Par exemple, S0001.</span><span class="sxs-lookup"><span data-stu-id="47b8d-139">For example, S0001</span></span>
+12. <span data-ttu-id="47b8d-140">Sélectionnez le numéro d'article de frais d'installation.</span><span class="sxs-lookup"><span data-stu-id="47b8d-140">Select the installation charge item number.</span></span> <span data-ttu-id="47b8d-141">Notez qu'aucun rapprochement n'a été effectué depuis que vous avez apporté des modifications.</span><span class="sxs-lookup"><span data-stu-id="47b8d-141">Note that matching has not been performed since you made the changes.</span></span>  
+13. <span data-ttu-id="47b8d-142">Cliquez sur **Mettre à jour le statut de rapprochement**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-142">Click **Update match status**.</span></span>
+14. <span data-ttu-id="47b8d-143">Cliquez sur **Revoir** dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="47b8d-143">On the Action Pane, click **Review**.</span></span>
+15. <span data-ttu-id="47b8d-144">Cliquez sur **Mise en correspondance des détails**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-144">Click **Matching details**.</span></span> <span data-ttu-id="47b8d-145">La nouvelle ligne avec les services n'a pas besoin d'être mise en correspondance, le statut indique donc « Non exécuté ».</span><span class="sxs-lookup"><span data-stu-id="47b8d-145">The new line with services does not need to be matched so the status stays "Not performed".</span></span>  
+16. <span data-ttu-id="47b8d-146">Sélectionnez l'accusé de réception de marchandises pour l'article en stock que vous avez reçu.</span><span class="sxs-lookup"><span data-stu-id="47b8d-146">Select the product receipt for the inventory item that you received.</span></span> <span data-ttu-id="47b8d-147">La ligne contenant l'accusé de réception de marchandises a été rapprochée, mais elle a échoué car il y a une incohérence au niveau de la quantité ou du prix.</span><span class="sxs-lookup"><span data-stu-id="47b8d-147">The line with the product receipt was matched but there is a mismatch of quantity or price so it fails.</span></span>  
+17. <span data-ttu-id="47b8d-148">Entrez un nombre dans le champ **Prix unitaire**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-148">In the **Unit price** field, enter a number.</span></span> <span data-ttu-id="47b8d-149">Maintenant que le prix unitaire correspond, le statut est mis à jour et indique Transmis.</span><span class="sxs-lookup"><span data-stu-id="47b8d-149">Now that the unit price matches, the status is updated to Passed.</span></span> <span data-ttu-id="47b8d-150">Si votre stratégie autorise les écarts ou si le rapprochement n'est qu'un avertissement, vous pouvez toujours valider la facture.</span><span class="sxs-lookup"><span data-stu-id="47b8d-150">If your policy allows discrepancies or if matching is only a warning, you can still post the invoice.</span></span>  
+18. <span data-ttu-id="47b8d-151">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="47b8d-151">Close the page.</span></span>
+19. <span data-ttu-id="47b8d-152">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="47b8d-152">Click **Post**.</span></span>
+20. <span data-ttu-id="47b8d-153">Permet de fermer l'écran.</span><span class="sxs-lookup"><span data-stu-id="47b8d-153">Close the form.</span></span> <span data-ttu-id="47b8d-154">Notez que la commande fournisseur n'est plus répertoriée comme étant reçue mais non facturée.</span><span class="sxs-lookup"><span data-stu-id="47b8d-154">Note that the purchase order is no longer listed as received but not invoiced.</span></span>  
 

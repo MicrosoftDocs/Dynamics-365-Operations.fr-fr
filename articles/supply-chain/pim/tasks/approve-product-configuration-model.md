@@ -10,42 +10,42 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductModelVersion, PCApproveProductModelVersion, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c196731046fa01059d61f2df08f47639ba839642
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eef6568e012c311c0e5438245c011b876fc4d522
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568625"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844968"
 ---
-# <a name="approve-a-product-configuration-model"></a><span data-ttu-id="efdb7-103">Approuver un modèle de configuration de produit</span><span class="sxs-lookup"><span data-stu-id="efdb7-103">Approve a product configuration model</span></span>
+# <a name="approve-a-product-configuration-model"></a><span data-ttu-id="b632f-103">Approuver un modèle de configuration de produit</span><span class="sxs-lookup"><span data-stu-id="b632f-103">Approve a product configuration model</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="efdb7-104">L'exécution de cette procédure nécessite qu'il existe au moins un modèle de configuration de produit disponible.</span><span class="sxs-lookup"><span data-stu-id="efdb7-104">Running this procedure requires that at least one product configuration model is available.</span></span> <span data-ttu-id="efdb7-105">Cette procédure utilise le modèle de haut-parleur haut de gamme de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="efdb7-105">This procedure uses the High end speaker model in the demo data company USMF.</span></span> <span data-ttu-id="efdb7-106">Notez que ce modèle a déjà été approuvé, mais la procédure vous accompagne le long du processus complet.</span><span class="sxs-lookup"><span data-stu-id="efdb7-106">Note that this model has already been approved, but the procedure walks you through the entire process.</span></span>
+<span data-ttu-id="b632f-104">L'exécution de cette procédure nécessite qu'il existe au moins un modèle de configuration de produit disponible.</span><span class="sxs-lookup"><span data-stu-id="b632f-104">Running this procedure requires that at least one product configuration model is available.</span></span> <span data-ttu-id="b632f-105">Cette procédure utilise le modèle de haut-parleur haut de gamme de la société fictive USMF.</span><span class="sxs-lookup"><span data-stu-id="b632f-105">This procedure uses the High end speaker model in the demo data company USMF.</span></span> <span data-ttu-id="b632f-106">Notez que ce modèle a déjà été approuvé, mais la procédure vous accompagne le long du processus complet.</span><span class="sxs-lookup"><span data-stu-id="b632f-106">Note that this model has already been approved, but the procedure walks you through the entire process.</span></span>
 
-1. <span data-ttu-id="efdb7-107">Cliquez sur Définition du modèle de variante de produit.</span><span class="sxs-lookup"><span data-stu-id="efdb7-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="efdb7-108">Cliquez sur Modèles de configuration de produit.</span><span class="sxs-lookup"><span data-stu-id="efdb7-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="efdb7-109">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="efdb7-109">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="efdb7-110">Sélectionnez le modèle de Haut-parleur haut de gamme pour cette procédure.</span><span class="sxs-lookup"><span data-stu-id="efdb7-110">Select the High end speaker model for this procedure.</span></span>  
-4. <span data-ttu-id="efdb7-111">Cliquez sur Versions.</span><span class="sxs-lookup"><span data-stu-id="efdb7-111">Click Versions.</span></span>
-5. <span data-ttu-id="efdb7-112">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="efdb7-112">Click New.</span></span>
-6. <span data-ttu-id="efdb7-113">Saisissez ou sélectionnez un produit dans le champ Numéro de produit.</span><span class="sxs-lookup"><span data-stu-id="efdb7-113">In the Product number field, enter or select a value.</span></span>
-    * <span data-ttu-id="efdb7-114">La référence à un produit représente une version d'un modèle de configuration de produit.</span><span class="sxs-lookup"><span data-stu-id="efdb7-114">The reference to a product represents a version of a product configuration model.</span></span> <span data-ttu-id="efdb7-115">Seuls les produits génériques qui disposent de la technologie de configuration basée sur les contraintes figurent dans cette liste.</span><span class="sxs-lookup"><span data-stu-id="efdb7-115">Only product masters which have the constraint-based configuration technology will appear in this list.</span></span>  
-7. <span data-ttu-id="efdb7-116">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="efdb7-116">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="efdb7-117">Sélectionnez à quel moment la version du modèle de produit est disponible.</span><span class="sxs-lookup"><span data-stu-id="efdb7-117">Select when the product model version will be available.</span></span>  
-8. <span data-ttu-id="efdb7-118">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="efdb7-118">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="efdb7-119">Sélectionnez une date de fin à laquelle cette version du modèle de produit expirera, ou sélectionnez Jamais.</span><span class="sxs-lookup"><span data-stu-id="efdb7-119">Select an end date when this product model version will expire, or select Never.</span></span>  
-9. <span data-ttu-id="efdb7-120">Cliquer sur Approuver pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="efdb7-120">Click Approve to open the drop dialog.</span></span>
-10. <span data-ttu-id="efdb7-121">Dans le champ Approuvé par, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="efdb7-121">In the Approved by field, enter or select a value.</span></span>
-    * <span data-ttu-id="efdb7-122">Sélectionnez la personne responsable d'approuver les modèles de produit pour utilisation dans des opérations.</span><span class="sxs-lookup"><span data-stu-id="efdb7-122">Select the person who is responsible for approving product models for use in operations.</span></span>  
-11. <span data-ttu-id="efdb7-123">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="efdb7-123">Click OK.</span></span>
-12. <span data-ttu-id="efdb7-124">Dans le champ Méthode de tarification, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="efdb7-124">In the Pricing method field, select an option.</span></span>
-    * <span data-ttu-id="efdb7-125">Activez la version du modèle de produit.</span><span class="sxs-lookup"><span data-stu-id="efdb7-125">Activate the product model version.</span></span> <span data-ttu-id="efdb7-126">Il n'est possible d'avoir qu'un produit actif pour un modèle de produit à la fois.</span><span class="sxs-lookup"><span data-stu-id="efdb7-126">It is only possible to have one product active for one product model at a time.</span></span>  
-13. <span data-ttu-id="efdb7-127">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="efdb7-127">Close the page.</span></span>
+1. <span data-ttu-id="b632f-107">Cliquez sur Définition du modèle de variante de produit.</span><span class="sxs-lookup"><span data-stu-id="b632f-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="b632f-108">Cliquez sur Modèles de configuration de produit.</span><span class="sxs-lookup"><span data-stu-id="b632f-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="b632f-109">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="b632f-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b632f-110">Sélectionnez le modèle de Haut-parleur haut de gamme pour cette procédure.</span><span class="sxs-lookup"><span data-stu-id="b632f-110">Select the High end speaker model for this procedure.</span></span>  
+4. <span data-ttu-id="b632f-111">Cliquez sur Versions.</span><span class="sxs-lookup"><span data-stu-id="b632f-111">Click Versions.</span></span>
+5. <span data-ttu-id="b632f-112">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="b632f-112">Click New.</span></span>
+6. <span data-ttu-id="b632f-113">Saisissez ou sélectionnez un produit dans le champ Numéro de produit.</span><span class="sxs-lookup"><span data-stu-id="b632f-113">In the Product number field, enter or select a value.</span></span>
+    * <span data-ttu-id="b632f-114">La référence à un produit représente une version d'un modèle de configuration de produit.</span><span class="sxs-lookup"><span data-stu-id="b632f-114">The reference to a product represents a version of a product configuration model.</span></span> <span data-ttu-id="b632f-115">Seuls les produits génériques qui disposent de la technologie de configuration basée sur les contraintes figurent dans cette liste.</span><span class="sxs-lookup"><span data-stu-id="b632f-115">Only product masters which have the constraint-based configuration technology will appear in this list.</span></span>  
+7. <span data-ttu-id="b632f-116">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="b632f-116">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="b632f-117">Sélectionnez à quel moment la version du modèle de produit est disponible.</span><span class="sxs-lookup"><span data-stu-id="b632f-117">Select when the product model version will be available.</span></span>  
+8. <span data-ttu-id="b632f-118">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="b632f-118">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="b632f-119">Sélectionnez une date de fin à laquelle cette version du modèle de produit expirera, ou sélectionnez Jamais.</span><span class="sxs-lookup"><span data-stu-id="b632f-119">Select an end date when this product model version will expire, or select Never.</span></span>  
+9. <span data-ttu-id="b632f-120">Cliquer sur Approuver pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="b632f-120">Click Approve to open the drop dialog.</span></span>
+10. <span data-ttu-id="b632f-121">Dans le champ Approuvé par, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b632f-121">In the Approved by field, enter or select a value.</span></span>
+    * <span data-ttu-id="b632f-122">Sélectionnez la personne responsable d'approuver les modèles de produit pour utilisation dans des opérations.</span><span class="sxs-lookup"><span data-stu-id="b632f-122">Select the person who is responsible for approving product models for use in operations.</span></span>  
+11. <span data-ttu-id="b632f-123">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b632f-123">Click OK.</span></span>
+12. <span data-ttu-id="b632f-124">Dans le champ Méthode de tarification, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="b632f-124">In the Pricing method field, select an option.</span></span>
+    * <span data-ttu-id="b632f-125">Activez la version du modèle de produit.</span><span class="sxs-lookup"><span data-stu-id="b632f-125">Activate the product model version.</span></span> <span data-ttu-id="b632f-126">Il n'est possible d'avoir qu'un produit actif pour un modèle de produit à la fois.</span><span class="sxs-lookup"><span data-stu-id="b632f-126">It is only possible to have one product active for one product model at a time.</span></span>  
+13. <span data-ttu-id="b632f-127">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b632f-127">Close the page.</span></span>
 

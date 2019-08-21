@@ -10,57 +10,57 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdSchedule, ProdTable, ProdRouteJob
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 00698e9cd2ed0481e5fed301c8a8c2e98690a5db
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4932cfa472c34a16249b226aa4a07b8e5f528053
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562136"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838485"
 ---
-# <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a><span data-ttu-id="19142-103">Programmer un ordre de fabrication avec la planification d'opérations et de travaux</span><span class="sxs-lookup"><span data-stu-id="19142-103">Schedule a production order with operations and job scheduling</span></span>
+# <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a><span data-ttu-id="2cffe-103">Programmer un ordre de fabrication avec la planification d'opérations et de travaux</span><span class="sxs-lookup"><span data-stu-id="2cffe-103">Schedule a production order with operations and job scheduling</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="19142-104">Cette procédure se concentre sur la planification d’un ordre de fabrication avec la planification des opérations et la planification des tâches.</span><span class="sxs-lookup"><span data-stu-id="19142-104">This procedure focuses on scheduling a production order with operations scheduling and job scheduling.</span></span> <span data-ttu-id="19142-105">Aucune tâche n'est créée avec la planification des opérations tandis que des travaux sont créés avec la planification des tâches.</span><span class="sxs-lookup"><span data-stu-id="19142-105">No jobs are created with operations scheduling whereas jobs are created with job scheduling.</span></span> <span data-ttu-id="19142-106">Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="19142-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="19142-107">Cette procédure est conçue pour le gestionnaire de production, le planificateur de production ou le superviseur d'atelier travaillant dans un environnement de fabrication discrète.</span><span class="sxs-lookup"><span data-stu-id="19142-107">This procedure is intended for the production manager, production planner, or shop floor supervisor working in a discrete manufacturing environment.</span></span>
+<span data-ttu-id="2cffe-104">Cette procédure se concentre sur la planification d’un ordre de fabrication avec la planification des opérations et la planification des tâches.</span><span class="sxs-lookup"><span data-stu-id="2cffe-104">This procedure focuses on scheduling a production order with operations scheduling and job scheduling.</span></span> <span data-ttu-id="2cffe-105">Aucune tâche n'est créée avec la planification des opérations tandis que des travaux sont créés avec la planification des tâches.</span><span class="sxs-lookup"><span data-stu-id="2cffe-105">No jobs are created with operations scheduling whereas jobs are created with job scheduling.</span></span> <span data-ttu-id="2cffe-106">Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="2cffe-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="2cffe-107">Cette procédure est conçue pour le gestionnaire de production, le planificateur de production ou le superviseur d'atelier travaillant dans un environnement de fabrication discrète.</span><span class="sxs-lookup"><span data-stu-id="2cffe-107">This procedure is intended for the production manager, production planner, or shop floor supervisor working in a discrete manufacturing environment.</span></span>
 
 
-## <a name="create-a-production-order"></a><span data-ttu-id="19142-108">Créer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="19142-108">Create a production order</span></span>
-1. <span data-ttu-id="19142-109">Accédez à Contrôle de la production > Ordres de fabrication > Tous les ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="19142-109">Go to Production control > Production orders > All production orders.</span></span>
-2. <span data-ttu-id="19142-110">Cliquez sur Nouvel ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="19142-110">Click New production order.</span></span>
-3. <span data-ttu-id="19142-111">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="19142-111">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="19142-112">Sélectionnez le numéro d'article D0001.</span><span class="sxs-lookup"><span data-stu-id="19142-112">Select Item number D0001.</span></span>  
-4. <span data-ttu-id="19142-113">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="19142-113">Click Create.</span></span>
+## <a name="create-a-production-order"></a><span data-ttu-id="2cffe-108">Créer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="2cffe-108">Create a production order</span></span>
+1. <span data-ttu-id="2cffe-109">Accédez à Contrôle de la production > Ordres de fabrication > Tous les ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="2cffe-109">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="2cffe-110">Cliquez sur Nouvel ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="2cffe-110">Click New production order.</span></span>
+3. <span data-ttu-id="2cffe-111">Entrez ou sélectionnez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="2cffe-111">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="2cffe-112">Sélectionnez le numéro d'article D0001.</span><span class="sxs-lookup"><span data-stu-id="2cffe-112">Select Item number D0001.</span></span>  
+4. <span data-ttu-id="2cffe-113">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="2cffe-113">Click Create.</span></span>
 
-## <a name="schedule-operations-for-the-production-order"></a><span data-ttu-id="19142-114">Planifier les opérations pour l'ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="19142-114">Schedule operations for the production order</span></span>
-1. <span data-ttu-id="19142-115">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="19142-115">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="19142-116">Sélectionnez l’ordre de fabrication que vous venez de créer.</span><span class="sxs-lookup"><span data-stu-id="19142-116">Select the production order that you have just created.</span></span> <span data-ttu-id="19142-117">Il doit être en haut de la liste.</span><span class="sxs-lookup"><span data-stu-id="19142-117">It should be at the top of the list.</span></span>      
-2. <span data-ttu-id="19142-118">Dans le volet Actions, cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="19142-118">On the Action Pane, click Schedule.</span></span>
-3. <span data-ttu-id="19142-119">Cliquez sur Planifier les opérations.</span><span class="sxs-lookup"><span data-stu-id="19142-119">Click Schedule operations.</span></span>
-4. <span data-ttu-id="19142-120">Dans le champ Direction de la planification, sélectionnez « En avant à partir de la date de planification ».</span><span class="sxs-lookup"><span data-stu-id="19142-120">In the Scheduling direction field, select 'Forward from scheduling date'.</span></span>
-5. <span data-ttu-id="19142-121">Dans le champ Date de planification, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="19142-121">In the Scheduling date field, enter a date.</span></span>
-    * <span data-ttu-id="19142-122">Sélectionnez une date future, par exemple, aujourd'hui plus une semaine.</span><span class="sxs-lookup"><span data-stu-id="19142-122">Select a future date, for example, today plus one week.</span></span> <span data-ttu-id="19142-123">Avec la direction de planification sélectionée, l'ordre de fabrication est planifié en avant à partir de la date actuelle.</span><span class="sxs-lookup"><span data-stu-id="19142-123">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
-6. <span data-ttu-id="19142-124">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="19142-124">Click OK.</span></span>
-7. <span data-ttu-id="19142-125">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="19142-125">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="19142-126">Notez que le statut devient Planifiée.</span><span class="sxs-lookup"><span data-stu-id="19142-126">Note that the status is changed to Scheduled.</span></span>  
-8. <span data-ttu-id="19142-127">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="19142-127">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="19142-128">Cliquez sur Toutes les tâches.</span><span class="sxs-lookup"><span data-stu-id="19142-128">Click All jobs.</span></span>
-    * <span data-ttu-id="19142-129">Notez qu’aucune tâche n’est créée avec la planification des opérations.</span><span class="sxs-lookup"><span data-stu-id="19142-129">Note that no jobs are created with operations scheduling.</span></span>  
-10. <span data-ttu-id="19142-130">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="19142-130">Close the page.</span></span>
+## <a name="schedule-operations-for-the-production-order"></a><span data-ttu-id="2cffe-114">Planifier les opérations pour l'ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="2cffe-114">Schedule operations for the production order</span></span>
+1. <span data-ttu-id="2cffe-115">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="2cffe-115">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="2cffe-116">Sélectionnez l’ordre de fabrication que vous venez de créer.</span><span class="sxs-lookup"><span data-stu-id="2cffe-116">Select the production order that you have just created.</span></span> <span data-ttu-id="2cffe-117">Il doit être en haut de la liste.</span><span class="sxs-lookup"><span data-stu-id="2cffe-117">It should be at the top of the list.</span></span>      
+2. <span data-ttu-id="2cffe-118">Dans le volet Actions, cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="2cffe-118">On the Action Pane, click Schedule.</span></span>
+3. <span data-ttu-id="2cffe-119">Cliquez sur Planifier les opérations.</span><span class="sxs-lookup"><span data-stu-id="2cffe-119">Click Schedule operations.</span></span>
+4. <span data-ttu-id="2cffe-120">Dans le champ Direction de la planification, sélectionnez « En avant à partir de la date de planification ».</span><span class="sxs-lookup"><span data-stu-id="2cffe-120">In the Scheduling direction field, select 'Forward from scheduling date'.</span></span>
+5. <span data-ttu-id="2cffe-121">Dans le champ Date de planification, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="2cffe-121">In the Scheduling date field, enter a date.</span></span>
+    * <span data-ttu-id="2cffe-122">Sélectionnez une date future, par exemple, aujourd'hui plus une semaine.</span><span class="sxs-lookup"><span data-stu-id="2cffe-122">Select a future date, for example, today plus one week.</span></span> <span data-ttu-id="2cffe-123">Avec la direction de planification sélectionée, l'ordre de fabrication est planifié en avant à partir de la date actuelle.</span><span class="sxs-lookup"><span data-stu-id="2cffe-123">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
+6. <span data-ttu-id="2cffe-124">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="2cffe-124">Click OK.</span></span>
+7. <span data-ttu-id="2cffe-125">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="2cffe-125">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="2cffe-126">Notez que le statut devient Planifiée.</span><span class="sxs-lookup"><span data-stu-id="2cffe-126">Note that the status is changed to Scheduled.</span></span>  
+8. <span data-ttu-id="2cffe-127">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="2cffe-127">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="2cffe-128">Cliquez sur Toutes les tâches.</span><span class="sxs-lookup"><span data-stu-id="2cffe-128">Click All jobs.</span></span>
+    * <span data-ttu-id="2cffe-129">Notez qu’aucune tâche n’est créée avec la planification des opérations.</span><span class="sxs-lookup"><span data-stu-id="2cffe-129">Note that no jobs are created with operations scheduling.</span></span>  
+10. <span data-ttu-id="2cffe-130">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="2cffe-130">Close the page.</span></span>
 
-## <a name="schedule-jobs-for-the-production-order"></a><span data-ttu-id="19142-131">Planifier les tâches pour l'ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="19142-131">Schedule jobs for the production order</span></span>
-1. <span data-ttu-id="19142-132">Dans le volet Actions, cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="19142-132">On the Action Pane, click Schedule.</span></span>
-2. <span data-ttu-id="19142-133">Cliquez sur Planifier les tâches.</span><span class="sxs-lookup"><span data-stu-id="19142-133">Click Schedule jobs.</span></span>
-3. <span data-ttu-id="19142-134">Dans le champ Direction de la planification, sélectionnez « En avant à partir de la date de planification ».</span><span class="sxs-lookup"><span data-stu-id="19142-134">In the Scheduling direction field, select 'Forward from scheduling date'.</span></span>
-4. <span data-ttu-id="19142-135">Dans le champ Date de planification, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="19142-135">In the Scheduling date field, enter a date.</span></span>
-    * <span data-ttu-id="19142-136">Sélectionnez une date future, par exemple, aujourd'hui plus une semaine.</span><span class="sxs-lookup"><span data-stu-id="19142-136">Select a date in the future, for example, today plus one week.</span></span> <span data-ttu-id="19142-137">Avec la direction de planification sélectionée, l'ordre de fabrication est planifié en avant à partir de la date actuelle.</span><span class="sxs-lookup"><span data-stu-id="19142-137">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
-5. <span data-ttu-id="19142-138">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="19142-138">Click OK.</span></span>
-6. <span data-ttu-id="19142-139">Cliquez sur Ordre de fabrication dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="19142-139">On the Action Pane, click Production order.</span></span>
-7. <span data-ttu-id="19142-140">Cliquez sur Toutes les tâches.</span><span class="sxs-lookup"><span data-stu-id="19142-140">Click All jobs.</span></span>
-    * <span data-ttu-id="19142-141">Notez qu’en fonction de la gamme active, 5 tâches sont créées avec la planification des tâches.</span><span class="sxs-lookup"><span data-stu-id="19142-141">Note that based on the active route, 5 jobs are created with job scheduling.</span></span>  
+## <a name="schedule-jobs-for-the-production-order"></a><span data-ttu-id="2cffe-131">Planifier les tâches pour l'ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="2cffe-131">Schedule jobs for the production order</span></span>
+1. <span data-ttu-id="2cffe-132">Dans le volet Actions, cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="2cffe-132">On the Action Pane, click Schedule.</span></span>
+2. <span data-ttu-id="2cffe-133">Cliquez sur Planifier les tâches.</span><span class="sxs-lookup"><span data-stu-id="2cffe-133">Click Schedule jobs.</span></span>
+3. <span data-ttu-id="2cffe-134">Dans le champ Direction de la planification, sélectionnez « En avant à partir de la date de planification ».</span><span class="sxs-lookup"><span data-stu-id="2cffe-134">In the Scheduling direction field, select 'Forward from scheduling date'.</span></span>
+4. <span data-ttu-id="2cffe-135">Dans le champ Date de planification, entrez une date.</span><span class="sxs-lookup"><span data-stu-id="2cffe-135">In the Scheduling date field, enter a date.</span></span>
+    * <span data-ttu-id="2cffe-136">Sélectionnez une date future, par exemple, aujourd'hui plus une semaine.</span><span class="sxs-lookup"><span data-stu-id="2cffe-136">Select a date in the future, for example, today plus one week.</span></span> <span data-ttu-id="2cffe-137">Avec la direction de planification sélectionée, l'ordre de fabrication est planifié en avant à partir de la date actuelle.</span><span class="sxs-lookup"><span data-stu-id="2cffe-137">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
+5. <span data-ttu-id="2cffe-138">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="2cffe-138">Click OK.</span></span>
+6. <span data-ttu-id="2cffe-139">Cliquez sur Ordre de fabrication dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="2cffe-139">On the Action Pane, click Production order.</span></span>
+7. <span data-ttu-id="2cffe-140">Cliquez sur Toutes les tâches.</span><span class="sxs-lookup"><span data-stu-id="2cffe-140">Click All jobs.</span></span>
+    * <span data-ttu-id="2cffe-141">Notez qu’en fonction de la gamme active, 5 tâches sont créées avec la planification des tâches.</span><span class="sxs-lookup"><span data-stu-id="2cffe-141">Note that based on the active route, 5 jobs are created with job scheduling.</span></span>  
 
