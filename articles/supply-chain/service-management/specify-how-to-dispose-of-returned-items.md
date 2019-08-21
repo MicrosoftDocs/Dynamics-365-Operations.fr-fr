@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6fcdfec083aeb9c58d63f6e03542758e4d07e4d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6991fc04f5015fc3d604306e9327a5e551e728db
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560092"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743070"
 ---
 # <a name="specify-how-to-dispose-of-returned-items"></a>Spécification de la procédure de cession des articles retournés 
 
@@ -176,9 +176,9 @@ Pour chaque code disposition défini, vous devez sélectionner une action de dis
 
 ## <a name="see-also"></a>Voir également :
 
-[Ordre de contrôle (écran)](https://technet.microsoft.com/en-us/library/aa554073(v=ax.60))
+[Ordre de contrôle (écran)](https://technet.microsoft.com/library/aa554073(v=ax.60))
 
-[Codes disposition (écran)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))
+[Codes disposition (écran)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 
   
 

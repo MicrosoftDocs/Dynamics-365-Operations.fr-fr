@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, NumberSequenceGroup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 264514
 ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4f57cc7e472dc0e2081056f7df1d59c1ade25347
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b52e76a934c5e80887e6638035466fe1d453432
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547175"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852259"
 ---
 # <a name="chronological-invoice-and-voucher-numbers-for-france"></a>Numéros de facture et de document chronologiques pour la France
 

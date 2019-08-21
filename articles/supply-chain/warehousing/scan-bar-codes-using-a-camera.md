@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e78d0a82d3ca66a6912ea1a9517296ca241edf1c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5ec9197c2e8b7970fcbf5ea42612c60f940bcae0
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559035"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742929"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Lire les codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations - Entreposage
 
@@ -36,7 +36,7 @@ Pour utiliser cette fonction, la version 1.2.0.0 de l'application Entreposage d
 ## <a name="setup"></a>Configuration
 Dans les paramètres d'affichage de l'application Entreposage, vous pouvez choisir si la caméra doit être utilisée pour la lecture des codes-barres. Si vous activez l'option **Utiliser la caméra comme scanneur**, vous pourrez utiliser la caméra sur chaque champ de saisie si le mode de saisie favori est défini sur **Lecture**. 
 
-Pour contrôler si un champ de saisie peut être lu, dans la page **Noms de champ d'application d'entrepôt** dans Dynamics 365 for Finance and Operations, définissez **Mode de saisie favori** sur **Lecture**. Lorsque cette option est sélectionnée, une caméra peut être utilisée pour la lecture dans l'application Entreposage. Pour plus d'informations sur la configuration des noms de champs d'application dans l'application Entreposage, voir [Configurer les noms de champ d'application dans l'application Entreposage](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Pour contrôler si un champ de saisie peut être lu, dans la page **Noms de champ d'application d'entrepôt** dans Dynamics 365 for Finance and Operations, définissez **Mode de saisie favori** sur **Lecture**. Lorsque cette option est sélectionnée, une caméra peut être utilisée pour la lecture dans l'application Entreposage. Pour plus d'informations sur la configuration des noms de champs d'application dans l'application Entreposage, voir [Configurer les noms de champ d'application dans l'application Entreposage](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>Formats de code-barres pris en charge
 Les formats de code-barres les plus courants sont pris en charge, notamment les codes 128, 39, 93, EAN-8, EAN-13, UPC-E, UPC-A et QR. 

@@ -3,7 +3,7 @@ title: Raccourcis clavier
 description: Les raccourcis clavier suivants s'appliquent dans tout Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561831"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780056"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -138,9 +138,13 @@ Les raccourcis clavier suivants s'appliquent dans tout Dynamics 365 for Finance 
 | Ajouter une plage de lignes à l'ensemble sélectionné<blockquote>[!NOTE] Ce raccourci s'applique uniquement aux scénarios de sélection multiple.</blockquote>         | Maj+Clic                     |
 | Accéder à la page de données suivante/précédente                                                                                   | Page précédente / Page suivante             |
 | Créer une nouvelle ligne en bas de la grille                                                                             | Flèche Bas (à partir de la dernière ligne)  |
-| Sélectionner ou désélectionner toutes les lignes                                                                                               | Ctrl+Maj+M                    |
 | Accéder au premier enregistrement                                                                                               | Ctrl + Début                       |
 | Accéder au dernier enregistrement                                                                                                | Ctrl + Fin                        |
+| Sélectionner ou désélectionner toutes les lignes                                                                                               | Ctrl+Maj+M                    |
+| Accéder à la première ligne marquée                                                                                           | Alt+Maj+M, F                    |
+| Accéder à la ligne marquée suivante                                                                                            | Alt+Maj+M, L                    |
+| Accéder à la ligne marquée précédente                                                                                        | Alt+Maj+M, P                    |
+| Accéder à la dernière ligne marquée                                                                                           | Alt+Maj+M, N                    |
 | Exécuter l'action par défaut dans une grille<blockquote>[!NOTE] Ce raccourci est activé lorsque le focus est sur une cellule contenant un lien hypertexte et que toutes les cellules de cette colonne ont des liens hypertexte.</blockquote> | Entrer                           |
 | Basculer la vue entre la ligne sélectionnée et la ligne d'en-tête                                                               | Alt+Maj+H                     |
 | Agrandir/réduire la colonne active (avec le focus sur la ligne d'en-tête)                                                  | Flèche droite/Flèche gauche        |

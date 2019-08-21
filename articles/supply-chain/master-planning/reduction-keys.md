@@ -3,7 +3,7 @@ title: Clés de réduction des prévisions
 description: Cette rubrique fournit des exemples qui indiquent comment paramétrer une clé de réduction. Il inclut des informations sur les différents paramètres de clé de réduction et les résultats de chacun d'entre eux. Vous pouvez utiliser une clé de réduction pour définir la méthode permettant de réduire les besoins de prévision.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 02/28/2019
+ms.date: 07/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5efa5b2c7a4c45bbf6e940170000b391384fe7ff
+ms.sourcegitcommit: add48ece3864645a89a28327c4add607714befb5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1504077"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "1736302"
 ---
 # <a name="method-used-to-reduce-forecast-requirements"></a>Méthode utilisée pour réduire les besoins de prévision
 
@@ -138,14 +138,14 @@ Pour cet exemple, incluez la prévision de la demande suivante dans un plan gén
 | Date       | Prévision de la demande |
 |------------|-----------------|
 | 1er janvier  | 1 000           |
-| 1 février | 500             |
+| 1 février | 1 000             |
 
 Créez également les commandes client suivantes.
 
 | Date        | Quantité de la commande client |
 |-------------|----------------------|
-| 15 janvier  | 500                  |
-| 15 février | 100                  |
+| 15 janvier  | 200                  |
+| 15 février | 400                  |
 
 Dans ce cas, les ordres prévisionnels suivants sont créés.
 

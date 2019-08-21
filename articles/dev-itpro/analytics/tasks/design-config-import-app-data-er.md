@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 23004930d2377a3d647435b53b6809cd500f44ac
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551481"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741353"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Créer des configurations d'états électroniques pour analyser des documents entrants
 
@@ -30,7 +30,7 @@ Cette procédure décrit comment créer des configurations d'états électroniqu
 
 Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. 
 
-Ces étapes peuvent être effectuées à l'aide d'un ensemble de données quelconque. Avant de commencer, téléchargez et enregistrer les fichiers répertoriés dans la rubrique « Analyser les documents entrants pour mettre à jour les données d'application » (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Les fichiers sont : Modèle EFSTA.xml, Format EFSTA.xml, Réponse1.xml, Réponse2.xml, Réponse3.xml, Réponse4.xml.
+Ces étapes peuvent être effectuées à l'aide d'un ensemble de données quelconque. Avant de commencer, téléchargez et enregistrer les fichiers répertoriés dans la rubrique « Analyser les documents entrants pour mettre à jour les données d'application » (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Les fichiers sont : Modèle EFSTA.xml, Format EFSTA.xml, Réponse1.xml, Réponse2.xml, Réponse3.xml, Réponse4.xml.
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme actif. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure, « Créer un fournisseur de configuration et le marquer comme actif ».  

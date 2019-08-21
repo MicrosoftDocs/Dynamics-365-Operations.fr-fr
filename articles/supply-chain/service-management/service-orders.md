@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b4d347556d25831bb3f9175e8606e0b41d98bdd8
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555354"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743245"
 ---
 # <a name="service-orders"></a>Commandes de service   
 
@@ -76,7 +76,7 @@ L'une des autres commandes de service générée pour le mois de janvier est dev
 
 ## <a name="post-from-projects"></a>Validation à partir de projets
 
-À la fin de chaque semaine, le répartiteur souhaite valider toutes les commandes de service associées à un projet spécifique. Par conséquent, il identifie le projet approprié dans l'écran **Projets** et valide les commandes de service terminées. Pour plus d'informations, voir [Valider des commandes de service (écran Classe)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\)).
+À la fin de chaque semaine, le répartiteur souhaite valider toutes les commandes de service associées à un projet spécifique. Par conséquent, il identifie le projet approprié dans l'écran **Projets** et valide les commandes de service terminées. Pour plus d'informations, voir [Valider des commandes de service (écran Classe)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Supprimer des commandes de service
 
@@ -84,7 +84,7 @@ Au cours du second semestre, le client décide que les visites de service sont t
 
 ## <a name="see-also"></a>Voir également :
 
-[Commandes de service (écran)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
+[Commandes de service (écran)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))
 
   
 

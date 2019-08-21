@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6a904529dccbe392793d0d108335b623bb1ed8b2
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572000"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742537"
 ---
 # <a name="requests-for-quotation-rfqs"></a>Appels d'offre
 
@@ -48,7 +48,7 @@ Vous pouvez créer une demande de devis à partir des commandes planifiées, d'u
 
 Après avoir préparé la demande de devis et ajouté des fournisseurs, sélectionnez **Envoyer** (**Envoyer et publier** pour le secteur public) sur la demande de devis. Un journal d'appel d'offre est généré pour chaque fournisseur auquel vous envoyez l'appel d'offre. Vous pouvez configurer les options d'impression pour l'action Envoyer afin d'imprimer un état pour chaque fournisseur dans une archive ou pour envoyer un état à l'adresse électronique de chaque fournisseur. En outre, vous pouvez utiliser le journal d'appel d'offre de chaque fournisseur pour générer un état que vous pouvez envoyer ou renvoyer au fournisseur ultérieurement. Vous pouvez également configurer l'action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.
 
-Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration de fournisseur, les fournisseurs peuvent saisir directement les offres dans Microsoft Dynamics 365 for Finance and Operations. Pour plus d'informations voir [Collaboration fournisseur avec des clients](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
+Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration de fournisseur, les fournisseurs peuvent saisir directement les offres dans Microsoft Dynamics 365 for Finance and Operations. Pour plus d'informations voir [Collaboration fournisseur avec des clients](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 
 Si vous devez modifier un appel d'offre après son envoi, vous pouvez le renvoyer aux fournisseurs lorsque vous avez terminé à l'aide des deux actions de modification : Créer et Finaliser.+
 
@@ -179,7 +179,7 @@ Si vous configurez le processus d'avenant de manière à ce qu'il soit plus rest
 
 Si vous configurez le processus d'avenant de manière à ce qu'il soit moins restrictif, il n'est pas nécessaire de sélectionner **Créer** pour pouvoir modifier les champs d'un dossier d'appel d'offre qui a déjà été envoyé. Toutefois, vous devez ajouter manuellement une note d'avenant dans l'appel d'offre et renvoyer le dossier. Notez que cette approche ne peut être utilisée que si aucune des réponses (offres) n'a été modifiée. Si vous avez entré une réponse et que son état est **Reçu**, le bouton **Envoyer** n'est pas disponible. Dans ce cas, vous devez sélectionner **Créer** puis **Finaliser**, comme vous devez le faire dans le processus plus restrictif. La réponse est ensuite réinitialisée pour refléter les modifications du dossier d'appel d'offre.
 
-Si les fournisseurs utilisent l'interface de collaboration fournisseur pour saisir des offres, vous devez toujours utiliser le processus d'avenant pour informer les fournisseurs des modifications du dossier d'appel d'offre. Ce processus permet d'éviter la situation où les fournisseurs font une offre sur un dossier d'appel d'offre obsolète alors que leur offre est en cours. Pour plus d'informations sur la collaboration fournisseur, voir [Collaboration fournisseur avec des fournisseurs externes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Si les fournisseurs utilisent l'interface de collaboration fournisseur pour saisir des offres, vous devez toujours utiliser le processus d'avenant pour informer les fournisseurs des modifications du dossier d'appel d'offre. Ce processus permet d'éviter la situation où les fournisseurs font une offre sur un dossier d'appel d'offre obsolète alors que leur offre est en cours. Pour plus d'informations sur la collaboration fournisseur, voir [Collaboration fournisseur avec des fournisseurs externes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Si vous voulez inviter d'autres fournisseurs à faire une offre et qu'aucune modification n'a été apportée au dossier d'appel d'offre, vous pouvez utiliser le bouton **Envoyer**. Les fournisseurs que vous avez ajoutés s'affichent sur la page **Envoyer** et reçoivent l'invitation par courrier électronique.
 

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: b22edc7c3ace39f7dd818e3ff423edfd57618676
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 715f0740c52d7efdbf36d47bd211064f46919e2b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565331"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852120"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>États de rapprochement pour la Belgique
 
@@ -86,7 +86,7 @@ Cet état peut être généré comme suit :
 Les paramètres de cet état permettent beaucoup de flexibilité. Vous pouvez consulter un état très détaillé en sélectionnant le compte fournisseur, la date, ou les paramètres de code taxe. Utilisez un filtre pour définir les paramètres de l'état plus précisément. Pour imprimer le rapport **Taxe** **par fournisseur - Belgique**, cliquez sur **Taxe** &gt; **Recherches et états** &gt; **Déclarations de taxe** &gt; **Taxe** **par fournisseur - Belgique**.
 
 ## <a name="purchase-sales-tax-transactions"></a>Transactions de taxe sur les achats
-L'état **Transactions de taxe sur les achats** affiche les transactions comportant des droits de douane sur les achats. Les droits de douane sur les achats sont calculés et validés avec les paiements de taxe. Les droits de douane sur les achats et les taxes sont déclarés pour la période de règlement. La période de règlement varie selon l'administration fiscale définie sur la page **Périodes de règlement de la taxe**. Les informations dans la section d'en-tête de l'état fournissent des détails tels que le numéro identifiant TVA, le numéro d'entreprise, la période. Ces informations de détail incluent le journal, le N° document, la date, le compte fournisseur, le nom, le montant taxte comprise, et les codes déclaration de taxe. Cet état est un rapport externe. Le comptable ou gestionnaire comptable le génère et la soumet périodiquement aux administrations appropriées. Pour imprimer le rapport **Transactions de taxe sur les achats**, cliquez sur **Taxe** &gt; **Recherches et états** &gt; **Déclarations de taxe** &gt; **Transactions de taxe sur les achats**.
+L'état **Transactions de taxe sur les achats** affiche les transactions comportant des droits de douane sur les achats. Les droits de douane sur les achats sont calculés et validés avec les paiements de taxe. Les droits de douane sur les achats et les taxes sont déclarés pour la période de règlement. La période de règlement varie selon l'administration fiscale définie sur la page **Périodes de règlement de la taxe**. Les informations dans la section d'en-tête de l'état fournissent des détails tels que le numéro identifiant TVA, le numéro d'entreprise, la période. Ces informations de détail incluent le journal, le N° document, la date, le compte fournisseur, le nom, le montant taxte comprise, et les codes déclaration de taxe. Cet état est un rapport externe. Le comptable ou gestionnaire comptable le génère et la soumet périodiquement aux administrations appropriées. Pour imprimer l'état **Transactions de taxe sur les achats**, cliquez sur **Taxe** &gt; **Recherches et états** &gt; **Déclarations de taxe** &gt; **Transactions de taxe sur les achats**.
 
 
 

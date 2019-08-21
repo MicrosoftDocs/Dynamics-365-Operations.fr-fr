@@ -1,26 +1,26 @@
 ---
 title: Taxe au preneur
-description: Cette rubrique explique comment paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour les pays européens et l'Arabie saoudite.
+description: Cette rubrique explique comment paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour les pays européens, l'Arabie saoudite et Singapour.
 author: epodkolz
 manager: AnnBe
-ms.date: 04/05/2017
+ms.date: 07/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 26f7f3f11408cac387c58a5345b566ac50ed426f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 530ff52abb1dd36c473ae436d61ea925c5696a30
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571169"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852421"
 ---
 # <a name="reverse-charge-vat"></a>Taxe au preneur
 
@@ -28,7 +28,7 @@ ms.locfileid: "1571169"
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique décrit une approche générique pour paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour l'Arabie saoudite et les pays européens.
+Cette rubrique décrit une approche générique pour paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour l'Arabie saoudite, Singapour et les pays européens.
 
 La taxe au preneur est un schéma de taxe qui déplace la responsabilité comptable et la déclaration de TVA du vendeur vers l'acheteur des marchandises et/ou des services. Par conséquent, les destinataires des marchandises et/ou des services signalent la TVA d'aval (rôle de vendeur) et la TVA d'amont (rôle d'acheteur) sur leur déclaration de TVA.
 

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxIntervat
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 273023
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 84439393c557274c950a2d98dc46dce081a71390
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: bb6a2b664caaf71211d4fe28c8bb18ee90c684cf
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624922"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850696"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -91,7 +91,7 @@ Pour paramétrer l'affectation des codes de déclaration de taxe aux codes taxe,
 Pour consulter ou modifier la configuration de la déclaration INTERVAT pour les entités juridiques en Belgique, dans la page **Configurations des états**, sélectionnez **Modèle INTERVAT** dans la liste des modèles. Ce modèle est utilisé pour la déclaration INTERVAT belge. Dans le volet Actions, cliquez sur **Concepteur** pour examiner ou modifier le modèle. Pour consulter ou modifier le format de la déclaration INTERVAT pour les entités juridiques en Belgique, dans la page **Configurations des états**, sélectionnez **Modèle INTERVAT** dans la liste des modèles, puis, sous **Modèle INTERVAT**, sélectionnez **Format INTERVAT (BE)**. Dans le volet Actions, cliquez sur **Concepteur** pour examiner ou modifier le format.
 
 ## <a name="generate-an-intervat-tax-declaration"></a>Générer une déclaration de taxe INTERVAT
-À la fin de la période de déclaration de TVA, exécutez la déclaration de taxe INTERVAT (cliquez &gt;sur **Taxe** **Déclarations** &gt; **Taxe**) pour calculer les lignes de déclaration selon la définition des codes de déclaration de taxe créés. Le tableau suivant décrit les champs à paramétrer.
+À la fin de la période de déclaration de TVA, exécutez la déclaration de taxe INTERVAT (cliquez sur **Taxe** &gt;**Déclarations** &gt; **Taxe**) pour calculer les lignes de déclaration selon la définition des codes de déclaration de taxe créés. Le tableau suivant décrit les champs à paramétrer.
 
 | Champ                    | description ;                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

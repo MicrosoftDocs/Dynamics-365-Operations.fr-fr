@@ -3,25 +3,25 @@ title: Paramétrer et générer des informations sur la plage âgée de la compt
 description: Ce guide vous aidera à paramétrer une définition de plage âgée, des soldes client échus et à afficher des soldes dans la liste Solde échu et sur la page Recouvrement.
 author: mikefalkner
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fd8738cfd3466464c9fec1760e9a369ff3a4a67
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 77b5dd5feb16cc3bd6d64b6520cc47087c5b5224
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568233"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834365"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Paramétrer et générer des informations sur la plage âgée de la comptabilité client
 
@@ -31,34 +31,31 @@ Ce guide vous aidera à paramétrer une définition de plage âgée, des soldes 
 
 
 ## <a name="create-an-aging-period-definition"></a>Créer une définition de plage âgée
-1. Accédez à Crédit et relances > Paramétrage > Définitions de plage âgée.
-2. Cliquez sur Nouveau.
-3. Entrez une valeur dans le champ Définition de la plage âgée.
-4. Tapez une valeur dans le champ Description.
-5. Cliquez sur Ajouter au-dessous pour insérer une nouvelle plage âgée.
-6. Dans le champ Période, entrez la description à indiquer sur les balances âgées.
-7. Entrez un numéro dans le champ Unité.
-8. Sélectionnez une option dans le champ Intervalle.
-    * La période comptable correspond à la période de votre calendrier comptable. Le jour, la semaine, le mois, le trimestre et les années définissent l'étendue de l'intervalle par type de date. L'option Illimité permet de sélectionner l'ensemble des transactions avant ou après la période précédente, selon qu'il s'agisse de la première ou la dernière période.  
-9. Sélectionnez une option dans le champ Indicateur âgé.
+1. Accédez à **Volet de navigation > Modules > Crédit et recouvrements > Paramétrage > Définitions des plages âgées**.
+2. Cliquez sur **Nouveau**.
+3. Entrez une valeur dans le champ **Définition de la plage âgée**.
+4. Tapez une valeur dans le champ **Description**.
+5. Cliquez sur **Ajouter au-dessous** pour insérer une nouvelle plage âgée.
+6. Dans le champ **Période**, entrez la description à indiquer sur les balances âgées.
+7. Entrez un numéro dans le champ **Unité**.
+8. Sélectionnez une option dans le champ **Intervalle**. La période comptable correspond à la période de votre calendrier comptable. Le jour, la semaine, le mois, le trimestre et les années définissent l'étendue de l'intervalle par type de date. L'option Illimité permet de sélectionner l'ensemble des transactions avant ou après la période précédente, selon qu'il s'agisse de la première ou la dernière période.  
+9. Sélectionnez une option dans le champ **Indicateur âgé**.
 10. Sélectionnez la période en haut de la grille. Mettez la description à jour pour décrire la période la plus ancienne dans la définition de plage âgée.
-11. Entrez la nouvelle description de la plage âgée dans le champ Période.
+11. Entrez la nouvelle description de la plage âgée dans le champ **Période**.
 12. Fermez la page.
 
 ## <a name="age-the-balances"></a>Définir l'âge des soldes
-1. Accédez à Crédit et relances > Tâches périodiques > Soldes client échus.
-2. Dans le champ Définition de la plage âgée, sélectionnez la définition de plage âgée que vous avez créée.
-    * Vous pouvez avoir un instantané actif pour chaque définition de plage âgée.  
-    * Tous les clients sont traités par défaut. Vous pouvez utiliser cette sélection pour calculer un seul regroupement de recouvrements de clients.  
-    * Sélectionnez la date de la transaction que vous utiliserez pour la balance âgée.  
-    * Sélectionnez une date « en date du » pour la balance âgée. La valeur par défaut est la date du jour, mais si vous remplacez ce champ par Date sélectionnée, vous pourrez choisir la date que vous souhaitez. Utilisez la date du jour pour le traitement par lots.  
-3. Développez la plage de la société. Vous pouvez sélectionner les sociétés qui seront incluses dans l'instantané. La société actuelle est sélectionnée par défaut.
-4. Cliquez sur OK pour traiter l'instantané. Cela prendra un certain du temps, vous devez donc attendre que le curseur disparaisse et consulter les messages du centre de message.
+1. Accédez à **Crédit et relances > Tâches périodiques > Soldes client échus**.
+2. Dans le champ **Définition de la plage âgée**, sélectionnez la définition de plage âgée que vous avez créée.
+    + Vous pouvez avoir un instantané actif pour chaque définition de plage âgée.  
+    + Tous les clients sont traités par défaut. Vous pouvez utiliser cette sélection pour calculer un seul regroupement de recouvrements de clients.  
+    + Sélectionnez la date de la transaction que vous utiliserez pour la balance âgée.  
+    + Sélectionnez une date « en date du » pour la balance âgée. La valeur par défaut est la date du jour, mais si vous remplacez ce champ par Date sélectionnée, vous pourrez choisir la date que vous souhaitez. Utilisez la date du jour pour le traitement par lots.  
+3. Développez la plage **Société**. Vous pouvez sélectionner les sociétés qui seront incluses dans l'instantané. La société actuelle est sélectionnée par défaut.
+4. Cliquez sur **OK** pour traiter l'instantané. Cela prendra un certain du temps, vous devez donc attendre que le curseur disparaisse et consulter les messages du centre de message.
 
 ## <a name="view-the-balances-on-the-aged-balances-list-and-on-the-collection-page"></a>Afficher les soldes dans la liste Soldes chronologiques et dans la page Collection
-1. Accédez à Crédit et relances > Collections > Soldes chronologiques.
-    * La page de liste affiche les soldes du client. L'icône de balance âgée indique la plage âgée de la transaction la plus ancienne.  
+1. Accédez à **Crédit et relances > Collections > Soldes chronologiques**. La page de liste affiche les soldes du client. L'icône de balance âgée indique la plage âgée de la transaction la plus ancienne.  
 2. Sélectionnez un client avec un solde.
-3. Développez la zone de récapitulatif Âgé pour afficher les balances âgées.
-    * La définition de plage âgée pour le récapitulatif provient de celle par défaut spécifiée dans les paramètres. Vous pouvez la modifier à l'aide du menu Collecter.  
+3. Développez la zone de récapitulatif **Âgé** pour afficher les balances âgées. La définition de plage âgée pour le récapitulatif provient de celle par défaut spécifiée dans les paramètres. Vous pouvez la modifier à l'aide du menu Collecter.  
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624810"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742631"
 ---
 # <a name="retail-peripherals"></a>Périphériques de vente au détail
 
@@ -192,7 +192,7 @@ Vous pouvez spécifier l'adresse IP des périphériques réseau à deux endroits
 
 #### <a name="modern-pos-for-android"></a>Modern POS pour Android
 
-À partir de la version 8.1.3 de Dynamics 365 for Retail, l'application Modern POS pour Android inclut une station matérielle IPC intégrée. Cette station matérielle prend en charge la communication avec les imprimantes réseau et les connecteurs de paiement. Pour plus d'informations, consultez l'article [Documentation de l'application hybride pour Android](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+À partir de la version 8.1.3 de Dynamics 365 for Retail, l'application Modern POS pour Android inclut une station matérielle IPC intégrée. Cette station matérielle prend en charge la communication avec les imprimantes réseau et les connecteurs de paiement. Pour plus d'informations, consultez l'article [Documentation de l'application hybride pour Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>PDV cloud et Modern POS pour iOS
 
@@ -541,7 +541,7 @@ Cette configuration est la configuration la plus courante pour les registres de 
 
 4. Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 5. Sélectionnez le programme de distribution **1090** pour synchroniser le nouveau profil matériel avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
-6. Sélectionnez le programme de distribution **1040** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
+6. Sélectionnez le programme de distribution **1070** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 7. Installez et activez Modern POS pour Windows.
 8. Démarrez Modern POS pour Windows, puis commencez à utiliser les périphérique connectés.
 
