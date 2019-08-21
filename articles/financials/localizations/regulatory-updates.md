@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624309"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849330"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -59,19 +59,22 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 |      2019 avril          |   10.0.1      |    Russie     |Modifications de la déclaration de taxe sur le transport de 2019  |
 |      2019 avril            |   10.0.1      | Hongrie      |  Hongrie : Facturation en ligne v.1.1 2019 dans Microsoft Dynamics 365 for Finance and Operations  |
 |      mai 2019            |   10.0.2      | Brésil      |   SPED ECD Disposition 7   |
-|      Facture en attente            |   10.0.3      | Brésil      |   NF-e new NT 2018.005 - v.1.20   |
-|      Facture en attente            |   10.0.3      | Brésil      |   SPED ECD Disposition 7   |
-|      Facture en attente            |   10.0.3      | Brésil      |   Sped ECF - Disposition 5 pour 2019   |
-|      Facture en attente            |   10.0.3      | Lituanie    |   L'état i.SAF permet à l'utilisateur de définir les codes taxe système en association avec des codes taxe juridiques    |
-|      Facture en attente            |   10.0.3      | Pologne     |   Factures SAF (JPK_FA) v.2 depuis le 1er juillet 2019  |
-|      Facture en attente            |   10.0.3      | Brésil   |   Les ajustements des document fiscaux ICMS activent la table 5.2   |
-|      Facture en attente            |   10.0.3      | Brésil    |   N-F-e Décret 54.308/18 (RS)   |
-  | Facture en attente            |   10.0.4      | Brésil    |   Prochain document fiscal 66   |
-   | Facture en attente            |   10.0.4      | Brésil    |   NF-e et NFC-e - Résolution 13/2019 et Ordonnance SUCIEF 55/2019- RJ - nouvelles conditions des balises d'exonération dans NF-e.   |
-   | Facture en attente            |   10.0.4      | Inde   |   Affichage de « Lieu d'approvisionnement » au lieu de « État » dans la facture fiscale GST  |
-   | Facture en attente            |   10.0.4      | Mexique   |  Déclaration de tiers DIOT : modifications de la mise en page 2019   |
-   | Facture en attente            |   10.0.4      | Brésil    |   NF-e ICMS-ST - Ordonnance CAT 42/18 pour l'état SP - CAT 42/18
-   | Facture en attente            |   10.0.4      | Brésil    |   NF-e Décret 54.308/18 - RS NF   |
+|      2019 juin            |   10.0.3      | Brésil      |   NF-e new NT 2018.005 - v.1.20   |
+|      2019 juin            |   10.0.3      | Brésil      |   SPED ECD Disposition 7   |
+|      2019 juin            |   10.0.3      | Brésil      |   Sped ECF - Disposition 5 pour 2019   |
+|      2019 juin            |   10.0.3      | Lituanie    |   L'état i.SAF permet à l'utilisateur de définir les codes taxe système en association avec des codes taxe juridiques    |
+|      2019 juin            |   10.0.3      | Pologne     |   Factures SAF (JPK_FA) v.2 depuis le 1er juillet 2019  |
+|      2019 juin            |   10.0.3      | Brésil   |   Les ajustements des document fiscaux ICMS activent la table 5.2   |
+|      2019 juin            |   10.0.3      | Brésil    |   N-F-e Décret 54.308/18 (RS)   |
+  | Juillet 2019            |   10.0.4      | Brésil    |   Prochain document fiscal 66   |
+   | Juillet 2019            |   10.0.4      | Brésil    |   NF-e et NFC-e - Résolution 13/2019 et Ordonnance SUCIEF 55/2019- RJ - nouvelles conditions des balises d'exonération dans NF-e.   |
+   | Juillet 2019            |   10.0.4      | Inde   |   Affichage de « Lieu d'approvisionnement » au lieu de « État » dans la facture fiscale GST  |
+   | Juillet 2019            |   10.0.4      | Mexique   |  Déclaration de tiers DIOT : modifications de la mise en page 2019   |
+   | Juillet 2019            |   10.0.4      | Brésil    |   NF-e ICMS-ST - Ordonnance CAT 42/18 pour l'état SP - CAT 42/18
+   | Juillet 2019            |   10.0.4      | Brésil    |   NF-e Décret 54.308/18 - RS NF   |
+       | Facture en attente            |   10.0.5      | Brésil    |   Guide pratique des contributions Sped 1.31. nouvelle recommandation   |
+         | Facture en attente            |   10.0.5      | Brésil    |   Nouvelle version des notes techniques pour NF-e : NT 2019.001 Version 1.00   |
+          | Facture en attente            |   10.0.5      | Espagne    |   Les règles de contrôle changent à partir du 1er octobre 2019   |
    
 
 

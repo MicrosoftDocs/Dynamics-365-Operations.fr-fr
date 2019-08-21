@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd138fb5fea4098a862fbecba5e8ec226ed6afa9
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551508"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850301"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Créer des configurations de gestion d'états électroniques pour générer des états au format Word
 
@@ -64,7 +64,7 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
     * Outre les modifications de configuration de stockage, l'action Enregistrer met également à jour le modèle Word joint. La structure du format conçu est déplacée vers le document Word joint en tant que nouvelle partie XML personnalisée nommée « État ». Notez que le modèle Word joint contient non seulement la mise en page du document que nous souhaitons générer comme sortie d'ER, mais également la structure des données que l'ER renseignera dans ce modèle au moment de l'exécution.  
 2. Cliquez sur Documents joints.
     * Maintenant vous devez lier les éléments de la partie XML personnalisée « État » aux parties du document Word.  
-    * Si vous êtes familier avec les documents Word pouvant être conçus comme des formulaires contenant des contrôles de contenu liés avec des éléments de parties XML personnalisées, effectuez toutes les étapes de la prochaine sous-tâche pour créer un document de ce type. Pour plus d'informations, voir ce lien https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Sinon, ignorez toutes les étapes de la prochaine sous-tâche.  
+    * Si vous êtes familier avec les documents Word pouvant être conçus comme des formulaires contenant des contrôles de contenu liés avec des éléments de parties XML personnalisées, effectuez toutes les étapes de la prochaine sous-tâche pour créer un document de ce type. Pour plus d'informations, voir ce lien https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Sinon, ignorez toutes les étapes de la prochaine sous-tâche.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Faites que Word effectue des liaisons de données avec la partie XML personnalisée
     * Ouvrez ce document dans Word et procédez comme suit : - Ouvrez l'onglet Développeur de Word (personnalisez le ruban s'il n'est pas encore activé).  - Sélectionnez Volet Mappage XML.  - Sélectionnez la partie XML personnalisée « État » dans la recherche.  - Effectuez la mise en correspondance des éléments de la partie XML personnalisée sélectionnée et des contrôles de contenu du document Word.  - Enregistrez le document Word mis à jour sur un lecteur local.  

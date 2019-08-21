@@ -1,5 +1,5 @@
 ---
-title: Préparer les métadonnées spécifiques à l'application pour RCS et ER
+title: Importer les fichiers au format XML avec des attributs facultatifs
 description: Cette rubrique fournit des informations sur la conception des formats ER qui spécifient les attributs XML permettant d'analyser les documents électroniques entrants au format XML.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726573"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849993"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Préparer les métadonnées spécifiques à l'application pour RCS et ER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Importer les fichiers au format XML avec des attributs facultatifs
 
 Vous pouvez créer des formats de gestion des états électroniques pour analyser les documents électroniques entrants au format XML. Certains attributs des éléments XML peuvent être spécifiés comme facultatifs dans le format ER conçu. Cela vous permet de gérer correctement les fichiers entrants avec ou sans attributs XML. Vous pouvez ensuite utiliser le contenu de ces fichiers pour mettre à jour les données d'application.
 
@@ -97,11 +97,11 @@ Les étapes suivantes expliquent comment un utilisateur dont le rôle est Admini
 5.  Cliquez sur **Enregistrer**.
 6.  Cliquez sur **Concepteur**.
 7.  Dans l'arborescence, développez **Format**.
-8.  Dans l'arborescence, développez **format\root : Élément XML (racine)**.
-9.  Dans l'arborescence, sélectionnez **format\root: Élément XML (racine)\document: Élément XML 1.* (document)**.
+8.  Dans l'arborescence, développez **format\racine : Élément XML (racine)**.
+9.  Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
 10. Cliquez sur **Lier**.
-11. Dans l'arborescence, développez **format\root: Élément XML (racine)\document: Élément XML 1.* (document)**.
-12. Dans l'arborescence, sélectionnez **format\root: Élément XML (racine)\document: Élément XML 1.* (document)\id**.
+11. Dans l'arborescence, développez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
+12. Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)\id**.
 13. Dans l'arborescence, développez **Liste = format.root.document**.
 14. Dans l'arborescence, sélectionnez **Liste = format.root.document\Code**.
 15. Cliquez sur **Lier**.

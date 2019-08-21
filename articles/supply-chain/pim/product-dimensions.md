@@ -3,7 +3,7 @@ title: Dimensions de produit
 description: Il existe quatre dimensions de produit -  Couleur, Configuration, Taille et Style. Vous combinez des dimensions de produit dans les groupes de dimensions et vous affectez des groupes de dimensions aux produits génériques. Les combinaisons de dimensions de produit déterminent la manière dont les variantes de produit sont définies.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563572"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863034"
 ---
 # <a name="product-dimensions"></a>Dimensions de produit
 
@@ -35,8 +35,8 @@ ms.locfileid: "1563572"
 Il existe quatre dimensions de produit -  Couleur, Configuration, Taille et Style. Vous combinez des dimensions de produit dans les groupes de dimensions et vous affectez des groupes de dimensions aux produits génériques. Les combinaisons de dimensions de produit déterminent la manière dont les variantes de produit sont définies.
 
 Les dimensions de produit sont des caractéristiques qui permettent d'identifier une variante de produit. Vous pouvez utiliser des combinaisons de dimensions de produit pour définir des variantes de produit. Vous devez définir au moins une dimension de produit pour un produit générique pour créer une variante de produit.
-Variantes de produit
-----------------
+
+## <a name="product-variants"></a>Variantes de produit
 
 Les variantes de produit sont également appelées des articles. Un article est un produit corporel, ce qui n'est pas le même qu'un service. Il est également possible de définir un produit générique de type Service. En utilisant le type Service, vous pouvez spécifier des variantes de produit qui incluent les services. Par exemple, vous pouvez spécifier un produit générique pour le travail Conseil et des variantes de produit pour le travail qui est effectué par les consultants supérieurs et les consultants juniors.
 

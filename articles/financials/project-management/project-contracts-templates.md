@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561460"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846029"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchroniser les contrats de projet et les projets directement de Project Service Automation vers Finance and Operations
 
@@ -94,8 +94,8 @@ Lorsque la solution d'intégration de Project Service Automation avec Finance an
 ## <a name="prerequisites-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
 - Avant toute synchronisation des contrats de projet et des projets, vous devez synchroniser les comptes.
-- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_organizationalunits** à **msdyn\_name \[Name\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir la section [Intégration des données dans Common Data Service pour les applications](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_projects** à **msdynce\_projectnumber \[Project Number\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir la section [Intégration des données dans Common Data Service pour les applications](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_organizationalunits** à **msdyn\_name \[Name\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir la section [Intégration des données dans Common Data Service pour les applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Dans votre ensemble de connexions, ajoutez une mise en correspondance des champs de clé d'intégration pour **msdyn\_projects** à **msdynce\_projectnumber \[Project Number\]**. Vous pouvez d'abord devoir ajouter un projet à l'ensemble de connexions. Pour plus d'informations, voir la section [Intégration des données dans Common Data Service pour les applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** pour les contrats de projet et les projets peut être mis à jour sur une autre valeur ou supprimé de la mise en correspondance. La valeur de modèle par défaut est **Project Service Automation**.
 - La mise en correspondance **PaymentTerms** doit être mise à jour pour refléter les conditions de paiement valides dans Finance and Operations. Vous pouvez également supprimer la mise en correspondance de la tâche de projet. La mise en correspondance des valeurs par défaut a des valeurs par défaut pour les données de démonstration. Le tableau suivant indique les valeurs dans Project Service Automation.
 

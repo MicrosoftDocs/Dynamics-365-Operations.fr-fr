@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551835"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863722"
 ---
 # <a name="modify-row-definition-cells"></a>Modifier les cellules de définition de ligne
 
@@ -402,7 +402,7 @@ La cellule **Lier aux dimensions financières** contient des liens vers des donn
 2. Double-cliquez sur une cellule dans la colonne **Lien vers les dimensions financières**.
 3. Dans la boîte de dialogue **Dimensions**, double-cliquez sur une cellule sous le nom de dimension.
 4. Dans la boîte de dialogue pour la dimension, sélectionnez **Individuelle ou plage**.
-5. Dans le champ **À partir de**, entrez la dimension de départ, ou cliquez sur ![Parcourir](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Parcourir") pour rechercher des dimensions disponibles. Pour entrer une plage de dimensions, entrez la dimension de fin dans le champ **Jusqu'à**.
+5. Dans le champ **À partir de**, entrez la dimension de départ, ou cliquez sur ![Parcourir](media/browse.gif "Parcourir") pour rechercher des dimensions disponibles. Pour entrer une plage de dimensions, entrez la dimension de fin dans le champ **Jusqu'à**.
 6. Cliquez sur **OK** pour fermer la boîte de dialogue pour la dimension. La boîte de dialogue **Dimensions** affiche la dimension ou la plage mise à jour.
 7. Cliquez sur **OK** pour fermer la boîte de dialogue **Dimensions**.
 
@@ -479,7 +479,7 @@ Le tableau suivant décrit les champs de la boîte de dialogue **Dimensions**.
 
 | Article                | Description |
 |---------------------|-------------|
-| Individuelle ou plage | Dans le champ **À partir de**, entrez le nom d'un compte, ou cliquez sur le bouton **Parcourir** ![Parcourir](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Parcourir") pour chercher le compte. Pour sélectionner une plage, entrez ou cherchez une valeur dans le champ **Jusqu'à**. |
+| Individuelle ou plage | Dans le champ **À partir de**, entrez le nom d'un compte, ou cliquez sur le bouton **Parcourir** ![Parcourir](media/browse.gif "Parcourir") pour chercher le compte. Pour sélectionner une plage, entrez ou cherchez une valeur dans le champ **Jusqu'à**. |
 | Ensemble de valeurs de dimension | Dans le champ **Nom**, entrez le nom d'un ensemble de valeurs de dimensions. Pour créer, modifier, copier ou supprimer un ensemble, cliquez sur **Gérer les ensembles de valeurs de dimension**. Le champ **Formule** est rempli avec la formule issue de la cellule **Lier aux dimensions financières** pour cette valeur de dimension définie dans la définition de ligne. |
 | Compte de totalisation   | Dans le champ **Nom**, entrez ou recherchez une dimension des comptes de totalisation. Le champ **Formule** est rempli avec la formule issue de la cellule **Lier aux dimensions financières** pour ce compte de totalisation dans la définition d'état. |
 

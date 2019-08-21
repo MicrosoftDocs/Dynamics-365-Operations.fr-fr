@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8457182fee49e28256f2a1102ba77b2b4e89d5b2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fad076ae61da4845b65518f75747fec791b3b78c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548694"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848421"
 ---
 # <a name="compensation-power-bi-content"></a>Contenu Power BI Rémunération
 
@@ -45,7 +45,7 @@ Les états inclus dans le contenu Power BI **Rémunération** contiennent des gr
 | Analyse des rémunérations par poste      | La rémunération horaire et salariale la plus élevée et la moins élevée, les postes avec le salaire le plus élevé et le plus bas et les postes à temps plein et à temps partiel |
 | Analyse des régimes de rémunération | Inscription de l'employé par avantage sélectionné |
 
-Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 Les données suivantes sont utilisées pour remplir les états dans le contenu Power BI **Rémunération**. Ce tableau indique les entités sur lesquelles le contenu est basé.

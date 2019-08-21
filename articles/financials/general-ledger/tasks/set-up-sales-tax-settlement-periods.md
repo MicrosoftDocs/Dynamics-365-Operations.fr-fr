@@ -3,25 +3,25 @@ title: Paramétrer des périodes de règlement fiscal
 description: Les périodes de règlement fiscal contiennent des informations sur l'intervalle pour lequel les taxes doivent être déclarées et payées.
 author: twheeloc
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8304d9e8997a5d31740ee1203aa4bf0603014056
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569584"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862986"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Paramétrer des périodes de règlement fiscal
 
@@ -50,6 +50,8 @@ La société fictive USMF est citée en exemple dans cette tâche.
 12. Entrez le nombre d'unités de l'intervalle par période. Un trimestre a 3 mois, par exemple.
 13. Activez ou désactivez la case à cocher Utiliser le traitement par lots pour le règlement de la taxe.
     * Le processus de règlement pour la période de règlement peut être traité en tant que traitement par lots en arrière-plan. Cette opération est recommandée pour un grand nombre de transactions de taxe dans un intervalle de périodes.  
+    > [!NOTE]
+    > Pour le moment, elle n'est pas prise en charge en Autriche, Belgique, Espagne, Italie, Japon et Pays-Bas.
 14. Activez ou désactivez la case à cocher Empêcher la génération des transactions de taxe de contrepartie.
     * Par défaut, le système génère des transactions de taxe de contrepartie au cours de le processus de règlement, ce qui peut entraîner des problèmes de performances s'il existe un grand nombre de transactions de taxe au sein d'un intervalle de périodes. Activez cette case à cocher pour empêcher la génération des transactions de taxe de contrepartie.
 15. Développez l'onglet Intervalles de périodes.

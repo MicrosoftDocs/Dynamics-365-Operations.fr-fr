@@ -3,25 +3,25 @@ title: Paramétrer des stratégies pour les hiérarchies de catégories d'approv
 description: Cette procédure permet de définir des règles pour commander des produits dans une catégorie.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1fdf357466de12bd0188fc43cd266c67af762c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569912"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844172"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement
 
@@ -31,31 +31,24 @@ Cette procédure permet de définir des règles pour commander des produits dans
 
 
 ## <a name="find-the-procurement-policy"></a>Rechercher la stratégie d'approvisionnement
-1. Allez dans Approvisionnements > Paramétrage > Stratégies > Politiques d'achat.
-2. Cliquez sur le lien de la stratégie d'approvisionnement USMF.
-    * Il s'agit de la stratégie à laquelle vous devez ajouter la règle. Il doit s'agir d'une stratégie Active.  
+1. Dans le volet de navigation, accédez à **Modules > Approvisionnements > Paramétrage > Stratégies > Stratégies d'achat**.
+2. Cliquez sur le lien de la stratégie d'approvisionnement USMF. Il s'agit de la stratégie à laquelle vous devez ajouter la règle. Il doit s'agir d'une stratégie Active.  
 
 ## <a name="create-a-category-access-rule"></a>Création d'une règle d'accès à la catégorie
-1. Sélectionnez la règle de stratégie d'accès à la catégorie.
-    * Le bouton Créer une règle de stratégie est estompé parce qu'il y a déjà une règle de stratégie active pour l'accès à la catégorie. Vérifiez les champs Date d'effet et Date d'expiration pour déterminer de quelle règle il s'agit, puis sélectionnez-la et cliquez sur Supprimer la règle de stratégie. Si le bouton Créer une règle de stratégie est disponible, vous n'avez rien à faire.  
-2. Cliquez sur Créer une règle de stratégie.
-3. Entrez une date et une heure dans le champ Date d'effet.
-    * La durée ne doit pas chevaucher une autre règle qui est déjà active.  
-    * Choisissez une catégorie à la laquelle la règle s'appliquera. Notez la catégorie dont il s'agit, vous en aurez besoin plus tard. Lorsque vous sélectionnez une catégorie, sa ou ses catégories parentes sont également ajoutées à la liste Catégories sélectionnées.  
-    * Pour appliquer la règle à toutes les sous-catégories de la catégorie sélectionnée, cochez la case Inclure les sous-catégories.  
-4. Cliquez sur Ajouter.
-    * Si vous définissez l'option Inclure la règle parent sur Oui, la règle de stratégie que vous définissez pour une catégorie parente est également affectée à ses catégories enfants si aucune règle de stratégie n'a été définie pour les catégories enfants.  
-5. Cliquez sur OK.
+1. Développez le raccourci **Règles de stratégie**.
+2. Dans la liste **Type de règle de stratégie**, sélectionnez **Règle de stratégie d'accès à la catégorie**. Le bouton **Créer une règle de stratégie** est estompé parce qu'il y a déjà une règle de stratégie active pour l'accès à la catégorie. Vérifiez les champs **Date d'effet** et **Date d'expiration** pour déterminer de quelle règle il s'agit, puis sélectionnez-la et cliquez sur **Supprimer la règle de stratégie**. Si le bouton **Créer une règle de stratégie** est disponible, vous n'avez rien à faire.  
+3. Cliquez sur **Créer une règle de stratégie**.
+4. Entrez une date et une heure dans le champ **Date d'effet**. La durée ne doit pas chevaucher une autre règle qui est déjà active.  
+5. Choisissez une catégorie à la laquelle la règle s'appliquera. Notez la catégorie dont il s'agit, vous en aurez besoin plus tard. Lorsque vous sélectionnez une catégorie, sa ou ses catégories parentes sont également ajoutées à la liste Catégories sélectionnées. Pour appliquer la règle à toutes les sous-catégories de la catégorie sélectionnée, cochez la case **Inclure les sous-catégories**.
+6. Cliquez sur la flèche droite pour l'ajouter à la liste **Catégories sélectionnées**.  
+4. Cliquez sur **OK**. Si vous définissez l'option **Inclure la règle parent** sur Oui, la règle de stratégie que vous définissez pour une catégorie parente est également affectée à ses catégories enfants si aucune règle de stratégie n'a été définie pour les catégories enfants.
 
 ## <a name="create-a-category-policy-rule"></a>Création d'une règle de stratégie de catégorie.
-1. Sélectionner la règle de stratégie de catégorie
-    * Si le bouton Créer une règle de stratégie est estompé, choisissez la règle de stratégie active, puis cliquez sur Supprimer la règle de stratégie.  
-2. Cliquez sur Créer une règle de stratégie.
-3. Entrez une date et une heure dans le champ Date d'effet.
-4. Cliquez sur Ajouter.
-5. Choisissez la même catégorie que celle utilisée pour la règle d'accès à la catégorie.
-6. Dans le champ Sélection de fournisseur, sélectionnez une option.
-    * Choisissez une règle pour contrôler le genre de fournisseur qui peut être choisi pour la catégorie quand des demandes sont créées.  
-7. Cliquez sur Fermer.
-    * Les règles de stratégie que vous avez définies concernaient des demandes de type Consommation. Pour définir des stratégies pour des demandes de type Réapprovisionnement, vous devez créer une règle pour le type de règle de stratégie appelé « Règle de stratégie d'accès à la catégorie de réapprovisionnement ».  
+1. Dans la liste **Type de règle de stratégie**, sélectionnez **Règle de stratégie de catégorie**. Si le bouton **Créer une règle de stratégie** est estompé, choisissez la règle de stratégie active, puis cliquez sur **Supprimer la règle de stratégie**.  
+2. Cliquez sur **Créer une règle de stratégie**.
+3. Entrez une date et une heure dans le champ **Date d'effet**.
+4. Cliquez sur **Ajouter**.
+5. Dans le champ **Catégorie**, sélectionnez la même catégorie que celle utilisée pour la **Règle d'accès à la catégorie**.
+6. Sélectionnez une option dans le champ **Sélection de fournisseur**. Choisissez une règle pour contrôler le genre de fournisseur qui peut être choisi pour la catégorie quand des demandes sont créées.  
+7. Cliquez sur **Fermer**. Les règles de stratégie que vous avez définies concernaient des demandes de type Consommation. Pour définir des stratégies pour des demandes de type Réapprovisionnement, vous devez créer une règle pour le type de règle de stratégie appelé « Règle de stratégie d'accès à la catégorie de réapprovisionnement ».  
 

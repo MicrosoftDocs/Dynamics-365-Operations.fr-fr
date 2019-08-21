@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0f7d63fa0566cfc2a23b3228d687d7f85d848c9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549581"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840743"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>État Récupération d'immobilisations
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549581"
 
 L'état **Récupération d'immobilisations** fournit, dans un format Microsoft Excel facile à lire, des données détaillées sur les immobilisations qui sont nécessaires pour la clôture de période, les tableaux d'analyse et la déclaration de taxe. L'état inclut les soldes de début et de fin des immobilisations, ainsi que les mouvements d'évaluation pour la période et les nouvelles acquisitions et cessions d'immobilisation au cours de la période. Les données sont fournies pour des immobilisations individuelles, et les valeurs sont également résumées pour les groupes d'immobilisations et l'entité juridique.
 
-L'état **Récupération d'immobilisations** utilise la structure de gestion des états électroniques. Avant d'exécuter l'état, les configurations Modèle d'immobilisations et Récupération d'immobilisations doivent être importées depuis Microsoft Dynamics Lifecycle Services (LCS). Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+L'état **Récupération d'immobilisations** utilise la structure de gestion des états électroniques. Avant d'exécuter l'état, les configurations Modèle d'immobilisations et Récupération d'immobilisations doivent être importées depuis Microsoft Dynamics Lifecycle Services (LCS). Pour plus d'instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 Cet état est disponible dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, ou comme correctif pour Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017). Trois correctifs doivent être appliqués aux environnements de la version de juillet 2017 :
 

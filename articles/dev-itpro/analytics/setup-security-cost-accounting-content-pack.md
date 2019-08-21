@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab9b9533ae650c05f57a45be25aec6cbe2e3db76
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551458"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849865"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Paramétrage de la sécurité pour l'analyse de contrôle de gestion - Contenu Power BI
 
@@ -63,4 +63,4 @@ Si la sécurité au niveau des accès dans le contrôle de gestion subit des mis
 Supposons que votre organisation souhaite restreindre l'accès aux données. Si, pour quelque raison, les paramètres de sécurité sont désactivés lorsque vous exécutez le contrôle de gestion, le propriétaire doit ajouter des utilisateurs au rôle **Contrôleur de gestion** dans Power BI. Si vous passez la sécurité de l'état activé à l'état désactivé, il est bon de supprimer des utilisateurs du rôle **Contrôleur d'objet de coût**. Et inversement si vous réactivez la sécurité. Les utilisateurs peuvent appartenir aux deux rôles. L'accès conjoint est la réunion des deux rôles. Dans le cas du contenu Power BI **Analyse du contrôle de gestion**, les utilisateurs qui disposent de l'accès conjoint ont un accès sans restriction aux données. Si votre objectif est de restreindre les accès, les utilisateurs doivent être affectés uniquement au rôle **Contrôleur d'objet de coût**. Ces mises à jour de sécurité au niveau des lignes prennent effet immédiatement. Les utilisateurs affectés doivent actualiser leur navigateur.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-Pour en savoir plus sur la sécurité au niveau des lignes de Power BI, voir [Gérer la sécurité de votre modèle dans Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Pour en savoir plus sur la sécurité au niveau des lignes de Power BI, voir [Gérer la sécurité de votre modèle dans Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551669"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850095"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenu Power BI Gestionnaire de pratique
 
@@ -54,7 +54,7 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 | EVM               | Indice de performance des coûts et de l'échéancier par projet |
 | Heures             | <ul><li>Heures utilisées facturables réelles, heures non facturables réelles et heures budgétées</li><li>Heures utilisées facturables réelles et heures non facturables réelles par projet</li><li>Heures utilisées facturables réelles et heures non facturables réelles par ressource</li><li>Taux d'heures facturables réelles par projet</li><li>Taux d'heures facturables réelles par ressource</li></ul> |
 
-Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Vous pouvez également utiliser la fonctionnalité Exporter les données sous-jacentes pour exporter les données sous-jacentes qui sont résumées dans une visualisation.
+Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Vous pouvez également utiliser la fonctionnalité Exporter les données sous-jacentes pour exporter les données sous-jacentes qui sont résumées dans une visualisation.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 
@@ -62,7 +62,7 @@ Les données suivantes sont utilisées pour remplir les pages d'état dans le co
 
 Les sections suivantes décrivent les mesures globales utilisées dans chaque entité.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Entité : ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Entité : ProjectAccountingCube\_ActualHourUtilization
 **Source de données :** ProjEmplTrans
 
 | Mesure globale clé      | Champ                              | Description |
@@ -70,7 +70,7 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 | Heures utilisées facturables réelles | Sum(ActualUtilizationBillableRate) | Total des heures utilisées facturables réelles. |
 | Heures de la charge facturable réelles   | Sum(ActualBurdenBillableRate)      | Total du taux de charge réel. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Entité : ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Entité : ProjectAccountingCube\_Actuals
 **Source de données :** ProjTransPosting
 
 | Mesure globale clé | Champ              | Description |
@@ -78,14 +78,14 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 | Produit réel            | Sum(ActualRevenue) | Total du produit validé pour toutes les transactions. |
 | Coût réel               | Sum(ActualCost)    | Total du coût validé pour tous les types de transactions. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Entité : ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Entité : ProjectAccountingCube\_Customer
 **Source de données :** CustTable
 
 | Mesure globale clé | Champ                                             | Description  |
 |---------------------------|---------------------------------------------------|-------------|
 | Nombre de projets        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Nombre de projets disponibles. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Entité : ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Entité : ProjectAccountingCube\_Forecasts
 **Source de données :** ProjTransBudget
 
 | Mesure globale clé | Champ                  | Description |
@@ -94,14 +94,14 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 | Produit budgété            | Sum(BudgetRevenue)     | Total du produit provisionné/facturé prévisionnel. |
 | Marge budgétaire brute       | Sum(BudgetGrossMargin) | Différence entre la somme du produit prévisionnel total et la somme du coût prévisionnel total. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Entité : ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Entité : ProjectAccountingCube\_ProjectPlanCostsView
 **Source de données :** Project
 
 | Mesure globale clé | Champ                    | Description |
 |---------------------------|--------------------------|-------------|
 | Coût planifié              | Sum(SumOfTotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches planifiées. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Entité : ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Entité : ProjectAccountingCube\_Projects
 **Source de données :** Project
 
 | Mesure globale clé    | Champ | Description  |
@@ -112,7 +112,7 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 | Taux d'heures facturables réelles  | ProjectAccountingCube\_Projects\[Heures utilisées facturables réelles totales du projet\] ÷(ProjectAccountingCube\_Projects\[Heures utilisées facturables réelles totales du projet\] + ProjectAccountingCube\_Projects\[Heures non facturables réelles totales du projet\]) | Le nombre total d'heures facturables réelles, en fonction des heures d'utilisation et des heures de charge. |
 | Valeur gagnée                 | ProjectAccountingCube\_Projects\[Coût prévisionnel total du projet\] × ProjectAccountingCube\_Projects\[Pourcentage de travail terminé\] | Coût prévisionnel total multiplié par le pourcentage de travail terminé. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entité : ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Entité : ProjectAccountingCube\_TotalEstimatedCosts 
 **Source de données :** ProjTable
 
 | Mesure globale clé       | Champ               | Description |
