@@ -1,59 +1,53 @@
 ---
 title: Inspecter la qualité des marchandises
-description: Cette procédure indique comment traiter un ordre de qualité.
+description: Cette rubrique explique comment traiter un ordre de qualité.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQualityOrderTable, InventQualityOrderLineResults, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e9d750f116db62519ac7148f19bf62050430e9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 10acb9aadfeb11ede1d66dd525ace7b70db3bd1c
+ms.sourcegitcommit: fbaccf72df82e6b6927f0c9f0d35af0ca3ecbc2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545403"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1855684"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Inspecter la qualité des marchandises
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure indique comment traiter un ordre de qualité. Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF. Avant de commencer cet procédure d'exemple, vous devez confirmer la commande fournisseur 000016 et valider un accusé de réception de marchandises. Cette opération crée automatiquement un ordre de qualité. Les inspections de qualité sont généralement effectuées par un commis au contrôle de la qualité.
+Cette rubrique explique comment traiter un ordre de qualité. Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF. Avant de commencer cet procédure d'exemple, vous devez confirmer la commande fournisseur 000016 et valider un accusé de réception de marchandises. Cette opération crée automatiquement un ordre de qualité. Les inspections de qualité sont généralement effectuées par un commis au contrôle de la qualité.
 
 
 ## <a name="select-a-quality-order"></a>Sélectionnez un ordre de qualité.
-1. Allez dans Gestion des stocks > Tâches périodiques > Gestion de la qualité > Ordres de qualité.
-2. Dans la liste, marquez la ligne sélectionnée.
-    * Sélectionnez l'ordre de qualité créé avant d'avoir commencé cette procédure.  
+1. Dans le volet de navigation, accédez à **Modules > Gestion des stocks > Tâches périodiques > Gestion de la qualité > Ordres de qualité**.
+2. Sélectionnez l'ordre de qualité créé avant d'avoir commencé cette procédure.  
 
 ## <a name="record-test-results"></a>Enregistrement des résultats de test
-1. Cliquez sur Résultats.
-2. Cliquez sur Modifier.
-3. Entrez un nombre dans le champ Quantité du résultat.
-4. Dans la liste, marquez la ligne sélectionnée.
-5. Dans le champ Résultat, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Dans cet exemple, le résultat est basé sur les résultats prédéfinis. Normalement vous devez enregistrer un résultat de test plus spécifique, par exemple une taille ou autre dimension.  
-7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Cliquez sur Enregistrer.
-9. Fermez la page.
+1. Sélectionnez **Résultats**.
+2. Sélectionnez **Modifier**.
+3. Dans le champ **Quantité du résultat**, entrez un nombre.
+4. Dans le champ **Résultat**, sélectionnez l'enregistrement souhaité dans le menu déroulant.  
+- Dans cet exemple, le résultat est basé sur les résultats prédéfinis. Normalement vous devez enregistrer un résultat de test plus spécifique, par exemple une taille ou autre dimension.  
+5. Sélectionnez **Enregistrer**.
+6. Fermez la page.
 
 ## <a name="validate-the-quality-order"></a>Contrôler l'ordre de qualité
-1. Cliquez sur Valider.
-2. Dans le champ Validé par, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Sélectionnez l'utilisateur qui effectue l'inspection.  
-3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-4. Cliquez sur Sélectionner.
-5. Cliquez sur OK.
-6. Fermez la page.
+1. Sélectionnez **Valider**.
+2. Dans le champ **Validé par**, sélectionnez l'utilisateur effectuant l'inspection dans le menu déroulant.  
+3. Cliquez sur **Sélectionner**.
+4. Cliquez sur **OK**.
+5. Fermez la page.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85cb5c5618346f1e5132f818911be21df86fbfcb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554988"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741108"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Ouvrir des données d'entité dans Excel et les mettre à jour à l'aide du module complémentaire Excel
 
@@ -60,7 +60,7 @@ Le module complémentaire Excel lit automatiquement les données de l'entité s�
 
 6. Cliquez sur **OK**, puis cliquez sur **Oui** pour confirmer la modification. Le complément Excel redémarre et charge les métadonnées.
 
-    Le bouton **Conception** est désormais disponible. Si le complément Excel comporte un bouton **Charger les applets**, vous n'êtes probablement pas connecté sous le bon compte d'utilisateur. Pour plus d'informations, voir « Le bouton Charger les applets s'affiche » dans la section [Dépannage](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) de cette rubrique.
+    Le bouton **Conception** est désormais disponible. Si le complément Excel comporte un bouton **Charger les applets**, vous n'êtes probablement pas connecté sous le bon compte d'utilisateur. Pour plus d'informations, voir « Le bouton Charger les applets s'affiche » dans la section [Dépannage](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) de cette rubrique.
 
 7. Sélectionnez **Design**. Le complément Excel récupère les métadonnées d'entité.
 8. Sélectionnez **Ajouter une table**. La liste des entités apparaît. Les entités sont répertoriées dans le format « Nom - Étiquette ».

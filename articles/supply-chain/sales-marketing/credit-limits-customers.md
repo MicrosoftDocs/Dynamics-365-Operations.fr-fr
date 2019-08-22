@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 37e860a969d527a334af7524c70e5ea15be7801e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551812"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742376"
 ---
 # <a name="credit-limits-for-customers"></a>Limites de crédit pour les clients
 
@@ -93,7 +93,7 @@ Utilisez l'écran **Paramètres de la comptabilité client** pour spécifier les
 
 **Où se trouvent les informations concernant le crédit restant utilisé d'un client ?**
 
-Le solde et le montant de crédit restant d'un client sont calculés et enregistrés lorsque vous créez un instantané de balance âgée, et sont affichés dans l'écran **Recouvrements**. Les montants affichés dans l'écran **Recouvrements** peuvent ne pas inclure toutes les activités de transaction tant qu'un nouvel instantané de balance âgée n'a pas été créé. Pour plus d'informations, voir [Recouvrements et crédit dans la Comptabilité client](https://technet.microsoft.com/en-us/library/hh209221.aspx).
+Le solde et le montant de crédit restant d'un client sont calculés et enregistrés lorsque vous créez un instantané de balance âgée, et sont affichés dans l'écran **Recouvrements**. Les montants affichés dans l'écran **Recouvrements** peuvent ne pas inclure toutes les activités de transaction tant qu'un nouvel instantané de balance âgée n'a pas été créé. Pour plus d'informations, voir [Recouvrements et crédit dans la Comptabilité client](https://technet.microsoft.com/library/hh209221.aspx).
 
 En fonction des documents sélectionnés, les informations sur le solde d'un client et le montant créditeur restant sont calculés lorsque les commandes client, les bons de livraison et les factures client sont mis à jour. Si le montant du document sur lequel vous travaillez dépasse la limite de crédit, un message s'affiche.
 

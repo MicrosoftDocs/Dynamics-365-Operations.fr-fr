@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 75d323c5d3adf4a880f8b464e03ee35cd6335e14
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544285"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850179"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Contenu Power BI Mesures de main d'œuvre
 
@@ -56,7 +56,7 @@ Le tableau suivant répertorie les mesures affichées dans chaque état.
 | Anniversaires des employés                               | Anniversaires ce mois-ci, anniversaires le mois suivant, anniversaires des employés et anniversaires par mois et service |
 | Projets d'embauche collective                               | Nombre total de projets d'embauche collective, projets d'embauche collective par statut, projets d'embauche collective par département et propriétaire, projets d'embauche collective par tâche et projets d'embauche collective |
 
-Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Veillez à télécharger le contenu Power BI **Mesures de la main œuvre** qui s'applique à la version de Microsoft Dynamics 365 que vous utilisez.
 

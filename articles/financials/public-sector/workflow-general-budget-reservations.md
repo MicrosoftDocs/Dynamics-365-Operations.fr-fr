@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN, BudgetReservationType_PSN
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f876e4cd3c9a24a39b7ea9f19c29d07eda9bd006
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 56ed7e3332737067885733828b8f2d4a64523843
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537895"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835997"
 ---
 # <a name="set-up-general-budget-reservations-and-submit-them-to-a-workflow"></a>Paramétrer les réservations budgétaires générales et les envoyer à un workflow
 

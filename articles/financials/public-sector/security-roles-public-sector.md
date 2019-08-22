@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UserRequestListPage
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 19721
 ms.assetid: e26a6d93-851e-46be-8543-de2798909350
@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8119ae2e5fbf24944f980db6b0ca4023032c501f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9831d7baedfe01034be98d6a3f9f3ac262aa1cba
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557247"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845760"
 ---
 # <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité dans le secteur public
 

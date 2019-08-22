@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendCertification, DirPartyLookup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f79c02ab98e89a24c6b7a4933c5119a8ae175a22
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 002975a05e5a8582e7fa7a411e1aba277964067c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557245"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845769"
 ---
 # <a name="add-a-certification-type-to-a-vendor-in-the-public-sector"></a>Ajouter un type de certification à un fournisseur dans le secteur public
 

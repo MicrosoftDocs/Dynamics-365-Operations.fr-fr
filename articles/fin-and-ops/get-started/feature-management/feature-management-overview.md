@@ -3,7 +3,7 @@ title: Présentation de la gestion des fonctionnalités
 description: Cette rubrique décrit la fonctionnalité de gestion des fonctionnalités et son utilisation.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632051"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862936"
 ---
 # <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Les fonctionnalités sont ajoutées et mises à jour dans chaque version de Microsoft Dynamics 365 for Finance and Operations. L'expérience de gestion des fonctionnalités fournit un espace de travail dans lequel vous pouvez afficher une liste des fonctionnalités fournies dans chaque version. Par défaut, les nouvelles fonctionnalités sont désactivées. Vous pouvez utiliser l'espace de travail pour les activer et consulter la documentation les concernant.
 
@@ -38,7 +39,7 @@ Vous pouvez ouvrir l'espace de travail **Gestion des fonctionnalités** en séle
 La liste des fonctionnalités inclut les informations suivantes :
 
 - **Nom de fonctionnalité** – Description de la fonctionnalité ajoutée.
-- **Statut Activé** – Un symbole indique si une fonctionnalité a été activée (coche), n'a pas été activée (vide), est planifiée pour être activée (horloge), ou est obligatoirement activée (verrou). Le paramètre affiché ici est utilisé pour toutes les entités juridiques. Notez que même si une fonctionnalité a été activée, elle est toujours contrôlée par la sécurité. Par conséquent, la fonctionnalité est disponible uniquement aux utilisateurs qui ont accès à celle-ci, selon son rôle de sécurité. Elle n'est également disponible que dans les entités juridiques auxquelles l'utilisateur a accès.
+- **Statut Activé** – Un symbole indique si une fonctionnalité a été activée (coche), n'a pas été activée (vide), est planifiée pour être activée (horloge), ou est obligatoirement activée (verrou), nécessite votre attention avant de l'activer (avertissement) ou ne peut pas être activée (X). Le paramètre affiché est utilisé pour toutes les entités juridiques. Notez que même si une fonctionnalité a été activée, elle est toujours contrôlée par la sécurité. Par conséquent, la fonctionnalité est disponible uniquement aux utilisateurs qui ont accès à celle-ci, selon son rôle de sécurité. Elle n'est également disponible que dans les entités juridiques auxquelles l'utilisateur a accès.
 - **Activer la date** – Date à laquelle la fonctionnalité a été activée ou est planifiée pour être activée.
 - **Fonctionnalité ajoutée** – Date à laquelle la fonctionnalité a été ajoutée à votre environnement. Cette date est entrée automatiquement lorsque vous mettez votre environnement à jour lors des cycles de version mensuels.
 - **Module** – Module affecté par la nouvelle fonctionnalité.
@@ -59,6 +60,10 @@ Si une fonctionnalité n'a pas été activée, un bouton **Activer maintenant** 
 - Sélectionnez la fonctionnalité à activer, puis, dans le volet des détails, sélectionnez **Activer maintenant**. La fonctionnalité est activée.
 
 Certaines fonctionnalités ne peuvent pas être désactivées après avoir été activées. Si la fonctionnalité que vous essayez d'activer ne peut pas être désactivée, vous recevez un avertissement. À ce stade, vous pouvez sélectionner **Annuler** pour annuler l'opération et laisser la fonctionnalité désactivée. Toutefois, si vous sélectionnez **Activer** pour activer la fonctionnalité, vous ne pourrez pas la désactiver ultérieurement.
+
+Certaines fonctionnalités affichent un message qui fournit des informations supplémentaires avant de les activer. Ces fonctionnalités sont indiquées par un symbole d'avertissement jaune. Vous devez lire les informations supplémentaires soigneusement afin de mieux comprendre ce qui se produit quand la fonctionnalité est activée. Toutefois, vous pouvez toujours sélectionner **Activer** pour activer la fonctionnalité.
+
+Certaines fonctionnalités affichent un message indiquant que la fonctionnalité ne peut pas être activée avant qu'une action soit effectuée. Ces fonctionnalités sont indiquées par un symbole X rouge. Vous devez effectuer les actions décrites dans la description avant que la fonctionnalité soit activée. Par exemple, si vous ne pouvez pas utiliser une fonctionnalité tant qu'une clé de configuration n'est pas désactivée, vous devez désactiver la clé de configuration, puis revenir à la gestion des fonctionnalités pour activer la fonctionnalité.
 
 Une fois une fonctionnalité activée, un message apparaît sous du lien **En savoir plus** dans le volet des détails. Ce message indique que la fonctionnalité a été activée ou indique la date future à laquelle la fonctionnalité est prévue pour être activée. Il s'affiche chaque fois que vous sélectionnez la fonctionnalité dans la liste des fonctionnalités.
 
@@ -84,12 +89,28 @@ Une fois une fonctionnalité désactivée, un message apparaît sous du lien **E
 
 Parfois, une fonctionnalité essentielle est fournie qui doit être activée automatiquement lors de la mise à jour. Ces fonctions sont activées automatiquement à la date spécifiée dans le champ **Date d'activation**. Pour ces fonctionnalités, un message apparaît sous du lien **En savoir plus** dans le volet des détails. Ce message indique que la fonctionnalité a été activée ou indique la date future à laquelle la fonctionnalité sera activée. Il s'affiche chaque fois que vous sélectionnez la fonctionnalité dans la liste des fonctionnalités.
 
+## <a name="enable-all-features"></a>Activer toutes les fonctionnalités
+
+Par défaut, toutes les fonctionnalités ajoutées à votre environnement sont désactivées. Vous pouvez activer toutes les fonctionnalités en sélectionnant le bouton **Activer tout**. 
+
+Lorsque vous sélectionnez **Activer tout**, une option s'affiche dans laquelle vous devez entrer les informations suivantes :
+- Une liste de toutes les fonctionnalités ce qui nécessitent une confirmation pour pouvoir être activées. Si vous souhaitez activer les fonctionnalités de la liste, sélectionnez **Oui** pour le bouton **Activer les fonctionnalités nécessitant une confirmation**.
+- Une liste de toutes les fonctionnalités qui ne peuvent pas être activées s'affiche. Ces fonctionnalités ne sont pas activées.
+
+Toutes les fonctionnalités pouvant être activées sont activées. Si une fonctionnalité est déjà planifiée pour être activée dans le futur, le programme ne change pas. 
+
 ## <a name="turn-on-all-features-automatically"></a>Activer toutes les fonctionnalités automatiquement
 
 Par défaut, toutes les fonctionnalités ajoutées à votre environnement sont désactivées, à moins qu'elles soient obligatoires. Cependant, si vous souhaitez activer automatiquement toutes les nouvelles fonctionnalités, vous pouvez utiliser la liste déroulante sous le titre de l'espace de travail pour modifier ce qui se produit lorsque de nouvelles fonctionnalités sont ajoutées.
 
 - Sélectionnez **Toutes les nouvelles fonctionnalités seront activées par défaut** pour activer automatiquement toutes les nouvelles fonctionnalités lorsqu'elles sont ajoutées à votre environnement.
 - Sélectionnez **Toutes les nouvelles fonctionnalités seront désactivées par défaut** pour désactiver automatiquement toutes les nouvelles fonctionnalités lorsqu'elles sont ajoutées à votre environnement.
+
+Lorsque vous activez toutes les fonctionnalités automatiquement, cela active toutes les fonctionnalités qui sont activées lorsque vous cliquez sur le bouton **Activer tout**. Cela n'active pas les fonctionnalités qui nécessitent une confirmation ou les fonctionnalités qui ne peut pas être activées tant qu'aucune action n'est effectuée.
+
+## <a name="check-for-updates"></a>Rechercher des mises à jour
+
+Les fonctionnalités sont ajoutées à votre environnement après chaque mise à jour. Toutefois, vous pouvez rechercher manuellement les mises à jour en cliquant sur le bouton **Rechercher des mises à jour**. Toute fonctionnalité ajoutée au système après la mise à jour est ajoutée à la liste de fonctionnalités. Par exemple, si une fonction en version d'évaluation est activée après sa sortie, vous pouvez vérifier les mises à jour et la fonctionnalité est ajouté à la liste.
 
 ## <a name="assigning-roles"></a>Attribution de rôles
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec3fe2a7344c2719ca12a180fa0adb025b7fcc7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 67f8f9a24aeb88496d5b694dff550455bae6aa17
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558124"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742978"
 ---
 # <a name="view-the-status-of-service-orders"></a>Affichage du statut des commandes de service 
 
@@ -50,7 +50,7 @@ Afin de vous aider à vite évaluer l'urgence d'une commande de service, le diag
 
 [Surveillance des activités du service](monitor-service-activities.md)
 
-[Tableau d'affectation (écran)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))
+[Tableau d'affectation (écran)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
   
 

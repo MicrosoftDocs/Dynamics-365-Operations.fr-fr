@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration, PurchAgreement, PurchCommitment_PSN, PurchTable
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 19531
 ms.search.region: France
@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d36867016f6bfeb149e417c1d86b585e01d59b2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b586d8f75f9fa6c32c7356bb08225f8e7e844082
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547174"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852251"
 ---
 # <a name="commitments-in-the-public-sector-in-france"></a>Engagements dans le secteur public en France
 

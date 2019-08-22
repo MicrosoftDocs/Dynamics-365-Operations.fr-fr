@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 12811
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2c4fe1c93693cee9164f2c22ad71a29abd6473d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547203"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852182"
 ---
 # <a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
 
@@ -121,7 +121,7 @@ Le tableau suivant indique la configuration requise qui doit être en place avan
 <li>Onglet <strong>Paramètres de pays/région</strong> : Permet d'identifier des états membres de l'UE. Pour chaque état membre de l'UE, vous pouvez créer un enregistrement dans la page, puis spécifier les informations suivantes :
 <ul>
 <li><strong>Pays/Région</strong> : Permet de sélectionner un pays/une région.</li>
-<li><strong>Type de pays/région</strong> : Si la valeur <strong>Pays/Région</strong> est le pays/la région dans lequel votre société est enregistrée, sélectionnez <strong>Local</strong>. Si la valeur <strong>Pays/Région</strong> est un état membre de l'UE autre que le pays/la région dans lequel votre société est enregistrée, sélectionnez <strong>UE</strong>. Si la valeur <strong>Pays/Région</strong> n'est pas un état membre de l'UE, sélectionnez <strong>Pays tiers/région tierce</strong>.</li>
+<li><strong>Type de pays/région</strong> : Si la valeur <strong>Pays/Région</strong> est le pays/la région dans lequel votre société est enregistrée, sélectionnez <strong>Local</strong>. Si la valeur <strong>Pays/Région</strong> est un état membre de l'UE autre que le pays/la région dans lequel votre société est enregistrée, sélectionnez <strong>UE</strong>. Si la valeur <strong>Pays/Région</strong> n&#39;est pas un état membre de l'UE, sélectionnez <strong>Pays tiers/région tierce</strong>.</li>
 </ul></li>
 <li>Onglet <strong>Souches de numéros</strong> : Sur la ligne où la valeur <strong>Référence</strong> est <strong>Liste des ventes intracommunautaires</strong>, sélectionnez un code souche de numéros.</li>
 </ul></td>

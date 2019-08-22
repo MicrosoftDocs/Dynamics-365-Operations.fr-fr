@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
-ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
+ms.openlocfilehash: 7a55c0a1ac8ac833315afa179c1b6d4eb78195fc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594958"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839205"
 ---
 # <a name="financial-reporting"></a>États financiers
 
@@ -117,7 +117,7 @@ Lorsque vous cliquez sur le menu **États financiers**, la liste des états fina
 Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en cliquant sur **Nouveau** dans le volet Actions. Un programme de concepteur d'états est téléchargé sur votre périphérique. Une fois que le concepteur d'états démarre, vous pouvez créer l'état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Finance and Operations. 
 
 > [!NOTE] 
-> La version 4.6.2 de Microsoft .NET Framework doit être installée sur l'ordinateur sur lequel vous téléchargez le client Concepteur d'états. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si vous utilisez Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur d'états. Si vous utilisez le mode incognito, vérifiez que l'extension ClickOnce est activée pour le mode incognito. Vous pouvez également modifier un état qui apparaît dans la liste des états financiers. Lorsque la zone autour du nom de l'état est activée, cliquez sur **Édition** dans le Volet Actions. Le programme de concepteur d'état démarre.
+> La version 4.6.2 de Microsoft .NET Framework doit être installée sur l'ordinateur sur lequel vous téléchargez le client Concepteur d'états. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=53345). Si vous utilisez Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur d'états. Si vous utilisez le mode incognito, vérifiez que l'extension ClickOnce est activée pour le mode incognito. Vous pouvez également modifier un état qui apparaît dans la liste des états financiers. Lorsque la zone autour du nom de l'état est activée, cliquez sur **Édition** dans le Volet Actions. Le programme de concepteur d'état démarre.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 - [Afficher les états financiers](view-financial-reports.md)

@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566108"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841991"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transaction de lettre de garantie
 
@@ -61,7 +61,7 @@ La société fictive USMF sert d'exemple dans cette procédure.
 15. Dans le champ Date d'expédition demandée, entrez une date.
 16. Dans le champ Date d'expédition confirmée, entrez une date.
 
-## <a name="process-letter-of-guaranteerequest"></a>Traiter une demande de lettre de garantie
+## <a name="process-letter-of-guarantee_request"></a>Traiter une demande de lettre de garantie
 1. Dans le volet Actions, cliquez sur Gérer.
 2. Cliquez sur Lettre de garantie.
 3. Dans le Volet Actions, cliquez sur Lettre de garantie.
@@ -73,7 +73,7 @@ La société fictive USMF sert d'exemple dans cette procédure.
 9. Cliquez sur OK.
 10. Fermez la page.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Traiter la lettre de garantie_Remettre à la banque
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>Traiter la lettre de garantie_Remettre à la banque
 1. Accédez à Gestion de la trésorerie et de la banque > Lettres de garantie > Lettres de garantie.
 2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 3. Cliquez sur Remettre à la banque pour ouvrir la boîte de dialogue.
@@ -81,7 +81,7 @@ La société fictive USMF sert d'exemple dans cette procédure.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 6. Cliquez sur OK.
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Traiter la lettre de garantie_Recevoir de la banque
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>Traiter la lettre de garantie_Recevoir de la banque
 1. Cliquez sur Recevoir de la banque pour ouvrir la boîte de dialogue.
 2. Dans le champ Numéro de banque, tapez une valeur.
     * Vérifiez les valeurs dans les champs calculés Marge et Dépense.  
@@ -93,7 +93,7 @@ La société fictive USMF sert d'exemple dans cette procédure.
     * Vérifiez la validation des écritures de journal.  
 7. Fermez la page.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Traiter la lettre de garantie_Remettre au bénéficiaire
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Traiter la lettre de garantie_Remettre au bénéficiaire
 1. Accédez à Comptabilité client > Commandes > Toutes les commandes client.
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 3. Dans le volet Actions, cliquez sur Gérer.
@@ -108,7 +108,7 @@ La société fictive USMF sert d'exemple dans cette procédure.
 12. Développez la section Actions.
     * Validez l'enregistrement « Remettre au bénéficiaire ».  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Traiter la lettre de garantie_Augmenter la valeur
+## <a name="process-letter-of-guarantee_increase-value"></a>Traiter la lettre de garantie_Augmenter la valeur
 1. Accédez à Comptabilité client > Commandes > Toutes les commandes client.
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 3. Dans le volet Actions, cliquez sur Gérer.
@@ -128,7 +128,7 @@ La société fictive USMF sert d'exemple dans cette procédure.
 16. Cliquez sur Lignes.
     * Vérifiez les écritures de journal validées.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Traiter la lettre de garantie_Liquider
+## <a name="process-letter-of-guarantee_liquidate"></a>Traiter la lettre de garantie_Liquider
 1. Accédez à Comptabilité client > Commandes > Toutes les commandes client.
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 3. Dans le volet Actions, cliquez sur Gérer.

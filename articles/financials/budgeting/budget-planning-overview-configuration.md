@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 560a5346e33e1b98a7513b6d7c033fe35458f63a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570970"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834148"
 ---
 # <a name="budget-planning-overview"></a>Vue d'ensemble de la planification de budget
 
@@ -154,6 +154,8 @@ Pour l'exemple de schéma, vous voudrez peut-être créer des colonnes pour les 
 [![Colonnes](./media/columns.png)](./media/columns.png) 
 
 Vous indiquez également si chaque élément de mise en page (colonne) est modifiable, et s'il est disponible dans n'importe quel modèle de feuille de calcul créé pour cette mise en page. Pour l'exemple de schéma, dans la mise en page utilisée pour le stade Estimation, les colonnes de prévision sont modifiables, alors que les colonnes de ventes PY et de contrats sont en lecture seule.
+
+[!Note] Par défaut, vous serez limité(e) à 36 colonnes sans que vous étendiez la planification budgétaire avec les étapes dans la rubrique [Étendre la disposition de la planification budgétaire](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Modèles
 

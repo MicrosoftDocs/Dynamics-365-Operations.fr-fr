@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c5cd61c45eb7cbc6f040f054a99d9a54e1ee854
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8f1f8ed86af5b9fcb6ede91621b9227115bd2b59
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569570"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852337"
 ---
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l'Europe
 
@@ -65,7 +65,7 @@ Les codes déclaration de taxe sont des codes de zone dans la déclaration de TV
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>Codes taxe pour la déclaration de TVA
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).-->  Les montants de base et les montants de taxe des transactions de taxe peuvent être regroupés à l'aide de codes déclaration dans la déclaration de TVA (balises XML ou zones de déclaration). Pour ce faire, associez les codes déclaration de taxe pour différents types de transaction aux codes taxe dans la page <strong>Codes taxe</strong>. Le tableau suivant décrit les types de transaction dans le paramétrage d'état pour les codes taxe. Le calcul comprend les transactions pour tous les types de sources à l'exception de la taxe.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> Les montants de base et les montants de taxe des transactions de taxe peuvent être regroupés à l'aide de codes déclaration dans la déclaration de TVA (balises XML ou zones de déclaration). Pour ce faire, associez les codes déclaration de taxe pour différents types de transaction aux codes taxe dans la page <strong>Codes taxe</strong>. Le tableau suivant décrit les types de transaction dans le paramétrage d'état pour les codes taxe. Le calcul comprend les transactions pour tous les types de sources à l'exception de la taxe.
 
 <table>
 <colgroup>

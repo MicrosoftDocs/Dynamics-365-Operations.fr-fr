@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 264824
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7638486208ae3397d63acd16ab225bad716bcee6
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571148"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852395"
 ---
 # <a name="registration-ids"></a>ID enregistrement
 
@@ -107,7 +107,7 @@ Pour plus d'informations sur le traitement des ID d'enregistrement, notamment le
 
 -   Paramétrer l'ID de TVA
 -   Enregistrement de l'ID de TVA du fournisseur
--    Recherche de partie à l'aide de l'ID de TVA
+-   Recherche de partie à l'aide de l'ID de TVA
 
 
 

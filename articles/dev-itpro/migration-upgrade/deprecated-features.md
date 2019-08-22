@@ -3,7 +3,7 @@ title: Fonctions supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624905"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863381"
 ---
 # <a name="removed-or-deprecated-features"></a>Fonctions supprimées ou déconseillées
 
@@ -40,10 +40,32 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 > Des informations détaillées sur les objets dans Finance and Operations peuvent être consultés dans les [États de référence technique](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version de Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 avec Platform update 28
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>Dynamics 365 for Finance and Operations 10.0.5 avec Platform update 29
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 avec Platform Update 28 est disponible pour des utilisateurs ciblés dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour plus d'informations sur les préversions, voir [Disponibilité des mises à jour de service](../../fin-and-ops/get-started/public-preview-releases.md).
+> Dynamics 365 for Finance and Operations 10.0.5 avec Platform Update 29 est disponible pour des utilisateurs ciblés dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour plus d'informations sur les préversions, voir [Disponibilité des mises à jour de service](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>Mises à jour de l'impôt sur les salaires aux États-Unis
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Nous retirons les mises à jour fiscales pour la fonctionnalité de paie des États-Unis en raison d'une faible utilisation et des fonctionnalités améliorées qui sont désormais offertes via des intégrations stratégiques.  |
+| **Remplacé par une autre fonctionnalité ?**   | Oui |
+| **Zones de produit affectées**         | Paie |
+| **Option de déploiement**              | Tous |
+| **État**                         | Obsolète : à compter du 1er octobre 2021, nous prévoyons de ne plus fournir de mises à jour fiscales aux clients concernés par les salaires aux États-Unis. La fonctionnalité restera dans le produit, cependant, les améliorations ne la maintiendront plus à jour et les défauts du produit seront évalués au cas par cas. Pour plus d'informations, voir [Tax updates being retired for US Payroll feature in Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+
+
+### <a name="data-management-staging-clean-up"></a>Nettoyage de la gestion des données
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Ne répond pas aux exigences de base requises pour la planification du nettoyage périodique. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, la fonctionnalité de nettoyage de l'historique des tâches est en cours d'ajout pour répondre aux scénarios de manière globale. |
+| **Zones de produit affectées**         | Gestion des données |
+| **Option de déploiement**              | Tous  |
+| **État**                         | Obsolète : le délai cible pour la suppression de la fonctionnalité est Décembre 2020. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 avec Platform update 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>France : Exportation des données comptables FEC au format XML
 
@@ -1235,7 +1257,7 @@ Sites Services vous permet de créer des sites Web qui étendent vos processus d
 
 ### <a name="virtual-company-accounts"></a>Comptes société virtuels
 
-La fonctionnalité des sociétés virtuelles n'est plus prise en charge dans Dynamics AX. La fonctionnalité des sociétés virtuelles permet aux utilisateurs de paramétrer des tables à partager entre un ensemble de sociétés. Pour obtenir une description de la fonctionnalité, consultez [Comptes société et comptes société virtuels](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). La fonctionnalité fonctionne en regroupant les tables en recouvrements affectés aux sociétés virtuelles, qui sont des groupes de « véritables » sociétés existantes. Les requêtes sont créées afin que toutes les sociétés de la société virtuelle puissent accéder aux données des tables des recouvrements de table associés.
+La fonctionnalité des sociétés virtuelles n'est plus prise en charge dans Dynamics AX. La fonctionnalité des sociétés virtuelles permet aux utilisateurs de paramétrer des tables à partager entre un ensemble de sociétés. Pour obtenir une description de la fonctionnalité, consultez [Comptes société et comptes société virtuels](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). La fonctionnalité fonctionne en regroupant les tables en recouvrements affectés aux sociétés virtuelles, qui sont des groupes de « véritables » sociétés existantes. Les requêtes sont créées afin que toutes les sociétés de la société virtuelle puissent accéder aux données des tables des recouvrements de table associés.
 
 |   |  | 
 |------------|--------------------|

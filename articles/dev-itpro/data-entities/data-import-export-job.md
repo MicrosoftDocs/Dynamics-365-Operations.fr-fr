@@ -3,28 +3,29 @@ title: Tâches d'importation et d'exportation de données
 description: L'espace de travail Gestion des données vous permet de créer et de gérer des tâches d'importation et d'exportation de données.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505792"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862902"
 ---
 # <a name="data-import-and-export-jobs"></a>Tâches d'importation et d'exportation de données
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Pour créer et gérer des tâches d'importation et d'exportation de données dans Microsoft Dynamics 365 for Finance and Operations, vous utilisez l'espace de travail **Gestion des données**. Par défaut, le processus d'importation et d'exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
 
@@ -129,8 +130,8 @@ Une tâche peut être sécurisée par des rôles, des utilisateurs et une entit�
 ## <a name="run-the-import-or-export-job"></a>Exécuter la tâche d'importation ou d'exportation
 Vous pouvez exécuter une tâche ponctuelle en sélectionnant le bouton **Importer** ou **Exporter** après avoir défini la tâche. Pour paramétrer une tâche régulière, sélectionnez **Créer une tâche de données répétitive**.
 
-[!NOTE]
-Une tâche d'importation ou d'exportation peut être exécutée de façon asynchrone en sélectionnant le bouton **Importer** ou **Exporter**. L'exécution en mode asynchrone utilise la structure asynchrone dans Finance and Operations, ce qui diffère d'une structure par lots. Toutefois, à l'instar de la structure par lots, la structure asynchrone peut également subir un étranglement et par conséquent, la tâche peut ne pas s'exécuter immédiatement. Les tâches peuvent être exécutées également de manière synchrone en sélectionnant **Importer maintenant** ou **Exporter maintenant**. Cela lance la tâche immédiatement et est utile si le mode asynchrone ou par lots ne se lance pas en raison d'un étranglement. Les tâches peuvent également être effectuées dans un lot en sélectionnant l'option **Exécuter en mode de traitement par lots**. Les ressources par lots sont sujettes à l'étranglement, aussi le traitement par lots pourrait ne pas se lancer immédiatement. L'option asynchrone est utile lorsque les utilisateurs interagissent directement avec l'interface utilisateur et ne sont pas des utilisateurs expérimentés en matière de planification par lots. Utiliser un lot reste possible si de grands volumes doivent être exportés ou importés. Les traitements par lots peuvent être prévus pour une exécution sur un groupe de lots spécifique, ce qui permet un plus grand contrôle depuis une perspective d'équilibrage de charge. Si le mode asynchrone et le mode par lots rencontrent tous deux un étranglement en raison de l'utilisation intensive des ressources sur le système, une solution de contournement immédiate consisterait à utiliser la version synchrone de l'importation/exportation. L'option synchrone se lance immédiatement et bloque l'interface utilisateur, qui s'exécute de façon synchrone. La fenêtre du navigateur doit rester ouverte lorsque l'opération synchrone est en cours.
+> [!NOTE]
+> Une tâche d'importation ou d'exportation peut être exécutée de façon asynchrone en sélectionnant le bouton **Importer** ou **Exporter**. L'exécution en mode asynchrone utilise la structure asynchrone dans Finance and Operations, ce qui diffère d'une structure par lots. Toutefois, à l'instar de la structure par lots, la structure asynchrone peut également subir un étranglement et par conséquent, la tâche peut ne pas s'exécuter immédiatement. Les tâches peuvent être exécutées également de manière synchrone en sélectionnant **Importer maintenant** ou **Exporter maintenant**. Cela lance la tâche immédiatement et est utile si le mode asynchrone ou par lots ne se lance pas en raison d'un étranglement. Les tâches peuvent également être effectuées dans un lot en sélectionnant l'option **Exécuter en mode de traitement par lots**. Les ressources par lots sont sujettes à l'étranglement, aussi le traitement par lots pourrait ne pas se lancer immédiatement. L'option asynchrone est utile lorsque les utilisateurs interagissent directement avec l'interface utilisateur et ne sont pas des utilisateurs expérimentés en matière de planification par lots. Utiliser un lot reste possible si de grands volumes doivent être importés ou exportés. Les traitements par lots peuvent être prévus pour une exécution sur un groupe de lots spécifique, ce qui permet un plus grand contrôle depuis une perspective d'équilibrage de charge. Si le mode asynchrone et le mode par lots rencontrent tous deux un étranglement en raison de l'utilisation intensive des ressources sur le système, une solution de contournement immédiate consisterait à utiliser la version synchrone de l'importation/exportation. L'option synchrone se lance immédiatement et bloque l'interface utilisateur, qui s'exécute de façon synchrone. La fenêtre du navigateur doit rester ouverte lorsque l'opération synchrone est en cours.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Vérifier que la tâche a été exécutée comme prévu
 L'historique des tâches est disponible pour dépanner et rechercher des tâches d'importation et d'exportation. Les exécutions d'historique des tâches sont planifiées par périodes.
@@ -144,15 +145,17 @@ Chaque exécution de tâche fournit les informations suivantes :
 
 Les détails de l'exécution indiquent l'état de chaque entité de données que la tâche a traitée. Par conséquent, vous pouvez rapidement rechercher les informations suivantes :
 
-- Quelles entités ont été traitées
-- Pour une entité, le nombre d'enregistrements ayant été correctement traités et le nombre ayant échoué
-- Les enregistrements intermédiaires pour chaque entité
+- Quelles entités ont été traitées.
+- Pour une entité, le nombre d'enregistrements ayant été correctement traités et le nombre ayant échoué.
+- Les enregistrements intermédiaires pour chaque entité.
 
 Vous pouvez télécharger les données intermédiaires dans un fichier pour les tâches d'exportation, ou vous pouvez les télécharger sous la forme d'un module pour les tâches d'importation et d'exportation.
 
 Les détails d'exécution vous permettent également d'ouvrir le journal d'exécution.
 
 ## <a name="clean-up-the-staging-tables"></a>Nettoyer les tables intermédiaires
+Depuis Platform update 29, cette fonctionnalité a été supprimée. Elle est remplacée par une version de la fonctionnalité de nettoyage de l'historique des tâches expliquée ci-dessous.
+
 Vous pouvez nettoyer les tables intermédiaires à l'aide de la fonction **Nettoyage intermédiaire** dans l'espace de travail **Gestion des données**. Vous pouvez utiliser les options suivantes pour sélectionner les enregistrements à supprimer d'une table intermédiaire :
 
 - **Entité** – Si une seule entité est fournie, tous les enregistrements de la table intermédiaire de cette entité sont supprimés. Permet de supprimer toutes les données de l'entité dans tous les projets de données et toutes les tâches.
@@ -160,3 +163,37 @@ Vous pouvez nettoyer les tables intermédiaires à l'aide de la fonction **Netto
 - **Projets de données** – Si un seul projet de données est sélectionné, tous les enregistrements de toutes les entités et de toutes les tâches du projet de données sélectionné sont supprimés.
 
 Vous pouvez également associer les options pour restreindre davantage l'ensemble des enregistrements à supprimer.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>L'historique de tâche Nettoyage (disponible dans Platform update 29 et version ultérieure)
+
+La fonctionnalité de nettoyage de l'historique de la gestion des données doit être utilisée pour planifier un nettoyage périodique de l'historique d'exécution. Cette fonctionnalité remplace la fonctionnalité précédente de nettoyage de table intermédiaire, qui est désormais supprimée. Les tables suivantes sont nettoyées par le processus de nettoyage.
+
+-   Toutes les tables intermédiaires
+
+-   DMFSTAGINGVALIDATIONLOG
+
+-   DMFSTAGINGEXECUTIONERRORS
+
+-   DMFSTAGINGLOGDETAIL
+
+-   DMFSTAGINGLOG
+
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+
+-   DMFEXECUTION
+
+-   DMFDEFINITIONGROUPEXECUTION
+
+La fonctionnalité est accessible à partir de **Gestion des données \> Nettoyage de l'historique des tâches**.
+
+### <a name="scheduling-parameters"></a>Paramètres de planification
+
+Lors de la planification du processus de nettoyage, les paramètres suivants doivent être spécifiés pour définir les critères de nettoyage.
+
+-   **Nombre de jours pour conserver l'historique** – Ce paramètre permet de contrôler la quantité d’historique d’exécution à préserver. Il s'agit d'un nombre de jours spécifié. Lorsque la tâche de nettoyage est planifiée en tant que traitement par lots récurrent, ce paramètre agira comme une fenêtre continuellement en mouvement, laissant ainsi l'historique intact pour le nombre de jours spécifié, tout en supprimant le reste. La valeur par défaut est 7 jours.
+
+-   **Nombre d'heures pour exécuter la tâche** – Selon la quantité d’historique à nettoyer, le temps total d’exécution de la tâche de nettoyage peut varier de quelques minutes à quelques heures. Comme le nettoyage des tables mentionnées doit être effectué lorsqu'il n'y a aucune autre activité de gestion de données dans le système, il devient important de s'assurer que le travail de nettoyage s'exécute et se termine avant le début des activités.
+
+    Vous pouvez spécifier une durée d'exécution maximale en définissant une limite maximale sur le nombre d'heures d'exécution du travail à l'aide de ce paramètre. La logique de nettoyage passe en revue un ID d'exécution de travail à la fois, dans une séquence classée dans l'ordre chronologique, le plus ancien étant le premier pour le nettoyage de l'historique d'exécution associé. Il arrêtera de sélectionner les nouveaux ID d’exécution à nettoyer lorsque la durée restante d’exécution sera comprise dans les 10 % restants de la durée spécifiée. Dans certains cas, il est à prévoir que la tâche de nettoyage se poursuivra au-delà de la durée maximale spécifiée. Cela dépendra en grande partie du nombre d'enregistrements à supprimer pour l'ID d'exécution en cours qui a été démarré avant que le seuil de 10% ne soit atteint. Le nettoyage qui a été lancé doit être terminé pour garantir l’intégrité des données, ce qui signifie que le nettoyage se poursuivra malgré le dépassement de la limite spécifiée. Une fois cette opération terminée, les nouveaux ID d’exécution ne sont pas récupérés et le travail de nettoyage est terminé. L’historique d’exécution restant, qui n’a pas été nettoyé faute de temps d’exécution suffisant, sera récupéré lors de la prochaine planification du travail de nettoyage. La valeur par défaut et la valeur minimale pour ce paramètre est définie sur 2 heures.
+
+-   **Traitement par lots récurrent** – Le travail de nettoyage peut être exécuté en tant qu'exécution manuelle unique ou peut également être planifié pour une exécution récurrente par lot. Le traitement par lots peut être planifié à l'aide des paramètres **Exécuter à l'arrière-plan**, qui est le paramétrage de traitement par lots standard.

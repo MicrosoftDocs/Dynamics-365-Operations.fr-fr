@@ -3,14 +3,14 @@ title: Vue d'ensemble des factures fournisseur
 description: Cette rubrique fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques.
 author: abruer
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: c69291214796847af7169cf261865860998f0d27
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625077"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863321"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d'ensemble des factures fournisseur
 
 [!include [banner](../includes/banner.md)]
-
+[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques.
 
@@ -90,6 +90,13 @@ Quand une facture fournisseur est utilisée, elle ne peut pas être modifiée pa
 Vous pouvez utiliser la page **Récupérer les factures fournisseur** pour récupérer ou libérer les factures fournisseur qui ont été utilisée pendant plus de quatre heures, afin qu'elles puissent être modifiées. Vous pouvez ouvrir cette page à partir de l'écran **Tâche périodique** ou d'une vignette de l'espace de travail **Saisie de facture fournisseur**. Une fois qu'une facture a été récupérée, elle est disponible à la modification dans la page **Facture fournisseur**.
 
 Vous pouvez accéder à la page **Récupérer les factures fournisseur** uniquement si vous disposez du privilège et du droit de sécurité **Récupérer les factures fournisseur en cours de utilisation**. En outre, le paramètre **Autoriser la récupération des factures fournisseur** de la page **Paramètres de la comptabilité fournisseur** doit être activé.
+
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Réinitialiser le statut de workflow pour les factures fournisseur d'Irrécupérable à Brouillon
+
+Une instance de workflow arrêtée en raison d'une erreur irrécupérable aura le statut de workflow de **Irrécupérable**. Lorsque le statut d'un workflow de facture fournisseur est **Irrécupérable**, vous pouvez le réinitialiser sur **Brouillon** en sélectionnant **Rappeler**. Vous pouvez ensuite modifier la facture fournisseur. Cette fonctionnalité est disponible que si le paramètre **Réinitialiser le statut de workflow pour les factures fournisseur d'Irrécupérable à Brouillon** sur la page **Gestion des fonctionnalités** est activé.
+
+Vous pouvez utiliser la page **Historique du workflow** pour réinitialiser le statut du workflow sur **Brouillon**. Vous pouvez ouvrir cette page à partir de **Facture fournisseur** ou de **Commun > Recherches > Workflow**. Pour réinitialiser le statut du workflow sur **Brouillon**, sélectionnez **Rappeler**. Vous pouvez également réinitialiser le statut du workflow sur Brouillon en sélectionnant l'action **Rappeler** dans la page **Facture fournisseur** ou **Factures fournisseur en attente**. Une fois le statut du workflow réinitialisé sur **Brouillon**, il devient disponible pour modifier sur la page **Facture fournisseur**.
+
 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

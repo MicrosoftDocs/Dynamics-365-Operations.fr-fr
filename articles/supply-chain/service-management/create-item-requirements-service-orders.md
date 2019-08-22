@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5a730ae945af15c7bd4020c734bac971d8186e2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc65393f74c6daa008e072cbe3745235fbfd896b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553413"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743314"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Création d'une demande d'articles à partir d'une commande de service 
 
@@ -44,7 +44,7 @@ Les demandes d'articles pour les commandes de service sont traitées au travers 
 
 3.  Dans le volet **Actions**, sous l'onglet **Dispatch**, cliquez sur **Demande d'articles**.
 
-4.  Dans l'écran **Demande d'articles**, entrez les informations pour l'article requis. Pour plus d'informations sur les champs spécifiques, voir [Demande d'articles (écran)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\)).
+4.  Dans l'écran **Demande d'articles**, entrez les informations pour l'article requis. Pour plus d'informations sur les champs spécifiques, voir [Demande d'articles (écran)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Création d'une demande d'articles pour un accord de service
 

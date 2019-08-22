@@ -1,53 +1,51 @@
 ---
 title: Paramétrer la retenue à la source
-description: La retenue à la source est une taxe sur les fournisseurs qui ne crée pas de transaction de taxe.
+description: Cette rubrique explique comment paramétrer la retenue à la source.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 382b6332665af2491563960a75d498a4f007aba8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 10e7018c79e54841d0729636b08ad475a94d20d5
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562786"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834732"
 ---
 # <a name="set-up-withholding-tax"></a>Paramétrer la retenue à la source
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-La retenue à la source est une taxe sur les fournisseurs qui ne crée pas de transaction de taxe. La retenue à la source calculée sur les paiements des fournisseurs fait partie du passif. Par conséquent, seuls les comptes de passif ou de bilan sont utilisés pour la validation de la retenue à la source. Ce guide de tâche décrit comment paramétrer la retenue à la source.
+Cette rubrique explique comment paramétrer la retenue à la source. La *retenue à la source* est une taxe sur les fournisseurs qui ne crée pas de transaction de taxe. La retenue à la source calculée sur les paiements des fournisseurs fait partie du passif. Par conséquent, seuls les comptes de passif ou de bilan sont utilisés pour la validation de la retenue à la source. Ce guide de tâche décrit comment paramétrer la retenue à la source.
 
-1. Accédez à Taxe > Taxes indirectes >Retenue à la source > Codes de retenue à la source.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Code de retenue à la source.
-4. Dans le champ Nom de retenue à la source, entrez le nom du code retenue à la source.
-5. Dans le champ Compte principal, sélectionnez le compte principal pour la validation de l'assujettissement de la retenue à la source.
-6. Cliquez sur Enregistrer.
-7. Cliquez sur Valeurs.
-8. Dans la liste, marquez la ligne sélectionnée.
-9. Dans le champ Valeur, entrez un pourcentage utilisé pour le calcul de la retenue à la source.
-10. Cliquez sur Enregistrer.
-11. Fermez la page.
-12. Cliquez sur Enregistrer.
-13. Fermez la page.
-14. Accédez à Taxe > Taxes indirectes > Retenue à la source > Groupes de retenue à la source.
-15. Cliquez sur Nouveau.
-16. Dans le champ Groupe de retenue à la source, entrez l'identificateur du groupe de retenues à la source.
-17. Dans le champ Description, entrez le nom du groupe de retenues à la source.
-18. Dans la liste, marquer la ligne sélectionnée.
-19. Sélectionnez le code de retenue à la source dans le champ Code de retenue à la source.
-20. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-21. Cliquez sur Enregistrer.
+1. Allez dans **Volet de navigation > Modules > Taxes > Taxes indirectes > Retenue à la source > Codes de retenue à la source**.
+2. Sélectionnez **Nouveau**.
+3. Tapez une valeur dans le champ **Code de retenue à la source**.
+4. Dans le champ **Nom de retenue à la source**, entrez le nom du code retenue à la source.
+5. Dans le champ **Compte principal**, sélectionnez le compte principal pour la validation de l'assujettissement de la retenue à la source.
+6. Sélectionnez **Enregistrer**.
+7. Sélectionnez **Valeurs** et marquez l'enregistrement souhaité dans la liste.
+8. Dans le champ **Valeur**, entrez un pourcentage utilisé pour le calcul de la retenue à la source.
+9. Sélectionnez **Enregistrer**.
+10. Fermez la page.
+11. Sélectionnez **Enregistrer**.
+12. Fermez la page.
+13. Allez dans **Volet de navigation > Modules > Taxes > Taxes indirectes > Retenue à la source > Groupes de retenue à la source**.
+14. Sélectionnez **Nouveau**.
+15. Dans le champ **Groupe de retenue à la source**, entrez l'identificateur du groupe de retenues à la source.
+16. Dans le champ **Description**, entrez le nom du groupe de retenues à la source.
+17. Sélectionnez le code de retenue à la source dans le champ **Code de retenue à la source**.
+18. Sélectionnez **Enregistrer**.
+19. Fermez la page.
 

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInvoiceJournal, CustFormletterParameters
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 31221
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32b8f7d29c0b26a739cbc297b0a174669e87cfa8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7006616a8b22cf1ee674132f1f461e6c7a4d5f95
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547176"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852494"
 ---
 # <a name="penalties-for-past-due-customer-payments-in-france"></a>Pénalités pour les paiements client en retard en France
 

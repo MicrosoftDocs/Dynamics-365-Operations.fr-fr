@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551741"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863669"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organiser les composants d'état dans le concepteur d'état
 
@@ -50,7 +50,7 @@ Vous pouvez regrouper les définitions d'état pour générer plusieurs états s
 ### <a name="create-a-report-group"></a>Créer un groupe d'états
 
 1. Dans le générateur d'états, dans le volet de navigation, cliquez sur **Groupes d'états** dans le volet de navigation.
-2. Dans le menu **Fichier**, cliquez sur **Nouveau** &gt; **Définition de groupe d'état** pour ouvrir un nouveau groupe d'état dans la fenêtre du visualiseur. Sinon, cliquez sur le bouton **Groupe d'états** ![Groupe d'états](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Groupe d'états") sur la barre d’outils.
+2. Dans le menu **Fichier**, cliquez sur **Nouveau** &gt; **Définition de groupe d'état** pour ouvrir un nouveau groupe d'état dans la fenêtre du visualiseur. Sinon, cliquez sur le bouton **Groupe d'états** ![Groupe d'états](media/report-group.gif "Groupe d'états") sur la barre d’outils.
 3. Cliquez sur l'onglet **Groupe de rapports**. Pour remplacer les informations sur les différentes définitions d'état pour la génération de cet état, activez la case à cocher **Remplacer les paramètres de la société, des détails et de date à partir des définitions d'état**. Les informations sur le nom de la société, le niveau de détail, les paramètres provisionnels et la date sont fournis automatiquement mais vous pouvez toujours effectuer des mises à jour.
 4. Pour générer plusieurs états affichant les devises de déclaration, activez la case à cocher **Inclure toutes les devises de déclaration**. Vous pouvez ensuite accéder à plusieurs en cliquant sur le bouton **Devise** dans la visionneuse Web lorsque vous afficherez l'état.
 5. Dans le champ **États dans le groupe**, cliquez sur **Ajouter** pour sélectionner les états à inclure dans le groupe d'états. Pour sélectionner plusieurs états dans la boîte de dialogue **Ajouter**, maintenez la touche Ctrl enfoncée alors que vous sélectionnez des états. Lorsque vous avez terminé la sélection des états, cliquez sur **OK**.
@@ -61,7 +61,7 @@ Vous pouvez regrouper les définitions d'état pour générer plusieurs états s
 1. Dans le générateur d'états, dans le volet de navigation, cliquez sur **Groupes d'états** dans le volet de navigation.
 2. Double-cliquez sur le groupe d'états à modifier.
 3. Sur l'onglet **Groupe d'états**, apportez les modifications que vous souhaitez.
-4. Dans le menu **Fichier**, cliquez sur **Enregistrer** pour enregistrer le groupe d'états modifié ou sur le bouton **Enregistrer** ![Enregistrer](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Enregistrer") dans la barre d'outils.
+4. Dans le menu **Fichier**, cliquez sur **Enregistrer** pour enregistrer le groupe d'états modifié ou sur le bouton **Enregistrer** ![Enregistrer](media/save.gif "Enregistrer") dans la barre d'outils.
 
 > [REMARQUE] Si vous avez planifié des états à générer à intervalles définis, vous pouvez remplacer ces paramètres et déclarer un état immédiatement.
 
@@ -69,7 +69,7 @@ Vous pouvez regrouper les définitions d'état pour générer plusieurs états s
 
 1. Dans le générateur d'états, dans le volet de navigation, cliquez sur **Groupes d'états** dans le volet de navigation.
 2. Ouvrez le groupe d'états à générer.
-3. Cliquez sur le bouton **Générer un état** ![Générer un état](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Générer un état") pour générer des états.
+3. Cliquez sur le bouton **Générer un état** ![Générer un état](media/generate-report.gif "Générer un état") pour générer des états.
 
 ### <a name="delete-a-report-group"></a>Supprimer un groupe d'états
 

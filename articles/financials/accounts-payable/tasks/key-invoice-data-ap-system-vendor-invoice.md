@@ -3,25 +3,25 @@ title: Données de facture clés dans le système de comptabilité fournisseur �
 description: Ce guide de tâche vous aidera à créer une facture fournisseur à partir d'une commande fournisseur et à afficher les résultats du rapprochement de la commande fournisseur, de l'accusé de réception et de la facture (rapprochement à trois facteurs).
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1d2e31a5de7cefd20996c18bf4771296a587997
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7abae6d680d899a0294ad3c298a4b0264ba01d0b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569630"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835428"
 ---
 # <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur
 
@@ -31,52 +31,45 @@ Ce guide de tâche vous aidera à créer une facture fournisseur à partir d'une
 
 
 ## <a name="create-a-purchase-order"></a>Créer une commande fournisseur
-1. Accédez à Comptabilité fournisseur > Commandes fournisseur > Toutes les commandes fournisseur.
-2. Cliquez sur Nouveau.
-3. Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+1. Dans le volet de navigation, allez dans **Modules > Comptabilité fournisseur > Commandes fournisseur > Toutes les commandes fournisseur**.
+2. Cliquez sur **Nouveau**.
+3. Dans le champ **Compte fournisseur**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 4. Recherchez un fournisseur à sélectionner. Par exemple, faites défiler l'écran jusqu'à US-104.
 5. Sélectionnez le fournisseur US-104.
-6. Cliquez sur OK.
-7. Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+6. Cliquez sur **OK**.
+7. Dans le champ **Numéro d'article**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 8. Sélectionnez un article en stock. Sélectionnez le numéro d'article 1000, par exemple.
-9. Développez ou réduisez la section Détails de ligne.
-10. Cliquez sur l'onglet Paramétrage.
-    * Vous pouvez remplacer la stratégie de rapprochement pour n'utiliser aucun rapprochement, utiliser le rapprochement à deux facteurs ou le rapprochement à trois facteurs.  
-11. Développez ou réduisez la section Détails de ligne.
-12. Cliquez sur Achats dans le volet Actions.
-13. Cliquez sur Confirmer.
+9. Développez le raccourci **Détails de ligne**.
+10. Cliquez sur l'onglet **Paramétrage**. Vous pouvez remplacer la stratégie de rapprochement pour n'utiliser aucun rapprochement, utiliser le rapprochement à deux facteurs ou le rapprochement à trois facteurs.  
+11. Dans le volet Actions, cliquez sur **Achat**.
+12. Cliquez sur **Confirmer**.
 
 ## <a name="receive-the-products"></a>Recevoir les produits
-1. Dans le volet Actions, cliquez sur Recevoir.
-2. Cliquez sur Accusé de réception de marchandises.
-3. Dans le champ Accusé de réception de marchandises, entrez le numéro d'accusé de réception de marchandises. Par exemple, entrez PR123.
-4. Cliquez sur OK pour valider l'accusé de réception de marchandises.
+1. Dans le volet Action, cliquez sur **Recevoir**.
+2. Cliquez sur **Accusé de réception de marchandises**.
+3. Dans le champ **Accusé de réception de marchandises**, entrez le numéro d'accusé de réception de marchandises. Par exemple, entrez PR123.
+4. Cliquez sur **OK** pour valider l'accusé de réception de marchandises.
 5. Fermez la page.
 
 ## <a name="create-a-vendor-invoice"></a>Créer une facture fournisseur
-1. Accédez à Comptabilité fournisseur > Commandes fournisseur > Commandes fournisseur reçues mais pas facturées.
+1. Dans le volet de navigation, allez dans **Modules > Comptabilité fournisseur > Commandes fournisseur > Commandes fournisseur reçues mais pas facturées**.
 2. Sélectionnez la commande fournisseur que vous avez créée.
-3. Cliquez sur Facture dans le volet Actions.
-4. Cliquez sur Facture.
-5. Entrez le numéro de la facture dans le champ Numéro.
-6. Entrez une valeur dans le champ Description de la facture.
-7. Entrez une date dans le champ Date de facture.
-8. Entrez 1200 dans le champ Prix unitaire.
-9. Cliquez sur Ajouter une ligne.
-10. Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+3. Cliquez sur **Facture** dans le volet Actions.
+4. Cliquez sur **Facture**.
+5. Entrez le numéro de la facture dans le champ **Numéro**.
+6. Entrez une valeur dans le champ **Description de la facture**.
+7. Entrez une date dans le champ **Date de facture**.
+8. Entrez 1 200 dans le champ **Prix unitaire**.
+9. Cliquez sur **Ajouter une ligne**.
+10. Dans le champ **Numéro d'article**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 11. Dans la liste, recherchez le numéro d'article de frais d'installation. Par exemple, S0001.
-12. Sélectionnez le numéro d'article de frais d'installation.
-    * Notez qu'aucun rapprochement n'a été effectué depuis que vous avez apporté des modifications.  
-13. Cliquez sur Mettre à jour le statut de rapprochement.
-14. Cliquez sur Revoir dans le volet Actions.
-15. Cliquez sur Mise en correspondance des détails.
-    * La nouvelle ligne avec les services n'a pas besoin d'être mise en correspondance, le statut indique donc « Non exécuté ».  
-16. Sélectionnez l'accusé de réception de marchandises pour l'article en stock que vous avez reçu.
-    * La ligne contenant l'accusé de réception de marchandises a été rapprochée, mais elle a échoué car il y a une incohérence au niveau de la quantité ou du prix.  
-17. Entrez un nombre dans le champ Prix unitaire.
-    * Maintenant que le prix unitaire correspond, le statut est mis à jour et indique Transmis. Si votre stratégie autorise les écarts ou si le rapprochement n'est qu'un avertissement, vous pouvez toujours valider la facture.  
+12. Sélectionnez le numéro d'article de frais d'installation. Notez qu'aucun rapprochement n'a été effectué depuis que vous avez apporté des modifications.  
+13. Cliquez sur **Mettre à jour le statut de rapprochement**.
+14. Cliquez sur **Revoir** dans le volet Actions.
+15. Cliquez sur **Mise en correspondance des détails**. La nouvelle ligne avec les services n'a pas besoin d'être mise en correspondance, le statut indique donc « Non exécuté ».  
+16. Sélectionnez l'accusé de réception de marchandises pour l'article en stock que vous avez reçu. La ligne contenant l'accusé de réception de marchandises a été rapprochée, mais elle a échoué car il y a une incohérence au niveau de la quantité ou du prix.  
+17. Entrez un nombre dans le champ **Prix unitaire**. Maintenant que le prix unitaire correspond, le statut est mis à jour et indique Transmis. Si votre stratégie autorise les écarts ou si le rapprochement n'est qu'un avertissement, vous pouvez toujours valider la facture.  
 18. Fermez la page.
-19. Cliquez sur Valider.
-20. Permet de fermer l'écran.
-    * Notez que la commande fournisseur n'est plus répertoriée comme étant reçue mais non facturée.  
+19. Cliquez sur **Valider**.
+20. Permet de fermer l'écran. Notez que la commande fournisseur n'est plus répertoriée comme étant reçue mais non facturée.  
 

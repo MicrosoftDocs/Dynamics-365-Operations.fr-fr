@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557729"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863698"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Générer des tableaux d'analyse consolidés
 
@@ -49,11 +49,11 @@ Comme le montre l'état consolidé dans l'illustration suivante, lorsque vous ut
 
 Vous pouvez également créer un organigramme d'entreprise à plusieurs niveaux qui inclut autant de niveaux que nécessaire. L'illustration suivante présente une définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par région.
 
-![Définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par région](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par région")
+![Définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par région](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par région")
 
 L'illustration suivante présente une définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par fonction.
 
-![Définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par fonction](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "Définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par fonction")
+![Définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par fonction](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par fonction")
 
 ### <a name="viewing-companies-side-by-side"></a>Affichage de sociétés côte à côte
 De nombreux clients préfèrent les états où les sociétés apparaissent côte à côte, et où une colonne affiche le total consolidé. Ce format est facile à obtenir après avoir créé l'organigramme d'entreprise. Voici les principales étapes pour afficher des sociétés côte à côte dans les tableaux d'analyse consolidés.
@@ -98,7 +98,7 @@ Dans la définition d'organigramme d'entreprise, entrez le pourcentage de partic
 > [!NOTE]
 > Vous pouvez appliquer ce pourcentage de participation à n'importe quelle unité organisationnelle, pas uniquement au niveau de la société. 
 
-![Utilisation du pourcentage de la définition d'organigramme d'entreprise](./media/Using-reporting%20tree-definition-percentage.png "Utilisation du pourcentage de la définition d'organigramme d'entreprise")
+![Utilisation du pourcentage de la définition d'organigramme d'entreprise](./media/Using-reporting-tree-definition-percentage.png "Utilisation du pourcentage de la définition d'organigramme d'entreprise")
 
 Lorsque l'état est généré, l'état Contoso Germany affichera 100 % du montant des ventes, et 80 % du montant sera alloué et cumulé au niveau consolidé pour les ventes.
 
