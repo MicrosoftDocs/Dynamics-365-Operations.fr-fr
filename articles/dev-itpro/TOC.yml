@@ -5,22 +5,25 @@
 - name: Configuration requise pour les déploiements sur site
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: Données de démonstration
-  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
+    - name: Vue d'ensemble des données de démonstration
+      href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
     - name: Générer des données de démonstration à l'aide de packages de données
       href: data-entities/generate-demo-data-packages.md
 - name: Développer et personnaliser
-  href: dev-tools/developer-home-page.md
   items:
-    - name: Applications et architecture de serveur
+    - name: Page d'accueil Développer et personnaliser
+      href: dev-tools/developer-home-page.md
+    - name: Pile d'applications et architecture de serveur
       href: dev-tools/application-stack-server-architecture.md
     - name: Recevoir des copies d'évaluation
       href: dev-tools/get-evaluation-copy.md
     - name: Souscrire des abonnements d'aperçu
       href: dev-tools/sign-up-preview-subscription.md
     - name: Déployer des environnements de développement et y accéder
-      href: dev-tools/access-instances.md
       items:
+        - name: Environnements de développement
+          href: dev-tools/access-instances.md
         - name: Configurer des environnements de développement à boîte unique
           href: dev-tools/configure-developer-vm.md
         - name: Créer des utilisateurs sur des machines de développement
@@ -58,8 +61,9 @@
         - name: Fonctions de l'éditeur de code
           href: dev-tools/code-editor.md
         - name: Créer des modèles et des éléments de modèle de données
-          href: dev-tools/create-data-model-elements.md
           items:
+            - name: Vue d'ensemble de création de modèles et d'éléments de modèle de données
+              href: dev-tools/create-data-model-elements.md
             - name: Instructions de dénomination pour les extensions
               href: extensibility/NamingGuidelines.md
             - name: Désactiver la personnalisation de modèle et les fonctionnalités obsolètes
@@ -86,8 +90,6 @@
       items:
         - name: X++ et fonctions du débogueur
           href: dev-tools/new-x-debugger-features.md
-        - name: Déboguer X++ sur des copies de bases de données de production
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: Déboguer un code X++
           href: dev-tools/debug-xpp.md
         - name: Classes EventHandlerResult dans les scénarios de demande ou de réponse
@@ -104,7 +106,7 @@
           href: dev-ref/application-explorer-aot-properties.md
         - name: Référence du langage X++
           items:
-            - name: Référence du langage X++
+            - name: Vue d'ensemble de référence du langage X++
               href: dev-ref/xpp-language-reference.md
             - name: Variables et types de données
               items:
@@ -135,7 +137,19 @@
             - name: Priorité des opérateurs X++
               href: dev-ref/xpp-operator-precedence.md
             - name: Classes et méthodes X++
-              href: dev-ref/xpp-classes-methods.md
+              items:
+                - name: Classes et méthodes
+                  href: dev-ref/xpp-classes-methods.md
+                - name: Récupération
+                  href: dev-ref/xpp-inheritance.md
+                - name: Membres statiques de classe
+                  href: dev-ref/xpp-static-classes.md
+                - name: Interfaces
+                  href: dev-ref/xpp-interfaces.md
+                - name: Bibliothèques
+                  href: dev-ref/xpp-library-objects.md
+                - name: Événements
+                  href: dev-ref/xpp-events.md
             - name: Sélection et manipulation de données X++
               href: dev-ref/xpp-data-query.md
             - name: Accès aux données à l'aide de l'API SysDa
@@ -149,13 +163,15 @@
             - name: Syntaxe X++
               href: dev-ref/xpp-syntax.md
     - name: 'Référence d''API, de classe et de table'
-      href: dev-ref/api-reference.md
       items:
+        - name: 'Ressources d''API, de classe et de table'
+          href: dev-ref/api-reference.md
         - name: Fonctions de compilation X++
           href: dev-ref/xpp-compile-time-functions.md
         - name: Fonctions d'exécution X++
-          href: dev-ref/xpp-run-time-functions.md
           items:
+            - name: Ressources de fonctions d'exécution X++
+              href: dev-ref/xpp-run-time-functions.md
             - name: Fonctions d'exécution d'entreprise X++
               href: dev-ref/xpp-business-run-time-functions.md
             - name: Fonctions d'exécution de conteneur X++
@@ -409,8 +425,9 @@
         - name: Filtrage SysTest à l'aide des attributs de classe et de méthode
           href: perf-test/systest-filtering.md
         - name: Bibliothèque de tests d'acceptation
-          href: perf-test/acceptance-test-library.md
           items:
+            - name: Ressources de la bibliothèque de tests d'acceptation
+              href: perf-test/acceptance-test-library.md
             - name: Concepts de navigation
               href: perf-test/concepts-navigation.md
             - name: Méthodes de données de test
@@ -435,11 +452,12 @@
       href: dev-tools/date-effectivity.md
     - name: "Gestionnaire de licences\_ISV"
       href: dev-tools/isv-licensing.md
-    - name: Gestionnaire de licences ISV (sur site)
+    - name: Gestionnaire de licences ISV local
       href: dev-tools/isv-licensing-on-prem.md
 - name: Développement de l'interface utilisateur
-  href: user-interface/user-interface-development-home-page.md
   items:
+    - name: Page d'accueil du développement de l'interface utilisateur
+      href: user-interface/user-interface-development-home-page.md
     - name: Didacticiels
       items:
         - name: Construire l'écran Type de frais de location
@@ -633,21 +651,24 @@
         - name: Mise en cache de vignette et de liste pour les espaces de travail
           href: user-interface/tile-list-caching-workspaces.md
     - name: Enregistreur de tâches
-      href: user-interface/task-recorder.md
       items:
+        - name: Ressources de l'enregistreur de tâches
+          href: user-interface/task-recorder.md
         - name: Référence rapide de l'enregistreur de tâches
           href: user-interface/task-recorder-quick-reference.md
         - name: Créer une documentation ou une formation par enregistrement de tâche
           href: user-interface/task-recorder-training-docs.md
 - name: Plateforme mobile
-  href: mobile-apps/platform/mobile-platform-home-page.md
   items:
+    - name: Ressources de plateforme mobile
+      href: mobile-apps/platform/mobile-platform-home-page.md
     - name: Mise en route
-      href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
-        - name: Remarques importantes relatives à l'architecture et à la conception
+        - name: Prise en main la plateforme mobile
+          href: mobile-apps/platform/mobile-platform-getting-started.md
+        - name: Remarques relatives à l'architecture et à la conception
           href: mobile-apps/platform/mobile-platform-architecture.md
-        - name: Vue d'ensemble de la logique du système
+        - name: Événements de logique du système
           href: mobile-apps/platform/business-logic-events-overview.md
         - name: Instructions de conception de page
           href: mobile-apps/platform/page-design-guidelines.md
@@ -678,11 +699,12 @@
         - name: API de conception côté client
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: API client
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
+            - name: Page d'accueil de l'API client
+              href: mobile-apps/platform/client-apis/client-apis-reference.md
             - name: Énumération PageState
               href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
-            - name: Module Application
+            - name: Module d'application
               href: mobile-apps/platform/client-apis/modules/services-application.md
             - name: Module Defer
               href: mobile-apps/platform/client-apis/modules/defer.md
@@ -843,11 +865,13 @@
             - name: Type ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: Règlement général sur la protection des données (RGPD)
-  href: gdpr/gdpr-guide.md
   items:
-    - name: Ressources pour répondre aux demandes de données RGPD
-      href: gdpr/gdpr-home-page.md
+    - name: Vue d'ensemble du règlement général sur la protection des données
+      href: gdpr/gdpr-guide.md
+    - name: Répondre aux demandes de données RGPD
       items:
+        - name: Répondre aux ressources de demandes de données RGPD
+          href: gdpr/gdpr-home-page.md
         - name: Classifications des actifs
           href: gdpr/gdpr-asset-classification-values.md
         - name: État Recherche d'une personne
@@ -858,14 +882,15 @@
           href: gdpr/gdpr-auditing-sensitive-data.md
         - name: Répondre aux demandes de données personnelles à l'aide de Talent
           href: gdpr/respond-dsr-request-talent.md
-        - name: Répondre aux demandes de données personnelles dans AX 2012
+        - name: "Répondre aux demandes de données personnelles dans AX\_2012"
           href: gdpr/gdpr-ax2012.md
         - name: Demandes de données de RGPD pour LCS
           href: gdpr/gdpr-lcs.md
 - name: Livraison continue
-  href: dev-tools/continuous-delivery-home-page.md
   items:
-    - name: FAQ développement et livraison en continu
+    - name: Page d'accueil de la livraison continue
+      href: dev-tools/continuous-delivery-home-page.md
+    - name: FAQ développement et livraison continue
       href: dev-tools/continuous-delivery-faq.md
     - name: Exclure les packages de test de la sortie de version
       href: dev-tools/exclude-test-packages.md
@@ -873,7 +898,25 @@
       href: dev-tools/manage-runtime-packages.md
     - name: Mettre à jour les versions de modèle dans la build automatisée
       href: dev-tools/version-models-build.md
-- name: Lancer des solutions à l'aide de Lifecycle Services
+- name: "Regression\_Suite\_Automation\_Tool"
+  items:
+    - name: "Vue d'ensemble de Regression\_Suite\_Automation\_Tool"
+      href: perf-test/rsat/rsat-overview.md
+    - name: Installation et configuration
+      href: perf-test/rsat/rsat-install-configure.md
+    - name: Exécuter des cas de test
+      href: perf-test/rsat/rsat-run.md
+    - name: Valider des valeurs prévues
+      href: perf-test/rsat/rsat-validate-expected.md
+    - name: Enchaîner des cas de test
+      href: perf-test/rsat/rsat-chain-test-cases.md
+    - name: Cas de test dérivés
+      href: perf-test/rsat/rsat-derived-test-cases.md
+    - name: Meilleures pratiques
+      href: perf-test/rsat/rsat-best-practices.md
+    - name: Dépannage
+      href: perf-test/rsat/rsat-troubleshooting.md
+- name: "Publier des solutions à l'aide de Lifecycle\_Services"
   items:
     - name: Développer et publier
       href: lcs-solutions/lcs-solutions-app-source.md
@@ -891,9 +934,10 @@
       href: lcs-solutions/process-data-packages-lcs-solutions.md
     - name: Sauvegarder des bases de données de solutions
       href: lcs-solutions/database-backup-lcs-solutions.md
-    - name: Fonctions locales et relatives aux réglementations
-      href: lcs-solutions/country-region.md
+    - name: Fonctions de location et de réglementation
       items:
+        - name: Ressources de globalisation
+          href: lcs-solutions/country-region.md
         - name: Classification des fonctions de localisation
           href: lcs-solutions/classify-localization-features.md
         - name: Appliquer le contexte pays/région
@@ -907,8 +951,9 @@
         - name: Soumettre des alertes de réglementation
           href: lcs-solutions/submit-localization-alerts.md
 - name: Développement des Finances
-  href: financial/financial-dev-home-page.md
   items:
+    - name: Page d'accueil Développement des Finances
+      href: financial/financial-dev-home-page.md
     - name: Cadre de dimension financière
       items:
         - name: Combinaisons de comptes généraux
@@ -968,11 +1013,13 @@
     - name: Déployer des environnements de démonstration
       href: deployment/deploy-demo-environment.md
     - name: Déploiement Cloud
-      href: deployment/cloud-deployment-overview.md
       items:
+        - name: Vue d'ensemble de déploiement cloud
+          href: deployment/cloud-deployment-overview.md
         - name: Déploiement libre-service
-          href: deployment/infrastructure-stack.md
           items:
+            - name: Vue d'ensemble de Déploiement libre service
+              href: deployment/infrastructure-stack.md
             - name: Déployer un nouvel environnement
               href: deployment/deployenvironment-newinfrastructure.md
             - name: FAQ sur le déploiement
@@ -999,21 +1046,23 @@
           href: deployment/Initialize-Retail-Channels.md
         - name: Résidence des données Retail
           href: deployment/retail-data-residency.md
-    - name: Déploiement sur site
-      href: deployment/on-premises-deployment-landing-page.md
+    - name: Déploiement local
       items:
-        - name: Option de déploiement sur site
+        - name: Page d'accueil de déploiement local
+          href: deployment/on-premises-deployment-landing-page.md
+        - name: Vue d'ensemble de déploiement local
           href: deployment/on-premises-overview.md
-        - name: Planifier et préparer les déploiements sur site
+        - name: Planifier et préparer les déploiements locaux
           href: deployment/plan-onprem-deployment.md
         - name: Dimension du matériel requise
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-        - name: Paramétrer des projets sur site
+        - name: Paramétrer des projets locaux
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-        - name: Paramétrer et déployer les environnements sur site
-          href: deployment/setup-deploy-on-premises-environments.md
+        - name: Paramétrer et déployer les environnements locaux
           items:
-            - name: Déployer des environnements sur site (Platform update 12 et versions ultérieures)
+            - name: Page d'accueil Paramétrer et déployer les environnements locaux
+              href: deployment/setup-deploy-on-premises-environments.md
+            - name: "Déployer des environnements locaux (Platform\_update\_12 et versions ultérieures)"
               href: deployment/setup-deploy-on-premises-pu12.md
             - name: Déployer des environnements sur site (Platform update 8 et 11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
@@ -1027,12 +1076,18 @@
           href: deployment/onprem-reverseproxy.md
         - name: Appliquer des mises à jour à un déploiement sur site
           href: deployment/apply-updates-on-premises.md
-        - name: Diagnostics sur site
+        - name: Diagnostics locaux
           href: deployment/on-premises-diagnostics.md
-        - name: Redéployer des déploiements sur site
+        - name: Redéployer des déploiements locaux
           href: deployment/redeploy-on-prem.md
-        - name: Mettre à jour l'agent local
-          href: lifecycle-services/update-local-agent.md
+        - name: Agent local
+          items:
+            - name: "Compatibilité AD\_FS\_Office 365"
+              href: deployment/onprem-adfscompatibility.md
+            - name: Prédéploiement d'agent local et scripts de post-déploiement
+              href: lifecycle-services/pre-post-scripts.md
+            - name: Mettre à jour l'agent local
+              href: lifecycle-services/update-local-agent.md
         - name: Reconfigurer des environnements
           href: lifecycle-services/reconfigure-environment.md
         - name: Connectivité Internet du client
@@ -1052,12 +1107,14 @@
         - name: Résoudre les problèmes d'application de package
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Mises à niveau, mises à jour et correctifs'
-  href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: "Mise à niveau d'AX\_2012 vers Finance and Operations"
-      href: migration-upgrade/upgrade-overview-2012.md
+    - name: 'Mises à niveau, mises à jour et ressources'
+      href: migration-upgrade/upgrade-home-page.md
+    - name: "Mise à niveau de AX\_2012"
       items:
-        - name: Mise à niveau d'AX 2012 - Planifier à l'aide de l'analyseur de mise à niveau
+        - name: "Mise à niveau d'AX\_2012 vers Finance and Operations"
+          href: migration-upgrade/upgrade-overview-2012.md
+        - name: "Mise à niveau d'AX\_2012\_-\_Planifier à l'aide de l'analyseur de mise à niveau"
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: Mise à niveau d'AX 2012 – Estimer les efforts à l'aide du service de mise à niveau du code
           href: migration-upgrade/analyze-code-upgrade.md
@@ -1095,10 +1152,11 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Mettre à niveau la planification budgétaire
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: "Migrer des données d'AX\_2009 vers Finance and Operations"
-      href: migration-upgrade/data-migration-tool.md
+    - name: "Migrer les données depuis AX\_2009"
       items:
-        - name: Migration d'AX 2009 - Installer l'outil de migration des données
+        - name: "Migrer des données d'AX\_2009 vers Finance and Operations"
+          href: migration-upgrade/data-migration-tool.md
+        - name: "Migration d'AX\_2009\_-\_Installer l'outil de migration des données"
           href: migration-upgrade/install-dmt.md
         - name: Migration d'AX 2009 - Générer des cartes
           href: migration-upgrade/generate-maps.md
@@ -1108,11 +1166,12 @@
           href: migration-upgrade/create-definition.md
         - name: Migration d'AX 2009 - Exporter des packages
           href: migration-upgrade/ax2009-upgrade-export-package.md
-        - name: Migration d'AX 2009 - Importer des packages
+        - name: "Migration d'AX\_2009\_-\_Importer des packages"
           href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Migration et mise à niveau de code
-      href: migration-upgrade/code-migration-home-page.md
       items:
+        - name: Page d'accueil Migration et mise à niveau de code
+          href: migration-upgrade/code-migration-home-page.md
         - name: Préparer la migration du code
           href: migration-upgrade/prepare-migration.md
         - name: Configurer la mise en correspondance d'Azure DevOps
@@ -1135,11 +1194,9 @@
           href: migration-upgrade/versions-update-policy.md
         - name: Appliquer la dernière mise à jour de plateforme aux environnements
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: "Mise à niveau de la plateforme Dynamics AX vers la version d'août\_2016"
-          href: migration-upgrade/update-platform-each-release.md
-        - name: Mise à niveau des données dans des environnement de développement ou de démonstration
+        - name: Mettre à niveau des données dans des environnement de développement ou de démonstration
           href: migration-upgrade/upgrade-data-to-latest-update.md
-        - name: Mise à niveau des outils de développement
+        - name: Mettre à niveau des outils de développement
           href: dev-tools/update-development-tools.md
         - name: Planifier et préparer la compilation du code dans la dernière mise à jour
           href: migration-upgrade/compile-considerations.md
@@ -1172,8 +1229,9 @@
         - name: "API obsolètes (juin\_2017)"
           href: migration-upgrade/deprecated-apis.md
 - name: Administration du système
-  href: sysadmin/system-administration-home-page.md
   items:
+    - name: Page d'accueil Administration du système
+      href: sysadmin/system-administration-home-page.md
     - name: Ajouter des liens à la déclaration de confidentialité et aux conditions légales
       href: sysadmin/legal-terms-privacy-statement.md
     - name: État des codes licence et des clés de configuration
@@ -1184,18 +1242,19 @@
       href: sysadmin/maintenance-mode.md
     - name: Comptes système préconfigurés
       href: sysadmin/pre-configured-system-accounts.md
-    - name: Exporter des utilisateurs B2B vers Azure AD
+    - name: "Exporter des utilisateurs\_B2B vers Azure AD"
       href: sysadmin/implement-b2b.md
-    - name: Définir le délai d'inactivité de session
-      href: sysadmin/session-idle-timeout.md
-    - name: Sécurité basée sur les rôles
-      href: sysadmin/role-based-security.md
+    - name: Sécurité
       items:
+        - name: Sécurité basée sur les rôles
+          href: sysadmin/role-based-security.md
         - name: Architecture de sécurité
           href: sysadmin/security-architecture.md
+        - name: Définir le délai d'inactivité de session
+          href: sysadmin/session-idle-timeout.md
         - name: États de sécurité prédéfinis
           href: sysadmin/security-reports.md
-        - name: Création de nouveaux utilisateurs
+        - name: Créer de nouveaux utilisateurs
           href: sysadmin/tasks/create-new-users.md
         - name: Importer des utilisateurs en bloc
           href: sysadmin/tasks/import-bulk-users.md
@@ -1206,8 +1265,9 @@
         - name: Affecter des utilisateurs à des rôles de sécurité
           href: sysadmin/tasks/assign-users-security-roles.md
     - name: Traitement par lots
-      href: sysadmin/batch-processing-overview.md
       items:
+        - name: Vue d'ensemble du traitement par lots
+          href: sysadmin/batch-processing-overview.md
         - name: Traitement par lots et serveurs de traitement par lots
           href: sysadmin/batch-server-overview.md
         - name: Créer des traitements par lots
@@ -1229,17 +1289,19 @@
         - name: Abandonner un traitement par lots en cours d'exécution
           href: sysadmin/batch-abort.md
     - name: Conseiller en optimisation
-      href: sysadmin/optimization-advisor-overview.md
       items:
+        - name: Vue d'ensemble du conseiller en optimisation
+          href: sysadmin/optimization-advisor-overview.md
         - name: Créer des règles pour le conseiller en optimisation
           href: sysadmin/create-rules-optimization-advisor.md
     - name: Signaler une panne de production
       href: lifecycle-services/report-production-outage.md
-- name: Lifecycle Services
+- name: "Lifecycle\_Services"
   items:
-    - name: Ressources pour Lifecycle Services
-      href: lifecycle-services/lcs.md
+    - name: "Ressources pour Lifecycle\_Services"
       items:
+        - name: "Ressources pour Lifecycle\_Services"
+          href: lifecycle-services/lcs.md
         - name: LCS pour les clients
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS pour les partenaires
@@ -1257,8 +1319,9 @@
     - name: Recherche d'incidents
       href: lifecycle-services/issue-search-lcs.md
     - name: Gestionnaire de configuration
-      href: lifecycle-services/configuration-manager-lcs.md
       items:
+        - name: Vue d'ensemble du gestionnaire de configuration
+          href: lifecycle-services/configuration-manager-lcs.md
         - name: Paramétrer le gestionnaire de configuration
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: Configurer le service de mise à niveau du code
@@ -1297,9 +1360,10 @@
       href: lifecycle-services/performancetroubleshooting.md
     - name: Livre de recettes pour les requêtes
       href: lifecycle-services/querycookbook.md
-    - name: Microsoft Dynamics 365 Translation Service
-      href: lifecycle-services/translation-service-overview.md
+    - name: "Microsoft Dynamics\_365 Translation\_Service"
       items:
+        - name: "Vue d'ensemble de Dynamics\_365 Translation\_Service"
+          href: lifecycle-services/translation-service-overview.md
         - name: Traduire les fichiers de l'interface utilisateur
           href: lifecycle-services/use-translation-service.md
         - name: Traduire les fichiers de documentation
