@@ -3,7 +3,7 @@ title: Bienvenue dans Dynamics 365 for Retail
 description: Page d'accueil de Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572165"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874925"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Bienvenue dans Dynamics 365 for Retail
 
@@ -38,7 +38,7 @@ Dans le volet de gauche, sélectionnez une zone de fonction pour en savoir plus.
 
 ## <a name="channel-management"></a>Gestion des canaux
 
-Lorsque vous paramétrez votre expérience Retail, vous décidez comment définir et configurer vos magasins. Il peut s'agir de magasins physiques, de magasins en ligne ou de centres d'appels.
+Lorsque vous paramétrez votre expérience Retail, vous décidez comment définir et configurer vos magasins, lesquels peuvent être des magasins de vente au détail, des magasins en ligne ou des centres d'appels.
 
 Chaque magasin de vente au détail peut avoir ses propres modes de paiement, modes de livraison, groupes de prix, comptes de revenus et dépenses, caisses enregistreuse et son propre personnel. Une fois votre magasin de vente au détail créé, vous devez créer un assortiment de produits qui seront pris en charge par le magasin. Vous pouvez également définir les prix et les remises spécifiques qui s'appliquent aux produits disponibles dans le magasin.
 
