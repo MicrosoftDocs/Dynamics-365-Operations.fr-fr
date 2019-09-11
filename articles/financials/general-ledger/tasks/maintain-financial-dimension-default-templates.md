@@ -1,9 +1,9 @@
 ---
 title: Tenir à jour les modèles par défaut de dimension financière
-description: Cette procédure indique comment paramétrer les modèles par défaut de dimension financière.
+description: Cette rubrique indique comment paramétrer les modèles de dimension financière par défaut.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,30 +16,29 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 27ce6df8ad4bc359f2cbf802f83149bc6966321a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5b53077844c231496642f97a62b373eb0547fde2
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846430"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867461"
 ---
-# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="ff121-103">Tenir à jour les modèles par défaut de dimension financière</span><span class="sxs-lookup"><span data-stu-id="ff121-103">Maintain financial dimension default templates</span></span>
+# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="2912d-103">Tenir à jour les modèles par défaut de dimension financière</span><span class="sxs-lookup"><span data-stu-id="2912d-103">Maintain financial dimension default templates</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ff121-104">Cette procédure indique comment paramétrer les modèles par défaut de dimension financière.</span><span class="sxs-lookup"><span data-stu-id="ff121-104">This procedure shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="ff121-105">Les modèles peuvent être utilisés pour répartir rapidement les montants sur les documents source.</span><span class="sxs-lookup"><span data-stu-id="ff121-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
+<span data-ttu-id="2912d-104">Cette rubrique indique comment paramétrer les modèles de dimension financière par défaut.</span><span class="sxs-lookup"><span data-stu-id="2912d-104">This topic shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="2912d-105">Les modèles peuvent être utilisés pour répartir rapidement les montants sur les documents source.</span><span class="sxs-lookup"><span data-stu-id="2912d-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
 
-1. <span data-ttu-id="ff121-106">Accédez à Comptabilité > Plan de comptes > Dimensions > Modèles par défaut des dimensions financières.</span><span class="sxs-lookup"><span data-stu-id="ff121-106">Go to General ledger > Chart of accounts > Dimensions > Financial dimension default templates.</span></span>
-2. <span data-ttu-id="ff121-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ff121-107">Click New.</span></span>
-3. <span data-ttu-id="ff121-108">Dans le champ ID modèle, entrez un ID de modèle.</span><span class="sxs-lookup"><span data-stu-id="ff121-108">In the Template ID field, enter a Template ID..</span></span>
-4. <span data-ttu-id="ff121-109">Entrez le pourcentage pour les premières valeurs de dimension.</span><span class="sxs-lookup"><span data-stu-id="ff121-109">Enter the percentage for the first dimension values.</span></span>
-5. <span data-ttu-id="ff121-110">Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.</span><span class="sxs-lookup"><span data-stu-id="ff121-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
-6. <span data-ttu-id="ff121-111">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="ff121-111">Click Add.</span></span>
-7. <span data-ttu-id="ff121-112">Entrez un autre pourcentage pour les valeurs de dimension suivantes.</span><span class="sxs-lookup"><span data-stu-id="ff121-112">Enter another percent for the next dimension values.</span></span>
-    * <span data-ttu-id="ff121-113">Pour cet exemple, entrez un pourcentage de sorte que moins de 100 % soit attribué.</span><span class="sxs-lookup"><span data-stu-id="ff121-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span>  
-8. <span data-ttu-id="ff121-114">Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.</span><span class="sxs-lookup"><span data-stu-id="ff121-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
-9. <span data-ttu-id="ff121-115">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="ff121-115">Click Add.</span></span>
-10. <span data-ttu-id="ff121-116">Entrez un autre pourcentage de sorte que le pourcentage total soit égal à 100 %.</span><span class="sxs-lookup"><span data-stu-id="ff121-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
-11. <span data-ttu-id="ff121-117">Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.</span><span class="sxs-lookup"><span data-stu-id="ff121-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
-12. <span data-ttu-id="ff121-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ff121-118">Click Save.</span></span>
+1. <span data-ttu-id="2912d-106">Dans le volet de navigation, accédez à **Modules > Comptabilité > Plan de comptes > Dimensions > Modèles par défaut des dimensions financières**.</span><span class="sxs-lookup"><span data-stu-id="2912d-106">In the navigation pane, go to **Modules > General ledger > Chart of accounts > Dimensions > Financial dimension default templates**.</span></span>
+2. <span data-ttu-id="2912d-107">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="2912d-107">Select **New**.</span></span>
+3. <span data-ttu-id="2912d-108">Dans le champ **ID modèle**, entrez un ID de modèle.</span><span class="sxs-lookup"><span data-stu-id="2912d-108">In the **Template ID** field, enter a Template ID.</span></span>
+4. <span data-ttu-id="2912d-109">Entrez le pourcentage pour les premières valeurs de dimension.</span><span class="sxs-lookup"><span data-stu-id="2912d-109">Enter the percentage for the first dimension values.</span></span>
+5. <span data-ttu-id="2912d-110">Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.</span><span class="sxs-lookup"><span data-stu-id="2912d-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
+6. <span data-ttu-id="2912d-111">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="2912d-111">Select **Add**.</span></span>
+7. <span data-ttu-id="2912d-112">Entrez un autre pourcentage pour les valeurs de dimension suivantes.</span><span class="sxs-lookup"><span data-stu-id="2912d-112">Enter another percent for the next dimension values.</span></span> <span data-ttu-id="2912d-113">Pour cet exemple, entrez un pourcentage de sorte que moins de 100 % soit attribué.</span><span class="sxs-lookup"><span data-stu-id="2912d-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span> 
+8. <span data-ttu-id="2912d-114">Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.</span><span class="sxs-lookup"><span data-stu-id="2912d-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
+9. <span data-ttu-id="2912d-115">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="2912d-115">Select **Add**.</span></span>
+10. <span data-ttu-id="2912d-116">Entrez un autre pourcentage de sorte que le pourcentage total soit égal à 100 %.</span><span class="sxs-lookup"><span data-stu-id="2912d-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
+11. <span data-ttu-id="2912d-117">Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.</span><span class="sxs-lookup"><span data-stu-id="2912d-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
+12. <span data-ttu-id="2912d-118">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="2912d-118">Select **Save**.</span></span>
 

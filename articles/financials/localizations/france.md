@@ -1,9 +1,9 @@
 ---
-title: France
+title: Vue d'ensemble de la France
 description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 for Finance and Operations pour la France.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/25/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,48 +16,48 @@ ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b15f63182bb3b28fa04eb5178a062a2ca8e9c9f
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 4acece8921d0e88667fae0be4ba3d1c37992e64d
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1852496"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865664"
 ---
-# <a name="france"></a><span data-ttu-id="6f9b1-103">France</span><span class="sxs-lookup"><span data-stu-id="6f9b1-103">France</span></span> 
+# <a name="france-overview"></a><span data-ttu-id="43dac-103">Vue d'ensemble de la France</span><span class="sxs-lookup"><span data-stu-id="43dac-103">France overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6f9b1-104">Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer Dynamics 365 for Finance and Operations pour les entités juridiques dont l'adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="6f9b1-104">This topic includes information and links to resources that can help you set up Dynamics 365 for Finance and Operations for legal entities with a primary address in France.</span></span> 
+<span data-ttu-id="43dac-104">Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer Dynamics 365 for Finance and Operations pour les entités juridiques dont l'adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="43dac-104">This topic includes information and links to resources that can help you set up Dynamics 365 for Finance and Operations for legal entities with a primary address in France.</span></span> 
 
-- <span data-ttu-id="6f9b1-105">Secteur public</span><span class="sxs-lookup"><span data-stu-id="6f9b1-105">Public sector</span></span>
-  - [<span data-ttu-id="6f9b1-106">Comptabilité secteur public</span><span class="sxs-lookup"><span data-stu-id="6f9b1-106">Public sector accounting</span></span>](emea-fra-public-sector-accounting.md)
-  - [<span data-ttu-id="6f9b1-107">Engagements</span><span class="sxs-lookup"><span data-stu-id="6f9b1-107">Commitments</span></span>](emea-fra-commitments-public-sector.md)
-  - [<span data-ttu-id="6f9b1-108">Mandats de paiement</span><span class="sxs-lookup"><span data-stu-id="6f9b1-108">Mandats de paiement</span></span>](emea-fra-mandats-de-paiement.md)
-  - [<span data-ttu-id="6f9b1-109">Approvisionnements</span><span class="sxs-lookup"><span data-stu-id="6f9b1-109">Procurement and sourcing</span></span>](emea-fra-procurement-sourcing-public-sector.md)
-  - [<span data-ttu-id="6f9b1-110">Titres de recette</span><span class="sxs-lookup"><span data-stu-id="6f9b1-110">Titres de recette</span></span>](emea-fra-titres-de-recette-public-sector.md)
-  - [<span data-ttu-id="6f9b1-111">Blocages de paiements de factures fournisseur</span><span class="sxs-lookup"><span data-stu-id="6f9b1-111">Vendor invoice payment holds</span></span>](emea-fra-vendor-invoice-payment-holds-public-sector.md)
-- [<span data-ttu-id="6f9b1-112">Approuver et valider la création des lettres de change client</span><span class="sxs-lookup"><span data-stu-id="6f9b1-112">Approve and post draw bill of exchange</span></span>](tasks/fr-00004-approve-post-draw-bill-exchange.md)
-- [<span data-ttu-id="6f9b1-113">Factures et documents chronologiques</span><span class="sxs-lookup"><span data-stu-id="6f9b1-113">Chronological invoices vouchers</span></span>](emea-fra-chronological-invoices-vouchers.md)
-- [<span data-ttu-id="6f9b1-114">Créer un fichier d'audit standard pour la France (FEC)</span><span class="sxs-lookup"><span data-stu-id="6f9b1-114">Create Standard Audit File for France (FEC)</span></span>](emea-fra-fec-audit-file.md)
-- [<span data-ttu-id="6f9b1-115">Relevés de compte client et fournisseur</span><span class="sxs-lookup"><span data-stu-id="6f9b1-115">Customer and vendor account statements</span></span>](tasks/fr-00002-customer-vendor-account-statements.md)
-- [<span data-ttu-id="6f9b1-116">Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance</span><span class="sxs-lookup"><span data-stu-id="6f9b1-116">Daily interest calculation for late payment and lump sum in the invoice and collection letter</span></span>](tasks/fr-00018-daily-interest.md)
-- [<span data-ttu-id="6f9b1-117">Amortissement dérogatoire</span><span class="sxs-lookup"><span data-stu-id="6f9b1-117">Derogatory depreciation</span></span>](emea-fra-derogatory-depreciation.md)
-- [<span data-ttu-id="6f9b1-118">Lettres de change et billets à ordre français</span><span class="sxs-lookup"><span data-stu-id="6f9b1-118">French bills of exchange and promissory notes</span></span>](tasks/fr-00004-french-bills-exchange-promissory-notes.md)
-- [<span data-ttu-id="6f9b1-119">Codes NAF et numéros Siret</span><span class="sxs-lookup"><span data-stu-id="6f9b1-119">NAF codes and siret numbers</span></span>](emea-fra-naf-codes-siret-numbers.md)
-- [<span data-ttu-id="6f9b1-120">Paramétrer des codes NAF et numéros SIRET</span><span class="sxs-lookup"><span data-stu-id="6f9b1-120">Set up NAF codes and Siret numbers</span></span>](tasks/fr-00003-naf-codes-siret-numbers.md)
-- [<span data-ttu-id="6f9b1-121">Pénalités pour les paiements client en retard</span><span class="sxs-lookup"><span data-stu-id="6f9b1-121">Penalties for past due customer payments</span></span>](emea-fra-apply-penalty-customer-payment-past-due.md)
-- [<span data-ttu-id="6f9b1-122">Valider le journal de création et de contestation des lettres de change</span><span class="sxs-lookup"><span data-stu-id="6f9b1-122">Post protest draw bill of exchange journal</span></span>](tasks/fr-00004-post-protest-draw-bill-exchange-journal.md)
-- [<span data-ttu-id="6f9b1-123">Valider le journal de recréation de lettres de change</span><span class="sxs-lookup"><span data-stu-id="6f9b1-123">Post re-draw bill of exchange journal</span></span>](tasks/fr-00004-post-re-draw-bill-exchange-journal.md)
-- [<span data-ttu-id="6f9b1-124">Impression de texte récupéré du montant forfaitaire sur une facture client</span><span class="sxs-lookup"><span data-stu-id="6f9b1-124">Print lump sum recovery text on a customer invoice</span></span>](emea-fra-print-lump-sum-recovery-text.md)
-- [<span data-ttu-id="6f9b1-125">Amortissement dégressif fiscal</span><span class="sxs-lookup"><span data-stu-id="6f9b1-125">RB/SL depreciation</span></span>](emea-fra-rbsl-depreciation.md)
-- [<span data-ttu-id="6f9b1-126">Paramétrer les modes de paiement</span><span class="sxs-lookup"><span data-stu-id="6f9b1-126">Set up method of payment</span></span>](tasks/fr-00004-setup-method-payment.md)
-- [<span data-ttu-id="6f9b1-127">Mettre à jour un mode de paiement pour le client</span><span class="sxs-lookup"><span data-stu-id="6f9b1-127">Update method of payment on customer</span></span>](tasks/fr-00004-update-method-payment-customer.md)
-- <span data-ttu-id="6f9b1-128">Retail</span><span class="sxs-lookup"><span data-stu-id="6f9b1-128">Retail</span></span>
-  - [<span data-ttu-id="6f9b1-129">Caisses enregistreuses</span><span class="sxs-lookup"><span data-stu-id="6f9b1-129">Cash registers</span></span>](../../retail/localizations/emea-fra-cash-registers.md)
-  - [<span data-ttu-id="6f9b1-130">Instructions de déploiement de caisses enregistreuses</span><span class="sxs-lookup"><span data-stu-id="6f9b1-130">Deployment guidelines for cash registers</span></span>](../../retail/localizations/emea-fra-deployment.md)
+- <span data-ttu-id="43dac-105">Secteur public</span><span class="sxs-lookup"><span data-stu-id="43dac-105">Public sector</span></span>
+  - [<span data-ttu-id="43dac-106">Comptabilité secteur public</span><span class="sxs-lookup"><span data-stu-id="43dac-106">Public sector accounting</span></span>](emea-fra-public-sector-accounting.md)
+  - [<span data-ttu-id="43dac-107">Engagements</span><span class="sxs-lookup"><span data-stu-id="43dac-107">Commitments</span></span>](emea-fra-commitments-public-sector.md)
+  - [<span data-ttu-id="43dac-108">Mandats de paiement</span><span class="sxs-lookup"><span data-stu-id="43dac-108">Mandats de paiement</span></span>](emea-fra-mandats-de-paiement.md)
+  - [<span data-ttu-id="43dac-109">Approvisionnements</span><span class="sxs-lookup"><span data-stu-id="43dac-109">Procurement and sourcing</span></span>](emea-fra-procurement-sourcing-public-sector.md)
+  - [<span data-ttu-id="43dac-110">Titres de recette</span><span class="sxs-lookup"><span data-stu-id="43dac-110">Titres de recette</span></span>](emea-fra-titres-de-recette-public-sector.md)
+  - [<span data-ttu-id="43dac-111">Blocages de paiements de factures fournisseur</span><span class="sxs-lookup"><span data-stu-id="43dac-111">Vendor invoice payment holds</span></span>](emea-fra-vendor-invoice-payment-holds-public-sector.md)
+- [<span data-ttu-id="43dac-112">Approuver et valider la création des lettres de change client</span><span class="sxs-lookup"><span data-stu-id="43dac-112">Approve and post draw bill of exchange</span></span>](tasks/fr-00004-approve-post-draw-bill-exchange.md)
+- [<span data-ttu-id="43dac-113">Factures et documents chronologiques</span><span class="sxs-lookup"><span data-stu-id="43dac-113">Chronological invoices vouchers</span></span>](emea-fra-chronological-invoices-vouchers.md)
+- [<span data-ttu-id="43dac-114">Créer un fichier d'audit standard pour la France (FEC)</span><span class="sxs-lookup"><span data-stu-id="43dac-114">Create Standard Audit File for France (FEC)</span></span>](emea-fra-fec-audit-file.md)
+- [<span data-ttu-id="43dac-115">Relevés de compte client et fournisseur</span><span class="sxs-lookup"><span data-stu-id="43dac-115">Customer and vendor account statements</span></span>](tasks/fr-00002-customer-vendor-account-statements.md)
+- [<span data-ttu-id="43dac-116">Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance</span><span class="sxs-lookup"><span data-stu-id="43dac-116">Daily interest calculation for late payment and lump sum in the invoice and collection letter</span></span>](tasks/fr-00018-daily-interest.md)
+- [<span data-ttu-id="43dac-117">Amortissement dérogatoire</span><span class="sxs-lookup"><span data-stu-id="43dac-117">Derogatory depreciation</span></span>](emea-fra-derogatory-depreciation.md)
+- [<span data-ttu-id="43dac-118">Lettres de change et billets à ordre français</span><span class="sxs-lookup"><span data-stu-id="43dac-118">French bills of exchange and promissory notes</span></span>](tasks/fr-00004-french-bills-exchange-promissory-notes.md)
+- [<span data-ttu-id="43dac-119">Codes NAF et numéros Siret</span><span class="sxs-lookup"><span data-stu-id="43dac-119">NAF codes and siret numbers</span></span>](emea-fra-naf-codes-siret-numbers.md)
+- [<span data-ttu-id="43dac-120">Paramétrer des codes NAF et numéros SIRET</span><span class="sxs-lookup"><span data-stu-id="43dac-120">Set up NAF codes and Siret numbers</span></span>](tasks/fr-00003-naf-codes-siret-numbers.md)
+- [<span data-ttu-id="43dac-121">Pénalités pour les paiements client en retard</span><span class="sxs-lookup"><span data-stu-id="43dac-121">Penalties for past due customer payments</span></span>](emea-fra-apply-penalty-customer-payment-past-due.md)
+- [<span data-ttu-id="43dac-122">Valider le journal de création et de contestation des lettres de change</span><span class="sxs-lookup"><span data-stu-id="43dac-122">Post protest draw bill of exchange journal</span></span>](tasks/fr-00004-post-protest-draw-bill-exchange-journal.md)
+- [<span data-ttu-id="43dac-123">Valider le journal de recréation de lettres de change</span><span class="sxs-lookup"><span data-stu-id="43dac-123">Post re-draw bill of exchange journal</span></span>](tasks/fr-00004-post-re-draw-bill-exchange-journal.md)
+- [<span data-ttu-id="43dac-124">Impression de texte récupéré du montant forfaitaire sur une facture client</span><span class="sxs-lookup"><span data-stu-id="43dac-124">Print lump sum recovery text on a customer invoice</span></span>](emea-fra-print-lump-sum-recovery-text.md)
+- [<span data-ttu-id="43dac-125">Amortissement dégressif fiscal</span><span class="sxs-lookup"><span data-stu-id="43dac-125">RB/SL depreciation</span></span>](emea-fra-rbsl-depreciation.md)
+- [<span data-ttu-id="43dac-126">Paramétrer les modes de paiement</span><span class="sxs-lookup"><span data-stu-id="43dac-126">Set up method of payment</span></span>](tasks/fr-00004-setup-method-payment.md)
+- [<span data-ttu-id="43dac-127">Mettre à jour un mode de paiement pour le client</span><span class="sxs-lookup"><span data-stu-id="43dac-127">Update method of payment on customer</span></span>](tasks/fr-00004-update-method-payment-customer.md)
+- <span data-ttu-id="43dac-128">Retail</span><span class="sxs-lookup"><span data-stu-id="43dac-128">Retail</span></span>
+  - [<span data-ttu-id="43dac-129">Caisses enregistreuses</span><span class="sxs-lookup"><span data-stu-id="43dac-129">Cash registers</span></span>](../../retail/localizations/emea-fra-cash-registers.md)
+  - [<span data-ttu-id="43dac-130">Instructions de déploiement de caisses enregistreuses</span><span class="sxs-lookup"><span data-stu-id="43dac-130">Deployment guidelines for cash registers</span></span>](../../retail/localizations/emea-fra-deployment.md)
 
-## <a name="additional-resources"></a><span data-ttu-id="6f9b1-131">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="6f9b1-131">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="43dac-131">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="43dac-131">Additional resources</span></span>
 
-- [<span data-ttu-id="6f9b1-132">Vue d'ensemble des états électroniques</span><span class="sxs-lookup"><span data-stu-id="6f9b1-132">Electronic reporting overview</span></span>](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [<span data-ttu-id="6f9b1-133">Télécharger les configurations d'états électroniques à partir de Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="6f9b1-133">Download Electronic reporting configurations from Lifecycle Services</span></span>](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-- [<span data-ttu-id="6f9b1-134">Portail de localisation Microsoft Dynamics : état australien (exige un compte CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="6f9b1-134">Microsoft Dynamics Localization Portal: Australia report (requires CustomerSource account)</span></span>](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/france.html)
+- [<span data-ttu-id="43dac-132">Vue d'ensemble des états électroniques</span><span class="sxs-lookup"><span data-stu-id="43dac-132">Electronic reporting overview</span></span>](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [<span data-ttu-id="43dac-133">Télécharger les configurations d'états électroniques à partir de Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="43dac-133">Download Electronic reporting configurations from Lifecycle Services</span></span>](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [<span data-ttu-id="43dac-134">Portail de localisation Microsoft Dynamics : état australien (exige un compte CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="43dac-134">Microsoft Dynamics Localization Portal: Australia report (requires CustomerSource account)</span></span>](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/france.html)

@@ -1,9 +1,9 @@
 ---
-title: Suisse
+title: Vue d'ensemble de la Suisse
 description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 for Finance and Operations pour la Suisse.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.search.region: Switzerland
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40972d848f057a0743fbc3fdfe74f6bccd28661b
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 86122bf0a22d01db683c221bd13a08224d4f40ed
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849186"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865644"
 ---
-# <a name="switzerland"></a><span data-ttu-id="61964-103">Suisse</span><span class="sxs-lookup"><span data-stu-id="61964-103">Switzerland</span></span> 
+# <a name="switzerland-overview"></a><span data-ttu-id="682ca-103">Vue d'ensemble de la Suisse</span><span class="sxs-lookup"><span data-stu-id="682ca-103">Switzerland overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="61964-104">Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse.</span><span class="sxs-lookup"><span data-stu-id="61964-104">This topic provides links to documentation resources for Switzerland.</span></span> 
+<span data-ttu-id="682ca-104">Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse.</span><span class="sxs-lookup"><span data-stu-id="682ca-104">This topic provides links to documentation resources for Switzerland.</span></span> 
 
-- [<span data-ttu-id="61964-105">Importer des paiements client dans ESR</span><span class="sxs-lookup"><span data-stu-id="61964-105">Import customer payments in ESR</span></span>](emea-che-esr-customer-payments-import.md)
+- [<span data-ttu-id="682ca-105">Importer des paiements client dans ESR</span><span class="sxs-lookup"><span data-stu-id="682ca-105">Import customer payments in ESR</span></span>](emea-che-esr-customer-payments-import.md)
