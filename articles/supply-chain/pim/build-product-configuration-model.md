@@ -1,9 +1,9 @@
 ---
-title: Générer un modèle de configuration de produit
+title: Vue d'ensemble de la configuration du produit
 description: La nécessité de configurer des produits pour répondre aux exigences spéciales devient la règle plutôt que l'exception, dans les relations interentreprises comme dans les relations entreprise-client.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564598"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865374"
 ---
-# <a name="build-a-product-configuration-model"></a>Générer un modèle de configuration de produit
+# <a name="product-configuration-overview"></a>Vue d'ensemble de la configuration du produit
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,9 +1,9 @@
 ---
-title: Souches de numéros
+title: Vue d'ensemble des séquences de nombres
 description: Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transactions qui en exigent.
 author: MargoC
 manager: AnnBe
-ms.date: 08/17/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dadbe811e385ea6d5802c03381093d6693b23ba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c036a6bf315ddb4df93c43bb3aa2b9370c7fba36
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560565"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864814"
 ---
-# <a name="number-sequences"></a>Souches de numéros
+# <a name="number-sequences-overview"></a>Vue d'ensemble des séquences de nombres
 
 [!include [banner](../includes/banner.md)]
 

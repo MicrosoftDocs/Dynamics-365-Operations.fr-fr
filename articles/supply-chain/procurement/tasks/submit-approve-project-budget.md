@@ -3,7 +3,7 @@ title: Envoyer et approuver le budget du projet
 description: Cette procédure décrit comment créer et envoyer le budget d'un projet.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffa7b4f23e63196947fef1b2180145702531e0a6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 798bbc68e625c58d56cdd769f48ba734ace1d028
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843911"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914859"
 ---
 # <a name="submit-and-approve-project-budget"></a>Envoyer et approuver le budget du projet
 
@@ -34,26 +34,26 @@ Lors de la création d'un budget de projet, vous pouvez entrer les produits et c
 
 Cette tâche a été créé à l'aide de l'ensemble de données USSI.
 
-1. Accédez à Gestion et comptabilité des projets > Projets > Tous les projets.
+1. Dans le **volet de navigation**, accédez à **Modules > Gestion et comptabilité du projet > Projets > Tous les projets**.
 2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-4. Cliquez sur Plan ans le volet Actions.
-5. Cliquez sur Budget de projet.
-6. Dans le champ Description, entrez une valeur.
-7. Développez la section Coût.
-8. Cliquez sur Nouveau.
-9. Dans le champ Type de transaction, sélectionnez une option.
-10. Dans le champ Catégorie, saisissez ou sélectionnez une valeur.
-11. Dans le champ Budget d'origine, entrer un nombre.
-12. Développez la section Produits.
-13. Cliquez sur Nouveau.
-14. Dans la liste, marquez la ligne sélectionnée.
-15. Dans le champ Type de transaction, sélectionnez une option.
-16. Dans le champ Catégorie, saisissez ou sélectionnez une valeur.
-17. Dans le champ Budget d'origine, entrer un nombre.
-18. Cliquez sur Enregistrer.
-19. Cliquez sur Workflow.
-20. Cliquez sur Soumettre.
-21. Dans le champ Commentaire, tapez une valeur.
-22. Cliquez sur Soumettre.
+4. Dans le **volet Action**, cliquez sur **Plan**.
+5. Cliquez sur **Budget de projet**.
+6. Tapez une valeur dans le champ **Description**.
+7. Développez l'organisateur **Coût**.
+8. Cliquez sur **Nouveau**.
+9. Dans le champ **Type de transaction**, sélectionnez une option.
+10. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
+11. Dans le champ **Budget d'origine**, entrez un nombre.
+12. Développez l'organisateur **Produits**.
+13. Cliquez sur **Nouveau**.
+14. Dans la liste, marquer la ligne sélectionnée.
+15. Dans le champ **Type de transaction**, sélectionnez une option.
+16. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
+17. Dans le champ **Budget d'origine**, entrez un nombre.
+18. Cliquez sur **Enregistrer**.
+19. Cliquez sur **Workflow**.
+20. Cliquez sur **Soumettre**.
+21. Dans le champ **Commentaire**, tapez une valeur.
+22. Cliquez sur **Soumettre**.
 

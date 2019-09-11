@@ -1,9 +1,9 @@
 ---
 title: Recevoir des articles sur une commande fournisseur à partir d'une demande d'articles
-description: Cette procédure montre le mode de réception des articles sur une commande fournisseur à partir d'une demande d'articles.
+description: Cette rubrique explique comment recevoir des articles sur une commande fournisseur à partir d'une demande d'articles.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,43 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fee2c965b0c065f00564b849ec93504336fb3f60
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7afdae65c5ae7e3196c6b9f142dd87aec39b5ea3
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838245"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867293"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Recevoir des articles sur une commande fournisseur à partir d'une demande d'articles
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure montre le mode de réception des articles sur une commande fournisseur à partir d'une demande d'articles.
+Cette rubrique explique comment recevoir des articles sur une commande fournisseur à partir d'une demande d'articles.
 
 En utilisant une demande d'article au lieu d'une transaction d'article, vous pouvez prévoir la livraison juste avant que l'article soit utilisé, créer une commande fournisseur, inclure l'article dans le cadre d'un accord commercial et inclure la demande d'article dans la planification de la production. 
 
 Cette tâche utilise l'ensemble de données USSI.
 
-1. Accédez à Gestion et comptabilité des projets > Projets > Tous les projets.
-2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-3. Cliquez sur Planifier dans le volet Actions.
-4. Cliquez sur Demandes d'articles.
-5. Cliquez sur Nouveau.
-6. Dans la liste, marquez la ligne sélectionnée.
-7. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-8. Dans le champ Quantité, entrer un numéro.
-9. Cliquez sur Enregistrer.
-10. Dans le volet Actions, cliquez sur Gérer.
-11. Cliquez sur Fonctions.
-12. Cliquez sur Créer une commande fournisseur.
-13. Activez la case à cocher Inclure.
-14. Dans le champ Compte fournisseur, saisissez ou sélectionnez une valeur.
-15. Cliquez sur OK.
-16. Accédez à Comptabilité fournisseur > Commandes fournisseur > Toutes les commandes fournisseur.
-17. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-18. Cliquez sur Achats dans le volet Actions.
-19. Cliquez sur Confirmer.
-20. Dans le volet Actions, cliquez sur Recevoir.
-21. Cliquez sur Accusé de réception de marchandises.
-22. Dans la liste, marquez la ligne sélectionnée.
-23. Tapez une valeur dans le champ Accusé de réception de marchandises.
-24. Cliquez sur OK.
+1. Dans le volet de navigation, accédez à **Modules > Gestion et comptabilité du projet > Projets > Tous les projets**.
+2. Dans la liste, sélectionnez le lien dans la ligne souhaitée.
+3. Dans le volet Actions, sélectionnez **Planifier**.
+4. Sélectionnez **Demandes d'articles**.
+5. Sélectionnez **Nouveau**.
+6. Dans la nouvelle ligne, saisissez ou sélectionnez une valeur dans le champ **Numéro d'article**.
+7. Entrez un nombre dans le champ **Quantité**.
+8. Sélectionnez **Enregistrer**.
+9. Dans le volet Actions, sélectionnez **Gérer**.
+10. Sélectionnez **Fonctions**.
+11. Sélectionnez **Créer une commande fournisseur**.
+12. Cochez la case **Tout inclure**.
+13. Dans le champ **Compte fournisseur**, saisissez ou sélectionnez une valeur.
+14. Cliquez sur **OK**.
+15. Dans le volet de navigation, accédez à **Modules > Comptabilité fournisseur > Commandes fournisseur > Toutes les commandes fournisseur**.
+16. Dans la liste, sélectionnez le lien dans la ligne souhaitée.
+17. Dans le volet Action, sélectionnez **Achat**.
+18. Sélectionnez **Confirmer**.
+19. Dans le volet Actions, sélectionnez **Recevoir**.
+20. Sélectionnez **Accusé de réception de marchandises**.
+21. Dans le champ **Accusé de réception de marchandises**, tapez une valeur.
+22. Cliquez sur **OK**.
 

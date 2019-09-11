@@ -3,7 +3,7 @@ title: Fonctions supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer.
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863381"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867099"
 ---
 # <a name="removed-or-deprecated-features"></a>Fonctions supprimées ou déconseillées
 
@@ -157,6 +157,17 @@ La prise en charge de la création de commandes client basées sur le projet où
 | **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tous |
 | **État**                         | Obsolète : l'avertissement devient une erreur de compilation dans Platform update 26. |
+
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>Dynamics 365 for Finance and Operations 10.0.0 avec platform update 24
+
+### <a name="renaming-released-products"></a>Renommer les produits lancés 
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Lorsque vous utilisez la fonction **Renommer la clé principale** pour modifier l'ItemId d'un produit lancé, seules les références directes de clé étrangère sont mises à jour. Toutes les autres références au produit lancé, comme des ordres de fabrication, conserveront l'ancien ItemId. Par conséquent, il peut y avoir des données incohérentes qui risquent de bloquer les processus d'entreprise. |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Zones de produit affectées**         | Gestion des informations sur les produits |
+| **Option de déploiement**              | Tous  |
+| **État**                         | Supprimé à partir de Dynamics 365 for Finance and Operations 10.0.0 avec platform update 24. Dans des cas exceptionnels, notamment pour récupérer l'ancien nom de la clé principale d'un produit lancé, il est possible de demander à Microsoft de supprimer temporairement cette restriction sur l'opération de clé principale pour renommer des produits lancés. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 avec platform update 23

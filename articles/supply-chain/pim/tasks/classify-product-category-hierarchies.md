@@ -1,9 +1,9 @@
 ---
 title: Classer un produit à l'aide des hiérarchies de catégories
-description: Utilisez les hiérarchies de catégories pour classer les produits pour l'exportation, l'approvisionnement, la vente ou d'autres fins.
+description: Cette rubrique décrit la procédure de classification d'un produit à l'aide des hiérarchies de catégories.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/26/2016
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59c74ff34fde9064c54f8e6e6c4717df83680fae
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f0d3a69de8999d106818e187f8ffe6181e90aea0
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568671"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866950"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Classer un produit à l'aide des hiérarchies de catégories
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Utilisez les hiérarchies de catégories pour classer les produits pour l'exportation, l'approvisionnement, la vente ou d'autres fins. Cette tâche est généralement effectuée par un responsable de produit. L'exemple utilise le numéro de produit M0009 dans les données de démonstration de la société fictive USMF.
+Cette rubrique décrit la procédure de classification d'un produit à l'aide des hiérarchies de catégories. Utilisez les hiérarchies de catégories pour classer les produits pour l'exportation, l'approvisionnement, la vente ou d'autres fins. Cette tâche est généralement effectuée par un responsable de produit. L'exemple utilise le numéro de produit M0009 dans les données de démonstration de la société fictive USMF.
 
-1. Cliquez sur Gestion des produits lancés.
-2. Cliquez sur Tous les produits lancés.
+1. Sélectionnez **Gestion des produits lancés**.
+2. Sélectionnez **Tous les produits lancés**.
 3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-4. Dans le volet Actions, cliquez sur Produit.
-5. Cliquez sur Catégories de produits.
-6. Cliquez sur Nouveau.
-7. Dans le champ Hiérarchie de catégories, saisissez ou sélectionnez une valeur.
-8. Dans le champ Catégorie, saisissez ou sélectionnez une valeur.
-9. Cliquez sur Nouveau.
-10. Dans le champ Hiérarchie de catégories, saisissez ou sélectionnez une valeur.
-11. Dans le champ Catégorie, saisissez ou sélectionnez une valeur.
+4. Dans le volet Actions, sélectionnez **Produit**.
+5. Sélectionnez **Catégories de produits**.
+6. Sélectionnez **Nouveau**.
+7. Saisissez ou sélectionnez une valeur dans le champ **Hiérarchie de catégories**.
+8. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
+9. Sélectionnez **Nouveau**.
+10. Saisissez ou sélectionnez une valeur dans le champ **Hiérarchie de catégories**.
+11. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
 12. Fermez la page.
 

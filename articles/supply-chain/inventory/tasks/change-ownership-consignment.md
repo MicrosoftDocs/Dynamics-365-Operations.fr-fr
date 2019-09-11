@@ -3,7 +3,7 @@ title: Modifier la propriété du stock de consignation en fonction de la demand
 description: Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu'il existe une demande de stock en production.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9587d39801ad39649aa5fa3ff682cdeab411516e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1cf45e838afcb55e15175811f4d38be07d7a484d
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838797"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874875"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Modifier la propriété du stock de consignation en fonction de la demande de production
 
@@ -30,6 +30,8 @@ ms.locfileid: "1838797"
 
 Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu'il existe une demande de stock en production. Cette modification de propriété est effectuée en créant et en validant un journal des modifications de propriété du stock. Les lignes du journal des modifications de propriété peuvent être créées manuellement ou, comme indiqué dans cet enregistrement, selon la demande de production existante. Généralement, un superviseur d'atelier exécute cette tâche. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF ou utiliser vos propres données. Si vous utilisez vos propres données, vérifiez que les conditions préalables suivantes sont remplies : un nom de journal de stock paramétré pour la modification de propriété du stock, des articles disponibles appartenant au fournisseur physiquement enregistré et une ou plusieurs lignes d'ordre de fabrication pour les matières. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
+> [!NOTE]
+> Les processus de consignation sortants ne sont pas pris en charge out-of-the-box et le traitement automatique du journal de propriété n'est pas pris en charge.
 
 ## <a name="create-an-inventory-ownership-journal"></a>Créer un journal de propriété de stock
 1. Allez dans Gestion des stocks > Entrées de journal > Articles > Modifications de propriété du stock.

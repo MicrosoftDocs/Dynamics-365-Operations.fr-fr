@@ -1,9 +1,9 @@
 ---
-title: Codes disposition et codes motif de retour
+title: Vue d'ensemble des retours client
 description: Créez et utilisez des codes motif de retour et des codes disposition pour prendre en charge le processus de retour de produits.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/01/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e37bd328ebceacc8acf134c5fbb20e6d6a6428d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 47c39eca58cdbbd091efff7856a73f74bc31ce07
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567517"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866015"
 ---
-# <a name="disposition-codes-and-return-reason-codes"></a>Codes disposition et codes motif de retour 
+# <a name="customer-returns-overview"></a>Vue d'ensemble des retours client
 
 [!include [banner](../includes/banner.md)]
 

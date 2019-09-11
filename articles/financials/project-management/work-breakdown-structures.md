@@ -1,9 +1,9 @@
 ---
-title: Structures de répartition du travail
+title: Vue d'ensemble des structures de répartition du travail
 description: Une structure de répartition du travail (WBS) est une description du travail qui sera effectué pour un projet. Il s'agit d'une hiérarchie des tâches qui représente la compréhension par l'équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche.
 author: KimANelson
 manager: AnnBe
-ms.date: 06/05/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 068a811c3f1e7033e2625a99975652e0d6f1a139
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 78509898d0c2279750df3860a670d3d7a6badfc0
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838221"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865578"
 ---
-# <a name="work-breakdown-structures"></a>Structures de répartition du travail
+# <a name="work-breakdown-structures-overview"></a>Vue d'ensemble des structures de répartition du travail
 
 [!include [banner](../includes/banner.md)]
 

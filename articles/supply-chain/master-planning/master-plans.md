@@ -1,9 +1,9 @@
 ---
-title: Plans généraux
+title: Vue d'ensemble des plans généraux
 description: Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d'entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9731ba47f449e037850c95a7873e1ae4551e2a9
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: 6a3fa16e0eeb4c392a80cc16cff004cf3765bd12
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595521"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865413"
 ---
-# <a name="master-plans"></a>Plans généraux
+# <a name="master-plans-overview"></a>Vue d'ensemble des plans généraux
 
 [!include [banner](../includes/banner.md)]
 

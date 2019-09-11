@@ -1,9 +1,9 @@
 ---
-title: Tâches d'importation et d'exportation de données
+title: Vue d'ensemble des tâches d'importation et d'exportation de données
 description: L'espace de travail Gestion des données vous permet de créer et de gérer des tâches d'importation et d'exportation de données.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 07/19/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: cbd8d305920262ed48c62f13aa86f903a6b16d0a
+ms.sourcegitcommit: e552111e148a80544a3468da60ea0464f02a658d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862902"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "1875318"
 ---
-# <a name="data-import-and-export-jobs"></a>Tâches d'importation et d'exportation de données
+# <a name="data-import-and-export-jobs-overview"></a>Vue d'ensemble des tâches d'importation et d'exportation de données
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
@@ -184,7 +184,7 @@ La fonctionnalité de nettoyage de l'historique de la gestion des données doit 
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-La fonctionnalité est accessible à partir de **Gestion des données \> Nettoyage de l'historique des tâches**.
+La fonctionnalité doit être activée dans le module de gestion des fonctionnalités et il est ensuite possible d'y accéder à partir de **Gestion des données \> Nettoyage de l'historique des tâches**.
 
 ### <a name="scheduling-parameters"></a>Paramètres de planification
 

@@ -1,9 +1,9 @@
 ---
-title: Contrats de vente
+title: Vue d'ensemble des contrats de vente
 description: Cette rubrique fournit des informations sur les contrats de vente. Un contrat de vente est un contrat qui engage le client à acheter une certaine quantité ou un certain montant de produit sur une période définie en échange de prix spéciaux et de remises.
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ab396d06383e3d6fc7bfab2e01f1afe4aa8fc4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560115"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865967"
 ---
-# <a name="sales-agreements"></a>Contrats de vente
+# <a name="sales-agreements-overview"></a>Vue d'ensemble des contrats de vente
 
 [!include [banner](../includes/banner.md)]
 

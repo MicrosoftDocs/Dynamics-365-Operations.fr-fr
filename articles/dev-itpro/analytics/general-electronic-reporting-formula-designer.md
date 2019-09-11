@@ -2,8 +2,8 @@
 title: Concepteur de formule dans les états électroniques (ER)
 description: Cette rubrique décrit l'utilisation du concepteur de formule dans la génération d'états électroniques.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849507"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864292"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
@@ -113,6 +113,33 @@ Le concepteur de formule de génération d'états électroniques peut également
 - Une expression active (en renvoyant la valeur **TRUE**) le processus de création de fichier pour les lots contenant au moins un enregistrement.
 
 [![Contrôle de fichier](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>Contrôle du contenu des documents
+
+Le concepteur de formule de génération d'états électroniques peut être utilisé pour configurer les expressions contrôlant quelles données sont placées dans les documents électroniques générés au moment de l'exécution. Les expressions peuvent activer ou désactiver l'émission d'éléments spécifiques du format, en fonction des données de traitement et de la logique configurée. Ces expressions peuvent être entrées pour un seul élément de format dans le champ **Activé** sur l'onglet **Mise en correspondance** sur la page **Concepteur des opérations** sous la forme d'une expression logique retournant la valeur **Booléenne** :
+
+-   Lorsque la valeur **Vrai** est retournée, l'élément du format actuel est exécuté.
+-   Lorsque la valeur **Faux** est retournée, l'élément du format actuel est ignoré.
+
+L'illustration suivante indique des expressions de ce type (la version, **11.12.11** de la configuration de format **Format de virement bancaire ISO20022 (NO)** fournie par Microsoft est un exemple). Le composant de format **XMLHeader** est configuré pour décrire la structure du message de transfert de crédit, suivant les normes de message XML ISO 20022. Le composant de format **XMLHeader/document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** est configuré pour ajouter au message généré, l'élément XML **Ustrd** et place les informations de remise dans un format non structuré comme texte des éléments XML suivants :
+
+-   Le composant **PaymentNotes** est utilisé pour extraire le texte des notes de paiement.
+-   Le composant **DelimitedSequence** extrait les numéros de facture séparés par une virgule utilisés pour régler le transfert actuel de crédit.
+
+[![Concepteur des opérations](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> Les composants **PaymentNotes** et **DelimitedSequence** sont libellés à l'aide d'un point d'interrogation. Cela signifie que l'utilisation des deux composants est basée sur les critères suivants :
+
+-   Si définie pour le composant **PaymentNote**, l'expression **@.PaymentsNotes<>""** active (en retournant **Vrai**) la population à l'élément XML **Ustrd**, le texte des notes de paiement lorsque ce texte pour le transfert actuel de crédit n'est pas vide.
+
+[![Concepteur des opérations](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   Si définie pour le composant **DelimitedSequence**, l'expression **@.PaymentsNotes=""** active (en retournant **Vrai**) la population à l'élément XML **Ustrd**, des numéros de facture séparés par une virgule qui sont utilisés pour régler le transfert actuel de crédit lorsque le texte des notes de paiement pour ce transfert de crédit est vide.
+
+[![Concepteur des opérations](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+Selon ce paramètre, le message généré pour chaque paiement de débit, l'élément XML **Ustrd**, contient soit le texte des notes de paiement soit, si un tel texte est vide, les numéros de facture séparés par une virgule utilisés pour régler ce paiement.
 
 ### <a name="basic-syntax"></a>Syntaxe de base
 

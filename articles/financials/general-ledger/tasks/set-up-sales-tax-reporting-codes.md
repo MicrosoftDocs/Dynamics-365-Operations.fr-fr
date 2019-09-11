@@ -3,7 +3,7 @@ title: Paramétrer des codes déclaration de taxe
 description: Les codes déclaration de taxe font référence à un numéro de champ dans la déclaration de taxe.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 830a3465944b32cc17feee60e3cbc5ad0a4dc9d7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4751256858da417ec9bb1b7d9ccd16fb6bef1cac
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834772"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916089"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Paramétrer des codes déclaration de taxe
 
@@ -31,14 +31,11 @@ Les codes déclaration de taxe font référence à un numéro de champ dans la d
 
 La société fictive DEMF sert d'exemple dans cet enregistrement.
 
-
-
-1. Allez dans Taxe > Configuration > Taxe > Codes déclaration de taxe.
-2. Cliquez sur Nouveau.
-3. Sélectionnez la présentation d'état à laquelle appartient le code déclaration.
-    * Cette structure est utilisée pour filtrer les codes taxes disponibles pour le code taxe. Chaque code taxe appartient à une période de règlement appartenant à une administration fiscale qui utilise une présentation d'état.  
-4. Entrez un numéro de champ faisant référence à un champ dans une déclaration de taxe.
-5. Dans le champ Texte d'état, entrez une description à afficher dans les états.
-6. Dans le champ Brève description, entrez une description à des fins internes.
-7. Cliquez sur Enregistrer.
+1. Dans le **Volet de navigation**, accédez à **Taxes > Paramétrage > Taxe > Codes déclaration de taxe**.
+2. Cliquez sur **Nouveau**.
+3. Sélectionnez la présentation d'état à laquelle appartient le code déclaration. Cette structure est utilisée pour filtrer les codes taxes disponibles pour le code taxe. Chaque code taxe appartient à une période de règlement appartenant à une administration fiscale qui utilise une présentation d'état.  
+4. Dans le champ **Code de déclaration**, entrez un numéro.
+5. Dans le champ **Texte d'état**, entrez une description à afficher dans les états.
+6. Dans le champ **Brève description**, entrez une description à des fins internes.
+7. Cliquez sur **Enregistrer**.
 

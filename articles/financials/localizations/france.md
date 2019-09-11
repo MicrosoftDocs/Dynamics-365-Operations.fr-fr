@@ -1,9 +1,9 @@
 ---
-title: France
+title: Vue d'ensemble de la France
 description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 for Finance and Operations pour la France.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/25/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b15f63182bb3b28fa04eb5178a062a2ca8e9c9f
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 4acece8921d0e88667fae0be4ba3d1c37992e64d
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1852496"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865664"
 ---
-# <a name="france"></a>France 
+# <a name="france-overview"></a>Vue d'ensemble de la France
 
 [!include [banner](../includes/banner.md)]
 

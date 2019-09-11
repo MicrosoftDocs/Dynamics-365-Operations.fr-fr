@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863058"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870831"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
@@ -153,11 +153,13 @@ Pour activer des vues enregistrées lorsque la fonctionnalité est en version pr
 
 1.  **Activer la version d'évaluation** : Exécutez l'instruction SQL suivante : 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **Rechercher la fonctionnalité** : Accédez à l'espace de travail **Gestion des fonctions**. Si l'option **Vues enregistrées** n'apparaît pas dans la liste, sélectionnez le bouton **Rechercher des mises à jour**.   
+2. **Réinitialiser IIS** pour vider le cache de la version d'évaluation statique. 
 
-3.  **Activer la fonctionnalité** : Recherchez la fonctionnalité **Vues enregistrées** dans la liste des fonctionnalités, puis cliquez sur le bouton **Activer maintenant** dans le volet des détails.
+3.  **Rechercher la fonctionnalité** : accédez à l'espace de travail **Gestion des fonctions**. Si l'option **Vues enregistrées** n'apparaît pas dans la liste, sélectionnez **Rechercher des mises à jour**.   
+
+4.  **Activer la fonctionnalité** : Recherchez la fonctionnalité **Vues enregistrées** dans la liste des fonctionnalités, puis sélectionnez **Activer maintenant** dans le volet des détails.
 
 Toutes les sessions utilisateur suivantes démarreront avec les vues enregistrées activées.  
 
