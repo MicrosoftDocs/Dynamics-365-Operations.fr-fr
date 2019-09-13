@@ -3,7 +3,7 @@ title: Présentation de la gestion des fonctionnalités
 description: Cette rubrique décrit la fonctionnalité de gestion des fonctionnalités et son utilisation.
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862936"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887109"
 ---
 # <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
 
@@ -103,8 +103,9 @@ Toutes les fonctionnalités pouvant être activées sont activées. Si une fonct
 
 Par défaut, toutes les fonctionnalités ajoutées à votre environnement sont désactivées, à moins qu'elles soient obligatoires. Cependant, si vous souhaitez activer automatiquement toutes les nouvelles fonctionnalités, vous pouvez utiliser la liste déroulante sous le titre de l'espace de travail pour modifier ce qui se produit lorsque de nouvelles fonctionnalités sont ajoutées.
 
-- Sélectionnez **Toutes les nouvelles fonctionnalités seront activées par défaut** pour activer automatiquement toutes les nouvelles fonctionnalités lorsqu'elles sont ajoutées à votre environnement.
-- Sélectionnez **Toutes les nouvelles fonctionnalités seront désactivées par défaut** pour désactiver automatiquement toutes les nouvelles fonctionnalités lorsqu'elles sont ajoutées à votre environnement.
+- Sélectionnez **Activer les nouvelles fonctionnalités automatiquement** pour activer automatiquement toutes les nouvelles fonctionnalités lorsqu'elles sont ajoutées à votre environnement.
+- Sélectionnez **Ne pas activer les nouvelles fonctionnalités automatiquement** pour désactiver toutes les nouvelles fonctionnalités lorsqu'elles sont ajoutées à votre environnement.
+
 
 Lorsque vous activez toutes les fonctionnalités automatiquement, cela active toutes les fonctionnalités qui sont activées lorsque vous cliquez sur le bouton **Activer tout**. Cela n'active pas les fonctionnalités qui nécessitent une confirmation ou les fonctionnalités qui ne peut pas être activées tant qu'aucune action n'est effectuée.
 

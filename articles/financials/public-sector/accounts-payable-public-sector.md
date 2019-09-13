@@ -1,9 +1,9 @@
 ---
-title: Comptabilité fournisseur dans le secteur public
+title: Vue d'ensemble de la comptabilité fournisseur (Secteur public)
 description: Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 for Finance and Operations. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4fafd8d4795bf0f52d8225e570e26753e10a27f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7d1e8afc1e4356bb918558db77b83a5a6a8f0d43
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845847"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865568"
 ---
-# <a name="accounts-payable-in-the-public-sector"></a>Comptabilité fournisseur dans le secteur public
+# <a name="accounts-payable-in-the-public-sector-overview"></a>Vue d'ensemble de la comptabilité fournisseur (Secteur public)
 
 [!include [banner](../includes/banner.md)]
 

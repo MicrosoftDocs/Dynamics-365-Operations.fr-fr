@@ -1,9 +1,9 @@
 ---
 title: Tenir à jour les modèles par défaut de dimension financière
-description: Cette procédure indique comment paramétrer les modèles par défaut de dimension financière.
+description: Cette rubrique indique comment paramétrer les modèles de dimension financière par défaut.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,30 +16,29 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 27ce6df8ad4bc359f2cbf802f83149bc6966321a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5b53077844c231496642f97a62b373eb0547fde2
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846430"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867461"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Tenir à jour les modèles par défaut de dimension financière
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure indique comment paramétrer les modèles par défaut de dimension financière. Les modèles peuvent être utilisés pour répartir rapidement les montants sur les documents source.
+Cette rubrique indique comment paramétrer les modèles de dimension financière par défaut. Les modèles peuvent être utilisés pour répartir rapidement les montants sur les documents source.
 
-1. Accédez à Comptabilité > Plan de comptes > Dimensions > Modèles par défaut des dimensions financières.
-2. Cliquez sur Nouveau.
-3. Dans le champ ID modèle, entrez un ID de modèle.
+1. Dans le volet de navigation, accédez à **Modules > Comptabilité > Plan de comptes > Dimensions > Modèles par défaut des dimensions financières**.
+2. Sélectionnez **Nouveau**.
+3. Dans le champ **ID modèle**, entrez un ID de modèle.
 4. Entrez le pourcentage pour les premières valeurs de dimension.
 5. Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.
-6. Cliquez sur Ajouter.
-7. Entrez un autre pourcentage pour les valeurs de dimension suivantes.
-    * Pour cet exemple, entrez un pourcentage de sorte que moins de 100 % soit attribué.  
+6. Sélectionnez **Ajouter**.
+7. Entrez un autre pourcentage pour les valeurs de dimension suivantes. Pour cet exemple, entrez un pourcentage de sorte que moins de 100 % soit attribué. 
 8. Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.
-9. Cliquez sur Ajouter.
+9. Sélectionnez **Ajouter**.
 10. Entrez un autre pourcentage de sorte que le pourcentage total soit égal à 100 %.
 11. Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.
-12. Cliquez sur Enregistrer.
+12. Sélectionnez **Enregistrer**.
 

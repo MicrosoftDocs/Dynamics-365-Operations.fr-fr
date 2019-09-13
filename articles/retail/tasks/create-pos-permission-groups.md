@@ -1,9 +1,9 @@
 ---
-title: " Créer des groupes d'autorisations de PDV"
-description: Cette procédure indique comment créer un groupe d'autorisations de PDV.
+title: Créer des groupes d'autorisations PDV
+description: Cette rubrique illustre la création d'un groupe d'autorisations du PDV.
 author: scott-tucker
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,41 +17,34 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b30c9a1d7fe4598695423ba700ebc88a794a49c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e6782c60aa659523775cc6c4eb1694430a4bf4f
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566362"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914793"
 ---
-# <a name="create-pos-permission-groups"></a> Créer des groupes d'autorisations de PDV
+# <a name="create-pos-permission-groups"></a>Créer des groupes d'autorisations PDV
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Cette procédure indique comment créer un groupe d'autorisations de PDV. La société fictive utilisée pour créer cette tâche est USRT. Cette tâche est destinée au rôle Gestionnaire des opérations de vente au détail.
+Cette rubrique illustre la création d'un groupe d'autorisations du PDV. La société fictive utilisée pour créer cette tâche est USRT. Cette tâche est destinée au rôle Gestionnaire des opérations de vente au détail.
 
-1. Accédez à Groupes d'autorisations.
-2. Cliquez sur Nouveau.
-3. Dans le champ ID groupe d'autorisations du PDV, tapez une valeur.
-4. Dans le champ Description, entrez une valeur.
-5. Sélectionnez Oui dans le champ Afficher les entrées de l'horloge de pointage.
-    * Vous pouvez maintenant activer ou désactiver diverses autorisations pour votre groupe d'autorisations PDV. Pour certaines autorisations, vous pouvez définir une valeur qui sera utilisée pour évaluer si l'utilisateur PDV peut effectuer l'action.  Ce guide de tâches active quelques autorisations qui peuvent être accordées à un caissier.  
-6. Sélectionnez Oui dans le champ Autoriser la création de commandes.
-7. Sélectionnez Oui dans le champ Autoriser la modification de commandes.
-8. Sélectionnez Oui dans le champ Autoriser la récupération de commandes.
-9. Sélectionnez Oui dans le champ Autoriser la modification du mot de passe.
-10. Sélectionnez Oui dans le champ Autoriser la clôture en aveugle.
-11. Cliquez sur Enregistrer.
-    * Une fois vos modifications enregistrées, vous devez exécuter le programme de répartition du personnel pour que les modifications soient appliquées aux canaux de vente au détail.  
-12. Fermez la page.
-13. Accédez à Tâches.
-    * Nous allons ensuite affecter le groupe d'autorisations PDV à une tâche.  
-14. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-15. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-16. Cliquez sur Modifier.
-17. Développez la section Classification des tâches.
-18. Dans le champ Groupe d'autorisations du PDV, saisissez ou sélectionnez une valeur.
-    * Tous les collaborateurs affectés à des postes pour cette tâche utilisent les paramètres de ce groupe d'autorisations PDV sauf si les autorisations de PDV des collaborateurs ont été remplacées au niveau de leur poste.  
-19. Cliquez sur Enregistrer.
-    * Une fois vos modifications enregistrées, vous devez exécuter le programme de répartition du personnel pour que les modifications soient appliquées aux canaux de vente au détail.  
+1. Dans le volet de navigation, accédez à **Modules > Retail > Employés > Groupes d'autorisations**.
+2. Sélectionnez **Nouveau**.
+3. Entrez une valeur dans le champ **ID groupe d'autorisations du PDV**.
+4. Tapez une valeur dans le champ **Description**.
+5. Sélectionnez **Oui** dans le champ **Afficher les entrées de l'horloge de pointage**. Vous pouvez maintenant activer ou désactiver diverses autorisations pour votre groupe d'autorisations PDV. Pour certaines autorisations, vous pouvez définir une valeur qui sera utilisée pour évaluer si l'utilisateur PDV peut effectuer l'action. Ce guide de tâches active quelques autorisations qui peuvent être accordées à un caissier.  
+6. Sélectionnez **Oui** dans le champ **Autoriser la création de commandes**.
+7. Sélectionnez **Oui** dans le champ **Autoriser la modification de commandes**.
+8. Sélectionnez **Oui** dans le champ **Autoriser la récupération de commandes**.
+9. Sélectionnez **Oui** dans le champ **Autoriser la modification du mot de passe**.
+10. Sélectionnez **Oui** dans le champ **Autoriser la clôture en aveugle**.
+11. Sélectionnez **Enregistrer**. Une fois vos modifications enregistrées, vous devez exécuter le programme de répartition du personnel pour que les modifications soient appliquées aux canaux de vente au détail. 
+12. Dans le volet de navigation, allez dans **Modules > Ressources humaines > Tâches > Tâches**.
+13. Nous allons ensuite affecter le groupe d'autorisations PDV à une tâche. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+14. Sélectionnez **Modifier**.
+15. Développez la section **Classification des tâches**.
+16. Dans le champ Groupe d'autorisations du PDV, saisissez ou sélectionnez une valeur. Tous les collaborateurs affectés à des postes pour cette tâche utilisent les paramètres de ce groupe d'autorisations PDV sauf si les autorisations de PDV des collaborateurs ont été remplacées au niveau de leur poste.  
+17. Sélectionnez **Enregistrer**. Une fois vos modifications enregistrées, vous devez exécuter le programme de répartition du personnel pour que les modifications soient appliquées aux canaux de vente au détail.  
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837250"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867748"
 ---
 # <a name="reverse-a-vendor-payment"></a>Contrepasser un paiement fournisseur
 
@@ -48,7 +48,7 @@ Pour connaître la méthode utilisée par votre organisation, affichez la page *
 Si votre organisation souhaite valider les contrepassations de chèque immédiatement lorsque vous cliquez sur **Contrepassation de paiement** dans la page **Chèques**, procédez comme suit. Dans la page **Paramètres de gestion des disponibilités et des banques**, définissez l'option **Utiliser le processus de révision pour les contrepassations de paiement** sur **Non**. Dans la page **Chèques**, vous pouvez sélectionner le chèque à contrepasser, puis sélectionner **Contrepassation de paiement**. Vous pouvez ensuite entrer la date et sélectionner un motif de contrepassation.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Contrepasser des chèques validés après leur révision dans le journal de contrepassation des chèques
-Si votre organisation souhaite réviser les contrepassations de chèque avant leur validation, créez un journal de contrepassation des chèques pour révision. Ensuite, dans la page **Paramètres de gestion des disponibilités et des banques**, définissez l'option **Utiliser le processus de révision pour les contrepassations de paiement** sur **Oui**. Dans la page **Chèques**, vous pouvez sélectionner le chèque à contrepasser, puis sélectionner **Contrepassation de paiement**. Vous pouvez ensuite entrer la date et sélectionner un motif de contrepassation. Vous devez également sélectionner un nom de journal pour créer un journal dans le journal de contrepassation des chèques.
+Si votre organisation souhaite réviser les contrepassations de chèque avant leur validation, créez un journal de contrepassation des chèques pour révision. Ensuite, dans la page **Paramètres de gestion des disponibilités et des banques**, définissez l'option **Utiliser le processus de révision pour les contrepassations de paiement** sur **Oui**. Dans la page **Chèques**, vous pouvez sélectionner le chèque à contrepasser, puis sélectionner **Contrepassation de paiement**. Vous pouvez ensuite entrer la date et sélectionner un motif de contrepassation. Le motif financier doit être défini pour le type Banque comme pour le type Fournisseur. Vous devez également sélectionner un nom de journal pour créer un journal dans le journal de contrepassation des chèques.
 
 ### <a name="review-a-reversal"></a>Révision d'une contrepassation
 

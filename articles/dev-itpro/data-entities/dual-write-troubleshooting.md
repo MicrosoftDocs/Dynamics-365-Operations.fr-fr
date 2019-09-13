@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797273"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873103"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>Guide de résolution des problèmes d'intégration de données
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a>Activez le traçage de plug-ins dans Common Data Service et vérifiez les détails de l'erreur de plug-in en double écriture
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Activer les journaux de suivi des plug-ins dans Common Data Service et vérifier les détails d'erreur de plug-in en double écriture
 
-Si vous faites face à un problème ou à une erreur avec la synchronisation en double écriture, vous pouvez examiner les erreurs dans le journal de suivi :
+[!include [banner](../includes/banner.md)]
 
-1. Avant de pouvoir examiner les erreurs, vous devez activer le traçage de plug-ins à l'aide de les instructions du [Plug-in de Registre](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) pour activer le traçage de plug-ins. Vous pouvez désormais examiner les erreurs.
-2. Connectez-vous à Dynamics 365 for Sales.
-3. Cliquez sur l'icône Paramètres (engrenage), et sélectionnez **Paramètres avancés**.
-4. Dans le menu **Paramètres**, choisissez **Personnalisation > journal de suivi des plug-ins**.
-5. Cliquez sur le nom de type **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** pour afficher les détails de l'erreur.
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a>Vérifier les erreurs de synchronisation en double écriture dans Finance and Operations
+Si vous rencontrez un problème ou une erreur durant la synchronisation en double écriture, procédez comme suit pour examiner les erreurs dans le journal de suivi.
 
-Vous pouvez vérifier les erreurs au cours des tests en procédant comme suit :
+1. Avant de pouvoir examiner les erreurs, vous devez activer les journaux de suivi des plug-ins. Pour obtenir des instructions, voir la section « Afficher les journaux de suivi » du [Didacticiel : Écrire et enregistrer un plug-in](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
 
-+ Connectez-vous à LifeCycle Services (LCS).
-+ Ouvrez le projet LCS que vous avez choisi pour effectuer le test de double écriture.
-+ Accédez aux Environnements hébergés dans le cloud.
-+ Machine virtuelle de Bureau à distance vers Finance and Operations à l'aide du compte local qui s'affiche dans LCS.
-+ Ouvrez la visionneuse d'événements. 
-+ Accédez à **Journaux des applications et des services > Microsoft > Dynamics > AX-DualWriteSync > Opérationnel**. Les erreurs et les détails sont affichés.
+    Vous pouvez désormais examiner les erreurs.
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a>Procédure pour supprimer un lien et lier un autre environnement Common Data Service avec Finance and Operations
+2. Connectez-vous à Microsoft Dynamics 365 for Sales.
+3. Sélectionnez le bouton **Paramètres** (le symbole d'engrenage), puis sélectionnez **Paramètres avancés**.
+4. Dans le menu  **Paramètres**, choisissez **Personnalisation \> Journal de suivi des plug-ins**.
+5. Sélectionnez le nom de type **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** pour afficher les détails de l'erreur.
 
-Vous pouvez mettre à jour les liens en procédant comme suit :
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a>Vérifier les erreurs de synchronisation en double écriture dans Finance and Operations
 
-+ Accédez à l'environnement Finance and Operations.
-+ Ouvrez Gestion des données.
-+ Cliquez sur **Lien vers CDS for Apps**.
-+ Sélectionnez toutes les mises en correspondance en cours d'exécution et cliquez sur **Arrêter**. 
-+ Sélectionnez toutes les mises en correspondance et cliquez sur **Supprimer**.
+Procédez comme suit pour examiner les erreurs au cours des tests.
+
+1. Connectez-vous à Microsoft Dynamics Lifecycle Services (LCS).
+2. Ouvrez le projet LCS pour effectuer le test de double écriture.
+3. Sélectionnez **Environnements hébergés dans le cloud**.
+4. Établissez une connexion RDP (Remote Desktop Protocol) à l'ordinateur virtuel (VM) Dynamics 365 for Finance and Operations en utilisant le compte local qui s'affiche dans LCS.
+5. Ouvrez l'Observateur d'événements. 
+6. Accédez à **Journaux des applications et des services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Opérationnel**. Les erreurs et les détails sont affichés.
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a>Supprimer un environnement Common Data Service de Finance and Operations et lier un autre environnement
+
+Procédez comme suit pour mettre à jour des liens.
+
+1. Accédez à l'environnement Finance and Operations.
+2. Ouvrez Gestion des données.
+3. Sélectionnez **Lien vers CDS for Apps**.
+4. Sélectionnez toutes les mises en correspondance qui s'exécutent, puis sélectionnez **Arrêter**.
+5. Sélectionnez toutes les mises en correspondance et sélectionnez **Supprimer**.
 
     > [!NOTE]
-    > L'option **Supprimer** ne s'affiche pas si le modèle **CustomerV3-Account** est sélectionné. Désactivez-le si nécessaire. **CustomerV3-Account** est un modèle anciennement mis en service et fonctionne avec la solution Prospect en disponibilités. Comme il est disponible mondialement, il s'affiche sous tous les modèles.
+    > L'option **Supprimer** n'est pas disponible si le modèle **CustomerV3-Account** est sélectionné. Effacez la sélection de ce modèle, si nécessaire. **CustomerV3-Account** est un modèle anciennement mis en service et fonctionne avec la solution Prospect en disponibilités. Comme il est disponible mondialement, il s'affiche sous tous les modèles.
 
-+ Cliquez sur **Supprimer le lien avec l'environnement**.
-+ Cliquez sur **Oui** pour confirmer.
-+ Pour lier le nouvel environnement, suivez les étapes du [guide d'installation](https://aka.ms/dualwrite-docs).
-
+6. Cliquez sur **Supprimer le lien avec l'environnement**.
+7. Sélectionnez **Oui** pour confirmer l'opération.
+8. Pour lier le nouvel environnement, suivez les étapes du [guide d'installation](https://aka.ms/dualwrite-docs).

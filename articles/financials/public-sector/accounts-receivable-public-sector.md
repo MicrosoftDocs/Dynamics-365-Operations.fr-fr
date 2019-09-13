@@ -1,9 +1,9 @@
 ---
-title: Comptabilité client dans le secteur public
+title: Vue d'ensemble de la comptabilité client (Secteur public)
 description: Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d672b40eeb2c8af4c353aef6f39076da032e2d5c
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 954cb02e42871faac2f0bd7269af2531d5e5591b
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838208"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865565"
 ---
-# <a name="accounts-receivable-in-the-public-sector"></a>Comptabilité client dans le secteur public
+# <a name="accounts-receivable-in-the-public-sector-overview"></a>Vue d'ensemble de la comptabilité client (Secteur public)
 
 [!include [banner](../includes/banner.md)]
 

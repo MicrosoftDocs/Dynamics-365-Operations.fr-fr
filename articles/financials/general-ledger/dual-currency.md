@@ -3,7 +3,7 @@ title: Devise double
 description: Cette rubrique fournit des informations sur la devise double, où la devise de déclaration est utilisée comme deuxième devise comptable pour Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839399"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867509"
 ---
 # <a name="dual-currency"></a>Devise double
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 La fonctionnalité qui a été introduite dans Microsoft Dynamics 365 for Finance and Operations version 8.1 (octobre 2018) permet à la devise de déclaration d'être redéfinie et utilisée comme seconde devise comptable. Cette fonctionnalité est parfois désignée *devise double*. Les modifications pour la devise double ne peuvent pas être désactivées via une clé de configuration ou un paramètre. Comme la devise de déclaration est utilisée comme seconde devise comptable, la manière dont la devise de déclaration est calculée dans la logique de validation a changé.
 
-En outre, différents modules ont été améliorés pour effectuer le suivi, générer des états, et utiliser la devise de déclaration dans différents processus. Les modules affectés incluent **Comptabilité**, **États financiers**, **Comptabilité fournisseur**, **Comptabilité client**, **Gestion de la trésorerie et de la banque** et **Immobilisations**. Après une mise à niveau, vous devez effectuer des étapes spécifiques pour les modules Gestion de la trésorerie et de la banque et Immobilisations. Par conséquent, assurez-vous de lire les sections appropriées de cette rubrique soigneusement.
+En outre, plusieurs modules ont été améliorés pour effectuer le suivi, générer des états, et utiliser la devise de déclaration dans différents processus. Les modules affectés sont :
+
+- Comptabilité 
+- États financiers 
+- Comptabilité fournisseur
+- Comptabilité client 
+- Gestion de la trésorerie et de la banque 
+- Immobilisations 
+- Consolidations
+
+Après une mise à niveau, vous devez effectuer des étapes spécifiques pour les modules Gestion de la trésorerie et de la banque et Immobilisations. Par conséquent, assurez-vous de lire et de comprendre les sections appropriées de cette rubrique soigneusement.
 
 ## <a name="posting-process"></a>Processus de validation
 
@@ -72,9 +83,10 @@ Les modules suivants utilisent la devise de déclaration comme seconde devise co
 - [Comptabilité](#general-ledger)
 - [États financiers](#financial-reporting)
 - [Module Comptabilité fournisseur](#accounts-payable-and-accounts-receivable)
-- [Module Comptabilité client](#accounts-payable-and-accounts-receivable)
+- [Comptabilité client](#accounts-payable-and-accounts-receivable)
 - [Gestion de la trésorerie et de la banque](#cash-and-bank-management)
 - [Immobilisations](#fixed-assets)
+- [Consolidations](#consolidations)
 
 ### <a name="general-ledger"></a>Comptabilité
 
@@ -124,6 +136,8 @@ Auparavant, le module **Immobilisations** n'effectuait aucun suivi des montants 
 En outre, des modifications importantes ont été apportées au processus d'amortissement. Ces modifications nécessitent une action de l'utilisateur après une mise à niveau. Il est important que vous lisiez et compreniez les modifications suivantes, même si vous n'utilisez pas encore le module Immobilisations.
 
 - La façon dont le processus d'amortissement détermine le montant en devise de déclaration a changé. Le scénario suivant compare comment l'amortissement déterminait précédemment le montant en devise de déclaration et comment il détermine maintenant le montant en devise de déclaration.
+
+
 
     **Scénario d'amortissement**
 
@@ -186,3 +200,13 @@ En outre, des modifications importantes ont été apportées au processus d'amor
     - Si un type de transaction d'amortissement est entré dans le journal des immobilisations, les montants en devise de déclaration apparaissent dans les nouvelles colonnes. Ces montants peuvent être modifiés.
     - Si la devise comptable et les devises de déclaration dans la comptabilité sont identiques, les montants sont synchronisés. Si vous modifiez le montant du **Crédit**, le montant du **Crédit dans la devise de déclaration** sera automatiquement modifié afin qu'il lui corresponde.
     - Si un autre type de transaction est entré dans le journal des immobilisations, les montants du **Débit dans la devise de déclaration** et du **Crédit dans la devise de déclaration** ne sont jamais affichés, avant ou après la validation. Les montants de la devise comptable et de la devise de déclaration sont toujours disponibles dans le N° document qui valide dans la comptabilité.
+    
+### <a name="consolidations"></a>Consolidations
+    
+La fonctionnalité qui a été introduite dans la version 10.0.5 Microsoft Dynamics 365 for Finance and Operations (octobre 2019) offre une meilleure flexibilité pour la consolidation et la double devise via la gestion des fonctionnalités. Pour activer cette fonctionnalité, allez dans l'espace de travail **Gestion des fonctionnalités** et sélectionnez **Activer la fonctionnalité de double devise dans la consolidation dans le module Comptabilité**.
+
+Dans la consolidation dans le module Comptabilité, une nouvelle option a été ajoutée pour consolider les montants de devise de déclaration et de comptabilité à partir des sociétés source. Si la devise comptable ou la devise de déclaration est identique à celle de la société de consolidation, les montants sont copiés directement au lieu d'être convertis.
+
+-  Vous pouvez désormais utiliser la devise comptable ou la devise de déclaration de la société source comme devise de transaction dans la société de consolidation.
+
+- Les montants de la devise comptable ou de la devise de déclaration de la société source sont copiés directement dans les montants de devise de déclaration et de comptabilité, si l'une ou l'autre est identique. Les montants de la devise comptable ou de la devise de déclaration dans la société de consolidation sont calculés à l'aide du taux de change si aucune des devises n'est identique.

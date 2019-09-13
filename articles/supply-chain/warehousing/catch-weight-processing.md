@@ -3,7 +3,7 @@ title: Traitement des produits en poids variable avec la gestion des entrepôts
 description: Cette rubrique décrit comment utiliser les modèles de travail et les instructions d'emplacement afin de déterminer de quelle manière et où effectuer le travail dans l'entrepôt.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836110"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887133"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
@@ -136,7 +136,6 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
 
 - La création manuelle des ordres de contrôle n'est pas prise en charge pour les produits en poids variable.
 - Le mouvement manuel des stocks associés au travail n'est pas pris en charge pour les produits en poids variable.
-- La consolidation des contenants n'est pas prise en charge pour les produits en poids variable.
 - Le chargement du contenant pour initialiser le stock de l'entrepôt n'est pas pris en charge pour les produits en poids variable.
 - Les processus d'équilibrage du lot ne sont pas pris en charge pour les produits en poids variable.
 - La gestion des stocks physiques négatifs n'est pas prise en charge pour les produits en poids variable.
@@ -147,7 +146,6 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
 - La fonctionnalité pour le prélèvement de groupement n'est pas prise en charge pour les produits en poids variable.
 - Le processus de prélèvement et de conditionnement en entrepôt n'est pas pris en charge pour les produits en poids variable.
 - Pour les produits en poids variable, le travail défini dans un modèle de travail peut être exécuté automatiquement.
-- La fonctionnalité pour un travail de contrepassation n'est pas prise en charge pour les produits en poids variable.
 - Pour les produits en poids variable, le traitement manuel de la station de conditionnement où le travail est créé une fois les conteneurs fermés n'est pas pris en charge.
 - La fonctionnalité de lecture pièce par pièce n'est pas prise en charge pour les produits en poids variable.
  

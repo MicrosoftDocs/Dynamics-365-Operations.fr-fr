@@ -1,9 +1,9 @@
 ---
 title: Configurer la facturation de projets intersociétés
-description: Cette procédure décrit comment paramétrer la facturation d'un projet entre deux sociétés de votre organisation.
+description: Cette rubrique décrit comment paramétrer la facturation d'un projet entre deux sociétés de votre organisation.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,54 +17,50 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 53871db9223eef6ba78f2e327e60f45110891478
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c89b17c09a4f145b5a4ca9cdd127b4e635447d4b
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838269"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867317"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurer la facturation de projets intersociétés
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit comment paramétrer la facturation d'un projet entre deux sociétés de votre organisation. Cette tâche utilise l'ensemble de données USSI.
+Cette rubrique décrit comment paramétrer la facturation d'un projet entre deux sociétés de votre organisation. Cette tâche utilise l'ensemble de données USSI.
 
-1. Accédez à Comptabilité fournisseur > Fournisseurs > Tous les fournisseurs.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-3. Dans le volet Actions, cliquez sur Général.
-4. Cliquez sur Intersociétés.
-5. Activez Oui pour activer les relations commerciales intersociétés.
-6. Dans le champ Société du client, entrez ou sélectionnez une valeur.
-7. Dans le champ Mon compte, entrez ou sélectionnez une valeur.
-8. Cliquez sur Enregistrer.
-9. Fermez la page.
-10. Fermez la page.
-11. Accédez à Gestion de projets et comptabilité > Paramétrage > Paramètres de gestion de projets et de comptabilité.
-12. Cliquez sur l'onglet Intersociétés.
-13. Déplacez le curseur sur Oui pour activer la planification et les feuilles de temps des ressources intersociétés.
-14. Dans la liste, marquez la ligne sélectionnée.
-15. Cliquez sur Nouveau.
-16. Dans la liste, marquez la ligne sélectionnée.
-17. Dans le champ Entité juridique emprunteuse, saisissez ou sélectionnez une valeur.
-18. Activez la case à cocher Provisionner le produit.
-19. Dans le champ Catégorie de feuille de temps par défaut, saisissez ou sélectionnez une valeur.
-20. Dans le champ Catégorie de dépense par défaut, saisissez ou sélectionnez une valeur.
-21. Cliquez sur Enregistrer.
-22. Fermez la page.
-23. Accédez à Gestion de projets et comptabilité > Paramétrage > Validation > Paramétrage de la validation dans la comptabilité.
-24. Dans le champ Types de compte général, sélectionnez une option.
-25. Cliquez sur Nouveau.
-26. Dans la liste, marquer la ligne sélectionnée.
-27. Dans la liste, marquez la ligne sélectionnée.
-28. Dans le champ Compte principal, spécifiez les valeurs souhaitées.
-29. Cliquez sur Enregistrer.
-30. Fermez la page.
-31. Accédez à Gestion de projets et comptabilité > Paramétrage > Prix > Prix de transfert.
-32. Cliquez sur Nouveau.
-33. Entrez une date dans le champ Date d'effet.
-34. Dans le champ Entité juridique emprunteuse, saisissez ou sélectionnez une valeur.
-35. Dans le champ Modèle de prix de transfert, sélectionnez une option.
-36. Dans le champ Tarification, entrez un nombre.
-37. Cliquez sur Enregistrer.
+1. Dans le volet de navigation, accédez à **Modules > Comptabilité fournisseur > Fournisseurs > Tous les fournisseurs**.
+2. Dans la liste **Tous les fournisseurs**, recherchez et sélectionnez l'enregistrement souhaité.
+3. Dans le volet Actions, sélectionnez **Général**.
+4. Sélectionnez **Intersociétés**.
+5. Activez **Oui** pour **activer** les relations commerciales intersociétés.
+6. Dans le champ **Société du client**, entrez ou sélectionnez une valeur.
+7. Dans le champ **Mon compte**, entrez ou sélectionnez une valeur.
+8. Sélectionnez **Enregistrer**.
+9. Fermez les pages pour revenir à la page d'accueil.
+10. Dans le volet de navigation, accédez à **Modules > Gestion et comptabilité du projet > Paramétrage > Paramètres de gestion et comptabilité des projets**.
+11. Sélectionnez l'onglet **Intersociétés**.
+12. Déplacez le curseur sur **Oui** pour activer la planification et les feuilles de temps des ressources intersociétés.
+13. Dans la liste, marquer la ligne sélectionnée.
+14. Sélectionnez **Nouveau**.
+15. Dans le champ **Entité juridique emprunteuse**, saisissez ou sélectionnez une valeur.
+16. Activez la case à cocher **Provisionner le produit**.
+17. Dans le champ **Catégorie de feuille de temps par défaut**, saisissez ou sélectionnez une valeur.
+18. Dans le champ **Catégorie de dépense par défaut**, saisissez ou sélectionnez une valeur.
+19. Sélectionnez **Enregistrer**.
+20. Fermez la page.
+21. Dans le volet de navigation, accédez à **Modules > Gestion et comptabilité du projet > Paramétrage > Validation > Paramétrage de la validation dans la comptabilité**.
+22. Dans le champ **Types de compte général**, sélectionnez une option.
+23. Sélectionnez **Nouveau**.
+24. Spécifiez les valeurs souhaitées dans le champ **Compte principal** de la nouvelle ligne.
+25. Sélectionnez **Enregistrer**.
+26. Fermez la page.
+27. Dans le volet de navigation, accédez à **Modules > Gestion et comptabilité du projet > Paramétrage > Prix > Prix de transfert**.
+28. Sélectionnez **Nouveau**.
+29. Entrez une date dans le champ **Date d'effet**.
+30. Dans le champ **Entité juridique emprunteuse**, saisissez ou sélectionnez une valeur.
+31. Sélectionnez une option dans le champ **Modèle de prix de transfert**.
+32. Dans le champ **Tarification**, entrez un nombre.
+33. Sélectionnez **Enregistrer**.
 

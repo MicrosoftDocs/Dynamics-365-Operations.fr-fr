@@ -3,7 +3,7 @@ title: Création de nouveaux utilisateurs
 description: Les utilisateurs sont des employés internes de votre organisation, ou des clients et fournisseurs externes, qui doivent avoir accès au système pour effectuer leurs tâches.
 author: maertenm
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e492ef5030dd28020094152259b615010aa676
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: a542ece226750330262e0c44427e5654fa4f6369
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1851309"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916482"
 ---
 # <a name="create-new-users"></a>Création de nouveaux utilisateurs
 
@@ -31,28 +31,22 @@ Les utilisateurs sont des employés internes de votre organisation, ou des clien
 
 
 ## <a name="add-a-new-user"></a>Ajout d'un nouvel utilisateur
-1. Accédez à Administration système > Utilisateurs > Utilisateurs.
-2. Cliquez sur Nouveau.
-3. Dans le champ ID utilisateur, tapez une valeur.
-    * Entrez un identificateur unique pour l'utilisateur. Un ID utilisateur est requis.  
-4. Dans le champ Nom de l'utilisateur, tapez une valeur.
-    * Entrez le nom de l'utilisateur.  
-5. Dans le champ Domaine, tapez une valeur.
-    * Entrez le domaine de l'utilisateur.  
-6. Dans le champ Alias, tapez une valeur.
-    * Entrez l'alias de l'utilisateur.  
-7. Dans le champ Société, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-8. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-9. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Sélectionnez la société de l'utilisateur.  
-10. Cliquez sur Affecter des rôles.
-11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-12. Cliquez sur OK.
-13. Cliquez sur Enregistrer.
+1. Accédez à **Volet de navigation > Modules > Administration système > Utilisateurs > Utilisateurs**.
+2. Dans le **volet Actions**, cliquez sur **Nouveau**.
+3. Dans le champ **ID utilisateur**, tapez une valeur. Entrez un identificateur unique pour l'utilisateur. Un ID utilisateur est requis.  
+4. Dans le champ **Nom d'utilisateur**, tapez une valeur. Entrez le nom de l'utilisateur.  
+5. Dans le champ **Domaine**, tapez une valeur. Entrez le domaine de l'utilisateur.  
+6. Dans le champ **Alias**, tapez une valeur. Entrez l'alias de l'utilisateur.  
+7. Dans le champ **Société**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+8. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. 
+9. Dans la section **Rôle de l'utilisateur**, cliquez sur **Affecter des rôles**.
+10. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+11. Cliquez sur **OK**.
+12. Cliquez sur **Enregistrer**.
 
 ## <a name="import-users"></a>Importer des utilisateurs
-1. Cliquez sur Importer des utilisateurs.
-2. Dans la liste, marquez la ligne sélectionnée.
-3. Cliquez sur Importer des utilisateurs.
-4. Cliquez sur Fermer.
+1. Dans le volet  **Actions**, cliquez sur **Importer des utilisateurs**.
+2. Dans la liste, marquer la ligne sélectionnée.
+3. Cliquez sur **Importer des utilisateurs**.
+4. Cliquez sur **Fermer**.
 

@@ -1,9 +1,9 @@
 ---
 title: Créer et traiter une conformité
-description: Utilisez cette procédure pour effectuer la gestion de non-conformité, en fonction d'un ordre de qualité existant.
+description: Cette rubrique explique comment effectuer la gestion de non-conformité, en fonction d'un ordre de qualité existant.
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,54 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572809"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916643"
 ---
 # <a name="create-and-process-a-conformance"></a>Créer et traiter une conformité
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Utilisez cette procédure pour effectuer la gestion de non-conformité, en fonction d'un ordre de qualité existant. Vous pouvez exécuter cet enregistrement de la société de démonstration USMF et utiliser les valeurs suggérées. Généralement, cette procédure est réalisée par le commis à la qualité.  Comme préalable, exécutez l'enregistrement de la tâche « Inspecter la qualité des marchandises ». Pour traiter l'approbation d'une non-conformité, l'utilisateur qui exécute l'enregistrement de la tâche doit spécifier une valeur « Nom » affectée sur la page Utilisateurs. Pour utiliser les notes de document, l'utilisateur doit également avoir activé la gestion des documents dans les options d'utilisateur.
+Cette rubrique explique comment effectuer la gestion de non-conformité, en fonction d'un ordre de qualité existant. Vous pouvez exécuter cet enregistrement de la société de démonstration USMF et utiliser les valeurs suggérées. Généralement, cette procédure est réalisée par le commis à la qualité.  Il est indispensable de commencer par suivre les instructions de la section [Inspecter la qualité des marchandises](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md). Pour traiter l'approbation d'une non-conformité, l'utilisateur qui exécute l'enregistrement de la tâche doit spécifier une valeur « Nom » affectée sur la page Utilisateurs. Pour utiliser les notes de document, l'utilisateur doit également avoir activé la gestion des documents dans les options d'utilisateur.
 
 
 ## <a name="select-a-quality-order"></a>Sélectionnez un ordre de qualité.
-1. Accédez à Ordres de qualité.
-2. Dans la liste, marquez la ligne sélectionnée.
-    * Sélectionnez l'ordre de qualité créé à partir de l'enregistrement de la tâche « Inspecter la qualité des marchandises ».  
+1. Dans le volet de navigation, accédez à **Modules > Gestion des stocks > Tâches périodiques > Gestion de la qualité > Ordres de qualité**.
+2. Dans la liste, sélectionnez l'ordre de qualité créé dans la section [Inspecter la qualité des marchandises](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).  
 
 ## <a name="create-a-nonconformance"></a>Créer une non-conformité
-1. Cliquez sur Recherches.
-2. Cliquez sur Non-conformités.
-3. Cliquez sur Nouveau.
-4. Dans le champ Type de problème, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Sélectionnez le problème qui a été indiqué lors du processus d'inspection.  
-5. Dans le champ Type de problème, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Cliquez sur OK.
+1. Dans le volet Actions, sélectionnez **Recherches**.
+2. Sélectionnez **Non-conformités**.
+3. Sélectionnez **Nouveau**.
+4. Dans le menu déroulant du champ **Type de problème**, sélectionnez le problème qui a été trouvé au cours du processus d'inspection.  
+5. Cliquez sur **OK**.
 
 ## <a name="approvereject-a-nonconformance"></a>Approuver/rejeter une non-conformité
-1. Cliquez sur Fonctions.
-2. Cliquez sur Approuver la non-conformité.
-    * Pour cet exemple, approuvez la non-conformité. Les non-conformités approuvées peuvent être associées à des opérations associées au travail d'enregistrement qui est exécuté dans le cadre de la gestion de la non-conformité et, comme dans cet enregistrement de tâche, le traitement de la gestion des corrections.  
-3. Cliquez sur Oui.
+1. Sélectionnez **Fonctions**.
+2. Sélectionnez **Approuver la non-conformité**. Pour cet exemple, approuvez la non-conformité. Les non-conformités approuvées peuvent être associées à des opérations associées au travail d'enregistrement qui est exécuté dans le cadre de la gestion de la non-conformité et, comme dans cette rubrique, le traitement de la gestion des corrections.  
+3. Cliquez sur **Oui**.
 
 ## <a name="create-a-correction-action"></a>Créer une action de correction
-1. Cliquez sur Corrections.
-2. Cliquez sur Nouveau.
-3. Dans la liste, marquez la ligne sélectionnée.
-4. Dans le champ Numéro personnel, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-6. Cliquez sur Sélectionner.
-7. Cliquez Joindre.
-    * Créez une remarque sur la correction. Pour cet exemple, l'action consiste à contacter le fournisseur pour présenter l'incident de non-conformité.  
-8. Cliquez sur Nouveau.
-9. Cliquez sur Remarque.
-    * Notez que selon le paramétrage d'état, différents types de documents peuvent être imprimés sur les états associés à la gestion de non-conformité.  
-10. Dans le champ Description, entrez une valeur.
-11. Fermez la page.
+1. Sélectionnez **Corrections**.
+2. Sélectionnez **Nouveau**.
+3. Dans le champ **Numéro personnel** de la nouvelle ligne, sélectionnez l'enregistrement souhaité dans le menu déroulant qui s'affiche.
+4. Cliquez sur **Sélectionner**.
+5. Sélectionnez **Lier**. Créez une remarque sur la correction. Pour cet exemple, l'action consiste à contacter le fournisseur pour présenter l'incident de non-conformité.  
+6. Sélectionnez **Nouveau**.
+7. Sélectionnez **Note**. Selon le paramétrage d'état, différents types de documents peuvent être imprimés sur les états associés à la gestion de non-conformité.  
+8. Tapez une valeur dans le champ **Description**.
+9. Fermez la page.
 
 ## <a name="maintain-a-correction"></a>Maintenir une correction
-1. Cliquez sur Marquer comme terminé.
-2. Cliquez sur OK.
+1. Sélectionnez **Marquer comme terminé**.
+2. Cliquez sur **OK**.
 3. Fermez la page.
 
 ## <a name="close-a-nonconformance"></a>Clôturer une non-conformité
-1. Cliquez sur Fonctions.
-2. Cliquez sur Clôturer la non-conformité.
-3. Cliquez sur Oui.
-4. Fermez la page.
-5. Fermez la page.
+1. Sélectionnez **Fonctions**.
+2. Sélectionnez **Clôturer la non-conformité**.
+3. Cliquez sur **Oui**.
+4. Fermez les pages.

@@ -1,9 +1,9 @@
 ---
-title: Accords de service
+title: Vue d'ensemble de développement et d'établissement d'accords de service
 description: Les accords de service permettent de définir les ressources utilisées dans une visite de service classique et leur mode de facturation au client.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6425dcf1c89f625d997be0dd4a52aaecb6e6d65
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae7c3b6e1df9751d886f6eeff778e8045bd7df85
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568279"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865943"
 ---
-# <a name="service-agreements"></a>Accords de service
+# <a name="develop-and-establish-service-agreements-overview"></a>Vue d'ensemble de développement et d'établissement d'accords de service
 
 [!include [banner](../includes/banner.md)]
 

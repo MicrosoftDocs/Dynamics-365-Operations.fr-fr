@@ -3,7 +3,7 @@ title: Créer des structures de compte
 description: Ce guide accompagne l'utilisateur le long de la création d'une structure de compte.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2183f88356fc8094781af147bf079c4e53ffb2b4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b100d5da6ec26dc386c0c6cb0793245531eb0d8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846701"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916228"
 ---
 # <a name="create-account-structures"></a>Créer des structures de compte
 
@@ -29,56 +29,35 @@ ms.locfileid: "1846701"
 
 Ce guide accompagne l'utilisateur le long de la création d'une structure de compte. La société fictive USMF est citée en exemple dans les étapes.
 
-1. Accédez à Comptabilité > Plan de comptes > Structures > Configurer les structures de compte.
-2. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
-3. Dans le champ Structure de compte, entrez un nom pour décrire l'objectif de la structure de compte.
-4. Dans le champ Description, entrez une description pour préciser l'objectif de la structure de compte.
-5. Cliquez sur Créer.
-6. Cliquez sur Ajouter un segment.
-7. Dans la liste des dimensions répertoriez, sélectionnez la dimension à ajouter à la structure de compte.
-8. Cliquez sur Ajouter un segment.
-9. Cliquez sur Ajouter un segment.
-10. Dans la liste des dimensions répertoriez, sélectionnez la dimension à ajouter à la structure de compte.
-11. Cliquez sur Ajouter un segment.
-12. Cliquez sur Ajouter un segment.
-13. Dans la liste des dimensions répertoriez, sélectionnez la dimension à ajouter à la structure de compte.
-14. Cliquez sur Ajouter un segment.
-15. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.
-    * Par exemple, cliquez dans le compte principal.  
-16. Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.
-17. Tapez une valeur dans le champ Valeur.
-    * Par exemple, 600000.  
-18. Dans le champ À, tapez une valeur.
-    * Par exemple, 699999.  
-19. Cliquez sur Appliquer.
-20. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.
-    * Par exemple, Département.  
-21. Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.
-22. Tapez une valeur dans le champ Valeur.
-    * Par exemple, 022.  
-23. Dans le champ À, tapez une valeur.
-    * Par exemple, 031.  
-24. Cliquez sur Ajouter de nouveaux critères.
-25. Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.
-26. Tapez une valeur dans le champ Valeur.
-    * Par exemple, 033.  
-27. Dans le champ À, tapez une valeur.
-    * Par exemple, 034.  
-28. Cliquez sur Appliquer.
-29. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.
-    * Par exemple, Centre de coût.  
-30. Dans le champ Centre de coût, tapez une valeur.
-    * Par exemple, 007..021.  
-31. Cliquez sur Ajouter.
-32. Dans le champ Compte principal, tapez une valeur.
-    * Par exemple, 600000..699999  
-33. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées.
-    * Par exemple, Département.  
-34. Dans le champ Département, tapez une valeur.
-    * Par exemple, 032.  
-35. Dans le champ Centre de coût, tapez une valeur.
-    * Par exemple, 086.  
-36. Cliquez sur Valider.
-37. Cliquez sur Activer.
-38. Cliquez sur Activer.
+1. Accédez au **Volet de navigation > Modules > Comptabilité > Plan de comptes > Structures > Configurer les structures de compte**.
+2. Dans le volet **Actions**, cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
+3. Dans le champ **Structure de compte**, entrez un nom pour décrire l'objectif de la structure de compte.
+4. Dans le champ **Description**, entrez une description pour préciser l'objectif de la structure de compte.
+5. Cliquez sur **Créer**.
+6. Dans **Segments et valeurs autorisées**, cliquez sur **Ajouter un segment**.
+7. Dans la liste des dimensions, sélectionnez la dimension à ajouter à la structure de compte.
+8. À la fin de la liste, cliquez sur **Ajouter un segment**.
+9. Répétez les étapes 6 à 9 si nécessaire.
+10. Dans la section **Détails des valeurs autorisées**, sélectionnez le segment pour modifier les valeurs autorisées.
+    Par exemple, cliquez dans le **compte principal**.  
+11. Dans le champ **Opérateur**, sélectionnez une option, comme Est compris entre et Comprend.
+12. Tapez une valeur dans le champ **Valeur**. Par exemple, 600000.  
+13. Dans le champ **À**, tapez une valeur. Par exemple, 699999.  
+14. Dans la section **Détails de valeur autorisées**, cliquez sur **Appliquer**.
+15. Répétez les étapes 10 à 15 si nécessaire.  
+16. Dans la section **Détails de valeur autorisées**, cliquez sur **Ajouter de nouveaux critères**.
+17. Dans le champ Opérateur, sélectionnez une option, comme Est compris entre et Comprend.
+18. Tapez une valeur dans le champ **Valeur**. Par exemple, 033.  
+19. Dans le champ **À**, tapez une valeur. Par exemple, 034.  
+20. Cliquez sur **Appliquer**.
+21. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées. Par exemple, Centre de coût.  
+22. Dans le champ **Centre de coût**, tapez une valeur. Par exemple, 007..021.  
+23. Dans **Segments et valeurs autorisées**, cliquez sur **Ajouter**.
+24. Tapez une valeur dans le champ **Compte principal**. Par exemple, 600000..699999  
+25. Dans la grille, sélectionnez le segment pour modifier les valeurs autorisées. Par exemple, Département.  
+26. Dans le champ Département, tapez une valeur. Par exemple, 032.  
+27. Dans le champ Centre de coût, tapez une valeur. Par exemple, 086.  
+28. Dans le volet **Actions**, cliquez sur **Valider**.
+29. Dans le volet **Actions**, cliquez sur **Activer**.
+30. Cliquez sur **Activer**.
 

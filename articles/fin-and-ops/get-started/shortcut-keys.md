@@ -3,7 +3,7 @@ title: Raccourcis clavier
 description: Les raccourcis clavier suivants s'appliquent dans tout Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 08/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
-ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
+ms.openlocfilehash: 91e3f202d479fd77893da3cc746f3d23587107b1
+ms.sourcegitcommit: 69bd97dcc191a0cabfed91f678bac0ba2aebb1b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1780056"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "1920649"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -155,8 +155,8 @@ Les raccourcis clavier suivants s'appliquent dans tout Dynamics 365 for Finance 
 | Opération                                                                   | Raccourci                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Ouvrir le lien hypertexte                                                           | Ctrl+Entrée                    |
-| Entrer la date de session dans un champ de date                                       | D+Tab                         |
-| Entrer la date actuelle dans un champ de date                                       | T+Tab                         |
+| Entrer la date de session dans un champ de date                                       | D                         |
+| Entrer la date actuelle dans un champ de date                                       | T                         |
 | Ouvrir la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue                         | Alt + Flèche Bas                |
 | Fermer la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue                        | Échap                           |
 | Déplacer le focus sur une recherche (lorsque la recherche est déjà ouverte)                   | Alt + Flèche Bas                |

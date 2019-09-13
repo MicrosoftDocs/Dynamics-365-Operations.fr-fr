@@ -1,9 +1,9 @@
 ---
-title: Belgique
+title: Vue d'ensemble spécifique à la Belgique
 description: Cette rubrique fournit une vue d'ensemble de la fonctionnalité spécifique à la Belgique.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.region: belgium
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4e1ce18da6d8c5fddc5bd943e2032e203e2aedc9
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: a269344a904cf3643591cb92f847c6013a106f33
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850714"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865718"
 ---
-# <a name="belgium"></a>Belgique
+# <a name="belgium-overview"></a>Vue d'ensemble spécifique à la Belgique
 
 [!include[banner](../includes/banner.md)]
 

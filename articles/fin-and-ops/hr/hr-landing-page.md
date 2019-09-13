@@ -1,9 +1,9 @@
 ---
-title: Ressources humaines
+title: Vue d'ensemble des ressources humaines
 description: Le module Ressources humaines simplifie de nombreuses tâches d'archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Il fournit également un cadre permettant au personnel des ressources humaines d'assurer une supervision appropriée. Ces domaines incluent le recrutement et la rétention des employés, l'administration des avantages, la formation, les évaluations des performances et la gestion des modifications.
 author: andreabichsel
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8b743e667413dfc263fe640b4c6c7350e887142
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 828de71da3f16db9024b08c724eb784127b080dc
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508006"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864882"
 ---
-# <a name="human-resources"></a>Ressources humaines
+# <a name="human-resources-overview"></a>Vue d'ensemble des ressources humaines
 
 [!include [banner](../includes/banner.md)]
 
