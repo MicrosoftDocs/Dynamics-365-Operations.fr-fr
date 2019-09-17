@@ -17,32 +17,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ece6a81c54ef1421284fc79ab82ed3e31a972255
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6fc27a4c137fef2f8d204d90366c316389da08e6
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518006"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741713"
 ---
-# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a><span data-ttu-id="bf087-103">L'utilisateur peut accéder à Core HR mais pas à l'application Onboard ou Attract</span><span class="sxs-lookup"><span data-stu-id="bf087-103">User can access Core HR but not the Onboard or Attract app</span></span>
+# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a><span data-ttu-id="e0eec-103">L'utilisateur peut accéder à Core HR mais pas à l'application Onboard ou Attract</span><span class="sxs-lookup"><span data-stu-id="e0eec-103">User can access Core HR but not the Onboard or Attract app</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="bf087-104">**Détails de l'environnement**</span><span class="sxs-lookup"><span data-stu-id="bf087-104">**Environment details**</span></span>
+<span data-ttu-id="e0eec-104">**Détails de l'environnement**</span><span class="sxs-lookup"><span data-stu-id="e0eec-104">**Environment details**</span></span>
 
-- <span data-ttu-id="bf087-105">Le déploiement de Microsoft Dynamics Lifecycle Services (LCS) a été effectué par l'utilisateur A.</span><span class="sxs-lookup"><span data-stu-id="bf087-105">The Microsoft Dynamics Lifecycle Services (LCS) deployment was done by user A.</span></span>
-- <span data-ttu-id="bf087-106">L'utilisateur A a ajouté l'utilisateur B comme utilisateur de Microsoft Dynamics 365 for Talent Core HR.</span><span class="sxs-lookup"><span data-stu-id="bf087-106">User A added user B as a user to Microsoft Dynamics 365 for Talent Core HR.</span></span>
+- <span data-ttu-id="e0eec-105">Le déploiement de Microsoft Dynamics Lifecycle Services (LCS) a été effectué par l'utilisateur A.</span><span class="sxs-lookup"><span data-stu-id="e0eec-105">The Microsoft Dynamics Lifecycle Services (LCS) deployment was done by user A.</span></span>
+- <span data-ttu-id="e0eec-106">L'utilisateur A a ajouté l'utilisateur B comme utilisateur de Microsoft Dynamics 365 for Talent Core HR.</span><span class="sxs-lookup"><span data-stu-id="e0eec-106">User A added user B as a user to Microsoft Dynamics 365 for Talent Core HR.</span></span>
 
-<span data-ttu-id="bf087-107">**Problème**</span><span class="sxs-lookup"><span data-stu-id="bf087-107">**Issue**</span></span>
+<span data-ttu-id="e0eec-107">**Problème**</span><span class="sxs-lookup"><span data-stu-id="e0eec-107">**Issue**</span></span>
 
-<span data-ttu-id="bf087-108">L'utilisateur B peut accéder à Core HR, mais ne peut pas accéder à l'application Talent: Attract ou Talent: Onboard.</span><span class="sxs-lookup"><span data-stu-id="bf087-108">User B can access Core HR, but can't access the Talent: Attract or Talent: Onboard app.</span></span> <span data-ttu-id="bf087-109">Lorsque l'utilisateur essaie d'accéder à **Applications d'expérience**, il est dirigé vers un environnement de test à la place.</span><span class="sxs-lookup"><span data-stu-id="bf087-109">When the user tries to go to **Experience apps**, he or she is taken to a trial environment instead.</span></span>
+<span data-ttu-id="e0eec-108">L'utilisateur B peut accéder à Core HR, mais ne peut pas accéder à l'application Talent: Attract ou Talent: Onboard.</span><span class="sxs-lookup"><span data-stu-id="e0eec-108">User B can access Core HR, but can't access the Talent: Attract or Talent: Onboard app.</span></span> <span data-ttu-id="e0eec-109">Lorsque l'utilisateur essaie d'accéder à **Applications d'expérience**, il est dirigé vers un environnement de test à la place.</span><span class="sxs-lookup"><span data-stu-id="e0eec-109">When the user tries to go to **Experience apps**, he or she is taken to a trial environment instead.</span></span>
 
-<span data-ttu-id="bf087-110">**Solution**</span><span class="sxs-lookup"><span data-stu-id="bf087-110">**Solution**</span></span>
+<span data-ttu-id="e0eec-110">**Solution**</span><span class="sxs-lookup"><span data-stu-id="e0eec-110">**Solution**</span></span>
 
-<span data-ttu-id="bf087-111">L'utilisateur B doit se voir octroyer les droits d'afficher l'environnement Microsoft PowerApps que l'utilisateur A a créé lors du processus de mise en service.</span><span class="sxs-lookup"><span data-stu-id="bf087-111">User B must be assigned the rights to view the Microsoft PowerApps environment that user A created during the provisioning process.</span></span>
+<span data-ttu-id="e0eec-111">L'utilisateur B doit se voir octroyer les droits d'afficher l'environnement Microsoft PowerApps que l'utilisateur A a créé lors du processus de mise en service.</span><span class="sxs-lookup"><span data-stu-id="e0eec-111">User B must be assigned the rights to view the Microsoft PowerApps environment that user A created during the provisioning process.</span></span>
 
-<span data-ttu-id="bf087-112">Pour plus d'informations, voir la section « Octroi d'accès à l'environnement » dans [Mise en service de Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).</span><span class="sxs-lookup"><span data-stu-id="bf087-112">For information, see the "Granting access to the environment" section in [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
+<span data-ttu-id="e0eec-112">Pour plus d'informations, voir la section « Octroi d'accès à l'environnement » dans [Mise en service de Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).</span><span class="sxs-lookup"><span data-stu-id="e0eec-112">For information, see the "Granting access to the environment" section in [Provision Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
 
-<span data-ttu-id="bf087-113">**Solution à long terme**</span><span class="sxs-lookup"><span data-stu-id="bf087-113">**Long-term solution**</span></span>
+<span data-ttu-id="e0eec-113">**Solution à long terme**</span><span class="sxs-lookup"><span data-stu-id="e0eec-113">**Long-term solution**</span></span>
 
-<span data-ttu-id="bf087-114">Microsoft envisage d'affecter automatiquement les droits appropriés à Onboard et Attract lorsqu'un utilisateur est ajouté à Core HR.</span><span class="sxs-lookup"><span data-stu-id="bf087-114">Microsoft is considering automatically assigning the appropriate rights to Onboard and Attract when a user is added to Core HR.</span></span>
+<span data-ttu-id="e0eec-114">Microsoft envisage d'affecter automatiquement les droits appropriés à Onboard et Attract lorsqu'un utilisateur est ajouté à Core HR.</span><span class="sxs-lookup"><span data-stu-id="e0eec-114">Microsoft is considering automatically assigning the appropriate rights to Onboard and Attract when a user is added to Core HR.</span></span>
