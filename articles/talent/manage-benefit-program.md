@@ -3,7 +3,7 @@ title: Définir et gérer un programme social
 description: Les ressources humaines proposent un ensemble d'outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu'une organisation offre ou gère pour ses collaborateurs. Cet article fournit des informations sur la manière de paramétrer et de gérer les avantages.
 author: andreabichsel
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 07/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 033377f7d45bfa2b798c098be2dde0c21739bb51
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
+ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518039"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755395"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Définir et gérer un programme social
 
@@ -39,7 +39,8 @@ Avant que les collaborateurs puissent être inscrits à des avantages, vous deve
 [![Avantage du flux de processus](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Détails des avantages
-Avant de commencer à créer des avantages et à y inscrire des collaborateurs, vous devez définir les éléments qui constituent un avantage : le type, le régime et les options.
+
+Avant de commencer à créer des avantages et à y inscrire des collaborateurs, vous devez définir les éléments qui constituent un avantage : le type, le régime et les options.
 
 -   **Type** – Ensemble de régimes pour un avantage spécifique, par exemple une prise en charge médicale ou une place de stationnement.
 -   **Régime** – Un avantage spécifique contracté auprès d'un fournisseur.

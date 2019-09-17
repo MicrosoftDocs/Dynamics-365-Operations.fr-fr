@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ece6a81c54ef1421284fc79ab82ed3e31a972255
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6fc27a4c137fef2f8d204d90366c316389da08e6
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518006"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741713"
 ---
 # <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>L'utilisateur peut accéder à Core HR mais pas à l'application Onboard ou Attract
 
@@ -41,7 +41,7 @@ L'utilisateur B peut accéder à Core HR, mais ne peut pas accéder à l'applic
 
 L'utilisateur B doit se voir octroyer les droits d'afficher l'environnement Microsoft PowerApps que l'utilisateur A a créé lors du processus de mise en service.
 
-Pour plus d'informations, voir la section « Octroi d'accès à l'environnement » dans [Mise en service de Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Pour plus d'informations, voir la section « Octroi d'accès à l'environnement » dans [Mise en service de Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 **Solution à long terme**
 

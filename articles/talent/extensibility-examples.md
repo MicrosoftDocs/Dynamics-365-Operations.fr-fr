@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577793"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781440"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de scénarios
 
@@ -101,24 +101,15 @@ Ce modèle peut être étendu pour être utilisé dans tout scénario utilisant 
 
 Pour télécharger le modèle **Intégration Flow – SharePoint**, accédez à [Intégration Flow – SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) dans le Centre de téléchargement Microsoft.
 
-## <a name="admin-console-to-manage-talent-pools"></a>Console d'administration pour gérer les viviers de talents
+## <a name="referral-app"></a>Application de référence
+Vous pouvez utiliser l'application de référence pour ajouter des candidats à un vivier de candidats partagé. Il est possible d'entrer le **Prénom**, le **Nom**, l'**E-mail** et l'**URL LinkedIn** en référence lors de la soumission d'un candidat. Les métadonnées de la source de la candidature sont ensuite renseignées par les informations de référence.
 
-Lorsque vous activez l'intégration avec LinkedIn, Attract crée automatiquement un vivier de talents LinkedIn. Lorsqu'un recruteur échange un InMail avec une recrue via LinkedIn, Attract crée un profil pour la recrue, et celle-ci devient un membre du viviers de talents LinkedIn. Cette application PowerApps est utile pour réorganiser les candidats dans le vivier de talents en fonction des compétences.
+Vous pouvez intégrer cette application dans l'espace de travail Libre-service employé pour soumettre des références, ou vous pouvez l'utiliser en tant que lien hypertexte dans le portail de l'entreprise et l'exécuter comme application autonome.
 
-Exécutez cette application PowerApps comme console d'administration pour effectuer les tâches suivantes :
-
-- Répertorier des candidat dans un vivier de talents
-- Ajouter et supprimer des candidats d'un vivier de talents
-- Déplacer des candidats vivier de talents à un autre
-- Déterminer si les candidats font déjà partie d'un vivier de talents avant de les déplacer
-- Vérifier les qualifications d'un candidat avant de le déplacer vers d'autres viviers de talents
-
-Cette application PowerApps utilise des relations plusieurs à plusieurs, afin que vous puissiez l'utiliser comme modèle pour d'autres cas où vous devez extraire des enregistrements avec des relations plusieurs à plusieurs.
-
-Pour télécharger le modèle **Console d'administration pour gérer des viviers de talents**, accédez à la [console d'administration pour gérer les viviers de talents](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) dans le Centre de téléchargement Microsoft.
+Pour télécharger l'**Application de référence**, allez dans [Solution d'extensibilité Dynamics 365 for Talent : Application de référence](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) dans le Centre de téléchargement Microsoft. Vous pouvez importer cette application et la personnaliser pour ajouter des fonctionnalités supplémentaires.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[Migration d'application entre clients et environnements](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[Migration d'application entre clients et environnements](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

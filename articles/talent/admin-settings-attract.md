@@ -1,6 +1,6 @@
 ---
-title: Paramètres d'administration dans Attract
-description: Cette rubrique explique comment activer la fonctionnalité de fonction pour les organisations et les utilisateurs dans Attract.
+title: Configurer les informations sur la société dans Microsoft Dynamics 365 for Talent - Attract
+description: Cette rubrique explique comment configurer des informations sur la société et la marque pour Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518031"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739562"
 ---
-# <a name="admin-settings-in-attract"></a>Paramètres d'administration dans Attract
+# <a name="configure-company-information"></a>Configurer les informations sur la société
 [!include[banner](../includes/banner.md)]
 
 Le centre d'administrateur dans Microsoft Dynamics 365 for Talent : Attract contient des paramètres de configuration, des options d'intégration, et des options de paramétrage pour l'application Attract.
@@ -36,7 +36,7 @@ Entrez un nom d'affichage pour la société, puis ajoutez un logo de la sociét�
 
 ## <a name="linkedin-integration"></a>Intégration de LinkedIn
 
-Paramétrage de l'intégration avec LinkedIn Recruiter System Connect (RSC). Une fois connecté à LinkedIn à l'aide de vos informations d'identification LinkedIn, vous pouvez synchroniser le profil LinkedIn, les candidatures, les commentaires d'entretien et les notes de l'équipement de recrutement d'un candidat. Une licence recruteur LinkedIn complète est requise. Pour plus d'informations sur LinkedIn Recruiter, voir [Recruiter System Connect (RSC) – FAQ](https://www.linkedin.com/help/recruiter/answer/90483).
+Paramétrage de l'intégration avec LinkedIn Recruiter System Connect(RSC). Une fois connecté à LinkedIn à l'aide de vos informations d'identification LinkedIn, vous pouvez synchroniser le profil LinkedIn, les candidatures, les commentaires d'entretien et les notes de l'équipement de recrutement d'un candidat. Une licence recruteur LinkedIn complète est requise. Pour plus d'informations sur LinkedIn Recruiter, voir [Recruiter System Connect (RSC) – FAQ](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Autorisations utilisateur
 

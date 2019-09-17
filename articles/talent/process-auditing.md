@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 803c935493a4080b8c1d0ef92bbe7db601f3ca03
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517990"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742667"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Suivre les modifications apportées aux données de recrutement
 
 Vous pouvez suivre les modifications apportées aux candidats, aux postes à pourvoir ou aux candidatures à un poste à l'aide du traitement d'audit. Cette fonctionnalité est utile pour des raisons de génération d'états ou de conformité.
 
-Vous pouvez afficher les données suivies dans Power BI à l'aide de connecteur OData. Pour plus d'informations, voir [Se connecter aux flux OData dans Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-odata).
+Vous pouvez afficher les données suivies dans Power BI à l'aide de connecteur OData. Pour plus d'informations, voir [Se connecter aux flux OData dans Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-odata).
 
 ## <a name="track-changes"></a>Suivi des modifications
 Pour paramétrer le suivi des modifications des données de recrutement, procédez comme suit :

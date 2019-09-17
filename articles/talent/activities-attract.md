@@ -1,9 +1,9 @@
 ---
-title: Activités dans les processus
-description: Cette rubrique fournit des informations sur les différents types d'activités qui peuvent être utilisés dans le processus de recrutement.
+title: Activités dans les processus de Microsoft Dynamics 365 for Talent - Attract
+description: Cette rubrique fournit des informations sur les différents types d'activités qui peuvent être utilisés dans le processus de recrutement de Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518028"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739711"
 ---
-# <a name="activities-in-the-hiring-processes"></a>Activités dans les processus de recrutement
+# <a name="activities-in-hiring-processes"></a>Activités du processus de recrutement
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ Des activités peuvent être ajoutées dans le cadre du processus de recrutement
 ## <a name="prospect-activity"></a>Activité du prospect
 
 L'activité du prospect contrôle si des prospects peuvent être ajoutés à une mission. Par défaut, des prospects peuvent être ajoutés à une mission. Pour désactiver l'activité du prospect, définissez l'option **Activer les prospects** sur **Désactivé**. Lorsque l'activité du prospect est activée, les responsables du recrutement peuvent ajouter et afficher des prospects, et l'onglet **Prospect** est affiché sur la mission.
+
+> [!NOTE]
+> Pour que les candidats puissent être ajoutés à un poste à partir de LinkedIn, vous devez définir l'option **Activez les prospects** sur **Activé**.
 
 ## <a name="application-activity"></a>Activité de candidature
 

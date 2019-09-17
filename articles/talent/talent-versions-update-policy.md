@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518003"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741773"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Configuration du système Talent et politique de mise à jour
 
@@ -64,10 +64,10 @@ Vous pouvez télécharger un fichier PDF des pays, régions et langues pris en c
 > [!NOTE]
 > Bien que l'interface utilisateur soit localisée dans d'autres langues, toutes les données d'utilisateur sont stockées dans la langue dans laquelle elles ont été entrées. Vous pouvez créer des e-mails et des modèles dans d'autres langues, mais les données telles que les informations de planification sont uniquement disponibles en anglais à ce stade.
 
-Si vous êtes développeur et intéressé à créer des personnalisations spécifiques à un pays ou une région, ou à créer une solution pour un pays ou une région actuellement non pris en charge par Microsoft, voir [Globalisation](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+Si vous êtes développeur et intéressé à créer des personnalisations spécifiques à un pays ou une région, ou à créer une solution pour un pays ou une région actuellement non pris en charge par Microsoft, voir [Globalisation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
 ## <a name="update-policy"></a>Stratégie de mise à jour
 
 Microsoft Dynamics 365 for Talent fait l'objet d'une maintenance dans le cadre d'une offre Cloud. Les mises à jour de Dynamics 365 for Talent sont continues et appliquées automatiquement par Microsoft.
 
-Les mises à jour sont publiées régulièrement et s'appliqueront à tous les environnements. Dynamics 365 for Talent est pris en charge conformément à la [Stratégie Microsoft Support Lifecycle](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), qui fournit des instructions cohérentes et prévisibles pour la disponibilité du support produit.
+Les mises à jour sont publiées régulièrement et s'appliqueront à tous les environnements. Dynamics 365 for Talent est pris en charge conformément à la [Stratégie Microsoft Support Lifecycle](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), qui fournit des instructions cohérentes et prévisibles pour la disponibilité du support produit.

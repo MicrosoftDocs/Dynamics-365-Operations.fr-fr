@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517984"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742747"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Utilisateurs Azure Active Directory introuvables dans le sélecteur de personnes
 
@@ -36,9 +36,9 @@ Certains utilisateurs valides dans Microsoft Azure Active Directory (Azure AD) p
 
 Certains types d'utilisateur ne sont actuellement pas pris en charge dans les applications Attract et Onboard. Vérifiez que l'utilisateur n'est pas un utilisateur invité interentreprise Azure AD. Les informations « Type d'utilisateur » figurent dans le panneau Azure Active Directory sur le portail Azure.
 
-Pour en savoir plus sur Azure B2B, voir [Qu'est-ce qu'un accès utilisateur invité dans Azure Active Directory B2B ?](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).
+Pour en savoir plus sur Azure B2B, voir [Qu'est-ce qu'un accès utilisateur invité dans Azure Active Directory B2B ?](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 
-Pour les utilisateurs non interentreprises, certains utilisateurs peuvent avoir une propriété « Type d'utilisateur » sur l'objet **Utilisateur**. Cela peut être vérifié et fixé à l'aide du module Azure AD Powershell. Pour plus d'informations, voir [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0).
+Pour les utilisateurs non interentreprises, certains utilisateurs peuvent avoir une propriété « Type d'utilisateur » sur l'objet **Utilisateur**. Cela peut être vérifié et fixé à l'aide du module Azure AD Powershell. Pour plus d'informations, voir [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).
 
 ## <a name="resolution"></a>Résolution
 

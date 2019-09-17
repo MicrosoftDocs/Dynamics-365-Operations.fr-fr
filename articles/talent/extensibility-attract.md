@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichsew
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 52790fbe500d9f55bc9cc86fba5d54f30b11e559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505862"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795218"
 ---
 # <a name="extensibility-in-attract"></a>Extensibilité dans Attract
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 for Talent repose sur la plateforme Common Data Service e
 
 ## <a name="extending-option-sets-in-attract"></a>Étendre les ensembles d'options dans Attract
 
-Un **Ensemble d'options** (liste au choix) désigne un type de champ pouvant être inclus dans une entité. Il définit un ensemble d'options. Lorsqu'un ensemble d'options s'affiche dans un formulaire, il utilise une commande de liste déroulante.  Dans Attract, il existe plusieurs champs qui sont des ensembles d'options.  Nous commençons à introduire la fonctionnalité pour étendre les ensembles d'options, en commençant par le champ Raison du refus, le champ Type d'emploi et le champ Type d'ancienneté.   En outre, vous pouvez ajouter des étiquettes d'affichage localisées pour les options que vous ajoutez. Pour plus d'informations, voir [Personnaliser les étiquettes des ensembles d'options](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
+Un **Ensemble d'options** (liste au choix) désigne un type de champ pouvant être inclus dans une entité. Il définit un ensemble d'options. Lorsqu'un ensemble d'options s'affiche dans un formulaire, il utilise une commande de liste déroulante.  Dans Attract, il existe plusieurs champs qui sont des ensembles d'options.  Nous commençons à introduire la fonctionnalité pour étendre les ensembles d'options, en commençant par le champ Raison du refus, le champ Type d'emploi et le champ Type d'ancienneté.   En outre, vous pouvez ajouter des étiquettes d'affichage localisées pour les options que vous ajoutez. Pour plus d'informations, voir [Personnaliser les étiquettes des ensembles d'options](https://docs.microsoft.com/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
 
 > [!NOTE]
 > La fonctionnalité de publication d'annonce sur LinkedIn exige d'utiliser les champs **Type d'emploi** et **Type d'ancienneté** sur la page **Détails du poste**. Les valeurs par défaut dans ces champs sont compatibles avec LinkedIn et s'affichent lors de la publication de l'offre d'emploi. Par conséquent, si vous publiez des offres d'emploi sur LinkedIn et si vous modifiez les valeurs d'ensembles d'options existantes pour ces champs, les offres d'emploi sont publiées, mais LinkedIn n'affiche pas les valeurs **Type d'emploi** et **Type d'ancienneté**.  
@@ -62,15 +62,15 @@ Ci-après figurent les étapes pour mettre à jour le champ **Raison du refus** 
 
 Vous pouvez utiliser PowerApps pour générer facilement des applications qui se connectent à vos données Attract, et qui utilisent des expressions comme les expressions de Microsoft Excel pour ajouter une logique. Les applications que vous générez à l'aide de PowerApps peuvent s'exécuter sur le web, et sur des appareils Apple et Google Android.
 
-Par exemple, vous pouvez facilement organiser des salons de l'emploi dans des universités pour les recruteurs en créant une application légère qui leur permet d'analyser les CV et d'acheminer les candidats vers un poste dans Attract. Sinon, vous pouvez générer une application qui vous permet de répondre aux besoins de conformité de votre organisation. Pour plus d'informations sur PowerApps et comment l'utiliser pour générer des applications, voir [Intégration de données dans Common Data Service](https://docs.microsoft.com/en-us/powerapps).
+Par exemple, vous pouvez facilement organiser des salons de l'emploi dans des universités pour les recruteurs en créant une application légère qui leur permet d'analyser les CV et d'acheminer les candidats vers un poste dans Attract. Sinon, vous pouvez générer une application qui vous permet de répondre aux besoins de conformité de votre organisation. Pour plus d'informations sur PowerApps et comment l'utiliser pour générer des applications, voir [Intégration de données dans Common Data Service](https://docs.microsoft.com/powerapps).
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-Vous pouvez utiliser Microsoft Flow pour créer des workflows automatisés s'exécutant avec les données Attract. Vous pouvez facilement vous connecter à des centaines d'applications et services populaires sans devoir écrire du code. Lorsque vous générez des flux qui interagissent avec des entités de mission, de candidat et d'application Attract dans Common Data Service, vous pouvez automatiser différentes actions. Par exemple, lorsqu'un candidat accepte une offre, une notification peut être envoyées à une équipe d'accueil, ou les nouvelles peuvent être annoncées sur Twitter. Pour plus d'informations sur les flux, voir la [Documentation Microsoft Flow ](https://docs.microsoft.com/en-us/flow/).
+Vous pouvez utiliser Microsoft Flow pour créer des workflows automatisés s'exécutant avec les données Attract. Vous pouvez facilement vous connecter à des centaines d'applications et services populaires sans devoir écrire du code. Lorsque vous générez des flux qui interagissent avec des entités de mission, de candidat et d'application Attract dans Common Data Service, vous pouvez automatiser différentes actions. Par exemple, lorsqu'un candidat accepte une offre, une notification peut être envoyées à une équipe d'accueil, ou les nouvelles peuvent être annoncées sur Twitter. Pour plus d'informations sur les flux, voir la [Documentation Microsoft Flow ](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI vous permet de générer et d'afficher des états et des tableaux de bord personnalisés vous offrant un aperçu approfondi de vos données Attract. Pour plus d'informations sur Power BI et comment générer des états et des tableaux de bord interactifs, voir la [documentation Power BI ](https://docs.microsoft.com/en-us/power-bi/).
+Power BI vous permet de générer et d'afficher des états et des tableaux de bord personnalisés vous offrant un aperçu approfondi de vos données Attract. Pour plus d'informations sur Power BI et comment générer des états et des tableaux de bord interactifs, voir la [documentation Power BI ](https://docs.microsoft.com/power-bi/).
 
 ### <a name="custom-activities"></a>Activités personnalisées 
 

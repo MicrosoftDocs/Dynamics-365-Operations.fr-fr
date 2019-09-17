@@ -1,6 +1,6 @@
 ---
-title: Fonctionnalité de site de carrière dans Attract
-description: Cette rubrique présente de manière générale la fonctionnalité de site de carrière côté candidat dans Attract.
+title: Configurer votre site carrière dans Microsoft Dynamics 365 for Talent - Attract
+description: Cette rubrique présente de manière générale la fonctionnalité de site de carrière côté candidat dans Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729701"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739769"
 ---
-# <a name="career-site-functionality-in-attract"></a>Fonctionnalité de site de carrière dans Attract
+# <a name="set-up-your-career-site"></a>Configurer votre site carrière
 
 [!include[banner](../includes/banner.md)]
 

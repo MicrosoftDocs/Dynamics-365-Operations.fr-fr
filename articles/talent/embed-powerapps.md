@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e3b20e1d0a873c32b8f6f5e28f786febf62db355
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518040"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742817"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>Incorporer les applications PowerApps dans Core HR
 
@@ -40,7 +40,7 @@ La conception de l'interface utilisateur (IU) a été modifiée, et Microsoft Po
 
 La manière dont les applications PowerApps sont incorporées a été modifiée. Les applications PowerApps sont maintenant ajoutées via le modèle de personnalisation. Vous pouvez ajouter des applications PowerApps à presque toutes les pages de Microsoft Dynamics 365 for Talent.
 
-Pour plus d'informations sur l'incorporation d'applications PowerApps dans Talent, voir [Incorporer des applications PowerApps](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Pour plus d'informations sur l'incorporation d'applications PowerApps dans Talent, voir [Incorporer des applications PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Tout client PowerApps ayant incorporé des applications avant la modification doit avoir été mis à niveau vers le nouveau modèle.
 
