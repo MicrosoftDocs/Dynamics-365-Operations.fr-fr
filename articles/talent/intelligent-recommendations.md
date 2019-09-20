@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620618"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741750"
 ---
 # <a name="intelligent-recommendations"></a>Recommandations intelligentes
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620618"
 Le Machine Learning peut aider les recruteurs et les responsables de l'embauche à identifier rapidement les meilleurs candidats à un poste. Il peut également créer des prospects pour trouver le poste le plus adapté à leur profil et à leurs intérêts. À mesure que ces fonctionnalités sont utilisées, et que des commentaires sont fournis, les recommandations s'amélioreront.
 
 > [!NOTE] 
-> - Les fonctionnalités de recommandation intelligente sont disponibles uniquement avec le [Module complémentaire Recrutement complet](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Les fonctionnalités de recommandation intelligente sont disponibles uniquement avec le [Module complémentaire Recrutement complet](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 > - La fonctionnalité décrite dans cette rubrique est accessible dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour utiliser cette fonction, demandez à un administrateur de l'activer à l'aide des **Centre d'administration** dans Attract. Définissez, **Recommandation de candidat**, **Recommandation de mission**et **Recommandation de prospect** sur **Activé**. Pour plus d'informations, voir [Accéder aux fonctions d'aperçu de Talent](./access-preview-feature.md). 
 
 

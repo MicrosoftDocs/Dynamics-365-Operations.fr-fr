@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518022"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742713"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Suivre les sources pour les profils de candidat et les candidatures 
+# <a name="track-candidate-sources"></a>Suivre les sources de candidats
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE] 
-> La fonctionnalité décrite dans cette rubrique est accessible dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour utiliser cette fonction, demandez à un administrateur de l'activer à l'aide des **Paramètres d'administrateur** dans Attract. Une version future fournira des états de suivi de la source. Pour plus d'informations, voir [Accéder aux fonctions d'aperçu de Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+> La fonctionnalité décrite dans cette rubrique est accessible dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour utiliser cette fonction, demandez à un administrateur de l'activer à l'aide des **Paramètres d'administrateur** dans Attract. Une version future fournira des états de suivi de la source. Pour plus d'informations, voir [Accéder aux fonctions d'aperçu de Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 Lorsque des candidats postulent à un emploi, Attract remonte automatiquement à la source de leur candidature. Cela vous donne des informations précieuses pour cibler vos initiatives de recrutement. Les recruteurs et les responsables du recrutement peuvent également sélectionner une source de candidature lorsqu'ils ajoutent manuellement un candidat à un emploi ou à un vivier de talents.
 
 Vous pouvez afficher la source de la candidature dans les détails des activités de candidature sous l'onglet **Activité**, ainsi que dans l'historique de candidature disponible sous **Profil** dans les viviers de talents. Vous pouvez trouver la source du profil d'un candidat dans les détails du candidat sous l'onglet **Profil** dans les candidatures et les viviers de talents.
 
 > [!NOTE] 
-> Vous pouvez trouver des modèles de traitement dans le [Module complémentaire Recrutement complet](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> Vous pouvez trouver des modèles de traitement dans le [Module complémentaire Recrutement complet](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 
 ## <a name="pre-configured-sources"></a>Sources préconfigurées
 
@@ -93,7 +93,7 @@ La liste de sources par défaut contient les sources de candidature courantes. C
 
 ## <a name="customize-the-source-list"></a>Personnaliser la liste des sources 
 
-Vous pouvez étendre la liste des sources pour inclure des sources de candidature supplémentaires. Pour personnaliser cette liste, suivez les instructions de [Étendre les ensembles d'options dans Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Modifiez l'entité **TalentSource** pour inclure des sources supplémentaires. 
+Vous pouvez étendre la liste des sources pour inclure des sources de candidature supplémentaires. Pour personnaliser cette liste, suivez les instructions de [Étendre les ensembles d'options dans Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Modifiez l'entité **TalentSource** pour inclure des sources supplémentaires. 
 
 Pour éviter d'affecter négativement l'interface utilisateur (IU), ne modifiez ni ne supprimez les valeurs d'énumération **TalentCategory** (pas les noms) pour :
 

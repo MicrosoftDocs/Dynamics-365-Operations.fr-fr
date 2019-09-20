@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 32eb177da53ffa4cf8ecdc73a93e88f30778f69c
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729778"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791974"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (2 juillet 2019)
 
@@ -37,13 +37,18 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 
 Vous pouvez désormais configurer les paramètres de messagerie afin que les e-mails adressés aux candidats, aux interviewers, aux recruteurs et aux responsables du recrutement soient envoyés à partir du compte du service de messagerie de votre organisation. Pour plus d'informations voir [Connecter un compte de service de messagerie](./attract-configure-email-settings.md#connect-an-email-service-account).
 
-#### <a name="offer-email-templates"></a>Proposer des modèles d'e-mail 
+### <a name="offer-email-templates"></a>Proposer des modèles d'e-mail 
 
 Vous pouvez désormais configurer les modèles d'e-mail de votre organisation pour tous les stades : préparation de l'offre, approbation et acceptation. Les utilisateurs peuvent utiliser le modèle par défaut ou le personnaliser avant d'envoyer l'e-mail. Pour plus d'informations, voir [Configurer les paramètres de modèle d'e-mail](./attract-configure-email-settings.md#configure-email-template-settings).
 
 ### <a name="candidate-consent-on-application"></a>Consentement du candidat dans l'application
 
 Vous pouvez désormais activer le lien vers les conditions d'utilisation de votre organisation. Quand ce paramètre est activé, les candidats doivent consentir aux conditions d'utilisation avant de soumettre leur candidature. 
+
+### <a name="coming-soon-in-attract"></a>Bientôt dans Attract
+#### <a name="job-approvals-appear-on-the-home-page"></a>Les approbations des missions s'affichent dans la page d'accueil
+
+Les approbations apparaissent dans une section **Approbations** du tableau de bord. Les approbateurs peuvent analyser leurs approbations sous **Affecté à vous**, qui affiche l'ID de mission, l'intitulé, les autres approbateurs, et la date à laquelle le poste a été affecté. Les utilisateurs qui soumettent une mission pour approbation peuvent analyser leurs missions sous **Demandé par vous**, qui affiche les approbateurs qui doivent toujours approuver la mission envoyée.
 
 ## <a name="changes-in-onboard"></a>Modifications apportées à Onboard
 

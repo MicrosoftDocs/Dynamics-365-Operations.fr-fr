@@ -1,6 +1,6 @@
 ---
-title: Utiliser les états analytiques pour obtenir des informations sur le processus de recrutement
-description: Cette rubrique décrit les états analytiques dans Attract
+title: Utiliser les états analytiques dans Microsoft Dynamics 365 for Talent - Attract
+description: Cette rubrique décrit les états analytiques pour obtenir des informations sur le processus de recrutement dans Microsoft Dynamics 365 for Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516558"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742886"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>Utiliser les états analytiques pour obtenir des informations sur le processus de recrutement
+# <a name="use-analytic-reports"></a>Utiliser les états analytiques
 
 Les états analytiques dans Attract fournissent une solution prête à l'emploi pour obtenir des informations sur le processus de recrutement. Les fonctionnalités disponibles comprennent :
 
@@ -81,8 +81,8 @@ Les états Analyses du poste affichent des données sur le poste sélectionné. 
 
 ## <a name="cross-filter"></a>Filtrage croisé
 
-L'une des fonctionnalités importantes de Power BI est la façon dont tous les visuels sur une page d'état sont interconnectés. Si vous sélectionnez un point de données sur l'un des visuels, tous les autres visuels de la page qui contiennent ces données changent, selon cette sélection. Pour en savoir plus et voir un exemple dans [Filtrage croisé des visuels dans un état Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+L'une des fonctionnalités importantes de Power BI est la façon dont tous les visuels sur une page d'état sont interconnectés. Si vous sélectionnez un point de données sur l'un des visuels, tous les autres visuels de la page qui contiennent ces données changent, selon cette sélection. Pour en savoir plus et voir un exemple dans [Filtrage croisé des visuels dans un état Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Exporter vers Excel
 
-Pour afficher les données d'un état dans Excel, vous pouvez cliquer sur le menu Options (trois points) d'un visuel et sélectionner **Exporter les données sous-jacentes**. Les données exportées s'exporteront filtrées, en fonction des autorisations de l'utilisateur dans Attract. Pour plus d'informations, voir [Exporter à partir des visualisations](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+Pour afficher les données d'un état dans Excel, vous pouvez cliquer sur le menu Options (trois points) d'un visuel et sélectionner **Exporter les données sous-jacentes**. Les données exportées s'exporteront filtrées, en fonction des autorisations de l'utilisateur dans Attract. Pour plus d'informations, voir [Exporter à partir des visualisations](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

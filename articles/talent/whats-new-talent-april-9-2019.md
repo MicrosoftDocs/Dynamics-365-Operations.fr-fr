@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517967"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856422"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Nouveautés et modifications dans Dynamics 365 for Talent (9 avril 2019)
 
@@ -37,10 +37,10 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 Dans Attract et Onboard, les problèmes consignés par les utilisateurs à l'aide de la fonctionnalité Signaler un problème créent désormais automatiquement des sujets de support dans le projet LCS du client. Les administrateurs peuvent maintenant trier les problèmes et les soumettre à Microsoft si nécessaire. C'est cohérent avec la manière dont Core HR traite les problèmes de support utilisateur.
 
 ### <a name="relevance-search"></a>Recherche par pertinence
-Dans les viviers de talents, vous pouvez désormais rechercher des compétences, des noms ou des parcours éducatifs particuliers dans l'ensemble de votre base de données de candidats. Vous n'avez plus besoin de spécifier la section du profil d'un candidat dans laquelle vous souhaitez rechercher. Attract recherche dans tout le profil et met en évidence toutes les correspondances trouvées. Attract recherche également dans tous les documents disponibles pour un candidat et classe intelligemment les résultats de la recherche. En outre, vous pouvez filtrer les résultats par source ou par médaillé d'argent. Pour plus d'informations, voir [Rechercher et afficher des profils de candidats](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
+Dans les viviers de talents, vous pouvez désormais rechercher des compétences, des noms ou des parcours éducatifs particuliers dans l'ensemble de votre base de données de candidats. Vous n'avez plus besoin de spécifier la section du profil d'un candidat dans laquelle vous souhaitez rechercher. Attract recherche dans tout le profil et met en évidence toutes les correspondances trouvées. Attract recherche également dans tous les documents disponibles pour un candidat et classe intelligemment les résultats de la recherche. En outre, vous pouvez filtrer les résultats par source ou par médaillé d'argent. Pour plus d'informations, voir [Rechercher et afficher des profils de candidats](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
 
 ### <a name="prospect-recommendations"></a>Recommandation de prospect
-Attract peut aider à démarrer rapidement la recherche d'employé pour un poste en faisant des recommandations de candidat intelligentes à partie de la base de données de candidats de votre organisation. Ces recommandations incluent les informations sur les compétences et la formation identifiée lors de la recherche de prospects appropriés. Ces recommandations s'affichent dans l'onglet **Prospects** sous un emploi, si vous devez l'activer au cours du processus d'embauche pour le poste. Pour plus d'informations, voir [Recommandations de prospect](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
+Attract peut aider à démarrer rapidement la recherche d'employé pour un poste en faisant des recommandations de candidat intelligentes à partie de la base de données de candidats de votre organisation. Ces recommandations incluent les informations sur les compétences et la formation identifiée lors de la recherche de prospects appropriés. Ces recommandations s'affichent dans l'onglet **Prospects** sous un emploi, si vous devez l'activer au cours du processus d'embauche pour le poste. Pour plus d'informations, voir [Recommandations de prospect](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
 
 ### <a name="interviewer-availability-statuses"></a>Statuts de disponibilité de l'interviewer
 Les planificateurs d'entretien pourront bientôt afficher les statuts **Absent, au travail ailleurs** pour les interviewers. Cela facilitera la programmation d'horaires d'entretien plus commodes pour les interviewers.

@@ -1,6 +1,6 @@
 ---
-title: Recherche de candidats à l'aide de viviers de talents
-description: Cette rubrique explique comment créer et paramétrer des viviers de talents dans Attract.
+title: Identifier des candidats avec les viviers de talents dans Microsoft Dynamics 365 for Talent - Attract
+description: Cette rubrique explique comment créer et paramétrer des viviers de talents dans Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711292"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741865"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Recherche de candidats à l'aide de viviers de talents
+# <a name="source-candidates-with-talent-pools"></a>Identifier des candidats avec les viviers de talents
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ Le propriétaire et les contributeurs du vivier de talents peuvent ajouter des c
 ## <a name="search-and-view-candidate-profiles"></a>Rechercher et afficher des profils de candidats
 
 > [!NOTE] 
-> Cette fonctionnalité est actuellement en mode aperçu. Si vous souhaitez l'essayer, vous devez [l'activer dans les paramètres administrateur d'Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> Cette fonctionnalité est actuellement en mode aperçu. Si vous souhaitez l'essayer, vous devez [l'activer dans les paramètres administrateur d'Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 Les viviers de talents vous permettent de consulter le profil, les informations LinkedIn, les documents associés, et l'historique de candidature des candidats. Vous pouvez effectuer une rechercher dans la base de données complète de tous les candidats ajoutés à n'importe quel vivier de talents, y compris les candidats clôturés et actifs.
 
@@ -116,7 +116,7 @@ Tous les utilisateurs ont un point de vue commun des profils de candidats. L'ong
 
     Pour afficher un document, sélectionnez le nom du document dans la liste des documents. Vous pouvez afficher les documents Microsoft Word dans l'application à l'aide de Microsoft Office 365. Vous pouvez également télécharger les documents sur votre ordinateur local à l'aide de l'option **Télécharger** pour chaque document.
 
-- L'onglet **LinkedIn** affiche les informations LinkedIn du candidat. Pour utiliser cet onglet, vous devez connecter votre compte LinkedIn dans les paramètres utilisateur, et la connexion à LinkedIn Recruiter de votre environnement doit être établie. Pour plus d'informations, voir [Approvisionnement avec LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- L'onglet **LinkedIn** affiche les informations LinkedIn du candidat. Pour utiliser cet onglet, vous devez connecter votre compte LinkedIn dans les paramètres utilisateur, et la connexion à LinkedIn Recruiter de votre environnement doit être établie. Pour plus d'informations, voir [Approvisionnement avec LinkedIn Recruiter](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Seuls les candidats peuvent actualiser leurs qualifications, leur historique de formation et leur expérience professionnelle.

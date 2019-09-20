@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42b9541b152d2a6daa1dbf95ecf30a2f51eb36f3
-ms.sourcegitcommit: 31a918d357a7182f3870713a9c4455bd5c44cd58
+ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1634478"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741614"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (11 juin 2019)
 
@@ -76,9 +76,9 @@ L'entité Groupe de tâches a été ajoutée.
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>Les fonctions d'aperçu sont activées uniquement dans des environnements de bac à sable
 
-Pour plus d'informations sur la manière dont les modifications sont publiées, voir [Mettre en service Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Pour plus d'informations sur la manière dont les modifications sont publiées, voir [Mettre en service Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
-Lorsque vous provisionnez une nouvelle instance de Talent, vous pouvez indiquer si le type d'instance est Production ou Bac à sable. Le type d'instance Bac à sable permet de tester les nouvelles fonctions en avant-première. Toutes les instances de Talent existantes seront mises à jour avec le type d'instance **Production**. Si vous souhaitez que l'une de vos instances existantes soit mise à jour avec le type d'instance **Bac à sable** (sandbox), contactez le [Support](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) pour initier la demande de modification.
+Lorsque vous provisionnez une nouvelle instance de Talent, vous pouvez indiquer si le type d'instance est Production ou Bac à sable. Le type d'instance Bac à sable permet de tester les nouvelles fonctions en avant-première. Toutes les instances de Talent existantes seront mises à jour avec le type d'instance **Production**. Si vous souhaitez que l'une de vos instances existantes soit mise à jour avec le type d'instance **Bac à sable** (sandbox), contactez le [Support](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) pour initier la demande de modification.
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>Limitation des types de départ dans les demandes de congés
 

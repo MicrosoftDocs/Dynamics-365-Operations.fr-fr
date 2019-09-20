@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: dac453ee83492655b6681b9784af4712bf39fc2a
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591500"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856446"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (13 mai 2019)
 
@@ -47,7 +47,7 @@ Les modifications décrites dans cette section s'appliquent au numéro de versio
 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Indiquer le type d'instance lors de la mise en service de Talent
 
-Lorsque de la mise en service d'une nouvelle instance de Talent, vous pouvez indiquer si le type d'instance est **Production** ou **Bac à sable (sandbox)**, ce qui permet de tester de nouvelles fonctionnalités. Toutes les instances de Talent existantes seront mises à jour avec le type d'instance **Production**. Si vous souhaitez que l'une de vos instances existantes soit mise à jour avec le type d'instance **Bac à sable** (sandbox), contactez le [Support](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) pour initier la demande de modification.
+Lorsque de la mise en service d'une nouvelle instance de Talent, vous pouvez indiquer si le type d'instance est **Production** ou **Bac à sable (sandbox)**, ce qui permet de tester de nouvelles fonctionnalités. Toutes les instances de Talent existantes seront mises à jour avec le type d'instance **Production**. Si vous souhaitez que l'une de vos instances existantes soit mise à jour avec le type d'instance **Bac à sable** (sandbox), contactez le [Support](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) pour initier la demande de modification.
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Prise en charge de l'entité Common Data Service pour les champs personnalisés
 

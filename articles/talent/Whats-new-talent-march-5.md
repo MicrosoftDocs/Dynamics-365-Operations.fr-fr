@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518029"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741888"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (5 mars 2019)
 
@@ -43,10 +43,10 @@ Dans Attract, plusieurs champs sont des ensembles d'options dans Common Data Ser
 ## <a name="changes-in-onboarding"></a>Modifications apportées à Onboard
 
 ### <a name="private-preview-for-onboard-teams"></a>Aperçu privé pour les équipes Onboard
-Vous pouvez désormais facilement partager et collaborer sur des modèles au sein de votre organisation. Pour en savoir plus, voir [Partager les bonnes pratiques au sein de votre organisation à l'aide des équipes Onboard](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+Vous pouvez désormais facilement partager et collaborer sur des modèles au sein de votre organisation. Pour en savoir plus, voir [Partager les bonnes pratiques au sein de votre organisation à l'aide des équipes Onboard](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Aperçu privé pour les espaces réservés des destinataires
-Vous pouvez enrichir vos modèles en attribuant des activités à des rôles plutôt qu'à des individus. Les rôles sont ensuite attribués aux individus lors de la création du guide. Pour en savoir plus, voir [Rationaliser l'administration du guide en attribuant des activités aux rôles](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+Vous pouvez enrichir vos modèles en attribuant des activités à des rôles plutôt qu'à des individus. Les rôles sont ensuite attribués aux individus lors de la création du guide. Pour en savoir plus, voir [Rationaliser l'administration du guide en attribuant des activités aux rôles](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 **Version 8.1.2178**
@@ -71,7 +71,7 @@ Avec cette modification, lors de la demande de modifications des postes existant
 Cette version comprend d'autres correctifs de bogues mineurs.
 
 ### <a name="upgrade-to-common-data-service"></a>Effectuez une mise à niveau vers Common Data Service.
-Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à grands pas. Connectez-vous au centre d'administration de PowerApps pour définir si votre base de données doit être mise à niveau. Pour en savoir plus sur les dates butoirs et les étapes indispensables pour la mise à niveau, voir [Mise à niveau vers Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à grands pas. Connectez-vous au centre d'administration de PowerApps pour définir si votre base de données doit être mise à niveau. Pour en savoir plus sur les dates butoirs et les étapes indispensables pour la mise à niveau, voir [Mise à niveau vers Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Prochainement
 
@@ -79,4 +79,4 @@ Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à gr
 Nombreuses sont les organisations où les responsables des bénéfices et de la rémunération ne peuvent accéder qu'à certains enregistrements de rémunération, comme les enregistrements relatifs aux cadres ou aux employés régionaux. Cette modification permet aux ressources humaines (RH) de gérer et de tenir à jour les plans de rémunération pour différentes populations d'employés au sein de l'organisation. Les plans fixes et variables peuvent être attribués à des rôles de sécurité, qui déterminent l'accès aux plans et aux données des employés par rapport aux plans, comme les enregistrements propres aux salaires ou aux primes. Seuls les rôles qui ont l'accès spécifié sont en mesure de traiter la rémunération pour ces employés.
 
 ###  <a name="platform-update-24"></a>Update 24 de la plateforme
-Pour en savoir plus sur Platform Update 24, voir [Nouveautés ou modifications dans Finance and Operations, Platform Update 24 (mars 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Pour en savoir plus sur Platform Update 24, voir [Nouveautés ou modifications dans Finance and Operations, Platform Update 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
