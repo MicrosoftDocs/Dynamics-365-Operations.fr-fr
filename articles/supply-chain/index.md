@@ -1,9 +1,9 @@
 ---
-title: Page d'accueil de la gestion de la chaîne d'approvisionnement
-description: Cette page fournit une liste de rubriques d'aide et d'autres ressources pour les fonctionnalités de gestion de la chaîne d'approvisionnement dans Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: Ressources d'aide pour Supply Chain Management
+description: Cette page fournit une liste de rubriques d'aide et d'autres ressources pour les fonctionnalités de Supply Chain Management.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,101 +18,106 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557590"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278322"
 ---
-# <a name="supply-chain-management-home-page"></a><span data-ttu-id="43624-103">Page d'accueil de la gestion de la chaîne d'approvisionnement</span><span class="sxs-lookup"><span data-stu-id="43624-103">Supply chain management home page</span></span>
+# <a name="help-resources-for-supply-chain-management"></a><span data-ttu-id="2e9a1-103">Ressources d'aide pour Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="2e9a1-103">Help resources for Supply Chain Management</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="43624-104">Cette rubrique fournit une liste de rubriques d'aide et d'autres ressources pour les fonctionnalités de gestion de la chaîne d'approvisionnement dans Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="43624-104">This topic provides a list of the help topics and other resources for the supply chain management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
+<span data-ttu-id="2e9a1-104">Cette rubrique fournit une liste de ressources et d'autres informations dans Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="2e9a1-104">This topic provides a list of the help topics and other resources in Dynamics 365 Supply Chain Management.</span></span> 
 
-## <a name="whats-new-and-in-development"></a><span data-ttu-id="43624-105">Nouveautés et développements</span><span class="sxs-lookup"><span data-stu-id="43624-105">What's new and in development</span></span>
-<span data-ttu-id="43624-106">Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a> pour découvrir les nouvelles fonctions qui seront lancées ou qui sont en développement.</span><span class="sxs-lookup"><span data-stu-id="43624-106">Go to the <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> to see what new features are released and what new features are in development.</span></span> 
+## <a name="whats-new-and-in-development"></a><span data-ttu-id="2e9a1-105">Nouveautés et développements</span><span class="sxs-lookup"><span data-stu-id="2e9a1-105">What's new and in development</span></span>
+<span data-ttu-id="2e9a1-106">Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a> pour découvrir les nouvelles fonctions qui seront lancées ou qui sont en développement.</span><span class="sxs-lookup"><span data-stu-id="2e9a1-106">Go to the <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> to see what new features are released and what new features are in development.</span></span> 
 
-## <a name="core-concepts-and-tasks"></a><span data-ttu-id="43624-107">Concepts et tâches clés</span><span class="sxs-lookup"><span data-stu-id="43624-107">Core concepts and tasks</span></span>
+## <a name="core-concepts-and-tasks"></a><span data-ttu-id="2e9a1-107">Concepts et tâches clés</span><span class="sxs-lookup"><span data-stu-id="2e9a1-107">Core concepts and tasks</span></span>
 
-<span data-ttu-id="43624-108">Sélectionnez une zone de fonctionnalités pour en savoir plus.</span><span class="sxs-lookup"><span data-stu-id="43624-108">Select a feature area to learn more about it.</span></span>
+<span data-ttu-id="2e9a1-108">Sélectionnez une zone de fonctionnalités pour en savoir plus.</span><span class="sxs-lookup"><span data-stu-id="2e9a1-108">Select a feature area to learn more about it.</span></span>
 
-- [<span data-ttu-id="43624-109">Contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="43624-109">Cost accounting</span></span>](../financials/cost-accounting/cost-accounting-home-page.md)
-- [<span data-ttu-id="43624-110">Gestion des coûts</span><span class="sxs-lookup"><span data-stu-id="43624-110">Cost management</span></span>](cost-management/cost-management-home-page.md)  
-- [<span data-ttu-id="43624-111">Gestion des stocks</span><span class="sxs-lookup"><span data-stu-id="43624-111">Inventory management</span></span>](inventory/inventory-home-page.md)
-- [<span data-ttu-id="43624-112">Planification</span><span class="sxs-lookup"><span data-stu-id="43624-112">Master planning</span></span>](master-planning/master-planning-home-page.md)
-- [<span data-ttu-id="43624-113">Approvisionnements</span><span class="sxs-lookup"><span data-stu-id="43624-113">Procurement and sourcing</span></span>](procurement/procurement-sourcing-overview.md)
-- [<span data-ttu-id="43624-114">Gestion des informations sur les produits</span><span class="sxs-lookup"><span data-stu-id="43624-114">Product information management</span></span>](pim/product-information.md)
-- [<span data-ttu-id="43624-115">Contrôle de la production</span><span class="sxs-lookup"><span data-stu-id="43624-115">Production control</span></span>](production-control/production-process-overview.md)
-- [<span data-ttu-id="43624-116">Ventes et marketing</span><span class="sxs-lookup"><span data-stu-id="43624-116">Sales and marketing</span></span>](sales-marketing/overview-sales-marketing.md)
-- [<span data-ttu-id="43624-117">Gestion des services</span><span class="sxs-lookup"><span data-stu-id="43624-117">Service management</span></span>](service-management/service-management-home-page.md)
-- [<span data-ttu-id="43624-118">Gestion du transport</span><span class="sxs-lookup"><span data-stu-id="43624-118">Transportation management</span></span>](transportation/transportation-management-overview.md)
-- [<span data-ttu-id="43624-119">Gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="43624-119">Warehouse management</span></span>](warehousing/warehouse-configuration.md)
+- [<span data-ttu-id="2e9a1-109">Gestion des actifs</span><span class="sxs-lookup"><span data-stu-id="2e9a1-109">Asset management</span></span>](asset-management/index.md)
+- [<span data-ttu-id="2e9a1-110">Contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="2e9a1-110">Cost accounting</span></span>](../financials/cost-accounting/cost-accounting-home-page.md)
+- [<span data-ttu-id="2e9a1-111">Gestion des coûts</span><span class="sxs-lookup"><span data-stu-id="2e9a1-111">Cost management</span></span>](cost-management/cost-management-home-page.md)  
+- [<span data-ttu-id="2e9a1-112">Gestion des stocks</span><span class="sxs-lookup"><span data-stu-id="2e9a1-112">Inventory management</span></span>](inventory/inventory-home-page.md)
+- [<span data-ttu-id="2e9a1-113">Planification</span><span class="sxs-lookup"><span data-stu-id="2e9a1-113">Master planning</span></span>](master-planning/master-planning-home-page.md)
+- [<span data-ttu-id="2e9a1-114">Approvisionnements</span><span class="sxs-lookup"><span data-stu-id="2e9a1-114">Procurement and sourcing</span></span>](procurement/procurement-sourcing-overview.md)
+- [<span data-ttu-id="2e9a1-115">Gestion des informations sur les produits</span><span class="sxs-lookup"><span data-stu-id="2e9a1-115">Product information management</span></span>](pim/product-information.md)
+- [<span data-ttu-id="2e9a1-116">Contrôle de la production</span><span class="sxs-lookup"><span data-stu-id="2e9a1-116">Production control</span></span>](production-control/production-process-overview.md)
+- [<span data-ttu-id="2e9a1-117">Ventes et marketing</span><span class="sxs-lookup"><span data-stu-id="2e9a1-117">Sales and marketing</span></span>](sales-marketing/overview-sales-marketing.md)
+- [<span data-ttu-id="2e9a1-118">Gestion des services</span><span class="sxs-lookup"><span data-stu-id="2e9a1-118">Service management</span></span>](service-management/service-management-home-page.md)
+- [<span data-ttu-id="2e9a1-119">Gestion du transport</span><span class="sxs-lookup"><span data-stu-id="2e9a1-119">Transportation management</span></span>](transportation/transportation-management-overview.md)
+- [<span data-ttu-id="2e9a1-120">Gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="2e9a1-120">Warehouse management</span></span>](warehousing/warehouse-configuration.md)
 
-## <a name="videos"></a><span data-ttu-id="43624-120">Vidéos</span><span class="sxs-lookup"><span data-stu-id="43624-120">Videos</span></span>
+## <a name="dynamics-365-finance"></a><span data-ttu-id="2e9a1-121">Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="2e9a1-121">Dynamics 365 Finance</span></span>
 
-<span data-ttu-id="43624-121">Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations version 8.0 (avril 2018).</span><span class="sxs-lookup"><span data-stu-id="43624-121">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations version 8.0 (April 2018).</span></span>
+<span data-ttu-id="2e9a1-122">Pour plus d'informations sur Dynamics 365 Finance, accédez à la page [Ressources d'aide de Dynamics 365 Finance](../finance/index.md).</span><span class="sxs-lookup"><span data-stu-id="2e9a1-122">For information on Dynamics 365 Finance, go to the [Dynamics 365 Finance help resources](../finance/index.md) page.</span></span>
 
-- [<span data-ttu-id="43624-122">Synchroniser un ordre d'exécution entre Field Service et Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="43624-122">Synchronize a work order between Field Service and Finance and Operations</span></span>](https://youtu.be/hAB4TDVMjxU)
+## <a name="videos"></a><span data-ttu-id="2e9a1-123">Vidéos</span><span class="sxs-lookup"><span data-stu-id="2e9a1-123">Videos</span></span>
 
-<span data-ttu-id="43624-123">Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (décembre 2017).</span><span class="sxs-lookup"><span data-stu-id="43624-123">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (December 2017).</span></span>
+<span data-ttu-id="2e9a1-124">Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations version 8.0 (avril 2018).</span><span class="sxs-lookup"><span data-stu-id="2e9a1-124">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations version 8.0 (April 2018).</span></span>
 
--  [<span data-ttu-id="43624-124">Intégration de la solution Prospect en disponibilités</span><span class="sxs-lookup"><span data-stu-id="43624-124">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg) 
--  [<span data-ttu-id="43624-125">Conseiller en optimisation</span><span class="sxs-lookup"><span data-stu-id="43624-125">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
--  [<span data-ttu-id="43624-126">Utiliser le modèle d'entrepôt pour copier une configuration</span><span class="sxs-lookup"><span data-stu-id="43624-126">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+- [<span data-ttu-id="2e9a1-125">Synchroniser un ordre d'exécution entre Field Service et Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="2e9a1-125">Synchronize a work order between Field Service and Finance and Operations</span></span>](https://youtu.be/hAB4TDVMjxU)
 
-<span data-ttu-id="43624-127">Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juillet 2017).</span><span class="sxs-lookup"><span data-stu-id="43624-127">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</span></span>
+<span data-ttu-id="2e9a1-126">Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (décembre 2017).</span><span class="sxs-lookup"><span data-stu-id="2e9a1-126">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (December 2017).</span></span>
 
--  [<span data-ttu-id="43624-128">Mise en route du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="43624-128">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
--  [<span data-ttu-id="43624-129">Espace de travail mobile de contrôle des coûts</span><span class="sxs-lookup"><span data-stu-id="43624-129">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
--  [<span data-ttu-id="43624-130">Utiliser Excel pour l'analyse des coûts</span><span class="sxs-lookup"><span data-stu-id="43624-130">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
--  [<span data-ttu-id="43624-131">Approuver les commandes fournisseur sur un appareil mobile</span><span class="sxs-lookup"><span data-stu-id="43624-131">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
--  [<span data-ttu-id="43624-132">Planification visuelle avec le diagramme de Gantt pour les ordres de fabrication et les lots de commandes</span><span class="sxs-lookup"><span data-stu-id="43624-132">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
+-  [<span data-ttu-id="2e9a1-127">Intégration de la solution Prospect en disponibilités</span><span class="sxs-lookup"><span data-stu-id="2e9a1-127">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg) 
+-  [<span data-ttu-id="2e9a1-128">Conseiller en optimisation</span><span class="sxs-lookup"><span data-stu-id="2e9a1-128">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [<span data-ttu-id="2e9a1-129">Utiliser le modèle d'entrepôt pour copier une configuration</span><span class="sxs-lookup"><span data-stu-id="2e9a1-129">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-<span data-ttu-id="43624-133">Ces enregistrements techniques traitent de la fonctionnalité du produit dans la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle.</span><span class="sxs-lookup"><span data-stu-id="43624-133">These tech conference recordings discuss product functionality in the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</span></span> 
+<span data-ttu-id="2e9a1-130">Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juillet 2017).</span><span class="sxs-lookup"><span data-stu-id="2e9a1-130">These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</span></span>
 
-<span data-ttu-id="43624-134">**Gestion des coûts**</span><span class="sxs-lookup"><span data-stu-id="43624-134">**Cost management**</span></span>
+-  [<span data-ttu-id="2e9a1-131">Mise en route du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="2e9a1-131">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
+-  [<span data-ttu-id="2e9a1-132">Espace de travail mobile de contrôle des coûts</span><span class="sxs-lookup"><span data-stu-id="2e9a1-132">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
+-  [<span data-ttu-id="2e9a1-133">Utiliser Excel pour l'analyse des coûts</span><span class="sxs-lookup"><span data-stu-id="2e9a1-133">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
+-  [<span data-ttu-id="2e9a1-134">Approuver les commandes fournisseur sur un appareil mobile</span><span class="sxs-lookup"><span data-stu-id="2e9a1-134">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
+-  [<span data-ttu-id="2e9a1-135">Planification visuelle avec le diagramme de Gantt pour les ordres de fabrication et les lots de commandes</span><span class="sxs-lookup"><span data-stu-id="2e9a1-135">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
 
--  [<span data-ttu-id="43624-135">Vue d'ensemble de la gestion des coûts</span><span class="sxs-lookup"><span data-stu-id="43624-135">Overview of Cost management</span></span>](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+<span data-ttu-id="2e9a1-136">Ces enregistrements techniques traitent de la fonctionnalité du produit dans la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle.</span><span class="sxs-lookup"><span data-stu-id="2e9a1-136">These tech conference recordings discuss product functionality in the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</span></span> 
 
-<span data-ttu-id="43624-136">**Planification**</span><span class="sxs-lookup"><span data-stu-id="43624-136">**Master planning**</span></span>
+<span data-ttu-id="2e9a1-137">**Gestion des coûts**</span><span class="sxs-lookup"><span data-stu-id="2e9a1-137">**Cost management**</span></span>
 
--  [<span data-ttu-id="43624-137">Étendre la fonctionnalité de prévision de la demande</span><span class="sxs-lookup"><span data-stu-id="43624-137">Extend the demand forecasting functionality</span></span>](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
--  [<span data-ttu-id="43624-138">Planification - conseils et astuces pour résoudre les problèmes de performances</span><span class="sxs-lookup"><span data-stu-id="43624-138">Master planning - tips and tricks for troubleshooting performance</span></span>](https://youtu.be/7v8BPmEs9Dg)
--  [<span data-ttu-id="43624-139">Besoin d'aide ! La production est lente !</span><span class="sxs-lookup"><span data-stu-id="43624-139">Help! MRP is slow!</span></span>](https://youtu.be/RLXybx20B5o)
+-  [<span data-ttu-id="2e9a1-138">Vue d'ensemble de la gestion des coûts</span><span class="sxs-lookup"><span data-stu-id="2e9a1-138">Overview of Cost management</span></span>](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
 
-<span data-ttu-id="43624-140">**Gestion des informations sur les produits**</span><span class="sxs-lookup"><span data-stu-id="43624-140">**Product information management**</span></span>
+<span data-ttu-id="2e9a1-139">**Planification**</span><span class="sxs-lookup"><span data-stu-id="2e9a1-139">**Master planning**</span></span>
 
--  [<span data-ttu-id="43624-141">Configurateur de produits dans Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="43624-141">Product configurator in Microsoft Dynamics AX</span></span>](https://youtu.be/zotrj3SbCl4)
+-  [<span data-ttu-id="2e9a1-140">Étendre la fonctionnalité de prévision de la demande</span><span class="sxs-lookup"><span data-stu-id="2e9a1-140">Extend the demand forecasting functionality</span></span>](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [<span data-ttu-id="2e9a1-141">Planification - conseils et astuces pour résoudre les problèmes de performances</span><span class="sxs-lookup"><span data-stu-id="2e9a1-141">Master planning - tips and tricks for troubleshooting performance</span></span>](https://youtu.be/7v8BPmEs9Dg)
+-  [<span data-ttu-id="2e9a1-142">Besoin d'aide ! La production est lente !</span><span class="sxs-lookup"><span data-stu-id="2e9a1-142">Help! MRP is slow!</span></span>](https://youtu.be/RLXybx20B5o)
 
-<span data-ttu-id="43624-142">**Gestion des entrepôts**</span><span class="sxs-lookup"><span data-stu-id="43624-142">**Warehouse management**</span></span> 
+<span data-ttu-id="2e9a1-143">**Gestion des informations sur les produits**</span><span class="sxs-lookup"><span data-stu-id="2e9a1-143">**Product information management**</span></span>
+
+-  [<span data-ttu-id="2e9a1-144">Configurateur de produits dans Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="2e9a1-144">Product configurator in Microsoft Dynamics AX</span></span>](https://youtu.be/zotrj3SbCl4)
+
+<span data-ttu-id="2e9a1-145">**Gestion des entrepôts**</span><span class="sxs-lookup"><span data-stu-id="2e9a1-145">**Warehouse management**</span></span> 
 
 <!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
--  [<span data-ttu-id="43624-143">Optimiser votre système de gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="43624-143">Get the best out of your warehouse management system</span></span>](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
--  [<span data-ttu-id="43624-144">Gestion avancée des entrepôts R3 - Traitement entrant et réapprovisionnement minimum/maximum</span><span class="sxs-lookup"><span data-stu-id="43624-144">Advanced R3 Warehouse management - Inbound processing and min/max replenishment</span></span>](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
--  [<span data-ttu-id="43624-145">Gestion avancée des entrepôts R3 - Un jour dans la vie, traitement sortant et réapprovisionnement de la demande</span><span class="sxs-lookup"><span data-stu-id="43624-145">Advanced R3 Warehouse management - A day in the life, outbound processing and demand Replenishment</span></span>](https://youtu.be/Og0gLlVp7jA)
--  [<span data-ttu-id="43624-146">Libellés de la nouvelle gestion des entrepôts Microsoft Dynamics AX 2012 R3</span><span class="sxs-lookup"><span data-stu-id="43624-146">Labels in the new Microsoft Dynamics AX 2012 R3 Warehouse management</span></span>](https://youtu.be/5w1MngVchBA)
--  [<span data-ttu-id="43624-147">Dynamics AX 2012 R3 : Gestion avancée des entrepôts - Un jour dans la vie du traitement de la fabrication</span><span class="sxs-lookup"><span data-stu-id="43624-147">Dynamics AX 2012 R3: Advanced warehouse management - A day in the life of process manufacturing</span></span>](https://www.youtube.com/embed/QUxXUrN-7n4)
+-  [<span data-ttu-id="2e9a1-146">Optimiser votre système de gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="2e9a1-146">Get the best out of your warehouse management system</span></span>](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [<span data-ttu-id="2e9a1-147">Gestion avancée des entrepôts R3 - Traitement entrant et réapprovisionnement minimum/maximum</span><span class="sxs-lookup"><span data-stu-id="2e9a1-147">Advanced R3 Warehouse management - Inbound processing and min/max replenishment</span></span>](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [<span data-ttu-id="2e9a1-148">Gestion avancée des entrepôts R3 - Un jour dans la vie, traitement sortant et réapprovisionnement de la demande</span><span class="sxs-lookup"><span data-stu-id="2e9a1-148">Advanced R3 Warehouse management - A day in the life, outbound processing and demand Replenishment</span></span>](https://youtu.be/Og0gLlVp7jA)
+-  [<span data-ttu-id="2e9a1-149">Libellés de la nouvelle gestion des entrepôts Microsoft Dynamics AX 2012 R3</span><span class="sxs-lookup"><span data-stu-id="2e9a1-149">Labels in the new Microsoft Dynamics AX 2012 R3 Warehouse management</span></span>](https://youtu.be/5w1MngVchBA)
+-  [<span data-ttu-id="2e9a1-150">Dynamics AX 2012 R3 : Gestion avancée des entrepôts - Un jour dans la vie du traitement de la fabrication</span><span class="sxs-lookup"><span data-stu-id="2e9a1-150">Dynamics AX 2012 R3: Advanced warehouse management - A day in the life of process manufacturing</span></span>](https://www.youtube.com/embed/QUxXUrN-7n4)
 
-<span data-ttu-id="43624-148">**Contrôle de la production**</span><span class="sxs-lookup"><span data-stu-id="43624-148">**Production control**</span></span>
+<span data-ttu-id="2e9a1-151">**Contrôle de la production**</span><span class="sxs-lookup"><span data-stu-id="2e9a1-151">**Production control**</span></span>
 
--  [<span data-ttu-id="43624-149">Opérations et activités de sous-traitance de la fabrication</span><span class="sxs-lookup"><span data-stu-id="43624-149">Subcontracting operations and activities in manufacturing</span></span>](https://youtu.be/y1jrd3A_k70)
+-  [<span data-ttu-id="2e9a1-152">Opérations et activités de sous-traitance de la fabrication</span><span class="sxs-lookup"><span data-stu-id="2e9a1-152">Subcontracting operations and activities in manufacturing</span></span>](https://youtu.be/y1jrd3A_k70)
 
-<span data-ttu-id="43624-150">**Gestion du transport**</span><span class="sxs-lookup"><span data-stu-id="43624-150">**Transportation management**</span></span>
+<span data-ttu-id="2e9a1-153">**Gestion du transport**</span><span class="sxs-lookup"><span data-stu-id="2e9a1-153">**Transportation management**</span></span>
 
--  [<span data-ttu-id="43624-151">Gestion du transport (TMS) dans la nouvelle application Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="43624-151">Transportation management (TMS) in the new Microsoft Dynamics AX</span></span>](https://youtu.be/jgmTgJIgEFQ)
+-  [<span data-ttu-id="2e9a1-154">Gestion du transport (TMS) dans la nouvelle application Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="2e9a1-154">Transportation management (TMS) in the new Microsoft Dynamics AX</span></span>](https://youtu.be/jgmTgJIgEFQ)
 
-## <a name="blogs"></a><span data-ttu-id="43624-152">Blogs</span><span class="sxs-lookup"><span data-stu-id="43624-152">Blogs</span></span>
-<span data-ttu-id="43624-153">Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvisionnement sont consultables sur le <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog de l'équipe R&D de Dynamics AX chargée de la fabrication</a> et sur le <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Blog de l'équipe R&D de Dynamics AX chargée de la gestion de la chaîne d'approvisionnement</a>.</span><span class="sxs-lookup"><span data-stu-id="43624-153">There are many topics about manufacturing and supply chain management on the <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX Manufacturing R&D Team Blog</a> and <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management in Dynamics AX R&D Team Blog </a>.</span></span> <span data-ttu-id="43624-154">La plupart de ces articles ont été rédigés pour la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle.</span><span class="sxs-lookup"><span data-stu-id="43624-154">Most of these were written for the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</span></span> 
+## <a name="blogs"></a><span data-ttu-id="2e9a1-155">Blogs</span><span class="sxs-lookup"><span data-stu-id="2e9a1-155">Blogs</span></span>
+<span data-ttu-id="2e9a1-156">Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvisionnement sont consultables sur le <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog de l'équipe R&D de Dynamics AX chargée de la fabrication</a> et sur le <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Blog de l'équipe R&D de Dynamics AX chargée de la gestion de la chaîne d'approvisionnement</a>.</span><span class="sxs-lookup"><span data-stu-id="2e9a1-156">There are many topics about manufacturing and supply chain management on the <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX Manufacturing R&D Team Blog</a> and <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management in Dynamics AX R&D Team Blog </a>.</span></span> <span data-ttu-id="2e9a1-157">La plupart de ces articles ont été rédigés pour la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle.</span><span class="sxs-lookup"><span data-stu-id="2e9a1-157">Most of these were written for the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</span></span> 
 
-## <a name="white-papers"></a><span data-ttu-id="43624-155">Livres blancs</span><span class="sxs-lookup"><span data-stu-id="43624-155">White papers</span></span>
--  <span data-ttu-id="43624-156"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Ateliers pratiques sur le contrôle de gestion</a></span><span class="sxs-lookup"><span data-stu-id="43624-156"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Cost accounting hands-on labs</a></span></span> 
--  <span data-ttu-id="43624-157"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing : planification de capable to promise et des tâches de kanban</a></span><span class="sxs-lookup"><span data-stu-id="43624-157"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: Capable to promise and kanban job scheduling</a></span></span> 
--  <span data-ttu-id="43624-158"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Calcul de nomenclature à l'aide d'une feuille d'évaluation des coûts</a></span><span class="sxs-lookup"><span data-stu-id="43624-158"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">BOM calculation by using a costing sheet</a></span></span>
--  <span data-ttu-id="43624-159"><a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilité dans l'entrepôt facilitée par Microsoft Dynamics 365 for Finance and Operations</a></span><span class="sxs-lookup"><span data-stu-id="43624-159"><a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobility in the Warehouse facilitated by Microsoft Dynamics 365 for Finance and Operations</a></span></span>
+## <a name="white-papers"></a><span data-ttu-id="2e9a1-158">Livres blancs</span><span class="sxs-lookup"><span data-stu-id="2e9a1-158">White papers</span></span>
+-  <span data-ttu-id="2e9a1-159"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Ateliers pratiques sur le contrôle de gestion</a></span><span class="sxs-lookup"><span data-stu-id="2e9a1-159"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Cost accounting hands-on labs</a></span></span> 
+-  <span data-ttu-id="2e9a1-160"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing : planification de capable to promise et des tâches de kanban</a></span><span class="sxs-lookup"><span data-stu-id="2e9a1-160"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: Capable to promise and kanban job scheduling</a></span></span> 
+-  <span data-ttu-id="2e9a1-161"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Calcul de nomenclature à l'aide d'une feuille d'évaluation des coûts</a></span><span class="sxs-lookup"><span data-stu-id="2e9a1-161"><a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">BOM calculation by using a costing sheet</a></span></span>
+-  <span data-ttu-id="2e9a1-162"><a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilité dans l'entrepôt facilitée par Microsoft Dynamics 365 for Finance and Operations</a></span><span class="sxs-lookup"><span data-stu-id="2e9a1-162"><a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobility in the Warehouse facilitated by Microsoft Dynamics 365 for Finance and Operations</a></span></span>
 
-## <a name="elearning-courses"></a><span data-ttu-id="43624-160">Cours eLearning</span><span class="sxs-lookup"><span data-stu-id="43624-160">eLearning courses</span></span>
-<span data-ttu-id="43624-161">Pour plus d'informations sur la formation Microsoft Dynamics 365 for Finance and Operations, voir <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Portail de formation Microsoft Dynamics</a>.</span><span class="sxs-lookup"><span data-stu-id="43624-161">For information about Microsoft Dynamics 365 for Finance and Operations training, see <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Learning Portal</a>.</span></span> <span data-ttu-id="43624-162">(nécessite un compte CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="43624-162">(requires CustomerSource account)</span></span> 
+## <a name="elearning-courses"></a><span data-ttu-id="2e9a1-163">Cours eLearning</span><span class="sxs-lookup"><span data-stu-id="2e9a1-163">eLearning courses</span></span>
+<span data-ttu-id="2e9a1-164">Pour plus d'informations sur la formation Dynamics 365, voir le <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portail de formation Microsoft Dynamics</a>.</span><span class="sxs-lookup"><span data-stu-id="2e9a1-164">For information about Dynamics 365 training, see <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Learning Portal</a>.</span></span> <span data-ttu-id="2e9a1-165">(nécessite un compte CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="2e9a1-165">(requires CustomerSource account)</span></span> 
 
 
