@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
     - name: Mise en route
       items:
@@ -8,6 +8,14 @@
         - name: Nouveautés ou modifications dans Talent
           href: whats-new.md
           items:
+            - name: "1\_octobre\_2019"
+              href: whats-new-talent-october-1-2019.md
+            - name: "17\_septembre\_2019"
+              href: whats-new-talent-september-17-2019.md
+            - name: "10\_septembre\_2019"
+              href: whats-new-talent-september-12-2019.md
+            - name: "27\_Août\_2019"
+              href: whats-new-talent-august-28-2019.md
             - name: "22\_Août\_2019"
               href: whats-new-talent-august-21-2019.md
             - name: "13\_Août\_2019"
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: "2\_juillet\_2019"
               href: whats-new-talent-july-2-2019.md
-            - name: "25\_juin\_2019"
-              href: whats-new-talent-june-25-2019.md
-            - name: "18\_juin\_2019"
-              href: whats-new-talent-june-18-2019.md
-            - name: "11\_juin\_2019"
-              href: whats-new-talent-june-11-2019.md
-            - name: "4\_juin\_2019"
-              href: whats-new-talent-june-4-2019.md
             - name: "Nouvelles archives\_2019"
               items:
+                - name: "25\_juin\_2019"
+                  href: whats-new-talent-june-25-2019.md
+                - name: "18\_juin\_2019"
+                  href: whats-new-talent-june-18-2019.md
+                - name: "11\_juin\_2019"
+                  href: whats-new-talent-june-11-2019.md
+                - name: "4\_juin\_2019"
+                  href: whats-new-talent-june-4-2019.md
                 - name: "28\_mai\_2019"
                   href: whats-new-talent-may-28-2019.md
                 - name: "21\_mai\_2019"
@@ -112,7 +120,7 @@
           href: remove-talent-environment.md
         - name: Mise en service pour l'application Onboard
           href: modular-app-tech-faq.md
-        - name: Incorporer les applications PowerApps
+        - name: Intégrer les applications PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR et Common Data Service
           href: CoreHREntities.md
@@ -401,13 +409,13 @@
               href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Créer des expériences Ouvrir dans Excel
               href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Résoudre les problèmes d'intégration Office
+            - name: Résoudre les problèmes d'intégration d'Office
               href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Extensibilité
       items:
         - name: Power BI intégré dans les espaces de travail
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de scénarios
+        - name: Étendre Talent à l'aide de PowerApps et Microsoft Flow - Exemples de scénarios
           href: extensibility-examples.md
         - name: Application mobile
           items:
@@ -427,7 +435,9 @@
           href: corehr-custom-fields.md
     - name: Résoudre les problèmes dans Talent
       items:
-        - name: Régler les problèmes de validation des postes dans LinkedIn
+        - name: Optimiser les performances grâce aux tâches automatiques de nettoyage
+          href: talent-batch-history-cleanup.md
+        - name: Régler les problèmes de publication des postes dans LinkedIn
           href: attract-troubleshoot-linkedin.md
         - name: Les états analytiques ne sont pas mis à jour
           href: analytic-reports-not-updated.md

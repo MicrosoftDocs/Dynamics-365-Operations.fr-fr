@@ -1,6 +1,6 @@
 ---
 title: Configuration des coûts pour la gestion des commandes distribuées (DOM)
-description: Cette rubrique décrit la configuration des coûts pour la fonctionnalité de gestion des commandes distribuées (DOM) dans Microsoft Dynamics 365 for Retail.
+description: Cette rubrique décrit la configuration des coûts pour la fonctionnalité de gestion des commandes distribuées (DOM) dans Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 12/05/2018
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: b5e3e1997f3d3b61b7b3c7486f5531e386293537
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606777"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019437"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Configuration des coûts pour la gestion des commandes distribuées (DOM)
 
@@ -31,7 +31,7 @@ ms.locfileid: "1606777"
 
 Les organisations prennent en compte plusieurs composants de coût pour déterminer l'emplacement optimal à partir duquel traiter une commande. Certains de ces composants de coût sont le coût d'expédition, le coût de gestion et le coût d'emballage. Une combinaison de ces coûts est calculée pour déterminer l'emplacement d'exécution.
 
-Lorsque la première itération de la gestion des commandes distribuées (DOM) dans Microsoft Dynamics 365 for Retail a optimisé l'affectation des commandes à des emplacements d'exécution, elle a pris en compte la distance uniquement. Bien que la distance puisse être mise en corrélation avec le coût, elle n'est pas considérée comme un coût. Par exemple, un mode d'expédition de nuit coûte plus de trois jours d'expédition ou sept jours d'expédition sur la même distance.
+Lorsque la première itération de la gestion des commandes distribuées (DOM) dans Dynamics 365 Retail a optimisé l'affectation des commandes à des emplacements d'exécution, elle a pris en compte la distance uniquement. Bien que la distance puisse être mise en corrélation avec le coût, elle n'est pas considérée comme un coût. Par exemple, un mode d'expédition de nuit coûte plus de trois jours d'expédition ou sept jours d'expédition sur la même distance.
 
 La fonction de configuration des coûts permet aux détaillants de définir et de configurer des composants de coût supplémentaires qui seront calculés et pris en compte pour déterminer l'emplacement optimal à partir duquel traiter des lignes de commande.
 

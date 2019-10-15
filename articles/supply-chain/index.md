@@ -1,9 +1,9 @@
 ---
-title: Page d'accueil de la gestion de la chaîne d'approvisionnement
-description: Cette page fournit une liste de rubriques d'aide et d'autres ressources pour les fonctionnalités de gestion de la chaîne d'approvisionnement dans Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: Ressources d'aide pour Supply Chain Management
+description: Cette page fournit une liste de rubriques d'aide et d'autres ressources pour les fonctionnalités de Supply Chain Management.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557590"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278322"
 ---
-# <a name="supply-chain-management-home-page"></a>Page d'accueil de la gestion de la chaîne d'approvisionnement
+# <a name="help-resources-for-supply-chain-management"></a>Ressources d'aide pour Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une liste de rubriques d'aide et d'autres ressources pour les fonctionnalités de gestion de la chaîne d'approvisionnement dans Microsoft Dynamics 365 for Finance and Operations. 
+Cette rubrique fournit une liste de ressources et d'autres informations dans Dynamics 365 Supply Chain Management. 
 
 ## <a name="whats-new-and-in-development"></a>Nouveautés et développements
 Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a> pour découvrir les nouvelles fonctions qui seront lancées ou qui sont en développement. 
@@ -38,6 +38,7 @@ Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de D
 
 Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
+- [Gestion des actifs](asset-management/index.md)
 - [Contrôle de gestion](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Gestion des coûts](cost-management/cost-management-home-page.md)  
 - [Gestion des stocks](inventory/inventory-home-page.md)
@@ -49,6 +50,10 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
 - [Gestion des services](service-management/service-management-home-page.md)
 - [Gestion du transport](transportation/transportation-management-overview.md)
 - [Gestion des entrepôts](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+Pour plus d'informations sur Dynamics 365 Finance, accédez à la page [Ressources d'aide de Dynamics 365 Finance](../finance/index.md).
 
 ## <a name="videos"></a>Vidéos
 
@@ -113,6 +118,6 @@ Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvision
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilité dans l'entrepôt facilitée par Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Cours eLearning
-Pour plus d'informations sur la formation Microsoft Dynamics 365 for Finance and Operations, voir <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Portail de formation Microsoft Dynamics</a>. (nécessite un compte CustomerSource) 
+Pour plus d'informations sur la formation Dynamics 365, voir le <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portail de formation Microsoft Dynamics</a>. (nécessite un compte CustomerSource) 
 
 

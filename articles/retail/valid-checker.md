@@ -1,6 +1,6 @@
 ---
 title: Vérificateur de cohérence des transactions de vente au détail
-description: Cette rubrique décrit la fonctionnalité Vérificateur de cohérence des transactions de vente au détail dans Microsoft Dynamics 365 for Retail.
+description: Cette rubrique décrit la fonctionnalité Vérificateur de cohérence des transactions de vente au détail dans Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790419"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018411"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Vérificateur de cohérence des transactions de vente au détail
 
@@ -31,9 +31,9 @@ ms.locfileid: "1790419"
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-Cette rubrique décrit la fonctionnalité Vérificateur de cohérence des transactions de vente au détail introduite dans Microsoft Dynamics 365 for Finance and Operations version 8.1.3. Le vérificateur de cohérence identifie et isole les transactions incohérentes avant leur prélèvement par le processus de validation des relevés.
+Cette rubrique décrit la fonctionnalité Vérificateur de cohérence des transactions de vente au détail. Le vérificateur de cohérence identifie et isole les transactions incohérentes avant leur prélèvement par le processus de validation des relevés.
 
-Lorsqu'un relevé est validé dans Microsoft Dynamics 365 for Retail, la validation peut échouer en raison de données incohérentes dans les tables de transactions de vente au détail. Ce problème de données peut être causé par des problèmes imprévus dans l'application PDV, ou si les transactions ont été mal importées à partir de systèmes PDV tiers. Voici des exemples de cas où ces incohérences peuvent apparaître : 
+Lorsqu'un relevé est validé dans Retail, la validation peut échouer en raison de données incohérentes dans les tables de transactions de vente au détail. Ce problème de données peut être causé par des problèmes imprévus dans l'application PDV, ou si les transactions ont été mal importées à partir de systèmes PDV tiers. Voici des exemples de cas où ces incohérences peuvent apparaître : 
 
 - Le total des transactions dans la table des en-têtes ne correspond pas au total des transactions sur les lignes.
 - Le nombre de lignes dans la table des en-têtes ne correspond pas au nombre de lignes dans la table des transactions.
