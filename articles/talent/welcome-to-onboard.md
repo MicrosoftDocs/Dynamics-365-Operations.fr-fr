@@ -1,6 +1,6 @@
 ---
-title: Bienvenue dans Dynamics 365 for Talent - Onboard
-description: Cette rubrique vous présente l'application Microsoft Dynamics 365 for Talent - Onboard. Onboard vous aidera à créer une expérience d'intégration extraordinaire pour vos nouveaux employés.
+title: Bienvenue dans Dynamics 365 Talent - Onboard
+description: Cette rubrique vous présente l'application Microsoft Dynamics 365 Talent - Onboard. Onboard vous aidera à créer une expérience d'intégration extraordinaire pour vos nouveaux employés.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/24/2019
@@ -18,13 +18,13 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-04-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e58b1b73c84c2ec5650d8af92a13f4ed51664f95
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: d91fbb0454855de614427321fe49f858ef3c65fb
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731466"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010496"
 ---
-# <a name="welcome-to-dynamics-365-for-talent-onboard"></a><span data-ttu-id="cbd53-104">Bienvenue dans Dynamics 365 for Talent : Onboard</span><span class="sxs-lookup"><span data-stu-id="cbd53-104">Welcome to Dynamics 365 for Talent: Onboard</span></span>
+# <a name="welcome-to-dynamics-365-talent-onboard"></a><span data-ttu-id="eeb1c-104">Bienvenue à Dynamics 365 Talent: Onboard</span><span class="sxs-lookup"><span data-stu-id="eeb1c-104">Welcome to Dynamics 365 Talent: Onboard</span></span>
 
 [!include[banner](../includes/banner.md)]

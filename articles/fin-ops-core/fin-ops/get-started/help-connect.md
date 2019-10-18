@@ -1,0 +1,98 @@
+---
+title: Connexion au système d'aide
+description: Cette rubrique décrit les composants du système d'aide pour les applications Finance and Operations, explique comment les connecter entre eux et résume la création de l'aide personnalisée.
+author: margoc
+manager: AnnBe
+ms.date: 10/02/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: SystemParameters
+audience: Application User, Developer, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.custom: 16141
+ms.assetid: 0b9c8630-9474-4473-80fd-7db5d54b2275
+ms.search.region: Global
+ms.author: margoc
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
+ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537853"
+---
+# <a name="connect-the-help-system"></a><span data-ttu-id="6a3de-103">Connexion au système d'aide</span><span class="sxs-lookup"><span data-stu-id="6a3de-103">Connect the Help system</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="6a3de-104">Cette rubrique décrit les composants du système d'aide des applications Finance and Operations, par exemple Dynamics 365 Finance, Supply Chain Management, Retail et Talent.</span><span class="sxs-lookup"><span data-stu-id="6a3de-104">This topic describes the components of the Help system for Finance and Operations apps, such as Dynamics 365 Finance, Supply Chain Management, Retail, and Talent.</span></span> <span data-ttu-id="6a3de-105">Elle fournit une vue d'ensemble de la procédure de connexion de ces composants et une synthèse de la création de l'aide personnalisée.</span><span class="sxs-lookup"><span data-stu-id="6a3de-105">It provides an overview of how to connect these components and a summary of how to create custom help.</span></span>
+
+## <a name="help-architecture"></a><span data-ttu-id="6a3de-106">Architecture de l'aide</span><span class="sxs-lookup"><span data-stu-id="6a3de-106">Help architecture</span></span>
+
+<span data-ttu-id="6a3de-107">La figure suivante illustre les parties du système d'aide.</span><span class="sxs-lookup"><span data-stu-id="6a3de-107">The following illustration shows the parts of the Help system.</span></span> <span data-ttu-id="6a3de-108">Le système d'aide intégré au produit extrait des articles du site https://docs.microsoft.com, ainsi que les guides de tâche enregistrés dans le Concepteur de processus d'entreprise de Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="6a3de-108">The in-product Help system pulls articles from https://docs.microsoft.com, as well as task guides stored in Business Process Modeler in Lifecycle Services (LCS).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6a3de-109">Les fonctionnalités indiquées dans le schéma avec un astérisque (\*) sont planifiées, mais ne sont pas encore disponibles.</span><span class="sxs-lookup"><span data-stu-id="6a3de-109">The features listed in the diagram with an asterisk (\*) are planned, but are not available yet.</span></span>
+
+<span data-ttu-id="6a3de-110">[![Architecture de l'aide](./media/help-architecture.png)](./media/help-architecture.png)</span><span class="sxs-lookup"><span data-stu-id="6a3de-110">[![Help architecture](./media/help-architecture.png)](./media/help-architecture.png)</span></span>
+
+## <a name="connecting-the-help-system"></a><span data-ttu-id="6a3de-111">Connexion au système d'aide</span><span class="sxs-lookup"><span data-stu-id="6a3de-111">Connecting the Help system</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6a3de-112">L'onglet **Guides de tâche** n'est pas disponible actuellement dans Dynamics 365 Talent ou Retail.</span><span class="sxs-lookup"><span data-stu-id="6a3de-112">The **Task guides** tab is currently not available in Dynamics 365 Talent or Retail.</span></span> <span data-ttu-id="6a3de-113">Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version.</span><span class="sxs-lookup"><span data-stu-id="6a3de-113">We are currently working to enable this functionality in a future release.</span></span> <span data-ttu-id="6a3de-114">Les guides des tâches dans l'expérience Mise en route dans Talent restent disponibles pour couvrir les fonctionnalités de base.</span><span class="sxs-lookup"><span data-stu-id="6a3de-114">The Task guides in the Getting Started experience in Talent remain available to cover basic functionality.</span></span> <span data-ttu-id="6a3de-115">L'aide concernant la procédure est également disponible sur le site docs.microsoft.com pour Retail et Talent.</span><span class="sxs-lookup"><span data-stu-id="6a3de-115">Procedural help is also available on the docs.microsoft.com site for both Retail and Talent.</span></span>
+
+<span data-ttu-id="6a3de-116">En utilisant le formulaire **Paramètres système**, les administrateurs système connectent les parties du système d'aide pour une implémentation.</span><span class="sxs-lookup"><span data-stu-id="6a3de-116">Using the **System Parameters** page, system administrators connect the pieces of the Help system for an implementation.</span></span>
+
+<span data-ttu-id="6a3de-117">[![Écran Paramètres système avec paramètres d'aide](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)</span><span class="sxs-lookup"><span data-stu-id="6a3de-117">[![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)</span></span>
+
+<span data-ttu-id="6a3de-118">Sur la page **Paramètres système**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="6a3de-118">On the **System parameters** page, follow these steps:</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="6a3de-119">La première fois que vous ouvrez l'onglet **Aide**, vous devez vous connecter à Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="6a3de-119">The first time that you open the **Help** tab, you must connect to Lifecycle Services.</span></span> <span data-ttu-id="6a3de-120">Veillez à cliquer sur le lien au milieu de l'écran, attendez la connexion, fermez la boîte de dialogue, puis cliquez sur **OK** pour accéder à l'écran **Paramètres**.</span><span class="sxs-lookup"><span data-stu-id="6a3de-120">Be sure to click the link in the middle of the form, wait for the connection, close the dialog box, and then click **OK** to get to the **System Parameters** page.</span></span>
+>
+> <span data-ttu-id="6a3de-121">[![Se connecter à LCS](./media/connect-to-lcs-crop-1024x365.png "Se connecter à LCS")](./media/connect-to-lcs-crop.png)</span><span class="sxs-lookup"><span data-stu-id="6a3de-121">[![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png "Connect to LCS")](./media/connect-to-lcs-crop.png)</span></span>
+
+1. <span data-ttu-id="6a3de-122">Sélectionnez le projet Lifecycle Services auquel se connecter.</span><span class="sxs-lookup"><span data-stu-id="6a3de-122">Select the Lifecycle Services project to connect to.</span></span>
+2. <span data-ttu-id="6a3de-123">Sélectionnez les bibliothèques BPM (dans le projet sélectionné) à partir desquelles récupérer les enregistrements de tâche.</span><span class="sxs-lookup"><span data-stu-id="6a3de-123">Select the BPM libraries (within the selected project) to retrieve task recordings from.</span></span>
+3. <span data-ttu-id="6a3de-124">Sélectionnez l'ordre d'affichage des bibliothèques BPM.</span><span class="sxs-lookup"><span data-stu-id="6a3de-124">Set the display order of the BPM libraries.</span></span> <span data-ttu-id="6a3de-125">Cela déterminer l'ordre dans lequel les enregistrements de tâche des bibliothèques s'affichent dans le volet **Aide**.</span><span class="sxs-lookup"><span data-stu-id="6a3de-125">This determines the order in which task recordings from the libraries will appear in the **Help** pane.</span></span>
+
+<span data-ttu-id="6a3de-126">À l'issue de ces étapes, vous pouvez ouvrir le volet **Aide**, puis cliquer sur l'onglet **Guides de tâches**. Vous obtenez désormais les guides de tâches qui s'appliquent à la page sur laquelle vous êtes actuellement dans les applications Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="6a3de-126">After you complete these steps, you can open the **Help** pane and click the **Task guides** tab. You'll now see the task guides that apply to the page that you're currently on in Finance and Operations apps.</span></span> <span data-ttu-id="6a3de-127">Si aucun guide de tâche n'est trouvé, vous pouvez entrer des mots clés pour affiner votre recherche.</span><span class="sxs-lookup"><span data-stu-id="6a3de-127">If no task guides are found, you can enter keywords to refine your search.</span></span>
+
+### <a name="showing-translated-task-guides"></a><span data-ttu-id="6a3de-128">Affichage des guides de tâches traduits</span><span class="sxs-lookup"><span data-stu-id="6a3de-128">Showing translated task guides</span></span>
+
+<span data-ttu-id="6a3de-129">Les guides de tâches traduits ont été expédiés pour la première fois dans la Bibliothèque unifiée APQC de mai 2016 et la bibliothèque de mise en route.</span><span class="sxs-lookup"><span data-stu-id="6a3de-129">Translated task guides were first shipped in the May 2016 APQC Unified Library, and the Getting Started library.</span></span> <span data-ttu-id="6a3de-130">Dans les applications Finance and Operations, pour afficher l'aide du guide de tâche localisé, assurez-vous que vous êtes connecté à la bibliothèque de mai.</span><span class="sxs-lookup"><span data-stu-id="6a3de-130">In Finance and Operations apps, to see localized task guide help, make sure that you are connected to the May library.</span></span> <span data-ttu-id="6a3de-131">La langue dans laquelle s'affiche un guide de tâche est contrôlée pour chaque utilisateur par les paramètres de langue sous **Options** &gt; **Préférences**.</span><span class="sxs-lookup"><span data-stu-id="6a3de-131">The language that a task guide appears in is controlled for each user by the Language settings under **Options** &gt; **Preferences**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6a3de-132">Bien que de nombreux guides des tâches aient été traduits, le client n’affiche pas les noms des guides des tâches traduits.</span><span class="sxs-lookup"><span data-stu-id="6a3de-132">Even though many task guides have been translated, right now the client is not showing the translated task guide names.</span></span> <span data-ttu-id="6a3de-133">De plus, seuls les guides des tâches qui ont été publiés en février 2016 sont disponibles pour la traduction dans la bibliothèque de mai à ce stade.</span><span class="sxs-lookup"><span data-stu-id="6a3de-133">Also, only the task guides that were released in February 2016 are available in translation in the May library.</span></span> <span data-ttu-id="6a3de-134">Nous publierons une bibliothèque mise à jour avec des traductions supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="6a3de-134">We will release an updated library with additional translations.</span></span>
+>
+> - <span data-ttu-id="6a3de-135">Si un guide de tâche a été traduit, lorsque vous ouvrez ce guide de tâche, tout le texte du guide de tâche s’affiche dans la langue sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6a3de-135">If a task guide has been translated, when you open that task guide all the text of the task guide will appear in your selected language.</span></span>
+> - <span data-ttu-id="6a3de-136">Si un guide de tâche n'a pas encore été traduit, lorsque vous ouvrez ce guide de tâche, une partie du texte (texte des commandes) s’affiche dans la langue sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6a3de-136">If a task guide has not yet been translated, when you open it, only some of the text (the text of the controls) will appear in your selected language.</span></span>
+
+## <a name="creating-custom-help"></a><span data-ttu-id="6a3de-137">Création d'une aide personnalisée</span><span class="sxs-lookup"><span data-stu-id="6a3de-137">Creating custom help</span></span>
+
+<span data-ttu-id="6a3de-138">Vous pouvez utiliser des guides de tâche pour créer de l'aide personnalisée, ou connecter un site Web au volet d'aide.</span><span class="sxs-lookup"><span data-stu-id="6a3de-138">You can use task guides to create custom help, or connect a website to the Help pane.</span></span>
+
+### <a name="create-custom-help-with-task-guides"></a><span data-ttu-id="6a3de-139">Créer une aide personnalisée à l'aide des guides de tâches</span><span class="sxs-lookup"><span data-stu-id="6a3de-139">Create custom help with task guides</span></span>
+
+<span data-ttu-id="6a3de-140">Vous pouvez créer une aide personnalisée pour votre implémentation de Finance, Supply Chain Management, et pour Retail en créant des enregistrements de tâche qui reflètent votre implémentation, et en les enregistrant dans une bibliothèque de processus d'entreprise LCS.</span><span class="sxs-lookup"><span data-stu-id="6a3de-140">You can create custom help for Finance, Supply Chain Management, and Retail by creating task recordings that reflect your implementation, and saving them to an LCS Business Process Library.</span></span> <span data-ttu-id="6a3de-141">Vous ne pouvez pas créer de guides de tâche personnalisés pour Talent.</span><span class="sxs-lookup"><span data-stu-id="6a3de-141">You cannot create custom task guides for Talent.</span></span>
+
+<span data-ttu-id="6a3de-142">Pour les partenaires, si vous faites d'une bibliothèque une bibliothèque d'entreprise et la comprenez dans une solution, elle sera à la disposition de vos clients.</span><span class="sxs-lookup"><span data-stu-id="6a3de-142">For partners, if you promote a library to be a corporate library, and include it in a solution, it will be available to your customers.</span></span> <span data-ttu-id="6a3de-143">Vous pouvez également faire une copie de la bibliothèque globale unifiée APQC, puis ouvrir votre copie, ouvrir des enregistrements de tâches à partit de celle-ci et enregistrer les enregistrements avec vos modifications.</span><span class="sxs-lookup"><span data-stu-id="6a3de-143">You can also make a copy of the APQC Unified global library, and then open your copy, open task recordings from it, modify them, and save the recordings with your changes.</span></span> <span data-ttu-id="6a3de-144">Pour plus d'informations, consultez [Création d'un enregistrement de tâche pour l'utiliser comme documentation ou formation](../../dev-itpro/user-interface/task-recorder.md).</span><span class="sxs-lookup"><span data-stu-id="6a3de-144">For more information, see [How to create a task recording to use as documentation or training](../../dev-itpro/user-interface/task-recorder.md).</span></span>
+
+### <a name="connect-a-custom-site"></a><span data-ttu-id="6a3de-145">Connecter un site personnalisé</span><span class="sxs-lookup"><span data-stu-id="6a3de-145">Connect a custom site</span></span>
+
+<span data-ttu-id="6a3de-146">Microsoft a fourni un livre blanc et un exemple de code qui expliquent comment créer et connecter un site d'aide personnalisée au volet d'aide.</span><span class="sxs-lookup"><span data-stu-id="6a3de-146">Microsoft has provided a white paper and sample code that describe how to create and connect a custom help site to the Help pane.</span></span> <span data-ttu-id="6a3de-147">Pour plus d'informations, voir :</span><span class="sxs-lookup"><span data-stu-id="6a3de-147">For more information, see:</span></span>
+
+- [<span data-ttu-id="6a3de-148">Créer de l'aide personnalisée pour les applications Finance and Operations (livre blanc)</span><span class="sxs-lookup"><span data-stu-id="6a3de-148">Create Custom Help for Finance and Operations apps (white paper)</span></span>](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [<span data-ttu-id="6a3de-149">Référentiel GitHub d'aide personnalisée</span><span class="sxs-lookup"><span data-stu-id="6a3de-149">Custom help GitHub repository</span></span>](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+## <a name="additional-resources"></a><span data-ttu-id="6a3de-150">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="6a3de-150">Additional resources</span></span>
+
+[<span data-ttu-id="6a3de-151">Aperçu de l'aide</span><span class="sxs-lookup"><span data-stu-id="6a3de-151">Help overview</span></span>](help-overview.md)
+
+[<span data-ttu-id="6a3de-152">Vue d'ensemble de l'enregistreur de tâches</span><span class="sxs-lookup"><span data-stu-id="6a3de-152">Task recorder overview</span></span>](../../dev-itpro/user-interface/task-recorder.md)
+
+[<span data-ttu-id="6a3de-153">Procédure de création d'un enregistrement de tâche à utiliser comme documentation ou formation</span><span class="sxs-lookup"><span data-stu-id="6a3de-153">How to create a task recording to use as documentation or training</span></span>](../../dev-itpro/user-interface/task-recorder-training-docs.md)
