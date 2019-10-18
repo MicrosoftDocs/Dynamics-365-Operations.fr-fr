@@ -1,6 +1,6 @@
 ---
 title: Analyse des performances de magasin
-description: Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu des performances des magasins, selon vos données Microsoft Dynamics 365 for Retail.
+description: Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu des performances des magasins, selon vos données Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2ea6ad2e3d9589face06cd5f950973209c17d41
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569261"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017780"
 ---
 # <a name="analyze-store-performance"></a>Analyse des performances de magasin
 
 [!include [banner](includes/banner.md)]
 
-Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu des performances des magasins, selon vos données Microsoft Dynamics 365 for Retail.
+Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu des performances des magasins, selon vos données Dynamics 365 Retail.
 
-Dans le cadre de Dynamics 365 for Retail, les utilisateurs peuvent étudier les performances d'un magasin en temps réel entre différents niveaux de la hiérarchie d'organisation sur une période sélectionnée en ouvrant l'état **Synthèse du canal** à partir de l'un des emplacements suivants :
+Dans le cadre de Retail, les utilisateurs peuvent étudier les performances d'un magasin en temps réel entre différents niveaux de la hiérarchie d'organisation sur une période sélectionnée en ouvrant l'état **Synthèse du canal** à partir de l'un des emplacements suivants :
 
 - Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État de synthèse du canal**
 - Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État de synthèse du canal**

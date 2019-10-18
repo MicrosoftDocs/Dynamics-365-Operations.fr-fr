@@ -1,6 +1,6 @@
 ---
 title: Gestion des assortiments
-description: Cette rubrique explique les concepts fondamentaux relatifs à la gestion des assortiments dans Microsoft Dynamics 365 for Retail et fournit des considérations pour la mise en œuvre de votre projet.
+description: Cette rubrique explique les concepts fondamentaux relatifs à la gestion des assortiments dans Dynamics 365 Retail et fournit des considérations pour la mise en œuvre de votre projet.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558826"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025838"
 ---
 # <a name="assortment-management"></a>Gestion des assortiments
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558826"
 
 ## <a name="overview"></a>Présentation
 
-Microsoft Dynamics 365 for Retail fournit des *assortiments* vous permettant de gérer la disponibilité des produits entre plusieurs canaux. Les assortiments déterminent les produits disponibles dans des magasins spécifiques et pendant une période spécifique.
+Dynamics 365 Retail fournit des *assortiments* vous permettant de gérer la disponibilité des produits entre plusieurs canaux. Les assortiments déterminent les produits disponibles dans des magasins spécifiques et pendant une période spécifique.
 
 Dans Retail, un assortiment est une mise en correspondance d'un ou de plusieurs canaux (ou de groupes de canaux, lorsque des hiérarchies d'organisation sont utilisées) avec un ou plusieurs produits (ou groupes de produits, lorsque des hiérarchies de catégories sont utilisées).
 

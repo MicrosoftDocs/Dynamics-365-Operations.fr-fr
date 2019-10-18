@@ -1,6 +1,6 @@
 ---
-title: Synchroniser les en-têtes et les lignes de devis de vente directement entre Sales et Finance and Operations
-description: La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de devis de vente directement depuis Microsoft Dynamics 365 for Sales vers Microsoft Dynamics 365 for Finance and Operations.
+title: Synchroniser les en-têtes et les lignes de devis de vente directement entre le module Sales et Supply Chain Management
+description: La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de devis de vente directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743369"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251245"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Synchroniser directement les en-têtes et les lignes de devis provenant du module Sales sur Finance and Operations
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Synchroniser les en-têtes et les lignes de devis de vente directement entre le module Sales et Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de devis de vente directement depuis Microsoft Dynamics 365 for Sales vers Microsoft Dynamics 365 for Finance and Operations.
+La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de devis de vente directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Avant d'utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Common Data Service pour applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flux de données dans Prospect en disponibilités
 
-La solution Prospect en disponibilités utilise la fonction d'intégration de données pour synchroniser les données entre plusieurs instances de Finance and Operations et Sales. Les modèles Prospect en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données pour les comptes, contacts, produits, devis de vente, commandes client et factures client entre Finance and Operations et Sales. L'illustration ci-dessous indique comment les données sont synchronisées entre Finance and Operations et Sales.
+La solution Prospect en disponibilités utilise la fonction d'intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Supply Chain Management et Sales. L'illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
 
 [![Flux de données dans Prospect en disponibilités](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Modèle et tâches
 
-Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les en-têtes et lignes de devis directement entre Sales et Finance and Operations :
+Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les en-têtes et lignes de devis directement entre Sales et Supply Chain Management :
 
-- **Nom du modèle dans l'intégration des données :** Devis de vente (entre Sales et Fin and Ops) - Direct
+- Produits **Nom du modèle dans l'intégration des données :** Devis de vente (Sales vers Supply Chain Management) - Direct
 - **Noms des tâches dans le projet d'intégration de données :**
 
     - QuoteHeader
@@ -53,20 +53,20 @@ Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchronise
 
 Les tâches suivantes de synchronisation sont requises avant que la synchronisation des en-têtes et des lignes de devis puisse être entreprise :
 
-- Produits (entre Fin and Ops et Sales) - Direct
-- Comptes (entre Sales et Fin and Ops) - Direct (en cas d'utilisation)
-- Contacts vers Clients (entre Sales et Fin and Ops) - Direct (en cas d'utilisation)
+- Produits (Supply Chain Management vers Sales) - Direct
+- Comptes (Sales vers Supply Chain Management) - Direct (si utilisé)
+- Contacts vers Customers (Sales vers Supply Chain Management) - Direct (si utilisé)
 
 ## <a name="entity-set"></a>Ensemble d'entités
 
-| Vente        | Finance and Operations     |
+| Ventes        | Finance and Operations     |
 |--------------|----------------------------|
 | Citations       | En-tête de devis de vente CDS |
 | QuoteDetails | Lignes de devis de vente CDS  |
 
 ## <a name="entity-flow"></a>Flux d'entité
 
-Les devis sont créés dans Sales et synchronisés avec Finance and Operations.
+Les devis sont créés dans Sales et synchronisés avec Supply Chain Management.
 
 Les devis sont synchronisés uniquement dans Sales si les conditions suivantes sont réunies :
 
@@ -75,13 +75,13 @@ Les devis sont synchronisés uniquement dans Sales si les conditions suivantes s
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect pour une solution de disponibilités pour Sales
 
-Le champ **A des produits mis à jour en externe uniquement** a été ajouté à l'entité **Devis** pour effectuer le suivi uniformément si le devis consiste entièrement en produits mis à jour en externe. Si un devis comporte uniquement des produits mis à jour en externe, les produits sont mis à jour dans Finance and Operations. Ceci permet de garantir que vous ne tenterez pas de synchroniser les lignes de devis ayant des produits qui sont inconnus de Finance and Operations.
+Le champ **A des produits mis à jour en externe uniquement** a été ajouté à l'entité **Devis** pour effectuer le suivi uniformément si le devis consiste entièrement en produits mis à jour en externe. Si un devis comporte uniquement des produits mis à jour en externe, les produits sont mis à jour dans Supply Chain Management. Ceci permet de garantir que vous ne tenterez pas de synchroniser les lignes de devis ayant des produits qui sont inconnus de Supply Chain Management.
 
 Tous les produits du devis de vente sont mis à jour avec les informations **A des produits mis à jour uniquement en externe** de l'en-tête du devis de vente. Ces informations figurent dans le champ **Le devis a des produits mis à jour uniquement en externe** sur l'entité **QuoteDetails** .
 
-Une remise peut être ajoutée au produit du devis et sera synchronisée avec Finance and Operations Les champs **Remise**, **Frais** et **Taxe** sont de l'en-tête sont contrôlés par un paramétrage complexe dans Finance and Operations. Actuellement, ce paramétrage ne prend pas en charge la mise en correspondance d'intégration. Dans la conception actuelle, les champs **Prix**, **Remise**, **Charge**, et **Taxe** sont mis à jour et gérés dans Finance and Operations.
+Une remise peut être ajoutée au produit du devis et sera synchronisée avec Supply Chain Management. Les champs **Remise**, **Frais** et **Taxe** sont de l'en-tête sont contrôlés par un paramétrage complexe dans Supply Chain Management. Actuellement, ce paramétrage ne prend pas en charge la mise en correspondance d'intégration. Dans la conception actuelle, les champs **Prix**, **Remise**, **Charge**, et **Taxe** sont mis à jour et gérés dans Supply Chain Management.
 
-Dans Sales, la solution rend les champs suivants en lecture seule, car les valeurs ne sont pas synchronisées avec Finance and Operations :
+Dans Sales, la solution rend les champs suivants en lecture seule, car les valeurs ne sont pas synchronisées avec Supply Chain Management :
 
 - Champs en lecture seule sur l'en-tête de devis : **% de remise**, **Remise** et **Volume de transport**
 - Champs en lecture seule sur les produits du devis : **Taxe**
@@ -111,20 +111,20 @@ Avant de synchroniser les devis de vente, il est important de mettre les systèm
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Assurez-vous que la mise en correspondance des valeurs requise existe pour **SalesUnitSymbol** dans Finance and Operations.
+- Assurez-vous que la mise en correspondance des valeurs requise existe pour **SalesUnitSymbol** dans Supply Chain Management.
 - Vérifiez que les unités nécessaires sont définies dans Sales.
 
     Une valeur de modèle ayant une mise en correspondance des valeurs est définie pour **oumid.name** sur **SalesUnitSymbol**.
 
-- Facultatif : Vous pouvez ajouter les mises en correspondance suivantes pour vérifier que les lignes de devis de vente sont importées dans Finance and Operations s'il n'existe aucune information par défaut du client ou du produit :
+- Facultatif : Vous pouvez ajouter les mises en correspondance suivantes pour vérifier que les lignes de devis de vente sont importées dans Supply Chain Management s'il n'existe aucune information par défaut du client ou du produit :
 
-    - **SiteId** – Un site est requis pour générer des lignes de devis et de commande client dans Finance and Operations. Il n'existe aucun modèle de valeur par défaut pour **SiteId**.
-    - **WarehouseId** – Un entrepôt est requis pour traiter des lignes de devis et de commande client dans Finance and Operations. Il n'existe aucun modèle de valeur par défaut pour **WarehouseId**.
+    - **SiteId** – Un site est requis pour générer des lignes de devis et de commande client dans Supply Chain Management. Il n'existe aucun modèle de valeur par défaut pour **SiteId**.
+    - **WarehouseId** – Un entrepôt est requis pour traiter des lignes de devis et de commande client dans Supply Chain Management. Il n'existe aucun modèle de valeur par défaut pour **WarehouseId**.
 
 ## <a name="template-mapping-in-data-integrator"></a>Mise en correspondance de modèles dans l'intégrateur de données
 
 > [!NOTE]
-> - Les champs **Remise**, **Frais** et **Taxe** sont contrôlés par un paramétrage complexe dans Finance and Operations. Actuellement, ce paramétrage ne prend pas en charge la mise en correspondance d'intégration. Dans la conception actuelle, les champs **Prix**, **Remise**, **Charge**, et **Taxe** sont gérés par Finances and Operations.
+> - Les champs **Remise**, **Frais** et **Taxe** sont de l'en-tête sont contrôlés par un paramétrage complexe dans Supply Chain Management. Actuellement, ce paramétrage ne prend pas en charge la mise en correspondance d'intégration. Dans la conception actuelle, les champs **Prix**, **Remise**, **Charge**, et **Taxe** sont gérés par Supply Chain Management.
 > - Les champs **Conditions de paiement**, **Conditions de transport**, **Conditions de livraison**, **Méthode d'expédition** et **Mode de distribution** ne font pas partie des mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l'entité est synchronisée.
 
 Les illustrations suivantes présentent un exemple de modèle de mise en correspondance dans l'intégrateur de données.

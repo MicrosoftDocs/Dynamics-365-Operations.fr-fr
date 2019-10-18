@@ -1,6 +1,6 @@
 ---
 title: Gestion des prix de vente dans Retail
-description: Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Microsoft Dynamics 365 for Retail.
+description: Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -17,18 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624787"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025216"
 ---
 # <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur le processus de création et de gestion des prix de vente dans Microsoft Dynamics 365 for Retail. Elle se concentre sur les concepts impliqués dans ce processus, et sur les effets des différentes options de configuration sur les prix de vente.
+Cette rubrique fournit des informations sur le processus de création et de gestion des prix de vente dans Dynamics 365 Retail. Elle se concentre sur les concepts impliqués dans ce processus, et sur les effets des différentes options de configuration sur les prix de vente.
 
 ## <a name="terminology"></a>Terminologie
 

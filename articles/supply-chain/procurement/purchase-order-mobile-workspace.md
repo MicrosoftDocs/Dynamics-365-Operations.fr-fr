@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561262"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249423"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Espace de travail mobile Approbation des commandes fournisseur
 
@@ -35,13 +35,13 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Approba
 ## <a name="overview"></a>Vue d'ensemble 
 Les commandes fournisseur qui nécessitent une approbation passent par un workflow d'approbation. Le workflow peut inclure plusieurs étapes qui nécessitent qu'une ou plusieurs personnes effectuent des actions. Par exemple, une personne devra peut-être exécuter une tâche ou approuver la commande fournisseur. 
 
-L'espace de travail mobile **Approbation des commandes fournisseur** permet d'afficher facilement les commandes fournisseur depuis votre appareil mobile et d'y répondre. Cet espace de travail permet également d'effectuer les mêmes actions de workflow que celles que vous pouvez effectuer dans le client Web Microsoft Dynamics 365 for Finance and Operations.
+L'espace de travail mobile **Approbation des commandes fournisseur** permet d'afficher facilement les commandes fournisseur depuis votre appareil mobile et d'y répondre. Cet espace de travail permet également d'effectuer les mêmes actions de workflow que celles que vous pouvez effectuer dans le client Web.
 
 ## <a name="prerequisites"></a>Conditions préalables
-Les conditions préalables varient, en fonction de la version de Finance and Operations qui a été déployée pour votre organisation.
+Les conditions préalables varient, en fonction de la version de Supply Chain Management qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions requises si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
-Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Approbation de la commande fournisseur**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Conditions requises si vous utilisez Supply Chain Management 
+Si Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Approbation de la commande fournisseur**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Update 3 ou version ultérieure
 Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Update 3 ou version ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
@@ -75,7 +75,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Updat
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
-Téléchargez et installez l'application Microsoft Dynamics 365 for Unified Operations Mobile :
+Télécharger et installer l'application mobile Finance and Operations :
 
 - [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

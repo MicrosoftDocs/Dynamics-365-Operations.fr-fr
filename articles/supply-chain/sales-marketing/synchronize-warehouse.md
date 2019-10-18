@@ -1,6 +1,6 @@
 ---
-title: Synchroniser les entrepôts entre Finance and Operations et Field Service
-description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les entrepôts depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
+title: Synchroniser les entrepôts depuis Supply Chain Management vers Field Service
+description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les entrepôts depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,41 +19,41 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ae99624076eecda2969961d0361d1adf42c6c5f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 94fb6720152cbf6aec58d2b8d9d02fc5343c05e2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835668"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251176"
 ---
-# <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Synchroniser les entrepôts entre Finance and Operations et Field Service
+# <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Synchroniser les entrepôts depuis Supply Chain Management vers Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les entrepôts depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
+Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les entrepôts depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 
-[![Synchronisation des processus d'entreprise entre Finance and Operations et Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Synchronisation des processus d'entreprise entre Supply Chain Management et Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
-Le modèle suivant et les tâches sous-jacentes sont utilisées pour exécuter la synchronisation des entrepôts de Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
+Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les entrepôts depuis Supply Chain Management vers Field Service.
 
 **Modèle dans l'intégration de données**
-- Entrepôts (Fin and Ops vers Field Service)
+- Entrepôts (Supply Chain Management vers Field Service)
 
 **Tâche du projet d'intégration des données**
 - Entrepôt
 
 ## <a name="entity-set"></a>Ensemble d'entités
-| Field Service    | Finance and Operations                 |
+| Field Service    | Gestion de la chaîne d'approvisionnement                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Entrepôts                             |
 
 ## <a name="entity-flow"></a>Flux d'entité
-Les entrepôts qui sont créés et tenus à jour dans Finance and Operations peuvent être synchronisées sur Field Service via un projet d'intégration de données Common Data Service (CDS). Les entrepôts souhaités qui se synchronisent sur Field Service peuvent être contrôlés avec la fonctionnalité de requête et de filtrage avancée sur le projet. Les entrepôts qui se synchronisent sur Finance and Operations sont créés dans Field Service avec le champ **Est géré en externe** défini sur **Oui** et l'enregistrement est rendu en lecture seule.
+Les entrepôts qui sont créés et tenus à jour dans Supply Chain Management peuvent être synchronisées sur Field Service via un projet d'intégration de données Common Data Service (CDS). Les entrepôts souhaités qui se synchronisent sur Field Service peuvent être contrôlés avec la fonctionnalité de requête et de filtrage avancée sur le projet. Les entrepôts qui se synchronisent sur Supply Chain Management sont créés dans Field Service avec le champ **Est géré en externe** défini sur **Oui** et l'enregistrement est rendu en lecture seule.
 
 ## <a name="field-service-crm-solution"></a>Solution Field Service CRM
-Pour permettre l'intégration entre Field Service et Finance and Operations, des fonctionnalités supplémentaires de la solution Field Service CRM sont requises. Dans la solution, le champ **Est géré en externe** a été ajouté à l'entité **Entrepôt (msdyn_warehouses)**. Ce champ permet d'identifier si l'entrepôt est géré depuis Finance and Operations ou s'il existe uniquement dans Field Service. Les paramètres de ce champ sont :
-- **Oui** – L'entrepôt provient de Finance and Operations et n'est pas modifiable dans Sales.
+Pour permettre l'intégration entre Field Service et Finance and Operations, des fonctionnalités supplémentaires de la solution Field Service CRM sont requises. Dans la solution, le champ **Est géré en externe** a été ajouté à l'entité **Entrepôt (msdyn_warehouses)**. Ce champ permet d'identifier si l'entrepôt est géré depuis Supply Chain Management ou s'il existe uniquement dans Field Service. Les paramètres de ce champ sont :
+- **Oui** – L'entrepôt provient de Supply Chain Management et n'est pas modifiable dans Sales.
 - **Non** - l'entrepôt a été entré directement dans Field Service et y est géré.
 
 Le champ **Est géré en externe** permet de contrôler la synchronisation des niveaux de stock, des ajustements, des transferts et de l'utilisation sur les ordres d'exécution. Seuls les entrepôts avec **Est géré en externe**définis sur **Oui** peuvent être utilisés pour se synchroniser directement sur l'entrepôt de l'autre système. 
@@ -63,7 +63,7 @@ Le champ **Est géré en externe** permet de contrôler la synchronisation des n
 
 ## <a name="prerequisites-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 ### <a name="data-integration-project"></a>Projet d'intégration des données
-Avant la synchronisation des entrepôts, vérifiez de mettre à jour la fonctionnalité de requête et de filtrage avancée sur le projet pour inclure uniquement les entrepôts à transférer de Finance and Operations vers Field Service. Notez que vous avez besoin de l'entrepôt dans Field Service pour l'appliquer aux ordres d'exécution, ajustements et transferts.  
+Avant la synchronisation des entrepôts, vérifiez de mettre à jour la fonctionnalité de requête et de filtrage avancée sur le projet pour inclure uniquement les entrepôts à transférer de Supply Chain Management vers Field Service. Notez que vous avez besoin de l'entrepôt dans Field Service pour l'appliquer aux ordres d'exécution, ajustements et transferts.  
 
 Pour s'assurer que la **Clé d'intégration** existe pour **msdyn_warehouses** :
 1. Accédez au module Intégration des données.
@@ -76,6 +76,6 @@ Pour s'assurer que la **Clé d'intégration** existe pour **msdyn_warehouses** 
 
 Les illustrations suivantes présentent la mise en correspondance de modèles dans le module Intégration des données.
 
-### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Entrepôts (Fin and Ops vers Field Service) : Entrepôt
+### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Entrepôts (Supply Chain Management vers Field Service) : Entrepôt
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/Warehouse1.png)](./media/Warehouse1.png)

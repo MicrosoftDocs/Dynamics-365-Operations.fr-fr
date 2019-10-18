@@ -3,7 +3,7 @@ title: Visites de maintenance
 description: Cette rubrique explique les visites de maintenance dans le module Gestion des actifs.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a0ac4820d2efa37387382c2890e3ddc7dbc0878b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875648"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922020"
 ---
 # <a name="maintenance-rounds"></a>Visites de maintenance
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Dans **Gestion des actifs**, vous pouvez créer des visites de maintenance pour divers actifs sur lesquels vous devez effectuer une tâche similaire à intervalles réguliers. Par exemple, des tâches de lubrification ou de contrôle de sécurité qui doivent être effectuées sur un certain nombre de machines dans les mêmes intervalles. La première étape consiste à créer une visite de maintenance, y compris les actifs nécessitant la même forme de tâche de maintenance. Ensuite, vous planifiez les visites de maintenance. Lorsque vous avez terminé le programme des visites de maintenance, vous pouvez voir tous les enregistrements de tâches concernant la visite dans les champs **Tout le programme de maintenance** et **Ouvrir les lignes du programme de maintenance**.
 
@@ -83,6 +81,8 @@ Dans **Gestion des actifs**, vous pouvez créer des visites de maintenance pour 
 >[!NOTE]
 >Les champs **Actifs** et **Lignes** situés dans le groupe **Détails** de l'organisateur **En-tête** présentent le nombre total d'actifs et de lignes associés à la visite de maintenance sélectionnée.
 
+L'illustration ci-après présente l'exemple d'une tâche de maintenance contenant trois actifs.
+
 ![Figure 1](media/13-preventive-maintenance.png)
 
 
@@ -106,6 +106,8 @@ Lorsque vous avez paramétré une visite de maintenance, vous exécutez une tâc
 6. Cliquez sur **OK**.
 
 7. Vous pouvez à présent voir les tâches de visite de maintenance dans **Gestion des actifs** > **Commun** > **Programme de maintenance** > **Tout le programme de maintenance** ou **Ouvrir les lignes du programme de maintenance**. Si les visites planifiées sont connectées à un regroupement d'ordres de travail, vous pouvez également voir des lignes du programme de maintenance dans **Ouvrir les regroupements du programme de maintenance**. Les lignes du programme de maintenance créées depuis une visite ont le type de référence « Visites de maintenance ».
+
+Les deux illustrations ci-dessous présentent une tâche de programme dans la boîte de dialogue **Programmer les tâches de maintenance**, et les lignes de programme de maintenance créées dans **Tout le programme de maintenance** selon cette tâche programmée.
 
 ![Figure 2](media/14-preventive-maintenance.png)
 

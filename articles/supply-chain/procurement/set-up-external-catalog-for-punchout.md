@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595609"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249383"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Paramétrer un catalogue externe pour PunchOut eProcurement
 
@@ -37,12 +37,12 @@ Pour paramétrer la communication, votre fournisseur doit fournir des informatio
 
 ## <a name="setting-up-an-external-catalog"></a>Paramétrage d'un catalogue externe
 
-Le catalogue externe permet à un employé qui entre une demande d'achat d'être redirigé vers un site externe pour sélectionner des produits. Les produits sélectionnés par l'employé dans le catalogue externe sont renvoyés vers Dynamics 365 for Finance and Operations avec des informations tarifaires actualisées, pour être ensuite ajoutés à la demande d'achat. L'objectif est que les employés ne puissent pas passer une commande sur le site externe. Lors du paramétrage du catalogue externe, vous devez vous assurer que l'objectif du site accessible par le catalogue externe est de collecter des informations de devis, et non de passer une commande réelle.
+Le catalogue externe permet à un employé qui entre une demande d'achat d'être redirigé vers un site externe pour sélectionner des produits. Les produits sélectionnés par l'employé dans le catalogue externe sont renvoyés avec des informations tarifaires actualisées, pour être ensuite ajoutés à la demande d'achat. L'objectif est que les employés ne puissent pas passer une commande sur le site externe. Lors du paramétrage du catalogue externe, vous devez vous assurer que l'objectif du site accessible par le catalogue externe est de collecter des informations de devis, et non de passer une commande réelle.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Pour paramétrer un catalogue fournisseur externe, procédez comme suit :
 
 1. Paramétrez une hiérarchie des catégories d'approvisionnement. Pour plus d'informations, voir [Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Enregistrez le fournisseur dans Finance and Operations. Avant de paramétrer des configurations pour accéder au catalogue d'un fournisseur externe, vous devez paramétrer le fournisseur et le contact chez le fournisseur dans Microsoft Dynamics 365. Le fournisseur du catalogue externe doit également être ajouté à la catégorie d'approvisionnement sélectionnée. Pour plus d'informations sur l'enregistrement des fournisseurs dans Microsoft Dynamics 365, voir [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md). Pour plus d'informations sur l'affectation des fournisseurs à une catégorie d'approvisionnement, voir [Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques](tasks/approve-vendors-specific-procurement-categories.md).
+2. Enregistrez le fournisseur dans Supply Chain Management. Avant de paramétrer des configurations pour accéder au catalogue d'un fournisseur externe, vous devez paramétrer le fournisseur et le contact chez le fournisseur dans Microsoft Dynamics 365. Le fournisseur du catalogue externe doit également être ajouté à la catégorie d'approvisionnement sélectionnée. Pour plus d'informations sur l'enregistrement des fournisseurs, voir [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md). Pour plus d'informations sur l'affectation des fournisseurs à une catégorie d'approvisionnement, voir [Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques](tasks/approve-vendors-specific-procurement-categories.md).
 3. Vérifiez que les unités de mesure et la devise utilisées par le fournisseur sont paramétrées. Pour plus d'informations sur la création d'une unité de mesure, voir [Gérer des unités de mesure](../pim/tasks/manage-unit-measure.md).
 4. Configurez le catalogue fournisseur externe conformément aux exigences relatives au site de catalogue externe de votre fournisseur. Pour plus de détails sur cette tâche, voir [Configurer le catalogue fournisseur externe](#configure-the-external-vendor-catalog).
 5. Testez les configurations du catalogue externe du fournisseur pour vérifier que les paramètres sont valides et que vous pouvez accéder au catalogue externe du fournisseur. Utilisez l'action **Valider les paramètres** pour valider le message de paramétrage de la demande que vous avez défini. Ce message doit entraîner l'ouverture du site du catalogue externe du fournisseur dans une fenêtre du navigateur. Pendant la validation, il est impossible de commander des articles et des services au fournisseur. Pour commander des articles et des services, vous devez accéder au catalogue du fournisseur à partir d'une demande d'achat.
@@ -90,9 +90,9 @@ Votre fournisseur peut exiger de recevoir un élément extrinsèque dans la dema
 Pour plus d'informations sur le protocole cXML, voir le [site web cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Message de publication
-Le message de publication est le message reçu du fournisseur lorsque l'utilisateur procède à la validation à partir du site externe et retourne dans Finance and Operations. Les messages de publication ne peuvent pas être configurés. Les messages sont basés sur la définition du protocole cXML. Voici les informations qui peuvent faire partie du message de publication reçu sur une ligne de demande :
+Le message de publication est le message reçu du fournisseur lorsque l'utilisateur procède à la validation à partir du site externe et retourne dans Supply Chain Management. Les messages de publication ne peuvent pas être configurés. Les messages sont basés sur la définition du protocole cXML. Voici les informations qui peuvent faire partie du message de publication reçu sur une ligne de demande.
 
-| Message reçu du fournisseur | Copié sur la ligne de demande dans Finance and Operations|
+| Message reçu du fournisseur | Copié vers la ligne de réquisition|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Quantité|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|ID article externe|

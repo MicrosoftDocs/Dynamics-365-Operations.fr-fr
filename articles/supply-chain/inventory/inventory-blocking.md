@@ -1,6 +1,6 @@
 ---
 title: Blocage du stock
-description: Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
+description: Cette rubrique fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Supply Chain Management. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb6291e2f012f148b247b747f84155b96cf09677
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fc8200380ac3aeb9e3b73f43212458660a15ade6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557474"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250804"
 ---
 # <a name="inventory-blocking"></a>Blocage du stock
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Microsoft Dynamics 365 for Finance and Operations. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
+Cette article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Supply Chain Management. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 
 Les méthodes suivantes permettent de bloquer les articles en stock :
 -   Manuellement

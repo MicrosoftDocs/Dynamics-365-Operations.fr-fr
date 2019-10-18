@@ -3,7 +3,7 @@ title: Vue d'ensemble du processus de fabrication
 description: Cette rubrique donne une vue d'ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546661"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250014"
 ---
 # <a name="production-process-overview"></a>Vue d'ensemble du processus de fabrication
 
@@ -36,12 +36,12 @@ La production de produits, un processus également appelé cycle de vie de la pr
 
 Le module **Contrôle de la production** est lié à d'autres modules, tel que **Gestion des informations sur les produits** **Gestion des stocks**, **Comptabilité**, **Gestion des entrepôts**, **Comptabilité de projet** et **Administration d'organisation**. Cette intégration prend en charge le flux d'informations nécessaire pour exécuter le processus de fabrication d'un article fini.  
 
-Le processus de production est généralement influencé par les méthodes d'évaluation des stocks et de contrôle de gestion choisies pour un processus de production spécifique. Finance and Operations prend en charge à la fois le coût réel (premier entré, premier sorti \[FIFO\] ; dernier entré, premier sorti \[LIFO\] ; moyenne de déplacement ; moyenne pondérée périodique) et les méthodes de coût standard. Le lean manufacturing (production au plus juste) est mis en œuvre selon le principe de la comptabilité à rebours.  
+Le processus de production est généralement influencé par les méthodes d'évaluation des stocks et de contrôle de gestion choisies pour un processus de production spécifique. Supply Chain Management prend en charge à la fois le coût réel (premier entré, premier sorti \[FIFO\] ; dernier entré, premier sorti \[LIFO\] ; moyenne de déplacement ; moyenne pondérée périodique) et les méthodes de coût standard. Le lean manufacturing (production au plus juste) est mis en œuvre selon le principe de la comptabilité à rebours.  
 
 Le choix des méthodes de mesure des coûts définit également les besoins pour créer des rapports sur la consommation des matières et des ressources lors du processus de production. Généralement, les méthodes de coût réel exigent des rapports précis sur le niveau de tâche, tandis que les méthodes d'évaluation des coûts périodique permettent des rapports moins précis de la consommation des matières et des ressources.
 
 ## <a name="mixed-mode-manufacturing"></a>Production en mode mixte
-Les différents produits et différentes topologies de production exigent l'application de différents types de commande. Finance and Operations peut appliquer les différents types de commandes en mode mixte. Autrement dit, tous les types de commande peuvent survenir pendant le processus de bout en bout de production d'un produit fini.
+Les différents produits et différentes topologies de production exigent l'application de différents types de commande. Supply Chain Management peut appliquer les différents types de commandes en mode mixte. Autrement dit, tous les types de commande peuvent survenir pendant le processus de bout en bout de production d'un produit fini.
 
 -   **Ordre de fabrication** – Il s'agit du type de commande classique pour produire un produit ou une variante de produit spécifique dans une quantité donnée à une date spécifique. Les ordres de fabrication sont basés sur les nomenclatures et les gammes.
 -   **Lot de commandes** – Ce type de commande est utilisé pour les secteurs de traitement et les processus distincts où la conversion de fabrication est basée sur une formule ou lorsque les coproduits et les sous-produits peuvent être des produits finis, soit en plus de, soit à la place du produit principal. Les lots de commande utilisent les nomenclatures et les gammes de type **Formule**.

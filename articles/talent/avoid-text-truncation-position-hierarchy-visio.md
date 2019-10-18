@@ -1,6 +1,6 @@
 ---
 title: Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
-description: Cette rubrique explique comment résoudre un problème dans lequel les noms des personnes et les postes sont tronqués lorsque les clients affichent la hiérarchie des postes dans Dynamics 365 for Talent. La troncation de texte peut rendre difficile l'exécution d'une capture d'écran ou d'une impression de la hiérarchie.
+description: Cette rubrique explique comment résoudre un problème dans lequel les noms des personnes et les postes sont tronqués lorsque les clients affichent la hiérarchie des postes dans Dynamics 365 Talent. La troncation de texte peut rendre difficile l'exécution d'une capture d'écran ou d'une impression de la hiérarchie.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 07a972bc1c6dd4076932248edb314992cb7297e5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e151818f29ac37ff449daaf1dc02e44b8fb317c3
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741819"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008498"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741819"
 
 **Problème**
 
-Lorsqu'un client affiche la hiérarchie des postes dans Microsoft Dynamics 365 for Talent, les noms des personnes et les postes sont tronqués. Par conséquent, il peut être difficile d'effectuer une capture d'écran, ou d'imprimer et de distribuer la hiérarchie.
+Lorsqu'un client affiche la hiérarchie des postes dans Microsoft Dynamics 365 Talent, les noms des personnes et les postes sont tronqués. Par conséquent, il peut être difficile d'effectuer une capture d'écran, ou d'imprimer et de distribuer la hiérarchie.
 
 ![Hiérarchie des postes](media/position-h.png)
 

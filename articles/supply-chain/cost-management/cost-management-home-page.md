@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557637"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249630"
 ---
 # <a name="cost-management-home-page"></a>Page d'accueil Gestion des coûts
 
@@ -69,5 +69,5 @@ Le [Calcul de nomenclature à l'aide d'une feuille de coûts](https://mbs.micros
 Vous trouverez des avis, des actualités et d'autres informations concernant la gestion des coûts sur le [Blog de l'équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l'équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Bien que certains de ces articles aient été rédigés pour la version précédente du module Gestion des coûts, les mêmes concepts s'appliquent toujours et les procédures sont également similaires dans la version actuelle.
 
 #### <a name="task-guides"></a>Guides de tâches
-Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.
+Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.
 

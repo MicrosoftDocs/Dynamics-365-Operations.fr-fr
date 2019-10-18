@@ -3,7 +3,7 @@ title: Paramètres de couverture
 description: Cette rubrique fournit des informations sur les paramètres de couverture que le calcul PDP/MRP utilise pour calculer les demandes d'articles.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538892"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998969"
 ---
 # <a name="coverage-settings"></a>Paramètres de couverture
 
@@ -49,6 +49,19 @@ Vous pouvez spécifier des paramètres de couverture de plusieurs façons :
 - Spécifiez des paramètres de couverture pour un groupe de dimensions.
 
     Allez à **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Dans la page **Détail du produit lancé**, sous l'organisateur **Général**, dans la section **Administration**, sélectionnez le lien dans le champ **Groupe de dimension de stockage**. Dans la page **Groupes de dimensions de stockage**, activez la case à cocher **Plan de couverture par dimension** pour créer les paramètres de couverture d'une dimension dans le groupe de dimensions de stockage. Le champ **Plan de couverture par dimension** doit être sélectionné pour toutes les dimensions de produit, telles que la configuration, la couleur, la taille et le style.
+
+
+## <a name="coverage-codes"></a>Codes de couverture
+
+La planification générique peut être configurée pour utiliser plusieurs méthodes de réapprovisionnement. Les méthodes de réapprovisionnement ou de calibrage sont des techniques utilisées par le système pour déterminer la taille de lot pour les articles achetés ou les articles produits. 
+
+Chaque méthode de réapprovisionnement se voit attribuer un des codes de couverture suivants :
+
+- **Manuel** : méthode de calibrage pour laquelle le système ne suggère pas les ordres de fabrication, de transfert ou d'achat pour l'article. Le planificateur de l'article est chargé de créer les commandes requises pour le réapprovisionnement de l'article.
+- **Par besoin** : méthode de calibrage dans laquelle le système crée un ordre de fabrication, de transfert ou d'achat planifié selon les besoins pour l'article. Elle est généralement utilisée pour les articles coûteux avec une demande intermittente.  
+- **Par période** : méthode de calibrage qui associe toutes les demandes pour une période en une commande pour l'article. La commande sera planifiée pour le premier jour de la période et sa quantité répondra aux besoins nets pendant la période définie. La période commence avec la première demande de l'article et couvre la plage définie dans le temps. La période suivante commencera avec les prochains besoins de l'article.
+- **Min/Max** : méthode de calibrage qui contient le réapprovisionnement du stock jusqu'à un certain niveau quand le disponible prévisionnel est inférieur à un seuil. La quantité de réapprovisionnement sera la différence entre le niveau maximum et le niveau disponible prévisionnel.
+
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f08829bccbaea6fb70563e553f9042300b4d5ea9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837996"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026599"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Affectation et remplacement des taxes
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure illustre comment affecter des groupes de taxe aux canaux de vente au détail. Elle décrit également le processus de création d'un nouveau remplacement de taxe et son affectation à un groupe de remplacement de taxe existant. Cette procédure
-
-utilise la société USRT dans les données de démonstration.
+Cette procédure illustre comment affecter des groupes de taxe aux canaux de vente au détail. Elle décrit également le processus de création d'un nouveau remplacement de taxe et son affectation à un groupe de remplacement de taxe existant. Cette procédure utilise la société USRT dans les données de démonstration.
 
 1. Accédez à Commerce et vente au détail > Canaux > Magasins de vente au détail > Tous les magasins de vente au détail.
 2. Dans la liste, cliquez sur le lien de l'ID canal de vente au détail pour « Houston. »

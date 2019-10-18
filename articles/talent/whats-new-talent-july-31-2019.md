@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent (31 juillet 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés ou modifications dans Dynamics 365 Talent (31 juillet 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 7/30/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1fffe1bd8739723294c027c174d5e959c1c6010a
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864577"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010243"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-30-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (30 juillet 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (30 juillet 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Attract.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Modifications apportées à Onboard
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Onboard.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 Les modifications décrites dans cette section s'appliquent au numéro de version 8.1.2409.
@@ -43,7 +43,7 @@ Les modifications décrites dans cette section s'appliquent au numéro de versio
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>La prise en charge des régions pour le Canada et l'Asie du Sud-Est
 
-Nous sommes ravis d'annoncer que les régions du Canada et de l'Asie du Sud-Est seront disponibles pour Microsoft Dynamics 365 for Talent le 1er août 2019. Avec ce changement, vous pouvez créer des environnements dans les régions du Canada et de l'Asie, et toutes les données Talent seront gérées uniquement dans ces emplacements. Vous pouvez créer un environnement dans ces nouvelles régions en sélectionnant l'emplacement dans la boîte de dialogue Nouvel environnement et en utilisant cet environnement pour mettre en service Talent dans LCS, comme décrit dans [Mettre en service Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Nous sommes ravis d'annoncer que les régions du Canada et de l'Asie du Sud-Est seront disponibles pour Talent le 1er août 2019. Avec ce changement, vous pouvez créer des environnements dans les régions du Canada et de l'Asie, et toutes les données Talent seront gérées uniquement dans ces emplacements. Vous pouvez créer un environnement dans ces nouvelles régions en sélectionnant l'emplacement dans la boîte de dialogue Nouvel environnement et en utilisant cet environnement pour mettre en service Talent dans LCS, comme décrit dans [Mettre en service Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 La migration des données de projets existants dans d'autres régions vers les régions du Canada et d'Asie n'est pas prise en charge. Seuls les nouveaux projets peuvent être mis en service dans ces nouvelles régions prises en charge.
 

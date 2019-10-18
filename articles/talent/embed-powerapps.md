@@ -1,5 +1,5 @@
 ---
-title: Incorporer les applications PowerApps dans Core HR
+title: Incorporer les applications PowerApps dans Dynamics 365 - Core HR
 description: Cette rubrique explique comment résoudre le problème où l'option de menu PowerApps a disparu du module Administration du système.
 author: andreabichsel
 manager: AnnBe
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742817"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008428"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>Incorporer les applications PowerApps dans Core HR
 
 [!include [banner](includes/banner.md)]
 
-**Problème**
+**Sortie**
 
 L'élément de menu **PowerApps** a disparu du module **Administration du système**.
 
@@ -38,7 +38,7 @@ La conception de l'interface utilisateur (IU) a été modifiée, et Microsoft Po
 
 **Résolution**
 
-La manière dont les applications PowerApps sont incorporées a été modifiée. Les applications PowerApps sont maintenant ajoutées via le modèle de personnalisation. Vous pouvez ajouter des applications PowerApps à presque toutes les pages de Microsoft Dynamics 365 for Talent.
+La manière dont les applications PowerApps sont incorporées a été modifiée. Les applications PowerApps sont maintenant ajoutées via le modèle de personnalisation. Vous pouvez ajouter des applications PowerApps à presque toutes les pages de Microsoft Dynamics 365 Talent.
 
 Pour plus d'informations sur l'incorporation d'applications PowerApps dans Talent, voir [Incorporer des applications PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
@@ -67,4 +67,4 @@ Sinon, procédez comme suit :
 
 2. Sur la barre d'outils, sélectionnez **Insérer \> PowerApp**.
 
-    ![Insérez une application PowerApps à l'aide de la barre d'outils de personnalisation](media/powerapp-bar.png)
+    ![Insérer une application PowerApps à l'aide de la barre d'outils de personnalisation](media/powerapp-bar.png)

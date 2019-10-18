@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773252"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008453"
 ---
 # <a name="create-a-job"></a>Créer un projet
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les éléments d'une mission dans Microsoft Dynamics 365 for Talent : Attract. Elle décrit également comment créer une mission.
+Cette rubrique décrit les éléments d'une mission dans Microsoft Dynamics 365 Talent: Attract. Elle décrit également comment créer une mission.
 
 ## <a name="job-creation"></a>Création de tâches
 
@@ -74,7 +74,7 @@ Pour plus d'informations sur les activités qui peuvent être ajoutées au proce
 
 ## <a name="postings"></a>Publications
 
-Une fois la mission activée, elle peut être publiée. Seuls les recruteurs et les administrateurs peuvent publier des tâches. La mission peut être publiée dans Carrières Talent (site de carrières de Microsoft Dynamics 365 for Talent) ou LinkedIn. L'équipe Attract travaille continuellement pour créer des partenariats avec des agrégateurs d'offres d'emploi. Cette liste se développera au fil du temps. Lorsqu'une offre d'emploi est publiée en interne seulement, les candidats ont besoin d'un compte AAD pour afficher l'offre et y postuler. Si l'offre est répertoriée comme publique, les candidats peuvent l'afficher et y postuler en utilisant toutes les options d'authentification. 
+Une fois la mission activée, elle peut être publiée. Seuls les recruteurs et les administrateurs peuvent publier des tâches. La mission peut être publiée dans Carrières Talent (site de carrières Dynamics 365 Talent) ou LinkedIn. L'équipe Attract travaille continuellement pour créer des partenariats avec des agrégateurs d'offres d'emploi. Cette liste se développera au fil du temps. Lorsqu'une offre d'emploi est publiée en interne seulement, les candidats ont besoin d'un compte AAD pour afficher l'offre et y postuler. Si l'offre est répertoriée comme publique, les candidats peuvent l'afficher et y postuler en utilisant toutes les options d'authentification. 
 
 Pour plus d'informations sur les publications de postes, voir [Fonctionnalité de site de carrière dans Attract](career-site.md).
 

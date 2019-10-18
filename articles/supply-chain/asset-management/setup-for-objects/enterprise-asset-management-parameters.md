@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783257"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024566"
 ---
 # <a name="asset-management-parameters"></a>Paramètres de gestion des actifs
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783257"
 
 Dans la gestion des actifs, des paramètres concernant les actifs, les ordres de travail, et la planification des ordres de travail doivent être configurés. Cette rubrique explique comment les paramétrer. Sélectionnez **gestion des actif** > **Paramétrage** > **Paramètres de gestion des actifs** pour ouvrir l'écran.
 
-Le bouton **Assistant Créer des données** peut être utilisée pour créer automatiquement des données de paramétrage à des fins de données de test ou de démonstration dans une société dans Dynamics 365 for Finance and Operations. Voir le livre blanc « Paramétrage de données de test dans la gestion des actifs » pour des informations sur l'utilisation de l'Assistant.
+Le bouton **Assistant Créer des données** peut être utilisée pour créer automatiquement des données de paramétrage à des fins de données de test ou de démonstration dans une société dans Dynamics 365 Supply Chain Management. Voir le livre blanc « Paramétrage de données de test dans la gestion des actifs » pour des informations sur l'utilisation de l'Assistant.
 
 Lien **Actifs**
 
@@ -57,7 +57,7 @@ Lien **Ordres de travail**
 - Sélectionnez « Oui » sur le bouton de basculement **Copier les pannes** si vous souhaitez copier automatiquement les pannes enregistrées dans les ordres de travail dans les demandes de maintenance connexes.  
 - Dans le champ **Niveau**, vous définissez le niveau de poste technique automatiquement inséré sur un ordre de travail si toutes les tâches d'ordre de travail associées se réfèrent au même poste technique. Si toutes les tâches d'ordre de travail ne sont pas associées au même poste technique sur le niveau défini, le champ **Poste technique** reste vide sur l'ordre de travail. Exemple : Si vous insérez le nombre « 1 » dans ce champ, c'est le niveau supérieur d'une structure de poste technique. Si vous insérez le nombre « 0 » dans ce champ, vous n'avez pas défini de niveau de poste technique spécifique, uniquement que toutes les tâches d'ordre de travail sur un ordre de travail doivent être associées au même poste technique pour que celui-ci soit ajouté à l'ordre de travail.  
 - Les journaux utilisés lors de la validation de la consommation sur un ordre de travail peuvent être sélectionnés dans l'organisateur **Général** dans les champs **Heure**, **Article** et **Dépenses**.  
-- Dans le champ **Source de la langue du produit**, sélectionnez la langue à utiliser pour les noms de produit dans les états de gestion des actifs. Vous pouvez sélectionner la langue paramétrée sur le compte de la société, ou la langue paramétrée pour l'utilisateur actuellement connecté à Dynamics 365 for Finance and Operations.  
+- Dans le champ **Source de la langue du produit**, sélectionnez la langue à utiliser pour les noms de produit dans les états de gestion des actifs. Vous pouvez sélectionner la langue paramétrée sur le compte de la société, ou la langue paramétrée pour l'utilisateur actuellement connecté.  
 - Sélectionnez « Oui » sur le bouton de basculement **Mise à jour en temps réel** si vous souhaitez mettre à jour automatiquement les modifications apportées aux valeurs par défaut du type de tâche, aux plans de maintenance et aux visites de maintenance.
 > - Si vous sélectionnez « Non », les modifications apportées au type de tâche par défaut, aux plans de maintenance et aux visites de maintenance ne sont pas mises à jour automatiquement dans la gestion des actifs  
 > - Sélectionnez « Non » sur le bouton de basculement si un grand nombre de données étant synchronisées, par exemple, plusieurs actifs ou postes techniques configurés sur les plans de maintenance ou les visites de maintenance ou un grand nombre de plans ou de visites de maintenance.  
@@ -75,7 +75,7 @@ Lien **Planification d'ordre de travail**
 - Le **Plan général** correspond aux ressources dans le module **Administration de l'organisation**. Si vous sélectionnez un plan général dans ce champ, vous pourrez consulter les réservations de capacité associées aux ordres de travail dans **Réservations de capacité** (**Administration de l'organisation** > **Ressources** > **Ressources** > sélectionnez la ressource > onglet **Ressource** > bouton **Réservations de capacité**). Si vous laissez le champ vide, vous pourrez consulter la charge de la capacité associée aux ordres de travail dans **Charge de la capacité** (**Administration de l'organisation** \> **Ressources** \> **Ressources** \> sélectionnez la ressource \> onglet **Ressource** \> bouton **Charge de la capacité**).  
 
 >[!NOTE]
->La sélection relative à l'utilisation d'un plan général ou non dans le module **Gestion des actifs**, et l'écran correspondant qui permet d'obtenir une vue d'ensemble des réservations de capacité ou de la charge maximale la configuration standard de Dynamics 365 for Finance and Operations. En fonction de votre paramétrage dans le champ **Plan général**, vous pourrez accéder aux informations de capacité dans **Réservations de capacité** ou **Charge de la capacité** dans le module **Administration de l'organisation**. Il n'est pas possible de créer un paramétrage dans lequel les réservations de capacité s'affichent dans les deux vues.  
+>La sélection relative à l'utilisation d'un plan général ou non dans le module **Gestion des actifs**, et l'écran correspondant qui permet d'obtenir une vue d'ensemble des réservations de capacité ou de la charge maximale la configuration standard. En fonction de votre paramétrage dans le champ **Plan général**, vous pourrez accéder aux informations de capacité dans **Réservations de capacité** ou **Charge de la capacité** dans le module **Administration de l'organisation**. Il n'est pas possible de créer un paramétrage dans lequel les réservations de capacité s'affichent dans les deux vues.  
 
 Les champs décrits dans la liste à puces ci-dessous se rapportent tous aux scores calculés, qui permettent de calculer la priorité des ordres de travail lors de la planification des ordres de travail.
 

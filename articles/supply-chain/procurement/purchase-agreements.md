@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570386"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248926"
 ---
 # <a name="purchase-agreements"></a>Contrats d'achat
 
@@ -78,7 +78,7 @@ Lorsque vous confirmez un contrat d'achat, la version actuelle du contrat d'acha
 Lorsque vous créez un CF, vous pouvez y appliquer un contrat d'achat. Les informations des termes de l'accord, telles que les conditions de paiement, les conditions de livraison, ainsi que l'adresse de livraison, sont ensuite copiées dans l'en-tête du CF. Si le CF contient une ou plusieurs lignes pour les produits ou les catégories qui sont couvertes par le contrat d'achat, les prix et les remises du contrat d'achat sont utilisés pour ces lignes. Le montant ou la quantité de la ligne de commande est stocké sur l'engagement et contribue à l'exécution de l'engagement dans le contrat d'achat. La même commande fournisseur peut inclure aussi bien des lignes qui ne sont pas associées à un contrat d'achat que des lignes associées à un engagement pour un contrat d'achat.  
 
 Vous pouvez sélectionner un contrat d'achat uniquement lorsque vous créez un CF. Vous ne pouvez pas sélectionner de contrat d'achat une fois que la CF est créée.  
-Dans certains cas où les commandes fournisseur sont créées indirectement, vous pouvez contrôler si Finance and Operations doit lancer une recherche automatique des contrats d'achat applicables. Par exemple, vous pouvez procéder ainsi lorsque vous confirmez automatiquement des commandes fournisseur prévisionnelles ou lorsque vous créez des commandes fournisseur basées sur les commandes client.
+Dans certains cas où les commandes fournisseur sont créées indirectement, vous pouvez contrôler si Supply Chain Management doit lancer une recherche automatique des contrats d'achat applicables. Par exemple, vous pouvez procéder ainsi lorsque vous confirmez automatiquement des commandes fournisseur prévisionnelles ou lorsque vous créez des commandes fournisseur basées sur les commandes client.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contrats d'achat et suivi intersociétés
 Les relations commerciales intersociétés peuvent être créées entre les comptes fournisseur et les comptes client appartenant à différentes entités juridiques. Lorsqu'une commande client ou une commande fournisseur est créée pour une des parties, une chaîne de commandes intersociétés est créée. Dans la chaîne de commande, la commande client et la commande fournisseur sont créées dans les entités juridiques appropriées.  

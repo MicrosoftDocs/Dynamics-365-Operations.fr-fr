@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517979"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008367"
 ---
 # <a name="formalize-business-processes"></a>Formaliser les processus d'entreprise
 
@@ -43,7 +43,7 @@ Pour chaque processus d'entreprise, vous pouvez définir un propriétaire de pro
 Un propriétaire de processus ne peut pas créer des processus d'entreprise ou des modèles de processus d'entreprise, ou encore supprimer des processus d'entreprise ou des modèles de processus d'entreprise actifs.
 
 ## <a name="tasks"></a>Tâches
-Un processus d'entreprise comporte souvent plusieurs tâches. Certaines tâches telles que la révision des offres de cours internes peuvent être effectuées dans Microsoft Dynamics 365 for Talent[?]. Dans ce cas, une option est sélectionnée dans le champ **Lien des tâches**. D'autres tâches peuvent impliquer la révision ou le remplissage de pages sur un site Web. Dans ce cas, l'option **URL** est sélectionnée dans le champ **Lien des tâches**, et l'adresse Web peut être entrée. Vous pouvez entrer des URL pour des sites externes et internes. Vous pouvez également créer des tâches pour les activités que vous effectuez manuellement, par exemple la révision de l'accessibilité de toutes les structures. Dans ce cas, un lien de tâche n'est pas nécessaire. Cette flexibilité vous permet de suivre plusieurs types de tâches dans un processus complet.
+Un processus d'entreprise comporte souvent plusieurs tâches. Certaines tâches telles que la révision des offres de cours internes peuvent être effectuées dans Microsoft Dynamics 365 Talent. Dans ce cas, une option est sélectionnée dans le champ **Lien des tâches**. D'autres tâches peuvent impliquer la révision ou le remplissage de pages sur un site Web. Dans ce cas, l'option **URL** est sélectionnée dans le champ **Lien des tâches**, et l'adresse Web peut être entrée. Vous pouvez entrer des URL pour des sites externes et internes. Vous pouvez également créer des tâches pour les activités que vous effectuez manuellement, par exemple la révision de l'accessibilité de toutes les structures. Dans ce cas, un lien de tâche n'est pas nécessaire. Cette flexibilité vous permet de suivre plusieurs types de tâches dans un processus complet.
 
 Les tâches peuvent être affectées à un collaborateur spécifique ou à un poste. Par exemple, le gestionnaire des rémunérations et avantages sera toujours chargée de la révision des primes d'assurance. Par conséquent, lorsque vous créez cette tâche, sélectionnez **Poste** dans le champ **Type d'affectation**, puis sélectionnez **Gestionnaire de rémunération et avantages** dans la liste **Poste**. Lorsque le processus d'entreprise est démarré, la tâche est affectée au collaborateur qui occupe le poste de **Gestionnaire de rémunération et avantages**. Pour affecter une tâche à un collaborateur spécifique, sélectionnez **Collaborateur** dans le champ **Type d'affectation**, puis sélectionnez la personne appropriée.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 00ce4a31c0b0f466911658c79f6e32788273c127
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a7168d13ef0b24d06aa28fbbc22bbb4e6093df24
+ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834000"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "1994908"
 ---
 # <a name="manage-order-holds"></a>Gérer les commandes en attente
 
@@ -33,45 +33,40 @@ Vous pouvez exécuter cette procédure dans la société fictive de démonstrati
 
 
 ## <a name="set-up-order-holds"></a>Paramétrer des blocages de commande
-1. Accédez à Ventes et marketing > Paramétrage > Commandes client > Codes de blocage de commande.
-2. Cliquez sur Nouveau.
-3. Dans le champ Code de blocage, saisissez une valeur.
-    * Par exemple, tapez Rappeler.  
-4. Dans le champ Description, entrez une valeur.
-    * Par exemple, Commande bloquée dans l'attente du rappel du client.  
-    * Le cas échéant, activez la case à cocher Supprimer des réservations pour supprimer toute réservation physique de la commande lorsque ce code de blocage est ajouté.  
-5. Cliquez sur Enregistrer.
+1. Accédez à **volet Navigation > Modules > Ventes et marketing > Configuration > Commandes client > Codes de blocage de commande**.
+2. Cliquez sur **Nouveau**.
+3. Dans le champ **Code de blocage**, saisissez une valeur. Par exemple, tapez Rappeler.  
+4. Tapez une valeur dans le champ **Description**.
+    - Par exemple, Commande bloquée dans l'attente du rappel du client.  
+    - Le cas échéant, activez la case à cocher **Supprimer des réservations** pour supprimer toute réservation physique de la commande lorsque ce code de blocage est ajouté.  
+5. Cliquez sur **Enregistrer**.
 
 ## <a name="place-order-on-hold"></a>Mettre une commande en attente
-1. Allez dans Ventes et marketing > Commandes client > Toutes les commandes client.
-2. Cliquez sur Nouveau.
-3. Entrez ou sélectionnez une valeur dans le champ Compte client.
-4. Cliquez sur OK.
-5. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-6. Dans le champ Quantité, entrer un numéro.
-7. Cliquez sur Commandes client dans le volet Actions.
-8. Cliquez sur Blocage de commandes.
-9. Cliquez sur Nouveau.
-10. Dans le champ Code de blocage, sélectionnez le code créé à la sous-tâche précédente.
-11. Cliquez sur Enregistrer.
+1. Accédez à **Volet de navigation > Modules > Ventes et marketing > Commandes client > Toutes les commandes client**.
+2. Cliquez sur **Nouveau**.
+3. Entrez ou sélectionnez une valeur dans le champ **Compte client**.
+4. Cliquez sur **OK**.
+5. Entrez ou sélectionnez une valeur dans le champ **Numéro d'article**.
+6. Entrez un nombre dans le champ **Quantité**.
+7. Cliquez sur **Commande client** dans le **volet Actions**.
+8. Cliquez sur **Blocage de commandes**.
+9. Cliquez sur **Nouveau**.
+10. Dans le champ **Code de blocage**, sélectionnez le code créé à la sous-tâche précédente.
+11. Cliquez sur **Enregistrer**.
 12. Fermez la page.
-13. Allez dans Ventes et marketing > Commandes client > Toutes les commandes client.
-14. Dans la liste, marquez la ligne sélectionnée.
-    * Les champs « Ne pas traiter » et « Bloquer » des commandes actuellement en attente sont activés.    
-15. Cliquez sur Prélever et emballer dans le volet Actions.
+13. Accédez à **Ventes et marketing > Commandes client > Toutes les commandes client**.
+14. Dans la liste, marquez la ligne sélectionnée. Les champs « Ne pas traiter » et « Bloquer » des commandes actuellement en attente sont activés.
+15. Dans le volet Actions, cliquez sur **Prélever et emballer**.
 
 ## <a name="manage-order-holds"></a>Gérer les commandes en attente
-1. Accédez à Ventes et marketing > Commandes client > Commandes en cours > Blocage de commandes.
-    * La page de blocage des commandes se présente comme une console où vous pouvez obtenir une vue d'ensemble de tous les blocages actuels et traités, et les gèrer avec les commandes client associées.      
+1. Accédez à **Ventes et marketing > Commandes client > Commandes en cours > Blocage de commandes**. La page **Blocage de commandes** se présente comme une console où vous pouvez obtenir une vue d'ensemble de tous les blocages actuels et traités, et les gérer avec les commandes client associées.     
 2. Dans la liste, marquez la ligne sélectionnée.
-3. Dans le volet Action, cliquez sur Extraire le blocage.
-4. Cliquez sur Extraction.
-5. Dans la liste, désactiver la ligne sélectionnée.
-    * Le champ Extrait par contient désormais votre ID utilisateur.   
-6. Cliquez sur Supprimer l'extraction.
-7. Dans le volet Action, cliquez sur Supprimer le blocage.
-    * Lorsque vous êtes prêt à lever le blocage et à autoriser la commande à passer à l'étape de traitement suivante, vous devez supprimer le blocage. Si la commande n'a pas besoin d'être modifiée, vous pouvez exécuter l'action Supprimer les blocages. Toutefois, vous pouvez utiliser l'action Supprimer et modifier, si au moment de lever le blocage, la commande doit être mise à jour.      
-    * L'action Supprimer et soumettre n'est applicable que si vous utilisez la fonctionnalité Centre d'appels.  
-8. Cliquez sur Supprimer le blocage.
-    * Le blocage a désormais été effacé de la commande et supprimé de la liste Blocages actifs. Pour afficher tous les blocages ou leur sous-ensemble défini selon un statut spécifique, modifiez la valeur du champ Afficher.     
+3. Dans le **volet Actions**, cliquez sur **Extraire le blocage**.
+4. Cliquez sur **Extraction**.
+5. Dans la liste, désactiver la ligne sélectionnée. Le champ **Extrait par** contient désormais votre ID utilisateur.   
+6. Cliquez sur **Supprimer l'extraction**.
+7. Dans le **volet Actions**, cliquez sur **Supprimer le blocage**.
+    - Lorsque vous êtes prêt à lever le blocage et à autoriser la commande à passer à l'étape de traitement suivante, vous devez supprimer le blocage. Si la commande n'a pas besoin d'être modifiée, vous pouvez exécuter l'action Supprimer les blocages. Toutefois, vous pouvez utiliser l'action Supprimer et modifier, si au moment de lever le blocage, la commande doit être mise à jour.      
+    - L'action **Supprimer et soumettre** n'est applicable que si vous utilisez la fonctionnalité Centre d'appels.  
+8. Cliquez sur **Supprimer le blocage**. Le blocage a désormais été effacé de la commande et supprimé de la liste Blocages actifs. Pour afficher tous les blocages ou leur sous-ensemble défini selon un statut spécifique, modifiez la valeur du champ Afficher.     
 

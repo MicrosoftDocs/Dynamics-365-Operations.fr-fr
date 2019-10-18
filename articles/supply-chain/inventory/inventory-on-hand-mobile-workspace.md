@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 68b285ba78a9bd654e7bfcfe8d4c6b0207346eab
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845592"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249515"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Stock disponible dans l'espace de travail mobile
 
@@ -31,7 +31,7 @@ ms.locfileid: "1845592"
 
 Cette rubrique fournit des informations sur l'espace de travail mobile **Stock disponible**. Cet espace de travail vous permet d'acquérir des connaissances sur les stocks réservés et disponibles à tout moment et n'importe où.
 
-Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Microsoft Dynamics 365 for Unified Operations
+Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Finance and Operations.
 
 ## <a name="overview"></a>Présentation
 Généralement, les sociétés ont plusieurs expéditions et plusieurs réceptions de stock chaque jour. Ces mouvements modifient constamment le statut du stock disponible. L'espace de travail **Stock disponible** vous permet de voir l'état du stock en ligne afin d'obtenir les dernières informations sur les données de stock sur votre appareil mobile. Que vous travailliez dans l'entrepôt, les achats, les ventes, la fabrication ou la gestion, ou que vous ayez d'autres rôles, vous pouvez accéder aux données de stock en temps réel à tout moment et n'importe où. 
@@ -58,11 +58,11 @@ Spécifiquement, l'espace de travail mobile fournit ces fonctions :
 ## <a name="prerequisites"></a>Conditions préalables
 Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions requises si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
-Si Microsoft Dynamics 365 for Finance and Operations a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Stock disponible**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-finance-and-operations"></a>Conditions préalables requises pour l'utilisation de Finance and Operations 
+Si Supply Chain Management a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Stock disponible**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
-Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
+### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Conditions requises si vous utilisez Platform Update 3 ou version ultérieure 
+Si Platform Update 3 ou version ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
 
 <table>
 <thead>
@@ -96,7 +96,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec la mise à jou
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
 
-Téléchargez et installez l'application mobile Dynamics 365 for Unified Operations :
+Télécharger et installer l'application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

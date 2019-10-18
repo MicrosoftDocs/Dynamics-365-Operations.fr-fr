@@ -1,6 +1,6 @@
 ---
 title: Configuration du système Talent et politique de mise à jour
-description: Cette rubrique répertorie les besoins pour Dynamics 365 for Talent. Elle décrit également la stratégie de mise à jour.
+description: Cette rubrique répertorie les besoins pour Dynamics 365 Talent. Elle décrit également la stratégie de mise à jour.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/02/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741773"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024158"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Configuration du système Talent et politique de mise à jour
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les besoins pour Microsoft Dynamics 365 for Talent, y compris Attract, Onboard et Core HR. Elle décrit également les pays et régions où Talent est disponible, et fournit des informations sur les langues et la localisation des données pour Talent. En outre, cette rubrique fournit la stratégie de mise à jour de Talent.
+Cette rubrique décrit les besoins pour Microsoft Dynamics 365 Talent, y compris Attract, Onboard et Core HR. Elle décrit également les pays et régions où Talent est disponible, et fournit des informations sur les langues et la localisation des données pour Talent. En outre, cette rubrique fournit la stratégie de mise à jour de Talent.
 
 ## <a name="supported-web-browsers"></a>Navigateurs Web pris en charge
 
-L'application Web Microsoft Dynamics 365 for Talent peut s'exécuter dans n'importe lequel des navigateurs Web suivants qui s'exécutent sur les systèmes d'exploitation spécifiés : 
+Microsoft Dynamics 365 Talent peut s'exécuter dans n'importe lequel des navigateurs Web suivants qui s'exécutent sur les systèmes d'exploitation spécifiés : 
 
 *   Microsoft Edge (dernière version publique disponible) sur Windows 10
 *   Internet Explorer 11 sur Windows 10, Windows 8.1, ou Windows 7
@@ -46,11 +46,11 @@ Pour trouver la dernière version pour chaque navigateur Web, accédez au site I
 > * L'éditeur de workflow démarre en tant qu'application ClickOnce. Seuls Microsoft Edge et Internet Explorer (sur une version prise en charge Microsoft Windows) prennent en charge les applications de ClickOnce. L'application ClickOnce d'éditeur de workflow nécessite un système d'exploitation compatible 64 bits.
 > * Pour afficher un aperçu des fichiers PDF, nous vous recommandons d'utiliser des navigateurs tels que Microsoft Edge (dernière version disponible) sous Windows 10, ou Google Chrome (dernière version disponible) sous Windows 10, Windows 8,1, Windows 8, Windows 7, ou sur la tablette Google Nexus 10.
 >   Exigences réseau
-> * Dynamics 365 for Talent est conçu pour les réseaux ayant une latence inférieure à 250 à 300 millisecondes (ms) ou moins. Cette latence est la latence entre un client de navigateur et le centre de données Microsoft Azure qui héberge Dynamics 365 for Talent. Nous vous recommandons de tester la latence du réseau à l'adresse [www.azurespeed.com](https://www.azurespeed.com "Test de latence Azure").
-> * La bande passante requise pour Dynamics 365 for Talent dépend de votre scénario. La plupart des scénarios habituels nécessitent une bande passante de plus de 50 kilo-octets par seconde (KBps).
+> * Dynamics 365 Talent est conçu pour les réseaux ayant une latence inférieure à 250 à 300 millisecondes (ms) ou moins. Cette latence est la latence entre un client de navigateur et le centre de données Microsoft Azure qui héberge Talent. Nous vous recommandons de tester la latence du réseau à l'adresse [www.azurespeed.com](https://www.azurespeed.com "Test de latence Azure").
+> * La bande passante requise pour Talent dépend de votre scénario. La plupart des scénarios habituels nécessitent une bande passante de plus de 50 kilo-octets par seconde (KBps).
 > 
 > [!WARNING]
-> Ne calculez pas la bande passante d'un emplacement client nécessaire en multipliant le nombre d'utilisateurs par la bande passante minimale requise. Il est très difficile de calculer l'utilisation simultanée d'un emplacement donné. Pour les clients qui s'inquiètent des besoins de bande passante, utilisez une version d'évaluation de Dynamics 365 for Talent.
+> Ne calculez pas la bande passante d'un emplacement client nécessaire en multipliant le nombre d'utilisateurs par la bande passante minimale requise. Il est très difficile de calculer l'utilisation simultanée d'un emplacement donné. Pour les clients qui s'inquiètent des besoins de bande passante, utilisez une version d'évaluation de Talent.
 
 ## <a name="supported-microsoft-office-applications"></a>Applications Microsoft Office prises en charge
 
@@ -68,6 +68,6 @@ Si vous êtes développeur et intéressé à créer des personnalisations spéci
 
 ## <a name="update-policy"></a>Stratégie de mise à jour
 
-Microsoft Dynamics 365 for Talent fait l'objet d'une maintenance dans le cadre d'une offre Cloud. Les mises à jour de Dynamics 365 for Talent sont continues et appliquées automatiquement par Microsoft.
+Talent fait l'objet d'une maintenance dans le cadre d'une offre Cloud. Les mises à jour de Talent sont continues et appliquées automatiquement par Microsoft.
 
-Les mises à jour sont publiées régulièrement et s'appliqueront à tous les environnements. Dynamics 365 for Talent est pris en charge conformément à la [Stratégie Microsoft Support Lifecycle](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), qui fournit des instructions cohérentes et prévisibles pour la disponibilité du support produit.
+Les mises à jour sont publiées régulièrement et s'appliqueront à tous les environnements. Talent est pris en charge conformément à la [Stratégie Microsoft Support Lifecycle](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), qui fournit des instructions cohérentes et prévisibles pour la disponibilité du support produit.

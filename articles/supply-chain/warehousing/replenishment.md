@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f740ab481b8663ecc29169eee1ead5ff23bb3f5
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866135"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251465"
 ---
 # <a name="replenishment-overview"></a>Vue d'ensemble de réapprovisionnement
 
@@ -55,7 +55,7 @@ Le réapprovisionnement de demande est pris en charge pour les commandes client,
 ## <a name="minmax-replenishment"></a>Réapprovisionnement minimal/maximal
 Dans Réapprovisionnement minimal/maximal, le stock est réapprovisionné afin qu’il soit entre les limites maximales et minimales qui ont été définies. En général, ce processus se produit une fois par jour pour garantir que tous les emplacements d'enlèvement soient remplis au maximum avant que l'enlèvement commence. 
 
-Les montants minimaux et maximaux sont définis dans un modèle de réapprovisionnement. De nombreux autres paramètres du modèle sont semblables aux paramètres des modèles qui sont utilisés dans le réapprovisionnement de la demande de vague. Le modèle doit contenir une ligne pour chaque article et chaque emplacement. Lorsque vous exécutez le réapprovisionnement à l'aide du traitement par lots, Microsoft Dynamics 365 for Finance and Operations évalue si le réapprovisionnement est requis dans l'ordre dans lequel les lignes sont organisées. 
+Les montants minimaux et maximaux sont définis dans un modèle de réapprovisionnement. De nombreux autres paramètres du modèle sont semblables aux paramètres des modèles qui sont utilisés dans le réapprovisionnement de la demande de vague. Le modèle doit contenir une ligne pour chaque article et chaque emplacement. Lorsque vous exécutez le réapprovisionnement à l'aide du traitement par lots, le système évalue si le réapprovisionnement est requis dans l'ordre dans lequel les lignes sont organisées. 
 
 Notez que la stratégie de réapprovisionnement minimal/maximal ne peut pas réapprovisionner un emplacement vide, sauf si l’emplacement est défini comme emplacement fixe pour l’article. Si l’emplacement qui doit être réapprovisionné n’est pas un emplacement fixe, le système ne peut pas déterminer quel article doit être réapprovisionné. Par conséquent, au moins une partie de la quantité disponible est nécessaire avant le réapprovisionnement.
 

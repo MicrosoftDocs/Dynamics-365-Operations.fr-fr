@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 55e0d128cdc12843763f81014edd1846b35ed220
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 694835d20e3401aaeb22aa19082a2cd0e3a0163a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739792"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010704"
 ---
 # <a name="create-a-process-template"></a>Créer un modèle de processus
 
 [!include [banner](includes/banner.md)]
 
-Un *modèle de processus de recrutement* contient toutes les activités qui doivent être incluses dans le cadre du processus de recrutement d'une mission. Cette rubrique décrit les éléments d'un modèle de processus dans Microsoft Dynamics 365 for Talent : Attract. Elle décrit également comment créer un modèle.
+Un *modèle de processus de recrutement* contient toutes les activités qui doivent être incluses dans le cadre du processus de recrutement d'une mission. Cette rubrique décrit les éléments d'un modèle de processus dans Microsoft Dynamics 365 Talent: Attract. Elle décrit également comment créer un modèle.
 
 > [!NOTE]
 > La création de modèle fait partie du Composant additionnel de recrutement complet pour Attract.

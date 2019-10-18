@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent (14 mars 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés ou modifications dans Dynamics 365 Talent (14 mars 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/14/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5c3beef9ef4e73eaf76f861735bb154fa630703f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742491"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023905"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (14 mars 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (14 mars 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -46,8 +46,8 @@ Les modifications effectuées dans cette version rendent possibles des scénario
 ### <a name="mass-assign-checklists-to-workers"></a>Affectation en masse de listes de contrôle aux employés
 Avec cette modification, vous pouvez désormais sélectionner plusieurs employés et leur affecter en bloc une ou plusieurs listes de contrôle. 
 
-### <a name="platform-update-24"></a>Update 24 de la plateforme
-Pour en savoir plus sur Platform Update 24, voir [Nouveautés ou modifications dans Finance and Operations, Platform Update 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Les modifications importantes de Platform Update 24 sont notamment : 
+### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 pour Finance and Operations
+Pour en savoir plus sur Platform Update 24 pour Finance and Operations, voir [Nouveautés ou modifications dans Finance and Operations, Platform Update 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Les modifications importantes de Platform Update 24 sont notamment : 
 
 - Les alertes sont activées dans Talent.
 - La barre de navigation mise à jour s'aligne à présent avec l'en-tête Bureau.
@@ -67,7 +67,7 @@ Les entités Common Data Service se synchronisent désormais correctement une fo
 Nombreuses sont les organisations où les responsables des avantages et de la rémunération ne peuvent accéder qu'à certains enregistrements de rémunération. Ces enregistrements peuvent concerner des cadres ou des employés régionaux. Cette modification permet aux RH de gérer et de tenir à jour les plans de rémunération pour différents groupes d'employés au sein de l'organisation. Vous pouvez affecter des rôles de sécurité aux plans fixes et variables. Ces rôles déterminent l'accès aux plans et aux données des employés relatives aux plans, comme les enregistrements propres aux salaires ou aux primes. Seuls les rôles disposant de l'accès peuvent traiter la rémunération de ces employés.
 
 ###  <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
-Avec Platform Update 24, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement.
+Dans Platform Update 24 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui diffusent automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Vérification d'employé en double : modifications de l'interface
 Avec cette modification, les doublons sont détectés au moment de renseigner les champs de nom et un champ de statut affiche le nombre trouvé. Vous pouvez sélectionner le lien fourni pour ouvrir une nouvelle page pour évaluer s'il convient d'utiliser la correspondance détectée. L'écran des doublons ne s'ouvre pas automatiquement pour éviter d'interrompre la saisie des données.

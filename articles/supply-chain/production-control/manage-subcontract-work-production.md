@@ -1,6 +1,6 @@
 ---
 title: Gestion du travail de sous-traitance en production
-description: Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Finance and Operations. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur.
+description: Cette rubrique explique comment les opérations sous-traitées sont gérées dans Dynamics 365 Supply Chain Management. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569751"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023539"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gestion du travail de sous-traitance en production
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment les opérations sous-traitées sont gérées dans Microsoft Dynamics 365 for Finance and Operations. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur.
+Cette rubrique explique comment les opérations sous-traitées sont gérées dans Dynamics 365 Supply Chain Management. En d'autres termes, elle explique comment les opérations de production qui sont affectées à une ressource sont gérées par un fournisseur.
 
 Dans [processus de production](production-process-overview.md), le travail peut être effectué par les ressources qui sont détenues ou administrées par les fournisseurs. Généralement, les ressources fournisseur sont utilisées pour niveler une demande excédentaire périodique qui dépasse la capacité disponible des propres ressources d'une société. Le fournisseur peut également pouvoir faire une offre de [capacités de ressource](resource-capabilities.md) ou de ressources spécifiques à un prix inférieur.  
 
@@ -40,7 +40,7 @@ Lorsque des opérations ou des activités de sous-traitance sont utilisées, ell
 
 Pour les ressources internes, un taux de coût fixe est généralement affecté pour une période. En revanche, le coût des ressources sous-traitées est basée sur le prix d'achat du service associé. Le service est défini comme une autre produit, et est utilisé pour piloter les processus d'approvisionnement et d'achat pour une opération sous-traitée donnée.  
 
-Actuellement, il n'existe aucun concept explicite des produits semi-finis dans Microsoft Dynamics 365 for Finance and Operations. Pour un ordre de fabrication qui requiert une ou plusieurs opérations afin de transformer des matières premières en un produit fini, le produit fini est validé en stock uniquement dans la dernière opération. Les produits semi-finis que les opérations antérieures produisent sont comptabilisés dans les travaux en cours, mais ils ne sont ni affichés ni enregistrés. Même si vous pouvez diviser les gammes et les nomenclatures en plusieurs unités plus petites, cette approche augmente le nombre de produits, de nomenclatures et de gammes qui doivent être gérés.  
+Actuellement, il n'existe aucun concept explicite des produits semi-finis dans Supply Chain Management. Pour un ordre de fabrication qui requiert une ou plusieurs opérations afin de transformer des matières premières en un produit fini, le produit fini est validé en stock uniquement dans la dernière opération. Les produits semi-finis que les opérations antérieures produisent sont comptabilisés dans les travaux en cours, mais ils ne sont ni affichés ni enregistrés. Même si vous pouvez diviser les gammes et les nomenclatures en plusieurs unités plus petites, cette approche augmente le nombre de produits, de nomenclatures et de gammes qui doivent être gérés.  
 
 Il existe deux méthodes pour modéliser le travail de sous-traitance pour les opérations de production. Ces méthodes diffèrent en ce sens où le processus de sous-traitance peut être modélisé, la manière dont les produits semi-finis sont représentés dans le processus, et la manière à laquelle le contrôle des coûts est géré.
 

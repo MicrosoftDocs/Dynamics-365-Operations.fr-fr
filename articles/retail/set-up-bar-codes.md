@@ -1,6 +1,6 @@
 ---
 title: Paramétrer les codes-barres
-description: Cet article décrit l'utilisation des codes-barres dans Microsoft Dynamics 365 for Retail.
+description: Cet article décrit l'utilisation des codes-barres dans Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,23 +19,23 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 15d12abe32d3f5a47348016c67a4fb02d0a5d8e3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7a668f8b44c5f573957a91ab19a8b7fac7a95ba
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555465"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024888"
 ---
 # <a name="set-up-bar-codes"></a>Paramétrer les codes-barres
 
 [!include [banner](includes/banner.md)]
 
-Cet article décrit l'utilisation des codes-barres dans Microsoft Dynamics 365 for Retail.
+Cet article décrit l'utilisation des codes-barres dans Dynamics 365 Retail.
 
 Vous pouvez utiliser les codes-barres pour acheter et vendre des articles, des variantes de produit de suivi, et paramétrer les clients et les employés. Vous pouvez également utiliser les codes-barres pour émettre et endosser des coupons, des cartes cadeaux et des avoirs. Vous pouvez paramétrer les produits vendus au détail de façon à ce qu'ils disposent de codes-barres standard ou de codes-barres internes personnalisés. Les produits peuvent avoir plusieurs codes-barres. Par exemple, un produit peut avoir plusieurs codes-barres si celui-ci provient de différents fabricants ou s'il comporte des variantes de taille, de style ou de couleur. Les codes-barres peuvent inclure le poids ou le prix du produit. Les masques de codes-barres sont des modèles qui sont utilisés pour créer des codes-barres.
 
 > [!NOTE]
-> Si vous attribuez un code-barres unique à chaque combinaison de variantes vous pouvez scanner le code-barres au niveau de la caisse enregistreuse et laisser le programme déterminer quelle variante du produit est vendue. Vous pouvez également obtenir et consulter des statistiques de vente par variante. Chaque groupe de tailles, de couleurs et de styles peut se voir affecter un numéro unique qui identifie ce groupe dans le code-barres. Dynamics 365 for Retail utilise le masque de code-barres pour générer automatiquement des codes-barres pour chaque combinaison de variantes. Cette fonctionnalité peut être utile s'il y a beaucoup de tailles, de couleurs et de styles, car le nombre de combinaisons augmente significativement à l'ajout de chaque nouveau code variante. Si cette fonctionnalité n'est pas utilisée, les codes-barres doivent être affectés manuellement à chaque combinaison représentant une variante de produit.
+> Si vous attribuez un code-barres unique à chaque combinaison de variantes vous pouvez scanner le code-barres au niveau de la caisse enregistreuse et laisser le programme déterminer quelle variante du produit est vendue. Vous pouvez également obtenir et consulter des statistiques de vente par variante. Chaque groupe de tailles, de couleurs et de styles peut se voir affecter un numéro unique qui identifie ce groupe dans le code-barres. Retail utilise le masque de code-barres pour générer automatiquement des codes-barres pour chaque combinaison de variantes. Cette fonctionnalité peut être utile s'il y a beaucoup de tailles, de couleurs et de styles, car le nombre de combinaisons augmente significativement à l'ajout de chaque nouveau code variante. Si cette fonctionnalité n'est pas utilisée, les codes-barres doivent être affectés manuellement à chaque combinaison représentant une variante de produit.
 
 Vous pouvez créer les codes-barres manuellement ou automatiquement. Pour créer des codes-barres, effectuez les tâches suivantes dans l'ordre dans lequel elles sont répertoriées.
 

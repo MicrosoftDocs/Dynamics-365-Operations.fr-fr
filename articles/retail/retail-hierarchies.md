@@ -1,6 +1,6 @@
 ---
 title: Hiérarchies des ventes au détail
-description: Cet article décrit les hiérarchies des ventes au détail dans Microsoft Dynamics 365 for Retail.
+description: Cet article décrit les hiérarchies des ventes au détail dans Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb383c5bc5ad5d641db6f30e915ea43ba5980005
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568020"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025075"
 ---
 # <a name="retail-hierarchies"></a>Hiérarchies des ventes au détail
 
 [!include [banner](includes/banner.md)]
 
-Cet article décrit les hiérarchies des ventes au détail dans Microsoft Dynamics 365 for Retail.
+Cet article décrit les hiérarchies des ventes au détail dans Dynamics 365 Retail.
 
 Vous pouvez créer une hiérarchie de catégories de vente au détail pour organiser les produits que vous vendez via vos canaux de vente au détail. Vous pouvez utiliser les hiérarchies des produits vendus au détail pour classer par catégorie ou regrouper les produits. Vous pouvez ensuite utiliser ces produits pour créer des assortiments de produits et des programmes de fidélisation des clients. Vous pouvez également affecter des attributs et des propriétés de produit, affecter une structure de tarification, inclure les produits dans des promotions de produit et utiliser les produits pour la génération d'états. Vous pouvez créer une hiérarchie de catégories de vente au détail pour représenter tous les produits et toutes les catégories dans votre organisation, puis utiliser cette hiérarchie de catégories à plusieurs fins. Sinon, vous pouvez créer plusieurs hiérarchies de catégories de vente au détail à des fins particulières, telles que les promotions de produit. Lorsque vous créez une hiérarchie des produits vendus au détail, vous devez affecter un type de hiérarchie de catégories pour identifier l'objectif de la hiérarchie de catégories. Par exemple, seules les hiérarchies de produit qui sont affectées au type **Hiérarchie de navigation de vente au détail** sont référencées lorsque vous parcourez les produits par catégorie en ligne ou dans le point de vente.
 

@@ -1,6 +1,6 @@
 ---
 title: Présentation de lean manufacturing
-description: Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Dynamics 365 for Finance and Operations.
+description: Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d338318d3f7a1b56fe98e5c093ccbe795bd8de44
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562390"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250070"
 ---
 # <a name="lean-manufacturing-overview"></a>Vue d'ensemble du Lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Microsoft Dynamics 365 for Finance and Operations.
+Cet article fournit une vue d'ensemble et la description des fonctionnalités de lean manufacturing dans Dynamics 365 Supply Chain Management.
 
 Le lean manufacturing offre des outils que vous pouvez utiliser pour modéliser des opérations de production au plus juste. Ces outils prennent en charge et encouragent les concepts et des activités économiques suivants :
 -   Création d'une base de lean manufacturing en modélisant les processus de fabrication et logistiques comme flux de production.
 -   Mise en œuvre d'un système d'approvisionnement sur demande au plus juste à l'aide de kanbans pour signaler les besoins des demandes.
 -   Surveillez et mettez à jour des tâches de kanban.
 
-L'architecture de lean manufacturing dans Finance and Operations est constituée de flux de production, d'activités, et de règles de kanban. Ces structures sont totalement intégrées aux processus Finance and Operations. Vous pouvez utiliser le lean manufacturing dans un environnement de fabrication en mode mixte combinant différentes stratégies d'approvisionnement et de production. Ces dernières incluent des ordres de fabrication, des lots de commandes pour les secteurs de traitement, des commandes fournisseur, et des ordres de transfert.
+L'architecture de lean manufacturing est constituée de flux de production, d'activités, et de règles de kanban. Ces structures sont totalement intégrées aux processus Supply Chain Management. Vous pouvez utiliser le lean manufacturing dans un environnement de fabrication en mode mixte combinant différentes stratégies d'approvisionnement et de production. Ces dernières incluent des ordres de fabrication, des lots de commandes pour les secteurs de traitement, des commandes fournisseur, et des ordres de transfert.
 
 | **Important**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Finance and Operations vous permet de prendre en charge la mise en œuvre du concept de lean manufacturing avec des kanbans. Toutefois, une implémentation réussie des principes de production au plus juste dépend des processus entreprise internes que vous utilisez, et des conditions et de l'environnement de production réels. |
+| Supply Chain Management vous permet de prendre en charge la mise en œuvre du concept de lean manufacturing avec des kanbans. Toutefois, une implémentation réussie des principes de production au plus juste dépend des processus entreprise internes que vous utilisez, et des conditions et de l'environnement de production réels. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Processus de fabrication et logistiques de modélisation comme flux de production
 Pour créer une base de lean manufacturing, modélisez les processus de fabrication et logistiques comme flux de production. Cette activité inclut les tâches suivantes :
@@ -69,8 +69,8 @@ La liste suivante décrit les tableaux kanban spécialisés :
 -   Tableau kanban pour les tâches de transfert – Ce tableau fournit une vue d'ensemble des tâches de transfert en cours. Vous pouvez mettre à jour et enregistrer les listes de prélèvements, débuter et terminer des tâches de transfert, et effectuer d'autres tâches.
 -   Tableau kanban pour les opérations de traitement – cette carte est conçue pour prendre en charge le flux de production normal et pour donner une vue d'ensemble de la situation actuelle dans une ou plusieurs cellules de travail. À partir de ce tableau, les kanbans peuvent être classés par ordre de priorité, prélevés, ou fabriqués. Le tableau est également conçu pour prendre en charge la lecture des codes-barres pour la génération d'états de kanban.
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Opérations kanban et intégration aux processus Finance and Operations
-Les tâches de kanban sont totalement intégrées aux processus actuels pour les mouvements de stock dans Finance and Operations.
+## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Tâches de kanban et intégration avec les processus Supply Chain Management
+Les tâches de kanban sont totalement intégrées aux processus actuels pour les mouvements de stock dans Supply Chain Management.
 -   Vous pouvez effectuer des activités de prélèvement pour réapprovisionner la matière utilisée pour répondre aux conditions des tâches de kanban.
 -   Vous pouvez imprimer des cartes kanban, les cartes kanban en circulation, et les listes de prélèvements pour prendre en charge l'utilisation des kanbans. Ces documents sont utilisés pour représenter, suivre et enregistrer les tâches de kanban dans l'entrepôt et la production.
 -   Vous pouvez enregistrer le prélèvement et les activités de transfert dans le stock en scannant les codes-barres.

@@ -1,6 +1,6 @@
 ---
 title: Vente et retourner des produits ne faisant pas partie de l'assortiment d'un magasin
-description: Avec Dynamics 365 for Retail, vous pouvez vendre et renvoyer les produits en dehors des assortiments.
+description: Avec Dynamics 365 Retail, vous pouvez vendre et renvoyer les produits en dehors des assortiments.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae6bac983ddb4d4a217fe83c8f68c5a87ccd6a47
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567906"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024935"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Vente et retourner des produits ne faisant pas partie de l'assortiment d'un magasin
 
@@ -37,7 +37,7 @@ Voici quelques scénarios classiques :
 + Un détaillant ne propose pas des produits spécifiques dans le magasin ou n'en a pas en stock dans le magasin où le client s'est rendu, mais les produits sont disponibles dans d'autres magasins. L'associé du magasin aide le client en recherchant ou en parcourant les produits dans l'autre magasin, les ajoute au chariot et procède à la validation en sélectionnant un mode de livraison.
 + Un détaillant a plusieurs magasins dans et autour d'une ville ou d'un code postal spécifique et ne souhaite pas obliger les clients à retourner les produits dans le magasin d'achat. À la place, les clients peuvent retourner les produits dans n'importe quel magasin.
 
-Ces scénarios courants sont disponibles pour les détaillants qui utilisent Dynamics 365 for Retail. Retail vous permet de :
+Ces scénarios courants sont disponibles pour les détaillants qui utilisent Retail. Retail vous permet de :
 
 + Rechercher ou parcourir les produits dans d'autres magasins.
 + Rechercher ou parcourir tous les produits lancés.

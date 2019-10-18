@@ -1,6 +1,6 @@
 ---
-title: Nouveautés et modifications dans Dynamics 365 for Talent (9 avril 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés et modifications dans Dynamics 365 Talent (9 avril 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 08f3f8150a120817618ee4d31197f3088c7483ab
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856422"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024089"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Nouveautés et modifications dans Dynamics 365 for Talent (9 avril 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>Nouveautés et modifications dans Dynamics 365 Talent (9 avril 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
 
@@ -91,4 +91,4 @@ Le suivi des congés des employés et la compréhension du calcul des congés ai
 Avec cette modification, les doublons sont détectés au moment de renseigner les champs de nom. Un champ de statut affiche le nombre de doublons trouvés. Vous pouvez sélectionner le lien fourni pour ouvrir une nouvelle page pour évaluer s'il convient d'utiliser la correspondance détectée. Pour éviter d'interrompre la saisie des données, l'écran des doublons ne s'ouvre pas automatiquement.
 
 ###  <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
-Avec Platform Update 25, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement. 
+Dans Platform Update 25 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement. 

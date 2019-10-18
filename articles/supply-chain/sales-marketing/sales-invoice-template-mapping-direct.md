@@ -1,6 +1,6 @@
 ---
-title: Synchroniser les en-têtes et les lignes de facture client provenant directement du module Finance and Operations avec Sales
-description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de factures commerciales directement depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Sales.
+title: Synchroniser les en-têtes et les lignes de facture client directement entre le module Supply Chain Management et Sales
+description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de facture directement depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,28 +19,28 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552928"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251659"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Synchroniser directement les en-têtes et les lignes de facture client entre Finance and Operations et Sales
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de factures commerciales directement depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Sales.
+Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de facture directement depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flux de données dans Prospect en disponibilités
 
-La solution Prospect en disponibilités utilise la fonction d'intégration de données pour synchroniser les données entre plusieurs instances de Finance and Operations et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Finance and Operations et Sales. L'illustration ci-dessous indique comment les données sont synchronisées entre Finance and Operations et Sales.
+La solution Prospect en disponibilités utilise la fonction d'intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Finance and Operations et Sales. L'illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
 
 [![Flux de données dans Prospect en disponibilités](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
-Pour accéder à des modèles disponibles, ouvrir [Centre d'administrateur PowerApps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
+Pour accéder à des modèles disponibles, ouvrez [Centre d'administrateur PowerApps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
 
 Les modèles et tâches sous-jacentes suivants sont utilisés pour synchroniser les en-têtes et lignes de facture client entre Finance and Operations et Sales :
 
@@ -52,30 +52,30 @@ Les modèles et tâches sous-jacentes suivants sont utilisés pour synchroniser 
 
 Les tâches suivantes de synchronisation sont requises avant que la synchronisation des en-têtes et des lignes de factures client puisse avoir lieu :
 
-- Produits (entre Fin and Ops et Sales) - Direct
-- Comptes (entre Sales et Fin and Ops) - Direct (en cas d'utilisation)
-- Contacts (entre Sales et Fin and Ops) - Direct (en cas d'utilisation)
-- En-tête et lignes de commande client (entre Fin and Ops et Sales) - Direct
+- Produits (Supply Chain Management vers Sales) - Direct
+- Comptes (Sales vers Supply Chain Management) - Direct (si utilisé)
+- Contacts (Sales vers Supply Chain Management) - Direct (si utilisé)
+- En-têtes et lignes de commande client (Supply Chain Management vers Sales) - Direct
 
 ## <a name="entity-set"></a>Ensemble d'entités
 
-| Finance and Operations                               | Vente          |
+| Gestion de la chaîne d'approvisionnement                              | Ventes          |
 |------------------------------------------------------|----------------|
 | En-têtes de facture de vente client gérée en externe | Factures       |
 | Lignes de facture de vente client gérée en externe   | InvoiceDetails |
 
 ## <a name="entity-flow"></a>Flux d'entité
 
-Les factures client sont créées dans Finance and Operations et synchronisées avec Sales.
+Les factures sont créées dans Supply Chain Management et synchronisées vers Sales.
 
 > [!NOTE]
-> Actuellement, la taxe associée aux frais dans l'en-tête de facture client n'est pas incluse dans la synchronisation entre Finance and Operations et Sales. Sales ne prend pas en charge les informations fiscales au niveau de l'en-tête. Toutefois, la taxe associée aux frais au niveau de la ligne est incluse dans la synchronisation.
+> Actuellement, la taxe associée aux frais dans l'en-tête de facture client n'est pas incluse dans la synchronisation entre Supply Chain Management et Sales. Sales ne prend pas en charge les informations fiscales au niveau de l'en-tête. Toutefois, la taxe associée aux frais au niveau de la ligne est incluse dans la synchronisation.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect pour une solution de disponibilités pour Sales
 
 - Un champ **Numéro de facture** a été ajouté à l'entité **Facture** et apparaît sur la page.
-- Le bouton **Créer une facture** sur la page **Commande client** est masqué car les factures sont créées dans Finance and Operations et synchronisées avec Sales. La page **Facture** ne peut pas être modifiée car les factures sont synchronisées à partir de Finance and Operations.
-- La valeur **Statut de la commande client** passe automatiquement à **Facturé** lorsque la facture concernée dans Finance and Operations a été synchronisée avec Sales. En outre, le propriétaire de la commande client pour laquelle la facture a été créée est désigné propriétaire de la facture. Par conséquent, le propriétaire de la commande client peut afficher la facture.
+- Le bouton **Créer une facture** sur la page **Commande client** est masqué car les factures sont créées dans Supply Chain Management et synchronisées avec Sales. La page **Facture** ne peut pas être modifiée car les factures sont synchronisées à partir de Supply Chain Management.
+- La valeur **Statut de la commande client** passe automatiquement à **Facturé** lorsque la facture concernée dans Supply Chain Management a été synchronisée avec Sales. En outre, le propriétaire de la commande client pour laquelle la facture a été créée est désigné propriétaire de la facture. Par conséquent, le propriétaire de la commande client peut afficher la facture.
 
 ## <a name="preconditions-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
@@ -103,7 +103,7 @@ Allez dans **Paramètres** > **Administration** > **Paramètres système** > **S
 #### <a name="salesinvoiceline-task"></a>Tâche SalesInvoiceLine
 
 - Assurez-vous que la mise en correspondance nécessaire existe pour **Unité de mesure**.
-- Assurez-vous que la mise en correspondance des valeurs requise pour **SalesUnitSymbol** dans Finance and Operations existe.
+- Assurez-vous que la mise en correspondance des valeurs requise existe pour **SalesUnitSymbol** dans Supply Chain Management.
 
     Une valeur de modèle ayant une mise en correspondance des valeurs est définie pour **SalesUnitSymbol** sur **Quantité\_UOM**.
 
@@ -115,7 +115,7 @@ Allez dans **Paramètres** > **Administration** > **Paramètres système** > **S
 Les illustrations suivantes présentent un exemple de modèle de mise en correspondance dans l'intégration de données. 
 
 > [!NOTE]
-> La mise en correspondance indique quelles informations du champ sont synchronisées entre Sales et Finance and Operations.
+> La mise en correspondance indique quelles informations du champ sont synchronisées entre Sales et Supply Chain Management.
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
@@ -131,16 +131,10 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 [Prospect en disponibilités](prospect-to-cash.md)
 
-[Synchroniser directement les comptes provenant du module Sales sur les clients de Finance and Operations](accounts-template-mapping-direct.md)
+[Synchroniser directement les comptes provenant du module Sales sur les clients de Supply Chain Management](accounts-template-mapping-direct.md)
 
-[Synchroniser directement les produits provenant de Finance and Operations sur les produits du module Sales](products-template-mapping-direct.md)
+[Synchroniser directement les produits provenant du module Supply Chain Management sur les produits dans Sales](products-template-mapping-direct.md)
 
-[Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations](contacts-template-mapping-direct.md)
+[Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Synchroniser les en-têtes et les lignes de commande client directement entre le module Finance and Operations et Sales](sales-order-template-mapping-direct-two-ways.md)
-
-
-
-
-
-
+[Synchroniser les en-têtes et les lignes de commande client directement entre le module Supply Chain Management et Sales](sales-order-template-mapping-direct-two-ways.md)

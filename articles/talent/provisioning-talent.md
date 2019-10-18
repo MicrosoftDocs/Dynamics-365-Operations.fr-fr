@@ -1,6 +1,6 @@
 ---
 title: Mise en service de Talent
-description: Cette rubrique décrit le processus de mise en service d'un nouvel environnement pour Microsoft Dynamics 365 for Talent.
+description: Cette rubrique décrit le processus de mise en service d'un nouvel environnement pour Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/15/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 781487997ceb95f4e3f528f47e8ed2aa5b25fd0e
-ms.sourcegitcommit: eb501d8712212a6ed33bec1e3e2c02f994e0a724
+ms.openlocfilehash: 2bb5dd5e29559807e40b66ad7f9c061bf510ed67
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "1869934"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026139"
 ---
 # <a name="provision-talent"></a>Mettre en service Talent
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit le processus de mise en service d'un nouvel environnement de production pour Microsoft Dynamics 365 for Talent. Cette rubrique suppose que vous avez acheté Talent par l'intermédiaire d'un fournisseur de solutions Cloud (CSP) ou dans le cadre d'un contrat d'architecture d'entreprise (EA). Si vous disposez d'une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Talent et que vous ne pouvez pas effectuer les étapes décrites dans cette rubrique, contactez le support technique.
+Cette rubrique décrit le processus de mise en service d'un nouvel environnement de production pour Microsoft Dynamics 365 Talent. Cette rubrique suppose que vous avez acheté Talent par l'intermédiaire d'un fournisseur de solutions Cloud (CSP) ou dans le cadre d'un contrat d'architecture d'entreprise (EA). Si vous disposez d'une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Talent et que vous ne pouvez pas effectuer les étapes décrites dans cette rubrique, contactez le support technique.
 
 Pour commencer, l'administrateur global doit se connecter à [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) et créer un projet Talent. Il n'est pas nécessaire de contacter le support technique ou les représentants de Dynamics Service Engineering (DSE) sauf si un problème de licence vous empêche de mettre en service Talent.
 
@@ -37,8 +37,8 @@ Pour utiliser LCS pour gérer vos environnements Talent, vous devez d'abord cré
 
 1. Connectez-vous à [LCS](https://lcs.dynamics.com/Logon/Index) à l'aide du compte utilisé pour vous abonner à Talent.
 2. Sélectionnez le signe plus (**+**) pour créer un projet.
-3. Sélectionnez **Microsoft Dynamics 365 for Talent** comme nom et version du produit.
-4. Sélectionner la méthodologie **Dynamics 365 for Talent**.
+3. Sélectionnez **Microsoft Dynamics 365 Talent** comme nom et version du produit.
+4. Sélectionner la méthodologie **Dynamics 365 Talent**.
 5. Sélectionnez **Créer**.
 
 Pour plus d'informations sur la mise en route de Talent, consultez la méthodologie **Talent** que vous avez créée dans votre nouveau projet. Une fois que vous avez terminé de créer le projet, exécutez la procédure suivante pour mettre en service votre environnement Talent.
@@ -76,7 +76,7 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement PowerA
 
 1. Dans LCS, sélectionnez **Gérer les environnements**, ou accédez directement au Centre d'administration de PowerApps, dans lequel vous pouvez afficher les environnements existants et créer des environnements.
 2. Un seul environnement Talent est mappé à un seul environnement PowerApps.
-3. Un environnement PowerApps « contient » l'application Talent, ainsi que les applications PowerApps, Flow et Common Data Service correspondantes. Si l'environnement PowerApps est supprimé, les applications qu'il contient le sont aussi. Lors de la mise en service d'un environnement Talent, un environnement « d'évaluation » ou de « production » peut être mis en service. Choisissez le type d'environnement selon la façon dont l'environnement sera utilisé. 
+3. Un environnement PowerApps « contient » l'application Talent, ainsi que les applications PowerApps, Flow et Common Data Service correspondantes. Si l'environnement PowerApps est supprimé, les applications qu'il contient le sont aussi. Lors de la mise en service d'un environnement Talent, vous pouvez mettre en service un environnement **d'évaluation** ou **de production**. Choisissez le type d'environnement selon la façon dont l'environnement sera utilisé. 
 4. Des stratégies d'intégration de données et de test doivent être envisagées, par exemple : bac à sable (Sandbox), UAT ou Production. Nous vous recommandons de prendre en compte les différentes implications de votre déploiement, car il sera difficile de modifier l'environnement Talent mappé à un environnement PowerApps par la suite.
 5. Les environnements PowerApps suivants ne peuvent pas être utilisés pour Talent et seront filtrés de la liste de sélection dans LCS :
  
@@ -89,4 +89,4 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement PowerA
 6. Après avoir déterminé l'environnement à utiliser, vous pouvez poursuivre le processus d'approvisionnement. 
  
 ## <a name="grant-access-to-the-environment"></a>Autoriser l'accès à l'environnement
-Par défaut, l'administrateur global ayant créé l'environnement y a accès. Cependant, les autres utilisateurs d'application doivent avoir un accès explicitement autorisé. Pour accorder l'accès, vous devez ajouter des utilisateurs et leur affecter les rôles appropriés dans Core HR. L'administrateur global qui a déployé Talent doit également lancer les applications Attract et Onboard pour terminer l'initialisation et activer l'accès pour les autres utilisateurs.  Sinon, les autres utilisateurs ne pourront pas accéder aux applications Attract et Onboard et recevront des erreurs de violation de l'accès. Pour plus d'informations, voir [Création de nouveaux utilisateurs](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) et [Affecter des utilisateurs à des rôles de sécurité](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Par défaut, l'administrateur global ayant créé l'environnement y a accès. Cependant, les autres utilisateurs d'application doivent avoir un accès explicitement autorisé. Pour accorder l'accès, vous devez ajouter des utilisateurs et leur affecter les rôles appropriés dans Core HR. L'administrateur global qui a déployé Talent doit également lancer Attract et Onboard pour terminer l'initialisation et activer l'accès pour les autres utilisateurs.  Sinon, les autres utilisateurs ne pourront pas accéder à Attract et Onboard et recevront des erreurs de violation de l'accès. Pour plus d'informations, voir [Création de nouveaux utilisateurs](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) et [Affecter des utilisateurs à des rôles de sécurité](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 609f5f13f3af4a7621fe7ee152800dac4d68a9fc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572047"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025147"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Recherche de stock dans le point de vente (PDV)
 
@@ -52,7 +52,7 @@ Les quantités**Réservé** et **Commandé** sont également affichées pour cha
 La liste des emplacements inclut deux types d'entités :
 
 - **Magasins de vente au détail** – La liste affiche les magasins configurés à l'aide du groupe de localisateurs de magasin du magasin actuel dans Retail Siège.
-- **Centres de distribution** – Différents types de centres de distribution (tels que les entrepôts) peuvent être configurés dans Microsoft Dynamics 365 for Retail. Toutefois, la liste affiche les informations de stock disponible uniquement pour les centres de distribution de type par défaut **Standard**.
+- **Centres de distribution** – Différents types de centres de distribution (tels que les entrepôts) peuvent être configurés dans Retail. Toutefois, la liste affiche les informations de stock disponible uniquement pour les centres de distribution de type par défaut **Standard**.
 
     > [!NOTE]
     > Les informations de stock disponible ne sont pas affichées pour les entrepôts de type **Transit**, **Contrôle**, et **Marchandises en route** du PDV.

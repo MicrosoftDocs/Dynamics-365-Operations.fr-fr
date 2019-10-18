@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: 882500a366b2c25f21a60b729c07db1a34f781e3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 31e2fbc8de3b77e4654668f8fce53adca940ac01
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834139"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023381"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France dans Microsoft Dynamics 365 for Retail. Elle fournit également des instructions pour paramétrer la fonctionnalité.
+Cette rubrique fournit une vue d'ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France dans Dynamics 365 Retail. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 
 Cette fonctionnalité contient les parties suivantes :
 
@@ -198,7 +198,7 @@ Le format de l'archive est implémenté à l'aide de la [gestion des états éle
 
 ## <a name="setting-up-retail-for-france"></a>Configuration de Retail pour la France
 
-Cette section décrit les paramètres Retail spécifiques et recommandés pour la France. Pour plus d'informations sur le paramétrage de la vente au détail, voir [Documentation Microsoft Dynamics 365 for Retail](../index.md).
+Cette section décrit les paramètres Retail spécifiques et recommandés pour la France. Pour plus d'informations sur le paramétrage de la vente au détail, voir [Documentation Microsoft Dynamics 365 Retail](../index.md).
 
 Pour utiliser la fonctionnalité spécifique pour la France pour Retail, vous devez effectuer les tâches suivantes :
 
@@ -217,7 +217,9 @@ Vous devez apporter les modifications suivantes dans la page **Entités juridiqu
 
 ### <a name="set-up-vat-per-french-requirements"></a>Paramétrer la TVA selon les exigences de la France
 
-Vous devez créer des codes de taxe, des groupes de taxe et des groupes de taxe d'article. Vous devez également paramétrer les informations de taxe pour les produits et services. Pour plus d'informations sur le paramétrage et l'utilisation de la taxe dans Microsoft Dynamics 365 for Finance and Operationset dans Retail, et voir [Vue d'ensemble des taxes](../../financials/general-ledger/indirect-taxes-overview.md).
+
+Vous devez créer des codes de taxe, des groupes de taxe et des groupes de taxe d'article. Vous devez également paramétrer les informations de taxe pour les produits et services. Pour plus d'informations sur le paramétrage et l'utilisation de la taxe, voir [Vue d'ensemble des taxes](../../financials/general-ledger/indirect-taxes-overview.md).
+
 
 Vous devez également spécifier des groupes de taxe et activer l'option **Prix, taxe incluse** pour les magasins situés en France.
 
@@ -353,4 +355,4 @@ Il existe une option pour configurer séparément Retail Planification. Cliquez 
 
 ### <a name="configure-retail-channel-components"></a>Configurer les composants de canal Retail
 
-Pour activer la fonctionnalité spécifique à la France, vous devez configurer les extensions des composants de canal Retail. Pour plus d'informations, voir les [instructions de déploiement](./emea-fra-deployment.md).
+Pour activer la fonctionnalité spécifique à la France, vous devez configurer les extensions des composants de canal. Pour plus d'informations, voir les [instructions de déploiement](./emea-fra-deployment.md).

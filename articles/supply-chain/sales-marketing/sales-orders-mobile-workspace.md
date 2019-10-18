@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835740"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251619"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Espace de travail mobile Commandes client
 
@@ -31,7 +31,7 @@ ms.locfileid: "1835740"
 
 Cette rubrique fournit des informations sur l'espace de travail mobile **Commandes client**. Cet espace de travail vous permet de rester à jour de vos commandes client à tout moment et n'importe où. 
 
-Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Microsoft Dynamics 365 for Unified Operations
+Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Finance and Operations.
 
 ## <a name="overview"></a>Présentation
 L'espace de travail mobile **Commandes client** permet d'afficher des informations détaillées sur chaque commande client. Ces informations incluent le statut de la commande, les informations de contact du client, et les informations de contact du responsable de la commande. L'espace de travail mobile **Commandes client** fournit une vue instantanée des commandes client. Vous pouvez afficher toutes les commandes client, afficher les commandes client par client, ou afficher des informations sur une commande client spécifique. 
@@ -83,8 +83,8 @@ Cette vue répertorie les commandes client par client.
 ## <a name="prerequisites"></a>Conditions préalables
 Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Conditions requises si vous utilisez Microsoft Dynamics 365 for Finance and Operations 
-Si Dynamics 365 for Finance and Operationsa été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Commandes client**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Conditions requises si vous utilisez Supply Chain Management 
+Si Supply Chain Management a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Commandes client**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure
 Si la version 1611 de Dynamics 365 for Operations avec la mise à jour de plateforme 3 ou ultérieure a été déployée pour votre organisation, l'administrateur système doit effectuer les tâches préalables suivantes. 
@@ -120,7 +120,7 @@ Si la version 1611 de Dynamics 365 for Operations avec la mise à jour de plate
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
-Téléchargez et installez l'application mobile Dynamics 365 for Unified Operations :
+Télécharger et installer l'application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

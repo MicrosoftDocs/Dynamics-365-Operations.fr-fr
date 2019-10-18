@@ -1,6 +1,6 @@
 ---
-title: Nouveautés et modifications dans Dynamics 365 for Talent (16 avril 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés et modifications dans Dynamics 365 Talent (16 avril 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517969"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024135"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Nouveautés et modifications dans Dynamics 365 for Talent (16 avril 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Nouveautés et modifications dans Dynamics 365 Talent (16 avril 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
 
@@ -39,7 +39,7 @@ Vous pouvez désormais suivre les modifications apportées aux candidats, aux po
 
 ## <a name="changes-in-onboard"></a>Modifications apportées à Onboard
 
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Onboard.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 
@@ -47,11 +47,11 @@ Les modifications décrites dans cette section s'appliquent au numéro de versio
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Les entités Région de rémunération, Niveau de rémunération, Option d'avantage et Type de compétence dans Common Data Service ont été mis à jour pour inclure la prise en charge des champs client
 
-Avec cette version, ces entités Common Data Service ont été mises à jour pour inclure la possibilité d'inclure un champ personnalisé ajouté via Talent (Core HR).
+Avec cette version, ces entités Common Data Service ont été mises à jour pour comprendre la possibilité d'inclure un champ personnalisé ajouté via Talent : Core HR.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Nouvelle prise en charge d'entité Common Data Service pour : Règles d'acquisition de la rémunération, Régime variable de rémunération, Rémunération variable
 
-Avec cette version, les entités Règles d'acquisition de la rémunération, Régime variable de rémunération et Rémunération variable ont été ajoutées à Common Data Service. Ces entités prennent également en charge les champs personnalisés ajoutés via Talent (Core HR).
+Avec cette version, les entités Règles d'acquisition de la rémunération, Régime variable de rémunération et Rémunération variable ont été ajoutées à Common Data Service. Ces entités sont également compatibles avec les champs personnalisés ajoutés via Talent : Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problèmes d'actualisation de PowerBI (314342)
 
@@ -95,6 +95,6 @@ Avec cette modification, les doublons sont détectés au moment de renseigner le
 
 ### <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
 
-Avec Platform Update 25, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement.
+Dans Platform Update 25 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement.
 
 

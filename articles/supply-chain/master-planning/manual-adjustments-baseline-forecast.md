@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7c7d1fcaaeef7a01b43886e4d69458dbd942439
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556873"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250712"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
 
@@ -71,7 +71,7 @@ La page **Détails de prévision de la demande** affiche les informations suivan
 **Remarques :**
 
 -   L'intervalle de confiance qui apparaît dans la section **Prévision** de la page représente la différence entre la limite supérieure de l'intervalle de confiance et la limite inférieure de l'intervalle de confiance. Pour afficher des valeurs pour les limites supérieures et inférieures, pointez sur le graphique dans la section **Prévisions et demandes historiques représentées graphiquement**.
--   Si vous utilisez le service Microsoft Azure Machine Learning de prévision de la demande de Finance and Operations, vous pouvez spécifier le pourcentage de niveau de confiance que la prévision générée doit avoir. Un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu'il existe un risque de 5 % que les prévisions de la demande se trouvent en dehors de l'intervalle de confiance.
+-   Si vous utilisez le service Microsoft Azure Machine Learning de prévision de la demande, vous pouvez spécifier le pourcentage de niveau de confiance que la prévision générée doit avoir. Un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu'il existe un risque de 5 % que les prévisions de la demande se trouvent en dehors de l'intervalle de confiance.
 
 Vous pouvez également effectuer des ajustements manuels de la prévision dans la page **Détails de prévision de la demande**, en modifiant les valeurs dans la ligne **Prévision** dans la section **Prévision**.
 

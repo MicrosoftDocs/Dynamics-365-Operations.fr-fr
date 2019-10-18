@@ -1,6 +1,6 @@
 ---
 title: Configurer les noms de champ d'application dans l'application Entreposage
-description: Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Finance and Operations.
+description: Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,24 +19,24 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0162014189ed6bffb17e6718a67eecfd55c334a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548927"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251083"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configurer les noms de champ d'application dans l'application Entreposage
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Finance and Operations. 
+Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Dynamics 365 Supply Chain Management. 
 
-**Remarque :** cette rubrique s'applique aux fonctionnalités du module Gestion des entrepôts. Elle ne s'applique pas aux fonctionnalités du module Gestion des stocks. Finance and Operations - Entreposage est une application que vous pouvez utiliser pour effectuer des tâches d'entrepôt. Vous pouvez définir et configurer les noms de champ utilisés dans l'application, et aussi configurer la priorité d'affectation des noms de champ. Cette rubrique explique comment définir et configurer ces noms et priorités de champ d'application d'entrepôt, et comment les utiliser dans Finance and Operations - Entreposage. Pour des informations détaillées sur la configuration de la connexion à Finance and Operations - Entreposage, reportez-vous au didacticiel [Installation et configuration de Finance and Operations - Entreposage](install-configure-warehousing-app.md)
+**Remarque :** cette rubrique s'applique aux fonctionnalités du module Gestion des entrepôts. Elle ne s'applique pas aux fonctionnalités du module Gestion des stocks. Entreposage est une application que vous pouvez utiliser pour effectuer des tâches d'entrepôt. Vous pouvez définir et configurer les noms de champ utilisés dans l'application, et aussi configurer la priorité d'affectation des noms de champ. Cette rubrique explique comment définir et configurer ces noms et priorités de champ d'application d'entrepôt, et comment les utiliser dans Entreposage. Pour des informations détaillées sur la configuration de la connexion à Entreposage, reportez-vous au didacticiel [Installation et configuration de Entreposage](install-configure-warehousing-app.md)
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurer les noms de champ d'application d'entrepôt
 
-Lorsque vous utilisez Finance and Operations - Entreposage sur votre appareil mobile, vous pouvez configurer l'affichage des métadonnées sur votre appareil dans la page **Noms de champ d'application d'entrepôt**. Dans une nouvelle société de Finance and Operations, sélectionnez **Créer un paramétrage par défaut** pour générer tous les noms de champ qui seront utilisés dans les workflows d'appareil mobile d'entrepôt, puis affectez-leur un mode et un type de saisie favoris. Après avoir généré tous les noms de champ, vous pouvez sélectionner les options de saisie suivantes.
+Lorsque vous utilisez Entreposage sur votre appareil mobile, vous pouvez configurer l'affichage des métadonnées sur votre appareil dans la page **Noms de champ d'application d'entrepôt**. Dans une nouvelle société, sélectionnez **Créer un paramétrage par défaut** pour générer tous les noms de champ qui seront utilisés dans les workflows d'appareil mobile d'entrepôt, puis affectez-leur un mode et un type de saisie favoris. Après avoir généré tous les noms de champ, vous pouvez sélectionner les options de saisie suivantes.
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ Lorsque vous utilisez Finance and Operations - Entreposage sur votre appareil mo
 
 ## <a name="configure-warehouse-app-field-priority"></a>Configurer la priorité du champ d'application d'entrepôt
 
-Sur la page **Priorité du champ d'application d'entrepôt**, vous pouvez classer les noms de champ dans différents groupes de priorité. Cela permet de déterminer quelles informations doivent être affichées sur la page de tâches principale lorsque les magasiniers effectuent des tâches via l'application. Si vous cliquez sur **Créer un paramétrage par défaut**, un ensemble de groupes de priorité par défaut est généré. Vous pouvez créer autant de groupes de priorité que nécessaire, mais seuls trois groupes de priorité seront affichés sur la page de tâches. Lorsque Finance and Operations envoie des métadonnées à l'application, il affecte à chaque champ une priorité relative selon son groupe de priorité, et l'application affiche les trois premiers groupes de priorité contenus dans les métadonnées de la page de tâches. Les métadonnées restantes seront affichées sur une page de détails secondaire. Le tableau ci-dessous présente un exemple de cinq groupes de priorité.
+Sur la page **Priorité du champ d'application d'entrepôt**, vous pouvez classer les noms de champ dans différents groupes de priorité. Cela permet de déterminer quelles informations doivent être affichées sur la page de tâches principale lorsque les magasiniers effectuent des tâches via l'application. Si vous cliquez sur **Créer un paramétrage par défaut**, un ensemble de groupes de priorité par défaut est généré. Vous pouvez créer autant de groupes de priorité que nécessaire, mais seuls trois groupes de priorité seront affichés sur la page de tâches. Lorsque le système envoie des métadonnées à l'application, il affecte à chaque champ une priorité relative selon son groupe de priorité, et l'application affiche les trois premiers groupes de priorité contenus dans les métadonnées de la page de tâches. Les métadonnées restantes seront affichées sur une page de détails secondaire. Le tableau ci-dessous présente un exemple de cinq groupes de priorité.
 
 <table>
 <colgroup>
@@ -143,6 +143,3 @@ Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées 
 --------
 
 [Installation et configuration de Microsoft Dynamics 365 for Finance and Operations – Entreposage](install-configure-warehousing-app.md)
-
-
-

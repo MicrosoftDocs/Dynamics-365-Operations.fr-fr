@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e6d4e9a3ac5635e292b20eba60fe4f010562fdba
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552645"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250093"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Paramètres de commande par défaut pour les dimensions et les variantes de produits
 
@@ -32,7 +32,7 @@ ms.locfileid: "1552645"
 
 [!include [retail name](../includes/retail-name.md)]
 
-Les paramètres de commande par défaut dans Microsoft Dynamics 365 for Finance and Operations définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d'ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l'article, au site, à une variante de produit, ou à une dimension de produit.
+Les paramètres de commande par défaut dans Dynamics 365 Supply Chain Management définissent le site et l'entrepôt d'où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l'indicateur de fin, et la méthode de promesse de commande. Les paramètres de commande par défaut sont utilisés lors de la création de commandes fournisseur, de commandes client, d'ordres de transfert, de journaux de stock, et par la planification pour générer des ordres prévisionnels. Les paramètres de commande par défaut peuvent être spécifiques à l'article, au site, à une variante de produit, ou à une dimension de produit.
 
 Vous pouvez définir les paramètres de commande par défaut sur la page **Paramètres de commande par défaut**. Pour ouvrir cette page, accédez à **Gestion des informations sur les produits** &gt; **Produits** &gt; **Produits lancés** &gt; **Sélectionnez un produit lancé** &gt; sur le Volet d'action **Plan** ou **Gérer le stock** Paramètres de &gt; **la commande** &gt; **Paramètres de commande par défaut**.
 
@@ -74,7 +74,7 @@ Les paramètres de commande de stock par défaut s'appliquent également lors de
 -   Ordres de fabrication prévisionnels
 
 ## <a name="full-definition-of-a-released-product"></a>Définition complète d'un produit lancé
-Lors de la création d'une transaction, vous devez spécifier la définition complète d'un produit lancé sur la ligne avant que Finance and Operations tente d'identifier les paramètres de commande par défaut. La définition complète du produit lancé signifie que le numéro d'article et les dimensions de produit actives, telles que la configuration, la taille, le style et la couleur, sont spécifiés dans la transaction. Par exemple, si vous créez manuellement une ligne de commande fournisseur d'une variante de produit lancé, vous devez spécifier toutes les dimensions de produit requises avant que le site, l'entrepôt, les quantités, et le délai s'affichent par défaut sur la ligne de commande. 
+Lors de la création d'une transaction, vous devez spécifier la définition complète d'un produit lancé sur la ligne afin que Supply Chain Management tente d'identifier les paramètres de commande par défaut. La définition complète du produit lancé signifie que le numéro d'article et les dimensions de produit actives, telles que la configuration, la taille, le style et la couleur, sont spécifiés dans la transaction. Par exemple, si vous créez manuellement une ligne de commande fournisseur d'une variante de produit lancé, vous devez spécifier toutes les dimensions de produit requises avant que le site, l'entrepôt, les quantités, et le délai s'affichent par défaut sur la ligne de commande. 
 
 Tous les paramètres de commande par défaut s'appliquent lors de la création d'une commande ou de lignes de journal. Les quantités et les délais s'affichent uniquement par défaut lorsqu'il y a lieu. Par exemple, lors du comptage d'une ligne de journal, seul le site et l'entrepôt s'affichent par défaut lorsque la ligne est créée. Évidemment, aucune utilisation de valeur par défaut ni aucun vérification de multiples ou de minima ne sont effectuées lors de la création de la ligne ou lors de la validation du journal. 
 
@@ -97,7 +97,7 @@ Pour les produits lancés distincts, vous pouvez définir des paramètres de com
 
 Pour créer des paramètres de commande spécifiques au site, cliquez sur **Nouveau**. Dans **Vue Détails**, renseignez le site dans le champ **Paramètres applicables pour** &gt; **Site**. Dans **Vue Grille**, renseignez le site dans la colonne **Site**. La nouvelle règle obtient automatiquement une nouvelle valeur de classement, supérieure à zéro. Vous pouvez créer autant de règle spécifiques au site que nécessaires et vous pouvez affecter à toutes les règles spécifiques au site le même classement, afin de modéliser qu'elles sont également importantes. 
 
-Si vous vous trouvez dans **Vue Détails**, vous ne pouvez pas obtenir une vue d'ensemble des règles créées pour l'article. Basculez le bouton **Afficher/Masquer la liste** pour afficher les informations de vue d'ensemble. Lorsqu'une ligne de commande de tout type est créée et qu'aucun site n'est fourni, Finance and Operations recherche une règle sans site spécifié. Ceci peut aider à déterminer un site par défaut sur la ligne de commande. Ce site est ensuite utilisé pour rechercher une règle spécifique au site, dans laquelle un entrepôt par défaut peut avoir été défini. Cet entrepôt est appliqué à la ligne de commande.
+Si vous vous trouvez dans **Vue Détails**, vous ne pouvez pas obtenir une vue d'ensemble des règles créées pour l'article. Basculez le bouton **Afficher/Masquer la liste** pour afficher les informations de vue d'ensemble. Lorsqu'une ligne de commande de tout type est créée et qu'aucun site n'est fourni, Supply Chain Management recherche une règle sans site spécifié. Ceci peut aider à déterminer un site par défaut sur la ligne de commande. Ce site est ensuite utilisé pour rechercher une règle spécifique au site, dans laquelle un entrepôt par défaut peut avoir été défini. Cet entrepôt est appliqué à la ligne de commande.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Paramètres de commande spécifiques à la dimension de produit
 
@@ -134,7 +134,7 @@ Vous pouvez créer les régles de paramétrage de commande par défaut suivantes
 
 Les deux règles pour arrêter les anciennes révisions ont le même classement, ce qui signifie qu'elles sont également importantes. Chacun d'elles ont un classement supérieur à la règle de la configuration C1, ce qui signifie qu'elles ont priorité sur la règle de la configuration C1. 
 
-Cet exemple décrit le besoin de classement. Si une commande fournisseur est créée pour la configuration C1 et la révision R2, en l'absence de classement, les deux règles définies pour R2 et C1 serait ambiguës. Pour résoudre l'ambiguïté, Finance and Operations recherche parmi les règles définies dans l'ordre de classement décroissant et applique la première règle applicable. Dans l'exemple actuel, lorsqu'une ligne de commande fournisseur est créée pour la configuration C1 et la révision R2, l'utilisateur reçoit un message d'avertissement que l'article est en attente et qu'il est provoqué par la valeur de révision. Si la règle de la configuration a un classement supérieur à celui de la révision, la création d'une ligne de commande fournisseur pour la configuration C1 et la révision R2 aurait réussi et aucun message « article en attente » n'aurait été envoyé à l'utilisateur. 
+Cet exemple décrit le besoin de classement. Si une commande fournisseur est créée pour la configuration C1 et la révision R2, en l'absence de classement, les deux règles définies pour R2 et C1 serait ambiguës. Pour résoudre l'ambiguïté, Supply Chain Management recherche parmi les règles définies dans l'ordre de classement décroissant et applique la première règle applicable. Dans l'exemple actuel, lorsqu'une ligne de commande fournisseur est créée pour la configuration C1 et la révision R2, l'utilisateur reçoit un message d'avertissement que l'article est en attente et qu'il est provoqué par la valeur de révision. Si la règle de la configuration a un classement supérieur à celui de la révision, la création d'une ligne de commande fournisseur pour la configuration C1 et la révision R2 aurait réussi et aucun message « article en attente » n'aurait été envoyé à l'utilisateur. 
 
 Prenons les régles de paramétrage de commande par défaut suivantes.
 

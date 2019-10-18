@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b3247f693f5934b3fbf83b7b831c7ed221514cb
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 067d1085d9afa04cb76b78393a8a8b9834ce4d8c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783258"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250942"
 ---
 # <a name="maintenance-attribute-types"></a>Types d'attribut de maintenance
 
@@ -42,10 +42,10 @@ Les attributs que vous pouvez paramétrer varient selon l'élément. Par exemple
 
 ## <a name="create-attribute-types"></a>Création de types d'attributs
 
-Vous pouvez créer vos propres types d'attribut. En outre, vous pouvez transférer des dimensions de produit de Microsoft Dynamics 365 for Finance and Operations vers la page **Types d'attributs**.
+Vous pouvez créer vos propres types d'attribut. En outre, vous pouvez transférer des dimensions de produit vers la page **Types d'attributs**.
 
 1. Sélectionnez **Gestion des actifs** \> **Paramétrage** \> **Types d'attributs**.
-2. La première fois que vous paramétrez des types d'attribut, sélectionnez **Créer des dimensions de produit** pour transférer automatiquement des dimensions de produit Finance and Operations standard.
+2. La première fois que vous paramétrez des types d'attribut, sélectionnez **Créer des dimensions de produit** pour transférer automatiquement des dimensions de produit standard.
 3. Sélectionnez **Nouveau** pour créer un type d'attribut.
 4. Dans le champ **Type d'attribut**, entrez un nom pour le type d'attribut.
 5. Entrez une description dans le champ **Description**.

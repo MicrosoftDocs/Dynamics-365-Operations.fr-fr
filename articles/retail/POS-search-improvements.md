@@ -1,6 +1,6 @@
 ---
 title: Recherche de produits et de clients dans le point de vente (PDV)
-description: Cette rubrique fournit une vue d'ensemble des améliorations apportées à la fonctionnalité de recherche de produits et de clients dans Microsoft Dynamics 365 for Retail.
+description: Cette rubrique fournit une vue d'ensemble des améliorations apportées à la fonctionnalité de recherche de produits et de clients dans Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625640"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023680"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Recherche de produits et de clients dans le point de vente (PDV)
 
@@ -99,7 +99,10 @@ La recherche traditionnelle de client peut être un processus relativement long,
 
 ![Raccourcis de recherche de client](./media/SearchShortcutsPOS.png "Raccourcis de recherche de client")
 
-Pour définir des critères de recherche comme raccourcis, l'administrateur doit ouvrir la page **Paramètres Retail** dans Microsoft Dynamics 365 for Finance and Operations, puis, dans l'onglet **Critères de recherche du PDV**, sélectionner tous les critères qui doivent être affichés comme raccourcis.
+
+
+Pour définir des critères de recherche comme raccourcis, l'administrateur doit ouvrir la page **Paramètres Retail** dans Microsoft Dynamics 365 Retail, puis, dans l'onglet **Critères de recherche du PDV**, sélectionner tous les critères qui doivent être affichés comme raccourcis.
+
 
 ![Configurer des raccourcis de recherche](./media/ConfigureShortcutsAX.png "Configurer des raccourcis de recherche")
 
@@ -111,6 +114,6 @@ Le champ **Ordre d'affichage** détermine l'ordre dans lequel les raccourcis son
 > [!NOTE]
 > Une propriété personnalisée qui est ajoutée à l'énumération n'affecte pas l'algorithme de recherche du client standard. En d'autres termes, l'algorithme de recherche du client ne recherche pas dans la propriété personnalisée. Les utilisateurs peuvent utiliser une propriété personnalisée pour les recherches uniquement si cette propriété personnalisée est ajoutée comme raccourci, ou si l'algorithme de recherche par défaut est remplacé.
 
-Dans une prochaine version de Microsoft Dynamics 365 for Retail, les détaillants pourront définir le mode de recherche de client par défaut dans les PDV sur **Rechercher dans tous les magasins**. Cette configuration peut être utile dans les cas où les clients qui ont été créés en dehors des PDV doivent être recherchés immédiatement (par exemple, avant même d'exécuter la tâche de distribution). Une nouvelle option **Mode de recherche de client par défaut** sera disponible dans le profil de fonctionnalité du PDV. Définissez-la sur **Activé** pour définir le mode de recherche par défaut sur **Rechercher dans tous les magasins**. Chaque tentative de recherche d'un client effectuera alors un appel en temps réel au siège.
+Dans une prochaine version de Retail, les détaillants pourront définir le mode de recherche de client par défaut dans les PDV sur **Rechercher dans tous les magasins**. Cette configuration peut être utile dans les cas où les clients qui ont été créés en dehors des PDV doivent être recherchés immédiatement (par exemple, avant même d'exécuter la tâche de distribution). Une nouvelle option **Mode de recherche de client par défaut** sera disponible dans le profil de fonctionnalité du PDV. Définissez-la sur **Activé** pour définir le mode de recherche par défaut sur **Rechercher dans tous les magasins**. Chaque tentative de recherche d'un client effectuera alors un appel en temps réel au siège.
 
 Pour empêcher les problèmes inattendus de performances, cette configuration est masquée derrière un indicateur de version d'évaluation nommé **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Par conséquent, pour afficher le paramètre **Mode de recherche de client par défaut** dans l'interface utilisateur (IU), le détaillant doit créer un ticket de support pour ses environnements de test d'acceptation par l'utilisateur (UAT) et de production. Une fois le ticket réceptionné, l'équipe d'ingénierie collaborera avec le détaillant pour s'assurer que celui-ci effectue le test dans un environnement autre que de production afin de pouvoir évaluer les performances et de mettre en œuvre toutes les optimisations requises.

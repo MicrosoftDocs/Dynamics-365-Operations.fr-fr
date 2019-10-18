@@ -1,6 +1,6 @@
 ---
 title: Planifier la gestion du pointage dans Retail
-description: Cette rubrique décrit les scénarios pris en charge pour la Gestion du pointage de vente au détail dans Microsoft Dynamics 365 for Retail.
+description: Cette rubrique décrit les scénarios pris en charge pour la Gestion du pointage de vente au détail dans Dynamics 365 Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567951"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024981"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Planifier la gestion du pointage dans Retail
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les scénarios pris en charge pour la Gestion du pointage de vente au détail dans Microsoft Dynamics 365 for Retail.
+Cette rubrique décrit les scénarios pris en charge pour la Gestion du pointage de vente au détail dans Dynamics 365 Retail.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Gérer la configuration et la planification des collaborateurs
 
@@ -125,7 +125,7 @@ Sur le PDV :
 
 ## <a name="process-and-manage-time-registrations"></a>Traitement et gestion des enregistrements des heures
 
-L'utilisateur de Dynamics 365 for Retail suit le workflow pour calculer, approuver et transférer les enregistrements des heures à la paie.
+L'utilisateur de Retail suit le workflow pour calculer, approuver et transférer les enregistrements des heures à la paie.
 
 ### <a name="primary-operations"></a>Opérations principales
 

@@ -1,6 +1,6 @@
 ---
-title: Obtenir l'application Dynamics 365 for Talent - Onboard
-description: Cette rubrique explique comment obtenir la version autonome de l'application Microsoft Dynamics 365 for Talent - Onboard ou la version incluant le module complémentaire Recrutement complet.
+title: Obtenir l'application Dynamics 365 Talent - Onboard
+description: Cette rubrique explique comment obtenir la version autonome de l'application Microsoft Dynamics 365 Talent - Onboard ou la version incluant le module complémentaire Recrutement complet.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 7bf2e421445e5ca92e995ef581bf61c7978746d2
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731471"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010773"
 ---
-# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>Obtenir l'application Dynamics 365 for Talent : Onboard
+# <a name="get-the-dynamics-365-talent-onboard-app"></a>Obtenir l'application Dynamics 365 Talent: Onboard
 
 [!include [banner](includes/banner.md)]
 
-Vous pouvez afficher une démonstration et essayer l'application Microsoft Dynamics 365 for Talent : Onboard gratuitement à partir de la [page du produit Onboard](https://dynamics.microsoft.com/talent/onboard/).
+Vous pouvez afficher une démonstration et essayer l'application Microsoft Dynamics 365 Talent: Onboard gratuitement à partir de la [page du produit Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 > [!NOTE]
 > La version d'évaluation gratuite nécessite un compte de messagerie professionnel.
 
-Vous pouvez acheter un abonnement à Onboard en tant qu'application autonome ou dans le cadre de Dynamics 365 for Talent. Talent est un système de gestion du capital humain (GCH) complet incluant Dynamics 365 for Talent : Attract, Onboard et Core HR. Pour plus d'informations sur l'achat d'Onboard, consultez la [page du produit Onboard](https://dynamics.microsoft.com/talent/onboard/).
+Vous pouvez acheter un abonnement à Onboard en tant qu'application autonome ou dans le cadre de Dynamics 365 Talent. Talent est un système de gestion du capital humain (GCH) complet incluant Dynamics 365 Talent: Attract, Onboard et Core HR. Pour plus d'informations sur l'achat d'Onboard, consultez la [page du produit Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 Au cours du processus d'évaluation ou d'achat, vous configurerez vos adresse e-mail et mot de passe Microsoft 365. Veillez à bien noter ces valeurs.
 
 > [!WARNING]
 > Vous ne pouvez pas migrer des données de votre version d'évaluation vers votre environnement d'abonnement payant. <!--Reviewers: please verify.-->
 
-Pour découvrir les nouvelles fonctionnalités dans Talent, voir [Nouveautés ou modifications dans Dynamics 365 for Talent](./whats-new.md) et [Notes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Si vous souhaitez afficher un aperçu des nouvelles fonctionnalités dans Onboard, voir [Accéder aux fonctionnalités en version préliminaire dans Talent](./access-preview-feature.md).
+Pour découvrir les nouvelles fonctionnalités dans Talent, voir [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md) et [Notes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Si vous souhaitez afficher un aperçu des nouvelles fonctionnalités dans Onboard, voir [Accéder aux fonctionnalités en version préliminaire dans Talent](./access-preview-feature.md).
 
 Si vous êtes un professionnel de l'informatique et souhaitez en savoir plus sur la mise en service des deux versions de l'application Onboard, voir [Mise en service de l'application Onboard](./modular-app-tech-faq.md).
 

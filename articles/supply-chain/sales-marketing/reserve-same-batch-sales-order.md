@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d6089d07b0f8bc1a36703b5b1c2f24af72770d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 067dd6d3c337378a610ee1fcf6a7812716813bab
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568303"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251728"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Réserver le même lot pour une commande client
 
@@ -38,7 +38,7 @@ Une réservation de lots identiques vous permet de réserver du stock pour une l
 -   **Groupes de dimension de suivi** – Pour le groupe de dimension de suivi, le champ **Plan de couverture par dimension** doit être sélectionné pour le numéro du lot.
 -   **Groupe de dimension de stockage** – Pour le groupe de dimension de stockage, le champ **Plan de couverture par dimension** doit être sélectionné pour le **Site** et l'**Entrepôt**.
 
-Lorsque vous réservez du stock pour un produit sur une ligne de commande client paramétrée pour la sélection du même lot, Microsoft Dynamics 365 for Finance and Operations tente de réserver la quantité commandée dans un seul lot de stock. Il prend également en considération toute demande d'attribut de lot spécifique. Si la quantité ne peut pas être remplie à partir d'un seul lot, la page **Conflit de réservation du même lot** s'affiche. Cette page décrit les problèmes et également les actions que vous pouvez entreprendre pour poursuivre la réservation. Les conditions suivantes peuvent empêcher le lot d'être réservé :
+Lorsque vous réservez du stock pour un produit sur une ligne de commande client paramétrée pour la sélection du même lot, le système tente de réserver la quantité commandée dans un seul lot de stock. Il prend également en considération toute demande d'attribut de lot spécifique. Si la quantité ne peut pas être remplie à partir d'un seul lot, la page **Conflit de réservation du même lot** s'affiche. Cette page décrit les problèmes et également les actions que vous pouvez entreprendre pour poursuivre la réservation. Les conditions suivantes peuvent empêcher le lot d'être réservé :
 
 -   Pour le code disposition de lot, **Bloquer la réservation** pour les ventes est marqué comme **Bloqué**.
 -   Le lot a expiré, d'après la date d'expiration et des jours de vente applicables au client. L'article peut toujours être pris en compte pour la réservation si le Groupe de modèles d'article pour l'article est contrôlé par la date FEFO (première date d'expiration, premier sorti) et si la DLUO est sélectionnée dans les critères de prélèvement.

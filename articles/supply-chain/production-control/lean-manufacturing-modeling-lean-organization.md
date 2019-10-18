@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560138"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250204"
 ---
 # <a name="modeling-a-lean-organization"></a>Modélisation d'une organisation au plus juste
 
@@ -39,7 +39,7 @@ Dans les scénarios de production basés sur des ordres de fabrication, les mati
 
 Pour réduire les délais de livraison et le stock excédentaire entre les centres de travail provoqués par la production par lots, le concept de lean manufacturing introduit les réapprovisionnements de kanban et les supermarchés dans la fabrication et le réapprovisionnement d'entrepôt. En général, ces fonctionnalités perturbent la production des cycles de kanban partiellement indépendants. Le réapprovisionnement d'un kanban pour un produit semi-fini n'est plus déclenché par une commande pour un produit fini. 
 
-Pour rétablir un contexte de production et de coût pour les différents scénarios de kanban proposés dans Microsoft Dynamics 365 for Finance and Operations, les flux de production basés sur l'activité sont présentés comme l'épine dorsale du lean manufacturing. Toutes les règles de kanban se rapportent à cette structure prédéfinie. Le modèle basé sur les activités prend en charge le paramétrage d'un large éventail de scénarios. Toutefois, ce modèle ne complique pas les choses pour les employés de l'atelier, car tous les scénarios utilisent la même interface utilisateur basée sur les activités.
+Pour rétablir un contexte de production et de coût pour les différents scénarios de kanban proposés, les flux de production basés sur l'activité sont présentés comme l'épine dorsale du lean manufacturing. Toutes les règles de kanban se rapportent à cette structure prédéfinie. Le modèle basé sur les activités prend en charge le paramétrage d'un large éventail de scénarios. Toutefois, ce modèle ne complique pas les choses pour les employés de l'atelier, car tous les scénarios utilisent la même interface utilisateur basée sur les activités.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Produits semi-finis (niveaux autres que la nomenclature)
 Lean manufacturing intègre des kanbans pour les produits et les produits semi-finis inventoriés en une structure unique, offrant ainsi une expérience utilisateur unifiée pour tous les incidents. En raison de cette architecture, des niveaux supplémentaires de nomenclature n'ont plus besoin d'être entrés pour permettre d'utiliser des kanbans pour les produits semi-finis. Cette architecture permet également de réduire les mouvements de stock à un minimum.
@@ -50,7 +50,7 @@ La réduction des tailles de traitements par lots à l'état idéal d'un flux un
 ## <a name="value-streams-and-value-stream-mapping"></a>Chaînes de valeur et mise en correspondance de chaînes de valeur
 L'architecture de Lean manufacturing est inspirée des cinq principes formulés par Womack et Jones : Valeur client, chaîne de valeur, flux, tiré et perfection. Une méthode approuvée pour mettre en œuvre des solutions de lean manufacturing dans le monde physique de la fabrication est la mise en correspondance des chaînes de valeur, concept présenté par Rother et Shook dans leur ouvrage « Learning to See » publié par le Lean Manufacturing Institute. 
 
-Dans Finance and Operations, la chaîne de valeur de l'état futur peut être modélisée en tant que version de flux de production. Tous les processus de la chaîne de valeur sont modélisés en tant qu'activités de processus. Les mouvements ou les transferts peuvent être modélisés en tant qu'activités de transfert si le statut de transfert doit être enregistré ou si une intégration dans les prélèvements de stock ou les expéditions consolidées est requise. 
+La chaîne de valeur de l'état futur peut être modélisée en tant que version de flux de production. Tous les processus de la chaîne de valeur sont modélisés en tant qu'activités de processus. Les mouvements ou les transferts peuvent être modélisés en tant qu'activités de transfert si le statut de transfert doit être enregistré ou si une intégration dans les prélèvements de stock ou les expéditions consolidées est requise. 
 
 La chaîne de valeur elle-même est modélisée en tant qu'unité opérationnelle. Par conséquent, la chaîne de valeur peut être utilisée comme dimension financière.
 

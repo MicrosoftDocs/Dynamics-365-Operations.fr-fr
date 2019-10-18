@@ -1,6 +1,6 @@
 ---
-title: Paramétrer l'intégration avec LinkedIn pour AMicrosoft Dynamics 365 for Talent - Attract
-description: Cette rubrique explique comment configurer l'intégration de LinkedIn pour Microsoft Dynamics 365 for Talent - Attract afin de publier facilement des offres d'emploi sur LinkedIn à partir d'Attract, et pour que les recruteurs puissent synchroniser leurs informations de recrutement avec le profil LinkedIn d'un candidat.
+title: Paramétrer l'intégration avec LinkedIn pour AMicrosoft Dynamics 365 Talent - Attract
+description: Cette rubrique explique comment configurer l'intégration de LinkedIn pour Microsoft Dynamics 365 Talent - Attract afin de publier facilement des offres d'emploi sur LinkedIn à partir d'Attract, et pour que les recruteurs puissent synchroniser leurs informations de recrutement avec le profil LinkedIn d'un candidat.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756220"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009967"
 ---
 # <a name="set-up-linkedin-integration"></a>Configurer l'intégration à LinkedIn
 
 [!include[banner](../includes/banner.md)]
 
-Aidez les recruteurs et les responsables du recrutement à attirer les meilleurs talents en configurant l'intégration de LinkedIn avec Microsoft Dynamics 365 for Talent - Attract. Attract vous permet du publier directement des offres d'emploi dans LinkedIn, le plus grand réseau professionnel en ligne.
+Aidez les recruteurs et les responsables du recrutement à attirer les meilleurs talents en configurant l'intégration de LinkedIn avec Microsoft Dynamics 365 Talent: Attract. Attract vous permet du publier directement des offres d'emploi dans LinkedIn, le plus grand réseau professionnel en ligne.
 
 Les postes que vous publiez sur LinkedIn à partir d'Attract sont des offres d'emploi limitées et sont fournies sans coûts supplémentaires pour votre société. Ces listes sont disponibles uniquement via des partenaires de logiciel LinkedIn comme Attract. Elles n'apparaissent pas dans le volet **Carrières** de la page LinkedIn de votre société, car seules les listes payées s'affichent à cet endroit. Toutefois, elles s'affichent lorsque des candidats potentiels affichent toutes les offres d'emploi disponibles. Les offres d'emploi limitées sont également affichées dans les recherches de poste LinkedIn.
 

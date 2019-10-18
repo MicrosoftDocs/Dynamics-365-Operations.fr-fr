@@ -1,6 +1,6 @@
 ---
 title: Configurer les modes de livraison et les frais du centre d'appels
-description: Cette rubrique décrit la procédure de paramétrage des modes de livraison et des frais pour une commande du centre d'appels dans Microsoft Dynamics 365 for Retail.
+description: Cette rubrique décrit la procédure de paramétrage des modes de livraison et des frais pour une commande du centre d'appels dans Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553597"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019483"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurer les modes de livraison et les frais du centre d'appels
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Lorsqu'une commande client est passée dans Microsoft Dynamics 365 for Retail, si la personne qui saisit la commande client est associée à un canal du centre d'appels, une logique et des règles sont utilisées pour valider le mode de livraison et calculer les frais associés à la commande.
+Lorsqu'une commande client est passée dans Dynamics 365 Retail, si la personne qui saisit la commande client est associée à un canal du centre d'appels, une logique et des règles sont utilisées pour valider le mode de livraison et calculer les frais associés à la commande.
 
 Lorsque vous créez une commande client, vous pouvez sélectionner un mode de livraison dans l'en-tête de la commande client et les lignes de la commande client. Par défaut, le mode de livraison sélectionné dans l'en-tête est utilisé pour toutes les lignes de la commande client. Toutefois, vous pouvez remplacer le mode de livraison par défaut sur des lignes individuelles si nécessaire. Vous pouvez également définir un mode de livraison dans un enregistrement client. Ainsi, lorsque des commandes sont créées pour le client, ce mode de livraison est utilisé par défaut dans l'en-tête de la commande client.
 

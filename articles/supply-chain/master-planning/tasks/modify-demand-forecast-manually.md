@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916620"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250643"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modifier une prévision de la demande manuellement
 
@@ -41,5 +41,5 @@ Cette procédure permet d'indiquer comment modifier la prévision pour un articl
 
 ## <a name="modify-the-forecast-in-excel"></a>Modifier la prévision dans Excel
 1. Cliquez sur **Ouvrir** dans Microsoft Office.
-2. Cliquez sur **Modifier la prévision de la demande** dans Excel. Dans Excel, vous pouvez ajouter, supprimer et modifier des lignes de prévision de la demande. Si vous ne pouvez pas afficher les données dans Excel, vous devez vous connecter à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition avec l'option « Maintenir la connexion » activée et vous devez approuver l'application de connexion de données.  
+2. Cliquez sur **Modifier la prévision de la demande** dans Excel. Dans Excel, vous pouvez ajouter, supprimer et modifier des lignes de prévision de la demande. Si vous ne pouvez pas afficher les données dans Excel, vous devez vous connecter avec l'option « Maintenir la connexion » activée et vous devez faire confiance à l'application de connexion de données.  
 

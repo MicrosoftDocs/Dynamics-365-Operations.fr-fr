@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847503"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024635"
 ---
 # <a name="create-maintenance-requests"></a>Créer des demandes de maintenance
 
@@ -41,7 +41,7 @@ La section **Demandes de maintenance actives** du volet **Informations associée
 2. Sélectionnez **Nouveau**.
 3. Dans la boîte de dialogue **Créer une demande**, dans le champ **Type de demande de maintenance**, sélectionnez le type de demande de maintenance. Un type par défaut est proposé.
 4. Dans le champ **Description**, entrez un nom ou un titre décrivant brièvement la demande de maintenance.
-5. Dans les champs **Poste technique** et **Actif**, sélectionnez un poste technique ou un actif, ou la combinaison d'un poste technique et d'un actif, comme vous le souhaitez. Vous pouvez créer une demande de maintenance sans activer d'actif, et l'actif pourra être ajouté à la demande de maintenance ultérieurement. Si l'agent de maintenance qui est connecté à Microsoft Dynamics 365 for Finance and Operations est lié à un actif associé à un actif, le champ **Actif** est automatiquement défini.
+5. Dans les champs **Poste technique** et **Actif**, sélectionnez un poste technique ou un actif, ou la combinaison d'un poste technique et d'un actif, comme vous le souhaitez. Vous pouvez créer une demande de maintenance sans activer d'actif, et l'actif pourra être ajouté à la demande de maintenance ultérieurement. Si l'agent de maintenance qui est connecté est lié à une ressource associée à un actif, le champ **Actif** est automatiquement défini.
 
     Si une demande de maintenance est déjà jointe à l’actif sélectionné, une barre de message apparaît en haut de la boîte de dialogue **Créer une demande** pour vous indiquer l'ID de la demande de maintenance. Une barre de message vous informe également si l'actif est couvert par un accord de garantie.
 

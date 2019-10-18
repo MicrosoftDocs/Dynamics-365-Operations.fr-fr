@@ -1,6 +1,6 @@
 ---
 title: Initialiser les données de départ dans de nouveaux environnements de vente au détail
-description: Cet article décrit les données créées dans le cadre du processus d'initialisation de Microsoft Dynamics 365 for Retail.
+description: Cet article décrit les données créées dans le cadre du processus d'initialisation de Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556896"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025514"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Initialiser les données d'origine dans de nouveaux environnement Retail
 
 [!include [banner](includes/banner.md)]
 
-Cet article décrit les données créées dans le cadre du processus d'initialisation de Microsoft Dynamics 365 for Retail.
+Cet article décrit les données créées dans le cadre du processus d'initialisation de Dynamics 365 Retail.
 
 Une fois la solution Retail déployée via Microsoft Dynamics Lifecycle Services (LCS), vous devez initialiser la configuration de vente au détail pour créer les données de configuration de base.
 
@@ -39,7 +39,7 @@ Une fois la solution Retail déployée via Microsoft Dynamics Lifecycle Services
 
 Pour initialiser la configuration de vente au détail, procédez comme suit.
 
-1. Démarrez le client Dynamics 365 for Retail.
+1. Démarrez le client Retail.
 2. Cliquez sur **Vente au détail** &gt; **Configuration du siège** &gt; **Paramètres** &gt; **Paramètres des ventes au détail**.
 3. Cliquez sur **Initialiser**.
 
@@ -57,7 +57,7 @@ L'initialisation crée les données de configuration par défaut suivantes :
 - Modèles de validation de l'entité
 - Traitement par lots pour vider l'historique des sessions Commerce Data Exchange
 
-En outre, l'enregistrement qui est liée à PCI (Payment Card Industry) est activé pour la base de données Dynamics 365 for Retail.
+En outre, l'enregistrement qui est liée à PCI (Payment Card Industry) est activé pour la base de données Retail.
 
 > [!NOTE]
 > Il existe une option pour configurer séparément Retail Planification. Cette option permet de rétablir les paramètres par défaut de la configuration de Retail Planification.

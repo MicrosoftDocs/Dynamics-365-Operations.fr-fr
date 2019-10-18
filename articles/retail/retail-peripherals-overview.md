@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742631"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025051"
 ---
 # <a name="retail-peripherals"></a>Périphériques de vente au détail
 
@@ -116,9 +116,9 @@ La prise en charge des périphériques de paiement est implémentée par l'inter
 
 ### <a name="opos"></a>OPOS
 
-Pour permettre d'utiliser la plus large gamme possible de périphériques avec Microsoft Dynamics 365 for Retail, la norme OLE pour le secteur des PDV est la principale plateforme de périphériques prise en charge dans Microsoft Dynamics 365 for Retail. La norme OLE pour le secteur des PDV a été produite par NRF (National Retail Federation), qui établit les protocoles de transmission standard pour les périphériques de vente au détail. OPOS est une implémentation largement adoptée de la norme OLE pour le secteur des PDV. Il a été développé dans le milieu des années 1990 et a depuis lors été plusieurs fois actualisé. OPOS fournit une architecture de pilote de périphérique qui permet l'intégration facile des matériels de PDV avec les systèmes de PDV fondés sur Windows. Les contrôles OPOS gèrent les communications entre les matériels compatibles et le logiciel de PDV. Un contrôle OPOS est composé de deux parties :
+Pour permettre d'utiliser la plus large gamme possible de périphériques avec Retail, la norme OLE pour le secteur des PDV est la principale plateforme de périphériques prise en charge. La norme OLE pour le secteur des PDV a été produite par NRF (National Retail Federation), qui établit les protocoles de transmission standard pour les périphériques de vente au détail. OPOS est une implémentation largement adoptée de la norme OLE pour le secteur des PDV. Il a été développé dans le milieu des années 1990 et a depuis lors été plusieurs fois actualisé. OPOS fournit une architecture de pilote de périphérique qui permet l'intégration facile des matériels de PDV avec les systèmes de PDV fondés sur Windows. Les contrôles OPOS gèrent les communications entre les matériels compatibles et le logiciel de PDV. Un contrôle OPOS est composé de deux parties :
 
-- **Objet de contrôle** – L'objet de contrôle pour une classe de périphérique (comme une ligne d'affichage) fournit l'interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d'objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant de PDV de Microsoft Dynamics 365 for Retail. Par conséquent, les tests garantissent que, si Microsoft Dynamics 365 for Retail prend en charge une classe de périphérique via OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n'est pas nécessaire de tester explicitement chaque type de périphérique.
+- **Objet de contrôle** – L'objet de contrôle pour une classe de périphérique (comme une ligne d'affichage) fournit l'interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d'objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant de PDV de Retail. Par conséquent, les tests garantissent que, si Retail prend en charge une classe de périphérique via OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n'est pas nécessaire de tester explicitement chaque type de périphérique.
 - **Objet de service** – L'objet de service fournit les communications entre l'objet de contrôle (CCO) et le périphérique. Généralement, l'objet de service pour un périphérique est fourni par le fabricant de celui-ci. Toutefois, dans certains cas, vous devez télécharger l'objet de service à partir du site Web du fabricant. Par exemple, il peut s'y trouver un objet de service plus récent disponible. Pour trouver l'adresse du site Web du fabricant, consultez la documentation de votre matériel.
 
 [![Objet de contrôle et objet de service](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -126,7 +126,7 @@ Pour permettre d'utiliser la plus large gamme possible de périphériques avec M
 La prise en compte de la norme OLE pour l'implémentation d'OPOS pour les PDV garantit que, si les fabricants de périphérique et les éditeurs de PDV implémentent la norme correctement, les systèmes de PDV et les périphériques pris en charge peuvent fonctionner ensemble, même s'ils n'ont pas été testés ensemble au préalable.
 
 > [!NOTE]
-> La prise en charge d'OPOS ne garantit pas la prise en charge de tous les périphériques dotés de pilotes OPOS. Microsoft Dynamics 365 for Retail doit d'abord prendre en charge ce type de périphérique, ou la classe, via OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.
+> La prise en charge d'OPOS ne garantit pas la prise en charge de tous les périphériques dotés de pilotes OPOS. Retail doit d'abord prendre en charge ce type de périphérique, ou la classe, via OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.
 
 ### <a name="windows"></a>Windows
 
@@ -136,7 +136,7 @@ L'impression de tickets au PDV est optimisée pour OPOS. L'impression via OPOS t
 - les périphériques qui sont connectés via l'imprimante (« en guirlande ») peuvent ne pas fonctionner correctement lors de l'utilisation des pilotes Windows. Par exemple, la caisse enregistreuse peut ne pas s'ouvrir, ou l'imprimante de bordereau peut ne pas fonctionner comme prévu.
 - OPOS prend également en charge un ensemble plus étendu de variables spécifiques aux imprimantes de tickets de vente au détail, telles que l'impression de bordereau ou la coupe du papier.
 
-Si les contrôles OPOS sont disponibles pour l'imprimante Windows que vous utilisez, l'imprimante doit encore fonctionner correctement avec Microsoft Dynamics 365 for Retail.
+Si les contrôles OPOS sont disponibles pour l'imprimante Windows que vous utilisez, l'imprimante doit encore fonctionner correctement avec Retail.
 
 ### <a name="universal-windows-platform"></a>Universal Windows Platform
 
@@ -192,7 +192,7 @@ Vous pouvez spécifier l'adresse IP des périphériques réseau à deux endroits
 
 #### <a name="modern-pos-for-android"></a>Modern POS pour Android
 
-À partir de la version 8.1.3 de Dynamics 365 for Retail, l'application Modern POS pour Android inclut une station matérielle IPC intégrée. Cette station matérielle prend en charge la communication avec les imprimantes réseau et les connecteurs de paiement. Pour plus d'informations, consultez l'article [Documentation de l'application hybride pour Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+À partir de la version 8.1.3 de Retail, l'application Modern POS pour Android inclut une station matérielle IPC intégrée. Cette station matérielle prend en charge la communication avec les imprimantes réseau et les connecteurs de paiement. Pour plus d'informations, consultez l'article [Documentation de l'application hybride pour Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>PDV cloud et Modern POS pour iOS
 
@@ -526,7 +526,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 Pour plus d'informations sur la création de profils matériels, voir [Définir et tenir à jour des clients de canal, y compris des registres et des stations matérielles](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Pour la version 1611 de Microsoft Dynamics 365 for Retail, le profil de station matérielle n'est plus utilisé. Les attributs que vous avez préalablement paramétrés dans le profil de station matérielle font désormais partie de la station matérielle elle-même.
+> Pour la version 1611 de Retail, le profil de station matérielle n'est plus utilisé. Les attributs que vous avez préalablement paramétrés dans le profil de station matérielle font désormais partie de la station matérielle elle-même.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS pour Windows avec une station matérielle IPC (intégrée)
 

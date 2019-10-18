@@ -1,6 +1,6 @@
 ---
 title: Création, approbation et signature des offres
-description: Cette rubrique explique comment créer, approuver, et signer une offre pour un candidat à l'aide de Dynamics 365 for Talent.
+description: Cette rubrique explique comment créer, approuver, et signer une offre pour un candidat à l'aide de Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739631"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008103"
 ---
 # <a name="create-approve-and-sign-offers"></a>Créer, approuver et signer des offres
 
@@ -110,7 +110,7 @@ Il existe plusieurs actions que vous pouvez entreprendre avant d'envoyer l'offre
 Si Adobe Sign a été sélectionné comme mode favori de signature électronique, les créateurs d'offres doivent connecter leur licence Adobe Sign à cette étape. 
 
 ### <a name="docusign"></a>DocuSign
-Si DocuSign a été sélectionné comme mode préféré de signature électronique, les créateurs d'offres doivent connecter leur licence DocuSign à cette étape. Une fois connecté, le compte par défaut et les autorisations associées au profil DocuSign de l'utilisateur sont connectés à Talent Attract. 
+Si DocuSign a été sélectionné comme mode préféré de signature électronique, les créateurs d'offres doivent connecter leur licence DocuSign à cette étape. Une fois connecté, le compte par défaut et les autorisations associées au profil DocuSign de l'utilisateur sont connectés à Talent: Attract. 
 
 -  Vous pouvez afficher et modifier le modèle d'e-mail si nécessaire.
 

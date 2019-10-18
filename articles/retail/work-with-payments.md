@@ -1,6 +1,6 @@
 ---
 title: Modes de paiement dans les centres d'appels
-description: Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d'appels de Microsoft Dynamics 365 for Retail.
+description: Cette rubrique décrit les différentes méthodes de paiement que vous pouvez utiliser dans un centre d'appels de Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 551a3cc9c0def1c67ab930dbff7cd1c0d296bd21
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571517"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018226"
 ---
 # <a name="payment-methods-in-call-centers"></a>Modes de paiement dans les centres d'appels
 
 [!include [banner](includes/banner.md)]
 
-Dans Microsoft Dynamics 365 for Retail, la configuration du canal de centre d'appels inclut un paramètre **Activer l'achèvement de commande**. Ce paramètre permet de garantir que toutes les commandes que les utilisateurs du canal créent sont lancées vers le traitement des commandes uniquement si elles ont un acompte ou un paiement pré-autorisé qui correspond aux tolérances approuvées. Si le paramètre **Activer l'achèvement de la commande** est activé, les utilisateurs du centre d'appels peuvent entrer des paiements pour des commandes client à l'aide des fonctionnalités de traitement des paiements du centre d'appels. Si le paramètre est désactivé, les utilisateurs du centre d'appels ne peuvent pas utiliser les fonctionnalités de traitement de paiement du centre d'appels, mais ils peuvent encore appliquer des acomptes aux commandes client à l'aide de la fonctionnalité de Comptabilité client standard.
+Dans Dynamics 365 Retail, la configuration du canal de centre d'appels inclut un paramètre **Activer l'achèvement de commande**. Ce paramètre permet de garantir que toutes les commandes que les utilisateurs du canal créent sont lancées vers le traitement des commandes uniquement si elles ont un acompte ou un paiement pré-autorisé qui correspond aux tolérances approuvées. Si le paramètre **Activer l'achèvement de la commande** est activé, les utilisateurs du centre d'appels peuvent entrer des paiements pour des commandes client à l'aide des fonctionnalités de traitement des paiements du centre d'appels. Si le paramètre est désactivé, les utilisateurs du centre d'appels ne peuvent pas utiliser les fonctionnalités de traitement de paiement du centre d'appels, mais ils peuvent encore appliquer des acomptes aux commandes client à l'aide de la fonctionnalité de Comptabilité client standard.
 
 Lors de la configuration du canal, une société peut définir les modes de paiement autorisés pour un canal de centre d'appels. Le canal de centre d'appels utilise les mêmes modes de paiement définis pour les canaux de magasin de vente au détail.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865967"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251291"
 ---
 # <a name="sales-agreements-overview"></a>Vue d'ensemble des contrats de vente
 
@@ -99,14 +99,14 @@ Si vous avez créé (lancé) une commande client dans le cadre d'un contrat de v
 | Quantité                                                          | Si vous spécifiez une quantité supérieure à celle indiquée dans une ligne de contrat de vente dont la case à cocher **Le max. est appliqué** est activée, une boîte de dialogue vous invite à enregistrer la quantité modifiée. Cliquez sur **Oui** pour supprimer le lien avec la ligne de contrat de vente et recalculer le prix. Cliquez sur **Non** pour supprimer le lien avec la ligne de contrat de vente sans recalculer le prix.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Retour d'un article commandé à partir d'un contrat de vente
-Lorsqu'un client retourne un produit commandé dans le cadre d'un contrat de vente, Microsoft Dynamics 365 for Finance and Operations peut rechercher et mettre à jour automatiquement l'engagement de contrat de vente associé afin de refléter les modifications de quantité ou de montant. En créant un ordre de retour basé sur la commande client d'origine liée à un contrat de vente, vous établissez une relation entre l'engagement de contrat de vente, la ligne de commande client et la facture d'ordre de retour.  
+Lorsqu'un client retourne un produit commandé dans le cadre d'un contrat de vente, Supply Chain Management peut rechercher et mettre à jour automatiquement l'engagement de contrat de vente associé afin de refléter les modifications de quantité ou de montant. En créant un ordre de retour basé sur la commande client d'origine liée à un contrat de vente, vous établissez une relation entre l'engagement de contrat de vente, la ligne de commande client et la facture d'ordre de retour.  
 
 Si vous ne souhaitez pas déduire la quantité de l'article retourné de l'engagement de contrat de vente, vous pouvez utiliser le contrôle **Supprimer le lien** dans la page **Ordre de retour** pour supprimer le lien entre l'ordre de retour et l'engagement de contrat de vente. Si vous devez rétablir le lien ultérieurement, cliquez **Créer un lien**.  
 
 **Remarque :** un ordre de retour ne peut être lié qu'à un seul contrat de vente. Si un client retourne plusieurs produits commandés dans le cadre de plusieurs contrats de vente, vous devez créer un ordre de retour pour chaque produit et créer un lien vers le contrat de vente correspondant.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Recherche automatique des contrats de vente
-Dans certains cas où les commandes client sont créées indirectement, par exemple lorsque vous créez un avoir ou des commandes client intersociétés, vous pouvez contrôler si Microsoft Dynamics 365 for Finance and Operations recherche automatique des contrats de vente applicables.
+Dans certains cas où les commandes client sont créées indirectement, par exemple lorsque vous créez un avoir ou des commandes client intersociétés, vous pouvez contrôler si le système recherche automatique des contrats de vente applicables.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Dimensions financières sur les contrats de vente
 Vous pouvez copier les dimensions financières vers des en-têtes de document ou des lignes individuelles d'un contrat de vente. Vous pouvez modifier les dimensions de l'en-tête ou de la ligne d'accord à tout moment. Dans ce cas, les dimensions sont automatiquement copiées vers l'en-tête ou la ligne de lancement des ordres de lancement.

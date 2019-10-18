@@ -1,6 +1,6 @@
 ---
 title: Paramétrer la gestion des offres
-description: Cette rubrique décrit comment paramétrer les offres dans Talent.
+description: Cette rubrique décrit comment paramétrer les offres dans Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517983"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010842"
 ---
 # <a name="set-up-offer-management"></a>Paramétrer la gestion des offres 
 
 [!include [banner](includes/banner.md)]
 
-Lorsqu'un candidat est déplacé vers le stade de l'offre dans Dynamics 365 for Talent : Attract, vous devez vous assurer que les offres peuvent être rapidement créées pour le candidat, approuvées au besoin, et soumises au candidat. Comme la plupart des offres sont standard, elles peuvent être créées à partir de modèles réutilisables. Dans Attract, toutes les offres sont regroupées dans un package d'offre, qui est un ensemble d'un ou plusieurs documents d'offre. 
+Lorsqu'un candidat est déplacé vers le stade de l'offre dans Dynamics 365 Talent: Attract, vous devez vous assurer que les offres peuvent être rapidement créées pour le candidat, approuvées au besoin, et soumises au candidat. Comme la plupart des offres sont standard, elles peuvent être créées à partir de modèles réutilisables. Dans Attract, toutes les offres sont regroupées dans un package d'offre, qui est un ensemble d'un ou plusieurs documents d'offre. 
 
 Cette rubrique répertorie toutes les étapes qu'un administrateur Attract doit suivre pour paramétrer différents modèles de package d'offre dans le cadre de la fonctionnalité de gestion des offres d'Attract. Les utilisateurs avec des rôles non-administrateurs n'ont pas accès à ces fonctionnalités.
 

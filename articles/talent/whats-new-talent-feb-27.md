@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent (27 février 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés ou modifications dans Dynamics 365 Talent (27 février 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517980"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023997"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (27 février 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (27 février 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
 
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Attract.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Modifications apportées à Onboard
 
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Onboard.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 
@@ -77,9 +77,9 @@ Cette version comprend d'autres correctifs de bogues mineurs.
 
 Nombreuses sont les organisations où les responsables des bénéfices et de la rémunération ne peuvent accéder qu'à des enregistrements spécifiques en termes de rémunération. Ces enregistrements peuvent concerner des cadres ou des employés régionaux. Cette modification permet aux ressources humaines (RH) de gérer et de tenir à jour les plans de rémunération pour différentes populations d'employés au sein de l'organisation. Les rôles de sécurité qui peuvent être attribués à des plans fixes et variables déterminent l'accès à ces plans et les données des employés qui y sont liées (par exemple, les informations sur les salaires et les enregistrements des primes). Seuls les rôles bénéficiant de l'accès spécifié sont en mesure de traiter la rémunération pour ces employés.
 
-### <a name="platform-update-24"></a>Update 24 de la plateforme
+### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 pour Finance and Operations
 
-Pour en savoir plus sur Microsoft Dynamics 365 for Finance and Operations Platform Update 24 (mars 2019), voir [Fonctionnalités d'aperçu dans Finance and Operations Platform Update (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Pour en savoir plus sur Platform Update 24 pour Microsoft Dynamics 365 Finance and Operations (mars 2019), voir [Fonctionnalités d'aperçu dans Finance and Operations Platform Update 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Mettre à disposition la rémunération fixe des employés pour des futures affectations de poste
 
@@ -87,10 +87,10 @@ Généralement, les employés qui rejoignent une organisation ont un date de dé
 
 ## <a name="known-issues"></a>Problèmes connus
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Modifications apportées au modèle d'intégration Core HR (Talent Common Data Service vers Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Modifications apportées au modèle d'intégration Core HR (Talent Common Data Service vers Finance)
 Le modèle pour Core HR a été mis à jour vers un « modèle de requête avancé ». Par conséquent, par défaut, la requête avancée est disponible pour les projets créés à l'aide de ce modèle. En outre, les fonctions de mise en correspondance par défaut sont visibles uniquement dans l'éditeur de requête avancé. (Les fonctions de mise en correspondance par défaut s'affichent comme « FN » dans les mises en correspondance.)
 
-Pour en savoir plus sur les erreurs de mise en correspondance, voir [Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (14 décembre 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Pour en savoir plus sur les erreurs de mise en correspondance, voir [Nouveautés ou modifications dans Dynamics 365 Talent: Core HR (14 décembre 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Pour utiliser le nouveau modèle, créez un projet et sélectionnez le nouveau modèle d'intégration Talent.
 

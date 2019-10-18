@@ -3,7 +3,7 @@ title: Vue d'ensemble de la maintenance préventive
 description: Cette rubrique explique la maintenance préventive dans le module Gestion des actifs.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b43c795426f40cb43962976824c44a7702d91b7
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875640"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922089"
 ---
 # <a name="preventive-maintenance-overview"></a>Vue d'ensemble de la maintenance préventive
 
@@ -35,7 +35,7 @@ Cette rubrique explique la maintenance préventive dans le module Gestion des ac
 
 Les plans de maintenance sont utilisés à des fins de maintenance préventive et réactive sur les actifs individuels. Les visites de maintenance sont utilisés pour la maintenance préventive sur un groupe ou un ensemble d'actifs. Les plans de maintenance et les visites de maintenance sont utilisés pour générer les propositions des ordres de travail. Les propositions des ordres de travail sont enregistrées comme lignes du programme de maintenance, qui peuvent être regroupées et converties en ordres de travail.
 
-La figure ci-dessous offre une vue d'ensemble du flux de travail depuis la création des plans de maintenance et les visites de maintenance à la création des ordres de travail pour les actifs, selon ces plans de maintenance et visites de maintenance.
+L'illustration suivante offre une vue d'ensemble du flux de travail depuis la création des plans de maintenance et les visites de maintenance à la création des ordres de travail pour les actifs, selon ces plans de maintenance et visites de maintenance.
 
 ![Figure 1](media/01-preventive-maintenance.png)
 

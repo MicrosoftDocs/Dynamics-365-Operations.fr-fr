@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20751acfc012e2ac1eef99c778c5b0353baf1827
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: dd2f27c5797fbd34674e39013ed3e0e40cdb28b2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865847"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251130"
 ---
 # <a name="service-management-overview"></a>Vue d'ensemble du module Gestion des services
 
@@ -48,7 +48,7 @@ Utilisez les outils de génération d'états pour surveiller les marges de comma
 
 ## <a name="business-processes"></a>Processus entreprise
 
-Le schéma suivant présente les processus entreprise généraux associés au module **Gestion des services** et indique à quel niveau les processus de service s'intègrent avec d'autres modules dans Microsoft Dynamics 365 for Finance and Operations.
+Le schéma suivant présente les processus entreprise généraux associés au module **Gestion des services** et indique à quel niveau les processus de service s'intègrent avec d'autres modules.
 
 [![Diagramme de processus entreprise de gestion des services](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 

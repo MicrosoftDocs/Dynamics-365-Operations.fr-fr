@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559147"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249794"
 ---
 # <a name="sales-returns"></a>Retours sur ventes
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559147"
 
 Cette rubrique fournit des informations sur le processus d'ordre de retour. Elle comporte des informations sur les retours client et leurs effets sur l'évaluation des coûts et les quantités de stock disponible.
 
-Les clients peuvent retourner des articles pour différentes raisons. Par exemple, un article peut être défectueux, ou il peut ne pas répondre aux attentes du client. Le processus de retour démarre lorsqu'un client émet une demande de retour d'un article. Une fois la demande client reçue, un ordre de retour est créé dans Microsoft Dynamics 365 for Finance and Operations.
+Les clients peuvent retourner des articles pour différentes raisons. Par exemple, un article peut être défectueux, ou il peut ne pas répondre aux attentes du client. Le processus de retour démarre lorsqu'un client émet une demande de retour d'un article. Une fois la demande client reçue, un ordre de retour est créé.
 
 ## <a name="return-order-process"></a>Processus d'ordre de retour
 L'illustration suivante fournit une vue d'ensemble du processus d'ordre de retour.  
@@ -281,7 +281,7 @@ Ce scénario implique deux sociétés de la même organisation, comme le montre 
 
 ![Retour intersociétés simple](./media/SalesReturn07.png)
 
-La chaîne de commande peut être établie lorsqu'un ordre de retour fournisseur est créée dans la société acheteuse ou qu'un ordre de retour client est créé dans la société vendeuse. Finance and Operations crée la commande correspondante dans l'autre société et s'assure que les informations d'en-tête et de ligne dans l'ordre de retour fournisseur reflètent les paramètres de l'ordre de retour client. L'ordre de retour créé peut inclure ou exclure la référence (**Rechercher une commande client**) à une facture client existante. Les bons de livraison et les factures des deux commandes peuvent être traités individuellement. Par exemple, vous n'êtes pas obligé de générer un bon de livraison pour l'ordre de retour fournisseur avant de générer le bon de livraison pour l'ordre de retour client.
+La chaîne de commande peut être établie lorsqu'un ordre de retour fournisseur est créée dans la société acheteuse ou qu'un ordre de retour client est créé dans la société vendeuse. La commande correspondante est créée dans l'autre société et s'assure que les informations d'en-tête et de ligne dans l'ordre de retour fournisseur reflètent les paramètres de l'ordre de retour client. L'ordre de retour créé peut inclure ou exclure la référence (**Rechercher une commande client**) à une facture client existante. Les bons de livraison et les factures des deux commandes peuvent être traités individuellement. Par exemple, vous n'êtes pas obligé de générer un bon de livraison pour l'ordre de retour fournisseur avant de générer le bon de livraison pour l'ordre de retour client.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Retours à expédition directe entre trois parties
 

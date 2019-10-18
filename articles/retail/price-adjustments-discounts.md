@@ -1,6 +1,6 @@
 ---
 title: Ajustements de prix et remises
-description: Cet article offre des informations relatives aux ajustements de prix et aux rabais dans Microsoft Dynamics 365 for Retail.
+description: Cet article offre des informations relatives aux ajustements de prix et aux rabais dans Dynamics 365 Retail.
 author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61ac8e5fbdc4d91bb5bc5372a7fb96633043473a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9461496cf5334ff0a25361b9b426cacc0aa1f88c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549450"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025239"
 ---
 # <a name="price-adjustments-and-discounts"></a>Ajustements de prix et remises
 
 [!include [banner](includes/banner.md)]
 
-Cet article offre des informations relatives aux ajustements de prix et aux rabais dans Microsoft Dynamics 365 for Retail.
+Cet article offre des informations relatives aux ajustements de prix et aux rabais dans Dynamics 365 Retail.
 
-Dans Dynamics 365 for Retail, vous pouvez procéder à des ajustements de prix concernant les produits, mais aussi paramétrer des remises pour une ligne ou une transaction dans le système PDV, pour une commande client enregistrée par un centre d'appels, ou pour une commande en ligne. Tant les ajustements de prix que les remises peuvent être liés à des groupes de prix. Pour les ajustements de prix et les remises, vous pouvez spécifier une date de début et une date de fin uniques ou une période récurrente, un code remise et quelques attributs supplémentaires. Les ajustements de prix et les remises peuvent être appliqués aux produits, variantes ou catégories. Si plusieurs remises s'appliquent à un produit, un client peut recevoir une des remises ou une remise combinée, selon la configuration de la remise. Dynamics 365 for Retail applique automatiquement la remise ou une combinaison de remises qui fournit le meilleur prix au client. Lorsque vous paramétrez un ajustement de prix ou une remise, veillez à confirmer que les groupes de prix sont affectés aux canaux, catalogues, affiliations ou programmes de fidélité appropriés auxquels vous souhaitez appliquer la remise. En outre, si vous souhaitez générer automatiquement l'ID remise, définissez des souches de numéros dans la page **Paramètres des ventes au détail** avant de définir un nouvel ajustement de prix ou une nouvelle remise.
+Dans Retail, vous pouvez procéder à des ajustements de prix concernant les produits, mais aussi paramétrer des remises pour une ligne ou une transaction dans le système PDV, pour une commande client enregistrée par un centre d'appels, ou pour une commande en ligne. Tant les ajustements de prix que les remises peuvent être liés à des groupes de prix. Pour les ajustements de prix et les remises, vous pouvez spécifier une date de début et une date de fin uniques ou une période récurrente, un code remise et quelques attributs supplémentaires. Les ajustements de prix et les remises peuvent être appliqués aux produits, variantes ou catégories. Si plusieurs remises s'appliquent à un produit, un client peut recevoir une des remises ou une remise combinée, selon la configuration de la remise. Retail applique automatiquement la remise ou une combinaison de remises qui fournit le meilleur prix au client. Lorsque vous paramétrez un ajustement de prix ou une remise, veillez à confirmer que les groupes de prix sont affectés aux canaux, catalogues, affiliations ou programmes de fidélité appropriés auxquels vous souhaitez appliquer la remise. En outre, si vous souhaitez générer automatiquement l'ID remise, définissez des souches de numéros dans la page **Paramètres des ventes au détail** avant de définir un nouvel ajustement de prix ou une nouvelle remise.
 
 > [!NOTE]
 > Vous pouvez supprimer un ajustement de prix ou une remise. Toutefois, les informations statistiques sont perdues.

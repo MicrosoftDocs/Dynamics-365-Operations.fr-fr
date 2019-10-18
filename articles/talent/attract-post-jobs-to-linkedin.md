@@ -1,6 +1,6 @@
 ---
-title: Publier des offres d'emploi sur LinkedIn à partir de Microsoft Dynamics 365 for Talent - Attract
-description: Cette rubrique explique comment utiliser Dynamics 365 for Talent - Attract pour publier des offres d'emploi sur LinkedIn.
+title: Publier des postes sur LinkedIn à partir de Microsoft Dynamics 365 Talent - Attract
+description: Cette rubrique explique comment utiliser Dynamics 365 Talent - Attract pour publier des offres d'emploi sur LinkedIn.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756174"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008241"
 ---
 # <a name="post-jobs-to-linkedin"></a>Publier des postes sur LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn est le plus grand réseau professionnel en ligne et donne accès aux meilleurs talents au monde. Microsoft Dynamics 365 for Talent : Attract vous aide à trouver les talents dont vous avez besoin en vous permettant de publier vos offres d'emploi directement d'Attract vers LinkedIn.
+LinkedIn est le plus grand réseau professionnel en ligne et donne accès aux meilleurs talents au monde. Microsoft Dynamics 365 Talent: Attract vous aide à trouver les talents dont vous avez besoin en vous permettant de publier vos offres d'emploi directement d'Attract vers LinkedIn.
 
 Attract vous permet de publier des offres d'emploi limitées sans frais supplémentaires. Ces listes sont disponibles uniquement via des partenaires de logiciel LinkedIn comme Attract. Elles n'apparaissent pas dans le volet **Carrières** de la page LinkedIn de votre société, car seules les listes payées s'affichent à cet endroit. Toutefois, elles s'affichent lorsque des candidats potentiels affichent toutes les offres d'emploi disponibles. Les offres d'emploi limitées sont également affichées dans les recherches de poste LinkedIn.
 

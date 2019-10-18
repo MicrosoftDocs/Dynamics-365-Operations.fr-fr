@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84b6d3c3caa09b9601701ca4ac1992b151c0b8d4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558998"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249748"
 ---
 [!include[banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ Cette rubrique décrit comment permettre aux collaborateurs d'utiliser leurs app
 
 Une fois les ordres de fabrication lancés dans l'entrepôt, le collaborateur peut utiliser un appareil mobile pour affecter les ordres à un groupement. Le groupement organisera le travail de prélèvement pour le collaborateur. Lorsqu'un ordre de fabrication est affecté à un groupement, le collaborateur doit utiliser le prélèvement de groupement pour effectuer le travail de prélèvement pour l'ordre. Le collaborateur ne peut pas utiliser d'autres méthodes de prélèvement. Si un ordre de fabrication est affecté à un groupement par erreur, le collaborateur doit rompre le groupement et le recréer.
 
-Si nécessaire, un collaborateur peut transmettre un groupement à un autre collaborateur. Le statut du groupement devient alors Transmis. Lorsque le collaborateur utilise un appareil mobile pour indiquer que le travail de prélèvement et de rangement est terminé, l'expédition ou le chargement doit être confirmé dans le client Dynamics 365 for Finance and Operations.
+Si nécessaire, un collaborateur peut transmettre un groupement à un autre collaborateur. Le statut du groupement devient alors Transmis. Lorsque le collaborateur utilise un appareil mobile pour indiquer que le travail de prélèvement et de rangement est terminé, l'expédition ou le chargement doit être confirmé dans le client.
 
 ## <a name="set-up-cluster-picking"></a>Paramétrer le prélèvement du groupement
 

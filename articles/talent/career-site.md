@@ -1,6 +1,6 @@
 ---
-title: Configurer votre site carrière dans Microsoft Dynamics 365 for Talent - Attract
-description: Cette rubrique présente de manière générale la fonctionnalité de site de carrière côté candidat dans Microsoft Dynamics 365 for Talent - Attract.
+title: Configurer votre site carrière dans Microsoft Dynamics 365 Talent - Attract
+description: Cette rubrique présente de manière générale la fonctionnalité de site de carrière côté candidat dans Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739769"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026277"
 ---
 # <a name="set-up-your-career-site"></a>Configurer votre site carrière
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique présente de manière générale la fonctionnalité de site de carrière côté candidat dans Microsoft Dynamics 365 for Talent : Attract. Elle décrit également la procédure de paramétrage de cette fonctionnalité.
+Cette rubrique présente de manière générale la fonctionnalité de site de carrière côté candidat dans Microsoft Dynamics 365 Talent: Attract. Elle décrit également la procédure de paramétrage de cette fonctionnalité.
 
 Attract fournit un site de carrière pour chaque environnement dans un locataire. Par exemple, si une organisation dispose d'un environnement de développement et d'un environnement de test, un site de carrière est mis en service pour l'environnement de développement, et un autre site de carrière est mis en service pour l'environnement de test. Chaque site de carrière est complètement isolé et possède son propre mécanisme d'authentification. Les postes et les profils de candidats ne sont pas partagés entre les sites de carrière.
 
@@ -62,7 +62,7 @@ La liste suivante contient les URL de site de carrière couramment utilisées et
 
 -   **URL de la page d'accueil du site de carrière** - Pour afficher l'URL de la page d'accueil du site de carrière, connectez-vous à Attract comme administrateur, sélectionnez **Centre d'administration** dans le menu **Paramètres**, puis sélectionnez l'onglet **Gestion du site de carrière**.
 
--   **URL de candidature à un poste individuel** - Lorsque vous [publiez une offre d'emploi externe](Creating-jobs-Attract.md#postings) pour la première fois, vous pouvez copier le lien **Postuler** dans l'application Attract. L'URL de ce lien est au format suivant : [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **URL de candidature à un poste individuel** - Lorsque vous [publiez une offre d'emploi externe](Creating-jobs-Attract.md#postings) pour la première fois, vous pouvez copier le lien **Postuler** dans Attract. L'URL de ce lien est au format suivant : [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **URL de candidature à un poste individuel** - L'URL de l'offre d'emploi est une sous-chaîne de l'URL Postuler. Elle est composée de tout jusqu'au numéro du poste. Par conséquent, pour l'URL Postuler précédente, l'URL du poste est [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 
