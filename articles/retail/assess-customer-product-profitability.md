@@ -1,6 +1,6 @@
 ---
 title: Évaluer la rentabilité client et produit
-description: Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu de la rentabilité client et produit, à partir de vos données Microsoft Dynamics 365 for Retail.
+description: Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu de la rentabilité client et produit, à partir de vos données Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,40 +19,40 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 28d4eeaa3fcae33f817690ad496b4b123a5838ce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5a9bebf948bd4602556f70a5a79690621a03261e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561362"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023588"
 ---
-# <a name="assess-customer-and-product-profitability"></a><span data-ttu-id="b2a3b-103">Évaluer la rentabilité client et produit</span><span class="sxs-lookup"><span data-stu-id="b2a3b-103">Assess customer and product profitability</span></span>
+# <a name="assess-customer-and-product-profitability"></a><span data-ttu-id="61144-103">Évaluer la rentabilité client et produit</span><span class="sxs-lookup"><span data-stu-id="61144-103">Assess customer and product profitability</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="b2a3b-104">Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu de la rentabilité client et produit, à partir de vos données Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="b2a3b-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about customers and product profitability from your Microsoft Dynamics 365 for Retail data.</span></span>
+<span data-ttu-id="61144-104">Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu de la rentabilité client et produit, à partir de vos données Dynamics 365 Retail.</span><span class="sxs-lookup"><span data-stu-id="61144-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about customers and product profitability from your Dynamics 365 Retail data.</span></span>
 
-<span data-ttu-id="b2a3b-105">Dans le cadre de Dynamics 365 for Retail, les utilisateurs peuvent étudier la rentabilité des principaux clients (10 à 100) entre différents niveaux de la hiérarchie d'organisation, selon l'un des critères suivants :</span><span class="sxs-lookup"><span data-stu-id="b2a3b-105">As part of Dynamics 365 for Retail, users can study profitability for the top customers (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
+<span data-ttu-id="61144-105">Dans le cadre de Retail, les utilisateurs peuvent étudier la rentabilité des principaux clients (10 à 100) entre différents niveaux de la hiérarchie d'organisation, selon l'un des critères suivants :</span><span class="sxs-lookup"><span data-stu-id="61144-105">As part of Retail, users can study profitability for the top customers (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
-- <span data-ttu-id="b2a3b-106">Montant des ventes</span><span class="sxs-lookup"><span data-stu-id="b2a3b-106">Sales amount</span></span>
-- <span data-ttu-id="b2a3b-107">Quantité</span><span class="sxs-lookup"><span data-stu-id="b2a3b-107">Quantity</span></span>
-- <span data-ttu-id="b2a3b-108">Marge bénéficiaire brut</span><span class="sxs-lookup"><span data-stu-id="b2a3b-108">Gross profit margin</span></span>
-- <span data-ttu-id="b2a3b-109">Pourcentage de marge</span><span class="sxs-lookup"><span data-stu-id="b2a3b-109">Margin percentage</span></span>
+- <span data-ttu-id="61144-106">Montant des ventes</span><span class="sxs-lookup"><span data-stu-id="61144-106">Sales amount</span></span>
+- <span data-ttu-id="61144-107">Quantité</span><span class="sxs-lookup"><span data-stu-id="61144-107">Quantity</span></span>
+- <span data-ttu-id="61144-108">Marge bénéficiaire brut</span><span class="sxs-lookup"><span data-stu-id="61144-108">Gross profit margin</span></span>
+- <span data-ttu-id="61144-109">Pourcentage de marge</span><span class="sxs-lookup"><span data-stu-id="61144-109">Margin percentage</span></span>
 
-<span data-ttu-id="b2a3b-110">Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Principaux clients**, que vous pouvez ouvrir à partir de l'un des emplacements suivants :</span><span class="sxs-lookup"><span data-stu-id="b2a3b-110">For this assessment, you can use the out-of-box **Top customers** report, which you can open from any of the following locations:</span></span>
+<span data-ttu-id="61144-110">Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Principaux clients**, que vous pouvez ouvrir à partir de l'un des emplacements suivants :</span><span class="sxs-lookup"><span data-stu-id="61144-110">For this assessment, you can use the out-of-box **Top customers** report, which you can open from any of the following locations:</span></span>
 
-- <span data-ttu-id="b2a3b-111">Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux clients**</span><span class="sxs-lookup"><span data-stu-id="b2a3b-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top customers report**</span></span>
-- <span data-ttu-id="b2a3b-112">Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des principaux clients**</span><span class="sxs-lookup"><span data-stu-id="b2a3b-112">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top customers report**</span></span>
+- <span data-ttu-id="61144-111">Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux clients**</span><span class="sxs-lookup"><span data-stu-id="61144-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top customers report**</span></span>
+- <span data-ttu-id="61144-112">Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des principaux clients**</span><span class="sxs-lookup"><span data-stu-id="61144-112">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top customers report**</span></span>
 
-<span data-ttu-id="b2a3b-113">De même, les utilisateurs peuvent étudier la rentabilité des principaux produits (10 à 100) entre différents niveaux de la hiérarchie d'organisation, selon l'un des critères suivants :</span><span class="sxs-lookup"><span data-stu-id="b2a3b-113">Likewise, users can study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
+<span data-ttu-id="61144-113">De même, les utilisateurs peuvent étudier la rentabilité des principaux produits (10 à 100) entre différents niveaux de la hiérarchie d'organisation, selon l'un des critères suivants :</span><span class="sxs-lookup"><span data-stu-id="61144-113">Likewise, users can study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
-- <span data-ttu-id="b2a3b-114">Montant des ventes</span><span class="sxs-lookup"><span data-stu-id="b2a3b-114">Sales amount</span></span>
-- <span data-ttu-id="b2a3b-115">Quantité</span><span class="sxs-lookup"><span data-stu-id="b2a3b-115">Quantity</span></span>
-- <span data-ttu-id="b2a3b-116">Marge bénéficiaire brut</span><span class="sxs-lookup"><span data-stu-id="b2a3b-116">Gross profit margin</span></span>
-- <span data-ttu-id="b2a3b-117">Pourcentage de marge</span><span class="sxs-lookup"><span data-stu-id="b2a3b-117">Margin percentage</span></span>
+- <span data-ttu-id="61144-114">Montant des ventes</span><span class="sxs-lookup"><span data-stu-id="61144-114">Sales amount</span></span>
+- <span data-ttu-id="61144-115">Quantité</span><span class="sxs-lookup"><span data-stu-id="61144-115">Quantity</span></span>
+- <span data-ttu-id="61144-116">Marge bénéficiaire brut</span><span class="sxs-lookup"><span data-stu-id="61144-116">Gross profit margin</span></span>
+- <span data-ttu-id="61144-117">Pourcentage de marge</span><span class="sxs-lookup"><span data-stu-id="61144-117">Margin percentage</span></span>
 
-<span data-ttu-id="b2a3b-118">Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Principaux produits**, que vous pouvez ouvrir à partir de l'un des emplacements suivants :</span><span class="sxs-lookup"><span data-stu-id="b2a3b-118">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
+<span data-ttu-id="61144-118">Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Principaux produits**, que vous pouvez ouvrir à partir de l'un des emplacements suivants :</span><span class="sxs-lookup"><span data-stu-id="61144-118">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
-- <span data-ttu-id="b2a3b-119">Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État Principaux produits**</span><span class="sxs-lookup"><span data-stu-id="b2a3b-119">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
-- <span data-ttu-id="b2a3b-120">Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Produits et catégories** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux produits**</span><span class="sxs-lookup"><span data-stu-id="b2a3b-120">**Category and product management** workspace &gt; **Retail** &gt; **Products and categories** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
-- <span data-ttu-id="b2a3b-121">Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État Principaux produits**</span><span class="sxs-lookup"><span data-stu-id="b2a3b-121">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="61144-119">Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État Principaux produits**</span><span class="sxs-lookup"><span data-stu-id="61144-119">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="61144-120">Espace de travail **Gestion des catégories et des produits** &gt; **Vente au détail** &gt; **Produits et catégories** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des principaux produits**</span><span class="sxs-lookup"><span data-stu-id="61144-120">**Category and product management** workspace &gt; **Retail** &gt; **Products and categories** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="61144-121">Section **Recherches et états** &gt; **Vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État Principaux produits**</span><span class="sxs-lookup"><span data-stu-id="61144-121">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
