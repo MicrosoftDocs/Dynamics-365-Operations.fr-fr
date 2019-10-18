@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558802"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026923"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement
 
@@ -31,7 +31,7 @@ ms.locfileid: "1558802"
 
 Cette rubrique décrit comment utiliser les modèles de travail et les instructions d'emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l'entrepôt.
 
-Les instructions que les magasiniers reçoivent sur un appareil mobile sont déterminées par les modèles de travail que vous paramétrez dans Microsoft Dynamics 365 for Finance and Operations afin de définir les divers processus et tâches d'entrepôt. Les modèles de travail déterminent la manière dont le travail est effectuée pour chaque processus d'entrepôt. En liant une instruction d'emplacement à des modèles de travail, vous pouvez garantir que le travail se produit dans des zones physiques spécifiques des entrepôts.
+Les instructions que les magasiniers reçoivent sur un appareil mobile sont déterminées par les modèles de travail Dynamics 365 Supply Chain Management que vous paramétrez afin de définir les divers processus et tâches d'entrepôt. Les modèles de travail déterminent la manière dont le travail est effectuée pour chaque processus d'entrepôt. En liant une instruction d'emplacement à des modèles de travail, vous pouvez garantir que le travail se produit dans des zones physiques spécifiques des entrepôts.
 
 ## <a name="work-templates"></a>Modèles de travail
 La page **Modèles de travail** vous permet de définir les opérations de travail qui doivent être effectuées dans l'entrepôt. Généralement, les opérations de travail d'entrepôt se composent d'une paire d'actions : un magasinier prend un stock disponible dans un emplacement et le range dans un autre emplacement. 

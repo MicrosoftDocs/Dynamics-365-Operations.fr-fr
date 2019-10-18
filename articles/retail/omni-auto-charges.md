@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577867"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018036"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Frais automatiques avancés omnicanaux
 
@@ -34,7 +34,7 @@ Cette rubrique fournit des informations sur la configuration et le déploiement 
 
 Lorsque les fonctionnalités de frais automatiques avancés sont activées, les commandes créées dans tout canal de vente au détail pris en charge (point de vente (PDV), centre d'appels et en ligne) peuvent bénéficier des configurations [frais automatiques](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) définies dans l'application ERP pour les frais associés au niveau de l'en-tête et de la ligne.
 
-Dans les versions antérieures à la version 10.0 de Dynamics 365 for Retail, les configurations [frais automatiques](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sont uniquement accessibles par les commandes créées dans des canaux de commerce électronique et des centres d'appels. Dans les versions 10.0 et ultérieures, les commandes créées en PDV peuvent valoriser les configurations de frais automatiques. Ainsi, les différents frais supplémentaires peuvent systématiquement être ajoutés aux transactions de vente.
+Dans les versions antérieures à la version 10.0 de Retail, les configurations [frais automatiques](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)  sont uniquement accessibles par les commandes créées dans des canaux de commerce électronique et des centres d'appels. Dans les versions 10.0 et ultérieures, les commandes créées en PDV peuvent valoriser les configurations de frais automatiques. Ainsi, les différents frais supplémentaires peuvent systématiquement être ajoutés aux transactions de vente.
 
 Lors de l'utilisation de versions précédentes à la version 10.0, un utilisateur du PDV est invité à saisir manuellement des frais d'expédition pendant la création d'une transaction de PDV « Tout expédier » ou « Expédition sélectionnée ». Même si les différentes fonctions de frais de l'application sont utilisées par rapport à la manière dont les frais sont rédigés dans la commande, aucun calcul systématique n'est fourni. Le calcul est basé sur la saisie de l'utilisateur pour déterminer la valeur des frais. Les frais peuvent être ajoutés uniquement en tant que code de frais associés à l'expédition unique et ne peuvent pas être facilement modifiés ou mis à jour dans le PDV après leur création.
 

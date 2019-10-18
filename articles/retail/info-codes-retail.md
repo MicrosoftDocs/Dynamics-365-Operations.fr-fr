@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6939ed56944ecafb29c1cadd2744b5746b19cb46
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572125"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023362"
 ---
 # <a name="info-codes-and-info-code-groups"></a>Codes info et groupes de codes info
 
@@ -42,7 +42,7 @@ Les codes info fournissent une façon de capturer des données à un registre de
 
 ## <a name="info-codes-group"></a>Groupe de codes info
 
-Dans Dynamics 365 for Retail, vous pouvez créer des groupes de codes info. Les groupes de codes info ajoutent une certaine flexibilité en vous permettant de définir moins de codes info et de les utiliser de façon plus polyvalente. Vous pouvez utiliser les groupes de codes info comme suit :
+Dans Retail, vous pouvez créer des groupes de codes info. Les groupes de codes info ajoutent une certaine flexibilité en vous permettant de définir moins de codes info et de les utiliser de façon plus polyvalente. Vous pouvez utiliser les groupes de codes info comme suit :
 
 - Définir moins codes info et les réutilisez facilement. Les codes info qui sont inclus dans des groupes de codes info n'ont aucune dépendance prédéfinie à d'autres codes info. Vous pouvez inclure le même code info dans plusieurs groupes de codes info, puis utiliser la définition de priorités pour présenter les mêmes codes info dans la commande qui semble correspondre à n'importe quelle situation particulière.
 - Liez les codes info à d'autres codes info ou à des groupes de codes info pour collecter des informations sur un produit ou une transaction sans devoir définir un code info distinct ou un code info lié pour chaque scénario.

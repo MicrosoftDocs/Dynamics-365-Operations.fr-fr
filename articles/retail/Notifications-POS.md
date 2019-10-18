@@ -17,18 +17,19 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 57f4b58a11606a1193a1124a426c837ddfab9533
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577978"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023700"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Afficher les notifications dans le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Dans l'environnement de vente au détail moderne, diverses tâches sont affectées aux associés du magasin, par exemple aider les clients, saisir des transactions, effectuer des inventaires et réceptionner les commandes en magasin. Le client du point de vente (PDV) fournit une application unique aux associés leur permettant d'effectuer toutes ces tâches et bien plus. Du fait que plusieurs tâches doivent être effectuées dans une journée, les associés peuvent devoir être informés lorsqu'un événement nécessite leur attention. L'infrastructure de notification dans le PDV permet aux détaillants de configurer des notifications basées sur les rôles. Dans Microsoft Dynamics 365 for Retail avec la mise à jour d'application 5, ces notifications peuvent être configurées uniquement pour les opérations de PDV.
+Dans l'environnement de vente au détail moderne, diverses tâches sont affectées aux associés du magasin, par exemple aider les clients, saisir des transactions, effectuer des inventaires et réceptionner les commandes en magasin. Le client du point de vente (PDV) fournit une application unique aux associés leur permettant d'effectuer toutes ces tâches et bien plus. Du fait que plusieurs tâches doivent être effectuées dans une journée, les associés peuvent devoir être informés lorsqu'un événement nécessite leur attention. L'infrastructure de notification dans le PDV permet aux détaillants de configurer des notifications basées sur les rôles. Dans Dynamics 365 for Retail avec la mise à jour d'application 5, ces notifications peuvent être configurées uniquement pour les opérations de PDV.
+
 
 Actuellement, le système peut afficher des notifications uniquement pour les opérations d'exécution de commande. Toutefois, comme l'infrastructure est conçue pour être extensible, les développeurs peuvent, le cas échéant, écrire un gestionnaire de notification pour toutes les opérations, et afficher les notifications pour cette opération dans le PDV.
 
@@ -68,7 +69,8 @@ L'illustration suivante présente les paramètres de contenu en direct dans le c
 
 ![Paramètres de contenu en direct dans le concepteur de grille de boutons](./media/ButtonGridDesigner.png "Paramètres de contenu en direct dans le concepteur de grille de boutons")
 
-Pour afficher le nombre de notifications sur un bouton, vous devez vous assurer que la mise en page de l'écran appropriée est mise à jour. Pour déterminer la mise en page de l'écran utilisée par le PDV, sélectionnez l'icône **Paramètres** dans l'angle supérieur droit et notez l'**ID mise en page de l'écran** et **Résolution de mise en page**. Maintenant, à l'aide du navigateur Edge, cliquez sur la page **Mise en page de l'écran** dans Dynamics 365 for Finance and Operations, recherchez l'**ID mise en page de l'écran** et **Résolution de mise en page** identifiés ci-dessus et activez la case à cocher **Activer le contenu en direct**. Accédez à **Vente au détail \> Informatique au détail \> Programme de distribution** et exécutez les 1 090 tâches (Registres) pour synchroniser les modifications de la mise en page.
+Pour afficher le nombre de notifications sur un bouton, vous devez vous assurer que la mise en page de l'écran appropriée est mise à jour. Pour déterminer la mise en page de l'écran utilisée par le PDV, sélectionnez l'icône **Paramètres** dans l'angle supérieur droit et notez l'**ID mise en page de l'écran** et **Résolution de mise en page**. Maintenant, à l'aide du navigateur Edge, cliquez sur la page **Mise en page de l'écran**, recherchez l'**ID mise en page de l'écran** et **Résolution de mise en page** identifiés ci-dessus et activez la case à cocher **Activer le contenu en direct**. Accédez à **Vente au détail \> Informatique au détail \> Programme de distribution** et exécutez les 1 090 tâches (Registres) pour synchroniser les modifications de la mise en page.
+
 
 ![Rechercher la mise en page de l'écran utilisée par POS](./media/Choose_screen_layout.png "Rechercher la mise en page de l'écran ")
 

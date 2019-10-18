@@ -1,6 +1,6 @@
 ---
 title: Mises en page de l'écran de données de démonstration dans Retail Modern POS (MPOS) et Cloud POS
-description: Cette rubrique fournit des informations sur les mises en page d'écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Microsoft Dynamics 365 for Retail.
+description: Cette rubrique fournit des informations sur les mises en page d'écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Dynamics 365 Retail.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c8d2fac82541b768f8e0a31049177bdc1262d44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570642"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019322"
 ---
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Mises en page de l'écran de données de démonstration dans Retail Modern POS (MPOS) et Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur les mises en page d'écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Microsoft Dynamics 365 for Retail.
+Cette rubrique fournit des informations sur les mises en page d'écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Dynamics 365 Retail.
 
 ## <a name="overview"></a>Présentation
 
@@ -40,7 +40,7 @@ Les exemple de mises en page d'écran qui sont inclus dans les données de démo
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomie d'un ID mise en page de l'écran
 
-Pour rechercher des mises en page d'écran dans Retail, accédez à **Retail** \> **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
+Pour rechercher des mises en page d'écran, accédez à **Retail** \> **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
 
 ![Page des mises en page de l'écran dans Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,7 +107,7 @@ Le tableau suivant indique les tailles de mise en page autorisées pour les rés
 \* Ces tailles de mise en page supplémentaires sont disponibles uniquement dans les mises en page Adventure Works et Fabrikam.
 
 > [!TIP]
-> Le PDV sélectionne automatiquement les tailles de mise en page, selon la taille la plus proche disponible pour la résolution d'écran de la fenêtre d'application active. Pour trouver l'ID mise en page de l'écran et la résolution de mise en page qui sont actuellement utilisés, Retail Modern POS (MPOS) ou Retail Cloud POS (CPOS), ouvrez la page **Paramètres**, et consultez la section **Informations de session**. Vous pouvez également afficher la résolution réelle de la fenêtre pour votre trame d'application ou de navigateur actuelle. Une fois que vous disposez de ces informations, vous pouvez trouver la source du contenu de la mise en page dans Retail en accédant à **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
+> Le PDV sélectionne automatiquement les tailles de mise en page, selon la taille la plus proche disponible pour la résolution d'écran de la fenêtre d'application active. Pour trouver l'ID mise en page de l'écran et la résolution de mise en page qui sont actuellement utilisés, Retail Modern POS (MPOS) ou Retail Cloud POS (CPOS), ouvrez la page **Paramètres**, et consultez la section **Informations de session**. Vous pouvez également afficher la résolution réelle de la fenêtre pour votre trame d'application ou de navigateur actuelle. Une fois que vous disposez de ces informations, vous pouvez trouver la source du contenu de la mise en page en accédant à **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
 
 ![Mises en page de l'écran et résolutions/tailles de mise en page dans Retail et PDV](../retail/media/demo-screen-layouts-fig-3-1.png)
 

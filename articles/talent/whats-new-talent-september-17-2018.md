@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (17 septembre 2018)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
+title: Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (17 septembre 2018)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518016"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026028"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (17 septembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Nouveautés ou modifications dans Dynamics 365 Talent: Core HR (17 septembre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 
 Un nouveau type de régularisation a été ajouté aux plans de congés. Le programme de régularisation peut maintenant être basé sur les mois de service ou les heures travaillées. Pour plus d'informations, voir [Accorder des congés sur la base des heures travaillées](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Platform update 18
+## <a name="platform-update-18-for-finance-and-operations"></a>Platform update 18 pour Finance and Operations
 
-Platform update 18 fait maintenant partie de la version de Talent. 
+Platform update 18 pour Finance and Operations fait maintenant partie de la version de Talent. 
 
 -   Les champs obligatoires et autres champs peuvent être masqués via la personnalisation. Cela permet à un utilisateur de créer une expérience simplifiée lorsque des champs obligatoires définis par défaut par la logique métier ne sont pas affichés. Les champs obligatoires masqués sont également temporairement visibles s'ils sont vides lorsque un enregistrement est effectué.
 
--   Dans Platform update 18, le client Web Talent aligne maintenant ses visuels sur Microsoft Fluent Design.
+-   Dans Platform update 18 pour Finance and Operations, le client Web Talent aligne maintenant ses visuels sur Microsoft Fluent Design.
 
     -   Lorsque les champs sont en « mode lecture », vous pouvez simplement sélectionner l'option de modification des champs pour basculer l'écran en mode édition.
 

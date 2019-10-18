@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526013"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025170"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Calculer au prorata les frais d'en-tête par rapport aux lignes de vente correspondantes
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité visant à regrouper les frais automatiques au niveau de l'en-tête et à les calculer au prorata par rapport aux lignes de vente au détail. Cette fonctionnalité est disponible pour les transactions créées au point de vente (PDV) dans la version 10.0.1 de Microsoft Dynamics 365 for Retail et les ventes créées dans un centre d'appels dans la version 10.0.2 de Microsoft Dynamics 365 for Retail.
+Cette rubrique décrit la fonctionnalité visant à regrouper les frais automatiques au niveau de l'en-tête et à les calculer au prorata par rapport aux lignes de vente au détail. Cette fonctionnalité est disponible pour les transactions créées au point de vente (PDV) dans la version 10.0.1 de Retail et les ventes créées dans un centre d'appels dans la version 10.0.2 de Retail.
 
 Cette fonctionnalité n'est disponible que si la fonction des [frais automatiques avancés](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) est activée à l'aide de l'option sur la page **Paramètres des ventes au détail**. En outre, le mode de calcul amélioré pour les frais automatiques peut s'appliquer uniquement aux commandes client créées via les canaux de vente au détail (le PDV, un centre d'appels et la plateforme de commerce électronique Dynamics).
 
 Cette nouvelle fonctionnalité octroie aux organisations plus de flexibilité dans la mesure où les frais automatiques au niveau de l'en-tête sont calculés et appliqués aux transactions de vente au détail.
 
-Dans les versions de Microsoft Dynamics 365 for Retail antérieures à la version 10.0.1, les frais automatiques au niveau de l'en-tête qui ont un mode de livraison spécifiques sont calculés uniquement lorsqu'il y a une correspondance avec le mode de livraison défini sur l'en-tête de la commande client.
+Dans les versions de Retail antérieures à la version 10.0.1, les frais automatiques au niveau de l'en-tête qui ont un mode de livraison spécifiques sont calculés uniquement lorsqu'il y a une correspondance avec le mode de livraison défini sur l'en-tête de la commande client.
 
 Par exemple, les frais automatiques au niveau de l'en-tête sont définis pour le mode de livraison **99** et le mode de livraison **11**. Une commande client est créée, et le mode de livraison **99** est défini sur l'en-tête de la commande. Toutefois, certaines des lignes de vente sont paramétrées pour une expédition via le mode de livraison **11**. Dans ce cas, seuls les frais au niveau de l'en-tête liés au mode de livraison **99** sont pris en compte et appliqués à la commande client.
 
-Dans Dynamics 365 for Retail, les frais au niveau de l'en-tête ont une fonctionnalité supplémentaire qui vous permet de définir une [configuration des frais progressifs](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) selon la valeur de la commande. Par exemple, si la valeur de la commande figure entre 50 USD et 200 USD, une organisation peut facturer des frais de transport de 5 USD. Toutefois, si la valeur de la commande est située entre 200,01 USD et 500 USD, les frais de transport peuvent s'élever à 4 USD.
+Dans Retail, les frais au niveau de l'en-tête ont une fonctionnalité supplémentaire qui vous permet de définir une [configuration des frais progressifs](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery)  selon la valeur de la commande. Par exemple, si la valeur de la commande figure entre 50 USD et 200 USD, une organisation peut facturer des frais de transport de 5 USD. Toutefois, si la valeur de la commande est située entre 200,01 USD et 500 USD, les frais de transport peuvent s'élever à 4 USD.
 
 Certaines organisations souhaitent bénéficier des avantages du calcul des frais progressifs inclus avec les frais au niveau de l'en-tête. Toutefois, dans les scénarios qui impliquent des modes de livraison mixtes, elles souhaitent également veiller à ce que les frais calculés soient basés sur une correspondance avec le mode de livraison définie sur chaque ligne de vente.
 

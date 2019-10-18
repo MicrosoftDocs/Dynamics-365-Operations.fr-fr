@@ -1,6 +1,6 @@
 ---
-title: Accéder aux fonctionnalités d'aperçu de Microsoft Dynamics 365 for Talent
-description: Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu dans Microsoft Dynamics 365 for Talent. Elle répertorie également les fonctionnalités qui sont actuellement activées pour le mode aperçu.
+title: Accéder aux fonctionnalités d'aperçu de Microsoft Dynamics 365 Talent
+description: Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu dans Microsoft Dynamics 365 Talent. Elle répertorie également les fonctionnalités qui sont actuellement activées pour le mode aperçu.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739585"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008700"
 ---
 # <a name="manage-preview-features"></a>Gestion des fonctionnalités d'aperçu
 
 [!include[banner](../includes/banner.md)]
 
-Dans le cadre de notre lancement continu de fonctionnalités de gestion du capital humain (GCH) pour Microsoft Dynamics 365 for Talent, nous souhaitons que nos clients expérimentent de nouvelles fonctionnalités dès que possible. Les administrateurs peuvent afficher et utiliser les fonctionnalités d'aperçu dans leurs environnements. Ces fonctionnalités sont presque prêtes pour la mise à disposition générale et ont fait l'objet de tests étendus. Nous attendons les derniers commentaires et validations des clients avant leur publication pour une disponibilité générale.
+Dans le cadre de notre lancement continu de fonctionnalités de gestion du capital humain (GCH) pour Microsoft Dynamics 365 Talent, nous souhaitons que nos clients expérimentent de nouvelles fonctionnalités dès que possible. Les administrateurs peuvent afficher et utiliser les fonctionnalités d'aperçu dans leurs environnements. Ces fonctionnalités sont presque prêtes pour la mise à disposition générale et ont fait l'objet de tests étendus. Nous attendons les derniers commentaires et validations des clients avant leur publication pour une disponibilité générale.
 
-Cette rubrique décrit comment vous pouvez activer les fonctionnalités d'aperçu. Elle répertorie également les fonctionnalités qui sont actuellement disponibles en mode aperçu. Cette liste sera mise à jour lorsque les fonctionnalités seront mises à la disposition générale et que de nouvelles fonctionnalités seront disponibles en mode aperçu. Aucune notification n'est fournie lorsque de nouvelles fonctionnalités sont disponibles en mode aperçu. Les utilisateurs commenceront simplement à voir les fonctionnalités. Pour plus d'informations sur les nouvelles fonctions dans Talent, voir [Nouveautés ou modifications dans Dynamics 365 for Talent](./whats-new.md) et [Notes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes).
+Cette rubrique décrit comment vous pouvez activer les fonctionnalités d'aperçu. Elle répertorie également les fonctionnalités qui sont actuellement disponibles en mode aperçu. Cette liste sera mise à jour lorsque les fonctionnalités seront mises à la disposition générale et que de nouvelles fonctionnalités seront disponibles en mode aperçu. Aucune notification n'est fournie lorsque de nouvelles fonctionnalités sont disponibles en mode aperçu. Les utilisateurs commenceront simplement à voir les fonctionnalités. Pour plus d'informations sur les nouvelles fonctions dans Talent, voir [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md) et [Notes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Activer ou désactiver les fonctionnalités d'aperçu
 
@@ -42,7 +42,7 @@ Pour accéder aux fonctionnalités d'aperçu, vous devez commencer par les activ
 
 ### <a name="attract"></a>Attract
 
-1. Connectez-vous à Microsoft Dynamics 365 for Talent : Attract.
+1. Connectez-vous à Microsoft Dynamics 365 Talent: Attract.
 2. Dans le menu **Paramétrage** (symbole en forme d'engrenage) dans le coin supérieur droit, sélectionnez **Centre d'administration**.
 3. Sous l'onglet **Gestion des fonctionnalités**, sélectionnez l'option en regard de **Fonctionnalités d'aperçu** afin qu'elle devienne bleu et indique **Activé**.
 
@@ -69,7 +69,7 @@ Pour accéder aux fonctionnalités d'aperçu, vous devez commencer par les activ
 
 ### <a name="onboard"></a>Intégrer
 
-Aucune fonctionnalité d'aperçu n'est actuellement disponible pour Microsoft Dynamics 365 for Talent: Onboard.
+Aucune fonctionnalité d'aperçu n'est actuellement disponible pour Microsoft Dynamics 365 Talent: Onboard.
 
 ## <a name="features-that-are-currently-in-preview"></a>Fonctionnalités actuellement en mode aperçu
 
