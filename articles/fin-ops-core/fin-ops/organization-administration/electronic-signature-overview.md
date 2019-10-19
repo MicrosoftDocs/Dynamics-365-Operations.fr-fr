@@ -1,0 +1,112 @@
+---
+title: Vue d'ensemble des signatures électroniques
+description: Cet article fournit une vue d'ensemble des signatures électroniques et décrit la manière de les utiliser.
+author: maertenm
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.custom: 13611
+ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
+ms.search.region: Global
+ms.author: maertenm
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2177813"
+---
+# <a name="electronic-signatures-overview"></a><span data-ttu-id="2c69a-103">Vue d'ensemble des signatures électroniques</span><span class="sxs-lookup"><span data-stu-id="2c69a-103">Electronic signatures overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="2c69a-104">Cet article fournit une vue d'ensemble des signatures électroniques et décrit la manière de les utiliser.</span><span class="sxs-lookup"><span data-stu-id="2c69a-104">This article provides an overview of electronic signatures and describes how they can be used.</span></span>
+
+## <a name="what-is-an-electronic-signature"></a><span data-ttu-id="2c69a-105">Qu'est-ce qu'une signature électronique ?</span><span class="sxs-lookup"><span data-stu-id="2c69a-105">What is an electronic signature?</span></span>
+
+<span data-ttu-id="2c69a-106">Une signature électronique confirme l'identité d'une personne qui va commencer ou approuver une procédure informatique.</span><span class="sxs-lookup"><span data-stu-id="2c69a-106">An electronic signature confirms the identity of a person who is about to start or approve a computing process.</span></span> <span data-ttu-id="2c69a-107">Dans certains secteurs, une signature électronique représente un engagement juridique aussi important qu'une signature manuscrite.</span><span class="sxs-lookup"><span data-stu-id="2c69a-107">In some industries, an electronic signature is as legally binding as a handwritten signature.</span></span>
+
+<span data-ttu-id="2c69a-108">La signature électronique est un impératif de conformité aux réglementations pour certaines industries réglementées, telles que les industries pharmaceutique, alimentaire et aérospatiale et de défense.</span><span class="sxs-lookup"><span data-stu-id="2c69a-108">Electronic signatures are a regulations compliance requirement for several regulated industries, such as pharmaceuticals, food and beverage, and aerospace and defense.</span></span> <span data-ttu-id="2c69a-109">C'est également un élément requis de la conformité aux réglementations 21 CFR Partie 11 émises par la FDA (Food and Drug Administration) aux États-Unis.</span><span class="sxs-lookup"><span data-stu-id="2c69a-109">They are also required for compliance with regulations in 21 CFR Part 11 that was issued by the Food and Drug Administration (FDA) in the United States.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2c69a-110">Une signature électronique n'est pas une signature numérique.</span><span class="sxs-lookup"><span data-stu-id="2c69a-110">An electronic signature by itself isn't the same as a digital signature.</span></span> <span data-ttu-id="2c69a-111">Une signature électronique n'est qu'un substitut de signature manuscrite, alors qu'une signature numérique est accompagnée de mesures de sécurité supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="2c69a-111">An electronic signature is just a substitute for a handwritten signature, whereas a digital signature provides additional security measures.</span></span> <span data-ttu-id="2c69a-112">Une signature numérique permet d'identifier si un autre utilisateur ou une autre procédure a falsifié les données.</span><span class="sxs-lookup"><span data-stu-id="2c69a-112">A digital signature can help identify whether another user or process has tampered with the data.</span></span> <span data-ttu-id="2c69a-113">Une signature numérique peut également être vérifiée et cette vérification ne peut pas être réfutée par le détenteur du certificat utilisé pour la signature des données.</span><span class="sxs-lookup"><span data-stu-id="2c69a-113">A digital signature can also be verified, and this verification can't be refuted by the owner of the certificate that was used to sign the data.</span></span> <span data-ttu-id="2c69a-114">Conformément à la description ci-dessous, les signatures électroniques disposent d'une fonction de signature numérique intégrée.</span><span class="sxs-lookup"><span data-stu-id="2c69a-114">As described below, electronic signatures have built-in digital signature functionality.</span></span>
+
+## <a name="electronic-signatures"></a><span data-ttu-id="2c69a-115">Signatures électroniques</span><span class="sxs-lookup"><span data-stu-id="2c69a-115">Electronic signatures</span></span>
+
+<span data-ttu-id="2c69a-116">Vous pouvez utiliser des signatures électroniques pour des processus entreprise importants.</span><span class="sxs-lookup"><span data-stu-id="2c69a-116">You can use electronic signatures for critical business processes.</span></span> <span data-ttu-id="2c69a-117">Certains processus disposent d'une fonction de signature électronique intégrée.</span><span class="sxs-lookup"><span data-stu-id="2c69a-117">Some processes have built-in electronic signature capabilities.</span></span> <span data-ttu-id="2c69a-118">Vous pouvez également créer des demandes de signature personnalisées pour les tables et les champs de base de données.</span><span class="sxs-lookup"><span data-stu-id="2c69a-118">You can also create custom signature requirements for any database table and field.</span></span>
+
+<span data-ttu-id="2c69a-119">Les signatures électroniques disposent d'une fonction de signature numérique intégrée.</span><span class="sxs-lookup"><span data-stu-id="2c69a-119">Electronic signatures have built-in digital signature functionality.</span></span> <span data-ttu-id="2c69a-120">Chaque utilisateur qui signe des documents doit obtenir un certificat cryptographique valide.</span><span class="sxs-lookup"><span data-stu-id="2c69a-120">Every user who signs documents must obtain a valid cryptographic certificate.</span></span> <span data-ttu-id="2c69a-121">Lorsqu'un document est signé, la clé privée associée à ce certificat est contrôlée.</span><span class="sxs-lookup"><span data-stu-id="2c69a-121">When a document is signed, the private key that is associated with that certificate is validated.</span></span> <span data-ttu-id="2c69a-122">Les informations de signature électronique sont enregistrées dans un journal pour fournir une piste d'audit.</span><span class="sxs-lookup"><span data-stu-id="2c69a-122">Electronic signature information is recorded in a log to provide an audit trail.</span></span> <span data-ttu-id="2c69a-123">Pour configurer les signatures électroniques, consultez [Paramétrage de signatures électroniques (guide de tâche)](tasks/set-up-electronic-signatures.md).</span><span class="sxs-lookup"><span data-stu-id="2c69a-123">To set up electronic signatures, see [Set up electronic signatures (Task guide)](tasks/set-up-electronic-signatures.md).</span></span>
+
+## <a name="users-who-require-access-to-electronic-signatures"></a><span data-ttu-id="2c69a-124">Utilisateurs ayant besoin d'un accès aux signatures électroniques</span><span class="sxs-lookup"><span data-stu-id="2c69a-124">Users who require access to electronic signatures</span></span>
+
+<span data-ttu-id="2c69a-125">Trois types d'utilisateurs différents ont généralement besoin d'un accès de sécurité aux signatures électroniques : les administrateurs de signature électronique, les signataires et les auditeurs.</span><span class="sxs-lookup"><span data-stu-id="2c69a-125">Three kinds of users typically require security access to electronic signatures: electronic signature administrators, signers, and electronic signature auditors.</span></span>
+
+### <a name="electronic-signature-administrator"></a><span data-ttu-id="2c69a-126">Administrateur de signature électronique</span><span class="sxs-lookup"><span data-stu-id="2c69a-126">Electronic signature administrator</span></span>
+
+<span data-ttu-id="2c69a-127">L'administrateur de signature électronique définit les demandes de signature, les paramètres généraux et les approbateurs, et reçoit des alertes en cas d'échec de la vérification de la signature.</span><span class="sxs-lookup"><span data-stu-id="2c69a-127">The electronic signature administrator sets up signature requirements, general parameters, and approvers, and receives alerts when signatures can't be verified.</span></span> <span data-ttu-id="2c69a-128">Par défaut, un utilisateur qui appartient au rôle de sécurité **Responsable informatique** a l'autorisation d'administrer les signatures électroniques.</span><span class="sxs-lookup"><span data-stu-id="2c69a-128">By default, a user who belongs to the **Information technology manager** security role has permission to administer electronic signatures.</span></span>
+
+### <a name="signer"></a><span data-ttu-id="2c69a-129">Signataire</span><span class="sxs-lookup"><span data-stu-id="2c69a-129">Signer</span></span>
+
+<span data-ttu-id="2c69a-130">Un signataire fournit des signatures électroniques pour des documents et des procédures nécessitant une signature.</span><span class="sxs-lookup"><span data-stu-id="2c69a-130">A signer provides electronic signatures for documents and processes that require signatures.</span></span> <span data-ttu-id="2c69a-131">Par défaut, un utilisateur qui appartient au rôle de sécurité **Utilisateur système** a l'autorisation de signer les documents électroniquement.</span><span class="sxs-lookup"><span data-stu-id="2c69a-131">By default, a user who belongs to the **System user** security role has permission to sign documents electronically.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2c69a-132">Le signataire peut avoir besoin d'autorisations supplémentaires avant qu'un accès soit accordé aux données associées au document ou à la procédure à signer.</span><span class="sxs-lookup"><span data-stu-id="2c69a-132">The signer might require additional permissions before access is granted to data that is related to the document or process that is being signed.</span></span> <span data-ttu-id="2c69a-133">Les utilisateurs qui modifient les données et qui doivent ensuite signer ces modifications doivent avoir l'autorisation de modifier les données.</span><span class="sxs-lookup"><span data-stu-id="2c69a-133">A user who changes data and must then sign for those changes must have permission to change the data.</span></span> <span data-ttu-id="2c69a-134">Un utilisateur qui signe au nom d'un autre utilisateur n'a pas systématiquement besoin d'accéder aux données.</span><span class="sxs-lookup"><span data-stu-id="2c69a-134">A user who signs on behalf of another user might not require access to the data.</span></span> <span data-ttu-id="2c69a-135">Un exemple de ce type d'utilisateur est un superviseur qui signe les modifications d'un l'employé.</span><span class="sxs-lookup"><span data-stu-id="2c69a-135">An example of this kind of user is a supervisor who signs for an employee's changes.</span></span>
+
+### <a name="electronic-signature-auditor"></a><span data-ttu-id="2c69a-136">Auditeur de signature électronique</span><span class="sxs-lookup"><span data-stu-id="2c69a-136">Electronic signature auditor</span></span>
+
+<span data-ttu-id="2c69a-137">L'auditeur de signature électronique revoit le journal de base de données et le journal de révision de la signature disponible dans le journal de base de données.</span><span class="sxs-lookup"><span data-stu-id="2c69a-137">The electronic signature auditor reviews the database log and the signature review log that is available from the database log.</span></span> <span data-ttu-id="2c69a-138">Par défaut, un utilisateur qui appartient au rôle de sécurité **Responsable informatique** a l'autorisation d'auditer les signatures électroniques.</span><span class="sxs-lookup"><span data-stu-id="2c69a-138">By default, a user who belongs to the **Information technology manager** security role has permission to audit electronic signatures.</span></span>
+
+<span data-ttu-id="2c69a-139">Si vous utilisez un rôle différent de **Responsable informatique**, vérifiez que les privilèges suivants sont affectés au rôle :</span><span class="sxs-lookup"><span data-stu-id="2c69a-139">If you use a role other than **Information technology manager**, make sure that the role is assigned the following privileges:</span></span>
+
+- <span data-ttu-id="2c69a-140">Afficher les échecs de signature électronique</span><span class="sxs-lookup"><span data-stu-id="2c69a-140">View electronic signature failures</span></span>
+- <span data-ttu-id="2c69a-141">Afficher le journal de base de données</span><span class="sxs-lookup"><span data-stu-id="2c69a-141">View database log</span></span>
+
+## <a name="signing-documents-electronically"></a><span data-ttu-id="2c69a-142">Signature électronique de documents</span><span class="sxs-lookup"><span data-stu-id="2c69a-142">Signing documents electronically</span></span>
+
+### <a name="get-a-certificate"></a><span data-ttu-id="2c69a-143">Obtention d'un certificat</span><span class="sxs-lookup"><span data-stu-id="2c69a-143">Get a certificate</span></span>
+
+<span data-ttu-id="2c69a-144">Avant de signer électroniquement des documents, vous devez demander un certificat.</span><span class="sxs-lookup"><span data-stu-id="2c69a-144">Before you sign documents electronically, you must request a certificate.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2c69a-145">Microsoft SQL Server utilise des fonctionnalités utilisées pour créer des certificats et activer la signature électronique.</span><span class="sxs-lookup"><span data-stu-id="2c69a-145">Microsoft SQL Server features are used to create certificates and enable electronic signing.</span></span> <span data-ttu-id="2c69a-146">Aucun certificat ou infrastructure de clé publique supplémentaire n'est requis.</span><span class="sxs-lookup"><span data-stu-id="2c69a-146">No additional certificate or public key infrastructure (PKI) is required.</span></span>
+
+<span data-ttu-id="2c69a-147">Lorsque vous demandez un certificat, une clé publique et une clé privée sont créées pour vous.</span><span class="sxs-lookup"><span data-stu-id="2c69a-147">When you request a certificate, a public key and a private key are created for you.</span></span> <span data-ttu-id="2c69a-148">La clé privée est chiffrée à l'aide d'un mot de passe que vous êtes le seul à connaître.</span><span class="sxs-lookup"><span data-stu-id="2c69a-148">The private key is encrypted by using a password that is known only to you.</span></span> <span data-ttu-id="2c69a-149">Lors de la signature électronique d'un document, votre identité est vérifiée lorsque vous entrez le mot de passe.</span><span class="sxs-lookup"><span data-stu-id="2c69a-149">When you sign a document electronically, your identity is verified when you enter the password.</span></span>
+
+<span data-ttu-id="2c69a-150">Pour demander un certificat, sur la page **Options**, dans l'onglet **Comptes**, cliquez sur **Obtenir le certificat**.</span><span class="sxs-lookup"><span data-stu-id="2c69a-150">To request a certificate, on the **Options** page, on the **Accounts** tab, click **Get certificate**.</span></span>
+
+<span data-ttu-id="2c69a-151">Vous devez entrer et confirmer le mot de passe utilisé pour la signature.</span><span class="sxs-lookup"><span data-stu-id="2c69a-151">You must enter and confirm the password that you will use for signing.</span></span> <span data-ttu-id="2c69a-152">Le mot de passe permet de protéger votre clé privée et d'autoriser l'utilisation de votre certificat.</span><span class="sxs-lookup"><span data-stu-id="2c69a-152">The password is used to protect your private key and authorize the use of your certificate.</span></span> <span data-ttu-id="2c69a-153">Ce mot de passe n'est pas stocké dans la base de données et n'est pas disponible pour les autres utilisateurs, notamment l'administrateur.</span><span class="sxs-lookup"><span data-stu-id="2c69a-153">This password isn't stored in the database, and it isn't available to anyone else, not even to the administrator.</span></span>
+
+<span data-ttu-id="2c69a-154">Si vous oubliez le mot de passe lié à votre certificat, ce dernier doit être réinitialisé.</span><span class="sxs-lookup"><span data-stu-id="2c69a-154">If you forget the password that is connected with your certificate, that certificate must be reset.</span></span> <span data-ttu-id="2c69a-155">Si vous réinitialisez le certificat, cette opération n'affecte pas les documents signés à l'aide du certificat précédent.</span><span class="sxs-lookup"><span data-stu-id="2c69a-155">If you reset the certificate, you don't affect documents that you signed by using the previous certificate.</span></span> <span data-ttu-id="2c69a-156">Pour réinitialiser le certificat, sur la page **Options**, cliquez sur **Réinitialiser le certificat**.</span><span class="sxs-lookup"><span data-stu-id="2c69a-156">To reset the certificate, on the **Options** page, click **Reset certificate**.</span></span>
+
+### <a name="sign-a-document-electronically"></a><span data-ttu-id="2c69a-157">Signature électronique d'un document</span><span class="sxs-lookup"><span data-stu-id="2c69a-157">Sign a document electronically</span></span>
+
+<span data-ttu-id="2c69a-158">La page **Signer le document** s'affiche lorsque vous apportez une modification nécessitant une signature électronique.</span><span class="sxs-lookup"><span data-stu-id="2c69a-158">The **Sign document** page is displayed when you make a change that requires an electronic signature.</span></span>
+
+1. <span data-ttu-id="2c69a-159">Sur la page **Signer le document**, cliquez sur l'onglet **Document** pour afficher les modifications apportées au document.</span><span class="sxs-lookup"><span data-stu-id="2c69a-159">On the **Sign document** page, click the **Document** tab to review the changes to the document.</span></span>
+2. <span data-ttu-id="2c69a-160">Sous l'onglet **Signature**, sélectionnez un code de motif.</span><span class="sxs-lookup"><span data-stu-id="2c69a-160">On the **Signature** tab, select a reason code.</span></span>
+3. <span data-ttu-id="2c69a-161">Entrez un commentaire, si un commentaire est requis.</span><span class="sxs-lookup"><span data-stu-id="2c69a-161">Enter a comment, if a comment is required.</span></span>
+4. <span data-ttu-id="2c69a-162">Si votre ID utilisateur ne s'affiche pas dans le champ **Signataire**, sélectionnez-le dans la liste.</span><span class="sxs-lookup"><span data-stu-id="2c69a-162">If your user ID doesn't appear in the **Signer** field, select it in the list.</span></span>
+5. <span data-ttu-id="2c69a-163">Entrez votre emplacement, si cette information est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="2c69a-163">Enter your location, if this information is required.</span></span>
+6. <span data-ttu-id="2c69a-164">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="2c69a-164">Click **OK**.</span></span>
+
+### <a name="sign-for-another-users-changes"></a><span data-ttu-id="2c69a-165">Signature pour les modifications apportées par un autre utilisateur</span><span class="sxs-lookup"><span data-stu-id="2c69a-165">Sign for another user's changes</span></span>
+
+<span data-ttu-id="2c69a-166">Il est possible que vous souhaitiez qu'un utilisateur signe les modifications apportées par un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="2c69a-166">Occasionally, you might want a user to sign for another user's changes.</span></span> <span data-ttu-id="2c69a-167">Par exemple, un superviseur peut être demandé pour signer des modifications apportées par un employé à une nomenclature.</span><span class="sxs-lookup"><span data-stu-id="2c69a-167">For example, a supervisor might be required to sign for changes that an employee makes to a bill of materials (BOM).</span></span> <span data-ttu-id="2c69a-168">Cette procédure permet de désigner un utilisateur qui signe pour un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="2c69a-168">Use this procedure to designate a user as a signer for another user.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2c69a-169">Si un utilisateur signe la modification d'un autre utilisateur, la signature doit être fournie au niveau de la station de travail de l'utilisateur qui a fait la modification.</span><span class="sxs-lookup"><span data-stu-id="2c69a-169">When one user signs for another user's change, the signature must be provided at the workstation of the user who made the change.</span></span> <span data-ttu-id="2c69a-170">L'utilisateur ne peut pas enregistrer la modification tant qu'aucune signature n'a été fournie.</span><span class="sxs-lookup"><span data-stu-id="2c69a-170">The user can't save the change until the signature has been provided.</span></span>
+
+<span data-ttu-id="2c69a-171">Pour désigner des approbateurs, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="2c69a-171">To designate approvers, follow these steps.</span></span>
+
+1. <span data-ttu-id="2c69a-172">Sur la page **Options**, sur l'onglet **Comptes**, cliquez sur **Désigner l’approbateur**.</span><span class="sxs-lookup"><span data-stu-id="2c69a-172">On the **Options** page, on the **Accounts** tab, click **Designate approver**.</span></span>
+2. <span data-ttu-id="2c69a-173">Dans le champ **ID utilisateur approbateur**, sélectionnez l'ID de l'utilisateur qui doit signer les modifications d'un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="2c69a-173">In the **Approver user ID** field, select the ID of the user who must sign for another user's changes.</span></span>
+3. <span data-ttu-id="2c69a-174">Dans le champ **Signer pour l'ID utilisateur**, sélectionnez l'ID de l'utilisateur dont les modifications doivent être signées.</span><span class="sxs-lookup"><span data-stu-id="2c69a-174">In the **Sign for user ID** field, select the ID of the user whose changes must be signed for.</span></span>

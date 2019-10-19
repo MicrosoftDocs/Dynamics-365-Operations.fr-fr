@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (17 janvier 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
+title: Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (17 janvier 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/18/2019
@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-17
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2c09bfb1ca96183541c937a3b641064fe82f8c6
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 724093f13298d44160e3713e7fbc3bc71da75e33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517961"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010358"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-17-2019"></a><span data-ttu-id="a7f8f-103">Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (17 janvier 2019)</span><span class="sxs-lookup"><span data-stu-id="a7f8f-103">What's new or changed in Dynamics 365 for Talent Core HR (January 17, 2019)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-january-17-2019"></a><span data-ttu-id="f6f5f-103">Nouveautés ou modifications dans Dynamics 365 Talent: Core HR (17 janvier 2019)</span><span class="sxs-lookup"><span data-stu-id="f6f5f-103">What's new or changed in Dynamics 365 Talent: Core HR (January 17, 2019)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a7f8f-104">**Version 8.1.2107**</span><span class="sxs-lookup"><span data-stu-id="a7f8f-104">**Build 8.1.2107**</span></span>
+<span data-ttu-id="f6f5f-104">**Version 8.1.2107**</span><span class="sxs-lookup"><span data-stu-id="f6f5f-104">**Build 8.1.2107**</span></span>
 
-<span data-ttu-id="a7f8f-105">Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Core HR.</span><span class="sxs-lookup"><span data-stu-id="a7f8f-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="f6f5f-105">Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Core HR.</span><span class="sxs-lookup"><span data-stu-id="f6f5f-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="minor-changes-and-bug-fixes-included-in-this-release"></a><span data-ttu-id="a7f8f-106">Des modifications d'ordre mineur et des correctifs de bogue ont été inclus dans cette version</span><span class="sxs-lookup"><span data-stu-id="a7f8f-106">Minor changes and bug fixes included in this release</span></span>
+## <a name="minor-changes-and-bug-fixes-included-in-this-release"></a><span data-ttu-id="f6f5f-106">Des modifications d'ordre mineur et des correctifs de bogue ont été inclus dans cette version</span><span class="sxs-lookup"><span data-stu-id="f6f5f-106">Minor changes and bug fixes included in this release</span></span>
 
-### <a name="new-position-assignment-start-datetime-default-has-been-corrected"></a><span data-ttu-id="a7f8f-107">Une nouvelle date/heure de début d'affectation de poste par défaut a été corrigée</span><span class="sxs-lookup"><span data-stu-id="a7f8f-107">New position assignment start date/time default has been corrected</span></span>
-<span data-ttu-id="a7f8f-108">Lors du transfert des employés, le système sélectionnera, par défaut, l'heure/la date au début de la journée, pour le fuseau horaire de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="a7f8f-108">When transferring employees, the system will default the date/time to the date selected and the time at the beginning of the day, for the user's time zone.</span></span>
+### <a name="new-position-assignment-start-datetime-default-has-been-corrected"></a><span data-ttu-id="f6f5f-107">Une nouvelle date/heure de début d'affectation de poste par défaut a été corrigée</span><span class="sxs-lookup"><span data-stu-id="f6f5f-107">New position assignment start date/time default has been corrected</span></span>
+<span data-ttu-id="f6f5f-108">Lors du transfert des employés, le système sélectionnera, par défaut, l'heure/la date au début de la journée, pour le fuseau horaire de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f6f5f-108">When transferring employees, the system will default the date/time to the date selected and the time at the beginning of the day, for the user's time zone.</span></span>
 
-### <a name="all-employees-have-the-same-position-description-in-the-exited-worker-task-management-list"></a><span data-ttu-id="a7f8f-109">Tous les employés ont la même description de poste dans la liste de gestion des tâches des employés ayant quitté la société.</span><span class="sxs-lookup"><span data-stu-id="a7f8f-109">All employees have the same position description in the exited worker task management list</span></span>
-<span data-ttu-id="a7f8f-110">Une mise à jour a été effectuée dans l'espace de travail **Gestion des tâches** pour afficher les descriptions de poste correctes pour tous les employés qui ont récemment quitté la société.</span><span class="sxs-lookup"><span data-stu-id="a7f8f-110">An update has been made in the **Task Management** workspace to display the correct position descriptions for all employees that have recently exited the company.</span></span>
+### <a name="all-employees-have-the-same-position-description-in-the-exited-worker-task-management-list"></a><span data-ttu-id="f6f5f-109">Tous les employés ont la même description de poste dans la liste de gestion des tâches des employés ayant quitté la société.</span><span class="sxs-lookup"><span data-stu-id="f6f5f-109">All employees have the same position description in the exited worker task management list</span></span>
+<span data-ttu-id="f6f5f-110">Une mise à jour a été effectuée dans l'espace de travail **Gestion des tâches** pour afficher les descriptions de poste correctes pour tous les employés qui ont récemment quitté la société.</span><span class="sxs-lookup"><span data-stu-id="f6f5f-110">An update has been made in the **Task Management** workspace to display the correct position descriptions for all employees that have recently exited the company.</span></span>
 
-### <a name="action-requested-by-field-is-now-populated-on-workers-action-page"></a><span data-ttu-id="a7f8f-111">Le champ « Action requise par » est désormais complété sur la page Action des employés.</span><span class="sxs-lookup"><span data-stu-id="a7f8f-111">"Action requested by" field is now populated on Workers action page</span></span>
-<span data-ttu-id="a7f8f-112">Avec cette modification, la valeur par défaut pour le champ **Action demandée par** est désormais l'utilisateur qui demande les modifications.</span><span class="sxs-lookup"><span data-stu-id="a7f8f-112">With this change, the default for the **Action requested by** field is now the user that is requesting the change.</span></span>
+### <a name="action-requested-by-field-is-now-populated-on-workers-action-page"></a><span data-ttu-id="f6f5f-111">Le champ « Action requise par » est désormais complété sur la page Action des employés.</span><span class="sxs-lookup"><span data-stu-id="f6f5f-111">"Action requested by" field is now populated on Workers action page</span></span>
+<span data-ttu-id="f6f5f-112">Avec cette modification, la valeur par défaut pour le champ **Action demandée par** est désormais l'utilisateur qui demande les modifications.</span><span class="sxs-lookup"><span data-stu-id="f6f5f-112">With this change, the default for the **Action requested by** field is now the user that is requesting the change.</span></span>
 
-### <a name="ideas-portal-updated"></a><span data-ttu-id="a7f8f-113">Portail des idées mis à jour</span><span class="sxs-lookup"><span data-stu-id="a7f8f-113">Ideas portal updated</span></span>
-<span data-ttu-id="a7f8f-114">Dans l'application, les liens pour soumettre une idée pour Talent ont été mis à jour avec le nouveau portail Ideas.</span><span class="sxs-lookup"><span data-stu-id="a7f8f-114">In app links to submit an idea for Talent have been updated to the new Ideas portal.</span></span> <span data-ttu-id="a7f8f-115">Toutes les idées saisies dans l'ancien portail ont été migrées, de telle sorte que toutes vos idées de génie soient encore là et disponibles pour être validées par d'autres.</span><span class="sxs-lookup"><span data-stu-id="a7f8f-115">All ideas entered in the old portal have been migrated, so all your great ideas are still there and available to be voted on by others.</span></span>  
+### <a name="ideas-portal-updated"></a><span data-ttu-id="f6f5f-113">Portail des idées mis à jour</span><span class="sxs-lookup"><span data-stu-id="f6f5f-113">Ideas portal updated</span></span>
+<span data-ttu-id="f6f5f-114">Dans l'application, les liens pour soumettre une idée pour Talent ont été mis à jour avec le nouveau portail Ideas.</span><span class="sxs-lookup"><span data-stu-id="f6f5f-114">In app links to submit an idea for Talent have been updated to the new Ideas portal.</span></span> <span data-ttu-id="f6f5f-115">Toutes les idées saisies dans l'ancien portail ont été migrées, de telle sorte que toutes vos idées de génie soient encore là et disponibles pour être validées par d'autres.</span><span class="sxs-lookup"><span data-stu-id="f6f5f-115">All ideas entered in the old portal have been migrated, so all your great ideas are still there and available to be voted on by others.</span></span>  
 
