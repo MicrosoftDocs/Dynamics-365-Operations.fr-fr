@@ -1,6 +1,6 @@
 ---
-title: Mettre à jour les guides d'intégration dans Dynamics 365 for Talent - Onboard
-description: Cette rubrique explique comment mettre à jour les guides d'intégration dans Microsoft Dynamics 365 for Talent - Onboard, et comment envoyer les modifications aux guides existants.
+title: Mettre à jour les guides d'intégration dans Dynamics 365 Talent - Onboard
+description: Cette rubrique explique comment mettre à jour les guides d'intégration dans Microsoft Dynamics 365 Talent - Onboard, et comment envoyer les modifications aux guides existants.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731469"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010727"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>Mettre à jour les guides d'intégration dans Dynamics 365 for Talent : Onboard
+# <a name="update-onboarding-guides"></a>Mettre à jour les guides d'intégration
 
 [!include [banner](includes/banner.md)]
 
-Si vous devez apporter des modifications aux guides d'intégration dans Microsoft Dynamics 365 for Talent : Onboard, vous pouvez les mettre à jour et envoyer les modifications, même si vous avez déjà envoyé les guides. Deux options sont disponibles pour mettre à jour un guide d'intégration :
+Si vous devez apporter des modifications aux guides d'intégration dans Microsoft Dynamics 365 Talent: Onboard, vous pouvez les mettre à jour et envoyer les modifications, même si vous avez déjà envoyé les guides. Deux options sont disponibles pour mettre à jour un guide d'intégration :
 
 - Modifiez le guide d'intégration directement, puis enregistrez vos modifications.
 - Modifiez le modèle d'intégration, puis envoyez les modifications à tous les guides d'intégration qui ont été créés à partir de celui-ci.

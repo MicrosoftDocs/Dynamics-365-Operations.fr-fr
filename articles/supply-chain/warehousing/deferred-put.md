@@ -1,6 +1,6 @@
 ---
 title: Traitement différé du travail d'entrepôt
-description: Cette rubrique décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Microsoft Dynamics 365 for Finance and Operations.
+description: Cette rubrique décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863584"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026918"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Traitement différé du travail d'entrepôt
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863584"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-Cette rubrique décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Dynamics 365 Supply Chain Management.
+
 
 La fonctionnalité de traitement différé permet aux collaborateurs de l'entrepôt de continuer à effectuer d'autres tâches pendant que l'opération de vente est traitée en arrière-plan. Le traitement différé est utile lorsque de nombreuses lignes de travail doivent être traitées et que le collaborateur peut laisser ce travail être traité de manière asynchrone. Il est également utile lorsque le serveur peut augmenter de façon ponctuelle ou imprévue le temps de traitement, et que le temps de traitement accru peut affecter la productivité de l'utilisateur.
 

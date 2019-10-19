@@ -1,6 +1,6 @@
 ---
-title: Utiliser la date et l'heure dans Microsoft Dynamics 365 for Talent
-description: Présenter l'utilisation des champs de date et d'heure dans Microsoft Dynamics 365 for Talent. Savoir à quoi s'attendre lors de l'échange de données de date et d'heure dans un écran dans Dynamics 365 for Talent, une source externe, ou Common Data Service.
+title: Utiliser la date et l'heure dans Microsoft Dynamics 365 Talent
+description: Présenter l'utilisation des champs de date et d'heure dans Microsoft Dynamics 365 Talent. Savoir à quoi s'attendre lors de l'échange de données de date et d'heure dans un écran dans Talent, une source externe, ou Common Data Service.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4c652992272ed1a5aecbb4c78f0d11f077149d1
-ms.sourcegitcommit: 46bded82aa072adfedcf443629c2adc69f512c09
+ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1791208"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2007965"
 ---
 # <a name="date-and-time-fields-in-talent"></a>Champs de date et d'heure dans Talent
 
 [!include [banner](includes/banner.md)]
 
-Les champs **Date et heure** sont un concept fondamental dans Dynamics 365 for Talent. Il est important de bien comprendre l'utilisation des données de **Date et heure** dans un écran de Dynamics 365, dans Common Data Service, et des sources externes.
+Les champs **Date et heure** sont un concept fondamental dans Dynamics 365 Talent. Il est important de bien comprendre l'utilisation des données de **Date et heure** dans un écran de Dynamics 365, dans Common Data Service, et des sources externes.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Comprendre la différence entre les types de données du champ Date et Date et heure
 

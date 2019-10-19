@@ -1,6 +1,6 @@
 ---
-title: Nouveautés et modifications dans Dynamics 365 for Talent (2 avril 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés et modifications dans Dynamics 365 Talent (2 avril 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795242"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026070"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Nouveautés et modifications dans Dynamics 365 for Talent (2 avril 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Nouveautés et modifications dans Dynamics 365 Talent (2 avril 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
 
@@ -46,7 +46,7 @@ Vous pouvez personnaliser le contenu des e-mails d'approbation avec de nouveaux 
 Des améliorations apportées à l'onglet **Documents** dans les profils des candidatures et des viviers de talents affichent maintenant le nom et le type de document.
 
 ## <a name="changes-in-onboard"></a>Modifications apportées à Onboard
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Onboard.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.
 
 ## <a name="coming-soon-attract-and-onboard"></a>Prochainement (Attract et Onboard)
 
@@ -56,8 +56,8 @@ Dans Attract et Onboard, les problèmes consignés par les utilisateurs à l'aid
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 Les modifications décrites dans cette section s'appliquent au numéro de version 8.1.2216.
 
-### <a name="platform-update-25"></a>Update 25 de la plateforme
-Pour plus d'informations sur Platform Update 25, voir [Aperçu des fonctionnalités dans Dynamics 365 for Finance and Operations Platform Update 25 (avril 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Platform update 25 pour Finance and Operations
+Pour plus d'informations sur Platform Update 25 pour Finance and Operations, voir [Aperçu des fonctionnalités dans Dynamics 365 for Finance and Operations Platform Update 25 (avril 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Sécurité avancée de la rémunération (fixe et variable)
 Nombreuses sont les organisations où les responsables des avantages et de la rémunération ne peuvent accéder qu'à certains enregistrements de rémunération. Il peut s'agir d'enregistrements concernant des cadres ou des employés régionaux. Cette modification permet aux RH de gérer et de tenir à jour les plans de rémunération pour différents groupes d'employés au sein de l'organisation. Vous pouvez affecter des rôles de sécurité aux régimes fixes et variables. Ces rôles de sécurité déterminent l'accès aux plans et aux données d'employé associées, telles que les enregistrements de salaire ou de prime, de sorte que seuls ces rôles peuvent traiter la rémunération des groupes d'employés.
@@ -79,4 +79,4 @@ Les organisations peuvent exiger des codes motif pour certains types d'absence l
 Avec cette modification, les doublons sont détectés au moment de renseigner les champs de nom. Un champ de statut affiche le nombre de doublons trouvés. Vous pouvez sélectionner le lien fourni pour ouvrir une nouvelle page pour évaluer s'il convient d'utiliser la correspondance détectée. Pour éviter d'interrompre la saisie des données, l'écran des doublons ne s'ouvre pas automatiquement.
 
 ###  <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
-Avec Platform Update 25, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement. 
+Dans Platform Update 25 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement. 

@@ -1,6 +1,6 @@
 ---
 title: Gestion des magasiniers
-description: Cet article décrit la manière dont vous pouvez utiliser Dynamics 365 for Finance and Operations pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
+description: Cet article décrit la manière dont vous pouvez utiliser l'application Dynamics 365 Supply Chain Management - Entreposage pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f0de87e10f9213838dd5e5436b8b5699b19547bf
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572556"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018619"
 ---
 # <a name="manage-warehouse-workers"></a>Gestion des magasiniers
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit la manière dont vous pouvez utiliser Microsoft Dynamics 365 for Finance and Operations pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
+Cet article décrit la manière dont vous pouvez utiliser l'application Dynamics 365 Supply Chain Management - Entreposage pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
 
 Si vous utilisez la fonctionnalité de gestion des entrepôts, toutes les opérations des magasiniers sont appelées *travail*. Les travaux tels que le prélèvement, le déplacement, et l'inventaire du stock disponible sont enregistrés en utilisant des périphériques mobiles. Pour qu'un magasinier puisse effectuer le travail, il doit être associé à un collaborateur dans les Ressources humaines. Chaque compte de **Collaborateur** peut être associé à plusieurs utilisateurs de travail d'entrepôt. Ces utilisateurs de travail peuvent travailler dans différents entrepôts et avoir des niveaux d'accès différents aux menus du périphérique portable. Vous pouvez penser aux utilisateurs de travail d'entrepôt comme plusieurs connexions pour le collaborateur sélectionné. Chaque utilisateur de travail a un entrepôt par défaut, et des workflows spécifiques sont exposés par les articles de menus qui sont accessibles à cet utilisateur de travail. 
 
