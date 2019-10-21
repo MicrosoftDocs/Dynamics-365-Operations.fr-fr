@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe8c4bc8f2efb06de4cb6fd727df93ba1a5d14bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554642"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251339"
 ---
 # <a name="price-simulation"></a>Simulation de prix
 
@@ -51,7 +51,7 @@ Afin de garantir un calcul correct des remises et des prix, l'exécution de simu
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Types de remises dans le cadre d'accords commerciaux
 
-Dans Microsoft Dynamics 365 for Finance and Operations, les accords commerciaux peuvent comprendre quatre types de remises. Vous pouvez paramétrer ces remises pour différents articles, clients ou groupes de prix, et les limiter par date. Afin d'éviter toute erreur de calcul, les accords commerciaux doivent être pris en compte lors des simulations de prix. Voici les quatre types de remises inclus dans les accords commerciaux :
+Dans Microsoft Supply Chain Management, les accords commerciaux peuvent comprendre quatre types de remises. Vous pouvez paramétrer ces remises pour différents articles, clients ou groupes de prix, et les limiter par date. Afin d'éviter toute erreur de calcul, les accords commerciaux doivent être pris en compte lors des simulations de prix. Voici les quatre types de remises inclus dans les accords commerciaux :
 
 -   **Prix de vente** : un prix de vente distinct peut être spécifié pour chaque article. Lors de la création de lignes de devis, le programme recherche le prix de vente approprié d'un article et le transfère vers les lignes de devis. Par conséquent, un accord commercial comportant ce type de remise n'a aucune incidence sur la simulation de prix. Le prix de vente utilisé dans la ligne de devis reflète l'accord commercial.
 -   **Remise ligne** : des remises spéciales sont spécifiées pour les articles, en fonction de la quantité commandée. La valeur de la remise ligne est généralement soustraite des montants des lignes avant l'exécution d'une simulation de prix. Par conséquent, un accord commercial associé à ce type de remise a une incidence sur la simulation de prix.

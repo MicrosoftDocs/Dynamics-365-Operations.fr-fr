@@ -1,6 +1,6 @@
 ---
 title: Définir et tenir à jour les canaux de vente au détail
-description: Cette rubrique fournit une vue d'ensemble du processus de paramétrage des magasins traditionnels, qui sont appelés des magasins de vente au détail dans Microsoft Dynamics 365 for Retail. Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail.
+description: Cette rubrique fournit une vue d'ensemble du processus de paramétrage des magasins traditionnels, qui sont appelés des magasins de vente au détail dans Dynamics 365 Retail. Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560347"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019368"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Définir et tenir à jour les canaux de vente au détail
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble du processus de paramétrage des magasins traditionnels, qui sont appelés des magasins de vente au détail dans Microsoft Dynamics 365 for Retail. Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail.
+Cette rubrique fournit une vue d'ensemble du processus de paramétrage des magasins traditionnels, qui sont appelés des magasins de vente au détail dans Dynamics 365 Retail. Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail.
 
-Dynamics 365 for Retail prend en charge plusieurs canaux de vente au détail, tels que les magasins en ligne, les centres d'appels et les magasins traditionnels. Les magasins physiques sont également appelés magasins de vente au détail. Chaque magasin de vente au détail peut proposer son propre mode de paiement, ses propres groupes de prix, ses propres caisses enregistreuses de PDV, ses propres comptes de revenus et de dépenses et son propre personnel. Vous devez définir tous ces éléments pour un magasin de vente au détail avant de le créer. Une fois le magasin de vente au détail créé, vous affectez les produits dont vous souhaitez la présence dans ce magasin. Vous affectez également des employés, des caisses enregistreuses et des clients au magasin. Enfin, vous ajoutez le nouveau magasin à une hiérarchie d'organisation.
+Retail prend en charge plusieurs canaux de vente au détail, tels que les magasins en ligne, les centres d'appels et les magasins traditionnels. Les magasins physiques sont également appelés magasins de vente au détail. Chaque magasin de vente au détail peut proposer son propre mode de paiement, ses propres groupes de prix, ses propres caisses enregistreuses de PDV, ses propres comptes de revenus et de dépenses et son propre personnel. Vous devez définir tous ces éléments pour un magasin de vente au détail avant de le créer. Une fois le magasin de vente au détail créé, vous affectez les produits dont vous souhaitez la présence dans ce magasin. Vous affectez également des employés, des caisses enregistreuses et des clients au magasin. Enfin, vous ajoutez le nouveau magasin à une hiérarchie d'organisation.
 
 ## <a name="setting-up-retail-stores"></a>Paramétrage des magasins de vente au détail
 
-Avant de paramétrer un magasin de vente au détail dans Dynamics 365 for Retail, vous devez exécuter certaines tâches préalables. Vous pouvez ensuite créer le magasin de vente au détail et ajouter des informations.
+Avant de paramétrer un magasin de vente au détail dans Retail, vous devez exécuter certaines tâches préalables. Vous pouvez ensuite créer le magasin de vente au détail et ajouter des informations.
 
 ### <a name="prerequisites"></a>Logiciels requis
 
@@ -55,7 +55,7 @@ Vous devez exécuter certaines tâches préalables avant de paramétrer un magas
 11. Paramétrez les membres du personnel.
 
     > [!NOTE]
-    > Vous devez également attribuer des autorisations appropriées aux collaborateurs pour qu'ils puissent se connecter et effectuer des tâches dans Dynamics 365 for Retail pour le système Retail POS.
+    > Vous devez également attribuer des autorisations appropriées aux collaborateurs pour qu'ils puissent se connecter et effectuer des tâches pour le système Retail POS.
 
 12. Configurez les profils Retail POS à affecter au magasin. Cette tâche inclut plusieurs autres tâches, comme le paramétrage des registres, le paramétrage des profils hors ligne, et le paramétrage des formats de réception et les profils.
 

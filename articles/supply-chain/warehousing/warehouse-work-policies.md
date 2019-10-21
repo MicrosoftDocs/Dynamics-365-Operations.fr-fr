@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a9e05fd2a08921d2718fc239afd56a957f80915
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865110"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251406"
 ---
 # <a name="warehouse-work-policies-overview"></a>Vue d'ensemble des stratégies de travail d'entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Les stratégies de travail d'entrepôt dans Microsoft Dynamics 365 for Finance and Operations contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
+Les stratégies de travail d'entrepôt contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
 
 Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production. Vous pouvez paramétrer la stratégie de travail à l'aide d'une combinaison de **types d'ordres d'exécution**, d'**emplacement de stockage**, et de **produit** Par exemple, le produit L0101 est déclaré comme terminé à l'emplacement de sortie 001. Le produit fini est consommé ultérieurement dans un autre ordre de fabrication à l'emplacement de sortie 001. Dans ce cas, vous pouvez paramétrer une stratégie de travail pour empêcher de créer un travail pour ranger le produit fini lorsque vous déclarez le produit L0101 terminé à l'emplacement de sortie 001. La stratégie de travail est une entité individuelle qui peut être décrite à l'aide des informations suivantes :
 

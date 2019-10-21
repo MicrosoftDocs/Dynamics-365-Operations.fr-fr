@@ -18,18 +18,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 018694c79c6dd64e19b010848aad8acd36b0a9a8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69e5511507512f62a4a6d8b1d189f0bf12f0b0a8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555131"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017433"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Importer les données d'historique pour les prévisions de la demande
 
 [!include [banner](../includes/banner.md)]
 
-Pour garantir la précision des prévisions de la demande, vous devez disposer d'autant de données de demande d'historique que possible par article ou par clé de répartition par article. Si les données de demande d'historique ne sont pas déjà importées, utilisez l'entité de données **Demande externe d'historique** (ReqDemPlanHistoricalExternalDemandEntity) dans Microsoft Dynamics 365 for Finance and Operations pour les importer.
+Pour garantir la précision des prévisions de la demande, vous devez disposer d'autant de données de demande d'historique que possible par article ou par clé de répartition par article. Si les données de demande d'historique ne sont pas déjà importées, utilisez l'entité de données **Demande externe d'historique** (ReqDemPlanHistoricalExternalDemandEntity) dans Dynamics 365 Supply Chain Management pour les importer.
 
 L'espace de travail **Gestion des données** donne une vue d'ensemble de tous les champs de l'entité.
 

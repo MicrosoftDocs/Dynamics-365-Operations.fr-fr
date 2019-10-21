@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874760"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249607"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Catégories de type de tâche de maintenance et types de tâches de maintenance, variantes de type de tâche de maintenance, opérations de tâches de maintenance et listes de contrôle de maintenance
 
@@ -225,7 +225,7 @@ Les modèles de liste de contrôle de maintenance peuvent être utilisés comme 
 26. Pour paramétrer les pièces jointes sur la ligne par défaut d'un type de tâche de maintenance sélectionné, sélectionnez **Joindre des documents**. Les pièces jointes définies sur la ligne par défaut d'un type de tâche de maintenance sont automatiquement incluses dans les lignes de l'ordre de travail qui utilisent cette ligne par défaut.
 27. Sélectionnez **Nouveau**, puis sélectionnez un type de document.
 28. Téléchargez le document ou le fichier.
-29. Définissez les champs de la page **Pièces jointes**. Le paramétrage de la pièce jointe utilise la fonctionnalité de paramétrage de document standard dans Microsoft Dynamics 365 for Finance and Operations.
+29. Définissez les champs de la page **Pièces jointes**. Le paramétrage de la pièce jointe utilise la fonctionnalité de paramétrage de document standard.
 30. Sélectionnez **Enregistrer** pour enregistrer la pièce jointe.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Après avoir créé les combinaisons par défaut de type de tâche de maintenanc
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Mise à jour automatique des prévisions de type de tâche de maintenance
 
-Dans le module Gestion des actifs, vous pouvez automatiquement mettre à jour les modifications apportées aux prévisions de type de tâche de maintenance concernant les coûts horaires, les coûts d'article et les dépenses, qui ont été mises à jour dans Finance and Operations. Vous pouvez ainsi aider à garantir que les prévisions de type de tâche de maintenance utilisent toujours les derniers prix de revient.
+Dans le module Gestion des actifs, vous pouvez automatiquement mettre à jour les modifications apportées aux prévisions de type de tâche de maintenance concernant les coûts horaires, les coûts d'article et les dépenses, qui ont été mises à jour dans d'autres modules. Vous pouvez ainsi aider à garantir que les prévisions de type de tâche de maintenance utilisent toujours les derniers prix de revient.
 
 1. Sélectionnez **Gestion des actifs** \> **Périodique** \> **Prévision** \> **Mettre à jour les prévisions de type de tâche de maintenance**.
 2. Dans la boîte de dialogue **Mettre à jour les prévisions de type de tâche de maintenance**, sous le raccourci **Enregistrements à inclure**, vous pouvez ajouter des sélections pour les types de tâches de maintenance spécifiques comme vous le souhaitez. Sélectionnez **Filtre**, puis sélectionnez **Sélection** pour effectuer les sélections.

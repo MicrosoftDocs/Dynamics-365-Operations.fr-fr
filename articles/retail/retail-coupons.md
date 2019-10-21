@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 449a1f574cd32860cbdc2e43f21be1d3d692768f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553551"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025100"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Définir des coupons pour les ventes au détail
 
@@ -37,10 +37,10 @@ Chaque coupon est associé à une remise de vente au détail. Les groupes de pri
 
 Les coupons sont essentiellement une validation supplémentaire en plus des remises de vente au détail. Le coupon fournit les codes de coupon et les codes-barres requis, ainsi que les plages de dates pour ces codes. Le coupon fournit également les limites d'utilisation facultatives et les propriétés requises par le client. La remise définit l'ensemble des produits pour lesquels le coupon est valide. Les groupes de prix de la remise définissent l'ensemble des clients, canaux ou catalogues pour lesquels le coupon est valide.
 
-Pour créer un coupon, vous devez créer la remise et le coupon séparément. Vous les liez ensuite en sélectionnant la remise sur la page de coupon dans Microsoft Dynamics 365 for Retail.
+Pour créer un coupon, vous devez créer la remise et le coupon séparément. Vous les liez ensuite en sélectionnant la remise sur la page de coupon dans Retail.
 
 > [!NOTE]
-> Après avoir lié un coupon à une remise, plusieurs champs de la page de la remise dans Microsoft Dynamics 365 for Retail passent en lecture seule, car ils sont gérés par les paramètres du coupon. Ces champs comprennent les champs associés au statut et aux plages de date standard.
+> Après avoir lié un coupon à une remise, plusieurs champs de la page de la remise dans Retail passent en lecture seule, car ils sont gérés par les paramètres du coupon. Ces champs comprennent les champs associés au statut et aux plages de date standard.
 
 ### <a name="limited-use-coupons"></a>Coupons à utilisation limitée
 
@@ -75,7 +75,7 @@ Avant de paramétrer un coupon, vous devez paramétrer le code-barres du coupon 
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Effet des mises à jour partielles des coupons
 
-La fonctionnalité de coupon comprend plusieurs fonctions distinctes dans Dynamics 365 for Retail. Microsoft Dynamics 365 for Retail headquarters (HQ) et le canal peuvent être partiellement mis à jour dans différents composants. Par conséquent, il est important de comprendre comment les mises à jour partielles affectent la fonctionnalité de coupon dans son ensemble.
+La fonctionnalité de coupon comprend plusieurs fonctions distinctes. Dynamics 365 Retail headquarters (HQ) et le canal peuvent être partiellement mis à jour dans différents composants. Par conséquent, il est important de comprendre comment les mises à jour partielles affectent la fonctionnalité de coupon dans son ensemble.
 
 - **Le siège est partiellement mis à jour, mais le serveur Retail et POS ne sont pas mis à jour.** Lors d'une mise à jour du siège, les pages de coupon et de remise sont mises à jour, et le moteur de prix de vente au détail est également mis à jour. Si un seul de ces deux composants est mis à jour, certaines pages dans Retail ne correspondront pas aux données de calcul du prix. Par conséquent, des erreurs de remise inattendues peuvent se produire pendant les calculs de la remise.
 - **Le siège est mis à jour, mais le serveur Retail et POS ne sont pas mis à jour (N-1).** Comme tous les magasins de vente au détail ne peuvent pas être mis à jour simultanément, nous vous recommandons de mettre à jour le siège avant de mettre à jour les magasins de vente au détail. Dans le scénario N-1, la nouvelle fonctionnalité associée aux coupons n'est pas disponible dans les magasins qui n'ont pas encore été mis à jour. Par exemple, la fonctionnalité de coupon introduit des lignes d'« exclusion ». Si vous utilisez des lignes d'exclusion sur une remise, elles ne sont pas appliquées dans un magasin de vente au détail qui exécute une version antérieure.

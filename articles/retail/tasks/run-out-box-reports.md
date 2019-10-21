@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afd4509bc9bdff345e48a590a12cc84ae25aebb8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550068"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018430"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Générer et exécuter les états prêts à l'emploi
 
@@ -43,7 +43,7 @@ La société fictive utilisée pour créer cet enregistrement est USRT. Cet enre
 5. Entrez une date dans le champ Date de fin.
 6. Dans le champ Canal, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 7. Dans l'arborescence, sélectionnez « Contoso Retail\Contoso Retail USA\Central\Houston ».
-    * La hiérarchie d'organisation de la vente au détail par défaut s'affiche aux fins de génération d'états sur la vente au détail.   Accédez à Administration d'organisation >Organisations > Objectifs de la hiérarchie d'organisation et choisissez Génération d'états sur les ventes au détail, et sous Hiérarchies affectées, vérifiez le nom de hiérarchie pour lequel la colonne Valeur par défaut est cochée.      Dans le cadre des données de démonstration (utilisées pour cet enregistrement de tâche), vous remarquez que Magasins de vente au détail par région est la hiérarchie d'organisation par défaut pour les besoins de génération d'états sur la vente au détail.     
+    * La hiérarchie d'organisation de la vente au détail par défaut s'affiche aux fins de génération d'états sur la vente au détail.   Accédez à Administration d'organisation > Organisations > Objectifs de la hiérarchie d'organisation et choisissez Génération d'états sur les ventes au détail, et sous Hiérarchies affectées, vérifiez le nom de hiérarchie pour lequel la colonne Valeur par défaut est cochée. Dans le cadre des données de démonstration (utilisées pour cet enregistrement de tâche), vous remarquez que Magasins de vente au détail par région est la hiérarchie d'organisation par défaut pour les besoins de génération d'états sur la vente au détail.     
 8. Cliquez sur OK.
 9. Dans le champ Afficher, sélectionnez une option.
 10. Dans le champ Par, sélectionnez une option.
@@ -55,7 +55,7 @@ La société fictive utilisée pour créer cet enregistrement est USRT. Cet enre
 3. Entrez une date dans le champ Date de fin.
 4. Dans le champ Canal, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 5. Dans l'arborescence, sélectionnez « Contoso Retail\Contoso Retail USA\West\Seattle ».
-    * La hiérarchie d'organisation de la vente au détail par défaut s'affiche aux fins de génération d'états sur la vente au détail.   Accédez à Administration d'organisation >Organisations > Objectifs de la hiérarchie d'organisation et choisissez Génération d'états sur les ventes au détail, et sous Hiérarchies affectées, vérifiez le nom de hiérarchie pour lequel la colonne Valeur par défaut est cochée.      Dans le cadre des données de démonstration (utilisées pour cet enregistrement de tâche), vous remarquez que Magasins de vente au détail par région est la hiérarchie d'organisation par défaut pour les besoins de génération d'états sur la vente au détail.     
+    * La hiérarchie d'organisation de la vente au détail par défaut s'affiche aux fins de génération d'états sur la vente au détail.   Accédez à Administration d'organisation > Organisations > Objectifs de la hiérarchie d'organisation et choisissez Génération d'états sur les ventes au détail, et sous Hiérarchies affectées, vérifiez le nom de hiérarchie pour lequel la colonne Valeur par défaut est cochée. Dans le cadre des données de démonstration (utilisées pour cet enregistrement de tâche), vous remarquez que Magasins de vente au détail par région est la hiérarchie d'organisation par défaut pour les besoins de génération d'états sur la vente au détail.     
 6. Cliquez sur OK.
 7. Cliquez sur OK.
 

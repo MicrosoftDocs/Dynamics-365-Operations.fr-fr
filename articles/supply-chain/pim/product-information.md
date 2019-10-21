@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563526"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249469"
 ---
 # <a name="product-information-overview"></a>Présentation des informations sur les produits
 
@@ -57,17 +57,17 @@ Un produit est principalement défini par un numéro, un nom, ainsi qu'une descr
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Distribution, exportation et importation des données de produit
 
-La définition du produit peut être créée dans Microsoft Dynamics 365 for Finance and Operations. Elle peut également être importée des systèmes de gestion des cycles de vie des produits, des systèmes de gestion des données relatives aux produits ou des systèmes de gestion d'informations sur les produits. Lorsque plusieurs instances de Finance and Operations sont utilisées, une instance est généralement utilisée comme base des données de produit pour toutes autres instances. Cette approche est prise en charge par un grand ensemble d'entités de données qui activent l'exportation ou l'importation de données de définition de produit d'une instance à une autre.
+La définition de produit peut être créée dans Supply Chain Management. Elle peut également être importée des systèmes de gestion des cycles de vie des produits, des systèmes de gestion des données relatives aux produits ou des systèmes de gestion d'informations sur les produits. Lorsque plusieurs instances de Supply Chain Management sont utilisées, une instance est généralement utilisée comme base des données de produit pour toutes autres instances. Cette approche est prise en charge par un grand ensemble d'entités de données qui activent l'exportation ou l'importation de données de définition de produit d'une instance à une autre.
 
-Pour prendre en charge la distribution des données de produit sur plusieurs instances, Finance and Operations vous permet d'utiliser Common Data Service. Les définitions de produit peuvent être exportées d'une instance de Finance and Operations vers Common Data Service. Les définitions de produit peuvent être utilisées pour mettre en service d'autres applications de gestion, telles que Microsoft Dynamics 365 for Sales, avec les données de produit.
+Pour prendre en charge la distribution des données de produit sur plusieurs instances, Supply Chain Management vous permet d'utiliser Common Data Service. Les définitions de produit peuvent être exportées d'une instance de Supply Chain Management vers Common Data Service. Les définitions de produit peuvent être utilisées pour mettre en service d'autres applications de gestion, telles que Dynamics 365 Sales, avec les données de produit.
 
 Notez que, dans les organisations dynamiques et agiles, les informations sur le produit changent chaque jour. Par conséquent, la mise à jour des données de produit exactes et réelles est un processus d'entreprise critique en tant que tel.
 
 ## <a name="product-masters-and-product-variants"></a>Produits génériques et variantes de produit
 
-Dans un monde Agile, où les produits doivent être rapidement adaptés aux besoins du client, les définitions de produit spécifient un ensemble de produits au lieu de produits distincts. Dans Microsoft Dynamics 365 for Finance and Operations, ces produits génériques sont appelés *produits génériques*. Les produits génériques tiennent à jour la définition et les règles qui indiquent comment les produits distincts sont décrits et se comportent dans les processus d'entreprise. En fonction de ces définitions, des produits distincts peuvent être générés. Ces produits distincts sont appelés *variantes de produit*.
+Dans un monde Agile, où les produits doivent être rapidement adaptés aux besoins du client, les définitions de produit spécifient un ensemble de produits au lieu de produits distincts. Dans Supply Chain Management, ces produits génériques sont appelés *produits génériques*. Les produits génériques tiennent à jour la définition et les règles qui indiquent comment les produits distincts sont décrits et se comportent dans les processus d'entreprise. En fonction de ces définitions, des produits distincts peuvent être générés. Ces produits distincts sont appelés *variantes de produit*.
 
-Dans Finance and Operations, un produit générique est associé à un groupe de dimensions de produit et une technologie de configuration pour spécifier les règles métier. Les dimensions de produit (Couleur, Taille, Style et Configuration) sont un ensemble spécifique d'attributs qui peuvent être utilisés dans l'application pour définir et suivre les comportements spécifiques des produits associés. Ces dimensions aident également les utilisateurs à rechercher et identifier les produits.
+Un produit générique est associé à un groupe de dimensions de produit et une technologie de configuration pour spécifier les règles métier. Les dimensions de produit (Couleur, Taille, Style et Configuration) sont un ensemble spécifique d'attributs qui peuvent être utilisés dans l'application pour définir et suivre les comportements spécifiques des produits associés. Ces dimensions aident également les utilisateurs à rechercher et identifier les produits.
 
 ## <a name="configuration-technologies"></a>Technologies de configuration
 
@@ -77,7 +77,7 @@ Vous avez le choix entre trois technologies de configuration :
 - La configuration basée sur les dimensions est généralement utilisée dans les scénarios de fabrication et vous permet d'utiliser la dimension de configuration dans la définition des nomenclatures. Une fois qu'une configuration spécifique est activée, le système utilise le sous-ensemble de lignes de nomenclature valides pour cette configuration dans le cadre de la planification et de la production. Ce concept est également appelé *nomenclature globale*, car une nomenclature partagée est utilisée pour toutes les configurations d'un produit.
 - La configuration basée sur les contraintes utilise un modèle de configuration de produit pour décrire tous les attributs possibles et les composants nécessaires afin de décrire toutes les variantes possibles d'un produit dans un modèle unique. Les contraintes des combinaisons d'attributs peuvent être décrites via des expressions régulières ou des contraintes de table. Les modèles et les configurateurs de configuration deviennent plus importants en matière de gestion des informations sur les produits et sont utilisés dans tous les secteurs d'activité.
 
-Lorsque vous planifiez l'implémentation de Finance and Operations, il est primordial que vous choisissiez la technologie de configuration appropriée à un processus d'entreprise. Un produit ne peut pas être converti d'un modèle à un autre après implémentation.
+Lorsque vous planifiez l'implémentation de Supply Chain Management, il est primordial que vous choisissiez la technologie de configuration appropriée à un processus d'entreprise. Un produit ne peut pas être converti d'un modèle à un autre après implémentation.
 
 ## <a name="product-variant-model-definition-workspace"></a>Espace de travail de définition du modèle de variante de produit
 

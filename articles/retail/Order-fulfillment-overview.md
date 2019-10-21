@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556942"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025861"
 ---
 # <a name="store-order-fulfillment"></a>Exécution des commandes en magasin
 
@@ -96,7 +96,7 @@ Une fois qu'une commande a été acceptée, les lignes peuvent être sélectionn
 
 Les listes de prélèvements peuvent être imprimées dans le point de vente pour aider les collaborateurs à exécuter le processus de prélèvement. Une liste de prélèvements imprimée peut être utilisée par le collaborateur qui effectue le prélèvement pour lui permettre de marquer manuellement les produits comme prélevés sur la liste des prélèvements.
 
-Le format de prélèvement est configuré dans Dynamics 365 for Retail et ajouté au profil de réception. Pour plus d'informations sur le paramétrage des profils de réception, voir [Modèles de réception et impression](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Le format de prélèvement est configuré dans Retail et ajouté au profil de réception. Pour plus d'informations sur le paramétrage des profils de réception, voir [Modèles de réception et impression](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Si des lignes sont sélectionnées et une liste de prélèvements est imprimée pour ces lignes, elles sont automatiquement mises à jour avec le statut **Prélèvement**.
 
@@ -105,7 +105,7 @@ Si des lignes sont sélectionnées et une liste de prélèvements est imprimée 
 - **Statut résultant :** Prélevé ou partiellement prélevé
 - **Statut résultant de l'arrière-guichet :** Prélevé ou partiellement prélevé
 
-Une fois que le processus de prélèvement physique a été exécuté, les lignes peuvent être marquées comme **Prélevées**. Lorsque vous sélectionnez une ligne et la marquez comme **Prélevée**, un appel en temps réel est effectué pour mettre à jour la ligne de commande dans Dynamics 365 for Retail. Une fois que la ligne a été marquée comme **Prélevée** dans le point de vente, le statut dans l'arrière-guichet est également mis à jour sur **Prélevé** et les transactions de stock reflètent que la quantité spécifiée a été décrémentée.
+Une fois que le processus de prélèvement physique a été exécuté, les lignes peuvent être marquées comme **Prélevées**. Lorsque vous sélectionnez une ligne et la marquez comme **Prélevée**, un appel en temps réel est effectué pour mettre à jour la ligne de commande. Une fois que la ligne a été marquée comme **Prélevée** dans le point de vente, le statut dans l'arrière-guichet est également mis à jour sur **Prélevé** et les transactions de stock reflètent que la quantité spécifiée a été décrémentée.
 
 Lorsque les commandes sont traitées dans le temps, des quantités partielles peuvent être traitées pour une ligne spécifique. Si une ligne est sélectionnée et l'action **Marquer comme prélevé** est exécutée et la quantité est supérieure à un, l'utilisateur est invité à saisir la quantité. La quantité restante à prélever est remplie automatiquement. Si une quantité inférieure à la quantité restante est spécifiée, le statut de la ligne devient **Partiellement prélevé**. Lorsque la ligne de commande est mise à jour dans l'arrière-guichet, elle reflète également le statut partiellement prélevé et la quantité saisie par l'utilisateur est utilisée pour la mise à jour du stock.
 
@@ -122,7 +122,7 @@ Les lignes de commande peuvent être conditionnées à tout moment une fois que 
 - **Statut résultant :** Emballé ou partiellement emballé
 - **Statut résultant de l'arrière-guichet :** Livré ou partiellement livré
 
-Cette action marque les lignes comme emballées ou partiellement emballées et imprime un bon de livraison. Un bon de livraison peut être imprimé pour valider les produits qui ont fait l'objet d'un emballage commun. Le format de prélèvement est configuré dans Dynamics 365 for Retail et ajouté au profil de réception. Pour plus d'informations sur le paramétrage des profils de réception, voir [Modèles de réception et impression](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Cette action marque les lignes comme emballées ou partiellement emballées et imprime un bon de livraison. Un bon de livraison peut être imprimé pour valider les produits qui ont fait l'objet d'un emballage commun. Le format de prélèvement est configuré dans Retail et ajouté au profil de réception. Pour plus d'informations sur le paramétrage des profils de réception, voir [Modèles de réception et impression](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Action : Marquer comme emballé**
 

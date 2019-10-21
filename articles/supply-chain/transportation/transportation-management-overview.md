@@ -1,6 +1,6 @@
 ---
 title: Vue d'ensemble de la gestion du transport
-description: Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
+description: Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561159"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027059"
 ---
 # <a name="transportation-management-overview"></a>Vue d'ensemble de la gestion du transport
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Finance and Operations.
 
-La Gestion du transport vous permet d'utiliser les transports de votre société et d'identifier les solutions utilisant des fournisseurs et des prestataires d'acheminement spécifiques pour les commandes entrantes et sortantes. Par exemple, vous pouvez identifier le parcours le plus rapide ou le moins cher pour une expédition. Le tableau suivant décrit les principaux scénarios utilisés pour la Gestion du transport dans Microsoft Dynamics 365 for Finance and Operations.
+La Gestion du transport vous permet d'utiliser les transports de votre société et d'identifier les solutions utilisant des fournisseurs et des prestataires d'acheminement spécifiques pour les commandes entrantes et sortantes. Par exemple, vous pouvez identifier le parcours le plus rapide ou le moins cher pour une expédition. Le tableau suivant décrit les principaux scénarios utilisés pour la Gestion du transport.
 
 <table>
 <colgroup>

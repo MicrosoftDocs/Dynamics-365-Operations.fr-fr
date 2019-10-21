@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (6 décembre 2018)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
+title: Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (6 décembre 2018)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742584"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025954"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (6 décembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Nouveautés ou modifications dans Dynamics 365 Talent: Core HR (6 décembre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742584"
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Core HR.
 
 
-## <a name="platform-update-22"></a>Update 22 de la plateforme
+## <a name="platform-update-22-for-finance-and-operations"></a>Platform update 22 pour Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Exportation jusqu'à 1 millions de lignes vers Excel
 
@@ -42,7 +42,7 @@ La fonctionnalité Exporter vers Excel peut désormais être configurée pour au
 
 ### <a name="restyled-personalization-toolbar"></a>Barre d'outils de personnalisation remaniée
 
-La barre d'outils de personnalisation a été remaniée dans Platform update 22 pour aider les utilisateurs à personnaliser plus facilement leurs propres expériences dans Talent. Les modifications suivantes ont été apportées : 
+La barre d'outils de personnalisation a été remaniée dans Platform update 22 pour Finance and Operations pour aider les utilisateurs à personnaliser plus facilement leurs propres expériences dans Talent. Les modifications suivantes ont été apportées : 
 
 -  Le nom de chaque outil de personnalisation est désormais affiché avec une icône, ce qui aide les utilisateurs rapidement à identifier l'outil qu'ils souhaitent utiliser.
 -  La description de l'utilisation de l'outil actuel est également affichée, ce qui aide les utilisateurs à comprendre comment effectuer les personnalisations nécessaires.  
@@ -50,19 +50,19 @@ La barre d'outils de personnalisation a été remaniée dans Platform update 22
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Optimisation de l'expérience de filtrage « est l'un de »
 
-L'opérateur de filtrage « est l'un de » est disponible pour la plupart des champs à l'aide du volet de filtres et des listes déroulantes d'en-tête de la grille. Cet opérateur permet à l'utilisateur de filtrer un champ selon plusieurs valeurs. Une nouvelle expérience améliorée de l'opérateur « est l'un de » est disponible dans Platform update 22. Pour en savoir plus, voir [Optimisation de l'expérience de filtrage « est l'un de »](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+L'opérateur de filtrage « est l'un de » est disponible pour la plupart des champs à l'aide du volet de filtres et des listes déroulantes d'en-tête de la grille. Cet opérateur permet à l'utilisateur de filtrer un champ selon plusieurs valeurs. Une nouvelle expérience améliorée de l'opérateur « est l'un de » est disponible dans Platform update 22 pour Finance and Operations. Pour en savoir plus, voir [Optimisation de l'expérience de filtrage « est l'un de »](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Collage des listes d'Excel dans des champs de filtre avec l'opérateur « est l'un de »
 
 Pour certaines tâches, les utilisateurs peuvent avoir une liste de valeurs dans Excel qu'ils voudraient utiliser pour filtrer des données dans Talent. Par exemple, un utilisateur des Ressources humaines peut avoir identifié un ensemble d'employés dans un état qui ont besoin de recherche supplémentaire dans le système, et il serait idéal que l'utilisateur puisse copier la liste directement à partir d'Excel dans un champ de filtre dans Talent.
 
-Avec Platform update 22, l'opérateur « est l'un de » du volet de filtre et le filtrage de la colonne de la grille identifie désormais les listes copiées depuis Excel afin qu'elles puissent être collées directement dans un champ de filtre. Cela inclut un ensemble de valeurs copiées de différentes lignes et colonnes dans Excel. Pour en savoir plus sur cette fonctionnalité, voir [Collage des listes d'Excel dans des champs de filtre avec l'opérateur « est l'un de »](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Avec Platform update 22 pour Finance and Operations, l'opérateur « est l'un de » du volet de filtre et le filtrage de la colonne de la grille identifie désormais les listes copiées depuis Excel afin qu'elles puissent être collées directement dans un champ de filtre. Cela inclut un ensemble de valeurs copiées de différentes lignes et colonnes dans Excel. Pour en savoir plus sur cette fonctionnalité, voir [Collage des listes d'Excel dans des champs de filtre avec l'opérateur « est l'un de »](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>En mode aperçu
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>Configuration de l'intégration de la paie R.-U. entre Talent et Dayforce
 
-L'intégration entre Microsoft Dynamics 365 for Talent et Ceridian Dayforce est disponible dans l'aperçu pour le R.-U. Voir la rubrique suivante pour plus d'informations, [Configurer l'intégration de la paie entre Talent et Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration), voir.
+L'intégration entre Talent et Ceridian Dayforce est disponible dans l'aperçu pour le R.-U. Voir la rubrique suivante pour plus d'informations, [Configurer l'intégration de la paie entre Talent et Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration), voir.
 
 ## <a name="coming-soon"></a>Prochainement
 
@@ -90,9 +90,9 @@ Des modifications ont été apportées pour corriger les pièces jointes. Lors d
 
 ## <a name="known-issues"></a>Problèmes connus
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Erreurs de mise en correspondance dans l'intégration à Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Erreurs de mise en correspondance dans l'intégration à Finance
 
-Les problèmes suivants ont été identifiés dans le modèle actuel d'intégration de Talent à Finance and Operations. Un nouveau modèle sera publié prochainement et appliqué à tous les nouveaux projets d'intégration qui seront créés. Pour les projets d'intégration existants, les mises en correspondance de tâches peuvent être mises à jour. Pour plus d'informations sur les mises en correspondance mises à jour, voir le tableau suivant. 
+Les problèmes suivants ont été identifiés dans le modèle actuel d'intégration de Talent à Finance. Un nouveau modèle sera publié prochainement et appliqué à tous les nouveaux projets d'intégration qui seront créés. Pour les projets d'intégration existants, les mises en correspondance de tâches peuvent être mises à jour. Pour plus d'informations sur les mises en correspondance mises à jour, voir le tableau suivant. 
 
 >[!NOTE]
 > La tâche Attribution de postes d'une mission au poste parent des missions n'intègre pas les données. Il s'agit d'un problème qui fait actuellement l'objet de recherches. Il n'existe aucune solution dans la mise en correspondance actuelle. 

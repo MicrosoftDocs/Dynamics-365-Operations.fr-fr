@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563595"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250620"
 ---
 # <a name="product-configuration-models-overview"></a>Vue d'ensemble des modèles de configuration de produit
 
@@ -118,7 +118,7 @@ Si le type d'attribut est <strong>Booléen</strong>, <strong>Entier</strong> ave
 </tr>
 </tbody>
 </table>
-Une contrainte de table définie par le système constitue une mise en correspondance entre un attribut et un champ dans une table Finance and Operations. Une contrainte de table définie par le système lie dynamiquement le type d'attribut au champ. Le lien permet à l'attribut dans un modèle de configuration de produit de refléter les données du champ de la table Finance and Operations.</td>
+Une contrainte de table définie par le système constitue une mise en correspondance entre un attribut et un champ dans une table Finance and Operations. Une contrainte de table définie par le système lie dynamiquement le type d'attribut au champ. Le lien permet à l'attribut dans un modèle de configuration de produit de refléter les données du champ de la table Supply Chain Management.</td>
 </tr>
 <tr class="odd">
 <td>Calculs</td>

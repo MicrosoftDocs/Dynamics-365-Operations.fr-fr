@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556435"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017895"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gestion d'équipe et de tiroir-caisse
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556435"
 
 Cette rubrique explique comment paramétrer et utiliser les équipes dans Retail POS.
 
-Dans Microsoft Dynamics 365 for Retail, le terme *équipe* décrit l'ensemble des activités et des données de transaction POS entre deux périodes de temps. Pour chaque équipe, la somme d'argent attendue est comparée au montant comptabilisé et déclaré.
+Dans Dynamics 365 Retail, le terme *équipe* décrit l'ensemble des activités et des données de transaction POS entre deux périodes de temps. Pour chaque équipe, la somme d'argent attendue est comparée au montant comptabilisé et déclaré.
 
 Généralement, les équipes sont ouvertes au début du jour ouvrable. À ce stade, un utilisateur déclare le montant de départ contenu dans le tiroir-caisse. Les transactions de vente sont ensuite exécutées tout au long de la journée. Enfin, à la fin de la journée, le tiroir-caisse est comptabilisé, et les montants de clôture sont déclarés. L'équipe est clôturée, et un Z de caisse est généré. Le Z de caisse indique s'il y a un excédent ou un déficit.
 
@@ -69,7 +69,7 @@ Pour pouvoir utiliser les équipes partagées dans un magasin, le tiroir-caisse 
 
 ## <a name="shift-and-drawer-operations"></a>Opérations liées aux équipes et tiroirs-caisses
 
-Plusieurs opérations peuvent être effectuées pour modifier l'état d'une équipe ou pour augmenter ou diminuer la somme d'argent dans le tiroir-caisse. Cette section décrit ces opérations d'équipe pour Microsoft Dynamics 365 for Retail Modern POS et Cloud POS.
+Plusieurs opérations peuvent être effectuées pour modifier l'état d'une équipe ou pour augmenter ou diminuer la somme d'argent dans le tiroir-caisse. Cette section décrit ces opérations d'équipe pour Retail Modern POS et Cloud POS.
 
 ### <a name="open-shift"></a>Équipe de travail en cours
 

@@ -3,7 +3,7 @@ title: Coût du programme de maintenance
 description: Cette rubrique explique le coût du programme de maintenance dans le module Gestion des actifs.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875641"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922066"
 ---
 # <a name="maintenance-schedule-cost"></a>Coût du programme de maintenance
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Dans le module Gestion des actifs, vous pouvez calculer les coûts budgétaires sur les lignes du programme de maintenance. Cela est utile si vous souhaitez obtenir une vue d'ensemble des coûts prévisionnels, par exemple, les coûts associés aux tâches de maintenance préventive planifiées pour l'an prochain. Les calculs sont basés sur les lignes de programme de maintenance du type « Plans de maintenance » et « Visites de maintenance » et « Demandes de maintenance ».
 
@@ -48,10 +46,11 @@ Dans le module Gestion des actifs, vous pouvez calculer les coûts budgétaires 
 
 5. Cliquez sur **OK** pour démarrer le calcul des coûts.
 
-6. Sur l'onglet **Coût du programme de maintenance** des groupes du volet d'action **Regrouper par…**, cliquez sur les boutons appropriés pour afficher le niveau requis de détail du calcul des coûts. Les boutons du groupe du volet Actions sélectionnés sont mis en surbrillance en bleu. Cliquez sur un bouton pour l'activer ou le désactiver.
+6. Sur l'onglet **Coût du programme de maintenance** des groupes du volet d'action **Regrouper par…**, cliquez sur les boutons appropriés pour afficher le niveau requis de détail du calcul des coûts. Les boutons sélectionnés du groupe du volet Actions sont mis en surbrillance. Cliquez sur un bouton pour l'activer ou le désactiver.
 
 7. Cliquez sur le bouton **Calculez le coût** si vous souhaitez effectuer un nouveau calcul des coûts.
 
+L'illustration ci-dessous affiche les résultats d'un calcul de coût du programme de maintenance.
 
 ![Figure 1](media/17-preventive-maintenance.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Synchroniser les informations sur le niveau de stock entre Finance and Operations et Field Service
-description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les informations au niveau du stock depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
+title: Synchroniser les informations sur le niveau de stock depuis Supply Chain Management vers Field Service
+description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les informations au niveau du stock depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/07/2019
@@ -19,37 +19,37 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b56eb545f87c31ef30d6a897f48539068583486
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: eefbfd1f8d7aa73cbb3330433b08efd889232818
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843431"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251199"
 ---
-# <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Synchroniser les informations sur le niveau de stock entre Finance and Operations et Field Service 
+# <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Synchroniser les informations sur le niveau de stock depuis Supply Chain Management vers Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les informations au niveau du stock depuis Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
+Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les informations au niveau du stock depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 
-[![Synchronisation des processus d'entreprise entre Finance and Operations et Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Synchronisation des processus d'entreprise entre Supply Chain Management et Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
-Le modèle suivant et les tâches sous-jacentes sont utilisées pour exécuter la synchronisation aux niveaux du stock disponible de Microsoft Dynamics 365 for Finance and Operations vers Microsoft Dynamics 365 for Field Service.
+Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les niveaux disponibles en stock et les transferts depuis Supply Chain Management vers Field Service.
 
 **Modèle dans l'intégration de données**
-- Stock produit (Fin and Ops vers Field Service)
+- Stock de produit (Supply Chain Management vers Field Service)
   
 **Tâche du projet d'intégration des données**
 - Produit de stock
 
 Les tâches de synchronisation suivantes sont requises avant que la synchronisation des niveaux de stock puisse avoir lieu :
-- Entrepôts (Fin and Ops vers Field Service) 
-- Produits Field Service avec unité de stock (Fin and Ops vers Sales) 
+- Entrepôts (Supply Chain Management vers Field Service) 
+- Produits Field Service avec unité de stock (Supply Chain Management vers Sales) 
 
 ## <a name="entity-set"></a>Ensemble d'entités
 
-| Field Service                      | Finance and Operations                 |
+| Field Service                      | Gestion de la chaîne d'approvisionnement                |
 |------------------------------------|----------------------------------------|
 | msdynce_externalproductinventories | Stock CDS disponible par entrepôt     |
 
@@ -61,17 +61,17 @@ Les informations sur le niveau de stock sont envoyées de Finance and Operations
 
 Ces informations sont capturées par produit lancé pour chaque entrepôt et synchronisées selon le suivi des modifications, lorsque le niveau de stock change.
 
-Dans Field Service, la solution d'intégration crée des journaux de stock pour le delta, pour obtenir les niveaux dans Field Service pour faire correspondre les niveaux dans Finance and Operations.
+Dans Field Service, la solution d'intégration crée des journaux de stock pour le delta, pour obtenir les niveaux dans Field Service pour faire correspondre les niveaux dans Supply Chain Management.
 
-Finance and Operations agira comme base pour les niveaux de stock. Il est donc important de paramétrer l'intégration pour les ordres d'exécution, les transferts et les ajustements entre Field Service et Finance and Operations si cette fonctionnalité est utilisée dans Field Service, ainsi qu'avec la synchronisation des niveaux de stock de Finance and Operations.
+Supply Chain Management agira comme base pour les niveaux de stock. Il est donc important de paramétrer l'intégration pour les ordres d'exécution, les transferts et les ajustements entre Field Service et Supply Chain Management si cette fonctionnalité est utilisée dans Field Service, ainsi qu'avec la synchronisation des niveaux de stock de Supply Chain Management.
 
-Les produits et les entrepôts dans lesquels les niveaux de stock sont basés sur Finance and Operations peuvent être contrôlés avec Requête et filtrage avancés (Power Query).
+Les produits et les entrepôts dans lesquels les niveaux de stock sont basés sur Supply Chain Management peuvent être contrôlés avec Requête et filtrage avancés (Power Query).
 
 > [!NOTE]
-> Vous pouvez créer plusieurs entrepôts dans Field Service (avec **Géré en externe = Non**), puis les mapper à un seul entrepôt dans Finance and Operations, avec la fonctionnalité de requête et de filtrage avancée. Cela est utile dans les situations où vous souhaitez que Field Service serve de base au niveau de stock détaillé et n'envoyer que des mises à jour à Finance and Operations. Dans ce cas, Field Service ne reçoit pas les mises à jour de niveau de stock de Finance and Operations. Pour en savoir plus, voir [Synchroniser les ajustements de stock entre Field Service et Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) et [Synchroniser des bons de travail de Field Service sur des commandes client de Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Vous pouvez créer plusieurs entrepôts dans Field Service (avec **Géré en externe = Non**), puis les mapper à un seul entrepôt dans Supply Chain Management, avec la fonctionnalité de requête et de filtrage avancée. Cela est utile dans les situations où vous souhaitez que Field Service serve de base au niveau de stock détaillé et n'envoyer que des mises à jour à Supply Chain Management. Dans ce cas, Field Service ne reçoit pas les mises à jour de niveau de stock de Supply Chain Management. Pour en savoir plus, voir [Synchroniser les ajustements de stock entre Field Service et Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) et [Synchroniser des bons de travail de Field Service sur des commandes client de Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>Solution Field Service CRM
-L'entité **Stock de produits externe** est une nouvelle entité utilisée uniquement pour la partie principale dans l'intégration. Elle reçoit les valeurs de niveau de stock de Finance and Operations dans l'intégration puis les transforme en journaux de stock manuel, qui modifie ensuite les produits de stock dans l'entrepôt.
+L'entité **Stock de produits externe** est une nouvelle entité utilisée uniquement pour la partie principale dans l'intégration. Elle reçoit les valeurs de niveau de stock de Supply Chain Management dans l'intégration puis les transforme en journaux de stock manuel, qui modifie ensuite les produits de stock dans l'entrepôt.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
@@ -84,10 +84,10 @@ Pour que le projet fonctionne, vous devez vous assurer que la Clé d'intégratio
       - msdynce_warehouseid (ID entrepôt)
       
 ### <a name="data-integration-project"></a>Projet d'intégration des données
-Vous pouvez appliquer des filtres avec Requête et filtrage avancés afin de contrôler que seuls les produits et entrepôts souhaités envoient des informations de niveau de stock de Finance and Operations vers Field Service.
+Vous pouvez appliquer des filtres avec Requête et filtrage avancés afin de contrôler que seuls les produits et entrepôts souhaités envoient des informations de niveau de stock de Supply Chain Management vers Field Service.
 
 ## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
 
-### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Stock produit (Fin and Ops vers Field Service) : Stock produit
+### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Stock de produit (Supply Chain Management vers Field Service) : stock de produit
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

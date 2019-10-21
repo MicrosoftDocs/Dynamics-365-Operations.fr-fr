@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836530"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017918"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Déterminer la combinaison optimale de chevauchement les remises
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836530"
 
 Lorsque les remises se chevauchent, vous devez déterminer la combinaison de chevauchement des remises qui produit le plus petit total de transaction ou la remise totale la plus élevée. Lorsque le montant de la remise varie en fonction du prix des produits achetés, comme dans le cas de la vente au détail « Buy 1, get 1 X percent off » (BOGO), ce processus devient un problème d'optimisation combinatoire.
 
-Cet article s'applique à Microsoft Dynamics AX 2012 R3 avec la Base de connaissances 3105973 (publiée le 2 novembre 2015) ou ultérieure, et Microsoft Dynamics 365 for Retail. Pour déterminer la combinaison chevauchant les remises à appliquer en temps voulu, nous avons introduit une méthode pour appliquer des remises se chevauchant Nous appelons cette nouvelle méthode **classement de valeur marginale**. Le classement de valeur marginale est utilisé lorsque le temps requis afin d'évaluer les combinaisons possibles de chevauchement des remises dépasse un seuil configurable sur la page **Paramètres des ventes au détail**. Dans la méthode de classement de valeur marginale, une valeur est calculée pour chaque remise se chevauchant à l'aide de la valeur de la remise sur les produits partagés. Les remises chevauchées sont ensuite appliquées de la valeur relative la plus élevée à la valeur relative la plus faible. Pour plus d'informations sur la nouvelle méthode, voir la section « Valeur marginale », plus loin dans cet article. Le classement de valeur marginale n'est pas utilisé lorsque les montants de remise pour un produit ne sont pas affectés par un autre produit dans la transaction. Par exemple, cette méthode n'est pas utilisée pour deux remises simples, ou pour une remise simple et une remise unique de la quantité de produits.
+Cet article s'applique à Microsoft Dynamics AX 2012 R3 avec la Base de connaissances 3105973 (publiée le 2 novembre 2015) ou ultérieure, et Dynamics 365 Retail. Pour déterminer la combinaison chevauchant les remises à appliquer en temps voulu, nous avons introduit une méthode pour appliquer des remises se chevauchant Nous appelons cette nouvelle méthode **classement de valeur marginale**. Le classement de valeur marginale est utilisé lorsque le temps requis afin d'évaluer les combinaisons possibles de chevauchement des remises dépasse un seuil configurable sur la page **Paramètres des ventes au détail**. Dans la méthode de classement de valeur marginale, une valeur est calculée pour chaque remise se chevauchant à l'aide de la valeur de la remise sur les produits partagés. Les remises chevauchées sont ensuite appliquées de la valeur relative la plus élevée à la valeur relative la plus faible. Pour plus d'informations sur la nouvelle méthode, voir la section « Valeur marginale », plus loin dans cet article. Le classement de valeur marginale n'est pas utilisé lorsque les montants de remise pour un produit ne sont pas affectés par un autre produit dans la transaction. Par exemple, cette méthode n'est pas utilisée pour deux remises simples, ou pour une remise simple et une remise unique de la quantité de produits.
 
 ## <a name="discount-examples"></a>Exemples de remise
 

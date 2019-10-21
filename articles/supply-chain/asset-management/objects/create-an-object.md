@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783265"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250896"
 ---
 # <a name="create-an-asset"></a>Créer un actif
 
@@ -63,12 +63,12 @@ Les champs **Niveau de service** et **Criticalité** se rapportent aux ordres de
 
 ## <a name="asset"></a>Actif
 
-Vous pouvez sélectionner **Ressource** pour l'actif. La sélection de ressources détermine le calendrier à utiliser pour la planification des ordres de travail. La sélection de ressources est souvent utilisée pour les actifs. Dans Dynamics 365 for Finance and Operations, les ressources et les groupes de ressources sont paramétrés dans **Administration d'organisation** > **Ressources** > **Groupes de ressources** ou **Ressources**.
+Vous pouvez sélectionner **Ressource** pour l'actif. La sélection de ressources détermine le calendrier à utiliser pour la planification des ordres de travail. La sélection de ressources est souvent utilisée pour les actifs. Les ressources et les groupes de ressources sont paramétrés dans **Administration d'organisation** > **Ressources** > **Groupes de ressources** ou **Ressources**.
 
 Dans le champ **Nombre d'actifs**, vous pouvez sélectionner un actif à associer à l'actif. Cela est pertinent si votre actif est lié à un projet d'investissement.
 
 - Si l'actif est associé à un actif, vous pouvez créer un type d'ordre de travail à utiliser pour les ordres de travail associés à un projet d'investissement. 
-- Les informations sur les actifs pour un actif sont liées au module **Actifs** dans Dynamics 365 for Finance and Operations. Cela signifie que dans **Actifs** > **Actifs** > **Actifs**, vous pouvez obtenir une vue d'ensemble des projets de gestion d'actifs qui peuvent être associés à un actif en sélectionnant l'actif dans la liste et en affichant le contenu dans le volet **Informations associées** > section **Projets associés**.
+- Les informations sur les actifs pour un actif sont liées au module **Actifs** dans Dynamics 365 Supply Chain Management. Cela signifie que dans **Actifs** > **Actifs** > **Actifs**, vous pouvez obtenir une vue d'ensemble des projets de gestion d'actifs qui peuvent être associés à un actif en sélectionnant l'actif dans la liste et en affichant le contenu dans le volet **Informations associées** > section **Projets associés**.
 
 
 ## <a name="details"></a>Détails

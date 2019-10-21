@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d969fcc59af87da3921225974ebc2ae41d9fa1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572832"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250988"
 ---
 # <a name="merge-inventory-batches"></a>Fusionner les traitements par lots de stock
 
@@ -89,7 +89,7 @@ Non, vous pouvez fusionner uniquement les traitements par lots ayant les mêmes 
 Non, vous pouvez fusionner uniquement la quantité complète des traitements par lots. La fonctionnalité de fusion de traitements par lots est conçue comme une fonctionnalité de stock et non une fonctionnalité de production.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Que se passe-t-il si les traitements par lots ont différentes valeurs d'attribut de lot ?
-Lorsque vous sélectionnez les traitements par lots sources à combiner dans le traitement par lots fusionné, Finance and Operations vérifie si tous les traitements par lots possèdent les caractéristiques ou les valeurs d'attribut. Lorsqu'une valeur d'attribut est identique, une valeur est suggérée pour le traitement par lots fusionné. Vous pouvez modifier cette valeur. Les valeurs d'attribut qui ne sont pas identiques sont laissées vides pour le traitement par lots fusionné et vous pouvez entrer ces valeurs manuellement. Si le type d'attribut de lot pour la valeur d'attribut est un entier ou une fraction, et que les valeurs ne sont pas identiques pour tous les traitements par lots sources, la valeur est calculée à l'aide du calcul de la moyenne pondérée. La valeur calculée est arrondie à l'incrément supérieur ou inférieur le plus proche. Si la valeur est vide pour un traitement par lots source, le traitement par lots et sa quantité ne sont pas inclus dans le calcul. **Exemple** L'exemple suivant montre un calcul de la moyenne pondérée pour un traitement par lots fusionné. Deux des traitements par lots sources ont une valeur vide pour un type d'attribut de lot qui est un entier. L'attribut suivant est affecté aux traitements par lots sources.
+Lorsque vous sélectionnez les traitements par lots sources à combiner dans le traitement par lots fusionné, Supply Chain Management vérifie si tous les traitements par lots possèdent les caractéristiques ou les valeurs d'attribut. Lorsqu'une valeur d'attribut est identique, une valeur est suggérée pour le traitement par lots fusionné. Vous pouvez modifier cette valeur. Les valeurs d'attribut qui ne sont pas identiques sont laissées vides pour le traitement par lots fusionné et vous pouvez entrer ces valeurs manuellement. Si le type d'attribut de lot pour la valeur d'attribut est un entier ou une fraction, et que les valeurs ne sont pas identiques pour tous les traitements par lots sources, la valeur est calculée à l'aide du calcul de la moyenne pondérée. La valeur calculée est arrondie à l'incrément supérieur ou inférieur le plus proche. Si la valeur est vide pour un traitement par lots source, le traitement par lots et sa quantité ne sont pas inclus dans le calcul. **Exemple** L'exemple suivant montre un calcul de la moyenne pondérée pour un traitement par lots fusionné. Deux des traitements par lots sources ont une valeur vide pour un type d'attribut de lot qui est un entier. L'attribut suivant est affecté aux traitements par lots sources.
 
 | Attribut | Minimal | Incrément | Maximal |
 |-----------|---------|-----------|---------|

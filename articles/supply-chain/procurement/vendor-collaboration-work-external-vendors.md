@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546707"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250192"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
 [!include [banner](../includes/banner.md)]
 
-Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont pas l'intégration d'échange de données informatisé (EDI) avec Microsoft Dynamics 365 for Finance and Operations. Il permet aux fournisseurs d'utiliser les commandes fournisseur, les factures, les informations sur le stock de consignation et les appels d'offre. Il leur permet également d'accéder à des parties de leurs données principales. Cette rubrique explique comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l'interface de collaboration fournisseur pour utiliser les CF, les appels d'offre et le stock de consignation. Elle explique également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations visibles par tous les fournisseurs qui répondent à une commande fournisseur.
+Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont pas l'intégration d'échange de données informatisé (EDI) avec Microsoft Dynamics 365 Supply Chain Management. Il permet aux fournisseurs d'utiliser les commandes fournisseur, les factures, les informations sur le stock de consignation et les appels d'offre. Il leur permet également d'accéder à des parties de leurs données principales. Cette rubrique explique comment vous pouvez collaborer avec des fournisseurs externes qui utilisent l'interface de collaboration fournisseur pour utiliser les CF, les appels d'offre et le stock de consignation. Elle explique également comment autoriser un fournisseur spécifique à utiliser la collaboration fournisseur, et comment définir les informations visibles par tous les fournisseurs qui répondent à une commande fournisseur.
 
 Pour plus d'informations sur ce que les fournisseurs externes peuvent effectuer dans l'interface de collaboration fournisseur, voir [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Les informations sur la collaboration fournisseur contenues dans cette rubrique s'appliquent uniquement à la version actuelle de Dynamics 365 for Finance and Operations. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l'application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l'aide du module **Portail fournisseur**. Pour plus d'informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
+> Les informations sur la collaboration fournisseur contenues dans cette rubrique s'appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l'application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l'aide du module **Portail fournisseur**. Pour plus d'informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
 
 Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d'informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
@@ -51,7 +51,7 @@ Si vous devez ajouter des messages dans plusieurs langues, créez des messages d
 
 ## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Définition des options de collaboration fournisseur pour un fournisseur spécifique
 
-Un administrateur configure les paramètres généraux de la collaboration fournisseur dans Finance and Operations, comme les rôles de sécurité disponibles pour tous les fournisseurs avec lesquels vous collaborez. Toutefois, il existe aussi des paramètres qui peuvent être différents pour chaque compte fournisseur. Vous devez configurer ces paramètres.
+Un administrateur configure les paramètres généraux de la collaboration fournisseur, comme les rôles de sécurité disponibles pour tous les fournisseurs avec lesquels vous collaborez. Toutefois, il existe aussi des paramètres qui peuvent être différents pour chaque compte fournisseur. Vous devez configurer ces paramètres.
 
 - Activez la collaboration fournisseur.
 - Spécifiez si le fournisseur doit voir les informations tarifaires.
@@ -71,7 +71,7 @@ Pour partager les informations tarifaires des CF via l'interface de collaboratio
 
 ### <a name="sending-a-po-to-a-vendor"></a>Envoi d'une CF à un fournisseur
 
-Les CF sont préparées dans Finance and Operations. Lorsqu'une CF a le statut **Approuvé**, vous l'envoyez au fournisseur en sélectionnant **Envoyer pour confirmation** sur la page **Commande fournisseur**. Le statut de la CF passe alors à **En cours de révision externe**. Une fois la CF soumise, le fournisseur peut la voir sur la page **Commandes fournisseur pour examen** dans l'interface de collaboration fournisseur. Le fournisseur peut alors accepter la CF, la refuser ou proposer des modifications. Le fournisseur peut également ajouter des commentaires pour communiquer des informations telles que des modifications à la CF. Si vous souhaitez attirer l'attention du fournisseur sur une nouvelle CF, vous pouvez également utiliser le système de gestion de l'impression pour l'envoyer par courrier électronique.
+Les CF sont préparés dans Supply Chain Management. Lorsqu'une CF a le statut **Approuvé**, vous l'envoyez au fournisseur en sélectionnant **Envoyer pour confirmation** sur la page **Commande fournisseur**. Le statut de la CF passe alors à **En cours de révision externe**. Une fois la CF soumise, le fournisseur peut la voir sur la page **Commandes fournisseur pour examen** dans l'interface de collaboration fournisseur. Le fournisseur peut alors accepter la CF, la refuser ou proposer des modifications. Le fournisseur peut également ajouter des commentaires pour communiquer des informations telles que des modifications à la CF. Si vous souhaitez attirer l'attention du fournisseur sur une nouvelle CF, vous pouvez également utiliser le système de gestion de l'impression pour l'envoyer par courrier électronique.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Confirmation et acceptation d'une CF par un fournisseur
 
@@ -92,13 +92,13 @@ Le tableau suivant présente l'échange d'informations classique, selon la répo
 </thead>
 <tbody>
 <tr class="even">
-<td>Le fournisseur <strong>accepte</strong> la commande, et Finance and Operations est configuré pour confirmer automatiquement les CF acceptées par le fournisseur.</td>
+<td>Le fournisseur <strong>accepte</strong> la commande, et Supply Chain Management est configuré pour confirmer automatiquement les CF acceptées par le fournisseur.</td>
 <td>Le statut de la commande est mis à jour sur <strong>Confirmé</strong>. Si la commande ne peut pas être mise à jour pour une raison quelconque, la réponse du fournisseur est toujours enregistrée comme <strong>Accepté</strong>, mais le statut de la CF reste dans l'état <strong>En cours de révision externe</strong>. 
 
 La CF envoyée au fournisseur avec le statut <strong>En cours de révision externe</strong> est mise à jour avec les dates de livraison confirmées sur les lignes. Cette mise à jour lance une nouvelle version qui est automatiquement définie sur le statut <strong>Confirmé</strong>. Une fois la CF confirmée, elle apparaît dans l'interface de collaboration du fournisseur.</td>
 </tr>
 <tr class="odd">
-<td>Le fournisseur <strong>accepte</strong> la commande, mais Finance and Operations n'est pas configuré pour confirmer automatiquement les CF acceptées par le fournisseur.</td>
+<td>Le fournisseur <strong>accepte</strong> la commande, mais Supply Chain Management n&#39;est pas configuré pour confirmer automatiquement les CF acceptées par le fournisseur.</td>
 <td>La réponse du fournisseur est enregistrée comme <strong>Accepté</strong>, mais le statut de la CF reste dans l'état <strong>En cours de révision externe</strong>.
 
 La CF envoyée au fournisseur avec le statut <strong>En cours de révision externe</strong> est mise à jour avec les dates de livraison confirmées sur les lignes. Cette mise à jour lance une nouvelle version qui est automatiquement définie sur le statut <strong>En cours de révision externe</strong>. Vous pouvez ensuite confirmer manuellement la CF.</td>
@@ -180,14 +180,14 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 
 | Action | Statut et version |
 |--------|--------------------|
-| La première version de la CF est créée dans Finance and Operations. | Le statut est **Approuvé**. |
+| La première version de la CF est créée dans Supply Chain Management. | Le statut est **Approuvé**. |
 | La CF est envoyée au fournisseur. | Une version est enregistrée dans l'interface de collaboration fournisseur et le statut devient **En cours de révision externe**. |
 | Le fournisseur envoie une réponse **Acceptée avec des modifications**. | Le statut est toujours **En cours de révision externe**. |
 | Vous apportez certaines modifications demandées par le fournisseur. | Le statut passe à **Approuvée**. |
 | Vous envoyez la nouvelle version de la CF au fournisseur. | Une nouvelle version est enregistrée dans l'interface de collaboration fournisseur et le statut devient **En cours de révision externe**. |
 | Le fournisseur accepte la nouvelle version de la CF. | Le statut est toujours **En cours de révision externe** à moins que le compte fournisseur soit configuré pour définir automatiquement les CF sur l'état **Confirmé** lorsque le fournisseur les accepte. |
 
-Les fournisseurs ne doivent pas confirmer une CF à l'aide de l'interface de collaboration fournisseur. Ils peuvent également envoyer un message électronique ou communiquer leur acceptation d'une CF via d'autres canaux. Vous pouvez ensuite confirmer manuellement la commande dans Finance and Operations. Dans ce cas, vous recevez un avertissement indiquant que la commande est confirmée même s'il n'y a aucune réponse du fournisseur. La CF apparaît alors dans l'historique de confirmation sous la forme d'une commande confirmée en cours qui n'a pas de réponse. À ce stade, le fournisseur n'a plus l'option de confirmer ou de rejeter la CF.
+Les fournisseurs ne doivent pas confirmer une CF à l'aide de l'interface de collaboration fournisseur. Ils peuvent également envoyer un message électronique ou communiquer leur acceptation d'une CF via d'autres canaux. Vous pouvez ensuite confirmer manuellement la commande. Dans ce cas, vous recevez un avertissement indiquant que la commande est confirmée même s'il n'y a aucune réponse du fournisseur. La CF apparaît alors dans l'historique de confirmation sous la forme d'une commande confirmée en cours qui n'a pas de réponse. À ce stade, le fournisseur n'a plus l'option de confirmer ou de rejeter la CF.
 
 > [!NOTE]
 > La version de CF disponible pour d'autres processus dans Finance and Operations est toujours la version la plus récente, même si cette version n'a pas encore été enregistrée dans l'interface de collaboration fournisseur.
@@ -200,7 +200,7 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 
 | Action | Statut et version |
 |--------|--------------------|
-| La première version de la CF est créée dans Finance and Operations. | Le statut est **Brouillon**. |
+| La première version de la CF est créée dans Supply Chain Management. | Le statut est **Brouillon**. |
 | La CF est soumise au processus d'approbation. (Il s'agit d'un processus interne dans lequel le fournisseur n'est pas impliqué.) | Le statut passe de **Brouillon** à **En cours de révision** à **Approuvé** si la CF n'est pas rejetée au cours du processus d'approbation. La CF approuvée est enregistrée comme une version. | 
 | La CF est envoyée au fournisseur. | La version est enregistrée dans l'interface de collaboration fournisseur et le statut devient **En cours de révision externe**. |
 | Vous effectuez les modifications demandées par le fournisseur, manuellement ou à l'aide de l'action **Traiter le mise à jour de la CF** dans la réponse pour mettre à jour la CF. | Le statut redevient **Brouillon**. |
@@ -237,13 +237,13 @@ Cette section décrit les interactions entre les clients et les fournisseurs lor
 
 ## <a name="public-sector-extensions"></a>Extensions du secteur public
 
-Pour le secteur public, la fonctionnalité étendue permet d'envoyer un dossier d'appel d'offre aux fournisseurs et de le publier. Lorsque vous publiez un appel d'offre, toute personne qui demande les informations peut visualiser le travail qui est conforme à la plupart des réglementations du secteur public. Tout le travail disponible est reflété dans la page de liste **Appels d'offre publiés en cours**, et les appels d'offre annulés, en attente ou attribués peuvent être affichés sur la page de liste **Appels d'offre publiés clôturés**. Ces documents peuvent également être visualisés sur un site externe à Finance and Operations via des intégrations avec les entités de données suivantes :
+Pour le secteur public, la fonctionnalité étendue permet d'envoyer un dossier d'appel d'offre aux fournisseurs et de le publier. Lorsque vous publiez un appel d'offre, toute personne qui demande les informations peut visualiser le travail qui est conforme à la plupart des réglementations du secteur public. Tout le travail disponible est reflété dans la page de liste **Appels d'offre publiés en cours**, et les appels d'offre annulés, en attente ou attribués peuvent être affichés sur la page de liste **Appels d'offre publiés clôturés**. Ces documents peuvent également être visualisés sur un site externe à Supply Chain Management via des intégrations avec les entités de données suivantes :
 
 - Appels d'offre publiés
 - Ligne des appels d'offre publiés
 - Pièces jointes aux en-têtes des appels d'offre publiés
 
-Ces entités permettent aux personnes qui ne sont pas des utilisateurs mis en service dans Finance and Operations, mais qui ont un accès anonyme au site externe, d'afficher le travail disponible et clôturé. En outre, la fonctionnalité étendue dans **Envoyer et publier** permet à l'utilisateur qui configure les paramètres du processus d'appel d'offre de définir un modèle d'e-mail. Ensuite, lorsque le professionnel de l'approvisionnement crée le dossier d'appel d'offre, il doit sélectionner le modèle d'e-mail pour envoyer les informations requises aux fournisseurs dans le dossier d'appel d'offre. 
+Ces entités permettent aux personnes qui ne sont pas des utilisateurs mis en service dans Supply Chain Management, mais qui ont un accès anonyme au site externe, d'afficher le travail disponible et clôturé. En outre, la fonctionnalité étendue dans **Envoyer et publier** permet à l'utilisateur qui configure les paramètres du processus d'appel d'offre de définir un modèle d'e-mail. Ensuite, lorsque le professionnel de l'approvisionnement crée le dossier d'appel d'offre, il doit sélectionner le modèle d'e-mail pour envoyer les informations requises aux fournisseurs dans le dossier d'appel d'offre. 
 
 L'utilisateur qui configure les paramètres pour le processus d'appel d'offre peut créer plusieurs modèles d'e-mail. Ces modèles d'e-mail peuvent contenir le texte statique et les jetons de remplacement suivants. Les jetons seront remplacés par des valeurs contextuelles lorsqu'un e-mail est créé.
 

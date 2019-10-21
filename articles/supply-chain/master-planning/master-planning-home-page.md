@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543581"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250689"
 ---
 # <a name="master-planning-home-page"></a>Page d'accueil de la planification
 
@@ -74,7 +74,7 @@ Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.
 Vous trouverez des avis, des actualités et d'autres informations concernant la planification et d'autres solutions sur le [Blog de l'équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l'équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guides de tâches
-Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton **Aide** de n'importe quelle page.
+Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton **Aide** de n'importe quelle page.
 
 ### <a name="webinars"></a>Webinaires
 [Utiliser Azure Machine Learning pour la prévision de la demande](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

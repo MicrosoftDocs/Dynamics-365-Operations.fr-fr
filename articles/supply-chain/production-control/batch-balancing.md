@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46411052c7db25c3d1410c5280e8e856f0a40d3d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558617"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250138"
 ---
 # <a name="batch-balancing"></a>Équilibrage du lot
 
@@ -31,7 +31,7 @@ ms.locfileid: "1558617"
 
 Cette rubrique décrit la prise en charge du processus d'équilibrage du lot. 
 
-Visionnez une [vidéo sur l'équilibrage du lot dans Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
+Pour plus d'informations, visionnez une [vidéo sur l'équilibrage du lot](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 Lors du processus d'équilibrage du lot, le nombre de substances à utiliser dans un lot de production est calculé à partir de la concentration de substances actives dans les lots de produits sélectionnés.
 

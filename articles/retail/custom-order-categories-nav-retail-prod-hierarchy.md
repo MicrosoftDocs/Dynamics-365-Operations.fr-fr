@@ -1,7 +1,7 @@
 ---
 title: Modifier l'ordre de tri pour les entités de promotion des ventes
-description: Cette rubrique explique les concepts relatifs aux contrôle de l'ordre d'affichage pour différentes entités associées à un événement de promotion des ventes dans Microsoft Dynamics 365 for Retail.
-author: ashishharchwani
+description: Cette rubrique explique les concepts relatifs aux contrôle de l'ordre d'affichage pour différentes entités associées à un événement de promotion des ventes dans Dynamics 365 Retail.
+author: josaw1
 manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
@@ -18,16 +18,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2be3c1198ac6fff851be1bead2f0995202f1f0e7
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c159ff869d6c504fdebbef1fa68115a410c81d85
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866159"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019414"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Modifier l'ordre de tri pour les entités de promotion des ventes
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Les détaillants considèrent que la découverte d'un produit est l'outil principal pour l'interaction de clients entre les canaux de vente au détail. Différentes fonctionnalités peuvent aider les clients à découvrir facilement des produits. Ils peuvent par exemple parcourir des catégories, faire des recherches, et filtrer.
@@ -38,7 +38,7 @@ Cette rubrique explique les concepts relatifs aux contrôle de l'ordre d'afficha
 
 La prise en charge du tri de différentes entités associées à un événement de promotion des ventes a été améliorée. Cette prise en charge correspond désormais mieux aux scénarios client existants qui nécessitaient auparavant des extensions de la part des partenaires d'implémentation.
 
-Dans les versions de Microsoft Dynamics 365 for Retail qui sont antérieures à la version 10.0.5, la commande de tri pour les catégories de la hiérarchie de navigation était dans l'ordre alphabétique. La nouvelle fonctionnalité d'ordre de tri personnalisée permet aux responsables des ventes de configurer la commande de tri pour différentes entités associées à un événement de promotion des ventes entre tous les clients de l'utilisateur final. Ces clients incluent les sièges sociaux et les centres d'appels.
+Dans les versions de Retail qui sont antérieures à la version 10.0.5, la commande de tri pour les catégories de la hiérarchie de navigation était dans l'ordre alphabétique. La nouvelle fonctionnalité d'ordre de tri personnalisée permet aux responsables des ventes de configurer la commande de tri pour différentes entités associées à un événement de promotion des ventes entre tous les clients de l'utilisateur final. Ces clients incluent les sièges sociaux et les centres d'appels.
 
 ## <a name="configure-the-display-order-for-categories-in-the-retail-product-hierarchy"></a>Configuration de l'ordre d'affichage des catégories de la hiérarchie des produits vendus au détail
 

@@ -1,6 +1,6 @@
 ---
 title: Choix entre Retail Modern POS (MPOS) et PDV Cloud
-description: Cette rubrique explique les principales différences entre Retail Modern POS et Cloud POS. Elle décrit également les différents facteurs qui doivent être pris en considération par les détaillants qui implémentent Microsoft Dynamics 365 for Retail pour les aider à faire le meilleur choix pour leurs besoins.
+description: Cette rubrique explique les principales différences entre Retail Modern POS et Cloud POS. Elle décrit également les différents facteurs qui doivent être pris en considération par les détaillants qui implémentent Dynamics 365 Retail pour les aider à faire le meilleur choix pour leurs besoins.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557012"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025907"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Choix entre Retail Modern POS (MPOS) et PDV Cloud
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit aux responsables de l'implémentation un contexte, des conseils et des instructions supplémentaires sur les facteurs qu'ils doivent prendre en considération lorsqu'ils déploient Microsoft Dynamics 365 for Retail. En passant en revue et en suivant ces instructions dans le cadre du processus de déploiement, les responsables de l'implémentation peuvent éviter les problèmes susceptibles d'affecter la satisfaction ou les performances de l'utilisateur.
+Cette rubrique fournit aux responsables de l'implémentation un contexte, des conseils et des instructions supplémentaires sur les facteurs qu'ils doivent prendre en considération lorsqu'ils déploient Dynamics 365 Retail. En passant en revue et en suivant ces instructions dans le cadre du processus de déploiement, les responsables de l'implémentation peuvent éviter les problèmes susceptibles d'affecter la satisfaction ou les performances de l'utilisateur.
 
 ## <a name="insights"></a>Analyse
 

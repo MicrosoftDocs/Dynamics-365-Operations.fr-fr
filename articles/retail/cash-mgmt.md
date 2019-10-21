@@ -1,6 +1,6 @@
 ---
 title: Améliorations de la gestion des disponibilités
-description: Cette rubrique décrit les améliorations de la gestion des disponibilités dans POS pour Dynamics 365 for Retail.
+description: Cette rubrique décrit les améliorations de la gestion des disponibilités dans POS pour Dynamics 365 Retail.
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630051"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019529"
 ---
 # <a name="cash-management-improvements"></a>Améliorations de la gestion des disponibilités
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630051"
 
 La gestion des disponibilités est une fonction clé pour les détaillants dans les magasins physiques. Les détaillants souhaitent que leurs magasins aient des systèmes qui les aident à fournir la traçabilité et la responsabilité complètes des disponibilités et de leurs mouvements entre les différents caisses enregistreuses et les caissiers d'un magasin. Ils doivent pouvoir rapprocher les différences et déterminer la responsabilité.
 
-Microsoft Dynamics 365 for Retail a des fonctionnalités de gestion des disponibilités dans application de point de vente POS. Toutefois, dans les versions de Retail antérieures à la version 10.0.3, la fonctionnalité de gestion des disponibilités n'est pas assez robuste pour fournir une traçabilité complète des mouvements des disponibilités dans les magasins. Bien que les détaillants puissent rapprocher les disponibilités pour un magasin, ils ne peuvent pas avec précision déterminer la responsabilité en cas d'écart de disponibilités.
 
-Dans la version 10.0.3 de Microsoft Dynamics 365 for Retail et ultérieurement, les détaillants obtiennent la traçabilité de la gestion des disponibilités. Dans le cadre de cette traçabilité, les détaillants peuvent définir des coffres-forts, créer des transactions bilatérales de disponibilités, et rapprocher les transactions de la gestion des disponibilités.
+Microsoft Dynamics 365 Retail a des fonctionnalités de gestion des disponibilités dans application de point de vente PDV. Toutefois, dans les versions de Retail antérieures à la version 10.0.3, la fonctionnalité de gestion des disponibilités n'est pas assez robuste pour fournir une traçabilité complète des mouvements des disponibilités dans les magasins. Bien que les détaillants puissent rapprocher les disponibilités pour un magasin, ils ne peuvent pas avec précision déterminer la responsabilité en cas d'écart de disponibilités.
+
+
+Dans la version 10.0.3 de Vente au détail et ultérieurement, les détaillants obtiennent la traçabilité de la gestion des disponibilités. Dans le cadre de cette traçabilité, les détaillants peuvent définir des coffres-forts, créer des transactions bilatérales de disponibilités, et rapprocher les transactions de la gestion des disponibilités.
 
 ## <a name="set-up-traceability-and-define-safes"></a>Paramétrer la traçabilité et définir des coffres-forts
 

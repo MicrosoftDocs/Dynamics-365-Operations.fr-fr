@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865374"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249492"
 ---
 # <a name="product-configuration-overview"></a>Vue d'ensemble de la configuration du produit
 
@@ -60,6 +60,9 @@ Un modèle de configuration de produit est constitué d'un ou plusieurs composan
 
 Chaque composant est doté d'un ou de plusieurs attributs qui identifient ses propriétés. Les attributs sont choisis par les utilisateurs lors du processus de configuration. Les attributs contrôlent les relations inter- composants et intra- composants via l'inclusion dans les contraintes ou les calculs. Par l'intermédiaire des conditions appliquées aux lignes de nomenclature, les attributs permettent de déterminer de quelles pièces physiques le produit configuré sera constitué. En outre, un attribut peut contrôler la propriété d'une ligne de nomenclature via un mécanisme de mise en correspondance. Une fonctionnalité similaire existe pour les opérations de gamme concernant les paramètres d'inclusion et de propriété.
 
+>[!NOTE]
+> Lorsque vous créez les types d'attribut, évitez d'avoir à créer un grand nombre de valeurs pour le domaine de type d'attribut. Cela pourrait être la cause de ralentissements dans le configurateur de produit. 
+
 ### <a name="expression-constraints"></a>Contraintes d'expression
 
 L'utilisation d'un modèle de configuration de produit basé sur les contraintes implique que certaines restrictions existent lorsque l'utilisateur sélectionne des valeurs pour les divers attributs. De telles restrictions peuvent être mises en œuvre en tant que contraintes d'expression à l'aide du langage OML (Optimization Modeling Language). Sinon, une contrainte peut être mise en œuvre sous forme de contrainte de table.
@@ -70,7 +73,7 @@ Les contraintes de table peuvent être définies par l'utilisateur ou par le sys
 
 Une contrainte de table définie par l'utilisateur est élaborée par l'utilisateur. L'utilisateur sélectionne une combinaison des types d'attributs pour représenter les colonnes de la table puis entre les valeurs provenant des domaines des types d'attributs sélectionnés pour former les lignes de la contrainte de table.  
 
-Une contrainte de table définie par le système est définie en sélectionnant quelle table de Microsoft Dynamics 365 for Finance and Operations doit être utilisée comme référence, puis en sélectionnant les champs de cette table pour former les colonnes de la contrainte. Les lignes de la contrainte de table sont les lignes de la table Finance and Operations qui sont présentes au moment de la configuration.  
+Une contrainte de table définie par le système est définie en sélectionnant quelle table doit être utilisée comme référence, puis en sélectionnant les champs de cette table pour former les colonnes de la contrainte. Les lignes de la contrainte de table sont les lignes de la table Finance and Operations qui sont présentes au moment de la configuration.  
 
 Une contrainte de table est incluse dans un modèle de configuration de produit en référençant la définition de contrainte de table et en mettant en correspondance les attributs pertinents dans le modèle avec les colonnes dans la contrainte de table.
 

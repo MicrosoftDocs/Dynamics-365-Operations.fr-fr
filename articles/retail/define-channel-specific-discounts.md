@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a23176cefde1f4d119828c9b124750d6106a3bfa
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568066"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019345"
 ---
 # <a name="define-channel-specific-discounts"></a>Définir les remises spécifiques à un canal
 
@@ -36,7 +36,7 @@ Les détaillants définissent souvent des remises dans différents canaux. Cette
 
 Les détaillants offrent souvent des remises dans différents canaux afin de répondre à des conditions de marché locales ou pour faire face à la concurrence.
 
-Microsoft Dynamics 365 for Retail utilise des groupes de prix pour définir des remises spécifiques aux canaux. Les groupes de prix peuvent être affectés à une ou plusieurs des entités suivantes : canaux, catalogues, affiliations et programmes de fidélité. Cet article présente les canaux, mais les mêmes concepts s'appliquent aux remises de catalogue, aux remises d'affiliations, et aux remises pour fidélité.
+Retail utilise des groupes de prix pour définir des remises spécifiques aux canaux. Les groupes de prix peuvent être affectés à une ou plusieurs des entités suivantes : canaux, catalogues, affiliations et programmes de fidélité. Cet article présente les canaux, mais les mêmes concepts s'appliquent aux remises de catalogue, aux remises d'affiliations, et aux remises pour fidélité.
 
 ## <a name="price-groups"></a>Groupes de prix
 

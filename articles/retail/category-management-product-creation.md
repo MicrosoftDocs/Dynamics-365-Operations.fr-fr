@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27870fe6172479b891b885d9e84ca10b250e3399
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553626"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019505"
 ---
-# <a name="manage-retail-product-categories-and-products"></a>Gérer les catégories de produits vendus au détail et les produits
+# <a name="manage-retail-product-categories-and-products"></a>Gérer les produits et catégories de produits vendus au détail
 
 [!include [banner](./includes/banner.md)]
 
-Cette rubrique décrit une manière améliorée de gérer des catégories de produits vendus au détail et des produits vendus au détail dans Microsoft Dynamics 365 for Retail. Les améliorations permettent aux responsables des ventes d'afficher une structure de propriétés de produit partagées entre la hiérarchie des produits vendus au détail et les détails du produit lancé.
+Cette rubrique décrit une manière améliorée de gérer des catégories de produits et des produits dans Dynamics 365 Retail. Les améliorations permettent aux responsables des ventes d'afficher une structure de propriétés de produit partagées entre la hiérarchie des produits Retail et les détails du produit lancé.
 
-Pour en savoir plus sur la gestion des catégories de produits vendus au détail, dans l'espace de travail **Gestion des catégories et des produits**, sélectionnez la vignette **Hiérarchie des produits vendus au détail**.
+Pour en savoir plus sur la gestion des catégories de produits, dans l'espace de travail **Gestion des catégories et des produits**, sélectionnez la vignette **Hiérarchie des produits vendus au détail**.
 
-Notez la structure améliorée de la page **Hiérarchie des produits vendus au détail** qui s'affiche. Dans les versions précédentes de Retail, les propriétés du produit étaient divisées en *propriétés de base du produit* et en *propriétés du produit vendu au détail*, en fonction de l'étendue de leur applicabilité. Les propriétés du produit vendu au détail sont *globales* dans leur portée d'applicabilité. En d'autres termes, pour une propriété de produit Retail donnée, la même valeur est partagée pour toutes les entités juridiques. Par opposition, les propriétés de produit de base sont *spécifiques à une entité juridique*. En d'autres termes, pour une propriété de produit de base donnée, la valeur peut être différente entre les entités juridiques, selon les exigences de l'entreprise de chaque entité juridique.
+Notez la structure améliorée de la page **Hiérarchie des produits vendus au détail** qui s'affiche. Dans les versions précédentes de Retail, les propriétés du produit étaient divisées en *propriétés de base du produit* et en *propriétés du produit vendu au détail*, en fonction de l'étendue de leur applicabilité. Les propriétés du produit vendu au détail sont *globales* dans leur portée d'applicabilité. En d'autres termes, pour une propriété de produit donnée, la même valeur est partagée pour toutes les entités juridiques. Par opposition, les propriétés de produit de base sont *spécifiques à une entité juridique*. En d'autres termes, pour une propriété de produit de base donnée, la valeur peut être différente entre les entités juridiques, selon les exigences de l'entreprise de chaque entité juridique.
 
-Dans la structure de la catégorie de produit vendu au détail améliorée, les propriétés du produit sont séparées de manière logique en fonction de leur applicabilité au sein d'un groupe, afin de refléter la structure des écrans de détails de produit.
+Dans la structure de la catégorie de produit améliorée, les propriétés du produit sont séparées de manière logique en fonction de leur applicabilité au sein d'un groupe, afin de refléter la structure des écrans de détails de produit.
 
 ![Regroupement des champs selon leur portée d'applicabilité de leurs propriétés](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
@@ -50,7 +50,7 @@ Pour gérer les propriétés d'une entité juridique spécifique, sélectionnez 
 
 ![Afficher/modifier une entité juridique spécifique](media/ToggleToEditForAllLegalEntities.PNG)
 
-De plus, dans la structure de la catégories de produits vendus au détail améliorée, un responsable de vente peut désormais définir des valeurs par défaut pour un ensemble de propriétés de produit supplémentaires au niveau de la catégorie individuelle. Ensuite, lors de la création des produits, ces valeurs de propriété de produit par défaut sont héritées par un produit, selon l'association de ces propriétés à une catégorie individuelle de la hiérarchie des produits vendus au détail. Ces propriétés de produit héritées peuvent également être modifiées pour chaque produit, afin de répondre aux exigences de l'entreprise.
+De plus, dans la structure de la catégories de produits vendus au détail améliorée, un responsable de vente peut désormais définir des valeurs par défaut pour un ensemble de propriétés de produit supplémentaires au niveau de la catégorie individuelle. Ensuite, lors de la création des produits, ces valeurs de propriété de produit par défaut sont héritées par un produit, selon l'association de ces propriétés à une catégorie individuelle de la hiérarchie des produits. Ces propriétés de produit héritées peuvent également être modifiées pour chaque produit, afin de répondre aux exigences de l'entreprise.
 
 ## <a name="selecting-properties-to-update-products-on-the-retail-product-hierarchy-page"></a>Sélection des propriétés pour mettre à jour les produits sur la page de la hiérarchie de produits vendus au détail
 

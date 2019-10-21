@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent (26 mars 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés ou modifications dans Dynamics 365 Talent (26 mars 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/26/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741565"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023882"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (26 mars 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (26 mars 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
 
@@ -46,14 +46,14 @@ Vous pouvez désormais inclure des images directement dans les activités. Outre
 
 [![Mise en correspondance](./media/embedimages.png)](./media/embedimages.png)
 
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Onboard.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 **Version 8.1.2210**
 
 ### <a name="custom-field-support-available-for-select-entities-in-common-data-service"></a>Prise en charge de champs personnalisés pour certaines entités dans Common Data Service 
 
-Les entités Common Data Service suivantes prennent maintenant en charge les champs client créés dans Dynamics 365 for Talent :
+Les entités Common Data Service suivantes prennent maintenant en charge les champs client créés dans Talent :
 
 - Collaborateur
 - Origine ethnique
@@ -72,9 +72,9 @@ Avec cette modification, la page Historique d'emploi affiche les enregistrements
 Dans cette version, les régimes de rémunération fixe s'affichent désormais lorsque les utilisateurs sont limités par entreprise. Tous les paramètres de sécurité sont respectés, et les régimes fixes s'affichent pour les sociétés auxquelles l'utilisateur est autorisé à accéder. 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>Impossible de supprimer des offres d'emploi en utilisant l'option Ouvrir dans Excel dans Talent
-Avec cette version, vous pouvez désormais supprimer des enregistrements d'emploi à l'aide de l'option **Ouvrir dans Excel** dans Dynamics 365 for Talent.
+Avec cette version, vous pouvez désormais supprimer des enregistrements d'emploi à l'aide de l'option **Ouvrir dans Excel** dans Talent.
 
-### <a name="upgrade-to-common-data-service"></a>Mise à niveau vers Common Data Service
+### <a name="upgrade-to-common-data-service"></a>Effectuez une mise à niveau vers Common Data Service.
 Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à grands pas. Connectez-vous au centre d'administration de PowerApps pour définir si votre base de données doit être mise à niveau. Pour en savoir plus sur les dates butoirs et les étapes indispensables pour la mise à niveau, voir [Mise à niveau vers Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>En mode aperçu
@@ -93,7 +93,7 @@ Les organisations peuvent exiger la définition de codes motif pour certains typ
 Nombreuses sont les organisations où les responsables des avantages et de la rémunération ne peuvent accéder qu'à certains enregistrements de rémunération. Ces enregistrements peuvent concerner des cadres ou des employés régionaux. Cette modification permet aux RH de gérer et de tenir à jour les plans de rémunération pour différents groupes d'employés au sein de l'organisation. Vous pouvez affecter des rôles de sécurité aux plans fixes et variables. Ces rôles déterminent l'accès aux plans et aux données des employés relatives aux plans, comme les enregistrements propres aux salaires ou aux primes. Seuls les rôles disposant de l'accès peuvent traiter la rémunération de ces employés.
 
 ###  <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
-Avec Platform Update 25, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement. 
+Dans Platform Update 25 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui diffusent automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Vérification d'employé en double : modifications de l'interface utilisateur
 Avec cette modification, les doublons sont détectés au moment de renseigner les champs de nom. Un champ de statut affiche le nombre de doublons trouvés. Vous pouvez sélectionner le lien fourni pour ouvrir une nouvelle page pour évaluer s'il convient d'utiliser la correspondance détectée. Pour éviter d'interrompre la saisie des données, l'écran des doublons ne s'ouvre pas automatiquement.

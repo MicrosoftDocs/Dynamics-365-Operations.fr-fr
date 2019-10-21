@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 14b0661c4c1fa8f2bc197a8a3983b71d73199b2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536547"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251544"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d'entrepôt
 
@@ -163,7 +163,7 @@ Vous pouvez paramétrer une option de menu qui crée un travail pour un autre co
 </tr>
 <tr>
 <td>Mouvement par modèle</td>
-<td>Déplacez des articles d'un emplacement vers un autre d'une façon semi-automatisée. Le collaborateur sélectionne l'emplacement depuis lequel déplacer les articles, et Finance and Operations utilise l'instruction d'emplacement pour déterminer où déplacer les articles.</td>
+<td>Déplacez des articles d'un emplacement vers un autre d'une façon semi-automatisée. Le collaborateur sélectionne l'emplacement depuis lequel déplacer les articles, le système utilise l'instruction d'emplacement pour déterminer où déplacer les articles.</td>
 </tr>
 <tr>
 <td>Transfert d'entrepôt</td>
@@ -212,7 +212,7 @@ Outre la configuration des options de menu pour créer le travail d'entrepôt, v
 </tr>
 <tr class="even">
 <td>Dirigé par le système</td>
-<td>Microsoft Dynamics 365 for Finance and Operations contrôle le type de travail affecté à un collaborateur et l'ordre dans lequel le collaborateur effectue le travail. Lorsque vous sélectionnez cette option, vous pouvez cliquer sur <strong>Travail dirigé par le système</strong> dans le volet Actions pour ouvrir la page <strong>Ordre de tri dirigé par le système</strong>, dans laquelle vous pouvez paramétrer les critères de tri pour le travail. Les critères de tri contrôlent l'ordre dans lequel le collaborateur réalise le travail. Vous pouvez ajouter autant de critères que nécessaire.</td>
+<td>Supply Chain Management contrôle le type de travail affecté à un collaborateur et l'ordre dans lequel le collaborateur effectue le travail. Lorsque vous sélectionnez cette option, vous pouvez cliquer sur <strong>Travail dirigé par le système</strong> dans le volet Actions pour ouvrir la page <strong>Ordre de tri dirigé par le système</strong>, dans laquelle vous pouvez paramétrer les critères de tri pour le travail. Les critères de tri contrôlent l'ordre dans lequel le collaborateur réalise le travail. Vous pouvez ajouter autant de critères que nécessaire.</td>
 </tr>
 <tr class="odd">
 <td>Dirigé par l'utilisateur</td>
@@ -224,7 +224,7 @@ Outre la configuration des options de menu pour créer le travail d'entrepôt, v
 </tr>
 <tr class="odd">
 <td>Regroupement système</td>
-<td>Microsoft Dynamics 365 for Finance and Operations regroupe le travail d'un collaborateur en fonction d'un champ spécifié. Par exemple, un travail de prélèvement est groupé lorsqu'un collaborateur numérise un ID d'expédition, un ID de chargement, ou n'importe quelle valeur pouvant lier chaque unité de travail. Si vous sélectionnez cette option, les champs suivants sont requis :
+<td>Supply Chain Management regroupe le travail d'un collaborateur en fonction d'un champ spécifié. Par exemple, un travail de prélèvement est groupé lorsqu'un collaborateur numérise un ID d'expédition, un ID de chargement, ou n'importe quelle valeur pouvant lier chaque unité de travail. Si vous sélectionnez cette option, les champs suivants sont requis :
 <ul>
 <li><strong>Champ de regroupement système</strong> – Sélectionnez le champ qu'un collaborateur numérise pour grouper le travail.</li>
 <li><strong>Étiquette de regroupement système</strong> – Entrez le texte indiquant au collaborateur ce qu'il doit numériser pour grouper le travail.</li>
@@ -245,7 +245,7 @@ Cette option est utile, par exemple, lorsque plusieurs palettes sont prévues po
 </tr>
 <tr class="even">
 <td>Regroupement d'inventaires tournants</td>
-<td>Le collaborateur sélectionne une zone, un pool de travail, ou un emplacement, et Microsoft Dynamics 365 for Finance and Operations affecte le travail en fonction de la sélection. Si cette option est sélectionnée, vous pouvez cliquer sur <strong>Inventaire tournant</strong> dans le volet Actions pour spécifier des informations supplémentaires à afficher, et vous pouvez également spécifier le nombre de fois que le collaborateur doit répéter l'opération si une différence est trouvée.</td>
+<td>Le collaborateur sélectionne une zone, un pool de travail ou un emplacement, et Supply Chain Management affecte le travail en fonction de la sélection. Si cette option est sélectionnée, vous pouvez cliquer sur <strong>Inventaire tournant</strong> dans le volet Actions pour spécifier des informations supplémentaires à afficher, et vous pouvez également spécifier le nombre de fois que le collaborateur doit répéter l'opération si une différence est trouvée.</td>
 </tr>
  <tr class="odd">
 <td>Chargement de transport</td>
@@ -333,7 +333,7 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="odd">
 <td>Rangement du groupe</td>
-<td>Sélectionnez cette option pour grouper le travail de rangement. Cette option est disponible lorsque le travail a été groupé par le collaborateur ou par Microsoft Dynamics 365 for Finance and Operations. Lorsque le collaborateur a terminé tout le travail de prélèvement dans le groupe, le travail de rangement est créé pour le même groupe.</td>
+<td>Sélectionnez cette option pour grouper le travail de rangement. Cette option est disponible lorsque le travail a été groupé par le collaborateur ou par Supply Chain Management. Lorsque le collaborateur a terminé tout le travail de prélèvement dans le groupe, le travail de rangement est créé pour le même groupe.</td>
 </tr>
 <tr class="even">
 <td>Types d'ajustements de stock</td>
@@ -366,11 +366,11 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="even">
 <td>Champ de regroupement système</td>
-<td>Sélectionnez le champ qui détermine comment Microsoft Dynamics 365 for Finance and Operations groupera les travaux de prélèvement pour les collaborateurs. Par exemple, si vous sélectionnez le champ <strong>ShipmentId</strong>, le collaborateur numérisera l'ID d'expédition pour regrouper les travaux de prélèvement. Tout le travail d'expédition est alors affecté au collaborateur. Ce champ nécessite la création d'une option de menu pour utiliser le travail existant qui est groupé par le système. Vous devez également entrer du texte dans le champ <strong>Étiquette de regroupement système</strong> pour indiquer au collaborateur ce qu'il doit numériser.</td>
+<td>Sélectionnez le champ qui détermine comment Supply Chain Management groupe les travaux de prélèvement pour les collaborateurs. Par exemple, si vous sélectionnez le champ <strong>ShipmentId</strong>, le collaborateur numérisera l'ID d'expédition pour regrouper les travaux de prélèvement. Tout le travail d'expédition est alors affecté au collaborateur. Ce champ nécessite la création d'une option de menu pour utiliser le travail existant qui est groupé par le système. Vous devez également entrer du texte dans le champ <strong>Étiquette de regroupement système</strong> pour indiquer au collaborateur ce qu'il doit numériser.</td>
 </tr>
 <tr class="odd">
 <td>Étiquette de regroupement système</td>
-<td>Entrez le texte qui indique au collaborateur quoi numériser lorsque le travail de prélèvement est groupé par Microsoft Dynamics 365 for Finance and Operations. Par exemple, si vous utilisez le champ <strong>ShipmentId</strong> pour grouper le travail de prélèvement par expédition, vous pouvez entrer <strong>ID expédition</strong> dans le champ. Ce champ nécessite la création d'une option de menu pour utiliser le travail existant qui est groupé par le système. Vous devez également sélectionner le champ de groupement en fonction du champ <strong>Champ de regroupement système</strong>.</td>
+<td>Entrez le texte qui indique au collaborateur quoi numériser lorsque le travail de prélèvement est groupé par Supply Chain Management. Par exemple, si vous utilisez le champ <strong>ShipmentId</strong> pour grouper le travail de prélèvement par expédition, vous pouvez entrer <strong>ID expédition</strong> dans le champ. Ce champ nécessite la création d'une option de menu pour utiliser le travail existant qui est groupé par le système. Vous devez également sélectionner le champ de groupement en fonction du champ <strong>Champ de regroupement système</strong>.</td>
 </tr>
 <tr class="even">
 <td>Utiliser les données par défaut</td>
@@ -386,13 +386,13 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="odd">
 <td>Code modèle de travail</td>
-<td>Sélectionnez le modèle de travail qui crée le travail pour un processus. Par exemple, si vous recevez un article pour une commande fournisseur, le travail de rangement sera généré selon le modèle de travail. Si vous ne sélectionnez pas de modèle de travail, Microsoft Dynamics 365 for Finance and Operations affecte un modèle selon des critères de requête. Pour plus d'informations sur les modèles de travail, voir <a href="control-warehouse-location-directives.md">Contrôle du travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement</a>.</td>
+<td>Sélectionnez le modèle de travail qui crée le travail pour un processus. Par exemple, si vous recevez un article pour une commande fournisseur, le travail de rangement sera généré selon le modèle de travail. Si vous ne sélectionnez pas de modèle de travail, Supply Chain Management affecte un modèle selon des critères de requête. Pour plus d'informations sur les modèles de travail, voir <a href="control-warehouse-location-directives.md">Contrôle du travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Exiger que les collaborateurs confirment le produit, l'emplacement ou la quantité en prélevant des articles
-Vous pouvez paramétrer des confirmations de travail qui exigent que le collaborateur utilise un appareil mobile pour enregistrer l'emplacement ou la quantité lorsqu'il effectue un travail dans l'entrepôt. Les confirmations de travail permettent de garantir que le collaborateur se trouve à l'emplacement correct, ou traite la quantité correcte d'articles. Vous pouvez également activer Microsoft Dynamics 365 for Finance and Operations pour confirmer automatiquement l'enregistrement du collaborateur. Si vous activez la confirmation automatique, vous ne pouvez pas également demander de confirmer l'emplacement ou la quantité. Les confirmations de travail incluent également les produits et les variantes de produit. En outre, vous pouvez enregistrer des confirmations en numérisant un code-barres. Pour confirmer les produits et les variantes de produit, vous devez entrer un ID pour le produit ou la variante de produit. Cela peut être un ID produit, un ID de recherche de produit, un ID externe, un code GTIN ou un code-barres. Une fois l'ID entré ou le code-barres numérisé, les dimensions de la variante de produit sont affichées dans l'appareil mobile. 
+Vous pouvez paramétrer des confirmations de travail qui exigent que le collaborateur utilise un appareil mobile pour enregistrer l'emplacement ou la quantité lorsqu'il effectue un travail dans l'entrepôt. Les confirmations de travail permettent de garantir que le collaborateur se trouve à l'emplacement correct, ou traite la quantité correcte d'articles. Vous pouvez également activer Supply Chain Management pour confirmer automatiquement l'enregistrement du collaborateur. Si vous activez la confirmation automatique, vous ne pouvez pas également demander de confirmer l'emplacement ou la quantité. Les confirmations de travail incluent également les produits et les variantes de produit. En outre, vous pouvez enregistrer des confirmations en numérisant un code-barres. Pour confirmer les produits et les variantes de produit, vous devez entrer un ID pour le produit ou la variante de produit. Cela peut être un ID produit, un ID de recherche de produit, un ID externe, un code GTIN ou un code-barres. Une fois l'ID entré ou le code-barres numérisé, les dimensions de la variante de produit sont affichées dans l'appareil mobile. 
 
 Le tableau suivant décrit les différents types de travail avec lesquels vous pouvez utiliser des confirmations de travail.
 

@@ -1,6 +1,6 @@
 ---
-title: Surveiller la précision de la prévision
-description: Cet article décrit les types de précision de prévision que Microsoft Dynamics 365 for Finance and Operations calcule, et explique comment vous pouvez afficher les valeurs de précision.
+title: Contrôler la précision de la prévision
+description: Cette rubrique décrit les types de précision de prévision que Dynamics 365 Supply Chain Management calcule, et explique comment vous pouvez afficher les valeurs de précision.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,25 +19,26 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7070c15f9ee23cfdba871af68d1fc5954735651
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6f238afadfa064e972ef11a95fdad073f63ff20c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556804"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250666"
 ---
-# <a name="monitor-forecast-accuracy"></a>Surveiller la précision de la prévision
+# <a name="monitor-forecast-accuracy"></a>Contrôler la précision de la prévision
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les types de précision de prévision que Microsoft Dynamics 365 for Finance and Operations calcule, et explique comment vous pouvez afficher les valeurs de précision.
+Cette rubrique décrit les types de précision de prévision que Microsoft Dynamics 365 Supply Chain Management calcule, et explique comment vous pouvez afficher les valeurs de précision.
 
-Finance and Operations calcule les types de précision de prévision suivants :
+Supply Chain Management calcule les types de précision de prévision suivants :
 
 -   Précision de prévision historique, en comparant la prévision historique que la planification utilise à la demande historique. Pour afficher les valeurs (à la fois les valeurs absolues et les valeurs de pourcentage) pour la précision de prévision historique, cliquez sur **Afficher la précision** dans la page **Détails de prévision de la demande**.
 -   La précision estimée du modèle de prévision utilisé pour générer les prévisions. Vous pouvez afficher le pourcentage de précision sous **Détails du modèle - MAPE** dans la page **Détails de prévision de la demande**. 
 
-**Remarque :** si vous utilisez le service Microsoft Azure Machine Learning de prévision de la demande de Finance and Operations, le calcul de la précision du modèle interne est basé sur l'ensemble de données de test. Pour spécifier la taille de l'ensemble de données de test, définissez le paramètre **TEST\_SET\_SIZE\_PERCENT** dans la page **Paramètres de prévision de la demande**. Par exemple, si vous définissez la valeur sur **20**, les derniers 20 % des données historiques seront utilisés pour calculer la précision du modèle interne.
+> [!NOTE]
+> Si vous utilisez le service Microsoft Azure Machine Learning de prévision de la demande, le calcul de la précision du modèle interne est basé sur l'ensemble de données de test. Pour spécifier la taille de l'ensemble de données de test, définissez le paramètre **TEST\_SET\_SIZE\_PERCENT** dans la page **Paramètres de prévision de la demande**. Par exemple, si vous définissez la valeur sur **20**, les derniers 20 % des données historiques seront utilisés pour calculer la précision du modèle interne.
 
 
 <a name="additional-resources"></a>Ressources supplémentaires

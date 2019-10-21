@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865278"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248840"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Vue d'ensemble des appels d'offre
 
@@ -48,16 +48,13 @@ Vous pouvez créer une demande de devis à partir des commandes planifiées, d'u
 
 Après avoir préparé la demande de devis et ajouté des fournisseurs, sélectionnez **Envoyer** (**Envoyer et publier** pour le secteur public) sur la demande de devis. Un journal d'appel d'offre est généré pour chaque fournisseur auquel vous envoyez l'appel d'offre. Vous pouvez configurer les options d'impression pour l'action Envoyer afin d'imprimer un état pour chaque fournisseur dans une archive ou pour envoyer un état à l'adresse électronique de chaque fournisseur. En outre, vous pouvez utiliser le journal d'appel d'offre de chaque fournisseur pour générer un état que vous pouvez envoyer ou renvoyer au fournisseur ultérieurement. Vous pouvez également configurer l'action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.
 
-Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration de fournisseur, les fournisseurs peuvent saisir directement les offres dans Microsoft Dynamics 365 for Finance and Operations. Pour plus d'informations voir [Collaboration fournisseur avec des clients](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
+Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration de fournisseur, les fournisseurs peuvent saisir directement les offres dans Supply Chain Management. Pour plus d'informations voir [Collaboration fournisseur avec des clients](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 
 Si vous devez modifier un appel d'offre après son envoi, vous pouvez le renvoyer aux fournisseurs lorsque vous avez terminé à l'aide des deux actions de modification : Créer et Finaliser.+
 
 Lorsque vous recevez des offres par courrier électronique, vous pouvez gérer ces offres sur la page **Appels d'offre**.
 
 Si une deuxième itération d'une réponse d'un fournisseur est requise, sélectionnez **Retour** sur la page **Appel d'offre**. L'action Retour génère un nouveau journal et un état qui seront imprimés, archivés et envoyés conformément à vos paramètres d'impression.
-
-> [!NOTE]
-> Le nom de la page **Appel d'offre** a été modifiée. Dans les versions précédentes de Dynamics 365 for Finance and Operations, cette page est appelée **Réponse aux appels d'offre**.
 
 Si vous avez ajouté des critères de score à votre dossier d'appel d'offre, la demande de devis dispose d'un volet de score où vous pouvez saisir les scores. Tous les scores s'affichent sur l'appel d'offre lorsque vous comparez les réponses sur la page **Comparer les réponses**. Sur la page **Comparer les réponses**, vous pouvez également comparer les autres données de réponse, telles que le prix de la ligne, la date de livraison et le prix total.
 

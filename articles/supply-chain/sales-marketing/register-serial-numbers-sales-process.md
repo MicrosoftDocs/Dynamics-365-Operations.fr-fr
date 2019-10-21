@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555036"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251314"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Numéros de série de la caisse enregistreuse dans le processus de vente
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555036"
 
 Cette rubrique explique comment vous pouvez enregistrer des numéros de série sur des bons de livraison ou des factures pendant le processus de vente. Cette fonctionnalité est utile si une société souhaite capturer des numéros de série à des fins de service et de garantie, sans avoir à mettre à jour des numéros de série dans le stock de la réception à la sortie.
 
-De nombreuses sociétés souhaitent simplement capturer des numéros de série à des fins de service et de garantie, et ne doivent pas mettre à jour des numéros de série dans le stock (de la réception à la sortie). Dans ces scénarios, Microsoft Dynamics 365 for Finance and Operations permet d'enregistrer les numéros de série sur les bons de livraison ou les factures lorsque les produits sont vendus. Si des produits sont ultérieurement renvoyés, vous pouvez ensuite suivre un produit sur une facture pour déterminer si vous avez vendu le produit, et si le service ou les obligations de garantie sont valides.
+De nombreuses sociétés souhaitent simplement capturer des numéros de série à des fins de service et de garantie, et ne doivent pas mettre à jour des numéros de série dans le stock (de la réception à la sortie). Dans ces scénarios, vous pouvez enregistrer les numéros de série sur les bons de livraison ou les factures lorsque les produits sont vendus. Si des produits sont ultérieurement renvoyés, vous pouvez ensuite suivre un produit sur une facture pour déterminer si vous avez vendu le produit, et si le service ou les obligations de garantie sont valides.
 
-Vous devez activer les numéros de série pour le processus de vente en sélectionnant l'option **Actif dans le processus de vente** sur la page **Groupes de dimension de suivi**. Les événements suivants surviennent ensuite dans Microsoft Dynamics 365 for Finance and Operations :
+Vous devez activer les numéros de série pour le processus de vente en sélectionnant l'option **Actif dans le processus de vente** sur la page **Groupes de dimension de suivi**. Les événements suivants surviennent alors dans Supply Chain Management :
 -   Sur l'organisateur **Numéros de série**, l'option **Contrôle des numéros de série** est sélectionnée. Si cette option est sélectionnée, vous devez enregistrer un numéro de série pour chaque article figurant sur le bon de livraison ou sur la facture.
 -   Toutes les sélections effectuées dans le groupe de dimensions de suivi pour les numéros de série sont désactivées, hormis l'option **Sortie nulle autorisée**. Vous pouvez activer l'option **Sortie nulle autorisée** pour remplacer le contrôle des numéros de série et autoriser l'emballage et la facturation des produits sans enregistrer les numéros de série.
 

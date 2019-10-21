@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606893"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023634"
 ---
 # <a name="attributes-and-attribute-groups"></a>Attributs et groupes d'attributs
 
 [!include [banner](includes/banner.md)]
 
-Les *Attributs* permettent de décrire de façon plus précise un produit et ses caractéristiques dans les champs définis par l'utilisateur (tels que **Capacité de stockage**, **Capacité du disque dur**, **Est conforme à la norme Energy Star**, etc.). Les attributs Microsoft Dynamics 365 for Finance and Operations peuvent être associés à diverses entités de vente au détail, telles que des catégories de produits et des canaux de vente au détail, et des valeurs par défaut peuvent être définies pour eux. Les produits héritent ensuite les attributs et les valeurs par défaut lorsqu'ils sont associés aux catégories de produits ou à des canaux de vente au détail. Les valeurs par défaut peuvent être remplacées au niveau du produit individuel, au niveau de canal de vente au détail, ou dans un catalogue de vente au détail.
+Les *Attributs* permettent de décrire de façon plus précise un produit et ses caractéristiques dans les champs définis par l'utilisateur (tels que **Capacité de stockage**, **Capacité du disque dur**, **Est conforme à la norme Energy Star**, etc.). Les attributs peuvent être associés à diverses entités de vente au détail, telles que des catégories de produits et des canaux de vente au détail, et des valeurs par défaut peuvent être définies pour eux. Les produits héritent ensuite les attributs et les valeurs par défaut lorsqu'ils sont associés aux catégories de produits ou à des canaux de vente au détail. Les valeurs par défaut peuvent être remplacées au niveau du produit individuel, au niveau de canal de vente au détail, ou dans un catalogue de vente au détail.
+
 
 Par exemple, un produit de télévision classique peut avoir les attributs suivants.
 
@@ -53,7 +54,7 @@ Par exemple, un produit de télévision classique peut avoir les attributs suiva
 
 ## <a name="attributes-and-attribute-types"></a>Attributs et types d'attribut
 
-Les attributs sont basés sur les *types d'attributs*. Le type d'attribut identifie le type de données pouvant être saisies pour un attribut spécifique. Finance and Operations prend actuellement en charge les types d'attributs suivants :
+Les attributs sont basés sur les *types d'attributs*. Le type d'attribut identifie le type de données pouvant être saisies pour un attribut spécifique. Les types d'attributs suivants sont pris en charge :
 
 - **Devise** – Ce type prend en charge une valeur de devise. Il peut être lié (autrement dit, il peut prendre en charge une plage de valeurs), ou il peut être laissé ouvert.
 - **Date et heure** – Ce type prend en charge une valeur de date et d'heure. Il peut être lié ou laissé ouvert.
@@ -63,9 +64,9 @@ Les attributs sont basés sur les *types d'attributs*. Le type d'attribut identi
 - **Booléen** – Ce type prend en charge une valeur binaire (**vrai** ou **faux**).
 - **Référence** – Ce type fait référence à d'autres attributs.
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>Configurer des types d'attributs dans Finance and Operations
+### <a name="set-up-attribute-types"></a>Paramétrer les types d'attributs
 
-1. Connectez-vous au client administratif Finance and Operations en tant que responsable du commerce au détail.
+1. Connectez-vous au client administratif en tant que responsable du commerce au détail.
 2. Allez dans **Gestion des informations sur les produits** &gt; **Configuration** &gt; **Catégories et attributs** &gt; **Types d'attributs**.
 3. Créez deux types d'attribut de type **Texte**, définissez l'option **Liste fixe** sur **Oui**, puis ajoutez une liste de valeurs :
 
@@ -74,7 +75,7 @@ Les attributs sont basés sur les *types d'attributs*. Le type d'attribut identi
 
 ![Types d'attributs](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>Configurer un attribut dans Finance and Operations
+### <a name="set-up-an-attribute"></a>Paramétrer un attribut
 
 1. Connectez-vous au client administratif en tant que responsable du commerce au détail.
 2. Allez dans **Gestion des informations sur les produits** &gt; **Configuration** &gt; **Catégories et attributs** &gt; **Attributs**.
@@ -101,13 +102,13 @@ Voici les options de métadonnées d'attributs restantes sur la page **Attributs
 - Ignorer la casse et le format
 - Correspondance parfaite
 
-Ces options ont été initialement prévues pour optimiser la fonctionnalité de recherche pour la vitrine en ligne. Bien que Finance and Operations ne comprenne pas de vitrine en ligne prête à l'emploi, un kit de développement logiciel (SDK) de publication de commerce électronique est inclus. Les clients peuvent utiliser ce kit SDK pour placer des produits dans un index de recherche de leur choix. Bien que les données de produit soient importées, les clients doivent toujours pouvoir distinguer les données pouvant faire l'objet d'une recherche, les données pouvant être interrogées, et ainsi de suite. Ainsi, ils peuvent créer un index optimal pour s'assurer qu'ils indexent uniquement les attributs qui, *selon eux*, doivent être indexés.
+Ces options ont été initialement prévues pour optimiser la fonctionnalité de recherche pour la vitrine en ligne. Bien que Retail ne comprenne pas de vitrine en ligne prête à l'emploi, un kit de développement logiciel (SDK) de publication de commerce électronique est inclus. Les clients peuvent utiliser ce kit SDK pour placer des produits dans un index de recherche de leur choix. Bien que les données de produit soient importées, les clients doivent toujours pouvoir distinguer les données pouvant faire l'objet d'une recherche, les données pouvant être interrogées, et ainsi de suite. Ainsi, ils peuvent créer un index optimal pour s'assurer qu'ils indexent uniquement les attributs qui, *selon eux*, doivent être indexés.
 
 Pour plus d'informations sur l'objectif de ces options restantes, voir [Vue d'ensemble du schéma de recherche de SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Paramètres de filtre pour les attributs
 
-Les paramètres de filtre pour les attributs permettent de définir comment les filtres des attributs sont affichés dans Retail POS. Pour accéder aux paramètres de filtre d'un attribut, sur la page **Attributs** de Finance and Operations, sélectionnez l'attribut, puis, dans le volet Actions, sélectionnez **Paramètres de filtre**.
+Les paramètres de filtre pour les attributs permettent de définir comment les filtres des attributs sont affichés dans Retail POS. Pour accéder aux paramètres de filtre d'un attribut, sur la page **Attributs**, sélectionnez l'attribut, puis, dans le volet Actions, sélectionnez **Paramètres de filtre**.
 
 La page **Préférences d'affichage du filtre** inclut les champs suivants :
 
@@ -233,7 +234,7 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
     - Attributs de produit de canal
 
     > [!NOTE]
-    > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
+    > Si le support de produit partagé et les attributs de produit partagés sont créés, ils s'appliquent à tous les produits vendus au détail.
 
 ![Groupe d'attributs de produit du catalogue](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
     - Attributs de produit de canal
 
     > [!NOTE]
-    > Si le support de produit partagé et les attributs de produit partagés sont créés dans Finance and Operations, ils s'appliquent à tous les produits vendus au détail.
+    > Si le support de produit partagé et les attributs de produit partagés sont créés, ils s'appliquent à tous les produits vendus au détail.

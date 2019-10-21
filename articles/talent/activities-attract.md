@@ -1,6 +1,6 @@
 ---
-title: Activités dans les processus de Microsoft Dynamics 365 for Talent - Attract
-description: Cette rubrique fournit des informations sur les différents types d'activités qui peuvent être utilisés dans le processus de recrutement de Microsoft Dynamics 365 for Talent - Attract.
+title: Activités dans les processus de Microsoft Dynamics 365 Talent - Attract
+description: Cette rubrique fournit des informations sur les différents types d'activités qui peuvent être utilisés dans le processus de recrutement de Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739711"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008683"
 ---
 # <a name="activities-in-hiring-processes"></a>Activités du processus de recrutement
 
 [!include[banner](../includes/banner.md)]
 
-Des activités peuvent être ajoutées dans le cadre du processus de recrutement dans Microsoft Dynamics 365 for Talent : Attract. Des activités peuvent être ajoutées à un modèle de processus, ou directement au processus de recrutement de la mission. Lorsqu'une mission est définie, un modèle de processus est sélectionné, et les activités incluses dans le modèle sont appliquées à la mission. Si un modèle n'est pas sélectionné, le modèle par défaut est utilisé. Le processus de recrutement peut également être modifié sur la mission une fois le modèle appliqué.
+Des activités peuvent être ajoutées dans le cadre du processus de recrutement dans Microsoft Dynamics 365 Talent: Attract. Des activités peuvent être ajoutées à un modèle de processus, ou directement au processus de recrutement de la mission. Lorsqu'une mission est définie, un modèle de processus est sélectionné, et les activités incluses dans le modèle sont appliquées à la mission. Si un modèle n'est pas sélectionné, le modèle par défaut est utilisé. Le processus de recrutement peut également être modifié sur la mission une fois le modèle appliqué.
 
 > [!NOTE] 
 > Les modèles de processus sont disponibles avec le Composant additionnel de recrutement complet. Pour plus d'informations, voir [Fonctionnalités complémentaires complètes de recrutement dans Attract](./attract-comprehensive-hiring.md).

@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555154"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248978"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborer avec des fournisseurs à l'aide du portail Fournisseur
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 &amp; de mai 2016 de Dynamics AX.
+Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX.
 
-Les informations de cette rubrique ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX. La fonctionnalité de portail fournisseur a été remplacée par la fonctionnalité étendue de collaboration fournisseur dans la version 1611 de Dynamics 365 for Operations. Pour plus d'informations sur la nouvelle fonctionnalité de collaboration fournisseur, voir [Utilisation de la collaboration fournisseur pour utiliser des fournisseurs externes](vendor-collaboration-work-external-vendors.md).  
+Les informations de cette rubrique ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX. Pour plus d'informations sur la nouvelle fonctionnalité de collaboration fournisseur, voir [Utilisation de la collaboration fournisseur pour utiliser des fournisseurs externes](vendor-collaboration-work-external-vendors.md).  
 
 Le portail Fournisseur est destiné aux fournisseurs qui n'ont pas d'intégration de l'échange de données informatisé (EDI) avec Microsoft Dynamics AX pour échanger des informations de commande fournisseur (CF). Le portail permet aux agents des achats d'envoyer une CF au fournisseur puis de recevoir une réponse Confirmée ou Rejetée directement dans Dynamics AX.  
 

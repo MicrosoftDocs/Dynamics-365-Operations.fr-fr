@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552905"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249929"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Lancer les lignes de nomenclature et de formule dans l'entrepôt
 
@@ -83,7 +83,7 @@ L'illustration suivante présente un ordre de fabrication contenant deux opérat
 
 ![Exemple de lancement de matières par numéro d'opération](media/two-operations.PNG)
 
-Pour une démonstration rapide du lancement des matières sur la base de la quantité de produits finis, visionnez cette courte vidéo YouTube : [Améliorations du processus de lancement d'un ordre de fabrication dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
+Pour une démonstration rapide du lancement des matières sur la base de la quantité de produits finis, visionnez cette courte vidéo YouTube : [Améliorations du processus de lancement d'un ordre de fabrication](https://www.youtube.com/watch?v=Rm3ojAz6Zu0). 
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Lancer les matières sur la base de la quantité de produits finis
 

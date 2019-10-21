@@ -1,6 +1,6 @@
 ---
 title: Configuration de l'intégration de la paie entre Talent et Dayforce
-description: Cette rubrique explique comment configurer l'intégration entre Microsoft Dynamics 365 for Talent et Ceridian Dayforce afin de pouvoir traiter un cycle de paie.
+description: Cette rubrique explique comment configurer l'intégration entre Microsoft Dynamics 365 Talent et Ceridian Dayforce afin de pouvoir traiter un cycle de paie.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/24/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742910"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251037"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurer l'intégration de la paie entre Talent et Dayforce
 
 [!include [banner](includes/banner.md)]
 
-L'intégration entre Microsoft Dynamics 365 for Talent et Ceridian Dayforce repose sur plusieurs étapes de configuration décrites dans cette rubrique. Vous devez configurer l'intégration dans Talent et Dayforce avant de pouvoir traiter un cycle de paie.
+L'intégration entre Microsoft Dynamics 365 Talent et Ceridian Dayforce repose sur plusieurs étapes de configuration décrites dans cette rubrique. Vous devez configurer l'intégration dans Talent et Dayforce avant de pouvoir traiter un cycle de paie.
 
 Lorsque vous utilisez un service comme Dayforce pour compléter des cycles de paie, vous devez activer l'intégration dans Talent. L'intégration nécessite des données spécifiques de Talent. Par conséquent, vous devez vérifier que les données mises en correspondance avec Dayforce sont configurées dans Talent d'une manière prenant en charge l'intégration. L'intégration utilise les larges catégories de données suivantes :
 
@@ -39,7 +39,7 @@ Cette rubrique décrit la procédure à suivre pour activer l'intégration. Elle
 
 ## <a name="enable-the-integration"></a>Activer l'intégration
 
-Dans Talent, vous devez activer l'intégration et entrer des informations de configuration pour vous connecter Dayforce. Si vous souhaitez que l'écriture comptable produite soit importée dans Microsoft Dynamics 365 for Finance and Operations, vous devez également configurer un compte de stockage Microsoft Azure et entrer la chaîne de connexion de stockage Azure dans Finance and Operations.
+Dans Talent, vous devez activer l'intégration et entrer des informations de configuration pour vous connecter Dayforce. Si vous souhaitez que l'écriture comptable produite soit importée dans Microsoft Dynamics 365 Finance, vous devez également configurer un compte de stockage Microsoft Azure et entrer la chaîne de connexion de stockage Azure dans Finance.
 
 Pour l'activer l'intégration dans Talent, procédez comme suit.
 

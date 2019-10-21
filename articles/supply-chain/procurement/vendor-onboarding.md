@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548996"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250142"
 ---
 # <a name="onboard-vendors"></a>Intégrer des fournisseurs
 [!include [banner](../includes/banner.md)]
 
 ---
 
-De nouveaux fournisseurs peuvent être intégrés et enregistrés comme fournisseurs dans Microsoft Dynamics 365 for Finance and Operations en fonction des informations collectées auprès d'un représentant du fournisseur.
+De nouveaux fournisseurs peuvent être intégrés et enregistrés comme fournisseurs dans Microsoft Dynamics 365 Supply Chain Management en fonction des informations recueillies auprès d'un représentant du fournisseur.
 
 Ce processus comprend les étapes suivantes, où différents rôles exécutent des actions dans le système.
 
 1. **Gestion des données OData** – Importation d'entité - La demande initiale est la demande d'enregistrement du fournisseur potentiel. En général, cette demande émane d'une source telle qu'un site Web hébergé par un client qui autorise l'accès anonyme. Les fournisseurs peuvent s'inscrire en fournissant des informations de base, telles que le nom du fournisseur, la justification, le numéro de l'organisation et le nom et l'adresse e-mail de la personne à contacter. Les demandes sont importées via l'interface de gestion des données.
-2. **Page de liste Demande d'enregistrement d'un fournisseur potentiel** - Sur la base des informations fournies dans la demande d'enregistrement du fournisseur potentiel, un professionnel de l'approvisionnement décide si le fournisseur doit être intégré. Le professionnel de l'approvisionnement affiche la demande entrante sur la page de liste **Demandes d'enregistrement d'un fournisseur potentiel** dans Finance and Operations.
+2. **Page de liste Demande d'enregistrement d'un fournisseur potentiel** - Sur la base des informations fournies dans la demande d'enregistrement du fournisseur potentiel, un professionnel de l'approvisionnement décide si le fournisseur doit être intégré. Le professionnel de l'approvisionnement voit la demande entrante sur la page de liste **Demandes d'enregistrement d'un fournisseur potentiel**.
 3. **Workflow de mise en service de l'utilisateur** - Une fois qu'un professionnel de l'approvisionnement a vérifié les informations dans la demande entrante et décidé de poursuivre le processus d'intégration, le workflow de demande de l'utilisateur met en service le nouvel utilisateur et envoie un e-mail d'invitation pour accepter la personne à contacter en tant qu'utilisateur authentifié de Microsoft Dynamics 365.
-4. **Assistant d'enregistrement du fournisseur** - La personne à contacter chez le fournisseur se connecte à Finance and Operations à l'aide du nouveau compte d'utilisateur. Elle exécute l'assistant d'enregistrement du fournisseur pour fournir des informations telles que les adresses, les informations sur l'entreprise, les catégories d'approvisionnement et les réponses au questionnaire.
+4. **Assistant d'enregistrement du fournisseur** : la personne à contacter chez le fournisseur se connecte à l'aide du nouveau compte d'utilisateur. Elle exécute l'assistant d'enregistrement du fournisseur pour fournir des informations telles que les adresses, les informations sur l'entreprise, les catégories d'approvisionnement et les réponses au questionnaire.
 5. **Workflow d'approbation** - Une demande fournisseur contenant les informations d'enregistrement est créée. Cette demande fournisseur est envoyée à un workflow, puis acheminée pour révision et approbation.
 6. **Création des données principales du fournisseur et modification du rôle d'utilisateur** - Lorsque la demande fournisseur est approuvée, un enregistrement fournisseur est créé. Le compte d'utilisateur de la personne à contacter chez le fournisseur est autorisé à accéder à la collaboration fournisseur ou est désactivé.
 
@@ -45,14 +45,14 @@ Le tableau suivant présente les étapes et les rôles impliqués dans le proces
 |--------------------------|---|---|---|---|---|---|
 | Système                   | La demande d'un nouveau fournisseur est importée. | | | | | Une fois que la demande fournisseur est acceptée, l'enregistrement fournisseur est créé. |
 | Professionnel de l'approvisionnement | | Lancez le processus d'intégration. | | | Examinez et acceptez ou rejetez la demande fournisseur. | |
-| Administrateur            | | | Créez un utilisateur dans Finance and Operations et Microsoft Azure. | | | |
+| Administrateur            | | | Créez un utilisateur dans Supply Chain Management et Microsoft Azure. | | | |
 | Personne à contacter chez le fournisseur    | | | Envoyez un e-mail à la personne à contacter. | Enregistrez les informations sur le fournisseur. | | |
 
-Pour une démonstration rapide du processus d'intégration des fournisseurs, visionnez cette petite vidéo YouTube : [Intégrer un nouveau fournisseur dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Pour une démonstration rapide du processus d'intégration des fournisseurs, consultez cette courte vidéo YouTube concernant la procédure [Intégrer un nouveau fournisseur dans Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importation de la demande d'enregistrement du fournisseur potentiel
 
-La demande d'enregistrement du fournisseur potentiel est une entité dans Finance and Operations. Vous pouvez paramétrer le système pour importer les données via cette entité. 
+La demande d'enregistrement du fournisseur potentiel est une entité dans Supply Chain Management. Vous pouvez paramétrer le système pour importer les données via cette entité. 
 
 Le tableau suivant présente les informations contenues dans cette entité qui peuvent être importées.
 
@@ -65,18 +65,18 @@ Le tableau suivant présente les informations contenues dans cette entité qui p
 | Prénom de la personne à contacter.  | Prénom de la personne qui est invitée à enregistrer les informations sur le fournisseur. |
 | Autres prénoms de la personne à contacter. | Autres prénoms de la personne qui est invitée à enregistrer les informations sur le fournisseur. |
 | Nom de la personne à contacter   | Nom de la personne qui est invitée à enregistrer les informations sur le fournisseur. |
-| E-mail de la personne à contacter       | Adresse e-mail utilisée pour créer un utilisateur dans Finance and Operations, qui est enregistrée dans le compte Azure Active Directory (Azure AD) du locataire. |
+| E-mail de la personne à contacter       | Adresse e-mail utilisée pour créer un utilisateur dans Supply Chain Management, et qui est enregistrée dans le compte Azure Active Directory (Azure AD) du locataire. |
 | Date de soumission               | Date de création de la demande dans un système externe. |
-| Entité juridique                 | Entité juridique dans laquelle le fournisseur souhaite devenir un fournisseur. Cette valeur doit être un code d'entité juridique qui a été enregistré dans Finance and Operations. Si aucune valeur n'est reçue via le processus d'importation, une valeur issue des paramètres d'approvisionnement est appliquée. |
+| Entité juridique                 | Entité juridique dans laquelle le fournisseur souhaite devenir un fournisseur. Cette valeur doit être un code d'entité juridique qui a été enregistré dans Supply Chain Management. Si aucune valeur n'est reçue via le processus d'importation, une valeur issue des paramètres d'approvisionnement est appliquée. |
 | Type de fournisseur                  | Le fournisseur peut être une organisation ou une personne. Le type de fournisseur détermine la manière dont le fournisseur est créé. |
 
 Une fois que la demande d'enregistrement du fournisseur potentiel est importée, elle apparaît sur la page de liste **Demande d'enregistrement d'un fournisseur potentiel**. Dans cette page de liste, un professionnel de l'approvisionnement peut inviter l'utilisateur. Une demande de mise en service de l'utilisateur est envoyée à un workflow.
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Envoi de la demande d'un utilisateur fournisseur potentiel
 
-La demande d'un utilisateur fournisseur potentiel a pour but de mettre en service la personne qui a envoyé la demande initiale, afin qu'elle puisse se connecter à Finance and Operations à l'aide du compte de messagerie fourni dans la demande d'enregistrement du fournisseur potentiel.
+La demande d'un utilisateur fournisseur potentiel a pour but de mettre la personne qui a envoyé la demande initiale en service, afin qu'elle puisse se connecter à Supply Chain Management à l'aide du compte de messagerie fourni dans la demande d'enregistrement du fournisseur potentiel.
 
-La demande de l'utilisateur fournisseur potentiel est traitée par le workflow de demande de l'utilisateur. Ce workflow communique via la collaboration Azure AD B2B. Il crée un utilisateur dans Finance and Operations avec les paramètres de sécurité appropriés.
+La demande de l'utilisateur fournisseur potentiel est traitée par le workflow de demande de l'utilisateur. Ce workflow communique via la collaboration Azure AD B2B. Il crée un utilisateur dans Supply Chain Management avec les paramètres de sécurité appropriés.
 
 Les nouveaux utilisateurs paramétrés ont les rôles de sécurité suivants :
 
@@ -89,7 +89,7 @@ Pour plus d'informations sur la configuration de l'e-mail et du workflow en gén
 
 ## <a name="vendor-registration"></a>Enregistrement des fournisseurs
 
-Un utilisateur fournisseur potentiel qui se connecte à Finance and Operations verra la première page de l'assistant d'enregistrement du fournisseur, où il peut entrer les informations sur le fournisseur.
+Un utilisateur fournisseur potentiel qui se connecte à Supply Chain Management verra la première page de l'assistant d'enregistrement du fournisseur, sur laquelle il peut saisir les informations sur le fournisseur.
 
 L'assistant reflète la configuration de la demande fournisseur. Le pays ou la région où le fournisseur exerce des activités détermine les informations demandées dans l'assistant et les informations obligatoires.
 
@@ -119,7 +119,7 @@ Les demandes fournisseur sont disponibles sur la page **Demandes d'utilisateur d
 
 Une demande fournisseur contient les informations saisies par l'utilisateur fournisseur potentiel dans l'assistant d'enregistrement du fournisseur.
 
-La demande vous permet d'examiner les informations sur le fournisseur et de décider si le fournisseur doit devenir un fournisseur enregistré dans Finance and Operations.
+La demande vous permet d'examiner les informations sur le fournisseur et de décider si le fournisseur doit devenir un fournisseur enregistré.
 
 La demande fournisseur doit être envoyée à un workflow, puis acheminée vers les réviseurs et approbateurs appropriés. Pour obtenir des informations de base sur le paramétrage des workflows, voir [Workflows d'approvisionnement](procurement-sourcing-workflows.md).
 
@@ -141,7 +141,7 @@ Lorsqu'une demande fournisseur est approuvée, un compte fournisseur est créé 
 
 Avant d'approuver une demande fournisseur, sur la page **Nouveau fournisseur**, sous l'organisateur **Général**, sélectionnez **Groupe de fournisseurs** pour sélectionner un groupe de fournisseurs.
 
-Si l'utilisateur fournisseur potentiel doit avoir accès à Finance and Operations en tant qu'utilisateur de la collaboration fournisseur qui représente le fournisseur, définissez l'autorisation d'accès à la collaboration fournisseur sur **Oui**. Pour désactiver le compte d'utilisateur utilisé par le fournisseur potentiel pour s'enregistrer, définissez cette autorisation sur **Non**.
+Si l'utilisateur fournisseur potentiel doit avoir accès à Supply Chain Management en tant qu'utilisateur de collaboration fournisseur qui représente le fournisseur, définissez l'autorisation d'accès à la collaboration fournisseur sur **Oui**. Pour désactiver le compte d'utilisateur utilisé par le fournisseur potentiel pour s'enregistrer, définissez cette autorisation sur **Non**.
 
 Si l'autorisation d'accès à la collaboration fournisseur est définie sur **Oui**, lorsque la demande fournisseur est approuvée, une demande est envoyée pour modifier les rôles de l'utilisateur afin qu'il dispose des rôles définis pour le type **Fournisseur** dans **Rôles externes**. Si cette autorisation est définie sur **Non**, lorsque la demande fournisseur est approuvée, une demande est envoyée pour désactiver l'utilisateur. Dans ce cas, le workflow permettant de désactiver une demande de l'utilisateur doit être paramétré.
 

@@ -1,6 +1,6 @@
 ---
-title: Quelle version de Microsoft Dynamics 365 for Talent - Attract
-description: Cette rubrique fournit des informations sur les fonctionnalités des différentes versions de Microsoft Dynamics 365 for Talent - Attract.
+title: Quelle version de Microsoft Dynamics 365 Talent - Attract
+description: Cette rubrique fournit des informations sur les fonctionnalités des différentes versions de Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739706"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009944"
 ---
-# <a name="which-version-of-attract"></a>Quelle version d'Attract ?
+# <a name="which-version-of-attract"></a>Quelle version de Attract ?
 
 [!include[banner](../includes/banner.md)]
 
-La version de Microsoft Dynamics 365 for Talent - Attract qui vous convient dépend de la taille et des besoins de votre entreprise. La version de base d'Attract fournit un sous-ensemble de fonctionnalités qui convient aux petits équipes ou aux entreprises dans lesquelles le responsable du recrutement est l'utilisateur principal. Vous pouvez commencer à utiliser la version de base d'Attract avec une ou plusieurs licences.
+La version de Microsoft Dynamics 365 Talent: Attract qui vous convient dépend de la taille et des besoins de votre entreprise. La version de base d'Attract fournit un sous-ensemble de fonctionnalités qui convient aux petits équipes ou aux entreprises dans lesquelles le responsable du recrutement est l'utilisateur principal. Vous pouvez commencer à utiliser la version de base d'Attract avec une ou plusieurs licences.
 
 Attract, avec le module complémentaire Recrutement complet est destiné aux équipes ou aux entreprises de taille moyenne à grande, où le recruteur ou le spécialiste des talent est l'utilisateur principal. Le module complémentaire Recrutement complet nécessite d'acheter une licence auprès d'un [Partenaire Microsoft Dynamics 365](https://dynamics.microsoft.com/partners/find-a-partner/)
 

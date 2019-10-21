@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent (25 juin 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés ou modifications dans Dynamics 365 Talent (25 juin 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/25/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-25
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3c7a13373193a6af4033b4609f0c338c2c6128c6
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56fadba6dc085f849953aa88cf28a2c83e265f40
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856351"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009028"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-25-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (25 juin 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-25-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (25 juin 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
 
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Attract.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Bientôt dans Attract
 
@@ -42,7 +42,7 @@ Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent
 Les approbations apparaissent dans une section **Approbations** du tableau de bord. Les approbateurs peuvent analyser leurs approbations sous **Affecté à vous**, qui affiche l'ID de mission, l'intitulé, les autres approbateurs, et la date à laquelle le poste a été affecté. Les utilisateurs qui soumettent une mission pour approbation peuvent analyser leurs missions sous **Demandé par vous**, qui affiche les approbateurs qui doivent toujours approuver la mission envoyée.
 
 ## <a name="changes-in-onboard"></a>Modifications apportées à Onboard
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Onboard.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 

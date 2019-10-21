@@ -1,6 +1,6 @@
 ---
 title: Navigation et entrée d'employé simplifiées
-description: La saisie de données pour les collaborateurs dans Dynamics 365 for Talent a été améliorée pour permettre la saisie rapide pour tous les employés, passés, actifs ou futurs. Un modèle de navigation simplifié/consolidé a été mis à jour pour trouver rapidement les informations associées et afficher et effectuer les mises à jour nécessaires.
+description: La saisie de données pour les collaborateurs dans Dynamics 365 Talent a été améliorée pour permettre la saisie rapide pour tous les employés, passés, actifs ou futurs. Un modèle de navigation simplifié/consolidé a été mis à jour pour trouver rapidement les informations associées et afficher et effectuer les mises à jour nécessaires.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918199"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009420"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Navigation et entrée d'employé simplifiées
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Talent permet la saisie efficace des données sur les employés et les emplois. Vous pouvez mettre à jour rapidement les informations sur l'historique du travail pour les employés et les fournisseurs passés, actifs et futurs.
+Dynamics 365 Talent permet la saisie efficace des données sur les employés et les emplois. Vous pouvez mettre à jour rapidement les informations sur l'historique du travail pour les employés et les fournisseurs passés, actifs et futurs.
 
 Vous pouvez également activer une expérience de navigation simplifiée pour trouver rapidement les informations associées et apporter les modifications nécessaires. Cette fonctionnalité est désormais disponible dans les environnements de bac à sable. Pour activer cette fonctionnalité, naviguez jusqu'à **Administration du système > Liens > Paramétrage > Paramètres système > Fonctionnalités en version préliminaire**. Sélectionnez **Formulaire Collaborateur et navigation améliorés**. Ces modifications seront activées pour tous les utilisateurs. Vous pouvez désactiver cette option à tout moment.
 

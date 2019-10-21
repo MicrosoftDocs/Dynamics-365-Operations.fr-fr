@@ -1,6 +1,6 @@
 ---
 title: Définir et concevoir des formats de réception
-description: Cet article décrit comment modifier des mises en page d'impression pour contrôler la manière dont les tickets de caisse, les factures et d'autres documents sont imprimés. Microsoft Dynamics 365 for Retail comprend un concepteur de mise en page d'impression que vous pouvez utiliser pour créer et modifier facilement différents types de mises en page d'impression.
+description: Cet article décrit comment modifier des mises en page d'impression pour contrôler la manière dont les tickets de caisse, les factures et d'autres documents sont imprimés. Dynamics 365 Retail comprend un concepteur de mise en page d'impression que vous pouvez utiliser pour créer et modifier facilement différents types de mises en page d'impression.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553066"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025123"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Définir et concevoir des formats de réception
 
 [!include [banner](includes/banner.md)]
 
-Cet article décrit comment modifier des mises en page d'impression pour contrôler la manière dont les tickets de caisse, les factures et d'autres documents sont imprimés. Microsoft Dynamics 365 for Retail comprend un concepteur de mise en page d'impression que vous pouvez utiliser pour créer et modifier facilement différents types de mises en page d'impression.
+Cet article décrit comment modifier des mises en page d'impression pour contrôler la manière dont les tickets de caisse, les factures et d'autres documents sont imprimés. Dynamics 365 Retail inclut un concepteur de mise en page d'impression que vous pouvez utiliser pour créer et modifier facilement différents types de mises en page d'impression.
 
 > [!IMPORTANT]
 > Vous devez paramétrer des mises en page d'impression et des profils de ticket de caisse pour imprimer des tickets de caisse et d'autres documents à partir de Retail Modern POS et Cloud POS. Vous pouvez inclure plusieurs structures d'écran dans un profil de ticket de caisse. Vous pouvez ensuite affecter le profil de ticket de caisse à une imprimante en modifiant un profil matériel.
@@ -55,7 +55,7 @@ Le concepteur de mise en page d'impression permet de créer graphiquement la mis
 2. Dans la page **Format du ticket de caisse**, sélectionnez une mise en page de l'écran, puis cliquez sur **Concepteur**.
 3. Cliquez sur **Exécuter** pour commencer à installer l'hôte du concepteur Retail.
 4. Dans la barre de Notification qui apparaît au bas de la fenêtre d'Internet Explorer, cliquez sur **Ouvrir** pour lancer l'installation du concepteur en un seul clic. (La barre de notification peut apparaître à un autre emplacement dans d'autres navigateurs.) L'indicateur de progression affiche la progression du processus d'installation.
-5. Une fois l'installation terminée, entrez votre nom d'utilisateur et votre mot de passe Dynamics 365 for Retail, puis cliquez sur **Connexion** pour démarrer le concepteur.
+5. Une fois l'installation terminée, entrez votre nom d'utilisateur et votre mot de passe Retail, puis cliquez sur **Connexion** pour démarrer le concepteur.
 6. Une fois que vos informations d'identification sont validées et que le concepteur démarre, vous pouvez commencer à concevoir le format du ticket de caisse ou à modifier un format existant.
 7. Pour créer les éléments de l'écran, sélectionnez la section **En-tête**, **Lignes** ou **Pied de page**, puis faites glisser un élément de cette section vers l'espace de travail. La plupart des éléments contiennent des variables qui sont automatiquement renseignées à l'aide des données de la base de données. D'autres éléments, comme **Texte**, permettent d'imprimer un texte personnalisé sur le ticket de caisse.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553436"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249538"
 ---
 # <a name="inventory-journals"></a>Journaux de stock
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553436"
 
 Cette rubrique décrit la manière dont vous pouvez utiliser les journaux de stock pour valider différents types de transactions de stock physique.
 
-Les journaux de stock de Microsoft Dynamics 365 for Finance and Operations permettent de valider les mouvements de stock physique de différents types, tels que la validation des sorties et des réceptions, les mouvements de stock, la création de nomenclatures et le rapprochement du stock physique. Tous ces journaux de stock sont utilisés de façon similaire, mais ils sont divisés en différents types.
+Les journaux de stock de Supply Chain Management permettent de valider les mouvements de stock physique de différents types, tels que la validation des sorties et des réceptions, les mouvements de stock, la création de nomenclatures et le rapprochement du stock physique. Tous ces journaux de stock sont utilisés de façon similaire, mais ils sont divisés en différents types.
 
 ## <a name="types-of-inventory-journals"></a>Types de journaux de stock
 Les types de journaux de stock suivants sont disponibles :
@@ -68,7 +68,7 @@ Lorsque vous déclarez nomenclatures comme terminées, vous pouvez créer un jou
 
 ### <a name="item-arrival"></a>Arrivée d'articles
 
-Vous pouvez utiliser le journal d'arrivée des articles pour enregistrer la réception des articles (provenant, par exemple, de commandes fournisseur). Vous pouvez créer un journal d'arrivées des articles dans le cadre de la gestion des arrivées sur la page **Vue d'ensemble des arrivées**, mais également créer manuellement une entrée de journal sur la page **Arrivée d'articles**. Si vous activez le nom du journal d'arrivées des articles pour qu'il vérifie les emplacements de prélèvement, Finance and Operations recherche un emplacement pour les articles reçus et, le cas échéant, génère des emplacements de destination pour les articles entrants.
+Vous pouvez utiliser le journal d'arrivée des articles pour enregistrer la réception des articles (provenant, par exemple, de commandes fournisseur). Vous pouvez créer un journal d'arrivées des articles dans le cadre de la gestion des arrivées sur la page **Vue d'ensemble des arrivées**, mais également créer manuellement une entrée de journal sur la page **Arrivée d'articles**. Si vous activez le nom du journal d'arrivées des articles pour qu'il vérifie les emplacements de prélèvement, Supply Chain Management recherche un emplacement pour les articles reçus et, le cas échéant, génère des emplacements de destination pour les articles entrants.
 
 ### <a name="production-input"></a>Entrée en production
 
@@ -103,7 +103,7 @@ Les entités de données prennent en charge les types de scénarios d'intégrati
 Pour plus d'informations, voir [Entités de données](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> OData est activé sur tous les journaux de stock, vous ne pouvez donc pas utiliser le connecteur de données Excel pour que les données soient oubliées, mises à jour et ré-importées dans Dynamics 365 for Finance and Operations. 
+> OData est activé sur tous les journaux de stock, vous ne pouvez donc pas utiliser le connecteur de données Excel pour que les données soient oubliées, mises à jour et ré-importées dans Supply Chain Management. 
 
 Une autre différence entre les entités de données de journal est la possibilité d'utiliser des entités composites qui incluent les données d'en-tête et de ligne. Actuellement, vous pouvez utiliser les entités composites pour :
 -   Journal d'ajustement du stock

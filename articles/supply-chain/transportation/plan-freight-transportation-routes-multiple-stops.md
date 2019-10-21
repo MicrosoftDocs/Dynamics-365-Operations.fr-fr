@@ -1,6 +1,6 @@
 ---
 title: Planifier des itinéraires de transport de fret avec plusieurs arrêts
-description: Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Dynamics 365 for Finance and Operations.
+description: Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 033dde410519b061b0ff3fb42e8f7790af9449ec
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553974"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017548"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planifier des itinéraires de transport de fret avec plusieurs arrêts
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Microsoft Dynamics 365 for Finance and Operations.
+Cet article décrit les différents éléments que vous utilisez pour planifier des routes de transport dans Dynamics 365 Supply Chain Management.
 
 Vous pouvez utiliser les plans des routes et les guides des routes pour les routes de transport complexes avec plusieurs arrêts. Si la même route va être utilisé sur une base régulière, vous pouvez définir une route planifiée.
 

@@ -3,7 +3,7 @@ title: Prévisions, ordres de travail et projets
 description: Cette rubrique explique comment intégrer les prévisions et les ordres de travail avec le module Gestion et comptabilité du projet dans le module Gestion des actifs.
 author: josaw1
 manager: AnnBe
-ms.date: 08/16/2019
+ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e986d139ac9d0a7729bb9787f05332bcc09f59b
-ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
+ms.openlocfilehash: cc1992326c448ee8dc30a9ad8f8f538ebea83e54
+ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1886814"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "2002382"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prévisions, ordres de travail et projets
 
@@ -31,59 +31,63 @@ ms.locfileid: "1886814"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Dans le module Gestion des actifs, l'intégration au module **Gestion et comptabilité du projet** a été effectuée pour optimiser le contrôle des coûts, ce qui permet aux utilisateurs de suivre les coûts pour les prévisions du type de tâche de maintenance et les tâches d'ordre de travail.
+Dans le module Gestion des actifs, l'intégration au module **Gestion et comptabilité du projet** permet d'optimiser le contrôle des coûts, de telle sorte que les utilisateurs sont en mesure de suivre les coûts pour les prévisions du type de tâche de maintenance et les tâches de l'ordre de travail.
 
-Deux paramètres doivent être définis pour suivre les prévisions du type de tâche de maintenance :
+Le suivi des prévisions du type de tâche de maintenance exige deux paramètres :
 
-1. Sélectionnez un projet dans le lien **Gestion des actifs** > **Configuration** > **Paramètres de gestion des actifs** > **Actifs** > le raccourci **Projet** > le champ **Projet de prévisions en matière de maintenance**.
+1. Sélectionnez un projet dans **Gestion des actifs** > **Configuration** > **Paramètres de gestion des actifs**, puis, dans l'onglet **Actifs** > sur l'organisateur **Projet**, dans le champ **Projet de prévision de maintenance**, sélectionnez un projet.
 
-2. Dans **Type de tâche de maintenance par défaut**, lorsque vous créez une ligne de valeur par défaut pour le type de tâche de maintenance, un numéro d'activité est automatiquement créé pour la ligne (**Gestion des actifs** > **Configuration** > **Tâches** > **Type de tâche de maintenance par défaut**).
+2. Lorsque vous créez une ligne de valeur par défaut pour le type de tâche de maintenance, un numéro d'activité est automatiquement créé pour la ligne sur la page **Type de tâche de maintenance par défaut** (**Gestion des actifs** > **Configuration** > **Tâches** > **Type de tâche de maintenance par défaut**).
 
-Les prévisions de type de tâche de maintenance ont deux objectifs : permettre de suivre les coûts pour les prévisions de type de tâche de maintenance dans le module **Gestion et comptabilité du projet**. En outre, les prévisions sont automatiquement transférées à un projet de tâche de l'ordre de travail lorsque vous sélectionnez un type de tâche de maintenance.
+Les prévisions du type de tâches de maintenance ont deux objectifs : 
 
-Pour suivre les coûts sur les tâches de l'ordre de travail, vous devez d'abord paramétrer les projets de l'ordre de travail. Reportez-vous à la section [Configuration du projet de l'ordre de travail](../setup-for-work-orders/work-order-project-setup.md) pour obtenir une description de la procédure.
+- Vous pouvez suivre les coûts sur les prévisions de type de tâche de maintenance dans le module **Gestion de projets et comptabilité**. 
+- Les prévisions sont automatiquement transférées à un projet de tâche de l'ordre de travail lorsque vous sélectionnez un type de tâche de maintenance.
+
+Pour suivre les coûts sur les tâches de l'ordre de travail, vous devez d'abord paramétrer les projets de l'ordre de travail. Pour plus d'informations, voir [Configuration du projet de l'ordre de travail](../setup-for-work-orders/work-order-project-setup.md).
 
 ## <a name="work-order-job-projects"></a>Projets de tâche d'ordre de travail
 
-Lorsque vous créez une tâche sur un ordre de travail, le projet est déterminé par le paramétrage du projet parent pour les ordres de travail dans **Gestion des actifs** > **Configuration** > **Ordres de travail** > **Configuration du projet**.
+Lorsque vous créez une tâche sur un ordre de travail, le projet est déterminé par le paramétrage du projet parent pour les ordres de travail sur la page **Configuration du projet de l'ordre de travail** (**Gestion des actifs** > **Configuration** > **Ordres de travail** > **Configuration du projet**).
 
 Les projets de tâche d'ordre de travail sont créés à l'aide d'une combinaison des informations d'ordres de travail suivantes :
 
 - Le type d'ordre de travail sélectionné sur l'ordre de travail 
 - L'emplacement fonctionnel lié à l'actif sur la tâche de l'ordre de travail
 - Le type d'actif lié à l'actif sur la tâche de l'ordre de travail  
-- L'heure de début et de fin prévue définie sur l'ordre de travail  
+- L'heure de début et l'heure de fin prévues définies sur l'ordre de travail  
 
-Toutes les informations mentionnées ci-dessous ne figurent pas forcément sur un ordre de travail. Par conséquent, la recherche d'un projet d'ordre de travail parent s'effectue à l'aide de la combinaison de données disponibles et la sélection de l'ID de projet qui correspond aux données de l'ordre de travail.
+Certaines de ces informations pourraient rester introuvables sur un ordre de travail. Par conséquent, la recherche d'un projet d'ordre de travail parent s'effectue à l'aide de la combinaison de données disponibles et la sélection de l'ID de projet qui correspond aux données de l'ordre de travail.
 
-Exemple : dans le graphique ci-dessous, le paramétrage du type d'actif « Moteur de camion » signifie que chaque tâche de l'ordre de travail créée avec ce type d'actif sera un sous-projet de l'ID de projet « 000186 ».
+Par exemple, dans l'illustration suivante, en raison de la façon dont le type d'actif **Moteur de camion** est configuré, chaque tâche de l'ordre de travail est créée avec le type d'actif **Moteur de camion** comme sous-projet de l'ID de projet 000186.
 
 ![Figure 1](media/01-integration-to-pma.png)
 
-L'objectif de l'ID de projet sur la tâche de l'ordre de travail et le numéro d'activité associé (**Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail** > sélectionnez l'ordre de travail dans la liste > raccourci **Détails de la ligne** > champ **ID de projet** et champ **Numéro d'activité**), est de suivre les coûts liés à la tâche de l'ordre de travail, et à l'actif sélectionné pour la tâche de l'ordre de travail, dans le module **Gestion et comptabilité du projet**. 
+L'objectif de l'ID de projet sur la tâche de l'ordre de travail, et le numéro d'activité associé, consiste à suivre les coûts associés à la tâche de l'ordre de travail, et l'actif qui y est sélectionné, dans le module **Gestion de projet et comptabilité**. (Pour afficher l'ID du projet et le numéro d'activité, sélectionnez **Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail**, puis sélectionnez l'ordre de travail. Dans l'organisateur **Détails de ligne**, le champ **ID de projet** indique l'ID du projet et le champ **Numéro d'activité** précise le numéro de l'activité.) Pour plus d'informations sur le contrôle des coûts dans Gestion des actifs, voir [Contrôle de date et de coût](../controlling-and-reporting/cost-and-date-control.md).
 
-L'illustration ci-dessous contient une vue d'ensemble graphique des projets d'ordre de travail et des activités de projet associées.
+L'illustration suivante présente une vue d'ensemble graphique des projets d'ordre de travail et des activités de projet associées.
 
 ![Figure 2](media/02-integration-to-pma.png)
 
-Lorsqu'une nouvelle tâche d'ordre de travail est créée sur un ordre de travail, un projet est automatiquement créé pour la tâche. Les dimensions financières pour l'actif associé à la tâche de l'ordre de travail sont automatiquement transférées au projet de l'ordre de travail. Des informations sont associées à l'activité de projet créée pour une tâche d'ordre de travail concernant le type de tâche de maintenance, la variante du type de tâche de maintenance et la transaction. Ces données sont utiles si, par exemple, vous créez une commande fournisseur à partir d'un ordre de travail (voir [Approvisionnement](../work-orders/procurement.md)) ou si vous utilisez le module **Gestion et comptabilité du projet** pour l'enregistrement des heures.  
+Lorsqu'une nouvelle tâche d'ordre de travail est créée sur un ordre de travail, un projet est automatiquement créé pour la tâche. Les dimensions financières pour l'actif associé à la tâche de l'ordre de travail sont automatiquement transférées au projet de l'ordre de travail.
 
-Si l'actif a été installé sur un poste technique et qu'il est installé ensuite sur un autre poste technique, les dimensions financières liées au nouveau poste technique sont automatiquement mises à jour sur l'actif. Ensuite, lorsque vous créez une tâche d'ordre de travail pour l'actif, le projet associé se voit automatiquement attribuer les dimensions financières qui sont désormais associées à l'actif. Cela signifie que lorsque vous utilisez des postes techniques, les coûts peuvent toujours faire l'objet d'un suivi dans les postes techniques sur lesquels un actif a été installé à un moment donné. La mise à jour automatique des dimensions financières garantit la traçabilité complète des coûts pour le contrôle et la génération des états du projet.  
+L'activité du projet qui est créée pour une tâche de l'ordre de travail a des informations associées qui y sont rattachées. Ces informations concernent le type de tâche de maintenance, la variante du type de tâche de maintenance et le commerce. Elles sont utiles si, par exemple, vous créez une commande fournisseur à partir d'un ordre de travail (voir [Approvisionnement](../work-orders/procurement.md)) ou si vous utilisez le module **Gestion et comptabilité du projet** pour l'enregistrement des heures.
 
+Si l'actif a été installé sur un poste technique et qu'il est installé ensuite sur un autre poste technique, les dimensions financières liées au nouveau poste technique sont automatiquement mises à jour sur l'actif. Ensuite, lorsque vous créez une tâche de l'ordre de travail pour l'actif, le projet associé se voit automatiquement attribuer les dimensions financières qui sont désormais associées à l'actif. Par conséquent, lorsque vous utilisez des postes techniques, les coûts peuvent toujours faire l'objet d'un suivi dans les postes techniques sur lesquels un actif a été installé à un moment donné. La mise à jour automatique des dimensions financières garantit la traçabilité complète des coûts pour le contrôle et la génération des états du projet.
 
 ## <a name="work-order-projects-work-order-lifecycle-states-project-stages-and-project-types"></a>Projets d'ordre de travail, états du cycle de vie de l'ordre de travail, stades de projet et types de projet
 
 Pour garantir l'utilisation appropriée des états de cycle de vie des ordres de travail et des stades de projet associés, tenez compte des dépendances liées au module **Gestion et comptabilité du projet** :
 
-- Dans le module **Gestion et comptabilité du projet**, les stades de projet sont paramétrés sur les types de projet dans **Paramètres de gestion et comptabilité des projets**.  
-- Dans **Paramètres de gestion et comptabilité des projets**, n'oubliez pas de sélectionner les cases à cocher de stade de projet appropriées pour tous les types de projets que vous allez utiliser. Dans l'illustration ci-dessous, cinq stades **Créé** - **Estimé** - **Prévu** - **En cours** - **Terminé** sont marqués pour les types de projet « Régie » et « Interne ». Ces cinq stades conviennent à la fois pour les tâches de maintenance de service et de maintenance interne.  
-- Dans **Gestion des actifs**, des types de projets sont définis par les groupes de projets que vous paramétrez dans l'écran **Configuration du projet de l'ordre de travail** > le lien **Groupe de projets**.  
-- Le paramétrage de groupes de projets dans **Configuration du projet de l'ordre de travail** sont utilisés lorsque vous créez des ordres de travail. Lorsqu'un ordre de travail est créé, un projet est automatiquement créé.  
-- Les états du cycle de vie d'ordres de travail doivent avoir chacun un stade de projet associé.  
-- Le stade de projet lié à un état du cycle de vie d'ordres de travail doit être défini comme stade actif pour le groupe de projets défini dans le projet de l'ordre de travail. Le projet de l'ordre de travail est créé automatiquement sur un ordre de travail.  
-- Lorsque vous créez un ordre de travail, l'attribution automatique d'un projet est basée sur le paramétrage dans **Configuration du projet de l'ordre de travail** (**Gestion des actifs** > **Configuration** > **Ordres de travail** > **Paramétrage de projet**).  
+- Dans le module **Gestion et comptabilité du projet**, les stades de projet sont paramétrés sur les types de projet sur la page **Paramètres de gestion et comptabilité des projets**.  
+- Sur la page **Paramètres de gestion et comptabilité des projets**, utilisez les cases à cocher pour sélectionner les stades de projet appropriés pour tous les types de projets que vous allez utiliser. Dans les illustrations suivantes, cinq stades (**Créé**, **Estimé**, **Prévu**, **En cours** et **Terminé**) sont marqués pour les types de projet **Régie** et **Interne**. Ces cinq stades conviennent à la fois pour les tâches de maintenance de service et de maintenance interne.
+- Dans le module **Gestion des actifs**, les types de projets sont définis par les groupes de projets que vous paramétrez sur la page **Configuration du projet de l'ordre de travail** > onglet **Groupe de projets** (**Gestion des actifs** > **Configuration** > **Ordre de travail** > **Configuration du projet**).  
+- Les groupes de projets configurés sur la page **Configuration du projet de l'ordre de travail** sont utilisés lorsque vous créez des ordres de travail. Lorsqu'un ordre de travail est créé, un projet est automatiquement créé.  
+- Chaque état du cycle de vie d'ordres de travail doit avoir un stade de projet associé.  
+- Le stade de projet lié à un état du cycle de vie de l'ordre de travail doit être défini comme stade actif pour le groupe de projets défini dans le projet de l'ordre de travail. Le projet de l'ordre de travail est créé automatiquement sur un ordre de travail.
+- Lorsque vous créez un ordre de travail, l'attribution automatique d'un projet est basée sur le paramétrage sur la page **Configuration du projet de l'ordre de travail**.  
 
-Les associations entre les groupes de projets de l'ordre de travail, les types de projets associés, les stades de projet, les états du cycle de vie de l'ordre de travail sont affichés ci-dessous.  
+Les illustrations suivantes présentent les associations entre les groupes de projets de l'ordre de travail, les types de projets associés, les stades de projet, les états du cycle de vie de l'ordre de travail.
 
 ![Figure 3](media/03-integration-to-pma.png)
 
@@ -91,9 +95,9 @@ Les associations entre les groupes de projets de l'ordre de travail, les types d
 
 ![Figure 5](media/05-integration-to-pma.png)
 
-Reportez-vous à la section [Configuration du projet de l'ordre de travail](../setup-for-work-orders/work-order-project-setup.md) pour savoir comment configurer des projets d'ordre de travail et à la section [États du cycle de vie d'ordres de travail](../setup-for-work-orders/work-order-lifecycle-states.md) pour savoir comment créer des états du cycle de vie de l'ordre de travail.
+Pour plus d'informations sur la configuration des projets de l'ordre de travail, voir [Configuration du projet de l'ordre de travail](../setup-for-work-orders/work-order-project-setup.md). Pour plus d'informations sur la manière de créer des états du cycle de vie de l'ordre de travail, consultez [États du cycle de vie de l'ordre de travail](../setup-for-work-orders/work-order-lifecycle-states.md).
 
-L'illustration suivante présente une vue d'ensemble graphique des différents projets créés dans le module **Gestion des actifs** pour autoriser l'intégration avec le module **Gestion et comptabilité du projet**, ainsi que les processus de travail auxquels ces projets sont liés.
+L'illustration suivante présente une vue d'ensemble graphique des différents projets créés dans le module **Gestion des actifs** pour activer l'intégration avec le module **Gestion de projets et comptabilité**. Elle présente également les processus de travail auxquels les projets sont liés.
 
 ![Figure 6](media/06-integration-to-pma.png)
 

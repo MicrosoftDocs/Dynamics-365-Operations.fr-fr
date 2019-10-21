@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent (6 mai 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés ou modifications dans Dynamics 365 Talent (6 mai 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/06/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c541bac532e878c8493a60d95c05c9104d4b96e1
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 6a4571abdb0e104af0a0657c75bf5a6b5764345a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741542"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023859"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-6-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (6 mai 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (6 mai 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
 
@@ -39,15 +39,15 @@ Lorsque vous sélectionnez un modèle de package d'offre, Attract vous invite d�
 
 ## <a name="changes-in-onboard"></a>Modifications apportées à Onboard
 
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Onboard.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 
 Les modifications décrites dans cette section s'appliquent au numéro de version 8.1.2282. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support dans Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26"></a>Update 26 de la plateforme
+### <a name="platform-update-26-for-finance-and-operations"></a>Platform update 26 pour Finance and Operations
 
-Pour des informations complémentaires sur Platform Update 26, voir [Aperçu des fonctionnalités dans Dynamics 365 for Finance and Operations Platform Update 26 (mai 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Pour plus d'informations sur Platform Update 26 pour Finance and Operations, voir [Aperçu des fonctionnalités dans Dynamics 365 Finance and Operations Platform Update 26 (mai 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Prise en charge de l'entité Common Data Service pour les champs personnalisés
 
@@ -67,7 +67,7 @@ Avec cette version, vous pouvez désormais mettre à jour la dimension financiè
 
 ### <a name="worker-address-created-in-common-data-service-isnt-synced-to-talent-317555"></a>L'adresse du collaborateur créée dans Common Data Service n'est pas synchronisée avec Talent (317555)
 
-Avec cette modification, les adresses créées dans Common Data Service sont mises à jour dans Talent Core HR.
+Avec cette modification, les adresses créées dans Common Data Service sont mises à jour dans Talent : Core HR.
 
 
 ## <a name="in-preview"></a>En mode aperçu

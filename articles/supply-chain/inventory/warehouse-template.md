@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3a6645bc55dfd4f03ce9872ff5017f1659b1f11c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562436"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017595"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Paramétrer un entrepôt à l'aide d'un modèle de configuration d'entrepôt
 
@@ -93,7 +93,7 @@ Vous pouvez télécharger un fichier zip pour le package de données. Ce fichier
 
 L'option **Afficher le journal des exécutions** fournit des informations détaillées sur chaque entité de données importée. Vous pouvez utiliser la vue des données intermédiaires pour accéder rapidement aux données cibles. Vous pouvez ainsi voir l'apparence des données importées sur les pages associées de l'application. Lorsque vous utilisez les modèles de données par défaut, la séquence d'importation pour chaque entité de données fonctionne de la manière prédéfinie, afin de garantir que toutes les données dépendantes sont importées en premier. Si les entités de données personnalisées font partie du projet, vous devez vérifier que la séquence correcte est définie. Pour plus d'informations, voir [Modèles de données de configuration](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Pour en savoir plus sur l'utilisation du modèle d'entrepôt pour copier la configuration d'un entrepôt d'une entreprise à une nouvelle entreprise dans la même instance, consultez cette vidéo de 3 minutes sur YouTube : [Utiliser le modèle d'entrepôt pour copier la configuration dans Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Pour en savoir plus sur l'utilisation du modèle d'entrepôt pour copier la configuration d'un entrepôt d'une entreprise à une nouvelle entreprise dans la même instance, consultez cette vidéo de 3 minutes sur YouTube : [Utiliser le modèle d'entrepôt pour copier la configuration pour Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Rubrique connexe
 

@@ -1,6 +1,6 @@
 ---
-title: Configurer les paramètres d'e-mail dans Microsoft Dynamics 365 for Talent - Attract
-description: Cette rubrique explique comment configurer les paramètres des e-mails envoyés par Microsoft Dynamics 365 for Talent - Attract.
+title: Configurer les paramètres d'e-mail dans Microsoft Dynamics 365 Talent - Attract
+description: Cette rubrique explique comment configurer les paramètres des e-mails envoyés par Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739493"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008660"
 ---
 # <a name="configure-email-settings"></a>Configurer les paramètres d'e-mail
 
 [!include[banner](../includes/banner.md)]
 
-Votre marque est un gage de confiance et vous aide à établir la relation avec les candidats avant même qu'ils ne postulent à vos offres d'emploi. Une perception de marque positive attire les meilleurs talents et augmente la fidélité des employés en place. Microsoft Dynamics 365 for Talent : Attract vous permet de configurer les e-mails pour qu'ils reflètent la marque de votre société. Par conséquent, vous pouvez offrir une expérience cohérente aux candidats au fil de leur progression dans le processus de candidature.
+Votre marque est un gage de confiance et vous aide à établir la relation avec les candidats avant même qu'ils ne postulent à vos offres d'emploi. Une perception de marque positive attire les meilleurs talents et augmente la fidélité des employés en place. Microsoft Dynamics 365 Talent: Attract vous permet de configurer les e-mails pour qu'ils reflètent la marque de votre société. Par conséquent, vous pouvez offrir une expérience cohérente aux candidats au fil de leur progression dans le processus de candidature.
 
 Attract vous permet d'exécuter les actions suivantes :
 

@@ -1,6 +1,6 @@
 ---
 title: Extensibilité dans Attract
-description: Cette rubrique décrit comment vous pouvez étendre l'application Microsoft Dynamics 365 for Talent - Attract à l'aide de la plateforme Microsoft Power.
+description: Cette rubrique décrit comment vous pouvez étendre l'application Microsoft Dynamics 365 Talent - Attract à l'aide de Microsoft Power Platform.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/18/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795218"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026231"
 ---
 # <a name="extensibility-in-attract"></a>Extensibilité dans Attract
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent repose sur la plateforme Common Data Service et peut être étendu de différentes manières à l'aide de Microsoft Power Platform et des fonctionnalités offertes par Common Data Service. Par conséquent, vous pouvez configurer et personnaliser le système à l'aide de Microsoft PowerApps et Microsoft Flow. Vous pouvez également obtenir des analyses supplémentaire sur les personnes à l'aide Microsoft Power BI. En outre, de nouvelles activités personnalisées, telles que les activités PowerApps et de contenu web (iframe), rendent le processus de recrutement plus adaptable que jamais. Avec ces activités, vous pouvez personnaliser dans le processus de recrutement selon les besoins et processus de votre entreprise, et vous assurer que l'équipe de recrutement et les candidats ont une expérience transparente et personnalisée.
+Microsoft Dynamics 365 Talent repose sur Common Data Service et peut être étendu de différentes manières à l'aide de Microsoft Power Platform et des fonctionnalités offertes par Common Data Service. Par conséquent, vous pouvez configurer et personnaliser le système à l'aide de Microsoft PowerApps et Microsoft Flow. Vous pouvez également obtenir des analyses supplémentaire sur les personnes à l'aide Microsoft Power BI. En outre, de nouvelles activités personnalisées, telles que les activités PowerApps et de contenu web (iframe), rendent le processus de recrutement plus adaptable que jamais. Avec ces activités, vous pouvez personnaliser dans le processus de recrutement selon les besoins et processus de votre entreprise, et vous assurer que l'équipe de recrutement et les candidats ont une expérience transparente et personnalisée.
 
 ## <a name="extending-option-sets-in-attract"></a>Étendre les ensembles d'options dans Attract
 
@@ -40,7 +40,7 @@ Un **Ensemble d'options** (liste au choix) désigne un type de champ pouvant êt
 
 Ci-après figurent les étapes pour mettre à jour le champ **Raison du refus** avec les valeurs propres à votre activité.  
 
-1. Pour étendre l'ensemble d'options **Raison du refus**, accédez au [Site Web d'administrateur de PowerApps.](https://admin.powerapps.com)
+1. Pour étendre l'ensemble d'options **Raison du refus**, accédez au  [Site Web d'administrateur de PowerApps](https://admin.powerapps.com).
 2. Vous pouvez être invité à vous connecter à votre compte. Renseignez votre identifiant d'utilisateur ainsi que votre mot de passe pour vous connecter à Dynamics365 et/ou Office365, puis cliquez sur **Suivant**.
 3. Dans l'onglet **Environnements**, sélectionnez l'environnement que vous souhaitez gérer, et double-cliquez pour accéder à l'onglet **Détails**.
 4. Dans l'onglet **Détails**, sélectionnez **Centre d'administration de Dynamics 365**.
@@ -56,13 +56,13 @@ Ci-après figurent les étapes pour mettre à jour le champ **Raison du refus** 
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Tirer profit de Microsoft Power Platform 
 
-Étant donné que toutes les données Attract résident dans Common Data Service, vous pouvez utiliser les outils de Microsoft Power platform de manière à intégrer vos besoins métier uniques dans Attract.
+Étant donné que toutes les données Attract résident dans Common Data Service, vous pouvez utiliser les outils de Microsoft Power Platform de manière à intégrer les besoins uniques de votre entreprise dans Attract.
 
 ### <a name="powerapps"></a>PowerApps
 
-Vous pouvez utiliser PowerApps pour générer facilement des applications qui se connectent à vos données Attract, et qui utilisent des expressions comme les expressions de Microsoft Excel pour ajouter une logique. Les applications que vous générez à l'aide de PowerApps peuvent s'exécuter sur le web, et sur des appareils Apple et Google Android.
+Vous pouvez utiliser PowerApps pour générer facilement des applications qui se connectent à vos données Attract, et qui utilisent des expressions comme les expressions de Microsoft Excel pour ajouter une logique. Les applications que vous générez à l'aide de PowerApps peuvent s'exécuter sur le web ainsi que sur des appareils Apple et Google Android.
 
-Par exemple, vous pouvez facilement organiser des salons de l'emploi dans des universités pour les recruteurs en créant une application légère qui leur permet d'analyser les CV et d'acheminer les candidats vers un poste dans Attract. Sinon, vous pouvez générer une application qui vous permet de répondre aux besoins de conformité de votre organisation. Pour plus d'informations sur PowerApps et comment l'utiliser pour générer des applications, voir [Intégration de données dans Common Data Service](https://docs.microsoft.com/powerapps).
+Par exemple, vous pouvez facilement organiser des salons de l'emploi dans des universités pour les recruteurs en créant une application légère qui leur permet d'analyser les CV et d'acheminer les candidats vers un poste dans Attract. Sinon, vous pouvez générer une application qui vous permet de répondre aux besoins de conformité de votre organisation. Pour plus d'informations sur PowerApps et comment l'utiliser pour générer des applications, voir [Intégrer des données dans Common Data Service](https://docs.microsoft.com/powerapps).
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 

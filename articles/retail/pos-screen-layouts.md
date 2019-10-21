@@ -1,6 +1,6 @@
 ---
 title: Mises en page de l'écran pour le point de vente (PDV)
-description: Cette rubrique fournit des informations sur les mises en page de l'écran pour les expériences pour PDV Microsoft Dynamics 365 for Retail.
+description: Cette rubrique fournit des informations sur les mises en page de l'écran pour les expériences pour PDV Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 05/20/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1607034"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025268"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Mises en page de l'écran pour le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur les mises en page de l'écran pour les expériences pour PDV Microsoft Dynamics 365 for Retail.
+Cette rubrique fournit des informations sur les mises en page de l'écran pour les expériences pour PDV Dynamics 365 Retail.
 
 L'interface utilisateur Retail POS peut être configurée avec une combinaison de profils visuels et de mises en page de l'écran, qui sont affectés aux magasins, aux registres et/ou aux utilisateurs.
 
@@ -50,7 +50,7 @@ Les profils visuels sont affectés aux registres et ils spécifient les élémen
 - **Description** – Vous pouvez spécifier un nom significatif qui permet d'identifier le profil correct pour votre cas.
 - **Thème** – Vous pouvez choisir entre les thèmes d'application Clair et Foncé. Le thème affecte les couleurs de police et d'arrière-plan dans l'application.
 - **Couleur d'accentuation** – La couleur d'accentuation est utilisée dans le POS pour différencier ou mettre en évidence des éléments visuels spécifiques tels que des vignettes, des boutons de commande et des liens hypertextes. En général, ces éléments sont modifiables.
-- **Couleur d'en-tête** – Vous pouvez configurer la couleur de l'en-tête de page pour répondre aux exigences de marque du détaillant. Cette fonction est disponible uniquement dans Microsoft Dynamics 365 for Retail version 1611.
+- **Couleur d'en-tête** – Vous pouvez configurer la couleur de l'en-tête de page pour répondre aux exigences de marque du détaillant. Cette fonction est disponible uniquement dans Retail version 1611.
 - **Afficher date/heure** – Lorsque cette option est activée, la date et l'heure actuelles sont affichées dans l'en-tête POS.
 - **Arrière-plan de connexion** – Vous pouvez spécifier une image d'arrière-plan pour l'écran de connexion. La taille du fichier des images d'arrière-plan devrait être aussi petite que possible, car le stockage et le chargement de fichiers volumineux peuvent affecter le comportement et les performances de l'application.
 - **Arrière-plan d'application** – Vous pouvez spécifier une image d'arrière-plan qui est utilisée à la place de la couleur de thème unie dans l'application. Comme pour les arrières-plans de connexion, la taille de fichier devrait être aussi petite que possible.

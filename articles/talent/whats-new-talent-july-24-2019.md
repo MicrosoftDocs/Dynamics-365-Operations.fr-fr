@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent (23 juillet 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés ou modifications dans Dynamics 365 Talent (23 juillet 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/23/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d631a2a2be4809352c31f2a8c47ea49823233b30
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 428e862b84a17f0d50edf034b4cc836e5ae7710d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856399"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010266"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-23-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (23 juillet 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (23 juillet 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
 
@@ -46,7 +46,7 @@ Comme nous prévoyons de nouvelles fonctionnalités de produit ou des fonctionna
 Les approbations apparaissent dans une section **Approbations** du tableau de bord. Les approbateurs peuvent analyser leurs approbations sous **Affecté à vous**, qui affiche l'ID de mission, l'intitulé, les autres approbateurs, et la date à laquelle le poste a été affecté. Les utilisateurs qui soumettent une mission pour approbation peuvent analyser leurs missions sous **Demandé par vous**, qui affiche les approbateurs qui doivent toujours approuver la mission envoyée.
 
 ## <a name="changes-in-onboard"></a>Modifications apportées à Onboard
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Onboard.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 Les modifications décrites dans cette section s'appliquent au numéro de version 8.1.2394.
@@ -75,6 +75,6 @@ Une nouvelle option permet aux responsables d'afficher les performances des éta
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>La prise en charge des régions pour le Canada et l'Asie du Sud-Est
 
-Nous sommes ravis d'annoncer que les régions du Canada et de l'Asie du Sud-Est seront disponibles pour Microsoft Dynamics 365 for Talent le 1er août 2019. Avec ce changement, vous pouvez créer des environnements dans les régions du Canada et de l'Asie, et toutes les données Talent seront gérées uniquement dans ces emplacements. Vous pouvez créer un environnement dans ces nouvelles régions en sélectionnant l'emplacement dans la boîte de dialogue Nouvel environnement et en utilisant cet environnement pour mettre en service Talent dans LCS, comme décrit dans [Mettre en service Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Nous sommes ravis d'annoncer que les régions du Canada et de l'Asie du Sud-Est seront disponibles pour Talent le 1er août 2019. Avec ce changement, vous pouvez créer des environnements dans les régions du Canada et de l'Asie, et toutes les données Talent seront gérées uniquement dans ces emplacements. Vous pouvez créer un environnement dans ces nouvelles régions en sélectionnant l'emplacement dans la boîte de dialogue Nouvel environnement et en utilisant cet environnement pour mettre en service Talent dans LCS, comme décrit dans [Mettre en service Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 La migration des données de projets existants dans d'autres régions vers les régions du Canada et d'Asie n'est pas prise en charge. Seuls les nouveaux projets peuvent être mis en service dans ces nouvelles régions prises en charge.

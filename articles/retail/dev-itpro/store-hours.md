@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 1b55b91246b22951f4e1d148f59444423e1d8a3d
-ms.sourcegitcommit: e54607a2c80bec4db05045825914f50947f6e31e
+ms.openlocfilehash: 811d499a3eb8133e5ffd29bb4ae6a0c57708accd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917510"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023440"
 ---
 # <a name="create-and-update-store-hours"></a>Créer et mettre à jour les heures d'ouverture du magasin
 
@@ -36,7 +36,7 @@ Vous pouvez configurer plusieurs heures d'ouverture de magasin dans différents 
 
 Si un client a un ordre de prélèvement pour un autre magasin, l'agent de caisse peut sélectionner les dates lorsque le prélèvement sera disponible dans ce magasin. La recherche du magasin génère une référence aux dates et heures d'ouverture de magasin. L'agent de caisse peut sélectionner une date et un emplacement, et il peut imprimer un bon de prélèvement incluant les heures d'ouverture de magasin.
 
-Cette fonctionnalité est disponible dans Microsoft Dynamics 365 for Retail, versions 8.1.2 et ultérieures.
+Cette fonctionnalité est disponible dans Microsoft Dynamics 365 Retail, versions 8.1.2 et ultérieures.
 
 ## <a name="configure-store-hours"></a>Configurer les heures d'ouverture de magasin
 

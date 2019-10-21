@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 885e2d743cd2b01588546327840508f6f7e95958
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6d174a8acac3863fb6d9f9431c6bc777cb717470
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517953"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008173"
 ---
 # <a name="talent-client-disconnects"></a>Le client Talent se déconnecte
 
@@ -43,11 +43,11 @@ Le client est déconnecté de son environnement et ne sait pas pourquoi. Le clie
 
 Ce problème se produit souvent lorsque les utilisateurs se trouvent à l'étape d'implémentation, comparent des informations entre les environnements de production et de test, puis oublient qu'ils passent d'une session à l'autre. Si les utilisateurs sont à cette étape, ils rencontreront probablement ce problème.
 
-**Problème** 
+**Sortie** 
 
 **Types de navigateur :** Google Chrome, Internet Explorer et Microsoft Edge
 
-La plateforme Microsoft Dynamics 365 for Talent déconnecte les utilisateurs lorsque deux sessions différentes sont ouvertes en même temps pour le même utilisateur et le même type de navigateur. (Par exemple, l'utilisateur A affiche l'environnement 1 et l'environnement 2 dans chrome). Peu importe que les utilisateurs ouvrent différentes fenêtres de navigateur ou différents onglets. Si les mêmes informations d'identification de l'utilisateur sont utilisées pour se connecter à l'environnement 1 et à l'environnement 2 en même temps et dans le même type de navigateur, Talent déconnecte une des sessions.
+Microsoft Dynamics 365 Talent déconnecte les utilisateurs lorsque deux sessions différentes sont ouvertes en même temps pour le même utilisateur et le même type de navigateur. (Par exemple, l'utilisateur A affiche l'environnement 1 et l'environnement 2 dans chrome). Peu importe que les utilisateurs ouvrent différentes fenêtres de navigateur ou différents onglets. Si les mêmes informations d'identification de l'utilisateur sont utilisées pour se connecter à l'environnement 1 et à l'environnement 2 en même temps et dans le même type de navigateur, Talent déconnecte une des sessions.
 
 **Solution**
 

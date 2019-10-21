@@ -1,13 +1,13 @@
 ---
 title: Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de scénarios
-description: Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 for Talent utilisant Microsoft PowerApps et Microsoft Flow.
+description: Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 Talent utilisant Microsoft PowerApps et Microsoft Flow.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781440"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008057"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de scénarios
 
-Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 for Talent utilisant Microsoft PowerApps et Microsoft Flow. Vous pouvez importer le module de solution associé à chaque exemple dans l'environnement de PowerApps. Vous pouvez ensuite utiliser les modules comme orientation ou comme point de départ pour implémenter les scénarios qui s'appliquent à votre organisation.
+Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 Talent utilisant Microsoft PowerApps et Microsoft Flow. Vous pouvez importer le module de solution associé à chaque exemple dans l'environnement de PowerApps. Vous pouvez ensuite utiliser les modules comme orientation ou comme point de départ pour implémenter les scénarios qui s'appliquent à votre organisation.
 
 > [!IMPORTANT]
 > Pour utiliser les modèles et l'application décrits dans cette rubrique « en l'état », veillez à les tester pour vous assurer qu'ils couvrent tous les scénarios spécifiques à votre implémentation.
@@ -79,7 +79,7 @@ Le modèle **Flow – Notification par e-mail** peut être utilisé pour les sc�
 
 Ce modèle peut être étendu pour suivre les modifications du statut du candidat tout au long du processus de recrutement, et pour envoyer des notifications à l'équipe de recrutement et au candidat.
 
-En général, pour les entités enregistrées dans Common Data Service, les flux peuvent être paramétrés de manière à envoyer des notifications pour les événements qui se produisent dans Core HR, Attract ou Dynamics 365 Talent : Onboard.
+En général, pour les entités enregistrées dans Common Data Service, les flux peuvent être paramétrés de manière à envoyer des notifications pour les événements qui se produisent dans Core HR, Attract ou Onboard.
 
 Pour télécharger le modèle **Flow – Notification par e-mail** et la structure de l'entité personnalisée, accédez à [Flow – Notification par e-mail](https://go.microsoft.com/fwlink/?linkid=2082103) dans le Centre de téléchargement Microsoft.
 
@@ -106,7 +106,7 @@ Vous pouvez utiliser l'application de référence pour ajouter des candidats à 
 
 Vous pouvez intégrer cette application dans l'espace de travail Libre-service employé pour soumettre des références, ou vous pouvez l'utiliser en tant que lien hypertexte dans le portail de l'entreprise et l'exécuter comme application autonome.
 
-Pour télécharger l'**Application de référence**, allez dans [Solution d'extensibilité Dynamics 365 for Talent : Application de référence](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) dans le Centre de téléchargement Microsoft. Vous pouvez importer cette application et la personnaliser pour ajouter des fonctionnalités supplémentaires.
+Pour télécharger l'**Application de référence**, allez dans [Solution d'extensibilité Dynamics 365 Talent : Application de référence](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) dans le Centre de téléchargement Microsoft. Vous pouvez importer cette application et la personnaliser pour ajouter des fonctionnalités supplémentaires.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

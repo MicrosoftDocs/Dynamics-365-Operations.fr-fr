@@ -1,5 +1,5 @@
 ---
-title: Mettre à niveau la gestion des entrepôts de Microsoft Dynamics AX 2012 vers Finance and Operations
+title: Mise à niveau de la gestion des entrepôts depuis Microsoft Dynamics AX 2012 vers Supply Chain Management
 description: Cette rubrique fournit une vue d'ensemble des options de migration de produits et des stocks.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554044"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251429"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Mettre à niveau la gestion des entrepôts de Microsoft Dynamics AX 2012 vers Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Mise à niveau de la gestion des entrepôts depuis Microsoft Dynamics AX 2012 vers Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble du processus de mise à niveau depuis Microsoft Dynamics AX 2012 R3, en exécutant le module WMSII, vers Microsoft Dynamics 365 for Finance and Operations.
+Cette rubrique fournit une vue d'ensemble du processus de mise à niveau depuis Microsoft Dynamics AX 2012 R3, en exécutant le module WMSII, vers Supply Chain Management.
 
-Finance and Operations ne prend plus en charge le module **WMSII** hérité de Microsoft Dynamics AX 2012. À la place, vous pouvez utiliser le module **Gestion des entrepôts**. Dans le module WMSII, les dimensions de stock Emplacement et ID palette peuvent être sélectionnées pour le stock financier. Cependant, la dimension de stock ID palette ne peut pas être utilisée pour le stock financier dans Finance and Operations.
+Supply Chain Management ne prend plus en charge le module **WMSII** hérité de Microsoft Dynamics AX 2012. À la place, vous pouvez utiliser le module **Gestion des entrepôts**. Dans le module WMSII, les dimensions de stock Emplacement et ID palette peuvent être sélectionnées pour le stock financier. Cependant, la dimension de stock ID palette ne peut pas être utilisée pour le stock financier dans Supply Chain Management.
 
 Lors d'une mise à niveau, tous les produits associés à un groupe de dimensions de stockage qui utilise la dimension de stock ID palette sont identifiés, marqués comme bloqués et non traités pour la mise à niveau.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Mise à niveau vers Finance and Operations lorsque AX 2012 R3 WMSII est utilisé
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Mise à niveau vers Supply Chain Management lorsque AX 2012 R3 WMSII est utilisé
 Après la mise à niveau, vous pouvez utiliser un ensemble d'options dans l'écran **Modifier le groupe de dimensions de stockage pour les articles** pour débloquer les produits qui ont été bloqués pendant la mise à niveau, puis traiter les transactions pour ces produits.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Activation des articles dans Finance and Operations
-Cette modifications est requise, car la traçabilité des articles fait partie des processus de gestion des entrepôts dans Finance and Operations. Pour ces processus, tous les entrepôts et leurs emplacements doivent être associés à un profil d'emplacement. Si vous souhaitez utiliser les processus de gestion des entrepôts, les éléments suivants doivent être configurés :
+### <a name="enabling-items-in-supply-chain-management"></a>Activation des articles dans Supply Chain Management 
+Cette modifications est requise, car la traçabilité des articles fait partie des processus de gestion des entrepôts dans Supply Chain Management. Pour ces processus, tous les entrepôts et leurs emplacements doivent être associés à un profil d'emplacement. Si vous souhaitez utiliser les processus de gestion des entrepôts, les éléments suivants doivent être configurés :
 -   Les entrepôts existants doivent être activés pour utiliser les processus de gestion des entrepôts 
 -   Les produits lancés existants doivent être associés à un groupe de dimensions de stockage qui utilise les processus de gestion des entrepôts 
 

@@ -1,6 +1,6 @@
 ---
-title: Résoudre les problèmes d'intégration avec LinkedIn et Microsoft Dynamics 365 for Talent - Attract
-description: Cette rubrique décrit comment résoudre les problèmes lorsque vous tentez de publier des offres d'emploi dans LinkedIn à partir de Microsoft Dynamics 365 for Talent - Attract.
+title: Résoudre les problèmes d'intégration avec LinkedIn et Microsoft Dynamics 365 Talent - Attract
+description: Cette rubrique décrit comment résoudre les problèmes lorsque vous tentez de publier des offres d'emploi dans LinkedIn à partir de Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 82ba7c505ba09e47f3c517c74c22e6aef7cd4e65
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 79f138ad9aeb203bce19cc93237fca96bffd015f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739355"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008218"
 ---
 # <a name="troubleshoot-integration-with-linkedin"></a>Résoudre les problèmes d'intégration avec LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-Utilisez les informations suivantes pour résoudre les problèmes susceptibles de se produire lorsque vous voulez publier des offres d'emploi dans LinkedIn à partir de Microsoft Dynamics 365 for Talent: Attract.
+Utilisez les informations suivantes pour résoudre les problèmes susceptibles de se produire lorsque vous voulez publier des offres d'emploi dans LinkedIn à partir de Microsoft Dynamics 365 Talent: Attract.
 
 ## <a name="you-cant-sign-in-to-linkedin-from-attract"></a>Vous ne pouvez pas vous connecter à LinkedIn à partir d'Attract
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10c8b548f2e295bf344459370ab6eecd577a0efb
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 5d55dfe26cd298372701aeb98a6aafc49977f381
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865991"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248629"
 ---
 # <a name="sales-and-marketing-overview"></a>Vue d'ensemble de Ventes et marketing
 
@@ -41,7 +41,7 @@ Dans les ventes et le marketing, les interactions initiales que vous avez avec d
 
 ### <a name="campaigns"></a>Campagnes
 
-Une campagne cible les contacts (prospects, opportunités et clients) sélectionnés pour y participer. Dans Microsoft Dynamics 365 for Finance and Operations, vous pouvez créer plusieurs types de campagnes, comme le télémarketing, le publipostage, et les campagnes par courrier électronique, afin d’optimiser vos clients potentiels. À mesure que vos campagnes évoluent et que vous recevez des réponses positives, vous pouvez commencer le processus de vente avec les destinataires qui ont répondu positivement à la campagne.
+Une campagne cible les contacts (prospects, opportunités et clients) sélectionnés pour y participer. Dans Supply Chain Management, vous pouvez créer plusieurs types de campagnes, comme le télémarketing, le publipostage, et les campagnes par courrier électronique, afin d’optimiser vos clients potentiels. À mesure que vos campagnes évoluent et que vous recevez des réponses positives, vous pouvez commencer le processus de vente avec les destinataires qui ont répondu positivement à la campagne.
 
 ## <a name="sales"></a>Ventes
 La fonctionnalité de vente vous permet de créer des devis, des ventes de gamme supérieure et des ventes croisées pour les clients nouveaux et existants, de créer des commandes client et de créer des factures de vente pour les clients. Le flux de processus suivant présente le processus d'entreprise pour les ventes. [![Processus d'entreprise pour les ventes](./media/sales01.jpg)](./media/sales01.jpg)

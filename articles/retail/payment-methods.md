@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65b59e1cc215d582fdaf02ff4746fe2158ace76e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559602"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025354"
 ---
 # <a name="payment-methods"></a>Modes de paiement
 
@@ -32,7 +32,7 @@ ms.locfileid: "1559602"
 
 Chaque type de paiement accepté par un détaillant doit être configurée lors du paramétrage du système. Cet article décrit les types de paiement que vous pouvez paramétrer, ainsi que leur procédure de paramétrage.
 
-Les détaillants peuvent accepter différents types de paiement en échange des produits et des services qu'ils vendent. Bien que les espèces soient la forme de paiement la plus courante, les détaillants peuvent également être payés par chèques, cartes, N° document, etc. Chaque type de paiement accepté par le détaillant doit être configurée dans Dynamics 365 for Retail lors du paramétrage du système. La liste suivante décrit chaque type de paiement pouvant être paramétré dans Dynamics 365 for Retail :
+Les détaillants peuvent accepter différents types de paiement en échange des produits et des services qu'ils vendent. Bien que les espèces soient la forme de paiement la plus courante, les détaillants peuvent également être payés par chèques, cartes, N° document, etc. Chaque type de paiement accepté par le détaillant doit être configurée dans Dynamics 365 Retail lors du paramétrage du système. La liste suivante décrit chaque type de paiement pouvant être paramétré :
 
 - **Espèces** – Argent sous forme physique de devises, comme des billets de banque et des pièces. Cette devise peut être celle de la société ou la devise locale du magasin.
 - **Chèque** – Effet négociable donnant un ordre de paiement d'un montant spécifique pour une devise particulière, tiré sur une banque spécifiée. Un chèque est généralement valide indéfiniment ou pendant six mois à compter de sa date d'émission, sauf si une autre période de validité est spécifiée. Cette période peut varier en fonction de la banque sur laquelle le chèque est tiré. Il existe différents types de chèques, tels que les chèques à ordre, les chèques-guichets, les chèques au porteur et les chèques à porter en compte. Vous pouvez paramétrer les chèques comme mode de paiement pour chaque magasin. Les chèques sont acceptés dans la devise définie au niveau de la société ou du magasin. Avant d'accepter un paiement par chèque dans un magasin, vous devez paramétrer les chèques comme mode de paiement.

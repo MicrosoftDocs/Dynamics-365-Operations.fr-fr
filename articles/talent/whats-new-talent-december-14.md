@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (14 décembre 2018)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
+title: Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (14 décembre 2018)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517971"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024020"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (14 décembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Nouveautés ou modifications dans Dynamics 365 Talent: Core HR (14 décembre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ Lorsque la capacité à prévoir sera activée, le solde affiché deviendra le s
 
 ## <a name="known-issue"></a>Problème connu
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Erreurs de mise en correspondance dans l'intégration à Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Erreurs de mise en correspondance dans l'intégration à Finance
 
-Les problèmes suivants ont été identifiés dans le modèle actuel d'intégration de Talent à Dynamics 365 for Finance and Operations. Un nouveau modèle sera publié prochainement et appliqué à tous les nouveaux projets d'intégration qui seront créés. Pour les projets d'intégration existants, les mises en correspondance de tâches peuvent être mises à jour. Pour plus d'informations sur les mises en correspondance mises à jour, voir le tableau suivant. 
+Les problèmes suivants ont été identifiés dans le modèle actuel d'intégration de Talent à Dynamics 365 Finance. Un nouveau modèle sera publié prochainement et appliqué à tous les nouveaux projets d'intégration qui seront créés. Pour les projets d'intégration existants, les mises en correspondance de tâches peuvent être mises à jour. Pour plus d'informations sur les mises en correspondance mises à jour, voir le tableau suivant. 
 
 >[!NOTE]
 > La tâche Attribution de postes d'une mission au poste parent des missions n'intègre pas les données. Il s'agit d'un problème qui fait actuellement l'objet de recherches. Il n'existe aucune solution dans la mise en correspondance actuelle. 

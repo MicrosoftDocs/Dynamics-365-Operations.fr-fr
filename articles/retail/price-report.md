@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564945"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025193"
 ---
 # <a name="retail-price-reports"></a>États sur le prix de vente au détail
 
 [!include [banner](includes/banner.md)]
 
 
-Afin de fournir des prix concurrentiels à leurs clients, les détaillants changent souvent les prix des produits. Les directeurs de magasins souhaitent pouvoir accéder facilement aux changements de prix récents ou à venir afin de pouvoir planifier les ressources requises pour mettre à jour les étiquettes de prix affichées sur les étagères en boutique. Avec la version 10.0 de Dynamics 365 for Retail, un directeur de magasin peut ouvrir l'état **Prix** en accédant à **Tous les magasins de vente au détail \> Magasin \> État de prix** et en affichant les prix mis à jour pour les produits associés au magasin. 
+Afin de fournir des prix concurrentiels à leurs clients, les détaillants changent souvent les prix des produits. Les directeurs de magasins souhaitent pouvoir accéder facilement aux changements de prix récents ou à venir afin de pouvoir planifier les ressources requises pour mettre à jour les étiquettes de prix affichées sur les étagères en boutique. Avec la version 10.0 de Retail, un directeur de magasin peut ouvrir l'état **Prix** en accédant à **Tous les magasins de vente au détail \>  Magasin \> État de prix** et en affichant les prix mis à jour pour les produits associés au magasin. 
 
 Pour activer l'état de prix, le paramètre **Activer l'état de prix pour le magasin de vente au détail** doit être activé. Ce paramètre se trouve sous **Paramètres de vente au détail \> Remises \> Divers**. En ouvrant la page **État de prix**, une boîte de dialogue s'affiche avec différentes configurations. Les configurations disponibles sont répertoriées ci-dessous.
 

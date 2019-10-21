@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a416bbb79be3f25998d3c0da8d231d0df808685
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875654"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024497"
 ---
 # <a name="maintenance-forecasts"></a>Prévisions en matière de maintenance
 
@@ -104,7 +104,7 @@ Il existe trois façons d'ajouter des articles à des prévisions en matière de
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Mise à jour automatique des prévisions de l'ordre de travail
 
-Dans le module Gestion des actifs, vous pouvez automatiquement mettre à jour les modifications dans les prévisions de l'ordre de travail concernant les coûts horaires, les coûts d'article et les dépenses, qui ont été mises à jour dans d'autres modules dans Dynamics 365 for Finance and Operations. Cela est possible pour veiller à ce que les derniers prix de revient soient toujours utilisés dans vos prévisions d'ordre de travail. Il est également possible d'effectuer des mises à jour similaires pour [prévisions de type de tâche de maintenance](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Dans le module Gestion des actifs, vous pouvez automatiquement mettre à jour les modifications dans les prévisions de l'ordre de travail concernant les coûts horaires, les coûts d'article et les dépenses, qui ont été mises à jour dans d'autres modules. Cela est possible pour veiller à ce que les derniers prix de revient soient toujours utilisés dans vos prévisions d'ordre de travail. Il est également possible d'effectuer des mises à jour similaires pour [prévisions de type de tâche de maintenance](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Cliquez sur **Gestion des actifs** > **Périodique** > **Prévisions** > **Mettre à jour les prévisions de l'ordre de travail**.
 

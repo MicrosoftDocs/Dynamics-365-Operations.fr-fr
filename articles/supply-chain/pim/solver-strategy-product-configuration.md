@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a548d3536bbc0056ee22c07c464af062029da81
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560299"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250574"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Stratégie du solveur pour la configuration du produit
 
@@ -45,7 +45,7 @@ Le concept de stratégie du solveur comprend désormais les stratégies suivante
 
 Un modèle de configuration de produit peut être formulé en tant que [problème de satisfaction de contraintes (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf) Microsoft Solver Foundation (MSF) propose deux types de stratégies du solveur pour résoudre les CSP qui peuvent être utilisés dans les modèles de configuration de produit. Ces stratégies du solveur se basent sur l'[heuristique](https://techterms.com/definition/heuristic), qui permet de déterminer l'ordre dans lequel les variables des CSP sont prises en compte lors de la résolution du problème. L'heuristique peut affecter considérablement les performances lors de la résolution d'un problème ou d'une classe de problème.
 
-Dans Finance and Operations, la stratégie du solveur pour les modèles de configuration de produit détermine le solveur utilisé avec l'heuristique. Les stratégies **Par défaut**, **Nombre minimal de domaines en premier** et **Haut-bas** utilisent les deux solveurs de MSF, alors que la stratégie **Z3** utilise le solveur Z3. 
+La stratégie du solveur pour les modèles de configuration de produit détermine le solveur utilisé avec l'heuristique. Les stratégies **Par défaut**, **Nombre minimal de domaines en premier** et **Haut-bas** utilisent les deux solveurs de MSF, alors que la stratégie **Z3** utilise le solveur Z3. 
 
 Des études d'implémentation client réelles ont montré qu'une modification de la stratégie du solveur pour un modèle de configuration de produit peut réduire le temps de réponse de minutes en millisecondes. Par conséquent, il est utile d'essayer différentes stratégies du solveur pour trouver la plus efficace pour votre modèle de configuration de produit.
 

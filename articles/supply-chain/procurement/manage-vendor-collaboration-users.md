@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742468"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248955"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur
 
@@ -31,7 +31,7 @@ ms.locfileid: "1742468"
 
 Cette rubrique décrit comment vous pouvez demander la mise en service de nouveaux utilisateurs de collaboration fournisseur, et comment ajouter de nouveaux contacts de collaboration fournisseur. 
 
-L'interface de collaboration fournisseur de Microsoft Dynamics 365 for Finance and Operations expose des informations sur les commandes fournisseur, les factures, et le stock de consignation aux fournisseurs externes. Vous pouvez créer des contacts de collaboration fournisseur et demander que les nouveaux utilisateurs soient mis en service si vous travaillez comme fournisseur externe avec le rôle de sécurité **Administrateur Fournisseur (externe)**, ou des autorisations similaires. Vous pouvez également effectuer ces tâches si vous travaillez comme professionnel de l'approvisionnement. Dans cette rubrique, ce rôle fait référence à un professionnel de l'approvisionnement qui travaille au sein de la société qui est le propriétaire de l'instance de Finance and Operations. Pour plus d'informations sur l'utilisation de la collaboration fournisseur si vous êtes un fournisseur externe, voir [Fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+L'interface de collaboration fournisseur de Dynamics 365 Supply Chain Management expose des informations sur les commandes fournisseur, les factures, et le stock de consignation aux fournisseurs externes. Vous pouvez créer des contacts de collaboration fournisseur et demander que les nouveaux utilisateurs soient mis en service si vous travaillez comme fournisseur externe avec le rôle de sécurité **Administrateur Fournisseur (externe)**, ou des autorisations similaires. Vous pouvez également effectuer ces tâches si vous travaillez comme professionnel de l'approvisionnement. Dans cette rubrique, ce rôle fait référence à un professionnel de l'approvisionnement qui travaille au sein de la société qui est le propriétaire de l'instance de Supply Chain Management. Pour plus d'informations sur l'utilisation de la collaboration fournisseur si vous êtes un fournisseur externe, voir [Fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Pour plus d'informations sur l'utilisation de la collaboration fournisseur si vous êtes un professionnel de l'approvisionnement, voir [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 
@@ -60,12 +60,12 @@ Lorsqu'une demande est envoyée, elle est ajoutée à la liste **Demandes d'util
 Avant de demander qu'un nouvel utilisateur soit mis en service, cette personne doit être paramétrée comme contact pour un ou plusieurs comptes fournisseur. Pour créer une demande d'utilisateur de collaboration fournisseur :
 
 1. Sur la page **Tous les contacts**, cliquez sur **Mettre en service un utilisateur fournisseur**.
-2. Entrez une adresse électronique pour l'utilisateur. Cette adresse sera utilisée par l'utilisateur pour se connecter à Finance and Operations. Si l'adresse de messagerie électronique appartient à un domaine enregistré comme un locataire de Microsoft Azure, celle-ci doit être un compte Azure Active Directory (AAD) existant pour que le processus de mise en service réussisse. Si l'adresse de messagerie électronique n'appartient pas à un domaine enregistré dans Microsoft Azure, un compte AAD sera créé dans le cadre du processus de mise en service et le nouvel utilisateur recevra un message électronique d'invitation. Les adresses de messagerie électronique de consommateurs avec des domaines tels que @hotmail.com, @gmail.com, ou @comcast.net ne peuvent pas être utilisés pour enregistrer un utilisateur Finance and Operations.
+2. Entrez une adresse électronique pour l'utilisateur. Cette adresse est utilisée par l'utilisateur signe dans Supply Chain Management. Si l'adresse de messagerie électronique appartient à un domaine enregistré comme un locataire de Microsoft Azure, celle-ci doit être un compte Azure Active Directory (AAD) existant pour que le processus de mise en service réussisse. Si l'adresse de messagerie électronique n'appartient pas à un domaine enregistré dans Microsoft Azure, un compte AAD sera créé dans le cadre du processus de mise en service et le nouvel utilisateur recevra un message électronique d'invitation. Les adresses de messagerie électronique de consommateurs avec des domaines tels que @hotmail.com, @gmail.com, ou @comcast.net ne peuvent pas être utilisés pour enregistrer un utilisateur.
 3. Définissez l'option **Accès autorisé à la collaboration fournisseur** sur **Oui** pour toutes les entités juridiques auxquelles l'utilisateur doit accéder.
 4. Dans la section **Affecter des rôles utilisateur**, activez la case à cocher **Affecter** des rôles de sécurité que le nouvel utilisateur doit avoir.
 5. Cliquez sur **Soumettre**.
 
-Lorsque la demande d'utilisateur fournisseur est envoyée, le champ **Accès autorisé à la collaboration fournisseur** est défini sur **Oui** pour le compte fournisseur sélectionné et un workflow de demande d'utilisateur est démarré. Dans le cadre du workflow, un utilisateur est créé dans Finance and Operations, et des rôles de sécurité sont affectés. En outre, un service Azur B2B est activé qui initie l'interaction avec le portail Azure et associe un compte AAD nouveau ou existant au compte d'utilisateur Finance and Operations. Pour plus d'informations, voir [Qu'est-ce que la collaboration Azure AD B2B ?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Lorsque la demande d'utilisateur fournisseur est envoyée, le champ **Accès autorisé à la collaboration fournisseur** est défini sur **Oui** pour le compte fournisseur sélectionné et un workflow de demande d'utilisateur est démarré. Dans le cadre du workflow, un utilisateur est créé, et des rôles de sécurité sont affectés. En outre, un service Azur B2B est activé qui initie l'interaction avec le portail Azure et associe un compte AAD nouveau ou existant au compte d'utilisateur Supply Chain Management. Pour plus d'informations, voir [Qu'est-ce que la collaboration Azure AD B2B ?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Désactiver un utilisateur
 

@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (10 septembre 2018)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
+title: Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (10 septembre 2018)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/12/2018
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 6682e4d013f006696b45e644b7b4861b34faa9bf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59cb0203422b7d81b5ca0077370fd9cbdb4a7f89
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518011"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010082"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (10 septembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-10-2018"></a>Nouveautés ou modifications dans Dynamics 365 Talent: Core HR (10 septembre 2018)
 
 [!include [banner](includes/banner.md)]
 
 **Version 8.1.138.0**
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent: Core HR.
 
 ## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a>Indiquer un moment spécifique de la journée dans les demandes de congés (demi-journées)
 

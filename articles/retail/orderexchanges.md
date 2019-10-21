@@ -1,6 +1,6 @@
 ---
 title: Configurer et traiter un échange suite à un ordre de retour
-description: Cette rubrique explique comment configurer un échange suite à un retour dans Microsoft Dynamics 365 for Retail.
+description: Cette rubrique explique comment configurer un échange suite à un retour dans Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/12/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ce327a918159771df0acab276b1169d2ad77825
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561385"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025377"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurer et traiter un échange suite à un ordre de retour
 
 [!include [banner](includes/banner.md)]
 
-Dans les versions antérieures de Microsoft Dynamics 365 for Retail, les retours suite à des commandes client étaient traités à l'aide du document d'ordre de retour dans Retail Headquarters. Toutefois, un document d'ordre de retour peut être utilisé pour traiter uniquement les produits retournés. Les produits retournés sont signalés par une quantité négative dans les lignes de l'ordre de retour. Les ventes sont en revanche indiquées par une quantité positive. Toutefois, le document d'ordre de retour ne prend pas en charge les quantités positives. En raison de cette limitation, les versions précédentes de Retail ne prenaient pas en charge les scénarios où les échanges de produit étaient effectués à l'aide du document d'ordre de retour.
+Dans les versions antérieures de Dynamics 365 Retail, les retours suite à des commandes client étaient traités à l'aide du document d'ordre de retour dans Retail Headquarters. Toutefois, un document d'ordre de retour peut être utilisé pour traiter uniquement les produits retournés. Les produits retournés sont signalés par une quantité négative dans les lignes de l'ordre de retour. Les ventes sont en revanche indiquées par une quantité positive. Toutefois, le document d'ordre de retour ne prend pas en charge les quantités positives. En raison de cette limitation, les versions précédentes de Retail ne prenaient pas en charge les scénarios où les échanges de produit étaient effectués à l'aide du document d'ordre de retour.
 
 Toutefois, une fonctionnalité a été ajoutée pour prendre en charge les scénarios au cours desquels les échanges sont effectués avec des ordres de retour. Retail utilise désormais le document de commande client au lieu du document d'ordre de retour pour traiter ces transactions.
 

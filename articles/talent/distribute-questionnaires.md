@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517948"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026254"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuer et planifier des questionnaires
 
@@ -83,7 +83,7 @@ Vous pouvez spécifier les types de planification pour un programme de questionn
 
 Les types de référence aident à entrer les critères de sélection des personnes interrogées lorsque vous planifiez un questionnaire. 
 
-Utilisez la page **Types de référence** pour paramétrer les types de référence pour un questionnaire. Chaque type de référence correspond à une table dans Microsoft Dynamics 365 for Finance and Operations. Lorsque vous créez des programmes de questionnaires, vous pouvez spécifier des enregistrements individuels dans la table ou une plage d'enregistrements qui seront associés au questionnaire. 
+Utilisez la page **Types de référence** pour paramétrer les types de référence pour un questionnaire. Chaque type de référence correspond à une table dans Microsoft Dynamics 365 Finance. Lorsque vous créez des programmes de questionnaires, vous pouvez spécifier des enregistrements individuels dans la table ou une plage d'enregistrements qui seront associés au questionnaire. 
 
 Par exemple, si vous sélectionnez la table Cours, vous pouvez décider à quel cours spécifique le questionnaire se rapporte. Lorsque vous paramétrez un type de référence pour la table Cours, certains champs et boutons de la page **Cours** deviennent disponibles.
 

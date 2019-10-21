@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916551"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017756"
 ---
 # <a name="base-price-and-trade-agreements"></a> Prix de base et accords commerciaux
 
@@ -56,7 +56,7 @@ Cette procédure décrit la création d'accords commerciaux sur les prix de vent
 24. Cliquez sur **Créer des accords commerciaux**.
 25. Cliquez sur **Nouveau**.
 26. Dans le champ **Nom**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-27. Dans la liste, sélectionnez « Vente au détail ». Dans les données de démonstration, le nom de journal « Vente au détail » a la relation par défaut « Prix (vente) ». Cela signifie que toutes les lignes créées utilisent par défaut les accords commerciaux sur les prix de vente.  
+27. Dans la liste, sélectionnez **Vente au détail**. Dans les données de démonstration, le nom de journal **Vente au détail** a la relation par défaut **Prix (vente)**. Cela signifie que toutes les lignes créées utilisent par défaut les accords commerciaux sur les prix de vente.  
 28. Dans le **Volet Actions**, cliquez sur **Lignes**.
 29. Sélectionnez « Groupe » dans le champ **Code de compte**.
 30. Dans le champ **Sélection du compte**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.

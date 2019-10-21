@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1c90788da7ad536fb9978db18160ccf6c158033
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783253"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024524"
 ---
 # <a name="asset-documents"></a>Documents d'actif
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783253"
 
 Cette rubrique explique les documents d'actif dans le module Gestion des actifs.
 
-Dans le module Gestion des actifs, vous pouvez paramétrer des documents afin qu'ils soient automatiquement associés aux types de tâche, aux fabricants d'actif, aux types d'actif ou aux actifs, par exemple. Cette fonctionnalité est utile lorsque des versions de document mises à jour sont publiées. Dans ce cas, il vous suffit de placer le document mis à jour dans l'emplacement standard que vous utilisez pour vos documents Microsoft Dynamics 365 for Finance and Operations, et de joindre le document à l'enregistrement de document d'actif que vous avez créé. Le document mis à jour est ensuite accessible à partir des éléments de menu **Tous les actifs**, **Actifs actifs**, **Mes actifs actifs**, **Tous les ordres de travail** et **Tâches de l'ordre de travail actif**. Le processus pour joindre des documents à un enregistrement de document d'actif utilise le système de gestion des documents standard dans Finance and Operations.
+Dans le module Gestion des actifs, vous pouvez paramétrer des documents afin qu'ils soient automatiquement associés aux types de tâche, aux fabricants d'actif, aux types d'actif ou aux actifs, par exemple. Cette fonctionnalité est utile lorsque des versions de document mises à jour sont publiées. Dans ce cas, il vous suffit de placer le document mis à jour dans l'emplacement standard que vous utilisez pour vos documents Finance and Operations, et de joindre le document à l'enregistrement de document d'actif que vous avez créé. Le document mis à jour est ensuite accessible à partir des éléments de menu **Tous les actifs**, **Actifs actifs**, **Mes actifs actifs**, **Tous les ordres de travail** et **Tâches de l'ordre de travail actif**. Le processus pour joindre des documents à un enregistrement de document d'actif utilise le système de gestion des documents standard.
 
 **Exemple 1 :** un document associé à un type de tâche peut décrire une procédure pour ce type de tâche.
 
@@ -48,5 +48,5 @@ Dans le module Gestion des actifs, vous pouvez paramétrer des documents afin qu
     > [!NOTE]
     > Lorsque le système recherche des documents qui doivent être associés à un actif ou un ordre de travail, le module Gestion des actifs recherche une correspondance possible dans tous les enregistrements de document d'actif. Il vérifie toujours la combinaison la plus spécifique en premier. En d'autres termes, le module Gestion des actifs recherche d'abord une correspondance pour le champ **Demande de tâche**. Si aucune correspondance n'est trouvée, il recherche une correspondance pour le champ **Variante du type de tâche**. Si aucune correspondance n'est trouvée, il recherche une correspondance pour le champ **Type de tâche**, etc. Comme vous pouvez voir dans la disposition de la page **Documents d'actif**, ce comportement signifie que, pour trouver la combinaison la plus spécifique, le module Gestion des actifs recherche une correspondance dans chaque enregistrement en allant de la droite vers la gauche. Plusieurs documents peuvent être associés à un actif ou un ordre de travail. Vous pouvez modifier le niveau de service d'une demande de maintenance ou d'un ordre de travail si nécessaire.
 
-4. Sélectionnez **Pièces jointes**. La page **Gestion des documents** standard dans Finance and Operations s'affiche.
+4. Sélectionnez **Pièces jointes**. La page **Gestion de documents** standard s'affiche.
 5. Paramétrez les documents ou les notes qui doivent être joints à l'enregistrement de document d'actif. Après avoir joint des documents, le champ **Pièces jointes** affiche le nombre de documents associés à l'enregistrement.

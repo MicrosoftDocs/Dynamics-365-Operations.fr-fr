@@ -1,6 +1,6 @@
 ---
 title: Configurer et utiliser des blocages de commande dans le centre d'appels
-description: Cette rubrique décrit l'utilisation de blocages sur les commandes à l'aide de Microsoft Dynamics 365 for Retail.
+description: Cette rubrique décrit l'utilisation de blocages sur les commandes à l'aide de Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f20cd5266f2fec02d11c6ac5f0268765b3ad1ec
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564876"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018364"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configurer et utiliser les blocages de commande dans le centre d'appels
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctions de blocage de commande de Microsoft Dynamics 365 for Retail pour les commandes du centre d'appels.
+Cette rubrique décrit les fonctions de blocage de commande de Dynamics 365 Retail pour les commandes du centre d'appels.
 
 ## <a name="configuring-call-center-order-holds"></a>Configuration des blocages de commande dans le centre d'appels
 

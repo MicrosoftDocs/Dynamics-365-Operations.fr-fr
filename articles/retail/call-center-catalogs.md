@@ -1,6 +1,6 @@
 ---
 title: Catalogues de centre d'appels
-description: Cette rubrique décrit la fonctionnalité spécifique au centre d'appel des catalogues dans Microsoft Dynamics 365 for Retail.
+description: Cette rubrique décrit la fonctionnalité spécifique au centre d'appel des catalogues dans Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562739"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023657"
 ---
 # <a name="call-center-catalogs"></a>Catalogues de centre d'appels
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité spécifique au centre d'appels associée aux fonctions de catalogue dans Microsoft Dynamics 365 for Retail.
+Cette rubrique décrit la fonctionnalité spécifique au centre d'appels associée aux fonctions de catalogue dans Dynamics 365 Retail.
 
-Les fonctions de catalogue disponibles dans Dynamics 365 for Retail peuvent être utilisées à plusieurs fins. Les fonctions de catalogue ont été initialement créées pour prendre en charge les intégrations de e-Commerce tierces. Le paramétrage du catalogue a permis aux sociétés de créer un regroupement de produits et d'attributs qui pouvaient être publiés en externe pour la consommation par une solution de e-Commerce tierce.
+Les fonctions de catalogue disponibles dans Vente au détail peuvent être utilisées à plusieurs fins. Les fonctions de catalogue ont été initialement créées pour prendre en charge les intégrations de e-Commerce tierces. Le paramétrage du catalogue a permis aux sociétés de créer un regroupement de produits et d'attributs qui pouvaient être publiés en externe pour la consommation par une solution de e-Commerce tierce.
 
-Lorsque la prise en charge du canal du centre d'appels a été ajoutée à Dynamics 365 for Retail le concept de catalogue a été développé pour ajouter des fonctions supplémentaires de prise en charge et de gestion des fonctionnalités associées aux catalogues marketing traditionnels destinés directement aux consommateurs. Une société qui traite directement avec les consommateurs produit souvent des catalogues imprimés, qui sont ensuite envoyés par courrier électronique à un ou plusieurs segments de clients. Ces catalogues contiennent généralement des promotions ou offres spécifiques qui sont honorées uniquement si le client fournit un code d'identification du catalogue au moment de la création de la commande.
+Lorsque la prise en charge du canal du centre d'appels a été ajoutée à Vente au détail, le concept de catalogue a été développé pour ajouter des fonctions supplémentaires de prise en charge et de gestion des fonctionnalités associées aux catalogues marketing traditionnels destinés directement aux consommateurs. Une société qui traite directement avec les consommateurs produit souvent des catalogues imprimés, qui sont ensuite envoyés par courrier électronique à un ou plusieurs segments de clients. Ces catalogues contiennent généralement des promotions ou offres spécifiques qui sont honorées uniquement si le client fournit un code d'identification du catalogue au moment de la création de la commande.
 
-Les sociétés marketing qui traitent directement avec les consommateurs sont très attentives au suivi de la réponse à ces catalogues pour garantir que les coûts de production et de publipostage sont justifiés. Pour suivre la réponse, un code est traditionnellement imprimé à l'arrière du catalogue et ce code est ensuite demandé et appliqué lorsque le destinataire du catalogue appelle pour passer une commande par téléphone (ou plus traditionnellement, le code peut être saisi lorsque le client passe une commande en ligne). Bien que différents termes ont été utilisés dans l'industrie pour identifier ce code de suivi du catalogue (notamment le code de clé, le code de promotion, le code de catalogue, le code source), nous appelons ce code **ID code source** dans Dynamics 365 for Retail.
+Les sociétés marketing qui traitent directement avec les consommateurs sont très attentives au suivi de la réponse à ces catalogues pour garantir que les coûts de production et de publipostage sont justifiés. Pour suivre la réponse, un code est traditionnellement imprimé à l'arrière du catalogue et ce code est ensuite demandé et appliqué lorsque le destinataire du catalogue appelle pour passer une commande par téléphone (ou plus traditionnellement, le code peut être saisi lorsque le client passe une commande en ligne). Bien que différents termes ont été utilisés dans l'industrie pour identifier ce code de suivi du catalogue (notamment le code de clé, le code de promotion, le code de catalogue, le code source), nous appelons ce code **ID code source** dans Vente au détail.
 
 ## <a name="basic-catalog-setup"></a>Paramétrage de base du catalogue
 
@@ -92,7 +92,7 @@ Lorsque vous configurez les produits du catalogue, utilisez l'action **Mise en p
 
 ## <a name="catalog-requests"></a>Demandes de catalogue
 
-Comme les catalogues sont configurés et publiés dans Dynamics 365 for Retail, la fonction **Envoyer le catalogue** peut être utilisée. Cette fonction est disponible dans les pages **Recherche du client** et **Service client**. Après avoir sélectionné un enregistrement client via la fonction **Recherche du client** ou lors de l'affichage d'un compte client sélectionné à partir du **Service client**, les utilisateurs peuvent sélectionner l'option **Envoyer le catalogue** qui ouvre une boîte de dialogue permettant à l'utilisateur de choisir dans la liste des catalogues publiés et actifs. Un utilisateur peut sélectionner un catalogue et une quantité, ainsi qu'un ID code source spécifique à envoyer. Lorsqu'il clique sur le bouton **Envoyer**, une demande est enregistrée et peut ensuite être gérée en imprimant l'état **Demandes de catalogue**. Cet état est accessible sous **Vente au détail** \> **États du centre d'appels** \> **État des demandes de catalogue**. Il répertorie toutes les demandes de catalogue, y compris le nom et l'adresse du client ayant demandé le catalogue. Cet état peut être utilisé en interne ou les données peuvent être transmises à un tiers qui prend en charge les processus externes pour l'envoi physique du catalogue au client.
+Comme les catalogues sont configurés et publiés dans Vente au détail, la fonction **Envoyer le catalogue** peut être utilisée. Cette fonction est disponible dans les pages **Recherche du client** et **Service client**. Après avoir sélectionné un enregistrement client via la fonction **Recherche du client** ou lors de l'affichage d'un compte client sélectionné à partir du **Service client**, les utilisateurs peuvent sélectionner l'option **Envoyer le catalogue** qui ouvre une boîte de dialogue permettant à l'utilisateur de choisir dans la liste des catalogues publiés et actifs. Un utilisateur peut sélectionner un catalogue et une quantité, ainsi qu'un ID code source spécifique à envoyer. Lorsqu'il clique sur le bouton **Envoyer**, une demande est enregistrée et peut ensuite être gérée en imprimant l'état **Demandes de catalogue**. Cet état est accessible sous **Vente au détail** \> **États du centre d'appels** \> **État des demandes de catalogue**. Il répertorie toutes les demandes de catalogue, y compris le nom et l'adresse du client ayant demandé le catalogue. Cet état peut être utilisé en interne ou les données peuvent être transmises à un tiers qui prend en charge les processus externes pour l'envoi physique du catalogue au client.
 
 ## <a name="additional-features"></a>Fonctionnalités supplémentaires
 

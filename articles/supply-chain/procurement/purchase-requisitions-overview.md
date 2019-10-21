@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572023"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248874"
 ---
 # <a name="purchase-requisition-overview"></a>Présentation des demandes d'achat
 
@@ -38,7 +38,7 @@ Une fois la demande d'achat approuvée, vous pouvez l'utiliser pour créer une c
 ## <a name="creating-purchase-requisitions"></a>Création de demandes d'achat
 Vous pouvez créer une demande d'achat sur la page **Mes demandes d'achat**, et sélectionner les articles et les services dont vous avez besoin. Vous pouvez sélectionner des articles dans un catalogue d'approvisionnement créé par votre organisation, ou demander des articles ne faisant pas partie d'un catalogue, en sélectionnant une catégorie d'approvisionnement et en entrant les détails de ces produits.  
 
-Avant de pouvoir envoyer une demande d'achat pour révision, les workflows doivent être configurés dans Microsoft Dynamics 365 for Finance and Operations. Vous utilisez le système de workflow pour déplacer une demande d'achat via le processus de révision, depuis le statut initial **Brouillon** vers le statut final **Approbation**.
+Avant de pouvoir envoyer une demande d'achat pour révision, les workflows doivent être configurés. Vous utilisez le système de workflow pour déplacer une demande d'achat via le processus de révision, depuis le statut initial **Brouillon** vers le statut final **Approbation**.
 
 ### <a name="purchase-requisition-statuses"></a>Statuts des demandes d'achat
 
@@ -141,7 +141,7 @@ Dans les stratégies d'approvisionnement, vous pouvez contrôler les objectifs d
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Demandes ayant un objectif de consommation
 
-Une demande avec un objectif de consommation représente une demande pour des articles ou des services qui seront utilisés en interne par votre organisation. La demande créée par ce type de demande est toujours satisfaite par une commande fournisseur. Si Microsoft Dynamics 365 for Finance and Operations n'est pas configuré pour créer automatiquement les commandes fournisseur, ces commandes doivent être créées après l'approbation de la demande d'achat.
+Une demande avec un objectif de consommation représente une demande pour des articles ou des services qui seront utilisés en interne par votre organisation. La demande créée par ce type de demande est toujours satisfaite par une commande fournisseur. Si Supply Chain Management n'est pas configuré pour générer automatiquement les commandes fournisseur, ces commandes doivent être créées automatiquement après l'approbation de la demande d'achat.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Demandes ayant un objectif de réapprovisionnement
 

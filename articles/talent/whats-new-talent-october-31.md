@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (31 octobre 2018)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent Core HR.
+title: Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (31 octobre 2018)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d6942f8e4dc86f18a081b347df0567b1358a87ab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2ad9be740d917a760815718a1473d7bcba97968
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518018"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025930"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Nouveautés ou modifications dans Dynamics 365 for Talent Core HR (31 octobre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-31-2018"></a>Nouveautés ou modifications dans Dynamics 365 Talent: Core HR (31 octobre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -33,15 +33,15 @@ ms.locfileid: "1518018"
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Core HR.
 
-## <a name="create-links-from-talent-to-finance-and-operations"></a>Créer des liens entre Talent et Finance and Operations
-Cette nouvelle fonctionnalité de navigation vous permet de créer des liens entre Talent et Finance and Operations, ce qui vous permet de gérer la navigation dans les pages de Finance and Operations. Lorsque des liens sont configurés, vous pouvez spécifier le nom et le groupe du lien, dans lequel le lien doit s'afficher dans Talent, et la page cible à ouvrir dans Finance and Operations.
+## <a name="create-links-from-talent-to-finance"></a>Créer des liens entre Talent et Finance
+Cette nouvelle fonctionnalité de navigation vous permet de créer des liens entre Talent et Finance, ce qui vous permet de gérer la navigation dans les pages de Finance. Lorsque des liens sont configurés, vous pouvez spécifier le nom et le groupe du lien, dans lequel le lien doit s'afficher dans Talent, et la page cible à ouvrir dans Finance.
 
 #### <a name="coming-soon"></a>Prochainement
-Le contexte du champ sera ajouté à l'avenir pour autoriser une navigation directe vers les enregistrements correspondants dans Finance and Operations. Par exemple, vous pouvez utiliser **Lier au champ** pour fournir le contexte permettant d'accéder directement à un employé ou à un poste spécifique dans Finance and Operations.
+Le contexte du champ sera ajouté à l'avenir pour autoriser une navigation directe vers les enregistrements correspondants dans Finance. Par exemple, vous pouvez utiliser **Lier au champ** pour fournir le contexte permettant d'accéder directement à un employé ou à un poste spécifique dans Finance.
 
 ### <a name="configure-target-systems"></a>Configurer les systèmes cibles
 
-Dans Talent, les administrateurs système peuvent définir des liens qui seront affichés via l'espace de travail Administration du système. Une partie de la configuration est les environnements de Finance and Operations auxquels vous souhaitez accéder comme « cible » du lien. Pour ce faire, vous attribuez au système cible un nom et fournissez l'URL de l'environnement Finance and Operations. Voici un exemple d'URL Finance and Operations que vous pourriez fournir : https://devax00124aos.cloud.test.dynamics.com/. Après avoir configuré vos systèmes cibles, vous pouvez définir vos liens.
+Dans Talent, les administrateurs système peuvent définir des liens qui seront affichés via l'espace de travail Administration du système. Une partie de la configuration est les environnements de Finance auxquels vous souhaitez accéder comme « cible » du lien. Pour ce faire, vous attribuez au système cible un nom et fournissez l'URL de l'environnement Finance. Voici un exemple d'URL Finance que vous pourriez fournir : https://devax00124aos.cloud.test.dynamics.com/. Après avoir configuré vos systèmes cibles, vous pouvez définir vos liens.
 
 ### <a name="configure-links"></a>Configurer les liens
 
@@ -51,27 +51,27 @@ Chaque lien créé aura les informations suivantes définies.
 
 - Activer ce lien - Définissez sur **Oui** si vous souhaitez afficher le lien pour les utilisateurs de Talent.
 
-- Nom complet - Définissez le nom qui s'affichera comme lien dans Finance and Operations. Ces données ne sont actuellement pas traduites.
+- Nom complet - Définissez le nom qui s'affichera comme lien dans Finance. Ces données ne sont actuellement pas traduites.
 
 - Afficher le lien sur l'écran - Choisissez la page sur laquelle afficher le lien.
 
 - Groupe - Les groupes ne sont pas requis, mais si vous souhaitez organiser vos liens à l'aide de groupes, sélectionnez un groupe existant ou créez-en un à l'aide du champ **Groupe**.
 
-- Système cible - Sélectionnez le système cible créé à l'aide de l'option **Configurer le système cible**. Il s'agit de l'environnement Finance and Operations utilisé lors de la navigation avec le lien.
+- Système cible - Sélectionnez le système cible créé à l'aide de l'option **Configurer le système cible**. Il s'agit de l'environnement Finance utilisé lors de la navigation avec le lien.
 
-- Utiliser la société actuelle de l'utilisateur - Sélectionnez **Oui** si vous souhaitez utiliser le contexte de la société actuelle de l'utilisateur en accédant à Finance and Operations. Si **Non** est sélectionné, vous pouvez activer la société qui doit être utilisée.
+- Utiliser la société actuelle de l'utilisateur - Sélectionnez **Oui** si vous souhaitez utiliser le contexte de la société actuelle de l'utilisateur en accédant à Finance. Si **Non** est sélectionné, vous pouvez activer la société qui doit être utilisée.
 
-- Option de menu cible - Entrez l'option de menu Finance and Operations que le lien doit utiliser lors de la navigation. Des options de menu auxquelles vous pouvez accéder directement sont disponibles. Pour trouver l'option de menu requise, ouvrez Finance and Operations et ouvrez la page cible de la navigation. Copiez l'option de menu de l'URL. Par exemple, si vous souhaitez que le lien vous dirige vers la liste des employés dans Finance and Operations, entrez la valeur qui s'affiche après le « &mi » dans l'URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. L'option de menu permettant d'accéder à la page de la liste des employés dans cet exemple est : HcmWorkerListPage_Employees.
+- Option de menu cible - Entrez l'option de menu Finance que le lien doit utiliser lors de la navigation. Des options de menu auxquelles vous pouvez accéder directement sont disponibles. Pour trouver l'option de menu requise, ouvrez Finance et ouvrez la page cible de la navigation. Copiez l'option de menu de l'URL. Par exemple, si vous souhaitez que le lien vous dirige vers la liste des employés dans Finance and Operations, entrez la valeur qui s'affiche après le « &mi » dans l'URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. L'option de menu permettant d'accéder à la page de la liste des employés dans cet exemple est : HcmWorkerListPage_Employees.
 
 - Lien vers la source de données - Sélectionnez la source des données à laquelle le lien fait référence. Les sources les plus courantes comme **Collaborateur** et **Poste** sont disponibles.
 
-- Lien vers le champ - (Prochainement) Cette sélection de champ permettre d'accéder directement d'un enregistrement unique dans Talent vers un enregistrement unique dans Finance and Operations.
+- Lien vers le champ - (Prochainement) Cette sélection de champ permettre d'accéder directement d'un enregistrement unique dans Talent vers un enregistrement unique dans Finance.
 
 ### <a name="access-to-links"></a>Accès aux liens
 
 Les administrateurs système afficheront les liens nouvellement créés sur les pages définies, même si l'option **Activer ce lien** est définie sur **Non**. Cela peut être utilisé pour tester des liens avant de les afficher pour d'autres employés. Tous les autres rôles n'affichent que les liens configurés une fois l'option **Activer ce lien** définie sur **Oui**. Les employés ayant accès aux pages sur lesquelles les liens sont affichés auront accès aux liens.
 
-Les utilisateurs peuvent également disposer de droits de sécurité dans Finance and Operations définis pour accéder aux pages de Finance and Operations. Si ce n'est pas le cas, une boîte de dialogue de sécurité s'affiche lorsque vous utilisez le lien.
+Les utilisateurs peuvent également disposer de droits de sécurité dans Finance définis pour accéder aux pages de Finance and Operations. Si ce n'est pas le cas, une boîte de dialogue de sécurité s'affiche lorsque vous utilisez le lien.
 
 
 ## <a name="other-changesfixes"></a>Autres modifications/corrections

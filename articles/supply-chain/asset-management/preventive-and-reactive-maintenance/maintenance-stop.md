@@ -3,7 +3,7 @@ title: Temps d'arrêt pour maintenance
 description: Cette rubrique explique les temps d'arrêt pour maintenance dans le module Gestion des actifs.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,16 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a831d56116c57b640993162473e74e5ce181f09c
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875642"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922181"
 ---
 # <a name="maintenance-downtime"></a>Temps d'arrêt pour maintenance
-
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,12 +43,12 @@ Une fois les actifs sélectionnés sur un enregistrement des temps d'arrêt de m
 
 ## <a name="maintenance-downtime-activities"></a>Activités de temps d'arrêt pour maintenance
 
-Cliquez sur **Gestion des actifs** > **Commun** > **Activités des temps d'arrêt pour maintenance** > **Toutes les activités de temps d'arrêt pour maintenance** pour ouvrir une liste de toutes les activités des temps d'arrêt pour maintenance et afficher une partie des informations relatives aux activités. Cliquez sur un lien dans la colonne **Activités des temps d'arrêt pour maintenance** pour ouvrir la vue détaillée.
+Cliquez sur **Gestion des actifs** > **Commun** > **Activités des temps d'arrêt pour maintenance** > **Toutes les activités de temps d'arrêt pour maintenance** pour ouvrir une liste de toutes les activités des temps d'arrêt pour maintenance et afficher une partie des informations relatives aux activités. Cliquez sur un lien dans la colonne **Activités des temps d'arrêt pour maintenance** pour ouvrir la vue détaillée. L'illustration ci-dessous présente un exemple de la liste **Activités de temps d'arrêt pour maintenance**.
 
 ![Figure 1](media/19-preventive-maintenance.png)
 
 
-## <a name="create-a-maintenance-downtime-registration"></a>Créer un enregistrement de temps d'arrêt pour maintenance
+## <a name="create-a-maintenance-downtime-activity"></a>Créer une activité de temps d'arrêt pour maintenance
 
 1. Cliquez sur **Gestion des actifs** > **Commun** > **Activités de temps d'arrêt pour maintenance** > **Toutes les activités de temps d'arrêt pour maintenance** ou **Activités de temps d'arrêt pour maintenance actives**.
 
@@ -61,20 +60,22 @@ Cliquez sur **Gestion des actifs** > **Commun** > **Activités des temps d'arrê
 
 5. Dans l'organisateur **Actifs d'activités de temps d'arrêt pour maintenance** > cliquez sur **Ajouter une ligne** pour ajouter des actifs, un à la fois, à l'activité de temps d'arrêt pour maintenance.
 
-6. Cliquez sur **Enregistrer** lorsque tous les actifs ont été ajoutés.
+6. Cliquez sur **Enregistrer** lorsque tous les actifs ont été ajoutés. L'illustration ci-dessous présente un exemple d'une activité de temps d'arrêt pour maintenance à des actifs et des tâches de maintenance associés.
 
 7. Les tâches de maintenance des ordres de travail et les lignes du programme de maintenance ouvertes associées aux actifs sélectionnés sont affichées sous **Tâches de maintenance des ordres de travail résultantes** et les organisateurs **Lignes du programme de maintenance**. Dans l'organisateur **Général** > groupe **Ordres de travail** champ > **Heures des prévisions en matière de maintenance** et organisateur **Général** > groupe **Heures de prévisions en matière de maintenance** > champ **Heures de prévisions en matière de maintenance**, vous voyez le nombre total d'heures prévues pour les tâches de maintenance des ordres de travail et les lignes du programme de maintenance.
+
+L'illustration ci-dessous présente un exemple de la vue des détails **Activités de temps d'arrêt pour maintenance**.
 
 ![Figure 2](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >Les tâches de maintenance des ordres de travail et les lignes du programme de maintenance associées aux actifs sélectionnés sont automatiquement mises à jour si les nouveaux ordres de travail ou les lignes du programme de maintenance sont créés une fois l'activité des temps d'arrêt pour maintenance créée. Par exemple, si vous programmez des plans de maintenance ou des visites de maintenance sur les actifs associés deux jours après la création de l'activité des temps d'arrêt pour maintenance, de nouvelles lignes du programme de maintenance sont automatiquement ajoutées à l'activité des temps d'arrêt pour maintenance.
 
-8. Dans **Toutes les activités de temps d'arrêt pour maintenance** > **Activités de temps d'arrêt pour maintenance** > sélectionnez une activité de temps d'arrêt pour mainteance dans la liste et cliquez sur **Charge maximale** pour ouvrir la boîte de dialogue **Calculer la charge maximale**. Utilisez cette boîte de dialogue pour obtenir une vue d'ensemble de la charge maximale, par exemple, les dates, actifs, types d'actif et types de tâche de maintenance. Notez que les dates affichées dans la boîte de dialogue sont les dates de début et de fin sélectionnées dans **Activités de temps d'arrêt pour maintenance**. Ce calcul comprend les actifs associés à l'activité de temps d'arrêt pour maintenance.
+8. Dans **Toutes les activités de temps d'arrêt pour maintenance** > **Activités de temps d'arrêt pour maintenance** > sélectionnez une activité de temps d'arrêt pour maintenance dans la liste et cliquez sur **Charge maximale** pour ouvrir la boîte de dialogue **Calculer la charge maximale**. Utilisez cette boîte de dialogue pour obtenir une vue d'ensemble de la charge maximale, par exemple, les dates, actifs, types d'actif et types de tâche de maintenance. Notez que les dates affichées dans la boîte de dialogue sont les dates de début et de fin sélectionnées dans **Activités de temps d'arrêt pour maintenance**. Ce calcul comprend les actifs associés à l'activité de temps d'arrêt pour maintenance.
 
 9. Dans la boîte de dialogue **Calculer la charge maximale**, modifiez les heures de début et de fin, le cas échéant, et sélectionnez si vous souhaitez inclure des ordres de travail et des programmes de maintenance dans le calcul. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans le calcul de charge maximale en fonction des postes techniques. Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, tous les actifs pour un poste technique, qui sont sélectionnés sur l'activité de temps d'arrêt pour maintenance, s'affichent dans le niveau supérieur et il est donc possible d'ajouter des heures sur une ligne à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre « 0 » dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes de la charge maximale sur tous les niveaux du poste technique auxquels ils sont liés.
 
-10. Cliquez sur **OK** pour démarrer le calcul. Le nombre total d'heures s'affiche dans la vue d'ensemble **Charge maximale**. Dans l'onglet **Charge maximale** > les groupes de volet Actions **Regroupement par…**, cliquez sur les boutons appropriés pour obtenir une vue d'ensemble plus détaillée de la répartition des heures prévues.
+10. Cliquez sur **OK** pour démarrer le calcul. Le nombre total d'heures s'affiche dans la vue d'ensemble **Charge maximale**. Dans l'onglet **Charge maximale** > les groupes de volet Actions **Regroupement par…**, cliquez sur les boutons appropriés pour obtenir une vue d'ensemble plus détaillée de la répartition des heures prévues. L'illustration ci-dessous affiche les résultats d'un calcul **Charge de la capacité**.
 
 ![Figure 3](media/21-preventive-maintenance.png)
 
@@ -91,7 +92,7 @@ Cliquez sur **Gestion des actifs** > **Commun** > **Activités des temps d'arrê
 
 15. Dans la boîte de dialogue **Calculer les prévisions des articles**, modifiez les heures de début et de fin, le cas échéant, et sélectionnez si vous souhaitez inclure des ordres de travail et des programmes de maintenance dans le calcul. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans le calcul de charge maximale en fonction des postes techniques. Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, tous les actifs pour un poste technique, qui sont sélectionnés sur l'activité de temps d'arrêt pour maintenance, s'affichent dans le niveau supérieur et il est donc possible d'ajouter des heures sur une ligne à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre « 0 » dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes de la charge maximale sur tous les niveaux du poste technique auxquels ils sont liés.
 
-16. Cliquez sur **OK** pour démarrer le calcul. Le nombre total de prévisions des articles s'affiche dans la vue d'ensemble **Prévisions des articles**. Dans l'onglet **Prévisions des articles** > les groupes de volet Actions **Regroupement par…**, cliquez sur les boutons appropriés pour obtenir une vue d'ensemble plus détaillée de la répartition des articles prévus.
+16. Cliquez sur **OK** pour démarrer le calcul. Le nombre total de prévisions des articles s'affiche dans la vue d'ensemble **Prévisions des articles**. Dans l'onglet **Prévisions des articles** > les groupes de volet Actions **Regroupement par…**, cliquez sur les boutons appropriés pour obtenir une vue d'ensemble plus détaillée de la répartition des articles prévus. L'illustration ci-dessous affiche les résultats d'un calcul **Charge de la capacité**.
 
 ![Figure 4](media/22-preventive-maintenance.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Publication d'emplois sur des sites de carrière externes à partir d'Attract
-description: Cette rubrique explique comment utiliser Dynamics 365 for Talent - Attract pour publier des offres d'emploi sur des sites de recrutement externes
+title: Publier des postes sur des sites de carrière externes à partir de Attract
+description: Cette rubrique explique comment utiliser Dynamics 365 Talent - Attract pour publier des offres d'emploi sur des sites de recrutement externes
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739815"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008080"
 ---
 # <a name="post-jobs-to-broadbean"></a>Publier des postes sur Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent : Attract vous aide à acquérir le talent dont vous avez besoin en vous permettant de publier vos offres d'emploi directement d'Attract vers Broadbean. Après avoir [créé une offre d'emploi](./creating-jobs-attract.md), il vous suffit de cliquer sur un bouton pour rendre votre offre d'emploi accessible à tous les candidats potentiels sur Broadbean.
+Microsoft Dynamics 365 Talent: Attract vous aide à acquérir le talent dont vous avez besoin en vous permettant de publier vos offres d'emploi directement d'Attract vers Broadbean. Après avoir [créé une offre d'emploi](./creating-jobs-attract.md), il vous suffit de cliquer sur un bouton pour rendre votre offre d'emploi accessible à tous les candidats potentiels sur Broadbean.
 
 La publication d'offres d'emploi sur Broadbean nécessite une licence Broadbean appropriée. Broadbean offre différents produits et plans. Pour plus d'informations sur les licences et les tarifs Broadbean, [contactez Broadbean](https://www.broadbean.com/contact-us/).
 

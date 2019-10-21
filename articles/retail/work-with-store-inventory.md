@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606801"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024681"
 ---
 # <a name="store-inventory-management"></a>Gestion des stocks du magasin
 
 [!include [banner](includes/banner.md)]
 
-Lors de l'utilisation du stock dans Dynamics 365 for Retail et en utilisant l'application du PDV, il est important de noter que le PDV propose un support limité pour les dimensions de stock et certains types d'articles en stock.
+Lors de l'utilisation du stock dans Dynamics 365 Retail et en utilisant l'application du PDV, il est important de noter que le PDV propose un support limité pour les dimensions de stock et certains types d'articles en stock.
 
 La solution du PDV ne prend pas en charge les configurations d'article suivantes :
 
@@ -56,7 +56,7 @@ La solution pour PDV offre un support limité pour les dimensions suivantes. Le 
 
 ## <a name="purchase-orders"></a>Commandes fournisseur
 
-Les commandes fournisseur sont créées au siège social. Si un entrepôt de détail est indiqué dans l'en-tête de la commande fournisseur, la commande peut être reçue au magasin à l'aide de Modern POS (MPOS) ou de Cloud POS dans Microsoft Dynamics 365 for Retail via l'opération **Prélèvement/réception**. Une fois les quantités reçues au magasin entrées dans le champ **Recevoir maintenant** dans POS pour le document de commande fournisseur, elles peuvent être enregistrées localement ou validées. Enregistrer ces données localement n'a aucun effet sur le stock disponible. L'enregistrement doit être fait que si l'utilisateur n'est pas prêt à valider la réception au siège et a juste besoin d'enregistrer temporairement les données **Recevoir maintenant** entrées précédemment. Cela enregistre les données Recevoir maintenant localement dans la base de données du canal de l'utilisateur. Une fois le document traité à l'aide de l'option **Valider**, les données **Recevoir maintenant** sont envoyées au siège et la réception d'une commande fournisseur est validée. 
+Les commandes fournisseur sont créées au siège social. Si un entrepôt de détail est indiqué dans l'en-tête de la commande fournisseur, la commande peut être reçue au magasin à l'aide de Modern POS (MPOS) ou de Cloud POS via l'opération **Prélèvement/réception**. Une fois les quantités reçues au magasin entrées dans le champ **Recevoir maintenant** dans POS pour le document de commande fournisseur, elles peuvent être enregistrées localement ou validées. Enregistrer ces données localement n'a aucun effet sur le stock disponible. L'enregistrement doit être fait que si l'utilisateur n'est pas prêt à valider la réception au siège et a juste besoin d'enregistrer temporairement les données **Recevoir maintenant** entrées précédemment. Cela enregistre les données Recevoir maintenant localement dans la base de données du canal de l'utilisateur. Une fois le document traité à l'aide de l'option **Valider**, les données **Recevoir maintenant** sont envoyées au siège et la réception d'une commande fournisseur est validée. 
 
 ## <a name="transfer-orders"></a>Ordres de transfert
 

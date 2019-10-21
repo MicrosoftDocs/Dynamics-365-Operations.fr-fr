@@ -3,7 +3,7 @@ title: Tenir à jour les ordres prévisionnels
 description: Cette rubrique fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 10/02/2018
+ms.date: 09/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
+ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560370"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "1993438"
 ---
 # <a name="maintain-planned-orders"></a>Tenir à jour les ordres prévisionnels
 
@@ -32,19 +32,32 @@ ms.locfileid: "1560370"
 
 Cette rubrique fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné.
 
-Vous pouvez gérer les ordres prévisionnels à partir de l'espace de travail **Planification**, de la liste **Ordre prévisionnel** ou des listes **Ordres de fabrication prévisionnels**, **Commandes fournisseur prévisionnelles** et **Transfert prévisionnel**. Vous pouvez utiliser le champ **Statut** pour aider à suivre la progression. Les valeurs suivantes sont utilisées :
+Vous pouvez gérer les ordres prévisionnels à partir de l'espace de travail **Planification**, de la liste **Ordre prévisionnel** ou des listes **Ordres de fabrication prévisionnels**, **Commandes fournisseur prévisionnelles** et **Transfert prévisionnel**. 
+
+## <a name="planned-order-status"></a>Statut de la commande prévisionnelle
+Vous pouvez utiliser le champ **Statut** pour aider à suivre la progression. Les valeurs suivantes sont utilisées :
 
 -   Lorsque la planification génère des ordres prévisionnels, leur statut est **Non traité**.
 -   Si vous décidez de ne pas confirmer un ordre prévisionnel, vous pouvez lui attribuer le statut **Terminé**.
--   Si vous décidez de confirmer un ordre prévisionnel, vous pouvez lui attribuer le statut **Approuvé**. Ce statut indique que vous approuvez la confirmation de l'ordre prévisionnel, mais que celui-ci n'est pas encore confirmé.
+-   Si vous souhaitez confirmer une commande prévisionnelle, vous pouvez définir son statut sur **Approuvée**. Les commandes prévisionnelles définies sur **Approuvée** suivent la planification principale, de sorte qu'elles ne sont pas modifiées ou supprimées. 
 
-**Remarque :** un ordre prévisionnel approuvé est transféré dans son état actuel vers le calcul de planification suivant. Vous pouvez confirmer les ordres prévisionnels en cliquant sur **Confirmer**. Vous pouvez confirmer les ordres prévisionnels suivants :
+## <a name="firming-planned-orders"></a>Confirmation des commandes prévisionnelles 
+La confirmation des commandes prévisionnelles entraîne la création de vraies commandes. Elles sont également mentionnées par les appellations *lancées* ou *commandes en cours*. Après confirmation, l'ordre prévisionnel est déplacé vers la section Commandes du module approprié.
 
--   Ordre prévisionnel sélectionné.
--   Plusieurs ordres prévisionnels.
--   Ordres prévisionnels générés par un éclatement dans la page **Éclatement**. Cliquez sur **Ordres prévisionnels**, sélectionnez l'ordre prévisionnel, puis cliquez sur **Confirmer**.
+Vous pouvez activer deux options de confirmation de la page **Commandes prévisionnelles** :
 
-Après confirmation, l'ordre prévisionnel est déplacé vers la section Commandes du module approprié. 
+-   **Confirmer** : cette option permet de confirmer une ou plusieurs commandes prévisionnelles sélectionnées.
+-   **Confirmer tout** : cette option confirme toutes les commandes planifiées dans le filtre. Avec l'option **Confirmer tout**, vous n'avez pas à sélectionner la commande planifiée, toutes les commandes planifiées dans le filtre seront confirmées. Cette option peut être utile si vous confirmez un grand nombre de commandes prévisionnelles.
+
+> [!NOTE]
+> Vous pouvez suivre une commande prévisionnelle qui a été confirmée depuis **Confirmation de l'historique** sous **Écran des commandes planifiées > Affichage > Confirmation de l'historique**.
+
+## <a name="parallelize-firming"></a>Confirmation de la mise en parallèle
+Si vous prévoyez de confirmer plusieurs commandes à la fois, la mise en parallèle de l'exécution peut améliorer le temps d'exécution ou la performance. Cette option est disponible lors de la confirmation de plusieurs commandes prévisionnelles avec l'option **Confirmer** ou **Confirmer tout**. Les paramètres disponibles sont les suivants :
+
+-   **Mettre la confirmation en parallèle** : si l'option est définie sur **Oui**, le processus de confirmation est parallélisé avec le nombre de threads définis dans **Nombre de threads**.
+-   **Nombre de threads** : contrôle le nombre de threads utilisé pour mettre en parallèle le processus de confirmation. Le paramètre n'est affiché que lorsque l'option **Mettre la confirmation en parallèle** est définie sur **Oui**.
+
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------

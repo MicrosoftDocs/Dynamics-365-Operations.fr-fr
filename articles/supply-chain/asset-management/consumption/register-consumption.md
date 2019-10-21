@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7f785b0935b952d6de68fd120a3639077ad124bd
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913085"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024658"
 ---
 # <a name="register-consumption"></a>Enregistrer la consommation
 
@@ -93,5 +93,5 @@ Lorsque vous effectuez des enregistrements de consommation, les dimensions finan
 *Enregistrements de l'article :* tout d'abord, les dimensions financières de l'en-tête de journal sont ajoutées, le cas échéant. Puis, les dimensions financières du projet de l'ordre de travail associé sont ajoutées. Ensuite, les dimensions financières du site sont ajoutées. Enfin, les dimensions financières de l'article sont ajoutées.
 
 >[!NOTE]
->Pour tous les types d'enregistrement, la combinaison de dimensions financières est ajoutée et les combinaisons non valides sont grisées. Il s'agit du paramétrage standard dans Dynamics 365 for Finance and Operations.
+>Pour tous les types d'enregistrement, la combinaison de dimensions financières est ajoutée et les combinaisons non valides sont grisées. Il s'agit de paramétrage standard dans Finance and Operations.
 

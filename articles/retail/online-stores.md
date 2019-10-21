@@ -1,6 +1,6 @@
 ---
 title: Définir des magasins en ligne
-description: Cet article fournit des informations sur des stockages en ligne Retail et comment les paramétrer dans Microsoft Dynamics 365 for Retail.
+description: Cet article fournit des informations sur des stockages en ligne Retail et comment les paramétrer dans Dynamics 365 Retail.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b736b5e5ce5b5b384181a73c72bbb89b072a284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 02402269a6976ff856e703cc8e94fbf0758ea771
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543604"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017964"
 ---
 # <a name="set-up-online-stores"></a>Paramétrer des magasins en ligne
 
 [!include [banner](includes/banner.md)]
 
-Cet article fournit des informations sur des stockages en ligne Retail et comment les paramétrer dans Microsoft Dynamics 365 for Retail.
+Cet article fournit des informations sur des stockages en ligne Retail et comment les paramétrer dans Dynamics 365 Retail.
 
-Dynamics 365 for Retail prend en charge plusieurs canaux de vente au détail. Ces canaux de vente au détail comprennent les magasins en ligne, les centres d'appels et les magasins de vente au détail (également appelés magasins traditionnels). Les magasins en ligne permettent à un détaillant d'être présent en ligne, afin de donner aux clients la possibilité de se procurer ses produits en ligne, en plus de ses magasins de vente au détail. Si les clients achètent des produits dans un magasin en ligne, ils peuvent se faire expédier les produits ou aller les chercher dans un magasin de vente au détail local. Vous créez un magasin en ligne dans le client Dynamics 365 for Retail. Ce magasin en ligne est ensuite publié sur un magasin en ligne tiers qui est intégré à Dynamics 365 for Retail. Le magasin en ligne tiers sert de vitrine au magasin en ligne, et vous fournit un système de gestion des clients (CMS) et des fonctionnalités d'interface utilisateur. Plusieurs intégrations de ce type sont disponibles pour Dynamics 365 for Retail. Les propriétés que vous définissez pour le magasin en ligne régissent le comportement du magasin en ligne. Par exemple, vous définissez la hiérarchie des catégories de navigation dans Dynamics 365 for Retail et l'affectez au magasin en ligne. Lorsque vous publiez le magasin en ligne sur un magasin en ligne tiers, la hiérarchie des catégories de navigation s'affiche dans la version en ligne du magasin. Les clients utilisent ensuite la hiérarchie des catégories de navigation pour parcourir le magasin en ligne et rechercher des produits. Pour créer un magasin en ligne, vous devez paramétrer les composants qui activent les transactions à traiter pour le magasin. Par exemple, vous devez ajouter des assortiments, appliquer des attributs et paramétrer les modes de paiement et d'expédition. Vous pouvez également définir des prix, des promotions, des remises, des accords commerciaux et des conditions d'expédition qui sont spécifiques au magasin en ligne. Après avoir publié le magasin en ligne sur le magasin en ligne tiers, vous pouvez créer des catalogues de produits vendus au détail pour le magasin en ligne. Les produits du catalogue deviennent des listes de produits dans le magasin en ligne. Lorsqu'un client achète des produits dans le magasin en ligne, le stock disponible est mis à jour et synchronisé dans le client. En outre, les commandes client sont générées pour les achats et transmises au client pour être traitées et exécutées.
+Retail prend en charge plusieurs canaux de vente au détail. Ces canaux de vente au détail comprennent les magasins en ligne, les centres d'appels et les magasins de vente au détail (également appelés magasins traditionnels). Les magasins en ligne permettent à un détaillant d'être présent en ligne, afin de donner aux clients la possibilité de se procurer ses produits en ligne, en plus de ses magasins de vente au détail. Si les clients achètent des produits dans un magasin en ligne, ils peuvent se faire expédier les produits ou aller les chercher dans un magasin de vente au détail local. Vous créez un magasin en ligne dans le client Retail. Ce magasin en ligne est ensuite publié sur un magasin en ligne tiers qui est intégré à Retail. Le magasin en ligne tiers sert de vitrine au magasin en ligne, et vous fournit un système de gestion des clients (CMS) et des fonctionnalités d'interface utilisateur. Plusieurs intégrations de ce type sont disponibles. Les propriétés que vous définissez pour le magasin en ligne régissent le comportement du magasin en ligne. Par exemple, vous définissez la hiérarchie des catégories de navigation dans Retail et l'affectez au magasin en ligne. Lorsque vous publiez le magasin en ligne sur un magasin en ligne tiers, la hiérarchie des catégories de navigation s'affiche dans la version en ligne du magasin. Les clients utilisent ensuite la hiérarchie des catégories de navigation pour parcourir le magasin en ligne et rechercher des produits. Pour créer un magasin en ligne, vous devez paramétrer les composants qui activent les transactions à traiter pour le magasin. Par exemple, vous devez ajouter des assortiments, appliquer des attributs et paramétrer les modes de paiement et d'expédition. Vous pouvez également définir des prix, des promotions, des remises, des accords commerciaux et des conditions d'expédition qui sont spécifiques au magasin en ligne. Après avoir publié le magasin en ligne sur le magasin en ligne tiers, vous pouvez créer des catalogues de produits vendus au détail pour le magasin en ligne. Les produits du catalogue deviennent des listes de produits dans le magasin en ligne. Lorsqu'un client achète des produits dans le magasin en ligne, le stock disponible est mis à jour et synchronisé dans le client. En outre, les commandes client sont générées pour les achats et transmises au client pour être traitées et exécutées.
 
 ## <a name="set-up-an-online-store"></a>Paramétrage d'un magasin en ligne
 

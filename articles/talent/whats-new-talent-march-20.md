@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 for Talent (20 mars 2019)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+title: Nouveautés ou modifications dans Dynamics 365 Talent (20 mars 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d316aff83bd9f60f054a970e223777db5e214adb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741626"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026001"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-20-2019"></a>Nouveautés ou modifications dans Dynamics 365 for Talent (20 mars 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (20 mars 2019)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 for Talent.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifications apportées dans Attract
 
@@ -62,7 +62,7 @@ Vous pouvez désormais trouver de quelle manière le profil d'un candidat spéci
 
 ## <a name="changes-in-onboard"></a>Modifications apportées à Onboard
 
-Cette version inclut les correctifs de bogues mineurs pour Dynamics 365 Talent : Onboard.
+Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 
@@ -80,7 +80,7 @@ Des modifications ont été apportées pour corriger un problème lors de la mod
 Nombreuses sont les organisations où les responsables des avantages et de la rémunération ne peuvent accéder qu'à certains enregistrements de rémunération. Ces enregistrements peuvent concerner des cadres ou des employés régionaux. Cette modification permet aux RH de gérer et de tenir à jour les plans de rémunération pour différents groupes d'employés au sein de l'organisation. Vous pouvez affecter des rôles de sécurité aux plans fixes et variables. Ces rôles déterminent l'accès aux plans et aux données des employés relatives aux plans, comme les enregistrements propres aux salaires ou aux primes. Seuls les rôles disposant de l'accès peuvent traiter la rémunération de ces employés.
 
 ###  <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
-Avec Platform Update 24, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement.
+Dans Platform Update 24 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui diffusent automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Vérification d'employé en double : modifications de l'interface
 Avec cette modification, les doublons sont détectés au moment de renseigner les champs de nom. Un champ de statut affiche le nombre de doublons trouvés. Vous pouvez sélectionner le lien fourni pour ouvrir une nouvelle page pour évaluer s'il convient d'utiliser la correspondance détectée. L'écran des doublons ne s'ouvre pas automatiquement pour éviter d'interrompre la saisie des données.

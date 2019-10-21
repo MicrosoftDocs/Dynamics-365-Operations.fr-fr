@@ -3,7 +3,7 @@ title: Planifier les plans de maintenance
 description: Cette rubrique explique la planification des plans de maintenance dans le module Gestion des actifs.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875647"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922043"
 ---
 # <a name="schedule-maintenance-plans"></a>Planifier les plans de maintenance
 
@@ -49,11 +49,11 @@ La planification de maintenance préventive génère des entrées de calendrier 
 
 - Concernant la planification des plans de maintenance sur les postes techniques : si vous mettez à jour le paramétrage des types d'actifs, des fabricants et des modèles d’actifs dans les plans de maintenance dans l'organisateur **Tous les postes techniques** > **Plans de maintenance** après avoir affecté des plans de maintenance, les entrées existantes du programme de maintenance associées à ce poste technique sont automatiquement supprimées. Pour créer des entrées de calendrier qui correspondent au paramétrage du plan de maintenance mis à jour dans le poste technique, vous devez exécuter un nouveau programme de plan de maintenance pour ce poste technique. Lisez-en davantage sur la configuration des types d'actifs, des fabricants et des modèles sur les postes techniques dans [Créer des emplacements fonctionnels](../functional-locations/create-functional-locations.md).
 
->*Exemple :* vous voulez créer un plan de maintenance pour un poste technique spécifique, ce qui signifie que tous les actifs paramétrées pour ce poste technique à tout moment donné sera inclus lorsque vous planifiez le plan de maintenance. Dans ce cas, vous créez un plan de maintenance et sélectionnez le poste technique spécifique, mais vous n'ajoutez PAS d'objet dans le plan de maintenance. Le résultat est que lorsque vous planifiez le plan de maintenance, les lignes du programme de maintenance sont créées pour tous les actifs associés au poste technique à la fois.
+>*Exemple :* vous voulez créer un plan de maintenance pour un poste technique spécifique, ce qui signifie que tous les actifs paramétrées pour ce poste technique à tout moment donné sera inclus lorsque vous planifiez le plan de maintenance. Dans ce cas, vous créez un plan de maintenance et sélectionnez le poste technique spécifique, mais vous n'ajoutez PAS d'actif dans le plan de maintenance. Le résultat est que lorsque vous planifiez le plan de maintenance, les lignes du programme de maintenance sont créées pour tous les actifs associés au poste technique à la fois.
 
 - Si vous apportez des modifications aux types d'actifs, aux fabricants et aux modèles dans **Types d'actifs**, ces modifications affectent uniquement les nouveaux actifs utilisant le type d'actifs mis à jour. Découvrez-en davantage sur la configuration du type d'actifs dans [Types d'actifs](../setup-for-objects/object-types.md).  
 
-5. Cliquez sur **OK** pour commencer la génération des entrées du programme de maintenance sur les actifs. Les entrées générées sont affichées sur la page de liste **Tout le programme de maintenance**.
+5. Cliquez sur **OK** pour commencer la génération des entrées du programme de maintenance sur les actifs. Les entrées générées sont affichées sur la page de liste **Tout le programme de maintenance**. L'illustration suivante présente un exemple de la boîte de dialogue **Planifier les plans de maintenance**.
 
 ![Figure 1](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ Les exemples décrits ici indiquent que tous les enregistrements de compteur eff
 ![Figure 3](media/11-preventive-maintenance.png)
 
 ![Figure 4](media/12-preventive-maintenance.png)
+
