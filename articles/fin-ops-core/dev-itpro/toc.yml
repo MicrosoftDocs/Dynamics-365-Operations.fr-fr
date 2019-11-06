@@ -1,14 +1,16 @@
-- name: Développement et administration pour Finance and Operations
+- name: Développement et administration des applications Finance and Operations
   items:
-    - name: Développement et administration pour Finance and Operations
+    - name: Développement et administration des applications Finance and Operations
       items:
-        - name: Développement et administration pour Finance and Operations
+        - name: Développement et administration des applications Finance and Operations
           href: index.md
         - name: Nouveautés ou modifications
           items:
-            - name: "Fonctionnalités d'aperçu dans Platform update 30 (novembre\_2019)"
+            - name: "Fonctionnalités préliminaires dans Platform update\_31 (janvier\_2020)"
+              href: get-started/whats-new-platform-update-31.md
+            - name: "Platform update\_30 (novembre\_2019)"
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: "Platform update 29 (octobre\_2019)"
+            - name: "Platform update\_29 (octobre\_2019)"
               href: ../fin-ops/get-started/whats-new-platform-update-29.md
             - name: "Platform update 28 (juillet\_2019)"
               href: ../fin-ops/get-started/whats-new-platform-update-28.md
@@ -62,6 +64,8 @@
                   href: business-events/how-to/FormsPro.md
                 - name: "Événements commerciaux et Azure\_Event\_Hubs"
                   href: business-events/how-to/event-hub.md
+                - name: Événements commerciaux lors de la clôture de période financière
+                  href: business-events/how-to/period-close.md
         - name: Livraison continue
           items:
             - name: Page d'accueil de la livraison continue
@@ -80,7 +84,7 @@
               href: data-entities/integration-overview.md
             - name: API d'intégration de données
               items:
-                - name: REST API du package de gestion des données
+                - name: API REST du package de gestion des données
                   href: data-entities/data-management-api.md
                 - name: Points de terminaison de service
                   items:
@@ -302,6 +306,26 @@
                   href: database/dbmovement-scenario-goldenconfig.md
                 - name: Tests destructifs
                   href: database/dbmovement-scenario-destructivetests.md
+            - name: RESTful API
+              items:
+                - name: Vue d'ensemble
+                  href: database/api/dbmovement-api-overview.md
+                - name: Contrôle de version et prise en charge
+                  href: database/api/dbmovement-api-versioning-support.md
+                - name: Authentification
+                  href: database/api/dbmovement-api-authentication.md
+                - name: Limitation
+                  href: database/api/dbmovement-api-throttling.md
+                - name: Référence
+                  items:
+                    - name: Référence de l'API v1
+                      href: database/api/v1/dbmovement-api-v1-overview.md
+                    - name: Répertorier les sauvegardes de base de données
+                      href: database/api/v1/reference-list-backups.md
+                    - name: Créer une actualisation de la base de données
+                      href: database/api/v1/reference-create-refresh.md
+                    - name: Obtenir le statut d'activité de l'opération
+                      href: database/api/v1/reference-get-status.md
         - name: Données de démonstration
           items:
             - name: Vue d'ensemble des données de démonstration
@@ -1213,7 +1237,7 @@
             - name: Obtenir de l'aide sur Finance and Operations et Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: "Vue d'ensemble du support technique de Dynamics\_365"
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/dev-itpro/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Obtenir de l'aide sur Finance and Operations exploité par 21Vianet en Chine
               href: lifecycle-services/21vianet-support.md
             - name: Soumettre des demandes à l'équipe d'ingénierie de service de Dynamics
