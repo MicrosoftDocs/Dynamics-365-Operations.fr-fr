@@ -42,6 +42,8 @@
               items:
                 - name: Options de déploiement
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/finance/toc.json
+                - name: Comparaison des fonctions dans le cloud et sur site
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/finance/toc.json
                 - name: Déploiement cloud
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Configuration requise pour les déploiements Cloud
@@ -50,7 +52,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/finance/toc.json
                 - name: Configuration requise pour les déploiements locaux
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: Acheter Finance + Operations (version locale)
+                - name: Acheter Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer l'entreposage pour les déploiements sur site
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Nouveautés ou modifications
               items:
-                - name: Page d'accueil Nouveautés ou modifications
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: "Fonctions en version préliminaire dans les applis Finance and Operations\_10.0.6 (novembre\_2019)"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/finance/toc.json
-                - name: "Applis Finance and Operations\_10.0.5 (octobre\_2019)"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/finance/toc.json
-                - name: "Finance and Operations\_10.0.4 (juillet\_2019)"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/finance/toc.json
-                - name: "Finance and Operations, Enterprise Edition\_7.3"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
+                - name: "Fonctionnalités préliminaires dans Finance version\_10.0.7 (janvier\_2020)"
+                  href: get-started/whats-new-changed-10-0-7.md
+                - name: "Finance version\_10.0.6 (novembre\_2019)"
+                  href: get-started/whats-new-finance-10-0-6.md
+                - name: Nouveautés ou modifications dans les versions précédentes
+                  items:
+                    - name: Nouveautés ou modifications de la page d'accueil Finance and Operations
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+                    - name: "Applis Finance and Operations\_10.0.5 (octobre\_2019)"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/finance/toc.json
+                    - name: "Finance and Operations\_10.0.4 (juillet\_2019)"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/finance/toc.json
+                    - name: "Finance and Operations, Enterprise Edition\_7.3"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
                 - name: Fonctions supprimées ou obsolètes
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
                 - name: "Fonctions d'AX\_2012 ayant été reportées"
@@ -306,9 +312,15 @@
               href: accounts-receivable/tasks/review-collections-information.md
             - name: Vue d'ensemble de la constatation du produit
               href: accounts-receivable/revenue-recognition-overview.md
+            - name: Configuration de la constatation du produit
+              href: accounts-receivable/revenue-recognition-setup.md
+            - name: Constater le produit différé
+              href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
+            - name: Constatation du produit dans les commandes client
+              href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Paramétrer et traiter des factures récurrentes
               href: accounts-receivable/set-up-process-recurring-invoices.md
-            - name: Répartitions comptables et entrées de journal de comptabilité auxiliaire pour les factures financières
+            - name: Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures financières
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Profils de validation client
               href: accounts-receivable/customer-posting-profiles.md
@@ -730,12 +742,14 @@
                   href: general-ledger/elimination-rules.md
                 - name: Combinaisons de comptes et de dimensions
                   href: general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Journaux équilibrés pour la comptabilité interunit
+                - name: Journaux équilibrés pour la comptabilité interunités
                   href: general-ledger/example-balanced-journals-interunit-accounting.md
                 - name: Définitions de validation
                   href: general-ledger/posting-definitions.md
                 - name: Exemples de définition de validation
                   href: general-ledger/example-posting-definitions.md
+                - name: Paramétrage des descriptions par défaut pour la validation automatique
+                  href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
                 - name: Soldes de la comptabilité
                   href: general-ledger/general-ledger-account-balances.md
                 - name: Définir des dimensions financières
@@ -794,6 +808,8 @@
                   href: general-ledger/general-journal-processing.md
                 - name: Valider des journaux périodiques
                   href: general-ledger/tasks/post-periodic-journals.md
+                - name: Contrepasser la validation du journal
+                  href: general-ledger/reverse-journal-posting.md
                 - name: Traiter le journal de répartition comptable
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
                 - name: Paramétrer la comptabilité intersociétés
@@ -856,8 +872,12 @@
                   href: general-ledger/sales-tax-calculation-methods-origin-field.md
                 - name: Options de calcul montant entier et intervalle pour les codes taxe
                   href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Calcul de taxe sur les lignes générales du journal
+                  href: general-ledger/sales-tax-calculation-on-general-journal.md
                 - name: Calculer et ajuster la taxe sur une facture fournisseur
                   href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Activer le calcul différé de la taxe dans le journal
+                  href: general-ledger/enable-delayed-tax-calculation.md
                 - name: Créer un paiement de taxe
                   href: general-ledger/tasks/create-sales-tax-payment.md
                 - name: Créer des transactions de taxe sur les documents
@@ -940,6 +960,10 @@
               href: public-sector/plan-public-sector-functionality.md
             - name: Créer une couverture et des pages de signature pour un état de paiement pour le secteur public
               href: public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
+            - name: Distribution de poste de prévision
+              href: public-sector/forecast-positions.md
+            - name: États de poste de prévision dans le secteur public
+              href: public-sector/forecast-position-reports.md
             - name: Comptabilité fournisseur dans le secteur public
               items:
                 - name: Vue d'ensemble de la comptabilité fournisseur dans le secteur public
@@ -1016,6 +1040,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Créer une écriture comptable avancée dans le secteur public
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Savoir utiliser les limites de contrôle de disponibilités
+                  href: public-sector/cash-control.md
                 - name: Traitement de fin d'exercice (Secteur public)
                   href: public-sector/year-end-processing-public-sector.md
                 - name: Hiérarchies financières dérivées (Secteur public)
@@ -1214,6 +1240,8 @@
                   href: localizations/latam-bra-sped-ecd.md
                 - name: Relevé fiscal SPED-Reinf
                   href: localizations/latam-bra-sped-reinf.md
+                - name: Résolution fiscale SPED 13/2019 RJ
+                  href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: Paramètres d'entités juridiques
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Configurer des paramètres d'entité juridique
@@ -1863,8 +1891,12 @@
                   href: localizations/emea-ita-packing-slip.md
                 - name: Registres des taxes
                   href: localizations/emea-ita-fiscal-books.md
+                - name: Gestion et déclaration de la TVA par date d'application de la taxe (date du registre de TVA)
+                  href: localizations/emea-ita-vat-management.md
                 - name: Paiement fractionné des factures émises pour l'administration publique
                   href: localizations/emea-ita-split-payment-invoices-issued-public-administration.md
+                - name: Facturation de crédit (Italie)
+                  href: localizations/emea-ita-credit-invoicing.md
                 - name: Retenue à la source
                   href: localizations/emea-ita-withholding-tax.md
             - name: Japon
@@ -2221,6 +2253,8 @@
                       href: localizations/rus-VAT-declaration.md
                     - name: 'Registres des ventes, journaux des achats et journaux des factures'
                       href: localizations/rus-sales-books-purchase-books.md
+                    - name: Gestion des acomptes
+                      href: localizations/rus-prepayments-management.md
                 - name: Immobilisations
                   items:
                     - name: Gestion des immobilisations
@@ -2277,6 +2311,8 @@
                       href: ../supply-chain/localizations/rus-goods-transit-postponed.md
                     - name: Gestion des flux de trésorerie
                       href: localizations/rus-cash-flow.md
+                    - name: Répartition des frais divers par rapport au poids et au volume
+                      href: localizations/rus-miscellaneous-charges.md
                 - name: Génération d'états
                   items:
                     - name: États financiers

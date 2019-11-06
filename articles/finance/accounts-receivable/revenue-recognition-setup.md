@@ -16,18 +16,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ff513d2e2d2968e531e4515c45abdc470b384123
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184092"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570331"
 ---
 # <a name="revenue-recognition-setup"></a>Configuration de la constatation du produit
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Un nouveau module **Constatation du produit** qui inclut des options de menu pour tous les paramètres de configuration requis a été ajouté. Cette rubrique décrit les options de paramétrage, ainsi que leurs implications.
+
+> [!NOTE]
+> La fonctionnalité de constatation du produit ne peut pas être activée via la gestion des fonctionnalités. Vous devez pour l'instant utiliser les clés de configuration pour l'activer.
 
 Le module **Constatation du produit** comporte les options de paramétrage suivantes :
 

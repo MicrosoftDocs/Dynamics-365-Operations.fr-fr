@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278322"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653692"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Ressources d'aide pour Supply Chain Management
 
@@ -39,7 +39,7 @@ Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de D
 Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
 - [Gestion des actifs](asset-management/index.md)
-- [Contrôle de gestion](../financials/cost-accounting/cost-accounting-home-page.md)
+- [Contrôle de gestion](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Gestion des coûts](cost-management/cost-management-home-page.md)  
 - [Gestion des stocks](inventory/inventory-home-page.md)
 - [Planification](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ Ces enregistrements techniques traitent de la fonctionnalité du produit dans la
 -  [Gestion du transport (TMS) dans la nouvelle application Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blogs
-Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvisionnement sont consultables sur le <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog de l'équipe R&D de Dynamics AX chargée de la fabrication</a> et sur le <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Blog de l'équipe R&D de Dynamics AX chargée de la gestion de la chaîne d'approvisionnement</a>. La plupart de ces articles ont été rédigés pour la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 
+Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvisionnement sont consultables sur le <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog de l'équipe R&D de Dynamics AX chargée de la fabrication</a> et sur le <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Blog de l'équipe R&D de Dynamics AX chargée de la gestion de la chaîne d'approvisionnement</a>. La plupart de ces articles ont été rédigés pour la version précédente, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 
 
 ## <a name="white-papers"></a>Livres blancs
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Ateliers pratiques sur le contrôle de gestion</a> 

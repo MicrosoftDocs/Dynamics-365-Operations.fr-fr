@@ -3,7 +3,7 @@ title: Gestion améliorée des articles suivis par lots
 description: Cette rubrique décrit les améliorations qui ont été apportées à la gestion des lots pour les articles suivis par lots pendant le processus de validation des relevés de vente au détail.
 author: josaw1
 manager: AnnBe
-ms.date: 05/28/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,14 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 35823efa2844898d3eecbf91624b3e37d308b63c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 70d78f86f1df057d14d821a8c967e62eeeb4ff92
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025792"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622548"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Gestion améliorée des articles suivis par lots
+
+
+[!include [banner](includes/banner.md)]
+
+[!include [banner](includes/preview-banner.md)]
+
 
 Dans le point de vente (PDV) Retail, les numéros de lot ne peuvent pas être capturés pour les articles suivis par lots au moment de la vente. Toutefois, pour des configurations spécifiques, lorsque les ventes sont validées dans le siège par le biais des commandes client ou de la validation des relevés, le système Microsoft Dynamics s'attend à ce que des numéros de lot valides soient disponibles pour les articles suivis par lots et qu'ils soient utilisés pendant le processus de facturation.
 
@@ -39,3 +45,6 @@ Pour définir l'ID de lot par défaut utilisé pour la facturation des commandes
 
 > [!NOTE]
 > Cette fonctionnalité est disponible uniquement lorsque l'entreposage avancé est activé pour l'entrepôt et les articles spécifiques. Dans une version ultérieure, la fonctionnalité sera également prise en charge pour les scénarios où la gestion avancée des entrepôts n'est pas utilisée.
+
+> [!NOTE]
+> La prise en charge de la gestion améliorée des éléments suivis par lots pendant la validation des relevés pour les scénarios de gestion des entrepôts non avancés a été introduite dans Retail version 10.0.5.

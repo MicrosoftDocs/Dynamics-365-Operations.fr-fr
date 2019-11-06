@@ -3,7 +3,7 @@ title: Vérificateur de cohérence des transactions de vente au détail
 description: Cette rubrique décrit la fonctionnalité Vérificateur de cohérence des transactions de vente au détail dans Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018411"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622595"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Vérificateur de cohérence des transactions de vente au détail
 
@@ -59,7 +59,10 @@ Le processus de traitement par lots **Valider les transactions en magasin** vér
 - **Article Carte cadeau** – Retail ne prend pas en charge le retour des articles Carte cadeau. Toutefois, le solde d'une carte cadeau peut être décaissé. Le processus de validation du relevé échoue pour tout article Carte cadeau qui est traité comme une ligne de retour au lieu d'une ligne de décaissement. Le processus de validation pour les articles Carte cadeau garantit que seules les lignes de retour de carte cadeau dans les tables de transactions de vente au détail sont des lignes de décaissement de carte cadeau.
 - **Prix négatif** – Valide qu'il n'existe aucune ligne de transaction avec un prix négatif.
 - **Article et variante** : vérifie que les articles et les variantes sur les lignes de transaction existent dans le fichier principal des articles et variantes.
-- **Montant de taxe** : vérifie que les enregistrements de taxe correspondent bien au montant des taxes sur les lignes. 
+- **Montant de taxe** : valide que les enregistrements de taxe correspondent bien au montant des taxes sur les lignes.
+- **Numéro de série** : valide que le numéro de série est présent sur les lignes de transaction pour les articles contrôlés par numéro de série.
+- **Signe** : valide que le signe sur la quantité et le montant net est identique sur toutes les lignes de transaction.
+- **Date d'activité** : valide que les périodes financières pour toutes les dates d'activité des transactions de vente au détail sont en cours.
 
 ## <a name="set-up-the-consistency-checker"></a>Paramétrer le vérificateur de cohérence
 
