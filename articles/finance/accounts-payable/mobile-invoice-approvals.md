@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 956c866a6b39e2a81f085910e00d2bfe8683829c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177796"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658642"
 ---
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
@@ -138,13 +138,19 @@ En général, lorsque vous travaillez avec le Concepteur mobile, veillez à « 
 
 La première page mobile que vous devez configurer est la liste des factures affectées à l'utilisateur pour révision. Pour concevoir cette page mobile, utilisez la page **VendMobileInvoiceAssignedToMeListPage**. Avant de pouvoir exécuter cette procédure, assurez-vous qu'au moins une facture fournisseur vous est affectée à la révision, et que la ligne de facture a les deux répartitions. Ce paramétrage correspond aux exigences pour ce scénario.
 
-1.  Dans l'URL, remplacez le nom de l'option de menu par **VendMobileInvoiceAssignedToMeListPage** pour ouvrir la version mobile de la page de liste **Factures fournisseur en attente qui me sont affectées** dans le module **Comptabilité fournisseur**. Selon le nombre de factures que vous avez dans votre système qui vous est affecté, cette page affiche les factures. Pour trouver une facture spécifique, vous pouvez utiliser le filtre à gauche. Toutefois, nous n'avons pas besoin d'une facture spécifique pour cet exemple. Nous demandons simplement une facture qui vous est attribuée, ce qui vous permettra de concevoir la page mobile. Les nouvelles pages disponibles doivent être désignées spécifiquement pour développer les scénarios mobiles pour la facture fournisseur. Par conséquent, vous devez utiliser ces pages. L'URL doit ressembler à l'adresse suivante, et une fois que vous l'avez entrée, la page affichée dans l'illustration doit apparaître : https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Page de liste des factures fournisseur en attente qui me sont affectées](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  Dans l'URL, remplacez le nom de l'option de menu par **VendMobileInvoiceAssignedToMeListPage** pour ouvrir la version mobile de la page de liste **Factures fournisseur en attente qui me sont affectées** dans le module **Comptabilité fournisseur**. Selon le nombre de factures que vous avez dans votre système qui vous est affecté, cette page affiche les factures. Pour trouver une facture spécifique, vous pouvez utiliser le filtre à gauche. Toutefois, nous n'avons pas besoin d'une facture spécifique pour cet exemple. Nous demandons simplement une facture qui vous est attribuée, ce qui vous permettra de concevoir la page mobile. Les nouvelles pages disponibles doivent être désignées spécifiquement pour développer les scénarios mobiles pour la facture fournisseur. Par conséquent, vous devez utiliser ces pages. L'URL doit ressembler à l'adresse suivante, et une fois que vous l'avez entrée, la page affichée dans l'illustration doit apparaître : https://&lt;votreURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
+
+    [![Page Factures fournisseur en attente qui me sont affectées](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    
 2.  Cliquez sur le bouton **Paramètres** (engrenage) dans la partie supérieure droite de la page, puis cliquez sur **Application mobile**
 3.  Sélectionnez l'espace de travail et cliquez sur **Modifier**
 4.  Cliquez sur **Ajouter une page** pour créer la première page mobile.
 5.  Entrez un nom, par exemple **Mes factures fournisseur**, et une description, par exemple **Factures fournisseur qui me sont affectées pour révision**.
 6.  Cliquez sur **Terminé**.
-7.  Dans le Concepteur mobile, sous l'onglet **Champs**, cliquez sur **Sélectionner des champs**. Les colonnes de la page de liste doivent ressembler à l'illustration suivante. [![Colonnes figurant dans les factures fournisseur en attente qui me sont affectées](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+7.  Dans le Concepteur mobile, sous l'onglet **Champs**, cliquez sur **Sélectionner des champs**. Les colonnes de la page de liste doivent ressembler à l'illustration suivante. 
+
+    [![Colonnes figurant dans les factures fournisseur en attente qui me sont affectées](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    
 8.  Ajoutez les colonnes voulues de la page de liste à afficher aux utilisateurs de la page mobile. L'ordre dans lequel vous ajoutez est l'ordre dans lequel les champs seront affichés à l'utilisateur final. La seule façon de modifier l'ordre des champs consiste à sélectionner tous les champs. Selon la configuration requise pour ce scénario, les huit champs suivants sont nécessaires. Cependant, certains utilisateurs pourraient considérer que huit champs constituent trop d'informations sur un périphérique mobile. Par conséquent, nous afficherons uniquement les champs principaux dans la vue de liste mobile. Les champs restants apparaîtront dans l'affichage détaillé que nous concevrons ultérieurement. Dans l'immédiat, nous ajouterons les champs suivants. Cliquez sur le signe plus (**+**) dans les colonnes à ajouter à la page mobile.
     - Nom du fournisseur
     - Total de la facture
@@ -152,8 +158,10 @@ La première page mobile que vous devez configurer est la liste des factures aff
     - Numéro de facture
     - Date de facture
 
-    Une fois que les champs sont ajoutés, la page mobile doit ressembler à l'illustration suivante. 
-    [![Page après l'ajout des champs](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+  Une fois que les champs sont ajoutés, la page mobile doit ressembler à l'illustration suivante. 
+    
+   [![Page après l'ajout des champs](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+
 9.  Vous devez également ajouter les colonnes suivantes maintenant, de manière à ce que nous puissions activer les actions de workflow ultérieurement.
     - Afficher la tâche de fin
     - Afficher la tâche de délégation
@@ -169,16 +177,26 @@ La première page mobile que vous devez configurer est la liste des factures aff
 
 ### <a name="vendor-invoice-details"></a>Détails de la facture fournisseur
 
-Pour déterminer la page Détails de facture pour la fonction mobile, utilisez la page **VendMobileInvoiceHeaderDetails**. Notez qu'en fonction du nombre de factures que vous avez dans votre système, cette page affiche l'ancienne facture (la facture qui a été créée préalablement). Pour trouver une facture spécifique, vous pouvez utiliser le filtre à gauche. Toutefois, nous n'avons pas besoin d'une facture spécifique pour cet exemple. Nous avons juste besoin de certaines données de factures afin que nous puissions concevoir la page mobile. [![Page Workflow](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Pour déterminer la page Détails de facture pour la fonction mobile, utilisez la page **VendMobileInvoiceHeaderDetails**. Notez qu'en fonction du nombre de factures que vous avez dans votre système, cette page affiche l'ancienne facture (la facture qui a été créée préalablement). Pour trouver une facture spécifique, vous pouvez utiliser le filtre à gauche. Toutefois, nous n'avons pas besoin d'une facture spécifique pour cet exemple. Nous avons juste besoin de certaines données de factures afin que nous puissions concevoir la page mobile. 
+
+[![Page Workflow](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. Dans l'URL, remplacez le nom de l'option de menu par **VendMobileInvoiceHeaderDetails** pour ouvrir l'écran
+
 2. Ouvrez le Concepteur mobile à partir du bouton **Paramètres** (engrenage)
+
 3. Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail.
+
 4. Sélectionnez la page **Mes factures fournisseur** créée précédemment, puis cliquez sur **Modifier**.
+
 5. Sous l'onglet **Champs**, cliquez sur l'en-tête de colonne **Grille**.
+
 6. Cliquez sur **Propriétés &gt; Ajouter une page**. **Remarque :** lorsque vous cliquez sur l'en-tête **Grille** et que vous ajoutez une page, la relation avec la page de détails est établie automatiquement.
+
 7. Entrez un titre de page, tel que **Détails de la facture**, et une description, par exemple **Afficher les détails de l'en-tête et de la ligne**.
+
 8. Cliquez sur **Sélectionner des champs**. Notez que l'ordre dans lequel vous ajoutez est l'ordre dans lequel les champs seront affichés à l'utilisateur final. La seule façon de modifier l'ordre des champs consiste à sélectionner tous les champs. 
+
 9. Ajoutez les champs suivants à partir de l'en-tête selon la configuration requise pour ce scénario :
    - Nom du fournisseur
    - Total de la facture
@@ -197,9 +215,13 @@ Pour déterminer la page Détails de facture pour la fonction mobile, utilisez l
     - Montant des honoraires
 
 11. Une fois que l'ensemble des champs des deux étapes précédentes ont été ajoutés, cliquez sur **Terminé**. La page doit ressembler à l'illustration suivante.
+    
     [![Page après l'ajout des champs](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+
 12. Cliquez sur **Terminé** pour quitter le mode d'édition.
+
 13. Cliquez sur **Précédent**, puis **Terminé** pour quitter l'espace de travail
+
 14. Cliquez sur **Publier l'espace de travail** pour enregistrer votre travail
 
 ### <a name="workflow-actions"></a>Actions de workflow
@@ -295,12 +317,19 @@ Pour ajouter des actions de workflow, utilisez la page **VendMobileInvoiceHeader
 ### <a name="vendor-invoice-attachments"></a>Pièces jointes facture fournisseur
 
 1. Cliquez sur le bouton **Paramètres** (engrenage) dans la partie supérieure droite de la page, puis cliquez sur **Application mobile**
+
 2. Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail.
+
 3. Sélectionnez la page <strong>Détails de la facture **créée précédemment, puis cliquez sur** Modifier</strong>.
+
 4. Définissez l'option **Gestion des documents** sur **Oui** comme suit. **Remarque :** s'il n'existe aucune exigence d'afficher les pièces jointes sur le périphérique mobile, vous pouvez laisser cette option définie sur **Non**, qui est le paramètre par défaut.
+   
    ![Gestion des documents](./media/docmanagement-216x300.png)
+
 5. Cliquez sur **Terminé** pour quitter le mode d'édition.
+
 6. Cliquez sur **Précédent**, puis **Terminé** pour quitter l'espace de travail
+
 7. Cliquez sur **Publier l'espace de travail** pour enregistrer votre travail
 
 ### <a name="vendor-invoice-line-distributions"></a>Répartitions des lignes de factures fournisseur
@@ -311,12 +340,19 @@ Les exigences pour ce scénario confirment qu'il n'y aura que des distributions 
 > Connaître les besoins nous aide à définir les pages spécifiques à utiliser et comment optimiser exactement l'expérience de la mobilité pour l'utilisateur lorsque nous concevons le scénario. Dans le deuxième cas, nous utiliserons une page différente pour afficher les répartitions, car les exigences pour ce scénario diffèrent.
 
 1.  Dans l'URL, remplacez le nom de l'option de menu, comme effectué précédemment. La page qui apparaît doit ressembler à l'illustration suivante.
+
 [![Page Toutes les répartitions](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+
 2.  Ouvrez le Concepteur mobile à partir du bouton **Paramètres** (engrenage)
+
 3.  Cliquez sur le bouton **Modifier** pour passer en mode d'édition dans l'espace de travail. **Remarque :** deux nouvelles pages ont été créées automatiquement et s'affichent. Le système crée ces pages, si vous avez activé la gestion des documents dans la section précédente. Vous pouvez ignorer ces nouvelles pages.
+
 4.  Cliquez sur **Ajouter une page**.
+
 5.  Entrez un titre de page, tel que **Afficher la comptabilité** et une description, par exemple **Afficher la comptabilité pour la facture**.
+
 6.  Cliquez sur **Terminé**.
+
 7.  Sous l'onblet **Champs**, cliquez sur **Sélectionner des champs**, sélectionnez les champs suivants dans la page des répartitions, puis cliquez sur **Terminé** :
     1.  Montant
     2.  Devise
@@ -324,8 +360,11 @@ Les exigences pour ce scénario confirment qu'il n'y aura que des distributions 
 
     > [!NOTE] 
     > Nous n'avons pas sélectionné la colonne **Description** dans la grille des répartitions, car les conditions requises pour ce scénario ont confirmé que le prix global est le seul montant pour lequel il y aura des répartitions. Par conséquent, l'utilisateur ne demandera pas un autre champ pour déterminer le type de montant auquel la répartition est destinée. Toutefois, au prochain scénario, nous **utiliserons** ces informations, car les exigences pour ce scénario spécifient que d'autres types de montants disposent de répartitions (par exemple, taxe).
+
 8.  Cliquez sur **Terminé** pour quitter le mode d'édition.
+
 9.  Cliquez sur **Précédent**, puis **Terminé** pour quitter l'espace de travail
+
 10. Cliquez sur **Publier l'espace de travail** pour enregistrer votre travail
 
 > [!NOTE] 

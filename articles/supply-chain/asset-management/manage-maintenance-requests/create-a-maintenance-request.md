@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7fc9ec2f6a9a8a11d824e4b5c13d5aa173541454
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024635"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571919"
 ---
 # <a name="create-maintenance-requests"></a>Créer des demandes de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Les demandes de maintenance peuvent être utilisées si les agents de maintenance ou de production découvrent que l'équipement doit être réparé, mais que la réparation ne peut pas être effectuée immédiatement.
 
@@ -55,7 +55,7 @@ La section **Demandes de maintenance actives** du volet **Informations associée
 11. Dans le champ **Détails**, entrez des notes supplémentaires requises.
 12. Cliquez sur **OK**.
 
-![Figure 1](media/03-manage-maintenance-requests.png)
+![Créer une demande de maintenance](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Traitement ultérieur des demandes de maintenance
 
@@ -70,7 +70,7 @@ Dans la vue Détails, vous pouvez mettre à jour diverses informations. Voici qu
 - Sélectionnez un type de tâche de maintenance et, si ces informations sont pertinentes, une variante de la tâche de maintenance associée et un commerce de tâche.
 - Dans les champs **Latitude** et **Longitude**, entrez les coordonnées géographiques. Toutes les coordonnées ajoutées à une demande de maintenance sont automatiquement transférées vers un ordre de travail associé. 
 
-![Figure 2](media/04-manage-maintenance-requests.png)
+![Mettre à jour la demande de maintenance](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Si vous sélectionnez un actif lorsque vous créez une demande de maintenance, vous pouvez ajouter un défaut à l'actif. Une fois la demande de maintenance créée, vous pouvez ajouter des défauts, comme vous le souhaitez. Pour ajouter des défauts, sélectionnez **Défaut d'actif** sur la page **Toutes les demandes de maintenance**.
