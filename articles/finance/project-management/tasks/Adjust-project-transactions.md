@@ -1,5 +1,5 @@
 ---
-title: Ajuster des transactions
+title: Ajuster les transactions de projet
 description: Ce guide de tâche vous montre comment ajuster une transaction sur un projet.
 author: KimANelson
 manager: AnnBe
@@ -16,31 +16,31 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f693e8d2cbe197b2bdbb5c3961e8b17424908f77
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d3412b4f9b2d25072628eb50f5c763f5a7bce793
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185449"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551170"
 ---
-# <a name="adjust-project-transactions"></a><span data-ttu-id="b22b1-103">Ajuster les transactions de projet</span><span class="sxs-lookup"><span data-stu-id="b22b1-103">Adjust project transactions</span></span>
+# <a name="adjust-project-transactions"></a><span data-ttu-id="8251a-103">Ajuster les transactions de projet</span><span class="sxs-lookup"><span data-stu-id="8251a-103">Adjust project transactions</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b22b1-104">Ce guide de tâche vous montre comment ajuster une transaction sur un projet.</span><span class="sxs-lookup"><span data-stu-id="b22b1-104">This task guide shows you how to adjust a transaction on a project.</span></span> <span data-ttu-id="b22b1-105">Toutefois, vous pouvez ajuster les transactions de projet une par une, ou les sélectionner dans la liste de toutes les transactions de projet.</span><span class="sxs-lookup"><span data-stu-id="b22b1-105">However, you can adjust project transactions one at a time, or select from a list of all project transactions.</span></span> <span data-ttu-id="b22b1-106">Cette tâche est généralement effectuée par le superviseur de projet.</span><span class="sxs-lookup"><span data-stu-id="b22b1-106">This task is usually completed by the Project supervisor.</span></span> <span data-ttu-id="b22b1-107">Ce guide de tâche utilise l'ensemble de données USSI.</span><span class="sxs-lookup"><span data-stu-id="b22b1-107">This task guide uses the USSI data set.</span></span>
+<span data-ttu-id="8251a-104">Ce guide de tâche vous montre comment ajuster une transaction sur un projet.</span><span class="sxs-lookup"><span data-stu-id="8251a-104">This task guide shows you how to adjust a transaction on a project.</span></span> <span data-ttu-id="8251a-105">Toutefois, vous pouvez ajuster les transactions de projet une par une, ou les sélectionner dans la liste de toutes les transactions de projet.</span><span class="sxs-lookup"><span data-stu-id="8251a-105">However, you can adjust project transactions one at a time, or select from a list of all project transactions.</span></span> <span data-ttu-id="8251a-106">Cette tâche est généralement effectuée par le superviseur de projet.</span><span class="sxs-lookup"><span data-stu-id="8251a-106">This task is usually completed by the Project supervisor.</span></span> <span data-ttu-id="8251a-107">Ce guide de tâche utilise l'ensemble de données USSI.</span><span class="sxs-lookup"><span data-stu-id="8251a-107">This task guide uses the USSI data set.</span></span>
 
-1. <span data-ttu-id="b22b1-108">Accédez à Gestion et comptabilité des projets > Projets > Tous les projets.</span><span class="sxs-lookup"><span data-stu-id="b22b1-108">Go to Project management and accounting > Projects > All projects.</span></span> 
-2. <span data-ttu-id="b22b1-109">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b22b1-109">In the list, mark the selected row.</span></span> 
-3. <span data-ttu-id="b22b1-110">Cliquez sur Ajuster des transactions.</span><span class="sxs-lookup"><span data-stu-id="b22b1-110">Click Adjust transactions.</span></span> 
-4. <span data-ttu-id="b22b1-111">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="b22b1-111">Click Select.</span></span> 
-5. <span data-ttu-id="b22b1-112">Sélectionnez Oui dans le champ Heure.</span><span class="sxs-lookup"><span data-stu-id="b22b1-112">Select Yes in the Hour field.</span></span> 
-6. <span data-ttu-id="b22b1-113">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="b22b1-113">In the To date field, enter a date.</span></span> 
-7. <span data-ttu-id="b22b1-114">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b22b1-114">Click OK.</span></span> 
-8. <span data-ttu-id="b22b1-115">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b22b1-115">In the list, mark the selected row.</span></span> 
-9. <span data-ttu-id="b22b1-116">Cliquez sur Ajuster.</span><span class="sxs-lookup"><span data-stu-id="b22b1-116">Click Adjust.</span></span> 
-10. <span data-ttu-id="b22b1-117">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b22b1-117">In the list, mark the selected row.</span></span> 
-11. <span data-ttu-id="b22b1-118">Dans le champ Propriété de ligne, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b22b1-118">In the Line property field, enter or select a value.</span></span> 
-12. <span data-ttu-id="b22b1-119">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b22b1-119">Click OK.</span></span> 
-13. <span data-ttu-id="b22b1-120">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b22b1-120">In the list, mark the selected row.</span></span> 
-14. <span data-ttu-id="b22b1-121">Dans le champ Prix de revient, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="b22b1-121">In the Cost price field, enter a number.</span></span> 
-15. <span data-ttu-id="b22b1-122">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="b22b1-122">Click Post.</span></span> 
+1. <span data-ttu-id="8251a-108">Accédez à Gestion et comptabilité des projets > Projets > Tous les projets.</span><span class="sxs-lookup"><span data-stu-id="8251a-108">Go to Project management and accounting > Projects > All projects.</span></span> 
+2. <span data-ttu-id="8251a-109">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8251a-109">In the list, mark the selected row.</span></span> 
+3. <span data-ttu-id="8251a-110">Cliquez sur Ajuster des transactions.</span><span class="sxs-lookup"><span data-stu-id="8251a-110">Click Adjust transactions.</span></span> 
+4. <span data-ttu-id="8251a-111">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="8251a-111">Click Select.</span></span> 
+5. <span data-ttu-id="8251a-112">Sélectionnez Oui dans le champ Heure.</span><span class="sxs-lookup"><span data-stu-id="8251a-112">Select Yes in the Hour field.</span></span> 
+6. <span data-ttu-id="8251a-113">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="8251a-113">In the To date field, enter a date.</span></span> 
+7. <span data-ttu-id="8251a-114">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8251a-114">Click OK.</span></span> 
+8. <span data-ttu-id="8251a-115">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8251a-115">In the list, mark the selected row.</span></span> 
+9. <span data-ttu-id="8251a-116">Cliquez sur Ajuster.</span><span class="sxs-lookup"><span data-stu-id="8251a-116">Click Adjust.</span></span> 
+10. <span data-ttu-id="8251a-117">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8251a-117">In the list, mark the selected row.</span></span> 
+11. <span data-ttu-id="8251a-118">Dans le champ Propriété de ligne, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="8251a-118">In the Line property field, enter or select a value.</span></span> 
+12. <span data-ttu-id="8251a-119">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="8251a-119">Click OK.</span></span> 
+13. <span data-ttu-id="8251a-120">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="8251a-120">In the list, mark the selected row.</span></span> 
+14. <span data-ttu-id="8251a-121">Dans le champ Prix de revient, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="8251a-121">In the Cost price field, enter a number.</span></span> 
+15. <span data-ttu-id="8251a-122">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="8251a-122">Click Post.</span></span> 
