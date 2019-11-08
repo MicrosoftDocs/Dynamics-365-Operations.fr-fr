@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6ecdece43b9d609e70e385dc5c3ec70b82f582ab
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249959"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653669"
 ---
 # <a name="routes-and-operations"></a>Gammes et opérations
 
@@ -35,7 +35,7 @@ Cette rubrique fournit des informations sur les gammes et les opérations. Une g
 <a name="overview"></a>Vue d'ensemble
 --------
 
-Une gamme décrit l'ordre des opérations nécessaires pour fabriquer un produit ou une variante de produit. Pour chaque opération, la gamme définit également les ressources opérationnelles requises, le temps nécessaire pour paramétrer et exécuter l'opération, et la manière dont le coût doit être calculé. Vous pouvez utiliser la même gamme pour fabriquer plusieurs produits, ou vous pouvez définir une seule gamme pour chaque produit ou variante de produit. Vous pouvez même avoir plusieurs gammes pour le même produit. Dans ce cas, la gamme utilisée varie en fonction de facteurs tels que la quantité qui doit être produite. La définition d'une gamme dans Finance and Operations se compose de quatre éléments distincts qui, ensemble, décrivent le processus de production :
+Une gamme décrit l'ordre des opérations nécessaires pour fabriquer un produit ou une variante de produit. Pour chaque opération, la gamme définit également les ressources opérationnelles requises, le temps nécessaire pour paramétrer et exécuter l'opération, et la manière dont le coût doit être calculé. Vous pouvez utiliser la même gamme pour fabriquer plusieurs produits, ou vous pouvez définir une seule gamme pour chaque produit ou variante de produit. Vous pouvez même avoir plusieurs gammes pour le même produit. Dans ce cas, la gamme utilisée varie en fonction de facteurs tels que la quantité qui doit être produite. La définition d'une gamme dans Supply Chain Management se compose de quatre éléments distincts qui, ensemble, décrivent le processus de production :
 
 -   **Gamme** – Une gamme définit la structure du processus de production. Autrement dit, elle définit l'ordre des opérations.
 -   **Opération** – Une opération identifie une étape nommée dans une gamme, par exemple **Assemblage**. La même opération peut se produire dans plusieurs gammes et peut avoir plusieurs numéros d'opération.

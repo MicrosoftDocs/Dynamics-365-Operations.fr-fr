@@ -1,6 +1,6 @@
 ---
-title: Vue d'ensemble de l'installation et de la configuration de l'application
-description: Cette rubrique décrit la procédure d'installation et de configuration de l'application Dynamics 365 Supply Chain Management - Entreposage.
+title: Vue d'ensemble de l'installation et de la configuration de l'application d'entreposage
+description: Cette rubrique décrit la procédure d'installation et de configuration de l'application Dynamics 365 for Finance and Operations - Entreposage.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251498"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548966"
 ---
-# <a name="install-and-configure-the-warehousing-app-overview"></a>Vue d'ensemble de l'installation et de la configuration de l'application
+# <a name="install-and-configure-the-warehousing-app-overview"></a>Vue d'ensemble de l'installation et de la configuration de l'application d'entreposage
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251498"
 > Cette rubrique décrit comment configurer l'entreposage pour les déploiements cloud. Si vous souhaitez savoir comment configurer l'entreposage pour les déploiements sur site, consultez [Entreposage pour les déploiements sur site](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-Cette rubrique décrit la procédure d'installation et de configuration de l'application Dynamics 365 Supply Chain Management - Entreposage.
+Cette rubrique décrit la procédure d'installation et de configuration de l'application Dynamics 365 for Finance and Operations - Entreposage.
 
 L'application Entreposage est disponible sur Google Play Store et Windows Store. Pour la version actuelle de Dynamics 365 Supply Chain Management, cette application est fournie en tant que composant autonome, ce qui signifie un auto-déploiement sur les périphériques utilisés pour les tâches d'entrepôt. Pour utiliser l'application, vous devez télécharger l'application sur chaque périphérique et la configurer en vue d'une connexion à votre environnement Supply Chain Management. Cette rubrique décrit la procédure d'installation de l'application sur vos périphériques. Elle décrit également comment configurer l'application pour se connecter à votre environnement Supply Chain Management.
 

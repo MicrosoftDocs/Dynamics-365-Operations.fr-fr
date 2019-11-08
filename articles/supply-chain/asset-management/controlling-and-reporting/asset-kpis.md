@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918416"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652377"
 ---
 # <a name="asset-kpis"></a>Indicateurs de performance clé de l'actif
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Dans le module Gestion des actifs, vous pouvez calculer plusieurs indicateurs de performance clé (KPI) pour les actifs et les types d'actifs. Vous pouvez utiliser des KPI pour avoir une vue d'ensemble des performances des actifs en termes, par exemple, de temps de fonctionnement, d'interruption, de temps de réparation et de temps moyen de bon fonctionnement.
 
@@ -85,8 +85,8 @@ Le tableau ci-dessous présente une description des champs de la page **Indicate
 
 L'illustration suivante présente une capture d'écran d'un calcul de KPI pour quatre actifs.
 
-![Figure 1](media/11-controlling-and-reporting.png)
+![Capture d'écran d'un calcul d'indicateur de performance clé pour quatre actifs](media/11-controlling-and-reporting.png)
 
-- Vous pouvez choisir plusieurs actifs dans **Tous les actifs** et cliquer sur le bouton **Indicateurs de performance clés de l'actif** sur l'onglet **Général**. Cliquez ensuite sur **Ajouter** dans la boîte de dialogue **Calculer les indicateurs de performance clé de l'actif** pour calculer des indicateurs de performance clé pour les actifs sélectionnés.  
+- Vous pouvez choisir plusieurs actifs dans **Tous les actifs** et cliquer sur le bouton **Indicateurs de performance clés de l'actif** sur l'onglet **Général**. Ensuite, cliquez sur **Ajouter** dans la boîte de dialogue **Calculer les indicateurs de performance clé de l'actif** pour calculer des indicateurs de performance clé pour les actifs sélectionnés.  
 - Les résultats d'un calcul de KPI peuvent inclure ou pas des [enregistrements de temps d'arrêt de maintenance](../work-orders/maintenance-downtime.md), selon le paramétrage et l'utilisation des codes motif de temps d'arrêt pour maintenance. 
 

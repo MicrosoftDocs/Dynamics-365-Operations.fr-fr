@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181517"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564935"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurer l'importation des données à partir de SharePoint
 
@@ -62,9 +62,9 @@ Lisez les guides de tâches **ER Importer des données à partir d'un fichier Mi
 > Le format d'importation des transactions fournisseur est sélectionné comme mise en correspondance des modèles par défaut. Par conséquent, si vous exécutez une mise en correspondance du **Modèle de paiements de déclaration des honoraires** et si cette mise en correspondance du modèle est de type **Vers la destination**, la mise en correspondance des modèles exécute ce format pour importer les données à partir de fichiers externes. Elle utilise ensuite ces données pour mettre à jour les tables d'application.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>Configuration de l'accès à SharePoint pour le stockage des fichiers
-Pour stocker des fichiers d'état électroniques dans un emplacement SharePoint, vous devez configurer l'accès à l'instance de SharePoint Server qui sera utilisée par la société actuelle. Dans cet exemple, la société est USMF. Pour obtenir des instructions, voir [Configurer le stockage SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Pour stocker des fichiers d'état électroniques dans un emplacement SharePoint, vous devez configurer l'accès à l'instance de SharePoint Server qui sera utilisée par la société actuelle. Dans cet exemple, la société est USMF. Pour obtenir des instructions, voir [Configurer le stockage SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Effectuez les étapes dans [Configurer le stockage SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+1. Effectuez les étapes dans [Configurer le stockage SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. Ouvrez le site SharePoint configuré.
 3. Créez les dossiers suivants dans lesquels les fichiers de gestion des états électroniques entrants peuvent être enregistrés :
 
@@ -80,7 +80,7 @@ Pour stocker des fichiers d'état électroniques dans un emplacement SharePoint,
     - Dossier d'erreur de fichiers - Ce dossier serait dédié aux fichiers dont l'importation aurait échoué.
 
 4. Accédez à **Administration d'organisation > Gestion des documents > Types de documents**.
-5. Créez les types de documents suivants qui seront utilisés pour accéder aux dossiers SharePoint que vous venez de créer. Pour obtenir des instructions, voir [Configurer les types de documents](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Créez les types de documents suivants qui seront utilisés pour accéder aux dossiers SharePoint que vous venez de créer. Pour obtenir des instructions, voir [Configurer les types de documents](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Type de document       | Regrouper              | Entrepôt      | Dossier SharePoint      |
 |--------------------|--------------------|---------------|------------------------|

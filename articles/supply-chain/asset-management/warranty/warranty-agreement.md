@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874691"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569683"
 ---
 # <a name="warranty-agreements"></a>Contrats de garantie
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Dans le module Gestion des actifs, vous pouvez configurer les conditions de la garantie à associer à un actif ou à un type d'actif. Les conditions de garantie sont créées pour une période spécifique. La garantie peut être configurée pour offrir une couverture totale ou partielle et vous pouvez configurer les conditions associées aux heures, dépenses et articles.
@@ -54,4 +54,4 @@ Un contrat de garantie peut inclure plusieurs lignes de contrat pour couvrir la 
     3. Entrez un nombre dans le champ **Intervalle**. Ce champ définit le nombre de périodes pour lesquelles la garantie doit être valide.
     4. Dans le champ **Pourcentage**, entrez le pourcentage de couverture pour la ligne de garantie. Le pourcentage indique l'étendue de la couverture par votre entreprise.
 
-![Figure 1](media/01-warranty.png)
+![Page de garantie](media/01-warranty.png)

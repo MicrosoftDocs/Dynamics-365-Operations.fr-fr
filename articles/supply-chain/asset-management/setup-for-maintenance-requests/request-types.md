@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19d529df6c8aab036de59502b4f14101e1a07707
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 430e475b52638dd80512ffd79d42aac6f5f340e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790493"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571137"
 ---
 # <a name="maintenance-request-types"></a>Types de demandes de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Les types de demandes de maintenance permettent de classer par catégorie les demandes de maintenance. Par exemple, des types de demandes de maintenance peuvent être associés à la maintenance préventive et à la maintenance corrective. Un type de demande de maintenance spécial peut être utilisé pour gérer la réparation des actifs (réparation au dépôt).
 
@@ -44,4 +44,4 @@ Un type de demande de maintenance définit l'affiliation à un groupe d'états d
 
 L'illustration suivante présente un exemple de la page **Types de demandes de maintenance**.
 
-![Figure 1](media/07-setup-for-requests.png)
+![Page Types de demandes de maintenance](media/07-setup-for-requests.png)

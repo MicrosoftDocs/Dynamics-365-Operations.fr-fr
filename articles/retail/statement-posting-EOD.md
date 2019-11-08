@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606962"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653369"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Améliorations de la fonctionnalité de validation du relevé
 
@@ -37,7 +37,7 @@ Par défaut, au cours du déploiement de Finance and Operations 7.3.2, le progr
 
 Lorsque la nouvelle clé de configuration **Relevés de vente au détail** est activée, une nouvelle option de menu **Relevés de vente au détail** est disponible. Cette option de menu permet de créer, calculer et valider manuellement des relevés. Un relevé qui génère une erreur lors de l'utilisation du processus de validation par lots sera également disponible via cette option de menu. Lorsque la clé de configuration **Relevés de vente au détail (hérités)** est activée, l'option de menu est appelée **Relevés en cours**.
 
-Finance and Operations comprend les contrôles suivants qui sont associés à ces clés de configuration :
+Retail comprend les contrôles suivants qui sont associés à ces clés de configuration :
 
 - Les deux clés de configuration ne peuvent pas être activées en même temps.
 - Les mêmes clés de configuration doivent être utilisées pour toutes les opérations exécutées sur un relevé donné pendant son cycle de vie (créer, calculer, effacer, valider, etc.). Par exemple, vous ne pouvez pas créer et calculer un relevé lorsque la clé de configuration **Relevé de vente au détail (hérité)** est activée et essayer de valider le même relevé lorsque la clé de configuration **Relevé de vente au détail** est activée.

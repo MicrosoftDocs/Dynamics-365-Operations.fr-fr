@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 82f65293679591f278e0e3b79c112ba36debc3bb
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: da737cedfcd678a835e85a2b82a05394d771f8cc
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2277941"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652262"
 ---
 # <a name="calculate-capacity-load"></a>Calculer la charge de la capacité
 
 [!include [banner](../../includes/banner.md)]
 
 
-Dans le module Gestion des actifs, vous pouvez calculer la charge de la capacité sur
+Dans le module Gestion des actifs, vous pouvez calculer la charge de la capacité sur :
 
 - les lignes du programme de maintenance  
 - les ordres de travail qui n'ont pas encore été planifiés  
@@ -46,16 +46,18 @@ Cela est utile si vous souhaitez obtenir une vue d'ensemble de la charge de la c
 
 4. Sélectionnez « Oui » sur le bouton bascule **Inclure l'ordre de travail** pour inclure les tâches d'ordre de travail dans le calcul.
 
-5. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de charge maximale en fonction des postes techniques. Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, toutes les lignes du programme de maintenance et les ordres de travail pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter des heures sur une ligne à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre 0 dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes du programme de maintenance et tous les ordres de travail sur tous les niveaux du poste technique auquel elles sont liées.
+5. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de charge maximale en fonction des postes techniques. 
+
+    Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, toutes les lignes du programme de maintenance et les ordres de travail pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter des heures sur une ligne à partir des postes techniques situés à un niveau inférieur. 
+    
+    Par exemple, si vous insérez le chiffre 0 dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes du programme de maintenance et tous les ordres de travail sur tous les niveaux du poste technique auquel elles sont liées.
 
 6. Cliquez sur **OK** pour démarrer le calcul.
 
-7. Dans les groupes de volet Actions **Grouper par…**, cliquez sur les boutons appropriés à afficher le niveau requis de détail du calcul. Les boutons du groupe du volet Actions sélectionnés sont mis en surbrillance en bleu. Cliquez sur un bouton pour l'activer ou le désactiver.
+7. Dans les groupes **Grouper par…**, cliquez sur les boutons appropriés à afficher le niveau requis de détail du calcul. Dans le capture d'écran ci-dessous, les boutons **Grouper par** sélectionnés sont mis en surbrillance en bleu. Cliquez sur un bouton pour l'activer ou le désactiver.
 
-L'illustration suivante présente un exemple de l'interface.
-
-![Figure 1](media/01-capacity-planning.png)
+    ![Figure 1](media/01-capacity-planning.png)
 
 >[!NOTE]
->Si vous voulez vous concentrer uniquement sur la planification de la capacité associée aux ordres de travail planifiés, reportez-vous à [Calculer la charge de la capacité sur les ordres de travail planifiés](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
+>Si vous voulez vous concentrer uniquement sur la planification de la capacité associée aux ordres de travail planifiés,voir [Calculer la charge de la capacité sur les ordres de travail planifiés](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 

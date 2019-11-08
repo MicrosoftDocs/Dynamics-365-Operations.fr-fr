@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b89082ef0dcaafd059fdc496acf49efbf2b9324a
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543627"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569200"
 ---
 # <a name="weighted-average-date"></a>Date moyenne pondérée
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 La date moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée. Concernant le principe de la moyenne pondérée, les sorties de stock correspondent à la valeur moyenne des articles reçus en stock pour chaque jour de la période de clôture du stock. 
 

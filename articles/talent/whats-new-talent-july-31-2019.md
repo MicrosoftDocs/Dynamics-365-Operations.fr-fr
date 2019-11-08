@@ -1,9 +1,9 @@
 ---
-title: Nouveautés ou modifications dans Dynamics 365 Talent (31 juillet 2019)
+title: Nouveautés ou modifications dans Dynamics 365 Talent (30 juillet 2019)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
-ms.date: 7/30/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3676a0a1fa77285d0203e8e49725cb1c1b742d39
+ms.sourcegitcommit: 029c1882bef558b6a45843548e94ab8369ed9870
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010243"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2651709"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (30 juillet 2019)
 
@@ -57,7 +57,7 @@ Les modifications de cette semaine corrigent le problème où seuls les états d
 
 ### <a name="fte-analysis-displaying-incorrect-fte-number"></a>L'analyse FTE affiche un numéro FTE non valide
 
-L'**Analyse FTE** a été corrigée dans l'onglet **Analyses** de la **Gestion du personnel**.
+L'**Analyse FTE** a été corrigée sous l'onglet **Analyses** de la **Gestion du personnel**.
 
 ### <a name="final-comments-label-translation"></a>Traduction du libellé Commentaires finaux
 

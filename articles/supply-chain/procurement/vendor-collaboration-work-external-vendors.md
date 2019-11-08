@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250192"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653600"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
@@ -34,7 +34,7 @@ Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont 
 Pour plus d'informations sur ce que les fournisseurs externes peuvent effectuer dans l'interface de collaboration fournisseur, voir [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Les informations sur la collaboration fournisseur contenues dans cette rubrique s'appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l'application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l'aide du module **Portail fournisseur**. Pour plus d'informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
+> Les informations sur la collaboration fournisseur contenues dans cette rubrique s'appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l'application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l'aide du module **Portail fournisseur**. Pour plus d'informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
 
 Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d'informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
@@ -93,7 +93,7 @@ Le tableau suivant présente l'échange d'informations classique, selon la répo
 <tbody>
 <tr class="even">
 <td>Le fournisseur <strong>accepte</strong> la commande, et Supply Chain Management est configuré pour confirmer automatiquement les CF acceptées par le fournisseur.</td>
-<td>Le statut de la commande est mis à jour sur <strong>Confirmé</strong>. Si la commande ne peut pas être mise à jour pour une raison quelconque, la réponse du fournisseur est toujours enregistrée comme <strong>Accepté</strong>, mais le statut de la CF reste dans l'état <strong>En cours de révision externe</strong>. 
+<td>Le statut de la commande est mis à jour sur <strong>Confirmé</strong>. Si la commande ne peut pas être mise à jour pour une raison quelconque, la réponse du fournisseur est toujours enregistrée comme <strong>Accepté</strong>, mais le statut de la CF reste dans l&#39;état <strong>En cours de révision externe</strong>. 
 
 La CF envoyée au fournisseur avec le statut <strong>En cours de révision externe</strong> est mise à jour avec les dates de livraison confirmées sur les lignes. Cette mise à jour lance une nouvelle version qui est automatiquement définie sur le statut <strong>Confirmé</strong>. Une fois la CF confirmée, elle apparaît dans l'interface de collaboration du fournisseur.</td>
 </tr>
@@ -190,7 +190,7 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 Les fournisseurs ne doivent pas confirmer une CF à l'aide de l'interface de collaboration fournisseur. Ils peuvent également envoyer un message électronique ou communiquer leur acceptation d'une CF via d'autres canaux. Vous pouvez ensuite confirmer manuellement la commande. Dans ce cas, vous recevez un avertissement indiquant que la commande est confirmée même s'il n'y a aucune réponse du fournisseur. La CF apparaît alors dans l'historique de confirmation sous la forme d'une commande confirmée en cours qui n'a pas de réponse. À ce stade, le fournisseur n'a plus l'option de confirmer ou de rejeter la CF.
 
 > [!NOTE]
-> La version de CF disponible pour d'autres processus dans Finance and Operations est toujours la version la plus récente, même si cette version n'a pas encore été enregistrée dans l'interface de collaboration fournisseur.
+> La version de CF disponible pour d'autres processus dans Supply Chain Management est toujours la version la plus récente, même si cette version n'a pas encore été enregistrée dans l'interface de collaboration fournisseur.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versions et statuts si vous utilisez la gestion des modifications
 

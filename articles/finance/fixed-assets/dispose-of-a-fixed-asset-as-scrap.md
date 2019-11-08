@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: de105e061712540fc8e3d720a65c029f865b8948
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 42eaa3df5ab09278ed96506d17e1b42d4fc2a9e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187289"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570262"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Céder une immobilisation comme mise au rebut
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La rubrique décrit le processus afin d'éliminer les transactions pour une immobilisation qui a été cédée comme mise au rebut. Les types de transaction pouvant être éliminés incluent des transactions d'acquisition et d'amortissement cumulé d'un actif et toute autre transaction d'immobilisation. L'élimination de ces transactions a un impact sur les comptes de bilan, comme l'ajustement d'acquisition, l'ajustement d'amortissement, la réévaluation, la description, et les comptes de revalorisation et de dévalorisation.
 

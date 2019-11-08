@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177754"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553138"
 ---
 # <a name="cash-overview-power-bi-content"></a>Contenu Power BI Vue d'ensemble des disponibilités
 
@@ -40,15 +40,14 @@ Le paramétrage suivant doit être réalisé pour que les données s'affichent d
 1. Accédez à **Administration système > Paramétrage > Paramètres système** pour définir la **Devise système** et le **Taux de change système**.
 2. Accédez à **Comptabilité > Configuration > Comptabilité** pour définir la **Devise comptable** et le **Type de taux de change**.
 2. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système, et entre la devise comptable et les devises bancaires. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
-3. Configurez et exécutez les prévisions de flux de trésorerie. Pour plus d'informations sur le paramétrage des prévisions de flux de trésorerie, voir <a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
-">Prévisions de flux de trésorerie</a>. 
+3. Configurez et exécutez les prévisions de flux de trésorerie. Pour plus d'informations sur le paramétrage des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
 4. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 
 Les états du contenu Power BI **Vue d'ensemble des disponibilités** s'affichent dans les espaces de travail **Vue d'ensemble des disponibilités** et **Gestion des banques**.
 
-Pour afficher les états de prévisions de flux de trésorerie avec des données, vous devez exécuter le processus de calcul de prévision à l'aide de la fonction **Calculer les prévisions de flux de trésorerie** de la zone de gestion bancaire et de liquidités.  Il doit être terminé pour chaque société incluse dans la prévision.  Vous devez actualiser la mesure de regroupement LedgerCovLiquidityMeasurement sur la page **Magasin des entités**.  
+Pour afficher les états de prévisions de flux de trésorerie avec des données, vous devez exécuter le processus de calcul de prévision à l'aide de la fonction **Calculer les prévisions de flux de trésorerie** de la zone de gestion bancaire et de liquidités. Il doit être terminé pour chaque société incluse dans la prévision.  Vous devez actualiser la mesure de regroupement LedgerCovLiquidityMeasurement sur la page **Magasin des entités**.  
 
 À des fins de démonstration, vous pouvez ajouter des données de démonstration de prévisions de flux de trésorerie à l'aide de la page **Générer des données** du module de données de démonstration.  Ce script insèrera des données dans des tables de prévisions de flux de trésorerie pour renseigner rapidement les informations nécessaires pour les rapports.  Ce module est uniquement disponible si vous avez le modèle de suite de données de démonstration déployé dans l'environnement. 
 

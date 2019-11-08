@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 2d079c10331360c035ff800650ed3102c2cc3ad4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922089"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569982"
 ---
 # <a name="preventive-maintenance-overview"></a>Vue d'ensemble de la maintenance préventive
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Cette rubrique explique la maintenance préventive dans le module Gestion des actifs. La maintenance préventive désigne une discipline impliquant des opérations de maintenance planifiées, par exemple, l'entretien, le calibrage et les contrôles réguliers. Dans **Gestion des actifs**, vous pouvez créer des plans de maintenance et les définir sur les actifs et les postes techniques. Vous pouvez également configurer les visites de maintenance sur les postes techniques. Les plans de maintenance sur les actifs sont actifs, quel que soit l'emplacement d'installation de l'actif. Les plans de maintenance et les visites de maintenance sur le poste technique sont actifs pour les actifs actuellement installés à l'emplacement. Plutôt que de définir les plans de maintenance sur les actifs, ou de configurer les visites de maintenance sur les postes techniques, vous pouvez créer des visites de maintenance qui comprennent plusieurs actifs sur lesquels vous devez exécuter les types de tâches de maintenance associés dans la même routine de travail. Les visites de maintenance créées depuis les actifs, plutôt que créées sur les postes techniques, indiquent que vous pouvez sélectionner plusieurs actifs pour une visite de maintenance, qui ne sont pas installés sur le même poste technique.
 

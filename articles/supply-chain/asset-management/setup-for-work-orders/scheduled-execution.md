@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8d9c8afc139c96e32efb3161d35fde685b8abcc5
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 89e13179e17b7cf075d631bc65d82da5f24da624
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874668"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569844"
 ---
 # <a name="scheduled-execution"></a>Exécution planifiée
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Vous pouvez utiliser les niveaux de service de l'ordre de travail pour configurer l'exécution planifiée. (Pour plus d'informations sur les niveaux de service de l'ordre de travail, consultez [Niveau de service et description](service-level-and-description.md).) L'exécution planifiée fournit la flexibilité de la planification du travail pour les agents de maintenance, car vous pouvez paramétrer des exigences plus ou moins détaillées pour l'intervalle pendant lequel un ordre de travail doit être effectué. Par exemple, un agent de maintenance qui exécute une tâche plus rapidement que prévue dans un site de production peut être en mesure de passer à une autre tâche à proximité planifiée pour la semaine actuelle, mais pas nécessairement pour le jour actuel. Cette approche permet l'optimisation de la planification de l'agent et de l'exécution de la tâche.
 
@@ -42,4 +42,4 @@ La configuration de l'exécution planifiée, qui est associée aux ordres de tra
 5. Dans le champ **Exécution planifiée**, sélectionnez l'intervalle de temps.
 6. Sélectionnez **Enregistrer**.
 
-![Figure 1](media/20-setup-for-work-orders.png)
+![Exécution planifiée](media/20-setup-for-work-orders.png)

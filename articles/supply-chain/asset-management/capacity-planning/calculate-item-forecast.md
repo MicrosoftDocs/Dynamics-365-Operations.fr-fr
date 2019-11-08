@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9091ff7a394cd08b68e78c8f668d7cd962003e6d
-ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
+ms.openlocfilehash: 65d95507e27ade373008e2046ac4691c271484ca
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1886768"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652446"
 ---
 # <a name="calculate-item-forecast"></a>Calculer les prévisions en matière d'articles
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Tout comme vous pouvez effectuer des calculs de charge, comme décrit dans la section précédente, vous pouvez également effectuer des calculs de prévision d'article sur
+Tout comme vous pouvez effectuer des calculs de charge, comme décrit dans la section précédente, vous pouvez également effectuer des calculs de prévision d'article sur :
 
-- Lignes du programme de maintenance  
-- des ordres de travail qui n'ont pas encore été planifiés  
-- Ordres de travail planifiés
+- les lignes du programme de maintenance  
+- les ordres de travail qui n'ont pas encore été planifiés  
+- les ordres de travail planifiés
 
 Cela est utile si vous souhaitez obtenir une vue d'ensemble de la consommation d'article prévue (des pièces détachées ainsi que d'autres articles requis pour accomplir des ordres de travail) pour une période spécifique. Le calcul de la prévision d'article peut être effectué sur tous les actifs ou sur des actifs sélectionnés. Vous pouvez également effectuer un calcul sur une activité de temps d'arrêt pour maintenance (**Toutes les activités de temps d'arrêt pour maintenance** ou **Activités de temps d'arrêt pour maintenance**) ou sur un regroupement d'ordres de travail (**Tous les regroupements d'ordres de travail** ou **Regroupements d'ordres de travail actifs**).
 
@@ -47,14 +47,16 @@ Cela est utile si vous souhaitez obtenir une vue d'ensemble de la consommation d
 
 4. Sélectionnez « Oui » sur le bouton bascule **Inclure l'ordre de travail** pour inclure les tâches d'ordre de travail dans le calcul des prévisions.
 
-5. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de prévision d'article en fonction des postes techniques. Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, toutes les lignes du programme de maintenance et les ordres de travail pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter des heures sur une ligne à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre 0 dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes du programme de maintenance et tous les ordres de travail sur tous les niveaux du poste technique auquel elles sont liées.
+5. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de prévision d'article en fonction des postes techniques. 
+
+      Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, toutes les lignes du programme de maintenance et les ordres de travail pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter des heures sur une ligne à partir des postes techniques situés à un niveau inférieur. 
+  
+      Par exemple, si vous insérez le chiffre 0 dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes du programme de maintenance et tous les ordres de travail sur tous les niveaux du poste technique auquel elles sont liées.
 
 6. Cliquez sur **OK** pour démarrer le calcul.
 
-7. Dans les groupes de volet Actions **Grouper par…**, cliquez sur les boutons appropriés à afficher le niveau requis de détail du calcul. Les boutons du groupe du volet Actions sélectionnés sont mis en surbrillance en bleu. Cliquez sur un bouton pour l'activer ou le désactiver.
+7. Dans les groupes **Grouper par…**, cliquez sur les boutons appropriés à afficher le niveau requis de détail du calcul. Dans le capture d'écran ci-dessous, les boutons **Grouper par** sélectionnés sont mis en surbrillance en bleu. Cliquez sur un bouton pour l'activer ou le désactiver.
 
 8. Cliquez sur le bouton **Afficher les dimensions** si vous souhaitez afficher le produit, le stockage, ou les dimensions de suivi associées aux articles. Cliquez sur la case à cocher appropriée, puis cliquez sur **OK**.
-
-L'illustration suivante présente une capture d'écran de l'interface.
 
 ![Figure 1](media/02-capacity-planning.png)

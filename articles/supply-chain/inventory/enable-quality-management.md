@@ -3,7 +3,7 @@ title: Vue d'ensemble de la gestion de la qualité
 description: Cette rubrique décrit la manière dont vous pouvez utiliser la gestion de la qualité dans Dynamics 365 Supply Chain Management pour vous aider à améliorer la qualité des produits de votre chaîne logistique.
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba38f9c43fed81768155a27dda88a4bfb4a7828e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249576"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653554"
 ---
 # <a name="quality-management-overview"></a>Vue d'ensemble de la gestion de la qualité
 
@@ -32,7 +32,7 @@ ms.locfileid: "2249576"
 
 Cette rubrique décrit la manière dont vous pouvez utiliser la gestion de la qualité dans Dynamics 365 Supply Chain Management pour vous aider à améliorer la qualité des produits de votre chaîne logistique.
 
-La gestion de la qualité peut vous aider à gérer les délais de rotation lorsque vous traitez des produits non conformes, indépendamment de leur point d'origine. Étant donné que les types de diagnostics sont liés à la génération d'états de correction, Finance and Operations peut programmer des tâches afin de corriger les problèmes et les empêcher de se reproduire.
+La gestion de la qualité peut vous aider à gérer les délais de rotation lorsque vous traitez des produits non conformes, indépendamment de leur point d'origine. Étant donné que les types de diagnostics sont liés à la génération d'états de correction, Supply Chain Management peut programmer des tâches afin de corriger les problèmes et les empêcher de se reproduire.
 
 Outre la fonctionnalité de gestion de la non-conformité, la gestion de la qualité inclut la fonctionnalité de suivi des problèmes par type de problème (même les problèmes internes) et d'identification des solutions comme à court terme ou à long terme. Les statistiques concernant les indicateurs clés de performance (KPI) donnent des indications sur l'historique des problèmes de non-conformité antérieurs et sur les solutions qui ont été utilisées pour les corriger. Vous pouvez utiliser les données historiques pour examiner l'efficacité des mesures de qualité antérieures et déterminer les mesures appropriées à utiliser à l'avenir.
 
@@ -259,7 +259,7 @@ Le tableau suivant fournit plus d'informations sur la manière dont les ordres d
 <tr>
 <td>Ordre de contrôle</td>
 <td>Avant ou après la déclaration de fin de l'ordre de contrôle</td>
-<td>Les ordres de qualité nécessitant des tests destructifs ne peuvent pas être générés. On suppose que la fonctionnalité d'ordre de contrôle gère l'élimination des matières détruites.</td>
+<td>Les ordres de qualité nécessitant des tests destructifs ne peuvent pas être générés. On suppose que la fonctionnalité d&#39;ordre de contrôle gère l'élimination des matières détruites.</td>
 <td>La nécessité d'établir un ordre de qualité peut refléter un site, un article ou un vendeur spécifique ou une combinaison de ces conditions.</td>
 <td>Un ordre de qualité généré manuellement qui fait référence à un ordre de contrôle peut utiliser les informations dans un enregistrement d'association de qualité, telles que le programme d'échantillonnage de test.</td>
 </tr>
@@ -289,7 +289,257 @@ Le tableau suivant fournit plus d'informations sur la manière dont les ordres d
 <td>Un ordre de qualité ne peut pas être automatiquement généré pour une transaction dans un journal de stock ou pour des transactions d'ordre de transfert</td>
 <td></td>
 <td></td>
-<td>Un ordre de qualité doit être créé manuellement pour la quantité de stock d'un article. Le stock physique disponible est exigé.</td>
+<td>Un ordre de qualité doit être créé manuellement pour la quantité de stock d&#39;un article. Le stock physique disponible est exigé.</td>
+</tr>
+</tbody>
+</table>
+
+## <a name="quality-order-auto-generation-examples"></a>Exemples de génération automatique d'ordres de qualité
+
+### <a name="purchasing"></a>Achat en cours
+
+Dans l'achat, vous définissez le champ **Type d'événement** sur **Accusé de réception de marchandises** et le champ **Exécution** sur **Après** sur la page **Associations de qualité**, vous obtenez les résultats suivants : 
+
+- Si l'option **Par quantité mise à jour** est définie sur **Oui**, un ordre de qualité est généré pour chaque réception par rapport à la commande fournisseur, selon la quantité réceptionnée et les paramètres dans l'échantillonnage d'article. Chaque fois qu'une quantité est reçue par rapport à la commande fournisseur, de nouveaux ordres de qualité sont générés selon la nouvelle quantité de réception.
+- Si l'option **Par quantité mise à jour** est définie sur **Non**, un ordre de qualité est généré pour la première réception par rapport à la commande fournisseur, selon la quantité réceptionnée. En outre, un ou plusieurs ordres de qualité sont créés selon la quantité restante, selon les dimensions de suivi. Les ordres de qualité ne sont pas générés pour les réceptions suivantes par rapport à la commande fournisseur.
+
+<table>
+<tbody>
+<tr>
+<th>Spécification de la qualité</th>
+<th>Par quantité mise à jour</th>
+<th>Par dimension de suivi</th>
+<th>Résultat</th>
+</tr>
+<tr>
+<td>Pourcentage : 10 %</td>
+<td>Oui</td>
+<td>
+<p>Numéro du lot : Non</p>
+<p>Numéro de série : Non</p>
+</td>
+<td>
+<p>Quantité de la commande : 100</p>
+<ol>
+<li>Déclarer comme terminé pour 30
+<ul>
+<li>Ordre de qualité n° 1 pour 3 (10 % de 30)</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 70
+<ul>
+<li>Ordre de qualité n° 2 pour 7 (10 % de la quantité commandée restante, qui est égale à 70 dans ce cas)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantité fixe : 1</td>
+<td>Non</td>
+<td>
+<p>Numéro du lot : Non</p>
+<p>Numéro de série : Non</p>
+</td>
+<td>Quantité de la commande : 100
+<ol>
+<li>Déclarer comme terminé pour 30
+<ul>
+<li>L'ordre de qualité n° 1 est créé pour 1 (pour la première quantité déclarée comme terminée, qui a une valeur fixe de 1).</li>
+<li>Plus aucun ordre de qualité n'est créé par rapport à la quantité restante.</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 10
+<ul>
+<li>Aucun ordre de qualité n'est créé.</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 60
+<ul>
+<li>Aucun ordre de qualité n'est créé.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantité fixe : 1</td>
+<td>Oui</td>
+<td>
+<p>Numéro du lot : Oui</p>
+<p>Numéro de série : Oui</p>
+</td>
+<td>
+<p>Quantité de la commande : 10</p>
+<ol>
+<li>Déclarer comme terminé pour 3
+<ul>
+<li>Ordre de qualité n° 1 pour 1 du lot n° b1, n° 1 de la série</li>
+<li>Ordre de qualité n° 2 pour 1 du lot n° b2, n° 2 de la série</li>
+<li>Ordre de qualité n° 3 pour 1 du lot n° b3, n° 3 de la série</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 2
+<ul>
+<li>Ordre de qualité n° 4 pour 1 du lot n° b4, n° 4 de la série</li>
+<li>Ordre de qualité n° 5 pour 1 du lot n° b5, n° 5 de la série</li>
+</ul>
+</li>
+</ol>
+<p><strong>Remarque :</strong> le lot peut être réutilisé.</p>
+</td>
+</tr>
+<tr>
+<td>Quantité fixe : 2</td>
+<td>Non</td>
+<td>
+<p>Numéro du lot : Oui</p>
+<p>Numéro de série : Oui</p>
+</td>
+<td>
+<p>Quantité de la commande : 10</p>
+<ol>
+<li>Déclarer comme terminé pour 4
+<ul>
+<li>Ordre de qualité n° 1 pour 1 du lot n° b1, n° 1 de la série.</li>
+<li>Ordre de qualité n° 2 pour 1 du lot n° b2, n° 2 de la série.</li>
+<li>Ordre de qualité n° 3 pour 1 du lot n° b3, n° 3 de la série.</li>
+<li>Ordre de qualité n° 4 pour 1 du lot n° b4, n° 4 de la série.</li>
+<li>Plus aucun ordre de qualité n'est créé par rapport à la quantité restante.</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 6
+<ul>
+<li>Aucun ordre de qualité n'est créé.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="production"></a>Production
+
+Dans la production, vous définissez le champ **Type d'événement** sur **Déclarer comme terminé** et le champ **Exécution** sur **Après** sur la page **Associations de qualité**, vous obtenez les résultats suivants :
+
+- Si l'option **Par quantité mise à jour** est définie sur **Oui**, un ordre de qualité est généré selon chaque quantité finie et les paramètres dans l'échantillonnage d'article. Chaque fois qu'une quantité est déclarée comme terminé par rapport à l'ordre de fabrication, de nouveaux ordres de qualité sont générés selon la quantité nouvellement terminée. Cette logique de déclaration est compatible avec l'achat.
+- Si l'option **Par quantité mise à jour** est définie sur **Non**, un ordre de qualité est généré la première fois qu'une quantité est déclarée comme terminée, selon la quantité finie. En outre, un ou plusieurs ordres de qualité sont créés selon la quantité restante, selon les dimensions de suivi de l'échantillonnage d'article. Aucun ordre de qualité n'est pas créé pour les quantités terminées suivantes.
+
+<table>
+<tbody>
+<tr>
+<th>Spécification de la qualité</th>
+<th>Par quantité mise à jour</th>
+<th>Par dimension de suivi</th>
+<th>Résultat</th>
+</tr>
+<tr>
+<td>Pourcentage : 10 %</td>
+<td>Oui</td>
+<td>
+<p>Numéro du lot : Non</p>
+<p>Numéro de série : Non</p>
+</td>
+<td>
+<p>Quantité de la commande : 100</p>
+<ol>
+<li>Déclarer comme terminé pour 30
+<ul>
+<li>Ordre de qualité n° 1 pour 3 (10 % de 30)</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 70
+<ul>
+<li>Ordre de qualité n° 2 pour 7 (10 % de la quantité commandée restante, qui est égale à 70 dans ce cas)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantité fixe : 1</td>
+<td>Non</td>
+<td>
+<p>Numéro du lot : Non</p>
+<p>Numéro de série : Non</p>
+</td>
+<td>Quantité de la commande : 100
+<ol>
+<li>Déclarer comme terminé pour 30
+<ul>
+<li>L'ordre de qualité n° 1 pour 1 (pour la première quantité déclarée comme terminée, qui a une valeur fixe de 1)</li>
+<li>L'ordre de qualité n° 2 pour 1 (pour la quantité restante, qui a toujours une valeur fixe de 1)</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 10
+<ul>
+<li>Aucun ordre de qualité n'est créé.</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 60
+<ul>
+<li>Aucun ordre de qualité n'est créé.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantité fixe : 1</td>
+<td>Oui</td>
+<td>
+<p>Numéro du lot : Oui</p>
+<p>Numéro de série : Oui</p>
+</td>
+<td>
+<p>Quantité de la commande : 10</p>
+<ol>
+<li>Déclarer comme terminé pour 3 : 1 pour n° b1, n° 1 ; 1 pour n° b2, n° 2 ; et 1 pour n° b3, n° 3
+<ul>
+<li>Ordre de qualité n° 1 pour 1 du lot n° b1, n° 1 de la série</li>
+<li>Ordre de qualité n° 2 pour 1 du lot n° b2, n° 2 de la série</li>
+<li>Ordre de qualité n° 3 pour 1 du lot n° b3, n° 3 de la série</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 2 : 1 pour n° b4, n° 4 ; et 1 pour n° b5, n° 5
+<ul>
+<li>Ordre de qualité n° 4 pour 1 du lot n° b4, n° 4 de la série</li>
+<li>Ordre de qualité n° 5 pour 1 du lot n° b5, n° 5 de la série</li>
+</ul>
+</li>
+</ol>
+<p><strong>Remarque :</strong> le lot peut être réutilisé.</p>
+</td>
+</tr>
+<tr>
+<td>Quantité fixe : 2</td>
+<td>Non</td>
+<td>
+<p>Numéro du lot : Oui</p>
+<p>Numéro de série : Oui</p>
+</td>
+<td>
+<p>Quantité de la commande : 10</p>
+<ol>
+<li>Déclarer comme terminé pour 4 : 1 pour n° b1, n° 1 ; 1 pour n° b2, n° 2 ; et 1 pour n° b3, n° 3 ; et 1 pour n° b4, n° 4
+<ul>
+<li>Ordre de qualité n° 1 pour 1 du lot n° b1, n° 1 de la série</li>
+<li>Ordre de qualité n° 2 pour 1 du lot n° b2, n° 2 de la série</li>
+<li>Ordre de qualité n° 3 pour 1 du lot n° b3, n° 3 de la série</li>
+<li>Ordre de qualité n° 4 pour 1 du lot n° b4, n° 4 de la série</li>
+</ul>
+<ul>
+<li>Ordre de qualité n° 5 pour 2, sans référence à un traitement par lots et à un numéro de série</li>
+</ul>
+</li>
+<li>Déclarer comme terminé pour 6 : 1 pour n° b5, n° 5 ; 1 pour n° b6, n° 6 ; 1 pour n° b7, n° 7 ; 1 pour n° b8, n° 8 ; 1 pour n° b9, n° 9 ; et 1 pour n° b10, n° 10
+<ul>
+<li>Aucun ordre de qualité n'est créé.</li>
+</ul>
+</li>
+</ol>
+</td>
 </tr>
 </tbody>
 </table>

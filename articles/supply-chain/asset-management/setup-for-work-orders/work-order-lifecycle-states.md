@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 69d06ff649f4453df22d55062b43bcc8d4ecd763
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874714"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569798"
 ---
 # <a name="work-order-lifecycle-states"></a>États du cycle de vie d'ordres de travail
 
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Les états du cycle de vie des ordres de travail définissent les états par lesquels un ordre de travail peut passer. Des exemples sont **Créé**, **Prévu**, **En cours** et **Terminé**. Les états du cycle de vie des ordres de travail peuvent être manuellement mis à jour sur un ordre de travail, ou ils peuvent être automatiquement mis à jour (par exemple, lors de la planification des ordres de travail).
 
@@ -38,7 +38,7 @@ Les états du cycle de vie des ordres de travail requis pour vos ordres de trava
 
 La table suivante décrit les options dans les sections **Ordre de travail** et **Planifier** sur l'organisateur **Général** de la page **État du cycle de vie de l'ordre de travail** (**Gestion des actifs** \> **Paramétrage** \> **Ordres de travail** \> **États du cycle de vie**).
 
-![Figure 1](media/09-setup-for-work-orders.png)
+![Page État du cycle de vie de l'ordre de travail](media/09-setup-for-work-orders.png)
 
 | Nom de l'option                   | Description |
 |-------------------------------|-------------|
@@ -96,7 +96,7 @@ La table suivante décrit les options dans les sections **Ordre de travail** et 
     - Si l'option **Temps d'arrêt pour maintenance** est définie sur **Oui** pour l'état du cycle de vie auquel un ordre de travail est mis à jour, la validation du temps d'arrêt pour maintenance a lieu sur l'actif associé à l'ordre de travail. Si un enregistrement du temps d'arrêt pour maintenance a été effectué, mais si aucun enregistrement n'est **Terminé**, un message s'affiche lorsque l'ordre de travail est mis à jour à cet état du cycle de vie.
     - Si le paramétrage standard du projet n'inclut pas toutes les étapes nécessaires pour le paramétrage du module Gestion des actifs, vous pouvez définir les stades de projet définis par l'utilisateur sur l'onglet **Stade de projet** de la page **Paramètres de gestion de projets et de comptabilité**. L'illustration suivante présente l'onglet **Stade de projet** sur la page **Paramètres de gestion de projets et de comptabilité**.
 
-    ![Figure 2](media/10-setup-for-work-orders.png)
+    ![Page Configurer les stades de projet pour différents types de projets](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Si l'état du cycle de vie auquel vous mettez à jour un ordre de travail est inactif, les journaux associés à l'ordre de travail, mais qui n'ont pas encore été validés, sont supprimés automatiquement. Ce comportement permet de garantir le nettoyage automatique des donnés inutilisées. (Un état du cycle de vie est inactif si l'option **Actif** pour lui est définie sur **Non** dans l'organisateur **Général** de la page **État du cycle de vie de l'ordre de travail** .)
@@ -114,7 +114,7 @@ Le motif de l'utilisation des types, par exemple, n'est autre que lorsqu'un type
 
 L'illustration suivante montre la relation entre les types d'ordre de travail, les modèles du cycle de vie et les états du cycle de vie.
 
-![Figure 3](media/11-setup-for-work-orders.png)
+![Page Type d'ordre de travail comparée à la page Modèles de cycle de vie de l'ordre de travail](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Modèles du cycle de vie de l'ordre de travail
 
@@ -138,4 +138,4 @@ Après avoir créé les états du cycle de vie de l'ordre de travail requis pour
 8. Dans le champ **État du cycle de vie non planifié**, sélectionnez l'état du cycle de vie qui doit toujours être sélectionné pour un ordre de travail si la planification d l'ordre de travail est supprimée.
 9. Enregistrez le modèle du cycle de vie de l'ordre de travail.
 
-![Figure 4](media/15-setup-for-work-orders.png)
+![Page Modèles du cycle de vie de l'ordre de travail](media/15-setup-for-work-orders.png)

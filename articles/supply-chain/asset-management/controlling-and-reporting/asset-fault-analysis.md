@@ -18,37 +18,45 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c9330cc7b3a8839d94c8945418548033254786b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 43772903f6845409cb33c7f2a13a049a3e9aa208
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918439"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652400"
 ---
 # <a name="asset-fault-analysis"></a>Analyse des problèmes d'actifs
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Dans le module Gestion des actifs, vous pouvez analyser les enregistrements de défaillance d'actif afin d'obtenir une vue d'ensemble du nombre total de défaillances consignées durant une période spécifique. Les enregistrements de défaillance peuvent être analysés à partir de perspectives différentes, par exemple en fonction des actifs, des types d'actifs, des postes techniques, des symptômes de défaillance, ou des types de défaillance.
 
 1. Cliquez sur **Gestion des actifs** > **Recherches** > **Défaillances des actifs** > **Analyses des défaillances des actifs**.
 
-2. Dans la boîte de dialogue **Calcul d'analyse des défaillances des actifs**, vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de défaillance d'actif en fonction des postes techniques. Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, toutes les lignes de défaillance d'actif pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter des heures à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre 0 dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes de défaillance d'actif sur tout le niveau du poste technique auquel elles sont liées.
+2. Dans la boîte de dialogue **Calcul d'analyse des défaillances des actifs**, vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de défaillance d'actif en fonction des postes techniques. 
+
+    Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, toutes les lignes de défaillance d'actif pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter des heures à partir des postes techniques situés à un niveau inférieur. 
+        
+    Par exemple, si vous insérez le chiffre 0 dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes de défaillance d'actif sur tout le niveau du poste technique auquel elles sont liées.
 
 3. Pour limiter la recherche, vous pouvez sélectionner des actifs, des dates de défaillance, des causes de défaillance et des solutions spécifiques sur l'organisateur **Enregistrements à inclure**.
 
 4. Cliquez sur **OK** pour démarrer le calcul.
 
-5. Dans l'onglet **Analyses des défaillances des actifs**, cliquez sur un ou plusieurs boutons des groupes du volet Actions **Grouper par…** pour afficher le niveau de détail à afficher. Les boutons actionnés sont mis en surbrillance. Activez ou désactivez les boutons en cliquant dessus.
+5. Dans l'onglet **Analyses des défaillances des actifs**, cliquez sur un ou plusieurs boutons **Grouper par** pour afficher le niveau de détail à afficher. Les boutons actionnés sont mis en surbrillance. Activez ou désactivez les boutons en cliquant dessus.
 
 6. Cliquez sur **Mettre à jour les calculs** pour afficher vos sélections à l'écran. 
 
 >[!NOTE]
->Chaque fois que vous activez ou désactivez les boutons des groupes du volet Actions **Grouper par…**, n'oubliez pas de cliquer sur le bouton **Mettre à jour les calculs** après avoir modifié les sélections. Cela est nécessaire car un grand nombre de données sont traitées lorsque vous recalculez la probabilité de défaillance.
+>Chaque fois que vous activez ou de désactiver un bouton **Grouper par**, n'oubliez pas de cliquer sur le bouton **Mettre à jour les calculs**. Cela est nécessaire car un grand nombre de données sont traitées lorsque vous recalculez la probabilité de défaillance.
 
-Il existe de nombreuses façons d'analyser les enregistrements de défaillance. Voici cinq exemples de captures d'écran illustrant la manière dont les différentes sélections de données fournissent différentes informations. Vous verrez comment les différentes sélections fournissent plus d'analyse et de détails lors de l'analyse des enregistrements de défaillance des actifs.
+## <a name="examples"></a>Exemples
+
+Il existe de nombreuses façons d'analyser les enregistrements de défaillance. Cette section contient cinq exemples de la manière dont différentes sélections fournissent peuvent fournir plus d'analyse et de détails lors de l'analyse des enregistrements de défaillance des actifs.
+
+### <a name="group-by-symptoms"></a>Grouper par symptômes
 
 Dans la capture d'écran ci-dessous, seul le bouton **Symptôme** est sélectionné.
 
@@ -57,6 +65,7 @@ Dans la capture d'écran ci-dessous, seul le bouton **Symptôme** est sélection
 
 ![Figure 1](media/06-controlling-and-reporting.png)
 
+### <a name="group-by-symptoms-and-time-period"></a>Grouper par symptôme et période
 
 Dans le capture d'écran ci-dessous, **Année** et **Mois** ont été ajoutés pour afficher la manière dont vous pouvez afficher des enregistrements de défaillance durant une période sélectionnée.
 
@@ -65,9 +74,13 @@ Dans le capture d'écran ci-dessous, **Année** et **Mois** ont été ajoutés p
 
 ![Figure 2](media/07-controlling-and-reporting.png)
 
+### <a name="group-by-multiple-symptoms-and-assets"></a>Grouper par plusieurs symptômes et actif
 
-- La combinaison des actifs et d'un type d'actif est utilisée comme base pour les calculs affichés dans les trois captures d'écran ci-dessous, ce qui va augmenter le niveau de détail.  
-- En général, les boutons des groupes du volet Actions **Grouper par date**, **Grouper par actif**, **Grouper par poste technique**, ainsi que le bouton **Problème** (ID de défaillance), contiennent des périodes ou des relations entre les actifs. Les boutons **Symptôme**, **Secteur**, **Type**, **Cause** et **Remède** sont des catégorisations utilisées dans la gestion de défaillance pour analyser les enregistrements de défaillance d'actif et les domaines problématiques ponctuels.  
+La combinaison des actifs et d'un type d'actif est utilisée comme base pour les calculs affichés dans les trois captures d'écran ci-dessous, ce qui va augmenter le niveau de détail.  
+
+En général, les boutons des groupes du volet Actions **Grouper par date**, **Grouper par actif**, **Grouper par poste technique**, ainsi que le bouton **Problème** (ID de défaillance), contiennent des périodes ou des relations entre les actifs. Les boutons **Symptôme**, **Secteur**, **Type**, **Cause** et **Remède** sont des catégorisations utilisées dans la gestion de défaillance pour analyser les enregistrements de défaillance d'actif et les domaines problématiques ponctuels.  
+
+**Grouper par symptôme, actif et type d'actif**
 
 Dans la capture d'écran ci-dessous, **Actif** et **Type d'actif** ont été ajoutés pour fournir plus de détails concernant les enregistrements de défaillance.
 
@@ -76,6 +89,7 @@ Dans la capture d'écran ci-dessous, **Actif** et **Type d'actif** ont été ajo
 
 ![Figure 3](media/08-controlling-and-reporting.png)
 
+**Grouper par deux symptômes, actif et type d'actif**
 
 Dans la capture d'écran ci-dessous, **Secteur** a été ajouté à **Symptôme**, **Actif** et **Type d'actif** pour fournir plus de détails concernant les enregistrements de défaillance.
 
@@ -83,6 +97,7 @@ Dans la capture d'écran ci-dessous, **Secteur** a été ajouté à **Symptôme*
 
 ![Figure 4](media/09-controlling-and-reporting.png)
 
+**Grouper par trois symptôme, actif et type d'actif**
 
 Dans le capture d'écran ci-dessous, **Type** a été ajouté, et le calcul le plus détaillé dans cet exemple s'affiche.
  

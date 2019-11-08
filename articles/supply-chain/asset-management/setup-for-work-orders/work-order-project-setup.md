@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 29f9975d8270b3f79d0aac0c62609b4a9c71ae89
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874622"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569775"
 ---
 # <a name="work-order-project-setup"></a>Paramétrage du projet de l'ordre de travail
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Dans le module **Gestion des actifs**, une relation de projet est requise pour chaque tâche de l'ordre de travail. Le projet associé à une tâche de l'ordre de travail vous permet de suivre les coût sur différents projets associés au module Gestion des actifs, comme les projets de maintenance interne, les projets de gestion de service et les projets d'investissement. 
 
@@ -72,7 +72,7 @@ Le paramétrage permet l'intégration complète au module **Gestion de projets e
 
     Par défaut, la date de début est la date à laquelle vous ajoutez le projet de l'ordre de travail à la page. Cela est contrôlé par le champ **Début de validité**, qui est masqué par défaut. Pour afficher le champ **Début de validité**, sélectionnez **Afficher** \> **Tout**. Vous pouvez ensuite utiliser le champ **Début de validité** avec le champ **Date de fin** pour paramétrer une période limitée de validité du projet de l'ordre de travail.
 
-    ![Figure 1](media/17-setup-for-work-orders.png)
+    ![Page Configuration de projet d'ordres de travail](media/17-setup-for-work-orders.png)
 
 6. Sur l'onglet **Groupe de projets**, sélectionnez **Ajouter**.
 7. Dans le champ **Type d'ordre de travail**, sélectionnez un type d'ordre de travail.
@@ -80,7 +80,7 @@ Le paramétrage permet l'intégration complète au module **Gestion de projets e
 9. Dans le champ **Groupe de projets**, sélectionnez le groupe de projets devant être associé au type d'ordre de travail. Par exemple, un type d'ordre de travail intitulé **Maintenance préventive** peut être associé à un groupe de projets intitulé **Maint prev** ou **Interne**. Sinon, un ordre de travail de type **Investissement** utilisé pour les ordres de travail associés aux investissements et aux immobilisations peut être associé à un groupe de projets nommé **Investir** ou **Investissement**.
 10. Sélectionnez **Enregistrer**.
 
-![Figure 2](media/18-setup-for-work-orders.png)
+![Page Configuration de projet d'ordres de travail, Ajouter un ordre de travail](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Chaque fois qu'une ligne d'ordre de travail est créée, le module Gestion des actifs recherche un groupe de projets qui doit être associé au projet de la tâche de l'ordre de travail. La recherche est basée sur le paramétrage décrit dans cette rubrique. Chaque groupe de projets a un type de projet associé. Les groupes de projets dont le projet est de type **Régie** ou **Prix fixe** sont valides uniquement pour les actifs associés à un compte client.

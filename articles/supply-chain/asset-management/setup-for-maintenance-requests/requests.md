@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250919"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571114"
 ---
 # <a name="maintenance-requests"></a>Demandes de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Vous pouvez paramétrer plusieurs types de demandes à utiliser dans votre société. Les demandes de maintenance sont un type. Les demandes de maintenance sont utilisées pour demander qu'un bon de travail soit requis pour une tâche spécifique. Une demande de maintenance peut être créée par tout utilisateur ayant accès à la fonctionnalité Gestion des actifs. Un planificateur ou un gestionnaire peut ensuite décider si une demande de maintenance doit être convertie en bon de travail, ou si elle doit terminer son propre cycle de vie.
 
@@ -41,4 +41,4 @@ Vous pouvez paramétrer plusieurs types de demandes à utiliser dans votre soci�
 
 L'illustration suivante présente un exemple de la page de liste **Toutes les demandes de maintenance**.
 
-![Figure 1](media/01-setup-for-requests.png)
+![Page de liste Toutes les demandes de maintenance](media/01-setup-for-requests.png)

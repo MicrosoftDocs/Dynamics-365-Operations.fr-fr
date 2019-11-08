@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc1992326c448ee8dc30a9ad8f8f538ebea83e54
-ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
+ms.openlocfilehash: e527a1ade9b050c0700ef42bbcac8da3f36160b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "2002382"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571781"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prévisions, ordres de travail et projets
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Dans le module Gestion des actifs, l'intégration au module **Gestion et comptabilité du projet** permet d'optimiser le contrôle des coûts, de telle sorte que les utilisateurs sont en mesure de suivre les coûts pour les prévisions du type de tâche de maintenance et les tâches de l'ordre de travail.
 

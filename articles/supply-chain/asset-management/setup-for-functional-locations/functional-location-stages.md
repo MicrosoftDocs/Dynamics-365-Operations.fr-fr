@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11f784e4c17ad5b764cadd914f4959f4be160913
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: d4804d5f38fb65aa8ab3eafceccbbc6f52f2e81b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783259"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569936"
 ---
 # <a name="functional-location-lifecycle-states"></a>États du cycle de vie du poste technique
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Cette rubrique décrit le paramétrage des états de cycle de vie de poste technique et des modèles de cycle de vie dans la gestion des actifs. Les états de cycle de vie de poste technique définissent les états par lesquels un poste technique peut passer, par exemple, créé, actif, puis terminé. Vous pouvez afficher tous les postes techniques, indépendamment de leur état de cycle de vie, dans la page de liste **Tous les postes techniques**. Vous pouvez modifier l'état d'un poste technique en le sélectionnant dans la page de liste **Tous les postes techniques** et en sélectionnant **Mettre à jour l'état du poste technique**.
 

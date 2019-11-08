@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 2b755dcfbcdf41ada0302fc04f527ce7c309f4bb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186392"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553185"
 ---
 # <a name="one-voucher"></a>N° document
 
@@ -51,7 +51,7 @@ La fonctionnalité existante pour les journaux financiers (le journal des opéra
 
 ## <a name="issues-with-one-voucher"></a>Problèmes liés à la fonctionnalité N° document
 
-La fonctionnalité N° document génère des problèmes pendant le règlement, le calcul de la taxe, la contrepassation d'une transaction, le rapprochement d'un compte auxiliaire dans la comptabilité, la génération d'états financiers, etc. (Pour plus d'informations sur les problèmes qui peuvent se produire pendant le règlement, par exemple, voir [N° de document unique avec plusieurs enregistrements client ou fournisseur](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Pour assurer un bon fonctionnement et générer des états corrects, ces processus et états requièrent les détails de transaction. Bien que certains scénarios puissent continuer à fonctionner correctement, en fonction du paramétrage de votre organisation, des problèmes se produisent souvent lorsque plusieurs transactions sont entrées dans un N° document.
+La fonctionnalité N° document génère des problèmes pendant le règlement, le calcul de la taxe, la contrepassation d'une transaction, le rapprochement d'un compte auxiliaire dans la comptabilité, la génération d'états financiers, etc. (Pour plus d'informations sur les problèmes qui peuvent se produire pendant le règlement, par exemple, voir [N° de document unique avec plusieurs enregistrements client ou fournisseur](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Pour assurer un bon fonctionnement et générer des états corrects, ces processus et états requièrent les détails de transaction. Bien que certains scénarios puissent continuer à fonctionner correctement, en fonction du paramétrage de votre organisation, des problèmes se produisent souvent lorsque plusieurs transactions sont entrées dans un N° document.
 
 Par exemple, vous validez le N° document multiligne suivant.
 

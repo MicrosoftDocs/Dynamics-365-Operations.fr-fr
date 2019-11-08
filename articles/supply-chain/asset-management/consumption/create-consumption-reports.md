@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d978f8b991211e477dd8f766fe67432d9d493d0
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: eecfb101af9a91f515aab221181c54d53e358a68
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913086"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652423"
 ---
 # <a name="create-consumption-reports"></a>Créer des états de consommation
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Lorsque vous avez créé et validé les enregistrements de consommation sur les ordres de travail dans le module Gestion des actifs, deux états sont disponibles pour afficher les détails de la consommation.
 
@@ -40,9 +40,14 @@ Lorsque vous avez validé la consommation sur les ordres de travail, vous pouvez
 
 1. Cliquez sur **Gestion des actifs** > **États** > **Actifs** > **Consommation d'actifs**.
 
-2. Dans la boîte de dialogue **Consommation d'actifs**, sélectionnez les paramètres et le niveau de détail que vous souhaitez afficher en sélectionnant « Oui » sur les boutons bascule appropriés, puis en entrant le niveau du poste technique dans la section **Afficher**.
-    - Vous pouvez utiliser le champ **Niveaux** pour indiquer quel niveau de détail vous souhaitez dans les lignes d'actif en fonction des postes techniques. Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, tous les actifs pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter une ligne à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre 0 dans le champ **Niveaux**, un résultat détaillé s'affiche et indique tous les actifs sur tous les niveaux du poste technique auxquels ils sont liés. 
-    - Sélectionnez « Oui » sur le bouton bascule **Somme de tous les sous-actifs** pour afficher les sommes des chaque sous-actif de l'état.
+2. Dans la boîte de dialogue **Consommation d'actifs**, sélectionnez les paramètres et le niveau de détail que vous souhaitez afficher en sélectionnant **Oui** sur les boutons bascule appropriés, puis en entrant le niveau du poste technique dans la section **Afficher**.
+    - Vous pouvez utiliser le champ **Niveaux** pour indiquer quel niveau de détail vous souhaitez dans les lignes d'actif en fonction des postes techniques. 
+    
+        Par exemple, si vous entrez le chiffre « 1 » dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, tous les actifs pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter une ligne à partir des postes techniques situés à un niveau inférieur. 
+        
+        Par exemple, si vous entrez le chiffre « 0 » dans le champ **Niveaux**, un résultat détaillé s'affiche et indique tous les actifs sur tous les niveaux du poste technique auxquels ils sont liés. 
+        
+    - Sélectionnez **Oui** sur le bouton bascule **Somme de tous les sous-actifs** pour afficher les sommes des chaque sous-actif de l'état.
 
 3. Sélectionnez un intervalle de dates dans la section **Dates**.
 
@@ -59,7 +64,7 @@ Lorsque vous avez validé la consommation sur les ordres de travail, vous pouvez
 
 1. Cliquez sur **Gestion des actifs** > **États** > **Ordres de travail** > **Consommation de l'ordre de travail**.
 
-2. Dans la boîte de dialogue **Consommation de l'ordre de travail**, sélectionnez les paramètres que vous souhaitez inclure dans l'état en sélectionnant « Oui » sur les boutons à bascule dans la section **Afficher**.
+2. Dans la boîte de dialogue **Consommation de l'ordre de travail**, sélectionnez les paramètres que vous souhaitez inclure dans l'état en sélectionnant **Oui** sur les boutons à bascule dans la section **Afficher**.
 
 3. Sélectionnez un intervalle de dates dans la section **Dates**.
 

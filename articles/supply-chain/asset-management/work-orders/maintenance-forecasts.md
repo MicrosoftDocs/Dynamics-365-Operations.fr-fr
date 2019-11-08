@@ -3,7 +3,7 @@ title: Prévisions en matière de maintenance
 description: Cette rubrique explique les prévisions en matière de maintenance dans le module Gestion des actifs.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024497"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626291"
 ---
 # <a name="maintenance-forecasts"></a>Prévisions en matière de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
 Lorsque vous créez un ordre de travail, vous créez des tâches de l'ordre de travail avec des actifs et des types de tâches de maintenance associés. Lorsque vous sélectionnez un type de tâche de maintenance contenant les prévisions en matière de maintenance, les prévisions sont automatiquement copiées vers l'ordre de travail.
 
-Vous pouvez être en mesure d'ajouter ou de supprimer des lignes de prévisions sur un ordre de travail. La configuration d'un état du cycle de vie de l'ordre de travail, le type de projet associé et les règles de stade liées au type de projet déterminent si vous êtes en mesure d'ajouter ou de modifier les lignes de prévision. 
+Vous pouvez ajouter des lignes de prévision à un ordre de travail ou les supprimer d'un ordre de travail. La configuration de l'état du cycle de vie de l'ordre de travail, le type de projet associé et les règles de stade liées au type de projet déterminent si vous pouvez ajouter ou modifier les lignes de prévision. Pour plus d'informations sur les états du cycle de vie de l'ordre de travail et les étapes du projet associé, consultez [Prévisions, ordres de travail et projets](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Cliquez sur **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
+1. Sélectionnez **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
-2. Sélectionnez l'ordre de travail dans la liste et cliquez sur **Prévisions**. Dans **Prévisions en matière de maintenance de l'ordre de travail**, les lignes de prévision du type de tâche de maintenance sélectionné sur la tâche de l'ordre de travail sont affichées.
+2. Sélectionnez l'ordre de travail dans la liste, puis, dans le volet Actions > onglet **Ordre de travail** > groupe **Projet**, sélectionnez **Prévision**. La page **Prévisions en matière de maintenance de l'ordre de travail** affiche les lignes de prévision du type de tâche de maintenance sélectionné sur la tâche de l'ordre de travail.
 
 
-## <a name="add-hours-forecast-to-a-work-order"></a>Ajouter des prévisions horaires à un ordre de travail
+## <a name="add-an-hours-forecast-to-a-work-order"></a>Ajouter une prévision horaire à un ordre de travail
 
-1. Sélectionnez la tâche de l'ordre de travail auquel vous souhaitez ajouter une prévision.
+1. Dans la page **Prévisions en matière de maintenance de l'ordre de travail**, sélectionnez la tâche d'ordre de travail à laquelle ajouter une prévision.
 
-2. Dans l'organisateur **Heures**, cliquez sur **Ajouter** pour créer une ligne.
+2. Dans l'organisateur **Heures**, sélectionnez **Ajouter** pour créer une ligne.
 
-3. Sélectionnez une catégorie dans le champ **Catégorie**.
+3. Dans le champ **Catégorie**, sélectionnez une catégorie.
 
-4. Insérez le nombre d'heures prévues dans le champ **Heures**.
+4. Dans le champ **Heures**, insérez le nombre d'heures prévues.
 
 5. Dans le champ **Propriété de ligne**, sélectionnez le type de frais à utiliser sur la ligne.
 
 
-## <a name="add-items-forecast-to-a-work-order"></a>Ajouter des prévisions d'articles à un ordre de travail
+## <a name="add-an-items-forecast-to-a-work-order"></a>Ajouter une prévision d'articles à un ordre de travail
 
-Il existe trois façons d'ajouter des articles à des prévisions en matière de maintenance à un ordre de travail : vous pouvez créer des lignes pour les articles (pièces détachées) qui ne sont pas inclus dans la liste des pièces détachées ou la nomenclature des actifs, vous pouvez sélectionner des pièces détachées depuis la liste des pièces détachées approuvées, et vous pouvez sélectionner les articles depuis la nomenclature des actifs.
+Il existe trois manières d'ajouter des articles à une prévisions en matière de maintenance d'ordre de travail. Vous pouvez créer des lignes pour les articles (pièces détachées) qui ne sont pas inclus dans la liste des pièces détachées ou la nomenclature des actifs, vous pouvez sélectionner des pièces détachées depuis la liste des pièces détachées approuvées, ou vous pouvez sélectionner les articles depuis la nomenclature des actifs.
 
-1. Sélectionnez la tâche de l'ordre de travail auquel vous souhaitez ajouter une prévision.
+- Dans la page **Prévisions en matière de maintenance de l'ordre de travail**, sélectionnez la tâche d'ordre de travail à laquelle ajouter une prévision.
 
-2. Sélectionnez l'organisateur **Articles**.
+- Dans l'organisateur **Articles**, ajoutez des articles à la prévisions en matière de maintenance à l'aide de la méthode approprié.
 
-3. Cliquez sur **Ajouter** pour créer une ligne pour une pièce détachée qui n'est pas sur la liste des pièces détachées ou la liste de nomenclature des actifs.
+Pour créer une ligne pour une pièce détachée qui n'est pas sur la liste des pièces détachées ou la liste de nomenclature des actifs, procédez comme suit :
 
-4. Sélectionnez l'élément dans le champ **Numéro d'article**.
+1. Sélectionnez **Ajouter**.
+2. Dans le champ **Numéro d'article**, sélectionnez l'article.
+3. Dans le champ **Quantité vendue**, entrez la quantité.
+4. Dans le champ **Unité**, sélectionnez l'unité de mesure pour la quantité.
+5. Dans les champs **Prix de revient** et **Devise**, entrez les valeurs appropriées.
+6. Dans le champ **Propriété de ligne**, sélectionnez une propriété de ligne.
+7. Pour modifier la liste des dimensions affichées dans les lignes d'article, sélectionnez **Stock** > **Dimensions d'affichage**, sélectionnez les dimensions, et puis définissez **Enregistrer le paramétrage** sur **Oui**.
 
-5. Insérez la quantité dans le champ **Quantité vendue**, puis sélectionnez une unité de quantité dans le champ **Unité**.
+Pour ajouter une pièce détachée d'une liste des parties disponibles approuvées, procédez comme suit :
 
-6. Insérez le prix de revient et la devise dans les champs appropriés, puis sélectionnez **Propriété de ligne**.
+1. Sélectionnez **Ajouter des pièces détachées**.
+2. Sélectionnez la pièce détachée, et modifiez les informations associées comme vous le souhaitez.
+3. Cliquez sur **OK**.
 
-7. Si vous souhaitez modifier la liste des dimensions affichées dans les lignes d'article, cliquez sur **Stock** > **Dimensions d'affichage**, sélectionnez les dimensions, et sélectionnez « Oui » sur le bouton à bascule **Enregistrer le paramétrage**.
+Pour ajouter un article de la nomenclature d'immobilisation, procédez comme suit :
 
-8. Si vous souhaitez ajouter une pièce détachée approuvée aux prévisions en matière de maintenance, cliquez sur **Ajoutez des pièces détachées**, sélectionnez la pièce détachée, modifiez les informations associées au besoin, puis cliquez sur **OK**.
+1. Sélectionnez **Ajouter des articles de nomenclature**.
+2. Sélectionnez l'article, et modifiez les informations associées comme vous le souhaitez.
+3. Cliquez sur **OK**.
 
-9. Si vous voulez ajouter des articles de nomenclature des actifs aux prévisions, cliquez sur **Ajouter des articles de nomenclature**, sélectionnez l'article, modifiez les informations associées au besoin, puis cliquez sur **OK**.
-
-10. Cliquez sur **Cas d'emploi d'article** si vous souhaitez obtenir une vue d'ensemble de l'emplacement d'utilisation de l'article sur la ligne sélectionnée dans le module Gestion des actifs, en ce qui concerne les actifs, le type de tâche de maintenance par défaut, les pièces détachées et les ordres de travail. 
+Pour avoir une vue d'ensemble de l'emplacement d'utilisation de l'article sur la ligne sélectionnée, en ce qui concerne les actifs, les valeurs par défaut du type de tâche de maintenance, les pièces détachées et les ordres de travail dans Gestion des actifs, sélectionnez **Cas d'emploi d'article**. Pour plus d'informations sur cette vue d'ensemble, voir [Cas d'emploi d'article](../controlling-and-reporting/item-where-used.md).
 
 
+## <a name="add-an-expense-forecast-to-a-work-order"></a>Ajouter une prévision de dépense à un ordre de travail
 
-## <a name="add-expense-forecast-to-a-work-order"></a>Ajouter des prévisions de dépense à un ordre de travail
+1. Dans la page **Prévisions en matière de maintenance de l'ordre de travail**, sélectionnez la tâche d'ordre de travail à laquelle ajouter une prévision.
 
-1. Cette rubrique explique comment ajouter des prévisions de dépense à un ordre de travail. À gauche de l'écran, sélectionnez la tâche de l'ordre de travail à laquelle vous souhaitez ajouter une prévision.
+2. Dans l'organisateur **Dépense**, sélectionnez **Ajouter** pour créer une ligne.
 
-2. Sélectionnez l'organisateur **Dépense**.
+3. Dans le champ **Catégorie**, sélectionnez une catégorie.
 
-3. Cliquez sur **Ajouter** pour créer une ligne.
+4. Dans le champ **Quantité**, entrez la quantité.
 
-4. Sélectionnez une catégorie dans le champ **Catégorie**.
+5. Dans les champs **Prix de revient**, **Devise de vente** et **Prix de vente**, entrez les valeurs appropriées.
 
-5. Insérez la quantité dans le champ **Quantité**.
-
-6. Insérez le prix de revient, la devise de vente et le prix de vente dans les champs appropriés.
-
-7. Dans le champ **Propriété de ligne**, sélectionnez le type de frais à utiliser sur la ligne.
+6. Dans le champ **Propriété de ligne**, sélectionnez le type de frais à utiliser sur la ligne.
 
 >[!NOTE]
->Dans l'organisateur **Totaux de prévisions de maintenance**, vous voyez une vue d'ensemble du nombre de lignes créées sous chaque onglet, pour la tâche de l'ordre de travail sélectionnée et pour l'ordre de travail. En outre, vous pouvez également voir une somme des heures de travail prévues pour la tâche de l'ordre de travail et pour l'ordre de travail.
+>L'organisateur **Totaux de prévisions de maintenance** affiche une vue d'ensemble du nombre de lignes créées, pour la tâche de l'ordre de travail sélectionnée et pour l'ordre de travail, sous chaque organisateur. Il affiche également le total des heures de travail prévues pour la tâche de l'ordre de travail et pour l'ordre de travail.
+
+L'illustration suivante présente un exemple de la liste de page **Prévisions en matière de maintenance de l'ordre de travail**.
 
 ![Figure 1](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Mise à jour automatique des prévisions de l'ordre de travail
 
-Dans le module Gestion des actifs, vous pouvez automatiquement mettre à jour les modifications dans les prévisions de l'ordre de travail concernant les coûts horaires, les coûts d'article et les dépenses, qui ont été mises à jour dans d'autres modules. Cela est possible pour veiller à ce que les derniers prix de revient soient toujours utilisés dans vos prévisions d'ordre de travail. Il est également possible d'effectuer des mises à jour similaires pour [prévisions de type de tâche de maintenance](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Si les coûts horaires, les coûts d'article et les dépenses sont mises à jour dans d'autres modules dans Microsoft Dynamics 365 for Finance and Operations, les prévisions de l'ordre de travail dans Gestion des actifs peut automatiquement être mis à jour pour refléter ces modifications. Cette capacité permet de garantir que les derniers prix de revient soient toujours utilisés dans vos prévisions d'ordre de travail. Vous pouvez également effectuer des mises à jour similaires pour [prévisions de type de tâche de maintenance](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
-1. Cliquez sur **Gestion des actifs** > **Périodique** > **Prévisions** > **Mettre à jour les prévisions de l'ordre de travail**.
+1. Sélectionnez **Gestion des actifs** > **Périodique** > **Prévisions** > **Mettre à jour les prévisions de l'ordre de travail**.
 
-2. Dans la boîte de dialogue de menu déroulant **Mettre à jour les prévisions de l'ordre de travail**, vous pouvez ajouter des sélections concernant les ordres de travail spécifiques ou des tâches d'ordre de travail, si nécessaire. Cliquez sur **Filtre** pour effectuer ces sélections.
+2. Dans la boîte de dialogue **Mettre à jour les prévisions de l'ordre de travail**, sur l'organisateur **Enregistrements à inclure**, vous pouvez ajouter des sélections concernant les ordres de travail spécifiques ou des tâches d'ordre de travail, si nécessaire. Cliquez sur **Filtrer** pour effectuer les sélections appropriées.
 
-3. Le cas échéant, vous pouvez configurer la mise à jour automatique comme traitement par lots sur l'organisateur **Exécuter à l'arrière-plan**.
+3. Sous le raccourci **Exécuter à l'arrière-plan**, vous pouvez configurer la mise à jour automatique comme traitement par lots comme vous le souhaitez.
 
 4. Cliquez sur **OK** pour démarrer la mise à jour des prévisions.
 
 
-![Figure 2](media/07-work-orders.png)
+L'illustration suivante présente un exemple de la boîte de dialogue **Mettre à jour les prévisions de l'ordre de travail**.
 
+![Figure 2](media/07-work-orders.png)

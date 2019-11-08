@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1aed71339092097d5c9ad218bec18627a5b415b6
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 2fb91d4c0bde32ca18d66662bc8097259a8c65cd
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783275"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571436"
 ---
 # <a name="asset-event-history"></a>Historique des événements d'un actif
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Cette rubrique explique comment accéder à l'historique des événements d'un actif dans le module Gestion des actifs. La page **Historique des événements de l'actif** affiche l'historique des enregistrements qui a été créé pendant la durée de vie d'un actif. Vous pouvez accéder à cette page à partir des éléments de menu **Tous les actifs**, **Actifs actifs** et **Mes actifs actifs**. Sélectionnez un actif, puis sélectionnez **Historique des événements**.
 

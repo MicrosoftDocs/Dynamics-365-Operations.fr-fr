@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc8e4b942c3c5307d90bfd08a33a8b27c4352d2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249725"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658808"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Créer une documentation ou une formation avec l'enregistreur de tâches
 
@@ -39,8 +39,8 @@ Cette rubrique explique ce que sont l'enregistreur de tâches et les guides de t
 
 L'enregistreur de tâches est un outil que vous pouvez utiliser pour enregistrer les actions que vous effectuez dans l'interface utilisateur du produit. Lorsque vous utilisez l'enregistreur de tâches, tous les événements que vous effectuez dans l'IU qui sont exécutés par rapport au serveur (notamment l'ajout de valeurs, la modification de paramètres, la suppression de données) sont capturés. Les étapes que vous enregistrez sont collectivement appelées un *enregistrement de tâche*. Les enregistrements de tâche peuvent être utilisés de plusieurs manières :
 
--   **Les enregistrements de tâches peuvent être lus comme guides de tâche.** Les guides de tâches font partie intégrante de l'expérience d'aide. Un guide de tâche est une expérience contrôlée, guidée et interactive qui parcourt les étapes d'un processus métier. L'utilisateur est invité à compléter chaque étape par une invite contextuelle (ou « bulle »), qui anime l' IU et pointe vers l'élément de l'IU avec lequel l'utilisateur doit interagir. La « bulle » fournit également des informations sur la manière d'interagir avec l'élément, par exemple « Cliquez ici » « ou « Dans ce champ, entrez une valeur ». Un Guide de tâche s'exécute pour l'ensemble de données de l'utilisateur actif et les données entrées sont enregistrées dans l'environnement de l'utilisateur.
--   **Les enregistrements de tâche peuvent être affichés en tant que procédures décomposées en étapes dans le volet Aide.** Vous pouvez utiliser le volet Aide pour chercher et afficher des enregistrements de tâche. Vous pouvez accéder au volet Aide en cliquant sur l'icône **?** dans la barre de navigation supérieure, ou vous pouvez utiliser la combinaison de touches de raccourci,  **Ctrl+Shift+?**. Vous pouvez lire les étapes d'un enregistrement de tâche dans le volet Aide, ou vous pouvez choisir de lire l'enregistrement comme guide de tâche, ce qui vous guide dans l'IU.
+-   **Les enregistrements de tâches peuvent être lus comme guides de tâche.** Les guides de tâches font partie intégrante de l'expérience d'aide. Un guide de tâche est une expérience contrôlée, guidée et interactive qui parcourt les étapes d'un processus métier. L'utilisateur est invité à compléter chaque étape par une invite contextuelle (ou « bulle »), qui anime l' IU et pointe vers l'élément de l'IU avec lequel l'utilisateur doit interagir. La « bulle » fournit également des informations sur la manière d'interagir avec l'élément, par exemple « Cliquez ici » « ou « Dans ce champ, entrez une valeur ». Un Guide de tâche s'exécute pour l'ensemble de données de l'utilisateur actif et les données entrées sont enregistrées dans l'environnement de l'utilisateur.
+-   **Les enregistrements de tâche peuvent être affichés en tant que procédures décomposées en étapes dans le volet Aide.** Vous pouvez utiliser le volet Aide pour chercher et afficher des enregistrements de tâche. Vous pouvez accéder au volet Aide en cliquant sur l'icône **?** dans la barre de navigation supérieure, ou vous pouvez utiliser la combinaison de touches de raccourci, **Ctrl+Shift+?**. Vous pouvez lire les étapes d'un enregistrement de tâche dans le volet Aide, ou vous pouvez choisir de lire l'enregistrement comme guide de tâche, ce qui vous guide dans l'IU.
 -   **Les enregistrements de tâches peuvent être enregistrés dans BPM.** Vous pouvez sauvegarder votre enregistrement de tâche dans une ligne de hiérarchie d'une bibliothèque BPM dans LCS (Lifecycle Services). Une liste des étapes et un schéma de flux de processus entreprise sera généré à partir de l'enregistrement. Les enregistrements de tâche qui ont été enregistrés dans une bibliothèque BPM peuvent être affichés en tant qu'aide.
 -   **Les enregistrements de tâche peuvent être enregistrés comme documents Word.** Cela permet de créer facilement des manuels de formation imprimables.
 
@@ -68,23 +68,23 @@ Que vous créiez un enregistrement de tâche à partir de rien ou en le fondant 
 
 Ceci est le volet de modification proposé lorsque vous ajoutez une annotation à mesure que vous créez votre enregistrement. Entrez une annotation de titre dans la zone **Titre**. 
 
-[![screen1](./media/screen1.png)](./media/screen1.png) 
+[![Volet Modification avec annotation de titre](./media/screen1.png)](./media/screen1.png) 
 
 Voilà à quoi ressemble l'annotation de titre dans la « bulle » dans le Guide de tâche. 
 
-[![screen2](./media/screen2.png)](./media/screen2.png)
+[![Apparence d'annotation de titre dans le guide de tâche](./media/screen2.png)](./media/screen2.png)
 
 -   **Remarques :** une annotation de remarque s'affiche après le texte d'étape généré automatiquement par l'enregistreur de tâche. Dans le guide de tâche, elle n'est visible que si l'utilisateur clique sur le lien **Afficher plus** dans la bulle du guide de tâche. Utilisez ce type d'annotation pour décrire tout ce que l'utilisateur a besoin de savoir pour effectuer l'étape.
 
 Ceci est le volet de modification proposé lorsque vous ajoutez une annotation à mesure que vous créez votre enregistrement. Entrez une annotation de notes dans la zone **Notes**. 
 
-[![screen3](./media/screen3.png)](./media/screen3.png) 
+[![Volet Modification avec annotation dans la zone Notes](./media/screen3.png)](./media/screen3.png) 
 
 Voilà à quoi ressemble l'annotation de notes dans la « bulle » dans le Guide de tâche.
 
-[![screen4](./media/screen4.png)](./media/screen4.png)
+[![Apparence d'annotation de notes dans le guide de tâche](./media/screen4.png)](./media/screen4.png)
 
--   **Étape d'informations** : Ces annotations sont créées en cliquant avec le bouton droit sur un contrôle ou n'importe où dans un écran &lt; **Enregistreur de tâches** &lt; **Ajouter une étape d'informations. **Les étapes d'informations s'affichent sous la forme d'une étape numérotée partout où vous les insérez, même si aucune action n'a été enregistrée dans l'IU. Vous pouvez ajouter une étape d'informations au niveau de l'écran ou une étape d'informations associée à un contrôle. Lorsqu'une étape d'informations est associée à un écran, la « bulle » du guide de tâche apparaît quelque part dans l'écran, sans pointeur, lors de la lecture du guide. Lorsqu'une étape d'informations est associée à un contrôle, la « bulle » du guide de tâche pointe vers le contrôle lors de la lecture du guide. Dans le volet Aide, une annotation d'étape d'informations s'affiche comme une étape numérotée, indépendamment du texte que vous avez entré. Utilisez les étapes d'informations pour préparer l'utilisateur pour les étapes suivantes, pour décrire les étapes qui doivent être effectuées en dehors de l'application, ou pour faire référence à d'autres enregistrements (bien que vous ne puissiez pas créer d'hyperliens dans les annotations).
+-   **Étape d'informations** : Ces annotations sont créées en cliquant avec le bouton droit sur un contrôle ou n'importe où dans un écran &lt; **Enregistreur de tâches** &lt; **Ajouter une étape d'informations. **Les étapes d'informations s'affichent sous la forme d'une étape numérotée partout où vous les insérez, même si aucune action n'a été enregistrée dans l'IU. Vous pouvez ajouter une étape d'informations au niveau de l'écran ou une étape d'informations associée à un contrôle. Lorsqu'une étape d'informations est associée à un écran, la « bulle » du guide de tâche apparaît quelque part dans l'écran, sans pointeur, lors de la lecture du guide. Lorsqu'une étape d'informations est associée à un contrôle, la « bulle » du guide de tâche pointe vers le contrôle lors de la lecture du guide. Dans le volet Aide, une annotation d'étape d'informations s'affiche comme une étape numérotée, indépendamment du texte que vous avez entré. Utilisez les étapes d'informations pour préparer l'utilisateur pour les étapes suivantes, pour décrire les étapes qui doivent être effectuées en dehors de l'application, ou pour faire référence à d'autres enregistrements (bien que vous ne puissiez pas créer d'hyperliens dans les annotations).
 
 **Déterminez la longueur votre enregistrement**
 

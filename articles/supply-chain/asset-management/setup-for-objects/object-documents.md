@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5b830d835d99122a8c0572481f4c229c37d97d0c
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024524"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653249"
 ---
 # <a name="asset-documents"></a>Documents d'actif
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Cette rubrique explique les documents d'actif dans le module Gestion des actifs.
 
-Dans le module Gestion des actifs, vous pouvez paramétrer des documents afin qu'ils soient automatiquement associés aux types de tâche, aux fabricants d'actif, aux types d'actif ou aux actifs, par exemple. Cette fonctionnalité est utile lorsque des versions de document mises à jour sont publiées. Dans ce cas, il vous suffit de placer le document mis à jour dans l'emplacement standard que vous utilisez pour vos documents Finance and Operations, et de joindre le document à l'enregistrement de document d'actif que vous avez créé. Le document mis à jour est ensuite accessible à partir des éléments de menu **Tous les actifs**, **Actifs actifs**, **Mes actifs actifs**, **Tous les ordres de travail** et **Tâches de l'ordre de travail actif**. Le processus pour joindre des documents à un enregistrement de document d'actif utilise le système de gestion des documents standard.
+Dans le module Gestion des actifs, vous pouvez paramétrer des documents afin qu'ils soient automatiquement associés aux types de tâche, aux fabricants d'actif, aux types d'actif ou aux actifs, par exemple. Cette fonctionnalité est utile lorsque des versions de document mises à jour sont publiées. Dans ce cas, il vous suffit de placer le document mis à jour dans l'emplacement standard que vous utilisez pour vos documents Supply Chain Management, et de joindre le document à l'enregistrement de document d'actif que vous avez créé. Le document mis à jour est ensuite accessible à partir des éléments de menu **Tous les actifs**, **Actifs actifs**, **Mes actifs actifs**, **Tous les ordres de travail** et **Tâches de l'ordre de travail actif**. Le processus pour joindre des documents à un enregistrement de document d'actif utilise le système de gestion des documents standard.
 
 **Exemple 1 :** un document associé à un type de tâche peut décrire une procédure pour ce type de tâche.
 

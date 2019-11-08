@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790494"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571160"
 ---
-# <a name="maintenance-request-states"></a>États de la demande de maintenance
+# <a name="maintenance-request-lifecycle-states"></a>États du cycle de vie de la demande de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Les états du cycle de vie de la demande de maintenance définissent les différentes étapes d'une demande. **Créé**, **Actif** et **Terminé** sont des exemples. Lorsqu'une demande de maintenance est convertie en bon de travail, l'état du cycle de vie de la demande de maintenance doit être mis jour sur **Terminé** ou **Clôturé** pour indiquer que la demande de maintenance n'est plus active. Dans la page de liste **Toutes les demandes de maintenance**, vous pouvez afficher toutes les demandes de maintenance, quel que soit leur état du cycle de vie.
@@ -51,7 +51,7 @@ Les états du cycle de vie de la demande de maintenance définissent les différ
 
 L'illustration suivante présente un exemple de la page **États du cycle de vie de la demande de maintenance**.
 
-![Figure 1](media/02-setup-for-requests.png)
+![Page États du cycle de vie de la demande de maintenance](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Les états du cycle de vie de la demande de maintenance, les groupes d'états du cycle de vie et les types sont liés et utilisés de la même manière que les états du cycle de vie de l'ordre de travail, les groupes d'états du cycle de vie et les types. 
@@ -80,4 +80,4 @@ Après avoir créé les états du cycle de vie requis pour vos demandes de maint
 
 L'illustration suivante présente un exemple de la page **Modèles de cycle de vie de la demande de maintenance**.
 
-![Figure 2](media/06-setup-for-requests.png)
+![Page Modèles de cycle de vie de la demande de maintenance](media/06-setup-for-requests.png)

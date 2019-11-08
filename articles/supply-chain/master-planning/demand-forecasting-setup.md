@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249563"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653509"
 ---
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
@@ -72,7 +72,7 @@ Pour générer la prévision, Supply Chain Management utilise un service Web Mac
 
 **Remarque :** le nom et la clé du compte de stockage Azure sont obligatoires uniquement si vous utilisez un compte personnalisé de stockage. Si vous déployez la version sur site, vous devez posséder un compte personnalisé de stockage sur Azure, afin que le service Machine Learning puisse accéder aux données historiques. 
 
-Pour créer des prévisions de la demande, vous pouvez déployer votre propre service à l'aide de Machine Learning Studio ou des expériences de prévision de la demande de Supply Chain Management. Des instructions pour déployer les expériences de prévision de demande sous forme de service Web sont disponibles dans Finance and Operations. Dans la page **Paramètres de prévision de la demande**, cliquez sur l'onglet **Azure Machine Learning**.
+Pour créer des prévisions de la demande, vous pouvez déployer votre propre service à l'aide de Machine Learning Studio ou des expériences de prévision de la demande de Supply Chain Management. Des instructions pour déployer les expériences de prévision de demande sous forme de service Web sont disponibles dans Supply Chain Management. Dans la page **Paramètres de prévision de la demande**, cliquez sur l'onglet **Azure Machine Learning**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Paramètres du service Machine Learning de prévision de la demande
 Pour afficher les paramètres qui peuvent être configurés pour le service de prévision de la demande, accédez à **Planification** &gt; **Configuration** &gt; **Prévision de la demande** &gt; **Paramètres de l'algorithme de prévision**. La page **Paramètres de l'algorithme de prévision** indique les valeurs par défaut des paramètres. Vous pouvez remplacer ces paramètres dans la page **Paramètres de prévision de la demande**. Utilisez l'onglet **Général** pour remplacer les paramètres globalement ou utilisez l'onglet **Clés de répartition par article** pour remplacer les paramètres par clé de répartition par article. Les paramètres qui sont remplacés pour une clé de répartition par article n'affectent que la prévision des articles associés à cette clé de répartition par article.

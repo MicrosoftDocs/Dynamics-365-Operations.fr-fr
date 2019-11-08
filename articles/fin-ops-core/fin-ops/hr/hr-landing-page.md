@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 828de71da3f16db9024b08c724eb784127b080dc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177840"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553161"
 ---
 # <a name="human-resources-overview"></a>Vue d'ensemble des ressources humaines
 
@@ -45,9 +45,9 @@ Le module Ressources humaines vous permet d'effectuer les tâches suivantes :
 
 Lorsque vous travaillez avec le module Ressources humaines, vous décidez comment structurer votre organisation, avec des éléments, tels que les départements, les tâches, et les postes. Il s'agit là des éléments fondamentaux que vous allez configurerez dans le module Ressources humaines. Les employés sont affectés à des postes associés à des tâches.
 
-- [Organisation du personnel à l'aide des départements, tâches et postes](../../talent/departments-jobs-positions.md)
-- [Définition des paramètres spécifiques à la société](../../talent/set-up-company-specific-hr-parameters.md)
-- [Configuration des paramètres RH dans les entités juridiques](../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Organisation du personnel à l'aide des départements, tâches et postes](../../../talent/departments-jobs-positions.md)
+- [Définition des paramètres spécifiques à la société](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Configuration des paramètres RH dans les entités juridiques](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Recruter, embaucher et motiver les employés
 
@@ -58,25 +58,25 @@ Les projets de recrutement permettent de gérer le contenu utilisé dans les ann
 
 Une fois que vous avez engagé du personnel, vous pouvez définir des plans pour gérer efficacement et équitablement la rémunération, ainsi que gérer les appareils tels que les ordinateurs ou les téléphones, que votre organisation prête à ses employés. Vous pouvez créer des régimes de rémunération fixe et variable, et définir des règles qui appliquent le régime de rémunération en fonction des critères de ce programme.
 
-- [Régimes de rémunération](../../talent/compensation-plans.md)
-- [Créer des régimes de rémunération fixe](../../talent/create-fixed-compensation-plans.md)
-- [Créer des régimes de rémunération variable](../../talent/create-variable-compensation-plans.md)
+- [Régimes de rémunération](../../../talent/compensation-plans.md)
+- [Créer des régimes de rémunération fixe](../../../talent/create-fixed-compensation-plans.md)
+- [Créer des régimes de rémunération variable](../../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Faire évoluer et former les employés
 
 Pour aider vos employés à atteindre leurs objectifs de carrière tout en répondant à vos besoins commerciaux essentiels, vous pouvez paramétrer des objectifs, créer des entretiens d'évaluation des performances et en suivre les résultats. Pour aider votre personnel à acquérir les qualifications nécessaires, vous pouvez également paramétrer des instructeurs, des types de cours, des formations, des descriptions de cours, des programmes, des suivis et des sessions avant d'affecter un instructeur à un cours, ou inscrire un employé à une formation. Les instructeurs doivent déjà exister en tant que collaborateurs, candidats ou contacts.
 
-- [Gestion des performances](../../talent/performance-management-overview.md)
-- [Aligner les qualifications du personnel aux besoins de l'entreprise](../../talent/skills.md)
-- [Administrer la formation via des cours](../../talent/courses.md)
+- [Gestion des performances](../../../talent/performance-management-overview.md)
+- [Aligner les qualifications du personnel aux besoins de l'entreprise](../../../talent/skills.md)
+- [Administrer la formation via des cours](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Créer des avantages et les tenir à jour
 
 En plus de rémunérer votre équipe avec des traitements, des salaires et des primes, vous pouvez créer des programmes d'avantages et des plans d'épargne retraite. Vous pouvez également gérer des avantages tels que les programmes de prêt, à travers lesquels votre société prête des actifs, tels que des ordinateurs ou à des téléphones, à ses employés.
 
-- [Gérer un programme d'avantages](../../talent/manage-benefit-program.md)
-- [Stratégies de droit aux avantages](../../talent/benefit-eligibility-policies.md)
-- [Gérer les articles prêtés aux collaborateurs](../../talent/loan-items.md)
+- [Gérer un programme d'avantages](../../../talent/manage-benefit-program.md)
+- [Stratégies de droit aux avantages](../../../talent/benefit-eligibility-policies.md)
+- [Gérer les articles prêtés aux collaborateurs](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Tenir à jour la conformité et la sécurité de l'espace de travail
 
@@ -90,7 +90,7 @@ Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail s
 
 Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu'il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
 
-- [Questionnaires](../../talent/questionnaires.md)
-- [Conception d'un questionnaire](../../talent/design-questionnaires.md)
-- [Distribuer et remplir un questionnaire](../../talent/distribute-questionnaires.md)
-- [Afficher et évaluer les résultats d'un questionnaire](../../talent/evaluate-questionnaire-results.md)
+- [Questionnaires](../../../talent/questionnaires.md)
+- [Conception d'un questionnaire](../../../talent/design-questionnaires.md)
+- [Distribuer et remplir un questionnaire](../../../talent/distribute-questionnaires.md)
+- [Afficher et évaluer les résultats d'un questionnaire](../../../talent/evaluate-questionnaire-results.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cff84f8f6c42fd064258b8ca53e24acc8059977
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175416"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658927"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Paramétrer des périodes de règlement fiscal
 
@@ -42,7 +42,7 @@ La société fictive USMF est citée en exemple dans cette tâche.
 9. Entrez le nombre d'unités de l'intervalle par période. Un trimestre a 3 mois, par exemple.
 10. Activez ou désactivez la case à cocher **Utiliser le traitement par lots pour le règlement de la taxe**. Le processus de règlement pour la période de règlement peut être traité en tant que traitement par lots en arrière-plan. Cette opération est recommandée pour un grand nombre de transactions de taxe dans un intervalle de périodes.  
     > [!NOTE]
-    > Pour le moment, elle n'est pas prise en charge en Autriche, Belgique, Espagne, Italie, Japon et Pays-Bas.
+    > Pour le moment, elle n'est pas prise en charge en Espagne, au Japon et aux Pays-Bas.
 11. Activez ou désactivez la case à cocher **Empêcher la génération des transactions de taxe de contrepartie**. Par défaut, le système génère des transactions de taxe de contrepartie au cours de le processus de règlement, ce qui peut entraîner des problèmes de performances s'il existe un grand nombre de transactions de taxe au sein d'un intervalle de périodes. Activez cette case à cocher pour empêcher la génération des transactions de taxe de contrepartie.
 12. Développez l'onglet **Intervalles de périodes**.
 13. Sélectionnez **Ajouter**.

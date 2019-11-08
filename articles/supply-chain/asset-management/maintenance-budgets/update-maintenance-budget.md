@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 486782968816cc585d9cf2d753f32e82f85e4f7e
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 8f3b771319eeb602a371500fdc69c68f88afe341
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874783"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571735"
 ---
 # <a name="update-maintenance-budgets"></a>Mettre à jour les budgets de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 La page **Lignes du budget de maintenance** présente toutes les lignes du budget créées pour le budget sélectionné sur la page **Budgets de maintenance**. (Pour plus d'informations, voir [Créer des budgets de maintenance](create-maintenance-budget.md).) Vous pouvez recalculer et ajuster les lignes du budget de maintenance jusqu'à ce que le budget de maintenance soit approuvé. Une fois la période du budget écoulée, et si les coûts ont été validés dans le module Gestion des actifs, vous pouvez également mettre à jour les lignes du budget avec les coûts réels.
 

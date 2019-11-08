@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 916e7b8d5d494dbae0659504957f7f0798a6834b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1a59b4bbf1a4612cea1ba3bd536ba4b018fc621f
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918370"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652331"
 ---
 # <a name="work-hour-control"></a>Contrôle de temps de travail
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Dans le module Gestion des actifs, vous pouvez calculer des heures pour obtenir une vue d'ensemble des heures réelles comparées aux heures budgétaires des actifs, des postes techniques ou des ordres de travail. Les heures réelles sont basées sur des transactions validées.
 
@@ -47,7 +47,11 @@ Les calculs effectués pour les actifs, les postes techniques et les ordres de t
 
 5. Sélectionnez « Oui » sur le bouton bascule **Ignorer lignes nulles** si vous ne souhaitez pas afficher les résultats ne contenant pas d'heure.
 
-6. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de contrôle des heures en fonction des postes techniques. Par exemple, si vous insérez le chiffre « 1 » dans le champ, et que vous avez une hiérarchie de postes techniques à plusieurs niveaux, toutes les lignes de contrôle des heures pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter les heures sur une ligne à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre « 0 » dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes de contrôle des heures sur tous les niveaux du poste technique auxquels elles sont liées.
+6. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de contrôle des heures en fonction des postes techniques. 
+
+    Par exemple, si vous insérez le chiffre « 1 » dans le champ, et que vous avez une hiérarchie de postes techniques à plusieurs niveaux, toutes les lignes de contrôle des heures pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter les heures sur une ligne à partir des postes techniques situés à un niveau inférieur. 
+    
+    Par exemple, si vous insérez le chiffre « 0 » dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes de contrôle des heures sur tous les niveaux du poste technique auxquels elles sont liées.
 
 7. Sélectionnez « Oui » sur le bouton à bascule **Inclure les sous-actifs** pour afficher les coûts associés aux sous-actifs comme lignes distinctes.
 
@@ -55,14 +59,18 @@ Les calculs effectués pour les actifs, les postes techniques et les ordres de t
 
 9. Cliquez sur **OK** pour démarrer le calcul.
 
-10. Sur la page **Contrôle des heures d'actif**, dans les groupes du volet Actions **Regrouper par…**, cliquez sur les boutons appropriés pour afficher le niveau requis de détail du calcul. Les boutons sélectionnés du volet Actions sont mis en surbrillance. Cliquez sur un bouton pour l'activer ou le désactiver.
+10. Sur la page **Contrôle des heures de l'actif**, cliquez sur le bouton **Grouper par**, cliquez sur les boutons appropriés à afficher le niveau requis de détail du calcul. Les boutons **Grouper par** sélectionnés sont mis en surbrillance. Cliquez sur un bouton pour l'activer ou le désactiver.
 
-L'illustration suivante présente un exemple de calcul de **contrôle des heures d'actif**.
+## <a name="example"></a>Exemple
 
-![Figure 1](media/04-controlling-and-reporting.png)
+La capture d'écran suivante présente un exemple de calcul de **contrôle des heures d'actif**.
 
-Une autre manière d'effectuer un calcul d'heures est de choisir plusieurs actifs dans **Tous les actifs** ou **Actifs actifs**. Ensuite, vous cliquez sur le bouton **Contrôle d'heure** sur l'organisateur **Général**. Les actifs sélectionnés sont insérés automatiquement dans le champ **Actif** sur l'organisateur **Enregistrements à inclure**. Cliquez sur **OK** dans la boîte de dialogue **Contrôle des heures d'actif**, et le calcul pour les actifs sélectionnés s'affiche. La même procédure peut être effectuée pour les postes techniques dans **Tous les postes techniques** ou **Postes techniques actifs**, et pour les ordres de travail dans **Tous les ordres de travail** ou **Ordres de travail actifs**.
+- Le champ **Budget d'origine** indique les heures budgétaires à partir des prévisions de l'ordre de travail. 
+- Le champ **Heures réelles** indique les heures validées sur les ordres de travail. 
+- Le champ **Heures engagées** indique les totaux horaires dans lesquels votre société s'engage en termes d'ordres de travail.
 
->[!NOTE]
->Le champ **Budget d'origine** indique les heures budgétaires à partir des prévisions de l'ordre de travail. Le champ **Heures réelles** indique les heures validées sur les ordres de travail. Le champ **Heures engagées** indique les totaux horaires dans lesquels votre société s'engage en termes d'ordres de travail.
+![Exemple de calcul de contrôle des heures de l'actif](media/04-controlling-and-reporting.png)
+
+Une autre manière d'effectuer un calcul d'heures est de choisir plusieurs actifs dans **Tous les actifs** ou **Actifs actifs**. Ensuite vous cliquez sur le bouton **Contrôle d'heure** sur l'organisateur **Général**. Les actifs sélectionnés sont insérés automatiquement dans le champ **Actif** sur l'organisateur **Enregistrements à inclure**. Cliquez sur **OK** dans la boîte de dialogue **Contrôle des heures d'actif**, et le calcul pour les actifs sélectionnés s'affiche. La même procédure peut être effectuée pour les postes techniques dans **Tous les postes techniques** ou **Postes techniques actifs**, et pour les ordres de travail dans **Tous les ordres de travail** ou **Ordres de travail actifs**.
+
 
