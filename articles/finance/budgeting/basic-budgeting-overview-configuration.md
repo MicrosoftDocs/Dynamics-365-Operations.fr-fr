@@ -18,14 +18,14 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 349f720ee4cfb612ca4f4f50a9e081f3343f756d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
+ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188692"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667458"
 ---
-# <a name="budgeting-overview"></a>Vue d'ensemble du budget 
+# <a name="budgeting-overview"></a>Vue d'ensemble du budget
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,6 +69,12 @@ Créez des *codes budget* qui identifient le type de transactions budgétaires p
 Les codes budget vous permettent de disposer d'une piste d'audit des modifications de budget approuvées tout au long du cycle budgétaire. Si un workflow est associé à un code budget, le workflow est activé pour toutes les écritures de registre budgétaires qui utilisent ce code budget, et les étapes de workflow doivent être effectuées avant que l'écriture de registre budgétaire atteigne le stade **Terminé**.  
 
 Le cas échéant, vous pouvez également paramétrer les *règles de transfert budgétaire*. Pour utiliser des règles de transfert budgétaire, sélectionnez **Utiliser des règles pour les transferts budgétaires** sur la page **Paramètres budgétaires**. Lorsque vous utilisez des règles de transfert budgétaire et qu'un utilisateur crée un document à l'aide d'un code budget de type **Transfert**, les soldes budgétaires ne sont pas mises à jour si les règles de transfert budgétaire sont violées. Par exemple, vous pouvez autoriser les documents de transfert budgétaire où le budget des dépenses est transféré entre les comptes principaux pour le département Ventes et marketing, mais interdire le transfert du budget de ou vers ce département sauf si l'approbation de workflow a été autorisé pour ce type d'écriture de compte budgétaire.
+
+La fonctionnalité qui a été introduite dans la version 10.0.7 de Microsoft Dynamics 365 Finance (janvier 2020) a apporté capacité et flexibilité aux écritures de registre budgétaires. Pour activer ces améliorations, accédez à l'espace de travail **Gestion des fonctionnalités** et sélectionnez **Écritures de registre budgétaires pour la quantité uniquement** et/ou **Défaillance d'écritures de registre budgétaires de type de montant**.
+
+La fonctionnalité **Écritures de registre budgétaires pour la quantité** uniquement vous permet de valider une écriture de registre budgétaire avec des montants réservés à la quantité. Par exemple, vous pouvez valider une écriture budgétaire avec une quantité de 32 et un prix de zéro, qui induit un montant à zéro. Vous pouvez ensuite utiliser cette quantité dans le contexte d'un rapport financier pour déterminer un prix par quantité. Notez qu'aucune recherche ou état n'a été mis à jour dans le cadre de cette fonctionnalité ; celle-ci permet simplement de valider un montant de zéro.
+
+La fonctionnalité **Défaillance d'écritures de registre budgétaires de type de montant** autorise que le type de montant par défaut dans une écriture de registre budgétaire soit un type de montant autre qu'une dépense. La ligne d'écriture de registre budgétaire prend désormais comme valeurs par défaut les dépenses lorsque le type de compte principal est celui des dépenses ; elle prend comme valeur par défaut le produit lorsque le type de compte principal est celui des dépenses ; et prend comme valeur par défaut la dépense pour tous les autres types de comptes.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Utilisation des espaces de travail et des pages de recherche effectuer le suivi du budget et des chiffres réels
 Le responsable du budget peut consulter l'état actuel d'un budget dans l'espace de travail **Budgets comptables et prévisions**. Les onglets **Dépense supérieure au budget** et **Produit inférieur au budget** fournissent un aperçu rapide des combinaisons de dimensions financières dans lesquelles les cibles de budget ne sont pas atteintes ou approchent du seuil. Vous pouvez personnaliser le pourcentage de seuil budgétaire et les ensembles de dimensions financières utilisés sous ces onglets en cliquant sur **Configurer mon espace de travail**. Vous pouvez cliquer sur **Responsable de l'unité** pour afficher les collaborateurs responsables des combinaisons de dimensions financières spécifiques sélectionnées sous ces onglets. Par exemple, si vous constatez que le budget de dépenses du département des opérations va dépasser le seuil budgétaire, vous pouvez facilement rechercher et contacter le responsable du département pour discuter du problème. 

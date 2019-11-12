@@ -3,7 +3,7 @@ title: Vues enregistrées
 description: Cette rubrique décrit l'utilisation des fonctionnalités de vues enregistrées.
 author: jasongre
 manager: AnnBe
-ms.date: 08/01/2019
+ms.date: 10/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 4b1bd7b869b68f82ce8056ac9f87a0d3bdce4102
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2f76c4e50649d3eda951940a2186348c29474dc6
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190877"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658665"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
@@ -37,9 +37,11 @@ Avec la personnalisation traditionnelle, les utilisateurs peuvent contenir un en
 
 -    Les vues créées pour les types spécifiques de page peuvent également inclure les filtres ou les tris ajoutés par l'utilisateur, ce qui permet aux utilisateurs de revenir rapidement aux jeux de données généralement filtrés. Voir la rubrique [Quelles pages prennent en charge les vue](saved-views.md#what-pages-support-views) pour plus de détails. 
 
--    Les vues peuvent être publiées aux rôles de sécurité, ce qui signifie que tous les utilisateurs de ce rôle peuvent accéder à cette vue et l'utiliser, indépendamment de la capacité de l'utilisateur de personnaliser. Cette capacité de publication permet aux organisations de définir les vues standard entreprise qui sont optimisées pour leur entreprise. Voir la rubrique [Gérer les personnalisations au niveau organisationnel avec des vues](saved-views.md#managing-personalizations-at-an-organizational-level-with-views) pour plus d'informations.
+-    Les vues peuvent être publiées aux utilisateurs ayant des rôles de sécurité spécifiques et dans des entités juridiques spécifiques. Par conséquent, n'importe quel utilisateur disposant d'un rôle spécifié dans une entité juridique spécifiée peut accéder et utiliser cette vue, même si cet utilisateur peut ne pas être en mesure de la personnaliser. Cette capacité de publication permet aux organisations de définir les vues standard entreprise qui sont optimisées pour leur entreprise. Pour plus d'informations, voir la section [Gérer les personnalisations au niveau organisationnel avec des vues](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
 
 -    Contrairement à une personnalisation traditionnelle, les vues ne sont pas enregistrées automatiquement lorsqu'un utilisateur effectue des personnalisations explicites ou filtre une liste. Des enregistrements explicites sont requis pour fournir la flexibilité en créant une vue avant ou après les modifications liées à cette vue soient effectuées et pour vous assurer que les définitions de vue ne sont pas involontairement modifiées par les filtres ou les personnalisations qui ne sont pas conçues pour l'utilisation à long terme.  
+
+-    Les vues peuvent être ajoutées aux espaces de travail en tant que vignettes, listes liens. Par conséquent, un jeu de données filtré peut être affiché sur un espace de travail, et les utilisateurs peuvent associer un ensemble de personnalisations pertinentes pour ce jeu de données avec la vignette ou le lien.
 
 ## <a name="switching-between-views"></a>Basculer entre les vues
 Une fois les vues activées pour un environnement, n'importe quelle page qui prend en charge les vues inclut un contrôle de sélecteur de vue réduit en haut de l'écran montrant le nom de la vue actuelle.  
@@ -52,9 +54,9 @@ Il existe deux variantes de taille pour le sélecteur de vue :
  
 Si vous cliquez sur le nom de vue, le sélecteur de vue s'ouvre et indique la liste des vues disponibles pour cette page
 
--    **Vue classique** : La vue classique est la vue prédéfinie de la page sans les personnalisations explicites appliquées.  
+-    **Vue standard** : La vue **Standard** (précédemment appelée **Classique** ) est la vue prête à l'emploi de la page, où aucune personnalisation explicite n'est appliquée.
 -    **Vues personnelles** : Les vues sans verrou représentent vos vues personnelles. Ce sont des vues que vous avez créées ou qu'un administrateur vous a données.  
--    **Vues verrouillées** : Certaines vues (telles que la vue Classique et toutes les vues publiées dans votre rôle) ont un cadenas en regard d'elles dans le sélecteur de vue, indiquant que vous ne pouvez pas modifier ces vues. Toutefois, les personnalisations implicites qui reflètent l'utilisation de page sont automatiquement enregistrées, par exemple modifier la largeur d'une colonne de grille ou développer ou réduire un organisateur. Vous pouvez, cependant, effectuer une vue personnelle selon une vue verrouillée à l'aide de l'action **Enregistrer une copie**, si vous avez des privilèges de personnalisation.
+-    **Vues verrouillées** : Certaines vues (par exemple la vue **Standard** et toutes les vues publiées pour votre rôle) ont un symbole du verrou en regard d'elles dans le sélecteur de vue. Ce symbole indique que vous ne pouvez pas modifier ces vues. Toutefois, les personnalisations implicites qui reflètent l'utilisation de la page sont automatiquement enregistrées. Ces personnalisations implicites incluent une modification de la largeur d'une colonne de la grille, ou un développement ou une réduction d'un organisateur. Toutefois, si vous disposez de privilèges de personnalisation, vous pouvez utiliser l'action **Enregistrer une copie** pour créer une vue personnelle basée sur la vue verrouillée.
 -    **Nouvelles vues** : Les vues publiées qui n'ont pas encore été ouvertes sont démarquées avec une étincelle à gauche du nom de vue.  
 
 Pour basculer vers une autre vue, ouvrez d'abord le sélecteur d'affichage et activer l'affichage que vous souhaitez charger. 
@@ -69,7 +71,7 @@ Si vous souhaitez enregistrer ces modifications, procédez comme suit.
 2.  Pour modifier la vue existante :
      1. Sélectionnez **Enregistrer**. Notez que cette action n'est pas activée pour les vues verrouillées. 
 3.  Pour créer une nouvelle vue :
-     1.    Sélectionnez **Enregistrer une copie**. 
+     1.    Sélectionnez **Enregistrer sous**. 
      2.    Entrez un nom de vue et (facultatif) une description.
      3.    Sélectionnez **Enregistrer**.
 
@@ -81,7 +83,7 @@ Pour modifier la vue par défaut d'une page, procédez comme suit :
 2.  Sélectionnez le nom de vue pour ouvrir le sélecteur de vue. 
 3.  Sélectionnez **Plus** puis sur **Épingler par défaut**.  
 
-Sinon, lorsque vous créez une vue (à l'aide l'action **Enregistrer une copie**), vous pouvez faire de cette nouvelle vue la vue par défaut en définissant l'option **Épingler par défaut** avant d'enregistrer la vue.  
+Sinon, lorsque vous créez une vue (à l'aide l'action **Enregistrer sous**), vous pouvez faire de cette nouvelle vue la vue par défaut en définissant l'option **Épingler par défaut** avant d'enregistrer la vue.
 
 Notez que dans certains cas, la requête associée à la vue par défaut ne s'exécute pas lorsque vous accédez d'abord à une page. Par exemple, si vous accédez à une page via une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. En outre, si vous accédez à une page dont la vue Classique a déjà une requête définie, la requête initiale s'exécutera initialement à la place de la requête par défaut de la vue. Dans ce cas, vous serez averti par un message d'information lorsque la vue se chargera. Basculer entre les vues après la page ait chargé doit permettre à la requête de vue de s'exécuter comme prévue.
 
@@ -97,24 +99,27 @@ Pour obtenir une liste des vues disponibles pour cette page, l'ensemble d'action
 Tous les modifications effectuées dans cette boîte de dialogue prennent effet après avoir sélectionné le bouton **Enregistrer**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Gérer les personnalisations au niveau organisationnel avec des vues
-Pour comprendre les améliorations dans la gestion des personnalisations au niveau organisationnel, observons d'abord la manière dont la gestion de la personnalisation fonctionne avant des vues.  
+Pour vous aider à comprendre comment les vues enregistrées permettent d'améliorer la gestion des personnalisations au niveau organisationnel, cette section décrit comment la gestion de la personnalisation fonctionnait avant que les vues soient disponibles.
 
-Sans les vues, les administrateurs appliqueraient un ensemble de personnalisations pour une page à un utilisateur ou un groupe d'utilisateurs via la page de personnalisation. Si ces utilisateurs avaient des droits de personnalisation, les personnalisations seraient appliquées à cette page. Toutefois, il n'y avait aucune possibilité d'empêcher les utilisateurs de personnaliser davantage la page, qui signifiait que l'organisation ne pouvait pas garantir que les utilisateurs aient une interface utilisateur cohérente. Si l'un de ces utilisateurs n'avait de droits de personnalisation, les personnalisations accordées par un administrateur n'étaient pas chargées. De plus, si de nouveaux utilisateurs étaient engagés dans une organisation, les administrateurs devaient charger manuellement un ensemble de personnalisations pour l'utilisateur. Il n'y avait aucun mécanisme automatique pour indiquer qu'un certain ensemble de personnalisations devait être disponible pour les utilisateurs dotés de ce rôle.
+Sans les vues, les administrateurs appliqueraient un ensemble de personnalisations pour une page à un utilisateur ou un groupe d'utilisateurs via la page de personnalisation. Si ces utilisateurs avaient des droits de personnalisation, les personnalisations seraient appliquées à cette page. Toutefois, il n'y avait aucune possibilité d'empêcher les utilisateurs de personnaliser davantage la page, qui signifiait que l'organisation ne pouvait pas garantir que les utilisateurs aient une interface utilisateur cohérente. Si l'un de ces utilisateurs n'avait pas de droits de personnalisation, les personnalisations accordées par un administrateur n'étaient pas chargées. De plus, si de nouveaux utilisateurs étaient engagés dans une organisation, les administrateurs devaient charger manuellement un ensemble de personnalisations pour l'utilisateur. Il n'y avait aucun mécanisme automatique pour indiquer qu'un certain ensemble de personnalisations devait être disponible pour les utilisateurs dotés de ce rôle.
 
-Avec la fonctionnalités des vues enregistrées, la gestion organisationnelle des personnalisations est sensiblement plus simple, principalement en raison de la capacité de publier des vues aux rôles de sécurité. Une fois une vue publiée, tous les utilisateurs de ce rôle peuvent accéder à cette vue et l'utiliser, indépendamment de la capacité de l'utilisateur de personnaliser. Bien que chaque utilisateur ait une copie de la vue publiée dans laquelle l'utilisation de page (personnalisations implicites) est automatiquement appliquée, aucun utilisateur ne peut enregistrer de personnalisations ou de mises à jour explicites dans la requête de la vue publiée (c'est-à-dire que les vues publiées sont verrouillées). En outre, si de nouveaux utilisateurs se voient attribuer un rôle dans lequel la vue a té publiée, ils pourront afficher automatiquement les vues associées à leurs rôles sans aucune action de l'administrateur. De même, si un utilisateur modifie les rôles d'une organisation, les vues associées à leur ancien rôle ne seront plus accessibles pour eux, une fois encore sans aucune action de l'administrateur. Les mises à jour d'une vue publiée peuvent être facilement distribuées aux utilisateurs en publiant à nouveau la vue dans les rôles de sécurité appropriés.
+La fonctionnalité des vues enregistrées rend la gestion organisationnelle des personnalisations sensiblement plus simple, principalement car les vues peuvent être publiées pour des groupes d'utilisateurs. Une fois qu'une vue a été publiée, tout utilisateur ayant l'un des rôles de sécurité définis et est dans les entités juridiques spécifiques pourra accéder et utiliser la vue, même si cet utilisateur peut ne pas être autorisé à la personnaliser. Bien que chaque utilisateur ait une copie de la vue publiée où l'utilisation de page (personnalisations implicites) est automatiquement appliquée, aucun utilisateur ne peut enregistrer de personnalisations ou de mises à jour de requêtes explicites dans la vue publiée. (Autrement dit, les vues publiées sont verrouillées.) En outre, si de nouveaux utilisateurs se voient attribuer des rôles dans les entités juridiques où des vues ont été publiées, ils ont accès automatiquement aux vues associées à leurs rôles et entités juridiques. Aucune action supplémentaire n'est requise par l'administrateur. De même, si les utilisateurs modifient les rôles d'une organisation ou sont autorisés à accéder à différentes entités juridiques, ils peuvent ne plus être en mesure d'accéder aux vues qui ont été précédemment publiées pour eux. Là aussi, aucune action supplémentaire n'est requise par l'administrateur.
+
+Les mises à jour d'une vue publiée peuvent être facilement distribuées aux utilisateurs en publiant à nouveau la vue dans les rôles de sécurité et entités juridiques appropriés.
 
 La capacité de publication permet aux organisations de définir les vues standard entreprise qui sont optimisées pour leur entreprise, ciblées selon les utilisateurs dans des rôles de sécurité spécifiques.  
 
 ## <a name="publishing-views"></a>Publier des vues
-Lors du processus de publication, les vues peuvent être affectées à un ou plusieurs rôles de sécurité, ce qui signifie que tous les utilisateurs de ce rôle peuvent accéder à cette vue et l'utiliser, bien qu'ils ne puissent pas modifier la vue. Actuellement, seuls les administrateurs système ont des droits pour l'action **Publier** dans le menu déroulant du sélecteur de vue, mais un nouveau rôle de sécurité sera disponible dans une prochaine mise à jour pour donner des droits de publication à d'autres utilisateurs approuvés.  
+Lors du processus de publication, les vues peuvent être affectées à un ou plusieurs rôles de sécurité pour une ou plusieurs entités juridiques. Par conséquent, tout utilisateur ayant accès à une entité juridique et affecté à un de ces rôles peut accéder à et utiliser les vues, bien qu'ils ne puissent pas les modifier. Les administrateurs système ont accès à l'action **Publier** dans le menu déroulant du sélecteur de vue. Toutefois, d'autres utilisateurs approuvés de votre organisation peuvent également se voir octroyer un accès pour afficher les publications via le nouveau rôle **Administrateur des vues enregistrées**.
 
 Pour publier une vue, procédez comme suit : 
 1.  Créez et enregistrez une copie personnelle de la vue à publier. 
 2.  Avec cette vue actuellement chargée, sélectionnez le nom de vue pour ouvrir le menu déroulant du sélecteur de vue. 
 3.  Sélectionnez le bouton **Plus**, puis sélectionnez **Publier**. La boîte de dialogue Publier s'affiche.  
-4.  Fournissez un nom et (facultatif) une description pour la vue. Il s'agit du nom que les utilisateurs qui reçoivent cette vue verront dans leurs sélecteurs de vue. Notez qu'aucun doublon de nom pour les vues publiées n'est autorisé pour une page, même si la liste des rôles auxquelles ils sont appliqués diffèrent.  
-5.  Ajoutez tous les rôles de sécurité qui correspondent aux utilisateurs qui obtiendront cette vue.  
-6.  Sélectionnez **Publier**.
+4.  Entrez un nom et (facultatif) une description pour la vue. Le nom que vous entrez est celui que les utilisateurs qui reçoivent cette vue verront dans leurs sélecteurs de vue. Les noms des vues publiées pour une page doivent être uniques. Aucun doublon de nom n'est autorisé, même si la liste des rôles ou des entités juridiques auxquelles les vues sont appliquées diffèrent.
+5.  Ajoutez les rôles de sécurité qui correspondent aux utilisateurs ciblés par cette vue.
+6. Ajoutez les entités juridiques pour lesquelles cette vue doit être disponible. 
+7.  Sélectionnez **Publier**.
 
 Notez que dans certains environnements, il peut prendre un certain temps (jusqu'à une heure) avant que les utilisateurs voient la vue publiée.
 
@@ -142,7 +147,7 @@ Bien que tous les utilisateurs voient un onglet **Mes vues** affichant leurs vue
 
 Pour obtenir la liste de toutes les vues publiées pour la page, l'ensemble d'actions suivant est disponibles. 
 
--    **Publier** : Utilisez l'action **Publier** pour republier une vue avec des paramètres de publication modifiés (nom, description, rôles de sécurité).  
+-    **Publier** : Utilisez l'action **Publier** pour republier une vue après que les paramètres de publication (nom, description, rôles de sécurité ou entités juridiques) ont été modifiés.
 -    **Supprimer** : Utilisez l'action **Supprimer** pour supprimer définitivement une vue publiée. Cette action permet de supprimer la vue pour tous les utilisateurs du système.  
  
 Tous les modifications effectuées dans cette boîte de dialogue prennent effet après avoir sélectionné le bouton **Enregistrer**.
@@ -161,7 +166,9 @@ Pour activer des vues enregistrées lorsque la fonctionnalité est en version pr
 
 4.  **Activer la fonctionnalité** : Recherchez la fonctionnalité **Vues enregistrées** dans la liste des fonctionnalités, puis sélectionnez **Activer maintenant** dans le volet des détails.
 
-Toutes les sessions utilisateur suivantes démarreront avec les vues enregistrées activées.  
+Toutes les sessions utilisateur suivantes démarreront avec les vues enregistrées activées.
+
+Vues enregistrées est réservé à une utilisation dans des environnements de Niveau 1 (Dev/Test) ou de Niveau 2 (Sandbox) afin de fournir des modifications supplémentaires de test et de conception. Un aperçu de Vues enregistrées sera disponible dans les environnements de production dans une version future.
 
 Notez que si la personnalisation est désactivée pour l'environnement, les vues sont désactivées même si vous suivez la procédure ci-dessus. Cela est dû au fait que la fonctionnalité de vues repose sur le sous-système de personnalisation.
 
@@ -172,7 +179,7 @@ Lorsque les vues est activée, toutes les personnalisations existantes pour un u
 Les vues sont disponibles sur la plupart des pages, mais pas toutes. Spécifiquement, les vues sont actuellement disponibles sur toutes les pages en plein écran à l'exception des tableaux de bord et des espaces de travail. Les pages qui ne sont pas en plein écran, qui incluent des boîtes de dialogue, les boîtes de dialogue de menu déroulant, les recherches, les aperçus optimisés, ne prennent actuellement pas non plus en charge les vues. La prise en charge des vues pour d'autres types de pages, tels que des espaces de travail et boîtes de dialogue, peut être envisagée pour une prochaine mise à jour.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>Qui est autorisé à publier des vues ?
-Actuellement, les administrateurs système sont les seuls utilisateurs disposant de droits pour publier des vues.  Un nouveau rôle de sécurité est prévu dans une prochaine mise à jour, qui fournira aux clients plus de flexibilité concernant qui peut publier.  
+Seuls les administrateurs et les utilisateurs du système qui ont été affectés au rôle **Administrateur de vues enregistrées** ont les droits requis pour publier des vues. 
 
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Pourquoi ne puis-je pas enregistrer des filtres avec cette vue ? 
 Il existe certaines raisons pour lesquelles un filtre peut ne pas apparaître à enregistrer avec une vue : 

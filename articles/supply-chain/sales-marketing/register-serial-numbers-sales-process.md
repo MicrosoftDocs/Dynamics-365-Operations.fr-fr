@@ -19,18 +19,16 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d655015a2048bb8e7d85d8ea3679b8b2506caf10
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251314"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2572104"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Numéros de série de la caisse enregistreuse dans le processus de vente
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Cette rubrique explique comment vous pouvez enregistrer des numéros de série sur des bons de livraison ou des factures pendant le processus de vente. Cette fonctionnalité est utile si une société souhaite capturer des numéros de série à des fins de service et de garantie, sans avoir à mettre à jour des numéros de série dans le stock de la réception à la sortie.
 

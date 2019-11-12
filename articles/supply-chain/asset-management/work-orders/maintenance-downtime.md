@@ -3,7 +3,7 @@ title: Temps d'arrêt pour maintenance
 description: Cette rubrique décrit le temps d'arrêt pour maintenance dans le module Gestion des actifs.
 author: josaw1
 manager: AnnBe
-ms.date: 08/23/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,78 +16,76 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc79dc1b5911679586fa560142ada5add1a881d2
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: ad9f1b2a0e63b4fb0d6daceb451c3a1dc1ec7de7
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918242"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626150"
 ---
 # <a name="maintenance-downtime"></a>Temps d'arrêt pour maintenance
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Vous pouvez créer des enregistrements de temps d'arrêt pour maintenance sur l'actif sélectionné sur un ordre de travail. Cela est utile si vous souhaitez enregistrer le temps d'arrêt pour maintenance sur une ou plusieurs machines dans la zone de production. Premièrement, vous pouvez créer des codes motif de temps d'arrêt pour maintenance que vous souhaitez utiliser, par exemple, la répartition et l'arrêt planifié. Cela est effectué dans **Codes motif de temps d'arrêt pour maintenance**. Ensuite, vous pouvez créer des enregistrements de temps d'arrêt pour maintenance dans **Temps d'arrêt pour maintenance** et ajouter des codes motif appropriés.
+Vous pouvez créer des enregistrements de temps d'arrêt pour maintenance sur l'actif sélectionné sur un ordre de travail. Cette capacité est utile si vous souhaitez enregistrer le temps d'arrêt pour maintenance sur une ou plusieurs machines dans la zone de production. Premièrement, vous pouvez créer des codes motif de temps d'arrêt pour maintenance que vous souhaitez utiliser, par exemple, la **répartition** et **l'arrêt planifié**. Cette étape s'effectue sur la page **Codes motif de temps d'arrêt pour maintenance**. Vous pouvez ensuite créer des enregistrements de temps d'arrêt pour maintenance sur la page **Temps d'arrêt pour maintenance** et ajouter des codes motif de temps d'arrêt pour maintenance appropriés.
 
 ## <a name="create-maintenance-downtime-reason-codes"></a>Créer des codes motif de temps d'arrêt pour maintenance
 
-1. Cliquez sur **Gestion des actifs** > **Configuration** > **Ordres de travail** > **Codes motif de temps d'arrêt pour maintenance**.
+1. Sélectionnez **Gestion des actifs** > **Configuration** > **Ordres de travail** > **Codes motif de temps d'arrêt pour maintenance**.
 
-2. Cliquez sur **Nouveau**.
+2. Sélectionnez **Nouveau**.
 
-3. Insérez un ID dans le champ **Code motif de temps d'arrêt pour maintenance**.
+3. Dans le champ **Code motif de temps d'arrêt pour maintenance**, entrez un ID de code motif de temps d'arrêt pour maintenance.
 
-4. Insérez un nom pour le code motif dans le champ **Nom**.
+4. Dans le champ **Nom**, entrez un nom.
 
-5. Sélectionnez la case à cocher **Les indicateurs de performance clés incluent** si le code motif doit être inclus dans les calculs des indicateurs de performance clés des actifs. En général, les arrêts de production planifiés ne doivent pas être inclus dans les calculs des indicateurs de performance clés puisqu'ils n'ont pas d'impact sur les performances prévues.
+5. Activez la case à cocher **Les indicateurs de performance clés incluent** si le code motif doit être inclus dans les calculs des indicateurs de performance clés pour l'actif. En général, les arrêts de production planifiés ne doivent pas être inclus dans les calculs des indicateurs de performance clés, car ils n'affectent pas les performances prévues.
 
-6. Cliquez sur **Enregistrer**.
+6. Sélectionnez **Enregistrer**.
+
+L'illustration ci-dessous présente un exemple de la page **Codes motif des temps d'arrêt pour maintenance**.
 
 ![Figure 1](media/15-work-orders.png)
 
-
-Lorsque vous avez créé les codes motif de temps d'arrêt pour maintenance que vous souhaitez utiliser, vous pouvez créer les enregistrements des temps d'arrêt pour maintenance pour les ordres de travail et les actifs.
+Après avoir créé les codes motif de temps d'arrêt pour maintenance que vous souhaitez utiliser, vous pouvez créer les enregistrements des temps d'arrêt pour maintenance pour les ordres de travail et les actifs.
 
 
 ## <a name="create-maintenance-downtime-registrations"></a>Créer des enregistrements de temps d'arrêt pour maintenance
 
 1. Cliquez sur **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
-2. Sélectionnez l'ordre de travail et cliquez sur **Temps d'arrêt pour maintenance**.
+2. Sélectionnez l'ordre de travail puis, sous l'onglet **Ordre de travail**, dans le groupe **Actif**, sélectionnez **Temps d'arrêt pour maintenance**.
 
-3. Cliquez sur **Nouveau**.
+3. Sélectionnez **Nouveau**.
 
-4. Insérez l'intervalle de date pour l'enregistrement du temps d'arrêt pour maintenance dans les champs **De** et **À**.
+4. Dans les champs **De** et **À**, définissez l'intervalle de date et d'heure pour l'enregistrement du temps d'arrêt pour maintenance.
 
-5. Lorsque vous quittez le champ **À**, la durée en heures est automatiquement insérée dans le champ **Durée**.
+>[!NOTE]
+>Lorsque vous quittez le champ **À**, la durée en heures est automatiquement insérée dans le champ **Durée**.
 
-6. Sélectionnez un code motif dans le champ **Code motif de temps d'arrêt pour maintenance**.
+5. Dans le champ **Code motif de temps d'arrêt pour maintenance**, sélectionnez un code motif.
 
-7. Répétez les étapes 3-6 si vous souhaitez ajouter plus d'enregistrements.
+6. Répétez les étapes 3 à 5 pour ajouter d'autres inscriptions.
 
-8. Cliquez sur **Enregistrer**.
+7. Sélectionnez **Enregistrer**.
 
+L'illustration ci-dessous présente un exemple d'inscription de temps d'arrêt pour maintenance.
 
 ![Figure 2](media/16-work-orders.png)
 
-
-Le calendrier utilisé pour calculer un enregistrement de temps d'arrêt pour maintenance dépend de votre sélection dans la configuration des actifs et des paramètres. Si une ressource est sélectionnée sur un actif dans le champ **Tous les actifs** >  organisateur **Immobilisation** > **Ressource**, la configuration du calendrier pour le groupe de ressources associé est utilisé, comme indiqué sur la figure suivante.
+Le calendrier qui est utilisé pour calculer un enregistrement de temps d'arrêt pour maintenance dépend de votre sélection dans la configuration des actifs et des paramètres. Si une ressource est sélectionnée sur un actif dans le champ **Ressource** de l'organisateur **Immobilisation** de la page **Tous les actifs**, la configuration du calendrier pour le groupe de ressources associé est utilisé, comme indiqué sur l'illustration suivante.
 
 ![Figure 3](media/17-work-orders.png)
 
-
-Si aucune ressource n'est sélectionnée sur l'actif, le calendrier standard sélectionné dans **Paramètres de gestion des actifs** est utilisé, comme indiqué sur la figure suivante.
+Si aucune ressource n'est sélectionnée sur l'actif, le calendrier standard sélectionné sur la page **Paramètres de gestion des actifs** est utilisé, comme indiqué sur l'illustration suivante.
 
 ![Figure 4](media/18-work-orders.png)
 
-
-Cliquez sur **Gestion des actifs d'entreprise** > **Recherches** > **Temps d'arrêt pour maintenance** pour afficher une vue d'ensemble de tous les enregistrements de temps d'arrêt pour maintenance.
+Pour afficher une vue d'ensemble de tous les enregistrements de temps d'arrêt pour maintenance, cliquez sur **Gestion des actifs** > **Recherches** > **Temps d'arrêt pour maintenance**.
 
 >[!NOTE]
->Tous les calendriers utilisés dans le module **Gestion des actifs** sont configurés dans **Administration d'organisation** > **Configuration** > **Calendriers** > **Calendriers**.
+>Tous les calendriers qui sont utilisés dans le module **Gestion des actifs** sont configurés dans **Administration d'organisation** > **Configuration** > **Calendriers** > **Calendriers**.
 

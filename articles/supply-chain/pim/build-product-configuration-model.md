@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249492"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653646"
 ---
 # <a name="product-configuration-overview"></a>Vue d'ensemble de la configuration du produit
 
@@ -73,7 +73,7 @@ Les contraintes de table peuvent être définies par l'utilisateur ou par le sys
 
 Une contrainte de table définie par l'utilisateur est élaborée par l'utilisateur. L'utilisateur sélectionne une combinaison des types d'attributs pour représenter les colonnes de la table puis entre les valeurs provenant des domaines des types d'attributs sélectionnés pour former les lignes de la contrainte de table.  
 
-Une contrainte de table définie par le système est définie en sélectionnant quelle table doit être utilisée comme référence, puis en sélectionnant les champs de cette table pour former les colonnes de la contrainte. Les lignes de la contrainte de table sont les lignes de la table Finance and Operations qui sont présentes au moment de la configuration.  
+Une contrainte de table définie par le système est définie en sélectionnant quelle table doit être utilisée comme référence, puis en sélectionnant les champs de cette table pour former les colonnes de la contrainte. Les lignes de la contrainte de table sont les lignes de la table Supply Chain Management qui sont présentes au moment de la configuration.  
 
 Une contrainte de table est incluse dans un modèle de configuration de produit en référençant la définition de contrainte de table et en mettant en correspondance les attributs pertinents dans le modèle avec les colonnes dans la contrainte de table.
 

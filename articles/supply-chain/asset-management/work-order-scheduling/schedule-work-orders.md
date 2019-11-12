@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887226"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652147"
 ---
 # <a name="schedule-work-orders"></a>Planifier des ordres de travail
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Cette rubrique explique comment planifier des ordres de travail dans le module Gestion des actifs. Le nombre d'heures requises pour un ordre de travail est défini par la somme des heures prévues sur les tâches de l'ordre de travail moins les heures validées. Si plus de temps est nécessaire, les prévisions sur l'ordre de travail doivent être ajustées en conséquence. Dans **Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**, vous pouvez afficher ou modifier des prévisions sur un ordre de travail en sélectionnant l'ordre de travail et en cliquant sur **Prévisions** sur l'onglet **Ordre de travail** . Lorsque les ordres de travail ont été créés et estimés, l'étape suivante consiste à répartir les agents et les outils nécessaires de maintenance pour exécuter les ordres de travail.
+Cette rubrique explique comment planifier des ordres de travail dans le module Gestion des actifs. 
+
+Le nombre d'heures requises pour un ordre de travail est défini par la somme des heures prévues moins les heures validées. Si plus de temps est nécessaire, les prévisions doivent être ajustées en conséquence. Dans **Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**, vous pouvez afficher ou modifier des prévisions sur un ordre de travail en sélectionnant l'ordre de travail et en cliquant sur **Prévisions** sur l'onglet **Ordre de travail** . Lorsque les ordres de travail ont été créés et estimés, l'étape suivante d'exécution des ordres de travail consiste à répartir les agents et les outils nécessaires de maintenance.
 
 Seuls les ordres de travail avec un état du cycle de vie de l'ordre de travail qui permet la planification peuvent être planifiés. Autoriser la planification est configuré dans **Gestion des actifs** > **Paramétrage** > **Ordres de travail** > **États du cycle de vie** > **Général** organisateur > bouton à bascule **Autoriser la planification**.
 
@@ -43,8 +45,8 @@ Seuls les ordres de travail avec un état du cycle de vie de l'ordre de travail 
 
 4. Dans la boîte de dialogue **Planifier les ordres de travail**, vous pouvez ajouter des sélections concernant la date de début prévue et le niveau de service, le cas échéant. Si le processus de planification doit respecter des limites de capacité pour les ressources déjà planifiées avec d'autres tâches, assurez-vous que les boutons à bascule **Actif**, **Outil** et **Collaborateur** sont définis sur « Oui ».
 
->[!NOTE]
->Si vous définissez les boutons à bascule **Actif**, **Outil** et **Agent** sur « Non », les réservations existantes seront ignorées. Dans la fenêtre Infos, une liste des planifications des ordres de travail se chevauchant s'affiche, et vous pouvez cliquer sur les messages pour ouvrir un ordre de travail et replanifier, le cas échéant.
+    [!NOTE]
+    Si vous définissez les boutons à bascule **Actif**, **Outil** et **Agent** sur « Non », les réservations existantes seront ignorées. Dans la fenêtre Infos, une liste des planifications des ordres de travail se chevauchant s'affiche, et vous pouvez cliquer sur les messages pour ouvrir un ordre de travail et replanifier, le cas échéant.
 
 5. Pour afficher des informations détaillées sur le processus de planification, sélectionnez « Oui » sur le bouton à bascule **Détaillé**. Cela signifie que des informations détaillées sur les scores calculés sur les ordres de travail et les agents de maintenance sont affichées dans la fenêtre Infos.
 
@@ -110,9 +112,11 @@ Les scores concernant le calcul du travail des agents de maintenance sur les ord
 | Date de début du collaborateur               | Pour chaque date à laquelle la date de début prévue est ultérieure à la date de début prévue, le score est soustrait.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 >[!NOTE]
->Si un score est défini sur « 0 », ce score n'est pas calculé. Cela est utile si, par exemple, si vous ne voulez pas inclure l'agent responsable dans votre planification.
+>Si un score est défini sur « 0 », ce score n'est pas calculé. Cela est utile si, par exemple, si vous ne voulez pas inclure d'agent responsable dans votre planification.
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>Compétences utilisées dans la planification des ordres de travail
 
-Les exigences en matière de qualifications et de certificat peuvent être paramétrés sur les types de tâches de maintenance (**Gestion des actifs** > **Paramétrage** > **Tâches** > **Types de tâches de maintenance**) et les opérations des tâches de maintenance (**Gestion des actifs** > **Paramétrage** > **Tâches** > **Opération de tâche de maintenance**). Les types de tâche de maintenance et les opérations de tâche de maintenance sont sélectionnées sur les tâches de l'ordre de travail. Si des qualifications ou des certificats ont été sélectionnés sur un type de tâche de maintenance ou sur une opération de tâche de maintenance, et si ce type de tâche de maintenance ou cette opération de tâche de maintenance est utilisé(e) sur une tâche de tâche de maintenance, seuls les agents de maintenance avec des qualifications et des certificats correspondants sont prévus pour travailler sur l'ordre de travail.
+Les exigences en matière de qualifications et de certificat peuvent être paramétrés sur les types de tâches de maintenance (**Gestion des actifs** > **Paramétrage** > **Tâches** > **Types de tâches de maintenance**) et les opérations des tâches de maintenance (**Gestion des actifs** > **Paramétrage** > **Tâches** > **Opération de tâche de maintenance**). 
+
+Les types de tâche de maintenance et les opérations de tâche de maintenance sont sélectionnées sur les tâches de l'ordre de travail. Si des qualifications ou des certificats ont été sélectionnés sur un type de tâche de maintenance ou sur une opération de tâche de maintenance, et si ce type de tâche de maintenance ou cette opération de tâche de maintenance est utilisé(e) sur une tâche de tâche de maintenance, seuls les agents de maintenance avec des qualifications et des certificats correspondants sont prévus pour travailler sur l'ordre de travail.
 

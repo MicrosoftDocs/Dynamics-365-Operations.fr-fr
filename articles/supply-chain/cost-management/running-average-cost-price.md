@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e14f38baaef32c72761594147feca8d08651a050
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7957b2a9cb24dcc61e3113bfd3cc3b1fa1e6d0a6
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547696"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569246"
 ---
 # <a name="running-average-cost-price"></a>Prix de revient moyen en cours
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 La clôture du stock règle les transactions de sortie avec des transactions de réception sur la base du modèle d'évaluation du stock sélectionné dans le groupe de modèles d'article associé à l'article. Toutefois, avant d'exécuter la clôture du stock, le système calcule un prix de revient moyen en cours qui est généralement utilisé lorsque les transactions de sortie sont validées.
 

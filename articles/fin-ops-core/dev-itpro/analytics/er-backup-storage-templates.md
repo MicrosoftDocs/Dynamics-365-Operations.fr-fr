@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8b4e783f79b02c77a27fc59c2f4be8a192f2f476
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248698"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553089"
 ---
 # <a name="backup-storage-of-er-templates"></a>Stockage de sauvegarde des modèles de gestion des états électroniques
 
@@ -33,7 +33,7 @@ La [structure de gestion des états électroniques (ER)](general-electronic-repo
 
 Chaque format configuré peut être publié dans le cadre d'une solution de gestion des états électroniques. Chaque solution de gestion des états électroniques peut être exportée d'une instance de Finance and Operations, puis importée vers une autre instance.
 
-La structure de gestion des états électroniques utilise le [Cadre de gestion des documents](../../fin-and-ops/organization-administration/configure-document-management.md) pour conserver les modèles requis pour l'instance actuelle de Finance and Operations. En fonction des paramètres de la structure de gestion des états électroniques, le stockage d'objets blob Microsoft Azure ou un dossier Microsoft SharePoint peut être sélectionné comme emplacement physique de stockage principal pour les modèles. (Pour plus d'informations, voir [Configuration de la structure de gestion des états électroniques](electronic-reporting-er-configure-parameters.md).) La table de DocuValue tient à jour un enregistrement individuel pour chaque modèle. Dans chaque enregistrement, le champ **AccessInformation** enregistre le chemin d'un fichier de modèle situé à l'emplacement de stockage configuré.
+La structure de gestion des états électroniques utilise le [Cadre de gestion des documents](../../fin-ops/organization-administration/configure-document-management.md) pour conserver les modèles requis pour l'instance actuelle de Finance and Operations. En fonction des paramètres de la structure de gestion des états électroniques, le stockage d'objets blob Microsoft Azure ou un dossier Microsoft SharePoint peut être sélectionné comme emplacement physique de stockage principal pour les modèles. (Pour plus d'informations, voir [Configuration de la structure de gestion des états électroniques](electronic-reporting-er-configure-parameters.md).) La table de DocuValue tient à jour un enregistrement individuel pour chaque modèle. Dans chaque enregistrement, le champ **AccessInformation** enregistre le chemin d'un fichier de modèle situé à l'emplacement de stockage configuré.
 
 Lorsque vous gérez vos instances Finance and Operations, vous pouvez décider de migrer l'instance actuelle vers un autre emplacement. Par exemple, vous pouvez migrer votre instance de production vers un nouvel environnement de bac à sable. So vous n'avez pas configuré la structure de la gestion des états électroniques pour stocker les modèles dans un stockage d'objets blob, la table DocuValue du nouvel environnement de bac à sable fait référence à l'instance de stockage d'objets blob dans l'environnement de production. Cependant, cette instance n'est pas accessible depuis l'environnement de bac à sable, car le processus de migration n'est pas compatible avec la migration des artefacts dans le stockage d'objets blob. Par conséquent, si vous essayez d'exécuter un format de gestion d'états électroniques qui utilise un modèle pour générer des documents commerciaux, une exception survient et vous êtes averti du modèle manquant. Vous êtes également invité à utiliser l'outil de nettoyage des états électroniques pour supprimer, puis réimporter la configuration du format des états électroniques qui contient le modèle. En raison des nombreuses configurations du format de gestion des états électroniques, ce processus peut se révéler chronophage.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432a235668bbd969f497003a98b7f66390e5308f
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 63f436ffd01ac56bb4bc0021e226dad46d7c3377
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790492"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569913"
 ---
 # <a name="responsible-maintenance-workers"></a>Agents de maintenance responsables
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Les agents de maintenance responsables peuvent être associés aux types d'actif, aux actifs, aux postes techniques, aux catégories de type de tâche de maintenance, aux types de tâche de maintenance, aux variantes de type de tâche de maintenance et aux transactions. Ils peuvent être utilisés dans des ordres de travail et des demandes de maintenance pour indiquer une préférence concernant les agents de maintenance qui doivent être responsables d'un ordre de travail. (Toutefois, ces agents de maintenance ne sont pas nécessairement les mêmes que ceux planifiés pour exécuter l'ordre de travail). L'utilisation de cette fonctionnalité est facultative. Par exemple, elle peut être utilisée pour sélectionner des agents responsables ou des groupes d'agents pour des types de travail ou des domaines de travail spécifiques.
 
@@ -53,4 +53,4 @@ Avant de paramétrer des agents de maintenance responsables, vous devez paramét
 
 L'illustration suivante présente un exemple de la page **Agents de maintenance responsables**.
 
-![Figure 1](media/08-setup-for-requests.png)
+![Page Collaborateurs responsables de la maintenance](media/08-setup-for-requests.png)

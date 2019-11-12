@@ -42,6 +42,8 @@
               items:
                 - name: Options de déploiement
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Comparaison des fonctions dans le cloud et sur site
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Déploiement cloud
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configuration requise pour les déploiements Cloud
@@ -50,7 +52,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configuration requise pour les déploiements locaux
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Acheter Finance + Operations (version locale)
+                - name: Acheter Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer l'entreposage pour les déploiements sur site
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nouveautés ou modifications
               items:
-                - name: Page d'accueil Nouveautés ou modifications
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: "Fonctions en version préliminaire dans les applis Finance and Operations\_10.0.6 (novembre\_2019)"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Applis Finance and Operations\_10.0.5 (octobre\_2019)"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Finance and Operations\_10.0.4 (juillet\_2019)"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Finance and Operations, Enterprise Edition\_7.3"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: "Fonctionnalités préliminaires dans Supply Chain Management version\_10.0.7 (décembre\_2019)"
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: "Supply Chain Management\_10.0.6 (novembre\_2019)"
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: Nouveautés ou modifications dans les versions précédentes
+                  items:
+                    - name: Nouveautés ou modifications de la page d'accueil Finance and Operations
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Applis Finance and Operations\_10.0.5 (octobre\_2019)"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Finance and Operations\_10.0.4 (juillet\_2019)"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Finance and Operations, Enterprise Edition\_7.3"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Fonctions supprimées ou obsolètes
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: "Fonctions d'AX\_2012 ayant été reportées"
@@ -1687,8 +1693,6 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: Contrôler la consommation de matières premières à l'aide des principes d'effacement
                       href: production-control/flushing-principles.md
-                    - name: Cross-docking des ordres de fabrication aux quais d’expédition
-                      href: production-control/cross-docking-opportunities.md
                     - name: Définir l'emplacement de sortie de production pour les produits finis
                       href: production-control/production-output-location.md
                     - name: Déclarer les nomenclatures terminées
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: Traitement différé du travail d'entrepôt
                   href: warehousing/deferred-put.md
+            - name: Cross-docking
+              items:
+                - name: Cross-docking des ordres de fabrication aux quais d’expédition
+                  href: production-control/cross-docking-opportunities.md
+                - name: Lancement automatique de l'expédition pour le cross-docking
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: Lancement partiel et expédition partielle
               items:
                 - name: Expédition partielle d'un chargement de transport
@@ -2311,6 +2321,8 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: Paramétrer la réaffectation des articles pour les prélèvements partiels
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: Annuler le travail d'entrepôt pour la gestion des exceptions
+                  href: warehousing/cancel-warehouse-work.md
             - name: Inventaire de stock
               items:
                 - name: Codes motif d'inventaire de stock

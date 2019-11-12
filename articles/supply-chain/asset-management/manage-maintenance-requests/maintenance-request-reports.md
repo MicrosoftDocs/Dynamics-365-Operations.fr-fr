@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5f1860907e3cc3c4830cc385771d5924c609ea6
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847526"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571620"
 ---
 # <a name="maintenance-request-reports"></a>États de demande de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Dans Gestion des actifs, vous pouvez générer deux états associés aux demandes de maintenance. Un état affiche des détails et l'autre état fournit une liste qui peut être utilisée pour la planification et le suivi.
 
@@ -44,7 +44,7 @@ L'état **Détails de la demande de maintenance** affiche différentes informati
 
 L'illustration suivante présente un exemple de l'état **Détails de la demande de maintenance**.
 
-![Figure 1](media/09-manage-maintenance-requests.png)
+![État Détails de la demande de maintenance](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Créer un état de la liste des demandes de maintenance
 
@@ -57,4 +57,4 @@ L'état **Liste des demandes de maintenance** affiche une liste de toutes les de
 
 L'illustration suivante présente un exemple de l'état **Liste des demandes de maintenance** pour toutes les demandes de maintenance actives.
 
-![Figure 2](media/10-manage-maintenance-requests.png)
+![États Liste des demandes de maintenance](media/10-manage-maintenance-requests.png)

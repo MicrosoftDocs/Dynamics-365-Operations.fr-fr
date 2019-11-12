@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181333"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578216"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de référence
 
@@ -71,9 +71,6 @@ La référence a été ajoutée pour le format **Format pour l'apprentissage des
 5. Dans le champ **Entrer l'identifiant**, entrez **1**.
 6. Définissez l'option **Créer des fichiers de référence** sur **Oui**.
 7. Cliquez sur **OK**.
-
-    ![Boîte de dialogue Paramètres de la génération d'états électroniques](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "Capture d'écran de la boîte de dialogue Paramètres de la génération d'états électroniques")
-
 8. Sélectionnez **Références**.
 
     ![Page des références de format de la génération d'états électroniques](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Capture d'écran de la page des références de format de la génération d'états électroniques")
@@ -140,9 +137,6 @@ Pour accomplir les étapes de cet exemple, vous devez d'abord réaliser les éta
 
 1. Dans la page **Configurations**, sous l'organisateur **Remplacements**, sélectionnez **Sélectionner des composants**.
 2. Dans l'arborescence des composants de format, développez **Résultat**, développez **Résultat\\Document**, puis activez la case à cocher pour **Résultat\\Document\\ProcessingDateTime**.
-
-    ![Boîte de dialogue Sélectionner des composants](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "Capture d'écran de la boîte de dialogue Sélectionner des composants")
-
 3. Cliquez sur **OK**.
 
 ![Page des références de format de la génération d'états électroniques](media/GER-BaselineSample-AddBaseline4.PNG "Capture d'écran de la page des références de format de la génération d'états électroniques")
@@ -162,19 +156,14 @@ En définissant des paramètres ER spécifiques, vous pouvez supprimer les notif
 1. Dans la page **Configurations**, dans le volet Actions, sous l'onglet **Configurations**, sélectionnez **Paramètres utilisateur**.
 2. Définissez l'option **Supprimer les avertissements relatifs à la référence** sur **Oui**, puis sélectionnez **OK**.
 
-![Boîte de dialogue Paramètres utilisateur](media/GER-BaselineSample-ERUserParameters1.png "Capture d'écran de la boîte de dialogue Paramètres utilisateur")
-
 ### <a name="review-the-generated-baseline-file"></a>Examiner le fichier de référence généré
 
 1. Accédez à **Administration d'organisation** \> **États électroniques** \> **Configurations**.
 2. Sélectionnez **Références**.
 3. Sélectionnez **Pièces jointes**.
-
-    ![Page Pièces jointes](media/GER-BaselineSample-AttachedBaselineFile.PNG "Capture d'écran de la page Pièces jointes")
-
     > [!NOTE]
     > Le fichier généré contient le texte de la date et de l'heure du traitement (**« # »**) à partir de la liaison qui a été configurée dans la règle de référence ajoutée, et non à partir de la liaison du format.
-
+    
 4. Fermez la page **Pièces jointes**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Exécutez le format ER conçu et consultez le journal pour analyser les résultats

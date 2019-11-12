@@ -1,5 +1,5 @@
 ---
-title: Définitions de validation
+title: Exemples de définition de validation
 description: Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires.
 author: ShylaThompson
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09b78a40d3bac5794a66d0ea743f11a27cfacf4e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 301f15f1d7d8f0e10bbaf2546fcf727aff284624
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186622"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552300"
 ---
 # <a name="posting-definition-examples"></a>Exemples de définitions de validation
 

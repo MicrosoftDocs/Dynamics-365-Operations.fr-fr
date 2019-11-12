@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: e1bddb65fd5fd73e879d8a95decc9f3e4f7f37e4
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249383"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653439"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Paramétrer un catalogue externe pour PunchOut eProcurement
 
 [!include [banner](../includes/banner.md)]
 
-L'utilisation du catalogue externe vous permet de vous assurer que les informations sur les produits et les prix que vous traitez par la suite dans Dynamics 365 for Finance and Operations juillet 2017 sont exactes et actualisées. La demande peut ensuite être approuvée et convertie en commande fournisseur et une commande peut être passée auprès du fournisseur.
+L'utilisation du catalogue externe vous permet de vous assurer que les informations sur les produits et les prix que vous traitez par la suite dans Supply Chain Management sont exactes et actualisées. La demande peut ensuite être approuvée et convertie en commande fournisseur et une commande peut être passée auprès du fournisseur.
 
 Lorsque le catalogue externe est paramétré et qu'un employé prépare une demande, une option permet de rediriger vers un site externe, le catalogue externe, et de renvoyer le panier créé sur le site externe. Cette communication est basée sur le protocole cXML et doit être paramétrée entre les systèmes de l'organisation d'achat et de vente.
 
@@ -54,7 +54,7 @@ Le catalogue externe permet à un employé qui entre une demande d'achat d'être
 Cette section fournit des informations supplémentaires sur la tâche 4 de la section précédente.
 
 1. Entrez le nom et la description du catalogue externe du fournisseur. Le nom que vous entrez s'affiche sur le chariot qui représente le catalogue externe visible par les employés qui créent une demande. Les employés peuvent cliquer sur le chariot pour ouvrir le catalogue sur le site du catalogue externe du fournisseur.
-2. Ajoutez une image à l'aide de l'action  **Image du catalogue externe**. L'image s'affiche sur le chariot qui représente le catalogue externe visible par les employés qui créent une demande. Notez que la largeur et la hauteur de l'image doivent être égales. Sinon, l'image ne s'affichera pas correctement.
+2. Ajoutez une image à l'aide de l'action **Image du catalogue externe**. L'image s'affiche sur le chariot qui représente le catalogue externe visible par les employés qui créent une demande. Notez que la largeur et la hauteur de l'image doivent être égales. Sinon, l'image ne s'affichera pas correctement.
 3. Indiquez si le site Web du catalogue externe du fournisseur doit apparaître dans la même fenêtre de navigateur que celle où l'employé a créé la demande, ou s'il doit s'ouvrir dans une nouvelle fenêtre.
 4. Sélectionnez le fournisseur pour le catalogue. Dans la liste **Entités juridiques**, il existe une ligne pour chaque entité juridique dans laquelle le fournisseur est paramétré. Pour autoriser les utilisateurs à demander des produits directement à partir du catalogue du fournisseur dans certains entités juridiques mais pas dans d'autres, vous pouvez utiliser le bouton **Empêcher l'accès** ou **Autoriser l'accès** pour chaque entité juridique dans laquelle vous souhaitez que le catalogue soit disponible ou non.
 5. Dans le champ **Expiration par défaut (jours)**, entrez le nombre de jours pendant lesquels un devis reçu du catalogue externe est valide et peut être utilisé pour effectuer des achats auprès du fournisseur externe. Lorsqu'un devis est créé et extrait du site du catalogue externe du fournisseur, il est valide à partir de la date système actuelle, et reste valide pendant le nombre de jours entrés dans ce champ.

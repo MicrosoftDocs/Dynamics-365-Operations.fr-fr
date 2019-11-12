@@ -3,7 +3,7 @@ title: Facturation de projet
 description: Cet article fournit une vue d'ensemble des projets en régie et des projets à prix fixe. Il inclut des informations sur les propositions de facture (factures préliminaires), le contrôle de facture, la facturation en compte, la facturation fournisseur, et les avoirs.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177795"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658618"
 ---
 # <a name="project-invoicing"></a>Facturation de projet
 
@@ -55,6 +55,9 @@ Vous pouvez créer des propositions de facture pour les transactions suivantes :
 -   Les montants qui sont retenus par les clients sur les factures de projet précédentes
 -   Avoirs
 -   Les montants qui vous ont été payés par un client avant le démarrage du projet
+
+> [!NOTE]
+> La fonctionnalité **Activer le tri par ressource lors de la création de proposition de facture de projet** permet au comptable du projet de trier les transactions du projet disponibles pour la facturation par ressource lors de la création d'une proposition de facture de projet. La grille affichant les transactions de projet disponibles aura un champ distinct pour l'ID ressources et la ressource, ce qui permet à l'utilisateur de filtrer et trier selon le nom de la ressource. Cette fonctionnalité est désactivée par défaut et peut être activée dans **Espaces de travail > Gestion des fonctionnalités**. Contactez l'administrateur système pour obtenir de l'aide pour activer cette fonctionnalité.
 
 Vous pouvez créer des transactions de frais dans une proposition de facture. Vous pouvez également modifier le prix de vente sur les transactions horaires, de dépense, d'article, et de frais. Lorsque vous validez une proposition de facture, les prix et les transactions mis à jour sont ajoutés aux états de projet et à l'historique des transactions. 
 

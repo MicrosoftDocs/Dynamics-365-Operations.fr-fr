@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 735f2d3d2f95185e886321c043cebcb6692fe8b1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561408"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570838"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO avec valeur physique et marquage
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Premier entré, premier sorti (First In, First Out, ou FIFO) est un modèle de stock selon lequel les premières réceptions en stock sont sorties en premier. Les sorties de stock mises à jour financièrement sont réglées avec les premières réceptions en stock, en fonction de la date financière du mouvement de stock. 
 
@@ -54,7 +52,9 @@ Dans cet exemple, le groupe de modèles d'article n'est pas marqué pour inclure
 -   5a. Sortie financière de stock pour une quantité de 1 à un prix de revient de 20,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
 -   6. La clôture du stock est effectuée. Selon la méthode FIFO, la première sortie mise à jour financièrement est réglée par rapport à la première réception mise à jour financièrement. Un ajustement de 10,00 EUR sera effectué sur la transaction de sortie.
 
-Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement. Les illustrations suivantes indiquent l'impact du modèle de stock FIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. ![FIFO Sans Inclure la valeur physique](./media/fifowithoutincludephysicalvalue.gif) 
+Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement. Les illustrations suivantes indiquent l'impact du modèle de stock FIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. 
+
+![FIFO Sans Inclure la valeur physique](./media/fifowithoutincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 
@@ -84,7 +84,9 @@ Si la case à cocher **Inclure la valeur physique** est activée pour un article
 -   6a. Sortie physique de stock pour une quantité 1 à un prix de revient unitaire de 21,25 EUR.
 -   7. La clôture du stock est effectuée. Selon la méthode FIFO, la première transaction de sortie financière sera ajustée ou réglée par rapport à la première réception mise à jour, qu'elle soit financière ou physique.
 
-La transaction 5b sera réglée en fonction de la transaction de réception 1b. Un ajustement de -11,25 EUR est effectué sur cette transaction de sortie. Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 27,50 EUR. Les illustrations suivantes indiquent l'impact du modèle de stock FIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. ![FIFO avec Inclure la valeur physique](./media/fifowithincludephysicalvalue.gif) 
+La transaction 5b sera réglée en fonction de la transaction de réception 1b. Un ajustement de -11,25 EUR est effectué sur cette transaction de sortie. Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 27,50 EUR. Les illustrations suivantes indiquent l'impact du modèle de stock FIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. 
+
+![FIFO avec Inclure la valeur physique](./media/fifowithincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 
@@ -114,7 +116,9 @@ Le marquage est un processus qui vous permet de lier, ou de marquer, une transac
 -   6a. Sortie physique de stock pour une quantité 1 à un prix de revient unitaire de 21,25 EUR.
 -   7. La clôture du stock est effectuée. Étant donné que la transaction FIFO mise à jour financièrement est marquée par rapport à une réception existante, ces transactions sont réglées les unes avec les autres et aucun ajustement n'est effectué.
 
-Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 27,50 EUR. Les illustrations suivantes montrent les effets du modèle de stock FIFO sur cette série de transactions quand le marquage entre les sorties et les réceptions est utilisé. ![FIFO avec marquage](./media/fifowithmarking.gif) 
+Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 27,50 EUR. Les illustrations suivantes montrent les effets du modèle de stock FIFO sur cette série de transactions quand le marquage entre les sorties et les réceptions est utilisé. 
+
+![FIFO avec marquage](./media/fifowithmarking.gif) 
 
 **Clés du diagramme**
 

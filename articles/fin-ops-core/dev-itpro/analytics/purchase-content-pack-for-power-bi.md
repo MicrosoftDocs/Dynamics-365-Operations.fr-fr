@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 571f443b02268cbee8fe787f25419e046ba99aeb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d25bacc2ec1f8e13376b96e188b099a184f7f8c6
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182851"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569130"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Contenu Power BI Analyse des dépenses et des achats
 
@@ -62,7 +62,7 @@ Les sections suivantes offrent une vue d'ensemble des visualisations.
 - Nombre total de fournisseurs actifs
 
 **Exemple**
-<img src="media/spend1.PNG" alt="Purchase by vendor">
+<img src="media/spend1.png" alt="Purchase by vendor">
 
 ### <a name="purchase-by-product-report-page"></a>Page État des achats par produit
 
@@ -79,7 +79,7 @@ Les sections suivantes offrent une vue d'ensemble des visualisations.
 **Exemple**
 
 
-<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+<img src="media/purchaseByProduct.png" alt="Purchase by Product">
 
 ### <a name="purchase-by-period-report-page"></a>Page État des achats par période
 Cette page affiche les achats de cette année et de l'année dernière, et la croissance par catégorie d'approvisionnement.
@@ -95,7 +95,7 @@ Cette page affiche les achats de cette année et de l'année dernière, et la cr
 - % de croissance des achats en cumul annuel
 
 **Exemple**
-<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+<img src="media/purchaseByPeriod.png" alt="Purchase by Period">
 
 ### <a name="purchase-by-vendor-location-report-page"></a>Page État des achats par emplacement de fournisseur
 
@@ -105,7 +105,7 @@ Cette page affiche les achats de cette année et de l'année dernière, et la cr
 - Achat par pays
 
 **Exemple**
-<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+<img src="media/purchByVendorLocation.png" alt="Purchase by Vendor Location">
 
 ### <a name="purchase-spend-analysis-by-time-report-page"></a>Page État des analyses des dépenses d'achat par période
 
@@ -114,7 +114,7 @@ Cette page affiche les achats de cette année et de l'année dernière, et la cr
 - Achats de l'année en cours et de l'année dernière (graphique en courbes et histogramme)
 
 **Exemple**
-<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+<img src="media/PurchByTIme.png" alt="Purchase by Time">
 
 ### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Page État des analyses des dépenses d'achat par fournisseur
 
@@ -124,7 +124,7 @@ Cette page affiche les achats de cette année et de l'année dernière, et la cr
 - 10 premiers fournisseurs avec dépenses réduites en cumul annuel
 
 **Exemple :** 
-<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+<img src="media/PurchSpendAnalysisByVendor.png" alt="Purchase spend by vendor">
 
 
 ## <a name="data-model-and-entities"></a>Modèle de données et entités

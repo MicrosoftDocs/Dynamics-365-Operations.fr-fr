@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 56d4abee451e6e22b9b9cc2fd36a13648202e7df
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: b19a92924d73847d9d2c09cd0ed111a9cbfdccbf
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847434"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571643"
 ---
 # <a name="maintenance-requests"></a>Demandes de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Les demandes de maintenance sont des notes ou des déclarations créées pour informer un responsable ou un gestionnaire qu'un actif peut nécessiter une tâche de maintenance ou de réparation, mais sans créer d'ordre de travail. Si le contenu d'une demande de maintenance est justifiée, un ordre de travail peut être créé selon la demande de maintenance.
 
@@ -45,7 +45,7 @@ Les demandes de maintenance peuvent être créées pour n'importe quel actif dan
 
 Pour afficher les demandes de maintenance, sélectionnez **Gestion des actifs** \> **Commun** \> **Demandes de maintenance** \> **Toutes les demandes de maintenance**, **Demandes de maintenance actives** ou **Mes demandes de maintenance de poste technique**. Chaque page de liste affiche certaines des informations liées à une demande de maintenance.
 
-![Figure 1](media/01-manage-maintenance-requests.png)
+![Afficher les demandes de maintenance](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Utilisez la page de liste **Mes demandes de maintenance de poste technique** pour afficher une liste des demandes de maintenance contenant soit les postes techniques auxquels vous êtes associé en tant que collaborateur, soit les actifs qui sont installés à des postes techniques auxquels vous êtes associé en tant que collaborateur. (Pour plus d'informations sur le paramétrage des postes techniques pour les agents de maintenance, voir [Agents de maintenance et groupes d'agents](../setup-for-objects/workers-and-worker-groups.md).)
@@ -54,13 +54,13 @@ Pour afficher les demandes de maintenance, sélectionnez **Gestion des actifs** 
 
 Pour ouvrir la vue détaillée d'un enregistrement, sur la page de liste **Toutes les demandes de maintenance**, dans la vue de grille, sélectionnez un lien dans la colonne **Demande de maintenance**.
 
-![Figure 2](media/02-manage-maintenance-requests.png)
+![Afficher les détails de la demande de maintenance](media/02-manage-maintenance-requests.png)
 
 Les boutons du volet Actions sont organisés sur les onglets. Le tableau suivant décrit brièvement les boutons liés à Gestion des actifs.
 
 | Nom du bouton                      | Description |
 |----------------------------------|-------------|
-| Modifier                              | Modifier la demande de maintenance sélectionnée. |
+| Modifier                             | Modifier la demande de maintenance sélectionnée. |
 | Nouveau                              | Créer une demande de maintenance. |
 | Supprimer                           | Supprimer la demande de maintenance sélectionnée. |
 | Regroupement d'ordres de travail                  | Connecter la demande de maintenance à un regroupement d'ordres de travail. |

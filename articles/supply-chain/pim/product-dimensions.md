@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: f226329b774344a3de5c8f115ffb358611bf7d60
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863034"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570769"
 ---
 # <a name="product-dimensions"></a>Dimensions de produit
 
 [!include [banner](../includes/banner.md)]
-
-[!include [Retail name](../includes/retail-name.md)]
 
 Il existe quatre dimensions de produit -  Couleur, Configuration, Taille et Style. Vous combinez des dimensions de produit dans les groupes de dimensions et vous affectez des groupes de dimensions aux produits génériques. Les combinaisons de dimensions de produit déterminent la manière dont les variantes de produit sont définies.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783269"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571068"
 ---
-# <a name="asset-criticalities"></a>Éléments critiques de l'actif
+# <a name="asset-criticality-types"></a>Types d'élément critique de l'actif
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 La rubrique explique les types d'élément critique de l'actif dans le module Gestion des actifs. L'élément critique de l'actif est lié aux actifs et est transféré aux ordres de travail. Il ne peut pas être modifié sur un ordre de travail. L'élément critique de l'actif est utilisé pour calculer l'élément critique de l'ordre de travail lors de la planification des ordres de travail. En d'autres termes, il est utilisé pour calculer dans quelle mesure une tâche de maintenance sur un actif affecte la planification de la production et la productivité dans votre société. Pour plus d'informations sur le paramétrage lié au calcul des scores pour la planification des ordres de travail, voir [Paramètres de gestion des actifs](../setup-for-objects/enterprise-asset-management-parameters.md).
 
@@ -43,7 +43,7 @@ Pour paramétrer l'élément critique, commencez par créer les types d'élémen
 4. Dans le champ **Nom**, entrez un nom pour le type d'élément critique.
 5. Dans le champ **Facteur**, entrez un facteur. Ce facteur est utilisé lors du calcul de la planification des ordres de travail pour déterminer l'enregistrement d'élément critique qui doit être utilisé. (L'enregistrement avec le facteur le plus élevé est toujours utilisé). Ce paramètre est utile si, comme indiqué dans l'illustration suivante, les lignes d'élément critique sont créées avec la même valeur d'élément critique.
 
-    ![Figure 1](media/23-setup-for-objects.png)
+    ![Page des types d'éléments critiques](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Paramétrer les éléments critiques de l'actif
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
+ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249515"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2574797"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Stock disponible dans l'espace de travail mobile
 
@@ -56,9 +56,9 @@ Spécifiquement, l'espace de travail mobile fournit ces fonctions :
     -   Par quantité physique disponible (cette vue représente la quantité disponible qui n'est pas réservée.)
 
 ## <a name="prerequisites"></a>Conditions préalables
-Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
+Les conditions préalables varient, selon la version de Supply Chain Management qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-finance-and-operations"></a>Conditions préalables requises pour l'utilisation de Finance and Operations 
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Conditions requises si vous utilisez Supply Chain Management
 Si Supply Chain Management a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Stock disponible**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Conditions requises si vous utilisez Platform Update 3 ou version ultérieure 

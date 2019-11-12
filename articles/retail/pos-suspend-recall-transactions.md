@@ -18,14 +18,14 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: efab3b793eb15e7feffb569492b5c36a2e9d6ec0
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 38011f094c1434e3cafe62629902b1556df73566
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025273"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552416"
 ---
-# <a name="suspend-and-resume-transactions-in-the-point-of-sale-pos"></a>Suspendre et reprendre des transactions dans le point de vente (PDV)
+# <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>Suspendre et reprendre une transaction dans le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]

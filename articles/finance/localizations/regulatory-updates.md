@@ -3,7 +3,7 @@ title: Mises à jour réglementaires
 description: Cette rubrique fournit une liste des mises à jour réglementaires prévues et publiées pour Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2019
+ms.date: 10/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc5a9669a9c6c298a4f9df52346b8a075ba177e0
-ms.sourcegitcommit: a4e1a28b4733f3356e5a2237c8ba5d93f9799391
+ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2517309"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653202"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -28,9 +28,7 @@ ms.locfileid: "2517309"
 
 Cette rubrique répertorie les mises à jour réglementaires prévues et publiées dans les régions prenant en charge Dynamics 365 Finance. Les calendriers de livraison sont susceptibles de changer et les fonctionnalités prévues pourraient être différentes ou ne pas être lancées. Consultez [Stratégie Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332) pour plus d'informations. 
 
-Les mises à jour réglementaires sont des fonctions qui sont implémentées pour prendre en charge les nouveautés ou les modifications des législations de chaque pays. Pour en savoir plus sur les autres fonctionnalités spécifiques aux pays, prévues ou publiées, consultez les ressources suivantes :
-- [Notes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Nouveautés pour Microsoft Dynamics 365 for Finance and Operations](../../fin-and-ops/get-started/whats-new-changed.md)
+Les mises à jour réglementaires sont des fonctions qui sont implémentées pour prendre en charge les nouveautés ou les modifications des législations de chaque pays. Pour en savoir plus sur les autres fonctionnalités spécifiques aux pays, prévues ou publiées, consultez les [programmes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes/index).
 
 Microsoft s'efforce d'implémenter les nouvelles exigences réglementaires aussi vite que possible. La date de livraison réelle dépend de la date d'annonce de la loi, de la disponibilité des détails de l'exigence auprès des administrations locales, de la disponibilité des outils de validation et de la mesure et de la complexité de la modification.
 
@@ -44,13 +42,19 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 
 |Date de sortie prévue|Version|Pays|Mise à jour réglementaire|
 |--------------------|---------------|-------|-------|
-|      Août 2019          |   10.0.6 (PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brésil      |   Nouvelle version des notes techniques pour NF-e : NT 2019.001 Version 1.10    |
-|      Août 2019          |   10.0.6 (PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brésil      |   Nouvelle version des notes techniques pour NF-e : NT 2019.001 Version 1.20    |
-|      Août 2019          |   10.0.6 (PEAP)      | Brésil      |   Déclaration SC DRCST   |
-|      Août 2019          |   10.0.6(PEAP), 10.0.5HF      | Brésil     |   La nouvelle législation est implémentée par l'état RJ concernant EFD-ICMS/IPI. La résolution 13/19 de l'implémentation de Rio de Janeiro (RJ) est dédiée afin que les « Procédures spéciales soient appliquées à l'exonération     |
-|      Août 2019          |   10.0.6 (PEAP)      | Brésil      |   Relevé fiscal CAT 42/18    |
-|      Août 2019          |   10.0.6 (PEAP)      | Italie      |   Modifications de gestion de TVA par D.L. 119 du 23 oct. 2018 - Dynamics 365 for Finance and Operations v.10.0.6  |
-|      Août 2019          |   10.0.6 (PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japon      |   La modification du taux de taxe de consommation et le taux réduit de taxe est introduit    |
+|      novembre 2019          |   10.0.7 (PEAP)      | Italie      |   Modifications de gestion de TVA par D.L. 119 du 23 octobre 2019 : Communication trimestrielle de la TVA (« Lipe 2018 »)    |
+|      novembre 2019          |   10.0.7 (PEAP)      | Italie      |   Retail - Gestion des informations client dans POS |
+|      novembre 2019          |   10.0.7 (PEAP)      | Italie      |   Retail - Impression des informations client dans le reçu fiscal | 
+|      novembre 2019          |   10.0.7 (PEAP)      | Japon      |   La modification du taux de consommation et le taux réduit de taxe est introduit (mises en page de factures) | 
+|      novembre 2019          |   10.0.7 (PEAP)      | Mexique      |   Mise à jour de la Règle 2.7.2.9 - Utilisation du fuseau horaire du code postal de l'établissement émetteur du document CFDI | 
+|      novembre 2019          |   10.0.7 (PEAP)      | Royaume-Uni     |   Rendre la taxe numérique - Création d'états de retours de TVA pour les sociétés faisant leur déclaration en tant que groupe de TVA dans la même base de données système v.10 | 
+|      Novembre à août 2019          |   10.0.7(PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brésil      |   Nouvelle version des notes techniques pour NF-e : NT 2019.001 Version 1.20    |
+|      Novembre à août 2019          |   10.0.7(PEAP), 10.0.6      | Brésil      |   Déclaration SC DRCST   |
+|      Novembre à août 2019          |   10.0.7(PEAP), 10.0.6      | Italie      |   Modifications de gestion de TVA par D.L. 119 du 23 octobre 2018 - Dynamics 365 for Finance and Operations  |
+|      Août 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brésil      |   Nouvelle version des notes techniques pour NF-e : NT 2019.001 Version 1.10    |
+|      Août 2019          |   10.0.6, 10.0.5HF      | Brésil     |   La nouvelle législation est implémentée par l'état RJ concernant EFD-ICMS/IPI. La résolution 13/19 de l'implémentation de Rio de Janeiro (RJ) est dédiée afin que les « Procédures spéciales soient appliquées à l'exonération     |
+|      Août 2019          |   10.0.6      | Brésil      |   Relevé fiscal CAT 42/18    |
+|      Août 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japon      |   La modification du taux de taxe de consommation et le taux réduit de taxe est introduit    |
 |      Août-juillet 2019          |   10.0.5, 10.0.4HF, 10.0.3HF      | Espagne      |   Espagne : SII : Les règles de contrôle changent à partir du 1er octobre 2019    |
 |      Juillet 2019          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brésil      |   Nouvelle version des notes techniques pour NF-e : NT 2019.001 Version 1.00  |
 |      Juillet 2019          |   10.0.5      | Brésil      |   Guide pratique des contributions Sped 1.31. nouvelle recommandation    |
@@ -66,7 +70,7 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 |      2019 avril          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brésil     |   SPED ECD Disposition 7    |
 |      2019 avril          |   10.0.3      | Brésil      |   Sped ECF - Disposition 5 pour 2019    |
 |      2019 avril          |   10.0.3      | Inde      |   Ajustement de la taxe dans la devise de douane dans la lettre de change plutôt que dans la devise de la transaction    |
-|      2019 avril          |   10.0.3      | Inde      |   Calcul de la taxe dans la devise de douane dans la lettre de change plutôt que dans la devise de la transaction)    |
+|      2019 avril          |   10.0.3      | Inde      |   Calcul de la taxe dans la devise de douane dans la lettre de change plutôt que dans la devise de la transaction   |
 |      2019 avril          |   10.0.3, 10.02HF, 10.0.1HF      | Inde      |   Modification du format de numéro de nomenclature    |
 |      2019 avril          |   10.0.3      | Lituanie      |   L'état Lituanie i.SAF permet à l'utilisateur de définir les codes taxe système en association avec des codes taxe juridiques)    |
 |      2019 avril          |   10.0.3      | Pologne      |   Factures SAF (JPK_FA) v.2 à compter du 1er juillet 2019    |

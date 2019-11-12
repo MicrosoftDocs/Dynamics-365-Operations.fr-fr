@@ -1,6 +1,6 @@
 ---
-title: Lire les codes-barres à l'aide d'une caméra dans l'application Dynamics 365 Supply Chain Management - Entreposage
-description: Cette rubrique explique comment configurer l'application Dynamics 365 Supply Chain Management – Entreposage pour lire les codes-barres à l'aide de la caméra d'un appareil mobile.
+title: Lire les codes-barres à l'aide d'une caméra dans l'application Dynamics 365 for Finance and Operations - Entreposage
+description: Cette rubrique explique comment configurer l'application Dynamics 365 for Finance and Operations - Entreposage pour lire les codes-barres à l'aide de la caméra d'un appareil mobile.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251456"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578147"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Lire les codes-barres à l'aide d'une caméra dans l'application Dynamics 365 Supply Chain Management - Entreposage
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer l'application Dynamics 365 Supply Chain Management – Entreposage pour lire les codes-barres à l'aide de la caméra d'un appareil mobile. 
+Cette rubrique explique comment configurer l'application Dynamics 365 for Finance and Operations - Entreposage pour lire les codes-barres à l'aide de la caméra d'un appareil mobile. 
 
 ## <a name="prerequisites"></a>Conditions préalables
 Pour utiliser cette fonction, la version 1.2.0.0 de l'application Entreposage doit être installée, et l'appareil doit avoir une caméra. Lorsque vous ouvrez l'application après la mise à jour, vous serez invité(e) à autoriser l'application pour utiliser la caméra. Si votre appareil ne possède pas de caméra, aucune invite ne s'affichera et vous ne pourrez pas utiliser la caméra en tant que scanneur. 
@@ -49,7 +49,7 @@ La page Caméra sera lancée sur chaque page si le champ de saisie a pour son mo
 
 | Page Tâche et détails | Page Caméra | 
 | :---------------------: | :--------------------: |
-| ![camera-scanning-example-task-detail-page](./media/camera-scanning-example-task-detail-page50.png)          | ![camera-scanning-example-camera-page-smaller](./media/camera-scanning-example-camera-page50.png)          |
+| ![Page de détails de l'exemple de tâche de lecture de la caméra](./media/camera-scanning-example-task-detail-page50.png)          | ![Page plus petite d'exemple de caméra de lecture de la caméra](./media/camera-scanning-example-camera-page50.png)          |
 
 Sur la page Caméra, lorsque vous cliquez sur le bouton Caméra, il apparaît estompé lorsque vous tentez d'identifier un code-barres. Si un code-barres n'est pas reconnu dans les 5 secondes, le processus expirera et le bouton Caméra redeviendra disponible. Vous pourrez ensuite tenter de lire à nouveau un code-barres.
 

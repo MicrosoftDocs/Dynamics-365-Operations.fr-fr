@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026714"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653416"
 ---
 # <a name="warehouse-configuration-overview"></a>Vue d'ensemble de configuration de l'entrepôt
 
@@ -34,7 +34,7 @@ Cet article explique comment configurer un entrepôt. Elle contient des informat
 **Remarque :** cet article s'applique aux fonctionnalités du module **Gestion des entrepôts** module (entreposage avancé). Il ne s'applique pas aux fonctionnalités dédiées aux entrepôts du module **Gestion des stocks**.
 
 ## <a name="warehouse-layout"></a>Disposition de l'entrepôt
-Le système de gestion des entrepôts de Finance and Operations vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l'entrepôt.
+Le système de gestion des entrepôts de Supply Chain Management vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l'entrepôt.
 
 -   Vous pouvez créer des zones de stockage à priorité haute et basse pour positionner les marchandises de manière optimale.
 -   Vous pouvez diviser votre entrepôt en zones pour répondre à des besoins de stockage variés, tels qu'une température de préférence ou des taux de rotation variables d'un article à l'autre.
@@ -42,7 +42,7 @@ Le système de gestion des entrepôts de Finance and Operations vous offre des m
 -   Vous pouvez regrouper des emplacements à l'aide des paramètres de contrainte de capacité physique.
 -   Vous pouvez contrôler la façon dont les articles sont stockés et prélevés, en fonction de règles définies par des requêtes.
 
-Pour utiliser la gestion des entrepôts dans Finance and Operations, vous devez créer un entrepôt et l'activer pour des activités plus avancées ou plus spécialisées de gestion des entrepôts. Dans la page **Entrepôts**, sélectionnez l'option **Utiliser les processus de gestion des entrepôts**.
+Pour utiliser la gestion des entrepôts dans Supply Chain Management, vous devez créer un entrepôt et l'activer pour des activités plus avancées ou plus spécialisées de gestion des entrepôts. Dans la page **Entrepôts**, sélectionnez l'option **Utiliser les processus de gestion des entrepôts**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Groupes de zones, zones, types d'emplacements et emplacements
 
@@ -54,7 +54,7 @@ Dans le cadre du processus d'activation d'une disposition d'entrepôt, vous deve
 -   **Types d'emplacements** – Un regroupement logique ou physique des emplacements dans l'entrepôt. Par exemple, vous pouvez créer un type d'emplacement pour tous les emplacements temporaires. Les paramètres obligatoires de la page **Paramètres de gestion des entrepôts** pilotent le processus de définition des types d'emplacements temporaires et de type d'emplacement final pour expédition.
 -   **Emplacements** – Le plus bas niveau d'information d'emplacement. Les emplacements sont utilisés pour suivre où le stock disponible est conservé et prélevé dans un entrepôt.
 
-Les entités que vous créez pour définir votre disposition d'entrepôt sont utilisées dans les requêtes que vous paramétrez dans les modèles de travail pour piloter les ordres d'exécution dans l'entrepôt. Par conséquent, lorsque vous définissez les zones, les types d'emplacement, etc., prenez en compte la manière dont les différentes zones de l'entrepôt sont utilisées pour différents processus. En outre, tenez compte des facteurs tels que les caractéristiques physiques d'une région spécifique. Par exemple, il peut y avoir des secteurs où vous ne pouvez utiliser qu'un certain type de chariot élévateur. Ou, si dans votre société les biens en production et finis se trouvent dans le même établissement, vous pouvez créer un seul entrepôt dans Finance and Operations, mais séparer les deux opérations en créant deux groupes de zones. Donnez à vos entités des noms descriptifs, de sorte qu'il soit facile de les identifier si vous les utilisez dans des requêtes de modèle.
+Les entités que vous créez pour définir votre disposition d'entrepôt sont utilisées dans les requêtes que vous paramétrez dans les modèles de travail pour piloter les ordres d'exécution dans l'entrepôt. Par conséquent, lorsque vous définissez les zones, les types d'emplacement, etc., prenez en compte la manière dont les différentes zones de l'entrepôt sont utilisées pour différents processus. En outre, tenez compte des facteurs tels que les caractéristiques physiques d'une région spécifique. Par exemple, il peut y avoir des secteurs où vous ne pouvez utiliser qu'un certain type de chariot élévateur. Ou, si dans votre société les biens en production et finis se trouvent dans le même établissement, vous pouvez créer un seul entrepôt dans Supply Chain Management, mais séparer les deux opérations en créant deux groupes de zones. Donnez à vos entités des noms descriptifs, de sorte qu'il soit facile de les identifier si vous les utilisez dans des requêtes de modèle.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Limites de stockage d'emplacement, profils d'emplacement et emplacements de prélèvement fixes
 

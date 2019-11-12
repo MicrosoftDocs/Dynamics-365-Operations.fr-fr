@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2c748fd230796643f1ed6279743da532e7cb320
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 99f76c684150f154404cbb241daacb7a8d05f7f9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874806"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571758"
 ---
 # <a name="create-maintenance-budgets"></a>Créer des budgets de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 
@@ -53,7 +53,7 @@ Les budgets de maintenance sont basés sur les types de coûts utilisés dans le
     > [!NOTE]
     > Après avoir approuvé un budget de maintenance, vous ne pouvez pas recalculer ou ajuster les lignes associées sur la page **Lignes de budget de maintenance** à moins de supprimer d'abord l'approbation. Pour supprimer l'approbation d'un budget de maintenance, sélectionnez-le dans la page **Budgets de maintenance**, puis sélectionnez **Approuver**. Puis, dans la boîte de dialogue **Approuver le budget**, sélectionnez **OK**.
 
-![Figure 1](media/01-maintenance-budgets.png)
+![Budgets de maintenance](media/01-maintenance-budgets.png)
 
 Vous pouvez également créer un budget de maintenance en copiant un budget existant. Sur la page **Budgets de maintenance**, sélectionnez le budget à copier, puis sélectionnez **Copier**. Cette approche est utile si, par exemple, vous avez créé un budget pour un mois et que vous souhaitez le copier sur d'autres mois.
 

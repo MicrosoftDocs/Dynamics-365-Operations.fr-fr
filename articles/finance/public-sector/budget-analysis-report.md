@@ -16,12 +16,12 @@ ms.search.industry: public sector
 ms.author: v-alpavk
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 903692f549bec17fe634c4ce9a33c2ebc4bd43dc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2a15a9cf0aa79f187735af3d65ac95814dd579c8
+ms.sourcegitcommit: e0b176c0b49ad147e60d6912aae2046dc0715bc9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174634"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564207"
 ---
 # <a name="budget-analysis-report"></a>État d'analyse budgétaire
 
@@ -31,7 +31,7 @@ Vous pouvez utiliser l'état **Analyse budgétaire** pour générer un état ré
 
 L'état peut être trié selon les fonds puis le numéro de compte. Dans chaque fonds, l'état affiche les sous-totaux, regroupés selon l'ensemble de dimensions financières sélectionné. Lorsque vous utilisez le volet de navigation pour consulter l'activité, le regroupement détermine comment l'activité est affichée ici.
 
-L'état inclut tous les comptes avec une activité dans la plage de dates pour les types de comptes de produit ou de dépenses. Il n'inclut pas les totaux nets. (Les totaux nets sont calculés comme le produit moins les dépenses.)
+L'état inclut tous les comptes avec une activité dans la plage de dates pour les types de comptes de produit ou de dépenses. Aucun compte marqué comme type Compte de résultat n'est inclus dans l'état. L'état n'inclut également pas les totaux nets. (Les totaux nets sont calculés comme le produit moins les dépenses.)
 
 Pour afficher des informations supplémentaires sur un compte, sélectionnez le nom ou le numéro du compte pour ouvrir l'écran **Recherche d'analyse budgétaire**. Vous pouvez afficher toutes les transactions contribuant au montant dans l'état. Pour afficher les transactions, vous pouvez afficher des liens d'exploration d'états financiers sur l'état. Sélectionnez un lien pour ouvrir l'exploration d'un état ayant des détails de transaction d'un budget révisé, de dépenses ou de produit réel, d'engagements, ou d'engagements préalables. L'exploration d'états peut éventuellement inclure des transactions en attente.
 

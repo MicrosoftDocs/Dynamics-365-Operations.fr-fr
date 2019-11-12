@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: josaw1
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 91ecccab58e4f1582a43eac62b42c7205b383bb1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 753c2a2905835a03b6befe817d32f993d35a5d73
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174487"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552323"
 ---
-# <a name="microsoft-dynamics-365-project-timesheet-mobile-application"></a>Application mobile Microsoft Dynamics 365 Project Timesheet
+# <a name="project-timesheet-mobile-application"></a>Application mobile des feuilles de temps du projet
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d'ensemble
 
 L'application mobile Microsoft Dynamics 365 Project Timesheet permet aux utilisateurs d'envoyer et d'approuver des feuilles de temps pour les projets sur leur appareil mobile (iPhone ou Android). Cette application mobile permet d'exploiter la fonctionnalité de feuille de temps qui réside dans la zone Gestion de projet et comptabilité de Dynamics 365 Finance. Elle renforce la productivité et le rendement des utilisateurs, et permet la saisie et l'approbation en temps opportun des feuilles de temps de projet.
 

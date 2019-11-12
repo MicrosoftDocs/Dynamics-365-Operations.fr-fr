@@ -1,5 +1,5 @@
 ---
-title: Catalogue Apprentissage Consultant technique
+title: Catalogue Apprentissage Consultant d'application technique
 description: Cette rubrique décrit les fonctionnalités conçues pour aider les utilisateurs souffrant de divers handicaps à utiliser Dynamics 365 for Finance and Operations, Dynamics 365 for Retail et Dynamics 365 for Talent.
 author: margoc
 manager: AnnBe
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 712a8e4d63803f0d9a7a3a76978c2e14ecd997af
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5405b65eac595b078733211bbfd28acb4829e5df
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180597"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550978"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>Catalogue Apprentissage Consultant d'application technique
 
@@ -36,7 +36,7 @@ Pour les consultants techniques, notre recherche d'analyse de tâche a montré q
 | [Mise en route de Dynamics 365 for Finance and Operations](https://docs.microsoft.com/en-us/learn/paths/get-started-with-dynamics-365-for-finance-and-ops/)                        | Découvrez comment Microsoft Dynamics 365 for Finance and Operations accompagne les entreprises pour gérer leurs systèmes financiers mondiaux, les processus métier opérationnels et les chaînes d'approvisionnement rationalisées pour permettre aux utilisateurs de prendre rapidement des décisions éclairées. Dans le cadre de la première étape de votre expérience de collaboration avec Finance and Operations, vous devez vous familiariser avec ses fonctionnalités, quel que soit votre rôle souhaité. | Parcours d'apprentissage en ligne, gratuit et à son propre rythme | 1.5 heures |
 | [Avant d'acheter](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy)                                                           | Consultez les instructions pas-à-pas si vous évaluez Finance and Operations ou si vous êtes prêt à effectuer un achat.                                                                                                                                                                                                                                                                                                  | Documentation                         |           |
 | [Programme de lancement](https://docs.microsoft.com/en-us/dynamics365/release-plans/)                                                                                                        | Découvrez les toutes dernières fonctionnalités et les améliorations apportées à Dynamics 365                                                                                                                                                                                                                                                                                                                                                  | Documentation                         |           |
-## <a name="core-platform-knowledge"></a>Connaissances de la plateforme Core
+## <a name="core-platform-knowledge"></a>Principales connaissances de la plateforme
 | Contenu                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                              | Format                                | Longueur    | 
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Utiliser Lifecycle Services (LCS) pour concevoir et planifier une implémentation de Dynamics 365 for Finance and Operations](https://docs.microsoft.com/en-us/learn/paths/use-lcs-to-design-and-plan-an-implementation-of-f-and-o/)                             | Lifecycle Services (LCS) désigne un espace de travail collaboratif que les clients et leurs partenaires utilisent pour gérer les projets Microsoft Dynamics 365 for Finance and Operations de la prévente à la phase de mise en place et enfin dans l'environnement de production, sur le cloud ou sur site. Il offre des listes de contrôle et des outils qui vous permettent de gérer le projet, notamment des méthodologies préalables à la création pour accompagner la mise en place et les services régulièrement mis à jour.                                                  | Parcours d'apprentissage en ligne, gratuit et à son propre rythme                                          | 2 heures    |

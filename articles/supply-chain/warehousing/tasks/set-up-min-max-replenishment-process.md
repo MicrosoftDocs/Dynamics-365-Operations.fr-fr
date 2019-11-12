@@ -3,7 +3,7 @@ title: Paramétrer un processus de réapprovisionnement minimum/maximum
 description: Cette procédure décrit la manière de paramétrer un nouveau processus de réapprovisionnement qui utilise une stratégie de réapprovisionnement minimal/maximal.
 author: perlynne
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef3c33125850662cfb0dfba6e6349ce32ceda0af
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
+ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924445"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "2559187"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Paramétrer un processus de réapprovisionnement minimum/maximum
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Cette procédure décrit la manière de paramétrer un nouveau processus de réapprovisionnement qui utilise une stratégie de réapprovisionnement minimal/maximal. Lorsque le stock passe en dessous du niveau minimal, le travail est créé pour réapprovisionner l'emplacement. La procédure indique également comment utiliser les emplacements de prélèvement fixes pour autoriser la remise en stock même si le stock passe en dessous du niveau minimal et comment activer le processus de réapprovisionnement pour qu'il s'exécute régulièrement en utilisant un traitement par lots. Ces tâches sont généralement effectuées par un responsable de l'entrepôt. Vous pouvez exécuter cette procédure dans les données fictives de la société USMF à l'aide des valeurs d'exemple dans les notes, ou pouvez l'exécuter sur vos propres données. Si vous utilisez vos propres données, vérifiez que vous avez un entrepôt qui est activé pour les processus de gestion des entrepôts.
+Cette procédure décrit la manière de paramétrer un nouveau processus de réapprovisionnement qui utilise une stratégie de réapprovisionnement minimal/maximal. Lorsque le stock passe en dessous du niveau minimal, le travail est créé pour réapprovisionner l'emplacement. La procédure indique également comment utiliser les emplacements de prélèvement fixes pour autoriser la remise en stock même si le stock passe en dessous du niveau minimal et comment activer le processus de réapprovisionnement pour qu'il s'exécute régulièrement en utilisant un traitement par lots. Ces tâches sont généralement effectuées par un responsable de l'entrepôt. Vous pouvez exécuter cette procédure dans les données fictives de la société USMF à l'aide des valeurs d'exemple ci-dessous, ou pouvez l'exécuter sur vos propres données. Si vous utilisez vos propres données, vérifiez que vous avez un entrepôt qui est activé pour les processus de gestion des entrepôts.
 
 
 ## <a name="create-a-fixed-picking-location"></a>Créer un emplacement de prélèvement fixe

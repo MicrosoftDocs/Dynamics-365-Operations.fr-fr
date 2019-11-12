@@ -18,34 +18,40 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2bcd1584f6a858f7589387fbfe96267b7c16176a
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 74e42207e5f3418e6e80b46a1d2634fbd8065126
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918393"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652216"
 ---
 # <a name="cost-and-date-control"></a>Contrôle de date et de coût
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Dans le module Gestion des actifs, vous pouvez calculer des coûts pour obtenir une vue d'ensemble des coûts réels comparés aux coûts budgétaires des actifs, des postes techniques et des ordres de travail. Les coûts réels sont basés sur des transactions validées. Vous pouvez également effectuer un calcul de date si vous souhaitez comparer les dates de début et de fin prévues par rapport aux dates de début et de fin réelles sur les ordres de travail.
+Dans le module Gestion des actifs, vous pouvez calculer des coûts pour obtenir une vue d'ensemble des coûts réels comparés aux coûts budgétaires des actifs, des postes techniques et des ordres de travail. Les coûts réels sont basés sur des transactions validées. 
+
+Vous pouvez également effectuer un calcul de date si vous souhaitez comparer les dates de début et de fin prévues par rapport aux dates de début et de fin réelles sur les ordres de travail.
 
 ## <a name="cost-control-for-assets-functional-locations-and-work-orders"></a>Contrôle des coûts pour des actifs, des postes techniques et des ordres de travail
 
-Les calculs effectués pour les actifs, les postes techniques et les ordres de travail sont quasiment identiques. L'unique différence réside dans le fait que pour les actifs et les postes techniques, vous pouvez également inclure les sous-actifs et les sous-postes dans votre calcul. La date est la date de transaction à laquelle l'enregistrement a été enregistré.
+Les calculs effectués pour les actifs, les postes techniques et les ordres de travail sont quasiment identiques. La seule différence réside dans le fait que pour les actifs et les postes techniques, vous pouvez également inclure les sous-actifs et les sous-postes dans votre calcul. La date est la date de transaction à laquelle l'enregistrement a été enregistré.
 
 1. Cliquez sur **Gestion des actifs** > **Recherches** > **Actifs** > **Contrôle des coûts d'actif** ou **Contrôle des coûts du poste technique** ou **Gestion des actifs** > **Recherches** > **Ordres de travail** > **Contrôle des coûts des ordres de travail**.
 
-2. Dans la boîte de dialogue **Contrôle des coûts d'actif** / **Contrôle des coûts du poste technique** / **Contrôle des coûts des ordres de travail**, sélectionnez une période à calculer.
+2. Dans la boîte de dialogue **Contrôle des coûts d'actif** / **Contrôle des coûts du poste technique** / **Contrôle des coûts des ordres de travail**, sélectionnez une plage de dates à calculer.
 
 3. Si nécessaire, sélectionnez un ensemble de dimensions financières à inclure dans le calcul.
 
 4. Sélectionnez « Oui » sur le bouton bascule **Ignorer lignes nulles** si vous ne souhaitez pas afficher les résultats ayant des coûts supérieurs à zéro.
 
-5. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de contrôle de coût en fonction des postes techniques. Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une hiérarchie de postes techniques à plusieurs niveaux, toutes les lignes de contrôle des coûts pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter les heures sur une ligne à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre 0 dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes de contrôle de coût sur tout le niveau du poste technique auquel elles sont liées.
+5. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes de contrôle de coût en fonction des postes techniques. 
+
+    Par exemple, si vous insérez le chiffre 1 dans le champ, et que vous avez une hiérarchie de postes techniques à plusieurs niveaux, toutes les lignes de contrôle des coûts pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter les heures sur une ligne à partir des postes techniques situés à un niveau inférieur. 
+    
+    Par exemple, si vous insérez le chiffre 0 dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes de contrôle de coût sur tout le niveau du poste technique auquel elles sont liées.
 
 6. Sélectionnez « Oui » sur le bouton bascule **Afficher les coûts engagés en cours** pour inclure cette colonne dans le calcul.
 
@@ -55,20 +61,25 @@ Les calculs effectués pour les actifs, les postes techniques et les ordres de t
 
 9. Cliquez sur **OK** pour démarrer le calcul.
 
-L'illustration suivante présente un exemple de la boîte de dialogue **Contrôle des coûts d'actif**.
+    L'illustration suivante présente un exemple de la boîte de dialogue **Contrôle des coûts d'actif**.
 
-![Figure 1](media/01-controlling-and-reporting.png)
+    ![Boîte de dialogue Contrôle des coûts des actifs](media/01-controlling-and-reporting.png)
 
-10. Dans les groupes de volet Actions **Grouper par...** de la page **Contrôle des coûts d'actif**, cliquez sur les boutons appropriés pour afficher le niveau requis de détail du calcul. Les boutons sélectionnés du volet Actions sont mis en surbrillance. Cliquez sur un bouton pour l'activer ou le désactiver.
+10. Sur la page **Contrôle des coûts d'actif**, cliquez sur le bouton **Grouper par**, cliquez sur les boutons appropriés à afficher le niveau requis de détail du calcul. Les boutons **Grouper par** sélectionnés sont mis en surbrillance. Cliquez sur un bouton pour l'activer ou le désactiver.
 
-L'illustration suivante présente un exemple de résultats du calcul dans **Contrôle des coûts d'actif**.
+## <a name="example"></a>Exemple
 
-![Figure 2](media/02-controlling-and-reporting.png)
+La capture d'écran suivante présente un exemple de résultats du calcul dans **Contrôle des coûts d'actif**.
+
+- Le champ **Budget d'origine** indique les coûts budgétaires à partir des prévisions de l'ordre de travail. 
+- Le champ **Coût engagé** indique le montant total de dépenses que l'entité juridique s'est engagée à payer. 
+- Le champ **Coûts engagés en cours** indique les engagements à payer des articles, des heures, et des services commandés ou reçus mais pas encore réglés. 
+- Le champ **Coût réel** affiche les coûts associés lorsque tous les enregistrements de consommation ont été validés.
+
+![Exemples de résultats de calcul dans Contrôle des coûts d'actif](media/02-controlling-and-reporting.png)
 
 Une autre manière d'effectuer un calcul du coût est de choisir plusieurs actifs dans **Tous les actifs** ou **Actifs actifs**. Cliquez ensuite sur le bouton **Contrôle des coûts** sur l'onglet **Général** . Dans la boîte de dialogue **Contrôle des coûts d'actif**, les actifs sélectionnés sont insérés automatiquement dans le champ **Actif** sur l'organisateur **Enregistrements à inclure**. Cliquez sur **OK** et un calcul des coûts pour les actifs sélectionnés s'affiche. La même procédure peut être effectuée pour les postes techniques dans **Tous les postes techniques** ou **Postes techniques actifs**, et pour les ordres de travail dans **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
->[!NOTE]
->Le champ **Budget d'origine** indique les coûts budgétaires à partir des prévisions de l'ordre de travail. Le champ **Coût engagé** indique le montant total de dépenses que l'entité juridique s'est engagée à payer. Le champ **Coûts engagés en cours** indique les engagements à payer des articles, des heures, et des services commandés ou reçus mais pas encore réglés. Lorsque tous les enregistrements de consommation ont été validés, les coûts associés sont inclus dans le champ **Coût réel**.
 
 ## <a name="work-order-date-control"></a>Contrôle de la date de l'ordre de travail
 
@@ -80,17 +91,20 @@ Cette page permet d'obtenir une vue d'ensemble des dates de début et de fin att
 
 3. Sélectionnez un poste technique dans le champ **Poste technique**.
 
-4. Insérez la période pour laquelle vous souhaitez effectuer le calcul dans les champs **Date de début** et **Date de fin**. Tous les bons de travail avec la date de début prévue dans la période seront inclus.
+4. Insérez la plage pour laquelle vous souhaitez effectuer le calcul dans les champs **Date de début** et **Date de fin**. Tous les ordres de travail avec la date de début prévue dans la plage seront inclus.
 
 5. Cliquez sur **OK**.
 
-6. Dans les groupes de volet Actions **Grouper par…**, cliquez sur les boutons appropriés à afficher le niveau requis de détail du calcul. Les boutons sélectionnés du volet Actions sont mis en surbrillance. Cliquez sur un bouton pour l'activer ou le désactiver.
+6. Cliquez sur les boutons **Grouper par** pour afficher le niveau requis de détail du calcul. Les boutons **Grouper par** sélectionnés sont mis en surbrillance. Cliquez sur un bouton pour l'activer ou le désactiver.
 
-L'illustration suivante présente un exemple des résultats des calculs dans **Contrôle de date d'ordre de travail**.
+## <a name="example"></a>Exemple
 
-![Figure 3](media/03-controlling-and-reporting.png)
+La capture d'écran suivante présente un exemple des résultats des calculs dans **Contrôle de date d'ordre de travail**.
 
 - Le champ **Retard de début moyen** indique la différence en jours entre la date de début prévue pour un bon de travail par rapport à la date de début réelle. Si, par exemple, la date de début réelle était deux jours avant la date de début prévue, « -2 » s'affichera dans ce champ.  
 - Le champ **Retard de fin moyen** indique la différence en jours entre la date de fin prévue pour un bon de travail par rapport à la date de fin réelle. Si, par exemple, la date de fin réelle était trois jours après la date de fin prévue, « -3 » s'affichera dans ce champ.  
 - Les champs **Occurrences** indiquent le nombre d'écarts entre les dates de début et de fin prévues et celles de début et de fin réelles sur les ordres de travail.
+
+![Exemples de résultats de calcul dans Contrôle de la date de l'ordre de travail](media/03-controlling-and-reporting.png)
+
 

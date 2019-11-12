@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4c9a2fee7d43142f8bb17f4e819c9949a2a20c41
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922020"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570028"
 ---
 # <a name="maintenance-rounds"></a>Visites de maintenance
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Dans **Gestion des actifs**, vous pouvez créer des visites de maintenance pour divers actifs sur lesquels vous devez effectuer une tâche similaire à intervalles réguliers. Par exemple, des tâches de lubrification ou de contrôle de sécurité qui doivent être effectuées sur un certain nombre de machines dans les mêmes intervalles. La première étape consiste à créer une visite de maintenance, y compris les actifs nécessitant la même forme de tâche de maintenance. Ensuite, vous planifiez les visites de maintenance. Lorsque vous avez terminé le programme des visites de maintenance, vous pouvez voir tous les enregistrements de tâches concernant la visite dans les champs **Tout le programme de maintenance** et **Ouvrir les lignes du programme de maintenance**.
 

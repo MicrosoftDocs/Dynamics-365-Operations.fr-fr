@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565694"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569269"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO avec valeur physique et marquage
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Dernier entré, premier sorti (Last In, First Out ou LIFO) est un modèle de stock dans lequel les dernières réceptions sont sorties en premier. Les sorties de stock sont réglées avec les dernières réceptions, en fonction de la date du mouvement de stock. 
 
@@ -56,7 +54,9 @@ Dans cet exemple, le groupe de modèles d'article n'est pas marqué pour inclure
 -   5a. Sortie financière de stock pour une quantité de 1 à un prix de revient de 20,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
 -   6. La clôture du stock est effectuée. Selon la méthode LIFO, la dernière sortie mise à jour financièrement sera réglée par rapport à la dernière réception mise à jour financièrement. Un ajustement de 10,00 EUR sera effectué sur la transaction de sortie.
 
-Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement, 15,00 EUR. L'illustration suivante indique l'impact du modèle de stock LIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. ![LIFO Sans Inclure la valeur physique](./media/lifowithoutincludephysicalvalue.gif) 
+Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement, 15,00 EUR. L'illustration suivante indique l'impact du modèle de stock LIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. 
+
+![LIFO Sans Inclure la valeur physique](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 
@@ -90,7 +90,9 @@ La figure suivante illustre ces transactions :
 
 La transaction 6a sera ajustée sur la transaction de réception 4b. Le système ne règlera pas ces transactions car la mise à jour de la réception s'effectue au niveau physique mais pas au niveau financier. La transaction de sortie physique fera l'objet d'un ajustement de 8,75 EUR. La transaction 5b sera ajustée sur la transaction de réception physique 3a. Le système ne règlera pas ces transactions parce qu'elles ne sont pas mises à jour financièrement. À la place, cette transaction de sortie fera l'objet d'un ajustement de –3,75 EUR. Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 20,00 EUR. 
 
-Les illustrations suivantes indiquent l'impact du modèle de stock LIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. ![LIFO avec Inclure la valeur physique](./media/lifowithincludephysicalvalue.gif) 
+Les illustrations suivantes indiquent l'impact du modèle de stock LIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. 
+
+![LIFO avec Inclure la valeur physique](./media/lifowithincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 
@@ -132,7 +134,9 @@ La figure suivante illustre ces transactions :
 
 Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 27,50 EUR. 
 
-Les illustrations suivantes montrent les effets du modèle de stock LIFO sur cette série de transactions quand le marquage entre les sorties et les réceptions est utilisé. ![LIFO avec marquage](./media/lifowithmarking.gif) 
+Les illustrations suivantes montrent les effets du modèle de stock LIFO sur cette série de transactions quand le marquage entre les sorties et les réceptions est utilisé. 
+
+![LIFO avec marquage](./media/lifowithmarking.gif) 
 
 **Clés du diagramme**
 
@@ -146,7 +150,4 @@ Les illustrations suivantes montrent les effets du modèle de stock LIFO sur cet
 - Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
 - Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
 - Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
-
-
-
 

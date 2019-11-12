@@ -18,34 +18,34 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024612"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653345"
 ---
 # <a name="functional-locations-and-assets"></a>Actifs et postes techniques
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Cette rubrique décrit les postes techniques et les actifs dans Gestion des actifs. Gestion des actifs est un module avancé de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>Présentation
 
-Gestion des actifs est intégré de façon transparente à plusieurs modules de Finance and Operations. L'illustration suivante présente les interfaces avec d'autres modules.
+Gestion des actifs est intégré de façon transparente à plusieurs modules avec d'autres applications Finance and Operations. L'illustration suivante présente les interfaces avec d'autres modules.
 
-![Figure 1](media/01-overview-image.png)
+![Diagramme affichant comment le module Gestion d'actifs se connecte par interface aux autres modules](media/01-overview-image.png)
 
 Gestion des actifs vous permet de gérer et d'exécuter plus efficacement toutes les tâches relatives à la gestion et à la maintenance de nombreux types d'équipements de votre société. Cet équipement inclut les machines, l'équipement de production et les véhicules. Gestion des actifs prend également en charge les solutions de nombreux secteurs.
 
 L'illustration suivante présente une vue d'ensemble de la fonctionnalité principale couverte par Gestion des actifs.
 
-![Figure 2](media/02-overview-image.png)
+![Diagramme affichant la fonctionnalité principale du module Gestion des actifs](media/02-overview-image.png)
 
-## <a name="functional-locations-and-assets"></a>Actifs et postes techniques
+## <a name="functional-locations-and-assets"></a>Actifs et emplacements fonctionnels
 
 Les postes techniques permettent de gérer des actifs à des postes. Cette gestion inclut le suivi des coûts d'actif à des postes techniques. Les postes techniques sont structurés hiérarchiquement, et les postes peuvent avoir des sous-postes. La structure des postes techniques est statique. Autrement dit, les postes ne peuvent pas changer d'emplacement. Les actifs peuvent être installés à des postes techniques et, au besoin, être installés à d'autres postes techniques ultérieurement.
 
@@ -53,8 +53,8 @@ Les coûts d'actifs suivent toujours le poste de l'actif. En d'autres termes, si
 
 La façon dont vous établissez votre hiérarchie des postes techniques dépend des exigences de votre société pour la maintenance de l'équipement interne ou l'entretien de l'équipement du client. La figure suivante présente un exemple des postes techniques basés sur des emplacements géographiques.
 
-![Figure 3](media/03-overview-image.png)
+![Diagramme affichant des postes techniques basés sur des emplacements géographiques](media/03-overview-image.png)
 
 La figure suivante présente un exemple des postes techniques basés sur les clients.
 
-![Figure 4](media/04-overview-image.png)
+![Diagramme affichant des postes techniques basés sur des clients](media/04-overview-image.png)

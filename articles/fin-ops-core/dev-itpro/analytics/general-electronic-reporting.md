@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ce7b5418ab9e1a9abd6c3206c74c5a1cf739a3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181885"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578239"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d'ensemble des états électroniques (ER)
 
@@ -71,9 +71,8 @@ Un mappage de modèle qui prend en charge les documents électroniques sortants 
 
 - Il peut utiliser les différents types de données comme sources de données pour un modèle de données. Par exemple, il peut utiliser des enums, des entités de données, des méthodes ou des tables.
 - Il prend en charge les paramètres d'entrée utilisateur qui peuvent être définies comme sources de données pour un modèle de données lorsque certaines données doivent être spécifiées au moment de l'exécution.
-- Il prend en charge la transformation des données en groupes requis. Il permet également de filtrer, de trier et d'ajouter des données, ainsi que des champs calculés logiques qui sont conçus via les formules qui sont semblables aux formules de Microsoft Excel, comme le montre l'illustration suivante. Pour plus d'informations, voir [Concepteur de formule dans les états électroniques](general-electronic-reporting-formula-designer.md).
+- Il prend en charge la transformation des données en groupes requis. Il permet également de filtrer, de trier et d'ajouter des données, ainsi que des champs calculés logiques qui sont conçus via les formules qui sont semblables aux formules de Microsoft Excel. Pour plus d'informations, voir [Concepteur de formule dans les états électroniques](general-electronic-reporting-formula-designer.md).
 
-[![Concepteur de formule](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Un mappage de modèle qui prend en charge les documents électroniques entrants a les fonctionnalités suivantes :
 
@@ -196,9 +195,7 @@ Les référentiels **Projet LCS**, **Système de fichiers** et **Services de con
 ## <a name="supported-scenarios"></a>Scénarios pris en charge
 ### <a name="building-a-data-model"></a>Élaboration d'un modèle de données
 
-L'état électronique propose un concepteur de modèle vous permettant de créer un modèle de données pour un domaine de l'entreprise donné. Toutes les entités commerciales spécifiques à un domaine et les relations entre elles peuvent être présentées dans un modèle de données en tant que structure hiérarchique. L'illustration suivante montre un exemple de ce type de modèle de données (le modèle de données du domaine de paiement).
-
-[![Modèle de données de domaine de paiement](./media/ER-overview-04.png)](./media/ER-overview-04.png)
+L'état électronique propose un concepteur de modèle vous permettant de créer un modèle de données pour un domaine de l'entreprise donné. Toutes les entités commerciales spécifiques à un domaine et les relations entre elles peuvent être présentées dans un modèle de données en tant que structure hiérarchique. 
 
 Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Concevoir un modèle de données spécifiques au domaine** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** .
 
@@ -209,24 +206,14 @@ Le contenu du modèle de données (étiquettes et descriptions) peut être tradu
 - Au moment de la conception, pour rendre le contenu plus intelligible aux concepteurs de format parlant une langue étrangère qui utilisent le modèle de données pour la mise en correspondance des données des composants de format.
 - Au moment de l'exécution, pour rendre le contenu plus convivial pour la présentation des invites et de l'aide pour les paramètres d'exécution ainsi que des messages de validation configurés (erreurs et avertissements) dans la langue que l'utilisateur actuellement connecté préfère.
 
-L'illustration suivante montre un exemple de la traduction du contenu du modèle de données de l'anglais vers le japonais.
-
-[![Contenu du modèle de données en anglais](./media/ER-overview-05.png)](./media/ER-overview-05.png)
-
-[![Contenu du modèle de données traduit en japonais](./media/ER-overview-06.png)](./media/ER-overview-06.png)
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Configuration des mappages de modèle de données pour les documents sortants
 
-L'état électronique fournit un concepteur de mise en correspondance de modèle qui permet aux utilisateurs de mapper des modèles de données qu'ils ont conçus pour des sources de données de l'application spécifiques. Selon le mappage, les données seront importées au moment de l'exécution des sources de données sélectionnées dans le modèle de données. Le modèle de données est ensuite utilisé comme une source de données abstraite des formats de génération d'états électroniques qui créent les documents électroniques sortants. L'illustration suivante présente un exemple de ce type de mise en correspondance de modèle de données (mise en correspondance du modèle **Virement SEPA** avec le modèle de données du domaine de paiement).
-
-[![Exemple de mise en correspondance de modèle de données](./media/ER-overview-07.png)](./media/ER-overview-07.png)
+L'état électronique fournit un concepteur de mise en correspondance de modèle qui permet aux utilisateurs de mapper des modèles de données qu'ils ont conçus pour des sources de données de l'application spécifiques. Selon le mappage, les données seront importées au moment de l'exécution des sources de données sélectionnées dans le modèle de données. Le modèle de données est ensuite utilisé comme une source de données abstraite des formats de génération d'états électroniques qui créent les documents électroniques sortants. 
 
 Pour vous familiariser avec ce scénario en détails, visionnez les guides de tâche **ER Définir le mappage de modèles et sélectionner des sources de données** et **ER Mapper le modèle de données aux sources de données sélectionnées** (qui font partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Configuration des mappages de modèle de données pour les documents entrants
-L'état électronique fournit un concepteur de mise en correspondance de modèle qui permet aux utilisateurs de mapper des modèles de données qu'ils ont conçus pour des destinations spécifiques. Par exemple, des modèles de données peuvent être mappés aux composants pouvant être mis à jour (tables, entités de données et vues). Selon le mappage, les données sont mises à jour au moment de l'exécution à l'aide des données du modèle de données. Pour un stockage abstrait du format de génération d'états électroniques, le modèle de données contient les données importées depuis un document électronique entrant. L'illustration suivante montre un exemple de ce type de mappage de modèle de données. Dans cet exemple, le mappage de modèle **Mappage d'importation pour NETS** du domaine de paiement est utilisé pour prendre en charge l'importation des relevés bancaires au format de banque NETS de la Norvège.
-
-[![Exemple de modèle de données de mappage d'importation pour NETS](./media/ER-overview-08.png)](./media/ER-overview-08.png)
+L'état électronique fournit un concepteur de mise en correspondance de modèle qui permet aux utilisateurs de mapper des modèles de données qu'ils ont conçus pour des destinations spécifiques. Par exemple, des modèles de données peuvent être mappés aux composants pouvant être mis à jour (tables, entités de données et vues). Selon le mappage, les données sont mises à jour au moment de l'exécution à l'aide des données du modèle de données. Pour un stockage abstrait du format de génération d'états électroniques, le modèle de données contient les données importées depuis un document électronique entrant. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Stockage du composant de modèle conçu en tant que modèle de configuration
 
@@ -236,24 +223,18 @@ Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâc
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Élaboration d'un format qui utilise un modèle de données en tant que base
 
-ER prend en charge un concepteur de format que vous pouvez utiliser pour élaborer le format d'un document électronique pour le domaine d'entreprise en sélectionné d'affaires en sélectionnant le composant modèle comme base. Le même concepteur de format ER vous permet de mettre en correspondance un format créé et la mise en correspondance du modèle de données du domaine sélectionné comme source de données. L'illustration suivante montre un exemple de ce type de format (la configuration du format qui prend en charge le format de paiement **BACS** pour le Royaume-Uni).
-
-[![Exemple d'un format qui utilise un modèle de données en tant que base](./media/ER-overview-09.png)](./media/ER-overview-09.png)
+ER prend en charge un concepteur de format que vous pouvez utiliser pour élaborer le format d'un document électronique pour le domaine d'entreprise en sélectionné d'affaires en sélectionnant le composant modèle comme base. Le même concepteur de format ER vous permet de mettre en correspondance un format créé et la mise en correspondance du modèle de données du domaine sélectionné comme source de données. 
 
 Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Concevoir un format spécifique au domaine** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** .
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Création d'une configuration pour générer des documents électroniques au format de feuille de calcul OPENXML
 
-Le concepteur de format ER peut être utilisé pour générer un document électronique particulier au format de feuille de calcul OPENXML. L'illustration suivante montre un exemple de ce type de format (configuration de format permettant de générer une feuille de calcul OPENXML avec les détails d'un journal des paiements sélectionné).
-
-[![Pic-ER-format-Excel](./media/ER-overview-10.png)](./media/ER-overview-10.png)
+Le concepteur de format ER peut être utilisé pour générer un document électronique particulier au format de feuille de calcul OPENXML. 
 
 Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Créer une configuration pour des états au format OPENXML** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**). Dans le cadre de l'étape du guide de tâche pour importer un modèle, utilisez le fichier Excel [Modèle d'état de paiement (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) en tant que modèle.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Création d'une configuration pour générer des documents électroniques au format de document Word
 Le concepteur de format ER peut être utilisé pour générer un document électronique particulier au format de document Word. L'illustration suivante montre un exemple de ce type de format. Notez que ce format réutilise la configuration ER existante qui a été conçue initialement pour générer la sortie d'état au format OPENXML.
-
-[![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
 Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche ER Concevoir une configuration pour générer des états au format Microsoft WORD (qui fait partie du processus d'entreprise 7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)). Dans le cadre de l'étape du guide de tâche pour importer un modèle, utilisez les fichiers Word suivants en tant que modèles pour le format ER :
 
@@ -261,11 +242,7 @@ Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâc
 - [Modèle lié d'état de paiement (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Génération d'une configuration pour importer les données des documents électroniques entrants
-Le concepteur de format ER peut servir à décrire un document électronique planifié pour l'importation de données au format XML ou texte. Le format conçu permet d'analyser un document entrant. Le concepteur de mappage des formats ER permet de définir la liaison des éléments du format conçu au modèle de données. Les illustrations suivantes montrent un exemple de ce type de format et de mappage de format. Dans cet exemple, des relevés bancaires NETS qui incluent des informations de paiement fournisseur au format texte sont importés.
-
-[![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
-
-[![ER-model-mapping-designer](./media/ER-overview-13.png)](./media/ER-overview-13.png)
+Le concepteur de format ER peut servir à décrire un document électronique planifié pour l'importation de données au format XML ou texte. Le format conçu permet d'analyser un document entrant. Le concepteur de mappage des formats ER permet de définir la liaison des éléments du format conçu au modèle de données. 
 
 Pour vous familiariser avec ce scénario en détails, consultez le guide de tâche ER Créer des configurations pour importer des données d'un fichier externe (qui fait partie du processus d'entreprise 7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)). Les fichiers suivants pour lire le présent guide :
 
@@ -280,11 +257,7 @@ ER peut stocker un format conçu avec des mises en correspondance de données co
 
 ### <a name="configuring-finance-to-start-to-use-a-created-format-internally"></a>Configuration de Finance pour utiliser le format créé en interne
 
-Vous pouvez configurer l'application pour utiliser le format créé pour générer des états électroniques. La référence à la configuration de format créé doit être définie dans les paramètres d'un domaine particulier. Par exemple, pour commencer à utiliser une configuration de format ER pour les paiements fournisseur électroniques au format BACS, la configuration de format doit être référencée dans des modes de paiement spécifiques, comme indiqué dans les illustrations suivantes :
-
-[![Format de la configuration BACS (Royaume-Uni)](./media/ER-overview-14.png)](./media/ER-overview-14.png)
-
-[![Référencement du format BACS (Royaume-Uni) dans un mode de paiement](./media/ER-overview-15.png)](./media/ER-overview-15.png)
+Vous pouvez configurer l'application pour utiliser le format créé pour générer des états électroniques. La référence à la configuration de format créé doit être définie dans les paramètres d'un domaine particulier. Par exemple, pour commencer à utiliser une configuration de format ER pour les paiements fournisseur électroniques au format BACS, la configuration de format doit être référencée dans des modes de paiement spécifiques.
 
 Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Utiliser le format pour générer un document électronique pour les paiements** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 

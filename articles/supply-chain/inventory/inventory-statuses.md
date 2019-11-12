@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd86bf525ae33f78fb472e6c333083592ff8a012
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 79ddc91aa3bbe0613543595006b10e6e0bef4427
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024382"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653487"
 ---
 # <a name="inventory-statuses"></a>Statuts du stock
 
@@ -42,7 +42,7 @@ Voici quelques exemples d'utilisation des statuts de stock :
 
 Le statut du stock est l'une des dimensions dans le groupe de dimensions de stockage. Les statuts de stock peuvent être classés comme disponibles ou non disponibles, et vous pouvez utiliser le paramètre **Blocage du stock** pour bloquer les articles ayant un statut du stock disponible. Les articles dont le statut est bloqué sont considérés comme un stock physique et ne peuvent pas être utilisés dans un ordre de fabrication, une commande client, un ordre de transfert, ou une transaction sortante.
 
-Vous pouvez utiliser des articles d'entrepôt dont les statuts de stock sont disponibles ou non disponibles pour un travail entrant. Par exemple, vous créez un statut disponible nommé **Prêt**, un statut non disponible nommé **Endommagé** et un statut bloqué nommé **Bloqué**. Lorsque vous créez une commande fournisseur pour des articles reçus ou retournés, si les articles sont endommagés ou arrêtés, vous pouvez modifier le statut de stock de ces articles sur **Endommagé** sur la ligne de commande fournisseur. Une fois ces articles reçus, le statut est automatiquement défini sur **Bloqué**. Si vous numérisez les articles endommagés à l'aide d'un appareil mobile, Finance and Operations peut utiliser des directives d'emplacement et des modèles de travail pour afficher des informations sur un emplacement adapté ou une plage d'emplacements pour ranger ces articles. Pour les articles retournés, un type de sortie de **Réservation** est créé dans la page **Mouvements de stock**.
+Vous pouvez utiliser des articles d'entrepôt dont les statuts de stock sont disponibles ou non disponibles pour un travail entrant. Par exemple, vous créez un statut disponible nommé **Prêt**, un statut non disponible nommé **Endommagé** et un statut bloqué nommé **Bloqué**. Lorsque vous créez une commande fournisseur pour des articles reçus ou retournés, si les articles sont endommagés ou arrêtés, vous pouvez modifier le statut de stock de ces articles sur **Endommagé** sur la ligne de commande fournisseur. Une fois ces articles reçus, le statut est automatiquement défini sur **Bloqué**. Si vous numérisez les articles endommagés à l'aide d'un appareil mobile, Supply Chain Management peut utiliser des directives d'emplacement et des modèles de travail pour afficher des informations sur un emplacement adapté ou une plage d'emplacements pour ranger ces articles. Pour les articles retournés, un type de sortie de **Réservation** est créé dans la page **Mouvements de stock**.
 
 Pour un travail sortant, utilisez les articles qui ont un statut de stock disponible. Si vous avez des articles ayant un statut **Cassé**, et la planification est effectuée sur ces articles, les articles sont considérés comme manquants et le stock est automatiquement réapprovisionné.
 

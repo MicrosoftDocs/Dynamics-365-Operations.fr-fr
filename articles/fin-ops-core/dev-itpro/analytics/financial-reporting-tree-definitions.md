@@ -3,7 +3,7 @@ title: Définitions d'arborescence de génération d'états dans les états fina
 description: Cet article fournit des informations sur les définitions d'arborescence de génération d'états. Une définition d’arborescence de génération d'états est un composant d’état, ou un bloc élémentaire, qui vous permet de définir la structure et la hiérarchie de votre organisation.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181816"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564165"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Définitions d'arborescence de génération d'états dans les états financiers
 
@@ -42,15 +42,15 @@ Avant de créer une arborescence de génération d'états, tenez compte des bonn
 - Vous devez également prendre en compte la meilleure façon de construire les arborescences. Vous pouvez utiliser un processus d'élaboration automatisé pour générer une arborescence de génération d'états, ou vous pouvez créer manuellement une arborescence de génération d'états. Il est important de comprendre les deux méthodes avant de concevoir les arborescences.
 - Vous pouvez utiliser les unités de génération d'état définies dans votre système de données financières pour ajouter ces unités de génération d'état à la définition d'arborescence de génération d'états.
 
-## <a name="create-multiple-reporting-trees"></a> Créer plusieurs arborescences de génération d'état
+## <a name="create-multiple-reporting-trees"></a>Créer plusieurs arborescences de génération d'état
 Vous pouvez créer un nombre illimité d'arborescences de génération d'état pour afficher les données de votre organisation de différentes manières. Chaque organigramme d'entreprise peut contenir une combinaison quelconque de services et d'unités de synthèse. Une définition d'état peut contenir un lien vers une seule arborescence de génération d'états à la fois. En réarrangeant la structure des unités de génération d'état, vous pouvez créer différentes arborescences de génération d'état. Vous pouvez ensuite utiliser les mêmes définitions de ligne et de colonne pour chaque arborescence de génération d'états. De cette manière, vous pouvez créer rapidement différentes mises en page d'états financiers. Si vous créez plusieurs arborescences de génération d'état, vous pouvez imprimer une série de tableaux d'analyse chaque mois qui analysent et représentent les opérations de votre société de diverses manières. Pour plus d'informations, consultez les exemples des structures d'unité de déclaration à la fin de cet article.
 
-## <a name="create-a-reporting-tree-definition"></a> Créer une définition d'arborescence de génération d'états
+## <a name="create-a-reporting-tree-definition"></a>Créer une définition d'arborescence de génération d'états
 Une définition d'arborescence de génération d'états contient les colonnes décrites dans le tableau suivant.
 
 | Colonne d'arborescence de génération d'états | Description |
 |-----------------------|-------------|
-| Société               | Nom de la société pour l'unité de déclaration. La valeur **@ANY**, qui n'est généralement affectée qu'au niveau de synthèse, permet d'utiliser l'organigramme d'entreprise pour toutes les sociétés. Toutes les branches enfants sont affectées à une société. |
+| Société               | Nom de la société pour l'unité de déclaration. La valeur **\@ANY**, qui n'est généralement affectée qu'au niveau de synthèse, permet d'utiliser l'organigramme d'entreprise pour toutes les sociétés. Toutes les branches enfants sont affectées à une société. |
 | Nom de l'unité             | Code identifiant cette unité de déclaration dans l'arborescence graphique de génération d'état. Veillez à établir un système de codage unique qui est cohérent et qui sera facile à comprendre pour les utilisateurs. |
 | Description de l'unité      | Le titre de l'unité de déclaration apparaît dans l'en-tête ou le pied de page de l'état si vous entrez **UnitDesc** comme code sous l'onglet **En-têtes et pieds de page** de la définition d'état. Le titre apparaît dans la description de ligne d'état si vous entrez **UnitDesc** dans la cellule **Description** de la définition de ligne. |
 | Dimensions            | Une unité de déclaration qui tire les informations directement des données financières. Elle définit le positionnement logique et les longueurs pour le compte et les segments associés. Chaque ligne d'unité de génération de rapports doit avoir une dimension dans cette colonne. Vous pouvez également insérer une dimension dans une ligne d’unité de synthèse (par exemple, pour les dépenses qui sont directement liées à cette unité). Si vous entrez une dimension dans une ligne d'unité de synthèse, les comptes utilisés dans les unités parent ne doivent pas être utilisés dans les unités enfant. Dans le cas contraire, les montants peuvent être dupliqués. |
@@ -112,7 +112,7 @@ Lorsque vous utilisez une arborescence de génération d'états, vous pouvez agr
 
 Chaque définition d’arborescence de génération d'états est affichée dans des vues uniques. Il existe une vue graphique pour afficher la hiérarchie des parents et enfants et une vue de feuille de calcul qui affiche les informations spécifiques à chaque unité de déclaration. La vue graphique et la vue de feuille de calcul sont connectés. Lorsque vous sélectionnez une unité de déclaration dans une vue, elle est également sélectionnée dans l'autre vue. Vous pouvez créer des hiérarchies inter-dimensionnelles sur la base des relations dimensionnelles dans les données financières. Lorsque vous créez une définition d'arborescence de génération d'états, vous pouvez utiliser les mêmes définitions de ligne à plusieurs reprises, que vous génériez vous générez un état des revenus départemental ou un état des revenus récapitulatif consolidé. Les dimensions définies dans la définition de ligne peuvent être combinées avec les dimensions dans la définition d'arborescence de génération d'états pour fournir un grand choix de vues des performances de votre organisation.
 
-### <a name="reporting-unit-structure"></a> Structure d'unité de déclaration
+### <a name="reporting-unit-structure"></a>Structure d'unité de déclaration
 
 Les types d'unités de déclaration suivants sont utilisés dans la génération d'états financiers :
 
@@ -121,7 +121,7 @@ Les types d'unités de déclaration suivants sont utilisés dans la génération
 
 Une unité de déclaration parent est une unité de synthèse qui agrège les informations résumées d'une unité détaillée. Une unité de synthèse peut être à la fois une unité de détail et une unité de synthèse. Par conséquent, une unité de synthèse peut tirer des informations d’une unité de niveau inférieur, des données financières ou d'une feuille de calcul Excel. Une unité parent peut être l'unité enfant d'une unité parent plus élevée. Une unité de déclaration enfant peut être une unité détaillée qui extrait les informations directement des données financières ou d'une feuille de calcul Excel. Une unité de génération d'états enfant peut également être une unité de synthèse intermédiaire. En d’autres termes, elle peut être l’unité parent d’une unité de niveau inférieur et également l’unité enfant d’une unité de synthèse de niveau supérieur. Dans le scénario le plus courant pour les unités de déclaration est d'avoir les unités parent avec une cellule vide dans la colonne **Dimension** et d'avoir des unités enfant avec des liens vers des combinaisons de dimensions spécifiques ou génériques.
 
-### <a name="organize-reporting-units"></a> Organisation des unités de déclaration
+### <a name="organize-reporting-units"></a>Organisation des unités de déclaration
 
 Vous pouvez réorganiser la structure organisationnelle d'une définition d'arborescence de génération d'états en déplaçant les unités de déclaration dans la vue graphique. Vous pouvez également faire passe des unités de déclaration à un niveau supérieur dans l'arborescence de génération d'états, ou les restreindre à un niveau inférieur.
 
@@ -130,7 +130,7 @@ Vous pouvez réorganiser la structure organisationnelle d'une définition d'arbo
 3. Faites glisser l’unité vers un nouvel emplacement. Sinon, cliquez avec le bouton droit sur l'unité et sélectionnez **Promouvoir l'unité de déclaration** ou **Rétrograder l'unité de déclaration**.
 4. Cliquez sur **Fichier** &gt; **Enregistrer** pour enregistrer les modifications.
 
-### <a name="add-text-about-a-reporting-unit"></a> Ajouter un texte à une unité de déclaration
+### <a name="add-text-about-a-reporting-unit"></a>Ajouter un texte à une unité de déclaration
 
 Une entrée de texte supplémentaire est une chaîne de texte statique, jusqu'à 255 caractères, qui ajoute des informations à la définition d'arborescence de génération d'états. Par exemple, le texte supplémentaire peut être une description courte de la société. Vous pouvez créer jusqu'à dix entrées de texte supplémentaires pour chaque unité de déclaration dans une définition d'arborescence de génération d'états. Le texte supplémentaire apparaît dans l'état de l'unité de déclaration à laquelle le texte est affecté. Vous pouvez ajouter des entrées de texte à partir de la colonne **Description** de la définition de ligne et de l'onglet **En-têtes et pieds de page** dans la définition d'état.
 

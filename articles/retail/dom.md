@@ -3,7 +3,7 @@ title: Gestion des commandes distribuées (DOM)
 description: Cette rubrique décrit la fonctionnalité de gestion des commandes distribuées (DOM) dans Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023417"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578482"
 ---
 # <a name="distributed-order-management-dom"></a>Gestion des commandes distribuées (DOM)
 
@@ -94,6 +94,7 @@ L'illustration suivante présente le cycle de vie d'une commande client dans un 
         - **Traiter les lignes partielles ?** – Si cette option est définie sur **Oui**, DOM peut traiter une quantité partielle des lignes de commande. Ce traitement partiel est obtenu en fractionnant la ligne de commande.
         - **Traiter la commande à partir d'un emplacement uniquement** : Si cette option est définie sur **Oui**, DOM garantit que toutes les lignes d'une commande sont traitées à partir d'un seul emplacement.
 
+
         Le tableau suivant explique ce qu'il se passe lorsqu'une combinaison de ces paramètres est définie.
 
         |      | Traiter les commandes partielles | Traiter les lignes partielles | Traiter la commande à partir d'un emplacement uniquement | Description |
@@ -110,19 +111,22 @@ L'illustration suivante présente le cycle de vie d'une commande client dans un 
 
         \* Si **Traiter les commandes partielles** est défini sur **Non**, **Traiter les lignes partielles** est toujours considéré comme étant défini sur **Non**, indépendamment de la manière dont il est défini en réalité.
 
-    - **Règle d'emplacement d'exécution en mode hors connexion** : Cette règle permet aux organisations de spécifier un emplacement ou un groupe d'emplacements comme étant Hors connexion ou Non disponible pour DOM, de sorte que les commandes ne puissent pas être affectées ici pour être traitées.
+> [!NOTE]
+> Dans Retail version 10.0.5, le paramètre **Traiter la commande à partir d'un emplacement uniquement** a été modifié en **Nombre maximal d'emplacements de traitement**. Au lieu d'autoriser un utilisateur à configurer si les commandes peuvent être traitées à partir d'un emplacement uniquement ou à partir d'autant d'emplacements que possible, les utilisateurs peuvent désormais spécifier si les commandes peuvent être traitées à partir d'un ensemble défini d'emplacements (pouvant aller jusqu'à 5) ou à partir d'autant d'emplacements que possible. Cela offre plus de flexibilité en termes de nombre d'emplacements de traitement de la commande.
+
+   - **Règle d'emplacement d'exécution en mode hors connexion** : Cette règle permet aux organisations de spécifier un emplacement ou un groupe d'emplacements comme étant Hors connexion ou Non disponible pour DOM, de sorte que les commandes ne puissent pas être affectées à ces emplacements pour traitement.
     - **Règle relative au nombre maximal de rejets** : Cette règle permet aux organisations de définir un seuil pour les rejets. Lorsque ce seuil est atteint, le processeur DOM marque une commande ou une ligne de commande comme une exception, et l'exclut des prochains traitements.
 
         Une fois que des lignes de commande sont affectées à un emplacement, celui-ci peut rejeter une ligne de commande qui lui est affectée, car il n'est pas forcément autorisé à la traiter pour différentes raisons. Les lignes rejetées sont marquées comme une exception et réimportées dans le regroupement afin d'être traitées lors d'une prochaine exécution. À la prochaine exécution, DOM essaiera d'affecter la ligne rejetée à un autre emplacement. Le nouvel emplacement peut également rejeter la ligne de commande affectée. Ce processus d'affectation et de rejet peut se produire plusieurs fois. Lorsque le nombre de rejets atteint le seuil défini, DOM marque la ligne de commande comme une exception permanente et ne la prélève plus en vue de l'affecter. DOM essaiera à nouveau d'affecter la ligne de commande uniquement si un utilisateur réinitialise manuellement le statut de celle-ci.
 
-    - **Règle de distance maximale** : Cette règle permet aux organisations de définir la distance maximale à laquelle un emplacement ou un groupe d'emplacements peut se trouver pour traiter la commande. Si des règles de distance maximales qui se chevauchent sont définies pour un emplacement, DOM applique la distance maximale la plus courte définie pour cet emplacement.
+   - **Règle de distance maximale** : Cette règle permet aux organisations de définir la distance maximale à laquelle un emplacement ou un groupe d'emplacements peut se trouver pour traiter la commande. Si des règles de distance maximales qui se chevauchent sont définies pour un emplacement, DOM applique la distance maximale la plus courte définie pour cet emplacement.
     - **Règle relative au nombre maximal de commandes** : Cette règle permet aux organisations de définir le nombre maximal de commandes qu'un emplacement ou un groupe d'emplacements peut traiter au cours d'un jour civil. Si le nombre maximal de commandes est affecté à un emplacement en une seule journée, DOM n'affecte plus de commandes à cet emplacement pour le reste de cette journée.
 
-    Voici certains attributs courants qui peuvent être définis pour tous les types de règle précédents :
+   Voici certains attributs courants qui peuvent être définis pour tous les types de règle précédents :
 
-    - **Date de début** et **Date de fin** : Une date d'effet peut être définie pour chaque règle à l'aide de ces champs.
-    - **Désactivé** : Seules les règles pour lesquelles **Non** est défini pour ce champ sont prises en compte lors de l'exécution de DOM.
-    - **Contrainte ferme** : Une règle peut être définie comme une contrainte ferme ou pas. Chaque exécution de DOM enchaîne deux itérations. Dans la première itération, chaque règle est considérée comme une règle de contrainte ferme, quel que soit le paramètre de ce champ. En d'autres termes, chaque règle s'applique. La seule exception est la règle **Priorité de l'emplacement**. Dans la deuxième itération, les règles qui n'avaient pas été définies comme des règles de contrainte fermes sont supprimées, et la commande ou les lignes de commande qui n'avaient pas été affectées aux emplacements une fois toutes les règles appliquées sont alors affectées aux emplacements.
+   - **Date de début** et **Date de fin** : Une date d'effet peut être définie pour chaque règle à l'aide de ces champs.
+   - **Désactivé** : Seules les règles pour lesquelles **Non** est défini pour ce champ sont prises en compte lors de l'exécution de DOM.
+   - **Contrainte ferme** : Une règle peut être définie comme une contrainte ferme ou pas. Chaque exécution de DOM enchaîne deux itérations. Dans la première itération, chaque règle est considérée comme une règle de contrainte ferme, quel que soit le paramètre de ce champ. En d'autres termes, chaque règle s'applique. La seule exception est la règle **Priorité de l'emplacement**. Dans la deuxième itération, les règles qui n'avaient pas été définies comme des règles de contrainte fermes sont supprimées, et la commande ou les lignes de commande qui n'avaient pas été affectées aux emplacements une fois toutes les règles appliquées sont alors affectées aux emplacements.
 
 10. Les profils d'exécution sont utilisés pour regrouper un ensemble de règles, des entités juridiques, des origines de commande client et des modes de livraison. Chaque exécution de DOM concerne un profil d'exécution spécifique. Ainsi, les organisations peuvent définir et exécuter un ensemble de règles pour un ensemble d'entités juridiques, pour des commandes qui ont des origines de commande client et des modes de livraison spécifiques. Par conséquent, si un ensemble de règles différent doit être exécuté pour différents ensembles d'origines de commande client ou de modes de livraison, les profils d'exécution peuvent être définis en conséquence. Pour paramétrer des profils d'exécution, procédez comme suit :  
 

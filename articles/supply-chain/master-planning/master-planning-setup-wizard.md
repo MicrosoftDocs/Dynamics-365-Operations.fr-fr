@@ -3,7 +3,7 @@ title: Assistant Paramétrage de planification
 description: Cette rubrique décrit les différentes stratégies et les paramètres importants utilisés pour paramétrer la planification.
 author: t-benebo
 manager: AnnBe
-ms.date: 08/05/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 0310ac55d35421d8ad9080739fc5a393660ce520
-ms.sourcegitcommit: 261dc882710f29303b14f9be8a26d71d85d25345
+ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
+ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "1999532"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "2635124"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistant Paramétrage de planification
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique fournit des instructions pour l'**Assistant Paramétrage de planification**. Elle explique comment des suggestions de paramètre sont calculées et fournit également des exemples qui indiquent comment les différentes sociétés paramètrent la planification, en fonction de leurs besoins commerciaux.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+
+La vidéo [Assistant Paramétrage de planification dans Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (présentée ci-dessus) est incluse dans [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+
 
 ## <a name="specific-requirements-of-your-company"></a>Besoins spécifiques de votre société
 

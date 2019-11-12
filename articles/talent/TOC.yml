@@ -1,13 +1,17 @@
 - name: Dynamics 365 for Talent
-  href: index.yml
+  href: talent-welcome.md
   items:
     - name: Mise en route
       items:
-        - name: Prise en main de Talent
+        - name: Mise en route de Talent
           href: talent-get-started.md
         - name: Nouveautés ou modifications dans Talent
           href: whats-new.md
           items:
+            - name: "23\_octobre\_2019"
+              href: whats-new-talent-october-23-2019.md
+            - name: "8\_octobre\_2019"
+              href: whats-new-talent-october-8-2019.md
             - name: "1\_octobre\_2019"
               href: whats-new-talent-october-1-2019.md
             - name: "17\_septembre\_2019"
@@ -391,12 +395,14 @@
               href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Intégration
       items:
+        - name: Instructions d'intégration des données pour Dynamics 365 for Talent
+          href: data-integration.md
+        - name: Configurer l'intégration Common Data Service
+          href: hr-common-data-service-integration.md
         - name: Intégration à Dynamics 365 for Finance and Operations
           href: talent-financeandoperations-integration.md
         - name: Configurer l'intégration de la paie entre Talent et Dayforce
           href: configure-payroll-integration.md
-        - name: Instructions d'intégration des données pour Dynamics 365 for Talent
-          href: data-integration.md
         - name: FAQ sur l'intégration
           href: talent-fo-integration.md
         - name: Exportation des données récurrentes en utilisant Azure Logic Apps

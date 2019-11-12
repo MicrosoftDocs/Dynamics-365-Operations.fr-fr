@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8680241b1300aceda3280893982a1eff3d2e09e0
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 9a365fb5b1e0126b9de56bcc84a14f2352208d4f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847480"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571712"
 ---
 # <a name="asset-loans"></a>Financements reposant sur l'actif
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Si votre société reçoit des actifs destinés à des travaux de réparation ou de maintenance depuis des sites internes ou des clients, et si vous prêtez temporairement des actifs à ces sites ou à ces clients, le module Gestion des actifs peut suivre les prêts d'actifs.
 
@@ -47,7 +47,7 @@ Si votre société reçoit des actifs destinés à des travaux de réparation ou
 
 Pour afficher la liste de tous les actifs que vous avez prêtés à d'autres emplacements ou clients, sélectionnez **Gestion des actifs** \> **Commun** \> **Financement reposant sur l'actif** \> **Tous les financements reposant sur l'actif**. Si la case à cocher **Terminé** est activée pour un actif, l'actif a été enregistré comme retourné à votre société.
 
-![Figure 1](media/06-manage-maintenance-requests.png)
+![Gérer les demandes de maintenance](media/06-manage-maintenance-requests.png)
 
 Dans la page **Financements actifs reposant sur l'actif**, vous pouvez afficher une liste de toutes les actifs d'emprunt qui n'ont pas encore été retournés à votre société.
 

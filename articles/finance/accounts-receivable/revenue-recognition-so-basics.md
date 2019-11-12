@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f0a5e4c01b34b2adb8e7e0af967af2c2562b4d87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175930"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570308"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Constatation du produit dans les commandes client
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> La fonctionnalité de constatation du produit ne peut pas encore être activée via la gestion des fonctionnalités. Vous devez pour l'instant utiliser les clés de configuration pour l'activer.
+> La fonctionnalité de constatation du produit ne peut pas être activée via la gestion des fonctionnalités. Vous devez pour l'instant utiliser les clés de configuration pour l'activer.
 
 Cette rubrique décrit les fonctionnalités de base pour constater le produit dans les commandes client et les factures. La constatation du produit est disponible sur une commande client et sur la facture correspondante créée à partir de la commande client. La commande client peut également être créée via un projet Régie.
 
