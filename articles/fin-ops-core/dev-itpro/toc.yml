@@ -2,6 +2,8 @@
   items:
     - name: Développement et administration des applications Finance and Operations
       items:
+        - name: Documentation des applications Finance and Operations
+          href: ../fin-ops/index.md
         - name: Développement et administration des applications Finance and Operations
           href: index.md
         - name: Nouveautés ou modifications
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: Hiérarchie d'organisation sur Common Data Service
                           href: data-entities/dual-write-organization.md
-                        - name: Concept de société dans Common Data Service
-                          href: data-entities/dual-write-company.md
+                        - name: Intégration de la société
+                          items:
+                            - name: Concept de société dans Common Data Service
+                              href: data-entities/dual-write-company.md
+                            - name: Amorçage avec les données de la société
+                              href: data-entities/dual-write-bootstrap.md
                         - name: Données principales client intégrées
                           href: data-entities/dual-write-customer.md
+                        - name: Comptabilité intégrée
+                          href: data-entities/dual-write-ledger.md
                         - name: Expérience produit uniformisée
                           href: data-entities/dual-write-product.md
-                        - name: Données principales fournisseur intégrées
-                          href: data-entities/dual-write-vendor.md
+                        - name: Intégration du fournisseur
+                          items:
+                            - name: Données principales fournisseur intégrées
+                              href: data-entities/dual-write-vendor.md
+                            - name: Permuter entre les configurations de fournisseur
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: Sites et entrepôts intégrés
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Données principales fiscales intégrées
+                          href: data-entities/dual-write-tax.md
                         - name: Synchronisation initiale
                           href: data-entities/dual-write-initial.md
                         - name: Dépannage de l'intégration de données
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: Résoudre les problèmes de déploiements sur site
                   href: deployment/troubleshoot-on-prem.md
+                - name: Scripts pour résoudre les problèmes dans les environnements locaux
+                  href: deployment/onprem-tsg-implementations.md
                 - name: Rotation du certificat
                   href: deployment/certificate-rotation-on-prem.md
             - name: Déployer du code personnalisé
