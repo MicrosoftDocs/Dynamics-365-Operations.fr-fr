@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Souscrire des abonnements d'aperçu
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: Informations de paiement du client (aperçu)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Mises à jour de service à une version
               items:
                 - name: Vue d'ensemble des mises à jour de service à une version
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: Fonds de caisse
                       href: localizations/emea-petty-cash.md
+                    - name: Trésorerie - Formulaires principaux locaux et états unifiés
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: TVA
                   items:
                     - name: Validation locale spécifique de la TVA d'aval
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Gestion des acomptes
                       href: localizations/rus-prepayments-management.md
+                    - name: Restauration de la TVA entrante
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: Immobilisations
                   items:
                     - name: Gestion des immobilisations
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: Répartition des frais divers par rapport au poids et au volume
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: Frais divers tiers
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: Stock
+                  items:
+                    - name: Marchandises en transit en provenance du fournisseur
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: Numéros de déclaration en douane
+                      href: localizations/rus-custom-declaration-number.md
                 - name: Génération d'états
                   items:
                     - name: États financiers
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: Divisions de la société
                       href: localizations/rus-company-divisions.md
+                    - name: Formats d'adresse russes et importation depuis FIAS
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: Reports
                   items:
                     - name: Configuration des reports
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Importer les configurations depuis RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Didacticiels
+                  items:
+                    - name: Utilisation des sources de données JOIN pour obtenir des données de plusieurs tables d'application dans des mises en correspondance de modèle de gestion des états électroniques (ER)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: Utiliser les solutions de gestion des états électroniques dans Finance and Operations
                   items:
                     - name: Configurer la structure
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Vue d'ensemble de la gestion de document commercial
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API de la structure de gestion des états électroniques
                   items:
                     - name: Étendre la liste des fonctions de gestion des états électroniques
