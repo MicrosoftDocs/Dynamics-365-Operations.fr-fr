@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177678"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770687"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Générer des tableaux d'analyse consolidés
 
@@ -45,7 +45,7 @@ L'illustration ci-dessous montre comment vous pouvez utiliser une définition d'
 
 Comme le montre l'état consolidé dans l'illustration suivante, lorsque vous utilisez l'organigramme d'entreprise avec une définition d'état, vous pouvez afficher chaque société séparément. Les montants consolidés sont affichés au niveau de synthèse.
 
-![Consolider les montants au niveau de synthèse](./media/consolidate-amount-summary-level.png "Consolider les montants au niveau de synthèse")
+![Consolider le niveau de synthèse des montants](./media/consolidate-amount-summary-level.png "Consolider le niveau de synthèse des montants")
 
 Vous pouvez également créer un organigramme d'entreprise à plusieurs niveaux qui inclut autant de niveaux que nécessaire. L'illustration suivante présente une définition d'organigramme d'entreprise à plusieurs niveaux avec des cumuls par région.
 
@@ -69,7 +69,7 @@ L'illustration suivante présente une définition de colonne dans un format côt
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Consolidations qui utilisent des structures d'organisation créées à partir des entités juridiques
 Les hiérarchies d'organisation contenant des dimensions ou des entités juridiques créent dynamiquement des définitions d'organigramme d'entreprise dans l'outil États financiers. Il est facile de simplifier les consolidations en ajoutant une hiérarchie d'organisation à votre état dans l'outil États financiers. Selon la date de l'état, l'outil États financiers sélectionne la hiérarchie d'organisation avant ou à la date d'effet, comme indiqué dans l'illustration suivante.
 
-![Création dynamique d'une définition d'organigramme d'entreprise](./media/dynamically-create-reporting-tree-definitions.png "Création dynamique d'une définition d'organigramme d'entreprise")
+![Créer dynamiquement une définition d'arborescence de génération d'états](./media/dynamically-create-reporting-tree-definitions.png "Créer dynamiquement une définition d'arborescence de génération d'états")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Consolidations impliquant des éliminations
 Les transactions d'élimination font communément partie du processus de consolidation. Dans cet exemple, cinq comptes sont éliminés pendant la consolidation : 142600, 211400, 401420, 401180 et 510820. Les sociétés peuvent paramétrer leurs comptes intersociétés différemment. Par exemple, certaines sociétés définissent le dernier chiffre sur 9 si le compte est utilisé dans les transactions intersociétés. Quelle que soit la méthode, si vous connaissez les comptes intersociétés, vous pouvez afficher les éliminations dans vos tableaux d'analyse consolidés.
@@ -104,7 +104,7 @@ Lorsque l'état est généré, l'état Contoso Germany affichera 100 % du monta
 
 Si vous détenez moins de 1 % d'une société, vous pouvez activer la case à cocher **Autoriser un cumul inférieur à 1 %** dans l'onglet **Options supplémentaires** de la page **Paramètres de l'état**, comme indiqué dans l'illustration suivante. Dans ce cas, les valeurs de la colonne **% de cumul** dans l'organigramme d'entreprise seront considérées comme inférieures à 1 %. Par exemple, si vous entrez **0,8**, 0,8 % est cumulé au niveau consolidé, et non 80 %. Vous pouvez également obtenir le même résultat en laissant la case à cocher **Autoriser un cumul inférieur à 1 %** désactivée et en entrant **0,008** dans la colonne **% de cumul**.
 
-![Options de définition d'état](./media/reporting-setting-options.png "Options de définition d'état")
+![Options de définition de génération d'états](./media/reporting-setting-options.png "Options de définition de génération d'états")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>Affichage de la participation en tant que ligne distincte dans l'état consolidé
 Une autre option de la participation minoritaire consiste à afficher 100 % de la filiale pour chaque ligne de l'état, mais à soustraire la participation minoritaire du revenu net.
@@ -158,7 +158,7 @@ L'illustration suivante présente les options de la définition d'état qui vous
 ## <a name="business-unit-consolidations"></a>Consolidations d'unité commerciale
 Cette rubrique porte sur l'utilisation des définitions d'organigramme d'entreprise et des hiérarchies d'organisation dans l'outil États financiers à des fins de consolidation. Vous pouvez également utiliser l'organigramme d'entreprise pour créer des états de consolidation d'unité commerciale, tels que des états sur les ventes ou les opérations dans le monde entier. Ces états sont une exigence courante. Pour les créer, sélectionnez une société et une dimension pour chaque unité que vous souhaitez consolider. Par exemple, dans l'illustration suivante, le cumul des unités commerciales est obtenu en répétant chaque société dans la colonne **Société** (colonne A) et en identifiant un groupe de valeurs de dimension de département par société dans la colonne **Dimensions** (colonne D).
 
-![États de consolidation d'unité commerciale](./media/business-unit-consolidation-reports.png "États de consolidation d'unité commerciale")
+![États de consolidations d'unité commerciale](./media/business-unit-consolidation-reports.png "États de consolidations d'unité commerciale")
 
 ## <a name="consolidations-that-involve-multiple-reporting-currencies"></a>Consolidations impliquant plusieurs devises de déclaration
 L'outil États financiers offre une plus grande flexibilité lorsque vous affichez les données réelles, budgétaires, de contrôle budgétaire et de planification budgétaire dans plusieurs devises. En regroupant les principales données de paramétrage, il n'est pas nécessaire d'effectuer d'autres paramètres dans l'outil États financiers pour afficher un état, dans n'importe quelle devise, à tout moment, pour n'importe quel utilisateur.
@@ -171,7 +171,7 @@ Dans le compte principal, les champs **Type de taux de change des états financi
 - Dans le champ **Type de taux de change des états financiers**, sélectionnez le type de taux de change contenant les devises et les taux de change à appliquer au compte. Ce tableau de devises et de taux de change sera appliqué aux données réelles dans l'outil États financiers.
 - Dans le champ **Type de la conversion de devises**, sélectionnez la méthode utilisée pour calculer le taux de change du compte. Cette méthode de conversion de devises est utilisée pour les données réelles et budgétaires dans l'outil États financiers.
 
-![Comptes principaux dans l'outil États financiers](./media/Financial-reporting-main-accounts.png "Comptes principaux dans l'outil États financiers")
+![Comptes principaux des états financiers](./media/Financial-reporting-main-accounts.png "Comptes principaux des états financiers")
 
 Pour les données de budget, de contrôle budgétaire et de planification budgétaire, le type de taux de change est défini dans la page **Comptabilité**. Ce tableau sera utilisé pour extraire les taux de change, et le type de conversion de devises affecté au compte sera utilisé.
 
@@ -221,6 +221,6 @@ Pour obtenir des montants correctement convertis lorsque des devises sont utilis
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-Pour plus d'informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
+Pour plus d'informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Vue d'ensemble des consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
 
-Pour plus d'informations sur la saisie des détails des consolidations en ligne, voir [Consolidation en ligne](./consolidate-online.md).
+Pour plus d'informations sur la saisie des détails des consolidations en ligne, voir [Consolidations financières en ligne](./consolidate-online.md).

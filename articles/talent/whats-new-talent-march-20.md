@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026001"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812693"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (20 mars 2019)
 
@@ -43,7 +43,7 @@ Cette fonction permet aux robot du moteur de recherche d'atteindre et d'indexer 
 Si un candidat a oublié les informations d'identification de réseau social qu'il a utilisées pour postuler à un emploi au moment d'utiliser un lien enregistré ou reçu par e-mail, il vois désormais une suggestion avec le nom du fournisseur et le nom d'utilisateur (brouillés). Cela l'aide à utiliser les informations d'identification appropriées pour accéder à sa candidature à un poste.
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>Aider les candidats internes à explorer les emplois internes
-Le problème où les candidats externes pouvaient voir le nom du recruteur ou du responsable du recrutement d'un poste a été résolu. Maintenant, seuls les candidats internes peuvent voir les membres de l'équipe de recrutement pour un poste. Il est également plus simple pour les candidats internes de consulter et de postuler aux emplois internes uniquement. Lorsqu'un candidat essaie d'accéder au lien pour afficher ou postuler à un poste interne uniquement, il est obligé de s'authentifier avec ses informations d'identification Azure Active Directory. Les candidats internes ont également la possibilité de contacter le membre de l'équipe de recrutement pour exprimer son intérêt ou pour en savoir plus sur le poste. Cette fonctionnalité est disponible pour tous les postes destinés aux candidats internes uniquement. Pour plus d'informations, voir [Fonctionnalité de site de carrière dans Attract](./career-site.md).
+Le problème où les candidats externes pouvaient voir le nom du recruteur ou du responsable du recrutement d'un poste a été résolu. Maintenant, seuls les candidats internes peuvent voir les membres de l'équipe de recrutement pour un poste. Il est également plus simple pour les candidats internes de consulter et de postuler aux emplois internes uniquement. Lorsqu'un candidat essaie d'accéder au lien pour afficher ou postuler à un poste interne uniquement, il est obligé de s'authentifier avec ses informations d'identification Azure Active Directory. Les candidats internes ont également la possibilité de contacter le membre de l'équipe de recrutement pour exprimer son intérêt ou pour en savoir plus sur le poste. Cette fonctionnalité est disponible pour tous les postes destinés aux candidats internes uniquement. Pour plus d'informations, voir [Configurer votre site de carrière dans Microsoft Dynamics 365 Talent - Attract](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Désigner des médaillés d'argent pour affecter des candidats de valeur à des postes à venir
 Les recruteurs et les responsables du recrutement gardent souvent une liste ouverte de candidats qui convenaient bien à un emploi mais à qui on n'a pas pu faire d'offre parce que le poste était déjà pourvu. Ces candidats, appelés médaillés d'argent, sont précieux car ils peuvent réduire les délais d'embauche la prochaine fois qu'un poste similaire sera ouvert. Attract permet désormais aux recruteurs et aux responsables du recrutement de désigner des médaillés d'argent dans la liste des candidats si des candidats sont promus à l'étape Offre. La désignation du médaillé d'argent apparaît sur la liste des candidats au poste, mais aussi dans la vue du vivier de talents lorsque ces candidats sont membres de l'un des viviers du recruteur ou du responsable du recrutement. En outre, la désignation apparaît dans l'historique de l'emploi dans le cadre du profil du vivier de talents d'un candidat. Vous pouvez visualiser cette fonction en demandant à un administrateur de l'activer à l'aide de la [Gestion des fonctions dans le centre d'administration](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

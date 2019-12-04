@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37bb02dfc9cfcb3e2c1dcda446be3945563d6594
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d326480cc03d80d1ce27f8762e300dca3b0d325e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570578"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770641"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Méthodes de calcul de la taxe dans le champ Origine
 
@@ -125,9 +125,9 @@ Le document ou journal est défini sur Montants, taxe incluse = Non Montant de l
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Détermination des taux de taxe en fonction des champs Base marginale et Mode de calcul](marginal-base-field.md)
+[Taux de taxe en fonction de la Base marginale et du Mode de calcul](marginal-base-field.md)
 
-[Options de calcul Montant entier et Intervalle pour les codes taxe](whole-amount-interval-options-sales-tax-codes.md)
+[Options de calcul montant entier et intervalle pour les codes taxe](whole-amount-interval-options-sales-tax-codes.md)
 
 
 

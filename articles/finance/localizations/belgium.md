@@ -15,12 +15,12 @@ ms.search.region: belgium
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a269344a904cf3643591cb92f847c6013a106f33
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cb8ab8e2e257113bbe8b076d8daa811e2a730f6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175764"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772871"
 ---
 # <a name="belgium-overview"></a>Vue d'ensemble spécifique à la Belgique
 
@@ -41,7 +41,7 @@ Pour plus d'informations sur la configuration et la création de la déclaration
 
 | Rapport                     | Obtention de l'état | Informations supplémentaires                 |
 |----------------------------|--------------------------|----------------------------------------|
-|État BLWI (Belgisch Luxemburgs Wissel Instituut).|**Taxe** > **Déclarations** > **Commerce extérieur** > **BLWI** | Pour paramétrer les informations BLWI, voir [Paramétrer la déclaration de la balance des paiements](tasks/be-00011-set-up-payment-balance-reporting.md). Pour générer l'état BLWI, voir [Création et transfert de transactions vers l'état BLWI](tasks/be-00011-create-transfer-blwi.md).| 
+|État BLWI (Belgisch Luxemburgs Wissel Instituut).|**Taxe** > **Déclarations** > **Commerce extérieur** > **BLWI** | Pour paramétrer les informations BLWI, voir [Paramétrer la déclaration de la balance des paiements (Belgique)](tasks/be-00011-set-up-payment-balance-reporting.md). Pour générer l'état BLWI, voir [Création et transfert de transactions vers l'état BLWI (Belgique)](tasks/be-00011-create-transfer-blwi.md).| 
 |État PRODCOM|**Taxe** > **Déclarations** > **Commerce extérieur** > **PRODCOM**|Les fabricants de produits industriels envoient l'état PRODCOM au Nationaal Instituut voor de Statistiek (NIS), en réponse à l'enquête PRODCOM régulièrement mise en place. L'état PRODCOM affiche les statistiques de production pour les produits industriels fabriqués par des sociétés de production implantées en Belgique. Cet état est généralement utilisé par les chefs comptables et les comptables. Pour plus d'informations, voir [Paramétrer et mettre à jour PRODCOM](emea-bel-prodcom-report.md). |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

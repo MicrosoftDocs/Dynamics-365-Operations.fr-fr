@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177700"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771918"
 ---
 # <a name="set-up-fixed-assets"></a>Paramétrage d'immobilisations
 
@@ -51,7 +51,7 @@ Après avoir paramétré les profils d'amortissement, vous devez créer les regi
 
 Un profil d'amortissement principal est affecté à chaque registre. Les registres ont également un profil d'amortissement alternatif ou de basculement, si ce type de profil s'applique. Pour inclure automatiquement le registre d'immobilisations dans des exécutions d'amortissement, vous devez activer l'option **Calculer l'amortissement**. Si cette option n'est pas activée pour une immobilisation, la proposition d'amortissement ignore l'immobilisation.
 
-Vous pouvez également paramétrer des registres dérivés. Les transactions dérivées spécifiées sont validées par rapport aux registres dérivés comme copie exacte de la transaction principale. Par conséquent, les transactions dérivées sont généralement définies pour les acquisitions et les cessions, pas pour les transactions d'amortissement. Pour plus d'informations, voir [Paramétrer des registres](tasks/set-up-value-models.md).
+Vous pouvez également paramétrer des registres dérivés. Les transactions dérivées spécifiées sont validées par rapport aux registres dérivés comme copie exacte de la transaction principale. Par conséquent, les transactions dérivées sont généralement définies pour les acquisitions et les cessions, pas pour les transactions d'amortissement. Pour plus d'informations sur les modèles de valeur, voir [Configurer des modèles de valeur](tasks/set-up-value-models.md).
 
 ## <a name="fixed-asset-posting-profiles"></a>Profils de validation d'immobilisation
 

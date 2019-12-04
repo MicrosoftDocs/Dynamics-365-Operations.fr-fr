@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023882"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812739"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (26 mars 2019)
 
@@ -75,11 +75,11 @@ Dans cette version, les régimes de rémunération fixe s'affichent désormais l
 Avec cette version, vous pouvez désormais supprimer des enregistrements d'emploi à l'aide de l'option **Ouvrir dans Excel** dans Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Effectuez une mise à niveau vers Common Data Service.
-Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à grands pas. Connectez-vous au centre d'administration de PowerApps pour définir si votre base de données doit être mise à niveau. Pour en savoir plus sur les dates butoirs et les étapes indispensables pour la mise à niveau, voir [Mise à niveau vers Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à grands pas. Connectez-vous au centre d'administration de Power Apps pour définir si votre base de données doit être mise à niveau. Pour en savoir plus sur les dates butoirs et les étapes indispensables pour la mise à niveau, voir [Mise à niveau vers Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>En mode aperçu
 
-Pour plus d'informations sur les fonctions d'aperçu, voir [Accéder aux fonctions d'aperçu de Talent](./access-preview-feature.md).
+Pour plus d'informations sur les fonctions d'aperçu, voir [Accéder aux fonctions d'aperçu de Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>Autoriser les codes motif à être spécifiés sur les types de départ
 Les organisations peuvent avoir besoin d'informations supplémentaire sur les demandes de congé. Pour obtenir cette information, les employés doivent inclure un code motif dans leurs demandes de congé. Avec cette version, vous pouvez désormais spécifier les codes motif associés à un type donné de départ et permettre aux employés de sélectionner un code motif pour leurs demandes de congé.

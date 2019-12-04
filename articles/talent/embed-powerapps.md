@@ -1,6 +1,6 @@
 ---
-title: Incorporer les applications PowerApps dans Dynamics 365 - Core HR
-description: Cette rubrique explique comment résoudre le problème où l'option de menu PowerApps a disparu du module Administration du système.
+title: Incorporer les applications Power Apps dans Dynamics 365 - Core HR
+description: Cette rubrique explique comment résoudre le problème où l'option de menu Microsoft Power Apps a disparu du module Administration du système.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,41 +17,41 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b510c10ebfcf4939eb2e1297972d27aa1812ae5a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6d1b7f1dd71e6bcbf10c4d91fe33e9494b041a2c
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551001"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830207"
 ---
-# <a name="embed-powerapps-apps-in-dynamics-365---core-hr"></a>Incorporer les applications PowerApps dans Dynamics 365 - Core HR
+# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>Incorporer les applications Power Apps dans Dynamics 365 - Core HR
 
 [!include [banner](includes/banner.md)]
 
 **Sortie**
 
-L'élément de menu **PowerApps** a disparu du module **Administration du système**.
+L'élément de menu **Power Apps** a disparu du module **Administration du système**.
 
 **Cause**
 
-La conception de l'interface utilisateur (IU) a été modifiée, et Microsoft PowerApps est désormais inclus dans le modèle de personnalisation standard.
+La conception de l'interface utilisateur (IU) a été modifiée, et Microsoft Power Apps est désormais inclus dans le modèle de personnalisation standard.
 
 **Résolution**
 
-La manière dont les applications PowerApps sont incorporées a été modifiée. Les applications PowerApps sont maintenant ajoutées via le modèle de personnalisation. Vous pouvez ajouter des applications PowerApps à presque toutes les pages de Microsoft Dynamics 365 Talent.
+La manière dont les applications Power Apps sont incorporées a été modifiée. Les applications Power Apps sont maintenant ajoutées via le modèle de personnalisation. Vous pouvez ajouter des applications Power Apps à presque toutes les pages de Microsoft Dynamics 365 Talent.
 
-Pour plus d'informations sur l'incorporation d'applications PowerApps dans Talent, voir [Incorporer des applications PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Pour plus d'informations sur l'incorporation d'applications Power Apps dans Talent, voir [Incorporer des applications Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
-Tout client PowerApps ayant incorporé des applications avant la modification doit avoir été mis à niveau vers le nouveau modèle.
+Tout client Power Apps ayant incorporé des applications avant la modification doit avoir été mis à niveau vers le nouveau modèle.
 
-Le bouton **PowerApps** est dans le coin supérieur droit de presque chaque page de Talent. Vous pouvez utiliser ce bouton pour insérer une application PowerApps.
+Le bouton **Power Apps** est dans le coin supérieur droit de presque chaque page de Talent. Vous pouvez utiliser ce bouton pour insérer une application Power Apps.
 
 Voici un exemple :
 
 1. Accédez à **Gestion du personnel \> Liens \> Collaborateurs \> Employés**.
-2. Sélectionnez le bouton **PowerApps**, puis sélectionnez **Insérer un PowerApp**.
+2. Sélectionnez le bouton **Power Apps**, puis sélectionnez **Insérer un PowerApp**.
 
-    ![Bouton PowerApps](media/png.png)
+    ![Bouton Power Apps](media/png.png)
 
 3. Renseignez les champs de la boîte de dialogue **Insérer un PowerApp**.
 
@@ -67,4 +67,4 @@ Sinon, procédez comme suit :
 
 2. Sur la barre d'outils, sélectionnez **Insérer \> PowerApp**.
 
-    ![Insérer une application PowerApps à l'aide de la barre d'outils de personnalisation](media/powerapp-bar.png)
+    ![Insérer une application Power Apps à l'aide de la barre d'outils de personnalisation](media/powerapp-bar.png)

@@ -3,7 +3,7 @@ title: Traitement différé du travail d'entrepôt
 description: Cette rubrique décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026918"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815786"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Traitement différé du travail d'entrepôt
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026918"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 Cette rubrique décrit la fonctionnalité qui rend le traitement différé des opérations de mise en entrepôt disponible dans Dynamics 365 Supply Chain Management.
-
 
 La fonctionnalité de traitement différé permet aux collaborateurs de l'entrepôt de continuer à effectuer d'autres tâches pendant que l'opération de vente est traitée en arrière-plan. Le traitement différé est utile lorsque de nombreuses lignes de travail doivent être traitées et que le collaborateur peut laisser ce travail être traité de manière asynchrone. Il est également utile lorsque le serveur peut augmenter de façon ponctuelle ou imprévue le temps de traitement, et que le temps de traitement accru peut affecter la productivité de l'utilisateur.
 
@@ -50,6 +49,8 @@ Les stratégies sont configurées dans la page **Stratégies du traitement du tr
 | Méthode de traitement du travail          | Méthode utilisée pour traiter la ligne de travail. Si la méthode est définie sur **Immédiat**, le comportement ressemble au comportement quand aucune stratégie de traitement du travail n'est utilisée pour traiter la ligne. Si la méthode est définie sur **Différé**, le traitement différé utilisant l'environnement de traitement par lots est utilisé. |
 | Seuil de traitement différé   | Une valeur de **0** (zéro) signifie qu'il n'y a aucun seuil. Dans ce cas, le traitement différé est utilisé si celui-ci peut être utilisé. Si le calcul du seuil spécifique est inférieur au seuil, la méthode Immédiat est utilisée. Sinon, la méthode différée est utilisée si elle peut être utilisée. Pour les travaux liés aux ventes et aux transferts, le seuil est calculé en tant que nombre de lignes de charge source associées en cours de traitement pour le travail. Pour le travail de réapprovisionnement, le seuil est calculé en tant que nombre de lignes de travail qui sont réapprovisionnées par le travail. En paramétrant un seuil de, par exemple, **5** pour les ventes, les travaux plus petits qui ont moins de cinq lignes de charge source initiales n'utiliseront pas de traitement différé, mais les travaux plus grands l'utiliseront. Le seuil a un effet que si le travail traitant la méthode est défini sur **Différé**. |
 | Groupe de traitements par lots pour le traitement différé |Groupe de lots utilisé pour le traitement. |
+
+Pour le traitement différé, les types d'ordre de travail suivants sont pris en charge : commande client, problème d'ordre de transfert et réapprovisionnement.
 
 ## <a name="assigning-the-work-creation-policy"></a>Affecter la stratégie de création de travail
 
@@ -99,7 +100,7 @@ Il existe plusieurs scénarios dans lesquels le traitement différé de la vente
 - Le travail est exécuté manuellement.
 - Le travail est effectué à l'aide de l'exécution automatique.
 - Les modèles d'audit sont utilisés.
-- Le travail utilise des conteneurs.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>Surveillance des tâches de traitement différé à partir de l'espace de travail Suivi des expéditions
 

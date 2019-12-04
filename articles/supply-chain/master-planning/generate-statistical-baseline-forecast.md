@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c0d9b8708df413118d6e1c1dbe788ce4f6ed5b2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250735"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815178"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Générer des prévisions de base statistiques
 
@@ -56,7 +56,7 @@ Le champ **Date de début de prévision de base** - **Date de début** doit êtr
 
 Le champ **Date de début de prévision de base** - **Date de début** peut être réglé sur une date passée. Autrement dit, il est possible de générer une prévision de la demande dans le passé. Cela est utile pour permettre aux utilisateurs d'ajuster les paramètres du service de prévision afin que la prévision statistique générée dans le passé corresponde à la demande réelle historique. Les utilisateurs peuvent alors continuer à utiliser ces paramètres pour générer des prévisions de base statistiques pour L'avenir. 
 
-Les ajustements manuels effectués dans les itérations précédentes de prévision de la demande peuvent être automatiquement appliqués à la nouvelle prévision de base si la case à cocher **Transfert des ajustements manuels dans la prévision de la demande** est activée. Si la case à cocher est désactivée, les ajustements manuels ne sont pas ajoutés à la prévision de base, mais ils ne sont pas supprimés. Les ajustements manuels apportés à une prévision peuvent être supprimés uniquement au moment de l'importation de la prévision, en désactivant la case à cocher **Enregistrer les ajustements manuels apportés à la prévision de la demande de base**. Les ajustements manuels sont enregistrés au moment de l'autorisation. Par conséquent, si un utilisateur effectue des ajustements manuels sur la prévision, mais n'autorise pas la prévision sur Supply Chain Management, les modifications sont perdues. Pour plus d'informations sur les ajustements manuels et leur fonctionnement, voir [Autorisation de la prévision ajustée](authorize-adjusted-forecast.md). 
+Les ajustements manuels effectués dans les itérations précédentes de prévision de la demande peuvent être automatiquement appliqués à la nouvelle prévision de base si la case à cocher **Transfert des ajustements manuels dans la prévision de la demande** est activée. Si la case à cocher est désactivée, les ajustements manuels ne sont pas ajoutés à la prévision de base, mais ils ne sont pas supprimés. Les ajustements manuels apportés à une prévision peuvent être supprimés uniquement au moment de l'importation de la prévision, en désactivant la case à cocher **Enregistrer les ajustements manuels apportés à la prévision de la demande de base**. Les ajustements manuels sont enregistrés au moment de l'autorisation. Par conséquent, si un utilisateur effectue des ajustements manuels sur la prévision, mais n'autorise pas la prévision sur Supply Chain Management, les modifications sont perdues. Pour plus d'informations sur les ajustements manuels et leur fonctionnement, voir [Autoriser une prévision ajustée](authorize-adjusted-forecast.md). 
 
 Une génération de prévision de la demande peut avoir un nom et des commentaires pour aider les utilisateurs à identifier la prévision générée. Ces valeurs sont visibles dans l'historique de génération de prévisions dans la page **Enregistrer les ajustements manuels apportés à la prévision de la demande de base**. 
 
@@ -77,4 +77,4 @@ Si la prévision n'est pas générée pour un grand ensemble d'articles, mais, p
 
 - [Effectuer des ajustements manuels sur la prévision de base](manual-adjustments-baseline-forecast.md)
 
-- [Autorisation de la prévision ajustée](authorize-adjusted-forecast.md)
+- [Autoriser un ajustement de la prévision de demande](authorize-adjusted-forecast.md)

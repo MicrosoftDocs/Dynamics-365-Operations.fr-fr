@@ -1,6 +1,6 @@
 ---
-title: Créer un modèle de processus dans Attract
-description: Cette rubrique fournit des information sur la création d'un modèle de processus dans Attract.
+title: Créer un modèle de processus de recrutement dans Attract
+description: Cette rubrique fournit des information sur la création d'un modèle de processus de recrutement dans Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622716"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832556"
 ---
-# <a name="create-a-process-template-in-attract"></a>Créer un modèle de processus dans Attract
+# <a name="create-a-hiring-process-template-in-attract"></a>Créer un modèle de processus de recrutement dans Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ Les administrateurs, les recruteurs et les responsables de l'embauche peuvent cr
 > [!NOTE]
 > Les noms des stades sont visibles aux candidats sur la page **Statut de la candidature**. Vous devez considérer ce fait lorsque vous sélectionnez des noms pour les stades.
 
-Pour en savoir plus sur les activités, voir [Activités du processus d'embauche dans Attract](./activities-attract.md).
+Pour en savoir plus sur les activités, voir [Activités des processus de recrutement](./activities-attract.md).
 
 Pour créer un modèle de processus d'embauche, procédez comme suit.
 

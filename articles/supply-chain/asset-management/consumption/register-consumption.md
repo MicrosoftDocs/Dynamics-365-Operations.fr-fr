@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653321"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812258"
 ---
 # <a name="register-consumption"></a>Enregistrer la consommation
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653321"
 
 Lorsqu'une tâche de maintenance a été effectuée sur un ordre de travail, l'étape suivante consiste à effectuer les enregistrements de la consommation et à valider les journaux. Vous pouvez effectuer les enregistrements sur les types de consommation suivants : heures, articles et dépenses. Les différents types de consommation sont enregistrés et validés sur la page **Journaux des ordres de travail**. Le paramétrage du journal dans **Gestion des actifs** permet de créer et de valider les journaux distincts pour les heures, les articles et les dépenses dans le module **Gestion de projets et comptabilité**.
 
-Dans certains cas, vous pouvez être en mesure d'ajouter ou de supprimer des lignes de prévisions sur un ordre de travail. La configuration d'un état du cycle de vie de l'ordre de travail, le type de projet associé et les règles de stade liées au type de projet déterminent si vous êtes en mesure d'ajouter ou de modifier les lignes de journal. Découvrez-en plus sur les états du cycle de vie de l'ordre de travail et les étapes de projet associées dans [Intégration à la gestion de projets et à la comptabilité](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+Dans certains cas, vous pouvez être en mesure d'ajouter ou de supprimer des lignes de prévisions sur un ordre de travail. La configuration d'un état du cycle de vie de l'ordre de travail, le type de projet associé et les règles de stade liées au type de projet déterminent si vous êtes en mesure d'ajouter ou de modifier les lignes de journal. Pour plus d'informations sur les états du cycle de vie de l'ordre de travail et les étapes du projet associé, consultez [Prévisions, ordres de travail et projets](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >Il est possible de paramétrer la validation automatique des journaux dans un état du cycle de vie de l'ordre de travail. Consultez [États du cycle de vie de l'ordre de travail](../setup-for-work-orders/work-order-lifecycle-states.md) pour en savoir plus.

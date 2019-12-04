@@ -1,0 +1,54 @@
+---
+title: Stock - Balance âgée
+description: Cette rubrique décrit les fonctionnalités qui vous permettent d'exécuter un état de la balance âgée et de mettre le résultat à disposition sous la forme d'un formulaire et d'un graphique.
+author: AndersGirke
+manager: AnnBe
+ms.date: 11/11/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: aevengir
+ms.search.validFrom: 2019-01-10
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: 21411c104c854224ff3689dc8e080b88d9fc7d23
+ms.sourcegitcommit: 9267608347c9781fb4ba70f1384ca24da69c716d
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2810249"
+---
+# <a name="inventory-aging-report"></a>Stock - Balance âgée
+
+
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+Dans Microsoft Dynamics 365 Supply Chain Management, vous pouvez exécuter un état **Balance âgée** et le mettre à disposition sous la forme d'un formulaire et d'un graphique. Dans le formulaire, des colonnes et des soldes globaux sont ajustés de façon dynamique, selon la disposition configurée. Le graphique offre une vue d'ensemble qui prend en charge les filtres et vous permet de parcourir des informations détaillées. En outre, une entité de données intitulée **État - Balance âgée** vous permet d'exporter les résultats d'un état **Balance âgée** à un format tel qu'un fichier Microsoft Excel ou un fichier PDF.
+
+Ce mode d'exécution d'un état **Balance âgée** est utile lorsque le résultat contient plusieurs lignes. Par exemple, le résultat contient plusieurs lignes si vous avez 50 000 articles et 300 magasins créés comme entrepôts, et si vous demandez la balance âgée par article, site et entrepôt.
+
+## <a name="run-an-inventory-aging-report"></a>Exécuter un état - Balance âgée
+
+1. Accédez à **Gestion des coûts \> Recherches et états \> Stockage des états de balance âgée**.
+1. Sélectionnez **Nouveau**.
+1. Dans le champ **Identificateur de processus - Nom**, entrez un nom unique pour l'état.
+1. Sélectionnez l'état **Identification – ID**, et filtrez-le comme vous le souhaitez.
+
+    L'exécution de l'état est toujours effectuée dans un traitement par lots.
+
+1. Lorsque le traitement par lots est terminé, le résultat est affiché sur la page **Stockage des états de la balance âgée**.
+1. Pour afficher le résultat sous la forme d'un formulaire avec une disposition de grille traditionnelle, sélectionnez **Afficher les détails**. Pour afficher le résultat comme graphique regroupé, sélectionnez **Afficher le graphique**.
+
+    > [!NOTE]
+    > Le formulaire n'inclut pas les sous-totaux définis dans la disposition de l'état.
+
+L'entité de données **État de la balance âgée** vous permet d'exporter le résultat d'un état **Balance âgée** en appliquant un filtre pour le champ **Identificateur de processus – Nom** à n'importe quel format pris en charge par la gestion des données.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190003"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812361"
 ---
 # <a name="workflow-system-overview"></a>Vue d'ensemble du système de workflow
 
@@ -57,18 +57,18 @@ L'utilisation du système de workflow dans votre organisation présente plusieur
 
 ## <a name="workflow-content"></a>Contenu de workflow
 
-+ [Architecture de workflow](workflow-system-architecture.md)
-+ [Éléments du workflow](workflow-elements.md)
-+ [Actions de workflow](workflow-actions.md)
-+ [Création d'un workflow](create-workflow.md)
++ [Architecture de système de workflow](workflow-system-architecture.md)
++ [Éléments du flux de travail](workflow-elements.md)
++ [Actions dans les processus d'approbation d'un workflow](workflow-actions.md)
++ [Vue d'ensemble de création des workflows](create-workflow.md)
 + [Configuration des propriétés de workflow](configure-workflow-properties.md)
-+ [Configurer une tâche manuelle dans un workflow](configure-manual-task-workflow.md)
-+ [Configurer une tâche automatique dans un workflow](configure-automated-task-workflow.md)
-+ [Configurer un processus d'approbation dans un workflow](configure-approval-process-workflow.md)
-+ [Configurer une étape d'approbation dans un workflow](configure-approval-step-workflow.md)
-+ [Configurer une décision manuelle dans un workflow](configure-manual-decision-workflow.md)
-+ [Configurer une décision conditionnelle dans un workflow](configure-conditional-decision-workflow.md)
-+ [Configurer une activité parallèle dans un workflow](configure-parallel-activity-workflow.md)
-+ [Configurer une branche parallèle dans un workflow](configure-parallel-branch-workflow.md)
-+ [Configuration d'un workflow pour ligne](configure-line-item-workflow.md)
-+ [FAQ Workflow](workflow-FAQ.md)
++ [Configurer des tâches manuelles dans un workflow](configure-manual-task-workflow.md)
++ [Configurer des tâches automatiques dans un workflow](configure-automated-task-workflow.md)
++ [Configurer des processus d'approbation dans un workflow](configure-approval-process-workflow.md)
++ [Configurer des étapes d'approbation dans un workflow](configure-approval-step-workflow.md)
++ [Configurer des décisions manuelles dans un workflow](configure-manual-decision-workflow.md)
++ [Configurer des décisions conditionnelles dans un workflow](configure-conditional-decision-workflow.md)
++ [Configurer des activités parallèles dans un workflow](configure-parallel-activity-workflow.md)
++ [Configurer des branches parallèles dans un workflow](configure-parallel-branch-workflow.md)
++ [Configuration de workflows pour ligne](configure-line-item-workflow.md)
++ [FAQ sur les workflows](workflow-FAQ.md)

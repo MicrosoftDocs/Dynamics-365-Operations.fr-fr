@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177813"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811306"
 ---
 # <a name="electronic-signatures-overview"></a>Vue d'ensemble des signatures électroniques
 
@@ -44,7 +44,7 @@ La signature électronique est un impératif de conformité aux réglementations
 
 Vous pouvez utiliser des signatures électroniques pour des processus entreprise importants. Certains processus disposent d'une fonction de signature électronique intégrée. Vous pouvez également créer des demandes de signature personnalisées pour les tables et les champs de base de données.
 
-Les signatures électroniques disposent d'une fonction de signature numérique intégrée. Chaque utilisateur qui signe des documents doit obtenir un certificat cryptographique valide. Lorsqu'un document est signé, la clé privée associée à ce certificat est contrôlée. Les informations de signature électronique sont enregistrées dans un journal pour fournir une piste d'audit. Pour configurer les signatures électroniques, consultez [Paramétrage de signatures électroniques (guide de tâche)](tasks/set-up-electronic-signatures.md).
+Les signatures électroniques disposent d'une fonction de signature numérique intégrée. Chaque utilisateur qui signe des documents doit obtenir un certificat cryptographique valide. Lorsqu'un document est signé, la clé privée associée à ce certificat est contrôlée. Les informations de signature électronique sont enregistrées dans un journal pour fournir une piste d'audit. Pour configurer les signatures électroniques, consultez [Paramétrage de signatures électroniques](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Utilisateurs ayant besoin d'un accès aux signatures électroniques
 

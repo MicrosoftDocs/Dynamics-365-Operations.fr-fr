@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187910"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770848"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Créer des dimensions et importer des membres de la dimension
 
@@ -44,11 +44,10 @@ Le diagramme suivant illustre les dimensions utilisées dans le Contrôle de ges
 Une fois que les données sont importées dans le Contrôle de gestion, vous pouvez l'utiliser pour créer les différentes perspectives qui fournissent des analyses aux responsables à tous les niveaux de l'organisation. Les rubriques suivantes fournissent des informations sur la création des dimensions et l'importation des membres de la dimension. 
 
 -  [Dimensions d'éléments de coût](cost-elements.md)
--  [Créer des éléments de coût (guide de tâche)](./tasks/create-cost-elements.md)
+-  [Créer des éléments de coût](./tasks/create-cost-elements.md)
 -  [Dimensions d'objets de coût](cost-objects.md)
--  [Créer des éléments de coût (guide de tâche)](./tasks/create-cost-objects.md)
 -  [Mappage de membres de dimension d'élément de coût à un ensemble commun de membres de dimension](map-cost-elements-dimension-members.md)
--  [Mapper une dimension d'élément de coût (guide de tâche)](./tasks/map-cost-element-dimension.md)
+-  [Mapper une dimension d'élément de coût](./tasks/map-cost-element-dimension.md)
 -  [Membres de la dimension statistique et modèles de fournisseur de mesures statistiques](statistical-measure-provider-template.md)
 
 

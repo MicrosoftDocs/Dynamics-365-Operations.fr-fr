@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653509"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813797"
 ---
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
@@ -70,7 +70,8 @@ Pour générer la prévision, Supply Chain Management utilise un service Web Mac
 -   Nom du compte de stockage Azure
 -   Clé du compte de stockage Azure
 
-**Remarque :** le nom et la clé du compte de stockage Azure sont obligatoires uniquement si vous utilisez un compte personnalisé de stockage. Si vous déployez la version sur site, vous devez posséder un compte personnalisé de stockage sur Azure, afin que le service Machine Learning puisse accéder aux données historiques. 
+> [!NOTE]
+> Le nom et la clé du compte de stockage Azure sont obligatoires uniquement si vous utilisez un compte personnalisé de stockage. Si vous déployez la version sur site, vous devez posséder un compte personnalisé de stockage sur Azure, afin que le service Machine Learning puisse accéder aux données historiques. 
 
 Pour créer des prévisions de la demande, vous pouvez déployer votre propre service à l'aide de Machine Learning Studio ou des expériences de prévision de la demande de Supply Chain Management. Des instructions pour déployer les expériences de prévision de demande sous forme de service Web sont disponibles dans Supply Chain Management. Dans la page **Paramètres de prévision de la demande**, cliquez sur l'onglet **Azure Machine Learning**.
 
@@ -93,9 +94,9 @@ Dans l'onglet **Clés de répartition**, vous pouvez définir **Paramètres d'al
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Présentation de la prévision de la demande](introduction-demand-forecasting.md)
+[Vue d'ensemble de la prévision de la demande](introduction-demand-forecasting.md)
 
-[Génération de prévisions de base statistiques](generate-statistical-baseline-forecast.md)
+[Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md)
 
 [Effectuer des ajustements manuels sur la prévision de base](manual-adjustments-baseline-forecast.md)
 

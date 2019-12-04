@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250689"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814259"
 ---
 # <a name="master-planning-home-page"></a>Page d'accueil de la planification
 
@@ -39,9 +39,9 @@ La planification utilise les informations pour calculer les besoins et générer
 
 Les trois principaux processus de planification sont :
 
--  **Planification** - Le plan général calcule les besoins nets. Il est basé sur les commandes actuelles réelles et permet aux sociétés de contrôler le réapprovisionnement quotidien du stock à court terme. Un autre terme pour le décrire est *Plan des besoins nets*. Pour plus d'informations, voir [Planification](master-plans.md). 
+-  **Planification** - Le plan général calcule les besoins nets. Il est basé sur les commandes actuelles réelles et permet aux sociétés de contrôler le réapprovisionnement quotidien du stock à court terme. Un autre terme pour le décrire est *Plan des besoins nets*. Pour plus d'informations, voir [Vue d'ensemble des plans généraux](master-plans.md). 
 
--  **Planification prévisionnelle** - Le calendrier des prévisions calcule les besoins bruts. Il est basé sur les futures projections (ou prévisions), et permet aux sociétés d'effectuer la planification à long terme des matières et des capacités. Pour plus d'informations, voir [Planification prévisionnelle](introduction-demand-forecasting.md). 
+-  **Planification prévisionnelle** - Le calendrier des prévisions calcule les besoins bruts. Il est basé sur les futures projections (ou prévisions), et permet aux sociétés d'effectuer la planification à long terme des matières et des capacités. Pour plus d'informations, voir [Vue d'ensemble de la prévision de la demande](introduction-demand-forecasting.md). 
 
 -  **Planification intersociétés** - Le plan général intersociétés calcule les besoins nets dans les entités juridiques. Il relie la demande et l'approvisionnement entre les sociétés non seulement pour la demande et l'approvisionnement fermes à court terme, mais aussi pour la demande et l'approvisionnement planifiés (qui ne sont pas encore confirmés) à long terme. Pour plus d'informations, voir [Planification intersociétés](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (nécessite un compte CustomerSource). 
 
@@ -57,13 +57,13 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 
 ## <a name="quick-links"></a>Liens rapides
 
-- [Plans généraux](master-plans.md)  
+- [Vue d'ensemble des plans généraux](master-plans.md)  
 - [Générer un plan avec contrainte](./tasks/constrained-plan.md)
 - [Créer un plan matières pour des coproduits](./tasks/create-material-plan-co-products.md)
-- [Planification et fonctionnalité multisite](master-plan-multisite-functionality.md)
+- [Vue d'ensemble de planification générale et fonctionnalité multisite](master-plan-multisite-functionality.md)
 - [Créer un plan intersociétés](./tasks/create-intercompany-plan.md)
 - [Vue d'ensemble de la prévision de la demande](introduction-demand-forecasting.md)
-- [Clés de réduction](reduction-keys.md)
+- [Clés de réduction des prévisions](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

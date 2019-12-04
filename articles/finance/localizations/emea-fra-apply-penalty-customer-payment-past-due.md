@@ -17,12 +17,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7006616a8b22cf1ee674132f1f461e6c7a4d5f95
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bb81250a7c9ae106292dc9efb5faf050c23650ee
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175757"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773470"
 ---
 # <a name="penalties-for-past-due-customer-payments-in-france"></a>Pénalités pour les paiements client en retard en France
 
@@ -36,7 +36,7 @@ En France, vous pouvez appliquer une pénalité lorsqu'un paiement client est en
 Le texte récupéré du montant forfaitaire affiche le montant de pénalité et la date d'échéance du paiement. Le montant de pénalité est appliqué si le paiement a lieu après la date d'échéance. Le texte récupéré du montant forfaitaire est imprimé sur la facture client. Vous pouvez spécifier le montant de pénalité et la devise avec toute instruction dans le champ Texte récupéré du montant forfaitaire de la zone Facture de l'écran Paramétrage d'écran.
 
 ## <a name="how-do-i-print-lump-sum-recovery-text-on-a-customer-invoice"></a>Comment imprimer le texte récupéré du montant forfaitaire sur une facture client ?
-Vous pouvez déjà utiliser l'écran Paramétrage d'écran pour définir les paramètres d'impression du texte récupéré du montant forfaitaire. Ensuite, vous pouvez utiliser la page Validation de la facture ou la page Journal des factures pour imprimer le texte récupéré du montant forfaitaire sur une facture client. Pour plus d'informations voir [Configuration et impression d'un texte récupéré de montant forfaitaire sur une facture client](emea-fra-print-lump-sum-recovery-text.md).
+Vous pouvez déjà utiliser l'écran Paramétrage d'écran pour définir les paramètres d'impression du texte récupéré du montant forfaitaire. Ensuite, vous pouvez utiliser la page Validation de la facture ou la page Journal des factures pour imprimer le texte récupéré du montant forfaitaire sur une facture client. Pour plus d'informations voir [Imprimer un texte récupéré de montant forfaitaire sur une facture client](emea-fra-print-lump-sum-recovery-text.md).
 
 ## <a name="when-do-i-apply-a-penalty-to-a-customer-payment"></a>Quand appliquer une pénalité à un paiement client ?
 Vous pouvez appliquer une pénalité sur un paiement client lorsque le paiement n'est pas reçu et que la date d'échéance est passée.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 616d3f5560d18c7fdd8a092c3fbca0fde44be069
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570423"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772166"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d'ensemble des factures fournisseur
 
@@ -101,7 +101,7 @@ Vous pouvez utiliser la page **Historique du workflow** pour réinitialiser le s
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Paramétrer des stratégies de facture fournisseur](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
-- [Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'une facture fournisseur](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+- [Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un journal d'approbation](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un registre de factures](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Enregistrer une facture fournisseur dans le journal des factures](tasks/record-vendor-invoice-invoice-journal.md)

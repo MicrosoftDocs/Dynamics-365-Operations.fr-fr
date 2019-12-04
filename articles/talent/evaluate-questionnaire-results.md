@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518026"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813981"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Afficher et évaluer les résultats de questionnaires
 
@@ -57,7 +57,8 @@ Dès que les personnes interrogées ont complété un questionnaire, vous pouvez
 -   **État de réponse** – Cet état affiche les réponses que la personne interrogée a sélectionnées pour chaque question du questionnaire.
 -   **Réponses incorrectes** – Cet état affiche les informations liées aux réponses incorrectes que la personne interrogée a sélectionnées.
 
-**Remarque :** l'état **Résultats** est disponible uniquement si vous utilisez des groupes de résultats pour le questionnaire, et si vous avez sélectionné **Page de résultats** dans la page **Questionnaires**. L'état **Réponse** et l'état **Réponses incorrectes** ne sont disponibles que si vous avez sélectionné **État de réponses** dans la page **Questionnaires**.
+> [!NOTE]
+> L'état **Résultats** est disponible uniquement si vous utilisez des groupes de résultats pour le questionnaire, et si vous avez sélectionné **Page de résultats** dans la page **Questionnaires**. L'état **Réponse** et l'état **Réponses incorrectes** ne sont disponibles que si vous avez sélectionné **État de réponses** dans la page **Questionnaires**.
 
 ## <a name="questionnaire-statistics"></a>Statistiques de questionnaire
 Vous pouvez utiliser les statistiques de questionnaires pour analyser les résultats d'un questionnaire terminé, en fonction des calculs que vous définissez. Pour définir les calculs, procédez comme suit :
@@ -75,9 +76,9 @@ Les paramètres que vous définissez sont enregistrés et peuvent servir à reca
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Conception de questionnaires](design-questionnaires.md)
+[Créer des questionnaires](design-questionnaires.md)
 
-[Utilisation de questionnaires](questionnaires.md)
+[Questionnaires](questionnaires.md)
 
-[Distribuer et remplir des questionnaires](distribute-questionnaires.md)
+[Distribuer et programmer des questionnaires](distribute-questionnaires.md)
 

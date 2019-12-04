@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ed0ffa94af0b7a0e12b19f2a72bca37d8ed513a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a633548ceb0f27ee9249b20456bc4cabd0c044eb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183638"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770247"
 ---
 # <a name="plan-for-public-sector-functionality"></a>Planifier la fonctionnalité Secteur public
 
@@ -72,7 +72,7 @@ Type de certification Codes commande fournisseur de confirmation Montants des li
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Fonctionnalité Secteur public](public-sector-functionality.md)
+[Page d'accueil Secteur public](public-sector-functionality.md)
 
 
 

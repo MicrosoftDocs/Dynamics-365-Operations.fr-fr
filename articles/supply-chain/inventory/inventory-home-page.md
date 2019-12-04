@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c286587add6cb38f5fe2728e29fe8b3ac528165
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250781"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814328"
 ---
 # <a name="inventory-management-overview"></a>Vue d'ensemble de la gestion des stocks
 
@@ -51,7 +51,7 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement.
 
 ### <a name="inventory-accounting"></a>Comptabilité de stock 
-Pour plus d'informations, voir [Comptabilité de stock dans Gestion des coûts](../cost-management/inventory-close.md).
+Pour en savoir plus, voir [Clôture du stock](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogs sur la fabrication et Supply Chain Management
 Vous trouverez des avis, des actualités et d'autres informations concernant la gestion des stocks et d'autres solutions sur le [Blog de l'équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l'équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).

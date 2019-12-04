@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 005b04bd4c3476356f30ba8e97564f83307a64c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626176"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811741"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Mise à jour automatique des compteurs d'actifs
 
@@ -43,16 +43,16 @@ Comme mentionné ci-dessus, les compteurs automatiques peuvent être mis à jour
 
 2. Dans le champ **Date de début**, sélectionnez la date de début de la mise à jour automatique.
 
->[!NOTE]
->La date de ce champ est la date des « travaux en cours » des **Transactions de gamme** (champ **Contrôle de la production** > **Recherches et états** > **Production** > **Transactions de gamme** > **Date physique**).
+    >[!NOTE]
+    >La date de ce champ est la date des « travaux en cours » des **Transactions de gamme** (champ **Contrôle de la production** > **Recherches et états** > **Production** > **Transactions de gamme** > **Date physique**).
 
 3. Dans l'organisateur **Enregistrements à inclure**, vous pouvez sélectionner les actifs, les types d'actifs ou les ressources spécifiques pour la mise à jour automatique. Sélectionnez **Filtrer**, puis effectuez les sélections appropriées.
 
 4. Sous le raccourci **Exécuter à l'arrière-plan**, vous pouvez configurer la mise à jour automatique comme traitement par lots comme vous le souhaitez.
 
-L'illustration suivante présente un exemple de la boîte de dialogue **Mise à jour des compteurs d'actifs**.
+    L'illustration suivante présente un exemple de la boîte de dialogue **Mise à jour des compteurs d'actifs**.
 
-![Figure 1](media/12-work-orders.png)
+    ![Figure 1](media/12-work-orders.png)
 
 5. Cliquez sur **OK**. 
 

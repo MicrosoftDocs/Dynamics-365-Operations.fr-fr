@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547099"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813591"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Forums aux questions sur les calculs pour les modèles de configuration de produit
 
@@ -37,7 +37,7 @@ Les calculs peuvent être utilisés pour les opérations arithmétiques ou logiq
 ## <a name="what-is-a-calculation"></a>Qu'est-ce qu'un calcul ?
 Un calcul est un élément que vous pouvez utiliser dans un modèle de configuration de produits. Les calculs complètent les contraintes en vous permettant d'utiliser des nombres décimaux lorsque vous configurez un produit. En outre, les calculs disposent d'un plus grand nombre d'opérateurs que les contraintes.  
 
-A l'instar d'une contrainte, un calcul est associé à un composant spécifique dans un modèle de configuration de produit et ne peut pas être réutilisé ni partagé par un autre composant. Une importante différence entre les calculs et les contraintes ? Les calculs sont impératifs (unidirectionnels), tandis que les contraintes sont déclaratives (bidirectionnelles). Pour plus d'informations sur les contraintes, voir [Contraintes d'expression et contraintes de table](expression-constraints-table-constraints-product-configuration-models.md).  
+A l'instar d'une contrainte, un calcul est associé à un composant spécifique dans un modèle de configuration de produit et ne peut pas être réutilisé ni partagé par un autre composant. Une importante différence entre les calculs et les contraintes ? Les calculs sont impératifs (unidirectionnels), tandis que les contraintes sont déclaratives (bidirectionnelles). Pour plus d'informations sur les contradictions des contraintes, voir la rubrique [Contraintes d'expression et contraintes de table dans les modèles de configuration du produit](expression-constraints-table-constraints-product-configuration-models.md).  
 
 Un calcul se compose d'un attribut cible et d'une expression de calcul.
 
@@ -88,7 +88,7 @@ Non. Les valeurs utilisées sont celles que vous définissez lorsque vous config
 Si vous supprimez une valeur d'entrée dans un calcul, la valeur de l'attribut cible est également supprimée.
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Pourquoi un message d'erreur s'affiche pour indiquer que mon modèle est en contradiction ?
-Ce message s'affiche lorsqu'un calcul comprend une erreur ou qu'une contradiction existe dans une ou plusieurs contraintes. Pour plus d'informations sur les contradictions des contraintes, voir la rubrique [Contraintes d'expression et contraintes de table](expression-constraints-table-constraints-product-configuration-models.md). Les erreurs dans les calculs peuvent, par exemple, survenir dans les situations suivantes :
+Ce message s'affiche lorsqu'un calcul comprend une erreur ou qu'une contradiction existe dans une ou plusieurs contraintes. Pour plus d'informations sur les contradictions des contraintes, voir la rubrique [Contraintes d'expression et contraintes de table dans les modèles de configuration du produit](expression-constraints-table-constraints-product-configuration-models.md). Les erreurs dans les calculs peuvent, par exemple, survenir dans les situations suivantes :
 
 -   Une valeur est divisée par zéro (0).
 -   Un conflit existe entre ces deux éléments :

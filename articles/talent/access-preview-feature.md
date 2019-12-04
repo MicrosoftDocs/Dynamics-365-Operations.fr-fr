@@ -1,5 +1,5 @@
 ---
-title: Accéder aux fonctionnalités d'aperçu de Microsoft Dynamics 365 Talent
+title: Gérer les fonctionnalités
 description: Cette rubrique décrit comment un administrateur peut activer les fonctionnalités d'aperçu dans Microsoft Dynamics 365 Talent. Elle répertorie également les fonctionnalités qui sont actuellement activées pour le mode aperçu.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551595"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833298"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Accéder aux fonctionnalités d'aperçu de Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>Gérer les fonctionnalités
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dans le cadre de notre lancement continu de fonctionnalités de gestion du capital humain (GCH) pour Microsoft Dynamics 365 Talent, nous souhaitons que nos clients expérimentent de nouvelles fonctionnalités dès que possible. Les administrateurs peuvent afficher et utiliser les fonctionnalités d'aperçu dans leurs environnements. Ces fonctionnalités sont presque prêtes pour la mise à disposition générale et ont fait l'objet de tests étendus. Nous attendons les derniers commentaires et validations des clients avant leur publication pour une disponibilité générale.
 
@@ -117,6 +117,6 @@ Assurez-vous de ne pas ajouter de données personnelles (toute information susce
 ## <a name="see-also"></a>Voir également :
 
 - [Essayer ou acheter des applications Talent](https://dynamics.microsoft.com/talent/overview/)
-- [Nouveautés](./whats-new.md)
-- [Note de publication](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obtenir de l'aide sur Talent](./talent-support.md)
+- [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md)
+- [Programmes de lancement](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obtenir de l'aide sur Microsoft Dynamics 365 Talent](./talent-support.md)

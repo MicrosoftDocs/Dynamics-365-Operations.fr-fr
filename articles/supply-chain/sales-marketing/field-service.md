@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249834"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815270"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Vue d'ensemble de l'intégration à Microsoft Dynamics 365 Field Service
 
@@ -41,9 +41,9 @@ La première phase de l'intégration entre Field Service et Supply Chain Managem
 
 La première phase de l'intégration entre Field Service et Supply Chain Management active la synchronisation des éléments suivants :
 
-- [Produits de Supply Chain Management avec les produits de Field Service incluant des informations sur le type de produit](field-service-product.md)
-- [Ordres de travail dans Field Service avec les commandes client dans Supply Chain Management](field-service-work-order.md)
-- [Factures dans Field Service avec les factures financières dans Supply Chain Management](field-service-invoice.md)
+- [Synchroniser directement les produits provenant du module Supply Chain Management sur les produits dans Field Service](field-service-product.md)
+- [Synchroniser des bons de travail de Field Service sur des commandes client de Supply Chain Management](field-service-work-order.md)
+- [Synchroniser des factures d'accord de Field Service sur des factures financières dans Supply Chain Management](field-service-invoice.md)
 
 Pour afficher un exemple de la synchronisation d'un ordre de travail entre Field Service et Supply Chain Management, visionnez la courte vidéo YouTube [Procédure de synchronisation d'un ordre de travail avec l'intégration de Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo).
 

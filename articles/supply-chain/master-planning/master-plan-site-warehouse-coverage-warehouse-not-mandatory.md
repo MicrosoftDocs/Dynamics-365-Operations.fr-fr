@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a1a2cec9f86932fe2de9f3886059621903b262
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: cea228e04632bd61f60771b09481241df5d16bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578170"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813705"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Planification pour la couverture du site et de l'entrepôt, entrepôt non obligatoire
 
@@ -51,15 +51,15 @@ Le graphique suivant illustre l'exécution du calcul de planification. Les param
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Planification et fonctionnalité multisite](master-plan-multisite-functionality.md)
+[Vue d'ensemble de planification générale et fonctionnalité multisite](master-plan-multisite-functionality.md)
 
-[Planification - couverture du site et de l'entrepôt, entrepôt obligatoire](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Planification pour couverture de site, entrepôt obligatoire](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Planification - couverture du site, entrepôt obligatoire](master-plan-site-coverage-warehouse-mandatory.md)
+[Planification de couverture de site et d'entrepôt, entrepôt obligatoire](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Planification - couverture du site, entrepôt no obligatoire](master-plan-site-coverage-warehouse-not-mandatory.md)
+[Planification de couverture de site et d'entrepôt, entrepôt non obligatoire](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[Planification - Méthode de détermination de la version de nomenclature](master-plan-bom-version-determined.md)
+[Déterminer la version de nomenclature](master-plan-bom-version-determined.md)
 
 
 

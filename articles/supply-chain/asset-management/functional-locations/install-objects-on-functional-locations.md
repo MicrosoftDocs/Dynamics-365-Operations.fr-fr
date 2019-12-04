@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571804"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811821"
 ---
 # <a name="install-assets-on-functional-locations"></a>Installer des actifs à des postes techniques
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571804"
 
  
 
-Après avoir créé des structures de postes techniques, l'étape suivante consiste à installer des actifs aux postes techniques appropriés. Cette rubrique explique comment installer des actifs à ces postes techniques dans Gestion des actifs. Pour plus d'informations sur la création d'actifs, voir [Actifs](../objects/introduction-to-objects.md).
+Après avoir créé des structures de postes techniques, l'étape suivante consiste à installer des actifs aux postes techniques appropriés. Cette rubrique explique comment installer des actifs à ces postes techniques dans Gestion des actifs. Pour plus d'informations sur la création d'actifs, voir [Introduction aux actifs](../objects/introduction-to-objects.md).
 
 Si vous avez créé une structure d'actif, l'ensemble de celle-ci doit être installée à un poste technique. Par conséquent, seuls des actifs parents (actifs supérieurs sans actif parent) peuvent être sélectionnés à un poste technique. Tous les actifs enfants associés (sous-actifs) sont également installés au poste technique. Lorsque vous installez des actifs à un poste technique, les dimensions financières de celui-ci peuvent être automatiquement transférées aux actifs, selon le paramétrage du type de poste technique sélectionné pour celui-ci. Pour plus d'informations sur la configuration des types de postes techniques, voir [Types de poste techniques](../setup-for-functional-locations/functional-location-types.md).
 

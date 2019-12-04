@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd76fc771c370d8d769a97d3b33003f632717f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174188"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771515"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenu Power BI Gestion des coûts
 
@@ -37,7 +37,7 @@ Le contenu Microsoft Power BI **Gestion des coûts** est prévu pour des comptab
 > [!NOTE]
 > Le contenu Power BI  **Gestion des coûts** décrit dans cette rubrique s'applique à Dynamics 365 Finance and Operations 8.0.
 > 
-> Le pack de contenu Power BI de **Gestion des coûts**, disponible sur le site AppSource, est devenu obsolète. Pour plus d'informations sur cette obsolescence, voir [Packs de contenu Power BI disponibles sur AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Le pack de contenu Power BI de **Gestion des coûts**, disponible sur le site AppSource, est devenu obsolète. Pour plus d'informations sur cette obsolescence, voir [Fonctions supprimées ou abandonnées pour Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Ce contenu Power BI fournit un format catégorisé qui vous aide à surveiller les performances des stocks et à visualiser la manière dont le coût circulent. Vous pouvez obtenir des analyses managériales telles que le taux de rotation, le nombre de jours pendant lequel le stock est disponible, la précision, et la « classification ABC » à votre niveau agrégé préféré (société, article, groupe d'articles, ou site). Les informations rendues disponibles peuvent également être utilisées comme complément détaillé au tableau d'analyse.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571229"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812189"
 ---
 # <a name="maintenance-attribute-types"></a>Types d'attribut de maintenance
 
@@ -33,8 +33,8 @@ ms.locfileid: "2571229"
 
 Cette rubrique explique comment créer des types d'attribut dans le module Gestion des actifs. Les attributs permettent de décrire les propriétés de différents éléments. Vous pouvez paramétrer des attributs sur les éléments suivants :
 
-- [Types de poste technique](../setup-for-functional-locations/functional-location-types.md)
-- [Postes techniques](../functional-locations/create-functional-locations.md)
+- [Types d'emplacement fonctionnels](../setup-for-functional-locations/functional-location-types.md)
+- [Créer des emplacement fonctionnels](../functional-locations/create-functional-locations.md)
 - [Types d'actif](../setup-for-objects/object-types.md)
 - Actifs
 

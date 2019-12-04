@@ -3,7 +3,7 @@ title: Mises à jour automatiques de l'expédition
 description: Cette rubrique offre une vue d'ensemble des fonctionnalités qui offre les mises à jour automatiques pour les expéditions.
 author: josaw1
 manager: AnnBe
-ms.date: 08/13/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 160ad55a12d13fdb64e55effaabb1848179e71cf
-ms.sourcegitcommit: c35dfce2c0605d6f46365ce5d985c22187d21761
+ms.openlocfilehash: e42e7f19311adee7cc48f0ad0b59a4d0d54df9aa
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1986115"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773541"
 ---
 # <a name="shipment-auto-updates"></a>Mises à jour automatiques de l'expédition
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 La fonctionnalité d'expédition de mise à jour automatique met à jour automatiquement les quantités (les augmentations et les diminutions) sur une ligne de chargement associée à une expédition, une fois le chargement libéré dans un entrepôt. Cette fonctionnalité reste active jusqu'au traitement de la ligne de chargement sur l'expédition ou du chargement sur une vague. Lorsque cette fonctionnalité est utilisée, les mises à jour des commandes sont automatiquement dirigées vers l'entrepôt, sans nécessiter d'intervention manuelle, jusqu'à ce que le travail soit créé à l'entrepôt.

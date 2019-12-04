@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551977"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812854"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>Obtenir l'application Dynamics 365 Talent - Onboard
 
@@ -39,9 +39,9 @@ Au cours du processus d'évaluation ou d'achat, vous configurerez vos adresse e-
 > [!WARNING]
 > Vous ne pouvez pas migrer des données de votre version d'évaluation vers votre environnement d'abonnement payant. <!--Reviewers: please verify.-->
 
-Pour découvrir les nouvelles fonctionnalités dans Talent, voir [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md) et [Notes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Si vous souhaitez afficher un aperçu des nouvelles fonctionnalités dans Onboard, voir [Accéder aux fonctionnalités en version préliminaire dans Talent](./access-preview-feature.md).
+Pour découvrir les nouvelles fonctionnalités dans Talent, voir [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md) et [Notes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Si vous souhaitez afficher un aperçu des nouvelles fonctionnalités dans Onboard, voir [Accéder aux fonctionnalités en version préliminaire dans Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
-Si vous êtes un professionnel de l'informatique et souhaitez en savoir plus sur la mise en service des deux versions de l'application Onboard, voir [Mise en service de l'application Onboard](./modular-app-tech-faq.md).
+Si vous êtes un professionnel de l'informatique et souhaitez en savoir plus sur la mise en service des deux versions de l'application Onboard, voir [Mise en service de l'application Dynamics 365 Talent - Onboard](./modular-app-tech-faq.md).
 
 ## <a name="get-started-with-onboard"></a>Prise en main de Onboard
 
@@ -89,6 +89,6 @@ Si vous avez accepté le nom de domaine par défaut lorsque vous vous êtes insc
 ### <a name="see-also"></a>Voir également :
 
 - [Essayer ou acheter l'application Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Nouveautés](./whats-new.md)
-- [Note de publication](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obtenir de l'aide](./talent-support.md)
+- [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md)
+- [Programmes de lancement](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obtenir de l'aide sur Microsoft Dynamics 365 Talent](./talent-support.md)

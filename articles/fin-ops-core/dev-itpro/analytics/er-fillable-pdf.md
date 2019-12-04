@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181448"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771304"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Concevoir des configurations des états électroniques (ER) pour renseigner des modèles PDF
 
@@ -46,7 +46,7 @@ Avant de commencer, vous devez avoir l'un des types d'accès suivants, selon le 
     - Consultant fonctionnel des états électroniques
     - Administrateur système
 
-Vous devez également exécuter la procédure [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Vous devez également exécuter la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 Enfin, vous devez télécharger les fichiers suivants depuis [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
 
@@ -300,5 +300,5 @@ L'illustration suivante présente un exemple d'une autre page de l'état génér
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [ER Concevoir une configuration pour générer des états au format OPENXML](tasks/er-design-reports-openxml-2016-11.md)
-- [Créer des configurations de gestion d'états électroniques pour générer des états au format Microsoft WORD](tasks/er-design-configuration-word-2016-11.md)
+- [ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)](tasks/er-design-reports-openxml-2016-11.md)
+- [Créer des configurations de gestion d'états électroniques pour générer des états au format Word](tasks/er-design-configuration-word-2016-11.md)

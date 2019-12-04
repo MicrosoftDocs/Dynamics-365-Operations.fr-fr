@@ -17,12 +17,12 @@ ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fdd3d648d83a5dff76746fbb65b3dcfd28a92aa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cb23008f7c2cfc90cd67550607fcc1c396e3bd2d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183670"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773467"
 ---
 # <a name="derogatory-depreciation-for-france"></a>Amortissement dérogatoire pour la France
 
@@ -46,4 +46,4 @@ Dans la page **Profils de validation d'immobilisation**, paramétrez les comptes
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Fusion du modèle de valeur et du registre des amortissements](../fixed-assets/fixed-asset-value-model-depreciation-book-merge.md)
+- [Fusion du modèle de la valeur d'immobilisation et du registre d'amortissement](../fixed-assets/fixed-asset-value-model-depreciation-book-merge.md)

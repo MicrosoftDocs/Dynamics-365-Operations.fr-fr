@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177751"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772626"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Processus de configuration du rapprochement bancaire avancé
 
@@ -31,7 +31,7 @@ ms.locfileid: "2177751"
 
 Le rapprochement bancaire avancé permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cet article décrit l’ensemble des processus de rapprochement.  
 
-Un certain nombre d'éléments doit être défini avant d'utiliser la fonctionnalité de rapprochement bancaire avancé. Pour plus d'informations sur la configuration de l'importation de relevé bancaire, consultez [Configurer le processus d'importation de relevé bancaire](set-up-advanced-bank-reconciliation-import-process.md).  La configuration requise pour configurer le processus de rapprochement est détaillée ci-dessous.
+Un certain nombre d'éléments doit être défini avant d'utiliser la fonctionnalité de rapprochement bancaire avancé. Pour plus d'informations sur la configuration de l'importation de relevé bancaire, consultez [Configurer le processus d'importation de rapprochement bancaire avancé](set-up-advanced-bank-reconciliation-import-process.md).  La configuration requise pour configurer le processus de rapprochement est détaillée ci-dessous.
 
 ## <a name="transaction-codes"></a>Codes transaction
 Les codes transaction peuvent être utilisés dans le cadre des règles de correspondance de rapprochement bancaire pour faire correspondre les mêmes types de transactions entre Finance et votre relevé bancaire. Afin d'effectuer ce type de correspondance, vous devez d'abord définir les types de transactions utilisés pour les transactions bancaires de Finance, puis mettre en correspondance ces types avec les codes de transaction de relevé utilisés par votre banque. Les types de transactions pour les transactions bancaires sont définis dans la page **Type de transaction bancaire**. C'est également là que vous définissez le compte principal à utiliser pour les validations associées à ce type de transaction. 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024066"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814488"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (20 août 2019)
 
@@ -35,7 +35,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 
 ### <a name="simplified-apply-experience-for-candidates"></a>Expérience de candidature simplifiée pour les candidats 
 
-Une expérience de candidature simplifiée pour les candidats est désormais disponible en version préliminaire publique. Une fois activée, les candidats peuvent postuler à un emploi à l'aide de leur CV, en utilisant **Postuler avec LinkedIn** (si activé), ou à l'aide du formulaire de candidature existant. Avec ces modifications, les candidats peuvent envoyer rapidement leur candidature à un poste avec un minimum de champs nécessitant une saisie manuelle. Pour plus d'informations sur l'activation de cette fonctionnalité, voir [Activer ou désactiver les fonctionnalités en version préliminaire](./access-preview-feature.md#enable-or-disable-preview-features).
+Une expérience de candidature simplifiée pour les candidats est désormais disponible en version préliminaire publique. Une fois activée, les candidats peuvent postuler à un emploi à l'aide de leur CV, en utilisant **Postuler avec LinkedIn** (si activé), ou à l'aide du formulaire de candidature existant. Avec ces modifications, les candidats peuvent envoyer rapidement leur candidature à un poste avec un minimum de champs nécessitant une saisie manuelle. Pour plus d'informations sur l'activation de cette fonctionnalité, voir [Accéder aux fonctionnalités d'aperçu dans Microsoft Dynamics 365 Talent](./access-preview-feature.md#enable-or-disable-preview-features).
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>Afficher les commentaires de rejet dans le cadre de l'activité de candidature
 

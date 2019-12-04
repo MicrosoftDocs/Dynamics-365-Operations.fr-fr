@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7be41e724cb715e4b7c9077bb30d26b2bd4899dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5401f310138d19f78412dff318959414c31a191
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181908"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770021"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 
@@ -184,7 +184,7 @@ Cliquez sur le bouton **Paramètres** pour le nouvel enregistrement de destinati
     [![Carte mise à jour](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>L'accès à l'état Power BI dans Finance
-Configurez l'intégration à Power BI. Pour plus d'informations, voir [Configuration de l'intégration Power BI pour les espaces de travail](configure-power-bi-integration.md).
+Configurez l'intégration à Power BI. Pour plus d'informations, voir [Configurer l'intégration Power BI pour les espaces de travail](configure-power-bi-integration.md).
 
 1. Sur la page de l'espace de travail **Génération d'états électroniques** prenant en charge l'intégration de Power BI (**Administration d'organisation** &gt; **Espaces de travail** &gt; **Espace de travail électronique de génération d'états**), cliquez sur **Options** &gt; **Ouvrez le catalogue d'états**.
 2. Sélectionnez l'état Power BI **Détails de l'importation et de l'exportation** que vous avez créé, pour l'afficher comme élément d'action sur la page sélectionnée.
@@ -194,6 +194,6 @@ Configurez l'intégration à Power BI. Pour plus d'informations, voir [Configura
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
+[Destinations de la gestion des états électroniques](electronic-reporting-destinations.md)
 
-[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques (ER)](general-electronic-reporting.md)

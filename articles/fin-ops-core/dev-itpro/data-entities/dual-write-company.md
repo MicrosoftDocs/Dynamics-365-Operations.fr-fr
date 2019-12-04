@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184529"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772435"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Concept de société dans Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Dans Finance and Operations, le concept d'une *société* est à la fois juridique et commercial. C'est également une limite de sécurité et de visibilité pour les données. Les utilisateurs travaillent toujours dans le contexte d'une seule société, et la plupart des données sont agrégées par bandes par la société.
 
@@ -60,12 +58,14 @@ Comme le montre l'illustration précédente, cette correspondance 1:1 entre l'un
 
 Une rubrique finale pour expliquer comment la double écriture détermine à quelle l'équipe propriétaire elle doit affecter les enregistrements. Ce comportement est contrôlé par le champ **Équipe propriétaire par défaut** dans l'enregistrement cdm\_Company. Lorsqu'un enregistrement cdm\_Company est activé pour la double écriture, un plug-in crée automatiquement l'unité commerciale et l'équipe propriétaire associées (si elles n'existent pas encore), et définit le champ **Équipe propriétaire par défaut**. L'administrateur peut modifier ce champ avec une valeur différente. Toutefois, l'administrateur ne peut pas désactiver le champ tant que l'entité est activée pour la double écriture.
 
+> [!div class="mx-imgBorder"]
 ![Champ d'équipe propriétaire par défaut](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Agrégation par bande et amorçage de la société
 
 L'intégration de Common Data Service apporte la parité de la société à l'aide d'un identificateur de société pour agréger les données par bande. Comme l'illustration suivante le montre, les entités spécifiques à la société sont développées de sorte qu'elles aient une relation plusieurs à un (N:1) avec l'entité cdm\_Company.
 
+> [!div class="mx-imgBorder"]
 ![Relation plusieurs à un (N:1) entre une entité spécifique à la société et l'entité cdm_Company](media/dual-write-bootstrapping.png)
 
 + Pour les enregistrements, une fois une société ajoutée et enregistrée, la valeur passe en lecture seule. Par conséquent, les utilisateurs doivent s'assurer de sélectionner la société adéquate.

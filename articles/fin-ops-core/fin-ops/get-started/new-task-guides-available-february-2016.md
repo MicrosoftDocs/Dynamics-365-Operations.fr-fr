@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190946"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811624"
 ---
 # <a name="new-task-guides-february-2016"></a>Nouveaux guides des tâches (février 2016)
 
@@ -32,9 +32,9 @@ Cette rubrique répertorie les tâches qui ont été publiées dans les biblioth
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guides de tâches dans la Bibliothèque unifiée APQC pour Microsoft Dynamics AX
 
-La bibliothèque unifiée APQC (février 2016) contient les guides de tâches qui sont destinés à être utilisés pour l’aide avec Dynamics AX 7.0.0. Si vous avez besoin des versions localisées de ces guides de tâches, elles sont disponibles dans la bibliothèque unifiée APQC (mai 2016) pour Microsoft Dynamics AX. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md).
+La bibliothèque unifiée APQC (février 2016) contient les guides de tâches qui sont destinés à être utilisés pour l’aide avec Dynamics AX 7.0.0. Si vous avez besoin des versions localisées de ces guides de tâches, elles sont disponibles dans la bibliothèque unifiée APQC (mai 2016) pour Microsoft Dynamics AX. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Système d'aide](help-overview.md).
 
-### <a name="accounts-payable"></a>Module Comptabilité fournisseur
+### <a name="accounts-payable"></a>Comptabilité fournisseur
 
 | Ligne BPM                                                  | Pays/région |
 |-----------------------------------------------------------|----------------|
@@ -645,4 +645,4 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 
 [Guides de tâches nouveaux ou mis à jour (août 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
+[Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)

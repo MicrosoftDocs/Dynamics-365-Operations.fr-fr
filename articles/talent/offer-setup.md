@@ -1,5 +1,5 @@
 ---
-title: Paramétrer la gestion des offres
+title: Paramétrer la gestion des offres dans Attract
 description: Cette rubrique décrit comment paramétrer les offres dans Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010842"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832720"
 ---
-# <a name="set-up-offer-management"></a>Paramétrer la gestion des offres 
+# <a name="set-up-offer-management-in-attract"></a>Paramétrer la gestion des offres dans Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -206,4 +206,4 @@ Il existe plusieurs parties du processus de création d'offre qui peuvent être 
     - ESign - Il s'agit de l'option par défaut, prédéfinie, permettant à l'utilisateur de signer une offre en entrant son nom et ses initiales.
 
 
-Pour en savoir plus sur le processus de création d'offre, voir [Création, approbation et signature des offres](./creating-offers.md).
+Pour en savoir plus sur le processus de création d'offre, voir [Créer, approuver et signer des offres](./creating-offers.md).

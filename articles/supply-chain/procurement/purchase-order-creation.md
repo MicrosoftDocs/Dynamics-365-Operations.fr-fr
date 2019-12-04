@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5454b9003105e4b44ec7577e5f8989c75554aeb9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: e6126c62f3768871550a056c2c7670ec801e3b7d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572206"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815386"
 ---
 # <a name="create-purchase-orders"></a>Création de commandes fournisseur
 
@@ -88,7 +88,7 @@ Il se peut que vous deviez retarder l’achèvement d’une CF. Par exemple, vou
 
 [Vue d'ensemble des commandes fournisseur](purchase-order-overview.md)
 
-[Approbation et confirmation de la commande fournisseur](purchase-order-approval-confirmation.md)
+[Approuver et confirmer des commandes fournisseur](purchase-order-approval-confirmation.md)
 
 [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
 

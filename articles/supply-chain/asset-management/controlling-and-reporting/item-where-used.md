@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652354"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811261"
 ---
 # <a name="item-where-used"></a>Cas d'emploi d'article
 
@@ -33,15 +33,15 @@ ms.locfileid: "2652354"
 
 Vous pouvez effectuer un calcul pour un article spécifique pour obtenir une vue d'ensemble de son emplacement d'utilisation dans le module Gestion des actifs. Les résultats indiquent le contexte dans lequel l'article était utilisé pendant toute sa durée de vie. La page **Cas d'emploi d'article** peut être ouverte à partir du menu principal Gestion des actifs, et elle est également accessible à partir des pages suivantes :
 
-- [Nomenclature des actifs](../objects/object-BOM.md)
+- [Nomenclatures d'actif](../objects/object-BOM.md)
 
-- [Pièces détachées sur Valeurs par défaut du type d'actif](../setup-for-objects/object-types.md)
+- [Pièces détachées sur Valeurs par défaut du type d'actif](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [Prévision d'article sur Prévision du type de tâche de maintenance par défaut](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [Catégories de type de tâche de maintenance et types de tâches de maintenance, variantes de type de tâche de maintenance, opérations de tâches de maintenance et listes de contrôle de maintenance](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [Prévisions en matière de maintenance de l'ordre de travail](../work-orders/maintenance-forecasts.md)
+- [Prévision en matière de maintenance](../work-orders/maintenance-forecasts.md)
 
-- [Demande d'achat de l'ordre de travail](../work-orders/procurement.md)
+- [Approvisionnement](../work-orders/procurement.md)
 
 - [Achats de l'ordre de travail](../work-orders/procurement.md)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1643e7fb3128faf6ad638d4cdad313b3667463b1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181678"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771235"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Suivre les résultats de rapport généré et les comparer avec des valeurs de base
 
@@ -44,10 +44,10 @@ Pour plus d'informations sur cette fonction, lisez les guides de tâches **ER G�
 
 Cette procédure explique comment configurer la structure ER pour collecter des informations sur les exécutions de format ER, puis pour évaluer les résultats de ces exécutions. Dans le cadre de cette évaluation, les documents générés sont comparés à leurs fichiers de référence. Dans cet exemple, vous créerez les configurations ER requises pour la société fictive, Litware, Inc. Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. Ces étapes peuvent être effectuées à l'aide d'un ensemble de données quelconque.
 
-Pour effectuer les étapes de cet exemple, vous devez commencer par effectuer les étapes de la rubrique, [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Pour effectuer les étapes de cet exemple, vous devez commencer par effectuer les étapes de la rubrique, [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1. Accédez à **Administration d'organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, vérifiez que le fournisseur de configuration pour l'exemple de société Litware, Inc. est répertorié, et qu'il est marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, suivez les étapes de la procédure [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Dans la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, vérifiez que le fournisseur de configuration pour l'exemple de société Litware, Inc. est répertorié, et qu'il est marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, suivez les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="configure-document-management-parameters"></a>Configurer les paramètres de gestion des documents
 
@@ -55,7 +55,7 @@ Pour effectuer les étapes de cet exemple, vous devez commencer par effectuer le
 2. Dans le champ **Classe**, entrez **Fichier joint**.
 3. Dans le champ **Groupe**, entrez **Fichier**.
 
-![Page Types de documents](media/GER-BaselineSample-SetupDocumentType.PNG "Capture d'écran de la page Types de documents")
+![Page Types de documents](media/GER-BaselineSample-SetupDocumentType.PNG "Capture d'écran de la page de types de document")
 
 > [!NOTE]
 > Un nouveau type de document portant le même nom doit être configuré pour chaque ensemble de données pour lequel vous prévoyez d'utiliser la fonction de référence d'ER.
@@ -64,11 +64,11 @@ Pour effectuer les étapes de cet exemple, vous devez commencer par effectuer le
 
 1. Dans l'espace de travail **Génération d'états électroniques**, dans la section **Liens connexes**, sélectionnez **Paramètres de la gestion des états électroniques**.
 
-    ![Espace de travail de la génération d'états électroniques](media/GER-BaselineSample-ERWorkspace.PNG "Capture d'écran de l'espace de travail de la génération d'états électroniques")
+    ![Espace de travail des états électroniques](media/GER-BaselineSample-ERWorkspace.PNG "Capture d'écran de l'espace de travail de gestion des états électroniques")
 
 2. Dans l'onglet **Pièces jointes**, dans le champ **Base de référence**, entrez ou sélectionnez le type de document que vous venez de créer.
 
-    ![Onglet Pièces jointes de la page Paramètres de la génération d'états électroniques](media/GER-BaselineSample-ERParameters.PNG "Capture d'écran des Paramètres de la génération d'états électroniques")
+    ![Onglet Pièces jointes de la page Paramètres de gestion des états électroniques](media/GER-BaselineSample-ERParameters.PNG "Capture d'écran des Paramètres de gestion des états électroniques")
 
 3. Sélectionnez **Enregistrer**, puis fermez la page **Paramètres de la génération d'états électroniques**.
 
@@ -79,7 +79,7 @@ Pour effectuer les étapes de cet exemple, vous devez commencer par effectuer le
 3. Dans la boîte de dialogue déroulante, dans le champ **Nom**, tapez **Modèle d'apprentissage des références ER**.
 4. Sélectionnez **Créer une configuration** pour confirmer la création d'une nouvelle entrée de modèle de données ER.
 
-![Boîte de dialogue déroulante Créer une configuration](media/GER-BaselineSample-ModelAdd.PNG "Capture d'écran de la boîte de dialogue déroulante Créer une configuration")
+![Boîte de dialogue déroulante Créer une configuration](media/GER-BaselineSample-ModelAdd.PNG "Capture d'écran de la boîte de dialogue de menu déroulant Créer une configuration")
 
 ### <a name="design-a-data-model"></a>Élaborer un modèle de données
 
@@ -93,7 +93,7 @@ Pour effectuer les étapes de cet exemple, vous devez commencer par effectuer le
 8. Sélectionnez **Modifier le statut**.
 9. Sélectionnez **Terminer**, puis sélectionnez **OK**.
 
-![Page de configurations](media/GER-BaselineSample-ModelComplete.PNG "Capture d'écran de la page Configurations")
+![Page Configurations](media/GER-BaselineSample-ModelComplete.PNG "Capture d'écran de la page Configurations")
 
 ### <a name="add-a-new-er-format-configuration"></a>Ajouter une nouvelle configuration du format ER
 
@@ -102,7 +102,7 @@ Pour effectuer les étapes de cet exemple, vous devez commencer par effectuer le
 3. Dans le champ **Nom**, entrez **Format pour l'apprentissage des références ER**.
 4. Sélectionnez **Créer une configuration** pour confirmer la création d'une nouvelle entrée de format ER.
 
-![Boîte de dialogue déroulante Créer une configuration](media/GER-BaselineSample-FormatAdd.PNG "Capture d'écran de la boîte de dialogue déroulante Créer une configuration")
+![Boîte de dialogue déroulante Créer une configuration](media/GER-BaselineSample-FormatAdd.PNG "Capture d'écran de la boîte de dialogue de menu déroulant Créer une configuration")
 
 ### <a name="design-a-format"></a>Concevoir un format
 
@@ -131,7 +131,7 @@ Pour cet exemple, vous allez créer un format ER simple pour générer des docum
     2. Dans le champ **Nom**, entrez **Identifiant**.
     3. Cliquez sur **OK**.
 
-    ![Page du concepteur de format](media/GER-BaselineSample-FormatLayoutDesign.PNG "Capture d'écran de la page du concepteur de format")
+    ![Page Concepteur de formats](media/GER-BaselineSample-FormatLayoutDesign.PNG "Capture d'écran de la page Concepteur de format")
 
 8. Dans l'onglet **Mise en correspondance**, sélectionnez **Supprimer**.
 9. Sélectionnez **Ajoutez racine**.
@@ -144,7 +144,7 @@ Pour cet exemple, vous allez créer un format ER simple pour générer des docum
 11. Dans l'arborescence, sélectionnez **Résultat\\Document\\Id**.
 12. Sélectionnez **Lier**, puis sélectionnez **Enregistrer**.
 
-![Page du concepteur de format](media/GER-BaselineSample-FormatMappingDesign.PNG "Capture d'écran de la page du concepteur de format")
+![Page Concepteur de formats](media/GER-BaselineSample-FormatMappingDesign.PNG "Capture d'écran de la page Concepteur de format")
 
 Selon la structure conçue, le format configuré génère un fichier XML. Ce fichier XML contient l'élément **Racine** qui a l'attribut **ID** défini sur la valeur que l'utilisateur entre dans la boîte de dialogue de l'exécution ER.
 
@@ -154,7 +154,7 @@ Selon la structure conçue, le format configuré génère un fichier XML. Ce fic
 2. Dans le champ **Entrer l'identifiant**, entrez **1**.
 3. Cliquez sur **OK**.
 
-    ![Boîte de dialogue Paramètres de la génération d'états électroniques](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Capture d'écran de la boîte de dialogue Paramètres de la génération d'états électroniques")
+    ![Boîte de dialogue Paramètres de génération d'états électroniques](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Capture d'écran de la boîte de dialogue Paramètres de gestion des états électroniques")
 
 4. Enregistrez une copie locale du fichier **out.Admin.xml** qui est généré, afin de pouvoir l'utiliser ultérieurement comme base de référence de ce format ER.
 
@@ -166,20 +166,20 @@ Selon la structure conçue, le format configuré génère un fichier XML. Ce fic
 2. Définissez l'option **Exécuter en mode débogage** sur **Oui**.
 3. Cliquez sur **OK**.
 
-![Boîte de dialogue Paramètres utilisateur](media/GER-BaselineSample-ERUserParameters.PNG "Capture d'écran de la boîte de dialogue Paramètres utilisateur")
+![Boîte de dialogue Paramètres utilisateur](media/GER-BaselineSample-ERUserParameters.PNG "Capture d'écran de la boîte de dialogue Paramètres de l'utilisateur")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Ajouter une nouvelle base de référence pour un format ER conçu
 
 1. Accédez à **Administration d'organisation** \> **États électroniques** \> **Configurations**.
 2. Dans le volet Actions, sélectionnez **Bases de référence**.
 
-    ![Bouton Bases de référence sur la page Configurations](media/GER-BaselineSample-OpenBaselinePage.PNG "Capture d'écran du bouton Bases de référence sur la page Configurations")
+    ![Bouton Bases de référence sur la page Configurations](media/GER-BaselineSample-OpenBaselinePage.PNG "Capture d'écran du bouton Références de base dans la page Configurations")
 
 3. Dans le volet Actions, sélectionnez **Nouveau**.
 4. Sélectionnez le format ER **Format pour l'apprentissage des références ER** que vous avez conçu précédemment.
 5. Sélectionnez **Enregistrer**.
 
-![Page des références de format de la génération d'états électroniques](media/GER-BaselineSample-AddBaseline.PNG "Capture d'écran de la page des références de format de la génération d'états électroniques")
+![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-AddBaseline.PNG "Capture d'écran de la page Références de base de la gestion des états électroniques")
 
 La base de référence est ajoutée au format **Format pour l'apprentissage des références ER**.
 
@@ -204,7 +204,7 @@ La base de référence est ajoutée au format **Format pour l'apprentissage des 
 10. Dans le champ **Base de référence**, entrez ou sélectionnez la pièce jointe **out.Admin**.
 11. Sélectionnez **Enregistrer**.
 
-![Page des références de format de la génération d'états électroniques](media/GER-BaselineSample-SetupBaselineLine.PNG "Capture d'écran de la page des références de format de la génération d'états électroniques")
+![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-SetupBaselineLine.PNG "Capture d'écran de la page Références de base de la gestion des états électroniques")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Exécutez le format ER conçu et consultez le journal pour analyser les résultats
 
@@ -215,7 +215,7 @@ La base de référence est ajoutée au format **Format pour l'apprentissage des 
 5. Cliquez sur **OK**.
 6. Accédez à **Administration d'organisation** \> **États électroniques** \> **Journaux de débogage des configurations**.
 
-    ![Page Journaux d'exécution de la génération d'états électroniques](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Capture d'écran de la page Journaux d'exécution de la génération d'états électroniques")
+    ![Page Journaux d'exécution de la gestion des états électroniques](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Capture d'écran de la page Journaux d'exécution de la gestion des états électroniques")
 
     > [!NOTE]
     > Le journal d'exécution contient des informations sur le résultat de la comparaison du fichier généré avec la base de référence configurée. Dans cet exemple, le journal indique que le fichier généré et la base de référence sont égaux.
@@ -231,7 +231,7 @@ La base de référence est ajoutée au format **Format pour l'apprentissage des 
 5. Cliquez sur **OK**.
 6. Accédez à **Administration d'organisation** \> **États électroniques** \> **Journaux de débogage des configurations**.
 
-    ![Page Journaux d'exécution de la génération d'états électroniques](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Capture d'écran de la page Journaux d'exécution de la génération d'états électroniques")
+    ![Page Journaux d'exécution de la gestion des états électroniques](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Capture d'écran de la page Journaux d'exécution de la gestion des états électroniques")
 
     > [!NOTE]
     > Le journal d'exécution contient des informations sur le résultat de la comparaison du fichier généré avec la base de référence configurée. Dans cet exemple, le journal indique que le fichier généré et la base de référence sont différents.
@@ -243,4 +243,4 @@ La base de référence est ajoutée au format **Format pour l'apprentissage des 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Configurer la structure ER](electronic-reporting-er-configure-parameters.md)
+- [Configurer la structure de gestion des états électroniques](electronic-reporting-er-configure-parameters.md)

@@ -1,9 +1,9 @@
 ---
-title: Configuration du système Talent et politique de mise à jour
-description: Cette rubrique répertorie les besoins pour Dynamics 365 Talent. Elle décrit également la stratégie de mise à jour.
+title: Configuration requise pour Talent
+description: Cette rubrique répertorie les besoins pour Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024158"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818477"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>Configuration du système Talent et politique de mise à jour
+# <a name="talent-system-requirements"></a>Configuration requise pour Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -54,7 +54,7 @@ Pour trouver la dernière version pour chaque navigateur Web, accédez au site I
 
 ## <a name="supported-microsoft-office-applications"></a>Applications Microsoft Office prises en charge
 
-* Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus de détails sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Dépannage de l'intégration d'Office").
+* Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus de détails sur les exigences en matière de versions, voir [Dépannage de l'intégration d'Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Résolution des problèmes d'intégration d'Office").
 * Pour afficher les documents qui sont générés par la fonctionnalité Exporter vers Excel ou Exporter vers Word, vous devez disposer de Microsoft Office 2007 ou version ultérieure.
 
 ## <a name="regional-availability-languages-and-localization"></a>Disponibilité, langues et localisation régionales
@@ -66,8 +66,3 @@ Vous pouvez télécharger un fichier PDF des pays, régions et langues pris en c
 
 Si vous êtes développeur et intéressé à créer des personnalisations spécifiques à un pays ou une région, ou à créer une solution pour un pays ou une région actuellement non pris en charge par Microsoft, voir [Globalisation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-## <a name="update-policy"></a>Stratégie de mise à jour
-
-Talent fait l'objet d'une maintenance dans le cadre d'une offre Cloud. Les mises à jour de Talent sont continues et appliquées automatiquement par Microsoft.
-
-Les mises à jour sont publiées régulièrement et s'appliqueront à tous les environnements. Talent est pris en charge conformément à la [Stratégie Microsoft Support Lifecycle](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), qui fournit des instructions cohérentes et prévisibles pour la disponibilité du support produit.

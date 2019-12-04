@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d7ec95b230c5ea17f208bc1288c10fce15631a5d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251521"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813060"
 ---
 # <a name="cycle-counting"></a>Inventaire tournant
 
@@ -136,7 +136,7 @@ Une différence au niveau de l'inventaire tournant se produit dans les scénario
 Ajustez les différences dans la valeur d'inventaire puis acceptez la valeur d'inventaire dans la page **Inventaire tournant en attente de révision**. Vous pouvez vérifier le compte modifié de la quantité d'articles dans la page **Disponible par emplacement**. La valeur d'inventaire est rejetée si la différence ne peut pas être approuvée.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-[Configurer des appareils mobiles pour un travail d'entrepôt](configure-mobile-devices-warehouse.md)
+[Configurer des appareils mobiles pour le travail d'entrepôt](configure-mobile-devices-warehouse.md)
 
 
 

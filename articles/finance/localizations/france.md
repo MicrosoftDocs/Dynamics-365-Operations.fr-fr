@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a4c8ec14aa0b5f003c8efd842ed0ec579bf3362
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f57e1cd8e81162f2b4df5e9b8a1a1e2cc95cd022
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175749"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773441"
 ---
 # <a name="france-overview"></a>Vue d'ensemble de la France
 
@@ -37,12 +37,12 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
   - [Titres de recette](emea-fra-titres-de-recette-public-sector.md)
   - [Blocages de paiements de factures fournisseur](emea-fra-vendor-invoice-payment-holds-public-sector.md)
 - [Approuver et valider la création des lettres de change client](tasks/fr-00004-approve-post-draw-bill-exchange.md)
-- [Factures et documents chronologiques](emea-fra-chronological-invoices-vouchers.md)
-- [Créer un fichier d'audit standard pour la France (FEC)](emea-fra-fec-audit-file.md)
+- [Facture et n° document chronologiques](emea-fra-chronological-invoices-vouchers.md)
 - [Relevés de compte client et fournisseur](tasks/fr-00002-customer-vendor-account-statements.md)
 - [Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance](tasks/fr-00018-daily-interest.md)
 - [Amortissement dérogatoire](emea-fra-derogatory-depreciation.md)
 - [Lettres de change et billets à ordre français](tasks/fr-00004-french-bills-exchange-promissory-notes.md)
+- [Génération du fichier d'audit standard pour la France (FEC)](emea-fra-fec-audit-file.md)
 - [Codes NAF et numéros Siret](emea-fra-naf-codes-siret-numbers.md)
 - [Paramétrer des codes NAF et numéros SIRET](tasks/fr-00003-naf-codes-siret-numbers.md)
 - [Pénalités pour les paiements client en retard](emea-fra-apply-penalty-customer-payment-past-due.md)
@@ -50,10 +50,10 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Valider le journal de recréation de lettres de change](tasks/fr-00004-post-re-draw-bill-exchange-journal.md)
 - [Impression de texte récupéré du montant forfaitaire sur une facture client](emea-fra-print-lump-sum-recovery-text.md)
 - [Amortissement dégressif fiscal](emea-fra-rbsl-depreciation.md)
-- [Paramétrer les modes de paiement](tasks/fr-00004-setup-method-payment.md)
+- [Paramétrer des modes de paiement](tasks/fr-00004-setup-method-payment.md)
 - [Mettre à jour un mode de paiement pour le client](tasks/fr-00004-update-method-payment-customer.md)
 - Retail
-  - [Caisses enregistreuses](../../retail/localizations/emea-fra-cash-registers.md)
+  - [Fonctionnalité de la caisse enregistreuse](../../retail/localizations/emea-fra-cash-registers.md)
   - [Instructions de déploiement de caisses enregistreuses](../../retail/localizations/emea-fra-deployment.md)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

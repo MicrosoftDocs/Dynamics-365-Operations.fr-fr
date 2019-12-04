@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024228"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814603"
 ---
 # <a name="questionnaires"></a>Questionnaires
 
@@ -44,7 +44,7 @@ Le tableau suivant fournit des liens vers des informations décrivant les tâche
 | Rubrique| description ;|
 |------|------------|
 | [Concevoir un questionnaire](design-questionnaires.md)  | cet article fournit des informations sur la façon de concevoir un questionnaire. Le processus de création implique de définir des conditions préalables, des réponses et des questions, puis de les combiner en un questionnaire. |
-| [Distribuer et remplir un questionnaire](distribute-questionnaires.md)  | Cet article fournit des informations sur la façon de distribuer un questionnaire aux personnes interrogées et sur la manière de remplir les questionnaires.                                                                       |
+| [Distribuer et programmer des questionnaires](distribute-questionnaires.md)  | Cet article fournit des informations sur la façon de distribuer un questionnaire aux personnes interrogées et sur la manière de remplir les questionnaires.                                                                       |
 | [Afficher et évaluer les résultats d'un questionnaire](evaluate-questionnaire-results.md) | Cet article fournit des informations sur l'affichage et l'évaluation des résultats à partir des questionnaires remplis.                                                                                        |
 
 
@@ -52,9 +52,9 @@ Le tableau suivant fournit des liens vers des informations décrivant les tâche
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Conception de questionnaires](design-questionnaires.md)
+[Créer des questionnaires](design-questionnaires.md)
 
-[Distribuer et remplir des questionnaires](distribute-questionnaires.md)
+[Distribuer et programmer des questionnaires](distribute-questionnaires.md)
 
-[Affichage et évaluation des résultats des questionnaire](evaluate-questionnaire-results.md)
+[Afficher et évaluer les résultats des questionnaires](evaluate-questionnaire-results.md)
 

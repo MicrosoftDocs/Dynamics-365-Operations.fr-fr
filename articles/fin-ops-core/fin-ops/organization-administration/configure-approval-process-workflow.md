@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b09d09464eae932bf9caf4f2ea38cbbb3b4f0162
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190210"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811379"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurer des processus d'approbation dans un workflow
 
@@ -182,4 +182,4 @@ Un processus d'approbation comprend plusieurs étapes. Procédez comme suit pour
 
 1. Dans l'éditeur de workflow, double-cliquez sur le processus d'approbation. L'éditeur de workflow affiche les étapes du processus d'approbation.
 2. Pour ajouter une étape d'approbation, faites glisser l'étape de la zone **Éléments du workflow** sur le canevas.
-3. Pour configurer une étape d'approbation, voir [Configurer une étape d'approbation](configure-approval-step-workflow.md).
+3. Pour configurer une étape d'approbation, voir [Configurer les étapes d'approbation dans un workflow](configure-approval-step-workflow.md).

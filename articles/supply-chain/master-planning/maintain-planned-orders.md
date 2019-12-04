@@ -3,7 +3,7 @@ title: Tenir à jour les ordres prévisionnels
 description: Cette rubrique fournit des informations sur la gestion des ordres prévisionnels. Il décrit la manière dont vous pouvez mettre à jour le statut des ordres prévisionnels, les confirmer et filtrer les ordres prévisionnels ayant le même statut qu'un ordre prévisionnel sélectionné.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 11/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
-ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
+ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "1993438"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813774"
 ---
 # <a name="maintain-planned-orders"></a>Tenir à jour les ordres prévisionnels
 
@@ -39,7 +39,7 @@ Vous pouvez utiliser le champ **Statut** pour aider à suivre la progression. Le
 
 -   Lorsque la planification génère des ordres prévisionnels, leur statut est **Non traité**.
 -   Si vous décidez de ne pas confirmer un ordre prévisionnel, vous pouvez lui attribuer le statut **Terminé**.
--   Si vous souhaitez confirmer une commande prévisionnelle, vous pouvez définir son statut sur **Approuvée**. Les commandes prévisionnelles définies sur **Approuvée** suivent la planification principale, de sorte qu'elles ne sont pas modifiées ou supprimées. 
+-   Si vous souhaitez confirmer une commande prévisionnelle, vous pouvez définir son statut sur **Approuvée**. Les commandes prévisionnelles définies sur **Approuvée** suivent la planification principale, de sorte qu'elles ne sont pas modifiées ou supprimées pendant une exécution ultérieure de la planification principale. 
 
 ## <a name="firming-planned-orders"></a>Confirmation des commandes prévisionnelles 
 La confirmation des commandes prévisionnelles entraîne la création de vraies commandes. Elles sont également mentionnées par les appellations *lancées* ou *commandes en cours*. Après confirmation, l'ordre prévisionnel est déplacé vers la section Commandes du module approprié.
@@ -62,7 +62,7 @@ Si vous prévoyez de confirmer plusieurs commandes à la fois, la mise en parall
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Plans généraux](master-plans.md)
+[Vue d'ensemble des plans généraux](master-plans.md)
 
 
 
