@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89441ee4c799e2d1215fbd82e0490d7168e2aa1b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 859d769b95c57663dc1bb76a632e34728a6691b5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570807"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813875"
 ---
 # <a name="reserve-inventory-quantities"></a>Réservation de quantités en stock
 
@@ -55,7 +55,7 @@ La section **Stratégies de stock** contient les stratégies suivantes pour rés
 | Date FIFO contrôlée    | Si vous cochez l'option **Date FIFO contrôlée**, la réservation de stock est contrôlée par une date de tri selon le principe du premier entré, premier sorti (First In First Out, FIFO). Les lots sont réservés sur la base de la date de réception des articles la plus proche, en fonction du principe du premier entré, premier sorti (First In, First Out, FIFO),                                                                                                                                                                                                                                                                       |
 | En arrière à partir de la date d'expédition | Cette option devient disponible si vous avez sélectionné l'option **Date FIFO contrôlée**. Si vous sélectionnez **En arrière à partir de la date d'expédition**, le stock est réservé en arrière à partir de la date d'expédition souhaitée selon le principe du dernier entré, premier sorti (Last In, First Out, LIFO). Si aucune réception n'est disponible avant la date d'expédition, une réservation de type FIFO est utilisée.                                                                                                                                                                                                           |
 | Réservation de ligne de vente d'articles  | Détermine si la réservation d'article est manuelle ou automatique. Si une réservation est automatiquement, le stock est réservé lors de la création de lignes de commande. Il est possible de créer des réservations au niveau du nombre d'articles pour les nomenclatures (option **Automatique**), ou pour les éléments individuels d'une nomenclature (option **Éclatement**). La valeur par défaut pour **Réservation de ligne de vente d'articles** peut être héritée des **Paramètres de la comptabilité client**. Sur cette page, la valeur est définie dans le champ Réservation de la **section** **Valeurs par défaut des ventes** sous l'onglet **Général**. |
-| Même sélection de lot    | Une réservation de lots identiques vous permet de réserver du stock pour une ligne de commande client par rapport à un lot de stock unique. Si vous souhaitez utiliser cette option, vous devez également définir l'option **Consolider le besoin** sur **Oui**. Certains paramètres supplémentaires sont requis pour le groupe de dimensions de suivi et le groupe de dimensions de stockage. Pour plus d'informations, voir [Réservation du même lot pour une commande client](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
+| Même sélection de lot    | Une réservation de lots identiques vous permet de réserver du stock pour une ligne de commande client par rapport à un lot de stock unique. Si vous souhaitez utiliser cette option, vous devez également définir l'option **Consolider le besoin** sur **Oui**. Certains paramètres supplémentaires sont requis pour le groupe de dimensions de suivi et le groupe de dimensions de stockage. Pour plus d'informations, voir [Réserver le même lot pour une commande client](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
 | Consolider le besoin | Cette option est similaire à l'option **Même sélection de lot**, qui consolide le stock réservé pour les lignes de commande client en un seul besoin.                                                                                                                                                                                                                                                                                                                                                                                      |
 | Contrôlé par date FEFO    | Cette option permet de réserver des lots qui sont proches de leur date d'expiration ou période de consommation recommandée. Vous devez également définir le champ **Critères de prélèvement** pour sélectionner **Date d'expiration** ou **Période de consommation recommandée**.                                                                                                                                                                                                                                                                                                                              |
 

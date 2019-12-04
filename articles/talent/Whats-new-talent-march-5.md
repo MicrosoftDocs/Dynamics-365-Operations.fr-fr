@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 561b6fad0facad86e9a7bc8f36218ab98fcec73c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026668"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773263"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (5 mars 2019)
 
@@ -71,7 +71,7 @@ Avec cette modification, lors de la demande de modifications des postes existant
 Cette version comprend d'autres correctifs de bogues mineurs.
 
 ### <a name="upgrade-to-common-data-service"></a>Effectuez une mise à niveau vers Common Data Service.
-Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à grands pas. Connectez-vous au centre d'administration de PowerApps pour définir si votre base de données doit être mise à niveau. Pour en savoir plus sur les dates butoirs et les étapes indispensables pour la mise à niveau, voir [Mise à niveau vers Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à grands pas. Connectez-vous au centre d'administration de Power Apps pour définir si votre base de données doit être mise à niveau. Pour en savoir plus sur les dates butoirs et les étapes indispensables pour la mise à niveau, voir [Mise à niveau vers Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Prochainement
 

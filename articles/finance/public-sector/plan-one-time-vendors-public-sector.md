@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48ffd148876aff4d7a57ab030eb0c8098147b4f5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 088fc331de78defd1b03f7bf051d14b8fa20e420
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183639"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773609"
 ---
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Planifier pour les fournisseurs occasionnels dans le secteur public
 
@@ -104,7 +104,7 @@ Après avoir paramétré les conditions préalables nécessaires, consultez [Fou
 
 [Fournisseurs occasionnels (Secteur public)](one-time-vendors-public-sector.md)
 
-[Comptabilité fournisseur (Secteur public)](accounts-payable-public-sector.md)
+[Vue d'ensemble de la comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
 
 
 

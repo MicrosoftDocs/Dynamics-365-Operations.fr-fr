@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251060"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813015"
 ---
 # <a name="warehouse-management-overview"></a>Vue d'ensemble de gestion des entrepôts
 
@@ -36,7 +36,7 @@ Pour commencer à travailler avec le module Gestion des entrepôts, vous devez e
 
 Vous devez configurer les composants pour les workflows d'entrée et de sortie des processus d'entrepôt en fonction des besoins de l'entreprise. Les composants les plus importants que vous devez configurer sont les modèles de vague, les modèles de travail, les pools de travail et les directives d'emplacement.
 
-- [Configuration de l'entrepôt](warehouse-configuration.md)
+- [Vue d'ensemble de configuration de l'entrepôt](warehouse-configuration.md)
 - [Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement](control-warehouse-location-directives.md)
 - [Configuration des appareils mobiles pour le travail d'entrepôt](configure-mobile-devices-warehouse.md)
 - [Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

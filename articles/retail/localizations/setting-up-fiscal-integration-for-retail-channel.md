@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577898"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811163"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Paramétrer l'intégration fiscale pour les canaux de vente au détail
 
@@ -210,7 +210,7 @@ Les options de traitement des erreurs disponibles dans l'intégration fiscale so
 
 Pour activer les états X/Z fiscaux à exécuter depuis le PDV, vous devez ajouter de nouveaux boutons à la mise en page d'un écran de PDV.
 
-- Sur la page **Groupes de boutons**, suivez les instructions d'installation dans [Ajouter un bouton d'opération personnalisé à la mise en page d'un écran de PDV dans Retail Siège](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) pour installer le concepteur et mettre à jour la mise en page d'un écran de PDV.
+- Sur la page **Groupes de boutons**, suivez les instructions d'installation dans [Ajouter des opérations de PDV aux mises de PDV à l'aide du concepteur de groupe de boutons](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) pour installer le concepteur et mettre à jour la mise en page d'un écran de PDV.
 
     1. Permet de sélectionner la mise en page à mettre à jour. 
     2. Ajoutez un nouveau bouton, puis définissez la propriété de bouton **Imprimer X fiscal**.
@@ -221,7 +221,7 @@ Pour activer les états X/Z fiscaux à exécuter depuis le PDV, vous devez ajout
 
 Pour activer l'exécution manuelle d'un enregistrement fiscal reporté, vous devez ajouter un nouveau bouton à la disposition de l'appareil de PDV.
 
-- Sur la page **Groupes de boutons**, suivez les instructions d'installation dans [Ajouter un bouton d'opération personnalisé à la mise en page d'un écran de PDV dans Retail Siège](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) pour installer le concepteur et mettre à jour la mise en page d'un écran de PDV.
+- Sur la page **Groupes de boutons**, suivez les instructions d'installation dans [Ajouter des opérations de PDV aux mises de PDV à l'aide du concepteur de groupe de boutons](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) pour installer le concepteur et mettre à jour la mise en page d'un écran de PDV.
 
     1. Permet de sélectionner la mise en page à mettre à jour.
     2. Ajoutez un nouveau bouton, puis définissez la propriété du bouton **Terminer le processus d'enregistrement fiscal**.

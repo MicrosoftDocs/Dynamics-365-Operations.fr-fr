@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 039b5d7ace19fa93e6db4920153f4a1a67519c85
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177755"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770871"
 ---
 # <a name="position-forecasting"></a>Prévision des postes
 
@@ -33,7 +33,7 @@ Les dépenses liées aux collaborateurs représentent souvent une grande proport
 
 ## <a name="position-forecasting-in-budget-planning"></a>Prévision de poste dans la planification budgétaire
 
-[![Haut du graphique](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Composants de la prévision des postes](./media/graphic-top.png)](./media/graphic-top.png) 
 
 La prévision de poste utilise trois composants principaux pour fournir des montants budgétés précis pour les dépenses de poste. Ces montants peuvent ensuite être introduits dans un plan budgétaire pour les calculs de budget. 
 
@@ -45,14 +45,14 @@ Un **groupe de rémunération** est un composant facultatif de paramétrage util
 
 ### <a name="position-forecasting-processes"></a>Processus de prévision de poste
 
-[![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Illusration des processus de prévision des postes](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Dans un processus type de prévision de poste, vous commencez par créer les composants de paramétrage (éléments de coût budgétaire et groupes de rémunération). Les postes de prévision sont alors générés, en fonction des postes existants. Vous pouvez alors effectuer des ajustements. Par exemple, vous pouvez ajouter ou mettre fin à des postes, modifier des taux de salaire et les coûts d'avantages, et ajouter des augmentations de salaire. Vous pouvez créer plusieurs versions d'un poste de prévision pour faciliter les comparaisons entre différents scénarios de budgétisation. Ensuite, vous pouvez inclure les postes de prévision dans les plans budgétaires et importer les coûts afférents aux postes de prévision en tant que lignes de plan budgétaire.
 
 Vous pouvez créer des versions supplémentaires de poste de prévision lors de la révision des plans budgétaires. Ces nouvelles versions constituent une base pour les révisions.
 
 ## <a name="position-forecasting-setup"></a>Paramétrage de prévision de poste
-[![graphic2](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Illustration mettant en avant la configuration](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Éléments de coût budgétaire
 
@@ -89,7 +89,7 @@ Les champs **Programme d'augmentation** et **Date d'augmentation** sous le group
 L'élément de coût de bénéfice sélectionné sous le groupe de rémunération est utilisé lorsque vous créez des bénéfices pour les postes de prévision dans le groupe, notamment leur salaire de base et toute augmentation d'échelon. Le champ **Régime de rémunération fixe** lie le groupe de rémunération à un régime de rémunération fixe dans les Ressources humaines. Ce lien peut affecter les informations de rémunération fixe d'un collaborateur à un poste de prévision, et donc peut rendre la planification budgétaire plus précise. N'oubliez pas que la structure de la grille de rémunération (niveaux et échelons) du groupe de rémunération doit correspondre à la structure du régime de rémunération fixe. Sinon, le système ne peut pas correctement lier le groupe de rémunération au régime de rémunération fixe.
 
 ## <a name="creating-forecast-positions"></a>Création de postes de prévision
-[![graphic3](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Illustration mettant en avant « Créer des postes de prévision »](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Création de postes de prévision pour les postes existants
 
@@ -105,7 +105,7 @@ Lorsque l'option **Affecter un groupe de rémunération** est définie sur **Oui
 
 Le paramètre de l'option **Affecter un groupe de rémunération** prime sur le paramètre **Affectation d'un élément de coût budgétaire**. Il est possible d'utiliser jusqu'à deux paramètres en même temps. 
 
-[![graphic4](./media/graphic4.png)](./media/graphic4.png) 
+[![Graphique « Affecter un groupe de rémunération »](./media/graphic4.png)](./media/graphic4.png) 
 
 Une autre option consiste à affecter une date d'anniversaire. La date sélectionnée (date de début ajustée, date de début du collaborateur, date de début d'emploi, ou date d'ancienneté) du collaborateur affecté est alors définie comme la date d'anniversaire du poste de prévision, et est utilisée pour informations et lorsque des augmentations de salaire sont générées.
 
@@ -118,7 +118,7 @@ Lorsqu'un poste de prévision est sélectionné, choisissez **Copier le poste de
 Vous pouvez également créer un poste de prévision entièrement nouveau. Sélectionnez une tâche existante, ainsi que le processus de planification budgétaire et le scénario de plan budgétaire. Vous pouvez ensuite ajouter tous les autres détails nécessaires. De nouveau, un nouveau poste est créé simultanément dans les Ressources humaines.
 
 ## <a name="working-with-forecast-positions"></a>Utilisation des postes de prévision
-[![graphic5](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Illustration mettant en avant « Modifier des postes de prévision »](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Multiples versions d'un poste de prévision
 
@@ -174,7 +174,7 @@ Le processus de nouveau calcul est automatiquement utilisé sur tous les postes 
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Importer les postes de prévision dans les plans budgétaires
 
-[![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Illustration mettant en avant « Ajouter au plan budgétaire »](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 L'objet de la création et de la modification des postes de prévision est de les ajouter à des plans budgétaire, de sorte que les plans budgétaires incluent des montants budgétaires plus exacts. Il existe deux méthodes pour ajouter des postes de prévision aux plans budgétaires. Vous pouvez utiliser un processus de génération ou un processus de sélection dans le plan budgétaire.
 

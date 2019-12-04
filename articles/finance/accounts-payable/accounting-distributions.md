@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f7d98d7ab9b375bfeb8784596753ca956f96e36
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e9f185ac95371bb841e55184650b8089040676c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189727"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772258"
 ---
 # <a name="accounting-distributions"></a>Répartitions comptables
 
@@ -55,6 +55,6 @@ Les fonctionnalités de répartition comptable générique fournissent les optio
 -   **Afficher les distributions** – Permet d'afficher les répartitions comptables pour toutes les lignes et les montants en devises du document. Vous ne pouvez pas modifier les répartitions comptables de cette vue.
 
 
-Pour plus d'informations, voir [Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures financières](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+Pour plus d'informations, voir [Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 
 

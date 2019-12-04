@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8d94cf24040e5f653bc053f2df0a45e1afa23adc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518012"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813912"
 ---
 # <a name="design-questionnaires"></a>Conception de questionnaires
 
@@ -110,7 +110,8 @@ Les groupes de réponses et les réponses sont des composants qui constituent le
 
 Vous pouvez utiliser un groupe de réponses pour plusieurs questions d'un même questionnaire et pour plusieurs questionnaires. 
 
-**Remarque :** si vous modifiez le texte de la réponse dans des groupes de réponses qui ont déjà été utilisés dans des questionnaires terminés, les données peuvent devenir difficiles à évaluer et les résultats du questionnaire peuvent plus être valides. Si vous devez modifier un groupe de réponses, envisagez de créer un nouveau groupe de réponses au lieu de modifier l'existant. Vous ne pouvez pas supprimer les groupes de réponses associés à une question ou à une réponse ou qui ont été complétés.
+> [!NOTE]
+> Si vous modifiez le texte de la réponse dans des groupes de réponses qui ont déjà été utilisés dans des questionnaires terminés, les données peuvent devenir difficiles à évaluer et les résultats du questionnaire peuvent plus être valides. Si vous devez modifier un groupe de réponses, envisagez de créer un nouveau groupe de réponses au lieu de modifier l'existant. Vous ne pouvez pas supprimer les groupes de réponses associés à une question ou à une réponse ou qui ont été complétés.
 
 ### <a name="questions"></a>Questions
 
@@ -118,12 +119,16 @@ Un questionnaire doit contenir des questions. Des questions peuvent être ouvert
 
 -   Les réponses aux questions ouvertes ne sont pas contrôlées ; les réponses sont libres.
 -   Les questions fermées nécessitent une liste d'options de réponse prédéfinies, et ces questions doivent être structurées pour permettre à la personne interrogée de sélectionner une ou plusieurs réponses. Les questions doivent être conçues pour obtenir des informations spécifiques d'une personne interrogée et doivent être liées à un groupe de réponses qui fournit les options de réponse pour chaque question fermée. 
-     -  **Remarque :** avant de paramétrer des questions fermées, vous devez créer des groupes de réponse et des réponses.
+
+    > [!NOTE]
+    > Avant de paramétrer des questions fermées, vous devez créer des groupes de réponse et des réponses.
 
 Les questions peuvent être organisées en hiérarchie de questions conditionnelles afin que les questions secondaires soient présentées en fonction de la réponse sélectionnée par une personne interrogée pour la question précédente. Vous pouvez rédiger les questions d'abord, puis les réorganiser ultérieurement dans une hiérarchie.
 
 ## <a name="setting-up-questionnaires"></a>Paramétrage de questionnaires
-**Remarque :** avant de pouvoir paramétrer un questionnaire, vous devez paramétrer des questions, des réponses et les conditions préalables. 
+
+> [!NOTE]
+> Avant de pouvoir paramétrer un questionnaire, vous devez paramétrer des questions, des réponses et les conditions préalables. 
 
 Pour chaque questionnaire, vous pouvez spécifier les informations suivantes :
 
@@ -159,7 +164,8 @@ Vous pouvez effectuer les opérations suivantes dans la page **Questionnaires**�
 -   supprimer et ajouter des questions ;
 -   apporter des modifications aux groupes de résultats et au numéro d'ordre. 
 
-**Attention :** Soyez prudent lorsque vous apportez des modifications à des questionnaires déjà complétés. Les modifications peuvent réduire la précision des statistiques et donc en faire une base d'évaluation médiocre. Songez à créer une question au lieu de modifier une question pour laquelle une réponse existe déjà.
+> [!CAUTION]
+> Soyez prudent lorsque vous modifiez des questionnaires déjà complétés. Les modifications peuvent réduire la précision des statistiques et donc en faire une base d'évaluation médiocre. Songez à créer une question au lieu de modifier une question pour laquelle une réponse existe déjà.
 
 Dans un questionnaire, vous ne pouvez pas supprimer les types de questions suivants :
 
@@ -177,7 +183,8 @@ Un groupe de résultats permet de calculer les points et de classer les résulta
 -   Générez des statistiques pour chaque groupe de résultats afin de vous aider à analyser les résultats.
 -   Imprimer un état qui indique les résultats de chaque groupe de résultats ainsi que les points/textes facultatifs basés sur les points gagnés dans chaque groupe de résultats.
 
-**Remarque :** Vous devez exécuter certaines tâches préalables avant de paramétrer des groupes de résultats :
+> [!NOTE]
+> Vous devez exécuter certaines tâches préalables avant de paramétrer des groupes de résultats :
 
 -   Paramétrez des questions fermées. Pour une question fermée, le type d'entrée dans la page **Questions** doit être **Case à cocher**, **Autre bouton**ou **Zone combinée**.
 -   Définissez des points pour les réponses dans les groupes de réponses affectés à chaque question.
@@ -187,7 +194,8 @@ Pour associer des questions à un questionnaire à l'aide des groupes de résult
 
 Vous pouvez paramétrer plusieurs groupes de résultats afin d'évaluer les points obtenus par une personne interrogée dans chaque catégorie. Une fois qu'un questionnaire est terminé, vous pouvez afficher les points qui ont été obtenus pour chaque groupe de résultats. 
 
-**Conseil :** Pour évaluer un questionnaire à l'aide de points, et non à l'aide de catégories distinctes, vous pouvez ajouter toutes les questions à un seul groupe de résultats. 
+> [!TIP]
+> Pour évaluer un questionnaire à l'aide de points, et non à l'aide de catégories distinctes, vous pouvez ajouter toutes les questions à un seul groupe de résultats. 
 
 Pour chaque groupe de résultats, vous pouvez également paramétrer un ou plusieurs messages motivés par les points que les personnes interrogées recevront après avoir répondu à un questionnaire. Le texte affiché peut varier en fonction du score obtenu par la personne interrogée dans un groupe de résultats. Pour utiliser les messages motivés par les points, vous devez définir des intervalles de points et une description de chaque intervalle. Lorsqu'une personne interrogée réalise un score dans un intervalle spécifique, le texte pour cet intervalle est intégré dans l'état des résultats. 
 
@@ -213,13 +221,15 @@ Le tableau suivant indique les messages motivés par les points définis pour le
 
 Vous pouvez définir des intervalles de points et des textes pour chaque groupe de résultats d'un questionnaire. Les textes correspondant au score de chaque personne interrogée sont affichés pour chaque groupe de résultats. 
 
-**Remarque :** vous pouvez modifier les intervalles et les textes. Toutefois, si un questionnaire a été rempli, ces modifications peuvent provoquer des différences entre les anciens et les nouveaux états des résultats.
+> [!NOTE]
+> Vous pouvez modifier les intervalles et les textes. Toutefois, si un questionnaire a été rempli, ces modifications peuvent provoquer des différences entre les anciens et les nouveaux états des résultats.
 
 ### <a name="conditional-question-hierarchies"></a>Hiérarchies de questions conditionnelles
 
 Lorsque vous paramétrez un questionnaire, l'utilisation des hiérarchies de question conditionnelles est facultative. 
 
-**Remarque :** pour pouvoir paramétrer une hiérarchie de questions conditionnelles, les questions auxquelles des groupes de réponse sont attribués doivent déjà être attachées au questionnaire. 
+> [!NOTE]
+> Pour pouvoir paramétrer une hiérarchie de questions conditionnelles, les questions auxquelles des groupes de réponse sont attribués doivent déjà être attachées au questionnaire. 
 
 Pour utiliser les questions conditionnelles pour créer une hiérarchie de questions dans un questionnaire, vous faites dépendre l'ordre dans lequel les questions sont présentées des réponses choisies par une personne interrogée pour chaque question. En basant l'ordre des questions sur les réponses sélectionnées par la personne interrogée, vous pouvez adapter le questionnaire à mesure que celle-ci y répond.
 
@@ -232,9 +242,9 @@ De la même manière, vous pouvez paramétrer un questionnaire afin que, si une 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Utilisation de questionnaires](questionnaires.md)
+[Questionnaires](questionnaires.md)
 
-[Distribuer et remplir des questionnaires](distribute-questionnaires.md)
+[Distribuer et programmer des questionnaires](distribute-questionnaires.md)
 
-[Affichage et évaluation des résultats des questionnaire](evaluate-questionnaire-results.md)
+[Afficher et évaluer les résultats des questionnaires](evaluate-questionnaire-results.md)
 

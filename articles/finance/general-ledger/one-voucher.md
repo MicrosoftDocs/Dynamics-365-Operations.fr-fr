@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553185"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810697"
 ---
 # <a name="one-voucher"></a>N° document
 
@@ -83,6 +83,9 @@ En raison des problèmes mentionnés précédemment, la fonctionnalité N° docu
 
 Les scénarios suivants peuvent être réalisés uniquement à l'aide de la fonctionnalité N° document. Si votre organisation a l'un de ces scénarios, vous devez activer plusieurs transactions à entrer dans un document en modifiant la définition du paramètre **Autoriser plusieurs transactions dans un N° document** sur la page **Paramètres de comptabilité**. Ces écarts fonctionnels seront comblés par le biais d'autres fonctionnalités dans les versions ultérieures.
 
+> [!Note]
+> [Pour chacun des scénarios suivants, le champ **Autoriser plusieurs transactions dans un N° document** doit être défini sur Oui dans l'organisateur **Général** sur la page **Paramètres de comptabilité**.]
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Valider le résumé des paiements fournisseur ou client sur un compte bancaire
 
 **Scénario** Une organisation communique une liste de fournisseurs et de montants à sa banque, et la banque utilise cette liste pour payer les fournisseurs pour le compte de l'organisation. La banque valide la somme des paiements en tant que prélèvement unique sur le compte bancaire.
@@ -120,6 +123,9 @@ Les transactions d'immobilisation suivantes créent également plusieurs transac
 - Une immobilisation est fractionnée.
 - Un paramètre pour calculer l'amortissement sur la cession est activé et l'immobilisation est ensuite cédée.
 - Une date de mise en service d'immobilisation est antérieure à la date d'acquisition. Par conséquent, un ajustement d'amortissement est validé.
+
+> [!Note]
+> Lorsque vous entrez des transactions, assurez-vous que toutes les transactions s'appliquent à la même immobilisation. Le document n'est pas validé s'il contient plus d'une immobilisation, même si le champ **Nouveau N° document** est défini sur Un seul N° document sur la page **Noms de journal** dans la comptabilité. Si vous incluez plusieurs immobilisations dans le n° de document, le message **Il ne peut y avoir qu'une transaction d'immobilisation par N° document** s'affiche et vous ne pouvez pas publier le N° document.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Lettres de change et billets à ordre
 Les lettres de change et les billets à ordre nécessitent qu'un N° document soit utilisé, car les transactions déplacent le solde client ou fournisseur d'un compte général Comptabilité client/Comptabilité fournisseur à un autre, selon l'état du paiement.

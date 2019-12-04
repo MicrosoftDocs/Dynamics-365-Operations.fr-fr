@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 6e83a2607f4840139143fb473ef7d6daf4b8b7ad
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180666"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812555"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Configuration requise pour le calibrage de matériel pour les environnements sur site
 
 [!include [banner](../includes/banner.md)]
 
-Avant de commencer le processus de calibrage du matériel et de l'infrastructure pour un environnement sur site, familiarisez-vous avec la [Configuration requise](system-requirements.md) et les [Instructions de paramétrage et de déploiement](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) pour obtenir des connaissances approfondies de l'infrastructure sous-jacente.
+Avant de commencer le processus de calibrage du matériel et de l'infrastructure pour un environnement sur site, familiarisez-vous avec la [Configurations requises pour les déploiements de cloud](system-requirements.md) et les [Instructions de paramétrage et de déploiement](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) pour obtenir des connaissances approfondies de l'infrastructure sous-jacente.
 
 > [!NOTE]
 > Faites attention aux meilleures pratiques de paramétrage système pour des résultats optimaux.

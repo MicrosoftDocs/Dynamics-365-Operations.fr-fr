@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba01f0d16341eb9b0ec0918798e458626b5ef90e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025051"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811191"
 ---
 # <a name="retail-peripherals"></a>Périphériques de vente au détail
 
@@ -35,11 +35,17 @@ Cette rubrique explique les concepts relatifs aux périphériques de vente au d�
 
 ### <a name="pos-registers"></a>Caisses enregistreuses de PDV
 
-Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**. Le registre du point de vente (PDV) est une entité utilisée pour définir les caractéristiques d'une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques de vente au détail qui seront utilisés dans le registre, le magasin sur lequel est mappé le registre, ainsi que l'expérience visuelle de l'utilisateur qui se connecte à ce registre.
+Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**. 
+
+Le registre du point de vente (PDV) est une entité utilisée pour définir les caractéristiques d'une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques de vente au détail qui seront utilisés dans le registre, le magasin sur lequel est mappé le registre, ainsi que l'expérience visuelle de l'utilisateur qui se connecte à ce registre.
 
 ### <a name="devices"></a>Périphériques
 
-Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Périphériques**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé à une caisse enregistreuse de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. Les appareils peuvent être associés aux types d'application suivants : Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android et Retail Modern POS – iOS.
+Navigation : Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Périphériques**. 
+
+Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé à une caisse enregistreuse de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. 
+
+Les appareils peuvent être associés aux types d'application suivants : Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android et Retail Modern POS – iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -63,11 +69,15 @@ Les périphériques de PDV sont des périphériques qui sont explicitement pris 
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigation : cliquez sur **Vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail**. Sélectionnez un magasin, puis cliquez sur l'organisateur **Stations matérielles**. Le paramètre **Station matérielle** est un paramètre de niveau canal utilisé pour définir des instances où la logique de périphérique de vente au détail doit être déployée. Ce paramètre au niveau du canal sert à déterminer les spécifications de la station matérielle. Il permet également de répertorier les stations matérielles disponibles pour une instance de Modern POS dans un magasin donné. La station matérielle est intégrée dans le programme Modern POS pour Windows. La station matérielle peut également être déployée indépendamment en tant que programme Microsoft IIS autonome. Dans ce cas, elle est accessible via un réseau.
+Navigation : cliquez sur **Vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail**. 
+
+Sélectionnez un magasin, puis cliquez sur l'organisateur **Stations matérielles**. Le paramètre **Station matérielle** est un paramètre de niveau canal utilisé pour définir des instances où la logique de périphérique de vente au détail doit être déployée. Ce paramètre au niveau du canal sert à déterminer les spécifications de la station matérielle. Il permet également de répertorier les stations matérielles disponibles pour une instance de Modern POS dans un magasin donné. La station matérielle est intégrée dans le programme Modern POS pour Windows. La station matérielle peut également être déployée indépendamment en tant que programme Microsoft IIS autonome. Dans ce cas, elle est accessible via un réseau.
 
 ### <a name="hardware-profile"></a>Profil matériel
 
-Navigation : cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**. Le profil du matériel est une liste de périphériques configurés pour un registre de PDV ou une station matérielle. Le profil du matériel peut être mappé directement sur un registre de PDV ou une station matérielle.
+Navigation : cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Profils POS** &gt; **Profils du matériel**. 
+
+Le profil du matériel est une liste de périphériques configurés pour un registre de PDV ou une station matérielle. Le profil du matériel peut être mappé directement sur un registre de PDV ou une station matérielle.
 
 ## <a name="devices-classes"></a>Classes de périphériques
 Les périphériques de PDV sont généralement divisés en classes. Cette section décrit et offre une vue d'ensemble des périphériques pris en charge par Modern POS.
@@ -202,11 +212,11 @@ La logique qui gère les périphériques connectés physiquement ceux qui sont a
 
 ### <a name="hardware-station-installation"></a>Installation de la station matérielle
 
-Pour plus d'informations, voir [Installation et configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md).
+Pour plus d'informations, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Paramétrage et configuration de Modern POS pour Windows
 
-Pour plus d'informations, voir [Installation et configuration de Retail Modern POS](retail-modern-pos-device-activation.md)
+Pour plus d'informations, voir [Configurer, installer et activer Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Paramétrage et configuration de périphérique OPOS
 
@@ -523,7 +533,7 @@ Les périphériques réseau peuvent être pris en charge directement via la stat
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuration pour les scénarios pris en charge
 
-Pour plus d'informations sur la création de profils matériels, voir [Définir et tenir à jour des clients de canal, y compris des registres et des stations matérielles](define-maintain-channel-clients-registers-hw-stations.md).
+Pour plus d'informations sur la création de profils matériels, voir [Connecter des périphériques au point de vente (POS)](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
 > Pour la version 1611 de Retail, le profil de station matérielle n'est plus utilisé. Les attributs que vous avez préalablement paramétrés dans le profil de station matérielle font désormais partie de la station matérielle elle-même.
@@ -566,8 +576,8 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui on
 4. Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 5. Sélectionnez le programme de distribution **1090** pour synchroniser le nouveau profil matériel avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 6. Sélectionnez le programme de distribution **1040** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
-7. Installez la station matérielle. Pour plus d'informations sur l'installation de la station matérielle, voir [Installation et configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md).
-8. Installez et activez Modern POS. Pour plus d'informations sur l'installation de Modern POS, voir [Configuration et installation de Retail Modern POS](retail-modern-pos-device-activation.md).
+7. Installez la station matérielle. Pour plus d'informations sur l'installation de la station matérielle, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md).
+8. Installez et activez Modern POS. Pour plus d'informations sur l'installation de Modern POS, voir [Configurer, installer et activer Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 9. Connectez-vous à Modern POS, puis sélectionnez **Effectuer des opérations sans lien avec le tiroir-caisse**.
 10. Lancez l'opération **Gérer les stations matérielles**.
 11. Cliquez sur **Gérer**.
@@ -595,8 +605,8 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui pa
 5. Cliquez sur **Vente au détail** &gt; **Informatique de vente au détail** &gt; **Programme de distribution**.
 6. Sélectionnez le programme de distribution **1090** pour synchroniser le nouveau profil matériel avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 7. Sélectionnez le programme de distribution **1040** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
-8. Installez la station matérielle sur chaque ordinateur hôte que vous avez configuré dans les étapes 2 et 3. Pour plus d'informations sur l'installation de la station matérielle, voir [Installation et configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md).
-9. Installez et activez Modern POS. Pour plus d'informations sur l'installation de Modern POS, voir [Configuration et installation de Retail Modern POS](retail-modern-pos-device-activation.md).
+8. Installez la station matérielle sur chaque ordinateur hôte que vous avez configuré dans les étapes 2 et 3. Pour plus d'informations sur l'installation de la station matérielle, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md).
+9. Installez et activez Modern POS. Pour plus d'informations sur l'installation de Modern POS, voir [Configurer, installer et activer Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 10. Connectez-vous à Modern POS, puis sélectionnez **Effectuer des opérations sans lien avec le tiroir-caisse**.
 11. Lancez l'opération **Gérer les stations matérielles**.
 12. Cliquez sur **Gérer**.
@@ -655,7 +665,7 @@ Conformément aux normes de sécurité, les paramètres suivants doivent être u
 
 ## <a name="peripheral-simulator"></a>Simulateur périphérique
 
-Pour plus d'informations, voir [Simulateur périphérique de vente au détail](dev-itpro/retail-peripheral-simulator.md).
+Pour plus d'informations, voir [Simulateur périphérique pour Retail](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Périphériques testés par Microsoft
 

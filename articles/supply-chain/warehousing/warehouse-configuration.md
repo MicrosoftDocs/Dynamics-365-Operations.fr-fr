@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653416"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814902"
 ---
 # <a name="warehouse-configuration-overview"></a>Vue d'ensemble de configuration de l'entrepôt
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653416"
 
 Cet article explique comment configurer un entrepôt. Elle contient des informations sur l'activation d'une présentation d'entrepôt et sur les processus d'entrepôt.
 
-**Remarque :** cet article s'applique aux fonctionnalités du module **Gestion des entrepôts** module (entreposage avancé). Il ne s'applique pas aux fonctionnalités dédiées aux entrepôts du module **Gestion des stocks**.
+> [!NOTE]
+> Cet article s'applique aux fonctionnalités du module **Gestion des entrepôts** (entreposage avancé). Il ne s'applique pas aux fonctionnalités dédiées aux entrepôts du module **Gestion des stocks**.
 
 ## <a name="warehouse-layout"></a>Disposition de l'entrepôt
 Le système de gestion des entrepôts de Supply Chain Management vous offre des moyens flexibles de définir la disposition de votre entrepôt pour répondre à vos besoins variables, afin de pouvoir atteindre le rendement optimal de l'entrepôt.
@@ -114,7 +115,7 @@ Pour faciliter et accélérer la définition des actions associées à chaque li
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Configurer l'emplacement dans un entrepôt compatible WMS (guide de tâche)](tasks/configure-locations-wms-enabled-warehouse.md)
+[Configurer des emplacements dans un entrepôt compatible WMS](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

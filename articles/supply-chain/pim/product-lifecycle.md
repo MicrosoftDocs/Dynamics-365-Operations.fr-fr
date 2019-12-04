@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865326"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813544"
 ---
 # <a name="product-lifecycle-state-overview"></a>Vue d'ensemble de l'état du cycle de vie des produits
 
@@ -107,9 +107,9 @@ Utilisez les critères suivants pour sélectionner et mettre à jour les produit
 
 ## <a name="related-topics"></a>Rubriques connexes
 
--  [Créer un état du cycle de vie des produits (Guide de tâche)](tasks/new-product-lifecycle-state.md)
--  [Créer un état du cycle de vie des produits par défaut (Guide de tâche)](tasks/default-product-lifecycle-state.md)
--  [Affecter un état du cycle de vie des produits à un produit générique lancé (guide de tâche)](tasks/product-lifecycle-state-released-product-master.md)
--  [Affecter un état du cycle de vie des produits à un produit générique lancé (Guide de tâche)](tasks/product-lifecycle-state-released-product.md)
--  [Rechercher des variantes de produit obsolètes et affecter un état du cycle de vie des produits ( Guide de tâche)](tasks/obsolete-product-variants.md)
--  [Créer un état du cycle de vie des produits pour exclure des produits de la planification (Guide de tâche)](tasks/exclude-products-master-planning.md)
+-  [Créer un état du cycle de vie des produits](tasks/new-product-lifecycle-state.md)
+-  [Créer un état du cycle de vie des produits par défaut](tasks/default-product-lifecycle-state.md)
+-  [Affecter un état du cycle de vie des produits à un produit générique lancé](tasks/product-lifecycle-state-released-product-master.md)
+-  [Affecter un état du cycle de vie des produits à un produit lancé](tasks/product-lifecycle-state-released-product.md)
+-  [Rechercher des variantes de produit obsolètes et affecter un état du cycle de vie des produits](tasks/obsolete-product-variants.md)
+-  [Créer un état du cycle de vie des produits pour exclure des produits de la planification](tasks/exclude-products-master-planning.md)

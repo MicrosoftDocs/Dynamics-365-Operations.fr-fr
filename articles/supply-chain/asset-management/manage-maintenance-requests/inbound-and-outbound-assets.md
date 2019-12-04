@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 53100a897dc71758b8920672fea1e684817cb4b7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571666"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812281"
 ---
 # <a name="inbound-and-outbound-assets"></a>Actifs entrants et sortants
 
@@ -34,7 +34,7 @@ ms.locfileid: "2571666"
 Si votre société effectue des tâches de réparation ou de maintenance sur les actifs reçus d'autres emplacements ou clients, Gestion des actifs peut suivre les actifs entrants vers votre société et les actifs sortants qui sont retournées.
 
 > [!NOTE]
-> Si vous souhaitez utiliser des états du cycle de vie entrant et sortant pour gérer les actifs entrants et étant retournés, vous devez paramétrer des états de cycle de vie de demande de maintenance et des modèles de cycle de vie pour prendre en charge ces actions. Pour plus d'informations, voir [Paramétrage des demandes de maintenance](../setup-for-maintenance-requests/requests.md).
+> Si vous souhaitez utiliser des états du cycle de vie entrant et sortant pour gérer les actifs entrants et étant retournés, vous devez paramétrer des états de cycle de vie de demande de maintenance et des modèles de cycle de vie pour prendre en charge ces actions. Pour plus d'informations, voir [Demandes de maintenance](../setup-for-maintenance-requests/requests.md).
 
 Le paramétrage de Gestion des actifs détermine si vous pouvez utiliser les actifs entrants et sortants.
 

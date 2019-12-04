@@ -3,7 +3,7 @@ title: Affecter des utilisateurs à des rôles de sécurité
 description: Pour accéder aux applications Finance and Operations, des rôles de sécurité doivent être affectés aux utilisateurs.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180965"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2807994"
 ---
 # <a name="assign-users-to-security-roles"></a>Affecter des utilisateurs à des rôles de sécurité
 
@@ -37,6 +37,9 @@ Pour utiliser autre chose que les fonctionnalités courantes, des rôles de séc
 5. Dans la liste **Nom de la règle d'appartenance**, cliquer sur le lien dans la ligne sélectionnée.
 6. Cliquez sur **Modifier la requête.** Modifiez la requête, le cas échéant.  
 7. Cliquez sur **OK**.
+8. Cliquez sur **Exécuter l'affectation automatique de rôle**.
+9. Accédez à **Volet Navigation > Modules > Administration système > Utilisateurs > Utilisateurs** (idéalement dans un onglet distinct du navigateur).
+10. Examinez les rôles affectés à différents utilisateurs pour confirmer que la requête d'affectation du rôle était correcte. Ajustez et réexécutez si nécessaire.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Exclure des utilisateurs de l'affectation automatique de rôle
 1. Fermez la page.

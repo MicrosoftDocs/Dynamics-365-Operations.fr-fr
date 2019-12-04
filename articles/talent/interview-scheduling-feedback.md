@@ -1,5 +1,5 @@
 ---
-title: Planification des entretiens et commentaires
+title: Planifier les entretiens dans Attract
 description: Cette rubrique fournit des informations sur la planification des entretiens et les activités de commentaires dans Attract.
 author: hasrivas
 manager: AnnBe
@@ -14,18 +14,18 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517981"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832743"
 ---
-# <a name="interview-scheduling-and-feedback"></a>Planification des entretiens et commentaires
+# <a name="schedule-interviews-in-attract"></a>Planifier les entretiens dans Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-## <a name="scheduler-activity"></a>Activité de planificateur
+## <a name="scheduler-activity"></a>Activité du planificateur
 
 L'activité de planification reste en option et se distingue par deux composants : Demande de disponibilité du candidat et Planification. Le composant Disponibilité du candidat permet d'utiliser des e-mails pour demander la disponibilité d'un candidat. Le composant Programme permet de programmer des entretiens avec le candidat et l'équipe de recrutement.
 

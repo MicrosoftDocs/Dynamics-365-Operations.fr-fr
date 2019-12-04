@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251083"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814971"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configurer les noms de champ d'application dans l'application Entreposage
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251083"
 
 Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Dynamics 365 Supply Chain Management. 
 
-**Remarque :** cette rubrique s'applique aux fonctionnalités du module Gestion des entrepôts. Elle ne s'applique pas aux fonctionnalités du module Gestion des stocks. Entreposage est une application que vous pouvez utiliser pour effectuer des tâches d'entrepôt. Vous pouvez définir et configurer les noms de champ utilisés dans l'application, et aussi configurer la priorité d'affectation des noms de champ. Cette rubrique explique comment définir et configurer ces noms et priorités de champ d'application d'entrepôt, et comment les utiliser dans Entreposage. Pour des informations détaillées sur la configuration de la connexion à Entreposage, reportez-vous au didacticiel [Installation et configuration de Entreposage](install-configure-warehousing-app.md)
+> [!NOTE]
+> Cette rubrique s'applique aux fonctionnalités du module Gestion des entrepôts. Elle ne s'applique pas aux fonctionnalités du module Gestion des stocks. Entreposage est une application que vous pouvez utiliser pour effectuer des tâches d'entrepôt. Vous pouvez définir et configurer les noms de champ utilisés dans l'application, et aussi configurer la priorité d'affectation des noms de champ. Cette rubrique explique comment définir et configurer ces noms et priorités de champ d'application d'entrepôt, et comment les utiliser dans Entreposage. Pour des informations détaillées sur la configuration de la connexion à Entreposage, reportez-vous au didacticiel [Vue d'ensemble de l'application Installer et configurer Entreposage](install-configure-warehousing-app.md)
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurer les noms de champ d'application d'entrepôt
 
@@ -142,4 +143,4 @@ Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Installation et configuration de Microsoft Dynamics 365 for Finance and Operations – Entreposage](install-configure-warehousing-app.md)
+[Vue d'ensemble de l'installation et de la configuration de l'application d'entreposage](install-configure-warehousing-app.md)

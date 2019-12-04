@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9dcac902118c643b9a9d783c12f02fa5c90827b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e96552447182f3692a19d4cfd962afbcb28e5508
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177689"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771867"
 ---
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
@@ -74,7 +74,7 @@ Les définitions de colonne contiennent différents types de colonnes afin d'off
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[États financiers](financial-reporting-getting-started.md)
+[Vue d'ensemble des états financiers](financial-reporting-getting-started.md)
 
 [Afficher les états financiers](view-financial-reports.md)
 

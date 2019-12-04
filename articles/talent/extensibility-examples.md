@@ -1,6 +1,6 @@
 ---
-title: Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de scénarios
-description: Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 Talent utilisant Microsoft PowerApps et Microsoft Flow.
+title: Étendre Talent avec Power Apps et Power Automate
+description: Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 Talent utilisant Microsoft Power Apps et Microsoft Power Automate.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008057"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832836"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Étendre Talent à l'aide de PowerApps et de Microsoft Flow - Exemples de scénarios
+# <a name="extend-talent-with-power-apps-and-power-automate"></a>Étendre Talent avec Power Apps et Power Automate
 
-Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 Talent utilisant Microsoft PowerApps et Microsoft Flow. Vous pouvez importer le module de solution associé à chaque exemple dans l'environnement de PowerApps. Vous pouvez ensuite utiliser les modules comme orientation ou comme point de départ pour implémenter les scénarios qui s'appliquent à votre organisation.
+[!include [banner](includes/banner.md)]
+
+Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 Talent utilisant Microsoft Power Apps et Microsoft Power Automate. Vous pouvez importer le module de solution associé à chaque exemple dans l'environnement de Power Apps. Vous pouvez ensuite utiliser les modules comme orientation ou comme point de départ pour implémenter les scénarios qui s'appliquent à votre organisation.
 
 > [!IMPORTANT]
 > Pour utiliser les modèles et l'application décrits dans cette rubrique « en l'état », veillez à les tester pour vous assurer qu'ils couvrent tous les scénarios spécifiques à votre implémentation.
@@ -36,11 +38,11 @@ Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Mic
 ## <a name="prerequisites"></a>Conditions préalables
 
 - Pour importer des modules, les utilisateurs doivent avoir l'autorisation **Créateur d'environnement**.
-- Pour exporter ou importer des applications, les utilisateurs doivent disposer d'une licence PowerApps Plan 2 ou une licence d'essai PowerApps Plan 2.
+- Pour exporter ou importer des applications, les utilisateurs doivent disposer d'une licence Power Apps Plan 2 ou une licence d'essai Power Apps Plan 2.
 
-## <a name="flow--form-connect"></a>Flow – Form Connect
+## <a name="power-automate--form-connect"></a>Power Automate – Form Connect
 
-Le modèle **Flow – Form Connect** peut être utilisé pour lire des données de Microsoft Forms et les enregistrer dans une entité Common Data Service.
+Le modèle **Power Automate – Form Connect** peut être utilisé pour lire des données de Microsoft Forms et les enregistrer dans une entité Common Data Service.
 
 Ce modèle peut être étendu pour être utilisé pour d'autres scénarios. Voici quelques exemples :
 
@@ -51,19 +53,19 @@ Ce modèle peut être étendu pour être utilisé pour d'autres scénarios. Voic
 
 Dans Microsoft Dynamics 365 : Attract, les écrans peuvent s'afficher dans le portail Candidat, et les candidats peuvent renseigner les informations. Les écrans peuvent également être incorporés comme activités dans un modèle de poste.
 
-Lorsqu'un candidat envoie un formulaire, Microsoft Flow capture l'envoi de l'écran, lit les données et les stocke dans l'entité Common Data Service.
+Lorsqu'un candidat envoie un formulaire, Microsoft Power Automate capture l'envoi de l'écran, lit les données et les stocke dans l'entité Common Data Service.
 
-Pour télécharger le modèle **Flow – Form Connect** et la structure de l'entité personnalisée, accédez à [Flow – Form Connect](https://go.microsoft.com/fwlink/?linkid=2081988) dans le Centre de téléchargement Microsoft.
+Pour télécharger le modèle **Power Automate – Form Connect** et la structure de l'entité personnalisée, accédez à [Power Automate – Form Connect](https://go.microsoft.com/fwlink/?linkid=2081988) dans le Centre de téléchargement Microsoft.
 
-## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>Initier et extraire les paramètres transmis à Powerapps
+## <a name="initiate-and-extract-parameters-passed-to-power-apps"></a>Initier et extraire les paramètres transmis à Power Apps
 
-Le modèle **Initier et extraire les paramètres transmis à Powerapps** peut être utilisé comme point de départ pour tout scénario PowerApps spécifique à Attract. Il inclut tous les paramètres par défaut qui sont passés par Attract, par exemple, **Candidature**, **ID du candidat**et **JobID**.
+Le modèle **Initier et extraire les paramètres transmis à Power Apps** peut être utilisé comme point de départ pour tout scénario Power Apps spécifique à Attract. Il inclut tous les paramètres par défaut qui sont passés par Attract, par exemple, **Candidature**, **ID du candidat**et **JobID**.
 
 Il peut être utilisé pour récupérer un écran d'évaluation de candidat. Ainsi, un responsable du recrutement peut afficher l'évaluation qu'un candidat a remplie.
 
-Les applications créées à l'aide de PowerApps peuvent être intégrées dans le modèle de poste dans Attract.
+Les applications créées à l'aide de Power Apps peuvent être intégrées dans le modèle de poste dans Attract.
 
-Pour télécharger le modèle **Initier et extraire les paramètres transmis à Powerapps** et la structure de l'entité personnalisée, accédez à [Initier et extraire les paramètres transmis à Powerapps](https://go.microsoft.com/fwlink/?linkid=2081991) dans le Centre de téléchargement Microsoft.
+Pour télécharger le modèle **Initier et extraire les paramètres transmis à Power Apps** et la structure de l'entité personnalisée, accédez à [Initier et extraire les paramètres transmis à Power Apps](https://go.microsoft.com/fwlink/?linkid=2081991) dans le Centre de téléchargement Microsoft.
 
 ## <a name="integration-with-office-365"></a>Intégration à Office 365
 
@@ -73,33 +75,33 @@ Cette application peut être étendue pour être utilisée pour d'autres scénar
 
 Pour télécharger l'application **Intégration à Office 365** et la structure d'entité personnalisée, accédez à [Intégration à Office 365](https://go.microsoft.com/fwlink/?linkid=2081787) dans le Centre de téléchargement Microsoft.
 
-## <a name="flow--email-notification"></a>Flow – Notification par e-mail
+## <a name="power-automate--email-notification"></a>Power Automate - Notification par e-mail
 
-Le modèle **Flow – Notification par e-mail** peut être utilisé pour les scénarios de notification par e-mail. Il peut être utilisé pour déclencher des notifications par e-mail aux candidats rejetés par l'équipe de recrutement à une étape quelconque du processus.
+Le modèle **Power Automate – Notification par e-mail** peut être utilisé pour les scénarios de notification par e-mail. Il peut être utilisé pour déclencher des notifications par e-mail aux candidats rejetés par l'équipe de recrutement à une étape quelconque du processus.
 
 Ce modèle peut être étendu pour suivre les modifications du statut du candidat tout au long du processus de recrutement, et pour envoyer des notifications à l'équipe de recrutement et au candidat.
 
 En général, pour les entités enregistrées dans Common Data Service, les flux peuvent être paramétrés de manière à envoyer des notifications pour les événements qui se produisent dans Core HR, Attract ou Onboard.
 
-Pour télécharger le modèle **Flow – Notification par e-mail** et la structure de l'entité personnalisée, accédez à [Flow – Notification par e-mail](https://go.microsoft.com/fwlink/?linkid=2082103) dans le Centre de téléchargement Microsoft.
+Pour télécharger le modèle **Power Automate – Notification par e-mail** et la structure de l'entité personnalisée, accédez à [Power Automate – Notification par e-mail](https://go.microsoft.com/fwlink/?linkid=2082103) dans le Centre de téléchargement Microsoft.
 
-## <a name="flow--sql-connect-and-execute"></a>Flow – Connexion et exécution SQL
+## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – Connexion et exécution SQL
 
-Le modèle **Flow – Connexion et exécution SQL** se connecte à Microsoft SQL Server et active les requêtes SQL à exécuter.
+Le modèle **Power Automate - Connexion et exécution SQL** se connecte à Microsoft SQL Server et active les requêtes SQL à exécuter.
 
 Bien que ce modèle soit conçu pour lire et mettre à jour les tables SQL, il peut être étendu de manière à être utilisé pour d'autres scénarios. Par exemple, il peut être utilisé pour remplir une table intermédiaire dans Common Data Service avec des enregistrements de SQL Server, et pour synchroniser périodiquement la table intermédiaire à l'aide d'un envoi incrémentiel de SQL Server.
 
-Pour télécharger le modèle **Flow – Connexion et exécution SQL**, accédez à [Flow – Connexion et exécution SQL](https://go.microsoft.com/fwlink/?linkid=2081789) dans le Centre de téléchargement Microsoft.
+Pour télécharger le modèle **Power Automate – Connexion et exécution SQL**, accédez à [Power Automate – Connexion et exécution SQL](https://go.microsoft.com/fwlink/?linkid=2081789) dans le Centre de téléchargement Microsoft.
 
-## <a name="flow--sharepoint-integration"></a>Intégration Flow – SharePoint
+## <a name="power-automate--sharepoint-integration"></a>Intégration de Power Automate – SharePoint
 
-Le modèle **Intégration Flow – SharePoint** peut être utilisé pour lire les données d'une liste Microsoft SharePoint, comparer cette liste avec les valeurs de champ d'une entité Common Data Service, et envoyer les résultats de la comparaison dans un e-mail de notification. 
+Le modèle Intégration **Power Automate – SharePoint** peut être utilisé pour lire les données d'une liste Microsoft SharePoint, comparer cette liste avec les valeurs de champ d'une entité Common Data Service, et envoyer les résultats de la comparaison dans un e-mail de notification. 
 
 Une organisation peut avoir un besoin urgent d'un certain ensemble de qualifications. Ces qualifications peuvent être enregistrées dans SharePoint sous forme de liste SharePoint. Lorsqu'un candidat postule à un poste associé à un ensemble de qualifications répertorié, s'il existe une bonne correspondance entre les qualifications du candidat et les qualifications enregistrées dans SharePoint, un e-mail de notification est envoyé. De cette manière, les postes à pourvoir en urgence sont plus vite pourvus car les notifications aident les recruteurs à atteindre des candidats dans toute l'organisation.
 
 Ce modèle peut être étendu pour être utilisé dans tout scénario utilisant l'intégration de SharePoint.
 
-Pour télécharger le modèle **Intégration Flow – SharePoint**, accédez à [Intégration Flow – SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) dans le Centre de téléchargement Microsoft.
+Pour télécharger le modèle **Power Automate – Intégration SharePoint**, accédez à [Power Automate – Intégration SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) dans le Centre de téléchargement Microsoft.
 
 ## <a name="referral-app"></a>Application de référence
 Vous pouvez utiliser l'application de référence pour ajouter des candidats à un vivier de candidats partagé. Il est possible d'entrer le **Prénom**, le **Nom**, l'**E-mail** et l'**URL LinkedIn** en référence lors de la soumission d'un candidat. Les métadonnées de la source de la candidature sont ensuite renseignées par les informations de référence.
