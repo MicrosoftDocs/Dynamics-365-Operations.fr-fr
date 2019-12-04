@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf8392396803883219cc2e5496b00b2e486857ce
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 93052a05f86c54ea9dfa8281c0766564063c718a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174627"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770249"
 ---
 # <a name="one-time-vendors-in-the-public-sector"></a>Fournisseurs occasionnels dans le secteur public
 
@@ -32,13 +32,13 @@ ms.locfileid: "2174627"
 
 Cet article fournit des informations sur la création d'un fournisseur occasionnel et d'une facture, et sur l'importation et la création de plusieurs fournisseurs occasionnels et factures. 
 
-Il peut arriver que vous deviez créer une facture pour un nouveau fournisseur avec qui vous n'avez pas de relation régulière. Dans Dynamics 365 Finance, si une approbation ou un contrat sous la forme d'une commande fournisseur n'est pas nécessaire, vous pouvez rapidement créer une facture tout en créant un enregistrement pour le fournisseur. Par exemple, vous devez payer des référents ou effectuer des remboursements, mais il n'existe pas d'enregistrement pour le fournisseur. Vous pouvez toujours créer plusieurs factures pour de nouveaux fournisseurs avec qui vous n'avez pas de relation régulière. Si ni une approbation ni une commande fournisseur ne sont nécessaires, vous pouvez rapidement créer des factures en même temps que vous créez des enregistrements pour les fournisseurs. Par exemple, vous souhaitez peut-être prendre en charge les paiements fournisseur à des fins juridiques, de paiement d'enregistrement et de remboursement de clients ou pour d'autres paiements pour lesquels il n'existe pas d'enregistrements fournisseur principaux. Pour plus d'informations, voir [Planification pour les fournisseurs occasionnels dans le secteur public](plan-one-time-vendors-public-sector.md).
+Il peut arriver que vous deviez créer une facture pour un nouveau fournisseur avec qui vous n'avez pas de relation régulière. Dans Dynamics 365 Finance, si une approbation ou un contrat sous la forme d'une commande fournisseur n'est pas nécessaire, vous pouvez rapidement créer une facture tout en créant un enregistrement pour le fournisseur. Par exemple, vous devez payer des référents ou effectuer des remboursements, mais il n'existe pas d'enregistrement pour le fournisseur. Vous pouvez toujours créer plusieurs factures pour de nouveaux fournisseurs avec qui vous n'avez pas de relation régulière. Si ni une approbation ni une commande fournisseur ne sont nécessaires, vous pouvez rapidement créer des factures en même temps que vous créez des enregistrements pour les fournisseurs. Par exemple, vous souhaitez peut-être prendre en charge les paiements fournisseur à des fins juridiques, de paiement d'enregistrement et de remboursement de clients ou pour d'autres paiements pour lesquels il n'existe pas d'enregistrements fournisseur principaux. Pour plus d'informations, voir [Plan pour les fournisseurs occasionnels dans le secteur public](plan-one-time-vendors-public-sector.md).
 
 ## <a name="how-do-i-create-a-onetime-vendor-and-invoice"></a>Comment créer un fournisseur occasionnel et une facture ?
 L'enregistrement fournisseur utilise les valeurs du compte fournisseur occasionnel par défaut, sauf si de nouvelles valeurs sont spécifiées. Ce compte est spécifié dans la section **Général** de la page **Paramètres de la comptabilité fournisseur**. Pour afficher les détails du compte, accédez à la page **Tous les fournisseurs**, puis double-cliquez sur le numéro de compte du fournisseur occasionnel par défaut.
 
 ## <a name="how-do-i-import-and-create-multiple-onetime-vendors-and-invoices"></a>Comment importer et créer plusieurs fournisseurs occasionnels et factures ?
-Pour créer plusieurs fournisseurs et factures occasionnels, commencez par créer un fichier contenant les informations du fournisseur et de facturation, puis importez le fichier dans une table intermédiaire. Traitez ensuite le fichier importé et générez les factures. Pour plus d'informations sur la manière de créer le fichier, voir [Planification pour les fournisseurs occasionnels dans le secteur public](plan-one-time-vendors-public-sector.md).  
+Pour créer plusieurs fournisseurs et factures occasionnels, commencez par créer un fichier contenant les informations du fournisseur et de facturation, puis importez le fichier dans une table intermédiaire. Traitez ensuite le fichier importé et générez les factures. Pour plus d'informations sur la manière de créer le fichier, voir [Plan pour les fournisseurs occasionnels dans le secteur public](plan-one-time-vendors-public-sector.md).  
 
 
 

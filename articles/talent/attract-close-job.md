@@ -1,5 +1,5 @@
 ---
-title: Clôturer un poste dans Microsoft Dynamics pour Talent - Attract
+title: Clôturer un poste dans Attract
 description: Cette rubrique explique comment clôturer un poste dans Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2010-07-10
 ms.dyn365.ops.version: Talent 2019 Wave 1 update
-ms.openlocfilehash: 6ef8fb23a31d47a335a395564265e5aa14abcc8d
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3705b5b1c6beab9e602ac7d16bf53da51602d61a
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552092"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833136"
 ---
-# <a name="close-a-job-in-microsoft-dynamics-talent---attract"></a>Clôturer un poste dans Microsoft Dynamics pour Talent - Attract
+# <a name="close-a-job-in-attract"></a>Clôturer un poste dans Attract
 
 [!include [banner](includes/banner.md)]
 

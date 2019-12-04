@@ -16,25 +16,25 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551655"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770733"
 ---
 # <a name="online-financial-consolidations"></a>Consolidations financières en ligne
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les consolidations financières en ligne dans le module Comptabilité. Avant de lire cette rubrique, veillez à lire la rubrique [Consolidations financières et conversion de devises](financial-consolidations-currency-translation.md).
+Cette rubrique décrit les consolidations financières en ligne dans le module Comptabilité. Avant de lire cette rubrique, veillez à lire la rubrique [Vue d'ensemble des consolidations financières et conversion de devises](financial-consolidations-currency-translation.md).
 
 Après avoir terminé votre paramétrage, entrez les détails de la consolidation dans la page **Consolidation [En ligne]**. Lorsque vous avez terminé, vous pouvez cliquer sur **OK** ou **Traitement par lots** pour traiter la consolidation.
 
 ## <a name="criteria"></a>Critères
 Sous l'onglet **Critères** de la page **Consolidation [En ligne]**, définissez les comptes, les périodes et le type de données consolidées.
 
-![Onglet Critères](./media/criteria-consolidate-online.png "Onglet Critères")
+![Onglet Critère](./media/criteria-consolidate-online.png "Onglet Critère")
 
 Voici une explication des différents champs de cet onglet :
 
@@ -93,6 +93,6 @@ Sous l'onglet **Conversion de devises**, définissez l'entité juridique, le com
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-Pour plus d'informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
+Pour plus d'informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Vue d'ensemble des consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
 
 Pour plus d'informations sur les scénarios où vous pouvez générer des tableaux d'analyse consolidés, voir [Générer des tableaux d'analyse consolidés](./generating-consolidated-financial-statements.md).

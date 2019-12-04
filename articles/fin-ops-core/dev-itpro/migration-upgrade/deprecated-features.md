@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658688"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811991"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Fonctions supprimées ou abandonnées pour Finance and Operations
 
@@ -348,7 +348,7 @@ Aucune fonctionnalité n'a été supprimée ou rendue obsolète avec cette versi
 | **Statut**                         |Supprimé à partir de 15 février 2018. Cela concerne les clients exécutant Dynamics 365 for Operations 1611 et versions ultérieures.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Extension de la liste des fonctions de génération d'états électroniques (ER)
-La possibilité d'introduire des fonctions personnalisées à utiliser dans le générateur d'expression ER (pour plus d'informations, voir [Extension de la liste des fonctions de génération d'états électroniques](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) n'est plus prise en charge. En raison des modifications des API de génération d'états électroniques, l'API pour appeler les fonctions intégrées à partir du générateur d'expression ER est devenue interne et ne peut plus être étendue.
+La possibilité d'introduire des fonctions personnalisées à utiliser dans le générateur d'expression ER (pour plus d'informations, voir [Extension de la liste des fonctions de génération d'états électroniques (ER)](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) n'est plus prise en charge. En raison des modifications des API de génération d'états électroniques, l'API pour appeler les fonctions intégrées à partir du générateur d'expression ER est devenue interne et ne peut plus être étendue.
 
 |   |  |
 |------------|--------------------|
@@ -474,7 +474,7 @@ Le Portail des appareils mobiles d'entrepôt (WMDP) est un composant autonome qu
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Fonction doublon.       |
-| **Remplacé par une autre fonctionnalité ?**   | Oui. Cette fonction a été remplacée par Finance and Operations - entreposant. Pour plus d'informations sur le paramétrage et les conditions préalables, voir [Installation et configuration de Microsoft Dynamics 365 for Finance and Operations - Entreposage](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. Cette fonction a été remplacée par Finance and Operations - entreposant. Pour plus d'informations sur le paramétrage et les conditions préalables, voir [Vue d'ensemble Installer et configurer l'application Entreposage](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Zones de produit affectées**         | Gestion des entrepôts, Gestion du transport     |
 | **Option de déploiement**              | Le Portail des appareils mobiles d'entrepôt (WMDP) est un composant autonome qui a été prévu pour l'auto-déploiement local.               |
 | **Statut**                         | Obsolète : le délai cible pour la suppression de la fonctionnalité est le quatrième trimestre 2019.   |
@@ -1244,7 +1244,7 @@ Le configurateur était utilisé pour la configuration dynamique d'articles à p
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Le configurateur exposait du code X++ aux utilisateurs finaux et il n'est pas pris en charge dans la version actuelle de Dynamics AX. Il a été supprimé pour éviter les efforts de maintenance en double en matière de chevauchement et de codebases importants.  |
-| **Remplacé par une autre fonctionnalité ?**   | Oui. La configuration basée sur les contraintes a été introduite dans Dynamics AX 2012 où l'abandon du configurateur dans les prochaines versions était déjà annoncé. La technologie de configuration basée sur les contraintes est sélectionnée sur les produits génériques pour activer la configuration. Pour en savoir plus, voir [Créer un modèle de configuration de produit](../../../supply-chain/pim/build-product-configuration-model.md). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. La configuration basée sur les contraintes a été introduite dans Dynamics AX 2012 où l'abandon du configurateur dans les prochaines versions était déjà annoncé. La technologie de configuration basée sur les contraintes est sélectionnée sur les produits génériques pour activer la configuration. Pour en savoir plus, voir [Vue d'ensemble de configuration de produit](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Zones de produit affectées**         | Gestion d'informations sur les produits, Ventes et marketing  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.      |
 

@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174694"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770231"
 ---
 # <a name="public-sector-home-page"></a>Page d'accueil Secteur public
 
@@ -42,13 +42,13 @@ La fonctionnalité Secteur public permet de se conformer aux règles, aux régle
 
   Pour plus d'informations, voir les rubriques suivantes :
 
-- [Planification de la fonctionnalité Secteur public](plan-public-sector-functionality.md)
-- [Comptabilité fournisseur (Secteur public)](accounts-payable-public-sector.md)
-- [Comptabilité client (Secteur public)](accounts-receivable-public-sector.md)
-- [Budgétisation (Secteur public)](budgeting-public-sector.md)
-- [Immobilisations (Secteur public)](fixed-asset-public-sector.md)
-- [Fonctions de réglementation française](../localizations/emea-fra-public-sector-accounting.md)
-- [Comptabilité (Secteur public)](general-ledger-public-sector.md)
+- [Planifier la fonctionnalité Secteur public](plan-public-sector-functionality.md)
+- [Vue d'ensemble de la comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md)
+- [Vue d'ensemble de comptabilité client dans le secteur public](accounts-receivable-public-sector.md)
+- [Vue d'ensemble de budgétisation dans le secteur public](budgeting-public-sector.md)
+- [Immobilisations dans le secteur public](fixed-asset-public-sector.md)
+- [Comptabilité du secteur public en France](../localizations/emea-fra-public-sector-accounting.md)
+- [Vue d'ensemble de comptabilité dans le secteur public](general-ledger-public-sector.md)
 - [Approvisionnements (Secteur public)](procurement-sourcing-public-sector.md)
 - [Rôles de sécurité (Secteur public)](security-roles-public-sector.md)
 
@@ -70,7 +70,7 @@ Le tableau suivant fournit des informations sur le lien entre cette clé de conf
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Planification de la fonctionnalité Secteur public](plan-public-sector-functionality.md)
+[Planifier la fonctionnalité Secteur public](plan-public-sector-functionality.md)
 
 
 

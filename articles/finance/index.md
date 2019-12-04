@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570123"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770572"
 ---
 # <a name="financial-management-home-page"></a>Page d'accueil de la gestion financière
 
@@ -44,8 +44,8 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
         - [Gestion des dépenses](expense-management/expense-management.md)
         - [États financiers](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Immobilisations](fixed-assets/fixed-assets.md)
-        - [Comptabilité](general-ledger/general-ledger.md) 
-        - [Gestion de projets](project-management/overview-project-management-accounting.md)
+        - [Comptabilité et états financiers](general-ledger/general-ledger.md) 
+        - [Gestion et comptabilité des projets](project-management/overview-project-management-accounting.md)
         - [Secteur public](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -72,5 +72,5 @@ Les réglementations spécifiques à un pays/une région affectent le paramétra
 
 ### <a name="additional-content"></a>Contenu supplémentaire
 
-La fonctionnalité Supply Chain Management couvre des parties du processus Approvisionnement au paiement incluant la demande, la commande, la réception, la facturation et le paiement pour les biens et services achetés par votre organzation. Reportez-vous à la [!page d'accueil de Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) pour obtenir des informations sur les fonctionnalités de gestion des achats, du stock et de la fabrication. 
+La fonctionnalité Supply Chain Management couvre des parties du processus Approvisionnement au paiement incluant la demande, la commande, la réception, la facturation et le paiement pour les biens et services achetés par votre organisation. Reportez-vous à la [page d'accueil de Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) pour obtenir des informations sur les fonctionnalités de gestion des achats, du stock et de la fabrication. 
 

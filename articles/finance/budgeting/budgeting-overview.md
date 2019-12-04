@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184069"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772649"
 ---
 # <a name="budgeting-home-page"></a>Page d'accueil de la fonctionnalité de budgétisation
 
@@ -42,12 +42,12 @@ Les processus de planification stratégique à long terme et de planification bu
 
 Enfin, les organisations très mûres peuvent créer une culture organisationnelle dans laquelle les employés sont instruits des cibles organisationnelles et les poursuivent via des stratégies telles que « Envisagez une réunion en ligne plutôt qu'un déplacement ». L'application inclut une structure de contrôle budgétaire qui permet à la direction de la société de choisir un contrôle ferme (qui empêche les validations qui excéderaient le budget) ou souple (où les utilisateurs sont prévenus s'ils dépassent les fonds budgétaires disponibles et peuvent décider par eux-mêmes). Enfin, vous pouvez utiliser des prévisions à court terme. Une prévision à court terme est une comparaison régulière du budget avec les chiffres réels et elle sert à définir avec quel succès la société exploite son budget. Une prévision à court terme permet également d'identifier les tendances. Dans Finance and Operations, les prévisions à court terme sont prises en charge via un document de plan budgétaire en tant qu'activités initiales de planification. Les prévisions à court terme peuvent être effectuées parallèlement avec l'organisation du cycle budgétaire à venir.
 
--   [Budgétisation de base : vue d'ensemble et configuration](basic-budgeting-overview-configuration.md)
--   [Contrôle budgétaire : vue d'ensemble et configuration](budget-control-overview-configuration.md)
--   [Planification budgétaire : vue d'ensemble et configuration](budget-planning-overview-configuration.md)
+-   [Vue d'ensemble du budget](basic-budgeting-overview-configuration.md)
+-   [Vue d'ensemble des contrôles budgétaires](budget-control-overview-configuration.md)
+-   [Vue d'ensemble de la planification de budget](budget-planning-overview-configuration.md)
 -   [Prévision des postes](position-forecasting.md)
 -   [Documents justificatifs du plan budgétaire](budget-planning-justification-docs.md)
--   [Modèles Microsoft Excel pour la planification budgétaire](budget-planning-excel-templates.md)
+-   [Modèles de planification budgétaire pour Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Outils de budgétisation
 [![Outils de budgétisation](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653531"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815155"
 ---
 # <a name="demand-forecasting-overview"></a>Vue d'ensemble de la prévision de la demande
 
@@ -76,13 +76,13 @@ La prévision de la demande est un outil qui permet aux clients de l'industrie d
 
 [Paramétrage de la prévision de la demande](demand-forecasting-setup.md)
 
-[Génération de prévisions de base statistiques](generate-statistical-baseline-forecast.md)
+[Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md)
 
 [Effectuer des ajustements manuels sur la prévision de base](manual-adjustments-baseline-forecast.md)
 
-[Autorisation de la prévision ajustée](authorize-adjusted-forecast.md)
+[Autoriser un ajustement de la prévision de demande](authorize-adjusted-forecast.md)
 
-[Surveillance de la précision de la prévision](monitor-forecast-accuracy.md)
+[Contrôler la précision de la prévision](monitor-forecast-accuracy.md)
 
 [Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d'une prévision de la demande](remove-historical-outliers-calculating-demand-forecast.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Configurer les informations sur la société dans Microsoft Dynamics 365 Talent - Attract
+title: Configurer les informations sur la société dans Attract
 description: Cette rubrique explique comment configurer des informations sur la société et la marque pour Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551593"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833252"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>Configurer les informations sur la société dans Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>Configurer les informations sur la société dans Attract
+
+[!include [banner](includes/banner.md)]
 
 Le centre d'administrateur dans Microsoft Dynamics 365 Talent: Attract contient des paramètres de configuration, des options d'intégration, et des options de paramétrage pour l'application Attract.
 
@@ -48,11 +49,11 @@ Affectation de rôles aux utilisateurs dans votre organisation. Les rôles suiva
 
 ## <a name="template-management"></a>Gestion des modèles
 
-Un modèle de processus contient toutes les activités qui doivent être incluses dans le cadre du processus de recrutement d'une mission. Votre organisation peut autoriser tous les membres de l'équipe ou uniquement les administrateurs à créer des modèles de processus de recrutement. Pour autoriser des membres de l'équipe à créer leurs propres modèles de processus de recrutement, activez la fonctionnalité Gestion des modèles. Pour plus d'informations sur les modèles de processus, voir [Modèles de processus dans Attract](./process-templates-attract.md).
+Un modèle de processus contient toutes les activités qui doivent être incluses dans le cadre du processus de recrutement d'une mission. Votre organisation peut autoriser tous les membres de l'équipe ou uniquement les administrateurs à créer des modèles de processus de recrutement. Pour autoriser des membres de l'équipe à créer leurs propres modèles de processus de recrutement, activez la fonctionnalité Gestion des modèles. Pour plus d'informations sur les modèles de processus, voir [Créer un modèle de processus dans Attract](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>Paramètres du modèle d'e-mail
 
-Les organisations peuvent créer des modèles d'e-mails pour différents scénarios. Vous pouvez sélectionner l'image d'en-tête pour l'inclure dans les modèles d'e-mails. L'en-tête sélectionné s'affiche ensuite dans tous les modèles d'e-mails. Dans le modèle de pied de page, vous pouvez ajouter un lien vers la déclaration de confidentialité et les conditions d'utilisation de votre organisation concernant les communications. Pour plus d'informations, voir [Modèles d'e-mails dans Attract](./email-templates.md).
+Les organisations peuvent créer des modèles d'e-mails pour différents scénarios. Vous pouvez sélectionner l'image d'en-tête pour l'inclure dans les modèles d'e-mails. L'en-tête sélectionné s'affiche ensuite dans tous les modèles d'e-mails. Dans le modèle de pied de page, vous pouvez ajouter un lien vers la déclaration de confidentialité et les conditions d'utilisation de votre organisation concernant les communications. Pour plus d'informations sur les modèles, voir [Modèles d'e-mail](./email-templates.md).
 
 ## <a name="offer-process"></a>Processus d'offre
 

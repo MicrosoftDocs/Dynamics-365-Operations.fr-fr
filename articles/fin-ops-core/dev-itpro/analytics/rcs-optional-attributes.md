@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182828"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769945"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Importer les fichiers au format XML avec des attributs facultatifs
 
 Vous pouvez créer des formats de gestion des états électroniques pour analyser les documents électroniques entrants au format XML. Certains attributs des éléments XML peuvent être spécifiés comme facultatifs dans le format ER conçu. Cela vous permet de gérer correctement les fichiers entrants avec ou sans attributs XML. Vous pouvez ensuite utiliser le contenu de ces fichiers pour mettre à jour les données d'application.
 
-Pour en savoir plus sur cette fonction, suivez les étapes de la rubrique [RCS Importer les fichiers au format XML avec des attributs facultatifs](tasks/import-files-xml-format-optional-attributes.md), qui fait partie du processus métier 7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677). Vous pouvez télécharger ce guide de tâches et les fichiers exemples associés à partir du [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
+Pour en savoir plus sur cette fonction, suivez les étapes de la rubrique [(RCS) Importer les fichiers au format XML avec des attributs facultatifs](tasks/import-files-xml-format-optional-attributes.md), qui fait partie du processus métier 7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677). Vous pouvez télécharger ce guide de tâches et les fichiers exemples associés à partir du [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
 
 
 | Description du contenu       | Fichier                                                         |
@@ -36,10 +36,10 @@ Pour en savoir plus sur cette fonction, suivez les étapes de la rubrique [RCS I
 | Guide des tâches                | RCS Importer les fichiers au format XML avec des attributs facultatifs .axtr |
 
 
-Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut concevoir une configuration de format ER pour importer des fichiers au format XML contenant des attributs facultatifs. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure, [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md). Avant de commencer, chargez et enregistrez localement le fichier IncomingDocumentToLearnHowToHandleOptionalAttributes.xml à partir du centre de téléchargement Microsoft (https://go.microsoft.com/fwlink/?linkid=874684 ).
+Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut concevoir une configuration de format ER pour importer des fichiers au format XML contenant des attributs facultatifs. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de cette procédure, [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md). Avant de commencer, chargez et enregistrez localement le fichier IncomingDocumentToLearnHowToHandleOptionalAttributes.xml à partir du centre de téléchargement Microsoft (https://go.microsoft.com/fwlink/?linkid=874684 ).
 
 1. Accédez à **Administration d'organisation** > **Espaces de travail** > **États électroniques**.
-2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la rubrique [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la rubrique [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Cliquez sur **Configurations des états**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Créer une configuration de modèle de données

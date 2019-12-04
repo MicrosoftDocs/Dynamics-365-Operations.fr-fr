@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278376"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811115"
 ---
 # <a name="product-recommendations-on-pos"></a>Recommandations produit sur le PDV
 
@@ -40,13 +40,13 @@ Les recommandations de produit sont activées pour les scénarios de PDV suivant
 
 1. Sur la page **Détails de produit** :
 
-    - • Si un associé du magasin visite une page **Détails de produit** lorsque vous regardez des transactions antérieures sur différents canaux, le service de recommandation propose des éléments supplémentaires susceptibles d'être achetés ensemble.
+    - Si un associé du magasin visite une page **Détails de produit** lorsque vous regardez des transactions antérieures sur différents canaux, le service de recommandation propose des éléments supplémentaires susceptibles d'être achetés ensemble.
 
     [![Recommandations sur la page de Détails du produit](./media/proddetails.png)](./media/proddetails.png)
 
 2. Sur la page **Transaction** :
 
-    - • Le moteur de recommandation suggère des articles selon la liste entière d'articles du panier qui sont fréquemment achetés ensemble.
+    - Le moteur de recommandation suggère des articles selon la liste entière d'articles du panier qui sont fréquemment achetés ensemble.
 
     > [!NOTE]
     > Pour afficher les recommandations sur la page **Transaction**, le détaillant doit actualiser la mise en page de l'écran dans Dynamics 365 for Retail. Le contrôle **Recommandations** doit être déposé sur la page **Transaction**.
@@ -69,10 +69,12 @@ Pour paramétrer les recommandations de produit, procédez comme suit :
 
 - Accédez à **Paramètres Retail** \> **Listes de recommandation** \> **Désactiver les recommandations produit** et exécutez **Tâche de configuration globale \[9999\]**. 
 - Si vous avez ajouté le **Contrôle de recommandations** à votre écran de transaction à l'aide du **Concepteur de mise en page de l'écran**, supprimez-le également.
-- Si vous avez des questions supplémentaires, vérifiez [FAQ de recommandations](../commerce/faq-recommendations.md) pour plus d'informations.
+- Si vous avez des questions supplémentaires, vérifiez [FAQ de recommandations du produit](../commerce/faq-recommendations.md) pour plus d'informations.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Ajouter un contrôle de recommandations à la page de transaction sur un périphérique de PDV](add-recommendations-control-pos-screen.md)
-[Vue d'ensemble des recommandations de produit](../commerce/product-recommendations.md)
-[Activer les recommandations de produit](../commerce/enable-product-recommendations.md) 
+[Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV](add-recommendations-control-pos-screen.md)
+
+[Vue d'ensemble des recommandations produit](../commerce/product-recommendations.md)
+
+[Activer les recommandations produit](../commerce/enable-product-recommendations.md) 

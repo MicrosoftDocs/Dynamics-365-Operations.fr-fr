@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536845"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771562"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Page d'accueil des outils Business Intelligence (BI) et de génération d'états
 
@@ -48,7 +48,7 @@ Pour en savoir plus, consultez les rubriques suivantes :
 - [Intégration de Power BI Embedded](power-bi-embedded-integration.md)
 - [Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Aider à sécuriser des espaces de travail et des états analytiques à l'aide de Power BI Embedded](secure-analytical-workspaces.md)
-- [Contenu Power BI pour Finance and Operations](power-bi-home-page.md)
+- [Page d'accueil Contenu Power BI](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Documents commerciaux et impression
 Les solutions de génération d'états sont souvent utilisées pour capturer et communiquer les détails des transactions commerciales. Par conséquent, une solution de génération d'états doit pouvoir produire les manifestations physiques des données commerciales à l'aide de périphériques existants, tels que des imprimantes réseau. Les factures client, les relevés client et les chèques sont des exemples de documents commerciaux.
@@ -57,9 +57,9 @@ Les solutions de génération d'états sont souvent utilisées pour capturer et 
 
 Pour en savoir plus, consultez les rubriques suivantes :
 
-- [Vue d'ensemble de Document Reporting Services](document-reporting-services.md)
-- [Impression dans les applications Finance and Operations](print-documents.md)
-- [Installer l'agent d'acheminement de document pour activer les périphériques d'imprimante réseau](install-document-routing-agent.md)
+- [Documenter les services de génération d'états](document-reporting-services.md)
+- [Vue d'ensemble de l'impression de document](print-documents.md)
+- [Installer l'agent d'acheminement de document pour activer l'impression réseau](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Gestion des états électroniques
 L'outil de génération d'états électroniques vous permet de configurer des formats de document électronique conformes aux obligations légales de différents pays ou régions. Les applications de génération d'états électroniques englobent l'audit financier, la déclaration de taxe et la facturation électronique.
@@ -70,7 +70,7 @@ Pour en savoir plus, consultez les rubriques suivantes :
 
 - [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 - [Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Créer une configuration de gestion des états électroniques](electronic-reporting-configuration.md)
+- [Créer des configurations de gestion des états électroniques](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>États financiers
 Des états financiers standard sont fournis et utilisent les catégories du compte principal par défaut. Vous pouvez utiliser le concepteur d'états pour créer ou modifier des tableaux d'analyse traditionnels, comme les comptes de résultat et de bilan. Vous pouvez ensuite partager les résultats avec d'autres membres de votre organisation. Les bilans, le flux de trésorerie et la balance comptable récapitulative annuelle sont des exemples d'états financiers.
@@ -79,14 +79,14 @@ Des états financiers standard sont fournis et utilisent les catégories du comp
 
 Pour en savoir plus, consultez les rubriques suivantes :
 
-- [Génération d'états financiers pour Finance and Operations](financial-reporting-intro.md)
-- [Générer un état financier](generate-financial-report.md)
+- [États financiers](financial-reporting-intro.md)
+- [Générer les états financiers](generate-financial-report.md)
 - [Composants de l'état financier](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>États de référence technique
 Les états suivants fournissent des informations de référence sur les objets :
 
-- [État d'entités de données](../data-entities/data-entities-report.md)
+- [Rechercher des informations sur les entités de données standard](../data-entities/data-entities-report.md)
 - [État des codes licence et des clés de configuration](../sysadmin/license-codes-configuration-keys-report.md)
-- [États SQL Server Reporting Services](SSRS-report.md)
+- [États SQL Server Reporting Services (SSRS) disponibles](SSRS-report.md)
 - [État sur les types de workflow](../../fin-ops/organization-administration/workflow-types-report.md)

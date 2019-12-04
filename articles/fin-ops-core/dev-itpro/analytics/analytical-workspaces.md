@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 76564c440d52f7eae4faa704cf9010c7754c3751
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 4e466e6b1bbec0915b6fdb9b86d3b5cbb45364ad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536868"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771608"
 ---
 # <a name="analytical-workspaces"></a>Espaces de travail analytiques
 [!include[banner](../includes/banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "2536868"
 - [Contenu Power BI Gestion des coûts](cost-management-content-pack.md)
 - [Contenu Power BI Gestion des crédits et des relances](../../../finance/accounts-receivable/credit-collections-power-bi.md)
 - [Contenu Power BI Perfectionnement de l'employé](employee-development-PBI.md) 
-- [Contenu Power BI Informations financières](financial-insights.md)
-- [Contenu Power BI Performances financières](financial-performance-power-bi-content-pack.md)
-- [Contenu Power BI Gestion des immobilisations](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [Financial Insights](financial-insights.md)
+- [Solution PowerBI.com Performances financières](financial-performance-power-bi-content-pack.md)
+- [Espace de travail Gestion des immobilisations](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
 - [Contenu Power BI Apprentissage](learning-power-bi.md)
 - [Contenu Power BI Gestionnaire de pratique](practice-manager-power-bi.md)
 - [Contenu Power BI Performances de production](production-performance-power-bi.md)
 - [Contenu Power BI Analyse des dépenses et des achats](purchase-content-pack-for-power-bi.md) 
 - [Contenu Power BI Recrutement](recruiting-analysis-power-bi-content-pack.md) 
 - [Contenu Power BI Performances de rentabilité et de ventes](sales-profitability-performance-content-pack.md)
-- [Contenu Power BI Paiements fournisseur](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [Espace de travail des paiements fournisseur](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Contenu Power BI Performances d'entrepôt](warehouse-power-bi-content.md)
 - [Contenu Power BI Mesures de main d'œuvre](workforce-analysis-power-bi-content-pack.md)

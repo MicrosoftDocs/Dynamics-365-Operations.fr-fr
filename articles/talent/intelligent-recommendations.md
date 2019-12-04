@@ -1,6 +1,6 @@
 ---
-title: Recommandations intelligentes
-description: Cette rubrique explique comment le Machine Learning peut être utilisé pour fournir des recommandations pour des missions et des candidats à un poste.
+title: Recommandations intelligentes dans Attract
+description: Cet article explique comment le Machine Learning peut être utilisé pour fournir des recommandations pour des missions et des candidats à un poste dans Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741750"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832789"
 ---
-# <a name="intelligent-recommendations"></a>Recommandations intelligentes
+# <a name="intelligent-recommendations-in-attract"></a>Recommandations intelligentes dans Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Le Machine Learning peut aider les recruteurs et les responsables de l'embauche à identifier rapidement les meilleurs candidats à un poste. Il peut également créer des prospects pour trouver le poste le plus adapté à leur profil et à leurs intérêts. À mesure que ces fonctionnalités sont utilisées, et que des commentaires sont fournis, les recommandations s'amélioreront.
 
 > [!NOTE] 
 > - Les fonctionnalités de recommandation intelligente sont disponibles uniquement avec le [Module complémentaire Recrutement complet](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - La fonctionnalité décrite dans cette rubrique est accessible dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour utiliser cette fonction, demandez à un administrateur de l'activer à l'aide des **Centre d'administration** dans Attract. Définissez, **Recommandation de candidat**, **Recommandation de mission**et **Recommandation de prospect** sur **Activé**. Pour plus d'informations, voir [Accéder aux fonctions d'aperçu de Talent](./access-preview-feature.md). 
+> - La fonctionnalité décrite dans cette rubrique est accessible dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour utiliser cette fonction, demandez à un administrateur de l'activer à l'aide des **Centre d'administration** dans Attract. Définissez, **Recommandation de candidat**, **Recommandation de mission**et **Recommandation de prospect** sur **Activé**. Pour plus d'informations, voir [Accéder aux fonctions d'aperçu de Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Recommandations de candidats

@@ -16,12 +16,12 @@ ms.search.region: Switzerland
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 639e59c6fff2c0a44abd284f871d689b40106b07
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd1d9a5ea8341d5b9c81bbca7cc6061428ce7bac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175138"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773478"
 ---
 # <a name="switzerland-overview"></a>Vue d'ensemble de la Suisse
 
@@ -29,4 +29,4 @@ ms.locfileid: "2175138"
 
 Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse. 
 
-- [Importer des paiements client dans ESR](emea-che-esr-customer-payments-import.md)
+- [Importation des paiements client ESR](emea-che-esr-customer-payments-import.md)

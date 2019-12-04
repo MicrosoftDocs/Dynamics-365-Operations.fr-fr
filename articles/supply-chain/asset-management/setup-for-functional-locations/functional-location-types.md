@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 0468cb0b1717b7cf0ccb391da09a4e7d788124f3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571252"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812212"
 ---
 # <a name="functional-location-types"></a>Types de postes techniques
 
@@ -56,7 +56,7 @@ Cette procédure explique comment créer un type de poste technique par défaut 
 3. Insérez un ID de type de poste technique dans le champ **Type de poste technique** et un nom dans le champ **Nom**.
 4. Sélectionnez un modèle de cycle de vie dans le champ **Modèle de cycle de vie de poste technique**. Pour plus d'informations sur les états du cycle de vie de poste technique et les modèles de cycle de vie, reportez-vous à [États du cycle de vie du poste technique](../setup-for-functional-locations/functional-location-stages.md) .
 5. Sélectionnez « Oui » sur le bouton de basculement **Plusieurs actifs** s'il doit être possible d'installer plusieurs actifs à un poste technique à l'aide de ce type de poste technique. Si vous sélectionnez « Non », vous pouvez uniquement installer *un* actif au poste technique à l'aide de ce type de poste technique.
-6. Sélectionnez « Oui » sur le bouton de basculement **Mettre à jour la dimension de l'actif** si vous souhaitez que les actifs installés à un poste technique de ce type utilisent automatiquement les dimensions financières liées au poste technique. Cela signifie que si vous modifiez les dimensions financières de l'écran [Poste technique](../functional-locations/create-functional-locations.md), et que le poste technique utilise un type de poste technique avec ce bouton de basculement défini sur « Oui », les dimensions financières sont automatiquement mises à jour sur tous les actifs installés à ce poste technique.
+6. Sélectionnez « Oui » sur le bouton de basculement **Mettre à jour la dimension de l'actif** si vous souhaitez que les actifs installés à un poste technique de ce type utilisent automatiquement les dimensions financières liées au poste technique. Cela signifie que si vous modifiez les dimensions financières de l'écran [Créer des postes techniques](../functional-locations/create-functional-locations.md), et que le poste technique utilise un type de poste technique avec ce bouton de basculement défini sur « Oui », les dimensions financières sont automatiquement mises à jour sur tous les actifs installés à ce poste technique.
 7. Le champ **Type d'actif** est utilisé si vous souhaitez créer automatiquement *un* actif pour le poste technique avec le même ID et le même nom que le poste technique vous créez. Par exemple, cela peut être utile si vous créez un poste technique statique, tel qu'un bâtiment ou une canalisation. Dans ce cas, sélectionnez le type d'actif à utiliser pour l'actif créé automatiquement. N'oubliez pas que si vous effectuez une sélection dans ce champ, le bouton de basculement **Plusieurs actifs** doit être défini sur « Non ».
 8. Dans le raccourci **Types d'actifs**, sélectionnez les types d'actifs à associer au type de poste technique. Sélectionnez **Ajouter la ligne**, puis sélectionnez les types d'actifs. Si vous ajoutez des types d'actifs ici, seuls les actifs utilisant ces types d'actifs peuvent être installés à un poste technique utilisant ce type de poste technique. Si aucun type d'actif n'est sélectionné dans l'organisateur **Types d'actifs**, tous les types d'actifs peuvent être installés.
 9. Dans l'organisateur **Plans de maintenance**, sélectionnez les plans de maintenance à configurer automatiquement sur de nouveaux postes techniques utilisant ce type de poste technique. Sélectionnez **Ajouter la ligne**, puis sélectionnez les plans de maintenance. Si vous ajoutez des plans de maintenance ici, seuls ces plans peuvent être utilisés à un poste technique utilisant ce type de poste technique.

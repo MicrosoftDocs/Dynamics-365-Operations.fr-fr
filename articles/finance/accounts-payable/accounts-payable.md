@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658734"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772235"
 ---
 # <a name="accounts-payable-home-page"></a>Page d'accueil de la comptabilité fournisseur
 
@@ -41,7 +41,7 @@ Vous pouvez entrer des factures fournisseur manuellement ou les recevoir par voi
 
 Paramétrez des groupes de fournisseurs, des fournisseurs, des profils de validation, différentes options de paiement, des paramètres concernant les fournisseurs, des frais, des livraisons et des destinations, des billets à ordre, ainsi que d'autres types d'informations relatives à la comptabilité fournisseur. 
 
-[Configuration du module Comptabilité fournisseur](accounts-payable-overview.md)
+[Vue d'ensemble de configuration du module Comptabilité fournisseur](accounts-payable-overview.md)
 
 [Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,7 +51,7 @@ Paramétrez des groupes de fournisseurs, des fournisseurs, des profils de valida
 
 La Comptabilité fournisseur permet de suivre les factures et les dépenses sortantes à destination des fournisseurs.
 
-[Rapprochement des factures dans le module Comptabilité fournisseur](accounts-payable-invoice-matching.md)
+[Vue d'ensemble de rapprochement des factures dans le module Comptabilité fournisseur](accounts-payable-invoice-matching.md)
 
 [Profils de validation fournisseur](vendor-posting-profiles.md)
 
@@ -59,9 +59,9 @@ La Comptabilité fournisseur permet de suivre les factures et les dépenses sort
 
 [Stratégies de rapprochement à trois facteurs](three-way-matching-policies.md)
 
-[Rapprochement de factures et des commandes fournisseur intersociétés](invoice-matching-intercompany-purchase-orders.md)
+[Rapprochement de factures et commandes fournisseur intersociétés](invoice-matching-intercompany-purchase-orders.md)
 
-[Résolution des écarts lors du rapprochement des totaux de factures](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Vue d'ensemble de résolution des écarts lors du rapprochement des totaux de factures](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d'approbation de facture](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ Affectez un type de paiement défini par le système, tel que par chèque, paiem
 
 [Prélever un escompte de règlement en dehors de la période d'escompte de règlement](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Gestion des états électroniques pour les chèques fournisseur](electronic-reporting-sample-vendor-checks.md)
+[Gestion des états électroniques pour les exemples de chèques fournisseur](electronic-reporting-sample-vendor-checks.md)
 
 [Contrepasser un paiement fournisseur](reverse-vendor-payment.md)
 
-[Vue d'ensemble des acomptes et des factures d’acompte](prepayments-invoices-vs-prepayments.md)
+[Factures d'acompte et acomptes](prepayments-invoices-vs-prepayments.md)
 
 [Paiements centralisés de la comptabilité fournisseur](centralized-payments-accounts-payable.md)
 
@@ -107,13 +107,13 @@ Les rubriques suivantes fournissent des informations sur les règlements. Le rè
 
 [Configurer un règlement](../cash-bank-management/configure-settlement.md)
 
-[Régler un paiement partiel fournisseur avant la date d'escompte](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Régler un paiement fournisseur partiel avant la date de remise avec un paiement final après la date de remise](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
-[Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+[Régler un paiement fournisseur partiel ayant des remises sur les avoirs fournisseur](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Règlement d'un paiement fournisseur partiel avec plusieurs périodes de remise](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Régler un paiement fournisseur partiel ou final avant l'escompte](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Règlement d'un paiement fournisseur partiel et règlement total du paiement final avant la date de remise](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [N° de document unique avec plusieurs enregistrements client ou fournisseur](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ Les rubriques suivantes fournissent des informations sur les règlements. Le rè
 
 #### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
-Accédez au [Notes de publication de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
+Accédez au [Programmes de publication de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
 
 #### <a name="blogs"></a>Blogs
 

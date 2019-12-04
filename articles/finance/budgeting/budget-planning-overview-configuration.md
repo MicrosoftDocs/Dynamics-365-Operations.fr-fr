@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177760"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772028"
 ---
 # <a name="budget-planning-overview"></a>Vue d'ensemble de la planification de budget
 
@@ -155,7 +155,8 @@ Pour l'exemple de schéma, vous voudrez peut-être créer des colonnes pour les 
 
 Vous indiquez également si chaque élément de mise en page (colonne) est modifiable, et s'il est disponible dans n'importe quel modèle de feuille de calcul créé pour cette mise en page. Pour l'exemple de schéma, dans la mise en page utilisée pour le stade Estimation, les colonnes de prévision sont modifiables, alors que les colonnes de ventes PY et de contrats sont en lecture seule.
 
-[!Note] Par défaut, vous serez limité(e) à 36 colonnes sans que vous étendiez la planification budgétaire avec les étapes dans la rubrique [Étendre la disposition de la planification budgétaire](./extending-budget-planning-layout.md).
+> [!NOTE] 
+> Par défaut, vous serez limité(e) à 36 colonnes, sauf si vous étendez la planification budgétaire avec les étapes dans la rubrique [Étendre la disposition de la planification budgétaire](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Modèles
 

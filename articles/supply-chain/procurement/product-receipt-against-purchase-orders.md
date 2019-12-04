@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b01e7e8e79061c7a306f00f041413cc1c5185cfe
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2f39ce63b6d9d57e245fbdce27bd11a8cbc3eebf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572265"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813407"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Accusé de réception de marchandises et commandes fournisseur
 
@@ -61,9 +61,9 @@ Vous pouvez accéder à cette page à partir du groupe d'actions **Réception** 
 
 [Vue d'ensemble des commandes fournisseur](purchase-order-overview.md)
 
-[Création de commandes fournisseur](purchase-order-creation.md)
+[Créer des commandes fournisseur](purchase-order-creation.md)
 
-[Approbation et confirmation de la commande fournisseur](purchase-order-approval-confirmation.md)
+[Approuver et confirmer des commandes fournisseur](purchase-order-approval-confirmation.md)
 
 [Vue d'ensemble des factures fournisseur](../../financials/accounts-payable/vendor-invoices-overview.md)
 

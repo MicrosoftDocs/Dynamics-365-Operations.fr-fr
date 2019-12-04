@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db85db993c5368eaaa6ddfcc3dd02a2c2aa2be01
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 184a6bf9ad43280de135a326688dedd4a5f03a6f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188301"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772603"
 ---
 # <a name="letters-of-credit"></a>Lettres de crédit
 
@@ -48,7 +48,7 @@ Pour plus d'informations, voir les rubriques suivantes :
 
 [Importer une lettre de crédit](tasks/import-letter-credit.md)
 
-[Exporter une lettre de crédit](tasks/export-letter-credit.md)
+[Lettre de crédit d'exportation](tasks/export-letter-credit.md)
 
 [Créer un accord d'établissement bancaire pour une lettre de crédit](tasks/create-bank-facility-agreement-letter-credit.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571597"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811847"
 ---
 # <a name="create-an-asset"></a>Créer un actif
 
@@ -36,15 +36,15 @@ Cette rubrique décrit comment créer un actif dans le module Gestion des actifs
 1. Cliquez sur **Gestion des actifs** > **Commun** > **Actifs** > **Tous les actifs** ou **Actifs actifs**.
 2. Cliquez sur le bouton **Nouveau**.
 3. Dans la boîte de dialogue **Créer des actifs**, insérez des données relatives à l'**Actif** (l'ID d'actif) et le nom de l'actif. Sélectionnez la date et l'heure d'effectivité de l'actif dans le champ **Date d'effet**. À partir de cette date, vous pouvez installer l'actif dans un poste technique, ainsi qu'un déplacement et remplacement de l'actif dans une structure d'actif.
-4. Dans le champ **Type d'actif**, sélectionnez le type d'actif pour l'actif (champ obligatoire). Si nécessaire, sélectionnez **Fabricant d'actif** et **Modèle d'actif** pour l'actif. Si un seul produit a été paramétré, ce produit est automatiquement sélectionné dans le champ **Fabricant d'actif**. Les sélections disponibles dans les champs **Fabricant d'actif** et **Modèle d'actif** dépendent du paramétrage dans [Fabricant et modèle d'actif](../setup-for-objects/product-and-model.md).
+4. Dans le champ **Type d'actif**, sélectionnez le type d'actif pour l'actif (champ obligatoire). Si nécessaire, sélectionnez **Fabricant d'actif** et **Modèle d'actif** pour l'actif. Si un seul produit a été paramétré, ce produit est automatiquement sélectionné dans le champ **Fabricant d'actif**. Les sélections disponibles dans les champs **Fabricant d'actif** et **Modèle d'actif** dépendent du paramétrage dans [Fabricants et modèles d'actifs](../setup-for-objects/product-and-model.md).
 5. Dans le groupe **Actif des parents**, le champ **Actif** est vide par défaut. Si nécessaire, vous pouvez sélectionner un actif parent, puis tous les champs du groupe **Actif des parents** sont automatiquement complétés.
 >[!NOTE]  
->Lorsque vous sélectionnez un actif parent, deux ou trois onglets sont disponibles : L'onglet **Mes actifs** contient des actifs associés à des postes techniques dans lesquels vous (l'agent de maintenance connecté au système) pouvez être affecté(e). Si aucun poste technique n'est paramétré sur un agent de maintenance dans l'écran [Agents de maintenance](../setup-for-objects/workers-and-worker-groups.md), l'onglet **Mes actifs** ne sera pas visible. L'onglet **Actifs actifs** contient la liste de tous les actifs avec l'état de cycle de vie de l'actif « Actif ». L'onglet **Vue des actifs** affiche une arborescence des postes techniques et des actifs installés sur ces emplacements.
+>Lorsque vous sélectionnez un actif parent, deux ou trois onglets sont disponibles : L'onglet **Mes actifs** contient des actifs associés à des postes techniques dans lesquels vous (l'agent de maintenance connecté au système) pouvez être affecté(e). Si aucun poste technique n'est paramétré sur un agent de maintenance dans l'écran [Agents de maintenance et groupes d'employés](../setup-for-objects/workers-and-worker-groups.md), l'onglet **Mes actifs** ne sera pas visible. L'onglet **Actifs actifs** contient la liste de tous les actifs avec l'état de cycle de vie de l'actif « Actif ». L'onglet **Vue des actifs** affiche une arborescence des postes techniques et des actifs installés sur ces emplacements.
 
 6. Le poste technique par défaut que vous avez paramétré est proposé pour l'actif dans le groupe **Actif** > champ **Poste technique**. Sélectionnez un autre poste technique, si nécessaire.
 
 >[!NOTE]
->Après avoir créé un actif, vous pouvez l'installer sur un autre poste technique, si nécessaire. Seuls les actifs supérieurs (actifs sans actif des parents actuel) peuvent être installés sur un poste technique. Cela signifie que vous installez le niveau supérieur ainsi que tous les actifs enfants sous le poste technique sélectionné. Découvrez-en plus sur l'installation des actifs dans des postes techniques dans [Postes techniques](../functional-locations/introduction-to-functional-locations.md).
+>Après avoir créé un actif, vous pouvez l'installer sur un autre poste technique, si nécessaire. Seuls les actifs supérieurs (actifs sans actif des parents actuel) peuvent être installés sur un poste technique. Cela signifie que vous installez le niveau supérieur ainsi que tous les actifs enfants sous le poste technique sélectionné. Découvrez-en plus sur l'installation des actifs dans des postes techniques dans [Vue d'ensemble des postes techniques](../functional-locations/introduction-to-functional-locations.md).
 
 7. Cliquez sur **OK**.
 8. Sélectionnez l'actif dans la liste **Tous les actifs**, puis cliquez sur le bouton **Modifier** pour ajouter des informations à l'actif.
@@ -53,13 +53,13 @@ Cette rubrique décrit comment créer un actif dans le module Gestion des actifs
 
 Le poste technique dans lequel l'actif est regroupé est affiché dans le champ **Poste technique**. Si l'actif est un actif parent, le nombre d'enfants lié à l'actif est affiché dans le champ **Enfants**. Si l'actif est un sous-actif d'un actif existant, l'ID de l'actif des parents est affiché dans le champ **Parent**.
 
-Vous pouvez modifier les informations relatives à **Fabricant d'actif** et **Modèle d'actif** sur l'actif, qui permet de gérer des pièces détachées, des pièces détachées de remplacement, des valeurs par défaut du type de tâche. Voir [Fabricant et modèle d'actif](../setup-for-objects/product-and-model.md) pour plus d'informations. Vous pouvez également ajouter des informations sur **Année du modèle** et **Numéro de série**, si nécessaire.
+Vous pouvez modifier les informations relatives à **Fabricant d'actif** et **Modèle d'actif** sur l'actif, qui permet de gérer des pièces détachées, des pièces détachées de remplacement, des valeurs par défaut du type de tâche. Voir [Fabricants et modèles d'actifs](../setup-for-objects/product-and-model.md) pour plus d'informations. Vous pouvez également ajouter des informations sur **Année du modèle** et **Numéro de série**, si nécessaire.
 
 Le paramètre **État du cycle de vie actuel** permet de définir si l'actif est actif ou inactif. En créant un actif, le stade est toujours défini sur le premier stade du groupe de stades d'actifs. Lorsque vous êtes prêt(e) à activer un actif, cliquez sur **Mettre à jour l'état d'actif**, puis sélectionnez l'état de cycle de vie que vous avez défini comme « actif actif », puis cliquez sur **OK**.
 
 **Remarque :** Lorsqu'un actif est défini sur « inactif », il n'est plus possible de créer des ordres de travail pour l'actif. En outre, vous ne pouvez pas planifier des tâches de maintenance préventive pour un actif inactif.
 
-Les champs **Niveau de service** et **Criticalité** se rapportent aux ordres de travail créés pour l'actif Les champs affichent les nombres **Niveau de service** et **Criticalité** calculés pour le paramètre actuel de l'actif. Voir [Niveaux de service des actifs](../setup-for-objects/object-priorities.md) et [Éléments critiques des actifs](../setup-for-objects/object-criticalities.md) en considérant le paramétrage de ces valeurs.
+Les champs **Niveau de service** et **Criticalité** se rapportent aux ordres de travail créés pour l'actif Les champs affichent les nombres **Niveau de service** et **Criticalité** calculés pour le paramètre actuel de l'actif. Voir [Niveaux de service des actifs](../setup-for-objects/object-priorities.md) et [Types d'élément critique des actifs](../setup-for-objects/object-criticalities.md) en considérant le paramétrage de ces valeurs.
 
 ## <a name="asset"></a>Actif
 

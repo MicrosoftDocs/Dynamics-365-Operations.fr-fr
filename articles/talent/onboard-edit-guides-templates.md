@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552000"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812877"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Modifier les guides et les modèles d'intégration dans Dynamics 365 Talent - Onboard
 
@@ -124,7 +124,7 @@ Pour envoyer vos modifications :
 
     - Pour ajouter une vidéo YouTube, faites glisser l'élément **YouTube** vers la zone de modification, entrez un nom et une description pour l'activité, puis entrez l'URL de la vidéo YouTube.
     - Pour ajouter une présentation Sway ou un bulletin d'informations, faites glisser l'élément **Sway** vers la zone de modification, entrez un nom et une description pour l'activité, puis entrez l'URL intégrée de la présentation Sway ou du bulletin d'informations.
-    - Pour ajouter une application PowerApps, faites glisser l'élément **PowerApps** vers la zone de modification, entrez un nom et une description pour l'activité, puis sélectionnez l'application PowerApps ou entrez l'ID de l'application PowerApps.
+    - Pour ajouter une application Microsoft Power Apps, faites glisser l'élément **Power Apps** vers la zone de modification, entrez un nom et une description pour l'activité, puis sélectionnez l'application Power Apps ou entrez l'ID de l'application Power Apps.
     - Pour ajouter une vidéo Microsoft Stream, faites glisser l'élément **Microsoft Stream** vers la zone de modification, entrez un nom et une description pour l'activité, puis entrez l'URL de la vidéo Microsoft Stream.
     - Pour ajouter un formulaire Microsoft Forms, faites glisser l'élément **Microsoft Forms** vers la zone de modification, entrez un nom et une description pour l'activité, entrez l'URL du formulaire Microsoft Forms, puis spécifiez la taille de la zone d'écran.
     - Pour ajouter un iframe contenant du contenu Web, faites glisser l'élément **Contenu Web (iframe)** vers la zone de modification, entrez un nom et une description pour l'activité, entrez l'URL du contenu Web, puis spécifiez la taille de la zone d'écran.
@@ -186,6 +186,6 @@ Pour modifier une ressource, sélectionnez le bouton **Modifier** (le symbole de
 ### <a name="see-also"></a>Voir également :
 
 - [Essayer ou acheter l'application Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Nouveautés](./whats-new.md)
-- [Note de publication](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obtenir de l'aide](./talent-support.md)
+- [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md)
+- [Programmes de lancement](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obtenir de l'aide sur Microsoft Dynamics 365 Talent](./talent-support.md)

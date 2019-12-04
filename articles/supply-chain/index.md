@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 4926cd63aa360c7e08a0a435f7609017f02cb229
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653692"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814419"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Ressources d'aide pour Supply Chain Management
 
@@ -53,7 +53,7 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Pour plus d'informations sur Dynamics 365 Finance, accédez à la page [Ressources d'aide de Dynamics 365 Finance](../finance/index.md).
+Pour plus d'informations sur Dynamics 365 Finance, cliquez sur la [Page d'accueil Gestion financière](../finance/index.md).
 
 ## <a name="videos"></a>Vidéos
 

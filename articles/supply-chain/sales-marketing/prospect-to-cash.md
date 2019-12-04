@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251353"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814073"
 ---
 # <a name="prospect-to-cash"></a>Prospect en disponibilités
 
@@ -36,12 +36,12 @@ Pour en savoir plus sur l'intégration de la solution Prospect en disponibilité
 
 Dans la version actuelle, la solution Prospect en disponibilités fournit les types suivants de synchronisation directe :
 
-- [Tenir à jour les comptes dans Sales et les synchroniser directement avec Supply Chain Management](accounts-template-mapping-direct.md)
-- [Tenir à jour les produits dans Supply Chain Management et les synchroniser directement avec Sales](products-template-mapping-direct.md)
-- [Tenir à jour les contacts dans Sales et les synchroniser directement avec les contacts ou les clients dans Supply Chain Management](contacts-template-mapping-direct.md)
-- [Synchroniser directement le devis de vente provenant de Sales avec Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
-- [Synchroniser les commandes client directement entre Sales et Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-- [Synchroniser directement la facture provenant de Supply Chain Management vers Sales](sales-invoice-template-mapping-direct.md)
+- [Synchroniser directement les comptes provenant du module Sales sur les clients de Supply Chain Management](accounts-template-mapping-direct.md)
+- [Synchroniser directement les produits provenant du module Supply Chain Management sur les produits dans Sales](products-template-mapping-direct.md)
+- [Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Supply Chain Management](contacts-template-mapping-direct.md)
+- [Synchroniser les en-têtes et les lignes de devis de vente directement entre le module Sales et Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [Synchronisation des commandes client directement entre Sales et Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
+- [Synchroniser les en-têtes et les lignes de facture client directement entre le module Supply Chain Management et Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>Configuration système pour Supply Chain Management
 L'intégration de la solution Prospect en disponibilités est prise en charge dans les versions suivantes :

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a649fdbc355b3382bc6c80be03f8b37a06d5226
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5c31116ba234bd1fce445ac382fe8f8aea263a66
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177706"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769475"
 ---
 # <a name="derived-books"></a>Registres dérivés
 
@@ -44,7 +44,7 @@ Lors de sa validation, une transaction d'acquisition est générée et validée 
 > [!NOTE]                                                                                                                               
 > Les registre paramétrés pour valider les transactions à des intervalles autres que ceux du registre principal doivent être associés aux immobilisations en tant que registres distincts et non comme registres déduits.  
 
-Pour plus d'informations, voir [Validation avec des registres déduits](post-derived-value-models.md).
+Pour plus d'informations, voir [Valider avec des registres déduits](post-derived-value-models.md).
 
 
 

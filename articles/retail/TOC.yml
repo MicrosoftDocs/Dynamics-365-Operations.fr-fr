@@ -744,7 +744,7 @@
           items:
             - name: Paramétrage du canal
               items:
-                - name: Initialisation des données de départ dans de nouveaux environnement Retail
+                - name: Initialisation des données d'origine dans de nouveaux environnements Retail
                   href: enable-configure-retail-functionality.md
                 - name: Paramétrage de canaux de vente au détail
                   href: define-maintain-retail-channels.md
@@ -850,6 +850,8 @@
           items:
             - name: Vue d'ensemble de la fidélité
               href: set-up-customer-loyalty-program.md
+            - name: Vue d'ensemble de la gestion des clients
+              href: clienteling-overview.md
         - name: Paiements
           items:
             - name: Modes de paiement
@@ -980,9 +982,9 @@
               href: payment-methods-restrictions.md
             - name: Retourner des articles pour plusieurs commandes et factures client
               href: multireturn.md
-        - name: "Modern Point of Sale (MPOS) et PDV\_Cloud"
+        - name: Modern Point of Sale (MPOS) et Cloud POS
           items:
-            - name: "Choix entre MPOS et PDV\_Cloud"
+            - name: Choix entre MPOS et Cloud POS
               href: MPOS-or-CPOS.md
             - name: Opérations PDV en ligne et hors connexion
               href: pos-operations.md
@@ -1268,8 +1270,6 @@
                   href: Open-URL-in-POS.md
                 - name: Installer le concepteur de mise en page de PDV
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS en mode hors connexion
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: Étendre le mode d'affichage de POS Dual
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Extensibilité du déclencheur Retail Modern POS et Cloud POS
@@ -1292,7 +1292,7 @@
                   href: dev-itpro/pos-handler.md
                 - name: Afficher des informations sur les packages d'extension PDV
                   href: dev-itpro/view-pos-extension-package-details.md
-                - name: Tester l'enregistreur et Regression suite automation tool pour le PDV Cloud Retail
+                - name: Tester l'enregistreur et Regression Suite Automation Tool pour Retail Cloud POS
                   href: dev-itpro/pos-rsat.md
             - name: "Hardware\_Station et extensibilité"
               href: dev-itpro/hardware-station-extensibility.md
@@ -1332,6 +1332,8 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Mettre en œuvre une stratégie de retour à l'aide de déclencheurs
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Consigner les événements d'extension dans Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: Extensibilité du e-Commerce
               items:
                 - name: Configurer les magasins en ligne

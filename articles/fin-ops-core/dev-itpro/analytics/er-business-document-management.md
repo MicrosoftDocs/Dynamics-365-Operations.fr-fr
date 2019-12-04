@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: ''
+ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 05dee1efc4e817795824e3fa1c41093d48a97d78
-ms.sourcegitcommit: 219a73371638a9a4c6076d4c88b95fb2ebe95b00
+ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
+ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2652615"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "2824518"
 ---
-# <a name="business-document-management-overview"></a>Vue d'ensemble du module Gestion de document commercial
+# <a name="business-document-management-overview"></a>Vue d'ensemble de la gestion de document commercial
 
-Les utilisateurs professionnels utilisent la [structure de gestion des états électroniques (ER)](general-electronic-reporting.md) pour configurer des formats pour les documents sortants conformément aux obligations légales de différents pays/régions. Ils peuvent également définir le flux de données pour spécifier quelles données d'application placer dans les documents générés. La structure de gestion des états électroniques génère des documents sortants dans des formats Microsoft Office (des classeurs Excel ou des documents Word) à l'aide de modèles prédéfinis. Les modèles sont renseignés avec les données requises conformément au flux de données configuré pendant la génération des documents requis. Chaque format configuré peut être publié dans le cadre d'une solution de gestion des états électroniques pour générer les documents sortants spécifiques. Cela est représenté par une configuration de format ER qui peut contenir des modèles qui vous permettent de générer différents documents sortants. Les utilisateurs professionnels peuvent utiliser cette structure pour gérer les documents commerciaux requis.
+Les utilisateurs professionnels utilisent la [vue d'ensemble de la gestion des états électroniques (ER)](general-electronic-reporting.md) pour configurer des formats pour les documents sortants conformément aux obligations légales de différents pays/régions. Ils peuvent également définir le flux de données pour spécifier quelles données d'application placer dans les documents générés. La structure de gestion des états électroniques génère des documents sortants dans des formats Microsoft Office (des classeurs Excel ou des documents Word) à l'aide de modèles prédéfinis. Les modèles sont renseignés avec les données requises conformément au flux de données configuré pendant la génération des documents requis. Chaque format configuré peut être publié dans le cadre d'une solution de gestion des états électroniques pour générer les documents sortants spécifiques. Cela est représenté par une configuration de format ER qui peut contenir des modèles qui vous permettent de générer différents documents sortants. Les utilisateurs professionnels peuvent utiliser cette structure pour gérer les documents commerciaux requis.
 
 Le module **Gestion de document commercial** repose sur la structure d'ER et permet aux utilisateurs d'entreprise de modifier des modèles de documents commerciaux à l'aide du service Microsoft Office 365 ou de l'application de bureau Microsoft Office appropriée. Parmi les modifications apportées aux documents on trouve la modification des conceptions de documents commerciaux et l'ajout des espaces réservés pour les données supplémentaires sans modifier le code source ni faire de nouveaux déploiements. Aucune connaissance de la structure d'ER n'est nécessaire pour la mise à jour de modèles de documents commerciaux.
 
@@ -58,21 +59,17 @@ Les états suivants, avec des modèles Excel, seront disponibles avec le lanceme
 
 Des états supplémentaires seront disponibles. Des notifications spécifiques sur les états supplémentaires seront envoyées séparément. 
 
-La liste complète de tous les états prévus pour le lancement d'octobre 2019 figure dans [Génération d'états de documents commerciaux configurables dans Word et Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
-
-# <a name="example-enable-configure-and-use-business-document-management"></a>Exemple : activer, configurer, puis utiliser le module Gestion de document commercial
-
-Pour en savoir plus sur cette fonctionnalité, exécutez l'exemple décrit dans cette rubrique.
+La liste complète de tous les états prévus pour le lancement d'octobre 2019 figure dans [Génération d'états de documents commerciaux configurables dans Word et Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Pour en savoir plus sur cette fonctionnalité, exécutez l'exemple décrit dans cette rubrique.
 
 ## <a name="configure-er-parameters"></a>Configurer les paramètres ER
 
-Comme le module Gestion de document commercial repose sur la structure de gestion des états électroniques, vous devez configurer les paramètres des états électroniques pour commencer à utiliser ce module. Pour ce faire, vous devez définir les paramètres des états électroniques comme décrit dans [Configurer la structure ER](electronic-reporting-er-configure-parameters.md). Vous devez également ajouter un nouveau fournisseur de configuration comme décrit dans [Créer des fournisseurs de configuration et les marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Comme le module Gestion de document commercial repose sur la structure de gestion des états électroniques, vous devez configurer les paramètres des états électroniques pour commencer à utiliser ce module. Pour ce faire, vous devez définir les paramètres des états électroniques comme décrit dans [Configurer les états électroniques (ER)](electronic-reporting-er-configure-parameters.md). Vous devez également ajouter un nouveau fournisseur de configuration comme décrit dans [Créer des fournisseurs de configuration et les marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Espace de travail ER](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>Importer des solutions d'ER
 
-Vous devez importer les configurations d'ER contenant les modèles de documents commerciaux dans l'instance actuelle. Téléchargez et enregistrez localement les fichiers suivants pour exécuter cette procédure.
+Des exemples de configurations ER sont utilisés dans l'exemple de cette procédure. Vous devez importer, dans votre instance actuelle de Dynamics 365 Finance, les configurations ER contenant les modèles de document commercial qui peuvent être modifiés à l'aide de la gestion des documents commerciaux. Téléchargez et enregistrez localement les fichiers suivants pour exécuter cette procédure.
 
 **Exemple de solution de facturation de client d'ER**
 
@@ -105,7 +102,13 @@ Procédez comme suit pour importer chaque fichier. Importez la configuration de 
 
 ![Page Configurations d'ER](./media/BDM-Overview-ERSolutions.png)
 
+
+Sinon, vous pouvez importer les configurations officiellement au format ER publiées depuis Microsoft Dynamics Lifecycle Services (LCS). Par exemple, pour réexécuter cette procédure, vous pouvez importer la dernière version de la configuration de format ER **Facture financière (Excel)**. Le modèle de données de gestion des états électroniques correspondants et les configurations de mise en correspondance du modèle de gestion des états électroniques seront importés automatiquement.
+
+![Page de contenu de bibliothèque d'actifs partagés LCS](./media/BDM-Overview-SharedAssetLibrary.png)
+
 Pour plus d'informations sur l'importation des configurations d'ER, voir [Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md).
+
 
 ## <a name="enable-business-document-management"></a>Activer le module Gestion de document commercial
 
@@ -118,9 +121,12 @@ Procédez comme suit pour activer la fonctionnalité Gestion de document commerc
 3. Sélectionnez **Activer maintenant** pour activer la fonctionnalité sélectionnée.
 4. Actualisez la page pour accéder à la nouvelle fonctionnalité.
 
+>[!NOTE]
+> Également vous devez activer **Expérience d'interface utilisateur de type bureau pour la gestion des documents commerciaux** pour utiliser la nouvelle interface de gestion des documents commerciaux
+
 ![Espace de travail Gestion des fonctionnalités](./media/BDM-Overview-FMEnabling.png)
 
-Pour plus d'informations sur l'activation de nouvelles fonctionnalités, voir [Présentation de la gestion des fonctionnalités](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Pour plus d'informations sur l'activation de nouvelles fonctionnalités, voir [Présentation de la gestion des fonctionnalités](../../fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="configure-parameters"></a>Configurer les paramètres
 
@@ -137,7 +143,7 @@ Pour ce type de document, les valeurs d'attribut suivantes doivent être sélect
 | Regrouper               | Fichier                  |
 | Emplacement            | SharePoint            |
 
-Pour plus d'informations sur la définition des paramètres et des types de document requis pour le module Gestion de document commercial, voir [Configurer la gestion des documents](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management).
+Pour plus d'informations sur la définition des paramètres et des types de document requis pour le module Gestion de document commercial, voir [Configurer la gestion des documents](../../fin-ops/organization-administration/configure-document-management.md).
 
 ![Paramétrer un type de document pour la gestion des documents](./media/BDM-Overview-DMSetting.png)
 
@@ -179,21 +185,21 @@ Procédez comme suit pour configurer l'accès aux autorisations du module Gestio
 1. Connectez-vous en tant qu'utilisateur ayant accès à la page **Configurateur des autorisations d'accès**.
 2. Accédez à **Administration d'organisation** \> **Gestion des états électroniques** \> **Gestion de document commercial** \> **Gérer les autorisations d'accès**.
 
-Notez la notification vous informant que l'utilisation des autorisations d'accès pour le module Gestion de document commercial n'est pas activée actuellement.
+    Notez la notification vous informant que l'utilisation des autorisations d'accès pour le module Gestion de document commercial n'est pas activée actuellement.
 
-![Configurateur de la page des autorisations d'accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess1.png)
+    ![Configurateur de la page des autorisations d'accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess1.png)
 
-Avec ce paramètre, chaque utilisateur affecté à n'importe quel rôle de sécurité qui est configuré pour effectuer la tâche **Modèles du module Gestion de document commercial** (nom d'AOA **ERBDManageTemplates**) peut ouvrir l'espace de travail du module Gestion de document commercial et modifier n'importe quel modèle disponible.
+    Avec ce paramètre, chaque utilisateur affecté à n'importe quel rôle de sécurité qui est configuré pour effectuer la tâche **Modèles du module Gestion de document commercial** (nom d'AOA **ERBDManageTemplates**) peut ouvrir l'espace de travail du module Gestion de document commercial et modifier n'importe quel modèle disponible.
 
-L'illustration suivante indique ce qui est disponible dans l'espace de travail du module Gestion de document commercial pour les utilisateurs affectés au rôle **Commis à la comptabilité client**. Avec le paramètre des autorisations d'accès actuel, l'utilisateur peut modifier les modèles de documents commerciaux provenant de différentes zones fonctionnelles notamment la facturation, la génération d'états de réglementation, et les paiements.
+    L'illustration suivante indique ce qui est disponible dans l'espace de travail du module Gestion de document commercial pour les utilisateurs affectés au rôle **Commis à la comptabilité client**. Avec le paramètre des autorisations d'accès actuel, l'utilisateur peut modifier les modèles de documents commerciaux provenant de différentes zones fonctionnelles notamment la facturation, la génération d'états de réglementation, et les paiements.
 
-![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. Dans la page **Configurateur des autorisations d'accès**, sélectionnez **Paramètre des autorisations d'accès**.
 4. Dans la boîte de dialogue **Paramètres des autorisations d'accès pour modifier des modèles**, activez l'option **Appliquer des autorisations d'accès configurées**.
 5. Sélectionnez **OK** pour confirmer que les autorisations d'accès du module Gestion de document commercial ont été activées.
 
-![Configuration de la page des autorisations d'accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess2.png)
+    ![Configuration de la page des autorisations d'accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Sélectionnez **Ajouter** pour entrer un nouveau rôle métier pour lequel des autorisations d'accès aux modèles du module Gestion de document commercial doivent être configurées.
 7. Dans la boîte de dialogue **Rôles de sécurité**, sélectionnez le rôle **Commis à la comptabilité client**, puis sélectionnez **OK** pour confirmer la sélection du rôle.
@@ -201,11 +207,11 @@ L'illustration suivante indique ce qui est disponible dans l'espace de travail d
 9. Dans le champ **Type de balise**, sélectionnez **Zone fonctionnelle**, puis dans le champ **ID**, sélectionnez **Facturation**.
 10. Sélectionnez **Enregistrer** pour stocker les autorisations d'accès configurées pour le rôle sélectionné.
 
-  Le paramètre actuel signifie que pour tout utilisateur affecté au rôle **Commis à la comptabilité client** et assumant la responsabilité, **Modèles du module Gestion de document commercial** (nom d'AOA **ERBDManageTemplates**), les modèles de configuration au format ER ayant la valeur **Facturation** définie pour la balise **Zone fonctionnelle** pourront être modifiés dans l'espace de travail du module Gestion de document commercial.
+    Le paramètre actuel signifie que pour tout utilisateur affecté au rôle **Commis à la comptabilité client** et assumant la responsabilité, **Modèles du module Gestion de document commercial** (nom d'AOA **ERBDManageTemplates**), les modèles de configuration au format ER ayant la valeur **Facturation** définie pour la balise **Zone fonctionnelle** pourront être modifiés dans l'espace de travail du module Gestion de document commercial.
 
 11. Basculez le volet **Informations associées** à partir du côté droit de la page actuelle. Le volet **Informations associées** montre comment les autorisations d'accès configurées sont appliquées, notamment quels modèles de configuration d'ER sont disponibles pour les utilisateurs affectés au rôle de **Commis à la comptabilité client**.
 
-![Configuration de la page des autorisations d'accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Configuration de la page des autorisations d'accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. Dans l'onglet **Accéder aux autorisations par configuration**, sélectionnez l'option **Ajouter**.
 13. Dans la boîte de dialogue **Sélectionner une configuration**, marquez la configuration de format ER **État de déclaration d'échanges de biens**.
@@ -252,21 +258,31 @@ L'option **Modifier le modèle** est disponible pour le modèle sélectionné. C
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Lancer des modèles de modification détenus par d'autres fournisseurs
 
-1. Dans l'espace de travail du module Gestion de document commercial, sélectionnez le modèle **État FTI client (GER)** dans la liste.
-2. Sélectionnez l'onglet **Détails**.
+1. Dans l'espace de travail de gestion des documents commerciaux, sélectionnez **Nouveau document**.
 
-![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate3.png)
+![Page de l'espace de travail du module Gestion de document commercial](./media/BDM_overview_new_template1.png)
 
-L'option **Nouveau document** est disponible pour le modèle sélectionné. Cette option est toujours disponible pour un modèle dans une configuration de format ER fournie par un autre fournisseur (**Microsoft** dans cet exemple). Lorsque **Nouveau document** est sélectionné, un nouveau modèle peut être modifié. Le modèle modifié est ensuite stocké dans une nouvelle configuration de format ER qui est automatiquement générée.
+2. Sélectionnez le document à enregistrer comme modèle.
+
+![Page de l'espace de travail du module Gestion de document commercial](./media/BDM_overview_new_template2.png)
+
+3. Cliquez sur **Créer un document**
+4. Dans le champ **Titre**, changez le titre du modèle à modifier si nécessaire. Le texte sera utilisé pour nommer la configuration du format ER qui est automatiquement créée. Notez que la version temporaire de cette configuration (**Copie d'État FTI client (GER)**) qui contient le modèle modifié sera automatiquement marquée pour exécuter ce format ER pour l'utilisateur actuel. En même temps, le modèle d'origine non modifié de la configuration du format ER de base sera utilisé pour exécuter ce format ER pour tout autre utilisateur.
+5. Dans le champ **Nom**, modifiez le nom de la première révision du modèle modifiable qui sera créé automatiquement.
+6. Dans le champ **Commentaire**, modifiez la remarque de la révision créée automatiquement du modèle modifiable.
+7. Cliquez sur **OK** pour confirmer le début du processus de modification.
+
+![Page de l'espace de travail du module Gestion de document commercial](./media/BDM_overview_new_template3.png)
+
+L'option **Nouveau document** est toujours disponible pour un modèle dans une configuration de format ER fournie par un autre fournisseur (Microsoft dans cet exemple). Lorsque vous cliquez sur **Nouveau document**, vous voyez tous les modèles détenus par les fournisseurs actuels et autres fournisseurs. Lorsque vous sélectionnez le modèle, il sera ouvert pour modification. Le modèle modifié est ensuite stocké dans une nouvelle configuration de format ER qui est automatiquement générée.
 
 ### <a name="start-editing-a-template"></a>Commencer à modifier un modèle
 
-1. Sélectionnez **Nouveau document** dans le modèle sélectionné.
-2. Dans le champ **Titre**, changez le titre du modèle à modifier si nécessaire. Le texte sera utilisé pour nommer la configuration du format ER qui est automatiquement créée. Notez que la version temporaire de cette configuration (**Copie d'État FTI client (GER)**) qui contient le modèle modifié sera automatiquement marquée pour exécuter ce format ER pour l'utilisateur actuel. En même temps, le modèle d'origine non modifié de la configuration du format ER de base sera utilisé pour exécuter ce format ER pour tout autre utilisateur.
-3. Dans le champ **Nom**, modifiez le nom de la première révision du modèle modifiable qui sera créé automatiquement.
-4. Dans le champ **Commentaire**, modifiez la remarque de la révision créée automatiquement du modèle modifiable.
+1. Sélectionnez **Modifier document** dans le modèle sélectionné.
+2. Dans le champ **Nom**, modifiez le nom de la première révision du modèle modifiable qui sera créé automatiquement.
+3. Dans le champ **Commentaire**, modifiez la remarque de la révision créée automatiquement du modèle modifiable.
 
-![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate4.png)
+    ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM_overview_new_template4.png)
 
 5. Cliquez sur **OK** pour confirmer le début du processus de modification.
 
@@ -285,15 +301,15 @@ Modifiez le modèle à l'aide de la fonctionnalité d'Office 365. Par exemple, d
 1. Sélectionnez l'option **Ouvrir dans l'application de bureau** pour modifier le modèle à l'aide de la fonctionnalité de l'application de bureau Office (Excel dans cet exemple). Le modèle modifiable est copié de la mémoire permanente vers le stockage temporaire configuré dans les paramètres du module Gestion de document commercial en tant que dossier SharePoint.
 2. Confirmez que vous souhaitez ouvrir le modèle à partir du stockage de fichier temporaire dans l'application de bureau Office Excel.
 
-![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingLayout3.png)
+    ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingLayout3.png)
 
 3. Modifiez le modèle. Par exemple, modifiez la police des invites de champ de l'en-tête de modèle en faisant passer la couleur de **Normal** à **Bleu**.
 
-![Page de l'éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout4.png)
+    ![Page de l'éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout4.png)
 
 4. Sélectionnez **Enregistrer** dans l'application de bureau Excel pour enregistrer les modifications du modèle dans le stockage temporaire.
 
-![Page de l'éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout5.png)
+    ![Page de l'éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout5.png)
 
 5. Fermez l'application de bureau Excel.
 6. Sélectionnez **Synchroniser la copie enregistrée** pour synchroniser le stockage temporaire de modèle avec le stockage permanent de modèle.
@@ -307,7 +323,7 @@ Modifiez le modèle à l'aide de la fonctionnalité d'Office 365. Par exemple, d
 2. Sélectionnez **Afficher le format** pour afficher la structure actuelle du format à partir de la configuration du format ER de base qui doit être alignée avec le modèle pouvant être modifié. 
 3. Sélectionnez **Masquer le format** pour fermer le volet.
 
-![Page Éditeur de modèle BDM](./media/BDM-Overview-EditingTemplate6.png)
+    ![Page Éditeur de modèle BDM](./media/BDM-Overview-EditingTemplate6.png)
 
 4. Fermez la page **Éditeur de modèle BDM**.
 
@@ -323,7 +339,7 @@ Le modèle mis à jour est affiché dans l'onglet **Modèle** . Notez que le sta
 4. Sélectionnez le niveau de document **Module - Comptabilité client** \> **Documents** \> **Facture financière** \> **Document d'origine** pour spécifier la portée des factures aux fins de traitement.
 5. Dans le champ **Format de l'état**, sélectionnez le format ER **Copie d'État FTI client (GER)** pour le niveau de document spécifié.
 
-![Page Paramètre de gestion de l'impression](./media/BDM-Overview-TestRun1.png)
+    ![Page Paramètre de gestion de l'impression](./media/BDM-Overview-TestRun1.png)
 
 6. Appuyez sur **Échap** pour fermer la page actuelle.
 7. Sélectionnez **Imprimer**, puis cliquez sur **Sélectionné**.
@@ -340,9 +356,9 @@ Le modèle révisé est utilisé pour générer l'état de facture financière p
 3. Si nécessaire, dans le champ **Nom**, modifiez le nom de la deuxième révision et basez-le sur la première révision active.
 4. Si nécessaire, dans le champ **Commentaire**, modifiez la remarque de la révision créée automatiquement du modèle modifiable.
 
-![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-AddRevision.png)
+    ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-AddRevision.png)
 
-Vous avez créé une révision de votre modèle qui a été enregistrée dans le stockage du modèle permanent. Vous pouvez désormais continuer à modifier le modèle de la deuxième révision actuellement sélectionné comme actif.
+    Vous avez créé une révision de votre modèle qui a été enregistrée dans le stockage du modèle permanent. Vous pouvez désormais continuer à modifier le modèle de la deuxième révision actuellement sélectionné comme actif.
 
 5. Sélectionnez la première révision, puis sélectionnez **Activer**. Vous pouvez sélectionner une autre révision comme active si à tout moment vous souhaitez revenir à la révision du modèle.
 6. Sélectionnez la deuxième révision, puis sélectionnez **Supprimer**.
@@ -370,7 +386,7 @@ Lorsque vous modifiez le modèle provenant d'un format ER qui appartient au four
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
-#### <a name="i-selected-new-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>J'ai sélectionné **Nouveau document**, mais plutôt que d'ouvrir la page **Éditeur de modèle BDM** dans Finance and Operations, je suis arrivé sur la page Web Office 365.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>J'ai sélectionné **Modifier document**, mais plutôt que d'ouvrir la page **Éditeur de modèle BDM** dans Finance and Operations, je suis arrivé sur la page Web Office 365.
 Il s'agit d'un problème connu avec la redirection Office 365. Cela se produit lorsque vous vous connectez à Office 365 la première fois. Pour contourner ce problème, sélectionnez le bouton **Précédent** de votre navigateur pour revenir en arrière.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Je sais comment modifier un modèle à l'aide d'Office 365 dans la première session d'application et utiliser le modèle dans la deuxième session d'application en modifiant le modèle pour voir comment mes modifications affectent le document commercial généré. Puis-je effectuer cette opération à l'aide de l'application de bureau Office ?
@@ -386,12 +402,12 @@ Vous êtes probablement connecté à l'instance actuelle de l'application du dom
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques (ER)](general-electronic-reporting.md)
 
-[Concevoir une configuration pour générer des états au format OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+[ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)](tasks/er-design-reports-openxml-2016-11.md)
 
 [Créer des configurations de gestion d'états électroniques pour générer des états au format Word](tasks/er-design-configuration-word-2016-11.md)
 
 [Intégrer des images et des formes dans les documents que vous générez ER à l'aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md)
 
-[Configurer la Gestion des états électroniques pour extraire les données dans Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+[Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)

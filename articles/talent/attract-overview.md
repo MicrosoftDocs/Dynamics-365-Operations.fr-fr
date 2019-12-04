@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - Fonctionnalités Attract
+title: Fonctionnalités de Attract
 description: Cette rubrique décrit les fonctionnalités que fournit Microsoft Dynamics 365 Talent - Attract pour la gestion du processus de recrutement de nouveaux talents.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552069"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833067"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Microsoft Dynamics 365 Talent - Fonctionnalités Attract
+# <a name="attract-features-and-capabilities"></a>Fonctionnalités de Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Attract fournit un processus d'embauche prédéfini qui contient quatre étapes 
 Dès qu'ils ont été ajoutés à un poste, les candidats reçoivent un e-mail avec un lien pour obtenir l'application web. L'application fournit les détails du poste et utilisée pour communiquer avec l'équipe d'embauche. Les candidats peuvent l'utiliser pour soumettre leur disponibilité pour les entretiens.
 
 ## <a name="analytic-reports"></a>États analytiques
-Les équipes de recrutement peuvent utiliser des mesures de processus de recrutement clés de vue pour un seul poste ou des mesures globales pour tous les postes avec [les états analytiques dans Attract](analytic-reports.md). Cette fonctionnalité est actuellement dans [l'aperçu](access-preview-feature.md) pour les clients avec le [Module complémentaire Recrutement complet](attract-comprehensive-hiring.md).
+Les équipes de recrutement peuvent utiliser des mesures de processus de recrutement clés de vue pour un seul poste ou des mesures globales pour tous les postes avec [les états analytiques dans Attract](analytic-reports.md). Cette fonction est actuellement en mode [aperçu](access-preview-feature.md) pour les clients avec [Quelle version de Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).

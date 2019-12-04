@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181425"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771281"
 ---
 # <a name="generate-printable-fti-forms"></a>Générer des écrans FTI imprimables
 
@@ -41,7 +41,7 @@ Outre la capacité existante de générer des écrans FTI imprimables à l'aide 
 Dans le cadre de votre solution personnalisée pour écrans FTI imprimables, vous devez créer un ensemble de configurations de gestion des états électroniques.
 
 ### <a name="configure-the-er-data-model"></a>Configurer le modèle de données de gestion des états électroniques
-Votre application doit inclure la configuration du modèle de données de gestion des états électroniques qui contient un modèle de données qui décrit le domaine d'affaires de facturation client. Le nom du modèle de données doit être obligatoirement **CustomersInvoicing**. Pour plus d'informations sur la conception de modèles de données de gestion des états électroniques, voir [Concevoir un modèle de données spécifique au domaine pour la gestion des états électroniques](tasks/er-design-domain-specific-data-model-2016-11.md).
+Votre application doit inclure la configuration du modèle de données de gestion des états électroniques qui contient un modèle de données qui décrit le domaine d'affaires de facturation client. Le nom du modèle de données doit être obligatoirement **CustomersInvoicing**. Pour en savoir plus sur la manière de concevoir des modèles de données de gestion des états électroniques, voir [ER Concevoir un modèle de données spécifiques au domaine](tasks/er-design-domain-specific-data-model-2016-11.md).
 
 ### <a name="configure-the-er-model-mapping"></a>Configurer la mise en correspondance de modèle de gestion des états électroniques
 Votre application doit inclure la mise en correspondance de modèle de gestion des états électroniques pour le modèle de données CustomersInvoicing. La mise en correspondance de modèle peut se faire dans la configuration du modèle de données de gestion des états électroniques ou dans la configuration de mise en correspondance de modèle de gestion des états électroniques. Toutefois, le nom du descripteur racine de la mise en correspondance du modèle doit être **FreeTextInvoice**.
@@ -62,7 +62,7 @@ La mise en correspondance doit contenir les sources de données suivantes :
 
 Les détails de l'intégration d'application dans la structure de gestion des états électroniques se trouvent dans la classe **ERPrintMgmtReportFormatSubscriber** (modèle d'intégration de la suite d'applications de la gestion des états électroniques) dans le code source de l'application.
 
-Pour plus d'informations sur la conception des mises en correspondance de modèle de gestion des états électroniques, voir [Définir le mappage de modèles et sélectionner des sources de données pour la gestion des états électroniques](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Pour plus d'informations sur la conception des mises en correspondance de modèle de gestion des états électroniques, voir [Définir les mappages de modèles et sélectionner des sources de données pour la gestion des états électroniques](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ### <a name="configure-the-er-format"></a>Configurer le format de gestion des états électroniques
 Dans votre instance d'application, vous devez disposer de la configuration du format de gestion des états électroniques qui sera utilisée pour générer des écrans FTI. 
@@ -70,7 +70,7 @@ Dans votre instance d'application, vous devez disposer de la configuration du fo
 > [!NOTE]
 > Cette configuration de format doit être créée pour le modèle de données CustomersInvoicing, et elle doit utiliser la mise en correspondance de modèle avec le descripteur racine **FreeTextInvoice**.
 
-Pour plus d'informations sur la configuration des formats de gestion des états électroniques, voir [Créer une configuration de format pour la gestion des états électroniques (ER)](tasks/er-format-configuration-2016-11.md). Pour plus d'informations sur la procédure de conception des formats de gestion des états électroniques pour générer des états au format OpenXML, voir [Définir une configuration pour générer des états au format OpenXML pour la gestion des états électroniques (ER)](tasks/er-design-reports-openxml-2016-11.md).
+Pour plus d'informations sur la configuration des formats de gestion des états électroniques, voir [ER Créer une configuration de format pour la gestion des états électroniques (novembre 2016)](tasks/er-format-configuration-2016-11.md). Pour plus d'informations sur la procédure de conception des formats de gestion des états électroniques pour générer des états au format OpenXML, voir [Définir une configuration pour générer des états au format OPENXML pour la gestion des états électroniques (novembre 2016)](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="configure-print-management"></a>Configurer la gestion de l'impression
 Pour générer des écrans FTI à l'aide de la structure de gestion des états électroniques, vous pouvez affecter les formats de gestion des états électroniques de la même manière que vous affectez des états SSRS. Pour associer le format de gestion des états électroniques à tous les FTI de Comptabilité client, accédez à **Comptabilité client** \> **Paramétrage** \> **Écrans** \> **Paramétrage d'écran** \> **Général** \> **Gestion de l'impression** \> **Facture financière** \> **Original**. Pour associer le formate de gestion des états électroniques à un client ou à une facture spécifique, procédez comme suit.
@@ -221,7 +221,7 @@ L'expression **Emailing.TxtToUse.Body** de l'exemple de format est configurée p
 - « %5 » est remplacé par la fonction de la personne à contacter dans la société.
 - « %6 » est remplacé par l'adresse e-mail de la personne à contacter dans la société.
 
-![Adresse e-mail](media/FTIbyGER-Email.PNG)
+![Courrier électronique](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques (ER)](general-electronic-reporting.md)

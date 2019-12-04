@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191245"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812624"
 ---
 # <a name="before-you-buy"></a>Avant d'acheter
 
@@ -41,8 +41,8 @@ Les points suivants doivent être pris en compte lorsque vous choisissez l'optio
 
 - Besoins en matière de réglementation et de conformité qui ne sont pas disponibles dans les certifications du cloud
 - Processus d'entreprise déconnecté avec une connectivité Internet intermittente requise pour accéder à Microsoft Dynamics Lifecycle Services (LCS) pour la gestion du cycle de vie de l'application
-- [Fonctions non implémentées actuellement dans les déploiements sur site](features-not-implemented-on-prem.md)
-- [Configuration minimale de l'infrastructure requise](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Fonctions non implémentées dans les déploiements locaux](features-not-implemented-on-prem.md)
+- [Configuration requise pour les déploiements locaux](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > Les déploiements en local de Microsoft Dynamics 365 for Finance and Operations ne sont pas pris en charge dans aucune infrastructure du cloud public, notamment Azure.
@@ -78,7 +78,7 @@ Un fournisseur de solution dans le cloud Microsoft peut fonctionner étroitement
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Acheter via un partenaire Dynamics (sur site)
 
-Vous devez travailler avec un partenaire pour acheter Finance and Operations sur site. Pour plus d'informations, voir la rubrique [Acheter Dynamics 365 for Finance and Operations (en local)](purchase-on-premises.md)
+Vous devez travailler avec un partenaire pour acheter Finance and Operations sur site. Pour plus d'informations, voir [Acheter Finance + Operations (versions locales)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Choisir votre option de support
 
@@ -91,7 +91,7 @@ Plus d'informations :
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Étape quatre : Renseignez-vous sur FastTrack et planifiez votre déploiement
 
-Microsoft FastTrack for Dynamics 365 est notre service de réussite client conçu pour vous aider à passer à Dynamics 365 en douceur et en confiance, afin de réaliser la valeur métier plus rapidement. Lorsque vous participez au programme FastTrack, vous recevez des instructions sur les pratiques recommandées et le mode de planification d'un déroulement réussi. Vous apprendrez également comment activer les nouveaux utilisateurs et développer les capacités, à votre propre rythme. En outre, vous aurez accès aux ressources d'ingénierie Microsoft conçues pour faire de votre expérience avec Dynamics 365 une réussite. Plus d'informations : [Présentation de Microsoft FastTrack for Dynamics 365](fasttrack-dynamics-365-overview.md)
+Microsoft FastTrack for Dynamics 365 est notre service de réussite client conçu pour vous aider à passer à Dynamics 365 en douceur et en confiance, afin de réaliser la valeur métier plus rapidement. Lorsque vous participez au programme FastTrack, vous recevez des instructions sur les pratiques recommandées et le mode de planification d'un déroulement réussi. Vous apprendrez également comment activer les nouveaux utilisateurs et développer les capacités, à votre propre rythme. En outre, vous aurez accès aux ressources d'ingénierie Microsoft conçues pour faire de votre expérience avec Dynamics 365 une réussite. Plus d'informations : [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Si vous mettez à niveau depuis Dynamics AX 2012 ou que vous effectuez une migration depuis AX 2009
 

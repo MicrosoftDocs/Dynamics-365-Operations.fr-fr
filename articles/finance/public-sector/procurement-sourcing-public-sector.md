@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9b6c619174be34d5bd4448542e33206a9f3f864
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 70adc10cfb4ae446be9ea5d69b14f34f497168a4
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174624"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773605"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector"></a>Approvisionnements dans le secteur public
 
@@ -43,7 +43,7 @@ Avant de commencer à ajuster les paramètres et à entrer vos données, vous de
 
 Vous devez peut-être paramétrer les fonctionnalités d'approvisionnement suivantes pour les organisations du secteur public :
 
--    [Codes de commandes fournisseur du secteur public](purchase-order-codes-public-sector.md) Créez des codes et des messages spéciaux pour la confirmation des commandes fournisseur. Une commande fournisseur de confirmation permet de contourner le processus d'achat habituel.
+-    [Codes de commandes fournisseur dans le secteur public](purchase-order-codes-public-sector.md) – Créer des codes et des messages spéciaux pour la confirmation des commandes fournisseur. Une commande fournisseur de confirmation permet de contourner le processus d'achat habituel.
 
 > [!NOTE]
 > Cela s'applique également à la comptabilité fournisseur.
@@ -129,14 +129,14 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 <td>400,00</td>
 <td>750,00</td>
 <td>200,00</td>
-<td><p>1 000,00</p></td>
+<td><p>1,000.00</p></td>
 </tr>
 </tbody>
 </table>
 
 
 
-Pour plus d'informations, voir [Approvisionnements](../../supply-chain/procurement/procurement-sourcing-overview.md) et [Comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
+Pour plus d'informations, voir [Vue d'ensemble des approvisionnements](../../supply-chain/procurement/procurement-sourcing-overview.md) et [Vue d'ensemble de la comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
 
 
 

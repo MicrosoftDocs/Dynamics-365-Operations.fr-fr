@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
-ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
+ms.openlocfilehash: 10d894bb65031741a5ec8365f7f8db76b58ab334
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578482"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693110"
 ---
 # <a name="distributed-order-management-dom"></a>Gestion des commandes distribuées (DOM)
 
@@ -37,7 +37,7 @@ Un DOM optimise l'exécution des commandes sur un réseau complexe de systèmes 
 
 L'illustration suivante présente le cycle de vie d'une commande client dans un système DOM.
 
-![Cycle de vie d'une commande client dans le cadre d'un DOM](./media/flow.png "Cycle de vie d'une commande client dans le cadre d'un DOM")
+![Cycle de vie d'une commande client dans le contexte d'un DOM](./media/flow.png "Cycle de vie d'une commande client dans le contexte d'un DOM")
 
 ## <a name="set-up-dom"></a>Paramétrer DOM
 
@@ -179,7 +179,7 @@ Lors de traitement, DOM tiendra compte de la commande et des lignes de la comman
 
 Une fois que DOM a appliqué les règles, les contraintes de stock, et l'optimisation, il choisit l'emplacement qui est le plus proche de l'adresse de livraison du client.
 
-![Critères de commande client](./media/ordercriteria.png "Critères de commande client")
+![Critères d'une commande client](./media/ordercriteria.png "Critères d'une commande client")
 
 ## <a name="results-of-dom-runs"></a>Résultats des exécutions DOM
 
