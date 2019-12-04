@@ -18,38 +18,38 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177731"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771959"
 ---
-# <a name="cost-accounting-home-page"></a><span data-ttu-id="98aa9-103">Page d'accueil du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="98aa9-103">Cost accounting home page</span></span>
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="521a4-103">Page d'accueil du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="521a4-103">Cost accounting home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="learning-map"></a><span data-ttu-id="98aa9-104">Programme de formation</span><span class="sxs-lookup"><span data-stu-id="98aa9-104">Learning map</span></span> 
+## <a name="learning-map"></a><span data-ttu-id="521a4-104">Programme de formation</span><span class="sxs-lookup"><span data-stu-id="521a4-104">Learning map</span></span> 
 
-<span data-ttu-id="98aa9-105">Le programme de formation suivant montre les principaux concepts et tâches qui constituent la structure du module Contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="98aa9-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="98aa9-106">Cliquez sur les liens dans la section [Liens rapides](#quick-links) pour savoir comment utiliser le module.</span><span class="sxs-lookup"><span data-stu-id="98aa9-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
+<span data-ttu-id="521a4-105">Le programme de formation suivant montre les principaux concepts et tâches qui constituent la structure du module Contrôle de gestion.</span><span class="sxs-lookup"><span data-stu-id="521a4-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="521a4-106">Cliquez sur les liens dans la section [Liens rapides](#quick-links) pour savoir comment utiliser le module.</span><span class="sxs-lookup"><span data-stu-id="521a4-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
 
-<span data-ttu-id="98aa9-107">[![Programme de formation du contrôle de gestion](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="98aa9-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
+<span data-ttu-id="521a4-107">[![Programme de formation du contrôle de gestion](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="521a4-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
 
-## <a name="quick-links"></a><span data-ttu-id="98aa9-108">Liens rapides</span><span class="sxs-lookup"><span data-stu-id="98aa9-108">Quick links</span></span>
+## <a name="quick-links"></a><span data-ttu-id="521a4-108">Liens rapides</span><span class="sxs-lookup"><span data-stu-id="521a4-108">Quick links</span></span>
 
 |      |   |
 |------|---|
-|  <span data-ttu-id="98aa9-109">[Configurer des entités de base (eLearning)](https://mbspartner.microsoft.com/Home) (nécessite un compte CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="98aa9-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="98aa9-110">Créer des dimensions</span><span class="sxs-lookup"><span data-stu-id="98aa9-110">Create dimensions</span></span>](cost-elements.md)  |
-|  [<span data-ttu-id="98aa9-111">Créer une hiérarchie de dimensions</span><span class="sxs-lookup"><span data-stu-id="98aa9-111">Create dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="98aa9-112">Créer un paramétrage de base</span><span class="sxs-lookup"><span data-stu-id="98aa9-112">Create basic setup</span></span>](./tasks/define-cost-control-units.md)| 
-| [<span data-ttu-id="98aa9-113">Définir une base de répartition</span><span class="sxs-lookup"><span data-stu-id="98aa9-113">Define allocation base</span></span>](allocation-bases.md)|[<span data-ttu-id="98aa9-114">Définir des stratégies</span><span class="sxs-lookup"><span data-stu-id="98aa9-114">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [<span data-ttu-id="98aa9-115">Fournisseur de données et sources de données</span><span class="sxs-lookup"><span data-stu-id="98aa9-115">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="98aa9-116">Fournisseur de données et sources de données</span><span class="sxs-lookup"><span data-stu-id="98aa9-116">Data source and data provider</span></span>](./tasks/process-trace-source-data.md)     | 
-|[<span data-ttu-id="98aa9-117">Calcul des frais généraux</span><span class="sxs-lookup"><span data-stu-id="98aa9-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="98aa9-118">Analyse et génération d'états</span><span class="sxs-lookup"><span data-stu-id="98aa9-118">Analysis and reporting</span></span>](cost-control-workspace.md)   |
+|  <span data-ttu-id="521a4-109">[Configurer des entités de base (eLearning)](https://mbspartner.microsoft.com/Home) (nécessite un compte CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="521a4-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="521a4-110">Dimensions d'éléments de coût</span><span class="sxs-lookup"><span data-stu-id="521a4-110">Cost element dimensions</span></span>](cost-elements.md)  |
+|  [<span data-ttu-id="521a4-111">Hiérarchie des dimensions</span><span class="sxs-lookup"><span data-stu-id="521a4-111">Dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="521a4-112">Définir des unités de contrôle des coûts</span><span class="sxs-lookup"><span data-stu-id="521a4-112">Define cost control units</span></span>](./tasks/define-cost-control-units.md)| 
+| [<span data-ttu-id="521a4-113">Bases de répartition</span><span class="sxs-lookup"><span data-stu-id="521a4-113">Allocation bases</span></span>](allocation-bases.md)|[<span data-ttu-id="521a4-114">Créer et affecter une stratégie d'affectation des coûts à une unité de contrôle des coûts</span><span class="sxs-lookup"><span data-stu-id="521a4-114">Create and assign a cost allocation policy to a cost control unit</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [<span data-ttu-id="521a4-115">Gérer une source de données pour la comptabilité de contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="521a4-115">Manage a data source for the cost accounting ledger</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="521a4-116">Traiter et effectuer le suivi des données source</span><span class="sxs-lookup"><span data-stu-id="521a4-116">Process and trace source data</span></span>](./tasks/process-trace-source-data.md)     | 
+|[<span data-ttu-id="521a4-117">Calcul des frais généraux</span><span class="sxs-lookup"><span data-stu-id="521a4-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="521a4-118">Espace de travail de contrôle des coûts</span><span class="sxs-lookup"><span data-stu-id="521a4-118">Cost control workspace</span></span>](cost-control-workspace.md)   |
 
-## <a name="get-started-videosbr"></a><span data-ttu-id="98aa9-119">Vidéos de mise en route</span><span class="sxs-lookup"><span data-stu-id="98aa9-119">Get started videos</span></span><br/>
+## <a name="get-started-videosbr"></a><span data-ttu-id="521a4-119">Vidéos de mise en route</span><span class="sxs-lookup"><span data-stu-id="521a4-119">Get started videos</span></span><br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
-| [<span data-ttu-id="98aa9-120">Mise en route du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="98aa9-120">Get started with cost accounting</span></span>](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [<span data-ttu-id="98aa9-121">Espace de travail mobile Contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="98aa9-121">Cost accounting mobile workspace</span></span>](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [<span data-ttu-id="98aa9-122">Utiliser Excel pour l'analyse du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="98aa9-122">Use Excel for cost accounting analysis</span></span>](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+| [<span data-ttu-id="521a4-120">Mise en route du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="521a4-120">Get started with cost accounting</span></span>](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [<span data-ttu-id="521a4-121">Espace de travail mobile Contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="521a4-121">Cost accounting mobile workspace</span></span>](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [<span data-ttu-id="521a4-122">Utiliser Excel pour l'analyse du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="521a4-122">Use Excel for cost accounting analysis</span></span>](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
+
 
 

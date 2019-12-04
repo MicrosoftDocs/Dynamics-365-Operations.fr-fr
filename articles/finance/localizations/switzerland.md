@@ -16,17 +16,17 @@ ms.search.region: Switzerland
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 639e59c6fff2c0a44abd284f871d689b40106b07
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd1d9a5ea8341d5b9c81bbca7cc6061428ce7bac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175138"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773478"
 ---
-# <a name="switzerland-overview"></a><span data-ttu-id="eece9-103">Vue d'ensemble de la Suisse</span><span class="sxs-lookup"><span data-stu-id="eece9-103">Switzerland overview</span></span>
+# <a name="switzerland-overview"></a><span data-ttu-id="08eb8-103">Vue d'ensemble de la Suisse</span><span class="sxs-lookup"><span data-stu-id="08eb8-103">Switzerland overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="eece9-104">Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse.</span><span class="sxs-lookup"><span data-stu-id="eece9-104">This topic provides links to documentation resources for Switzerland.</span></span> 
+<span data-ttu-id="08eb8-104">Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse.</span><span class="sxs-lookup"><span data-stu-id="08eb8-104">This topic provides links to documentation resources for Switzerland.</span></span> 
 
-- [<span data-ttu-id="eece9-105">Importer des paiements client dans ESR</span><span class="sxs-lookup"><span data-stu-id="eece9-105">Import customer payments in ESR</span></span>](emea-che-esr-customer-payments-import.md)
+- [<span data-ttu-id="08eb8-105">Importation des paiements client ESR</span><span class="sxs-lookup"><span data-stu-id="08eb8-105">ESR customer payments import</span></span>](emea-che-esr-customer-payments-import.md)
