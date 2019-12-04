@@ -1,9 +1,9 @@
 ---
 title: Surveiller l'exécution d'une planification générale
-description: Le responsable de production veut voir si une exécution de la planification est en cours.
-author: ShylaThompson
+description: Cette rubrique explique comment le responsable de production peut vérifier si une exécution de la planification est en cours.
+author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,42 +16,115 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b923b215528ecceaed9b5057ddb736ec959f1d65
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d6e7fdd51670ea63efc04e883703f1763955115b
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845111"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781917"
 ---
-# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="c3ff6-103">Surveiller l'exécution d'une planification générale</span><span class="sxs-lookup"><span data-stu-id="c3ff6-103">Monitor a master planning run</span></span>
+# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="17bd4-103">Surveiller l'exécution d'une planification générale</span><span class="sxs-lookup"><span data-stu-id="17bd4-103">Monitor a master planning run</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="c3ff6-104">Le responsable de production veut voir si une exécution de la planification est en cours.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-104">The production planner wants to see if a master planning run is in progress.</span></span> <span data-ttu-id="c3ff6-105">Utilisez les données fictives de la société USMF pour réaliser cette procédure.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-105">Use the demo data company USMF to complete this procedure.</span></span>
+## <a name="use-a-gantt-chart-to-visualize-master-planning-progress"></a><span data-ttu-id="17bd4-104">Utiliser un diagramme de Gantt pour visualiser la progression de la planification</span><span class="sxs-lookup"><span data-stu-id="17bd4-104">Use a Gantt chart to visualize master planning progress</span></span>
 
+<span data-ttu-id="17bd4-105">Depuis la page **Afficher la progression de la planification**, vous pouvez afficher les détails des exécutions de planification historiques en tant que diagramme de Gantt.</span><span class="sxs-lookup"><span data-stu-id="17bd4-105">From the **View master planning progress** page, you can view details of historical master planning runs as a Gantt chart.</span></span> <span data-ttu-id="17bd4-106">Cette fonctionnalité peut vous aider à comprendre le temps passé aux différentes phases de la planification.</span><span class="sxs-lookup"><span data-stu-id="17bd4-106">This functionality can help you understand the time that is spent on the various phases of master planning.</span></span> <span data-ttu-id="17bd4-107">Pour une tâche de planification active actuelle, la page **Afficher la progression de la planification** peut être utilisée pour suivre la progression et afficher le temps restant estimé.</span><span class="sxs-lookup"><span data-stu-id="17bd4-107">For a current active planning job, the **View master planning progress** page can be used to track progress and view the estimated remaining time.</span></span>
 
-## <a name="run-master-planning"></a><span data-ttu-id="c3ff6-106">Exécuter la planification générale</span><span class="sxs-lookup"><span data-stu-id="c3ff6-106">Run master planning</span></span>
-1. <span data-ttu-id="c3ff6-107">Cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-107">Click Master planning.</span></span>
-    * <span data-ttu-id="c3ff6-108">Vous trouverez cela dans le tableau de bord par défaut.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-108">You'll find this on the default dashboard.</span></span>  
-2. <span data-ttu-id="c3ff6-109">Dans le champ Régime, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-109">In the Plan field, enter or select a value.</span></span>
-    * <span data-ttu-id="c3ff6-110">Exemple : StaticPlan</span><span class="sxs-lookup"><span data-stu-id="c3ff6-110">Example: StaticPlan</span></span>  
-3. <span data-ttu-id="c3ff6-111">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-111">Click Run.</span></span>
-4. <span data-ttu-id="c3ff6-112">Dans le champ Suivre la durée du traitement, sélectionnez Oui.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-112">Select Yes in the Track processing time field.</span></span>
-    * <span data-ttu-id="c3ff6-113">Si le champ est déjà sélectionné, ignorez cette étape.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-113">If the field is already selected, skip this step.</span></span>  
-5. <span data-ttu-id="c3ff6-114">Entrez un nombre dans le champ Nombre de threads.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-114">In the Number of threads field, enter a number.</span></span>
-6. <span data-ttu-id="c3ff6-115">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-115">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="c3ff6-116">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-116">Click Filter.</span></span>
-8. <span data-ttu-id="c3ff6-117">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-117">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="c3ff6-118">Marquez la ligne où Champ = Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-118">Mark the row where Field = Item number.</span></span>  
-9. <span data-ttu-id="c3ff6-119">Dans le champ Critères, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-119">In the Criteria field, enter or select a value.</span></span>
-    * <span data-ttu-id="c3ff6-120">Exemple : T0001</span><span class="sxs-lookup"><span data-stu-id="c3ff6-120">Example: T0001</span></span>  
-10. <span data-ttu-id="c3ff6-121">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-121">Click OK.</span></span>
-11. <span data-ttu-id="c3ff6-122">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-122">Click OK.</span></span>
+### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a><span data-ttu-id="17bd4-108">Activer et utiliser la fonction de visualisation de la progression du plan</span><span class="sxs-lookup"><span data-stu-id="17bd4-108">Turn on and use the Master plan progress visualization feature</span></span>
 
-## <a name="monitor-the-master-planning-run"></a><span data-ttu-id="c3ff6-123">Surveiller l'exécution d'une planification générale</span><span class="sxs-lookup"><span data-stu-id="c3ff6-123">Monitor the master planning run</span></span>
-1. <span data-ttu-id="c3ff6-124">Cliquez sur Historique.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-124">Click History.</span></span>
-2. <span data-ttu-id="c3ff6-125">Cliquez sur Recherches.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-125">Click Inquiries.</span></span>
-3. <span data-ttu-id="c3ff6-126">Cliquez sur Durée de tâche du processus.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-126">Click Process task duration.</span></span>
-4. <span data-ttu-id="c3ff6-127">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-127">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="c3ff6-128">Pour chaque article vous pouvez obtenir une vue d'ensemble de la durée nécessaire pour réaliser chaque étape de planification.</span><span class="sxs-lookup"><span data-stu-id="c3ff6-128">For each item you can get an overview of how long it took to complete each planning step.</span></span>  
+<span data-ttu-id="17bd4-109">Pour utiliser cette fonctionnalité, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="17bd4-109">To use this functionality, follow these steps.</span></span>
 
+1. <span data-ttu-id="17bd4-110">Dans l'espace de travail **Gestion des fonctionnalités**, sous l'onglet **Nouveau**, sélectionnez **Visualisation de la progression de la planification** dans la liste.</span><span class="sxs-lookup"><span data-stu-id="17bd4-110">In the **Feature management** workspace, on the **New** tab, select **Master planning progress visualization** in the list.</span></span> <span data-ttu-id="17bd4-111">Si la fonctionnalité ne s'affiche pas sur l'onglet **Nouveau**, examinez les onglets **Non activé** et **Tous**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-111">If the feature doesn't appear on the **New** tab, look on the **Not enabled** and **All** tabs.</span></span>
+1. <span data-ttu-id="17bd4-112">Sélectionnez **Activer maintenant**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-112">Select **Enable now**.</span></span> <span data-ttu-id="17bd4-113">Sinon, sélectionnez **Programme**, puis sélectionnez l'heure à laquelle vous souhaitez activer la fonctionnalité.</span><span class="sxs-lookup"><span data-stu-id="17bd4-113">Alternatively, select **Schedule**, and then select the time when you want the feature to be turned on.</span></span>
+
+<span data-ttu-id="17bd4-114">La page **Afficher la progression de la planification** peut afficher les tâches historiques de planification et les tâches actives de planification.</span><span class="sxs-lookup"><span data-stu-id="17bd4-114">The **View master planning progress** page can display both historical planning jobs and active planning jobs.</span></span> 
+
+<span data-ttu-id="17bd4-115">Pour afficher les tâches historiques de planification, il existe deux options.</span><span class="sxs-lookup"><span data-stu-id="17bd4-115">To view historical planning jobs, there are two options.</span></span> 
+
+1. <span data-ttu-id="17bd4-116">Accédez à **Planification \> Paramétrage \> Plans \> Plans généraux**, puis, dans le volet Actions, sélectionnez **Historique**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-116">Go to **Master planning \> Setup \> Plans \> Master plans**, and then, on the Action Pane, select **History**.</span></span> <span data-ttu-id="17bd4-117">Avec la tâche souhaitée est activée, sélectionnez **Recherches**, puis sélectionnez **Afficher la progression**</span><span class="sxs-lookup"><span data-stu-id="17bd4-117">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
+1. <span data-ttu-id="17bd4-118">Accédez à **Planification \> Espaces de travail \> Planification**, sur la vignette de planification cliquez sur **Historique**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-118">Go to **Master planning \> Workspaces \> Master planning**, on the Master planning tile click **History**.</span></span> <span data-ttu-id="17bd4-119">Avec la tâche souhaitée est activée, sélectionnez **Recherches**, puis sélectionnez **Afficher la progression**</span><span class="sxs-lookup"><span data-stu-id="17bd4-119">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
+
+<span data-ttu-id="17bd4-120">Pour afficher les tâches actives de planification, il existe deux options.</span><span class="sxs-lookup"><span data-stu-id="17bd4-120">To view active planning jobs, there are two options.</span></span> 
+1. <span data-ttu-id="17bd4-121">Accédez à **Planification \> Espaces de travail \> Planification**, dans le volet Actions, sélectionnez **Processus de planification non terminés**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-121">Go to **Master planning \> Workspaces \> Master planning**, on the Action Pane, select **Unfinished planning process**.</span></span> <span data-ttu-id="17bd4-122">Avec la tâche souhaitée est activée, sélectionnez **Recherches**, puis sélectionnez **Afficher la progression**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-122">With the desired job selected, select **Inquiries**,  and then select **View progress**.</span></span>
+1. <span data-ttu-id="17bd4-123">Accédez à **Planification \> Espaces de travail \> Planification**, sur la vignette de planification cliquez sur **Afficher la progression**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-123">Go to **Master planning \> Workspaces \> Master planning**, on the Master planning tile click **View progress**.</span></span> <span data-ttu-id="17bd4-124">Avec la tâche souhaitée est activée, sélectionnez **Recherches**, puis sélectionnez **Afficher la progression**</span><span class="sxs-lookup"><span data-stu-id="17bd4-124">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
+
+<span data-ttu-id="17bd4-125">Remarque : vous pouvez afficher les tâches actives uniquement lorsqu'une tâche de planification est en cours.</span><span class="sxs-lookup"><span data-stu-id="17bd4-125">Note you can view active jobs only when a planning job is processing.</span></span>
+
+### <a name="analyze-a-master-planning-job"></a><span data-ttu-id="17bd4-126">Analyser une tâche de planification</span><span class="sxs-lookup"><span data-stu-id="17bd4-126">Analyze a master planning job</span></span>
+
+<span data-ttu-id="17bd4-127">Dans le diagramme de Gantt, vous pouvez développer chacun des processus de planification suivants pour afficher des informations supplémentaires sur le temps passé :</span><span class="sxs-lookup"><span data-stu-id="17bd4-127">In the Gantt chart, you can expand each of the following planning processes to view additional details about the time that is spent:</span></span>
+
+- <span data-ttu-id="17bd4-128">Initialisation</span><span class="sxs-lookup"><span data-stu-id="17bd4-128">Initializing</span></span>
+- <span data-ttu-id="17bd4-129">Suppression et insertion de données</span><span class="sxs-lookup"><span data-stu-id="17bd4-129">Deleting and inserting data</span></span>
+- <span data-ttu-id="17bd4-130">Planification de la couverture</span><span class="sxs-lookup"><span data-stu-id="17bd4-130">Coverage planning</span></span>
+- <span data-ttu-id="17bd4-131">Retards</span><span class="sxs-lookup"><span data-stu-id="17bd4-131">Delays</span></span>
+- <span data-ttu-id="17bd4-132">Messages d’action</span><span class="sxs-lookup"><span data-stu-id="17bd4-132">Action messages</span></span>
+- <span data-ttu-id="17bd4-133">Finalisation</span><span class="sxs-lookup"><span data-stu-id="17bd4-133">Finalization</span></span>
+- <span data-ttu-id="17bd4-134">Confirmation automatique</span><span class="sxs-lookup"><span data-stu-id="17bd4-134">Auto-firming</span></span>
+
+<span data-ttu-id="17bd4-135">Le diagramme de Gantt est un outil utile si vous souhaitez afficher l'impact de l'utilisation des messages d'action.</span><span class="sxs-lookup"><span data-stu-id="17bd4-135">The Gantt chart is a useful tool if you want to view the impact of using action messages.</span></span>
+
+#### <a name="navigation-in-the-gantt-chart"></a><span data-ttu-id="17bd4-136">Navigation dans le diagramme de Gantt</span><span class="sxs-lookup"><span data-stu-id="17bd4-136">Navigation in the Gantt chart</span></span>
+
+- <span data-ttu-id="17bd4-137">Pour développer le groupe sélectionné et afficher les détails, sélectionnez le signe (**+**) dans l'arborescence.</span><span class="sxs-lookup"><span data-stu-id="17bd4-137">To expand the selected group and show the details, select the plus sign (**+**) in the tree view.</span></span>
+- <span data-ttu-id="17bd4-138">Pour réduire le groupe sélectionné, sélectionnez le signe (**-**) dans l'arborescence.</span><span class="sxs-lookup"><span data-stu-id="17bd4-138">To collapse the selected group, select the minus sign (**–**) in the tree view.</span></span>
+- <span data-ttu-id="17bd4-139">Vous pouvez utiliser le clavier pour la navigation.</span><span class="sxs-lookup"><span data-stu-id="17bd4-139">You can use your keyboard for navigation.</span></span> <span data-ttu-id="17bd4-140">Utilisez les touches **Flèche vers le haut** et **Flèche vers le bas** pour passer d'une ligne à l'autre.</span><span class="sxs-lookup"><span data-stu-id="17bd4-140">Use the **Up arrow** and **Down arrow** keys to move between rows.</span></span> <span data-ttu-id="17bd4-141">Utilisez les touches **Flèche droite** et **Flèche gauche** pour développer et réduire les groupes.</span><span class="sxs-lookup"><span data-stu-id="17bd4-141">Use the **Right arrow** and **Left arrow** keys to expand and collapse groups.</span></span>
+- <span data-ttu-id="17bd4-142">Pour ouvrir ou fermer tous les niveaux dans le diagramme de Gantt, sélectionnez **Développer tout** ou **Réduire tout**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-142">To open or close all levels in the Gantt chart, select **Expand all** or **Collapse all**.</span></span>
+- <span data-ttu-id="17bd4-143">Pour afficher le temps de traitement associé, survolez une tâche avec la souris.</span><span class="sxs-lookup"><span data-stu-id="17bd4-143">To view the related processing time, hover over a task.</span></span> <span data-ttu-id="17bd4-144">(Les tâches sont le niveau le plus bas dans le diagramme de Gantt.)</span><span class="sxs-lookup"><span data-stu-id="17bd4-144">(Tasks are the lowest level in the Gantt chart.)</span></span>
+
+#### <a name="view-an-additional-master-planning-run-to-compare-jobs"></a><span data-ttu-id="17bd4-145">Afficher une exécution supplémentaire de planification pour comparer des tâches</span><span class="sxs-lookup"><span data-stu-id="17bd4-145">View an additional master planning run to compare jobs</span></span>
+
+<span data-ttu-id="17bd4-146">En sélectionnant une tâche de planification dans le champ **Afficher une exécution de planification supplémentaire**, vous pouvez afficher une exécution supplémentaire de planification dans le diagramme de Gantt et comparer les deux tâches.</span><span class="sxs-lookup"><span data-stu-id="17bd4-146">By selecting a master planning job on field **Show additional master planning run**, you can view an additional master planning run in the Gantt chart and compare the two jobs.</span></span>
+
+#### <a name="bom-level-display"></a><span data-ttu-id="17bd4-147">Affichage au niveau de la nomenclature</span><span class="sxs-lookup"><span data-stu-id="17bd4-147">BOM-level display</span></span>
+
+<span data-ttu-id="17bd4-148">Les niveaux de nomenclature sont affichés différemment pour la planification de couverture, les retards, les actions et la confirmation.</span><span class="sxs-lookup"><span data-stu-id="17bd4-148">Bill of materials (BOM) levels are shown differently for coverage planning, delays, actions, and firming.</span></span>
+
+- <span data-ttu-id="17bd4-149">**Planification de la couverture** : les niveaux de nomenclature sont affichés comme prévu.</span><span class="sxs-lookup"><span data-stu-id="17bd4-149">**Coverage planning** – BOM levels are shown as expected.</span></span> <span data-ttu-id="17bd4-150">Ils sont calculés de haut en bas.</span><span class="sxs-lookup"><span data-stu-id="17bd4-150">They are calculated from the top down.</span></span>
+
+    <span data-ttu-id="17bd4-151">**Exemple :** niveau de nomenclature 0, 1, 2</span><span class="sxs-lookup"><span data-stu-id="17bd4-151">**Example:** BOM level 0, 1, 2</span></span>
+
+- <span data-ttu-id="17bd4-152">**Retards** : les niveaux de nomenclature sont affichés comme niveaux de nomenclature de planification de la couverture multipliés par – 1.</span><span class="sxs-lookup"><span data-stu-id="17bd4-152">**Delays** – BOM levels are shown as the coverage planning BOM levels multiplied by –1.</span></span> <span data-ttu-id="17bd4-153">(Autrement dit, ils ont un signe négatif.)</span><span class="sxs-lookup"><span data-stu-id="17bd4-153">(In other words, they have a negative sign.)</span></span>
+
+    <span data-ttu-id="17bd4-154">**Exemple :** niveau de nomenclature –2, –1, 0</span><span class="sxs-lookup"><span data-stu-id="17bd4-154">**Example:** BOM level –2, –1, 0</span></span>
+
+- <span data-ttu-id="17bd4-155">**Message d'action** : les niveaux de nomenclature sont affichés comme prévu.</span><span class="sxs-lookup"><span data-stu-id="17bd4-155">**Action message** – BOM levels are shown as expected.</span></span> <span data-ttu-id="17bd4-156">Ils sont calculés de haut en bas.</span><span class="sxs-lookup"><span data-stu-id="17bd4-156">They are calculated from the top down.</span></span>
+
+    <span data-ttu-id="17bd4-157">**Exemple :** niveau de nomenclature 0, 1, 2</span><span class="sxs-lookup"><span data-stu-id="17bd4-157">**Example:** BOM level 0, 1, 2</span></span>
+
+- <span data-ttu-id="17bd4-158">**Confirmation automatique** : les niveaux de nomenclature sont affichés comme 999 moins le niveau de nomenclature de la planification de couverture.</span><span class="sxs-lookup"><span data-stu-id="17bd4-158">**Auto-firming** – BOM levels are shown as 999 minus the coverage planning BOM level.</span></span>
+
+    <span data-ttu-id="17bd4-159">**Exemple :** niveau de nomenclature 999, 998, 997</span><span class="sxs-lookup"><span data-stu-id="17bd4-159">**Example:** BOM level 999, 998, 997</span></span>
+
+<span data-ttu-id="17bd4-160">Le tableau suivant résume le comportement.</span><span class="sxs-lookup"><span data-stu-id="17bd4-160">The following table summarizes the behavior.</span></span>
+
+| <span data-ttu-id="17bd4-161">Niveau de nomenclature qui s'affiche</span><span class="sxs-lookup"><span data-stu-id="17bd4-161">BOM level that is shown</span></span> | <span data-ttu-id="17bd4-162">Article final</span><span class="sxs-lookup"><span data-stu-id="17bd4-162">End item</span></span> | <span data-ttu-id="17bd4-163">Sous-composant</span><span class="sxs-lookup"><span data-stu-id="17bd4-163">Subcomponent</span></span> | <span data-ttu-id="17bd4-164">Matière première</span><span class="sxs-lookup"><span data-stu-id="17bd4-164">Raw material</span></span> |
+|---|---|---|---|
+| <span data-ttu-id="17bd4-165">Planification de la couverture</span><span class="sxs-lookup"><span data-stu-id="17bd4-165">Coverage planning</span></span> | <span data-ttu-id="17bd4-166">0</span><span class="sxs-lookup"><span data-stu-id="17bd4-166">0</span></span> | <span data-ttu-id="17bd4-167">1</span><span class="sxs-lookup"><span data-stu-id="17bd4-167">1</span></span> | <span data-ttu-id="17bd4-168">2</span><span class="sxs-lookup"><span data-stu-id="17bd4-168">2</span></span> |
+| <span data-ttu-id="17bd4-169">Retards</span><span class="sxs-lookup"><span data-stu-id="17bd4-169">Delays</span></span> | <span data-ttu-id="17bd4-170">0</span><span class="sxs-lookup"><span data-stu-id="17bd4-170">0</span></span> | <span data-ttu-id="17bd4-171">–1</span><span class="sxs-lookup"><span data-stu-id="17bd4-171">–1</span></span> | <span data-ttu-id="17bd4-172">–2</span><span class="sxs-lookup"><span data-stu-id="17bd4-172">–2</span></span> |
+| <span data-ttu-id="17bd4-173">Message d'action</span><span class="sxs-lookup"><span data-stu-id="17bd4-173">Action message</span></span> | <span data-ttu-id="17bd4-174">0</span><span class="sxs-lookup"><span data-stu-id="17bd4-174">0</span></span> | <span data-ttu-id="17bd4-175">1</span><span class="sxs-lookup"><span data-stu-id="17bd4-175">1</span></span> | <span data-ttu-id="17bd4-176">2</span><span class="sxs-lookup"><span data-stu-id="17bd4-176">2</span></span> |
+| <span data-ttu-id="17bd4-177">Confirmation automatique</span><span class="sxs-lookup"><span data-stu-id="17bd4-177">Auto-firming</span></span> | <span data-ttu-id="17bd4-178">999</span><span class="sxs-lookup"><span data-stu-id="17bd4-178">999</span></span> | <span data-ttu-id="17bd4-179">998</span><span class="sxs-lookup"><span data-stu-id="17bd4-179">998</span></span> | <span data-ttu-id="17bd4-180">997</span><span class="sxs-lookup"><span data-stu-id="17bd4-180">997</span></span> |
+
+#### <a name="visualize-progress"></a><span data-ttu-id="17bd4-181">Visualiser la progression</span><span class="sxs-lookup"><span data-stu-id="17bd4-181">Visualize progress</span></span>
+
+<span data-ttu-id="17bd4-182">Si vous affichez une tâche de planification en cours d'exécution, la progression est affichée en couleurs dans le diagramme de Gantt.</span><span class="sxs-lookup"><span data-stu-id="17bd4-182">If you view a master planning job that is currently running, progress is shown through colors in the Gantt chart.</span></span> <span data-ttu-id="17bd4-183">Les couleurs suivantes s'appliquent au thème bleu.</span><span class="sxs-lookup"><span data-stu-id="17bd4-183">The following colors apply to the blue theme.</span></span> <span data-ttu-id="17bd4-184">Pour d'autres thèmes de couleur, les couleurs différeront.</span><span class="sxs-lookup"><span data-stu-id="17bd4-184">For other color themes, the colors will differ.</span></span>
+
+- <span data-ttu-id="17bd4-185">**Bleu foncé** : Tâches de planification terminées.</span><span class="sxs-lookup"><span data-stu-id="17bd4-185">**Dark blue** – Completed planning tasks.</span></span>
+- <span data-ttu-id="17bd4-186">**Orange** : la tâche qui est actuellement ouverte.</span><span class="sxs-lookup"><span data-stu-id="17bd4-186">**Orange** – The task that is currently in progress.</span></span>
+- <span data-ttu-id="17bd4-187">**Bleu clair** : l'estimation pour les tâches restantes.</span><span class="sxs-lookup"><span data-stu-id="17bd4-187">**Light blue** – The estimate for remaining tasks.</span></span>
+
+<span data-ttu-id="17bd4-188">La couleur est affichée uniquement sur le niveau le plus bas dans le diagramme de Gantt.</span><span class="sxs-lookup"><span data-stu-id="17bd4-188">The color is shown only on the lowest level in the Gantt chart.</span></span> <span data-ttu-id="17bd4-189">Sélectionnez **Développer tout** pour afficher toutes les tâches dans la tâche de planification.</span><span class="sxs-lookup"><span data-stu-id="17bd4-189">Select **Expand all** to view all tasks in the master planning job.</span></span> <span data-ttu-id="17bd4-190">L'estimation des tâches restantes est basée sur des tâches historiques de planification.</span><span class="sxs-lookup"><span data-stu-id="17bd4-190">The estimate of remaining tasks is based on historical master planning jobs.</span></span>
+
+## <a name="run-master-planning-and-track-processing-time"></a><span data-ttu-id="17bd4-191">Exécuter la planification et suivre le temps de traitement</span><span class="sxs-lookup"><span data-stu-id="17bd4-191">Run master planning and track processing time</span></span>
+
+1. <span data-ttu-id="17bd4-192">Dans le tableau de bord par défaut, sélectionnez **Planification**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-192">On the default dashboard, select **Master planning**.</span></span>
+1. <span data-ttu-id="17bd4-193">Dans le champ **Plan**, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="17bd4-193">In the **Plan** field, enter or select a value.</span></span>
+1. <span data-ttu-id="17bd4-194">Sélectionnez **Exécuter**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-194">Select **Run**.</span></span>
+1. <span data-ttu-id="17bd4-195">Définissez l'option **Suivre le temps de traitement** sur **Oui**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-195">Set the **Track processing time** option to **Yes**.</span></span>
+1. <span data-ttu-id="17bd4-196">Entrez un nombre dans le champ **Nombre de threads**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-196">In the **Number of threads** field, enter a number.</span></span>
+1. <span data-ttu-id="17bd4-197">Dans l'organisateur **Enregistrements à inclure**, sélectionnez **Filtre**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-197">On the **Records to include** FastTab, select **Filter**.</span></span>
+1. <span data-ttu-id="17bd4-198">Dans la grille, sélectionnez la ligne où le champ **Champ** est défini sur **Numéro d’article**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-198">In the grid, select the row where the **Field** field is set to **Item number**.</span></span>
+1. <span data-ttu-id="17bd4-199">Dans le champ **Critère**, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="17bd4-199">In the **Criteria** field, enter a value.</span></span>
+1. <span data-ttu-id="17bd4-200">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-200">Select **OK**.</span></span>
