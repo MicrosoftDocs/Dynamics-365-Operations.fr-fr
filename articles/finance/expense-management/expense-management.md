@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d62e3475b4336e86e203bbd347d110704eba07
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7066a021390e3403c4312a7cfe8488a989b9aaa3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177723"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771936"
 ---
 # <a name="expense-management-overview"></a>Vue d'ensemble de la gestion des dépenses
 
@@ -37,7 +37,7 @@ Pour plus d'informations, voir [Configurer la gestion des dépenses](plan-expens
 
 ### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
-Pour découvrir les nouvelles fonctions qui sont en cours de développement, consultez les [Notes de publication de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158).
+Pour découvrir les nouvelles fonctions qui sont en cours de développement, consultez les [Plans de publication de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158).
 
 #### <a name="expense-report-entry"></a>Saisie de l'état de dépenses
 
@@ -51,7 +51,7 @@ Vous trouverez des avis, des actualités et d'autres informations concernant le 
 
 Le [blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
 
-### <a name="task-guides"></a>Guides de tâches
+### <a name="task-guides"></a>Guides de tâche
 
 Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, sélectionnez le bouton **Aide** de n'importe quelle page.
 

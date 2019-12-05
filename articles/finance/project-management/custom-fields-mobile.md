@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 4343c875da05641c57b7784bf52f1c814dd26d20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174857"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773643"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Mettre en œuvre des champs personnalisés pour l'application mobile Microsoft Dynamics 365 Project Timesheet sur IOS et Android
 
@@ -321,13 +321,9 @@ Voici une capture d'écran de l'application mobile d'un utilisateur affichant un
 
 ![Commande Afficher plus de détails](media/show-more.png)
 
-
-
 Voici une capture d'écran de l'application mobile affichant la section « Plus » d'une feuille de temps. Un champ personnalisé appelé « Taux d'utilisation de cette feuille de temps (champ personnalisé calculé) » a été ajouté dans la section d'en-tête de feuille de temps. Une valeur en lecture seule de « 0,667 » est définie dans le champ personnalisé.
 
 ![Section Plus](media/more-section.jpg)
-
-
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Étendre la table TSTimesheetTable afin qu'elle dispose d'un champ personnalisé
 

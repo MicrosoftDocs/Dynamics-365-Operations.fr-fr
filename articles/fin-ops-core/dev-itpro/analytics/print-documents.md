@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c8475e26d9a2234d4c429ef1b5e482ac06fde08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182897"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772556"
 ---
 # <a name="document-printing-overview"></a>Vue d'ensemble de l'impression de document
 
@@ -58,7 +58,7 @@ Comme la solution varie, selon le scénario, les applications fournissent des se
 Outre la plateforme déployée dans l'abonnement Azure, les applications Finances and Operations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l'impression de documents.
 
 ## <a name="service-overview"></a>Vue d'ensemble du service
-Pendant que les documents qui sont produits par les applications hébergées attendent d'être imprimés sur un périphérique réseau connecté, ils sont stockés dans le stockage des objets blobs Azure. L'[Agent d'acheminement de document](install-document-routing-agent.md) utilise l'authentification Azure pour établir un canal sécurisé vers les services Azure.
+Pendant que les documents qui sont produits par les applications hébergées attendent d'être imprimés sur un périphérique réseau connecté, ils sont stockés dans le stockage des objets blobs Azure. L'option [Installer l'agent d'acheminement de document pour activer l'impression réseau](install-document-routing-agent.md) utilise l'authentification Azure pour établir un canal sécurisé vers les services Azure.
 
 **Séquence d'exécution**
 

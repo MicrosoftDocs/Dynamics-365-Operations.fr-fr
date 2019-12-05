@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a21241cf13e7fa4ba7c0ee57876b8cce6a4f1c2c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 24a51347cc4b7a80d9de1b71a20792422d05bada
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183646"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773607"
 ---
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 
@@ -34,7 +34,7 @@ Cette rubrique décrit l'utilisation de la page d'analyse de budget pour affiche
 
 Cette rubrique décrit la fonctionnalité d'analyse budgétaire pour le secteur public. 
 
-Avant de lire cette rubrique, vous devez également lire [Budgétisation dans le secteur public](budgeting-public-sector.md). 
+Avant de lire cette rubrique, vous devez également lire [Vue d'ensemble de budgétisation dans le secteur public](budgeting-public-sector.md). 
 
 Il est possible que vous deviez paramétrer les fonctionnalités de budgétisation suivantes pour le secteur public : La page **Analyse budgétaire** permet d'afficher les produits et les dépenses publiés par dimension financière, à l'aide d'une combinaison de données comptables et de contrôle budgétaire. Vous pouvez afficher les montants et les détails de transaction récapitulés pour les budgets révisés, les dépenses réelles, les engagements et les engagements préalables. 
 

@@ -1,6 +1,6 @@
 ---
-title: Créer, approuver et signer des offres
-description: Cette rubrique explique comment créer, approuver, et signer une offre pour un candidat à l'aide de Dynamics 365 Talent.
+title: Créer, approuver et signer des offres dans Attract
+description: Cette rubrique explique comment créer, approuver, et signer une offre pour un candidat à l'aide de Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: acc484ea57ce13d8a7c48a0ca7a2aa8723558dc9
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: dee545b6ca5d2791dea6609b4e1b25eba128f8b7
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551047"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832905"
 ---
-# <a name="create-approve-and-sign-offers"></a>Créer, approuver et signer des offres
+# <a name="create-approve-and-sign-offers-in-attract"></a>Créer, approuver et signer des offres dans Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dans de nombreux cas, la préparation d'un package d'offre pour un candidat doit être un processus très rapide.
 L'utilisation de modèles configurés par l'administrateur Attract permet aux créateurs d'offres de préparer et d'envoyer rapidement et facilement des offres à un candidat.

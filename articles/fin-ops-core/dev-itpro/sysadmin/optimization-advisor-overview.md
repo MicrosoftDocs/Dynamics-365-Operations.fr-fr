@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191406"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811968"
 ---
 # <a name="optimization-advisor-overview"></a>Vue d'ensemble du conseiller en optimisation
 
@@ -38,7 +38,7 @@ La configuration et le paramétrage incorrects d'un module peuvent compromettre 
 
 L'espace de travail **Conseiller en optimisation** est un outil qui permet aux utilisateurs avancés, aux analystes d'entreprise, aux consultants fonctionnels et au support informatique d'identifier les problèmes liés à la configuration du module et aux données d'entreprise. Le conseiller en optimisation suggère les pratiques recommandées pour la configuration du module et identifie les données d'entreprise obsolètes ou incorrectes.
 
-Le conseiller en optimisation exécute périodiquement un ensemble de règles de recommandation. Un ensemble de règles est disponible, toutefois, les utilisateurs peuvent également créer des règles spécifiques à leurs personnalisations, aux solutions des éditeurs de logiciels indépendants (ISV) et aux données d'entreprise. Pour plus d'informations sur la création de règles, voir [Créer des règles](./create-rules-optimization-advisor.md).
+Le conseiller en optimisation exécute périodiquement un ensemble de règles de recommandation. Un ensemble de règles est disponible, toutefois, les utilisateurs peuvent également créer des règles spécifiques à leurs personnalisations, aux solutions des éditeurs de logiciels indépendants (ISV) et aux données d'entreprise. Pour plus d'informations sur la création de règles, voir [Créer des règles pour le conseiller en optimisation](./create-rules-optimization-advisor.md).
 
 Lorsqu'une violation d'une règle est détectée, une opportunité d'optimisation est générée et apparaît dans l'espace de travail **Conseiller en optimisation**. Un utilisateur peut prendre les mesures correctives appropriées directement dans l'espace de travail **Conseiller en optimisation**.
 
@@ -92,6 +92,6 @@ Pour désactiver l'évaluation de règles spécifiques, sélectionnez l'opportun
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Créer des règles](./create-rules-optimization-advisor.md)
+[Créer des règles pour le conseiller en optimisation](./create-rules-optimization-advisor.md)
 
 [Conseiller en optimisation dans Dynamics 365 for Finance and Operations (vidéo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

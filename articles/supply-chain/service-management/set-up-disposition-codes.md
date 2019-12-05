@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e21854825019a73dc8d7bf5a3ee18d508123f72
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: a85f804344abec37d85e1ce15f064c8a0b901546
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743185"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813107"
 ---
 # <a name="set-up-disposition-codes"></a>Paramétrer les codes disposition 
 
@@ -46,7 +46,7 @@ Vous pouvez également paramétrer un code motif pour expliquer la raison pour l
 
 ## <a name="see-also"></a>Voir également :
 
-[Codes disposition et codes motif de retour](disposition-and-return-reason-codes.md)
+[Vue d'ensemble des retours client](disposition-and-return-reason-codes.md)
 
 [Codes disposition (écran)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 

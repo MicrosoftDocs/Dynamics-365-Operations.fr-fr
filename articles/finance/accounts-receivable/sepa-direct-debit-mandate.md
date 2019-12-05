@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45cabc7d263299763b6ee457063c96cdf384eeeb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aba265e69bde9a9c194147d6ee6a806e9b2bd7c2
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189014"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772120"
 ---
 # <a name="set-up-sepa-direct-debit-mandate"></a>Paramétrer un mandat de débit direct SEPA
 
@@ -50,7 +50,7 @@ Le tableau suivant indique la configuration requise qui doit être en place avan
 
 Ressources supplémentaires
 
-[Vue d'ensemble du débit direct](sepa-direct-debit-overview.md) 
+[Vue d'ensemble du débit direct SEPA](sepa-direct-debit-overview.md) 
 
 [Créer un mandat de débit direct pour un client](tasks/create-direct-debit-mandate-customer.md) 
 

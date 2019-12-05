@@ -3,7 +3,7 @@ title: Traitement des produits en poids variable avec la gestion des entrepôts
 description: Cette rubrique décrit comment utiliser les modèles de travail et les instructions d'emplacement afin de déterminer de quelle manière et où effectuer le travail dans l'entrepôt.
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887133"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696637"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
@@ -181,7 +181,7 @@ Actuellement, la fonctionnalité pour les balises en poids variable est prise en
 - Lors du traitement d'un statut de stock modifié à l'aide de l'application de l'entrepôt.
 - Lors du transfert en entrepôt à l'aide de l'application d'entrepôt.
 - Lors du traitement des ajustements entrants et sortants via l'application d'entrepôt.
-- Lors du traitement de la tâche de prélèvement pour les commandes clients et les ordres de transfert. (Sachez que les balises en poids variable ne peuvent pas être enregistrées pour le prélèvement des composants de production.)
+- Lors du traitement de la tâche de prélèvement pour les lignes de vente, de transfert et de production.
 - Une fois les quantités prélevées réduites des lignes de chargement, peu importe si des conteneurs sont utilisés.
 - Lorsque les produits sont conditionnés en conteneurs dans une station de conditionnement.
 - Lorsque les conteneurs sont réouverts.

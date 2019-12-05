@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58f5e61024444b45d2a7e4ed3ecfeb6d971331f8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 66b311a02238aae5c08f71c64c751444cb187410
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183660"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770401"
 ---
 # <a name="form-1099-in-the-public-sector"></a>Écran 1099 dans le secteur public
 
@@ -55,7 +55,7 @@ Vous pouvez également utiliser la page **Règlement fournisseur pour les décla
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Comptabilité fournisseur (Secteur public)](../public-sector/accounts-payable-public-sector.md)
+[Vue d'ensemble de la comptabilité fournisseur dans le secteur public](../public-sector/accounts-payable-public-sector.md)
 
 
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: fa2772db63332319c399999bd5f747b2ac729d9e
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: fb5073fe8db0b51c4ea378cac57097e15e88bf83
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653273"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814050"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Synchroniser directement les en-têtes et les lignes de facture client entre Finance and Operations et Sales
 
@@ -40,7 +40,7 @@ La solution Prospect en disponibilités utilise la fonction d'intégration de do
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
-Pour accéder à des modèles disponibles, ouvrez [Centre d'administrateur PowerApps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
+Pour accéder à des modèles disponibles, ouvrez [Centre d'administrateur Power Apps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
 
 Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les en-têtes et lignes de facture entre Supply Chain Management et Sales :
 
@@ -137,4 +137,4 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 [Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Synchroniser les en-têtes et les lignes de commande client directement entre le module Supply Chain Management et Sales](sales-order-template-mapping-direct-two-ways.md)
+[Synchronisation des commandes client directement entre Sales et Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)

@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 0b0be541416d2e4be78da223ec8e95c195d90bbc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742667"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832631"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Suivre les modifications apportées aux données de recrutement
+
+[!include [banner](includes/banner.md)]
 
 Vous pouvez suivre les modifications apportées aux candidats, aux postes à pourvoir ou aux candidatures à un poste à l'aide du traitement d'audit. Cette fonctionnalité est utile pour des raisons de génération d'états ou de conformité.
 
@@ -31,7 +33,7 @@ Vous pouvez afficher les données suivies dans Power BI à l'aide de connecteur 
 ## <a name="track-changes"></a>Suivi des modifications
 Pour paramétrer le suivi des modifications des données de recrutement, procédez comme suit :
 
-1. Dans [PowerApps](https://web.powerapps.com), sélectionnez l'environnement approprié.
+1. Dans [Power Apps](https://web.powerapps.com), sélectionnez l'environnement approprié.
 
 2. Sélectionnez **Paramètres** (l'icône d'engrenages), choisissez **Personnalisations avancées**, puis sélectionnez **Ressources** sous **Ressources du développeur**. 
 

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550855"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772385"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Intégration des données en quasi temps réel avec Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Dans le monde numérique actuel, les écosystèmes commerciaux utilisent les applications Microsoft Dynamics 365 dans son ensemble. Comme les données des personnes, des clients, des opérations et de l'Internet des objets (IoT) arrivent dans une seule source, il existe une possibilité de boucles de rétroaction numérique. Pour obtenir cette expérience, l'intégration entre les applications Finance and Operations et d'autres applications Dynamics 365 est vital. Certaines applications reposent sur Common Data Service. L'intégration entre les données des applications Finance and Operations avec Common Data Service permet aux autres applications de communiquer avec cohérence et de manière fluide avec Finance and Operations.
 
@@ -38,13 +36,16 @@ Les applications Finance and Operations et Common Data Service fournissent la sy
 
 ![Diagramme de vue d'ensemble de l'architecture](media/dual-write-overview.jpg)
 
-Les propositions de valeur suivantes sont disponibles pour les clients :
+Les propositions de valeur suivantes sont disponibles :
 
 + [Hiérarchie d'organisation dans Common Data Service](dual-write-organization.md)
 + [Concept de société dans Common Data Service](dual-write-company.md)
 + [Données principales client intégrées](dual-write-customer.md)
++ [Comptabilité intégrée](dual-write-ledger.md)
++ [Expérience produit uniformisée](dual-write-product.md)
 + [Données principales fournisseur intégrées](dual-write-vendor.md)
-+ Produit générique unifié
++ [Sites et entrepôts intégrés](dual-write-sites-and-warehouses.md)
++ [Données principales relatives aux taxes intégrées](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>Configuration requise
 

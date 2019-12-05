@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248926"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813360"
 ---
 # <a name="purchase-agreements"></a>Contrats d'achat
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Cet article fournit des informations sur les contrats d'achat. Un contrat d'achat est un contrat par lequel une organisation s'engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l'acheteur a droit à des prix spéciaux et des remises. 
 
@@ -80,6 +81,9 @@ Lorsque vous créez un CF, vous pouvez y appliquer un contrat d'achat. Les infor
 Vous pouvez sélectionner un contrat d'achat uniquement lorsque vous créez un CF. Vous ne pouvez pas sélectionner de contrat d'achat une fois que la CF est créée.  
 Dans certains cas où les commandes fournisseur sont créées indirectement, vous pouvez contrôler si Supply Chain Management doit lancer une recherche automatique des contrats d'achat applicables. Par exemple, vous pouvez procéder ainsi lorsque vous confirmez automatiquement des commandes fournisseur prévisionnelles ou lorsque vous créez des commandes fournisseur basées sur les commandes client.
 
+## <a name="matching-policy-on-purchase-agreements"></a>Stratégie de rapprochement sur les contrats d'achat
+Vous pouvez définir une stratégie de rapprochement des lignes sur l'en-tête du contrat d'achat. Cette stratégie de rapprochement des lignes respectera la stratégie de rapprochement des lignes des paramètres de comptabilité fournisseur lorsque le champ **Autoriser le remplacement de la stratégie de rapprochement** sur la page **Paramètres de comptabilité fournisseur** (sous l'organisateur **Prix et correspondance de quantité** ) est défini sur **Supérieur à la stratégie de la société**. Les documents qui référencent le contrat d'achat utilisent la stratégie de rapprochement des lignes définie sous l'en-tête du contrat d'achat sauf si défini sur l'article correspondant, l'article et le fournisseur ou la stratégie d'achat de catégorie.
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contrats d'achat et suivi intersociétés
 Les relations commerciales intersociétés peuvent être créées entre les comptes fournisseur et les comptes client appartenant à différentes entités juridiques. Lorsqu'une commande client ou une commande fournisseur est créée pour une des parties, une chaîne de commandes intersociétés est créée. Dans la chaîne de commande, la commande client et la commande fournisseur sont créées dans les entités juridiques appropriées.  
 
@@ -93,9 +97,9 @@ Vous pouvez copier les dimensions financières vers des en-têtes de document ou
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Créer un contrat d'achat (guide de tâche)](tasks/create-purchase-agreement.md)
+[Créer un contrat d'achat](tasks/create-purchase-agreement.md)
 
-[Création d'un ordre de lancement d'achat à partir d'un contrat d'achat (guide de tâche)](tasks/create-purchase-release-order-purchase-agreement.md)
+[Créer un ordre de lancement d'achat à partir d'un contrat d'achat](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

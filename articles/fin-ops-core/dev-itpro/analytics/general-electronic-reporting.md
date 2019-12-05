@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578239"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771071"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d'ensemble des états électroniques (ER)
 
@@ -71,7 +71,7 @@ Un mappage de modèle qui prend en charge les documents électroniques sortants 
 
 - Il peut utiliser les différents types de données comme sources de données pour un modèle de données. Par exemple, il peut utiliser des enums, des entités de données, des méthodes ou des tables.
 - Il prend en charge les paramètres d'entrée utilisateur qui peuvent être définies comme sources de données pour un modèle de données lorsque certaines données doivent être spécifiées au moment de l'exécution.
-- Il prend en charge la transformation des données en groupes requis. Il permet également de filtrer, de trier et d'ajouter des données, ainsi que des champs calculés logiques qui sont conçus via les formules qui sont semblables aux formules de Microsoft Excel. Pour plus d'informations, voir [Concepteur de formule dans les états électroniques](general-electronic-reporting-formula-designer.md).
+- Il prend en charge la transformation des données en groupes requis. Il permet également de filtrer, de trier et d'ajouter des données, ainsi que des champs calculés logiques qui sont conçus via les formules qui sont semblables aux formules de Microsoft Excel. Pour plus d'informations, voir [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)).
 
 
 Un mappage de modèle qui prend en charge les documents électroniques entrants a les fonctionnalités suivantes :
@@ -362,5 +362,5 @@ ER vous permet d'adopter automatiquement les modifications de la version la plus
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Exigences de localisation – créer une configuration de génération d'états électroniques](electronic-reporting-configuration.md)
-- [Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Créer des configurations de gestion des états électroniques](electronic-reporting-configuration.md)
+- [Gérer le cycle de vie de la configuration des états électroniques (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)

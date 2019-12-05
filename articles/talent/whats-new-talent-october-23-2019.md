@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662663"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772894"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (23 octobre 2019)
 
@@ -47,7 +47,7 @@ Pour plus d'informations, voir [Nouveautés ou modifications dans les applicatio
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Permet de supprimer la fonctionnalité d'aperçu d'inscription en cours aux avantages
 
-Conjointement à notre annonce dans Investissements stratégiques de la publication de blog d'excellence opérationnelle optimisée par Core HR, Microsoft supprime la fonctionnalité d'inscription en cours aux avantages de la version préliminaire publique le 18 octobre 2019. Au lieu de cela, la nouvelle fonctionnalité est lancée à l'avenir. L'utilisation de production de la fonctionnalité d'inscription en cours aux avantages actuellement en version préliminaire publique ne sera pas prise en charge.
+Conjointement à notre annonce dans la publication de blog [Investissements stratégiques dans Core HR optimisent l'excellence opérationnelle](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence), Microsoft supprime la fonctionnalité d'inscription en cours aux avantages de la version préliminaire publique le 18 octobre 2019. Au lieu de cela, la nouvelle fonctionnalité est lancée à l'avenir. L'utilisation de production de la fonctionnalité d'inscription en cours aux avantages actuellement en version préliminaire publique ne sera pas prise en charge.
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Erreur lors de la sélection du pays/de la région sur l'écran Collaborateur une seconde fois (350294)
 
@@ -69,7 +69,7 @@ Avec la version de cette semaine, l'ajout d'une nouvelle valeur de liste à un c
 
 Avec cette version, seuls les conditions d'emploi des employés sélectionnés s'afficheront dans Excel. Toute la sécurité de la société est également respectée.
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>L'association entre l'entité Congés du calendrier de travail et l'entité Calendrier de travail est manquante dans Common Data Service - (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>L'association entre l'entité Congés du calendrier de travail et l'entité Calendrier de travail est manquante dans Common Data Service (324178)
 
 Cette relation a été ajoutée au lancement. Cette modification permet aux jours ouvrables d'un employé de s'afficher dans PowerApps. 
 

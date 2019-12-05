@@ -1,5 +1,5 @@
 ---
-title: Identifier des candidats avec les viviers de talents dans Microsoft Dynamics 365 Talent - Attract
+title: Identifier des candidats avec les viviers de talents dans Attract
 description: Cette rubrique explique comment créer et paramétrer des viviers de talents dans Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551116"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833020"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Identifier des candidats avec les viviers de talents dans Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Identifier des candidats avec les viviers de talents dans Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 Les recruteurs et responsables de l'embauche peuvent organiser leurs candidats à l'aide de la fonctionnalité Vivier de talents dans Attract. Les viviers de talents peuvent vous aider à suivre et à embaucher tous les candidats qui postulent pour un poste dans votre société.
 
@@ -116,7 +115,7 @@ Tous les utilisateurs ont un point de vue commun des profils de candidats. L'ong
 
     Pour afficher un document, sélectionnez le nom du document dans la liste des documents. Vous pouvez afficher les documents Microsoft Word dans l'application à l'aide de Microsoft Office 365. Vous pouvez également télécharger les documents sur votre ordinateur local à l'aide de l'option **Télécharger** pour chaque document.
 
-- L'onglet **LinkedIn** affiche les informations LinkedIn du candidat. Pour utiliser cet onglet, vous devez connecter votre compte LinkedIn dans les paramètres utilisateur, et la connexion à LinkedIn Recruiter de votre environnement doit être établie. Pour plus d'informations, voir [Approvisionnement avec LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- L'onglet **LinkedIn** affiche les informations LinkedIn du candidat. Pour utiliser cet onglet, vous devez connecter votre compte LinkedIn dans les paramètres utilisateur, et la connexion à LinkedIn Recruiter de votre environnement doit être établie. Pour plus d'informations, voir [Identifier des candidats avec LinkedIn Recruiter dans Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Seuls les candidats peuvent actualiser leurs qualifications, leur historique de formation et leur expérience professionnelle.

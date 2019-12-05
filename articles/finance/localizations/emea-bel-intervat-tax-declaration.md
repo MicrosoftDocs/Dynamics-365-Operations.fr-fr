@@ -17,12 +17,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: bb6a2b664caaf71211d4fe28c8bb18ee90c684cf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e427599c3d52788458d4399769aabfa48aeb0731
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175762"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772861"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -45,15 +45,12 @@ Le tableau suivant indique les conditions préalables qui doivent être configur
 |Configuration| Codes déclaration de taxe|Paramétrez les codes de déclaration de taxe dans la page <strong>Codes déclaration de taxe</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Taxe</strong> &gt; <strong>SCodes déclaration de taxe</strong>). Les codes de déclaration de taxe pour lesquels la case à cocher <strong>Correction de taxe</strong> est activée sont disponibles à la sélection dans la page <strong>Zones d'état de taxes supplémentaires</strong> (cliquez sur <strong>Corrections de taxe</strong> &gt; <strong>Ajustements</strong>). Un exemple de codes de déclaration de taxe est inclus plus loin dans cette rubrique.|
 |Configuration| Codes taxe|Complétez les champs sous les onglets <strong>État</strong> et <strong>État - Avoir</strong> de la page <strong>Codes taxe</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Taxes indirectes</strong> &gt; <strong>Codes taxe</strong>). Sélectionnez les valeurs de la table <strong>Codes déclaration de taxe</strong>. |
 |Configuration| Paramétrage INTERVAT|Créez des éléments pour INTERVAT dans la page <strong>Paramétrage INTERVAT</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Taxe</strong> &gt; <strong>Paramétrage INTERVAT</strong>). INTERVAT permet de compléter les déclarations fiscales électroniques en Belgique. Les informations que vous entrez dans cette page sont utilisées lorsque vous cliquez sur <strong>Ouvrir le site Web</strong> dans la page <strong>Déclaration de taxe INTERVAT</strong>. Vous devez créer un élément pour chaque langue et pour le programme utilisé pour naviguer sur les sites Web. Complétez les champs suivants : Langue, Description, URL.
-|Configuration| Numéro identifiant TVA|Créez des numéros identifiant TVA pour les contreparties dans la page <strong>Numéros identifiant TVA</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Taxe</strong> &gt; <strong>Numéros identifiant TVA</strong>). Pour chaque numéro identifiant TVA, créez un enregistrement dans la page, puis spécifiez les informations suivantes :|
-|     |                  |Pays/Région</strong> Sélectionnez le pays ou la région de l'enregistrement de taxe du compte de contrepartie.|
-|     |                  |Numéro identifiant TVA</strong> Entrez le numéro identifiant TVA du compte de contrepartie.|
-|     |                  |Nom de la société</strong> (Facultatif) Entrez le nom de la contrepartie.|
+|Configuration| Numéro identifiant TVA|Créez des numéros identifiant TVA pour les contreparties dans la page <strong>Numéros identifiant TVA</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Taxe</strong> &gt; <strong>Numéros identifiant TVA</strong>). Pour chaque numéro identifiant TVA, créez un enregistrement dans la page, puis spécifiez les informations suivantes : <ul><li>**Pays/Région** : Sélectionnez le pays ou la région de l'enregistrement de taxe du compte de contrepartie.</li> <li>**Numéro identifiant TVA** : Entrez le numéro identifiant TVA du compte de contrepartie.</li> <li>**Nom de la société** : (Facultatif) Entrez le nom de la contrepartie. </li></ul> |
 |Configuration|Paramètres de commerce extérieur|Configurez les paramètres de commerce extérieur sous l'onglet <strong>Propriétés de pays/région</strong> de la page <strong><strong>Paramètres de commerce extérieur</strong></strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Commerce extérieur</strong> &gt; <strong>Paramètres de commerce extérieur</strong>). |
 |Configuration|Configuration de la déclaration de taxe INTERVAT|Configurez le modèle et le format de Gestion des états électroniques (ER) pour l'état. Voir la section &quot;Configurer le modèle et le format de Gestion des états électroniques pour l'état&quot; plus loin dans cette rubrique. Pour plus d'informations sur la création et la maintenance des configurations ER, consultez la documentation ER.|
 
 
-Pour plus d'informations sur le paramétrage des déclarations de fin, voir [Déclarations de TVA (EU)](emea-vat-reporting.md).
+Pour plus d'informations sur le paramétrage des déclarations de fin, voir [Déclarations de TVA pour l'Europe](emea-vat-reporting.md).
 
 ### <a name="example-setup-of-sales-tax-reporting-codes"></a>Exemple : Paramétrer des codes déclaration de taxe
 

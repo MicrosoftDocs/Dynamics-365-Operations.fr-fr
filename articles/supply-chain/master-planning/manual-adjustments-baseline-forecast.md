@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250712"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815132"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
 
@@ -66,7 +66,7 @@ La page **Détails de prévision de la demande** affiche les informations suivan
 -   Les nouvelles valeurs de prévision de la demande et les montants des ajustements manuels.
 -   L'intervalle de confiance pour les valeurs prévues.
 -   Le modèle de prévision utilisé pour générer la prévision. Si vous affichez les données agrégées, vous verrez la liste de toutes les méthodes qui ont été utilisées pour toutes les séries chronologiques agrégées.
--   La précision du modèle interne (MAPE). Pour plus d'informations sur la précision de la prévision, voir [Surveillance de la précision de la prévision](monitor-forecast-accuracy.md).
+-   La précision du modèle interne (MAPE). Pour plus d'informations sur la précision de la prévision, voir [Surveiller la précision de la prévision](monitor-forecast-accuracy.md).
 
 **Remarques :**
 
@@ -78,9 +78,9 @@ Vous pouvez également effectuer des ajustements manuels de la prévision dans l
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Surveillance de la précision de la prévision](monitor-forecast-accuracy.md)
+[Contrôler la précision de la prévision](monitor-forecast-accuracy.md)
 
-[Génération de prévisions de base statistiques](generate-statistical-baseline-forecast.md)
+[Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md)
 
 
 

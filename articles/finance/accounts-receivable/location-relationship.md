@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550507"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770894"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Ajouter un emplacement et des types de relations de partie 
 
@@ -41,7 +41,7 @@ Vous pouvez ajouter un nouveau rôle d'emplacement pour les informations d'adres
 
     1.  Créez une extension à l'énumération **LogisticsLocationRoleType** et ajoutez le nouveau rôle dans l'extension. 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![Extension à l'énumération LogisticsLocationRoleType](media/Logistics.PNG)
 
     2. Créez un fichier de ressource pour le nouveau rôle, puis affectez une valeur pour ses propriétés.
      
@@ -69,7 +69,7 @@ Vous pouvez ajouter un nouveau type de relation de deux manières :
 
     2. Créez un initialiseur pour ce nouveau type. Vous trouverez plusieurs exemples dans le code principal, l'un d'eux est **DirRelationshipTypeChildInitialize**. Il s'agit d'une classe d'initialiseur pour le type de relation de partie « Enfant ». Vous pouvez commencer par votre initialiseur en copiant-collant ce code et en mettant à jour les zones en surbrillance.
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![Initialiseur DirRelationshipChild](media/DirRelationship.PNG)
 
     3.  Pour tester le remplissage du nouveau type de relation, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertDirRelationshipTypes() dans Main(). Le nouveau type de relation doit s'afficher dans la table **DirRelationshipTypeTable**, et il est disponible sur la page **Types de relations**.
 

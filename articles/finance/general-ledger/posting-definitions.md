@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76bae24a975c922ea49ee2584e87cf43ccca61c7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177672"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770595"
 ---
 # <a name="posting-definitions"></a>Définitions de validation
 
@@ -59,6 +59,6 @@ Les restrictions suivantes s'appliquent lorsque vous créez des liens dans les d
 -   Vous pouvez affecter une définition de validation à n'importe quel type de transaction, mais ce dernier doit appartenir au même module que la définition de validation. Utilisez la page **Définitions de validation de transaction** pour afficher dans quel module se trouve un type de transaction.
 
 
-Pour plus d'informations, voir [Exemples de définitions de validation](example-posting-definitions.md). 
+Pour plus d'informations, voir [Exemples de définition de validation](example-posting-definitions.md). 
 
 

@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551470"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832975"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>Résoudre les problèmes d'intégration avec LinkedIn et Microsoft Dynamics 365 Talent - Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Utilisez les informations suivantes pour résoudre les problèmes susceptibles de se produire lorsque vous voulez publier des offres d'emploi dans LinkedIn à partir de Microsoft Dynamics 365 Talent: Attract.
 
@@ -42,18 +42,18 @@ Si vous rencontrez des problèmes lors de la connexion à LinkedIn à partir d'A
 
 Si votre offre n'apparaît pas dans LinkedIn au bout de 24 heures, procédez comme suit :
 
-1. Assurez-vous que votre identifiant de société LinkedIn correspond bien à la page de la société LinkedIn et qu'il est correctement entré dans le centre d'administration Attract. Pour plus d'informations sur la modification des paramètres LinkedIn dans le centre d'administration, voir [Paramétrer l'intégration avec LinkedIn](attract-admin-linkedin.md). Pour plus d'informations sur les identifiants de société LinkedIn, voir [Associer votre identifiant de société LinkedIn à la carte d'emploi LinkedIn – Foire aux questions](https://www.linkedin.com/help/linkedin/answer/98972).
+1. Assurez-vous que votre identifiant de société LinkedIn correspond bien à la page de la société LinkedIn et qu'il est correctement entré dans le centre d'administration Attract. Pour plus d'informations sur la modification des paramètres LinkedIn dans le centre d'administration, voir [Paramétrer l'intégration avec LinkedIn pour Microsoft Dynamics 365 Talent - Attract](attract-admin-linkedin.md). Pour plus d'informations sur les identifiants de société LinkedIn, voir [Associer votre identifiant de société LinkedIn à la carte d'emploi LinkedIn – Foire aux questions](https://www.linkedin.com/help/linkedin/answer/98972).
 2. Vérifiez les détails du poste dans LinkedIn pour vous assurer que l'adresse est complète. Pour publier correctement une offre d'emploi, vous devez au moins indiquer la ville et le pays du poste dans LinkedIn.
 3. Assurez-vous que l'offre d'emploi ne fasse pas doublon avec une autre offre publiée sur LinkedIn. LinkedIn ne va pas publier d'offres d'emploi qui font doublon avec d'autres Job Slots Premium LinkedIn ou d'autres Offres d'emploi limitées d'une autre source. Vérifiez qu'une autre personne de votre société n'a pas déjà publié l'offre d'emploi manuellement.
 
 ## <a name="see-also"></a>Voir également :
 
-[FAQ LinkedIn](./attract-linkedin-faq.md)
+[Intégration d'Attract avec la FAQ LinkedIn](./attract-linkedin-faq.md)
 
-[Publier des postes sur LinkedIn à partir de Attract](./attract-post-jobs-to-linkedin.md)
+[Publier des postes sur LinkedIn à partir de Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Identifier des candidats avec LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Identifier des candidats avec LinkedIn Recruiter dans Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Créer des postes](./creating-jobs-attract.md)
+[Créer, approuver et publier des postes dans Attract](./creating-jobs-attract.md)
 
-[Résoudre les problèmes d'intégration avec LinkedIn](./attract-troubleshoot-linkedin.md)
+[Résoudre les problèmes d'intégration avec LinkedIn et Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

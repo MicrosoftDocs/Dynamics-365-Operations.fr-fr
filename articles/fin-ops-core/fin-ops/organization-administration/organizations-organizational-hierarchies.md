@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a13223fb1034e5902061788cd9ea9cec55d69dc7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190049"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812384"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Vue d'ensemble des organisations et des hiérarchies d'organisation
 
@@ -67,4 +67,4 @@ Paramétrez des hiérarchies organisationnelles pour afficher et créer des éta
 
 Un objet est affecté à chaque hiérarchie. L'objet d'une hiérarchie détermine les types d'organisations pouvant être inclus dans la hiérarchie. L'objet définit également dans quels scénarios d'application la hiérarchie peut être utilisée.
 
-Les organisations d'une hiérarchie peuvent partager des paramètres, des stratégies et des transactions. Une organisation peut hériter des paramètres de son organisation parent ou les remplacer. Cependant, les données principales partagées, telle que les produits et les carnets d'adresses, s'appliquent à l'ensemble de l'organisation et ne peuvent pas être remplacées pour les organisations individuelles. La création d'organisations et de hiérarchies nécessite une planification soignée. Pour plus d'informations voir [Planification de la hiérarchie d'organisation](plan-organizational-hierarchy.md).
+Les organisations d'une hiérarchie peuvent partager des paramètres, des stratégies et des transactions. Une organisation peut hériter des paramètres de son organisation parent ou les remplacer. Cependant, les données principales partagées, telle que les produits et les carnets d'adresses, s'appliquent à l'ensemble de l'organisation et ne peuvent pas être remplacées pour les organisations individuelles. La création d'organisations et de hiérarchies nécessite une planification soignée. Pour plus d'informations voir [Planifier votre hiérarchie d'organisation](plan-organizational-hierarchy.md).

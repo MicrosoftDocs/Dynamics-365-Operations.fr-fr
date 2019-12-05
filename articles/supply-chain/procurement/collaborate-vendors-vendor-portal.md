@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248978"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813521"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborer avec des fournisseurs à l'aide du portail Fournisseur
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248978"
 
 Cette rubrique décrit comment les agents des achats peuvent utiliser le portail Fournisseur pour collaborer avec des fournisseurs externes lors du processus de confirmation de commande fournisseur. Ces informations ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX.
 
-Les informations de cette rubrique ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX. Pour plus d'informations sur la nouvelle fonctionnalité de collaboration fournisseur, voir [Utilisation de la collaboration fournisseur pour utiliser des fournisseurs externes](vendor-collaboration-work-external-vendors.md).  
+Les informations de cette rubrique ne s'appliquent qu'aux versions de février 2016 et de mai 2016 de Dynamics AX. Pour plus d'informations sur la nouvelle fonctionnalité de collaboration fournisseur, voir [Collaboration fournisseur pour utiliser des fournisseurs externes](vendor-collaboration-work-external-vendors.md).  
 
 Le portail Fournisseur est destiné aux fournisseurs qui n'ont pas d'intégration de l'échange de données informatisé (EDI) avec Microsoft Dynamics AX pour échanger des informations de commande fournisseur (CF). Le portail permet aux agents des achats d'envoyer une CF au fournisseur puis de recevoir une réponse Confirmée ou Rejetée directement dans Dynamics AX.  
 
@@ -98,7 +98,7 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Configuration de la sécurité pour les utilisateurs de la collaboration fournisseur](configure-security-vendor-portal-users.md)
+[Sécurité de l'utilisateur du portail fournisseur](configure-security-vendor-portal-users.md)
 
 [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Créer, approuver et publier des missions dans Attract
+title: Créer un poste dans Attract
 description: Cette rubrique décrit les éléments d'une mission dans Attract. Elle décrit également comment créer une mission.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551070"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832929"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Créer, approuver et publier des postes dans Attract
+# <a name="create-a-job-in-attract"></a>Créer un poste dans Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Si la gestion des postes a été activée dans le centre d'administration, la re
 > [!NOTE]
 > La gestion des postes est disponible avec le Composant additionnel de recrutement complet.
 
-En fonction des paramètres de l'activité Offre du processus de recrutement, un numéro de poste peut être utilisé deux fois dans une offre. Pour plus d'informations, voir la rubrique [Processus de recrutement](./activities-attract.md).
+En fonction des paramètres de l'activité Offre du processus de recrutement, un numéro de poste peut être utilisé deux fois dans une offre. Pour plus d'informations, voir [Activités des processus de recrutement](./activities-attract.md).
 
 Attract comprend un ensemble par défaut de **Qualifications**. Ces qualifications s'affichent sous forme de suggestions à mesure que vous saisissez. Vous pouvez ajouter des qualifications supplémentaires en entrant le nouveau texte de qualification dans le champ et en appuyant sur la touche Entrée.
 
@@ -67,7 +67,7 @@ L'équipe chargée du recrutement peut être mise à jour une fois la mission ac
 
 Les informations par défaut sur le processus de recrutement sont basés sur le modèle de processus sélectionné lors de la création de la mission. Si un modèle spécifique n'a pas été sélectionné à ce stade, le modèle par défaut est utilisé. Lorsque vous définissez le processus de recrutement, vous pouvez ajouter ou supprimer différents stades, sauf les stades Prospect, Candidature et Offre. Bien que le stade Prospect ne puisse pas être supprimé, il peut être désactivé. Dans chaque stade, vous pouvez ajouter ou supprimer une ou plusieurs activités prédéfinies.
 
-Pour plus d'informations sur les activités qui peuvent être ajoutées au processus de recrutement, voir [Activités du processus d'embauche dans Attract](./activities-attract.md).
+Pour plus d'informations sur les activités qui peuvent être ajoutées au processus de recrutement, voir [Activités du processus de recrutement](./activities-attract.md).
 
 > [!NOTE]
 > Le processus de recrutement ne peut pas être mis à jour une fois une mission activée.
@@ -76,7 +76,7 @@ Pour plus d'informations sur les activités qui peuvent être ajoutées au proce
 
 Une fois la mission activée, elle peut être publiée. Seuls les recruteurs et les administrateurs peuvent publier des tâches. La mission peut être publiée dans Carrières Talent (site de carrières Dynamics 365 Talent) ou LinkedIn. L'équipe Attract travaille continuellement pour créer des partenariats avec des agrégateurs d'offres d'emploi. Cette liste se développera au fil du temps. Lorsqu'une offre d'emploi est publiée en interne seulement, les candidats ont besoin d'un compte AAD pour afficher l'offre et y postuler. Si l'offre est répertoriée comme publique, les candidats peuvent l'afficher et y postuler en utilisant toutes les options d'authentification. 
 
-Pour plus d'informations sur les publications de postes, voir [Fonctionnalité de site de carrière dans Attract](career-site.md).
+Pour plus d'informations sur les publications de postes, voir [Configurer votre site de carrière dans Microsoft Dynamics 365 Talent - Attract](career-site.md).
 
 > [!NOTE]
 > La fonctionnalité de publication de poste est disponible uniquement le Composant additionnel de recrutement complet pour Attract.
@@ -90,7 +90,7 @@ Une fois la mission activée, elle peut être publiée, et des prospects et des 
 
 ## <a name="prospects-and-applicants"></a>Prospects et candidats
 
-L'option pour ajouter des prospects à une mission est définie dans l'[activité Prospect](./activities-attract.md#prospect-activity) du processus de recrutement. Cette option doit être définie avant d'activer la mission. Une fois la mission activée, des prospects et des candidats peuvent y être ajoutés.
+L'option pour ajouter des prospects à une mission est définie dans [Activités du processus de recrutement](./activities-attract.md#prospect-activity) du processus de recrutement. Cette option doit être définie avant d'activer la mission. Une fois la mission activée, des prospects et des candidats peuvent y être ajoutés.
 
 ## <a name="approvals"></a>Approbations
 

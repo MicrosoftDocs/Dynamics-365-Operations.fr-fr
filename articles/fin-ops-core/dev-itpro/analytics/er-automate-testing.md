@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6da9447386e8e56e20507d985ebcdbfce934debd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181609"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771442"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatiser les tests avec la gestion des états électroniques
 
@@ -44,8 +44,8 @@ Pour plus d'informations sur la création d'une version personnalisée d'un form
 Les utilisateurs expérimentés peuvent créer un test d'acceptation par les utilisateurs et d'intégration sans devoir écrire de code source.
 
 - Utilisez la fonctionnalité de référence ER pour comparer les documents générés aux copies maîtres. Pour plus d'informations, voir [Suivre les résultats de rapport généré et les comparer avec des valeurs de référence](er-trace-reports-compare-baseline.md).
-- Utilisez l'enregistreur de tâches pour enregistrer des scénarios de test, et inclure l'évaluation par rapport à la référence. Pour plus d'informations, voir [Enregistreur de tâches](../user-interface/task-recorder.md).
-- Groupez les scénarios de test pour les scénarios de test requis. Pour plus d'informations, voir [Créer des bibliothèques de test d'acceptation utilisateur à l'aide d'enregistrements de tâche et de BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
+- Utilisez l'enregistreur de tâches pour enregistrer des scénarios de test, et inclure l'évaluation par rapport à la référence. Pour plus d'informations, voir [Ressources de l'enregistreur de tâches](../user-interface/task-recorder.md).
+- Groupez les scénarios de test pour les scénarios de test requis. Pour plus d'informations, voir [Créer et automatiser les tests d'acceptation par les utilisateurs](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - Utilisez le concepteur de processus d'entreprise (BPM) de LCS pour créer des bibliothèques pour les tests d'acceptation par les utilisateurs.
     - Utilisez des bibliothèque de test BPM pour créer un plan de test et des suites de test dans les services Microsoft Azure DevOps (Azure DevOps).
@@ -59,10 +59,10 @@ Les utilisateurs expérimentés peuvent exécuter des tests d'acceptation par le
 
 Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les conditions requises suivantes :
 
-- Déployez une topologie qui prend en charge l'automatisation des tests. Vous devez avoir accès à l'instance de cette topologie pour le rôle **Administrateur système**. Cette topologie doit contenir les données de démonstration qui seront utilisées dans cet exemple. Pour plus d'informations, voir [Déployer des topologies prenant en charge l'élaboration continue et l'automatisation des tests](../perf-test/continuous-build-test-automation.md).
+- Déployez une topologie qui prend en charge l'automatisation des tests. Vous devez avoir accès à l'instance de cette topologie pour le rôle **Administrateur système**. Cette topologie doit contenir les données de démonstration qui seront utilisées dans cet exemple. Pour plus d'informations, voir [Déployer et utiliser un environnement qui prend en charge l'élaboration continue et l'automatisation des tests](../perf-test/continuous-build-test-automation.md).
 - Pour exécuter automatiquement les tests d'acceptation par les utilisateurs et d'intégration, vous devez installer RSAT dans la topologie que vous utilisez et le configurer de la manière appropriée. Pour plus d'informations sur l'installation et la configuration de RSAT pour qu'il fonctionne avec les applications Finance and Operations et Azure DevOps, voir [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Prêtez attention aux conditions préalables à l'utilisation de l'outil. L'illustration suivante montre un exemple des paramètres RSAT. Le rectangle bleu entoure les paramètres qui spécifient l'accès à Azure DevOps. Le rectangle vert entoure les paramètres qui spécifient l'accès à l'instance.
 
-    ![Paramètres RSAT](media/GER-Configure.png "Capture d'écran de la boîte de dialogue Paramètres RSAT")
+    ![Paramètres RSAT](media/GER-Configure.png "Capture d'écran de la boîte de dialogue Paramètres RSAT")
 
 - Pour organiser des scénarios de test en suites afin de garantir l'ordre correct d'exécution, de manière à pouvoir collecter les journaux des exécutions de test aux fins d'autres génération d'états et d'examen, vous devez accéder à Azure DevOps à partir de la topologie déployée.
 - Pour réaliser l'exemple de cette rubrique, nous vous recommandons de télécharger [Utilisation de la génération d'états électroniques pour les tests RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Ce fichier zip contient les guides de tâche suivants :
@@ -81,7 +81,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
     - **Mise en correspondance du modèle de paiement 1611** Configuration de la mise en correspondance du modèle ER
     - **BACS (UK)** Configuration de format ER
 
-    ![Configurations de la génération d'états électroniques](media/GER-Configurations.png "Capture d'écran de la génération d'états électroniques")
+    ![Configurations de gestion des états électroniques](media/GER-Configurations.png "Capture d'écran de la page Configurations dans la gestion des états électroniques")
 
 3. Sélectionnez la société de démonstration **GBSI**, dont le contexte national/régional est celui de la Grande-Bretagne.
 4. Configuration des paramètres de la comptabilité fournisseur :
@@ -93,7 +93,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
         1. Dans l'organisateur **Formats de fichier**, définissez l'option **Format d'exportation électronique générique** sur **Oui**.
         2. Dans le champ **Exporter la configuration du format**, sélectionnez **BACS (UK)**.
 
-    ![Page Modes de paiement](media/GER-APParameters.png "Capture d'écran de la page Modes de paiement")
+    ![Page des modes de paiement](media/GER-APParameters.png "Capture d'écran de la page Modes de paiement")
 
     > [!NOTE]
     > Si vous avez la version dérivée de ce format ER créée pour prendre en charge les personnalisations, vous pouvez sélectionner cette configuration dans le mode de paiement **Électronique**.
@@ -103,7 +103,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
     1. Accédez à **AComptabilité fournisseur \> Paiements \> Journal des paiements**.
     2. Assurez-vous que vous n'avez pas validé le journal des paiements.
 
-        ![Page du journal des paiements](media/GER-APJournal.png "Capture d'écran de la page du journal des paiements")
+        ![Page du journal des paiements](media/GER-APJournal.png "Capture d'écran de la page Journal de paiement")
 
     3. Sélectionnez **Lignes**, puis entrez une ligne comportant les informations suivantes.
 
@@ -116,7 +116,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
         | Compte de contrepartie      | GBSI OPER       |
         | Mode de paiement   | électronique      |
 
-    ![Page des paiements fournisseur](media/GER-APJournalLines.png "Capture d'écran de la page des paiements fournisseur")
+    ![Page des paiements fournisseur](media/GER-APJournalLines.png "Capture d'écran de la page Paiements fournisseur")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Préparer la structure ER pour tester le traitement des paiements fournisseur
 
@@ -125,7 +125,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
 1. Accédez à **Administration d'organisation \> États électroniques \> Paramètres des états électroniques**.
 2. Dans l'onglet **Pièces jointes**, dans le champ **Référence**, sélectionnez **Fichier** comme type de document utilisé par la structure DM (Gestion des documents) pour conserver les documents relatifs à la fonction de référence en tant que pièces jointes DM.
 
-    ![Page Paramètres de la génération d'états électroniques](media/GER-ERParameters.png "Capture d'écran de la page Paramètres de la génération d'états électroniques")
+    ![Page Paramètres de la gestion des états électroniques](media/GER-ERParameters.png "Capture d'écran de la page Paramètres de gestion des états électroniques")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Générer des copies de référence des documents relatifs aux paiements fournisseur
 
@@ -180,7 +180,7 @@ En activant le paramètre **Exécuter en mode débogage**, vous forcez la struct
     3. Recherchez l'état de contrôle **ERVendOutPaymControlReport** enregistré localement en format XLSX.
     4. Dans le champ **Description**, entrez **État de contrôle de paiement XLSX**.
 
-    ![Bases de référence pour le fichier de paiement fournisseur et état de contrôle](media/GER-BaselineAttachments.png "Capture d'écran de la page Configurations avec l'état de contrôle de paiement XLSX sélectionné")
+    ![Bases de référence pour l'état de contrôle et le fichier de paiement fournisseur](media/GER-BaselineAttachments.png "Capture d'écran de la page Configurations avec l'état de contrôle de paiement XLSX sélectionné")
 
 8. Fermez la page.
 9. Dans l'organisateur **Bases de référence**, sélectionnez **Nouveau** pour configurer une base de référence pour le fichier de paiement :
@@ -199,7 +199,7 @@ En activant le paramètre **Exécuter en mode débogage**, vous forcez la struct
     4. Dans le champ **Masque de nom de fichier**, entrez **\*.XLSX** pour n'appliquer cette base de référence qu'aux sorties du composant de format **ERVendOutPaymControlReport** ayant l'extension de nom de fichier **.xlsx**.
     5. Dans le champ **Base de référence**, sélectionnez **État de contrôle de paiement XLSX** afin que cette base de référence soit utilisée pour comparaison avec la sortie générée.
 
-    ![Organisateur Bases de référence sur la page Configurations](media/GER-BaselineRules.png "Capture d'écran de l'organisateur Bases de référence sur la page Configurations")
+    ![Organisateur Bases de référence sur la page Configurations](media/GER-BaselineRules.png "Capture d'écran de l'organisateur Références de base dans la page Configurations")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Enregistrement des tests pour valider le traitement des paiements fournisseur
 
@@ -229,15 +229,15 @@ Cet enregistrement de tâche exécute les actions suivantes :
 
 1. Définissez le statut de la ligne de paiement traitée sur **Aucun**.
 
-    ![Étapes de l'enregistrement de tâche 3 à 4](media/GER-Recording1Review1.png "Capture d'écran des étapes de l'enregistrement de tâche 3 à 4")
+    ![Enregistrement de tâche, étapes 3 à 4](media/GER-Recording1Review1.png "Capture d'écran de l'enregistrement de tâche, étapes 3 à 4")
 
 2. Activez le paramètre utilisateur ER **Exécuter en mode débogage**.
 
-    ![Étapes de l'enregistrement de tâche 9 à 10](media/GER-Recording1Review2.png "Capture d'écran des étapes de l'enregistrement de tâche 9 à 10")
+    ![Enregistrement de tâche, étapes 9 à 10](media/GER-Recording1Review2.png "Capture d'écran de l'enregistrement de tâche, étapes 9 à 10")
 
 3. Nettoyez le journal de débogage ER contenant les résultats de la comparaison des fichiers générés aux bases de référence.
 
-    ![Étapes de l'enregistrement de tâche 13 à 15](media/GER-Recording1Review3.png "Capture d'écran des étapes de l'enregistrement de tâche 13 à 15")
+    ![Enregistrement de tâche, étapes 13 à 15](media/GER-Recording1Review3.png "Capture d'écran de l'enregistrement de tâche, étapes 13 à 15")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Enregistrement des étapes pour tester le traitement des paiements fournisseur
 
@@ -256,21 +256,21 @@ Cet enregistrement de tâche exécute les actions suivantes :
 1. Démarrez le traitement des paiements fournisseur.
 2. Sélectionnez les paramètres d'exécution appropriés, puis activez la génération d'un état de contrôle.
 
-    ![Étapes de l'enregistrement de tâche 3 à 8](media/GER-Recording2Review1.png "Capture d'écran des étapes de l'enregistrement de tâche 3 à 8")
+    ![Enregistrement de tâche, étapes 3 à 8](media/GER-Recording2Review1.png "Capture d'écran de l'enregistrement de tâche, étapes 3 à 8")
 
 3. Accédez au journal de débogage ER pour enregistrer les résultats de la comparaison des fichiers de sortie aux bases de référence correspondantes.
 
     Dans le journal de débogage ER, les résultats de la comparaison apparaissent dans le champ **Texte généré**. Les champs **Composant de format** et **Chemin du format ayant provoqué une entrée de journal** font référence au composant de fichier pour lequel la sortie générée a été comparée à la base de référence.
 
-    ![Entrées sur la page des journaux d'exécution de la génération d'états électroniques](media/GER-ERDebugLog.png "Capture d'écran de la page des journaux d'exécution de la génération d'états électroniques")
+    ![Entrées sur la page Journaux d'exécution de la gestion des états électroniques](media/GER-ERDebugLog.png "Capture d'écran des entrées sur la page Journaux d'exécution de la gestion des états électroniques")
 
 4. La comparaison de la sortie actuelle à la base de référence est enregistrée à l'aide de l'option **Valider** de l'enregistreur de tâches, en sélectionnant **Valeur actuelle**.
 
-    ![Utilisation de l'option Valider pour comparer avec la valeur actuelle](media/GER-TRRecordValidation.png "Capture d'écran de l'utilisation de l'option Valider pour comparer avec la valeur actuelle")
+    ![Utilisation de l'option Valider pour comparaison avec la valeur actuelle](media/GER-TRRecordValidation.png "Capture d'écran de l'utilisation de l'option Valider pour comparaison avec la valeur actuelle")
 
     L'illustration suivante présente l'aspect des étapes de validation enregistrées dans l'enregistrement de tâche.
 
-    ![Étapes de l'enregistrement de tâche 13 et 15](media/GER-Recording2Review2.png "Capture d'écran des étapes de l'enregistrement de tâche 13 et 15")
+    ![Enregistrement de tâche, étapes 13 et 15](media/GER-Recording2Review2.png "Capture d'écran de l'enregistrement de tâche, étapes 13 et 15")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Ajout des tests enregistrés à Azure DevOps
 
@@ -287,7 +287,7 @@ Cet enregistrement de tâche exécute les actions suivantes :
     1. Nommez le scénario de test **Test du traitement des paiements fournisseur à l'aide du format ER BACS (UK)**.
     2. Associez le fichier **Recording.xml** du dossier **Process** que vous avez téléchargé précédemment.
 
-    ![Nouveaux scénarios de test du plan de test sélectionné](media/GER-RSAT-DevOps-Tests-Passed.png "Capture d'écran des nouveaux scénarios de test du plan de test sélectionné")
+    ![Nouveaux scénarios de test pour le plan de test sélectionné](media/GER-RSAT-DevOps-Tests-Passed.png "Capture d'écran des nouveaux scénarios de test pour le plan de test sélectionné")
 
 > [!NOTE]
 > Prêtez attention à l'ordre d'exécution correct des tests qui sont ajoutés.
@@ -306,7 +306,7 @@ Cet enregistrement de tâche exécute les actions suivantes :
 1. Dans RSAT, sélectionnez les tests que vous avez chargés à partir d'Azure DevOps.
 2. Sélectionnez **Nouveau** pour créer des fichiers de paramètres et d'automatisation.
 
-    ![Fichiers d'automatisation et de paramètres RSAT créés dans RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "Capture d'écran des fichiers d'automatisation et de paramètres RSAT créés dans RSAT")
+    ![Fichiers de paramètres et d'automatisation RSAT créés dans RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "Capture d'écran des fichiers de paramètres et d'automatisation RSAT créés dans RSAT")
 
 ### <a name="modify-the-parameters-files"></a>Modification des fichiers de paramètres
 
@@ -333,11 +333,11 @@ Notez que les scénarios de test sont automatiquement exécutés dans l'applicat
 
 Les résultats de l'exécution de tests sont stockés dans RSAT. Notez que les deux tests ont été réussis.
 
-![Tests réussis dans RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "Capture d'écran des tests réussis dans RSAT")
+![Tests réussis dans RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "Capture d'écran de tests qui réussis dans RSAT")
 
 Notez que les résultats de l'exécution des tests sont également envoyés à Azure DevOps aux fins d'analyse approfondie.
 
-![Résultats de l'exécution des tests dans Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Capture d'écran des résultats de l'exécution des tests dans Azure DevOps")
+![Résultats de l'exécution du test dans Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Capture d'écran des résultats de l'exécution du test dans Azure DevOps")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Simuler une situation d'échec du test
 
@@ -360,24 +360,24 @@ Notez que les scénarios de test sont automatiquement exécutés dans l'applicat
 
 Les résultats de l'exécution de tests sont stockés dans RSAT. Notez que le deuxième test a échoué lors de la deuxième exécution.
 
-![Résultats du test ayant échoué dans RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Capture d'écran des résultats du test ayant échoué dans RSAT")
+![Résultats de l'échec du test dans RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Capture d'écran des résultats de l'échec de test dans RSAT")
 
 Notez que les résultats de l'exécution des tests sont également envoyés à Azure DevOps aux fins d'analyse approfondie.
 
-![Résultats du test ayant échoué dans Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Capture d'écran des résultats du test ayant échoué dans Azure DevOps")
+![Résultats de l'échec du test dans Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Capture d'écran des résultats de l'échec de test dans Azure DevOps")
 
 Vous pouvez accéder au statut de chaque test. Vous pouvez également accéder au journal d'exécution afin d'analyser les motifs de l'échec. Dans l'illustration suivante, le journal d'exécution indique que l'échec s'est produit en raison de la différence de contenu entre le fichier de paiement généré et sa base de référence.
 
-![Journal d'exécution pour l'analyse de l'échec dans Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Capture d'écran du journal d'exécution pour l'analyse de l'échec dans Azure DevOps")
+![Journal d'exécution pour analyser l'échec dans Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Capture d'écran du journal d'exécution pour analyser l'échec dans Azure DevOps")
 
 Par conséquent, comme vous avez vu, il est possible d'évaluer le fonctionnement de n'importe quel format ER à l'aide de RSAT comme plateforme de test et des scénarios de test fondés sur l'enregistreur de tâches qui utilisent la fonction de base de référence.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Enregistreur de tâches](../user-interface/task-recorder.md)
-- [Regression suite automation tool](https://www.microsoft.com/download/details.aspx?id=57357)
-- [Créer des bibliothèques de test d'acceptation utilisateur à l'aide d'enregistrements de tâche et de BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
-- [Déployer des topologies prenant en charge l'élaboration continue et l'automatisation des tests](../perf-test/continuous-build-test-automation.md)
-- [Suivre les résultats de rapport généré et les comparer avec des valeurs de référence ER](er-trace-reports-compare-baseline.md)
-- [Mettre à niveau votre format ER en adoptant la nouvelle version de base de ce format](tasks/er-upgrade-format.md)
-- [Importer une configuration ER à partir de Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+- [Ressources de l'enregistreur de tâches](../user-interface/task-recorder.md)
+- [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)
+- [Créer et automatiser les tests d'acceptation par l'utilisateur](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
+- [Déployer et utiliser un environnement qui prend charge l'élaboration continue et l'automatisation des tests](../perf-test/continuous-build-test-automation.md)
+- [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md)
+- [ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format](tasks/er-upgrade-format.md)
+- [ER Charger une configuration à partir de Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)

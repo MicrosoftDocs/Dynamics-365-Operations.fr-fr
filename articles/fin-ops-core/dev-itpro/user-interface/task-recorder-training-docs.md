@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658808"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812647"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Créer une documentation ou une formation avec l'enregistreur de tâches
 
@@ -84,7 +84,7 @@ Voilà à quoi ressemble l'annotation de notes dans la « bulle » dans le Gui
 
 [![Apparence d'annotation de notes dans le guide de tâche](./media/screen4.png)](./media/screen4.png)
 
--   **Étape d'informations** : Ces annotations sont créées en cliquant avec le bouton droit sur un contrôle ou n'importe où dans un écran &lt; **Enregistreur de tâches** &lt; **Ajouter une étape d'informations. **Les étapes d'informations s'affichent sous la forme d'une étape numérotée partout où vous les insérez, même si aucune action n'a été enregistrée dans l'IU. Vous pouvez ajouter une étape d'informations au niveau de l'écran ou une étape d'informations associée à un contrôle. Lorsqu'une étape d'informations est associée à un écran, la « bulle » du guide de tâche apparaît quelque part dans l'écran, sans pointeur, lors de la lecture du guide. Lorsqu'une étape d'informations est associée à un contrôle, la « bulle » du guide de tâche pointe vers le contrôle lors de la lecture du guide. Dans le volet Aide, une annotation d'étape d'informations s'affiche comme une étape numérotée, indépendamment du texte que vous avez entré. Utilisez les étapes d'informations pour préparer l'utilisateur pour les étapes suivantes, pour décrire les étapes qui doivent être effectuées en dehors de l'application, ou pour faire référence à d'autres enregistrements (bien que vous ne puissiez pas créer d'hyperliens dans les annotations).
+-   **Étape d'informations** : ces annotations sont créées en cliquant avec le bouton droit sur un contrôle ou n'importe où dans un écran &lt; **Enregistreur de tâches** &lt; **Ajouter une étape d'informations.** Les étapes d'informations apparaissent comme une étape numérotée au point où vous l'insérez, même si aucune action n'a été enregistrée dans l'IU. Vous pouvez ajouter une étape d'informations au niveau de l'écran ou une étape d'informations associée à un contrôle. Lorsqu'une étape d'informations est associée à un écran, la « bulle » du guide de tâche apparaît quelque part dans l'écran, sans pointeur, lors de la lecture du guide. Lorsqu'une étape d'informations est associée à un contrôle, la « bulle » du guide de tâche pointe vers le contrôle lors de la lecture du guide. Dans le volet Aide, une annotation d'étape d'informations s'affiche comme une étape numérotée, indépendamment du texte que vous avez entré. Utilisez les étapes d'informations pour préparer l'utilisateur pour les étapes suivantes, pour décrire les étapes qui doivent être effectuées en dehors de l'application, ou pour faire référence à d'autres enregistrements (bien que vous ne puissiez pas créer d'hyperliens dans les annotations).
 
 **Déterminez la longueur votre enregistrement**
 
@@ -97,7 +97,7 @@ Voilà à quoi ressemble l'annotation de notes dans la « bulle » dans le Gui
 **Décidez où, dans l'IU, démarrer un enregistrement** La page où vous vous trouvez lorsque vous commencez un enregistrement de tâche affecte la page pour laquelle s'affiche le guide de tâche. Par exemple, si vous souhaitez que votre enregistrement de tâche soit répertorié dans le volet Aide lorsque l'utilisateur clique sur Aide dans la page des paramètres de comptabilité, vous devez commencer votre enregistrement dans la page Paramètres de comptabilité. **Sauvegardez les enregistrements en tant que fichiers .axtr** Lorsque vous avez terminé de créer ou modifier un enregistrement de tâche, vous avez le choix entre plusieurs options pour télécharger ou sauvegarder l'enregistrement. Vous pouvez télécharger le fichier comme package d'enregistrement de tâche (.axtr), le télécharger comme fichier brut d'enregistrement (.xml), le télécharger comme document Word, ou l'enregistrer dans une bibliothèque LCS. Il est bon de toujours sauver vos enregistrements de tâche comme fichiers de package d'enregistrement de tâche (.axtr). Cela facilite la maintenance des fichiers si les procédures ou les annotations doivent être modifiées ultérieurement. Si vous souhaitez télécharger le fichier comme document Word, sauvegardez-le également comme package d'enregistrement de tâche.
 
 ## <a name="create-your-task-recording"></a>Créer votre enregistrement de tâche
-Pour les étapes détaillées du parcours, consultez [Création d'un enregistrement de tâche](task-recorder.md).
+Pour les étapes détaillées du parcours, consultez [Ressources de l'enregistreur de tâches](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Copie et personnalisation des enregistrements de tâche Microsoft
 Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft pour les utiliser pour votre propre documentation d'aide ou vos propres supports de formation. Pour télécharger un enregistrement de tâche Microsoft, procédez comme suit :
@@ -115,14 +115,14 @@ Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft
 11. Choisissez la manière dont vous souhaitez enregistrer l'enregistrement de tâche.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Intégrer vos enregistrements de tâche dans le volet Aide
-Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide afin qu'ils puissent être lus comme guides de tâche ou affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, voir [Connexion au système d'aide.](../../fin-ops/get-started/help-connect.md)
+Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide afin qu'ils puissent être lus comme guides de tâche ou affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, voir [Connexion au système d'aide](../../fin-ops/get-started/help-connect.md).
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Aperçu de l'aide](../../fin-ops/get-started/help-overview.md)
+[Système d'aide](../../fin-ops/get-started/help-overview.md)
 
-[Se connecter à l'aide](../../fin-ops/get-started/help-connect.md)
+[Connexion au système d'aide](../../fin-ops/get-started/help-connect.md)
 
 [Enregistreur de tâches](task-recorder.md)
 

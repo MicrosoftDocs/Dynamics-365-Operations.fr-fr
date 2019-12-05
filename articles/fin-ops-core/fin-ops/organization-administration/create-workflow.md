@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190095"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811288"
 ---
 # <a name="create-workflows-overview"></a>Vue d'ensemble de création des workflows
 
@@ -60,15 +60,15 @@ Suivez la procédure suivante pour configurer les propriétés du workflow.
 
 Configurez tous les éléments que vous avez déposés sur le canevas. Pour plus d'informations sur la configuration des éléments de workflow, voir les rubriques suivantes :
 
-- [Configuration d'une tâche manuelle](configure-manual-task-workflow.md)
-- [Configuration d'une tâche automatique](configure-automated-task-workflow.md)
-- [Configuration d'un processus d'approbation](configure-approval-process-workflow.md)
-- [Configuration d'une étape d'approbation](configure-approval-step-workflow.md)
-- [Configuration d'une décision manuelle](configure-manual-decision-workflow.md)
-- [Configuration d'une décision conditionnelle](configure-conditional-decision-workflow.md)
-- [Configuration d'une activité parallèle](configure-parallel-activity-workflow.md)
+- [Configurer des tâches manuelles dans un workflow](configure-manual-task-workflow.md)
+- [Configurer des tâches automatiques dans un workflow](configure-automated-task-workflow.md)
+- [Configurer des processus d'approbation dans un workflow](configure-approval-process-workflow.md)
+- [Configurer des étapes d'approbation dans un workflow](configure-approval-step-workflow.md)
+- [Configurer des décisions manuelles dans un workflow](configure-manual-decision-workflow.md)
+- [Configurer des décisions conditionnelles dans un workflow](configure-conditional-decision-workflow.md)
+- [Configurer des branches parallèles dans un workflow](configure-parallel-activity-workflow.md)
 - [Configuration d'une branche parallèle](configure-parallel-branch-workflow.md)
-- [Configuration d'un workflow pour ligne](configure-line-item-workflow.md)
+- [Configuration de workflows pour ligne](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Résolution des erreurs et des avertissements
 

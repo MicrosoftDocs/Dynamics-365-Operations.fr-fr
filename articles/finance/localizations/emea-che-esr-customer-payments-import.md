@@ -17,12 +17,12 @@ ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d9c13042738f62ba4d806d2dd4d8af7a8a2531dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dfcfb13391bccde43a5bd50965967fde1a8a432b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183674"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773407"
 ---
 # <a name="esr-customer-payments-import"></a>Importation des paiements client ESR
 
@@ -40,7 +40,7 @@ Les références de paiement doivent être imprimées sur le bordereau de paieme
 3.  La souche de numéros de la facture client doit être au format approprié (elle ne doit pas comporter des symboles autres que des chiffres et elle ne doit pas contenir des zéros non significatifs).
 4.  Le format **Orange** doit être spécifié pour le compte client dans le champ **Sur une facture client** de l'onglet **Facture et livraison**.
 
-Pour plus d'informations, voir [État du bordereau de paiement (virement)](emea-eur-payment-slip-report-giro.md).
+Pour plus d'informations, voir [État du bordereau de paiement pour l'Europe](emea-eur-payment-slip-report-giro.md).
 
 ## <a name="import-a-payment-file"></a>Importer un fichier de paiement
 1. Accédez à la page **Journal des paiements**.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 50ce332673e130dace38f596020973d37c34b566
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248955"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813498"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248955"
 
 Cette rubrique décrit comment vous pouvez demander la mise en service de nouveaux utilisateurs de collaboration fournisseur, et comment ajouter de nouveaux contacts de collaboration fournisseur. 
 
-L'interface de collaboration fournisseur de Dynamics 365 Supply Chain Management expose des informations sur les commandes fournisseur, les factures, et le stock de consignation aux fournisseurs externes. Vous pouvez créer des contacts de collaboration fournisseur et demander que les nouveaux utilisateurs soient mis en service si vous travaillez comme fournisseur externe avec le rôle de sécurité **Administrateur Fournisseur (externe)**, ou des autorisations similaires. Vous pouvez également effectuer ces tâches si vous travaillez comme professionnel de l'approvisionnement. Dans cette rubrique, ce rôle fait référence à un professionnel de l'approvisionnement qui travaille au sein de la société qui est le propriétaire de l'instance de Supply Chain Management. Pour plus d'informations sur l'utilisation de la collaboration fournisseur si vous êtes un fournisseur externe, voir [Fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+L'interface de collaboration fournisseur de Dynamics 365 Supply Chain Management expose des informations sur les commandes fournisseur, les factures, et le stock de consignation aux fournisseurs externes. Vous pouvez créer des contacts de collaboration fournisseur et demander que les nouveaux utilisateurs soient mis en service si vous travaillez comme fournisseur externe avec le rôle de sécurité **Administrateur Fournisseur (externe)**, ou des autorisations similaires. Vous pouvez également effectuer ces tâches si vous travaillez comme professionnel de l'approvisionnement. Dans cette rubrique, ce rôle fait référence à un professionnel de l'approvisionnement qui travaille au sein de la société qui est le propriétaire de l'instance de Supply Chain Management. Pour plus d'informations sur l'utilisation de la collaboration fournisseur si vous êtes un fournisseur externe, voir [Collaboration des fournisseurs avec les clients](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Pour plus d'informations sur l'utilisation de la collaboration fournisseur si vous êtes un professionnel de l'approvisionnement, voir [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 

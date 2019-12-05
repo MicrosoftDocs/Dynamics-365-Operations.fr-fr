@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f05e3efd1716a27a659ae40145f37bb0b3d977f
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: d0b715e0c17263519a9bb1b3780170812271d93d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865400"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813751"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Vue d'ensemble de planification générale et fonctionnalité multisite
 
@@ -40,15 +40,15 @@ Lorsque l'entrepôt n'est pas obligatoire, il se peut qu'il ne soit pas connu à
 
 Les rubriques suivantes décrivent le fonctionnement du moteur de planification, lorsque différents paramètres sont définis, pour déterminer l'entrepôt à utiliser.
 
-[Planification - couverture du site et de l'entrepôt, entrepôt obligatoire](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Planification de couverture de site et d'entrepôt, entrepôt obligatoire](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Planification - couverture du site, entrepôt obligatoire](master-plan-site-coverage-warehouse-mandatory.md)
+[Planification pour couverture de site, entrepôt obligatoire](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Planification - couverture du site et de l'entrepôt, entrepôt non obligatoire](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Planification de couverture de site et d'entrepôt, entrepôt non obligatoire](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Planification - couverture du site, entrepôt no obligatoire](master-plan-site-coverage-warehouse-not-mandatory.md)
+[Planification pour couverture de site, entrepôt non obligatoire](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[Planification - Méthode de détermination de la version de nomenclature](master-plan-bom-version-determined.md)
+[Déterminer la version de nomenclature](master-plan-bom-version-determined.md)
 
 
 

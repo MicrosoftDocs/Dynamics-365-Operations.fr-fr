@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6206b3a1ac298af98e4b69b6800b9a493658c4ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181287"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771094"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gérer le cycle de vie de la configuration des états électroniques (ER)
 
@@ -87,4 +87,4 @@ Les configurations ER conçues dans l'environnement de développement peuvent ê
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques (ER)](general-electronic-reporting.md)

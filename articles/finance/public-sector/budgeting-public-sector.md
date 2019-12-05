@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bdd5be13014e621fe0bfcbde0ee7546eb419620
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f0864e6e174e9c6ffc1ce193c9e7edbd4d285c14
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183645"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770253"
 ---
 # <a name="budgeting-in-the-public-sector-overview"></a>Vue d'ensemble de la budgétisation disponible pour le secteur public
 
@@ -46,9 +46,9 @@ Pour utiliser le contrôle budgétaire, vous devez paramétrer la budgétisation
 ## <a name="what-do-i-do-next"></a>Que faire ensuite ?
 Il est possible que vous deviez paramétrer les fonctionnalités de budgétisation suivantes :
 
--   [Analyse budgétaire dans le secteur public](budget-analysis-public-sector.md) Permet d'afficher les produits et les dépenses par dimension financière, à l'aide d'une combinaison de données comptables et de contrôle budgétaire. Affichez les montants et les détails de transaction récapitulés pour les budgets révisés, les dépenses réelles, les engagements et les engagements préalables.
--   [Budgets préliminaires et répartitions dans le secteur public](preliminary-budgets-apportionments-public-sector.md) Permet de créer un budget préliminaire temporaire tandis que le budget réel est révisé et approuvé. Les répartitions représentent la part du budget d'origine qui a été approuvée pour les dépenses.
--   [Définitions de validation pour le secteur public](posting-definitions-public-sector.md) Utilisez les définitions de validation pour créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés.
+-   [Analyse budgétaire dans le secteur public](budget-analysis-public-sector.md) : Permet d'afficher les produits et les dépenses par dimension financière, à l'aide d'une combinaison de données comptables et de contrôle budgétaire. Affichez les montants et les détails de transaction récapitulés pour les budgets révisés, les dépenses réelles, les engagements et les engagements préalables.
+-   [Budgets préliminaires et répartitions dans le secteur public](preliminary-budgets-apportionments-public-sector.md) : Permet de créer un budget préliminaire temporaire tandis que le budget réel est révisé et approuvé. Les répartitions représentent la part du budget d'origine qui a été approuvée pour les dépenses.
+-   [Définitions de validation pour le secteur public](posting-definitions-public-sector.md) : Utilisez les définitions de validation pour créer les lignes du journal de comptabilité auxiliaire pour les transactions d'origine correspondant aux critères sélectionnés.
 
 **Remarque :** cela s'applique également à la comptabilité, à la comptabilité fournisseur, et à la comptabilité client.
 
@@ -61,11 +61,11 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 
 [Comptabilité client (Secteur public)](accounts-receivable-public-sector.md)
 
-[Comptabilité (Secteur public)](general-ledger-public-sector.md)
+[Comptabilité dans le secteur public](general-ledger-public-sector.md)
 
 [Créer un budget préliminaire](tasks/create-preliminary-budget-public-sector.md)
 
-[Créer un budget d'origine et contrepasser les écritures budgétaires préliminaires](tasks/create-original-budget.md)
+[Créer un budget d'origine et contrepasser ensuite les écritures budgétaires préliminaires](tasks/create-original-budget.md)
 
 
 

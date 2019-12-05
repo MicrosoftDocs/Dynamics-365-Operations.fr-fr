@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019391"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811238"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connecter des périphériques au point de vente (POS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019391"
 Cette rubrique décrit comment connecter des périphériques à votre Retail POS.
 
 > [!NOTE]
-> Pour obtenir des instructions d’installation spécifiques, consultez [Installation et la configuration de la station matérielle de vente au détail](retail-hardware-station-configuration-installation.md) et [Téléchargement/installation en libre-service de Retail Modern POS, et activation de périphérique de Modern POS et Cloud POS](retail-modern-pos-device-activation.md).
+> Pour obtenir des instructions d'installation spécifiques, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md) et [Configurer, installer et activer Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Composants principaux
 
@@ -139,7 +139,7 @@ Le profil de fonctionnalité est défini au niveau du magasin. Il est utilisé p
 
 - Organisateur **Codes info** :
 
-    - Tous les aspects de la manière dont les codes info sont gérés dans le PDV. Pour plus d'informations, voir [Codes info](info-codes-retail.md).
+    - Tous les aspects de la manière dont les codes info sont gérés dans le PDV. Pour plus d'informations, voir [Codes info et groupes de codes info](info-codes-retail.md).
 
 - Organisateur **Numérotation des tickets de caisse** :
 

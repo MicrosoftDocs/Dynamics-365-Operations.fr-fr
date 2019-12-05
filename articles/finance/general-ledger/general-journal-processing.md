@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570238"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771820"
 ---
 # <a name="general-journal-processing"></a>Journaux d'opérations diverses
 
@@ -85,7 +85,7 @@ Le paramétrage de compte principal fournit de nombreuses options pour le traite
 Les structures de compte et les structures de règles avancées sont extrêmement importantes pour garantir que les données requises pour la génération d'états financiers et le suivi de performance sont capturées lors du traitement du journal des opérations diverses et de toute documentation. Les structures de compte et les structures de règles avancées vous permettent d'adapter l'expérience de saisie de données. Vous pouvez autoriser la saisie de données uniquement pour les dimensions financières pertinentes dans chaque cas, et également veiller à ce que les données requises et correctes soient toujours capturées.
 
 Pour plus d'informations, voir les rubriques suivantes :
-- [Planification : plan de comptes](plan-chart-of-accounts.md). 
+- [Plan de comptes](plan-chart-of-accounts.md) 
 - [Créer des règles avancées pour les journaux](tasks/create-advanced-rules-journals.md)
 - [Créer une entrée de journal à l'aide d'un modèle](tasks/create-journal-entry-template.md)
 - [Créer et valider des journaux](tasks/create-validate-journals.md)

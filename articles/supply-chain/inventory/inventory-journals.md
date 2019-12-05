@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c4a2696b015611f4430ad5dfa1c61c1c4f913a9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c6774a41887e74bfdb1fa6a9221264b0c8454c70
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570792"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814350"
 ---
 # <a name="inventory-journals"></a>Journaux de stock
 
@@ -74,7 +74,7 @@ Les journaux des entrée en production fonctionnent comme les journaux d'arrivé
 
 ### <a name="counting"></a>Comptage
 
-Les journaux d'inventaire vous permettent de corriger le stock disponible actuel qui est enregistré pour des articles ou des groupes d'articles, puis de valider le compte physique réel, pour pouvoir effectuer les ajustements nécessaires en vue de rapprocher les différences. Vous pouvez associer les stratégies d'inventaire aux groupes d'inventaire pour aider à regrouper des articles qui ont diverses caractéristiques, de sorte que ces articles soient inclus dans un journal d'inventaire. Par exemple, vous pouvez paramétrer des groupes d'inventaire pour compter les articles ayant une fréquence spécifique, ou pour compter les articles lorsque le stock tombe à un niveau spécifique. Pour plus d'informations sur la façon de définir les groupes d'inventaire, voir [Définir les processus de comptage d'inventaire (Guide de tâche)](tasks/define-inventory-counting-processes.md).
+Les journaux d'inventaire vous permettent de corriger le stock disponible actuel qui est enregistré pour des articles ou des groupes d'articles, puis de valider le compte physique réel, pour pouvoir effectuer les ajustements nécessaires en vue de rapprocher les différences. Vous pouvez associer les stratégies d'inventaire aux groupes d'inventaire pour aider à regrouper des articles qui ont diverses caractéristiques, de sorte que ces articles soient inclus dans un journal d'inventaire. Par exemple, vous pouvez paramétrer des groupes d'inventaire pour compter les articles ayant une fréquence spécifique, ou pour compter les articles lorsque le stock tombe à un niveau spécifique. Pour plus d'informations sur la façon de définir les groupes d'inventaire, voir [Définir les processus de comptage d'inventaire](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Comptage des balises
 

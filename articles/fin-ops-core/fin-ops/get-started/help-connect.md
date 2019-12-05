@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537853"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812578"
 ---
 # <a name="connect-the-help-system"></a>Connexion au système d'aide
 
@@ -80,7 +80,7 @@ Vous pouvez utiliser des guides de tâche pour créer de l'aide personnalisée, 
 
 Vous pouvez créer une aide personnalisée pour votre implémentation de Finance, Supply Chain Management, et pour Retail en créant des enregistrements de tâche qui reflètent votre implémentation, et en les enregistrant dans une bibliothèque de processus d'entreprise LCS. Vous ne pouvez pas créer de guides de tâche personnalisés pour Talent.
 
-Pour les partenaires, si vous faites d'une bibliothèque une bibliothèque d'entreprise et la comprenez dans une solution, elle sera à la disposition de vos clients. Vous pouvez également faire une copie de la bibliothèque globale unifiée APQC, puis ouvrir votre copie, ouvrir des enregistrements de tâches à partit de celle-ci et enregistrer les enregistrements avec vos modifications. Pour plus d'informations, consultez [Création d'un enregistrement de tâche pour l'utiliser comme documentation ou formation](../../dev-itpro/user-interface/task-recorder.md).
+Pour les partenaires, si vous faites d'une bibliothèque une bibliothèque d'entreprise et la comprenez dans une solution, elle sera à la disposition de vos clients. Vous pouvez également faire une copie de la bibliothèque globale unifiée APQC, puis ouvrir votre copie, ouvrir des enregistrements de tâches à partit de celle-ci et enregistrer les enregistrements avec vos modifications. Pour plus d'informations, voir [Ressources de l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md).
 
 ### <a name="connect-a-custom-site"></a>Connecter un site personnalisé
 
@@ -91,8 +91,8 @@ Microsoft a fourni un livre blanc et un exemple de code qui expliquent comment c
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Aperçu de l'aide](help-overview.md)
+[Système d'aide](help-overview.md)
 
-[Vue d'ensemble de l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md)
+[Ressources de l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md)
 
-[Procédure de création d'un enregistrement de tâche à utiliser comme documentation ou formation](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Créer une documentation ou une formation à l'aide de l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder-training-docs.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d5d878b0fe4e6b65aa2439d7ef7312eda1895823
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559028"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814925"
 ---
 # <a name="schedule-workload-capacity"></a>Planifier la capacité de charge de travail
 
@@ -30,7 +30,7 @@ ms.locfileid: "1559028"
 
 Vous pouvez programmer la capacité de la charge de travail pour les entrepôts, et vous pouvez également prévoir les charges de travail actuelles et futures pour les collaborateurs des entrepôts individuels. Vous pouvez prévoir la charge de travail pour l'ensemble de l'entrepôt, ou vous pouvez prévoir la charge de travail séparément pour les charges de travail entrantes et sortantes.
 
-Pour prévoir la charge de travail sortante pour les entrepôts sélectionnés, les données du calcul PDP/MRP doivent être disponibles pour ces entrepôts. Pour plus d'informations, voir [Plans généraux](../master-planning/master-plans.md).
+Pour prévoir la charge de travail sortante pour les entrepôts sélectionnés, les données du calcul PDP/MRP doivent être disponibles pour ces entrepôts. Pour plus d'informations, voir [Vue d'ensemble des plans généraux](../master-planning/master-plans.md).
 
 ## <a name="schedule-and-view-workloads-for-a-warehouse"></a>Planification et affichage des charges de travail pour un entrepôt
 

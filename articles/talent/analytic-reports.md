@@ -1,5 +1,5 @@
 ---
-title: Utiliser les états analytiques dans Microsoft Dynamics 365 Talent - Attract
+title: Utiliser les états analytiques dans Attract
 description: Cette rubrique décrit les états analytiques pour obtenir des informations sur le processus de recrutement dans Microsoft Dynamics 365 Talent - Attract
 author: fewatson
 manager: AnnBe
@@ -19,14 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 5a4d160e8c90725d5ea129a76fd48da1c5af7900
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ae608bbca111313d8c77e63f6a7a95813f6e5cd
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551516"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833229"
 ---
-# <a name="use-analytic-reports-in-microsoft-dynamics-365-talent---attract"></a>Utiliser les états analytiques dans Microsoft Dynamics 365 Talent - Attract
+# <a name="use-analytic-reports-in-attract"></a>Utiliser les états analytiques dans Attract
+
+[!include [banner](includes/banner.md)]
 
 Les états analytiques dans Microsoft Dynamics 365 Talent: Attract fournissent une solution prête à l'emploi pour obtenir des informations sur le processus de recrutement. Les fonctionnalités disponibles comprennent :
 

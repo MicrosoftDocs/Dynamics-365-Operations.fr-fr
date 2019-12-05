@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74750397dc344d74c018c27114357d3d05b95b7e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550105"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771258"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Préparer les métadonnées spécifiques à l'application pour RCS et ER
 
@@ -43,7 +43,7 @@ Pour cet exemple, vous souhaitez utiliser RCS pour créer une solution ER pour l
 > Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société.
 
 1. Allez dans **Administration d'organisation \> Espaces de travail \> États électroniques**.
-2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Sélectionnez **Configuration des métadonnées**.
 4. Sélectionnez **Créer une configuration**.
 5. Dans la boîte de dialogue déroulante, dans le champ **Nom**, entrez un nom. Pour cet exemple, entrez **Métadonnées de commerce extérieur**.
@@ -54,14 +54,14 @@ Pour cet exemple, vous souhaitez utiliser RCS pour créer une solution ER pour l
     > [!NOTE]
     > Vous pouvez sélectionner toutes les métadonnées pour l'application entière, ou pour des modèles ou des modules sélectionnés. Dans les deux cas, notez que les métadonnées suivantes sont automatiquement ajoutées : tables des enregistrements, énumérations, et types de données étendus (EDT, Extended Data Types). Lorsque d'autres types de métadonnées sont requis, ils doivent être ajoutés manuellement.
 
-Vous devez ajouter des métadonnées relatives aux transactions de commerce extérieur et sélectionner manuellement les éléments de métadonnées.
+    Vous devez ajouter des métadonnées relatives aux transactions de commerce extérieur et sélectionner manuellement les éléments de métadonnées.
 
 9. Sélectionnez **Ajouter une source de données \> Enregistrements de table**.
 10. Filtrez sur une valeur de **Déclaration d'échanges de biens** dans le champ **Nom**.
 11. Sélectionnez l'enregistrement de table **Déclaration d'échanges de biens**.
 12. Cliquez sur **OK**.
 
-Vous devez ajouter des informations de métadonnées sur la table d'enregistrements de la déclaration d'échanges de biens.
+    Vous devez ajouter des informations de métadonnées sur la table d'enregistrements de la déclaration d'échanges de biens.
 
 13. Dans l'arborescence, sélectionnez **Enregistrements de table Déclaration d'échanges de biens \> \>Relations \> IntrastatCommodity (Enregistrements de table EcoResCategory)**.
 14. Sélectionnez **Ajouter des métadonnées**.
@@ -95,11 +95,11 @@ La procédure suivante montre comment un utilisateur de RCS ayant le rôle **Adm
 
 Avant d'exécuter cette procédure, vous devez d'abord réaliser celles qui suivent :
 
-- [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md)
+- [Créer des fournisseurs de configuration et les marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md)
 - [Préparer les métadonnées d'application à utiliser dans RCS](#prepare-application-metadata-that-can-be-used-in-rcs)
 
 1. Accédez à **Tous les espaces de travail \> États électroniques**.
-2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Importez la configuration de métadonnées de gestion des états électroniques contenant les métadonnées pour l'application, et qui est configurée pour générer des documents électroniques pour le domaine du commerce extérieur. Vous avez créé cette configuration de métadonnées ER et l'avez exportée dans un fichier XML dans la procédure [Préparer les métadonnées d'application à utiliser dans RCS](#prepare-application-metadata-that-can-be-used-in-rcs) décrite plus haut dans cette rubrique.
 
     1. Sélectionnez **Configuration des métadonnées**.
@@ -201,7 +201,7 @@ Selon vos besoins, vous pouvez étendre l'ensemble de métadonnées existant dan
 
 La procédure suivante montre comment un utilisateur de RCS ayant le rôle **Administrateur système** ou **Développeur gestion des états électroniques** peut créer une mise en correspondance de modèle de gestion des états électroniques à l'aide des métadonnées de l'application. Les métadonnées d'application ne sons accessibles en ligne qu'à l'aide de l'application RCS connectée. Un exemple de mise en correspondance de modèle ER est configuré pour accéder à des transactions de commerce extérieur.
 
-Pour réaliser cette procédure, vous devez commencer par effectuer la procédure [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md) dans RCS. Si vous n'avez pas encore réalisé les la procédure [Accéder aux métadonnées d'application à l'aide de la configuration de la gestion des états électroniques](#access-application-metadata-by-using-an-er-configuration) plus haut dans cette rubrique, accédez à la page [Guides de tâches de la génération d'états électroniques pour Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) pour télécharger par avance les fichiers de configuration ER suivants et les enregistrer localement : **Foreign trade metadata.xml**, **Foreign trade model.xml** et **Foreign trade mapping.xml**.
+Pour réaliser cette procédure, vous devez commencer par effectuer la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md) dans RCS. Si vous n'avez pas encore réalisé les la procédure [Accéder aux métadonnées d'application à l'aide de la configuration de la gestion des états électroniques](#access-application-metadata-by-using-an-er-configuration) plus haut dans cette rubrique, accédez à la page [Guides de tâches de la génération d'états électroniques pour Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) pour télécharger par avance les fichiers de configuration ER suivants et les enregistrer localement : **Foreign trade metadata.xml**, **Foreign trade model.xml** et **Foreign trade mapping.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Obtenir les configurations ER requises

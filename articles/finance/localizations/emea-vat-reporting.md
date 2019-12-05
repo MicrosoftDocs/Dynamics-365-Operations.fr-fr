@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8f1f8ed86af5b9fcb6ede91621b9227115bd2b59
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9d307ceae85773feb58d11e575df27e74b065cd3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175748"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773447"
 ---
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l'Europe
 
@@ -263,7 +263,7 @@ La déclaration de TVA pour chaque pays doit répondre aux exigences de la légi
 |----------------|---------------------------------------------------------------------------------|
 | Autriche        |  [Détails de la déclaration de TVA pour l'Autriche](emea-aut-vat-statement-details.md)         |
 | Belgique        |                                                                                 |
-| République tchèque |  [Détails de la déclaration de TVA pour la République tchèque](emea-cze-vat-statement-details.md)   |
+| République tchèque |  [Relevé de TVA - République tchèque](emea-cze-vat-statement-details.md)   |
 | Estonie        |  [Détails de la déclaration de TVA pour l'Estonie](emea-est-vat-statement-details.md) |
 | Finlande        |                                                                                 |
 | Allemagne        |                                                                                 |

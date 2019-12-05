@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550082"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771327"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé
 
@@ -55,7 +55,7 @@ Dans le [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?
 | Exemple de configuration de format ER        | Format to learn parameterized calls.version.1.1.xml  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Connexion à votre instance RCS
-Dans cet exemple, vous allez créer une configuration pour l'exemple de société, Litware, Inc. Tout d'abord, dans RCS, vous devez suivre les étapes de la procédure [ER Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md) :
+Dans cet exemple, vous allez créer une configuration pour l'exemple de société, Litware, Inc. Tout d'abord, dans RCS, vous devez suivre les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md) :
 
 1. Dans le tableau de bord par défaut, sélectionnez **Gestion des états électroniques**.
 2. Sélectionnez **Configurations des états**.
@@ -75,21 +75,21 @@ Dans cet exemple, vous allez créer une configuration pour l'exemple de sociét�
 3. Sélectionnez **Concepteur**.
 4. Sélectionnez **Concepteur**.  
    
-Cette mise en correspondance des modèles de gestion des états électroniques est conçue pour faire ce qui suit :
+    Cette mise en correspondance des modèles de gestion des états électroniques est conçue pour faire ce qui suit :
 
-- Récupérez la liste des codes taxe (source de données **Taxe**) se trouvant dans la table **TaxTable**.
-- Récupérez la liste des transactions de taxe (source de données **Trans**) se trouvant dans la table **TaxTrans**.
+    - Récupérez la liste des codes taxe (source de données **Taxe**) se trouvant dans la table **TaxTable**.
+    - Récupérez la liste des transactions de taxe (source de données **Trans**) se trouvant dans la table **TaxTrans**.
     
-    - Regroupez la liste des transactions extraites (source de données**Gr** ) par code taxe.
-    - Calculer les transactions regroupées selon les valeurs cumulées par code taxe :
+        - Regroupez la liste des transactions extraites (source de données**Gr** ) par code taxe.
+        - Calculer les transactions regroupées selon les valeurs cumulées par code taxe :
 
-        - Somme des valeurs de base de taxe.
-        - Somme des valeurs de taxe.
-        - Valeur minimale du taux de taxe appliqué.
+            - Somme des valeurs de base de taxe.
+            - Somme des valeurs de taxe.
+            - Valeur minimale du taux de taxe appliqué.
 
-La mise en correspondance des modèles dans cette configuration met en œuvre le modèle des données de base pour tous les formats de gestion des états électroniques créés pour ce modèle et exécutés dans Finance and Operations. Par conséquent, le contenu **Taxe** et source de données **Gr** est exposé pour les formats de gestion des états électroniques tels que des sources de données abstraites.
+    La mise en correspondance des modèles dans cette configuration met en œuvre le modèle des données de base pour tous les formats de gestion des états électroniques créés pour ce modèle et exécutés dans Finance and Operations. Par conséquent, le contenu **Taxe** et source de données **Gr** est exposé pour les formats de gestion des états électroniques tels que des sources de données abstraites.
 
-  ![Page du concepteur de mise en correspondance des modèles affichant les sources des données Taxe et Gr](media/er-calculated-field-type-01.png)
+    ![Page du concepteur de mise en correspondance des modèles affichant les sources des données Taxe et Gr](media/er-calculated-field-type-01.png)
 
 5.  Fermez la page **Concepteur de mise en correspondance des modèles**.
 6.  Fermez la page **Mise en correspondance des modèles**.
@@ -100,25 +100,25 @@ La mise en correspondance des modèles dans cette configuration met en œuvre le
 2. Sélectionnez **Format pour l'apprentissage des appels paramétrés**.
 3. Sélectionnez **Concepteur**. Ce format de gestion des états électroniques est conçue pour faire ce qui suit :
 
-  - Générez un relevé de taxe au format XML.
-  - Présentez les niveaux suivants de taxation dans le relevé de taxe : normal, réduit et aucun.
-  - Présentez plusieurs détails à chaque niveau de taxation, avec un nombre différents de détails à chaque niveau.
+    - Générez un relevé de taxe au format XML.
+    - Présentez les niveaux suivants de taxation dans le relevé de taxe : normal, réduit et aucun.
+    - Présentez plusieurs détails à chaque niveau de taxation, avec un nombre différents de détails à chaque niveau.
 
-  ![Page Concepteur de formats](media/er-calculated-field-type-02.png)
+    ![Page Concepteur de formats](media/er-calculated-field-type-02.png)
 
 4. Sélectionnez **Mappage**.
 5. Développez les articles **Modèle**, **Données** et **Synthèse**. 
 
-   Le champ calculé **Model.Data.Summary.Level** contient l'expression qui renvoie le code du niveau de taxation (**Normal**, **Réduit**, **Aucun,** ou **Autre**) comme valeur de texte pour un code taxe pouvant être récupéré de la source de données **Model.Data.Summary** au moment de l'exécution.
+    Le champ calculé **Model.Data.Summary.Level** contient l'expression qui renvoie le code du niveau de taxation (**Normal**, **Réduit**, **Aucun,** ou **Autre**) comme valeur de texte pour un code taxe pouvant être récupéré de la source de données **Model.Data.Summary** au moment de l'exécution.
 
-  ![Page du concepteur de format affichant les détails du modèle Modèle de données pour l'apprentissage des appels paramétrés](media/er-calculated-field-type-03.png)
+    ![Page du concepteur de format affichant les détails du modèle Modèle de données pour l'apprentissage des appels paramétrés](media/er-calculated-field-type-03.png)
 
 6. Développez l'article **Modèle**. **Data2**.
 7. Développez l'article **Modèle**. **Data2.Summary2**.
    
-   La source de données **Model**.**Data2.Summary2** est configurée pour regrouper les détails de transaction de la source de données **Model.Data.Summary** par niveau de taxation (renvoyé par le champ calculé **Model.Data.Summary.Level**) et calcul les agrégations.
+    La source de données **Model**.**Data2.Summary2** est configurée pour regrouper les détails de transaction de la source de données **Model.Data.Summary** par niveau de taxation (renvoyé par le champ calculé **Model.Data.Summary.Level**) et calcul les agrégations.
 
-  ![Page du concepteur de format présentant les détails de la source de données Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![Page du concepteur de format présentant les détails de la source de données Model.Data2.Summary2](media/er-calculated-field-type-04.png)
 
 8. Examinez les champs calculés **Modèle**.**Data2.Level1**, **Modèle**.**Data2.Level2** et **Modèle**.**Data2.Level3.** Ces champs calculés sont utilisés pour filtrer la liste des enregistrements **Modèle**.**Data2.Summary2** et renvoyer uniquement les enregistrements qui représentent un niveau de taxation spécifique.
 9. Fermez la page **Concepteur de format**.
@@ -309,7 +309,7 @@ Lorsqu'un champ calculé paramétré renvoie un enregistrement, vous devez prend
 Vous pouvez exécuter les formats de gestion des états électroniques d'origine et améliorés pour veiller à ce que les champs calculés paramétrés configurés fonctionnent correctement.
 
 ### <a name="import-er-configurations"></a>Importer les configurations ER
-Vous pouvez importer des configurations révisées depuis RCS à l'aide du référentiel de gestion des états électroniques de type **RCS**. Si vous avez déjà effectué la procédure de la rubrique [Importer les configurations des états électroniques des services de configuration réglementaires](rcs-download-configurations.md), utilisez le référentiel de gestion des états électroniques configurés pour importer les configurations abordées précédemment dans cette rubrique dans votre environnement. Sinon, procédez comme suit :
+Vous pouvez importer des configurations révisées depuis RCS à l'aide du référentiel de gestion des états électroniques de type **RCS**. Si vous avez déjà effectué la procédure de la rubrique [Importer les configurations des états électroniques (ER) des services de configuration réglementaires (RCS)](rcs-download-configurations.md), utilisez le référentiel de gestion des états électroniques configurés pour importer les configurations abordées précédemment dans cette rubrique dans votre environnement. Sinon, procédez comme suit :
 
 1. Sélectionnez la société **DEMF** et sur le tableau de bord par défaut, sélectionnez **Gestion des états électroniques**.
 2. Sélectionnez **Configurations des états**.
@@ -339,4 +339,4 @@ Vous pouvez importer des configurations révisées depuis RCS à l'aide du réf�
 8. Comparez le contenu des sorties générées.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-[Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
+[Concepteur de formule dans les états électroniques (ER)](general-electronic-reporting-formula-designer.md)

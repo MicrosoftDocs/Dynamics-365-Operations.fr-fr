@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14aa9b56da005e8e3ca121589d0e22c60f34343b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189773"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772695"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
@@ -50,4 +50,4 @@ Voici quelques points clés à noter en ce qui concerne l'ajout d'alertes aux wo
     - Les messages du Centre d'actions peuvent être créés pour des utilisateurs spécifiques, tels qu'un message créé à partir d'un workflow dans X++.
     - [Les workflows comportent des événements commerciaux](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que le client peut utiliser pour faire en sorte que les flux disposent des notifications dont ils ont besoin.   
 
-En résumé, si un utilisateur ne reçoit pas la notification appropriée en provenance du Centre d'actions lorsqu'un élément de travail de workflow leur est affecté, tirez parti des [Événements commerciaux de workflow](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) avec Microsoft Flow pour fournir des notifications supplémentaires ou différentes.
+En résumé, si un utilisateur ne reçoit pas la notification appropriée en provenance du Centre d'actions lorsqu'un élément de travail de workflow leur est affecté, tirez parti des [Événements commerciaux de workflow](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) avec Microsoft Power Automate pour fournir des notifications supplémentaires ou différentes.

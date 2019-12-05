@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 7134dc49c0e767d3bc4dc32e4feeb0e83a168e86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 930c744ff2a28451d4267f060867b4b6474d45e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190923"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811576"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Guides de tâches nouveaux ou mis à jour (mai 2016)
 
@@ -32,7 +32,7 @@ Cet article répertorie les guides de tâches nouveaux ou mis à jour ont été 
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guides de tâches dans la bibliothèque unifiée APQC (mai 2016 - toutes les langues) pour Microsoft Dynamics AX
 
-La bibliothèque unifiée APQC (mai 2016) contient les guides de tâches qui sont destinés à être utilisés pour l’aide avec la mise à jour Microsoft Dynamics AX mai 2016 et Microsoft Dynamics AX février 2016. Des versions localisées des guides des tâches qui ont été publiés dans la bibliothèque unifiée APQC (février 2016) sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Prise en main de l'aide](help-overview.md).
+La bibliothèque unifiée APQC (mai 2016) contient les guides de tâches qui sont destinés à être utilisés pour l’aide avec la mise à jour Microsoft Dynamics AX mai 2016 et Microsoft Dynamics AX février 2016. Des versions localisées des guides des tâches qui ont été publiés dans la bibliothèque unifiée APQC (février 2016) sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Système d'aide](help-overview.md).
 
 > [!NOTE]
 > Un astérisque (\*) en regard du titre d'une ligne de Concepteur de processus d'entreprise indique que le guide de tâche de ce processus a été créé pour la mise à jour de mai 2016 de Dynamics AX et qu'il n'est pas pris en charge dans les versions antérieures de Microsoft Dynamics AX.
@@ -193,4 +193,4 @@ La bibliothèque unifiée APQC (mai 2016) contient les guides de tâches qui son
 
 [Guides de tâches nouveaux ou mis à jour (août 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
+[Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)

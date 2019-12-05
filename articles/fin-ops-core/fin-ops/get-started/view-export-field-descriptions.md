@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177844"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811505"
 ---
 # <a name="view-and-export-field-descriptions"></a>Afficher et exporter les descriptions de champ
 
@@ -35,7 +35,7 @@ Certains des champs plus complexes ont des descriptions de champ. Ces descriptio
 
 Toutes les pages n'ont pas des descriptions de champ. Nous souhaitons uniquement fournir des descriptions pour les champs plus complexes, et non ceux dont l'utilisation du champ est évidente. Par conséquent, certaines pages n’ont pas de descriptions de champ, certaines pages comportent quelques descriptions et certaines des pages plus complexes, comme la plupart des pages de paramètres, comportent de nombreuses descriptions.
 
-Si vous avez accès à l'environnement de développement, vous pouvez ajouter de nouvelles descriptions de champ et personnaliser les descriptions existantes. Par exemple, vous pouvez ajouter des informations spécifiques à la société dans une description de champ. Pour plus d'informations, voir [Personnaliser le champ d'aide](../../dev-itpro/user-interface/customize-field-help.md).
+Si vous avez accès à l'environnement de développement, vous pouvez ajouter de nouvelles descriptions de champ et personnaliser les descriptions existantes. Par exemple, vous pouvez ajouter des informations spécifiques à la société dans une description de champ. Pour plus d'informations, voir [Personnaliser les descriptions de champ](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Voir les descriptions des champs dans l'interface utilisateur
 
@@ -107,4 +107,4 @@ Pour plus d’informations sur les différentes façons de trouver une page, con
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Personnaliser l'aide du champ](../../dev-itpro/user-interface/customize-field-help.md)
+[Personnaliser les descriptions de champ](../../dev-itpro/user-interface/customize-field-help.md)

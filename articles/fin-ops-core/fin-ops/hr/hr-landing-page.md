@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553161"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812434"
 ---
 # <a name="human-resources-overview"></a>Vue d'ensemble des ressources humaines
 
@@ -46,14 +46,14 @@ Le module Ressources humaines vous permet d'effectuer les tâches suivantes :
 Lorsque vous travaillez avec le module Ressources humaines, vous décidez comment structurer votre organisation, avec des éléments, tels que les départements, les tâches, et les postes. Il s'agit là des éléments fondamentaux que vous allez configurerez dans le module Ressources humaines. Les employés sont affectés à des postes associés à des tâches.
 
 - [Organisation du personnel à l'aide des départements, tâches et postes](../../../talent/departments-jobs-positions.md)
-- [Définition des paramètres spécifiques à la société](../../../talent/set-up-company-specific-hr-parameters.md)
-- [Configuration des paramètres RH dans les entités juridiques](../../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Configurer des paramètres de ressources humaines (RH) spécifiques à la société](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Configuration des paramètres des ressources humaines (RH) dans les entités juridiques](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Recruter, embaucher et motiver les employés
 
 Les projets de recrutement permettent de gérer le contenu utilisé dans les annonces des postes à pourvoir et peuvent vous aider à gérer les candidatures aux emplois vacants. Vous pouvez les utiliser pour suivre les réponses aux offres d'emploi pour un projet de recrutement spécifique ou des candidatures spécifiques, et pour mettre à jour le statut des postes vacants. Vous pouvez également embaucher des candidats uniques ou gérer des « projets d'embauche collective », qui facilitent l'embauche de plusieurs travailleurs, par exemple, pour répondre aux besoins saisonniers de l'entreprise.
 
-- [Gestion d'un processus de recrutement](manage-recruiting-process.md)
+- [Gestion des processus de recrutement](manage-recruiting-process.md)
 - [Projets d'embauche collective](mass-hire-projects.md) 
 
 Une fois que vous avez engagé du personnel, vous pouvez définir des plans pour gérer efficacement et équitablement la rémunération, ainsi que gérer les appareils tels que les ordinateurs ou les téléphones, que votre organisation prête à ses employés. Vous pouvez créer des régimes de rémunération fixe et variable, et définir des règles qui appliquent le régime de rémunération en fonction des critères de ce programme.
@@ -68,29 +68,29 @@ Pour aider vos employés à atteindre leurs objectifs de carrière tout en répo
 
 - [Gestion des performances](../../../talent/performance-management-overview.md)
 - [Aligner les qualifications du personnel aux besoins de l'entreprise](../../../talent/skills.md)
-- [Administrer la formation via des cours](../../../talent/courses.md)
+- [Configurer des cours de formation](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Créer des avantages et les tenir à jour
 
-En plus de rémunérer votre équipe avec des traitements, des salaires et des primes, vous pouvez créer des programmes d'avantages et des plans d'épargne retraite. Vous pouvez également gérer des avantages tels que les programmes de prêt, à travers lesquels votre société prête des actifs, tels que des ordinateurs ou à des téléphones, à ses employés.
+En plus de rémunérer votre équipe avec des traitements, des salaires et des primes, vous pouvez créer des programmes d'avantages et des plans d’épargne retraite. Vous pouvez également gérer des avantages tels que les programmes de prêt, à travers lesquels votre société prête des actifs, tels que des ordinateurs ou à des téléphones, à ses employés.
 
-- [Gérer un programme d'avantages](../../../talent/manage-benefit-program.md)
+- [Définir et gérer un programme social](../../../talent/manage-benefit-program.md)
 - [Stratégies de droit aux avantages](../../../talent/benefit-eligibility-policies.md)
-- [Gérer les articles prêtés aux collaborateurs](../../../talent/loan-items.md)
+- [Gérer des articles prêtés aux employés](../../../talent/loan-items.md)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Tenir à jour la conformité et la sécurité de l'espace de travail
+## <a name="maintain-workplace-safety-and-compliance"></a>Tenir à jour la conformité et la sécurité de l’espace de travail
 
 Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail sécurisé conforme aux lois applicables, y compris à la législation sur le handicap, l'immigration et la naturalisation, entre autres. Par exemple, vous pouvez gérer les exigences physiques pour des tâches spécifiques, ainsi que le suivi des demandes d'aménagements pouvant aider votre organisation à optimiser les qualifications de son personnel.
 
-- [Écran I-9 - Vérification d'emploi](localizations/noam-usa-form-i-9-verification.md)
+- [Vérification du formulaire I-9](localizations/noam-usa-form-i-9-verification.md)
 - [Respect de l'ADA](localizations/noam-usa-comply-ada.md)
-- [Suivre les périodes de congés pour FMLA](localizations/noam-usa-track-time-for-fmla.md)
+- [Suivre les périodes de congés pour la Family and Medical Leave Act (FMLA)](localizations/noam-usa-track-time-for-fmla.md)
 
 ## <a name="gather-information-using-questionnaires"></a>Réunir des informations à l'aide de questionnaires
 
 Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu'il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
 
 - [Questionnaires](../../../talent/questionnaires.md)
-- [Conception d'un questionnaire](../../../talent/design-questionnaires.md)
-- [Distribuer et remplir un questionnaire](../../../talent/distribute-questionnaires.md)
-- [Afficher et évaluer les résultats d'un questionnaire](../../../talent/evaluate-questionnaire-results.md)
+- [Créer des questionnaires](../../../talent/design-questionnaires.md)
+- [Distribuer et programmer des questionnaires](../../../talent/distribute-questionnaires.md)
+- [Afficher et évaluer les résultats des questionnaires](../../../talent/evaluate-questionnaire-results.md)

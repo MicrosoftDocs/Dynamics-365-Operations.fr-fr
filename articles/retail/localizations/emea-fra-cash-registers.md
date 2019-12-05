@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: 31e2fbc8de3b77e4654668f8fce53adca940ac01
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 76be86c12a75db3c84d5c4a34670aad2ad42bf26
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023381"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812321"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -39,7 +39,7 @@ Cette fonctionnalité contient les parties suivantes :
 
 ### <a name="common-pos-features"></a>Fonctionnalités de PDV courantes
 
-Pour connaître les fonctionnalités de PDV disponibles pour les clients de tous les pays ou régions, voir la documentation [Microsoft Dynamics 365 for Retail](../index.md).
+Pour connaître les fonctionnalités de PDV disponibles pour les clients de tous les pays ou régions, voir la documentation [Aider les ressources pour Dynamics 365 Retail](../index.md).
 
 Les fonctionnalités de localisation PDV suivantes disponibles pour les clients de tous les pays ou régions peuvent désormais être utilisées spécifiquement pour la France :
 
@@ -198,7 +198,7 @@ Le format de l'archive est implémenté à l'aide de la [gestion des états éle
 
 ## <a name="setting-up-retail-for-france"></a>Configuration de Retail pour la France
 
-Cette section décrit les paramètres Retail spécifiques et recommandés pour la France. Pour plus d'informations sur le paramétrage de la vente au détail, voir [Documentation Microsoft Dynamics 365 Retail](../index.md).
+Cette section décrit les paramètres Retail spécifiques et recommandés pour la France. Pour plus d'informations sur le paramétrage de la vente au détail, voir [Aider les ressources pour Dynamics 365 Retail](../index.md).
 
 Pour utiliser la fonctionnalité spécifique pour la France pour Retail, vous devez effectuer les tâches suivantes :
 
@@ -306,7 +306,7 @@ Dans le Concepteur de format de ticket de caisse, ajoutez des champs personnalis
     - **Nom du magasin** – Ce champ standard imprime le nom du magasin.
     - **Adresse du magasin** – Ce champ standard imprime l'adresse du magasin.
 
-Pour plus d'informations sur l'utilisation des formats de tickets de caisse, voir [Modèles de tickets de caisse et impression](../receipt-templates-printing.md).
+Pour plus d'informations sur l'utilisation des formats de tickets de caisse, voir [Configurer et concevoir les formats de tickets de caisse](../receipt-templates-printing.md).
 
 ### <a name="configure-the-digital-signature-parameters-for-retail-headquarters"></a>Configurer les paramètres de signature numérique de Retail Siège
 
@@ -349,7 +349,7 @@ Après l'importation des configurations, dans la page **Paramètres Retail**, so
 
 Pour activer les événements d'audit, vous devez réinitialiser les énumérations Retail Extensible. Pour activer la transmission de données spécifiques à la France du PDV au siège, vous devez réinitialiser Retail Planification.
 
-Dans l'organisateur **Général** de la page **Paramètres des ventes au détail**, cliquez sur **Initialiser**. Pour plus d'information, voir [Initialiser les données d'origine](../enable-configure-retail-functionality.md)
+Dans l'organisateur **Général** de la page **Paramètres des ventes au détail**, cliquez sur **Initialiser**. Pour en savoir plus, voir [Initialisation des données de départ dans de nouveaux environnement Retail](../enable-configure-retail-functionality.md)
 
 Il existe une option pour configurer séparément Retail Planification. Cliquez sur **Retail Planification** \> **Initialiser Retail Planification**. Dans la page **Initialiser Retail Planification**, cliquez sur **OK**.
 

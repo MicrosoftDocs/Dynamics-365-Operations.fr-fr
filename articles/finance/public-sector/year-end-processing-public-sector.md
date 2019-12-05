@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfca8ed7bff52592ee57e2ae32f9358789730ced
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9e23aade2af33bc0f62aa11e57de0ad6caacad5d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174613"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773603"
 ---
 # <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d'exercice dans le secteur public
 
@@ -46,7 +46,7 @@ Oui, le processus de fin d'exercice peut être exécuté plusieurs fois pour le 
 Le traitement de fin d'exercice des soldes comptables est contrôlé par les paramètres de configuration de fonds dans deux endroits :
 
 -   Le processus de fin d'exercice visant la clôture des soldes comptables de l'année passée et le paramétrage des soldes d'ouverture dans la nouvelle année est effectué par l'intermédiaire de la page **Transactions d'ouverture**. Un fonds unique ou une plage des fonds est requis pour le traitement.
--   L'option de traitement de fin d'exercice pour les engagements de commande fournisseur est définie sur la page **Processus de fin d'exercice de commande fournisseur**. Vous pouvez remplacer l'option sur un fonds spécifique, à condition que les paramètres de comptabilité aient été définis pour autoriser les remplacements. Pour plus d'informations sur ces paramètres, voir [Comptabilité dans le secteur public](general-ledger-public-sector.md).
+-   L'option de traitement de fin d'exercice pour les engagements de commande fournisseur est définie sur la page **Processus de fin d'exercice de commande fournisseur**. Vous pouvez remplacer l'option sur un fonds spécifique, à condition que les paramètres de comptabilité aient été définis pour autoriser les remplacements. Pour plus d'informations sur ces paramètres, voir [Vue d'ensemble de la comptabilité dans le secteur public](general-ledger-public-sector.md).
 
 ## <a name="how-do-i-set-up-main-accounts-for-year-end-processing"></a>Comment paramétrer des comptes principaux pour le traitement de fin d'exercice ?
 Vous devez sélectionner un type de clôture pour chaque compte dans votre plan de comptes. Le type de clôture détermine la manière dont le processus de fin d'exercice traite ce compte principal. Il existe quatre types de clôture :

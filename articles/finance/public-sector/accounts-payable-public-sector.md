@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b88186dd1efa5381ad1a1109d54bdcc64d7c14a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: beef5c13c31af7551255c8264c1b6478abee6428
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183648"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773611"
 ---
 # <a name="accounts-payable-in-the-public-sector-overview"></a>Vue d'ensemble de la comptabilité fournisseur (Secteur public)
 
@@ -52,7 +52,7 @@ Après avoir paramétré les conditions préalables, vous devez paramétrer les 
   > Cela s'applique également à la comptabilité, à la budgétisation et à la comptabilité client.
 
 
-- [Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md) – Lorsqu'une approbation ou un contrat sous forme d'une commande fournisseur n'est pas nécessaire, vous pouvez rapidement créer une ou plusieurs factures tout en créant un enregistrement pour le fournisseur. Pour plus d'informations, voir [Planification pour les fournisseurs occasionnels dans le secteur public](plan-one-time-vendors-public-sector.md).
+- [Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md) – Lorsqu'une approbation ou un contrat sous forme d'une commande fournisseur n'est pas nécessaire, vous pouvez rapidement créer une ou plusieurs factures tout en créant un enregistrement pour le fournisseur. Pour plus d'informations, voir [Plan pour les fournisseurs occasionnels dans le secteur public](plan-one-time-vendors-public-sector.md).
 - Vue d'ensemble du formulaire de déclaration des honoraires dans le secteur public – Si vous entretenez des relations commerciales avec des fournisseurs américains assujettis à la taxe sur les honoraires, vous devez effectuer le suivi du montant réglé à chaque fournisseur et le déclarer à la fin de l'année civile. Les organisations du secteur public utilisent les formulaires 1099-G et 1099-S.
 
 > [!NOTE]
@@ -104,7 +104,7 @@ Vous pouvez afficher les montants de ligne pour une commande fournisseur. Ces mo
 
 Pour plus d'informations, voir les rubriques suivantes :
 
-[Ajouter un type de certification à un fournisseur](tasks/add-certification-type-vendor-public-sector.md)
+[Ajouter une certification à un fournisseur](tasks/add-certification-type-vendor-public-sector.md)
 
 [Contrôle de l'accès aux contrats d'achat](tasks/control-access-purchase-agreements-public-sector.md)
 

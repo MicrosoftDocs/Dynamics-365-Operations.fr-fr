@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626245"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811740"
 ---
 # <a name="manually-created-work-orders"></a>Ordres de travail créés manuellement
 
@@ -70,7 +70,7 @@ Notez les points suivants :
 
 - Dans la vue des détails de la page de liste **Tous les ordres de travail**, vous pouvez ajouter plusieurs actifs à un ordre de travail en ajoutant des lignes sur l'organisateur **Tâches de maintenance des ordres de travail**. Sur un actif, vous ne pouvez sélectionner que les types de tâche de maintenance définis sur le type d'actif qui est sélectionné pour l'actif.  
 
-- Si vous modifiez un niveau de service d'actif ou un élément critique d'actif après l'avoir utilisé sur un ordre de travail, le niveau de service ou l'élément critique sur l'ordre de travail n'est pas mis à jour en conséquence. Pour plus d'informations sur les niveaux de service et les éléments critiques, voir [Niveaux de service de l'actif](../setup-for-objects/object-priorities.md) et [Éléments critiques de l'actif](../setup-for-objects/object-criticalities.md).
+- Si vous modifiez un niveau de service d'actif ou un élément critique d'actif après l'avoir utilisé sur un ordre de travail, le niveau de service ou l'élément critique sur l'ordre de travail n'est pas mis à jour en conséquence. Pour plus d'informations sur les niveaux de service et les éléments critiques, voir [Niveaux de service de l'actif](../setup-for-objects/object-priorities.md) et [Types critiques de l'actif](../setup-for-objects/object-criticalities.md).
 
 - L'élément critique sur un ordre de travail est recalculé chaque fois qu'une tâche d'ordre de travail est ajoutée ou supprimée de l'ordre de travail.
 

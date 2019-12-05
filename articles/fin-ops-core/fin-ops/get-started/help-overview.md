@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537830"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811670"
 ---
 # <a name="help-system"></a>Système d'aide
 
@@ -82,7 +82,7 @@ Pour plus d'informations, reportez-vous à notre [guide du contributeur](https:/
 
 Un guide de tâche est une expérience contrôlée, guidée, interactive qui vous accompagne le long des étapes d'une tâche ou d'un processus métier. Vous pouvez lire un guide de tâche à partir du volet Aide. Lorsque vous cliquez sur un guide de tâche, le volet Aide affiche les instructions pas-à-pas concernant la tâche. Des guides des tâche localisés sont disponibles.
 
-Microsoft a fourni des bibliothèques de guides de tâche pour les versions jusqu'en décembre 2017 pour Dynamics 365 for Finance and Operations. La section [Accès aux guides de tâche à partir du volet Aide](help-overview.md#accessing-task-guides-from-the-help-pane) décrit comment trouver les guides de tâche appropriés à votre produit.
+Microsoft a fourni des bibliothèques de guides de tâche pour les versions jusqu'en décembre 2017 pour Dynamics 365 for Finance and Operations. La section [Système d'aide](help-overview.md#accessing-task-guides-from-the-help-pane) décrit comment trouver les guides de tâche appropriés à votre produit.
 
 ![Vue de lecture du Guide de tâche](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ Pour démarrer l'expérience guidée et interactive, cliquez sur **Démarrer le 
 > [!IMPORTANT]
 > Les données que vous entrez dans un guide de tâche sont réelles. Si vous êtes dans un environnement de production, les données seront saisies dans la société que vous utilisez actuellement.
 
-L'enregistreur de tâches vous permet de créer vos propres guides de tâche personnalisés. Pour plus d'informations, consultez [Créer une documentation ou une formation à l'aide des enregistrements de tâches](../../dev-itpro/user-interface/task-recorder-training-docs.md).
+L'enregistreur de tâches vous permet de créer vos propres guides de tâche personnalisés. Pour plus d'informations, consultez [Créer une documentation ou une formation avec l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Aide intégrée au produit
 
@@ -144,13 +144,12 @@ Les guides de tâche traduits sont disponibles dans les bibliothèques avec la m
 
 Vous pouvez créer de l'aide pour vos utilisateurs en créant des guides de tâche personnalisés, ou connecter votre propre site Web au volet d'aide. Pour plus d'informations, voir :
 
-- [Procédure de création d'un enregistrement de tâche à utiliser comme documentation ou formation](../../dev-itpro/user-interface/task-recorder.md).
+- [Ressources de l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md).
 - [Créer l'aide personnalisée (livre blanc)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md)
-- [Créer une documentation ou une formation à l'aide d'enregistrements de tâche](../../dev-itpro/user-interface/task-recorder.md)
+- [Ressources de l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md)
 
 Le tableau suivant répertorie nos sites Web. Les sites qui ont un astérisque (\*) en regard de leur nom nécessitent une identification de connexion à l'aide d'un compte associé à un plan de service.
 

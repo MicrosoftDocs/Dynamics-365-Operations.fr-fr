@@ -1,5 +1,5 @@
 ---
-title: Suivre les sources pour les profils de candidat et les candidatures
+title: Suivre des sources de candidats dans Attract
 description: Cette rubrique fournit des informations sur la remontée à la source des profils et des candidatures des candidats.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551885"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832652"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Suivre les sources pour les profils de candidat et les candidatures
+# <a name="track-candidate-sources-in-attract"></a>Suivre des sources de candidats dans Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > La fonctionnalité décrite dans cette rubrique est accessible dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour utiliser cette fonction, demandez à un administrateur de l'activer à l'aide des **Paramètres d'administrateur** dans Attract. Une version future fournira des états de suivi de la source. Pour plus d'informations, voir [Accéder aux fonctions d'aperçu de Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551447"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812831"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Partager du contenu avec d'autres contributeurs dans Dynamics 365 Talent - Onboard
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 Talent: Onboard vous permet de partager des guides et des
 
 3. Sous **Destinataire**, si les destinataires doivent pouvoir réviser le modèle, définissez l'option **Ces personnes peuvent-elles apporter des modifications ?** sur **Oui**. Si les destinataires doivent être informés par e-mail que vous avez partagé le modèle avec eux, définissez l'option **Envoyer une notification par e-mail aux destinataires** sur **Oui**.
 
-    [Définition des préférences d'accès et d'e-mail pour un modèle](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![Définir des préférences d'accès et d'e-mail pour un modèle](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Entrez un nom ou une adresse e-mail, puis sélectionnez le destinataire souhaité dans la liste déroulante.
 5. Sous l'onglet **Gérer l'accès**, vous pouvez examiner ou modifier ce que les destinataires peuvent faire avec le modèle. Pour modifier l'accès d'un destinataire, dans la liste déroulante en regard du nom du destinataire, sélectionnez **Peut afficher**, **Peut modifier** ou **Supprimer**, selon le cas.
@@ -68,6 +68,6 @@ Microsoft Dynamics 365 Talent: Onboard vous permet de partager des guides et des
 ### <a name="see-also"></a>Voir également :
 
 - [Essayer ou acheter l'application Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Nouveautés](./whats-new.md)
-- [Note de publication](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obtenir de l'aide](./talent-support.md)
+- [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md)
+- [Programmes de lancement](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obtenir de l'aide sur Microsoft Dynamics 365 Talent](./talent-support.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182575"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769853"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
 
@@ -36,7 +36,7 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Téléchargez la configuration du modèle de données des paiements
 1. Dans le volet de navigation, accédez à **Modules > Administration d'organisation > Espaces de travail > Gestion des états électroniques**.
-2. Dans la liste, sélectionnez le fournisseur de configuration pour la société fictive Litware, Inc. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure dans [Créer un fournisseur de configuration et le marquer comme actif](er-configuration-provider-mark-it-active-2016-11.md).
+2. Dans la liste, sélectionnez le fournisseur de configuration pour la société fictive Litware, Inc. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure dans [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).
 3. Sélectionnez **Activer**.
 4. Sélectionnez **Référentiels**. Sélectionnez un référentiel pour le type de ressources opérationnelles, si disponible. S'il n'est pas disponible, ignorez les étapes suivantes sur la création d'un référentiel.  
 5. Sélectionnez **Ajouter** pour ouvrir la boîte de dialogue.

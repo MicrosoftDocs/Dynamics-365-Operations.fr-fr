@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572447"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769658"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Hiérarchie d'organisation dans Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Comme Dynamics 365 Finance est un système financier, l'*organisation* est un concept de base, et le système commence par la configuration d'une hiérarchie d'organisation. Les opérations financières et commerciales peuvent ensuite être suivies au niveau de l'organisation et également à tous les niveaux de la hiérarchie d'organisation.
 
@@ -46,85 +44,35 @@ Bien que Common Data Service ne dispose pas du concept de hiérarchie d'organisa
 
 Des mises en correspondance de l'entité Hiérarchie d'organisation sont disponibles pour la synchronisation unidirectionnelle des données entre les applications Finance and Operations et Common Data Service.
 
+## <a name="templates"></a>Modèles
+
+Les informations de produit contiennent toutes les informations associées au produit et à sa définition, comme les dimensions du produit ou les dimensions de suivi et de stockage. Lorsque le tableau suivant s'affiche, un ensemble de cartes d'entité est créé pour synchroniser les produits et les informations associées.
+
+Finance and Operations | Autres applications Dynamics 365 | Description
+-----------------------|--------------------------------|---
+Objectifs de la hiérarchie d'organisation | msdyn_internalorganizationhierarchypurposes | Ce modèle fournit une synchronisation unidirectionnelle de l'entité Objectif de la hiérarchie d'organisation.
+Type de la hiérarchie d'organisation | msdyn_internalorganizationhierarchytypes | Ce modèle fournit une synchronisation unidirectionnelle de l'entité Type de la hiérarchie d'organisation.
+Hiérarchie d'organisation - publiée | msdyn_internalorganizationhierarchies | Ce modèle fournit une synchronisation unidirectionnelle de l'entité Hiérarchie d'organisation publiée.
+Unité opérationnelle | msdyn_internalorganizations | 
+Entités juridiques | msdyn_internalorganizations | 
+Entités juridiques | cdm_companies | Fournit la synchronisation bidirectionnelle d'informations sur l'entité juridique (société).
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>Objectif de la hiérarchie d'organisation interne
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-Ce modèle fournit une synchronisation unidirectionnelle de l'entité Objet de la hiérarchie d'organisation entre Finance and Operations et d'autres applications Dynamics 365.
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-Champ source | Type de mise en correspondance | Champ de destination
----|---|---
-HIERARCHYTYPE | \> | msdyn\_hierarchypurposetypename
-HIERARCHYTYPE | \> | msdyn\_hierarchytype.msdyn\_name
-HIERARCHYPURPOSE | \>\> | msdyn\_hierarchypurpose
-IMMUTABLE | \>\> | msdyn\_immutable
-SETASDEFAULT | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>Type de hiérarchie d'organisation interne
-
-Ce modèle fournit une synchronisation unidirectionnelle de l'entité Type de la hiérarchie d'organisation entre Finance and Operations et d'autres applications Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-Champ source | Type de mise en correspondance | Champ de destination
----|---|---
-NOM | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>Hiérarchie d'organisation interne
-
-Ce modèle fournit une synchronisation unidirectionnelle de l'entité publiée de la hiérarchie d'organisation entre Finance and Operations et d'autres applications Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-Champ source | Type de mise en correspondance | Champ de destination
----|---|---
-VALIDTO | \> | msdyn\_validto
-VALIDFROM | \> | msdyn\_validfrom
-HIERARCHYTYPE | \> | msdyn\_hierarchytypename
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentpartyid
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childpartyid
-HIERARCHYTYPE | \> | msdyn\_hierarchytypeid.msdyn\_name
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childid.msdyn\_partynumber
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>Organisation interne
 
 Les informations d'organisation internes dans Common Data Service proviennent de deux entités, **unité opérationnelle** et **entités juridiques**.
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>Unité opérationnelle
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-Champ source | Type de mise en correspondance | Champ de destination
----|---|---
-LANGUAGEID | \> | msdyn\_languageid
-NAMEALIAS | \> | msdyn\_namealias
-NOM | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-OPERATINGUNITTYPE | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>Entité juridique
-
-Champ source | Type de mise en correspondance | Champ de destination
----|---|---
-NAMEALIAS | \> | msdyn\_namealias
-LANGUAGEID | \> | msdyn\_languageid
-NOM | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-aucun | \>\> | msdyn\_type
-LEGALENTITYID | \> | msdyn\_companycode
-
-## <a name="company"></a>Société
-
-Fournit la synchronisation bidirectionnelle d'informations sur l'entité juridique (société) entre Finance and Operations et d'autres applications Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-Champ source | Type de mise en correspondance | Champ de destination
----|---|---
-NOM | = | cdm\_name
-LEGALENTITYID | = | cdm\_companycode

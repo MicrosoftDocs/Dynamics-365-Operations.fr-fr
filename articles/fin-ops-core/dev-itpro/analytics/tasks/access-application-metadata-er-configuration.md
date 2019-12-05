@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182736"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772461"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Accéder aux métadonnées d'application à l'aide de la configuration de la gestion des états électroniques
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une mise en correspondance de modèle de génération d'états électronique (ER) en utilisant les métadonnées de l'application. Les métadonnées d'application sont accessibles à l'aide d'une configuration de métadonnées ER contenant un échantillon de métadonnées pour accéder aux transactions de commerce extérieur. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de cette rubrique dans RCS, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Ensuite, suivez les étapes de la rubrique [(ER) Préparer les métadonnées d'application à utiliser dans RCS](prepare-application-metadata-rcs.md).
+Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une mise en correspondance de modèle de génération d'états électronique (ER) en utilisant les métadonnées de l'application. Les métadonnées d'application sont accessibles à l'aide d'une configuration de métadonnées ER contenant un échantillon de métadonnées pour accéder aux transactions de commerce extérieur. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de cette rubrique dans RCS, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Ensuite, suivez les étapes de la rubrique [Préparer les métadonnées d'application à utiliser dans RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Conditions préalables
 1. Accédez à **Tous les espaces de travail** > **États électroniques**. 
@@ -35,7 +35,7 @@ Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulato
 
 ## <a name="import-metadata-configuration"></a>Importer la configuration des métadonnées 
 1. Cliquez sur **Configuration des métadonnées**. 
-2. Importez la configuration de métadonnées ER contenant des métadonnées configurées pour générer des documents électroniques pour le commerce extérieur. Cette configuration de métadonnées ER a été exportées en tant que fichier XML lors des étapes de la procédure [(ER) Préparer les métadonnées d'application à utiliser dans RCS](prepare-application-metadata-rcs.md). 
+2. Importez la configuration de métadonnées ER contenant des métadonnées configurées pour générer des documents électroniques pour le commerce extérieur. Cette configuration de métadonnées ER a été exportées en tant que fichier XML lors des étapes de la procédure [Préparer les métadonnées d'application à utiliser dans RCS](prepare-application-metadata-rcs.md). 
 3. Cliquez sur **Exchange**. 
 4. Cliquez sur **Charger depuis le fichier XML**. 
 5. Cliquez sur **Parcourir** et sélectionnez le fichier Foreign trade metadata.xml. 

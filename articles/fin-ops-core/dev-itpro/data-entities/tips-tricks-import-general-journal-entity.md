@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 167afa70bfa35b966081709f1587d61d401d318f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184345"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769608"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Bonnes pratiques pour l'importation de numéros document à l'aide de l'entité du journal des opérations diverses
 
@@ -57,7 +57,7 @@ Les sections suivantes décrivent l’effet de ces paramètres et expliquent ég
 
 ### <a name="voucher-number"></a>N° document
 
-- Lorsque vous utilisez le paramètre **Traitement basé sur les jeux** de l’entité de journal des opérations diverses, le numéro de document doit être fourni dans le fichier importé. Un numéro de document est attribué à chaque transaction dans le journal des opérations diverses qui est fourni dans le fichier importé, même si le numéro de document n’est pas équilibré. Si vous souhaitez utiliser le traitement basé sur les jeux, mais que vous souhaitez également utiliser la souche de numéros qui est définie pour les numéros de documents, un correctif logiciel a été fourni pour l'édition de février 2016. Le numéro de correctif logiciel est 3170316 et est disponible pour le téléchargement dans Licycle services (LCS). Pour plus d’informations, consultez [Téléchargement de correctifs auprès de Lifecycle Services](../migration-upgrade/download-hotfix-lcs.md).
+- Lorsque vous utilisez le paramètre **Traitement basé sur les jeux** de l’entité de journal des opérations diverses, le numéro de document doit être fourni dans le fichier importé. Un numéro de document est attribué à chaque transaction dans le journal des opérations diverses qui est fourni dans le fichier importé, même si le numéro de document n’est pas équilibré. Si vous souhaitez utiliser le traitement basé sur les jeux, mais que vous souhaitez également utiliser la souche de numéros qui est définie pour les numéros de documents, un correctif logiciel a été fourni pour l'édition de février 2016. Le numéro de correctif logiciel est 3170316 et est disponible pour le téléchargement dans Licycle services (LCS). Pour plus d’informations, consultez [Téléchargement de mises à jour depuis Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
 
     - Pour activer cette fonctionnalité, sur le nom du journal utilisé pour les importations, définissez **Attribution d'un numéro pour la validation** sur **Oui**.
     - Un numéro de document doit toujours être défini dans le fichier importé. Toutefois, ce numéro est temporaire et est remplacé par le numéro de document lorsque le journal est validé. Il se peut que vous deviez vous assurer que les lignes du journal sont correctement regroupées par numéro de document temporaire. Par exemple, lors de la validation, trois lignes portant le N° document temporaire 1 sont détectées. Le n° document temporaire des trois lignes est remplacé par le numéro suivant dans la souche de numéros. Si ces trois lignes ne sont pas une entrée équilibrée, le document n’est pas validé. Ensuite, si les lignes sont trouvées avec un numéro de document temporaire de 2, ce numéro est remplacé par le numéro de document suivant dans la souche de numéros et ainsi de suite.

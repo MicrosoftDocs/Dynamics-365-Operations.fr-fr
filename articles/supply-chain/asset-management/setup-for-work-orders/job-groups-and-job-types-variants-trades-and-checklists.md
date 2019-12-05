@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570999"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812235"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Catégories de type de tâche de maintenance et types de tâches de maintenance, variantes de type de tâche de maintenance, opérations de tâches de maintenance et listes de contrôle de maintenance
 
@@ -33,7 +33,7 @@ ms.locfileid: "2570999"
 
 Un type d'actif est associé à chaque actif. Les types d'actif définissent les types de tâches de maintenance (et par conséquent, les tâches de maintenance) qui peuvent être effectués sur les actifs. Lorsque vous créez un ordre de travail, vous devez sélectionner un type de tâche de maintenance. Vous pouvez sélectionner uniquement les types de tâches de maintenance associés au paramétrage du type d'actif utilisé pour l'actif.
 
-Pour obtenir une vue d'ensemble graphique des actifs et des types de tâches de maintenance, et leur connexion aux ordres de travail, voir [Actifs et ordres de travail](../overview/functional-locations-and-objects.md).
+Pour obtenir une vue d'ensemble graphique des actifs et des types de tâches de maintenance, et leur connexion aux ordres de travail, voir [Postes techniques et actifs](../overview/functional-locations-and-objects.md).
 
 Des variantes de type de tâche de maintenance peuvent être paramétrées pour un type de tâche de maintenance. Des variantes de type de tâche de maintenance définissent les variations d'un type de tâche, telles que les tailles (petite, moyenne ou grande), des périodes (hebdomadaire, bihebdomadaire, mensuelle ou trimestrielle), et des configurations (exigence faible, flexible, ou performances élevée).
 

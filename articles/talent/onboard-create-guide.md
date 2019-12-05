@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3c465c667cbb8a66f301637ca620429b0ddc11c6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550341"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814626"
 ---
 # <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Créer et envoyer un guide d'intégration avec Dynamics 365 Talent - Onboard
 
@@ -119,6 +119,6 @@ Vous pouvez enregistrer un guide d'intégration en tant que modèle. De cette ma
 ### <a name="see-also"></a>Voir également :
 
 - [Essayer ou acheter l'application Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Nouveautés](./whats-new.md)
-- [Note de publication](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obtenir de l'aide](./talent-support.md)
+- [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md)
+- [Programmes de lancement](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obtenir de l'aide sur Microsoft Dynamics 365 Talent](./talent-support.md)

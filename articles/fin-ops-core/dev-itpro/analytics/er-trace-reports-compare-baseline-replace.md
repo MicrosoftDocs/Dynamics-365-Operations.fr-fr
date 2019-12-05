@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 45c0e3b569ca733ae3b70187633d2e84db5ecd87
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578216"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771164"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de référence
 
@@ -60,7 +60,7 @@ Pour accomplir les étapes de cet exemple, vous devez d'abord réaliser les éta
 
 La référence a été ajoutée pour le format **Format pour l'apprentissage des références ER** sélectionné, mais les règles de la référence n'ont pas encore été ajoutées à celle-ci.
 
-![Page des références de format de la génération d'états électroniques](media/GER-BaselineSample-AddBaseline2.PNG "Capture d'écran de la page des références de format de la génération d'états électroniques")
+![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-AddBaseline2.PNG "Capture d'écran de la page Références de base de la gestion des états électroniques")
 
 ### <a name="make-a-new-baseline-rule"></a>Établir une nouvelle règle de référence
 
@@ -73,7 +73,7 @@ La référence a été ajoutée pour le format **Format pour l'apprentissage des
 7. Cliquez sur **OK**.
 8. Sélectionnez **Références**.
 
-    ![Page des références de format de la génération d'états électroniques](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Capture d'écran de la page des références de format de la génération d'états électroniques")
+    ![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Capture d'écran de la page Références de base de la gestion des états électroniques")
 
     Le fichier de sortie généré a été associé automatiquement à la référence du format ER exécuté. La règle de référence a été ajoutée automatiquement à cette référence. Elle contient également la référence au fichier joint.
 
@@ -113,14 +113,14 @@ Pour accomplir les étapes de cet exemple, vous devez d'abord réaliser les éta
 13. Sélectionnez **Enregistrer**, puis sélectionnez **Test**.
 14. Sélectionnez **Test** de nouveau pour tester à nouveau l'expression configurée.
 
-    ![Page du concepteur de formule](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Capture d'écran de la page du concepteur de formule")
+    ![Page Concepteur de formule](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Capture d'écran de la page Concepteur de formule")
 
     > [!NOTE]
     > L'onglet **Résultat du test** indique que l'expression configurée retourne une valeur différente de date et d'heure chaque fois qu'elle a été appelée.
 
 15. Fermez la page du **Concepteur de formule**, puis sélectionnez **Enregistrer**.
 
-    ![Page du concepteur de format](media/GER-BaselineSample-FormatMappingDesign2.PNG "Capture d'écran de la page du concepteur de format")
+    ![Page Concepteur de formats](media/GER-BaselineSample-FormatMappingDesign2.PNG "Capture d'écran de la page Concepteur de format")
 
 16. Fermez la page **Concepteur de format**.
 
@@ -131,7 +131,7 @@ Pour accomplir les étapes de cet exemple, vous devez d'abord réaliser les éta
 3. Dans la liste des références, sélectionnez celle qui a été configurée pour le format **Format pour l'apprentissage des références ER**.
 4. Dans l'organisateur **Références**, sélectionnez **Supprimer** pour supprimer la règle de référence que vous avez définie précédemment.
 
-![Page des références de format de la génération d'états électroniques](media/GER-BaselineSample-AddBaseline3.PNG "Capture d'écran de la page des références de format de la génération d'états électroniques")
+![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-AddBaseline3.PNG "Capture d'écran de la page Références de base de la gestion des états électroniques")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Définir les substitutions de liaisons du format ER défini
 
@@ -139,7 +139,7 @@ Pour accomplir les étapes de cet exemple, vous devez d'abord réaliser les éta
 2. Dans l'arborescence des composants de format, développez **Résultat**, développez **Résultat\\Document**, puis activez la case à cocher pour **Résultat\\Document\\ProcessingDateTime**.
 3. Cliquez sur **OK**.
 
-![Page des références de format de la génération d'états électroniques](media/GER-BaselineSample-AddBaseline4.PNG "Capture d'écran de la page des références de format de la génération d'états électroniques")
+![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-AddBaseline4.PNG "Capture d'écran de la page Références de base de la gestion des états électroniques")
 
 Le composant du format ER sélectionné a été ajouté à la liste des composants dans l'organisateur **Remplacements**. Lorsque le format ER de référence est exécuté en mode de débogage, la liaison du format pour chaque composant est remplacée par la liaison affichée dans la colonne **Liaison**. Pour modifier la liaison par défaut pour un composant répertorié dans l'organisateur **Remplacements**, sélectionnez **Éditer**.
 
@@ -147,7 +147,7 @@ Le composant du format ER sélectionné a été ajouté à la liste des composan
 
 Suivez les étapes de la section « Exemple :Automatisation du paramétrage des règles de référence » plus haut dans cette rubrique. Une notification vous indique que le fichier de sortie a été généré à l'aide des paramètres de référence, et qu'un remplacement forcé des liaisons du format a eu lieu.
 
-![Notification dans la page Configurations](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Capture d'écran de la notification dans la page Configurations")
+![Notification sur la page Configurations](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Capture d'écran de la notification sur la page Configurations")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Supprimer les avertissements concernant le remplacement des liaisons de format
 
@@ -195,11 +195,11 @@ Les paramètres de référence exportés peuvent être importés dans un autre e
 
 Pour importer les paramètres de référence à partir d'un fichier XML enregistré localement, dans la page **Références de format de la génération d'états électroniques**, sélectionnez **Importer**, puis sélectionnez **Parcourir** pour sélectionner le fichier XML.
 
-![Boîte de dialogue Importer des paramètres de référence](media/GER-BaselineSample-ImportBaseline1.PNG "Capture d'écran de la boîte de dialogue Importer des paramètres de référence")
+![Boîte de dialogue Importer les paramètres de base](media/GER-BaselineSample-ImportBaseline1.PNG "Capture d'écran de la boîte de dialogue Importer les paramètres de base")
 
 Pour importer des paramètres de référence à partir d'un fichier XML stocké sur le serveur Microsoft SharePoint, en fonction des paramètres de gestion des documents et du type de document sélectionné, dans la page **Références de format de la génération d'états électroniques**, sélectionnez **Importer à partir d'une source**. Sélectionnez ensuite le type de document et le fichier XML. Type de document requis pour accéder au dossier SharePoint doit être configuré à l'avance.
 
-![Boîte de dialogue Importer à partir d'une source](media/GER-BaselineSample-ImportBaseline2.PNG "Capture d'écran de la boîte de dialogue Importer à partir d'une source")
+![Boîte de dialogue Importer à partir de la source](media/GER-BaselineSample-ImportBaseline2.PNG "Capture d'écran de la boîte de dialogue Importer à partir de la source")
 
 > [!NOTE]
 > Vous pouvez utiliser l'enregistreur de tâches pour enregistrer les étapes de sélection du type de document requis et du nom du fichier dans la boîte de dialogue **Importer à partir d'une source**. De cette manière, vous pouvez conserver les paramètres de référence requis sur le serveur SharePoint et les importer automatiquement en les lisant dans un enregistrement de tâche au moment de l'exécution des tests automatisés à l'aide de Regression Suite Automation Tool.
@@ -207,4 +207,4 @@ Pour importer des paramètres de référence à partir d'un fichier XML stocké 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md)
-- [Enregistreur de tâches](../user-interface/task-recorder.md)
+- [Ressources de l'enregistreur de tâches](../user-interface/task-recorder.md)

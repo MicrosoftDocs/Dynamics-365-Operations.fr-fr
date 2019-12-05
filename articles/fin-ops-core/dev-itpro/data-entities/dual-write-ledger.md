@@ -1,0 +1,89 @@
+---
+title: Comptabilité intégrée
+description: Cette rubrique décrit l'intégration des données de comptabilité entre Finance and Operations et Customer Engagement avec Common Data Service.
+author: robinarh
+manager: AnnBe
+ms.date: 09/06/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User, IT Pro
+ms.reviewer: rhaertle
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: ''
+ms.author: ''
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2019-07-15
+ms.openlocfilehash: 43819e23b167663a51095546cab307e7d7c79a38
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771046"
+---
+## <a name="integrated-ledger"></a>Comptabilité intégrée
+
+[!include [banner](../includes/banner.md)]
+
+Dans une application d'entreprise, les données de comptabilité définissent la configuration de base pour le mode de fonctionnement d'une entreprise. Par exemple, les données de comptabilité décrivent l'exercice que suit la société, les devises qu'elle traite et les comptes qu'elle utilise. Cette rubrique décrit l'intégration de ces données financières de base.
+
+## <a name="templates"></a>Modèles
+
+Les données comptables comprennent un ensemble de mappages d'entités financières de base qui fonctionnent ensemble pendant l'interaction des données client, comme indiqué dans le tableau suivant.
+
+Applications Finance and Operations      | Autres applications Dynamics 365
+---------------------------------|---------------------------------
+Devises                       | transactioncurrencies
+FiscalCalendar                   | msdyn\_fiscalcalendars
+FiscalCalendarYear               | msdyn\_fiscalcalendaryears
+ExchRateType                     | msdyn\_exchangeratetypes
+ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs
+FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods
+MainAccountCategory              | msdyn\_mainaccountcategory
+MainAccount                      | msdyn\_mainaccounts
+Comptabilité                           | msdyn\_ledgers
+ExchangeRates                    | msdyn\_currencyexchangerates
+FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods
+DimensionAttributeEntity         | msdyn\_dimensionattributes.md
+DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats.md
+LedgerChartOfAccounts            | msdyn\_chartofaccounts.md
+
+
+[!include [banner](../includes/dual-write-symbols.md)]
+
+[!include [Currency](dual-write/Currencies-transactioncurrencies.md)]
+
+[!include [Fiscal calendar](dual-write/FiscalCalendar-msdyn-fiscalcalendars.md)]
+
+[!include [Fiscal calendar year](dual-write/FiscalCalendarYear-msdyn-fiscalcalendaryears.md)]
+
+[!include [Exchange rate types](dual-write/ExchRateType-msdyn-exchangeratetypes.md)]
+
+[!include [Exchange rate pair](dual-write/ExchangeRateCurrencyPair-msdyn-currencyexchangeratepairs.md)]
+
+[!include [Ledger fiscal periods](dual-write/FiscalPeriodEntity-msdyn-fiscalcalendarperiods.md)]
+
+[!include [Main account category](dual-write/MainAccountCategory-msdyn-mainaccountcategory.md)]
+
+[!include [Main account](dual-write/MainAccount-msdyn-mainaccounts.md)]
+
+[!include [Ledger](dual-write/Ledger-msdyn-ledgers.md)]
+
+[!include [Exchange rates](dual-write/ExchangeRates-msdyn-currencyexchangerates.md)]
+
+[!include [Financial Calendar Period](dual-write/FiscalPeriodEntity-msdyn-fiscalcalendarperiods.md)]
+
+[!include [Dimension attribute](dual-write/DimensionAttributeEntity-msdyn-dimensionattributes.md)]
+
+[!include [Dimension integration format](dual-write/DimensionIntegrationFormatEntity-msdyn-financialdimensionformats.md)]
+
+[!include [Chart Of Account](dual-write/LedgerChartOfAccounts-msdyn-chartofaccounts.md)]
+
+
+
+

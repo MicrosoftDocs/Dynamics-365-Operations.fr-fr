@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a73f49064911a2b28c742cfc19469f4bf95e74
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b77605070387871335c480e25cbe23af1155d6e8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569959"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812166"
 ---
 # <a name="asset-manufacturers-and-models"></a>Fabricants et modèles d'actif
 
@@ -45,7 +45,7 @@ Cette rubrique explique comment paramétrer des fabricants d'actif et des modèl
 8. Dans le champ **Type d'actif**, sélectionnez le type d'actif auquel le modèle de fabricant doit être associé.
 
     > [!NOTE]
-    > Vous pouvez également définir des relations pour les types, les fabricants et les modèles d'actif dans la recherche **Types d'actif**. Pour plus d'informations, voir [Créer un type d'actif](../setup-for-objects/object-types.md).
+    > Vous pouvez également définir des relations pour les types, les fabricants et les modèles d'actif dans la recherche **Types d'actif**. Pour plus d'informations, voir [Types d'actif](../setup-for-objects/object-types.md).
 
     Dans le raccourci **Détails**, le champ **Modèles** affiche le nombre de modèles d'actif qui sont paramétrés sur le fabricant d'actif sélectionné. Le champ **Actifs** affiche le nombre d'actifs qui utilisent le fabricant sélectionné.
     

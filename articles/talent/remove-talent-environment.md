@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: bbc65a77b7c3df6545dfd7aa2109aba5c4e1b57b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010613"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773032"
 ---
 # <a name="remove-talent-environments"></a>Supprimer des environnements Talent
 
@@ -34,7 +34,7 @@ Cette rubrique décrit le processus de suppression d'un pilote test ou d'un envi
 
 Les tests Talent sont provisionnés avec une stratégie d'expiration de 60 jours. Toutefois, les propriétaires des environnements de test ont l'option de mettre fin à leur période d'essai en suivant les étapes suivantes. 
 
-1. Accédez au [centre d'administration PowerApps](https://admin.businessplatform.microsoft.com/).
+1. Accédez au [centre d'administration Power Apps](https://admin.businessplatform.microsoft.com/).
 2. Sélectionner **Environnements**.
 3. Sélectionnez l'environnement de test, avec un modèle de dénomination similaire à ceci : TestDrive - alias@domain
 4. Sélectionnez **Supprimer** et confirmez la décision. 
@@ -45,14 +45,14 @@ L'environnement de test existant est supprimé. Une fois supprimé, vous pouvez 
 
 Cette rubrique suppose que vous avez acheté Talent par l'intermédiaire d'un fournisseur de solutions Cloud (CSP) ou dans le cadre d'un contrat d'architecture d'entreprise (EA). 
 
-Comme un seul environnement Talent est « contenu » dans un seul environnement PowerApps, il existe deux options à prendre en compte. La première option implique de supprimer l'ensemble de l'environnement PowerApps ; puis supprimer uniquement Talent. La première option est recommandée lorsque vous avez créé un environnement PowerApps expressément pour le provisionnement de Talent, et que vous venez de commencer l'implémentation, ou que vous n'avez pas établi d'intégration. La deuxième option est utile lorsque vous avez établi un environnement PowerApps rempli avec des données enrichies qui sont exploitées dans PowerApps et Flow.
+Comme un seul environnement Talent est « contenu » dans un seul environnement Power Apps, il existe deux options à prendre en compte. La première option implique de supprimer l'ensemble de l'environnement Power Apps ; puis supprimer uniquement Talent. La première option est recommandée lorsque vous avez créé un environnement Power Apps expressément pour le provisionnement de Talent, et que vous venez de commencer l'implémentation, ou que vous n'avez pas établi d'intégration. La deuxième option est utile lorsque vous avez établi un environnement Power Apps rempli avec des données enrichies qui sont exploitées dans Power Apps et Power Automate.
 
 > [!Important]
-> Avant de supprimer l'environnement PowerApps, vérifiez qu'il n'est pas utilisé pour des intégrations de données enrichies en dehors de la portée de Talent. Notez également que les environnements PowerApps par défaut ne peuvent pas être supprimés. 
+> Avant de supprimer l'environnement Power Apps, vérifiez qu'il n'est pas utilisé pour des intégrations de données enrichies en dehors de la portée de Talent. Notez également que les environnements Power Apps par défaut ne peuvent pas être supprimés. 
 
-Pour supprimer l'ensemble de l'environnement PowerApps, notamment Talent et les applications et flux associés :
+Pour supprimer l'ensemble de l'environnement Power Apps, notamment Talent et les applications et flux associés :
 
-1. Accédez au [centre d'administration PowerApps](https://admin.businessplatform.microsoft.com/).
+1. Accédez au [centre d'administration Power Apps](https://admin.businessplatform.microsoft.com/).
 2. Sélectionner **Environnements**.
 3. Sélectionnez l'environnement à supprimer.
 4. Sélectionnez **Supprimer** et confirmez la décision. 
@@ -63,7 +63,7 @@ Pour supprimer l'ensemble de l'environnement PowerApps, notamment Talent et les 
 9. Sélectionnez l'instance à supprimer. 
 10. Sélectionnez **Supprimer l'instance** et confirmez votre décision.  
 
-Pour supprimer un environnement Talent d'un environnement PowerApps existant, procédez comme suit. Notez que la nécessité d'inclure le support et de contacter l'équipe DevOps de Talent est temporaire tant que cette fonction est activée directement dans LCS.
+Pour supprimer un environnement Talent d'un environnement Power Apps existant, procédez comme suit. Notez que la nécessité d'inclure le support et de contacter l'équipe DevOps de Talent est temporaire tant que cette fonction est activée directement dans LCS.
 
 1. Contactez le support pour lancer une demande de suppression.
 2. L'équipe de support initialisera une demande de suppression avec l'équipe DevOps de Talent. 

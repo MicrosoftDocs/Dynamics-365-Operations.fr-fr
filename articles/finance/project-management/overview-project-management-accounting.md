@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185633"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770357"
 ---
 # <a name="project-management-and-accounting-overview"></a>Vue d'ensemble de gestion et de comptabilité du projet
 
@@ -72,7 +72,7 @@ Pour plus d'informations sur les contrats de projet, voir [Contrats de projet](p
 
 Le degré de détail dans une WBS dépend du niveau de précision souhaité pour les estimations et le niveau de suivi requis par rapport à ces estimations. Les projets qui ont une tolérance très basse aux écarts de durée ou de coût nécessitent généralement une WBS plus détaillée, ainsi qu'un suivi diligent de la progression et du coût des travaux par rapport à la WBS. 
 
-Pour plus d'informations, voir [Structures de répartition du travail](work-breakdown-structures.md).
+Pour plus d'informations, voir [Vue d'ensemble des structures de répartition du travail](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Création des prévisions de projet et des budgets de projet
 
@@ -134,7 +134,7 @@ Lors de l'exécution du projet, les membres de l'équipe ou les responsables e
 
 Une WBS est une description du travail qui sera accompli pour un projet. Une WBS est une hiérarchie de tâches. Elle représente non uniquement le travail pour chaque tâche, mais également l'ampleur, le coût et la durée de la tâche. 
 
-Pour plus d'informations, voir [Structures de répartition du travail](work-breakdown-structures.md).
+Pour plus d'informations, voir [Vue d'ensemble des structures de répartition du travail](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Gestion des prévisions et des budgets de projet
 

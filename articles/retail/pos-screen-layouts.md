@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025268"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811778"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Mises en page de l'écran pour le point de vente (PDV)
 
@@ -171,7 +171,7 @@ Le concepteur du groupe de boutons vous permet de configurer les groupes de bout
 
     - **Action** – Dans la liste des opérations POS applicables, sélectionnez l'opération concernée lorsque vous cliquez sur le bouton dans le POS.
 
-        Pour la liste des opérations POS prises en charge, voir [Opérations POS, en ligne et hors connexion](pos-operations.md).
+        Pour la liste des opérations POS prises en charge, voir [Opérations PDV, en ligne et hors connexion](pos-operations.md).
 
     - **Paramètres d'action** – Certaines opérations du POS utilisent des paramètres supplémentaires lorsqu'elles sont appelées. Par exemple, pour l'opération Ajouter un produit, les utilisateurs peuvent spécifier le produit à ajouter.
     - **Texte du bouton** – Spécifiez le texte qui apparaît sur le bouton dans le POS.
@@ -193,4 +193,4 @@ Le concepteur du groupe de boutons vous permet de configurer les groupes de bout
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Installer le concepteur de mise en page de Retail POS](install-pos-layout-designer.md)
+[Installer le concepteur de mise en page du Point de vente au détail (PDV)](install-pos-layout-designer.md)

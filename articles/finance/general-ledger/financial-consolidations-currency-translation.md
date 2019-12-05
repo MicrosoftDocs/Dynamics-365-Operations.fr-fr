@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186599"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771843"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Vue d'ensemble de consolidations financières et conversion de devises
 
@@ -84,14 +84,14 @@ La première option consiste à utiliser les comptes principaux des sociétés s
 
 La deuxième option consiste à spécifier un compte de consolidation par défaut dans la page **Comptes principaux**. Le compte sera ensuite mis en correspondance avec le compte de consolidation. Cette option peut être utile si vous avez différents plans de comptes ou vous devez les mettre en correspondance avec un graphique défini par le siège.
 
-![Compte de consolidation par défaut spécifié dans la page Comptes principaux](./media/main-accounts.png "Compte de consolidation par défaut spécifié dans la page Comptes principaux")
+![Compte de consolidation par défaut spécifié sur la page Comptes principaux](./media/main-accounts.png "Compte de consolidation par défaut spécifié sur la page Comptes principaux")
 
 La troisième option consiste à utiliser des groupes de comptes de consolidation. Vous pouvez définir autant de groupes de comptes de consolidation que nécessaire. Ensuite, dans la page **Comptes de consolidation supplémentaires**, vous mettez en correspondance le compte principal du plan de comptes avec le compte requis pour ce groupe.
 
 ![Mise en correspondance sur la page Comptes de consolidation supplémentaires](./media/additional-consolidation-accounts.png "Mise en correspondance sur la page Comptes de consolidation supplémentaires")
 
 ## <a name="consolidating-online"></a>Consolidation en ligne
-Pour savoir comment entrer les détails des consolidations en ligne, voir [Consolidation en ligne](./consolidate-online.md).
+Pour savoir comment entrer les détails des consolidations en ligne, voir [Consolidations financières en ligne](./consolidate-online.md).
 
 ## <a name="managing-consolidation-transactions"></a>Gestion des transactions de consolidation
 Pour afficher les résultats de la consolidation, plusieurs options sont disponibles :
@@ -120,7 +120,7 @@ Vous trouverez les paramètres des éliminations dans la zone **Paramétrage** d
 
 Vous pouvez définir la date d'effet de la règle d'élimination et sa date d'expiration, selon vos besoins. Si vous souhaitez que la règle d'élimination soit disponible dans le processus de proposition d'élimination, vous devez définir l'option **Actif** sur **Oui**. Sélectionnez un nom de journal du type **Élimination**.
 
-![Propriétés de base d'une règle d'élimination](./media/ledger-elimination-rule-journal.png "Propriétés de base d'une règle d'élimination")
+![Propriétés de base sur une règle d'élimination](./media/ledger-elimination-rule-journal.png "Propriétés de base sur une règle d'élimination")
 
 Après avoir défini les propriétés de base, sélectionnez **Lignes** pour définir les règles de traitement réelles. Il existe deux options pour les éliminations : vous pouvez éliminer le montant de modification net ou définir un montant fixe.
 
@@ -128,7 +128,7 @@ Sélectionnez les comptes source. Vous pouvez utiliser un astérisque (\*) comme
 
 Après avoir sélectionné les comptes source, utilisez le champ **Spécification de compte** pour spécifier le compte utilisé dans la société de destination. Sélectionnez **Source** pour utiliser le même compte principal que celui défini dans le compte source. Si vous sélectionnez **Défini par l'utilisateur**, vous devez spécifier un compte de destination.
 
-![Page Ligne de règle d'élimination comptable](./media/ledger-elimination-rule-line.png "Page Ligne de règle d'élimination comptable")
+![Page de ligne de règle d'élimination comptable](./media/ledger-elimination-rule-line.png "Page de ligne de règle d'élimination comptable")
 
 Le champ **Spécification de dimension** fonctionne comme le champ **Spécification de compte**. Sélectionnez **Source** pour utiliser les mêmes dimensions dans la société de destination et la société source. Si vous sélectionnez **Défini par l'utilisateur**, vous devez spécifier les dimensions dans la société de destination en sélectionnant **Dimensions de destination**. Sélectionnez ensuite les dimensions source et les dimensions financières et valeurs utilisées comme source de l'élimination.
 

@@ -1,5 +1,5 @@
 ---
-title: Gestion de la sécurité et des rôles dans Attract
+title: Définition d'autorisations utilisateurs dans Attract
 description: Cette rubrique fournit des informations sur la sécurité des rôles dans Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7db2ac241db121f07eb3524c7c5c9a8f64e78537
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: efac512cfa07bb2183f06b8be45f74bef9af0767
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551424"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832696"
 ---
-# <a name="security-and-role-management-in-attract"></a>Gestion de la sécurité et des rôles dans Attract
+# <a name="set-user-permissions-in-attract"></a>Définition d'autorisations utilisateurs dans Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract utilise la sécurité des rôles. En d'autres termes, l'accès n'est pas accordé aux utilisateurs individuels, mais aux rôles de sécurité affectés aux utilisateurs. Un utilisateur affecté à un rôle de sécurité a accès à l'ensemble de privilèges associé à ce rôle.
 
@@ -52,7 +52,7 @@ Les sections suivantes fournissent une description générale de chaque rôle. L
 
 ## <a name="administrator"></a>Administrateur
 
-Les utilisateurs affectés au rôle Administrateur peuvent ouvrir et modifier toutes les données dans Attract. Les administrateurs peuvent créer, lire, mettre à jour, et supprimer des données. Ils ont également accès au centre d'administration, dans lequel ils peuvent configurer Attract et paramétrer les informations utilisateur. Nous vous recommandons qu'au moins une personne soit affecté au rôle Administrateur. Par défaut, l'administrateur d'environnement de Microsoft PowerApps est défini comme administrateur dans Attract. Si vous vous êtes inscrit à la version d'évaluation Attract, le rôle Administrateur vous est affecté automatiquement. Actuellement, pour créer des missions, les utilisateurs qui disposent du rôle Administrateur doivent également avoir le rôle de Recruteur ou le rôle Responsable du recrutement.
+Les utilisateurs affectés au rôle Administrateur peuvent ouvrir et modifier toutes les données dans Attract. Les administrateurs peuvent créer, lire, mettre à jour, et supprimer des données. Ils ont également accès au centre d'administration, dans lequel ils peuvent configurer Attract et paramétrer les informations utilisateur. Nous vous recommandons qu'au moins une personne soit affecté au rôle Administrateur. Par défaut, l'administrateur d'environnement de Microsoft Power Apps est défini comme administrateur dans Attract. Si vous vous êtes inscrit à la version d'évaluation Attract, le rôle Administrateur vous est affecté automatiquement. Actuellement, pour créer des missions, les utilisateurs qui disposent du rôle Administrateur doivent également avoir le rôle de Recruteur ou le rôle Responsable du recrutement.
 
 ## <a name="hiring-manager"></a>Responsable du recrutement
 

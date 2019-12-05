@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e6f0b75c8d81a5ac6ec90020375aec39120d4406
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278127"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811214"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV
 
 [!include [banner](includes/banner.md)]
 
 
-Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 Retail. Pour en savoir plus sur les recommandations produit, consultez les [recommandations produit sur la documentation du PDV.](product.md)
+Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 Retail. Pour en savoir plus sur les recommandations produit, consultez les [recommandations produit sur la documentation du PDV](product.md).
 
 
 Vous pouvez afficher les recommandations de produit sur votre périphérique de PDV lorsque vous utilisez Microsoft Dynamics 365 Retail. Pour afficher les recommandations de produit, vous devez ajouter un contrôle à l'écran de transaction à l'aide du concepteur de mise en page de l'écran. 
@@ -98,6 +98,6 @@ Deux options de configuration sont disponibles. Choisissez l'option qui convient
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Recommandations produit sur le PDV](product.md)
+[Recommandations produit sur PDV](product.md)
 
-[vue d'ensemble des recommandations produit](../commerce/product-recommendations.md)
+[Vue d'ensemble des recommandations produit](../commerce/product-recommendations.md)

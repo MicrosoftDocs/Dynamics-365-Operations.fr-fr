@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572199"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815363"
 ---
 # <a name="purchase-order-overview"></a>Présentation des commandes fournisseur
 
@@ -41,8 +41,8 @@ Les espaces de travail **Préparation des commandes fournisseur** et **Réceptio
 
 Les articles suivants fournissent une vue d’ensemble des diverses étapes par lesquelles passe une commande fournisseur :
 
--   [Création de commandes fournisseur](purchase-order-creation.md)
--   [Approbation et confirmation de la commande fournisseur](purchase-order-approval-confirmation.md)
+-   [Créer des commandes fournisseur](purchase-order-creation.md)
+-   [Approuver et confirmer des commandes fournisseur](purchase-order-approval-confirmation.md)
 -   [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
 -   [Vue d'ensemble des factures fournisseur](../../financials/accounts-payable/vendor-invoices-overview.md)
 
@@ -82,9 +82,9 @@ Le champ **Statut d’approbation** est utilisé lorsqu'une CF passe par un proc
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Création de commandes fournisseur](purchase-order-creation.md)
+[Créer des commandes fournisseur](purchase-order-creation.md)
 
-[Approbation et confirmation de la commande fournisseur](purchase-order-approval-confirmation.md)
+[Approuver et confirmer des commandes fournisseur](purchase-order-approval-confirmation.md)
 
 [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
 

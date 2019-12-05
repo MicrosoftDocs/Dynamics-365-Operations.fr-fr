@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026254"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814741"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuer et planifier des questionnaires
 
@@ -54,7 +54,8 @@ Pour affecter un groupe de questionnaires à un questionnaire, dans la page **Qu
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sessions de réponse prévues dans un questionnaire
 Les sessions de réponse prévues sont des questionnaires que vous avez créés et pour lequel vous avez sélectionné les personnes interrogées. 
 
-> **Remarque :** avant de paramétrer des sessions de réponse prévues, vous devez créer un questionnaire. 
+> [!NOTE]
+>   Avant de paramétrer des sessions de réponse prévues, vous devez créer un questionnaire. 
 
 Dans la page **Session de réponse prévue**, vous pouvez créer une session de réponse prévue pour un employé individuel. La liste de la page affiche tous les questionnaires planifiés. 
 
@@ -108,12 +109,14 @@ Si vous utilisez une session de réponse prévue, vous devez informer la personn
 
 Utilisez la page **Programmes de questionnaire** pour préparer et envoyer un e-mail à toutes les personnes interrogées affectées au questionnaire. Entrez le texte de l'e-mail sous l'onglet **E-mail pour le libre-service pour employés**. Une fois le programme démarré, cliquez sur **Fonctions** &gt; **Envoyer un e-mail** pour générer et envoyer un e-mail aux personnes interrogées. Les personnes interrogées peuvent alors se connecter au site Web et remplir le questionnaire. 
 
-> **Remarque :** avant d'utiliser la fonctionnalité d'e-mail, votre administrateur informatique doit entrer les paramètres d'e-mail dans la page **Paramètres d'e-mail**.
+> [!NOTE]
+>   Avant d'utiliser la fonctionnalité d'e-mail, votre administrateur informatique doit entrer les paramètres d'e-mail dans la page **Paramètres d'e-mail**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Terminer un questionnaire planifié
 Vous pouvez mettre fin à un questionnaire planifié une fois que toutes les personnes interrogées ont répondu aux sessions de réponses qui leur étaient attribuées. Une fois qu'un questionnaire planifié est terminé, vous ne pouvez pas copier ses paramètres dans un nouveau programme. 
 
-> **Remarque :** si une ou plusieurs personnes interrogées n'ont pas complété le questionnaire mais que vous souhaitez mettre fin au programme, vous devez commencez par supprimer ces personnes interrogées appropriées de la liste dans la page **Session de réponse prévue**. Vous pouvez ensuite mettre fin au programme.
+> [!NOTE]
+>   Si une ou plusieurs personnes interrogées n'ont pas complété le questionnaire mais que vous souhaitez mettre fin au programme, vous devez commencez par supprimer ces personnes interrogées appropriées de la liste dans la page **Session de réponse prévue**. Vous pouvez ensuite mettre fin au programme.
 
 ## <a name="completing-questionnaires"></a>Remplissage de questionnaires
 Une fois le questionnaire conçu et distribué, il peut être rempli par les personnes interrogées sélectionnées. Vous pouvez remplir les questionnaires disponibles à partir de deux emplacements :
@@ -126,10 +129,10 @@ Les questionnaires peuvent être accessibles à des utilisateurs ou groupes d'ut
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Conception de questionnaires](design-questionnaires.md)
+[Créer des questionnaires](design-questionnaires.md)
 
-[Utilisation de questionnaires](questionnaires.md)
+[Questionnaires](questionnaires.md)
 
-[Affichage et évaluation des résultats des questionnaire](evaluate-questionnaire-results.md)
+[Afficher et évaluer les résultats des questionnaires](evaluate-questionnaire-results.md)
 
 

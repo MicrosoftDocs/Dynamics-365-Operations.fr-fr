@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab5adfdec259207898d25778e4e3bbbaebb452f1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177704"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770710"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Valider des transactions d'immobilisation dans des couches de validation
 
@@ -42,7 +42,7 @@ Vous pouvez désigner les comptes généraux pour les transactions d'immobilisat
 > [!NOTE] 
 > En utilisant les registres déduits, vous pouvez valider des transactions dans les différentes couches de validation simultanément. Vous créez les transactions du registre principal dans un journal dans lequel la couche de validation qui correspond à la couche de validation du registre. Lors de la validation, les transactions du registre déduit sont validées dans leurs couches de validation appropriées.
 
-Pour plus d'informations, voir [Registres dérivés](derived-books.md) et [Validation avec des registres déduits](post-derived-value-models.md).
+Pour plus d'informations, voir [Registres dérivés](derived-books.md) et [Publier avec des registres déduits](post-derived-value-models.md).
 
 
 
