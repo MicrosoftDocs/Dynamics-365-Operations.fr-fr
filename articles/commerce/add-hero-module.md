@@ -1,0 +1,93 @@
+---
+title: Module Bannière
+description: Cette rubrique couvre les modules de bannière et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+author: anupamar-ms
+manager: annbe
+ms.date: 10/31/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: ''
+ms.author: anupamar
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: c43704992e9759e7207f1b1c9bc958449daa6d1d
+ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2785387"
+---
+# <a name="hero-module"></a><span data-ttu-id="529ee-103">Module Bannière</span><span class="sxs-lookup"><span data-stu-id="529ee-103">Hero module</span></span>
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="529ee-104">Cette rubrique couvre les modules de bannière et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="529ee-104">This topic covers hero modules and describes how to add them to site pages in Microsoft Dynamics 365 Commerce.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="529ee-105">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="529ee-105">Overview</span></span>
+
+<span data-ttu-id="529ee-106">Un module de bannière permet de publier des produits ou des promotions sur le marché via une combinaison des images et du texte.</span><span class="sxs-lookup"><span data-stu-id="529ee-106">A hero module is used to market products or promotions through a combination of images and text.</span></span> <span data-ttu-id="529ee-107">Par exemple, un détaillant peut ajouter un module de bannière à la page d'accueil d'un site de commerce électronique qui permet de promouvoir un nouveau produit et d'attirer l'attention des clients.</span><span class="sxs-lookup"><span data-stu-id="529ee-107">For example, a retailer can add a hero module to the home page of an e-Commerce site to promote a new product and attract the attention of customers.</span></span>
+
+<span data-ttu-id="529ee-108">Un module de bannière dépend des données du système de gestion de contenu (CMS).</span><span class="sxs-lookup"><span data-stu-id="529ee-108">A hero module is driven by data from the content management system (CMS).</span></span> <span data-ttu-id="529ee-109">Ce module autonome ne dépend du contexte d'un autre module sur la page.</span><span class="sxs-lookup"><span data-stu-id="529ee-109">It's a stand-alone module that doesn't depend on any other modules on the page.</span></span> <span data-ttu-id="529ee-110">Un module de bannière peut être mis dans n'importe quelle page de site où un détaillant souhaite lancer sur le marché ou promouvoir un événement (par exemple les produits, les soldes ou des fonctionnalités).</span><span class="sxs-lookup"><span data-stu-id="529ee-110">A hero module can be put on any site page where a retailer wants to market or promote something (for example, products, sales, or features).</span></span>
+
+## <a name="examples-of-hero-module-in-e-commerce"></a><span data-ttu-id="529ee-111">Exemples de modules de bannière dans le commerce électronique</span><span class="sxs-lookup"><span data-stu-id="529ee-111">Examples of hero module in e-Commerce</span></span>
+
+- <span data-ttu-id="529ee-112">Un module de bannière peut être utilisé sur la page d'accueil d'un site de commerce électronique pour mettre en valeur des promotions et de nouveaux produits.</span><span class="sxs-lookup"><span data-stu-id="529ee-112">A hero module can be used on the home page of an e-Commerce site to highlight promotions and new products.</span></span>
+- <span data-ttu-id="529ee-113">Un module de bannière peut être utilisé sur une page de détails de produit pour présenter des informations sur les produits.</span><span class="sxs-lookup"><span data-stu-id="529ee-113">A hero module can be used on a product details page to showcase product information.</span></span>
+- <span data-ttu-id="529ee-114">Plusieurs modules de bannière peuvent être placés à l'intérieur d'un module de carrousel pour mettre en valeur plusieurs produits ou promotions.</span><span class="sxs-lookup"><span data-stu-id="529ee-114">Multiple hero modules can be put inside a carousel module to highlight multiple products or promotions.</span></span>
+
+## <a name="hero-module-properties"></a><span data-ttu-id="529ee-115">Propriétés du module de bannière</span><span class="sxs-lookup"><span data-stu-id="529ee-115">Hero module properties</span></span>
+
+| <span data-ttu-id="529ee-116">Nom de la propriété</span><span class="sxs-lookup"><span data-stu-id="529ee-116">Property name</span></span>  | <span data-ttu-id="529ee-117">Valeurs</span><span class="sxs-lookup"><span data-stu-id="529ee-117">Values</span></span> | <span data-ttu-id="529ee-118">Description</span><span class="sxs-lookup"><span data-stu-id="529ee-118">Description</span></span> |
+|----------------|--------|-------------|
+| <span data-ttu-id="529ee-119">Image</span><span class="sxs-lookup"><span data-stu-id="529ee-119">Image</span></span>          | <span data-ttu-id="529ee-120">Fichier image</span><span class="sxs-lookup"><span data-stu-id="529ee-120">Image file</span></span> | <span data-ttu-id="529ee-121">Une image peut être utilisée pour présenter un produit ou une promotion.</span><span class="sxs-lookup"><span data-stu-id="529ee-121">An image can be used to showcase a product or a promotion.</span></span> <span data-ttu-id="529ee-122">Une image peut être chargée dans la galerie d'images, ou une image existante peut être utilisée.</span><span class="sxs-lookup"><span data-stu-id="529ee-122">An image can be uploaded to the image gallery, or an existing image can be used.</span></span> |
+| <span data-ttu-id="529ee-123">En-tête</span><span class="sxs-lookup"><span data-stu-id="529ee-123">Heading</span></span>        | <span data-ttu-id="529ee-124">Texte d'en-tête et balise d'en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**)</span><span class="sxs-lookup"><span data-stu-id="529ee-124">Heading text and heading tag (**H1**, **H2**, **H3**, **H4**, **H5**, or **H6**)</span></span> | <span data-ttu-id="529ee-125">Chaque module de bannière peut avoir un en-tête.</span><span class="sxs-lookup"><span data-stu-id="529ee-125">Every hero module can have a heading.</span></span> <span data-ttu-id="529ee-126">Par défaut, la balise d'en-tête **H2** sert pour l'en-tête.</span><span class="sxs-lookup"><span data-stu-id="529ee-126">By default, the **H2** heading tag is used for the heading.</span></span> <span data-ttu-id="529ee-127">Toutefois, la balise peut être modifiée pour satisfaire aux exigences d'accessibilité.</span><span class="sxs-lookup"><span data-stu-id="529ee-127">However, the tag can be changed to meet accessibility requirements.</span></span> |
+| <span data-ttu-id="529ee-128">Paragraphe</span><span class="sxs-lookup"><span data-stu-id="529ee-128">Paragraph</span></span>      | <span data-ttu-id="529ee-129">Texte du paragraphe</span><span class="sxs-lookup"><span data-stu-id="529ee-129">Paragraph text</span></span> | <span data-ttu-id="529ee-130">Les modules de bannière prennent en charge le texte de paragraphe dans en format de texte enrichi.</span><span class="sxs-lookup"><span data-stu-id="529ee-130">Hero modules support paragraph text in rich text format.</span></span> <span data-ttu-id="529ee-131">Certains capacités de texte enrichi de base sont prises en charge, telles que gras, souligné, et italiques, et des liens hypertexte.</span><span class="sxs-lookup"><span data-stu-id="529ee-131">Some basic rich text capabilities are supported, such as bold, underlined, and italic text, and hyperlinks.</span></span> <span data-ttu-id="529ee-132">Certaines de ces fonctionnalités peuvent être remplacées par le thème de la page qui s'applique au module.</span><span class="sxs-lookup"><span data-stu-id="529ee-132">Some of these capabilities can be overridden by the page theme that is applied to the module.</span></span> |
+| <span data-ttu-id="529ee-133">Lien</span><span class="sxs-lookup"><span data-stu-id="529ee-133">Link</span></span>           | <span data-ttu-id="529ee-134">Texte du lien, URL du lien, étiquette ARIA (Applications Internet enrichie accessibles), et **Ouvrir le lien dans le nouvel onglet**</span><span class="sxs-lookup"><span data-stu-id="529ee-134">Link text, link URL, Accessible Rich Internet Applications (ARIA) label, and **Open link in new tab**</span></span> | <span data-ttu-id="529ee-135">Les modules de bannière prennent en charge un ou plusieurs liens d'« appels à l'action ».</span><span class="sxs-lookup"><span data-stu-id="529ee-135">Hero modules support one or more "call to action" links.</span></span> <span data-ttu-id="529ee-136">Si un lien est ajouté, un texte de lien, une URL, et une étiquette ARIA sont requis.</span><span class="sxs-lookup"><span data-stu-id="529ee-136">If a link is added, link text, a URL, and an ARIA label are required.</span></span> <span data-ttu-id="529ee-137">Les étiquettes ARIA doivent être descriptives pour satisfaire aux exigences d'accessibilité.</span><span class="sxs-lookup"><span data-stu-id="529ee-137">ARIA labels should be descriptive to meet accessibility requirements.</span></span> <span data-ttu-id="529ee-138">Les liens peuvent être configurés de sorte qu'ils sont ouverts sur un nouvel onglet.</span><span class="sxs-lookup"><span data-stu-id="529ee-138">Links can be configured so that they are opened on a new tab.</span></span> |
+| <span data-ttu-id="529ee-139">Emplacement du texte</span><span class="sxs-lookup"><span data-stu-id="529ee-139">Text placement</span></span> | <span data-ttu-id="529ee-140">**Haut-Gauche**, **Haut-Droite**, **Haut-Centre**, **Bas-Gauche**, **Bas-droite**, **Bas-Centre**, **Centre-gauche**, **Centre-droite** ou **Centre-centre**</span><span class="sxs-lookup"><span data-stu-id="529ee-140">**Top Left**, **Top Right**, **Top Center**, **Bottom Left**, **Bottom Right**, **Bottom Center**, **Center Left**, **Center Right**, or **Center Center**</span></span> | <span data-ttu-id="529ee-141">Cette propriété définit la position de l'image par rapport à le texte.</span><span class="sxs-lookup"><span data-stu-id="529ee-141">This property defines the position of the image relative to the text.</span></span> <span data-ttu-id="529ee-142">Par exemple, si **Droite** est sélectionné, l'image apparaît à droite du texte.</span><span class="sxs-lookup"><span data-stu-id="529ee-142">For example, if **Right** is selected, the image appears to the right of the text.</span></span> |
+| <span data-ttu-id="529ee-143">Thème du texte</span><span class="sxs-lookup"><span data-stu-id="529ee-143">Text theme</span></span>     | <span data-ttu-id="529ee-144">**Clair** ou **Foncé**</span><span class="sxs-lookup"><span data-stu-id="529ee-144">**Light** or **Dark**</span></span> | <span data-ttu-id="529ee-145">Un modèle de couleurs peut être défini pour le texte, selon l'image d'arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="529ee-145">A color scheme can be defined for the text, based on the background image.</span></span> <span data-ttu-id="529ee-146">Par exemple, si l'image a un arrière-plan foncé, un thème clair peut être appliqué pour rendre le texte plus visible et respecter les taux de contraste de couleur à des fins d'accessibilité.</span><span class="sxs-lookup"><span data-stu-id="529ee-146">For example, if the image has a dark background, a light theme can be applied to make the text more visible and to meet color contrast ratios for accessibility purposes.</span></span> |
+| <span data-ttu-id="529ee-147">Dégradé</span><span class="sxs-lookup"><span data-stu-id="529ee-147">Gradient</span></span>       | <span data-ttu-id="529ee-148">**Vrai** ou **Faux**</span><span class="sxs-lookup"><span data-stu-id="529ee-148">**True** or **False**</span></span> | <span data-ttu-id="529ee-149">Un dégradé peut être appliqué à l'image pour respecter les taux de contraste de couleur à des fins d'accessibilité.</span><span class="sxs-lookup"><span data-stu-id="529ee-149">A gradient can be applied to the image to meet color contrast ratios for accessibility purposes.</span></span> |
+
+## <a name="add-a-hero-module-to-a-new-page"></a><span data-ttu-id="529ee-150">Ajouter un module de bannière à une nouvelle page</span><span class="sxs-lookup"><span data-stu-id="529ee-150">Add a hero module to a new page</span></span>
+
+<span data-ttu-id="529ee-151">Pour ajouter un module de bannière à une nouvelle page et définir les propriétés requises, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="529ee-151">To add a hero module to a new page and set the required properties, follow these steps.</span></span>
+
+1. <span data-ttu-id="529ee-152">Accédez à **Modèles**, puis créez un modèle de page nommé **modèle de bannière**.</span><span class="sxs-lookup"><span data-stu-id="529ee-152">Go to **Templates**, and create a page template that is named **hero template**.</span></span>
+1. <span data-ttu-id="529ee-153">À l'emplacement **Principal** de la page par défaut, ajoutez un module de bannière.</span><span class="sxs-lookup"><span data-stu-id="529ee-153">In the **Main** slot of the default page, add a hero module.</span></span>
+1. <span data-ttu-id="529ee-154">Archivez le modèle, et publiez-le.</span><span class="sxs-lookup"><span data-stu-id="529ee-154">Check in the template, and publish it.</span></span>
+1. <span data-ttu-id="529ee-155">Utilisez le modèle de bannière que vous venez de créer pour créer une page qui s'appelle **page de bannière**.</span><span class="sxs-lookup"><span data-stu-id="529ee-155">Use the hero template that you just created to create a page that is named **hero page**.</span></span>
+1. <span data-ttu-id="529ee-156">À l'emplacement **Principal** de la page par défaut, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajoutez le module**.</span><span class="sxs-lookup"><span data-stu-id="529ee-156">In the **Main** slot of the default page, select the ellipsis button (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="529ee-157">Dans la boîte de dialogue **Ajouter le module**, sous **Sélectionner les modules**, sélectionnez un module de bannière, et sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="529ee-157">In the **Add Module** dialog box, under **Select Modules**, select the hero module, and then select **OK**.</span></span>
+1. <span data-ttu-id="529ee-158">Dans l'arborescence de contour à gauche, sélectionnez le module de bannière.</span><span class="sxs-lookup"><span data-stu-id="529ee-158">In the outline tree on the left, select the hero module.</span></span>
+1. <span data-ttu-id="529ee-159">Dans le volet de propriétés de droite, sélectionnez **Ajouter une image**.</span><span class="sxs-lookup"><span data-stu-id="529ee-159">In the properties pane on the right, select **Add an image**.</span></span> <span data-ttu-id="529ee-160">Puis sélectionnez une image existante ou téléchargez une nouvelle image.</span><span class="sxs-lookup"><span data-stu-id="529ee-160">Then either select an existing image or upload a new image.</span></span>
+1. <span data-ttu-id="529ee-161">Sélectionnez **En-tête**.</span><span class="sxs-lookup"><span data-stu-id="529ee-161">Select **Heading**.</span></span>
+1. <span data-ttu-id="529ee-162">Dans la boîte de dialogue **En-tête**, ajoutez le texte de l'en-tête, sélectionnez le niveau d'en-tête, puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="529ee-162">In the **Heading** dialog box, add the heading text, select the heading level, and then select **OK**.</span></span>
+1. <span data-ttu-id="529ee-163">Sous **Texte enrichi**, ajoutez le texte comme vous le souhaitez.</span><span class="sxs-lookup"><span data-stu-id="529ee-163">Under **Rich Text**, add text as you require.</span></span>
+1. <span data-ttu-id="529ee-164">Sélectionnez **Ajouter le lien d'action**.</span><span class="sxs-lookup"><span data-stu-id="529ee-164">Select **Add Action Link**.</span></span>
+1. <span data-ttu-id="529ee-165">Dans la boîte de dialogue **Lien d'action**, ajoutez le texte du lien, une URL de lien, et une étiquette ARIA pour le lien, puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="529ee-165">In the **Action Link** dialog box, add link text, a link URL, and an ARIA label for the link, and then select **OK**.</span></span>
+1. <span data-ttu-id="529ee-166">Enregistrer la page et affichez un aperçu vos modifications.</span><span class="sxs-lookup"><span data-stu-id="529ee-166">Save the page, and preview your changes.</span></span>
+1. <span data-ttu-id="529ee-167">Archivez la page, et publiez-la.</span><span class="sxs-lookup"><span data-stu-id="529ee-167">Check in the page, and publish it.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="529ee-168">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="529ee-168">Additional resources</span></span>
+
+[<span data-ttu-id="529ee-169">Vue d'ensemble du kit de démarrage</span><span class="sxs-lookup"><span data-stu-id="529ee-169">Starter kit overview</span></span>](starter-kit-overview.md)
+
+[<span data-ttu-id="529ee-170">Module Alerte</span><span class="sxs-lookup"><span data-stu-id="529ee-170">Alert module</span></span>](add-alert.md)
+
+[<span data-ttu-id="529ee-171">Module Carrousel</span><span class="sxs-lookup"><span data-stu-id="529ee-171">Carousel module</span></span>](add-carousel.md)
+
+[<span data-ttu-id="529ee-172">Module de bloc de contenu riche</span><span class="sxs-lookup"><span data-stu-id="529ee-172">Content rich block module</span></span>](add-content-rich-block.md)
+
+[<span data-ttu-id="529ee-173">Module Placement de contenu</span><span class="sxs-lookup"><span data-stu-id="529ee-173">Content placement module</span></span>](add-content-placement-modules.md)
+
+[<span data-ttu-id="529ee-174">Module Fonctionnalité</span><span class="sxs-lookup"><span data-stu-id="529ee-174">Feature module</span></span>](add-feature-module.md)
+
+[<span data-ttu-id="529ee-175">Module Lecteur vidéo</span><span class="sxs-lookup"><span data-stu-id="529ee-175">Video player module</span></span>](add-video-player.md)
