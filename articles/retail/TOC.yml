@@ -42,11 +42,11 @@
               items:
                 - name: Options de déploiement
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/retail/toc.json
-                - name: Comparaison des fonctions dans le cloud et sur site
+                - name: Comparaison des fonctionnalités dans le cloud et sur site
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: Déploiement cloud
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: Configuration requise pour les déploiements Cloud
+                - name: Configuration requise pour les composants clients Retail
                   href: get-started/system-requirements.md
                 - name: Déploiement local
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Nouveautés ou modifications
               items:
-                - name: "Fonctionnalités en version préliminaire dans Retail version\_10.0.7"
+                - name: "Retail version\_10.0.7"
                   href: get-started/whats-new-10-0-7.md
                 - name: "Retail version\_10.0.6"
                   href: get-started/whats-new-10-0-6.md
-                - name: "Retail version\_10.0.5"
-                  href: get-started/whats-new-10-0-5.md
                 - name: Nouveautés ou modifications dans les versions précédentes
                   items:
                     - name: Nouveautés ou modifications de la page d'accueil Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: "Applis Finance and Operations\_10.0.5 (octobre\_2019)"
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: "Finance and Operations\_10.0.4 (juillet\_2019)"
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: "Finance and Operations, Enterprise Edition\_7.3"
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: Fonctions supprimées ou obsolètes
@@ -788,10 +782,8 @@
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
             - name: Hiérarchies des ventes au détail
               href: retail-hierarchies.md
-            - name: Attributs et groupes d'attributs
+            - name: Gérer les attributs et les groupes d'attributs
               href: attribute-attributegroups-lifecycle.md
-            - name: Création et gestion des attributs
-              href: create-manage-attributes.md
             - name: Paramétrer les produits vendus au détail
               href: set-up-retail-products.md
             - name: Créer un produit
@@ -1042,7 +1034,7 @@
                   href: pos-image.md
             - name: Recommandations produit
               items:
-                - name: Ajouter un contrôle des recommandations sur des périphérique PDV
+                - name: Ajouter un contrôle des recommandations sur des périphériques PDV
                   href: add-recommendations-control-pos-screen.md
             - name: Commandes client
               items:
@@ -1146,7 +1138,9 @@
               items:
                 - name: Fonctionnalité de la caisse enregistreuse
                   href: localizations/emea-swe-cash-registers.md
-                - name: Exemple pour l'intégration de Retail POS avec des unités de contrôle
+                - name: Exemple d'intégration de l'unité de contrôle pour la Suède
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Exemple pour l'intégration de Retail POS avec des unités de contrôle (héritée)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Tâches de vente au détail
           items:
