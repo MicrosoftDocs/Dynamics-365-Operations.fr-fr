@@ -18,85 +18,83 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 1340f17e57f49d6adb9dc0a7c769bafa655de56e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ff5d21a8a71b068a276bedaf6e4b9964adcb4027
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551249"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896748"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-10-2018"></a><span data-ttu-id="9b057-103">Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (10 septembre 2018)</span><span class="sxs-lookup"><span data-stu-id="9b057-103">What's new or changed in Dynamics 365 Talent - Core HR (September 10, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-10-2018"></a><span data-ttu-id="9a002-103">Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (10 septembre 2018)</span><span class="sxs-lookup"><span data-stu-id="9a002-103">What's new or changed in Dynamics 365 Talent - Core HR (September 10, 2018)</span></span>
 
-[!include [banner](includes/banner.md)]
+<span data-ttu-id="9a002-104">**Version 8.1.138.0**</span><span class="sxs-lookup"><span data-stu-id="9a002-104">**Build 8.1.138.0**</span></span>
 
-<span data-ttu-id="9b057-104">**Version 8.1.138.0**</span><span class="sxs-lookup"><span data-stu-id="9b057-104">**Build 8.1.138.0**</span></span>
+<span data-ttu-id="9a002-105">Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent: Core HR.</span><span class="sxs-lookup"><span data-stu-id="9a002-105">This topic describes features that are either new or changed in Microsoft Dynamics 365 Talent: Core HR.</span></span>
 
-<span data-ttu-id="9b057-105">Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent: Core HR.</span><span class="sxs-lookup"><span data-stu-id="9b057-105">This topic describes features that are either new or changed in Microsoft Dynamics 365 Talent: Core HR.</span></span>
+## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a><span data-ttu-id="9a002-106">Indiquer un moment spécifique de la journée dans les demandes de congés (demi-journées)</span><span class="sxs-lookup"><span data-stu-id="9a002-106">Allow specific time of day on time-off requests (half days)</span></span>
 
-## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a><span data-ttu-id="9b057-106">Indiquer un moment spécifique de la journée dans les demandes de congés (demi-journées)</span><span class="sxs-lookup"><span data-stu-id="9b057-106">Allow specific time of day on time-off requests (half days)</span></span>
+<span data-ttu-id="9a002-107">Si le plan de congé et d'absence est paramétré pour que les congés soient soumis en jours, vous pouvez maintenant activer une définition d'une demi-journée.</span><span class="sxs-lookup"><span data-stu-id="9a002-107">If leave and absence is set up so that time off is submitted in days, you can now also enable a half-day definition.</span></span> <span data-ttu-id="9a002-108">Ensuite, lorsque les utilisateurs soumettent des demandes de congés, ils peuvent spécifier s'ils souhaitent prendre la matinée ou l'après-midi.</span><span class="sxs-lookup"><span data-stu-id="9a002-108">Then, when users submit time-off requests, they can specify whether they are requesting the first half or the second half of the day off.</span></span>
 
-<span data-ttu-id="9b057-107">Si le plan de congé et d'absence est paramétré pour que les congés soient soumis en jours, vous pouvez maintenant activer une définition d'une demi-journée.</span><span class="sxs-lookup"><span data-stu-id="9b057-107">If leave and absence is set up so that time off is submitted in days, you can now also enable a half-day definition.</span></span> <span data-ttu-id="9b057-108">Ensuite, lorsque les utilisateurs soumettent des demandes de congés, ils peuvent spécifier s'ils souhaitent prendre la matinée ou l'après-midi.</span><span class="sxs-lookup"><span data-stu-id="9b057-108">Then, when users submit time-off requests, they can specify whether they are requesting the first half or the second half of the day off.</span></span>
+<span data-ttu-id="9a002-109">Par défaut, cette option est désactivée.</span><span class="sxs-lookup"><span data-stu-id="9a002-109">By default, this option is turned off.</span></span> <span data-ttu-id="9a002-110">Pour permettre aux employés de demander une matinée ou une après-midi de congé, vous devez activer cette option dans la zone **Congé et absence** des paramètres des ressources humaines.</span><span class="sxs-lookup"><span data-stu-id="9a002-110">For employees to request the first half or second half of the day off, you must turn on this option in the **Leave and absence** area of Human resources parameters.</span></span>
 
-<span data-ttu-id="9b057-109">Par défaut, cette option est désactivée.</span><span class="sxs-lookup"><span data-stu-id="9b057-109">By default, this option is turned off.</span></span> <span data-ttu-id="9b057-110">Pour permettre aux employés de demander une matinée ou une après-midi de congé, vous devez activer cette option dans la zone **Congé et absence** des paramètres des ressources humaines.</span><span class="sxs-lookup"><span data-stu-id="9b057-110">For employees to request the first half or second half of the day off, you must turn on this option in the **Leave and absence** area of Human resources parameters.</span></span>
+<span data-ttu-id="9a002-111">Le privilège de sécurité pour cette fonction est Tenir à jour les paramètres de ressources humaines.</span><span class="sxs-lookup"><span data-stu-id="9a002-111">The security privilege for this feature is Maintain Human Resources Parameters.</span></span>
 
-<span data-ttu-id="9b057-111">Le privilège de sécurité pour cette fonction est Tenir à jour les paramètres de ressources humaines.</span><span class="sxs-lookup"><span data-stu-id="9b057-111">The security privilege for this feature is Maintain Human Resources Parameters.</span></span>
+## <a name="validation-of-leave-and-absence-entries"></a><span data-ttu-id="9a002-112">Validation des entrées de congé et d'absence</span><span class="sxs-lookup"><span data-stu-id="9a002-112">Validation of leave and absence entries</span></span>
 
-## <a name="validation-of-leave-and-absence-entries"></a><span data-ttu-id="9b057-112">Validation des entrées de congé et d'absence</span><span class="sxs-lookup"><span data-stu-id="9b057-112">Validation of leave and absence entries</span></span>
+<span data-ttu-id="9a002-113">Selon la manière dont les congés sont configurés, les employés qui essaient de soumettre une demande de congés d'une durée plus longue que leur journée de travail reçoivent un message d'avertissement.</span><span class="sxs-lookup"><span data-stu-id="9a002-113">Depending on how leave is configured, employees who try to submit a time-off request that is longer than their work day receive a warning message.</span></span> <span data-ttu-id="9a002-114">Autrement dit, un avertissement leur est envoyé s'ils essaient de prendre plus qu'une journée entière à une date donnée.</span><span class="sxs-lookup"><span data-stu-id="9a002-114">In other words, they are warned if they try to take more than a full day off on any given date.</span></span>
 
-<span data-ttu-id="9b057-113">Selon la manière dont les congés sont configurés, les employés qui essaient de soumettre une demande de congés d'une durée plus longue que leur journée de travail reçoivent un message d'avertissement.</span><span class="sxs-lookup"><span data-stu-id="9b057-113">Depending on how leave is configured, employees who try to submit a time-off request that is longer than their work day receive a warning message.</span></span> <span data-ttu-id="9b057-114">Autrement dit, un avertissement leur est envoyé s'ils essaient de prendre plus qu'une journée entière à une date donnée.</span><span class="sxs-lookup"><span data-stu-id="9b057-114">In other words, they are warned if they try to take more than a full day off on any given date.</span></span>
+<span data-ttu-id="9a002-115">Cette validaton est toujours activée.</span><span class="sxs-lookup"><span data-stu-id="9a002-115">This validation is always turned on.</span></span> <span data-ttu-id="9a002-116">Chaque fois que les employés dépassent le seuil de jours défini, ils reçoivent un avertissement dans leur demande de congés.</span><span class="sxs-lookup"><span data-stu-id="9a002-116">Any time that employees exceed the day threshold that is defined, they receive a warning in their time-off request.</span></span>
 
-<span data-ttu-id="9b057-115">Cette validaton est toujours activée.</span><span class="sxs-lookup"><span data-stu-id="9b057-115">This validation is always turned on.</span></span> <span data-ttu-id="9b057-116">Chaque fois que les employés dépassent le seuil de jours défini, ils reçoivent un avertissement dans leur demande de congés.</span><span class="sxs-lookup"><span data-stu-id="9b057-116">Any time that employees exceed the day threshold that is defined, they receive a warning in their time-off request.</span></span>
+## <a name="additional-fields-for-conditional-statements-in-workflows"></a><span data-ttu-id="9a002-117">Champs supplémentaires des instructions conditionnelles des workflows</span><span class="sxs-lookup"><span data-stu-id="9a002-117">Additional fields for conditional statements in workflows</span></span>
 
-## <a name="additional-fields-for-conditional-statements-in-workflows"></a><span data-ttu-id="9b057-117">Champs supplémentaires des instructions conditionnelles des workflows</span><span class="sxs-lookup"><span data-stu-id="9b057-117">Additional fields for conditional statements in workflows</span></span>
+<span data-ttu-id="9a002-118">Des champs supplémentaires ont été ajoutés aux instructions conditionnelles et aux espaces réservés pour plusieurs workflows dans Core HR.</span><span class="sxs-lookup"><span data-stu-id="9a002-118">Additional fields have been added to conditional statements and placeholders for several workflows in Core HR.</span></span>
 
-<span data-ttu-id="9b057-118">Des champs supplémentaires ont été ajoutés aux instructions conditionnelles et aux espaces réservés pour plusieurs workflows dans Core HR.</span><span class="sxs-lookup"><span data-stu-id="9b057-118">Additional fields have been added to conditional statements and placeholders for several workflows in Core HR.</span></span>
+<span data-ttu-id="9a002-119">Les champs suivants ont été ajoutés aux workflows de rémunération, de résiliation et de transfert :</span><span class="sxs-lookup"><span data-stu-id="9a002-119">The following fields have been added to the compensation, termination, and transfer workflows:</span></span>
 
-<span data-ttu-id="9b057-119">Les champs suivants ont été ajoutés aux workflows de rémunération, de résiliation et de transfert :</span><span class="sxs-lookup"><span data-stu-id="9b057-119">The following fields have been added to the compensation, termination, and transfer workflows:</span></span>
+- <span data-ttu-id="9a002-120">EmploymentType</span><span class="sxs-lookup"><span data-stu-id="9a002-120">EmploymentType</span></span>
+- <span data-ttu-id="9a002-121">LegalEntity</span><span class="sxs-lookup"><span data-stu-id="9a002-121">LegalEntity</span></span>
+- <span data-ttu-id="9a002-122">AdjustedWorkerStartDate</span><span class="sxs-lookup"><span data-stu-id="9a002-122">AdjustedWorkerStartDate</span></span>
+- <span data-ttu-id="9a002-123">EmployerNoticeAmount</span><span class="sxs-lookup"><span data-stu-id="9a002-123">EmployerNoticeAmount</span></span>
+- <span data-ttu-id="9a002-124">EmployerUnitOfNotice</span><span class="sxs-lookup"><span data-stu-id="9a002-124">EmployerUnitOfNotice</span></span>
+- <span data-ttu-id="9a002-125">TransitionDate</span><span class="sxs-lookup"><span data-stu-id="9a002-125">TransitionDate</span></span>
+- <span data-ttu-id="9a002-126">WorkerNoticeAmount</span><span class="sxs-lookup"><span data-stu-id="9a002-126">WorkerNoticeAmount</span></span>
+- <span data-ttu-id="9a002-127">WorkerStartDate</span><span class="sxs-lookup"><span data-stu-id="9a002-127">WorkerStartDate</span></span>
+- <span data-ttu-id="9a002-128">WorkerUnitOfNotice</span><span class="sxs-lookup"><span data-stu-id="9a002-128">WorkerUnitOfNotice</span></span>
+- <span data-ttu-id="9a002-129">ProbationEndDate</span><span class="sxs-lookup"><span data-stu-id="9a002-129">ProbationEndDate</span></span>
+- <span data-ttu-id="9a002-130">Poste</span><span class="sxs-lookup"><span data-stu-id="9a002-130">Position</span></span>
+- <span data-ttu-id="9a002-131">Union</span><span class="sxs-lookup"><span data-stu-id="9a002-131">Union</span></span>
+- <span data-ttu-id="9a002-132">Département</span><span class="sxs-lookup"><span data-stu-id="9a002-132">Department</span></span>
+- <span data-ttu-id="9a002-133">PositionType</span><span class="sxs-lookup"><span data-stu-id="9a002-133">PositionType</span></span>
+- <span data-ttu-id="9a002-134">CompLocation</span><span class="sxs-lookup"><span data-stu-id="9a002-134">CompLocation</span></span>
+- <span data-ttu-id="9a002-135">Fonction</span><span class="sxs-lookup"><span data-stu-id="9a002-135">Title</span></span>
+- <span data-ttu-id="9a002-136">Poste</span><span class="sxs-lookup"><span data-stu-id="9a002-136">Job</span></span>
+- <span data-ttu-id="9a002-137">JobType</span><span class="sxs-lookup"><span data-stu-id="9a002-137">JobType</span></span>
+- <span data-ttu-id="9a002-138">JobFamily</span><span class="sxs-lookup"><span data-stu-id="9a002-138">JobFamily</span></span>
+- <span data-ttu-id="9a002-139">JobFunction</span><span class="sxs-lookup"><span data-stu-id="9a002-139">JobFunction</span></span>
 
-- <span data-ttu-id="9b057-120">EmploymentType</span><span class="sxs-lookup"><span data-stu-id="9b057-120">EmploymentType</span></span>
-- <span data-ttu-id="9b057-121">LegalEntity</span><span class="sxs-lookup"><span data-stu-id="9b057-121">LegalEntity</span></span>
-- <span data-ttu-id="9b057-122">AdjustedWorkerStartDate</span><span class="sxs-lookup"><span data-stu-id="9b057-122">AdjustedWorkerStartDate</span></span>
-- <span data-ttu-id="9b057-123">EmployerNoticeAmount</span><span class="sxs-lookup"><span data-stu-id="9b057-123">EmployerNoticeAmount</span></span>
-- <span data-ttu-id="9b057-124">EmployerUnitOfNotice</span><span class="sxs-lookup"><span data-stu-id="9b057-124">EmployerUnitOfNotice</span></span>
-- <span data-ttu-id="9b057-125">TransitionDate</span><span class="sxs-lookup"><span data-stu-id="9b057-125">TransitionDate</span></span>
-- <span data-ttu-id="9b057-126">WorkerNoticeAmount</span><span class="sxs-lookup"><span data-stu-id="9b057-126">WorkerNoticeAmount</span></span>
-- <span data-ttu-id="9b057-127">WorkerStartDate</span><span class="sxs-lookup"><span data-stu-id="9b057-127">WorkerStartDate</span></span>
-- <span data-ttu-id="9b057-128">WorkerUnitOfNotice</span><span class="sxs-lookup"><span data-stu-id="9b057-128">WorkerUnitOfNotice</span></span>
-- <span data-ttu-id="9b057-129">ProbationEndDate</span><span class="sxs-lookup"><span data-stu-id="9b057-129">ProbationEndDate</span></span>
-- <span data-ttu-id="9b057-130">Poste</span><span class="sxs-lookup"><span data-stu-id="9b057-130">Position</span></span>
-- <span data-ttu-id="9b057-131">Union</span><span class="sxs-lookup"><span data-stu-id="9b057-131">Union</span></span>
-- <span data-ttu-id="9b057-132">Département</span><span class="sxs-lookup"><span data-stu-id="9b057-132">Department</span></span>
-- <span data-ttu-id="9b057-133">PositionType</span><span class="sxs-lookup"><span data-stu-id="9b057-133">PositionType</span></span>
-- <span data-ttu-id="9b057-134">CompLocation</span><span class="sxs-lookup"><span data-stu-id="9b057-134">CompLocation</span></span>
-- <span data-ttu-id="9b057-135">Fonction</span><span class="sxs-lookup"><span data-stu-id="9b057-135">Title</span></span>
-- <span data-ttu-id="9b057-136">Poste</span><span class="sxs-lookup"><span data-stu-id="9b057-136">Job</span></span>
-- <span data-ttu-id="9b057-137">JobType</span><span class="sxs-lookup"><span data-stu-id="9b057-137">JobType</span></span>
-- <span data-ttu-id="9b057-138">JobFamily</span><span class="sxs-lookup"><span data-stu-id="9b057-138">JobFamily</span></span>
-- <span data-ttu-id="9b057-139">JobFunction</span><span class="sxs-lookup"><span data-stu-id="9b057-139">JobFunction</span></span>
+<span data-ttu-id="9a002-140">Les champs suivants ont été ajoutés au workflow de position :</span><span class="sxs-lookup"><span data-stu-id="9a002-140">The following fields have been added to the position workflow:</span></span>
 
-<span data-ttu-id="9b057-140">Les champs suivants ont été ajoutés au workflow de position :</span><span class="sxs-lookup"><span data-stu-id="9b057-140">The following fields have been added to the position workflow:</span></span>
+- <span data-ttu-id="9a002-141">Poste</span><span class="sxs-lookup"><span data-stu-id="9a002-141">Position</span></span>
+- <span data-ttu-id="9a002-142">Union</span><span class="sxs-lookup"><span data-stu-id="9a002-142">Union</span></span>
+- <span data-ttu-id="9a002-143">Département</span><span class="sxs-lookup"><span data-stu-id="9a002-143">Department</span></span>
+- <span data-ttu-id="9a002-144">PositionType</span><span class="sxs-lookup"><span data-stu-id="9a002-144">PositionType</span></span>
+- <span data-ttu-id="9a002-145">CompLocation</span><span class="sxs-lookup"><span data-stu-id="9a002-145">CompLocation</span></span>
+- <span data-ttu-id="9a002-146">Fonction</span><span class="sxs-lookup"><span data-stu-id="9a002-146">Title</span></span>
+- <span data-ttu-id="9a002-147">Poste</span><span class="sxs-lookup"><span data-stu-id="9a002-147">Job</span></span>
+- <span data-ttu-id="9a002-148">JobType</span><span class="sxs-lookup"><span data-stu-id="9a002-148">JobType</span></span>
+- <span data-ttu-id="9a002-149">JobFamily</span><span class="sxs-lookup"><span data-stu-id="9a002-149">JobFamily</span></span>
+- <span data-ttu-id="9a002-150">JobFunction</span><span class="sxs-lookup"><span data-stu-id="9a002-150">JobFunction</span></span>
 
-- <span data-ttu-id="9b057-141">Poste</span><span class="sxs-lookup"><span data-stu-id="9b057-141">Position</span></span>
-- <span data-ttu-id="9b057-142">Union</span><span class="sxs-lookup"><span data-stu-id="9b057-142">Union</span></span>
-- <span data-ttu-id="9b057-143">Département</span><span class="sxs-lookup"><span data-stu-id="9b057-143">Department</span></span>
-- <span data-ttu-id="9b057-144">PositionType</span><span class="sxs-lookup"><span data-stu-id="9b057-144">PositionType</span></span>
-- <span data-ttu-id="9b057-145">CompLocation</span><span class="sxs-lookup"><span data-stu-id="9b057-145">CompLocation</span></span>
-- <span data-ttu-id="9b057-146">Fonction</span><span class="sxs-lookup"><span data-stu-id="9b057-146">Title</span></span>
-- <span data-ttu-id="9b057-147">Poste</span><span class="sxs-lookup"><span data-stu-id="9b057-147">Job</span></span>
-- <span data-ttu-id="9b057-148">JobType</span><span class="sxs-lookup"><span data-stu-id="9b057-148">JobType</span></span>
-- <span data-ttu-id="9b057-149">JobFamily</span><span class="sxs-lookup"><span data-stu-id="9b057-149">JobFamily</span></span>
-- <span data-ttu-id="9b057-150">JobFunction</span><span class="sxs-lookup"><span data-stu-id="9b057-150">JobFunction</span></span>
+<span data-ttu-id="9a002-151">Les champs des instructions conditionnelles et des espaces réservés sont disponibles pour tous les utilisateurs qui disposent d'un accès pour configurer les workflows précédemment mentionnés.</span><span class="sxs-lookup"><span data-stu-id="9a002-151">Fields in conditional statements and placeholders are available to all users who have access to configure the previously mentioned workflows.</span></span>
 
-<span data-ttu-id="9b057-151">Les champs des instructions conditionnelles et des espaces réservés sont disponibles pour tous les utilisateurs qui disposent d'un accès pour configurer les workflows précédemment mentionnés.</span><span class="sxs-lookup"><span data-stu-id="9b057-151">Fields in conditional statements and placeholders are available to all users who have access to configure the previously mentioned workflows.</span></span>
+## <a name="navigation-to-attract-from-personnel-management"></a><span data-ttu-id="9a002-152">Accès à Attract à partir du module Gestion du personnel</span><span class="sxs-lookup"><span data-stu-id="9a002-152">Navigation to Attract from personnel management</span></span>
 
-## <a name="navigation-to-attract-from-personnel-management"></a><span data-ttu-id="9b057-152">Accès à Attract à partir du module Gestion du personnel</span><span class="sxs-lookup"><span data-stu-id="9b057-152">Navigation to Attract from personnel management</span></span>
+<span data-ttu-id="9a002-153">Dans le module Gestion du personnel, si Attract n'a pas été paramétré, la section **Candidats à l'embauche** redirige les utilisateurs vers la page de mise en route d'Attract au lieu d'afficher le message « Nous n'avons rien trouvé à afficher ici ».</span><span class="sxs-lookup"><span data-stu-id="9a002-153">In personnel management, if Attract hasn't been set up, the **Candidates to hire** section directs users to get started with Attract instead of showing the message, "We didn't find anything to show here."</span></span>
 
-<span data-ttu-id="9b057-153">Dans le module Gestion du personnel, si Attract n'a pas été paramétré, la section **Candidats à l'embauche** redirige les utilisateurs vers la page de mise en route d'Attract au lieu d'afficher le message « Nous n'avons rien trouvé à afficher ici ».</span><span class="sxs-lookup"><span data-stu-id="9b057-153">In personnel management, if Attract hasn't been set up, the **Candidates to hire** section directs users to get started with Attract instead of showing the message, "We didn't find anything to show here."</span></span>
+## <a name="other-changes"></a><span data-ttu-id="9a002-154">Autres modifications</span><span class="sxs-lookup"><span data-stu-id="9a002-154">Other changes</span></span>
 
-## <a name="other-changes"></a><span data-ttu-id="9b057-154">Autres modifications</span><span class="sxs-lookup"><span data-stu-id="9b057-154">Other changes</span></span>
+<span data-ttu-id="9a002-155">Cette version contient plusieurs correctifs de bogue supplémentaires :</span><span class="sxs-lookup"><span data-stu-id="9a002-155">This release includes several additional bug fixes:</span></span>
 
-<span data-ttu-id="9b057-155">Cette version contient plusieurs correctifs de bogue supplémentaires :</span><span class="sxs-lookup"><span data-stu-id="9b057-155">This release includes several additional bug fixes:</span></span>
-
-- <span data-ttu-id="9b057-156">Lorsqu'un fournisseur est embauché, l'onglet **Rémunération** ne doit pas être disponible dans la page de demande/d'action.</span><span class="sxs-lookup"><span data-stu-id="9b057-156">When a contractor is hired, the **Compensation** tab should not be available on the request/action page.</span></span>
-- <span data-ttu-id="9b057-157">Au cours du processus de résiliation de la demande, vous ne pouvez pas continuer tant que tous les champs obligatoires ne contiennent pas des données.</span><span class="sxs-lookup"><span data-stu-id="9b057-157">During the request termination process, you can't continue until all required fields contain data.</span></span>
-- <span data-ttu-id="9b057-158">Les problèmes d'ordre de tri et d'affichage de la date dans le module Analyse de la gestion du personnel ont été résolus.</span><span class="sxs-lookup"><span data-stu-id="9b057-158">Sort order and date display issues on the Personnel management analytics have been addressed.</span></span>
+- <span data-ttu-id="9a002-156">Lorsqu'un fournisseur est embauché, l'onglet **Rémunération** ne doit pas être disponible dans la page de demande/d'action.</span><span class="sxs-lookup"><span data-stu-id="9a002-156">When a contractor is hired, the **Compensation** tab should not be available on the request/action page.</span></span>
+- <span data-ttu-id="9a002-157">Au cours du processus de résiliation de la demande, vous ne pouvez pas continuer tant que tous les champs obligatoires ne contiennent pas des données.</span><span class="sxs-lookup"><span data-stu-id="9a002-157">During the request termination process, you can't continue until all required fields contain data.</span></span>
+- <span data-ttu-id="9a002-158">Les problèmes d'ordre de tri et d'affichage de la date dans le module Analyse de la gestion du personnel ont été résolus.</span><span class="sxs-lookup"><span data-stu-id="9a002-158">Sort order and date display issues on the Personnel management analytics have been addressed.</span></span>
