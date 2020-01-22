@@ -1,6 +1,6 @@
 ---
-title: Basculer entre les conceptions de fournisseur
-description: ''
+title: Permuter entre les configurations de fournisseur
+description: Cette rubrique décrit comment basculer entre l'intégration des données fournisseur entre les applications Finance and Operations et Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 4e97ff0b0e6195b5e3703e15a0bb0de7644ef8d1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 204d788e72e79e7acf744d24cbeacb0f9b47da7d
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772362"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902723"
 ---
-# <a name="switch-between-vendor-designs"></a>Basculer entre les conceptions de fournisseur
+# <a name="switch-between-vendor-designs"></a>Permuter entre les configurations de fournisseur
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,11 +34,11 @@ ms.locfileid: "2772362"
 
 Si vous souhaitez utiliser d'autres applications Dynamics 365 pour la gestion des fournisseurs, et si vous souhaitez isoler les informations fournisseur des informations client, vous pouvez utiliser la conception de fournisseur de base.  
 
-![Flux de fournisseur de base](media/dual-write-switch-1.png)
+![Flux de fournisseur de base](media/dual-write-vendor-data-flow.png)
  
 Si vous souhaitez utiliser d'autres applications Dynamics 365 pour la gestion des fournisseurs, et que vous souhaitez continuer d'utiliser l'entité **Compte** pour stocker les informations fournisseur, vous pouvez utiliser la nouvelle conception de fournisseur étendue. Dans cette conception, les informations fournisseur étendues telles que le statut En attente du fournisseur et le profil du fournisseur sont stockées dans l'entité **fournisseurs** dans Common Data Service. 
 
-![Flux de fournisseur étendu](media/dual-write-switch-2.png)
+![Flux de fournisseur étendu](media/dual-write-vendor-detail.jpg)
  
 Procédez comme suit pour utiliser la conception étendue de fournisseur : 
  
@@ -60,5 +60,5 @@ Procédez comme suit pour utiliser la conception étendue de fournisseur :
     4. Vous pouvez configurer les workflows comme workflows en temps réel ou workflows d'arrière plan selon vos besoins. 
         > [!div class="mx-imgBorder"]
         > ![Convertir vers un workflow d'arrière-plan](media/dual-write-switch-8.png)
-    5. Activez les workflows que vous avez créés sur les entités **Compte** et **Fournisseur** pour commencer à utiliser l'entité **Compte** de Customer Engagement pour enregistrer les informations fournisseur. 
+    5. Activez les workflows que vous avez créés sur les entités **Compte** et **Fournisseur** pour commencer à utiliser l'entité **Compte** pour enregistrer les informations fournisseur. 
  

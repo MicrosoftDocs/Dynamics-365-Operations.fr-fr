@@ -3,7 +3,7 @@ title: Vue d'ensemble de l'état du cycle de vie des produits
 description: L'état du cycle de vie des produits documente l'état du cycle de vie d'un produit ou d'une variante de produit lancé.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813544"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934838"
 ---
 # <a name="product-lifecycle-state-overview"></a>Vue d'ensemble de l'état du cycle de vie des produits
 
@@ -74,11 +74,7 @@ Pour des informations détaillées sur l'utilisation de l'état du cycle de vie 
 
 ## <a name="default-migration-import-and-export"></a>Migration, importation et exportation par défaut 
 
-Les états du cycle de vie des produits ne sont pas pris en charge par les entités de données, et l'état du cycle de vie ne peut pas être défini sur un état variable via les entités de données de produits lancés.
-
--  Lors de la migration à partir de versions précédentes, l'état du cycle de vie de tous les produits et variantes de produit est vide.  
--  Lors de l'importation de produits lancés via une entité de données, l'état du cycle de vie par défaut est appliqué lors de la création.  
--  Lors de l'importation de variantes de produit lancé via une entité de données, l'état du cycle de vie du produit générique lancé est importé.   
+Les états du cycle de vie des produits sont pris en charge par les entités de données, et l'état du cycle de vie peut être défini sur un état variable via les entités de données de produits lancés ou les entités de données de variantes publiées.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Rechercher des produits et des variantes de produit obsolètes 
 

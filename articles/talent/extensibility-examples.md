@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 6c8a583a93c2ceb70d8c3b0e0047e2bf2047b56d
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832836"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898315"
 ---
 # <a name="extend-talent-with-power-apps-and-power-automate"></a>Étendre Talent avec Power Apps et Power Automate
-
-[!include [banner](includes/banner.md)]
 
 Cette rubrique décrit quelques exemples de scénarios d'extensibilité pour Microsoft Dynamics 365 Talent utilisant Microsoft Power Apps et Microsoft Power Automate. Vous pouvez importer le module de solution associé à chaque exemple dans l'environnement de Power Apps. Vous pouvez ensuite utiliser les modules comme orientation ou comme point de départ pour implémenter les scénarios qui s'appliquent à votre organisation.
 
@@ -108,7 +106,7 @@ Vous pouvez utiliser l'application de référence pour ajouter des candidats à 
 
 Vous pouvez intégrer cette application dans l'espace de travail Libre-service employé pour soumettre des références, ou vous pouvez l'utiliser en tant que lien hypertexte dans le portail de l'entreprise et l'exécuter comme application autonome.
 
-Pour télécharger l'**Application de référence**, allez dans [Solution d'extensibilité Dynamics 365 Talent : Application de référence](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) dans le Centre de téléchargement Microsoft. Vous pouvez importer cette application et la personnaliser pour ajouter des fonctionnalités supplémentaires.
+Pour télécharger l'**Application de référence**, allez dans [Solution d'extensibilité Dynamics 365 Talent : Application de référence](https://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) dans le Centre de téléchargement Microsoft. Vous pouvez importer cette application et la personnaliser pour ajouter des fonctionnalités supplémentaires.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

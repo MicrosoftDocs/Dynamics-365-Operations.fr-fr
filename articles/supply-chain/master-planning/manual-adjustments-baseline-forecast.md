@@ -3,7 +3,7 @@ title: Effectuer des ajustements manuels sur la prévision de base
 description: Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1c9963a54a052549a6bfeabcb3d91b7b0f3cf68e
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815132"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935414"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
 
@@ -70,8 +70,9 @@ La page **Détails de prévision de la demande** affiche les informations suivan
 
 **Remarques :**
 
+-   Si vous activez **Sélection du modèle de prévision sur les détails de prévision de la demande** à partir de Gestion des fonctionnalités, vous pourrez sélectionner les modèles de prévision à inclure, pour la prévision historique, sur la page **Détails des prévisions de la demande**.
 -   L'intervalle de confiance qui apparaît dans la section **Prévision** de la page représente la différence entre la limite supérieure de l'intervalle de confiance et la limite inférieure de l'intervalle de confiance. Pour afficher des valeurs pour les limites supérieures et inférieures, pointez sur le graphique dans la section **Prévisions et demandes historiques représentées graphiquement**.
--   Si vous utilisez le service Microsoft Azure Machine Learning de prévision de la demande, vous pouvez spécifier le pourcentage de niveau de confiance que la prévision générée doit avoir. Un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu'il existe un risque de 5 % que les prévisions de la demande se trouvent en dehors de l'intervalle de confiance.
+-   Si vous utilisez Microsoft Azure Machine Learning pour la prévision de la demande, vous pouvez spécifier le pourcentage de niveau de confiance que la prévision générée doit avoir. Un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu'il existe un risque de 5 % que les prévisions de la demande se trouvent en dehors de l'intervalle de confiance.
 
 Vous pouvez également effectuer des ajustements manuels de la prévision dans la page **Détails de prévision de la demande**, en modifiant les valeurs dans la ligne **Prévision** dans la section **Prévision**.
 

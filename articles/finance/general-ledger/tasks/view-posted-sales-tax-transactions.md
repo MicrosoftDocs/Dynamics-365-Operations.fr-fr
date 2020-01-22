@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175414"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888607"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Afficher les transactions de taxe validées
 
@@ -29,13 +29,13 @@ ms.locfileid: "2175414"
 
 Cette rubrique décrit certains manières d'afficher les transactions fiscales validées. Vous pouvez afficher des transactions de taxe validées à partir de différentes pages en fonction de ce que vous devez afficher. La société fictive USMF est citée en exemple dans cette tâche.
 
-# <a name="posted-sales-tax-page"></a>Page de la taxe validée
+## <a name="posted-sales-tax-page"></a>Page de la taxe validée
 
 1. Dans le volet de navigation, accédez à **Modules > Taxes > Recherches et états > Recherches de taxe > Taxe validée**.
 2. Sélectionnez **Afficher les filtres** pour restreindre la vue aux transactions spécifiques.
 3. Fermez la page.
 
-# <a name="sales-tax-settlement-periods-page"></a>Page des périodes de règlement fiscal
+## <a name="sales-tax-settlement-periods-page"></a>Page des périodes de règlement fiscal
 
 1. Dans le volet de navigation, accédez à **Modules > Taxes > Taxes indirectes > Taxe > Périodes de règlement fiscal**.
 2. Développez la section **Intervalles de périodes**.
@@ -43,7 +43,7 @@ Cette rubrique décrit certains manières d'afficher les transactions fiscales v
 4. Vous pouvez filtrer plus précisément la liste des transactions de taxe validées.
 5. Fermez la page.
 
-# <a name="sales-tax-codes-page"></a>Page Codes taxe
+## <a name="sales-tax-codes-page"></a>Page Codes taxe
 
 1. Dans le volet de navigation, accédez à **Modules > Taxes > Taxes indirectes > Taxe > Codes de taxe**.
 2. Dans le volet Actions, cliquez sur **Code de taxe**.

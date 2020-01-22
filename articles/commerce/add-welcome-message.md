@@ -3,7 +3,7 @@ title: Ajouter un message de bienvenue
 description: Cette rubrique décrit la procédure d'ajout d'un message d'accueil à votre site web Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 25a4e91646916b03c8a138fc713577f429ab633c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 4e9deeeaf491b77700ba0833e429f05d376a4392
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697380"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914514"
 ---
 # <a name="add-a-welcome-message"></a>Ajouter un message de bienvenue
 
@@ -60,6 +60,8 @@ Le message de bienvenue apparaît désormais en haut de chaque page du site qui 
 [Ajouter un logo](add-logo.md)
 
 [Sélectionner un thème pour le site](select-site-theme.md)
+
+[Utilisation de fichiers de remplacement CSS](css-override-files.md)
 
 [Ajouter une icône de favori](add-favicon.md)
 

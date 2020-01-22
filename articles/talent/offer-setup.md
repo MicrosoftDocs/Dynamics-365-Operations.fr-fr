@@ -3,7 +3,7 @@ title: Paramétrer la gestion des offres dans Attract
 description: Cette rubrique décrit comment paramétrer les offres dans Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832720"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890553"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Paramétrer la gestion des offres dans Attract
 
@@ -45,9 +45,11 @@ Les données de l'offre constituent la plus petite unité à l'intérieur du mod
 
     >[!NOTE]
     > Dans la page **Données de l'offre** se trouvent les sections **Détails du candidat** et **Détails de la mission**. Attract fournit quelques espaces réservés de données prêts à l'emploi.
-    
+    > 
     > Il existe des sections dans la page permettant d'organiser les différents espaces réservés de données de l'offre en groupes logiques. Ces sections peuvent vous aider dans la mise à jour des données de l'offre et le renseignement des données lors du processus de création de l'offre.
-
+    > 
+    > Pour créer une liste de valeurs pour un espace réservé, téléchargez une feuille de calcul Excel avec une colonne portant l'espace réservé comme titre de colonne et la liste de choix dans les lignes en dessous. Si le même espace réservé est référencé dans un autre ensemble de règles de données, assurez-vous qu'ils ont un ensemble commun de valeurs.
+    
 1.  Pour créer une section de données de l'offre, cliquez sur **Ajouter une section** et entrez un nom unique pour la section.
 
 1.  Pour ajouter des espaces réservés de données de l'offre dans une section, cliquez sur **Ajouter des données de l'offre** et entrez un nom unique pour l'espace réservé.

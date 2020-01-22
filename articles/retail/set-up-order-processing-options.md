@@ -3,7 +3,7 @@ title: Paramétrer des centres d'appels
 description: Cette rubrique offre des informations sur le traitement des commandes pour les centres d'appels avec Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/16/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4ebe25f91cd4228537254dc0b7891c8584981775
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024819"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934698"
 ---
 # <a name="set-up-call-center-channels"></a>Paramétrer des canaux de centre d'appels
 
@@ -81,3 +81,6 @@ Les utilisateurs qui ne sont pas associés à un canal de centre d'appels utilis
 
 
 Lorsque vous avez terminé de configurer le canal de centre d'appels et de définir les utilisateurs du canal, pour garantir le comportement système souhaité, assurez-vous que tous les paramètres du centre d'appels requis sont définis dans **Retail** \> **Paramétrage du canal** \> **Paramétrage du centre d'appels** \> **Paramètres du centre d'appels**. Assurez-vous que des souches de numéros associées sont également définies.
+
+> [!NOTE]
+> Pour utiliser la fonctionnalité de centre d'appels, la clé de configuration de **Expédition multiple** doit être activé. Cette clé de configuration se trouve dans les clés **Configuration Commerce** sous **Administration du système**\> **Configurer** \> **Configuration de licence**. Cela est nécessaire en raison de la fonctionnalité de centre d'appels qui effectue diverses validations en fonction de l'adresse de livraison configurée au niveau de la ligne de commande client. 

@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771071"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933930"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d'ensemble des états électroniques (ER)
 
@@ -51,12 +51,12 @@ Le moteur d'états électroniques est doté des fonctionnalités suivantes :
 
 Les états électroniques prennent en charge deux types de composants : **Modèle de données** et **Format**.
 
-#### <a name="data-model-components"></a>Composants de modèle de données
+#### <a name="data-model-and-model-mapping-components"></a>Composants de modèle de données et de mappage de modèle
 
 Un composant de modèle de données est une représentation abstraite d'une structure de données. Il décrivait un domaine de l'entreprise spécifique avec suffisamment de détail pour satisfaire aux conditions de génération d'états pour ce domaine. Un composant de modèle de données se compose des éléments suivants :
 
-- un modèle de données, en tant qu'ensemble d'entités commerciales spécifiques au domaine, ainsi qu'une définition hiérarchiquement structurée des relations entre elles.
-- une mise en correspondance de modèle en tant qu'ensemble de sources de données de l'application avec des éléments individuels de ce modèle de données qui spécifie au moment de l'exécution le flux de données et les règles de population de données commerciales dans le composant de modèle de données.
+- <a name="DataModelComponent"></a>un modèle de données, en tant qu'ensemble d'entités commerciales spécifiques au domaine, ainsi qu'une définition hiérarchiquement structurée des relations entre elles.
+- <a name="ModelMappingComponent"></a>une mise en correspondance de modèle en tant qu'ensemble de sources de données de l'application avec des éléments individuels de ce modèle de données qui spécifie au moment de l'exécution le flux de données et les règles de population de données commerciales dans le composant de modèle de données.
 
 Une entité commerciale de modèle de données est représentée comme un conteneur (enregistrement). Les propriétés d'entité commerciale sont représentées comme des articles de données (champs). Chaque article de données est doté d'un nom, d'un libellé, d'une description et d'une valeur uniques. La valeur de chaque élément de données peut être conçu de sorte qu'il soit reconnu comme une chaîne, entier, réel, date, énumération, booléen, etc. En outre, il peut s'agir d'un autre enregistrement ou d'une liste d'enregistrements.
 
@@ -81,7 +81,7 @@ Un mappage de modèle qui prend en charge les documents électroniques entrants 
 
 Un composant de modèle de données est conçu pour chaque domaine d'activité qui devrait être utilisé comme une source de données unifiée pour les rapports qui isolent les rapports de l'implémentation physique des sources de données Finance and Operations. Il représente des concepts et des fonctionnalités d'entreprise spécifiques au domaine sous une forme qui rend la conception d'origine du format de rapport et toute autre maintenance plus efficaces.
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>Composants de format pour les documents électroniques sortants
+#### <a name="FormatComponentOutbound"></a>Composants de format pour les documents électroniques sortants
 
 Un composant de format est le modèle utilisé pour la sortie générée au moment de l'exécution. Un modèle se compose des éléments suivants :
 
@@ -107,7 +107,7 @@ L'illustration ci-dessous indique les flux de données pour ces formats.
 
 Pour exécuter une configuration de format de génération d'états électroniques unique et générer un document électronique sortant, vous devez identifier le mappage de la configuration de format.
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>Composants de format pour les documents électroniques entrants
+#### <a name="FormatComponentInbound"></a>Composants de format pour les documents électroniques entrants
 Un composant de format est le modèle de document entrant qui est importé au moment de l'exécution. Un modèle se compose des éléments suivants :
 
 - Un format qui définit la structure et le contenu d'un document électronique entrant contenant des données qui sont importées au moment de l'exécution. Un composant de format est utilisé pour analyser un document entrant dans différents formats : texte et XML.
@@ -144,7 +144,7 @@ L'accès aux composants de format d'états électroniques dépend du paramètre 
 
 Différentes versions d'un composant de format de données peuvent avoir différents paramètres de codes pays/région ISO.
 
-#### <a name="configuration"></a>Configuration
+#### <a name="Configuration"></a>Configuration
 
 Une configuration de la génération d'états électroniques est le wrapper d'un composant de génération d'états électroniques particulier. Ce composant peut être un composant du modèle de données ou un composant de format. Une configuration peut inclure différentes versions d'un composant d'état électronique. Chaque configuration est marquée comme possédée par un fournisseur de configuration spécifique. La version **Brouillon** d'un composant d'une configuration peut être modifiée lorsque le propriétaire d'une configuration a été sélectionné comme fournisseur actif dans les paramètres d'états électroniques dans l'application.
 
@@ -154,13 +154,13 @@ La configuration de format qui est créée contient un composant de format. Le c
 
 Une configuration d'état électronique est partagée pour les sociétés de l'application.
 
-#### <a name="provider"></a>Fournisseur
+#### <a name="Provider"></a>Fournisseur
 
 Le fournisseur d'états électroniques est l'identificateur de partie utilisé pour indiquer l'auteur (propriétaire) de chaque configuration d'état électronique. L'état électronique vous permet de gérer la liste des fournisseurs de configuration. Les configurations de format émises pour les documents électroniques dans le cadre de la solution Finance and Operations sont marquées comme détenues par le fournisseur de configuration **Microsoft**.
 
 Pour savoir comment enregistrer un nouveau fournisseur d'états électroniques, consultez le Guide de tâche, **Génération d'états électroniques - Créer un fournisseur de configuration et le marquer comme actif** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
-#### <a name="repository"></a>Référentiel
+#### <a name="Repository"></a>Référentiel
 
 Un référentiel d'états électroniques enregistre les configurations d'états électroniques. Les types de référentiels ER suivants sont actuellement pris en charge : 
 

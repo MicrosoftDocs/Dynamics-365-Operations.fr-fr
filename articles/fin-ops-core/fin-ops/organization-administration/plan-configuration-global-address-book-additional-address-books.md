@@ -3,7 +3,7 @@ title: Planifier le carnet d'adresses global et d'autres carnets d'adresses
 description: Cette rubrique décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de paramétrer et configurer le carnet d'adresses global et des carnets d'adresses supplémentaires.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190026"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883409"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Planifier le carnet d'adresses global et d'autres carnets d'adresses
 
@@ -35,7 +35,7 @@ Cette rubrique décrit les considérations et les décisions que vous devez pren
 
 Avant de commencer à travailler avec le carnet d'adresses global, vous devez déterminer les valeurs par défaut pour celui-ci. Ces valeurs par défaut sont ensuite utilisées pour tous les carnets d'adresses supplémentaires que vous créez.
 
-**Décisions :**
+**Décisions**
 
 - Dans quel ordre les noms doivent-ils s'afficher pour les enregistrements de parties de type **Personne** ? Par exemple, nom, deuxième prénom, prénom.
 - Les enregistrements de parties doivent-ils être supprimés du carnet d'adresses lorsque l'enregistrement de rôle est supprimé ? Par exemple, si un enregistrement client est supprimé, l'enregistrement de partie doit-il également être supprimé ?
@@ -58,11 +58,3 @@ Une fois que vous avez créé le carnet d'adresses global, vous pouvez créer de
 **Décision :**
 
 - Combien de carnets d'adresses supplémentaires allez-vous créer ?
-
-### <a name="address-book-security"></a>Sécurité du carnet d'adresses
-
-Vous pouvez créer des carnets d'adresses à tout moment et vous pouvez également définir des paramètres de sécurité pour les carnets d'adresses à tout moment. Vous n'êtes pas obligé de définir des privilèges de sécurité pour un carnet d'adresses, mais si vous ne le faites pas, tous les collaborateurs de votre organisation peuvent consulter tous les enregistrements de parties de ce carnet d'adresses. Vous pouvez définir des privilèges de sécurité pour des enregistrements de parties par l'intermédiaire des carnets d'adresses. Les privilèges de sécurité sont basés sur les équipes. Cette méthode garantit que seuls les collaborateurs affectés à une équipe qui a accès à un carnet d'adresses peuvent consulter les enregistrements de parties dans ce carnet d'adresses. Vous devez sélectionner les équipes qui ont accès à chaque carnet d'adresses. Pour chaque carnet d'adresses, vous pouvez définir des privilèges de sécurité qui autorisent ou refusent l'accès à des équipes spécifiques. Si vous accordez à une équipe des privilèges pour un carnet d'adresses, tous les membres de cette équipe peuvent consulter les enregistrements de ce carnet d'adresses. Si vous n'accordez pas l'accès à un carnet d'adresses à une équipe, les membres de cette équipe ne peuvent pas consulter le carnet d'adresses ni son contenu.
-
-**Décision :**
-
-- Quelles équipes doivent-elles avoir accès à chaque carnet d'adresses que vous créez ?

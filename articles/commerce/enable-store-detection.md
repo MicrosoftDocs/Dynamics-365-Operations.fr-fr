@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a542d6987280451910b4ff3bcfb3a109a0e028c6
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: c5fb59a9798e2cddfb75b71235ee7754e54b0e28
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697610"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945767"
 ---
 # <a name="enable-location-based-store-detection"></a>Activation de la détection du magasin selon l’emplacement
 
@@ -50,16 +50,16 @@ Pour activer la détection du magasin selon l’emplacement dans Commerce, proc�
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble du magasin en ligne](online-store-overview.md)
-
-[Création d'un site de commerce électronique](create-ecommerce-site.md)
+[Configuration du nom de domaine](configure-your-domain-name.md)
 
 [Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
 
+[Création d'un site de commerce électronique](create-ecommerce-site.md)
+
 [Association d'un site en ligne avec un canal](associate-site-online-store.md)
 
-[Configuration du nom de domaine](configure-your-domain-name.md)
-
-[Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
+[Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
 [Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
+
+[Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)

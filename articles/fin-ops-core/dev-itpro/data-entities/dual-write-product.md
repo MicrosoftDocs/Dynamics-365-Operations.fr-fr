@@ -3,7 +3,7 @@ title: Expérience produit unifiée
 description: Cette rubrique décrit l'intégration des données de produit entre les applications Finance and Operations et Common Data Service.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769727"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914769"
 ---
 # <a name="unified-product-experience"></a>Expérience produit unifiée
 
@@ -52,7 +52,7 @@ Les informations de produit contiennent toutes les informations associées au pr
 
 Finance and Operations | Autres applications Dynamics 365 | Description
 -----------------------|--------------------------------|---
-Produits lancés V2 | msdyn\_sharedproductdetails | L'entité **msdyn\_sharedproductdetails** contient les champs des applications Finance and Operations qui définissent le produit, et qui contiennent les informations de gestion et les informations financières relatives au produit. Le tableau suivant présente les mises en correspondance.
+Produits lancés V2 | msdyn\_sharedproductdetails | L'entité **msdyn\_sharedproductdetails** contient les champs des applications Finance and Operations qui définissent le produit, et qui contiennent les informations de gestion et les informations financières relatives au produit. 
 Produits distincts lancés pour Common Data Service | Produit | L'entité **Produit** contient les champs qui définissent le produit. Elle comprend les différents produits (produits avec produit de sous-type) et les variantes de produit. Le tableau suivant présente les mises en correspondance.
 Numéro de produit identifié par code-barres | msdyn\_productbarcodes | Les codes-barres de produit permettent d'identifier de manière unique les produits.
 Paramètres de commande par défaut | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Conversion d'unités | msdyn_ unitofmeasureconversions
 Conversion de l'unité de mesure spécifique au produit | msdyn_productspecificunitofmeasureconversion
 Catégories de produits | msdyn_productcategories | Chacune des catégories de produit et des informations sur sa structure et ses caractéristiques sont contenues dans l'entité de catégorie de produit. 
 Hiérarchies de catégories de produit | msdyn_productcategoryhierarhies | Vous utilisez des hiérarchies de produit pour classer ou regrouper des produits. Les hiérarchies de catégories sont disponibles dans Common Data Service à l'aide de l'entité de hiérarchie des catégories de produits. 
-Rôles de hiérarchie de catégories de produit | msdyn_productcategoryhierarchies | Les hiérarchies de produit peuvent être utilisées pour plusieurs rôles dans D365 Finance and Operations. Pour indiquer quelle catégorie est utilisée dans chaque rôle, l'entité de rôle de catégorie du produit est utilisée avec les mises en correspondance suivantes. 
+Rôles de hiérarchie de catégories de produit | msdyn_productcategoryhierarchies | Les hiérarchies de produit peuvent être utilisées pour plusieurs rôles dans D365 Finance and Operations. Pour indiquer quelle catégorie est utilisée dans chaque rôle, l'entité de rôle de catégorie du produit est utilisée. 
 Affectations de catégorie de produit | msdyn_productcategoryassignments | Pour affecter un produit à une catégorie, l'entité d'affectations de catégorie de produit peut être utilisée.
 
 ## <a name="integration-of-products"></a>Intégration des produits

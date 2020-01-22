@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2632632b9b21dd3a88e9a4df0e65cfd28e579d2
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697449"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945511"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Déploiement d'un nouveau client de commerce électronique
 
@@ -88,16 +88,16 @@ Pour accéder à l'environnement de création, accédez à l'onglet **Commerce �
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble du magasin en ligne](online-store-overview.md)
+[Configuration du nom de domaine](configure-your-domain-name.md)
 
 [Création d'un site de commerce électronique](create-ecommerce-site.md)
 
 [Association d'un site en ligne avec un canal](associate-site-online-store.md)
 
-[Configuration du nom de domaine](configure-your-domain-name.md)
+[Gérer les fichiers robots.txt](manage-robots-txt-files.md)
+
+[Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
 
 [Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
-
-[Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)

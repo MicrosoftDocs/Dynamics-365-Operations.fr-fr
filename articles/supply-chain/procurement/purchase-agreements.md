@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813360"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902430"
 ---
 # <a name="purchase-agreements"></a>Contrats d'achat
 
@@ -36,7 +36,14 @@ Les contrats d'achat peuvent s'appliquer à une quantité spécifique d'un produ
 
 Sur la page **Contrats d'achat**, vous pouvez créer, appliquer et suivre les contrats d'achat qui existent entre votre organisation et vos fournisseurs. Par exemple, après avoir créé un contrat d'achat, vous pouvez l'utiliser directement pour passer vos commandes. Pour chaque contrat d'achat, une période de validité est définie par la personne à l'origine de la création. La date de livraison d'un achat doit être comprise dans les dates de validité de cette période de validité.  
 
-Après avoir créé un contrat d'achat, vous devez l'activer pour qu'il prenne effet. Pour activer un contrat d'achat, définissez l'option **Marquer l'accord comme effectif** sur **Oui**.
+Après avoir créé un contrat d'achat, vous devez l'activer pour qu'il prenne effet. Pour activer un contrat d'achat, définissez l'option **Marquer l'accord comme effectif** sur **Oui**. 
+
+Pour éviter que votre contrat d'achat ne soit utilisé et confirmé, marquez le statut du contrat comme **Fermé**. Vous pouvez toujours mettre à jour le statut sur **Effectif** à tout moment après avoir effectué ce changement.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Collaborateurs responsables sur les contrats d'achat
+
+Vous pouvez identifier un collaborateur responsable principal et un collaborateur responsable secondaire dans la classification du contrat d'achat. Ces valeurs seront héritées par le contrat d'achat résultant. Vous n'êtes pas obligé d'ajouter des collaborateurs responsables au contrat d'achat, et ils peuvent être modifiés directement au cas par cas sur le contrat d'achat lui-même. Vous ne pouvez pas spécifier de collaborateur responsable secondaire sans collaborateur responsable principal, bien que vous n'ayez pas besoin d'avoir un collaborateur responsable secondaire. Vous ne pouvez pas spécifier le même collaborateur comme collaborateur responsable principal et secondaire. 
+
 
 ## <a name="commitment-types"></a>Types d'engagements
 Chaque ligne d'un accord d'achat exprime un engagement à acheter quelque chose. Vous pouvez utiliser les lignes de plusieurs commandes fournisseur pour honorer l'engagement. Il existe quatre types d'engagements :

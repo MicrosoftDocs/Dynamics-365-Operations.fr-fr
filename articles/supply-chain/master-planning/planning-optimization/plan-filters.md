@@ -3,7 +3,7 @@ title: Appliquer les filtres à un plan
 description: Cette rubrique explique comment utiliser des filtres sur un plan lorsque la fonctionnalité Optimisation de la planification est utilisée.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/30/2019
+ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: ff9c9f875368fcc4dd62b9c188d489e20a5c7960
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9d1431cc8db6fb28d1f1ec73ee07dd15e78f82e8
+ms.sourcegitcommit: 65f4b8a751670a7fe9ef4cb8b218213f792d57a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773959"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945417"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 # <a name="apply-filters-to-a-plan"></a>Appliquer les filtres à un plan
 
-Lorsque la fonctionnalité d'Optimisation de la planification est utilisée, vous pouvez appliquer un filtre à un plan. Le filtre de plan est toujours appliqué lors d'une exécution de planification. Un filtre de plan est utile si vous souhaitez limiter un plan à un groupe d'articles spécifique et veiller à ce qu'aucun autre article ne soit inclus dans le cadre de la planification obtenue.
+Lorsque la fonctionnalité d'Optimisation de la planification est utilisée, vous pouvez appliquer un filtre à un plan. Le **filtre de plan** est toujours appliqué lors d'une exécution de planification. Un **filtre de plan** est utile si vous souhaitez limiter un plan à un groupe d'articles spécifique et veiller à ce qu'aucun autre article ne soit inclus dans le cadre de la planification obtenue.
 
-Si un filtre de plan est appliqué et si un filtre de runtime est également appliqué pendant l'exécution de la planification, seule l'intersection des deux filtres est comprise dans l'exécution de la planification.
+Si un **filtre de plan** est appliqué et si un filtre de runtime est également appliqué pendant l'exécution de la planification, seule l'intersection des deux filtres est comprise dans l'exécution de la planification.
+
+Le **Filtre de plan** peut être accessible depuis **Plans généraux** lorsque l'Optimisation de la planification est utilisée.
 
 ## <a name="example-scenario"></a>Exemple de scénario
 

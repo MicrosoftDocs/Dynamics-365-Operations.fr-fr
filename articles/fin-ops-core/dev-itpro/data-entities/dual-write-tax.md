@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b6be53e9a2065373ca37c2791568a8161823803f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 86e74086a5a74c7af5f2572d1a653a1658d729c0
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772408"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853857"
 ---
-## <a name="integrated-tax"></a>Taxe intégrée
+# <a name="integrated-tax"></a>Taxe intégrée
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ Les données de paramétrage de la taxe définissent le paramétrage pour les ta
 
 Les données de taxe comprennent un ensemble de mappages d'entités qui fonctionnent ensemble pendant l'interaction des données client, comme indiqué dans le tableau suivant.
 
-Finance and Operations   | Application Customer Engagement
+Finance and Operations   | Autres applications Dynamics 365
 -------------------------|---------------------------------
 Codes taxe                  | msdyn\_taxcodes.md
 Groupes de taxe               | msdyn\_taxgroups.md

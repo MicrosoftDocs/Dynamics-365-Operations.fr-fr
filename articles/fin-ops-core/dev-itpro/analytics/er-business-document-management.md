@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824518"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933906"
 ---
-# <a name="business-document-management-overview"></a>Vue d'ensemble de la gestion de document commercial
+# <a name="business-document-management-overview"></a>Vue d'ensemble du module Gestion de document commercial
 
-Les utilisateurs professionnels utilisent la [vue d'ensemble de la gestion des états électroniques (ER)](general-electronic-reporting.md) pour configurer des formats pour les documents sortants conformément aux obligations légales de différents pays/régions. Ils peuvent également définir le flux de données pour spécifier quelles données d'application placer dans les documents générés. La structure de gestion des états électroniques génère des documents sortants dans des formats Microsoft Office (des classeurs Excel ou des documents Word) à l'aide de modèles prédéfinis. Les modèles sont renseignés avec les données requises conformément au flux de données configuré pendant la génération des documents requis. Chaque format configuré peut être publié dans le cadre d'une solution de gestion des états électroniques pour générer les documents sortants spécifiques. Cela est représenté par une configuration de format ER qui peut contenir des modèles qui vous permettent de générer différents documents sortants. Les utilisateurs professionnels peuvent utiliser cette structure pour gérer les documents commerciaux requis.
+Les utilisateurs professionnels utilisent la structure de [Gestion des états électroniques (ER)](general-electronic-reporting.md) pour configurer des formats pour les documents sortants conformément aux obligations légales de différents pays/régions. Ils peuvent également définir le flux de données pour spécifier quelles données d'application placer dans les documents générés. La structure de gestion des états électroniques génère des documents sortants dans des formats Microsoft Office (des classeurs Excel ou des documents Word) à l'aide de modèles prédéfinis. Les modèles sont renseignés avec les données requises conformément au flux de données configuré pendant la génération des documents requis. Chaque format configuré peut être publié dans le cadre d'une solution de gestion des états électroniques pour générer les documents sortants spécifiques. Cela est représenté par une configuration de format ER qui peut contenir des modèles qui vous permettent de générer différents documents sortants. Les utilisateurs professionnels peuvent utiliser cette structure pour gérer les documents commerciaux requis.
 
 Le module **Gestion de document commercial** repose sur la structure d'ER et permet aux utilisateurs d'entreprise de modifier des modèles de documents commerciaux à l'aide du service Microsoft Office 365 ou de l'application de bureau Microsoft Office appropriée. Parmi les modifications apportées aux documents on trouve la modification des conceptions de documents commerciaux et l'ajout des espaces réservés pour les données supplémentaires sans modifier le code source ni faire de nouveaux déploiements. Aucune connaissance de la structure d'ER n'est nécessaire pour la mise à jour de modèles de documents commerciaux.
 
@@ -59,7 +59,7 @@ Les états suivants, avec des modèles Excel, seront disponibles avec le lanceme
 
 Des états supplémentaires seront disponibles. Des notifications spécifiques sur les états supplémentaires seront envoyées séparément. 
 
-La liste complète de tous les états prévus pour le lancement d'octobre 2019 figure dans [Génération d'états de documents commerciaux configurables dans Word et Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Pour en savoir plus sur cette fonctionnalité, exécutez l'exemple décrit dans cette rubrique.
+La liste complète de tous les états prévus pour le lancement d'octobre 2019 figure dans [Génération d'états de documents commerciaux configurables dans Word et Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Pour en savoir plus sur cette fonctionnalité, exécutez l'exemple décrit dans cette rubrique.
 
 ## <a name="configure-er-parameters"></a>Configurer les paramètres ER
 

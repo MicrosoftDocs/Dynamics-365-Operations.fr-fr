@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f89c6098db9e2e3a9aa4ee3666e4b9ae608f054
-ms.sourcegitcommit: d8f1135cdbc2deca70bc4b2805a0519253c9a31f
+ms.openlocfilehash: 1a1a32495b63a5a67a49bf3b02710aba63c1e2f0
+ms.sourcegitcommit: bfd6142569196a060e3f37893c78f00c40a2a18c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1992355"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2946188"
 ---
 # <a name="wave-step-codes"></a>Codes étape de vague
 
 [!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
-
-## <a name="about-wave-step-codes"></a>À propos des codes étape de vague
 
 Les codes étape de vague désignent des codes que les utilisateurs peuvent paramétrer et utiliser pour lier des instances spécifiques de méthodes de vague à un modèle correspondant. Parmi les modèles figurent des modèles pour le réapprovisionnement, la mise en conteneur, l'impression d'étiquettes, la création de chargement et le tri.
 
@@ -39,7 +37,7 @@ Lorsque les codes étape de vague ne sont pas utilisés, les utilisateurs doiven
 Les codes étape de vague pour un type d'étape de vague spécifique sont configurés sur une page à part. Pour chaque instance de méthode d'étape de vague dans un modèle de vague qui exige un code étape de vague, il convient de sélectionner ce dernier dans une liste déroulante. La sélection dans une liste déroulante remplace la saisie de texte libre et permet de réduire le risque et l'impact d'erreurs humaines. Les codes de configuration sont utilisés pour associer une méthode d'étape de vague dans un modèle de vague à un modèle cible pour la méthode.
 
 > [!NOTE]
-> L'utilisation de la fonctionnalité de codes étape de vague est facultative, et la prise en charge se fait par entité juridique. Par conséquent, si une entité juridique spécifique utilise la fonctionnalité, tous les codes étape de vague d'une entité juridique sont mis à niveau vers la nouvelle structure.
+> L'utilisation de la fonction de codes d'étapes de vague est facultative. Elle est activé à l'échelle de l'organisation pour toutes les entités juridiques.
 
 ## <a name="setup-demo"></a>Démonstration de paramétrage 
 
@@ -49,20 +47,20 @@ Pour cette démonstration, il convient d'avoir des données de démonstration in
 
 Procédez comme suit pour activer la fonctionnalité des codes étape de vague.
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**.
-2. Sous l'onglet **Général**, dans l'organisateur **Traitement de vague**, définissez l'option **Activer les codes étape de vague** sur **Oui**.
+1. Accédez à **Gestion des fonctions**.
+2. Sélectionnez pour activer la fonction appelée **Code d'étape de vague à l'échelle de l'organisation**.
 
-Tous les textes libres d'étape de vague existants sont mis à niveau vers la nouvelle structure. Une fois cette mise à niveau terminée pour une entité juridique, l'option **Activer les codes étape de vague** n'est plus disponible sur la page **Paramètres de gestion des entrepôts**.
+Tous les textes libres d'étape de vague existant dans toutes les entités juridiques sont mis à niveau vers la nouvelle structure. Une fois cette mise à niveau terminée pour toutes les entités juridiques, la fonctionnalité est activée. Si la fonctionnalité ne peut pas être activée pour une ou plusieurs entités juridiques, alors la fonctionnalité n'est activée pour aucune entité juridique.
 
-Les validations sont effectuées pendant la mise à niveau, et si la mise à niveau est un échec, vous recevez un message d'erreur. Une mise à niveau risque d'échouer en raison des conflits suivants :
+Pendant l'activation, les validations sont effectuées pendant la mise à niveau des données. Si la mise à niveau échoue, vous recevez un message d'erreur. Une mise à niveau risque d'échouer en raison des conflits suivants :
 
 - Des doublons de texte libre d'étape de vague existent.
 - Des personnalisations existent.
 - Un texte libre d'étape de vague associé à une instance de méthode d'étape de vague ne correspond pas au type de modèle prévu.
 
-Après avoir corrigé les conflits identifiés au cours des validations, vous pouvez relancer le processus de mise à niveau.
+Après avoir corrigé les conflits identifiés au cours des validations, vous pouvez réessayer d'activer la fonctionnalité.
 
-Une fois la mise à niveau validée, la page **Codes étape de vague** (**Gestion des entrepôts \> Configuration \> Vagues \> Codes étape de vague**) est disponible. Cette page affiche les codes étape de vague mis à niveau lorsque la fonction des codes étape de vague a été activée.
+Une fois la fonctionnalité validée, la page **Codes étape de vague** (**Gestion des entrepôts \> Configuration \> Vagues \> Codes étape de vague**) est disponible. Cette page affiche les codes étape de vague mis à niveau lorsque la fonction Codes étape de vague à l'échelle de l'organisation a été activée.
 
 ### <a name="create-new-wave-step-codes"></a>Créer des codes étape de vague
 
@@ -94,3 +92,5 @@ La procédure suivante permet de garantir que le modèle de réapprovisionnement
 4. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**, puis sélectionnez le modèle de vague que vous souhaitez utiliser.
 5. Dans le modèle, sous l'organisateur **Méthodes**, sélectionnez la méthode **Réapprovisionnement**.
 6. Dans le champ **Code étape de vague**, sélectionnez le code étape de vague que vous avez sélectionné dans le modèle de réapprovisionnement.
+
+Vous effectuez ces étapes pour chaque entité juridique.

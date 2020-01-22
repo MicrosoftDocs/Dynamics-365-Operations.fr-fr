@@ -3,7 +3,7 @@ title: Définir et tenir à jour les canaux de vente au détail
 description: Cette rubrique fournit une vue d'ensemble du processus de paramétrage des magasins traditionnels, qui sont appelés des magasins de vente au détail dans Dynamics 365 Retail. Il inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré un magasin de vente au détail.
 author: mugunthanm
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 45d0386d215da15103a417502debb245c91f6309
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019368"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934606"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Définir et tenir à jour les canaux de vente au détail
 
@@ -85,3 +85,6 @@ Une fois les détails du magasin de vente au détail, entreprenez ces tâches po
 ## <a name="organization-hierarchies"></a>Hiérarchies de l'organisation
 
 Retail utilise des hiérarchies d'organisation pour structurer les canaux de vente au détail. Les hiérarchies d'organisation représentent les relations entre les organisations qui composent votre entreprise. Lorsque vous paramétrez des magasins, vous pouvez les ajouter à une hiérarchie d'organisation. Les magasins partagent ensuite les données utilisées pour les assortiments, le réapprovisionnement et la génération d'états.
+
+> [!NOTE]
+> Pour utiliser la fonctionnalité de ventes au détail, la clé de configuration de **Expédition multiple** doit être activé. Cette clé de configuration se trouve dans les clés **Configuration Commerce** sous **Administration du système**\> **Configurer** \> **Configuration de licence**. Cela est nécessaire en raison de la fonctionnalité de ventes au détail qui effectue diverses validations en fonction de l'adresse de livraison configurée au niveau de la ligne de commande client.

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 4097026e652a2b2cdeb9944bde45f83f49565fbb
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4e94307ae82200daa3248afdbfde081656747d47
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517991"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898779"
 ---
 # <a name="create-variable-compensation-plans"></a>Créer un régime de rémunération variable
-
-[!include [banner](includes/banner.md)]
 
 La rémunération variable compose le salaire irrégulier des employés, comme les primes ou des primes en actions. Cet article décrit les composants qui doivent être définis avant d'utiliser une rémunération variable et inscrire des employés à un régime de rémunération variable.
 

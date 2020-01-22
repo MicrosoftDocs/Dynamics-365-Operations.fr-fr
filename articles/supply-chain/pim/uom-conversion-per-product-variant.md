@@ -3,12 +3,12 @@ title: Conversion d'unité de mesure selon la variante de produit
 description: Cette rubrique explique comment les conversions d'unités de mesure peuvent être paramétrées selon les variantes de produit.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249446"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935097"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversion d'unité de mesure selon la variante de produit
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 Cette rubrique explique comment les conversions d'unités de mesure peuvent être paramétrées selon les variantes de produit. Elle inclut un exemple de paramétrage.
 
 Cette fonctionnalité permet aux sociétés de définir différentes conversions d'unités entre les variantes du même produit. L'exemple ci-dessous est utilisé dans cette rubrique. Une société vend des t-shirts dans les tailles S, M, L et XL. Le T-shirt est défini comme produit, et les différentes tailles sont définies en tant que variantes de produit. Les t-shirts sont emballés dans des boîtes et il peut y avoir cinq t-shirts dans une boîte, à l'exception de la taille XL où il n'y a d'espace pour quatre t-shirts. La société souhaite suivre les différentes variantes de t-shirts dans l'unité **Pièces** mais vend les t-shirts dans l'unité **Boîtes**. La conversion entre l'unité de stock et l'unité de vente est de 1 boîte = 5 pièces, sauf la variante XL, où la conversion est 1 boîte = 4 pièces.
-
-## <a name="setup"></a>Paramétrage
-
-Vous pouvez configurer les paramètres pour utiliser la fonctionnalité pour les articles activés pour **Tous les processus** ou uniquement pour le produit activé pour les **Processus d'entrepôt** à l'aide de l'option **Activer les conversations d'unités de mesure** sur la page **Paramètres des informations produit**.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Paramétrage d'un produit pour la conversion d'unités par variante
 
 Les variantes de produit peuvent être créées uniquement pour les produits du **sous-type Produit** : **Produit générique**. Pour plus d'informations, voir [Création d'un produit générique](tasks/create-product-master.md).
 
 La fonctionnalité n'est pas activée pour les produits paramétrés pour les processus en poids variable. 
-
-Lors de la création d'un produit générique activez la conversion des unités de mesure à l'aide de l'option **Activer les conversions d'unités de mesure** sur la page **Détails de produit**.
 
 Lorsque le produit générique avec des variantes de produits lancés est créé, des conversions d'unités par variantes peuvent être paramétrées. Vous pouvez trouver l'option de menu pour ouvrir la page de conversion d'unités dans le contexte d'un produit ou d'une variante de produit dans les pages suivantes.
 

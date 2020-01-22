@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772385"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853904"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Intégration des données en quasi temps réel avec Common Data Service
 
@@ -59,7 +59,7 @@ Les flux de données en temps quasi-réel synchrones nécessitent les versions s
 Procédez comme suit pour paramétrer l'intégration entre les applications Finance and Operations et Common Data Service.
     
 1. Pour le paramétrage du système en double écriture, voir le [guide pas à pas](https://aka.ms/dualwrite-docs) dans l'annonce de la version préliminaire de la double écriture.
-2. Téléchargez et installez la solution à partir de [Finance and Operations, Common Data Service et intégration Customer Engagement](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) du groupe Yammer. Le module contient cinq solutions :
+2. Téléchargez et installez la solution à partir du groupe Yammer [Fin Ops et de l'intégration de CDS/CE en double-écriture](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096). Le module contient cinq solutions :
 
     + Dynamics365Company
     + CurrencyExchangeRates

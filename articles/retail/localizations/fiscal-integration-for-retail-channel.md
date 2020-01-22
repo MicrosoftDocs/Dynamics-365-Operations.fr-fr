@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812305"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915245"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Vue d'ensemble de l'intégration fiscale pour les canaux de vente au détail
 
@@ -138,9 +138,14 @@ Des exemples d'intégration fiscale sont actuellement disponibles dans le SDK de
 - [Exemple d'intégration de l'imprimante fiscale pour la Pologne](emea-pol-fpi-sample.md)
 - [Exemple d'intégration du service d'enregistrement fiscal pour l'Australie](emea-aut-fi-sample.md)
 - [Exemple d'intégration du service d'enregistrement fiscal pour la République tchèque](emea-cze-fi-sample.md)
+- [Exemple d'intégration de l'unité de contrôle pour la Suède](./emea-swe-fi-sample.md)
 
 La fonctionnalité d'intégration fiscale suivante est également disponible dans le SDK de Retail, mais ne bénéficie pas actuellement du cadre de l'intégration fiscale. La migration de cette fonctionnalité vers le cadre de l'intégration fiscale est prévue pour des mises à jour ultérieures.
 
-- [Fonctionnalité de caisse enregistreuse pour la France](emea-fra-cash-registers.md)
-- [Fonctionnalité de caisse enregistreuse pour la Norvège](emea-nor-cash-registers.md)
-- [Exemple pour l'intégration de Retail POS avec des unités de contrôle pour la Suède](./retail-sdk-control-unit-sample.md)
+
+- [Signature numérique pour la France](emea-fra-cash-registers.md)
+- [Signature numérique pour la Norvège](emea-nor-cash-registers.md)
+
+La fonctionnalité d'intégration fiscale héritée suivante, disponible dans le Kit de développement logiciel (SDK) Retail, n'utilise pas l'infrastructure d'intégration fiscale et sera rendue obsolète dans les mises à jour ultérieures :
+
+- [Exemple d'intégration de l'unité de contrôle pour la Suède (hérité)](./retail-sdk-control-unit-sample.md)

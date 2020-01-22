@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812831"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897141"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Partager du contenu avec d'autres contributeurs dans Dynamics 365 Talent - Onboard
+# <a name="share-content-with-other-contributors"></a>Partager du contenu avec d'autres contributeurs
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 Talent: Onboard vous permet de partager des guides et des
 
 3. Sous **Partager avec**, si les destinataires doivent pouvoir réviser le guide, définissez l'option **Ces personnes peuvent-elles apporter des modifications ?** sur **Oui**. Si les destinataires doivent être informés par e-mail que vous avez partagé le guide avec eux, définissez l'option **Envoyer une notification par e-mail aux destinataires** sur **Oui**.
 
-    ![[Définition des préférences d'accès et d'e-mail pour un guide d'intégration](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
+    ![[Définition des préférences d'accès et de messagerie pour un guide d'intégration](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
 
 4. Entrez un nom ou une adresse e-mail, puis sélectionnez le destinataire souhaité dans la liste déroulante.
 5. Sous l'onglet **Gérer l'accès**, vous pouvez examiner ou modifier ce que les destinataires peuvent faire avec le guide. Pour modifier l'accès d'un destinataire, dans la liste déroulante en regard du nom du destinataire, sélectionnez **Peut afficher**, **Peut modifier** ou **Supprimer**, selon le cas.

@@ -3,7 +3,7 @@ title: Paramétrage de la prévision de la demande
 description: Cette rubrique décrit les tâches de paramétrage que vous devez effectuer pour préparer la prévision de la demande.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813797"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935489"
 ---
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
@@ -63,7 +63,7 @@ En cliquant sur **Dimensions de prévision** dans le volet gauche de la page **P
 
 Seuls certains articles se comportent de la même manière du point de vue de la prévision de la demande. Les articles similaires peuvent être regroupés dans une seule clé de répartition par article, et des paramètres tels que des types de transactions et des paramètres de méthode de prévision peuvent être définis par clé de répartition par article. Cliquez sur **Clés de répartition par article** dans le volet gauche de la page **Paramètres de prévision de la demande**. 
 
-Pour générer la prévision, Supply Chain Management utilise un service Web Machine Learning. Pour vous connecter au service, vous devez fournir les informations suivantes si vous vous connectez à Microsoft Azure Machine Learning Studio :
+Pour générer la prévision, Supply Chain Management utilise un service Web Machine Learning. Pour vous connecter au service, vous devez fournir les informations suivantes si vous vous connectez à Microsoft Azure Machine Learning Studio (classique) :
 
 -   Clé de l'interface de programmation d'applications (API) du service Web
 -   URL du point de terminaison du service Web
@@ -71,7 +71,7 @@ Pour générer la prévision, Supply Chain Management utilise un service Web Mac
 -   Clé du compte de stockage Azure
 
 > [!NOTE]
-> Le nom et la clé du compte de stockage Azure sont obligatoires uniquement si vous utilisez un compte personnalisé de stockage. Si vous déployez la version sur site, vous devez posséder un compte personnalisé de stockage sur Azure, afin que le service Machine Learning puisse accéder aux données historiques. 
+> Le nom et la clé du compte de stockage Azure sont obligatoires uniquement si vous utilisez un compte personnalisé de stockage. Si vous déployez la version sur site, vous devez posséder un compte personnalisé de stockage sur Azure, afin que Machine Learning puisse accéder aux données historiques. 
 
 Pour créer des prévisions de la demande, vous pouvez déployer votre propre service à l'aide de Machine Learning Studio ou des expériences de prévision de la demande de Supply Chain Management. Des instructions pour déployer les expériences de prévision de demande sous forme de service Web sont disponibles dans Supply Chain Management. Dans la page **Paramètres de prévision de la demande**, cliquez sur l'onglet **Azure Machine Learning**.
 

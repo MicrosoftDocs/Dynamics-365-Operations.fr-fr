@@ -3,7 +3,7 @@ title: Module Lecteur vidéo
 description: Cette rubrique couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32504351f712c83ba8f593c17d2e51c532374311
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1c78583f39dbacdc7b38e89c33e67ae23731bf8a
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785327"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885899"
 ---
 # <a name="video-player-module"></a>Module Lecteur vidéo
 
@@ -49,7 +49,7 @@ Le module de lecteur vidéo d'ambiance prend en charge les courts vidéos d'info
 | Nom de la propriété     | Valeur                 | Description |
 |-------------------|-----------------------|-------------|
 | Lire automatiquement          | **Vrai** ou **Faux** | Si la valeur est définie sur **Vrai**, la vidéo est automatiquement lue. |
-| Muet              | **Vrai** ou **Faux** | Si la valeur est définie sur **Vrai**, l'audio est automatiquement mis en sourdine. Pour ce lecteur, la valeur par défaut est **Vrai**. Dans le navigateur Google Chrome, les vidéos en lecture automatique sont mises en sourdine par défaut, et l'audio est joué si l'utilisateur lit manuellement le vidéo. |
+| Sourdine              | **Vrai** ou **Faux** | Si la valeur est définie sur **Vrai**, l'audio est automatiquement mis en sourdine. Pour ce lecteur, la valeur par défaut est **Vrai**. Dans le navigateur Google Chrome, les vidéos en lecture automatique sont mises en sourdine par défaut, et l'audio est joué si l'utilisateur lit manuellement le vidéo. |
 | Boucle              | **Vrai** ou **Faux** | Si la valeur est définie sur **Vrai**, la vidéo est répétée en boucle. |
 | Supports             |  Chemin d'accès et nom du fichier vidéo | Fichier vidéo lu par le lecteur vidéo. |
 | Contrôles de lecture | **Vrai** ou **Faux** | Si la valeur est définie sur **Vrai**, un bouton lecture/pause s'affiche dans la vidéo. Si la valeur est définie sur **Faux**, le bouton lecture/pause n'est pas affiché, mais les utilisateurs peuvent mettre sur pause et reprendre la vidéo à l'aide du clavier. |
@@ -57,6 +57,8 @@ Le module de lecteur vidéo d'ambiance prend en charge les courts vidéos d'info
 ## <a name="video-player-module"></a>Module Lecteur vidéo
 
 Le module de lecteur vidéo peut être utilisé pour présenter des vidéos sur un site de commerce électronique. Il prend en charge toutes les fonctionnalités de lecture, telles que la lecture, la pause, le mode plein écran, et les sous-titres codés. Le module de lecteur vidéo prend également en charge la personnalisation des sous-titres codés pour satisfaire aux normes d'accessibilité Microsoft. Par exemple, vous pouvez personnaliser la taille de police et la couleur d'arrière-plan.
+
+Le module lecteur vidéo prend également en charge les pistes audio secondaires. Lorsqu'une vidéo est téléchargée, une piste audio secondaire peut également être téléchargée. Le module lecteur vidéo peut ensuite lire la piste audio secondaire si un utilisateur la sélectionne.
 
 ### <a name="examples-of-video-player-modules-in-e-commerce"></a>Exemples de modules de lecteur vidéo dans le commerce électronique
 
