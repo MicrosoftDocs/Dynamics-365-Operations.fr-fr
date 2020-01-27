@@ -16,18 +16,17 @@ ms.search.industry: public sector
 ms.author: v-alpavk
 ms.search.validFrom: 2019-9-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: cfb2a459d8cb8a3d859bddaf2144c12aa6de522e
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 34e9cbafaa365ca76194a98e569330e885606ab1
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2659041"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935405"
 ---
 # <a name="purchasing-cards"></a>Cartes d'achat
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Les organismes utilisent des cartes d'achat afin que les employés puissent acheter des biens et services sans utiliser le processus de demande d'achat standard. Les pages et les champs liés aux cartes d'achat fournissent un mécanisme de suivi des achats. Chaque achat effectué par un employé à l'aide d'une carte d'achat est enregistré sur une facture fournisseur. Toutefois, la facture n'est pas réglée à l'aide d'un chèque ou d'un paiement électronique au fournisseur qui a fourni des biens ou services. Au lieu de cela, chaque facture de ce type est associée à une autre facture fournisseur créée pour payer le fournisseur qui fournit les services de cartes d'achat (c'est-à-dire, l'établissement financier). Les achats de carte sont payés lorsque le solde dû au fournisseur de services de cartes d'achat est payé chaque mois.
 

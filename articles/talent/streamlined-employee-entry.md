@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009420"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915199"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Navigation et entrée d'employé simplifiées
 
-[!include [banner](includes/banner.md)]
-
 Dynamics 365 Talent permet la saisie efficace des données sur les employés et les emplois. Vous pouvez mettre à jour rapidement les informations sur l'historique du travail pour les employés et les fournisseurs passés, actifs et futurs.
 
-Vous pouvez également activer une expérience de navigation simplifiée pour trouver rapidement les informations associées et apporter les modifications nécessaires. Cette fonctionnalité est désormais disponible dans les environnements de bac à sable. Pour activer cette fonctionnalité, naviguez jusqu'à **Administration du système > Liens > Paramétrage > Paramètres système > Fonctionnalités en version préliminaire**. Sélectionnez **Formulaire Collaborateur et navigation améliorés**. Ces modifications seront activées pour tous les utilisateurs. Vous pouvez désactiver cette option à tout moment.
+Vous pouvez également activer une expérience de navigation simplifiée pour trouver rapidement les informations associées et apporter les modifications nécessaires. Cette fonctionnalité est désormais disponible dans tous environnements. Pour activer cette fonctionnalité, accédez à **Administration système > Gestion des fonctionnalités > Nouveau > Entrée d'employé simplifiée > Activer**. Ces modifications seront activées pour tous les utilisateurs. Vous pouvez désactiver cette option à tout moment.
 
 ## <a name="view-options"></a>Afficher les options
 

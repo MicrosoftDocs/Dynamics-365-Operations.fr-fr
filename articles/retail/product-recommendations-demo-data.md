@@ -3,7 +3,7 @@ title: Données de démonstration des recommandations de produit omnicanal
 description: Ce document vise à fournir des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2225909"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872324"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>Données de démonstration des recommandations de produit omnicanal
 
 Ce document vise à fournir des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
 
-Les recommandations de produit omnicanal offrent un ensemble de listes de produits générées de manière programmée ou traitées de manière éditoriale. Ces listes peuvent être utilisées dans différents scénarios, selon les besoins de l'entreprise. Pour en savoir plus sur les listes de recommandation de produit, consultez [Vue d'ensemble des recommandations produit.](product-recommendaitons-overview.md)
+Les recommandations de produit omnicanal offrent un ensemble de listes de produits générées de manière programmée ou traitées de manière éditoriale. Ces listes peuvent être utilisées dans différents scénarios, selon les besoins de l'entreprise. Pour en savoir plus sur les listes de recommandation de produit, consultez [Vue d'ensemble des recommandations produit.](../commerce/product-recommendations.md)
 
 Les recommandations de produit des environnements de niveau 2 ou Dynamics supérieurs sont automatiquement calculées selon les données client.
 L'utilisation des données de démonstration des recommandations produit ne désactive pas les solutions de recommandations produit déjà fournies dans l'environnement et les coûts associés à cet usage.
@@ -68,6 +68,6 @@ L'extension contient un fichier de données appelé RecoMockDataset.csv qui perm
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble des recommandations produit](product-recommendations-overview.md)
+[Vue d'ensemble des recommandations produit](../commerce/product-recommendations.md)
 
-[Planification de l'environnement](environment-planning.md)
+[Planification de l'environnement](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)

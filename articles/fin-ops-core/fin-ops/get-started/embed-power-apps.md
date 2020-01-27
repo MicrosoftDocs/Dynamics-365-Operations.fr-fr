@@ -3,7 +3,7 @@ title: Intégrer Power Apps
 description: Cette rubrique décrit comment incorporer des Power Apps dans le client pour augmenter la fonctionnalité du produit.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824491"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870239"
 ---
 # <a name="embed-microsoft-power-apps"></a>Intégrer Microsoft Power Apps
 
@@ -55,7 +55,7 @@ Les instructions suivantes indiquent comment incorporer une application Power Ap
 
     - Le champ **Nom** indique le texte affiché pour le bouton ou l'onglet contenant l'application Power App incorporée. Il arrive souvent que vous souhaitez répéter le nom de l'application Power App dans ce champ.
     - **ID d'application** est le GUID de l'application Power App que vous souhaitez incorporer. Pour récupérer cette valeur, recherchez l'application Power App sur [web.powerapps.com](https://web.powerapps.com), puis localisez le champ **ID d'application** sous **Détails**.
-    - Pour **Données d'entrée pour l'application Power App**, vous pouvez également sélectionner le champ contenant les données à transmette à l'application Power App comme entrée. Consultez la section plus loin dans cette rubrique intitulée [Création d'une application Power App qui utilise les données de Finance and Operations](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps) pour en savoir plus sur la manière dont l'application Power App peut accéder aux données envoyées depuis les applications Finance and Operations.
+    - Pour **Données d'entrée pour l'application Power App**, vous pouvez également sélectionner le champ contenant les données à transmette à l'application Power App comme entrée. Consultez la section plus loin dans cette rubrique intitulée [Création d'une application Power App qui utilise les données de Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) pour en savoir plus sur la manière dont l'application Power App peut accéder aux données envoyées depuis les applications Finance and Operations.
     - Choisissez la **Taille d'application** correspondant au type de Power App que vous incorporez. Sélectionnez **Mince** pour les Power Apps créées pour les appareils mobiles, et **Large** pour les Power Apps créées pour les tablettes. Ainsi, une quantité suffisante d'espace est allouée pour l'application Power App incorporée.
     - L'organisateur **Entités juridiques** permet de choisir les entités juridiques pour lesquelles l'application Power App est disponible. La valeur par défaut consiste à afficher l'application Power App dans toutes les entités juridiques.
 
@@ -101,7 +101,7 @@ Pour modifier la configuration d'une application Power App incorporée, procéde
 
 Une fois qu'une application Power App a été incorporée sur une page, il existe deux méthodes pour la supprimer si nécessaire :
 
-- Accédez au volet **Modifier une application Power App** à l'aide des instructions contenues dans la section [Modification d'une application Power App incorporée](#editing-an-embedded-powerapp) plus haut dans cette rubrique. Vérifiez que le volet affiche les informations associées à l'application Power App incorporée que vous souhaitez supprimer, puis cliquez sur le bouton **Supprimer**.
+- Accédez au volet **Modifier une application Power App** à l'aide des instructions contenues dans la section [Modification d'une application Power App incorporée](#editing-an-embedded-power-app) plus haut dans cette rubrique. Vérifiez que le volet affiche les informations associées à l'application Power App incorporée que vous souhaitez supprimer, puis cliquez sur le bouton **Supprimer**.
 - Une application Power App incorporée étant enregistrée en tant que données de personnalisation, la suppression de la personnalisation de votre page entraîne également la suppression des Power Apps incorporées sur cette page. Notez que la suppression de la personnalisation de la page est définitive et ne peut pas être annulée. Pour supprimer vos personnalisations sur une page, sélectionnez **Options**, puis cliquez sur **Personnaliser cet écran**. Sous le menu **Gérer**, sélectionnez le bouton **Effacer**. Après avoir actualisé votre navigateur, toutes les personnalisations précédentes pour cette page sont supprimées. Consultez [Personnaliser l'expérience de l'utilisateur](personalize-user-experience.md) pour plus d'informations sur l'optimisation des pages à l'aide de la personnalisation.
 
 ## <a name="appendix"></a>Annexe

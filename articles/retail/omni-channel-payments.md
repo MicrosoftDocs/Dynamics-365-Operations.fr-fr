@@ -3,7 +3,7 @@ title: Présentation des paiements omnicanaux
 description: Cette rubrique fournit une vue d'ensemble des paiements omnicanaux dans Dynamics 365 Retail.
 author: rubendel
 manager: AnnBe
-ms.date: 05/12/2019
+ms.date: 11/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: b16b0cedaa2b908d2707eb7076f82f3513d00b62
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e20662eb9b8530edf2ebe6c1e7ce07ad18aba286
+ms.sourcegitcommit: b8a51a0ba8fc33576ff78e5bbe826c14e1df2844
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017572"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2854010"
 ---
 # <a name="omni-channel-payments-overview"></a>Présentation des paiements omnicanaux
 
@@ -58,7 +58,7 @@ Les fonctionnalités de paiement omnicanal décrites dans cette rubrique ont ét
 
 #### <a name="card-present-and-card-not-present-connectors"></a>Connecteurs « Carte présente » ou « Carte absente »
 
-Le Kit de développement logiciel (SDK) de paiement repose sur deux ensembles d'interfaces de programmation d'application (API) pour les paiements. Le premier ensemble d'API est appelé **iPaymentProcessor**. Il est utilisé pour mettre en œuvre des connecteurs de paiement « carte absente » qui peuvent être utilisés dans les centres d'appels et avec la plateforme de commerce électronique de Microsoft Dynamics. Pour plus d'informations sur l'interface **iPaymentProcessor**, voir le livre blanc [Mettre en œuvre un connecteur de paiement et un appareil de paiement](https://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx), qui couvre les paiements. 
+Le Kit de développement logiciel (SDK) de paiement repose sur deux ensembles d'interfaces de programmation d'application (API) pour les paiements. Le premier ensemble d'API est appelé **iPaymentProcessor**. Il est utilisé pour mettre en œuvre des connecteurs de paiement « carte absente » qui peuvent être utilisés dans les centres d'appels et avec la plateforme de commerce électronique de Microsoft Dynamics. Pour plus d'informations sur l'interface **iPaymentProcessor**, voir le livre blanc [Mettre en œuvre un connecteur de paiement et un appareil de paiement](https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device_update.pdf), qui couvre les paiements. 
 
 Le second ensemble d'API est appelé **iNamedRequestHandler**. Il prend en charge la mise en œuvre des intégrations de paiement « carte présente » qui utilisent un terminal de paiement. Pour plus d'informations sur l'interface **iNamedRequestHandler**, voir [Créer une intégration de paiement pour un terminal de paiement](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
 

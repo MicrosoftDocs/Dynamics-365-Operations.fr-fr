@@ -3,7 +3,7 @@ title: Comparaison des fonctionnalités dans le cloud et sur site
 description: La rubrique indique les fonctionnalités prises en charge dans le cloud et sur site.
 author: sericks007
 manager: AnnBe
-ms.date: 10/11/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 8fa5ff0de4e97d5dc178581f721f3a6ea72fc974
-ms.sourcegitcommit: 70c6257bd6833de3e8de34d9a7561088194e59cc
+ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
+ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2573928"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935385"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparaison des fonctions dans le cloud et sur site
 
@@ -48,7 +48,7 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 | Intégration et gestion des données      |                                                                                           | Oui       | Oui             |
 |                                      | Extension pilotée par la configuration                                                            | Oui       | N°              |
 |                                      | Exportation des données vers votre propre entrepôt de données                                                    | Oui       | Oui             |
-|                                      | Activation de l'exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | N°              |
+|                                      | Activation de l'exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | Oui              |
 |                                      | Intégration de données                                                                         | Oui       | Oui             |
 | Gestion des documents                  |                                                                                           | Oui       | Oui             |
 | Gestion financière                 |                                                                                           | Oui       | Oui             |
@@ -148,7 +148,7 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 
 ## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
 
-Pour afficher une liste des capacités de vente au détail disponibles dans les déploiements sur site, voir [Fonctionnalités de vente au détail disponibles dans les déploiements sur site](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/PeterRFriis-patch-1/articles/retail/retail-onprem.md).
+Pour afficher une liste des capacités de vente au détail disponibles dans les déploiements sur site, voir [Fonctionnalités de vente au détail disponibles dans les déploiements sur site](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
 

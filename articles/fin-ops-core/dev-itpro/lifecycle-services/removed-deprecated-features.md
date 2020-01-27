@@ -1,0 +1,67 @@
+---
+title: Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
+description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer de Microsoft Dynamics Lifecycle Services (LCS).
+author: sericks007
+manager: AnnBe
+ms.date: 12/02/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: sericks
+ms.search.validFrom: 2019-08-31
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2885453"
+---
+# <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
+
+[!include[banner](../includes/banner.md)]
+
+Cette rubrique décrit les fonctions qui ont été supprimées, ou qui sont devenues obsolètes pour Microsoft Dynamics Lifecycle Services (LCS).
+
+- Une fonction *supprimée* n'est plus disponible dans le service.
+- Une fonction *déconseillée* n'est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
+
+Cette liste est fournie pour vous aider à prendre en compte ces suppressions et abandons à mesure que vous avancez dans votre propre planification.
+
+## <a name="october-2019-announcements"></a>Annonces d'octobre 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Organigrammes du concepteur de processus d'entreprise
+
+<table>
+<tbody>
+<tr>
+<td><strong>Motif de l'abandon/de la suppression</strong></td>
+<td>Nous déconseillons le composant d'organigrammes dans le Concepteur de processus d'entreprise (BPM), car la conception héritée a entraîné une faible utilisation.</td>
+</tr>
+<tr>
+<td><strong>Remplacé par une autre fonctionnalité ?</strong></td>
+<td>Non</td>
+</tr>
+<tr>
+<td><strong>Domaines affectés</strong></td>
+<td>Concepteur de processus d'entreprise</td>
+</tr>
+<tr>
+<td><strong>Statut</strong></td>
+<td>Obsolète : le composant d'organigrammes dans BPM devrait être supprimé début février 2020. La fonctionnalité suivante va être supprimée :
+<ul>
+<li>Les organigrammes existants ne seront pas disponibles pour la visualisation ou la modification. Les propriétés de forme associées aux activités de l'organigramme ne seront pas non plus disponibles, car l'onglet <strong>Organigramme</strong> complet sera supprimé. Ces organigrammes comprennent à la fois des organigrammes par défaut générés automatiquement et des organigrammes personnalisés qui sont modifiés en fonction de ces organigrammes par défaut.</li>
+<li>La fonctionnalité d'analyse d'adéquation/des écarts héritée ne sera pas disponible. Par conséquent, aucune liste des écarts ne sera automatiquement créée ou disponible pour l'exportation.
+<p><strong>Remarque :</strong> Cette fonctionnalité était auparavant obsolète et remplacée par les intégrations Microsoft Azure DevOps.</p>
+</li>
+<li>L'historique des versions de l'organigramme ne sera pas disponible.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>

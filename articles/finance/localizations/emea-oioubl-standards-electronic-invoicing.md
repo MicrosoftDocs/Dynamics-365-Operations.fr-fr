@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c1d1ec695626404389dec2b07dd6e34358cd2d5a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2fb188498705dcbad841645ced43e6a1715cbbd0
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175750"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915162"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Normes prises en charge pour la facturation électronique en Europe
 
@@ -37,13 +37,15 @@ L'implémentation et l'adoption de la facturation électronique à l'échelle de
 Les formats de factures électroniques spécifiques au pays suivants sont disponibles :
 
 -   OIOUBL v.2.02 pour le Danemark
--   EHF v.2.0.8 pour la Norvège
+-   EHF v.3.0 pour la Norvège
 -   PEPPOL BIS v.2 pour l'Autriche, la France, et la Belgique
 -   UBL-OHNL 1.9 pour les Pays-Bas
 -   FacturaE v.3.2.1 pour l'Espagne
 -   FatturaPA v.1.2 pour l'Italie
+-   xRechnung v.1.2 pour l'Allemagne
+-   Ouvrir PEPPOL BIS Billing v.3.0 pour l'Union européenne
 
-La facturation électronique est basée sur la [gestion des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md). Il existe un **Modèle de facture client** et plusieurs configurations de format de génération d'états électroniques spécifiques au pays créées pour l'Autriche (AT), le Danemark (DK), l'Italie (IT), la Norvège (NO), l'Espagne (ES), la France (FR), la Belgique (BE) et les Pays-Bas (NL).
+La facturation électronique est basée sur la [Gestion des états électroniques (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Un modèle de données **Modèle de facture client** et plusieurs configurations de format ER spécifiques au pays/régions ont été créés pour l'Autriche (AT), le Danemark (DK), l'Italie (IT), la Norvège (NO), l'Espagne (ES), la France (FR), la Belgique (BE) et les Pays-Bas (NL), l'Allemagne (DE) et l'Union européenne (UE).
 
 -   Facture client OIOUBL pour AT, DK et NO
 -   Avoir de vente OIOUBL pour AT, DK et NO
@@ -65,6 +67,12 @@ La facturation électronique est basée sur la [gestion des états électronique
 -   Facture client (IT)
 -   Facture de projet (ES)
 -   Facture de projet (IT)
+-   Facture client DE
+-   Facture de projet DE
+-   Facture client Peppol - pour l'UE
+-   Avoir sur vente Peppol - pour l'UE
+-   Facture de projet Peppol - pour l'UE
+-   Avoir sur le projet Peppol - pour l'UE
 
 Les factures électroniques et les avoirs que vous générez contiennent les informations requises, telles que le numéro EAN, la personne à contacter, le numéro de compte de dimension et les informations d'adresse pour le client. Les règles de contrôle sont appliquées lors de la génération des factures pour vous permettre de vérifier que les informations entrées sont correctes. L'ensemble des informations requises peut différer d'un pays à l'autre. Comme les exigences ainsi que les pays et formats pris en charge peuvent être modifiés, vous devez toujours aller dans la bibliothèque d'actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d'actif est **Configuration GER**.
 

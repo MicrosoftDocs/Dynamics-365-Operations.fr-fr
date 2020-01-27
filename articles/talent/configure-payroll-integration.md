@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 075b2bdfa08bb190f66b6d60074e1263feedcf70
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251037"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898530"
 ---
-# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurer l'intégration de la paie entre Talent et Dayforce
-
-[!include [banner](includes/banner.md)]
+# <a name="configure-payroll-integration-between-talent-and-dayforce"></a>Configurer l'intégration de la paie entre Talent et Dayforce
 
 L'intégration entre Microsoft Dynamics 365 Talent et Ceridian Dayforce repose sur plusieurs étapes de configuration décrites dans cette rubrique. Vous devez configurer l'intégration dans Talent et Dayforce avant de pouvoir traiter un cycle de paie.
 

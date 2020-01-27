@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812877"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897118"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Modifier les guides et les modèles d'intégration dans Dynamics 365 Talent - Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Modifier les guides et les modèles d'intégration
 
 [!include [banner](includes/banner.md)]
 
@@ -114,11 +114,11 @@ Pour envoyer vos modifications :
 1. Sous l'onglet **Activités**, faites glisser des éléments de la droite vers la zone de modification.
 2. Pour organiser votre guide en sections, faites glisser l'élément **Nouvelle section** vers la zone de modification, puis entrez un nom et une description facultative pour la section.
 
-    ![[Ajout d'une nouvelle section à un guide ou un modèle d'intégration](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
+    ![[Ajout d'une nouvelle section à un guide ou modèle d'intégration](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
 
 3. Pour ajouter des activités que votre nouvelle recrue doit effectuer, faites glisser l'élément **Nouvelle activité** vers la zone de modification, puis entrez un nom et une description pour l'activité.
 
-    ![[Ajout d'une nouvelle activité à un guide ou un modèle d'intégration](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
+    ![[Ajout d'une nouvelle activité à un guide ou modèle d'intégration](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
 
 4. Ajouter du contenu enrichi à votre guide d'intégration :
 
@@ -129,7 +129,7 @@ Pour envoyer vos modifications :
     - Pour ajouter un formulaire Microsoft Forms, faites glisser l'élément **Microsoft Forms** vers la zone de modification, entrez un nom et une description pour l'activité, entrez l'URL du formulaire Microsoft Forms, puis spécifiez la taille de la zone d'écran.
     - Pour ajouter un iframe contenant du contenu Web, faites glisser l'élément **Contenu Web (iframe)** vers la zone de modification, entrez un nom et une description pour l'activité, entrez l'URL du contenu Web, puis spécifiez la taille de la zone d'écran.
 
-    ![[Ajout de texte enrichi à un guide ou un modèle d'intégration](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
+    ![[Ajout de contenu enrichi à un guide ou modèle d'intégration](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
 
 2. Facultatif : dans la zone à droite de chaque activité, affectez l'activité à une personne ou un rôle spécifique, ajoutez une date d'échéance et une personne à contacter, puis affectez une couleur de catégorie. Lorsque vous affectez une activité à une personne ou un rôle, une tâche est créée pour chaque individu. Cette tâche apparaît dans le menu **Tâches** d'Onboard.
 
@@ -148,7 +148,7 @@ Vous pouvez ajouter des personnes à contacter qui peuvent aider votre nouvelle 
 1. Sous l'onglet **Contacts**, sélectionnez **Nouveau contact**.
 2. Dans la boîte de dialogue **Ajouter un membre de l'équipe**, entrez le nom ou l'adresse e-mail de la personne à contacter, entrez une brève description expliquant comment la personne à contacter peut aider la nouvelle recrue, puis sélectionnez **Ajouter**. 
 
-    ![[Ajout de contacts à un guide ou un modèle d'intégration](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
+    ![[Ajout de contacts à un guide ou modèle d'intégration](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
 
     Vous pouvez également sélectionner un ou plusieurs contacts sous **Suggestions**.
 
@@ -169,7 +169,7 @@ Vous pouvez ajouter des fichiers, cartes et liens utiles à la section **Ressour
     - Pour ajouter un lien, sélectionnez l'onglet **Lien**, entrez un nom et une adresse pour le lien, puis sélectionnez **Ajouter**.
     - Pour ajouter une carte, sélectionnez l'onglet **Carte**, entrez un nom et une adresse pour la carte, puis sélectionnez **Ajouter**. Onboard ajoutera une carte de l'adresse que vous spécifiez.
 
-    ![[Ajout d'une ressource à un guide ou un modèle d'intégration](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
+    ![[Ajout d'une ressource à un guide ou modèle d'intégration](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
 
 3. Sélectionnez **Enregistrer** pour enregistrer votre travail.
 

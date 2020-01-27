@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 0f4d2b8e5f78c5815c5ad7e5eae0d13ad7d15c12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832813"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898687"
 ---
 # <a name="formalize-business-processes"></a>Formaliser les processus d'entreprise
-
-[!include [banner](includes/banner.md)]
 
 La fonction Processus d'entreprise permet de créer un modèle de processus d'entreprise pour les processus d'entreprise qui doivent être exécutés dans votre organisation. Par exemple, votre société effectue un audit des ressources humaines chaque année. Dans ce cas, vous pouvez créer un modèle qui suit toutes les tâches du processus d'audit. Ce modèle permet ensuite de s'assurer que toutes les tâches sont exécutées chaque fois que l'audit est effectué. En outre, si les tâches doivent être exécutées dans un ordre spécifique, le modèle permet de s'assurer qu'elles sont exécutées dans l'ordre correct.
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697127"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945833"
 ---
 # <a name="create-an-e-commerce-site"></a>Création d'un site de commerce électronique
 
@@ -59,20 +59,16 @@ Lorsque votre site est créé, vous pouvez vérifier qu'il est associé à votre
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble du magasin en ligne](online-store-overview.md)
+[Configuration du nom de domaine](configure-your-domain-name.md)
 
 [Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
 
 [Association d'un site en ligne avec un canal](associate-site-online-store.md)
 
-[Configuration du nom de domaine](configure-your-domain-name.md)
+[Gérer les fichiers robots.txt](manage-robots-txt-files.md)
+
+[Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
 
 [Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
-
-[Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
-
-[Vue d'ensemble de la page d'accueil de création](authoring-home-overview.md)
-
-[Ajouter une nouvelle page de site](add-new-page.md)

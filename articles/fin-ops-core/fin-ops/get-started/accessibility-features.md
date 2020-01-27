@@ -3,7 +3,7 @@ title: Fonctions d'accessibilité
 description: Cette rubrique décrit les fonctionnalités conçues pour aider les utilisateurs souffrant de divers handicaps.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/10/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7cc63320a3ba055a0c18ab59447f34a86bc0dc87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8ec4ee4654bdf306e179dcac5bf246df7f2b8cf7
+ms.sourcegitcommit: c3bc5dd007d9f063631232497bd4cda9214e2e5b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180850"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872440"
 ---
 # <a name="accessibility-features"></a>Fonctions d'accessibilité
 
@@ -40,7 +40,7 @@ Pour la plupart des utilisateurs, l'utilisation quotidienne du système implique
 
 Toute page accessible à l'aide du menu du volet de navigation, c'est-à-dire le volet le plus à gauche, est également accessible à partir de la zone de **Recherche**. Appuyez sur Alt+G pour activer la zone de **Recherche**, puis tapez le nom ou la description de la page.
 
-![« Comptes bancaires » entrés dans la zone Rechercher](media/6d08b0be32808221023e2aa92d69fd70.png "« Comptes bancaires » entrés dans la zone Rechercher")
+![« Comptes bancaires » saisi dans la zone de recherche](media/6d08b0be32808221023e2aa92d69fd70.png "« comptes bancaires » saisi dans la zone de recherche")
 
 Pour plus d'informations, voir [Recherche lors de la navigation](navigation-search.md).
 
@@ -55,21 +55,21 @@ Chaque action disponible sur une page est accessible à partir d'un clavier, via
 
 Vous souhaitez exécuter l'action **Journal de notification par e-mail** qui s'affiche dans le groupe **Notification par e-mail** de l'onglet **Commande client** du volet Actions.
 
-![Action du journal de notification par e-mail du volet Actions](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Action du « journal de notification par e-mail » du volet Actions")
+![Action Journal de notification par e-mail du volet Actions](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Action « Journal de notification par e-mail » du volet Actions")
 
 Une option consiste à utiliser le clavier. Appuyez sur Ctrl+F6 pour activer le volet Actions, puis appuyez sur Tab à plusieurs reprises pour parcourir les onglets et actions, jusqu'à ce que l'action **Journal de notification par e-mail** soit active.
 
 Toutefois, vous pouvez également exécuter l'action plus directement. À partir de n'importe quel emplacement sur la page, appuyez sur Ctrl+Apostrophe (') pour afficher la zone de recherche d'actions.
 
-![Zone Rechercher pour les actions](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zone Rechercher pour les actions")
+![Zone de recherche d'actions](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zone Recherche pour les actions")
 
 Dans la zone de recherche, tapez des mots qui décrivent l'action. L'action devient accessible, et vous pouvez l'exécuter directement. Par exemple, en tapant **e-mail**, **notific** (mot partiel) ou **journal**, vous pouvez « accéder » à la fonctionnalité Journal de notification par e-mail.
 
-![« Adresse électronique » entrée dans la zone Rechercher](media/image4.png "« Adresse électronique » entrée dans la zone Rechercher")
+![« E-mail » saisi dans la zone de recherche](media/image4.png "« e-mail » saisi dans la zone Recherche")
 
-![« Notific » entrée dans la zone Rechercher](media/image5.png "« Notific » entrée dans la zone Rechercher")
+![« Notific » saisi dans la zone de recherche](media/image5.png "« notific » saisi dans la zone Recherche")
 
-![« Journal » entrée dans la zone Rechercher](media/image6.png "« Journal » entrée dans la zone Rechercher")
+![« Journal » saisi dans la zone de recherche](media/image6.png "« journal » saisi dans la zone Recherche")
 
 Lorsque vous avez terminé, vous pouvez appuyer à nouveau sur Ctrl+Apostrophe pour activer le champ que vous utilisiez avant d'exécuter la recherche d'actions.
 
@@ -92,6 +92,8 @@ Pour en savoir plus sur les modèles d'écran, voir [Styles et modèles d'écran
 ## <a name="responsive-layout"></a>Mise en page réactive
 
 Le produit est conçu pour fonctionner sur différents appareils et facteurs de forme, des plus petits écrans aux grands écrans qui ont la résolution la plus élevée. Notre moteur de mise en page réactive permet aux utilisateurs d'effectuer un zoom à un niveau d'agrandissement de 200 % (ou, dans certains scénarios, de plus de 200 %).
+
+Sur les smartphones et autres petits écrans, les commandes et la disposition du formulaire s'adapteront de manière réactive pour garantir que les données de base sont favorisées. Ces comportements réactifs peuvent également inclure la réduction du nombre de colonnes dans les groupes et les onglets à une seule colonne, le masquage des éléments shell et la réduction du volet Actions.
 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Conseils pour aider les développeurs et les clients à incorporer une réflexion accessible dans leurs personnalisations
 

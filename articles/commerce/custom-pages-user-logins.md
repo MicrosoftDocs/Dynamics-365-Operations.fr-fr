@@ -3,7 +3,7 @@ title: Paramétrer des pages personnalisées pour les connexions utilisateur
 description: Cette rubrique décrit la procédure pour générer des pages personnalisées dans Microsoft Dynamics 365 Commerce qui gèrent les connexions personnalisées des utilisateurs des clients entreprise-client (B2C) Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697564"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945557"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Paramétrer des pages personnalisées pour les ouvertures de session utilisateur
 
@@ -136,11 +136,11 @@ Pour mettre à jour la stratégie « Inscription et connexion » avec les info
 1. Dans la stratégie **Inscription et connexion** que vous avez définie précédemment, dans le volet de navigation, sélectionnez **Dispositions de page**.
 1. Sélectionnez la disposition **Page d'inscription ou de connexion unifiée**.
 1. Définissez l'option **Utiliser le contenu de la page personnalisé** sur **Oui**.
-1. Dans le champ **URI de page personnalisée**, entrez l'URL d'inscription complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez **www\<mon domaine\>.com/sign-in?preloadscripts=true**.
+1. Dans le champ **URI de page personnalisée**, entrez l'URL d'inscription complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez ``www.<my domain>.com/sign-in?preloadscripts=true``.
 1. Dans le champ **Version de la disposition de la page (aperçu)**, sélectionnez **1.2.0**.
 1. Sélectionnez la disposition **Page de connexion au compte local**.
 1. Définissez l'option **Utiliser le contenu de la page personnalisé** sur **Oui**.
-1. Dans le champ **URI de page personnalisée**, entrez l'URL d'inscription complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez **www\<mon domaine\>.com/sign-in?preloadscripts=true**.
+1. Dans le champ **URI de page personnalisée**, entrez l'URL d'inscription complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez ``www.<my domain>.com/sign-up?preloadscripts=true``.
 1. Dans le champ **Version de la disposition de la page (aperçu)**, sélectionnez **1.2.0**.
 1. Dans la section **Attributs utilisateur**, procédez comme suit :
 
@@ -156,7 +156,7 @@ Pour mettre à jour la stratégie « Modification de profil » avec les inform
 1. Dans la stratégie **Modification de profil** que vous avez définie précédemment, dans le volet de navigation, sélectionnez **Dispositions de page**.
 1. Sélectionnez la disposition **Page Modification de profil**.
 1. Définissez l'option **Utiliser le contenu de la page personnalisé** sur **Oui**.
-1. Dans le champ **URI de page personnalisée**, entrez l'URL d'inscription complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez **www\<mon domaine\>.com/sign-in?preloadscripts=true**.
+1. Dans le champ **URI de page personnalisée**, entrez l'URL de modification de profil complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez ``www.<my domain>.com/profile-edit?preloadscripts=true``.
 1. Dans le champ **Version de la disposition de la page (aperçu)**, sélectionnez **1.2.0**.
 1. Dans la section **Attributs utilisateur**, procédez comme suit :
 
@@ -170,12 +170,14 @@ Pour mettre à jour la stratégie « Réinitialisation du mot de passe » avec
 1. Dans la stratégie **Réinitialisation du mot de passe** que vous avez définie précédemment, dans le volet de navigation, sélectionnez **Dispositions de page**.
 1. Sélectionnez la disposition **Page Nouveau mot de passe**.
 1. Définissez l'option **Utiliser le contenu de la page personnalisé** sur **Oui**.
-1. Dans le champ **URI de page personnalisée**, entrez l'URL d'inscription complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez **www\<mon domaine\>.com/sign-in?preloadscripts=true**.
+1. Dans le champ **URI de page personnalisée**, entrez l'URL de réinitialisation de mot de passe complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez ``www.<my domain>.com/passwordreset?preloadscripts=true``.
 1. Dans le champ **Version de la disposition de la page (aperçu)**, sélectionnez **1.2.0**.
 1. Sélectionnez la disposition **Page de vérification de compte**.
 1. Définissez l'option **Utiliser le contenu de la page personnalisé** sur **Oui**.
-1. Dans le champ **URI de page personnalisée**, entrez l'URL d'inscription complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez **www\<mon domaine\>.com/sign-in?preloadscripts=true**.
+1. Dans le champ **URI de page personnalisée**, entrez l'URL de vérification de la réinitialisation de mot de passe complète. Incluez le suffixe **?preloadscripts=true**. Par exemple, entrez ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
 1. Dans le champ **Version de la disposition de la page (aperçu)**, sélectionnez **1.2.0**.
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Personnaliser les chaînes de texte par défaut pour les étiquettes et les descriptions
 
@@ -193,15 +195,15 @@ Après avoir mis à jour le fichier global.json et publié vos modifications, le
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble du magasin en ligne](online-store-overview.md)
-
-[Création d'un site de commerce électronique](create-ecommerce-site.md)
+[Configuration du nom de domaine](configure-your-domain-name.md)
 
 [Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
 
+[Création d'un site de commerce électronique](create-ecommerce-site.md)
+
 [Association d'un site en ligne avec un canal](associate-site-online-store.md)
 
-[Configuration du nom de domaine](configure-your-domain-name.md)
+[Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
 [Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 

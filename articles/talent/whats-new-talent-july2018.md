@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 546ec5a77d566b6f5739a604e26c0a60c5ff289a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812716"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2899057"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (juillet 2018)
-
-[!include [banner](includes/banner.md)]
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent: Core HR.
 

@@ -3,7 +3,7 @@ title: Gestion des prix de vente dans Retail
 description: Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025216"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934769"
 ---
 # <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
 
@@ -221,11 +221,11 @@ Un seul moteur de tarification permet de calculer les prix de vente au détail d
 
 La tarification de vente au détail est conçue pour utiliser des entités de vente au détail au lieu d'entités hors vente au détail. Spécifiquement, elle est conçue pour définir des prix par magasin, pas par entrepôt.
 
-Le moteur de tarification de venteau détail ne prend pas en charge les fonctionnalités suivantes de la tarification :
+Le moteur de tarification de venteau détail **ne prend pas en charge** les fonctionnalités suivantes de la tarification :
 
-- Définition du prix à l'aide des dimensions de site et d'entrepôt de stockage.
-- Tarification par attribut
-- Validation de remise de fournisseur
+- La définition des prix par site ou par dimensions de stockage de site et d'entrepôt n'est pas prise en charge. Si vous spécifiez uniquement la dimension Site sur les accords commerciaux, le prix de détail ignorera le site et appliquera l'accord commercial à tous les sites. Si vous spécifiez à la fois le site et l'entrepôt, le comportement n'est pas défini/non testé, car il est prévu que les détaillants utilisent les groupes de prix du magasin pour contrôler les prix de chaque magasin/entrepôt.
+- La tarification basée sur des attributs n'est pas prise en charge.
+- Le transfert de remise fournisseur n'est pas pris en charge.
 
 De plus, **seul** le moteur de tarification de vente au détail prend en charge les fonctionnalités suivantes de la tarification :
 

@@ -1,9 +1,9 @@
 ---
 title: Configuration requise pour le calibrage de matériel pour les environnements sur site
 description: Cette rubrique répertorie la configuration requise pour le calibrage de matériel pour les environnements sur site.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812555"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870262"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Configuration requise pour le calibrage de matériel pour les environnements sur site
 
@@ -137,7 +137,7 @@ Pour le lancement général de disponibilité, seul un nœud SSRS peut être dé
 
 ## <a name="environment-orchestrator"></a>Orchestrateur d'environnement
 
-Le service Orchestrator est le service qui assure le déploiement et les communications liées à LCS. Ce service est déployé comme Service Fabric principal et nécessite au moins trois VM. Ce service est coïmplanté avec les services d'orchestration Service Fabric. Ils doivent être calibrés en fonction de la charge de pointe du cluster. Pour plus d'informations, voir [Considérations relatives à la planification de la capacité du cluster Service Fabric](/azure/service-fabric/service-fabric-cluster-capacity).
+Le service Orchestrator est le service qui assure le déploiement et les communications liées à LCS. Ce service est déployé comme Service Fabric principal et nécessite au moins trois VM. Ce service est coïmplanté avec les services d'orchestration Service Fabric. Ils doivent être calibrés en fonction de la charge de pointe du cluster. Pour plus d'informations, voir [Planifier et préparer votre déploiement de groupement autonome Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualisation et sursouscription
 

@@ -3,7 +3,7 @@ title: Syntaxe de requête et de filtrage avancé
 description: Cet article décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l'opérateur de correspondances dans le volet Filtre ou les filtres d'en-tête de colonne de la grille.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180827"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931286"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancée
 
@@ -114,6 +114,12 @@ Cet article décrit les options de filtrage et de requête disponibles lorsque v
 <td>Mise en correspondance des valeurs séparées par des virgules</td>
 <td>Tapez tous les critères et séparez-les par des virgules.</td>
 <td><strong>A, D, F, G</strong> permet de rechercher &quot;A&quot;, &quot;D&quot;, &quot;F&quot; et &quot;G&quot;. <strong>10, 20, 30, 100</strong> permet de rechercher &quot;10, 20, 30 et 100&quot;.</td>
+</tr>
+<tr>
+<td>"" (deux guillemets)</td>
+<td>Correspondance avec une valeur vide</td>
+<td>Tapez deux guillemets consécutifs pour filtrer les valeurs vides dans ce champ.</td>
+<td>Deux guillemets consécutifs (<strong>""</strong>) permettent de rechercher des lignes sans valeur pour la colonne actuelle.</td>
 </tr>
 <tr>
 <td>(<span class="code">Instruction SQL</span>) (instructions SQL entre parenthèses)</td>

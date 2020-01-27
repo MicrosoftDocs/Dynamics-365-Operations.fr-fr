@@ -3,7 +3,7 @@ title: Gestion des performances
 description: Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590503"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921148"
 ---
 # <a name="performance-management"></a>Gestion des performances
-
-[!include [banner](includes/banner.md)]
 
 Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés.  
 
@@ -91,6 +89,8 @@ Pour des révisions plus détaillées, vous pouvez extraire des objectifs en cou
 Vous pouvez également utiliser la section **Compétences** pour présenter, examiner et estimer les compétences de l'employé. Vous pouvez ajouter autant de compétences que vous souhaitez, et vous pouvez choisir de noter ou non la compétence. 
 
 Vous pouvez créer des révisions basées sur des modèles que vous avez créés. Par exemple, vous pouvez avoir un modèle pour les réunions individuelles, les programmes de perfectionnement ou les révisions périodiques. Vous pouvez sélectionner le modèle lorsque vous créez une révision.
+
+Pour imprimer des avis, cliquez sur le bouton **Imprimer l'avis**. Si vous ne voyez pas le bouton sur la page **Avis**, assurez-vous que vous avez activé la fonctionnalité dans l'espace de travail **Gestion des fonctionnalités**. Pour plus d'informations sur la gestion des fonctions, voir [Présentation de la gestion des fonctions](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Composants que vous pouvez inclure dans les entretiens d'évaluation des performances
 Vous pouvez inclure plusieurs types d'informations dans les entretiens d'évaluation des performances. Ils comprennent les détails, les mesures, les activités, les classements, les validations et les pièces jointes de la révision.

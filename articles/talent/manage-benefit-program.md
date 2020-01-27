@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 49901445f39a2e1c9541e5482d1b4c96550003a6
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009898"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898594"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Définir et gérer un programme social
-
-[!include [banner](includes/banner.md)]
 
 Les ressources humaines proposent un ensemble d'outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu'une organisation offre ou gère pour ses collaborateurs. Cette rubrique fournit des informations sur la manière de paramétrer et de gérer les avantages.
 

@@ -16,17 +16,16 @@ ms.search.industry: public sector
 ms.author: v-alpavk
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a72be97d9dff8bf10ff6578415c45d989d04a666
-ms.sourcegitcommit: 4925136bd9bbeeb1db5aa35ed174e8342a3a300e
+ms.openlocfilehash: 84ae2e7c86926c21edef6c26cd658cec5e908765
+ms.sourcegitcommit: cfaad79bcb1460ee0e7ad5a2c596f9199e14c53a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "2673411"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2944416"
 ---
 # <a name="forecast-position-reports-for-the-public-sector"></a>États de poste de prévision pour le secteur public
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Vous pouvez utiliser les états de **synthèse de poste de prévision** et de **détail de poste de prévision** pour générer des informations sur les postes de prévision lors d'un plan budgétaire et d'un scénario que vous spécifiez.  
 

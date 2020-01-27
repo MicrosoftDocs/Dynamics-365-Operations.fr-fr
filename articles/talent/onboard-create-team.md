@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814833"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897187"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>Créer une équipe de recrutement à l'aide de Dynamics 365 Talent - Onboard
+# <a name="create-a-hiring-team"></a>Créer une équipe de recrutement
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ Dans Microsoft Dynamics 365 Talent: Onboard, vous pouvez créer des équipes de 
 2. Sous **Équipes**, sélectionnez la vignette **Ajouter** (signe plus) \[**+**\].
 3. Dans la boîte de dialogue **Créer une nouvelle équipe**, sous **Nom de l'équipe**, entrez un nom pour l'équipe de recrutement.
 
-    ![[Création d'une nouvelle équipe dans Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[Créer une équipe dans Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. Sous **Choisir les membres de l'équipe**, entrez le nom ou l'adresse e-mail de chaque membre de l'équipe.
 
@@ -55,7 +55,7 @@ Dans Microsoft Dynamics 365 Talent: Onboard, vous pouvez créer des équipes de 
 
 4. Activez la case à cocher pour chaque guide d'intégration que vous souhaitez affecter à l'équipe, puis sélectionnez **Ajouter**.
 
-    ![[Sélection des guides d'intégration à ajouter à l'équipe](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
+    ![[Sélection de guides d'intégration à ajouter à l'équipe](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
 ## <a name="assign-onboarding-templates-to-a-hiring-team"></a>Affecter des modèles d'intégration à une équipe de recrutement
 

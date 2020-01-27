@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814626"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898246"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Créer et envoyer un guide d'intégration avec Dynamics 365 Talent - Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Créer et envoyer un guide d'intégration
 
 [!include [banner](includes/banner.md)]
 
@@ -42,7 +42,7 @@ Après avoir créé un guide d'intégration, vous pouvez l'envoyer à une nouvel
 
 5. Dans la fenêtre **Créer un guide**, sous **Qui accueillez-vous ?**, entrez le nom ou l'adresse e-mail de la nouvelle recrue. Si la nouvelle recrue n'est pas encore dans le système, sélectionnez **Ajouter maintenant**, puis entrez les informations de l'employé.
 
-    ![[Saisie d'information pour le guide d'intégration](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Saisie d'informations pour le guide d'intégration](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 6. Sélectionnez une date de début sous **Quand vont-elles commencer ?**.
 7. Si le guide d'intégration doit être envoyé automatiquement à la nouvelle recrue à une date spécifique, assurez-vous que l'option **Planifier une date d'envoi automatique** est activée, puis sélectionnez la date d'envoi automatique. Pour envoyer le guide immédiatement, désactivez l'option **Planifier une date d'envoi automatique**.
@@ -92,7 +92,7 @@ Vous n'êtes pas toujours obligé de créer un guide à partir d'un modèle. Si 
 1. Dans le menu de gauche, sélectionnez **Guides**, puis sélectionnez le bouton **Ajouter** (le signe plus \[**+**\]).
 2. Dans la fenêtre **Créer un guide**, sous **Qui accueillez-vous ?**, entrez le nom ou l'adresse e-mail de la nouvelle recrue. Si la nouvelle recrue n'est pas encore dans le système, sélectionnez **Ajouter maintenant**, puis entrez les informations de l'employé.
 
-    ![[Saisie d'information pour le guide d'intégration](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Saisie d'informations pour le guide d'intégration](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 3. Sélectionnez une date de début sous **Quand vont-elles commencer ?**.
 4. Si le guide d'intégration doit être envoyé automatiquement à la nouvelle recrue à une date spécifique, assurez-vous que l'option **Planifier une date d'envoi automatique** est activée, puis sélectionnez la date d'envoi automatique. Pour envoyer le guide immédiatement, désactivez l'option **Planifier une date d'envoi automatique**.

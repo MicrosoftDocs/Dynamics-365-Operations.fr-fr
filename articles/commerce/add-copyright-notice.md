@@ -3,7 +3,7 @@ title: Ajouter un avis de droits d'auteur
 description: Cette rubrique décrit la procédure d'ajout d'un avis de droits d'auteur à votre site web de commerce électronique.
 author: psimolin
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39135a2eca25336097ee9eddf06dc6709c102571
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696943"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914567"
 ---
 # <a name="add-a-copyright-notice"></a>Ajouter un avis de droits d'auteur
 
@@ -65,6 +65,8 @@ Le pied de page qui contient l'avis de droits d'auteur s'affiche automatiquement
 [Ajouter un logo](add-logo.md)
 
 [Sélectionner un thème pour le site](select-site-theme.md)
+
+[Utilisation de fichiers de remplacement CSS](css-override-files.md)
 
 [Ajouter une icône de favori](add-favicon.md)
 

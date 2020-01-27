@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: caa449feba22c5804799b5317a8e29c139cc440e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f67296797d9a671ae071a13b1bbda73cf3fc6e7f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177681"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915175"
 ---
 # <a name="financial-reporting-overview"></a>Vue d'ensemble des états financiers
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Cette rubrique explique où accéder aux états financiers et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut également une description des états financiers par défaut fournis.
 
@@ -79,6 +81,18 @@ Les fonctions de génération d'états financiers sont disponibles aux utilisate
 | Afficher les états financiers                | Examiner les performances financières          | Aucun affecté                                                                   |
 
 Une fois qu'un utilisateur a été ajouté ou qu'un rôle a été modifié, il doit pouvoir accéder aux états financiers en quelques minutes. **Remarque :** le rôle sysadmin est ajouté à tous les rôles de la génération d'états financiers.
+
+## <a name="report-deletions-and-expirations"></a>Signaler les suppressions et les expirations
+Les utilisateurs qui génèrent un état peuvent supprimer leurs propres états. Les utilisateurs avec le droit **Tenir à jour la sécurité des états financiers** peuvent supprimer les états des autres. 
+
+Depuis la version 10.0.7, le concept des dates d'expiration a été introduit. Une nouvelle fonctionnalité obligatoire sera activée dans l'espace de travail de gestion des fonctionnalités. Cette fonctionnalité contient les modifications suivantes :
+* Des états nouvellement générés seront automatiquement marqués comme ayant une date d'expiration de 90 jours à compter de leur génération
+* Tous les états existants antérieurs à l'installation de la fonctionnalité auront une période d'expiration de 90 jours. La date peut s'afficher comme vide pendant une courte période jusqu'à ce que le service de génération d'états financiers s'exécute, qu'un état soit généré et que le service effectue la mise à jour des états existants avec une date d'expiration vide. 
+* Les utilisateurs avec le droit **Tenir à jour la sécurité des états financiers** ont accès à cette fonctionnalité. Tout utilisateur dans le droit **Tenir à jour la sécurité des états financiers** se voyant accorder le privilège **Tenir à jour l'expiration des états financiers** aura également la possibilité de modifier la période d'expiration. Actuellement, deux options de rétention sont disponibles - 
+  * Une expiration au bout de 90 jours
+  * Une option pour que l'état n'expire jamais
+
+Lorsqu'une expiration de 90 jours est sélectionnée, elle accorde 90 jours à compter d'aujourd'hui, ce qui est un comportement différent des 90 jours à partir de la date de génération d'origine définie lors de la génération de l'état. 
 
 ## <a name="default-reports"></a>États par défaut
 Les états financiers fournissent 22 états financiers par défaut. Chaque rapport utilise les catégories de compte principal par défaut. Vous pouvez utiliser ces états tels quels ou en tant que point de départ pour vos besoins en matière d'états financiers. Outre les tableaux d'analyse traditionnels, tels que le rapport de revenus et le bilan de résultats, ces états par défaut incluent des états qui indiquent les différents types d'états financiers que vous pouvez créer. 

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ebfaeb0696d7200ddf3c715f96a259b91db08e7a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3376a9aec5c0003e9cc7c076c4d221a697df61ce
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517974"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898292"
 ---
 # <a name="leave-and-absence-management"></a>Gestion des congés et des absences
-
-[!include [banner](includes/banner.md)]
 
 Le module **Gestion des congés et des absences** offre un cadre flexible pour définir le processus de gestion des absences. Des plans de congé et d'absence peuvent être créés pour déterminer la manière dont les employés accumulent ou se voient accorder des congés. Une fois les employés inscrits dans un plan, ils peuvent envoyer des demandes de congés pour approbation par les responsables. Le suivi des congés permet aux responsables de premier niveau et responsables des Ressources humaines (RH) de savoir qui prend des congés et de combien de congés chaque employé dispose toujours.  
 

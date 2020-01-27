@@ -3,7 +3,7 @@ title: FAQ Workflow
 description: Cette rubrique répond à des questions fréquentes sur le système de workflow.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772695"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934907"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
@@ -37,7 +37,7 @@ Chaque notification correspond à un élément de travail différent, mais la si
 Il existe actuellement une limitation de la fonctionnalité d'exportation de workflows qui empêche les noms des workflows de dépasser 48 caractères. L'utilisation d'un nom de plus de 48 caractères peut entraîner une erreur « Échec du serveur à authentifier la demande » et/ou pour empêcher qu'un fichier soit exporté sans type de fichier. La publication de blog suivante fournit davantage de détails [Dépannage de l'exportation de workflows](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>L'auteur d'un workflow peut-il également approuver le workflow ?
-Oui, l'auteur d'un workflow peut également approuver le workflow si il est configuré ainsi. Pour éviter ce comportement, définissez **Paramètres de workflow > Général > Approbateur > Ne pas autoriser l'approbation par l'auteur** sur **Oui**.
+Oui, l'auteur d'un workflow peut également approuver le workflow si il est configuré ainsi. Pour éviter ce comportement, définissez **Administration du système > Workflow > Paramètres de workflow > Général > Approbateur > Ne pas autoriser l'approbation par l'auteur** sur **Oui**.
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>Puis-je ajouter des alertes aux workflows pour fournir des notifications aux utilisateurs ?
 Voici quelques points clés à noter en ce qui concerne l'ajout d'alertes aux workflows pour fournir des notifications :
@@ -51,3 +51,6 @@ Voici quelques points clés à noter en ce qui concerne l'ajout d'alertes aux wo
     - [Les workflows comportent des événements commerciaux](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que le client peut utiliser pour faire en sorte que les flux disposent des notifications dont ils ont besoin.   
 
 En résumé, si un utilisateur ne reçoit pas la notification appropriée en provenance du Centre d'actions lorsqu'un élément de travail de workflow leur est affecté, tirez parti des [Événements commerciaux de workflow](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) avec Microsoft Power Automate pour fournir des notifications supplémentaires ou différentes.
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>L'éditeur de workflow a du mal à démarrer sous ADFS 
+Lors de l'exécution sous Active Directory Federation Services (AD FS) dans un environnement mis à niveau, l'éditeur de workflow peut avoir des problèmes de démarrage. Si tel est le cas, assurez-vous que l'URL « https://dynamicsaxworkfloweditor/ » est ajoutée à la propriété **Microsoft Dynamics 365 for Operations On-premises - Workflow - Application native** dans les paramètres ADFS.

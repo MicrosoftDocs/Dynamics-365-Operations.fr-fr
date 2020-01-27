@@ -8,7 +8,9 @@
           href: index.md
         - name: Nouveautés ou modifications
           items:
-            - name: "Fonctionnalités préliminaires dans Platform update\_31 (janvier\_2020)"
+            - name: "Fonctionnalités préliminaires dans Platform update\_32 (février\_2020)"
+              href: get-started/whats-new-platform-update-32.md
+            - name: "Platform update\_31 (janvier\_2020)"
               href: get-started/whats-new-platform-update-31.md
             - name: "Platform update\_30 (novembre\_2019)"
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: "Platform update\_15 (mars\_2018)"
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Nouveautés ou modifications dans les versions précédentes
+              items:
+                - name: Nouveautés ou modifications de la page d'accueil Finance and Operations
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Événements commerciaux
           items:
             - name: Vue d'ensemble des événements commerciaux
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Intégration de PowerBI.com aux environnements sur site
                   href: analytics/entity-store-on-prem.md
-                - name: Configurer les proxys de contrepassation pour les environnements sur site
+                - name: Configurer les proxys pour les environnements sur site
                   href: deployment/onprem-reverseproxy.md
                 - name: Appliquer des mises à jour à un déploiement sur site
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Problèmes connus
                   href: lifecycle-services/known-issues.md
+                - name: Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Guide de l'utilisateur de Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Estimateur d'abonnement
