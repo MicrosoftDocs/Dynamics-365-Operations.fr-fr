@@ -1,0 +1,8 @@
+## <a name="fiscal-calendar-integration-entity-to-msdyn_fiscalcalendars"></a><span data-ttu-id="82c3e-101">Entité Intégration du calendrier fiscal vers msdyn_fiscalcalendars</span><span class="sxs-lookup"><span data-stu-id="82c3e-101">Fiscal calendar integration entity to msdyn_fiscalcalendars</span></span>
+
+<span data-ttu-id="82c3e-102">Ce modèle synchronise les données entre les applications Finance and Operations et Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="82c3e-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="82c3e-103">Champ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="82c3e-103">Finance and Operations field</span></span> | <span data-ttu-id="82c3e-104">Type de mappage</span><span class="sxs-lookup"><span data-stu-id="82c3e-104">Map type</span></span> | <span data-ttu-id="82c3e-105">Autre champ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="82c3e-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="82c3e-106">Valeur par défaut</span><span class="sxs-lookup"><span data-stu-id="82c3e-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="82c3e-107">CALENDARID</span><span class="sxs-lookup"><span data-stu-id="82c3e-107">CALENDARID</span></span> | = | <span data-ttu-id="82c3e-108">msdyn_calendar</span><span class="sxs-lookup"><span data-stu-id="82c3e-108">msdyn_calendar</span></span> | 
+<span data-ttu-id="82c3e-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="82c3e-109">DESCRIPTION</span></span> | = | <span data-ttu-id="82c3e-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="82c3e-110">msdyn_description</span></span> | 

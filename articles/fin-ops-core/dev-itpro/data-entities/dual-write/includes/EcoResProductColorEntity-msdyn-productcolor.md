@@ -1,0 +1,7 @@
+## <a name="colors-to-msdyn_productcolors"></a><span data-ttu-id="48519-101">Couleurs vers msdyn_productcolors</span><span class="sxs-lookup"><span data-stu-id="48519-101">Colors to msdyn_productcolors</span></span>
+
+<span data-ttu-id="48519-102">Ce modèle synchronise les données entre les applications Finance and Operations et Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="48519-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="48519-103">Champ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="48519-103">Finance and Operations field</span></span> | <span data-ttu-id="48519-104">Type de mappage</span><span class="sxs-lookup"><span data-stu-id="48519-104">Map type</span></span> | <span data-ttu-id="48519-105">Autre champ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="48519-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="48519-106">Valeur par défaut</span><span class="sxs-lookup"><span data-stu-id="48519-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="48519-107">COLORID</span><span class="sxs-lookup"><span data-stu-id="48519-107">COLORID</span></span> | >> | <span data-ttu-id="48519-108">msdyn_productcolorname</span><span class="sxs-lookup"><span data-stu-id="48519-108">msdyn_productcolorname</span></span> | 
