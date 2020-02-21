@@ -1,6 +1,6 @@
 ---
 title: Documentation des applications Finance and Operations
-description: Documentation des applis Finance and Operations.
+description: Documentation pour les applications Finance and Operations.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770917"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005538"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentation des applications Finance and Operations
 
@@ -30,7 +30,7 @@ ms.locfileid: "2770917"
 
 Découvrez comment adapter les applications Finance and Operations à votre entreprise, en utilisant les ressources de cette rubrique pour rechercher des contenus utiles pour les utilisateurs, les développeurs et les professionnels de l'informatique. 
 
-La majeure partie de ce contenu s'applique également aux produits associés : Dynamics 365 Retail et Talent. 
+La majeure partie de ce contenu s'applique également aux produits associés : Dynamics 365 Commerce et Dynamics 365 Human Resources. 
 
 <table>
 <colgroup>
@@ -84,9 +84,9 @@ La majeure partie de ce contenu s'applique également aux produits associés : 
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Fonctions de réglementation régionale</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Ressources humaines</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">Avantages</a></p>
-<p><a href="../../talent/performance-management-overview.md">Perfectionnement et formation des employés</a></p>
-<p><a href="../../talent/questionnaires.md">Questionnaire</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Avantages</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Perfectionnement et formation des employés</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Questionnaires</a></p>
 <p><a href="hr/manage-recruiting-process.md">Recrutement</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">Paie USA</a></p>
 
@@ -129,16 +129,17 @@ La majeure partie de ce contenu s'applique également aux produits associés : 
 </td>
 <td>
 <h3>Produits associés</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
 <p><a href="../../retail/call-center-functionality.md">Centre d'appels</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">Paramétrage et gestion de canal</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS et Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Développeur et administration Retail</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Développeur et administration Commerce</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">Avantages</a></p>
-<p><a href="../../talent/performance-management-overview.md">Perfectionnement et formation des employés</a></p>
-<p><a href="../../talent/questionnaires.md">Questionnaire</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Guide de l'administrateur</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Guide du développeur</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Guide de l'utilisateur</a></p>
+
 
 </td>
 </tr>

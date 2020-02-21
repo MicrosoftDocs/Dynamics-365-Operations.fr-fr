@@ -1,7 +1,7 @@
-Lors de la copie d'une base de données entre des environnements, vous devez exécuter l'outil de remise en service de l'environnement avant que la base de données copiée soit complètement fonctionnelle pour vous assurer que tous les composants de Retail sont à jour.
+Lors de la copie d'une base de données entre des environnements, vous devez exécuter l'outil de remise en service de l'environnement avant que la base de données copiée soit complètement fonctionnelle pour vous assurer que tous les composants de Commerce sont à jour.
 
 > [!IMPORTANT]
-> Nous vous recommandons d'exécuter cette procédure, que vous utilisiez des composants Retail ou non, car la fonctionnalité Retail est incluse dans tous les environnements. 
+> Nous vous recommandons d'exécuter cette procédure, que vous utilisiez des composants de Commerce ou non, car la fonctionnalité Commerce est incluse dans tous les environnements. 
 
 Avant de continuer, vous devez vous assurer que les conditions préalables suivantes sont remplies :
 1. Si vous mettez à niveau la version de juillet 2017 (également appelée 7.2) 7.2.11792.56024, appliquez les correctifs X++ d'application suivants dans l'environnement de destination avant de procéder à la mise à niveau des données dans cet environnement. Cela empêchera que différentes erreurs se produisent lors de la mise à niveau des données :

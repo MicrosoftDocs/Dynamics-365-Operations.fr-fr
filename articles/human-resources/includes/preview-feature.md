@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> La fonctionnalité décrite dans cet article est disponible en tant que préversion publique dans n'importe quel environnement de bac à sable ou d'évaluation. Elle n'est pas disponible dans les environnements de production. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour plus d'informations sur les fonctionnalités en version préliminaire, voir [Gérer les fonctionnalités](../hr-admin-manage-features.md).
