@@ -3,7 +3,7 @@ title: Prise en main de l'Optimisation de la planification
 description: Cette rubrique explique comment utiliser la fonctionnalité d'Optimisation de la planification.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773955"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971462"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ Pour utiliser l'Optimisation de la planification, installez le complément d'Opt
 
 1. Connectez-vous à LCS, et ouvrez l'environnement souhaité.
 1. Accédez à **Détails complets**.
-1. Sélectionnez **Mettre à jour**, ou faites défiler jusqu'à l'organisateur **Compléments d'environnement**.
+1. Faites défiler jusqu'à l'organisateur **Compléments d'environnement**.
 1. Sélectionnez **Installer un nouveau complément**.
 1. Sélectionnez **Optimisation de la planification**.
 1. Suivez le guide d'installation, et acceptez les conditions générales du contrat.
 1. Sélectionnez **Installer**.
+1. Sur l'organisateur **Compléments d'environnement** devriez voir que Planning Optimization est en cours d'installation.
+1. Après quelques minutes **Installation** devrait passer à **Installé** (vous devrez peut-être actualiser la page). Après l'installation, vous pouvez activer Planning Optimization dans Dynamics 365 Supply Chain Management.
 
 ### <a name="planning-optimization-integration"></a>Intégration d'Optimisation de la planification
 
-Pour configurer si le complément de l'Optimisation de la planification doit être utilisée pour la planification, accédez à **Planification** \> **Paramétrage** \> **Intégration d'Optimisation de la planification** \> **Paramètres d'intégration**.
+Pour configurer si le complément de l'Optimisation de la planification doit être utilisée pour la planification, accédez à **Planification** \> **Paramétrage** \> **Paramètres d'intégration**.
 
 #### <a name="connection-status"></a>Statut de la connexion
 
