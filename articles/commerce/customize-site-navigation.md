@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914908"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001827"
 ---
 # <a name="customize-site-navigation"></a>Personnaliser la navigation dans le site
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit la procédure de création d'une hiérarchie de navigation en ligne personnalisée pour organiser vos produits à parcourir sur votre site Microsoft Dynamics 365 Commerce.
@@ -35,11 +35,11 @@ Cette rubrique décrit la procédure de création d'une hiérarchie de navigatio
 
 Les vitrines en ligne permettent généralement aux clients de découvrir et parcourir des produits en navigant dans les catégories de produits. Cette fonctionnalité est généralement fournie par des onglets en haut de la page ou une barre de navigation à gauche. Dans Dynamics 365 Commerce, vous pouvez créer et gérer la structure hiérarchique de votre navigation par catégorie et les produits inclus dans les différentes catégories.
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>Créer une hiérarchie de navigation du canal de vente au détail
+## <a name="create-a-channel-navigation-hierarchy"></a>Créer une hiérarchie de navigation du canal
 
-Pour créer une hiérarchie de navigation du canal de vente au détail, procédez comme suit.
+Pour créer une hiérarchie de navigation du canal, procédez comme suit.
 
-1. Accédez à **Vente au détail \> Produits et catégories \> Gestion des catégories et des produits**.
+1. Accédez à **Commerce et vente au détail \> Produits et catégories \> Gestion des catégories et des produits**.
 1. Sélectionnez **Hiérarchies des catégories**, puis sélectionnez **Nouveau**.
 1. Nommez la hiérarchie.
 
@@ -57,28 +57,28 @@ Par défaut, les catégories que vous définissez s'affichent dans l'ordre alpha
 
 ## <a name="assign-a-category-hierarchy-type"></a>Affectation d'un type de hiérarchie de catégories
 
-1. Accédez à **Vente au détail \> Produits et catégories \> Gestion des catégories et des produits**.
+1. Accédez à **Commerce et vente au détail \> Produits et catégories \> Gestion des catégories et des produits**.
 1. Sélectionnez **Hiérarchie de catégories**.
 1. Sur le volet Actions, sous l'onglet **Hiérarchie de catégories**, dans le groupe **Paramétrer**, cliquez sur **Associer le type de hiérarchie**.
 1. Sélectionnez **Nouveau**.
-1. Dans le champ **Type de hiérarchie de catégories**, sélectionnez **Hiérarchie de navigation du canal de vente au détail**.
+1. Dans le champ **Type de hiérarchie de catégories**, sélectionnez **Hiérarchie de navigation du canal**.
 1. Dans le champ **Hiérarchie de catégories**, sélectionnez la hiérarchie de navigation de canal que vous avez créée précédemment.
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>Publier des hiérarchies de navigation nouvelles ou mises à jour
 
 Pour rendre la hiérarchie de navigation disponible sur votre vitrine en ligne, procédez comme suit.
 
-1. Accédez à **Vente au détail \> Paramétrage du canal \> Catégories de canal et attributs de produit**.
+1. Accédez à **Commerce et vente au détail \> Paramétrage du canal \> Catégories de canal et attributs de produit**.
 1. Dans l'arborescence à gauche, sélectionnez votre magasin en ligne.
 1. Sélectionnez **Publier les mises à jour du canal**.
-1. Accédez à **Vente au détail \> Informatique de vente au détail \> Programme de distribution**.
+1. Accédez à **Commerce et vente au détail \> Informatique Commerce et vente au détail \> Programme de distribution**.
 1. Dans la liste, recherchez et sélectionnez **Tâche 1040**.
 1. Sélectionnez **Exécuter maintenant**.
 1. Répétez les étapes 5 et 6 pour les tâches 1070 et 1150.
 
 ## <a name="show-categories-on-your-site"></a>Afficher les catégories sur votre site
 
-Pour afficher la hiérarchie de catégories de votre vitrine en ligne, vous devez ajouter le module du menu de navigation à l'emplacement approprié dans un modèle ou un fragment. Le module du menu de navigation affiche alors la hiérarchie de navigation, si tant est que vous avez publié votre hiérarchie de navigation de vente au détail sur le canal auquel votre site est associé.
+Pour afficher la hiérarchie de catégories de votre vitrine en ligne, vous devez ajouter le module du menu de navigation à l'emplacement approprié dans un modèle ou un fragment. Le module du menu de navigation affiche alors la hiérarchie de navigation, si tant est que vous avez publié votre hiérarchie de navigation sur le canal auquel votre site est associé.
 
 > [!NOTE]
 > Le module du menu de navigation qui est inclus dans le kit de démarrage du magasin permet aux utilisateurs d'accéder uniquement aux catégories qui n'ont pas de sous-catégories. Si vos clients peuvent accéder aux catégories qui ont des sous-catégories, vous devez personnaliser le module du menu de navigation.

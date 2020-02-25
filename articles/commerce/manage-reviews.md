@@ -3,7 +3,7 @@ title: Gestion des évaluations et avis
 description: Cette rubrique explique comment gérer les classements et les évaluations à l'aide de l'outil de modération des classements et des évaluations de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698024"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027240"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gestion des évaluations et avis
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment gérer les classements et les évaluations à l'aide de l'outil de modération des classements et des évaluations de Microsoft Dynamics 365 Commerce.
@@ -39,6 +38,16 @@ Dynamics 365 Commerce utilise le service cognitif de Microsoft Azure pour modér
 - Modérez les évaluations en y répondant ou en les supprimant.
 - Supprimez les évaluations d'un client à la demande du client.
 - Importez en bloc les données des classements et des évaluations pour tous les produits dans un modèle Microsoft Power BI, afin que les tendances des classements et des évaluations puissent être analysées.
+
+## <a name="access-ratings-and-reviews-moderation-features"></a>Accéder aux fonctionnalités de modération des classements et des révisions
+
+Pour accéder aux fonctionnalités de modération des classements et des révisions dans l'outil de gestion du site de commerce électronique, procédez comme suit.
+
+1. Connectez-vous à [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
+1. Ouvrir le projet contenant l'environnement dans lequel vous souhaitez initialiser le commerce électronique.
+1. Dans la section **Environnements**, sélectionnez l'environnement.
+1. Sous **Fonctions d'environnement**, sélectionnez **Gestion de la vente au détail**.
+1. Dans l'onglet **Commerce électronique**, sous **Liens**, sélectionnez **Outil de gestion du site de commerce électronique**.
 
 ## <a name="read-a-review"></a>Lecture d'une évaluation 
 

@@ -1,5 +1,5 @@
 ---
-title: Obtenir de l'aide sur les applications Finance and Operations et Lifecycle Services (LCS)
+title: Obtenir de l'aide pour les applications Finance and Operations ou Lifecycle Services (LCS)
 description: Cette rubrique explique comment obtenir de l'aide pour les applications Finance and Operations ou Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812133"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005514"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtenir de l'aide sur les applications Finance and Operations et Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtenir de l'aide pour les applications Finance and Operations ou Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ Cette rubrique explique comment obtenir de l'aide pour les applications Finance 
 
 Utilisez les informations contenues dans cet article pour contacter Microsoft si vous avez des questions techniques, ou si vous avez besoin d'aide pour accéder à Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="finance-and-operations-apps-support"></a>Support pour les applications Finance and Operations
+### <a name="finance-and-operations-apps-support"></a>support pour les applications Finance and Operations
 
 Pour obtenir de l'aide, utilisez les ressources du tableau suivant. Ces ressources sont répertoriées dans l'ordre de suivi recommandé lorsque vous résolvez des problèmes.
 
@@ -72,12 +72,12 @@ Remarque : les clients et partenaires Microsoft Premier peuvent également envo
 <td>Si vous avez des problèmes lorsque vous tentez d'envoyer un ticket à Microsoft à partir de la vignette <strong>Support</strong> de LCS, voir <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Contacter le support Microsoft Business Solutions</span></a> pour savoir comment contacter un centre Microsoft Dynamics Regional Operations Center. L'équipe de support peut vous aider à résoudre les types suivants de problèmes techniques :
 <ul>
 <li>Erreurs qui se produisent lorsque vous utilisez LCS ou problèmes qui se produisent lorsque vous tentez d'accéder à LCS.</li>
-<li>Erreurs qui se produisent lorsque vous utilisez les applications Finance and Operations.</li>
+<li>Erreurs qui apparaissent lors de l'utilisation des applications Finance and Operations.</li>
 </ul>
 Pour les questions techniques relatives à la connexion ou à l'accès à CustomerSource, à l'apprentissage électronique, à la recherche, à la base de connaissances, au téléchargement de fichiers et aux erreurs de page ou système, accédez au site <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Support du site Web</span></a>.</td>
 </tr>
 <tr class="odd">
-<td>Obtenir de l'aide sur les questions relatives aux licences des applications Finance and Operations.</td>
+<td>Obtenez de l'aide en posant des questions sur la gestion des licences des applications Finance and Operations.</td>
 <td>Contactez votre partenaire, revendeur LAR ou représentant commercial Microsoft.</td>
 </tr>
 <tr class="even">
@@ -90,6 +90,6 @@ Pour les questions techniques relatives à la connexion ou à l'accès à Custom
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 - [Obtenir de l'aide pour Dynamics 365 Retail](../../../retail/retail-support.md)
-- [Obtenir de l'aide sur Microsoft Dynamics 365 Talent](../../../talent/talent-support.md)
-- Pour plus d'informations sur les offres de support Microsoft Dynamics, voir [Gestion des expériences de support pour les applications Finance and Operations](cloud-powered-support-lcs.md).
+- [Obtenir de l'aide sur Microsoft Dynamics 365 Human Resources](../../../human-resources/hr-admin-troubleshooting-support.md)
+- Pour plus d'informations sur les offres de support pour Microsoft Dynamics, voir [Gérer les expériences de support pour les applications Finance and Operations](cloud-powered-support-lcs.md).
 

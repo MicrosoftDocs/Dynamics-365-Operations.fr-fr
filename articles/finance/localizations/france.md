@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f57e1cd8e81162f2b4df5e9b8a1a1e2cc95cd022
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9c6b15d9ba2e0f10cae7635ffc265d8671d8808f
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773441"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003772"
 ---
 # <a name="france-overview"></a>Vue d'ensemble de la France
 
@@ -52,7 +52,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Amortissement dégressif fiscal](emea-fra-rbsl-depreciation.md)
 - [Paramétrer des modes de paiement](tasks/fr-00004-setup-method-payment.md)
 - [Mettre à jour un mode de paiement pour le client](tasks/fr-00004-update-method-payment-customer.md)
-- Retail
+- Commerce
   - [Fonctionnalité de la caisse enregistreuse](../../retail/localizations/emea-fra-cash-registers.md)
   - [Instructions de déploiement de caisses enregistreuses](../../retail/localizations/emea-fra-deployment.md)
 

@@ -3,7 +3,7 @@ title: Vue d'ensemble de la page d'accueil
 description: Cette rubrique offre une vue d'ensemble de la page d'accueil dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fb42c9aa2e2ef1d620b310e9d30dbae5f84c788
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698278"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025969"
 ---
 # <a name="overview-of-the-home-page"></a>Vue d'ensemble de la page d'accueil
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique offre une vue d'ensemble de la page d'accueil dans Microsoft Dynamics 365 Commerce.
@@ -45,20 +45,20 @@ La section principale de la page d'accueil peut mettre en évidence des produits
 
 - **Bannière** – Généralement, le premier article en haut de la principale de section affiche une ou plusieurs images de « bannière » qui mettent en valeur les nouveaux produits et promotions dans le magasin. S'il existe plusieurs images de bannière, elles sont hébergées dans un module de carrousel afin que les utilisateurs puissent les parcourir.
 
-    L'illustration suivante présente un exemple de page d'accueil où le premier article dans la section principale est un module de bannière appelé **Dernières nouveautés**.
+    L'illustration suivante présente un exemple de page d'accueil où le premier article dans la section principale est la disposition en bannière d'un module de bloc de contenu appelé « Dernières nouveautés ».
 
     ![Exemple d'un module de bannière](./media/Hero.PNG)
 
-- **Fonctionnalité** – Un module de fonctionnalités permet de publier des produits ou des promotions sur le marché via une combinaison des images et du texte. Les modules de fonctionnalité peuvent être utilisés de manière indépendante, ou être hébergés dans un module de carrousel.
+- **Fonctionnalités** : une disposition avec fonctionnalités d'un module de bloc de contenu permet de commercialiser des produits ou de publier des promotions en associant des images et du texte. Les dispositions avec fonctionnalités peuvent être utilisées de manière indépendante ou être hébergés dans un module de carrousel.
 
-    L'illustration suivante présente des exemples de modules de fonctionnalité sur une page d'accueil.
+    L'illustration suivante présente un exemple de disposition avec fonctionnalités d'un module de bloc de contenu sur une page d'accueil.
 
     ![Exemples de modules de fonctionnalités](./media/Feature.PNG)
 
-- **Placement de contenu** – Un module de placement de contenu est utilisé pour présenter plusieurs produits ou une catégorie de produits à l'aide d'une combinaison d'images et de texte dans une disposition à plusieurs colonnes. Dans l'illustration d'une page d'accueil qui apparaît plus haut dans cette rubrique, un module de placement de contenu est utilisé pour la disposition à trois colonnes des éléments **Achats Femme**, **Achats Hommes**, et **Achats accessoires**.
+- **Vignette** : une disposition en vignette d'un module de bloc de contenu permet de présenter plusieurs produits ou une catégorie de produits en associant des images et du texte dans une disposition à plusieurs colonnes. Dans l'illustration d'une page d'accueil qui apparaît plus haut dans cette rubrique, une disposition en vignette est utilisée pour le rendu en 3 colonnes des articles **Achats Femme**, **Achats Homme** et **Achats accessoires**.
 - **Lecteur vidéo** – Un module de lecteur vidéo permet de présenter du contenu vidéo sur la page d'accueil. L'illustration d'une page d'accueil qui apparaît plus haut dans cette rubrique comprend un module de lecteur vidéo.
-- **Bloc de contenu riche** – Un module de bloc de contenu riche peut être utilisé pour présenter du contenu de texte sur la page d'accueil dans une disposition à colonne simple ou à plusieurs colonnes.
-- **Recommandations de produits** – Les modules de recommandations de produits sont utilisés pour afficher des listes telles que **Nouveau**, **Tendance**, et **Meilleures ventes** sur la page d'accueil. Ces listes présentent les produits selon les tendances d'achats, puis elles peuvent être algorithmiquement générées ou manuellement éditées. Elles aident les clients à découvrir rapidement les meilleurs produits puis à continuer d'acheter.
+- **Bloc de texte** : un module de bloc enrichi de contenu qui permet de présenter le contenu de texte sur la page d'accueil dans une disposition à une ou plusieurs colonnes.
+- **Recommandations produit** : les modules de recommandations de produits permettent d'afficher les listes telles que **Nouveau**, **Tendance** et **Meilleures ventes** sur la page d'accueil. Ces listes présentent les produits selon les tendances d'achats, puis elles peuvent être algorithmiquement générées ou manuellement éditées. Elles aident les clients à découvrir rapidement les meilleurs produits puis à continuer d'acheter.
 
     L'illustration suivante présente des exemples de modules de recommandations de produits sur une page d'accueil.
 

@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9c0f329d21cdda5c36a39a8c602d5925b720f52
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945741"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003071"
 ---
 # <a name="enrich-a-product-page"></a>Enrichir une page de produit
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment enrichir une page de produit dans Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Par défaut, votre site utilise une page générique pour afficher les données de produit. Cette page inclut des informations de base sur le produit et les contrôles qui sont requis pour le vendre. Toutefois, vous pouvez compléter les informations provenant du Retail Server avec des images ou du texte supplémentaire pour un produit spécifique. Ce processus est identifié comme un enrichissement de la page de produit.
+Par défaut, votre site utilise une page générique pour afficher les données de produit. Cette page inclut des informations de base sur le produit et les contrôles qui sont requis pour le vendre. Toutefois, vous pouvez compléter les informations provenant de l'unité d'échelle commerciale avec des images ou du texte supplémentaire pour un produit spécifique. Ce processus est identifié comme un enrichissement de la page de produit.
 
-Dans de nombreux cas, vous souhaiterez utiliser du contenu supplémentaire spécifique pour vos produits. Lorsque vous accédez à **Vente au détail** dans l'outil de création, vous obtenez une liste des produits du canal affecté au site. Dans cette liste, la colonne **Enrichi** indique si la page de produit pour un produit a été enrichie. Si une coche apparaît dans la colonne, une page enrichie de produit existe pour le produit. Si aucun coche ne s'affiche, la page et le contenu par défaut du produit sont utilisés pour le produit. Vous pouvez prévisualiser les pages de produits enrichies et non enrichies en sélectionnant un nom de produit dans la liste.
+Dans de nombreux cas, vous souhaiterez utiliser du contenu supplémentaire spécifique pour vos produits. Lorsque vous accédez à **Commerce et vente au détail** dans l'outil de création, vous obtenez une liste des produits du canal affecté au site. Dans cette liste, la colonne **Enrichi** indique si la page de produit pour un produit a été enrichie. Si une coche apparaît dans la colonne, une page enrichie de produit existe pour le produit. Si aucun coche ne s'affiche, la page et le contenu par défaut du produit sont utilisés pour le produit. Vous pouvez prévisualiser les pages de produits enrichies et non enrichies en sélectionnant un nom de produit dans la liste.
 
 ## <a name="enrich-a-product-page"></a>Enrichir une page de produit
 

@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble d'un environnement d'évaluation Commerce
+title: Vue d'ensemble de l'environnement d'aperçu dans Dynamics 365 Commerce
 description: Cette rubrique fournit une vue d'ensemble de l'environnement d'aperçu Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 901583afde4739be5313fa129ff0e52f11326881
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906068"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024681"
 ---
-# <a name="commerce-preview-environment-overview"></a>Vue d'ensemble d'un environnement d'évaluation Commerce
+# <a name="dynamics-365-commerce-preview-environment-overview"></a>Vue d'ensemble de l'environnement d'aperçu dans Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble de l'environnement d'aperçu Microsoft Dynamics 365 Commerce.
@@ -52,10 +52,10 @@ Pour mettre en service l'environnement d'aperçu Commerce, voir [Mise en service
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Mettre en service un environnement d'évaluation Commerce](provisioning-guide.md)
+[Mettre en service un environnement d'aperçu dans Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurer un environnement d'évaluation Commerce](cpe-post-provisioning.md)
+[Configurer un environnement d'aperçu dans Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurer des fonctionnalités facultatives pour un environnement d'évaluation Commerce](cpe-optional-features.md)
+[Configurer les fonctionnalités facultatives pour un environnement d'aperçu dans Dynamics 365 Commerce](cpe-optional-features.md)
 
-[FAQ relative à l'environnement d'évaluation Commerce](cpe-faq.md)
+[FAQ sur l'environnement d'aperçu dans Dynamics 365 Commerce](cpe-faq.md)

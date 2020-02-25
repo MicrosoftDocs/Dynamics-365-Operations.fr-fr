@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811670"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005701"
 ---
 # <a name="help-system"></a>Système d'aide
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811670"
 Cette rubrique fournit une vue d'ensemble des composants du système d'aide. Le système d'aide est partagé par les produits suivants :
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 Vous pouvez accéder au volet d'aide depuis tous les produits que vous utilisez. 
 
@@ -42,7 +42,7 @@ Vous pouvez accéder au volet d'aide depuis tous les produits que vous utilisez.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Aide sur docs.microsoft.com
 
-Le site docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/) est la principale source de documentation de produit pour les applications répertoriées ci-dessus. Le site offre les fonctions suivantes :
+Le site docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) est la principale source de documentation de produit pour les applications répertoriées ci-dessus. Le site offre les fonctions suivantes :
 
 - **L'accès au contenu le plus récent** – Le site est un moyen plus rapide et plus flexible pour créer, mettre à disposition et mettre à jour la documentation produit . Par conséquent, il aide à garantir que vous avez accès aux dernières informations techniques.
 - **Un contenu rédigé par des experts** – Le site fournit un ensemble plus riche de documentation produit pouvant être amélioré par les membres de la Communauté, aussi bien à l'intérieur qu'à l'extérieur de Microsoft.
@@ -73,7 +73,7 @@ Vous pouvez participer à la documentation et y apporter des modifications. Pour
 
 La vidéo [Comment contribuer à la documentation Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (présentée ci-dessus) est disponible sur la chaîne Microsoft Dynamics 365 sur YouTube.
 
-Pour plus d'informations, reportez-vous à notre [guide du contributeur](https://docs.microsoft.com/en-us/contribute).
+Pour plus d'informations, reportez-vous à notre [guide du contributeur](https://docs.microsoft.com/contribute).
 
 > [!NOTE]
 > Actuellement, nous acceptons uniquement les contributions à notre ensemble de contenus en anglais.
@@ -106,12 +106,12 @@ Pour accéder au contenu de l'aide, cliquez sur l'icône (**?**) ou sur **Aide**
 À partir du volet Aide, vous pouvez accéder aux articles qui s'appliquent au client. En ouvrant le volet d'aide et en cliquant sur l'onglet **Aide**, vous accédez aux articles qui s'appliquent à la page sur laquelle vous vous trouvez. Si aucun article n'est trouvé, vous pouvez entrer des mots clés pour affiner votre recherche. Lorsque vous cliquez sur un article dans le volet Aide, un nouvel onglet s'ouvre dans votre navigateur et affiche l'article.
 
 > [!IMPORTANT]
-> Cette section ne s'applique pas à Dynamics 365 Talent. Le système d'aide de Talent est automatiquement connecté aux guides de tâches pour le produit. De même, vous ne pouvez pas créer de guides de tâche personnalisés pour Talent.
+> Cette section ne s'applique pas à Dynamics 365 Human Resources. Le système d'aide de Human Resources est automatiquement connecté aux guides de tâches pour le produit. Par ailleurs, vous ne pouvez pas créer de guides de tâches personnalisés pour Human Resources.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Accès aux guides de tâche à partir du volet Aide
 
-Avant de pouvoir accéder aux guides de tâche à partir du volet Aide, un administrateur système doit accéder à la page **Paramètres système** dans Finance, Supply Chain Management et Retail et configurer certains paramètres.
+Avant de pouvoir accéder aux guides de tâche à partir du volet Aide, un administrateur système doit accéder à la page **Paramètres système** dans Finance, Supply Chain Management et Commerce et configurer certains paramètres.
 
 > [!NOTE]
 > - Pour configurer l'aide, vous devez être connecté avec un compte dans le même locataire que celui dans lequel l'application est déployée.

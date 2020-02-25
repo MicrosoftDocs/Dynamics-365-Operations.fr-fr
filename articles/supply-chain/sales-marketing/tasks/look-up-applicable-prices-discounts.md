@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9caaa7f425133eda7a5f225b39ca52e11e0716
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835577"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025826"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Rechercher les prix et remises applicables
 
@@ -49,7 +49,7 @@ Cette procédure décrit comment rechercher le prix ou la remise pour un produit
 10. Fermez la page.
 
 ## <a name="find-the-applicable-discount"></a>Rechercher la remise applicable
-    * Vérifiez que le champ Compte client contient le numéro de client US-001    
+Vérifiez que le champ Compte client contient le numéro de client US-001    
 1. Entrez « T0012 » dans le champ Numéro d'article.
     * Veillez à ce que le champ Quantité soit défini sur 1.  
     * Les informations suivantes de tarification indiqués pour le produit T0012 proviennent d'un ou plusieurs accords commerciaux : le prix unitaire est de 1 000 CAD et le pourcentage de remise est de 5.  

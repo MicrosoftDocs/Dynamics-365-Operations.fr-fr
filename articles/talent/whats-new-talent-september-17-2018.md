@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d71d2390e7b6e39798d0f061b584ad229a2459
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20d3da65028b455ab1602e3a8b443ea7e585b1f0
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897302"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030894"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-17-2018"></a>Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (17 septembre 2018)
 
@@ -35,13 +35,13 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 
 Un nouveau type de régularisation a été ajouté aux plans de congés. Le programme de régularisation peut maintenant être basé sur les mois de service ou les heures travaillées. Pour plus d'informations, voir [Accorder des congés sur la base des heures travaillées](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18-for-finance-and-operations"></a>Platform update 18 pour Finance and Operations
+## <a name="platform-update-18-for-finance-and-operations"></a>Mise à jour de la plateforme 18 pour Finance and Operations
 
-Platform update 18 pour Finance and Operations fait maintenant partie de la version de Talent. 
+La mise à jour de la plateforme 18 pour Finance and Operations fait dorénavant partie de la version de Talent. 
 
 -   Les champs obligatoires et autres champs peuvent être masqués via la personnalisation. Cela permet à un utilisateur de créer une expérience simplifiée lorsque des champs obligatoires définis par défaut par la logique métier ne sont pas affichés. Les champs obligatoires masqués sont également temporairement visibles s'ils sont vides lorsque un enregistrement est effectué.
 
--   Dans Platform update 18 pour Finance and Operations, le client Web Talent aligne maintenant ses visuels sur Microsoft Fluent Design.
+-   Dans la mise à jour de la plateforme 18 pour Finance and Operations, le client web Talent aligne maintenant ses visuels sur Microsoft Fluent Design.
 
     -   Lorsque les champs sont en « mode lecture », vous pouvez simplement sélectionner l'option de modification des champs pour basculer l'écran en mode édition.
 
@@ -49,7 +49,7 @@ Platform update 18 pour Finance and Operations fait maintenant partie de la vers
 
     -   Les en-têtes dans les espaces de travail et les pages sont en gras.
 
--   Le comportement des recherches sans remplacement a été amélioré. Pour plus d'informations, voir [Comportement amélioré pour les recherches sans remplacement](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).
+-   Le comportement des recherches sans remplacement a été amélioré. Pour plus d'informations, voir [Comportement amélioré pour les recherches sans remplacement](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/non-replacing-lookups).
 
 ## <a name="bug-fixes"></a>Correctifs de bogue
 

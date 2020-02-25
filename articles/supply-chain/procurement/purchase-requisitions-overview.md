@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815340"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003651"
 ---
 # <a name="purchase-requisition-overview"></a>Présentation des demandes d'achat
 
@@ -81,7 +81,7 @@ Le statut global de la demande d'achat est déterminé par le statut des lignes 
 <li><strong>En cours de révision</strong> – Les lignes de demande d'achat ont été soumises pour révision. Lorsqu'une ligne de demande d'achat termine le processus de workflow, elle conserve le statut <strong>En cours de révision</strong> jusqu'à ce que toutes les lignes de la demande d'achat soient révisées.</li>
 <li><strong>Rejeté</strong> – Une ligne de demande d'achat a été rejetée. Les lignes de demande d'achat qui sont rejetées peuvent être modifiées et resoumises.</li>
 </ul>
-Si vous resoumettez une ligne de demande d'achat rejetée, le processus de révision pour toutes les lignes de la demande d'achat en cours de révision reprend depuis le début. <strong>Remarque :</strong> Vous pouvez rappeler une demande d'achat déjà soumise. Lorsque vous rappelez une demande d'achat, toutes les lignes associées peuvent également être rappelées. Vous pouvez supprimer les lignes de demande d'achat rappelées.</td>
+Si vous resoumettez une ligne de demande d'achat rejetée, le processus de révision pour toutes les lignes de la demande d'achat en cours de révision reprend depuis le début. </br><strong>Remarque :</strong> Vous pouvez rappeler une demande d'achat déjà soumise. Lorsque vous rappelez une demande d'achat, toutes les lignes associées peuvent également être rappelées. Vous pouvez supprimer les lignes de demande d'achat rappelées.</td>
 </tr>
 <tr class="odd">
 <td>Rejeté(e)</td>
@@ -109,7 +109,7 @@ Si vous resoumettez une ligne de demande d'achat rejetée, le processus de révi
 <tr class="odd">
 <td>Annulé</td>
 <td>Annulé</td>
-<td>La demande d'achat et toutes les lignes de demande d'achat ont été annulées. <strong>Remarque :</strong> Si vous n'avez plus besoin d'un article figurant sur une ligne de demande d'achat, vous devez annuler la ligne de demande d'achat si elle a été approuvée. Seules les lignes de demande d'achat approuvées peuvent être annulées. Si des lignes de demande d'achat sont en cours de révision, la demande d'achat a également le statut <strong>En cours de révision</strong>. Dans ce cas, vous pouvez rappeler la demande d'achat et supprimer la ligne de demande d'achat appropriée.</td>
+<td>La demande d'achat et toutes les lignes de demande d'achat ont été annulées.</br> <strong>Remarque :</strong> Si vous n'avez plus besoin d'un article figurant sur une ligne de demande d'achat, vous devez annuler la ligne de demande d'achat si elle a été approuvée. Seules les lignes de demande d'achat approuvées peuvent être annulées. Si des lignes de demande d'achat sont en cours de révision, la demande d'achat a également le statut <strong>En cours de révision</strong>. Dans ce cas, vous pouvez rappeler la demande d'achat et supprimer la ligne de demande d'achat appropriée.</td>
 </tr>
 <tr class="even">
 <td>Clôturé(e)</td>
@@ -156,7 +156,8 @@ Dans certains cas, vous devez lancer un processus de demande de devis afin d'ide
 
 Vous pouvez mettre à jour une demande d'achat en attente en cochant la case **En attente** sur la page **Détails de la demande d'achat**. Le traitement de la demande d'achat peut se poursuivre uniquement lorsque vous supprimez le blocage en désactivant la case à cocher.  
 
-**Remarque :** Dans Approvisionnement électronique, la demande de devis pour votre demande d'achat peut permettre aux fournisseurs d'ajouter d'autres lignes. Dans ce cas, votre demande d'achat indiquera les autres lignes approuvées.
+> [!NOTE]
+> Dans Approvisionnement électronique, l'appel d'offre pour votre demande d'achat peut permettre aux fournisseurs d'ajouter d'autres lignes. Dans ce cas, votre demande d'achat indiquera les autres lignes approuvées.
 
 ## <a name="demand-consolidation"></a>Exiger la consolidation
 En consolidant les lignes de demande d'achat de plusieurs demandes d'achat, vous pouvez développer votre puissance de négociation avec vos fournisseurs pour bénéficier d'une meilleure tarification, de coût d'expédition et de manutention inférieurs, ou pour réduire les frais généraux.  
@@ -172,7 +173,8 @@ Une opportunité de consolidation est un ensemble de lignes de la demande d'acha
 
 Après avoir ajouté les lignes de demande à l'opportunité de consolidation et effectué les modifications nécessaires, vous pouvez créer une commande fournisseur pour les lignes de demandes d'achat consolidées.  
 
-**Remarque :** Les modifications apportées à une ligne de demande d'achat sur la page **Consolidation de demande d'achat** sont reflétées dans la commande fournisseur que vous créez. Cela dit, dans la demande d'achat, la ligne reste inchangée de sorte que son historique soit conservé.  
+> [!NOTE]
+> Les modifications apportées à une ligne de demande d'achat sur la page **Consolidation de demande d'achat** sont reflétées dans la commande fournisseur que vous créez. Cela dit, dans la demande d'achat, la ligne reste inchangée de sorte que son historique soit conservé.  
 
 Pour créer une commande fournisseur pour les lignes de demande d'achat qui ne peuvent pas prétendre à la consolidation de la demande ou qui ne sont pas sélectionnées pour une opportunité de consolidation, vous devez traiter les lignes manuellement.
 

@@ -3,7 +3,7 @@ title: Personnaliser l'expérience de l'utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser l'application.
 author: jasongre
 manager: AnnBe
-ms.date: 01/07/2020
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935463"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029360"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l'expérience de l'utilisateur
 
@@ -59,7 +59,8 @@ Lorsque vous utilisez l'application, la plupart de vos sélections sont stockée
 
 Les personnalisations implicites sont des personnalisations que vous effectuez simplement en interagissant avec des contrôles qui stockent leur état visible actuel.
 
-- **Colonnes de la grille** – Vous pouvez régler la largeur d'une colonne dans la grille en sélectionnant la barre de calibrage à gauche ou à droite de l'en-tête de colonne et en la faisant glisser à gauche ou à droite jusqu'à la largeur souhaitée. L'application enregistre la largeur définie pour une colonne. Ensuite, la prochaine fois que vous ouvrez la page contenant cette grille, la colonne est redimensionnée selon cette largeur.
+- **Largeurs des colonnes de la grille** : réglez la largeur d'une colonne dans une grille en sélectionnant la barre de dimensionnement située à gauche ou à droite de l'en-tête de la colonne, et en la faisant glisser vers la gauche ou vers la droite jusqu'à atteindre la largeur souhaitée. L'application enregistre la largeur définie pour une colonne. Ensuite, la prochaine fois que vous ouvrez la page contenant cette grille, la colonne est redimensionnée selon cette largeur.
+- **Totaux des colonnes de la grille** : (uniquement disponible si la nouvelle commande de grille est activée) vous pouvez décider si un total doit s'afficher en bas des colonnes numériques dans une grille et si le pied de page de la grille est visible. L'application stocke ces données afin que ces préférences soient mémorisées à la prochaine ouverture de la page. Voir la rubrique [Capacités de la grille ](grid-capabilities.md) pour plus d'informations. 
 - **Organisateurs** – Certaines pages ont des sections extensibles appelées *Organisateurs*. L'application enregistre les informations sur les organisateurs que vous avez développés et réduits. Ensuite, la prochaine fois que vous ouvrez la page, les mêmes organisateurs sont développés ou réduits, selon votre dernière interaction avec la page. Dans certains cas, vous pouvez améliorer les performances du système en réduisant un organisateur, car l'application n'a pas besoin de récupérer les informations des organisateurs jusqu'à ce qu'ils soient développés. Comme expliqué plus loin dans cette rubrique, vous pouvez également modifier l'ordre des organisateurs sur une page.
 - **Récapitulatifs** – Certaines pages ont un volet **Informations associées** qui affiche des informations en lecture seule associées à l'objet actuel de la page. Chaque section du volet **Informations associées** est appelée un *Récapitulatif*. Vous pouvez développer ou réduire le volet **Informations associées**, et vous pouvez également développer ou réduire des récapitulatifs individuels. L'application stocke ces préférences. Ensuite, la prochaine fois que vous ouvrez la page, le volet **Informations associées** et les récapitulatifs individuels sont développés ou réduits, selon votre dernière interaction avec la page. Dans certains cas, vous pouvez améliorer les performances du système en réduisant un Récapitulatif, car l'application n'a pas besoin de récupérer les informations des Récapitulatifs jusqu'à ce qu'ils soient développés.
 - **Volets Actions** – Un *volet Actions* s'affiche en haut de la plupart des pages. Il contient des boutons pour la plupart des actions que vous pouvez exécuter sur la page actuelle. Ces boutons sont souvent organisés dans des onglets. Vous pouvez « épingler » l'ensemble du volet Actions ouvert, ou vous pouvez le faire réduire par défaut. Ensuite, la prochaine fois que vous ouvrez la page, le volet Actions est ouvert ou réduit, selon votre dernière interaction avec la page. Si vous avez épinglé le volet Actions ouvert, le dernier onglet que vous avez utilisé sera affiché.
@@ -95,7 +96,7 @@ La fenêtre des propriétés peut contenir d'autres fonctionnalités de personna
 
 Si vous souhaitez apporter plusieurs modifications à une page, ou des changements qui ne sont pas disponibles par le biais d'autres mécanismes (par ex. si vous souhaitez réorganiser des éléments), vous pouvez utiliser la barre d'outils **Personnalisation**. Pour ouvrir la barre d'outils **Personnalisation**, suivez l'une des étapes suivantes :
 
-- Sélectionnez **Personnaliser cet écran** dans la fenêtre de la propriété d'un élément.
+- Sélectionnez **Personnaliser cette page** dans la fenêtre des propriétés d'un élément.
 - Sélectionnez **Personnaliser cette page**, dans le groupe **Personnaliser** sous l'onglet **Options**, sur le volet Action de la page.
 - Sélectionnez le bouton **Paramètres** (symbole d'engrenage) dans la barre de navigation, puis sélectionnez **Personnaliser**.
 
@@ -116,7 +117,8 @@ Les outils suivants sont disponibles dans la barre d'outils **Personnalisation**
 - Utilisez l'outil **Ignorer** pour supprimer un élément de la séquence de tabulation du clavier de la page. Lorsque vous sélectionnez le bouton **Ignorer** sur la barre d'outils, tous les éléments actuellement ignorés sont affichés dans un conteneur grisé. Vous pouvez supprimer ou ajouter de manière interactive des champs à la séquence de l'onglet.
 - Utilisez l'outil **Afficher dans l'en-tête** pour faire apparaître un champ dans la section récapitulative de l'organisateur. Lorsque vous sélectionnez l'outil **Afficher dans l'en-tête** sur la barre d'outils, tous les champs sélectionnés comme champs récapitulatifs sont affichés dans un conteneur grisé. Vous pouvez en mode interactif ajouter des champs au récapitulatif de l'organisateur et en supprimer des champs en sélectionnant les champs.
 - Utilisez l'outil **Verrouiller** pour marquer un élément comme modifiable ou non modifiable. Lorsque vous sélectionnez le bouton **Verrouiller** sur la barre d'outils, tous les éléments actuellement non modifiables sont affichés dans un conteneur grisé. Vous pouvez ensuite les rendre modifiables à nouveau. Notez que certains champs sont obligatoires et ne peuvent pas être rendus non modifiables. Un symbole de cadenas apparaît en regard de ces champs.
-- Utilisez le bouton **Ajouter une PowerApp** pour incorporer une application créée à l'aide de Microsoft PowerApps dans la page. Pour plus d'informations sur l'incorporation d'une application PowerApps dans une page, voir [Incorporer les applications PowerApps](embed-power-apps.md).
+- Utilisez le bouton **Ajouter une application à partir de Power Apps** pour intégrer une application créée à l'aide de Microsoft Power Apps dans la page. Pour des informations détaillées sur l'intégration d'une application à partir de Power Apps dans une page, voir [Intégrer les applications à partir de Power Apps](embed-power-apps.md). Cette option n'est disponible que si la fonctionnalité [Vues enregistrées](saved-views.md) est désactivée.  
+- Utilisez le bouton **Ajouter une application** pour intégrer une application, soit une application créée à partir de Microsoft Power Apps, soit une application tierce, dans la page. Cette option n'est disponible que si la fonctionnalité [Vues enregistrées](saved-views.md) est activée. 
 - Utilisez l'outil **Effacer** pour réinitialiser la page à son état installé par défaut. Toutes les personnalisations sur la page actuelle seront effacées. Il n'est pas possible d'annuler l'action. Par conséquent, n'utilisez cet outil que si vous êtes sûr de vouloir réinitialiser la page.
 - Utilisez l'outil **Importer** pour charger une personnalisation à partir d'un fichier que vous ou un tiers avez précédemment créé. Lorsque vous importez des personnalisations pour une page, vous pouvez choisir si elles doivent être ajoutées ou si elles doivent remplacer toutes vos personnalisations existantes de la page. Il n'est pas possible d'annuler l'action. Par conséquent, après avoir importé les personnalisations, vous devez effacer ou annuler manuellement les modifications que vous ne souhaitez pas.
 - Utilisez l'outil **Exporter** pour enregistrer vos personnalisations de la page dans un fichier. Vous pouvez ensuite partager vos personnalisations avec d'autres utilisateurs. Ces utilisateurs doivent simplement importer le fichier contenant vos personnalisations de la page.
@@ -152,7 +154,7 @@ Le tableau de bord est souvent la première page que vous voyez lorsque vous ouv
 Pour personnaliser le tableau de bord, cliquez avec le bouton droit sur une vignette, puis sélectionnez **Personnaliser** pour ouvrir la fenêtre des propriétés de la vignette.
 
 - Si vous souhaitez masquer ou renommer la vignette sélectionnée, vous pouvez effectuer cette modification directement dans la fenêtre des propriétés.
-- Pour réorganiser les vignettes de l'espace de travail, dans la fenêtre des propriétés, sélectionnez **Personnaliser cet écran** pour ouvrir la barre d'outils **Personnalisation**. Vous pouvez ensuite utiliser l'outil **Déplacer** pour réorganiser les vignettes comme vous le souhaitez.
+- Pour réorganiser les vignettes de l'espace de travail, dans la fenêtre des propriétés, sélectionnez **Personnaliser cette page** pour ouvrir la barre d'outils **Personnalisation**. Vous pouvez ensuite utiliser l'outil **Déplacer** pour réorganiser les vignettes comme vous le souhaitez.
 - Pour ajouter une vignette d'espace de travail, dans la fenêtre des propriétés, sélectionnez **Ajouter un espace de travail**. Une nouvelle vignette d'espace de travail est créée en bas du tableau de bord. Vous pouvez renommer cette nouvelle vignette d'espace de travail comme vous le souhaitez. Vous pouvez également ajouter des listes, des vignettes et des liens à l'espace de travail, comme décrit dans la section [Ajout de listes, de vignettes ou de liens aux espaces de travail](#adding-a-tile-list-or-link-to-a-workspace).
 
 ## <a name="administration-of-personalizations"></a>Administration des personnalisations

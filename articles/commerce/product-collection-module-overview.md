@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
-ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
+ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943261"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025946"
 ---
 # <a name="product-collection-modules"></a>Modules de collecte de produits
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble des modules de collecte de produits dans Microsoft Dynamics 365 Commerce.
@@ -39,7 +39,7 @@ Les modules de collecte de produits représentent les produits et services physi
 
 Les sources de collecte de produits peuvent être des listes des quatre types suivants :
 
-- Les listes éditoriales de produits qui sont définies manuellement dans Dynamics 365 Retail en tant que produits associés pour un produit, ou des listes de produits
+- Les listes éditoriales de produits qui sont définies manuellement dans Dynamics 365 Commerce en tant que produits associés pour un produit, ou des listes de produits
 - Les listes d'algorithmiques, telles que des listes de produits nouveaux, des meilleures ventes ou les tendances
 - Les listes des recommandations qui sont basées sur le Machine Learning
 - Listes de personnalisations qui prennent en charge des résultats personnalisés pour un client. Les clients doivent être connectés au site de commerce électronique pour voir des résultats personnalisés. Les utilisateurs invités ne voient pas de résultats personnalisés. Les clients peuvent désactiver la personnalisation à partir de la [page de gestion de compte](account-management.md).
@@ -57,9 +57,10 @@ Le tableau suivant décrit les différents types de modules de collecte de produ
 
 | Module de collecte de produits  | Type | Description |
 |----------------------------|------|-------------|
-| Catégorie                   | Catégorie | Ce module affiche une liste de produits dans une catégorie, telle que définie par la hiérarchie de catégories de navigation que le détaillant a créée pour un canal de vente au détail. |
-| Produits associés           | Éditorial | Ce module affiche une liste de produits qu'un responsable de la commercialisation a configurés en tant que produits liés dans la vente au détail, pour le type de relation que l'auteur a sélectionnée. |
-| Listes des produits éditées      | Éditorial | Ce module affiche des listes personnalisées que les spécialistes de la commercialisation et les éditeurs ont créée dans la vente au détail. |
+| Catégorie                   | Catégorie | Ce module affiche une liste de produits dans une catégorie, telle que définie par la hiérarchie de catégories de navigation que le détaillant a créée pour un canal. |
+| Produits associés           | Éditorial | Ce module affiche une liste de produits qu'un gestionnaire du commerce a configurés en tant que produits connexes dans Commerce, pour le type de relation sélectionné par l'auteur. |
+| Résultats de la recherche             | Requête de recherche | Ce type de module de collecte de produits affiche une liste de produits qui correspondent le mieux à la requête de recherche que le client a entrée. |
+| Listes des produits éditées      | Éditorial | Ce module affiche les listes personnalisées que les spécialistes de la commercialisation et les éditeurs ont créée dans Commerce. |
 | Nouveau                        | Algorithmique | Ce module affiche une liste des nouveaux produits qui ont été mis en correspondance avec les canaux et les catalogues. Cette liste peut afficher des résultats personnalisés pour un utilisateur connecté si l'auteur du site choisit cette option. |
 | Meilleures ventes               | Algorithmique | Ce module affiche une liste des produits qui sont classés selon le nombre de ventes le plus élevé. Cette liste peut afficher des résultats personnalisés pour un utilisateur connecté si l'auteur du site choisit cette option. |
 | Tendances                   | Algorithmique | Ce module affiche une liste des produits les plus performances pendant une période donnée. Cette liste peut afficher des résultats personnalisés pour un utilisateur connecté si l'auteur du site choisit cette option. |
@@ -76,7 +77,6 @@ Pour ajouter un module de collecte de produits à une page de catégorie, procé
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez **Conteneur**, puis sélectionnez **OK**.
 1. Dans le module de conteneur, sélectionnez le bouton représentant des points de suspension, puis sélectionnez **Ajoutez le module**.
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez **Collecte de produit**, puis sélectionnez **OK**.  
-![Exemple de flux de l'Assistant Module de collecte de produits](./media/productCollectionModule.png)
 1. Configuration des paramètres en sélectionnant une source de données appropriée et des entrées pour la collecte de produit.
 1. Dans le volet de propriétés du module de collecte de produit, sélectionnez **Ajouter une liste de produit**.
 1. Dans la boîte de dialogue **Sélectionner la configuration de liste de produit**, sélectionnez le type de liste, entrez le nombre d'articles, puis sélectionnez tout autre option disponible pour ce type de liste. Pour plus d'informations sur ces types de listes, voir le tableau suivant. 
@@ -88,8 +88,8 @@ Le tableau suivant indique les types de listes disponibles pour la sélection da
 | Type                       | Description | Utilisation | Contexte de la page | Contexte spécifique | Personnalisation |
 |----------------------------|-------------|-------|--------------|------------------|-----------------|
 | Produits par catégorie       | Liste des produits appartenant à une catégorie donnée. Cette catégorie est déterminée par le contexte de page ou le contexte que l'auteur fournit. | Ce type de liste peut être utilisé sur n'importe quelle page (par exemple, une page d'accueil, une page de catégorie, une page de marketing ou une page de détails de produit \[PDP\]) pour promouvoir une catégorie spécifique de produits. | Catégorie à partir du contexte de la page, le cas échéant (par exemple, une page de catégorie) | L'auteur peut fournir une catégorie spécifique comme contexte pour la liste. | Non applicable |
-| Produits associés           | Liste des produits qu'un responsable de la commercialisation a configurés en tant que produits liés pour le type de relation dans la vente au détail. | Ce type de liste est utilisé principalement sur les PDP, mais il peut être utilisé sur n'importe quelle page si un produit parent est fourni. | Produit de la page, type de relation (obligatoire) | Le produit peut être sélectionné dans le sélecteur et le type de relation est utilisé. | Non applicable |
-| Organisé                    | Liste personnalisées que les commercialisateurs et les éditeurs ont créée dans la vente au détail. | Enrichir la page de catégorie, la page d'accueil, les pages de caisse et de panier, et les pages de produit | Non applicable | Non applicable | Non applicable |
+| Produits associés           | Liste des produits qu'un gestionnaire du commerce a configurés en tant que produits connexes pour le type de relation dans Commerce. | Ce type de liste est utilisé principalement sur les PDP, mais il peut être utilisé sur n'importe quelle page si un produit parent est fourni. | Produit de la page, type de relation (obligatoire) | Le produit peut être sélectionné dans le sélecteur et le type de relation est utilisé. | Non applicable |
+| Organisé                    | Liste personnalisées que les spécialistes de la commercialisation et les éditeurs ont créée dans Commerce. | Enrichir la page de catégorie, la page d'accueil, les pages de caisse et de panier, et les pages de produit | Non applicable | Non applicable | Non applicable |
 | Algorithmique                | <ul><li>**Nouveau** – Liste des nouveaux produits qui ont été mis en correspondance avec les canaux et les catalogues.</li><li>**Meilleures ventes** – Liste des produits qui sont classés selon le nombre de ventes le plus élevé.</li><li>**Tendance** – Liste des produits les plus performances pendant une période donnée.</li></ul> | Page d'accueil, enrichir la page de catégorie, et les pages de caisse et de panier | Catégorie à partir du contexte de la page (par exemple, une page de catégorie) | Catégorie déterminée par l'auteur du site | Prise en charge |
 | Fréquemment achetés ensemble | Liste qui utilise le Machine Learning pour analyser des modèles d'achat des consommateurs et pour recommander des articles associés qui sont fréquemment achetés avec un produit donné. | Ce type de liste ne s'applique qu'à la page du panier. | Chariot | Non applicable | Prise en charge |
 | Les personnes aiment également           | Liste qui utilise le Machine Learning pour analyser des modèles d'achat des consommateurs et pour recommander des articles associés à produit donné. | Ce type de liste est utilisé sur les PDP pour montrer les produits que d'autres clients ont achetés. | Contexte du produit à partir de la page | Produit fourni par l'auteur du site | Prise en charge |
@@ -103,9 +103,7 @@ Le tableau suivant indique les types de listes disponibles pour la sélection da
 
 [Module de bloc de contenu enrichi](add-content-rich-block.md)
 
-[Module de placement de contenu](add-content-placement-modules.md)
-
-[Module Container](add-container-module.md)
+[Module de conteneur](add-container-module.md)
 
 [Module de zone d'achat](add-buy-box.md)
 

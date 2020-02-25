@@ -3,7 +3,7 @@ title: Utiliser des fragments
 description: Cette rubrique décrit le pourquoi, quand et comment utiliser des fragments dans Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914698"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026038"
 ---
 # <a name="work-with-fragments"></a>Utiliser des fragments 
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit le pourquoi, quand et comment utiliser des fragments dans Microsoft Dynamics 365 Commerce.
@@ -57,25 +57,34 @@ L'illustration ci-dessous indique comment des fragments peuvent être utilisés 
 
 Vous pouvez créer un fragment ou enregistrer une configuration de module existante comme fragment.
 
+### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Enregistrez une configuration de module existante comme fragment
+
+Pour convertir un module précédemment configuré en un fragment réutilisable, procédez comme suit.
+
+1. Ouvrez une page ou un modèle contenant le module que vous souhaitez convertir en un fragment.
+1. Dans le volet de contour à gauche, sélectionnez le bouton des points de suspension (**...**) à côté du nom du module. 
+1. Sélectionnez **Partager en tant que fragment**. 
+1. Une boîte de dialogue s'affiche. Entrez un nom et les métadonnées du fragment.
+1. Sélectionnez **OK** pour enregistrer la configuration du module comme fragment qui peut être ajouté à d'autres pages.
+
+L'image suivante montre comment enregistrer une configuration de module en tant que fragment.
+
+![Capture d'écran montrant comment enregistrer une configuration de module en tant que fragment](./media/save-as-fragment.png)
+
 ### <a name="create-a-new-fragment"></a>Créer un fragment
 
 Pour créer un fragment, procédez comme suit.
 
 1. Dans le volet de navigation sur la gauche, sélectionnez **Fragments**.
 1. Sélectionnez **Nouveau fragment de page**. Une boîte de dialogue apparaît qui indique tous les types de modules disponibles. Comme mentionné précédemment, les fragments peuvent être créés à partir de n'importe quel type de module.
-1. Sélectionnez un type de module pour votre fragment, puis sélectionnez **OK**.
+1. Sélectionnez un type de module pour votre fragment.
 
-    > [!TIP]
-    > Si vous sélectionnez le type générique de module de conteneur, vous obtenez la plus grande flexibilité lorsque vous devez mettre à jour et configurer votre fragment ultérieurement.
+L'image suivante montre où créer un fragment.
 
-### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Enregistrez une configuration de module existante comme fragment
+![Capture d'écran montrant où créer un fragment](./media/fragment-nav-menu.png)
 
-Pour convertir un module précédemment configuré en un fragment réutilisable, procédez comme suit.
-
-1. Ouvrez une page ou un modèle contenant le module que vous souhaitez convertir en un fragment.
-1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension (**...**) en regard du nom du module, puis sélectionnez **Enregistrer comme fragment**. Une boîte de dialogue s'affiche.
-1. Entrez un nom et les métadonnées du fragment.
-1. Sélectionnez **OK** pour enregistrer la configuration du module comme fragment qui peut être ajouté à d'autres pages.
+> [!TIP]
+> En sélectionnant un type de module de conteneur générique, vous obtenez la plus grande flexibilité lorsque vous devrez mettre à jour et configurer votre fragment ultérieurement.
 
 ## <a name="add-remove-or-edit-fragments-on-a-page"></a>Ajouter, supprimer ou modifier des fragments sur une page
 
@@ -88,11 +97,15 @@ Pour ajouter un fragment à une page, procédez comme suit.
 1. Dans le volet de contour à gauche, sélectionnez un conteneur ou un emplacement auquel les modules enfants peuvent être ajoutés.
 1. Sélectionnez le bouton représentant des points de suspension en regard du nom du conteneur ou de l'emplacement, et sélectionnez **Ajouter un fragment**. Une boîte de dialogue s'affiche.
 
+    ![Capture d'écran montrant comment ajouter un fragment existant à un emplacement ou un conteneur](./media/add-fragment.png)
+ 
     > [!NOTE]
     > Si le conteneur ou l'emplacement ne prend pas en charge de nouveaux modules enfants, l'option **Ajouter un fragment** n'est pas disponible.
-
+    
 1. Dans la boîte de dialogue, recherchez et sélectionnez un fragment à ajouter. Si aucun fragment disponible n'est répertorié, vous pouvez d'abord peut-être créer un fragment d'un type de module que le conteneur ou l'emplacement sélectionné prend en charge.
-1. Sélectionnez **OK** pour ajouter le fragment sélectionné au conteneur ou à l'emplacement sélectionné sur la page.
+1. Sélectionnez le fragment que vous voulez ajouter au conteneur ou à l'emplacement sélectionné sur la page.
+
+    ![Capture d'écran de la fenêtre modale du sélecteur de fragments](./media/fragment-picker.png)
 
 > [!NOTE]
 > Les modules autorisés dans un conteneur ou un emplacement sont définis par le modèle de la page ou les propres définitions des modules.

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4427388d75c1aef40a978ce35c831d5b714f2562
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812578"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006170"
 ---
 # <a name="connect-the-help-system"></a>Connexion au système d'aide
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les composants du système d'aide des applications Finance and Operations, par exemple Dynamics 365 Finance, Supply Chain Management, Retail et Talent. Elle fournit une vue d'ensemble de la procédure de connexion de ces composants et une synthèse de la création de l'aide personnalisée.
+Cette rubrique décrit les composants du système d'aide des applications Finance and Operations, par exemple Dynamics 365 Finance, Supply Chain Management, Commerce, et Human Resources. Elle fournit une vue d'ensemble de la procédure de connexion de ces composants et une synthèse de la création de l'aide personnalisée.
 
 ## <a name="help-architecture"></a>Architecture de l'aide
 
@@ -43,7 +43,7 @@ La figure suivante illustre les parties du système d'aide. Le système d'aide i
 ## <a name="connecting-the-help-system"></a>Connexion au système d'aide
 
 > [!NOTE]
-> L'onglet **Guides de tâche** n'est pas disponible actuellement dans Dynamics 365 Talent ou Retail. Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version. Les guides des tâches dans l'expérience Mise en route dans Talent restent disponibles pour couvrir les fonctionnalités de base. L'aide concernant la procédure est également disponible sur le site docs.microsoft.com pour Retail et Talent.
+> L'onglet **Guides de tâche** n'est pas disponible actuellement dans Dynamics 365 Human Resources ou Commerce. Nous œuvrons actuellement pour activer cette fonctionnalité dans une future version. Les guides des tâches dans l'expérience Mise en route dans Human Resources restent disponibles pour couvrir les fonctionnalités de base. L'aide concernant la procédure est également disponible sur le site docs.microsoft.com pour Human Resources et Commerce.
 
 En utilisant le formulaire **Paramètres système**, les administrateurs système connectent les parties du système d'aide pour une implémentation.
 
@@ -78,7 +78,7 @@ Vous pouvez utiliser des guides de tâche pour créer de l'aide personnalisée, 
 
 ### <a name="create-custom-help-with-task-guides"></a>Créer une aide personnalisée à l'aide des guides de tâches
 
-Vous pouvez créer une aide personnalisée pour votre implémentation de Finance, Supply Chain Management, et pour Retail en créant des enregistrements de tâche qui reflètent votre implémentation, et en les enregistrant dans une bibliothèque de processus d'entreprise LCS. Vous ne pouvez pas créer de guides de tâche personnalisés pour Talent.
+Vous pouvez créer une aide personnalisée pour votre implémentation de Finance, Supply Chain Management, et pour Commerce en créant des enregistrements de tâche qui reflètent votre implémentation, et en les enregistrant dans une bibliothèque de processus d'entreprise LCS. Vous ne pouvez pas créer de guides de tâches personnalisés pour Human Resources.
 
 Pour les partenaires, si vous faites d'une bibliothèque une bibliothèque d'entreprise et la comprenez dans une solution, elle sera à la disposition de vos clients. Vous pouvez également faire une copie de la bibliothèque globale unifiée APQC, puis ouvrir votre copie, ouvrir des enregistrements de tâches à partit de celle-ci et enregistrer les enregistrements avec vos modifications. Pour plus d'informations, voir [Ressources de l'enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md).
 
@@ -86,7 +86,7 @@ Pour les partenaires, si vous faites d'une bibliothèque une bibliothèque d'ent
 
 Microsoft a fourni un livre blanc et un exemple de code qui expliquent comment créer et connecter un site d'aide personnalisée au volet d'aide. Pour plus d'informations, voir :
 
-- [Créer de l'aide personnalisée pour les applications Finance and Operations (livre blanc)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Créer l'aide personnalisée pour Finance and Operations (livre blanc)](https://go.microsoft.com/fwlink/?linkid=2041185)
 - [Référentiel GitHub d'aide personnalisée](https://github.com/microsoft/dynamics356f-o-custom-help)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

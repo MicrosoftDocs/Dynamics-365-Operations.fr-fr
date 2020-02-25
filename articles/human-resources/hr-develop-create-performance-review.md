@@ -1,0 +1,81 @@
+---
+title: Créer des évaluations des performances
+description: Cet article explique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/06/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 50ef3f305756f1ab0db895854cd7e1c71237cb48
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3009014"
+---
+# <a name="create-performance-reviews"></a>Créer des évaluations des performances
+
+
+
+Cet article explique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation. Cette procédure a été créée à l'aide de la société fictive USMF.
+
+1. Sur la page d'accueil, sélectionnez l'espace de travail **Libre-service employé**.
+2. Cliquez sur **Nouvelle révision** pour créer une révision.
+3. Dans le champ **Type de révision**, entrez ou sélectionnez une valeur.
+4. Dans le champ **Période de performances**, entrez ou sélectionnez une valeur.
+5. Entrez une date dans le champ **Date de fin**.
+6. Cliquez sur **OK**. Vous pouvez également créer une révision à partir d'un modèle. Il s'agit de la meilleure façon de créer une révision, car chaque section contient les informations nécessaires pour démarrer une révision.  
+7. Vous pouvez afficher ou masquer des onglets tels que l'onglet de pièces jointes :
+
+    1. Dans le volet Actions, sélectionnez **Afficher les sections** pour ouvrir la boîte de dialogue.
+    1. Sélectionnez **Oui** ou **Non** dans le champ **Afficher les pièces jointes** pour afficher ou masquer l'onglet des pièces jointes.
+    1. Sélectionnez **Enregistrer**.
+
+8. Sélectionnez **Ajouter un objectif à revoir** pour ajouter un objectif. Lorsque vous avez terminé, sélectionnez **OK**.
+9. Sélectionnez **Ajouter une compétence** pour ouvrir la boîte de dialogue.
+10. Dans le champ **Titre**, saisissez une valeur.
+11. Dans le champ **Description**, entrez `Increase customer skills by working with the support team`.
+12. Cliquez sur **OK**.
+13. Sélectionnez **Réduire tout**.
+14. Sélectionnez **Développer tout**.
+15. Sélectionnez **Ajouter un commentaire**.
+16. Sélectionnez **Valider**.
+17. Sélectionnez l'onglet **Mesures**.
+18. Sélectionnez **Ajouter une mesure** pour ouvrir la boîte de dialogue.
+19. Entrez ou sélectionnez une valeur dans le champ **Mesure**.
+26. Dans le champ **Montant cible**, entrez un nombre.
+20. Cliquez sur **OK**.
+21. Sélectionnez l'onglet **Activités**.
+22. Sélectionnez **Ajouter**.
+23. Dans le champ **Titre**, saisissez une valeur.
+24. Tapez une valeur dans le champ **Description**.
+25. Entrez une date dans le champ **Date de début**.
+26. Entrez une date dans le champ **Date de fin**.
+27. Sélectionnez **Oui** dans le champ **Programme de perfectionnement** .
+28. Tapez une valeur dans le champ **Mots clés**.
+29. Sélectionnez **Enregistrer**.
+30. Sélectionnez l'onglet **Classements**.  
+
+    - Le raccourci des **détails de classement** permet aux employés de s'auto-classer et au responsable de classer l'employé. Si des poids sont utilisés, la valeur de poids des scores est calculée automatiquement.  
+    - Pour afficher cette section, activez les paramètres d'affichage des classements des employés.  
+
+31. Sélectionnez l'onglet **Validations**. Si la révision utilise un workflow, les validations s'affichent uniquement à la fin du workflow. Si aucun workflow n'est utilisé, le collaborateur et le responsable sont répertoriés ici. La case à cocher requise est activée en fonction des paramètres du type de révision.  
+32. Sélectionnez l'onglet **Général**.
+
+    - La période de performances crée les dates de début et de fin par défaut. Ces dates sont modifiables.  
+    - Les statuts contrôlent l'accès à la révision. Le statut **Non commencé** permet à tous les utilisateurs de modifier la révision. Le statut **En cours** permet uniquement à l'employé d'afficher et de modifier la révision. Le statut Prêt pour la révision permet uniquement au responsable d'afficher et de modifier la révision. Le statut Révision finale permet à l'employé et au responsable d'afficher la révision et de la modifier si elle est paramétrée dans le type de révision. Les statuts **Terminé**, **Rejeté** et **Annulé** permettent d'afficher la révision en lecture seule.  
+
+33. Dans le champ **Vue d'ensemble**, tapez une valeur.
+34. Sélectionnez **Révision**. Étant donné que la révision passe par les différents statuts, l'employé et le responsable peuvent ajouter des commentaires pour chaque objectif ou compétence.  
+35. Sélectionnez l'onglet **Validations**. Le collaborateur et le responsable peuvent valider la révision. Lorsque toutes les validations requises sont effectuées, le statut passe à **Terminé** et aucune autre modification n'est possible.  
+

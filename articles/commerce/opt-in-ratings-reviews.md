@@ -3,7 +3,7 @@ title: Choix d'utilisation des évaluations et avis
 description: Cette rubrique explique comment adhérer à l'utilisation des classements et des évaluations de votre site Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,25 +18,24 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10e3c33af232fa46df09a103b2e73eae09a909eb
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: eda7fbaeea8d3c1a07f7b43cafe44886d149a211
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697978"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027263"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Choix d'utilisation des évaluations et avis
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment adhérer à l'utilisation des classements et des évaluations de votre site Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d'ensemble
 
-La solution de classement et évaluation est une solution omnicanale que vous pouvez rendre disponible dans Dynamics 365 Commerce en utilisant Microsoft Dynamics Lifecycle Services (LCS). LCS est un portail d'administration que les détaillants utilisent pour gérer leurs environnements de la mise en service jusqu'à la mise hors service.
+La solution de classements et d'évaluations est une solution omnicanale que vous pouvez rendre disponible dans Dynamics 365 Commerce en utilisant Microsoft Dynamics Lifecycle Services (LCS). LCS est un portail d'administration que les détaillants utilisent pour gérer leurs environnements de la mise en service jusqu'à la mise hors service.
 
-Si vous souhaitez utiliser la solution de classement et d'évaluation sur votre site web Commerce, vous devez d'abord adhérer.
+Pour utiliser la solution de classements et d'évaluations sur votre site web Commerce, activez les classements et les évaluations lors du déploiement de votre site de commerce électronique sur Dynamics 365 Commerce.
 
 ## <a name="opt-in-to-use-ratings-and-reviews"></a>Choix d'utilisation des évaluations et avis
 
@@ -51,6 +50,9 @@ Pour adhérer à l'utilisation des classements et évaluations sur votre site, p
 
 1. Terminez le processus d'initialisation de commerce électronique.
 
+> [!NOTE] 
+> Si vous êtes un client Dynamics 365 Commerce existant, qui a déjà déployé un site de commerce électronique sans choisir les classements et les évaluations, mais que vous souhaitez maintenant les utiliser à partir du progiciel Dynamics 365 Commerce, veuillez envoyer une demande de service. Pour des informations sur l'envoi d'une demande de service, voir [Soumettre des demandes de service](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json). 
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble des évaluations et avis](ratings-reviews-overview.md)
@@ -60,3 +62,5 @@ Pour adhérer à l'utilisation des classements et évaluations sur votre site, p
 [Configuration des évaluations et avis](configure-ratings-reviews.md)
 
 [Synchronisation des évaluations de produit dans Dynamics 365 Retail](sync-product-ratings.md)
+
+

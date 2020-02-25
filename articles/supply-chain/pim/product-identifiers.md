@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934884"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004017"
 ---
 # <a name="product-identifiers"></a>Identificateurs du produit 
 
@@ -88,7 +88,7 @@ Sur la page **Descriptions d'article externes**, vous pouvez associer le numéro
 | Description | Nom que le client associe à l'article | Nom que le fournisseur associe à l'article |
 | Description d'article externe | Description de l'article client | Description de l'article fournisseur |
 
-Si plusieurs clients ou fournisseurs utilisent les mêmes numéros d'article (dans le cas d'une association d'achat ou d'un groupe de vente au détail, par exemple), vous pouvez créer des groupes de clients ou de fournisseurs afin de simplifier la maintenance des informations sur le produit externe.
+Si beaucoup de clients ou de fournisseurs utilisent les mêmes numéros d'article (dans le cas d'une association d'achat ou d'un groupe de commerce, par exemple), vous pouvez créer des groupes de clients ou de fournisseurs afin de simplifier la maintenance des informations sur le produit externe.
 
 - Pour les groupes de clients, accédez à **Ventes** &gt; **Paramétrage** &gt; **Articles** &gt; **Description d'article externe** pour créer et tenir à jour les groupes et les numéros d'article associés. Pour associer des clients à un groupe, accédez à **Ventes** &gt; **Clients** &gt; **Tous les clients**, puis dans l'organisateur **Valeurs par défaut de commande client**, spécifiez une valeur dans le champ **Article - Groupe de clients**.
 - Pour les groupes de fournisseurs, accédez à **Approvisionnements** &gt; **Paramétrage** &gt; **Groupe de descriptions d'article externes** pour créer et tenir à jour les groupes et les numéros d'article associés. Pour associer des fournisseurs à un groupe, accédez à **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**, puis dans l'organisateur **Valeurs par défaut des commandes fournisseur**, spécifiez une valeur dans le champ **Article - Groupe de fournisseurs**.

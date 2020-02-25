@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184736"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026238"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Mapper des composants au format créé à des éléments de modèle de données (novembre 2016)
 
@@ -98,7 +98,7 @@ La procédure suivante explique comment un utilisateur dont le rôle est Adminis
 2. Fermez la page.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Modifier le statut de la version actuelle de la configuration du format
-    * Dans les étapes suivantes, vous modifierez le statut de la configuration de format de Brouillon sur Terminé pour la rendre disponible pour la génération de documents de paiement.  
+Dans les étapes suivantes, vous modifierez le statut de la configuration de format de Brouillon sur Terminé pour la rendre disponible pour la génération de documents de paiement.  
 1. Cliquez sur Modifier le statut.
 2. Cliquez sur Terminé.
 3. Dans le champ Description, entrez une valeur.
@@ -108,7 +108,7 @@ La procédure suivante explique comment un utilisateur dont le rôle est Adminis
     * Notez que la configuration est enregistrée comme version terminée 1.1 : version 1 du format selon la version 1 du modèle de données.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Définir la date d'effet de la version du format terminée
-    * Chaque version de format peut être configurée comme disponible pour l'utilisation à partir d'une certaine date. Lorsque plusieurs versions de format sont actives à une certaine date, le format le plus récent (selon le numéro de version) est activé pour l'utilisation. La valeur de date de session est utilisée pour la sélection de la version appropriée.  
+Chaque version de format peut être configurée comme disponible pour l'utilisation à partir d'une certaine date. Lorsque plusieurs versions de format sont actives à une certaine date, le format le plus récent (selon le numéro de version) est activé pour l'utilisation. La valeur de date de session est utilisée pour la sélection de la version appropriée.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Limiter l'accès au format créé des sociétés
 1. Développez la section Codes pays/région ISO.

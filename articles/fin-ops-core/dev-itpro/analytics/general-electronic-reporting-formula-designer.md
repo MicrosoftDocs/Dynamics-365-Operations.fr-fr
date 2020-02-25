@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0028d1f64aced1bbff91b18456c81adbb95bce30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914816"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002518"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
@@ -51,7 +51,7 @@ Vous pouvez ouvrir la page **Concepteur de formule** lorsque vous effectuez l'un
 - Définir les conditions des validations du contrôle de processus.
 - Définir le texte de message des validations du contrôle de processus.
 
-## <a name="Binding">Liaison de données</a>
+## <a name="Binding"></a>Liaison de données
 
 Le concepteur de formule de génération d'états électroniques permet de définir une expression qui transforme des données reçues des sources de données à saisir de la manière suivante dans le consommateur de données au moment de l'exécution :
 
@@ -69,7 +69,7 @@ La figure suivante présente l'utilisation d'une expression de ce type. Dans cet
 
 À l'exécution, la formule conçue, `ROUND (Intrastat.AmountMST, 2)`, arrondit la valeur du champ **AmountMST** pour chaque enregistrement de la table Déclaration d'échanges de biens à deux décimales. Elle saisit ensuite la valeur arrondie dans le composant **Transaction.InvoicedAmount** du modèle de données **Déclaration de taxe**.
 
-## <a name="Transformation">Mise en forme des données</a>
+## <a name="Transformation"></a>Mise en forme des données
 
 Le concepteur de formule de génération d'états électroniques permet de définir une expression qui formate les données reçues des sources de données, afin que les données puissent être envoyées dans le cadre de la génération d'un document électronique. Vous disposez peut-être d'une mise en forme qui doit être appliquée comme règle classique pour être réutilisée pour un format. Dans ce cas, vous pouvez entrer cette mise en forme une fois dans la configuration du format comme transformation nommée ayant une expression de mise en forme. Cette transformation nommée peut ensuite être liée à de nombreux composants de format dont la sortie doit être mise en forme en fonction de l'expression de mise en forme créée.
 
@@ -87,7 +87,7 @@ Si vous avez une mise en forme qui doit être appliquée individuellement, vous 
 
 [![Application de la mise en forme à un composant individuel](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation">Contrôle des flux de processus</a>
+## <a name="Validation"></a>Contrôle des flux de processus
 
 Le concepteur de formule de génération d'états électroniques permet de définir les expressions utilisées pour contrôler le flux de processus de génération de documents électroniques. Vous pouvez effectuer les tâches suivantes :
 
@@ -112,7 +112,7 @@ Le concepteur de formule de génération d'états électroniques peut également
 
 [![Contrôle des flux de processus](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled">Contrôle du contenu des documents</a>
+## <a name="Enabled"></a>Contrôle du contenu des documents
 
 Le concepteur de formule de génération d'états électroniques peut être utilisé pour configurer les expressions contrôlant quelles données sont placées dans les documents électroniques générés au moment de l'exécution. Les expressions peuvent activer ou désactiver l'émission d'éléments spécifiques du format, en fonction des données de traitement et de la logique configurée. Ces expressions peuvent être entrées pour un seul élément de format dans le champ **Activé** sur l'onglet **Mise en correspondance** sur la page **Concepteur des opérations**. Vous pouvez entrer les expressions sous la forme d'une condition logique retournant une valeur *Booléenne* :
 
@@ -139,7 +139,7 @@ La figure suivante présente des expressions de ce type. (La version 11.12.11 d
 > 
 > Selon cette configuration, le message généré pour chaque paiement de débit, l'élément XML **Ustrd**, contient soit le texte des notes de paiement soit, si ce texte est vide, une liste des numéros de facture séparés par une virgule utilisés pour régler le paiement.
 
-## <a name="TestFormula">Validation des formules configurées</a>
+## <a name="TestFormula"></a>Validation des formules configurées
 
 Sur la page **Concepteur de formule**, sélectionnez **Tester** pour valider le fonctionnement de la formule configurée.
 

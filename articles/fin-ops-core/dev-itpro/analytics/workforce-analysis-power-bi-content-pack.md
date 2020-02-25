@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 868b0781a84d345297ab40b1a423272e47d50ec5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 263fa2fc97e39b0521407d3fdc5a6d6e3f2ca034
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249156"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005754"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Contenu Power BI Mesures de main d'œuvre
 
@@ -35,7 +35,7 @@ Cette rubrique décrit le contenu Power BI **Mesures de la main d'œuvre**. Elle
 Le contenu Power BI **Mesures de la main d'œuvre** s'affiche dans l'espace de travail **Gestion du personnel** si vous utilisez l'un des produits suivants :
 
 - Microsoft Dynamics 365 Finance
-- Microsoft Dynamics 365 Talent
+- Microsoft Dynamics 365 Human Resources
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mesures incluses dans le pack de contenu Power BI
 Le tableau suivant répertorie les mesures affichées dans chaque état.

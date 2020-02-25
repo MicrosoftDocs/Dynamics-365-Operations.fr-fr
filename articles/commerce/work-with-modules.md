@@ -3,7 +3,7 @@ title: Utiliser des modules
 description: Cette rubrique décrit quand et comment utiliser des modules dans Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914792"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025877"
 ---
 # <a name="work-with-modules"></a>Utiliser des modules
 
 Cette rubrique décrit quand et comment utiliser des modules dans Microsoft Dynamics 365 Commerce.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Vue d'ensemble
@@ -99,12 +99,10 @@ Les procédures suivantes expliquent comment configurer des modules de contenu e
 
 Pour configurer un module de contenu sur une page, procédez comme suit.
 
-1. Dans le volet d'ensemble à gauche, sélectionnez un type de module de contenu (par exemple, **Fonctionnalité**, **Bannière**, ou **Bannière**).
-1. Dans le volet de propriétés de droite, développez les contrôles imbriqués en sélectionnant les en-têtes, puis définissez toutes les valeurs requises de contrôle.
-1. Si le volet de propriétés a une section **Configuration de données**, sélectionnez-la pour le développer. Sinon, passez à l'étape 5.
-1. S'il existe un bouton **Ajouter une source de données**, sélectionnez-la, puis sélectionnez les articles de contenu à ajouter.
-1. Entrez les paramètres de tous les contrôles du module requis ou souhaités.
-1. Sélectionnez **Enregistrer**.
+1. Dans le volet de contour à gauche, développez l'arborescence et sélectionnez un type de module de contenu (par exemple, **Fonctionnalité**, **Bannière** ou **Bannière**).
+1. Dans le volet des propriétés situé à droite, recherchez le contenu du module et les commandes des paramètres.
+1. Saisissez les propriétés des commandes de module voulues.
+1. Dans la barre de commande, cliquez sur **Enregistrer**. Le canevas d'aperçu est également actualisé.
 
 ### <a name="configure-a-container-module"></a>Configurer un module de conteneur
 
@@ -112,7 +110,7 @@ Pour configurer un module de conteneur sur une page, procédez comme suit.
 
 1. Sélectionnez un module de conteneur sur la page (par exemple, un module de carrousel ou de conteneur fluide).
 1. Dans le volet de propriétés de droite, développez les contrôles imbriqués en sélectionnant les en-têtes, puis définissez toutes les valeurs requises de contrôle.
-1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension en regard du nom du conteneur ou des emplacements à l'intérieur du conteneur, puis sélectionnez **Ajouter un module**. Ajoutez ensuite les modules enfants au conteneur sélectionné. Pour plus d'informations, voir la procédure [Ajouter un module](#add-a-module) décrite plus haut dans cette rubrique.
+1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension en regard du nom du conteneur ou des emplacements à l'intérieur du conteneur, puis sélectionnez **Ajouter un module**. Ajoutez ensuite les modules enfants au conteneur sélectionné. Pour plus d'informations, voir la section [Utiliser les modules](#add-a-module) plus haut dans cette rubrique.
 1. Si plusieurs modules enfants existent en tant que jumeaux dans un conteneur parent, vous pouvez changer l'ordre d'affichage du conteneur parent. Sélectionnez le bouton représentant des points de suspension d'un module, puis utilisez les boutons de flèche vers le bas ou vers le haut.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
@@ -126,8 +124,6 @@ Pour configurer un module de conteneur sur une page, procédez comme suit.
 [Utiliser des fragments](work-with-fragments.md)
 
 [Ajouter un module de conteneur à une page](add-container-module.md)
-
-[Ajouter des modules de placement à une page](add-content-placement-modules.md)
 
 [Utilisation de groupes de publication](publish-groups.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Paramétrage du crédit et des recouvrements
+title: Paramétrage des recouvrements
 description: Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177769"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013161"
 ---
-# <a name="set-up-credit-and-collections"></a>Paramétrage du crédit et des recouvrements
+# <a name="set-up-collections"></a>Paramétrage des recouvrements
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement.
+Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement. Vous devez terminer certaines étapes de configuration lorsque vous utilisez la fonction de recouvrement. Il existe également des fonctions facultatives, dont les regroupements de clients et les équipes de recouvrement. 
+
+- Définitions des périodes de balances âgées
+- Instantanés de balance âgée
+- Noms de journal
+- Codes motif pour les transactions d'annulation
+- Agents de recouvrement
+- Compte d'annulation
+- Informations de fonds insuffisants (impayés)
+- Paramètres Outlook pour ceux qui utilisent la page **Recouvrements**
+- Adresses e-mail
+
+Ces points sont davantage abordés dans la suite de cette rubrique. 
 
 <a name="set-up-aging-period-definitions"></a>Paramétrer les définitions de périodes de balances âgées
 -------------------------------
@@ -46,10 +58,10 @@ Vous pouvez paramétrer des regroupements de clients pour représenter des group
 Si plusieurs personnes de votre organisation effectuent des recouvrements, vous pouvez paramétrer une équipe de recouvrement. Vous pouvez sélectionner l'équipe sur la page **Paramètres des ventes**. Si vous ne créez pas d'équipe de recouvrement, une équipe est créée automatiquement lorsque vous paramétrez des agents de recouvrement sur la page **Agent de recouvrement**.
 
 ## <a name="set-up-a-collections-case-category"></a>Paramétrage d'une catégorie d'incidents de recouvrement
-Si vous utilisez des incidents pour organiser votre travail de recouvrement, paramétrez une catégorie d'incident de type **Recouvrements**. Cette configuration est exigée uniquement si vous souhaitez utiliser la fonctionnalité d'incident sur la page **Recouvrements**.
+Pour utiliser des incidents pour organiser votre travail de recouvrement, configurez catégorie d'incident dont le type est **Recouvrements**. Cela est obligatoire si vous voulez utiliser la fonctionnalité d'incident sur la page **Recouvrements**.
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Paramétrage des noms de journaux (règlement, annulation et impayés)
-Paramétrez les noms des journaux utilisés lorsque les transactions sont traitées sur la page **Recouvrements**. Ces traitements incluent le règlement d'une transaction, l'annulation d'une transaction et le traitement d'un paiement des impayés.
+Paramétrez les noms des journaux utilisés lorsque les transactions sont traitées sur la page **Recouvrements**. Ce traitement inclut le règlement d'une transaction, l'annulation d'une transaction et le traitement d'un paiement de fonds insuffisants (impayés).
 
 | Description | Type de journal     |
 |-------------|------------------|
@@ -78,16 +90,19 @@ Mettez à jour les comptes bancaires afin qu'ils soient dotés du journal approp
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Configuration des paramètres Outlook pour les utilisateurs de la page Recouvrements
 Avant que les collaborateurs puissent créer des activités ou envoyer des messages e-mail par l'intermédiaire de la page **Recouvrements**, vous devez vérifier que la clé de configuration **Synchronisation Microsoft Outlook** est sélectionnée et que la synchronisation Outlook est paramétrée pour ces collaborateurs.
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Définition des paramètres d'adresse et d'e-mail pour les contacts de recouvrement (clients)
-Paramétrez les adresses e-mail des contacts client si vous souhaitez leur envoyer des messages e-mail à partir de la page **Recouvrements**. Le contact de recouvrement est utilisé comme contact par défaut sur la page **Recouvrements**. Vous pouvez paramétrer une adresse de relevé pour un client si l'adresse du relevé est différente de l'adresse principale. 
+## <a name="set-up-email-and-addresses"></a>Configurer les e-mails et les adresses
+Vous pouvez utiliser l'e-mail pour communiquer avec les clients et les commerciaux sur les problèmes de recouvrement afin d'envoyer des e-mails à partir de la page **Recouvrements**. 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Définition des paramètres d'adresse et d'e-mail pour les contacts de recouvrement (clients)
+Configurez les adresses e-mail des clients pour leur envoyer des e-mails à partir de la page **Recouvrements**. Le contact de recouvrement est utilisé comme contact par défaut sur la page **Recouvrements**. Vous pouvez paramétrer une adresse de relevé pour un client si l'adresse du relevé est différente de l'adresse principale. 
 
 Dans l'organisateur **Crédit et relances** pour un client, dans le champ **Contact de recouvrement**, sélectionnez la personne de l'organisation cliente qui collabore avec votre agent de recouvrement. Cette personne est utilisée comme contact par défaut sur la page **Recouvrements**. Il s'agit du destinataire des messages e-mail. 
 
 > [!NOTE] 
 > Si aucun contact de recouvrement n'est spécifié pour le client, le contact principal du client est utilisé. Si aucun contact principal n'est spécifié, les messages e-mail sont envoyés à la première adresse répertoriée sur la page **Contacts**.
 
-## <a name="set-up-email-settings-for-salespeople"></a>Définition des paramètres d'e-mail pour les commerciaux
-Paramétrez les adresses e-mail des commerciaux si vous souhaitez leur envoyer des messages e-mail à partir de la page **Recouvrements**. Paramétrez une adresse e-mail pour chaque commercial de chaque groupe de ventes de commission. Le commercial pour lequel l'option **Contact** est sélectionnée est le commercial par défaut auquel les messages e-mails sont envoyés. 
+### <a name="set-up-email-settings-for-salespeople"></a>Définition des paramètres d'e-mail pour les commerciaux
+Configurez les adresses e-mail des commerciaux pour leur envoyer des e-mails à partir de la page **Recouvrements**. Paramétrez une adresse e-mail pour chaque commercial de chaque groupe de ventes de commission. Le commercial pour lequel l'option **Contact** est sélectionnée est le commercial par défaut auquel les messages e-mails sont envoyés. 
 
 Si aucun commercial n'est spécifié, le commercial principal de l'organisation cliente est utilisé. Si aucun commercial principal n'est spécifié, les messages e-mail sont envoyés au premier commercial répertorié sur la page.
 

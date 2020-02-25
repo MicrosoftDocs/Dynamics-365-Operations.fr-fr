@@ -3,7 +3,7 @@ title: Paiements centralisés pour la comptabilité client
 description: Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l'aide d'une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, la même transaction ne doit pas être entrée dans plusieurs entités juridiques. Cet article fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177778"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000091"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Paiements centralisés pour la comptabilité client
 
@@ -88,8 +88,8 @@ Fabrikam reçoit un paiement de 580,00 pour le client Fabrikam n° 4000, Northwi
 
 | Compte                             | Montant de débit | Montant de crédit |
 |-------------------------------------|--------------|---------------|
-| Ventes (Fabrikam East) | 600,00       |               |
-| Ventes (Fabrikam East)               |              | 600,00        |
+| Ventes (Fabrikam East) | 580.00       |               |
+| Ventes (Fabrikam East)               |              | 580.00        |
 
 ### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Le paiement est reçu et validé chez Fabrikam pour le client 4000 Fabrikam
 

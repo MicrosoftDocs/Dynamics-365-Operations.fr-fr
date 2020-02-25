@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914839"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002680"
 ---
 # <a name="templates-and-layouts-overview"></a>Vue d'ensemble des modèles et dispositions
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Les modèles sont un élément fondamental du modèle de page Microsoft Dynamics 365 Commerce. Si votre objectif est d'optimiser le rendement et la cohérence des workflows de création de site, il est important que vous appreniez comment tirer parti des modèles pour votre site web. Les décisions anticipées sur la structure du modèle sont importantes, et peuvent considérablement affecter le coût et l'agilité des mises à jour quotidiennes, saisonnières, et à l'échelle de la marque. Les modèles bien structurés présentent d'autres avantages également. Par exemple, ils permettent d'améliorer les scores d'optimisation du moteur de recherche (SEO) à la taille du site et de réduire le nombre de bogues.

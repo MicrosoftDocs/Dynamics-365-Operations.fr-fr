@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 938d2eea7b9e85b19e9c1e3e0930f625224b880d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898617"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006076"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>Accorder des congés sur la base des heures travaillées
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Les organisations qui ont des employés rémunérés à l'heure peuvent accorder des congés sur la base des heures travaillées au lieu de l'ancienneté dans l'organisation. Les données sur les heures travaillées sont généralement stockées dans un système de pointage. Dans Talent : Core HR, les heures normales et supplémentaires travaillées peuvent être importées et utilisées comme base pour la prime d'un employé.
+Les organisations qui ont des employés rémunérés à l'heure peuvent accorder des congés sur la base des heures travaillées au lieu de l'ancienneté dans l'organisation. Les données sur les heures travaillées sont généralement stockées dans un système de pointage. 
 
 ## <a name="leave-plans"></a>Plans de congés
 

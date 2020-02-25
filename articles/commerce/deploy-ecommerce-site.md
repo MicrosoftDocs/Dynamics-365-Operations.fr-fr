@@ -3,7 +3,7 @@ title: Déploiement d'un nouveau client de commerce électronique
 description: Cette rubrique décrit la procédure de déploiement d'un client de commerce électronique à l'aide de Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945511"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001781"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Déploiement d'un nouveau client de commerce électronique
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit la procédure de déploiement d'un site de commerce électronique à l'aide de Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="overview"></a>Vue d'ensemble
-    
+
 Microsoft Dynamics Lifecycle Services (LCS) est un espace de travail de collaboration basé sur le cloud que les partenaires et les clients peuvent utiliser pour gérer leurs projets et environnements, afficher les dernières informations sur les produits et les fonctionnalités Microsoft Dynamics, et créer, effectuer le suivi, et consulter les incidents de support. Les fonctionnalités de gestion de commerce électronique sont intégrées à LCS.
 
 Pour en savoir plus sur LCS, voir [Guide de l'utilisateur de Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
@@ -80,11 +80,16 @@ Après avoir collecté les informations requises, procédez comme suit pour init
 1. Sur la page suivante, entrez les informations requises, puis envoyez le formulaire. Vous êtes redirigé vers l'onglet **Commerce électronique**, sous lequel vous devez vérifier que l'initialisation a commencé.
 1. Pour afficher le statut de l'initialisation, **Actualisez** ou revenez à l'onglet **commerce électronique** ultérieurement.
     
-Lorsque le commerce électronique est initialisé par LCS, le système met en service plusieurs composants requis pour le commerce électronique et les associe à l'environnement. Après la mise en service, l'onglet **Commerce électronique** sur la page **Gestion de la vente au détail** est mis à jour pour refléter la mise en service. La page présente les derniers déploiements de personnalisation et le statut de tout autre déploiements en cours. Elle contient également des liens vers le site de commerce électronique et l'outil de gestion du site de commerce électronique (l'outil de création).
+Lorsque le commerce électronique est initialisé par LCS, le système met en service plusieurs composants requis pour le commerce électronique et les associe à l'environnement. Après la mise en service, l'onglet **Commerce électronique** sur la page **Gestion de la vente au détail** est mis à jour pour refléter la mise en service. La page présente les derniers déploiements de personnalisation et le statut de tout autre déploiements en cours. Elle contient également des liens vers le site de commerce électronique et le générateur de site de commerce électronique où les sites sont créés.
 
-## <a name="access-the-authoring-environment"></a>Accéder à l'environnement de création
+## <a name="access-site-builder"></a>Accéder au générateur de site
 
-Pour accéder à l'environnement de création, accédez à l'onglet **Commerce électronique** sur la page **Gestion de la vente au détail**. De là, vous trouverez des liens vers votre site de commerce électronique et l'outil de gestion du site.
+Pour accéder au générateur de site, accédez à l'onglet **Commerce électronique** dans la page **Gestion de vente au détail** dans LCS et sélectionnez le lien **Outil de gestion de site de commerce électronique**. La page de destination du générateur de site affiche une vue au niveau du client. Depuis cette page, vous pouvez effectuer les actions suivantes :
+
+- Modifier les paramètres au niveau du client.
+- Accéder à n'importe quel site que vous avez créé et avoir la permission de l'afficher. 
+- Accéder aux fonctionnalités d'évaluation telles que la modération et le compte-rendu.
+- Créer un site. Pour plus d'informations sur la création d'un site, voir [Création d'un site de commerce électronique](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

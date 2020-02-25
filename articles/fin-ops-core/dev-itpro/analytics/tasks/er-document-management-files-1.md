@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 29c13e729223a98d7f45244c5a796bca6e3baaf3
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550831"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026132"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 1 - Préparer le modèle de données)
 
@@ -61,7 +61,7 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 11. Dans l'arborescence, sélectionnez « Modèle de facture client ».
 
 ## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a>Créez le modèle dérivé pour prendre en charge l'accès aux fichiers de gestion des documents.
-    * Vous créerez votre propre configuration du modèle de facture client en la dérivant de la configuration fournie par Microsoft. Vous utiliserez cette configuration pour implémenter l'accès aux fichiers de gestion des documents et les rendre disponibles pour les documents électroniques que vous créerez en fonction de ce modèle.  
+Vous créerez votre propre configuration du modèle de facture client en la dérivant de la configuration fournie par Microsoft. Vous utiliserez cette configuration pour implémenter l'accès aux fichiers de gestion des documents et les rendre disponibles pour les documents électroniques que vous créerez en fonction de ce modèle.  
 1. Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.
 2. Dans le champ Nouveau, entrez « Provenant du nom : Modèle de facture client, Microsoft ».
 3. Dans le champ Nom, tapez « Modèle de facture client (personnalisé) ».

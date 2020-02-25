@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570746"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003994"
 ---
 # <a name="product-information-overview"></a>Présentation des informations sur les produits
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570746"
 
 Cette rubrique fournit des informations sur la gestion des informations sur les produits. La gestion des informations sur les produits nécessite une définition, une catégorisation et des identifiants de produits partagés dans toutes les entités juridiques, ainsi que les configurations spécifiques d'un produit, pour s'adapter aux processus d'entreprise. 
 
-Les informations sur les produits sont la base de la chaîne d'approvisionnement et des applications au détail dans tous les secteurs d'activité. Elles font référence aux processus et aux technologies qui ont pour but de gérer des informations sur les produits de manière centralisée (par exemple, entre plusieurs chaînes d'approvisionnement). Il est primordial que les définitions, la documentation, les attributs et les identificateurs de produits partagés soient utilisés. Dans les différents modules d'une solution commerciale, les informations et la configuration spécifiques à un produit sont requises pour gérer des processus d'entreprise liés aux produits, gammes de produits, ou catégories de produits spécifiques.
+Les informations sur les produits sont la base de la chaîne d'approvisionnement et des applications de commerce dans tous les secteurs d'activité. Elles font référence aux processus et aux technologies qui ont pour but de gérer des informations sur les produits de manière centralisée (par exemple, entre plusieurs chaînes d'approvisionnement). Il est primordial que les définitions, la documentation, les attributs et les identificateurs de produits partagés soient utilisés. Dans les différents modules d'une solution commerciale, les informations et la configuration spécifiques à un produit sont requises pour gérer des processus d'entreprise liés aux produits, gammes de produits, ou catégories de produits spécifiques.
 
 ## <a name="product-definition"></a>Définition du produit
 
