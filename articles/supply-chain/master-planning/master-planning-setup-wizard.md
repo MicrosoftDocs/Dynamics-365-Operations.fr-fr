@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635124"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031065"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistant Paramétrage de planification
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635124"
 
 Cette rubrique fournit des instructions pour l'**Assistant Paramétrage de planification**. Elle explique comment des suggestions de paramètre sont calculées et fournit également des exemples qui indiquent comment les différentes sociétés paramètrent la planification, en fonction de leurs besoins commerciaux.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-La vidéo [Assistant Paramétrage de planification dans Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (présentée ci-dessus) est incluse dans [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Assistant Paramétrage de planification dans Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (présentée ci-dessus) est incluse dans la [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Besoins spécifiques de votre société
@@ -184,7 +184,7 @@ Dans l'Assistant, les valeurs suivantes sont entrées pour le fabricant Contoso�
 Le détaillant Contoso est une société de distribution dans le secteur de la mode. Elle utilise la planification pour calculer quand des commandes fournisseur doivent être placées, selon ses ventes prévues. Voici certaines de ses caractéristiques :
 
 - Le détaillant Contoso utilise une prévision de la demande pour prévoir ses ventes. Les commandes fournisseur sont organisées selon la prévision.
-- Les magasins de vente au détail utilisent des demandes de réassort.
+- Les magasins utilisent des demandes de réassort.
 - Le délai entre l'entrepôt principal et chaque magasin est d'environ deux semaines pour tous les articles.
 
 Dans l'Assistant, les valeurs suivantes sont entrées pour le détaillant Contoso :
@@ -208,4 +208,4 @@ Dans l'Assistant, les valeurs suivantes sont entrées pour le détaillant Contos
     - **Question :** « Souhaitez-vous inclure les demandes approuvées pour le réapprovisionnement des magasins de vente au détail ? »
     - **Réponse :** « Oui, comme défini dans ce plan général. » **1 jour** est entré.
 
-    Contoso utilise les demandes approuvées de ses magasins de vente au détail pour créer des commandes fournisseur prévisionnelles pour réapprovisionner ces magasins. Étant donné que la planification est exécutée chaque jour, les demandes du dernier jour sont incluses dans la planification.
+    Contoso utilise les demandes approuvées de ses magasins pour créer des commandes fournisseur prévisionnelles pour réapprovisionner ces magasins. Étant donné que la planification est exécutée chaque jour, les demandes du dernier jour sont incluses dans la planification.

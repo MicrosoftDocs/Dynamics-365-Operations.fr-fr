@@ -1,9 +1,9 @@
 ---
 title: Page d'accueil Application mobile
-description: Cette rubrique décrit l'application mobile Finance and Operations et fournit des liens vers des ressources qui peuvent vous aider à l'implémentation de votre organisation.
+description: Cette rubrique décrit l'application mobile Finance and Operations (Dynamics 365) et fournit des liens vers des ressources qui favorisent la mise en œuvre dans votre organisation.
 author: sericks007
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
-ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
+ms.openlocfilehash: 012b51b66c831a66a54c7c868735e310f05eb8c1
+ms.sourcegitcommit: f939bc6292840e29bc0f498efc8f4641dfe8f994
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853930"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "2975195"
 ---
 # <a name="mobile-app-home-page"></a>Page d'accueil Application mobile
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l'application mobile Finance and Operations et fournit des liens vers des ressources qui peuvent vous aider à l'implémentation de votre organisation.
+Cette rubrique décrit l'application mobile **Finance and Operations (Dynamics 365)** et fournit des liens vers des ressources qui favorisent la mise en œuvre dans votre organisation.
 
 <a name="overview"></a>Présentation
 --------
@@ -80,7 +80,7 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 <tr class="odd">
 <td>1</td>
 <td>Administrateur système</td>
-<td>Implémentez les applications Finance and Operations dans votre organisation.</td>
+<td>Mettre en œuvre l'application Finance and Operations dans votre organisation.</td>
 <td><ul><li>Si vous n&#39;avez pas encore déployé une version de Microsoft Dynamics 365, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>.</li><li>Pour afficher la liste des espaces de travail mobiles qui peuvent être utilisés, voir <a href="mobile-workspaces-released.md">Espaces de travail mobiles récemment publiés</a>.</li></ul></td>
 </tr>
 <tr class="even">

@@ -1,9 +1,9 @@
 ---
 title: Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer de Microsoft Dynamics Lifecycle Services (LCS).
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885453"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027978"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
 
@@ -53,7 +53,7 @@ Cette liste est fournie pour vous aider à prendre en compte ces suppressions et
 </tr>
 <tr>
 <td><strong>Statut</strong></td>
-<td>Obsolète : le composant d'organigrammes dans BPM devrait être supprimé début février 2020. La fonctionnalité suivante va être supprimée :
+<td>Obsolète : le composant d'organigrammes dans BPM devrait être supprimé en 2020. La fonctionnalité suivante va être supprimée :
 <ul>
 <li>Les organigrammes existants ne seront pas disponibles pour la visualisation ou la modification. Les propriétés de forme associées aux activités de l'organigramme ne seront pas non plus disponibles, car l'onglet <strong>Organigramme</strong> complet sera supprimé. Ces organigrammes comprennent à la fois des organigrammes par défaut générés automatiquement et des organigrammes personnalisés qui sont modifiés en fonction de ces organigrammes par défaut.</li>
 <li>La fonctionnalité d'analyse d'adéquation/des écarts héritée ne sera pas disponible. Par conséquent, aucune liste des écarts ne sera automatiquement créée ou disponible pour l'exportation.

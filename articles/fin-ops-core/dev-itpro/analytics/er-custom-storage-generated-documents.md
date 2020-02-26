@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771396"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030864"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Spécifier un emplacement personnalisé de stockage pour les documents générés
 
@@ -56,7 +56,7 @@ Dans la topologie actuelle, [créez un format d'états électroniques](tasks/er-
 
 Pour spécifier comment les documents qu'un format d'états électroniques génère sont acheminés, vous devez configurer [Destinations des états électroniques (ER)](electronic-reporting-destinations.md). Dans chaque destination d'états électroniques configurée pour stocker les documents générés comme fichiers, vous devez préciser un type de document de la structure de gestion des documents. Différents types de document peuvent être utilisés pour acheminer les documents générés par différents formats d'états électroniques.
 
-1. Ajoutez un nouveau [type de document](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) pour le format d'états électroniques que vous avez créé ou importé précédemment. Dans l'illustration ci-après, le type de document est **FileX**.
+1. Ajoutez un nouveau [type de document](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) pour le format d'états électroniques que vous avez créé ou importé précédemment. Dans l'illustration ci-après, le type de document est **FileX**.
 2. Pour différencier ce type de document d'autres types de documents, incluez un mot clé spécifique dans son nom. Par exemple, dans l'illustration ci-après, le nom est **dossier (LOCAL)**.
 3. Dans le champ **Classe**, spécifiez **Fichier joint**.
 4. Dans le champ **Groupe**, spécifiez **Fichier**.
@@ -70,7 +70,7 @@ Pour spécifier comment les documents qu'un format d'états électroniques gén�
 
 Examinez le code de la méthode **insertFile ()** de classe **ERDocuManagement**. Observez que l'événement **AttachingFile ()** est déclenché tandis que le fichier généré est associé à un enregistrement.
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ L'événement **AttachingFile ()** est déclenché lorsque les destinations des 
     1. Enregistrez les fichiers générés dans un dossier du système de fichiers local du serveur qui exécute le service AOS.
     2. Enregistrez ces fichiers générés uniquement lorsque le nouveau type de document (par exemple, le type **FileX** ayant le mot clé « (LOCAL) » dans son nom) est utilisé lorsqu'un fichier est joint à l'enregistrement dans le journal des tâches d'exécution des états électroniques.
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

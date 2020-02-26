@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 745a772ec12dff4e40639dbd7df0a713f5869516
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a01201ae4934f6650f85634a230469c6272b36b9
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897785"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006492"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (6 août 2019)
 
@@ -57,6 +57,6 @@ Une nouvelle option permet aux responsables d'afficher les performances des éta
 
 ## <a name="coming-soon"></a>Prochainement
 
-### <a name="platform-update-29-for-finance-and-operations"></a>Platform update 29 pour Finance and Operations
+### <a name="platform-update-29-for-finance-and-operations"></a>Mise à jour de la plateforme 29 pour Finance and Operations
 
-Pour plus d'informations sur Platform Update 29 pour Finance and Operations, voir [Aperçu des fonctionnalités dans Dynamics 365 Finance and Operations Platform Update 29 (octobre 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Pour plus de détails sur la mise à jour de la plateforme 29 pour Finance and Operations, voir [Fonctionnalités en version préliminaire dans la mise à jour de la plateforme 29 de Dynamics 365 Finance and Operations (octobre 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

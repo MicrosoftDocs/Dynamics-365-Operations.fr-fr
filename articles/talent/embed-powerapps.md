@@ -1,5 +1,5 @@
 ---
-title: Incorporer les applications Power Apps dans Dynamics 365 - Core HR
+title: Intégrer les applications Power Apps dans Dynamics 365 Human Resources
 description: Cette rubrique explique comment résoudre le problème où l'option de menu Microsoft Power Apps a disparu du module Administration du système.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b1dd1756be349d85af8e6d7159623a2a95e75526
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8275a8a7c68fa13d6b9880c4c411deaa2dcbb998
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017871"
 ---
-# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>Incorporer les applications Power Apps dans Dynamics 365 - Core HR
+# <a name="embed-power-apps-apps-in-dynamics-365-human-resources"></a>Intégrer les applications Power Apps dans Dynamics 365 Human Resources
 
 **Sortie**
 
@@ -38,31 +38,31 @@ La conception de l'interface utilisateur (IU) a été modifiée, et Microsoft Po
 
 La manière dont les applications Power Apps sont incorporées a été modifiée. Les applications Power Apps sont maintenant ajoutées via le modèle de personnalisation. Vous pouvez ajouter des applications Power Apps à presque toutes les pages de Microsoft Dynamics 365 Talent.
 
-Pour plus d'informations sur l'incorporation d'applications Power Apps dans Talent, voir [Incorporer des applications Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Pour plus d'informations sur l'incorporation d'applications Power Apps dans Talent, voir [Incorporer des applications Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Tout client Power Apps ayant incorporé des applications avant la modification doit avoir été mis à niveau vers le nouveau modèle.
 
-Le bouton **Power Apps** est dans le coin supérieur droit de presque chaque page de Talent. Vous pouvez utiliser ce bouton pour insérer une application Power Apps.
+Le bouton **Power Apps** est dans le coin supérieur droit de presque chaque page de Talent. Vous pouvez utiliser ce bouton pour insérer des applications.
 
 Voici un exemple :
 
 1. Accédez à **Gestion du personnel \> Liens \> Collaborateurs \> Employés**.
-2. Sélectionnez le bouton **Power Apps**, puis sélectionnez **Insérer un PowerApp**.
+2. Sélectionnez le bouton **Power Apps**, puis sélectionnez **Ajouter une application depuis Power Apps**.
 
     ![Bouton Power Apps](media/png.png)
 
-3. Renseignez les champs de la boîte de dialogue **Insérer un PowerApp**.
+3. Remplissez les champs de la boîte de dialogue **Ajouter une application depuis Power Apps**.
 
-    ![Boîte de dialogue Insérer un PowerApp](media/insert-powerapp.png)
+    ![Ajouter une application depuis une boîte de dialogue Power Apps](media/insert-powerapp.png)
 
 Sinon, procédez comme suit :
 
-1. Sur le volet Action de la page, sous l'onglet **Options**, dans le groupe **Personnaliser**, sélectionnez **Personnaliser cet écran**.
+1. Dans le volet Actions de la page, sous l'onglet **Options**, dans le groupe **Personnaliser**, sélectionnez **Personnaliser cette page**.
 
     ![Personnaliser le groupe sous l'onglet Options](media/options.png)
 
     La barre d'outils de personnalisation s'affiche.
 
-2. Sur la barre d'outils, sélectionnez **Insérer \> PowerApp**.
+2. Dans la barre d'outils, sélectionnez **Ajouter une application depuis Power Apps**.
 
-    ![Insérer une application Power Apps à l'aide de la barre d'outils de personnalisation](media/powerapp-bar.png)
+    ![Ajouter une application depuis Power Apps à l'aide de la barre d'outils de personnalisation](media/powerapp-bar.png)

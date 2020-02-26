@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d66cc69da08478ceb931fab594da51bafcacc38
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3fe08b30977b8515ffd8d0acc1fd8f4b3085de93
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185081"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026084"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Concevoir un modèle de données spécifiques au domaine
 
@@ -48,7 +48,7 @@ Dans cet exemple, vous allez créer une configuration pour la société témoin,
 4. Cliquez sur le bouton « Créer la configuration » pour terminer la tâche de création de la configuration.
 
 ## <a name="create-a-data-model"></a>Créer un modèle de données
-    * Vous créez un modèle de données pour la configuration sélectionnée. Cette version de configuration aura un statut de brouillon.  
+Vous créez un modèle de données pour la configuration sélectionnée. Cette version de configuration aura un statut de brouillon.  
 1. Cliquez sur Concepteur.
 
 ## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a>Définir la structure d'une partie qui participe à un processus de paiement

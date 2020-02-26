@@ -3,7 +3,7 @@ title: Création de nouveaux utilisateurs
 description: Les utilisateurs sont des employés internes de votre organisation, ou des clients et fournisseurs externes, qui doivent avoir accès au système pour effectuer leurs tâches.
 author: maertenm
 manager: AnnBe
-ms.date: 10/08/2019
+ms.date: 02/06/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c347a34a389c32d005cc8086c4a1349ecb8a698
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6d884dfe30be5684a90925d4d2d9ab7eebca5b44
+ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570519"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029807"
 ---
 # <a name="create-new-users"></a>Création de nouveaux utilisateurs
 
@@ -30,9 +30,12 @@ ms.locfileid: "2570519"
 Les utilisateurs sont des employés internes de votre organisation, ou des clients et fournisseurs externes, qui doivent avoir accès au système pour effectuer leurs tâches.
 
 ## <a name="associate-a-user-with-a-license-new-license-types-only"></a>Associer un utilisateur avec une licence (nouveaux types de licence uniquement)
-Pour les clients qui se trouvent sur un des nouveaux types de licence qui ont été ajoutés en octobre 2019, les utilisateurs doivent être associés avec une licence. Les utilisateurs associés à une licence sont automatiquement ajoutés comme utilisateurs système sans rôle lors de leur première connexion. Les utilisateurs qui ne sont pas associés à une licence reçoivent un message d'avertissement.
+Pour les clients qui se trouvent sur un des nouveaux types de licence qui ont été ajoutés en octobre 2019, les utilisateurs doivent être associés avec une licence. Les utilisateurs associés à une licence sont automatiquement ajoutés comme utilisateurs système sans rôle lors de leur première connexion.
 
 Les administrateurs système peuvent [attribuer des licences aux utilisateurs](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) dans le [Centre d'administration Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+
+## <a name="associate-an-external-user-with-a-license-new-license-types-only"></a>Associer un utilisateur externe avec une licence (nouveaux types de licence uniquement)
+Les utilisateurs externes au client dans lequel l'environnement a été déployé doivent être représentés dans le répertoire du client hôte (Azure Active Directory (Azure AD)) afin de leur affecter des licences. Ces utilisateurs externes doivent être ajoutés au client dans Azure AD en tant qu'utilisateurs invités, puis se voir attribuer les licences appropriées. Pour plus d'informations, voir [Ajouter utilisateurs de collaboration B2B Azure Active Directory dans le portail Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="add-a-new-user"></a>Ajout d'un nouvel utilisateur
 1. Accédez à **Administration système \> Utilisateurs \> Utilisateurs**.
@@ -42,7 +45,7 @@ Les administrateurs système peuvent [attribuer des licences aux utilisateurs](h
 5. Dans le champ **Domaine**, entrez le domaine AD DS de l'utilisateur.  
 6. Dans le champ **Alias**, entrez l'alias utilisateur.  
 7. Sélectionnez la société souhaitée dans le champ **Société**. 
-8. Dans l'organisateur **Rôles de l'utilisateur**, sélectionnez **Affecter des rôles** sur [affecter des rôles de sécurité aux utilisateurs](assign-users-security-roles.md)
+8. Dans le raccourci **Rôles de l'utilisateur**, sélectionnez **Affecter des rôles** sur affecter des utilisateurs à des rôles de sécurité. Pour plus d'informations, voir [Affecter des utilisateurs à des rôles de sécurité](assign-users-security-roles.md).
 9. Cliquez sur **OK**.
 10. Sélectionnez **Enregistrer**.
 

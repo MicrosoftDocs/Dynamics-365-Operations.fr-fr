@@ -1,5 +1,5 @@
 ---
-title: Configurer des fonctionnalités facultatives pour un environnement d'évaluation Commerce
+title: Configurer les fonctionnalités facultatives pour un environnement d'aperçu dans Dynamics 365 Commerce
 description: Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d'aperçu Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2c4872cdebc414eaa865af025237bd9e1d14bfd2
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906114"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024727"
 ---
-# <a name="configure-optional-features-for-a-commerce-preview-environment"></a>Configurer des fonctionnalités facultatives pour un environnement d'évaluation Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Configurer les fonctionnalités facultatives pour un environnement d'aperçu dans Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d'aperçu Microsoft Dynamics 365 Commerce.
@@ -173,13 +173,13 @@ Les jetons suivants sont remplacés par des valeurs pour chaque produit de la co
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble d'un environnement d'évaluation Commerce](cpe-overview.md)
+[Vue d'ensemble de l'environnement d'aperçu dans Dynamics 365 Commerce](cpe-overview.md)
 
-[Mettre en service un environnement d'évaluation Commerce](provisioning-guide.md)
+[Mettre en service un environnement d'aperçu dans Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurer un environnement d'évaluation Commerce](cpe-post-provisioning.md)
+[Configurer un environnement d'aperçu dans Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[FAQ relative à l'environnement d'évaluation Commerce](cpe-faq.md)
+[FAQ sur l'environnement d'aperçu dans Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -188,5 +188,3 @@ Les jetons suivants sont remplacés par des valeurs pour chaque produit de la co
 [Portail Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site web Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Ressources d'aide pour Dynamics 365 Retail](../retail/index.md)

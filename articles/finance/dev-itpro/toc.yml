@@ -2,7 +2,7 @@
   href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: Nouveautés ou modifications
   items:
-    - name: "Fonctionnalités d'aperçu dans Platform update 30 (novembre\_2019)"
+    - name: "Fonctionnalités en version préliminaire dans Platform update\_30 (novembre\_2019)"
       href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: "Platform update 29 (octobre\_2019)"
       href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -76,7 +76,7 @@
       href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: API d'intégration de données
       items:
-        - name: REST API du package de gestion des données
+        - name: API REST du package de gestion des données
           href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Points de terminaison de service
           items:
@@ -120,7 +120,7 @@
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Hiérarchie d'organisation sur Common Data Service
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: Concept de société dans Common Data Service
+                - name: Concept de société dans Common Data Services
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Données principales client intégrées
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -140,17 +140,17 @@
                   items:
                     - name: Prospect en disponibilités
                       href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Synchroniser directement les comptes provenant du module Sales sur les clients de Finance and Operations
+                    - name: Synchroniser les comptes directement entre Sales et les clients de Finance and Operations
                       href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Synchroniser directement les produits provenant de Finance and Operations sur les produits du module Sales
+                    - name: Synchroniser les produits directement entre Finance and Operations et les produits de Sales
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Finance and Operations
+                    - name: Synchroniser les contacts directement entre Sales et les contacts ou les clients de Finance and Operations
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Synchroniser directement les en-têtes et les lignes de devis provenant du module Sales sur Finance and Operations
+                    - name: Synchroniser les en-têtes et les lignes de devis directement entre Sales et Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Synchronisation des commandes client directement entre Sales et Finance and Operations
+                    - name: Synchronisation des commandes clients directement entre Sales et Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Synchroniser directement les en-têtes et les lignes de facture client entre Finance and Operations et Sales
+                    - name: Synchroniser les en-têtes et les lignes de facture client directement entre Finance and Operations et Sales
                       href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Configuration de l'intégration avec Field Service
                   items:
@@ -158,9 +158,9 @@
                       href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Synchroniser des produits de Finance and Operations sur des produits de Field Service
                       href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Synchroniser des bons de travail de Field Service sur des commandes client de Finance and Operations
+                    - name: Synchroniser des ordres de travail de Field Service sur des commandes client de Finance and Operations
                       href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Synchroniser des factures d'accord de Field Service sur des factures financières dans Finance and Operations
+                    - name: Synchroniser des factures d'accord de Field Service sur des factures financières de Finance and Operations
                       href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Synchroniser les transferts et les ajustements de stock entre Field Service et Finance and Operations
                       href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -174,7 +174,7 @@
                       href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Synchroniser les ordres de travail avec un projet entre Field Service et Finance and Operations
                       href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: "Configurer l'intégration de Project\_Service\_Automation"
+                - name: Configurer l'intégration de Project Service Automation
                   items:
                     - name: "Vue d'ensemble de Project\_Service\_Automation"
                       href: ../../financials/project-management/PSA-integration.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Gérer l'accès aux données confidentielles
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Répondre aux demandes de données personnelles à l'aide de Talent
+        - name: Répondre aux demandes de données personnelles à l'aide de Human Resources
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: "Répondre aux demandes de données personnelles dans AX\_2012"
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1296,9 +1296,9 @@
   items:
     - name: 'Mises à niveau, mises à jour et ressources'
       href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: "Mise à niveau de AX\_2012"
+    - name: "Mise à niveau depuis AX\_2012"
       items:
-        - name: "Mise à niveau d'AX\_2012 vers Finance and Operations"
+        - name: "Mise à niveau depuis AX\_2012 vers Finance and Operations"
           href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: "Mise à niveau d'AX\_2012\_-\_Planifier à l'aide de l'analyseur de mise à niveau"
           href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1338,13 +1338,13 @@
               href: ../../dev-itpro/migration-upgrade/migrate-upgraded-cube-entity-store.md?toc=/dynamics365/unified-operations/financials/toc.json
             - name: Mettre à niveau la planification budgétaire
               href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: "Migrer les données depuis AX\_2009"
+    - name: "Migrer des données depuis AX\_2009"
       items:
-        - name: "Migrer des données d'AX\_2009 vers Finance and Operations"
+        - name: "Migrer des données depuis AX\_2009 vers Finance and Operations"
           href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: "Migration d'AX\_2009\_-\_Installer l'outil de migration des données"
           href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Migration d'AX 2009 - Générer des cartes
+        - name: "Migration d'AX\_2009 - Générer des cartes"
           href: ../../dev-itpro/migration-upgrade/generate-maps.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Migration d'AX 2009 - Créer des modèles
           href: ../../dev-itpro/migration-upgrade/create-package-templates-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json

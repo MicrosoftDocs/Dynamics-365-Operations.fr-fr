@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899028"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006285"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (30 juillet 2019)
 
@@ -41,7 +41,7 @@ Les modifications décrites dans cette section s'appliquent au numéro de versio
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>La prise en charge des régions pour le Canada et l'Asie du Sud-Est
 
-Nous sommes ravis d'annoncer que les régions du Canada et de l'Asie du Sud-Est seront disponibles pour Talent le 1er août 2019. Avec ce changement, vous pouvez créer des environnements dans les régions du Canada et de l'Asie, et toutes les données Talent seront gérées uniquement dans ces emplacements. Vous pouvez créer un environnement dans ces nouvelles régions en sélectionnant l'emplacement dans la boîte de dialogue Nouvel environnement et en utilisant cet environnement pour mettre en service Talent dans LCS, comme décrit dans [Mettre en service Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Nous sommes ravis d'annoncer que les régions du Canada et de l'Asie du Sud-Est seront disponibles pour Talent le 1er août 2019. Avec ce changement, vous pouvez créer des environnements dans les régions du Canada et de l'Asie, et toutes les données Talent seront gérées uniquement dans ces emplacements. Vous pouvez créer un environnement dans ces nouvelles régions en sélectionnant l'emplacement dans la boîte de dialogue Nouvel environnement et en utilisant cet environnement pour mettre en service Talent dans LCS, comme décrit dans [Mettre en service Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 La migration des données de projets existants dans d'autres régions vers les régions du Canada et d'Asie n'est pas prise en charge. Seuls les nouveaux projets peuvent être mis en service dans ces nouvelles régions prises en charge.
 

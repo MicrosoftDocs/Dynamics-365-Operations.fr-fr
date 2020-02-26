@@ -1,5 +1,5 @@
 ---
-title: Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur
+title: Données de facture clés dans la comptabilité fournisseur à l'aide d'une facture fournisseur
 description: Ce guide de tâche vous aidera à créer une facture fournisseur à partir d'une commande fournisseur et à afficher les résultats du rapprochement de la commande fournisseur, de l'accusé de réception et de la facture (rapprochement à trois facteurs).
 author: abruer
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7abae6d680d899a0294ad3c298a4b0264ba01d0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22df9b71c6809e7633b7d573e6992be9d868cbac
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189428"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000210"
 ---
-# <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>Données de facture clés dans le système de comptabilité fournisseur à l'aide de la facture fournisseur
+# <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Données de facture clés dans la comptabilité fournisseur à l'aide d'une facture fournisseur
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

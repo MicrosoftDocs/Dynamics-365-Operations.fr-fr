@@ -3,7 +3,7 @@ title: Paramétrer les comptes fournisseur
 description: Cette rubrique décrit les types d'informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249388"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012443"
 ---
 # <a name="set-up-vendor-accounts"></a>Paramétrer les comptes fournisseur
 
@@ -88,7 +88,7 @@ Vous pouvez placer un fournisseur en attente pour différents types de transacti
 -   **Facture** – Aucune facture ne peut être créée ou validée pour le fournisseur.
 -   **Tout** – Tous les types de transactions sont bloqués pour le fournisseur. Ces types de transactions comprennent les demandes d'achat, les factures et les paiements.
 -   **Paiement** – Aucun paiement ne peut être généré pour le fournisseur.
--   **Demande** – Une seule demande d'achat peut être créée à la fois. Aucune autre transaction ne peut être créée.
+-   **Demande** - Les demandes d'achat ne peuvent pas être créées pour le fournisseur et les lignes de demande déjà créées avant la mise en attente du fournisseur ne peuvent pas être converties en commande fournisseur. Les lignes de demande pour le fournisseur sont annulées si votre stratégie est définie pour créer automatiquement des commandes fournisseur.
 -   **Jamais** – Le fournisseur n'est jamais suspendu en raison de son inactivité.
 
 Lorsque vous mettez un fournisseur en attente, vous pouvez également indiquer un motif et une date à laquelle le statut en attente prendra fin. Si vous n'entrez aucune date de fin, le blocage du fournisseur est définitif.

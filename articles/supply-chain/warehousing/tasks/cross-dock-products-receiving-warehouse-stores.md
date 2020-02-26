@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563387"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004086"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Produits croisés entre l'entrepôt de réception et les magasins
 
@@ -31,7 +31,7 @@ Cette procédure décrit les étapes pour créer et traiter un cross-docking afi
 
 1. Allez dans Toutes les commandes fournisseur.
 2. Sélectionnez une commande fournisseur dans la liste et cliquez sur le lien pour ouvrir la commande.
-3. Dans le volet Actions, cliquez sur Vente au détail.
+3. Dans le volet Actions, cliquez sur Commerce et vente au détail.
 4. Cliquez sur Cross-docking.
 5. Cliquez sur Modifier.
     * La catégorie peut être utilisée pour filtrer les articles de la section Lignes.  

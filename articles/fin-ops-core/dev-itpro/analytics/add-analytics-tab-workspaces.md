@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771631"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025852"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
 
@@ -111,7 +111,7 @@ Procédez comme suit pour ajouter une logique métier qui initialise le contrôl
 2. Appuyez sur F7 pour accéder au code derrière la définition du code.
 3. Ajoutez le code X++ suivant :
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ Vous avez terminé la tâche d'ajouter une logique métier pour initialiser le c
 Cette section fournit des informations sur la classe d'aide utilisée pour inclure un état Power BI (ressource .pbix) à un contrôle de groupe d'écrans.
 
 #### <a name="syntax"></a>Syntaxe
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

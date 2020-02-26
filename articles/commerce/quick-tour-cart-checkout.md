@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697840"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002933"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Vue d'ensemble des pages de panier et de caisse
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique fournit une vue d'ensemble des pages de caisse et de panier dans Microsoft Dynamics 365 Commerce.
@@ -65,11 +65,11 @@ Le corps principal de la page de caisse est là où toutes les informations de l
 
 ### <a name="shipping-address"></a>Adresse d'expédition
 
-Une adresse d'expédition est obligatoire si les articles doivent être expédiés. Le format des adresses d'expédition pour chaque paramètre régional peut être configuré dans Dynamics 365 Retail. Par exemple, si les articles sont expédiés aux États-Unis, l'adresse d'expédition doit inclure une adresse postale, un État, et le code postal. Une validation de la saisie de base est effectuée pour les champs d'adresse d'expédition, telle que le contrôle des caractères alphanumériques, de la longueur maximale, et des numéros. Bien que la validité de l'adresse elle-même ne soit pas vérifiée, cette vérification peut être effectuée à l'aide de services tiers personnalisés.
+Une adresse d'expédition est obligatoire si les articles doivent être expédiés. Le format des adresses d'expédition pour chaque paramètre régional peut être configuré dans Dynamics 365 Commerce. Par exemple, si les articles sont expédiés aux États-Unis, l'adresse d'expédition doit inclure une adresse postale, un État, et le code postal. Une validation de la saisie de base est effectuée pour les champs d'adresse d'expédition, telle que le contrôle des caractères alphanumériques, de la longueur maximale, et des numéros. Bien que la validité de l'adresse elle-même ne soit pas vérifiée, cette vérification peut être effectuée à l'aide de services tiers personnalisés.
 
 L'adresse de livraison est appliquée à tous les articles du panier pour lesquels l'option « expédier » est activée. Si vous utilisez le flux de caisse fourni dans le kit de démarrage en ligne, différents articles du panier ne peuvent pas être expédiés à certaines adresses. Si vous avez besoin de cette fonctionnalité, elle peut être mise en service via la personnalisation des modules de caisse.
 
-Une fois l'adresse d'expédition fournie, les méthodes d'expédition qui sont disponibles dans le magasin en ligne Dynamics 365 Commerce sont affichées. Les méthodes d'expédition et les adresses qu'elles prennent en charge peuvent être configurées dans la vente au détail.
+Une fois l'adresse d'expédition fournie, les méthodes d'expédition qui sont disponibles dans le magasin en ligne Dynamics 365 Commerce sont affichées. Les modes d'expédition et les adresses qu'elles prennent en charge peuvent être configurées dans Commerce.
 
 ### <a name="payment"></a>Paiement
 

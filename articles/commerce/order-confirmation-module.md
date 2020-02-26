@@ -1,9 +1,9 @@
 ---
-title: Module Confirmation de commande
-description: Cette rubrique couvre les modules de confirmation de commande et décrit leur création dans Microsoft Dynamics 365 Commerce.
+title: Module des détails de la commande
+description: Cette rubrique aborde les modules des détails de la commande et explique comment les utiliser dans Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,52 +17,54 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e339ce02bb646d0d9a68c22b24fde9b72071de6f
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: cb09a0b6ce1e48707f96021e9fad0006d9c1c55c
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698324"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026015"
 ---
-# <a name="order-confirmation-module"></a>Module Confirmation de commande
+# <a name="order-details-module"></a>Module des détails de la commande
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de confirmation de commande et décrit leur création dans Microsoft Dynamics 365 Commerce.
+Cette rubrique aborde les modules des détails de la commande et explique comment les utiliser dans Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Un module de confirmation de commande est utilisé pour afficher un message de confirmation sur une page de confirmation de commande après une commande passée. Le module de confirmation de commande affiche le numéro de confirmation de la commande et l'adresse e-mail du client qui a été fournie lors de l'extraction.
-
-Lorsqu'une commande est effectuée lors de l'extraction, le numéro confirmation de commande et l'adresse e-mail du client sont transférés vers la page de confirmation de commande comme une chaîne de requête dans l'URL de la page. Le module de confirmation de commande reçoit ces informations et affiche le statut de la commande sur la page de confirmation de commande. Le module de confirmation de commande nécessite ce contexte de page pour fournir le statut de la commande.
+Le module des détails de la commande permet d'afficher les détails de confirmation de commande une fois la commande passée. Il indique l'ID de confirmation de la commande, les coordonnées de contact de la commande et d'autres détails de commande comme les articles achetés, les informations de paiement et le mode d'expédition.
 
 ## <a name="order-confirmation-module-properties"></a>Propriétés du module de confirmation de commande
 
-| Nom de la propriété | Valeurs | Description |
-|---------------|--------|-------------|
-| En-tête       | Texte d'en-tête et balise d'en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Le module de confirmation de commande peut avoir un en-tête. Par défaut, la balise d'en-tête **H2** sert pour l'en-tête. Toutefois, la balise peut être modifiée pour satisfaire aux exigences d'accessibilité. |
+| Nom de la propriété  | Valeurs | Description |
+|----------------|--------|-------------|
+| En-tête        | Texte d'en-tête et balise d'en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Le module de confirmation de commande peut avoir un en-tête. Par défaut, la balise d'en-tête **H2** sert pour l'en-tête. Toutefois, la balise peut être modifiée pour satisfaire aux exigences d'accessibilité. |
+| Numéro du contact | Texte | Un numéro de contact peut être fourni pour les questions liées à la commande. |
 
-## <a name="modules-that-can-be-used-in-an-order-confirmation-page-module"></a>Modules qui peuvent être utilisés dans un module de page de confirmation de commande 
+## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Modules pouvant être utilisés dans une page de détails de la commande
 
-- **Recommandations** – Le module de recommandations peut être placé sur la page de confirmation de commande pour suggérer d'autres produits au client.
-- **Marketing** – Le module de marketing peut ajouter du contenu marketing à la page de confirmation de commande.
+Lorsque vous créez une page de détails de la commande, vous pouvez ajouter d'autres modules pertinents au module de détails de la commande existant. Voici quelques exemples :
 
-## <a name="create-an-order-confirmation-page-module"></a>Créer un module de page de confirmation de commande
+- **Module de recommandations** : il peut être ajouté à la page de détails de la commande pour suggérer d'autres produits au client.
+- **Modules de marketing** : tout module de marketing peut être ajouté à la page de détails de la commande pour afficher le contenu marketing.
 
-1. Créez un modèle de page nommé **modèle de confirmation de commande**.
-1. À l'emplacement **Principal** de la page par défaut, ajoutez un module de confirmation de commande.
-1. Dans le module de confirmation de commande, ajoutez un module de recommandations.
-1. Enregistrez et affichez un aperçu du modèle. Le module de confirmation de commande ne doit pas être affiché, car il nécessite le contexte du numéro de confirmation de commande.
-1. Archivez le modèle, et publiez-le.
-1. Utilisez le modèle de confirmation de commande que vous venez de créer pour créer une page qui s'appelle **page Confirmation de commande**.
+## <a name="create-an-order-details-page-module"></a>Créer un module de page de détails de la commande
+
+1. Créez un modèle de page nommé **Modèle de détails de la commande**.
+1. Dans l'emplacement **Principal** de la page par défaut, ajoutez un module de détails de la commande.
+1. Dans le module de détails de la commande, ajoutez un module de recommandations.
+1. Enregistrez et affichez un aperçu du modèle. Le module de détails de la commande ne s'affiche pas car il a besoin du contexte du numéro de confirmation de commande.
+1. Terminez la modification du modèle et publiez-le.
+1. Utilisez le modèle de détails de la commande que vous venez de créer pour créer une page nommée **page de détails de la commande**.
 1. Ajoutez la page par défaut au contour de page.
 1. À l'emplacement **En-tête**, ajoutez un fragment d'en-tête.
 1. À l'emplacement **Pied de page**, ajoutez un fragment de pied de page.
-1. À l'emplacement **Principal**, ajoutez un module de confirmation de commande.
-1. Dans le volet de propriété du module de confirmation de commande, ajoutez l'en-tête **Confirmation de commande**.
-1. Sous le module de confirmation de commande, ajoutez un module de recommandations, et configurez-le afin qu'il utilise les paramètres **Nouveau** et **Meilleure vente**.
-1. Enregistrez et afficher un aperçu de la page, archivez-le, et publiez-le.
+1. Dans l'emplacement **Principal**, ajoutez un module de détails de la commande.
+1. Dans le volet de propriétés du module de détails de la commande, ajoutez l'en-tête **Détails de la commande**.
+1. Sous le module de détails de la commande, ajoutez un module de recommandations et configurez-le afin qu'il utilise les paramètres **Nouveau** et **Meilleure vente**.
+1. Enregistrez et affichez un aperçu de la page.
+1. Terminez la modification de la page et publiez-la.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

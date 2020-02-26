@@ -3,7 +3,7 @@ title: Vue d'ensemble du module Gestion de document commercial
 description: Cette rubrique fournit des informations sur l'utilisation de la fonctionnalité Gestion de document commercial de la structure de gestion des états électroniques (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933906"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957365"
 ---
 # <a name="business-document-management-overview"></a>Vue d'ensemble du module Gestion de document commercial
 
@@ -122,7 +122,7 @@ Procédez comme suit pour activer la fonctionnalité Gestion de document commerc
 4. Actualisez la page pour accéder à la nouvelle fonctionnalité.
 
 >[!NOTE]
-> Également vous devez activer **Expérience d'interface utilisateur de type bureau pour la gestion des documents commerciaux** pour utiliser la nouvelle interface de gestion des documents commerciaux
+> Pour plus d'informations sur l'utilisation de la nouvelle interface utilisateur dans Gestion des documents commerciaux, consultez [Nouvelle interface utilisateur de document dans la gestion des documents commerciaux](er-business-document-management-new-template-ui.md).
 
 ![Espace de travail Gestion des fonctionnalités](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ Pour plus d'informations sur la définition des paramètres et des types de docu
 
 ![Paramétrer un type de document pour la gestion des documents](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>Définir les paramètres
+### <a name="SetupBdmParameters">Définir les paramètres</a>
 
 Les paramètres de base du module Gestion de document commercial peuvent être définis sur la page **Paramètres de document commercial**. Seuls certains utilisateurs peuvent accéder à la page. Notamment :
 
@@ -166,6 +166,9 @@ Suivez les procédures suivantes pour définir les paramètres de base pour tout
 ![Définition des paramètres du module Gestion de document commercial](./media/BDM-Overview-BDMSetting.png)
 
 Le type de document sélectionné est spécifique à la société et sera utilisé lorsque l'utilisateur travaille avec le module Gestion de document commercial dans la société pour laquelle le type de document sélectionné est configuré. Lorsque l'utilisateur travaille avec le module Gestion de document commercial dans une autre société, le même type de document sélectionné est utilisé s'il a été configuré pour cette société. Lorsqu'un type de document a été configuré, il sera utilisé à la place de celui sélectionné dans le champ **Type de document SharePoint**.
+
+> [!NOTE]
+> Le paramètre **Type de document SharePoint** définit un dossier SharePoint comme stockage temporaire pour les modèles modifiables à l'aide de Microsoft Excel ou de Word. Vous devez configurer ce paramètre si vous prévoyez d'utiliser ces applications de bureau Office pour modifier des modèles. Pour plus d'informations, voir [Modifier un modèle dans l'application de bureau Office](#EditInOfficeDesktopApp). Vous pouvez laisser ce paramètre vide si vous prévoyez de modifier le modèle en utilisant uniquement les fonctionnalités d'Office 365. Pour plus d'informations, voir [Modifier un modèle dans Office 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurer les autorisations d'accès
 
@@ -258,23 +261,18 @@ L'option **Modifier le modèle** est disponible pour le modèle sélectionné. C
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Lancer des modèles de modification détenus par d'autres fournisseurs
 
-1. Dans l'espace de travail de gestion des documents commerciaux, sélectionnez **Nouveau document**.
+1. Dans l'espace de travail Gestion des documents commerciaux, sélectionnez le document que vous souhaitez utiliser comme modèle.
 
-![Page de l'espace de travail du module Gestion de document commercial](./media/BDM_overview_new_template1.png)
+![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate3.png)
 
-2. Sélectionnez le document à enregistrer comme modèle.
+3. Sélectionnez **Nouveau document** et dans le champ **Titre**, modifiez le titre du modèle modifiable si nécessaire. Le texte sera utilisé pour nommer la configuration du format ER qui est automatiquement créée. Notez que la version temporaire de cette configuration (**Copie d'État FTI client (GER)**) qui contient le modèle modifié sera automatiquement marquée pour exécuter ce format ER pour l'utilisateur actuel. En même temps, le modèle d'origine non modifié de la configuration du format ER de base sera utilisé pour exécuter ce format ER pour tout autre utilisateur.
+4. Dans le champ **Nom**, modifiez le nom de la première révision du modèle modifiable qui sera créé automatiquement.
+5. Dans le champ **Commentaire**, modifiez le commentaire de la révision créée automatiquement du modèle modifiable.
+6. Cliquez sur **OK** pour confirmer le début du processus de modification.
 
-![Page de l'espace de travail du module Gestion de document commercial](./media/BDM_overview_new_template2.png)
+![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate4.png)
 
-3. Cliquez sur **Créer un document**
-4. Dans le champ **Titre**, changez le titre du modèle à modifier si nécessaire. Le texte sera utilisé pour nommer la configuration du format ER qui est automatiquement créée. Notez que la version temporaire de cette configuration (**Copie d'État FTI client (GER)**) qui contient le modèle modifié sera automatiquement marquée pour exécuter ce format ER pour l'utilisateur actuel. En même temps, le modèle d'origine non modifié de la configuration du format ER de base sera utilisé pour exécuter ce format ER pour tout autre utilisateur.
-5. Dans le champ **Nom**, modifiez le nom de la première révision du modèle modifiable qui sera créé automatiquement.
-6. Dans le champ **Commentaire**, modifiez la remarque de la révision créée automatiquement du modèle modifiable.
-7. Cliquez sur **OK** pour confirmer le début du processus de modification.
-
-![Page de l'espace de travail du module Gestion de document commercial](./media/BDM_overview_new_template3.png)
-
-L'option **Nouveau document** est toujours disponible pour un modèle dans une configuration de format ER fournie par un autre fournisseur (Microsoft dans cet exemple). Lorsque vous cliquez sur **Nouveau document**, vous voyez tous les modèles détenus par les fournisseurs actuels et autres fournisseurs. Lorsque vous sélectionnez le modèle, il sera ouvert pour modification. Le modèle modifié est ensuite stocké dans une nouvelle configuration de format ER qui est automatiquement générée.
+L'option **Nouveau document**est toujours disponible pour un modèle dans une configuration au format ER fournie par un fournisseur actuel et un autre fournisseur (Microsoft dans cet exemple) qui n'a aucune révision. Le modèle modifié est ensuite stocké dans une nouvelle configuration de format ER qui est automatiquement générée.
 
 ### <a name="start-editing-a-template"></a>Commencer à modifier un modèle
 
@@ -282,7 +280,7 @@ L'option **Nouveau document** est toujours disponible pour un modèle dans une c
 2. Dans le champ **Nom**, modifiez le nom de la première révision du modèle modifiable qui sera créé automatiquement.
 3. Dans le champ **Commentaire**, modifiez la remarque de la révision créée automatiquement du modèle modifiable.
 
-    ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM_overview_new_template4.png)
+    ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate5.png)
 
 5. Cliquez sur **OK** pour confirmer le début du processus de modification.
 
@@ -290,13 +288,16 @@ La page **Éditeur de modèle BDM** s'ouvre. Le modèle sélectionné sera dispo
 
 ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>Modifier un modèle dans Office 365
+### <a name="EditInOffice365">Modifier un modèle dans Office 365</a>
 
-Modifiez le modèle à l'aide de la fonctionnalité d'Office 365. Par exemple, dans Office online, faites passer la police des invites de champ de l'en-tête de modèle de **Normal** à **Gras**. Ces modifications sont automatiquement enregistrées pour le modèle modifiable enregistré dans le principal stockage du modèle (par défaut, dans le stockage des objets blobs Azure) qui est configuré pour la structure ER.
+Vous pouvez modifier le modèle en utilisant Office 365. Par exemple, dans Office online, faites passer la police des invites de champ de l'en-tête de modèle de **Normal** à **Gras**. Ces modifications sont automatiquement stockées dans le modèle modifiable qui est stocké dans le principal stockage du modèle (par défaut, dans le stockage d'objets blob Azure). La configuration s'adresse à la structure ER.
 
 ![Page de l'éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>Modifier un modèle dans l'application de bureau Office
+### <a name="EditInOfficeDesktopApp">Modifier un modèle dans l'application de bureau Office</a>
+
+> [!NOTE]
+> Cette fonction n'est disponible que lorsque le paramètre **Type de document SharePoint** est correctement configuré. Pour plus d'informations, voir [Configurer les paramètres](#SetupBdmParameters).
 
 1. Sélectionnez l'option **Ouvrir dans l'application de bureau** pour modifier le modèle à l'aide de la fonctionnalité de l'application de bureau Office (Excel dans cet exemple). Le modèle modifiable est copié de la mémoire permanente vers le stockage temporaire configuré dans les paramètres du module Gestion de document commercial en tant que dossier SharePoint.
 2. Confirmez que vous souhaitez ouvrir le modèle à partir du stockage de fichier temporaire dans l'application de bureau Office Excel.
@@ -386,7 +387,7 @@ Lorsque vous modifiez le modèle provenant d'un format ER qui appartient au four
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>J'ai sélectionné **Modifier document**, mais plutôt que d'ouvrir la page **Éditeur de modèle BDM** dans Finance and Operations, je suis arrivé sur la page Web Office 365.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>J'ai sélectionné **Modifier document**, mais plutôt que d'ouvrir la page **Éditeur de modèle BDM** dans Finance and Operations, je suis arrivé sur la page web d'Office 365.
 Il s'agit d'un problème connu avec la redirection Office 365. Cela se produit lorsque vous vous connectez à Office 365 la première fois. Pour contourner ce problème, sélectionnez le bouton **Précédent** de votre navigateur pour revenir en arrière.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Je sais comment modifier un modèle à l'aide d'Office 365 dans la première session d'application et utiliser le modèle dans la deuxième session d'application en modifiant le modèle pour voir comment mes modifications affectent le document commercial généré. Puis-je effectuer cette opération à l'aide de l'application de bureau Office ?
@@ -411,3 +412,4 @@ Vous êtes probablement connecté à l'instance actuelle de l'application du dom
 [Intégrer des images et des formes dans les documents que vous générez ER à l'aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md)
 
 [Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

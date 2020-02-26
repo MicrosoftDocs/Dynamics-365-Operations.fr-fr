@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d95feb3395c36f9cf8a23770dc3173377067d9b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184874"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026061"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Générer des documents contenant des données d'application
 
@@ -58,7 +58,7 @@ Cette procédure est créée pour les utilisateurs auxquels le rôle Administrat
 6. Cliquez sur OK.
 
 ## <a name="review-er-format-executions-results"></a>Examiner les résultats de l'exécution du format ER
-    * Examinez le fichier XML généré.  
+Examinez le fichier XML généré.  
 1. Fermez la page.
 2. Accédez à Taxe > Déclarations > Commerce extérieur > Déclaration d'échanges de biens.
     * Ouvrez cet écran contenant les transactions de déclaration d'échanges de biens qui ont été incluses dans le document électronique généré.  

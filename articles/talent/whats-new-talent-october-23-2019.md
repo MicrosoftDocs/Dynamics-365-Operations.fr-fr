@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896794"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006262"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (23 octobre 2019)
 
@@ -39,9 +39,9 @@ Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: 
 
 Les modifications décrites dans cette section s'appliquent au numéro de version 8.1.2569. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support dans Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-30-for-finance-and-operations-apps"></a>Applications Platform update 30 pour Finance and Operations
+### <a name="platform-update-30-for-finance-and-operations-apps"></a>Mise à jour de la plateforme 30 pour les applications Finance and Operations
 
-Pour plus d'informations, voir [Nouveautés ou modifications dans les applications Platform update 30 pour Finance and Operations (novembre 2019)](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
+Pour plus d'informations, voir [Nouveautés ou modifications dans la mise à jour de la plateforme 30 pour les applications Finance and Operations (novembre 2019)](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Permet de supprimer la fonctionnalité d'aperçu d'inscription en cours aux avantages
 
@@ -89,4 +89,4 @@ Voir [Imprimer les examens des performances](https://docs.microsoft.com/dynamics
 
 Les fonctionnalités sont ajoutées et mises à jour dans chaque version. L'expérience de gestion de la fonctionnalité fournit un espace de travail dans lequel vous pouvez afficher une liste des fonctionnalités fournies dans chaque version. Par défaut, les nouvelles fonctionnalités sont désactivées. Vous pouvez utiliser l'espace de travail pour les activer et consulter la documentation les concernant.
 
-Pour en savoir plus sur les modifications venant avec la gestion des fonctionnalités, voir [Vue d'ensemble de la gestion des fonctionnalités](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Pour en savoir plus sur les modifications venant avec la gestion des fonctionnalités, voir [Vue d'ensemble de la gestion des fonctionnalités](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).

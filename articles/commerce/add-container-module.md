@@ -3,7 +3,7 @@ title: Module Container
 description: Cette rubrique couvre les modules de conteneur et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697058"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025526"
 ---
 # <a name="container-module"></a>Module Container
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de conteneur et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Un module de conteneur est un module qui héberge d'autres modules en son sein. Il s'agit du conteneur le plus générique utilisé dans Dynamics 365 Commerce. Le principal objectif d'un module de conteneur est de définir, via les propriétés définies pour celui-ci, la disposition des modules qui sont à l'intérieur. Par exemple, ces modules peuvent s'afficher côte à côte dans une disposition à deux, trois, quatre voire six colonnes. Ils peuvent également être limités à la largeur du conteneur, ou ils peuvent remplir l'écran. Un en-tête peut également être ajouté à chaque module de conteneur.
+Un module de conteneur est un module qui héberge d'autres modules en son sein. Le principal objectif d'un module de conteneur est de définir, via les propriétés paramétrées pour ce dernier, la disposition des modules qu'il contient. Par exemple, ces modules peuvent s'afficher côte à côte dans une disposition à deux, trois, quatre voire six colonnes. Ils peuvent également être limités à la largeur du conteneur, ou ils peuvent remplir l'écran. Un en-tête peut également être ajouté à chaque module de conteneur.
 
-Il existe trois types standard de modules de conteneur : conteneur, conteneur à 2 emplacements, et conteneur à 3 emplacements. Tous types de modules peuvent être placés à l'intérieur de ces conteneurs. Il existe également des types spéciaux de modules de conteneur, tels que le carrousel, le bloc riche de contenu, le placement de contenu, le panier, la caisse, la zone d'achat, l'en-tête, et le pied de page. Ces conteneurs ont des usages spécifiques, et uniquement des types de modules pris en charge spécifiques peuvent être mis à l'intérieur de ceux-ci.
+Trois modules de conteneur sont pris en charge : conteneur, conteneur à 2 emplacements et conteneur à 3 emplacements. Tous types de modules peuvent être placés à l'intérieur de ces conteneurs. 
 
-Nous vous conseillons de placer les modules dans un conteneur, de sorte qu'ils puissent être limités à la largeur du conteneur.
+> [!NOTE] 
+> Nous vous conseillons de toujours placer les modules dans un module de conteneur, de sorte qu'ils puissent être limités à la largeur du conteneur.
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>Exemples de modules de conteneur dans le commerce électronique
 
@@ -98,37 +99,34 @@ Des propriétés supplémentaires peuvent être utilisées pour optimiser la dis
 
 Pour ajouter un module de lecteur de conteneur à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Créez un modèle de page nommé **modèle de conteneur**.
-1. À l'emplacement **Principal** de la page par défaut, ajoutez un module de conteneur.
-1. Dans le module de conteneur, ajoutez un module de fonctionnalité.
-1. Archivez le modèle, et publiez-le.
+1. Créez un modèle de page nommé **modèle de conteneur**. 
+1. Dans l'emplacement **Corps**, ajoutez un module de **Page par défaut**.
+1. Terminez la modification du modèle et publiez-le.
 1. Utilisez le modèle de conteneur que vous venez de créer pour créer une page qui s'appelle **page de conteneur**.
 1. À l'emplacement **Principal** de la nouvelle page, ajoutez un module de conteneur.
-1. Dans le volet de propriété du module de conteneur, définissez la propriété **Nombre de colonnes** sur **1** et la propriété **Largeur** sur **Adapter au conteneur**.
-1. Dans le module de conteneur, ajoutez un module de fonctionnalité.
-1. Dans le volet de propriété du module de fonctionnalité, configurez un en-tête.
+1. Dans le volet de propriétés du module de conteneur, définissez la propriété **Nombre de colonnes** sur **1** et la propriété **Largeur** sur **Remplir le conteneur**.
+1. Dans le module de conteneur, ajoutez un module de bloc de contenu.
+1. Dans le volet de propriétés du module de bloc de contenu, configurez l'en-tête, l'image et la disposition.
 1. Enregistrez et affichez un aperçu de la page. Vous devez voir un module de fonctionnalité qui s'adapte à la largeur du module de conteneur.
-1. Dans le volet de propriété du module de conteneur, modifiez la valeur de la propriété **Nombre de colonnes** sur **3**.
-1. Ajoutez un module de fonctionnalité au module de conteneur.
-1. Enregistrez et affichez un aperçu de la page. Vous devez à présent voir trois modules de fonctionnalités qui apparaissent côte à côte.
-1. Après avoir obtenu la disposition de votre choix, archivez la page, puis publiez-la.
+1. Dans le volet de propriétés du module de conteneur, modifiez la valeur de la propriété **Nombre de colonnes** sur **3**.
+1. Ajoutez au moins deux modules de bloc de contenu au module de conteneur.
+1. Enregistrez et affichez un aperçu de la page. Vous devriez à présent voir trois modules de bloc de contenu s'afficher côte à côte.
+1. Après avoir obtenu la disposition de votre choix, terminez de modifier la page, puis publiez-la.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
 
-[Module Carrousel](add-carousel.md)
+[Module de carrousel](add-carousel.md)
 
-[Module de bloc de contenu riche](add-content-rich-block.md)
+[Module de bloc de texte](add-content-rich-block.md)
 
-[Module Placement de contenu](add-content-placement-modules.md)
+[Module de zone d'achat](add-buy-box.md)
 
-[Module Zone d'achat](add-buy-box.md)
+[Module de chariot](add-cart-module.md)
 
-[Module Panier](add-cart-module.md)
+[Module de validation](add-checkout-module.md)
 
-[Module Paiement](add-checkout-module.md)
-
-[Module En-tête](author-header-module.md)
+[Module d'en-tête](author-header-module.md)
 
 [Module Pied de page](author-footer-module.md)

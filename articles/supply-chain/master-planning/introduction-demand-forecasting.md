@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9280a2580d20d64f6542902aab1dbf55434bf84c
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: ca463d821292a2ad53462a3575f2d5712b9e53cc
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935512"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004040"
 ---
 # <a name="demand-forecasting-overview"></a>Vue d'ensemble de la prévision de la demande
 
@@ -50,7 +50,7 @@ Trois sujets principaux sont implémentés dans une prévision de la demande :
 -   **Modularité** – La prévision de la demande est modulaire et facile à configurer. Vous pouvez activer ou désactiver la fonctionnalité en modifiant la clé de configuration dans **Commerce** &gt; **Prévision de stock** &gt; **Prévision de la demande**.
 -   **Réutilisation de la pile Microsoft** – Microsoft a lancé la plateforme Machine Learning en février 2015. Machine Learning, qui fait désormais partie de Microsoft Cortana Analytics Suite, vous permet de créer rapidement et facilement des expériences d'analyse prévisionnelles, telles que des expériences d'estimation de la demande, à l'aide des langages de programmation d'algorithmes R ou Python et d'une interface de glisser-déplacer simple.
     -   Vous pouvez télécharger les expériences de prévision de la demande, les modifier pour répondre à vos exigences métier, les publier comme service Web sur Azure, puis les utiliser pour générer des prévisions de la demande. Les expériences sont téléchargeables si vous avez acheté un abonnement à Supply Chain Management pour un responsable de production utilisateur au niveau de l'entreprise.
-    -   Vous pouvez télécharger les expériences de prévision de la demande actuellement disponibles à partir de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). Étant donné que les expériences de prévision de la demande sont automatiquement intégrées à Supply Chain Management, les partenaires et clients doivent gérer l'intégration des expériences qu'ils téléchargent à partir de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). Par conséquent, les expériences de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) ne sont pas aussi simples à utiliser que les expériences de prévision de la demande de Finance and Operations. Vous devez modifier le code des expériences de sorte qu'elles utilisent l'interface de programmation d'applications (API) de Finance and Operations.
+    -   Vous pouvez télécharger les expériences de prévision de la demande actuellement disponibles à partir de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). Étant donné que les expériences de prévision de la demande sont automatiquement intégrées à Supply Chain Management, les partenaires et clients doivent gérer l'intégration des expériences qu'ils téléchargent à partir de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). Par conséquent, les expériences de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) ne sont pas aussi simples à utiliser que les expériences de prévision de la demande de Finance and Operations. Vous devez modifier le code des expériences de sorte qu'elles utilisent l'interface de programmation d'applications (API) de l'application Finance and Operations.
     -   Vous pouvez créer vos propres expériences dans Microsoft Azure Machine Learning Studio (classique), les publier comme services sur Azure, puis les utiliser pour générer des prévisions de la demande.
     -   Si vous n'avez pas besoin d'une haute performance, ou de traiter un grand nombre de données, vous pouvez utiliser la rangée gratuite de Machine Learning. Il est recommandé de toujours démarrer à partir de cette rangée, en particulier lors des phases de mise en œuvre et de test. Si vous avez besoin d'une plus haute performance et d'un stockage supplémentaire, vous pouvez utiliser la rangée standard de Machine Learning. Cette rangée nécessite un abonnement à Azure et entraîne des frais supplémentaires. Pour plus d'informations sur la tarification de Machine Learning, voir [Tarifs de Machine Learning Studio](https://aka.ms/machine-learning-price-info).
 -   **Réduction des prévisions à n'importe quel point de découplage** – La prévision de la demande s'appuie sur cette fonction, qui vous permet de prévoir à la fois la demande dépendante et indépendante à n'importe quel point de découplage.
@@ -69,7 +69,7 @@ Les prévisions, les données historiques et toutes les modifications apportées
 Vous pouvez utiliser Supply Chain Management pour visualiser et modifier les prévisions de base. Les ajustements manuels doivent être autorisés pour pouvoir utiliser les prévisions pour la planification.
 
 ## <a name="limitations"></a>Limites
-La prévision de la demande est un outil qui permet aux clients de l'industrie de fabrication de créer des processus de prévision. Elle offre les principales fonctionnalités d'une solution de prévision de la demande et est conçue de façon à pouvoir être facilement étendue. Il se peut que la prévision de la demande ne convienne pas aux clients des secteurs tels que la vente au détail, la vente en gros, le stockage, le transport ou d'autres services professionnels.
+La prévision de la demande est un outil qui permet aux clients de l'industrie de fabrication de créer des processus de prévision. Elle offre les principales fonctionnalités d'une solution de prévision de la demande et est conçue de façon à pouvoir être facilement étendue. Il se peut que la prévision de la demande ne convienne pas aux clients des secteurs tels que le commerce, la vente en gros, le stockage, le transport ou d'autres services professionnels.
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------

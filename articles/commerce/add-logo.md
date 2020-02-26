@@ -3,7 +3,7 @@ title: Ajouter un logo
 description: Cette rubrique décrit comment ajouter un logo à votre site dans Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23bac9aae6beb59912bbc9e1f2c6958c007550b0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914618"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025691"
 ---
 # <a name="add-a-logo"></a>Ajouter un logo
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment ajouter un logo à votre site dans Microsoft Dynamics 365 Commerce.
@@ -43,7 +43,7 @@ Vous pouvez ajouter un logo directement à un modèle, une disposition ou une pa
 
 Avant de pouvoir ajouter un logo à toutes les pages de votre site, vous devez effectuer ces tâches.
 
-1. Chargez votre logo dans le gestionnaire des actifs numériques, auquel vous pouvez accéder depuis la page **Actifs**.
+1. Téléchargez votre logo dans la bibliothèque multimédia.
 1. Créez un fragment d'en-tête. Pour plus d'informations sur la création et l'utilisation de fragments, consultez [Utilisation des fragments](work-with-fragments.md).
 1. Incluez le fragment d'en-tête dans le modèle que les pages de votre site utilisent pour leurs options de disposition et de module. Pour plus d'informations sur les modèles, voir [Utilisation des modèles](work-with-templates.md).
 
@@ -51,13 +51,11 @@ Avant de pouvoir ajouter un logo à toutes les pages de votre site, vous devez e
 
 Pour ajouter un logo au fragment d'en-tête de votre site, procédez comme suit.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Fragments**, puis sélectionnez le fragment d'en-tête que vous avez créé.
-2. Sélectionnez **Caisse**.
-3. Développez l'emplacement **En-tête** et l'emplacement **Logo**.
-4. Sélectionnez le bouton représentant des points de suspension (**...**) en regard de l'emplacement **Logo**, et sélectionnez **Ajouter un module**.
-5. Sélectionnez le module du logo.
-6. Dans le volet des propriétés de droite, configurez le module de logo afin qu'il affiche votre logo.
-7. Enregistrez le fragment d'en-tête, archivez-le, et publiez-le.
+1. Dans le volet de navigation sur la gauche, sélectionnez **Fragments de page**.
+1. Sélectionnez le fragment d'en-tête créé précédemment, puis sélectionnez **Modifier**.
+1. Développez le module d'en-tête.
+1. Dans le volet des propriétés du module d'en-tête, fournissez une image et un lien pour le logo. 
+1. Enregistrez le fragment d'en-tête, terminez de le modifier et publiez-le.
 
 Après avoir publié le fragment d'en-tête mis à jour, toutes les pages de site qui utilisent le modèle qui contient le fragment d'en-tête afficheront votre logo.
 

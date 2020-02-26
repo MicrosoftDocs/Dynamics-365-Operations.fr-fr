@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843239"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026312"
 ---
 # <a name="reconcile-freight-manually"></a>Rapprocher manuellement les frais de transport
 
@@ -37,7 +37,7 @@ Cette procédure indique comment rapprocher manuellement les frais de transport.
 3. Dans la liste, sélectionnez la charge dont l'ID de charge est 00006.
 
 ## <a name="create-a-carrier-invoice"></a>Créer une facture transporteur
-    * Si vous rapprochez manuellement les frais de transport et ne recevez pas automatiquement les factures du transporteur, vous pouvez créer une facture sur la base de la facture des frais de transport.  
+Si vous rapprochez manuellement les frais de transport et ne recevez pas automatiquement les factures du transporteur, vous pouvez créer une facture sur la base de la facture des frais de transport.  
 1. Cliquez sur Informations associées.
 2. Cliquez sur Détails de la facture des frais de transport.
 3. Cliquez sur Générer la facture de transport.
@@ -45,7 +45,7 @@ Cette procédure indique comment rapprocher manuellement les frais de transport.
 5. Cliquez sur OK.
 
 ## <a name="reconcile-the-invoice"></a>Rapprocher la facture
-    * Lorsque vous rapprochez une facture du transporteur et une facture des frais de transport, cette procédure est effectuée ligne par ligne.  
+Lorsque vous rapprochez une facture du transporteur et une facture des frais de transport, cette procédure est effectuée ligne par ligne.  
 1. Cliquez sur Mettre en correspondance les facture des frais de transport et les factures.
 2. Développez la section Détails de la facture.
 3. Développez la section Détails de la facture des frais de transport non rapprochés.

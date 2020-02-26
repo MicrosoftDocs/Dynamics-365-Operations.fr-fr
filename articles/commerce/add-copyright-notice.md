@@ -3,7 +3,7 @@ title: Ajouter un avis de droits d'auteur
 description: Cette rubrique décrit la procédure d'ajout d'un avis de droits d'auteur à votre site web de commerce électronique.
 author: psimolin
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914567"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025480"
 ---
 # <a name="add-a-copyright-notice"></a>Ajouter un avis de droits d'auteur
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit la procédure d'ajout d'un avis de droits d'auteur à votre site web de commerce électronique.
@@ -48,8 +48,8 @@ Pour ajouter un avis de droits d'auteur au bas de chaque page qui utilise un mod
 1. Dans le volet de navigation, sélectionnez le bouton représentant des points de suspension (**...**) en regard de **Pied de page**, et sélectionnez **Ajouter le module**ensuite.
 1. Dans la boîte de dialogue, sélectionnez **Catégorie de pied de page**, puis sélectionnez **OK**.
 1. Dans le volet de navigation, sélectionnez le bouton représentant des points de suspension en regard de **Catégorie de pied de page**, et sélectionnez **Ajouter le module** ensuite.
-1. Dans la boîte de dialogue, sélectionnez **Article de bloc de contenu riche**, puis sélectionnez **OK**.
-1. Dans le volet de navigation, sélectionnez **Article de bloc de contenu riche**.
+1. Dans la boîte de dialogue, sélectionnez **Bloc de texte**, puis sélectionnez **OK**.
+1. Dans le volet de navigation, sélectionnez **Bloc de texte**.
 1. Dans le volet de propriétés de droite, dans le champ **Paragraphe**, ajoutez le message sur les droits d'auteur. Par exemple, entrez **(C) Fabrikam 2019**.
 1. Sélectionnez **Enregistrer**, sélectionnez **Archiver**, puis sélectionnez **Publier**.
 1. Accédez à **Modèles**, sélectionnez le modèle, puis sélectionnez **Caisse**.

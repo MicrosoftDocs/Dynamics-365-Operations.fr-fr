@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812384"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003677"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Vue d'ensemble des organisations et des hiérarchies d'organisation
 
@@ -47,7 +47,7 @@ Une société est un type d'entité juridique. Actuellement, les entreprises son
 
 Une section est une organisation utilisée pour partager le contrôle des ressources économiques et des processus opérationnels dans une société. Dans une section, les personnes ont la responsabilité d'optimiser l'utilisation des ressources rares, d'améliorer les processus et de justifier leurs performances.
 
-Les types d'unités opérationnelles incluent les centres de coût, les unités commerciales, les chaînes de valeur, les départements et les chaînes de vente au détail. Le tableau suivant fournit d'autres informations sur chaque type de section.
+Les types d'unités opérationnelles incluent les centres de coût, les unités commerciales, les chaînes de valeur, les services et les chaînes de commerce. Le tableau suivant fournit d'autres informations sur chaque type de section.
 
 | Type de section | description ; | Objectif |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ Les types d'unités opérationnelles incluent les centres de coût, les unités 
 | Unité commerciale       | Section semi-autonome créée pour répondre aux objectifs commerciaux stratégiques. | Utilisé pour les états financiers basés sur les secteurs ou les lignes de produits que l'organisation gère indépendamment des entités juridiques. |
 | Chaîne de valeur        | Section qui contrôle un ou plusieurs flux de production. | Utilisée couramment dans la production au plus juste pour contrôler les activités et les flux requis pour offrir un produit ou un service aux consommateurs. |
 | Département          | Section représentant une catégorie ou une portion fonctionnelle d'une organisation qui exécute une tâche spécifique, par exemple les ventes ou la comptabilité. | Utilisé pour créer des états sur les zones fonctionnelles. Un département peut être responsable des résultats et peut être composé d'un groupe de centres de coût. |
-| Canal de vente au détail      | Unité opérationnelle représentent un magasin physique, un magasin en ligne ou une place de marché en ligne. | Utilisé pour la gestion et le contrôle opérationnel d'un ou plusieurs magasins au sein d'une entité juridique ou entre plusieurs entités juridiques. |
+| Canal de commerce      | Unité opérationnelle représentent un magasin physique, un magasin en ligne ou une place de marché en ligne. | Utilisé pour la gestion et le contrôle opérationnel d'un ou plusieurs magasins au sein d'une entité juridique ou entre plusieurs entités juridiques. |
 
 ### <a name="teams"></a>Équipes
 

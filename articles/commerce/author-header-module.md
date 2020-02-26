@@ -1,9 +1,9 @@
 ---
 title: Module En-tête
-description: Cette rubrique couvre les modules d'en-tête et décrit leur création dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique couvre les modules d'en-tête et décrit comment créer des en-têtes de page dans Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,60 +17,60 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cc98419077f6f563ea2265d4e68ba809971cfbd6
-ms.sourcegitcommit: ff93b8f6a11993f2cd00be2da7aa77ef0d950ab8
+ms.openlocfilehash: efadd19681bbb21ea5b2b469e55bc6f4b0535046
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885476"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025656"
 ---
 # <a name="header-module"></a>Module d'en-tête
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules d'en-tête et décrit leur création dans Microsoft Dynamics 365 Commerce.
+Cette rubrique couvre les modules d'en-tête et décrit comment créer des en-têtes de page dans Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Un module d'en-tête est un conteneur spécial utilisé pour héberger tous les modules qui s'affichent dans l'en-tête d'une page. Par exemple, il peut comprendre votre logo de site, des liens vers la hiérarchie de navigation, des liens vers d'autres pages du site, et la barre de recherche.
+Dans Dynamics 365 Commerce, un en-tête de page comprend plusieurs modules, tels que les modules d'en-tête, de menu de navigation, de recherche, de bannière promotionnelle et de consentement aux cookies. 
 
-Un module d'en-tête est automatiquement optimisé pour l'appareil sur lequel le site est affiché (autrement dit, un périphérique de bureau ou un appareil mobile). Par exemple, sur un appareil mobile, la barre de navigation est réduite en un bouton **Menu** (qui est parfois appelé *menu hamburger*).
+Le module d'en-tête comprend un logo de site, des liens vers la hiérarchie de navigation, des liens vers d'autres pages du site, un symbole de panier, un symbole de liste de souhaits, des options de connexion et la barre de recherche. Un module d'en-tête est automatiquement optimisé pour l'appareil sur lequel le site est affiché (autrement dit, pour un périphérique de bureau ou un appareil mobile). Par exemple, sur un appareil mobile, la barre de navigation est réduite en un bouton **Menu** (qui est parfois appelé *menu hamburger*).
 
-## <a name="properties-of-a-header"></a>Propriétés d'un en-tête
+## <a name="properties-of-a-header-module"></a>Propriétés d'un module d'en-tête
 
-Comme les conteneurs génériques, un module d'en-tête prend en charge les propriétés pour l'**en-tête** et la **largeur**.
+Un module d'en-tête prend en charge les propriétés suivantes : **Image de logo**, **Lien vers le logo** et **Liens de mon compte**. 
 
-Un module d'en-tête a plusieurs emplacements. Par exemple, des emplacements pour un message d'information, un menu de navigation, le logo, une barre de recherche, une icône de panier, une icône de liste de souhaits, et des informations sur le compte. Chaque emplacement prend en charge un ensemble spécifique de modules.
+Les propriétés **Image de logo** et **Lien vers le logo** sont utilisées pour définir un logo sur la page. Pour plus d'informations, voir [Ajouter un logo](add-logo.md). 
+
+La propriété **Liens de mon compte** peut être utilisée pour définir les pages de compte pour lesquelles le propriétaire du site souhaite afficher des liens rapides dans l'en-tête.
 
 ## <a name="modules-that-are-available-in-a-header-module"></a>Modules disponibles dans le module d'en-tête
 
 Les modules suivants peuvent être utilisés dans un module d'en-tête :
 
-- **Menu de navigation** – Le menu de navigation représente la hiérarchie de navigation du canal et d'autres liens de navigation statiques. La hiérarchie de navigation du canal peut être configurée dans Dynamics 365 Retail. Les articles configurés s'affichent alors comme navigation d'en-tête. En outre, les liens de navigation statiques peuvent être configurés, et des liens associés à d'autres pages du site de commerce électronique peuvent être fournis. L'en-tête lui-même peut être aligné à gauche, droite, ou centre.
-- **Icône de panier** – L'icône du panier est une icône spéciale qui représente le panier. Elle s'affiche dans l'en-tête et indique le nombre d'articles dans le panier. Un lien vers la page de panier doit accompagner l'icône du panier, de sorte que les clients puissent être redirigés vers la page de panier lorsqu'ils interagissent avec l'icône.
-- **Icône de liste de souhaits** – L'icône de liste de souhaits s'affiche dans l'en-tête et indique le nombre d'articles ajoutés à la liste de souhaits du client. Un lien vers la page de liste de souhaits doit accompagner cette icône, de sorte que les clients puissent être redirigés vers la page de liste de souhaits lorsqu'ils interagissent avec l'icône.
-- **Module de connexion** – Le module de connexion s'affiche dans l'en-tête. Il permet aux clients de se connecter à son compte ou de s'inscrire pour un compte. Si le client est déjà connecté, le module peut être configuré pour afficher des liens sur la page du compte, la page Historique des commandes, ou une autre page.
-- **Module Logo** – Ce module affiche le logo qui représente le détaillant et la marque. Il s'agit d'une image avec un lien. Le lien est généralement configuré de sorte qu'il redirige vers la page d'accueil, afin que les clients puissent rapidement revenir à la page d'accueil des pages du site.
-- **Alerte** – Une alerte s'affiche dans l'en-tête et est utilisée pour afficher un message intégré qui s'applique à toutes les pages du site. Par exemple, une alerte peut afficher un message, par exemple « Les soldes annuelles se terminent dans 2 jours ».
-- **Barre de recherche** – La barre de recherche permet aux utilisateurs d'entrer des termes de recherche afin de rechercher des produits. Le module doit être configuré avec l'URL de la page de résultats de la recherche. Le paramètre de chaîne de requête peut être configuré (la valeur par défaut est **« q »**). La barre de recherche a un emplacement de suggestion automatique où le module de suggestion automatique doit être ajouté.
-- **Suggestion automatique** – Le module de suggestion automatique affiche des résultats suggérés automatiquement. Ces résultats peuvent être des mots clés, des produits, ou des catégories si le terme de recherche est trouvé.
+- **Menu de navigation** – Le menu de navigation représente la hiérarchie de navigation du canal et d'autres liens de navigation statiques. La hiérarchie de navigation du canal peut être configurée dans Dynamics 365 Commerce. Le menu de navigation a une propriété **Source de navigation** qui est utilisée pour spécifier les éléments de menu statique et les éléments de menu de navigation Serveur de vente au détail comme source. Si des éléments de menu statique sont spécifiés comme source, des liens relatifs vers d'autres pages du site peuvent être fournis. Les articles configurés s'affichent alors comme navigation d'en-tête. 
+- **Rechercher** – Le module de recherche permet aux utilisateurs d'entrer des critères de recherche pour des produits. L'URL de la page de recherche par défaut et les paramètres de la requête de recherche doivent être fournis à l'adresse **Paramètres du site \> Extensions**. Le module de recherche possède des propriétés qui vous permettent de supprimer l'étiquette ou le bouton de recherche selon vos besoins. Le module de recherche prend également en charge les options de suggestion automatique, telles que les résultats de recherche de produits, de mots clés et de catégories.
 
-## <a name="create-a-header-module"></a>Créer un module d'en-tête
+## <a name="create-a-header-module-for-a-page"></a>Créer un module d'en-tête pour une page
 
 Pour créer un module d'en-tête, procédez comme suit :
 
-1. Créez un fragment de page qui inclut un module d'en-tête.
-1. Ajoutez les modules aux emplacements dans le module d'en-tête.
-1. Mettez à jour les paramètres pour chaque module.
-1. Enregistrez le fragment de page. 
-1. Archivez la page, et publiez-la.
+1. Créez un fragment nommé **fragment d'en-tête**, puis ajoutez un module de conteneur à celui-ci.
+1. Dans le volet de propriétés du module conteneur, définissez la propriété **Largeur** sur **Remplir le conteneur**.
+1. Ajoutez des modules de bannière promotionnelle et de consentement aux cookies au module de conteneur.
+1. Ajoutez un autre module de conteneur au fragment puis définissez la propriété **Largeur** sur **Remplir le conteneur**.
+1. Ajoutez un module d'en-tête au deuxième module de conteneur.
+1. Dans l'emplacement **menu de navigation** du module d'en-tête, ajoutez un module de menu de navigation. 
+1. Dans le volet de propriétés du module de menu de navigation, configurez les propriétés du module de menu de navigation.
+1. Dans l'emplacement **Rechercher** du module d'en-tête, ajoutez un module de recherche. 
+1. Dans le volet de propriétés du module de recherche, configurez les propriétés du module de recherche. 
+1. Enregistrez le fragment de page, terminez de le modifier et publiez-le. 
 
 Pour vous assurer qu'un en-tête apparaît sur chaque page, suivez ces étapes pour chaque modèle de page créé pour le site.
 
-1. Sur la page par défaut, ajoutez le fragment de page contenant le module d'en-tête à l'en-tête de l'emplacement principal.
-1. Enregistrez le modèle. 
-1. Archivez le modèle, et publiez-le.
+1. Dans l'emplacement **Principal** de la page par défaut, ajoutez le fragment de page d'en-tête qui contient le module d'en-tête à l'en-tête.
+1. Enregistrez le modèle, terminez de le modifier et publiez-le.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -1,9 +1,9 @@
 ---
-title: Destinations de la gestion des états électroniques
-description: Vous pouvez configurer une destination pour chaque configuration de génération d'états électroniques (ER) et son composant de sortie (un dossier ou un fichier). Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. Cet article explique la gestion des destinations des états électroniques, les types de destinations pris en charge et des considérations sur la sécurité.
-author: ShylaThompson
+title: Destinations pour la gestion des états électroniques
+description: Cette rubrique fournit des informations sur la gestion des destinations de rapport électronique (ER), les types de destinations pris en charge et les considérations de sécurité.
+author: nselin
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,117 +18,149 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771467"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030771"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations de la gestion des états électroniques
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez configurer une destination pour chaque configuration de génération d'états électroniques (ER) et son composant de sortie (un dossier ou un fichier). Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. Cet article explique la gestion des destinations des états électroniques, les types de destinations pris en charge et des considérations sur la sécurité.
+Vous pouvez configurer une destination pour chaque configuration de génération d'états électroniques (ER) et son composant de sortie (un dossier ou un fichier). Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. Cette rubrique explique la gestion des destinations des ER, les types de destinations pris en charge et des considérations sur la sécurité.
 
-Les configurations de format des états électroniques contiennent généralement au moins un composant de sortie : un fichier. En règle générale, les configurations contiennent plusieurs composants de sortie de fichiers de différents types (par exemple, XML, TXT ou XLSX) qui sont regroupés dans un dossier unique ou dans plusieurs dossiers. La gestion des destinations des états électroniques vous permet de préconfigurer ce qui se produit lors de l’exécution de chaque composant. Par défaut, lorsqu'une configuration est exécutée, une boîte de dialogue s'affiche pour permettre à l'utilisateur d'enregistrer ou d'ouvrir le fichier. Le même comportement est également utilisé lorsque vous importez une configuration d'état électronique et que vous ne configurez pas de destinations spécifiques pour lui. Après la création d’une destination pour un composant de sortie principal, cette destination remplace le comportement par défaut et le dossier ou le fichier est envoyé en fonction des paramètres de la destination.
+Les configurations de format des ER contiennent généralement au moins un composant de sortie : un fichier. En règle générale, les configurations contiennent plusieurs composants de sortie de fichiers de différents types (par exemple, XML, TXT, XLSX, DOCX ou PDF) qui sont regroupés dans un dossier unique ou dans plusieurs dossiers. La gestion des destinations des états électroniques vous permet de préconfigurer ce qui se produit lors de l’exécution de chaque composant. Par défaut, lorsqu'une configuration est exécutée, une boîte de dialogue s'affiche pour vous permettre d'enregistrer ou d'ouvrir le fichier. Le même comportement se produit également lorsque vous importez une configuration ER et que vous ne lui configurez pas de destinations spécifiques. Après la création d’une destination pour un composant de sortie principal, cette destination remplace le comportement par défaut et le dossier ou le fichier est envoyé en fonction des paramètres de la destination.
 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilité et conditions préalables générales
-La fonctionnalité des destinations d'états électroniques n’est pas disponible dans Microsoft Dynamics AX 7.0 (février 2016). Par conséquent, vous devez installer Microsoft Dynamics 365 for Operations version 1611 (novembre 2016) pour utiliser toutes les fonctions décrites dans cette rubrique. Vous pouvez également installer l'un des éléments requis suivants. Toutefois, notez que ces solutions de remplacement offrent une expérience plus limitée.
+
+La fonctionnalité des destinations d'ER n’est pas disponible dans Microsoft Dynamics AX 7.0 (février 2016). Par conséquent, vous devez installer Microsoft Dynamics 365 for Operations version 1611 (novembre 2016) ou ultérieure pour utiliser les types de destination suivants :
+
+- [Courrier électronique](er-destination-type-email.md)
+- [Archiver](er-destination-type-archive.md)
+- [Fichier](er-destination-type-file.md)
+- [Ecran](er-destination-type-screen.md)
+- [Power BI](er-destination-type-powerbi.md)
+
+Vous pouvez également installer l'un des éléments requis suivants. Toutefois, notez que ces solutions de remplacement offrent une expérience de destination ER plus limitée.
 
 - Application Microsoft Dynamics AX version 7.0.1 (mai 2016)
-- [Correctif d’application](https://fix.lcs.dynamics.com/issue/results/?q=3160213) de gestion des destinations d'états électoniques
+- [Correctif de l'application de gestion des destinations de rapports électroniques](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
+
+Il y a aussi un type de destination [Impression](er-destination-type-print.md). Pour l'utiliser, vous devez installer Microsoft Dynamics 365 Finance version 10.0.9 (avril 2020).
+
+## <a name="overview"></a>Vue d'ensemble
+
+Vous pouvez paramétrer des destinations uniquement pour les configurations d'ER qui ont été [importées](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) dans l'instance Finance actuelle, et pour les formats qui sont disponibles sur la page **Configurations de la gestion des états électroniques**. Le fonctionnalité pour la gestion de destination des ER est disponible ici : **Administration d'organisation** \> **Gestion des états électroniques** \> **Destination de la gestion des états électroniques**. Sur la page **Destination de la gestion des états électroniques**, vous pouvez remplacer le comportement par défaut d'une configuration. Les configurations importées ne sont pas affichées sur cette page jusqu'à ce que vous sélectionniez **Nouveau** puis, dans le champ **Référence**, une configuration pour créer des paramètres de destination.
+
+[![Sélection d'une configuration dans le champ Référence](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+
+Après avoir créé une référence, vous pouvez créer une destination de fichier pour chaque composant de sortie de **Dossier** ou de **Fichier** du format ER référencé.
+
+[![Création d'une destination de fichier](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+
+Ensuite, dans la boîte de dialogue **Paramètres de destination**, vous pouvez activer et désactiver des destinations individuelles pour la destination de fichier. Le bouton **Paramètres** est utilisé pour contrôler l’ensemble des destinations pour une destination de fichier sélectionnée. Dans la boîte de dialogue **Paramètres de destination**, vous pouvez contrôler séparément chaque destination en définissant l'option **Activé** pour celle-ci.
+
+Dans certaines versions de Finance **avant la version 10.0.9**, vous pouvez créer **une destination de fichier** pour chaque composant de sortie du même format, tel qu'un dossier ou un fichier sélectionné dans le champ **Nom du fichier**. Cependant, dans les **versions 10.0.9 et ultérieures**, vous pouvez créer **plusieurs destinations de fichiers** pour chaque composant de sortie du même format.
+
+Par exemple, vous pouvez utiliser cette fonctionnalité pour configurer des destinations de fichier pour un composant de fichier utilisé pour générer un document sortant au format Excel. Une destination ([Archiver](er-destination-type-archive.md)) peut être configurée pour stocker le fichier Excel d'origine dans l'archive des tâches ER et une autre destination ([Email](er-destination-type-email.md)) peut être configurée pour [convertir](#OutputConversionToPDF) le fichier Excel au format PDF et envoyer le fichier PDF par e-mail.
+
+[![Configuration de plusieurs destinations pour un seul élément de format](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+## <a name="destination-types"></a>Types de destinations
+
+Les destinations suivantes sont actuellement prises en charge pour les formats ER. Vous pouvez désactiver ou activer tous les types en même temps. De cette façon, vous pouvez soit ne rien faire soit envoyer le composant à toutes les destinations configurées.
+
+- [Courrier électronique](er-destination-type-email.md)
+- [Archiver](er-destination-type-archive.md)
+- [Fichier](er-destination-type-file.md)
+- [Ecran](er-destination-type-screen.md)
+- [Power BI](er-destination-type-powerbi.md)
+- [Imprimer](er-destination-type-print.md)
+
+## <a name="applicability"></a>Conditions d'application
 
 Vous pouvez paramétrer des destinations uniquement pour les configurations d'états électroniques qui ont été importées et pour les formats qui sont disponibles sur la page **Configurations des états électroniques**.
 
-## <a name="overview"></a>Vue d'ensemble
-La fonctionnalité de gestion des destinations d'états électroniques est disponible dans **Administration d’organisation** &gt; **États électroniques**. Ici, vous pouvez remplacer le comportement par défaut pour une configuration. Les configurations importées ne sont pas affichées ici tant que vous ne cliquez pas sur **Nouveau** puis, dans le champ **Référence**, sélectionnez une configuration pour créer des paramètres de destination.
+> [!NOTE]
+> Les destinations configurées sont spécifiques à l'entreprise. Si vous prévoyez d'utiliser un format ER dans différentes sociétés de l'instance Finance actuelle, vous devez configurer des destinations pour ce format ER pour chacune de ces sociétés.
 
-[![Sélection d'une configuration dans le champ Référence](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg)
+Lorsque vous configurez des destinations de fichiers pour un format sélectionné, vous les configurez pour l'ensemble du format.
 
-Une fois que vous avez créé une référence, vous pouvez créer une destination de fichier pour chaque dossier ou pour un fichier.
+[![Lien Configuration](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-[![Création d'une destination de fichier](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
+En même temps, vous pouvez avoir plusieurs [versions](general-electronic-reporting.md#component-versioning) du format importé dans l'instance Finance actuelle. Vous pouvez les afficher si vous sélectionnez le lien **Configuration** proposé lorsque vous sélectionnez le champ **Référence**.
+
+[![Versions de configuration](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+
+Par défaut, les destinations configurées sont appliquées uniquement lorsque vous exécutez une version au format ER dont l'état est soit **Terminé**, soit **Partagé**. Cependant, vous devez parfois utiliser des destinations configurées lorsque la version préliminaire d'un format ER est exécutée. Par exemple, vous modifiez une version provisoire de votre format et vous souhaitez utiliser des destinations configurées pour tester la manière dont la sortie générée sera livrée. Suivez ces étapes pour appliquer des destinations pour un format ER lorsque la version préliminaire est exécutée.
+
+1. Accédez à **Administration d'organisation** \> **États électroniques** \> **Configurations**.
+2. Dans la page **Configurations**, dans le volet Actions, sous l'onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Paramètres utilisateur**.
+3. Paramétrez l'option **Utiliser des destinations pour le statut de brouillon** sur **Oui**.
+
+[![Option Utiliser des destinations pour le statut de brouillon](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+
+Pour utiliser la version de brouillon d'un format ER, vous devez marquer le format ER en conséquence.
+
+1. Accédez à **Administration d'organisation** \> **États électroniques** \> **Configurations**.
+2. Dans la page **Configurations**, dans le volet Actions, sous l'onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Paramètres utilisateur**.
+3. Définissez l'option **Exécuter la configuration** sur **Oui**.
+
+[![Option Exécuter la configuration](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+
+Une fois cette configuration terminée, l'option **Exécuter le brouillon** devient disponible pour les formats ER que vous modifiez. Définissez cette option sur **Oui** pour commencer à utiliser la version de brouillon du format lorsque le format est exécuté.
+
+[![Option Exécuter le brouillon](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+
+## <a name="DestinationFailure"></a>Gestion des échecs de destination
+
+Habituellement, un format ER est exécuté dans le cadre d'un processus métier spécifique. Cependant, la livraison d'un document sortant généré lors de l'exécution d'un format ER doit parfois être considérée comme faisant partie de ce processus métier. Dans ce cas, si la livraison d'un document sortant généré vers une destination configurée échoue, l'exécution du processus métier doit être annulée. Pour configurer la destination ER appropriée, sélectionnez l'option **Arrêter le traitement en cas d'échec**.
+
+Par exemple, vous configurez le traitement des paiements fournisseur afin que le format ER **Transfert de crédit ISO20022** soit exécuté pour générer le fichier de paiement et les documents supplémentaires (par exemple, la lettre explicative et l'état de contrôle). Si un paiement doit être considéré comme ayant été traité avec succès uniquement si la lettre explicative est envoyée avec succès par e-mail, vous devez cocher la case **Arrêter le traitement en cas d'échec** pour le composant **CoveringLetter** dans la destination de fichier appropriée, comme indiqué dans l'illustration suivante. Dans ce cas, le statut du paiement sélectionné pour le traitement passe de **Aucun** à **Expédié** uniquement lorsque la lettre explicative générée est acceptée pour livraison par un fournisseur de messagerie configuré dans l'instance Finance.
+
+[![Configuration de la gestion des processus pour l'échec de destination du fichier](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+
+Si vous décochez la case **Arrêter le traitement en cas d'échec** pour le composant **CoveringLetter** dans la destination, un paiement sera considéré comme ayant été traité avec succès même si la lettre explicative n'est pas livrée avec succès par e-mail,. Le statut du paiement sera modifié de **Aucun** à **Expédié** même si la lettre explicative ne peut pas être envoyée car, par exemple, l'adresse e-mail du destinataire ou de l'expéditeur est manquante ou incorrecte.
+
+## <a name="OutputConversionToPDF"></a>Conversion de sortie en PDF
+
+Vous pouvez utiliser l'option de conversion PDF pour convertir la sortie au format Microsoft Office (Excel/Word) au format PDF.
+
+### <a name="make-pdf-conversion-available"></a>Rendre la conversion PDF disponible
+
+Pour rendre l'option de conversion PDF disponible dans l'instance Finance actuelle, ouvrez l'espace de travail **Gestion des fonctionnalités** et activez la fonctionnalité **Convertir les documents sortants de rapports électroniques à partir de formats Microsoft Office au format PDF**.
+
+[![Activation de la fonctionnalité de conversion PDF des documents sortants dans Gestion des fonctionnalités](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+
+### <a name="applicability"></a>Conditions d'application
+
+L'option de conversion PDF ne peut être activée que pour les composants de fichier utilisés pour générer une sortie au format Microsoft Office Excel ou Word (**fichier Excel**). Lorsque cette option est activée, la sortie générée au format Office est automatiquement convertie au format PDF.
+
+### <a name="limitations"></a>Limites
 
 > [!NOTE]
-> Vous pouvez créer une destination de fichier pour chaque composant de sortie de même format, tel qu'un dossier ou un fichier sélectionné dans le champ **Nom du fichier**. Vous pouvez ensuite activer et désactiver des destinations individuelles pour la destination de fichier dans la boîte de dialogue **Paramètres de destination**. Le bouton **Paramètres** est utilisé pour contrôler l’ensemble des destinations pour une destination de fichier sélectionnée. Dans la boîte de dialogue **Paramètres de destination**, vous pouvez contrôler séparément chaque destination en définissant l'option **Activé** pour celle-ci.
-
-[![Boîte de dialogue Paramètres de destination](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
-
-## <a name="destination-types"></a>Types de destinations
-Différents types de destinations sont pris en charge. Vous pouvez désactiver ou activer tous les types en même temps. De cette façon, vous pouvez soit ne rien faire soit envoyer le composant à toutes les destinations configurées. Les sections suivantes décrivent les destinations qui sont prises en charge.
-
-### <a name="email-destination"></a>Destination du courrier électronique
-
-Définissez **Activé** sur **Oui** pour envoyer un fichier de sortie par courrier électronique. Une fois cette option activée, vous pouvez spécifier les destinataires du message et modifier l'objet et le corps du courrier électronique. Vous pouvez paramétrer des textes constants pour l'objet et le corps du courrier électronique, ou vous pouvez utiliser des formules de génération d'états électroniques pour créer dynamiquement les textes de courrier électronique. Vous pouvez configurer les adresses électroniques pour les états électroniques de deux manières. La configuration peut être effectuée de la même manière que la fonctionnalité de gestion de l'impression dans l'application. Vous pouvez également résoudre une adresse électronique en utilisant une référence directe à la configuration d'états électroniques via une formule.
-
-### <a name="email-address-types"></a>Types d'adresses électroniques
-
-Lorsque vous cliquez sur **Modifier** pour le champ **À** ou **Cc**, la boîte de dialogue **E-mail à** s'affiche. Vous pouvez ensuite sélectionner le type d'adresse électronique à utiliser.
-
-[![Boîte de dialogue E-mail à](./media/ger-destinations-email-1-1611-1024x588.jpg)](./media/ger-destinations-email-1-1611.jpg)
-
-#### <a name="print-management"></a>Gestion de l'impression
-
-Si vous sélectionnez le type **E-mail de gestion de l'impression**, vous pouvez entrer des adresses électroniques fixes dans le champ **À**. Pour utiliser des adresses électroniques non fixes, vous devez sélectionner le type de source du courrier électronique pour une destination de fichier. Les valeurs suivantes sont prises en charge : **Client**, **Fournisseur**, **Prospect**, **Contact**, **Concurrent**, **Collaborateur**, **Candidat**, **Fournisseur potentiel** et **Fournisseur non autorisé**. Après avoir sélectionné un type de source de courrier électronique, utilisez le bouton en regard **Compte source de l'e-mail** pour ouvrir l'écran **Concepteur de formule**. Cet écran permet d'associer une formule qui représente le compte tiers sélectionné à la destination du courrier électronique.
-
-[![Configurer un type de courrier électronique de gestion de l'impression](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg)
-
-Notez que les formules sont spécifiques à la configuration de l'état électronique. Dans le champ **Formule**, entrez une référence spécifique au document pour un type de partie Client ou Fournisseur. Au lieu de taper, vous pouvez rechercher un nœud de source de données qui représente le compte client ou fournisseur, puis cliquer sur le bouton **Ajouter une source de données** pour mettre la formule à jour. Par exemple, si vous utilisez la configuration de virement bancaire ISO 20022, le nœud représentant un compte fournisseur est : **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. Sinon, entrez une valeur de chaîne, par exemple **DE-001**, pour enregistrer une formule.
-
-[![Concepteur de formule](./media/ger_formuladesignerfordestination-1024x541.jpg)](./media/ger_formuladesignerfordestination.jpg)
-
-Dans la boîte de dialogue **E-mail à**, cliquez sur la corbeille de recyclage en regard du champ **Compte source de l'e-mail** pour supprimer définitivement la formule pour le compte source du courrier électronique. Vous pouvez également ouvrir le concepteur de formule pour modifier une formule qui a été précédemment enregistrée. Pour affecter des adresses électroniques, cliquez sur **Modifier** pour ouvrir la boîte de dialogue **Affecter des adresses e-mail**.
-
-[![Affectation d'adresses électroniques pour une destination de courrier électronique](./media/ger-destinations-email-3-1611-1024x587.jpg)](./media/ger-destinations-email-3-1611.jpg)
-
-#### <a name="configuration-email"></a>E-mail de configuration
-
-Utilisez ce type de courrier électronique si la configuration que vous utilisez a un nœud dans les sources de données qui représente une adresse électronique. Vous pouvez utiliser les sources et fonctions de données du concepteur de formule pour obtenir une adresse électronique correctement mise en forme.
-
-[![Affectation d'une source de données d'adresse électronique pour une destination de courrier électronique](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg)
+> Cette fonctionnalité est une fonctionnalité d'aperçu et est soumise aux conditions d'utilisation décrites dans les [Conditions d'utilisation supplémentaires pour Microsoft Dynamics 365 (préversion)](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 > [!NOTE]
-> Un serveur SMTP (Simple Mail Transfer Protocol) doit être configuré et disponible. Vous pouvez spécifier votre serveur SMTP dans **Administration système** &gt; **Configuration** &gt; **E-mail** &gt; **Paramètres de messagerie**.
+> L'option de conversion PDF n'est disponible que pour les déploiements cloud.
+>
+> Le PDF produit est limité à un nombre maximum de 300 pages.
+>
+> À l'heure actuelle, seule l'orientation de la page paysage est prise en charge dans le document PDF produit à partir d'une sortie Excel.
+>
+> Seules les polices système courantes du système d'exploitation Windows sont utilisées pour la conversion d'une sortie qui ne contient aucune police intégrée.
 
-### <a name="archive-destination"></a>Destination de l'archive
+### <a name="use-the-pdf-conversion-option"></a>Utilisez l'option de conversion PDF
 
-Vous pouvez utiliser cette option pour envoyer la sortie vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui** pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les types de documents dans **Administration d’organisation** &gt; **Gestion de documents** &gt; **Types de documents**. La configuration des destinations d'états électroniques est identique à la configuration du système de gestion des documents.
+Pour activer la conversion PDF pour une destination de fichier, cochez la case **Convertir en PDF**.
 
-[![Page Types de documents](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
-
-L’emplacement détermine où le fichier est enregistré. Une fois la destination **Archive** activée, les résultats de l'exécution de la configuration peuvent être enregistrés dans l'archive Tâche. Vous pouvez afficher les résultats sous **Administration d'organisation** &gt; **Gestion des états électroniques** &gt; **Tâches de gestion des états électroniques archivées**.
-
-> [!NOTE]
-> Vous pouvez sélectionner un type de document pour l'archive Tâche, sous **Administration d'organisation** &gt; **Espaces de travail** &gt; **Gestion des états électroniques** &gt; **Paramètres de gestion des états électroniques**.
-
-#### <a name="sharepoint"></a>SharePoint
-
-Vous pouvez enregistrer un fichier dans un dossier SharePoint désigné. Définissez le serveur SharePoint par défaut dans **Administration d'organisation** &gt; **Gestion des documents** &gt; **Paramètres de gestion des documents** dans l'onglet **SharePoint**. Une fois le dossier SharePoint configuré, vous pouvez le sélectionner comme dossier où la sortie d'état électronique sera enregistrée pour le type de document.
-
-[![Sélection d'un dossier SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
-
-#### <a name="azure-storage"></a>Stockage Azure
-
-Lorsque l’emplacement du type de document est défini sur **Répertoire d'archivage**, vous pouvez enregistrer un fichier dans le stockage Azure.
-
-### <a name="file-destination"></a>Destination du fichier
-
-Si vous définissez **Activé** sur **Oui**, une boîte de dialogue Ouvrir ou Enregistrer s'affiche lorsque l'exécution de la configuration est terminée.
-
-### <a name="screen-destination"></a>Destination d'écran
-
-Si vous définissez **Activé** sur **Oui**, un aperçu de la sortie est créé. Vous pouvez afficher certains types de fichiers, tels que XML, TXT ou PDF, directement dans une fenêtre du navigateur. Pour les autres types de fichiers, tels que Microsoft Excel ou Word, le service Microsoft Office Online est utilisé.
-
-### <a name="power-bi-destination"></a>Destination Power BI
-
-Définissez **Activé** sur **Oui** pour utiliser la configuration de génération d'états électroniques pour organiser le transfert des données entre votre instance et les services Microsoft Power BI. Les fichiers transférés sont stockés sur une instance Microsoft SharePoint Server qui doit être configurée à cette fin. Pour plus d'informations, voir [Configurer les états électroniques (ER) pour extraire les données dans Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
-
-> [!TIP]
-> Pour substituer le comportement par défaut (autrement dit, la boîte de dialogue de configuration), vous pouvez créer une référence de destination et une destination de fichier pour le composant de sortie principal et ensuite désactiver toutes les destinations.
+[![Activation de la conversion PDF pour une destination de fichier](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ## <a name="security-considerations"></a>Considérations de sécurité
-Deux types de privilèges et de droits sont utilisés pour les destinations d'états électroniques. Un type contrôle la possibilité de mettre à jour les destinations globales qui sont configurées pour une entité juridique (autrement dit, il contrôle l’accès à la page **Destinations des états électroniques**). L’autre type contrôle la capacité de l’utilisateur d’une application à substituer, au moment de l’exécution, les paramètres de destination qui sont configurés par un développeur d'états électroniques ou un consultant fonctionnel d'états électroniques.
+
+Deux types de privilèges et de droits sont utilisés pour les destinations d'états électroniques. Un type contrôle la possibilité globale d'un utilisateur de mettre à jour les destinations qui sont configurées pour une entité juridique (autrement dit, il contrôle l’accès à la page **Destinations des états électroniques**). L’autre type contrôle la capacité de l'utilisateur d’une application à substituer, au moment de l’exécution, les paramètres de destination qu'un développeur d'états électroniques ou un consultant fonctionnel d'états électroniques a configuré.
 
 | Rôle (nom AOA)                     | Nom de rôle                                  | Droit de douane (nom AOA)                     | Nom de droits de douane                                                        |
 |-------------------------------------|--------------------------------------------|-------------------------------------|------------------------------------------------------------------|
@@ -141,13 +173,14 @@ Deux types de privilèges et de droits sont utilisés pour les destinations d'é
 > Deux privilèges sont utilisés dans les droits précédents. Ces privilèges ont les mêmes noms que les droits correspondants : **ERFormatDestinationConfigure** et **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
+
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>J’ai importé des configurations électroniques et je les vois sur la page Configurations des états électroniques. Mais pourquoi je ne les vois pas dans la page Destinations des états électroniques ?
 
-Vérifiez que vous cliquez sur **Nouveau**, puis sélectionnez une configuration dans le champ **Référence**. Sur la page **Destinations des états électroniques**, vous ne pouvez voir que les configurations pour lesquelles les destinations ont été configurées.
+Vérifiez que vous sélectionnez **Nouveau**, puis sélectionnez une configuration dans le champ **Référence**. La page **Destinations des états électroniques** affiche uniquement les configurations pour lesquelles les destinations ont été configurées.
 
-### <a name="is-there-any-way-to-define-which-azure-storage-account-and-azure-blob-storage-are-used"></a>Est-il possible de définir quel compte de stockage Azure et quel stockage d'objets blobs Azure sont utilisés ?
+### <a name="is-there-any-way-to-define-which-microsoft-azure-storage-account-and-azure-blob-storage-are-used"></a>Est-il possible de définir quel compte de stockage Microsoft Azure et quel stockage Blob Azure sont utilisés ?
 
-Non. Le stockage d'objets blobs Azure par défaut défini et utilisé pour le système de gestion des documents est utilisé.
+N° Le stockage Blob Microsoft Azure par défaut défini et utilisé pour le système de gestion des documents est utilisé.
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Quel est l’objectif de la destination de fichier dans les paramètres de destination ? Que fait ce paramètre ?
 
@@ -157,9 +190,9 @@ La destination **Fichier** est utilisée pour contrôler une boîte de dialogue.
 
 La formule est spécifique à la configuration de l'état électronique. Par exemple, si vous utilisez la configuration du virement ISO 20022, vous pouvez utiliser **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID** ou **model. Payments.Creditor.Identification.SourceID** pour obtenir un compte fournisseur associé.
 
-### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>L'une des configurations de mon format contient plusieurs fichiers qui sont regroupés dans un dossier (par exemple, Folder1 contient fichier1, fichier2 et fichier3). Comment définir des destinations afin que Folder1.zip ne soit pas créé du tout, que fichier1 soit envoyé par courrier électronique, que fichier2 soit envoyé à SharePoint, et que je puisse ouvrir fichier3 immédiatement après l’exécution de la configuration ?
+### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-grouped-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>L'une des configurations de mon format contient plusieurs fichiers qui sont regroupés dans un dossier (par exemple, Folder1 contient fichier1, fichier2 et fichier3). Comment définir des destinations afin que Folder1.zip ne soit pas créé du tout, que fichier1 soit envoyé par courrier électronique, que fichier2 soit envoyé à SharePoint, et que je puisse ouvrir fichier3 immédiatement après l’exécution de la configuration ?
 
-La condition préalable est que le format doit être disponible dans les configurations d'états électroniques. Si vous avez votre format, ouvrez la page **Destination des états électroniques** et créez une nouvelle référence pour cette configuration. Vous devez ensuite disposer de quatre destinations de fichiers, une pour chaque composant de sortie. Créez la première destination du fichier, donnez-lui un nom tel que **Dossier**, puis sélectionnez un nom de fichier qui représente un dossier dans votre configuration. Puis cliquez sur **Paramètres** et assurez-vous que toutes les destinations sont désactivées. Pour cette destination de fichier, le dossier ne sera pas créé. Par défaut, en raison des relations hiérarchiques entre les fichiers et les dossiers parents, les fichiers se comportent de la même manière. En d’autres termes, ils ne seront envoyés nulle part. Pour remplacer ce comportement par défaut, vous devez créer trois destinations de fichier supplémentaires, une pour chaque fichier. Dans les paramètres de la destination de chacun, vous devez activer la destination à laquelle le fichier doit être envoyé.
+Votre format doit tout d'abord être disponible dans les configurations d'états électroniques. Si cette condition préalable est remplie, ouvrez la page **Destination des états électroniques** et créez une nouvelle référence pour la configuration. Vous devez ensuite disposer de quatre destinations de fichiers, une pour chaque composant de sortie. Créez la première destination du fichier, donnez-lui un nom tel que **Dossier**, puis sélectionnez un nom de fichier qui représente un dossier dans votre configuration. Puis sélectionnez **Paramètres** et assurez-vous que toutes les destinations sont désactivées. Pour cette destination de fichier, le dossier ne sera pas créé. Par défaut, en raison des relations hiérarchiques entre les fichiers et les dossiers parents, les fichiers se comportent de la même manière. En d’autres termes, ils ne seront envoyés nulle part. Pour remplacer ce comportement par défaut, vous devez créer trois destinations de fichier supplémentaires, une pour chaque fichier. Dans les paramètres de la destination de chacun, vous devez activer la destination à laquelle le fichier doit être envoyé.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

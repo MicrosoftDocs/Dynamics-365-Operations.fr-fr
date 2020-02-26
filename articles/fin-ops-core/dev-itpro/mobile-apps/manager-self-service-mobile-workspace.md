@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 272cf991301fa5c2df8a6de3354588fc372fa92f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248731"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005607"
 ---
 # <a name="my-team-mobile-workspace"></a>Mon espace de travail mobile Équipe
 
@@ -30,7 +30,7 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Mon éq
 
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Finance and Operations.
 
-## <a name="overview"></a>Présentation 
+## <a name="overview"></a>Vue d'ensemble 
 L'espace de travail mobile **Mon équipe** permet aux responsables d'effectuer les tâches suivantes :
 
 - Afficher la liste des états directs d'un responsable.
@@ -53,11 +53,11 @@ Avant d'utiliser cet espace de travail mobile, les conditions requises suivantes
 <tr class="odd">
 <td>Un des produits suivants doit être déployés dans votre organisation :
 <ul><li>Une application Finance and Operations</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Administrateur système</td>
-<td>Si vous n'avez pas encore une application Finance and Operations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>. Si vous n&#39;avez pas encore Talent déployé dans votre organisation, l'administrateur système peut accéder à une version de test <a href="https://www.microsoft.com/dynamics365/talent">Page web de Talent</a>.
+<td>Si vous n'avez pas encore une application Finance and Operations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>. Si vous n'avez pas encore Ressources humaines déployé dans votre organisation, l'administrateur système peut accéder à une version de test de la <a href="https://dynamics.microsoft.com/human-resources/overview/">Page web Ressources humaines</a>.
 </td>
 </tr>
 <tr class="even">
@@ -70,7 +70,7 @@ Avant d'utiliser cet espace de travail mobile, les conditions requises suivantes
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
 
-Télécharger et installer l'application mobile Finance and Operations :
+Télécharger et installer l'application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

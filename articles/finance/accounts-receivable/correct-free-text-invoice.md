@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76cf1f24a31f246a41601908ebba308551925d90
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bf6e7a070d7c151c6ff5d868f4f916359b82683
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177775"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030990"
 ---
 # <a name="correct-a-free-text-invoice"></a>Correction d'une facture financière
 
@@ -47,7 +47,7 @@ Vous pouvez identifier les factures d'annulation et les factures corrigées de d
 -   L'en-tête de la facture financière affiche le statut **Facture d'annulation '\[numéro de facture\]'** ou **Facture corrigée '\[numéro de facture\]'**.
 
 > [!NOTE]
-> Cette fonctionnalité est uniquement disponible si la clé de configuration **Correction de la facture financière** est sélectionnée. Pour plus d'informations sur l'activation des clés de configuration, reportez-vous à la section Activer (ou désactiver) les clés de configuration dans la rubrique [Mode de maintenance](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode). 
+> Cette fonctionnalité est uniquement disponible si la clé de configuration **Correction de la facture financière** est sélectionnée. Pour plus d'informations sur l'activation des clés de configuration, reportez-vous à la section Activer (ou désactiver) les clés de configuration dans la rubrique [Mode de maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
 
 
 

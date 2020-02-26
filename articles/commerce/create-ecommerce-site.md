@@ -1,9 +1,9 @@
 ---
 title: Création d'un site de commerce électronique
-description: Cette rubrique décrit les tâches associées à la création d'un site de commerce électronique dans Dynamics 365 Commerce.
+description: Cette rubrique décrit les étapes et les informations requises pour créer un site de commerce électronique dans le générateur de site de Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945833"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002011"
 ---
 # <a name="create-an-e-commerce-site"></a>Création d'un site de commerce électronique
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les tâches associées à la création d'un site de commerce électronique dans Dynamics 365 Commerce.
+Cette rubrique décrit les étapes et les informations requises pour créer un site de commerce électronique dans le générateur de site de Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+Avant de pouvoir commencer à développer votre site de commerce électronique, vous devez d'abord créer un site dans le générateur de site. 
 
-Pour commencer à développer votre site de commerce électronique, vous devez d'abord créer un site dans l'environnement de création de site. Avant de créer un site, au moins un magasin en ligne doit être créé dans Dynamics 365 Retail. 
+
+Pour commencer à développer votre site de commerce électronique, vous devez d'abord créer un site dans l'environnement de création de site. Avant de pouvoir créer un site, au moins un magasin en ligne doit être créé dans Commerce. 
+
 
 ## <a name="set-up-your-site"></a>Configurer votre site
 
 Pour paramétrer votre site, procédez comme suit.
 
-1. Dans Microsoft Lifecycle Services (LCS), sélectionnez le lien pour l'environnement de création de site. 
+1. Ouvrez l'environnement du générateur de site. Vous pouvez trouver un lien vers le générateur de site dans Microsoft Lifecycle Services (LCS) sur la page des fonctionnalités d'environnement pour Commerce.
 1. Sur la page d'accueil de l'environnement de création de site, sélectionnez **Nouveau site**.
 1. Dans la boîte de dialogue **Nouveau site**, fournissez les informations suivantes.
 

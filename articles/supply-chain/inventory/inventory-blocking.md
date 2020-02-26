@@ -3,7 +3,7 @@ title: Blocage du stock
 description: Cette rubrique fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Supply Chain Management. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814373"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971485"
 ---
 # <a name="inventory-blocking"></a>Blocage du stock
 
 [!include [banner](../includes/banner.md)]
 
-Cette article fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Supply Chain Management. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
+Cette rubrique fournit une vue d'ensemble du blocage du stock qui fait partie du processus d'inspection de qualité dans Supply Chain Management. Vous pouvez utiliser le blocage du stock pour empêcher des articles d'être traités ou consommés.
 
 Les méthodes suivantes permettent de bloquer les articles en stock :
 -   Manuellement
@@ -43,6 +43,9 @@ Vous pouvez bloquer la quantité d'un article en créant une transaction sur la 
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Blocage d'articles via la création d'un ordre de qualité
 Vous pouvez spécifier les articles qui doivent être inspectés en créant un ordre de qualité sur la page **Ordres de qualité**. Lors de la création d'un ordre de qualité, la quantité spécifiée d'un article est bloquée. C'est pourquoi le programme d'échantillonnage d'article associé à l'ordre de qualité contrôle la quantité d'articles qui doivent être inspectés et non pas la quantité qui est bloquée. Indépendamment de la quantité envoyée pour inspection, telle que spécifiée par le programme d'échantillonnage, la quantité d'article entrée dans l'ordre de qualité correspond à la quantité bloquée.
+
+> [!NOTE]
+> L'utilisation de la date d'expiration du lot et des fonctions de blocage du statut du stock n'est pas prise en charge par la planification principale. Cela pourrait entraîner une double exclusion de l'inventaire disponible, ce qui peut se produire lors de la planification générale. Nous vous conseillons de vous fier aux codes de disposition des lots, au lieu du statut du stock, pour bloquer les lots expirés.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Blocage d'articles via un processus permettant de générer un ordre de qualité
 Si une quantité d'article spécifie qu'un article doit être inspecté, une quantité de l'article est bloquée automatiquement. Par conséquent, lorsqu'un ordre de qualité est généré automatiquement, le programme d'échantillonnage d'article associé à l'ordre de qualité contrôle la quantité d'articles bloquée et la quantité d'articles à inspecter. Si l'option **Blocage total** de la page **Échantillonnage d'article** est sélectionnée, la quantité complète (d'une ligne de commande fournisseur, par exemple) est bloquée au cours de l'inspection, indépendamment de la quantité d'échantillonnage d'article.

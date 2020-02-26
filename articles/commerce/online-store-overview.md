@@ -19,16 +19,16 @@ ms.search.industry: Retail
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: df474776ed30f6011a0f317d840349c513f3bc8c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 1e3dd95800699360f1e33d5efe947358aaaddeee
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914723"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003347"
 ---
 # <a name="online-store-overview"></a>Vue d'ensemble du magasin en ligne
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Cette rubrique présente le concept de magasin en ligne et explique comment les magasins en ligne sont utilisés dans Microsoft Dynamics 365 Commerce. Elle fournit également un lien vers plus d'informations sur les magasins en ligne et des informations sur la configuration d'un magasin en ligne.
 

@@ -3,7 +3,7 @@ title: Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'i
 description: Cette rubrique décrit comment utiliser les modèles de travail et les instructions d'emplacement pour déterminer comment et à quel endroit effectuer les travaux dans l'entrepôt.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026923"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028026"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement
 
@@ -152,7 +152,7 @@ Sélectionnez cette option pour utiliser des stratégies de traitement par lots 
 ### <a name="strategy"></a>Stratégie
 
 -   **Consolider** - Cette stratégie est utilisée pour consolider des articles à un emplacement particulier lorsque des articles similaires sont déjà disponibles. Cette stratégie ne fonctionne que pour l'instruction d'emplacement de type Placement. Le paramétrage courant pour le placement consistera à consolider les articles sur la première ligne d'action, puis à placer les articles sans consolidation dans une deuxième tentative. La consolidation des marchandises améliore l'efficacité du prélèvement ultérieur.
--   **Faire correspondre la quantité de conditionnement** - Cette stratégie est utilisée pour vérifier si un emplacement de prélèvement contient la quantité de conditionnement spécifiée. Cette stratégie ne fonctionne que pour une instruction d'emplacement de type Prélèvement. 
+-   **Faire correspondre la quantité de conditionnement** - Cette stratégie trouvera un emplacement avec un contenant incluant la quantité exacte requise. Il ne peut pas être utilisé avec des emplacements qui ne sont pas contrôlés par contenant. Cette stratégie ne fonctionne que pour une instruction d'emplacement de type Prélèvement.
 -   **Réservation de traitement par lots FEFO** - Cette stratégie est utilisée lorsque le stock est organisé en fonction de la date d'expiration d'un lot et est affecté pour la réservation par lots. Vous ne pouvez utiliser cette stratégie que pour les articles activés pour le traitement par lots. Cette stratégie ne fonctionne que pour une instruction d'emplacement de type Prélèvement. 
 -   **Arrondir au contenant complet** - Cette stratégie est utilisée pour arrondir la quantité de stock afin qu'elle corresponde à la quantité du contenant (LP) affectée aux articles à prélever. Vous ne pouvez utiliser cette stratégie que pour le type de réapprovisionnement d'une instruction d'emplacement de type Prélèvement. 
 -   **Emplacement vide sans travail entrant** - Cette stratégie permet de rechercher des emplacements vides. L'emplacement est considéré comme vide s'il ne contient pas de stock physique, ni aucun travail entrant prévu. Cette stratégie n'est utilisée que pour une instruction d'emplacement de type Placement. 

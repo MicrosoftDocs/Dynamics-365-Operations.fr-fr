@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914609"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001413"
 ---
 # <a name="add-languages-to-your-site"></a>Ajouter des langues à votre site
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment ajouter la prise en charge de langues supplémentaires à un site Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Vous pouvez situer votre site web dans n'importe quelle langue que Dynamics 365 Commerce prend en charge. (La liste des langues prises en charge apparaît plus loin dans cette rubrique.) Pour ajouter une langue à votre site web, vous devez l'ajouter à un magasin en ligne lié à votre site.
+Vous pouvez situer votre site web dans n'importe quelle langue que Commerce prend en charge. (La liste des langues prises en charge apparaît plus loin dans cette rubrique.) Pour ajouter une langue à votre site web, vous devez l'ajouter à un magasin en ligne lié à votre site.
 
 ## <a name="add-a-language-to-an-online-store"></a>Ajouter une langue à un magasin en ligne
 
 Pour ajouter une langue à un magasin en ligne, procédez comme suit.
 
-1. Ouvrez l'environnement Dynamics 365 Retail pour votre site.
-1. Accédez à **Vente au détail \> Canaux \> Magasins en ligne** pour accéder à la liste des magasins en ligne configurés pour votre environnement. Sinon, entrez **magasins en ligne** comme condition de recherche.
+1. Ouvrez l'environnement Dynamics 365 Commerce pour votre site.
+1. Accédez à **Commerce et vente au détail \> Canaux \> Magasins en ligne** pour accéder à la liste des magasins en ligne configurés pour votre environnement. Sinon, entrez **magasins en ligne** comme condition de recherche.
 1. Sélectionnez le magasin en ligne pour lequel ajouter une langue.
 1. Dans l'organisateur **Langues**, sélectionnez **Ajouter**.
 1. Dans le champ **Langue**, sélectionnez la langue à ajouter.

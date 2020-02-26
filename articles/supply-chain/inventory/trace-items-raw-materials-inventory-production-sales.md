@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562528"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004063"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Suivi des articles et des matières premières dans le stock, la production et les ventes
 
@@ -44,7 +44,7 @@ Le suivi des articles est un outil de Business Intelligence (BI) qui fournit une
 -   Identifier où un article ou une matière première a été consommé dans la production d'un autre article.
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>Que puis-je suivre et quelles sont les restrictions ?
-Suivez les mouvements de stock historiques pour des articles et des matières premières en fonction d'un numéro d'article et une dimension de suivi, tels qu'un numéro de série, un numéro de lot ou un numéro de lot fournisseur. Vous pouvez suivre un article ou une matière première seulement si une dimension de suivi lui est assigné(e). Le suivi des articles étant basé sur les mouvements de stock, il existe certaines restrictions lorsque vous suivez des articles. Par exemple, il existe des restrictions relatives aux transactions pour les projets, les immobilisations et la vente au détail. En outre, les coproduits sont affichés dans les détails du suivi, mais pas les sous-produits. Le suivi inclut toutes les transactions d'entrepôt d'un emplacement vers un autre. Par conséquent, les utilisateurs peuvent avoir l'impression d'une saturation d'informations. Le suivi est affiché pour une entité juridique à la fois. Il n'existe aucune capacité de société croisée dans un contexte intersociétés. Vous devez démarrer un nouveau suivi pour chaque société dans laquelle un article est reçu ou émis.
+Suivez les mouvements de stock historiques pour des articles et des matières premières en fonction d'un numéro d'article et une dimension de suivi, tels qu'un numéro de série, un numéro de lot ou un numéro de lot fournisseur. Vous pouvez suivre un article ou une matière première seulement si une dimension de suivi lui est assigné(e). Le suivi des articles étant basé sur les mouvements de stock, il existe certaines restrictions lorsque vous suivez des articles. Par exemple, il existe des restrictions relatives aux transactions pour les projets, les immobilisations et le commerce. En outre, les coproduits sont affichés dans les détails du suivi, mais pas les sous-produits. Le suivi inclut toutes les transactions d'entrepôt d'un emplacement vers un autre. Par conséquent, les utilisateurs peuvent avoir l'impression d'une saturation d'informations. Le suivi est affiché pour une entité juridique à la fois. Il n'existe aucune capacité de société croisée dans un contexte intersociétés. Vous devez démarrer un nouveau suivi pour chaque société dans laquelle un article est reçu ou émis.
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>Quels critères puis-je spécifier pour un suivi d'article ?
 Les critères requis pour un suivi d'article sont le numéro d'article, une dimension de suivi (comme un numéro de lot ou un numéro de série) et la direction. Le tableau suivant décrit les critères que vous pouvez utiliser dans un suivi d'article.

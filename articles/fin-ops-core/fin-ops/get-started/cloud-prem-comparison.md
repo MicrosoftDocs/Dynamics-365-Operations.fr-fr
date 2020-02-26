@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935385"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005724"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparaison des fonctions dans le cloud et sur site
 
@@ -32,8 +32,8 @@ Cette rubrique affiche une comparaison des fonctionnalités disponibles dans le 
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
-- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
+- [Dynamics 365 Commerce](cloud-prem-comparison.md#dynamics-365-commerce)
+- [Dynamics 365 Human Resources](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 Les informations relatives aux [fonctionnalités de développement et d'administration](cloud-prem-comparison.md#development-and-administration-features) sont incluses, également.
 
@@ -45,8 +45,7 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 |---------------------|-----------------------------|-----------|-----------------|
 | Conformité et certifications        |                                                                                           | Oui       | Oui             |
 |                                      | Type de certification SOC 1 Type 1                                                                | Oui       | Non              |
-| Intégration et gestion des données      |                                                                                           | Oui       | Oui             |
-|                                      | Extension pilotée par la configuration                                                            | Oui       | N°              |
+| Intégration et gestion des données      |                                                                                           | Oui       | Oui             
 |                                      | Exportation des données vers votre propre entrepôt de données                                                    | Oui       | Oui             |
 |                                      | Activation de l'exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | Oui              |
 |                                      | Intégration de données                                                                         | Oui       | Oui             |
@@ -146,15 +145,15 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 | Support                              |                                                                                           | Oui       | Oui             |
 |                                      | Accès au support via le menu Aide et support                                             | Oui       | Non              |
 
-## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Pour afficher une liste des capacités de vente au détail disponibles dans les déploiements sur site, voir [Fonctionnalités de vente au détail disponibles dans les déploiements sur site](../../../retail/retail-onprem.md).
+Pour afficher une liste des capacités disponibles dans les déploiements sur site, voir [Fonctionnalités de vente au détail disponibles dans les déploiements sur site](../../../retail/retail-onprem.md).
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
+## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
-| **Secteur**         | **Fonction**         | **Cloud** | **Sur site** |
+| **Secteur**         | **Fonctionnalité**         | **Cloud** | **Sur site** |
 |------------------|---------------------|-----------|-----------------|
-| Toutes les zones Talent | Toutes les fonctionnalités Talent | Oui       | Non              |
+| Tous les domaines des ressources humaines | Toutes les fonctionnalités des ressources humaines | Oui       | Non              |
 
 ## <a name="development-and-administration-features"></a>Fonctionnalités de développement et d'administration
 
