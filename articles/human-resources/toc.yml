@@ -5,6 +5,10 @@
       items:
         - name: Nouveautés ou modifications dans Human Resources
           href: hr-admin-whats-new.md
+        - name: "18\_février\_2020"
+          href: hr-whats-new-2020-02-18.md
+        - name: "12\_février\_2020"
+          href: hr-whats-new-2020-02-12.md
         - name: "7\_février\_2020"
           href: hr-whats-new-2020-02-07.md
         - name: "3\_février\_2020"
@@ -199,7 +203,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
                 - name: Paramétrer des souches de numéros sur une base individuelle
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
-                - name: Configurer des souches de numéros à l'aide d'un assistant
+                - name: Configurer les souches de numéros à l'aide d'un assistant
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
             - name: Organisations et hiérarchies d'organisation
               items:

@@ -166,6 +166,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: Vues enregistrées
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: Capacités de grille
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Créer et utiliser des champs personnalisés
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Intégrer les applications PowerApps
@@ -248,7 +250,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: Déplacer les projets de mise en œuvre LCS vers différents locataires Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
+                - name: Plusieurs projets et environnements de production LCS sur un même locataire Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Implémenter des projets Finance and Operations Commerce
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: Paramétrer et utiliser les alertes pour fraude
                   href: set-up-fraud-alerts.md
-                - name: Paramétrer des programmes périodiques pour les centres d'appels
-                  href: set-up-continuity-program.md
             - name: Configuration d'un canal supplémentaire
               items:
                 - name: Ajouter un canal à une hiérarchie d'organisation
@@ -450,6 +450,12 @@
                       href: omni-auto-charges.md
                     - name: Calcul au prorata des frais d'en-tête pour les lignes de vente correspondantes
                       href: pro-rate-charges-matching-lines.md
+                - name: Gérer des programmes périodiques
+                  items:
+                    - name: Paramétrer des programmes périodiques pour les centres d'appels
+                      href: set-up-continuity-program.md
+                    - name: Définir les programmes périodiques
+                      href: tasks/define-continuity-schedules.md
                 - name: Gestion du magasin de vente au détail
                   items:
                     - name: Création et modification des heures d'ouverture des magasins
@@ -460,8 +466,6 @@
                   items:
                     - name: Configurer et utiliser les blocages de commande dans le centre d'appels
                       href: work-with-order-holds.md
-                    - name: Définir les programmes périodiques
-                      href: tasks/define-continuity-schedules.md
                 - name: Paiements
                   items:
                     - name: Modes de paiement
@@ -478,6 +482,8 @@
                       href: dev-itpro/adyen-connector.md
                     - name: Enregistrement des instruments de paiement en ligne avec le connecteur Adyen
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: Basculement hors ligne transparent pour les opérations de cartes cadeaux et d'avoirs
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: Paramétrer des scénarios de règlement de facture
                       href: payinvoice.md
                     - name: Prévention des paiements en double
@@ -494,9 +500,9 @@
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Paramétrer les produits vendus au détail
                   href: set-up-retail-products.md
-                - name: Hiérarchie des produits vendus au détail
+                - name: Hiérarchie de produit
                   items:
-                    - name: Hiérarchies des ventes au détail
+                    - name: Hiérarchies Commerce
                       href: retail-hierarchies.md
                     - name: Créer une hiérarchie de produits
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: Opération de stock entrant dans le PDV
+                      href: pos-inbound-inventory-operation.md
+                    - name: Opération de stock sortant dans le PDV
+                      href: pos-outbound-inventory-operation.md
+                    - name: Calculer la disponibilité des stocks pour les canaux de vente au détail
+                      href: calculated-inventory-retail-channels.md
                 - name: Commandes fournisseur
                   items:
                     - name: Vue d'ensemble des commandes fournisseur
@@ -726,6 +738,18 @@
               href: tasks/store-configurations-retail-statements.md
             - name: Validation des ventes et des paiements en ligne
               href: tasks/posting-online-sales-payments.md
+        - name: Gérer les tâches des collaborateurs
+          items:
+            - name: Vue d'ensemble de la gestion des tâches
+              href: task-mgmt-overview.md
+            - name: Configurer la gestion des tâches
+              href: task-mgmt-configure.md
+            - name: Créer des listes de tâches et ajouter des tâches
+              href: task-mgmt-create-lists.md
+            - name: Affecter des listes de tâches aux magasins ou aux employés
+              href: task-mgmt-assign-lists.md
+            - name: Gestion des tâches dans le PDV
+              href: task-mgmt-pos.md
         - name: Gérer votre site de commerce électronique
           items:
             - name: Vue d'ensemble du magasin en ligne
@@ -880,6 +904,8 @@
                   items:
                     - name: Module de zone d'achat
                       href: add-buy-box.md
+                    - name: Modules de classements et d'évaluations
+                      href: ratings-reviews-modules.md
                 - name: Modules d'achat
                   items:
                     - name: Module de chariot
@@ -1056,6 +1082,8 @@
               items:
                 - name: Vue d'ensemble des services de génération de documents
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Polices prises en charge
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer SSRS pour des déploiements sur site
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Impression
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Prévisualiser et déboguer des modules
                       href: e-commerce-extensibility/test-module.md
-                    - name: Déboguer des modules
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: Tester les modules à l'aide de simulacres
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Tester les modules à l'aide de simulacres de pages
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: Conseils de mise en œuvre pour la gestion des périphériques
                   href: implementation-considerations-devices.md
+                - name: Événements et gestionnaires de vue de chariot de PDV
+                  href: dev-itpro/cart-view-handlers.md
             - name: Extensibilité de Hardware Station
               items:
                 - name: Hardware Station et extensibilité
@@ -2032,6 +2060,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Consigner les événements d'extension dans Application Insights
                   href: dev-itpro/commerce-application-insights.md
+                - name: Créer des API Commerce (CRT) asynchrones dans votre logique métier
+                  href: dev-itpro/async-commerce-extension.md
             - name: Extensibilité du connecteur de paiement
               items:
                 - name: Créer une intégration du paiement pour un terminal de paiement
@@ -2048,6 +2078,8 @@
                   href: payment-connector-data-fields.md
                 - name: Activer la protection des paiements en double pour le connecteur de paiement
                   href: dev-itpro/duplicate-payment-protection.md
+                - name: Créer un package de paiement pour l'Explorateur d'application dans les déploiements Service Fabric
+                  href: dev-itpro/payment-connector-package.md
             - name: Extensibilité du commerce électronique tiers
               items:
                 - name: Configurer les magasins en ligne
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: Développement et administration des applications Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Retail
-      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management

@@ -42,10 +42,14 @@
                   href: ../fin-ops/get-started/whats-new-platform-update-21.md
                 - name: "Platform update\_20 (septembre 2018)"
                   href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: "Platform update\_15 (mars\_2018)"
+                - name: "Platform Update\_15 (mars\_2018)"
                   href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Fonctions supprimées ou obsolètes
-              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+              items:
+                - name: Fonctions de plateforme supprimées ou obsolètes
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: Fonctions supprimées ou obsolètes dans les versions précédentes
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: "Fonctions d'AX\_2012 ayant été reportées"
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Fonctions non implémentées dans les déploiements locaux
@@ -144,7 +148,9 @@
                       href: data-entities/data-integration-cds.md
                     - name: Intégration synchrone et bidirectionnelle
                       items:
-                        - name: Intégration des données en quasi temps réel
+                        - name: Page d'accueil de double écriture
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Vue d'ensemble de la double écriture
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Hiérarchie d'organisation sur Common Data Service
                           href: data-entities/dual-write/organization-mapping.md
@@ -438,7 +444,7 @@
                   href: deployment/redeploy-on-prem.md
                 - name: Agent local
                   items:
-                    - name: "Compatibilité AD\_FS\_Office 365"
+                    - name: "Compatibilité AD\_FS Office 365"
                       href: deployment/onprem-adfscompatibility.md
                     - name: Prédéploiement d'agent local et scripts de post-déploiement
                       href: lifecycle-services/pre-post-scripts.md
@@ -940,7 +946,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS pour les partenaires
                   href: lifecycle-services/getting-started-lcs.md
-                - name: Nouveautés
+                - name: Nouveautés ou modifications dans Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Problèmes connus
                   href: lifecycle-services/known-issues.md
@@ -996,7 +1002,7 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Livre de recettes pour les requêtes
               href: lifecycle-services/querycookbook.md
-            - name: "Microsoft Dynamics\_365 Translation\_Service"
+            - name: "Microsoft Dynamics\_365 Translation Service"
               items:
                 - name: "Vue d'ensemble de Dynamics\_365 Translation\_Service"
                   href: lifecycle-services/translation-service-overview.md
@@ -1362,7 +1368,7 @@
               items:
                 - name: "Mise à niveau depuis AX\_2012 vers Finance and Operations"
                   href: migration-upgrade/upgrade-overview-2012.md
-                - name: "Mise à niveau d'AX\_2012\_-\_Planifier à l'aide de l'analyseur de mise à niveau"
+                - name: "Mise à niveau d'AX\_2012 - Planifier à l'aide de l'analyseur de mise à niveau"
                   href: migration-upgrade/upgrade-analyzer-tool.md
                 - name: Mise à niveau d'AX 2012 – Estimer les efforts à l'aide du service de mise à niveau du code
                   href: migration-upgrade/analyze-code-upgrade.md
@@ -1404,7 +1410,7 @@
               items:
                 - name: "Migrer des données depuis AX\_2009 vers Finance and Operations"
                   href: migration-upgrade/data-migration-tool.md
-                - name: "Migration d'AX\_2009\_-\_Installer l'outil de migration des données"
+                - name: "Migration d'AX\_2009 - Installer l'outil de migration des données"
                   href: migration-upgrade/install-dmt.md
                 - name: "Migration d'AX\_2009 - Générer des cartes"
                   href: migration-upgrade/generate-maps.md
@@ -1414,7 +1420,7 @@
                   href: migration-upgrade/create-definition.md
                 - name: Migration d'AX 2009 - Exporter des packages
                   href: migration-upgrade/ax2009-upgrade-export-package.md
-                - name: "Migration d'AX\_2009\_-\_Importer des packages"
+                - name: "Migration d'AX\_2009 - Importer des packages"
                   href: migration-upgrade/ax2009-upgrade-import-package.md
             - name: Migration et mise à niveau de code
               items:
@@ -1685,6 +1691,4 @@
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../../commerce/index.md
