@@ -378,7 +378,7 @@
           href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Agent local
           items:
-            - name: "Compatibilité AD\_FS\_Office 365"
+            - name: "Compatibilité AD\_FS Office 365"
               href: ../../dev-itpro/deployment/onprem-adfscompatibility.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Prédéploiement d'agent local et scripts de post-déploiement
               href: ../../dev-itpro/lifecycle-services/pre-post-scripts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -456,8 +456,6 @@
           items:
             - name: Vue d'ensemble de création de modèles et d'éléments de modèle de données
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Instructions de dénomination pour les extensions
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Désactiver la personnalisation de modèle et les fonctionnalités obsolètes
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: État d'analyse de la personnalisation
@@ -870,9 +868,9 @@
           href: ../../dev-itpro/gdpr/gdpr-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: Lifecycle Services
   items:
-    - name: "Ressources pour Lifecycle\_Services"
+    - name: Ressources pour Lifecycle Services
       items:
-        - name: "Ressources pour Lifecycle\_Services"
+        - name: Ressources pour Lifecycle Services
           href: ../../dev-itpro/lifecycle-services/lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: LCS pour les clients
           href: ../../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -932,7 +930,7 @@
       href: ../../dev-itpro/lifecycle-services/performancetroubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Livre de recettes pour les requêtes
       href: ../../dev-itpro/lifecycle-services/querycookbook.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: "Microsoft Dynamics\_365 Translation\_Service"
+    - name: "Microsoft Dynamics\_365 Translation Service"
       items:
         - name: "Vue d'ensemble de Dynamics\_365 Translation\_Service"
           href: ../../dev-itpro/lifecycle-services/translation-service-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1170,7 +1168,7 @@
       href: ../../dev-itpro/perf-test/rsat/rsat-best-practices.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Dépannage
       href: ../../dev-itpro/perf-test/rsat/rsat-troubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-- name: "Publier des solutions à l'aide de Lifecycle\_Services"
+- name: Publier des solutions à l'aide de Lifecycle Services
   items:
     - name: Développer et publier
       href: ../../dev-itpro/lcs-solutions/lcs-solutions-app-source.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1300,7 +1298,7 @@
       items:
         - name: "Mise à niveau depuis AX\_2012 vers Finance and Operations"
           href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "Mise à niveau d'AX\_2012\_-\_Planifier à l'aide de l'analyseur de mise à niveau"
+        - name: "Mise à niveau d'AX\_2012 - Planifier à l'aide de l'analyseur de mise à niveau"
           href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Mise à niveau d'AX 2012 – Estimer les efforts à l'aide du service de mise à niveau du code
           href: ../../dev-itpro/migration-upgrade/analyze-code-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1342,7 +1340,7 @@
       items:
         - name: "Migrer des données depuis AX\_2009 vers Finance and Operations"
           href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "Migration d'AX\_2009\_-\_Installer l'outil de migration des données"
+        - name: "Migration d'AX\_2009 - Installer l'outil de migration des données"
           href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: "Migration d'AX\_2009 - Générer des cartes"
           href: ../../dev-itpro/migration-upgrade/generate-maps.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1352,7 +1350,7 @@
           href: ../../dev-itpro/migration-upgrade/create-definition.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Migration d'AX 2009 - Exporter des packages
           href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-export-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: "Migration d'AX\_2009\_-\_Importer des packages"
+        - name: "Migration d'AX\_2009 - Importer des packages"
           href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-import-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Migration et mise à niveau de code
       items:

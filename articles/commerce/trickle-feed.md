@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f691017ad06d3416e4ba0e86d7a0bc207aba5bd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004272"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057151"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Création de commandes basée sur un flux en continu pour les transactions du magasin de vente au détail (préversion publique)
 
 [!include [banner](includes/banner.md)]
-
-
 
 Dans Dynamics 365 Retail versions 10.0.4 et antérieures, la validation des relevés est une opération effectuée en fin de journée et toutes les transactions sont validées dans les registres en fin de journée. Les transactions volumineuses doivent ensuite être traitées dans un intervalle de temps limité, ce qui crée parfois une charge, des verrous et des échecs de validation des relevés. Les détaillants ne peuvent pas également constater le produit et les paiements dans leurs registres tout au long de la journée.
 

@@ -150,6 +150,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/finance/toc.json
                 - name: Vues enregistrées
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
+                - name: Capacités de grille
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Créer et utiliser des champs personnalisés
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: Intégrer les applications PowerApps
@@ -188,7 +190,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: Déplacer les projets de mise en œuvre LCS vers différents locataires Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
-                - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
+                - name: Plusieurs projets et environnements de production LCS sur un même locataire Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Comptabilité fournisseur
           items:
@@ -940,6 +942,8 @@
                   href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
                 - name: Paramétrer des codes déclaration de taxe
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Prise en charge de la devise double pour la taxe
+                  href: general-ledger/dual-currency-for-tax.md
                 - name: État de spécification de taxe par écriture comptable
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Paramétrer des périodes de règlement fiscal
@@ -1102,6 +1106,8 @@
                   href: public-sector/interest-distribution.md
             - name: Approvisionnements (Secteur public)
               href: public-sector/procurement-sourcing-public-sector.md
+            - name: 'Calculer la date de livraison d''une ligne, en fonction du délai de livraison'
+              href: public-sector/po-delivery-date.md
             - name: Rôles de sécurité (Secteur public)
               href: public-sector/security-roles-public-sector.md
             - name: Fonds (Secteur public)
@@ -1296,8 +1302,10 @@
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: "Fiscal SPED\_2020 - Informations complémentaires de l'ICMS-ST pour la mise en page fiscale SPED\_014"
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
-                - name: SPED fiscal - Disposition 014
+                - name: "SPED fiscal - Disposition\_014"
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
+                - name: Définir les contributions SPED EFD
+                  href: localizations/latam-bra-sped-contributions.md
                 - name: Paramètres d'entités juridiques
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Configurer des paramètres d'entité juridique
@@ -2807,6 +2815,8 @@
               items:
                 - name: Vue d'ensemble des services de génération de documents
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
+                - name: Polices prises en charge
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer SSRS pour des déploiements sur site
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Impression
@@ -3686,6 +3696,4 @@
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md
