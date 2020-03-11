@@ -15,58 +15,67 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026061"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042848"
 ---
-# <a name="generate-documents-that-have-application-data"></a><span data-ttu-id="eab7e-103">Générer des documents contenant des données d'application</span><span class="sxs-lookup"><span data-stu-id="eab7e-103">Generate documents that have application data</span></span>
+# <a name="generate-documents-that-have-application-data"></a><span data-ttu-id="b7e53-103">Générer des documents contenant des données d'application</span><span class="sxs-lookup"><span data-stu-id="b7e53-103">Generate documents that have application data</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="eab7e-104">Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 4 : Modifier le format) ».</span><span class="sxs-lookup"><span data-stu-id="eab7e-104">To complete the steps in this procedure, you must first complete the procedure, “ER Generate documents with application data update (Part 4: Modify format)”.</span></span>
+<span data-ttu-id="b7e53-104">Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 4 : Modifier le format) ».</span><span class="sxs-lookup"><span data-stu-id="b7e53-104">To complete the steps in this procedure, you must first complete the procedure, “ER Generate documents with application data update (Part 4: Modify format)”.</span></span>
 
 
 
-<span data-ttu-id="eab7e-105">Les étapes de cette procédure expliquent comment créer des configurations ER pour générer un document électronique et mettre à jour les données d'application.</span><span class="sxs-lookup"><span data-stu-id="eab7e-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="eab7e-106">Dans cette procédure, vous exécutez la configuration du format ER pour générer l'état de déclaration d'échanges de biens et mettre à jour les données d'application pour archiver les détails du processus de génération d'états.</span><span class="sxs-lookup"><span data-stu-id="eab7e-106">In this procedure, you execute the ER format configuration to generate the Intrastat report and update application data for archiving details of the reporting process.</span></span>
+<span data-ttu-id="b7e53-105">Les étapes de cette procédure expliquent comment créer des configurations ER pour générer un document électronique et mettre à jour les données d'application.</span><span class="sxs-lookup"><span data-stu-id="b7e53-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="b7e53-106">Dans cette procédure, vous exécutez la configuration du format ER pour générer l'état de déclaration d'échanges de biens et mettre à jour les données d'application pour archiver les détails du processus de génération d'états.</span><span class="sxs-lookup"><span data-stu-id="b7e53-106">In this procedure, you execute the ER format configuration to generate the Intrastat report and update application data for archiving details of the reporting process.</span></span>
 
 
 
-<span data-ttu-id="eab7e-107">Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté.</span><span class="sxs-lookup"><span data-stu-id="eab7e-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="eab7e-108">Ces étapes peuvent être effectuées à l'aide de l'ensemble de données DEMF.</span><span class="sxs-lookup"><span data-stu-id="eab7e-108">These steps can be completed using the DEMF dataset.</span></span> <span data-ttu-id="eab7e-109">Avant de commencer, vérifiez que le contexte de pays pour la société DEMF est BEL (Belgique).</span><span class="sxs-lookup"><span data-stu-id="eab7e-109">Before you begin, make sure that the country context for the DEMF company is BEL (Belgium).</span></span>
+<span data-ttu-id="b7e53-107">Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté.</span><span class="sxs-lookup"><span data-stu-id="b7e53-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="b7e53-108">Ces étapes peuvent être effectuées à l'aide de l'ensemble de données DEMF.</span><span class="sxs-lookup"><span data-stu-id="b7e53-108">These steps can be completed using the DEMF dataset.</span></span> <span data-ttu-id="b7e53-109">Avant de commencer, vérifiez que le contexte de pays pour la société DEMF est BEL (Belgique).</span><span class="sxs-lookup"><span data-stu-id="b7e53-109">Before you begin, make sure that the country context for the DEMF company is BEL (Belgium).</span></span>
 
 
-## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="eab7e-110">Définir les paramètres de commerce extérieur</span><span class="sxs-lookup"><span data-stu-id="eab7e-110">Set up foreign trade parameters</span></span>
-1. <span data-ttu-id="eab7e-111">Accédez à Taxe > Paramétrage > Commerce extérieur > Paramètres de commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="eab7e-111">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
-2. <span data-ttu-id="eab7e-112">Cliquez sur l'onglet Souches de numéros.</span><span class="sxs-lookup"><span data-stu-id="eab7e-112">Click the Number sequences tab.</span></span>
-    * <span data-ttu-id="eab7e-113">Archivage des détails du processus de génération d'états de déclaration d'échanges de biens, nous devons identifier les enregistrements de chaque archive que nous avons créés.</span><span class="sxs-lookup"><span data-stu-id="eab7e-113">Archiving details of Intrastat reporting process, we need to identify records of each archive we created.</span></span> <span data-ttu-id="eab7e-114">Une souche de numéros spéciale doit être configurée à cet effet.</span><span class="sxs-lookup"><span data-stu-id="eab7e-114">A special number sequence must be configured for that.</span></span>  
-3. <span data-ttu-id="eab7e-115">Sélectionnez la référence « ID archive de la déclaration d'échanges de biens ».</span><span class="sxs-lookup"><span data-stu-id="eab7e-115">Select the ‘Intrastat archive ID’ reference.</span></span>
-4. <span data-ttu-id="eab7e-116">Tapez une valeur dans le champ Code souche de numéros.</span><span class="sxs-lookup"><span data-stu-id="eab7e-116">In the Number sequence code field, type a value.</span></span>
-    * <span data-ttu-id="eab7e-117">Dans le champ Code souche de numéros, entrez ou sélectionnez la valeur « Fore_2 ».</span><span class="sxs-lookup"><span data-stu-id="eab7e-117">In the ‘Number sequence code’ field, enter or select the value ‘Fore_2’.</span></span>  
-5. <span data-ttu-id="eab7e-118">Résolvez les modifications du code souche de numéros.</span><span class="sxs-lookup"><span data-stu-id="eab7e-118">ResolveChanges the Number sequence code.</span></span>
-6. <span data-ttu-id="eab7e-119">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="eab7e-119">Click Save.</span></span>
-7. <span data-ttu-id="eab7e-120">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="eab7e-120">Close the page.</span></span>
+## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="b7e53-110">Définir les paramètres de commerce extérieur</span><span class="sxs-lookup"><span data-stu-id="b7e53-110">Set up foreign trade parameters</span></span>
+1. <span data-ttu-id="b7e53-111">Accédez à Taxe > Paramétrage > Commerce extérieur > Paramètres de commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="b7e53-111">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
+2. <span data-ttu-id="b7e53-112">Cliquez sur l'onglet Souches de numéros.</span><span class="sxs-lookup"><span data-stu-id="b7e53-112">Click the Number sequences tab.</span></span>
 
-## <a name="run-modified-er-format"></a><span data-ttu-id="eab7e-121">Exécuter le format ER modifié</span><span class="sxs-lookup"><span data-stu-id="eab7e-121">Run modified ER format</span></span>
-1. <span data-ttu-id="eab7e-122">Accédez à Administration d'organisation > États électroniques > Configurations.</span><span class="sxs-lookup"><span data-stu-id="eab7e-122">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="eab7e-123">Dans l'arborescence, développez « Déclaration d'échanges de biens (modèle) ».</span><span class="sxs-lookup"><span data-stu-id="eab7e-123">In the tree, expand 'Intrastat (model)'.</span></span>
-3. <span data-ttu-id="eab7e-124">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens (modèle)\Déclaration d'échanges de biens (format) ».</span><span class="sxs-lookup"><span data-stu-id="eab7e-124">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
-4. <span data-ttu-id="eab7e-125">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="eab7e-125">Click Run.</span></span>
-5. <span data-ttu-id="eab7e-126">Dans le champ Entrer le nom du fichier, tapez « intrastat2.xml ».</span><span class="sxs-lookup"><span data-stu-id="eab7e-126">In the Enter file name field, type 'intrastat2.xml'.</span></span>
-    * <span data-ttu-id="eab7e-127">intrastat2.xml</span><span class="sxs-lookup"><span data-stu-id="eab7e-127">intrastat2.xml</span></span>  
-6. <span data-ttu-id="eab7e-128">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="eab7e-128">Click OK.</span></span>
+    <span data-ttu-id="b7e53-113">Archivage des détails du processus de génération d'états de déclaration d'échanges de biens, nous devons identifier les enregistrements de chaque archive que nous avons créés.</span><span class="sxs-lookup"><span data-stu-id="b7e53-113">Archiving details of Intrastat reporting process, we need to identify records of each archive we created.</span></span> <span data-ttu-id="b7e53-114">Une souche de numéros spéciale doit être configurée à cet effet.</span><span class="sxs-lookup"><span data-stu-id="b7e53-114">A special number sequence must be configured for that.</span></span>  
 
-## <a name="review-er-format-executions-results"></a><span data-ttu-id="eab7e-129">Examiner les résultats de l'exécution du format ER</span><span class="sxs-lookup"><span data-stu-id="eab7e-129">Review ER format execution’s results</span></span>
-<span data-ttu-id="eab7e-130">Examinez le fichier XML généré.</span><span class="sxs-lookup"><span data-stu-id="eab7e-130">Review the generated XML file.</span></span>  
-1. <span data-ttu-id="eab7e-131">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="eab7e-131">Close the page.</span></span>
-2. <span data-ttu-id="eab7e-132">Accédez à Taxe > Déclarations > Commerce extérieur > Déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="eab7e-132">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
-    * <span data-ttu-id="eab7e-133">Ouvrez cet écran contenant les transactions de déclaration d'échanges de biens qui ont été incluses dans le document électronique généré.</span><span class="sxs-lookup"><span data-stu-id="eab7e-133">Open this form containing Intrastat transactions that have been included to the generated electronic document.</span></span>  
-3. <span data-ttu-id="eab7e-134">Cliquez sur Archive de la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="eab7e-134">Click Intrastat archive.</span></span>
-    * <span data-ttu-id="eab7e-135">Comme le format ER exécuté contient maintenant les paramètres pour la mise à jour des données d'application, les détails de la génération d'états de déclaration d'échanges de biens ont été archivés.</span><span class="sxs-lookup"><span data-stu-id="eab7e-135">Since the executed ER format contains now settings for application data update, the details of the completed Intrastat reporting have been archived.</span></span> <span data-ttu-id="eab7e-136">Dans cet écran, vous pouvez voir l'enregistrement d'en-tête de l'archive créée.</span><span class="sxs-lookup"><span data-stu-id="eab7e-136">In this form, you can see the header record of the created archive.</span></span>  
-4. <span data-ttu-id="eab7e-137">Cliquez sur Détails.</span><span class="sxs-lookup"><span data-stu-id="eab7e-137">Click Details.</span></span>
-    * <span data-ttu-id="eab7e-138">Dans cet écran, vous pouvez voir les détails de l'archive créée.</span><span class="sxs-lookup"><span data-stu-id="eab7e-138">In this form, you can see the details for the created archive.</span></span>  
-5. <span data-ttu-id="eab7e-139">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="eab7e-139">Close the page.</span></span>
-6. <span data-ttu-id="eab7e-140">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="eab7e-140">Close the page.</span></span>
-7. <span data-ttu-id="eab7e-141">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="eab7e-141">Close the page.</span></span>
+3. <span data-ttu-id="b7e53-115">Sélectionnez la référence « ID archive de la déclaration d'échanges de biens ».</span><span class="sxs-lookup"><span data-stu-id="b7e53-115">Select the ‘Intrastat archive ID’ reference.</span></span>
+4. <span data-ttu-id="b7e53-116">Tapez une valeur dans le champ Code souche de numéros.</span><span class="sxs-lookup"><span data-stu-id="b7e53-116">In the Number sequence code field, type a value.</span></span>
+
+    <span data-ttu-id="b7e53-117">Dans le champ Code souche de numéros, entrez ou sélectionnez la valeur « Fore_2 ».</span><span class="sxs-lookup"><span data-stu-id="b7e53-117">In the ‘Number sequence code’ field, enter or select the value ‘Fore_2’.</span></span>  
+
+5. <span data-ttu-id="b7e53-118">Résolvez les modifications du code souche de numéros.</span><span class="sxs-lookup"><span data-stu-id="b7e53-118">ResolveChanges the Number sequence code.</span></span>
+6. <span data-ttu-id="b7e53-119">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="b7e53-119">Click Save.</span></span>
+7. <span data-ttu-id="b7e53-120">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b7e53-120">Close the page.</span></span>
+
+## <a name="run-modified-er-format"></a><span data-ttu-id="b7e53-121">Exécuter le format ER modifié</span><span class="sxs-lookup"><span data-stu-id="b7e53-121">Run modified ER format</span></span>
+1. <span data-ttu-id="b7e53-122">Accédez à Administration d'organisation > États électroniques > Configurations.</span><span class="sxs-lookup"><span data-stu-id="b7e53-122">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="b7e53-123">Dans l'arborescence, développez « Déclaration d'échanges de biens (modèle) ».</span><span class="sxs-lookup"><span data-stu-id="b7e53-123">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="b7e53-124">Dans l'arborescence, sélectionnez « Déclaration d'échanges de biens (modèle)\Déclaration d'échanges de biens (format) ».</span><span class="sxs-lookup"><span data-stu-id="b7e53-124">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="b7e53-125">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="b7e53-125">Click Run.</span></span>
+5. <span data-ttu-id="b7e53-126">Dans le champ Entrer le nom du fichier, tapez « intrastat2.xml ».</span><span class="sxs-lookup"><span data-stu-id="b7e53-126">In the Enter file name field, type 'intrastat2.xml'.</span></span>
+6. <span data-ttu-id="b7e53-127">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b7e53-127">Click OK.</span></span>
+
+## <a name="review-er-format-executions-results"></a><span data-ttu-id="b7e53-128">Examiner les résultats de l'exécution du format ER</span><span class="sxs-lookup"><span data-stu-id="b7e53-128">Review ER format execution’s results</span></span>
+<span data-ttu-id="b7e53-129">Examinez le fichier XML généré.</span><span class="sxs-lookup"><span data-stu-id="b7e53-129">Review the generated XML file.</span></span>  
+1. <span data-ttu-id="b7e53-130">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b7e53-130">Close the page.</span></span>
+2. <span data-ttu-id="b7e53-131">Accédez à Taxe > Déclarations > Commerce extérieur > Déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="b7e53-131">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+
+    <span data-ttu-id="b7e53-132">Ouvrez cet écran contenant les transactions de déclaration d'échanges de biens qui ont été incluses dans le document électronique généré.</span><span class="sxs-lookup"><span data-stu-id="b7e53-132">Open this form containing Intrastat transactions that have been included to the generated electronic document.</span></span>  
+
+3. <span data-ttu-id="b7e53-133">Cliquez sur Archive de la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="b7e53-133">Click Intrastat archive.</span></span>
+
+    <span data-ttu-id="b7e53-134">Comme le format ER exécuté contient maintenant les paramètres pour la mise à jour des données d'application, les détails de la génération d'états de déclaration d'échanges de biens ont été archivés.</span><span class="sxs-lookup"><span data-stu-id="b7e53-134">Since the executed ER format contains now settings for application data update, the details of the completed Intrastat reporting have been archived.</span></span> <span data-ttu-id="b7e53-135">Dans cet écran, vous pouvez voir l'enregistrement d'en-tête de l'archive créée.</span><span class="sxs-lookup"><span data-stu-id="b7e53-135">In this form, you can see the header record of the created archive.</span></span>  
+
+4. <span data-ttu-id="b7e53-136">Cliquez sur Détails.</span><span class="sxs-lookup"><span data-stu-id="b7e53-136">Click Details.</span></span>
+
+    <span data-ttu-id="b7e53-137">Dans cet écran, vous pouvez voir les détails de l'archive créée.</span><span class="sxs-lookup"><span data-stu-id="b7e53-137">In this form, you can see the details for the created archive.</span></span>  
+
+5. <span data-ttu-id="b7e53-138">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b7e53-138">Close the page.</span></span>
+6. <span data-ttu-id="b7e53-139">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b7e53-139">Close the page.</span></span>
+7. <span data-ttu-id="b7e53-140">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="b7e53-140">Close the page.</span></span>
 

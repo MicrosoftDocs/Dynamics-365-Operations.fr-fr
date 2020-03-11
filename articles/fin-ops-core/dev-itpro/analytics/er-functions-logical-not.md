@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b15277dba26dc7864193b11a127944daca6b989f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: a518f255a4488c5ed6e007b1787e678fd88aff36
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916037"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041720"
 ---
-# <span data-ttu-id="348f2-103"><a name="NOT">Fonction NOT ER</a></span><span class="sxs-lookup"><span data-stu-id="348f2-103"><a name="NOT">NOT ER function</a></span></span>
+# <span data-ttu-id="d7d22-103"><a name="NOT">Fonction NOT ER</a></span><span class="sxs-lookup"><span data-stu-id="d7d22-103"><a name="NOT">NOT ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="348f2-104">La fonction `NOT` renvoie la valeur logique inversée de la condition spécifiée en tant que valeur *Booléenne*.</span><span class="sxs-lookup"><span data-stu-id="348f2-104">The `NOT` function returns the reversed logical value of the specified condition as a *Boolean* value.</span></span>
+<span data-ttu-id="d7d22-104">La fonction `NOT` renvoie la valeur logique inversée de la condition spécifiée en tant que valeur *Booléenne*.</span><span class="sxs-lookup"><span data-stu-id="d7d22-104">The `NOT` function returns the reversed logical value of the specified condition as a *Boolean* value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="348f2-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="348f2-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d7d22-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d7d22-105">Syntax</span></span>
 
-```
+```vb
 NOT (condition)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="348f2-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="348f2-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="d7d22-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="d7d22-106">Arguments</span></span>
 
-<span data-ttu-id="348f2-107">`condition` : *Booléen*</span><span class="sxs-lookup"><span data-stu-id="348f2-107">`condition`: *Boolean*</span></span>
+<span data-ttu-id="d7d22-107">`condition` : *Booléen*</span><span class="sxs-lookup"><span data-stu-id="d7d22-107">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="348f2-108">Expression conditionnelle valide qui doit être inversée.</span><span class="sxs-lookup"><span data-stu-id="348f2-108">A valid conditional expression that must be reversed.</span></span>
+<span data-ttu-id="d7d22-108">Expression conditionnelle valide qui doit être inversée.</span><span class="sxs-lookup"><span data-stu-id="d7d22-108">A valid conditional expression that must be reversed.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="348f2-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="348f2-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d7d22-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="d7d22-109">Return values</span></span>
 
-<span data-ttu-id="348f2-110">*Booléen*</span><span class="sxs-lookup"><span data-stu-id="348f2-110">*Boolean*</span></span>
+<span data-ttu-id="d7d22-110">*Booléen*</span><span class="sxs-lookup"><span data-stu-id="d7d22-110">*Boolean*</span></span>
 
-<span data-ttu-id="348f2-111">Valeur *Booléenne* résultante.</span><span class="sxs-lookup"><span data-stu-id="348f2-111">The resulting *Boolean* value.</span></span>
+<span data-ttu-id="d7d22-111">Valeur *Booléenne* résultante.</span><span class="sxs-lookup"><span data-stu-id="d7d22-111">The resulting *Boolean* value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="348f2-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="348f2-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d7d22-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="d7d22-112">Example</span></span>
 
-<span data-ttu-id="348f2-113">`NOT (TRUE)` renvoie **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="348f2-113">`NOT (TRUE)` returns **FALSE**.</span></span>
+<span data-ttu-id="d7d22-113">`NOT (TRUE)` renvoie **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="d7d22-113">`NOT (TRUE)` returns **FALSE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="348f2-114">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="348f2-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d7d22-114">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="d7d22-114">Additional resources</span></span>
 
-[<span data-ttu-id="348f2-115">Fonctions logiques</span><span class="sxs-lookup"><span data-stu-id="348f2-115">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="d7d22-115">Fonctions logiques</span><span class="sxs-lookup"><span data-stu-id="d7d22-115">Logical functions</span></span>](er-functions-category-logical.md)

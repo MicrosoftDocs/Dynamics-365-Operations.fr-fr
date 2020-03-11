@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2673b0167f7602a6d6eaa79be639905028e99822
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c95663f1aacaf93c1c4bfc8d36d9515f495bf61e
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915531"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040823"
 ---
-# <span data-ttu-id="e00bb-103"><a name="TRIM">Fonction TRIM ER</a></span><span class="sxs-lookup"><span data-stu-id="e00bb-103"><a name="TRIM">TRIM ER function</a></span></span>
+# <span data-ttu-id="0cfc7-103"><a name="TRIM">Fonction TRIM ER</a></span><span class="sxs-lookup"><span data-stu-id="0cfc7-103"><a name="TRIM">TRIM ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e00bb-104">La fonction `TRIM` renvoie la chaîne de texte spécifiée en tant que valeur de *Chaîne* une fois que les espaces de début et de fin ont été tronqués, et une fois que plusieurs espaces entre les mots ont été supprimés.</span><span class="sxs-lookup"><span data-stu-id="e00bb-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
+<span data-ttu-id="0cfc7-104">La fonction `TRIM` renvoie la chaîne de texte spécifiée en tant que valeur de *Chaîne* une fois que les espaces de début et de fin ont été tronqués, et une fois que plusieurs espaces entre les mots ont été supprimés.</span><span class="sxs-lookup"><span data-stu-id="0cfc7-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e00bb-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e00bb-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0cfc7-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0cfc7-105">Syntax</span></span>
 
-```
+```vb
 TRIM (text )
 ```
 
-## <a name="arguments"></a><span data-ttu-id="e00bb-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="e00bb-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="0cfc7-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="0cfc7-106">Arguments</span></span>
 
-<span data-ttu-id="e00bb-107">`text` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="e00bb-107">`text`: *String*</span></span>
+<span data-ttu-id="0cfc7-107">`text` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="0cfc7-107">`text`: *String*</span></span>
 
-<span data-ttu-id="e00bb-108">Chemin d'accès valide d'une source de données du type *Chaîne*.</span><span class="sxs-lookup"><span data-stu-id="e00bb-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="0cfc7-108">Chemin d'accès valide d'une source de données du type *Chaîne*.</span><span class="sxs-lookup"><span data-stu-id="0cfc7-108">The valid path of a data source of the *String* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e00bb-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="e00bb-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="0cfc7-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="0cfc7-109">Return values</span></span>
 
-<span data-ttu-id="e00bb-110">*Chaîne*</span><span class="sxs-lookup"><span data-stu-id="e00bb-110">*String*</span></span>
+<span data-ttu-id="0cfc7-110">*Chaîne*</span><span class="sxs-lookup"><span data-stu-id="0cfc7-110">*String*</span></span>
 
-<span data-ttu-id="e00bb-111">Valeur de texte résultante.</span><span class="sxs-lookup"><span data-stu-id="e00bb-111">The resulting text value.</span></span>
+<span data-ttu-id="0cfc7-111">Valeur de texte résultante.</span><span class="sxs-lookup"><span data-stu-id="0cfc7-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e00bb-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="e00bb-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0cfc7-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="0cfc7-112">Example</span></span>
 
-<span data-ttu-id="e00bb-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` renvoie **« Exemple de texte »**.</span><span class="sxs-lookup"><span data-stu-id="e00bb-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
+<span data-ttu-id="0cfc7-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` renvoie **« Exemple de texte »**.</span><span class="sxs-lookup"><span data-stu-id="0cfc7-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e00bb-114">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="e00bb-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0cfc7-114">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="0cfc7-114">Additional resources</span></span>
 
-[<span data-ttu-id="e00bb-115">Fonctions texte</span><span class="sxs-lookup"><span data-stu-id="e00bb-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="0cfc7-115">Fonctions texte</span><span class="sxs-lookup"><span data-stu-id="0cfc7-115">Text functions</span></span>](er-functions-category-text.md)
