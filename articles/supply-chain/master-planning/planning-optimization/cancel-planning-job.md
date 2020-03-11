@@ -3,7 +3,7 @@ title: Annuler une tâche de planification
 description: Cette rubrique explique comment annuler une tâche active de planification qui utilise la fonctionnalité Optimisation de la planification.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a2d90f04985fdd66ca83582ee676100fffb26981
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773960"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076343"
 ---
+# <a name="cancel-a-planning-job"></a>Annuler une tâche de planification
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-# <a name="cancel-a-planning-job"></a>Annuler une tâche de planification
+Dans Microsoft Dynamics 365 Supply Chain Management, vous pouvez annuler une tâche active de planification qui utilise la fonctionnalité Optimisation de la planification. Lorsque vous cliquez sur **Annuler** dans la boîte de dialogue lorsqu'une tâche d'optimisation de la planification est déclenchée directement à partir de l'interface utilisateur (pas en arrière-plan), cette dernière ne sera pas annulée. Même si vous recevez un avertissement tel que « Opération annulée », vous devez tout de même effectuer les étapes suivantes pour annuler une tâche de planification à l'aide de la fonctionnalité Optimisation de la planification.
 
-Dans Microsoft Dynamics 365 Supply Chain Management, vous pouvez annuler une tâche active de planification qui utilise la fonctionnalité Optimisation de la planification.
 
-Pour annuler une tâche active de planification, procédez comme suit.
+Pour annuler une tâche active de planification, procédez comme suit. 
 
 > [!NOTE]
 > Seules les tâches actives peuvent être annulées.
@@ -49,11 +50,11 @@ Le statut de tâche sera **Annulation en cours** jusqu'à ce que le service Opti
 > [!NOTE]
 > Pour voir les modifications du statut, vous devez actualiser la page en sélectionnant le bouton **Actualiser**.
 
-## <a name="related-resources"></a>Ressources associées
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble de l'optimisation de la planification](planning-optimization-overview.md)
 
-[Prise en main de l'Optimisation de la planification](get-started.md)
+[Mise en route de l'optimisation de la planification](get-started.md)
 
 [Analyse de concordance d'optimisation de la planification](planning-optimization-fit-analysis.md)
 

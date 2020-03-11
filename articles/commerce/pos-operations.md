@@ -3,7 +3,7 @@ title: Opérations du point de vente (PDV), en ligne et hors connexion
 description: Cette rubrique fournit les détails relatifs aux opérations du PDV dans Dynamics 365 Commerce. Elle spécifie où dans l'application les opérations peuvent être invoquées, et si elles sont disponibles dans le mode hors ligne.
 author: jblucher
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf67c53ffd5bd530f484b60da604fd9338c964fd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022573"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081337"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -51,7 +51,9 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 135 | Ajouter une affiliation à partir de la liste | Permet d'ajouter une affiliation à une transaction en la sélectionnant dans une liste. | Oui | Oui | Oui | Oui | N° |
 | 137 | Ajouter une affiliation à un client | Ajouter une affiliation à un client sur la page **Détails du client**. | N° | N° | N° | Oui | N° |
 | 138 | Supprimer une affiliation d'un client | Supprimer une affiliation sur la page **Détails du client**. | N° | N° | N° | Oui | N° |
-| 643 | Ajouter un code coupon | Permet d'ajouter un coupon en entrant son code dans le PDV. | Oui | Oui | N° | Oui | N° |
+| 643 | Ajouter un code coupon | Permet d'ajouter un coupon en entrant son code dans le PDV. | Oui | Oui | Non | Oui | Non |
+| 141 | Ajouter des frais d'en-tête | Ajoutez des frais divers à l'en-tête de la commande. | Oui | Oui | Non | Non| Non |
+| 141 | Ajouter des frais de ligne | Ajoutez des frais divers à une ligne de vente sélectionnée. | Oui | Oui | Non | Non| Non |
 | 117 | Ajouter une carte de fidélité | Permet d'inviter l'utilisateur à entrer un numéro de carte de fidélité qui sera ajouté à la transaction actuelle. | Oui | Oui | N° | Oui | N° |
 | 136 | Ajouter un numéro de série | Cette opération permet à l'utilisateur de spécifier un numéro de série pour le produit sélectionné actuellement. | Oui | Oui | N° | Oui | N° |
 | 1214 | Ajouter une adresse d'expédition | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
@@ -63,8 +65,9 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 1 053 | Clôturer l'équipe de travail en aveugle | Permet de définir l'équipe actuelle à clôturer en aveugle, et de déconnecter l'utilisateur. Une équipe clôturée en aveugle est clôturée pour les transactions supplémentaires mais est toujours ouvertes pour les opérations de caisse enregistreuse, telles que le vidage et le comptage de la caisse. | Oui | Oui | Oui | N° | N° |
 | 310 | Calculer le total | Lorsque le calcul de la remise est retardé, cette opération initie le calcul de la transaction actuelle. | Oui | Oui | N° | Oui | N° |
 | 642 | Exécuter tous les produits | Permet de définir le mode de livraison de toutes les lignes sur **Exécuter**. | Oui | Oui | N° | Oui\* | N° |
-| 641 | Exécuter les produits sélectionnés | Permet de définir le mode de livraison des lignes sélectionnées sur **Exécuter**. | Oui | Oui | N° | Oui\* | N° |
-| 1 215 | Modifier le mot de passe | Cette opération permet à l'utilisateur du PDV de modifier son mot de passe. | Oui | Oui | Oui | N° | N° |
+| 641 | Exécuter les produits sélectionnés | Permet de définir le mode de livraison des lignes sélectionnées sur **Exécuter**. | Oui | Oui | Non | Oui\* | Non |
+| 647 | Changer de mode de livraison | Modifiez le mode de livraison pour les lignes de vente préconfigurées. | Oui | Oui | Non | Non| Non |
+| 1215 | Modifier le mot de passe | Cette opération permet à l'utilisateur du PDV de modifier son mot de passe. | Oui | Oui | Oui | N° | N° |
 | 123 | Modifier l'unité de mesure | Permet de modifier l'unité de mesure de la ligne sélectionnée. | Oui | Oui | N° | Oui | N° |
 | 639 | Effacer le représentant par défaut sur la transaction | Permet de supprimer le groupe de ventes de commission (commercial) de la transaction. | Oui | Oui | N° | Oui | N° |
 | 106 | Effacer la quantité | Permet de réinitialiser la quantité de la ligne sélectionnée actuellement sur **1**. | Oui | Oui | N° | Oui | N° |
@@ -99,7 +102,8 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 1201 | Entrée de fond de caisse | Cette opération permet à l'utilisateur d'ajouter de l'argent supplémentaire pour le tiroir-caisse ou à l'équipe actuels. | Oui | Oui | Oui | Oui | N° |
 | 1 218 | Forcer le déverrouillage du périphérique | Le système utilise cette opération en interne pour déverrouiller les périphériques du PDV. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
 | 520 | Solde de la carte cadeau | Permet d'afficher le solde d'une carte cadeau. | Oui | Oui | N° | N° | N° |
-| 708 | Désactiver le périphérique | Permet de désactiver le périphérique actuel, afin qu'il ne puisse pas être utilisé comme caisse enregistreuse de PDV. | N° | N° | N° | N° | N° |
+| 708 | Désactiver le périphérique | Permet de désactiver le périphérique actuel, afin qu'il ne puisse pas être utilisé comme caisse enregistreuse de PDV. | Non | Non | Non | Non | Non |
+| 804 | Opération entrante | Accédez aux fonctionnalités de gestion des stocks entrants. | Oui | Non | Oui | Non| Non |
 | 517 | Comptes de revenus | Permet d'enregistrer la somme d'argent placée dans le tiroir-caisse pour un autre motif qu'une vente. | Oui | Oui | Oui | Oui | N° |
 | 801 | Recherche de stock | Permet de rechercher les quantités disponibles, en commande et disponibles à la vente (DAV) pour le magasin actuel et d'autres lieux disponibles. | Oui | Oui | Oui | N° | N° |
 | 122 | Commentaire sur la facture | Cette opération permet à l'utilisateur d'entrer un commentaire sur la transaction actuelle. | Oui | Oui | N° | Oui | N° |
@@ -110,11 +114,13 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 301 | Pourcentage de la remise ligne | Permet d'entrer un pourcentage de rermise pour une ligne de la transaction. Cette opération s'applique uniquement aux articles qui peuvent bénéficier d'une remise, dans le respect des limites spécifiées. | Oui | Oui | N° | Oui | N° |
 | 703 | Verrouiller la caisse enregistreuse | Permet de verrouiller le registre actuel, afin qu'il ne puisse pas être utilisé, mais sans déconnecter l'utilisateur actuel. | N° | N° | N° | Oui | N° |
 | 701 | Déconnexion | Permet de déconnecter l'utilisateur actuel du registre. | Oui | Oui | Oui | Oui | N° |
-| 521 | Solde de points de la carte de fidélité | Permet d'afficher le solde de points de la carte de fidélité spécifiée. | Oui | Oui | N° | N° | N° |
+| 521 | Solde de points de la carte de fidélité | Permet d'afficher le solde de points de la carte de fidélité spécifiée. | Oui | Oui | Non | Non | Non |
+| 142 | Gérer les frais | Affichez et gérez les frais divers appliqués à la transaction. | Oui | Oui | Non | Non| Non |
 | 918 | Gérer les équipes | Permet d'afficher une liste d'équipes actives, interrompues et clôturées en aveugle. | Oui | Oui | Oui | N° | N° |
 | 914 | Réduire la fenêtre du PDV | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
 | 1 000 | Ouvrir tiroir-caisse | Permet d'exécuter une opération sans vente, puis d'ouvrir le tiroir-caisse actuellement sélectionné. | Oui | Oui | Oui | Oui | N° |
-| 928 | Exécution de l'ordre | Cette opération permet aux utilisateurs de prélever, emballer, expédier ou rappeler des commandes pour un retrait en magasin. | Oui | Oui | Oui | N° | N° |
+| 928 | Exécution de l'ordre | Cette opération permet aux utilisateurs de prélever, emballer, expédier ou rappeler des commandes pour un retrait en magasin. | Oui | Oui | Oui | Non | Non |
+| 805 | Opération sortante | Accédez aux fonctionnalités de gestion des expéditions d'ordres de transfert sortants. | Oui | Non | Oui | Non| Non |
 | 129 | Remplacer la taxe sur le produit de la ligne | Permet de remplacer la taxe spécifiée par une autre sur la ligne sélectionnée. | Oui | Oui | N° | Oui | N° |
 | 130 | Remplacer la taxe sur le produit de la ligne de la liste | Permet de remplacer la taxe sur la ligne sélectionnée par la taxe sélectionnée dans une liste par l'utilisateur. | Oui | Oui | N° | Oui | N° |
 | 127 | Remplacer la taxe sur les transactions | Permet de remplacer la taxe spécifiée sur la transaction par une autre. | Oui | Oui | N° | Oui | N° |
@@ -146,7 +152,8 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 100 | Vente de produits | Permet d'ajouter un produit spécifié à la transaction. | Oui | Oui | Oui | Oui | N° |
 | 108 | Recherche du produit | Cette opération permet à l'utilisateur de rechercher un produit en accédant à la page de recherche de produits dans le PDV. | Oui | Oui | Oui | Oui | N° |
 | 633 | Date d'expiration du devis | Cette opération permet à l'utilisateur d'afficher ou de modifier la date d'expiration sur un devis de vente. | Oui | Oui | N° | Oui\* | N° |
-| 627 | Recalculer | Permet de recalculer toutes les lignes et taxes de commande client, selon la configuration actuelle. | Oui | Oui | N° | Oui\* | N° |
+| 627 | Recalculer | Permet de recalculer toutes les lignes et taxes de commande client, selon la configuration actuelle. | Oui | Oui | Non | Oui\* | Non |
+| 143 | Recalculer les frais | Recalculez les frais automatiques appliqués à la commande. | Oui | Oui | Non | Non| Non |
 | 515 | Rappeler la commande | Cette opération permet à l'utilisateur de rechercher et de rappeler des commandes client et des devis de vente. | Oui | Oui | Oui | N° | N° |
 | 504 | Rappeler une transaction | Cette opération permet à l'utilisateur de rappeler une transaction préalablement interrompue dans le magasin actuel. | Oui | Oui | N° | Oui‡ | N° |
 | 305 | Rembourser les points de fidélité | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Oui |

@@ -3,7 +3,7 @@ title: Nouveautés ou modifications apportées à la page d'accueil des applicat
 description: Cette page indique les rubriques permettant de connaître les nouvelles fonctionnalités présentes dans les dernières applications Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 01/31/2020
+ms.date: 02/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 70901bedff1babadff6586aa2f584db87d71bcc7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 39f72c534c7179f4535e6eb8a31ef7e9b72b7b88
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003781"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076029"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Nouveautés ou modifications apportées à la page d'accueil des applications Finance and Operations
 [!include [banner](../includes/banner.md)]
@@ -38,11 +38,17 @@ Pour afficher les nouveautés ou les modifications dans chaque version d'une app
 - **Finance :** [Nouveautés ou modifications dans Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md) 
 - **Supply Chain Management :** [Nouveautés ou modifications dans Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce :** [Nouveautés ou modifications dans Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)
+- **Human Resources** : [Nouveautés ou modifications dans Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Mises à jour de la plateforme
 
 Pour afficher les nouveautés ou les modifications dans les mises de la plateforme pour les applications Finance and Operations, voir la rubrique suivante :
 
-- [Nouveautés ou modifications dans les mises à jour de la plateforme](../../dev-itpro/get-started/whats-new-home-page.md)
+- [Nouveautés ou modifications dans Plateform update](../../dev-itpro/get-started/whats-new-home-page.md)
+
+## <a name="lifecycle-services-releases"></a>Versions de Lifecycle Services
+Pour afficher les nouveautés ou les modifications dans Lifecycle Services, consultez la rubrique suivante :
+
+- [Nouveautés ou modifications dans Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 

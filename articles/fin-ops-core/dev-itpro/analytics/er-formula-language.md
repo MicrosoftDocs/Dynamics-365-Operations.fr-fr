@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916658"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042709"
 ---
 # <a name="electronic-reporting-formula-language"></a>Langage de formule dans la gestion des états électroniques
 
@@ -154,7 +154,7 @@ La génération d'état électroniques prend en charge une capacité d'extension
 
 Vous pouvez créer des expressions composées qui utilisent des fonctions de différentes catégories, à condition que les types de données correspondent. Lorsque vous utilisez des fonctions ensemble, faites correspondre le type de données de la sortie d'une fonction au type de données d'entrée requis par une autre fonction. Par exemple, pour éviter une éventuelle erreur « liste-vide » dans la liaison d'un champ à un élément de format ER, combinez les fonctions de la catégorie [Liste](er-functions-category-list.md) à une fonction de la catégorie [Logique](er-functions-category-logical.md) comme le montre l'exemple suivant. Ici, la formule utilise la fonction [IF](er-functions-logical-if.md) pour tester si la liste **IntrastatTotals** est vide avant de renvoyer la valeur de l'agrégation requise à partir de cette liste. Si la liste **IntrastatTotals** est vide, la formule retourne **0** (zéro).
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 Souvent, vous pouvez obtenir le même résultat de transformation de données de plusieurs manières, en utilisant des fonctions de différentes catégories ou différentes fonctions de la même catégorie. Par exemple, l'expression précédente peut également être configurée à l'aide de la fonction [COUNT](er-functions-list-count.md) de la catégorie [Liste](er-functions-category-list.md).
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 

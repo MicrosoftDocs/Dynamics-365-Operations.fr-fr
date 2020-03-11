@@ -3,7 +3,7 @@ title: Vue d'ensemble de réapprovisionnement
 description: Cette rubrique décrit les stratégies de réapprovisionnement disponibles pour les entrepôts qui utilisent la fonctionnalité qui est disponible dans Gestion des entrepôts.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251465"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076351"
 ---
 # <a name="replenishment-overview"></a>Vue d'ensemble de réapprovisionnement
 
@@ -49,6 +49,8 @@ Des directives d’emplacement permettent de déterminer l’emplacement à réa
 En plus de créer un modèle, vous devez spécifier certains paramètres de réapprovisionnement dans le modèle de vague. Le modèle de vague doit contenir une étape de vague pour le réapprovisionnement qui s’exécute uniquement si l’allocation d’un article n’est pas réussie. Cette étape de vague de réapprovisionnement utilise un code d’étape de vague pour déterminer quel modèle de réapprovisionnement utiliser. En plus d’avoir une étape de vague de réapprovisionnement, vous devez vous assurer que **Réapprovisionner** est sélectionné dans la section **Méthodes** du modèle de vague. 
 
 La page **Modèle de réapprovisionnement** inclut une case à cocher **Autoriser la demande de vague pour utiliser des quantités non réservées**. Celle-ci doit être activée si vous souhaitez que le réapprovisionnement de demande déduise les quantités non réservées du travail généré à partir du modèle de réapprovisionnement sélectionné. Pour autoriser les modèles de réapprovisionnement de demande à utiliser cette logique, activez cette case à cocher pour chaque modèle de réapprovisionnement existant. Lorsque le réapprovisionnement de demande est lancé dans l'entrepôt, le système déduira la demande du travail de réapprovisionnement existant avec des quantités non réservées, si l'option **Autoriser la demande de vague à utiliser les quantités non réservées** est activée dans le travail issu des modèles de réapprovisionnement.
+
+**Unité de réapprovisionnement** est l'unité minimale à réapprovisionner. Ce doit être un nombre entier qui est un multiple de l'unité. Le système arrondira à l'unité la plus élevée possible lors de la création du travail.
 
 Le réapprovisionnement de demande est pris en charge pour les commandes client, les ordres de transfert, les ordres de fabrication et les kanbans. 
 

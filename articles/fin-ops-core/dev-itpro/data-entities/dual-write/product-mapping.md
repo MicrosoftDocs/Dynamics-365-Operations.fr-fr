@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019777"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081149"
 ---
 # <a name="unified-product-experience"></a>Expérience produit uniformisée
 
@@ -75,7 +75,7 @@ Unité | UM
 Conversion d'unités | msdyn_ unitofmeasureconversions
 Conversion de l'unité de mesure spécifique au produit | msdyn_productspecificunitofmeasureconversion
 Catégories de produits | msdyn_productcategories | Chacune des catégories de produit et des informations sur sa structure et ses caractéristiques sont contenues dans l'entité de catégorie de produit. 
-Hiérarchies de catégories de produit | msdyn_productcategoryhierarhies | Vous utilisez des hiérarchies de produit pour classer ou regrouper des produits. Les hiérarchies de catégories sont disponibles dans Common Data Service à l'aide de l'entité de hiérarchie des catégories de produits. 
+Hiérarchie de catégories de produit | msdyn_productcategoryhierarhies | Vous utilisez des hiérarchies de produit pour classer ou regrouper des produits. Les hiérarchies de catégories sont disponibles dans Common Data Service à l'aide de l'entité Hiérarchie de catégories de produit. 
 Rôles de hiérarchie de catégories de produit | msdyn_productcategoryhierarchies | Les hiérarchies de produits peuvent être utilisées pour plusieurs rôles dans D365 Finance and Operations. Pour indiquer quelle catégorie est utilisée dans chaque rôle, l'entité de rôle de catégorie du produit est utilisée. 
 Affectations de catégorie de produit | msdyn_productcategoryassignments | Pour affecter un produit à une catégorie, l'entité d'affectations de catégorie de produit peut être utilisée.
 
@@ -91,7 +91,7 @@ Comme le produit est représenté par un SKU, les concepts des produits distinct
 
 ![Modèle de données pour les produits](media/dual-write-product.png)
 
-Si la fonctionnalité de double écriture est activée, les applications Finance and Operations sont synchronisées dans les autres applications Dynamics 365 en mode **Brouillon**. Elles sont ajoutées à la première liste de prix avec la même devise. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de l'entité juridique dans laquelle le produit est lancé dans une application Finance and Operations. 
+Si la fonctionnalité de double écriture est activée, les applications de Finance and Operations seront synchronisées dans les autres applications Dynamics 365 en mode **Brouillon**. Elles sont ajoutées à la première liste de prix avec la même devise. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de l'entité juridique dans laquelle le produit est lancé dans une application Finance and Operations. 
 
 Par défaut, les produits en provenance des applications Finance and Operations sont synchronisés avec les autres applications Dynamics 365 en mode **Brouillon**. Pour synchroniser le produit à l'état **Actif**, afin de pouvoir l'utiliser directement dans les devis de commande client, par exemple, le paramètre suivant doit être choisi : sous **Système > Adminstration > Administration système > Paramètres système > Ventes** sélectionnez **Créer des produits à l'état actif = Oui**. 
 
@@ -109,7 +109,7 @@ Notez que la synchronisation des produits survient des applications Finance and 
 
 Les dimensions de produit sont des caractéristiques qui identifient une variante de produit. Les quatre dimensions de produit (Couleur, Taille, Style et Configuration) sont également mis en correspondance avec Common Data Service pour définir les variantes de produit. L'illustration suivante présente le modèle de données pour la dimension de produit Couleur. Le même modèle s'applique aux dimensions Taille, Style et Configuration. 
 
-![Modèle de données pour les produits](media/dual-write-product-2.PNG)
+![Modèle de données pour les produits](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Les paramètres de commande par défaut définissent le site et l'entrepôt d'o�
 
 Les unités de mesure et les conversions respectives seront disponibles dans Common Data Service suivant le modèle de données affiché dans le diagramme.
 
-![Modèle de données pour les produits](media/dual-write-product-3.PNG)
+![Modèle de données pour les produits](media/dual-write-product-three.png)
 
 Le concept d'unité de mesure est intégré entre les applications Finance and Operations et les autres applications Dynamics 365. Pour chaque classe d'unités d'une application Finance and Operations, un groupe d'unités est créé dans une application Dynamics 365, qui contient les unités appartenant à la classe d'unités. Une unité de base par défaut est également créée pour chaque groupe d'unité. 
 
@@ -176,7 +176,7 @@ Dans le cadre de la double écriture, des groupes d'unités à partir des applic
 
 Pour les unités dans les autres applications Dynamics 365 qui n'existent pas dans les applications Finance and Operations :
 
-Le champ msdyn_symbol doit être rempli pour toutes les unités. Les unités peuvent toujours être créées dans les applications Finance and Operations dans la classe d'unités correspondante (si elle existe). Si la classe d'unités n'existe pas, commencez par créer la classe d'unités (notez que vous ne pouvez pas créer une classe d'unités dans les applications Finance and Operations sauf par l'extension si vous étendez l'énumération) et elle doit correspondre à l'autre groupe d'unités dans les applications Dynamics 365. Vous pouvez ensuite créer la nouvelle unité. Notez que le symbole d'unité dans les applications Finance and Operations doit être le champ msdyn_symbol précédemment renseigné dans les autres applications Dynamics 365 pour l'unité.
+Le champ msdyn_symbol doit être rempli pour toutes les unités. Les unités peuvent toujours être créées dans les applications Finance and Operations dans la classe d'unités correspondante (si elle existe). Si la classe d'unités n'existe pas, commencez par créer la classe d'unités (notez que vous ne pouvez pas créer une classe d'unités dans les applications Finance and Operations sauf par l'extension si vous étendez l'énumération) et elle doit correspondre à l'autre groupe d'unités dans les applications Dynamics 365. Vous pouvez ensuite créer la nouvelle unité. Notez que le symbole d'unité dans les applications Finance and Operations doit être le champ msdyn_symbol précédemment renseigné dans les autres applications Dynamics 365 pour l'unité.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Stratégies de produit : groupes de dimensions, de suivi et de stockage
 
@@ -205,13 +205,13 @@ Pour identifier de manière unique les produits entre Dynamics 365 for Finance a
 
 Pour un autre utilisateur des applications Dynamics 365, le produit est reconnu dans l'interface utilisateur avec le champ **msdyn_productnumber** (notez que le libellé du champ est **Numéro de produit**). Dans l'écran de produit les champs de société et de msydn_productnumber sont affichés. Toutefois, le champ (numérodeproduit), la clé unique pour un produit, n'apparaît pas. 
 
-Sachez que si les candidatures sont générées sur Common Data Service, une attention particulière doit être donnée à l'utilisation du champ (numérodeproduit), qui est le seul ID de produit, puisque la clé d'intégration, et non le champ msdyn_productnumber, en raison du fait que ce dernier n'est pas unique. 
+Si vous créez des applications sur Common Data Service, vous devez veiller à utiliser le **numéro de produit** (l'ID de produit unique) comme clé d'intégration. N'utilisez pas **msdyn_productnumber**, car il n'est pas unique. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Synchronisation initiale des produits et migration des données de Common Data Service vers Finance and Operations
 
 ### <a name="initial-synchronization-of-products"></a>Synchronisation initiale des produits 
 
-Lorsque la double écriture est activée, les produits de Dynamics 365 Finance and Operations sont synchronisés vers Common Data Service et d'autres applications Dynamics 365. Notez que les produits créés dans Common Data Service et les autres applications Dynamics 365 avant l'écriture double ne sont pas mis à jour ou mis en correspondance avec les données de produit provenant de Finance and Operations.
+Lorsque la double écriture est activée, les produits des applications Finance and Operations sont synchronisés avec Common Data Service et les autres applications pilotées par modèle de Dynamics 365. Les produits créés dans Common Data Service et les autres applications Dynamics 365 avant la publication de la double écriture ne seront pas mis à jour ou mis en correspondance avec les données des produits des applications Finance and Operations.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Mise en correspondance des données de produit à partir de Finance and Operations et des autres applications Dynamics 365
 
@@ -223,4 +223,4 @@ Puis, lorsque la synchronisation est activée et survient, les produits en prove
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Migration des données de produit provenant des autres applications Dynamics 365 vers Finance and Operations
 
-Si les autres applications Dynamics 365 contiennent des produits qui ne sont pas présents dans Finance and Operations, l'administrateur peut d'abord utiliser **EcoResReleasedProductCreationV2Entity** pour importer ces produits dans Finance and Operations. Il doit ensuite mettre en correspondance les données de produit en provenance de Finance and Operations et des autres applications Dynamics 365, comme décrit ci-dessus. 
+Si les autres applications Dynamics 365 contiennent des produits qui ne sont pas présents dans Finance and Operations, l'administrateur peut d'abord utiliser **EcoResReleasedProductCreationV2Entity** pour importer ces produits dans Finance and Operations. Il doit ensuite mettre en correspondance les données de produit en provenance de Finance and Operations et des autres applications Dynamics 365, comme décrit ci-dessus. 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015225"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057668"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Blocages pour les commandes client
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ Les commandes client qui ont été suspendues de force ne peuvent pas être trai
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Libération des commandes qui ont été ajoutées à la liste de blocage de la gestion des crédits avec un blocage forcé des crédits
 Les commandes client qui ont un motif de blocage forcé ne peuvent pas être libérées automatiquement. Si la commande client a été suspendue de force et que vous avez utilisé un processus qui libère automatiquement les commandes client, la commande client s'affiche comme **Prête pour libération** et reste dans la liste d'attente. Vous devez utiliser le menu **Libération** pour libérer la commande.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Prise en charge des factures financières, des commandes de vente au détail et des factures de projet dans la gestion des crédits 
-La gestion des crédits ne peut actuellement être utilisée que pour les commandes client. Les factures financières, les commandes au point de vente au détail et les commandes du centre d'appels utiliseront les limites de crédit temporaires et les assurances/garanties que vous ajoutez pour ajuster la limite de crédit. Ils n'utiliseront pas les règles de blocage et ne seront pas placés dans la liste de blocage en cas de problème avec la limite de crédit.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Prise en charge des factures financières, des commandes et des factures de projet dans la gestion des crédits 
+La gestion des crédits ne peut actuellement être utilisée que pour les commandes client. Les factures financières, les commandes au point de vente et les commandes au centre d'appels utiliseront les limites de crédit temporaires et les assurances/garanties que vous ajoutez pour ajuster la limite de crédit. Ils n'utiliseront pas les règles de blocage et ne seront pas placés dans la liste de blocage en cas de problème avec la limite de crédit.
 
 Il n'y a pas de prise en charge des factures de projet dans la gestion du crédit.

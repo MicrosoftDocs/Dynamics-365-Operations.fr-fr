@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3f2616fd98b37576625d9586a1cda29ce1b89f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022567"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057485"
 ---
 # <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
 
@@ -43,23 +43,23 @@ Les termes suivants sont utilisés dans cette rubrique.
 
 ## <a name="price-groups"></a>Groupes de prix
 
-Les groupes de prix sont au cœur de la gestion des prix et des remises dans Commerce. Les groupes de prix permettent d'affecter des prix et des remises aux entités de vente au détail (c'est-à-dire les canaux, les catalogues, les affiliations et les programmes de fidélité). Du fait que les groupes de prix sont utilisés pour tous les prix et remises, il est primordial que vous organisiez la manière dont vous les utiliserez avant de commencer.
+Les groupes de prix sont au cœur de la gestion des prix et des remises dans Commerce. Les groupes de prix permettent d'affecter des prix et des remises aux entités commerciales (c'est-à-dire les canaux, les catalogues, les affiliations et les programmes de fidélité). Du fait que les groupes de prix sont utilisés pour tous les prix et remises, il est primordial que vous organisiez la manière dont vous les utiliserez avant de commencer.
 
-En soi, un groupe de prix est simplement un nom, une description et, éventuellement, une priorité de tarification. Le point principal à garder en tête concernant les groupes de prix sont qu'ils sont utilisés pour gérer les relations plusieurs à plusieurs que les remises et les prix ont avec les entités de vente au détail.
+En soi, un groupe de prix est simplement un nom, une description et, éventuellement, une priorité de tarification. Le point principal à garder en tête concernant les groupes de prix est qu'ils sont utilisés pour gérer les relations plusieurs à plusieurs que les remises et les prix ont avec les entités commerciales.
 
-L'illustration ci-dessous indique comment les groupes de prix sont utilisés. Dans cette illustration, notez que « Groupe de prix » est littéralement au centre de la gestion des prix et des remises. Les entités de vente au détail que vous pouvez utiliser pour gérer les prix et les remises différentiels sont à gauche, et les enregistrements de prix et de remises réels sont à droite.
+L'illustration ci-dessous indique comment les groupes de prix sont utilisés. Dans cette illustration, notez que « Groupe de prix » est littéralement au centre de la gestion des prix et des remises. Les entités commerciales que vous pouvez utiliser pour gérer les prix et les remises différentiels sont à gauche, et les enregistrements de prix et de remises réels sont à droite.
 
 ![Groupes de prix](./media/PriceGroups.png "Groupes de prix")
 
-Lorsque vous créez des groupes de prix, vous ne devez pas utiliser un groupe de prix unique pour plusieurs types d'entités de vente au détail. Sinon, il peut être difficile de déterminer la raison pour laquelle un prix ou une remise spécifique est appliqué à une transaction.
+Lorsque vous créez des groupes de prix, vous ne devez pas utiliser un groupe de prix unique pour plusieurs types d'entités commerciales. Sinon, il peut être difficile de déterminer la raison pour laquelle un prix ou une remise spécifique est appliqué à une transaction.
 
 Comme l'indique la ligne rouge en pointillés dans l'illustration, Commerce prend en charge les fonctionnalités essentielles de Microsoft Dynamics 365 d'un groupe de prix directement défini sur un client. Toutefois, dans ce cas, vous n'obtenez que les accords commerciaux sur le prix de vente. Si vous souhaitez appliquer des prix spécifiques au client, il est préférable de ne pas définir les groupes de prix directement sur le client. Au lieu de cela, utilisez les affiliations.
 
-Les sections suivantes fournissent plus d'informations sur les entités de vente au détail qui vous permettent de définir des prix distincts lorsque des groupes de prix sont utilisés. La configuration des prix et des remises pour toutes ces entités est un processus en deux étapes. Ces étapes peuvent être effectuées dans n'importe quel ordre. Toutefois, l'ordre logique veut que l'on définisse d'abord les groupes de prix sur les entités, car cette étape est susceptible d'être un paramétrage occasionnel effectué lors de l'implémentation. Ensuite, lorsque les prix et les remises sont créés, vous pouvez définir les groupes de prix sur ces prix et remises individuellement.
+Les sections suivantes fournissent plus d'informations sur les entités commerciales qui vous permettent de définir des prix distincts lorsque des groupes de prix sont utilisés. La configuration des prix et des remises pour toutes ces entités est un processus en deux étapes. Ces étapes peuvent être effectuées dans n'importe quel ordre. Toutefois, l'ordre logique veut que l'on définisse d'abord les groupes de prix sur les entités, car cette étape est susceptible d'être un paramétrage occasionnel effectué lors de l'implémentation. Ensuite, lorsque les prix et les remises sont créés, vous pouvez définir les groupes de prix sur ces prix et remises individuellement.
 
 ### <a name="channels"></a>Canaux
 
-Dans le secteur de la vente au détail, il est très courant d'avoir des prix distincts dans différents canaux. Les deux principaux facteurs qui affectent les prix spécifiques aux canaux sont les coûts et les conditions de marché locales.
+Dans le secteur commercial, il est très courant d'avoir des prix distincts dans différents canaux. Les deux principaux facteurs qui affectent les prix spécifiques aux canaux sont les coûts et les conditions de marché locales.
 
 - **Coûts** – Plus le canal est éloigné de la source de produit, plus le coût de stock d'un produit est élevé. Par exemple, un produit frais a une durée de conservation limitée et des besoins de production spécifiques (par exemple, une période de cultivation). En hiver, la laitue fraîche coûte probablement plus cher dans les climats du nord que dans les climats du sud. Si vous définissez des prix pour des canaux sur une vaste zone géographique, vous souhaiterez probablement définir des prix dans différents canaux.
 - **Conditions de marché locales** – Un magasin ayant un concurrent direct de l'autre côté de la rue sera beaucoup sensible au prix qu'un magasin sans concurrent direct proche.
@@ -84,7 +84,7 @@ Certains détaillants utilisent des catalogues physiques ou virtuels pour mettre
 
 ### <a name="best-practices-for-price-groups"></a>Pratiques recommandées pour les groupes de prix
 
-N'utilisez pas de groupe de prix plusieurs types d'entités de vente au détail. Au lieu de cela, utilisez un ensemble de groupes de prix pour les canaux, un autre ensemble de groupes de prix pour les affiliations ou les programmes de fidélité, etc. Vous pouvez utiliser un préfixe ou un suffixe dans le nom du groupe de prix pour regrouper visuellement les différents types de groupes de prix que vous utilisez.
+N'utilisez pas de groupe de prix plusieurs types d'entités. Au lieu de cela, utilisez un ensemble de groupes de prix pour les canaux, un autre ensemble de groupes de prix pour les affiliations ou les programmes de fidélité, etc. Vous pouvez utiliser un préfixe ou un suffixe dans le nom du groupe de prix pour regrouper visuellement les différents types de groupes de prix que vous utilisez.
 
 Évitez de définir des groupes de prix directement sur un client. Au lieu de cela, utilisez une affiliation. De cette manière, vous pouvez affecter tous les types de prix et de remises à des clients, et non uniquement des accords commerciaux de prix de vente.
 
@@ -98,7 +98,7 @@ Pour utiliser la priorité de tarification pour les prix, vous devez affecter un
 
 La fonctionnalité de la priorité de la tarification a été introduite pour prendre en charge le scénario où un détaillant souhaite appliquer des prix plus élevés dans un ensemble spécifique de magasins. Par exemple, un détaillant a défini des prix régionaux pour la côte est aux États-Unis mais souhaite que les prix soient plus élevés pour certains produits dans les magasins de New York, car cela coûte plus cher de vendre certains produits dans cette ville et/ou car le marché local soutiendra un prix supérieur.
 
-Comme décrit dans la section « Meilleur prix » de cette rubrique, le moteur de la tarification de vente au détail sélectionne généralement le plus bas de deux prix. Par conséquent, le détaillant est habituellement empêché d'utiliser le plus élevé des deux prix dans un magasin ayant les groupes de prix de la côte est et de New York. Pour résoudre ce problème avant que la fonctionnalité de priorité de tarification soit introduite, le détaillant devait définir des prix pour chaque produit à deux reprises et ne pouvait pas affecter les deux groupes de prix. Sinon, le détaillant devait créer des groupes de prix supplémentaires pour isoler les produits avec des prix plus élevés des produits dont les prix habituels étaient inférieurs.
+Comme décrit dans la section « Meilleur prix » de cette rubrique, le moteur de la tarification sélectionne généralement le plus bas de deux prix. Par conséquent, le détaillant est habituellement empêché d'utiliser le plus élevé des deux prix dans un magasin ayant les groupes de prix de la côte est et de New York. Pour résoudre ce problème avant que la fonctionnalité de priorité de tarification soit introduite, le détaillant devait définir des prix pour chaque produit à deux reprises et ne pouvait pas affecter les deux groupes de prix. Sinon, le détaillant devait créer des groupes de prix supplémentaires pour isoler les produits avec des prix plus élevés des produits dont les prix habituels étaient inférieurs.
 
 Toutefois, la fonctionnalité de priorité de tarification laisse le détaillant créer une priorité de tarification pour les prix de magasin supérieure à la priorité de tarification des prix régionaux. Sinon, le détaillant peut créer une priorité de tarification uniquement pour les prix de magasin et laisser les prix régionaux avec la priorité de tarification par défaut, qui est 0 (zéro). Les deux paramétrages garantissent que les prix de magasin sont toujours utilisés avant les prix régionaux.
 
@@ -142,7 +142,7 @@ L'emplacement le plus simple pour définir un prix pour un produit est directeme
 
 Si un produit a un prix pour tout le monde, le prix de base offre la manière la plus efficace de gérer le prix de ce produit. Même si vous utilisez des accords commerciaux pour définir des prix, vous pouvez également définir le prix de base sur un produit. Ensuite, si vous n'utilisez pas un accord commercial **Tous**, vous avez un prix de secours utilisé si aucun accord commercial ne s'applique.
 
-Si la devise d'un canal de vente au détail est différente de la devise de la société, le prix de base dans ce canal est déterminé à l'aide de la conversion de devise sur le prix défini pour le produit.
+Si la devise d'un canal est différente de la devise de la société, le prix de base dans ce canal est déterminé à l'aide de la conversion de devise sur le prix défini pour le produit.
 
 Bien que l'unité du prix ne soit pas un scénario courant, le moteur de la tarification la prend en charge. Si l'unité de prix est définie sur une valeur autre que **0** (zéro), le prix unitaire est égal à Prix ÷ Unité du prix. Par exemple, si le prix d'un produit est de 10,00 $, et que l'unité du prix est 50, le prix pour une quantité de 1 est de 0,20 $ (= 10,00 $ ÷ 50).
 
@@ -150,9 +150,9 @@ Bien que l'unité du prix ne soit pas un scénario courant, le moteur de la tari
 
 À l'aide du journal d'accords commerciaux, vous pouvez créer des accords commerciaux de prix de vente pour chaque produit. Dans Microsoft Dynamics 365, il existe trois portées client pour les accords commerciaux de prix de vente : **Table**, **Groupe**, et **Tous**. La portée client détermine les clients auxquels un accord commercial de prix de vente donné s'applique.
 
-Un accord commercial de prix de vente **Table** concerne un seul client qui est défini directement dans l'accord commercial. Ce scénario n'est pas un scénario entreprise-client (B2C) de vente au détail standard. Toutefois, s'il se produit, le moteur de la tarification utilise les accords commerciaux **Table** pour déterminer le prix.
+Un accord commercial de prix de vente **Table** concerne un seul client qui est défini directement dans l'accord commercial. Ce scénario n'est pas un scénario entreprise-client (B2C) standard. Toutefois, s'il se produit, le moteur de la tarification utilise les accords commerciaux **Table** pour déterminer le prix.
 
-Un accord commercial de prix de vente **Groupe** est le type qui est le plus souvent utilisé avec la fonctionnalité de la vente au détail. En dehors de Commerce, les accords commerciaux de prix de vente **Groupe** sont pour un groupe de clients spécifique. Toutefois, dans Commerce, le concept de groupe de clients a été étendu pour qu'il corresponde davantage à un groupe de prix plus générique. Un groupe de prix peut être lié à un canal, une affiliation, un programme de fidélité ou un catalogue. Pour plus d'informations sur les groupes de prix, voir la section « Groupes de prix » plus haut dans cette rubrique.
+Un accord commercial de prix de vente **Groupe** est le type qui est le plus souvent utilisé. En dehors de Commerce, les accords commerciaux de prix de vente **Groupe** sont pour un groupe de clients spécifique. Toutefois, dans Commerce, le concept de groupe de clients a été étendu pour qu'il corresponde davantage à un groupe de prix plus générique. Un groupe de prix peut être lié à un canal, une affiliation, un programme de fidélité ou un catalogue. Pour plus d'informations sur les groupes de prix, voir la section « Groupes de prix » plus haut dans cette rubrique.
 
 > [!NOTE]
 > Un prix d'accord commercial est toujours utilisé avant le prix de base.
@@ -211,7 +211,7 @@ Microsoft SQL Server Express est souvent utilisé pour des bases de données de 
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Prix qui incluent la taxe et prix qui excluent la taxe
 
-Lorsque vous définissez des prix de vente dans Dynamics 365, vous ne spécifiez pas si la valeur de prix que vous définissez inclut ou exclut la taxe. La valeur est uniquement le prix. Toutefois, le paramètre **Prix inclut la taxe** sur les canaux de vente au détail permet de configurer les canaux de façon à ce que ils incluent ou excluent la taxe des prix. Ce paramètre est défini dans le canal et peut varier même dans une seule société.
+Lorsque vous définissez des prix de vente dans Dynamics 365, vous ne spécifiez pas si la valeur de prix que vous définissez inclut ou exclut la taxe. La valeur est uniquement le prix. Toutefois, le paramètre **Prix inclut la taxe** sur les canaux permet de configurer les canaux de façon à ce que ils incluent ou excluent la taxe des prix. Ce paramètre est défini dans le canal et peut varier même dans une seule société.
 
 Si vous utilisez des types de taxes inclusifs et exclusifs, il est primordial que vous définissiez les prix correctement, car le montant total payé par le client change si le paramètre **Prix inclut la taxe** sur le canal est modifié.
 
@@ -219,15 +219,15 @@ Si vous utilisez des types de taxes inclusifs et exclusifs, il est primordial qu
 
 Un seul moteur de tarification permet de calculer les prix sur tous les canaux : centre d'appels, magasin de vente au détail et magasins en ligne. Cela permet d'activer les scénarios de commerce unifié.
 
-La tarification de vente au détail est conçue pour utiliser des entités de vente au détail au lieu d'entités hors vente au détail. Spécifiquement, elle est conçue pour définir des prix par magasin, pas par entrepôt.
+La tarification est conçue pour utiliser des entités de vente au détail au lieu d'entités hors vente au détail. Spécifiquement, elle est conçue pour définir des prix par magasin, pas par entrepôt.
 
-Le moteur de tarification de venteau détail **ne prend pas en charge** les fonctionnalités suivantes de la tarification :
+Le moteur de tarification **ne prend pas en charge** les fonctionnalités suivantes de la tarification :
 
-- La définition des prix par site ou par dimensions de stockage de site et d'entrepôt n'est pas prise en charge. Si vous spécifiez uniquement la dimension Site sur les accords commerciaux, le prix de détail ignorera le site et appliquera l'accord commercial à tous les sites. Si vous spécifiez à la fois le site et l'entrepôt, le comportement n'est pas défini/non testé, car il est prévu que les détaillants utilisent les groupes de prix du magasin pour contrôler les prix de chaque magasin/entrepôt.
+- La définition des prix par site ou par dimensions de stockage de site et d'entrepôt n'est pas prise en charge. Si vous spécifiez uniquement la dimension Site sur les accords commerciaux, le moteur de tarification ignorera le site et appliquera l'accord commercial à tous les sites. Si vous spécifiez à la fois le site et l'entrepôt, le comportement n'est pas défini/non testé, car il est prévu que les détaillants utilisent les groupes de prix du magasin pour contrôler les prix de chaque magasin/entrepôt.
 - La tarification basée sur des attributs n'est pas prise en charge.
 - Le transfert de remise fournisseur n'est pas pris en charge.
 
-De plus, **seul** le moteur de tarification de vente au détail prend en charge les fonctionnalités suivantes de la tarification :
+De plus, **seul** le moteur de tarification prend en charge les fonctionnalités suivantes de la tarification :
 
 - Le prix est basé sur les dimensions de produit, dans l'ordre du prix variable le plus spécifique au prix variable le moins spécifique jusqu'au prix du produit générique. Un prix défini à l'aide de deux dimensions de produit (par exemple, de couleur et de taille) est utilisé avant un prix défini à l'aide d'une seule dimension de produit (par exemple, de taille).
 - Le même groupe de prix peut être utilisé pour contrôler la tarification et les remises.

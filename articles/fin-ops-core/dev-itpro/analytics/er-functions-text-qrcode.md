@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac0910d213ee05a2a7a7b218a6714d4f935be16
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 8a52dbce29140591baf4be97baef237dce1f2511
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916750"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040846"
 ---
 # <a name="QRCODE">Fonction QRCODE ER</a>
 
@@ -33,7 +33,7 @@ La fonction `QRCODE` renvoie une valeur de *Conteneur* qui présente l'une image
 
 ## <a name="syntax"></a>Syntaxe
 
-```
+```vb
 QRCODE (text)
 ```
 
@@ -53,7 +53,7 @@ Flux binaire résultant.
 
 Vous pouvez configurer un format d'états électroniques (ER) pour générer un document sortant dans le format Microsoft Office (classeurs Excel ou documents Word) en utilisant un modèle prédéfini. Ce modèle peut contenir un objet **Image** (classeur Excel) ou un **Contrôle du contenu de l'image** (Document Word) comme espace réservé pour une image de code QR. Vous devez ajouter au format ER configuré un élément **Cellule** qui sera utilisé pour remplir cet espace réservé. Pour spécifier quelles informations seront stockées dans un code QR, vous devez définir une liaison pour cet élément **Cellule**. Par exemple, vous pouvez configurer une telle liaison comme contenant l'expression suivante :
 
-```
+```vb
 QRCODE (model.ListOfShelfLabels.LabelText)`
 ```
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 7d68f65c27ec8704ef588cf98bbe30fc70cd5b47
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4185d4762b65b6b1ce7531c3995f8bbe084a9c5f
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022547"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057299"
 ---
 # <a name="get-support-for-dynamics-365-retail"></a>Obtenir de l'aide pour Dynamics 365 Retail
 
@@ -48,7 +48,7 @@ Pour obtenir un support sur Commerce, utilisez les ressources du tableau suivant
 <tbody>
 <tr>
 <td>Demander à la communauté.</td>
-<td>Accédez à la page de la communauté <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> pour trouver les réponses aux questions que vous vous posez sur Dynamics 365.</td>
+<td>Accédez à la page <a href="https://community.dynamics.com/365/retail">Communauté Dynamics 365</a> pour trouver les réponses aux questions que vous vous posez sur Dynamics 365.</td>
 </tr>
 <tr>
 <td>Utiliser l'outil Recherche d'incidents.</td>

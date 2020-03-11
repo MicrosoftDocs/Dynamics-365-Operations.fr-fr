@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022481"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057808"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurer les modes de livraison et les frais du centre d'appels
 
@@ -66,7 +66,7 @@ Les frais peuvent être configurés pour être appliqués pour un mode de livrai
 
 Dans la section **Lignes**, vous pouvez définir un ou plusieurs frais par devise, selon vos besoins. Les frais doivent être associés à un code frais qui définit les règles de validation financière pour les frais. Le champ **Catégorie** permet de définir le mode de calcul des frais. Par exemple, si les clients doivent être soumis à un taux forfaitaire de $9,95 pour qu'une commande soit expédiée selon un mode de livraison spécifique, utilisez la catégorie **Fixe**. Si l'entreprise décide de facturer aux clients un pourcentage du total de la commande pour couvrir les frais de livraison, utilisez la catégorie **Pourcentage**. Les frais réels appliqués aux clients sont définis dans le champ **Valeur des frais**.
 
-Les sociétés de vente au détail configurent souvent des frais progressifs. Dans ce cas, le montant que les clients paient pour la livraison est basé sur la valeur de la commande. Pour configurer les frais progressifs, entrez des valeurs dans les champs **Montant de départ** et **Montant d'arrivée** et définissez les frais proprement dit dans le champ **Valeur des frais**. Par exemple, pour les commandes qui ont une valeur inférieure à $50, un détaillant facture $5,95 pour l'expédition par voie terrestre. Pour les commandes qui ont une valeur supérieure ou égale à $50, mais inférieure à $100, le détaillant facture $7,95. Enfin, pour les commandes qui ont une valeur supérieure ou égale à $100, le détaillant ne facture aucun frais d'expédition. L'illustration suivante présente la configuration de ces frais.
+Les sociétés configurent souvent des frais progressifs. Dans ce cas, le montant que les clients paient pour la livraison est basé sur la valeur de la commande. Pour configurer les frais progressifs, entrez des valeurs dans les champs **Montant de départ** et **Montant d'arrivée** et définissez les frais proprement dit dans le champ **Valeur des frais**. Par exemple, pour les commandes qui ont une valeur inférieure à $50, un détaillant facture $5,95 pour l'expédition par voie terrestre. Pour les commandes qui ont une valeur supérieure ou égale à $50, mais inférieure à $100, le détaillant facture $7,95. Enfin, pour les commandes qui ont une valeur supérieure ou égale à $100, le détaillant ne facture aucun frais d'expédition. L'illustration suivante présente la configuration de ces frais.
 
 ![Exemple de frais progressifs fixes](media/fixedtieredcharges.png)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002241"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057831"
 ---
 # <a name="cloud-powered-search-overview"></a>Vue d'ensemble de la recherche dans le cloud
 
@@ -33,7 +33,7 @@ Cette rubrique fournit une vue d'ensemble de recherche optimisée par le cloud d
 
 ## <a name="overview"></a>Vue d'ensemble
 
-La détectabilité du produit garantit que les clients peuvent rapidement et facilement trouver des produits en parcourant les catégories, en les recherchant, et en les filtrant. Les détaillants considèrent que la découverte d'un produit est l'outil principal pour l'interaction de clients entre les canaux de vente au détail.
+La détectabilité du produit garantit que les clients peuvent rapidement et facilement trouver des produits en parcourant les catégories, en les recherchant, et en les filtrant. Les détaillants considèrent que la découverte d'un produit est l'outil principal pour l'interaction de clients entre les canaux.
 
 Les clients sont accoutumés aux temps de réponse presque instantanés des moteurs de recherche web, sites web sophistiqués de commerce électronique, applications des réseaux sociaux, des suggestions automatiques qui apparaissent lorsqu'ils entrent des termes de recherche, la navigation à facettes, et la mise en surbrillance. Si les clients ne peuvent pas trouver le produit qu'ils recherchent assez rapidement dans un magasin de commerce électronique, ils n'hésiteront pas à aller voir un autre magasin de commerce électronique.
 

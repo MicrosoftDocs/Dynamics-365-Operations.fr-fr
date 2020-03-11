@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fe785e3bfd503193a588958ae5df0d1c0fdb9e52
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002310"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057854"
 ---
 # <a name="warehouse-set-up"></a>Paramétrer un entrepôt
 
@@ -59,7 +59,7 @@ Pour paramétrer un entrepôt, procédez comme suit.
 
 1. Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Paramétrage du canal \> Entrepôts**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans le champ **Entrepôt**, saisissez une valeur.  S'il s'agit d'un mappage 1 : 1 avec un magasin de vente au détail, envisagez d'utiliser le nom du magasin ou le nom d'un centre de distribution régional.
+1. Dans le champ **Entrepôt**, saisissez une valeur.  S'il s'agit d'un mappage 1:1 avec un magasin, envisagez d'utiliser le nom du magasin ou le nom d'un centre de distribution régional.
 1. Dans le champ **Nom**, entrez une valeur.
 1. Dans la liste déroulante **Site**, sélectionnez un site d'entrepôt créé précédemment.
 1. Dans le champ **Type**, sélectionnez **Par défaut**.

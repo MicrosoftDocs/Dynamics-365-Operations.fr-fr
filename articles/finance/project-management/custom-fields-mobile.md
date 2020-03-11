@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773643"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080770"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Mettre en œuvre des champs personnalisés pour l'application mobile Microsoft Dynamics 365 Project Timesheet sur IOS et Android
 
@@ -183,7 +183,7 @@ L'exemple suivant montre un champ de chaîne sur les entrées de temps. Ce champ
 
 Notez l'utilisation de la méthode **TSTimesheetCustomField::newFromMetatdata()** pour simplifier l'initialisation des propriétés de champ personnalisées : **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength**, et **numberOfDecimals**. Vous pouvez également définir ces paramètres manuellement, comme vous le souhaitez.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 La méthode **buildCustomFieldListForEntry** est utilisée pour entrer des valeurs dans les lignes de feuille de temps enregistrées dans l'application mobile. Elle utilise un enregistrement TSTimesheetTrans comme paramètre. Les champs de cet enregistrement peuvent être utilisés pour renseigner la valeur du champ personnalisé dans l'application.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ Pour enregistrer un champ personnalisé dans la base de données dans un usage c
 > [!NOTE]
 > L'exemple suivant enregistre la valeur **firstOption** ou **secondOption** que l'utilisateur sélectionne dans la base de données comme valeur de la chaîne brute. Si le champ de base de données est un champ de type **Énumération**, ces valeurs peuvent être manuellement mises en correspondance avec une valeur d'énumération puis enregistrées dans un champ d'énumération de la table de base de données.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ Ce code contrôle les paramètres d'affichage du champ dans l'application. Par e
 
 L'exemple suivant montre une valeur calculée dans la section d'en-tête de l'application.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 La méthode **buildCustomFieldListForHeader** est utilisée pour renseigner des détails de l'en-tête de la feuille de temps dans l'application mobile. Elle utilise un enregistrement TSTimesheetTable comme paramètre. Les champs de cet enregistrement peuvent être utilisés pour renseigner la valeur du champ personnalisé dans l'application. L'exemple suivant ne lit aucune valeur de la base de données. Au lieu de cela, il utilise la logique X++ pour générer une valeur calculée qui est ensuite affichée dans l'application.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022476"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057912"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Définir et tenir à jour les canaux de vente au détail
 
@@ -47,9 +47,9 @@ Vous devez exécuter certaines tâches préalables avant de paramétrer un magas
 3. Paramétrez des souches de numéros pour les magasins, les relevés bancaires, et documents de relevé.
 4. Configurez les paramètres pour Commerce.
 5. Paramétrez les modes de paiement acceptés par le magasin.
-6. Pour traiter les transactions de carte de crédit sur les caisses enregistreuses de point de vente (PDV) au détail, vous pouvez également paramétrer des services de paiement.
+6. Pour traiter les transactions de carte de crédit sur les caisses enregistreuses de point de vente (PDV), vous pouvez également paramétrer des services de paiement.
 7. Paramétrez les groupes de taxes.
-8. Paramétrez les produits vendus au détail. Dans le cadre de cette tâche, vous paramétrez également des hiérarchies des produits, des variantes de produit et des assortiments de produits.
+8. Paramétrez les produits. Dans le cadre de cette tâche, vous paramétrez également des hiérarchies des produits, des variantes de produit et des assortiments de produits.
 9. Configurez les groupes de prix de produits.
 10. Paramétrez la tarification des produits. Dans le cadre de cette tâche, vous paramétrez également des ajustements de prix, des remises et des périodes de remise.
 11. Paramétrez les membres du personnel.
@@ -87,5 +87,5 @@ Une fois les détails du magasin entrés, réalisez ces tâches pour envoyer les
 Commerce utilise des hiérarchies d'organisation pour structurer les canaux. Les hiérarchies d'organisation représentent les relations entre les organisations qui composent votre entreprise. Lorsque vous paramétrez des magasins, vous pouvez les ajouter à une hiérarchie d'organisation. Les magasins partagent ensuite les données utilisées pour les assortiments, le réapprovisionnement et la génération d'états.
 
 > [!NOTE]
-> Pour utiliser la fonctionnalité de ventes au détail, la clé de configuration de **Expédition multiple** doit être activé. Cette clé de configuration se trouve dans les clés **Configuration Commerce** sous **Administration du système**\> **Configurer** \> **Configuration de licence**. Cela est nécessaire en raison de la fonctionnalité de ventes au détail qui effectue diverses validations en fonction de l'adresse de livraison configurée au niveau de la ligne de commande client.
+> Pour utiliser la fonctionnalité de vente de Commerce, la clé de configuration pour **Expédition multiple** doit être activée. Cette clé de configuration se trouve dans les clés **Configuration Commerce** sous **Administration du système**\> **Configurer** \> **Configuration de licence**. Cela est nécessaire en raison de diverses validations basées sur l'adresse de livraison configurée au niveau de la ligne de commande client.
 

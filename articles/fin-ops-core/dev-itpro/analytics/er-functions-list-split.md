@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31caf7c728a92d31428f47320c074fa9fc35bda6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 52a89f744cd37c543294522cc706ae7f47660e75
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916106"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070619"
 ---
 # <a name="SPLIT">Fonction SPLIT ER</a>
 
@@ -33,7 +33,7 @@ La fonction `SPLIT` fractionne la chaîne d'entrée spécifiée en sous-chaînes
 
 ## <a name="syntax-1"></a>Syntaxe 1
 
-```
+```vb
 SPLIT (input, length)
 ```
 
@@ -41,7 +41,7 @@ Cette syntaxe permet de fractionner la chaîne d'entrée spécifiée en sous-cha
 
 ## <a name="syntax-2"></a>Syntaxe 2
 
-```
+```vb
 SPLIT (input, delimiter)
 ```
 

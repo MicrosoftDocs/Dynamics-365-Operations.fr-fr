@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 088fc331de78defd1b03f7bf051d14b8fa20e420
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7622293340139c7f18354ecdc4b733edb602a2ce
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773609"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090603"
 ---
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Planifier pour les fournisseurs occasionnels dans le secteur public
 
@@ -90,7 +90,7 @@ Le tableau suivant répertorie les champs que le fichier d'importation doit cont
 | Champ                                                | Détails                                  |
 |------------------------------------------------------|------------------------------------------|
 | Nombre                                               | Numéro de ligne de répartition comptable      |
-| Compte général                                       |                                          |
+| Dimensions financières                                 | Si le fichier que vous importez comporte des dimensions financières, vous devez inclure toutes les dimensions financières avec la dénomination appropriée. Sinon, un message d'erreur s'affichera pour indiquer que la dimension comptable n'est pas valide. Vous devrez ensuite soit corriger les dimensions financières, soit supprimer les colonnes du fichier.                                         |
 | Pourcentage                                              | Les valeurs décimales sont autorisées.              |
 
 

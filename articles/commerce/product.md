@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af0273ca1553d5fb371a20b8c96fd9a101f34815
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bfb13904b774558907b29e74158b1e0a193e17cd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022563"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057439"
 ---
 # <a name="product-recommendations-on-pos"></a>Recommandations produit sur PDV
 
 [!include [banner](includes/banner.md)]
 
-Les recommandations de produit sont essentiellement une application métier transformative qui s'étend dans tous les espaces de la vente au détail pour créer des expériences de découverte de produit taillées sur mesure, stimulantes et riches. Pour implémenter cette fonctionnalité au PDV, suivez les étapes [comment ajouter des recommandations à vos périphériques de PDV.](add-recommendations-control-pos-screen.md) 
+Les recommandations de produit sont essentiellement une application métier transformative qui s'étend dans tous les espaces commerciaux pour créer des expériences de découverte de produit taillées sur mesure, stimulantes et riches. Pour implémenter cette fonctionnalité au PDV, suivez les étapes [comment ajouter des recommandations à vos périphériques de PDV.](add-recommendations-control-pos-screen.md) 
 
 Pour en savoir plus sur les fonctionnalités de recommandations produit, consultez la [vue d'ensemble des recommandations produit.](../commerce/product-recommendations.md) 
 

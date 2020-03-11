@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: feb28b9c801786f63282c4189d3eeb6d53ed07e1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003140"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057612"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Paramétrer un profil de notification par e-mail
 
@@ -41,7 +41,7 @@ Pour plus d'informations sur la configuration de l'e-mail, consultez la rubrique
 
 Pour créer un profil de notification par e-mail, procédez comme suit.
 
-1. Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Configuration du siège \> Profil de notification par e-mail des ventes au détail**.
+1. Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Configuration du siège \> Profil de notification par e-mail de Commerce**.
 1. Dans le volet Actions, cliquez sur **Nouveau**.
 1. Dans le champ **Profil de notification par e-mail**, entrez un nom pour identifier le profil.
 1. Entrez une description pertinente dans le champ **Description**.
@@ -71,16 +71,16 @@ L'image suivante montre quelques exemples de paramètres de modèle d'e-mail.
 
 Pour créer un événement d'e-mail, procédez comme suit.
 
-1. Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Configuration du siège \> Profil de notification par e-mail des ventes au détail**.
+1. Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Configuration du siège \> Profil de notification par e-mail de Commerce**.
 1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. 
 1. Sélectionnez le modèle d'e-mail dans la liste déroulante **ID e-mail**.
 1. Sélectionnez le bon **Type de notification par e-mail** dans la liste déroulante.
 1. Cochez la case **Actif**.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
-L'image suivante montre quelques exemples de notification des événements de vente au détail.
+L'image suivante montre quelques exemples de notification d'événements.
 
-![Paramètres de notification des événements de vente au détail](media/email-notification-profile.png)
+![Paramètres de notification d'événements](media/email-notification-profile.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
