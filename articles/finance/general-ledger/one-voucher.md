@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810697"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058015"
 ---
 # <a name="one-voucher"></a>N° document
 
@@ -156,7 +156,7 @@ Les organisations souhaitent souvent effectuer une validation récapitulative da
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Régler plusieurs paiements non validés sur la même facture
 
-Ce scénario est généralement utilisé dans les organisations de vente au détail où les clients peuvent utiliser plusieurs modes de paiement pour les achats. Dans ce scénario, l'organisation doit pouvoir enregistrer plusieurs paiements non validés et les régler pour la facture client.
+Ce scénario est généralement utilisé dans les organisations où les clients peuvent utiliser plusieurs modes de paiement pour les achats. Dans ce scénario, l'organisation doit pouvoir enregistrer plusieurs paiements non validés et les régler pour la facture client.
 
 Une nouvelle fonctionnalité ajoutée dans la version 1611 de Microsoft Dynamics 365 for Operations (novembre 2016) permet de régler plusieurs paiements non validés pour une facture unique. Il n'est plus nécessaire d'entrer plusieurs paiements client dans un N° document unique.
 

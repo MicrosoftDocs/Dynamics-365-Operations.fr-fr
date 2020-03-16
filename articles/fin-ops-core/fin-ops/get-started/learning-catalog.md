@@ -1,27 +1,26 @@
 ---
 title: Catalogue d'apprentissage pour Finance and Operations
-description: Découvriez toutes les options d'apprentissage Finance and Operations.
-author: margoc
+description: Découvrez toutes les options d'apprentissage pour Finance and Operations.
+author: loreleishannonmsft
 ms.topic: article
-ms.date: 01/08/2020
-ms.author: margoc
-ms.service: dynamics-ax-applications
+ms.date: 02/19/2020
+ms.author: v-lshann
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: f2df76f2e1fac333faa854c1407d0a916862d231
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
+ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945810"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3077991"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>Catalogue d'apprentissage pour Finance and Operations
 
-Recherchez l'apprentissage en ligne approprié, des ateliers en personne et des événements pour votre rôle d'utilisateur d'applications Finance and Operations. 
+Recherchez l'apprentissage en ligne approprié, des ateliers en personne et des événements pour votre rôle d'utilisateur des applications Finance and Operations. 
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 

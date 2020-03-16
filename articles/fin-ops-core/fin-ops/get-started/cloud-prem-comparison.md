@@ -3,7 +3,7 @@ title: Comparaison des fonctionnalités dans le cloud et sur site
 description: La rubrique indique les fonctionnalités prises en charge dans le cloud et sur site.
 author: sericks007
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005724"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081968"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparaison des fonctions dans le cloud et sur site
 
@@ -81,6 +81,7 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 |                                      | Enregistreur de tâches - Enregistrer ou charger des enregistrements à partir de la bibliothèque BPM                         | Oui       | Non              |
 | Support                              |                                                                                           | Oui       | Oui             |
 |                                      | Accès au support via le menu Aide et support                                             | Oui       | Non              |
+|                                      | Événements commerciaux                                                                           | Oui       | Oui (soit une connectivité Internet est requise, soit des points de terminaison personnalisés doivent être implementés pour envoyer/recevoir des événements commerciaux dans l'intranet)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
@@ -147,7 +148,7 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Pour afficher une liste des capacités disponibles dans les déploiements sur site, voir [Fonctionnalités de vente au détail disponibles dans les déploiements sur site](../../../retail/retail-onprem.md).
+Pour afficher une liste des fonctionnalités disponibles dans les déploiements sur site, voir [Fonctionnalités Commerce disponibles dans les déploiements sur site](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

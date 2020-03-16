@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771539"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070758"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
 
@@ -120,11 +120,11 @@ Le tableau suivant décrit les codes de restriction de colonne.
 | ADJ                     | Restreint les montants dans la colonne aux montants d'ajustement de période, si ces montants sont disponibles. |
 | XAD                     | Restreint les montants dans la colonne, de sorte que les montants d'ajustement de période sont exclus. |
 | TP                      | Restreint les montants dans la colonne, de sorte que seules les transactions validées sont incluses, si ces transactions sont disponibles. |
-| UPT                     | Restreint les montants dans la colonne, de sorte que seules les transactions non validées sont incluses, si ces transactions sont disponibles.<p><strong>Remarque :</strong> tous les fournisseurs de données ne prennent pas en charge les transactions non validées. Pour plus d'informations, voir le <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>guide d'intégration de données</a> pour votre système ERP Microsoft Dynamics.</p> |
+| UPT                     | Restreint les montants dans la colonne, de sorte que seules les transactions non validées sont incluses, si ces transactions sont disponibles.<p><strong>Remarque :</strong> tous les fournisseurs de données ne prennent pas en charge les transactions non validées. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restreindre une colonne à une unité de déclaration
 
-1. Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
+1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Unité de déclaration** de la colonne à limiter.
 3. Dans la boîte de dialogue **Sélectionner une unité de déclaration**, dans la liste **Arborescence de génération d'états**, sélectionnez une arborescence.
 4. Développez ou réduisez la liste des unités, sélectionnez une unité de déclaration, puis cliquez sur **OK**.

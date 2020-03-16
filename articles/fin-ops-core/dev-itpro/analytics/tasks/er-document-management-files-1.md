@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026132"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042825"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 1 - Préparer le modèle de données)
 
@@ -36,10 +36,14 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Accéder à la liste des configurations fournies par Microsoft
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-    * Assurez-vous que le fournisseur « Litware, Inc. » est disponible et marqué comme actif.  
+
+    Assurez-vous que le fournisseur « Litware, Inc. » est disponible et marqué comme actif.  
+
 2. Sélectionnez le fournisseur « Litware, Inc. » .
 3. Cliquez sur Référentiels.
-    * Si un référentiel du type « Ressources opérationnelles » existe déjà, ignorez les étapes restantes de la sous-tâche actuelle.  
+
+    Si un référentiel du type « Ressources opérationnelles » existe déjà, ignorez les étapes restantes de la sous-tâche actuelle.  
+
 4. Cliquez sur Ajouter pour ouvrir la boîte de dialogue.
 5. Dans le champ Type du référentiel de configuration, entrez « Ressources opérationnelles ».
 6. Cliquez sur Créer un référentiel.
@@ -51,9 +55,13 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 3. Cliquez sur Afficher les filtres.
 4. Cliquez sur Ouvrir.
 5. Dans l'arborescence, sélectionnez « Modèle de facture client ».
-    * Sélectionnez la configuration du modèle « Modèle de facture client » pour l'importer.  
+
+    Sélectionnez la configuration du modèle « Modèle de facture client » pour l'importer.  
+
 6. Cliquez sur Importer.
-    * Cliquez sur Importer pour la version 1 de la configuration sélectionnée.  
+
+    Cliquez sur Importer pour la version 1 de la configuration sélectionnée.  
+
 7. Cliquez sur Oui.
 8. Fermez la page.
 9. Fermez la page.
@@ -65,6 +73,5 @@ Vous créerez votre propre configuration du modèle de facture client en la dér
 1. Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.
 2. Dans le champ Nouveau, entrez « Provenant du nom : Modèle de facture client, Microsoft ».
 3. Dans le champ Nom, tapez « Modèle de facture client (personnalisé) ».
-    * Modèle de facture client (personnalisé)  
 4. Cliquez sur Créer une configuration.
 

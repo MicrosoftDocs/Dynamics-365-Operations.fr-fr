@@ -3,7 +3,7 @@ title: Mise à disposition de Human Resources
 description: ''
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3a7987a9b385fb6ba0294dc46b0d66be8228f06
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026265"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071612"
 ---
 # <a name="provision-human-resources"></a>Mise à disposition de Human Resources
 
@@ -62,9 +62,6 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Human
 3. Sélectionnez l'option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même ensemble de données de démonstration que celui utilisé dans l'environnement de test de Human Resources. Cette option est utile pour les environnements de démonstration ou de formation à long terme, et ne doit jamais être utilisée pour les environnements de production.  Notez que vous devez sélectionner cette option lors du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
 
 4. Human Resources est toujours mis en service dans un environnement Microsoft Power Apps pour permettre l'intégration et l'extensibilité des applications Power Apps. Lisez la section « Sélectionnant d'un environnement Power Apps » de cet article avant de continuer. Si vous n'avez pas déjà un environnement Power Apps, sélectionnez Gérer les environnements dans LCS ou accédez au centre d'administration de Power Apps. Puis suivez les étapes pour [Créer un environnement Power Apps](https://docs.microsoft.com/powerapps/administrator/create-environment).
-
-    > [!NOTE]
-    > Pour afficher les environnements existants ou en créer de nouveaux, la licence P2 Power Apps doit être affectée à l'administrateur qui met en service Human Resources. Si votre organisation ne dispose pas d'une licence P2 Power Apps, vous pouvez en obtenir une auprès de votre fournisseur CSP ou à partir de la [Page de tarification Power Apps](https://powerapps.microsoft.com/pricing/).
 
 5. Sélectionnez l'environnement dans lequel mettre en œuvre Human Resources.
 

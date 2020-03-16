@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ce977b36cd96a27a228dba1bc8c8445bafd879
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 961ccd18e70d4f9851027492366a7d9408a668c5
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916382"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042410"
 ---
 # <a name="DATETODATETIME">Fonction DATETODATETIME ER</a>
 
@@ -33,7 +33,7 @@ La fonction `DATETODATETIME` renvoie une valeur de *DateTime* qui est convertie 
 
 ## <a name="syntax"></a>Syntaxe
 
-```
+```vb
 DATETODATETIME (date)
 ```
 
@@ -51,7 +51,7 @@ Valeur de date/heure résultante.
 
 ## <a name="example-1"></a>Exemple 1
 
-`DATETODATETIME (CompInfo. 'getCurrentDate()')` renvoie la date de la session Microsoft Dynamics 365 Finance actuelle, le 24 décembre 2015, **12/24/2015 12:00:00 AM**. Dans cet exemple, **CompInfo** est une source de données de génération d'états électroniques (ER) de type **Finance and Operations/Table** qui fait référence à la table CompanyInfo.
+`DATETODATETIME (CompInfo. 'getCurrentDate()')` renvoie la date de la session Microsoft Dynamics 365 Finance actuelle, le 24 décembre 2015, **12/24/2015 12:00:00 AM**. Dans cet exemple, **CompInfo** est une source de données de génération d'états électroniques de type **Finance and Operations/Table** qui fait référence à la table CompanyInfo.
 
 ## <a name="example-2"></a>Exemple 2
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022537"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057207"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Paramétrer et utiliser les alertes pour fraude dans le centre d'appels
 
@@ -54,6 +54,7 @@ Enfin, utilisez le champ **Type de commentaire sur la fraude** pour spécifier l
 Le système référence deux types de critères de fraude pour déterminer si une commande doit être mise en attente pour révision :
 
 - **Données frauduleuses statiques** utilise une valeur spécifique, comme un numéro de téléphone mis sur une liste de numéros bloqués ou une adresse e-mail signalée car elle est reconnue pour avoir été utilisée pour des transactions frauduleuses précédentes. Pour configurer les données frauduleuses statiques, accédez à **Retail et Commerce** \> **Paramétrage du canal** \> **Paramétrage du centre d'appels** \> **Fraude** \> **Données frauduleuses statiques**. Dans la page **Données frauduleuses statiques**, vous pouvez ajouter des critères de fraude manuellement ou via l'importation de données. Les scores sont associés aux informations frauduleuses. Si la fonction de contrôle de fraude est activée, chaque commande client entrée est comparée aux données statiques. Si les données se trouvent dans l'adresse de facturation du client ou l'adresse de livraison associée à l'en-tête de commande, ou si les données se trouvent dans les adresses de livraison associées aux lignes de cette commande client, les scores de toutes les correspondances uniques sont additionnés et comparés à la valeur **Score minimal** pour déterminer si la commande doit être mise en attente.
+
 - Les **Règles de fraude** comprennent des variables définies par l'utilisateur et des conditions définies pour ces variables. Pour créer des règles, accédez à **Retail et Commerce** \> **Paramétrage du canal** \> **Paramétrage du centre d'appels** \> **Fraude** \> **Règles**. Les règles de fraude permettent à une société de configurer un ensemble de règles plus complexes pouvant contenir des instructions **ET** ou **OU** pour évaluer plusieurs conditions. Par exemple, un utilisateur souhaite que toutes les commandes des clients appartenant à un groupe de clients spécifique et ayant commandé un produit spécifique soient mises en attente pour révision. Dans ce cas, les conditions de validation du client et des produits sont définies sur la page **Règles**, et une condition ET est utilisée. Une commande est mise en attente uniquement si les deux conditions sont remplies, et si la valeur du score affectée à cette règle, plus la valeur du score des autres règles correspondant à la commande, entraîne un dépassement de la valeur **Score minimal** du score de fraude total de la commande qui est définie sur la page **Paramètres du centre d'appels**.
 
 > [!NOTE]

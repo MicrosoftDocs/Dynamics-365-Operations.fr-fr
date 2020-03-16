@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024704"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057715"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurer un environnement d'aperçu Dynamics 365 Commerce
 
@@ -35,7 +35,7 @@ Cette rubrique explique comment configurer des un environnement d'aperçu Micros
 
 Effectuez les procédures de cette rubrique uniquement une fois que votre environnement d'aperçu Commerce a été mis en service. Pour plus d'informations sur la mise en service de votre environnement d'aperçu Commerce, consultez [Mise en service d'un environnement d'aperçu Commerce](provisioning-guide.md).
 
-Une fois que votre environnement d'aperçu Commerce a été mis en service de bout en bout, des étapes de configuration post-mise en service supplémentaires doivent être effectuées avant que vous puissiez commencer à évaluer l'environnement. Pour terminer ces étapes, vous devez utiliser Microsoft Dynamics Lifecycle Services (LCS), Dynamics 365 Commerce et Dynamics 365 Retail.
+Une fois que votre environnement d'aperçu Commerce a été mis en service de bout en bout, des étapes de configuration post-mise en service supplémentaires doivent être effectuées avant que vous puissiez commencer à évaluer l'environnement. Pour effectuer ces étapes, vous devez utiliser Microsoft Dynamics Lifecycle Services (LCS) et Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Avant de commencer
 
@@ -53,7 +53,7 @@ Une fois que votre environnement d'aperçu Commerce a été mis en service de bo
 
 Pour associer un collaborateur à votre identité dans LCS, procédez comme suit.
 
-1. Utilisez le menu à gauche pour accéder à **Modules \> Vente au détail \> Employés \> Collaborateurs**.
+1. Utilisez le menu à gauche pour accéder à **Modules \> Commerce et vente au détail \> Employés \> Collaborateurs**.
 1. Dans la liste, recherchez et sélectionnez l'enregistrement suivant : **000713 - Andrew Collette**.
 1. Dans le volet Actions, sélectionnez **Vente au détail**.
 1. Sélectionnez **Associer une identité existante**.
@@ -91,12 +91,12 @@ Pour commencer à configurer votre site d'aperçu dans Commerce, procédez comme
 1. Laissez la valeur du champ **Chemin d'accès** telle quelle.
 1. Cliquez sur **OK**. La liste des pages du site apparaît.
 
-## <a name="enable-jobs-in-retail"></a>Activer les emplois dans la vente au détail
+## <a name="enable-jobs"></a>Activer les tâches
 
-Pour activer les tâches dans la vente au détail, procédez comme suit :
+Pour activer les tâches dans Commerce, procédez comme suit :
 
 1. Connectez-vous à l'environnement (Siège social).
-1. Utilisez le menu à gauche pour accéder à **Vente au détail \> Recherches et états \> Traitements par lots**.
+1. Utilisez le menu à gauche pour accéder à **Retail et Commerce \> Recherches et états \> Traitements par lots**.
 
     Les étapes restantes de cette procédure doivent être exécutées pour chacun des travaux suivants :
 
@@ -112,11 +112,11 @@ Pour activer les tâches dans la vente au détail, procédez comme suit :
     1. Dans le volet Actions, sous **Traitement par lots**, sélectionnez **Modifier le statut**.
     1. Sélectionnez **En attente**, puis sélectionnez **OK**.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Exécutez la synchronisation complète des données dans Retail
+### <a name="run-full-data-synchronization"></a>Exécuter la synchronisation complète des données
 
-Pour exécuter la synchronisation complète des données dans Retail, procédez comme suit.
+Pour exécuter la synchronisation complète des données dans Commerce, procédez comme suit.
 
-1. Utilisez le menu à gauche pour accéder à **Modules \> Vente au détail \> Paramétrage du Siège \> Retail Planification \> Base de données du canal**.
+1. Utilisez le menu à gauche pour accéder à **Modules \> Retail et Commerce \> Paramétrage du Siège \> Retail Planification \> Base de données du canal**.
 1. Dans la liste de gauche, le canal **Par défaut** est sélectionné. Sélectionnez l'autre canal disponible. Ce canal est nommé **scXXXXXXXXX**.
 1. Sur le volet Action, sélectionnez **Synchronisation de données complète**.
 1. Entrez **9999** comme programme de distribution.

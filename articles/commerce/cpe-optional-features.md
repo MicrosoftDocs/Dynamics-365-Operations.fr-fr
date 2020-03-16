@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024727"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057738"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Configurer les fonctionnalités facultatives pour un environnement d'aperçu dans Dynamics 365 Commerce
 
@@ -63,8 +63,8 @@ Si vous souhaitez évaluer des fonctionnalités de gestion d'actifs numériques,
 
 ### <a name="update-the-media-base-url"></a>Mise à jour de l'URL de base multimédia
 
-1. Connectez-vous à Dynamics 365 Retail.
-1. Utilisez le menu à gauche, accédez à **Modules \> Vente au détail \> Paramétrage du canal \> Profils du canal**.
+1. Connectez-vous à Dynamics 365 Commerce.
+1. Utilisez le menu à gauche pour accéder à **Modules \> Commerce et vente au détail \> Paramétrage du canal \> Profils du canal**.
 1. Sélectionnez **Modifier**.
 1. Sous **Propriétés du profil**, remplacez la valeur de la propriété **URL de base du serveur multimédia** par l'URL de base multimédia créée précédemment.
 1. Dans la liste à gauche, sous le canal **Par défaut**, sélectionnez l'autre canal.
@@ -77,7 +77,7 @@ Si vous souhaitez évaluer des fonctionnalités de gestion d'actifs numériques,
 > [!NOTE]
 > Le serveur SMTP ou le service de messagerie que vous entrez ici doivent être accessibles à partir de l'abonnement Azure que vous utilisez pour l'environnement.
 
-1. Connectez-vous à Retail.
+1. Connectez-vous à Commerce.
 1. Utilisez le menu à gauche pour accéder à **Modules \> Administration de l'organisation \> Paramétrage \> E-mail \> Paramètres d'e-mail**.
 1. Sur l'onglet **Paramètres SMTP** dans le champ **Serveur de courrier sortant**, saisissez le nom de domaine complet ou l'adresse IP de votre serveur SMTP ou service de messagerie.
 1. Dans le champ **Numéro de port SMTP**, entrez le numéro du port à utiliser. (Si vous n'utilisez pas Secure Sockets Layer \[SSL\], le numéro de port par défaut est **25**.)
@@ -92,7 +92,7 @@ Si vous souhaitez évaluer des fonctionnalités de gestion d'actifs numériques,
 
 Pour chaque événement transactionnel pour lequel envoyer des e-mails vous devez mettre à jour le modèle d'e-mail avec une adresse e-mail d'expéditeur valide.
 
-1. Connectez-vous à Retail.
+1. Connectez-vous à Commerce.
 1. Utilisez le menu à gauche pour accéder à **Modules \> Administration de l'organisation \> Paramétrage \> Modèles d'e-mail de l'organisation**.
 1. Sélectionnez **Afficher la liste**.
 1. Pour chaque modèle de la liste, procédez comme suit :
@@ -115,7 +115,7 @@ Vous souhaiterez peut-être personnaliser les modèles d'e-mails afin qu'ils uti
     - Modèle de commande à prélever
 
 1. Personnaliser les modèles à l'aide d'un texte ou un éditeur HTML. Voir la liste des [jetons pris en charge](#supported-tokens-in-the-email-template) plus loin dans cette rubrique.
-1. Connectez-vous à Retail.
+1. Connectez-vous à Commerce.
 1. Utilisez le menu à gauche pour accéder à **Modules \> Administration de l'organisation \> Paramétrage \> Modèles d'e-mail de l'organisation**.
 1. Développez la liste à gauche pour afficher tous les modèles.
 1. Pour chaque modèle que vous souhaitez personnaliser, procédez comme suit :

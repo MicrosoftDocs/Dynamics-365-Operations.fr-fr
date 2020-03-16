@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017726"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042940"
 ---
 # <a name="embed-microsoft-power-apps"></a>Intégrer Microsoft Power Apps
 
@@ -55,7 +55,7 @@ Les instructions suivantes indiquent comment incorporer une application depuis P
 
     - Le champ **Nom** indique le texte affiché pour le bouton ou l'onglet contenant l'application incorporée. Il arrivera souvent que vous souhaitiez répéter le nom de l'application dans ce champ.
     - **ID d'application** est le GUID de l'application que vous souhaitez incorporer. Pour récupérer cette valeur, recherchez l'application sur [web.powerapps.com](https://web.powerapps.com), puis localisez le champ **ID d'application** sous **Détails**.
-    - Pour **Contexte d'entrée de l'application**, vous pouvez également sélectionner le champ contenant les données à transmette à l'application comme entrée. Consultez la section plus loin dans cette rubrique intitulée [Création d'applications qui utilisent les données d'applications Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) pour en savoir plus sur la manière dont l'application peut accéder aux données envoyées depuis les applications Finance and Operations.
+    - Pour **Contexte d'entrée de l'application**, vous pouvez également sélectionner le champ contenant les données à transmette à l'application comme entrée. Consultez la section plus loin dans cette rubrique intitulée [Création d'une application qui utilise les données envoyées depuis les applications Finance and Operations](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps) pour en savoir plus sur la manière dont l'application peut accéder aux données envoyées depuis les applications Finance and Operations.
     - Choisissez la **Taille d'application** correspondant au type d'application que vous incorporez. Sélectionnez **Mince** pour les applications créées pour les appareils mobiles, et **Large** pour les applications créées pour les tablettes. Ainsi, une quantité suffisante d'espace est allouée pour l'application incorporée.
     - L'organisateur **Entités juridiques** permet de choisir les entités juridiques pour lesquelles l'application est disponible. La valeur par défaut consiste rendre l'application accessible pour toutes les entités juridiques. Cette option n'est disponible que si la fonctionnalité [Vues enregistrées](saved-views.md) est désactivée. 
 
@@ -76,7 +76,7 @@ Une partie importante de la création d'une application à partir de Power Apps 
 
 Par exemple, dans la fonction OnStart de l'application, vous pouvez paramétrer les données d'entrée des applications Finance and Operations sur une variable comme suit :
 
-```
+```powerapps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
@@ -101,7 +101,7 @@ Pour modifier la configuration d'une application incorporée, procédez comme su
 
 Une fois qu'une application a été incorporée dans une page, il existe deux méthodes pour la supprimer si nécessaire :
 
-- Accédez au volet **Modifier une application** à l'aide des instructions contenues dans la section [Modification d'une application incorporée](#editing-an-embedded-power-app) plus haut dans cette rubrique. Vérifiez que le volet affiche les informations associées à l'application incorporée que vous souhaitez supprimer, puis cliquez sur le bouton **Supprimer**.
+- Accédez au volet **Modifier une application** à l'aide des instructions contenues dans la section [Modification d'une application incorporée](#editing-an-embedded-app) plus haut dans cette rubrique. Vérifiez que le volet affiche les informations associées à l'application incorporée que vous souhaitez supprimer, puis cliquez sur le bouton **Supprimer**.
 - L'application incorporée étant enregistrée en tant que données de personnalisation, la suppression de la personnalisation de votre page entraîne également la suppression des applications incorporées dans cette page. Notez que la suppression de la personnalisation de la page est définitive et ne peut pas être annulée. Pour supprimer vos personnalisations dans une page, sélectionnez **Options**, puis **Personnaliser cette page**, et enfin le bouton **Effacer**. Après avoir actualisé votre navigateur, toutes les personnalisations précédentes pour cette page sont supprimées. Consultez [Personnaliser l'expérience de l'utilisateur](personalize-user-experience.md) pour plus d'informations sur l'optimisation des pages à l'aide de la personnalisation.
 
 ## <a name="appendix"></a>Annexe
@@ -115,7 +115,7 @@ Par défaut, les utilisateurs peuvent incorporer les applications sur n'importe 
 
 L'exemple suivant présente une nouvelle classe avec les deux méthodes nécessaires pour configurer l'emplacement d'incorporation des applications.
 
-```
+```powerapps
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]
 
 public final class ClassTest_Extension

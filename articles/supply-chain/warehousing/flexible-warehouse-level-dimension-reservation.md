@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c0baf96315dd9fe6bc1984d337fd1c50ae47016a
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: cd6ec1013de757214db99ada02170bb6e2af96c0
+ms.sourcegitcommit: f52ddcad105aac4ad2caef709751ff80caf363c0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031041"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "3036927"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Politique de réservation de dimension flexible au niveau de l'entrepôt
 
@@ -46,7 +46,7 @@ Dans ces scénarios, la difficulté est qu'une seule hiérarchie de réservation
 
 ### <a name="business-scenario"></a>Scénario d'entreprise
 
-Dans ce scénario, une entreprise utilise une stratégie de stock où les produits finis sont suivis par numéros de lot. Cette entreprise utilise également la charge de travail WHS. Étant donné que cette charge de travail possède une logique bien établie pour la planification et l'exécution des opérations de prélèvement et d'expédition en entrepôt des articles activés par lots, la plupart des articles finis sont associés à une hiérarchie de réservation de stock « Batch-below\[location\] ». L'avantage de ce type de configuration opérationnelle est que les décisions (qui sont en fait des décisions de réservation) concernant les lots à prélever et où les placer dans l'entrepôt sont reportées jusqu'au début des opérations de prélèvement de l'entrepôt. Elles ne sont pas prises lors de la commande du client.
+Dans ce scénario, une entreprise utilise une stratégie de stock où les produits finis sont suivis par numéros de lot. Cette entreprise utilise également la charge de travail WMS. Étant donné que cette charge de travail possède une logique bien établie pour la planification et l'exécution des opérations de prélèvement et d'expédition en entrepôt des articles activés par lots, la plupart des articles finis sont associés à une hiérarchie de réservation de stock « Batch-below\[location\] ». L'avantage de ce type de configuration opérationnelle est que les décisions (qui sont en fait des décisions de réservation) concernant les lots à prélever et où les placer dans l'entrepôt sont reportées jusqu'au début des opérations de prélèvement de l'entrepôt. Elles ne sont pas prises lors de la commande du client.
 
 Si la hiérarchie de réservation « Batch-below\[location\] » sert bien les objectifs commerciaux de la société, de nombreux clients établis ont souvent besoin du même lot qu'ils ont précédemment acheté lorsqu'ils commandent des produits. Par conséquent, l'entreprise doit viser la flexibilité dans la façon dont les règles de réservation par lots sont traitées, de sorte que, selon la demande des clients pour le même article, les comportements suivants puissent se produire :
 

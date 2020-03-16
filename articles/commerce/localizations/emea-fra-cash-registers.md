@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: c069c965dbdd4695fb4f7a3b030dcd5d47590132
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a97394105e3412ce28218752f1f8302224a777cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004700"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057577"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -39,7 +39,7 @@ Cette fonctionnalité contient les parties suivantes :
 
 ### <a name="common-pos-features"></a>Fonctionnalités de PDV courantes
 
-Pour connaître les fonctionnalités de PDV disponibles pour les clients de tous les pays ou régions, voir la documentation [Aider les ressources pour Dynamics 365 Retail](../index.md).
+Pour connaître les fonctionnalités de PDV disponibles pour les clients dans tous les pays ou régions, voir [Page d'accueil de Commerce](../index.md).
 
 Les fonctionnalités de localisation PDV suivantes disponibles pour les clients de tous les pays ou régions peuvent désormais être utilisées spécifiquement pour la France :
 
@@ -198,7 +198,7 @@ Le format de l'archive est implémenté à l'aide de la [gestion des états éle
 
 ## <a name="setting-up-commerce-for-france"></a>Configuration de Commerce pour la France
 
-Cette section décrit les paramètres Commerce spécifiques et recommandés pour la France. Pour plus d'informations, voir [Ressources d'aide pour Dynamics 365 Retail](../index.md).
+Cette section décrit les paramètres Commerce spécifiques et recommandés pour la France. Pour plus d'informations, voir [Page d'accueil de Commerce](../index.md).
 
 Pour utiliser la fonctionnalité spécifique pour la France, vous devez effectuer les tâches suivantes :
 

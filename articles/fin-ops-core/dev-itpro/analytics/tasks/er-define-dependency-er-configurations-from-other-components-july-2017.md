@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026108"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042917"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Définir la dépendance des configurations ER vis-à-vis d'autres composants
 
@@ -140,4 +140,3 @@ Nous supprimerons les configurations créées du système et les téléchargeron
 26. Dans l'arborescence, développez « Exemple de modèle de données ».
     * Notez que la configuration de mise en correspondance de modèle « Exemple de mise en correspondance » a été téléchargée avec la configuration de modèle de données sélectionnée. Les deux fichiers sont téléchargés ensemble, car la configuration « Exemple de mise en correspondance » a été définie comme implémentant le modèle de données sélectionné et qu'elle s'applique à l'application. La configuration « Exemple de mise en correspondance (autre) » n'a pas été téléchargée, car la condition pour la version d'application requise n'est pas remplie.   
     * Si vous vous connectez à Finance and Operations, enregistrez le même fournisseur, accédez au même projet LCS et téléchargez la même configuration de modèle de données, la configuration « Exemple de mise en correspondance (autre) » sera téléchargée, tandis que la configuration « Exemple de mise en correspondance » sera ignorée.  
-

@@ -3,7 +3,7 @@ title: FAQ Workflow
 description: Cette rubrique répond à des questions fréquentes sur le système de workflow.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934907"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076084"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
@@ -34,7 +34,7 @@ Lors du rejet d'un élément de travail, ce dernier est défini comme rejeté. U
 Chaque notification correspond à un élément de travail différent, mais la similarité peut générer une confusion. Nous étudions des façons d'améliorer cela dans une prochaine version.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>Pourquoi mes exportations de workflows échouent-elles ?
-Il existe actuellement une limitation de la fonctionnalité d'exportation de workflows qui empêche les noms des workflows de dépasser 48 caractères. L'utilisation d'un nom de plus de 48 caractères peut entraîner une erreur « Échec du serveur à authentifier la demande » et/ou pour empêcher qu'un fichier soit exporté sans type de fichier. La publication de blog suivante fournit davantage de détails [Dépannage de l'exportation de workflows](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
+Il existe actuellement une limitation de la fonctionnalité d'exportation de workflows qui empêche les noms des workflows de dépasser 48 caractères. L'utilisation d'un nom de plus de 48 caractères peut entraîner une erreur « Échec du serveur à authentifier la demande » et/ou pour empêcher qu'un fichier soit exporté sans type de fichier. La publication de blog fournit davantage de détails, [Dépannage de l'exportation de workflows](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>L'auteur d'un workflow peut-il également approuver le workflow ?
 Oui, l'auteur d'un workflow peut également approuver le workflow si il est configuré ainsi. Pour éviter ce comportement, définissez **Administration du système > Workflow > Paramètres de workflow > Général > Approbateur > Ne pas autoriser l'approbation par l'auteur** sur **Oui**.
@@ -52,5 +52,9 @@ Voici quelques points clés à noter en ce qui concerne l'ajout d'alertes aux wo
 
 En résumé, si un utilisateur ne reçoit pas la notification appropriée en provenance du Centre d'actions lorsqu'un élément de travail de workflow leur est affecté, tirez parti des [Événements commerciaux de workflow](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) avec Microsoft Power Automate pour fournir des notifications supplémentaires ou différentes.
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>L'éditeur de workflow a du mal à démarrer sous ADFS 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Pourquoi l'éditeur de workflow ne peut-il pas démarrer dans AD FS ?
 Lors de l'exécution sous Active Directory Federation Services (AD FS) dans un environnement mis à niveau, l'éditeur de workflow peut avoir des problèmes de démarrage. Si tel est le cas, assurez-vous que l'URL « https://dynamicsaxworkfloweditor/ » est ajoutée à la propriété **Microsoft Dynamics 365 for Operations On-premises - Workflow - Application native** dans les paramètres ADFS.
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Pourquoi des blocages SQL se produisent-ils lors du traitement du workflow ? 
+La valeur de champ par défaut pour le **Nombre d'éléments de workflow par traitement par lots** sur la page **Paramètres de workflow** est 0. Une valeur de 0 entraîne la modification de la valeur par défaut à 20 éléments par traitement par lots. Soyez prudent lorsque vous ajustez cette valeur, car un nombre élevé d'éléments par traitement par lots (> 40) peut entraîner des blocages SQL.
+

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78043273fb98a12a8d33f7bb94ba8ad2e9fb49fb
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: c6ca9877eb172794c67ac55b8dc54ed28af9576d
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029955"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076268"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (7 février 2020)
 
@@ -47,7 +47,7 @@ Les fonctionnalités d'aperçu suivantes sont disponibles le 3 février 2020 
 
 - **Fonctionnalités d'aperçu de congé et d'absence** - Pour plus d'informations, voir [Fonctionnalités d'aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-- **Fonction d'aperçu de la gestion des avantages** - Pour plus d'informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
+- **Fonctionnalités en version préliminaire de gestion des avantages** - Pour plus d'informations, y compris les problèmes connus, voir [Vue d'ensemble de la gestion des avantages](hr-benefits-management-overview.md).
 
 ## <a name="coming-soon"></a>Prochainement
 
@@ -68,5 +68,11 @@ Une nouvelle solution Common Data Service sera bientôt disponible avec les modi
 | Nouvelles entités de configuration de la rémunération variable | **Type de régime variable de rémunération**</br>**Régime variable de rémunération**</br>**Règles d'acquisition**</br>**Niveau de régime variable de rémunération** |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | **Entité de calendrier de travail** ajoutée |
 | Nouvelle entité **Détails du poste de paie** | **Détails du poste de paie** ajoutés |
-| Nouvelle entité **Titre** | **Titre** ajouté. La nouvelle entité **Titre** sera incluse dans le processus de synchronisation entre Human Resources et Common Data Service, mais ne sera pas référencée initialement à partir des entités **Poste** ou **Emploi**. |
+| Nouvelle entité **Titre** | **Titre** ajouté. La nouvelle entité **Titre** sera incluse dans le processus de synchronisation entre Human Resources et Common Data Service. Elle ne sera pas référencée initialement à partir des entités **Poste** ou **Tâche**. |
 
+## <a name="see-also"></a>Voir également :
+
+[Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Processus de mise à jour](hr-admin-setup-update-process.md)</br>
+[Gérer les fonctionnalités](hr-admin-manage-features.md)

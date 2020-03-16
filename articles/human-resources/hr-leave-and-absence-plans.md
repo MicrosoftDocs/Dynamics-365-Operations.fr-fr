@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 08fb278a3de0c06715dcd9c252ee6c21b2172cff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
+ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009055"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "3087298"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Création d'un plan de congé et d'absence
 
@@ -61,8 +61,8 @@ Vous pouvez également créer des avantages liés de congés basés sur le poste
 
       | Base de la période de régularisation | Description |
       | --- | --- |
-      | Date de début du plan | La date de début de la période de régularisation est la date à laquelle le plan est disponible. |
-      | Date spécifique à l'employé | La date de début de la période de régularisation dépend de l'événement d'un employé :</br><ul><li>Personnalisé (vous devez spécifier une base de date de régularisation pour chaque inscription individuelle)</li><li>Date anniversaire</li><li>Date d'embauche d'origine</li><li>Date d'ancienneté</li><li>Date de début ajustée du collaborateur</li><li>Date de début du collaborateur</li></ul> |
+      | **Date de début du plan** | La date de début de la période de régularisation est la date à laquelle le plan est disponible. |
+      | **Date spécifique à l'employé** | La date de début de la période de régularisation dépend de l'événement d'un employé :</br><ul><li>Personnalisé (vous devez spécifier une base de date de régularisation pour chaque inscription individuelle)</li><li>Date anniversaire</li><li>Date d'embauche d'origine</li><li>Date d'ancienneté</li><li>Date de début ajustée du collaborateur</li><li>Date de début du collaborateur</li></ul> |
 
    3. Sélectionnez une option dans la liste déroulante **Date de régularisation** :
 

@@ -3,7 +3,7 @@ title: Créer des règles d'alerte
 description: Cette rubrique fournit des informations sur les alertes et décrit la procédure de création d'une règle d'alerte pour être informé d'événements, par exemple une date qui arrive ou une modification spécifique qui se produit.
 author: tjvass
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c37ddc52ef576a15dd35cc155e99821c74631a46
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180712"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075922"
 ---
 # <a name="create-alert-rules"></a>Créer des règles d'alerte
 
@@ -31,7 +31,11 @@ ms.locfileid: "2180712"
 
 Avant de définir une règle d'alerte, déterminez quand ou dans quelles situations vous souhaitez recevoir des alertes. Après avoir déterminé l'événement dont vous souhaitez être averti, recherchez la page où les données causant cet événement apparaissent. L'événement peut être une date qui arrive ou une modification spécifique qui se produit. Par conséquent, vous devez rechercher la page dans laquelle la date est spécifiée, ou dans laquelle le champ modifié ou le nouvel enregistrement créé apparaît. Une fois que vous disposez de ces informations, vous pouvez créer la règle d'alerte.
 
-Lorsque vous créez une règle d'alerte, vous définissez les critères devant être remplis pour qu'une alerte soit déclenchée. Vous pouvez imaginer les critères comme une correspondance entre l'occurrence d'un événement et l'accomplissement d'une condition spécifique. Quand un événement se produit, le système vérifie s'il correspond à des conditions définies.
+Lorsque vous créez une règle d'alerte, vous définissez les critères devant être remplis pour qu'une alerte soit déclenchée. Les critères désignent la correspondance entre l'occurrence d'un événement et l'accomplissement de conditions spécifiques. Quand un événement se produit, le système vérifie s'il correspond à des conditions définies.
+
+## <a name="ensure-the-alert-batch-jobs-are-running"></a>Vérifier que les traitements par lots des alertes sont en cours d'exécution
+
+Les traitements par lots pour les alertes de modification des données et de date d'échéance doivent être en cours d'exécution pour permettre le traitement des conditions d'alerte et l'envoi des notifications. Pour exécuter des traitements par lots, accédez à **Administration du système** > **Tâches périodiques** > **Alertes** et ajoutez un nouveau traitement par lots pour **Alertes basées sur des modifications** et/ou **Alertes de date d'échéance**. Si un traitement par lots long et qui s'exécute souvent est nécessaire, sélectionnez **Récurrence** et définissez **Pas de date de fin** avec une **Périodicité** de **Minutes** et un **Nombre** de **1**.
 
 ## <a name="events"></a>Événements
 
@@ -51,7 +55,7 @@ Les modifications peuvent être apportées par un utilisateur. Par exemple, un u
 
 ## <a name="conditions"></a>Conditions
 
-Dans l'organisateur **Alertez-moi pour** de la boîte de dialogue **Créer une règle d'alerte**, vous pouvez utiliser les conditions pour contrôler les moments où vous recevez une alerte à propos d'événements.
+Dans le raccourci **Alertez-moi pour** de la boîte de dialogue **Créer une règle d'alerte**, vous pouvez utiliser des conditions pour contrôler quand vous recevez une alerte sur des événements.
 
 Par exemple, vous pouvez spécifier que le système vous prévienne en cas de modification du statut des commandes fournisseur, mais uniquement si le statut correspond à un ensemble spécifique de conditions. Spécifiquement, vous souhaitez être averti lorsque le statut d'une commande fournisseur est défini sur **Reçu**. La modification de ce statut est l'événement qui déclenche l'alerte.
 
@@ -70,16 +74,21 @@ Dans l'organisateur **Alertez-moi avec** de la boîte de dialogue **Créer une r
 
 ## <a name="user-id"></a>ID d'utilisateur
 
-Dans l'organisateur **Alertez-moi avec** de la boîte de dialogue **Créer une règle d'alerte**, vous pouvez spécifier l'utilisateur qui doit recevoir les messages d'alerte. Par défaut, votre ID utilisateur est sélectionné. Cette option est limitée aux administrateurs de l'organisation.
+Dans l'organisateur **Alertez-moi avec** de la boîte de dialogue **Créer une règle d'alerte**, vous pouvez spécifier l'utilisateur qui doit recevoir les messages d'alerte. Par défaut, votre ID utilisateur est sélectionné. La possibilité de modifier l'utilisateur qui reçoit l'alerte est réservée aux administrateurs de l'organisation.
+
+## <a name="alerts-as-business-events"></a>Alertes en tant qu'événements commerciaux
+
+Les alertes peuvent être envoyées en externe à l'aide de la structure des événements commerciaux. Lors de la création d'une alerte, définissez **À l'échelle de l'organisation** sur **Non** et définissez **Envoyer en externe** sur **Oui**. Une fois que l'alerte déclenche l'événement commercial, vous pouvez déclencher un flux intégré dans Power Automate en utilisant le déclencheur **Quand un événement commercial se produit** sur le connecteur Finance and Operations, ou envoyer explicitement l'événement à un point de terminaison d'événements commerciaux via le **Catalogue des événements commerciaux**.
 
 ## <a name="create-an-alert-rule"></a>Créer une règle d'alerte
 
+0. Vérifiez que les traitements par lots des alertes sont en cours d'exécution (voir ci-dessus).
 1. Ouvrez la page qui contient les données à contrôler.
 2. Dans le volet Actions, sous l'onglet **Options**, dans le groupe **Partager**, sélectionnez **Créer une règle d'alerte**.
 3. Dans la boîte de dialogue **Créer une règle d'alerte**, dans le champ **Champ**, sélectionnez le champ à contrôler.
 4. Dans le champ **Événement**, sélectionnez le type d'événement.
-5. Dans l'organisateur **Alertez-moi pour**, sélectionnez une option.
+5. Dans le raccourci **Alertez-moi pour**, sélectionnez l'option souhaitée. Si vous souhaitez envoyer l'alerte en tant qu'événement commercial, assurez-vous que **À l'échelle de l'organisation** est défini sur **Non**.
 6. Si la règle d'alerte doit devenir inactive à une date spécifique, dans l'organisateur **Alertez-moi jusqu'à**, sélectionnez une date de fin.
-7. Dans l'organisateur **Alertez-moi avec**, dans le champ **Objet**, acceptez l'objet par défaut du message e-mail, ou entrez-en un nouveau. Le texte est utilisé comme objet pour le message e-mail que vous recevez en cas de déclenchement d'alerte.
+7. Dans l'organisateur **Alertez-moi avec**, dans le champ **Objet**, acceptez l'objet par défaut du message e-mail, ou entrez-en un nouveau. Le texte est utilisé comme objet pour le message e-mail que vous recevez en cas de déclenchement d'alerte. Si vous souhaitez envoyer l'alerte en tant qu'événement commercial, définissez **Envoyer en externe** sur **Oui**.
 8. Dans le champ **Message**, entrez un message facultatif. Le texte sera le message envoyé en cas de déclenchement d'alerte.
 9. Sélectionnez **OK** pour enregistrer les paramètres et créer la règle d'alerte.

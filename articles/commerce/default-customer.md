@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9e1087821b357c578993cdd5742399c5ec0ecc95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001804"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057960"
 ---
 # <a name="create-a-default-customer"></a>Créer un client par défaut
 
@@ -33,7 +33,7 @@ Cette rubrique décrit comment créer un client par défaut à utiliser lors de 
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Lors de la création d'un canal de vente au détail ou en ligne, vous devrez fournir un client par défaut. Un client par défaut peut facilement être créé après avoir d'abord créé le groupe de clients et le carnet d'adresses client.
+Lors de la création d'un canal, vous devrez indiquer un client par défaut. Un client par défaut peut facilement être créé après avoir d'abord créé le groupe de clients et le carnet d'adresses client.
 
 ## <a name="create-a-customer-group"></a>Création d'un groupe de clients
 

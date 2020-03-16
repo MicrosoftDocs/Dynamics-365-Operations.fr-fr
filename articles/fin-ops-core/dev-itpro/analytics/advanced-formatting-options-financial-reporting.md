@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a46ff0a1d6e29cc567a86fae60ff803a102d1a2e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181218"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071588"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Options de mise en forme avancées dans les états financiers
 
@@ -216,7 +216,7 @@ Dans cet exemple, la formule de calcul **@100+@330** signifie que le montant de 
 Lorsque le code de format d'une ligne dans une définition de ligne est **CAL**, et que vous entrez un calcul mathématique dans la cellule **Formules/lignes/unités associées**, vous devez également entrer la lettre de la colonne et de la ligne associées dans l'état. Par exemple, entrez **A.120** pour représenter la colonne A, ligne 120. Sinon, vous pouvez utiliser un arobase (@) pour indiquer toutes les colonnes. Par exemple, entrez **@120** pour représenter toutes les colonnes de la ligne 120. Tout calcul mathématique qui n'a pas une lettre de colonne ou un arobase (@) est un nombre réel.
 
 > [!NOTE]
-> Si vous utilisez le code de ligne d'étiquette pour référencer une ligne, vous devez utiliser un point (.) comme séparateur entre la lettre de colonne et l'étiquette (par exemple, **A.GROSS\_MARGIN/A.SALES**). Si vous utilisez un arobase (@), un séparateur n'est pas obligatoire (par exemple, **@GROSS\_MARGIN/@SALES**).
+> Si vous utilisez le code de ligne d'étiquette pour référencer une ligne, vous devez utiliser un point (.) comme séparateur entre la lettre de colonne et l'étiquette (par exemple, **A.GROSS\_MARGIN/A.SALES**). Si vous utilisez un arobase (@), un séparateur n'est pas obligatoire (par exemple, **\@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Exemple d'une formule de calcul pour une colonne spécifique
 

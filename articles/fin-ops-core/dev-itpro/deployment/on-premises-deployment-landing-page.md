@@ -1,9 +1,9 @@
 ---
 title: Page d'accueil de déploiement local
 description: Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770944"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090587"
 ---
 # <a name="on-premises-deployment-home-page"></a>Page d'accueil de déploiement local
 
@@ -50,17 +50,17 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Configurer la gestion des documents](../../fin-ops/organization-administration/configure-document-management.md)
 - [Importer des configurations de gestion des états électroniques (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Génération, publication et impression de documents dans les déploiements sur site](../analytics/printing-capabilities-on-premises.md)
-- [Configurer les proxys de contrepassation pour les environnements sur site](onprem-reverseproxy.md)
+- [Configurer les proxys pour les environnements sur site](onprem-reverseproxy.md)
 - [Configurer le support technique pour les applications Finance and Operations](../lifecycle-services/support-experience.md)
 - [Connectivité Internet du client](../user-interface/client-disconnected.md)
 - [Appliquer des mises à jour à des déploiement sur site](apply-updates-on-premises.md)
 - [Redéployer les environnements sur site](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [Fonctionnalités Retail disponibles dans les déploiements sur site](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [Fonctionnalités Commerce disponibles dans les déploiements sur site](../../../retail/retail-onprem.md)
 - [Étapes d'installation des composants du canal de vente au détail dans un environnement sur site](deploy-retail-onprem.md)
-- [Configurer, installer et activer Retail Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [Configurer et installer Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Configurer, installer et activer Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
+- [Configurer et installer Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Mettre à niveau
 - [Processus de mise à niveau en place pour les environnements locaux](../migration-upgrade/on-prem-upgrade.md)
@@ -71,6 +71,6 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Rotation du certificat](certificate-rotation-on-prem.md)
 - [Diagnostics locaux](on-premises-diagnostics.md)
 - [Fonctions non implémentées dans les déploiements locaux](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Fonctions supprimées ou abandonnées pour Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Fonctionnalités supprimées ou obsolètes pour Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Stratégie du cycle de vie de logiciel et versions sur site](../migration-upgrade/on-prem-version-update-policy.md)
  

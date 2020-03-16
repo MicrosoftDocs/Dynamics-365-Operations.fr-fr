@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015222"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071658"
 ---
 # <a name="credit-management-parameters-setup"></a>Paramétrage de la gestion du crédit
 
@@ -38,8 +38,8 @@ Il existe quatre raccourcis vous permettant de modifier les paramètres qui cont
 - Paramétrez l'option **Autoriser la modification de la valeur des commandes client après la libération du blocage de commande** sur **Oui** pour exiger que les règles de validation soient à nouveau vérifiées si la valeur de la commande client (prix étendu) a été modifiée depuis que la commande client a été libérée de la liste d'attente. .
 - Dans le champ **Motifs des commandes annulées**, sélectionnez le motif de libération qui sera utilisé par défaut lorsqu'une commande client qui était en attente de gestion des crédits est annulée.
 - Paramétrez l'option **Vérifier la limite de crédit des groupes de crédits client** sur **Oui** pour vérifier la limite de crédit d'un groupe de crédits client lorsque le client d'une commande client appartient à un groupe de crédits client. La limite de crédit pour le groupe sera vérifiée, puis, si elle est suffisante, la limite de crédit pour le client sera vérifiée.
-- Paramétrez l'option **Vérifier la limite de crédit lorsque les conditions de paiement sont augmentées** sur **Oui** pour vérifier le classement des modalités de paiement afin de déterminer si les modalités de paiement de la commande client diffèrent de celles de la commande client. Si les nouvelles modalités de paiement ont un rang supérieur aux modalités de paiement d'origine, la commande est mise en attente pour la gestion du crédit.
-- Paramétrez l'option **Vérifier la limite de crédit lorsqu'une remise sur le règlement est augmentée** sur **Oui** pour vérifier le classement de la remise sur le règlement afin de déterminer si l'escompte de règlement de la commande client diffère de celui de la commande client. Si le nouvel escompte de règlement a un rang supérieur à celui d'origine, la commande est mise en attente pour la gestion du crédit.
+- Paramétrez l'option **Vérifier la limite de crédit lorsque les conditions de paiement sont augmentées** sur **Oui** pour vérifier le classement des modalités de paiement afin de déterminer si les modalités de paiement de la commande client diffèrent des modalités de paiement par défaut du client. Si les nouvelles modalités de paiement ont un rang supérieur aux modalités de paiement d'origine, la commande est mise en attente pour la gestion du crédit.
+- Paramétrez l'option **Vérifier la limite de crédit lorsqu'une remise sur le règlement est augmentée** sur **Oui** pour vérifier le classement de la remise sur le règlement afin de déterminer si l'escompte de règlement de la commande client diffère de l'escompte de paiement par défaut du client. Si le nouvel escompte de règlement a un rang supérieur à celui d'origine, la commande est mise en attente pour la gestion du crédit.
 - Dans le champ **Motif de la libération des commandes modifiées**, sélectionnez le motif de libération qui sera utilisé par défaut lorsque les commandes modifiées sont automatiquement libérées de la gestion des crédits.
 - Paramétrez l'option **Ignorer la règle de blocage de limite de crédit expirée lorsque la date d'expiration est vide** sur **Oui** pour contrôler le comportement de la règle **Limite de crédit expirée**. Paramétrez l'option sur **Non** pour bloquer une commande lorsque la date d'expiration est vide.
 - Dans la gestion d'entrepôt, les charges peuvent être créées au moment de la saisie de la commande client. Paramétrez l'option **Supprimer les lignes de charge bloquées** sur **Non** pour laisser les lignes de commande client sur la charge lorsqu'une commande client est en attente de crédit. La charge ne peut pas être traitée lorsque la commande client est en attente. Paramétrez l'option sur **Oui** pour supprimer les lignes de commande client de la charge lorsqu'une commande client est en attente de crédit. La charge peut alors être traitée.

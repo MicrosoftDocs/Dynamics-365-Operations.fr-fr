@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658642"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059426"
 ---
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
@@ -54,8 +54,8 @@ Chaque organisation orchestre et définit son processus métier pour les facture
     -   Combien de répartitions comptables (prix global, taxes, frais, fractionnements, etc.) y-a-t-il pour une ligne de facture ? Là aussi, appliquez la règle 80-20.
     -   Les factures ont-elles également les répartitions comptables dans l'en-tête de facture ? Dans ce cas, ces répartitions comptables doivent-elles être disponibles dans le périphérique ?
 
-> [!NOTE]
-> Cette rubrique n'explique pas comment modifier les répartitions comptables, car cette fonctionnalité n'est actuellement pas prise en charge pour les scénarios mobiles.
+    > [!NOTE]
+    > Cette rubrique n'explique pas comment modifier les répartitions comptables, car cette fonctionnalité n'est actuellement pas prise en charge pour les scénarios mobiles.
 
 -   Les utilisateurs souhaiteront-ils afficher les pièces jointes pour la facture sur le périphérique ?
 
@@ -158,9 +158,9 @@ La première page mobile que vous devez configurer est la liste des factures aff
     - Numéro de facture
     - Date de facture
 
-  Une fois que les champs sont ajoutés, la page mobile doit ressembler à l'illustration suivante. 
+    Une fois que les champs sont ajoutés, la page mobile doit ressembler à l'illustration suivante. 
     
-   [![Page après l'ajout des champs](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Page après l'ajout des champs](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Vous devez également ajouter les colonnes suivantes maintenant, de manière à ce que nous puissions activer les actions de workflow ultérieurement.
     - Afficher la tâche de fin
@@ -247,9 +247,10 @@ Pour ajouter des actions de workflow, utilisez la page **VendMobileInvoiceHeader
     - Il masque les colonnes de workflow supplémentaires liées que nous avons ajoutées plus haut dans la page de liste mobile. Nous avons ajouté ces colonnes afin que l'application dispose de ces informations en contexte et puisse effectuer l'étape suivante.
     - Selon l'étape de workflow active, une logique permet d'afficher uniquement les actions.
 
-> [!NOTE]
-> Le nom des pages et d'autres contrôles dans le code doivent être identiques aux noms dans l'espace de travail.
+    > [!NOTE]
+    > Le nom des pages et d'autres contrôles dans le code doivent être identiques aux noms dans l'espace de travail.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Pour ajouter des actions de workflow, utilisez la page **VendMobileInvoiceHeader
                  },
            };
         }
+    ```
 
 2.  Téléchargez le fichier de code vers l'espace de travail en sélectionnant l'onglet **Logique**
 3.  Cliquez sur **Terminé** pour quitter le mode d'édition.
@@ -341,7 +343,7 @@ Les exigences pour ce scénario confirment qu'il n'y aura que des distributions 
 
 1.  Dans l'URL, remplacez le nom de l'option de menu, comme effectué précédemment. La page qui apparaît doit ressembler à l'illustration suivante.
 
-[![Page Toutes les répartitions](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Page Toutes les répartitions](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Ouvrez le Concepteur mobile à partir du bouton **Paramètres** (engrenage)
 
@@ -367,16 +369,18 @@ Les exigences pour ce scénario confirment qu'il n'y aura que des distributions 
 
 10. Cliquez sur **Publier l'espace de travail** pour enregistrer votre travail
 
-> [!NOTE] 
-> La page **Afficher la comptabilité** n'est actuellement pas liée aux pages mobiles que nous avons conçues jusqu'à présent. Étant donné que l'utilisateur doit pouvoir naviguer vers la page **Afficher la comptabilité** à partir de la page **Détails de la facture** sur l'appareil mobile, nous devons fournir la navigation à partir de la page **Détails de la facture** vers la page **Afficher la comptabilité**. Nous établissons cette navigation à l'aide de la logique supplémentaire via Javascript.
+#### <a name="adding-navigation-to-view-accounting-page"></a>Ajout de la navigation vers la page « Afficher la comptabilité »
+
+La page **Afficher la comptabilité** n'est actuellement pas liée aux pages mobiles que nous avons conçues jusqu'à présent. Étant donné que l'utilisateur doit pouvoir naviguer vers la page **Afficher la comptabilité** à partir de la page **Détails de la facture** sur l'appareil mobile, nous devons fournir la navigation à partir de la page **Détails de la facture** vers la page **Afficher la comptabilité**. Nous établissons cette navigation à l'aide de la logique supplémentaire via Javascript.
 
 1.  Ouvrez le fichier .js créé précédemment, et ajoutez les lignes qui sont en surbrillance dans le code suivant. Ce code permet d'effectuer deux choses :
     1.  Il permet de garantir que les utilisateurs ne peuvent pas accéder directement à la page **Afficher la comptabilité** à partir de l'espace de travail.
     2.  Il établit un contrôle de navigation à partir de la page **Détails de la facture** à la page **Afficher la comptabilité**.
 
-> [!NOTE] 
-> Le nom des pages et d'autres contrôles dans le code doivent être identiques aux noms dans l'espace de travail.
+    > [!NOTE] 
+    > Le nom des pages et d'autres contrôles dans le code doivent être identiques aux noms dans l'espace de travail.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ Les exigences pour ce scénario confirment qu'il n'y aura que des distributions 
                  },
            };
         }
-
+    ```
+    
 2.  Téléchargez le fichier de code vers l'espace de travail en sélectionnant l'onglet **Logique** pour remplacer le code précédent
 3.  Cliquez sur **Terminé** pour quitter le mode d'édition.
 4.  Cliquez sur **Précédent**, puis **Terminé** pour quitter l'espace de travail
