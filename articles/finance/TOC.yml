@@ -10,8 +10,6 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Souscrire des abonnements d'aperçu
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: Informations de paiement du client (aperçu)
-              href: accounts-receivable/payment-insights-overview.md
             - name: Mises à jour de service à une version
               items:
                 - name: Vue d'ensemble des mises à jour de service à une version
@@ -26,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: Appliquer des mises à jour à des environnements cloud
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
+                - name: Appliquer des mises à jour à des déploiements sur site
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Suspendre les mises à jour de service
@@ -70,20 +70,24 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d'accueil Finance
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance version\_10.0.10 (mai\_2020)"
+                      href: get-started/whats-new-changed-10-0-10.md
                     - name: "Finance version\_10.0.9 (avril\_2020)"
                       href: get-started/whats-new-changed-10-0-9.md
                     - name: "Finance version\_10.0.8 (février\_2020)"
                       href: get-started/whats-new-changed-10-0-8.md
-                    - name: "Finance version\_10.0.7 (janvier\_2020)"
-                      href: get-started/whats-new-changed-10-0-7.md
-                - name: Fonctions supprimées ou obsolètes
+            - name: Fonctions supprimées ou obsolètes
+              items:
+                - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Fonctions supprimées ou obsolètes dans les versions précédentes
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-                - name: "Fonctions d'AX\_2012 ayant été reportées"
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-                - name: Fonctions non implémentées dans les déploiements locaux
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: "Fin du support standard pour Microsoft Dynamics AX\_2009 et 2012"
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
+            - name: "Fonctions d'AX\_2012 ayant été reportées"
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Fonctions non implémentées dans les déploiements locaux
+              href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
+            - name: "Fin du support standard pour Microsoft Dynamics AX\_2009 et 2012"
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Ressources documentaires
               items:
                 - name: Système d'aide
@@ -312,6 +316,8 @@
               href: accounts-receivable/tasks/establish-customer-method-payment.md
             - name: Établir les commissions de paiement client
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Informations de paiement du client (version préliminaire)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Profils de validation client
               href: accounts-receivable/customer-posting-profiles.md
             - name: Copier des clients à l'aide de souches de numéros partagées
@@ -1794,6 +1800,8 @@
                           href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
                         - name: Définir les codes HSN et les codes de comptabilité de service
                           href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                        - name: Créer un type de taux de taxe
+                          href: localizations/apac-ind-GST-create-tax-rate-type.md
                         - name: Créer des comptes principaux pour le type de validation GST
                           href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
                         - name: Créer une période de règlement fiscal
@@ -1922,17 +1930,18 @@
                   items:
                     - name: Vue d'ensemble du moteur de taxe
                       href: general-ledger/tax-engine.md
-                      items:
-                        - name: Créer des composants de taxe
-                          href: localizations/tax-engine-create-tax-component.md
-                        - name: Importer une configuration
-                          href: general-ledger/tax-engine-import-configuration.md
-                        - name: Applicabilité du moteur de taxe
-                          href: general-ledger/tax-engine-applicability.md
-                        - name: Intégration du moteur de taxe
-                          href: general-ledger/tax-engine-integration.md
-                        - name: Extension du moteur de taxe
-                          href: general-ledger/extend-tax-engine-configurations.md
+                    - name: Configuration de l'importation
+                      href: general-ledger/tax-engine-import-configuration.md
+                    - name: Concepteur de formule avancé
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                    - name: Applicabilité du moteur de taxe
+                      href: general-ledger/tax-engine-applicability.md
+                    - name: Créer des composants de taxe
+                      href: localizations/tax-engine-create-tax-component.md
+                    - name: Intégration du moteur de taxe
+                      href: general-ledger/tax-engine-integration.md
+                    - name: Extension du moteur de taxe
+                      href: general-ledger/extend-tax-engine-configurations.md
                 - name: FAQ sur les seuils de taxe
                   href: localizations/apac-ind-tax-thresholds.md
                 - name: Transferts d'actions
@@ -2357,50 +2366,56 @@
                       href: localizations/rus-incoming-VAT-restoring.md
                 - name: Immobilisations
                   items:
-                    - name: Gestion des immobilisations
-                      href: localizations/rus-fixed-assets.md
-                    - name: Vue d'ensemble d'immobilisations
-                      hfre: localizations/rus-fixed-assets-overview.md
-                    - name: Paramétrage d'immobilisations
-                      href: localizations/rus-set-up-fixed-assets.md
-                    - name: Acquisition d'immobilisations et mise en service
-                      href: localizations/rus-fixed-asset-acquisition.md
-                    - name: Enregistrer les acquisitions d'immobilisations
-                      href: localizations/rus-register-acquisition.md
-                    - name: Créer et valider des journaux budgétaires pour les acquisitions d'immobilisations
-                      href: localizations/rus-post-budget-fixed-asset-acquisition.md
-                    - name: Créer un bail d'immobilisation et un retour de transaction de bail
-                      href: localizations/rus-fixed-asset-leasing.md
-                    - name: Comptage des immobilisations
-                      href: localizations/rus-fixed-assets-counting.md
-                    - name: Réévaluation en devise des immobilisations
-                      href: localizations/rus-fixed-asset-currency-revaluation.md
-                    - name: Mettre à jour les immobilisations
-                      href: localizations/rus-maintain-fixed-assets.md
-                    - name: Réévaluer le coût et l'amortissement des immobilisations
-                      href: localizations/rus-fixed-assets-revaluation.md
-                    - name: Démontage partiel d'immobilisations (liquidation)
-                      href: localizations/rus-fixed-assets-disassembly.md
-                    - name: 'Vente, cession et annulation d''immobilisations'
-                      href: localizations/rus-sell-dispose-write-off-fixed-assets.md
-                    - name: Définir les emplacements et la numérotation des immobilisations
-                      href: localizations/rus-fixed-assets-locations-numbering.md
-                    - name: Paramétrer l'amortissement
-                      href: localizations/rus-depreciation-setup.md
-                    - name: Méthodes d'amortissement
-                      href: localizations/rus-depreciation-methods.md
-                    - name: Primes d'amortissement
-                      href: localizations/rus-bonus-depreciation.md
-                    - name: Calculer l'amortissement
-                      href: localizations/rus-depreciation-calculation.md
-                    - name: Transférer des immobilisations
-                      href: localizations/rus-fixed-asset-transfer.md
-                    - name: Formulaires d'impression unifiée pour les immobilisations
-                      href: localizations/printing-forms-fixed-assets.md
-                    - name: Comptabilité des vêtements de travail/équipements spéciaux (Russie)
-                      href: localizations/rus-working-clothes-instruments-accounting.md
-                    - name: Immobilisations sans valeur (Russie)
-                      href: localizations/rus-not-valuable-assets.md
+                    - name: Vue d'ensemble des immobilisations
+                      href: localizations/rus-fixed-assets-overview.md
+                    - name: Paramétrage des immobilisations
+                      items:
+                        - name: Paramétrage des immobilisations
+                          href: localizations/rus-set-up-fixed-assets.md
+                        - name: Paramétrer l'amortissement
+                          href: localizations/rus-depreciation-setup.md
+                        - name: Méthodes d'amortissement
+                          href: localizations/rus-depreciation-methods.md
+                        - name: Primes d'amortissement
+                          href: localizations/rus-bonus-depreciation.md
+                        - name: Définir les emplacements et la numérotation des immobilisations
+                          href: localizations/rus-fixed-assets-locations-numbering.md
+                    - name: Utilisation des immobilisations
+                      items:
+                        - name: Création des immobilisations
+                          href: localizations/rus-fixed-assets.md
+                        - name: Enregistrer les acquisitions d'immobilisations
+                          href: localizations/rus-register-acquisition.md
+                        - name: Acquisition d'immobilisations et mise en service
+                          href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Calculer l'amortissement
+                          href: localizations/rus-depreciation-calculation.md
+                        - name: Démontage partiel d'immobilisations (liquidation)
+                          href: localizations/rus-fixed-assets-disassembly.md
+                        - name: 'Vente, cession et annulation d''actifs'
+                          href: localizations/rus-sell-dispose-write-off-fixed-assets.md
+                        - name: Créer un bail d'immobilisation et un retour de transaction de bail
+                          href: localizations/rus-fixed-asset-leasing.md
+                        - name: Mettre à jour les immobilisations
+                          href: localizations/rus-maintain-fixed-assets.md
+                        - name: Comptage des immobilisations
+                          href: localizations/rus-fixed-assets-counting.md
+                        - name: Réévaluation en devise des immobilisations
+                          href: localizations/rus-fixed-asset-currency-revaluation.md
+                        - name: Réévaluer le coût et l'amortissement des immobilisations
+                          href: localizations/rus-fixed-assets-revaluation.md
+                        - name: Créer et valider des journaux budgétaires pour les acquisitions d'immobilisations
+                          href: localizations/rus-post-budget-fixed-asset-acquisition.md
+                        - name: Transférer des immobilisations
+                          href: localizations/rus-fixed-asset-transfer.md
+                    - name: Immobilisations et vêtements de travail sans valeur
+                      items:
+                        - name: Immobilisations sans valeur (Russie)
+                          href: localizations/rus-not-valuable-assets.md
+                        - name: Comptabilité des vêtements de travail/équipements spéciaux (Russie)
+                          href: localizations/rus-working-clothes-instruments-accounting.md
+                        - name: Formulaires d'impression unifiée pour les immobilisations
+                          href: localizations/printing-forms-fixed-assets.md
                 - name: Comptabilité fournisseur et comptabilité client
                   items:
                     - name: Corrections d'avoir (Russie)
@@ -2425,8 +2440,16 @@
                           href: localizations/rus-set-up-and-create-agreements.md
                         - name: Enregistrer les transactions en référence aux accords
                           href: localizations/rus-register-transactions-with-reference-to-agreements.md
-                        - name: Demandes de renseignements et rapports avec accords
+                        - name: Recherches et états avec accords
                           href: localizations/rus-inquiries-reports-agreements.md
+                    - name: Transactions via un intermédiaire
+                      items:
+                        - name: Vue d'ensemble des transactions via un intermédiaire
+                          href: localizations/rus-transactions-through-intermediary.md
+                        - name: Achats à commission
+                          href: localizations/rus-purchases-on-commission.md
+                        - name: Vente sur commission
+                          href: localizations/rus-sales-on-commission.md
                 - name: Stock
                   items:
                     - name: Marchandises en transit en provenance du fournisseur
@@ -2533,6 +2556,8 @@
                   href: localizations/emea-swe-sie-standard-report.md
                 - name: Importer des formats de paiement
                   href: localizations/emea-swe-payment-formats-import.md
+                - name: État de paiement de la taxe pour la Suède
+                  href: localizations/emea-swe-sales-tax-payment-report-sweden.md
             - name: Suisse
               items:
                 - name: Vue d'ensemble de la Suisse
@@ -2561,20 +2586,24 @@
                   href: localizations/united-kingdom.md
                 - name: Schéma de l'industrie de la construction
                   href: localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: Créer un crédit sur la remise du règlement
-                  href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: Créer une commande fournisseur qui inclut des articles soumis à la taxe au preneur
-                  href: localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: Créer une commande client qui inclut des articles soumis à la taxe au preneur
-                  href: localizations/tasks/gb-00002-sales-order.md
-                - name: Paramétrer des groupes de taxes d'article pour la taxe au preneur
-                  href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: 'Paramétrer les groupes, règles et paramètres d''articles de taxe au preneur'
-                  href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: Paramétrer des groupes de taxes pour la taxe au preneur
-                  href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: Taxe au preneur
+                  items:
+                    - name: Créer un crédit sur la remise du règlement
+                      href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
+                    - name: Créer une commande fournisseur qui inclut des articles soumis à la taxe au preneur
+                      href: localizations/tasks/purchase-order-reverse-charge-vat.md
+                    - name: Créer une commande client qui inclut des articles soumis à la taxe au preneur
+                      href: localizations/tasks/gb-00002-sales-order.md
+                    - name: Paramétrer des groupes de taxes d'article pour la taxe au preneur
+                      href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+                    - name: 'Paramétrer les groupes, règles et paramètres d''articles de taxe au preneur'
+                      href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+                    - name: Paramétrer des groupes de taxes pour la taxe au preneur
+                      href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
                 - name: Rendre la taxe numérique pour la TVA
                   href: localizations/emea-gbr-mtd-vat-integration.md
+                - name: État Statistiques sur les pratiques de paiement
+                  href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: États-Unis
               items:
                 - name: Vue d'ensemble des États-Unis
@@ -3141,6 +3170,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Sélectionner des définitions de modèle de données lorsque vous créez des formats
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: Options de filtrage améliorées pour trouver des configurations dans le référentiel global
+                  href: ../finance/localizations/enhanced-filtering-global-repo.md
                 - name: Générer des états en ajoutant du contenu en tant que XML brut
                   href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                 - name: (Gestion des états électroniques) Sources de données de société croisée dans la gestion des états électroniques
