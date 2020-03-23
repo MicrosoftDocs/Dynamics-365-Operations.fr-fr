@@ -3,8 +3,14 @@
   items:
     - name: Nouveautés
       items:
-        - name: Nouveautés ou modifications dans Human Resources
+        - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "10\_mars\_2020"
+          href: hr-whats-new-2020-03-10.md
+        - name: "3\_mars\_2020"
+          href: hr-whats-new-2020-03-03.md
+        - name: "25\_février\_2020"
+          href: hr-whats-new-2020-02-25.md
         - name: "18\_février\_2020"
           href: hr-whats-new-2020-02-18.md
         - name: "12\_février\_2020"
