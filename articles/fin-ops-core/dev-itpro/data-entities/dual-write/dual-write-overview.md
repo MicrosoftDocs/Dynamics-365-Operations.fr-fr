@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 12c6a39700a260c138fab67ed370f94b3aa04213
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: c4a643d4981364cea5b549118c201ac8a9798e02
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075983"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113872"
 ---
 # <a name="dual-write-overview"></a>Vue d'ensemble de la double écriture
 
@@ -105,4 +105,4 @@ Dans la première version, l'automatisation est gérée en grande partie par des
     - Il y aura une plus grande prise en charge des devises et des taux de change, et l'API **Taux de change** sera révisée.
     - Les conversions d'unités seront prises en charge.
 
-Pour plus d'informations sur les modifications à venir, voir [Données dans Common Data Service - phase 1 et 2](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-roadmap).
+Pour plus d'informations sur les modifications à venir, voir [Données dans Common Data Service - phase 1 et 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/finance-operations-crossapp-capabilities/data-common-data-service-phase-1).

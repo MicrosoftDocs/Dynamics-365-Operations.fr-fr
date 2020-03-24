@@ -1,6 +1,6 @@
 ---
-title: Configuration des types d'événements de vie
-description: ''
+title: Configurer les types d'événements de vie
+description: Microsoft Dynamics 365 Human Resources utilise des types d'événements de vie pour définir les événements où il est valide de mettre à jour l'inscription aux avantages des employés.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93c4285a1918cb625a01b4523195cacdee1170b4
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 8b1d911fcd86b91b96edb1bdf42316c9097ea8bc
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009074"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092635"
 ---
-# <a name="configure-life-event-types"></a>Configuration des types d'événements de vie
+# <a name="configure-life-event-types"></a>Configurer les types d'événements de vie
 
 [!include [banner](includes/preview-feature.md)]
 

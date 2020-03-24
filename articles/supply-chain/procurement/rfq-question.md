@@ -16,17 +16,16 @@ ms.search.industry: public sector
 ms.author: v-alpavk
 ms.search.validFrom: 2020-1-22
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 75bf839fbda034609eb2a9e36520ae113f4701ec
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 3e45d6e69cc0f452d435f267fc35d56b43965d74
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015437"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124337"
 ---
 # <a name="responding-to-vendor-questions-on-request-for-quotations"></a>Réponse aux questions des fournisseurs sur les appels d'offre
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Si votre agence a envoyé un appel d'offre, les fournisseurs ont parfois des questions concernant la demande. Les fournisseurs qui ont des questions sur un appel d'offre peuvent les soumettre et lire les réponses dans la page **Collaboration du fournisseur** si vous rendez cette page disponible. Si les questions des fournisseurs sont acceptées, **Questions et réponses** est disponible dans la page **Offre pour un appel d'offre** sur **Collaboration du fournisseur** et pour votre agence via la page **Appel d'offre**, **Questions et réponses**. 
 

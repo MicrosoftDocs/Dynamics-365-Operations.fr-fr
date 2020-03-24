@@ -1,6 +1,6 @@
 ---
 title: Créer des options de couverture
-description: ''
+description: Les options de couverture dans Microsoft Dynamics 365 Human Resources sont les niveaux de couverture selon le choix d'un participant dans un régime ou un programme d'avantages sociaux, comme Employé seulement pour un régime médical ou 2x Salaire pour un régime d'assurance-vie.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27b43d858a92beac526ac0fc40b544649ef658b0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008960"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092704"
 ---
 # <a name="create-coverage-options"></a>Créer des options de couverture
 

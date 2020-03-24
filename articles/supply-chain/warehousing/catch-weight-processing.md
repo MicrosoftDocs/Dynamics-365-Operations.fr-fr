@@ -3,7 +3,7 @@ title: Traitement des produits en poids variable avec la gestion des entrepôts
 description: Cette rubrique décrit comment utiliser les modèles de travail et les instructions d'emplacement afin de déterminer de quelle manière et où effectuer le travail dans l'entrepôt.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004109"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095795"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004109"
 
 ## <a name="feature-exposure"></a>Exposition de la fonctionnalité
 
-Pour utiliser la gestion des entrepôts dans le cadre du traitement des produits en poids variable, vous devez utiliser une clé de configuration de licence pour activer la fonctionnalité. (Accédez à **Administration système \> Paramétrage \> Configuration des licences**. Puis, dans l'onglet **Clés de configuration**, développez **Commerce \> Gestion des entrepôts et du transport**, puis cochez la case **Poids variable pour les entrepôts**).
+Pour utiliser la gestion des entrepôts dans le cadre du traitement des produits en poids variable, vous devez utiliser une clé de configuration de licence pour activer la fonctionnalité. Accédez à **Administration système \> Paramétrage \> Configuration des licences**. Puis, dans l'onglet **Clés de configuration**, développez **Commerce \> Gestion des entrepôts et du transport**, puis cochez la case **Poids variable pour les entrepôts**.
 
 > [!NOTE]
-> La clé de configuration de licence **Gestion des entrepôts et du transport** et les clés de configuration de licence **Traiter la distribution \> en poids variable** doivent être également activées. Pour configurer les clés de configuration pour le poids variable, vous devez également activer la fonction à l'aide de l'espace de travail **Gestion des fonctionnalités***. La principale fonction qui doit être activée est **Traitement des produits en poids variable avec la gestion des entrepôts**. Une autre fonction connexe mais facultative que vous souhaiterez peut-être activer est **Modifications du statut du stock pour les produits en poids variable**. Cette fonction ajoute la prise en charge des modifications du statut du stock pour les produits qui sont activés pour le poids variable.
+> La clé de configuration de licence **Gestion des entrepôts et du transport** et les clés de configuration de licence **Traiter la distribution \> en poids variable** doivent être également activées. Pour configurer les clés de configuration pour le poids variable, vous devez également activer la fonction à l'aide de l'espace de travail **Gestion des fonctionnalités***. La principale fonction qui doit être activée est **Traitement des produits en poids variable avec la gestion des entrepôts**. Deux fonctionnalités connexes, mais facultatives que vous souhaiterez peut-être activer sont **Modifications du statut du stock pour les produits en poids variable** et **Utiliser les balises de poids variable existantes lorsque vous signalez les ordres de fabrication comme terminés**.
 
 Une fois la clé de configuration de licence activée, lorsque vous créez un produit lancé, vous pouvez sélectionner **Poids variable**. Vous pouvez également associer le produit lancé à un groupe de dimensions de stockage pour lequel le paramètre **Utiliser les processus de gestion des entrepôts** est sélectionné.
 
@@ -107,10 +107,11 @@ En outre, lorsqu'un élément est suivi par balise, il existe un paramètre **M
 **Lorsque le suivi des balises en poids variable est utilisé**, une balise doit toujours être créée pour chaque unité en poids variable reçue et chaque balise doit toujours être associée à un poids.
 
 Par exemple, **Boîte** est l'unité en poids variable, et vous recevez une palette de huit boîte. Dans ce cas, huit balises en poids variable unique doivent être créées, et un poids doit être associé à chaque balise. Selon la balise en poids variable entrant, le poids des huit boîtes peut être saisi, et le poids moyen peut ensuite être réparti sur chaque boîte, ou un poids unique peut être saisi pour chaque boîte.
+Lorsque vous utilisez la fonctionnalité **Utiliser les balises de poids variable existantes lorsque vous signalez les ordres de fabrication comme terminés** avec le processus activé via un élément de menu de l'appareil mobile, le stock est mis à jour en fonction des informations d'étiquette de poids variable existantes. Par conséquent, l'application Entreposage ne demande pas de capturer les données d'étiquette de poids variable dans le cadre d'un rapport de production en tant qu'opération terminée.
 
 **Si le suivi des balises en poids variable n'est pas utilisé**, le poids peut être saisi pour chaque dimension définie (par exemple, le contenant et la dimension de suivi). À défaut, le poids peut être saisi à un niveau agrégé, comme cinq contenants (palettes).
 
-Pour les méthodes de capture du poids sortant, l'option **Par unité en poids variable** vous permet de spécifier que la pesée doit être effectuée pour chaque unité en poids variable (par exemple, par boîte). L'option **Par unité de prélèvement** vous permet de spécifier que le poids doit être capturé en fonction de la quantité qui sera prélevée (par exemple, trois boîtes). Sachez que pour les processus de prélèvement de ligne de production et de mouvement interne, le poids moyen est utilisé si l'option **Non capturé** est utilisée.
+Pour les méthodes de capture du poids sortant, l'option **Par unité en poids variable** vous permet de spécifier que la pesée doit être effectuée pour chaque unité en poids variable (par exemple, par boîte). L'option **Par unité de prélèvement** vous permet de spécifier que le poids doit être capturé en fonction de la quantité qui sera prélevée (par exemple, trois boîtes). Sachez que pour le processus de prélèvement de ligne de production et les processus de mouvement interne, le poids moyen est utilisé si l'option **Non capturé** est utilisée.
 
 Plusieurs méthodes de capture de poids sont définies dans la politique de gestion des articles en poids variable. Chaque paramètre de méthode de capture de poids est utilisé par diverses transactions. Le tableau suivant résume quels paramètres sont utilisés par quelles transactions.
 

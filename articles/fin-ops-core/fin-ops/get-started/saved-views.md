@@ -3,7 +3,7 @@ title: Vues enregistrées
 description: Cette rubrique décrit l'utilisation des fonctionnalités de vues enregistrées.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017702"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100306"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
@@ -71,7 +71,7 @@ Si vous souhaitez enregistrer ces modifications, procédez comme suit.
 2.  Pour modifier la vue existante :
      1. Sélectionnez **Enregistrer**. Notez que cette action n'est pas activée pour les vues verrouillées. 
 3.  Pour créer une nouvelle vue :
-     1.    Cliquez sur **Enregistrer sous...**. 
+     1.    Sélectionnez **Enregistrer sous**. 
      2.    Entrez un nom de vue et (facultatif) une description.
      3.    Sélectionnez **Enregistrer**.
 
@@ -83,9 +83,9 @@ Pour modifier la vue par défaut d'une page, procédez comme suit :
 2.  Sélectionnez le nom de vue pour ouvrir le sélecteur de vue. 
 3.  Sélectionnez **Plus** puis sur **Épingler par défaut**.  
 
-Sinon, lorsque vous créez une vue (à l'aide l'action **Enregistrer sous...**), vous pouvez faire de cette nouvelle vue la vue par défaut en définissant l'option **Épingler par défaut** avant d'enregistrer la vue.
+Sinon, lorsque vous créez une vue (à l'aide l'action **Enregistrer sous**), vous pouvez faire de cette nouvelle vue la vue par défaut en définissant l'option **Épingler par défaut** avant d'enregistrer la vue.
 
-Notez que dans certains cas, la requête associée à la vue par défaut ne s'exécute pas lorsque vous accédez d'abord à une page. Par exemple, si vous accédez à une page via une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. En outre, si vous accédez à une page dont la vue Classique a déjà une requête définie, la requête initiale s'exécutera initialement à la place de la requête par défaut de la vue. Dans ce cas, vous serez averti par un message d'information lorsque la vue se chargera. Basculer entre les vues après la page ait chargé doit permettre à la requête de vue de s'exécuter comme prévue.
+Notez que dans certains cas, la requête associée à la vue par défaut ne s'exécute pas lorsque vous accédez d'abord à une page. Par exemple, si vous accédez à une page via une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. En outre, si vous accédez à une page dont la vue Standard a déjà une requête définie, la requête initiale s'exécutera à la place de la requête par défaut de la vue. Dans ce cas, vous serez averti par un message d'information lorsque la vue se chargera. Basculer entre les vues après la page ait chargé doit permettre à la requête de vue de s'exécuter comme prévue. À partir de la version 10.0.10 Platform update 34, le message d'information aura une action intégrée vous permettant de charger directement la requête de la vue par défaut.
 
 ## <a name="managing-personal-views"></a>Gestion des vues personnelles 
 La boîte de dialogue **Gérer mes vues** vous donne des fonctionnalités de gestion de base sur vos vues personnelles et l'ordre des vues dans le sélecteur de vue. Pour ouvrir cette page, cliquez sur le nom de vue pour ouvrir le menu déroulant du sélecteur de vue, sélectionnez **Plus**, puis sélectionnez **Gérer mes vues**.  

@@ -3,7 +3,7 @@ title: Configuration du nom de domaine
 description: Cette rubrique explique comment configurer un nom de domaine pour un site de commerce électronique Microsoft Dynamics 365.
 author: psimolin
 manager: AnnBe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4db774783dba4b1cea9552da3cff29a9528bd496
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2ad9ca3aee21301ef6d830d7b29982a45cd53f60
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002172"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096818"
 ---
 # <a name="configure-your-domain-name"></a>Configuration du nom de domaine
 
@@ -45,13 +45,21 @@ Pour associer de nouveaux domaines à votre environnement de commerce électroni
 
 [Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
 
+[Paramétrer un canal de magasin en ligne](online-stores.md)
+
 [Création d'un site de commerce électronique](create-ecommerce-site.md)
 
 [Association d'un site en ligne avec un canal](associate-site-online-store.md)
 
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
+[Importer des redirections d'URL en bloc](upload-bulk-redirects.md)
+
+[Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
+
 [Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
+
+[Configurer plusieurs locataires B2C dans un environnement Commerce](configure-multi-B2C-tenants.md)
 
 [Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 

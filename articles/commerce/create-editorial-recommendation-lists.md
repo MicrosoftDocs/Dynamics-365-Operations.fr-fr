@@ -1,9 +1,9 @@
 ---
-title: Créer des listes de recommandations produit éditées
-description: Cette rubrique explique comment les spécialistes du marketing peuvent créer et gérer des listes de produits manuelles pour les clients Microsoft Dynamics 365 Commerce.
+title: Créer manuellement des recommandations sélectionnées
+description: Cette rubrique explique comment les spécialistes du marketing peuvent créer et gérer manuellement des listes de produits pour les clients Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024931"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127719"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>Créer des listes de recommandations produit éditées
+# <a name="manually-create-curated-recommendations"></a>Créer manuellement des recommandations sélectionnées
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment les spécialistes du marketing peuvent créer et gérer des listes de produits manuelles pour les clients Microsoft Dynamics 365 Commerce.
+Cette rubrique explique comment les spécialistes du marketing peuvent créer et gérer manuellement des listes de recommandations de produits pour les clients Microsoft Dynamics 365 Commerce.
 
 Des listes organisées sont des collections de contenus individuel créées et éditées par des personnes.  
 
@@ -56,8 +56,22 @@ Pour créer une liste de recommandations de produits éditée, procédez comme s
 
 [Vue d'ensemble des recommandations produit](product-recommendations.md)
 
+[Activer ADLS dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Activer les recommandations produit](enable-product-recommendations.md)
 
-[Ajouter des listes de recommandation produit aux pages](add-reco-list-to-page.md)
+[Activer les recommandations personnalisées](personalized-recommendations.md)
 
-[Vue d'ensemble du module de collecte de produits](product-collection-module-overview.md)
+[Désactiver les recommandations personnalisées](personalization-gdpr.md)
+
+[Ajouter des listes de recommandations à un site de commerce électronique](add-reco-list-to-page.md)
+
+[Ajouter des recommandations produit sur PDV](product.md)
+
+[Ajouter des recommandations à l'écran de transaction](add-recommendations-control-pos-screen.md)
+
+[Ajuster des résultats des recommandations AI-ML](modify-product-recommendation-results.md)
+
+[Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
+
+[FAQ sur les recommandations produit](faq-recommendations.md)

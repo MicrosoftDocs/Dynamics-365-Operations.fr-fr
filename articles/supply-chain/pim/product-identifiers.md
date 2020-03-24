@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004017"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095615"
 ---
 # <a name="product-identifiers"></a>Identificateurs du produit 
 
@@ -43,9 +43,6 @@ Dans de nombreux cas, le numéro de produit n'est pas créé initialement dans D
 Lorsque vous implémentez Supply Chain Management, vous devez accorder un soin particulier à votre stratégie relative aux numéros de produit. Un bon système de numérotation améliore les flux de logistique et permet d'éviter les erreurs. Un bon identificateur de produit comporte au maximum 15 caractères. Idéalement, il comporte moins de 10 caractères et n'inclut pas plus de cinq caractères de classification. Vous pouvez également utiliser des noms de recherche pour activer les recherches rapides. Un nom de recherche est un nom supplémentaire qui représente les classifications d'un produit.
 
 Lorsque vous utilisez Common Data Service, le numéro de produit dans Supply Chain Management est également le numéro de produit dans Common Data Service. Les variantes de produit sont synchronisées avec Common Data Service en tant que produits distincts.
-
-> [!NOTE]
-> Le numéro de produit ne peut pas commencer par « % ».
 
 ## <a name="item-number-and-product-dimensions"></a>Numéro d'article et dimensions de produit
 

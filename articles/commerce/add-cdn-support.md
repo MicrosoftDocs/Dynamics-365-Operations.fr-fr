@@ -3,7 +3,7 @@ title: Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)
 description: Cette rubrique décrit la procédure d'ajout d'un réseau de diffusion de contenu (CDN) à votre environnement Microsoft Dynamics 365 Commerce.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bf5a0da2803f985e6c0c04dd9916977397173d11
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 23ac9d8844c2a8ae20bd316c40078319601a3a4d
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001620"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096723"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)
 
@@ -144,12 +144,20 @@ Votre CDN doit être maintenant correctement configuré de sorte qu'il puisse ê
 
 [Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
 
+[Paramétrer un canal de magasin en ligne](online-stores.md)
+
 [Création d'un site de commerce électronique](create-ecommerce-site.md)
 
 [Association d'un site en ligne avec un canal](associate-site-online-store.md)
 
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
+[Importer des redirections d'URL en bloc](upload-bulk-redirects.md)
+
+[Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
+
 [Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
+
+[Configurer plusieurs locataires B2C dans un environnement Commerce](configure-multi-B2C-tenants.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)

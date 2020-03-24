@@ -3,7 +3,7 @@ title: Répartition de données de planification budgétaire
 description: Cet sujet décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 Finance et comment elles peuvent être utilisées.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772074"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106880"
 ---
 # <a name="budget-planning-data-allocation"></a>Répartition de données de planification budgétaire
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 Finance et comment elles peuvent être utilisées.  
+Cet sujet décrit les différentes méthodes de répartition disponibles dans Microsoft Dynamics 365 Finance et comment elles peuvent être utilisées.  
 
 Vous pouvez répartir les données dans un plan budgétaire de plusieurs manières afin d'illustrer précisément les montants projetés.
 
 ## <a name="allocation-methods"></a>Modes de répartition
 Trois méthodes de répartition (Répartir par le biais de périodes, Répartir vers les dimensions et Utiliser les règles de répartition comptable) permettent de créer les lignes de plan budgétaire basées sur les lignes du même plan budgétaire. Trois autres méthodes (Regrouper, Distribuer et Copier à partir du plan budgétaire) permettent de créer des lignes de plan budgétaire dans d'autres plans budgétaires. Pour chacune des six méthodes de répartition, vous devez préciser le scénario de destination. Le scénario de destination peut être identique ou non au scénario source. En outre, vous pouvez préciser si de nouvelles lignes sont ajoutées au plan budgétaire ou remplacer les lignes actuelles du plan budgétaire.
+
+> [!NOTE] 
+> Un scénario unique doit être utilisé pour l'agrégation, différent du scénario qui a été utilisé pour la distribution ou d'autres modifications précédemment effectuées dans le plan parent.  
 
 [![Méthode de répartition Répartir par le biais de périodes](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Répartir par le biais de périodes** – Une catégorie de répartition par période est utilisée pour répartir les lignes de plan budgétaire à partir du scénario de plan budgétaire source sur les périodes du scénario de destination. Le montant source est réparti sur plusieurs lignes du scénario de destination, selon le pourcentage et la date définis dans la catégorie de répartition par période.         

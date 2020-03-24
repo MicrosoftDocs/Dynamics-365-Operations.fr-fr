@@ -18,14 +18,16 @@ ms.search.region: Canada
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 949a24f982202bc93b770a50b16422630723798c
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 1293aa54be319258cd11dd07c03d6bf6702e6632
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551231"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117303"
 ---
 # <a name="canada-gsthst-internet-file-transfer"></a>Canada GST/GIFT (HST Internet File Transfer) 
+
+[!include [banner](../includes/banner.md)]
 
 Les contribuables canadiens utilisent le formulaire GST 34 pour remplir manuellement les déclarations fiscales sur les biens et services ou de taxe harmonisée (GST/HST) et pour effectuer les paiements auprès de l'Agence du revenu du Canada (ARC). Toutefois, cette dernière leur permet de remplir les déclarations et de verser les taxes calculées sur les immobilisations acquises par voie électronique. Vous pouvez remplir les déclarations GST/HST par voie électronique à l'aide de l'une des méthodes suivantes :
 

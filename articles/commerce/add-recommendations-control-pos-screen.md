@@ -1,9 +1,9 @@
 ---
-title: Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV
+title: Ajouter des recommandations à l'écran de transaction
 description: Cette rubrique décrit comment ajouter un contrôle de recommandations à l'écran de transaction sur un périphérique de point de vente (PDV) à l'aide du concepteur de mise en page de l'écran dans Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d6f48197a36f633e3cd63cbad4518f53946fc7f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9117f398ee1d9edbd3aee9bed366eea225964184
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022473"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127673"
 ---
-# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV
+# <a name="add-recommendations-to-the-transaction-screen"></a>Ajouter des recommandations à l'écran de transaction
 
 [!include [banner](includes/banner.md)]
 
@@ -98,6 +98,24 @@ Deux options de configuration sont disponibles. Choisissez l'option qui convient
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Recommandations produit sur PDV](product.md)
+[Vue d'ensemble des recommandations produit](product-recommendations.md)
 
-[Vue d'ensemble des recommandations produit](../commerce/product-recommendations.md)
+[Activer ADLS dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
+
+[Activer les recommandations produit](enable-product-recommendations.md)
+
+[Activer les recommandations personnalisées](personalized-recommendations.md)
+
+[Désactiver les recommandations personnalisées](personalization-gdpr.md)
+
+[Ajouter des listes de recommandations à un site de commerce électronique](add-reco-list-to-page.md)
+
+[Ajouter des recommandations produit sur PDV](product.md)
+
+[Ajuster des résultats des recommandations AI-ML](modify-product-recommendation-results.md)
+
+[Créer manuellement des recommandations sélectionnées](create-editorial-recommendation-lists.md)
+
+[Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
+
+[FAQ sur les recommandations produit](faq-recommendations.md)

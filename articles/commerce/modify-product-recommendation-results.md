@@ -1,9 +1,9 @@
 ---
-title: Gérer les résultats de recommandation produit fondées sur l'IA et le ML
+title: Ajuster les résultats de recommandation produit fondées sur l'IA et le ML
 description: Cette rubrique explique comment personnaliser les résultats de recommandation de produit basés sur l'intelligence artificielle et le Machine Learning (IA et ML) votre entreprise.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5da77f71fb2569adc011bb9ee9c8c795d85545f8
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025000"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127926"
 ---
-# <a name="manage-ai-ml-based-product-recommendation-results"></a>Gérer les résultats de recommandation produit fondées sur l'IA et le ML
+# <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajuster les résultats de recommandation produit fondées sur l'IA et le ML
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment personnaliser les résultats de recommandation de produit basés sur l'intelligence artificielle et le Machine Learning (IA et ML) votre entreprise. 
+Cette rubrique explique comment ajuster les résultats de recommandation de produit basés sur l'intelligence artificielle et le Machine Learning (IA et ML) votre entreprise. 
 
 Après avoir activé les recommandations de produit, les paramètres par défaut prennent effet ; ces paramètres peuvent servir pour de nombreux besoins. Il est recommandé prévoir du temps pour évaluer si les résultats correspondent au mouvement de vente de produits. Nous vous conseillons d'évaluer les résultats quelques jours avant de modifier les paramètres si nécessaire avant de tester à nouveau. 
 
@@ -102,10 +102,22 @@ Procédez comme suit pour ajouter ou supprimer manuellement des résultats pour 
 
 [Vue d'ensemble des recommandations produit](product-recommendations.md)
 
+[Activer ADLS dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Activer les recommandations produit](enable-product-recommendations.md)
 
 [Activer les recommandations personnalisées](personalized-recommendations.md)
 
-[Ajouter des listes de recommandation produit aux pages](add-reco-list-to-page.md)
+[Désactiver les recommandations personnalisées](personalization-gdpr.md)
 
-[Vue d'ensemble du module de collecte de produits](product-collection-module-overview.md)
+[Ajouter des listes de recommandations à un site de commerce électronique](add-reco-list-to-page.md)
+
+[Ajouter des recommandations produit sur PDV](product.md)
+
+[Ajouter des recommandations à l'écran de transaction](add-recommendations-control-pos-screen.md)
+
+[Créer manuellement des recommandations sélectionnées](create-editorial-recommendation-lists.md)
+
+[Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
+
+[FAQ sur les recommandations produit](faq-recommendations.md)

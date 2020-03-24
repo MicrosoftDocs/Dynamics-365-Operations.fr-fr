@@ -16,14 +16,16 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 10795c90cb90961c17a4326b71ed43dc72039f2b
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769945"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117423"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Importer les fichiers au format XML avec des attributs facultatifs
+
+[!include [banner](../includes/banner.md)]
 
 Vous pouvez créer des formats de gestion des états électroniques pour analyser les documents électroniques entrants au format XML. Certains attributs des éléments XML peuvent être spécifiés comme facultatifs dans le format ER conçu. Cela vous permet de gérer correctement les fichiers entrants avec ou sans attributs XML. Vous pouvez ensuite utiliser le contenu de ces fichiers pour mettre à jour les données d'application.
 
@@ -52,17 +54,17 @@ Les étapes suivantes expliquent comment un utilisateur dont le rôle est Admini
 7. Cliquez sur **Ajouter**.
 8. Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
 9. Dans le champ **Nom**, tapez « Liste ».
-10. Dans le champ **Type d'article**, sélectionnez **Liste d'enregistrements**.
-11. Cliquez sur **Ajouter**.
-12. Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
-13. Dans le champ **Nom**, tapez « Code ».
-14. Dans le champ **Type d'article**, sélectionnez **Chaîne**.
-15. Cliquez sur **Ajouter**.
-16. Cliquez sur **Enregistrer**.
-17. Fermez la page.
-18. Cliquez sur **Modifier le statut**.
-19. Cliquez sur **Terminé.**
-20. Cliquez sur **OK**.
+10.    Dans le champ **Type d'article**, sélectionnez **Liste d'enregistrements**.
+11.    Cliquez sur **Ajouter**.
+12.    Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
+13.    Dans le champ **Nom**, tapez « Code ».
+14.    Dans le champ **Type d'article**, sélectionnez **Chaîne**.
+15.    Cliquez sur **Ajouter**.
+16.    Cliquez sur **Enregistrer**.
+17.    Fermez la page.
+18.    Cliquez sur **Modifier le statut**.
+19.    Cliquez sur **Terminé.**
+20.    Cliquez sur **OK**.
 
 ## <a name="create-a-format-for-data-import"></a>Créer un format pour l'importation de données
 1. Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue.
@@ -81,32 +83,32 @@ Les étapes suivantes expliquent comment un utilisateur dont le rôle est Admini
 7. Dans l'arborescence, sélectionnez **XML\Élément**.
 8. Dans le champ **Nom**, tapez « Document ».
 9. Dans le champ **Multiplicité**, sélectionnez **Un plusieurs**.
-10. Cliquez sur **OK**.
-11. Dans l'arborescence, sélectionnez **racine\document**.
-12. Cliquez sur **Ajouter** pour ouvrir la boîte de dialogue.
-13. Dans l'arborescence, sélectionnez **XML\Attribut**.
-14. Dans le champ **Nom**, tapez « id ».
-15. Cliquez sur **OK**.
-16. Cliquez sur **Enregistrer**.
+10.    Cliquez sur **OK**.
+11.    Dans l'arborescence, sélectionnez **racine\document**.
+12.    Cliquez sur **Ajouter** pour ouvrir la boîte de dialogue.
+13.    Dans l'arborescence, sélectionnez **XML\Attribut**.
+14.    Dans le champ **Nom**, tapez « id ».
+15.    Cliquez sur **OK**.
+16.    Cliquez sur **Enregistrer**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Concevoir une mise en correspondance de format pour enregistrer les informations analysées dans le modèle de données
-1.  Cliquez sur **Mettre en correspondance avec le modèle**.
-2.  Cliquez sur **Nouveau**.
-3.  Saisissez ou sélectionnez une valeur dans le champ **Définition**.
-4.  Dans le champ **Nom**, tapez « Mise en correspondance ».
-5.  Cliquez sur **Enregistrer**.
-6.  Cliquez sur **Concepteur**.
-7.  Dans l'arborescence, développez **Format**.
-8.  Dans l'arborescence, développez **format\racine : Élément XML (racine)**.
-9.  Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
-10. Cliquez sur **Lier**.
-11. Dans l'arborescence, développez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
-12. Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)\id**.
-13. Dans l'arborescence, développez **Liste = format.root.document**.
-14. Dans l'arborescence, sélectionnez **Liste = format.root.document\Code**.
-15. Cliquez sur **Lier**.
-16. Cliquez sur **Enregistrer**.
-17. Fermez la page.
+1.    Cliquez sur **Mettre en correspondance avec le modèle**.
+2.    Cliquez sur **Nouveau**.
+3.    Saisissez ou sélectionnez une valeur dans le champ **Définition**.
+4.    Dans le champ **Nom**, tapez « Mise en correspondance ».
+5.    Cliquez sur **Enregistrer**.
+6.    Cliquez sur **Concepteur**.
+7.    Dans l'arborescence, développez **Format**.
+8.    Dans l'arborescence, développez **format\racine : Élément XML (racine)**.
+9.    Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
+10.    Cliquez sur **Lier**.
+11.    Dans l'arborescence, développez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
+12.    Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)\id**.
+13.    Dans l'arborescence, développez **Liste = format.root.document**.
+14.    Dans l'arborescence, sélectionnez **Liste = format.root.document\Code**.
+15.    Cliquez sur **Lier**.
+16.    Cliquez sur **Enregistrer**.
+17.    Fermez la page.
 
 ## <a name="run-format-mapping"></a>Exécuter la mise en correspondance des formats
 1. Cliquez sur **Exécuter**.
