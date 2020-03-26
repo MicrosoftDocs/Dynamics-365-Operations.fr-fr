@@ -3,7 +3,7 @@ title: Comparaison des fonctionnalités dans le cloud et sur site
 description: La rubrique indique les fonctionnalités prises en charge dans le cloud et sur site.
 author: sericks007
 manager: AnnBe
-ms.date: 02/24/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
-ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
+ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "3081968"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100280"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparaison des fonctions dans le cloud et sur site
 
@@ -97,10 +97,10 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 | Intégration et gestion des données      |                                                                                           | Oui       | Oui             |
 |                                      | Extension pilotée par la configuration                                                            | Oui       | N°              |
 |                                      | Exportation des données vers votre propre entrepôt de données                                                    | Oui       | Oui             |
-|                                      | Activation de l'exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | Non              |
+|                                      | Activation de l'exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | Oui              |
 |                                      | Intégration de données                                                                         | Oui       | Oui             |
 | Gestion des documents                  |                                                                                           | Oui       | Oui             |
-| ?                                 |                                                                                           | Oui       | Non              |
+| Affiche l'aide                                 |                                                                                           | Oui       | Non              |
 | Intelligence                         |                                                                                           | Oui       | Oui             |
 |                                      | Gestion des états électroniques                                                                 | Oui       | Oui             |
 |                                      | ER : Intégration avec LCS                                                                  | Oui       | Non              |

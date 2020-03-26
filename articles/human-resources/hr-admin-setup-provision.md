@@ -1,6 +1,6 @@
 ---
-title: Mise à disposition de Human Resources
-description: ''
+title: Mettre en service Human Resources
+description: Cet article décrit le processus de mise à disposition d'un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/18/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071612"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092244"
 ---
-# <a name="provision-human-resources"></a>Mise à disposition de Human Resources
+# <a name="provision-human-resources"></a>Mettre en service Human Resources
 
 Cet article décrit le processus de mise à disposition d'un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources. Cet article suppose que vous avez acheté Human Resources par l'intermédiaire d'un fournisseur de solutions Cloud (CSP) ou dans le cadre d'un contrat d'architecture d'entreprise (EA). Si vous disposez d'une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Human Resources et que vous ne pouvez pas effectuer les étapes décrites dans cet article, contactez le support technique.
 

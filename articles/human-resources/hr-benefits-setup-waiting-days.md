@@ -1,6 +1,6 @@
 ---
-title: Configuration des jours d'attente
-description: ''
+title: Configurer les jours d'attente
+description: Dans Microsoft Dynamics 365 Human Resources, les jours d'attente établissent un jalon mensuel à utiliser pour les régimes d'avantages.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a17ba895951b02032fa563afa7b8077cecd3672
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a46f296722317f4815bf6b2cb8960455cecee110
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009071"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092431"
 ---
-# <a name="configure-waiting-days"></a>Configuration des jours d'attente
+# <a name="configure-waiting-days"></a>Configurer les jours d'attente
 
 [!include [banner](includes/preview-feature.md)]
 

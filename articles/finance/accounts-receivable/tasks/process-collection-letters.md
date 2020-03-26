@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177762"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106857"
 ---
 # <a name="process-collection-letters"></a>Traiter les lettres de relance
 
@@ -70,7 +70,11 @@ Cette rubrique indique comment créer, imprimer et valider les lettres de relanc
     1. Dans le champ **Imprimé**, sélectionnez une option.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Contrôler les lettres de relance au niveau du client
-Vous pouvez également paramétrer des lettres de relance au niveau du client afin que le code lettre de relance de chaque transaction soit suivi, mais le processus de lettre de relance sera basé sur un niveau de lettre de relance unique stocké pour le client. La lettre de relance unique contiendra toutes les transactions en retard pour le client. Comme les jours de grâce sont désormais suivis au niveau du client, la prochaine lettre de relance ne sera pas envoyée tant que le nombre de jours de grâce ne sera pas dépassé pour la lettre de relance suivante de la série, même si les transactions sont en retard après l'envoi de la dernière lettre de relance. Cette option permet de réduire le nombre de lettres de relance que vous envoyez par client. 
+Si des lettres de relance sont configurées au niveau de la transaction, plusieurs lettres peuvent être générées pour un client, en fonction de l'âge de la transaction. Si les transactions apparaissent dans différentes séries de lettres, des lettres de relance distinctes seront générées pour chaque groupe de transactions en retard pour le client. Par conséquent, chaque client peut recevoir, par exemple, une lettre de relance pour les transactions en retard de 60 jours et une autre lettre de relance pour les transactions en retard de 90 jours. 
+
+Chaque lettre de relance est également associée à un code de lettre de relance. Le code de lettre de relance est associé à des transactions individuelles et est utilisé pour déterminer quand la prochaine lettre de relance doit être générée pour chaque transaction. Par exemple, si une transaction est en retard de plus de 30 jours, le code de la lettre de relance détermine que la prochaine lettre de relance sera envoyée lorsque la transaction sera en retard de 60 jours, si elle n'est pas payée avant. 
+
+Les lettres de relance peuvent également être configurées au niveau du client. Dans ce cas, le code lettre de relance de chaque transaction est suivi, mais le processus de lettre de relance sera basé sur un niveau de lettre de relance unique stocké pour le client. La lettre de relance unique contiendra toutes les transactions en retard pour le client. Comme les jours de grâce sont désormais suivis au niveau du client, la prochaine lettre de relance ne sera pas envoyée tant que le nombre de jours de grâce ne sera pas dépassé pour la lettre de relance suivante de la série, même si les transactions sont en retard après l'envoi de la dernière lettre de relance. Cette option permet de réduire le nombre de lettres de relance que vous devez envoyer à chaque client.
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Paramétrer le client pour contrôler les lettres de relance au niveau du client
 1.  Accédez au **Volet de navigation > Modules > Crédit et relances > Paramétrage > Paramètres de la comptabilité client** et sélectionnez l'onglet **Recouvrements**. 

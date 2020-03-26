@@ -3,7 +3,7 @@ title: Déploiement d'un nouveau client de commerce électronique
 description: Cette rubrique décrit la procédure de déploiement d'un client de commerce électronique à l'aide de Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001781"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096676"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Déploiement d'un nouveau client de commerce électronique
 
@@ -97,11 +97,19 @@ Pour accéder au générateur de site, accédez à l'onglet **Commerce électro
 
 [Création d'un site de commerce électronique](create-ecommerce-site.md)
 
+[Paramétrer un canal de magasin en ligne](online-stores.md)
+
 [Association d'un site en ligne avec un canal](associate-site-online-store.md)
 
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
+[Importer des redirections d'URL en bloc](upload-bulk-redirects.md)
+
+[Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
+
 [Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
+
+[Configurer plusieurs locataires B2C dans un environnement Commerce](configure-multi-B2C-tenants.md)
 
 [Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 

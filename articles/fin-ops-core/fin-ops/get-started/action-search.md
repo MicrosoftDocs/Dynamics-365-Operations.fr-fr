@@ -3,7 +3,7 @@ title: Recherche d'actions
 description: Cet article décrit la fonctionnalité de recherche d'actions. La recherche d'actions vous aide à rechercher et à exécuter des actions sur une page.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01247aa356625cb759306e5ead2afd3cdeb840f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bd4d81f010149c762dac0f4e6fa912c2e2cef072
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191314"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112166"
 ---
 # <a name="action-search"></a>Recherche d'actions
 
@@ -69,6 +69,9 @@ Par exemple, vous avez tapé **tot** dans le champ **recherche d'actions** et vo
 Dans l'exemple précédent, la recherche d'action a donné les résultats du volet Actions standard en haut d'une page. Toutefois, la recherche d'actions montre également les résultats des barres d'outils visibles qui sont situées dans d'autres endroits de la page. Par exemple, vous recherchez le bouton **Stock disponible** situé dans l'organisateur **Lignes de commande client**. Dans ce cas, le chemin d'accès du bouton dans la liste des résultats (**Lignes de commande client** &gt; **Stock** &gt; **Afficher**) vous informe que ce bouton est situé sous l'en-tête **Afficher** du bouton de menu **Stock** dans l'organisateur **Lignes de commande client**.
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+
+> [!NOTE]
+> Certains boutons n'apparaissent pas dans la recherche d'actions. Il s'agit notamment des boutons du menu déroulant et des boutons des sous-formulaires. 
 
 ## <a name="action-search-vs-navigation-search"></a>Recherche d'actions/recherche de navigation
 

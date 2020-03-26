@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081313"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113780"
 ---
 # <a name="channel-setup-prerequisites"></a>Conditions préalables au paramétrage du canal
 
@@ -47,9 +47,9 @@ Avant qu'un canal Dynamics 365 Commerce puisse être créé, plusieurs tâches 
 - [Définissez et configurez votre structure d'entité juridique](channels-legal-entities.md) 
 - [Configurer votre hiérarchie d'organisation](channels-org-hierarchies.md)
 - [Paramétrer un entrepôt](channels-setup-warehouse.md)
-- [Configurer la taxe de vente](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [Configurer la taxe de vente](../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json)
 - [Paramétrer un profil de notification par e-mail](email-notification-profiles.md)
-- [Définir des souches de numéros](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [Définir des souches de numéros](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json)
 - [Paramétrer un client et un carnet d'adresses par défaut](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)

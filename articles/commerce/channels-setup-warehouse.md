@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057854"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113757"
 ---
 # <a name="warehouse-set-up"></a>Paramétrer un entrepôt
 
@@ -33,7 +33,7 @@ Cette rubrique décrit comment paramétrer un entrepôt à utiliser avec un nouv
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Chaque canal Commerce requiert un entrepôt configuré pour lui être associé. Les procédures suivantes fournissent la configuration minimale requise pour paramétrer un entrepôt pour un canal Commerce. Pour plus d'informations sur le paramétrage de l'entrepôt, veuillez consulter la [Vue d'ensemble de gestion des entrepôts](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview).
+Chaque canal Commerce requiert un entrepôt configuré pour lui être associé. Les procédures suivantes fournissent la configuration minimale requise pour paramétrer un entrepôt pour un canal Commerce. Pour plus d'informations sur le paramétrage de l'entrepôt, veuillez consulter la [Vue d'ensemble de gestion des entrepôts](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="configure-a-warehouse-site"></a>Configurer un site d'entrepôt
 
@@ -131,7 +131,7 @@ L'image suivante montre les détails d'un entrepôt configuré.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble de gestion des entrepôts](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview)
+[Vue d'ensemble de gestion des entrepôts](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
 [Présentation des canaux](channels-overview.md)
 

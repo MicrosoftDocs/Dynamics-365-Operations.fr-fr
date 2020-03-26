@@ -3,7 +3,7 @@ title: Vue d'ensemble des tâches d'importation et d'exportation de données
 description: L'espace de travail Gestion des données vous permet de créer et de gérer des tâches d'importation et d'exportation de données.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184552"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124610"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d'ensemble de tâches d'importation et d'exportation de données
 
@@ -191,8 +191,11 @@ Lors de la planification du processus de nettoyage, les paramètres suivants doi
 
 -   **Nombre de jours pour conserver l'historique** – Ce paramètre permet de contrôler la quantité d’historique d’exécution à préserver. Il s'agit d'un nombre de jours spécifié. Lorsque la tâche de nettoyage est planifiée en tant que traitement par lots récurrent, ce paramètre agira comme une fenêtre continuellement en mouvement, laissant ainsi l'historique intact pour le nombre de jours spécifié, tout en supprimant le reste. La valeur par défaut est 7 jours.
 
--   **Nombre d'heures pour exécuter la tâche** – Selon la quantité d’historique à nettoyer, le temps total d’exécution de la tâche de nettoyage peut varier de quelques minutes à quelques heures. Comme le nettoyage des tables mentionnées doit être effectué lorsqu'il n'y a aucune autre activité de gestion de données dans le système, il devient important de s'assurer que le travail de nettoyage s'exécute et se termine avant le début des activités.
+-   **Nombre d'heures pour exécuter la tâche** – Selon la quantité d’historique à nettoyer, le temps total d’exécution de la tâche de nettoyage peut varier de quelques minutes à quelques heures. Ce paramètre doit être défini sur le nombre d'heures d'exécution de la tâche. Une fois la tâche de nettoyage exécutée pour le nombre d'heures spécifié, elle va se fermer et reprendre le nettoyage lors de sa prochaine exécution en fonction de la périodicité.
 
     Vous pouvez spécifier une durée d'exécution maximale en définissant une limite maximale sur le nombre d'heures d'exécution du travail à l'aide de ce paramètre. La logique de nettoyage passe en revue un ID d'exécution de travail à la fois, dans une séquence classée dans l'ordre chronologique, le plus ancien étant le premier pour le nettoyage de l'historique d'exécution associé. Il arrêtera de sélectionner les nouveaux ID d’exécution à nettoyer lorsque la durée restante d’exécution sera comprise dans les 10 % restants de la durée spécifiée. Dans certains cas, il est à prévoir que la tâche de nettoyage se poursuivra au-delà de la durée maximale spécifiée. Cela dépendra en grande partie du nombre d'enregistrements à supprimer pour l'ID d'exécution en cours qui a été démarré avant que le seuil de 10% ne soit atteint. Le nettoyage qui a été lancé doit être terminé pour garantir l’intégrité des données, ce qui signifie que le nettoyage se poursuivra malgré le dépassement de la limite spécifiée. Une fois cette opération terminée, les nouveaux ID d’exécution ne sont pas récupérés et le travail de nettoyage est terminé. L’historique d’exécution restant, qui n’a pas été nettoyé faute de temps d’exécution suffisant, sera récupéré lors de la prochaine planification du travail de nettoyage. La valeur par défaut et la valeur minimale pour ce paramètre est définie sur 2 heures.
 
 -   **Traitement par lots récurrent** – Le travail de nettoyage peut être exécuté en tant qu'exécution manuelle unique ou peut également être planifié pour une exécution récurrente par lot. Le traitement par lots peut être planifié à l'aide des paramètres **Exécuter à l'arrière-plan**, qui est le paramétrage de traitement par lots standard.
+
+> [!NOTE]
+> Si les enregistrements des tables intermédiaires ne sont pas complètement nettoyés, assurez-vous que la tâche de nettoyage est planifiée pour s'exécuter périodiquement. Comme expliqué ci-dessus, lors de l'exécution du nettoyage, la tâche va nettoyer autant d'ID d'exécution que possible dans le nombre maximal d'heures indiqué. Pour continuer le nettoyage des enregistrements intermédiaires restants, la tâche doit être planifiée pour s'exécuter périodiquement.

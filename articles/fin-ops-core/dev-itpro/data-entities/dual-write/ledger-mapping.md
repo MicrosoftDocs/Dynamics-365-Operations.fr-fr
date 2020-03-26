@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6bf1c554f56c1424da9fde98f67f80a6b7c95461
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: d9bcec1d4bb0207a2c3e0d46f7661b666fea3736
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019779"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112212"
 ---
 # <a name="integrated-ledger"></a>Comptabilité intégrée
 
@@ -38,22 +38,22 @@ Dans une application d'entreprise, les données de comptabilité définissent la
 
 Les données comptables comprennent un ensemble de mappages d'entités financières de base qui fonctionnent ensemble pendant l'interaction des données client, comme indiqué dans le tableau suivant.
 
-Applications Finance and Operations      | Autres applications Dynamics 365
----------------------------------|---------------------------------
-Devises                       | transactioncurrencies
-FiscalCalendar                   | msdyn\_fiscalcalendars
-FiscalCalendarYear               | msdyn\_fiscalcalendaryears
-ExchRateType                     | msdyn\_exchangeratetypes
-ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs
-FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods
-MainAccountCategory              | msdyn\_mainaccountcategory
-MainAccount                      | msdyn\_mainaccounts
-Comptabilité                           | msdyn\_ledgers
-ExchangeRates                    | msdyn\_currencyexchangerates
-FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods
-DimensionAttributeEntity         | msdyn\_dimensionattributes.md
-DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats.md
-LedgerChartOfAccounts            | msdyn\_chartofaccounts.md
+Applications Finance and Operations      | Application pilotée par modèle dans Dynamics 365 | Description 
+---------------------------------|----------------------------------|------------
+Devises                       | transactioncurrencies            |
+FiscalCalendar                   | msdyn\_fiscalcalendars        |
+FiscalCalendarYear               | msdyn\_fiscalcalendaryears        |
+ExchRateType                     | msdyn\_exchangeratetypes        |
+ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs        |
+FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods        |
+MainAccountCategory              | msdyn\_mainaccountcategory        |
+MainAccount                      | msdyn\_mainaccounts        |
+Comptabilité                           | msdyn\_ledgers        |
+ExchangeRates                    | msdyn\_currencyexchangerates        |
+FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods        |
+DimensionAttributeEntity         | msdyn\_dimensionattributes        |
+DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats        |
+LedgerChartOfAccounts            | msdyn\_chartofaccounts        |
 
 
 [!include [banner](../../includes/dual-write-symbols.md)]

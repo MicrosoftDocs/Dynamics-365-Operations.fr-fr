@@ -1,9 +1,9 @@
 ---
-title: Syntaxe de requête et de filtrage avancé
-description: Cet article décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l'opérateur de correspondances dans le volet Filtre ou les filtres d'en-tête de colonne de la grille.
+title: Syntaxe de requête et de filtrage avancée
+description: Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l'opérateur de correspondances dans le volet Filtre ou les filtres d'en-tête de colonne de la grille.
 author: jasongre
 manager: AnnBe
-ms.date: 01/02/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
-ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
+ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "2931286"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112189"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancée
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l'opérateur de **correspondances** dans le volet Filtre ou les filtres d'en-tête de colonne de la grille.
+Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l'opérateur de **correspondances** dans le volet Filtre ou les filtres d'en-tête de colonne de la grille.
 
 ## <a name="advanced-query-syntax"></a>Syntaxe de requête avancée
 
@@ -122,10 +122,11 @@ Cet article décrit les options de filtrage et de requête disponibles lorsque v
 <td>Deux guillemets consécutifs (<strong>""</strong>) permettent de rechercher des lignes sans valeur pour la colonne actuelle.</td>
 </tr>
 <tr>
-<td>(<span class="code">Instruction SQL</span>) (instructions SQL entre parenthèses)</td>
+<td>(<span class="code">Requête Finance and Operations</span>) (Requête Finance and Operations entre parenthèses)</td>
 <td>Correspond à une requête définie.</td>
-<td>Tapez une instruction SQL entre parenthèses comme requête.</td>
-<td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
+<td>Tapez une requête en tant qu'instruction SQL entre parenthèses à l'aide du langage de requête Finance and Operations.</td>
+  <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
+       en tant que syntaxe pour une condition de filtre sur un champ à partir de la source de données racine ainsi qu'un champ d'une autre source de données (pour la page Tous les clients)</td>
 </tr>
 <tr>
 <td>Ma</td>

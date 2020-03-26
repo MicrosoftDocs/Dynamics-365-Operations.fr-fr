@@ -24,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Appliquer des mises à jour à des environnements cloud
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Appliquer des mises à jour à des déploiements sur site
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Suspendre les mises à jour de service
@@ -68,14 +70,16 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d'accueil Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: "Supply Chain Management version\_10.0.9 (avril\_2020)"
+                    - name: "Supply\_Chain\_Management version\_10.0.9 (avril\_2020)"
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: "Supply Chain Management version\_10.0.8 (février\_2020)"
+                    - name: "Supply\_Chain\_Management version\_10.0.8 (février\_2020)"
                       href: get-started/whats-new-scm-10-0-8.md
-                    - name: "Supply Chain Management version\_10.0.7 (janvier\_2020)"
-                      href: get-started/whats-new-scm-10-0-7.md
                 - name: Fonctions supprimées ou obsolètes
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                  items:
+                    - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Fonctions supprimées ou obsolètes dans les versions précédentes
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: "Fonctions d'AX\_2012 ayant été reportées"
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Fonctions non implémentées dans les déploiements locaux

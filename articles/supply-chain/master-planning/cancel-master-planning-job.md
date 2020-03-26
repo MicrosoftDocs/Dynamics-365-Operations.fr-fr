@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 66d5b10e1471b98274d4049df18a2e53873f789a
-ms.sourcegitcommit: 92cd55028be556a0bd41b6972c9c6d14b695dfa0
+ms.openlocfilehash: c04e2b2c0e5d7f28ea688578b3e1d7a1e1d9f6d3
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947478"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117446"
 ---
 # <a name="cancel-a-master-planning-job"></a>Annuler une tâche de planification
+
+[!include [banner](../includes/banner.md)]
 
 Dans Microsoft Dynamics 365 Supply Chain Management, il existe plusieurs options pour annuler un travail de planification. Par exemple, vous souhaiterez peut-être annuler une tâche de planification si elle a été démarrée par erreur ou s’exécute plus longtemps que prévu et que vous souhaitez y mettre fin. La meilleure façon d'annuler un travail de planification se trouve sur la page **Processus de planification inachevés**. Les options alternatives aux pages **Traitement par lots** et **Traitement par lots améliorés** ne doivent être utilisées que si l'annulation de la tâche de planification de la page **Processus de planification inachevés** ne s'est pas terminée en quelques minutes.
 

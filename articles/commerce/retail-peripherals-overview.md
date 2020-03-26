@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 14c6f7aaab4c6e4f099f47210f4d89fdfcd33d79
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030841"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124403"
 ---
 # <a name="peripherals"></a>Périphériques
 
 [!include[banner](includes/banner.md)]
 
-Cette rubrique explique les concepts relatifs aux périphériques de magasin de vente au détail. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV.
+Cette rubrique explique les concepts relatifs aux périphériques de magasin. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV.
 
 ## <a name="concepts"></a>Concepts
 
@@ -65,7 +65,7 @@ Les périphériques de PDV sont des périphériques qui sont explicitement pris 
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Canaux** &gt; **Magasins de vente au détail** &gt; **Tous les magasins de vente au détail**. Sélectionnez un magasin, puis cliquez sur l'organisateur **Stations matérielles**. Le paramètre **Station matérielle** est un paramètre de niveau canal utilisé pour définir des instances où la logique de périphérique de vente au détail doit être déployée. Ce paramètre au niveau du canal sert à déterminer les spécifications de la station matérielle. Il permet également de répertorier les stations matérielles disponibles pour une instance de Modern POS dans un magasin donné. La station matérielle est intégrée dans les programmes Modern POS pour Windows et Android. La station matérielle peut également être déployée indépendamment en tant que programme Microsoft IIS autonome. Dans ce cas, elle est accessible par le réseau.
+Navigation : cliquez sur **Commerce et vente au détail** &gt; **Canaux** &gt; **Magasins** &gt; **Tous les magasins**. Sélectionnez un magasin, puis cliquez sur l'organisateur **Stations matérielles**. Le paramètre **Station matérielle** est un paramètre de niveau canal utilisé pour définir des instances où la logique de périphérique doit être déployée. Ce paramètre au niveau du canal sert à déterminer les spécifications de la station matérielle. Il permet également de répertorier les stations matérielles disponibles pour une instance de Modern POS dans un magasin donné. La station matérielle est intégrée dans les programmes Modern POS pour Windows et Android. La station matérielle peut également être déployée indépendamment en tant que programme Microsoft IIS autonome. Dans ce cas, elle est accessible par le réseau.
 
 ### <a name="hardware-profile"></a>Profil matériel
 
@@ -117,27 +117,30 @@ La prise en charge des périphériques de paiement est implémentée par l'inter
 ## <a name="supported-interfaces"></a>Interfaces prises en charge
 ### <a name="opos"></a>OPOS
 
-Pour permettre d'utiliser la plus large gamme possible de périphériques avec Commerce, la norme OLE pour le secteur des PDV est la principale plateforme de périphériques de vente au détail prise en charge. La norme OLE pour le secteur des PDV a été produite par NRF (National Retail Federation), qui établit les protocoles de transmission standard pour les périphériques de vente au détail. OPOS est une implémentation largement adoptée de la norme OLE pour le secteur des PDV. Il a été développé dans le milieu des années 1990 et a depuis lors été plusieurs fois actualisé. OPOS fournit une architecture de pilote de périphérique qui permet l'intégration facile des matériels de PDV avec les systèmes de PDV fondés sur Windows. Les contrôles OPOS gèrent les communications entre les matériels compatibles et le logiciel de PDV. Un contrôle OPOS est composé de deux parties :
+Pour permettre d'utiliser la plus large gamme possible de périphériques avec Commerce, la norme OLE pour le secteur des PDV est la principale plateforme de périphériques prise en charge. La norme OLE pour le secteur des PDV a été produite par NRF (National Retail Federation), qui établit les protocoles de transmission standard pour les périphériques. OPOS est une implémentation largement adoptée de la norme OLE pour le secteur des PDV. Il a été développé dans le milieu des années 1990 et a depuis lors été plusieurs fois actualisé. OPOS fournit une architecture de pilote de périphérique qui permet l'intégration facile des matériels de PDV avec les systèmes de PDV fondés sur Windows. Les contrôles OPOS gèrent les communications entre les matériels compatibles et le logiciel de PDV. Un contrôle OPOS est composé de deux parties :
 
 -   **Objet de contrôle** – L'objet de contrôle pour une classe de périphérique (comme une ligne d'affichage) fournit l'interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d'objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant PDV de Commerce. Par conséquent, les tests garantissent que, si Commerce prend en charge une classe de périphériques par OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n'est pas nécessaire de tester explicitement chaque type de périphérique.
 -   **Objet de service** – L'objet de service fournit les communications entre l'objet de contrôle (CCO) et le périphérique. Généralement, l'objet de service pour un périphérique est fourni par le fabricant de celui-ci. Toutefois, dans certains cas, vous devez télécharger l'objet de service à partir du site web du fabricant. Par exemple, il peut s'y trouver un objet de service plus récent disponible. Pour trouver l'adresse du site Web du fabricant, consultez la documentation de votre matériel.
 
-[![Objet de contrôle et objet de service](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La prise en compte de la norme OLE pour la mise en œuvre d'OPOS pour le PDV garantit que, si les fabricants de périphérique et les éditeurs de PDV mettent en œuvre la norme correctement, les systèmes de PDV et les périphériques pris en charge peuvent fonctionner ensemble, même s'ils n'ont pas été préalablement testés ensemble. **Remarque :** la prise en charge d'OPOS ne garantit pas la prise en charge de tous les périphériques OPOS. Microsoft Dynamics 365 for Retail doit d'abord prendre en charge ce type de périphérique, ou la classe, via OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.
+[![Objet de contrôle et objet de service](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La prise en compte de la norme OLE pour la mise en œuvre d'OPOS pour le PDV garantit que, si les fabricants de périphérique et les éditeurs de PDV mettent en œuvre la norme correctement, les systèmes de PDV et les périphériques pris en charge peuvent fonctionner ensemble, même s'ils n'ont pas été préalablement testés ensemble. 
+
+> [!NOTE]
+> La prise en charge d'OPOS ne garantit pas la prise en charge de tous les périphériques dotés de pilotes OPOS. Commerce doit d'abord prendre en charge ce type de périphérique, ou la classe, via OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.
 
 ### <a name="windows"></a>Windows
 
-L'impression de tickets au PDV est optimisée pour OPOS. L'impression via OPOS tend à être beaucoup plus rapide que l'impression via Windows. Par conséquent, il est conseillé d'utiliser OPOS, en particulier dans les environnements au détail où l'on imprime des tickets à 40 colonnes et où les délais de transaction doivent être rapides. Pour la plupart des périphériques, vous utiliserez des contrôles OPOS. Toutefois, certaines imprimantes de tickets OPOS prennent également en charge les pilotes Windows. En utilisant un pilote Windows, vous pouvez accéder aux polices les plus récentes et mettre en réseau une seule imprimante pour plusieurs registres. Toutefois, il y a des inconvénients à utiliser les pilotes Windows. Voici quelques exemples de ces inconvénients :
+L'impression de tickets au PDV est optimisée pour OPOS. L'impression via OPOS tend à être beaucoup plus rapide que l'impression via Windows. Par conséquent, il est conseillé d'utiliser OPOS, en particulier dans les environnements où l'on imprime des tickets à 40 colonnes et où les délais de transaction doivent être rapides. Pour la plupart des périphériques, vous utiliserez des contrôles OPOS. Toutefois, certaines imprimantes de tickets OPOS prennent également en charge les pilotes Windows. En utilisant un pilote Windows, vous pouvez accéder aux polices les plus récentes et mettre en réseau une seule imprimante pour plusieurs registres. Toutefois, il y a des inconvénients à utiliser les pilotes Windows. Voici quelques exemples de ces inconvénients :
 
 -   lors de l'utilisation des pilotes Windows, les images sont rendues avant l'impression. Par conséquent, l'impression tend à être plus lente que sur les imprimantes qui utilisent les contrôles OPOS.
 -   Les périphériques connectés par l'imprimante (« en guirlande ») peuvent ne pas fonctionner correctement lors de l'utilisation des pilotes Windows. Par exemple, la caisse enregistreuse peut ne pas s'ouvrir, ou l'imprimante de bordereau peut ne pas fonctionner comme prévu.
--   OPOS prend également en charge un ensemble plus étendu de variables spécifiques aux imprimantes de tickets de vente au détail, telles que l'impression de bordereau ou la coupe du papier.
+-   OPOS prend également en charge un ensemble plus étendu de variables spécifiques aux imprimantes de tickets, telles que l'impression de bordereau ou la coupe du papier.
 -   Les imprimantes Windows ne sont pas prises en charge par la station matérielle IIS. 
 
 Si les contrôles OPOS sont disponibles pour l'imprimante Windows que vous utilisez, l'imprimante doit encore fonctionner correctement avec Commerce.
 
 ### <a name="universal-windows-platform"></a>Universal Windows Platform
 
-UWP (Universal Windows Platform), dans le cas des périphériques de vente au détail, est liée à la prise en charge Windows des périphériques plug-and-play. Lorsqu'un périphérique plug-and-play est connecté à une version de SE Windows qui prend en charge ce type de périphérique, aucun pilote n'est nécessaire pour que le périphérique fonctionne comme prévu. Par exemple, si Windows détecte un périphérique de haut-parleur Bluetooth, le SE sait que le périphérique est du type de classe **Haut-parleur**. Par conséquent, il traite ce périphérique comme un haut-parleur. Aucune configuration supplémentaire n'est requise. Dans le cas de périphériques de PDV, il est possible de connecter de nombreux périphériques USB, et Windows les reconnaît comme périphériques HID (Human Interface Device). Toutefois, il peut ne pas pouvoir déterminer les fonctionnalités assurées par le périphérique, parce que celui-ci ne spécifie pas sa classe ou son type. Dans Windows 10, les classes de périphérique pour les lecteurs de code-barres et les LBM ont été ajoutés. Par conséquent, si un périphérique se déclare à Windows 10 comme périphérique d'une de ces classes, Windows détectera les événements du périphérique en temps opportun. Modern POS prend en charge les LBM et les lecteurs UWP. Par conséquent, lorsqu'il est prêt à recevoir l'entrée de l'un de ces périphériques, et qu'un périphérique qui appartient à une de ces classes est connecté, le périphérique peut être utilisé. Par exemple, si un lecteur de codes-barres UWP est branché à un ordinateur Windows 10, et que la connexion de code-barres est configurée pour Modern POS, le lecteur de code-barres devient actif dans l'écran de connexion. Aucune configuration supplémentaire n'est requise. D'autres classes supplémentaires de périphériques UWP de point de service sont en cours d'ajout à Windows. Ces classes incluent des classes pour les caisses enregistreuses et les imprimantes de tickets. La prise en charge de ces nouvelles classes de périphérique dans Modern POS est en attente.
+UWP, dans le cas des périphériques, est liée à la prise en charge Windows des périphériques plug-and-play. Lorsqu'un périphérique plug-and-play est connecté à une version de SE Windows qui prend en charge ce type de périphérique, aucun pilote n'est nécessaire pour que le périphérique fonctionne comme prévu. Par exemple, si Windows détecte un périphérique de haut-parleur Bluetooth, le SE sait que le périphérique est du type de classe **Haut-parleur**. Par conséquent, il traite ce périphérique comme un haut-parleur. Aucune configuration supplémentaire n'est requise. Dans le cas de périphériques de PDV, il est possible de connecter de nombreux périphériques USB, et Windows les reconnaît comme périphériques HID (Human Interface Device). Toutefois, il peut ne pas pouvoir déterminer les fonctionnalités assurées par le périphérique, parce que celui-ci ne spécifie pas sa classe ou son type. Dans Windows 10, les classes de périphérique pour les lecteurs de code-barres et les LBM ont été ajoutés. Par conséquent, si un périphérique se déclare à Windows 10 comme périphérique d'une de ces classes, Windows détectera les événements du périphérique en temps opportun. Modern POS prend en charge les LBM et les lecteurs UWP. Par conséquent, lorsqu'il est prêt à recevoir l'entrée de l'un de ces périphériques, et qu'un périphérique qui appartient à une de ces classes est connecté, le périphérique peut être utilisé. Par exemple, si un lecteur de codes-barres UWP est branché à un ordinateur Windows 10, et que la connexion de code-barres est configurée pour Modern POS, le lecteur de code-barres devient actif dans l'écran de connexion. Aucune configuration supplémentaire n'est requise. D'autres classes supplémentaires de périphériques UWP de point de service sont en cours d'ajout à Windows. Ces classes incluent des classes pour les caisses enregistreuses et les imprimantes de tickets. La prise en charge de ces nouvelles classes de périphérique dans Modern POS est en attente.
 
 ### <a name="keyboard-wedge"></a>Clavier wedge
 
@@ -155,13 +158,13 @@ Les caisses enregistreuses adressables en réseau, les imprimantes de tickets et
 
 ### <a name="dedicated"></a>Dédié(e)
 
-Les clients Modern POS pour Windows et Android comprennent des stations matérielles intégrées ou **dédiées**. Ces clients peuvent communiquer directement avec les périphériques à l'aide d'une logique métier intégrée aux applications. L'application Android ne prend en charge que les périphériques réseau. Pour plus d'informations sur la prise en charge de périphériques pour Android, consultez l'article (Configurer l'application POS Hybrid sur Android et iOS)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp].
+Les clients Modern POS pour Windows et Android comprennent des stations matérielles intégrées ou **dédiées**. Ces clients peuvent communiquer directement avec les périphériques à l'aide d'une logique métier intégrée aux applications. L'application Android ne prend en charge que les périphériques réseau. Pour plus d'informations sur la prise en charge de périphériques pour Android, consultez l'article [Configurer l'application POS Hybrid sur Android et iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
 
 Pour utiliser la station matérielle dédiée, affectez un profil matériel à un registre qui utilise Modern POS pour les applications Windows ou Android. Créez ensuite une station matérielle du type **Dédié** pour le magasin où le registre sera utilisé. Démarrez Modern POS en mode sans tiroir et utilisez l'opération **Gérer les stations matérielles** pour activer les capacités de la station matérielle, la station matérielle dédiée est active par défaut. Ensuite, déconnectez-vous de Modern POS, puis reconnectez-vous et ouvrez une équipe de travail et les périphériques configurés dans le profil matériel sont utilisables. 
 
 ### <a name="shared"></a>Partagé(e) 
 
-Également parfois appelée station matérielle IIS, « IIS » impliquant que l'application POS se connecte à la station matérielle via Microsoft Internet Information Services. L'application de PDV se connecte à la station matérielle IIS via les services Web qui s'exécutent sur un ordinateur où les périphériques sont connectés. Si la station matérielle partagée est utilisé, les périphériques de vente au détail associés à une station matérielle peuvent être utilisés par n'importe quel registre de PDV situé sur le même réseau que la station matérielle IIS. Étant donné que seul Modern POS pour Windows et Android inclut la prise en charge intégrée des périphériques de vente au détail, toutes les autres applications Modern POS doivent utiliser la station matérielle IIS pour communiquer avec les périphériques de PDV configurés dans le profil matériel. Par conséquent, chaque instance de la station matérielle IIS nécessite un ordinateur qui exécute le service Web et l'application qui communique avec les périphériques. 
+Également parfois appelée station matérielle IIS, « IIS » impliquant que l'application POS se connecte à la station matérielle via Microsoft Internet Information Services. L'application de PDV se connecte à la station matérielle IIS via les services Web qui s'exécutent sur un ordinateur où les périphériques sont connectés. Si la station matérielle partagée est utilisée, les périphériques associés à une station matérielle peuvent être utilisés par n'importe quelle caisse enregistreuse de PDV située sur le même réseau que la station matérielle IIS. Étant donné que seul Modern POS pour Windows et Android inclut la prise en charge intégrée des périphériques, toutes les autres applications Modern POS doivent utiliser la station matérielle IIS pour communiquer avec les périphériques de PDV configurés dans le profil matériel. Par conséquent, chaque instance de la station matérielle IIS nécessite un ordinateur qui exécute le service Web et l'application qui communique avec les périphériques. 
 
 La station matérielle partagée peut être utilisée pour autoriser plusieurs clients de point de vente à partager les périphériques ou peut être utilisée pour gérer un ensemble validé ou des périphériques pour un seul point de vente. 
 
@@ -179,7 +182,7 @@ La désignation réseau des périphériques dans le profil matériel permet que 
 
 #### <a name="modern-pos-for-windows"></a>Modern POS pour Windows
 
-Vous pouvez spécifier l'adresse IP des périphériques réseau à deux endroits. Si le client Modern POS Windows utilise un seul ensemble de périphériques réseau, vous devez définir les adresse IP de ces périphériques à l'aide de l'option **Configuration IP** dans le volet Actions pour le registre lui-même. Dans le cas de périphériques réseau qui doivent être partagés entre les registres de PDV, un profil matériel ayant des périphériques réseau attribués peut être mis en correspondance directement avec une station matérielle partagée. Pour affecter les adresse IP, sélectionnez la station matérielle dans la page **Magasins**, puis utilisez l'option **Configuration IP** dans la section **Stations matérielles** pour spécifier les périphériques réseau affectés à cette station matérielle. Pour les stations matérielles qui n'ont que des périphériques réseau, vous n'avez pas à déployer la station matérielle elle-même. Dans ce cas, la station matérielle est requise uniquement pour regrouper conceptuellement les périphériques adressables en réseau en fonction de leur emplacement dans le magasin de vente au détail.
+Vous pouvez spécifier l'adresse IP des périphériques réseau à deux endroits. Si le client Modern POS Windows utilise un seul ensemble de périphériques réseau, vous devez définir les adresse IP de ces périphériques à l'aide de l'option **Configuration IP** dans le volet Actions pour le registre lui-même. Dans le cas de périphériques réseau qui doivent être partagés entre les registres de PDV, un profil matériel ayant des périphériques réseau attribués peut être mis en correspondance directement avec une station matérielle partagée. Pour affecter les adresse IP, sélectionnez la station matérielle dans la page **Magasins**, puis utilisez l'option **Configuration IP** dans la section **Stations matérielles** pour spécifier les périphériques réseau affectés à cette station matérielle. Pour les stations matérielles qui n'ont que des périphériques réseau, vous n'avez pas à déployer la station matérielle elle-même. Dans ce cas, la station matérielle est requise uniquement pour regrouper conceptuellement les périphériques adressables en réseau en fonction de leur emplacement dans le magasin.
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>PDV cloud et Modern POS pour iOS
 
@@ -192,11 +195,11 @@ Pour plus d'informations, voir [Configurer et installer la station matérielle](
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Paramétrage et configuration de Modern POS pour Windows
 
-Pour plus d'informations, voir [Configurer, installer et activer Retail Modern POS](retail-modern-pos-device-activation.md).
+Pour plus d'informations, voir [Configurer, installer et activer Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Paramétrage et configuration de Modern POS pour Windows et Android
 
-Pour plus d'informations, voir (Configurer l'application POS Hybrid sur Android et iOS)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp].
+Pour plus d'informations, voir [Configurer l'application POS Hybrid sur Android et iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>Paramétrage et configuration de périphérique OPOS
 
@@ -283,14 +286,14 @@ Les périphériques réseau peuvent être pris en charge directement par la stat
 <td>Créateur</td>
 <td><ul>
 <li>OPOS</li>
-<li>Réseau <strong>Remarque :</strong> un seul tiroir-caisse peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</li>
+<li>Réseau </br><strong>Remarque :</strong> Un seul tiroir-caisse peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Tiroir-caisse 2</td>
 <td><ul>
 <li>OPOS</li>
-<li>Réseau <strong>Remarque :</strong> un seul tiroir-caisse peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</li>
+<li>Réseau </br><strong>Remarque :</strong> Un seul tiroir-caisse peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -333,7 +336,8 @@ Les périphériques réseau peuvent être pris en charge directement par la stat
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Tous les clients Modern POS qui ont une station matérielle IIS « partagée » validée
 
-**Remarque :** lorsque la station matérielle IIS est « validée », il existe une relation un-à-un entre le client PDV et la station matérielle.
+> [!NOTE]
+> Lorsque la station matérielle IIS est « validée », il existe une relation un-à-un entre le client PDV et la station matérielle.
 
 <table>
 <colgroup>
@@ -373,7 +377,7 @@ Les périphériques réseau peuvent être pris en charge directement par la stat
 <td>Créateur</td>
 <td><ul>
 <li>OPOS</li>
-<li>Réseau <strong>Remarque :</strong> un seul tiroir-caisse par profil matériel peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</li>
+<li>Réseau </br><strong>Remarque :</strong> Un seul tiroir-caisse par profil matériel peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -415,7 +419,8 @@ Les périphériques réseau peuvent être pris en charge directement par la stat
 
 ### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Tous les clients Modern POS ont partagé une station matérielle IIS
 
-**Remarque :** lorsque la station matérielle IIS est « partagée », plusieurs périphériques peuvent utiliser la station matérielle simultanément. Pour ce scénario, vous devez utiliser uniquement les périphériques répertoriés dans le tableau suivant. Si vous tentez de partager des périphériques qui ne sont pas répertoriés, comme des lecteurs de codes-barres et des LBM, des erreurs se produiront lorsque plusieurs appareils essaieront de revendiquer le même périphérique. Une telle configuration sera explicitement impossible à l'avenir.
+> [!NOTE]
+> Lorsque la station matérielle IIS est « partagée », plusieurs périphériques peuvent utiliser la station matérielle simultanément. Pour ce scénario, vous devez utiliser uniquement les périphériques répertoriés dans le tableau suivant. Si vous tentez de partager des périphériques qui ne sont pas répertoriés, comme des lecteurs de codes-barres et des LBM, des erreurs se produiront lorsque plusieurs appareils essaieront de revendiquer le même périphérique. Une telle configuration sera explicitement impossible à l'avenir.
 
 <table>
 <colgroup>
@@ -447,7 +452,7 @@ Les périphériques réseau peuvent être pris en charge directement par la stat
 <td>Créateur</td>
 <td><ul>
 <li>OPOS</li>
-<li>Réseau <strong>Remarque :</strong> un seul tiroir-caisse par profil matériel peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</li>
+<li>Réseau </br><strong>Remarque :</strong> Un seul tiroir-caisse par profil matériel peut être paramétré si <strong>Utiliser les équipes de travail partagées</strong> est configuré sur le tiroir-caisse.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -476,8 +481,12 @@ Cette configuration est la configuration la plus courante pour les registres de 
 
 1.  Créez un profil matériel où tous les périphériques obligatoires sont configurés.
 2.  Mappez le profil matériel sur le registre de PDV.
-3.  Créez une station matérielle du type **Dédié** pour le magasin de vente au détail où le registre de PDV sera utilisé. La description est facultative. **Remarque :** vous n'avez pas besoin de définir une autre propriété sur la station matérielle. Toutes les autres informations requises, telles que le profil matériel, proviennent du registre lui-même.
-4.  Cliquez sur **Retail et Commerce** &gt; **Informatique vente au détail** &gt; **Programme de distribution**.
+3.  Créez une station matérielle du type **Dédié** pour le magasin où la caisse enregistreuse du PDV sera utilisée. La description est facultative. 
+
+    > [!NOTE]
+    > Vous n'avez pas besoin de définir aucune autre propriété de la station matérielle. Toutes les autres informations requises, telles que le profil matériel, proviennent du registre lui-même.
+
+4.  Cliquez sur **Commerce et vente au détail** &gt; **IT vente au détail et commerce** &gt; **Programme de distribution**.
 5.  Sélectionnez le programme de distribution **1090** pour synchroniser le nouveau profil matériel avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 6.  Sélectionnez le programme de distribution **1040** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 7.  Installez et activez Modern POS pour Windows.
@@ -485,29 +494,30 @@ Cette configuration est la configuration la plus courante pour les registres de 
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS pour Android avec une station matérielle IPC (intégrée)
 
-**Nouveau pour la version 10.0.8** - Les imprimantes réseau et les tiroirs-caisses Epson connectés à ces imprimantes parle port DK sont désormais pris en charge pour Modern POS pour Android. Pour plus de détails, consultez l'article (Configurer l'application POS Hybrid sur Android et iOS)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp].
+**Nouveau pour la version 10.0.8** - Les imprimantes réseau et les tiroirs-caisses Epson connectés à ces imprimantes parle port DK sont désormais pris en charge pour Modern POS pour Android. Pour plus de détails, consultez l'article [Configurer l'application POS Hybrid sur Android et iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Tous les clients Modern POS qui ont une station matérielle IIS « partagée », validée
 
 Cette configuration peut être utilisée pour tous les clients Modern POS qui ont une station matérielle utilisée exclusivement par un registre de PDV. Procédez comme suit pour effectuer cette configuration :
 
 1.  Créez un profil matériel où tous les périphériques obligatoires sont configurés.
-2.  Créez une station matérielle du type **Dédié** pour le magasin de vente au détail où le registre de PDV sera utilisé.
+2.  Créez une station matérielle du type **Dédié** pour le magasin où la caisse enregistreuse du PDV sera utilisée.
 3.  Dans la station matérielle dédiée, définissez les propriétés suivantes :
     -   **Nom d'hôte** – Le nom de l'ordinateur hôte où la station matérielle est exécutée. 
     
-    **Remarque :** Cloud POS peut résoudre **localhost** pour déterminer l'ordinateur local sur lequel Cloud POS s'exécute. Toutefois, le certificat requis afin de jumeler Cloud POS avec la station matérielle doit également avoir le nom de l'ordinateur comme valeur de « Localhost ». Pour éviter les problèmes, nous vous recommandons de répertorier une instance de chaque station matérielle dédiée pour le magasin, selon les besoins. Pour chaque station matérielle, le nom d'hôte doit être le nom de l'ordinateur spécifique sur lequel la station matérielle sera déployée.
+        > [!NOTE]
+        > Cloud POS peut résoudre **localhost** pour déterminer l'ordinateur sur lequel Cloud POS s'exécute. Toutefois, le certificat requis afin de jumeler Cloud POS avec la station matérielle doit également avoir le nom de l'ordinateur comme valeur de « Localhost ». Pour éviter les problèmes, nous vous recommandons de répertorier une instance de chaque station matérielle dédiée pour le magasin, selon les besoins. Pour chaque station matérielle, le nom d'hôte doit être le nom de l'ordinateur spécifique sur lequel la station matérielle sera déployée.
     
     -   **Port** – Le port à utiliser pour la station matérielle, pour qu'elle communique avec le client Modern POS.
     -   **Le profil matériel** – Si le profil matériel n'est pas indiqué sur la station matérielle elle-même, le profil matériel affecté au registre est utilisé.
     -   **Numéro TEF du PDV**– L'ID du terminal TEF à utiliser lorsque les autorisations TEF sont envoyées. Cet ID est fourni par l'organisme qui traite les cartes de crédit.
     -   **Nom du package** – Le package de station matérielle à utiliser lorsque la station matérielle est déployée.
 
-4.  Cliquez sur **Retail et Commerce** &gt; **Informatique vente au détail** &gt; **Programme de distribution**.
+4.  Cliquez sur **Commerce et vente au détail** &gt; **IT vente au détail et commerce** &gt; **Programme de distribution**.
 5.  Sélectionnez le programme de distribution **1090** pour synchroniser le nouveau profil matériel avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 6.  Sélectionnez le programme de distribution **1040** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 7.  Installez la station matérielle. Pour plus d'informations sur l'installation de la station matérielle, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md).
-8.  Installez et activez Modern POS. Pour plus d'informations sur l'installation de Modern POS, voir [Configurer, installer et activer Retail Modern POS(MPOS)](retail-modern-pos-device-activation.md).
+8.  Installez et activez Modern POS. Pour plus d'informations sur l'installation de Modern POS, voir [Configurer, installer et activer Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 9.  Connectez-vous à Modern POS, puis sélectionnez **Effectuer des opérations sans lien avec le tiroir-caisse**.
 10. Lancez l'opération **Gérer les stations matérielles**.
 11. Cliquez sur **Gérer**.
@@ -521,7 +531,7 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui on
 Cette configuration peut être utilisée pour tous les clients Modern POS qui partagent des stations matérielles avec d'autres périphériques. Procédez comme suit pour effectuer cette configuration :
 
 1.  Créez un profil matériel où les périphériques obligatoires sont configurés.
-2.  Créez une station matérielle du type **Partagé** pour le magasin de vente au détail où le registre de PDV sera utilisé.
+2.  Créez une station matérielle du type **Partagé** pour le magasin où la caisse enregistreuse du PDV sera utilisée.
 3.  Dans la station matérielle partagée, définissez les propriétés suivantes :
     -   **Nom d'hôte** – Le nom de l'ordinateur hôte où la station matérielle est exécutée.
     -   **Description** – Texte qui permet d'identifier la station matérielle, comme **Retours** ou **Avant du magasin**.
@@ -531,11 +541,11 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui pa
     -   **Nom du package** – Le package de station matérielle à utiliser lorsque la station matérielle est déployée.
 
 4.  Répétez les étapes 2 et 3 pour chaque station matérielle supplémentaire requise dans le magasin.
-5.  Cliquez sur **Retail et Commerce** &gt; **Informatique vente au détail** &gt; **Programme de distribution**.
+5.  Cliquez sur **Commerce et vente au détail** &gt; **IT vente au détail et commerce** &gt; **Programme de distribution**.
 6.  Sélectionnez le programme de distribution **1090** pour synchroniser le nouveau profil matériel avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 7.  Sélectionnez le programme de distribution **1040** pour synchroniser la nouvelle station matérielle avec le magasin. Cliquez sur **Exécuter maintenant** pour synchroniser les modifications avec le POS.
 8.  Installez la station matérielle sur chaque ordinateur hôte que vous avez configuré dans les étapes 2 et 3. Pour plus d'informations sur l'installation de la station matérielle, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md).
-9.  Installez et activez Modern POS. Pour plus d'informations sur l'installation de Modern POS, voir [Configurer, installer et activer Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
+9.  Installez et activez Modern POS. Pour plus d'informations sur l'installation de Modern POS, voir [Configurer, installer et activer Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 10. Connectez-vous à Modern POS, puis sélectionnez **Effectuer des opérations sans lien avec le tiroir-caisse**.
 11. Lancez l'opération **Gérer les stations matérielles**.
 
@@ -546,7 +556,8 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui pa
 16. Une fois que toutes les stations matérielles requises sont jumelées, cliquez sur **Fermer**.
 17. Dans la page de sélection de station matérielle, cliquez sur la station matérielle récemment sélectionnée pour la rendre active. 
 
-**Remarque :** si les périphériques utilisent souvent différentes stations matérielles, nous vous recommandons de configurer Modern POS pour inviter les caissiers à sélectionner une station matérielle lorsqu'ils commencent le processus de soumission. Cliquez sur **Vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage POS** &gt; **Caisses enregistreuses**. Sélectionnez le registre, puis définissez l'option **Sélectionner à la soumission** sur **Oui**. Utilisez le programme de distribution **1090** pour synchroniser les modifications avec la base de données des canaux.
+> [!NOTE]
+> Si les périphériques utilisent souvent différentes stations matérielles, nous vous recommandons de configurer Modern POS pour inviter les caissiers à sélectionner une station matérielle lorsqu'ils commencent le processus de soumission. Cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Caisses enregistreuses**. Sélectionnez le registre, puis définissez l'option **Sélectionner à la soumission** sur **Oui**. Utilisez le programme de distribution **1090** pour synchroniser les modifications avec la base de données des canaux.
 
 ## <a name="extensibility"></a>Extensibilité
 Pour plus d'informations sur les scénarios d'extensibilité pour la station matérielle, voir [Extensibilité des stations matérielles](dev-itpro/hardware-station-extensibility.md).
@@ -554,12 +565,14 @@ Pour plus d'informations sur les scénarios d'extensibilité pour la station mat
 ## <a name="security"></a>Sécurité
 Conformément aux normes de sécurité, les paramètres suivants doivent être utilisés dans un environnement de production : 
 
-**Remarque :** le programme d'installation de la station matérielle effectue automatiquement ces modification de registre lors de l'installation en libre-service.
-
+### <a name="hardware-station-installer"></a>Programme d'installation de la station matérielle
+Le programme d'installation de station matérielle effectue automatiquement ces modification de registre dans le cadre de l'installation via le libre-service.
+ 
 -   Le protocole SSL (Secure Sockets Layer) doit être désactivé.
 -   Seul le protocole TLS (Transport Layer Security) de version 1.2 Server (ou la version la plus récente en cours) doit être activé et utilisé. 
 
-**Remarque :** par défaut, le protocole SSL et toutes les versions de TLS, à l'exception de la version 1.2, sont désactivés. Pour modifier ou activer ces valeurs, procédez comme suit :
+### <a name="ssl-and-tls"></a>SSL et TLS
+Par défaut, le protocole SSL et toutes les versions de TLS, à l'exception de la version 1.2, sont désactivés. Pour modifier ou activer ces valeurs, procédez comme suit :
     1.  Appuyez sur la touche de logo Windows + R pour ouvrir une fenêtre **Exécuter**.
     2.  Dans le champ **Ouvrir**, tapez **Regedit**, puis cliquez sur **OK**.
     3.  Si une zone de message **Contrôle de compte d'utilisateur** s'affiche, cliquez sur **Oui**.
@@ -580,10 +593,11 @@ Conformément aux normes de sécurité, les paramètres suivants doivent être u
 -   Le partage de ressources issues de plusieurs origines doit être désactivé et doit spécifier les origines autorisées qui sont acceptées.
 -   Seules les autorités de certification approuvées doivent être utilisées pour obtenir les certificats qui seront utilisés sur les ordinateurs qui gèrent la station matérielle.
 
-**Remarque :** il est indispensable de consulter les recommandations de sécurité pour IIS et les exigences PCI (Payment Card Industry).
+> [!NOTE]
+> Il est indispensable de consulter les recommandations de sécurité pour IIS et les besoins du secteur des cartes de paiement (PCI).
 
 ## <a name="peripheral-simulator"></a>Simulateur périphérique
-Pour plus d'informations, voir [Simulateur périphérique pour Retail](dev-itpro/retail-peripheral-simulator.md).
+Pour plus d'informations, voir [Simulateur périphérique pour Commerce](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Périphériques testés par Microsoft
 ### <a name="ipc-built-in-hardware-station"></a>Station matérielle IPC (intégrée)
@@ -736,7 +750,10 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 
 ### <a name="shared-iis-hardware-station"></a>Station matérielle IIS partagée
 
-Les périphériques suivants ont été testés à l'aide d'une station matérielle IIS partagée, associée à Modern POS pour Windows et Cloud POS. **Remarque :** une seule imprimante, un seul terminal de paiement et un seul tiroir-caisse sont pris en charge.
+Les périphériques suivants ont été testés à l'aide d'une station matérielle IIS partagée, associée à Modern POS pour Windows et Cloud POS. 
+
+> [!NOTE]
+> Seuls une imprimante, un terminal de paiement et un tiroir-caisse sont pris en charge.
 
 #### <a name="printer"></a>Imprimante
 
@@ -793,7 +810,7 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 **Solution :** voici quelques causes de ce problème :
 
 -   Assurez-vous que les autres utilitaires de configuration de pilotes de périphérique sont fermés. Si ces utilitaires sont ouverts, ils peuvent empêcher Modern POS ou la station matérielle de revendiquer le périphérique.
--   Si le périphérique de vente au détail est partagé avec plusieurs périphériques de PDV, assurez-vous qu'il appartient à une des catégories suivantes :
+-   Si le périphérique est partagé avec plusieurs périphériques de PDV, assurez-vous qu'il appartient à une des catégories suivantes :
     -   Tiroir-caisse
     -   Imprimante réception
     -   Terminal de paiement
@@ -817,6 +834,6 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Simulateur périphérique pour la vente au détail](dev-itpro/retail-peripheral-simulator.md)
+[Simulateur périphérique pour Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 

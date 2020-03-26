@@ -1,9 +1,9 @@
 ---
-title: Obtenir des recommandations produit à l'aide de données de démonstration
+title: Créer des recommandations avec des données de démonstration
 description: Ce document fournit des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042778"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127834"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Obtenir des recommandations produit à l'aide de données de démonstration
+# <a name="create-recommendations-with-demo-data"></a>Créer des recommandations avec des données de démonstration
+
+[!include [banner](includes/banner.md)]
+
 Ce document fournit des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
 
 Les recommandations de produit omnicanal offrent un ensemble de listes de produits générées de manière programmée ou traitées de manière éditoriale. Ces listes peuvent être utilisées dans différents scénarios, selon les besoins de l'entreprise. Pour en savoir plus sur les listes de recommandation de produit, consultez [Vue d'ensemble des recommandations produit.](product-recommendations.md).
@@ -39,7 +42,7 @@ Pour les environnements de niveau 1, les recommandations de produit sont basée
 Pour activer les données de démonstration de produit, vous devez déployer la version préliminaire de l'extension de démonstration de Dynamics 365 Commerce vers l'environnement respectif. Cela active automatiquement les données de démonstration de recommandations de produit.
 
 ## <a name="default-demo-data"></a>Données de démonstration par défaut
-Chaque environnement de type Onebox est fourni avec un jeu préchargé de données de démonstration (recommandations de produit) stockées dans le fichier reco_demo_data.csv qui se trouve dans l'unité d'échelle commerciale.
+Chaque environnement de type Onebox est fourni avec un jeu préchargé de données de démonstration (recommandations de produit) stockées dans le fichier reco_demo_data.csv qui se trouve dans Commerce Scale Unit.
 
 Les données sont structurées selon les colonnes suivantes.
 
@@ -67,4 +70,22 @@ L'extension contient un fichier de données appelé 'RecoMockDataset.csv' qui vo
 
 [Vue d'ensemble des recommandations produit](product-recommendations.md)
 
-[Planification de l'environnement](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[Activer ADLS dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
+
+[Activer les recommandations produit](enable-product-recommendations.md)
+
+[Activer les recommandations personnalisées](personalized-recommendations.md)
+
+[Désactiver les recommandations personnalisées](personalization-gdpr.md)
+
+[Ajouter des listes de recommandations à un site de commerce électronique](add-reco-list-to-page.md)
+
+[Ajouter des recommandations produit sur PDV](product.md)
+
+[Ajouter des recommandations à l'écran de transaction](add-recommendations-control-pos-screen.md)
+
+[Ajuster des résultats des recommandations AI-ML](modify-product-recommendation-results.md)
+
+[Créer manuellement des recommandations sélectionnées](create-editorial-recommendation-lists.md)
+
+[FAQ sur les recommandations produit](faq-recommendations.md)

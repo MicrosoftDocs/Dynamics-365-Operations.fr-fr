@@ -3,7 +3,7 @@ title: Opération de stock sortant dans le PDV
 description: Cette rubrique décrit les fonctionnalités de l'opération de stock sortant dans le point de vente (PDV).
 author: hhaines
 manager: annbe
-ms.date: 02/11/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,17 +19,17 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c3e50d20162340c599fb6719ae6f45654dba990a
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071861"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123920"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Opération de stock sortant dans le PDV
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Dans Microsoft Dynamics 365 Commerce version 10.0.10 et les versions ultérieures, les opérations entrantes et sortantes dans le point de vente (PDV) remplacent l'opération de prélèvement et de réception.
 

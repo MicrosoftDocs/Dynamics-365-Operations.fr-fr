@@ -22,6 +22,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: Appliquer des mises à jour à des environnements cloud
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Appliquer des mises à jour à des déploiements sur site
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Suspendre les mises à jour de service
@@ -84,12 +86,12 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d'accueil Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce version\_10.0.10 (mai\_2020)"
+                      href: get-started/whats-new-commerce-10-0-10.md
                     - name: "Commerce version\_10.0.9 (avril\_2020)"
                       href: get-started/whats-new-10-0-9.md
                     - name: "Commerce version\_10.0.8 (février\_2020)"
                       href: get-started/whats-new-10-0-8.md
-                    - name: "Retail version\_10.0.7 (janvier\_2020)"
-                      href: get-started/whats-new-10-0-7.md
                 - name: Fonctions supprimées ou obsolètes
                   items:
                     - name: Fonctions supprimées ou obsolètes dans Finance and Operations
@@ -192,7 +194,7 @@
                   href: dev-itpro/retail-in-store-topology.md
                 - name: Commerce Data Exchange et communications du canal commercial
                   href: dev-itpro/define-retail-channel-communications-cdx.md
-                - name: Architecture de Modern POS
+                - name: Architecture de MPOS
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Architecture de publication de magasin en ligne
                   href: dev-itpro/retail-online-store-publishing-architecture.md
@@ -208,13 +210,13 @@
                   href: dev-itpro/retail-store-system-begin.md
                 - name: Configurer et installer Commerce Scale Unit
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-                - name: Configuration et installation de Modern POS
+                - name: Configuration et installation de MPOS
                   href: retail-modern-pos-device-activation.md
                 - name: Gérer les comptes et les périphériques depuis le siège
                   href: set-up-activation-accounts-validate-devices-hq.md
                 - name: Activation de périphérique POS
                   href: dev-itpro/retail-device-activation.md
-                - name: Aide à sécuriser Cloud POS dans les environnements partagés
+                - name: Aide à sécuriser CPOS dans les environnements partagés
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Installation et configuration de Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
@@ -328,15 +330,17 @@
                   href: channel-setup-retail.md
                 - name: Configurer des collaborateurs pour la vente au détail
                   href: tasks/worker.md
-                - name: Modern Point of Sale (MPOS) et Cloud POS
+                - name: MPOS et CPOS
                   items:
-                    - name: Choix entre MPOS et Cloud POS
+                    - name: Choix entre MPOS et CPOS
                       href: MPOS-or-CPOS.md
                     - name: Opérations PDV en ligne et hors connexion
                       href: pos-operations.md
-                    - name: Activation de l'appareil d'un Modern POS personnalisé
+                    - name: Activation de l'appareil d'un MPOS personnalisé
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: Mises en plage de l'écran de données de démonstration dans MPOS et Cloud POS
+                    - name: Activer l'authentification Azure Active Directory pour la connexion au PDV
+                      href: aad-pos-logon.md
+                    - name: Mises en page de l'écran de données de démonstration dans MPOS et CPOS
                       href: demo-data.md
                     - name: Recherche de produits et de clients dans le PDV
                       href: POS-search-improvements.md
@@ -358,7 +362,7 @@
                       href: charge-send.md
                     - name: Masquer les modes de livraison hors transporteur dans la boîte de dialogue Expédition du PDV
                       href: hide-non-carrier-modes.md
-                    - name: Enregistreur de tâches et aide pour MPOS et Cloud POS
+                    - name: Enregistreur de tâches et aide pour MPOS et CPOS
                       href: task-recorder-retail-pos.md
                     - name: Périphériques matériels
                       items:
@@ -368,6 +372,8 @@
                           href: dev-itpro/retail-peripheral-simulator.md
                         - name: Connecter des périphériques au PDV
                           href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: Contrôle sanitaire des périphériques et services de PDV
+                          href: pos-healthcheck.md
                     - name: Mises en page de l'écran
                       items:
                         - name: Mises en page de l'écran de données de démonstration dans MPOS/CPOS
@@ -398,7 +404,7 @@
                       items:
                         - name: 'Configurer, installer et activer MPOS'
                           href: retail-modern-pos-device-activation.md
-                        - name: Paramétrer une fonctionnalité de connexion étendue pour MPOS et Cloud POS
+                        - name: Paramétrer une fonctionnalité de connexion étendue pour MPOS et CPOS
                           href: extended-logon.md
                         - name: Gérer les comptes d'activation et valider les périphériques
                           href: set-up-activation-accounts-validate-devices-hq.md
@@ -414,7 +420,7 @@
                   items:
                     - name: Paramétrer et créer des formats de réception
                       href: receipt-templates-printing.md
-                    - name: Envoyer des accusés de réception par e-mail depuis Modern POS (MPOS)
+                    - name: Envoyer des accusés de réception par e-mail depuis MPOS
                       href: email-receipts.md
                     - name: Réinitialiser les numéros d'accusé de réception
                       href: reset_receipt_number_sequence.md
@@ -518,7 +524,7 @@
                       href: create-variant-group.md
                 - name: Créer un nouveau produit
                   items:
-                    - name: Vue d'ensemble de la création d'un produit
+                    - name: Créer un produit dans Commerce
                       href: create-new-product.md
                     - name: Gérer les produits et les catégories de produits
                       href: category-management-product-creation.md
@@ -570,6 +576,8 @@
                   href: retail-shipping-discount.md
                 - name: Paramétrer des coupons
                   href: retail-coupons.md
+                - name: Afficher les remises dans le PDV
+                  href: discounts-pos.md
                 - name: Rapports sur le prix
                   href: price-report.md
                 - name: Créer des accords commerciaux spécifiques au canal
@@ -582,8 +590,6 @@
                   href: product-recommendations.md
                 - name: Activer ADLS dans un environnement Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
-                - name: Ajouter des listes de recommandations produit aux pages de commerce électronique
-                  href: add-reco-list-to-page.md
                 - name: Activer les recommandations produit
                   href: enable-product-recommendations.md
                 - name: Recommandations personnalisées
@@ -592,20 +598,22 @@
                       href: personalized-recommendations.md
                     - name: Désactiver les recommandations personnalisées
                       href: personalization-gdpr.md
-                - name: Créer des listes de recommandations produit éditées
-                  href: create-editorial-recommendation-lists.md
-                - name: Gérer les résultats de recommandation produit fondées sur l'IA et le ML
+                - name: Ajouter des listes de recommandations à un site de commerce électronique
+                  href: add-reco-list-to-page.md
+                - name: Expériences de PDV
+                  items:
+                    - name: Ajouter des recommandations produit sur PDV
+                      href: product.md
+                    - name: Ajouter des recommandations à l'écran de transaction
+                      href: add-recommendations-control-pos-screen.md
+                - name: Ajuster les résultats de recommandation produit fondées sur l'IA et le ML
                   href: modify-product-recommendation-results.md
-                - name: Obtenir des recommandations produit à l'aide de données de démonstration
+                - name: Créer manuellement des recommandations produit éditées
+                  href: create-editorial-recommendation-lists.md
+                - name: Créer des recommandations produit à l'aide de données de démonstration
                   href: product-recommendations-demo-data.md
                 - name: FAQ sur les recommandations produit
                   href: faq-recommendations.md
-                - name: Expériences de PDV
-                  items:
-                    - name: Recommandations produit sur PDV
-                      href: product.md
-                    - name: Ajouter un contrôle de recommandations à l'écran de transaction sur des périphériques de PDV
-                      href: add-recommendations-control-pos-screen.md
             - name: Évaluations et avis
               items:
                 - name: Vue d'ensemble des évaluations et avis
@@ -656,6 +664,8 @@
               items:
                 - name: Créer une commande en centre d'appels
                   href: tasks/create-call-center-orders.md
+                - name: Modifier le mode de livraison dans le PDV
+                  href: POS-change-delivery-mode.md
             - name: Gestion des commandes distribuées
               items:
                 - name: Vue d'ensemble d'un processus DOM
@@ -768,9 +778,15 @@
                   href: associate-site-online-store.md
                 - name: Gérer les fichiers robots.txt
                   href: manage-robots-txt-files.md
+                - name: Importer des redirections d'URL en bloc
+                  href: upload-bulk-redirects.md
+                - name: Configurer un client B2C dans Commerce
+                  href: set-up-B2C-tenant.md
                 - name: Paramétrer des pages personnalisées pour les connexions utilisateur
                   href: custom-pages-user-logins.md
-                - name: Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)
+                - name: Configurer plusieurs locataires B2C dans un environnement Commerce
+                  href: configure-multi-B2C-tenants.md
+                - name: Ajouter la prise en charge d'un réseau de distribution de contenu (CDN)
                   href: add-cdn-support.md
                 - name: Activation de la détection du magasin selon l’emplacement
                   href: enable-store-detection.md
@@ -864,6 +880,20 @@
                       href: customize-site-navigation.md
                     - name: Créer une URL de page
                       href: create-page-URL.md
+            - name: Gérer les actifs numériques
+              items:
+                - name: Vue d'ensemble de la gestion des actifs numériques
+                  href: dam-overview.md
+                - name: Importer des images
+                  href: dam-upload-images.md
+                - name: Télécharger une vidéo
+                  href: dam-upload-video.md
+                - name: Télécharger des fichiers autres que des images et des vidéos
+                  href: dam-upload-files.md
+                - name: Rogner les images
+                  href: dam-crop-images.md
+                - name: Personnaliser les points focaux de l'image
+                  href: dam-custom-focal-point.md
             - name: Mettre votre site en conformité
               items:
                 - name: Vue d'ensemble de la conformité
@@ -1828,6 +1858,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Configurer un fichier (.env) de l'environnement de développement
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Configurer le partage du code Azure DevOps et créer des opportunités élémentaires
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Vue d'ensemble de la plateforme
                   items:
                     - name: Vue d'ensemble architecturale
@@ -1906,12 +1938,16 @@
                   items:
                     - name: Enchaîner des actions de données
                       href: e-commerce-extensibility/chain-data-actions.md
-                    - name: Exécuter des actions de données par lot
+                    - name: Exécuter des actions de données par lots
                       href: e-commerce-extensibility/batch-data-actions.md
                     - name: Actions de données observables
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Partager des états entre des modules
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Remplacement des actions de données
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: Crochets d'action de données
+                      href: e-commerce-extensibility/data-action-hooks.md
                 - name: Développer des thèmes
                   items:
                     - name: Vue d'ensemble de la création de thèmes
@@ -1958,7 +1994,7 @@
                   href: install-pos-layout-designer.md
                 - name: Étendre le mode d'affichage de POS Dual
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Extensibilité du déclencheur de Modern POS et Cloud POS
+                - name: Extensibilité du déclencheur de MPOS et de CPOS
                   href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Ajouter des contrôles personnalisés à des vues PDV
                   href: dev-itpro/pos-custom-control.md
@@ -1978,7 +2014,7 @@
                   href: dev-itpro/pos-handler.md
                 - name: Afficher des informations sur les packages d'extension PDV
                   href: dev-itpro/view-pos-extension-package-details.md
-                - name: Tester l'enregistreur et Regression Suite Automation Tool pour Cloud POS
+                - name: Tester l'enregistreur et Regression Suite Automation Tool pour CPOS
                   href: dev-itpro/pos-rsat.md
                 - name: Ajouter des champs personnalisés au volet Totaux de PDV
                   href: dev-itpro/custom-field-pos-totals.md
@@ -1988,13 +2024,13 @@
                   href: dev-itpro/pos-app-signing-certificate.md
                 - name: Étendre les vues PDV pour ajouter des colonnes personnalisées et des boutons à la barre d'application
                   href: dev-itpro/pos-view-extension.md
-                - name: Ajouter des contrôles personnalisés aux pages de transaction Modern POS
+                - name: Ajouter des contrôles personnalisés aux pages de transaction de MPOS
                   href: dev-itpro/pos-custom-transaction.md
                 - name: Ajouter des colonnes personnalisées à des grilles de transaction PDV
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: Appeler les API ou les opérations PDV à partir des extensions PDV
                   href: dev-itpro/pos-api-extension.md
-                - name: Déclencheurs et impression de Modern POS
+                - name: Déclencheurs et impression de MPOS
                   href: dev-itpro/pos-trigger-printing.md
                 - name: Ajouter des contrôles personnalisés aux vues PDV basées sur un concepteur hors écran
                   href: dev-itpro/pos-control-non-screen.md
@@ -2062,6 +2098,8 @@
                   href: dev-itpro/commerce-application-insights.md
                 - name: Créer des API Commerce (CRT) asynchrones dans votre logique métier
                   href: dev-itpro/async-commerce-extension.md
+                - name: Colonnes pré-étendues dans la base de données des canaux
+                  href: dev-itpro/extended-columns.md
             - name: Extensibilité du connecteur de paiement
               items:
                 - name: Créer une intégration du paiement pour un terminal de paiement

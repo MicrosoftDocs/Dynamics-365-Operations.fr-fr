@@ -3,7 +3,7 @@ title: Paramétrer un canal de magasin en ligne
 description: Cet article fournit des informations sur les canaux de magasins en ligne et leur configuration dans Dynamics 365 Commerce.
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022581"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096892"
 ---
 # <a name="set-up-an-online-store-channel"></a>Paramétrer un canal de magasin en ligne
 
@@ -71,3 +71,27 @@ Les hiérarchies d'organisation permettent de structurer les canaux de commerce 
 Lorsque vous créez une hiérarchie d'organisation, vous lui affectez un objectif. L'objectif indiquer comment la hiérarchie est utilisée dans la structure commerciale. Vous pouvez créer une hiérarchie d'organisation pour vos opérations de magasin et l'utiliser pour les assortiments, le réapprovisionnement et la génération d'états. 
 
 Sinon, vous pouvez créer une hiérarchie d'organisation distincte pour chaque objectif. Vous pouvez également créer plusieurs hiérarchies ayant le même objectif et affecter un canal distinct à chacune d'entre elles. Si vous prévoyez de publier des catalogues de produits sur le magasin en ligne, vous devez, au minimum, ajouter le magasin en ligne à une hiérarchie d'organisation pour les assortiments. Les produits d'un catalogue sont sélectionnés à partir des assortiments affectés au magasin en ligne. Lors de la publication du catalogue, le processus de publication compare les dates d'effet de l'assortiment affecté au magasin en ligne aux produits inclus dans le catalogue afin de déterminer les produits à mettre à disposition dans le magasin en ligne.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+[Configuration du nom de domaine](configure-your-domain-name.md)
+
+[Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
+
+[Création d'un site de commerce électronique](create-ecommerce-site.md)
+
+[Association d'un site en ligne avec un canal](associate-site-online-store.md)
+
+[Gérer les fichiers robots.txt](manage-robots-txt-files.md)
+
+[Importer des redirections d'URL en bloc](upload-bulk-redirects.md)
+
+[Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
+
+[Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
+
+[Configurer plusieurs locataires B2C dans un environnement Commerce](configure-multi-B2C-tenants.md)
+
+[Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
+
+[Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)

@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890325"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133894"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d'ensemble des factures fournisseur
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques.
 
@@ -66,6 +67,16 @@ Vous pouvez ajouter à la facture fournisseur une ligne qui ne figurait pas sur 
 
 Votre organisation peut utiliser des workflows pour gérer le processus de révision des factures fournisseur. La révision via workflow peut être nécessaire pour l'en-tête de facture, la ligne de facture ou les deux. Les contrôles de workflow s'appliquent à l'en-tête ou à la ligne, selon l'emplacement de la vue lorsque vous sélectionnez le contrôle. À la place du bouton **Valider**, vous verrez un bouton **Soumettre** qui vous permet d'envoyer la facture fournisseur dans le processus de révision.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Empêcher la soumission de la facture au flux de travail 
+
+Voici plusieurs façons d'empêcher une facture d'être soumise à un flux de travail.
+
+- **Le total de la facture et le total enregistré ne sont pas identiques.** La personne qui a soumis la facture recevra une alerte indiquant que les totaux ne sont pas identiques afin de pouvoir corriger les soldes avant de soumettre à nouveau la facture au flux de travail. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le total de la facture et le total de la facture enregistrée ne sont pas identiques** sur la page **Gestion des fonctionnalités** est activé. 
+
+- **La facture contient des frais non alloués.** La personne qui a soumis la facture recevra une alerte indiquant que la facture a des frais non attribués afin de pouvoir corriger la facture avant de la soumettre à nouveau au flux de travail. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail en cas de charges non attribuées sur une facture fournisseur** de la page **Gestion des fonctionnalités** est activé.
+
+- **La facture contient le même numéro de facture qu'une autre facture validée.** La personne qui a soumis la facture recevra une alerte indiquant qu'une facture avec un doublon de numéro a été décelé afin de pouvoir la corriger avant de la soumettre à nouveau au flux de travail. Cette alerte sera affichée lorsque le paramètre Comptabilité fournisseur libellé **Vérifier le numéro de facture utilisé** est défini sur **Rejeter le doublon**. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le numéro de facture existe déjà sur une facture validée et lorsque votre système n'est pas configuré pour accepter les numéros de facture en double** sur la page **Gestion des fonctionnalités** est activé.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Rapprochement des factures fournisseur avec les accusés de réception de marchandises
 
 Vous pouvez entrer et enregistrer des informations pour les factures fournisseur et vous pouvez mettre en correspondance des lignes de facture avec des lignes d'accusé de réception de marchandises. Vous pouvez également rapprocher des quantités partielles pour une ligne.
@@ -77,6 +88,16 @@ Lorsque vous validez la facture, la quantité **Solde de la facture** de chaque 
 Cette option suppose qu'au moins un accusé de réception de marchandises a été validé pour la commande fournisseur. La facture fournisseur a pour base ces accusés de réception de marchandises et reflète les quantités de ceux‑ci. Les informations financières pour la facture sont basées sur les informations entrées lors de la validation de la facture.
 
 Pour plus d'informations, voir [Enregistrer la facture fournisseur et la mettre en correspondance avec la quantité reçue](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Configurer une tâche automatisée pour le flux de travail de facture fournisseur pour valider la facture fournisseur à l'aide d'un traitement par lots
+
+Vous pouvez ajouter une tâche de validation automatisée au flux de travail de facture fournisseur afin que les factures soient traitées dans un lot. L'enregistrement de factures dans un lot permet au processus de flux de travail de continuer sans avoir à attendre la fin de l'enregistrement, ce qui améliore les performances globales de toutes les tâches soumises au flux de travail.
+
+Pour enregistrer une facture fournisseur dans un lot, sur la page **Gestion des fonctionnalités**, activez le paramètre **Validation des lots de facture fournisseur**. Les flux de travail de facturation fournisseur sont configurés en accédant à **Comptabilité fournisseur > Configuration > Flux de travail de la Comptabilité fournisseur**.
+
+Vous pouvez voir la tâche **Valider la facture fournisseur à l'aide d'un lot** dans l'éditeur de flux de travail, indépendamment du fait que le paramètre de fonctionnalité, **Validation des lots de factures fournisseur**, est activée. Lorsque le paramètre de fonctionnalité n'est pas activé, une facture qui contient le **Valider la facture fournisseur à l'aide d'un traitement par lots** ne sera pas traitée dans le flux de travail tant que le paramètre n'est pas activé. La tâche **Valider la facture fournisseur à l'aide d'un lot** ne doit pas être utilisée dans le même flux de travail que la tâche automatisée **Valider les factures fournisseur**. En outre, la tâche **Valider la facture fournisseur à l'aide d'un lot** doit être le dernier élément de la configuration du flux de travail.
+
+Vous pouvez spécifier le nombre de factures à inclure dans le lot et le nombre d'heures à attendre avant de replanifier un lot, en allant sur **Comptabilité fournisseur > Configuration> Paramètres de comptabilité fournisseur > Facture> Flux de travail de facture**. 
 
 ## <a name="working-with-multiple-invoices"></a>Utilisation de plusieurs factures
 

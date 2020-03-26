@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26c62aa72a7919c780bb709b185b48c97066c538
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e2fa54ff598bb6a09bbcc483995a6e1a3f4286b3
+ms.sourcegitcommit: 16612a632aad9d390f8d80d3fc1f766585b2911e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836310"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3098074"
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a>Créer une commande fournisseur pour un fournisseur occasionnel
 
@@ -37,5 +37,5 @@ Cette procédure vous indique comment créer une commande fournisseur pour un fo
     * Un compte fournisseur est automatiquement créé et affecté à la commande fournisseur. Le compte fournisseur est créé en fonction du modèle qui est spécifié sur l'onglet Général de la page Paramètres de la comptabilité fournisseur.  
 4. Dans le champ Nom, tapez un nom pour le fournisseur.
 5. Cliquez sur OK.
-    * La commande fournisseur peut maintenant être traitée comme n'importe quelle autre commande. Il n'y a aucune caractéristique spéciale liée à la façon dont ceci est fait. La facture va prendre en compte une transaction due sur le compte fournisseur qui a été créé avec la commande et le paiement sera alors traité. Quand ceci est accompli, le compte fournisseur peut être supprimé. Ceci est fait généralement par le département Comptabilité fournisseur.  
+    * La commande fournisseur peut maintenant être traitée comme n'importe quelle autre commande. Il n'y a aucune caractéristique spéciale liée à la façon dont ceci est fait. La facture va prendre en compte une transaction due sur le compte fournisseur qui a été créé avec la commande et le paiement sera alors traité.
 

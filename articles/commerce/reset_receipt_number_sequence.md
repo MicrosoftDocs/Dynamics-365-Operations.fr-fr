@@ -3,7 +3,7 @@ title: Réinitialiser les numéros de ticket de caisse
 description: Cette rubrique décrit comment réinitialiser les numéros de ticket de caisse utilisés pour diverses actions à une date souhaitée (par exemple, l'année fiscale ou l'année civile).
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,17 +19,17 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e81ff86a8b8a4dca6b14a21d6e982b03a928d29e
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020076"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123944"
 ---
 # <a name="reset-receipt-numbers"></a>Réinitialiser les numéros de ticket de caisse 
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Les détaillants génèrent des numéros de ticket de caisse pour diverses actions dans le magasin, telles que les transactions au comptant, les transactions de retour, les commandes clients, les devis et les paiements. Bien que les détaillants définissent leurs propres formats de ticket de caisse, certains pays ou régions ont des réglementations qui imposent des restrictions sur ces formats. Par exemple, des réglementations peuvent limiter le nombre de caractères sur le ticket de caisse, exiger des numéros de ticket de caisse qui se suivent, restreindre certains caractères spéciaux ou exiger une réinitialisation des numéros de ticket de caisse au début de l'année. Microsoft Dynamics 365 Commerce rend le processus de gestion des numéros de ticket de caisse très flexible, pour aider les détaillants à répondre aux exigences réglementaires. Cette rubrique explique comment utiliser la fonctionnalité de réinitialisation des numéros de ticket de caisse.
 

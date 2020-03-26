@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957365"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117335"
 ---
 # <a name="business-document-management-overview"></a>Vue d'ensemble du module Gestion de document commercial
+
+[!include [banner](../includes/banner.md)]
 
 Les utilisateurs professionnels utilisent la structure de [Gestion des états électroniques (ER)](general-electronic-reporting.md) pour configurer des formats pour les documents sortants conformément aux obligations légales de différents pays/régions. Ils peuvent également définir le flux de données pour spécifier quelles données d'application placer dans les documents générés. La structure de gestion des états électroniques génère des documents sortants dans des formats Microsoft Office (des classeurs Excel ou des documents Word) à l'aide de modèles prédéfinis. Les modèles sont renseignés avec les données requises conformément au flux de données configuré pendant la génération des documents requis. Chaque format configuré peut être publié dans le cadre d'une solution de gestion des états électroniques pour générer les documents sortants spécifiques. Cela est représenté par une configuration de format ER qui peut contenir des modèles qui vous permettent de générer différents documents sortants. Les utilisateurs professionnels peuvent utiliser cette structure pour gérer les documents commerciaux requis.
 
@@ -147,7 +149,7 @@ Pour plus d'informations sur la définition des paramètres et des types de docu
 
 ![Paramétrer un type de document pour la gestion des documents](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Définir les paramètres</a>
+### <a name=""></a><a name="SetupBdmParameters">Définir les paramètres</a>
 
 Les paramètres de base du module Gestion de document commercial peuvent être définis sur la page **Paramètres de document commercial**. Seuls certains utilisateurs peuvent accéder à la page. Notamment :
 
@@ -158,7 +160,7 @@ Suivez les procédures suivantes pour définir les paramètres de base pour tout
 
 1. Connectez-vous en tant qu'utilisateur avec accès à la page **Paramètres de document commercial**.
 2. Accédez à **Administration d'organisation** \> **Gestion des états électroniques** \> **Gestion de document commercial** \> **Paramètres de document commercial**.
-3.  Sur la page **Paramètres de document commercial**, sous l'onglet **Documents joints**, dans le champ **Type de document SharePoint**, définissez le type de document à utiliser pour stocker temporairement des modèles dans des formats Office lorsqu'ils sont modifiés à l'aide des applications de bureau Office. 
+3.    Sur la page **Paramètres de document commercial**, sous l'onglet **Documents joints**, dans le champ **Type de document SharePoint**, définissez le type de document à utiliser pour stocker temporairement des modèles dans des formats Office lorsqu'ils sont modifiés à l'aide des applications de bureau Office. 
 
 > [!NOTE]
 > Seuls les types de documents configurés à l'aide d'un emplacement SharePoint sont disponibles pour ce paramètre.
@@ -288,13 +290,13 @@ La page **Éditeur de modèle BDM** s'ouvre. Le modèle sélectionné sera dispo
 
 ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Modifier un modèle dans Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Modifier un modèle dans Office 365</a>
 
 Vous pouvez modifier le modèle en utilisant Office 365. Par exemple, dans Office online, faites passer la police des invites de champ de l'en-tête de modèle de **Normal** à **Gras**. Ces modifications sont automatiquement stockées dans le modèle modifiable qui est stocké dans le principal stockage du modèle (par défaut, dans le stockage d'objets blob Azure). La configuration s'adresse à la structure ER.
 
 ![Page de l'éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Modifier un modèle dans l'application de bureau Office</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Modifier un modèle dans l'application de bureau Office</a>
 
 > [!NOTE]
 > Cette fonction n'est disponible que lorsque le paramètre **Type de document SharePoint** est correctement configuré. Pour plus d'informations, voir [Configurer les paramètres](#SetupBdmParameters).

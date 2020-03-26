@@ -1,9 +1,9 @@
 ---
 title: Créer et utiliser des champs personnalisés
-description: Cette rubrique présente comment créer des champs pour personnaliser l'application afin qu'elle réponde à leur activité.
+description: Cette rubrique vous indique comment autoriser certains utilisateurs à créer des champs via l'interface utilisateur pour personnaliser l'application afin qu'elle réponde à votre activité.
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812503"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112334"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Créer et utiliser des champs personnalisés
 
 [!include [banner](../includes/banner.md)]
 
-Tandis qu'il y a un ensemble étendu de champs prédéfinis pour gérer une large éventail de processus d'entreprise, une société doit parfois suivre des informations supplémentaires dans le système. Pour répondre à ce besoin, vous pouvez de créer des champs personnalisés pour adapter l'application à votre entreprise, à condition que vous disposiez des autorisations appropriées pour la fonction.
+Tandis qu'il y a un ensemble étendu de champs prédéfinis pour gérer une large éventail de processus d'entreprise, une société doit parfois suivre des informations supplémentaires dans le système. Alors que les programmeurs peuvent être utilisés pour ajouter ces champs en tant qu'extensions dans les outils de développement, la fonctionnalité des champs personnalisés permet d'ajouter des champs directement à partir de l'interface utilisateur, vous permettant ainsi d'adapter l'application à votre entreprise à l'aide de votre navigateur Web.
 
-La capacité d'ajouter des champs personnalisés est disponible dans la mise à jour de la plateforme 13 et versons ultérieures.
+La capacité d'ajouter des champs personnalisés est disponible dans la mise à jour de la plateforme 13 et versons ultérieures. Seuls les utilisateurs avec des autorisations spéciales ont accès à cette fonctionnalité.
 
 Cette vidéo montre comment il est facile d'ajouter un champ personnalisé à une page : [Ajouter des champs personnalisés](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -159,3 +159,7 @@ Pour des raisons de performances et techniques, seules les tables qui répondent
 - La table ne peut pas étendre une autre table.
 - La table ne peut pas être marquée comme une table système.
 - La table ne peut pas être une table temporaire.
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Puis-je référencer des champs personnalisés à partir des outils de développement ?  
+
+Les champs personnalisés ne peuvent être gérés que via l'interface utilisateur et ne peuvent pas être référencés par du code. 

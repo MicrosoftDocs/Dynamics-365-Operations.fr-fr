@@ -1,6 +1,6 @@
 ---
-title: Blocages pour les commandes client
-description: ''
+title: Blocages de crédit pour les commandes client
+description: Cette rubrique décrit le paramétrage des règles utilisées pour placer une commande client en attente de crédit.
 author: mikefalkner
 manager: AnnBe
 ms.date: 01/25/2019
@@ -9,25 +9,23 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057668"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124252"
 ---
-# <a name="credit-holds-for-sales-orders"></a>Blocages pour les commandes client
+# <a name="credit-holds-for-sales-orders"></a>Blocages de crédit pour les commandes client
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-Cette rubrique décrit le paramétrage des règles utilisées pour placer une commande client en attente de crédit. Les règles de blocage de la gestion des crédits peuvent s'appliquer à un client individuel ou à un groupe de clients.  Les règles de blocage définissent les réponses aux circonstances suivantes :
+Cette rubrique décrit le paramétrage des règles utilisées pour placer une commande client en attente de crédit. Les règles de blocage de la gestion des crédits peuvent s'appliquer à un client individuel ou à un groupe de clients. Les règles de blocage définissent les réponses aux circonstances suivantes :
 
 1. Nombre de jours de retard
 2. Statuts des comptes
@@ -87,9 +85,9 @@ Ouvrez l'onglet **Limite de crédit expirée** si la règle de blocage s'appliq
    - Sélectionnez **Tous** si la règle s'applique à tous les clients. 
 3. Sélectionner un **Groupe de risques** pour limiter davantage la liste des clients qui seront placés en attente de gestion de crédit. 
 4. Permet de sélectionner le type de règle que vous paramétrez. 
-  - Sélectionnez **Blocage** pour créer une règle qui bloque une commande. 
-  - Sélectionnez **Exclusion** pour créer une règle qui exclura une autre règle du blocage d'une commande. 
-6. Entrez la valeur **Jours limite de crédit expirée** pour la règle de blocage sélectionnée avant qu'une commande ne soit placée en attente de gestion des crédits. Le nombre de jours de retard représente des jours de grâce supplémentaires qui s'ajoutent au nombre de jours d'expiration de la limite de crédit.
+   - Sélectionnez **Blocage** pour créer une règle qui bloque une commande. 
+   - Sélectionnez **Exclusion** pour créer une règle qui exclura une autre règle du blocage d'une commande. 
+5. Entrez la valeur **Jours limite de crédit expirée** pour la règle de blocage sélectionnée avant qu'une commande ne soit placée en attente de gestion des crédits. Le nombre de jours de retard représente des jours de grâce supplémentaires qui s'ajoutent au nombre de jours d'expiration de la limite de crédit.
 
 ### <a name="overdue-amount"></a>Montant en retard
 
@@ -104,11 +102,10 @@ Ouvrez l'onglet **Montant en retard** si la règle de blocage s'applique aux cl
    - Sélectionnez **Tous** si la règle s'applique à tous les clients. 
 3. Sélectionnez un **Groupe de risques** si vous souhaitez limiter davantage la liste des clients en attente de gestion de crédit. 
 4. Permet de sélectionner le type de règle que vous paramétrez. 
-  - Sélectionnez **Blocage** pour créer une règle qui bloque une commande. 
-  - Sélectionnez **Exclusion** pour créer une règle qui exclura une autre règle du blocage d'une commande. 
+   - Sélectionnez **Blocage** pour créer une règle qui bloque une commande. 
+   - Sélectionnez **Exclusion** pour créer une règle qui exclura une autre règle du blocage d'une commande. 
 5. Entrez la valeur **Montant en retard** pour la règle de blocage sélectionnée avant qu'une commande ne soit placée en attente de gestion des crédits pour examen. 
-6. Sélectionnez le **Type de valeur** qui définit le type de valeur qui sera utilisé pour tester également combien de la limite de crédit a été utilisée. Les règles de blocage nécessitent un pourcentage mais une exclusion peut avoir un montant ou un pourcentage fixe.
-Seuil. Le seuil se rapporte à la limite de crédit.
+6. Sélectionnez le **Type de valeur** qui définit le type de valeur qui sera utilisé pour tester également combien de la limite de crédit a été utilisée. Les règles de blocage nécessitent un pourcentage mais une exclusion peut avoir un montant ou un pourcentage fixe. Le seuil se rapporte à la limite de crédit.
 7. Entrez la valeur **Seuil de limite de crédit** de la règle sélectionnée avant qu'un client ne soit mis en attente pour la gestion du crédit. Il peut s'agir d'un montant ou d'un pourcentage basé sur le type de valeur sélectionné dans le type de valeur.
 8. La règle vérifie que le **Montant en retard** est dépassé et le **Seuil de limite de crédit** est dépassé. 
 
@@ -125,9 +122,9 @@ Sélectionnez **Commande client** si la règle de blocage s'applique à la valeu
    - Sélectionnez **Tous** si la règle s'applique à tous les clients. 
 3. Sélectionnez un **Groupe de risques** si vous souhaitez limiter davantage la liste des clients en attente de gestion de crédit. 
 4. Permet de sélectionner le type de règle que vous paramétrez.  
-  - Sélectionnez **Blocage** pour créer une règle qui bloque une commande. 
-  - Sélectionnez **Exclusion** pour créer une règle qui exclura une autre règle du blocage d'une commande. 
-6. Entrez la valeur **Montant de la commande client** pour la règle de blocage sélectionnée avant qu'une commande ne soit placée en attente de gestion des crédits. 
+   - Sélectionnez **Blocage** pour créer une règle qui bloque une commande. 
+   - Sélectionnez **Exclusion** pour créer une règle qui exclura une autre règle du blocage d'une commande. 
+5. Entrez la valeur **Montant de la commande client** pour la règle de blocage sélectionnée avant qu'une commande ne soit placée en attente de gestion des crédits. 
 
 La règle de commande client comprend un paramètre supplémentaire qui remplace toutes les autres règles. Pour créer une exclusion qui libérera la commande client sans appliquer aucune autre règle, cochez la case **Lancer le prélèvement des commandes client** sur la ligne d'exclusion.
 
@@ -216,8 +213,8 @@ Lorsque vous avez recherché les motifs de la suspension et que vous les avez at
 2) Sélectionnez un **Motif de libération** pour la commande qui a été sélectionnée pour la libération.  
 3) Entrez la **Date de révision** pour chaque commande qui a été sélectionnée pour la libération.  
 4) Sélectionnez le menu **Libération** dans le volet Actions pour libérer une commande. Ce menu ne sera disponible qu'après avoir sélectionné les transactions. L'utilisateur se voit proposer deux options :
- - Sélectionner **Avec validation** pour supprimer la mise en attente et publier le document en utilisant le même processus de publication que celui utilisé lors de sa mise en attente. Par exemple, si la confirmation de commande client était mise en attente, la confirmation de commande client serait terminée après la libération. Le formulaire de validation de la commande client sera affiché permettant à l'utilisateur de poster la confirmation.
- - Sélectionner **Sans validation** pour supprimer le blocage sans effectuer de traitement supplémentaire. La commande client peut être postée manuellement.
+   - Sélectionner **Avec validation** pour supprimer la mise en attente et publier le document en utilisant le même processus de publication que celui utilisé lors de sa mise en attente. Par exemple, si la confirmation de commande client était mise en attente, la confirmation de commande client serait terminée après la libération. Le formulaire de validation de la commande client sera affiché permettant à l'utilisateur de poster la confirmation.
+   - Sélectionner **Sans validation** pour supprimer le blocage sans effectuer de traitement supplémentaire. La commande client peut être postée manuellement.
 
 ### <a name="rejecting-orders-in-the-hold-list"></a>Rejeter des commandes dans la liste d'attente
 Vous pouvez utiliser le menu **Rejeter** dans le volet Actions pour refuser une commande client

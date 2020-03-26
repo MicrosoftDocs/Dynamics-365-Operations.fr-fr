@@ -1,6 +1,6 @@
 ---
-title: Paramétrage des fréquences de paiement
-description: ''
+title: Configurer les fréquences de paiement
+description: Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d'avantages qu'un employé paie à chaque période de paie et définir la fréquence des paiements aux fournisseurs.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5fe0a16c4abbb9241fcdac88fd56e92bf04788c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: b786485ab53dcdb3b7e5ff02562f674a7f8e6eae
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009073"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092589"
 ---
-# <a name="set-up-payment-frequencies"></a>Paramétrage des fréquences de paiement
+# <a name="set-up-payment-frequencies"></a>Configurer les fréquences de paiement
 
 [!include [banner](includes/preview-feature.md)]
 

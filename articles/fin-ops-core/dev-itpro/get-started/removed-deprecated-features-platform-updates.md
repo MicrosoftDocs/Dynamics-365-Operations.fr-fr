@@ -3,7 +3,7 @@ title: Fonctions de plateforme supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer dans les mises à jour de plateforme des applications Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 02/25/2019
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 66e1420c7053c0df9f42b15c55aba1a8c869f02a
-ms.sourcegitcommit: 2cc3b89efdd90f8d80883b7a271d7885282ba3e8
+ms.openlocfilehash: d394f5ca84efc5beb943d349e45a3d2c9639d83c
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087881"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095772"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de plateforme supprimées ou obsolètes
 
@@ -45,7 +45,16 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Workflow |
 | **Option de déploiement**              | Tous |
-| **État **                         | La liste déroulante de sélection de l'utilisateur a été supprimée de la boîte de dialogue de demande de modification dans Platform update 32. Les demandes de modification seront automatiquement envoyées à l'expéditeur comme prévu. Pour plus d'informations sur cette fonctionnalité, consultez [Actions dans les processus d'approbation de workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
+| **État**                         | La liste déroulante de sélection de l'utilisateur a été supprimée de la boîte de dialogue de demande de modification dans Platform update 32. Les demandes de modification seront automatiquement envoyées à l'expéditeur comme prévu. Pour plus d'informations sur cette fonctionnalité, consultez [Actions dans les processus d'approbation de workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
+
+### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Les liens de suivi intégrés ne sont plus pris en charge dans les documents paginés rendus par le service hébergé par le cloud 
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Les URL de navigation intégrées dans des documents rendus par le service peuvent contenir des données de l'entreprise sensibles. Nous supprimons le support des liens de suivi intégrés dans les documents par mesure de prudence pour protéger davantage les données des clients. Les utilisateurs bénéficieront de performances améliorées tout en produisant des documents interactivement suite à ce changement.  |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Zones de produit affectées**         | Génération d'états |
+| **Option de déploiement**              | Tout |
+| **État**                         | Cette fonctionnalité est supprimée activement du service.<br><br>Le client moderne offre de nombreuses options pour produire des vues qui comprennent des liens générés automatiquement pour contribuer à la navigation dans l'application. Les documents paginés rendus par le service sont recommandés pour les communications externes qui sont envoyées par courrier électronique, archivées et imprimées pour les destinataires. Nous avons amélioré l'expérience de prévisualisation des documents directement dans le navigateur, ce qui offre un accès direct aux imprimantes locales. Pour plus d'informations, voir [Afficher un aperçu des documents PDF avec une visionneuse intégrée](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/preview-pdf-documents). |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annonces précédentes sur les fonctions supprimées ou obsolètes
 Pour en savoir plus sur les fonctionnalités supprimées ou obsolètes dans les versions précédentes, consultez [Fonctionnalités supprimées ou obsolètes dans les versions précédentes](../migration-upgrade/deprecated-features.md).

@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Retail
-description: Cette page vous indique des ressources qui vous permettent de connaître les nouvelles fonctions des dernières versions de Microsoft Dynamics 365 Retail.
+description: Cette page vous indique des ressources qui vous permettent de connaître les nouvelles fonctions des dernières versions de Microsoft Dynamics 365 Retail.
 author: sericks007
 manager: AnnBe
 ms.date: 10/20/2018
@@ -16,20 +16,19 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 3190a8978932ad8f8b22c9038625fe2dcdb43fce
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec4750d712c82ae909b0d4d7f52cc9f7f44d0875
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024499"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117288"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Nouveautés et modifications dans Dynamics 365 Retail
 
 [!include [banner](../../includes/banner.md)]
 
-Cette page vous indique des ressources qui vous permettent de connaître les nouvelles fonctions et modifications des dernières versions de Microsoft Dynamics 365 Retail.
+Cette page vous indique des ressources qui vous permettent de connaître les nouvelles fonctions et modifications des dernières versions de Microsoft Dynamics 365 Retail.
 
-[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="releases-of-dynamics-365-retail"></a>Versions de Dynamics 365 Retail
 

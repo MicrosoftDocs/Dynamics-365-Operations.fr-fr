@@ -1,6 +1,6 @@
 ---
 title: Vue d'ensemble
-description: ''
+description: Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instructions sur la configuration de Human Resources, la configuration de la rémunération et des avantages sociaux de vos employés et la gestion de votre personnel.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c489ddaec0363a5a6d68f0464786dfbe1b0e1349
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009006"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091722"
 ---
 # <a name="overview"></a>Vue d'ensemble
 
@@ -32,8 +32,8 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 ## <a name="set-up-human-resources"></a>Paramétrer Human Resources
 
 [Configuration des paramètres des Ressources humaines](hr-setup-parameters.md)</br>
-[Configurer les paramètres partagés de Human Resources](hr-setup-shared-parameters.md)</br>
-[Paramétrer des workflows pour Human Resources](hr-setup-workflows.md)</br>
+[Configurer les paramètres partagés des ressources humaines](hr-setup-shared-parameters.md)</br>
+[Configurer les workflows des ressources humaines](hr-setup-workflows.md)</br>
 [Comprendre les champs de date et d'heure](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Configurer les paramètres de votre organisation
@@ -69,7 +69,7 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 
 [Vue d'ensemble des régimes de rémunération](hr-compensation-overview.md)</br>
 [Paramétrer les grilles de rémunération](hr-compensation-grids.md)</br>
-[Développer une structure de rémunération et un plan](hr-compensation-structure.md)</br>
+[Développer un régime et une structure de rémunération](hr-compensation-structure.md)</br>
 [Créer des régimes de rémunération fixe](hr-compensation-fixed-plans.md)</br>
 [Créer des régimes de rémunération variable](hr-compensation-variable-plans.md)</br>
 [Inscrire des employés à un régime de rémunération fixe](hr-compensation-enroll-employees-fixed.md)</br>
@@ -86,29 +86,29 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 [Définir les règles d'admissibilité et les stratégies relatives aux avantages](hr-benefits-define-eligibility-rules.md)</br>
 [Communiquer le programme d'avantages à un employé](hr-benefits-deliver-employee-benefits-program.md)</br>
 [Créer des avantages](hr-benefits-create.md)</br>
-[Inscrire les collaborateurs à un avantage](hr-benefits-enroll-workers.md)</br>
+[Inscrire les collaborateurs à des avantages](hr-benefits-enroll-workers.md)</br>
 [Gérer les dates d'expiration des avantages](hr-benefits-expiration-dates.md)</br>
-[Générer des états ACA](hr-benefits-aca-reports.md)</br>
+[Générer des rapports ACA](hr-benefits-aca-reports.md)</br>
 
 ## <a name="manage-leave-and-absence"></a>Gérer les congés et les absences
 
 [Vue d'ensemble](hr-leave-and-absence-overview.md)</br>
-[Configuration des paramètres de congé et d'absence](hr-leave-and-absence-parameters.md)</br>
-[Création d'un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)</br>
-[Créer un workflow de demande d'absence](hr-leave-and-absence-workflow.md)</br>
-[Configuration des types de congé et d'absence](hr-leave-and-absence-types.md)</br>
-[Création d'un plan de congé et d'absence](hr-leave-and-absence-plans.md)</br>
+[Configurer les paramètres de congé et d'absence](hr-leave-and-absence-parameters.md)</br>
+[Créer un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)</br>
+[Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md)</br>
+[Configurer les types de congé et d'absence](hr-leave-and-absence-types.md)</br>
+[Créer un plan de congé et d'absence](hr-leave-and-absence-plans.md)</br>
 [Affecter des collaborateurs à un plan de congé](hr-leave-and-absence-enroll.md)</br>
-[Provisionner les plans de congé et d'absence](hr-leave-and-absence-accrue.md)</br>
-[Affichage des analyses des congés et des absences](hr-leave-and-absence-analytics.md)</br>
+[Régulariser les plans de congé et d'absence](hr-leave-and-absence-accrue.md)</br>
+[Afficher l'analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
 [Gérer les demandes de congé et d'absence](hr-employee-self-service-manage-requests.md)</br>
-[Demande de congés](hr-employee-self-service-request-time-off.md)</br>
-[Afficher les calendriers des équipes et des entreprises](hr-employee-self-service-calendar.md)</br>
+[Demander un congé](hr-employee-self-service-request-time-off.md)</br>
+[Afficher les calendriers des équipes et de la société](hr-employee-self-service-calendar.md)</br>
 
-## <a name="develop-employees"></a>Perfectionnement des employés
+## <a name="develop-employees"></a>Développer les employés
 
 [Vue d'ensemble de la gestion des performances](hr-develop-performance-management-overview.md)</br>
-[Aligner les compétences de la main-d'œuvre](hr-develop-skills.md)</br>
+[Aligner les qualifications du personnel](hr-develop-skills.md)</br>
 [Ajouter à votre journal de performances](hr-develop-add-performance-journal.md)</br>
 [Créer un objectif](hr-develop-create-goal.md)</br>
 [Créer une évaluation des performances](hr-develop-create-performance-review.md)</br>
@@ -124,7 +124,7 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 [Analyser les résultats de questionnaire](hr-learning-analyze-questionnaire-results.md)</br>
 [Créer une question ouverte](hr-learning-create-open-ended-question.md)</br>
 [Créer une question fermée](hr-learning-create-closed-ended-question.md)</br>
-[Créer une nouvelle question dépendante](hr-learning-depending-question.md)</br>
+[Créer une question dépendante](hr-learning-depending-question.md)</br>
 
 
 

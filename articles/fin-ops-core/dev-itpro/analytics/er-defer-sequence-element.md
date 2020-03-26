@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015214"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124541"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Différer l'exécution des éléments de séquence aux formats ER
 
@@ -45,7 +45,7 @@ L'option **Exécution différée** est prise en charge uniquement pour les élé
 
 L'option **Exécution différée** ne s'applique pas aux séquences qui ont été configurées comme séquences découpées où la longueur maximale est limitée.
 
-## <a name="Example"></a>Exemple : différer l'exécution d'un élément de séquence au format ER
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Exemple : différer l'exécution d'un élément de séquence au format ER
 
 Les étapes suivantes expliquent comment un utilisateur du consultant fonctionnel de l'administrateur système ou des états électroniques [rôle ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)peut configurer un format ER qui contient un élément de séquence où l'ordre d'exécution diffère de l'ordre dans la hiérarchie des formats.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083016"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113918"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calculer la disponibilité du stock pour les canaux de vente au détail
 
@@ -41,7 +41,7 @@ Cette rubrique explique les processus de synchronisation des données pouvant ê
 Vous pouvez utiliser les API suivantes pour afficher la disponibilité du stock d'un produit lorsque vos clients effectuent des achats sur un site de commerce électronique.
 
 - **GetEstimatedAvailable** : utilisez cette API pour obtenir la disponibilité du stock d'un article dans l'entrepôt du canal de commerce électronique ou tous les entrepôts liés à la configuration du groupe d'exécution pour le canal de commerce électronique. Cette API peut également être utilisée pour les entrepôts dans une zone ou un rayon de recherche spécifique, en fonction des données de longitude et de latitude.
-- **ProductWarehouseInventoryAvailabilities** : utilisez cette API pour demander le stock d'un article dans un entrepôt spécifique. Par exemple, vous pouvez l'utiliser pour afficher la disponibilité du stock dans des scénarios impliquant un prélèvement de commande.
+- **GetEstimatedProductWarehouseAvailability** : utilisez cette API pour demander le stock d'un article dans un entrepôt spécifique. Par exemple, vous pouvez l'utiliser pour afficher la disponibilité du stock dans des scénarios impliquant un prélèvement de commande.
 
 > [!NOTE]
 > Ces API remplacent les API **GetProductAvailabilities** et **GetAvailableInventoryNearby** dans Dynamics 365 Retail version 10.0.7 et les versions antérieures.
