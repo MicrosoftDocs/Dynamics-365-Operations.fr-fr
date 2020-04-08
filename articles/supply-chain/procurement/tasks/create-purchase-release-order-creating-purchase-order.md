@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad74f52682627d6164270de54e2dbcaeb57111fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 41d857dbe7c5f7af8ef7a50ee60784a53e5c6823
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547512"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147409"
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>Créer un ordre de lancement d'achat à la création de la commande fournisseur
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment utiliser un contrat d'achat lorsque vous créez une commande fournisseur. Le contrat d'achat doit être appliqué lorsque vous créez la commande fournisseur car il existe des conditions générales qui doivent être copiées dans l'en-tête de la commande fournisseur. Cette tâche est généralement effectuée par un agent des achats. Comme préalable à ce guide, vous devez posséder un contrat d'achat effectif avec un engagement de quantité de produits pour un fournisseur et des articles. La même procédure peut être utilisée si vous avez un contrat d'achat avec d'autres types d'engagements. Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF. Si vous utilisez USMF, vous pouvez d'abord exécuter le guide « Créer un contrat d'achat » pour paramétrer les conditions préalables nécessaires pour ce guide.
+Cette procédure indique comment utiliser un contrat d'achat lorsque vous créez une commande fournisseur. Le contrat d'achat doit être appliqué lorsque vous créez la commande fournisseur car il existe des conditions générales qui doivent être copiées dans l'en-tête de la commande fournisseur. Cette tâche est généralement effectuée par un agent des achats. Comme préalable à ce guide, vous devez posséder un contrat d'achat effectif avec un engagement de quantité de produits pour un fournisseur et des articles. La même procédure peut être utilisée si vous avez un contrat d'achat avec d'autres types d'engagements. Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF. Si vous utilisez USMF, vous pouvez d'abord exécuter le guide « Créer un contrat d'achat » pour paramétrer les conditions préalables nécessaires pour ce guide.
 
 
 ## <a name="create-a-purchase-order"></a>Créer une commande fournisseur

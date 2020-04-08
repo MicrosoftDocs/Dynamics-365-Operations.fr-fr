@@ -3,7 +3,7 @@ title: Type de destination pour l'impression d'états électroniques
 description: Cette rubrique explique comment configurer une imprimante pour chaque composant DOSSIER ou FICHIER d'un format de rapport électronique (ER) configuré pour générer des documents sortants aux formats PDF ou Microsoft Office (Excel\Word).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58e067baa130458e3a8e788d978604f208140a03
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 148da191ce4ea99c237895c40ec007a1aa0cd537
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019767"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150790"
 ---
-# <a name="PrinterDestinationType"></a>Destination de l'imprimante
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destination de l'imprimante
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,8 @@ La destination de l'**Imprimante** est implémentée uniquement pour les déploi
 
 > [!NOTE]
 > L'option **Convertir en PDF** ne doit pas être activée lorsque vous configurez la destination de l'**Imprimante**. La conversion PDF à des fins d'impression se produira même si l'option est désactivée.
+
+Pour utiliser une [orientation de la page](electronic-reporting-destinations.md#SelectPdfPageOrientation) spécifique lorsque vous imprimez un document sortant au format Excel, vous devez activer l'option **Convertir en PDF**. Lorsque vous définissez l'option **Convertir en PDF** sur **Oui**, le champ **Orientation de la page** devient disponible. Dans le champ **Orientation de la page**, sélectionnez une orientation de la page.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

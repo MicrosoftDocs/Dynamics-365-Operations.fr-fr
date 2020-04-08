@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 65b1d1a232558efbe05e83d51706a78b12439e47
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 524ae7b3062893ed07170227ea9b8908cd5858e1
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124137"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151295"
 ---
 # <a name="credit-management-setup"></a>Paramétrage de la gestion du crédit 
 
@@ -40,13 +40,17 @@ Allez à **Crédit et relances \> Configuration \> Workflows de gestion de créd
 
 Vous pouvez mettre une commande client en attente si les modalités de paiement de la commande ne correspondent pas à celles par défaut du client. Cependant, parfois les modalités de paiement diffèrent mais sont suffisamment similaires pour que vous ne souhaitiez pas mettre la commande en attente. Vous pouvez classer les modalités de paiement de sorte que certaines d'entre elles aient le même rang, tandis que d'autres ont un rang supérieur ou inférieur.
 
-Si le classement des modalités de paiement est actif, les commandes client seront mises en attente si les modalités de paiement de la commande ont un rang supérieur à celles par défaut du client.
+Si le classement des modalités de paiement est actif et si les modalités de paiement sur la commande ont un rang supérieur à celles par défaut du client, la commande client sera mise en attente.
+
+Pour configurer le classement des modalités de paiement, accédez à **Crédits et recouvrements \> Paramétrer \> Paramétrage de la gestion de crédits \>Classer les modalités de paiement.**  
 
 ### <a name="ranking-settlement-discounts"></a>Classement des remises de règlement
 
 Vous pouvez mettre une commande client en attente si l'escompte de règlement de la commande ne correspond pas à celui par défaut du client. Cependant, parfois les escomptes de règlement diffèrent mais sont suffisamment similaires pour que vous ne souhaitiez pas mettre la commande en attente. Vous pouvez classer les escomptes de règlement de sorte que certains d'entre eux aient le même rang, tandis que d'autres ont un rang supérieur ou inférieur.
 
 Si le classement des remises de règlement est actif, les commandes client seront mises en attente si l'escompte de règlement de la commande a un rang supérieur à celui par défaut du client.
+
+Pour configurer le classement des modalités de paiement, accédez à **Crédits et recouvrements \> Paramétrer \> Paramétrage de la gestion de crédits \>Classer les remises de règlement.**  
 
 ## <a name="reasons"></a>Motifs
 
@@ -56,7 +60,7 @@ Plusieurs types de motifs sont utilisés dans la gestion du crédit :
 - Les motifs de lancement sont attribués à une commande lorsqu'elle est libérée de la mise en attente.
 - Les motifs de statut indiquent pourquoi un statut de compte a été attribué à un client.
 
-Vous pouvez paramérer des motifs sur la page **Motifs de la gestion du crédit** (**Gestion du crédit \>Paramétrer \>Gestion du crédit \> Motifs de la gestion du crédit**).
+Vous pouvez paramétrer des motifs sur la page **Motifs de la gestion du crédit** (**Crédits et recouvrements \> Paramétrer \> Configuration de la gestion du crédit \> Motifs de la gestion du crédit**).
 
 1. Dans le champ **Type de motif**, sélectionnez le type de motif : **En attente**, **Lancement** ou **Statut**.
 2. Dans le champ **Motif**, entrez un nom pour le motif.
@@ -66,7 +70,7 @@ Vous pouvez paramérer des motifs sur la page **Motifs de la gestion du crédit*
 
 Les groupes de gestion de crédit sont utilisés pour identifier des clients ou des groupes de clients qui ont les mêmes propriétés de gestion de crédit. Par exemple, des groupes de gestion de crédit peuvent être utilisés pour déterminer les règles de gestion de crédit de blocage et d'exclusion pour les clients.
 
-Vous pouvez créer des groupes de gestion de crédit dans la page **Groupes de gestion de crédit** (**Gestion du crédit \> Paramétrer> Paramétrage des groupes \> Groupes de gestion de crédit**).
+Vous pouvez créer des groupes de gestion de crédit dans la page **Groupes de gestion de crédit** (**Crédits et recouvrements \> Paramétrer> Paramétrage de la gestion de crédits \> Groupes de gestion de crédit**).
 
 1. Sélectionnez **Nouveau** pour créer une ligne.
 2. Entrez un ID pour le groupe. L'ID peut contenir jusqu'à 10 caractères.
@@ -78,7 +82,7 @@ Le groupe de gestion des crédits est affecté à un client sur le raccourci **C
 
 Vous pouvez créer des statuts de compte pour identifier la solvabilité d'un compte client. Vous pouvez définir un statut et son effet sur les processus de facturation et de mise en attente de livraison. Les statuts de compte peuvent également être utilisés pour déterminer les règles de blocage pour un client.
 
-Vous pouvez créer des statuts de compte sur la page **Statuts du compte** (**Gestion de crédit \> Paramétrer> Paramétrage des groupes \> Statuts du compte**).
+Vous pouvez créer des statuts de compte sur la page **Statuts du compte** (**Crédits et recouvrements \> Paramétrer> Paramétrage de la gestion de crédits \> Statuts du compte**).
 
 1. Ajoutez un statut de compte et entrez une description qui représente la solvabilité d'un client. Par exemple, utilisez **Normal** pour indiquer qu'un client est en règle et que les commandes en cours sont soumises à un traitement standard de gestion du crédit.
 2. Dans les champs **Facturation** et **Livraison en attente**, sélectionnez le type de blocage qui doit se produire pour les clients ayant ce statut de compte. Vous pouvez suspendre tous les traitements, suspendre uniquement le traitement des factures ou ne conserver aucun traitement lorsque les règles de limite de crédit sont appliquées.
@@ -87,7 +91,7 @@ Vous pouvez créer des statuts de compte sur la page **Statuts du compte** (**G
 
 Vous pouvez configurer des groupes de notation pour définir les facteurs de risque et les critères utilisés pour les mesurer. Lorsque des informations sur un client sont appliquées à un groupe de notation, un score est calculé pour chaque facteur de risque et utilisé pour placer le client dans un groupe de risques. Le groupe de risques peut être utilisé pour identifier la solvabilité et calculer les limites de crédit automatiques.
 
-Vous pouvez créer des groupes de notation sur la page **Groupes de notation** (**Gestion de crédit \> Paramétrer \> Paramétrage des risques \> Groupes de notation**).
+Vous pouvez créer des groupes de notation sur la page **Groupes de notation** (**Crédits et recouvrements \> Paramétrer \> Paramétrage de la gestion de crédits \> Risque \> Groupes de notation**).
 
 1. Créez un groupe de notation et donnez-lui un nom.
 2. Entrez une description pour décrire plus en détail le groupe de notation.
@@ -108,11 +112,11 @@ Vous pouvez créer des groupes de notation sur la page **Groupes de notation** (
     1. Dans le champ **Valeur**, entrez la valeur définie par l'utilisateur qui doit être fournie à partir des informations client.
     2. Dans le **Score**, entrez le score à attribuer lorsque la valeur fournie se situe dans la plage « début »/« Fin ».
 
-## <a name="risk-assessments"></a>Évaluations des risques
+## <a name="risk-classification"></a>Classification du risque
 
 Vous pouvez définir des évaluations des risques qui peuvent être attribuées aux clients, en fonction de leur score de risque. Un score de risque est calculé en comparant les informations client à chaque groupe de notation. Les scores sont additionnés et le score total est comparé aux valeurs de la configuration du groupe de risques pour identifier le groupe de risques auquel appartient le client. Le score du groupe de risque est ensuite utilisé pour définir les règles de blocage et d'exclusion de la gestion du crédit pour le client.
 
-Vous pouvez paramétrer des groupes de risques sur la page **Évaluations des risques** (**Gestion de crédit \> Paramétrer \> Paramétrage des risques \> Évaluations des risques**).
+Vous pouvez paramétrer des groupes de risques sur la page **Évaluations des risques** (**Crédits et recouvrements \> Paramétrage \> Paramétrage de la gestion de crédits \> Risque \> Classification des risques**).
 
 1. Saisissez un ID de groupe de risques.
 2. Entrez une description pour expliquer plus en détail le groupe de risques.
@@ -121,7 +125,7 @@ Vous pouvez paramétrer des groupes de risques sur la page **Évaluations des ri
 
 ## <a name="guaranteeinsurance-types"></a>Types de garantie/assurance
 
-Vous pouvez paramétrer des types de garantie/assurance dans la page **Types de garantie/assurance** (**Gestion de crédit \> Paramétrer \> Paramétrage de la garantie/assurance \> Types de garantie/assurance**).
+Vous pouvez paramétrer des types de garantie/assurance dans la page **Types de garantie/assurance** (**Crédits et recouvrement \> Paramétrage \> Paramétrage de la gestion de crédits \> Assurance et garanties \> Types de garantie/assurance**).
 
 1. Saisissez un type de garantie ou d'assurance qui identifie le nom du garant ou du courtier d'assurance.
 2. Entrez une description pour décrire le garant/courtier d'assurance.
@@ -130,14 +134,14 @@ Vous pouvez paramétrer des types de garantie/assurance dans la page **Types de 
 
 Des types de couverture peuvent être utilisés pour classer davantage les polices d'assurance. Ils ne peuvent pas être utilisés avec des garanties.
 
-Vous pouvez ajouter des types de couverture sur la page **Types de couverture** (**Gestion de crédit \> Paramétrer \> Paramétrage de la garantie/assurance \> Types de couverture**).
+Vous pouvez ajouter des types de couverture sur la page **Types de couverture** (**Crédits et recouvrements \> Paramétrage \> Paramétrage de la gestion de crédits \> Assurance et garanties \> Types de couverture**).
 
 1. Saisissez un type de couverture pour identifier le type de couverture à ajouter en tant qu'assurance ou garantie.
 2. Entrez une description pour décrire le type de couverture.
 
 ## <a name="automatic-credit-limits"></a>Limites de crédit automatiques
 
-Vous pouvez créer des critères pour les limites de crédit automatiques sur la page **Limites de crédit automatiques** (**Gestion de crédit \> Paramétrer \> Paramétrage des risques \> Limites de crédit automatiques**).
+Vous pouvez créer des critères pour les limites de crédit automatiques sur la page **Limites de crédit automatiques** (**Crédits et recouvrements \> Paramétrer \> Paramétrage de la gestion de crédits \> Risque \> Limites de crédit automatiques**).
 
 1. Sélectionnez un groupe de risques auquel la limite de crédit automatique doit être affectée.
 2. Sélectionnez la devise pour la limite de crédit automatique. Vous pouvez créer plusieurs limites de crédit automatiques dans différentes devises pour le même groupe de risques.

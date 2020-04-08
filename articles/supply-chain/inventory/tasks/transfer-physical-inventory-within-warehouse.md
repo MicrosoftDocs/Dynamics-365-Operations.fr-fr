@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7715c8e7a56703993e8512af03f2ab8d6802a987
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 899701413814ce38a4367618ed72d1039eca0bf8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916574"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148168"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Transférer du stock physique au sein de l'entrepôt
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure vous accompagne dans le processus de création et de validation d'un journal de transfert de stock en vue d'enregistrer le mouvement d'un article à partir d'un emplacement dans un entrepôt vers un autre. Avant de commencer, vous devez avoir configuré un nom de journal de stock pour les transferts de stock. Vous pouvez suivre cette procédure avec les données de démonstration de la société fictive USMF à l'aide des valeurs d'exemple affichées, ou utiliser vos propres données si vous avez des produits et des emplacements configurés. Ces tâches sont normalement effectuées par un employé de l'entrepôt.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc43c852fc1eff8134251efd617fc4c80b9b5480
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 85d687c0c21112f815bb5cf28b0af5501d299c12
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835932"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148122"
 ---
 # <a name="create-a-baseline-forecast"></a>Créer une prévision de base
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Un responsable de production peut créer une prévision de base à l'aide des modèles de prévision de série chronologiques ou en copiant la demande historique. Cette procédure indique comment copier la demande historique pour créer une prévision de base pour tous les produits à l'aide d'une clé de répartition par article. 
 

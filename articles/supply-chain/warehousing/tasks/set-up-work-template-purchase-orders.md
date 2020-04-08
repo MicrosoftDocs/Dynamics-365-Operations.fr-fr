@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227a6865df826caf8ce154f9c44ebe082acd76a5
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 473bb133159bb6cdcbbd30ab2c8452eb69f8cfaf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916735"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148192"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Paramétrer un modèle de travail pour les commandes fournisseur
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique décrit comment paramétrer un modèle de travail simple à utiliser pour le rangement des articles reçus. Les modèles de travail déterminent l'ensemble des instructions fournies à l'employé de l'entrepôt sur un appareil mobile lorsqu'il déplace des articles à partir de la zone de réception. Vous pouvez utiliser cette procédure avec les données fournies avec la société fictive de démonstration USMF. Avant de lancer ce guide, créez un ID de pool de travail. Dans cet exemple, on utilise un ID de pool de travail appelé Entrant. Cette procédure est destinée au gestionnaire d'entrepôts.
 

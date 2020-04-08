@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 544c298f83c4b1838a94aee95ed6038fcc1f4e4f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c1886413ba7eabc60f902c0183b443d63a579d7b
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177838"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161682"
 ---
 # <a name="employment-verification-i9-verification"></a>Vérification d'emploi i9 vérification
 
-[!include [task guide banner](../../../includes/task-guide-banner.md)]
+[!include [banner](../../../includes/banner.md)]
 
 Aux États-Unis, l'IRCA (Immigration Reform and Control Act) requiert que les employeurs vérifient l'admissibilité des employés nouvellement engagés. Cette procédure décrit les étapes pour enregistrer les documents nécessaires à la vérification du Formulaire I-9. Utilisez la société fictive USMF pour cette procédure.
 

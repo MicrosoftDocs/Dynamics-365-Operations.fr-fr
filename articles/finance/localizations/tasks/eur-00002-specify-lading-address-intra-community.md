@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6eea2a905a59842b6f39c5b1e1c78ae6801b28e0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e555d6791f596850ba1ed718aa5593ee3f88bed9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175136"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144514"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Définition d'une adresse de chargement pour une transaction intracommunautaire
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure indique comment spécifier une adresse de chargement pour une transaction d'échanges intracommunautaires. Par exemple, une société allemande commande des articles auprès d'un fournisseur ayant une adresse professionnelle allemande. Ce fournisseur a un entrepôt en Italie et expédie les articles depuis cet emplacement. Cette livraison doit être portée dans la déclaration d'échanges de biens. Le même comportement est valide pour les retours client.
 Cette procédure s'applique à tous les pays/régions européens. La tâche a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Allemagne. Avant d'exécuter cette procédure, vous devez configurer la génération d'états de déclaration d'échanges de biens. Cette procédure est destinée aux comptables. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.

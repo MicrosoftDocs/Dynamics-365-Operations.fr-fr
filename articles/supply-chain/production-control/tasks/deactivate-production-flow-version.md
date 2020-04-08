@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c9646a01924255b8b1b40fc2a5684ba30967fe1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 860873a1fd61d52f642774e69d48c5ef6c7465a9
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843839"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146834"
 ---
 # <a name="deactivate-a-production-flow-version"></a>Désactiver la version d'un flux de production
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Lorsqu'une version de flux de production active n'est plus nécessaire, elle peut être désactivée. Vous devez uniquement utiliser cette option si toutes les règles de kanban et activités sont terminées et ne sont pas réactivées. Notez que la date d'expiration de toutes les règles de kanban associées à cette version de flux de production est mise à jour sur la date et l'heure actuelles. 
 

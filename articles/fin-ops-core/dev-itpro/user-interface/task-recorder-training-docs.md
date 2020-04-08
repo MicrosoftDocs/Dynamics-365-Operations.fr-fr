@@ -3,7 +3,7 @@ title: Créer une documentation ou une formation avec l'enregistreur de tâches
 description: Cette rubrique explique ce que sont l'enregistreur de tâches et les guides de tâche, comment créer des enregistrements de tâches, et comment personnaliser les guides de tâches Microsoft et les inclure dans votre rubrique d'aide.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006193"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164556"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Créer une documentation ou une formation avec l'enregistreur de tâches
 
@@ -40,8 +40,6 @@ Cette rubrique explique ce que sont l'enregistreur de tâches et les guides de t
 L'enregistreur de tâches est un outil que vous pouvez utiliser pour enregistrer les actions que vous effectuez dans l'interface utilisateur du produit. Lorsque vous utilisez l'enregistreur de tâches, tous les événements que vous effectuez dans l'IU qui sont exécutés par rapport au serveur (notamment l'ajout de valeurs, la modification de paramètres, la suppression de données) sont capturés. Les étapes que vous enregistrez sont collectivement appelées un *enregistrement de tâche*. Les enregistrements de tâche peuvent être utilisés de plusieurs manières :
 
 -   **Les enregistrements de tâches peuvent être lus comme guides de tâche.** Les guides de tâches font partie intégrante de l'expérience d'aide. Un guide de tâche est une expérience contrôlée, guidée et interactive qui parcourt les étapes d'un processus métier. L'utilisateur est invité à compléter chaque étape par une invite contextuelle (ou « bulle »), qui anime l' IU et pointe vers l'élément de l'IU avec lequel l'utilisateur doit interagir. La « bulle » fournit également des informations sur la manière d'interagir avec l'élément, par exemple « Cliquez ici » « ou « Dans ce champ, entrez une valeur ». Un Guide de tâche s'exécute pour l'ensemble de données de l'utilisateur actif et les données entrées sont enregistrées dans l'environnement de l'utilisateur.
--   **Les enregistrements de tâche peuvent être affichés en tant que procédures décomposées en étapes dans le volet Aide.** Vous pouvez utiliser le volet Aide pour chercher et afficher des enregistrements de tâche. Vous pouvez accéder au volet Aide en cliquant sur l'icône **?** dans la barre de navigation supérieure, ou vous pouvez utiliser la combinaison de touches de raccourci, **Ctrl+Shift+?**. Vous pouvez lire les étapes d'un enregistrement de tâche dans le volet Aide, ou vous pouvez choisir de lire l'enregistrement comme guide de tâche, ce qui vous guide dans l'IU.
--   **Les enregistrements de tâches peuvent être enregistrés dans BPM.** Vous pouvez sauvegarder votre enregistrement de tâche dans une ligne de hiérarchie d'une bibliothèque BPM dans LCS (Lifecycle Services). Une liste des étapes et un schéma de flux de processus entreprise sera généré à partir de l'enregistrement. Les enregistrements de tâche qui ont été enregistrés dans une bibliothèque BPM peuvent être affichés en tant qu'aide.
 -   **Les enregistrements de tâche peuvent être enregistrés comme documents Word.** Cela permet de créer facilement des manuels de formation imprimables.
 
 Vous pouvez créer vos propres enregistrements de tâche, lire des enregistrements de tâche fournis par Microsoft, ou modifier des enregistrements de tâche Microsoft pour mieux refléter votre configuration. Pour plus d'informations sur l'enregistreur de tâches, consultez [Enregistreur de tâches](task-recorder.md).
@@ -114,8 +112,7 @@ Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft
 10. Une fois que l'enregistrement a été lu jusqu'à la fin, cliquez sur **Arrêter** dans la barre de l'enregistreur de tâche en haut de l'écran.
 11. Choisissez la manière dont vous souhaitez enregistrer l'enregistrement de tâche.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Intégrer vos enregistrements de tâche dans le volet Aide
-Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide afin qu'ils puissent être lus comme guides de tâche ou affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d'aide pour pointer vers votre bibliothèque BPM. Pour plus d'informations, voir [Connexion au système d'aide](../../fin-ops/get-started/help-connect.md).
+
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------

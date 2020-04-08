@@ -15,16 +15,16 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ed5e463f23bd2e2bde7d34a0e5b59d416f6fb84
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7268b961cf6c79d491fe5b1a698e42bb39b21795
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175137"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137977"
 ---
 # <a name="set-up-payment-balance-reporting-belgium"></a>Paramétrer la déclaration de la balance des paiements (Belgique)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Utilisez cette procédure pour paramétrer les informations BLWI (Belgisch Luxemburgs Wissel Instituut) pour la Belgique. Cette procédure a été créée à l'aide de la société fictive USSI.
 
@@ -59,7 +59,7 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse
 5. Dans le champ Téléphone, tapez une valeur.
 6. Dans le champ Télécopie, tapez une valeur.
 7. Dans le champ Vérifier le code BLWI dans les journaux, sélectionnez une option.
-    * Dans le champ Vérifier le code BLWI, sélectionnez la règle permettant de vérifier qu'un code objectif de paiement est spécifié dans les documents. Les options disponibles sont Aucun, Avertissement et Erreur. Si une transaction a un client/fournisseur situé à l'étranger (autrement dit, le pays/la région du client/fournisseur est différent du pays/de la région de l'entité juridique), la transaction n'a pas de code objectif de paiement affecté et la vérification est définie sur Avertissement ou Erreur, un message d'avertissement ou d'erreur s'affiche lors de la validation. Cette validation est appliquée à toutes les transactions client/fournisseur sauf les transactions de paiement.  
+    * Dans le champ Vérifier le code BLWI, sélectionnez la règle permettant de vérifier qu'un code objectif de paiement est spécifié dans les documents. Les options disponibles sont Aucun, Avertissement et Erreur. Si une transaction a un client/fournisseur situé à l'étranger (autrement dit, le pays/la région du client/fournisseur est différent du pays/de la région de l'entité juridique), si la transaction n'a pas de code objectif de paiement affecté et si la vérification est définie sur Avertissement ou Erreur, un message d'avertissement ou d'erreur s'affiche lors de la validation. Cette validation est appliquée à toutes les transactions client/fournisseur sauf les transactions de paiement.  
 8. Saisissez ou sélectionnez une valeur dans le champ Mise en correspondance des formats.
     * Conditions préalables : vous devez télécharger la configuration (BE) du format BLWI pour les états électroniques auprès de Microsoft Dynamics Lifecycle Services (LCS).  
 

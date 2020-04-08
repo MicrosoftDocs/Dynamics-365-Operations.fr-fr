@@ -1,5 +1,5 @@
 ---
-title: " Ajustements de prix de la vente au détail"
+title: Ajustements de prix de la vente au détail
 description: Cette procédure décrit la création d'un ajustement du prix de commerce.
 author: josaw1
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd6459416ca42530401aa439b1b8511657bd9b36
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 83498fa0a0432cb182106d6d273cb6117ed0b094
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022500"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141240"
 ---
 # <a name="retail-price-adjustments"></a> Ajustements de prix de la vente au détail
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette procédure décrit la création d'un ajustement du prix de commerce. Un ajustement du prix permet de définir directement le prix de vente d'un article ou de modifier son prix de vente de base ou le prix de vente indiqué dans l'accord commercial. La société fictive USRT sert d'exemple dans cette procédure.
 

@@ -3,7 +3,7 @@ title: Paramétrage de la gestion du crédit
 description: Cette rubrique décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124183"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154526"
 ---
 # <a name="credit-management-parameters-setup"></a>Paramétrage de la gestion du crédit
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise. Pour commencer à utiliser les fonctions de gestion des crédits, configurez les paramètres sur la page **Paramètres de gestion du crédit** (**Gestion de crédit \> Paramétrer \> Paramètres de gestion du crédit**).
+Cette rubrique décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise. Pour utiliser les fonctions de gestion des crédits, configurez les paramètres sur la page **Paramètres de crédits et recouvrements** (**Crédits et recouvrements \> Paramétrer \> Paramètres de crédits et recouvrements**).
 
 ## <a name="credit-parameters"></a>Paramètres de crédit
 
-Il existe quatre raccourcis vous permettant de modifier les paramètres qui contrôlent la gestion des crédits : **Suspensions de crédit**, **Point de contrôle de gestion de crédit**, **Statistiques de gestion de crédit** et **Limites de crédit**. Les sections suivantes décrivent les paramètres disponibles sur chaque raccourci.
+Dans la section **Crédit**, quatre raccourcis vous permettent de modifier les paramètres qui contrôlent la gestion des crédits : **Suspensions de crédit**, **Point de contrôle de gestion de crédit**, **Statistiques de gestion de crédit** et **Limites de crédit**. Les sections suivantes décrivent les paramètres disponibles sur chaque raccourci.
 
 ### <a name="credit-holds"></a>Suspensions de crédit
 

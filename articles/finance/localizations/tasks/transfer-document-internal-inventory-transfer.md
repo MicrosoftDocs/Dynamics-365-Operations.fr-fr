@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4da59781f3357a6713eebba03d87c5127b8cd3b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5cb0d3d51bf30717f05a4daf1a098565d5d48621
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174860"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143407"
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>Générer un document de transfert pour un transfert de stock interne
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment créer des documents de transfert pour le mouvement de marchandises dans une société. Cette procédure est uniquement disponible pour les entités juridiques dont l'adresse principale se situe en Lituanie. La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Lituanie. Avant d'exécuter cette procédure, vous devez exécuter la procédure « Paramétrer les documents de transfert pour le mouvement de marchandises dans une société ». Cette procédure est destinée aux comptables de stock. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Cette procédure indique comment créer des documents de transfert pour le mouvement de marchandises dans une société. Cette procédure est uniquement disponible pour les entités juridiques dont l'adresse principale se situe en Lituanie. La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Lituanie. Avant d'exécuter cette procédure, vous devez exécuter la procédure « Paramétrer les documents de transfert pour le mouvement de marchandises dans une société ». Cette procédure est destinée aux comptables de stock. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="create-a-transfer-order"></a>Création d'un ordre de transfert

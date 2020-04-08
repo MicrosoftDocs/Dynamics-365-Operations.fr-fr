@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b346731ec80d08afabe648e1b47b30b53b29e744
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 30ffb34e2aee984d29bedb47d6bfc9cb6173470a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924400"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148674"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Création d'une commande fournisseur à partir d'une commande client
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure vous montre comment créer une commande fournisseur sur la base d'une commande client. Les quantités du produit dans la commande fournisseur sont alors désignées pour honorer la demande de la commande client d'origine. La satisfaction des commandes par ce moyen constitue une alternative à une méthode plus complète et plus optimisée de planification des besoins de distribution. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 

@@ -1,5 +1,5 @@
 ---
-title: " Configurer un collaborateur"
+title: Configurer un collaborateur
 description: Cette procédure illustre comment configurer un collaborateur en tant que commercial qui peut bénéficier d'une commission sur les ventes dans POS.
 author: jblucher
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aee84f2dc39d2225985992fac0f9c20985ed9804
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd437f549ffc1f8879ce3814ace1193040b280e1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022494"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140676"
 ---
 # <a name="configure-a-worker"></a> Configurer un collaborateur
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette procédure illustre comment configurer un collaborateur en tant que commercial qui peut bénéficier d'une commission sur les ventes dans POS. La société fictive USRT sert d'exemple dans cette procédure.
 

@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec353ecffdc457e1502cfad24e7a50ae31048647
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558005"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146052"
 ---
 # <a name="set-up-dispositions-codes"></a>Paramétrer les codes disposition
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure se concentre sur le paramétrage du code disposition qui peut être utilisé sur un périphérique portable pour l'ordre de retour recevant le processus. Les codes disposition sont une collection de règles qu'il est possible d'utiliser lorsque des articles endommagés sont reçus. Par exemple, lorsqu'un utilisateur du travail utilise un périphérique portable pour recevoir les articles qui ont été endommagés, l'utilisateur doit numériser un code disposition pour les articles endommagés. Le statut du stock des marchandises reçues, le modèle de travail et la directive d'emplacement peuvent être déterminés à partir du code disposition numérisé. Pour la commande fournisseur recevant le processus et le rapport de l'ordre de fabrication comme étant terminés, l'utilisation de code disposition est facultative. Pour le processus de réception de retour de commande client, si les articles sont stockés à l'aide d'un périphérique mobile, l'utilisation de code disposition est obligatoire.  Ce guide a été créé à l'aide des données fictives de la société USMF. Cette procédure est destinée au gestionnaire d'entrepôts. 
 

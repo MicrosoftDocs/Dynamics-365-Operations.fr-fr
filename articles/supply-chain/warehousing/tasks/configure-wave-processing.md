@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc28149aa56302e09eb0e7be581a582f58a76416
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9c813a429d7837493663625bde341638eecfc5ee
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847349"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148497"
 ---
 # <a name="configure-wave-processing"></a>Configurer le traitement de la vague
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique décrit la procédure de paramétrage des critères qui déterminent le travail généré pour un entrepôt lorsqu'une vague est traitée et si les vagues sont traitées manuellement ou automatiquement. Vous devez spécifier les critères en paramétrant des modèles de vague et des requêtes qui correspondent à une vague avec des lignes libérées dans des commandes client, des ordres de fabrication ou de kanbans. Le traitement de vague est utilisé dans des entrepôts qui utilisent la fonctionnalité dans le module Gestion des entrepôts, et non ceux qui utilisent la fonctionnalité dans le module Gestion des stocks. Vous pouvez exécuter cette procédure dans les données de démonstration de la société fictive USMF.
 
@@ -44,7 +44,7 @@ Cette rubrique décrit la procédure de paramétrage des critères qui détermin
 12. Définissez l'option **Automatiser la libération du travail de réapprovisionnement** sur **Oui**. Sélectionnez cette option pour créer un travail de réapprovisionnement basé sur la demande et le libérer automatiquement. Vous devez ajouter la méthode de vague de réapprovisionnement au modèle de vague, puis créer un modèle de réapprovisionnement du type Demande de vague.  
 13. Développez la section **Méthodes**.
 
-    - Les méthodes de modèle de vague vous permettent de contrôler la séquence d'activités exécutée par chaque vague lorsqu'elle est traitée. Par exemple, vous pouvez avoir une méthode pour le réapprovisionnement de vague. Lorsque vous ajoutez une méthode, elle est automatiquement répertoriée dans l'emplacement adapté dans la suite d'étapes. Si vous avez défini l'option Automatiser la libération du travail de réapprovisionnement sur Oui, vous devez ajouter la méthode de réapprovisionnement ici.  
+    - Avec les méthodes de modèle de vague, contrôlez la séquence d'activités exécutée par chaque vague lorsqu'elle est traitée. Par exemple, vous pouvez avoir une méthode pour le réapprovisionnement de vague. Lorsque vous ajoutez une méthode, elle est automatiquement répertoriée dans l'emplacement adapté dans la suite d'étapes. Si vous avez défini l'option Automatiser la libération du travail de réapprovisionnement sur Oui, vous devez ajouter la méthode de réapprovisionnement ici.  
     - Les attributs de vague agissent en tant que filtres, pour limiter le type d'article pouvant utiliser la vague. Vous pouvez par exemple spécifier un groupe d'articles.  
 14. Cliquez sur **Enregistrer**.
 15. Fermez la page.

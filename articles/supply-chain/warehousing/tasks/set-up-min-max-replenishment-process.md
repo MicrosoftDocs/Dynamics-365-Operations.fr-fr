@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
-ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
+ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "2559187"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145960"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Paramétrer un processus de réapprovisionnement minimum/maximum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure décrit la manière de paramétrer un nouveau processus de réapprovisionnement qui utilise une stratégie de réapprovisionnement minimal/maximal. Lorsque le stock passe en dessous du niveau minimal, le travail est créé pour réapprovisionner l'emplacement. La procédure indique également comment utiliser les emplacements de prélèvement fixes pour autoriser la remise en stock même si le stock passe en dessous du niveau minimal et comment activer le processus de réapprovisionnement pour qu'il s'exécute régulièrement en utilisant un traitement par lots. Ces tâches sont généralement effectuées par un responsable de l'entrepôt. Vous pouvez exécuter cette procédure dans les données fictives de la société USMF à l'aide des valeurs d'exemple ci-dessous, ou pouvez l'exécuter sur vos propres données. Si vous utilisez vos propres données, vérifiez que vous avez un entrepôt qui est activé pour les processus de gestion des entrepôts.
 
@@ -109,7 +109,7 @@ Cette procédure décrit la manière de paramétrer un nouveau processus de réa
 ## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a>Paramétrer le processus de réapprovisionnement pour s'exécuter comme un traitement par lots
 1. Accédez à **Gestion des entrepôts > Réapprovisionnement > Réapprovisionnements**. La page Réapprovisionnements vous permet de définir l'exécution du réapprovisionnement comme un traitement par lots ou pour demander qu'il soit lancé manuellement.
 2. Cliquez sur **Filtre**.
-3. Dans la liste, marquez la ligne sélectionnée.
+3. Dans la liste, marquer la ligne sélectionnée.
 4. Dans le champ **Critères**, saisissez ou sélectionnez une valeur.
 5. Cliquez sur **OK**.
 6. Développez la section **Exécuter à l'arrière-plan**.

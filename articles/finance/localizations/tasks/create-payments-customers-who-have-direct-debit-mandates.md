@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 129c5291a29994f91ef325aa9b9a3b54a0e958d6
-ms.sourcegitcommit: 807dec193cd163c9f5d949e744cfde40f2eb24b4
+ms.openlocfilehash: 9a4714f1f1b24554684219fc1d766b4b87cff7bb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2468953"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141601"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>Créer des paiements pour les clients qui ont des mandats de débit direct
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure indique comment générer un fichier de paiement à débit direct ISO20022 pour un client dont le débit direct est configuré et qui a une facture à payer. La création et la validation d'une facture sont facultatives. Au lieu d'avoir une facture à payer, vous pouvez sélectionner un mandat dans un journal avant de générer un fichier de paiement, pour prendre en charge un scénario d'acompte client.
 

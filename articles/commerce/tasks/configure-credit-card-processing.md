@@ -1,5 +1,5 @@
 ---
-title: " Configurer le traitement de carte de crédit"
+title: Configurer le traitement de carte de crédit
 description: Cette procédure décrit comment afficher la liste des fournisseurs de paiement et comment configurer un compte de paiement pour la comptabilité client.
 author: jashanno
 manager: AnnBe
@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04ce158a833d04122ee5a724165b06925cea1185
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2cfec44bc1c767dff1109c4ecd4e2862443fb1d0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022527"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141497"
 ---
 # <a name="configure-credit-card-processing"></a> Configurer le traitement de carte de crédit
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette procédure décrit comment afficher la liste des fournisseurs de paiement et comment configurer un compte de paiement pour la comptabilité client. Cette procédure utilise la société USRT dans les données de démonstration et est destinée aux administrateurs et aux professionnels de l'informatique.
 

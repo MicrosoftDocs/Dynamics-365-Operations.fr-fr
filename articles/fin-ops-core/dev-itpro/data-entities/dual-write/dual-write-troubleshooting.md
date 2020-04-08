@@ -1,9 +1,9 @@
 ---
-title: Guide de résolution des problèmes d'intégration de données
-description: Cette rubrique fournit des informations sur le dépannage de l'intégration des données entre les applications Finance and Operations et Common Data Service.
+title: Résolution générale des problèmes
+description: Cette rubrique fournit des informations sur la résolution générale des problèmes liés à l'intégration de la double écriture entre les applications Finance and Operations et Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,57 +18,98 @@ ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 87bdb72024c1c3844ff61e832a92f7edcc77c5d6
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.search.validFrom: 2020-03-16
+ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019781"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172689"
 ---
-# <a name="troubleshooting-guide-for-data-integration"></a>Guide de résolution des problèmes d'intégration de données
+# <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Activer les journaux de suivi des plug-ins dans Common Data Service et vérifier les détails d'erreur de plug-in en double écriture
 
-Si vous rencontrez un problème ou une erreur durant la synchronisation en double écriture, procédez comme suit pour examiner les erreurs dans le journal de suivi.
+Cette rubrique fournit des informations sur la résolution générale des problèmes liés à l'intégration de la double écriture entre les applications Finance and Operations et Common Data Service.
 
-1. Avant de pouvoir examiner les erreurs, vous devez activer les journaux de suivi des plug-ins. Pour obtenir des instructions, voir la section « Afficher les journaux de suivi » du [Didacticiel : Écrire et enregistrer un plug-in](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
+> [!IMPORTANT]
+> Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d'administrateur système ou les identifiants d'admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d'identification sont requis.
 
-    Vous pouvez désormais examiner les erreurs.
+## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Lorsque vous essayez d'installer le package de double écriture à l'aide de l'outil Package Deployer, aucune solution disponible n'est affichée.
 
-2. Connectez-vous à Microsoft Microsoft Dynamics 365 Sales.
-3. Sélectionnez le bouton **Paramètres** (le symbole d'engrenage), puis sélectionnez **Paramètres avancés**.
-4. Dans le menu  **Paramètres**, choisissez **Personnalisation \> Journal de suivi des plug-ins**.
-5. Sélectionnez le nom de type **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** pour afficher les détails de l'erreur.
+Certaines versions de l'outil Package Deployer sont incompatibles avec le package de solution de double écriture. Pour installer correctement le package, assurez-vous d'utiliser la [version 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) ou une version ultérieure de l'outil Package Deployer.
 
-## <a name="inspect-dual-write-synchronization-errors"></a>Contrôler les erreurs de synchronisation en double écriture
+Après avoir installé l'outil Package Deployer, installez le package de solution en suivant ces étapes.
 
-Procédez comme suit pour examiner les erreurs au cours des tests.
+1. Téléchargez le dernier fichier de package de solution depuis Yammer.com. Une fois le fichier zip du package téléchargé, cliquez dessus avec le bouton droit et sélectionnez **Propriétés**. Cochez la case **Débloquer**, puis sélectionnez **Appliquer**. Si vous ne voyez pas la case à cocher **Débloquer**, le fichier zip est déjà débloqué et vous pouvez ignorer cette étape.
+
+    ![Boîte de dialogue Propriétés](media/unblock_option.png)
+
+2. Extrayez le fichier zip du package et copiez tous les fichiers dans le dossier **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
+
+    ![Contenu du dossier Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+
+3. Collez tous les fichiers copiés dans le dossier **Outils** de l'outil Package Deployer. 
+4. Exécutez **PackageDeployer.exe** pour sélectionner l'environnement Common Data Service et installez les solutions.
+
+    ![Contenu du dossier Outils](media/paste_copied_files.png)
+
+## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Activer et afficher le journal de suivi des plug-ins dans Common Data Service pour afficher les détails de l'erreur
+
+**Rôle requis pour activer le journal de suivi et afficher les erreurs :** Administrateur système
+
+Pour activer le journal de suivi, procédez comme suit.
+
+1. Connectez-vous à l'application Finance and Operations, ouvrez la page **Paramètres**, puis, sous **Système**, sélectionnez **Administration**.
+2. Sur la page **Administration**, sélectionnez **Paramètres système**.
+3. Sur l'onglet **Personnalisation**, dans le champ **Suivi de plug-ins et d'activités de workflow personnalisées**, sélectionnez **Tout** pour activer le journal de suivi du plug-in. Si vous souhaitez consigner les journaux de suivi uniquement lorsque des exceptions se produisent, sélectionnez plutôt **Exception**.
+
+
+Pour afficher le journal de suivi, procédez comme suit.
+
+1. Connectez-vous à l'application Finance and Operations, ouvrez la page **Paramètres**, puis, sous **Personnalisation**, sélectionnez **Journal de suivi du plug-in**.
+2. Recherchez les journaux de suivi où le champ **Nom du type** est défini sur **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+3. Double-cliquez sur un élément pour afficher le journal complet, puis, sur le raccourci **Exécution**, passez en revue le texte du **Bloc de message**.
+
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Activez le mode débogage pour résoudre les problèmes de synchronisation en direct dans les applications Finance and Operations
+
+**Rôle requis pour afficher les erreurs :** Administrateur système
+
+Des erreurs de double écriture qui proviennent de Common Data Service peuvent apparaître dans l'application Finance and Operations. Dans certains cas, le texte intégral du message d'erreur n'est pas disponible, car le message est trop long ou contient des informations d'identification personnelle (IIP). Vous pouvez activer la journalisation détaillée des erreurs en procédant comme suit.
+
+1. Toutes les configurations de projet dans les applications Finance and Operations ont une propriété **IsDebugMode** dans l'entité **DualWriteProjectConfiguration**. Ouvrez l'entité **DualWriteProjectConfiguration** à l'aide du module complémentaire Excel.
+
+    > [!TIP]
+    > Un moyen simple d'ouvrir l'entité consiste à activer le mode **Conception** dans le module complémentaire Excel, puis ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour en savoir plus, voir [Ouvrir des données d'entité dans Excel et les mettre à jour à l'aide du module complémentaire Excel](../../office-integration/use-excel-add-in.md).
+
+2. Définissez la propriété **IsDebugMode** sur **Oui** pour le projet.
+3. Exécutez le scénario qui génère des erreurs.
+4. Les journaux détaillés sont disponibles dans la table DualWriteErrorLog. Pour rechercher des données dans le navigateur de table, utilisez l'URL suivante (remplacez **XXX**, le cas échéant) :
+
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Vérifier les erreurs de synchronisation sur la machine virtuelle pour l'application Finance and Operations
+
+**Rôle requis pour afficher les erreurs :** Administrateur système
 
 1. Connectez-vous à Microsoft Dynamics Lifecycle Services (LCS).
-2. Ouvrez le projet LCS pour effectuer le test de double écriture.
-3. Sélectionnez **Environnements hébergés dans le cloud**.
-4. Établissez une connexion RDP (Remote Desktop Protocol) à l'ordinateur virtuel (VM) de l'application en utilisant le compte local qui s'affiche dans LCS.
-5. Ouvrez l'Observateur d'événements. 
-6. Accédez à **Journaux des applications et des services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Opérationnel**. Les erreurs et les détails sont affichés.
+2. Ouvrez le projet LCS que vous avez choisi pour effectuer le test de double écriture.
+3. Sélectionnez la vignette **Environnements hébergés dans le cloud**.
+4. Utilisez Remote Desktop pour vous connecter à la machine virtuelle pour l'application Finance and Operations. Utilisez le compte local affiché dans LCS.
+5. Ouvrez l'observateur d'événements.
+6. Sélectionnez **Journaux des applications et des services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Opérationnel**.
+7. Consultez la liste des erreurs récentes.
 
-## <a name="unlink-one-common-data-service-environment-from-the-application-and-link-another-environment"></a>Supprimer un environnement Common Data Service depuis l'application et lier un autre environnement
+## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Dissocier et lier un autre environnement Common Data Service depuis une application Finance and Operations
 
-Procédez comme suit pour mettre à jour des liens.
+**Informations d'identification requises pour dissocier l'environnement :** administrateur du client Azure AD
 
-1. Accédez à l'environnement d'application.
-2. Ouvrez Gestion des données.
-3. Sélectionnez **Lien vers CDS for Apps**.
-4. Sélectionnez toutes les mises en correspondance qui s'exécutent, puis sélectionnez **Arrêter**.
-5. Sélectionnez toutes les mises en correspondance et sélectionnez **Supprimer**.
+1. Connectez-vous à l'application Finance and Operations.
+2. Accédez à **Espaces de travail \> Gestion des données** et sélectionnez la vignette **Double écriture**.
+3. Sélectionnez toutes les mises en correspondance en cours d'exécution et sélectionnez **Arrêter**.
+4. Cliquez sur **Supprimer le lien avec l'environnement**.
+5. Sélectionnez **Oui** pour confirmer l'opération.
 
-    > [!NOTE]
-    > L'option **Supprimer** n'est pas disponible si le modèle **CustomerV3-Account** est sélectionné. Effacez la sélection de ce modèle, si nécessaire. **CustomerV3-Account** est un modèle anciennement mis en service et fonctionne avec la solution Prospect en disponibilités. Comme il est disponible mondialement, il s'affiche sous tous les modèles.
-
-6. Cliquez sur **Supprimer le lien avec l'environnement**.
-7. Sélectionnez **Oui** pour confirmer l'opération.
-8. Pour lier le nouvel environnement, suivez les étapes du [guide d'installation](https://aka.ms/dualwrite-docs).
+Vous pouvez maintenant lier un nouvel environnement.

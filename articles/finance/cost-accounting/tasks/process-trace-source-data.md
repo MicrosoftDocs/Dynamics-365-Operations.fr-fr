@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6e913f3630862ba07718592cdd039940c5d40b8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34cd29c4c31e1941c4e4acdbc1609210ea46934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187680"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142292"
 ---
 # <a name="process-and-trace-source-data"></a>Traiter et effectuer le suivi des données source
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Le traitement des données est exécuté par tâche. Pour chaque tâche et fournisseur de données, un journal est créé pour indiquer que le processus a été exécuté et que les entrées ont été traitées dans la tâche actuelle. Utilisez cette procédure pour paramétrer une source de données et suivre l'origine d'une entrée de coût spécifique. Cet enregistrement utilise la société fictive USP2. Avant d'effectuer cette tâche, veillez à lire les guides de tâche suivants : « Créer une comptabilité de contrôle de gestion, « Définir les unités de contrôle des coûts « et « Gérer la source de données pour la comptabilité de contrôle de gestion ».
 

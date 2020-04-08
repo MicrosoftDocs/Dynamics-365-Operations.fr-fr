@@ -16,16 +16,16 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f88427290168a494e803318ec58177fab4c643a1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ea98367640ce7ba5937901ad58ee627a03d634fa
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175131"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139014"
 ---
 # <a name="fr-00002-customer-and-vendor-account-statements"></a>FR-00002 Relevés de compte client et fournisseur
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Vous pouvez imprimer des relevés de compte pour les clients et les fournisseurs, affichant des informations pour une période sélectionnée.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 494af854d408f0b0c02d753ff3d24eb3d6216fd9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177694"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138159"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Paramétrage de profils de validation d'immobilisation
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ce guide de tâche va paramétrer les profils de validation d'immobilisation.  Il utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.  Les exemples donnés dans le guide de tâches concernent un profil de validation de base, même s'il faut créer des profils de validation pour les besoins spécifiques de vos plans de comptes et de vos états financiers.
 
@@ -63,7 +63,7 @@ Ce guide de tâche va paramétrer les profils de validation d'immobilisation.  I
 32. Dans le champ **Registre**, entrez ou sélectionnez une valeur.
 33. Sélectionnez « Valeur d'acquisition » dans le champ **Valider la valeur**.
     * La valeur d'acquisition prend en compte l'acquisition et les valeurs d'ajustement de l'acquisition pour toutes les années. Vous pouvez également définir des comptes pour ces types de transactions séparément.  
-    * Vous pouvez définir le processus de cession afin d'utiliser différents comptes, selon que la cession débouche sur un profit ou une perte. Je définirai le type de prix de vente sur « Tout » pour utiliser les mêmes comptes pour tous les types de cessions.  
+    * Vous pouvez définir le processus de cession afin d'utiliser différents comptes, selon que la cession débouche sur un profit ou une perte. Je définirai le type de prix de vente sur « Tout » pour utiliser les mêmes comptes pour tous les types de cessions.  
 34. Spécifiez les valeurs souhaitées dans le champ **Compte principal**.
 35. Dans le champ **Compte de contrepartie**, spécifiez les valeurs souhaitées.
 36. Cliquez sur **Ajouter**.

@@ -17,16 +17,16 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17c60b88aaf1f55f8b61f8349a71599219a2a338
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 95f6f31906539abfd7935274484d1ca8cf288d0e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174621"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144590"
 ---
 # <a name="create-and-assign-a-trading-partner-code-in-the-public-sector"></a>Créer et affecter un code de partenaire commercial dans le secteur public
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales. Pour que vous puissiez effectuer cette tâche, l'enregistrement client pour l'agence doit exister. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
 

@@ -17,16 +17,16 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05e1a01ee531ecfe10a0bf2fed5f028451a60894
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0774cfe1cfa7e00bc0dc448041c69d6369890377
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174622"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139981"
 ---
 # <a name="control-access-to-purchase-agreements-in-the-public-sector"></a>Contrôler l'accès aux contrats d'achat dans le secteur public
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Vous pouvez vous assurer que seuls les départements approuvés peuvent accéder à un contrat d'achat. Vous pouvez également limiter le montant que chaque département peut dépenser dans le cadre du contrat d'achat. Pour ce faire, la structure de compte et les dimensions financières pour l'accès au département doivent être définies dans l'écran Paramètres de la comptabilité fournisseur. Cette procédure a été créée pour les organisations du secteur public français, en utilisant les données de la société fictive PSUS dans la partition du secteur public.
 

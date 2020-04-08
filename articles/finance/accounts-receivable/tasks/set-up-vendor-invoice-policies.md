@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72f017294c976dcd1b7ddda01ac9e39252f036d6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58518f5291b70c63506c20717034daff0268901b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250277"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143359"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Paramétrer des stratégies de facture fournisseur
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique explique comment paramétrer des politiques de facturation fournisseur. Les stratégies de facture fournisseur sont exécutées lorsque vous validez une facture fournisseur à l'aide de la page Facture fournisseur et lorsque vous ouvrez la page Violations de stratégie de la facture fournisseur. Vous pouvez également configurer le workflow de facture fournisseur de manière à exécuter des stratégies de facture fournisseur chaque fois que vous envoyez une facture dans le workflow. 
 
@@ -50,7 +50,7 @@ Cette rubrique explique comment paramétrer des politiques de facturation fourni
 1. Allez dans **Volet de navigation > Modules > Comptabilité fournisseur > Paramétrage de la stratégie > Types de règles de stratégies de facture fournisseur**.
 2. Sélectionnez **Nouveau**.
 3. Tapez des valeurs dans les champs **Nom de la règle** et **Description**.
-4. Dans le champ **Nom de la requête**, sélectionnez le bouton de liste déroulante pour ouvrir la recherche, puis selectionnez l'enregistrement souhaité.
+4. Dans le champ **Nom de la requête**, sélectionnez le bouton de liste déroulante pour ouvrir la recherche, puis sélectionnez l'enregistrement souhaité.
 5. Sélectionnez **Enregistrer**.
 6. Fermez la page pour revenir à la page d'accueil.
 

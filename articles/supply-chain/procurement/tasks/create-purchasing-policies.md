@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: c8416f9a869b9144a63a6fb08c667cc32dec9854
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856470"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149709"
 ---
 # <a name="create-purchasing-policies"></a>Créer des politiques d'achat
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique vous montre comment créer des stratégies d'achat pour les aligner avec vos processus d'entreprise pour les achats. Avant de pouvoir créer des stratégies d'achat, vous devez définir les paramètres de politique d'achat. Il est possible de créer, de modifier, et de retirer une politique d'achat, mais vous ne pouvez pas supprimer une politique d'achat. Cette procédure est généralement effectuée par un gestionnaire des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 
@@ -44,14 +44,14 @@ Cette rubrique vous montre comment créer des stratégies d'achat pour les align
 1. Sélectionnez **Nouveau**.
 2. Tapez une valeur dans le champ **Nom**.
 3. Tapez une valeur dans le champ **Description**.
-- Une même politique d'achat ne peut s'appliquer qu'à une seule hiérarchie d'organisation. Par exemple, vous pourriez avoir une hiérarchie appelée « Géographique » et une autre appelée « Département », et avoir une politique d'achat différente pour chacune.  
+- Une même politique d'achat ne peut s'appliquer qu'à une seule hiérarchie d'organisation. Par exemple, vous pourriez avoir une hiérarchie appelée « Géographique » et une autre appelée « Département », et avoir une politique d'achat différente pour chacune.  
 - Choisissez une organisation à laquelle la stratégie doit s'appliquer.  
 4. Sélectionnez la flèche pour ajouter l'organisation sélectionnée.
 - Vous pouvez répéter ce processus pour ajouter plus d'organisations.  
 
 ## <a name="add-a-policy-rule"></a>Ajouter une règle de stratégie
 1. Dans la liste **Type de règle de stratégie**, sélectionnez **Règle d'objectif de demande**.
-- Vous allez créer une règle qui définir l'objectif de demande par défaut sur le type de consommation mais qui permet au type de réapprovisionnement d'être choisi à la place.  
+- Vous allez créer une règle qui définir l'objectif de demande par défaut sur le type de consommation, mais qui permet au type de réapprovisionnement d'être choisi à la place.  
 2. Sélectionnez **Créer une règle de stratégie**.
 3. Sélectionnez **Oui** dans le champ **Autoriser le remplacement manuel**.
 4. Sélectionnez **Fermer**.

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55d548a97a2f93bffeb5aa4b0ce6b0c4ca5f8819
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea2bfd2514be666d05165410ca27041a86464715
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769830"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143221"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(Gestion des états électroniques) Importer les configurations depuis RCS
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut importer une nouvelle version d'une configuration pour la génération d'états électroniques (ER) à partir de Microsoft Regulatory Configuration Services (RCS). Dans cet exemple, vous sélectionnerez la version de la configuration ER qui a été configurée dans une instance RCS et l'importerez dans l'instance actuelle pour la société fictive Litware, Inc. Ces étapes peuvent être réalisées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de cette rubrique, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Pour effectuer ces étapes, vous devez également avoir accès à une instance RCS contenant au moins une configuration ER ayant le statut **Terminé** ou **Partagé**.
 

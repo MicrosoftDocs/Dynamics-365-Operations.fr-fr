@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e04af04de3d18d375ce3609ab4cd53f652c2fbc
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7be50eba098b7b28594c8e18c721579f4bb2e879
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022520"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140989"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> Créer des dimensions financières pour les caisses de PDV et configurer les valeurs de dimension dans les registres
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette procédure illustre la création des dimensions financières des caisses enregistreuses des points de vente (PDV), et montre comment configurer les valeurs de dimension financière des caisses enregistreuses. Cette procédure n'inclut pas d'autres étapes associées, telles que la création d'ensembles de dimensions et de structures de compte. Ces tâches sont traitées dans d'autres rubriques. La société fictive USRT sert d'exemple dans cet enregistrement.
 

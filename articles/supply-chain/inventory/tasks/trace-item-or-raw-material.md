@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe0fd9a7c27efb71f15cca9d3a0341b550bf9698
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ba64093dfe9ca28108456641ad17b5eda23d7f49
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916668"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148208"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Suivre un article ou une matière première
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure illustre comment utiliser le suivi d'article pour identifier où les articles ou les matières premières ont été ou sont utilisés. Avec cette procédure, vous pouvez identifier un article, le suivre jusqu'à la source, puis le suivre à nouveau en avant via la production et la vente du produit fini. Le processus peut être utilisé pour étudier les clients concernés, les commandes client affectées, et plus. La société fictive USP2 sert d'exemple dans cette procédure.
 

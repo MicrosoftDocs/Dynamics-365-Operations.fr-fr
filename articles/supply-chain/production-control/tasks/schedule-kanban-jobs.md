@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a56bca460af229b53d41959d48562ef425c0bf7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5dc359309dd96d93a59fbfb6d0b0f64cfaddc5fa
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843479"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146581"
 ---
 # <a name="schedule-kanban-jobs"></a>Planification des tâches de kanban
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure se concentre sur des tâches de kanban du processus de planification pour une cellule de travail spécifique. La procédure « Préparer une tâche de kanban de processus lorsque les matières ne sont pas disponibles » est une étape préliminaire à la création de cette procédure. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette tâche est destinée au superviseur d'atelier et au responsable de production qui utilisent des kanbans.
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7d72c1d98100d1313109e8b5e55df02e2163174
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd6de42dda650d42d703e905f8d48f73b9e4afd6
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189359"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143809"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un registre de factures
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique décrit comment utiliser le registre des factures pour créer des factures. Utilisez ensuite le regroupement de factures pour mettre en correspondance la facture avec une commande fournisseur et finalisez la dépense dans la page de facture fournisseur.
 

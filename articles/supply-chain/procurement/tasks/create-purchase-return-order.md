@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d586f4cc92e7533cabb8810ce5a42a37e6ba9ff1
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: 743cb2677696727ac2730fec2c11954d150f4cfa
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995188"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147363"
 ---
 # <a name="create-a-purchase-return-order"></a>Créer une commande fournisseur de retour
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure vous montre comment créer une commande fournisseur retournée à l'aide de l'action Avoir pour copier des lignes d'un document de facturation fournisseur à une nouvelle CF. Elle montre également comment confirmer la commande et traiter l'expédition des marchandises au fournisseur. L'exemple indiqué dans cette procédure peut être utilisé dans les données fictives de la société USMF. Cette tâche est généralement effectuée par un agent des achats.
 
@@ -35,7 +35,7 @@ Cette procédure vous montre comment créer une commande fournisseur retournée 
 3. Tapez US-102 dans le champ **Compte fournisseur**.
 4. Cliquez sur **OK**.
 5. Cliquez sur **Achat** dans le **volet Actions**.
-6. Cliquez sur **Avoir**. Il s'agit de la page à partir de laquelle vous pouvez copier une facture fournisseur existante dans votre ordre de retour. C'est la même page qui est employée pour d'autres actions de copie. Mais comme nous l'avons ouverte à partir de l'action Avoir, la page est configurée pour prendre en charge la création d'un ordre de retour qui compense des factures fournisseur.  
+6. Cliquez sur **Avoir**. Il s'agit de la page à partir de laquelle vous pouvez copier une facture fournisseur existante dans votre ordre de retour. C'est la même page qui est employée pour d'autres actions de copie. Mais comme nous l'avons ouverte à partir de l'action Avoir, la page est configurée pour prendre en charge la création d'un ordre de retour qui compense des factures fournisseur.  
 7. Développez la section **Paramètres**.
     - L'option **Inverser le signe** est automatiquement choisie, et ne peut pas être changée. Ceci assure que le signe est changé pour les quantités, et que les lignes de commande qui sont ajoutées compenseront la facture fournisseur.  
     - L'option **Copier les frais** est automatiquement choisie, et ne peut pas être changée. Ceci signifie que des frais de la facture fournisseur sont ajoutés à la commande fournisseur retournée pour compenser les frais d'origine. Il est possible de modifier les changements sur l'en-tête et les lignes de la commande plus tard.  

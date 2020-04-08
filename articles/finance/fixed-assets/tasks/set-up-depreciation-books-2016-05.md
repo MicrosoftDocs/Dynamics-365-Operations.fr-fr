@@ -1,6 +1,6 @@
 ---
-title: Paramétrer les registres des amortissements (mai 2016)
-description: Ce guide de tâche va créer un registre des amortissements et l'associera à un groupe d'immobilisations.
+title: Paramétrer les registres d'amortissement
+description: Cette procédure parcourt le processus de création d'un nouveau registre d'amortissement et l'associe à un groupe d'immobilisations.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6840e211847494598a81cd3228dbd3796447e18c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186898"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154597"
 ---
-# <a name="set-up-depreciation-books-may-2016"></a>Paramétrer les registres des amortissements (mai 2016)
+# <a name="set-up-depreciation-books"></a>Paramétrer les registres d'amortissement 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Ce guide de tâche va créer un registre des amortissements et l'associera à un groupe d'immobilisations.  Il utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.
-
+Cette procédure parcourt le processus de création d'un nouveau registre d'amortissement et l'associe à un groupe d'immobilisations. 
 
 ## <a name="create-a-depreciation-book"></a>Créer un registre des amortissements
 1. Accédez à Immobilisations > Paramétrage > Registres des amortissements.

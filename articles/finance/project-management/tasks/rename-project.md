@@ -16,16 +16,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb81ddb8c7283f09e959635b91a7bda2aa9f07a2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dcf6725f45a7f8605c38e1c49ba9b43485153e73
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185380"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140068"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Modification d'un stade de projet ou attribution d'un nouveau nom à un stade de projet
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les stades de projet peuvent servir de guide au cycle de vie du projet. Vous pouvez définir les stades que vous souhaitez inclure dans vos projets à l'aide de l'onglet Stade de projet dans l'écran Paramètres de gestion de projets et de comptabilité du client . Dynamics 365 Finance propose cinq stades de projet prédéfinis et trois stades définis par l'utilisateur. Vous pouvez mettre à jour le nom d'un stade de projet que vous utilisez pour suivre la progression des projets. Vous pouvez également fournir des noms pour les noms de statut définis par l'utilisateur. Cette tâche indique comment renommer ou modifier le stade d'un projet.
 

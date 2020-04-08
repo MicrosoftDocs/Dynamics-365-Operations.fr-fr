@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 1ded87dcd553c0aa9c19ca273460f9adf0a4b542
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025826"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148628"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Rechercher les prix et remises applicables
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure décrit comment rechercher le prix ou la remise pour un produit qui est actuellement valide pour un client spécifique, sans créer de commande client. La procédure décrit un exemple spécifique et vous devez suivre l'exemple à l'aide de la société de démonstration USMF afin de sélectionner les valeurs nécessaires.
 

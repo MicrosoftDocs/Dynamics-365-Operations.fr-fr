@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1c922d16b46e26031e5f80886e4e4e8f08bcdaf
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 71353e961c54f4d56b6ecdb1075c8c74edfe220f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916864"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145937"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Configurer une option de menu d'appareil mobile pour terminer le travail du type commande fournisseur
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique montre comment configurer une option du menu Appareil mobile. Dans cet exemple, l'option de menu est utilisée pour effectuer le travail de type commande fournisseur. La classe de travail associée à l'option de menu qui détermine quel travail est valide. Vous pouvez utiliser ce guide dans les données de démonstration de la société fictive USMF. Cette procédure est généralement effectuée par un gestionnaire de l'entrepôt.
 

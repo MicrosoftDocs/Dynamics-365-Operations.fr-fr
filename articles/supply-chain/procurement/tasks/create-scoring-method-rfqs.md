@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cbbc941b810cd8e5db5ba15a23dc6bd72a29506
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e0e1fe2a27998c01012e40d80eacf13aa11f5689
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838068"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147340"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Créer une méthode d'attribution pour les demandes de devis
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure vous indique comment créer une méthode d'attribution de score. Une méthode d'attribution de score est un ensemble de critères qui peut être employé pour comparer les offres qui sont envoyées en réponse à un appel d'offre. Par exemple, vous pouvez souhaiter évaluer une performance passée d'un fournisseur, ou évaluer si la société est écologique ou un bon collaborateur, ou comparer des offres selon le prix. La méthode d'attribution de score peut être associée à un type de sollicitation comme méthode d'attribution de score par défaut pour les demandes de devis de ce type. Ces tâches sont généralement effectuées par un responsable des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 

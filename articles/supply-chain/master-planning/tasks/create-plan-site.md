@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: daa185864052849b2c78d975a7eb02e9697cb618
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 13238818de10596de34eaf9d8cd7d55562a307eb
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845166"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150307"
 ---
 # <a name="create-a-plan-for-a-site"></a>Créer un plan pour un site
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Le gestionnaire de production calcule les besoins en matériaux et en capacité pour la production d'un article spécifique. Une fois les suggestions d'approvisionnement créées, il recherche les commandes sur le site pour lequel il effectue la planification et confirme les commandes, en commençant par celles qui sont urgentes. Les commandes les plus urgentes sont celles qui doivent être confirmées à la date actuelle. Utilisez les données fictives de société USMF pour effectuer ces tâches.
 

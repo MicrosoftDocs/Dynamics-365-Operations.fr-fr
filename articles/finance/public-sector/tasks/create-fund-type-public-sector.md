@@ -17,16 +17,16 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1731581c3a828c1c9b7a5cc6db9d1c8c85850f79
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ce588229047021ee602104e007b4d5995fa090d7
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183629"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144582"
 ---
 # <a name="create-a-fund-type-in-the-public-sector"></a>Créer un type de fonds dans le secteur public
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les types de fonds sont des catégories que vous pouvez utiliser pour regrouper des fonds à des fins de suivi et de génération d'états fiscaux détaillés. Les principes comptables généralement reconnus (GAAP) pour la comptabilité gouvernementale et locale fournissent des normes que vous pouvez suivre lorsque vous paramétrez votre système de fonds et de types de fonds. 
 

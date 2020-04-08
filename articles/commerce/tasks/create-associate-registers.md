@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ac75d390b8bbb94c6e039b374b51462d348e355
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 001bdd61f9266798dadae2ac7c96a4f4c19dbb94
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057156"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141451"
 ---
 # <a name="create-and-associate-registers"></a> Créer et associer des caisses enregistreuses
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette procédure montre comment créer un registre de point de vente. La société fictive USRT sert d'exemple dans cette procédure.
 
@@ -41,6 +41,6 @@ Cette procédure montre comment créer un registre de point de vente. La sociét
 7. Saisissez ou sélectionnez une valeur dans le champ Profil visuel.
     * Des profils visuels sont utilisés pour spécifier les images utilisées dans l’arrière-plan de l’ouverture de session et l’arrière-plan du PDV, ainsi que les thèmes pour le PDV.  
 8. Tapez une valeur dans le champ Numéro de caisse enregistreuse TEF du TPV.
-    * Le numéro TEF du TPV est utilisé pour informer le processeur de paiement du terminal de paiement qui envoie des demandes d'autorisation. Cette valeur s'appelle souvent « ID terminal » ou « TID ». On trouve généralement le terme TID sur un autocollant sur le dispositif de paiement.  
+    * Le numéro TEF du TPV est utilisé pour informer le processeur de paiement du terminal de paiement qui envoie des demandes d'autorisation. Cette valeur s'appelle souvent « ID terminal » ou « TID ». On trouve généralement le terme TID sur un autocollant sur le dispositif de paiement.  
 9. Cliquez sur Enregistrer.
 

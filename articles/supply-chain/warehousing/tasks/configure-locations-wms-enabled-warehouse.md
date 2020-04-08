@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fca4d8673ef7ccb00bc1b216fbe7d56acc2ff142
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 43fd5a293671d63c1c0db3019ba89fdf84f9fff8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994979"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146167"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurer les emplacements dans un entrepôt compatible WMS
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ce guide vous indique comment configurer le paramétrage d'emplacement pour un nouvel entrepôt compatible WMS (un entrepôt qui utilise des processus avancés de gestion des entrepôts). Le processus est généralement effectué par un gestionnaire d'entrepôt. Vous pouvez exécuter ce guide dans la société fictive de démonstration USMF ou utiliser vos propres données. Une condition préalable est qu'au moins un site soit configuré.
 
@@ -42,7 +42,7 @@ Ce guide vous indique comment configurer le paramétrage d'emplacement pour un n
 8. Fermez la page.
 
 ## <a name="define-a-location-format"></a>Définir un format d'emplacement
-1. Accédez au **volet Navigation > Modules > Gestion des entrepôts > Paramétrage > Entrepôt > Formats d'emplacement**. Les formats d'emplacements constituent un système d'affectation de noms pour créer des noms uniques et cohérents pour des lieux de casiers dans un entrepôt. Il peut être utile d'utiliser des séparateurs dans le cadre du format d'emplacement pour faciliter l'identification des composants de l'emplacement, tels que le numéro d'allée. Dans cet exemple, nous créerons un nom à quatre composants. Par exemple, ceux-ci peuvent être allée, rayon, étagère et casier.
+1. Accédez au **volet Navigation > Modules > Gestion des entrepôts > Paramétrage > Entrepôt > Formats d'emplacement**. Les formats d'emplacements constituent un système d'affectation de noms pour créer des noms uniques et cohérents pour des lieux de casiers dans un entrepôt. Il peut être utile d'utiliser des séparateurs dans le cadre du format d'emplacement pour faciliter l'identification des composants de l'emplacement, tels que le numéro d'allée. Dans cet exemple, nous allons créer un nom à quatre composants. Par exemple, ceux-ci peuvent être allée, rayon, étagère et casier.
 2. Cliquez sur **Nouveau**.
 3. Dans le champ **Format d'emplacement**, saisissez une valeur.
 4. Tapez une valeur dans le champ **Nom**.

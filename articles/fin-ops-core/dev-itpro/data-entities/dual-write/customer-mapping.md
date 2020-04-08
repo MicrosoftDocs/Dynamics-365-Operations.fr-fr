@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124587"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172829"
 ---
 # <a name="integrated-customer-master"></a>Données principales client intégrées
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Il est courant que des enregistrements client soient gérés dans plusieurs applications. Par exemple, l'activité de vente peut entraîner des enregistrements client commerciaux via une application Sales, et les ventes de commerce électronique ou au détail entraîner des enregistrements client via une application Finance and Operations. Indépendamment de l'origine de l'enregistrement client, il est intégré en arrière-plan, au delà des limites de l'application et des différences de l'infrastructure. Les données principales client intégrées permettent de traiter des scénarios de multi-gestion et de fournir une vue d'ensemble du client à la suite d'applications Dynamics 365.
+Les données client peuvent être gérées dans plusieurs applications Dynamics 365. Par exemple, un enregistrement client peut provenir d'une activité de vente dans Dynamics 365 Sales (une application basée sur un modèle dans Dynamics 365), ou un enregistrement peut provenir d'une activité de vente au détail dans Dynamics 365 Commerce (une application Finance and Operations). Peu importe d'où proviennent les données client, elles sont intégrées en arrière-plan. Le client principal intégré vous permet de gérer les données client dans n'importe quelle application Dynamics 365 et offre une vue complète du client dans la suite de l'application Dynamics 365.
 
 ## <a name="customer-data-flow"></a>Flux de données client
 
@@ -59,7 +58,6 @@ Groupes de clients             | msdyn_customergroups            | Ce modèle sy
 Modes de paiement des clients     | msdyn_customerpaymentmethods    | Ce modèle synchronise les informations de la méthode de paiement des clients.
 Clients V3                | comptes                        | Ce modèle synchronise les informations principales client pour les clients commerciaux et organisationnels.
 Clients V3                | contacts                        | Ce modèle synchronise les données principales de clients pour les clients et les utilisateurs finaux.
-Carte de fidélité                | msdyn_loyaltycards              | Ce modèle synchronise les informations de carte de fidélité des clients.
 Affixes de nom                | msdyn_nameaffixes               | Ce modèle synchronise les données de référence des affixes de nom pour les clients et les fournisseurs.
 Lignes de jour de paiement CDS V2    | msdyn_paymentdaylines           | Ce modèle synchronise les données de référence des lignes du jour de paiement, pour les clients et les fournisseurs.
 Jours de paiement CDS            | msdyn_paymentdays               | Ce modèle synchronise les données de référence des jours de paiement, pour les clients et les fournisseurs.
@@ -78,8 +76,6 @@ Conditions de paiement            | msdyn_paymentterms              | Ce modèle
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 

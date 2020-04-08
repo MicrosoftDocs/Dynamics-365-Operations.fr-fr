@@ -3,7 +3,7 @@ title: Module Zone d'achat
 description: Cette rubrique couvre les modules de zone d'achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025457"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154061"
 ---
 # <a name="buy-box-module"></a>Module Zone d'achat
 
@@ -58,7 +58,7 @@ Les thèmes peuvent être utilisés pour supprimer ou modifier l'ordre des comma
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Modules qui peuvent être utilisés dans un module de zone d'achat
 
 - **Galerie multimédia** – Ce module permet de présenter des images d'un produit sur une page de détails des produits. Il peut prendre en charge une à plusieurs d'images. Il prend également en charge des images miniatures. Les images miniatures peuvent être organisées horizontalement (alignées sous l'image) ou verticalement (sous forme de colonne en regard de l'image). Le module de galerie multimédia peut être ajouté à l'emplacement **Multimédia** du module de zone d'achat. Il prend en charge actuellement uniquement les images. 
-- **Sélecteur de magasins** – Ce module affiche une liste de magasins voisins où un article est disponible pour le prélèvement. Il permet aux utilisateurs d'entrer un emplacement pour trouver des magasins à proximité. Le module du sélecteur de magasins est intégré avec l'interface de programmation d'application (API) de géocodage Bing Cartes pour convertir l'emplacement en une latitude et une longitude. Une clé API Bing Cartes est requise et doit être ajoutée à la page des paramètres partagés Vente au détail dans Dynamics 365 Retail. Ce module prend en charge deux propriétés : **Rayon de recherche** et **Lien vers les conditions d'utilisation**. La propriété **Rayon de recherche** définit le rayon de recherche des magasins, en miles. Si aucune valeur n'est spécifiée, le rayon de recherche par défaut, 50 miles, est utilisé. Si Bings Cartes ou tout autre service externe est utilisé, la propriété **Lien vers les conditions d'utilisation** peut être utilisée pour fournir un lien vers les conditions d'utilisation. Un lien vers les conditions d'utilisation est requis pour le service Bing Cartes. 
+- **Sélecteur de magasins** – Ce module affiche une liste de magasins voisins où un article est disponible pour le prélèvement. Il permet aux utilisateurs d'entrer un emplacement pour trouver des magasins à proximité. Pour plus d'informations sur ce module, voir [Module du sélecteur de magasins](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Paramètres du module Zone d'achat
 
@@ -93,13 +93,15 @@ Pour ajouter un module de zone d'achat à une nouvelle page et définir les prop
 
 [Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
 
-[Module Container](add-container-module.md)
+[Module du sélecteur de magasins](store-selector.md)
 
-[Module Panier](add-cart-module.md)
+[Module Conteneur](add-container-module.md)
 
-[Module Paiement](add-checkout-module.md)
+[Module de chariot](add-cart-module.md)
 
-[Module Confirmation de commande](order-confirmation-module.md)
+[Module de validation](add-checkout-module.md)
+
+[Module de confirmation de commande](order-confirmation-module.md)
 
 [Module En-tête](author-header-module.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Vérifier des configurations pour générer des états dans des formats Office avec des images intégrées
-description: Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du guide de tâche « ER Créer des états aux formats MS Office avec des images intégrées (Partie 1 - Définir les paramètres) ».
+description: "Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du guide de tâche « ER Créer des états aux formats MS Office avec des images intégrées (Partie 1 : Définir les paramètres) »."
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d05020c5b83137d977d7260e269cb7d8c219406
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8f81f0f86c255d048393047965c0aa29cbef09d0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184782"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143074"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Vérifier des configurations pour générer des états dans des formats Office avec des images intégrées
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Pour réaliser ces étapes, vous devez d'abord effectuer les étapes du guide de tâche « ER Créer des états aux formats MS Office avec des images intégrées (Partie 1 : Définir les paramètres) ».
 

@@ -17,16 +17,16 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 500cb3e1a6a6014b335ec3275675e1e9eb8a0dd4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f0de1f119f872a8cee233f7625d6cb188ef5e6a1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183632"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144640"
 ---
 # <a name="create-an-advanced-ledger-entry-in-the-public-sector"></a>Créer une écriture comptable avancée dans le secteur public
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables. Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
 

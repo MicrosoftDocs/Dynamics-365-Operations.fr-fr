@@ -16,24 +16,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d7882a7a17f5736d9d5a11cd91ac963fa89ff12f
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: f2b93f74a121de4c23eb5dddfb94c6596b78544d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042894"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142660"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Concevoir un modèle de données spécifiques au domaine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique. Ce modèle de données sera utilisé ultérieurement comme source de données quand vous créerez le format des documents de paiement.
 
-Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».
+Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
 
-    Sélectionnez le fournisseur de configuration pour la société fictive, « Litware, Inc ». Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».  
+    Sélectionnez le fournisseur de configuration pour la société fictive, « Litware, Inc ». Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».  
     
 2. Cliquez sur Configurations des états.
 
@@ -46,7 +46,7 @@ Dans cet exemple, vous allez créer une configuration pour la société témoin,
 
     Le fournisseur de configuration actif est automatiquement entré ici. Ce fournisseur pourra mettre à jour cette configuration. D'autres fournisseurs peuvent utiliser cette configuration, mais ne peuvent pas la mettre à jour.  
 
-4. Cliquez sur le bouton « Créer la configuration » pour terminer la tâche de création de la configuration.
+4. Cliquez sur le bouton « Créer la configuration » pour terminer la tâche de création de la configuration.
 
 ## <a name="create-a-data-model"></a>Créer un modèle de données
 Vous créez un modèle de données pour la configuration sélectionnée. Cette version de configuration aura un statut de brouillon.  

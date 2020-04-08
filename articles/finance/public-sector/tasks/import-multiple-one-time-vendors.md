@@ -17,16 +17,16 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e6996603b028ac4a55e1791ca80721f4da74fcb5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0d608d01a291d4b0f0aab62b129b27a0a071aa59
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174617"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144530"
 ---
 # <a name="import-and-create-multiple-one-time-vendors-and-invoices-in-the-public-sector"></a>Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Lorsqu'une approbation ou un contrat sous forme d'une commande fournisseur n'est pas nécessaire, vous pouvez créer une facture pour un nouveau fournisseur avec vous n'entretenez pas de relation régulière, tout en créant un enregistrement pour le fournisseur. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
 
@@ -37,6 +37,6 @@ Lorsqu'une approbation ou un contrat sous forme d'une commande fournisseur n'est
 5. Cliquez sur OK.
     * Les informations du fournisseur et de facturation sont importées. S'il existe des erreurs, un état est imprimé, et vous devez corriger les entrées répertoriées dans le fichier d'importation puis réimporter le fichier.  
 6. Accédez à Comptabilité fournisseur > Tâches périodiques > Traiter les fournisseurs occasionnels et les factures.
-    * Les noms de fournisseur ou les ID de taxe fédérale en double feront l'objet d'une recherche.  Important :si vous choisissez de ne pas traiter les fournisseurs en double, les factures associées ne seront pas traitées non plus. Vous pouvez créer manuellement une facture à l'aide des informations du fichier csv.    
+    * Les noms de fournisseur ou les ID de taxe fédérale en double feront l'objet d'une recherche.  Important : si vous choisissez de ne pas traiter les fournisseurs en double, les factures associées ne seront pas traitées non plus. Vous pouvez créer manuellement une facture à l'aide des informations du fichier csv.    
 7. Cliquez sur OK.
 

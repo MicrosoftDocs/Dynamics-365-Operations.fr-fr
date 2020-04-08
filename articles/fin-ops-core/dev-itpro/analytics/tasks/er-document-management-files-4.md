@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: f5639a46c105e735d028e903513b4fcfb1f0d968
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550807"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142614"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 4 - Exécuter le format)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents (pièces jointes) dans la sortie ER. Ces étapes peuvent être effectuées dans la société DEMF.
 
-Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 : Créer un format) ».
+Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 : Créer un format) ».
 
 Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
@@ -65,7 +65,7 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 7. Cliquez sur Filtre.
 8. Sélectionnez la ligne de la table Journal des factures client et du champ Commande client.
 9. Dans le champ Critères, tapez « 000148 ».
-    * Dans le champ « Commande client » des critères, tapez le numéro de commande 000148.  
+    * Dans le champ « Commande client » des critères, tapez le numéro de commande 000148.  
 10. Cliquez sur OK.
 11. Cliquez sur OK.
     * Examinez la sortie générée. Notez que pour chaque pièce jointe, un nœud XML simple a été créé. Le contenu de la pièce jointe est rempli avec la sortie XML au format MIME (base64).  

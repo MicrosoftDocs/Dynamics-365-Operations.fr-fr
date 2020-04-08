@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f97c4cd6cdb117ebdd67a155478bb6f8d1703541
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 76dc32f2254ffd2a2e33eef594d6e602092bcb6f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177805"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140494"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Configurer les souches de numéros à l'aide d'un assistant
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transaction qui en ont besoin. Un enregistrement de données principales ou de transaction nécessitant un identificateur est également appelé référence. Avant de pouvoir créer des enregistrements pour une référence, vous devez paramétrer une souche de numéros et l'associer à la référence. Cette rubrique explique comment définir toutes les souches de numéros requises en même temps à l'aide d'un Assistant. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8cae6d2fa7c469f50fa92141a6cb5a0af1df4b0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7892a216d836ebcc297a5b7eb87bc996dd9b91bf
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022507"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140831"
 ---
 # <a name="configure-parameters-that-affect-retail-statements"></a>Configurer les paramètres qui affectent les relevés de vente au détail
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique illustre les configurations de paramètres pour Commerce qui affectent la création et la validation des relevés de vente au détail. La société fictive USRT sert d'exemple dans cette procédure.
 

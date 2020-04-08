@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: e77de79113e3f44da1d7f92f17a446df86f6852e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026238"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143028"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Mapper des composants au format créé à des éléments de modèle de données (novembre 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-La procédure suivante explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut mettre en correspondance des éléments de modèle de données aux composants de la configuration de la gestion des états électroniques, qui définit un format de document électronique pour le domaine de paiements de l'entreprise. Ce format sera utilisé ultérieurement pour générer des documents électroniques pour traiter les paiements. Dans cet exemple, vous créerez une configuration de format pour la société fictive, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les fournisseurs de configurations ER sont partagés pour toutes les sociétés. Pour mener à bien ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche « Créer une configuration de format ».
+La procédure suivante explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut mettre en correspondance des éléments de modèle de données aux composants de la configuration de la gestion des états électroniques, qui définit un format de document électronique pour le domaine de paiements de l'entreprise. Ce format sera utilisé ultérieurement pour générer des documents électroniques pour traiter les paiements. Dans cet exemple, vous allez créer une configuration de format pour la société fictive, « Litware, Inc. » Ces étapes peuvent être effectuées dans n'importe quelle société car les fournisseurs de configurations ER sont partagés pour toutes les sociétés. Pour mener à bien ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche « Créer une configuration de format ».
 
 
 ## <a name="select-a-format-configuration"></a>Sélectionner une configuration de format
@@ -98,7 +98,7 @@ La procédure suivante explique comment un utilisateur dont le rôle est Adminis
 2. Fermez la page.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Modifier le statut de la version actuelle de la configuration du format
-Dans les étapes suivantes, vous modifierez le statut de la configuration de format de Brouillon sur Terminé pour la rendre disponible pour la génération de documents de paiement.  
+Dans les étapes suivantes, vous allez modifier le statut de la configuration de format de Brouillon sur Terminé pour la rendre disponible pour la génération de documents de paiement.  
 1. Cliquez sur Modifier le statut.
 2. Cliquez sur Terminé.
 3. Dans le champ Description, entrez une valeur.

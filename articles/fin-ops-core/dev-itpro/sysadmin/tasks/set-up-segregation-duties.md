@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40b40b77877680e28671b7a15ea8c8b58ce94417
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 712cc90bef4f3ad56291e99edd9f963ae88add48
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180873"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143510"
 ---
 # <a name="set-up-segregation-of-duties"></a>Configurer les règles de répartition des tâches
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs. Ce concept est appelé répartition des tâches. Par exemple, vous ne souhaitez peut-être pas que cela soit la même personne qui accuse réception des marchandises et qui traite le paiement au fournisseur. La répartition des tâches vous aide à réduire le risque de fraude et également à détecter des erreurs ou des irrégularités. Vous pouvez également utiliser la répartition des tâches pour appliquer des stratégies de contrôle internes. Appliquez la procédure suivante pour créer une règle. Vous devez être administrateur système pour exécuter la procédure. La société fictive de démonstration utilisée pour créer cette procédure est DAT. 
 

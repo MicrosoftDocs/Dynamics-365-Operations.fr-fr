@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092244"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138357"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -56,7 +56,7 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Human
 2. Indiquez s'il s'agit d'une instance de bac à sable ou de production de Human Resources. Des fonctionnalité d'aperçu anticipées peuvent être disponibles dans les instances de Sandbox pour permettre des commentaire et des test anticipés.
    
     > [!NOTE]
-    > Le type d'instance Talent ne peut plus être modifié une fois défini. Vérifiez que le type d'instance correct est sélectionné avant de continuer.</br></br>
+    > Le type d'instance Human Resources ne peut plus être modifié une fois défini. Vérifiez que le type d'instance correct est sélectionné avant de continuer.</br></br>
     > Le type d'instance Human Resources est distinct du type d'instance de l'environnement Microsoft Power Apps, que vous définissez dans le Centre d'administration Power Apps.
     
 3. Sélectionnez l'option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même ensemble de données de démonstration que celui utilisé dans l'environnement de test de Human Resources. Cette option est utile pour les environnements de démonstration ou de formation à long terme, et ne doit jamais être utilisée pour les environnements de production.  Notez que vous devez sélectionner cette option lors du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
@@ -74,7 +74,7 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Human
     > [!NOTE]
     > Si vous ne vous êtes pas encore déconnecté, vous pouvez déployer une instance de test de Human Resources dans le projet. Vous pouvez ensuite utiliser cette instance pour tester votre solution jusqu'à ce que vous vous déconnectiez. Si vous utilisez votre nouvel environnement pour les tests, vous devez répéter cette procédure pour créer un environnement de production.
 
-    > Comme seuls deux environnements LCS sont autorisés dans le cadre de l'abonnement Human Resources, vous pouvez également envisager d'utiliser un [environnement d'évaluation Human Resources](https://dynamics.microsoft.com/talent/overview/) gratuit pendant 60 jours. Bien qu'un environnement d'évaluation soit la propriété de l'utilisateur qui l'a demandé, d'autres utilisateurs peuvent être invités par l'expérience d'administration système pour Ressources humaines. Les environnements d'évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Ils ne sont pas destinés à être utilisés comme environnements de production. Notez que lorsqu'un environnement d'évaluation expire après 60 jours, toutes les données qu'il contient sont supprimées et ne peuvent pas être récupérées. Vous pouvez vous inscrire à un nouvel environnement d'évaluation après expiration de l'environnement existant.
+    > Vous pouvez envisager de profiter d'une offre d'essai de 60 jours à [Human Resources](https://dynamics.microsoft.com/talent/overview/). Bien qu'un environnement d'évaluation soit la propriété de l'utilisateur qui l'a demandé, d'autres utilisateurs peuvent être invités par l'expérience d'administration système pour Ressources humaines. Les environnements d'évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Ils ne sont pas destinés à être utilisés comme environnements de production. Notez que lorsqu'un environnement d'évaluation expire après 60 jours, toutes les données qu'il contient sont supprimées et ne peuvent pas être récupérées. Vous pouvez vous inscrire à un nouvel environnement d'évaluation après expiration de l'environnement existant.
 
 ## <a name="select-a-power-apps-environment"></a>Sélectionner un environnement Power Apps
 
@@ -97,7 +97,10 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
     - **Environnements de test** : ces environnements sont créés avec une date d'expiration et expirent après ce délai, entraînant la suppression automatique de votre environnement et de toutes les instances Human Resources qu'il contient.
    
     - **Zones non prises en charge** : actuellement, Human Resources n'est pris en charge que dans les zones suivantes : États-Unis, Europe, Royaume-Uni, Australie, Canada et Asie.
-  
+
+    > [!NOTE]
+    > L'environnement Human Resources est fourni dans la même région où l'environnement Power Apps est proposé. La migration d'un environnement Human Resources vers une autre région n'est pas prise en charge.
+
 6. Après avoir déterminé l'environnement à utiliser, vous pouvez poursuivre le processus d'approvisionnement. 
  
 ## <a name="grant-access-to-the-environment"></a>Autoriser l'accès à l'environnement

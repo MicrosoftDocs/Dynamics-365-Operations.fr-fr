@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba435ee145a8516391d7864bdfe338b0f3862f49
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f9dbf62e1c518b0cd77da693127588a04f17d622
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847205"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148260"
 ---
 # <a name="set-up-containerization"></a>Paramétrer la mise en conteneur
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique décrit comment automatiser la mise en conteneur des charges dans le module Gestion des entrepôts. La mise en conteneur automatisée crée des conteneurs et le travail de prélèvement pour les expéditions lorsqu'une vague est traitée et des lignes de travail peuvent être fractionnées en quantités ajustées aux conteneurs. Cela permet aux magasiniers de prélever les articles directement dans le conteneur sélectionné. Comparé au processus d'emballage manuel, des tâches telles que la création de conteneurs, l'affectation d'articles et la fermeture des conteneurs sont automatisées par le système. La société fictive USMF sert d'exemple dans cette procédure qui est effectuée par un gestionnaire des entrepôts.
 

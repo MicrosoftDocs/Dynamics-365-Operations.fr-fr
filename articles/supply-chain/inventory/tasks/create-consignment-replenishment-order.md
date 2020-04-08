@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f426dbf00eace23da2f26eb50dd9675fe22ed445
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 766f29f7511c16eccd37e93f2de366ac23c35545
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914770"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145799"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Créer une commande de réapprovisionnement avec consignation
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique explique comment créer une commande de réapprovisionnement avec consignation pour vous permettre de suivre la livraison prévue d'un fournisseur dans le stock de consignation. Elle décrit également comment enregistrer une réception de produits afin que le stock de consignation soit enregistré comme stock disponible appartenant au fournisseur. Cette procédure est généralement effectuée par un professionnel de l'approvisionnement. Vous pouvez utiliser ce guide dans les données de démonstration de la société fictive USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 

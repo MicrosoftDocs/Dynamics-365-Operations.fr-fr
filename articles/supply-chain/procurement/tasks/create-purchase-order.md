@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c54f7a9800bb0fcfb23f0c6c4d16f48bee8c28d
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: c391a29e72b004cf4f7f998de5a74cf5ec1ac520
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867123"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149732"
 ---
 # <a name="create-a-purchase-order"></a>Créer une commande fournisseur
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique vous indique comment créer une commande fournisseur manuellement. Il est plus classique de créer automatiquement les commandes fournisseur suite à l'exécution d'une planification générale, d'une livraison directe ou d'autres processus. Les commandes fournisseur sont généralement créées par un agent des achats. L'exemple indiqué ici peut être utilisé dans les données fictives de la société USMF à l'aide des valeurs suggérées dans les notes pour les différentes étapes.
 
@@ -60,7 +60,7 @@ Cette rubrique vous indique comment créer une commande fournisseur manuellement
     - Le champ **Prix unitaire** contient généralement une valeur provenant d'un contrat d'achat ou d'un accord commercial. Il est possible de modifier le prix unitaire sur des lignes de commande individuelles, par exemple si un seul prix est négocié avec le fournisseur.  
     - Le champ **Remise** représente un montant de remise par unité. Cette remise réduit donc le prix unitaire. Cette remise est généralement fournie automatiquement à partir des contrats d'achat ou des accords commerciaux, mais il est possible de remplacer chaque ligne si des remises ont été négociées avec le fournisseur.  
     - Il est possible d'entrer un pourcentage de remise qui diminue le montant net de la ligne en conséquence. Ce pourcentage de remise est souvent fourni automatiquement à partir des contrats d'achat ou des accords commerciaux, mais il est possible de remplacer chaque ligne si une remise unique a été négociée avec le fournisseur.  
-    - La valeur du champ **Montant net** est calculée à partir d'autres champs de la ligne y compris la quantité, le prix unitaire, la remise et le pourcentage de remise. Il est possible de modifier le montant net, mais les champs **Prix unitaire**, **Remise** et **Pourcentage de remise** seront vides et lorsque vous validez la ligne, le montant validé est proportionnel au montant HT. Généralement le champ **Montant net** n'est utilisé que pour afficher le montant net de la ligne.  
+    - La valeur du champ **Montant net** est calculée à partir d'autres champs de la ligne y compris la quantité, le prix unitaire, la remise et le pourcentage de remise. Il est possible de modifier le montant net, mais les champs **Prix unitaire**, **Remise** et **Pourcentage de remise** seront vides et lorsque vous validez la ligne, le montant validé sera proportionnel au montant HT. Généralement le champ **Montant net** n'est utilisé que pour afficher le montant net de la ligne.  
 
 8. Développez la section **Détails de ligne**.
 9. Sélectionnez l'onglet **Livraison**. Une seule date de livraison peut être affectée à chaque ligne de commande. La date est héritée du champ de l'en-tête de commande fournisseur, mais vous pouvez le modifier.  
@@ -68,7 +68,7 @@ Cette rubrique vous indique comment créer une commande fournisseur manuellement
 ## <a name="review-order-totals"></a>Consulter les totaux de la commande
 1. Sélectionnez **Totaux**.
 
-    - Si vous ne voyez pas les **totaux**, cliquez sur l'onglet **Commande fournisseur** de la barre d'action.  
+    - Si vous ne voyez pas les **Totaux**, cliquez sur l'onglet **Commande fournisseur** de la barre d'action.  
     - Cette boîte de dialogue affiche les totaux de la commande entière.  
     - Le champ de **sélection** vous permet de modifier la manière dont les totaux sont calculés. Par exemple, vous pouvez choisir **Quantité de l'accusé de réception de marchandises** pour indiquer les totaux liés à la quantité de produits reçus, ou **Quantité commandée** pour indiquer la quantité de produit commandée.  
 

@@ -17,16 +17,16 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 002975a05e5a8582e7fa7a411e1aba277964067c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7d52341735b062c0740ff6f06deac57fbdd6e9b8
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183633"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139909"
 ---
 # <a name="add-a-certification-type-to-a-vendor-in-the-public-sector"></a>Ajouter un type de certification à un fournisseur dans le secteur public
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Vous pouvez créer et affecter aux fournisseurs n'importe quel type de certification qu'ils sont susceptibles de détenir. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
 

@@ -15,16 +15,16 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14669854a5ef73ea1f0a96ac5997dca69454ff5b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d09feb3d78f4ad4ff8de8fbf564ec7225672e1e9
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183659"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137974"
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Création et transfert de transactions vers l'état BLWI (Belgique)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure vous guide dans la création d'un état BLWI pour la Belgique. Cette procédure a été créée à l'aide des données fictives de la société USSI. Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en Belgique. Il est également nécessaire de paramétrer l'ID enregistrement pour la Belgique et de remplir le numéro d'enregistrement pour pouvoir créer la déclaration BLWI.
 

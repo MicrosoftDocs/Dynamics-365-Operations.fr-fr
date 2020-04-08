@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36bad7424ac247b8fd9a819928837de619e9e258
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 764d1dc1d7fb54e0fa14a681d6d3cdb1d829aa57
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026783"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146121"
 ---
 # <a name="create-a-location-profile"></a>Créer un profil d'emplacement
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment créer un profil d'emplacement dans Dynamics 365 Supply Chain Management. Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement associé qui décrit les propriétés de l'emplacement, par exemple, si l'emplacement autorise les articles mixtes. Dans cette procédure, nous créerons un profil pour un emplacement qui ne nécessite pas de contrôle de contenant. Nous autoriserons les articles mixtes et les statuts de stock mixtes, ainsi que l'inventaire tournant. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
+Cette rubrique explique comment créer un profil d'emplacement dans Dynamics 365 Supply Chain Management. Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement associé qui décrit les propriétés de l'emplacement, par exemple, si l'emplacement autorise les articles mixtes. Dans cette procédure, nous allons créer un profil pour un emplacement qui ne nécessite pas de contrôle de contenant. Nous autoriserons les articles mixtes et les statuts de stock mixtes, ainsi que l'inventaire tournant. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF.
 
 
 1. Dans le volet de navigation, accédez à **Modules > Gestion des entrepôts > Paramétrage > Entrepôt > Profils d'emplacement**.

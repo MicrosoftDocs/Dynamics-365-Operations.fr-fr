@@ -17,16 +17,16 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b91b5c5345a95f305d5e45ddff369579b910448c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7fa99c179d69a01289532ed9590e6e17098b1d2c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174615"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144526"
 ---
 # <a name="set-up-a-fund-in-the-public-sector"></a>Paramétrer un fonds dans le secteur public
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds. Chaque fonds doit posséder un nom et un numéro unique ; un type et une classe de fonds doivent lui être affectés. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
 

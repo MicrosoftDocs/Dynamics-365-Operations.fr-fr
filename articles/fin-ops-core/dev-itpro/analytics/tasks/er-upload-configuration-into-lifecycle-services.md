@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 980ce00ae702ea0a3394efa15419e0f7b7dc2530
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182207"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143282"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER Charger une configuration dans Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une configuration pour la génération d'états électronique (ER) et la charger dans Microsoft Lifecycle Services (LCS).
 
-Dans cet exemple, vous allez créer une configuration et la télécharger dans LCS pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». L'accès à LCS est également requis pour réaliser ces étapes.
+Dans cet exemple, vous allez créer une configuration et la télécharger dans LCS pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». L'accès à LCS est également requis pour réaliser ces étapes.
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-2. Sélectionnez « Litware, Inc. » et définissez-le comme actif.
+2. Sélectionnez « Litware, Inc. » et définissez-le comme actif.
 3. Cliquez sur Configurations.
 
 ## <a name="create-a-new-data-model-configuration"></a>Créer une configuration de modèle de données
@@ -79,14 +79,14 @@ Dans cet exemple, vous allez créer une configuration et la télécharger dans L
 2. Dans l'arborescence, sélectionnez « Exemple de configuration de modèle ».
     * Sélectionnez une configuration qui est déjà terminée.  
 3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la version de la configuration sélectionnée ayant le statut « Terminé ».  
+    * Sélectionnez la version de la configuration sélectionnée ayant le statut « Terminé ».  
 4. Cliquez sur Modifier le statut.
 5. Cliquez sur Partager.
-    * Le statut de configuration passe de « Terminé » à « Partagé » lorsqu'il est attribué dans LCS.  
+    * Le statut de configuration passe de « Terminé » à « Partagé » lorsqu'il est attribué dans LCS.  
 6. Cliquez sur OK.
 7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
     * Sélectionnez la version de configuration dont le statut est « Partagé ».  
-    * Notez que le statut de la version sélectionnée est passé de « Terminé » à « Partagé ».  
+    * Notez que le statut de la version sélectionnée est passé de « Terminé » à « Partagé ».  
 8. Fermez la page.
 9. Cliquez sur Référentiels.
     * Cela vous permet d'ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.  

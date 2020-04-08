@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042917"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142239"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Définir la dépendance des configurations ER vis-à-vis d'autres composants
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -40,7 +40,7 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
 2. Dans l'arborescence, sélectionnez « Exemple de modèle de données\Exemple de mise en correspondance ».
     * Nous avons sélectionné la version brouillon de la configuration de mise en correspondance de modèle « Exemple de mise en correspondance ». Nous allons définir sa dépendance vis-à-vis d'autres composants logiciels. Cette étape est considérée comme une condition préalable au contrôle du téléchargement de la version de cette configuration à partir d'un référentiel ER et à toute utilisation ultérieure de cette version.   
 3. Développez la section Conditions préalables.
-    * Notez que le groupe de composants prérequis « Implémentations » a été ajouté automatiquement à ce stade. Ce groupe contient le composant prérequis qui fait référence à la configuration de modèle de données et dont l'indicateur Implémentation est activé. Cet indicateur montre que la configuration de mise en correspondance de modèle « Exemple de mise en correspondance » est considérée comme l'implémentation du modèle de données « Exemple de modèle de données ». Ce composant forcera ER à télécharger la configuration de mise en correspondance « Exemple de mise en correspondance », à partir d'un référentiel ER lorsque la configuration de modèle « Exemple de modèle de données », est téléchargée.   
+    * Notez que le groupe de composants prérequis « Implémentations » a été ajouté automatiquement à ce stade. Ce groupe contient le composant prérequis qui fait référence à la configuration de modèle de données et dont l'indicateur Implémentation est activé. Cet indicateur montre que la configuration de mise en correspondance de modèle « Exemple de mise en correspondance » est considérée comme l'implémentation du modèle de données « Exemple de modèle de données ». Ce composant forcera ER à télécharger la configuration de mise en correspondance « Exemple de mise en correspondance », à partir d'un référentiel ER lorsque la configuration de modèle « Exemple de modèle de données », est téléchargée.   
 4. Cliquez sur Modifier.
     * Une seule dépendance de la version actuelle d'une configuration vis-à-vis d'un composant logiciel peut être spécifiée à l'aide de la définition du type du composant, et de la version du composant ou d'une plage de versions de composant.  
     * Les dépendances souhaitées peuvent être regroupées. Lorsque le type de regroupement « Tous sur » est sélectionné, la condition de dépendance de ce groupe est considérée comme remplie lorsque chaque condition de dépendance de ce groupe et du groupe subordonné est remplie. Lorsque le type de regroupement « Un sur » est sélectionné, la condition de dépendance de ce groupe est considérée comme remplie lorsqu'au moins une condition de dépendance de ce groupe est remplie.   

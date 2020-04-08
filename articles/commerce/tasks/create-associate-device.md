@@ -1,5 +1,5 @@
 ---
-title: " Créer et associer un périphérique"
+title: Créer et associer un périphérique
 description: Cette procédure décrit comment créer un périphérique et l'associer à une caisse enregistreuse.
 author: jashanno
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e9151adbadffa54633cb10a37522c065e86dd5c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bb201dac1cbfa59f1a46ef42da3822040f74e620
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022525"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141474"
 ---
 # <a name="create-and-associate-a-device"></a> Créer et associer un périphérique
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette procédure décrit comment créer un périphérique et l'associer à une caisse enregistreuse. On suppose que la caisse enregistreuse est déjà créée.  Cette tâche utilise la société USRT dans les données de démonstration. Cette tâche est destinée aux administrateurs, professionnels de l'informatique ou responsables informatiques Commerce, ainsi qu'aux rôles Directeur de magasin.
 
