@@ -5,6 +5,8 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "19\_mars\_2020"
+          href: hr-whats-new-2020-03-19.md
         - name: "10\_mars\_2020"
           href: hr-whats-new-2020-03-10.md
         - name: "3\_mars\_2020"
@@ -189,13 +191,13 @@
       items:
         - name: Vue d'ensemble
           href: hr-hrpro-overview.md
-        - name: Paramétrer les ressources humaines
+        - name: Paramétrer Human Resources
           items:
-            - name: Configurer les paramètres des ressources humaines
+            - name: Configurer les paramètres de Human Resources
               href: hr-setup-parameters.md
-            - name: Configurer les paramètres partagés des ressources humaines
+            - name: Configurer les paramètres partagés de Human Resources
               href: hr-setup-shared-parameters.md
-            - name: Configurer les workflows des ressources humaines
+            - name: Configurer les workflows de Human Resources
               href: hr-setup-workflows.md
             - name: Comprendre les champs de date et d'heure
               href: hr-setup-date-time-fields.md
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Créer une question dépendante
               href: hr-learning-depending-question.md
+        - name: Configurer le libre-service pour employés et pour responsables
+          items:
+            - name: Vue d'ensemble du libre-service pour employés et pour responsables
+              href: hr-employee-manager-self-service-overview.md
+            - name: Modifier les informations personnelles
+              href: hr-employee-manager-self-service-edit-personal-information.md
