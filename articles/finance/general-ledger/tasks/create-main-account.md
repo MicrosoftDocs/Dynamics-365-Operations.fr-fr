@@ -16,39 +16,39 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58418291d3732c1acbccd097205fa7e64a967038
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177666"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139990"
 ---
-# <a name="create-a-main-account"></a><span data-ttu-id="1d82a-103">Création d'un compte principal</span><span class="sxs-lookup"><span data-stu-id="1d82a-103">Create a main account</span></span>
+# <a name="create-a-main-account"></a><span data-ttu-id="c1264-103">Création d'un compte principal</span><span class="sxs-lookup"><span data-stu-id="c1264-103">Create a main account</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1d82a-104">Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant.</span><span class="sxs-lookup"><span data-stu-id="1d82a-104">This task guide steps through adding a main account to an existing chart of accounts.</span></span> <span data-ttu-id="1d82a-105">La société fictive USMF sert d'exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="1d82a-105">This recording uses the USMF demo company.</span></span>  
+<span data-ttu-id="c1264-104">Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant.</span><span class="sxs-lookup"><span data-stu-id="c1264-104">This task guide steps through adding a main account to an existing chart of accounts.</span></span> <span data-ttu-id="c1264-105">La société fictive USMF sert d'exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="c1264-105">This recording uses the USMF demo company.</span></span>  
 
-1. <span data-ttu-id="1d82a-106">Accédez à **Volet de navigation > Modules > Comptabilité > Plan de comptes > Comptes > Comptes principaux**.</span><span class="sxs-lookup"><span data-stu-id="1d82a-106">Go to **Navigation pane > Modules > General ledger > Chart of accounts > Accounts > Main accounts**.</span></span>
-2. <span data-ttu-id="1d82a-107">Cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="1d82a-107">Click **New**.</span></span>
-3. <span data-ttu-id="1d82a-108">Dans le champ **Compte principal**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="1d82a-108">In the **Main account** field, type a value.</span></span>
-4. <span data-ttu-id="1d82a-109">Tapez une valeur dans le champ **Nom**.</span><span class="sxs-lookup"><span data-stu-id="1d82a-109">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="1d82a-110">Dans le champ **Type de compte principal**, sélectionnez le type qui représente le mieux le solde et l'emplacement des comptes dans les tableaux d'analyse.</span><span class="sxs-lookup"><span data-stu-id="1d82a-110">In the **Main account type** field, select the type that best represents the accounts balance and location on financial statements.</span></span>
-6. <span data-ttu-id="1d82a-111">Dans la liste, sélectionnez la catégorie de compte à laquelle appartient le compte principal.</span><span class="sxs-lookup"><span data-stu-id="1d82a-111">In the list, select the account category the main account belongs to.</span></span> <span data-ttu-id="1d82a-112">La catégorie de compte est utilisée pour les états financiers par défaut et le contenu du tableau de bord Power BI.</span><span class="sxs-lookup"><span data-stu-id="1d82a-112">Account category is used for default financial reports and Power BI dashboard content.</span></span>  
-7. <span data-ttu-id="1d82a-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1d82a-113">In the list, click the link in the selected row.</span></span> <span data-ttu-id="1d82a-114">Modifiez le solde par défaut de débit ou de crédit.</span><span class="sxs-lookup"><span data-stu-id="1d82a-114">Change the default debit or credit balance.</span></span>  
-8. <span data-ttu-id="1d82a-115">Dans le champ **Devise par défaut**, sélectionnez une valeur dans la liste des devises.</span><span class="sxs-lookup"><span data-stu-id="1d82a-115">In the **Default currency** field, select a value from the list of currencies.</span></span>
-9. <span data-ttu-id="1d82a-116">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="1d82a-116">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="1d82a-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1d82a-117">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="1d82a-118">Activez/désactivez le développement de la section des **remplacements d'entité juridique**.</span><span class="sxs-lookup"><span data-stu-id="1d82a-118">Toggle the expansion of the **Legal entity overrides** section.</span></span>
-12. <span data-ttu-id="1d82a-119">Cliquez sur **Ajouter** pour sélectionner une entité juridique.</span><span class="sxs-lookup"><span data-stu-id="1d82a-119">Click **Add** to select a legal entity.</span></span>
-13. <span data-ttu-id="1d82a-120">Dans la liste, sélectionnez l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="1d82a-120">In the list, select the Legal entity.</span></span>
-14. <span data-ttu-id="1d82a-121">Cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="1d82a-121">Click **Add**.</span></span>
-15. <span data-ttu-id="1d82a-122">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1d82a-122">In the list, mark the selected row.</span></span>
-16. <span data-ttu-id="1d82a-123">Cochez ou décochez la case **Suspendu**.</span><span class="sxs-lookup"><span data-stu-id="1d82a-123">Check or uncheck the **Suspended** checkbox.</span></span>
-17. <span data-ttu-id="1d82a-124">Développez la section **Dimensions financières**.</span><span class="sxs-lookup"><span data-stu-id="1d82a-124">Expand the **Financial reporting** section.</span></span>
-18. <span data-ttu-id="1d82a-125">Dans le champ **Type de taux de change**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="1d82a-125">In the **Exchange rate type** field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="1d82a-126">Dans la liste, sélectionnez le **type de taux de change pour le compte**.</span><span class="sxs-lookup"><span data-stu-id="1d82a-126">In the list, select the **Exchange rate type for the account**.</span></span>
-20. <span data-ttu-id="1d82a-127">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1d82a-127">In the list, click the link in the selected row.</span></span>
-21. <span data-ttu-id="1d82a-128">Dans le champ **Type de la conversion de devises**, sélectionnez le mode de calcul des de taux de change du compte.</span><span class="sxs-lookup"><span data-stu-id="1d82a-128">In the **Currency translation type** field, select the method for calculating exchange rates for the account.</span></span>
-22. <span data-ttu-id="1d82a-129">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="1d82a-129">Close the page.</span></span>
+1. <span data-ttu-id="c1264-106">Accédez à **Volet de navigation > Modules > Comptabilité > Plan de comptes > Comptes > Comptes principaux**.</span><span class="sxs-lookup"><span data-stu-id="c1264-106">Go to **Navigation pane > Modules > General ledger > Chart of accounts > Accounts > Main accounts**.</span></span>
+2. <span data-ttu-id="c1264-107">Cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="c1264-107">Click **New**.</span></span>
+3. <span data-ttu-id="c1264-108">Dans le champ **Compte principal**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="c1264-108">In the **Main account** field, type a value.</span></span>
+4. <span data-ttu-id="c1264-109">Tapez une valeur dans le champ **Nom**.</span><span class="sxs-lookup"><span data-stu-id="c1264-109">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="c1264-110">Dans le champ **Type de compte principal**, sélectionnez le type qui représente le mieux le solde et l'emplacement des comptes dans les tableaux d'analyse.</span><span class="sxs-lookup"><span data-stu-id="c1264-110">In the **Main account type** field, select the type that best represents the accounts balance and location on financial statements.</span></span>
+6. <span data-ttu-id="c1264-111">Dans la liste, sélectionnez la catégorie de compte à laquelle appartient le compte principal.</span><span class="sxs-lookup"><span data-stu-id="c1264-111">In the list, select the account category the main account belongs to.</span></span> <span data-ttu-id="c1264-112">La catégorie de compte est utilisée pour les états financiers par défaut et le contenu du tableau de bord Power BI.</span><span class="sxs-lookup"><span data-stu-id="c1264-112">Account category is used for default financial reports and Power BI dashboard content.</span></span>  
+7. <span data-ttu-id="c1264-113">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c1264-113">In the list, click the link in the selected row.</span></span> <span data-ttu-id="c1264-114">Modifiez le solde par défaut de débit ou de crédit.</span><span class="sxs-lookup"><span data-stu-id="c1264-114">Change the default debit or credit balance.</span></span>  
+8. <span data-ttu-id="c1264-115">Dans le champ **Devise par défaut**, sélectionnez une valeur dans la liste des devises.</span><span class="sxs-lookup"><span data-stu-id="c1264-115">In the **Default currency** field, select a value from the list of currencies.</span></span>
+9. <span data-ttu-id="c1264-116">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="c1264-116">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="c1264-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c1264-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="c1264-118">Activez/désactivez le développement de la section des **remplacements d'entité juridique**.</span><span class="sxs-lookup"><span data-stu-id="c1264-118">Toggle the expansion of the **Legal entity overrides** section.</span></span>
+12. <span data-ttu-id="c1264-119">Cliquez sur **Ajouter** pour sélectionner une entité juridique.</span><span class="sxs-lookup"><span data-stu-id="c1264-119">Click **Add** to select a legal entity.</span></span>
+13. <span data-ttu-id="c1264-120">Dans la liste, sélectionnez l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="c1264-120">In the list, select the Legal entity.</span></span>
+14. <span data-ttu-id="c1264-121">Cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="c1264-121">Click **Add**.</span></span>
+15. <span data-ttu-id="c1264-122">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c1264-122">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="c1264-123">Cochez ou décochez la case **Suspendu**.</span><span class="sxs-lookup"><span data-stu-id="c1264-123">Check or uncheck the **Suspended** checkbox.</span></span>
+17. <span data-ttu-id="c1264-124">Développez la section **Dimensions financières**.</span><span class="sxs-lookup"><span data-stu-id="c1264-124">Expand the **Financial reporting** section.</span></span>
+18. <span data-ttu-id="c1264-125">Dans le champ **Type de taux de change**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="c1264-125">In the **Exchange rate type** field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="c1264-126">Dans la liste, sélectionnez le **type de taux de change pour le compte**.</span><span class="sxs-lookup"><span data-stu-id="c1264-126">In the list, select the **Exchange rate type for the account**.</span></span>
+20. <span data-ttu-id="c1264-127">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c1264-127">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="c1264-128">Dans le champ **Type de la conversion de devises**, sélectionnez le mode de calcul des de taux de change du compte.</span><span class="sxs-lookup"><span data-stu-id="c1264-128">In the **Currency translation type** field, select the method for calculating exchange rates for the account.</span></span>
+22. <span data-ttu-id="c1264-129">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="c1264-129">Close the page.</span></span>
 

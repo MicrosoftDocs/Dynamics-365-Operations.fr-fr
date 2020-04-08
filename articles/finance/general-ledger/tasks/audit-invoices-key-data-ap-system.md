@@ -16,49 +16,49 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6e8967fe4db67ff98fc7093792bdb82b73a33d9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6e1af0dac107be6009eb3ca576c49ac5abbd9848
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177668"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139939"
 ---
-# <a name="audit-invoices-and-key-data-in-ap-system"></a><span data-ttu-id="11d83-103">Auditer les factures et les données clé dans le système de comptabilité fournisseur</span><span class="sxs-lookup"><span data-stu-id="11d83-103">Audit invoices and key data in AP system</span></span>
+# <a name="audit-invoices-and-key-data-in-ap-system"></a><span data-ttu-id="b2b8e-103">Auditer les factures et les données clé dans le système de comptabilité fournisseur</span><span class="sxs-lookup"><span data-stu-id="b2b8e-103">Audit invoices and key data in AP system</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="11d83-104">Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement.</span><span class="sxs-lookup"><span data-stu-id="11d83-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="11d83-105">Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="11d83-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
+<span data-ttu-id="b2b8e-104">Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="b2b8e-105">Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
 
-<span data-ttu-id="11d83-106">Dans la page Comptabilité fournisseur, vérifiez que l'option Activer le contrôle de rapprochement de factures est sélectionnée, que le champ Valider la facture avec les non-correspondances est bien défini sur Demander une approbation, et que le champ Stratégie de rapprochement des lignes est défini sur Rapprochement à trois facteurs.</span><span class="sxs-lookup"><span data-stu-id="11d83-106">In the Accounts payable parameters page, ensure that the Enable invoice matching validation option is selected, the Post invoice with discrepancies field is set to Require approval, and the Line matching policy field is set to Three-way matching.</span></span>
+<span data-ttu-id="b2b8e-106">Dans la page Comptabilité fournisseur, vérifiez que l'option Activer le contrôle de rapprochement de factures est sélectionnée, que le champ Valider la facture avec les non-correspondances est bien défini sur Demander une approbation, et que le champ Stratégie de rapprochement des lignes est défini sur Rapprochement à trois facteurs.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-106">In the Accounts payable parameters page, ensure that the Enable invoice matching validation option is selected, the Post invoice with discrepancies field is set to Require approval, and the Line matching policy field is set to Three-way matching.</span></span>
 
-<span data-ttu-id="11d83-107">La société fictive USMF sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="11d83-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="11d83-108">Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable.</span><span class="sxs-lookup"><span data-stu-id="11d83-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
+<span data-ttu-id="b2b8e-107">La société fictive USMF sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="b2b8e-108">Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
 
 
-## <a name="create-a-purchase-order"></a><span data-ttu-id="11d83-109">Créer une commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="11d83-109">Create a purchase order</span></span>
-1. <span data-ttu-id="11d83-110">Accédez à **Toutes les commandes fournisseur**.</span><span class="sxs-lookup"><span data-stu-id="11d83-110">Go to **All purchase orders**.</span></span>
-2. <span data-ttu-id="11d83-111">Cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="11d83-111">Click **New**.</span></span>
-3. <span data-ttu-id="11d83-112">Dans le champ **Compte fournisseur**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="11d83-112">In the **Vendor account** field, type a value.</span></span>
-4. <span data-ttu-id="11d83-113">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="11d83-113">Click **OK**.</span></span>
-5. <span data-ttu-id="11d83-114">Cliquez sur **Ajouter une ligne**.</span><span class="sxs-lookup"><span data-stu-id="11d83-114">Click **Add line**.</span></span>
-6. <span data-ttu-id="11d83-115">Dans le champ **Numéro d'article**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="11d83-115">In the **Item number** field, type a value.</span></span>
-7. <span data-ttu-id="11d83-116">Dans le volet Actions, cliquez sur **Achat**.</span><span class="sxs-lookup"><span data-stu-id="11d83-116">On the Action Pane, click **Purchase**.</span></span>
-8. <span data-ttu-id="11d83-117">Cliquez sur **Confirmer**.</span><span class="sxs-lookup"><span data-stu-id="11d83-117">Click **Confirm**.</span></span>
+## <a name="create-a-purchase-order"></a><span data-ttu-id="b2b8e-109">Créer une commande fournisseur</span><span class="sxs-lookup"><span data-stu-id="b2b8e-109">Create a purchase order</span></span>
+1. <span data-ttu-id="b2b8e-110">Accédez à **Toutes les commandes fournisseur**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-110">Go to **All purchase orders**.</span></span>
+2. <span data-ttu-id="b2b8e-111">Cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-111">Click **New**.</span></span>
+3. <span data-ttu-id="b2b8e-112">Dans le champ **Compte fournisseur**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-112">In the **Vendor account** field, type a value.</span></span>
+4. <span data-ttu-id="b2b8e-113">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-113">Click **OK**.</span></span>
+5. <span data-ttu-id="b2b8e-114">Cliquez sur **Ajouter une ligne**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-114">Click **Add line**.</span></span>
+6. <span data-ttu-id="b2b8e-115">Dans le champ **Numéro d'article**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-115">In the **Item number** field, type a value.</span></span>
+7. <span data-ttu-id="b2b8e-116">Dans le volet Actions, cliquez sur **Achat**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-116">On the Action Pane, click **Purchase**.</span></span>
+8. <span data-ttu-id="b2b8e-117">Cliquez sur **Confirmer**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-117">Click **Confirm**.</span></span>
 
-## <a name="post-a-product-receipt"></a><span data-ttu-id="11d83-118">Valider un accusé de réception de marchandises</span><span class="sxs-lookup"><span data-stu-id="11d83-118">Post a product receipt</span></span>
-1. <span data-ttu-id="11d83-119">Dans le volet Action, cliquez sur **Recevoir**.</span><span class="sxs-lookup"><span data-stu-id="11d83-119">On the Action Pane, click **Receive**.</span></span>
-2. <span data-ttu-id="11d83-120">Cliquez sur **Accusé de réception de marchandises**.</span><span class="sxs-lookup"><span data-stu-id="11d83-120">Click **Product receipt**.</span></span>
-3. <span data-ttu-id="11d83-121">Dans le champ **Accusé de réception de marchandises**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="11d83-121">In the **Product receipt** field, type a value.</span></span>
-4. <span data-ttu-id="11d83-122">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="11d83-122">Click **OK**.</span></span>
+## <a name="post-a-product-receipt"></a><span data-ttu-id="b2b8e-118">Valider un accusé de réception de marchandises</span><span class="sxs-lookup"><span data-stu-id="b2b8e-118">Post a product receipt</span></span>
+1. <span data-ttu-id="b2b8e-119">Dans le volet Action, cliquez sur **Recevoir**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-119">On the Action Pane, click **Receive**.</span></span>
+2. <span data-ttu-id="b2b8e-120">Cliquez sur **Accusé de réception de marchandises**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-120">Click **Product receipt**.</span></span>
+3. <span data-ttu-id="b2b8e-121">Dans le champ **Accusé de réception de marchandises**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-121">In the **Product receipt** field, type a value.</span></span>
+4. <span data-ttu-id="b2b8e-122">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-122">Click **OK**.</span></span>
 
-## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="11d83-123">Enregistrer et mettre en correspondance une facture fournisseur avec un accusé de réception de marchandises</span><span class="sxs-lookup"><span data-stu-id="11d83-123">Record and match a vendor invoice to a product receipt</span></span>
-1. <span data-ttu-id="11d83-124">Dans le volet Actions, cliquez sur **Facture > Facture**.</span><span class="sxs-lookup"><span data-stu-id="11d83-124">On the Action Pane, click **Invoice > Invoice**.</span></span>
-2. <span data-ttu-id="11d83-125">Dans le champ **Nombre**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="11d83-125">In the **Number** field, type a value.</span></span>
-3. <span data-ttu-id="11d83-126">Cliquez sur **Valeur par défaut de : Quantité commandée** pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="11d83-126">Click **Default from: Ordered quantity** to open the drop dialog.</span></span>
-4. <span data-ttu-id="11d83-127">Dans le champ **Quantité par défaut pour les lignes**, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="11d83-127">In the **Default quantity for lines** field, select an option.</span></span>
-5. <span data-ttu-id="11d83-128">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="11d83-128">Click **OK**.</span></span>
-6. <span data-ttu-id="11d83-129">Cliquez sur **Oui**.</span><span class="sxs-lookup"><span data-stu-id="11d83-129">Click **Yes**.</span></span>
-7. <span data-ttu-id="11d83-130">Cliquez sur **Mettre en correspondance les accusés de réception de marchandises**.</span><span class="sxs-lookup"><span data-stu-id="11d83-130">Click **Match product receipts**.</span></span>
-8. <span data-ttu-id="11d83-131">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="11d83-131">Click **OK**.</span></span>
-9. <span data-ttu-id="11d83-132">Cliquez sur **Revoir** dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="11d83-132">On the Action Pane, click **Review**.</span></span>
-10. <span data-ttu-id="11d83-133">Cliquez sur **Mise en correspondance des détails**.</span><span class="sxs-lookup"><span data-stu-id="11d83-133">Click **Matching details**.</span></span>
+## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="b2b8e-123">Enregistrer et mettre en correspondance une facture fournisseur avec un accusé de réception de marchandises</span><span class="sxs-lookup"><span data-stu-id="b2b8e-123">Record and match a vendor invoice to a product receipt</span></span>
+1. <span data-ttu-id="b2b8e-124">Dans le volet Actions, cliquez sur **Facture > Facture**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-124">On the Action Pane, click **Invoice > Invoice**.</span></span>
+2. <span data-ttu-id="b2b8e-125">Dans le champ **Nombre**, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-125">In the **Number** field, type a value.</span></span>
+3. <span data-ttu-id="b2b8e-126">Cliquez sur **Valeur par défaut de : Quantité commandée** pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-126">Click **Default from: Ordered quantity** to open the drop dialog.</span></span>
+4. <span data-ttu-id="b2b8e-127">Dans le champ **Quantité par défaut pour les lignes**, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-127">In the **Default quantity for lines** field, select an option.</span></span>
+5. <span data-ttu-id="b2b8e-128">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-128">Click **OK**.</span></span>
+6. <span data-ttu-id="b2b8e-129">Cliquez sur **Oui**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-129">Click **Yes**.</span></span>
+7. <span data-ttu-id="b2b8e-130">Cliquez sur **Mettre en correspondance les accusés de réception de marchandises**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-130">Click **Match product receipts**.</span></span>
+8. <span data-ttu-id="b2b8e-131">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-131">Click **OK**.</span></span>
+9. <span data-ttu-id="b2b8e-132">Cliquez sur **Revoir** dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-132">On the Action Pane, click **Review**.</span></span>
+10. <span data-ttu-id="b2b8e-133">Cliquez sur **Mise en correspondance des détails**.</span><span class="sxs-lookup"><span data-stu-id="b2b8e-133">Click **Matching details**.</span></span>
 

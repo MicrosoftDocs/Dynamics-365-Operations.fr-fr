@@ -17,33 +17,33 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf24d198d7f46747e377ee10be5b6b994b2d5abf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d7617869a145d6bd88886df130fe44faacdabc63
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183630"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144586"
 ---
-# <a name="create-a-commitment-to-reserve-budget-funds-for-the-public-sector"></a><span data-ttu-id="cb296-103">Créer un engagement de réserver des fonds budgétaires pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="cb296-103">Create a commitment to reserve budget funds for the public sector</span></span>
+# <a name="create-a-commitment-to-reserve-budget-funds-for-the-public-sector"></a><span data-ttu-id="596b1-103">Créer un engagement de réserver des fonds budgétaires pour le secteur public</span><span class="sxs-lookup"><span data-stu-id="596b1-103">Create a commitment to reserve budget funds for the public sector</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="cb296-104">Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France.</span><span class="sxs-lookup"><span data-stu-id="cb296-104">Commitments are budget control source documents used by public sector entities in France.</span></span> <span data-ttu-id="cb296-105">Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="cb296-105">This task guide was created using the PSUS demo company data in the public sector partition.</span></span>
+<span data-ttu-id="596b1-104">Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France.</span><span class="sxs-lookup"><span data-stu-id="596b1-104">Commitments are budget control source documents used by public sector entities in France.</span></span> <span data-ttu-id="596b1-105">Ce guide de tâche a été créée en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="596b1-105">This task guide was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. <span data-ttu-id="cb296-106">Accédez à Budgétisation > Engagements.</span><span class="sxs-lookup"><span data-stu-id="cb296-106">Go to Budgeting > Commitments.</span></span>
-2. <span data-ttu-id="cb296-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="cb296-107">Click New.</span></span>
-3. <span data-ttu-id="cb296-108">Dans le champ Nom, tapez un nom qui permettra d'identifier cet engagement.</span><span class="sxs-lookup"><span data-stu-id="cb296-108">In the Name field, type a name that will identify this commitment.</span></span>
-4. <span data-ttu-id="cb296-109">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="cb296-109">Click Add line.</span></span>
-5. <span data-ttu-id="cb296-110">Dans le champ Compte général, sélectionnez les fonds et le compte principal.</span><span class="sxs-lookup"><span data-stu-id="cb296-110">In the Ledger account field, select the Fund and the Main account.</span></span>
-6. <span data-ttu-id="cb296-111">Dans le champ Montant, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="cb296-111">In the Amount field, enter a number.</span></span>
-    * <span data-ttu-id="cb296-112">Entrez une ligne de contrat d'achat si l'engagement concerne un contrat d'achat spécifique.</span><span class="sxs-lookup"><span data-stu-id="cb296-112">Enter a purchase agreement line if the commitment is for a specific purchase agreement.</span></span> <span data-ttu-id="cb296-113">Ajoutez des lignes supplémentaires si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="cb296-113">Add additional lines as needed.</span></span>  
-7. <span data-ttu-id="cb296-114">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="cb296-114">On the Action Pane, click Options.</span></span>
-8. <span data-ttu-id="cb296-115">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="cb296-115">Click Change view.</span></span>
-9. <span data-ttu-id="cb296-116">Cliquez sur Vue de l'en-tête.</span><span class="sxs-lookup"><span data-stu-id="cb296-116">Click Header view.</span></span>
-10. <span data-ttu-id="cb296-117">Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="cb296-117">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="cb296-118">Facultatif : dans la liste, sélectionnez le fournisseur pour cet engagement.</span><span class="sxs-lookup"><span data-stu-id="cb296-118">Optional: In the list, select the vendor for this commitment.</span></span>
-12. <span data-ttu-id="cb296-119">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="cb296-119">On the Action Pane, click Options.</span></span>
-13. <span data-ttu-id="cb296-120">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="cb296-120">Click Change view.</span></span>
-14. <span data-ttu-id="cb296-121">Cliquez sur Affichage des lignes.</span><span class="sxs-lookup"><span data-stu-id="cb296-121">Click Line view.</span></span>
-15. <span data-ttu-id="cb296-122">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="cb296-122">Click Save.</span></span>
+1. <span data-ttu-id="596b1-106">Accédez à Budgétisation > Engagements.</span><span class="sxs-lookup"><span data-stu-id="596b1-106">Go to Budgeting > Commitments.</span></span>
+2. <span data-ttu-id="596b1-107">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="596b1-107">Click New.</span></span>
+3. <span data-ttu-id="596b1-108">Dans le champ Nom, tapez un nom qui permettra d'identifier cet engagement.</span><span class="sxs-lookup"><span data-stu-id="596b1-108">In the Name field, type a name that will identify this commitment.</span></span>
+4. <span data-ttu-id="596b1-109">Cliquez sur Ajouter une ligne.</span><span class="sxs-lookup"><span data-stu-id="596b1-109">Click Add line.</span></span>
+5. <span data-ttu-id="596b1-110">Dans le champ Compte général, sélectionnez les fonds et le compte principal.</span><span class="sxs-lookup"><span data-stu-id="596b1-110">In the Ledger account field, select the Fund and the Main account.</span></span>
+6. <span data-ttu-id="596b1-111">Dans le champ Montant, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="596b1-111">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="596b1-112">Entrez une ligne de contrat d'achat si l'engagement concerne un contrat d'achat spécifique.</span><span class="sxs-lookup"><span data-stu-id="596b1-112">Enter a purchase agreement line if the commitment is for a specific purchase agreement.</span></span> <span data-ttu-id="596b1-113">Ajoutez des lignes supplémentaires si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="596b1-113">Add additional lines as needed.</span></span>  
+7. <span data-ttu-id="596b1-114">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="596b1-114">On the Action Pane, click Options.</span></span>
+8. <span data-ttu-id="596b1-115">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="596b1-115">Click Change view.</span></span>
+9. <span data-ttu-id="596b1-116">Cliquez sur Vue de l'en-tête.</span><span class="sxs-lookup"><span data-stu-id="596b1-116">Click Header view.</span></span>
+10. <span data-ttu-id="596b1-117">Dans le champ Compte fournisseur, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="596b1-117">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="596b1-118">Facultatif : dans la liste, sélectionnez le fournisseur pour cet engagement.</span><span class="sxs-lookup"><span data-stu-id="596b1-118">Optional: In the list, select the vendor for this commitment.</span></span>
+12. <span data-ttu-id="596b1-119">Dans le volet Actions, cliquez sur Options.</span><span class="sxs-lookup"><span data-stu-id="596b1-119">On the Action Pane, click Options.</span></span>
+13. <span data-ttu-id="596b1-120">Cliquez sur Changer de vue.</span><span class="sxs-lookup"><span data-stu-id="596b1-120">Click Change view.</span></span>
+14. <span data-ttu-id="596b1-121">Cliquez sur Affichage des lignes.</span><span class="sxs-lookup"><span data-stu-id="596b1-121">Click Line view.</span></span>
+15. <span data-ttu-id="596b1-122">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="596b1-122">Click Save.</span></span>
 

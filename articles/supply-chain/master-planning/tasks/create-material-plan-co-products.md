@@ -16,98 +16,98 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e59ff769685677b0970dbc7d4c9d4d2c1e5b63d1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 714f0c5f014aac1f006b8356de8570ad7d7e0d47
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835956"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148076"
 ---
-# <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="1e0a4-103">Créer un plan de matériaux pour des coproduits</span><span class="sxs-lookup"><span data-stu-id="1e0a4-103">Create a material plan for co products</span></span>
+# <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="3ff28-103">Créer un plan de matériaux pour des coproduits</span><span class="sxs-lookup"><span data-stu-id="3ff28-103">Create a material plan for co products</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1e0a4-104">Le responsable de production organise les besoins en matières pour les articles qui sont des coproduits de formules.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-104">The production planner plans the material requirements for items that are formula co-products.</span></span> <span data-ttu-id="1e0a4-105">La société fictive de démonstration utilisée pour créer cette procédure est USP2.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-105">The demo data company used to create this procedure is USP2.</span></span>
+<span data-ttu-id="3ff28-104">Le responsable de production organise les besoins en matières pour les articles qui sont des coproduits de formules.</span><span class="sxs-lookup"><span data-stu-id="3ff28-104">The production planner plans the material requirements for items that are formula co-products.</span></span> <span data-ttu-id="3ff28-105">La société fictive de démonstration utilisée pour créer cette procédure est USP2.</span><span class="sxs-lookup"><span data-stu-id="3ff28-105">The demo data company used to create this procedure is USP2.</span></span>
 
 
-## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="1e0a4-106">Créer une demande pour un coproduit</span><span class="sxs-lookup"><span data-stu-id="1e0a4-106">Create requirement for a co-product</span></span>
-1. <span data-ttu-id="1e0a4-107">Allez dans le Tableau de bord par défaut.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-107">Go to Default dashboard.</span></span>
-2. <span data-ttu-id="1e0a4-108">Cliquez sur Traitement et recherche de commande client.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-108">Click Sales order processing and inquiry.</span></span>
-3. <span data-ttu-id="1e0a4-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-109">Click New.</span></span>
-4. <span data-ttu-id="1e0a4-110">Cliquez sur Commande client.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-110">Click Sales order.</span></span>
-5. <span data-ttu-id="1e0a4-111">Tapez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-111">In the Customer account field, type a value.</span></span>
-    * <span data-ttu-id="1e0a4-112">Exemple : US-001</span><span class="sxs-lookup"><span data-stu-id="1e0a4-112">Example: US-001</span></span>  
-6. <span data-ttu-id="1e0a4-113">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-113">Click OK.</span></span>
-7. <span data-ttu-id="1e0a4-114">Tapez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-114">In the Item number field, type a value.</span></span>
-    * <span data-ttu-id="1e0a4-115">Exemple : P6003</span><span class="sxs-lookup"><span data-stu-id="1e0a4-115">Example: P6003</span></span>  
-8. <span data-ttu-id="1e0a4-116">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-116">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="1e0a4-117">Exemple : 50000</span><span class="sxs-lookup"><span data-stu-id="1e0a4-117">Example: 50000</span></span>  
-9. <span data-ttu-id="1e0a4-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-118">Click Save.</span></span>
+## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="3ff28-106">Créer une demande pour un coproduit</span><span class="sxs-lookup"><span data-stu-id="3ff28-106">Create requirement for a co-product</span></span>
+1. <span data-ttu-id="3ff28-107">Allez dans le Tableau de bord par défaut.</span><span class="sxs-lookup"><span data-stu-id="3ff28-107">Go to Default dashboard.</span></span>
+2. <span data-ttu-id="3ff28-108">Cliquez sur Traitement et recherche de commande client.</span><span class="sxs-lookup"><span data-stu-id="3ff28-108">Click Sales order processing and inquiry.</span></span>
+3. <span data-ttu-id="3ff28-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="3ff28-109">Click New.</span></span>
+4. <span data-ttu-id="3ff28-110">Cliquez sur Commande client.</span><span class="sxs-lookup"><span data-stu-id="3ff28-110">Click Sales order.</span></span>
+5. <span data-ttu-id="3ff28-111">Tapez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="3ff28-111">In the Customer account field, type a value.</span></span>
+    * <span data-ttu-id="3ff28-112">Exemple : US-001</span><span class="sxs-lookup"><span data-stu-id="3ff28-112">Example: US-001</span></span>  
+6. <span data-ttu-id="3ff28-113">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="3ff28-113">Click OK.</span></span>
+7. <span data-ttu-id="3ff28-114">Tapez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="3ff28-114">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="3ff28-115">Exemple : P6003</span><span class="sxs-lookup"><span data-stu-id="3ff28-115">Example: P6003</span></span>  
+8. <span data-ttu-id="3ff28-116">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="3ff28-116">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="3ff28-117">Exemple : 50000</span><span class="sxs-lookup"><span data-stu-id="3ff28-117">Example: 50000</span></span>  
+9. <span data-ttu-id="3ff28-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="3ff28-118">Click Save.</span></span>
 
-## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="1e0a4-119">Créer un plan matières pour des coproduits</span><span class="sxs-lookup"><span data-stu-id="1e0a4-119">Create a material plan for co-products</span></span>
-1. <span data-ttu-id="1e0a4-120">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-120">Close the page.</span></span>
-2. <span data-ttu-id="1e0a4-121">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-121">Close the page.</span></span>
-3. <span data-ttu-id="1e0a4-122">Cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-122">Click Master planning.</span></span>
-4. <span data-ttu-id="1e0a4-123">Dans le champ Régime, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-123">In the Plan field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="1e0a4-124">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-124">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="1e0a4-125">Exemple : Programme</span><span class="sxs-lookup"><span data-stu-id="1e0a4-125">Example: MasterPlan</span></span>  
-6. <span data-ttu-id="1e0a4-126">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-126">Click Run.</span></span>
-7. <span data-ttu-id="1e0a4-127">Développez ou réduisez la section Enregistrements à inclure.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-127">Expand or collapse the Records to include section.</span></span>
-8. <span data-ttu-id="1e0a4-128">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-128">Click Filter.</span></span>
-9. <span data-ttu-id="1e0a4-129">Dans la liste, sélectionnez la ligne pour Champ = Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-129">In the list, select the row for Field = Item number.</span></span>
-10. <span data-ttu-id="1e0a4-130">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-130">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="1e0a4-131">Exemple : P6003</span><span class="sxs-lookup"><span data-stu-id="1e0a4-131">Example: P6003</span></span>  
-11. <span data-ttu-id="1e0a4-132">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-132">Click OK.</span></span>
-12. <span data-ttu-id="1e0a4-133">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-133">Click OK.</span></span>
-13. <span data-ttu-id="1e0a4-134">Cliquez sur Ordres prévisionnels.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-134">Click Planned orders.</span></span>
-14. <span data-ttu-id="1e0a4-135">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-135">Use the Quick Filter to find records.</span></span> <span data-ttu-id="1e0a4-136">Par exemple, filtrez su le champ Numéro d'article avec une valeur de « P6000 ».</span><span class="sxs-lookup"><span data-stu-id="1e0a4-136">For example, filter on the Item number field with a value of 'P6000'.</span></span>
-    * <span data-ttu-id="1e0a4-137">Filtrez par élément de formule ayant comme coproduit de l'article pour lequel vous avez créé une commande client.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-137">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
-15. <span data-ttu-id="1e0a4-138">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-138">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="1e0a4-139">Sélectionnez n'importe quelle ligne renvoyée par le filtre.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-139">Select any of the rows returned by the filter.</span></span>  
-16. <span data-ttu-id="1e0a4-140">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-140">In the list, click the link in the selected row.</span></span>
-17. <span data-ttu-id="1e0a4-141">Développez ou réduisez la section Origine des besoins.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-141">Expand or collapse the Pegging section.</span></span>
-18. <span data-ttu-id="1e0a4-142">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-142">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="1e0a4-143">L'ordre prévisionnel est chevillé à la commande client du coproduit.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-143">The planned order is pegged to the sales order for the co-product.</span></span>  
-19. <span data-ttu-id="1e0a4-144">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-144">Close the page.</span></span>
+## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="3ff28-119">Créer un plan matières pour des coproduits</span><span class="sxs-lookup"><span data-stu-id="3ff28-119">Create a material plan for co-products</span></span>
+1. <span data-ttu-id="3ff28-120">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="3ff28-120">Close the page.</span></span>
+2. <span data-ttu-id="3ff28-121">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="3ff28-121">Close the page.</span></span>
+3. <span data-ttu-id="3ff28-122">Cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="3ff28-122">Click Master planning.</span></span>
+4. <span data-ttu-id="3ff28-123">Dans le champ Régime, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="3ff28-123">In the Plan field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="3ff28-124">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3ff28-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3ff28-125">Exemple : Programme</span><span class="sxs-lookup"><span data-stu-id="3ff28-125">Example: MasterPlan</span></span>  
+6. <span data-ttu-id="3ff28-126">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="3ff28-126">Click Run.</span></span>
+7. <span data-ttu-id="3ff28-127">Développez ou réduisez la section Enregistrements à inclure.</span><span class="sxs-lookup"><span data-stu-id="3ff28-127">Expand or collapse the Records to include section.</span></span>
+8. <span data-ttu-id="3ff28-128">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="3ff28-128">Click Filter.</span></span>
+9. <span data-ttu-id="3ff28-129">Dans la liste, sélectionnez la ligne pour Champ = Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="3ff28-129">In the list, select the row for Field = Item number.</span></span>
+10. <span data-ttu-id="3ff28-130">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="3ff28-130">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="3ff28-131">Exemple : P6003</span><span class="sxs-lookup"><span data-stu-id="3ff28-131">Example: P6003</span></span>  
+11. <span data-ttu-id="3ff28-132">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="3ff28-132">Click OK.</span></span>
+12. <span data-ttu-id="3ff28-133">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="3ff28-133">Click OK.</span></span>
+13. <span data-ttu-id="3ff28-134">Cliquez sur Ordres prévisionnels.</span><span class="sxs-lookup"><span data-stu-id="3ff28-134">Click Planned orders.</span></span>
+14. <span data-ttu-id="3ff28-135">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="3ff28-135">Use the Quick Filter to find records.</span></span> <span data-ttu-id="3ff28-136">Par exemple, filtrez su le champ Numéro d'article avec une valeur de « P6000 ».</span><span class="sxs-lookup"><span data-stu-id="3ff28-136">For example, filter on the Item number field with a value of 'P6000'.</span></span>
+    * <span data-ttu-id="3ff28-137">Filtrez par élément de formule ayant comme coproduit de l'article pour lequel vous avez créé une commande client.</span><span class="sxs-lookup"><span data-stu-id="3ff28-137">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
+15. <span data-ttu-id="3ff28-138">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3ff28-138">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="3ff28-139">Sélectionnez n'importe quelle ligne renvoyée par le filtre.</span><span class="sxs-lookup"><span data-stu-id="3ff28-139">Select any of the rows returned by the filter.</span></span>  
+16. <span data-ttu-id="3ff28-140">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3ff28-140">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="3ff28-141">Développez ou réduisez la section Origine des besoins.</span><span class="sxs-lookup"><span data-stu-id="3ff28-141">Expand or collapse the Pegging section.</span></span>
+18. <span data-ttu-id="3ff28-142">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3ff28-142">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3ff28-143">L'ordre prévisionnel est chevillé à la commande client du coproduit.</span><span class="sxs-lookup"><span data-stu-id="3ff28-143">The planned order is pegged to the sales order for the co-product.</span></span>  
+19. <span data-ttu-id="3ff28-144">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="3ff28-144">Close the page.</span></span>
 
-## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="1e0a4-145">Créer une demande pour un coproduit</span><span class="sxs-lookup"><span data-stu-id="1e0a4-145">Create requirement for a co-product</span></span>
-1. <span data-ttu-id="1e0a4-146">Allez dans le Tableau de bord par défaut.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-146">Go to Default dashboard.</span></span>
-2. <span data-ttu-id="1e0a4-147">Cliquez sur Traitement et recherche de commande client.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-147">Click Sales order processing and inquiry.</span></span>
-3. <span data-ttu-id="1e0a4-148">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-148">Click New.</span></span>
-4. <span data-ttu-id="1e0a4-149">Cliquez sur Commande client.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-149">Click Sales order.</span></span>
-5. <span data-ttu-id="1e0a4-150">Tapez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-150">In the Customer account field, type a value.</span></span>
-    * <span data-ttu-id="1e0a4-151">Exemple : US-001</span><span class="sxs-lookup"><span data-stu-id="1e0a4-151">Example: US-001</span></span>  
-6. <span data-ttu-id="1e0a4-152">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-152">Click OK.</span></span>
-7. <span data-ttu-id="1e0a4-153">Tapez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-153">In the Item number field, type a value.</span></span>
-    * <span data-ttu-id="1e0a4-154">Exemple : P6003</span><span class="sxs-lookup"><span data-stu-id="1e0a4-154">Example: P6003</span></span>  
-8. <span data-ttu-id="1e0a4-155">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-155">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="1e0a4-156">Exemple : 50000</span><span class="sxs-lookup"><span data-stu-id="1e0a4-156">Example: 50000</span></span>  
-9. <span data-ttu-id="1e0a4-157">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-157">Click Save.</span></span>
+## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="3ff28-145">Créer une demande pour un coproduit</span><span class="sxs-lookup"><span data-stu-id="3ff28-145">Create requirement for a co-product</span></span>
+1. <span data-ttu-id="3ff28-146">Allez dans le Tableau de bord par défaut.</span><span class="sxs-lookup"><span data-stu-id="3ff28-146">Go to Default dashboard.</span></span>
+2. <span data-ttu-id="3ff28-147">Cliquez sur Traitement et recherche de commande client.</span><span class="sxs-lookup"><span data-stu-id="3ff28-147">Click Sales order processing and inquiry.</span></span>
+3. <span data-ttu-id="3ff28-148">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="3ff28-148">Click New.</span></span>
+4. <span data-ttu-id="3ff28-149">Cliquez sur Commande client.</span><span class="sxs-lookup"><span data-stu-id="3ff28-149">Click Sales order.</span></span>
+5. <span data-ttu-id="3ff28-150">Tapez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="3ff28-150">In the Customer account field, type a value.</span></span>
+    * <span data-ttu-id="3ff28-151">Exemple : US-001</span><span class="sxs-lookup"><span data-stu-id="3ff28-151">Example: US-001</span></span>  
+6. <span data-ttu-id="3ff28-152">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="3ff28-152">Click OK.</span></span>
+7. <span data-ttu-id="3ff28-153">Tapez une valeur dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="3ff28-153">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="3ff28-154">Exemple : P6003</span><span class="sxs-lookup"><span data-stu-id="3ff28-154">Example: P6003</span></span>  
+8. <span data-ttu-id="3ff28-155">Dans le champ Quantité, entrer un numéro.</span><span class="sxs-lookup"><span data-stu-id="3ff28-155">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="3ff28-156">Exemple : 50000</span><span class="sxs-lookup"><span data-stu-id="3ff28-156">Example: 50000</span></span>  
+9. <span data-ttu-id="3ff28-157">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="3ff28-157">Click Save.</span></span>
 
-## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="1e0a4-158">Créer un plan matières pour des coproduits</span><span class="sxs-lookup"><span data-stu-id="1e0a4-158">Create a material plan for co-products</span></span>
-1. <span data-ttu-id="1e0a4-159">Dans le champ Régime, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-159">In the Plan field, click the drop-down button to open the lookup.</span></span>
-2. <span data-ttu-id="1e0a4-160">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-160">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="1e0a4-161">Exemple : Programme</span><span class="sxs-lookup"><span data-stu-id="1e0a4-161">Example: MasterPlan</span></span>  
-3. <span data-ttu-id="1e0a4-162">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-162">Click Run.</span></span>
-4. <span data-ttu-id="1e0a4-163">Développez ou réduisez la section Enregistrements à inclure.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-163">Expand or collapse the Records to include section.</span></span>
-5. <span data-ttu-id="1e0a4-164">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-164">Click Filter.</span></span>
-6. <span data-ttu-id="1e0a4-165">Dans la liste, sélectionnez la ligne pour Champ = Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-165">In the list, select the row for Field = Item number.</span></span>
-7. <span data-ttu-id="1e0a4-166">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-166">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="1e0a4-167">Exemple : P6003</span><span class="sxs-lookup"><span data-stu-id="1e0a4-167">Example: P6003</span></span>  
-8. <span data-ttu-id="1e0a4-168">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-168">Click OK.</span></span>
-9. <span data-ttu-id="1e0a4-169">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-169">Click OK.</span></span>
-10. <span data-ttu-id="1e0a4-170">Cliquez sur Ordres prévisionnels.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-170">Click Planned orders.</span></span>
-11. <span data-ttu-id="1e0a4-171">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-171">Use the Quick Filter to find records.</span></span> <span data-ttu-id="1e0a4-172">Par exemple, filtrez su le champ Numéro d'article avec une valeur de « P6000 ».</span><span class="sxs-lookup"><span data-stu-id="1e0a4-172">For example, filter on the Item number field with a value of 'P6000'.</span></span>
-    * <span data-ttu-id="1e0a4-173">Filtrez par élément de formule ayant comme coproduit de l'article pour lequel vous avez créé une commande client.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-173">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
-12. <span data-ttu-id="1e0a4-174">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-174">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="1e0a4-175">Sélectionnez n'importe quelle ligne renvoyée par le filtre.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-175">Select any of the rows returned by the filter.</span></span>  
-13. <span data-ttu-id="1e0a4-176">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-176">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="1e0a4-177">Développez ou réduisez la section Origine des besoins.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-177">Expand or collapse the Pegging section.</span></span>
-15. <span data-ttu-id="1e0a4-178">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-178">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="1e0a4-179">L'ordre prévisionnel est chevillé à la commande client du coproduit.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-179">The planned order is pegged to the sales order for the co-product.</span></span>  
-16. <span data-ttu-id="1e0a4-180">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-180">Close the page.</span></span>
-17. <span data-ttu-id="1e0a4-181">Cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-181">Click Master planning.</span></span>
-18. <span data-ttu-id="1e0a4-182">Accédez à Planification > Paramétrage > Paramètres de planification.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-182">Go to Master planning > Setup > Master planning parameters.</span></span>
-19. <span data-ttu-id="1e0a4-183">Sélectionnez Non dans le champ Désactiver tous les processus de planification.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-183">Select No in the Disable all planning processes field.</span></span>
-20. <span data-ttu-id="1e0a4-184">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="1e0a4-184">Close the page.</span></span>
+## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="3ff28-158">Créer un plan matières pour des coproduits</span><span class="sxs-lookup"><span data-stu-id="3ff28-158">Create a material plan for co-products</span></span>
+1. <span data-ttu-id="3ff28-159">Dans le champ Régime, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="3ff28-159">In the Plan field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="3ff28-160">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3ff28-160">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3ff28-161">Exemple : Programme</span><span class="sxs-lookup"><span data-stu-id="3ff28-161">Example: MasterPlan</span></span>  
+3. <span data-ttu-id="3ff28-162">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="3ff28-162">Click Run.</span></span>
+4. <span data-ttu-id="3ff28-163">Développez ou réduisez la section Enregistrements à inclure.</span><span class="sxs-lookup"><span data-stu-id="3ff28-163">Expand or collapse the Records to include section.</span></span>
+5. <span data-ttu-id="3ff28-164">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="3ff28-164">Click Filter.</span></span>
+6. <span data-ttu-id="3ff28-165">Dans la liste, sélectionnez la ligne pour Champ = Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="3ff28-165">In the list, select the row for Field = Item number.</span></span>
+7. <span data-ttu-id="3ff28-166">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="3ff28-166">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="3ff28-167">Exemple : P6003</span><span class="sxs-lookup"><span data-stu-id="3ff28-167">Example: P6003</span></span>  
+8. <span data-ttu-id="3ff28-168">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="3ff28-168">Click OK.</span></span>
+9. <span data-ttu-id="3ff28-169">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="3ff28-169">Click OK.</span></span>
+10. <span data-ttu-id="3ff28-170">Cliquez sur Ordres prévisionnels.</span><span class="sxs-lookup"><span data-stu-id="3ff28-170">Click Planned orders.</span></span>
+11. <span data-ttu-id="3ff28-171">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="3ff28-171">Use the Quick Filter to find records.</span></span> <span data-ttu-id="3ff28-172">Par exemple, filtrez su le champ Numéro d'article avec une valeur de « P6000 ».</span><span class="sxs-lookup"><span data-stu-id="3ff28-172">For example, filter on the Item number field with a value of 'P6000'.</span></span>
+    * <span data-ttu-id="3ff28-173">Filtrez par élément de formule ayant comme coproduit de l'article pour lequel vous avez créé une commande client.</span><span class="sxs-lookup"><span data-stu-id="3ff28-173">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
+12. <span data-ttu-id="3ff28-174">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3ff28-174">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="3ff28-175">Sélectionnez n'importe quelle ligne renvoyée par le filtre.</span><span class="sxs-lookup"><span data-stu-id="3ff28-175">Select any of the rows returned by the filter.</span></span>  
+13. <span data-ttu-id="3ff28-176">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3ff28-176">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="3ff28-177">Développez ou réduisez la section Origine des besoins.</span><span class="sxs-lookup"><span data-stu-id="3ff28-177">Expand or collapse the Pegging section.</span></span>
+15. <span data-ttu-id="3ff28-178">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3ff28-178">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3ff28-179">L'ordre prévisionnel est chevillé à la commande client du coproduit.</span><span class="sxs-lookup"><span data-stu-id="3ff28-179">The planned order is pegged to the sales order for the co-product.</span></span>  
+16. <span data-ttu-id="3ff28-180">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="3ff28-180">Close the page.</span></span>
+17. <span data-ttu-id="3ff28-181">Cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="3ff28-181">Click Master planning.</span></span>
+18. <span data-ttu-id="3ff28-182">Accédez à Planification > Paramétrage > Paramètres de planification.</span><span class="sxs-lookup"><span data-stu-id="3ff28-182">Go to Master planning > Setup > Master planning parameters.</span></span>
+19. <span data-ttu-id="3ff28-183">Sélectionnez Non dans le champ Désactiver tous les processus de planification.</span><span class="sxs-lookup"><span data-stu-id="3ff28-183">Select No in the Disable all planning processes field.</span></span>
+20. <span data-ttu-id="3ff28-184">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="3ff28-184">Close the page.</span></span>
 

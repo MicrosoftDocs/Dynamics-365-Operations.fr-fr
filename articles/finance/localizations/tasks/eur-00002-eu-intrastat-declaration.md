@@ -16,101 +16,101 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d7ab1d274b527bf5071900940bf53a57a88f482
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e2aba5caaaf0fbee511e1a293b09fa8301bb6831
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183658"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145264"
 ---
-# <a name="eur-00002-generate-an-eu-intrastat-declaration"></a><span data-ttu-id="7e4ef-103">EUR-00002 Générer un fichier de déclaration d'échanges de biens de l'UE</span><span class="sxs-lookup"><span data-stu-id="7e4ef-103">EUR-00002 Generate an EU Intrastat declaration</span></span>
+# <a name="eur-00002-generate-an-eu-intrastat-declaration"></a><span data-ttu-id="e717c-103">EUR-00002 Générer un fichier de déclaration d'échanges de biens de l'UE</span><span class="sxs-lookup"><span data-stu-id="e717c-103">EUR-00002 Generate an EU Intrastat declaration</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7e4ef-104">Cette procédure vous fait parcourir les étapes requises pour exporter la déclaration d'échanges de biens dans le format de fichier électronique et pour prévisualiser les données de déclaration dans un format Excel.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-104">This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</span></span> 
+<span data-ttu-id="e717c-104">Cette procédure vous fait parcourir les étapes requises pour exporter la déclaration d'échanges de biens dans le format de fichier électronique et pour prévisualiser les données de déclaration dans un format Excel.</span><span class="sxs-lookup"><span data-stu-id="e717c-104">This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</span></span> 
 
-<span data-ttu-id="7e4ef-105">Avant d'exécuter cette procédure, vous devez transférer des transactions dans la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-105">Before you can complete this procedure, you must transfer transactions to the Intrastat.</span></span> 
+<span data-ttu-id="e717c-105">Avant d'exécuter cette procédure, vous devez transférer des transactions dans la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="e717c-105">Before you can complete this procedure, you must transfer transactions to the Intrastat.</span></span> 
 
-<span data-ttu-id="7e4ef-106">Cette procédure a été créée à l'aide des données fictives de la société DEMF.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-106">This procedure was created using the demo data company DEMF.</span></span>
+<span data-ttu-id="e717c-106">Cette procédure a été créée à l'aide des données fictives de la société DEMF.</span><span class="sxs-lookup"><span data-stu-id="e717c-106">This procedure was created using the demo data company DEMF.</span></span>
 
 
-## <a name="import-configurations-with-settings"></a><span data-ttu-id="7e4ef-107">Importer des configurations avec des paramètres</span><span class="sxs-lookup"><span data-stu-id="7e4ef-107">Import configurations with settings</span></span>
-1. <span data-ttu-id="7e4ef-108">Accédez à Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-108">Go to Workspaces > Electronic reporting</span></span>
-2. <span data-ttu-id="7e4ef-109">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-109">Click Set active.</span></span>
-3. <span data-ttu-id="7e4ef-110">Cliquez sur Référentiels.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-110">Click Repositories.</span></span>
-4. <span data-ttu-id="7e4ef-111">Cliquez sur Ouvrir.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-111">Click Open.</span></span>
-5. <span data-ttu-id="7e4ef-112">Ouvrez le filtre de la colonne Nom de la configuration.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-112">Open Configuration name column filter.</span></span>
-6. <span data-ttu-id="7e4ef-113">Appliquez un filtre sur le champ Nom de la configuration, avec la valeur Déclaration d'échanges de biens (DE), à l'aide de l'opérateur de filtre « commence par ».</span><span class="sxs-lookup"><span data-stu-id="7e4ef-113">Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</span></span>
-    * <span data-ttu-id="7e4ef-114">Vous devez sélectionner le nom de configuration applicable pour le pays de votre entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-114">You should select the configuration name applicable for the country of your legal entity.</span></span> <span data-ttu-id="7e4ef-115">Cette procédure utilise l'entité juridique allemande (DEMF) comme exemple, donc « Déclaration d'échanges de biens (DE) » doit être sélectionné.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-115">This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</span></span>  
-    * <span data-ttu-id="7e4ef-116">Cliquez sur Importation, puis sur Oui.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-116">Click Import and then click Yes.</span></span>  
-7. <span data-ttu-id="7e4ef-117">Ouvrez le filtre de la colonne Nom de la configuration.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-117">Open Configuration name column filter.</span></span>
-8. <span data-ttu-id="7e4ef-118">Appliquez un filtre sur le champ Nom de la configuration, avec la valeur État de déclaration d'échanges de biens, à l'aide de l'opérateur de filtre « commence par ».</span><span class="sxs-lookup"><span data-stu-id="7e4ef-118">Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</span></span>
-    * <span data-ttu-id="7e4ef-119">Cliquez sur Importation, puis sur Oui.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-119">Click Import and then click Yes.</span></span>  
+## <a name="import-configurations-with-settings"></a><span data-ttu-id="e717c-107">Importer des configurations avec des paramètres</span><span class="sxs-lookup"><span data-stu-id="e717c-107">Import configurations with settings</span></span>
+1. <span data-ttu-id="e717c-108">Accédez à Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="e717c-108">Go to Workspaces > Electronic reporting</span></span>
+2. <span data-ttu-id="e717c-109">Cliquez sur Activer.</span><span class="sxs-lookup"><span data-stu-id="e717c-109">Click Set active.</span></span>
+3. <span data-ttu-id="e717c-110">Cliquez sur Référentiels.</span><span class="sxs-lookup"><span data-stu-id="e717c-110">Click Repositories.</span></span>
+4. <span data-ttu-id="e717c-111">Cliquez sur Ouvrir.</span><span class="sxs-lookup"><span data-stu-id="e717c-111">Click Open.</span></span>
+5. <span data-ttu-id="e717c-112">Ouvrez le filtre de la colonne Nom de la configuration.</span><span class="sxs-lookup"><span data-stu-id="e717c-112">Open Configuration name column filter.</span></span>
+6. <span data-ttu-id="e717c-113">Appliquez un filtre sur le champ Nom de la configuration, avec la valeur Déclaration d'échanges de biens (DE), à l'aide de l'opérateur de filtre « commence par ».</span><span class="sxs-lookup"><span data-stu-id="e717c-113">Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="e717c-114">Vous devez sélectionner le nom de configuration applicable pour le pays de votre entité juridique.</span><span class="sxs-lookup"><span data-stu-id="e717c-114">You should select the configuration name applicable for the country of your legal entity.</span></span> <span data-ttu-id="e717c-115">Cette procédure utilise l'entité juridique allemande (DEMF) comme exemple, donc « Déclaration d'échanges de biens (DE) » doit être sélectionné.</span><span class="sxs-lookup"><span data-stu-id="e717c-115">This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</span></span>  
+    * <span data-ttu-id="e717c-116">Cliquez sur Importation, puis sur Oui.</span><span class="sxs-lookup"><span data-stu-id="e717c-116">Click Import and then click Yes.</span></span>  
+7. <span data-ttu-id="e717c-117">Ouvrez le filtre de la colonne Nom de la configuration.</span><span class="sxs-lookup"><span data-stu-id="e717c-117">Open Configuration name column filter.</span></span>
+8. <span data-ttu-id="e717c-118">Appliquez un filtre sur le champ Nom de la configuration, avec la valeur État de déclaration d'échanges de biens, à l'aide de l'opérateur de filtre « commence par ».</span><span class="sxs-lookup"><span data-stu-id="e717c-118">Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="e717c-119">Cliquez sur Importation, puis sur Oui.</span><span class="sxs-lookup"><span data-stu-id="e717c-119">Click Import and then click Yes.</span></span>  
 
-## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="7e4ef-120">Définir les paramètres de commerce extérieur</span><span class="sxs-lookup"><span data-stu-id="7e4ef-120">Set up Foreign trade parameters</span></span>
-1. <span data-ttu-id="7e4ef-121">Accédez à Taxe > Paramétrage > Commerce extérieur > Paramètres de commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
-2. <span data-ttu-id="7e4ef-122">Développez la section Génération d'états électroniques.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-122">Expand the Electronic reporting section.</span></span>
-3. <span data-ttu-id="7e4ef-123">Saisissez ou sélectionnez une valeur Déclaration d'échanges de biens (DE) dans le champ Mise en correspondance des formats de fichier.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-123">In the File format mapping field, enter or select a value Intrastat (DE)</span></span>
-4. <span data-ttu-id="7e4ef-124">Saisissez ou sélectionnez une valeur État de déclaration d'échanges de biens dans le champ Mise en correspondance des formats d'état.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-124">In the Report format mapping field, enter or select a value Intrastat report</span></span>
-5. <span data-ttu-id="7e4ef-125">Développez la section Règles d'arrondi.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-125">Expand the Rounding rules section.</span></span>
-    * <span data-ttu-id="7e4ef-126">Vous devez paramétrer des règles d'arrondi applicables dans votre pays/région pour la génération d'états de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-126">You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</span></span>  
-6. <span data-ttu-id="7e4ef-127">Entrez un nombre dans le champ Règle d'arrondi.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-127">In the Rounding rule field, enter a number.</span></span>
-    * <span data-ttu-id="7e4ef-128">Entrez la précision de l'arrondi, par exemple, entrez 0,01.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-128">Enter rounding precision, for example, enter '0.01'.</span></span>  
-7. <span data-ttu-id="7e4ef-129">Entrez un nombre dans le champ Nombre de décimales pour le montant.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-129">In the Number of decimals for amount field, enter a number.</span></span>
-    * <span data-ttu-id="7e4ef-130">Entrez 2, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-130">For example, enter '2'.</span></span>  
-8. <span data-ttu-id="7e4ef-131">Sélectionnez une option dans le champ Arrondi en dessous d'un (1) kg.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-131">In the Rounding below 1 kg field, select an option.</span></span>
-    * <span data-ttu-id="7e4ef-132">Sélectionnez Arrondi à 1 kg, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-132">For example, select 'Rounding up to 1 kg'.</span></span>  
-9. <span data-ttu-id="7e4ef-133">Entrez un nombre dans le champ Règle d'arrondi.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-133">In the Rounding rule field, enter a number.</span></span>
-    * <span data-ttu-id="7e4ef-134">Entrez 1, par exemple pour arrondir le poids à l'entier.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-134">For example, enter '1' for rounding weight to the integer.</span></span>  
-10. <span data-ttu-id="7e4ef-135">Développez la section Limite inférieure.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-135">Expand the Minimum limit section.</span></span>
-11. <span data-ttu-id="7e4ef-136">Dans le champ Poids, saisissez un nombre.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-136">In the Weight field, enter a number.</span></span>
-    * <span data-ttu-id="7e4ef-137">Entrez 10, par exemple comme poids minimal.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-137">For example, enter '10' as the minimum weight.</span></span>  
-12. <span data-ttu-id="7e4ef-138">Dans le champ Montant, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-138">In the Amount field, enter a number.</span></span>
-    * <span data-ttu-id="7e4ef-139">Entrez 200, par exemple comme montant minimal.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-139">For example, enter '200' as the minimum amount.</span></span>  
-13. <span data-ttu-id="7e4ef-140">Saisissez ou sélectionnez une valeur dans le champ Marchandise.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-140">In the Commodity field, enter or select a value.</span></span>
+## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="e717c-120">Définir les paramètres de commerce extérieur</span><span class="sxs-lookup"><span data-stu-id="e717c-120">Set up Foreign trade parameters</span></span>
+1. <span data-ttu-id="e717c-121">Accédez à Taxe > Paramétrage > Commerce extérieur > Paramètres de commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="e717c-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
+2. <span data-ttu-id="e717c-122">Développez la section Génération d'états électroniques.</span><span class="sxs-lookup"><span data-stu-id="e717c-122">Expand the Electronic reporting section.</span></span>
+3. <span data-ttu-id="e717c-123">Saisissez ou sélectionnez une valeur Déclaration d'échanges de biens (DE) dans le champ Mise en correspondance des formats de fichier.</span><span class="sxs-lookup"><span data-stu-id="e717c-123">In the File format mapping field, enter or select a value Intrastat (DE)</span></span>
+4. <span data-ttu-id="e717c-124">Saisissez ou sélectionnez une valeur État de déclaration d'échanges de biens dans le champ Mise en correspondance des formats d'état.</span><span class="sxs-lookup"><span data-stu-id="e717c-124">In the Report format mapping field, enter or select a value Intrastat report</span></span>
+5. <span data-ttu-id="e717c-125">Développez la section Règles d'arrondi.</span><span class="sxs-lookup"><span data-stu-id="e717c-125">Expand the Rounding rules section.</span></span>
+    * <span data-ttu-id="e717c-126">Vous devez paramétrer des règles d'arrondi applicables dans votre pays/région pour la génération d'états de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="e717c-126">You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</span></span>  
+6. <span data-ttu-id="e717c-127">Entrez un nombre dans le champ Règle d'arrondi.</span><span class="sxs-lookup"><span data-stu-id="e717c-127">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="e717c-128">Entrez la précision de l'arrondi, par exemple, entrez 0,01.</span><span class="sxs-lookup"><span data-stu-id="e717c-128">Enter rounding precision, for example, enter '0.01'.</span></span>  
+7. <span data-ttu-id="e717c-129">Entrez un nombre dans le champ Nombre de décimales pour le montant.</span><span class="sxs-lookup"><span data-stu-id="e717c-129">In the Number of decimals for amount field, enter a number.</span></span>
+    * <span data-ttu-id="e717c-130">Entrez 2, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e717c-130">For example, enter '2'.</span></span>  
+8. <span data-ttu-id="e717c-131">Sélectionnez une option dans le champ Arrondi en dessous d'un (1) kg.</span><span class="sxs-lookup"><span data-stu-id="e717c-131">In the Rounding below 1 kg field, select an option.</span></span>
+    * <span data-ttu-id="e717c-132">Sélectionnez Arrondi à 1 kg, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e717c-132">For example, select 'Rounding up to 1 kg'.</span></span>  
+9. <span data-ttu-id="e717c-133">Entrez un nombre dans le champ Règle d'arrondi.</span><span class="sxs-lookup"><span data-stu-id="e717c-133">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="e717c-134">Entrez 1, par exemple pour arrondir le poids à l'entier.</span><span class="sxs-lookup"><span data-stu-id="e717c-134">For example, enter '1' for rounding weight to the integer.</span></span>  
+10. <span data-ttu-id="e717c-135">Développez la section Limite inférieure.</span><span class="sxs-lookup"><span data-stu-id="e717c-135">Expand the Minimum limit section.</span></span>
+11. <span data-ttu-id="e717c-136">Dans le champ Poids, saisissez un nombre.</span><span class="sxs-lookup"><span data-stu-id="e717c-136">In the Weight field, enter a number.</span></span>
+    * <span data-ttu-id="e717c-137">Entrez 10, par exemple comme poids minimal.</span><span class="sxs-lookup"><span data-stu-id="e717c-137">For example, enter '10' as the minimum weight.</span></span>  
+12. <span data-ttu-id="e717c-138">Dans le champ Montant, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="e717c-138">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="e717c-139">Entrez 200, par exemple comme montant minimal.</span><span class="sxs-lookup"><span data-stu-id="e717c-139">For example, enter '200' as the minimum amount.</span></span>  
+13. <span data-ttu-id="e717c-140">Saisissez ou sélectionnez une valeur dans le champ Marchandise.</span><span class="sxs-lookup"><span data-stu-id="e717c-140">In the Commodity field, enter or select a value.</span></span>
 
-## <a name="set-up-compression-of-intrastat"></a><span data-ttu-id="7e4ef-141">Paramétrer la compression de la déclaration d'échanges de biens</span><span class="sxs-lookup"><span data-stu-id="7e4ef-141">Set up Compression of Intrastat</span></span>
-1. <span data-ttu-id="7e4ef-142">Accédez à Taxes > Paramétrage > Commerce extérieur > Compression de la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-142">Go to Tax > Setup > Foreign trade > Compression of Intrastat.</span></span>
-2. <span data-ttu-id="7e4ef-143">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-143">Click Remove.</span></span>
-3. <span data-ttu-id="7e4ef-144">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-144">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="7e4ef-145">Sélectionnez Marchandise dans la section Disponible.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-145">For example, select Commodity in the Available section.</span></span>  
-4. <span data-ttu-id="7e4ef-146">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-146">Click Add.</span></span>
+## <a name="set-up-compression-of-intrastat"></a><span data-ttu-id="e717c-141">Paramétrer la compression de la déclaration d'échanges de biens</span><span class="sxs-lookup"><span data-stu-id="e717c-141">Set up Compression of Intrastat</span></span>
+1. <span data-ttu-id="e717c-142">Accédez à Taxes > Paramétrage > Commerce extérieur > Compression de la déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="e717c-142">Go to Tax > Setup > Foreign trade > Compression of Intrastat.</span></span>
+2. <span data-ttu-id="e717c-143">Cliquez sur Supprimer.</span><span class="sxs-lookup"><span data-stu-id="e717c-143">Click Remove.</span></span>
+3. <span data-ttu-id="e717c-144">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="e717c-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e717c-145">Sélectionnez Marchandise dans la section Disponible.</span><span class="sxs-lookup"><span data-stu-id="e717c-145">For example, select Commodity in the Available section.</span></span>  
+4. <span data-ttu-id="e717c-146">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="e717c-146">Click Add.</span></span>
 
-## <a name="generate-intrastat-declaration"></a><span data-ttu-id="7e4ef-147">Générer la déclaration d'échanges de biens</span><span class="sxs-lookup"><span data-stu-id="7e4ef-147">Generate Intrastat declaration</span></span>
-1. <span data-ttu-id="7e4ef-148">Accédez à Taxe > Déclarations > Commerce extérieur > Déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-148">Go to Tax > Declarations > Foreign trade > Intrastat</span></span>
-2. <span data-ttu-id="7e4ef-149">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-149">Click Validate.</span></span>
-    * <span data-ttu-id="7e4ef-150">La validation est effectuée en fonction du champ Vérifier le paramétrage de la page Paramètres de commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-150">The validation is done according to the Check setup field on the Foreign trade parameters page.</span></span>  
-3. <span data-ttu-id="7e4ef-151">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-151">Click OK.</span></span>
-4. <span data-ttu-id="7e4ef-152">Cliquez sur Mise à jour.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-152">Click Update.</span></span>
-5. <span data-ttu-id="7e4ef-153">Cliquez sur Limite inférieure.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-153">Click Minimum limit.</span></span>
-6. <span data-ttu-id="7e4ef-154">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-154">In the Start date field, enter a date.</span></span>
-    * <span data-ttu-id="7e4ef-155">Entrez 1er janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-155">For example, enter January 1, 2015.</span></span>  
-7. <span data-ttu-id="7e4ef-156">Sélectionnez Oui dans le champ Compresser.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-156">Select Yes in the Compress field.</span></span>
-8. <span data-ttu-id="7e4ef-157">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-157">In the End date field, enter a date.</span></span>
-    * <span data-ttu-id="7e4ef-158">Entrez 31 janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-158">For example, enter January 31, 2015.</span></span>  
-9. <span data-ttu-id="7e4ef-159">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-159">Click OK.</span></span>
-10. <span data-ttu-id="7e4ef-160">Cliquez sur Mise à jour.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-160">Click Update.</span></span>
-11. <span data-ttu-id="7e4ef-161">Cliquez sur Compresser.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-161">Click Compress.</span></span>
-    * <span data-ttu-id="7e4ef-162">Cette compression se produit en fonction de la manière dont vous définissez la compression des paramètres de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-162">This compression happens according to how you set the Compression of intrastate settings.</span></span>  
-12. <span data-ttu-id="7e4ef-163">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-163">In the Start date field, enter a date.</span></span>
-    * <span data-ttu-id="7e4ef-164">Entrez 1er janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-164">For example, enter January 1, 2015.</span></span>  
-13. <span data-ttu-id="7e4ef-165">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-165">In the End date field, enter a date.</span></span>
-    * <span data-ttu-id="7e4ef-166">Entrez le 31 janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-166">For example, enter 31st January 2015.</span></span>  
-14. <span data-ttu-id="7e4ef-167">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-167">Click OK.</span></span>
-15. <span data-ttu-id="7e4ef-168">Cliquez sur Mise à jour.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-168">Click Update.</span></span>
-16. <span data-ttu-id="7e4ef-169">Cliquez sur Régénérer les numéros de souche.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-169">Click Regenerate sequence numbers.</span></span>
-17. <span data-ttu-id="7e4ef-170">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-170">Click OK.</span></span>
-18. <span data-ttu-id="7e4ef-171">Cliquez sur Résultat.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-171">Click Output.</span></span>
-19. <span data-ttu-id="7e4ef-172">Cliquez sur État.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-172">Click Report.</span></span>
-20. <span data-ttu-id="7e4ef-173">Entrez le premier jour de la période de déclaration dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-173">In the From date field, enter the first date of the reporting period.</span></span>
-    * <span data-ttu-id="7e4ef-174">Définissez la date sur le 1er janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-174">For example, set the date to January 1, 2015.</span></span>  
-21. <span data-ttu-id="7e4ef-175">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-175">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="7e4ef-176">Entrez 31 janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-176">For example, enter January 31, 2015.</span></span>  
-22. <span data-ttu-id="7e4ef-177">Sélectionnez Oui dans le champ Générer un fichier.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-177">Select Yes in the Generate file field.</span></span>
-23. <span data-ttu-id="7e4ef-178">Tapez une valeur dans le champ Nom du fichier.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-178">In the File name field, type a value.</span></span>
-24. <span data-ttu-id="7e4ef-179">Sélectionnez Oui dans le champ Générer un état.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-179">Select Yes in the Generate report field.</span></span>
-25. <span data-ttu-id="7e4ef-180">Tapez une valeur dans le champ Nom du fichier d'état.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-180">In the Report file name field, type a value.</span></span>
-26. <span data-ttu-id="7e4ef-181">Sélectionnez une option dans le champ Direction.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-181">In the Direction field, select an option.</span></span>
-    * <span data-ttu-id="7e4ef-182">Sélectionnez Répartitions, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-182">For example, select 'Dispatches'.</span></span>  
-27. <span data-ttu-id="7e4ef-183">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7e4ef-183">Click OK.</span></span>
+## <a name="generate-intrastat-declaration"></a><span data-ttu-id="e717c-147">Générer la déclaration d'échanges de biens</span><span class="sxs-lookup"><span data-stu-id="e717c-147">Generate Intrastat declaration</span></span>
+1. <span data-ttu-id="e717c-148">Accédez à Taxe > Déclarations > Commerce extérieur > Déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="e717c-148">Go to Tax > Declarations > Foreign trade > Intrastat</span></span>
+2. <span data-ttu-id="e717c-149">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="e717c-149">Click Validate.</span></span>
+    * <span data-ttu-id="e717c-150">La validation est effectuée en fonction du champ Vérifier le paramétrage de la page Paramètres de commerce extérieur.</span><span class="sxs-lookup"><span data-stu-id="e717c-150">The validation is done according to the Check setup field on the Foreign trade parameters page.</span></span>  
+3. <span data-ttu-id="e717c-151">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e717c-151">Click OK.</span></span>
+4. <span data-ttu-id="e717c-152">Cliquez sur Mise à jour.</span><span class="sxs-lookup"><span data-stu-id="e717c-152">Click Update.</span></span>
+5. <span data-ttu-id="e717c-153">Cliquez sur Limite inférieure.</span><span class="sxs-lookup"><span data-stu-id="e717c-153">Click Minimum limit.</span></span>
+6. <span data-ttu-id="e717c-154">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="e717c-154">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="e717c-155">Entrez 1er janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e717c-155">For example, enter January 1, 2015.</span></span>  
+7. <span data-ttu-id="e717c-156">Sélectionnez Oui dans le champ Compresser.</span><span class="sxs-lookup"><span data-stu-id="e717c-156">Select Yes in the Compress field.</span></span>
+8. <span data-ttu-id="e717c-157">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="e717c-157">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="e717c-158">Entrez 31 janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e717c-158">For example, enter January 31, 2015.</span></span>  
+9. <span data-ttu-id="e717c-159">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e717c-159">Click OK.</span></span>
+10. <span data-ttu-id="e717c-160">Cliquez sur Mise à jour.</span><span class="sxs-lookup"><span data-stu-id="e717c-160">Click Update.</span></span>
+11. <span data-ttu-id="e717c-161">Cliquez sur Compresser.</span><span class="sxs-lookup"><span data-stu-id="e717c-161">Click Compress.</span></span>
+    * <span data-ttu-id="e717c-162">Cette compression se produit en fonction de la manière dont vous définissez la compression des paramètres de déclaration d'échanges de biens.</span><span class="sxs-lookup"><span data-stu-id="e717c-162">This compression happens according to how you set the Compression of intrastate settings.</span></span>  
+12. <span data-ttu-id="e717c-163">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="e717c-163">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="e717c-164">Entrez 1er janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e717c-164">For example, enter January 1, 2015.</span></span>  
+13. <span data-ttu-id="e717c-165">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="e717c-165">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="e717c-166">Entrez le 31 janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e717c-166">For example, enter 31st January 2015.</span></span>  
+14. <span data-ttu-id="e717c-167">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e717c-167">Click OK.</span></span>
+15. <span data-ttu-id="e717c-168">Cliquez sur Mise à jour.</span><span class="sxs-lookup"><span data-stu-id="e717c-168">Click Update.</span></span>
+16. <span data-ttu-id="e717c-169">Cliquez sur Régénérer les numéros de souche.</span><span class="sxs-lookup"><span data-stu-id="e717c-169">Click Regenerate sequence numbers.</span></span>
+17. <span data-ttu-id="e717c-170">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e717c-170">Click OK.</span></span>
+18. <span data-ttu-id="e717c-171">Cliquez sur Résultat.</span><span class="sxs-lookup"><span data-stu-id="e717c-171">Click Output.</span></span>
+19. <span data-ttu-id="e717c-172">Cliquez sur État.</span><span class="sxs-lookup"><span data-stu-id="e717c-172">Click Report.</span></span>
+20. <span data-ttu-id="e717c-173">Entrez le premier jour de la période de déclaration dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="e717c-173">In the From date field, enter the first date of the reporting period.</span></span>
+    * <span data-ttu-id="e717c-174">Définissez la date sur le 1er janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e717c-174">For example, set the date to January 1, 2015.</span></span>  
+21. <span data-ttu-id="e717c-175">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="e717c-175">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="e717c-176">Entrez 31 janvier 2015, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e717c-176">For example, enter January 31, 2015.</span></span>  
+22. <span data-ttu-id="e717c-177">Sélectionnez Oui dans le champ Générer un fichier.</span><span class="sxs-lookup"><span data-stu-id="e717c-177">Select Yes in the Generate file field.</span></span>
+23. <span data-ttu-id="e717c-178">Tapez une valeur dans le champ Nom du fichier.</span><span class="sxs-lookup"><span data-stu-id="e717c-178">In the File name field, type a value.</span></span>
+24. <span data-ttu-id="e717c-179">Sélectionnez Oui dans le champ Générer un état.</span><span class="sxs-lookup"><span data-stu-id="e717c-179">Select Yes in the Generate report field.</span></span>
+25. <span data-ttu-id="e717c-180">Tapez une valeur dans le champ Nom du fichier d'état.</span><span class="sxs-lookup"><span data-stu-id="e717c-180">In the Report file name field, type a value.</span></span>
+26. <span data-ttu-id="e717c-181">Sélectionnez une option dans le champ Direction.</span><span class="sxs-lookup"><span data-stu-id="e717c-181">In the Direction field, select an option.</span></span>
+    * <span data-ttu-id="e717c-182">Sélectionnez Répartitions, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e717c-182">For example, select 'Dispatches'.</span></span>  
+27. <span data-ttu-id="e717c-183">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e717c-183">Click OK.</span></span>
 

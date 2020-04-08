@@ -3,7 +3,7 @@ title: Ajout d'un code de script aux pages de site pour prendre en charge la té
 description: Cette rubrique décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 03/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,60 +17,105 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 674d00faf1b30f87a0b0062129e1b9fbff955dd4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001275"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154084"
 ---
-# <a name="add-script-code-to-site-pages-to-support-telemetry"></a><span data-ttu-id="13307-103">Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie</span><span class="sxs-lookup"><span data-stu-id="13307-103">Add script code to site pages to support telemetry</span></span>
-
+# <a name="add-script-code-to-site-pages-to-support-telemetry"></a><span data-ttu-id="02d7c-103">Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie</span><span class="sxs-lookup"><span data-stu-id="02d7c-103">Add script code to site pages to support telemetry</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="13307-104">Cette rubrique décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.</span><span class="sxs-lookup"><span data-stu-id="13307-104">This topic describes how to add client-side script code to your site pages to support the collection of client-side telemetry.</span></span>
+<span data-ttu-id="02d7c-104">Cette rubrique décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.</span><span class="sxs-lookup"><span data-stu-id="02d7c-104">This topic describes how to add client-side script code to your site pages to support the collection of client-side telemetry.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="13307-105">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="13307-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="02d7c-105">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="02d7c-105">Overview</span></span>
 
-<span data-ttu-id="13307-106">Les analyses web sont un outil essentiel lorsque vous souhaitez inclure la manière dont vos clients peuvent interagir avec votre site et prendre des décisions qui aideront à optimiser l'expérience pour la conversion maximale.</span><span class="sxs-lookup"><span data-stu-id="13307-106">Web analytics are an essential tool when you want to understand how your customers interact with your site and make decisions that will help optimize the experience for maximum conversion.</span></span> <span data-ttu-id="13307-107">De nombreux packages d'analyses web sont disponibles pour vous aider à atteindre ces objectifs, comme Google Analytics, Clicky, Moz Analytics, et KISSMetrics.</span><span class="sxs-lookup"><span data-stu-id="13307-107">Many web analytics packages are available to help you achieve these goals, such as Google Analytics, Clicky, Moz Analytics, and KISSMetrics.</span></span> <span data-ttu-id="13307-108">La plupart des packages d'analyses web nécessitent que vous ajoutiez un code du script côté client dans l'élément **\<en-tête\>** du fichier HTML pour toutes les pages du site.</span><span class="sxs-lookup"><span data-stu-id="13307-108">Most web analytics packages require that you add client-side script code in the **\<head\>** element of the HTML for all pages of your site.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="13307-109">Les instructions de cette rubrique s'appliquent également à l'autre fonctionnalité côté client personnalisée que Microsoft Dynamics 365 Commerce n'offre pas en mode natif.</span><span class="sxs-lookup"><span data-stu-id="13307-109">The instructions in this topic also apply to other custom client-side functionality that Microsoft Dynamics 365 Commerce doesn't natively offer.</span></span>
-
-## <a name="create-a-reusable-fragment-for-your-script-code"></a><span data-ttu-id="13307-110">Créer un fragment réutilisable pour votre code de script</span><span class="sxs-lookup"><span data-stu-id="13307-110">Create a reusable fragment for your script code</span></span>
-
-<span data-ttu-id="13307-111">Après avoir créé un fragment pour votre code du script, il peut être réutilisé dans l'ensemble des pages sur votre site.</span><span class="sxs-lookup"><span data-stu-id="13307-111">After you create a fragment for your script code, it can be reused across all pages on your site.</span></span>
-
-1. <span data-ttu-id="13307-112">Accédez à **Fragments \> Nouveau fragment de page**.</span><span class="sxs-lookup"><span data-stu-id="13307-112">Go to **Fragments \> New page fragment**.</span></span>
-2. <span data-ttu-id="13307-113">Sélectionnez **Script externe**, entrez un nom pour le fragment, puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="13307-113">Select **External Script**, enter a name for the fragment, and then select **OK**.</span></span>
-3. <span data-ttu-id="13307-114">Dans la hiérarchie du fragment, sélectionnez l'enfant du module **injecteur de script** du fragment que vous venez de créer.</span><span class="sxs-lookup"><span data-stu-id="13307-114">In the fragment hierarchy, select the **script injector** module child of the fragment that you just created.</span></span>
-4. <span data-ttu-id="13307-115">Dans le volet de propriétés de droite, ajoutez le script côté client, et définissez d'autres options de configuration comme vous le souhaitez.</span><span class="sxs-lookup"><span data-stu-id="13307-115">In the property pane on the right, add your client-side script, and set other configuration options as you require.</span></span>
-
-## <a name="add-the-fragment-to-templates"></a><span data-ttu-id="13307-116">Ajouter le fragment aux modèles</span><span class="sxs-lookup"><span data-stu-id="13307-116">Add the fragment to templates</span></span>
-
-1. <span data-ttu-id="13307-117">Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre code de script.</span><span class="sxs-lookup"><span data-stu-id="13307-117">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
-2. <span data-ttu-id="13307-118">Dans le volet gauche, développez la hiérarchie de modèle pour afficher l'emplacement **En-tête HTML**.</span><span class="sxs-lookup"><span data-stu-id="13307-118">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
-3. <span data-ttu-id="13307-119">Sélectionnez le bouton représentant des points de suspension (**...**) en regard de l'emplacement **Pied de page HTML**, et sélectionnez **Ajouter un fragment**.</span><span class="sxs-lookup"><span data-stu-id="13307-119">Select the ellipsis button (**...**) for the **HTML Head** slot, and then select **Add fragment**.</span></span>
-4. <span data-ttu-id="13307-120">Sélectionnez le fragment créé pour votre code de script.</span><span class="sxs-lookup"><span data-stu-id="13307-120">Select the fragment that you created for your script code.</span></span>
-5. <span data-ttu-id="13307-121">Enregistrez le modèle, et archivez-le.</span><span class="sxs-lookup"><span data-stu-id="13307-121">Save the template, and check it in.</span></span>
+<span data-ttu-id="02d7c-106">Les analyses web sont un outil essentiel lorsque vous souhaitez inclure la manière dont vos clients peuvent interagir avec votre site et prendre des décisions qui aideront à optimiser l'expérience pour la conversion maximale.</span><span class="sxs-lookup"><span data-stu-id="02d7c-106">Web analytics are an essential tool when you want to understand how your customers interact with your site and make decisions that will help optimize the experience for maximum conversion.</span></span> <span data-ttu-id="02d7c-107">De nombreux packages d'analyses web sont disponibles pour vous aider à atteindre ces objectifs, comme Google Analytics, Clicky, Moz Analytics, et KISSMetrics.</span><span class="sxs-lookup"><span data-stu-id="02d7c-107">Many web analytics packages are available to help you achieve these goals, such as Google Analytics, Clicky, Moz Analytics, and KISSMetrics.</span></span> <span data-ttu-id="02d7c-108">La plupart des packages d'analyses web nécessitent que vous ajoutiez un code du script côté client dans l'élément **\<en-tête\>** du fichier HTML pour toutes les pages du site.</span><span class="sxs-lookup"><span data-stu-id="02d7c-108">Most web analytics packages require that you add client-side script code in the **\<head\>** element of the HTML for all pages of your site.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="13307-122">Après avoir terminé, vous devez publier fragment et le modèle principal.</span><span class="sxs-lookup"><span data-stu-id="13307-122">After you've finished, you must publish the fragment and the master template.</span></span> 
+> <span data-ttu-id="02d7c-109">Les instructions de cette rubrique s'appliquent également à l'autre fonctionnalité côté client personnalisée que Microsoft Dynamics 365 Commerce n'offre pas en mode natif.</span><span class="sxs-lookup"><span data-stu-id="02d7c-109">The instructions in this topic also apply to other custom client-side functionality that Microsoft Dynamics 365 Commerce doesn't natively offer.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="13307-123">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="13307-123">Additional resources</span></span>
+## <a name="create-a-reusable-page-fragment-for-your-script-code"></a><span data-ttu-id="02d7c-110">Créer un fragment de page réutilisable pour votre code de script</span><span class="sxs-lookup"><span data-stu-id="02d7c-110">Create a reusable page fragment for your script code</span></span>
 
-[<span data-ttu-id="13307-124">Ajouter un logo</span><span class="sxs-lookup"><span data-stu-id="13307-124">Add a logo</span></span>](add-logo.md)
+<span data-ttu-id="02d7c-111">Un fragment de page vous permet de réutiliser un code de script externe ou en ligne sur toutes les pages de votre site, peu importe le modèle qu'elles utilisent.</span><span class="sxs-lookup"><span data-stu-id="02d7c-111">A page fragment allows you to reuse inline or external script code across all pages on your site, regardless of the template they use.</span></span>
 
-[<span data-ttu-id="13307-125">Sélectionner un thème pour le site</span><span class="sxs-lookup"><span data-stu-id="13307-125">Select a site theme</span></span>](select-site-theme.md)
+### <a name="create-a-reusable-page-fragment-for-your-inline-script-code"></a><span data-ttu-id="02d7c-112">Créer un fragment de page réutilisable pour votre code de script en ligne</span><span class="sxs-lookup"><span data-stu-id="02d7c-112">Create a reusable page fragment for your inline script code</span></span>
 
-[<span data-ttu-id="13307-126">Utilisation de fichiers de remplacement CSS</span><span class="sxs-lookup"><span data-stu-id="13307-126">Work with CSS override files</span></span>](css-override-files.md)
+<span data-ttu-id="02d7c-113">Pour créer un fragment de page réutilisable pour votre code de script en ligne dans le générateur de site, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="02d7c-113">To create a reusable page fragment for your inline script code in site builder, follow these steps.</span></span>
 
-[<span data-ttu-id="13307-127">Ajouter une icône de favori</span><span class="sxs-lookup"><span data-stu-id="13307-127">Add a favicon</span></span>](add-favicon.md)
+1. <span data-ttu-id="02d7c-114">Accédez à **Fragments de page**, puis sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-114">Go to **Page Fragments**, and then select **New**.</span></span>
+1. <span data-ttu-id="02d7c-115">Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez **Script en ligne**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-115">In the **New Page Fragment** dialog box, select **Inline script**.</span></span>
+1. <span data-ttu-id="02d7c-116">Sous **Nom du fragment de page**, entrez un nom pour le fragment, puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-116">Under **Page Fragment Name**, enter a name for the fragment, and then select **OK**.</span></span>
+1. <span data-ttu-id="02d7c-117">Sous le fragment de page que vous avez créé, sélectionnez le module **Script en ligne par défaut**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-117">Under the page fragment that you created, select the **Default inline script** module.</span></span>
+1. <span data-ttu-id="02d7c-118">Dans le volet des propriétés à droite, sous **Script en ligne**, entrez votre script côté client.</span><span class="sxs-lookup"><span data-stu-id="02d7c-118">In the property pane on the right, under **Inline script**, enter your client-side script.</span></span> <span data-ttu-id="02d7c-119">Puis configurez d'autres options selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="02d7c-119">Then configure other options as you require.</span></span>
+1. <span data-ttu-id="02d7c-120">Sélectionnez **Enregistrer**, puis **Terminer la modification**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-120">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="02d7c-121">Sélectionnez **Publier**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-121">Select **Publish**.</span></span>
 
-[<span data-ttu-id="13307-128">Ajouter un message de bienvenue</span><span class="sxs-lookup"><span data-stu-id="13307-128">Add a welcome message</span></span>](add-welcome-message.md)
+### <a name="create-a-reusable-page-fragment-for-your-external-script-code"></a><span data-ttu-id="02d7c-122">Créer un fragment de page réutilisable pour votre code de script externe</span><span class="sxs-lookup"><span data-stu-id="02d7c-122">Create a reusable page fragment for your external script code</span></span>
 
-[<span data-ttu-id="13307-129">Ajouter un avis de droits d'auteur</span><span class="sxs-lookup"><span data-stu-id="13307-129">Add a copyright notice</span></span>](add-copyright-notice.md)
+<span data-ttu-id="02d7c-123">Pour créer un fragment de page réutilisable pour votre code de script externe dans le générateur de site, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="02d7c-123">To create a reusable page fragment for your external script code in site builder, follow these steps.</span></span>
 
-[<span data-ttu-id="13307-130">Ajouter des langues à votre site</span><span class="sxs-lookup"><span data-stu-id="13307-130">Add languages to your site</span></span>](add-languages-to-site.md)
+1. <span data-ttu-id="02d7c-124">Accédez à **Fragments de page**, puis sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-124">Go to **Page Fragments**, and then select **New**.</span></span>
+1. <span data-ttu-id="02d7c-125">Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez **Script externe**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-125">In the **New Page Fragment** dialog box, select **External script**.</span></span>
+1. <span data-ttu-id="02d7c-126">Sous **Nom du fragment de page**, entrez un nom pour le fragment, puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-126">Under **Page Fragment Name**, enter a name for the fragment, and then select **OK**.</span></span>
+1. <span data-ttu-id="02d7c-127">Sous le fragment de page que vous avez créé, sélectionnez le module **Script externe par défaut**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-127">Under the page fragment that you created, select the **Default external script** module.</span></span>
+1. <span data-ttu-id="02d7c-128">Dans le volet des propriétés à droite, sous **Source du script**, ajoutez une URL externe ou relative pour la source de script externe.</span><span class="sxs-lookup"><span data-stu-id="02d7c-128">In the property pane on the right, under **Script source**, add an external or relative URL for the external script source.</span></span> <span data-ttu-id="02d7c-129">Puis configurez d'autres options selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="02d7c-129">Then configure other options as you require.</span></span>
+1. <span data-ttu-id="02d7c-130">Sélectionnez **Enregistrer**, puis **Terminer la modification**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-130">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="02d7c-131">Sélectionnez **Publier**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-131">Select **Publish**.</span></span>
 
+## <a name="add-a-page-fragment-that-includes-script-code-to-a-template"></a><span data-ttu-id="02d7c-132">Ajouter un fragment de page qui inclut le code de script à un modèle</span><span class="sxs-lookup"><span data-stu-id="02d7c-132">Add a page fragment that includes script code to a template</span></span>
+
+<span data-ttu-id="02d7c-133">Pour ajouter un fragment de page qui comprend un code de script à un modèle dans le générateur de site, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="02d7c-133">To add a page fragment that includes script code to a template in site builder, follow these steps.</span></span>
+
+1. <span data-ttu-id="02d7c-134">Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre code de script.</span><span class="sxs-lookup"><span data-stu-id="02d7c-134">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
+1. <span data-ttu-id="02d7c-135">Dans le volet gauche, développez la hiérarchie de modèle pour afficher l'emplacement **En-tête HTML**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-135">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
+1. <span data-ttu-id="02d7c-136">Dans l'emplacement **En-tête HTML**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un fragment de page**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-136">In the **HTML Head** slot, select the ellipsis button (**...**), and then select **Add Page Fragment**.</span></span>
+1. <span data-ttu-id="02d7c-137">Sélectionnez le fragment créé pour votre code de script.</span><span class="sxs-lookup"><span data-stu-id="02d7c-137">Select the fragment that you created for your script code.</span></span>
+1. <span data-ttu-id="02d7c-138">Sélectionnez **Enregistrer**, puis **Terminer la modification**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-138">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="02d7c-139">Sélectionnez **Publier**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-139">Select **Publish**.</span></span>
+
+## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a><span data-ttu-id="02d7c-140">Ajouter un script externe ou en ligne directement à un modèle</span><span class="sxs-lookup"><span data-stu-id="02d7c-140">Add an external script or inline script directly to a template</span></span>
+
+<span data-ttu-id="02d7c-141">Si vous souhaitez insérer un script en ligne ou externe directement dans un ensemble de pages contrôlées par un seul modèle, vous n'avez pas à créer de fragment de page tout d'abord.</span><span class="sxs-lookup"><span data-stu-id="02d7c-141">If you want to insert an inline or external script directly into a set of pages that are controlled by a single template, you don't have to create a page fragment first.</span></span>
+
+### <a name="add-an-inline-script-directly-to-a-template"></a><span data-ttu-id="02d7c-142">Ajouter un script en ligne directement à un modèle</span><span class="sxs-lookup"><span data-stu-id="02d7c-142">Add an inline script directly to a template</span></span>
+
+<span data-ttu-id="02d7c-143">Pour ajouter un script en ligne directement à un modèle dans le générateur de site, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="02d7c-143">To add an inline script directly to a template in site builder, follow these steps.</span></span>
+
+1. <span data-ttu-id="02d7c-144">Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre code de script.</span><span class="sxs-lookup"><span data-stu-id="02d7c-144">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
+1. <span data-ttu-id="02d7c-145">Dans le volet gauche, développez la hiérarchie de modèle pour afficher l'emplacement **En-tête HTML**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-145">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
+1. <span data-ttu-id="02d7c-146">Dans l'emplacement **En-tête HTML**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-146">In the **HTML Head** slot, select the ellipsis button (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="02d7c-147">Dans la boîte de dialogue **Ajouter un module**, sélectionnez **Script en ligne**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-147">In the **Add Module** dialog box, select **Inline script**.</span></span>
+1. <span data-ttu-id="02d7c-148">Dans le volet des propriétés à droite, sous **Script en ligne**, entrez votre script côté client.</span><span class="sxs-lookup"><span data-stu-id="02d7c-148">In the property pane on the right, under **Inline script**, enter your client-side script.</span></span> <span data-ttu-id="02d7c-149">Puis configurez d'autres options selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="02d7c-149">Then configure other options as you require.</span></span>
+1. <span data-ttu-id="02d7c-150">Sélectionnez **Enregistrer**, puis **Terminer la modification**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-150">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="02d7c-151">Sélectionnez **Publier**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-151">Select **Publish**.</span></span>
+
+### <a name="add-an-external-script-directly-to-a-template"></a><span data-ttu-id="02d7c-152">Ajouter un script externe directement à un modèle</span><span class="sxs-lookup"><span data-stu-id="02d7c-152">Add an external script directly to a template</span></span>
+
+<span data-ttu-id="02d7c-153">Pour ajouter un script externe à un modèle dans le générateur de site, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="02d7c-153">To add an external script directly to a template in site builder, follow these steps.</span></span>
+
+1. <span data-ttu-id="02d7c-154">Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre code de script.</span><span class="sxs-lookup"><span data-stu-id="02d7c-154">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
+1. <span data-ttu-id="02d7c-155">Dans le volet gauche, développez la hiérarchie de modèle pour afficher l'emplacement **En-tête HTML**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-155">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
+1. <span data-ttu-id="02d7c-156">Dans l'emplacement **En-tête HTML**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-156">In the **HTML Head** slot, select the ellipsis button (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="02d7c-157">Dans la boîte de dialogue **Ajouter un module**, sélectionnez **Script externe**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-157">In the **Add Module** dialog box, select **External script**.</span></span>
+1. <span data-ttu-id="02d7c-158">Dans le volet des propriétés à droite, sous **Source du script**, ajoutez une URL externe ou relative pour la source de script externe.</span><span class="sxs-lookup"><span data-stu-id="02d7c-158">In the property pane on the right, under **Script source**, add an external or relative URL for the external script source.</span></span> <span data-ttu-id="02d7c-159">Puis configurez d'autres options selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="02d7c-159">Then configure other options as you require.</span></span>
+1. <span data-ttu-id="02d7c-160">Sélectionnez **Enregistrer**, puis **Terminer la modification**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-160">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="02d7c-161">Sélectionnez **Publier**.</span><span class="sxs-lookup"><span data-stu-id="02d7c-161">Select **Publish**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="02d7c-162">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="02d7c-162">Additional resources</span></span>
+
+[<span data-ttu-id="02d7c-163">Ajouter un logo</span><span class="sxs-lookup"><span data-stu-id="02d7c-163">Add a logo</span></span>](add-logo.md)
+
+[<span data-ttu-id="02d7c-164">Sélectionner un thème pour le site</span><span class="sxs-lookup"><span data-stu-id="02d7c-164">Select a site theme</span></span>](select-site-theme.md)
+
+[<span data-ttu-id="02d7c-165">Utilisation de fichiers de remplacement CSS</span><span class="sxs-lookup"><span data-stu-id="02d7c-165">Work with CSS override files</span></span>](css-override-files.md)
+
+[<span data-ttu-id="02d7c-166">Ajouter une icône de favori</span><span class="sxs-lookup"><span data-stu-id="02d7c-166">Add a favicon</span></span>](add-favicon.md)
+
+[<span data-ttu-id="02d7c-167">Ajouter un message de bienvenue</span><span class="sxs-lookup"><span data-stu-id="02d7c-167">Add a welcome message</span></span>](add-welcome-message.md)
+
+[<span data-ttu-id="02d7c-168">Ajouter un avis de droits d'auteur</span><span class="sxs-lookup"><span data-stu-id="02d7c-168">Add a copyright notice</span></span>](add-copyright-notice.md)
+
+[<span data-ttu-id="02d7c-169">Ajouter des langues à votre site</span><span class="sxs-lookup"><span data-stu-id="02d7c-169">Add languages to your site</span></span>](add-languages-to-site.md)
