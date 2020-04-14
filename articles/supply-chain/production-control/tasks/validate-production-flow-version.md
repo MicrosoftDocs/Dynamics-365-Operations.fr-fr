@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 523f6414ec212aef48eece487f4199ea2cf4b87e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5dfd5655ecdfa74d75490b0915c4cea609baebe3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836146"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146499"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Valider un flux de production et une version
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure montre comment créer un flux de production et une première version pour la lean manufacturing. Conditions préalables : les paramètres de production pour la lean manufacturing et les unités de mesure du temps des classes doivent être définis. Vous devez également définir une Chaîne de valeur et un Groupe de production. Consultez les livres blancs sur la lean manufacturing pour vous familiariser avec les concepts des flux de production et des activités. Cette procédure fait référence à l'entité juridique USMF dans les données de démonstration. Toutefois, en supposant que l'entité juridique est configurée pour la lean manufacturing, il est possible d'utiliser d'autres entités juridiques.
 

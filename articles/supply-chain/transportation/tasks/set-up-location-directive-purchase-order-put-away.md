@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aea3f08ea2d1bd584448c3033aea41eca2a0e3ce
-ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
+ms.openlocfilehash: 54c75696f7147a7a4eb7b9d984936af9c28ef501
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870914"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146213"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique décrit comment paramétrer une simple instruction d'emplacement. L'exemple qui est indiqué crée une instruction d'emplacement à utiliser pour déterminer où mettre les articles reçus pour une commande fournisseur. Vous pouvez lire ce guide des tâches avec les données mentionnées en utilisant la société USMF de données de démonstration. Conditions préalables : vous devez créer un code disposition. Dans cette procédure nous utilisons un code disposition appelé Relabel. Si vous créez une instruction d'emplacement dans vos propres données, vous devez avoir configuré la gestion des entrepôts avancée pour votre entrepôt et vos articles. Cette procédure est destinée au gestionnaire d'entrepôts.
 
@@ -53,7 +53,7 @@ Cette rubrique décrit comment paramétrer une simple instruction d'emplacement.
 4. Dans le champ **Unité**, tapez une valeur. Il s'agit de l'unité dans laquelle Quantité de départ et Quantité d'arrivée sont exprimées. Si vous ne renseignez pas ce champ, l'unité de stock de l'article est utilisée.  
 5. Dans le champ **Localiser la quantité**, sélectionnez une option.
     - Aucune ou Quantité du contenant : la quantité enregistrée de chaque contenant.  
-    - Quantité unitisée : la quantité entière qui est enregistrée.  
+    - Quantité unitisée : la totalité de la quantité enregistrée.  
     - Quantité restante : la quantité à enregistrer à partir de la ligne de commande fournisseur.  
     - Quantité attendue : la quantité totale spécifiée sur la ligne de commande fournisseur.  
 6. Activez ou désactivez la case à cocher **Restreindre par unité**. Si vous sélectionnez cette option et spécifiez l'unité de la page **Restreindre par unité**, seuls les articles avec cette unité de mesure peuvent être mis dans l'emplacement. Par exemple, si l'unité de mesure correspond à des palettes, seuls les articles en palettes peuvent être rangés dans l'emplacement spécifié.  

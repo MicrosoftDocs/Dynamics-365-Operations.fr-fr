@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec792ca27bf0245ff25e59cfe28122f17caec7fc
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 81b0e33d8f721cfcfd437e34b42a909798a6514b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866848"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147455"
 ---
 # <a name="create-a-purchase-agreement"></a>Créer un contrat d'achat
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique vous guide tout au long de la création d'un contrat d'achat. Cela est généralement effectué par un gestionnaire des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Vous devez avoir configuré des classifications de contrat d'achat avant de commencer. Une fois que vous avez créé un accord, vous pouvez l'utiliser lorsque vous créez une commande fournisseur. Cela copiera les conditions du contrat d'achat dans l'en-tête et sur toutes les lignes de la commande qui sont affectées par l'accord.
 

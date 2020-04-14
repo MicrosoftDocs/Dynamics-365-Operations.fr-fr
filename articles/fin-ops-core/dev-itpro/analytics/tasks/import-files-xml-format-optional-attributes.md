@@ -16,69 +16,69 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f34302a32b2e06f281dc93d6df160b88ffac7123
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: fc28e9a2170929c6cd8daafd7eae54713cec36ff
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769783"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143198"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) Importer les fichiers au format XML avec des attributs facultatifs
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut concevoir une configuration de format ER pour importer des fichiers au format XML contenant des attributs facultatifs. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Avant de commencer, chargez et enregistrez localement le fichier IncomingDocumentToLearnHowToHandleOptionalAttributes.xml à partir du [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
+Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut concevoir une configuration de format ER pour importer des fichiers au format XML contenant des attributs facultatifs. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Avant de commencer, chargez et enregistrez localement le fichier IncomingDocumentToLearnHowToHandleOptionalAttributes.xml à partir du [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
 
-1.  Accédez à **Tous les espaces de travail** > **États électroniques**.
-2.  Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).
-3.  Cliquez sur **Configurations des états**.
+1.    Accédez à **Tous les espaces de travail** > **États électroniques**.
+2.    Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).
+3.    Cliquez sur **Configurations des états**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Créer une configuration de modèle de données
-1.  Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue.
-2.  Dans le champ **Nom**, tapez « Modèle d'importation d'un fichier XML ».
-3.  Cliquez sur **Créer une configuration**.
-4.  Cliquez sur **Concepteur**.
-5.  Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
-6.  Dans le champ **Nom**, tapez « Racine ».
-7.  Cliquez sur **Ajouter**.
-8.  Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
-9.  Dans le champ **Nom**, tapez « Liste ».
-10. Dans le champ **Type d'article**, sélectionnez **Liste d'enregistrements**.
-11. Cliquez sur **Ajouter**.
-12. Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
-13. Dans le champ **Nom**, tapez « Code ».
-14. Dans le champ **Type d'article**, sélectionnez **Chaîne**.
-15. Cliquez sur **Ajouter**.
-16. Cliquez sur **Enregistrer**.
-17. Fermez la page.
-18. Cliquez sur **Modifier le statut**.
-19. Cliquez sur **Terminé.**
-20. Cliquez sur **OK**.
+1.    Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue.
+2.    Dans le champ **Nom**, tapez « Modèle d'importation d'un fichier XML ».
+3.    Cliquez sur **Créer une configuration**.
+4.    Cliquez sur **Concepteur**.
+5.    Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
+6.    Dans le champ **Nom**, tapez « Racine ».
+7.    Cliquez sur **Ajouter**.
+8.    Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
+9.    Dans le champ **Nom**, tapez « Liste ».
+10.    Dans le champ **Type d'article**, sélectionnez **Liste d'enregistrements**.
+11.    Cliquez sur **Ajouter**.
+12.    Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
+13.    Dans le champ **Nom**, tapez « Code ».
+14.    Dans le champ **Type d'article**, sélectionnez **Chaîne**.
+15.    Cliquez sur **Ajouter**.
+16.    Cliquez sur **Enregistrer**.
+17.    Fermez la page.
+18.    Cliquez sur **Modifier le statut**.
+19.    Cliquez sur **Terminé.**
+20.    Cliquez sur **OK**.
 
 ## <a name="create-a-format-for-data-import"></a>Créer un format pour l'importation de données
-1.  Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue.
-2.  Dans le champ **Nouveau**, entrez « Format basé sur le modèle de données Modèle d'importation d'un fichier XML ».
-3.  Dans le champ **Nom**, tapez « Format d'importation d'un fichier XML ».
-4.  Sélectionnez **Oui** dans le champ **Prend en charge l'importation de données**.
-5.  Cliquez sur **Créer une configuration**.
+1.    Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue.
+2.    Dans le champ **Nouveau**, entrez « Format basé sur le modèle de données Modèle d'importation d'un fichier XML ».
+3.    Dans le champ **Nom**, tapez « Format d'importation d'un fichier XML ».
+4.    Sélectionnez **Oui** dans le champ **Prend en charge l'importation de données**.
+5.    Cliquez sur **Créer une configuration**.
 
 ## <a name="design-a-format-to-parse-incoming-file-in-xml-format"></a>Concevoir un format pour analyser le fichier entrant au format xml
-1.  Cliquez sur **Concepteur**.
-2.  Cliquez sur **Ajouter racine** pour ouvrir la boîte de dialogue.
-3.  Dans l'arborescence, sélectionnez **XML\Élément**.
-4.  Dans le champ **Nom**, tapez « Racine ».
-5.  Cliquez sur **OK**.
-6.  Cliquez sur **Ajouter** pour ouvrir la boîte de dialogue.
-7.  Dans l'arborescence, sélectionnez **XML\Élément**.
-8.  Dans le champ **Nom**, tapez « Document ».
-9.  Dans le champ **Multiplicité**, sélectionnez **Un plusieurs**.
-10. Cliquez sur **OK**.
-11. Dans l'arborescence, sélectionnez **racine\document**.
-12. Cliquez sur **Ajouter** pour ouvrir la boîte de dialogue.
-13. Dans l'arborescence, sélectionnez **XML\Attribut**.
-14. Dans le champ **Nom**, tapez « ID ».
-15. Cliquez sur **OK**.
-16. Cliquez sur **Enregistrer**.
+1.    Cliquez sur **Concepteur**.
+2.    Cliquez sur **Ajouter racine** pour ouvrir la boîte de dialogue.
+3.    Dans l'arborescence, sélectionnez **XML\Élément**.
+4.    Dans le champ **Nom**, tapez « Racine ».
+5.    Cliquez sur **OK**.
+6.    Cliquez sur **Ajouter** pour ouvrir la boîte de dialogue.
+7.    Dans l'arborescence, sélectionnez **XML\Élément**.
+8.    Dans le champ **Nom**, tapez « Document ».
+9.    Dans le champ **Multiplicité**, sélectionnez **Un plusieurs**.
+10.    Cliquez sur **OK**.
+11.    Dans l'arborescence, sélectionnez **racine\document**.
+12.    Cliquez sur **Ajouter** pour ouvrir la boîte de dialogue.
+13.    Dans l'arborescence, sélectionnez **XML\Attribut**.
+14.    Dans le champ **Nom**, tapez « ID ».
+15.    Cliquez sur **OK**.
+16.    Cliquez sur **Enregistrer**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Concevoir une mise en correspondance de format pour enregistrer les informations analysées dans le modèle de données
 1. Cliquez sur **Mettre en correspondance avec le modèle**.
@@ -90,15 +90,15 @@ Les étapes suivantes expliquent comment un utilisateur dont le rôle est Admini
 7. Cliquez sur **Concepteur**.
 8. Dans l'arborescence, développez **Format**.
 9. Dans l'arborescence, développez **format\racine : Élément XML (racine)**.
-10. Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
-11. Cliquez sur **Lier**.
-12. Dans l'arborescence, développez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
-13. Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)\id**.
-14. Dans l'arborescence, développez **Liste = format.root.document**.
-15. Dans l'arborescence, sélectionnez **Liste = format.root.document\Code**.
-16. Cliquez sur **Lier**.
-17. Cliquez sur **Enregistrer**.
-18. Fermez la page.
+10.    Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
+11.    Cliquez sur **Lier**.
+12.    Dans l'arborescence, développez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)**.
+13.    Dans l'arborescence, sélectionnez **format\racine : Élément XML (racine)\document : Élément XML 1.* (document)\id**.
+14.    Dans l'arborescence, développez **Liste = format.root.document**.
+15.    Dans l'arborescence, sélectionnez **Liste = format.root.document\Code**.
+16.    Cliquez sur **Lier**.
+17.    Cliquez sur **Enregistrer**.
+18.    Fermez la page.
  
 ## <a name="run-format-mapping"></a>Exécuter la mise en correspondance des formats
 1. Cliquez sur **Exécuter**.
@@ -123,4 +123,4 @@ Les étapes suivantes expliquent comment un utilisateur dont le rôle est Admini
 5. Examinez le fichier généré. 
 
 > [!NOTE]
-> Le même fichier a été importé car la conception de format considère désormais l'attribut « identification » de l'élément « document » comme facultatif.
+> Le même fichier a été importé, car la conception de format considère désormais l'attribut « identification » de l'élément « document » comme facultatif.

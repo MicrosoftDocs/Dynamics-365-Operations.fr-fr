@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7038af3977797a0be2523f2414800400757b7007
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 37f1a6e3bf39e16702d1367a325134ec84369945
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183657"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144374"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 Générer l'état Liste des ventes intracommunautaires
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure vous guide dans la génération de l'état de la liste des ventes intracommunautaires. Cela inclut le transfert des transactions d'échanges intracommunautaires dans la liste des ventes intracommunautaires et l'exécution de l'état. Cette procédure inclut également la création d'une transaction d'échanges intracommunautaires à des fins de démonstration. Pour plus d'informations sur la déclaration de la liste des ventes intracommunautaires, notamment les conditions préalables requises, reportez-vous à l'aide.
 
@@ -96,7 +96,7 @@ Cette procédure est destinée aux comptables.
 3. Dans la liste, marquez la ligne pour le champ Date de facture.
 4. Dans le champ Critères, tapez « 01/01/2016..01/31/2016 ».
 5. Dans la liste, marquez la ligne pour le champ Statut de génération d'états.
-6. Dans le champ Critères, sélectionnez « Déclaré ».
+6. Dans le champ Critères, sélectionnez « Déclaré ».
     * Vous pouvez également spécifier des filtres supplémentaires sur les transactions d'échanges intracommunautaires à marquer comme Clôturées.  
 7. Cliquez sur OK.
 8. Dans le champ Sélection, sélectionnez « Clôturé ».

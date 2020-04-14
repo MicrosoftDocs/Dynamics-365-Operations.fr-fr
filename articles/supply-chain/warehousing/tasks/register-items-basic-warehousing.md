@@ -1,6 +1,6 @@
 ---
 title: Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
-description: Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks.
+description: Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,25 +17,25 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e64a6df41e43c1b97243a6f7291393982575636
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 537418a78f7cc9d1375188076264e38b790e081b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847229"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145983"
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks. Cette opération est généralement effectuée par la personne qui s'occupe de la réception. Vous pouvez exécuter cette procédure dans la société USMF fictive avec les valeurs d'exemple affichées.  Si vous n'utilisez pas USMF, vous devez avoir une commande fournisseur confirmée avec une ligne de commande fournisseur en cours avant de lancer ce guide. L'article de la ligne doit être stocké. Et l'article doit être associé à un groupe de dimension de stockage, dans lequel le site et l'entrepôt sont actifs.
+Cette procédure décrit la manière dont vous enregistrez des articles à l'aide des journaux d'arrivée des articles lorsque vous utilisez l'« entreposage de base » dans le module Gestion des stocks. Cette opération est généralement effectuée par la personne qui s'occupe de la réception. Vous pouvez exécuter cette procédure dans la société USMF fictive avec les valeurs d'exemple affichées.  Si vous n'utilisez pas USMF, vous devez avoir une commande fournisseur confirmée avec une ligne de commande fournisseur en cours avant de lancer ce guide. L'article de la ligne doit être stocké. Et l'article doit être associé à un groupe de dimension de stockage, dans lequel le site et l'entrepôt sont actifs.
 
 
 ## <a name="create-item-arrival-journal-header"></a>Créer l'en-tête du journal des arrivées d'articles
 1. Accédez à Gestion des stocks > Entrées de journal > Arrivée d'articles > Arrivée d'articles.
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ Nom.
-    * Si vous utilisez USMF, vous pouvez taper WHS. Si vous utilisez d'autres données, le journal dont vous choisissez le nom doit avoir les propriétés suivantes : Vérifier l'emplacement de prélèvement doit être définie sur Non et Gestion des contrôles doit être définie sur Non.  
+    * Si vous utilisez USMF, vous pouvez taper WHS. Si vous utilisez d'autres données, le journal dont vous choisissez le nom doit avoir les propriétés suivantes : Vérifier l'emplacement de prélèvement doit être définie sur Non et Gestion des contrôles doit être définie sur Non.  
 4. Tapez une valeur dans le champ Bon de livraison.
     * Il s'agit de l'ID bon de livraison du bon de livraison émis par le fournisseur. Ajoutez un numéro unique.  
 5. Sélectionnez la commande fournisseur dans le champ Nombre.

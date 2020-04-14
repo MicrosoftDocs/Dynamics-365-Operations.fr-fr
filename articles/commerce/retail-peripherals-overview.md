@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124403"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154178"
 ---
 # <a name="peripherals"></a>Périphériques
 
@@ -158,7 +158,7 @@ Les caisses enregistreuses adressables en réseau, les imprimantes de tickets et
 
 ### <a name="dedicated"></a>Dédié(e)
 
-Les clients Modern POS pour Windows et Android comprennent des stations matérielles intégrées ou **dédiées**. Ces clients peuvent communiquer directement avec les périphériques à l'aide d'une logique métier intégrée aux applications. L'application Android ne prend en charge que les périphériques réseau. Pour plus d'informations sur la prise en charge de périphériques pour Android, consultez l'article [Configurer l'application POS Hybrid sur Android et iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Les clients Modern POS pour Windows et Android comprennent des stations matérielles intégrées ou **dédiées**. Ces clients peuvent communiquer directement avec les périphériques à l'aide d'une logique métier intégrée aux applications. L'application Android ne prend en charge que les périphériques réseau. Pour plus d'informations sur la prise en charge de périphériques pour Android, consultez l'article [Configurer l'application POS Hybrid sur Android et iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 Pour utiliser la station matérielle dédiée, affectez un profil matériel à un registre qui utilise Modern POS pour les applications Windows ou Android. Créez ensuite une station matérielle du type **Dédié** pour le magasin où le registre sera utilisé. Démarrez Modern POS en mode sans tiroir et utilisez l'opération **Gérer les stations matérielles** pour activer les capacités de la station matérielle, la station matérielle dédiée est active par défaut. Ensuite, déconnectez-vous de Modern POS, puis reconnectez-vous et ouvrez une équipe de travail et les périphériques configurés dans le profil matériel sont utilisables. 
 
@@ -199,7 +199,7 @@ Pour plus d'informations, voir [Configurer, installer et activer Modern POS (MPO
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Paramétrage et configuration de Modern POS pour Windows et Android
 
-Pour plus d'informations, voir [Configurer l'application POS Hybrid sur Android et iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Pour plus d'informations, voir [Configurer l'application POS Hybrid sur Android et iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>Paramétrage et configuration de périphérique OPOS
 
@@ -494,7 +494,7 @@ Cette configuration est la configuration la plus courante pour les registres de 
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS pour Android avec une station matérielle IPC (intégrée)
 
-**Nouveau pour la version 10.0.8** - Les imprimantes réseau et les tiroirs-caisses Epson connectés à ces imprimantes parle port DK sont désormais pris en charge pour Modern POS pour Android. Pour plus de détails, consultez l'article [Configurer l'application POS Hybrid sur Android et iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+**Nouveau pour la version 10.0.8** - Les imprimantes réseau et les tiroirs-caisses Epson connectés à ces imprimantes parle port DK sont désormais pris en charge pour Modern POS pour Android. Pour plus de détails, consultez l'article [Configurer l'application POS Hybrid sur Android et iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Tous les clients Modern POS qui ont une station matérielle IIS « partagée », validée
 

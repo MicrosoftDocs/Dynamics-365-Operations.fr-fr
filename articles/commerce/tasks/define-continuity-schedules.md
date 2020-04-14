@@ -1,5 +1,5 @@
 ---
-title: " Définir les programmes périodiques"
+title: Définir les programmes périodiques
 description: Cette rubrique vous guide dans le paramétrage d'un programme périodique (également appelé commandes récurrentes).
 author: josaw1
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a438656730863f345080bc99fef24cfff724f528
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 06fd1e23ad84fdc5e94e309717d5a96fbff45035
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022512"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140897"
 ---
 # <a name="define-continuity-schedules"></a> Définir les programmes périodiques
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette rubrique vous guide dans le paramétrage d'un programme périodique (également appelé commandes récurrentes). Elle utilise la société USRT dans les données de démonstration.
 

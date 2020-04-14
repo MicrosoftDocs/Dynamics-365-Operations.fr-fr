@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d684eedd5b40ee9775ab779c243d05cdc6e01f58
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188853"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140268"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Créer un code intérêt avec une plage
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
+[!include [banner](../../includes/banner.md)]
 Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d'intérêt en fonction d'une plage de valeurs. Cette procédure vous indique comment ajouter un code intérêt et ajouter une plage à celui-ci.
 
 1. Accédez à Crédit et relances > Intérêts > Paramétrer les codes intérêt.

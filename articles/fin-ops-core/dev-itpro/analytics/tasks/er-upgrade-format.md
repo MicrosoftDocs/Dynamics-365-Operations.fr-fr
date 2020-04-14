@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b4ad9fb7a3d768acb0af73dcbe3d87b323de727
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 52bc276a4a88971a7214fa09087cb1323b91aaf5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042802"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143270"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut conserver une configuration de format pour la génération d'états électronique (ER). Cette procédure explique comment une version personnalisée d'un format peut être créée en fonction du format reçu d'un fournisseur de configuration. Elle décrit également comment adopter une nouvelle version de base de ce format.
 
-Pour effectuer ces étapes, vous devez tout d'abord appliquer les procédures « Créer un fournisseur de configuration et le marquer comme actif » et « Utiliser le format créé pour générer des documents électroniques ». Ces étapes peuvent être effectuées dans la société GBSI.
+Pour effectuer ces étapes, vous devez tout d'abord appliquer les procédures « Créer un fournisseur de configuration et le marquer comme actif » et « Utiliser le format créé pour générer des documents électroniques ». Ces étapes peuvent être effectuées dans la société GBSI.
 
 ## <a name="select-format-configuration-for-customization"></a>Sélectionner la configuration du format pour la personnalisation
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
@@ -216,7 +216,7 @@ Pour cela, Proseware, Inc. doit modifier la version de configuration de base pou
 ## <a name="resolve-rebase-conflicts"></a>Résoudre des conflits redéfinis
 1. Cliquez sur Concepteur.
     
-    Notez que les modifications apportées à la limite de longueur de texte du nom du fournisseur ne peuvent pas être résolues automatiquement. Elles sont par conséquent présentées dans une liste des conflits. Pour chaque conflit de mise à jour du type, les options suivantes sont disponibles : Appliquer la valeur de base précédente (bouton en haut de la grille) pour afficher la valeur de version de base précédente (0 dans ce cas).  - Appliquez une valeur de base (bouton en haut de la grille) pour afficher la nouvelle valeur de version de base (100 dans ce cas).  - Conservez vos propres valeurs (personnalisées) (60 dans notre cas).  Cliquez sur Appliquer la valeur de base pour appliquer une limite spécifique au pays de 100 caractères pour la longueur du nom du fournisseur.  
+    Notez que les modifications apportées à la limite de longueur de texte du nom du fournisseur ne peuvent pas être résolues automatiquement. Elles sont par conséquent présentées dans une liste des conflits. Pour chaque conflit de mise à jour du type, les options suivantes sont disponibles : Appliquer la valeur de base précédente (bouton en haut de la grille) pour afficher la valeur de version de base précédente (0 dans ce cas).  - Appliquez une valeur de base (bouton en haut de la grille) pour afficher la nouvelle valeur de version de base (100 dans ce cas).  - Conservez vos propres valeurs (personnalisées) (60 dans notre cas).  Cliquez sur Appliquer la valeur de base pour appliquer une limite spécifique au pays de 100 caractères pour la longueur du nom du fournisseur.  
 
     Notez que Proseware, Inc. et Litware, Inc. ont des versions personnalisées et locales de ce format à l'aide de codes IBAN et SWIFT avec les composants associés qui sont automatiquement fusionnés dans le format de gestion.  
 

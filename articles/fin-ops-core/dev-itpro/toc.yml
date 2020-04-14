@@ -162,24 +162,52 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: "Configuration en double écriture depuis Lifecycle\_Services"
                               href: data-entities/dual-write/lcs-setup.md
+                            - name: Synchronisation initiale
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Activer la double écriture pour les applications Finance and Operations existantes
+                              items:
+                                - name: Activer la double écriture pour les applications Finance and Operations existantes
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Configuration système et conditions préalables
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Comment utiliser l'assistant de double écriture pour lier vos environnements
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Activer la carte d'entité pour la double écriture
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: Gérer la double écriture
+                          items:
+                            - name: Personnaliser les mises en correspondance d'entités et de champs
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Gestion des erreurs et notifications d'alerte
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Gestion du cycle de vie de l'application
+                              href: data-entities/dual-write/app-lifecycle-management.md
                         - name: Mise en correspondance des concepts entre les applications
                           items:
-                            - name: Hiérarchie d'organisation sur Common Data Service
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Intégration de la société
-                              items:
-                                - name: Concept de société dans Common Data Services
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Amorçage avec les données de la société
-                                  href: data-entities/dual-write/bootstrap-company-data.md
                             - name: Données principales client intégrées
                               href: data-entities/dual-write/customer-mapping.md
+                            - name: Intégration du fournisseur
+                              items:
+                                - name: Données principales fournisseur intégrées
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Permuter entre les configurations de fournisseur
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Cartes de fidélité et points de fidélité
+                              href: data-entities/dual-write/loyalty-mapping.md
                             - name: Intégration du produit
                               items:
                                 - name: Expérience produit uniformisée
                                   href: data-entities/dual-write/product-mapping.md
                                 - name: Sites et entrepôts intégrés
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Intégration de la société
+                              items:
+                                - name: Concept de société dans Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Amorçage avec les données de la société
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Hiérarchie d'organisation sur Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
                             - name: Données financières et fiscales
                               items:
                                 - name: Accès aux données de référence financières et fiscales
@@ -188,12 +216,8 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Données principales fiscales intégrées
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Intégration du fournisseur
-                              items:
-                                - name: Données principales fournisseur intégrées
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Permuter entre les configurations de fournisseur
-                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Synchroniser avec le moteur de tarification Dynamics 365 Supply Chain Management à la demande
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Prospect en disponibilités en double écriture
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Actifs internes pour la maintenance
@@ -204,11 +228,25 @@
                           items:
                             - name: "Prise en charge des solutions Field\_Service et Project\_Service\_Automation"
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Synchronisation initiale
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: Dépannage de l'intégration de données
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Intégration avec l'intégrateur de données Power Platform
+                            - name: Dépannage
+                              items:
+                                - name: Vérifiez que la double écriture est configurée dans les applications Finance and Operations et Common Data Service
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Résoudre les problèmes lors de la configuration initiale
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Résoudre les problèmes lors de la synchronisation initiale
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Résoudre les problèmes liés au module Double écriture dans les applications Finance and Operations
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Résoudre les problèmes de synchronisation en direct
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: Résoudre les problèmes liés à la prise en charge de la solution
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: Résoudre les problèmes liés aux mises à niveau des applications Finance and Operations
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Résolution générale des problèmes
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Intégration à Power Platform
                       items:
                         - name: Configurer un scénario Prospect en disponibilités
                           items:
@@ -392,6 +430,8 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: Créer une actualisation de la base de données
                       href: database/api/v1/reference-create-refresh.md
+                    - name: Créer un export de base de données
+                      href: database/api/v1/reference-create-export.md
                     - name: Obtenir le statut d'activité de l'opération
                       href: database/api/v1/reference-get-status.md
         - name: Données de démonstration
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Surveillance et diagnostics
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: État de l'analyse de l'impact
+              href: lifecycle-services/impact-analysis-report.md
             - name: Redémarrer les services d'environnement
               href: lifecycle-services/restart-environment-services.md
             - name: Signaler une panne de production
@@ -1396,6 +1438,10 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Signaler une panne de production
               href: lifecycle-services/report-production-outage.md
+            - name: Configurer et gérer la journalisation de la base de données
+              href: sysadmin/configure-manage-database-log.md
+            - name: Créer un cache de métadonnées OData au démarrage d'AOS
+              href: sysadmin/odata-warmup.md
         - name: 'Mises à niveau, mises à jour et correctifs'
           items:
             - name: 'Mises à niveau, mises à jour et ressources'

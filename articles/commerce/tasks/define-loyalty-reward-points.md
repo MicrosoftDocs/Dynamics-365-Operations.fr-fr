@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9557b25af0fba6429d34564e1a3e158b6258698a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4e40ebcbf3ab1befc641ae34571a8b974bd0425a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022509"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140874"
 ---
 # <a name="define-loyalty-reward-points"></a> Définir les points de récompense de fidélité
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette procédure décrit la définition des points de récompense de fidélité. Vous devez paramétrer les points de récompense de fidélité avant de paramétrer un programme de fidélité. La société fictive USRT sert d'exemple dans cette procédure.
 
@@ -42,7 +42,7 @@ Cette procédure décrit la définition des points de récompense de fidélité.
 8. Dans le champ Rembourser le classement, saisissez un nombre.
     * Le classement de remboursement est utilisé lorsque deux ou plusieurs points de récompense remboursables peuvent être utilisés pour payer les produits. Si les deux points de récompense ont le même classement de remboursement, celui qui doit réduire le nombre de points est utilisé.  
 9. Dans le champ Valeur - durée avant expiration, saisissez un nombre.
-    * Les points de récompense expirent le nombre spécifié de jours, mois ou années après l'émission des points. La valeur 0 signifie que les points de récompense de fidélité n'expirent jamais.  
+    * Les points de récompense expirent le nombre spécifié de jours, mois ou années après l'émission des points. La valeur « 0 » signifie que les points de récompense de fidélité n'expirent jamais.  
 10. Dans le champ Unité - durée avant expiration, sélectionnez une option.
 11. Cliquez sur Enregistrer.
 

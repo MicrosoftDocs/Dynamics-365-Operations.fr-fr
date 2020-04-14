@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcf22a3e9564f991b0cb5ebbd6a2282e3e749990
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 19cea683058f7fb757ac3a99541959ba06df1963
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177735"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144208"
 ---
 # <a name="vendor-payment-overview"></a>Vue d'ensemble des paiements fournisseurs
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l'utilisation d'une proposition de paiement ou la saisie manuelle d'un paiement unique. La société fictive USMF sert d'exemple dans cette procédure.
 

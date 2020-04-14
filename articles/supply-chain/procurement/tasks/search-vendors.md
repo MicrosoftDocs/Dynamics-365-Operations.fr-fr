@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfa5bfa2eba39b981c5dc1d029f4847651c8fc6f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1982c8dffbc7a65263babce7738045b744db2592
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844031"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149525"
 ---
 # <a name="search-for-vendors"></a>Rechercher des fournisseurs
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Découvrez comment rechercher des fournisseurs en fonction de critères spécifiques. Cet exemple décrit la manière dont vous recherchez des fournisseurs agréés pour une catégorie d'approvisionnement spécifique et qui ont une adresse principale dans un pays spécifique. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Cette tâche est généralement effectuée par un professionnel de l'approvisionnement.
 

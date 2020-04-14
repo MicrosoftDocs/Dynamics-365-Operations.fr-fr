@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1fd41b1724eb2e0405c0e7a7e0ff0aea4a945e0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: af2899da843967bfaaa8f3c66906fc8e3765b573
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184943"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142499"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Créer une configuration de format (novembre 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER). Cette configuration de formats définira le format des documents électroniques utilisés pour traiter les paiements. Dans cet exemple, vous allez créer une configuration de format pour la société témoin, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord accomplir celles de la procédure « Mettre en relation le modèle aux sources de données sélectionnées ».
+Cette rubrique explique comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER). Cette configuration de formats définira le format des documents électroniques utilisés pour traiter les paiements. Dans cet exemple, vous allez créer une configuration de format pour la société témoin, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord accomplir celles de la procédure « Mettre en relation le modèle aux sources de données sélectionnées ».
 
 
 ## <a name="create-a-new-format-configuration"></a>Créer une configuration de format

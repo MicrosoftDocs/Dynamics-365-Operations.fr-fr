@@ -16,22 +16,22 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0abbce32e2fabe860077502875b92f93ea0ea95c
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 488fb1bea2d2ae06c92c20afdd98735928eee3b8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867075"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147294"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Créer une commande fournisseur répétée
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique vous montre comment créer une commande fournisseur répétée (CF) en copiant des lignes d'un document de commande fournisseur précédent dans un nouveau CF ou un CF existant. Il y a deux méthodes pour créer des commandes répétées. Vous pouvez utiliser les actions disponibles au niveau du document à partir du volet Actions ou vous pouvez utiliser les actions de détails de ligne. Les actions de niveau du document sont principalement prévues pour créer une commande fournisseur en ajoutant des lignes et des informations d'en-tête à partir d'une autre commande, alors que l'action de détails de ligne sert principalement à ajouter des lignes à une commande existante. L'exemple indiqué dans ce guide peut être utilisé dans les données fictives de la société USMF. Cette tâche est généralement effectuée par un agent des achats.
 
 
 ## <a name="create-a-new-repeat-purchase-order"></a>Créer une commande fournisseur répétée
-1. Dans le volet de navigation, accédez à **Modules > Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur**. D'abord nous essayerons l'option pour copier les informations dans une nouvelle commande.  
+1. Dans le volet de navigation, accédez à **Modules > Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur**. D'abord, nous essayerons l'option pour copier les informations dans une nouvelle commande.  
 2. Sélectionnez **Nouveau**.
 3. Dans le champ **Compte fournisseur**, saisissez `US-101`.
 4. Cliquez sur **OK**.
@@ -39,10 +39,10 @@ Cette rubrique vous montre comment créer une commande fournisseur répétée (C
 6. Sélectionnez **À partir de tous**. Il s'agit de la page à partir de laquelle vous pouvez copier à partir des commandes existantes dans votre commande. Il y a différentes options pour copier les lignes et différents types de documents à partir desquels vous pouvez copier. Nous verrons les options pour copier les lignes en premier. 
 7. Développez la section **Paramètres**.
 
-    - Le champ **Facteur de quantité** est utile si vous devez utiliser une quantité qui est différente de celle qui est sur la commande à partir de laquelle vous copiez. Par exemple, si vous voulez commander deux fois la quantité qui est dans les lignes à partir desquelles vous copiez, vous devez taper « 2" dans ce champ et le système ajoutera alors des lignes où la quantité originale a été doublée.  
+    - Le champ **Facteur de quantité** est utile si vous devez utiliser une quantité qui est différente de celle qui est sur la commande à partir de laquelle vous copiez. Par exemple, si vous voulez commander deux fois la quantité qui est dans les lignes à partir desquelles vous copiez, vous devez taper « 2 » dans ce champ et le système ajoutera alors des lignes où la quantité originale a été doublée.  
     - Le champ **Inverser le signe** prend aussi en charge la quantité commandée en changeant le signe de la quantité pour les lignes de commande qui sont ajoutées. Ceci peut être utile si vous devez contrepasser une transaction, en créant des lignes de commande qui annulent la transaction. Cette option est automatiquement choisie quand la page est ouverte à partir de l'action **Créer un avoir**.  
     - L'option **Copier les frais** vous permet de copier des frais dans la nouvelle commande à partir du document à partir duquel vous copiez les lignes de commande.  
-    - L'option de **recalcul des prix** utilise les prix actuels et les remises plutôt que de les copier à partir du document à partir duquel vous copiez d'autres informations.  
+    - L'option **Recalcul des prix** utilise les prix actuels et les remises plutôt que de les copier à partir du document à partir duquel vous copiez d'autres informations.  
     - L'option **Copier précisément** crée une copie précise des valeurs de tous les champs sur l'en-tête et les lignes du document de commande. Si cette option n'est pas choisie, des valeurs par défaut sont utilisées pour plusieurs champs concernant le fournisseur et les produits, comme si vous créiez la nouvelle commande manuellement. Par exemple, si la commande à partir de laquelle vous copiez a remplacé le compte de facturation par défaut du fournisseur, le même compte de facturation sera copié dans votre commande. Si vous ne choisissez pas l'option **Copier précisément**, le compte de facturation par défaut du fournisseur sera utilisé à la place sur votre commande.  
     - L'option **Supprimer des lignes d'achat** supprime toutes les lignes de commandes fournisseur qui existent déjà sur la commande fournisseur dans laquelle vous copiez, avant d'appliquer les nouvelles lignes. Utilisez cette option avec prudence, en effet elle supprime toutes les lignes existantes sans que vous en soyez averti.  
     - Si vous utilisez l'option **Copier l'en-tête de commande**, vous n'avez pas besoin de créer manuellement les informations d'en-tête sur votre nouvelle commande. Notez que cette option entraîne l'utilisation de valeurs par défaut pour les champs liés au fournisseur. Si le document à partir duquel vous copiez contient des valeurs non définies par défaut que vous voulez copier, utilisez également l'option **Copier précisément**.   

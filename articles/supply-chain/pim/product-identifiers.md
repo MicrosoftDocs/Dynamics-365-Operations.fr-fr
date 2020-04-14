@@ -3,7 +3,7 @@ title: Identificateurs du produit
 description: Cette rubrique fournit des informations sur les différents types d'identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095615"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172023"
 ---
-# <a name="product-identifiers"></a>Identificateurs du produit 
+# <a name="product-identifiers"></a>Identificateurs du produit
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,6 +53,9 @@ En outre, une variante de produit ne peut pas être identifié de façon unique 
 De nombreuses pages comportent toujours le numéro d'article et les dimensions de produit comme identificateurs principaux. Toutefois, les numéros de produit peuvent être utilisés pour les recherches. Dans **Ventes et marketing** &gt; **Paramétrage** &gt; **Recherche** &gt; **Paramètres de recherche**, vous pouvez modifier la recherche afin qu'elle utilise des numéros de produit au lieu de numéros d'article comme principale stratégie de recherche. Si vous définissez l'option **Activer la recherche pour la recherche de produit** sur **Oui**, la recherche affiche non seulement les produits génériques, mais aussi les variantes de produit. Pour plus d'informations, consultez [Rechercher des produits et des variantes de produits lors de la saisie de commande](search-products-product-variants.md).
 
 En outre, vous pourrez rechercher et filtrer par numéro de produit, par nom du produit et description, et par ID de dimensions de produit de la variante de produit. Lorsque vous sélectionnez une variante, le numéro d'article associé et tous les ID des dimensions de produit sont sélectionnés. Par conséquent, vous pouvez trouver et sélectionner plus facilement la variante correcte. Ce paramètre est fortement recommandé si vous utilisez les variantes de produit et le numéro de produit unique comme principaux identificateurs pour les produits. La seule exception peut être le secteur de la mode, où les processus d'entreprise nécessitent souvent que vous sélectionniez le générique avant de sélectionner une variante. Vous devez évaluer soigneusement cette option avant de mettre en œuvre le système de numérotation.
+
+> [!NOTE]
+> Le numéro d'article d'un produit ne peut pas être modifié une fois qu'il existe une ou plusieurs transactions pour ce produit.
 
 ## <a name="product-name-and-description"></a>Nom et description du produit
 
@@ -123,7 +126,7 @@ Malheureusement, il n'existe aucune fonctionnalité standard qui vous permet de 
 | Produits V2 | Numéro du produit, nom de recherche du produit, nom du produit, description du produit | Numéro du produit, nom de recherche du produit, nom du produit, description du produit | En fonction des paramètres de l'entité et de la souche de numéros du numéro de produit, le numéro de produit peut être créé automatiquement lors de l'importation. |
 | Variantes de produit | Numéro du produit, nom de recherche du produit, nom du produit, description du produit | Numéro du produit, nom de recherche du produit, nom du produit, description du produit | Selon le modèle de produit, le numéro de produit peut être créé automatiquement lors de l'importation. Toutefois, vous pouvez importer chaque numéro de produit unique, et ce numéro de produit ne doit pas suivre la structure des modèles de nomenclature produit. |
 | Traductions de produit | Nom du produit, description du produit | Nom du produit, description du produit | Cette entité remplace la langue. Notez que lorsque le nom ou la description de la langue principale d'une entité juridique est ignorée, le nom et la description du produit lui-même sont modifiés. |
-| Produits lancés V2 | Numéro d'article, numéro de produit, nom de recherche d'article| Numéro d'article, numéro de produit, nom de recherche d'article, nom de recherche de produit, nom du produit | Cette entité peut être un défi lorsque des souches de numéros sont utilisées lors de la création de nouveaux produits lancés. La souche de numéros **Numéro d'article** et la souche de numéros **Numéro de produit** ont une influence. Toutefois, la souche de numéros **Numéro d'article** est par entité juridique, alors que la souche de numéros **Numéro de produit** est globale. Par conséquent, il n'est pas recommandé d'utiliser la souche de numéros **Numéro d'article** lorsque vous déployez de nouveaux produits lancés. Évidemment, lorsque l'entité est utilisée pour lancer un produit existant, le numéro de produit doit être indiqué dans l'entité. Pour plus d'informations, voir la section « Souches de numéros de produit et d'article » dans cette rubrique. |
+| Création de produit lancé V2 | Numéro d'article, numéro de produit, nom de recherche d'article| Numéro d'article, numéro de produit, nom de recherche d'article, nom de recherche de produit, nom du produit | Cette entité peut être un défi lorsque des souches de numéros sont utilisées lors de la création de nouveaux produits lancés. La souche de numéros **Numéro d'article** et la souche de numéros **Numéro de produit** ont une influence. Toutefois, la souche de numéros **Numéro d'article** est par entité juridique, alors que la souche de numéros **Numéro de produit** est globale. Par conséquent, il n'est pas recommandé d'utiliser la souche de numéros **Numéro d'article** lorsque vous déployez de nouveaux produits lancés. Évidemment, lorsque l'entité est utilisée pour lancer un produit existant, le numéro de produit doit être indiqué dans l'entité. Pour plus d'informations, voir la section « Souches de numéros de produit et d'article » dans cette rubrique. |
 | Variantes de produit lancé | Numéro d'article, dimensions de produit, numéro de produit | Numéro du produit, nom de recherche du produit, nom du produit, description du produit, dimensions de produit | Comme l'entité **Variantes de produit**, cette entité peut être utilisée pour créer des produits qui suivent le modèle de nomenclature de produit ou utilisent leurs propres numéros de produit pour la variante. |
 | Description d'article externe pour les clients | Numéro d'article client, nom d'article client, description du client, compte client | Numéro d'article client, nom d'article client, description du client, compte client | Un groupe de clients (par exemple, une association d'acheteurs) peut être agrégé dans un groupe à l'aide de l'entité **Groupes de clients pour les descriptions d'article externes**. |
 | Description d'article externe pour les fournisseurs | Numéro d'article fournisseur, nom d'article fournisseur, description du fournisseur, compte fournisseur | Numéro d'article fournisseur, nom d'article fournisseur, description du fournisseur, compte fournisseur | Un groupe de fournisseurs (par exemple, une association de ventes ou une organisation sectorielle) peut être agrégé dans un groupe à l'aide de l'entité **Groupes de fournisseurs pour les descriptions d'article externes**. |
@@ -144,7 +147,7 @@ Vous pouvez définir deux différentes souches de numéros :
 > [!NOTE]
 > Vous devez utiliser le numéro d'article comme identificateur distinct uniquement lorsque vous migrez différentes entités juridiques depuis différentes sources ayant eu différents systèmes de numérotation. Vous devez toujours tenter d'utiliser un identificateur de produit unique entre toutes les entités juridiques. Par conséquent, vous devez définir l'option **Manuelle** sur **Oui** pour la souche de numéros **Numéro d'article**. Ainsi, le numéro d'article suit le numéro de produit à la création. Si Supply Chain Management n'est pas le système principal pour les nouveaux numéros de produit, vous devez définir l'option **Manuelle** sur **Oui** pour les souches de numéros **Numéro d'article** et **Numéro de produit**.
 
-Lorsque vous utilisez l'entité **Produit lancé V2** pour créer des produits, plusieurs paramètres peuvent affecter la manière dont les souches de numéros sont utilisées pour créer le numéro de produit et le numéro d'article :
+Lorsque vous utilisez l'entité **Création de produit lancé V2** pour créer des produits, plusieurs paramètres peuvent affecter la manière dont les souches de numéros sont utilisées pour créer le numéro de produit et le numéro d'article :
 
 - Paramètres de la souche de numéros **Numéro de produit**
 - Paramètres de la souche de numéros **Numéro d'article**
@@ -155,9 +158,9 @@ Le tableau suivant fournit une vue d'ensemble des résultats de l'importation et
 
 | Souche de numéros du numéro de produit | Souche de numéros du numéro d'article | Mappage du numéro d'article | Mappage du numéro de produit | Résultat de l'importation d'entité | Résultat de la création manuelle | Conclusion |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| Manuelle = Non | Manuelle = Non | Aucune mise en correspondance | Aucune mise en correspondance | Les numéros de produit utilisent la souche de numéros **Numéro de produit**. Les numéros d'article utilisent la souche de numéros **Numéro d'article**. | Les numéros de produit utilisent la souche de numéros **Numéro de produit**. Les numéros d'article utilisent la souche de numéros **Numéro d'article**. | Ces paramètres peuvent être utilisés si vous avez besoin d'un autre numéro pour les produits et les articles. Toutefois, il n'est pas recommandé d'utiliser des numéros différents pour les articles et les produits. |
-| Manuelle = Non | Manuelle = Oui | Autogénérer | Aucune mise en correspondance | Les numéros de produit et les numéros d'article utilisent la souche de numéros **Numéro d'article**. | Les numéros de produit et les numéros d'article utilisent la souche de numéros **Numéro de produit**. | Ces paramètres ne sont pas recommandés. L'importation et la création manuelle fonctionnent différemment. |
-| Manuelle = Non | Manuelle = Oui | Aucune mise en correspondance | Aucune mise en correspondance | Les numéros de produit et les numéros d'article utilisent la souche de numéros **Numéro de produit**. | Les numéros de produit et les numéros d'article utilisent la souche de numéros **Numéro de produit**. | Ces paramètres sont recommandés si les produits doivent comporter une numérotation automatique cohérente, indépendamment de l'importation ou de la création manuelle. |
+| Manuelle = Non | Manuelle = Non | Aucune mise en correspondance | Aucune mise en correspondance | Les numéros de produit utilisent la souche de numéros **Numéro de produit**. Les numéros d'article utilisent la souche de numéros **Numéro d'article**. | Les numéros de produit utilisent la souche de numéros **Numéro de produit**. Les numéros d'article utilisent la souche de numéros **Numéro d'article**. | Avec cette configuration, les numéros de produit suivront la séquence de numéros de produit et les numéros d'article suivront la séquence de numéros d'article. Cependant, cette configuration ne fonctionnera pas s'il y a plus d'un élément (ligne) à importer. |
+| Manuelle = Non | Manuelle = Oui | Autogénérer | Aucune mise en correspondance | Les numéros de produit et les numéros d'article utilisent la souche de numéros **Numéro d'article**. | Les numéros de produit et les numéros d'article utilisent la souche de numéros **Numéro de produit**. | Les numéros de produit et les numéros d'article suivront la souche de numéros de produit. Il s'agit de l'approche recommandée pour importer des produits en vrac avec l'entité de données de création de produit publiée V2. |
+| Manuelle = Non | Manuelle = Oui | Aucune mise en correspondance | Aucune mise en correspondance | Les numéros de produit et les numéros d'article utilisent la souche de numéros **Numéro de produit**. | Les numéros de produit et les numéros d'article utilisent la souche de numéros **Numéro de produit**. | Les numéros de produit et les numéros d'article utiliseront la souche de numéros de produit. Cependant, cette configuration ne fonctionnera pas s'il y a plus d'un élément (ligne) à importer. |
 | Manuelle = Oui | Non applicable | Non applicable | Autogénérer | Vous recevez le message d'erreur suivant : « La souche de numéros ne peut pas être détectée. » | Selon la souche de numéros **Numéro d'article** | Ce paramètre n'est pas pris en charge pour l'importation. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Identificateur d'entité de produit (Exporter tous les identificateurs de produit)

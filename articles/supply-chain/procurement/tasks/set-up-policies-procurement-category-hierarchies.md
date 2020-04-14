@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8d8c259ad081d02395c6ae3c3b7cf66b89933fdf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844172"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149502"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure permet de définir des règles pour commander des produits dans une catégorie. Les règles sont définies pour une politique d'achat spécifique. La règle d'accès à la catégorie détermine à quelles catégories d'approvisionnement les utilisateurs ont accès lorsqu'ils créent une demande. Lorsqu'une demande est créée, la règle d'accès aux catégories et la politique d'achat à appliquer est déterminée en fonction de l'entité juridique et l'unité opérationnelle auxquelles l'employé appartient. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Cette tâche est généralement effectuée par un responsable des achats.
 
@@ -50,5 +50,5 @@ Cette procédure permet de définir des règles pour commander des produits dans
 4. Cliquez sur **Ajouter**.
 5. Dans le champ **Catégorie**, sélectionnez la même catégorie que celle utilisée pour la **Règle d'accès à la catégorie**.
 6. Sélectionnez une option dans le champ **Sélection de fournisseur**. Choisissez une règle pour contrôler le genre de fournisseur qui peut être choisi pour la catégorie quand des demandes sont créées.  
-7. Cliquez sur **Fermer**. Les règles de stratégie que vous avez définies concernaient des demandes de type Consommation. Pour définir des stratégies pour des demandes de type Réapprovisionnement, vous devez créer une règle pour le type de règle de stratégie appelé « Règle de stratégie d'accès à la catégorie de réapprovisionnement ».  
+7. Cliquez sur **Fermer**. Les règles de stratégie que vous avez définies concernaient des demandes de type Consommation. Pour définir des stratégies pour des demandes de type Réapprovisionnement, vous devez créer une règle pour le type de règle de stratégie appelé « Règle de stratégie d'accès à la catégorie de réapprovisionnement ».  
 

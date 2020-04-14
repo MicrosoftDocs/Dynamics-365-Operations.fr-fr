@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e35dbc489608c0aa3bfb13db5ae237f854612b1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 954bfe3972e46eac803681a5a09e85661999f1d6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844119"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149663"
 ---
 # <a name="create-a-request-for-quotation"></a>Créer un appel d'offre
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure décrit comment créer un appel d'offre. Cette action est généralement effectuée par un agent des achats. Vous pouvez utiliser cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Vous devez disposer de types de sollicitation avant de commencer. Une fois que vous avez terminé cette tâche et que vous avez créé et soumis un appel d'offre, vous pouvez ensuite entrer les réponses par fournisseur, les comparer, et attribuer le contrat.
 

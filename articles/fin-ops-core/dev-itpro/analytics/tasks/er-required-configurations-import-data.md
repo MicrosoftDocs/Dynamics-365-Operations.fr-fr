@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042871"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143313"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Créer des configurations pour importer des données d'un fichier externe
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut concevoir des configurations de format pour la génération d'états électroniques (ER) pour importer des données dans une application à partir d'un fichier externe. Dans cet exemple, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord effectuer les étapes du Guide de tâche, « ER Créer un fournisseur de configuration et le marquer comme actif. » Ces étapes peuvent être effectuées à l'aide de l'ensemble de données USMF. Vous devez également télécharger et enregistrer localement les fichiers suivants à l'aide des liens de la rubrique Vue d'ensemble des états électroniques (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
@@ -36,7 +36,7 @@ Le scénario suivant montre les fonctionnalités d'importation de données de g�
 ## <a name="add-a-new-er-model-configuration"></a>Ajouter une nouvelle configuration du modèle ER
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
 
-    Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc. est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».   
+    Vérifiez que le fournisseur de configuration pour la société fictive, « Litware, Inc. » est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».   
 
 2. Cliquez sur Configurations des états.
 
@@ -84,7 +84,7 @@ Les étapes de cette sous-tâche montrent comment une configuration de format pe
 3. Cliquez sur Développer/réduire.
 4. Cliquez sur Développer/réduire.
 
-    Le format conçu représente la structure attendue du fichier externe. Ce fichier doit être au format XML et avoir l'élément racine de règlement. La transaction de chaque fournisseur est représentée par l'élément de transaction défini comme ayant une multiplicité de zéro-à-plusieurs Cela signifie que le fichier entrant peut contenir de zéro à de multiple transactions. Les éléments imbriqués de l'élément « Transaction » représentent les attributs d'une seule transaction. Notez que tous les attributs, excepté celui du pays, sont marqués comme obligatoires, ce qui signifie qu'ils doivent figurer dans le fichier d'importation.   
+    Le format conçu représente la structure attendue du fichier externe. Ce fichier doit être au format XML et avoir l'élément racine de règlement. La transaction de chaque fournisseur est représentée par l'élément de transaction défini comme ayant une multiplicité de zéro-à-plusieurs. Cela signifie que le fichier entrant peut contenir de zéro à de multiple transactions. Les éléments imbriqués de l'élément « Transaction » représentent les attributs d'une seule transaction. Notez que tous les attributs, excepté celui du pays, sont marqués comme obligatoires, ce qui signifie qu'ils doivent figurer dans le fichier d'importation.   
 
 ## <a name="review-the-settings-of-the-format-mapping-to-the-data-model"></a>Passer en revue les paramètres de la mise en correspondance des formats vers un modèle de données
 1. Cliquez sur Mettre en correspondance vers le modèle.
@@ -148,7 +148,7 @@ Exécutez cette mise en correspondance de formats à des fins de test. Utilisez 
 8. Cliquez sur Modifier.
 9. Cliquez sur Modifier la formule.
 
-    Lorsque un contrôle au moins échoue pour une seule transaction importée, cette transaction sera marquée comme ayant échoué avec l'attribut de données source « $failed ».  
+    Lorsqu'un contrôle au moins échoue pour une seule transaction importée, cette transaction sera marquée comme ayant échoué avec l'attribut de données source « $failed ».  
 
 10. Fermez la page.
 11. Cliquez sur Annuler.

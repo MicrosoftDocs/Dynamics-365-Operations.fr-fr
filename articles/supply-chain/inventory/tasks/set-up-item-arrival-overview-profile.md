@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1c6bcbb71f52e0ec5f979f8d79c896d10689a1b
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 55512c75445a5f3b9c1521376a20d48dd60e22c6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867224"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145523"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Paramétrer un profil de vue d'ensemble des arrivées
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
 Cette rubrique se concentre sur le paramétrage d'un profil de vue d'ensemble des arrivées. Le profil de vue d'ensemble des arrivées est une collection de règles qui sont appliquées lorsque la page de vue d'ensemble des arrivées est ouverte par un utilisateur. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Cette procédure est généralement effectuée par la personne qui s'occuper de la réception.
 

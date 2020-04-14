@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94ef09c8906c793b0187d82cef259122c91a8e01
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 31dabc8994ce9e49da744db5eff3d4f45c66ec4d
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567605"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147577"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Affecter un état du cycle de vie des produits à un produit lancé
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure décrit comment affecter un état du cycle de vie des produits à un produit lancé. Conditions préalables : vous devez d'abord lire le guide de tâche « Créer un état du cycle de vie des produits » pour vérifier qu'au moins un état du cycle de vie des produits est créé avant de lire ce guide.
 

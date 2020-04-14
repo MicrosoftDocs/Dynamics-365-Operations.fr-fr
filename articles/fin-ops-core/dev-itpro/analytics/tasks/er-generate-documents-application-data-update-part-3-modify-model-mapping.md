@@ -1,6 +1,6 @@
 ---
 title: Modifier des modèles et des mises en correspondance pour générer des documents avec des données d'application
-description: Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 2 - Générer des documents) ».
+description: "Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 2 : Générer des documents) »."
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5df6128228b9ff620c606c550c5eb7a6039b915
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a4546de2c5c1773aadce0ec084ee7058ff2ae153
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182299"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141877"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modifier des modèles et des mises en correspondance pour générer des documents avec des données d'application
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 2 : Générer des documents). 
+Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d'application (Partie 2 : Générer des documents) ». 
 
 Les étapes de cette procédure expliquent comment créer des configurations ER pour générer un document électronique et mettre à jour les données d'application. Dans cette procédure, vous modifierez les configurations ER pour commencer à les utiliser pour générer des documents électroniques et mettre à jour les données d'application. Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. Ces étapes peuvent être effectuées à l'aide de l'ensemble de données DEMF.
 
@@ -104,7 +104,7 @@ Les étapes de cette procédure expliquent comment créer des configurations ER 
 12. Dans le champ Définition, entrez ou sélectionnez la valeur « Pour la mise à jour des données d'application ».
     * Pour la mise à jour des données d'application  
 13. Cliquez sur OK.
-14. Dans l'arborescence , développez « model ».
+14. Dans l'arborescence , développez « model ».
 15. Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».
 16. Dans l'arborescence, sélectionnez « modèle\En-tête d'archive ».
 17. Cliquez sur Ajouter.

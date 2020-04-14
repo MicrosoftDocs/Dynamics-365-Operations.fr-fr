@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65227bb05bcbe0ba0d62100fecfb6aa0a49330f6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8e57ca517ff90036408715fdc3f511b524cb709e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836211"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146351"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Enregistrer l'arrivée et le départ d'un chauffeur pour un rendez-vous
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure montre comment enregistrer l'arrivée et le départ d'un chauffeur. Cela est généralement fait par un coordonnateur transport. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Avant de commencer, un rendez-vous doit être paramétré pour une charge. Pour créer un rendez-vous, vous pouvez exécuter la procédure « Paramétrer un rendez-vous pour une charge » comme condition préalable.
 

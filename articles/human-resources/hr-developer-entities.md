@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087344"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166496"
 ---
 # <a name="common-data-service-entities"></a>Entités Common Data Service
 
@@ -87,8 +87,13 @@ Les entités Human Resources suivantes sont disponibles dans Common Data Service
 | Poste | cdm_jobposition |
 | Type de poste | cdm_positiontype |
 | Affectation du collaborateur au poste | cdm_positionworkerassignmentmap |
-| Type de tâche | cdm_jobtype |
+| Dimension du poste | cdm_jobpositiondimension|
+| Type de poste | cdm_jobtype |
 | Langue | cdm_language |
+| Titre | cdm_title |
+
+> [!NOTE]
+> Les dimensions financières pour **Type de poste**, **Affectation du collaborateur au poste** et **Emploi** fournissent une intégration unidirectionnelle vers Common Data Service. Les mises à jour des dimensions financières ne peuvent actuellement pas se synchroniser de Common Data Service vers Human Resources. 
 
 ## <a name="leave-and-absence-entities"></a>Entités liées aux congés et absences
 

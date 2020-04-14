@@ -660,7 +660,7 @@
               href: expense-management/expense-report-distributions.md
             - name: Dépenses intersociétés
               href: expense-management/intercompany-expense.md
-            - name: Stratégies des dépenses
+            - name: Définir les stratégies de dépenses
               href: expense-management/travel-expense-policies.md
             - name: Afficher un état de dépenses
               href: expense-management/view-expense-report.md
@@ -984,6 +984,8 @@
               href: project-management/project-contracts.md
             - name: Prévisions de projet et budgets
               href: project-management/project-forecasts-budgets.md
+            - name: Transférer les budgets de projet à la fin de l'exercice
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: Commandes client de projet
               href: project-management/project-sales-orders.md
             - name: Commandes fournisseur d'un projet
@@ -1646,6 +1648,12 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Afficher les transactions pour règlement
                   href: localizations/emea-transactions-settlement-form.md
+            - name: Finlande
+              items:
+                - name: Vue d'ensemble de la Finlande
+                  href: localizations/finland.md
+                - name: État de paiement de la taxe pour la Finlande
+                  href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: France
               items:
                 - name: Vue d'ensemble de la France
@@ -1692,10 +1700,12 @@
                   href: localizations/emea-fra-print-lump-sum-recovery-text.md
                 - name: Amortissement dégressif fiscal
                   href: localizations/emea-fra-rbsl-depreciation.md
-                - name: Paramétrer les modes de paiement
+                - name: Définir un mode de paiement
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Mettre à jour un mode de paiement pour le client
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: "État\_DAS-2"
+                  href: localizations/emea-fra-das2-report.md
             - name: Allemagne
               items:
                 - name: Vue d'ensemble de l'Allemagne
@@ -1992,10 +2002,16 @@
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Amélioration de l'enquête sur les règlements de débit ou de crédit
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Règlement de commission pour les paiements
+                  href: localizations/emea-ita-exil-commission-settlement.md
                 - name: Simulations de comptabilité (Italie)
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Profils de validation configurables pour les banques et les types de remises
+                  href: localizations/emea-ita-exil-bank-remittance.md
                 - name: Certification unique
                   href: localizations/emea-ita-exil-unique-certification.md
+                - name: Importation des contestations de lettres de change
+                  href: localizations/emea-ita-exil-protest-boe.md
             - name: Japon
               items:
                 - name: Vue d'ensemble du Japon
@@ -2460,6 +2476,8 @@
                       href: localizations/rus-inventory-cost-structure.md
                     - name: Assistant d'ajustement de stock
                       href: localizations/rus-inventory-adjustment-wizard.md
+                    - name: États du stock
+                      href: localizations/rus-inventory-reports.md
                 - name: Génération d'états
                   items:
                     - name: États financiers
@@ -2612,17 +2630,17 @@
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: "Écran\_1099 pour le secteur public"
                   href: localizations/noam-usa-form-1099-public-sector.md
-        - name: Ressources humaines
+        - name: Human Resources
           items:
-            - name: Vue d'ensemble des ressources humaines
+            - name: Vue d'ensemble de Human Resources
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Paramétrer les ressources humaines
+            - name: Paramétrer Human Resources
               items:
-                - name: Configurer les paramètres des ressources humaines
+                - name: Configurer les paramètres de Human Resources
                   href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Configurer les paramètres partagés des ressources humaines
+                - name: Configurer les paramètres partagés de Human Resources
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Configurer les workflows des ressources humaines
+                - name: Configurer les workflows de Human Resources
                   href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
                 - name: Comprendre les champs de date et d'heure
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json

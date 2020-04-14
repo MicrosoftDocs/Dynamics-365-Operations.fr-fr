@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dccc90321977382c7625ca1785427a6d26a14f27
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90ddb1f26dc3bf23fe5fc44281d74ed80f59e675
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835628"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146549"
 ---
 # <a name="create-delivery-schedule"></a>Créer un calendrier de livraison
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure illustre comment créer un calendrier de livraison pour une commande client. Un plan de livraison est utilisé lorsqu'une quantité sur une commande ou un devis doit être livrée dans le cadre de plusieurs expéditions. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 
@@ -40,12 +40,12 @@ Cette procédure illustre comment créer un calendrier de livraison pour une com
 7. Cliquez sur Ligne de commandes client.
 8. Cliquez sur Plan de livraison.
     * La page Plan de livraison est l'emplacement dans lequel vous pouvez spécifier le nombre d'expéditions pour lesquelles la quantité totale de la ligne de commande sera livrée au client.    
-    * Par défaut, le système copie la quantité totale et d'autres détails de livraison de la ligne de vente d'origine dans la première ligne du calendrier de livraison. Dans cet exemple, nous allons créer un programme pour deux expéditions. La date de la deuxième expédition sera décalée d'une semaine par rapport à la première.  
+    * Par défaut, le système copie la quantité totale et d'autres détails de livraison de la ligne de vente d'origine dans la première ligne du calendrier de livraison. Dans cet exemple, nous allons créer un programme pour deux expéditions. La date de la deuxième expédition sera décalée d'une semaine par rapport à la première.  
 9. Dans le champ Quantité, entrez un nombre qui fait partie de la quantité totale.
 10. Cliquez sur Nouveau.
 11. Entrez la quantité restante dans le champ Quantité.
 12. Dans le champ Date d'expédition demandée, entrez une date ayant une semaine d'avance sur la date de la première ligne de livraison.
-    * Les deux options de l'organisateur Conversion de frais contrôlent la manière dont vous souhaitez répartir les frais entre les lignes du plan de livraison, une fois qu'ils ont été affectés à la ligne de commande d'origine. Si vous sélectionnez Copier les montants bruts, le même montant des frais est copié dans chaque ligne. L'option Allouer aux lignes de livraison divise les frais de manière égale entre les lignes de livraison.  
+    * Les deux options de l'organisateur Conversion de frais contrôlent la manière dont vous souhaitez répartir les frais entre les lignes du plan de livraison, une fois qu'ils ont été affectés à la ligne de commande d'origine. Si vous sélectionnez Copier les montants bruts, le même montant des frais est copié dans chaque ligne. L'option Allouer aux lignes de livraison divise les frais de manière égale entre les lignes de livraison.  
     * Seuls les frais fixes peuvent être divisés alors que les frais variables sont toujours copiés dans les lignes.  
 13. Déplacez le curseur de la deuxième ligne de livraison pour mettre la page à jour.
     * Vous pouvez suivre la quantité totale répartie sur les lignes du plan de livraison en regardant les champs Total et Restant. Lorsque la quantité restante est nulle cela signifie que la quantité totale de la ligne d'origine a été affectée au plan.   

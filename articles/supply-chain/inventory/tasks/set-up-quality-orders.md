@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0119ae07e490f048dbb021983e25889cb1cb42b3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9760aeb823730581aa1f02db1574e6f5eccd1f75
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845346"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145638"
 ---
 # <a name="set-up-quality-orders"></a>Paramétrer les ordres de qualité
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure décrit comment activer un processus de gestion de la qualité dans lequel le stock entrant doit être inspecté immédiatement après l'enregistrement des arrivées. La procédure est généralement effectuée par un responsable de la qualité. Le processus inclut la création d'un groupe de qualité, pour définir les articles qui vont être échantillonnés, et un groupe de test pour regrouper les tests à exécuter sur des articles dans le groupe de qualité. Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF.
 
@@ -96,7 +96,7 @@ Cette procédure décrit comment activer un processus de gestion de la qualité 
 ## <a name="create-a-test-group"></a>Création d'un groupe de test
 1. Allez dans **Gestion des stocks > Configuration > Contrôle de la qualité > Groupes de test**.
 2. Cliquez sur **Nouveau**.
-3. Tapez une valeur dans le champ **Groupe de test**. Donnez au **Groupe de tests** un nom qui vous aidera à vous souvenir des types de tests qui sont exécutés, et à quel groupe de qualité ils doivent être associés. Par exemple, s'il doit être utilisé avec un groupe de qualité qui sélectionne des articles en commençant par « T », vous pourriez l'appeler « Tests article-T ».  
+3. Tapez une valeur dans le champ **Groupe de test**. Donnez au **Groupe de tests** un nom qui vous aidera à vous souvenir des types de tests qui sont exécutés, et à quel groupe de qualité ils doivent être associés. Par exemple, s'il doit être utilisé avec un groupe de qualité qui sélectionne des articles en commençant par « T », vous pourriez l'appeler « Tests article-T ».  
 4. Tapez une valeur dans le champ **Description**.
 5. Dans le champ **Échantillonnage d'article**, sélectionnez la ligne d'échantillonnage d'article que vous avez créée avant.
 6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
@@ -116,7 +116,7 @@ Cette procédure décrit comment activer un processus de gestion de la qualité 
 1. Allez dans **Gestion des stocks > Configuration > Contrôle de la qualité > Associations de qualité**.
 2. Cliquez sur **Nouveau**.
 3. Sélectionnez une option dans le champ **Type de référence**.
-4. Sélectionnez « Groupe » dans le champ **Code article**. Dans cet exemple, nous allons sélectionner « Groupe » et utiliser le groupe de qualité déjà créé avant. Vous pouvez également le définir sur « Tableau » pour spécifier les articles manuellement, ou sélectionner « Tous » pour ajouter tous les articles à l'ordre de qualité.  
+4. Sélectionnez « Groupe » dans le champ **Code article**. Dans cet exemple, nous allons sélectionner « Groupe » et utiliser le groupe de qualité déjà créé avant. Vous pouvez également le définir sur « Tableau » pour spécifier les articles manuellement, ou sélectionner « Tous » pour ajouter tous les articles à l'ordre de qualité.  
 5. Dans le champ **Article**, sélectionnez le groupe de qualité créé précédemment. Les options disponibles dans le champ Article dépendent de ce qui vous définissez dans le champ Article - valide pour.  
 6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 7. Développez ou réduisez la section Processus.

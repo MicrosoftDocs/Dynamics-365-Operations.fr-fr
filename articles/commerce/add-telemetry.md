@@ -3,7 +3,7 @@ title: Ajout d'un code de script aux pages de site pour prendre en charge la té
 description: Cette rubrique décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 03/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 674d00faf1b30f87a0b0062129e1b9fbff955dd4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001275"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154084"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie
-
 
 [!include [banner](includes/banner.md)]
 
@@ -38,25 +37,72 @@ Les analyses web sont un outil essentiel lorsque vous souhaitez inclure la mani�
 > [!NOTE]
 > Les instructions de cette rubrique s'appliquent également à l'autre fonctionnalité côté client personnalisée que Microsoft Dynamics 365 Commerce n'offre pas en mode natif.
 
-## <a name="create-a-reusable-fragment-for-your-script-code"></a>Créer un fragment réutilisable pour votre code de script
+## <a name="create-a-reusable-page-fragment-for-your-script-code"></a>Créer un fragment de page réutilisable pour votre code de script
 
-Après avoir créé un fragment pour votre code du script, il peut être réutilisé dans l'ensemble des pages sur votre site.
+Un fragment de page vous permet de réutiliser un code de script externe ou en ligne sur toutes les pages de votre site, peu importe le modèle qu'elles utilisent.
 
-1. Accédez à **Fragments \> Nouveau fragment de page**.
-2. Sélectionnez **Script externe**, entrez un nom pour le fragment, puis sélectionnez **OK**.
-3. Dans la hiérarchie du fragment, sélectionnez l'enfant du module **injecteur de script** du fragment que vous venez de créer.
-4. Dans le volet de propriétés de droite, ajoutez le script côté client, et définissez d'autres options de configuration comme vous le souhaitez.
+### <a name="create-a-reusable-page-fragment-for-your-inline-script-code"></a>Créer un fragment de page réutilisable pour votre code de script en ligne
 
-## <a name="add-the-fragment-to-templates"></a>Ajouter le fragment aux modèles
+Pour créer un fragment de page réutilisable pour votre code de script en ligne dans le générateur de site, procédez comme suit.
+
+1. Accédez à **Fragments de page**, puis sélectionnez **Nouveau**.
+1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez **Script en ligne**.
+1. Sous **Nom du fragment de page**, entrez un nom pour le fragment, puis sélectionnez **OK**.
+1. Sous le fragment de page que vous avez créé, sélectionnez le module **Script en ligne par défaut**.
+1. Dans le volet des propriétés à droite, sous **Script en ligne**, entrez votre script côté client. Puis configurez d'autres options selon vos besoins.
+1. Sélectionnez **Enregistrer**, puis **Terminer la modification**.
+1. Sélectionnez **Publier**.
+
+### <a name="create-a-reusable-page-fragment-for-your-external-script-code"></a>Créer un fragment de page réutilisable pour votre code de script externe
+
+Pour créer un fragment de page réutilisable pour votre code de script externe dans le générateur de site, procédez comme suit :
+
+1. Accédez à **Fragments de page**, puis sélectionnez **Nouveau**.
+1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez **Script externe**.
+1. Sous **Nom du fragment de page**, entrez un nom pour le fragment, puis sélectionnez **OK**.
+1. Sous le fragment de page que vous avez créé, sélectionnez le module **Script externe par défaut**.
+1. Dans le volet des propriétés à droite, sous **Source du script**, ajoutez une URL externe ou relative pour la source de script externe. Puis configurez d'autres options selon vos besoins.
+1. Sélectionnez **Enregistrer**, puis **Terminer la modification**.
+1. Sélectionnez **Publier**.
+
+## <a name="add-a-page-fragment-that-includes-script-code-to-a-template"></a>Ajouter un fragment de page qui inclut le code de script à un modèle
+
+Pour ajouter un fragment de page qui comprend un code de script à un modèle dans le générateur de site, procédez comme suit :
 
 1. Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre code de script.
-2. Dans le volet gauche, développez la hiérarchie de modèle pour afficher l'emplacement **En-tête HTML**.
-3. Sélectionnez le bouton représentant des points de suspension (**...**) en regard de l'emplacement **Pied de page HTML**, et sélectionnez **Ajouter un fragment**.
-4. Sélectionnez le fragment créé pour votre code de script.
-5. Enregistrez le modèle, et archivez-le.
+1. Dans le volet gauche, développez la hiérarchie de modèle pour afficher l'emplacement **En-tête HTML**.
+1. Dans l'emplacement **En-tête HTML**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un fragment de page**.
+1. Sélectionnez le fragment créé pour votre code de script.
+1. Sélectionnez **Enregistrer**, puis **Terminer la modification**.
+1. Sélectionnez **Publier**.
 
-> [!NOTE]
-> Après avoir terminé, vous devez publier fragment et le modèle principal. 
+## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a>Ajouter un script externe ou en ligne directement à un modèle
+
+Si vous souhaitez insérer un script en ligne ou externe directement dans un ensemble de pages contrôlées par un seul modèle, vous n'avez pas à créer de fragment de page tout d'abord.
+
+### <a name="add-an-inline-script-directly-to-a-template"></a>Ajouter un script en ligne directement à un modèle
+
+Pour ajouter un script en ligne directement à un modèle dans le générateur de site, procédez comme suit.
+
+1. Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre code de script.
+1. Dans le volet gauche, développez la hiérarchie de modèle pour afficher l'emplacement **En-tête HTML**.
+1. Dans l'emplacement **En-tête HTML**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez **Script en ligne**.
+1. Dans le volet des propriétés à droite, sous **Script en ligne**, entrez votre script côté client. Puis configurez d'autres options selon vos besoins.
+1. Sélectionnez **Enregistrer**, puis **Terminer la modification**.
+1. Sélectionnez **Publier**.
+
+### <a name="add-an-external-script-directly-to-a-template"></a>Ajouter un script externe directement à un modèle
+
+Pour ajouter un script externe à un modèle dans le générateur de site, procédez comme suit.
+
+1. Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre code de script.
+1. Dans le volet gauche, développez la hiérarchie de modèle pour afficher l'emplacement **En-tête HTML**.
+1. Dans l'emplacement **En-tête HTML**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez **Script externe**.
+1. Dans le volet des propriétés à droite, sous **Source du script**, ajoutez une URL externe ou relative pour la source de script externe. Puis configurez d'autres options selon vos besoins.
+1. Sélectionnez **Enregistrer**, puis **Terminer la modification**.
+1. Sélectionnez **Publier**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -73,4 +119,3 @@ Après avoir créé un fragment pour votre code du script, il peut être réutil
 [Ajouter un avis de droits d'auteur](add-copyright-notice.md)
 
 [Ajouter des langues à votre site](add-languages-to-site.md)
-

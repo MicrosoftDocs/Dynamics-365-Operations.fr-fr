@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f83091a9f3e96a9176860bd16fa5969507488a25
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5e770c905079461c1f4f0117f61f6c10b86ddaf6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547466"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146604"
 ---
 # <a name="start-a-production-order"></a>Démarrer un ordre de fabrication
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure indique comment démarrer un ordre de fabrication à l'atelier. La consommation de matières et de temps est déclarée dans ce processus. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Il s'agit de la cinquième des sept procédures expliquant le cycle de vie de l'ordre de fabrication.
 

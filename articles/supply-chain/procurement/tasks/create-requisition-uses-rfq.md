@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: abe6745682030766eabcd4411121866c9d890be0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914952"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149621"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Créer une demande qui emploie un appel d'offre
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique explique comment ajouter le prix et les informations sur le fournisseur à une demande d'achat à partir d'un processus d'appel d'offre. L'exemple indiqué dans ce guide peut être utilisé dans la société fictive USMF, et vous devez être connecté en tant qu'Admin pour accomplir toutes les étapes. Les tâches de ce guide seraient généralement effectuées par des professionnels de l'approvisionnement.
 
@@ -69,7 +69,7 @@ La prochaine tâche consiste à créer un appel d'offre pour obtenir des offres 
 1. Actualisez la page.
 2. Sélectionnez **Appel d'offre**.
 3. Dans le champ **Entité juridique acheteuse**, sélectionnez **USMF**. Vous devez choisir la même entité juridique qui celle de la ligne de demande.  
-4. Dans la liste, marquez la ligne sélectionnée. Si vous avez plusieurs lignes sur votre demande d'achat, choisissez toutes les lignes que vous voulez ajouter à l'appel d'offre.  
+4. Dans la liste, marquer la ligne sélectionnée. Si vous avez plusieurs lignes sur votre demande d'achat, choisissez toutes les lignes que vous voulez ajouter à l'appel d'offre.  
 5. Cliquez sur **OK**.
 6. Actualisez la page.
 7. Vérifiez que le récapitulatif est ouvert, puis développez la section **Documents associés**.

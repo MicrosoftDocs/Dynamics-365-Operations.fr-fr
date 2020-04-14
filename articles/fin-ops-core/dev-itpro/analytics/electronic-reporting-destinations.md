@@ -3,7 +3,7 @@ title: Destinations pour la gestion des états électroniques
 description: Cette rubrique fournit des informations sur la gestion des destinations de rapport électronique (ER), les types de destinations pris en charge et les considérations de sécurité.
 author: nselin
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030771"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150813"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations de la gestion des états électroniques
 
@@ -114,7 +114,7 @@ Une fois cette configuration terminée, l'option **Exécuter le brouillon** dev
 
 [![Option Exécuter le brouillon](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
-## <a name="DestinationFailure"></a>Gestion des échecs de destination
+## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Gestion des échecs de destination
 
 Habituellement, un format ER est exécuté dans le cadre d'un processus métier spécifique. Cependant, la livraison d'un document sortant généré lors de l'exécution d'un format ER doit parfois être considérée comme faisant partie de ce processus métier. Dans ce cas, si la livraison d'un document sortant généré vers une destination configurée échoue, l'exécution du processus métier doit être annulée. Pour configurer la destination ER appropriée, sélectionnez l'option **Arrêter le traitement en cas d'échec**.
 
@@ -124,7 +124,7 @@ Par exemple, vous configurez le traitement des paiements fournisseur afin que le
 
 Si vous décochez la case **Arrêter le traitement en cas d'échec** pour le composant **CoveringLetter** dans la destination, un paiement sera considéré comme ayant été traité avec succès même si la lettre explicative n'est pas livrée avec succès par e-mail,. Le statut du paiement sera modifié de **Aucun** à **Expédié** même si la lettre explicative ne peut pas être envoyée car, par exemple, l'adresse e-mail du destinataire ou de l'expéditeur est manquante ou incorrecte.
 
-## <a name="OutputConversionToPDF"></a>Conversion de sortie en PDF
+## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Conversion de sortie en PDF
 
 Vous pouvez utiliser l'option de conversion PDF pour convertir la sortie au format Microsoft Office (Excel/Word) au format PDF.
 
@@ -148,7 +148,7 @@ L'option de conversion PDF ne peut être activée que pour les composants de fic
 >
 > Le PDF produit est limité à un nombre maximum de 300 pages.
 >
-> À l'heure actuelle, seule l'orientation de la page paysage est prise en charge dans le document PDF produit à partir d'une sortie Excel.
+> À l'heure actuelle, seule l'orientation de la page au format paysage est prise en charge dans le document PDF généré depuis une sortie Excel.
 >
 > Seules les polices système courantes du système d'exploitation Windows sont utilisées pour la conversion d'une sortie qui ne contient aucune police intégrée.
 
@@ -157,6 +157,19 @@ L'option de conversion PDF ne peut être activée que pour les composants de fic
 Pour activer la conversion PDF pour une destination de fichier, cochez la case **Convertir en PDF**.
 
 [![Activation de la conversion PDF pour une destination de fichier](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+
+### <a name=""></a><a name="SelectPdfPageOrientation">Sélectionner une orientation de page pour la conversion PDF</a>
+
+Si vous générez une configuration des états électroniques au format Excel et si vous souhaitez la convertir au format PDF, vous pouvez spécifier l'orientation de page du PDF. Lorsque vous cochez la case **Convertir en PDF** pour activer la conversion PDF pour une destination de fichier qui produit un fichier de sortie au format Excel, le champ **Orientation de la page** devient disponible sur le raccourci **Paramètres de conversion PDF**. Dans le champ **Orientation de la page**, sélectionnez l'orientation préférée.
+
+[![Sélection d'une orientation de page pour la conversion PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+
+> [!NOTE]
+> Pour avoir la possibilité de sélectionner l'orientation de la page PDF, vous devez installer Microsoft Dynamics 365 Finance version 10.0.10 (mai 2020) ou ultérieure.
+>
+> L'orientation de la page sélectionnée est appliquée à toutes les configurations des états électroniques générées au format Excel, puis converties au format PDF.
+>
+> Si un PDF converti est créé à partir d'une configuration des états électroniques au format Word, l'orientation de page du PDF provient du document Word.
 
 ## <a name="security-considerations"></a>Considérations de sécurité
 

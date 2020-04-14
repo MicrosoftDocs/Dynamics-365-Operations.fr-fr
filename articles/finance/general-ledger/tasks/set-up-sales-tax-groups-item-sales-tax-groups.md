@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12bbeaa4e0e2f6ee4874cf72863624a871ba87ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a5b539129e62b9b0b10df1f505cbfec5c1143138
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175417"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141624"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Paramétrer des groupes de taxe et groupes de taxe d'article
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cet enregistrement de tâche décrit le paramétrage des groupes Taxe et Taxe d'article. Les groupes de taxe sont des groupes de codes taxe associés aux clients et aux fournisseurs. Ils sont également associés aux comptes généraux pour les transactions non validées pour un fournisseur ou client spécifique.  Les groupes Taxe d'article sont des groupes de codes taxe associés aux ressources comme des produits.  Les taxes qui s'appliquent à une transaction donnée sont déterminées par les codes taxe inclus dans le groupe de taxe et le groupe de taxe d'article de la transaction.  Le calcul de la taxe requiert la sélection d'un groupe de taxe et d'un groupe de taxe d'article pour chaque transaction pour laquelle la taxe doit être calculée ou enregistrée.  
 

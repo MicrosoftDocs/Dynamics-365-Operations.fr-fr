@@ -16,22 +16,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769853"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142130"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML. Cette configuration sera utilisée pour traiter les paiements fournisseur.
 
 Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans la société GBSI.
 
-Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également avoir un fichier Excel qui sera importé lorsque vous créez le modèle. Ce fichier est accessible depuis le [Modèle d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266).
+Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également avoir un fichier Excel qui sera importé lorsque vous créez le modèle. Ce fichier est accessible depuis le [Modèle d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Téléchargez la configuration du modèle de données des paiements
@@ -55,7 +55,7 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 3. Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue.
 4. Dans le champ **Nouveau**, entrez `Format based on data model PaymentModel`. Créez un format basé sur le modèle de données PaymentModel.
 5. Dans le champ **Nom**, saisissez `Sample worksheet report`. Exemple d'état sur les feuilles de calcul  
-6. Dans le champ **Description**, saisissez `Sample worksheet report for vendors’ payments`. Exemple d'état sur les feuilles de calcul pour les paiements fournisseurs.  
+6. Dans le champ **Description**, saisissez `Sample worksheet report for vendors' payments`. Exemple d'état sur les feuilles de calcul pour les paiements fournisseurs.  
 7. Dans le champ **Définition du modèle de données**, entrez ou sélectionnez une valeur. Sélectionnez la définition **CustomerCreditTransferInitiation**.  
 8. Sélectionnez **Créer une configuration**.
 

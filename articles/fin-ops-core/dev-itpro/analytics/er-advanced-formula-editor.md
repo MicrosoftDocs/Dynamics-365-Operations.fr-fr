@@ -3,7 +3,7 @@ title: Éditeur de formule avancé d'états électroniques
 description: Cette rubrique décrit comment l'éditeur de formule avancé peut être utilisé pour configurer des expressions dans les composants de format et de mappage de modèles ER (états électroniques).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/22/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d183f77da1dda0c4f04e4e48ab3db0133f494a55
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015213"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138896"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Éditeur de formule avancé d'états électroniques
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 En plus de l'[éditeur de formule ](general-electronic-reporting-formula-designer.md) d'[états électroniques](general-electronic-reporting.md), vous pouvez utiliser l'éditeur avancé de formule d'états électroniques pour améliorer l'expérience de configuration des expressions d'états électroniques (ER). L'éditeur avancé est basé sur un navigateur et alimenté par l'[éditeur Monaco](https://microsoft.github.io/monaco-editor). Les fonctionnalités de l'éditeur avancé les plus couramment utilisées sont décrites dans cette rubrique :
 
@@ -42,7 +40,7 @@ En plus de l'[éditeur de formule ](general-electronic-reporting-formula-designe
 - [Collage de données](#DataPasting)
 - [Colorisation de la syntaxe](#SyntaxColorization)
 
-## <a name="ActivateAdvEditor">Activer l'éditeur de formule avancé</a>
+## <a name=""></a><a name="ActivateAdvEditor">Activer l'éditeur de formule avancé</a>
 
 Procédez comme suit pour commencer à utiliser l'éditeur de formule avancé dans votre instance de Microsoft Dynamics 365 Finance.
 
@@ -55,7 +53,7 @@ Procédez comme suit pour commencer à utiliser l'éditeur de formule avancé da
 > [!NOTE]
 > N'oubliez pas que ce paramètre est spécifique à l'utilisateur et à l'entreprise.
 
-## <a name="Autoformatting">Mise en forme automatique du code</a>
+## <a name=""></a><a name="Autoformatting">Mise en forme automatique du code</a>
 
 Lorsque vous écrivez une expression complexe qui se compose de plusieurs lignes de code, le retrait d'une nouvelle ligne entrée sera automatique en fonction de celui de la ligne précédente. Vous pouvez sélectionner des lignes et modifier leur retrait en tapant sur **Tab** ou **Maj + Tab**.
 
@@ -63,13 +61,13 @@ Lorsque vous écrivez une expression complexe qui se compose de plusieurs lignes
 
 La mise en forme automatique vous permet de conserver l'expression entière bien formatée pour faciliter la maintenance et simplifier la compréhension de la logique configurée.
 
-## <a name="IntelliSense">IntelliSense</a>
+## <a name=""></a><a name="IntelliSense">IntelliSense</a>
 
 L'éditeur fournit une saisie de mots pour vous aider à écrire l'expression plus rapidement et à éviter les fautes de frappe. Lorsque vous commencez à ajouter du nouveau texte, l'éditeur propose automatiquement une liste des fonctions prises en charge dans les fonctions ER qui contiennent les caractères que vous avez saisis. Vous pouvez également déclencher IntelliSense à n'importe quel endroit d'une expression configurée en tapant sur **Ctrl + Espace**.
 
 [![Éditeur de formule ER](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
-## <a name="CodeCompletion">Remplissage de code</a>
+## <a name=""></a><a name="CodeCompletion">Remplissage de code</a>
 
 L'éditeur fournit automatiquement le remplissage de code comme suit :
 
@@ -81,7 +79,7 @@ L'éditeur fournit automatiquement le remplissage de code comme suit :
 
 Lorsque vous pointez sur le crochet tapé, le deuxième crochet de cette paire est automatiquement mis en surbrillance pour afficher la construction qu'ils prennent en charge.
 
-## <a name="CodeNavigation">Navigation dans le code</a>
+## <a name=""></a><a name="CodeNavigation">Navigation dans le code</a>
 
 Vous pouvez localiser les symboles ou les lignes requis dans votre expression en tapant la commande **Aller à** à l'aide de la palette de commandes ou du menu contextuel.
 
@@ -95,7 +93,7 @@ Par exemple, pour passer à la ligne **8**, procédez comme suit :
 
 [![Éditeur de formule ER](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
-## <a name="CodeStructuring">Structuration du code</a>
+## <a name=""></a><a name="CodeStructuring">Structuration du code</a>
 
 Le code de certaines fonctions, telles que [SI](er-functions-logical-if.md) ou [CAS](er-functions-logical-case.md), est automatiquement structuré. Vous pouvez développer et réduire une ou toutes les régions de pliage de ce code pour réduire la partie modifiable d'une expression afin de vous concentrer uniquement sur l'élément de code qui nécessite votre attention. Les commandes bascules plier/déplier peuvent être utilisées pour cela.
 
@@ -117,7 +115,7 @@ Pour déplier toutes les régions, procédez comme suit :
 
 [![Éditeur de formule ER](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
-## <a name="FindAndReplace">Rechercher et remplacer</a>
+## <a name=""></a><a name="FindAndReplace">Rechercher et remplacer</a>
 
 Pour rechercher des occurrences de certains textes, sélectionnez le texte dans votre expression et procédez comme suit :
 
@@ -145,13 +143,13 @@ Pour modifier toutes les occurrences d'un certain texte, sélectionnez le texte 
 
 [![Éditeur de formule ER](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
-## <a name="DataPasting">Collage des fonctions et des sources de données</a>
+## <a name=""></a><a name="DataPasting">Collage des fonctions et des sources de données</a>
 
 Vous pouvez sélectionner **Ajouter une source de données**, qui colle à l'expression actuelle une source de données actuellement sélectionnée sur le volet de gauche **Source de données**. Vous pouvez de même sélectionner **Ajouter une fonction**, qui colle à l'expression actuelle une fonction actuellement sélectionnée sur le volet de droite **Fonctions**. Si vous utilisez l'éditeur de formule ER, une fonction sélectionnée ou une source de données sélectionnée sera toujours collée à la fin de l'expression configurée. Lorsque vous utilisez l'éditeur de formule ER avancé, une fonction sélectionnée ou une source de données sélectionnée peut être collée à n'importe quelle partie de l'expression configurée. Vous devrez utiliser le curseur pour spécifier où vous souhaitez coller les données.
 
 [![Éditeur de formule ER](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
-## <a name="SyntaxColorization">Colorisation de la syntaxe</a>
+## <a name=""></a><a name="SyntaxColorization">Colorisation de la syntaxe</a>
 
 Actuellement, différentes couleurs sont utilisées pour mettre en évidence les parties d'expressions suivantes :
 

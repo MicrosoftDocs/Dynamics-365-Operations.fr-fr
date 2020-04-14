@@ -17,16 +17,16 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d166a2fd37999613c52a74c6f4b9363a83afdafa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: be5aab4984edd1ee930d1d0e6203c2b75c6bea26
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174619"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144584"
 ---
 # <a name="create-cover-and-signature-pages-for-a-payments-report-for-the-public-sector"></a>Créer une couverture et des pages de signature pour un état de paiement pour le secteur public
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Lorsque vous créez les pages de couverture et de signature pour un état de paiement, vous pouvez spécifier les informations qui doivent y figurer. Notamment, par exemple, les noms et les fonctions des personnes qui doivent approuver les paiements proposés. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
 

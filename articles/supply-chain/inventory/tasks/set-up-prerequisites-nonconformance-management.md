@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 78d38b00d8039612aa236b3aa9593693983407dc
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: dfd0bc7edb3236d016e64bd08b1858fd7b12417f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914720"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145730"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Paramétrer des conditions préalables pour la gestion de la non-conformité
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Utilisez cette rubrique pour activer les processus de gestion de la non-conformité. Une non-conformité décrit une procédure ou un article présentant un problème qualitatif (des informations descriptives incluent la source et le type du problème). La société fictive USMF sert d'exemple dans cette procédure. Cette procédure est généralement effectuée par un responsable de la qualité.
 
@@ -40,7 +40,7 @@ Utilisez cette rubrique pour activer les processus de gestion de la non-conformi
 
 ## <a name="enable-user-for-nonconformance-processing"></a>Activer l'utilisateur pour le traitement de non-conformité
 1. Dans le volet de navigation, accédez à **Modules > Administration système > Utilisateurs > Utilisateurs**. 
-2. Utilisez le filtre rapide pour rechercher l'utilisateur qui va approuver ou rejeter les enregistrements de non-conformité. Par exemple, filtrez sur le champ **Nom** avec une valeur de `Ricardo`. Pour traiter l'approbation d'une non-conformité, l'utilisateur qui approuve ou rejette la non-conformité doit avoir une valeur « Nom » affectée sur la page **Utilisateurs**. Pour utiliser les notes de document, l'utilisateur doit également avoir activé la gestion des documents dans les options d'utilisateur.  
+2. Utilisez le filtre rapide pour rechercher l'utilisateur qui va approuver ou rejeter les enregistrements de non-conformité. Par exemple, filtrez sur le champ **Nom** avec une valeur de `Ricardo`. Pour traiter l'approbation d'une non-conformité, l'utilisateur qui approuve ou rejette la non-conformité doit avoir une valeur « Nom » affectée sur la page **Utilisateurs**. Pour utiliser les notes de document, l'utilisateur doit également avoir activé la gestion des documents dans les options d'utilisateur.  
 3. Marquez la ligne de l'enregistrement souhaité.
 4. Sélectionnez **Options utilisateur**.
 5. Sélectionnez l'onglet **Préférences**.

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a3dee8b73ae710def7e526ceefa7194171d716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182667"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142238"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Créer des configurations d'états électroniques pour analyser des documents entrants
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit comment créer des configurations d'états électroniques pour analyser un document électronique entrant. Dans cette procédure, vous importerez les configurations ER requises qui ont été créées pour la société fictive, Litware, Inc., puis les utiliserez pour l'analyse des documents électroniques entrants. Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Créer un fournisseur de configuration et le marquer comme actif ».
+Cette procédure décrit comment créer des configurations d'états électroniques pour analyser un document électronique entrant. Dans cette procédure, vous importerez les configurations ER requises qui ont été créées pour la société fictive, Litware, Inc., puis les utiliserez pour l'analyse des documents électroniques entrants. Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « Génération d'états électroniques - Créer un fournisseur de configuration et le marquer comme actif ».
 
 Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. 
 

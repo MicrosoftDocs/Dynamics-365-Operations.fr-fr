@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e1811915d2e88379884f409a533b9eb2deaa97e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e4c2a88d42626082216d77fb39f2ac1dc79be719
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843983"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147225"
 ---
 # <a name="activate-a-production-flow-version"></a>Activer la version d'un flux de production
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Avant que des tâche de kanban puissent être créées et des activités puissent être traitées pour une version de flux de production, vous devez activer la version. Il est recommandé d'activer la version avant l'expiration de la date et l'heure de début. Pour accomplir cette tâche, vous devez avoir une version de flux de production ayant le statut Brouillon afin d'activer la version. 
 

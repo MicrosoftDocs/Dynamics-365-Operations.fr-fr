@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 38db4a5f93f4b755cfd6fee43eaef27672551077
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189888"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143832"
 ---
 # <a name="create-an-operating-unit"></a>Créer une unité opérationnelle
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Une section est une organisation utilisée pour partager le contrôle des ressources économiques et des processus opérationnels dans une société. Dans une section, les personnes ont la responsabilité d'optimiser l'utilisation des ressources rares, d'améliorer les processus et de justifier leurs performances. Les types de sections incluent les centres de coût, les unités commerciales, les départements et les chaînes de valeurs. Procédez comme suit pour créer une unité opérationnelle. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

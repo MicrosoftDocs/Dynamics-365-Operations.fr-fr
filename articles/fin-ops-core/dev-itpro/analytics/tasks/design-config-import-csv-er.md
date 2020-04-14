@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf27590d80bbaf7749a0b6e69adc63ddcf4f9380
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c8511b83a5d327f6a1d5c9ace091eae9e546307b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185150"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142241"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Créer des configurations d'états électroniques pour importer des données à partir de fichiers CSV externes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Cette procédure permet de créer des configurations d'états électroniques pour importer des données dans l'application, à partir d'un fichier externe au format CSV. Dans cette procédure, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Créer un fournisseur de configuration et le marquer comme actif. » 
+Cette procédure permet de créer des configurations d'états électroniques pour importer des données dans l'application, à partir d'un fichier externe au format CSV. Dans cette procédure, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « Génération d'états électroniques - Créer un fournisseur de configuration et le marquer comme actif. » 
 
 Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d'états électroniques a été affecté. Ces étapes peuvent être effectuées à l'aide de l'ensemble de données USMF. 
 
@@ -104,7 +104,7 @@ Vous devez également télécharger et enregistrer localement les fichiers suiva
     * Notez que les éléments du format qui définit la structure du fichier importé sont associés aux éléments du modèle de données. Selon ces liens, le contenu du fichier CSV importé sera enregistré au moment de l'exécution dans le modèle de données existant. Soyez attentif à la liaison de l'élément CountryRegion. Pour tout élément de transaction dans le fichier entrant dont la valeur de code pays n'est pas spécifiée, le code pays par défaut « États-Unis » est renseigné dans le modèle de données.   
 13. Activez « Afficher les détails ».
 14. Cliquez sur l'onglet Validations.
-15. Cliquez sur Recherche.
+15. Cliquez sur Rechercher.
 16. Dans le champ Rechercher, tapez « fournisseur ».
 17. Cliquez sur Suivant
     * Cette mise en correspondance de format peut contenir la logique définie par l'utilisateur pour valider la précision des données importées d'un point de vue de l'entreprise. Par exemple, en fonction du paramètre, pour toute ligne du fichier d'importation dont la structure ne correspond pas à celle de la ligne d'en-tête ou de la ligne de transaction, un message d'avertissement sera généré dans la fenêtre Informations informant l'utilisateur sur l'incident et indiquant le numéro de séquence de la transaction dans le fichier.   
@@ -116,7 +116,7 @@ Vous devez également télécharger et enregistrer localement les fichiers suiva
     * Cliquez sur Parcourir et accédez au fichier 1099entriescsv.csv que vous avez précédemment téléchargé.  
 2. Cliquez sur OK.
     * Notez les messages d'avertissement sur les lignes qui ne sont pas acceptées. La ligne 4 contient la valeur de revenus qui s'affiche dans un format non acceptable tandis que la ligne 7 ne contient pas le texte des remarques sur la transaction entre guillemets.   
-    * Examinez la sortie au format XML, qui représente les données importées depuis le fichier sélectionné et transférées vers le modèle de données. Notez que toutes les 7 lignes du fichier CSV importé ont été traitées. Les titres des champs sur la ligne 1 ont été ignorés, 4 transactions ont été correctement analysées et 2 transactions ont été reconnues comme non valides.   
+    * Examinez la sortie au format XML, qui représente les données importées depuis le fichier sélectionné et transférées vers le modèle de données. Notez que toutes les 7 lignes du fichier CSV importé ont été traitées. Les titres des champs sur la ligne 1 ont été ignorés, 4 transactions ont été correctement analysées et 2 transactions ont été reconnues comme non valides.   
 3. Fermez la page.
 4. Fermez la page.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 677aacb72d1c3f33bed8bb6c9cd32e5dbca677cc
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: de62c246e022a315852f9b1b21f3378b3408a00f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844919"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150163"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Créer une nomenclature pour un produit générique fondé sur les dimensions
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Pour cette procédure, vous devez avoir déjà suivi les 4 premiers guides de cette séquence de huit enregistrements. Les 4 premiers enregistrements paramètrent les données requises pour exécuter cette procédure. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette tâche est généralement gérée par le concepteur de produit.
 

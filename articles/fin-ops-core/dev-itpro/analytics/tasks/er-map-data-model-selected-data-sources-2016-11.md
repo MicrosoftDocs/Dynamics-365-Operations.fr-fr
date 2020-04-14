@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44f6ac3263f115e76d054e68c99d58dc11e6f1a0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf19d69c498da32594e17e16fb83ed25e6747982
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182230"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142986"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER Mapper le modèle de données aux sources de données sélectionnées
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de données sélectionnées. Cette mise en correspondance de modèles sera utilisée ultérieurement comme source de données dans la configuration du format à utiliser pour gérer des documents de paiement électronique. Dans cet exemple, vous mettez en correspondance un modèle de données pour la société témoin, Litware, Inc. avec des sources de données. Pour effectuer ces étapes,, vous devez tout d'abord appliquer la procédure « Sélectionner des sources de données pour la mise en correspondance de modèles ».
+Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de données sélectionnées. Cette mise en correspondance de modèles sera utilisée ultérieurement comme source de données dans la configuration du format à utiliser pour gérer des documents de paiement électronique. Dans cet exemple, vous mettez en correspondance un modèle de données pour la société témoin, Litware, Inc. avec des sources de données. Pour effectuer ces étapes, vous devez tout d'abord appliquer la procédure « Sélectionner des sources de données pour la mise en correspondance de modèles ».
 
 
 ## <a name="open-er-configurations-tree"></a>Ouvrir l'arborescence de configurations d'ER
@@ -36,7 +36,7 @@ Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle A
 
 ## <a name="select-created-model-mapping"></a>Sélectionner une mise en correspondance de modèles créée
 1. Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) ».
-    * Vérifiez que la configuration du modèle « paiements (modèle simplifié) » a été créée à l'avance. Dans le cas contraire, arrêtez dès à présent et revenez après avoir effectué la section « Créer une configuration avec le modèle de données du domaine sélectionné » du Guide de tâche.  
+    * Vérifiez que la configuration du modèle « Paiements (modèle simplifié) » a été créée à l'avance. Dans le cas contraire, arrêtez dès à présent et revenez après avoir effectué la section « Créer une configuration avec le modèle de données du domaine sélectionné » du Guide de tâche.  
 2. Cliquez sur Concepteur de modèles.
 3. Cliquez sur Mettre en correspondance le modèle à la source de données.
 4. Sélectionnez l'enregistrement « Mise en correspondance de CT ».

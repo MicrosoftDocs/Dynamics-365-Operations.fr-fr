@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55801b2355eeee7dc136a1812a68e825b99098a4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d7518169e2cd725fdef295d3ea31ffc45a7952fd
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844943"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150219"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Créer un code-barres pour un produit
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique indique comment créer manuellement un code-barres en utilisant le numéro d'article M0001 comme exemple. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

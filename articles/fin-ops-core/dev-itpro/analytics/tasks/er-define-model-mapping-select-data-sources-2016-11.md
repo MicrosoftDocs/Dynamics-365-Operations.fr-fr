@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46dc13416aa094f33879c017c1a1815fc791409d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185104"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142163"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Définir les mises en correspondance de modèles de gestion d'états électroniques et sélectionner des sources de données pour eux
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d'états électroniques peut sélectionner des sources de données pour un modèle de données de génération d'états électroniques (ER). Les sources de données seront liées aux composants du modèle de données sélectionné au moment de la création et des données commerciales seront renseignées dans ce modèle de données au moment de l'exécution. Dans cet exemple, vous allez sélectionner des sources de données pour un modèle de données existant qui a été créé pour la société témoin, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord accomplir celles de la procédure « Créer un modèle de données ».
+Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d'états électroniques peut sélectionner des sources de données pour un modèle de données de génération d'états électroniques (ER). Les sources de données seront liées aux composants du modèle de données sélectionné au moment de la création et des données commerciales seront renseignées dans ce modèle de données au moment de l'exécution. Dans cet exemple, vous allez sélectionner des sources de données pour un modèle de données existant qui a été créé pour la société témoin, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord accomplir celles de la procédure « Créer un modèle de données ».
 
 
 ## <a name="open-the-electronic-reporting-configurations-tree"></a>Ouvrir l'arborescence des configurations d'états électroniques
@@ -78,7 +78,7 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 17. Dans l'arborescence, sélectionnez « Transactions\Document ».
 18. Cliquez sur Ajouter une source de données.
 19. Dans le champ Formule, entrez « CONCATENATE(Transactions.Voucher, "-", ».
-    * Tapez [ , “-“, ] à la fin de la formule.  
+    * Tapez [ , "-", ] à la fin de la formule.  
 20. Dans l'arborescence , sélectionnez « Chaîne\TEXTE ».
 21. Cliquez sur Ajouter une fonction.
 22. Dans l'arborescence, sélectionnez « Transactions\ID enregistrement (RecId) ».

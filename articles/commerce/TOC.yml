@@ -454,6 +454,8 @@
                   items:
                     - name: Configurer et utiliser les frais automatiques avancés
                       href: omni-auto-charges.md
+                    - name: Activer et configurer les frais automatiques par canal
+                      href: auto-charges-by-channel.md
                     - name: Calcul au prorata des frais d'en-tête pour les lignes de vente correspondantes
                       href: pro-rate-charges-matching-lines.md
                 - name: Gérer des programmes périodiques
@@ -525,7 +527,7 @@
                 - name: Créer un nouveau produit
                   items:
                     - name: Créer un produit dans Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Gérer les produits et les catégories de produits
                       href: category-management-product-creation.md
                 - name: Attributs de produit
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Désactiver les recommandations personnalisées
                       href: personalization-gdpr.md
-                - name: Ajouter des listes de recommandations à un site de commerce électronique
-                  href: add-reco-list-to-page.md
                 - name: Expériences de PDV
                   items:
                     - name: Ajouter des recommandations produit sur PDV
@@ -938,12 +938,14 @@
                       href: ratings-reviews-modules.md
                 - name: Modules d'achat
                   items:
-                    - name: Module de chariot
+                    - name: Module de panier
                       href: add-cart-module.md
                     - name: Module de validation
                       href: add-checkout-module.md
                     - name: Module de confirmation de commande
                       href: order-confirmation-module.md
+                    - name: Module de sélection de magasin
+                      href: store-selector.md
                 - name: Modules de gestion des comptes
                   items:
                     - name: Pages et modules de gestion des comptes
@@ -2115,7 +2117,7 @@
                 - name: Utilisation des données de paiement
                   href: payment-connector-data-fields.md
                 - name: Activer la protection des paiements en double pour le connecteur de paiement
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Créer un package de paiement pour l'Explorateur d'application dans les déploiements Service Fabric
                   href: dev-itpro/payment-connector-package.md
             - name: Extensibilité du commerce électronique tiers

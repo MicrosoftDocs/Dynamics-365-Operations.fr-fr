@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4a34a03dc5bb3cec37bbccdf913bee5088af6a0
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c5306d41ab91213fdc7de0d3dd23d6845c5b8657
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844607"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147731"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Créer un produit lancé pour une seule société
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure commence par la création d'un produit unique dans le contexte d'une seule unité juridique. Une fois le produit lancé créé, il est immédiatement disponible dans cette unité uniquement. Vous pouvez parcourir cette procédure dans la société fictive USMF. Cette tâche est généralement effectuée par un concepteur de produit.
 
@@ -62,7 +62,7 @@ Cette procédure commence par la création d'un produit unique dans le contexte 
 21. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 22. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 23. Dans le champ Unité de vente, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * L'unité de vente détermine la manière dont le produit est mesuré lorsqu'il s'est vendu à un client.  
+    * L'unité de vente détermine la manière dont le produit est mesuré lorsqu'il est vendu à un client.  
 24. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 25. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 26. Dans le champ Unité de nomenclature, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.

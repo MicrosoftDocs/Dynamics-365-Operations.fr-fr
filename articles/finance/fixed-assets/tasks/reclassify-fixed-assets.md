@@ -15,26 +15,26 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d8cf2ff1e275df0466a7fe327a3180c0399e49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4cdcb9c337440b8fa9de2bdeb78d3b2d118e91ca
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186921"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138275"
 ---
 # <a name="reclassify-fixed-assets"></a>Reclassifier des immobilisations
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Pour reclassifier une immobilisation, vous devez la transférer à un nouveau groupe d'immobilisations ou lui affecter un nouveau numéro d'immobilisation au sein du même groupe. 
 
 Lorsqu'une immobilisation est reclassifiée :
 
-• Tous les registres de l'immobilisation existante sont créés pour la nouvelle immobilisation. Les informations paramétrées pour l'immobilisation originale sont copiées vers la nouvelle immobilisation. Le statut des registres de l'immobilisation originale est Clôturé. 
+* Tous les registres de l'immobilisation existante sont créés pour la nouvelle immobilisation. Les informations paramétrées pour l'immobilisation originale sont copiées vers la nouvelle immobilisation. Le statut des registres de l'immobilisation originale est Clôturé. 
 
-• Les nouveaux registres des nouvelles immobilisations indiquent la date de reclassification dans le champ **Date d'acquisition**. La date dans le champ **Date d'exécution de l'amortissement** est copiée à partir des informations originales relatives à l'actif. Si l'amortissement a déjà commencé, le champ **Date du dernier amortissement** affiche la date de la reclassification. 
+* Les nouveaux registres des nouvelles immobilisations indiquent la date de reclassification dans le champ **Date d'acquisition**. La date dans le champ **Date d'exécution de l'amortissement** est copiée à partir des informations originales relatives à l'actif. Si l'amortissement a déjà commencé, le champ **Date du dernier amortissement** affiche la date de la reclassification. 
 
-• Les transactions d'immobilisation existantes relatives à l'immobilisation originale sont annulées et regénérées pour la nouvelle immobilisation.
+* Les transactions d'immobilisation existantes relatives à l'immobilisation originale sont annulées et regénérées pour la nouvelle immobilisation.
 
 Procédez comme suit pour reclassifier une immobilisation :
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58b725af456f1a5c7f158f01ffe48a2d8cdf056b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 03fcc62236b14a8721a4cb611978e8672ae77ea3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550535"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146926"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Créer une cellule de travail sous-traitée de lean manufacturing
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Pour modéliser le travail sous-traité pour lean manufacturing, vous devez créer une cellule de travail associée au fournisseur qui fournit le travail. Une cellule de travail sous-traitée est liée au fournisseur via l'association d'une ressource du type Fournisseur. Si vous lisez cet enregistrement dans la société fictive USMF, vous pouvez sélectionner l'ID compte fournisseur 1002 et le site 1.
 

@@ -3,7 +3,7 @@ title: Configuration des appareils mobiles pour le travail d'entrepôt
 description: Cette rubrique décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813038"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161826"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d'entrepôt
 
@@ -95,11 +95,11 @@ Vous pouvez paramétrer une option de menu qui crée un travail pour un autre co
 </tr>
 <tr>
 <td>Réception de contenant</td>
-<td>Acceptez un chargement entrant à l'aide de l'ID de contenant.</td>
+<td>Recevez un avis préalable d'expédition (APE) entrant à l'aide de l'ID de contenant.</td>
 </tr>
 <tr>
 <td>Réception et rangement de contenant</td>
-<td>Acceptez et rangez un chargement entrant à l'aide de l'ID de contenant.</td>
+<td>Recevez et rangez un avis préalable d'expédition (APE) entrant à l'aide de l'ID de contenant.</td>
 </tr>
 <tr>
 <td>Réception des articles du chargement</td>
@@ -119,7 +119,7 @@ Vous pouvez paramétrer une option de menu qui crée un travail pour un autre co
 <td>Enregistrez la réception d'une quantité d'un article en enregistrant le numéro de retour marchandises RMA et en rangeant les articles. Le même collaborateur effectue les deux actions.</td>
 </tr>
 <tr>
-<td rowspan="4">Ordre de transfert</td>
+<td rowspan="6">Ordre de transfert</td>
 <td>Réception des articles de l'ordre de transfert</td>
 <td>Enregistrez la réception d'une quantité d'un article, puis créez le travail de rangement pour un autre collaborateur.
 
@@ -138,6 +138,14 @@ Vous pouvez paramétrer une option de menu qui crée un travail pour un autre co
 <tr>
 <td>Réception et rangement de la ligne d'ordre de transfert</td>
 <td>Enregistrez la réception d'une quantité d'un article et rangez les articles. Le même collaborateur effectue les deux actions.</td>
+</tr>
+<tr>
+<td>Réception de contenant</td>
+<td>Recevez un avis préalable d'expédition (APE) entrant à l'aide de l'ID de contenant.</td>
+</tr>
+<tr>
+<td>Réception et rangement de contenant</td>
+<td>Recevez et rangez un avis préalable d'expédition (APE) entrant à l'aide de l'ID de contenant.</td>
 </tr>
 <tr>
 <td rowspan="4">Production</td>

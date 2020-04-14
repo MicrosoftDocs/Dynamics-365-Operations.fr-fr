@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124091"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161590"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Prise en charge de la double devise pour la taxe
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ La fonctionnalité Double devise pour Dynamics 365 Finance a été introduite da
 
 Dans les versions antérieures, les transactions étaient converties dans la devise de déclaration dans l'ordre suivant : 
 
-Le total de la transaction était calculé dans la devise de la transaction > Le montant de la transaction était converti dans la devise comptable > Le montant en devise comptable était converti en devise de déclaration
+- Le total de la transaction était calculé dans la devise de la transaction > Le montant de la transaction était converti dans la devise comptable > Le montant en devise comptable était converti en devise de déclaration
 
 Après activation de la fonctionnalité Double devise, les transactions étaient converties dans la devise de déclaration dans l'ordre suivant :
 
@@ -48,8 +48,6 @@ En raison de la prise en charge des doubles devises, deux nouvelles fonctionnali
 - Équilibrage automatique du règlement de la taxe dans la devise de déclaration (publication dans la version 10.0.11)
 
 La prise en charge de la double devise pour les taxes permet le calcul précis des taxes dans la devise de la taxe et le calcul précis du solde du règlement de la taxe dans la devise comptable et la devise de déclaration. 
-
-Les nouvelles fonctionnalités sont actuellement activées pour les clients en préversion privée. Pour activer les fonctionnalités, envoyez une demande de service via les canaux correspondants à Microsoft.
 
 ## <a name="sales-tax-conversion"></a>Conversion de la taxe
 

@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8274e390a177f51649f5cad70ef7ad5bd50a8830
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f1e99d7c84171e4affe59fb896a7e93c2a328740
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558471"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146765"
 ---
 # <a name="estimate-a-production-order"></a>Estimer un ordre de fabrication
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Vous pouvez exécuter cette procédure en utilisant les données de démonstration de la société USMF ou utiliser vos propres données. Dans les deux cas, vous devez avoir un ordre de fabrication en cours dont le statut est Créé. Il s'agit de la deuxième des sept procédures expliquant le cycle de vie de l'ordre de fabrication.
 

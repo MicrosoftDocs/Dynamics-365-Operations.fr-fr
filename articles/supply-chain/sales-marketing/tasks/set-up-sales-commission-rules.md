@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d575e609ac5289f9acb219322c9df93972e5dfc
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: d9036b5cbad10af725aaaf5d1d9498687c3a1d58
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995211"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146420"
 ---
 # <a name="set-up-sales-commission-rules"></a>Paramétrer les règles de commission sur les ventes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure vous montre comment paramétrer et activer le calcul et le suivi des commissions sur les ventes. La procédure montre comment créer des groupes de commissions client et article, puis lier un client et un produit sélectionnés aux groupes respectifs. Ces groupes sont alors utilisés dans le paramétrage du calcul de la commission pour créer une combinaison client, article et commercial qui doit être mise en correspondance avec la commande client pour que le commercial ait droit à la commission. La création des groupes de commissions client et articles est facultative, comme le calcul de la commission peut également être effectué pour un client et/ou un article individuels. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 

@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081149"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173198"
 ---
 # <a name="unified-product-experience"></a>Expérience produit uniformisée
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Lorsqu'un écosystème professionnel est constitué d'applications Dynamics 365, comme Finance, Supply Chain Management et Sales, il est naturel pour les entreprises d'utiliser ces applications pour approvisionner les données de produit. En effet, ces applications offrent une infrastructure de produit robuste complétée par des concepts de tarification sophistiqués et des données de stock disponible précises. Les entreprises qui utilisent un système PLM (gestion des cycles de vie des produits) externe pour approvisionner les données de produit peuvent diriger les produits des applications Finance and Operations vers les autres applications Dynamics 365. L'expérience produit unifiée fournit le modèle de données de produit intégré dans Common Data Service de sorte que tous les utilisateurs des applications, dont les utilisateurs de Power Platform, puissent tirer parti des données de produit enrichies provenant des applications Finance and Operations.
 
@@ -52,7 +52,7 @@ Les cartes d'entité de double écriture pour les produits ont été conçues af
 
 Les informations de produit contiennent toutes les informations associées au produit et à sa définition, comme les dimensions du produit ou les dimensions de suivi et de stockage. Lorsque le tableau suivant s'affiche, un ensemble de cartes d'entité est créé pour synchroniser les produits et les informations associées.
 
-Finance and Operations | Autres applications Dynamics 365 | Description
+Applications Finance and Operations | Autres applications Dynamics 365 | Description 
 -----------------------|--------------------------------|---
 Produits lancés V2 | msdyn\_sharedproductdetails | L'entité **msdyn\_sharedproductdetails** contient les champs des applications Finance and Operations qui définissent le produit et qui contiennent les informations de gestion et financières du produit. 
 Produits distincts lancés pour Common Data Service | Produit | L'entité **Produit** contient les champs qui définissent le produit. Elle comprend les différents produits (produits avec produit de sous-type) et les variantes de produit. Le tableau suivant présente les mises en correspondance.
@@ -75,7 +75,7 @@ Unité | UM
 Conversion d'unités | msdyn_ unitofmeasureconversions
 Conversion de l'unité de mesure spécifique au produit | msdyn_productspecificunitofmeasureconversion
 Catégories de produits | msdyn_productcategories | Chacune des catégories de produit et des informations sur sa structure et ses caractéristiques sont contenues dans l'entité de catégorie de produit. 
-Hiérarchie de catégories de produit | msdyn_productcategoryhierarhies | Vous utilisez des hiérarchies de produit pour classer ou regrouper des produits. Les hiérarchies de catégories sont disponibles dans Common Data Service à l'aide de l'entité Hiérarchie de catégories de produit. 
+Hiérarchie de catégories de produit | msdyn_productcategoryhierarhies | Vous utilisez les hiérarchies de produits pour classer par catégorie ou regrouper les produits. Les hiérarchies de catégories sont disponibles dans Common Data Service à l'aide de l'entité de hiérarchie des catégories de produits. 
 Rôles de hiérarchie de catégories de produit | msdyn_productcategoryhierarchies | Les hiérarchies de produits peuvent être utilisées pour plusieurs rôles dans D365 Finance and Operations. Pour indiquer quelle catégorie est utilisée dans chaque rôle, l'entité de rôle de catégorie du produit est utilisée. 
 Affectations de catégorie de produit | msdyn_productcategoryassignments | Pour affecter un produit à une catégorie, l'entité d'affectations de catégorie de produit peut être utilisée.
 
@@ -153,13 +153,13 @@ Le concept d'unité de mesure est intégré entre les applications Finance and O
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Synchronisation initiale de la mise en correspondance des données des unités entre Finance and Operations et Common Data Service
 
 ### <a name="initial-synchronization-of-units"></a>Synchronisation initiale des unités
 
-Lorsque l'écriture double est activée, les unités en provenance des applications Finance and Operations sont synchronisées avec les autres applications Dynamics 365. Les groupes d'unités synchronisés à partir des applications Finance and Operations dans Common Data Service ont un indicateur défini sur Géré en externe.
+Lorsque l'écriture double est activée, les unités en provenance des applications Finance and Operations sont synchronisées avec les autres applications Dynamics 365. Les groupes d'unités synchronisés à partir des applications Finance and Operations dans Common Data Service ont un indicateur défini sur « Géré en externe ».
 
 ### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Mise en correspondance des unités et des données de groupes/classes d'unités à partir de Finance and Operations et des autres applications Dynamics 365
 
@@ -172,7 +172,7 @@ Pour que les unités se mettent en correspondance/se chevauchent dans les applic
 
 Pour les unités et les classes d'unités dans Finance and Operations n'existant pas dans les autres applications Dynamics 365 :
 
-Dans le cadre de la double écriture, des groupes d'unités à partir des applications Finance and Operations et leurs unités correspondantes sont créés et synchronisés dans les autres applications Dynamics 365 et Common Data Service et le groupe d'unités sont définis sur Géré en externe. Aucun effort supplémentaire au démarrage n'est requis.
+Dans le cadre de la double écriture, des groupes d'unités à partir des applications Finance and Operations et leurs unités correspondantes sont créés et synchronisés dans les autres applications Dynamics 365 et Common Data Service et le groupe d'unités sont définis sur « Géré en externe ». Aucun effort supplémentaire au démarrage n'est requis.
 
 Pour les unités dans les autres applications Dynamics 365 qui n'existent pas dans les applications Finance and Operations :
 
@@ -203,7 +203,7 @@ Les stratégies de produit désignent des ensembles de stratégies utilisées po
 
 Pour identifier de manière unique les produits entre Dynamics 365 for Finance and Operations et les produits dans Common Data Service, les clés d'intégration sont utilisées. Pour les produits, le **(numérodeproduit)** est la clé unique qui identifie un produit dans Common Data Service. Il est composé par la concaténation de : **(société, msdyn_productnumber)**. Le champ **Société** indique l'entité juridique dans Finance and Operations et le champ **msdyn_productnumber** indique le numéro de produit pour le produit donné dans Finance and Operations. 
 
-Pour un autre utilisateur des applications Dynamics 365, le produit est reconnu dans l'interface utilisateur avec le champ **msdyn_productnumber** (notez que le libellé du champ est **Numéro de produit**). Dans l'écran de produit les champs de société et de msydn_productnumber sont affichés. Toutefois, le champ (numérodeproduit), la clé unique pour un produit, n'apparaît pas. 
+Pour les utilisateurs d'autres applications Dynamics 365, le produit est reconnu dans l'interface utilisateur avec le champ **msdyn_productnumber** (notez que le libellé du champ est **Numéro de produit**). Dans l'écran de produit les champs de société et de msydn_productnumber sont affichés. Toutefois, le champ (numérodeproduit), la clé unique pour un produit, n'apparaît pas. 
 
 Si vous créez des applications sur Common Data Service, vous devez veiller à utiliser le **numéro de produit** (l'ID de produit unique) comme clé d'intégration. N'utilisez pas **msdyn_productnumber**, car il n'est pas unique. 
 

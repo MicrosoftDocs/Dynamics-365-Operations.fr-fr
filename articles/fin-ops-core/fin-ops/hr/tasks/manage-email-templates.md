@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ecfa720dfa9b3ed6ee15ec68498d2a46612a9ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a911fea9e7d1009160a021e53533c0ce49efbfe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177820"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143694"
 ---
 # <a name="manage-email-templates"></a>Gérer les modèles d'e-mails
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Vous pouvez transférer des informations à partir de la base de données de votre organisation vers les signets d'un nouveau document et les utiliser dans des modèles qui vous aident à mieux communiquer avec les candidats Pour ce faire, vous devez créer un modèle contenant du texte standard et certains signets où les données du système doivent être insérées. Par exemple, vous pouvez insérer les coordonnées d'un candidat dans un document Microsoft Word que vous pouvez utiliser lorsque vous communiquez avec ce candidat. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Vous pouvez transférer des informations à partir de la base de données de votre organisation vers les signets d'un nouveau document et les utiliser dans des modèles qui vous aident à mieux communiquer avec les candidats. Pour ce faire, vous devez créer un modèle contenant du texte standard et certains signets où les données du système doivent être insérées. Par exemple, vous pouvez insérer les coordonnées d'un candidat dans un document Microsoft Word que vous pouvez utiliser lorsque vous communiquez avec ce candidat. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 
 ## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>Sélectionnez les signets à utiliser dans vos modèles d'e-mail

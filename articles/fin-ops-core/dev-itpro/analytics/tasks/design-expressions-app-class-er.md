@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f61228d328521d0c6fe8e0ae704001a65d03151f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 207309e8be6c097cec187f3475a489330e1f6b6c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249225"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142683"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Concevoir des expressions de génération d'états électroniques pour appeler les méthodes de classe d'application
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ce guide fournit des informations sur la procédure de réutilisation de la logique d'application existante dans les configurations d'états électroniques en appelant les méthodes requises des classes d'application des expressions ER. Les valeurs des arguments d'appel des classes peuvent être définies dynamiquement au moment de l'exécution : par exemple, sur la base des informations du document d'analyse pour garantir leur exactitude. Dans ce guide, vous allez créer les configurations ER requises pour l'exemple de société, Litware, Inc. Cette procédure est créée pour les utilisateurs ayant le rôle d'administrateur système ou de développeur de gestion des états électroniques. 
 
 Ces étapes peuvent être effectuées à l'aide d'un ensemble de données quelconque. Vous devez également télécharger et enregistrer localement le fichier suivant : (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
-Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la procédure « ER Créer un fournisseur de configuration et le marquer comme actif ».
+Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la procédure « Génération d'états électroniques - Créer un fournisseur de configuration et le marquer comme actif ».
 
 1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de la configuration pour la société fictive Litware, Inc. est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».   

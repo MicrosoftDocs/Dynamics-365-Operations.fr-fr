@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a6678b09ce4011b7f80d40979209cc2f588df8
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 73bc22949d0b19fa04bf27e6fd7df7b27832795b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994932"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148582"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Générer et traiter les remises client
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l'étape pendant laquelle elles passent en régularisations à la comptabilité client. Elle présente un exemple spécifique pour expliquer la manière dont les différentes conditions sur les lignes de remise affectent les montants finaux qui sont crédités sur le client. Vous devez utiliser la société de données de démonstration USMF, puis effectuer les tâches suivantes avant de commencer le guide : (1) Accédez à la page Paramètres comptabilité et développez l'onglet Prix, puis l'onglet Détails de prix, et vérifier que l'option Activer les détails de prix est définie sur Oui. (2) Accédez à la page Accords de remise et sélectionnez l'accord de remise du client : USMF-000001. Si le champ Statut de l'approbation du workflow n'est pas défini sur Approuvé, vous devez cliquez sur Validation sur le volet Action pour l'approuver.
 
@@ -36,7 +36,7 @@ Cette procédure illustre comment traiter les remises client de la génération 
     - L'accord concerne un client individuel, dans cet exemple, il s'agit du client US-009.  
     - Les remises sont données au client lorsqu'il achète un produit spécifique. Dans ce cas, le produit a le numéro d'article T0020.   
     - Les performances de ventes du client, qui sert à estimer les montants des remises, doivent être accumulées sur une base hebdomadaire.  
-    - Le paramètre pour « Prix extrait de » est Brut, ce qui signifie que le montant de vente de cette ligne sur la base de laquelle la réclamation est estimée n'est pas réduit par la remise de ligne.  
+    - Le paramètre pour « Prix extrait de » est Brut, ce qui signifie que le montant de vente de cette ligne sur la base de laquelle la réclamation est estimée n'est pas réduit par la remise de ligne.  
     - Le champ de type Saut de ligne de remise indique le mode de calcul des remises. Dans ce cas, l'objectif de vente avec lequel les remises doivent être estimées est défini sur la quantité.   
     - Les lignes de l'accord indiquent le type de montant de remise, la valeur réelle de remise et les seuils. Dans cet exemple, le client bénéficiera d'une remise de 20 EUR par unité vendue, si les achats hebdomadaires du produit varient entre 1 et 50 unités, et d'une remise de 40 EUR par unité, s'il achète plus de 50 unités.  
 2. Fermez la page.
@@ -68,7 +68,7 @@ Cette procédure illustre comment traiter les remises client de la génération 
     - La page Remises agit comme une console dans laquelle vous pouvez réviser, approuver et traiter des réclamations de remise. Vous allez maintenant traiter les réclamations créées suite à la facturation d'une commande client pour le client US-009, qui fait l'objet de l'accord de remise USMF-000001.   
     - La première ligne représente une réclamation de remise de 800 EUR, basée sur les ventes de 40 unités du produit T0020, calculée à 20 EUR par unité. Ceci satisfait les conditions de la première pause de quantité dans l'accord de remise.  
     - La deuxième réclamation est de 2 400 EUR, basée sur les ventes de 60 unités du produit T0020, calculée à 40 EUR par unité, conformément à la deuxième pause de quantité dans l'accord.  
-    - Les deux réclamations sont à l'état « À calculer ». Cela signifie qu'elles sont associées à un accord qui suit les performances de ventes du client sur la base périodique et qu'elles doivent être recalculées pour prendre en compte le volume total des ventes sur la période respective.   
+    - Les deux réclamations sont à l'état « À calculer ». Cela signifie qu'elles sont associées à un accord qui suit les performances de ventes du client sur la base périodique et qu'elles doivent être recalculées pour prendre en compte le volume total des ventes sur la période respective.   
 2. Cliquez sur **Cumuler**.
 3. Dans le champ **Client**, saisissez ou sélectionnez une valeur.
 4. Dans le champ **Date de début**, sélectionnez la date d'aujourd'hui.

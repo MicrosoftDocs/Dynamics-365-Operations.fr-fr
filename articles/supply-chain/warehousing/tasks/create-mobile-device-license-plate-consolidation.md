@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cc610a16f4b0e574b5d5e7f8fc9ecf1e12534645
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 13d08de62129698f85e0a30f870ba680e3bb0532
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847301"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148398"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Créer une option de menu d'appareil mobile pour la consolidation de contenants
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure décrit comment créer une option de menu d'appareil mobile pour le travail de consolidation de contenants. Cela permet aux magasiniers de consolider les articles d'un contenant avec les articles d'un autre contenant dans le même emplacement. Par exemple, ils peuvent utiliser cette procédure si les étapes intermédiaires suivantes sont les mêmes sur les deux ordres d'exécution, de sorte que le travail ne doit être exécuté qu'une seule fois pour les articles fusionnés. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. La tâche est généralement effectuée par un responsable d'entrepôt. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
