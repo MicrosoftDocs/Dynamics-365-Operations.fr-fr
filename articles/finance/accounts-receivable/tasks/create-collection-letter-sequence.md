@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a317fba4f30ab9fefe6b12637d53fda141d354bf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f76f6539e8f318b75c8ec8f53020eb7052ec45
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188876"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137920"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Créer une série de lettres de relance
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Utilisez ce guide de tâche pour créer une série de lettres de relance. La société fictive USMF est citée en exemple dans cette tâche.
 
@@ -42,7 +42,7 @@ Utilisez ce guide de tâche pour créer une série de lettres de relance. La soc
 11. Entrez les frais qui seront facturés lorsque cette lettre de relance sera validée.
 12. Dans le champ **Groupes de taxe d'article**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche. Sélectionnez un groupe de taxe d'article si des taxes doivent être calculées sur les frais.  
 13. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-14. Dans le champ **Solde minimal en retard**, entrez le solde minimal en retard requis avant qu'une lettre de relance ne soit envoyée.
+14. Dans le champ **Solde minimal en retard**, saisissez le solde minimal en retard requis avant qu'une lettre de relance ne soit envoyée.
 15. Dans le champ **Jours**, entrez le nombre de jours de grâce que vous allez autoriser. Il s'agit du nombre de jours après la date d'échéance qu'une lettre de relance peut être générée. La date d'échéance utilisée pour le calcul dépend de la position de la lettre de relance dans la série de lettres de relance :
     - La période de grâce pour la lettre de relance 1 est relative à la date d'échéance de la facture.
     - La période de grâce pour les lettres de relance 2 et ultérieures est relative à la date à laquelle la lettre de relance précédente est validée ou imprimée, selon la sélection du champ Mettre à jour un code lettre de relance dans la page Paramètres de la comptabilité client.  

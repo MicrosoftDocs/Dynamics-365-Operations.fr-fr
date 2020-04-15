@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 179e8a20dd65847f90872ae0e56b3e4991a6b00e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fa39a9d459022e391f99e284d41d82215cc10e2b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184989"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142568"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER Générer les documents électroniques pour les paiements à l'aide d'une configuration de format
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut utiliser une nouvelle configuration de format pour la génération d'états électronique (ER) pour générer des documents électroniques pour traiter les paiements. Ces étapes peuvent être effectuées dans la société fictive GBSI.
 

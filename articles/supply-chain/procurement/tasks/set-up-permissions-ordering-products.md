@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baf39040bef2ccd0c643ce0d034348807ecdc50c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: fe8ad0540febcc703554e2451f7f644338e4d57b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914791"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149456"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Paramétrer des autorisations permettant de commander des produits au nom d'un tiers
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique explique comment accorder à des collaborateurs l'autorisation de préparer des demandes d'achat au nom d'autres collaborateurs. En d'autres termes, un « préparateur » de demande d'achat peut créer une demande pour un autre « demandeur ». La procédure montre également comment accorder à un collaborateur une autorisation de commander des articles et des services dans différentes entités juridiques ou unités opérationnelles. Ces tâches sont généralement effectuées par un gestionnaire des achats. Vous pouvez utiliser cette procédure soit dans les données fictives de la société USMF soit dans vos propres données.
 

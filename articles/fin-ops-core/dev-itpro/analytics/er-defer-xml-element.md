@@ -3,7 +3,7 @@ title: Différer l'exécution des éléments XML aux formats ER
 description: Cette rubrique explique comment reporter l'exécution d'un élément XML au format d'état électronique (ER).
 author: NickSelin
 manager: kfend
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,22 +18,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
+ms.openlocfilehash: 58381f491cda199d77e555e5d3da04714b6a5f8f
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3120876"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138921"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Différer l'exécution des éléments XML aux formats ER
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
 ## <a name="overview"></a>Vue d'ensemble
 
-Vous pouvez utiliser le concepteur des opérations du cadre [États électroniques (ER)](general-electronic-reporting.md) pour [configurer ](./tasks/er-format-configuration-2016-11.md)le [composant de format ](general-electronic-reporting.md#FormatComponentOutbound)d'une solution ER utilisée pour générer des documents sortants au format XML. La structure hiérarchique du composant de format configuré se compose d'éléments de format de différents types. Ces éléments de format sont utilisés pour remplir les documents générés avec les informations requises lors de l'exécution. Par défaut, lorsque vous exécutez un format ER, les éléments de format sont exécutés dans le même ordre qu'ils sont présentés dans la hiérarchie des formats : un par un, de haut en bas. Cependant, au moment de la conception, vous pouvez modifier l'ordre d'exécution pour tous les éléments XML du composant de format configuré.
+Vous pouvez utiliser le concepteur des opérations du cadre [États électroniques (ER)](general-electronic-reporting.md) pour [configurer](./tasks/er-format-configuration-2016-11.md) le [composant de format](general-electronic-reporting.md#FormatComponentOutbound) d'une solution ER utilisée pour générer des documents sortants au format XML. La structure hiérarchique du composant de format configuré se compose d'éléments de format de différents types. Ces éléments de format sont utilisés pour remplir les documents générés avec les informations requises lors de l'exécution. Par défaut, lorsque vous exécutez un format ER, les éléments de format sont exécutés dans le même ordre qu'ils sont présentés dans la hiérarchie des formats : un par un, de haut en bas. Cependant, au moment de la conception, vous pouvez modifier l'ordre d'exécution pour tous les éléments XML du composant de format configuré.
 
 En activant l'option <a name="DeferredXmlElementExecution"></a>**Exécution différée** pour un élément XML au format configuré, vous pouvez différer (reporter) l'exécution de cet élément. Dans ce cas, l'élément n'est pas exécuté tant que tous les autres éléments de son parent n'ont pas été exécutés.
 
@@ -49,7 +47,7 @@ L'option **Exécution différée** n'est pas prise en charge pour les éléments
 
 ## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Exemple : différer l'exécution d'un élément XML au format ER
 
-Les étapes suivantes expliquent comment un utilisateur du consultant fonctionnel de l'administrateur système ou des états électroniques [rôle ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)peut configurer un format ER qui contient un élément XML où l'ordre d'exécution diffère de l'ordre dans la hiérarchie des formats.
+Les étapes suivantes expliquent comment un utilisateur du consultant fonctionnel de l'administrateur système ou des états électroniques [rôle](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) peut configurer un format ER qui contient un élément XML où l'ordre d'exécution diffère de l'ordre dans la hiérarchie des formats.
 
 Ces étapes peuvent être effectuées dans la société fictive **USMF** dans Microsoft Dynamics 365 Finance.
 
@@ -60,7 +58,7 @@ Pour terminer cet exemple, vous devez avoir accès à la société **USMF** pour
 - Consultant fonctionnel des états électroniques
 - Administrateur système
 
-Si vous n'avez pas encore terminé l'exemple dans la rubrique [Différer l'exécution des éléments de séquence aux formats ER](er-defer-sequence-element.md#Example), téléchargez les [configurations ](general-electronic-reporting.md#Configuration)suivantes de l'exemple de solution ER.
+Si vous n'avez pas encore terminé l'exemple dans la rubrique [Différer l'exécution des éléments de séquence aux formats ER](er-defer-sequence-element.md#Example), téléchargez les [configurations](general-electronic-reporting.md#Configuration) suivantes de l'exemple de solution ER.
 
 | Description du contenu            | Nom de fichier |
 |--------------------------------|-----------|
@@ -118,7 +116,7 @@ Vérifiez les paramètres du composant de mise en correspondance de modèles ER 
 8. Consultez les sources de données configurées pour accéder aux transactions fiscales :
 
     - La source de données **Transactions** du type *Enregistrement de table* est configurée pour accéder aux enregistrements de la table d'application **TaxTrans**.
-    - La source de données **Pièces justificatives** du type *Champ calculé* est configurée pour renvoyer les codes de document requis ( **INV-10000349** et **INV-10000350**) en tant que liste d'enregistrements.
+    - La source de données **Pièces justificatives** du type *Champ calculé* est configurée pour renvoyer les codes de document requis (**INV-10000349** et **INV-10000350**) en tant que liste d'enregistrements.
     - La source de données **Filtré** du *Champ calculé* est configurée pour sélectionner, dans la source de données **Transactions**, seules les transactions fiscales des pièces justificatives requises.
     - Le domaine **\$TaxAmount** du type *Champ calculé* est ajouté pour la source de données **Filtré** pour exposer la valeur fiscale qui a le signe opposé.
     - La source de données **Groupé** du type *Grouper par* est configurée pour regrouper les transactions fiscales filtrées de la source de données **Filtré**.
@@ -206,7 +204,7 @@ Si le volume de transaction est beaucoup plus important que le volume dans l'exe
     Le dernier nœud d'enregistrement contient le total cumulé des valeurs de taxe qui est calculé pour toutes les transactions traitées en utilisant la sortie générée comme source de données. Cette source de données commence au début du rapport et se poursuit jusqu'à la dernière transaction fiscale. Le nœud récapitulatif contient la somme des valeurs de taxe pour toutes les transactions traitées qui sont calculées dans le mappage de modèle en utilisant la source de données du type *GroupBy*. Notez que ces valeurs sont égales. Par conséquent, la somme basée sur la sortie peut être utilisée au lieu de **GroupBy**. En comparant les temps d'exécution du premier nœud et du nœud récapitulatif, vous pouvez déterminer que la génération de tous les nœuds d'enregistrement et de la somme a pris 11 millisecondes (ms). Par conséquent, en ce qui concerne la génération des nœuds d'enregistrement et de la somme des valeurs fiscales, le format modifié est environ deux fois plus rapide que le format d'origine.
 
 13. Sélectionnez l'attribut **Rapport \\Message \\Récapitulatif \\TotalTaxAmount**, puis sélectionnez **Modifier la formule**.
-14. Entrez l'expression `SUMIF(SummingAmountKey, WsColumn, WsRow)`au lieu de l'expression existante.
+14. Entrez l'expression `SUMIF(SummingAmountKey, WsColumn, WsRow)` au lieu de l'expression existante.
 15. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 16. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
