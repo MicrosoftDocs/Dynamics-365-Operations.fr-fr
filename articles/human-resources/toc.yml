@@ -5,6 +5,12 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "13\_avril\_2020"
+          href: hr-whats-new-2020-04-13.md
+        - name: "3\_avril\_2020"
+          href: hr-whats-new-2020-04-03.md
+        - name: "24\_mars\_2020"
+          href: hr-whats-new-2020-03-24.md
         - name: "19\_mars\_2020"
           href: hr-whats-new-2020-03-19.md
         - name: "10\_mars\_2020"
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: Gérer les avantages
           items:
-            - name: "Fonctionnalités en version préliminaire\_: gestion des avantages"
+            - name: Gestion des avantages
               items:
                 - name: Vue d'ensemble de la gestion des avantages
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Configurer des plans d'avantages
                       href: hr-benefits-plans-setup.md
-                    - name: Créer des plans d'avantages pour les collaborateurs
-                      href: hr-benefits-plans-worker.md
                     - name: Configurer des programmes de crédit flexibles
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Configurer les événements de vie futurs
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Traiter les plans d'avantages
                   items:
                     - name: Traiter l'éligibilité à l'inscription
@@ -499,6 +501,8 @@
               href: hr-leave-and-absence-enroll.md
             - name: Régulariser les plans de congé et d'absence
               href: hr-leave-and-absence-accrue.md
+            - name: Suspendre les congés
+              href: hr-leave-and-absence-suspend-leave.md
             - name: Afficher l'analyse des congés et des absences
               href: hr-leave-and-absence-analytics.md
             - name: Gérer les demandes de congé et d'absence

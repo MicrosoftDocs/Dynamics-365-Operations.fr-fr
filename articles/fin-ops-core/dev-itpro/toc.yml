@@ -14,7 +14,9 @@
               items:
                 - name: Nouveautés ou modifications dans la page d'accueil des mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
-                - name: "Platform update\_34 (mai\_2020)"
+                - name: "Mises à jour de la plateforme pour 10.0.11 (juillet\_2020)"
+                  href: get-started/whats-new-platform-update-35.md
+                - name: "Mises à jour de la plateforme pour 10.0.10 (mai\_2020)"
                   href: get-started/whats-new-platform-update-34.md
                 - name: "Platform update\_33 (avril\_2020)"
                   href: get-started/whats-new-platform-update-33.md
@@ -324,8 +326,6 @@
                       href: data-entities/configuration-data-packages.md
                     - name: "Packages de données de configuration (version de juillet\_2017 uniquement)"
                       href: data-entities/configuration-data-packages.md
-                    - name: Rendre le magasin des entités disponible en tant que Data Lake
-                      href: data-entities/entity-store-data-lake.md
                 - name: Modèles de données de configuration
                   href: data-entities/configuration-data-templates.md
                 - name: Suivre les modifications d'une entité
@@ -384,9 +384,17 @@
               href: user-interface/data-validation-workspace.md
             - name: Descriptions des erreurs de gestion des données
               href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: Présentation d'Azure Data Lake
+              href: data-entities/azure-data-lake-overview.md
+            - name: Applications Finance and Operations dans Azure Data Lake
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: Rendre le magasin des entités disponible en tant que Data Lake
+              href: data-entities/entity-store-data-lake.md
         - name: Opérations de mouvement de base de données
           items:
-            - name: Vue d'ensemble
+            - name: Vue d’ensemble
               href: database/dbmovement-operations.md
             - name: Guides de démarrage rapide
               items:
@@ -482,38 +490,46 @@
               items:
                 - name: Page d'accueil de déploiement local
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: Vue d'ensemble de déploiement local
-                  href: deployment/on-premises-overview.md
-                - name: Planifier et préparer les déploiements locaux
-                  href: deployment/plan-onprem-deployment.md
-                - name: Dimension du matériel requise
-                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: Paramétrer des projets locaux
-                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: Préparer les déploiements locaux
+                  items:
+                    - name: Vue d'ensemble de déploiement local
+                      href: deployment/on-premises-overview.md
+                    - name: Planifier et préparer les déploiements locaux
+                      href: deployment/plan-onprem-deployment.md
+                    - name: Dimension du matériel requise
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                 - name: Paramétrer et déployer les environnements locaux
                   items:
-                    - name: Page d'accueil Paramétrer et déployer les environnements locaux
-                      href: deployment/setup-deploy-on-premises-environments.md
-                    - name: "Déployer des environnements locaux (Platform\_update\_12 et versions ultérieures)"
+                    - name: Paramétrer des projets locaux dans LCS
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: Paramétrer et déployer les environnements locaux
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Déployer des environnements sur site (Platform update 8 et 11)
-                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
-                    - name: Étapes d'installation des composants du canal Retail dans un environnement sur site
+                    - name: Étapes d'installation des composants du canal de vente au détail dans un environnement sur site
                       href: deployment/deploy-retail-onprem.md
+                    - name: Développer et déployer les modèles personnalisés sur les environnements sur site
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: Entretien de l'environnement
+                  items:
+                    - name: Appliquer des mises à jour à un déploiement sur site
+                      href: deployment/apply-updates-on-premises.md
+                    - name: Rotation du certificat
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: Connectivité Internet du client
+                      href: user-interface/client-disconnected.md
+                    - name: Configurer les proxys pour les environnements sur site
+                      href: deployment/onprem-reverseproxy.md
+                    - name: Diagnostics locaux
+                      href: deployment/on-premises-diagnostics.md
+                    - name: Intégration de PowerBI.com aux environnements sur site
+                      href: analytics/entity-store-on-prem.md
+                    - name: Reconfigurer des environnements
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: Redéployer des déploiements locaux
+                      href: deployment/redeploy-on-prem.md
+                    - name: Supprimer et réinstaller un nœud AOS
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: "Réutiliser la même instance AD\_FS pour plusieurs environnements"
                       href: deployment/onprem-reuseadfs.md
-                - name: Développer et déployer les modèles personnalisés sur les environnements sur site
-                  href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Intégration de PowerBI.com aux environnements sur site
-                  href: analytics/entity-store-on-prem.md
-                - name: Configurer les proxys pour les environnements sur site
-                  href: deployment/onprem-reverseproxy.md
-                - name: Appliquer des mises à jour à un déploiement sur site
-                  href: deployment/apply-updates-on-premises.md
-                - name: Diagnostics locaux
-                  href: deployment/on-premises-diagnostics.md
-                - name: Redéployer des déploiements locaux
-                  href: deployment/redeploy-on-prem.md
                 - name: Agent local
                   items:
                     - name: "Compatibilité AD\_FS Office 365"
@@ -522,16 +538,12 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Mettre à jour l'agent local
                       href: lifecycle-services/update-local-agent.md
-                - name: Reconfigurer des environnements
-                  href: lifecycle-services/reconfigure-environment.md
-                - name: Connectivité Internet du client
-                  href: user-interface/client-disconnected.md
-                - name: Résoudre les problèmes de déploiements sur site
-                  href: deployment/troubleshoot-on-prem.md
-                - name: Scripts pour résoudre les problèmes dans les environnements locaux
-                  href: deployment/onprem-tsg-implementations.md
-                - name: Rotation du certificat
-                  href: deployment/certificate-rotation-on-prem.md
+                - name: Dépannage
+                  items:
+                    - name: Résoudre les problèmes de déploiements sur site
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: Scripts pour résoudre les problèmes dans les environnements locaux
+                      href: deployment/onprem-tsg-implementations.md
             - name: Déployer du code personnalisé
               items:
                 - name: Créer des packages déployables de modèles
@@ -928,6 +940,8 @@
                       href: extensibility/extensibility-attributes.md
                     - name: Dernières modifications
                       href: extensibility/breaking-changes.md
+                    - name: Outil de vérification de compatibilité
+                      href: extensibility/compatibility-checker-tool.md
             - name: Performances
               items:
                 - name: Effectuer des suivis à l'aide de Trace Parser
@@ -1442,6 +1456,8 @@
               href: sysadmin/configure-manage-database-log.md
             - name: Créer un cache de métadonnées OData au démarrage d'AOS
               href: sysadmin/odata-warmup.md
+            - name: Configuration du client Azure Key Vault
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: 'Mises à niveau, mises à jour et correctifs'
           items:
             - name: 'Mises à niveau, mises à jour et ressources'
@@ -1542,7 +1558,7 @@
                   href: deployment/apply-updates-on-premises.md
                 - name: Redéployer un déploiement sur site
                   href: deployment/redeploy-on-prem.md
-                - name: "Mise à niveau sur place de la version\_7.x sur site vers la version\_8.1"
+                - name: Processus de mise à niveau en place pour les environnements locaux
                   href: migration-upgrade/on-prem-upgrade.md
             - name: Correctifs
               items:
