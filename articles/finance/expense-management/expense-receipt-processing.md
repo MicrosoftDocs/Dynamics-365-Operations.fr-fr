@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 49cdfeac8cda9f1ddd3aca61f902f00f30f3485b
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154038"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248961"
 ---
 # <a name="expense-receipt-processing"></a>Traitement des accusés de réception de dépenses
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 La saisie des dépenses a été améliorée grâce à l'introduction du traitement de reconnaissance optique de caractères (OCR) pour les reçus. Cette fonctionnalité est conçue pour améliorer l'expérience utilisateur lors de la création de notes de frais.
 

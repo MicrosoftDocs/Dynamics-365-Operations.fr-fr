@@ -3,7 +3,7 @@ title: Clôture de fin d'exercice
 description: Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d'exercice dans la comptabilité.
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175412"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259769"
 ---
 # <a name="year-end-close"></a>Clôture de fin d'exercice
 
@@ -74,7 +74,7 @@ L'option **Transférer les dimensions du bilan** sert à définir si les dimensi
 Le processus de clôture de fin d'exercice ne s'applique pas aux structures de compte. Cela est dû au fait que les structures de compte peuvent changer tout au long d'un exercice et qu'il n'est pas toujours possible d'identifier la structure de compte concernée en raison de ces modifications.  Lorsque des transactions d'ouverture sont créées, les soldes seront transférés avec les dimensions financières telles qu'elles ont été définies dans le modèle de clôture de fin d'exercice. Les entrées de soldes d'ouverture ne peuvent plus inclure de dimensions financières dans la structure de compte actuelle et dans les combinaisons de segments qui ne sont plus valides dans la structure de compte actuelle. Si votre organisation souhaite exclure une dimension financière pour le solde d'ouverture du compte de bénéfices non répartis, définissez la dimension financière sur **Clôturer individuellement** et laissez vierge la valeur de la dimension.
 
 ## <a name="run-the-year-end-close-process"></a>Exécution de la clôture de fin d'exercice
-Une fois créés les modèles de clôture de fin d'exercice, le processus de clôture de fin d'exercice est initialisé en sélectionnant **Exécuter l'exercice** dans le volet Action. Sélectionnez la totalité ou un sous-ensemble d'entités juridiques à partir du modèle pour lequel exécuter la clôture de fin d'exercice. Lors de l'exécution de la clôture de fin d'exercice pour la première fois dans un exercice, vous choisirez vraisemblablement toutes les entités juridiques pour créer des soldes d'ouverture pour chacune. Si vous exécutez à nouveau la clôture de fin d'exercice, vous pouvez choisir d'exécuter le processus uniquement pour les entités juridiques pour lesquelles des entrées d'ajustement ont été validées. 
+Une fois les modèles de clôture de fin d'exercice créés, le processus de clôture de fin d'exercice est initialisé en sélectionnant **Exécuter la clôture fiscale** dans le volet Action. Sélectionnez la totalité ou un sous-ensemble d'entités juridiques à partir du modèle pour lequel exécuter la clôture de fin d'exercice. Lors de l'exécution de la clôture de fin d'exercice pour la première fois dans un exercice, vous choisirez vraisemblablement toutes les entités juridiques pour créer des soldes d'ouverture pour chacune. Si vous exécutez à nouveau la clôture de fin d'exercice, vous pouvez choisir d'exécuter le processus uniquement pour les entités juridiques pour lesquelles des entrées d'ajustement ont été validées. 
 
 Sélectionnez l'exercice pour lequel vous souhaitez exécuter le processus de clôture de fin d'exercice. S'il existe plusieurs périodes de clôture pour la dernière période de l'exercice, le champ **Nom de la période** devient disponible et vous pouvez choisir la période de clôture pour valider la transaction de clôture, si le paramétrage est défini de sorte à créer la transaction de clôture. 
 

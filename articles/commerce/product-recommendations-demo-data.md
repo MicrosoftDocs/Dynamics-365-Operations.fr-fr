@@ -1,9 +1,9 @@
 ---
 title: Créer des recommandations avec des données de démonstration
-description: Ce document fournit des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
+description: Cette rubrique fournit des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 03/30/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59cb5e5c9b59ff2127149e3e47b6c30c9c938a27
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
+ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154247"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175547"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Créer des recommandations avec des données de démonstration
 
 [!include [banner](includes/banner.md)]
 
-Ce document fournit des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
+Cette rubrique fournit des instructions sur la manière d'optimiser les recommandations de produit omnicanal dans les environnements de type Onebox de niveau 1 à l'aide de données de démonstration personnalisables et pré-renseignées.
 
 Les recommandations de produit omnicanal offrent un ensemble de listes de produits générées de manière programmée ou traitées de manière éditoriale. Ces listes peuvent être utilisées dans différents scénarios, selon les besoins de l'entreprise. Pour en savoir plus sur les listes de recommandation de produit, consultez [Vue d'ensemble des recommandations produit.](product-recommendations.md).
 
@@ -46,12 +46,13 @@ Chaque environnement de type Onebox est fourni avec un jeu préchargé de donné
 
 Les données sont structurées selon les colonnes suivantes.
 
-| Nom de la colonne         | Obligatoire          | Description                                                                                                                                 | Valeurs possibles                                                              |
+| Nom de la colonne         | Obligatoire          | Description                                                                                                                                  | Valeurs possibles                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | RecoList            | :heavy_check_mark: | Le type de liste de recommandation produit spécifique que le point de données de démonstration est sur le point de générer.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | Le nombre d'unité opérationnelle spécifique où les recommandations produit sont prévues.                                        |                                                                              |
 | Catégorie            |                    |    La catégorie pour laquelle la liste spécifique doit être retournée. Si aucune catégorie n'est spécifiée, la liste est destinée uniquement pour le haut de la hiérarchie de navigation.    |                                                                              |
 | SeedItemId          |                    |    Pour les listes nécessitant une valeur initiale (RecoPeopleAlsoBuy et RecoCart), le produit pour lequel ces listes doivent présenter des produits supplémentaires.            |                                                                              |
+| CustomerId          |                    |    Pour les listes qui nécessitent un identifiant client (RecoPicks).  La valeur par défaut « 0 » s'applique à tous les clients.          |                                                                              |
 | ItemIds             | :heavy_check_mark: | Un ou plusieurs produits à renvoyer en retour, séparés par ’;’.                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Données de démonstration personnalisées

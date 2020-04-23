@@ -16,17 +16,16 @@ ms.search.industry: public sector
 ms.author: v-alpavk
 ms.search.validFrom: 2019-9-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 491e23c482b8870a44b7e04cb0e58b82d2f6986d
-ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
+ms.openlocfilehash: f2b82ef80bd4b745153ca6c54c97aa172d42b9b4
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3059465"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249082"
 ---
 # <a name="calculate-the-delivery-date-for-a-line-based-on-the-lead-time"></a>Calculer la date de livraison pour une ligne, en fonction du délai
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit comment calculer une date de livraison pour une ligne, en fonction du délai du fournisseur et du calendrier des jours ouvrables de votre organisation, tels qu'ils sont spécifiés dans l'onglet **Devis** de la page **Réponse à l'appel d'offre**. Les fournisseurs peuvent spécifier un délai pour chaque ligne. Ensuite, lorsqu'une commande fournisseur est confirmée, une date de livraison pour une ligne est calculée à partir de la date de confirmation, en fonction du délai et du calendrier des jours ouvrables. Si aucun délai n'est spécifié, la date de confirmation est utilisée comme date de livraison, sauf si la date de livraison est automatiquement calculée.
 

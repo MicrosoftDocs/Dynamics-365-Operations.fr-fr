@@ -1,9 +1,9 @@
 ---
 title: Configurer l'intégration Common Data Service
-description: Vous pouvez activer ou désactiver l'intégration entre Common Data Service et une instance de Microsoft Dynamics 365 Human Resources. Vous pouvez également afficher les détails de la synchronisation, effacer les données de suivi et resynchroniser une entité pour aider à résoudre les problèmes de données entre les deux environnements.
+description: Vous pouvez activer ou désactiver l'intégration entre Common Data Service et Dynamics 365 Human Resources. Vous pouvez également afficher les détails de la synchronisation, effacer les données de suivi et resynchroniser une entité pour aider à résoudre les problèmes de données entre les deux environnements.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,31 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008988"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198420"
 ---
 # <a name="configure-common-data-service-integration"></a>Configurer l'intégration Common Data Service
 
-Vous pouvez activer ou désactiver l'intégration entre Common Data Service et une instance de Microsoft Dynamics 365 Human Resources. Vous pouvez également afficher les détails de la synchronisation, effacer les données de suivi et resynchroniser une entité pour aider à résoudre les problèmes de données entre les deux environnements.
+Vous pouvez activer ou désactiver l'intégration entre Common Data Service et Dynamics 365 Human Resources. Vous pouvez également afficher les détails de la synchronisation, effacer les données de suivi et resynchroniser une entité pour aider à résoudre les problèmes de données entre les deux environnements.
 
 Lorsque vous désactivez l'intégration, les utilisateurs peuvent apporter des modifications à Human Resources ou Common Data Service, mais ces modifications ne sont pas synchronisées entre les deux environnements.
 
-Par défaut, l'intégration entre Human Resources et Common Data Service est désactivée ou activée, selon la présence de données de démonstration dans les environnements :
-
-- **Désactivée** pour les nouveaux environnements qui n'incluent pas de données de démonstration
-- **Activée** pour les nouveaux environnements qui incluent des données de démonstration
-
-Les nouveaux environnements qui incluent des données de démonstration commenceront à synchroniser les données lors de leur provisionnement.
+Par défaut, l'intégration des données entre Human Resources et Common Data Service est désactivée.
 
 Vous souhaiterez peut-être désactiver l'intégration dans ces situations :
 
 - Vous remplissez des données via le Data Management Framework et devez importer les données plusieurs fois pour les avoir dans un état correct.
 
-- Il y a des problèmes avec les données Human Resources ou Common Data Service. Si vous désactivez l'intégration, vous pouvez supprimer un enregistrement dans un environnement sans le supprimer dans l'autre. Lorsque vous réactivez l'intégration, l'enregistrement dans l'environnement où il n'a pas été supprimé sera à nouveau synchronisé avec l'environnement où il a été supprimé. La synchronisation commence la prochaine fois que le traitement par lots **Intégration Common Data Service en échec, demande de synchronisation** s'exécute.
+- Il y a des problèmes avec les données Human Resources ou Common Data Service. Si vous désactivez l'intégration, vous pouvez supprimer un enregistrement dans un environnement sans le supprimer dans l'autre. Lorsque vous réactivez l'intégration, l'enregistrement dans l'environnement où il n'a pas été supprimé est synchronisé avec l'environnement où il a été supprimé. La synchronisation commence la prochaine fois que le traitement par lots **Intégration Common Data Service en échec, demande de synchronisation** s'exécute.
 
 > [!WARNING]
 > Lorsque vous désactivez l'intégration des données, assurez-vous de ne pas modifier le même enregistrement dans les deux environnements. Lorsque vous réactivez l'intégration, l'enregistrement que vous avez modifié en dernier sera synchronisé. Par conséquent, si vous n'avez pas apporté les mêmes modifications à l'enregistrement dans les deux environnements, une perte de données peut se produire.
@@ -103,9 +98,17 @@ Pour exécuter une synchronisation complète sur l'entité après avoir effacé 
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Synchroniser une entité entre Human Resources et Common Data Service
 
-Utilisez cette procédure si les changements dans Common Data Service prennent trop de temps pour s'afficher dans Human Resources ou si vous devez actualiser la table de suivi après avoir effacé le suivi.
+Utilisez cette procédure lorsque :
 
-- Pour exécuter une synchronisation complète sur une entité entre Human Resources et Common Data Service, sélectionnez l'entité dans le champ **Nom d'entité CDS**, puis sélectionnez **Synchroniser maintenant**.
+- Les modifications depuis Common Data Service prennent trop de temps pour apparaître dans Human Resources.
+
+- Vous devez actualiser la table de suivi après avoir effacé le suivi.
+
+Pour exécuter une synchronisation complète sur une entité entre Human Resources et Common Data Service :
+
+1. Sélectionnez l'entité dans le champ **Nom de l'entité CDS**.
+
+2. Sélectionnez **Synchroniser maintenant**.
 
 [![Exécution d'une synchronisation complète](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

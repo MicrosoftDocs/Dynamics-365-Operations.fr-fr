@@ -3,7 +3,7 @@ title: Module Zone d'achat
 description: Cette rubrique couvre les modules de zone d'achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154061"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261396"
 ---
 # <a name="buy-box-module"></a>Module Zone d'achat
 
@@ -46,7 +46,7 @@ Dans une page de détails des produits, une zone d'achat est divisée en deux es
 Un module de zone d'achat affiche le titre, la description, le prix et les notes d'un produit. Il permet également aux clients de sélectionner des variantes de produit ayant des attributs de produit différents, tels que la taille, le style et la couleur. Lorsqu'une variante de produit est sélectionnée, d'autres propriétés de la zone d'achat (par exemple, la description du produit et ses images) sont mises à jour pour refléter les informations variables. 
 
 Un sélecteur de quantité est fourni, afin que les clients puissent spécifier la quantité d'articles à acheter. La quantité maximale pouvant être achetée peut être définie dans les paramètres du site.
- 
+
 À partir de la zone d'achat, les clients peuvent également effectuer des actions telles que l'ajout d'un produit au panier, l'ajout d'un produit à leur liste de souhaits et la sélection d'un lieu de prélèvement. Ces actions peuvent être effectuées sur un produit ou une variante de produit. Pour ajouter un produit à une liste de souhaits, le client doit être connecté.
 
 Les thèmes peuvent être utilisés pour supprimer ou modifier l'ordre des commandes d'action et des propriétés produit de zone d'achat. 
@@ -65,7 +65,8 @@ Les thèmes peuvent être utilisés pour supprimer ou modifier l'ordre des comma
 Les modules de zone d'achat ont trois paramètres qui peuvent être configurés sur **Paramètres du site \> Extensions** :
 
 - **Quantité maximale** – Cette propriété est utilisé pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
-- **Contrôle de stock** – Lorsque la valeur est définie sur **Vrai**, un article est ajouté au panier uniquement une fois que le module zone d'achat garantit qu'il est en stock. Ce contrôle de stock est réalisé pour les cas où l'article sera expédié et pour les cas où il sera prélevé en magasin. Si la valeur est définie sur **Faux**, aucun contrôle de stock n'est effectué avant qu'un article soit ajouté au panier et la commande est passée.
+- **Contrôle de stock** – Lorsque la valeur est définie sur **Vrai**, un article est ajouté au panier uniquement une fois que le module zone d'achat garantit qu'il est en stock. Ce contrôle de stock est réalisé en cas d'expédition de l'article ou en cas de prélévement de l'article au magasin. Si la valeur est définie sur **Faux**, aucun contrôle de stock n'est effectué avant qu'un article soit ajouté au panier et la commande est passée. Pour plus d'informations sur la configuration des paramètres de stock dans le back-office, consultez [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md).
+
 - **Tampon quantité disponible** - Cette propriété est utilisée pour spécifier un numéro de tampon pour le stock. Le stock est tenu à jour en temps réel, et lorsque plusieurs clients passent des commandes, il peut être difficile de tenir à jour un volume de stock exact. Lorsqu'un contrôle de stock est réalisé, si le stock est inférieur au montant de marge, le produit est traité comme épuisé. Par conséquent, lorsque des ventes se produisent rapidement sur plusieurs canaux, et que le volume de stock n'est pas complètement synchronisé, il y a moins de risque qu'un article qui épuisé soit vendu.
 
 ## <a name="commerce-scale-unit-interaction"></a>Interaction avec l'unité d'échelle commerciale
@@ -93,16 +94,20 @@ Pour ajouter un module de zone d'achat à une nouvelle page et définir les prop
 
 [Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
 
-[Module du sélecteur de magasins](store-selector.md)
+[Module de sélection de magasin](store-selector.md)
 
 [Module Conteneur](add-container-module.md)
 
-[Module de chariot](add-cart-module.md)
+[Module de panier](add-cart-module.md)
+
+[Module icône de panier](cart-icon-module.md)
 
 [Module de validation](add-checkout-module.md)
 
 [Module de confirmation de commande](order-confirmation-module.md)
 
-[Module En-tête](author-header-module.md)
+[Module d'en-tête](author-header-module.md)
 
-[Module Pied de page](author-footer-module.md)
+[Module de pied de page](author-footer-module.md)
+
+[Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)

@@ -2,7 +2,7 @@
 title: Types de demandes de maintenance
 description: Cette rubrique explique comment paramétrer des types de demandes de maintenance dans le module Gestion des actifs.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 07/26/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430e475b52638dd80512ffd79d42aac6f5f340e1
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d353f084e0d3e056f1b5ff5af6437ba211def8ec
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571137"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208982"
 ---
 # <a name="maintenance-request-types"></a>Types de demandes de maintenance
 

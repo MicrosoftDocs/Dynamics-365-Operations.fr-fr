@@ -1,8 +1,8 @@
 ---
 title: Créer une commande fournisseur de retour
 description: Cette procédure vous montre comment créer une commande fournisseur retournée à l'aide de l'action Avoir pour copier des lignes d'un document de facturation fournisseur à une nouvelle CF.
-author: FrankDahl
-manager: AnnBe
+author: mkirknel
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 743cb2677696727ac2730fec2c11954d150f4cfa
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: c83cafd3a8934c488bb7a9f315bd5cb154f88c09
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147363"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204825"
 ---
 # <a name="create-a-purchase-return-order"></a>Créer une commande fournisseur de retour
 

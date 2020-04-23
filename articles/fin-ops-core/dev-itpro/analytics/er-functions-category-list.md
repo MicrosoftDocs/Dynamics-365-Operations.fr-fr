@@ -3,7 +3,7 @@ title: Liste des fonctions ER dans la catégorie de liste
 description: Cette rubrique fournit des informations sur les fonction de liste prises en charge dans les États électroniques (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917762"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201041"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Liste des fonctions ER dans la catégorie de liste
 
@@ -46,6 +46,7 @@ Les fonctions de liste des états électroniques (ER) peuvent être utilisées p
 | [Index :](er-functions-list-index.md)                       | Cette fonction renvoie une valeur de *Conteneur (enregistrement)* sélectionnée à l'aide de l'index numérique spécifié dans la liste spécifiée. Si l'index est hors des limites des enregistrements dans la liste spécifiée, cette fonction lève une exception. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Cette fonction renvoie une valeur *Booléenne* de **TRUE** si la liste spécifiée ne contient aucun enregistrement. Sinon, elle renvoie une valeur *Booléenne* de **FALSE**. |
 | [Liste](er-functions-list-list.md)                         | Cette fonction renvoie une valeur *Liste des enregistrements* constituée d'une nouvelle liste créée à partir des arguments spécifiés.|
+| [ListJoin](er-functions-list-listjoin.md)                 | Cette fonction renvoie une valeur *Liste des enregistrements* qui représente une nouvelle liste jointe créée à partir des arguments spécifiés.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Cette fonction renvoie une valeur *Liste des enregistrements* créée en fonction de la structure de l'argument spécifié du type *Énumération* ou *Conteneur (enregistrement)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Cette fonction renvoie une valeur *Liste des enregistrements* constituée uniquement du premier enregistrement de la liste spécifiée.|
 | [OrderBy](er-functions-list-orderby.md)                   | Cette fonction renvoie la liste spécifiée sous la forme d'une *Liste des enregistrements* après avoir été triée selon les arguments spécifiés. Ces arguments peuvent être définis comme expressions. |

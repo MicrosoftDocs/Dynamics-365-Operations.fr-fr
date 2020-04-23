@@ -2,7 +2,7 @@
 title: Importer les catalogues fournisseur
 description: Cette rubrique décrit le processus pour importer les données du catalogue fournisseur.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 35b8e2a87708c88b12c5c7605a7977712a35a0f4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017872"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207370"
 ---
 # <a name="import-vendor-catalogs"></a>Importer les catalogues fournisseur
 [!include[banner](../includes/banner.md)]
@@ -35,17 +35,16 @@ Dans Dynamics 365 Supply Chain Management, les acheteurs peuvent créer et mettr
 Vous pouvez charger les données de catalogue envoyées par un fournisseur depuis le client Microsoft Dynamics 365.
 
 Les données du produit envoyées par un fournisseur sous forme de fichier DMC (demande de mise à jour de catalogue) doivent être au format XML. Le fichier DMC doit contenir les détails des produits que le fournisseur propose à votre société.
-
+''''
 ## <a name="import-vendor-catalog-data"></a>Importer les données de catalogue fournisseur
-
-Pour importer les données d'un catalogue fournisseur, procédez comme suit :
+'' Pour importer les données d'un catalogue fournisseur, procédez comme suit :
 
 1.  Paramétrez un projet dans l'espace de travail Gestion des données dans lequel vous avez défini les règles de mise en correspondance des données. Sélectionnez **Gestion des données** puis **Définir les rôles des projets de données**. 
-
+    ''
 2.  Paramétrez une hiérarchie des catégories d'approvisionnement, puis affectez vos fournisseurs aux catégories d'approvisionnement. Si vous utilisez des codes marchandise, ajoutez-les aux catégories d'approvisionnement. Pour plus d'informations sur le paramétrage d'une hiérarchie des catégories d'approvisionnement, voir [Paramétrer une hiérarchie des catégories d'approvisionnement](../procurement/tasks/set-up-procurement-category-hierarchy.md).
-
+    ''
 3.  Configurez le fournisseur pour l'importation du catalogue. Sélectionnez un fournisseur, puis **Approvisionnement** > **Paramétrage** > **Configurer le fournisseur pour l'importation de catalogues**.
-
+''''
 4.  Configurez le workflow pour l'importation du catalogue. Créez un modèle de fichier DMC et partagez-le avec votre fournisseur.
 
 5.  Sélectionnez **Approvisionnements** \> **Commun** \> **Catalogues** \> **Catalogues fournisseur** pour créer un catalogue fournisseur. Les fichiers DMC envoyés par le fournisseur sont regroupés dans ce catalogue. 

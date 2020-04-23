@@ -3,7 +3,7 @@ title: FAQ sur l'environnement d'aperçu dans Dynamics 365 Commerce
 description: Cette rubrique fournit des réponses aux questions fréquemment posées sur l'environnement d'aperçu Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024750"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254722"
 ---
 # <a name="dynamics-365-commerce-preview-environment-faq"></a>FAQ sur l'environnement d'aperçu dans Dynamics 365 Commerce
 
@@ -77,8 +77,6 @@ Nous accordons un quota d'un environnement d'aperçu Commerce par demande accept
 ## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Informations de contact de l'environnement d'aperçu Dynamics 365 Commerce
 
 Pour contacter Microsoft si vous avez des questions ou des demandes liées à l'environnement de prévisualisation Commerce, visitez le [groupe Yammer Microsoft Dynamics 365 Commerce Aperçu](https://aka.ms/Dynamics365CommercePreviewYammer) pour aider.
-
-Si vous rencontrez des problèmes lorsque vous essayez d'accéder au groupe Yammer, vous pouvez contacter Microsoft par e-mail à l'adresse <Dynamics365Commerce@microsoft.com>. Cette adresse e-mail n'est pas activement surveillée. Par conséquent, attendez-vous à un retard dans la réponse.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

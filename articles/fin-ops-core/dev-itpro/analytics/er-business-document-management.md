@@ -3,7 +3,7 @@ title: Vue d'ensemble du module Gestion de document commercial
 description: Cette rubrique fournit des informations sur l'utilisation de la fonctionnalité Gestion de document commercial de la structure de gestion des états électroniques (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117335"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258555"
 ---
 # <a name="business-document-management-overview"></a>Vue d'ensemble du module Gestion de document commercial
 
@@ -248,9 +248,18 @@ La procédure suivante permet de modifier des modèles de facture financière da
 1. Connectez-vous en tant qu'utilisateur avec accès à l'espace de travail de gestion des documents commerciaux.
 2. Ouvrez l'espace de travail du module Gestion de document commercial.
 
+Quand la fonctionnalité **Expérience d'interface utilisateur de type bureau pour la gestion des documents commerciaux** est désactivée dans l'espace de travail **Gestion des fonctionnalités**, la grille principale de l'espace de travail **Gestion des documents commerciaux** présente les modèles suivants :
+
+- Les modèles appartenant à votre fournisseur de configuration de gestion des états électroniques (ER) (c'est-à-dire le fournisseur actuellement marqué comme actif dans l'espace de travail **Gestion des états électroniques**). Après avoir sélectionné l'un de ces modèles, vous pouvez sélectionner **Modifier le modèle** pour commencer ou continuer à le modifier.
+- Modèles qui sont détenus par d'autres fournisseurs de configuration de gestion des états électroniques (ER). Après avoir sélectionné l'un de ces modèles, vous pouvez sélectionner **Nouveau document** pour en créer une copie qui appartient à votre fournisseur de configuration de gestion des états électroniques (ER), puis commencer à modifier la copie.
+
 ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate1.png)
 
 L'onglet **Modèle** affiche le contenu du modèle sélectionné. Sélectionnez l'onglet **Détails** pour consulter les détails du modèle sélectionné ainsi que les détails d'une configuration de format d'ER dans lequel se trouve ce modèle. Notez que tous les modèles ont un statut **Publié**, et ne contiennent aucun détail dans la colonne **Révision**. Cela signifie que ces modèles n'ont pas encore été modifiés.
+
+Quand la fonctionnalité **Expérience d'interface utilisateur de type bureau pour la gestion des documents commerciaux** est activée dans l'espace de travail **Gestion des fonctionnalités**, la grille principale dans l'espace de travail **Gestion des documents commerciaux** affiche des modèles détenus par votre fournisseur de configuration de la gestion des états électroniques (à savoir, le fournisseur actuellement marqué comme actif dans l'espace de travail **Gestion des états électroniques**). Après avoir sélectionné l'un de ces modèles, vous pouvez sélectionner **Modifier le modèle** pour commencer ou continuer à le modifier.
+
+Pour travailler avec des modèles appartenant à d'autres fournisseurs de configuration de gestion des états électroniques (ER), sélectionnez **Nouveau document** pour créer une copie du modèle appartenant à votre fournisseur de gestion des états électroniques. Vous pouvez ensuite commencer à modifier la copie. Pour en savoir plus, voir [Nouvelle interface utilisateur de document dans la gestion des documents commerciaux](er-business-document-management-new-template-ui.md).
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Lancer des modèles de modification détenus par votre fournisseur de configuration
 

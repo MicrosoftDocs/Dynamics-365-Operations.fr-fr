@@ -3,7 +3,7 @@ title: Frais automatiques avancés omnicanaux
 description: Cette rubrique décrit les capacités de gestion des frais de commande supplémentaires pour les commandes du canal Commerce en utilisant les fonctions de frais automatiques avancés.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022583"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175152"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Frais automatiques avancés omnicanaux
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur la configuration et le déploiement de la fonction de frais automatiques avancés disponible dans Dynamics 365 for Retail version 10.0.
+Cette rubrique fournit des informations sur la configuration et le déploiement des fonctionnalités de frais automatiques avancées disponibles dans Dynamics 365 for Retail version 10.0.
 
 Lorsque les fonctionnalités de frais automatiques avancés sont activées, les commandes créées dans tout canal Commerce pris en charge (point de vente (PDV), centre d'appels et en ligne) peuvent profiter des configurations [frais automatiques](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) définies dans l'application ERP pour les frais associés au niveau de l'en-tête et de la ligne.
 
@@ -215,3 +215,10 @@ Certaines organisations préfèreront attendre jusqu'à ce que l'utilisateur ait
 ### <a name="charges-override-reports"></a>États de remplacement des frais
 
 Si les utilisateurs remplacent manuellement les frais calculés ou ajoutent des frais manuels à la transaction, ces données sont disponibles pour audit dans l'état **Historique de remplacement des frais**. L'état est accessible depuis **Retail et Commerce \> Recherches et états \> Historique de remplacement des frais**. Il est important d'observer que les données requises pour cet état sont importées depuis la base de données des canaux dans le siège social via les tâches de programme de distribution « P ». Par conséquent, les informations concernant les remplacements effectués dans le PDV peuvent ne pas être immédiatement disponibles sur cet état tant que cette tâche n'a pas chargé les données de transaction du magasin au siège.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+[Activer et configurer les frais automatiques par canal](auto-charges-by-channel.md)
+
+[Calcul au prorata des frais d'en-tête pour les lignes de vente correspondantes](pro-rate-charges-matching-lines.md)
+

@@ -1,7 +1,7 @@
 ---
 title: Utiliser le didacticiel Regression Suite Automation Tool
 description: Cette rubrique explique comment utiliser l'outil RSAT (Regression Suite Automation Tool). Il en décrit les diverses fonctions et fournit des exemples qui utilisent l'écriture de script avancée.
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 06/09/2019
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070818"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248734"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Utiliser le didacticiel Regression Suite Automation Tool
 
@@ -30,79 +30,13 @@ ms.locfileid: "3070818"
 > [!NOTE]
 > Utilisez les outils du navigateur Internet pour télécharger et enregistrer cette page au format PDF. 
 
-Ce didacticiel vous explique quelques-unes des fonctions avancées de l'outil RSAT (Regression Suite Automation Tool), inclut une mission de démonstration et décrit des points stratégiques et d'apprentissage clés.
+Ce didacticiel vous explique quelques-unes des fonctions avancées de l'outil RSAT (Regression Suite Automation Tool), inclut une mission de démonstration et décrit des points stratégiques et d'apprentissage clés. 
 
-## <a name="features-of-rsattask-recorder"></a>Fonctions de RSAT/Enregistreur de tâches
+## <a name="notable-features-of-rsat-and-task-recorder"></a>Caractéristiques notables de RSAT et de l'enregistreur de tâches
 
 ### <a name="validate-a-field-value"></a>Valider une valeur du champ
 
-Pour plus d'informations sur cette fonction, voir [Créer un nouvel enregistrement de tâche possédant une fonction de validation](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
-
-### <a name="saved-variable"></a>Variable enregistrée
-
-Pour plus d'informations sur cette fonction, voir [Modifier un enregistrement de tâche existant pour créer une variable enregistrée](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
-
-### <a name="derived-test-case"></a>Scénario de test dérivé
-
-1. Ouvrez l'outil RSAT (Regression Suite Automation Tool), puis sélectionnez les deux scénarios de test que vous avez créés dans [Didacticiel Configurer et installer l'outil Regression Suite Automation Tool](./hol-set-up-regression-suite-automation-tool.md).
-2. Sélectionnez **Nouveau \> Créer un scénario de test dérivé**.
-
-    ![Commande Créer un scénario de test dérivé dans le menu Nouveau](./media/use_rsa_tool_01.png)
-
-3. Vous recevez un message indiquant qu'un scénario de test dérivé sera créé pour chaque scénario de test sélectionné dans la suite de tests actuelle, et que chaque scénario de test dérivé aura sa propre copie du fichier de paramètres Excel. Cliquez sur **OK**.
-
-    > [!NOTE]
-    > Lorsque vous exécutez un scénario de test dérivé, il utilise l'enregistrement de tâche de son scénario de test parent et sa propre copie du fichier de paramètres Excel. De cette manière, vous pouvez exécuter le même test avec différents paramètres, sans devoir mettre à jour plusieurs enregistrement de tâches. Un scénario de test dérivé n'est pas obligé de faire partie de la même suite de tests que son scénario de test parent.
-
-    ![Zone de message](./media/use_rsa_tool_02.png)
-
-    Deux scénarios de test dérivés supplémentaires sont créés, et la case à cocher **Dérivé ?** est sélectionnée pour eux.
-
-    ![Scénarios de test dérivés créés](./media/use_rsa_tool_03.png)
-
-    Un scénario de test dérivé est automatiquement créé dans Azure DevOps. Il s'agit d'un élément enfant du scénario de test **Créer un nouveau produit** et il est étiqueté avec un mot clé spécial : **RSAT: DerivedTestSteps**. Ces scénarios de test sont automatiquement ajoutés au plan de test dans Azure DevOps.
-
-    ![Mot clé RSAT:DerivedTestSteps](./media/use_rsa_tool_04.png)
-
-    > [!NOTE]
-    > Si, pour une raison quelconque, les scénarios de test dérivés qui sont créés ne sont pas dans l'ordre correct, accédez à Azure DevOps et réorganisez les scénarios de test dans la suite de tests, de sorte que RSAT puisse les exécuter dans l'ordre correct.
-
-4. Sélectionnez les scénarios de test dérivés, puis sélectionnez **Modifier** pour ouvrir les fichiers de paramètres Excel correspondants.
-5. Modifiez les fichiers de paramètres Excel de la même manière que vous avez modifié les fichiers parents. En d'autres termes, vérifiez que l'ID produit est défini afin d'être généré automatiquement. Assurez-vous également que la variable enregistrée est copiée dans les champs appropriés.
-6. Dans l'onglet **Général** des deux fichiers de paramètres Excel, mettez à jour la valeur du champ **Société** sur **USSI**, afin que les scénarios de test dérivés soient exécutés avec une autre entité juridique que le scénario de test parent. Pour exécuter les scénarios de test pour un utilisateur spécifique (ou le rôle qui est associé à un utilisateur spécifique), vous pouvez mettre à jour la valeur du champ **Utilisateur du test**.
-7. Sélectionnez **Exécuter**, puis vérifiez le produit est créé dans l'entité juridique USMF et l'entité juridique USSI.
-
-### <a name="validate-notifications"></a>Valider les notifications
-
-Cette fonction peut être utilisée pour vérifier si une action s'est produite. Par exemple, lorsqu'un ordre de fabrication est créé, estimé, puis démarré, l'application présente un message « Production – démarrer » pour vous informer que l'ordre de fabrication a commencé.
-
-![Notification Production – Démarrer](./media/use_rsa_tool_05.png)
-
-Vous pouvez valider ce message dans RSAT en entrant le texte du message dans l'onglet **Validation du message** du fichier de paramètres Excel pour l'enregistrement approprié.
-
-![Onglet Validation du message](./media/use_rsa_tool_06.png)
-
-Une fois le scénario de test exécuté, le message du fichier de paramètres Excel est comparé au message qui s'affiche. Si les messages ne correspondent pas, le scénario de test échoue.
-
-> [!NOTE]
-> Vous pouvez entrer plusieurs messages dans l'onglet **Validation du message** du fichier de paramètres Excel. Les messages peuvent également être des messages d'erreur ou d'avertissement au lieu de messages d'information.
-
-### <a name="validate-values-by-using-operators"></a>Valider les valeurs à l'aide d'opérateurs
-
-Dans les versions précédentes de RSAT, vous ne pouviez valider les valeurs que si une valeur de contrôle était égale à une valeur attendue. La nouvelle fonction permet de valider qu'une variable n'est pas égale à, est inférieure à, ou est supérieure à une valeur spécifiée.
-
-- Pour utiliser cette fonction, ouvrez le fichier **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** sous le dossier d'installation de RSAT (par exemple, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), puis modifiez la valeur de l'élément suivant de **faux** à **vrai**.
-
-    ```xml
-    <add key="AddOperatorFieldsToExcelValidation" value="false" />
-    ```
-
-    Dans le fichier de paramètres Excel, un nouveau champ **Opérateur** apparaît.
-
-    > [!NOTE]
-    > Si vous utilisiez une version plus ancienne de RSAT, vous devez générer de nouveaux fichiers de paramètres Excel.
-
-    ![Champ Opérateur](./media/use_rsa_tool_07.png)
+RSAT vous permet d'inclure des étapes de validation dans votre scénario de test pour valider les valeurs attendues. Pour plus d'informations sur cette fonctionnalité, consultez l'article [Valider des valeurs prévues](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md).
 
 L'exemple suivant montre comment vous pouvez utiliser cette fonction pour vérifier si le stock disponible est supérieur à 0 (zéro).
 
@@ -115,7 +49,7 @@ L'exemple suivant montre comment vous pouvez utiliser cette fonction pour vérif
     5. Dans la liste, marquer la ligne sélectionnée.
     6. Vérifiez que la valeur du champ **Total disponible** est **411,0000000000000000**.
 
-2. Enregistrez l'enregistrement de tâche dans la bibliothèque BPM de LCS et synchronisez-la avec Azure DevOps.
+2. Enregistrez l'enregistrement de tâche et joignez-le à votre scénario de test dans Azure Devops.
 3. Ajoutez le scénario de test au plan de test, puis chargez le scénario de test dans RSAT.
 4. Ouvrez le fichier de paramètres Excel. Dans l'onglet **InventOnhandItem**, vous voyez une section **Valider InventOnhandItem** qui inclut un champ **Opérateur**.
 
@@ -130,28 +64,32 @@ L'exemple suivant montre comment vous pouvez utiliser cette fonction pour vérif
 
 Désormais, si la valeur du champ **Total disponible** pour l'article spécifié en stock est supérieure à 0 (zéro), les tests réussiront, indépendamment de la valeur réelle du stock disponible.
 
-### <a name="generator-logs"></a>Journaux Générateur
+### <a name="saved-variables-and-chaining-of-test-cases"></a>Variables enregistrées et enchaînement des cas de test
 
-Cette fonction permet de créer un dossier contenant les journaux des scénarios de test qui ont été exécutés.
+L'une des fonctionnalités principales de RSAT n'est autre que l'enchaînement de cas de test, autrement dit la possibilité pour un test de transmettre des variables à d'autres tests. Pour plus d'informations, consultez l'article [Copier des variables pour enchaîner des cas de test](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md).
 
-- Pour utiliser cette fonction, ouvrez le fichier **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** sous le dossier d'installation de RSAT (par exemple, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), puis modifiez la valeur de l'élément suivant de **faux** à **vrai**.
+### <a name="derived-test-case"></a>Scénario de test dérivé
 
-    ```xml
-    <add key="LogGeneration" value="false" />
-    ```
+RSAT vous permet d'utiliser le même enregistrement de tâche avec plusieurs cas de test, permettant à une tâche de s'exécuter avec différentes configurations de données. Voir l'article [Cas de test dérivés](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md) pour plus d'informations.
 
-Une fois les scénarios de test exécutés, vous pouvez trouver les fichiers journaux sous **C:\\Utilisateurs\\\<Nom d'utilisateur\>\\AppData\\Roaming\\regressionTool\\generatorLogs**.
+### <a name="validate-notifications-and-messages"></a>Valider les notifications et les messages
 
-![Dossier GeneratorLogs](./media/use_rsa_tool_10.png)
+Cette fonction peut être utilisée pour vérifier si une action s'est produite. Par exemple, lorsqu'un ordre de fabrication est créé, estimé, puis démarré, l'application présente un message « Production – démarrer » pour vous informer que l'ordre de fabrication a commencé.
+
+![Notification Production – Démarrer](./media/use_rsa_tool_05.png)
+
+Vous pouvez valider ce message dans RSAT en entrant le texte du message dans l'onglet **Validation du message** du fichier de paramètres Excel pour l'enregistrement approprié.
+
+![Onglet Validation du message](./media/use_rsa_tool_06.png)
+
+Une fois le scénario de test exécuté, le message du fichier de paramètres Excel est comparé au message qui s'affiche. Si les messages ne correspondent pas, le scénario de test échoue.
 
 > [!NOTE]
-> S'il y a des scénarios de test existants avant de modifier la valeur du fichier .config, les journaux ne seront pas générés pour ces scénarios de test jusqu'à ce que vous ayez généré de nouveaux fichiers d'exécution de test.
-> 
-> ![Commande Générer des fichiers d'exécution de test uniquement dans le menu Nouveau](./media/use_rsa_tool_11.png)
+> Vous pouvez entrer plusieurs messages dans l'onglet **Validation du message** du fichier de paramètres Excel. Les messages peuvent également être des messages d'erreur ou d'avertissement au lieu de messages d'information.
 
 ### <a name="snapshot"></a>Instantané
 
-Cette fonction prend des captures d'écran des étapes qui ont été effectuées au cours de l'enregistrement de tâche.
+Cette fonction prend des captures d'écran des étapes qui ont été effectuées au cours de l'enregistrement de tâche. Il est utile à des fins d'audit ou de débogage.
 
 - Pour utiliser cette fonction, ouvrez le fichier **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** sous le dossier d'installation de RSAT (par exemple, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), puis modifiez la valeur de l'élément suivant de **faux** à **vrai**.
 
@@ -159,13 +97,7 @@ Cette fonction prend des captures d'écran des étapes qui ont été effectuées
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Sous **C:\\Utilisateurs\\\<Nom d'utilisateur\>\\AppData\\Roaming\\regressionTool\\playback**, un dossier distinct est créé pour chaque scénario de test qui est exécuté.
-
-![Dossier Instantané pour un scénario de test](./media/use_rsa_tool_12.png)
-
-Dans chacune de ces dossiers, vous pouvez trouver des instantanés des étapes qui ont été effectuées lorsque les scénarios de test ont été effectués.
-
-![Fichiers d'instantané](./media/use_rsa_tool_13.png)
+Lorsque vous exécutez le scénario de test, RSAT génère des instantanés (images) des étapes dans le dossier de lecture des scénarios de test dans le répertoire de travail. Si vous utilisez une version précédente de RSAT, les images sont sauvegardées vers **C:\\Utilisateurs\\\<Nom d'utilisateur\>\\AppData\\Roaming\\regressionTool\\playback**, un dossier distinct est créé pour chaque cas de test exécuté.
 
 ## <a name="assignment"></a>Affectation
 
@@ -183,7 +115,7 @@ La figure suivante présente une capture d'écran du flux de ce scénario.
 
 ![Flux du scénario de démonstration](./media/use_rsa_tool_14.png)
 
-La figure suivante présente les processus métier de ce scénario dans RSAT.
+L'illustration suivante montre la hiérarchie des processus métier pour ce scénario dans le Concepteur de processus d'entreprise LCS.
 
 ![Processus métier pour le scénario de démonstration](./media/use_rsa_tool_15.png)
 
@@ -377,7 +309,7 @@ Vous pouvez utiliser la commande ``listtestsuitenames`` pour obtenir toutes les 
 
 
 #### <a name="help"></a>help
-Identique à la commande [?](####?) .
+Identique à la commande [?](#section) .
 
 
 #### <a name="list"></a>liste
@@ -512,6 +444,8 @@ Affiche deux façons d'appeler cette application : l'une en utilisant un fichie
 
 ### <a name="windows-powershell-examples"></a>Exemples Windows PowerShell
 
+[!IMPORTANT] Les exemples de scripts ci-dessous sont fournis TELS QUELS à des fins d'illustration et ne sont pas pris en charge par Microsoft.
+
 #### <a name="run-a-test-case-in-a-loop"></a>Exécuter un scénario de test dans une boucle
 
 Vous avez un script de test qui crée un nouveau client. Grâce à l'écriture de script, ce scénario de test peut être exécuté en boucle en rendant aléatoires les données suivantes avant chaque itération de l'exécution :
@@ -551,7 +485,7 @@ function RunTestCase
     $cmd = $cmd + $filename
     cmd /c $cmd
 }
-$excelFilename = "full path to excel file parameter file"
+$excelFilename = "full path to Excel parameter file"
 l$sheetName = "DirPartyQuickCreateForm"
 for ($i = $start; $i -lt $start + $nr; $i++ )
 {

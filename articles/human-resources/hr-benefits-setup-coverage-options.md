@@ -1,9 +1,9 @@
 ---
 title: Créer des options de couverture
-description: Les options de couverture dans Microsoft Dynamics 365 Human Resources sont les niveaux de couverture selon le choix d'un participant dans un régime ou un programme d'avantages sociaux, comme Employé seulement pour un régime médical ou 2x Salaire pour un régime d'assurance-vie.
+description: Les options de couverture dans Microsoft Dynamics 365 Human Resources sont les niveaux de couverture pour le choix d'un participant dans un régime ou un programme d'avantages.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092704"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230175"
 ---
 # <a name="create-coverage-options"></a>Créer des options de couverture
 
-[!include [banner](includes/preview-feature.md)]
+Les options de couverture dans Microsoft Dynamics 365 Human Resources sont les niveaux de couverture pour le choix d'un participant dans un régime ou un programme d'avantages. Par exemple, les options de couverture pourraient inclure **Employé seulement** pour un plan médical, ou **2x Salaire** pour un régime d'assurance-vie. Une fois défini, vous pouvez réutiliser les options de couverture des avantages. Vous pouvez associer une option avec un ou plusieurs plans.
 
-Les options de couverture dans Microsoft Dynamics 365 Human Resources sont les niveaux de couverture selon le choix d'un participant dans un régime ou un programme d'avantages sociaux, comme Employé seulement pour un régime médical ou 2x Salaire pour un régime d'assurance-vie. Une fois définies, les options de couverture des prestations sont réutilisables et vous pouvez associer une option à un ou plusieurs plans.
-
-Une fois les options de couverture définies, associez les options de couverture à un type de régime d'avantages sociaux. Le type de plan est ensuite associé à un plan ou programme d'avantages. Les options de couverture associées à un type de plan seront disponibles pour tous les plans créés avec ce type de plan. 
+Après avoir défini les options de couverture, associez les options de couverture à un type de régime d'avantages sociaux. Le type de plan est ensuite associé à un plan ou programme d'avantages. Les options de couverture associées à un type de plan sont disponibles pour tous les plans créés avec ce type de plan. 
 
 1. Dans l'espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Options de couverture**.
 

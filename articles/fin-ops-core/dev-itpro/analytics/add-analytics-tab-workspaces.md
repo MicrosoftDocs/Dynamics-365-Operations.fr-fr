@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025852"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259630"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
 
@@ -84,7 +84,7 @@ Procédez comme suit pour prolonger la définition d'écran pour l'espace de tra
 8. Cliquez avec le bouton droit et sélectionnez la page **Nouvel onglet**.
 9. Renommez la page de l'onglet avec un nom évocateur, tel qu'**Analyses**.
 10. Dans le concepteur d'écrans, sélectionnez **Analyses (page d'onglet)**.
-11. Définissez la propriété **Légende** sur **Analyses**.
+11. Définissez la propriété **Légende** sur **Analyse** et définissez la propriété **Déclaration automatique** sur **Oui**.
 12. Cliquez avec le bouton droit sur le contrôle, puis sélectionnez **Nouveau** \> **Groupe** pour ajouter un nouveau contrôle de groupe d'écrans.
 13. Renommez le groupe d'écrans avec un nom évocateur, tel que **powerBIReportGroup**.
 14. Dans le concepteur d'écrans, sélectionnez **PanoramaBody (onglet)**, puis faites glisser le contrôle dans l'onglet **Espace de travail**.

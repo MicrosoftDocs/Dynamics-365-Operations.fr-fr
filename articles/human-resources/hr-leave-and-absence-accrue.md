@@ -3,7 +3,7 @@ title: Régulariser les plans de congé et d'absence
 description: Vous pouvez provisionner les congés et les absences dans Dynamics 365 Human Resources pour plusieurs employés ou pour un employé individuel.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092336"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197311"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Régulariser les plans de congé et d'absence
 
@@ -35,7 +35,7 @@ Vous pouvez provisionner les congés et les absences dans Dynamics 365 Human Res
 
 2. Sous **Gérer les congés**, sélectionnez **Provisionner les plans de congé et d'absence**.
 
-3. Dans la boîte de dialogue **Provisionner les plans de congé et d'absence**, dans **Provisionner pour le**, sélectionnez la **Date du jour** ou sélectionnez une **Date personnalisée** et entrez une date personnalisée.
+3. La boîte de dialogue **Régulariser les plans de congé et d'absence** apparaît. Dans **Provisionner pour le**, sélectionnez **Date du jour** ou **Date personnalisée** et entrez une date personnalisée.
 
 4. Si vous souhaitez exécuter le processus de provision en arrière-plan, sélectionnez **Exécuter à l'arrière-plan** et effectuez les tâches suivantes :
 
@@ -53,7 +53,7 @@ Vous pouvez provisionner les congés et les absences dans Dynamics 365 Human Res
 
 2. Sélectionnez **Provisionner les congés et les absences**.
 
-3. Dans la boîte de dialogue **Provisionner les plans de congé et d'absence**, dans **Provisionner pour le**, sélectionnez la **Date du jour** ou sélectionnez une **Date personnalisée** et entrez une date personnalisée.
+3. La boîte de dialogue **Régulariser les plans de congé et d'absence** apparaît. Dans **Provisionner pour le**, sélectionnez **Date du jour** ou **Date personnalisée** et entrez une date personnalisée.
 
 4. Si vous souhaitez exécuter le processus de provision en arrière-plan, sélectionnez **Exécuter à l'arrière-plan** et effectuez les tâches suivantes :
 
@@ -65,17 +65,45 @@ Vous pouvez provisionner les congés et les absences dans Dynamics 365 Human Res
 
    4. Cliquez sur **OK**. Le processus de provisionnement s'exécutera avec les paramètres que vous définissez.
 
-## <a name="preview-features-for-leave-and-absence"></a>Fonctionnalités d'aperçu pour les congés et les absences
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>Supprimer les régularisations de congé et d'absence pour plusieurs employés
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+Supprimez les enregistrements de provisions pour un plan et une plage de dates spécifiques. Les dates de provision doivent correspondre à la date du jour ou au lendemain.
 
-Vous pouvez activer les fonctionnalités d'aperçu suivantes pour les congés et les absences :
+1. Dans la page **Plans de congé et d'absence**, sélectionnez l'onglet **Liens**.
 
-- **Supprimer les provisions des congés et des absences**. Supprimez les enregistrements de provisions pour un plan et une plage de dates spécifiques. Les dates de provision doivent correspondre à la date du jour ou au lendemain.
+2. Sous **Gérer les congés**, sélectionnez **Supprimer les provisions de plans de congé et d'absence**.
 
-- **Audit des provisions de congés**. Affiche chaque fois que quelqu'un exécute ou supprime une provision pour un ou tous les employés, avec la date et qui a effectué l'action.
+3. Dans la boîte de dialogue **Supprimer les provisions de plans de congé et d'absence**, sélectionnez **Plan de congé**. 
+
+4. Le cas échéant, choisissez **Supprimer les ajustements de solde**.
+
+5. Saisissez ou sélectionnez une **Date de provision de congés**. Cette date doit être soit aujourd'hui soit une date à venir. 
+
+6. Cliquez sur **OK**. Le processus de régularisation supprimera les provisions et les paramètres que vous définissez. 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>Supprimer les provisions de congés et d'absences pour un seul employé
+
+1. Dans le dossier de l'employé, sélectionnez **Congé**.
+
+2. Sélectionnez **Supprimer les provisions de plans de congés et d'absences**.
+
+3. Dans la boîte de dialogue **Supprimer les provisions de plans de congé et d'absence**, sélectionnez **Plan de congé**. 
+
+4. Le cas échéant, choisissez **Supprimer les ajustements de solde**.
+
+5. Saisissez ou sélectionnez une **Date de provision de congés**. Cette date doit être soit aujourd'hui soit une date à venir. 
+
+6. Cliquez sur **OK**. Le processus de régularisation supprimera les provisions et les paramètres que vous définissez. 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>Examiner les processus de régularisation et de suppression des congés
+
+**Audit des provisions de congés** s'affiche chaque fois que vous exécutez ou supprimez une provision pour un ou tous les employés. La date et la personne qui ont effectué l'action s'affichent également.
+
+1. Dans la page **Plans de congé et d'absence**, sélectionnez l'onglet **Liens**.
+
+2. Sous **Gérer les congés**, sélectionnez **Supprimer l'audit de provision de congés**.
 
 ## <a name="see-also"></a>Voir également :
 
 - [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
-- [Création d'un plan de congé et d'absence](hr-leave-and-absence-plans.md)
+- [Créer un plan de congé et d'absence](hr-leave-and-absence-plans.md)

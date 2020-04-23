@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42fcbeaadf0e8156cd72bee4328ca612c1abbaff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 058102b369ec7ed79874017e50a06d265b96b424
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009069"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198764"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Définir le processus de rémunération et calculer les résultats
-
-
 
 Des processus de rémunération permettent de déterminer de nouveaux montants et primes de rémunération pour les employés inscrits aux régimes de rémunération fixes et variables. Vous pouvez exécuter les processus de rémunération plusieurs fois afin d'effectuer une analyse d'hypothèse, et vérifier ainsi que toutes les modifications et tous les paramètres sont corrects. Cette procédure crée un processus de rémunération, exécute le processus, et affiche les résultats. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

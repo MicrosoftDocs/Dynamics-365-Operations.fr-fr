@@ -3,7 +3,7 @@ title: Fonctions supprimées ou obsolètes dans les versions précédentes
 description: Cette rubrique décrit les fonctionnalités qui ont été supprimées ou dont la suppression de Dynamics 365 for Finance and Operations était planifiée et les versions précédentes de ce produit.
 author: sericks007
 manager: AnnBe
-ms.date: 03/05/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124564"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225126"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctions supprimées ou obsolètes dans les versions précédentes
 
@@ -263,11 +263,11 @@ Les indicateurs de performance clé intégrés (KPI) peuvent être modélisés d
 
 |   |  |
 |------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Il est possible pour les définitions de métadonnées de table d'avoir des groupes de champs contenant des références de champs non valides. Ce problème est actuellement catégorisé comme *avertissement du compilateur* plutôt que comme *erreur*, ce qui signifie que la création et le déploiement d'un pack déployable peuvent survenir sans corriger ce problème. En cas de déploiement, cela peut provoquer des erreurs d'exécution dans Financial Reporting et SQL Server Reporting Services (SSRS). Pour résoudre ce problème :<br><br>1. Supprimez la référence de champ non valide de la définition du groupe de champs de table.<br><br>2. Recompilez.<br><br>3. Veillez à ce que tous les avertissements ou toutes les erreurs soient traitées. |
-| **Remplacé par une autre fonctionnalité ?**   | Cet avertissement du compilateur sera remplacé par une erreur de compilation dans une prochaine version.  |
-| **Zones de produit affectées**         | Outils de développement Visual Studio. |
-| **Option de déploiement**              | Tout. |
-| **État**                         | Obsolète : l'avertissement deviendra une erreur de compilation dans une prochaine version. Actuellement, nous visons Platform Update 30. |
+| **Motif de l'abandon/de la suppression** | Il est possible pour les définitions de métadonnées de table d'avoir des groupes de champs contenant des références de champs non valides. En cas de déploiement, cela peut provoquer des erreurs d'exécution dans Financial Reporting et SQL Server Reporting Services (SSRS). Ce problème est actuellement catégorisé comme *avertissement du compilateur* plutôt que comme *erreur*, ce qui signifie que la création et le déploiement d'un pack déployable peuvent survenir sans corriger ce problème. Pour résoudre ce problème :<br><br>1. Supprimez la référence de champ non valide de la définition du groupe de champs de table.<br><br>2. Recompilez.<br><br>3. Veillez à ce que tous les avertissements ou toutes les erreurs soient traitées. |
+| **Remplacé par une autre fonctionnalité ?**   | Cet avertissement du compilateur sera remplacé par une erreur de compilation dans une prochaine version. |
+| **Zones de produit affectées**         | Outils de développement Visual Studio |
+| **Option de déploiement**              | Tout |
+| **État**                         | Obsolète : l'avertissement deviendra une erreur de compilation dans une prochaine version. Cette modification est destinée aux mises à jour de plate-forme pour la version 10.0.11 des applications Finance and Operations. |
 
 #### <a name="complete-list"></a>Liste complète
 Pour accéder à la liste complète des API en cours d'abandon, voir [Abandon des méthodes et des éléments de métadonnées](deprecation-deletion-apis.md).

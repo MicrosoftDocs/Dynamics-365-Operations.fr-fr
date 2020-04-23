@@ -2,15 +2,15 @@
 title: Retards
 description: Cette rubrique fournit des informations sur les dates retardées de la planification. Une date retardée est une date d'échéance réaliste attribuée à une transaction si la date d'exécution la plus proche calculée par la planification est postérieure à la date demandée.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 03/15/2019
+manager: tfehr
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34252e5cd9ee5151b1cba47975fc0cc612521a17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522287"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203846"
 ---
 # <a name="delays"></a>Retards
 
@@ -44,6 +44,12 @@ Dans la page **Paramètres de planification**, vous pouvez définir l'heure de d
 
 > [!NOTE]
 > Dans les versions précédentes, les retards calculés étaient appelés *messages de perspectives*, la date différée était appelée *date au plus tôt*, et une transaction différée était appelée *transaction définie dans le futur*.
+
+## <a name="limited-delays-in-production-setup-with-multiple-bom-levels"></a>Retards limités à la configuration de la production avec plusieurs niveaux de nomenclature
+Lorsque vous travaillez avec des retards dans une configuration de production avec plusieurs niveaux de nomenclature, il est important de noter que seuls les articles directement au-dessus de l'article (dans la structure de nomenclature) provoquant le retard, seront mis à jour avec un retard dans le cadre de l'exécution de la planification principale. Le retard ne sera pas appliqué aux autres articles de la structure de la nomenclature tant que la première exécution de la planification principale n'est pas terminée, une fois l'ordre planifié pour le niveau supérieur approuvé ou confirmé. 
+
+Pour contourner cette limitation connue, les ordres de fabrication en haut de la structure de la nomenclature avec des retards peuvent être approuvés (ou confirmés) avant la prochaine exécution de la planification principale. De cette façon, le retard par rapport à l'ordre de fabrication prévisionnel approuvé retardé sera conservé et tous les composants sous-jacents seront mis à jour en conséquence.
+Les messages d'action peuvent être également utilisés pour identifier les ordres planifiés qui peuvent être déplacés à une date ultérieure, en raison d'autres retards dans la structure de la nomenclature.
 
 ## <a name="desired-date"></a>Date souhaitée
 
