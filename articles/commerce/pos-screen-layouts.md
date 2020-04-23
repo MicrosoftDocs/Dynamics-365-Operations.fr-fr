@@ -1,9 +1,9 @@
 ---
-title: Mises en page de l'écran pour le point de vente (PDV)
+title: Configurations visuelles de l'interface utilisateur de PDV
 description: Cette rubrique fournit des informations sur les mises en page de l'écran pour les expériences pour PDV Dynamics 365 Commerce.
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022570"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261465"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Mises en page de l'écran pour le point de vente (PDV)
+# <a name="pos-user-interface-visual-configurations"></a>Configurations visuelles de l'interface utilisateur de PDV
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Cette rubrique fournit des informations sur les mises en page de l'écran pour les expériences pour PDV Dynamics 365 Commerce.
-
-L'interface utilisateur POS peut être configurée en utilisant une combinaison de profils visuels et de mises en page de l'écran qui sont affectés aux magasins, aux registres et/ou aux utilisateurs.
+L'interface utilisateur du point de vente (PDV) Microsoft Dynamics 365 Commerce peut être configurée avec une combinaison de profils visuels et de mises en page de l'écran, qui sont affectés aux magasins, aux registres et/ou aux utilisateurs. Cette rubrique offre des informations à propos de ces options de configuration.
 
 L'illustration suivante présente les relations entre les différentes entités qui constituent les aspects configurables de l'interface utilisateur du POS.
 
@@ -40,7 +39,7 @@ L'illustration suivante présente les relations entre les différentes entités 
 
 ## <a name="visual-profile"></a>Profil visuel
 
-Les profils visuels sont affectés aux registres et ils spécifient les éléments visuels qui sont spécifiques aux registres et qui sont partagés par plusieurs utilisateurs. Chaque utilisateur qui se connecte au registre voit les mêmes thèmes, couleurs et images.
+Les profils visuels sont affectés aux registres et ils spécifient les éléments visuels qui sont spécifiques aux registres et qui sont partagés par plusieurs utilisateurs. Chaque utilisateur qui se connecte au registre voit les mêmes thèmes, mise à jour, couleurs et images.
 
 ![Écran d'accueil de POS avec un thème clair](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ Les profils visuels sont affectés aux registres et ils spécifient les élémen
 
 - **Numéro de profil** – Le numéro de profil est l'identificateur unique du profil visuel.
 - **Description** – Vous pouvez spécifier un nom significatif qui permet d'identifier le profil correct pour votre cas.
-- **Thème** – Vous pouvez choisir entre les thèmes d'application Clair et Foncé. Le thème affecte les couleurs de police et d'arrière-plan dans l'application.
+- **Thème** – Vous pouvez choisir entre les thèmes d'application **Clair** et **Foncé**. Le thème affecte les couleurs de police et d'arrière-plan dans l'application.
 - **Couleur d'accentuation** – La couleur d'accentuation est utilisée dans le POS pour différencier ou mettre en évidence des éléments visuels spécifiques tels que des vignettes, des boutons de commande et des liens hypertextes. En général, ces éléments sont modifiables.
-- **Couleur d'en-tête** – Vous pouvez configurer la couleur de l'en-tête de page pour répondre aux exigences de marque du détaillant. Cette fonction est disponible uniquement dans Retail version 1611.
-- **Afficher date/heure** – Lorsque cette option est activée, la date et l'heure actuelles sont affichées dans l'en-tête POS.
-- **Arrière-plan de connexion** – Vous pouvez spécifier une image d'arrière-plan pour l'écran de connexion. La taille du fichier des images d'arrière-plan devrait être aussi petite que possible, car le stockage et le chargement de fichiers volumineux peuvent affecter le comportement et les performances de l'application.
-- **Arrière-plan d'application** – Vous pouvez spécifier une image d'arrière-plan qui est utilisée à la place de la couleur de thème unie dans l'application. Comme pour les arrières-plans de connexion, la taille de fichier devrait être aussi petite que possible.
+- **Couleur d'en-tête** – Vous pouvez configurer la couleur de l'en-tête de page pour répondre aux exigences de marque du détaillant.
+- **Schéma de police** - Vous pouvez choisir entre les schémas de police **Standard** et **Grand**. Le schéma de police a un impact sur la taille de la police dans toute l'application. La sélection par défaut est **Standard**.
+- **Toujours afficher les étiquettes de la barre d'application** - Lorsque cette option est activée, le texte de l'étiquette est toujours visible sous les boutons de la barre d'application.
+- **Disposition** - Vous pouvez choisir entre les mises en page **Centré** et **Droite**. La disposition affecte l'alignement de la boîte de connexion sur l'écran de connexion. La sélection par défaut est **Centré**.
+- **Afficher la date/l'heure** - Lorsque cette option est activée, la date et l'heure actuelles sont affichées dans l'en-tête du PDV et sur l'écran de connexion.
+- **Clavier** - Vous pouvez choisir entre **Clavier OS par défaut** et **Afficher le pavé numérique** pour spécifier le clavier par défaut utilisé pour la saisie sur l'écran de connexion. Le pavé numérique est un clavier virtuel utilisé principalement pour les appareils tactiles. La sélection par défaut est **Clavier OS par défaut**.
+- **Image de logo** - Vous pouvez spécifier une image de logo qui s'affiche sur l'écran de connexion. Nous vous recommandons d'utiliser une image qui a un arrière-plan transparent. La taille du fichier des images d'arrière-plan devrait être aussi petite que possible, car le stockage et le chargement de fichiers volumineux peuvent affecter le comportement et les performances de l'application.
+- **Arrière-plan de connexion** – Vous pouvez spécifier une image d'arrière-plan pour l'écran de connexion. La taille de fichier des images d'arrière-plan devrait être aussi petite que possible.
+- **Arrière-plan** – Vous pouvez spécifier une image d'arrière-plan qui est utilisée à la place de la couleur de thème unie dans l'application. En ce qui concerne les images d'arrière-plan de l'écran de connexion, la taille du fichier doit être aussi petite que possible.
+
+> [!NOTE]
+> Le disposition **Droite** et l'affichage de la date/de l'heure ne s'appliquent pas à l'écran de connexion en vue compacte.
 
 ## <a name="screen-layouts"></a>Mises en page de l'écran
 
-Les configurations de la mise en page de l'écran déterminent les actions, le contenu et le placement des contrôles de l'interface utilisateur dans l'écran d'accueil et l'écran **Transaction** du POS.
+Les configurations de la mise en page de l'écran déterminent les actions, le contenu et le placement des contrôles de l'interface utilisateur dans l'écran **Accueil** et l'écran **Transaction**.
 
 ![Vue de l'entité Mise en page de l'écran POS](../commerce/media/POS-Screen-Layout-View.png)
 
