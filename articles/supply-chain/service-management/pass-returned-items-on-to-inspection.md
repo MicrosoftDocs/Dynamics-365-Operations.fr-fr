@@ -2,7 +2,7 @@
 title: Transmission d'articles retournés pour inspection
 description: Lorsque vous enregistrez un retour marchandises, déterminez qu'un article doit être envoyé pour inspection avant son retour en stock ou sa cession.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSJournalTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70aafb752b2c847d5d48236fd5d201a73e088c24
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cbb43bc4f696935bba9fca6435eb73fc9a2e5149
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556781"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202098"
 ---
-# <a name="pass-returned-items-on-to-inspection"></a><span data-ttu-id="e2121-103">Transmission d'articles retournés pour inspection</span><span class="sxs-lookup"><span data-stu-id="e2121-103">Pass returned items on to inspection</span></span> 
+# <a name="pass-returned-items-on-to-inspection"></a><span data-ttu-id="225b8-103">Transmission d'articles retournés pour inspection</span><span class="sxs-lookup"><span data-stu-id="225b8-103">Pass returned items on to inspection</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="e2121-104">Lorsque vous enregistrez un retour marchandises, vous pouvez déterminer qu'un article doit être envoyé pour inspection avant son retour en stock ou sa cession.</span><span class="sxs-lookup"><span data-stu-id="e2121-104">When registering a returned item, you may determine that an item should be sent for inspection before it is returned to inventory or disposed of in some other way.</span></span>
+<span data-ttu-id="225b8-104">Lorsque vous enregistrez un retour marchandises, vous pouvez déterminer qu'un article doit être envoyé pour inspection avant son retour en stock ou sa cession.</span><span class="sxs-lookup"><span data-stu-id="225b8-104">When registering a returned item, you may determine that an item should be sent for inspection before it is returned to inventory or disposed of in some other way.</span></span>
 
-1.  <span data-ttu-id="e2121-105">Cliquez sur **Gestion des stocks** \> **Journaux** \> **Arrivée d'articles** \> **Arrivée d'articles**.</span><span class="sxs-lookup"><span data-stu-id="e2121-105">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
+1.  <span data-ttu-id="225b8-105">Cliquez sur **Gestion des stocks** \> **Journaux** \> **Arrivée d'articles** \> **Arrivée d'articles**.</span><span class="sxs-lookup"><span data-stu-id="225b8-105">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
     
-    <span data-ttu-id="e2121-106">\-ou-</span><span class="sxs-lookup"><span data-stu-id="e2121-106">\-or-</span></span>
+    <span data-ttu-id="225b8-106">\-ou-</span><span class="sxs-lookup"><span data-stu-id="225b8-106">\-or-</span></span>
     
-    <span data-ttu-id="e2121-107">Cliquez sur **Gestion des stocks** \> **Journaux** \> **Arrivée d'articles** \> **Entrée en production**.</span><span class="sxs-lookup"><span data-stu-id="e2121-107">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Production input**.</span></span>
+    <span data-ttu-id="225b8-107">Cliquez sur **Gestion des stocks** \> **Journaux** \> **Arrivée d'articles** \> **Entrée en production**.</span><span class="sxs-lookup"><span data-stu-id="225b8-107">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Production input**.</span></span>
 
-2.  <span data-ttu-id="e2121-108">Dans l'écran **Journal des emplacements**, enregistrez la réception d'un article normalement.</span><span class="sxs-lookup"><span data-stu-id="e2121-108">On the **Location journal** form, register the receipt of an item as usual.</span></span>
+2.  <span data-ttu-id="225b8-108">Dans l'écran **Journal des emplacements**, enregistrez la réception d'un article normalement.</span><span class="sxs-lookup"><span data-stu-id="225b8-108">On the **Location journal** form, register the receipt of an item as usual.</span></span>
     
 
     > [!NOTE]
-    > <P><span data-ttu-id="e2121-109">Pour plus d'informations sur l'enregistrement de la réception des retours marchandises, voir <A href="register-the-receipt-of-returned-items.md">Enregistrement de la réception d'articles retournés</A></span><span class="sxs-lookup"><span data-stu-id="e2121-109">For information about registering the receipt of returned items, see <A href="register-the-receipt-of-returned-items.md">Register the receipt of returned items</A></span></span></P>
+    > <P><span data-ttu-id="225b8-109">Pour plus d'informations sur l'enregistrement de la réception des retours marchandises, voir <A href="register-the-receipt-of-returned-items.md">Enregistrement de la réception d'articles retournés</A></span><span class="sxs-lookup"><span data-stu-id="225b8-109">For information about registering the receipt of returned items, see <A href="register-the-receipt-of-returned-items.md">Register the receipt of returned items</A></span></span></P>
 
 
 
-3.  <span data-ttu-id="e2121-110">Sous l'onglet **Valeurs par défaut**, dans la zone **Mode de traitement**, cochez la case **Gestion des contrôles**.</span><span class="sxs-lookup"><span data-stu-id="e2121-110">On the **Default values** tab, in the **Mode of handling** area, select the **Quarantine management** box.</span></span>
+3.  <span data-ttu-id="225b8-110">Sous l'onglet **Valeurs par défaut**, dans la zone **Mode de traitement**, cochez la case **Gestion des contrôles**.</span><span class="sxs-lookup"><span data-stu-id="225b8-110">On the **Default values** tab, in the **Mode of handling** area, select the **Quarantine management** box.</span></span>
 
-<span data-ttu-id="e2121-111">Cela entraîne la création par le système d'un ordre de contrôle. La personne ou le département chargé(e) des inspections répond à cet ordre à l'aide de l'écran **Ordre de contrôle**.</span><span class="sxs-lookup"><span data-stu-id="e2121-111">This will prompt the system to create a quarantine order, and the person or department that performs inspections will respond to this order using the **Quarantine order** form.</span></span>
+<span data-ttu-id="225b8-111">Cela entraîne la création par le système d'un ordre de contrôle. La personne ou le département chargé(e) des inspections répond à cet ordre à l'aide de l'écran **Ordre de contrôle**.</span><span class="sxs-lookup"><span data-stu-id="225b8-111">This will prompt the system to create a quarantine order, and the person or department that performs inspections will respond to this order using the **Quarantine order** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e2121-112">Voir également :</span><span class="sxs-lookup"><span data-stu-id="e2121-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="225b8-112">Voir également :</span><span class="sxs-lookup"><span data-stu-id="225b8-112">See also</span></span>
 
-[<span data-ttu-id="e2121-113">Inspection des articles retournés</span><span class="sxs-lookup"><span data-stu-id="e2121-113">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
+[<span data-ttu-id="225b8-113">Inspection des articles retournés</span><span class="sxs-lookup"><span data-stu-id="225b8-113">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
 
-[<span data-ttu-id="e2121-114">Spécification de la procédure de cession des articles retournés</span><span class="sxs-lookup"><span data-stu-id="e2121-114">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
+[<span data-ttu-id="225b8-114">Spécification de la procédure de cession des articles retournés</span><span class="sxs-lookup"><span data-stu-id="225b8-114">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
 

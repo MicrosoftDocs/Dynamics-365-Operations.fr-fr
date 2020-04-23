@@ -1,8 +1,8 @@
 ---
 title: Créer une commande fournisseur pour un fournisseur occasionnel
 description: Cette procédure vous indique comment créer une commande fournisseur pour un fournisseur occasionnel.
-author: FrankDahl
-manager: AnnBe
+author: mkirknel
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,32 +10,32 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a55cd8f21b99589a44f7509123d3417fd9dc07f6
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 76915772809d736cac9e8a9439d9e693a4490eec
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147432"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204905"
 ---
-# <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="a030e-103">Créer une commande fournisseur pour un fournisseur occasionnel</span><span class="sxs-lookup"><span data-stu-id="a030e-103">Create a purchase order for a one-time supplier</span></span>
+# <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="9a106-103">Créer une commande fournisseur pour un fournisseur occasionnel</span><span class="sxs-lookup"><span data-stu-id="9a106-103">Create a purchase order for a one-time supplier</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a030e-104">Cette procédure vous indique comment créer une commande fournisseur pour un fournisseur occasionnel.</span><span class="sxs-lookup"><span data-stu-id="a030e-104">This procedure shows you how to create a purchase order for a one-time supplier.</span></span> <span data-ttu-id="a030e-105">Le fournisseur est créé automatiquement avec la commande fournisseur, plutôt que d'avoir à créer le compte fournisseur manuellement.</span><span class="sxs-lookup"><span data-stu-id="a030e-105">The supplier is created automatically with the purchase order, rather than having to create the vendor account manually.</span></span> <span data-ttu-id="a030e-106">Les commandes fournisseur sont généralement créées par un agent des achats.</span><span class="sxs-lookup"><span data-stu-id="a030e-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="a030e-107">L'exemple indiqué dans ce guide peut être utilisé dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="a030e-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="a030e-108">Il est impératif qu'un compte fournisseur occasionnel soit défini dans la page Paramètres des achats.</span><span class="sxs-lookup"><span data-stu-id="a030e-108">It is a prerequisite that a one-time vendor account has been set up in the Account payable parameters page.</span></span>
+<span data-ttu-id="9a106-104">Cette procédure vous indique comment créer une commande fournisseur pour un fournisseur occasionnel.</span><span class="sxs-lookup"><span data-stu-id="9a106-104">This procedure shows you how to create a purchase order for a one-time supplier.</span></span> <span data-ttu-id="9a106-105">Le fournisseur est créé automatiquement avec la commande fournisseur, plutôt que d'avoir à créer le compte fournisseur manuellement.</span><span class="sxs-lookup"><span data-stu-id="9a106-105">The supplier is created automatically with the purchase order, rather than having to create the vendor account manually.</span></span> <span data-ttu-id="9a106-106">Les commandes fournisseur sont généralement créées par un agent des achats.</span><span class="sxs-lookup"><span data-stu-id="9a106-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="9a106-107">L'exemple indiqué dans ce guide peut être utilisé dans les données fictives de la société USMF.</span><span class="sxs-lookup"><span data-stu-id="9a106-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="9a106-108">Il est impératif qu'un compte fournisseur occasionnel soit défini dans la page Paramètres des achats.</span><span class="sxs-lookup"><span data-stu-id="9a106-108">It is a prerequisite that a one-time vendor account has been set up in the Account payable parameters page.</span></span>
 
 
-## <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="a030e-109">Créer une commande fournisseur pour un fournisseur occasionnel</span><span class="sxs-lookup"><span data-stu-id="a030e-109">Create a purchase order for a one-time supplier</span></span>
-1. <span data-ttu-id="a030e-110">Accédez à Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a030e-110">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="a030e-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a030e-111">Click New.</span></span>
-3. <span data-ttu-id="a030e-112">Dans le champ Fournisseur occasionnel, sélectionnez Oui.</span><span class="sxs-lookup"><span data-stu-id="a030e-112">Select Yes in the One-time supplier field.</span></span>
-    * <span data-ttu-id="a030e-113">Un compte fournisseur est automatiquement créé et affecté à la commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a030e-113">A vendor account is automatically created and assigned to the purchase order.</span></span> <span data-ttu-id="a030e-114">Le compte fournisseur est créé en fonction du modèle qui est spécifié sur l'onglet Général de la page Paramètres de la comptabilité fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a030e-114">The vendor account is created based on the template that is specified on the General tab in the Accounts payable parameters page.</span></span>  
-4. <span data-ttu-id="a030e-115">Dans le champ Nom, tapez un nom pour le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a030e-115">In the Name field, type a name for the supplier.</span></span>
-5. <span data-ttu-id="a030e-116">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="a030e-116">Click OK.</span></span>
-    * <span data-ttu-id="a030e-117">La commande fournisseur peut maintenant être traitée comme n'importe quelle autre commande.</span><span class="sxs-lookup"><span data-stu-id="a030e-117">The purchase order can now be completed and processed like any other order.</span></span> <span data-ttu-id="a030e-118">Il n'y a aucune caractéristique spéciale liée à la façon dont ceci est fait.</span><span class="sxs-lookup"><span data-stu-id="a030e-118">There are no special characteristics related to how this is done.</span></span> <span data-ttu-id="a030e-119">La facture va prendre en compte une transaction due sur le compte fournisseur qui a été créé avec la commande et le paiement sera alors traité.</span><span class="sxs-lookup"><span data-stu-id="a030e-119">The invoice will account a due transaction on the vendor account that was created with the order, and payment will then be processed.</span></span>
+## <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="9a106-109">Créer une commande fournisseur pour un fournisseur occasionnel</span><span class="sxs-lookup"><span data-stu-id="9a106-109">Create a purchase order for a one-time supplier</span></span>
+1. <span data-ttu-id="9a106-110">Accédez à Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9a106-110">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="9a106-111">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="9a106-111">Click New.</span></span>
+3. <span data-ttu-id="9a106-112">Dans le champ Fournisseur occasionnel, sélectionnez Oui.</span><span class="sxs-lookup"><span data-stu-id="9a106-112">Select Yes in the One-time supplier field.</span></span>
+    * <span data-ttu-id="9a106-113">Un compte fournisseur est automatiquement créé et affecté à la commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9a106-113">A vendor account is automatically created and assigned to the purchase order.</span></span> <span data-ttu-id="9a106-114">Le compte fournisseur est créé en fonction du modèle qui est spécifié sur l'onglet Général de la page Paramètres de la comptabilité fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9a106-114">The vendor account is created based on the template that is specified on the General tab in the Accounts payable parameters page.</span></span>  
+4. <span data-ttu-id="9a106-115">Dans le champ Nom, tapez un nom pour le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9a106-115">In the Name field, type a name for the supplier.</span></span>
+5. <span data-ttu-id="9a106-116">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="9a106-116">Click OK.</span></span>
+    * <span data-ttu-id="9a106-117">La commande fournisseur peut maintenant être traitée comme n'importe quelle autre commande.</span><span class="sxs-lookup"><span data-stu-id="9a106-117">The purchase order can now be completed and processed like any other order.</span></span> <span data-ttu-id="9a106-118">Il n'y a aucune caractéristique spéciale liée à la façon dont ceci est fait.</span><span class="sxs-lookup"><span data-stu-id="9a106-118">There are no special characteristics related to how this is done.</span></span> <span data-ttu-id="9a106-119">La facture va prendre en compte une transaction due sur le compte fournisseur qui a été créé avec la commande et le paiement sera alors traité.</span><span class="sxs-lookup"><span data-stu-id="9a106-119">The invoice will account a due transaction on the vendor account that was created with the order, and payment will then be processed.</span></span>
 
