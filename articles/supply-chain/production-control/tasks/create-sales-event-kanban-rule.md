@@ -2,7 +2,7 @@
 title: Créer une règle de kanban d'événement de vente
 description: Cette procédure consiste à réaliser le paramétrage nécessaire pour créer une règle de kanban qui est déclenchée pendant la création d'une commande client.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,67 +10,67 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e17778d0fb05a1a5f7562027dc4e7f037e95e555
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 1759adea6db8120078e2f32bff79178545c2328a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149157"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210845"
 ---
-# <a name="create-a-sales-event-kanban-rule"></a><span data-ttu-id="b0926-103">Créer une règle de kanban d'événement de vente</span><span class="sxs-lookup"><span data-stu-id="b0926-103">Create a sales event kanban rule</span></span>
+# <a name="create-a-sales-event-kanban-rule"></a><span data-ttu-id="63835-103">Créer une règle de kanban d'événement de vente</span><span class="sxs-lookup"><span data-stu-id="63835-103">Create a sales event kanban rule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="b0926-104">Cette procédure consiste à réaliser le paramétrage nécessaire pour créer une règle de kanban qui est déclenchée pendant la création d'une commande client.</span><span class="sxs-lookup"><span data-stu-id="b0926-104">This procedure focuses on the setup needed to create a kanban rule that is triggered during sales order creation.</span></span> <span data-ttu-id="b0926-105">La règle de kanban d'événement réalise le réapprovisionnement des besoins provenant des lignes de commande client.</span><span class="sxs-lookup"><span data-stu-id="b0926-105">The event kanban rule replenishes requirements that originate from sales order lines.</span></span> <span data-ttu-id="b0926-106">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="b0926-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b0926-107">Elle est destinée à l'ingénieur processus ou au responsable de la chaîne de valeur, car ils préparent la production d'un produit nouveau ou modifié.</span><span class="sxs-lookup"><span data-stu-id="b0926-107">It is intended for the process engineer or the value stream manager as they prepare production of a new or modified product.</span></span>
+<span data-ttu-id="63835-104">Cette procédure consiste à réaliser le paramétrage nécessaire pour créer une règle de kanban qui est déclenchée pendant la création d'une commande client.</span><span class="sxs-lookup"><span data-stu-id="63835-104">This procedure focuses on the setup needed to create a kanban rule that is triggered during sales order creation.</span></span> <span data-ttu-id="63835-105">La règle de kanban d'événement réalise le réapprovisionnement des besoins provenant des lignes de commande client.</span><span class="sxs-lookup"><span data-stu-id="63835-105">The event kanban rule replenishes requirements that originate from sales order lines.</span></span> <span data-ttu-id="63835-106">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="63835-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="63835-107">Elle est destinée à l'ingénieur processus ou au responsable de la chaîne de valeur, car ils préparent la production d'un produit nouveau ou modifié.</span><span class="sxs-lookup"><span data-stu-id="63835-107">It is intended for the process engineer or the value stream manager as they prepare production of a new or modified product.</span></span>
 
 
 
 
-## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="b0926-108">Créer une règle de kanban</span><span class="sxs-lookup"><span data-stu-id="b0926-108">Create a new kanban rule</span></span>
-1. <span data-ttu-id="b0926-109">Accédez aux règles de kanban.</span><span class="sxs-lookup"><span data-stu-id="b0926-109">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="b0926-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="b0926-110">Click New.</span></span>
-3. <span data-ttu-id="b0926-111">Dans le champ Stratégie de réapprovisionnement, sélectionnez « Événement ».</span><span class="sxs-lookup"><span data-stu-id="b0926-111">In the Replenishment strategy field, select 'Event'.</span></span>
-    * <span data-ttu-id="b0926-112">Le fait de sélectionner Événement signifie que la règle de kanban est déclenchée par un événement, par exemple par la création d'une ligne de commande client.</span><span class="sxs-lookup"><span data-stu-id="b0926-112">Selecting Event means that the kanban rule is triggered by an event, for example, creation of a sales order line.</span></span>   <span data-ttu-id="b0926-113">Cela s'applique aux domaines où chaque kanban doit couvrir une demande spécifique.</span><span class="sxs-lookup"><span data-stu-id="b0926-113">This is applied to areas where each kanban should cover a specific demand.</span></span>  
-4. <span data-ttu-id="b0926-114">Entrez ou sélectionnez une valeur dans le champ Première activité de plan.</span><span class="sxs-lookup"><span data-stu-id="b0926-114">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="b0926-115">Sélectionnez Assemblage final.</span><span class="sxs-lookup"><span data-stu-id="b0926-115">Select Final assembly.</span></span>  
-5. <span data-ttu-id="b0926-116">Développez la section Détails.</span><span class="sxs-lookup"><span data-stu-id="b0926-116">Expand the Details section.</span></span>
-6. <span data-ttu-id="b0926-117">Dans le champ Produit, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b0926-117">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="b0926-118">Sélectionnez L0050.</span><span class="sxs-lookup"><span data-stu-id="b0926-118">Select L0050.</span></span>  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="63835-108">Créer une règle de kanban</span><span class="sxs-lookup"><span data-stu-id="63835-108">Create a new kanban rule</span></span>
+1. <span data-ttu-id="63835-109">Accédez aux règles de kanban.</span><span class="sxs-lookup"><span data-stu-id="63835-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="63835-110">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="63835-110">Click New.</span></span>
+3. <span data-ttu-id="63835-111">Dans le champ Stratégie de réapprovisionnement, sélectionnez « Événement ».</span><span class="sxs-lookup"><span data-stu-id="63835-111">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="63835-112">Le fait de sélectionner Événement signifie que la règle de kanban est déclenchée par un événement, par exemple par la création d'une ligne de commande client.</span><span class="sxs-lookup"><span data-stu-id="63835-112">Selecting Event means that the kanban rule is triggered by an event, for example, creation of a sales order line.</span></span>   <span data-ttu-id="63835-113">Cela s'applique aux domaines où chaque kanban doit couvrir une demande spécifique.</span><span class="sxs-lookup"><span data-stu-id="63835-113">This is applied to areas where each kanban should cover a specific demand.</span></span>  
+4. <span data-ttu-id="63835-114">Entrez ou sélectionnez une valeur dans le champ Première activité de plan.</span><span class="sxs-lookup"><span data-stu-id="63835-114">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="63835-115">Sélectionnez Assemblage final.</span><span class="sxs-lookup"><span data-stu-id="63835-115">Select Final assembly.</span></span>  
+5. <span data-ttu-id="63835-116">Développez la section Détails.</span><span class="sxs-lookup"><span data-stu-id="63835-116">Expand the Details section.</span></span>
+6. <span data-ttu-id="63835-117">Dans le champ Produit, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="63835-117">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="63835-118">Sélectionnez L0050.</span><span class="sxs-lookup"><span data-stu-id="63835-118">Select L0050.</span></span>  
 
-## <a name="define-an-event"></a><span data-ttu-id="b0926-119">Définir un événement</span><span class="sxs-lookup"><span data-stu-id="b0926-119">Define an event</span></span>
-1. <span data-ttu-id="b0926-120">Développez la section Événements.</span><span class="sxs-lookup"><span data-stu-id="b0926-120">Expand the Events section.</span></span>
-2. <span data-ttu-id="b0926-121">Dans le champ Événement de vente, sélectionnez « Automatique ».</span><span class="sxs-lookup"><span data-stu-id="b0926-121">In the Sales event field, select 'Automatic'.</span></span>
-    * <span data-ttu-id="b0926-122">En sélectionnant l'événement de vente Automatique, cette règle de kanban sera déclenchée automatiquement lorsqu'une ligne de vente correspondra au produit et à l'emplacement de réception.</span><span class="sxs-lookup"><span data-stu-id="b0926-122">By selecting the sales event Automatic, this kanban rule will be triggered automatically when a sales line matches the product and receipt location.</span></span> <span data-ttu-id="b0926-123">Dans cette procédure, il s'agit du produit L0050 dans l'entrepôt 13.</span><span class="sxs-lookup"><span data-stu-id="b0926-123">In this procedure, it is product L0050 on warehouse 13.</span></span>  
-3. <span data-ttu-id="b0926-124">Définissez la quantité d'événement minimale sur « 50 ».</span><span class="sxs-lookup"><span data-stu-id="b0926-124">Set Minimum event quantity to '50'.</span></span>
-    * <span data-ttu-id="b0926-125">Avec une quantité minimale d'événement de 50, la règle de kanban ne sera déclenchée que par les événements d'une quantité de 50 ou davantage.</span><span class="sxs-lookup"><span data-stu-id="b0926-125">With a minimum event quantity of 50, the kanban rule will only be triggered by events with a quantity of 50 or more.</span></span>  
-4. <span data-ttu-id="b0926-126">Développez la section Flux de production.</span><span class="sxs-lookup"><span data-stu-id="b0926-126">Expand the Production flow section.</span></span>
-    * <span data-ttu-id="b0926-127">Notez que l'emplacement de réception est l'entrepôt 13.</span><span class="sxs-lookup"><span data-stu-id="b0926-127">Notice that the Receipt location is warehouse 13.</span></span> <span data-ttu-id="b0926-128">Cela signifie que cette règle de kanban sera déclenchée pour cet emplacement.</span><span class="sxs-lookup"><span data-stu-id="b0926-128">This means that this kanban rule will be triggered for this location.</span></span>  
-    * <span data-ttu-id="b0926-129">Dans cet exemple, une ligne de vente du produit L0050, avec une quantité de 50 ou plus, dans l'entrepôt 13, déclenchera cette règle de kanban.</span><span class="sxs-lookup"><span data-stu-id="b0926-129">In this example, a sales line for product L0050, with a quantity of 50 or more, on warehouse 13, will trigger this kanban rule.</span></span>  
+## <a name="define-an-event"></a><span data-ttu-id="63835-119">Définir un événement</span><span class="sxs-lookup"><span data-stu-id="63835-119">Define an event</span></span>
+1. <span data-ttu-id="63835-120">Développez la section Événements.</span><span class="sxs-lookup"><span data-stu-id="63835-120">Expand the Events section.</span></span>
+2. <span data-ttu-id="63835-121">Dans le champ Événement de vente, sélectionnez « Automatique ».</span><span class="sxs-lookup"><span data-stu-id="63835-121">In the Sales event field, select 'Automatic'.</span></span>
+    * <span data-ttu-id="63835-122">En sélectionnant l'événement de vente Automatique, cette règle de kanban sera déclenchée automatiquement lorsqu'une ligne de vente correspondra au produit et à l'emplacement de réception.</span><span class="sxs-lookup"><span data-stu-id="63835-122">By selecting the sales event Automatic, this kanban rule will be triggered automatically when a sales line matches the product and receipt location.</span></span> <span data-ttu-id="63835-123">Dans cette procédure, il s'agit du produit L0050 dans l'entrepôt 13.</span><span class="sxs-lookup"><span data-stu-id="63835-123">In this procedure, it is product L0050 on warehouse 13.</span></span>  
+3. <span data-ttu-id="63835-124">Définissez la quantité d'événement minimale sur « 50 ».</span><span class="sxs-lookup"><span data-stu-id="63835-124">Set Minimum event quantity to '50'.</span></span>
+    * <span data-ttu-id="63835-125">Avec une quantité minimale d'événement de 50, la règle de kanban ne sera déclenchée que par les événements d'une quantité de 50 ou davantage.</span><span class="sxs-lookup"><span data-stu-id="63835-125">With a minimum event quantity of 50, the kanban rule will only be triggered by events with a quantity of 50 or more.</span></span>  
+4. <span data-ttu-id="63835-126">Développez la section Flux de production.</span><span class="sxs-lookup"><span data-stu-id="63835-126">Expand the Production flow section.</span></span>
+    * <span data-ttu-id="63835-127">Notez que l'emplacement de réception est l'entrepôt 13.</span><span class="sxs-lookup"><span data-stu-id="63835-127">Notice that the Receipt location is warehouse 13.</span></span> <span data-ttu-id="63835-128">Cela signifie que cette règle de kanban sera déclenchée pour cet emplacement.</span><span class="sxs-lookup"><span data-stu-id="63835-128">This means that this kanban rule will be triggered for this location.</span></span>  
+    * <span data-ttu-id="63835-129">Dans cet exemple, une ligne de vente du produit L0050, avec une quantité de 50 ou plus, dans l'entrepôt 13, déclenchera cette règle de kanban.</span><span class="sxs-lookup"><span data-stu-id="63835-129">In this example, a sales line for product L0050, with a quantity of 50 or more, on warehouse 13, will trigger this kanban rule.</span></span>  
 
-## <a name="create-sales-line-to-trigger-event-kanban-rule"></a><span data-ttu-id="b0926-130">Créer une ligne de vente pour déclencher une règle de kanban d'événement</span><span class="sxs-lookup"><span data-stu-id="b0926-130">Create sales line to trigger event kanban rule</span></span>
-1. <span data-ttu-id="b0926-131">Allez dans Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="b0926-131">Go to All sales orders.</span></span>
-    * <span data-ttu-id="b0926-132">Un avertissement s'affiche lorsque la règle de kanban est enregistrée, ce qui signifie que les kanbans sont créés en temps réel lors de la création de commande client.</span><span class="sxs-lookup"><span data-stu-id="b0926-132">A warning is shown when the kanban rule is saved, which means that kanbans will be created in real-time during sales order creation.</span></span>  
-2. <span data-ttu-id="b0926-133">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="b0926-133">Click New.</span></span>
-3. <span data-ttu-id="b0926-134">Entrez ou sélectionnez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="b0926-134">In the Customer account field, enter or select a value.</span></span>
-    * <span data-ttu-id="b0926-135">Par exemple, sélectionnez US-003.</span><span class="sxs-lookup"><span data-stu-id="b0926-135">For example, select US-003.</span></span>  
-4. <span data-ttu-id="b0926-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b0926-136">Click OK.</span></span>
-5. <span data-ttu-id="b0926-137">Entrez « L0050 » dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="b0926-137">In the Item number field, type 'L0050'.</span></span>
-6. <span data-ttu-id="b0926-138">Dans le champ Site, tapez « 1 ».</span><span class="sxs-lookup"><span data-stu-id="b0926-138">In the Site field, type '1'.</span></span>
-    * <span data-ttu-id="b0926-139">Sélectionnez Site 1 car l'entrepôt 13 se trouve sur le site 1.</span><span class="sxs-lookup"><span data-stu-id="b0926-139">Select Site 1 because Warehouse 13 is on Site 1.</span></span>  
-7. <span data-ttu-id="b0926-140">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b0926-140">In the Warehouse field, enter or select a value.</span></span>
-    * <span data-ttu-id="b0926-141">Définissez Entrepôt sur 13.</span><span class="sxs-lookup"><span data-stu-id="b0926-141">Set Warehouse to 13.</span></span>  
-8. <span data-ttu-id="b0926-142">Définir la Quantité sur « 75 ».</span><span class="sxs-lookup"><span data-stu-id="b0926-142">Set Quantity to '75'.</span></span>
-    * <span data-ttu-id="b0926-143">Entrez une quantité de 50 ou supérieure, pour déclencher la règle de kanban créée.</span><span class="sxs-lookup"><span data-stu-id="b0926-143">Enter a quantity of 50 or greater, to trigger the created kanban rule.</span></span>  
+## <a name="create-sales-line-to-trigger-event-kanban-rule"></a><span data-ttu-id="63835-130">Créer une ligne de vente pour déclencher une règle de kanban d'événement</span><span class="sxs-lookup"><span data-stu-id="63835-130">Create sales line to trigger event kanban rule</span></span>
+1. <span data-ttu-id="63835-131">Allez dans Toutes les commandes client.</span><span class="sxs-lookup"><span data-stu-id="63835-131">Go to All sales orders.</span></span>
+    * <span data-ttu-id="63835-132">Un avertissement s'affiche lorsque la règle de kanban est enregistrée, ce qui signifie que les kanbans sont créés en temps réel lors de la création de commande client.</span><span class="sxs-lookup"><span data-stu-id="63835-132">A warning is shown when the kanban rule is saved, which means that kanbans will be created in real-time during sales order creation.</span></span>  
+2. <span data-ttu-id="63835-133">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="63835-133">Click New.</span></span>
+3. <span data-ttu-id="63835-134">Entrez ou sélectionnez une valeur dans le champ Compte client.</span><span class="sxs-lookup"><span data-stu-id="63835-134">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="63835-135">Par exemple, sélectionnez US-003.</span><span class="sxs-lookup"><span data-stu-id="63835-135">For example, select US-003.</span></span>  
+4. <span data-ttu-id="63835-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="63835-136">Click OK.</span></span>
+5. <span data-ttu-id="63835-137">Entrez « L0050 » dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="63835-137">In the Item number field, type 'L0050'.</span></span>
+6. <span data-ttu-id="63835-138">Dans le champ Site, tapez « 1 ».</span><span class="sxs-lookup"><span data-stu-id="63835-138">In the Site field, type '1'.</span></span>
+    * <span data-ttu-id="63835-139">Sélectionnez Site 1 car l'entrepôt 13 se trouve sur le site 1.</span><span class="sxs-lookup"><span data-stu-id="63835-139">Select Site 1 because Warehouse 13 is on Site 1.</span></span>  
+7. <span data-ttu-id="63835-140">Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="63835-140">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="63835-141">Définissez Entrepôt sur 13.</span><span class="sxs-lookup"><span data-stu-id="63835-141">Set Warehouse to 13.</span></span>  
+8. <span data-ttu-id="63835-142">Définir la Quantité sur « 75 ».</span><span class="sxs-lookup"><span data-stu-id="63835-142">Set Quantity to '75'.</span></span>
+    * <span data-ttu-id="63835-143">Entrez une quantité de 50 ou supérieure, pour déclencher la règle de kanban créée.</span><span class="sxs-lookup"><span data-stu-id="63835-143">Enter a quantity of 50 or greater, to trigger the created kanban rule.</span></span>  
 
-## <a name="verify-that-kanban-is-created"></a><span data-ttu-id="b0926-144">Vérifier que le kanban est créé</span><span class="sxs-lookup"><span data-stu-id="b0926-144">Verify that kanban is created</span></span>
-1. <span data-ttu-id="b0926-145">Cliquez sur Produit et approvisionnement.</span><span class="sxs-lookup"><span data-stu-id="b0926-145">Click Product and supply.</span></span>
-2. <span data-ttu-id="b0926-146">Cliquez sur Afficher l'arborescence d'origine des besoins.</span><span class="sxs-lookup"><span data-stu-id="b0926-146">Click View pegging tree.</span></span>
-    * <span data-ttu-id="b0926-147">Notez qu'un kanban est créé avec la même quantité que la ligne de vente.</span><span class="sxs-lookup"><span data-stu-id="b0926-147">Notice that a kanban with the same quantity as the sales line is created.</span></span> <span data-ttu-id="b0926-148">Vous pouvez également afficher les sorties de matériel nécessaires pour produire le L0050.</span><span class="sxs-lookup"><span data-stu-id="b0926-148">You can also see the material issues needed to produce L0050.</span></span> <span data-ttu-id="b0926-149">Il s'agit de la dernière étape de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="b0926-149">This is the last step in this procedure.</span></span>  
+## <a name="verify-that-kanban-is-created"></a><span data-ttu-id="63835-144">Vérifier que le kanban est créé</span><span class="sxs-lookup"><span data-stu-id="63835-144">Verify that kanban is created</span></span>
+1. <span data-ttu-id="63835-145">Cliquez sur Produit et approvisionnement.</span><span class="sxs-lookup"><span data-stu-id="63835-145">Click Product and supply.</span></span>
+2. <span data-ttu-id="63835-146">Cliquez sur Afficher l'arborescence d'origine des besoins.</span><span class="sxs-lookup"><span data-stu-id="63835-146">Click View pegging tree.</span></span>
+    * <span data-ttu-id="63835-147">Notez qu'un kanban est créé avec la même quantité que la ligne de vente.</span><span class="sxs-lookup"><span data-stu-id="63835-147">Notice that a kanban with the same quantity as the sales line is created.</span></span> <span data-ttu-id="63835-148">Vous pouvez également afficher les sorties de matériel nécessaires pour produire le L0050.</span><span class="sxs-lookup"><span data-stu-id="63835-148">You can also see the material issues needed to produce L0050.</span></span> <span data-ttu-id="63835-149">Il s'agit de la dernière étape de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="63835-149">This is the last step in this procedure.</span></span>  
 

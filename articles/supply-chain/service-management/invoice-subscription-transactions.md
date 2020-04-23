@@ -2,7 +2,7 @@
 title: Facturation de transactions d'abonnement
 description: Facturation de transactions d'abonnement
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b49039e383c87d7460ecbf87b6687d19337776e2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25f3468838054ae6fbfefc399d59652081986ece
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559875"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202305"
 ---
-# <a name="invoice-subscription-transactions"></a><span data-ttu-id="14d0a-103">Facturation de transactions d'abonnement</span><span class="sxs-lookup"><span data-stu-id="14d0a-103">Invoice subscription transactions</span></span> 
+# <a name="invoice-subscription-transactions"></a><span data-ttu-id="edb9b-103">Facturation de transactions d'abonnement</span><span class="sxs-lookup"><span data-stu-id="edb9b-103">Invoice subscription transactions</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
 
-1.  <span data-ttu-id="14d0a-104">Cliquez sur **Gestion des services** \> **Commun** \> **Services récurrents** \> **Tous les abonnements aux services**.</span><span class="sxs-lookup"><span data-stu-id="14d0a-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
+1.  <span data-ttu-id="edb9b-104">Cliquez sur **Gestion des services** \> **Commun** \> **Services récurrents** \> **Tous les abonnements aux services**.</span><span class="sxs-lookup"><span data-stu-id="edb9b-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
 
-2.  <span data-ttu-id="14d0a-105">Sélectionnez un service récurrent, puis cliquez sur **Modifier** ou sur **Abonnement** pour créer un service récurrent.</span><span class="sxs-lookup"><span data-stu-id="14d0a-105">Select a service subscription and then click **Edit** or click **Subscription** to create a service subscription.</span></span>
+2.  <span data-ttu-id="edb9b-105">Sélectionnez un service récurrent, puis cliquez sur **Modifier** ou sur **Abonnement** pour créer un service récurrent.</span><span class="sxs-lookup"><span data-stu-id="edb9b-105">Select a service subscription and then click **Edit** or click **Subscription** to create a service subscription.</span></span>
 
-3.  <span data-ttu-id="14d0a-106">Cliquez sur **Analyser** \> **Transactions de frais**.</span><span class="sxs-lookup"><span data-stu-id="14d0a-106">Click **Analyze** \> **Fee transactions**.</span></span>
+3.  <span data-ttu-id="edb9b-106">Cliquez sur **Analyser** \> **Transactions de frais**.</span><span class="sxs-lookup"><span data-stu-id="edb9b-106">Click **Analyze** \> **Fee transactions**.</span></span>
 
-4.  <span data-ttu-id="14d0a-107">Sélectionnez la ou les transactions de frais à facturer, puis cliquez sur **Fonctions** \> **Proposition de facture** pour ouvrir l'écran **Propositions de facture**.</span><span class="sxs-lookup"><span data-stu-id="14d0a-107">Select the fee transaction or fee transactions to invoice, and then click **Functions** \> **Invoice proposal** to open the **Invoice proposals** form.</span></span>
+4.  <span data-ttu-id="edb9b-107">Sélectionnez la ou les transactions de frais à facturer, puis cliquez sur **Fonctions** \> **Proposition de facture** pour ouvrir l'écran **Propositions de facture**.</span><span class="sxs-lookup"><span data-stu-id="edb9b-107">Select the fee transaction or fee transactions to invoice, and then click **Functions** \> **Invoice proposal** to open the **Invoice proposals** form.</span></span>
 
-5.  <span data-ttu-id="14d0a-108">Cliquez sur **Créer une facture** et entrez les paramètres appropriés dans l'écran **Créer une facture**.</span><span class="sxs-lookup"><span data-stu-id="14d0a-108">Click **Create invoice** and enter the appropriate parameters in the **Create invoice** form</span></span>
+5.  <span data-ttu-id="edb9b-108">Cliquez sur **Créer une facture** et entrez les paramètres appropriés dans l'écran **Créer une facture**.</span><span class="sxs-lookup"><span data-stu-id="edb9b-108">Click **Create invoice** and enter the appropriate parameters in the **Create invoice** form</span></span>
 
-6.  <span data-ttu-id="14d0a-109">Cliquez sur **OK** pour créer la proposition de facture dans l'écran **Propositions de facture**.</span><span class="sxs-lookup"><span data-stu-id="14d0a-109">Click **OK** to create the invoice proposal in the **Invoice proposals** form.</span></span>
+6.  <span data-ttu-id="edb9b-109">Cliquez sur **OK** pour créer la proposition de facture dans l'écran **Propositions de facture**.</span><span class="sxs-lookup"><span data-stu-id="edb9b-109">Click **OK** to create the invoice proposal in the **Invoice proposals** form.</span></span>
 
-7.  <span data-ttu-id="14d0a-110">Vérifiez le contenu de la facture, puis cliquez sur **Valider la facture** pour ouvrir l'écran **Valider la facture** pour valider la facture.</span><span class="sxs-lookup"><span data-stu-id="14d0a-110">Verify the contents of the invoice, click **Post invoice** to open the **Post invoice** form to post the invoice.</span></span> <span data-ttu-id="14d0a-111">Vous pouvez également imprimer la facture à partir de l'écran **Valider la facture**.</span><span class="sxs-lookup"><span data-stu-id="14d0a-111">You can also print the invoice from the **Post invoice** form.</span></span>
+7.  <span data-ttu-id="edb9b-110">Vérifiez le contenu de la facture, puis cliquez sur **Valider la facture** pour ouvrir l'écran **Valider la facture** pour valider la facture.</span><span class="sxs-lookup"><span data-stu-id="edb9b-110">Verify the contents of the invoice, click **Post invoice** to open the **Post invoice** form to post the invoice.</span></span> <span data-ttu-id="edb9b-111">Vous pouvez également imprimer la facture à partir de l'écran **Valider la facture**.</span><span class="sxs-lookup"><span data-stu-id="edb9b-111">You can also print the invoice from the **Post invoice** form.</span></span>
 
   
 

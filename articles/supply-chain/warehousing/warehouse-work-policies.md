@@ -2,7 +2,7 @@
 title: Vue d'ensemble des stratégies de travail d'entrepôt
 description: Les stratégies de travail d'entrepôt contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
@@ -19,231 +19,231 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251406"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204560"
 ---
-# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="e7027-103">Vue d'ensemble des stratégies de travail d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="e7027-103">Warehouse work policies overview</span></span>
+# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="13881-103">Vue d'ensemble des stratégies de travail d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="13881-103">Warehouse work policies overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e7027-104">Les stratégies de travail d'entrepôt contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.</span><span class="sxs-lookup"><span data-stu-id="e7027-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
+<span data-ttu-id="13881-104">Les stratégies de travail d'entrepôt contrôlent si le travail d'entrepôt est créé par les processus d'entrepôt pour la production, selon le type d'ordre de travail, l'emplacement de stockage et le produit.</span><span class="sxs-lookup"><span data-stu-id="13881-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
 
-<span data-ttu-id="e7027-105">Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production.</span><span class="sxs-lookup"><span data-stu-id="e7027-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="e7027-106">Vous pouvez paramétrer la stratégie de travail à l'aide d'une combinaison de **types d'ordres d'exécution**, d'**emplacement de stockage**, et de **produit**</span><span class="sxs-lookup"><span data-stu-id="e7027-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="e7027-107">Par exemple, le produit L0101 est déclaré comme terminé à l'emplacement de sortie 001.</span><span class="sxs-lookup"><span data-stu-id="e7027-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="e7027-108">Le produit fini est consommé ultérieurement dans un autre ordre de fabrication à l'emplacement de sortie 001.</span><span class="sxs-lookup"><span data-stu-id="e7027-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="e7027-109">Dans ce cas, vous pouvez paramétrer une stratégie de travail pour empêcher de créer un travail pour ranger le produit fini lorsque vous déclarez le produit L0101 terminé à l'emplacement de sortie 001.</span><span class="sxs-lookup"><span data-stu-id="e7027-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="e7027-110">La stratégie de travail est une entité individuelle qui peut être décrite à l'aide des informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="e7027-110">The work policy is an individual entity that can be described through the following information:</span></span>
+<span data-ttu-id="13881-105">Cette stratégie de travail contrôle si le travail d'entrepôt est créé pour les processus d'entrepôt pour la production.</span><span class="sxs-lookup"><span data-stu-id="13881-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="13881-106">Vous pouvez paramétrer la stratégie de travail à l'aide d'une combinaison de **types d'ordres d'exécution**, d'**emplacement de stockage**, et de **produit**</span><span class="sxs-lookup"><span data-stu-id="13881-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="13881-107">Par exemple, le produit L0101 est déclaré comme terminé à l'emplacement de sortie 001.</span><span class="sxs-lookup"><span data-stu-id="13881-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="13881-108">Le produit fini est consommé ultérieurement dans un autre ordre de fabrication à l'emplacement de sortie 001.</span><span class="sxs-lookup"><span data-stu-id="13881-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="13881-109">Dans ce cas, vous pouvez paramétrer une stratégie de travail pour empêcher de créer un travail pour ranger le produit fini lorsque vous déclarez le produit L0101 terminé à l'emplacement de sortie 001.</span><span class="sxs-lookup"><span data-stu-id="13881-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="13881-110">La stratégie de travail est une entité individuelle qui peut être décrite à l'aide des informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="13881-110">The work policy is an individual entity that can be described through the following information:</span></span>
 
--   <span data-ttu-id="e7027-111">**Nom de stratégie de travail**(identificateur unique de la stratégie de travail)</span><span class="sxs-lookup"><span data-stu-id="e7027-111">**Work policy name** (the unique identifier of the work policy)</span></span>
--   <span data-ttu-id="e7027-112">**Types d'ordres d'exécution** et **Méthode de création de travail**</span><span class="sxs-lookup"><span data-stu-id="e7027-112">**Work order types** and **Work creation method**</span></span>
--   <span data-ttu-id="e7027-113">**Emplacement de stockage**</span><span class="sxs-lookup"><span data-stu-id="e7027-113">**Inventory locations**</span></span>
--   <span data-ttu-id="e7027-114">**Produits**</span><span class="sxs-lookup"><span data-stu-id="e7027-114">**Products**</span></span>
+-   <span data-ttu-id="13881-111">**Nom de stratégie de travail**(identificateur unique de la stratégie de travail)</span><span class="sxs-lookup"><span data-stu-id="13881-111">**Work policy name** (the unique identifier of the work policy)</span></span>
+-   <span data-ttu-id="13881-112">**Types d'ordres d'exécution** et **Méthode de création de travail**</span><span class="sxs-lookup"><span data-stu-id="13881-112">**Work order types** and **Work creation method**</span></span>
+-   <span data-ttu-id="13881-113">**Emplacement de stockage**</span><span class="sxs-lookup"><span data-stu-id="13881-113">**Inventory locations**</span></span>
+-   <span data-ttu-id="13881-114">**Produits**</span><span class="sxs-lookup"><span data-stu-id="13881-114">**Products**</span></span>
 
-## <a name="work-order-types"></a><span data-ttu-id="e7027-115">Types d'ordre d'exécution</span><span class="sxs-lookup"><span data-stu-id="e7027-115">Work order types</span></span>
-<span data-ttu-id="e7027-116">Vous pouvez sélectionner un des types d'ordres d'exécution suivants :</span><span class="sxs-lookup"><span data-stu-id="e7027-116">You can select the following work order types:</span></span>
+## <a name="work-order-types"></a><span data-ttu-id="13881-115">Types d'ordre d'exécution</span><span class="sxs-lookup"><span data-stu-id="13881-115">Work order types</span></span>
+<span data-ttu-id="13881-116">Vous pouvez sélectionner un des types d'ordres d'exécution suivants :</span><span class="sxs-lookup"><span data-stu-id="13881-116">You can select the following work order types:</span></span>
 
--   <span data-ttu-id="e7027-117">Rangement des produits finis</span><span class="sxs-lookup"><span data-stu-id="e7027-117">Finished goods put away</span></span>
--   <span data-ttu-id="e7027-118">Rangement des coproduits et des sous-produits</span><span class="sxs-lookup"><span data-stu-id="e7027-118">Co-product and by-product put away</span></span>
--   <span data-ttu-id="e7027-119">Prélèvement de matières premières</span><span class="sxs-lookup"><span data-stu-id="e7027-119">Raw material picking</span></span>
+-   <span data-ttu-id="13881-117">Rangement des produits finis</span><span class="sxs-lookup"><span data-stu-id="13881-117">Finished goods put away</span></span>
+-   <span data-ttu-id="13881-118">Rangement des coproduits et des sous-produits</span><span class="sxs-lookup"><span data-stu-id="13881-118">Co-product and by-product put away</span></span>
+-   <span data-ttu-id="13881-119">Prélèvement de matières premières</span><span class="sxs-lookup"><span data-stu-id="13881-119">Raw material picking</span></span>
 
-<span data-ttu-id="e7027-120">Le champ **Méthode de création de travail** a la valeur **Jamais**.</span><span class="sxs-lookup"><span data-stu-id="e7027-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="e7027-121">Cette valeur indique que la stratégie de travail empêchera tout travail d'entrepôt d'être créé pour le type d'ordre d'exécution sélectionné.</span><span class="sxs-lookup"><span data-stu-id="e7027-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
+<span data-ttu-id="13881-120">Le champ **Méthode de création de travail** a la valeur **Jamais**.</span><span class="sxs-lookup"><span data-stu-id="13881-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="13881-121">Cette valeur indique que la stratégie de travail empêchera tout travail d'entrepôt d'être créé pour le type d'ordre d'exécution sélectionné.</span><span class="sxs-lookup"><span data-stu-id="13881-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
 
-## <a name="inventory-locations"></a><span data-ttu-id="e7027-122">Emplacement de stockage</span><span class="sxs-lookup"><span data-stu-id="e7027-122">Inventory locations</span></span>
-<span data-ttu-id="e7027-123">Vous pouvez sélectionner un emplacement auquel la stratégie de travail s'applique.</span><span class="sxs-lookup"><span data-stu-id="e7027-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="e7027-124">Si aucun emplacement n'est associé à une stratégie de travail, la stratégie de travail ne s'applique à aucun processus.</span><span class="sxs-lookup"><span data-stu-id="e7027-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="e7027-125">Sur la page **Emplacements**, vous pouvez également sélectionner ou annuler la sélection de la stratégie de travail pour un emplacement spécifique.</span><span class="sxs-lookup"><span data-stu-id="e7027-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
+## <a name="inventory-locations"></a><span data-ttu-id="13881-122">Emplacement de stockage</span><span class="sxs-lookup"><span data-stu-id="13881-122">Inventory locations</span></span>
+<span data-ttu-id="13881-123">Vous pouvez sélectionner un emplacement auquel la stratégie de travail s'applique.</span><span class="sxs-lookup"><span data-stu-id="13881-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="13881-124">Si aucun emplacement n'est associé à une stratégie de travail, la stratégie de travail ne s'applique à aucun processus.</span><span class="sxs-lookup"><span data-stu-id="13881-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="13881-125">Sur la page **Emplacements**, vous pouvez également sélectionner ou annuler la sélection de la stratégie de travail pour un emplacement spécifique.</span><span class="sxs-lookup"><span data-stu-id="13881-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
 
-## <a name="products"></a><span data-ttu-id="e7027-126">Produits</span><span class="sxs-lookup"><span data-stu-id="e7027-126">Products</span></span>
-<span data-ttu-id="e7027-127">Vous pouvez sélectionner un produit auquel la stratégie de travail s'applique.</span><span class="sxs-lookup"><span data-stu-id="e7027-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="e7027-128">Vous pouvez appliquer la stratégie de travail à tous les produits ou à des produits sélectionnés.</span><span class="sxs-lookup"><span data-stu-id="e7027-128">You can apply the work policy to either all products or selected products.</span></span>
+## <a name="products"></a><span data-ttu-id="13881-126">Produits</span><span class="sxs-lookup"><span data-stu-id="13881-126">Products</span></span>
+<span data-ttu-id="13881-127">Vous pouvez sélectionner un produit auquel la stratégie de travail s'applique.</span><span class="sxs-lookup"><span data-stu-id="13881-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="13881-128">Vous pouvez appliquer la stratégie de travail à tous les produits ou à des produits sélectionnés.</span><span class="sxs-lookup"><span data-stu-id="13881-128">You can apply the work policy to either all products or selected products.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e7027-129">Exemple</span><span class="sxs-lookup"><span data-stu-id="e7027-129">Example</span></span>
-<span data-ttu-id="e7027-130">Dans l'exemple suivant, il existe deux ordres de fabrication, PRD-001 et PRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="e7027-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="e7027-131">L'ordre de fabrication PRD-001 a une opération qui est appelée **Assemblage**, où le produit SC1 est déclaré terminé à l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="e7027-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="e7027-132">L'ordre de fabrication PRD-002 a une opération qui est appelée **Peinture** et consomme le produit SC1 de l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="e7027-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="e7027-133">L'ordre de fabrication PRD-002 consomme également la matière première RM1 de l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="e7027-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="e7027-134">RM1 est stocké à l'emplacement d'entrepôt BULK-001 et sera prélevé à l'emplacement O1 par le travail d'entrepôt pour le prélèvement de matières premières.</span><span class="sxs-lookup"><span data-stu-id="e7027-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="e7027-135">Le travail de prélèvement est généré lorsque la production de PRD-002 est lancée.</span><span class="sxs-lookup"><span data-stu-id="e7027-135">The picking work is generated when production PRD-002 is released.</span></span> 
+## <a name="example"></a><span data-ttu-id="13881-129">Exemple</span><span class="sxs-lookup"><span data-stu-id="13881-129">Example</span></span>
+<span data-ttu-id="13881-130">Dans l'exemple suivant, il existe deux ordres de fabrication, PRD-001 et PRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="13881-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="13881-131">L'ordre de fabrication PRD-001 a une opération qui est appelée **Assemblage**, où le produit SC1 est déclaré terminé à l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="13881-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="13881-132">L'ordre de fabrication PRD-002 a une opération qui est appelée **Peinture** et consomme le produit SC1 de l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="13881-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="13881-133">L'ordre de fabrication PRD-002 consomme également la matière première RM1 de l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="13881-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="13881-134">RM1 est stocké à l'emplacement d'entrepôt BULK-001 et sera prélevé à l'emplacement O1 par le travail d'entrepôt pour le prélèvement de matières premières.</span><span class="sxs-lookup"><span data-stu-id="13881-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="13881-135">Le travail de prélèvement est généré lorsque la production de PRD-002 est lancée.</span><span class="sxs-lookup"><span data-stu-id="13881-135">The picking work is generated when production PRD-002 is released.</span></span> 
 
-<span data-ttu-id="e7027-136">[![Stratégies de travail d'entrepôt](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="e7027-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
+<span data-ttu-id="13881-136">[![Stratégies de travail d'entrepôt](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="13881-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
 
-<span data-ttu-id="e7027-137">Lorsque vous planifiez de configurer une stratégie de travail d'entrepôt pour ce scénario, vous devez prendre en compte les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="e7027-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
+<span data-ttu-id="13881-137">Lorsque vous planifiez de configurer une stratégie de travail d'entrepôt pour ce scénario, vous devez prendre en compte les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="13881-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
 
--   <span data-ttu-id="e7027-138">Le travail d'entrepôt pour le rangement de produits finis n'est pas obligatoire lorsque vous déclarez le produit SC1 terminé dans l'ordre de fabrication PRD-001 à l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="e7027-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="e7027-139">Cela s'explique par le fait que l'opération de **Peinture** pour l'ordre de fabrication PRD-002 consomme SC1 au même emplacement.</span><span class="sxs-lookup"><span data-stu-id="e7027-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
--   <span data-ttu-id="e7027-140">Le travail d'entrepôt pour le prélèvement de matières premières est requis pour déplacer la matière première RM1 de l'emplacement d'entrepôt BULK-001 vers l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="e7027-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
+-   <span data-ttu-id="13881-138">Le travail d'entrepôt pour le rangement de produits finis n'est pas obligatoire lorsque vous déclarez le produit SC1 terminé dans l'ordre de fabrication PRD-001 à l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="13881-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="13881-139">Cela s'explique par le fait que l'opération de **Peinture** pour l'ordre de fabrication PRD-002 consomme SC1 au même emplacement.</span><span class="sxs-lookup"><span data-stu-id="13881-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
+-   <span data-ttu-id="13881-140">Le travail d'entrepôt pour le prélèvement de matières premières est requis pour déplacer la matière première RM1 de l'emplacement d'entrepôt BULK-001 vers l'emplacement O1.</span><span class="sxs-lookup"><span data-stu-id="13881-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
 
-<span data-ttu-id="e7027-141">Voici un exemple de stratégie de travail que vous pouvez paramétrer, selon ces aspects.</span><span class="sxs-lookup"><span data-stu-id="e7027-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
+<span data-ttu-id="13881-141">Voici un exemple de stratégie de travail que vous pouvez paramétrer, selon ces aspects.</span><span class="sxs-lookup"><span data-stu-id="13881-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
 
 
 |                                       |                                       |
 |---------------------------------------|---------------------------------------|
-| <span data-ttu-id="e7027-142"><strong>Nom de la stratégie de travail</strong></span><span class="sxs-lookup"><span data-stu-id="e7027-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="e7027-143"><strong>Types d'ordre d'exécution</strong></span><span class="sxs-lookup"><span data-stu-id="e7027-143"><strong>Work order types</strong></span></span><br> |
-|         <span data-ttu-id="e7027-144">Pas de rangement de 01     \`</span><span class="sxs-lookup"><span data-stu-id="e7027-144">No put away 01     \`</span></span>          |     <span data-ttu-id="e7027-145">- Rangement du produit fini</span><span class="sxs-lookup"><span data-stu-id="e7027-145">- Finished good put away</span></span><br>      |
-|                                       |    <span data-ttu-id="e7027-146"><strong>Emplacements</strong></span><span class="sxs-lookup"><span data-stu-id="e7027-146"><strong>Locations</strong></span></span><br>     |
-|                                       |                 <span data-ttu-id="e7027-147">- O1</span><span class="sxs-lookup"><span data-stu-id="e7027-147">- O1</span></span>                  |
-|                                       |    <span data-ttu-id="e7027-148"><strong>Produits</strong></span><span class="sxs-lookup"><span data-stu-id="e7027-148"><strong>Products</strong></span></span> <br>     |
-|                                       |                 <span data-ttu-id="e7027-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="e7027-149">- SC1</span></span>                 |
+| <span data-ttu-id="13881-142"><strong>Nom de la stratégie de travail</strong></span><span class="sxs-lookup"><span data-stu-id="13881-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="13881-143"><strong>Types d'ordre d'exécution</strong></span><span class="sxs-lookup"><span data-stu-id="13881-143"><strong>Work order types</strong></span></span><br> |
+|         <span data-ttu-id="13881-144">Pas de rangement de 01     \`</span><span class="sxs-lookup"><span data-stu-id="13881-144">No put away 01     \`</span></span>          |     <span data-ttu-id="13881-145">- Rangement du produit fini</span><span class="sxs-lookup"><span data-stu-id="13881-145">- Finished good put away</span></span><br>      |
+|                                       |    <span data-ttu-id="13881-146"><strong>Emplacements</strong></span><span class="sxs-lookup"><span data-stu-id="13881-146"><strong>Locations</strong></span></span><br>     |
+|                                       |                 <span data-ttu-id="13881-147">- O1</span><span class="sxs-lookup"><span data-stu-id="13881-147">- O1</span></span>                  |
+|                                       |    <span data-ttu-id="13881-148"><strong>Produits</strong></span><span class="sxs-lookup"><span data-stu-id="13881-148"><strong>Products</strong></span></span> <br>     |
+|                                       |                 <span data-ttu-id="13881-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="13881-149">- SC1</span></span>                 |
 
-<span data-ttu-id="e7027-150">Les procédures suivantes fournissent des instructions pas-à-pas sur le paramétrage de la stratégie de travail d'entrepôt pour ce scénario.</span><span class="sxs-lookup"><span data-stu-id="e7027-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="e7027-151">Un exemple de paramétrage expliquant comment déclarer un ordre de fabrication comme terminé à un emplacement qui n'est pas contrôlé par contenant est également décrit.</span><span class="sxs-lookup"><span data-stu-id="e7027-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
+<span data-ttu-id="13881-150">Les procédures suivantes fournissent des instructions pas-à-pas sur le paramétrage de la stratégie de travail d'entrepôt pour ce scénario.</span><span class="sxs-lookup"><span data-stu-id="13881-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="13881-151">Un exemple de paramétrage expliquant comment déclarer un ordre de fabrication comme terminé à un emplacement qui n'est pas contrôlé par contenant est également décrit.</span><span class="sxs-lookup"><span data-stu-id="13881-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
 
-## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="e7027-152">Paramétrer une stratégie de travail d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="e7027-152">Set up a warehouse work policy</span></span>
-<span data-ttu-id="e7027-153">Les processus d'entrepôt n'incluent pas systématiquement les tâches d'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="e7027-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="e7027-154">En définissant une stratégie de travail, vous pouvez empêcher la création de tâche pour le prélèvement de matières premières et le rangement de produits finis pour un ensemble de produits à des emplacements spécifiques.</span><span class="sxs-lookup"><span data-stu-id="e7027-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="e7027-155">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="e7027-155">The USMF demo data company was used to create this procedure.</span></span> 
+## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="13881-152">Paramétrer une stratégie de travail d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="13881-152">Set up a warehouse work policy</span></span>
+<span data-ttu-id="13881-153">Les processus d'entrepôt n'incluent pas systématiquement les tâches d'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="13881-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="13881-154">En définissant une stratégie de travail, vous pouvez empêcher la création de tâche pour le prélèvement de matières premières et le rangement de produits finis pour un ensemble de produits à des emplacements spécifiques.</span><span class="sxs-lookup"><span data-stu-id="13881-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="13881-155">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="13881-155">The USMF demo data company was used to create this procedure.</span></span> 
 
-<span data-ttu-id="e7027-156">ÉTAPES (21)</span><span class="sxs-lookup"><span data-stu-id="e7027-156">STEPS (21)</span></span>
+<span data-ttu-id="13881-156">ÉTAPES (21)</span><span class="sxs-lookup"><span data-stu-id="13881-156">STEPS (21)</span></span>
 
 |     |                                                                            |
 |-----|----------------------------------------------------------------------------|
-| <span data-ttu-id="e7027-157">1.</span><span class="sxs-lookup"><span data-stu-id="e7027-157">1.</span></span>  | <span data-ttu-id="e7027-158">Allez dans Gestion des entrepôts &gt; Paramétrage &gt; Travail &gt; Stratégies de travail.</span><span class="sxs-lookup"><span data-stu-id="e7027-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
-| <span data-ttu-id="e7027-159">2.</span><span class="sxs-lookup"><span data-stu-id="e7027-159">2.</span></span>  | <span data-ttu-id="e7027-160">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e7027-160">Click New.</span></span>                                                                 |
-| <span data-ttu-id="e7027-161">3.</span><span class="sxs-lookup"><span data-stu-id="e7027-161">3.</span></span>  | <span data-ttu-id="e7027-162">Entrez Aucun travail de rangement dans le champ Nom de la stratégie de travail.</span><span class="sxs-lookup"><span data-stu-id="e7027-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
-| <span data-ttu-id="e7027-163">4.</span><span class="sxs-lookup"><span data-stu-id="e7027-163">4.</span></span>  | <span data-ttu-id="e7027-164">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e7027-164">Click Save.</span></span>                                                                |
-| <span data-ttu-id="e7027-165">5.</span><span class="sxs-lookup"><span data-stu-id="e7027-165">5.</span></span>  | <span data-ttu-id="e7027-166">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="e7027-166">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="e7027-167">6.</span><span class="sxs-lookup"><span data-stu-id="e7027-167">6.</span></span>  | <span data-ttu-id="e7027-168">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e7027-168">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="e7027-169">7.</span><span class="sxs-lookup"><span data-stu-id="e7027-169">7.</span></span>  | <span data-ttu-id="e7027-170">Sélectionnez Rangement des produits finis dans le champ Type d'ordre d'exécution.</span><span class="sxs-lookup"><span data-stu-id="e7027-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
-| <span data-ttu-id="e7027-171">8.</span><span class="sxs-lookup"><span data-stu-id="e7027-171">8.</span></span>  | <span data-ttu-id="e7027-172">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="e7027-172">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="e7027-173">9.</span><span class="sxs-lookup"><span data-stu-id="e7027-173">9.</span></span>  | <span data-ttu-id="e7027-174">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e7027-174">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="e7027-175">10.</span><span class="sxs-lookup"><span data-stu-id="e7027-175">10.</span></span> | <span data-ttu-id="e7027-176">Sélectionnez Rangement des coproduits et des sous-produits dans le champ Type d'ordre d'exécution.</span><span class="sxs-lookup"><span data-stu-id="e7027-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
-| <span data-ttu-id="e7027-177">11.</span><span class="sxs-lookup"><span data-stu-id="e7027-177">11.</span></span> | <span data-ttu-id="e7027-178">Développez la section Emplacement de stockage.</span><span class="sxs-lookup"><span data-stu-id="e7027-178">Expand the Inventory locations section.</span></span>                                    |
-| <span data-ttu-id="e7027-179">12.</span><span class="sxs-lookup"><span data-stu-id="e7027-179">12.</span></span> | <span data-ttu-id="e7027-180">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="e7027-180">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="e7027-181">13</span><span class="sxs-lookup"><span data-stu-id="e7027-181">13.</span></span> | <span data-ttu-id="e7027-182">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e7027-182">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="e7027-183">14.</span><span class="sxs-lookup"><span data-stu-id="e7027-183">14.</span></span> | <span data-ttu-id="e7027-184">Entrez 51 dans la liste Entrepôt.</span><span class="sxs-lookup"><span data-stu-id="e7027-184">In the Warehouse list, enter '51'.</span></span>                                         |
-| <span data-ttu-id="e7027-185">15.</span><span class="sxs-lookup"><span data-stu-id="e7027-185">15.</span></span> | <span data-ttu-id="e7027-186">Saisissez ou sélectionnez 001 dans le champ Emplacement.</span><span class="sxs-lookup"><span data-stu-id="e7027-186">In the Location field, enter or select '001'.</span></span>                              |
-| <span data-ttu-id="e7027-187">16.</span><span class="sxs-lookup"><span data-stu-id="e7027-187">16.</span></span> | <span data-ttu-id="e7027-188">Développez la section Produits.</span><span class="sxs-lookup"><span data-stu-id="e7027-188">Expand the Products section.</span></span>                                               |
-| <span data-ttu-id="e7027-189">17.</span><span class="sxs-lookup"><span data-stu-id="e7027-189">17.</span></span> | <span data-ttu-id="e7027-190">Sélectionnez Sélectionné dans le champ Sélection de produits.</span><span class="sxs-lookup"><span data-stu-id="e7027-190">In the Product selection field, select 'Selected'.</span></span>                         |
-| <span data-ttu-id="e7027-191">18.</span><span class="sxs-lookup"><span data-stu-id="e7027-191">18.</span></span> | <span data-ttu-id="e7027-192">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="e7027-192">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="e7027-193">19.</span><span class="sxs-lookup"><span data-stu-id="e7027-193">19.</span></span> | <span data-ttu-id="e7027-194">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e7027-194">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="e7027-195">20.</span><span class="sxs-lookup"><span data-stu-id="e7027-195">20.</span></span> | <span data-ttu-id="e7027-196">Entrez ou sélectionnez L0101 dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="e7027-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
-| <span data-ttu-id="e7027-197">21.</span><span class="sxs-lookup"><span data-stu-id="e7027-197">21.</span></span> | <span data-ttu-id="e7027-198">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e7027-198">Click Save.</span></span>                                                                |
+| <span data-ttu-id="13881-157">1.</span><span class="sxs-lookup"><span data-stu-id="13881-157">1.</span></span>  | <span data-ttu-id="13881-158">Allez dans Gestion des entrepôts &gt; Paramétrage &gt; Travail &gt; Stratégies de travail.</span><span class="sxs-lookup"><span data-stu-id="13881-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
+| <span data-ttu-id="13881-159">2.</span><span class="sxs-lookup"><span data-stu-id="13881-159">2.</span></span>  | <span data-ttu-id="13881-160">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="13881-160">Click New.</span></span>                                                                 |
+| <span data-ttu-id="13881-161">3.</span><span class="sxs-lookup"><span data-stu-id="13881-161">3.</span></span>  | <span data-ttu-id="13881-162">Entrez Aucun travail de rangement dans le champ Nom de la stratégie de travail.</span><span class="sxs-lookup"><span data-stu-id="13881-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
+| <span data-ttu-id="13881-163">4.</span><span class="sxs-lookup"><span data-stu-id="13881-163">4.</span></span>  | <span data-ttu-id="13881-164">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="13881-164">Click Save.</span></span>                                                                |
+| <span data-ttu-id="13881-165">5.</span><span class="sxs-lookup"><span data-stu-id="13881-165">5.</span></span>  | <span data-ttu-id="13881-166">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="13881-166">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="13881-167">6.</span><span class="sxs-lookup"><span data-stu-id="13881-167">6.</span></span>  | <span data-ttu-id="13881-168">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="13881-168">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="13881-169">7.</span><span class="sxs-lookup"><span data-stu-id="13881-169">7.</span></span>  | <span data-ttu-id="13881-170">Sélectionnez Rangement des produits finis dans le champ Type d'ordre d'exécution.</span><span class="sxs-lookup"><span data-stu-id="13881-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
+| <span data-ttu-id="13881-171">8.</span><span class="sxs-lookup"><span data-stu-id="13881-171">8.</span></span>  | <span data-ttu-id="13881-172">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="13881-172">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="13881-173">9.</span><span class="sxs-lookup"><span data-stu-id="13881-173">9.</span></span>  | <span data-ttu-id="13881-174">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="13881-174">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="13881-175">10.</span><span class="sxs-lookup"><span data-stu-id="13881-175">10.</span></span> | <span data-ttu-id="13881-176">Sélectionnez Rangement des coproduits et des sous-produits dans le champ Type d'ordre d'exécution.</span><span class="sxs-lookup"><span data-stu-id="13881-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
+| <span data-ttu-id="13881-177">11.</span><span class="sxs-lookup"><span data-stu-id="13881-177">11.</span></span> | <span data-ttu-id="13881-178">Développez la section Emplacement de stockage.</span><span class="sxs-lookup"><span data-stu-id="13881-178">Expand the Inventory locations section.</span></span>                                    |
+| <span data-ttu-id="13881-179">12.</span><span class="sxs-lookup"><span data-stu-id="13881-179">12.</span></span> | <span data-ttu-id="13881-180">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="13881-180">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="13881-181">13</span><span class="sxs-lookup"><span data-stu-id="13881-181">13.</span></span> | <span data-ttu-id="13881-182">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="13881-182">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="13881-183">14.</span><span class="sxs-lookup"><span data-stu-id="13881-183">14.</span></span> | <span data-ttu-id="13881-184">Entrez 51 dans la liste Entrepôt.</span><span class="sxs-lookup"><span data-stu-id="13881-184">In the Warehouse list, enter '51'.</span></span>                                         |
+| <span data-ttu-id="13881-185">15.</span><span class="sxs-lookup"><span data-stu-id="13881-185">15.</span></span> | <span data-ttu-id="13881-186">Saisissez ou sélectionnez 001 dans le champ Emplacement.</span><span class="sxs-lookup"><span data-stu-id="13881-186">In the Location field, enter or select '001'.</span></span>                              |
+| <span data-ttu-id="13881-187">16.</span><span class="sxs-lookup"><span data-stu-id="13881-187">16.</span></span> | <span data-ttu-id="13881-188">Développez la section Produits.</span><span class="sxs-lookup"><span data-stu-id="13881-188">Expand the Products section.</span></span>                                               |
+| <span data-ttu-id="13881-189">17.</span><span class="sxs-lookup"><span data-stu-id="13881-189">17.</span></span> | <span data-ttu-id="13881-190">Sélectionnez Sélectionné dans le champ Sélection de produits.</span><span class="sxs-lookup"><span data-stu-id="13881-190">In the Product selection field, select 'Selected'.</span></span>                         |
+| <span data-ttu-id="13881-191">18.</span><span class="sxs-lookup"><span data-stu-id="13881-191">18.</span></span> | <span data-ttu-id="13881-192">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="13881-192">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="13881-193">19.</span><span class="sxs-lookup"><span data-stu-id="13881-193">19.</span></span> | <span data-ttu-id="13881-194">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="13881-194">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="13881-195">20.</span><span class="sxs-lookup"><span data-stu-id="13881-195">20.</span></span> | <span data-ttu-id="13881-196">Entrez ou sélectionnez L0101 dans le champ Numéro d'article.</span><span class="sxs-lookup"><span data-stu-id="13881-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
+| <span data-ttu-id="13881-197">21.</span><span class="sxs-lookup"><span data-stu-id="13881-197">21.</span></span> | <span data-ttu-id="13881-198">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="13881-198">Click Save.</span></span>                                                                |
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="e7027-199">Déclarer un ordre de fabrication terminé à un emplacement qui n'est pas contrôlé par contenant</span><span class="sxs-lookup"><span data-stu-id="e7027-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
-<span data-ttu-id="e7027-200">Cette procédure présente un exemple de déclaration de fin à un emplacement qui ne fait pas l'objet d'un contrôle de contenant.</span><span class="sxs-lookup"><span data-stu-id="e7027-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="e7027-201">Une stratégie de travail applicable correspond est une condition préalable pour cette tâche.</span><span class="sxs-lookup"><span data-stu-id="e7027-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="e7027-202">La procédure précédente indiquait le paramétrage de la stratégie de travail.</span><span class="sxs-lookup"><span data-stu-id="e7027-202">The previous procedure shows the setup of the work policy.</span></span> 
+## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="13881-199">Déclarer un ordre de fabrication terminé à un emplacement qui n'est pas contrôlé par contenant</span><span class="sxs-lookup"><span data-stu-id="13881-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
+<span data-ttu-id="13881-200">Cette procédure présente un exemple de déclaration de fin à un emplacement qui ne fait pas l'objet d'un contrôle de contenant.</span><span class="sxs-lookup"><span data-stu-id="13881-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="13881-201">Une stratégie de travail applicable correspond est une condition préalable pour cette tâche.</span><span class="sxs-lookup"><span data-stu-id="13881-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="13881-202">La procédure précédente indiquait le paramétrage de la stratégie de travail.</span><span class="sxs-lookup"><span data-stu-id="13881-202">The previous procedure shows the setup of the work policy.</span></span> 
 
-<span data-ttu-id="e7027-203">ÉTAPES (25)</span><span class="sxs-lookup"><span data-stu-id="e7027-203">STEPS (25)</span></span>
+<span data-ttu-id="13881-203">ÉTAPES (25)</span><span class="sxs-lookup"><span data-stu-id="13881-203">STEPS (25)</span></span>
 
 <table>
 <tbody>
 <tr>
-<td colspan="3"><span data-ttu-id="e7027-204"><strong>Sous-tâche : définir un emplacement de sortie.</strong></span><span class="sxs-lookup"><span data-stu-id="e7027-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
+<td colspan="3"><span data-ttu-id="13881-204"><strong>Sous-tâche : définir un emplacement de sortie.</strong></span><span class="sxs-lookup"><span data-stu-id="13881-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>1.</td>
-<td><span data-ttu-id="e7027-205">Allez dans Administration d'organisation &gt; Ressources &gt; Groupes de ressources.</span><span class="sxs-lookup"><span data-stu-id="e7027-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
+<td><span data-ttu-id="13881-205">Allez dans Administration d'organisation &gt; Ressources &gt; Groupes de ressources.</span><span class="sxs-lookup"><span data-stu-id="13881-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>2.</td>
-<td><span data-ttu-id="e7027-206">Dans la liste, sélectionnez le groupe de ressources 5102.</span><span class="sxs-lookup"><span data-stu-id="e7027-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
+<td><span data-ttu-id="13881-206">Dans la liste, sélectionnez le groupe de ressources 5102.</span><span class="sxs-lookup"><span data-stu-id="13881-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>3.</td>
-<td><span data-ttu-id="e7027-207">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="e7027-207">Click Edit.</span></span></td>
+<td><span data-ttu-id="13881-207">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="13881-207">Click Edit.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>4.</td>
-<td><span data-ttu-id="e7027-208">Dans le champ Entrepôt de sortie, saisissez 51.</span><span class="sxs-lookup"><span data-stu-id="e7027-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
+<td><span data-ttu-id="13881-208">Dans le champ Entrepôt de sortie, saisissez 51.</span><span class="sxs-lookup"><span data-stu-id="13881-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td><span data-ttu-id="e7027-209">Dans le champ Emplacement de sortie, saisissez 001.</span><span class="sxs-lookup"><span data-stu-id="e7027-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
+<td><span data-ttu-id="13881-209">Dans le champ Emplacement de sortie, saisissez 001.</span><span class="sxs-lookup"><span data-stu-id="13881-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td><span data-ttu-id="e7027-210">L'emplacement 001 n'est un emplacement qui fait l'objet d'un contrôle de contenant.</span><span class="sxs-lookup"><span data-stu-id="e7027-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="e7027-211">Vous pouvez uniquement paramétrer un emplacement de sortie faisant l'objet d'un contrôle de contenant si une stratégie de travail applicable existe pour l'emplacement.</span><span class="sxs-lookup"><span data-stu-id="e7027-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
+<td><span data-ttu-id="13881-210">L'emplacement 001 n'est un emplacement qui fait l'objet d'un contrôle de contenant.</span><span class="sxs-lookup"><span data-stu-id="13881-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="13881-211">Vous pouvez uniquement paramétrer un emplacement de sortie faisant l'objet d'un contrôle de contenant si une stratégie de travail applicable existe pour l'emplacement.</span><span class="sxs-lookup"><span data-stu-id="13881-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
 </tr>
 <tr>
-<td colspan="3"><span data-ttu-id="e7027-212"><strong>Sous-tâche : créer un ordre de fabrication et le déclarer comme terminé.</strong></span><span class="sxs-lookup"><span data-stu-id="e7027-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
+<td colspan="3"><span data-ttu-id="13881-212"><strong>Sous-tâche : créer un ordre de fabrication et le déclarer comme terminé.</strong></span><span class="sxs-lookup"><span data-stu-id="13881-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>1.</td>
-<td><span data-ttu-id="e7027-213">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e7027-213">Close the page.</span></span></td>
+<td><span data-ttu-id="13881-213">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="13881-213">Close the page.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>2.</td>
-<td><span data-ttu-id="e7027-214">Allez dans Contrôle de la production &gt; Ordres de fabrication &gt; Tous les ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="e7027-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
+<td><span data-ttu-id="13881-214">Allez dans Contrôle de la production &gt; Ordres de fabrication &gt; Tous les ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="13881-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>3.</td>
-<td><span data-ttu-id="e7027-215">Cliquez sur Nouvel ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="e7027-215">Click New production order.</span></span></td>
+<td><span data-ttu-id="13881-215">Cliquez sur Nouvel ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="13881-215">Click New production order.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>4.</td>
-<td><span data-ttu-id="e7027-216">Dans le champ Numéro d'article, saisissez L0101.</span><span class="sxs-lookup"><span data-stu-id="e7027-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
+<td><span data-ttu-id="13881-216">Dans le champ Numéro d'article, saisissez L0101.</span><span class="sxs-lookup"><span data-stu-id="13881-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td><span data-ttu-id="e7027-217">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="e7027-217">Click Create.</span></span></td>
+<td><span data-ttu-id="13881-217">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="13881-217">Click Create.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td><span data-ttu-id="e7027-218">Cliquez sur Ordre de fabrication dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="e7027-218">On the Action Pane, click Production order.</span></span></td>
+<td><span data-ttu-id="13881-218">Cliquez sur Ordre de fabrication dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="13881-218">On the Action Pane, click Production order.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>7.</td>
-<td><span data-ttu-id="e7027-219">Cliquez sur Estimer.</span><span class="sxs-lookup"><span data-stu-id="e7027-219">Click Estimate.</span></span></td>
+<td><span data-ttu-id="13881-219">Cliquez sur Estimer.</span><span class="sxs-lookup"><span data-stu-id="13881-219">Click Estimate.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>8.</td>
-<td><span data-ttu-id="e7027-220">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e7027-220">Click OK.</span></span></td>
+<td><span data-ttu-id="13881-220">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="13881-220">Click OK.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>9.</td>
-<td><span data-ttu-id="e7027-221">Cliquez sur Démarrer.</span><span class="sxs-lookup"><span data-stu-id="e7027-221">Click Start.</span></span></td>
+<td><span data-ttu-id="13881-221">Cliquez sur Démarrer.</span><span class="sxs-lookup"><span data-stu-id="13881-221">Click Start.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>10.</td>
-<td><span data-ttu-id="e7027-222">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="e7027-222">Click the General tab.</span></span></td>
+<td><span data-ttu-id="13881-222">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="13881-222">Click the General tab.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>11.</td>
-<td><span data-ttu-id="e7027-223">Dans le champ Consommation de nomenclature automatique, sélectionnez Jamais.</span><span class="sxs-lookup"><span data-stu-id="e7027-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
+<td><span data-ttu-id="13881-223">Dans le champ Consommation de nomenclature automatique, sélectionnez Jamais.</span><span class="sxs-lookup"><span data-stu-id="13881-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>12.</td>
-<td><span data-ttu-id="e7027-224">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e7027-224">Click OK.</span></span></td>
+<td><span data-ttu-id="13881-224">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="13881-224">Click OK.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>13.</td>
-<td><span data-ttu-id="e7027-225">Cliquez sur Déclaration de fin.</span><span class="sxs-lookup"><span data-stu-id="e7027-225">Click Report as finished.</span></span></td>
+<td><span data-ttu-id="13881-225">Cliquez sur Déclaration de fin.</span><span class="sxs-lookup"><span data-stu-id="13881-225">Click Report as finished.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>14.</td>
-<td><span data-ttu-id="e7027-226">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="e7027-226">Click the General tab.</span></span></td>
+<td><span data-ttu-id="13881-226">Cliquez sur l'onglet Général.</span><span class="sxs-lookup"><span data-stu-id="13881-226">Click the General tab.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>15.</td>
-<td><span data-ttu-id="e7027-227">Dans le champ Accepter les erreurs, sélectionnez Oui.</span><span class="sxs-lookup"><span data-stu-id="e7027-227">Select Yes in the Accept error field.</span></span></td>
+<td><span data-ttu-id="13881-227">Dans le champ Accepter les erreurs, sélectionnez Oui.</span><span class="sxs-lookup"><span data-stu-id="13881-227">Select Yes in the Accept error field.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>16.</td>
-<td><span data-ttu-id="e7027-228">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e7027-228">Click OK.</span></span></td>
+<td><span data-ttu-id="13881-228">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="13881-228">Click OK.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>17.</td>
-<td><span data-ttu-id="e7027-229">Cliquez sur Entrepôt dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="e7027-229">On the Action Pane, click Warehouse.</span></span></td>
+<td><span data-ttu-id="13881-229">Cliquez sur Entrepôt dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="13881-229">On the Action Pane, click Warehouse.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>18.</td>
-<td><span data-ttu-id="e7027-230">Cliquez sur Détails du travail.</span><span class="sxs-lookup"><span data-stu-id="e7027-230">Click Work details.</span></span></td>
+<td><span data-ttu-id="13881-230">Cliquez sur Détails du travail.</span><span class="sxs-lookup"><span data-stu-id="13881-230">Click Work details.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>19.</td>
-<td><span data-ttu-id="e7027-231">Lorsque l'ordre de fabrication a été déclaré comme terminé, aucune tâche de rangement n'a été générée.</span><span class="sxs-lookup"><span data-stu-id="e7027-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="e7027-232">Cela se produit car une stratégie de travail est définie et empêche la tâche d'être générée lorsque le produit L0101 est déclaré comme terminé à l'emplacement 001.</span><span class="sxs-lookup"><span data-stu-id="e7027-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
+<td><span data-ttu-id="13881-231">Lorsque l'ordre de fabrication a été déclaré comme terminé, aucune tâche de rangement n'a été générée.</span><span class="sxs-lookup"><span data-stu-id="13881-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="13881-232">Cela se produit car une stratégie de travail est définie et empêche la tâche d'être générée lorsque le produit L0101 est déclaré comme terminé à l'emplacement 001.</span><span class="sxs-lookup"><span data-stu-id="13881-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
 </tr>
 </tbody>
 </table>
