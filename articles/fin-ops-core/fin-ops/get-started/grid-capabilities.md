@@ -3,7 +3,7 @@ title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. La nouvelle fonction de grille doit être activée pour avoir accès à ces capacités.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036263"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260458"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -90,4 +90,23 @@ Pour annuler le regroupement dans une grille, cliquez avec le bouton droit sur l
 ## <a name="evaluating-math-expressions"></a>Évaluation des expressions mathématiques
 Pour booster la productivité, les utilisateurs peuvent entrer des formules mathématiques dans des cellules numériques d'une grille. Ils n'ont pas besoin d'effectuer le calcul dans une application en dehors du système. Par exemple, si vous entrez **=15\*4**, puis appuyez sur la touche **Tab** pour quitter le champ, le système évaluera l'expression et enregistrera la valeur de **60** pour le champ.
 
-Pour que le système reconnaisse une valeur comme une expression, démarrez la valeur avec un signe égal (**=**). Pour plus de détails sur les opérateurs et la syntaxe pris en charge, consultez [Symboles mathématiques pris en charge](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Pour que le système reconnaisse une valeur comme une expression, démarrez la valeur avec un signe égal (**=**). Pour en savoir plus sur les opérateurs et la syntaxe pris en charge, consultez [Symboles mathématiques pris en charge](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+
+## <a name="frequently-asked-questions"></a>Forum aux questions
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Comment activer le nouveau contrôle de grille dans mon environnement ? 
+
+**10.0.9/Mise à jour de la plateforme 33 et ultérieure** La fonctionnalité **Nouveau contrôle de grille** est disponible directement dans la gestion des fonctionnalités de tout environnement. Comme les autres fonctionnalités d'aperçu public, l'activation de cette fonctionnalité en production est soumise à l'[accord supplémentaire Conditions d'utilisation](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/Platform Update 32 et 10.0.7/Platform Update 31** La fonctionnalité **Nouveau contrôle de grille** peut être activée dans les environnements de niveau 1 (développement/test) et de niveau 2 (bac à sable) afin de fournir des tests et des modifications de conception supplémentaires en suivant les étapes ci-dessous.
+
+1.  **Activer la version d'évaluation** : Exécutez l'instruction SQL suivante : 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **Réinitialiser IIS** pour vider le cache de la version d'évaluation statique. 
+
+3.  **Rechercher la fonctionnalité** : accédez à l'espace de travail **Gestion des fonctions**. Si **Nouveau contrôle de grille** n'apparaît pas dans la liste de toutes les fonctionnalités, sélectionnez **Vérifier les mises à jour**.   
+
+4.  **Activer la fonctionnalité** : Recherchez la fonctionnalité **Nouveau contrôle de grille** dans la liste des fonctionnalités, puis sélectionnez **Activer maintenant** dans le volet des détails. Notez qu'une actualisation du navigateur est requise. 
+
+Toutes les sessions utilisateur suivantes démarreront avec le nouveau contrôle de grille activé.

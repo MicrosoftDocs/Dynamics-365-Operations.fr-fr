@@ -16,17 +16,15 @@ ms.search.industry: public sector
 ms.author: v-alpavk
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 450b59290eea6bf7460d4b239341203c13f2d1ba
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 0f08f5af1617c2d69c2ed025b6716546b59e8a85
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2659040"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249080"
 ---
 # <a name="cash-position-inquiry"></a>Renseignements sur l'emplacement des disponibilités
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Les renseignements **Emplacement des disponibilités** vous permet de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre. Les renseignements affiche le solde des disponibilités de début, ainsi que l'effet de l'addition des rentrées de fonds, de la soustraction des remboursements de disponibilités, et la soustraction des transferts interfonds pour obtenir un solde de fin. Ensuite, les réservations budgétaires générales, les engagements ou les engagements préalables sont soustraits du solde de clôture pour obtenir à un solde non engagé.
 

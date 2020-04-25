@@ -3,7 +3,7 @@ title: Configuration des propriétés de workflow
 description: Cette rubrique explique comment configurer les différentes propriétés d'un workflow.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190118"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199434"
 ---
 # <a name="configure-workflow-properties"></a>Configuration des propriétés de workflow
 
@@ -75,9 +75,11 @@ Vous pouvez fournir des instructions pour les utilisateurs qui soumettent des do
     5. Pour personnaliser le texte, vous pouvez insérer des espaces réservés. Pour obtenir des instructions sur l'ajout d'un espace réservé, voir l'étape 3.
     6. Cliquez sur **Fermer**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Spécification du moment où le workflow est utilisé
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Spécifier quand ce flux de travail est utilisé via les conditions d'activation
 
-Vous pouvez créer plusieurs workflows basés sur le même type. Par exemple, vous pouvez créer un workflow de demande d'achat pour chaque pays ou région dans lequel vous travaillez, comme Demandes d'achat Danemark et Demandes d'achat Espagne. Si plusieurs workflows sont basés sur le même type, vous devez spécifier le moment où chaque workflow est utilisé. Dans l'exemple précédent, vous devez spécifier les conditions suivantes :
+Vous pouvez créer plusieurs workflows basés sur le même type de workflow. Si plusieurs workflows sont basés sur le même type, vous devez spécifier le moment où chaque workflow est utilisé avec les conditions d'activation. Si les conditions d'activation ne sont pas remplies, le workflow par défaut est utilisé. De même, si une seule configuration de workflow est définie pour un type de workflow, cette configuration de workflow est utilisée quelles que soient les conditions d'activation.
+
+Par exemple, vous pouvez créer un workflow de demande d'achat pour chaque pays ou région dans lequel vous travaillez, comme Demandes d'achat Danemark et Demandes d'achat Espagne avec les conditions suivantes :
 
 - Demandes d'achat Danemark doit être utilisé lorsque : le pays/région = DK
 - Demandes d'achat Espagne doit être utilisé lorsque : le pays/région = ES

@@ -1,5 +1,5 @@
 ---
-title: " Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin"
+title: Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin
 description: Cette procédure décrit les étapes pour créer des règles de réapprovisionnement.
 author: josaw1
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ecc3e1ce842e8d3b693b5e81ed665e9f3c00bfb5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9bccd92946783628dce37c3fd018e4dd927efd49
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022498"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141129"
 ---
-# <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a> Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin
+# <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Cette procédure décrit les étapes pour créer des règles de réapprovisionnement. Les règles de réapprovisionnement permettent de contrôler la distribution des produits dans les magasins lors de l'utilisation des procédures de cross-docking et de réassort magasin. Elles peuvent être paramétrées pour des magasins ou des groupes de magasins. Le poids défini pour chaque ligne d'une règle contrôle la manière dont les quantités de produits sont distribuées entre les magasins lors de l'utilisation des règles de réapprovisionnement comme méthode de distribution pour le cross-docking et le réassort magasin. La société fictive USRT sert d'exemple dans cette procédure.
 

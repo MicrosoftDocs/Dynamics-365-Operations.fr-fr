@@ -2,14 +2,14 @@
 title: Espace de travail mobile Commandes client
 description: Cette rubrique fournit des informations sur l'espace de travail mobile Commandes client. Cet espace de travail vous permet de rester à jour de vos commandes client à tout moment et n'importe où.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251619"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212938"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Espace de travail mobile Commandes client
 
@@ -33,7 +33,7 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Command
 
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Finance and Operations.
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 L'espace de travail mobile **Commandes client** permet d'afficher des informations détaillées sur chaque commande client. Ces informations incluent le statut de la commande, les informations de contact du client, et les informations de contact du responsable de la commande. L'espace de travail mobile **Commandes client** fournit une vue instantanée des commandes client. Vous pouvez afficher toutes les commandes client, afficher les commandes client par client, ou afficher des informations sur une commande client spécifique. 
 
 L'espace de travail mobile fournit deux vues pour vous aider à analyser les commandes client en profondeur.
@@ -120,7 +120,7 @@ Si la version 1611 de Dynamics 365 for Operations avec la mise à jour de plate
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
-Télécharger et installer l'application mobile Finance and Operations :
+Télécharger et installer l'application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

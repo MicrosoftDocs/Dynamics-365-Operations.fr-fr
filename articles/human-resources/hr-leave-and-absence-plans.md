@@ -3,7 +3,7 @@ title: Création d'un plan de congé et d'absence
 description: Créez des plans de congé dans Dynamics 365 Human Resources pour différents types de congés.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087298"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197357"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Création d'un plan de congé et d'absence
 
@@ -42,6 +42,11 @@ Vous pouvez également créer des avantages liés de congés basés sur le poste
 1. Dans la page **Plans de congé et d'absence**, sélectionnez **Créer un plan**.
 
 2. Sous **Détails**, entrez le **Nom**, la **Date de début**, la **Description** et le **Type de congé** pour votre plan.
+
+Si la fonction **Configurer plusieurs types de congés pour un seul plan de congés et d'absences** est activée, les types de congés sont configurés dans le **Programme de régularisation** plutôt que sous **Détails**. Pour chaque enregistrement dans le tableau du programme de régularisation, vous pouvez définir un type de congé.
+
+ > [!IMPORTANT]
+   > Après avoir activé cette fonctionnalité, il est impossible de la désactiver.
 
 3. Définissez les régularisations dans l'onglet **Régularisations**. Les régularisations déterminent quand et à quelle fréquence un employé bénéficie d'un congé. Au cours de cette étape, vous définissez des politiques sur le moment où les régularisations doivent être attribuées ainsi que sur la répartition proportionnelle des avantages de congés.
 
@@ -95,8 +100,8 @@ Vous pouvez également créer des avantages liés de congés basés sur le poste
    Vous pouvez créer des niveaux pour attribuer des congés selon différents niveaux.
 
    Si vous avez des employés rémunérés à l'heure, vous pouvez accorder des congés sur la base des heures travaillées au lieu de l'ancienneté dans votre organisation. Les données sur les heures travaillées sont généralement stockées dans un système de pointage. Vous pouvez importer des heures normales et des heures supplémentaires travaillées à partir du système de gestion des heures et des présences et les utiliser comme base pour l'attribution d'une prime à un employé.
-
-   1. Sélectionnez une option dans la liste déroulante **Type de régularisation** :
+   
+    1. Sélectionnez une option dans la liste déroulante **Type de régularisation** :
 
       - **Mois de service** - Basez le calendrier de régularisation sur les mois de service.
 
@@ -117,6 +122,13 @@ Vous pouvez également créer des avantages liés de congés basés sur le poste
       - **Reports maximaux** - Le processus de régularisation ajuste les soldes d'absence qui dépassent le solde de report maximal sur l'anniversaire de la date de début.
 
       - **Montant accordé** - Nombre d'heures ou de jours initial accordé aux employés lorsqu'ils s'inscrivent pour la première fois au plan de congé. Le montant ne provisionne pas pour chaque période de régularisation.
+      
+Si la fonction **Configurer plusieurs types de congé pour un seul plan de congé et d'absence** est activée, sélectionnez une option depuis **Type de congé**. 
+
+   > [!IMPORTANT]
+   > Après avoir activé cette fonctionnalité, il est impossible de la désactiver.
+
+Si la fonction **Utiliser l'équivalence temps plein** est activée, Human Resources utilise l'équivalence temps plein (ETP) définie pour le poste afin de répartir au prorata la régularisation d'un employé. Par exemple, si l'ETP est de 0,5 et que le montant de la régularisation est de 10, l'employé régularisera 5. Vous ne pouvez utiliser cette fonction que si vous activez plusieurs types de congés.  
 
 5. Sélectionnez **Enregistrer**.
 
@@ -358,21 +370,8 @@ Solde prévu (30) = Montant de régularisations (10 × 1) + Solde actuel (40) �
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3.00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1.00           | 9/1/2018        | 2.00    |
 
-## <a name="configure-preview-features"></a>Configuration des fonctionnalités d'aperçu
-
-Si vous avez activé les fonctionnalités d'aperçu pour les congés et les absences, vous devez également configurer des paramètres pour elles.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **Fonctionnalité d'aperçu : configurez plusieurs types de congés pour un seul plan de congés et d'absences**. Pour chaque enregistrement dans le tableau du programme de régularisation, vous pouvez définir un type de congé.
-
-   > [!IMPORTANT]
-   > Après avoir activé cette fonctionnalité, il est impossible de la désactiver.
-
-2. **Fonction d'aperçu : utiliser l'équivalence temps plein**. Si vous activez cette fonction d'aperçu, Human Resources utilise l'équivalence temps plein (ETP) définie pour le poste afin de répartir au prorata la régularisation d'un employé. Par exemple, si l'ETP est de 0,5 et que le montant de la régularisation est de 10, l'employé régularisera 5. Vous ne pouvez utiliser cette fonction que si vous activez plusieurs types de congés.
-
 ## <a name="see-also"></a>Voir également :
 
 - [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
-- [Configuration des types de congé et d'absence](hr-leave-and-absence-types.md)
+- [Configurer les types de congé et d'absence](hr-leave-and-absence-types.md)
 - [Provisionner les plans de congé et d'absence](hr-leave-and-absence-accrue.md)

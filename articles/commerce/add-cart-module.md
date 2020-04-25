@@ -3,7 +3,7 @@ title: Module Panier
 description: Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 598b35b1bd365e761d8d4c5ef214935e60b971f4
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: d91f6ff24f8f2c051ed23565983c2bc6a2c12b55
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154015"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261419"
 ---
 # <a name="cart-module"></a>Module Panier
 
@@ -47,12 +47,13 @@ Le module panier a une propriété **En-tête** qui peut être définie sur des 
 - **Bloc de texte** – Ce module prend en charge la messagerie personnalisée dans le module de panier. Les messages sont pilotés par le système de gestion de contenu (CMS). Tous les messages peuvent être ajoutés, tels que « Pour tout problème avec votre commande, contactez le 1-800-Fabrikam ».
 - **Sélecteur de magasins** – Ce module affiche une liste de magasins voisins où un article est disponible pour le prélèvement. Il permet aux utilisateurs d'entrer un emplacement pour trouver des magasins à proximité. Pour plus d'informations sur ce module, voir [Module du sélecteur de magasins](store-selector.md).
 
-## <a name="cart-module-settings"></a>Paramètres du module de panier
+
+## <a name="module-properties"></a>Propriétés du module
 
 Les modules de panier ont les paramètres suivants qui peuvent être configurés sur **Paramètres du site \> Extensions** :
 
 - **Quantité maximale** – Cette propriété est utilisé pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
-- **Contrôle de stock** – Lorsque la valeur est définie sur **Vrai**, un article est ajouté au panier uniquement une fois que le module zone d'achat garantit qu'il est en stock. Ce contrôle de stock est réalisé en cas d'expédition de l'article ou en cas de prélévement de l'article au magasin. Si la valeur est définie sur **Faux**, aucun contrôle de stock n'est effectué avant qu'un article soit ajouté au panier et la commande est passée.
+- **Contrôle de stock** – Lorsque la valeur est définie sur **Vrai**, un article est ajouté au panier uniquement une fois que le module zone d'achat garantit qu'il est en stock. Ce contrôle de stock est réalisé en cas d'expédition de l'article ou en cas de prélévement de l'article au magasin. Si la valeur est définie sur **Faux**, aucun contrôle de stock n'est effectué avant qu'un article soit ajouté au panier et la commande est passée. Pour plus d'informations sur la configuration des paramètres de stock dans le back-office, consultez [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md).
 - **Tampon quantité disponible** - Cette propriété est utilisée pour spécifier un numéro de tampon pour le stock. Le stock est tenu à jour en temps réel, et lorsque plusieurs clients passent des commandes, il peut être difficile de tenir à jour un volume de stock exact. Lorsqu'un contrôle de stock est réalisé, si le stock est inférieur au montant de marge, le produit est traité comme épuisé. Par conséquent, lorsque des ventes se produisent rapidement sur plusieurs canaux, et que le volume de stock n'est pas complètement synchronisé, il y a moins de risque qu'un article qui épuisé soit vendu.
 - **Revenir aux achats** - Cette propriété est utilisée pour spécifier l'itinéraire pour le lien **Revenir aux achats**. L'itinéraire peut être configuré au niveau du site, permettant aux détaillants de ramener le client à la page d'accueil ou vers toute autre page du site.
 
@@ -80,14 +81,18 @@ Pour ajouter un module de panier à une nouvelle page et définir les propriét�
 
 [Module Conteneur](add-container-module.md)
 
-[Module du sélecteur de magasins](store-selector.md)
+[Module de sélection de magasin](store-selector.md)
 
 [Module de zone d'achat](add-buy-box.md)
+
+[Module icône de panier](cart-icon-module.md)
 
 [Module de validation](add-checkout-module.md)
 
 [Module de confirmation de commande](order-confirmation-module.md)
 
-[Module En-tête](author-header-module.md)
+[Module d'en-tête](author-header-module.md)
 
-[Module Pied de page](author-footer-module.md)
+[Module de pied de page](author-footer-module.md)
+
+[Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)

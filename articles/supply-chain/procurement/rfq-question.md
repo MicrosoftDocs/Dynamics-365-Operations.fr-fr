@@ -2,7 +2,7 @@
 title: Réponse aux questions des fournisseurs sur les appels d'offre
 description: Les fournisseurs qui ont des questions sur un appel d'offre peuvent les soumettre et lire les réponses dans la page **Collaboration du fournisseur**.
 author: velofog
-manager: AnnBe
+manager: tfehr
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: public sector
 ms.author: v-alpavk
 ms.search.validFrom: 2020-1-22
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3e45d6e69cc0f452d435f267fc35d56b43965d74
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 3aecd924ee47a0a722d0a62f6b96453011d94b87
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124337"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207822"
 ---
 # <a name="responding-to-vendor-questions-on-request-for-quotations"></a>Réponse aux questions des fournisseurs sur les appels d'offre
 

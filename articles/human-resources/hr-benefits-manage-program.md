@@ -1,6 +1,6 @@
 ---
 title: Définir et gérer un programme social
-description: Les ressources humaines proposent un ensemble d'outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu'une organisation offre ou gère pour ses collaborateurs. Cet article fournit des informations sur la manière de paramétrer et de gérer les avantages.
+description: Human Resources propose un ensemble d'outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu'une organisation offre ou gère pour ses collaborateurs. Cet article fournit des informations sur la manière de paramétrer et de gérer les avantages.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c7ad8c6ee3450d57656f8c167ea8aa7554ac575a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: b976bccf7f5da4483ec8a015f464db764b82a2f1
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009079"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197887"
 ---
-# <a name="define-and-manage-a-benefits-program"></a>Définir et gérer un programme social
+# <a name="define-and-manage-a-benefits-program"></a>Définir et gérer un programme d'avantages
 
-Les ressources humaines proposent un ensemble d'outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu'une organisation offre ou gère pour ses collaborateurs. Cet article fournit des informations sur la manière de paramétrer et de gérer les avantages.
+Human Resources propose un ensemble d'outils pouvant servir à paramétrer et à mettre à jour les avantages, les déductions et les plans de compensation des collaborateurs qu'une organisation offre ou gère pour ses collaborateurs. Cet article fournit des informations sur la manière de paramétrer et de gérer les avantages.
 
 ## <a name="benefit-setup"></a>Paramétrer les avantages
 

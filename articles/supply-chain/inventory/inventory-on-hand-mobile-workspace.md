@@ -2,14 +2,14 @@
 title: Stock disponible dans l'espace de travail mobile
 description: Cette rubrique fournit des informations sur l'espace de travail mobile Stock disponible. Cet espace de travail vous permet d'acquérir des connaissances mobiles sur les stocks réservés et disponibles à tout moment et n'importe où.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
-ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
+ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2574797"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212731"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Stock disponible dans l'espace de travail mobile
 
@@ -33,7 +33,7 @@ Cette rubrique fournit des informations sur l'espace de travail mobile **Stock d
 
 Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Finance and Operations.
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 Généralement, les sociétés ont plusieurs expéditions et plusieurs réceptions de stock chaque jour. Ces mouvements modifient constamment le statut du stock disponible. L'espace de travail **Stock disponible** vous permet de voir l'état du stock en ligne afin d'obtenir les dernières informations sur les données de stock sur votre appareil mobile. Que vous travailliez dans l'entrepôt, les achats, les ventes, la fabrication ou la gestion, ou que vous ayez d'autres rôles, vous pouvez accéder aux données de stock en temps réel à tout moment et n'importe où. 
 
 L'espace de travail mobile fournit une vue instantanée du statut du stock disponible de plusieurs établissements. Il vous permet d'afficher le stock disponible entre différents sites, les réservations de nomenclature actuelles, et le stock disponible non réservé. Vous pouvez également entrer les numéros d'article pour rechercher le stock disponible, puis effectuer une recherche filtrée des produits ou des variantes disponibles. 
@@ -96,7 +96,7 @@ Si Platform Update 3 ou version ultérieure a été déployée pour votre organi
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
 
-Télécharger et installer l'application mobile Finance and Operations :
+Télécharger et installer l'application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

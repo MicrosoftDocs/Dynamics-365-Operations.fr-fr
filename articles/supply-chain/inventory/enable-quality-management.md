@@ -2,7 +2,7 @@
 title: Vue d'ensemble de la gestion de la qualité
 description: Cette rubrique décrit la manière dont vous pouvez utiliser la gestion de la qualité dans Dynamics 365 Supply Chain Management pour vous aider à améliorer la qualité des produits de votre chaîne logistique.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814396"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224907"
 ---
 # <a name="quality-management-overview"></a>Vue d'ensemble de la gestion de la qualité
 
@@ -302,122 +302,6 @@ Dans l'achat, vous définissez le champ **Type d'événement** sur **Accusé de 
 
 - Si l'option **Par quantité mise à jour** est définie sur **Oui**, un ordre de qualité est généré pour chaque réception par rapport à la commande fournisseur, selon la quantité réceptionnée et les paramètres dans l'échantillonnage d'article. Chaque fois qu'une quantité est reçue par rapport à la commande fournisseur, de nouveaux ordres de qualité sont générés selon la nouvelle quantité de réception.
 - Si l'option **Par quantité mise à jour** est définie sur **Non**, un ordre de qualité est généré pour la première réception par rapport à la commande fournisseur, selon la quantité réceptionnée. En outre, un ou plusieurs ordres de qualité sont créés selon la quantité restante, selon les dimensions de suivi. Les ordres de qualité ne sont pas générés pour les réceptions suivantes par rapport à la commande fournisseur.
-
-<table>
-<tbody>
-<tr>
-<th>Spécification de la qualité</th>
-<th>Par quantité mise à jour</th>
-<th>Par dimension de suivi</th>
-<th>Résultat</th>
-</tr>
-<tr>
-<td>Pourcentage : 10 %</td>
-<td>Oui</td>
-<td>
-<p>Numéro du lot : Non</p>
-<p>Numéro de série : Non</p>
-</td>
-<td>
-<p>Quantité de la commande : 100</p>
-<ol>
-<li>Déclarer comme terminé pour 30
-<ul>
-<li>Ordre de qualité n° 1 pour 3 (10 % de 30)</li>
-</ul>
-</li>
-<li>Déclarer comme terminé pour 70
-<ul>
-<li>Ordre de qualité n° 2 pour 7 (10 % de la quantité commandée restante, qui est égale à 70 dans ce cas)</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Quantité fixe : 1</td>
-<td>Non</td>
-<td>
-<p>Numéro du lot : Non</p>
-<p>Numéro de série : Non</p>
-</td>
-<td>Quantité de la commande : 100
-<ol>
-<li>Déclarer comme terminé pour 30
-<ul>
-<li>L'ordre de qualité n° 1 est créé pour 1 (pour la première quantité déclarée comme terminée, qui a une valeur fixe de 1).</li>
-<li>Plus aucun ordre de qualité n'est créé par rapport à la quantité restante.</li>
-</ul>
-</li>
-<li>Déclarer comme terminé pour 10
-<ul>
-<li>Aucun ordre de qualité n'est créé.</li>
-</ul>
-</li>
-<li>Déclarer comme terminé pour 60
-<ul>
-<li>Aucun ordre de qualité n'est créé.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Quantité fixe : 1</td>
-<td>Oui</td>
-<td>
-<p>Numéro du lot : Oui</p>
-<p>Numéro de série : Oui</p>
-</td>
-<td>
-<p>Quantité de la commande : 10</p>
-<ol>
-<li>Déclarer comme terminé pour 3
-<ul>
-<li>Ordre de qualité n° 1 pour 1 du lot n° b1, n° 1 de la série</li>
-<li>Ordre de qualité n° 2 pour 1 du lot n° b2, n° 2 de la série</li>
-<li>Ordre de qualité n° 3 pour 1 du lot n° b3, n° 3 de la série</li>
-</ul>
-</li>
-<li>Déclarer comme terminé pour 2
-<ul>
-<li>Ordre de qualité n° 4 pour 1 du lot n° b4, n° 4 de la série</li>
-<li>Ordre de qualité n° 5 pour 1 du lot n° b5, n° 5 de la série</li>
-</ul>
-</li>
-</ol>
-<p><strong>Remarque :</strong> le lot peut être réutilisé.</p>
-</td>
-</tr>
-<tr>
-<td>Quantité fixe : 2</td>
-<td>Non</td>
-<td>
-<p>Numéro du lot : Oui</p>
-<p>Numéro de série : Oui</p>
-</td>
-<td>
-<p>Quantité de la commande : 10</p>
-<ol>
-<li>Déclarer comme terminé pour 4
-<ul>
-<li>Ordre de qualité n° 1 pour 1 du lot n° b1, n° 1 de la série.</li>
-<li>Ordre de qualité n° 2 pour 1 du lot n° b2, n° 2 de la série.</li>
-<li>Ordre de qualité n° 3 pour 1 du lot n° b3, n° 3 de la série.</li>
-<li>Ordre de qualité n° 4 pour 1 du lot n° b4, n° 4 de la série.</li>
-<li>Plus aucun ordre de qualité n'est créé par rapport à la quantité restante.</li>
-</ul>
-</li>
-<li>Déclarer comme terminé pour 6
-<ul>
-<li>Aucun ordre de qualité n'est créé.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### <a name="production"></a>Production
 

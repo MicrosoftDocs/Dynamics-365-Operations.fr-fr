@@ -3,7 +3,7 @@ title: Mises à jour réglementaires
 description: Cette rubrique fournit une liste des mises à jour réglementaires prévues et publiées pour Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f35ab4b3ad49edfd0b68f906f44b8a2b04787f1a
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: 6e403e3d18aec616d0c569b16ba77eaefdf4b0ea
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3161803"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262624"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -51,8 +51,11 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 |      Brésil         |   2020 janvier       | 10.0.8      |   Informations complémentaires de ICMS-ST    |
 |      Brésil         |   Mars 2020 - Janvier 2020       | 10.0.9, 10.0.8HF      |   Mise en place fiscale SPED 014 |
 |      Brésil         |   Mars 2020 - Janvier 2020       | 10.0.9, 10.0.8HF      |   DRCST SC - Ordonnance SEF nº343DR   |
+|      Brésil         |   mai 2020 - mars 2020      | 10.0.11, 10.0.10HF, 10.0.9HF      |   SPED ECD disposition 8   |
+|      Brésil         |   mai 2020 - avril 2020      | 10.0.11, 10.0.10HF, 10.0.9HF, 10.0.8HF      |   Note technique NT2019.001 v1.40   |
 |      France         |   2020 avril       | 10.0.10      |   Déclaration des frais de justice aux autorités fiscales pour les indépendants (DAS2)    |
 |      France         |   2020 mars       | 10.0.9      |   Localisation française : format ISO 20022 pour les paiements internationaux et les transferts de trésorerie    |
+|      Hongrie         |   mai 2020 - mars 2020       | 10.0.11, 10.0.9HF, 10.0.8HF     |   Système de facturation en ligne v.2.0 sur Finance and Operations    |
 |      Inde         |   2020 mars      | 10.0.9      |   Nouvel outil de retour hors ligne GSTR (ANX-1 et ANX-2)    |
 |      Italie         |   2020 janvier      | 10.0.8      |   Modifications de gestion de TVA par D.L. 119 du 23 octobre 2018 : communication annuelle de la taxe    |
 |      Italie         |   2020 mars      | 10.0.9, 10.0.8HF      |   Retail - Gestion des informations client dans POS |
@@ -68,6 +71,9 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 |      Pologne          |   Mars 2020 - Janvier 2020     | 10.0.9, 10.0.8HF     |   Retail - Impression des informations client dans le reçu fiscal |
 |      Pologne          |   Mars 2020 - Janvier 2020     | 10.0.9, 10.0.8     |   Factures SAF (JPK_FA) v.3 depuis le 2 décembre 2019 |
 |      Pologne          |   Avril 2020 - Janvier 2020     | 10.0.10, 10.0.9, 10.0.8     |   JPK_VDEK remplaçant JPK_VAT (TVA SAF) |
+|      Pologne          |   mai 2020     | 10.0.11     |   Fractionner le montant de la différence du taux change Comptes créditeurs/débiteurs en différence du taux de change de la valeur nette de la facture et du montant de TVA  |
+|      Pologne          |   mai 2020     | 10.0.11     |   Livres comptables SAF - Amélioration du filtrage des couches de publication |
+|      Pologne          |   mai 2020     | 10.0.11     |   JPK_VDEK pack complémentaire I |
 |      Russie          |   2020 mars     | 10.0.9     |   Format de la déclaration de taxe foncière pour la déclaration 2019 |
 |      Russie          |   2020 mars     | 10.0.9     |   Mises à jour du format de la déclaration de l'impôt sur les bénéfices |
 |      Singapour           |   2020 janvier     | 10.0.8      |   État des retours GST |

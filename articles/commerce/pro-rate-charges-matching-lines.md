@@ -3,7 +3,7 @@ title: Calculer au prorata les frais d'en-tête par rapport aux lignes de vente 
 description: Cette rubrique décrit les capacités supplémentaires pour calculer et appliquer des frais automatiques aux commandes du canal de commerce en utilisant la fonctionnalité de frais automatiques avancés.
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022565"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175129"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Calculer au prorata les frais d'en-tête par rapport aux lignes de vente correspondantes
 
@@ -37,7 +37,7 @@ Cette fonctionnalité n'est disponible que si la fonctionnalité [Frais automati
 
 Cette nouvelle fonctionnalité offre plus de souplesse aux organisations en matière de calcul des frais automatiques au niveau de l'en-tête et d'application aux transactions de vente.
 
-Dans les versions de l'application antérieures à la version 10.0.1, les frais automatiques au niveau de l'en-tête qui ont un mode de livraison spécifique sont calculés uniquement en cas de correspondance avec le mode de livraison défini dans l'en-tête de la commande client.
+Dans les versions de l'application antérieures à la version 10.0.1, les frais automatiques au niveau de l'en-tête avec un mode de livraison spécifiques sont calculés uniquement lorsqu'il y a une correspondance avec le mode de livraison défini sur l'en-tête de la commande client.
 
 Par exemple, les frais automatiques au niveau de l'en-tête sont définis pour le mode de livraison **99** et le mode de livraison **11**. Une commande client est créée, et le mode de livraison **99** est défini sur l'en-tête de la commande. Toutefois, certaines des lignes de vente sont paramétrées pour une expédition via le mode de livraison **11**. Dans ce cas, seuls les frais au niveau de l'en-tête liés au mode de livraison **99** sont pris en compte et appliqués à la commande client.
 
@@ -169,3 +169,9 @@ Par conséquent, pour cet exemple, l'article 81334 se voit attribuer des frais d
 ![Frais calculés au prorata sur la ligne des ventes pour l'article 81334](media/proratedlinecharge.png)
 
 Lorsque ce mode de calcul est utilisé dans un scénario de retour partiel, si le code de frais est remboursable, seule la part des frais attribués à cette ligne est remboursée en cas de retour de l'article.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+[Frais automatiques avancés omnicanaux](omni-auto-charges.md)
+
+[Activer et configurer les frais automatiques par canal](auto-charges-by-channel.md)

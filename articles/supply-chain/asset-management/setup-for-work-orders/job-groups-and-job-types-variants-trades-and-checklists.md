@@ -2,7 +2,7 @@
 title: Catégories de type de tâche de maintenance et types de tâches de maintenance, variantes de type de tâche de maintenance, opérations de tâches de maintenance et listes de contrôle de maintenance
 description: Cette rubrique décrit les catégories de type de tâche de maintenance et les types de tâches de maintenance, les variantes de type de tâche de maintenance, les opérations de tâches de maintenance et les listes de contrôle de maintenance dans le module Gestion des actifs.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8dfac98e8425a270109abecaab4e5338ddabeb8a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812235"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215537"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Catégories de type de tâche de maintenance et types de tâches de maintenance, variantes de type de tâche de maintenance, opérations de tâches de maintenance et listes de contrôle de maintenance
 

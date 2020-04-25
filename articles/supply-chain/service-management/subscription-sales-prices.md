@@ -2,7 +2,7 @@
 title: Prix de vente des abonnements
 description: Lors de la création d'un abonnement, le prix de vente est calculé à partir du paramétrage de prix de vente défini dans l'écran Prix de vente (abonnement).
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASalespriceSubscription
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e18690f7e9b790ecbd0ac0de1955fc95ab1f082
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d6c59c90d49a4dcf3df4672c5f40d52ed639760c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560687"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206609"
 ---
 # <a name="subscription-sales-prices"></a>Prix de vente des abonnements   
 

@@ -2,7 +2,7 @@
 title: Matières d'emballage et frais
 description: Cette rubrique donne des informations sur les taxes sur les matières d'emballage qui sont payées aux entreprises de recyclage à des intervalles spécifiques.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076245"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215698"
 ---
 # <a name="packing-materials-and-fees"></a>Matières d'emballage et frais
 
@@ -39,7 +39,7 @@ Vous pouvez définir une ou plusieurs unités d'emballage pour un article, un gr
 > [!NOTE]
 > Même si votre société ne paie pas de taxes sur les matières d'emballage, vous pouvez utiliser cette fonctionnalité pour calculer des statistiques sur les poids des matières d'emballage.
 
-## <a name="allocations"></a>Configurer l'affectation de matières d'emballage
+## <a name="set-up-packing-material-allocation"></a><a name="allocations"></a>Configurer l'affectation de matières d'emballage
 
 Avant de pouvoir calculer les poids et/ou les taxes des matières d'emballage, vous devez activer le calcul et définir quelles matières et quelles taxes s'appliquent à quels articles.
 

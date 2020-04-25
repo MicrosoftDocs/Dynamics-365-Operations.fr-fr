@@ -3,7 +3,7 @@ title: Module d'en-tête
 description: Cette rubrique couvre les modules d'en-tête et décrit comment créer des en-têtes de page dans Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: efadd19681bbb21ea5b2b469e55bc6f4b0535046
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: cec138ebefbd2beb2f1cf6302ce58d8bbc5c4bbd
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3025656"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261442"
 ---
 # <a name="header-module"></a>Module d'en-tête
 
@@ -51,6 +51,7 @@ Les modules suivants peuvent être utilisés dans un module d'en-tête :
 
 - **Menu de navigation** – Le menu de navigation représente la hiérarchie de navigation du canal et d'autres liens de navigation statiques. La hiérarchie de navigation du canal peut être configurée dans Dynamics 365 Commerce. Le menu de navigation a une propriété **Source de navigation** qui est utilisée pour spécifier les éléments de menu statique et les éléments de menu de navigation Serveur de vente au détail comme source. Si des éléments de menu statique sont spécifiés comme source, des liens relatifs vers d'autres pages du site peuvent être fournis. Les articles configurés s'affichent alors comme navigation d'en-tête. 
 - **Rechercher** – Le module de recherche permet aux utilisateurs d'entrer des critères de recherche pour des produits. L'URL de la page de recherche par défaut et les paramètres de la requête de recherche doivent être fournis à l'adresse **Paramètres du site \> Extensions**. Le module de recherche possède des propriétés qui vous permettent de supprimer l'étiquette ou le bouton de recherche selon vos besoins. Le module de recherche prend également en charge les options de suggestion automatique, telles que les résultats de recherche de produits, de mots clés et de catégories.
+- **Icône de panier** - Le module d'icône de panier représente l'icône de panier, qui indique le nombre d'articles dans le panier à un moment donné. Pour plus d'informations, voir [Module Icône de panier](cart-icon-module.md).
 
 ## <a name="create-a-header-module-for-a-page"></a>Créer un module d'en-tête pour une page
 
@@ -65,7 +66,10 @@ Pour créer un module d'en-tête, procédez comme suit :
 1. Dans le volet de propriétés du module de menu de navigation, configurez les propriétés du module de menu de navigation.
 1. Dans l'emplacement **Rechercher** du module d'en-tête, ajoutez un module de recherche. 
 1. Dans le volet de propriétés du module de recherche, configurez les propriétés du module de recherche. 
+1. Dans l'emplacement **Icône de panier** du module d'en-tête, ajoutez un module d'icône de panier. 
+1. Dans le volet de propriétés du module Icône de panier, configurez les propriétés du module Icône de panier. Si vous souhaitez que l'icône du panier affiche un mini-panier lorsque vous passez la souris dessus, sélectionnez **Vrai** pour **Afficher le mini panier**.
 1. Enregistrez le fragment de page, terminez de le modifier et publiez-le. 
+
 
 Pour vous assurer qu'un en-tête apparaît sur chaque page, suivez ces étapes pour chaque modèle de page créé pour le site.
 
@@ -76,16 +80,18 @@ Pour vous assurer qu'un en-tête apparaît sur chaque page, suivez ces étapes p
 
 [Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
 
-[Module Container](add-container-module.md)
+[Module Conteneur](add-container-module.md)
 
-[Module Zone d'achat](add-buy-box.md)
+[Module de zone d'achat](add-buy-box.md)
 
-[Module Panier](add-cart-module.md)
+[Module de panier](add-cart-module.md)
 
-[Module Paiement](add-checkout-module.md)
+[Module Icône de panier](cart-icon-module.md)
 
-[Module Confirmation de commande](order-confirmation-module.md)
+[Module de validation](add-checkout-module.md)
 
-[Module En-tête](author-header-module.md)
+[Module de confirmation de commande](order-confirmation-module.md)
+
+[Module d'en-tête](author-header-module.md)
 
 [Module Pied de page](author-footer-module.md)

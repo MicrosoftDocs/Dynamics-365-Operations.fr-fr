@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fbf7cc33d12fb54d2ff02acc46ba2e284b2a2b3f
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc5db8d04a2860df0c917816e2910c6fbda941ff
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019778"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173152"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Hiérarchie d'organisation dans Common Data Service
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Comme Dynamics 365 Finance est un système financier, l'*organisation* est un concept de base, et le système commence par la configuration d'une hiérarchie d'organisation. Les opérations financières et commerciales peuvent ensuite être suivies au niveau de l'organisation et également à tous les niveaux de la hiérarchie d'organisation.
 
@@ -50,7 +50,7 @@ Des mises en correspondance de l'entité Hiérarchie d'organisation sont disponi
 
 Les informations de produit contiennent toutes les informations associées au produit et à sa définition, comme les dimensions du produit ou les dimensions de suivi et de stockage. Lorsque le tableau suivant s'affiche, un ensemble de cartes d'entité est créé pour synchroniser les produits et les informations associées.
 
-Finance and Operations | Autres applications Dynamics 365 | Description
+Applications Finance and Operations | Autres applications Dynamics 365 | Description
 -----------------------|--------------------------------|---
 Objectifs de la hiérarchie d'organisation | msdyn_internalorganizationhierarchypurposes | Ce modèle fournit une synchronisation unidirectionnelle de l'entité Objectif de la hiérarchie d'organisation.
 Type de la hiérarchie d'organisation | msdyn_internalorganizationhierarchytypes | Ce modèle fournit une synchronisation unidirectionnelle de l'entité Type de la hiérarchie d'organisation.

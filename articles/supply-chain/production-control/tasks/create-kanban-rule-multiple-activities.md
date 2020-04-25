@@ -2,7 +2,7 @@
 title: Créer une règle de kanban pour des activités multiples
 description: Cette procédure montre comment créer une règle de kanban qui inclut des activités multiples à partir d'un flux de production.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,23 +10,23 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, KanbanFlowSelection, InventItemIdLookupSimple, KanbanCreateScheduled, Kanban
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7be4e9da6f3dbaf2683c0dba78e0e780628f4b2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 68cac0f581e786cdb3801e03fb60db7bc05ffb2f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838653"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212215"
 ---
 # <a name="create-a-kanban-rule-for-multiple-activities"></a>Créer une règle de kanban pour des activités multiples
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette procédure montre comment créer une règle de kanban qui inclut des activités multiples à partir d'un flux de production. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à l'ingénieur processus ou au responsable de la chaîne de valeur, car ils préparent la production d'un produit nouveau ou modifié dans un environnement lean.
 

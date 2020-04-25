@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897923"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197265"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Nouveautés et modifications dans Dynamics 365 Talent (16 avril 2019)
 
@@ -46,10 +46,6 @@ Les modifications décrites dans cette section s'appliquent au numéro de versio
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Les entités Région de rémunération, Niveau de rémunération, Option d'avantage et Type de compétence dans Common Data Service ont été mis à jour pour inclure la prise en charge des champs client
 
 Avec cette version, ces entités Common Data Service ont été mises à jour pour comprendre la possibilité d'inclure un champ personnalisé ajouté via Talent : Core HR.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Nouvelle prise en charge d'entité Common Data Service pour : Règles d'acquisition de la rémunération, Régime variable de rémunération, Rémunération variable
-
-Avec cette version, les entités Règles d'acquisition de la rémunération, Régime variable de rémunération et Rémunération variable ont été ajoutées à Common Data Service. Ces entités sont également compatibles avec les champs personnalisés ajoutés via Talent : Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problèmes d'actualisation de PowerBI (314342)
 
@@ -93,6 +89,6 @@ Avec cette modification, les doublons sont détectés au moment de renseigner le
 
 ### <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
 
-Dans Platform Update 25 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement.
+Avec Platform Update 25 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement.
 
 

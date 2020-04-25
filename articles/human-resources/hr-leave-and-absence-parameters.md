@@ -3,7 +3,7 @@ title: Configuration des paramètres de congé et d'absence
 description: Définissez les paramètres des ressources humaines pour les congés et les absences dans Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008997"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197979"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configuration des paramètres de congé et d'absence
 
@@ -50,18 +50,25 @@ Avant de configurer des plans de congé et d'absence dans Dynamics 365 Human Res
 
 7. Sélectionnez **Enregistrer**.
 
-## <a name="configure-calendar-parameters"></a>Configurer les paramètres de calendrier
-
-Si vous avez activé la fonction d'aperçu du calendrier des congés et des absences, vous devez configurer des paramètres supplémentaires. 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> Pour la version préliminaire du 3 février 2020, seules les **Demandes de congé en attente** sont activées.
+## <a name="view-and-change-leave-and-absence-parameters"></a>Afficher et modifier les paramètres de congé et d'absence
 
 1. Dans la page **Plans de congé et d'absence**, sélectionnez l'onglet **Liens**.
 
-2. Sous **Configuration**, sélectionnez **Paramètres des ressources humaines**.
+2. Sous **Configuration**, sélectionnez **Paramètres de congé et d'absence**.
+
+3. Dans l'onglet **Général**, définissez les paramètres suivants :
+ 
+    - Définissez **Unités de congé et d'absence** sur des heures ou des jours. S'il s'agit de jours, vous pouvez sélectionner **Activer la définition d'une demi-journée** pour permettre aux employés de choisir la première ou la seconde partie de la journée dans leurs demandes de congés. 
+
+    - Sélectionnez **Date d'entrée en vigueur des mois de service** pour déterminer quand les taux de régularisation entrent en vigueur pour les plans de congé avec les mois de service.
+
+    - Sélectionnez **Calcul du solde** pour afficher les soldes à partir d'aujourd'hui ou de la période de régularisation. Si vous sélectionnez **Solde à ce jour**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à ce jour. Si vous sélectionnez **Solde à compter de la période de régularisation**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à partir de la période de régularisation définie par la fréquence dans le plan de congés. 
+
+## <a name="configure-calendar-parameters"></a>Configurer les paramètres de calendrier
+
+1. Dans la page **Plans de congé et d'absence**, sélectionnez l'onglet **Liens**.
+
+2. Sous **Configuration**, sélectionnez **Paramètres de congé et d'absence**.
 
 3. Sur l'onglet **Calendrier**, modifiez les paramètres de calendrier si nécessaire.
 

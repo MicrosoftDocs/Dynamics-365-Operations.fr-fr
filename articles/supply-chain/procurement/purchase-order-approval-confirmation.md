@@ -1,30 +1,30 @@
 ---
-title: Approuver et passer en revue des commandes fournisseur
-description: Cette rubrique décrit les statuts par lesquels passe une commande fournisseur (CF) après qu'elle a été créée et les conséquences de l’activation de la gestion des modifications sur les CF.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+title: Approuver et confirmer des commandes fournisseur
+description: Cette rubrique décrit les statuts par lesquels passe une commande fournisseur après sa création et les conséquences de l’activation de la gestion des modifications sur les CF.
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813429"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207992"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Approuver et passer en revue des commandes fournisseur
 
@@ -69,9 +69,10 @@ Dans certaines situations, vous devrez peut-être modifier une CF après qu’el
 
 Si la CF a été créée à l’aide d’un processus de gestion des changements, vous pouvez la modifier en rappelant la commande ou, si la commande a déjà été approuvée, à l’aide de l'action **Demande la modification**. Dans ce cas, le statut d’approbation est redéfini sur **Brouillon**, et vous pouvez ensuite modifier la commande. Une fois que vous avez terminé vos modifications, vous devez envoyer la CF pour une nouvelle approbation. Vous pouvez configurer les types de modifications qui nécessitent une nouvelle approbation à l’aide d’une règle de stratégie **Règle de nouvelle approbation pour les commandes fournisseur** sur la page **Stratégies d’achat**.
 
-Si une partie de la quantité commandée d'une ligne de CF a été livrée, vous ne pouvez pas modifier la quantité commandée. Toutefois, vous pouvez modifier la quantité **Livrer quantité restante** sur la ligne. Vous pouvez ensuite utiliser l'action **Finaliser** pour annuler les lignes et empêcher un traitement supplémentaire. 
+Si une partie de la quantité commandée d'une ligne de CF a été livrée, vous ne pouvez pas modifier la quantité commandée lorsque la commande fournisseur est définie sur **Brouillon**. Cependant, vous pouvez modifier **Livrer quantité restante** sur la ligne de la commande fournisseur dont le statut est défini sur **Brouillon**.
 
-Une fois qu'une commande a été confirmée, vous ne pouvez plus la supprimer. Toutefois, vous pouvez annuler la quantité totale ou la quantité restante d'une commande, sous réserve que la quantité n'a pas été reçue ou facturée.
+Une fois qu'une commande a été confirmée, vous ne pouvez plus la supprimer. Toutefois, vous pouvez annuler la quantité totale ou la quantité restante d'une commande, sous réserve que la quantité n'a pas été reçue ou facturée. Vous pouvez ensuite utiliser l'action **Finaliser** pour empêcher un traitement supplémentaire. 
+
 
 ## <a name="canceling-purchase-orders"></a>Annulation des commandes fournisseur
 

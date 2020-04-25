@@ -2,7 +2,7 @@
 title: Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
 description: Cette rubrique décrit l'utilisation des contraintes d'expression et de table. Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91eb5f166633f5be0ad68c039d3e538e4060ea0b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 3d85d10113e7cc4e95a25efe7fee6d1f23990694
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815063"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208465"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
 
@@ -63,7 +63,7 @@ Le tableau suivant indique les combinaisons définies par la contrainte de table
 Vous pouvez créer des contraintes de table définies par le système et par l'utilisateur. Pour plus d'informations, voir [Contraintes de table définies par l'utilisateur et par le système](system-defined-user-defined-table-constraints.md).
 
 ## <a name="what-syntax-should-be-used-to-write-constraints"></a>Quelle syntaxe doit être utilisée pour écrire des contraintes ?
-Vous devez utiliser la syntaxe du langage de modélisation d'optimisation (OML, Optimization Modeling Language) lorsque vous entrez des contraintes. Le système utilise Microsoft Solver Foundation pour résoudre les contraintes.
+Vous devez utiliser la syntaxe du langage de modélisation d'optimisation (OML, Optimization Modeling Language) lorsque vous entrez des contraintes. Le système utilise le solveur de contrainte Microsoft Solver Foundation pour résoudre les contraintes.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>Dois-je utiliser des contraintes de table ou des contraintes d'expression ?
 Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. Vous créez une contrainte de table comme une matrice, alors qu'une contrainte d'expression est un relevé individuel. Lorsque vous configurez un produit, la contrainte utilisée n'a pas d'importance. L'exemple suivant montre comment les deux méthodes diffèrent.  

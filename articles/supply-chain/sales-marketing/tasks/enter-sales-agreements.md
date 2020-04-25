@@ -2,7 +2,7 @@
 title: Entrer des contrats de vente
 description: Cette rubrique explique comment créer un contrat de vente qui incite l'un de vos clients à acheter un produit pour un montant convenu sur une période définie en échange de remises spéciales.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,23 +10,23 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7699f426c102b4ae2610db0851ddd127e514b652
-ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
+ms.openlocfilehash: 723621f61a237d4b390271e65bce204c44ee4fc2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1871027"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204330"
 ---
 # <a name="enter-sales-agreements"></a>Entrer des contrats de vente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Cette rubrique explique comment créer un contrat de vente qui incite l'un de vos clients à acheter un produit pour un montant convenu sur une période définie en échange de remises spéciales. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données.
 
@@ -43,7 +43,7 @@ Cette rubrique explique comment créer un contrat de vente qui incite l'un de vo
 
 ## <a name="set-up-product-value-commitment-lines"></a>Paramétrer des lignes d'engagement à la valeur du produit
 1. Sélectionnez **Ajouter la ligne**.
-2. Dans le champ **Numéro d'article**, sélectionnez l'enregistrement souhaité dans le menu déroulant. Le type d'engagement que vous avez choisi pour l'accord affecte le type d'informations que vous pouvez spécifier pour les lignes d'accord. Par exemple, pour un accord basé sur des valeurs vous devez spécifier le montant net total (dans la devise acceptée) pour lequel le client s'engage à vous acheter des marchandises. Dans cet exemple, les champs **Quantité** et **Unité** de la ligne sont indisponibles car vous êtes en train de créer un accord pour que le client achète une valeur spécifique d'un produit.   
+2. Dans le champ **Numéro d'article**, sélectionnez l'enregistrement souhaité dans le menu déroulant. Le type d'engagement que vous avez choisi pour l'accord affecte le type d'informations que vous pouvez spécifier pour les lignes d'accord. Par exemple, pour un accord basé sur des valeurs vous devez spécifier le montant net total (dans la devise acceptée) pour lequel le client s'engage à vous acheter des marchandises. Dans cet exemple, les champs **Quantité** et **Unité** de la ligne sont indisponibles, car vous êtes en train de créer un accord pour que le client achète une valeur spécifique d'un produit.   
 3. Dans le champ **Montant net**, spécifiez le montant en devises pour lequel le client s'est engagé à acheter.
 4. Dans le champ **Pourcentage de remise**, entrez une valeur en pourcentage qui s'appliquera aux lignes de commande du client liées à cet accord.
 5. Développez la section **Détails de ligne**.

@@ -2,7 +2,7 @@
 title: Intégrer des fournisseurs
 description: Cette rubrique décrit le processus d'intégration de nouveaux fournisseurs. Elle explique les actions requises par différents rôles au cours de ce processus.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250142"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203409"
 ---
 # <a name="onboard-vendors"></a>Intégrer des fournisseurs
 [!include [banner](../includes/banner.md)]
@@ -48,7 +48,7 @@ Le tableau suivant présente les étapes et les rôles impliqués dans le proces
 | Administrateur            | | | Créez un utilisateur dans Supply Chain Management et Microsoft Azure. | | | |
 | Personne à contacter chez le fournisseur    | | | Envoyez un e-mail à la personne à contacter. | Enregistrez les informations sur le fournisseur. | | |
 
-Pour une démonstration rapide du processus d'intégration des fournisseurs, consultez cette courte vidéo YouTube concernant la procédure [Intégrer un nouveau fournisseur dans Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Pour une démonstration rapide du processus d'intégration des fournisseurs, visionnez cette petite vidéo YouTube : [Intégrer un nouveau fournisseur dans Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importation de la demande d'enregistrement du fournisseur potentiel
 

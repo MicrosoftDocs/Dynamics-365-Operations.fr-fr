@@ -3,7 +3,7 @@ title: Fonction REPLACE ER
 description: Cette rubrique fournit des informations sur l'utilisation de la fonction REPLACE États électroniques (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040984"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201064"
 ---
-# <a name="REPLACE">Fonction REPLACE ER</a>
+# <a name=""></a><a name="REPLACE">Fonction REPLACE ER</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ Valeur de texte résultante.
 
 Si l'argument `regular expression flag` est **TRUE**, cette fonction renvoie la chaîne spécifiée après sa modification en appliquant l'expression régulière spécifiée par l'argument `pattern`. L'expression régulière est utilisée pour rechercher les caractères qui doivent être remplacés.
 
-Si l'argument `regular expression flag` est **FALSE**, cette fonction se comporte comme [TRANSLATE](er-functions-text-translate.md). Les caractères spécifiés par l'argument `replacement` sont utilisés pour remplacer les caractères qui sont recherchés. 
+Si l'argument `regular expression flag` est **FALSE**, cette fonction renvoie une chaîne spécifique après que l'ensemble de caractères définis dans l'argument `pattern` ait été remplacé par les caractères de l'argument `replacement`. 
 
 ## <a name="example-1"></a>Exemple 1
 

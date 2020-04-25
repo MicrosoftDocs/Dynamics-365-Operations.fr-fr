@@ -3,7 +3,7 @@ title: Création d'un plan d'avantages
 description: Configurez des plans d'avantages dans Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6e3822a1071023898e459a82c14ff648d8cdebed
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009030"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230106"
 ---
 # <a name="create-a-benefits-plan"></a>Création d'un plan d'avantages
-
-[!include [banner](includes/preview-feature.md)]
 
 Cet article vous montre comment configurer des plans d'avantages sociaux dans Dynamics 365 Human Resources.
 
@@ -39,16 +37,16 @@ Cet article vous montre comment configurer des plans d'avantages sociaux dans Dy
 
    | Champ | Description |
    | --- | --- |
-   | Plan | Identificateur unique d'un plan. |
-   | Description | Description du plan. |
-   | Type de plan | Lorsque vous créez un nouveau plan, vous devez spécifier le type de plan. Un type de plan est un regroupement de haut niveau de types spécifiques d'avantages. Chaque type de plan spécifie si un employé peut souscrire à plusieurs plans de ce type, spécifie si les contacts sont des bénéficiaires ou des personnes à charge et définit les options de couverture. Vous pouvez créer de nouveaux types de plans personnalisés pour répondre aux besoins de vos offres d'avantages. Les principaux types de plans d'avantages sociaux sont les suivants : <ul><li>401K</li><li>ADD</li><li>Soins dentaires</li><li>Fitness</li><li>FSA</li><li>Vie</li><li>LTD</li><li>Assurance-maladie</li><li>Congés payés</li><li>STD</li><li>Vision</li></ul> |
-   | Code de type de plan | Code du type de plan. |
-   | Programme | Spécifie un programme auquel affecter éventuellement le plan. |
-   | Offre groupée | Spécifie une offre groupée à laquelle affecter le plan. |
-   | Élément maître | Spécifie si le plan est le plan général de l'offre groupée à laquelle il est affecté. |
-   | État  | Indique l'état actuel du plan d'avantages. La valeur par défaut est Actif. Si vous modifiez le statut sur Inactif, le plan ne sera pas disponible en tant que sélection lors de l'inscription. |
-   | Valide à partir d'une date et heure | Date et l'heure de début du plan. La date par défaut est la date système actuelle. |
-   | Valide jusqu'à une date et heure | Date et heure de fin du plan (le statut est défini sur Inactif). La valeur par défaut est 12/31/2154, ce qui signifie jamais. |
+   | **Plan** | Identificateur unique d'un plan. |
+   | **Description** | Description du plan. |
+   | **Type de plan** | Lorsque vous créez un nouveau plan, vous devez spécifier le type de plan. Un type de plan est un regroupement de haut niveau de types spécifiques d'avantages. Chaque type de plan spécifie si un employé peut souscrire à plusieurs plans de ce type, spécifie si les contacts sont des bénéficiaires ou des personnes à charge et définit les options de couverture. Vous pouvez créer de nouveaux types de plans personnalisés pour répondre aux besoins de vos offres d'avantages. Les principaux types de plans d'avantages sociaux sont les suivants : <ul><li>401K</li><li>ADD</li><li>Soins dentaires</li><li>Fitness</li><li>FSA</li><li>Vie</li><li>LTD</li><li>Assurance-maladie</li><li>Congés payés</li><li>STD</li><li>Vision</li></ul> |
+   | **Code de type de plan** | Code du type de plan. |
+   | **Programme** | Spécifie un programme auquel affecter éventuellement le plan. |
+   | **Offre groupée** | Spécifie une offre groupée à laquelle affecter le plan. |
+   | **Élément maître** | Spécifie si le plan est le plan général de l'offre groupée à laquelle il est affecté. |
+   | **État** | Indique l'état actuel du plan d'avantages. La valeur par défaut est Actif. Si vous modifiez le statut sur Inactif, le plan ne sera pas disponible en tant que sélection lors de l'inscription. |
+   | **Valide à partir d'une date et heure** | Date et l'heure de début du plan. La date par défaut est la date système actuelle. |
+   | **Valide jusqu'à une date et heure** | Date et heure de fin du plan (le statut est défini sur Inactif). La valeur par défaut est 12/31/2154, ce qui signifie jamais. |
 
 4. Dans l'onglet **Configuration**, spécifiez des valeurs pour les champs suivants, selon le type de plan que vous créez :
 
@@ -77,42 +75,42 @@ Cet article vous montre comment configurer des plans d'avantages sociaux dans Dy
 
    | Champ | Description |
    | --- | --- |
-   | Autoriser/continuer l'inscription | Spécifie si les employés peuvent s'inscrire au plan s'ils répondent aux critères d'éligibilité.</br></br>Si ce paramètre est défini sur Non, le plan ne sera pas disponible pour les employés lorsque vous traiterez l'admissibilité. |
-   | Inscription automatique à partir de l'année précédente | Spécifie si un employé éligible doit être inscrit automatiquement dans le plan s'il a été inscrit au cours de l'année précédente. |
-   | Inscription automatique par défaut | Spécifie s'il faut sélectionner le plan d'inscription par défaut. Le plan n'est pas obligatoire, donc l'employé peut modifier la sélection par défaut. |
-   | Clôturé pour de nouvelles inscriptions | Spécifie s'il faut limiter le plan aux seuls employés éligibles qui étaient inscrits au plan au cours de l'année précédente. |
-   | Plan obligatoire | Spécifie s'il faut inscrire automatiquement les employés dans le plan. Les employés ne peuvent pas modifier la sélection d'inscription. |
-   | Date de prise d'effet | Date de création du plan dans l'entreprise. |
-   | Compte fournisseur (fournisseur des avantages) | Fournisseur auquel l'entreprise verse des primes pour le plan. |
-   | Nom (fournisseur des avantages) | Nom du fournisseur. |
-   | Référence fournisseur (fournisseur des avantages) | Référence du fournisseur pour le plan. Par exemple, numéro du plan de groupe de l'entreprise. |
-   | Autre référence (fournisseur des avantages) | Autre référence du fournisseur pour le plan. Par exemple, numéro du compte d'entreprise. |
-   | Devise (fournisseur des avantages) | Devise utilisée pour payer les primes au fournisseur. |
-   | Compte de dépenses (fournisseur des avantages) | Compte du grand livre qui est utilisé comme compte de dépenses pour les primes du plan. |
-   | Compte fournisseur (administrateur des avantages) | Fournisseur que l'entreprise paie pour administrer le plan. Si le plan est auto-administré, laissez ce champ vide. |
-   | Nom (administrateur des avantages) | Nom du fournisseur administrateur des avantages. |
-   | Référence fournisseur (administrateur des avantages) | Référence du fournisseur administrateur pour le plan. |
-   | Autre référence (administrateur des avantages) | Autre référence du fournisseur administrateur pour le plan. |
-   | Devise (administrateur des avantages) | Devise utilisée pour payer les primes à l'administrateur des avantages. |
-   | Compte de dépenses (administrateur des avantages) | Compte du grand livre qui est utilisé comme compte de dépenses pour les coûts associés à l'administration du plan. |
+   | **Autoriser/continuer l'inscription** | Spécifie si les employés peuvent s'inscrire au plan s'ils répondent aux critères d'éligibilité.</br></br>Si ce paramètre est défini sur Non, le plan ne sera pas disponible pour les employés lorsque vous traiterez l'admissibilité. |
+   | **Inscription automatique à partir de l'année précédente** | Spécifie si un employé éligible doit être inscrit automatiquement dans le plan s'il a été inscrit au cours de l'année précédente. |
+   | **Inscription automatique par défaut** | Spécifie s'il faut sélectionner le plan d'inscription par défaut. Le plan n'est pas obligatoire, donc l'employé peut modifier la sélection par défaut. |
+   | **Clôturé pour de nouvelles inscriptions** | Spécifie s'il faut limiter le plan aux seuls employés éligibles qui étaient inscrits au plan au cours de l'année précédente. |
+   | **Plan obligatoire** | Spécifie s'il faut inscrire automatiquement les employés dans le plan. Les employés ne peuvent pas modifier la sélection d'inscription. |
+   | **Date de prise d'effet** | Date de création du plan dans l'entreprise. |
+   | **Compte fournisseur** (fournisseur des avantages) | Fournisseur auquel l'entreprise verse des primes pour le plan. |
+   | **Nom** (fournisseur des avantages) | Nom du fournisseur. |
+   | **Référence fournisseur** (fournisseur des avantages) | Référence du fournisseur pour le plan. Par exemple, numéro du plan de groupe de l'entreprise. |
+   | **Autre référence** (fournisseur des avantages) | Autre référence du fournisseur pour le plan. Par exemple, numéro du compte d'entreprise. |
+   | **Devise** (fournisseur des avantages) | Devise utilisée pour payer les primes au fournisseur. |
+   | **Compte de dépenses** (fournisseur des avantages) | Compte du grand livre qui est utilisé comme compte de dépenses pour les primes du plan. |
+   | **Compte fournisseur** (administrateur des avantages) | Fournisseur que l'entreprise paie pour administrer le plan. Si le plan est auto-administré, laissez ce champ vide. |
+   | **Nom** (administrateur des avantages) | Nom du fournisseur administrateur des avantages. |
+   | **Référence fournisseur** (administrateur des avantages) | Référence du fournisseur administrateur pour le plan. |
+   | **Autre référence** (administrateur des avantages) | Autre référence du fournisseur administrateur pour le plan. |
+   | **Devise** (administrateur des avantages) | Devise utilisée pour payer les primes à l'administrateur des avantages. |
+   | **Compte de dépenses** (administrateur des avantages) | Compte du grand livre qui est utilisé comme compte de dépenses pour les coûts associés à l'administration du plan. |
 
 6. Dans l'onglet **Filtres**, filtrez si nécessaire. Vous pouvez filtrer à l'aide des champs suivants :
 
-   - Unité commerciale
-   - Département
-   - Entité juridique
-   - Emplacement
-   - Poste
+   - **Unité commerciale**
+   - **Département**
+   - **Entité juridique**
+   - **Emplacement**
+   - **Poste**
 
 7. Dans l'onglet **Règles d'éligibilité**, spécifiez les valeurs pour les champs suivants :
 
    | Champ | Description |
    | --- | --- |
-   | Numéro de ligne | Numéro de ligne de la règle d'éligibilité. |
-   | Règle d'éligibilité | Règle d'éligibilité à appliquer au plan d'avantages. Cette règle d'éligibilité sera appliquée au type d'action correspondant et associée à la période d'attente de couverture et aux déductions spécifiées. |
-   | Type d’action | Action d'appliquer la règle d'éligibilité : inscription ou expiration des avantages. |
-   | Période d'attente de la couverture | Valeur du formulaire Périodes d'attente. La période d'attente de couverture détermine le nombre de jours ou de mois pendant lesquels un employé attend la couverture ou l'expiration des avantages en fonction des critères de la règle d'éligibilité et du type d'action. |
-   | Période d'attente de la déduction | Valeur du formulaire Périodes d'attente. La période d'attente de déduction détermine le nombre de jours ou de mois pendant lesquels un employé attend les déductions de son salaire en fonction des critères de la règle d'éligibilité et du type d'action. |
+   | **Numéro de ligne** | Numéro de ligne de la règle d'éligibilité. |
+   | **Règle d'éligibilité** | Règle d'éligibilité à appliquer au plan d'avantages. Cette règle d'éligibilité sera appliquée au type d'action correspondant et associée à la période d'attente de couverture et aux déductions spécifiées. |
+   | **Type d’action** | Action d'appliquer la règle d'éligibilité : inscription ou expiration des avantages. |
+   | **Période d'attente de la couverture** | Valeur du formulaire Périodes d'attente. La période d'attente de couverture détermine le nombre de jours ou de mois pendant lesquels un employé attend la couverture ou l'expiration des avantages en fonction des critères de la règle d'éligibilité et du type d'action. |
+   | **Période d'attente de la déduction** | Valeur du formulaire Périodes d'attente. La période d'attente de déduction détermine le nombre de jours ou de mois pendant lesquels un employé attend les déductions de son salaire en fonction des critères de la règle d'éligibilité et du type d'action. |
 
 8. Sélectionnez **Enregistrer**.
 

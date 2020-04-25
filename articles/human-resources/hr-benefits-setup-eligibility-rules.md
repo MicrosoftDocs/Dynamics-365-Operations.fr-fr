@@ -3,7 +3,7 @@ title: Configuration des règles et des options d'admissibilité
 description: Définissez les règles et les options d'admissibilité dans la gestion des avantages de Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009077"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229899"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configuration des règles et des options d'admissibilité
-
-[!include [banner](includes/preview-feature.md)]
 
 Après avoir configuré les paramètres nécessaires pour la gestion des avantages dans Microsoft Dynamics 365 Human Resources, vous pouvez créer des règles d'admissibilité, des offres groupées, des périodes et des programmes que vous associez à vos plans d'avantages.
 
@@ -57,6 +55,7 @@ Pendant l'inscription ouverte, les employés peuvent sélectionner des plans d'a
    | **Catégorie d'emploi** | Catégorie d'emploi de l'employé si le bouton bascule **Utiliser la catégorie d'emploi** est réglé sur **Oui**. |
    | **Utiliser la nouvelle règle d'embauche** | Spécifie s'il faut utiliser la nouvelle valeur de la période d'embauche d'un nouvel employé dans le cadre de la règle d'éligibilité aux avantages. |
    | **Période d'inscription** | Période pendant laquelle l'inscription du nouvel employé est autorisée. Si vous définissez également cela dans les paramètres, le réglage des paramètres a priorité sur celui-ci. |
+   | **Utiliser le statut d'emploi précédent** | Spécifie s'il faut utiliser un statut d'emploi précédent de l'employé dans le cadre de la règle d'éligibilité des avantages. Par exemple, vous pouvez spécifier une règle d'admissibilité qui renonce à une période d'attente de couverture pour tous les employés qui sont passés d'un statut **Mis en page** à un statut **Employé** dans les 90 jours suivant leur emploi précédent. |
 
 4. Sous **Critères supplémentaires**, sélectionnez les options suivantes et ajoutez des informations si nécessaire :
 

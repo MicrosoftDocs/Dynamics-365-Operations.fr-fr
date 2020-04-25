@@ -3,7 +3,7 @@ title: Espace de travail des paiements fournisseur
 description: Cette rubrique fournit des informations sur l'espace de travail Paiements fournisseur. L'espace de travail Paiements fournisseur affiche les informations associées au traitement des paiements fournisseur.
 author: abruer
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 89ba0d68bd52413328dd583e87b09b01fd523d6f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177800"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225011"
 ---
 # <a name="vendor-payments-workspace"></a>Espace de travail des paiements fournisseur
 
@@ -36,7 +36,7 @@ Le paramétrage suivant doit être réalisé pour que les données s'affichent d
 1. Accédez à **Administration système > Paramétrage > Paramètres système** pour définir la **Devise système** et le **Taux de change système**.
 2. Accédez à **Comptabilité > Configuration > Comptabilité** pour définir la **Devise comptable** et le **Type de taux de change**. 
 2. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
-3. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **VendPaymentBIMeasure**. 
+3. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **VendPaymentBIMeasureV2**. 
 
 ## <a name="my-work-view"></a>Vue Mon travail
 

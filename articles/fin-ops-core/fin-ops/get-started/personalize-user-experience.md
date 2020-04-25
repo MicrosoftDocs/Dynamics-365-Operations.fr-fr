@@ -3,7 +3,7 @@ title: Personnaliser l'expérience de l'utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser l'application.
 author: jasongre
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029360"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260504"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l'expérience de l'utilisateur
 
@@ -80,7 +80,7 @@ Certaines des modifications les plus courantes et importantes qui peuvent être 
 
 En outre, les types les plus classiques de personnalisations explicites sont disponibles en cliquant avec le bouton droit sur un élément et en sélectionnant **Personnaliser**. (Notez que tous les éléments sur la page ne peuvent pas être personnalisés). Lorsque vous utilisez cette méthode de personnalisation, la fenêtre des propriétés de l'élément s'affiche.
 
-![Personnalisation des propriétés d'un élément](./media/personalization-element-properties.png)
+![Personnalisation des propriétés d'un élément](./media/cli-element-property-window.png)
 
 Vous pouvez utiliser la fenêtre des propriétés pour personnaliser un élément comme suit :
 
@@ -89,6 +89,7 @@ Vous pouvez utiliser la fenêtre des propriétés pour personnaliser un élémen
 - Ajoutez les informations dans la section récapitulative de l'organisateur (si l'élément se trouve dans un organisateur).
 - Ignorez le champ, afin qu'il n'ait jamais le focus lorsque vous appuyez sur la touche tabulation dans la page.
 - Empêchez la modification des données du champ (pour n'importe quel enregistrement).
+- Désignez un champ qui sera requis pour la saisie des données. Si aucune valeur n'a été entrée dans ce champ, il apparaît avec une bordure rouge et un astérisque pour indiquer cet état. Cette option n'est disponible qu'à partir de la version 10.0.11 lorsque les fonctionnalités [Vues enregistrées](saved-views.md) et **Désigner des champs selon les besoins à l'aide de la personnalisation** sont activées.
 
 La fenêtre des propriétés peut contenir d'autres fonctionnalités de personnalisation, selon l'élément. Par exemple, la fenêtre des propriétés d'une vignette vous permet de promouvoir cette vignette sur un tableau de bord, et la fenêtre des propriétés d'un tableau de bord vous permet de créer un espace de travail dans ce tableau de bord.
 
@@ -116,6 +117,7 @@ Les outils suivants sont disponibles dans la barre d'outils **Personnalisation**
 - Utilisez l'outil **Déplacer** pour déplacer un élément vers un autre emplacement dans le groupe actuel d'éléments. Notez que vous ne pouvez pas déplacer un élément en dehors de son groupe parent. Pour utiliser cet outil, sélectionnez le bouton **Déplacer** dans la barre d'outils, puis sélectionnez l'élément à déplacer. Lorsque vous sélectionnez un élément, l'application détermine les emplacements où l'élément est autorisé à être déplacé. Ces emplacements sont appelés des *zones de déplacement*. Lorsque vous faites glisser l'élément dans le groupe actuel, chaque zone de déplacement est indiquée par une ligne colorée et grasse en regard de la zone où l'élément peut être déplacé.
 - Utilisez l'outil **Ignorer** pour supprimer un élément de la séquence de tabulation du clavier de la page. Lorsque vous sélectionnez le bouton **Ignorer** sur la barre d'outils, tous les éléments actuellement ignorés sont affichés dans un conteneur grisé. Vous pouvez supprimer ou ajouter de manière interactive des champs à la séquence de l'onglet.
 - Utilisez l'outil **Afficher dans l'en-tête** pour faire apparaître un champ dans la section récapitulative de l'organisateur. Lorsque vous sélectionnez l'outil **Afficher dans l'en-tête** sur la barre d'outils, tous les champs sélectionnés comme champs récapitulatifs sont affichés dans un conteneur grisé. Vous pouvez en mode interactif ajouter des champs au récapitulatif de l'organisateur et en supprimer des champs en sélectionnant les champs.
+- Utilisez l'outil **Obligatoire** pour désigner un élément comme obligatoire pour la saisie de données. Lorsque vous sélectionnez le bouton **Obligatoire** sur la barre d'outils, tous les éléments qui ont été personnalisés comme requis sont affichés dans un conteneur grisé. Vous pouvez ensuite les rendre à nouveau non obligatoire. Cette option est disponible uniquement dans une version future lorsque les fonctionnalités [Vues enregistrées](saved-views.md) et **Désigner des champs comme obligatoires avec la personnalisation** sont activées.
 - Utilisez l'outil **Verrouiller** pour marquer un élément comme modifiable ou non modifiable. Lorsque vous sélectionnez le bouton **Verrouiller** sur la barre d'outils, tous les éléments actuellement non modifiables sont affichés dans un conteneur grisé. Vous pouvez ensuite les rendre modifiables à nouveau. Notez que certains champs sont obligatoires et ne peuvent pas être rendus non modifiables. Un symbole de cadenas apparaît en regard de ces champs.
 - Utilisez le bouton **Ajouter une application à partir de Power Apps** pour intégrer une application créée à l'aide de Microsoft Power Apps dans la page. Pour des informations détaillées sur l'intégration d'une application à partir de Power Apps dans une page, voir [Intégrer les applications à partir de Power Apps](embed-power-apps.md). Cette option n'est disponible que si la fonctionnalité [Vues enregistrées](saved-views.md) est désactivée.  
 - Utilisez le bouton **Ajouter une application** pour intégrer une application, soit une application créée à partir de Microsoft Power Apps, soit une application tierce, dans la page. Cette option n'est disponible que si la fonctionnalité [Vues enregistrées](saved-views.md) est activée. 
