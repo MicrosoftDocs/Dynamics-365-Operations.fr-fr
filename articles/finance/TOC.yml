@@ -70,12 +70,12 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d'accueil Finance
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance\_10.0.11 (juillet\_2020)"
+                      href: get-started/whats-new-changed-10-0-11.md
                     - name: "Finance\_10.0.10 (mai\_2020)"
                       href: get-started/whats-new-changed-10-0-10.md
                     - name: "Finance\_10.0.9 (avril\_2020)"
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: "Finance\_10.0.8 (février\_2020)"
-                      href: get-started/whats-new-changed-10-0-8.md
             - name: Fonctions supprimées ou obsolètes
               items:
                 - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
@@ -978,12 +978,16 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Configurer les coûts standard pour le travail et les dépenses
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Configurer et utiliser les paiements fournisseur Payer quand payé
+              href: project-management/setup-manage-vendor-payments.md
             - name: Régularisation des coûts de projet sur les accusés de réception d'achat
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Facturation de projet
               href: accounts-payable/project-invoicing.md
             - name: Contrats de projet
               href: project-management/project-contracts.md
+            - name: Créer des contrats avancés pour la facturation en fonction de la progression
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Prévisions de projet et budgets
               href: project-management/project-forecasts-budgets.md
             - name: Transférer les budgets de projet à la fin de l'exercice
@@ -1014,6 +1018,8 @@
                   href: project-management/mobile-timesheets.md
                 - name: Implémenter des champs personnalisés pour l'application mobile de feuille de temps Project
                   href: project-management/custom-fields-mobile.md
+            - name: Subventions de projet
+              href: project-management/project-grants.md
         - name: Secteur public
           items:
             - name: Page d'accueil Secteur public
@@ -2016,6 +2022,8 @@
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: Importation des contestations de lettres de change
                   href: localizations/emea-ita-exil-protest-boe.md
+                - name: Plafonnement fiscal
+                  href: localizations/emea-ita-exil-tax-plafond.md
             - name: Japon
               items:
                 - name: Vue d'ensemble du Japon
