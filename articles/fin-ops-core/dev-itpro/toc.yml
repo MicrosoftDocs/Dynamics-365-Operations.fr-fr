@@ -22,32 +22,6 @@
                   href: get-started/whats-new-platform-update-33.md
                 - name: "Platform update\_32 (février\_2020)"
                   href: get-started/whats-new-platform-update-32.md
-                - name: "Platform update\_31 (janvier\_2020)"
-                  href: get-started/whats-new-platform-update-31.md
-                - name: "Platform update\_30 (novembre\_2019)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: "Platform update\_29 (octobre\_2019)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: "Platform update 28 (juillet\_2019)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: "Platform update 27 (juin\_2019)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: "Platform update\_26 (mai\_2019)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: "Platform update\_25 (avril\_2019)"
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: "Platform update\_24 (mars\_2019)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: "Platform update\_23 (janvier\_2019)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: "Platform update\_22 (décembre\_2018)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: "Platform update\_21 (novembre\_2018)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: "Platform update\_20 (septembre 2018)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: "Platform Update\_15 (mars\_2018)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Fonctions supprimées ou obsolètes
               items:
                 - name: Fonctions de plateforme supprimées ou obsolètes
@@ -104,6 +78,8 @@
               href: dev-tools/exclude-test-packages.md
             - name: Gérer les modèles tiers et les packages d'exécution à l'aide du contrôle source
               href: dev-tools/manage-runtime-packages.md
+            - name: Packages déployables tout-en-un
+              href: dev-tools/aio-deployable-packages.md
             - name: Mettre à jour les versions de modèle dans la build automatisée
               href: dev-tools/version-models-build.md
         - name: Intégration de données
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: Redéployer des déploiements locaux
                       href: deployment/redeploy-on-prem.md
-                    - name: Supprimer et réinstaller un nœud AOS
+                    - name: 'Supprimer et réinstaller, ou ajouter un nœud AOS'
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: "Réutiliser la même instance AD\_FS pour plusieurs environnements"
                       href: deployment/onprem-reuseadfs.md

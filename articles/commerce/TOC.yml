@@ -44,6 +44,8 @@
                   href: provisioning-guide.md
                 - name: Configurer un environnement d'évaluation Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
+                - name: Configurer le BOPIS dans un environnement Dynamics 365 Commerce
+                  href: cpe-bopis.md
                 - name: Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce
                   href: cpe-optional-features.md
                 - name: FAQ relative à l'environnement d'évaluation Dynamics 365 Commerce
@@ -86,6 +88,8 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d'accueil Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce\_10.0.11 (juillet\_2020)"
+                      href: get-started/whats-new-commerce-10-0-11.md
                     - name: "Commerce\_10.0.10 (mai\_2020)"
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: "Commerce\_10.0.9 (avril\_2020)"
@@ -202,10 +206,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Certification PA-DSS (Payment Application Data Security Standards)
                   href: dev-itpro/PA-DSS-Certification.md
-                - name: Fonctionnalités commerciales disponibles dans les déploiements sur site
+                - name: Fonctionnalités de Commerce disponibles dans les déploiements sur site
                   href: retail-onprem.md
             - name: Déploiement et correctifs
               items:
+                - name: Synchronisation des programmes d'installation en libre service dans Dynamics 365 Commerce
+                  href: dev-itpro/Synchronize-installers.md
                 - name: Commerce Scale Unit
                   href: dev-itpro/retail-store-system-begin.md
                 - name: Configurer et installer Commerce Scale Unit
@@ -226,6 +232,8 @@
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Appliquer un package déployable
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Initialisation des données d'origine dans de nouveaux environnements Commerce
+                  href: enable-configure-retail-functionality.md
             - name: Gestion du cycle de vie de l'implémentation
               items:
                 - name: Page d'accueil de gestion du cycle de vie de l'implémentation
@@ -378,7 +386,7 @@
                       items:
                         - name: Mises en page de l'écran de données de démonstration dans MPOS/CPOS
                           href: demo-data.md
-                        - name: Mises en page d'écran pour le PDV
+                        - name: Configurations visuelles de l'interface utilisateur de PDV
                           href: pos-screen-layouts.md
                         - name: Installer le concepteur de mise en page de PDV
                           href: install-pos-layout-designer.md
@@ -906,13 +914,15 @@
                   href: cookie-compliance.md
                 - name: Ajouter une page de stratégie de confidentialité
                   href: add-privacy-page.md
+                - name: Remplacer les ID utilisateur associés aux modifications de contenu suivies
+                  href: replace-IDs-tracked-changes.md
             - name: Kit de démarrage
               items:
                 - name: Vue d'ensemble du kit de démarrage
                   href: starter-kit-overview.md
                 - name: Modules de conteneur
                   items:
-                    - name: Module Conteneur
+                    - name: Module de conteneur
                       href: add-container-module.md
                 - name: Modules de marketing
                   items:
@@ -942,12 +952,16 @@
                   items:
                     - name: Module de panier
                       href: add-cart-module.md
+                    - name: Module icône de panier
+                      href: cart-icon-module.md
                     - name: Module de validation
                       href: add-checkout-module.md
                     - name: Module de confirmation de commande
                       href: order-confirmation-module.md
                     - name: Module de sélection de magasin
                       href: store-selector.md
+                    - name: Module de carte cadeau
+                      href: add-giftcard.md
                 - name: Modules de gestion des comptes
                   items:
                     - name: Pages et modules de gestion des comptes
@@ -1940,6 +1954,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Configurer les paramètres de thème
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Étendre un thème
+                      href: e-commerce-extensibility/extend-theme.md
                 - name: Injecter un script
                   items:
                     - name: Injecteurs de script
@@ -1962,6 +1978,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: Fusionner les systèmes de génération pour Commerce et Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: "Migrer le Kit de développement logiciel (SDK) Retail depuis Visual Studio\_2015 vers Visual Studio\_2017"
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Exemples d'extensibilité du Kit de développement logiciel (SDK) Retail
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Créer des packages déployables
