@@ -3,7 +3,7 @@ title: Utilisation des mises en page prédéfinies
 description: Cette rubrique décrit l'utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c8149c6e443c77dabfa641a698c931176bedbc98
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002634"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269887"
 ---
 # <a name="work-with-preset-layouts"></a>Utilisation des mises en page prédéfinies
 
@@ -44,7 +44,7 @@ Il existe deux méthodes pour créer une dispositions prédéfinie. Vous pouvez 
 Pour créer une disposition prédéfinie à partir d'une disposition personnalisée existante; procédez comme suit.
 
 1. Ouvrez une page existante qui n'utilise pas actuellement de disposition prédéfinie, et qui a une structure de module que vous souhaitez réutiliser pour d'autres pages sur votre site.
-1. Sélectionnez **Caisse**.
+1. Sélectionnez **Edition** pour consulter la page.
 1. Sélectionnez **Enregistrer comme nouvelle disposition**. La boîte de dialogue **Enregistrer comme nouvelle disposition** apparaît.
 1. Entrez un nom et une description pour la disposition prédéfinie. Les valeurs entrées sont affichées à d'autres auteurs lorsqu'ils créent des pages dans votre disposition ou passent à celle-ci. Entrez donc des valeurs qui sont utiles pour les auteurs de pages.
 1. Cliquez sur **OK**.
@@ -91,14 +91,14 @@ Pour définir ou modifier le thème pour toutes les pages enfants qui utilisent 
 Pour enregistrer et archiver dans votre disposition prédéfinie, procédez comme suit.
 
 1. Sélectionnez **Enregistrer** en haut de l'éditeur de disposition. Les modifications enregistrées n'affectent pas les pages en aval tant qu'elles ne sont pas archivées.
-1. Sélectionnez **Archiver**. Vos modifications sont désormais découvrables pour les workflows en aval.
+1. Sélectionnez **Terminer la modification**. Vos modifications sont désormais découvrables pour les workflows en aval.
 
 Pour afficher les modifications en aperçu, ouvrez une page existante qui utilise la disposition prédéfinie ou créez une page à partir de la disposition.
 
 Après avoir prévisualisé les modifications de votre disposition prédéfinie, suivez l'une de ces étapes pour publier la disposition sur votre site en direct :
 
 * Accédez à **Dispositions**, sélectionnez la disposition, puis sélectionnez **Publier**.
-* Dans l'éditeur de disposition, sélectionnez **Publier**.
+* Sélectionnez le nom de la disposition pour ouvrir l'éditeur de disposition, puis cliquez sur **Publier**.
 * Publiez une page qui référence la disposition non publiée. La disposition est automatiquement publiée.
 
 > [!WARNING]

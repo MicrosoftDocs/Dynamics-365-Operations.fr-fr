@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207831"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281507"
 ---
 # <a name="purchase-requisition-workflow"></a>workflow de demande d'achat
 
@@ -86,6 +86,9 @@ Dans cet exemple, le processus de workflow pour les lignes de demande d'achat in
 4.  Le responsable du département Marketing révise les lignes de demande d'achat pour les affiches et les t-shirts. Le responsable du département Ventes révise la ligne de demande d'achat uniquement pour les affiches, car il s'agit du seul coût facturé à ce département.
 5.  Le responsable de groupe révise et approuve la ligne de demande d'achat pour les T-shirts uniquement si son approbation est nécessaire car, par exemple, le montant de la ligne de demande d'achat dépasse le plafond autorisé par le responsable de département. Le responsable du groupe ne doit pas approuver la ligne de demande d'achat pour les affiches.
 
+> [!NOTE]
+> La devise système doit être définie si le workflow d'en-tête d'une demande d'achat nécessite des approbations liées aux limites de signature.
+
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Configuration d'un workflow pour les demandes d'achat
 Pour acheminer une demande d'achat pour révision, vous devez configurer les processus de workflow de demande d'achat. Ceux-ci contrôlent l'interaction entre l'utilisateur qui a demandé les articles (demandeur) et le réviseur et l'approbateur dans le workflow. L'acheminement de la demande d'achat dépend des conditions spécifiées dans la configuration du workflow. Par exemple, ces conditions déterminent le moment où la demande d'achat doit être transmise, l'utilisateur ou le rôle vers lequel elle doit être transmise et les actions proposées aux utilisateurs.  
 
@@ -110,7 +113,7 @@ Pour utiliser l'un des réviseurs de dépenses que vous paramétrez dans un work
 
 [Créer une demande de consommation](tasks/create-requisition-consumption.md)
 
-[Définition des flux de travail de processus entreprise pour les demandes d'achat](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (livre blanc)
+[Définition des flux de travail de processus entreprise pour les demandes d'achat (livre blanc)](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
 [Workflows d'approvisionnements](procurement-sourcing-workflows.md)
 

@@ -3,7 +3,7 @@ title: Configurer un locataire B2C dans Commerce
 description: Cette rubrique décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l'authentification du site de l'utilisateur dans Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 04/17 /2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5fca37fb89c723273ef753b102092e2cfb26563
-ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
+ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
+ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096503"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270208"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
@@ -169,10 +169,9 @@ Pour créer une stratégie de flux d'utilisateur de réinitialisation du mot de 
 1. Sous **Fournisseurs d'identité**, sélectionnez **Réinitialiser le mot de passe à l'aide de l'adresse e-mail**.
 1. Sélectionnez **Créer**.
 1. Sous **Revendications de l'application**, sélectionnez l'une des cases à cocher suivantes :
-    - **E-mail**
-    - **Adresses**
+    - **Adresses e-mail**
     - **Nom de famille**
-    - **Prénom**
+    - **Nom de famille**
     - **ID d'objet de l'utilisateur**
 1. Sélectionnez **Créer**.
 

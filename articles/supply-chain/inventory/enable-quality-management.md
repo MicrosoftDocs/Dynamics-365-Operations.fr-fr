@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224907"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268814"
 ---
 # <a name="quality-management-overview"></a>Vue d'ensemble de la gestion de la qualité
 
@@ -43,7 +43,11 @@ La gestion de la qualité est flexible et peut être mise en œuvre de différen
 
 -   Démarrer automatiquement un processus de contrôle qualité, basé sur des critères prédéfinis (lors de l'enregistrement en entrepôt d'une commande fournisseur provenant d'un fournisseur spécifique).
 -   Bloquer le stock au cours de l'inspection pour empêcher l'utilisation d'un stock non-approuvé (blocage complet des quantités des commande fournisseur).
--   Utiliser l'échantillonnage d'article dans le cadre d'une association de qualité pour définir la quantité de stock physique actuel qui doit être inspectée. L'échantillonnage peut être basé sur des quantités fixes ou sur un pourcentage.
+-   Utiliser l'échantillonnage d'article dans le cadre d'une association de qualité pour définir la quantité de stock physique actuel qui doit être inspectée. L'échantillonnage peut être basé sur des quantités fixes, un pourcentage ou un contenant complet.
+
+> [!NOTE]
+> La fonctionnalité _Gestion de la qualité pour les processus d'entrepôt_ étend les capacités de la gestion de la qualité. Si vous utilisez cette fonctionnalité, consultez [Gestion de la qualité pour les processus d'entrepôt](quality-management-for-warehouses-processes.md) pour des exemples de fonctionnement de la gestion de la qualité lorsqu'elle est activée.
+
 -   Créez des ordres de qualité pour les réceptions partielles. Pour créer un ordre de qualité basé sur la quantité qui est reçue physiquement avec une commande, vous devez activer la case à cocher **Par quantité mise à jour** sur l'écran **Échantillonnage d'article**.
 -   Créer des types de test qui incluent les valeurs minimales, maximales, ainsi que les valeurs de test cibles, et réaliser des tests quantitatifs/qualitatifs ayant des résultats de contrôle prédéfinis.
 -   Spécifier un niveau de qualité acceptable pour contrôler les tolérances de la mesure de qualité.
@@ -428,6 +432,9 @@ Dans la production, vous définissez le champ **Type d'événement** sur **Décl
 </tbody>
 </table>
 
+> [!NOTE]
+> La fonctionnalité *Gestion de la qualité pour les processus d'entrepôt* ajoute des capacités de traitement des ordres de qualité pour la production avec **Type d'événement** défini sur *Signaler comme terminé* et **Exécution** défini sur *Après*, et pour les achats avec **Type d'événement** défini sur *Enregistrement*. Pour plus de détails, voir [Gestion de la qualité pour les processus d'entrepôt](quality-management-for-warehouses-processes.md).
+
 ## <a name="quality-management-pages"></a>Pages Gestion de la qualité
 <table>
 <colgroup>
@@ -495,3 +502,5 @@ Vous devez définir une association de qualité pour chaque variation dans un pr
 [Processus de gestion de la qualité](quality-management-processes.md)
 
 [Gestion de la non-conformité](enable-nonconformance-management.md)
+
+[Gestion de la qualité pour les processus d'entrepôt](quality-management-for-warehouses-processes.md)

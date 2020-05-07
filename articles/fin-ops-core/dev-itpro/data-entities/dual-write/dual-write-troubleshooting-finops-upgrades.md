@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172875"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275462"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Résoudre les problèmes liés aux mises à niveau des applications Finance and Operations
 
@@ -85,9 +85,8 @@ Si le problème n'est toujours pas résolu, procédez comme suit.
 > Ces étapes vous guident tout au long du processus de suppression d'une entité, puis de son ajout à nouveau. Pour éviter les problèmes, assurez-vous de suivre exactement les étapes.
 
 1. Dans l'application Finance and Operations, accédez à **Espaces de travail \> Gestion des données** et sélectionnez la vignette **Entités de données**.
-2. Recherchez l'entité qui manque pour le champ. Prenez note de l'entité cible, de la table intermédiaire, du nom de l'entité et des autres valeurs de colonne.
-3. Si l'un de vos groupes de traitement dépend de cette entité, prenez les mesures appropriées pour les groupes de traitement avant de supprimer l'entité.
-4. Supprimez l'entité qui manque pour le champ.
-5. Sélectionner **Nouveau** et ajoutez à nouveau l'entité. Spécifiez les valeurs que vous avez notées à l'étape 2.
-6. Ouvrez la page **Mappage d'entités** depuis la page **Double écriture** dans l'application Finance and Operations.
-7. Sélectionnez **Actualiser la liste d'entités** pour remplir automatiquement les champs dans les mappages d'entités.
+2. Recherchez l'entité qui manque pour l'attribut. Cliquez sur **Modifier le mappage cible** dans la barre d'outils.
+3. Sur le volet **Mapper l'échelonnement à la cible**, cliquez sur **Générer un mappage**.
+4. Ouvrez la page **Mappage d'entités** depuis la page **Double écriture** dans l'application Finance and Operations.
+5. Si l'attribut n'est pas renseigné automatiquement sur la carte, ajoutez-le manuellement en cliquant sur le bouton **Ajouter un attribut** puis sur **Enregistrer**. 
+6. Sélectionnez le mappage, puis cliquez sur **Exécuter**.

@@ -3,7 +3,7 @@ title: Devise double
 description: Cette rubrique fournit des informations sur la devise double, où la devise de déclaration est utilisée comme deuxième devise comptable pour Microsoft Dynamics 365 Finance.
 author: kweekley
 manager: AnnBe
-ms.date: 08/07/2019
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249009"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270310"
 ---
 # <a name="dual-currency"></a>Devise double
 
@@ -174,10 +174,10 @@ En outre, des modifications importantes ont été apportées au processus d'amor
 
         | Immobilisation | Réserver      | Type de transaction | Date de transaction | Devise | Montant dans la devise de transaction | Montant  | Taux de change | Montant en devise de déclaration |
         |-------------|-----------|------------------|------------------|----------|--------------------------------|---------|-----------|---------------------------|
-        | BUIL-00001  | 200\_SLLT | Acquisition      | 6/3/2016         | DKK      | 1 000 000                      | 500 000 | 2,5       | 250 000                   |
-        | BUIL-00001  | 200\_SLLT | Amortissement     | 6/3/2016         | DKK      | 50 000                         | 50 000  | 2,5       | 250 000                   |
-        | BUIL-00001  | 200\_SLLT | Amortissement     | 6/3/2016         | DKK      | 50 000                         | 50 000  | 2,5       | 250 000                   |
-        | BUIL-00001  | 200\_SLLT | Amortissement     | 6/3/2016         | DKK      | 50 000                         | 50 000  | 2,5       | 250 000                   |
+        | BUIL-00001  | 200\_SLLT | Acquisition      | 6/3/2016         | DKK      | 1 000 000                      | 500,000 | 2.5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Amortissement     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Amortissement     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Amortissement     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
 
     - De nombreux clients effectuent le suivi des détails de leur transaction d'immobilisation dans des classeurs. Ces détails incluent les taux de change et les montants. Si vous disposez de ces données dans un classeur, vous pouvez créer un type de taux de change personnalisé et le mettre à jour avec les taux de change du classeur. Ce type de taux de change est ensuite utilisé pour entrer un taux de change par défaut à la date d'acquisition et calculer le montant en devise de déclaration. Si aucun type de taux de change n'est sélectionné, l'assistant utilise le type de taux de change défini dans la comptabilité.
     - Vous pouvez modifier le taux de change et les montants en devis de déclaration. Si le taux de change est modifié, le montant en devise de déclaration est recalculé avec le nouveau taux.

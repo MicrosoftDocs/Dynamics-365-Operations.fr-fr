@@ -3,7 +3,7 @@ title: Clôture du stock
 description: Dans le cadre du processus pour régler les transactions de sortie avec des transactions de réception, vous pouvez également choisir de mettre à jour la comptabilité pour refléter les ajustements effectués.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e9f0608c9afc25e7ca6657f6a2e87d088d4cbad
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201636"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3283988"
 ---
 # <a name="inventory-close"></a>Clôture du stock
 
@@ -59,13 +59,12 @@ Plusieurs tâches exécutables sur la page **Clôture et ajustement** engendrent
 
 Les comptes généraux mis à jour par ces tâches sont liés au mouvement de stock d'origine. Par exemple, si une commande client est réglée avec une commande fournisseur, les comptes généraux utilisés pour la commande client d'origine sont ajustés. Ce comportement se produit même si les comptes généraux pour le groupe d'articles affecté à cet article ont changé depuis la validation de la commande client. Après qu'une clôture de stock a créé un montant de règlement, le montant de règlement est toujours validé sur les comptes généraux d'origine, pas sur les nouveaux comptes généraux affectés à l'article. La comptabilité pourrait également être mise à jour si vous contrepassez une clôture de stock. 
 
-**Remarques :**
+> [!NOTE] 
+> - La clôture des stocks est une étape obligatoire de la procédure de clôture de fin de mois pour tous les modèles de stock. Cela comprend les coûts moyens standard et mobiles. Vous ne pourrez pas clôturer l'exercice tant qu'une clôture du stock n'aura pas été effectuée à la date de fin de période.
+> - Avant d'exécuter la procédure de clôture, vous pouvez afficher une liste d'articles impossibles à régler lors de la mise à jour.
+> - Nous vous recommandons de clôturer le stock en dehors des heures de bureau afin de distribuer les ressources de calcul plus équitablement.
 
--   Vous n'êtes plus obligé d'utiliser la méthode Évaluation du coût standard pour clôturer un stock.
--   Avant d'exécuter la procédure de clôture, vous pouvez afficher une liste d'articles impossibles à régler lors de la mise à jour.
--   Nous vous recommandons de clôturer le stock en dehors des heures de bureau afin de distribuer les ressources de calcul plus équitablement.
-
-## <a name="the-inventory-close-log"></a> Journal des clôtures de stock
+## <a name="the-inventory-close-log"></a>Journal des clôtures de stock
 Une fois le processus de clôture de stock terminé, un message dans le centre des messages peut vous informer qu'un prix unitaire est incorrect si une transaction n'est pas entièrement réglée. 
 
 Avant l'affichage de ce message, le système indique le numéro de l'article et la transaction affectée. Le message vous indique que le montant utilisé pour cette transaction n'a pas été mis à jour en raison de la clôture de stock. Ce message s'affiche lorsqu'une transaction du type sortie ne peut pas être réglée. 
@@ -85,7 +84,6 @@ Dans certaines circonstances, vous ne pourrez peut-être pas résoudre les avert
 ## <a name="reversing-a-completed-inventory-close"></a>Contrepasser une clôture de stock terminée
 Il se peut que vous deviez occasionnellement contrepasser une clôture de stock terminée pour redéfinir les règlements sur l'état où ils se trouvaient avant les ajustements. Lorsque vous contrepassez une clôture de stock terminée, le stock est rouvert pour permettre la validation dans la période couverte par la clôture de stock. Les modifications liées peuvent également être introduites dans la comptabilité. Après avoir apporté des ajustements, vous pouvez effectuer de nouveau une clôture de stock pour la période sur laquelle vous travaillez. 
 
-**Remarque :** Seule la dernière période de stock clôturée peut être rouverte. Pour contrepasser une clôture de stock antérieure, vous devez contrepasser chaque clôture de stock une par une, en commençant par la plus récente.
-
-
+> [!NOTE] 
+> Seule la dernière période de stock clôturée peut être rouverte. Pour contrepasser une clôture de stock antérieure, vous devez contrepasser chaque clôture de stock une par une, en commençant par la plus récente.
 

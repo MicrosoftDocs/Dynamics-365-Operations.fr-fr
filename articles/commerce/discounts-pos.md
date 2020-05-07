@@ -19,17 +19,16 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
-ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3116554"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265578"
 ---
 # <a name="show-discounts-in-pos"></a>Afficher les remises dans le PDV
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Les promotions jouent un rôle important dans la motivation des clients qui doivent prendre des décisions d'achat. Par exemple, les vacances peuvent générer le plus grand nombre de ventes pour les détaillants, car l'ensemble du marché de détail est inondé de promotions et de remises attrayantes. Si les collaborateurs du magasin connaissent et comprennent quelles sont les promotions disponibles, ils peuvent facilement profiter de ces promotions pour effectuer des ventes croisées et vendre des articles de gamme supérieure. Cette rubrique explique comment Microsoft Dynamics 365 Commerce aide les vendeurs à se renseigner sur les promotions et comment les utiliser dans le cadre des mouvements de vente croisée et de vente incitative.
 

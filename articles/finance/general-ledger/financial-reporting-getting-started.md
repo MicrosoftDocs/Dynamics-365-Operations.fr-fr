@@ -3,7 +3,7 @@ title: Présentation des états financiers
 description: Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 Finance et comment utiliser les fonctionnalités de génération d'états financiers. Elle inclut une description des états financiers par défaut fournis.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01fcc7c4f3e1eb7aadfc93b120cd57e62077d0c0
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249058"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262647"
 ---
 # <a name="financial-reporting-overview"></a>Vue d'ensemble des états financiers
 
@@ -83,13 +83,15 @@ Une fois qu'un utilisateur a été ajouté ou qu'un rôle a été modifié, il d
 ## <a name="report-deletions-and-expirations"></a>Signaler les suppressions et les expirations
 Les utilisateurs qui génèrent un état peuvent supprimer leurs propres états. Les utilisateurs avec le droit **Tenir à jour la sécurité des états financiers** peuvent supprimer les états des autres. 
 
-Depuis la version 10.0.7, le concept des dates d'expiration a été introduit. Une nouvelle fonctionnalité obligatoire sera activée dans l'espace de travail de gestion des fonctionnalités. Cette fonctionnalité contient les modifications suivantes :
+Dans la version 10.0.8, le concept de dates d'expiration a été introduit. Une nouvelle fonctionnalité requise sera activée dans la page **Tous** dans l'espace de travail de gestion des fonctionnalités. La fonctionnalité **Stratégie de conservation des états financiers** contient les modifications suivantes :
 * Des états nouvellement générés seront automatiquement marqués comme ayant une date d'expiration de 90 jours à compter de leur génération
 * Tous les états existants antérieurs à l'installation de la fonctionnalité auront une période d'expiration de 90 jours. La date peut s'afficher comme vide pendant une courte période jusqu'à ce que le service de génération d'états financiers s'exécute, qu'un état soit généré et que le service effectue la mise à jour des états existants avec une date d'expiration vide. 
-* Les utilisateurs avec le droit **Tenir à jour la sécurité des états financiers** ont accès à cette fonctionnalité. Tout utilisateur dans le droit **Tenir à jour la sécurité des états financiers** se voyant accorder le privilège **Tenir à jour l'expiration des états financiers** aura également la possibilité de modifier la période d'expiration. Actuellement, deux options de rétention sont disponibles - 
-  * Une expiration au bout de 90 jours
-  * Une option pour que l'état n'expire jamais
-
+* Les utilisateurs disposant du droit **Tenir à jour la sécurité des états financiers** ont accès à cette fonctionnalité. Tout utilisateur dans le droit **Tenir à jour la sécurité des états financiers** se voyant accorder le privilège **Tenir à jour l'expiration des états financiers** aura également la possibilité de modifier la période d'expiration. Actuellement, deux options de rétention sont disponibles. 
+  * Une expiration au bout de 90 jours.
+  * Une option pour que l'état n'expire jamais.
+  
+Des options supplémentaires seront envisagées dans les fonctionnalités futures. L'expiration au bout de 90 jours sera la valeur par défaut, et les utilisateurs disposant des autorisations appropriées peuvent remplacer la valeur par défaut sur la page de liste **États financiers**.    
+  
 Lorsqu'une expiration de 90 jours est sélectionnée, elle accorde 90 jours à compter d'aujourd'hui, ce qui est un comportement différent des 90 jours à partir de la date de génération d'origine définie lors de la génération de l'état. 
 
 ## <a name="default-reports"></a>États par défaut

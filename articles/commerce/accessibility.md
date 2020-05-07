@@ -3,7 +3,7 @@ title: Fonctionnalités d'accessibilité
 description: Cette rubrique fournit des informations sur les fonctionnalités d'accessibilité dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3edc6250dd5438be31d80a9d6b0f3b730438ca53
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001758"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274186"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Fonctionnalités d'accessibilité
 
@@ -49,7 +49,7 @@ Le système de gestion des actifs numériques Dynamics 365 Commerce prend en cha
 
 | Fonctionnalité vidéo               | Description |
 |-----------------------------|-------------|
-| Sous-titres codés (CC)      | Texte pouvant être affiché pour les éléments audio et descriptifs audio d'une vidéo, pour aider les utilisateurs malentendants |
+| Sous-titres codés (CC)      | Texte pouvant être affiché pour les éléments audio et descriptifs audio d'une vidéo, pour aider les utilisateurs sourds ou malentendants |
 | Sous-titres                   | Fichiers de sous-titres qui affichent le texte des indices de contexte ou des dialogues à l'écran |
 | Transcriptions audio           | Transcription textuelle de mots prononcés générée à partir de l'audio d'un actif vidéo |
 | Audio descriptif           | Canal audio non principal qui décrit le contenu ou le contexte de ce qui se produit à l'écran |
@@ -57,7 +57,7 @@ Le système de gestion des actifs numériques Dynamics 365 Commerce prend en cha
 
 ### <a name="configure-video-accessibility-elements"></a>Configurer les éléments d'accessibilité vidéo
 
-Dans Dynamics 365 Commerce, dans la section **Actifs** de votre site, vous pouvez télécharger des actifs vidéo qui ont des fichiers distincts pour les sous-titres codés, l'audio normal et l'audio descriptif. Les sous-titres peuvent également être générés automatiquement lors du téléchargement d'un actif vidéo.
+Dans la section **Bibliothèque multimédia** Commerce de votre site, vous pouvez télécharger des actifs vidéo qui ont des fichiers distincts pour les sous-titres codés, l'audio normal et l'audio descriptif. Les sous-titres peuvent également être générés automatiquement lors du téléchargement d'un actif vidéo.
 
 #### <a name="generate-or-upload-closed-caption-files-during-video-asset-upload"></a>Générez ou téléchargez des fichiers de sous-titres pendant le téléchargement des actifs vidéo
 
@@ -72,7 +72,7 @@ Pour charger manuellement un fichier de sous-titres lorsque vous téléchargez u
 Pour charger des fichiers audio normaux ou audio descriptifs pour la vidéo, utilisez le sélecteur de fichiers dans la boite de dialogue **Téléchargement des actifs**.
 
 > [!NOTE]
-> Les sous-titres codés, les fichiers audio standard et les fichiers audio descriptifs peuvent également être ajoutés après le téléchargement d'un fichier vidéo. Allez à **Actifs**, sélectionnez l'actif vidéo et vérifiez-le. Ensuite, dans le volet des propriétés de l'actif vidéo, téléchargez les actifs supplémentaires.
+> Les sous-titres codés, les fichiers audio standard et les fichiers audio descriptifs peuvent également être ajoutés après le téléchargement d'un fichier vidéo. Accédez à **Bibliothèque multimédia**, sélectionnez l'actif vidéo, puis cliquez sur **Modifier** pour le consulter. Ensuite, dans le volet des propriétés de l'actif vidéo, téléchargez les actifs supplémentaires.
 
 #### <a name="edit-cc-and-audio-transcript-files"></a>Modifier les fichiers de transcription CC et audio
 
@@ -80,10 +80,10 @@ Les fichiers de transcription CC et audio peuvent être modifiés directement da
 
 Pour modifier les fichiers de transcription CC et audio, procédez comme suit.
 
-1. Allez à **Actifs**, sélectionnez l'actif vidéo, puis sélectionnez **Modifier CC/Transcription**. L'éditeur de sous-titres et de transcriptions apparaît.
-1. Sélectionnez **Caisse**.
+1. Accédez à **Bibliothèque multimédia** et sélectionnez le nom de fichier de l'actif vidéo. L'éditeur de sous-titres et de transcriptions apparaît.
+1. Sélectionnez **Modifier**.
 1. Modifiez les sous-titres codés ou le texte de la transcription.
-1. Lorsque vous avez terminé, sélectionnez **Enregistrer**, puis **Archiver**.
+1. Lorsque vous avez terminé, cliquez sur **Enregistrer**, puis sur **Terminer la modification**.
 1. Lorsque vous êtes prêt à publier, sélectionnez **Publier**.
 
 #### <a name="set-the-minimum-age-attribute"></a>Définir l'attribut Âge minimal
@@ -92,8 +92,8 @@ Un attribut de métadonnées **Âge minimal** peut être associé aux actifs vid
 
 Pour définir l'attribut **Âge minimal** pour un actif vidéo, procédez comme suit.
 
-1. Allez à **Actifs**et sélectionnez l'actif vidéo.
-1. Sélectionnez **Caisse**.
+1. Accédez à **Bibliothèque multimédia**et sélectionnez l'actif vidéo.
+1. Sélectionnez **Modifier**.
 1. Dans le volet des propriétés de l'actif vidéo, définissez l'attribut **Âge minimal**.
 
 > [!NOTE]
@@ -112,3 +112,5 @@ Pour définir l'attribut **Âge minimal** pour un actif vidéo, procédez comme 
 [Conformité des cookies](cookie-compliance.md)
 
 [Ajouter une page de stratégie de confidentialité](add-privacy-page.md)
+
+[Remplacer les ID utilisateur associés aux modifications de contenu suivies](replace-IDs-tracked-changes.md)

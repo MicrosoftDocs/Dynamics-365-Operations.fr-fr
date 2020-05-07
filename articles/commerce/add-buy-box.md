@@ -3,7 +3,7 @@ title: Module Zone d'achat
 description: Cette rubrique couvre les modules de zone d'achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261396"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269749"
 ---
 # <a name="buy-box-module"></a>Module Zone d'achat
 
@@ -80,15 +80,15 @@ Pour ajouter un module de zone d'achat à une nouvelle page et définir les prop
 1. Créez un fragment nommé **fragment de zone d'achat**, puis ajoutez un module de zone d'achat à celui-ci.
 1. À l'emplacement **Multimédia** du module de zone d'achat, ajoutez un module de galerie multimédia.
 1. Dans l'emplacement **Sélecteur de magasins** du module de zone d'achat, ajoutez un module de sélecteur de magasins.
-1. Archivez la page, et publiez-la.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
 1. Créez un modèle pour une page de détails des produits, puis nommez-le **Modèle PDF**.
 1. Ajoutez une page par défaut.
 1. À l'emplacement **Principal** de la page par défaut, ajoutez un fragment de zone d'achat.
-1. Enregistrez le modèle, terminez de le modifier et publiez-le.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Utilisez le modèle que vous venez de créer pour créer une page qui s'appelle **page PDF**.
 1. À l'emplacement **Principal** de la nouvelle page, ajoutez un fragment de zone d'achat.
 1. Enregistrez et affichez un aperçu de la page. Ajoutez le paramètre de chaîne de requête **?productid=&lt;product id&gt;** à l'URL de la page d'aperçu. Ainsi, le contexte de produit est utilisé pour charger et afficher la page d'aperçu.
-1. Enregistrez la page, terminez de la modifier et publiez-la. Un zone d'achat doit figurer sur la page de détails des produits.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier. Un zone d'achat doit figurer sur la page de détails des produits.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -1,5 +1,5 @@
 ---
-title: Stock - Balance âgée
+title: Stockage des états de balance âgée
 description: Cette rubrique décrit les fonctionnalités qui vous permettent d'exécuter un état de la balance âgée et de mettre le résultat à disposition sous la forme d'un formulaire et d'un graphique.
 author: AndersGirke
 manager: tfehr
@@ -19,24 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 790c8fe3a52bce652227f1cef97eff6496476100
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201617"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275577"
 ---
-# <a name="inventory-aging-report"></a>Stock - Balance âgée
+# <a name="inventory-aging-report-storage"></a>Stockage des états de balance âgée
 
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-Dans Microsoft Dynamics 365 Supply Chain Management, vous pouvez exécuter un état **Balance âgée** et le mettre à disposition sous la forme d'un formulaire et d'un graphique. Dans le formulaire, des colonnes et des soldes globaux sont ajustés de façon dynamique, selon la disposition configurée. Le graphique offre une vue d'ensemble qui prend en charge les filtres et vous permet de parcourir des informations détaillées. En outre, une entité de données intitulée **État - Balance âgée** vous permet d'exporter les résultats d'un état **Balance âgée** à un format tel qu'un fichier Microsoft Excel ou un fichier PDF.
+Dans Microsoft Dynamics 365 Supply Chain Management, vous pouvez exécuter un état **Stockage des états de balance âgée** et le mettre à disposition sous la forme d'un formulaire et d'un graphique. Dans le formulaire, des colonnes et des soldes globaux sont ajustés de façon dynamique, selon la disposition configurée. Le graphique offre une vue d'ensemble qui prend en charge les filtres et vous permet de parcourir des informations détaillées. En outre, une entité de données intitulée **État - Balance âgée** vous permet d'exporter les résultats d'un état **Stockage des états de balance âgée** à un format tel qu'un fichier Microsoft Excel ou un fichier PDF.
 
-Ce mode d'exécution d'un état **Balance âgée** est utile lorsque le résultat contient plusieurs lignes. Par exemple, le résultat contient plusieurs lignes si vous avez 50 000 articles et 300 magasins créés comme entrepôts, et si vous demandez la balance âgée par article, site et entrepôt.
+Ce mode d'exécution d'un état **Stockage des états de balance âgée** est utile lorsque le résultat contient plusieurs lignes. Par exemple, le résultat contient plusieurs lignes si vous avez 50 000 articles et 300 magasins créés comme entrepôts, et si vous demandez la balance âgée par article, site et entrepôt.
 
-## <a name="run-an-inventory-aging-report"></a>Exécuter un état - Balance âgée
+## <a name="enable-the-inventory-value-storage-report-feature"></a>Activer la fonctionnalité d'état de stockage des valeur de stock
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l'activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. La fonctionnalité est répertoriée comme suit :
+
+- **Module** : Gestion des coûts
+- **Nom de la fonctionnalité** - Stockage des états de balance âgée
+
+## <a name="run-an-inventory-aging-report-storage"></a>Exécuter un stockage des états de balance âgée
 
 1. Accédez à **Gestion des coûts \> Recherches et états \> Stockage des états de balance âgée**.
 1. Sélectionnez **Nouveau**.
@@ -51,4 +58,4 @@ Ce mode d'exécution d'un état **Balance âgée** est utile lorsque le résulta
     > [!NOTE]
     > Le formulaire n'inclut pas les sous-totaux définis dans la disposition de l'état.
 
-L'entité de données **État de la balance âgée** vous permet d'exporter le résultat d'un état **Balance âgée** en appliquant un filtre pour le champ **Identificateur de processus – Nom** à n'importe quel format pris en charge par la gestion des données.
+L'entité de données **État de la balance âgée** vous permet d'exporter le résultat d'un état **Stockage des états de balance âgée** en appliquant un filtre pour le champ **Identificateur de processus – Nom** à n'importe quel format pris en charge par la gestion des données.

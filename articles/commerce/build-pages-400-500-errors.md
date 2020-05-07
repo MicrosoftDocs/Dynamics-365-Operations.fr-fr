@@ -3,7 +3,7 @@ title: Établir des pages personnalisées de réponse pour les erreurs de code s
 description: Cette rubrique décrit la procédure d'établir les pages de réponse personnalisées pour les erreurs de code statut 4xx et 5xx à l'aide des outils de création dans Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001123"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269542"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Établir des pages personnalisées de réponse pour les erreurs de code statut 4xx/5xx
 
@@ -46,19 +46,21 @@ Pour commencer à générer une page de réponse d'erreur du code statut, procé
 
 Pour générer le modèle pour une page de réponse d'erreur du code statut, procédez comme suit.
 
-1. Accédez à **Modèles \> Nouveau modèle**.
-1. Nommez le nouveau modèle.
+1. Accédez à **Modèles**.
+1. Sélectionnez **Nouveau** pour créer un modèle de page.
+1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez un nom pour le nouveau modèle, puis cliquez sur **OK**.
 1. Paramétrez le modèle, selon la structure de votre choix que vous voulez que la page de réponse d'erreur du code statut ait.
-1. Archivez le modèle, et publiez-le.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier. 
 
 ### <a name="build-the-status-code-error-response-page"></a>Générer la page de réponse d'erreur du code statut
 
 Pour générer la page de réponse d'erreur du code statut, procédez comme suit.
 
-1. Accédez à **Pages \> Nouvelle page**.
-1. Nommez la page de réponse d'erreur du code statut, mais ne définissez **pas** le champ **URL**.
+1. Accédez à **Pages**.
+1. Sélectionnez **Nouveau** pour créer une page.
+1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez un modèle, puis, sous **Nom de la page**, entrez un nom pour la page de réponse d'erreur du code statut. Laissez le champ **URL de la page** vide.
 1. Générez la page.
-1. Archivez la page, et publiez-la.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 > [!NOTE]
 > Vous pouvez créer des pages séparées de réponse d'erreur du code statut pour les erreurs du code statut 4xx et 5xx. Sinon, vous pouvez utiliser la même page générale de réponse d'erreur du code statut pour les deux catégories d'erreur.

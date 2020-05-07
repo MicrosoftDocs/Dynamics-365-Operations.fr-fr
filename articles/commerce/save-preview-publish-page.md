@@ -3,7 +3,7 @@ title: Enregistrer, afficher un aperçu et publier une page
 description: Cette rubrique décrit comment enregistrer, prévisualiser et publier une page dans Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 04200264fabca265484b5e66426810efe8028a50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002809"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269979"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Enregistrer, afficher un aperçu et publier une page
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ Cette rubrique décrit comment enregistrer, prévisualiser et publier une page d
 
 ## <a name="save-a-page"></a>Enregistrer une page
 
-Pour enregistrer une page, vous devez la faire extraire vers vous et l'ouvrir dans l'éditeur de page. Vous devez enregistrer une page dès sa modification, afin de garantir que vos modifications sont enregistrées.
+Pour enregistrer une page, vous devez la faire extraire vers vous et l'ouvrir dans l'éditeur de page. Pour extraire une page, sélectionnez **Modifier** sur la barre de commandes. Après avoir modifié une page, vous devez l'enregistrer immédiatement, afin de s'assurer que vos modifications sont enregistrées.
 
 Lorsque vous enregistrez une page, les modifications sont visibles uniquement à vous. L'opération d'enregistrement est prévue principalement pour enregistrer les modifications tant que la page n'est pas encore prête à être archivée. Lorsque vous avez terminé de modifier la page, nous vous recommandons de l'archiver, de sorte que les modifications deviennent visibles pour d'autres. À ce stade, la page peut également être extraite par d'autres utilisateurs qui doivent la modifier.
 
@@ -50,7 +49,7 @@ Lorsque vous avez terminé de modifier la page, vous souhaitez peut-être la pr�
 
 ## <a name="publish-a-page"></a>Publier une page
 
-Lorsque votre page est prête, l'étape suivante consiste à la publier, afin que les utilisateurs externes puissent afficher le contenu. Avant d'émettre une page, vous devez l'archiver.
+Lorsque votre page est prête, l'étape suivante consiste à la publier, afin que les utilisateurs externes puissent afficher le contenu. Avant de publier une page, vous devez l'archiver en sélectionnant **Terminer la modification** dans la barre de commandes.
 
 Vous pouvez publier et annuler la publication des pages à partir de l'inspecteur de page ou de l'éditeur de page. L'inspecteur de page affiche une liste des pages et autorise les opérations en bloc. L'éditeur de page permet de publier ou d'annuler la publication uniquement de la page seule qui est ouverte dans celui-ci.
 
@@ -70,9 +69,9 @@ Pour enregistrer, prévisualiser, et publier une page d'accueil, procédez comme
 1. Sous **Sites**, sélectionnez **Fabrikam** (ou le nom de votre site).
 1. Dans le volet de navigation sur la gauche, sélectionnez **Pages**.
 1. Recherchez et sélectionnez la page d'accueil pour l'ouvrir dans l'éditeur de page.
-1. Sélectionnez **Caisse**.
+1. Sélectionnez **Modifier**.
 1. Modifiez la page comme vous le souhaitez.
-1. Sélectionnez **Enregistrer**, puis sélectionnez **Archiver**.
+1. Sélectionnez **Enregistrer**, puis **Terminer la modification**.
 1. Dans le champ **Commentaires**, entrez une note sur les modifications que vous avez effectuées, puis sélectionnez **OK**.
 1. Sélectionnez **Aperçu** pour prévisualiser votre page avant impression. Lorsque vous avez terminé, fermez l'onglet d'aperçu pour revenir à l'outil d'édition.
 1. Sélectionnez **Publier**.

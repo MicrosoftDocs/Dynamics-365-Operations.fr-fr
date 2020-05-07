@@ -3,7 +3,7 @@ title: Analyse de concordance d'optimisation de la planification
 description: Cette rubrique explique comment vérifier votre configuration et vos données par rapport aux fonctionnalités de la fonction d'optimisation de la planification.
 author: ChristianRytt
 manager: tfehr
-ms.date: 10/30/2019
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,13 +18,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 17114d4c0ef2c74ab1bb56d41e4a008150c21f36
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
+ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208752"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3277796"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance d'optimisation de la planification
 
@@ -39,20 +39,71 @@ Pour voir la compatibilité de votre configuration actuelle et des données avec
 ## <a name="analysis-results-example-1"></a>Résultats d'analyse : Exemple 1
 
 - **Fonctionnalité :** Production
-- **Problème :** les articles au niveau de la nomenclature supérieure à zéro : 56
+- **Problème :** Articles dont le niveau de nomenclature est supérieur à zéro : 56
 - **Explication :** l'analyse de concordance a trouvé 56 articles avec une configuration de nomenclature pour la production. Puisque la version actuelle de l'optimisation de la planification en prend pas en charge la production, l'optimisation de la planification génèrera les commandes fournisseur planifiées plutôt que les ordres de production planifiés. Elle affichera également un avertissement qui répertorie les articles concernés.
 
-### <a name="analysis-results-example-2"></a>Résultats d'analyse : Exemple 2
+## <a name="analysis-results-example-2"></a>Résultats d'analyse : Exemple 2
 
 - **Fonctionnalité :** Actions
 - **Problème :** Groupes de couverture avec calcul des actions activé : 6
 - **Explication :** l'analyse de concordance a trouvé six groupes de couverture où le calcul des actions est activé. Puisque la version actuelle de l'optimisation de la planification ne prend pas en charge les actions, aucune action ne sera générée pendant la planification.
 
+## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Aperçu des résultats possibles de l'analyse de concordance
+
+Le tableau suivant présente les différents résultats qui peuvent être affichés après une analyse de concordance. Les symboles de numéro (_\#_) seront remplacés par un nombre qui indique le nombre d'enregistrements présentant le problème répertorié.
+
+| Fonctionnalité | Problème répertorié | Explication |
+| --- | --- | --- |
+| Actions | Groupes de couverture avec le calcul des actions activé : _\#_ | Cette fonctionnalité est en attente. Actuellement, les actions ne sont pas générées lors de la planification principale lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. L'objectif principal des actions est de suggérer des modifications aux commandes existants. |
+| Calendriers de base | Calendriers utilisant le calendrier de base : _\#_ | Cette fonctionnalité est en attente. Actuellement, le calendrier de base est ignoré lorsque l'Optimisation de la planification est activée. |
+| Codes disposition de lot | Données principales de disposition de lot qui ne sont pas disponibles à la vente : _\#_ | Cette fonctionnalité est en attente. Actuellement, les codes de disposition des lots sont ignorés lorsque l'Optimisation de la planification est activée. |
+| Capable to promise (CTP) | Paramètres de commande par défaut avec le contrôle de date de livraison défini sur CTP : _\#_ | Cette fonctionnalité est en attente. Actuellement, CTP est ignoré lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+| Copie du plan statique vers le plan dynamique | La fonctionnalité Copie du plan statique vers le plan dynamique est activée dans les paramètres de planification. | L'Optimisation de la planification ne copie pas le plan statique dans le plan dynamique, quel que soit ce paramètre. En général, ce concept est moins pertinent en raison de la vitesse et de la régénération complète fournies par l'Optimisation de la planification. Si deux plans ou plus sont utilisés, la planification principale doit être déclenchée pour chaque plan. |
+| Confirmation | Groupes de couverture avec la plage de gestion de la confirmation automatique définie : _\#_ | Dans la version 10.0.7 et les versions ultérieures, la confirmation est prise en charge en tant que traitement par lots de confirmation distinct une fois la planification principale terminée (à condition que la fonctionnalité _Confirmation automatique pour l'Optimisation de la planification_ ait été activée dans la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Notez que la confirmation automatique pour l'Optimisation de la planification est basée sur la date de commande (date de début) et non sur la date du besoin (date de fin). Ce comportement garantit que la confirmation des commandes planifiées se produit en temps voulu, sans avoir à inclure le délai de livraison dans la période de confirmation. |
+| Confirmation | Enregistrements de couverture d'article avec la confirmation automatique définie : _\#_ | Dans la version 10.0.7 et les versions ultérieures, la confirmation automatique est prise en charge en tant que traitement par lots de confirmation distinct une fois la planification principale terminée (à condition que la fonctionnalité _Confirmation automatique pour l'Optimisation de la planification_ ait été activée dans la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Notez que la confirmation automatique pour l'Optimisation de la planification est basée sur la date de commande (date de début) et non sur la date du besoin (date de fin). Ce comportement garantit que la confirmation des commandes planifiées se produit en temps voulu, sans avoir à inclure le délai de livraison dans la période de confirmation. |
+| Confirmation | Plans généraux avec la confirmation automatique définie : _\#_ | Dans la version 10.0.7 et les versions ultérieures, la confirmation automatique est prise en charge en tant que traitement par lots de confirmation distinct une fois la planification principale terminée (à condition que la fonctionnalité _Confirmation automatique pour l'Optimisation de la planification_ ait été activée dans la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Notez que la confirmation automatique pour l'Optimisation de la planification est basée sur la date de commande (date de début) et non sur la date du besoin (date de fin). Ce comportement garantit que la confirmation des commandes planifiées se produit en temps voulu, sans avoir à inclure le délai de livraison dans la période de confirmation. |
+| FitAnalysisPlanningItems | Éléments de planification : _\#_ | Cette fonctionnalité est en attente. Actuellement, les éléments de planification sont traités comme des éléments normaux lorsque l'Optimisation de la planification est activée. |
+| Prévision | Groupes de couverture avec l'option « Inclure les commandes intersociétés » activée : _\#_ | Cette fonctionnalité est en attente. Actuellement, la planification principale n'inclut pas de demande planifiée en aval lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. Notez que les commandes lancées/confirmées fonctionnent toujours avec la fonctionnalité intersociétés standard et couvriront la plupart des scénarios. |
+| Prévision | Groupes de couverture dont le paramètre « Soustraire des prévisions » est défini sur une valeur différente de « Commandes » : _\#_ | Par défaut, l'Optimisation de la planification utilise « Soustraire des prévisions » pour les commandes, quel que soit ce paramètre. |
+| Prévision | Modèles de prévision avec des sous-modèles : _\#_ | Cette fonctionnalité est en attente. Actuellement, les prévisions utilisant des sous-modèles ne sont pas prises en charge lorsque l'Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. |
+| Prévision | Plans principaux avec l'option « Inclure les prévisions d'approvisionnement » activée : _\#_ | Cette fonctionnalité est en attente. Actuellement, les prévisions d'approvisionnement ne sont pas prises en charge lorsque l'Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. |
+| Plage de gestion du gel | Groupes de couverture avec la plage de gestion du gel définie : _\#_ | La plage de gestion du gel n'est pas souvent utilisée, et il n'est actuellement pas prévu de l'inclure pour l'Optimisation de la planification. Actuellement, la plage de gestion du gel est ignorée lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+| Plage de gestion du gel | Enregistrements de couverture d'article avec la plage de gestion du gel définie : _\#_ | La plage de gestion du gel n'est pas souvent utilisée, et il n'est actuellement pas prévu de l'inclure pour l'Optimisation de la planification. Actuellement, la plage de gestion du gel est ignorée lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+| Plage de gestion du gel | Plans généraux avec la plage de gestion du gel définie : _\#_ | La plage de gestion du gel n'est pas souvent utilisée, et il n'est actuellement pas prévu de l'inclure pour l'Optimisation de la planification. Actuellement, la plage de gestion du gel est ignorée lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+| Intersociétés | Plans généraux incluant la demande prévisionnelle en aval : _\#_ | Cette fonctionnalité est en attente. Actuellement, la planification principale n'inclut pas de demande planifiée en aval lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. Notez que les commandes lancées/confirmées fonctionnent toujours avec la fonctionnalité intersociétés normale et couvriront la plupart des scénarios. |
+| Kanban | Enregistrements de couverture d'article avec le kanban du type d'ordre prévisionnel : _\#_ | Cette fonctionnalité est en attente. Actuellement, la couverture d'article définie sur kanban sera ignorée lorsque l'Optimisation de la planification est activée. Le type de commande planifiée kanban créera un avertissement lors de la planification principale et des commandes fournisseur prévisionnelles seront créées pour couvrir la demande associée. |
+| Kanban | Articles avec le kanban du type de commande par défaut : _\#_ | Actuellement, un type de commande par défaut défini sur kanban sera ignoré lorsque l'Optimisation de la planification est activée. Le type de commande par défaut kanban créera un avertissement lors de la planification principale et des commandes fournisseur prévisionnelles seront créées pour couvrir la demande associée. |
+| Production | Lignes de nomenclature avec paramétrage d’arrondi ou multiple : _\#_ | Cette fonctionnalité est en attente. Actuellement, l'arrondi et les configurations multiples sont ignorés sur les lignes de nomenclature lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+| Production | Lignes de nomenclature/formule avec mesure de formule : _\#_ | Cette fonctionnalité est en attente. Actuellement, la mesure de formule est ignorée sur les lignes de nomenclature et de formule lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+| Production | Lignes de nomenclature/formule avec substitution d'article (groupes de plans) : _\#_ | Cette fonctionnalité est en attente. Actuellement, la substitution d'article (groupes de plans) est ignorée sur les lignes de nomenclature et de formule lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+| Production | Lignes de nomenclature/formule avec quantité négative : _\#_ | Cette fonctionnalité est en attente. Les lignes de nomenclature et de formule dont la quantité est négative seront incluses avec une quantité de 0 (zéro) et un avertissement sera émis lorsque l'Optimisation de la planification est activée. |
+| Production | Lignes de nomenclature/formule à consommation de ressources : _\#_ | Cette fonctionnalité est en attente. Actuellement, les lignes de nomenclature et de formule qui ont une consommation de ressources sont ignorées lorsque l'Optimisation de la planification est activée. |
+| Production | Lignes de nomenclature/formule à consommation par étape : _\#_ | Cette fonctionnalité est en attente. Actuellement, la consommation d'étapes est ignorée sur les lignes de nomenclature et de formule lorsque l'Optimisation de la planification est activée. |
+| Production | Nomenclatures présentant un rebut constant ou un rebut variable défini : _\#_ | Cette fonctionnalité est en attente. Actuellement, un rebut constant et un rebut variable définis sur les nomenclatures sont ignorés lorsque l'Optimisation de la planification est activée. |
+| Production | Nomenclatures avec sous-traitance : _\#_ | Cette fonctionnalité est en attente. Actuellement, la configuration de la sous-traitance sur les nomenclatures est ignorée lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+| Production | Nomenclatures sans site : _\#_ | Cette fonctionnalité est en attente. Actuellement, les nomenclatures sans site sont ignorées lorsque l'Optimisation de la planification est activée. |
+| Production | Demande avec des exigences de nomenclature ou de gamme spécifiques définies : _\#_ | Cette fonctionnalité est en attente. Actuellement, les exigences de nomenclature ou de gamme spécifiques définies sur la demande (telles qu'une sous-nomenclature ou une sous-gamme sur une commande client) sont ignorées lorsque l'Optimisation de la planification est activée. La nomenclature ou la gamme standard sera utilisée, quel que soit ce paramètre. |
+| Production | Versions de formule avec des co-produits ou des sous-produits : _\#_ | Cette fonctionnalité est en attente. Actuellement, les co-produits et sous-produits associés à la version de formule sont ignorés lorsque l'Optimisation de la planification est activée. |
+| Production | Versions de formule avec rendement : _\#_ | Cette fonctionnalité est en attente. Actuellement, le rendement associé à la version de formule est ignoré lorsque l'Optimisation de la planification est activée. |
+| Production | Plans incluant le classement : _\#_ | Cette fonctionnalité est en attente. Actuellement, le classement est ignoré lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+| Production | Ordres de fabrication lancés qui n'ont pas commencé, lorsque la date de début planifiée est antérieure à aujourd'hui : _\#_ | Cette fonctionnalité est en attente. |
+| Production | Ressources planifiées avec une capacité finie : _\#_ | Cette fonctionnalité est en attente. Actuellement, les ressources planifiées avec une capacité limitée sont ignorées lorsque l'Optimisation de la planification est activée. La planification est effectuée en fonction du délai de livraison par défaut du produit. |
+| Production | Gammes utilisées lors de la planification : _\#_ | Cette fonctionnalité est en attente. Actuellement, les gammes sont ignorées lorsque l'Optimisation de la planification est activée. Le délai de livraison par défaut du produit est utilisé. |
+| Production | Réservation de ligne de vente avec éclatement : _\#_ | La réservation de ligne de vente qui utilise un éclatement n'est pas prise en charge lorsque l'Optimisation de la planification est activée. |
+| Production | Planification avec éclatement des ordres de fabrication : _\#_ | La planification qui utilise un éclatement des ordres de fabrication n'est pas prise en charge lorsque l'Optimisation de la planification est activée. Les ordres de fabrication peuvent être planifiés individuellement. |
+| Appel d'offre | Plans généraux avec les appels d'offre activés : _\#_ | Cette fonctionnalité est en attente. Actuellement, les appels d'offre ne sont pas considérés comme une demande lorsque l'Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. |
+| Demandes d'achat | Plans généraux avec les demandes d'achat activées : _\#_ | Cette fonctionnalité est en attente. Actuellement, les demandes d'achat ne sont pas considérées lorsque l'Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. |
+| Marges de sécurité | Groupes de couverture avec la marge de sécurité : _\#_ | Cette fonctionnalité est en attente. Actuellement, la marge de sécurité est ignorée lorsque l'Optimisation de la planification est activée. Pour compenser ce comportement, vous pouvez augmenter le délai de livraison afin qu'il inclue la marge de sécurité. |
+| Marges de sécurité | Plans généraux avec la marge de sécurité : _\#_ | Cette fonctionnalité est en attente. Actuellement, la marge de sécurité est ignorée lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. Pour compenser ce comportement, vous pouvez augmenter le délai de livraison afin qu'il inclue la marge de sécurité. |
+| Traitement du stock de sécurité | Enregistrements de la couverture des articles avec « Exécuter le minimum » différent de « Date du jour + heure d'achat » : _\#_ | L'Optimisation de la planification utilise toujours *Date du jour + heure d'achat*. Cette modification est effectuée pour préparer une configuration de planification simplifiée à l'avenir et pour fournir un résultat exploitable. Si le délai d'approvisionnement n'est pas inclus pour le stock de sécurité, les commandes planifiées qui sont créées pour le stock disponible actuellement bas seront toujours retardées en raison du délai de livraison. Ce comportement peut provoquer des perturbations importantes et des ordres prévisionnels indésirables. La meilleure pratique consiste à modifier le paramètre afin que *Date du jour + heure d'achat* soit utilisé. |
+| Devis de vente | Plans généraux avec les devis de vente activés : _\#_ | Cette fonctionnalité est en attente. Actuellement, les devis ne sont pas considérées lorsque l'Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. |
+| Durée de conservation | Plans généraux avec la durée de conservation activée : _\#_ | Cette fonctionnalité est en attente. Actuellement, la durée de conservation est ignorée lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
+
 ## <a name="related-resources"></a>Ressources associées
 
 [Vue d'ensemble de l'optimisation de la planification](planning-optimization-overview.md)
 
-[Prise en main de l'Optimisation de la planification](get-started.md)
+[Mise en route de l'optimisation de la planification](get-started.md)
 
 [Afficher l'historique du plan et les journaux de planification](plan-history-logs.md)
 

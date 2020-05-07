@@ -3,7 +3,7 @@ title: États du cycle de vie de la demande de maintenance
 description: Cette rubrique décrit comment paramétrer les états du cycle de vie de la demande de maintenance dans le module Gestion des actifs.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209005"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275624"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>États du cycle de vie de la demande de maintenance
 
@@ -47,7 +47,7 @@ Les états du cycle de vie de la demande de maintenance définissent les différ
 6. Définissez l'option **Définir la fin réelle** sur **Oui** si une date et une heure de fin réelles doivent être automatiquement entrées dans une demande de maintenance qui est dans cet état du cycle de vie.
 7. Définissez l'option **Créer un ordre de travail** sur **Oui** si un ordre de travail peut être créé à partir d'une demande de maintenance qui est dans cet état du cycle de vie.
 8. Définissez l'option **Supprimer** sur **Oui** si une demande de maintenance peut être supprimée lorsqu'elle est dans cet état du cycle de vie.
-9. Dans le raccourci **Mettre à jour**, les options **Entrant** et **Sortant** dans la section **Actif** sont utiles si vous utilisez la réparation au dépôt. Définissez l'option appropriée sur **Oui** si l'état du cycle de vie des actifs sélectionnés dans une demande de maintenance doit être automatiquement mis à jour sur **Entrant** ou **Sortant** lorsque l'état du cycle de vie de cette demande de maintenance est défini sur **Entrant** ou **Sortant**.
+9. Sur l'organisateur **Mettre à jour**, les options **Entrant** et **Sortant** dans la section **Actif** sont pertinentes si vous utilisez la réparation de dépôt. Définissez l'option appropriée sur **Oui** si l'état du cycle de vie des actifs sélectionnés sur une demande de maintenance doit être automatiquement mis à jour sur **Entrant** ou **Sortant** lorsque l'état du cycle de vie de la demande de maintenance de cette demande de maintenance est défini sur **Entrant** ou **Sortant**.
 
 L'illustration suivante présente un exemple de la page **États du cycle de vie de la demande de maintenance**.
 

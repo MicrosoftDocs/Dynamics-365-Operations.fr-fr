@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172806"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270286"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
@@ -66,6 +66,14 @@ Les devis sont créés dans Sales ou Supply Chain Management. Si vous créez un 
 + Vous pouvez ajouter une remise sur le produit sur le devis. Dans ce cas, la remise sera synchronisée avec Supply Chain Management. Les champs **Remise**, **Frais** et **Taxe** sont de l'en-tête sont contrôlés par un paramétrage complexe dans Supply Chain Management. Ce paramétrage ne prend pas en charge la mise en correspondance d'intégration. En lieu et place, les champs **Prix**, **Remise**, **Charge** et **Taxe** sont préservés et gérés dans Supply Chain Management.
 + Les champs **% de remise**, **Remise** et **Volume de transport** sur l'en-tête de devis sont en lecture seule uniquement.
 + Les champs **Conditions de transport**, **Conditions de livraison**, **Méthode d'expédition** et **Mode de distribution** ne font pas partie des mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l'entité est synchronisée.
+
+Si vous utilisez également la solution Field Service, assurez-vous de réactiver le paramètre **Création rapide de ligne de devis**. La réactivation du paramètre vous permet de continuer à créer des lignes de devis à l'aide de la fonction de création rapide.
+1. Accédez à votre application Dynamics 365 Sales.
+2. Sélectionnez l'icône des paramètres dans la barre de navigation supérieure.
+3. Sélectionnez **Paramètres avancés**.
+4. Choisissez l'option **Personnalisez le système**.
+5. Sélectionnez l'élément du menu **Ligne de devis**.
+6. Allez à la section **Services de données** et cochez la case **Autoriser la création rapide**.
 
 ## <a name="sales-orders"></a>Commandes client
 
@@ -131,7 +139,7 @@ Les factures sont créées dans Supply Chain Management et synchronisées vers S
 
 Prospect en disponibilité comprend un ensemble de mappages d'entités de base qui fonctionnent ensemble pendant l'interaction des données client, comme indiqué dans le tableau suivant.
 
-| Applications Finance and Operations | Applications pilotées par modèle dans Dynamics 365 | Description  |
+| Applications Finance and Operations | Applications pilotées par modèle dans Dynamics 365 | Description |
 |-----------------------------|-----------------------------------|-------------|
 | En-têtes de facture client V2    | factures                          |             |
 | Lignes de facture client V2      | invoicedetails                    |             |
