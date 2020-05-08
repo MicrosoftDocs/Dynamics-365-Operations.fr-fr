@@ -1,9 +1,9 @@
 ---
-title: Filtrage amélioré dans le référentiel RCS/Global
+title: Filtrage amélioré par RCS dans le référentiel RCS/Global
 description: Cette rubrique décrit les capacités de filtrage améliorées pour le référentiel RCS Global, qui ont été améliorées pour inclure les filtres supplémentaires.
 author: JaneA07
 manager: AnnBe
-ms.date: 03/03/2020
+ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,35 +18,31 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1adbd690795139778dc77a574e9d5f91a4bdeb3c
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 1913b661c46af5e34da1a2939cb2a5d5b4e46411
+ms.sourcegitcommit: 7df49a85de484d013518217ba8ada6c61da4b6e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249163"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "3287937"
 ---
-# <a name="enhanced-filtering-options-for-finding-configurations-in-the-global-repository"></a>Options de filtrage améliorées pour trouver des configurations dans le référentiel global
+# <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>Options de filtrage améliorées RCS pour trouver des configurations dans le référentiel global/RCS
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les capacités de filtrage améliorées pour le référentiel Regulatory Configuration Services (RCS) Global, qui ont été améliorées pour inclure les filtres suivants : 
+Cette rubrique décrit les capacités de filtrage améliorées pour le référentiel Regulatory Configuration Services (RCS) Global, qui ont été améliorées pour inclure les la capacité de filtrer avec les critères suivants : 
 - **Pays/région** : basé sur les codes pays ISO  
-- **Balises** : pour le domaine fonctionnel/caractéristique ; industrie ; type de document commercial 
+- Types de **Balises** pour :
+  - Zone fonctionnelle
+  - Fonctionnalités
+  - Secteur 
+  - Document commercial 
 
-Vous pouvez appliquer des filtres, individuellement ou en groupes, pour rechercher des configurations spécifiques ou connexes. Par exemple, pour rechercher tous les documents commerciaux configurables liés aux factures fournisseur, vous pouvez appliquer le filtre **Type de document commercial**. 
-
-Vous pouvez affiner davantage une recherche en sélectionnant le code du pays et en cliquant sur **Appliquer le filtre**.  
+Pour faciliter la recherche des configurations spécifiques ou connexes, vous pouvez appliquer des filtres, individuellement ou en groupe. Par exemple, pour rechercher un seul type de documents commerciaux configurables liés aux factures fournisseur, vous pouvez appliquer un filtre **Type de document commercial** pour rechercher ce type de document. 
 
 [![Section Filtre pour le référentiel Global](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG) 
 
-L'exemple suivant montre les résultats lors du filtrage sur **Type de document commercial**. 
+Vous pouvez affiner la recherche en sélectionnant le type de document, par exemple « facture fournisseur » et en cliquant sur **Appliquer le filtre**. L'exemple suivant montre les résultats lors du filtrage sur **Type de document commercial** avec le type de document ajouté. 
 
 [![Filtre appliqué et Importer pour le type de document commercial](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-Les résultats filtrés peuvent être importés dans le RCS des utilisateurs ou l'environnement Dynamics 365 Finance, individuellement ou en tant qu'ensemble (en sélectionnant le groupe de configurations) et en cliquant sur **Importer**.
-
-
-
-
-
-
+Les résultats filtrés peuvent être importés dans un référentiel RCS d'utilisateurs ou un environnement Dynamics 365 Finance, individuellement ou en tant qu'ensemble. Pour ce faire, sélectionnez le groupe de configurations et cliquez sur **Importer**.

@@ -3,7 +3,7 @@ title: Fonctions supprimées ou obsolètes dans les versions précédentes
 description: Cette rubrique décrit les fonctionnalités qui ont été supprimées ou dont la suppression de Dynamics 365 for Finance and Operations était planifiée et les versions précédentes de ce produit.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225126"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284012"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctions supprimées ou obsolètes dans les versions précédentes
 
@@ -230,7 +230,7 @@ La prise en charge de la création de commandes client basées sur le projet où
 | **Remplacé par une autre fonctionnalité ?**   | N° |
 | **Zones de produit affectées**         | Gestion des informations sur les produits |
 | **Option de déploiement**              | Tout  |
-| **État**                         | Supprimé à partir de Finance and Operations 10.0.0 avec platform update 24. (Si et seulement si vous devez réparer la corruption de données causée par un précédent changement de nom de la clé primaire d'un produit publié, veuillez contacter le support Microsoft pour demander la suppression temporaire de cette restriction.) |
+| **État**                         | Supprimé à partir de Finance and Operations 10.0.0 avec platform update 24.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 avec Platform update 23
@@ -267,7 +267,7 @@ Les indicateurs de performance clé intégrés (KPI) peuvent être modélisés d
 | **Remplacé par une autre fonctionnalité ?**   | Cet avertissement du compilateur sera remplacé par une erreur de compilation dans une prochaine version. |
 | **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tout |
-| **État**                         | Obsolète : l'avertissement deviendra une erreur de compilation dans une prochaine version. Cette modification est destinée aux mises à jour de plate-forme pour la version 10.0.11 des applications Finance and Operations. |
+| **État**                         | Obsolète : L'avertissement est une erreur de compilation avec les mises à jour de la plateforme pour la version 10.0.11 des applications Finance and Operations. |
 
 #### <a name="complete-list"></a>Liste complète
 Pour accéder à la liste complète des API en cours d'abandon, voir [Abandon des méthodes et des éléments de métadonnées](deprecation-deletion-apis.md).

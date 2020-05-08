@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173129"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275485"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>Chaîne de dépendance d'entité (ordre de synchronisation)
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-Dans les tableaux suivants, les entités sont répertoriées dans l'ordre dans lequel vous devez les activer. Lorsque vous activez une carte pour la synchronisation initiale, la double écriture détecte automatiquement les autres cartes à activer. Vous pouvez utiliser la page **Double écriture** dans les applications Finance and Operations pour sélectionner ou annuler la sélection des entités lors de la synchronisation initiale.
-
-Dans la dernière version de la double écriture, vous ne pouvez activer que certaines entités et les dépendances sont gérées pour vous.
+Cette rubrique spécifie l'ordre de synchronisation à suivre pour créer les données initiales si vous n'utilisez pas les dépendances d'entité fournies par la fonctionnalité de **synchronisation initiale**. Si vous n'utilisez pas la **synchronisation initiale**, vous devez exécuter chaque carte d'entité individuellement.
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>Entités Dynamics 365 Supply Chain Management
 
@@ -198,15 +194,15 @@ Les entités suivantes pour Gestion des actifs pour Dynamics 365 Supply Chain Ma
 
 | Nom du mappage sur la page Double écriture | Nom des métadonnées d'entité dans Gestion des actifs | Nom des métadonnées d'entité dans Common Data Service | Notes |
 |---|---|---|---|
-| FO.AssetManagementAssetLifecycleStates--Common Data Service.msdyn_assetlifecyclestates                           | Gestion des actifs  Actifs  Statuts du cycle de vie               | msdyn_assetlifecyclestates               | |
-| FO.AssetManagementAssetLifecycleModels--Common Data Service.msdyn_assetlifecyclemodels                           | Gestion des actifs  Actifs  Modèles de cycle de vie               | msdyn_assetlifecyclemodels               | |
-| FO.AssetManagementFunctionalLocationLifecycleModels--Common Data Service.msdyn_functionallocationlifecyclemodels | Gestion des actifs  Postes techniques  Modèles de cycle de vie | msdyn_functionallocationlifecyclemodels  | |
-| FO.AssetManagementFunctionalLocationLifecycleStates--Common Data Service.msdyn_functionallocationlifecyclestates | Gestion des actifs  Postes techniques  Statuts du cycle de vie | msdyn_functionallocationlifecyclestates  | |
-| FO.AssetManagementAssetTypes--Common Data Service.msdyn_customerassetcategories                                  | Gestion des actifs  Types d'actifs                          | msdyn_customerassetcategories            | |
-| FO.AssetManagementFunctionalLocationTypes--Common Data Service.msdyn_functionallocationtypes                     | Gestion des actifs  Types de postes techniques            | msdyn_functionallocationtypes            | |
-| FO.AssetManagementFunctionalLocations--Common Data Service.msdyn_functionallocations                             | Gestion des actifs  Postes techniques                 | msdyn_functionallocations                | Voir [la remarque](#am-notes). |
-| FO.AssetManagementAssets--Common Data Service.msdyn_customerassets                                               | Gestion des actifs  Actifs                               | msdyn_customerassets                     | Voir [la remarque](#am-notes). |
-| FO.AssetManagementManufacturers--Common Data Service.msdyn_manufacturers                                         | Gestion des actifs  Fabricants                        | msdyn_manufacturers                      | |
+| FO.AssetManagementAssetLifecycleStates--Common Data Service.msdyn_assetlifecyclestates                           | États du cycle de vie des actifs dans la Gestion des actifs               | msdyn_assetlifecyclestates               | |
+| FO.AssetManagementAssetLifecycleModels--Common Data Service.msdyn_assetlifecyclemodels                           | États du cycle de vie des actifs dans la Gestion des actifs               | msdyn_assetlifecyclemodels               | |
+| FO.AssetManagementFunctionalLocationLifecycleModels--Common Data Service.msdyn_functionallocationlifecyclemodels | États du cycle de vie des actifs dans la Gestion des actifs | msdyn_functionallocationlifecyclemodels  | |
+| FO.AssetManagementFunctionalLocationLifecycleStates--Common Data Service.msdyn_functionallocationlifecyclestates | États du cycle de vie des actifs dans la Gestion des actifs | msdyn_functionallocationlifecyclestates  | |
+| FO.AssetManagementAssetTypes--Common Data Service.msdyn_customerassetcategories                                  | Types d'actifs de la Gestion des actifs                          | msdyn_customerassetcategories            | |
+| FO.AssetManagementFunctionalLocationTypes--Common Data Service.msdyn_functionallocationtypes                     | Types de postes techniques de la Gestion des actifs            | msdyn_functionallocationtypes            | |
+| FO.AssetManagementFunctionalLocations--Common Data Service.msdyn_functionallocations                             | Postes techniques de la Gestion des actifs                 | msdyn_functionallocations                | Voir [la remarque](#am-notes). |
+| FO.AssetManagementAssets--Common Data Service.msdyn_customerassets                                               | Actifs de la Gestion des actifs                               | msdyn_customerassets                     | Voir [la remarque](#am-notes). |
+| FO.AssetManagementManufacturers--Common Data Service.msdyn_manufacturers                                         | Fabricants de la Gestion des actifs                        | msdyn_manufacturers                      | |
 | FO.AssetManagementModels--Common Data Service.msdyn_models                                                       | Modèles de gestion des actifs                               | msdyn_models                             | |
 | FO.AssetManagementWarranty--Common Data Service.msdyn_warranties                                                 | Garantie de la gestion des actifs                             | msdyn_warranties                         | |
 

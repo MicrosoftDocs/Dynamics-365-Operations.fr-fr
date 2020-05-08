@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: ef4465144155130087b078f9f96911df38b62c41
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173175"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270334"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Synchroniser avec le moteur de tarification Dynamics 365 Supply Chain Management à la demande
 
@@ -50,6 +50,12 @@ Microsoft Dynamics 365 Supply Chain Management comprend un moteur de tarificatio
     + Montant du transport
     + Total des taxes
     + Montant total
+    
+5. Pour garantir que le système prend en compte les accords commerciaux et les contrats de vente pour calculer le prix :
+    1. Accédez à votre environnement Supply Chain Management.
+    2. Accédez à **Comptabilité client \> Configuration \> Paramètres de la comptabilité client**.
+    3. Sélectionnez l'onglet **Prix** dans la barre de navigation latérale.
+    4. Sous l'organisateur **Évaluation des accords commerciaux**, décochez l'option **Saisie manuelle**.
 
 ## <a name="how-it-works"></a>Comment ça fonctionne
 

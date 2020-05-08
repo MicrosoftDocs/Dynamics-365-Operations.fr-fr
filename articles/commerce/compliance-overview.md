@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8c2cdbf055a2854c4140d3ccc264da260c7cdf5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45d96317f5b6ef956647bfc511e80533e2c34bca
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002264"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275346"
 ---
 # <a name="compliance-overview"></a>Vue d'ensemble de la conformité
 
@@ -44,3 +44,5 @@ Pour en savoir plus sur les principes de base utilisés par Microsoft, visitez l
 [Conformité des cookies](cookie-compliance.md)
 
 [Ajouter une page de stratégie de confidentialité](add-privacy-page.md)
+
+[Remplacer les ID utilisateur associés aux modifications de contenu suivies](replace-IDs-tracked-changes.md)

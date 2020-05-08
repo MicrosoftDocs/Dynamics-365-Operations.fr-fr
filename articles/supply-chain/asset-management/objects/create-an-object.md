@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209902"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274163"
 ---
 # <a name="create-an-asset"></a>Créer un actif
 
@@ -38,13 +38,13 @@ Cette rubrique décrit comment créer un actif dans le module Gestion des actifs
 3. Dans la boîte de dialogue **Créer des actifs**, insérez des données relatives à l'**Actif** (l'ID d'actif) et le nom de l'actif. Sélectionnez la date et l'heure d'effectivité de l'actif dans le champ **Date d'effet**. À partir de cette date, vous pouvez installer l'actif dans un poste technique, ainsi qu'un déplacement et remplacement de l'actif dans une structure d'actif.
 4. Dans le champ **Type d'actif**, sélectionnez le type d'actif pour l'actif (champ obligatoire). Si nécessaire, sélectionnez **Fabricant d'actif** et **Modèle d'actif** pour l'actif. Si un seul produit a été paramétré, ce produit est automatiquement sélectionné dans le champ **Fabricant d'actif**. Les sélections disponibles dans les champs **Fabricant d'actif** et **Modèle d'actif** dépendent du paramétrage dans [Fabricants et modèles d'actifs](../setup-for-objects/product-and-model.md).
 5. Dans le groupe **Actif des parents**, le champ **Actif** est vide par défaut. Si nécessaire, vous pouvez sélectionner un actif parent, puis tous les champs du groupe **Actif des parents** sont automatiquement complétés.
->[!NOTE]  
->Lorsque vous sélectionnez un actif parent, deux ou trois onglets sont disponibles : L'onglet **Mes actifs** contient des actifs associés à des postes techniques dans lesquels vous (l'agent de maintenance connecté au système) pouvez être affecté(e). Si aucun poste technique n'est paramétré sur un agent de maintenance dans l'écran [Agents de maintenance et groupes d'employés](../setup-for-objects/workers-and-worker-groups.md), l'onglet **Mes actifs** ne sera pas visible. L'onglet **Actifs actifs** contient la liste de tous les actifs avec l'état de cycle de vie de l'actif « Actif ». L'onglet **Vue des actifs** affiche une arborescence des postes techniques et des actifs installés sur ces emplacements.
+    >[!NOTE]  
+    >Lorsque vous sélectionnez un actif parent, deux ou trois onglets sont disponibles : L'onglet **Mes actifs** contient des actifs associés à des postes techniques dans lesquels vous (l'agent de maintenance connecté au système) pouvez être affecté(e). Si aucun poste technique n'est paramétré sur un agent de maintenance dans l'écran [Agents de maintenance et groupes d'employés](../setup-for-objects/workers-and-worker-groups.md), l'onglet **Mes actifs** ne sera pas visible. L'onglet **Actifs actifs** contient la liste de tous les actifs avec l'état de cycle de vie de l'actif « Actif ». L'onglet **Vue des actifs** affiche une arborescence des postes techniques et des actifs installés sur ces emplacements.
 
 6. Le poste technique par défaut que vous avez paramétré est proposé pour l'actif dans le groupe **Actif** > champ **Poste technique**. Sélectionnez un autre poste technique, si nécessaire.
 
->[!NOTE]
->Après avoir créé un actif, vous pouvez l'installer sur un autre poste technique, si nécessaire. Seuls les actifs supérieurs (actifs sans actif des parents actuel) peuvent être installés sur un poste technique. Cela signifie que vous installez le niveau supérieur ainsi que tous les actifs enfants sous le poste technique sélectionné. Découvrez-en plus sur l'installation des actifs dans des postes techniques dans [Vue d'ensemble des postes techniques](../functional-locations/introduction-to-functional-locations.md).
+    >[!NOTE]
+    >Après avoir créé un actif, vous pouvez l'installer sur un autre poste technique, si nécessaire. Seuls les actifs supérieurs (actifs sans actif des parents actuel) peuvent être installés sur un poste technique. Cela signifie que vous installez le niveau supérieur ainsi que tous les actifs enfants sous le poste technique sélectionné. Découvrez-en plus sur l'installation des actifs dans des postes techniques dans [Vue d'ensemble des postes techniques](../functional-locations/introduction-to-functional-locations.md).
 
 7. Cliquez sur **OK**.
 8. Sélectionnez l'actif dans la liste **Tous les actifs**, puis cliquez sur le bouton **Modifier** pour ajouter des informations à l'actif.

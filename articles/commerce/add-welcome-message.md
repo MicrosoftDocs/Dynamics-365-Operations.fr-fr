@@ -3,7 +3,7 @@ title: Ajouter un message de bienvenue
 description: Cette rubrique décrit la procédure d'ajout d'un message d'accueil à votre site web Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001252"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269611"
 ---
 # <a name="add-a-welcome-message"></a>Ajouter un message de bienvenue
 
@@ -41,17 +41,14 @@ Lorsqu'un message de bienvenue est ajouté à un fragment d'en-tête partagé, i
 
 Pour ajouter un message de bienvenue à votre site, procédez comme suit.
 
-1. Dans Dynamics 365 Commerce, accédez à votre site.
+1. Dans le générateur de site Commerce, accédez à votre site.
 1. Sélectionnez **Fragments**.
 1. Sélectionnez le fragment d'en-tête pour ajouter le message.
 1. Dans l'arborescence du contour, développez **Messages d'erreur/d'information**.
-1. Sélectionnez le module d'alerte.
-
-    Si un module d'alerte n'existe pas encore, sélectionnez le bouton représentant des points de suspension (**...**) en regard de **Messages d'erreur/d'information**, et le sélectionnez **Ajouter le module**. Sélectionnez le module d'alerte, puis sélectionnez **OK**.
-
+1. Sélectionnez le module d'alerte, puis sélectionnez **OK**. Si un module d'alerte n'existe pas encore, sélectionnez d'abord le bouton représentant des points de suspension (**...**) en regard de **Messages d'erreur/d'information**, et sélectionnez **Ajouter le module**.
 1. Dans le volet de propriété de droite, sous l'onglet **Données**, sélectionnez **Ajouter une source de données**, puis sélectionnez **Contenu**.
 1. Dans le champ **Texte entré**, entrez le texte du message de bienvenue.
-1. Enregistrez le fragment d'en-tête, archivez-le, et publiez-le.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le fragment d'en-tête, puis **Publier** pour le publier. 
 
 Le message de bienvenue apparaît désormais en haut de chaque page du site qui utilise le fragment d'en-tête sélectionné.
 

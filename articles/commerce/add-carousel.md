@@ -3,7 +3,7 @@ title: Module Carrousel
 description: Cette rubrique couvre les modules Carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f279d7db0a92df9e64b1d3f6ca01c65ca1478d79
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025779"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269726"
 ---
 # <a name="carousel-module"></a>Module Carrousel
 
@@ -58,18 +58,19 @@ Vous pouvez ajouter des modules de bloc de contenu dans un module carrousel. Les
 
 Pour ajouter un module de carrousel à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Créez un modèle de page nommé **modèle de carrousel**.
+1. Sélectionnez **Nouveau** pour créer un modèle de page.
+1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle de carrousel**, puis cliquez sur **OK**.
 1. Dans l'emplacement **Corps**, ajoutez un module de **Page par défaut**.
-1. Archivez le modèle, et publiez-le. 
-1. Utilisez le modèle de carrousel que vous venez de créer pour créer une page qui s'appelle **page de carrousel**.
+1. Sélectionnez **Terminer la modification** pour archiver le modèle, puis **Publier** pour le publier.  
+1. Utilisez le modèle de carrousel que vous venez de créer pour créer une page qui s'appelle **Page de carrousel**.
 1. À l'emplacement **Principal** de la nouvelle page, ajoutez un module de conteneur. 
 1. Dans le volet de droite, définissez la valeur **Largeur** sur **Remplir l'écran**.
 1. Dans **Contour de la page**, ajoutez un module carrousel au module conteneur.
 1. Ajouter un module de bloc de contenu au module caroussel. Définissez les propriétés du module de bloc de contenu en fournissant **En-tête**, **Lien**, **Disposition**et d'autres propriétés.
 1. Ajoutez et configurez un autre module de bloc de contenu.
 1. Définissez des propriétés supplémentaires pour le module carrousel selon vos besoins.
-1. Enregistrez et affichez un aperçu de la page. La page doit afficher un carrousel avec deux modules à l'intérieur (un module de bannière et un module de fonctionnalité). Vous pouvez modifier les propriétés supplémentaires pour les modules de carrousel, de bannière, et de fonctionnalités pour obtenir l'effet souhaité.
-1. Terminez la modification de la page et publiez-la.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. La page doit afficher un carrousel avec deux modules à l'intérieur (un module de bannière et un module de fonctionnalité). Vous pouvez modifier les propriétés supplémentaires pour les modules de carrousel, de bannière, et de fonctionnalités pour obtenir l'effet souhaité.
+1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

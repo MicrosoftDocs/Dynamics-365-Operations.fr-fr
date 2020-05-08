@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 34c10e38400a72a670a93f2a72d0aa7a4aed561a
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172758"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275531"
 ---
 # <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Résoudre les problèmes liés au module Double écriture dans les applications Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Cette rubrique fournit des informations sur la résolution des problèmes de l'intégration de la double écriture entre les applications Finance and Operations et Common Data Service. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module **Double écriture** dans les applications Finance and Operations.
 
@@ -41,17 +39,14 @@ Cette rubrique fournit des informations sur la résolution des problèmes de l'i
 
 Si vous ne pouvez pas ouvrir la page **Double écriture** en sélectionnant la vignette **Double écriture** dans l'espace de travail **Gestion des données**, le service d'intégration de données est probablement en panne. Créez un ticket de support pour demander un redémarrage du service d'intégration de données.
 
-## <a name="error-when-you-try-to-create-a-new-entity-mapping"></a>Erreur lorsque vous essayez de créer un nouveau mappage d'entité
+## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Erreur lorsque vous essayez de créer un nouveau mappage d'entité
 
-**Informations d'identification requises pour résoudre le problème :** admin client Azure AD
+**Informations d'identification requises pour résoudre le problème :** Le même utilisateur qui a configuré la double écriture.
 
-Vous pouvez recevoir le message d'erreur suivant lorsque vous essayez de configurer une nouvelle entité pour la double écriture :
+Vous pouvez recevoir le message d'erreur suivant lorsque vous essayez de configurer une nouvelle entité pour la double écriture. Le seul utilisateur qui peut créer un mappage est celui qui a configuré la connexion à double écriture.
 
 *Le code d'état de réponse n'indique pas la réussite : 401 (Non autorisé).*
 
-Cette erreur se produit, car seul un admin client Azure AD peut ajouter un nouveau mappage d'entité.
-
-Pour résoudre le problème, connectez-vous à l'application Finance and Operations en tant qu'admin client Azure AD. Vous devez également aller sur web.PowerApps.com et revalider votre connexion.
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Erreur lorsque vous ouvrez l'interface utilisateur de double écriture
 
@@ -63,13 +58,13 @@ Pour résoudre le problème, connectez-vous à l'aide d'une fenêtre InPrivate d
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-entity-mapping"></a>Erreur lorsque vous liez l'environnement pour la double écriture ou ajoutez un nouveau mappage d'entité
 
-**Informations d'identification requises pour résoudre le problème :** admin client Azure AD
+**Rôle requis pour corriger le problème :** Administrateur système dans les applications Finance and Operations et Common Data Service.
 
 Vous pouvez rencontrer l'erreur suivante lors de la liaison ou de la création de cartes :
 
 *Le code d'état de réponse n'indique pas la réussite : 403 (échange de jetons).<br> ID de session : \<votre identifiant de session\><br> ID d'activité racine : \<votre identifiant d'activité racine\>*
 
-Cette erreur peut se produire si vous ne disposez pas des autorisations suffisantes pour lier la double écriture ou créer des cartes. Vous devez utiliser un compte admin client Azure AD pour lier les environnements et ajouter de nouveaux mappages d'entités. Cependant, après la configuration, vous pouvez utiliser un compte non administrateur pour surveiller l'état et modifier les mappages.
+Cette erreur peut se produire si vous ne disposez pas des autorisations suffisantes pour lier la double écriture ou créer des cartes. Cette erreur peut également se produire si l'environnement Common Data Service a été réinitialisé sans dissocier la double écriture. Tout utilisateur ayant un rôle d'administrateur système dans les applications Finance and Operations et Common Data Service peut relier les environnements. Seul l'utilisateur qui a configuré la connexion à double écriture peut ajouter de nouveaux mappages d'entités. Après la configuration, tout utilisateur ayant un rôle d'administrateur système peut surveiller le statut et modifier les mappages.
 
 ## <a name="error-when-you-stop-the-entity-mapping"></a>Erreur lorsque vous arrêtez le mappage d'entité
 
@@ -80,3 +75,14 @@ Vous pouvez recevoir le message d'erreur suivant lorsque vous essayez d'arrêter
 Cette erreur se produit lorsque l'environnement Common Data Service associé n'est pas disponible.
 
 Pour résoudre le problème, créez un ticket pour l'équipe d'intégration de données. Associez le suivi du réseau afin que l'équipe d'intégration de données puisse marquer les cartes comme **Pas en cours d'exécution** à l'arrière-plan.
+
+## <a name="error-while-trying-to-start-an-entity-mapping"></a>Erreur lors de la tentative de démarrage d'un mappage d'entité
+
+Vous pouvez recevoir une erreur comme celle-ci lorsque vous essayez de définir cet état d'un mappage sur **Exécution en cours** :
+
+*Impossible de terminer la synchronisation initiale des données. Erreur : échec de double écriture - échec de l'enregistrement du plug-in : impossible de créer des métadonnées de recherche en double écriture. La référence d'objet d'erreur n'est pas définie sur une instance d'un objet.*
+
+Le correctif de cette erreur dépend de la cause de l'erreur :
+
++ Si le mappage a des mappages dépendants, assurez-vous d'activer les mappages dépendants de ce mappage d'entité.
++ Le mappage peut ne pas contenir de champs sources ou de destination. Si un champ de l'application Finance and Operations est manquant, suivez les étapes de la section [Problème de champs d'entité manquants sur les mappages](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Si un champ dans Common Data Service est manquant, cliquez sur **Actualiser les entités** sur le mappage afin que les champs soient automatiquement remplis à nouveau dans le mappage.

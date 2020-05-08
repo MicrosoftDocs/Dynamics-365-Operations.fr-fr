@@ -3,7 +3,7 @@ title: Gestion des métadonnées SEO
 description: Cette rubrique décrit la procédure de gestion des métadonnées d'optimisation de moteur de recherche (SEO) dans Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003462"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270048"
 ---
 # <a name="manage-seo-metadata"></a>Gestion des métadonnées SEO
 
@@ -72,13 +72,10 @@ Pour modifier les métadonnées de page, procédez comme suit.
 1. Sous **Sites**, sélectionnez **Fabrikam** (ou le nom de votre site).
 1. Dans le volet de navigation sur la gauche, sélectionnez **Pages**.
 1. Sélectionnez la page d'accueil pour l'ouvrir dans l'éditeur de page.
-1. Dans le volet Actions, sélectionnez **Extraire**.
+1. Dans la barre de commande, sélectionnez **Modifier**.
 1. Dans le volet de propriétés de droite, Développez **Métabalises par défaut**.
-1. Pour ajouter une nouvelle métabalise, sélectionnez **Ajouter**, puis entrez la balise dans le champ.
-
-    Pour supprimer une métabalise existante, sélectionnez le symbole de corbeille à droite de celui-ci.
-
-1. Sélectionnez **Enregistrer**, puis sélectionnez **Archiver**.
+1. Pour ajouter une nouvelle métabalise, sélectionnez **Ajouter**, puis entrez la balise dans le champ. Pour supprimer une métabalise existante, sélectionnez le symbole de corbeille à droite de celui-ci.
+1. Sélectionnez **Enregistrer**, puis **Terminer la modification**.
 1. Dans le champ **Commentaires**, entrez **Métabalises mises à jour**, puis sélectionnez **OK**.
 1. Sélectionnez **Aperçu** pour prévisualiser votre page avant impression. Lorsque vous avez terminé, fermez l'onglet d'aperçu pour revenir à l'outil d'édition.
 1. Sélectionnez **Publier**.

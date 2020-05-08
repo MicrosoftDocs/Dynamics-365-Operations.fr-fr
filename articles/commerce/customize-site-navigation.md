@@ -3,7 +3,7 @@ title: Personnaliser la navigation dans le site
 description: Cette rubrique décrit la procédure de création d'une hiérarchie de navigation en ligne personnalisée pour organiser vos produits à parcourir sur votre site Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001827"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269657"
 ---
 # <a name="customize-site-navigation"></a>Personnaliser la navigation dans le site
 
@@ -93,7 +93,7 @@ Pour ajouter des options de navigation personnalisées à votre menu de navigati
 1. Dans le volet de propriété, sous l'onglet **Données**, sélectionnez **Ajouter un article** pour créer un article de navigation du système de gestion de contenu (CMS).
 1. Entrez le texte du lien et une URL.
 1. Répétez les étapes 2 et 3 pour ajouter des options de navigation plus personnalisées.
-1. Lorsque vous avez terminé, enregistrez le modèle ou le fragment, et archivez-le.
+1. Lorsque vous avez terminé, sélectionnez **Enregistrer** pour enregistrer le modèle ou le fragment, puis cliquez sur **Terminer la modification** pour l'archiver.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nouveautés ou modifications dans Supply Chain Management
                   items:
-                    - name: "Nouveautés ou modifications dans la page d'accueil Supply\_Chain\_Management"
+                    - name: Nouveautés ou modifications dans la page d'accueil Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: "Supply\_Chain\_Management\_10.0.10 (mai\_2020)"
+                    - name: "Supply Chain Management\_10.0.11 (juillet\_2020)"
+                      href: get-started/whats-new-scm-10-0-11.md
+                    - name: "Supply Chain Management\_10.0.10 (mai\_2020)"
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: "Supply\_Chain\_Management\_10.0.9 (avril\_2020)"
+                    - name: "Supply Chain Management\_10.0.9 (avril\_2020)"
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: "Supply\_Chain\_Management\_10.0.8 (février\_2020)"
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: Fonctions supprimées ou obsolètes
                   items:
                     - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
@@ -349,6 +349,8 @@
               items:
                 - name: 'Prévisions, ordres de travail et projets'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: Intégration de la gestion des actifs avec des immobilisations
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Maintenance préventive et réactive
               items:
                 - name: Vue d'ensemble de la maintenance préventive
@@ -565,6 +567,8 @@
                   href: cost-management/lifo-physical-value-marking.md
                 - name: Moyenne mobile
                   href: cost-management/moving-average.md
+                - name: 'Moyenne mobile, séquence de coût de secours'
+                  href: cost-management/moving-average-fallback.md
                 - name: Mises à jour physiques et financières
                   href: cost-management/physical-financial-updates.md
                 - name: Prix de revient moyen en cours
@@ -579,7 +583,9 @@
                   href: cost-management/inventory-close.md
                 - name: Ajustement des valeurs de coût du stock disponible
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Stock - Balance âgée
+                - name: État de stockage de la valeur de stock
+                  href: cost-management/inventory-value-report-storage.md
+                - name: Stockage des états de balance âgée
                   href: cost-management/inventory-aging-report-storage.md
             - name: Comptabilité de fabrication
               items:
@@ -1223,6 +1229,8 @@
                   href: inventory/enable-quality-management.md
                 - name: Processus de gestion de la qualité
                   href: inventory/quality-management-processes.md
+                - name: Gestion de la qualité pour les processus d'entrepôt
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Gestion de la non-conformité
                   href: inventory/enable-nonconformance-management.md
                 - name: Paramétrer des conditions préalables pour la gestion
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: Regroupement système sur une liste des travaux en cours
                   href: warehousing/system-group-on-open-work-list.md
+                - name: Mise en page d'acheminement de document pour les étiquettes de contenant
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: Scanner des codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: Prise en charge mobile des codes-barres
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Configurer des appareils mobiles pour le travail d'entrepôt
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: Réception du contenant avec l'application mobile Entrepôt
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Paramétrer une option de menu d'appareil mobile pour terminer le travail d'une commande fournisseur
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: Paramétrer une option de menu d'appareil mobile pour enregistrer les articles reçus
@@ -2673,6 +2685,8 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Réceptions pour l'enregistrement et le rangement
               items:
+                - name: Gestion en entrepôt des chargements entrants pour les commandes fournisseur
+                  href: warehousing/inbound-load-handling.md
                 - name: Enregistrer des articles pour un article activé pour l'entreposage avancé à l'aide d'un journal des arrivées d'articles
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
@@ -2682,6 +2696,7 @@
                 - name: Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Paramétrer un modèle de travail pour les commandes fournisseur
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: Développement de Supply Chain Management
           items:
             - name: Guide de développement du contrôle Gantt

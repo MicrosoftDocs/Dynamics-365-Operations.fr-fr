@@ -3,7 +3,7 @@ title: Règles d'arrondissement et de paiements de taxe
 description: Cet article explique le fonctionnement du paramétrage de la règle d'arrondi sur les administrations fiscales et de l'arrondi du solde de taxe au cours de la tâche Régler et valider la taxe.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771750"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275672"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Règles d'arrondissement et de paiements de taxe
 
@@ -43,26 +43,26 @@ La taxe totale pour une période indique un solde de -98 765,43. L'entité jurid
 
 L'entité juridique veut utiliser une méthode d'arrondi qui arrondit le solde à l'entier le plus proche. L'utilisateur responsable de la comptabilité des taxes procède comme suit.
 
-1.  Cliquez sur &gt; Taxes indirectes &gt; Taxe &gt; Administrations fiscales
-2.  Sur l'organisateur Général, sélectionnez Normal dans le champ Type d'arrondi.
-3.  Entrez un nombre dans le champ Arrondi, saisissez 1,00.
-4.  Au moment de payer les taxes à l'administration fiscale, ouvrez la page Régler et valider la taxe. (Cliquez sur &gt; Déclarations &gt; Taxe &gt; Régler et valider la taxe.)
-5.  Dans le compte de règlement de la taxe, le montant de l'impôt à payer de 98 765,43 est arrondi à 98 765.
+1. Cliquez sur **Taxe** > **Taxes indirectes** > **Taxe** > **Administrations fiscales**.
+2. Sur l'organisateur **Général**, dans le champ **Type d'arrondi**, sélectionnez **Normal**.
+3. Dans le champ **Arrondi**, saisissez 1,00.
+4. Au moment de payer les taxes à l'administration fiscale, accédez à la page **Taxe** > **Déclarations** > **Taxe** > **Régler et valider la taxe**. Dans le compte de règlement de la taxe, vous pouvez voir que le montant de l'impôt à payer de **98 765,43** est arrondi à **98 765**.
 
-Le tableau suivant montre comment un montant de 98 765,43 est arrondi à l'aide de chaque méthode d'arrondi disponible dans le champ Type d'arrondi de la page Administrations fiscales.
+Le tableau suivant montre comment un montant de 98 765,43 est arrondi à l'aide de chaque méthode d'arrondi disponible dans le champ **Type d'arrondi** de la page **Administrations fiscales**.
 
-| Option du type d'arrondi                | Valeur d'arrondi = 0,01 | Valeur d'arrondi = 0,10 | Valeur d'arrondi = 1,00 | Valeur d'arrondi = 100,00 |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| Standard                              | 98 765,43              | 98 765,40              | 98 765,00              | 98 800,00                |
-| Inférieur                            | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
-| Supérieur                         | 98 765,43              | 98 765,50              | 98 766,00              | 98 800,00                |
-| Avantage, pour un solde créditeur | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
-| Avantage, pour un solde débiteur  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
+> [!NOTE]                                                                                  
+> Si la valeur d'arrondi est définie sur 0,00, alors :
+>
+> - Pour l'arrondi normal, le comportement d'arrondi est le même que pour **Arrondi = 0,01**.
+> - Pour les **Options de type d'arrondi**, **Arrondi au chiffre inférieur**, **Arrondi au chiffre supérieur**, et **Avantage**, le comportement est le même que pour **Arrondi = 1,00**.
 
-
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Aucun arrondi du tout, car la précision d'arrondi est 0,00
-
-round(1,0151, 0,00) = 1,0151 round(1,0149, 0,00) = 1,0149
+| Option du type d'arrondi                | Valeur d'arrondi = 0,01 | Valeur d'arrondi = 0,10 | Valeur d'arrondi = 1,00 | Valeur d'arrondi = 100,00 | Valeur d'arrondi = 0,00   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| Normal                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                | 98,765.43                |
+| Inférieur                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Supérieur                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
+| Avantage, pour un solde créditeur | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Avantage, pour un solde débiteur  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Arrondi normal, et précision d'arrondi 0,01
 

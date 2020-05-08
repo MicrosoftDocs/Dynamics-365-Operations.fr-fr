@@ -3,7 +3,7 @@ title: Vue d'ensemble des tâches d'importation et d'exportation de données
 description: L'espace de travail Gestion des données vous permet de créer et de gérer des tâches d'importation et d'exportation de données.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124610"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278896"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d'ensemble de tâches d'importation et d'exportation de données
 
@@ -151,6 +151,18 @@ Les détails de l'exécution indiquent l'état de chaque entité de données que
 Vous pouvez télécharger les données intermédiaires dans un fichier pour les tâches d'exportation, ou vous pouvez les télécharger sous la forme d'un module pour les tâches d'importation et d'exportation.
 
 Les détails d'exécution vous permettent également d'ouvrir le journal d'exécution.
+
+## <a name="parallel-imports"></a>Importations parallèles
+Pour accélérer l'importation de données, le traitement parallèle de l'importation d'un fichier peut être activé si l'entité prend en charge les importations parallèles. Pour configurer l'importation parallèle pour une entité, les étapes suivantes doivent être suivies.
+
+1. Allez dans **Administration système \> Espaces de travail \> Gestion des données**.
+2. Dans la section **Importer/Exporter**, sélectionnez la vignette **Paramètres du cadre** pour ouvrir la page **Paramètres du cadre d'importation/exportation de données**.
+3. Sur l'onglet **Paramètres d'entité**, sélectionnez **Configurer les paramètres d'exécution d'entité** pour ouvrir la page **Paramètres d'exécution d'importation d'entité**.
+4. Définissez les champs suivants pour configurer l'importation parallèle pour une entité :
+
+    - Sélectionnez l'entité dans le champ **Entité**.
+    - Dans le champ **Importer le nombre d'enregistrements de seuil**, entrez le nombre d'enregistrement de seuil pour l'importation. Cela détermine le nombre d'enregistrements à traiter par un thread. Si un fichier contient 10 000 enregistrements, un nombre de 2 500 enregistrements avec un nombre de 4 tâches signifie que chaque thread traitera 2 500 enregistrements.
+    - Dans le champ **Importer le nombre de tâches**, entrez le nombre de tâches d'importation. Cela ne doit pas dépasser le nombre maximal de threads de lots alloués pour le traitement par lots dans **Administration du système \> Configuration du serveur**.
 
 ## <a name="clean-up-the-staging-tables"></a>Nettoyer les tables intermédiaires
 Depuis Platform update 29, cette fonctionnalité a été supprimée. Elle est remplacée par une version de la fonctionnalité de nettoyage de l'historique des tâches expliquée ci-dessous.

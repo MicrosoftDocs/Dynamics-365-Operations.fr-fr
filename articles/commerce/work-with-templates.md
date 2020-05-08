@@ -3,7 +3,7 @@ title: Utiliser des modèles
 description: Cette rubrique décrit comment utiliser des modèles dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002565"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269864"
 ---
 # <a name="work-with-templates"></a>Utiliser des modèles
 
@@ -132,14 +132,14 @@ Pour ajouter un script à un modèle, procédez comme suit.
 Pour enregistrer et archiver dans un modèle, procédez comme suit.
 
 1. Sélectionnez **Enregistrer** en haut de l'éditeur de modèle. Les modifications enregistrées n'affectent pas les pages en aval tant qu'elles ne sont pas archivées.
-1. Sélectionnez **Archiver**. Vos modifications sont désormais découvrables pour les workflows en aval.
+1. Sélectionnez **Terminer la modification**. Vos modifications sont désormais découvrables pour les workflows en aval.
 
 Pour afficher les modifications en aperçu, ouvrez une page existante qui utilise le modèle ou créez une page du modèle.
 
 Après avoir prévisualisé les modifications de votre modèle, suivez l'une de ces étapes pour publier le modèle à votre site en direct :
 
 * Accédez à **Modèles**, sélectionnez le modèle, puis sélectionnez **Publier**.
-* Dans l'éditeur de modèle, sélectionnez **Publier**.
+* Sélectionnez le nom de la disposition pour ouvrir l'éditeur de disposition, puis cliquez sur **Publier**.
 * Publiez une page qui référence le modèle non publié. Le modèle est publié automatiquement.
 
 > [!WARNING]

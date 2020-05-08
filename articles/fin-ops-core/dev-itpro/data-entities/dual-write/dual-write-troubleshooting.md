@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172689"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275648"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
@@ -70,14 +70,12 @@ Pour activer le journal de suivi, procédez comme suit.
 Pour afficher le journal de suivi, procédez comme suit.
 
 1. Connectez-vous à l'application Finance and Operations, ouvrez la page **Paramètres**, puis, sous **Personnalisation**, sélectionnez **Journal de suivi du plug-in**.
-2. Recherchez les journaux de suivi où le champ **Nom du type** est défini sur **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+2. Recherchez les journaux de suivi où le champ **Nom du type** est défini sur **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Double-cliquez sur un élément pour afficher le journal complet, puis, sur le raccourci **Exécution**, passez en revue le texte du **Bloc de message**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Activez le mode débogage pour résoudre les problèmes de synchronisation en direct dans les applications Finance and Operations
 
-**Rôle requis pour afficher les erreurs :** Administrateur système
-
-Des erreurs de double écriture qui proviennent de Common Data Service peuvent apparaître dans l'application Finance and Operations. Dans certains cas, le texte intégral du message d'erreur n'est pas disponible, car le message est trop long ou contient des informations d'identification personnelle (IIP). Vous pouvez activer la journalisation détaillée des erreurs en procédant comme suit.
+**Rôle requis pour afficher les erreurs :** Les erreurs de double écriture d'administrateur système provenant de Common Data Service peuvent s'afficher dans l'application Finance and Operations. Dans certains cas, le texte intégral du message d'erreur n'est pas disponible, car le message est trop long ou contient des informations d'identification personnelle (IIP). Vous pouvez activer la journalisation détaillée des erreurs en procédant comme suit.
 
 1. Toutes les configurations de projet dans les applications Finance and Operations ont une propriété **IsDebugMode** dans l'entité **DualWriteProjectConfiguration**. Ouvrez l'entité **DualWriteProjectConfiguration** à l'aide du module complémentaire Excel.
 
@@ -104,7 +102,7 @@ Des erreurs de double écriture qui proviennent de Common Data Service peuvent a
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Dissocier et lier un autre environnement Common Data Service depuis une application Finance and Operations
 
-**Informations d'identification requises pour dissocier l'environnement :** administrateur du client Azure AD
+**Rôle requis pour dissocier l'environnement :** Administrateur système pour l'application Finance and Operations ou Common Data Service.
 
 1. Connectez-vous à l'application Finance and Operations.
 2. Accédez à **Espaces de travail \> Gestion des données** et sélectionnez la vignette **Double écriture**.
@@ -113,3 +111,13 @@ Des erreurs de double écriture qui proviennent de Common Data Service peuvent a
 5. Sélectionnez **Oui** pour confirmer l'opération.
 
 Vous pouvez maintenant lier un nouvel environnement.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>Impossible d'afficher le formulaire d'informations de ligne de la commande client 
+
+Lorsque vous créez une commande client dans Dynamics 365 Sales, cliquer sur **+ Ajouter des produits** peut vous rediriger vers le formulaire de ligne de commande Dynamics 365 Project Operations. Il n'y a aucun moyen à partir de ce formulaire pour afficher le formulaire de ligne de commande client **Informations**. L'option pour **Informations** n'apparaît pas dans la liste déroulante sous **Nouvelle ligne de commande**. Cela se produit car Project Operations a été installé dans votre environnement.
+
+Pour réactiver l'option de formulaire **Informations**, procédez comme suit :
+1. Accédez à l'entité **Ligne de commande**.
+2. Recherchez le formulaire **Informations** sous le nœud de formulaires. 
+3. Sélectionnez le formulaire **Informations** et cliquez sur **Activer les rôles de sécurité**. 
+4. Modifiez le paramètre de sécurité sur **Afficher pour tout le monde**.

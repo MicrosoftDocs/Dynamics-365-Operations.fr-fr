@@ -3,7 +3,7 @@ title: Méthode de répartition des coûts totaux
 description: Cette rubrique fournit des instructions pour utiliser la répartition des coûts totaux (RCT). La RCT est une méthode de calcul du coût entre l'élément de formule principal pour un lot de commandes et des coproduits définis pour la formule.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/15/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e621b76742a5a115ba2d77e03b47cd1aead8664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 758015c566e39df7306e1b34b8d3b42f1f1eba79
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214663"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262671"
 ---
 # <a name="total-cost-allocation-method"></a>Méthode de répartition des coûts totaux
 
 [!include [banner](../includes/banner.md)]
-
-Cette rubrique fournit des instructions pour utiliser la répartition des coûts totaux (RCT). La RCT est une méthode de calcul du coût entre l'élément de formule principal pour un lot de commandes et des coproduits définis pour la formule.
 
 La Méthode de répartition des coûts totaux (RCT) est une méthode de calcul du coût entre l'élément de formule principal pour un lot de commandes et des coproduits définis pour la formule. Cette méthode est dynamique. Elle permet de calculer le coût en tant que moyenne pondérée entre les quantités déclarées comme terminées pour l'élément de formule et les coproduits. Lorsque la RCT est utilisée, vous ne devez pas examiner les répartitions des coûts pour chaque lot de commandes. Si la RCT n'est pas utilisée, le calcul de la formule utilise la fonctionnalité existante.
 

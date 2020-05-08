@@ -1,9 +1,9 @@
 ---
 title: Promesse de commande
-description: Cet article fournit des informations sur les promesses de commande. Les promesses de commandes vous permettent de promettre de manière fiable des dates de livraison à vos clients et vous offre une certaine flexibilité pour pouvoir respecter ces dates.
+description: Cette rubrique fournit des informations sur les promesses de commande. Les promesses de commandes vous permettent de promettre de manière fiable des dates de livraison à vos clients et vous offre une certaine flexibilité pour pouvoir respecter ces dates.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210050"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270025"
 ---
 # <a name="order-promising"></a>Promesse de commande
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations sur les promesses de commande. Les promesses de commandes vous permettent de promettre de manière fiable des dates de livraison à vos clients et vous offre une certaine flexibilité pour pouvoir respecter ces dates.
+Cette rubrique fournit des informations sur les promesses de commande. Les promesses de commandes vous permettent de promettre de manière fiable des dates de livraison à vos clients et vous offre une certaine flexibilité pour pouvoir respecter ces dates.
 
 La promesse de commande calcule les premières dates d'expédition et de réception, et est basée sur la méthode de contrôle de la date de livraison et les jours de transport. Vous pouvez sélectionner parmi quatre méthodes de contrôle de la date de livraison :
 
@@ -47,11 +47,13 @@ DAC est calculé à l'aide des formules suivantes :
 
 DAV = DAV pour la période précédente + les réceptions pour la période actuelle – les sorties pour la période actuelle – la quantité nette de sortie pour chaque future période jusqu'à la période au cours de laquelle la somme des réceptions pour toutes les futures périodes, jusqu'à la future période incluse, soit supérieure à la somme des sorties, jusqu'à la future période incluse.  
 
+Notez que le calcul de la quantité disponible à la vente (DAV) n'inclut pas les informations relatives à la date d'expiration et au-delà de la plage horaire DAV que le système attend lorsqu'une quantité peut être promise.
+
 Lorsqu'il n'y a plus de sorties ou de réceptions à examiner, la quantité disponible à la vente pour les dates suivantes est la même que la dernière quantité disponible à la vente calculée.  
 
 Si toutes les dimensions utilisées pour un article ne sont pas données lorsque la vérification DAV est terminée, elles peuvent toujours être spécifiées sur les sorties et les réceptions. Dans ce cas, dans le calcul de la quantité disponible à la vente, les réceptions et les sorties doivent être regroupées dans les dimensions existantes, afin de réduire le nombre de lignes de réception et de sortie utilisées dans le calcul de la quantité disponible à la vente.  
 
-La quantité DAV indiquée est toujours supérieure ou égale à 0 (zéro). Si le calcul renvoie une quantité disponible à la vente négative (par exemple, si la quantité qui a été précédemment promise est supérieure à la quantité disponible), le programme définit automatiquement la quantité à **0**.
+La quantité DAV indiquée est toujours supérieure ou égale à 0 (zéro). Si le calcul renvoie une quantité disponible à la vente négative (par exemple, si la quantité qui a été précédemment promise est supérieure à la quantité disponible), la quantité est définie automatiquement sur 0.
 
 ### <a name="example"></a>Exemple
 
