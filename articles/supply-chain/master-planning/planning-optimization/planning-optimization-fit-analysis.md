@@ -3,7 +3,7 @@ title: Analyse de concordance d'optimisation de la planification
 description: Cette rubrique explique comment vérifier votre configuration et vos données par rapport aux fonctionnalités de la fonction d'optimisation de la planification.
 author: ChristianRytt
 manager: tfehr
-ms.date: 04/17/2020
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
-ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
+ms.openlocfilehash: 9bf19604d246988e05b91c8a41b1f57b523d2192
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3277796"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346651"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance d'optimisation de la planification
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Pour voir la compatibilité de votre configuration actuelle et des données avec la fonction d'optimisation de la planification, accédez à **Planification** \> **Configuration** \> **Analyse de concordance de l'optimisation de la planification**, puis sélectionnez **Exécuter l'analyse**. Si l'analyse permet de trouver des incohérences, elles sont répertoriées sur la même page. (L'exécution de l'analyse peut prendre quelques minutes.)
@@ -73,6 +72,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Intersociétés | Plans généraux incluant la demande prévisionnelle en aval : _\#_ | Cette fonctionnalité est en attente. Actuellement, la planification principale n'inclut pas de demande planifiée en aval lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. Notez que les commandes lancées/confirmées fonctionnent toujours avec la fonctionnalité intersociétés normale et couvriront la plupart des scénarios. |
 | Kanban | Enregistrements de couverture d'article avec le kanban du type d'ordre prévisionnel : _\#_ | Cette fonctionnalité est en attente. Actuellement, la couverture d'article définie sur kanban sera ignorée lorsque l'Optimisation de la planification est activée. Le type de commande planifiée kanban créera un avertissement lors de la planification principale et des commandes fournisseur prévisionnelles seront créées pour couvrir la demande associée. |
 | Kanban | Articles avec le kanban du type de commande par défaut : _\#_ | Actuellement, un type de commande par défaut défini sur kanban sera ignoré lorsque l'Optimisation de la planification est activée. Le type de commande par défaut kanban créera un avertissement lors de la planification principale et des commandes fournisseur prévisionnelles seront créées pour couvrir la demande associée. |
+| État du cycle de vie des produits   | Les états du cycle de vie des produits ne sont pas actifs pour la planification : _\#_ | Il s'agit d'une fonctionnalité en attente. Actuellement, l'état du cycle de vie du produit est ignoré avec l'optimisation de la planification activée. Vous pouvez ajuster le filtre de produit au niveau du plan pour éviter d'inclure des produits dans lesquels l'état du cycle de vie du produit est désactivé pour la planification. |
 | Production | Lignes de nomenclature avec paramétrage d’arrondi ou multiple : _\#_ | Cette fonctionnalité est en attente. Actuellement, l'arrondi et les configurations multiples sont ignorés sur les lignes de nomenclature lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
 | Production | Lignes de nomenclature/formule avec mesure de formule : _\#_ | Cette fonctionnalité est en attente. Actuellement, la mesure de formule est ignorée sur les lignes de nomenclature et de formule lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
 | Production | Lignes de nomenclature/formule avec substitution d'article (groupes de plans) : _\#_ | Cette fonctionnalité est en attente. Actuellement, la substitution d'article (groupes de plans) est ignorée sur les lignes de nomenclature et de formule lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
@@ -99,7 +99,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Devis de vente | Plans généraux avec les devis de vente activés : _\#_ | Cette fonctionnalité est en attente. Actuellement, les devis ne sont pas considérées lorsque l'Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. |
 | Durée de conservation | Plans généraux avec la durée de conservation activée : _\#_ | Cette fonctionnalité est en attente. Actuellement, la durée de conservation est ignorée lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. |
 
-## <a name="related-resources"></a>Ressources associées
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble de l'optimisation de la planification](planning-optimization-overview.md)
 

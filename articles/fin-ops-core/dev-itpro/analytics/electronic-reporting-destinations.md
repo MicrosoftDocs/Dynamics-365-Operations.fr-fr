@@ -3,7 +3,7 @@ title: Destinations pour la gestion des états électroniques
 description: Cette rubrique fournit des informations sur la gestion des destinations de rapport électronique (ER), les types de destinations pris en charge et les considérations de sécurité.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150813"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323690"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations de la gestion des états électroniques
 
@@ -52,7 +52,36 @@ Il y a aussi un type de destination [Impression](er-destination-type-print.md).
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Vous pouvez paramétrer des destinations uniquement pour les configurations d'ER qui ont été [importées](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) dans l'instance Finance actuelle, et pour les formats qui sont disponibles sur la page **Configurations de la gestion des états électroniques**. Le fonctionnalité pour la gestion de destination des ER est disponible ici : **Administration d'organisation** \> **Gestion des états électroniques** \> **Destination de la gestion des états électroniques**. Sur la page **Destination de la gestion des états électroniques**, vous pouvez remplacer le comportement par défaut d'une configuration. Les configurations importées ne sont pas affichées sur cette page jusqu'à ce que vous sélectionniez **Nouveau** puis, dans le champ **Référence**, une configuration pour créer des paramètres de destination.
+Vous pouvez paramétrer des destinations uniquement pour les configurations d'ER qui ont été [importées](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) dans l'instance Finance actuelle, et pour les formats qui sont disponibles sur la page **Configurations de la gestion des états électroniques**. Le fonctionnalité pour la gestion de destination des ER est disponible ici : **Administration d'organisation** \> **Gestion des états électroniques** \> **Destination de la gestion des états électroniques**.
+
+### <a name="default-behavior"></a>Comportement par défaut
+
+Le comportement par défaut d'une configuration au format ER dépend du type d'exécution que vous spécifiez au démarrage d'un format ER.
+
+Dans la boîte de dialogue **État de déclaration d'échanges de biens**, dans le raccourci **Exécuter en arrière-plan**, si vous définissez l'option **Traitement par lots** sur **Non**, un format ER est exécuté immédiatement en mode interactif. Une fois cette exécution terminée, un document sortant généré est mis à disposition pour téléchargement.
+
+Si vous définissez l'option **Traitement par lots** sur **Oui**, un format ER est exécuté en mode [Traitement par lots](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Le traitement par lots approprié est créé, en fonction des paramètres que vous spécifiez dans l'onglet **Exécuter à l'arrière-plan** de la boîte de dialogue **Paramètres ER**.
+
+> [!NOTE]
+> La description de travail est lancée pour vous informer de l'exécution d'une mise en correspondance des formats ER. Il contient également le nom du composant ER exécuté.
+
+[![Exécution d'un format ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+Vous pouvez trouver des informations sur cette tâche à plusieurs endroits :
+
+- Accédez à **Commun** \> **Demandes** \> **Traitements par lots** \> **Mes traitements par lots** pour vérifier l'état de la tâche planifiée.
+- Accédez à **Administration de l'organisation** \> **Rapports électroniques** \> **Tâches d'états électroniques** pour vérifier l'état du travail planifié et les résultats d'exécution du travail terminé. Une fois l'exécution de la tâche terminée, sélectionnez **Afficher les fichiers** dans la page **Tâches d'états électroniques** pour obtenir un document sortant généré.
+
+    > [!NOTE]
+    > Ce document est stocké en tant que pièce jointe de l'enregistrement de tâche actuel et est contrôlé par la structure [Gestion des documents](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Le [Type de document](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) qui est utilisé pour stocker les artefacts ER de ce type est configuré dans les [Paramètres ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+
+- Dans la page **Tâches d'états électroniques**, sélectionnez **Afficher les fichiers** pour afficher la liste des erreurs et avertissements générés lors de l'exécution des tâches.
+
+    [![Révision de la liste des tâches ER](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Comportement configuré par l'utilisateur
+
+Sur la page **Destination de la gestion des états électroniques**, vous pouvez remplacer le comportement par défaut d'une configuration. Les configurations importées ne sont pas affichées sur cette page jusqu'à ce que vous sélectionniez **Nouveau** puis, dans le champ **Référence**, une configuration pour créer des paramètres de destination.
 
 [![Sélection d'une configuration dans le champ Référence](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ L'option de conversion PDF ne peut être activée que pour les composants de fic
 >
 > Le PDF produit est limité à un nombre maximum de 300 pages.
 >
-> À l'heure actuelle, seule l'orientation de la page au format paysage est prise en charge dans le document PDF généré depuis une sortie Excel.
+> Dans Microsoft Dynamics 365 Finance version 10.0.9 (avril 2020) À l'heure actuelle, seule l'orientation de page Paysage est prise en charge dans le document PDF produit à partir d'une sortie Excel. Avec la sortie de Dynamics 365 Finance version 10.0.10 (mai 2020), vous pouvez [spécifier l'orientation de la page](#SelectPdfPageOrientation) dans le document PDF généré à partir d'une sortie Excel pendant que vous configurez une destination ER.
 >
 > Seules les polices système courantes du système d'exploitation Windows sont utilisées pour la conversion d'une sortie qui ne contient aucune police intégrée.
 

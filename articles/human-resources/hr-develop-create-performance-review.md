@@ -1,9 +1,9 @@
 ---
 title: Créer des évaluations des performances
-description: Cet article explique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation.
+description: Cette rubrique explique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2019
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 50ef3f305756f1ab0db895854cd7e1c71237cb48
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 22f3e82e7a1ebba689c1aa1ebbe75603a5c09188
+ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009014"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334681"
 ---
 # <a name="create-performance-reviews"></a>Créer des évaluations des performances
 
 
-
-Cet article explique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation. Cette procédure a été créée à l'aide de la société fictive USMF.
+Cette rubrique explique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation. Cette procédure a été créée à l'aide de la société fictive USMF.
 
 1. Sur la page d'accueil, sélectionnez l'espace de travail **Libre-service employé**.
 2. Cliquez sur **Nouvelle révision** pour créer une révision.
@@ -37,7 +36,7 @@ Cet article explique comment créer une évaluation des performances et décrit 
 6. Cliquez sur **OK**. Vous pouvez également créer une révision à partir d'un modèle. Il s'agit de la meilleure façon de créer une révision, car chaque section contient les informations nécessaires pour démarrer une révision.  
 7. Vous pouvez afficher ou masquer des onglets tels que l'onglet de pièces jointes :
 
-    1. Dans le volet Actions, sélectionnez **Afficher les sections** pour ouvrir la boîte de dialogue.
+    1. Dans le volet Actions, sélectionnez **Afficher les sections** pour ouvrir le menu de la boîte de dialogue.
     1. Sélectionnez **Oui** ou **Non** dans le champ **Afficher les pièces jointes** pour afficher ou masquer l'onglet des pièces jointes.
     1. Sélectionnez **Enregistrer**.
 
@@ -51,7 +50,7 @@ Cet article explique comment créer une évaluation des performances et décrit 
 15. Sélectionnez **Ajouter un commentaire**.
 16. Sélectionnez **Valider**.
 17. Sélectionnez l'onglet **Mesures**.
-18. Sélectionnez **Ajouter une mesure** pour ouvrir la boîte de dialogue.
+18. Sélectionnez **Ajouter une mesure** pour ouvrir le menu de la boîte de dialogue.
 19. Entrez ou sélectionnez une valeur dans le champ **Mesure**.
 26. Dans le champ **Montant cible**, entrez un nombre.
 20. Cliquez sur **OK**.
@@ -66,14 +65,14 @@ Cet article explique comment créer une évaluation des performances et décrit 
 29. Sélectionnez **Enregistrer**.
 30. Sélectionnez l'onglet **Classements**.  
 
-    - Le raccourci des **détails de classement** permet aux employés de s'auto-classer et au responsable de classer l'employé. Si des poids sont utilisés, la valeur de poids des scores est calculée automatiquement.  
+    - Le raccourci **Détails de classement** permet aux employés de s'auto-classer et au responsable de classer l'employé. Si des poids sont utilisés, la valeur de poids des scores est calculée automatiquement.  
     - Pour afficher cette section, activez les paramètres d'affichage des classements des employés.  
 
 31. Sélectionnez l'onglet **Validations**. Si la révision utilise un workflow, les validations s'affichent uniquement à la fin du workflow. Si aucun workflow n'est utilisé, le collaborateur et le responsable sont répertoriés ici. La case à cocher requise est activée en fonction des paramètres du type de révision.  
 32. Sélectionnez l'onglet **Général**.
 
     - La période de performances crée les dates de début et de fin par défaut. Ces dates sont modifiables.  
-    - Les statuts contrôlent l'accès à la révision. Le statut **Non commencé** permet à tous les utilisateurs de modifier la révision. Le statut **En cours** permet uniquement à l'employé d'afficher et de modifier la révision. Le statut Prêt pour la révision permet uniquement au responsable d'afficher et de modifier la révision. Le statut Révision finale permet à l'employé et au responsable d'afficher la révision et de la modifier si elle est paramétrée dans le type de révision. Les statuts **Terminé**, **Rejeté** et **Annulé** permettent d'afficher la révision en lecture seule.  
+    - Les statuts contrôlent l'accès à la révision. Le statut **Non commencé** permet à tous les utilisateurs de modifier la révision. Le statut **En cours** permet uniquement à l'employé d'afficher et de modifier la révision. **Prêt pour la révision** permet uniquement au responsable d'afficher et de modifier la révision. Le statut **Révision finale** permet à l'employé et au responsable d'afficher la révision et de la modifier si elle est paramétrée dans le type de révision. Les statuts **Terminé** et **Annulé** permettent d'afficher la révision en lecture seule. Si un avis est **Rejeté** et renvoyé à l'employé, l'employé et le gestionnaire peuvent apporter les modifications nécessaires afin que l'employé puisse soumettre à nouveau.
 
 33. Dans le champ **Vue d'ensemble**, tapez une valeur.
 34. Sélectionnez **Révision**. Étant donné que la révision passe par les différents statuts, l'employé et le responsable peuvent ajouter des commentaires pour chaque objectif ou compétence.  

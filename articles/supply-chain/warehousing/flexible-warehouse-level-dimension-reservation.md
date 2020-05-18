@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205665"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346466"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Politique de réservation de dimension flexible au niveau de l'entrepôt
 
@@ -233,7 +233,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Emplacement de remplacement</strong> sur l'application Warehouse Mmobile (WMA) lorsque vous commencez à choisir le travail.</li>
+<li>Sélectionnez l'élément de menu <strong>Emplacement de remplacement</strong> sur l'application d'entreposage lorsque vous commencez à choisir la tâche.</li>
 <li>Sélectionnez <strong>Suggérer</strong>.</li>
 <li>Confirmez le nouvel emplacement suggéré en fonction de la disponibilité de la quantité de lots.</li>
 </ol>
@@ -247,10 +247,10 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Non applicable</td>
 </tr>
 <tr>
-<td>Non</td>
+<td>N°</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Emplacement de remplacement</strong> sur l'application WMA lorsque vous commencez à choisir le travail.</li>
+<li>Sélectionnez l'élément de menu <strong>Emplacement de remplacement</strong> sur l'application d'entreposage lorsque vous commencez à choisir la tâche.</li>
 <li>Entrez manuellement un emplacement.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Non applicable</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Complet</strong> sur l'application WMA lorsque vous traitez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Complet</strong> sur l'application d'entreposage lorsque vous traitez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Qté prélevée</strong>, entrez la quantité partielle de prélèvement requise pour indiquer la pleine capacité.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Démarrez un mouvement sur WMA.</li>
+<li>Démarrez un mouvement sur l'application d'entreposage.</li>
 <li>Entrez les emplacements d'origine et de destination.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application WMA lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Nom</strong>, entrez <strong>Aucune imposition</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application WMA lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Nom</strong>, entrez <strong>Aucune imposition</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application WMA lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 <li>Sélectionnez l'emplacement / le contenant dans la liste.</li>
@@ -545,10 +545,10 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 </tr>
 <tr>
 <td>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles </strong> = <strong>Manuel</strong>, <strong>Ajuster le stock </strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations </strong> = <strong>Non</strong>. De plus, l'option <strong>Autoriser la réaffectation manuelle des articles </strong>est activée pour le collaborateur.</td>
-<td>Non</td>
+<td>N°</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application WMA lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 </ol>
@@ -558,10 +558,10 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 </tr>
 <tr>
 <td>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles </strong> = <strong>Manuel</strong>, <strong>Ajuster le stock </strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations </strong> = <strong>Oui</strong>. De plus, l'option <strong>Autoriser la réaffectation manuelle des articles </strong>est activée pour le collaborateur.</td>
-<td>Non</td>
+<td>N°</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application WMA lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 <li>Sélectionnez l'emplacement / le contenant dans la liste.</li>
@@ -585,7 +585,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Non applicable</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application WMA lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation automatique</strong>.</li>
 </ol>

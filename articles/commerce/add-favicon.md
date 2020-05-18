@@ -3,7 +3,7 @@ title: Ajouter une icône de favori
 description: Cette rubrique explique comment ajouter une icône de favori à votre site.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 287663817232e7ce86e8fdb1fb5c2fcfeed33d20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
+ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001533"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295078"
 ---
 # <a name="add-a-favicon"></a>Ajouter une icône de favori
-
 
 [!include [banner](includes/banner.md)]
 
@@ -41,23 +40,48 @@ Bien que vous puissiez ajouter plusieurs icônes de favori de différentes taill
 
 Pour charger l'icône de favori dans la collection d'actifs du site, procédez comme suit.
 
-1. Accédez à **Actifs \> Charger \> Charger des actifs**.
-1. Recherchez et sélectionnez l'icône de favori sur votre système de fichiers local.
-1. Entrez un titre, puis sélectionnez **OK**. 
-1. Dans le volet de propriété de droite, copiez l'URL publique de l'icône de favori.
+1. Dans le volet de navigation de gauche, cliquez sur **Bibliothèque multimédia**.
+1. Dans la barre de commandes, sélectionnez **Télécharger \> Télécharger des éléments multimédias**.
+1. Dans la fenêtre de l'Explorateur de fichiers, accédez au fichier image favicon que vous souhaitez télécharger, sélectionnez-le, puis sélectionnez **Ouvrir**.
+1. Dans la boîte de dialogue **Télécharger un élément multimédia**, entrez le titre et le texte de remplacement requis.
+1. Si vous souhaitez publier l'image immédiatement après le téléchargement, sélectionnez la case à cocher **Publier les éléments multimédia après le téléchargement**.
 
-> [!NOTE]
-> Si vous ne sélectionnez pas l'option **Publier les actifs après chargement**, vous devez retourner à la page **Actifs** et publier manuellement l'icône de favori ultérieurement.
+    > [!NOTE]
+    > Si vous ne sélectionnez pas la case à cocher **Publier les éléments multimédia après le téléchargement**, vous devez retourner à la page **Éléments multimédia** et publier manuellement l'icône de favori ultérieurement.
 
-## <a name="create-the-html-for-the-favicon"></a>Créer l'HTML pour l'icône de favori
+1. Cliquez sur **OK**.
+1. Dans le volet de propriété de droite, copiez l'URL publique de l'icône de favori. Vous utiliserez cette URL ultérieurement.
 
-Pour créer le fichier HTML pour l'icône de favori, utilisez l'extrait de code HTML. Pour l'attribut **href**, remplacez **« Public\_URL\_pour\_votre\_icône_de_favori »** par l'URL publique copiée précédemment.
+## <a name="create-the-html-for-your-favicon"></a>Créer l'HTML pour l'icône de favori
+
+Pour créer le fichier HTML pour l'icône de favori, utilisez la chaîne HTML suivante. Pour l'attribut **href**, remplacez **Public\_URL\_for\_your\_favicon** par l'URL publique copiée précédemment.
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="add-the-html-for-the-favicon-to-the-head-element-of-your-pages"></a>Ajoutez l'HTML pour l'icône de favori à l'élément \<en-tête\> de vos pages
+## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Créer un fragment de page contenant une balise META pour votre icône de favori
 
-Pour ajouter une icône de favori à votre site, utilisez la même procédure que pour ajouter un type de HTML ou un script à l'élément **\<en-tête\>** des pages de votre site.
+Pour créer un fragment de page contenant une balise META pour votre icône de favori, suivez cette procédure.
+
+1. Accédez à **Fragments de page**, puis sélectionnez **Nouveau**.
+1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez **Metatags** comme module sur lequel le fragment de page est basé.
+1. Entrez un nom pour le fragment de page, puis sélectionnez **OK**.
+1. Dans l'arborescence de la hiérarchie des fragments, sélectionnez l'enfant **Metatags par défaut**.
+1. Dans le volet droit, sous **Balises Meta**, sélectionnez **Ajouter**, puis entrez la chaîne HTML que vous avez créée précédemment pour l'icône de favori. 
+1. Sélectionnez **Terminer la modification**, puis **Publier** pour publier le fragment de page.
+
+## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Ajouter le fragment de page de métabalise à la section d'en-tête HTML de vos pages
+
+Pour ajouter le fragment de page de métabalise à la section d'**en-tête** HTML de vos pages, suivez cette procédure.
+
+1. Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre icône de favori, puis sélectionnez **Modifier**.
+1. Dans l'arborescence de la hiérarchie des modèles, sélectionnez les points de suspension (**...**) à droite du conteneur **En-tête HTML**, puis sélectionnez **Ajouter un fragment de page**.
+1. Dans la boîte de dialogue **Sélectionner un fragment de page**, sélectionnez le fragment de page de métabalise que vous avez créé au préalable, puis sélectionnez **OK**.
+1. Sélectionnez **Terminer la modification**, puis **Publier** pour publier le modèle.
+
+> [!NOTE]
+> Si votre site utilise plusieurs modèles, vous devez ajouter le fragment de page de métabalises à chacun d'eux.
+
+Lorsque vous prévisualisez des pages basées sur le modèle auquel vous avez ajouté le fragment de page de métabalises, vous devriez maintenant voir l'icône de favori dans l'onglet du navigateur.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

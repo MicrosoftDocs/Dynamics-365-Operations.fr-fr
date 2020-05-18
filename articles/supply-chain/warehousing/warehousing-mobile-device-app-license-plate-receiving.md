@@ -1,6 +1,6 @@
 ---
-title: Réception du contenant via l'application mobile Entrepôt
-description: Cette rubrique explique comment configurer l'application mobile Entrepôt pour prendre en charge l'utilisation d'un processus de réception de contenant pour recevoir le stock physique.
+title: Réception du contenant via l'application d'entreposage
+description: Cette rubrique explique comment configurer l'application d'entreposage pour prendre en charge l'utilisation d'un processus de réception de contenant pour recevoir le stock physique.
 author: perlynne
 manager: tfehr
 ms.date: 03/31/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 98cd608edea1d5365d0d3532244f1fcdb6293d3c
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261330"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346374"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-mobile-app"></a>Réception du contenant via l'application mobile Entrepôt
+# <a name="license-plate-receiving-via-the-warehousing-app"></a>Réception du contenant via l'application d'entreposage
 
-Cette rubrique explique comment configurer l'application mobile Entrepôt pour prendre en charge l'utilisation d'un processus de réception de contenant pour recevoir le stock physique.
+Cette rubrique explique comment configurer l'application d'entreposage pour prendre en charge l'utilisation d'un processus de réception de contenant pour recevoir le stock physique.
 
 Vous pouvez utiliser cette fonctionnalité pour enregistrer rapidement la réception du stock entrant lié à un avis préalable d'expédition (APE). Le système crée automatiquement un APE lorsque des processus de gestion d'entrepôt sont utilisés pour expédier un ordre de transfert. Pour le processus de commande fournisseur, un APE peut être enregistré manuellement ou il peut être automatiquement importé à l'aide d'un processus d'entité de données APE entrant.
 
@@ -63,7 +63,7 @@ For more information about the *Report as finished* production scenario, see the
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Afficher ou ignorer la page récapitulative de réception
 
-Vous pouvez utiliser la fonctionnalité *Contrôler s'il faut afficher une page récapitulative de réception sur les appareils mobiles* pour bénéficier d'un flux d'application Entrepôt détaillé supplémentaire dans le cadre du processus de réception des contenants.
+Vous pouvez utiliser la fonctionnalité *Contrôler s'il faut afficher une page récapitulative de réception sur les appareils mobiles* pour bénéficier d'un flux d'application d'entreposage détaillé supplémentaire dans le cadre du processus de réception des contenants.
 
 Avant de pouvoir utiliser cette fonctionnalité, vous devez l'activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, cette fonctionnalité est répertoriée comme suit :
 

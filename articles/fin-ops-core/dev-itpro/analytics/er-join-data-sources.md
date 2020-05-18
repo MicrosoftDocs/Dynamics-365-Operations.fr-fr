@@ -3,7 +3,7 @@ title: Utilisation des sources de données JOIN dans des mises en correspondance
 description: Cette rubrique explique comment utiliser les sources de données de type JOIN dans la gestion des états électroniques (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667952"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332320"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Utilisation des sources de données JOIN pour obtenir des données de plusieurs tables d'application dans des mises en correspondance de modèle de gestion des états électroniques (ER)
 
@@ -140,7 +140,7 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 
 7.  Fermez la page.
 
-### <a name="review"></a> Vérifier la mise en correspondance de modèle ER (partie 2)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> Vérifier la mise en correspondance de modèle ER (partie 2)
 
 Examinez les paramètres du composant de mise en correspondance de modèle ER. Le composant est configuré pour accéder aux informations sur les versions des configurations ER, les détails des configurations et les fournisseurs de configuration en utilisant une source de données de type **Join**.
 
@@ -185,7 +185,7 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 9.  Fermez la page.
 10. Sélectionnez **Annuler**.
 
-### <a name="executeERformat"></a> Exécuter le format ER
+### <a name="execute-er-format"></a><a name="executeERformat"></a> Exécuter le format ER
 
 1.  Accédez à Finance ou RCS dans la deuxième session de votre navigateur web à l'aide des mêmes informations d'identification et société que dans la première session.
 2.  Accédez à **Administration d'organisation \> États électroniques \> Configurations**.
@@ -240,7 +240,7 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 
     ![Page de boîte de dialogue utilisateur pour ER](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> Analyser le suivi de l'exécution du format ER
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analyser le suivi de l'exécution du format ER
 
 1.  Dans la première session de Finance ou RCS, sélectionnez **Concepteur**.
 2.  Sélectionnez **Suivi des performances**.
@@ -256,6 +256,33 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
     - La base de données d'application a été appelée une fois pour calculer le nombre de versions de configuration utilisant des jointures ayant été configurées dans la source de données **Détails**.
 
     ![Page du concepteur de mise en correspondance des modèles ER](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>Limitations
+
+Comme vous pouvez le voir dans l'exemple de cette rubrique, la source de données **JOIN** peut être construite à partir de plusieurs sources de données qui décrivent les ensembles de données individuels des enregistrements qui doivent finalement être joints. Vous pouvez configurer ces sources de données à l'aide de la fonction de l'ER intégré [FILTER](er-functions-list-filter.md). Lorsque vous configurez la source de données afin qu'elle soit appelée au-delà de la source de données **JOIN**, vous pouvez utiliser des plages de sociétés dans le cadre de la condition de sélection des données. La mise en œuvre initiale de la source de données **JOIN** ne prend pas en charge les sources de données de ce type. Par exemple, lorsque vous appelez une source de données basée sur un [FILTRE](er-functions-list-filter.md) dans le cadre de l’exécution d’une source de données **JOIN**, si la source de données appelée contient des plages de sociétés dans le cadre de la condition de sélection des données, une exception se produit.
+
+Dans Microsoft Dynamics 365 Finance version 10.0.12 (août 2020), vous pouvez utiliser des plages de sociétés dans le cadre de la condition de sélection des données dans les sources de données basées sur le [FILTRE](er-functions-list-filter.md) qui sont appelées dans le cadre de l’exécution d'une source de données **JOIN**. En raison des limites de l'application configuratrice [query](../dev-ref/xpp-library-objects.md#query-object-model), les gammes d’entreprise ne sont prises en charge que pour la première source de données **JOIN**.
+
+### <a name="example"></a>Exemple
+
+Par exemple, vous devez effectuer un appel unique à la base de données d'application pour obtenir la liste des transactions de commerce extérieur de plusieurs sociétés et les détails de l'article en stock auquel il est fait référence dans ces transactions.
+
+Dans ce cas, vous configurez les artefacts suivants dans votre mise en correspondances de modèles ER :
+
+- La source de données racine **Intrastat** qui représente la table **Intrastat**.
+- La source de données racine **Articles** qui représente la table **InventTable**.
+- La source de données racine **Entreprises** qui renvoie la liste des sociétés (**DEMF** et **GBSI** dans cet exemple) où les transactions doivent être accessibles. Le code d'entreprise est disponible dans le champ **Companies.Code**.
+- La source de données racine **X1** qui a l'expression `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))`. Dans le cadre de la condition de sélection des données, cette expression contient la définition des plages d'entreprises `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)`.
+- La source de données **X2** en tant qu'élément imbriqué de la source de données **X1**. Elle comprend l'expression `FILTER (Items, Items.ItemId = X1.ItemId)`.
+
+Enfin, vous pouvez configurer une source de données **JOIN** où **X1** est la première source de données et **X2** est la deuxième source de données. Vous pouvez spécifier **Requête** comme l'option **Exécuter** pour forcer ER à exécuter cette source de données au niveau de la base de données en tant qu'appel SQL direct.
+
+Lorsque la source de données configurée est exécutée pendant que l'exécution ER est [tracé](trace-execution-er-troubleshoot-perf.md), l'instruction suivante est affichée dans le concepteur de mise en correspondance des modèles ER dans le cadre de la trace de performance ER.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Une erreur se produit si vous exécutez une source de données **JOIN** qui a été configurée de sorte qu'elle contienne des conditions de sélection de données qui ont des plages de société pour des sources de données supplémentaires de l'exécution de la source de données **JOIN**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

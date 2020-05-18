@@ -3,7 +3,7 @@ title: Prise en main de l'Optimisation de la planification
 description: Cette rubrique explique comment utiliser la fonctionnalité d'Optimisation de la planification.
 author: ChristianRytt
 manager: tfehr
-ms.date: 02/10/2020
+ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4f9124e824a0b6d5035b2567cb19c2c494390d55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce1bbb18e9a448e84d001a4195421d2b0e4af5be
+ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213513"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339876"
 ---
 # <a name="get-started-with-planning-optimization"></a>Prise en main de l'Optimisation de la planification
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 La fonctionnalité d'Optimisation de la planification ne prend actuellement pas en charge toutes les fonctionnalités disponibles dans le moteur de planification intégré à Microsoft Dynamics 365 Supply Chain Management. Par conséquent, il est important d'évaluer si la fonctionnalité définie, qui est actuellement disponible dans Optimisation de la planification, répondra à vos attentes. Par défaut, la fonctionnalité d'Optimisation de la planification n'est pas activée dans Dynamics Lifecycle Services (LCS). Par conséquent, vous avez une possibilité de faire votre évaluation avant qu'elle ne s'est activée.
@@ -36,6 +35,11 @@ La fonctionnalité d'Optimisation de la planification ne prend actuellement pas 
 Éventuellement, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant.
 
 Avant d'activer l'Optimisation de la planification, nous vous recommandons fortement d'évaluer les résultats de l'analyse de concordance d'Optimisation de la planification. Pour plus d'informations, voir [Analyse de concordance d'Optimisation de la planification](planning-optimization-fit-analysis.md).
+
+### <a name="availability"></a>Disponibilité
+L'optimisation de la planification est actuellement disponible dans les zones géographiques Azure suivantes : États-Unis, Canada, Europe, Royaume-Uni et Australie. Si vous essayez d'installer le complément à partir d'une autre région géographique, LCS affichera un message indiquant que cette zone géographique n'est pas prise en charge.
+
+Notez que Optimisation de la planification ne prend pas en charge les déploiements locaux de Dynamics 365 Supply Chain Management.
 
 ### <a name="licensing"></a>Gestionnaire de licences
 
@@ -46,7 +50,7 @@ Si vous pouvez exécuter la planification à l'aide de votre licence actuelle, v
 Pour utiliser l'Optimisation de la planification, installez le complément d'Optimisation de la planification pour Dynamics 365 Supply Chain Management. Vous pouvez accéder au complément depuis votre projet LCS et activer la fonctionnalité d'Optimisation de la planification depuis l'interface utilisateur de Supply Chain Management.
 
 > [!NOTE]
-> La configuration requise pour l'optimisation de la planification est un environnement à haute disponibilité compatible LCS (pas un environnement OneBox), avec Dynamics 365 Supply Chain Management version 10.0.7 ou les versions ultérieures.
+> La configuration requise pour l'optimisation de la planification est un environnement à haute disponibilité compatible LCS, niveau 2 ou supérieur (pas un environnement OneBox), avec Dynamics 365 Supply Chain Management version 10.0.7 ou les versions ultérieures. Si vous essayez d'installer le complément dans un environnement OneBox, l'installation ne se terminera pas et vous devrez annuler l'installation.
 
 1. Connectez-vous à LCS, et ouvrez l'environnement souhaité.
 1. Accédez à **Détails complets**.
@@ -88,7 +92,7 @@ Le paramètre de l'option **Utiliser l'Optimisation de la planification** déter
 
 Si l'aperçu Optimisation de la planification est activé, la planification est effectuée à l'aide du complément Optimisation de la planification. Dans ce cas, les résultats de la planification et le fonctionnalités sont concernés.
 
-## <a name="related-resources"></a>Ressources associées
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Conditions générales pour l'aperçu](https://go.microsoft.com/fwlink/?linkid=2015274)
 

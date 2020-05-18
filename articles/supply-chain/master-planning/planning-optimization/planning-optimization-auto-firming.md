@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 5bfa8a1f025c2884f31b9fcb817e008a007ac010
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209741"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323529"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Confirmation automatique avec la fonction d'Optimisation de la planification
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 La confirmation automatique vous permet de confirmer les ordres prévisionnels dans le cadre du processus de planification. Lorsque des ordres prévisionnels sont confirmés, ils deviennent des commandes fournisseur, ordres de transfert ou ordres de fabrication réels. Lorsque la fonction d'Optimisation de la planification est utilisée, les ordres prévisionnels sont confirmés pendant l'exécution d'une planification lorsque la date de commande (c'est-à-dire, la date de début) est comprise dans la plage de confirmation.
