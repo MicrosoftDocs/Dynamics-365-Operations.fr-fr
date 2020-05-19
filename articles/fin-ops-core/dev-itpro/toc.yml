@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: "Platform update\_33 (avril\_2020)"
                   href: get-started/whats-new-platform-update-33.md
-                - name: "Platform update\_32 (février\_2020)"
-                  href: get-started/whats-new-platform-update-32.md
             - name: Fonctions supprimées ou obsolètes
               items:
                 - name: Fonctions de plateforme supprimées ou obsolètes
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: "Configuration en double écriture depuis Lifecycle\_Services"
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Synchronisation initiale
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Activer la double écriture pour les applications Finance and Operations existantes
                               items:
                                 - name: Activer la double écriture pour les applications Finance and Operations existantes
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Contrôle de versions, recherche de métadonnées et navigation'
               href: dev-tools/version-control-metadata-navigation.md
+            - name: Générer l'automatisation à l'aide d'Azure
+              items:
+                - name: Générer l'automatisation à l'aide d'agents hébergés par Microsoft et d'Azure Pipelines
+                  href: dev-tools/hosted-build-automation.md
+                - name: Ajouter des fichiers de licence à un package déployable dans Azure Pipelines
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Créer des packages déployables dans Azure Pipelines
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: Versionnage de modèle X++ dans Azure Pipelines
+                  href: dev-tools/pipeline-model-version.md
             - name: Exemple d'application de gestion de flotte
               items:
                 - name: Scénario de bout en bout pour l'exemple d'application de gestion de flotte
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Affecter des utilisateurs à des rôles de sécurité
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Diagnostics de sécurité pour l'enregistrement des tâches
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: Traitement par lots
               items:
                 - name: Vue d'ensemble du traitement par lots
