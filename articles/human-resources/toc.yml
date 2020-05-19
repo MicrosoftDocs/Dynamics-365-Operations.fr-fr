@@ -5,6 +5,8 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "1\_mai\_2020"
+          href: hr-whats-new-2020-05-01.md
         - name: "13\_avril\_2020"
           href: hr-whats-new-2020-04-13.md
         - name: "3\_avril\_2020"
@@ -503,6 +505,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Suspendre les congés
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Gérer les congés des employés
+              href: hr-leave-and-absence-manage-employee-leave.md
             - name: Afficher l'analyse des congés et des absences
               href: hr-leave-and-absence-analytics.md
             - name: Gérer les demandes de congé et d'absence
