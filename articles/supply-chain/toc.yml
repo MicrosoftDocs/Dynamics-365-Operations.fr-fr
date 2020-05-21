@@ -417,7 +417,7 @@
                   href: asset-management/controlling-and-reporting/work-hour-control.md
                 - name: Contrôle des coûts d'erreur d'actif
                   href: asset-management/controlling-and-reporting/asset-fault-cost-control.md
-                - name: Analyse des erreurs d'actifs
+                - name: Analyse des problèmes d'actifs
                   href: asset-management/controlling-and-reporting/asset-fault-analysis.md
                 - name: Indicateurs de performance clé de l'actif
                   href: asset-management/controlling-and-reporting/asset-kpis.md
@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Statut de maintenance
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Intégration de la gestion des actifs avec Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: Espace de travail mobile pour la gestion des actifs
               href: asset-management/asset-management-mobile-workspace.md
         - name: Gestion des données
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ajout de dimensions financières aux mesures globales
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Créer des états analytiques à l'aide de PowerBI Desktop
+                - name: Créer des états d'analyse à l'aide de Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1135,7 +1137,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Didacticiels
               items:
-                - name: Utiliser des sources de données JOIN pour obtenir des données de plusieurs tables d'application
+                - name: Utiliser des sources de données JOINDRE pour obtenir des données de plusieurs tables d'application
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Vue d'ensemble de l'optimisation de la planification
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Le stock disponible négatif est traité comme disponible nul
+                - name: Planification avec des quantités disponibles négatives
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Mise en route de l'optimisation de la planification
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Paramétrer un processus de réapprovisionnement minimum/maximum
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Paramétrer un modèle de travail pour les commandes fournisseur
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: Installer et configurer l'application d'entreposage
               items:
                 - name: Vue d'ensemble de l'installation et de la configuration
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Configurer des appareils mobiles pour le travail d'entrepôt
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Réception du contenant avec l'application mobile Entrepôt
+                - name: Réception du contenant avec l'application Entrepôt
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Paramétrer une option de menu d'appareil mobile pour terminer le travail d'une commande fournisseur
                   href: warehousing/tasks/set-up-mobile-device-menu.md

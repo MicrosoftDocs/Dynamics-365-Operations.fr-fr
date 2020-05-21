@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 1e68833cc2b4430f66419a67b1cba5f6c8c209f4
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275577"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323621"
 ---
 # <a name="inventory-aging-report-storage"></a>Stockage des états de balance âgée
 
-
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Dans Microsoft Dynamics 365 Supply Chain Management, vous pouvez exécuter un état **Stockage des états de balance âgée** et le mettre à disposition sous la forme d'un formulaire et d'un graphique. Dans le formulaire, des colonnes et des soldes globaux sont ajustés de façon dynamique, selon la disposition configurée. Le graphique offre une vue d'ensemble qui prend en charge les filtres et vous permet de parcourir des informations détaillées. En outre, une entité de données intitulée **État - Balance âgée** vous permet d'exporter les résultats d'un état **Stockage des états de balance âgée** à un format tel qu'un fichier Microsoft Excel ou un fichier PDF.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1cc1040393d843f39ca8c741a7c51435c7169c00
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 05e6ccdce21ccc5f3e83ad860163cccadcea2edc
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211052"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346420"
 ---
 # <a name="subcontracting"></a>Sous-traitance
 
@@ -211,7 +211,7 @@ Un ordre de fabrication de 10 pièces est créé pour le produit D8100, « Ence
 
     ![Deux ensembles de travail pour le prélèvement des matières premières dans la page Travail](./media/subcontract22_work-page.png)
 
-26. Démarrez l'application d'entrepôt pour traiter le travail d'entrepôt pour l'opération 10.
+26. Démarrez l'application d'entreposage pour traiter le travail d'entrepôt pour l'opération 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -229,7 +229,7 @@ Un ordre de fabrication de 10 pièces est créé pour le produit D8100, « Ence
 
     Notez que l'ordre de fabrication a maintenant le statut **Commencé**. Les matières pour l'opération 10 sont consommées par une validation automatique du journal des prélèvements. La consommation de temps pour l'opération 10 est comptabilisée par une validation automatique du journal des fiches productions.
 
-32. Démarrez l'application d'entrepôt pour traiter le travail d'entrepôt pour l'opération 20.
+32. Démarrez l'application d'entreposage pour traiter le travail d'entrepôt pour l'opération 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 

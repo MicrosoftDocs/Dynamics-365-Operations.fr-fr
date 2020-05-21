@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: ERSolutionTable , ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+ms.search.form: ERSolutionTable, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2940d99243ac52ee0d56a1c4423c4f0250f42f57
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: c08e81b6e2983a8f16104698944820e93ba3852d
+ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091770"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331322"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utiliser un chemin d'accès relatif dans les liaisons de données des modèles et des formats ER
 
@@ -29,10 +29,10 @@ ms.locfileid: "3091770"
 
 L'outil de génération d'états électroniques (ER) permet aux utilisateurs de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies à l'aide des données et ses algorithmes existants dans l'application. Pour plus d'informations, voir [Créer des configurations de génération d'états électroniques (ER)](electronic-reporting-configuration.md). Pour spécifier le flux de données pour extraire les données Finance and Operations et l'utiliser pour générer un document électronique, vous devez effectuer les opérations suivantes :
 
-- Lier les sources de données configurées aux éléments du modèle de données conçu pour le domaine. La structure du modèle et les sources de données sélectionnées peuvent faire partie d'une structure hiérarchique complexe. Pour cette raison, les liaisons finales peuvent être assez étendues et contenir de nombreux éléments de différents types (par exemple, des relations, des tables et des méthodes). Les liaisons peuvent devenir moins lisibles et très complexes à examiner et comprendre, en particulier pour les non propriétaires. 
-- Liez les éléments de modèle de données avec des composants de format pour définir les données qui seront renseignées à partir du modèle de données dans la sortie du format généré.
+- Lier les sources de données configurées aux éléments du [modèle de données](general-electronic-reporting.md#data-model-and-model-mapping-components) conçu pour le domaine. La structure du modèle et les sources de données sélectionnées peuvent faire partie d'une structure hiérarchique complexe. Pour cette raison, les liaisons finales peuvent être assez étendues et contenir de nombreux éléments de différents types (par exemple, des relations, des tables et des méthodes). Les liaisons peuvent devenir moins lisibles et très complexes à examiner et comprendre, en particulier pour les non propriétaires. 
+- Liez les éléments de modèle de données avec des composants de [format](general-electronic-reporting.md#FormatComponentOutbound) pour définir les données qui seront renseignées à partir du modèle de données dans la sortie du format généré.
 
-Pour faciliter l'utilisation des concepteurs de mise en correspondance ER, la fonction de chemin d'accès relatif a été introduite. Par défaut, l'option de représentation du chemin d'accès relatif est activée pour toute nouvelle instance de l'application où l'expérience de conception ER est activée (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Nous avons implémenté le paramètre de chemin relatif afin que les utilisateurs puissent continuer à utiliser le chemin d'accès complet avec cette présentation des liaisons ER.
+Pour faciliter l'utilisation des concepteurs de mise en correspondance ER, la fonction de [chemin d'accès relatif](er-formula-language.md#relative-path) a été introduite. Par défaut, l'option de représentation du chemin d'accès relatif est activée pour toute nouvelle instance de l'application où l'expérience de conception ER est activée (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Nous avons implémenté le paramètre de chemin relatif afin que les utilisateurs puissent continuer à utiliser le chemin d'accès complet avec cette présentation des liaisons ER.
 
 [![Paramètres utilisateur](./media/relative-path-01.png)](./media/relative-path-01.png)
 
@@ -54,3 +54,7 @@ Cette fonction n'empêche pas la compatibilité ascendante de la structure ER. T
 
 > [!NOTE]
 > Tous les modifications qui sont introduites par la modification en masse des liaisons des éléments imbriqués dans les mises en correspondance des modèles sont correctement enregistrées dans une configuration delta (un suivi des modifications). Cela permet aux clients de refonder leur version dérivée des mises en correspondance de modèles sur n'importe quelle nouvelle version de base qui a été modifiée à l'aide de cette nouvelle fonction.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+[Langage des formules ER](er-formula-language.md)

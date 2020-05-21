@@ -3,7 +3,7 @@ title: Afficher les remises dans le PDV
 description: Cette rubrique explique comment Microsoft Dynamics 365 Commerce aide les vendeurs à se renseigner sur les promotions et comment les utiliser dans le cadre des mouvements de vente croisée et de vente incitative.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
+ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265578"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334706"
 ---
 # <a name="show-discounts-in-pos"></a>Afficher les remises dans le PDV
 
@@ -54,9 +54,9 @@ Sur la page **Toutes les remises**, les vendeurs peuvent également rechercher d
 
 Les remises multilignes, telles que les remises sur quantité, les remises mix-and-match et les remises seuil, sont un excellent moyen de motiver les clients à acheter plus de produits pour obtenir des remises plus importantes. Par conséquent, elles contribuent également à augmenter la taille du panier d'un client et les revenus du détaillant. Ces remises peuvent être publiées sur les sites Web de commerce électronique, sur les médias sociaux et sur des bannières dans le magasin.
 
-Cependant, même lorsque toutes ces méthodes publicitaires sont utilisées, les clients peuvent rater l'occasion de profiter des promotions. Pour permettre aux vendeurs de savoir quelles promotions sont applicables à une ligne sélectionnée, ou même à l'ensemble du panier, les détaillants peuvent ajouter le bouton de l'opération « Afficher toutes les remises » à n'importe quelle grille de boutons dans le PDV. Nous vous recommandons d'ajouter le bouton à la grille des boutons pour la page **Transaction**. De cette façon, un vendeur peut sélectionner une ligne de transaction, puis le bouton pour afficher toutes les remises disponibles pour la ligne sélectionnée. Le vendeur peut également sélectionner un autre onglet pour afficher les remises qui s'appliquent à l'ensemble de la transaction.
+Cependant, même lorsque toutes ces méthodes publicitaires sont utilisées, les clients peuvent rater l'occasion de profiter des promotions. Pour permettre aux vendeurs de savoir quelles promotions sont applicables à une ligne sélectionnée, ou même à l'ensemble du panier, les détaillants peuvent ajouter le bouton de l'opération « Afficher toutes les remises disponibles » à la grille de boutons dans la page **Transaction**. De cette façon, un vendeur peut sélectionner une ligne de transaction, puis le bouton pour afficher toutes les remises disponibles pour la ligne sélectionnée. Le vendeur peut également sélectionner un autre onglet pour afficher les remises qui s'appliquent à l'ensemble de la transaction.
 
-La page **Toutes les remises** mentionnée précédemment présente uniquement les remises qui n'entrent en concurrence avec aucune des remises appliquées. Ce comportement permet de garantir que, si un vendeur informe un client d'une remise et si le client exécute l'action requise (par exemple, il achète un article supplémentaire pour bénéficier d'une remise de 10 %), la remise est appliquée à la transaction. Comme mentionné précédemment, les remises basées sur les coupons ne sont affichées que si l'option **Appliquer sans code coupon** est activée.
+La page **Toutes les remises** présente uniquement les remises qui n'entrent en concurrence avec aucune des remises appliquées. Ce comportement permet de garantir que, si un vendeur informe un client d'une remise et si le client exécute l'action requise (par exemple, il achète un article supplémentaire pour bénéficier d'une remise de 10 %), la remise est appliquée à la transaction. Les remises basées sur les coupons ne sont affichées que si l'option **Appliquer sans code coupon** est activée.
 
 Dans un scénario simple où toutes les remises ont la même priorité, le mode de simultanéité de la remise est défini sur **Composé** et le contrôle de simultanéité de la remise est défini sur **Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités**, la page **Toutes les remises** affiche toutes les remises disponibles pour un produit, car toutes les remises sont composées et ne sont pas en concurrence les unes avec les autres.
 

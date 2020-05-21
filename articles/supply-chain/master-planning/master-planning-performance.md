@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 01db8a02e57c61daf940e2f459124a857ced68cb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213605"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323644"
 ---
 # <a name="improve-master-planning-performance"></a>Améliorer les performances de planification
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique explique les diverses options vous permettant d'améliorer les performances de la planification ou de résoudre les problèmes. Elle inclut des informations sur les paramètres et sur les configurations et les actions recommandées. Elle contient également un récapitulatif de tous les paramètres importants à prendre en compte lors de la mise en œuvre de planifications à long terme.

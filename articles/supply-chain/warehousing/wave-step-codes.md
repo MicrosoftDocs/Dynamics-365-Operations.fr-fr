@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a5a62c184b229142673981777da026c3f4103dc
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204537"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323575"
 ---
 # <a name="wave-step-codes"></a>Codes étape de vague
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 Les codes étape de vague désignent des codes que les utilisateurs peuvent paramétrer et utiliser pour lier des instances spécifiques de méthodes de vague à un modèle correspondant. Parmi les modèles figurent des modèles pour le réapprovisionnement, la mise en conteneur, l'impression d'étiquettes, la création de chargement et le tri.

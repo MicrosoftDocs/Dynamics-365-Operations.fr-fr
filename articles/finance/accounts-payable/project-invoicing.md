@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
+ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658618"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331370"
 ---
 # <a name="project-invoicing"></a>Facturation de projet
 
@@ -112,6 +112,9 @@ Lorsque vous commandez un article auprès d'un fournisseur et affectez l'article
 
 -   Facturer l'article au client du projet : définissez la propriété de ligne pour l'article sur une valeur facturable sur la commande fournisseur, puis facturez le client par l'intermédiaire de la méthode de facturation du projet correcte.
 -   Ne pas facturer l'article au client du projet : ne sélectionnez pas la propriété de ligne **Facturable** sur la propriété de ligne de la commande fournisseur pour l'article. Vous pouvez alors facturer la commande fournisseur et aucune action supplémentaire n'est requise.
+
+> [!NOTE] 
+> Les lignes de rétention des versions ne sont pas facturables par défaut. Cela signifie que la possibilité de créer une proposition de facture pour la rétention validée n'est pas activée.
 
 ## <a name="credit-notes"></a>Avoirs
 Lorsque le montant d'une facture client est négatif, celle-ci est classée comme avoir Lorsque le document est imprimé, il est doté du titre « Avoir ». 

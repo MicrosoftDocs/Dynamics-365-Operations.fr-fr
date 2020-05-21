@@ -3,7 +3,7 @@ title: Langage de formule dans la gestion des états électroniques
 description: Cette rubrique fournit des informations sur l'utilisation du langage de formule dans les États électroniques (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/18/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
-ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
+ms.openlocfilehash: bb1f026b6a83aa8c1de0dc5088940d7377867a8b
+ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284354"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331345"
 ---
 # <a name="electronic-reporting-formula-language"></a>Langage de formule dans la gestion des états électroniques
 
@@ -129,6 +129,8 @@ L'exemple de l'illustration suivante montre comment un chemin relatif est utilis
 La partie restante du chemin absolu est également indiquée dans l'[Éditeur de formule ER](general-electronic-reporting-formula-designer.md).
 
 ![Partie restante du chemin absolu sur la page du concepteur de formule ER](./media/ER-FormulaLanguage-RelativePath2.png)
+
+Pour plus d'informations, consultez [Utiliser un chemin d'accès relatif dans les liaisons de données des modèles et des formats ER](relative-path-data-bindings-er-models-format.md).
 
 ## <a name=""></a><a name="Functions">Fonctions</a>
 

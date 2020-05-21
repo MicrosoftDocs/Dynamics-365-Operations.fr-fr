@@ -3,7 +3,7 @@ title: Vue d'ensemble
 description: Dans Dynamics 365 Human Resources, l'espace de travail Congés et absences fournit un cadre flexible pour la création de nouveaux plans de congé, de workflows pour la gestion des demandes et une page intuitive en libre-service permettant aux employés de demander des congés.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
-ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
+ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
+ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/04/2020
-ms.locfileid: "3226228"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3325763"
 ---
 # <a name="overview"></a>Vue d'ensemble
 
@@ -78,8 +78,16 @@ Vous ne pouvez pas définir de **Précision d'arrondi** lorsque vous définissez
 
 ## <a name="leave-and-absence-preview-features"></a>Fonctionnalités d'aperçu des congés et absences
 
-Vous pouvez essayer de nouvelles fonctionnalités d'aperçu des congés et des absences dans un environnement de **Bac à sable**. Pour en savoir plus sur l'activation des fonctionnalités d'aperçu, voir [Gestion des fonctionnalités](hr-admin-manage-features.md). Les fonctionnalités d'aperçu incluent :
+Vous pouvez essayer de nouvelles fonctionnalités d'aperçu des congés et des absences dans un environnement de **Bac à sable**. Pour en savoir plus sur l'activation des fonctionnalités d'aperçu, voir [Gestion des fonctionnalités](hr-admin-manage-features.md). 
 
-- **Suspension des congés** - Vous pouvez suspendre les congés et les absences d'un employé dans Human Resources. La suspension des congés arrête les régularisations de congés pour les types de congé sélectionnés. Si la suspension survient après le traitement d'une régularisation, la suspension du congé crée un ajustement au prorata du solde des congés de l'employé. 
+[!include [banner](includes/preview-feature.md)]
+
+Les fonctionnalités d'aperçu incluent :
+
+- **Suspension des congés** - Vous pouvez suspendre les congés et les absences d'un employé dans Human Resources. La suspension des congés arrête les régularisations de congés pour les types de congé sélectionnés. Si la suspension survient après le traitement d'une régularisation, la suspension du congé crée un ajustement au prorata du solde des congés de l'employé. Vous pouvez également inclure des codes de motif lors de la suspension du congé d'un employé. L'expérience utilisateur a été mise à jour pour indiquer la suspension. 
 
 - **Règles de report** - Vous pouvez spécifier un type de congé de report pour les soldes de report dans lesquels les ajustements de report sont transférés. Par exemple, si un employé reporte 10 jours, vous pouvez sélectionner un type de congé différent pour ces 10 jours. 
+
+- **Inclure le code motif et les commentaires pour les ajustements** - Vous pouvez inclure un code motif et un commentaire lors de l'ajustement du solde de congés d'un employé. 
+
+- **Paramètres de transition vers congé et d'absence** - Vous pouvez désormais utiliser uniquement les paramètres Congés et absences au lieu d'utiliser les paramètres Ressources humaines. 

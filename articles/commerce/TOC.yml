@@ -94,12 +94,12 @@
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: "Commerce\_10.0.9 (avril\_2020)"
                       href: get-started/whats-new-10-0-9.md
-                    - name: "Commerce\_10.0.8 (février\_2020)"
-                      href: get-started/whats-new-10-0-8.md
                 - name: Fonctions supprimées ou obsolètes
                   items:
                     - name: Fonctions supprimées ou obsolètes dans Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                    - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
+                      href: get-started/removed-deprecated-features-commerce.md
                 - name: "Fonctions d'AX\_2012 ayant été reportées"
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
                 - name: Fonctions non implémentées dans les déploiements locaux
@@ -644,6 +644,8 @@
                       href: work-with-store-inventory.md
                     - name: Utilisation des articles sérialisés
                       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Utiliser les articles sérialisés dans le PDV
+                      href: pos-serialized-items.md
                     - name: Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Paramétrer les règles et les paramètres pour le cross-docking et le réassort magasin
@@ -1002,11 +1004,11 @@
               href: store-performance-information.md
             - name: 'Paramétrer l''analyse RFM (récence, fréquence et valeur monétaire)'
               href: set-up-rfm-analysis.md
-        - name: Fonctions de localisation et de réglementation
+        - name: Globalisation
           items:
-            - name: Vue d'ensemble de l'intégration fiscale pour le canal commercial
+            - name: Vue d'ensemble de l'intégration fiscale pour le canal Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: Paramétrer l'intégration fiscale pour le canal commercial
+            - name: Paramétrer l'intégration fiscale pour le canal Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Autriche
               items:
@@ -1014,18 +1016,26 @@
                   href: localizations/emea-aut-fi-sample.md
             - name: Europe de l'Est
               items:
-                - name: Factures d'acompte pour Commerce pour l'Europe de l'Est
-                  href: localizations/emea-eeu-advance-invoices-for-retail.md
-                - name: Gestion des fonds de caisse pour Commerce pour l'Europe de l'Est
-                  href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: Factures client et commandes client de retour dans les pays d'Europe de l'Est
-                  href: localizations/emea-eeu-retail-invoices.md
-                - name: 'Instructions de déploiement des caisses enregistreuses pour la République tchèque, la Hongrie et la Pologne'
-                  href: localizations/emea-eeu-deployment.md
-                - name: Exemple d'intégration de l'imprimante fiscale pour la Pologne
-                  href: localizations/emea-pol-fpi-sample.md
-                - name: Exemple d'intégration du service d'enregistrement fiscal pour la République tchèque
-                  href: localizations/emea-cze-fi-sample.md
+                - name: Commune
+                  items:
+                    - name: Factures d'acompte pour Commerce pour l'Europe de l'Est
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: Gestion des fonds de caisse pour Commerce pour l'Europe de l'Est
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: Factures client et commandes client de retour dans les pays d'Europe de l'Est
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: 'Instructions de déploiement des caisses enregistreuses pour la République tchèque, la Hongrie et la Pologne'
+                      href: localizations/emea-eeu-deployment.md
+                - name: République tchèque
+                  items:
+                    - name: Exemple d'intégration du service d'enregistrement fiscal pour la République tchèque
+                      href: localizations/emea-cze-fi-sample.md
+                - name: Pologne
+                  items:
+                    - name: Exemple d'intégration de l'imprimante fiscale pour la Pologne
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: Gestion des informations client pour la Pologne
+                      href: localizations/emea-pol-customer-information.md
             - name: France
               items:
                 - name: Fonctionnalité de la caisse enregistreuse
@@ -1044,6 +1054,8 @@
               items:
                 - name: Exemple d'intégration de l'imprimante fiscale pour l'Italie
                   href: localizations/emea-ita-fpi-sample.md
+                - name: Gestion des informations client pour l'Italie
+                  href: localizations/emea-ita-customer-information.md
             - name: Mexique
               items:
                 - name: Factures électroniques CFDI générales pour le Mexique
@@ -1058,7 +1070,9 @@
               items:
                 - name: Fonctionnalité de la caisse enregistreuse
                   href: localizations/emea-swe-cash-registers.md
-                - name: Exemple pour l'intégration de POS avec des unités de contrôle
+                - name: Exemple d'intégration de l'unité de contrôle pour la Suède
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Exemple pour l'intégration de Retail POS avec des unités de contrôle (héritée)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Génération d'états et intégrations Power BI
           items:
@@ -1138,7 +1152,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Ajout de dimensions financières aux mesures globales
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Créer des états analytiques à l'aide de PowerBI Desktop
+                - name: Créer des états d'analyse à l'aide de Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1570,7 +1584,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
             - name: Didacticiels
               items:
-                - name: Utiliser des sources de données JOIN pour obtenir des données de plusieurs tables d'application
+                - name: Utiliser des sources de données JOINDRE pour obtenir des données de plusieurs tables d'application
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
