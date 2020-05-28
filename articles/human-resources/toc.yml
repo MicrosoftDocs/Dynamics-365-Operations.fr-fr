@@ -5,15 +5,17 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
-        - name: "1\_mai\_2020"
+        - name: "14\_mai\_2020"
+          href: hr-whats-new-2020-05-14.md
+        - name: "1er\_mai\_2020"
           href: hr-whats-new-2020-05-01.md
         - name: "13\_avril\_2020"
           href: hr-whats-new-2020-04-13.md
         - name: "3\_avril\_2020"
           href: hr-whats-new-2020-04-03.md
-        - name: "24\_mars\_2020"
+        - name: 24 mars 2020
           href: hr-whats-new-2020-03-24.md
-        - name: "19\_mars\_2020"
+        - name: 19 mars 2020
           href: hr-whats-new-2020-03-19.md
         - name: "10\_mars\_2020"
           href: hr-whats-new-2020-03-10.md
@@ -111,14 +113,16 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: Comprendre Lifecycle Services
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Application Human Resources de Teams
+          href: hr-admin-teams-leave-app.md
         - name: Ressources documentaires
           items:
             - name: Système d'aide
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Connexion au système d'aide
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Connexion à un site d'aide personnalisé
-              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Vue d'ensemble de l'aide personnalisée
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Afficher et exporter les descriptions de champ
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: Enregistreur de tâches
@@ -341,7 +345,7 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
             - name: Configurer la gestion des documents
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
-            - name: Configuration et envoi d'e-mail
+            - name: Configurer et envoyer un e-mail
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
             - name: Données de date/d'heure et fuseaux horaires
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
@@ -515,6 +519,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Afficher les calendriers des équipes et de la société
               href: hr-employee-self-service-calendar.md
+        - name: Gérer les demandes de congé dans Teams
+          href: hr-teams-leave-app.md
         - name: Développer les employés
           items:
             - name: Vue d'ensemble de la gestion des performances

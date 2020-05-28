@@ -4,7 +4,7 @@
       items:
         - name: Page d'accueil de Dynamics 365 Finance
           href: index.md
-        - name: Mise en route
+        - name: Prise en main
           items:
             - name: Avant d'acheter
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Connexion au système d'aide
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: Connexion à un site d'aide personnalisé
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: Vue d'ensemble de l'aide personnalisée
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Afficher et exporter les descriptions de champ
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Enregistreur de tâches
@@ -726,7 +726,7 @@
               href: fixed-assets/acquire-assets-procurement.md
             - name: Paramétrage et intégration
               items:
-                - name: Paramétrage d'immobilisations
+                - name: Paramétrage des immobilisations
                   href: fixed-assets/set-up-fixed-assets.md
                 - name: Paramétrage de profils de validation d'immobilisation
                   href: fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
@@ -1736,6 +1736,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Transmission électronique de la déclaration de TVA (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Déclaration de TVA pour l'Allemagne
+                  href: localizations/emea-de-vat-declaration.md
                 - name: Liste des journaux (état)
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Paramétrer les déclarations de taxe électronique
@@ -2144,7 +2146,7 @@
                   href: localizations/tasks/propose-special-depreciation.md
                 - name: Rouvrir et modifier une facture consolidée client
                   href: localizations/tasks/reopen-edit-customer-consolidated-invoice.md
-                - name: Réouvrir et modifier une facture consolidée fournisseur
+                - name: Rouvrir et modifier une facture consolidée fournisseur
                   href: localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
                 - name: Contrepasser une lettre de change approuvée
                   href: localizations/tasks/reverse-endorsed-bill-exchange.md
@@ -2398,6 +2400,8 @@
                       href: localizations/rus-prepayments-management.md
                     - name: Restauration de la TVA entrante
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: Traiter des factures pour le commerce d'exportation
+                      href: localizations/rus-export-trade.md
                 - name: Immobilisations
                   items:
                     - name: Vue d'ensemble des immobilisations
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: États du stock
                       href: localizations/rus-inventory-reports.md
+                    - name: Vue d'ensemble du profil des stocks
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: Configurer un profil de stock
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: Utiliser un profil de stock dans les documents et les requêtes
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Génération d'états
                   items:
                     - name: États financiers
@@ -3242,40 +3252,46 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: "Texte\_: Text"
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations de gestion des états électroniques distinctes
+            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations ER distinctes
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Sélectionner des définitions de modèle de données lorsque vous créez des formats
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Créer des formats de gestion des états électroniques pour générer des documents électroniques sortants sous différents formats
               items:
-                - name: (Gestion des états électroniques) Concevoir une configuration pour générer des états au format OPENXML
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: (Gestion des états électroniques) Créer des configurations pour générer des états au format Word
+                - name: Créer des configurations pour générer des documents sortants au format Excel
+                  items:
+                    - name: Créer une configuration pour générer des documents au format Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: Exemple de génération d'états au format OPENXML
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Modifier des formats ER en réappliquant des modèles Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Ajouter dynamiquement des colonnes aux rapports Excel en tant que plages extensibles horizontalement
+                      items:
+                        - name: Concevoir des formats pour ajouter dynamiquement des colonnes aux rapports Excel
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Exécuter des formats pour ajouter dynamiquement des colonnes aux rapports Excel
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: Créer des configurations pour générer des états au format Word
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Concevoir des configurations pour renseigner des modèles PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: Inclure des images et des formes
-              items:
-                - name: (Gestion des états électroniques) Intégrer des images et des formes dans les documents que vous générez
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: Exemple d'intégration d'images et de formes
+                - name: Inclure des images et des formes
                   items:
-                    - name: Concevoir des configurations pour générer des états aux formats Office avec des images intégrées
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: Passer en revue des configurations pour générer des états aux formats Office avec des images intégrées
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Générer des états aux formats Office avec des images intégrées
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Modifier des formats de gestion des états électroniques en réappliquant des modèles Excel
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
-            - name: Définir la dépendance des configurations de gestion des états électroniques sur d'autres composants
+                    - name: (Gestion des états électroniques) Intégrer des images et des formes dans les documents que vous générez
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: Exemple d'intégration d'images et de formes
+                      items:
+                        - name: Concevoir des configurations pour générer des états aux formats Office avec des images intégrées
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: Passer en revue des configurations pour générer des états aux formats Office avec des images intégrées
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Générer des états aux formats Office avec des images intégrées
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Fractionner les fichiers XML générés selon la taille et la quantité de contenu
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
+            - name: Définir la dépendance des configurations ER sur d'autres composants
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Ajouter dynamiquement des colonnes aux rapports Excel en tant que plages extensibles horizontalement
-              items:
-                - name: Créer des formats pour ajouter dynamiquement des colonnes aux rapports Excel tant que plages extensibles horizontalement
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: Exécuter des formats pour ajouter dynamiquement des colonnes aux rapports Excel tant que plages extensibles horizontalement
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: Mettre à jour les données d'application à l'aide de la gestion des états électroniques
               items:
                 - name: Générer des documents électroniques et mettre à jour les données d'application
@@ -3306,11 +3322,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: Configurer les formats de gestion des états électroniques pour importer les fichiers au format XL avec des attributs facultatifs
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: Fractionner les fichiers XML générés selon la taille et la quantité de contenu
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Cycle de vie de configuration
               items:
-                - name: Gérer le cycle de vie de configuration
+                - name: Gérer le cycle de vie des configurations
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
                 - name: Charger des configurations dans Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
@@ -3322,17 +3336,21 @@
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Options de filtrage améliorées pour trouver des configurations dans le référentiel global
                   href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                - name: Télécharger les configurations de gestion des états électroniques depuis le référentiel RCS
+                - name: Télécharger les configurations ER depuis le référentiel RCS
                   items:
                     - name: Télécharger les configurations depuis le référentiel de gestion des états électroniques pour le type RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Importer les configurations depuis RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Créer des configurations ER dans RCS et les charger dans le référentiel global
+                  href: localizations/rcs-global-repo-upload.md
+                - name: Partager des configurations ER dans RCS avec des organisations externes
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: Didacticiels
               items:
                 - name: Apprendre à utiliser les sources de données
                   items:
-                    - name: Utilisez JOINDRE pour obtenir des données de plusieurs tables
+                    - name: Utilisez JOINTURE pour obtenir des données de plusieurs tables
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Utiliser XML brut pour ajouter du contenu
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
@@ -3508,7 +3526,7 @@
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json
             - name: Personnaliser le menu Ouvrir dans Microsoft Office
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/finance/toc.json
-            - name: Configuration et envoi d'e-mail
+            - name: Configurer et envoyer un e-mail
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/finance/toc.json
             - name: Développer les expériences d'e-mail
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/finance/toc.json
@@ -3646,7 +3664,7 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/finance/toc.json
             - name: Configurer la gestion des documents
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/finance/toc.json
-            - name: Configuration et envoi d'e-mail
+            - name: Configurer et envoyer un e-mail
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/finance/toc.json
             - name: Données de date/d'heure et fuseaux horaires
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/finance/toc.json
