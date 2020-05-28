@@ -2,9 +2,9 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Page d'accueil de Dynamics 365 Commerce
           href: index.md
-        - name: Mise en route
+        - name: Prise en main
           items:
             - name: Avant d'acheter
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
@@ -79,7 +79,7 @@
                 - name: 'Installation, configuration et basculement du déploiement échelonné (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: Mettre à niveau l'extension du canal Retail sur le dernier Kit de développement logiciel (SDK) Retail
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Nouveautés ou modifications
               items:
                 - name: Nouveautés ou modifications dans les applications Finance and Operations
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Connexion au système d'aide
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Connexion à un site d'aide personnalisé
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Vue d'ensemble de l'aide personnalisée
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Afficher et exporter les descriptions de champ
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Enregistreur de tâches
@@ -498,8 +498,10 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Connecteur de paiement Adyen
                       href: dev-itpro/adyen-connector.md
-                    - name: Enregistrement des instruments de paiement en ligne avec le connecteur Adyen
-                      href: dev-itpro/adyen-connector-listpi.md
+                    - name: Enregistrement des instruments de paiement en ligne avec le Connecteur Adyen
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: Authentification rigoureuse des clients (SCA) à l'aide du Connecteur Adyen
+                      href: adyen_redirect.md
                     - name: Basculement hors ligne transparent pour les opérations de cartes cadeaux et d'avoirs
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Paramétrer des scénarios de règlement de facture
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: FAQ Paiements
                       href: dev-itpro/payments-retail.md
+                - name: Gérer les Bing Cartes pour votre organisation
+                  href: dev-itpro/manage-bing-maps.md
         - name: Promotion de vos produits et services
           items:
             - name: 'Catégories, produits et assortiments'
@@ -820,10 +824,12 @@
                   href: authoring-home-overview.md
                 - name: Gestion des utilisateurs et des rôles
                   href: manage-ecommerce-users-roles.md
-                - name: Considérations relatives à l'optimisation de moteur de recherche (SEO) pour le site
+                - name: Considérations relatives à l'optimisation du référencement d'un site auprès d'un moteur de recherche (SEO) pour le site
                   href: search-engine-optimization-considerations.md
                 - name: Gérer la stratégie de sécurité de contenu (CSP)
                   href: manage-csp.md
+                - name: Refuser les événements liés à l'activité sur le Web
+                  href: web-activity-opt-out.md
             - name: Gérer le contenu de votre site
               items:
                 - name: Manières d'ajouter du contenu
@@ -1458,7 +1464,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
                         - name: "Texte\_: Text"
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
-            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations de gestion des états électroniques distinctes
+            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations ER distinctes
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
             - name: Sélectionner des définitions de modèle de données lorsque vous créez des formats
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1490,7 +1496,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
             - name: Modifier des formats de gestion des états électroniques en réappliquant des modèles Excel
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
-            - name: Définir la dépendance des configurations de gestion des états électroniques sur d'autres composants
+            - name: Définir la dépendance des configurations ER sur d'autres composants
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
             - name: Concevoir une solution de gestion des états électroniques pour utiliser les dimensions financières
               items:
@@ -1576,7 +1582,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                 - name: Importer des configurations
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Télécharger les configurations de gestion des états électroniques depuis le référentiel RCS
+                - name: Télécharger les configurations ER depuis le référentiel RCS
                   items:
                     - name: Télécharger les configurations depuis le référentiel de gestion des états électroniques pour le type RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
@@ -1584,7 +1590,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
             - name: Didacticiels
               items:
-                - name: Utiliser des sources de données JOINDRE pour obtenir des données de plusieurs tables d'application
+                - name: Utiliser des sources de données JOINTURE pour obtenir des données de plusieurs tables d'application
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
@@ -1712,8 +1718,10 @@
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
             - name: Personnaliser le menu Ouvrir dans Microsoft Office
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
-            - name: Configuration et envoi d'e-mail
+            - name: Configurer et envoyer un e-mail
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: Créer des modèles de messages électroniques pour les événements transactionnels
+              href: email-templates-transactions.md
             - name: Développer les expériences d'e-mail
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: "Résoudre les problèmes d'intégration\_d'Office"
@@ -1850,7 +1858,7 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/commerce/toc.json
             - name: Configurer la gestion des documents
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/commerce/toc.json
-            - name: Configuration et envoi d'e-mail
+            - name: Configurer et envoyer un e-mail
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
             - name: Données de date/d'heure et fuseaux horaires
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
@@ -1862,7 +1870,7 @@
               items:
                 - name: Vue d'ensemble de l'extensibilité des canaux en ligne
                   href: e-commerce-extensibility/overview.md
-                - name: Mise en route
+                - name: Prise en main
                   items:
                     - name: Configuration requise
                       href: e-commerce-extensibility/system-requirements.md
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: Colonnes pré-étendues dans la base de données des canaux
                   href: dev-itpro/extended-columns.md
+                - name: Étendre Commerce Data Exchange - Service en temps réel
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Extensibilité du connecteur de paiement
               items:
                 - name: Créer une intégration du paiement pour un terminal de paiement
