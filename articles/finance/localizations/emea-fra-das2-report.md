@@ -3,7 +3,7 @@ title: État DAS-2
 description: Cette rubrique décrit le processus de génération du fichier d'audit standard pour la France (FEC) dans Microsoft Dynamics 365 Finance.
 author: sndray
 manager: AnnBe
-ms.date: 03/16/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 109527612407fc6854d90ce1cf01ef2e2dab516a
-ms.sourcegitcommit: e543350faaa3ff1217d21c8fd50cf90110df3ef2
+ms.openlocfilehash: fba600d6acb169a7c563598e37b4534c6c9aca31
+ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "3137684"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334696"
 ---
 # <a name="das-2-report"></a>État DAS-2
 
@@ -67,16 +67,17 @@ La ligne 1 inclut la configuration avec la classification **ZZ**. Elle est util
 > [!NOTE]
 > Créez la même configuration pour la page DAS-2.
 
-## <a name="assign-a-tax-registration-id-to-a-vendor-record"></a>Attribuer un ID d'enregistrement fiscal à un enregistrement fournisseur
 
-Étant donné que l'état inclut l'enregistrement SIRET (Système d'identification du répertoire des établissements), l'ID d'enregistrement fiscal qui représente le SIRET utilise la catégorie d'enregistrement **ID de TVA**. Suivez ces étapes pour ajouter un ID d'enregistrement de taxe à un enregistrement fournisseur.
+## <a name="vendor-configuration"></a>Configuration du fournisseur
 
-1. Accédez à **Administration d'organisation** \> **Carnet d'adresses global** \> **Types d'enregistrement** \> **Types d'enregistrement** et créez le type d'enregistrement **SIRET**.
-2. Accédez à **Administration d'organisation** \> **Carnet d'adresses global** \> **Types d'enregistrement** \> **Catégories d'enregistrement** pour attribuer le type d'enregistrement **SIRET** à la catégorie **ID de TVA**.
-3. Accédez à **Comptabilité fournisseur** \> **Fournisseurs** \> **Tous les fournisseurs**.
-4. Recherchez et ouvrez l'enregistrement du fournisseur pour lequel vous souhaitez saisir l'ID d'enregistrement.
-5. Sur la page **Fournisseur**, sélectionnez **ID d'enregistrement** pour ouvrir la page **Gérer les adresses**.
-6. Sur l'onglet **Inscription fiscale**, sélectionnez **Ajouter**, puis, dans le champ **ID d'enregistrement**, sélectionnez **SIRET**.
+Étant donné que l'état inclut l'enregistrement SIRET (Système d'identification du répertoire des établissements), procédez comme suit pour ajouter les informations associées.
+
+1. Accédez à **Comptabilité fournisseur > Fournisseurs > Tous les fournisseurs**.
+2. Cliquez sur l'enregistrement fournisseur à mettre à jour.
+3. Développez la section **Démographie des achats**.
+4. Sélectionnez **Modifier**.
+5. Tapez une valeur dans le champ **N° de Siret**.
+6. Dans le champ **Activité**, saisissez une valeur pour identifier la profession.
 
 ## <a name="generate-the-das-2-report"></a>Générer l'état DAS-2
 

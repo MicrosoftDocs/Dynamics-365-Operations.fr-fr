@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6a29dce877a53d125c5a151da6cfbb13d46b29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0d157470527a986ea1c9fe0a9a02e2ba6ee8819e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201592"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382996"
 ---
 # <a name="set-up-shipping-carriers"></a>Paramétrer des transporteurs
 
@@ -32,7 +32,7 @@ Cette rubrique décrit comment paramétrer un transporteur et définir des déta
 
 ## <a name="create-a-new-shipping-carrier"></a>Créer un transporteur
 1. Accédez à **Volet de navigation > Modules > Gestion du transport > Paramétrage > Transporteurs > Transporteurs**.
-2. Dans le volet Actions, sélectionnez **Nouveau**.
+2. Sélectionnez **Nouveau** dans le volet Actions.
 3. Dans le champ **Transporteur**, saisissez une valeur.
 4. Tapez une valeur dans le champ **Nom**.
 5. Dans le champ **Mode**, sélectionnez une option dans le menu déroulant.

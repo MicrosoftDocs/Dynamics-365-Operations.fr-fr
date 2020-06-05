@@ -3,7 +3,7 @@ title: Calculer la disponibilité du stock pour les canaux de vente au détail
 description: Cette rubrique décrit les options disponibles pour afficher le stock disponible pour les canaux en magasin et en ligne.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113918"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379234"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calculer la disponibilité du stock pour les canaux de vente au détail
 
@@ -50,12 +50,7 @@ Les deux API extraient des données du serveur Commerce et donnent une estimatio
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Se familiariser avec la disponibilité calculée du stock de commerce électronique
 
-Avant d'utiliser les deux API mentionnées précédemment, vous devez modifier un paramètre dans Commerce Headquarters pour vous assurer que l'instantané des valeurs de stock calculées par Commerce Headquarters à l'aide de la tâche **Disponibilité du produit** saisit des données dans les tables correctes.
-
-Pour définir le paramètre, procédez comme suit.
-
-1. Accédez à **Commerce et vente au détail \> Configuration du Siège \> Paramètres \> Paramètres commerciaux partagés**.
-1. Sous l'onglet **Stock**, dans la section **Tâche Disponibilité du produit**, sélectionnez **Utiliser le processus optimisé pour la tâche Disponibilité du produit**. Ce paramètre garantit que l'ensemble optimal de fonctionnalités est utilisé pour calculer le stock disponible du canal par le biais du serveur Commerce.
+Avant d'utiliser les deux API mentionnées précédemment, vous devez activer la fonctionnalité **Calcul de la disponibilité des produits optimisée** via l'espace de travail **Gestion des fonctionnalités** de Commerce Headquarters.
 
 Avant que les API puissent calculer la meilleure estimation de la disponibilité du stock d'un article, un instantané périodique de la disponibilité du stock dans Commerce Headquarters doit être traité et envoyé à la base de données du canal utilisée par le Commerce Scale Unit de commerce électronique. L'instantané représente les informations dont Commerce Headquarters dispose sur la disponibilité du stock pour une combinaison spécifique d'un produit ou d'une variante de produit et d'un entrepôt. Il peut s'agir d'ajustements ou de mouvements de stock causés par des réceptions de stock ou par des expéditions ou d'autres processus exécutés dans Commerce Headquarters et pour lesquels le canal de commerce électronique détient des informations uniquement à cause du processus de synchronisation.
 
@@ -85,20 +80,15 @@ Lorsque le calcul côté canal est correctement configuré et géré, il peut fo
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Se familiariser avec la disponibilité calculée du stock côté canal PDV
 
-Pour utiliser la logique de calcul côté canal et désactiver les appels de service en temps réel pour les recherches de stock à partir de l'application PDV, vous devez d'abord modifier deux paramètres. Vous devez ensuite synchroniser les modifications apportées au canal par le biais du processus de planification de la distribution.
+Pour utiliser la logique de calcul côté canal et désactiver les appels de service en temps réel pour les recherches d'inventaire à partir de l'application PDC, vous devez d'abord activer la fonctionnalité **Calcul de la disponibilité des produits optimisée** via l'espace de travail **Gestion des fonctionnalités** de Commerce Headquarters. Outre l'activation de la fonctionnalité, vous devez apporter des modifications au **Profil de la fonctionnalité**.
 
-Pour définir le premier paramètre, procédez comme suit.
-
-1. Accédez à **Commerce et vente au détail \> Configuration du Siège \> Paramètres \> Paramètres commerciaux partagés**.
-1. Sous l'onglet **Stock**, dans la section **Tâche Disponibilité du produit**, sélectionnez **Utiliser le processus optimisé pour la tâche Disponibilité du produit**. Ce paramètre garantit que l'ensemble optimal de fonctionnalités est utilisé pour calculer le stock disponible du canal par le biais du serveur Commerce.
-
-Pour définir le deuxième paramètre, procédez comme suit.
+Pour modifier le **Profil de la fonctionnalité**, procédez comme suit :
 
 1. Accédez à **Retail et Commerce \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils de fonctionnalité**.
 1. Sélectionnez un profil de fonctionnalité.
 1. Dans le raccourci **Fonctions**, dans la section **Calcul de la disponibilité du stock**, modifiez la valeur du champ **Mode de calcul de la disponibilité du stock** de **Service en temps réel** à **Canal**. Par défaut, tous les profils de fonctionnalité utilisent les appels de service en temps réel. Par conséquent, vous devez modifier la valeur de ce champ si vous souhaitez utiliser la logique de calcul côté canal. Chaque magasin de vente au détail lié au profil de fonctionnalité sélectionné sera affecté par cette modification.
 
-Pour mettre à jour les serveurs, procédez comme suit.
+Vous devez ensuite synchroniser les modifications apportées au canal via le processus de planification de distribution en procédant comme suit :
 
 1. Accédez à **Commerce et vente au détail \> Informatique Commerce et vente au détail \> Programme de distribution**.
 1. Exécutez la tâche **1070** (**Configuration du canal**).

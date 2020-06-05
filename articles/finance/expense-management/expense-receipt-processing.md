@@ -3,7 +3,7 @@ title: Traitement des reçus de dépenses
 description: Cette rubrique fournit des informations sur le traitement de reconnaissance optique de caractères (OCR) pour les reçus. Cette fonctionnalité est conçue pour améliorer l'expérience utilisateur lors de la création de notes de frais dans Microsoft Dynamics 365 Finance.
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248961"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378229"
 ---
 # <a name="expense-receipt-processing"></a>Traitement des accusés de réception de dépenses
 
@@ -36,24 +36,24 @@ La saisie des dépenses a été améliorée grâce à l'introduction du traiteme
 
 ## <a name="usage-examples"></a>Exemples d'utilisation
 
-- **Joignez automatiquement des reçus qui incluent des transactions par carte de crédit lors de la création d'un rapport de dépenses.**
+Pour joindre automatiquement des reçus qui incluent des transactions par carte de crédit lors de la création d'un rapport de dépenses, procédez comme suit :
 
-    1. Ouvrez l'espace de travail **Gestion des dépenses**.
-    2. Sur l'onglet **Reçus**, vérifiez que des reçus non associés existent. Vous pouvez également télécharger des reçus sur l'onglet **Reçus**.
-    3. Sur l'onglet **Dépenses**, vérifiez que des dépenses non associées existent. En règle générale, l'administrateur des dépenses importe ces dépenses depuis le fournisseur de carte de crédit.
-    4. Sélectionnez **Nouvel état de dépenses**. Notez que vous pouvez désormais inclure des dépenses et des reçus lorsque vous créez un rapport de dépenses. Si vous ajoutez des dépenses et des reçus, l'appariement automatique des reçus avec les dépenses est déclenché.
+  1. Ouvrez l'espace de travail **Gestion des dépenses**.
+  2. Sur l'onglet **Reçus**, vérifiez que des reçus non associés existent. Vous pouvez également télécharger des reçus sur l'onglet **Reçus**.
+  3. Sur l'onglet **Dépenses**, vérifiez que des dépenses non associées existent. En règle générale, l'administrateur des dépenses importe ces dépenses depuis le fournisseur de carte de crédit.
+  4. Sélectionnez **Nouvel état de dépenses**. Notez que vous pouvez désormais inclure des dépenses et des reçus lorsque vous créez un rapport de dépenses. Si vous ajoutez des dépenses et des reçus, l'appariement automatique des reçus avec les dépenses est déclenché.
 
-- **Créez une dépense ou faites correspondre une dépense à partir d'un reçu.**
+Pour créer une dépense ou faire correspondre une dépense à partir d'un reçu, procédez comme suit :
 
-    1. Sur un rapport de dépenses, sur l'onglet **Reçus**, joignez un reçu en sélectionnant **Ajouter des reçus**.
-    2. Sous l'image téléchargée du reçu, notez les options **Créer**et **Correspondance**.
+  1. Sur un rapport de dépenses, sur l'onglet **Reçus**, joignez un reçu en sélectionnant **Ajouter des reçus**.
+  2. Sous l'image téléchargée du reçu, notez les options **Créer**et **Correspondance**.
 
-        - Sélectionnez **Créer** pour créer une transaction de dépenses saisie manuellement et remplir les valeurs extraites du reçu.
-        - Si vous sélectionnez **Correspondance**, le système essaie de faire correspondre une dépense existante au reçu.
+      - Sélectionnez **Créer** pour créer une transaction de dépenses saisie manuellement et remplir les valeurs extraites du reçu.
+      - Si vous sélectionnez **Correspondance**, le système essaie de faire correspondre une dépense existante au reçu.
 
 ## <a name="installation"></a>Installation
 
-Cette fonctionnalité fonctionne en combinaison avec la fonctionnalité **États de dépenses repensés** pour simplifier l'expérience des dépenses.
+Cette fonctionnalité fonctionne en combinaison avec la fonctionnalité **États de dépenses repensés** pour simplifier l'expérience des dépenses. Cette fonctionnalité n'est disponible que pour les environnements de niveau 2+, qui sont Sandbox et Production.
 
 Pour utiliser ces capacités de dépenses avancées, installez le complément Expense Management Service pour Microsoft Dynamics 365 Finance et activez les fonctionnalités dans votre instance. Vous pouvez accéder au complément à partir de votre projet dans Microsoft Dynamics Lifecycle Services (LCS).
 

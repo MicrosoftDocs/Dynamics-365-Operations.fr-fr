@@ -3,7 +3,7 @@ title: Annuler une tâche de planification
 description: Cette rubrique explique comment annuler une tâche active de planification qui utilise la fonctionnalité de planification intégrée.
 author: ChristianRytt
 manager: tfehr
-ms.date: 01/10/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 08dd612d9fb01ba2db6d4fcc7db9507a41a4b29f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1e38b1bb84414dde603dbf5bcda0e8253a12e40b
+ms.sourcegitcommit: 78a1aa37f9a1565135b139e36501b759e7b2f849
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203915"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "3374794"
 ---
 # <a name="cancel-a-master-planning-job"></a>Annuler une tâche de planification
 
@@ -51,4 +51,5 @@ Celles-ci ne doivent être utilisées que si l'annulation du travail de planific
 2. Si l'ID de tâche n'apparaît pas dans la liste, cliquez sur **Basculer vers le formulaire amélioré**, sinon passez à l'étape suivante.
 3. Ouvrez le traitement par lots. Cliquez sur l'**ID de tâche** du traitement par lots avec les tâches à terminer.
 4. Dans **Tâches des traitements par lots**, sélectionnez les tâches à terminer.
-5. Sur l'organisateur **Tâches des traitements par lots**, cliquez sur **Abandonner**.
+5. Cliquez sur **Modifier le statut**, choisissez **Annulation** et cliquez sur **OK**.
+6. Sur l'organisateur **Tâches des traitements par lots**, cliquez sur **Abandonner**.

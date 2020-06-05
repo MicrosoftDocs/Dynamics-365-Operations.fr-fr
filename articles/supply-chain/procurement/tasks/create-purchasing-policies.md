@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e13a9a594e8c4041a586734df53321d57b43586
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d4ba2a23f84972391283eaf01cef70a161c75226
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204791"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383165"
 ---
 # <a name="create-purchasing-policies"></a>Créer des politiques d'achat
 
@@ -32,7 +32,7 @@ Cette rubrique vous montre comment créer des stratégies d'achat pour les align
 
 ## <a name="set-up-policy-parameters"></a>Définition des paramètres de stratégie
 1. Dans le volet de navigation, accédez à **Modules > Approvisionnements > Paramétrage > Stratégies > Stratégies d'achat**.
-2. Dans le volet Actions, sélectionnez **Paramètres**.
+2. Sélectionnez **Paramètres** dans le volet Actions.
 - Les règles de priorité de la stratégie s'appliquent à différents niveaux de votre organisation. Les unités organisationnelles qui sont affichées dépendent de votre hiérarchie organisationnelle, et des niveaux de la hiérarchie auxquels le but du contrôle interne de fourniture a été affecté. Par exemple, votre organisation peut avoir des entités juridiques, des centres de coût, des régions et des départements mais il se peut que seulement certains d'entre eux aient un objectif hiérarchique de contrôle interne de l'approvisionnement. L'organisation du type Société est disponible par défaut.  
 3. Sélectionnez l'onglet **Paramètres de type de règle de stratégie**.
 4. Dans l'arborescence, sélectionnez **Politique d'achat > Règle de contrôle de demande d'achat**.

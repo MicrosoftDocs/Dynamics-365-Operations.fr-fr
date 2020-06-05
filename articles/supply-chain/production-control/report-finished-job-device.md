@@ -19,22 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: f5863202facc83afb91b380ba5666334783ccbcf
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 74e1e30f5afe51cd0ecec2530ffcb9a59eec5fee
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211167"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367243"
 ---
-[!include [banner](../includes/banner.md)]
+# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a>Déclarer comme terminé à un emplacement qui ne fait pas l'objet d'un contrôle de contenant depuis le périphérique pour le bon de travail
 
-# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a>Déclarer comme terminé à un emplacement qui ne fait pas l'objet d'un contrôle de contenant depuis le périphérique pour le bon de travail 
+[!include [banner](../includes/banner.md)]
 
 Le processus nommé Déclaration de fin complète des produits finis sur un ordre de fabrication au stock. Si le produit fini est activé pour les processus avancés d'entrepôt, le produit est déclaré comme fini à un emplacement appelé l'emplacement de sortie de production. Pour plus d'informations sur le paramétrage de l'emplacement de sortie de production, voir [Emplacement de sortie de production](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).
 
-Si l'emplacement de sortie de production est contrôlé par le contenant, un contenant doit être fourni lors du signalement comme terminé. Le champ **Contenant** est visible sous l'invite **Saisie de l'avancement** sur la page **Périphérique des bons de travail**. Le champ n'est visible que sur l'invite **Signaler les progrès** lorsque vous créez un rapport sur la dernière opération de l'ordre de fabrication et que l'article de l'ordre de fabrication est activé pour les processus de gestion de l'entrepôt. 
+Si l'emplacement de sortie de production est contrôlé par le contenant, un contenant doit être fourni lors du signalement comme terminé. Le champ **Contenant** est visible sous l'invite **Saisie de l'avancement** sur la page **Périphérique des bons de travail**. Le champ n'est visible que sur l'invite **Signaler les progrès** lorsque vous créez un rapport sur la dernière opération de l'ordre de fabrication et que l'article de l'ordre de fabrication est activé pour les processus de gestion de l'entrepôt.
 
-Il existe deux options pour fournir le contenant
+Il existe deux options pour fournir le contenant :
+
 - L'utilisateur sélectionne un contenant existant dans le champ de contenant.
 - Le contenant est automatiquement généré à partir d'une souche de numéros et par défaut dans le champ du contenant.
 

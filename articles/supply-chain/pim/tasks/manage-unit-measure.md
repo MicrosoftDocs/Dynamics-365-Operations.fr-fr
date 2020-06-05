@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7f7e2220a8eca9f9bf45216491f606ef0a2eb18
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: abc02c73ae36975fa4872d638fe53cbf0379d15d
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203533"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383663"
 ---
 # <a name="manage-unit-of-measure"></a>Gérer l'unité de mesure
 
@@ -41,13 +41,13 @@ Cette procédure décrit comment définir une unité de mesure, fournir des trad
 6. Cliquez sur **Enregistrer**.
 
 ## <a name="define-unit-translations"></a>Définir des traductions d'unité
-1. Dans le **Volet Action**, cliquez sur **Textes d'unité**.
+1. Dans le volet **Actions**, cliquez sur **Textes d'unité**.
 2. Cliquez sur **Nouveau**. Utilisez le texte d'unité pour créer une traduction de l'ID ou d'un symbole représentant l'unité de mesure à utiliser sur des documents externes dans les langues du client ou spécifiques au fournisseur.  
 3. Dans le champ **Langue**, saisissez ou sélectionnez une valeur.
 4. Tapez une valeur dans le champ **Texte**.
 5. Cliquez sur **Enregistrer**.
 6. Fermez la page.
-7. Dans le **Volet Action**, cliquez sur **Descriptions de l'unité traduite**.
+7. Dans le volet **Actions**, cliquez sur **Descriptions de l'unité traduite**.
 8. Cliquez sur **Nouveau**. Définissez des descriptions spécifiques à une langue pour l'unité de mesure.  
 9. Dans le champ **Langue**, saisissez ou sélectionnez une valeur.
 10. Tapez une valeur dans le champ **Description**.
@@ -55,7 +55,7 @@ Cette procédure décrit comment définir une unité de mesure, fournir des trad
 12. Fermez la page.
 
 ## <a name="define-unit-conversion-rules"></a>Définir des règles de conversion d'unités
-1. Dans le **Volet Action**, cliquez sur **Conversion d'unités**. Définissez les règles pour convertir l'unité de mesure vers et depuis d'autres unités de mesure appartenant à la classe d'unités sélectionnée.  
+1. Dans le volet **Actions**, cliquez sur **Conversion d'unités**. Définissez les règles pour convertir l'unité de mesure vers et depuis d'autres unités de mesure appartenant à la classe d'unités sélectionnée.  
 2. Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
 3. Dans le champ **Facteur**, entrez un nombre. Facteur de conversion entre l'Unité d'origine et l'Unité de destination. Par exemple, le facteur de conversion du centimètre vers le mètre est 100, car il y a 100 centimètres dans 1 mètre.  
 4. Dans le champ **Unité de destination**, saisissez ou sélectionnez une valeur.

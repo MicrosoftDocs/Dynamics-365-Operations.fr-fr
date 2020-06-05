@@ -1,9 +1,9 @@
 ---
 title: Définir les stratégies de dépenses
 description: Vous pouvez définir des stratégies de dépenses que vos travailleurs sont tenus de suivre lorsqu'ils entrent et soumettent des états de dépenses et des demandes de voyage dans Microsoft Dynamics 365 Finance.
-author: ryansandness
+author: suvaidya
 manager: AnnBe
-ms.date: 04/26/2019
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d3b4a8f6cf74bb1fe7e53a4dfdd607f604e16e3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22504e0e26c025d117f29dee3b59b41d508e7724
+ms.sourcegitcommit: 4f90b9ddedf312e75a714e0ec7f7ee5fd43cac6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187450"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "3389713"
 ---
 # <a name="define-expense-policies"></a>Définir les stratégies de dépenses
 
@@ -48,6 +48,7 @@ Vous pouvez définir trois types de stratégies :
 Voici quelques suggestions pour vous aider lors de la création de nouvelles stratégies pour la gestion des dépenses. 
 * Les stratégies sont effectives de date et ne prennent pas effet si la stratégie est créée avec une date postérieure à la date à laquelle la dépense s'est produite. Par exemple, si vous créez une stratégie aujourd'hui pour appliquer une dépense de repas maximale de 50 $, aucune dépense existante entrée depuis d'hier n'est vérifiée par rapport à cette stratégie.
 * En créant une stratégie pour une catégorie de dépenses qui peut être détaillée, envisagez d'ajouter une condition pour le type de ligne de dépense. Certaines stratégies pouvant nécessiter un reçu peuvent ne pas être utile pour les lignes détaillées et doivent être uniquement appliquées à l'en-tête de ligne ou une ligne non détaillée. 
+* Les politiques de gestion des dépenses sont évaluées par rapport à l'entité source par défaut. Pour les scénarios intersociétés, vous pouvez définir la stratégie à évaluer par rapport à l'entité de destination (entité emprunteuse) à la place. Pour exécuter les stratégies sur l'entité de destination, activez la fonctionnalité « Évaluer la stratégie de dépenses par rapport à l'entité juridique emprunteuse » dans l'espace de travail **Gestion des fonctionnalités**.
 
 ## <a name="when-to-evaluate-policies"></a>Quand évaluer des stratégies
 

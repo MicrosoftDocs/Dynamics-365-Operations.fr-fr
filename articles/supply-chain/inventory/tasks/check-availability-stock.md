@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e76c123ffbeb33cbc3ba01b4b2758208ed0c445f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 66b6b365958820a76f733df5eb2aabf6c3c4ebac
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204215"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383495"
 ---
 # <a name="check-the-availability-of-stock"></a>Vérifier la disponibilité du stock
 
@@ -35,9 +35,9 @@ Cette procédure vous indique comment contrôler le stock physique disponible po
 2. Sélectionnez la ligne **Numéro d'article**. Pour rechercher le stock disponible par numéro d'article, sélectionnez la ligne où Tableau est défini sur **Stock disponible** et Champ est défini sur Numéro d'**article**.
 3. Dans le champ **Critères**, sélectionnez l'article à rechercher. Si vous utilisez la société fictive USMF, vous pouvez sélectionner M9201.  
 4. Cliquez sur **OK**.
-5. Dans le volet **Actions**, cliquez sur **Dimensions**. L'onglet **Dimensions** vous permet de sélectionner la quantité de détails à afficher à propos du stock disponible. Si vous avez besoin de données liées à la réservation, vous devez afficher toutes les dimensions de stock pour les articles qui utilisent des processus avancés de l'entrepôt.
+5. Cliquez sur **Dimensions** dans le volet **Actions**. L'onglet **Dimensions** vous permet de sélectionner la quantité de détails à afficher à propos du stock disponible. Si vous avez besoin de données liées à la réservation, vous devez afficher toutes les dimensions de stock pour les articles qui utilisent des processus avancés de l'entrepôt.
 6. Cliquez sur **OK**.
-7. Dans le volet **Actions**, cliquez sur **Informations associées**. Si vous ne voyez pas cette option, vous devez cliquer sur le bouton représentant des points de suspension (…) pour afficher les options du volet d'action supplémentaires.
+7. Dans le volet **Actions**, cliquez sur **Informations associées**. Si vous ne voyez pas cette option, vous devez cliquer sur le bouton représentant des points de suspension (…) pour afficher les options du volet Actions supplémentaires.
 8. Cliquez sur **Vue d'ensemble de l'approvisionnement**. L'onglet **Vue d'ensemble de l'approvisionnement** fournit des informations d'approvisionnement pour un article spécifique, telles que la quantité disponible, le délai, et les informations fournisseur.  
 9. Développez la section **Disponible**.
 10. Développez la section **Fournisseurs**.
@@ -48,7 +48,7 @@ Cette procédure vous indique comment contrôler le stock physique disponible po
 1. Accédez à **Volet de navigation > Modules > Gestion de l'entrepôt > Recherches et états > Stock physique**.
 2. Dans le champ **Numéro d'article**, tapez une valeur. Vous pouvez utiliser les champs Site et Entrepôt pour filtrer la liste des articles. 
 3. Actualisez la page.
-4. Dans le volet **Actions**, cliquez sur **Affichage des dimensions**. L'onglet Affichage des dimensions vous permet de sélectionner la quantité de détails à afficher à propos du stock disponible.
+4. Cliquez sur **Affichage des dimensions** dans le volet **Actions**. L'onglet Affichage des dimensions vous permet de sélectionner la quantité de détails à afficher à propos du stock disponible.
 5. Cliquez sur **OK**.
 6. Fermez la page.
 

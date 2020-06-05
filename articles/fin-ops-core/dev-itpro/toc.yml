@@ -234,7 +234,7 @@
                               href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
                             - name: Synchroniser les en-têtes et les lignes de devis directement entre Sales et Finance and Operations
                               href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Synchronisation des commandes clients directement entre Sales et Finance and Operations
+                            - name: Synchronisation des commandes client directement entre Sales et Finance and Operations
                               href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
                             - name: Synchroniser les en-têtes et les lignes de facture client directement entre Finance and Operations et Sales
                               href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Résoudre les problèmes d'application de package
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Déployer l'aide personnalisée
+              items:
+                - name: Vue d'ensemble de l'aide personnalisée
+                  href: help/custom-help-overview.md
+                - name: Préparation du contenu à utiliser avec le volet Aide
+                  href: help/preparing-content.md
+                - name: Déploiement de l'aide personnalisée vers Azure
+                  href: help/walkthrough-help-azure.md
+                - name: Connexion de l'aide personnalisée au volet d'aide
+                  href: help/connect-help-pane.md
+                - name: Boîte à outils de l'aide personnalisée
+                  items:
+                    - name: Vue d’ensemble
+                      href: help/custom-help-toolkit.md
+                    - name: L'outil HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: L'outil Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: L'outil HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Convertir l'aide personnalisée Dynamics AX pour une utilisation dans Dynamics 365
+                      href: help/migrate-dynamicsax2012.md
+                - name: Descripteurs locaux et de langue dans le produit et l'aide
+                  href: help/language-locale.md
+                - name: 'Étendre, personnaliser et collaborer dans l''aide'
+                  href: help/contributor-guide.md
         - name: Développer et personnaliser
           items:
             - name: Page d'accueil Développer et personnaliser
@@ -835,7 +861,7 @@
                     - name: "Modifications de l'extensibilité (version\_8.0.1)"
                       href: extensibility/extensibility-changes-801.md
                     - name: "Modifications de l'extensibilité dans la version\_8.0"
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: "Modifications de l'extensibilité dans la version\_7.3"
                       href: extensibility/extensibility-changes-73.md
                     - name: "Modifications de l'extensibilité (juillet\_2017)"
@@ -1096,9 +1122,9 @@
           items:
             - name: Ressources de plateforme mobile
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Mise en route
+            - name: Prise en main
               items:
-                - name: Prise en main la plateforme mobile
+                - name: Prise en main de la plateforme mobile
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: Remarques relatives à l'architecture et à la conception
                   href: mobile-apps/platform/mobile-platform-architecture.md

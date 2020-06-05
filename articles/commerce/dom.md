@@ -3,7 +3,7 @@ title: Gestion des commandes distribuées (DOM)
 description: Cette rubrique décrit la fonctionnalité de gestion des commandes distribuées (DOM) dans Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a584953b0f4961e25b59bca51aa3928b87b2c7c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1121cc89b278c3694d0bbd667f1a540d17f4d180
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004318"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396030"
 ---
 # <a name="distributed-order-management-dom"></a>Gestion des commandes distribuées (DOM)
 
@@ -37,7 +37,7 @@ Un DOM optimise l'exécution des commandes sur un réseau complexe de systèmes 
 
 L'illustration suivante présente le cycle de vie d'une commande client dans un système DOM.
 
-![Cycle de vie d'une commande client dans le contexte d'un DOM](./media/flow.png "Cycle de vie d'une commande client dans le contexte d'un DOM")
+![![Cycle de vie d'une commande client dans le contexte d'un DOM](./media/flow.png "Cycle de vie d'une commande client dans le contexte d'un DOM")](./media/flow.png "Sales order lifecycle in the context of DOM")
 
 ## <a name="set-up-dom"></a>Paramétrer DOM
 
@@ -83,6 +83,15 @@ L'illustration suivante présente le cycle de vie d'une commande client dans un 
     2. Sélectionnez **Nouveau** et entrez un nom et une description pour le nouveau groupe.
     3. Sélectionnez **Enregistrer**.
     4. Sélectionnez **Ajouter une ligne** pour ajouter un emplacement unique au groupe. Sinon, sélectionnez **Ajouter des lignes** pour ajouter plusieurs emplacements.
+    
+    > [!NOTE]
+    > Dans la version 10.0.12 de Commerce et les versions ultérieures, l'option **Possibilité de spécifier des emplacements en tant qu'entrepôt d'« expédition » ou de « retrait » au sein du groupe d'exécution** doit être activée dans l'espace de travail **Gestion des fonctionnalités**.
+    >
+    > Cette fonctionnalité permet d'ajouter de nouvelles configurations sur la page **Groupe d'exécution**, vous pouvez donc choisir si l'entrepôt peut être utilisé pour les expéditions ou si la combinaison entrepôt/magasin peut être utilisée pour les expéditions, les retraits ou les deux. 
+    >
+    > Si vous activez cette fonctionnalité, les options disponibles pour la sélection de l'emplacement lorsque vous créez des ordres d'expédition ou de retrait dans le PDV seront mises à jour.
+    >
+    > Le fait d'activer cette fonctionnalité met également à jour les pages dans le PDV lorsque les opérations « Expédier tout » ou « Expédier sélectionné » sont sélectionnées.
 
 9. Pour définir des règles, accédez à **Retail et Commerce \> Gestion des commandes distribuées \> Paramétrage \> Gérer les règles**. Les règles DOM suivantes sont actuellement prises en charge :
 
@@ -112,7 +121,7 @@ L'illustration suivante présente le cycle de vie d'une commande client dans un 
         \* Si **Traiter les commandes partielles** est défini sur **Non**, **Traiter les lignes partielles** est toujours considéré comme étant défini sur **Non**, indépendamment de la manière dont il est défini en réalité.
 
         > [!NOTE]
-        > Dans Retail version 10.0.5, le paramètre **Traiter la commande à partir d'un emplacement uniquement** a été modifié en **Nombre maximal d'emplacements de traitement**. Au lieu d'autoriser un utilisateur à configurer si les commandes peuvent être traitées à partir d'un emplacement uniquement ou à partir d'autant d'emplacements que possible, les utilisateurs peuvent désormais spécifier si les commandes peuvent être traitées à partir d'un ensemble défini d'emplacements (pouvant aller jusqu'à 5) ou à partir d'autant d'emplacements que possible. Cela offre plus de flexibilité en termes de nombre d'emplacements de traitement de la commande.
+        > Dans Retail version 10.0.5, le paramètre **Traiter la commande à partir d'un emplacement uniquement** a été remplacé par **Nombre maximal d'emplacements de traitement**. Au lieu d'autoriser un utilisateur à configurer si les commandes peuvent être traitées à partir d'un emplacement uniquement ou à partir d'autant d'emplacements que possible, les utilisateurs peuvent désormais spécifier si les commandes peuvent être traitées à partir d'un ensemble défini d'emplacements (pouvant aller jusqu'à 5) ou à partir d'autant d'emplacements que possible. Cela offre plus de flexibilité en termes de nombre d'emplacements de traitement de la commande.
 
    - **Règle d'emplacement d'exécution en mode hors connexion** : Cette règle permet aux organisations de spécifier un emplacement ou un groupe d'emplacements comme étant Hors connexion ou Non disponible pour DOM, de sorte que les commandes ne puissent pas être affectées à ces emplacements pour traitement.
     - **Règle relative au nombre maximal de rejets** : Cette règle permet aux organisations de définir un seuil pour les rejets. Lorsque ce seuil est atteint, le processeur DOM marque une commande ou une ligne de commande comme une exception, et l'exclut des prochains traitements.
@@ -135,6 +144,16 @@ L'illustration suivante présente le cycle de vie d'une commande client dans un 
     3. Entrez des valeurs dans les champs **Profil** et **Description**.
     4. Définissez l'option **Appliquer automatiquement le résultat**. Si vous définissez cette option sur **Oui**, les résultats de l'exécution DOM pour le profil sera automatiquement appliqué aux lignes de la commande client. Si vous la définissez sur **Non**, les résultats peuvent uniquement être affichés dans le plan d'exécution. Ils ne sont pas appliqués aux lignes de la commande client.
     5. Si vous souhaitez que le profil DOM soit exécuté pour les commandes ayant toutes les origines de commandes client, même les commandes pour lesquelles l'origine de la commande client n'est pas définie, définissez l'option **Traiter les commandes avec une origine des ventes vide** sur **Oui**. Pour exécuter le profil uniquement pour certaines origines de commande client, vous pouvez le paramétrer dans la page **Origines des ventes**, comme expliqué ultérieurement.
+
+    > [!NOTE]
+    > Dans la version 10.0.12 de Commerce et les versions ultérieures, l'option **Possibilité d'attribuer un Groupe d'exécution à un Profil d'exécution** doit être activée dans l'espace de travail **Gestion des fonctionnalités**. 
+    >
+    > Cette fonctionnalité permet d'ajouter une nouvelle configuration sur la page **Profil d'exécution** qui peut être associée à un seul groupe d'exécution. 
+    >
+    > Si vous sélectionnez le groupe d'exécution, les règles DOM de ce profil d'exécution seront exécutées sur les entrepôts d'expédition inclus dans ce groupe. 
+    > 
+    > Pour utiliser efficacement cette fonctionnalité, vérifiez qu'un groupe d'exécution contient tous les entrepôts d'expédition, puis associez ce groupe d'exécution au profil d'exécution.
+    
     6. Dans le raccourci **Entités juridiques**, sélectionnez **Ajouter**, puis sélectionnez une entité juridique.
     7. Dans le raccourci **Règles**, sélectionnez **Ajouter**, puis sélectionnez la règle à associer au profil.
     8. Répétez les deux étapes précédentes jusqu'à ce que toutes les règles nécessaires soient associées au profil.
@@ -143,7 +162,7 @@ L'illustration suivante présente le cycle de vie d'une commande client dans un 
     11. Dans la page **Modes de livraison**, sélectionnez **Nouveau**.
     12. Sélectionnez l'entité juridique dans le champ **Société**. La liste des sociétés est limitée aux entités juridiques que vous avez ajoutées précédemment.
     13. Dans le champ **Mode de livraison**, sélectionnez le mode de livraison à associer à ce profil. Un mode de livraison ne peut pas être associé à plusieurs profils actifs.
-    14. Répétez les deux étapes précédentes jusqu'à ce que tous les modes de livraison nécessaires soient associées au profil.
+    14. Répétez les deux étapes précédentes jusqu'à ce que tous les modes de livraison nécessaires soient associés au profil.
     15. Fermez la page **Modes de livraison**.
     16. Dans le volet Actions, sous l'onglet **Paramétrage**, sélectionnez **Origines des commandes client**.
     17. Dans la page **Origines des ventes**, sélectionnez **Nouveau**.
@@ -179,7 +198,7 @@ Lors de traitement, DOM tiendra compte de la commande et des lignes de la comman
 
 Une fois que DOM a appliqué les règles, les contraintes de stock, et l'optimisation, il choisit l'emplacement qui est le plus proche de l'adresse de livraison du client.
 
-![Critères d'une commande client](./media/ordercriteria.png "Critères d'une commande client")
+![![Critères d'une commande client](./media/ordercriteria.png "Critères d'une commande client")](./media/ordercriteria.png "Sales order criteria")
 
 ## <a name="results-of-dom-runs"></a>Résultats des exécutions DOM
 

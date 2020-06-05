@@ -1,5 +1,5 @@
 ---
-title: Ressources d'aide pour Supply Chain Management
+title: Page d'accueil de Supply Chain Management
 description: Cette page fournit une liste de rubriques d'aide et d'autres ressources pour les fonctionnalités de Supply Chain Management.
 author: josaw1
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201523"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386385"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>Ressources d'aide pour Supply Chain Management
+# <a name="supply-chain-management-home-page"></a>Page d'accueil de Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
@@ -42,6 +42,7 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
 - [Contrôle de gestion](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Gestion des coûts](cost-management/cost-management-home-page.md)  
 - [Gestion des stocks](inventory/inventory-home-page.md)
+- [Intelligence IoT](iot/iot-intelligence-home-page.md)
 - [Planification](master-planning/master-planning-home-page.md)
 - [Approvisionnements](procurement/procurement-sourcing-overview.md)
 - [Gestion des informations sur les produits](pim/product-information.md)
@@ -69,7 +70,7 @@ Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités
 
 Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juillet 2017).
 
--  [Mise en route du contrôle de gestion](https://youtu.be/1pUDtJQZ8FU)
+-  [Prise en main du contrôle de gestion](https://youtu.be/1pUDtJQZ8FU)
 -  [Espace de travail mobile de contrôle des coûts](https://youtu.be/imsuTg8rUVk)
 -  [Utiliser Excel pour l'analyse des coûts](https://youtu.be/-HKHYdClvx8)
 -  [Approuver les commandes fournisseur sur un appareil mobile](https://youtu.be/gZ-gOlJe7H8)

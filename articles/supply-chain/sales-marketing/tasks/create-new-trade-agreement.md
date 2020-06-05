@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aa46f959c35c209791457aa697ab829264b3275
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1642da7b06363d1f704e51276b5cb36823707231
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211949"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383417"
 ---
 # <a name="create-a-new-trade-agreement"></a>Créer un accord commercial
 
@@ -34,7 +34,7 @@ Cette procédure vous indique comment créer un accord commercial dans lequel vo
 2. Cliquez sur **Nouveau**.
 3. Dans le champ **Nom**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-5. Dans le volet **Action**, cliquez sur **Lignes**.
+5. Cliquez sur **Lignes** dans le volet **Actions**.
 6. Dans le champ **Code de compte**, sélectionnez « Table ».
     
     Dans cet exemple, vous mettez à jour le prix pour un client spécifique, ce qui signifie que vous devez choisir Table. Si vous mettez à jour les prix du produit, sélectionnez « Tout », afin que le nouveau prix soit valide pour tous les clients. Si vous différenciez des prix entre différents segments de clients, sélectionnez Groupe. Pour sélectionner Groupe, vous devez avoir configuré des Groupes de prix client.  

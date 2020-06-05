@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c0c4415f490219485b3d96fa678a317c1f12f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 8bf20ed737707b7cf99023e3c78489caf4a68eab
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204123"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383617"
 ---
 # <a name="create-and-process-a-conformance"></a>Créer et traiter une conformité
 
@@ -35,7 +35,7 @@ Cette rubrique explique comment effectuer la gestion de non-conformité, en fonc
 2. Dans la liste, sélectionnez l'ordre de qualité créé dans la section [Inspecter la qualité des marchandises](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).  
 
 ## <a name="create-a-nonconformance"></a>Créer une non-conformité
-1. Dans le volet Actions, sélectionnez **Recherches**.
+1. Sélectionnez **Recherches** dans le volet Actions.
 2. Sélectionnez **Non-conformités**.
 3. Sélectionnez **Nouveau**.
 4. Dans le menu déroulant du champ **Type de problème**, sélectionnez le problème qui a été trouvé au cours du processus d'inspection.  

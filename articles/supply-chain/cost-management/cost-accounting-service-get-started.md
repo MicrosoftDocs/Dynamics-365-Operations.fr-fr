@@ -1,5 +1,5 @@
 ---
-title: Mise en route du service de contrôle de gestion
+title: Prise en main du service de contrôle de gestion (version préliminaire privée)
 description: Cette rubrique fournit des détails sur les licences et des instructions d'installation pour le service de contrôle de gestion.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276916"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372734"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>Mise en route du service de contrôle de gestion
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Prise en main du service de contrôle de gestion (version préliminaire privée)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ Le service de contrôle de gestion est un complément. Pour rendre ses fonctionn
 
 Le service de contrôle de gestion ne prend actuellement pas en charge toutes les fonctionnalités de gestion des coûts intégrées Dynamics 365 Supply Chain Management. Par conséquent, il est important d'évaluer si l'ensemble de fonctionnalités actuellement disponible répondra à vos attentes.
 
-## <a name="licensing"></a>Gestionnaire de licences
-
-Le service de contrôle de gestion est concédé sous licence avec les fonctionnalités standard de la comptabilité des stocks disponibles pour Supply Chain Management. Vous n'avez pas besoin d'acheter une licence supplémentaire pour utiliser le service de contrôle de gestion.
-
-## <a name="install-the-add-in"></a>Installer le complément
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>Obtenir le service de contrôle de gestion (version préliminaire privée)
 
 > [!IMPORTANT]
 > Pour utiliser le service de contrôle de gestion, vous devez disposer d'un environnement à haute disponibilité compatible LCS (et non d'un environnement OneBox), et vous devez exécuter Dynamics 365 Supply Chain Management version 10.0.11 ou ultérieure.
 
+Pour vous inscrire à la version préliminaire privée du service de contrôle de gestion, veuillez envoyer votre identifiant d'environnement LCS par e-mail au [Service de contrôle de gestion (version préliminaire privée)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29). Une fois que nous vous avons approuvé pour le programme, nous vous enverrons un e-mail de suivi contenant une clé bêta pour le service de contrôle de gestion. Après la réception de la clé bêta, vous pouvez [installer le complément](#install).
+
+## <a name="licensing"></a>Gestionnaire de licences
+
+Le service de contrôle de gestion est concédé sous licence avec les fonctionnalités standard de la comptabilité des stocks disponibles pour Supply Chain Management. Vous n'avez pas besoin d'acheter une licence supplémentaire pour utiliser le service de contrôle de gestion.
+
+## <a name="install-the-add-in"></a><a name="install"></a>Installer le complément
+
 Pour utiliser le service de contrôle de gestion, installez le complément de service de contrôle de gestion pour Supply Chain Management comme décrit dans la procédure suivante.
+
+1. [Inscrivez-vous](#sign-up) au service de contrôle de gestion (version préliminaire privée).
 
 1. Connectez-vous à LCS.
 

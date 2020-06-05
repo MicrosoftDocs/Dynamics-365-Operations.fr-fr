@@ -2,9 +2,9 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Page d'accueil de Dynamics 365 Supply Chain Management
           href: index.md
-        - name: Mise en route
+        - name: Prise en main
           items:
             - name: Avant d'acheter
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Connexion au système d'aide
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Connexion à un site d'aide personnalisé
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Vue d'ensemble de l'aide personnalisée
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Afficher et exporter les descriptions de champ
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Enregistreur de tâches
@@ -225,13 +225,13 @@
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
                 - name: Types d'attribut de maintenance
                   href: asset-management/setup-for-functional-locations/functional-location-types.md
-                - name: Types d'emplacement fonctionnels
+                - name: Types d'emplacements fonctionnels
                   href: asset-management/setup-for-functional-locations/specification-types.md
-            - name: Emplacement fonctionnels
+            - name: Emplacements fonctionnels
               items:
                 - name: Vue d'ensemble des emplacements fonctionnels
                   href: asset-management/functional-locations/introduction-to-functional-locations.md
-                - name: Créer des emplacement fonctionnels
+                - name: Créer des emplacements fonctionnels
                   href: asset-management/functional-locations/create-functional-locations.md
                 - name: Installer des actifs et des emplacements fonctionnels
                   href: asset-management/functional-locations/install-objects-on-functional-locations.md
@@ -1011,7 +1011,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
                         - name: "Texte\_: Text"
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations de gestion des états électroniques distinctes
+            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations ER distinctes
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: Sélectionner des définitions de modèle de données lorsque vous créez des formats
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1043,7 +1043,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
             - name: Modifier des formats de gestion des états électroniques en réappliquant des modèles Excel
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Définir la dépendance des configurations de gestion des états électroniques sur d'autres composants
+            - name: Définir la dépendance des configurations ER sur d'autres composants
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: Concevoir une solution de gestion des états électroniques pour utiliser les dimensions financières
               items:
@@ -1129,7 +1129,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Importer des configurations
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Télécharger les configurations de gestion des états électroniques depuis le référentiel RCS
+                - name: Télécharger les configurations ER depuis le référentiel RCS
                   items:
                     - name: Télécharger les configurations depuis le référentiel de gestion des états électroniques pour le type RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
@@ -1137,7 +1137,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Didacticiels
               items:
-                - name: Utiliser des sources de données JOINDRE pour obtenir des données de plusieurs tables d'application
+                - name: Utiliser des sources de données JOINTURE pour obtenir des données de plusieurs tables d'application
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -1287,7 +1287,7 @@
                   href: inventory/trace-items-raw-materials-inventory-production-sales.md
                 - name: Suivre un article ou une matière première
                   href: inventory/tasks/trace-item-or-raw-material.md
-                - name: Fusionner le traitements par lots du stock
+                - name: Fusionner le traitement par lots du stock
                   href: inventory/merge-inventory-batches.md
                 - name: Corriger les informations de suivi de stock
                   href: inventory/tasks/correct-inventory-tracking-information.md
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Suivi du coût moyen en vigueur par dimension de stock
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: Intelligence IoT
+          items:
+            - name: Page d'accueil Intelligence IoT
+              href: iot/iot-intelligence-home-page.md
+            - name: Paramétrer les ressources Azure
+              href: iot/iot-azure-setup.md
+            - name: Formats du schéma de message pour hub IoT
+              href: iot/iot-schema-format.md
+            - name: Installer le complément dans LCS
+              href: iot/iot-lcs-setup.md
+            - name: Paramétrer des mesures
+              href: iot/iot-metrics-setup.md
+            - name: Configuration d'un scénario
+              href: iot/iot-scenario-setup.md
+            - name: Surveiller et gérer
+              href: iot/iot-management.md
         - name: Planification
           items:
             - name: Page d'accueil Planification
@@ -1323,7 +1339,7 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Planification avec des quantités disponibles négatives
                   href: master-planning/planning-optimization/negative-on-hand.md
-                - name: Mise en route de l'optimisation de la planification
+                - name: Prise en main de l'optimisation de la planification
                   href: master-planning/planning-optimization/get-started.md
                 - name: Analyse de concordance pour l'optimisation de la planification
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Annuler une tâche de planification
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Dépanner l'optimisation de la planification
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Plans généraux
               items:
                 - name: Vue d'ensemble des plans généraux
@@ -1357,7 +1375,7 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: Retards
                   href: master-planning/delays.md
-                - name: Annuler une tâche de planification
+                - name: Annuler une tâche de planification principale
                   href: master-planning/cancel-master-planning-job.md
                 - name: Utiliser le suivi pour l'éclatement
                   href: master-planning/trace-explosion.md
@@ -1471,7 +1489,7 @@
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
             - name: Personnaliser le menu Ouvrir dans Microsoft Office
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Configuration et envoi d'e-mail
+            - name: Configurer et envoyer un e-mail
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/supply-chain/toc.json
             - name: Développer les expériences d'e-mail
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/supply-chain/toc.json
@@ -1609,7 +1627,7 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/supply-chain/toc.json
             - name: Configurer la gestion des documents
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Configuration et envoi d'e-mail
+            - name: Configurer et envoyer un e-mail
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/supply-chain/toc.json
             - name: Données de date/d'heure et fuseaux horaires
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
@@ -2129,7 +2147,7 @@
                       href: production-control/batch-attributes.md
                     - name: Équilibrage du lot
                       href: production-control/batch-balancing.md
-                    - name: Traitement des produit en poids variable
+                    - name: Traitement des produits en poids variable
                       href: warehousing/catch-weight-processing.md
                     - name: Copier une formule
                       href: production-control/tasks/copy-formula.md
@@ -2657,7 +2675,7 @@
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
             - name: Installer et configurer l'application d'entreposage
               items:
-                - name: Vue d'ensemble de l'installation et de la configuration
+                - name: Installer et connecter l'application d'entreposage
                   href: warehousing/install-configure-warehousing-app.md
                 - name: Configurer des noms de champs dans l'application d'entreposage
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Paramétrer un modèle de travail pour les commandes fournisseur
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Stratégies de consolidation de l'expédition
+              items:
+                - name: Stratégies de consolidation de l'expédition
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Configurer les stratégies de consolidation de l'expédition
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: Scénario 1 - Consolider les expéditions lorsqu'elles sont transmises à l'entrepôt à l'aide du lancement automatique des commandes client
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: Scénario 2 - Consolider les expéditions lorsque la stratégie de consolidation de l'expédition est remplacée à partir de la page Libération dans l'entrepôt
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: Scénario 3 - Consolider les expéditions à l'aide de page Libération dans l'entrepôt à partir de l'atelier de planification des chargements
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: Scénario 4 - Consolider les expéditions à l'aide de l'atelier de consolidation d'expédition
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: Scénario 5 - Consolider les expéditions manuellement à l'aide de la page Consolider les expéditions
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Développement de Supply Chain Management
           items:
             - name: Guide de développement du contrôle Gantt

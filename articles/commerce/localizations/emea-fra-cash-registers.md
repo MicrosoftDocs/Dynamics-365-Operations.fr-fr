@@ -3,7 +3,7 @@ title: Fonctionnalité de caisse enregistreuse pour la France
 description: Cette rubrique fournit une vue d'ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 author: EvgenyPopovMBS
 manager: vastrup
-ms.date: 04/13/2018
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: a97394105e3412ce28218752f1f8302224a777cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f27de67f5df60fbcb3214d1c66d21541bfee741
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057577"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346642"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -337,10 +337,10 @@ Enfin, dans la page **Paramètres Commerce**, vous devez spécifier les paramèt
 Vous pouvez charger la configuration ER pour l'archive de Microsoft Dynamics Lifecycle Services (LCS). Pour plus d'informations, voir [Importer les configurations de génération d'états électroniques](../../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md). Vous devez télécharger les versions suivantes, ou les versions ultérieures, des configurations :
 
 - Modèle données**Canal de vente au détail data.version.2**
-- Mise en correspondance de modèle de données **Archivage DMM.version.2.1**
-- Format**Archive de données Retail FR .version.2.1**
+- Mise en correspondance de modèle de données **Archivage DMM.version.2.3**
+- Format**Archive de données Retail FR .version.2.5**
 
-Après l'importation des configurations, dans la page **Paramètres Commerce**, sous l'onglet **Documents électroniques**, dans le champ **Format d'exportation de l'archive des données de vente au détail**, sélectionnez le format **Archive de données Retail FR .version.2.1**.
+Après l'importation des configurations, dans la page **Paramètres Commerce**, sous l'onglet **Documents électroniques**, dans le champ **Format d'exportation de l'archive des données de vente au détail**, sélectionnez le format **Archive de données Retail FR .version.2.5**.
 
 ### <a name="renitialize-commerce-components"></a>Réinitialiser les composants Commerce
 

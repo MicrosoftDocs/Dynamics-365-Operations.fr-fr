@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaab2093eb2531b63f27717d828f7064a8f9ed1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207506"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383111"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Paramétrage d'une hiérarchie des catégories d'approvisionnement
 
@@ -31,8 +31,8 @@ Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérar
 
 ## <a name="add-a-new-procurement-category"></a>Ajouter une catégorie d'approvisionnement
 1. Accédez au **Volet de navigation > Modules > Approvisionnements > Consignation > Catégories d'approvisionnement**.
-2. Dans le volet Actions, sélectionnez **Modifier la hiérarchie de catégories**. La hiérarchie des catégories d'approvisionnement actuelle s'affiche à la gauche de la page. Vous êtes sur le point de modifier la hiérarchie.  
-3. Dans le volet Actions, sélectionnez **Nouveau nœud de catégories**. Le système sélectionne le nœud supérieur par défaut. Si vous exécutez cette procédure en tant que guide des tâches, vous pouvez cliquer sur le bouton Déverrouiller et sélectionner un autre nœud parent dans lequel insérer votre nouveau nœud. Une fois que c'est fait, verrouillez à nouveau le guide de tâches, puis cliquez sur Nouveau nœud de catégorie.  
+2. Sélectionnez **Modifier la hiérarchie de catégories** dans le volet Actions. La hiérarchie des catégories d'approvisionnement actuelle s'affiche à la gauche de la page. Vous êtes sur le point de modifier la hiérarchie.  
+3. Sélectionnez **Nouveau nœud de catégories** dans le volet Actions. Le système sélectionne le nœud supérieur par défaut. Si vous exécutez cette procédure en tant que guide des tâches, vous pouvez cliquer sur le bouton Déverrouiller et sélectionner un autre nœud parent dans lequel insérer votre nouveau nœud. Une fois que c'est fait, verrouillez à nouveau le guide de tâches, puis cliquez sur Nouveau nœud de catégorie.  
 4. Tapez une valeur dans le champ **Nom**.
 5. Tapez une valeur dans le champ **Description**.
 6. Dans le champ **Nom convivial**, saisissez une valeur. Le nom convivial est facultatif. Il sera affiché dans les recherches de catégories avec le nom de la catégorie.  
