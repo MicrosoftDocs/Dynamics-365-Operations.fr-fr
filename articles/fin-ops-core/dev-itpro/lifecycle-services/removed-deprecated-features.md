@@ -3,7 +3,7 @@ title: Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer de Microsoft Dynamics Lifecycle Services (LCS).
 author: AngelMarshall
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,51 +15,51 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
-ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
+ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027978"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367266"
 ---
-# <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a><span data-ttu-id="b63bf-103">Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="b63bf-103">Removed or deprecated features in Lifecycle Services (LCS)</span></span>
+# <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a><span data-ttu-id="98667-103">Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="98667-103">Removed or deprecated features in Lifecycle Services (LCS)</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="b63bf-104">Cette rubrique décrit les fonctions qui ont été supprimées, ou qui sont devenues obsolètes pour Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="b63bf-104">This topic describes features that have been removed or deprecated for Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="98667-104">Cette rubrique décrit les fonctions qui ont été supprimées, ou qui sont devenues obsolètes pour Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="98667-104">This topic describes features that have been removed or deprecated for Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-- <span data-ttu-id="b63bf-105">Une fonction *supprimée* n'est plus disponible dans le service.</span><span class="sxs-lookup"><span data-stu-id="b63bf-105">A *removed* feature is no longer available in the service.</span></span>
-- <span data-ttu-id="b63bf-106">Une fonction *déconseillée* n'est pas en développement actif et peut être supprimée dans une prochaine mise à jour.</span><span class="sxs-lookup"><span data-stu-id="b63bf-106">A *deprecated* feature isn't in active development and might be removed in a future update.</span></span>
+- <span data-ttu-id="98667-105">Une fonction *supprimée* n'est plus disponible dans le service.</span><span class="sxs-lookup"><span data-stu-id="98667-105">A *removed* feature is no longer available in the service.</span></span>
+- <span data-ttu-id="98667-106">Une fonction *déconseillée* n'est pas en développement actif et peut être supprimée dans une prochaine mise à jour.</span><span class="sxs-lookup"><span data-stu-id="98667-106">A *deprecated* feature isn't in active development and might be removed in a future update.</span></span>
 
-<span data-ttu-id="b63bf-107">Cette liste est fournie pour vous aider à prendre en compte ces suppressions et abandons à mesure que vous avancez dans votre propre planification.</span><span class="sxs-lookup"><span data-stu-id="b63bf-107">This list is provided so that you can consider these removals and deprecations as you do your own planning.</span></span>
+<span data-ttu-id="98667-107">Cette liste est fournie pour vous aider à prendre en compte ces suppressions et abandons à mesure que vous avancez dans votre propre planification.</span><span class="sxs-lookup"><span data-stu-id="98667-107">This list is provided so that you can consider these removals and deprecations as you do your own planning.</span></span>
 
-## <a name="october-2019-announcements"></a><span data-ttu-id="b63bf-108">Annonces d'octobre 2019</span><span class="sxs-lookup"><span data-stu-id="b63bf-108">October 2019 announcements</span></span>
+## <a name="october-2019-announcements"></a><span data-ttu-id="98667-108">Annonces d'octobre 2019</span><span class="sxs-lookup"><span data-stu-id="98667-108">October 2019 announcements</span></span>
 
-### <a name="flowchart-diagrams-in-business-process-modeler"></a><span data-ttu-id="b63bf-109">Organigrammes du concepteur de processus d'entreprise</span><span class="sxs-lookup"><span data-stu-id="b63bf-109">Flowchart diagrams in Business process modeler</span></span>
+### <a name="flowchart-diagrams-in-business-process-modeler"></a><span data-ttu-id="98667-109">Organigrammes du concepteur de processus d'entreprise</span><span class="sxs-lookup"><span data-stu-id="98667-109">Flowchart diagrams in Business process modeler</span></span>
 
 <table>
 <tbody>
 <tr>
-<td><span data-ttu-id="b63bf-110"><strong>Motif de l'abandon/de la suppression</strong></span><span class="sxs-lookup"><span data-stu-id="b63bf-110"><strong>Reason for deprecation/removal</strong></span></span></td>
-<td><span data-ttu-id="b63bf-111">Nous déconseillons le composant d'organigrammes dans le Concepteur de processus d'entreprise (BPM), car la conception héritée a entraîné une faible utilisation.</span><span class="sxs-lookup"><span data-stu-id="b63bf-111">We are deprecating the flowchart diagrams component in Business process modeler (BPM), because the legacy design caused low usage.</span></span></td>
+<td><span data-ttu-id="98667-110"><strong>Motif de l'abandon/de la suppression</strong></span><span class="sxs-lookup"><span data-stu-id="98667-110"><strong>Reason for deprecation/removal</strong></span></span></td>
+<td><span data-ttu-id="98667-111">Nous déconseillons le composant d'organigrammes dans le Concepteur de processus d'entreprise (BPM), car la conception héritée a entraîné une faible utilisation.</span><span class="sxs-lookup"><span data-stu-id="98667-111">We are deprecating the flowchart diagrams component in Business process modeler (BPM), because the legacy design caused low usage.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="b63bf-112"><strong>Remplacé par une autre fonctionnalité ?</strong></span><span class="sxs-lookup"><span data-stu-id="b63bf-112"><strong>Replaced by another feature?</strong></span></span></td>
-<td><span data-ttu-id="b63bf-113">Non</span><span class="sxs-lookup"><span data-stu-id="b63bf-113">No</span></span></td>
+<td><span data-ttu-id="98667-112"><strong>Remplacé par une autre fonctionnalité ?</strong></span><span class="sxs-lookup"><span data-stu-id="98667-112"><strong>Replaced by another feature?</strong></span></span></td>
+<td><span data-ttu-id="98667-113">Non</span><span class="sxs-lookup"><span data-stu-id="98667-113">No</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="b63bf-114"><strong>Domaines affectés</strong></span><span class="sxs-lookup"><span data-stu-id="b63bf-114"><strong>Areas affected</strong></span></span></td>
-<td><span data-ttu-id="b63bf-115">Concepteur de processus d'entreprise</span><span class="sxs-lookup"><span data-stu-id="b63bf-115">Business process modeler</span></span></td>
+<td><span data-ttu-id="98667-114"><strong>Domaines affectés</strong></span><span class="sxs-lookup"><span data-stu-id="98667-114"><strong>Areas affected</strong></span></span></td>
+<td><span data-ttu-id="98667-115">Concepteur de processus d'entreprise</span><span class="sxs-lookup"><span data-stu-id="98667-115">Business process modeler</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="b63bf-116"><strong>Statut</strong></span><span class="sxs-lookup"><span data-stu-id="b63bf-116"><strong>Status</strong></span></span></td>
-<td><span data-ttu-id="b63bf-117">Obsolète : le composant d'organigrammes dans BPM devrait être supprimé en 2020.</span><span class="sxs-lookup"><span data-stu-id="b63bf-117">Deprecated: The flowchart diagrams component in BPM is expected to be removed in 2020.</span></span> <span data-ttu-id="b63bf-118">La fonctionnalité suivante va être supprimée :</span><span class="sxs-lookup"><span data-stu-id="b63bf-118">The following functionality will be removed:</span></span>
+<td><span data-ttu-id="98667-116"><strong>Statut</strong></span><span class="sxs-lookup"><span data-stu-id="98667-116"><strong>Status</strong></span></span></td>
+<td><span data-ttu-id="98667-117">Obsolète : le composant d'organigrammes dans BPM devrait être supprimé en 2020.</span><span class="sxs-lookup"><span data-stu-id="98667-117">Deprecated: The flowchart diagrams component in BPM is expected to be removed in 2020.</span></span> <span data-ttu-id="98667-118">La fonctionnalité suivante ne sera pas disponible :</span><span class="sxs-lookup"><span data-stu-id="98667-118">The following functionality will be unavailable:</span></span>
 <ul>
-<li><span data-ttu-id="b63bf-119">Les organigrammes existants ne seront pas disponibles pour la visualisation ou la modification.</span><span class="sxs-lookup"><span data-stu-id="b63bf-119">Existing flowcharts will be unavailable for viewing or editing.</span></span> <span data-ttu-id="b63bf-120">Les propriétés de forme associées aux activités de l'organigramme ne seront pas non plus disponibles, car l'onglet <strong>Organigramme</strong> complet sera supprimé.</span><span class="sxs-lookup"><span data-stu-id="b63bf-120">The shape properties that are associated with flowchart activities will also be unavailable, because the whole <strong>Flowchart</strong> tab will be removed.</span></span> <span data-ttu-id="b63bf-121">Ces organigrammes comprennent à la fois des organigrammes par défaut générés automatiquement et des organigrammes personnalisés qui sont modifiés en fonction de ces organigrammes par défaut.</span><span class="sxs-lookup"><span data-stu-id="b63bf-121">These flowcharts include both the default flowcharts that are automatically generated and customized flowcharts that are modified based on those default flowcharts.</span></span></li>
-<li><span data-ttu-id="b63bf-122">La fonctionnalité d'analyse d'adéquation/des écarts héritée ne sera pas disponible.</span><span class="sxs-lookup"><span data-stu-id="b63bf-122">The legacy fit/gap analysis feature will be unavailable.</span></span> <span data-ttu-id="b63bf-123">Par conséquent, aucune liste des écarts ne sera automatiquement créée ou disponible pour l'exportation.</span><span class="sxs-lookup"><span data-stu-id="b63bf-123">Therefore, no gap list will be automatically created or available for export.</span></span>
-<p><span data-ttu-id="b63bf-124"><strong>Remarque :</strong> Cette fonctionnalité était auparavant obsolète et remplacée par les intégrations Microsoft Azure DevOps.</span><span class="sxs-lookup"><span data-stu-id="b63bf-124"><strong>Note:</strong> This feature had previously been deprecated and replaced by Microsoft Azure DevOps integrations.</span></span></p>
+<li><span data-ttu-id="98667-119">Tous les organigrammes seront en lecture seule et ne pourront pas être modifiés.</span><span class="sxs-lookup"><span data-stu-id="98667-119">All flowcharts will be read-only and unavailable for editing.</span></span> <span data-ttu-id="98667-120">Les propriétés de forme associées aux activités de l'organigramme ne seront pas non plus disponibles.</span><span class="sxs-lookup"><span data-stu-id="98667-120">The shape properties that are associated with flowchart activities will also be unavailable.</span></span> <span data-ttu-id="98667-121">Ces organigrammes comprennent à la fois des organigrammes par défaut générés automatiquement et des organigrammes personnalisés qui sont modifiés en fonction de ces organigrammes par défaut.</span><span class="sxs-lookup"><span data-stu-id="98667-121">These flowcharts include both the default flowcharts that are automatically generated and customized flowcharts that are modified based on those default flowcharts.</span></span></li>
+<li><span data-ttu-id="98667-122">La fonctionnalité d'analyse d'adéquation/des écarts héritée ne sera pas disponible.</span><span class="sxs-lookup"><span data-stu-id="98667-122">The legacy fit/gap analysis feature will be unavailable.</span></span> <span data-ttu-id="98667-123">Par conséquent, aucune liste des écarts ne sera automatiquement créée ou disponible pour l'exportation.</span><span class="sxs-lookup"><span data-stu-id="98667-123">Therefore, no gap list will be automatically created or available for export.</span></span>
+<p><span data-ttu-id="98667-124"><strong>Remarque :</strong> Cette fonctionnalité était auparavant obsolète et remplacée par les intégrations Microsoft Azure DevOps.</span><span class="sxs-lookup"><span data-stu-id="98667-124"><strong>Note:</strong> This feature had previously been deprecated and replaced by Microsoft Azure DevOps integrations.</span></span></p>
 </li>
-<li><span data-ttu-id="b63bf-125">L'historique des versions de l'organigramme ne sera pas disponible.</span><span class="sxs-lookup"><span data-stu-id="b63bf-125">The version history of the flowchart will be unavailable.</span></span></li>
+<li><span data-ttu-id="98667-125">L'historique des versions de l'organigramme ne sera pas disponible.</span><span class="sxs-lookup"><span data-stu-id="98667-125">The version history of the flowchart will be unavailable.</span></span></li>
 </ul>
 </td>
 </tr>
