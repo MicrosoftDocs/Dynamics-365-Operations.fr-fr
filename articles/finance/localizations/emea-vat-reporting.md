@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d307ceae85773feb58d11e575df27e74b065cd3
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a9b5bafb70883d9daf35a7d5a9107d7aee23469
+ms.sourcegitcommit: 98ef9178b28cd548f08f8c32255636e6e09b25f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773447"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "3395984"
 ---
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l'Europe
 
@@ -265,13 +265,13 @@ La déclaration de TVA pour chaque pays doit répondre aux exigences de la légi
 | Belgique        |                                                                                 |
 | République tchèque |  [Relevé de TVA - République tchèque](emea-cze-vat-statement-details.md)   |
 | Estonie        |  [Détails de la déclaration de TVA pour l'Estonie](emea-est-vat-statement-details.md) |
-| Finlande        |                                                                                 |
-| Allemagne        |                                                                                 |
+| Finlande        | [Déclaration de taxe pour la Finlande](emea-fin-sales-tax-payment-report-finland.md)          |
+| Allemagne        | [Déclaration de TVA pour l'Allemagne](emea-de-vat-declaration.md)                       |
 | Italie          | [Détails de la déclaration de TVA pour l'Italie](emea-ita-vat-statements-details.md)            |
 | Lettonie         | [Détails de la déclaration de TVA pour la Lettonie](emea-lva-vat-statement-details.md)           |
 | Lituanie      | [Détails de la déclaration de TVA pour la Lituanie](emea-ltu-vat-statement-details.md)         |
-| Pays-Bas    |                                                                                 |
-| Suède         |                                                                                 |
+| Pays-Bas    | [Déclaration de TVA pour les Pays-Bas](emea-nl-vat-declaration.md)           |
+| Suède         | [Déclaration de taxe pour la Suède](emea-swe-sales-tax-payment-report-sweden.md)          |
 
 
 

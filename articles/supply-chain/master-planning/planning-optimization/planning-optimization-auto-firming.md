@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323529"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383686"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Confirmation automatique avec la fonction d'Optimisation de la planification
 
@@ -47,7 +47,7 @@ Pour activer la confirmation automatique, procédez comme suit.
 La plage de gestion de confirmation est calculée en avant à partir de la date d'exécution de la planification. Elle est définie par le nombre de jours que vous saisissez. Vous pouvez contrôler la plage de gestion de confirmation comme suit :
 
 - Pour définir la plage de gestion de confirmation par défaut pour un groupe de couverture, accédez à **Planification** \> **Paramétrage** \> **Couverture** \> **Groupes de couverture**, puis sélectionnez un groupe de couverture. Puis, dans l'organisateur **Autre**, dans le champ **Plage de gestion de confirmation automatique (jours)**, entrez le nombre de jours.
-- Pour remplacer la plage de gestion de confirmation définie pour le groupe de couverture pour un article spécifique, accédez à **Gestion des informations sur les produits** \> **Produits lancés**, puis depuis le volet Actions sélectionnez **Plan**, puis sélectionnez **Couverture de l'article**. Puis, dans l'onglet **Général**, sélectionnez **Remplacer les plages de gestion** et dans le champ **Plage de gestion de confirmation automatique (jours)**, entrez le nombre de jours.
+- Pour remplacer la plage de gestion de confirmation définie pour le groupe de couverture pour un article spécifique, accédez à **Gestion des informations sur les produits** \> **Produits lancés**, puis dans le volet Actions, sélectionnez **Plan**, puis sélectionnez **Couverture de l'article**. Puis, dans l'onglet **Général**, sélectionnez **Remplacer les plages de gestion** et dans le champ **Plage de gestion de confirmation automatique (jours)**, entrez le nombre de jours.
 - Pour remplacer la plage de confirmation définie pour le groupe de couverture et la couverture d'article pour un plan général spécifique, accédez à **Planification** \> **Paramétrage** \> **Plans généraux**, puis sélectionnez un plan général. Puis, dans l'organisateur **Plage de gestion en jours**, définissez **Geler** sur **Oui**, et saisissez le nombre de jours.
 
 Si la confirmation automatique est activée pour l'exécution d'une planification avec l'option Optimisation de la planification, le processus de confirmation automatique a lieu selon la configuration de la confirmation automatique. Si la confirmation automatique n'est pas activée, ou si la planification a commencé depuis la page **Besoins nets**, le processus de confirmation automatique est ignoré.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c2e994d11bbd45907a48c1f3955fa751a676a327
-ms.sourcegitcommit: e69cfc74e9dbce64ae0e1ab7cd441e5ae6efd4c9
+ms.openlocfilehash: c985a0cb242fb6696b55a2514bd788ff4269f8ca
+ms.sourcegitcommit: def66a9dc7feadd33411248af2545ee4a9e27c4f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "3353686"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3385546"
 ---
 # <a name="create-a-leave-request-workflow"></a>Créer un workflow de demande d'absence
 
@@ -49,6 +49,7 @@ Vous créez un workflow dans Dynamics 365 Human Resources pour gérer de manièr
 
 Vous pouvez utiliser les éléments de données suivants pour créer des approbations conditionnelles ou automatiques dans les workflows pour les demandes de congé et d'absence :
 
+- **Montant**
 - **Commentaire**
 - **Société**
 - **Créateur**

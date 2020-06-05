@@ -3,7 +3,7 @@ title: Opération de stock sortant dans le PDV
 description: Cette rubrique décrit les fonctionnalités de l'opération de stock sortant dans le point de vente (PDV).
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123920"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384127"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Opération de stock sortant dans le PDV
 
@@ -117,6 +117,18 @@ Dans la vue **Liste complète des commandes**, vous pouvez sélectionner manuell
 ### <a name="over-delivery-shipping-validations"></a>Validations d'expédition pour livraison excessive
 
 Les validations se produisent pendant le processus de réception pour les lignes de document. Elles comprennent les validations pour livraison excessive. Si un utilisateur tente de recevoir plus de stock que à ce qui a été commandé sur une commande fournisseur, mais la livraison excessive n'est pas configurée ou la quantité reçue dépasse la tolérance de livraison excessive configurée pour la ligne de commande fournisseur, l'utilisateur reçoit une erreur et n'est pas autorisé à recevoir la quantité excédentaire.
+
+### <a name="underdelivery-close-lines"></a>Lignes de clôture de livraison incomplète
+
+Dans la version 10.0.12 de Commerce, une fonctionnalité a été ajoutée et permet aux utilisateurs du PDV de clôturer ou d'annuler les quantités restantes pendant l'expédition de la commande sortante si l'entrepôt sortant détermine que toute la quantité demandée ne peut pas être expédiée. Les quantités peuvent également être clôturées ou annulées ultérieurement. Pour utiliser cette fonctionnalité, la société doit être configurée pour autoriser les livraisons incomplètes des ordres de transfert. De plus, un pourcentage de livraisons incomplètes doit être défini pour la ligne d'ordre de transfert.
+
+Pour configurer la société afin d'autoriser les livraisons incomplètes des ordres de transfert, dans Commerce Headquarters, accédez à **Gestion des stocks \> Configuration \> Paramètres de gestion des stocks et des entrepôts**. Sur la page **Paramètres de gestion des stocks et des entrepôts** de l'onglet **Ordres de transfert**, activez le paramètre **Accepter les livraisons incomplètes**. Exécutez ensuite la tâche du planificateur de distribution **1070** pour synchroniser les modifications des paramètres avec le canal de votre magasin.
+
+Les pourcentages de livraison incomplète pour une ligne d'ordre de transfert peuvent être prédéfinis sur les produits dans le cadre de la configuration des produits dans Commerce Headquarters. Ils peuvent également être définis ou remplacés sur une ligne d'ordre de transfert spécifique via Commerce Headquarters.
+
+Une fois qu'une organisation a fini de configurer les livraisons incomplètes de l'ordre de transfert, les utilisateurs voient une nouvelle option **Clôturer la quantité restante** dans le volet **Détails** lorsqu'ils sélectionnent une ligne d'ordre de transfert sortant via l'opération **Opération sortante** dans le PDV. Ensuite, lorsque les utilisateurs ont terminé l'expédition à l'aide de l'opération **Terminer l’exécution**, ils peuvent envoyer une demande à Commerce Headquarters pour annuler la quantité non expédiée restante. Si un utilisateur choisit de clôturer la quantité restante, Commerce effectue une validation pour vérifier que la quantité qui est annulée se situe dans la tolérance de pourcentage de livraison incomplète définie sur la ligne d'ordre de transfert. Si la tolérance de livraison incomplète est dépassée, l'utilisateur reçoit un message d'erreur et ne peut pas clôturer la quantité restante jusqu'à ce que la quantité précédemment expédiée et « expédier maintenant » atteigne ou dépasse la tolérance de livraison incomplète.
+
+Une fois l'expédition synchronisée avec Commerce Headquarters, les quantités définies dans le champ **Expédier maintenant** pour la ligne d'ordre de transfert dans le PDV sont mises à jour sur l'état « expédié » dans Commerce Headquarters. Toutes les quantités non expédiées qui auraient précédemment été considérées comme des quantités « expédiées » (c'est-à-dire les quantités qui seront expédiées ultérieurement) sont considérées comme des quantités annulées à la place. La quantité « restant à expédier » pour la ligne d'ordre de transfert est définie sur **0** (zéro) et la ligne est considérée comme entièrement expédiée.
 
 ### <a name="shipping-location-controlled-items"></a>Articles contrôlés par l'emplacement d'expédition
 

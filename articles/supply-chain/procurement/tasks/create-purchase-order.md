@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204882"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383226"
 ---
 # <a name="create-a-purchase-order"></a>Créer une commande fournisseur
 
@@ -68,7 +68,7 @@ Cette rubrique vous indique comment créer une commande fournisseur manuellement
 ## <a name="review-order-totals"></a>Consulter les totaux de la commande
 1. Sélectionnez **Totaux**.
 
-    - Si vous ne voyez pas les **Totaux**, cliquez sur l'onglet **Commande fournisseur** de la barre d'action.  
+    - Si vous ne voyez pas **Totaux**, cliquez sur l'onglet **Commande fournisseur** dans le volet Actions.  
     - Cette boîte de dialogue affiche les totaux de la commande entière.  
     - Le champ de **sélection** vous permet de modifier la manière dont les totaux sont calculés. Par exemple, vous pouvez choisir **Quantité de l'accusé de réception de marchandises** pour indiquer les totaux liés à la quantité de produits reçus, ou **Quantité commandée** pour indiquer la quantité de produit commandée.  
 

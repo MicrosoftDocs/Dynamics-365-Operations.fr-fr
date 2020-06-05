@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87ddaddb00da50ef9e9e1e7ecf7c3620dabb5a17
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c77129abc5c93d7b11445bdaa2c4851d73bb0b62
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209948"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383594"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Générer et traiter les remises client
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l'étape pendant laquelle elles passent en régularisations à la comptabilité client. Elle présente un exemple spécifique pour expliquer la manière dont les différentes conditions sur les lignes de remise affectent les montants finaux qui sont crédités sur le client. Vous devez utiliser la société de données de démonstration USMF, puis effectuer les tâches suivantes avant de commencer le guide : (1) Accédez à la page Paramètres comptabilité et développez l'onglet Prix, puis l'onglet Détails de prix, et vérifier que l'option Activer les détails de prix est définie sur Oui. (2) Accédez à la page Accords de remise et sélectionnez l'accord de remise du client : USMF-000001. Si le champ Statut de l'approbation du workflow n'est pas défini sur Approuvé, vous devez cliquez sur Validation sur le volet Action pour l'approuver.
+Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l'étape pendant laquelle elles passent en régularisations à la comptabilité client. Elle présente un exemple spécifique pour expliquer la manière dont les différentes conditions sur les lignes de remise affectent les montants finaux qui sont crédités sur le client. Vous devez utiliser la société de données de démonstration USMF, puis effectuer les tâches suivantes avant de commencer le guide : (1) Accédez à la page Paramètres comptabilité et développez l'onglet Prix, puis l'onglet Détails de prix, et vérifier que l'option Activer les détails de prix est définie sur Oui. (2) Accédez à la page Accords de remise et sélectionnez l'accord de remise du client : USMF-000001. Si le champ Statut de l'approbation du workflow n'est pas défini sur Approuvé, vous devez cliquez sur Validation sur le volet Actions pour l'approuver.
 
 
 ## <a name="review-a-customer-rebate-agreement"></a>Consulter un accord de remise client

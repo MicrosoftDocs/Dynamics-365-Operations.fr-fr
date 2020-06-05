@@ -3,7 +3,7 @@ title: Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer de Microsoft Dynamics Lifecycle Services (LCS).
 author: AngelMarshall
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
-ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
+ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027978"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367266"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
 
@@ -53,9 +53,9 @@ Cette liste est fournie pour vous aider à prendre en compte ces suppressions et
 </tr>
 <tr>
 <td><strong>Statut</strong></td>
-<td>Obsolète : le composant d'organigrammes dans BPM devrait être supprimé en 2020. La fonctionnalité suivante va être supprimée :
+<td>Obsolète : le composant d'organigrammes dans BPM devrait être supprimé en 2020. La fonctionnalité suivante ne sera pas disponible :
 <ul>
-<li>Les organigrammes existants ne seront pas disponibles pour la visualisation ou la modification. Les propriétés de forme associées aux activités de l'organigramme ne seront pas non plus disponibles, car l'onglet <strong>Organigramme</strong> complet sera supprimé. Ces organigrammes comprennent à la fois des organigrammes par défaut générés automatiquement et des organigrammes personnalisés qui sont modifiés en fonction de ces organigrammes par défaut.</li>
+<li>Tous les organigrammes seront en lecture seule et ne pourront pas être modifiés. Les propriétés de forme associées aux activités de l'organigramme ne seront pas non plus disponibles. Ces organigrammes comprennent à la fois des organigrammes par défaut générés automatiquement et des organigrammes personnalisés qui sont modifiés en fonction de ces organigrammes par défaut.</li>
 <li>La fonctionnalité d'analyse d'adéquation/des écarts héritée ne sera pas disponible. Par conséquent, aucune liste des écarts ne sera automatiquement créée ou disponible pour l'exportation.
 <p><strong>Remarque :</strong> Cette fonctionnalité était auparavant obsolète et remplacée par les intégrations Microsoft Azure DevOps.</p>
 </li>

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2c13ed20ec86108bcb9edc0d20d53ff98732b9d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204744"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383166"
 ---
 # <a name="create-a-request-for-quotation"></a>Créer un appel d'offre
 
@@ -67,7 +67,7 @@ Après avoir défini les informations de base sur votre appel d'offre, vous spé
 7. Dans le champ **Compte fournisseur**, saisissez ou sélectionnez une valeur. Une fois que vous avez sélectionné un fournisseur, le statut est créé. Cela signifie que les informations sur le fournisseur ont été enregistrées dans la demande de devis mais que cette dernière n'a pas été envoyée au fournisseur. Vous pouvez ajouter un fournisseur à une demande de devis, indépendamment du statut du fournisseur.  
 
 ## <a name="send-the-rfq-to-vendors"></a>Envoyer l'appel d'offre aux fournisseurs
-1. Dans le volet **Action**, cliquez sur **Envoyer**. Dans la page Envoi de l'appel d'offre, vérifiez que les fournisseurs de la liste sont ceux qui doivent recevoir l'appel d'offre.  
+1. Cliquez sur **Envoyer** dans le volet **Actions**. Dans la page Envoi de l'appel d'offre, vérifiez que les fournisseurs de la liste sont ceux qui doivent recevoir l'appel d'offre.  
 2. Cliquez sur **Imprimer**. Cette boîte de dialogue vous permet d'imprimer l'appel d'offre. Si vous choisissez d'imprimer une feuille de réponse, le contenu de cette opération sera défini dans les paramètres d'approvisionnements. Pour choisir comment imprimer des feuilles de réponse, une fois que vous avez ouvert la boîte de dialogue Imprimer, cliquez sur Options d'impression avancées. Un appel d'offre sera imprimé pour chaque fournisseur contenant des lignes dont le statut est Créé ou Envoyé. Les lignes annulées et celles avec des réponses enregistrées ne sont pas imprimées.   
 3. Cliquez sur **Annuler**.
 4. Cliquez sur **OK**.

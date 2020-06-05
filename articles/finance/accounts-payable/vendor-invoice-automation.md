@@ -3,7 +3,7 @@ title: Automatisation des factures fournisseur
 description: Cette rubrique explique les fonctionnalités disponibles pour l'automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177782"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396007"
 ---
 # <a name="vendor-invoice-automation"></a>Automatisation des factures fournisseur
 
@@ -61,7 +61,7 @@ Un package de données est l'unité de travail qui doit être envoyée, afin que
 
 Les pièces jointes des documents de facture fournisseur sont une nouvelle entité de données introduite dans le cadre de cette fonctionnalité. L'entité En-tête de facture fournisseur a été modifiée pour prendre en charge les pièces jointes. L'entité Ligne de facture fournisseur n'a pas été modifiée pour cette fonctionnalité.
 
-Cette rubrique ne donne pas de définition détaillée d'un package de données, ni ne décrit comment créer des packages de données. Pour obtenir ces informations, voir [Infrastructure d'entités de données et packages](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Pour des informations détaillées sur les packages de données, consultez [Vue d'ensemble de la gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Pour plus d'informations sur la création de packages de données à l'aide de l'espace de travail de gestion des données, consultez [Traiter et consommer des packages de données dans la solution d'applications Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Pour générer rapidement des données de test incluant des factures et des pièces jointes, procédez comme suit :
 

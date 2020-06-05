@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cdb66620d5d57a42ce6a2dc443a9276a2e3ca0ae
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203984"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383420"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Transférer du stock physique au sein de l'entrepôt
 
@@ -52,7 +52,7 @@ Cette procédure vous accompagne dans le processus de création et de validation
 12. Cliquez sur **Enregistrer**.
 
 ## <a name="post-the-inventory-transfer-journal"></a>Valider le journal de transfert de stock
-1. Dans le volet **Actions**, cliquez sur **Valider**.
+1. Cliquez sur **Valider** dans le volet **Actions**.
 2. Cliquez sur **OK**.
 
 ## <a name="view-inventory-transactions"></a>Afficher les mouvements de stock

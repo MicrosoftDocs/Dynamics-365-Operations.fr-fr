@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccaeea8d0494644b4d55c29a778d9a8239de10b9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207782"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383272"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Approuver des fournisseurs pour des produits spécifiques
 
@@ -42,10 +42,10 @@ Cette procédure décrit comment approuver des fournisseurs pour les produits sp
 11. Saisissez ou sélectionnez une valeur dans le champ **Fournisseur**.
 12. Dans le champ **Expiration**, entrez une date et une heure. Sélectionnez une date différente de la date d'expiration précédente.  
 13. Fermez la page.
-14. Dans le volet Actions, cliquez sur **Fournisseurs approuvés**.
+14. Cliquez sur **Fournisseurs approuvés** dans le volet Actions.
 15. Dans le champ **Expiration**, entrez une date et une heure. Cette date agit en tant qu'un filtre, donc vous pouvez voir qui sont les fournisseurs agréés jusqu'à une date donnée.  
 16. Fermez la page.
-17. Dans le volet Actions, cliquez sur **Période d'effet**.
+17. Cliquez sur **Période d'effet** dans le volet Actions.
 18. Entrez une date dans le champ **Afficher les fournisseurs expirant le**. Vous pouvez utiliser cette page pour identifier les fournisseurs dont le statut d'approbation expirera après une certaine date.  
 19. Fermez la page.
 20. Cliquez sur **Modifier**.
