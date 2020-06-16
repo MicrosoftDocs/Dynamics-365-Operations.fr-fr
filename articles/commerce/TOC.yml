@@ -88,6 +88,8 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d'accueil Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce 10.0.12 (août\_2020)"
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: "Commerce\_10.0.11 (juillet\_2020)"
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: "Commerce\_10.0.10 (mai\_2020)"
@@ -212,9 +214,9 @@
               items:
                 - name: Synchronisation des programmes d'installation en libre service dans Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (auto-hébergé)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: Configurer et installer Commerce Scale Unit
+                - name: Configurer et installer Commerce Scale Unit (auto-hébergé)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Configuration et installation de MPOS
                   href: retail-modern-pos-device-activation.md
@@ -604,7 +606,7 @@
               items:
                 - name: Vue d'ensemble des recommandations produit
                   href: product-recommendations.md
-                - name: Activer ADLS dans un environnement Dynamics 365 Commerce
+                - name: Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
                 - name: Activer les recommandations produit
                   href: enable-product-recommendations.md
@@ -646,8 +648,8 @@
                   items:
                     - name: Gestion des stocks du magasin
                       href: work-with-store-inventory.md
-                    - name: Utilisation des articles sérialisés
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Configurer des marges de stock et des niveaux de stock
+                      href: inventory-buffers-levels.md
                     - name: Utiliser les articles sérialisés dans le PDV
                       href: pos-serialized-items.md
                     - name: Envoyer des produits du centre de distribution au magasin à l'aide de la procédure de réassort magasin
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: Gestion des utilisateurs et des rôles
                   href: manage-ecommerce-users-roles.md
+                - name: Appliquer les paramètres de stock
+                  href: inventory-settings.md
                 - name: Considérations relatives à l'optimisation du référencement d'un site auprès d'un moteur de recherche (SEO) pour le site
                   href: search-engine-optimization-considerations.md
                 - name: Gérer la stratégie de sécurité de contenu (CSP)
@@ -848,6 +852,8 @@
                       href: select-site-theme.md
                     - name: Utiliser CSS pour remplacer les fichiers
                       href: css-override-files.md
+                    - name: Utiliser des réglages de style prédéfinis
+                      href: style-presets.md
                     - name: Ajouter une icône de favori
                       href: add-favicon.md
                     - name: Ajouter un message de bienvenue
@@ -930,8 +936,12 @@
                   href: starter-kit-overview.md
                 - name: Modules de conteneur
                   items:
-                    - name: Module de conteneur
+                    - name: Module Container
                       href: add-container-module.md
+                    - name: Module d'accordéon
+                      href: add-accordion.md
+                    - name: Module d'onglet
+                      href: add-tab.md
                 - name: Modules de marketing
                   items:
                     - name: Module de bannière promotionnelle
@@ -978,6 +988,10 @@
                   items:
                     - name: Modules de collecte de produits
                       href: product-collection-module-overview.md
+                - name: Modules de navigation
+                  items:
+                    - name: Module de barre de navigation
+                      href: add-breadcrumb.md
             - name: Rechercher
               items:
                 - name: Page d'arrivée de catégorie et page des résultats de la recherche par défaut
@@ -1048,9 +1062,13 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Instructions de déploiement de caisses enregistreuses
                   href: localizations/emea-fra-deployment.md
+            - name: Allemagne
+              items:
+                - name: Exemple d'intégration du service d'enregistrement fiscal pour l'Allemagne
+                  href: localizations/emea-deu-fi-sample.md
             - name: Inde
               items:
-                - name: Intégration de la taxe sur les Produits et Services (GST) pour les caisses enregistreuses
+                - name: Intégration de la taxe sur les biens et Services (GST) pour les caisses enregistreuses
                   href: localizations/apac-ind-cash-registers.md
                 - name: Instructions de déploiement de caisses enregistreuses
                   href: localizations/apac-ind-loc-deployment-guidelines.md
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Configurer les paramètres de thème
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Étendre un thème
+                    - name: Étendre un thème pour ajouter des extensions de module
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Étendre un thème à partir d'un thème de base
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Injecter un script
                   items:
@@ -2072,11 +2092,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: "Extensibilité de Retail\_Server"
               items:
-                - name: "Étendre un contrôleur Retail\_Server\_OData"
+                - name: Étendre un contrôleur OData Commerce Scale Unit
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: API client et consommateur de Retail Server
+                - name: API client et consommateur de Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Étendre le contrôleur de métadonnées Retail Server par défaut
+                - name: Étendre le contrôleur de métadonnées Commerce Scale Unit par défaut
                   href: dev-itpro/extend-metadata.md
                 - name: Appeler le service CRT en mode hors connexion
                   href: dev-itpro/call-crt-service-offline.md
@@ -2096,8 +2116,6 @@
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: Gérer les secrets pour les canaux Retail
                   href: dev-itpro/manage-secrets.md
-                - name: Ajouter des propriétés aux commandes client
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: Extensibilité et déclencheurs CRT
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Bloquer les transactions à l'aide de déclencheurs
