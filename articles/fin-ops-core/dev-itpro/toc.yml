@@ -14,6 +14,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d'accueil des mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
+                - name: "Mises à jour de la plateforme pour 10.0.12 (août\_2020)"
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: "Mises à jour de la plateforme pour 10.0.11 (juillet\_2020)"
                   href: get-started/whats-new-platform-update-35.md
                 - name: "Mises à jour de la plateforme pour 10.0.10 (mai\_2020)"
@@ -198,7 +200,9 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Employé, tâche et poste intégrés'
                               href: data-entities/dual-write/integrated-hr.md
-                        - name: Prise en charge pour la double écriture
+                            - name: Disponibilité du stock
+                              href: data-entities/dual-write/inventory-availability.md
+                        - name: Prise en charge de la double écriture
                           items:
                             - name: "Prise en charge des solutions Field\_Service et Project\_Service\_Automation"
                               href: data-entities/dual-write/field-service-project-service-automation.md
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Appliquer des mises à jour à des environnements cloud
                   href: deployment/apply-deployable-package-system.md
-                - name: Appliquer les mises à jour et les extensions aux composants du canal Retail hébergés dans le cloud
+                - name: Appliquer des mises à jour et des extensions à Commerce Scale Unit (cloud)
                   href: deployment/Update-retail-channel.md
-                - name: Initialiser Retail Cloud Scale Unit
+                - name: Initialiser Commerce Scale Unit (cloud)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Résidence des données Retail
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Connectivité Internet du client
                       href: user-interface/client-disconnected.md
+                    - name: Configurer des nœuds AOS par lots uniquement et interactifs uniquement dans les déploiements locaux
+                      href: deployment/onprem-batchonly.md
                     - name: Configurer les proxys pour les environnements sur site
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnostics locaux
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Guide de l'utilisateur de Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
+            - name: Intégration du projet
+              href: lifecycle-services/project-onboarding.md
             - name: Estimateur d'abonnement
               href: lifecycle-services/subscription-estimator.md
             - name: Configurer la sécurité
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Fichiers de mémoire de traduction
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Intégration de Microsoft Power Platform
+          items:
+            - name: Intégration de Microsoft Power Platform à Finance and Operations
+              href: power-platform/overview.md
+            - name: Modélisation d'entités
+              href: power-platform/entity-modeling.md
+            - name: Gestion du cycle de vie de l'application
+              href: power-platform/application-lifecycle-management.md
+            - name: Référence de l'administrateur de Finance and Operations et Common Data Service
+              href: power-platform/admin-reference.md
+            - name: Portails Power Apps avec Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: FAQ sur les entités virtuelles de Finance and Operations
+              href: power-platform/faq.md
         - name: Plateforme mobile
           items:
             - name: Ressources de plateforme mobile
@@ -1330,20 +1352,20 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Installation et configuration
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Test de données agnostique à l'aide de Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Exécuter des cas de test
+            - name: Utiliser Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
-            - name: Valider des valeurs prévues
+            - name: Valider les valeurs prévues
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Enchaîner des cas de test
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Cas de test dérivés
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Utiliser le didacticiel Regression Suite Automation Tool
+            - name: Didacticiel de Regression Suite Automation Tool et autres fonctions
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Utilisation optimale
               href: perf-test/rsat/rsat-best-practices.md
+            - name: Test de données agnostique à l'aide de Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Dépannage
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: "Publier des solutions à l'aide de Lifecycle\_Services"
@@ -1442,9 +1464,11 @@
                   href: sysadmin/copy-batch-job.md
                 - name: Périodes de traitement par lots actives
                   href: sysadmin/activeperiod.md
+                - name: Prise en charge de l'heure d'été pour les périodes de traitement par lots actives
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Rôle de sécurité Gestionnaire des traitements par lots
                   href: sysadmin/runby.md
-                - name: Traitement par lots de gérer la défragmentation de l'index SQL
+                - name: Traitement par lots pour gérer la défragmentation de l'index SQL
                   href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: Configurer des alertes de traitement par lots
                   href: sysadmin/alerts.md
