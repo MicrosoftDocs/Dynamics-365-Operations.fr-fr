@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HcmSkillMapping
+ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations
@@ -16,47 +16,47 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68ea6709433a14765dce4be0971ea348a553b39f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6cf056f9c8f1f24bb6eb0f619c476b1095a854bb
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008989"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428637"
 ---
-# <a name="develop-succession-plan"></a><span data-ttu-id="86bf6-103">Développer un plan de succession</span><span class="sxs-lookup"><span data-stu-id="86bf6-103">Develop succession plan</span></span>
+# <a name="develop-succession-plan"></a><span data-ttu-id="b73df-103">Développer un plan de succession</span><span class="sxs-lookup"><span data-stu-id="b73df-103">Develop succession plan</span></span>
 
 
 
-<span data-ttu-id="86bf6-104">À mesure que votre organisation se développe et que vous planifiez la relève, vous pouvez souhaiter rechercher une personne ayant des qualifications similaires à une autre personne.</span><span class="sxs-lookup"><span data-stu-id="86bf6-104">As your organization grows, and you consider succession planning, you may want to find someone who has similar skills to another person.</span></span>  <span data-ttu-id="86bf6-105">La mise en correspondance des qualifications vous permet d'analyser les employés et les candidats existants pour voir s'ils ont les mêmes compétences que les bons employés.</span><span class="sxs-lookup"><span data-stu-id="86bf6-105">Skill mapping allows you to analyse your existing employees and applicants to see if they match the skill set of a valued employee.</span></span> <span data-ttu-id="86bf6-106">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="86bf6-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="b73df-104">À mesure que votre organisation se développe et que vous planifiez la relève, vous pouvez souhaiter rechercher une personne ayant des qualifications similaires à une autre personne.</span><span class="sxs-lookup"><span data-stu-id="b73df-104">As your organization grows, and you consider succession planning, you may want to find someone who has similar skills to another person.</span></span>  <span data-ttu-id="b73df-105">La mise en correspondance des qualifications vous permet d'analyser les employés et les candidats existants pour voir s'ils ont les mêmes compétences que les bons employés.</span><span class="sxs-lookup"><span data-stu-id="b73df-105">Skill mapping allows you to analyse your existing employees and applicants to see if they match the skill set of a valued employee.</span></span> <span data-ttu-id="b73df-106">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="b73df-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="86bf6-107">Accédez à Ressources humaines > Compétences > Analyse des qualifications > Profils de mise en correspondance des qualifications.</span><span class="sxs-lookup"><span data-stu-id="86bf6-107">Go to Human resources > Competencies > Skill analysis > Skill mapping profiles.</span></span>
-2. <span data-ttu-id="86bf6-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="86bf6-108">Click New.</span></span>
-3. <span data-ttu-id="86bf6-109">Dans le champ Mise en correspondance des qualifications, entrez un nom pour la mise en correspondance des qualifications.</span><span class="sxs-lookup"><span data-stu-id="86bf6-109">In the Skill mapping field, In the Skill mapping field, enter a name for your skill mapping.</span></span>  <span data-ttu-id="86bf6-110">Exemple : Employé.</span><span class="sxs-lookup"><span data-stu-id="86bf6-110">Example: Employee.</span></span>
-4. <span data-ttu-id="86bf6-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="86bf6-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="86bf6-112">Entrez une date dans le champ Date.</span><span class="sxs-lookup"><span data-stu-id="86bf6-112">In the Date field, enter a date.</span></span>
-6. <span data-ttu-id="86bf6-113">Cliquez sur Extraire un profil.</span><span class="sxs-lookup"><span data-stu-id="86bf6-113">Click Retrieve profile.</span></span>
-7. <span data-ttu-id="86bf6-114">Cliquez sur Personne.</span><span class="sxs-lookup"><span data-stu-id="86bf6-114">Click Person.</span></span>
-8. <span data-ttu-id="86bf6-115">Entrez un nom ou sélectionnez le menu déroulant dans le champ Personne.</span><span class="sxs-lookup"><span data-stu-id="86bf6-115">In the Person field, type in a name, or select the drop down.</span></span>  <span data-ttu-id="86bf6-116">Exemple : Cassie Hicks.</span><span class="sxs-lookup"><span data-stu-id="86bf6-116">Example: Cassie Hicks.</span></span>
-9. <span data-ttu-id="86bf6-117">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="86bf6-117">Click OK.</span></span>
-10. <span data-ttu-id="86bf6-118">Développez l'organisateur Certificats pour afficher ou modifier les certificats inclus dans la mise en correspondance des qualifications.</span><span class="sxs-lookup"><span data-stu-id="86bf6-118">Exapnd the certificates fast tab to view or edit the certificates included in the skill mapping.</span></span>
-11. <span data-ttu-id="86bf6-119">Développez l'organisateur Qualifications pour afficher ou modifier les qualifications à inclure.</span><span class="sxs-lookup"><span data-stu-id="86bf6-119">Expand the Skills fast tab to view or edit the skills to be included.</span></span>
-12. <span data-ttu-id="86bf6-120">Marquez la première ligne de la liste.</span><span class="sxs-lookup"><span data-stu-id="86bf6-120">In the list, mark the first row.</span></span>  <span data-ttu-id="86bf6-121">Exemple : Comptabilité.</span><span class="sxs-lookup"><span data-stu-id="86bf6-121">Example:  Accounting</span></span>
-13. <span data-ttu-id="86bf6-122">Activez la case à cocher Facultatif.</span><span class="sxs-lookup"><span data-stu-id="86bf6-122">Click the Optional checkbox.</span></span>
-14. <span data-ttu-id="86bf6-123">Sélectionnez une option dans le champ Importance.</span><span class="sxs-lookup"><span data-stu-id="86bf6-123">In the Importance field, select an option.</span></span>
-    * <span data-ttu-id="86bf6-124">Lorsque vous marquez une qualification comme facultative, vous devez sélectionner son niveau d'importance.</span><span class="sxs-lookup"><span data-stu-id="86bf6-124">When you mark a skill as optional, you are required to select the importance level of the skill.</span></span>  
-15. <span data-ttu-id="86bf6-125">Sélectionnez la ligne 2 dans la liste.</span><span class="sxs-lookup"><span data-stu-id="86bf6-125">In the list, select row 2.</span></span>
-16. <span data-ttu-id="86bf6-126">Activez la case à cocher Facultatif.</span><span class="sxs-lookup"><span data-stu-id="86bf6-126">Click the Optional checkbox.</span></span>
-17. <span data-ttu-id="86bf6-127">Sélectionnez une option dans le champ Importance.</span><span class="sxs-lookup"><span data-stu-id="86bf6-127">In the Importance field, select an option.</span></span>
-18. <span data-ttu-id="86bf6-128">Sélectionnez la ligne 3 dans la liste.</span><span class="sxs-lookup"><span data-stu-id="86bf6-128">In the list, select row 3.</span></span>
-19. <span data-ttu-id="86bf6-129">Activez la case à cocher Facultatif.</span><span class="sxs-lookup"><span data-stu-id="86bf6-129">Click the Optional checkbox.</span></span>
-20. <span data-ttu-id="86bf6-130">Sélectionnez une option dans le champ Importance.</span><span class="sxs-lookup"><span data-stu-id="86bf6-130">In the Importance field, select an option.</span></span>
-21. <span data-ttu-id="86bf6-131">Sélectionnez la ligne 4 dans la liste.</span><span class="sxs-lookup"><span data-stu-id="86bf6-131">In the list, select row 4.</span></span>
-22. <span data-ttu-id="86bf6-132">Activez la case à cocher Facultatif.</span><span class="sxs-lookup"><span data-stu-id="86bf6-132">Click the Optional checkbox.</span></span>
-23. <span data-ttu-id="86bf6-133">Sélectionnez une option dans le champ Importance.</span><span class="sxs-lookup"><span data-stu-id="86bf6-133">In the Importance field, select an option.</span></span>
-24. <span data-ttu-id="86bf6-134">Développez l'organisateur Formation pour afficher ou modifier les compétences de formation à inclure dans la mise en correspondance des qualifications.</span><span class="sxs-lookup"><span data-stu-id="86bf6-134">Expand the Education fast tab to view or edit the education competencies to be included in the skill mapping.</span></span>
-25. <span data-ttu-id="86bf6-135">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="86bf6-135">Click Execute.</span></span>
-26. <span data-ttu-id="86bf6-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="86bf6-136">Click OK.</span></span>
-27. <span data-ttu-id="86bf6-137">Cliquez sur Résultat.</span><span class="sxs-lookup"><span data-stu-id="86bf6-137">Click Result.</span></span>
-28. <span data-ttu-id="86bf6-138">Cliquez sur État.</span><span class="sxs-lookup"><span data-stu-id="86bf6-138">Click Report.</span></span>
-    * <span data-ttu-id="86bf6-139">L'état indiquera les meilleures correspondances tout en haut.</span><span class="sxs-lookup"><span data-stu-id="86bf6-139">The report will list the best matches at the top of the report.</span></span>  <span data-ttu-id="86bf6-140">Vous pouvez noter qu'un écart est répertorié.</span><span class="sxs-lookup"><span data-stu-id="86bf6-140">You can see that there is a gap element listed.</span></span>  <span data-ttu-id="86bf6-141">Il s'agit de la différence entre le niveau qui était indiqué sur la mise en correspondance des qualifications, et le niveau de la qualification affectée à la personne.</span><span class="sxs-lookup"><span data-stu-id="86bf6-141">This is the difference between the level that was listed on the skill mapping, and the level of the skill that is assigned to the person.</span></span>  
+1. <span data-ttu-id="b73df-107">Accédez à Ressources humaines > Compétences > Analyse des qualifications > Profils de mise en correspondance des qualifications.</span><span class="sxs-lookup"><span data-stu-id="b73df-107">Go to Human resources > Competencies > Skill analysis > Skill mapping profiles.</span></span>
+2. <span data-ttu-id="b73df-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="b73df-108">Click New.</span></span>
+3. <span data-ttu-id="b73df-109">Dans le champ Mise en correspondance des qualifications, entrez un nom pour la mise en correspondance des qualifications.</span><span class="sxs-lookup"><span data-stu-id="b73df-109">In the Skill mapping field, In the Skill mapping field, enter a name for your skill mapping.</span></span>  <span data-ttu-id="b73df-110">Exemple : Employé.</span><span class="sxs-lookup"><span data-stu-id="b73df-110">Example: Employee.</span></span>
+4. <span data-ttu-id="b73df-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b73df-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="b73df-112">Entrez une date dans le champ Date.</span><span class="sxs-lookup"><span data-stu-id="b73df-112">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="b73df-113">Cliquez sur Extraire un profil.</span><span class="sxs-lookup"><span data-stu-id="b73df-113">Click Retrieve profile.</span></span>
+7. <span data-ttu-id="b73df-114">Cliquez sur Personne.</span><span class="sxs-lookup"><span data-stu-id="b73df-114">Click Person.</span></span>
+8. <span data-ttu-id="b73df-115">Entrez un nom ou sélectionnez le menu déroulant dans le champ Personne.</span><span class="sxs-lookup"><span data-stu-id="b73df-115">In the Person field, type in a name, or select the drop down.</span></span>  <span data-ttu-id="b73df-116">Exemple : Cassie Hicks.</span><span class="sxs-lookup"><span data-stu-id="b73df-116">Example: Cassie Hicks.</span></span>
+9. <span data-ttu-id="b73df-117">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b73df-117">Click OK.</span></span>
+10. <span data-ttu-id="b73df-118">Développez l'organisateur Certificats pour afficher ou modifier les certificats inclus dans la mise en correspondance des qualifications.</span><span class="sxs-lookup"><span data-stu-id="b73df-118">Exapnd the certificates fast tab to view or edit the certificates included in the skill mapping.</span></span>
+11. <span data-ttu-id="b73df-119">Développez l'organisateur Qualifications pour afficher ou modifier les qualifications à inclure.</span><span class="sxs-lookup"><span data-stu-id="b73df-119">Expand the Skills fast tab to view or edit the skills to be included.</span></span>
+12. <span data-ttu-id="b73df-120">Marquez la première ligne de la liste.</span><span class="sxs-lookup"><span data-stu-id="b73df-120">In the list, mark the first row.</span></span>  <span data-ttu-id="b73df-121">Exemple : Comptabilité.</span><span class="sxs-lookup"><span data-stu-id="b73df-121">Example:  Accounting</span></span>
+13. <span data-ttu-id="b73df-122">Activez la case à cocher Facultatif.</span><span class="sxs-lookup"><span data-stu-id="b73df-122">Click the Optional checkbox.</span></span>
+14. <span data-ttu-id="b73df-123">Sélectionnez une option dans le champ Importance.</span><span class="sxs-lookup"><span data-stu-id="b73df-123">In the Importance field, select an option.</span></span>
+    * <span data-ttu-id="b73df-124">Lorsque vous marquez une qualification comme facultative, vous devez sélectionner son niveau d'importance.</span><span class="sxs-lookup"><span data-stu-id="b73df-124">When you mark a skill as optional, you are required to select the importance level of the skill.</span></span>  
+15. <span data-ttu-id="b73df-125">Sélectionnez la ligne 2 dans la liste.</span><span class="sxs-lookup"><span data-stu-id="b73df-125">In the list, select row 2.</span></span>
+16. <span data-ttu-id="b73df-126">Activez la case à cocher Facultatif.</span><span class="sxs-lookup"><span data-stu-id="b73df-126">Click the Optional checkbox.</span></span>
+17. <span data-ttu-id="b73df-127">Sélectionnez une option dans le champ Importance.</span><span class="sxs-lookup"><span data-stu-id="b73df-127">In the Importance field, select an option.</span></span>
+18. <span data-ttu-id="b73df-128">Sélectionnez la ligne 3 dans la liste.</span><span class="sxs-lookup"><span data-stu-id="b73df-128">In the list, select row 3.</span></span>
+19. <span data-ttu-id="b73df-129">Activez la case à cocher Facultatif.</span><span class="sxs-lookup"><span data-stu-id="b73df-129">Click the Optional checkbox.</span></span>
+20. <span data-ttu-id="b73df-130">Sélectionnez une option dans le champ Importance.</span><span class="sxs-lookup"><span data-stu-id="b73df-130">In the Importance field, select an option.</span></span>
+21. <span data-ttu-id="b73df-131">Sélectionnez la ligne 4 dans la liste.</span><span class="sxs-lookup"><span data-stu-id="b73df-131">In the list, select row 4.</span></span>
+22. <span data-ttu-id="b73df-132">Activez la case à cocher Facultatif.</span><span class="sxs-lookup"><span data-stu-id="b73df-132">Click the Optional checkbox.</span></span>
+23. <span data-ttu-id="b73df-133">Sélectionnez une option dans le champ Importance.</span><span class="sxs-lookup"><span data-stu-id="b73df-133">In the Importance field, select an option.</span></span>
+24. <span data-ttu-id="b73df-134">Développez l'organisateur Formation pour afficher ou modifier les compétences de formation à inclure dans la mise en correspondance des qualifications.</span><span class="sxs-lookup"><span data-stu-id="b73df-134">Expand the Education fast tab to view or edit the education competencies to be included in the skill mapping.</span></span>
+25. <span data-ttu-id="b73df-135">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="b73df-135">Click Execute.</span></span>
+26. <span data-ttu-id="b73df-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="b73df-136">Click OK.</span></span>
+27. <span data-ttu-id="b73df-137">Cliquez sur Résultat.</span><span class="sxs-lookup"><span data-stu-id="b73df-137">Click Result.</span></span>
+28. <span data-ttu-id="b73df-138">Cliquez sur État.</span><span class="sxs-lookup"><span data-stu-id="b73df-138">Click Report.</span></span>
+    * <span data-ttu-id="b73df-139">L'état indiquera les meilleures correspondances tout en haut.</span><span class="sxs-lookup"><span data-stu-id="b73df-139">The report will list the best matches at the top of the report.</span></span>  <span data-ttu-id="b73df-140">Vous pouvez noter qu'un écart est répertorié.</span><span class="sxs-lookup"><span data-stu-id="b73df-140">You can see that there is a gap element listed.</span></span>  <span data-ttu-id="b73df-141">Il s'agit de la différence entre le niveau qui était indiqué sur la mise en correspondance des qualifications, et le niveau de la qualification affectée à la personne.</span><span class="sxs-lookup"><span data-stu-id="b73df-141">This is the difference between the level that was listed on the skill mapping, and the level of the skill that is assigned to the person.</span></span>  
 

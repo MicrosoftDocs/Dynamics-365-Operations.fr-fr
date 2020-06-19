@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,60 +18,60 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198025"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428800"
 ---
-# <a name="create-a-working-time-calendar"></a><span data-ttu-id="e67ce-103">Création d'un calendrier du temps de travail</span><span class="sxs-lookup"><span data-stu-id="e67ce-103">Create a working time calendar</span></span>
+# <a name="create-a-working-time-calendar"></a><span data-ttu-id="72a5e-103">Création d'un calendrier du temps de travail</span><span class="sxs-lookup"><span data-stu-id="72a5e-103">Create a working time calendar</span></span>
 
-<span data-ttu-id="e67ce-104">Un calendrier du temps de travail Dynamics 365 Human Resources affiche les jours et les heures de travail des employés dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="e67ce-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="e67ce-105">Lorsqu'un employé soumet une demande de congé, il n'a pas à se soucier des congés et des fermetures.</span><span class="sxs-lookup"><span data-stu-id="e67ce-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
+<span data-ttu-id="72a5e-104">Un calendrier du temps de travail Dynamics 365 Human Resources affiche les jours et les heures de travail des employés dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="72a5e-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="72a5e-105">Lorsqu'un employé soumet une demande de congé, il n'a pas à se soucier des congés et des fermetures.</span><span class="sxs-lookup"><span data-stu-id="72a5e-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
 
-<span data-ttu-id="e67ce-106">Pour rationaliser les demandes de congés, configurez ces éléments pour votre organisation :</span><span class="sxs-lookup"><span data-stu-id="e67ce-106">To streamline time-off requests, configure these items for your organization:</span></span>
+<span data-ttu-id="72a5e-106">Pour rationaliser les demandes de congés, configurez ces éléments pour votre organisation :</span><span class="sxs-lookup"><span data-stu-id="72a5e-106">To streamline time-off requests, configure these items for your organization:</span></span>
 
-- <span data-ttu-id="e67ce-107">Calendrier du temps de travail</span><span class="sxs-lookup"><span data-stu-id="e67ce-107">Working time calendar</span></span>
-- <span data-ttu-id="e67ce-108">Congés et fermetures</span><span class="sxs-lookup"><span data-stu-id="e67ce-108">Holidays and closures</span></span>
-- <span data-ttu-id="e67ce-109">Temps libre</span><span class="sxs-lookup"><span data-stu-id="e67ce-109">Non-work time</span></span>
+- <span data-ttu-id="72a5e-107">Calendrier du temps de travail</span><span class="sxs-lookup"><span data-stu-id="72a5e-107">Working time calendar</span></span>
+- <span data-ttu-id="72a5e-108">Congés et fermetures</span><span class="sxs-lookup"><span data-stu-id="72a5e-108">Holidays and closures</span></span>
+- <span data-ttu-id="72a5e-109">Temps libre</span><span class="sxs-lookup"><span data-stu-id="72a5e-109">Non-work time</span></span>
 
-<span data-ttu-id="e67ce-110">Vous pouvez ajouter les deux derniers éléments pendant que vous configurez un calendrier du temps de travail.</span><span class="sxs-lookup"><span data-stu-id="e67ce-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="e67ce-111">Vous pouvez également les configurer ou les mettre à jour séparément.</span><span class="sxs-lookup"><span data-stu-id="e67ce-111">You can also configure or update them separately.</span></span>
+<span data-ttu-id="72a5e-110">Vous pouvez ajouter les deux derniers éléments pendant que vous configurez un calendrier du temps de travail.</span><span class="sxs-lookup"><span data-stu-id="72a5e-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="72a5e-111">Vous pouvez également les configurer ou les mettre à jour séparément.</span><span class="sxs-lookup"><span data-stu-id="72a5e-111">You can also configure or update them separately.</span></span>
 
-## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="e67ce-112">Paramétrage d'un calendrier de temps de travail</span><span class="sxs-lookup"><span data-stu-id="e67ce-112">Set up a working time calendar</span></span>
+## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="72a5e-112">Paramétrage d'un calendrier de temps de travail</span><span class="sxs-lookup"><span data-stu-id="72a5e-112">Set up a working time calendar</span></span>
 
-<span data-ttu-id="e67ce-113">Configurez au moins un calendrier de temps de travail qui affiche vos jours et heures d'ouverture.</span><span class="sxs-lookup"><span data-stu-id="e67ce-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="e67ce-114">Si vous avez des emplacements dans plusieurs pays et régions, vous pouvez configurer un calendrier de temps de travail pour chaque zone.</span><span class="sxs-lookup"><span data-stu-id="e67ce-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
+<span data-ttu-id="72a5e-113">Configurez au moins un calendrier de temps de travail qui affiche vos jours et heures d'ouverture.</span><span class="sxs-lookup"><span data-stu-id="72a5e-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="72a5e-114">Si vous avez des emplacements dans plusieurs pays et régions, vous pouvez configurer un calendrier de temps de travail pour chaque zone.</span><span class="sxs-lookup"><span data-stu-id="72a5e-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
 
-1. <span data-ttu-id="e67ce-115">Dans la page **Administration d'organisation**, sélectionnez **Calendriers**.</span><span class="sxs-lookup"><span data-stu-id="e67ce-115">On the **Organization administration** page, select **Calendars**.</span></span>
+1. <span data-ttu-id="72a5e-115">Dans la page **Administration d'organisation**, sélectionnez **Calendriers**.</span><span class="sxs-lookup"><span data-stu-id="72a5e-115">On the **Organization administration** page, select **Calendars**.</span></span>
 
-2. <span data-ttu-id="e67ce-116">Sélectionnez **Nouveau** et entrez un nom et une description pour votre calendrier.</span><span class="sxs-lookup"><span data-stu-id="e67ce-116">Select **New** and enter a name and description for your calendar.</span></span>
+2. <span data-ttu-id="72a5e-116">Sélectionnez **Nouveau** et entrez un nom et une description pour votre calendrier.</span><span class="sxs-lookup"><span data-stu-id="72a5e-116">Select **New** and enter a name and description for your calendar.</span></span>
 
-3. <span data-ttu-id="e67ce-117">Sous **Options de génération**, sélectionnez les jours ouvrables de votre organisation et saisissez les heures de travail.</span><span class="sxs-lookup"><span data-stu-id="e67ce-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
-   - <span data-ttu-id="e67ce-118">Pour ajouter un jour férié ou une fermeture, sélectionnez le bouton **Ajouter** à côté de **Congés et fermetures**.</span><span class="sxs-lookup"><span data-stu-id="e67ce-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
-   - <span data-ttu-id="e67ce-119">Pour ajouter du temps libre, comme des déjeuners ou des pauses, sélectionnez **Ajouter** sous **TEMPS LIBRE** et entrez le nom et la plage horaire.</span><span class="sxs-lookup"><span data-stu-id="e67ce-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
+3. <span data-ttu-id="72a5e-117">Sous **Options de génération**, sélectionnez les jours ouvrables de votre organisation et saisissez les heures de travail.</span><span class="sxs-lookup"><span data-stu-id="72a5e-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
+   - <span data-ttu-id="72a5e-118">Pour ajouter un jour férié ou une fermeture, sélectionnez le bouton **Ajouter** à côté de **Congés et fermetures**.</span><span class="sxs-lookup"><span data-stu-id="72a5e-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
+   - <span data-ttu-id="72a5e-119">Pour ajouter du temps libre, comme des déjeuners ou des pauses, sélectionnez **Ajouter** sous **TEMPS LIBRE** et entrez le nom et la plage horaire.</span><span class="sxs-lookup"><span data-stu-id="72a5e-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
 
-4. <span data-ttu-id="e67ce-120">Sous **Jours**, sélectionnez **Générer** pour générer les jours dans votre calendrier.</span><span class="sxs-lookup"><span data-stu-id="e67ce-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="e67ce-121">Saisissez la plage de dates de votre calendrier, puis sélectionnez **Générer des jours**.</span><span class="sxs-lookup"><span data-stu-id="e67ce-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
+4. <span data-ttu-id="72a5e-120">Sous **Jours**, sélectionnez **Générer** pour générer les jours dans votre calendrier.</span><span class="sxs-lookup"><span data-stu-id="72a5e-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="72a5e-121">Saisissez la plage de dates de votre calendrier, puis sélectionnez **Générer des jours**.</span><span class="sxs-lookup"><span data-stu-id="72a5e-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
 
-5. <span data-ttu-id="e67ce-122">Pour ajouter des plannings de travail, sous **Planning de travail**, sélectionnez **Ajouter**, puis entrez les heures de chaque planning de travail.</span><span class="sxs-lookup"><span data-stu-id="e67ce-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
+5. <span data-ttu-id="72a5e-122">Pour ajouter des plannings de travail, sous **Planning de travail**, sélectionnez **Ajouter**, puis entrez les heures de chaque planning de travail.</span><span class="sxs-lookup"><span data-stu-id="72a5e-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
 
-## <a name="configure-holidays-and-closures"></a><span data-ttu-id="e67ce-123">Configuration des congés et fermetures</span><span class="sxs-lookup"><span data-stu-id="e67ce-123">Configure holidays and closures</span></span>
+## <a name="configure-holidays-and-closures"></a><span data-ttu-id="72a5e-123">Configuration des congés et fermetures</span><span class="sxs-lookup"><span data-stu-id="72a5e-123">Configure holidays and closures</span></span>
 
-<span data-ttu-id="e67ce-124">Vous pouvez ajouter ou modifier des congés et des fermetures séparément d'un calendrier de temps de travail.</span><span class="sxs-lookup"><span data-stu-id="e67ce-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
+<span data-ttu-id="72a5e-124">Vous pouvez ajouter ou modifier des congés et des fermetures séparément d'un calendrier de temps de travail.</span><span class="sxs-lookup"><span data-stu-id="72a5e-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
 
-1. <span data-ttu-id="e67ce-125">Dans la page **Administration d'organisation**, sélectionnez **Congés et fermetures**.</span><span class="sxs-lookup"><span data-stu-id="e67ce-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
+1. <span data-ttu-id="72a5e-125">Dans la page **Administration d'organisation**, sélectionnez **Congés et fermetures**.</span><span class="sxs-lookup"><span data-stu-id="72a5e-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
 
-2. <span data-ttu-id="e67ce-126">Sélectionnez **Nouveau** et entrez un nom et une date de congés ou de fermeture.</span><span class="sxs-lookup"><span data-stu-id="e67ce-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
+2. <span data-ttu-id="72a5e-126">Sélectionnez **Nouveau** et entrez un nom et une date de congés ou de fermeture.</span><span class="sxs-lookup"><span data-stu-id="72a5e-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
 
-## <a name="configure-non-work-time"></a><span data-ttu-id="e67ce-127">Configuration du temps libre</span><span class="sxs-lookup"><span data-stu-id="e67ce-127">Configure non-work time</span></span>
+## <a name="configure-non-work-time"></a><span data-ttu-id="72a5e-127">Configuration du temps libre</span><span class="sxs-lookup"><span data-stu-id="72a5e-127">Configure non-work time</span></span>
 
-<span data-ttu-id="e67ce-128">Vous pouvez ajouter ou modifier du temps libre séparément d'un calendrier de temps de travail.</span><span class="sxs-lookup"><span data-stu-id="e67ce-128">You can add or change non-work times separately from a working time calendar.</span></span>
+<span data-ttu-id="72a5e-128">Vous pouvez ajouter ou modifier du temps libre séparément d'un calendrier de temps de travail.</span><span class="sxs-lookup"><span data-stu-id="72a5e-128">You can add or change non-work times separately from a working time calendar.</span></span>
 
-1. <span data-ttu-id="e67ce-129">Dans la page **Administration d'organisation**, sélectionnez **Temps libre**.</span><span class="sxs-lookup"><span data-stu-id="e67ce-129">On the **Organization administration** page, select **Non-work time**.</span></span>
+1. <span data-ttu-id="72a5e-129">Dans la page **Administration d'organisation**, sélectionnez **Temps libre**.</span><span class="sxs-lookup"><span data-stu-id="72a5e-129">On the **Organization administration** page, select **Non-work time**.</span></span>
 
-2. <span data-ttu-id="e67ce-130">Sélectionnez **Nouveau** et entrez le nom et la plage de temps pour le temps libre.</span><span class="sxs-lookup"><span data-stu-id="e67ce-130">Select **New** and enter a name and time range for the non-work time.</span></span>
+2. <span data-ttu-id="72a5e-130">Sélectionnez **Nouveau** et entrez le nom et la plage de temps pour le temps libre.</span><span class="sxs-lookup"><span data-stu-id="72a5e-130">Select **New** and enter a name and time range for the non-work time.</span></span>
 
-<span data-ttu-id="e67ce-131">Si vous avez activé la fonction d'aperçu des corrections des jours fériés pour les congés et absences, Human Resources utilise les dates de congés et de fermeture pour déterminer le nombre de jours à ajuster pour les employés inscrits au calendrier.</span><span class="sxs-lookup"><span data-stu-id="e67ce-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
+<span data-ttu-id="72a5e-131">Si vous avez activé la fonction d'aperçu des corrections des jours fériés pour les congés et absences, Human Resources utilise les dates de congés et de fermeture pour déterminer le nombre de jours à ajuster pour les employés inscrits au calendrier.</span><span class="sxs-lookup"><span data-stu-id="72a5e-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e67ce-132">Voir également :</span><span class="sxs-lookup"><span data-stu-id="e67ce-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="72a5e-132">Voir également :</span><span class="sxs-lookup"><span data-stu-id="72a5e-132">See also</span></span>
 
-- [<span data-ttu-id="e67ce-133">Vue d'ensemble des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="e67ce-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="e67ce-134">Configuration des types de congé et d'absence</span><span class="sxs-lookup"><span data-stu-id="e67ce-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+- [<span data-ttu-id="72a5e-133">Vue d'ensemble des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="72a5e-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="72a5e-134">Configuration des types de congé et d'absence</span><span class="sxs-lookup"><span data-stu-id="72a5e-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
