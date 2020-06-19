@@ -5,6 +5,8 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "28\_mai\_2020"
+          href: hr-whats-new-2020-05-28.md
         - name: "14\_mai\_2020"
           href: hr-whats-new-2020-05-14.md
         - name: "1er\_mai\_2020"
@@ -13,7 +15,7 @@
           href: hr-whats-new-2020-04-13.md
         - name: "3\_avril\_2020"
           href: hr-whats-new-2020-04-03.md
-        - name: 24 mars 2020
+        - name: "24\_mars\_2020"
           href: hr-whats-new-2020-03-24.md
         - name: 19 mars 2020
           href: hr-whats-new-2020-03-19.md
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Suspendre les congés
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Demande d'absence
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Gérer les congés des employés
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Afficher l'analyse des congés et des absences
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Afficher les calendriers des équipes et de la société
               href: hr-employee-self-service-calendar.md
+            - name: Gérer les stratégies d'achat et de vente de congés
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Achat et vente de congés
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Gérer les demandes de congé dans Teams
           href: hr-teams-leave-app.md
         - name: Développer les employés
