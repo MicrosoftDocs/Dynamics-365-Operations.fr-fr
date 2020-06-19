@@ -3,7 +3,7 @@ title: Module Lecteur vidéo
 description: Cette rubrique couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025644"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411157"
 ---
 # <a name="video-player-module"></a>Module Lecteur vidéo
 
@@ -47,6 +47,10 @@ Le module lecteur vidéo prend également en charge les pistes audio secondaires
 - Vidéos publicitaires ou vidéos sur les stratégies sur une page marketing
 - Vidéos marketing qui mettent en avant des fonctionnalités du produit sur les pages de détails des produits ou des pages marketing
 
+L'image suivante montre un exemple de module de lecture vidéo sur une page d'accueil.
+
+![Exemple de module de lecture vidéo](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Propriétés du module de lecture vidéo
 
 | Nom de la propriété         | Valeur                               | Description |
@@ -68,16 +72,28 @@ Le module lecteur vidéo prend également en charge les pistes audio secondaires
 
 Pour ajouter un module de lecteur vidéo à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Créez un modèle de page nommé **modèle de lecteur vidéo**.
-1. À l'emplacement **Principal** de la page par défaut, ajoutez un module de conteneur.
-1. Dans le module de conteneur, ajoutez le lecteur vidéo et les modules de lecteur de vidéo d'ambiance.
-1. Terminez la modification du modèle et publiez-le.
-1. Utilisez le modèle de lecteur vidéo que vous avez créé pour générer une page qui s'appelle **page Lecteur vidéo**.
-1. À l'emplacement **Principal** de la nouvelle page, ajoutez un module de lecteur de vidéo.
-1. Dans le volet des propriétés du module lecteur vidéo, sélectionnez **Ajouter une vidéo**.
+1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
+1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle de lecture vidéo**, puis cliquez sur **OK**.
+1. Dans l'emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Page par défaut**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Lecture vidéo**, puis sélectionnez **OK**.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier. 
+1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
+1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle de lecteur vidéo que vous avez créé. Sous **Nom de la page**, entrez **Page de lecteur vidéo**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Lecture vidéo**, puis sélectionnez **OK**.
+1. Dans le volet des propriétés du module de lecture vidéo, sélectionnez **Ajouter une vidéo**.
 1. Dans la boîte de dialogue **Sélecteur multimédia**, sélectionnez une vidéo, puis sélectionnez **Importer un nouvel élément multimédia**.
-1. Enregistrez et affichez un aperçu de la page. Vous devez voir le module vidéo sur la page. Vous pouvez modifier des paramètres supplémentaires pour personnaliser le comportement du module.
-1. Terminez la modification de la page et publiez-la.
+1. Dans l'Explorateur de fichiers, sélectionnez un fichier vidéo, puis sélectionnez **Ouvrir**.
+1. Dans la boîte de dialogue **Télécharger un élément multimédia**, entrez un titre et d'autres informations selon vos besoins, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélecteur multimédia**, sélectionnez **Fermer**.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. Vous devez voir le module vidéo sur la page. Vous pouvez modifier des paramètres supplémentaires pour personnaliser le comportement du module.
+1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier. 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

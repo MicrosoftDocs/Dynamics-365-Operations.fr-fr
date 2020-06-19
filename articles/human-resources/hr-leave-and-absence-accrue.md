@@ -3,12 +3,12 @@ title: Régulariser les plans de congé et d'absence
 description: Vous pouvez provisionner les congés et les absences dans Dynamics 365 Human Resources pour plusieurs employés ou pour un employé individuel.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197311"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429057"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Régulariser les plans de congé et d'absence
 
@@ -103,7 +103,19 @@ Supprimez les enregistrements de provisions pour un plan et une plage de dates s
 
 2. Sous **Gérer les congés**, sélectionnez **Supprimer l'audit de provision de congés**.
 
+## <a name="configure-preview-features"></a>Configuration des fonctionnalités d'aperçu
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+Si vous avez activé les fonctionnalités d'aperçu pour les congés et les absences, vous devez également configurer des paramètres pour elles.
+
+### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Régulariser les congés par société ou par plan de congé
+
+Lorsque vous régularisez des plans de congés et d'absence, vous pouvez choisir de le faire pour toutes les sociétés. Si vous choisissez toutes les sociétés, vous ne pouvez pas sélectionner de plans de congé individuels. Si vous choisissez de ne pas opérer la régularisation pour toutes les sociétés, vous pouvez l'opérer pour un plan de congé spécifique. 
+
+Ces options sont disponibles lors de la régularisation pour tous les employés ou pour les employés individuels. 
+
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
-- [Créer un plan de congé et d'absence](hr-leave-and-absence-plans.md)
+[Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)</br>
+[Créer un plan de congé et d'absence](hr-leave-and-absence-plans.md)

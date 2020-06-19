@@ -3,12 +3,12 @@ title: Configuration des types de congé et d'absence
 description: Configurez les types de congés que les employés peuvent prendre dans Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198048"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428591"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configuration des types de congé et d'absence
 
@@ -56,7 +56,9 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 
 8. Sous **Restreindre l'accès aux rôles sélectionnés**, choisissez si vous souhaitez restreindre l'accès. Sélectionnez ensuite les rôles de sécurité sous **Rôles de sécurité pour ce type de congé**. Les rôles de sécurité sont définis dans le workflow que vous avez sélectionné sous **ID workflow**plus tôt dans cette procédure.
 
-9. Sélectionnez **Enregistrer**.
+9. En dessous de **Relations de suspension**, choisissez si vous souhaitez que ce type de congé suspende un autre type de congé ou soit suspendu par un autre type de congé. Lorsqu'une demande de congé est soumise pour le type de congé suspendu, une suspension de congé est automatiquement créée pour le type de congé suspendu. 
+
+10. Sélectionnez **Enregistrer**.
 
 ## <a name="configure-leave-type-rules"></a>Configurer les règles de type de congé
 
@@ -66,16 +68,15 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 
    Vous définissez des congés dans le calendrier du temps de travail. Pour plus d'informations, voir [Création d'un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
    
-## <a name="configure-preview-features"></a>Configuration des fonctionnalités d'aperçu
-
-Si vous avez activé les fonctionnalités d'aperçu pour les congés et les absences, vous devez également configurer des paramètres pour elles.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. Sélectionnez le type de congé pour le report des soldes à transférer. Vous pouvez également créer un nouveau type de congé pour le report. 
-
+ 3. Définissez **Report de type de congé** pour le type de congé. Lorsque vous sélectionnez cette option, tous les soldes de report seront transférés vers le type de congé spécifié. Le report de type de congé doit également être inclus dans le plan de congé et d'absence. 
+ 
+ 4. Définissez **Règles d'expiration** pour le type de congé. Lorsque vous configurez cette option, vous pouvez choisir l'unité jours ou mois et définir la durée de l'expiration. Vous pouvez également définir la date d'entrée en vigueur de la règle d'expiration. Tout solde de congé existant au moment de l'expiration sera soustrait du type de congé et sera reflété dans le solde de congé. 
+ 
+ 
 ## <a name="see-also"></a>Voir également :
 
 - [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Créer un plan de congé et d'absence](hr-leave-and-absence-plans.md)
-- [Création d'un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
+- [Créer un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
+- [Suspendre les congés](hr-leave-and-absence-suspend-leave.md)
+

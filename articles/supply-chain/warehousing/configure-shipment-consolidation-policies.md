@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383768"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403333"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurer les stratégies de consolidation de l'expédition
 
@@ -270,7 +270,7 @@ Dans cet exemple, vous allez créer une stratégie *Clients autorisant la consol
 
 - La stratégie recherchera un regroupement de commandes spécifique pour identifier les clients qui acceptent les expéditions consolidées.
 - La consolidation avec les expéditions en cours est désactivée.
-- La consolidation est effectuée entre les commandes à l'aide des champs sélectionnés par la stratégie CrossOrder par défaut (pour répliquer la case à cocher **Entrepôt** précédente).
+- La consolidation est effectuée entre les commandes à l'aide des champs sélectionnés par la stratégie CrossOrder par défaut (pour répliquer la case à cocher **Consolider l'expédition au lancement dans l'entrepôt** antérieure).
 
 - Vous pouvez remplacer la règle sur une commande client en sélectionnant un regroupement de commandes différent.
 
@@ -306,7 +306,7 @@ Dans cet exemple, vous allez créer une stratégie *Entrepôts autorisant la con
 
 - La stratégie recherchera un regroupement de commandes spécifique pour identifier les entrepôts qui peuvent consolider les expéditions.
 - La consolidation avec les expéditions en cours est désactivée.
-- La consolidation est effectuée entre les commandes à l'aide des champs sélectionnés par la stratégie CrossOrder par défaut (pour répliquer la case à cocher **Entrepôt** précédente).
+- La consolidation est effectuée entre les commandes à l'aide des champs sélectionnés par la stratégie CrossOrder par défaut (pour répliquer la case à cocher **Consolider l'expédition au lancement dans l'entrepôt** antérieure).
 
 En règle générale, cette analyse de rentabilisation peut être traitée à l'aide des stratégies par défaut que vous avez créées dans le [Scénario 1](#scenario-1). Cependant, vous pouvez également créer manuellement des stratégies similaires en suivant ces étapes.
 

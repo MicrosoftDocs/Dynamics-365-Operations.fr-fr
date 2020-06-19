@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276914"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413097"
 ---
 # <a name="inventory-value-storage-report"></a>État de stockage de la valeur de stock
 
@@ -50,7 +50,7 @@ Procédez comme suit pour générer et stocker un état **Stockage de valeur de 
 1. Sélectionnez **Nouveau**.
 1. Dans la boîte de dialogue **Valeur de stock** qui apparaît, définissez les valeurs suivantes pour définir les enregistrements à inclure dans votre état :
 
-    - Sur l'organisateur **Paramètres**, entrez un nom unique pour l'état et utilisez les champs de la section **Intervalle de dates** pour définir les enregistrements à inclure dans le rapport. Pour définir l'intervalle de dates, vous pouvez soit sélectionner une plage prédéfinie (par rapport à la date de génération du rapport) dans le champ **Code d'intervalle de dates** ou sélectionner des dates spécifiques dans les champs **Date de début** et **Date de fin**. <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - Sur l'organisateur **Paramètres**, entrez un nom unique pour l'état et utilisez les champs de la section **Intervalle de dates** pour définir les enregistrements à inclure dans le rapport. Pour définir l'intervalle de dates, vous pouvez soit sélectionner une plage prédéfinie (par rapport à la date de génération du rapport) dans le champ **Code d'intervalle de dates** ou sélectionner des dates spécifiques dans les champs **Date de début** et **Date de fin**.
     - Dans l'organisateur **Enregistrements à inclure**, configurez des filtres et des contraintes pour définir les données incluses dans le rapport.
     - Sur l'organisateur **Exécuter en arrière-plan**, spécifiez comment, quand et à quelle fréquence le rapport est généré.
 

@@ -3,7 +3,7 @@ title: Module de bannière promotionnelle
 description: Cette rubrique couvre les modules de bannière promotionnelle et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269772"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411363"
 ---
 # <a name="promo-banner-module"></a>Module de bannière promotionnelle
-
 
 [!include [banner](includes/banner.md)]
 
@@ -48,9 +47,15 @@ Les bannières promotionnelles peuvent être utilisées dans l'en-tête du site 
 
 « Réalisez des économisez avec les soldes de la rentrée. Achetez dès maintenant. »
 
+« Profitez des soldes de Thanksgiving ! » 
+
+L'image suivante montre un exemple d'une bannière promotionnelle.
+
+![Exemple d'un module de bannière promotionnelle](./media/ecommerce-Promobanner.PNG)
+
 ## <a name="promo-banner-module-properties"></a>Propriétés du module de bannière promotionnelle
 
-| Nom de la propriété             | Value                              | Description |
+| Nom de la propriété             | Valeur                              | Description |
 |---------------------------|------------------------------------|-------------|
 | Messages de bannière           | Texte et liens                     | Un groupe de texte et de liens. |
 | Lire automatiquement                  | **Vrai** ou **Faux**              | Une valeur qui indique si les messages sont automatiquement parcourus, si plusieurs messages sont configurés. |
@@ -64,7 +69,7 @@ Les bannières promotionnelles peuvent être utilisées dans l'en-tête du site 
 
 Pour ajouter un module de bannière promotionnelle à une page et définir les propriétés requises, procédez comme suit.
 
-1. Sélectionnez **Nouveau** pour créer un modèle de page.
+1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle de bannière promotionnelle**, puis cliquez sur **OK**.
 1. Dans **Contour de la page**, ajoutez un module **Page par défaut** à l'emplacement **Corps**. 
 1. Sélectionnez **Terminer la modification** pour archiver le modèle, puis **Publier** pour le publier. 
@@ -74,7 +79,7 @@ Pour ajouter un module de bannière promotionnelle à une page et définir les p
 1. Dans **Contour de la page**, ajoutez un module bannière promotionnelle au module conteneur.
 1. Dans les paramètres du module de bannière, ajoutez un ou plusieurs messages de bannière. Chaque message peut avoir du texte avec un lien. Vous pouvez modifier les autres propriétés pour personnaliser davantage le module.
 1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. En haut de la page, vous devez voir une alerte avec le texte que vous avez ajouté.
-1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier. 
+1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 > [!NOTE]
 > Une bannière promotionnelle est généralement utilisée dans l'emplacement d'en-tête de page ou un emplacement de sous-titre.

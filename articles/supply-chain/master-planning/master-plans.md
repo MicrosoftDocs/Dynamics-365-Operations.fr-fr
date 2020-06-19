@@ -3,7 +3,7 @@ title: Vue d'ensemble des plans généraux
 description: Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d'entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
+ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213536"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409520"
 ---
 # <a name="master-plans-overview"></a>Vue d'ensemble des plans généraux
 
@@ -35,7 +35,7 @@ Utilisez différents plans généraux pour prendre en charge les opérations de 
 Vous pouvez configurer des plans généraux dans la page **Plans généraux**.
 
 Il existe deux types de plans :
--   **Plan statique** – Le calcul de planification utilise les données actuelles pour générer un plan de besoins nets. Ce plan n'est pas modifié jusqu'à la prochaine exécution de la planification. Il s'agit d'un plan opérationnel sur lequel différents types d'employés de l'entreprise, tels qu'un acheteur ou un gestionnaire de production, peuvent baser leurs décisions et qu'ils peuvent utiliser pour effectuer leurs tâches et activités quotidiennes.
+-   **Plan statique** – Le calcul de planification utilise les données actuelles pour générer un plan de besoins nets. Ce plan n'est pas modifié jusqu'à la prochaine exécution de la planification ou de la modification manuelle du plan. Il s'agit d'un plan opérationnel sur lequel différents types d'employés de l'entreprise, tels qu'un acheteur ou un gestionnaire de production, peuvent baser leurs décisions et qu'ils peuvent utiliser pour effectuer leurs tâches et activités quotidiennes.
 -   **Plan dynamique** – Ce plan démarre avec le plan de besoins nets qui a été généré par la planification. Cependant, vous pouvez mettre à jour le plan dynamique chaque fois que les données générales changent. Cela peut être le cas lorsque vous créez une commande client, par exemple. Cela vous permet de surveiller le réseau de commandes et la disponibilité d'articles changeants sans déranger le plan statique que d'autres utilisent pour leurs processus de travail.
 
 Une entreprise peut choisir de travailler uniquement avec un plan dynamique ou d'utiliser à la fois un plan statique et un plan dynamique. De plus, vous pouvez configurer un plan général pour refléter une stratégie particulière ou résoudre un problème. Voici quelques exemples :

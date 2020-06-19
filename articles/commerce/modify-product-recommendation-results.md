@@ -3,7 +3,7 @@ title: Ajuster les résultats de recommandation produit fondées sur l'IA et le 
 description: Cette rubrique explique comment personnaliser les résultats de recommandation de produit basés sur l'intelligence artificielle et le Machine Learning (IA et ML) votre entreprise.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afd9271c680b1f4248d6e60036f3e79d204dc3c2
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0b4228583c4a2b89d7139b51880cea0288d7fe49
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154339"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404369"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajuster les résultats de recommandation produit fondées sur l'IA et le ML
 
@@ -102,7 +102,7 @@ Procédez comme suit pour ajouter ou supprimer manuellement des résultats pour 
 
 [Vue d'ensemble des recommandations produit](product-recommendations.md)
 
-[Activer ADLS dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
+[Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Activer les recommandations produit](enable-product-recommendations.md)
 
