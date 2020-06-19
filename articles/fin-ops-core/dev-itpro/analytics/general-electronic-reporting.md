@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
+ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933930"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421653"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d'ensemble des états électroniques (ER)
 
@@ -40,7 +40,7 @@ Les états électroniques prennent actuellement en charge les formats de feuille
 ## <a name="capabilities"></a>Capacités
 Le moteur d'états électroniques est doté des fonctionnalités suivantes :
 
-- il représente un outil commun unique partagé pour la génération d'états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d'états électronique pour Finance and Operations.
+- il représente un outil commun unique partagé pour la génération d'états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d'états électronique Finance and Operations.
 - Il isole le format d’un état de l’implémentation actuelle. En d’autres termes, le format est applicable aux différentes versions.
 - Il prend en charge la création d'un format personnalisé qui est basé sur un format d'origine. Il inclut également des fonctionnalités permettant de mettre à niveau automatiquement le format personnalisé lorsque le format d'origine est modifié du fait que des spécifications de localisation/personnalisation sont introduites.
 - Il devient l'outil standard principal pour prendre en charge les exigences de localisation dans les états électroniques, pour Microsoft ainsi que pour les partenaires de Microsoft.
@@ -81,7 +81,7 @@ Un mappage de modèle qui prend en charge les documents électroniques entrants 
 
 Un composant de modèle de données est conçu pour chaque domaine d'activité qui devrait être utilisé comme une source de données unifiée pour les rapports qui isolent les rapports de l'implémentation physique des sources de données Finance and Operations. Il représente des concepts et des fonctionnalités d'entreprise spécifiques au domaine sous une forme qui rend la conception d'origine du format de rapport et toute autre maintenance plus efficaces.
 
-#### <a name="FormatComponentOutbound"></a>Composants de format pour les documents électroniques sortants
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Composants de format pour les documents électroniques sortants
 
 Un composant de format est le modèle utilisé pour la sortie générée au moment de l'exécution. Un modèle se compose des éléments suivants :
 
@@ -107,7 +107,7 @@ L'illustration ci-dessous indique les flux de données pour ces formats.
 
 Pour exécuter une configuration de format de génération d'états électroniques unique et générer un document électronique sortant, vous devez identifier le mappage de la configuration de format.
 
-#### <a name="FormatComponentInbound"></a>Composants de format pour les documents électroniques entrants
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Composants de format pour les documents électroniques entrants
 Un composant de format est le modèle de document entrant qui est importé au moment de l'exécution. Un modèle se compose des éléments suivants :
 
 - Un format qui définit la structure et le contenu d'un document électronique entrant contenant des données qui sont importées au moment de l'exécution. Un composant de format est utilisé pour analyser un document entrant dans différents formats : texte et XML.
@@ -144,7 +144,7 @@ L'accès aux composants de format d'états électroniques dépend du paramètre 
 
 Différentes versions d'un composant de format de données peuvent avoir différents paramètres de codes pays/région ISO.
 
-#### <a name="Configuration"></a>Configuration
+#### <a name="configuration"></a><a name="Configuration"></a>Configuration
 
 Une configuration de la génération d'états électroniques est le wrapper d'un composant de génération d'états électroniques particulier. Ce composant peut être un composant du modèle de données ou un composant de format. Une configuration peut inclure différentes versions d'un composant d'état électronique. Chaque configuration est marquée comme possédée par un fournisseur de configuration spécifique. La version **Brouillon** d'un composant d'une configuration peut être modifiée lorsque le propriétaire d'une configuration a été sélectionné comme fournisseur actif dans les paramètres d'états électroniques dans l'application.
 
@@ -154,26 +154,26 @@ La configuration de format qui est créée contient un composant de format. Le c
 
 Une configuration d'état électronique est partagée pour les sociétés de l'application.
 
-#### <a name="Provider"></a>Fournisseur
+#### <a name="provider"></a><a name="Provider"></a>Fournisseur
 
 Le fournisseur d'états électroniques est l'identificateur de partie utilisé pour indiquer l'auteur (propriétaire) de chaque configuration d'état électronique. L'état électronique vous permet de gérer la liste des fournisseurs de configuration. Les configurations de format émises pour les documents électroniques dans le cadre de la solution Finance and Operations sont marquées comme détenues par le fournisseur de configuration **Microsoft**.
 
 Pour savoir comment enregistrer un nouveau fournisseur d'états électroniques, consultez le Guide de tâche, **Génération d'états électroniques - Créer un fournisseur de configuration et le marquer comme actif** (qui fait partie du processus d'entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
-#### <a name="Repository"></a>Référentiel
+#### <a name="repository"></a><a name="Repository"></a>Référentiel
 
 Un référentiel d'états électroniques enregistre les configurations d'états électroniques. Les types de référentiels ER suivants sont actuellement pris en charge : 
 
 - Bibliothèque LCS partagée
 - Projet LCS
-- Fichier système
-- Regulatory Configuration Services (RCS)
-- Ressources opérationnelles
-
+- Système de fichiers
+- RCS
+- Ressources Operations
+- Référentiel global
 
 Un référentiel **Bibliothèque LCS partagée** permet d'accéder à la liste des configurations dans la bibliothèque des actifs partagés de Lifecycle Services (LCS). Ce type de référentiel ER ne peut être enregistré que pour le fournisseur Microsoft. À partir de la bibliothèque d'actifs LCS partagés, vous pouvez importer les dernières versions des configurations ER dans l'instance actuelle.
 
-Un référentiel de **projet LCS** permet d'accéder à la liste des configurations d'un projet LCS spécifique (bibliothèque d'actifs de projet LCS) sélectionné à l'enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l'instance actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers l'instance Finance and Operations actuelle.
+Un référentiel **Projet LCS** permet d'accéder à la liste des configurations d'un projet LCS spécifique (bibliothèque d'actifs de projet LCS) sélectionné lors de l'enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l'instance actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers votre instance Finance and Operations actuelle.
 
 Un référentiel **Système de fichiers** permet d'accéder à la liste des configurations situées en tant que fichiers xml dans le dossier spécifique du système de fichiers local de l'ordinateur où le service AOS est hébergé. Le dossier requis est sélectionné au stade d'enregistrement du référentiel. Vous pouvez importer des configurations depuis un référentiel **Système de fichiers** vers l'instance actuelle. 
 
@@ -184,9 +184,13 @@ Notez que ce type de référentiel est accessible dans les environnements suivan
 
 Pour plus d'informations, voir [Importer les configurations de génération d'états électroniques (ER)](./electronic-reporting-import-ger-configurations.md).
 
-Un référentiel d'**Instance RCS** permet d'accéder à la liste des configurations d'une instance RCS spécifique sélectionnée à l'enregistrement du référentiel. La génération d'états électroniques permet d'importer des configurations terminées ou partagées de l'instance RCS sélectionnée dans l'instance actuelle, de manière à pouvoir les utiliser pour la génération d'états électroniques.
+Un référentiel **RCS** permet d'accéder à la liste des configurations d'une instance spécifique de [Configuration Service (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) sélectionnée à l'enregistrement du référentiel. La génération d'états électroniques permet d'importer des configurations terminées ou partagées de l'instance RCS sélectionnée dans l'instance actuelle, de manière à pouvoir les utiliser pour la génération d'états électroniques.
 
-Pour plus d'informations, voir [Importer les configurations des états électroniques (ER) des services de configuration réglementaires (RCS)](./rcs-download-configurations.md).
+Pour plus d'informations, voir [Importer les configurations de génération d'états électroniques (ER) à partir de RCS](./rcs-download-configurations.md).
+
+Un référentiel **Global** permet d'accéder à la liste des configurations dans le référentiel global dans le [Configuration Service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Ce type de référentiel ER ne peut être enregistré que pour le fournisseur Microsoft. À partir du référentiel global, vous pouvez importer les dernières versions des configurations ER dans l'instance actuelle.
+
+Pour plus d'informations, voir [Importer les configurations des états électroniques (ER) à partir du référentiel global de Configuration Service](./er-download-configurations-global-repo.md).
 
 Un référentiel **Ressources opérationnelles** permet d'accéder à la liste des configurations que Microsoft, en tant que fournisseur de configurations d'états électroniques, fournit à l'origine dans le cadre de la solution de l'application. Ces configurations peuvent être importées dans l'instance actuelle et être utilisées pour la génération d'états électroniques ou la lecture d'exemples de guides de tâches. Elles peuvent également être utilisées pour des localisations et personnalisations. Notez que les dernières versions des configurations ER fournies par Microsoft doivent être importées à partir de la bibliothèque des actifs LCS partagés à l'aide du référentiel ER correspondant.
 

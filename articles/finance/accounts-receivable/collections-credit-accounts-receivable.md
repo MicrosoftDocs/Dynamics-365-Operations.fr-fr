@@ -1,5 +1,5 @@
 ---
-title: Crédit et recouvrements dans la Comptabilité client
+title: Recouvrements dans Comptabilité client
 description: Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique à l'aide de la page Recouvrements de Microsoft Dynamics 365 Finance. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page Clients.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471de43bc0d171e60100613a6d779a249cd9e92f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189175"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426394"
 ---
-# <a name="credit-and-collections-in-accounts-receivable"></a>Crédit et recouvrements dans le module Ventes
+# <a name="collections-in-accounts-receivable"></a>Recouvrements dans Comptabilité client
 
 [!include [banner](../includes/banner.md)]
 

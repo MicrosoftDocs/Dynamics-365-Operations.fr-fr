@@ -3,7 +3,7 @@ title: Activer les recommandations produit
 description: Cette rubrique explique comment faire des recommandations de produit basées sur le Machine Learning et l'Intelligence artificielle disponible pour les clients Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259792"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404207"
 ---
 # <a name="enable-product-recommendations"></a>Activer les recommandations produit
 
@@ -34,11 +34,11 @@ Cette rubrique explique comment faire des recommandations de produit basées sur
 
 ## <a name="recommendations-pre-check"></a>Recommandations avant contrôle
 
-Avant l'activation, notez que les recommandations de produit sont uniquement prises en charge pour les clients Commerce qui ont migré leur stockage pour utiliser Azure Data Lake Storage (ADLS). 
+Avant l'activation, notez que les recommandations de produit sont uniquement prises en charge pour les clients Commerce qui ont migré leur stockage pour utiliser Azure Data Lake Storage. 
 
 Les configurations suivantes doivent être activées dans le back-office avant d'activer les recommandations :
 
-1. Assurez-vous qu'ADLS a été acheté et validé avec succès dans l'environnement. Pour en savoir plus, voir [S'assurer qu'ADLS a été acheté et validé avec succès dans l'environnement](enable-ADLS-environment.md).
+1. Assurez-vous qu'Azure Data Lake Storage a été acheté et validé avec succès dans l'environnement. Pour en savoir plus, voir [S'assurer qu'Azure Data Lake Storage a été acheté et validé avec succès dans l'environnement](enable-ADLS-environment.md).
 2. Assurez-vous que l'actualisation du magasin d'entités a été automatisée. Pour plus d'informations, voir [S'assurer que l'actualisation du magasin d'entités a été automatisée](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. Confirmez que la configuration d'identité Azure AD contient une entrée pour les recommandations. Vous trouverez ci-dessous plus d'informations sur la façon d'effectuer cette action.
 
@@ -92,7 +92,7 @@ Pour plus d'informations sur les recommandations personnalisées, voir [Activer 
 
 [Vue d'ensemble des recommandations produit](product-recommendations.md)
 
-[Activer ADLS dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
+[Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Activer les recommandations personnalisées](personalized-recommendations.md)
 

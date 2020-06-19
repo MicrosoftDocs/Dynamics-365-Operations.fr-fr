@@ -3,7 +3,7 @@ title: Vue d'ensemble des recommandations produit
 description: Cette rubrique fournit des informations générales sur les recommandations de produit. Les recommandations de produit permettent aux clients de rechercher facilement et rapidement les produits qu'ils souhaitent, et même les produits qu'il n'ont pas initialement prévu à acheter.
 author: Moonma
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e61136ed296d673e14600762c6f6199093530546
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154224"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404346"
 ---
 # <a name="product-recommendations-overview"></a>Vue d'ensemble des recommandations produit
 
@@ -40,7 +40,7 @@ Dans e-Commerce, les recommandations de produit sont optimisées par les technol
 
 Le service de recommandations des produits utilise les technologies d'intelligence artificielle et d'apprentissage automatique (AI-ML) de la manière suivante :
 
-- Les données au format requis par le service de recommandation sont extraites de la base de données opérationnelle de Commerce et envoyées à Azure Data Lake Storage (ADLS) ou le magasin Entité.
+- Les données au format requis par le service de recommandation sont extraites de la base de données opérationnelle de Commerce et envoyées à Azure Data Lake Storage ou au magasin Entité.
 - Le service de recommandations utilise les données stockées pour former des modèles de recommandation pour les listes **D'autres client aiment également**, **Fréquemment achetés ensemble**, **Nouveau**, **Meilleure vente**, et **Tendance**.
 
 ## <a name="scenarios"></a>Scénarios
@@ -56,7 +56,7 @@ Les recommandations de produit sont disponibles pour les scénarios suivants :
 
 Le tableau suivant décrit les différents types de recommandations de produits automatisés disponibles pour les détaillants à mettre en œuvre dans leur solution Dynamics 365 Commerce via le [module de collecte de produits](product-collection-module-overview.md). Les détaillants peuvent également afficher des résultats personnalisés pour un utilisateur connecté si l'auteur du site choisit cette option.
 
-| Module de collecte de produits  | Type | Description  |
+| Module de collecte de produits  | Type | Description |
 |----------------------------|------|-------------|
 | Nouveau                        | Algorithmique | Ce module affiche une liste des nouveaux produits qui ont été mis en correspondance récemment avec les canaux et les catalogues. |
 | Meilleures ventes               | Algorithmique | Ce module affiche une liste des produits qui sont classés selon le nombre de ventes le plus élevé. |
@@ -67,7 +67,7 @@ Le tableau suivant décrit les différents types de recommandations de produits 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Activer ADLS dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
+[Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Activer les recommandations produit](enable-product-recommendations.md)
 

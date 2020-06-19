@@ -3,7 +3,7 @@ title: Vues enregistrées
 description: Cette rubrique décrit l'utilisation des fonctionnalités de vues enregistrées.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260481"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412329"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
@@ -137,7 +137,7 @@ Si les modifications que vous souhaitez appliquer à une vue publiée impliquent
 7. [10.0.9/Mise à jour de la plateforme 33 ou ultérieure] Si vous aviez initialement choisi cette vue publiée comme vue par défaut, elle sera de nouveau la vue par défaut pour ces utilisateurs après la republication.  
 
 Si les modifications de la vue publiée impliquent de modifier les personnalisations ou les filtres associés à la vue, procédez comme suit : 
-1.  Passez à la vue publiée que vous souhaitez modifier. 
+1.  Chargez la vue publiée que vous souhaitez modifier. 
 2.  Enregistrez une copie de la vue publiée pour créer un brouillon local de la vue publiée. 
 3.  Modifiez le brouillon local avec les modifications nécessaires.
 4.  Publiez la vue avec le nom d'origine. 
@@ -149,14 +149,27 @@ Bien que tous les utilisateurs voient un onglet **Mes vues** affichant leurs vue
 
 Pour obtenir la liste de toutes les vues publiées pour la page, l'ensemble d'actions suivant est disponibles. 
 
--    **Publier** : Utilisez l'action **Publier** pour republier une vue après que les paramètres de publication (nom, description, rôles de sécurité ou entités juridiques) ont été modifiés.
--    **Supprimer** : Utilisez l'action **Supprimer** pour supprimer définitivement une vue publiée. Cette action permet de supprimer la vue pour tous les utilisateurs du système. La suppression des vues publiées prend effet après la sélection du bouton **Enregistrer**.
+-    **Publier** – Utilisez l'action **Publier** pour republier une vue après que les paramètres de publication (nom, description, rôles de sécurité ou entités juridiques) ont été modifiés.
+-    **Enregistrer comme personnel** – Utilisez l'action **Enregistrer comme personnel** pour créer un brouillon personnel de la vue publiée. Cette fonctionnalité peut vous aider à comprendre le contenu d'une vue qui n'a pas été publiée pour vous ou qui n'a pas encore été publiée. Vous pouvez également l'utiliser pour modifier puis republier une vue. Cette fonctionnalité est introduite dans la version 10.0.12.  
+-    **Supprimer** – Utilisez l'action **Supprimer** pour supprimer définitivement une vue publiée. Cette action permet de supprimer la vue pour tous les utilisateurs du système. La suppression des vues publiées prend effet après la sélection du bouton **Enregistrer**.
+
+## <a name="managing-views-globally"></a>Gestion globale des vues
+Bien que certaines fonctionnalités de gestion soient présentées sur chaque page, comme indiqué dans cette rubrique, les **administrateurs système** et les **administrateurs de vues enregistrées** peuvent gérer les vues de manière plus globale pour le système via la page **Personnalisation**. En particulier, cette page comporte les sections et fonctionnalités suivantes : 
+
+- **Vues publiées** – Cette section répertorie toutes les vues qui ont été publiées pour votre organisation. À partir de là, vous pouvez republier une vue après avoir ajusté les rôles de sécurité ou les entités juridiques ciblées par la vue. Vous pouvez également exporter ou supprimer une ou plusieurs vues publiées. Dans la version 10.0.12 et les versions ultérieures, vous pouvez utiliser l'action **Enregistrer comme personnel** pour créer une copie personnelle de la vue, afin de pouvoir la mettre à jour ou mieux comprendre son contenu. 
+- **Vues non publiées** –Cette section répertorie toutes les vues qui ont été importées dans votre système mais n'ont pas encore été publiées. Vous pouvez publier, exporter ou supprimer ces vues. L'action **Publication rapide** ajoutée dans la version 10.0.12 permet de publier plusieurs vues de cette section en une seule action, en utilisant le rôle de sécurité et les configurations d'entité juridique existants. Dans la version 10.0.12 et les versions ultérieures, vous pouvez utiliser l'action **Enregistrer comme personnel** pour créer des copies personnelles de ces vues, afin de pouvoir mieux comprendre leur contenu.   
+- **Vues personnelles** :– Cette section répertorie toutes les vues créées par les utilisateurs dans le système. De là, vous pouvez publier une vue personnelle dans l'organisation, ou copier une ou plusieurs de ces vues pour d'autres utilisateurs. Vous pouvez également exporter ou supprimer ces vues au besoin.
+- **Utilisateurs** : sélectionnez un utilisateur pour afficher une liste des pages visitées par celui-ci. Vous pouvez ensuite ajuster les capacités de personnalisation de l'utilisateur pour des pages spécifiques ou pour l'ensemble du système. Vous pouvez également importer, exporter ou effacer une personnalisation pour l'utilisateur. En outre, vous pouvez réinitialiser les légendes de fonction pour l'utilisateur. Alors, si l'utilisateur a ignoré précédemment des fenêtres contextuelles qui introduisaient de nouvelles fonctionnalités, elles s'afficheront de nouveau la prochaine fois que l'utilisateur rencontre ces fonctionnalités.
+- **Système** : vous pouvez désactiver temporairement la personnalisation de l'ensemble des utilisateurs du système. Dans ce cas, toutes les personnalisations sont supprimées pour tous les utilisateurs, et toutes les pages sont rétablies à leur état par défaut. Si vous réactivez la personnalisation ultérieurement, toutes les personnalisations sont réappliquées. Vous pouvez également supprimer définitivement toutes les personnalisations pour l'ensemble des utilisateurs du système. Les personnalisations qui ont été supprimées ne peuvent être restaurées. Par conséquent, avant d'effectuer cette tâche, veillez à exporter les personnalisations que vous souhaitez utiliser ultérieurement.
+
+Les utilisateurs qui ont accès à la page **Personnalisation** peuvent également importer des vues personnelles ou des modèles de vues à l'aide du bouton **Importer les vues** du volet Actions. Dans la version 10.0.12 et les versions ultérieures, un mécanisme a été ajouté pour publier immédiatement les vues lors de leur importation.  
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Comment activer des vues enregistrées dans mon environnement ? 
-Remarque : la fonctionnalité **Vues enregistrées** nécessite l'activation du système de personnalisation dans Finance and Operations. Si la personnalisation est désactivée pour tout l'environnement, les vues sont désactivées même si vous suivez la procédure ci-dessous. 
+> [!NOTE]
+> La fonctionnalité **Vues enregistrées** nécessite l'activation du système de personnalisation dans Finance and Operations. Si la personnalisation est désactivée pour tout l'environnement, les vues sont désactivées même si vous suivez la procédure ci-dessous. 
 
-**10.0.9/Mise à jour de la plateforme 33 et ultérieure** La fonctionnalité **Vues enregistrées** est disponible directement dans la gestion des fonctionnalités de tout environnement. Comme les autres fonctionnalités d'aperçu public, l'activation de cette fonctionnalité en production est soumise à l'[accord supplémentaire Conditions d'utilisation](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9/Mise à jour de la plateforme 33 et ultérieure** La fonctionnalité **Vues enregistrées** est disponible directement dans la gestion des fonctionnalités de tout environnement. Comme pour les autres fonctionnalités d'aperçu, l'activation de cette fonctionnalité en production est soumise à l'[accord supplémentaire Conditions d'utilisation](https://go.microsoft.com/fwlink/?linkid=2105274).  
 
 **10.0.8/Mise à jour de la plateforme 32 et antérieure** La fonctionnalité **Vues enregistrées** peut être activée dans les environnements de niveau 1 (développement/test) et de niveau 2 (bac à sable) afin de fournir des tests et des modifications de conception supplémentaires en suivant les étapes ci-dessous.
 

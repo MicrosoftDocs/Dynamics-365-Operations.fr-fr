@@ -3,7 +3,7 @@ title: Module Pied de page
 description: Cette rubrique couvre les modules de pied de page et leur création dans Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 51f8d26d6223dcd1f6961058cd9d772a67c69670
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269634"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411199"
 ---
 # <a name="footer-module"></a>Module Pied de page  
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,6 +34,10 @@ Cette rubrique couvre les modules de pied de page et décrit leur création dans
 
 Le module de pied de page est un conteneur spécial utilisé pour héberger les modules qui figurent dans le pied de page de la page. Par exemple, il peut inclure des liens vers des pages du site, telles que les pages **Nous contacter** et **Stocker des stratégies**.
 
+L'image suivante montre un exemple de module de pied de page sur une page de site.
+
+![Exemple de module de pied de page](./media/ecommerce-footer.PNG)
+
 ## <a name="footer-module-properties"></a>Propriétés du module de pied de page 
 
 Comme la plupart des conteneurs, un module de pied de page prend en charge les propriétés pour l'en-tête et la largeur. Il prend également en charge l'addition de plusieurs modules de catégories de pieds de page. Chaque module de catégorie de pied de page qui est ajouté est affiché dans une colonne dans le module de pied de page.
@@ -43,27 +46,27 @@ Comme la plupart des conteneurs, un module de pied de page prend en charge les p
 
 **Articles de pied de page** – Un module d'articles de pied de page peut contenir un en-tête, une image, et un lien. L'en-tête peut être utilisé seul ou en combinaison avec une image et un lien. Chaque lien dans le pied de page peut être configuré de sorte qu'il s'agisse juste de texte (par exemple, « Contactez-nous » et « Confidentialité »), ou afin qu'il comporte à la fois du texte et une image (par exemple, des liens vers des réseaux sociaux).
 
-**Retour vers le haut** – A module Retour vers le haut fournit un lien de navigation rapide vers le haut de la page. Une destination est requise. La valeur par défaut de destination est #, qui dirige l'utilisateur vers le haut de la page.
+**Retour vers le haut** – A module Retour vers le haut fournit un lien de navigation rapide vers le haut de la page. Une destination est requise. La valeur par défaut de destination est \#, qui dirige l'utilisateur vers le haut de la page.
 
-## <a name="author-a-footer-module"></a>Créer un module de pied de page
+## <a name="create-a-footer-module"></a>Créer un module de pied de page
 
-1. Dans le volet de navigation, sélectionnez **Fragments**, puis sélectionnez **Nouveau fragment de page**.
-1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez le module de pied de page, entrez un nom pour le fragment de page, puis sélectionnez **OK**.
-1. Dans l'arborescence du contour à gauche, sélectionnez le bouton représentant des points de suspension (**...**) pour le module de pied de page, puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter le module**, sélectionnez le module de catégorie de pied de page, puis sélectionnez **OK**.
-1. Dans l'arborescence du contour, sélectionnez le bouton représentant des points de suspension pour le module de catégorie de pied de page, puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter le module**, sélectionnez le module d'article de pied de page, puis sélectionnez **OK**.
-1. Dans l'arborescence de contour, sélectionnez le module d'article de pied de page. Puis, dans le volet de propriétés de droite, configurez l'en-tête, le lien et le texte du lien, et une image au besoin.
-1. Pour ajouter d'autres articles de pied de page, répétez les étapes 5 à 7.
-1. Pour ajouter un lien « Retour vers le haut » à votre pied de page, sélectionnez le bouton représentant des points de suspension pour le module de catégorie de pied de page, puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter le module**, sélectionnez le module de retour vers le haut, puis sélectionnez **OK**.
-1. Dans l'arborescence de contour, sélectionnez le module de retour vers le haut. Puis, dans le volet des propriétés de droite, configurez le module de retour vers le haut comme vous le souhaitez.
-1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le fragment de page, puis **Publier** pour le publier.
+1. Accédez à **Fragments de page**, puis cliquez sur **Nouveau** pour créer un fragment.
+1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez le module **Conteneur**, entrez un nom pour le fragment de page, puis sélectionnez **OK**.
+1. Dans l'emplacement **Conteneur par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Catégorie de pied de page**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Catégorie de pied de page**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Élément de pied de page**, puis sélectionnez **OK**.
+1. Sélectionnez l'emplacement **Élément de pied de page** puis, dans le volet de propriétés de droite, configurez l'en-tête, le lien et le texte du lien, et une image au besoin.
+1. Pour ajouter d'autres éléments de pied de page, répétez les étapes 5 à 7 pour chacun.
+1. Pour ajouter un lien « Retour vers le haut » à votre pied de page, sélectionnez le bouton représentant des points de suspension (**...**) dans l'emplacement **Catégorie de pied de page**, puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Retour vers le haut**, puis sélectionnez **OK**.
+1. Sélectionnez l'emplacement **Retour vers le haut** puis, dans le volet de propriétés de droite, configurez le texte et les autres propriétés du module selon vos besoins.
+1. Sélectionnez **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
 
-Sur chaque modèle de page créé pour le site, procédez comme suit.
+Pour vous assurer qu'un en-tête apparaît sur chaque page, suivez ces étapes pour chaque modèle de page créé pour le site.
 
-1. À l'emplacement **Principal** de la page par défaut, dans le module de pied de page, ajoutez le fragment de pied de page que vous avez créé.
-1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
+1. Dans l'emplacement **Pied de page** du module **Page par défaut**, ajoutez le fragment de pied de page que vous avez créé.
+1. Sélectionnez **Terminer la modification** pour archiver le modèle, puis **Publier** pour le publier.
 
 En ajoutant le fragment de page aux modèles de page, vous vous assurez que le pied de page s'affiche sur chaque page.
 

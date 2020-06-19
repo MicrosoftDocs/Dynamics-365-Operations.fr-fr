@@ -3,7 +3,7 @@ title: Mettre en service un environnement d'aperçu dans Dynamics 365 Commerce
 description: Cette rubrique explique comment mettre en service un environnement d'aperçu dans Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254746"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426463"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Mettre en service un environnement d'aperçu dans Dynamics 365 Commerce
 
@@ -39,7 +39,7 @@ Avant de commencer, nous vous conseillons de parcourir rapidement cette rubrique
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Pour configurer correctement votre environnement d'aperçu Commerce, vous devez créer un projet qui a un nom et un type de produit spécifiques. L'environnement et l'unité d'échelle commerciale (CSU) ont aussi des paramètres spécifiques que vous devez utiliser pour mettre en service le commerce électronique ultérieurement. Les instructions de cette rubrique décrivent toutes les étapes requises pour terminer la mise en service et indique également les paramètres à utiliser.
+Pour configurer correctement votre environnement d'aperçu Commerce, vous devez créer un projet qui a un nom et un type de produit spécifiques. L'environnement et Commerce Scale Unit (CSU) ont aussi des paramètres spécifiques que vous devez utiliser pour mettre en service le commerce électronique ultérieurement. Les instructions de cette rubrique décrivent toutes les étapes requises pour terminer la mise en service et indique également les paramètres à utiliser.
 
 Après une mise en service réussie de votre environnement d'aperçu Commerce, des étapes postérieures à la mise en service sont à effectuer pour le préparer. Certaines étapes sont facultatives, selon les aspects du système que vous souhaitez évaluer. Vous pouvez toujours effectuer les étapes facultatives ultérieurement.
 
@@ -193,7 +193,7 @@ Pour déployer l'environnement, procédez comme suit.
 
 1. Avant de continuer, vérifiez que le statut de votre environnement est **Déployé**.
 
-### <a name="initialize-the-commerce-scale-unit-csu"></a>Initialiser l'unité d'échelle commerciale (CSU)
+### <a name="initialize-the-commerce-scale-unit-cloud"></a>Initialiser Commerce Scale Unit (cloud)
 
 Pour initialiser une CSU, procédez comme suit.
 
@@ -215,7 +215,7 @@ Pour initialiser du commerce électronique, procédez comme suit.
 
 1. Dans l'onglet **Commerce électronique**, vérifiez le consentement de l'aperçu, puis sélectionnez **Configuration**.
 1. Dans le champ **Nom du client de commerce électronique**, entrez un nom. Toutefois, notez que ce nom sera visible dans certaines URL pointant vers votre instance de commerce électronique.
-1. Dans le champ **Nom de l'unité d'échelle commerciale**, sélectionnez votre CSU dans la liste. (La liste ne doit avoir qu'une seule option.)
+1. Dans le champ **Nom Commerce Scale Unit**, sélectionnez votre CSU dans la liste. (La liste ne doit avoir qu'une seule option.)
 
     Le champ **Géographie du commerce électronique** est défini automatiquement et sa valeur ne peut pas être modifiée.
 
@@ -251,7 +251,7 @@ Pour poursuivre le processus de mise en service et de configuration de votre env
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (cloud)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portail Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 

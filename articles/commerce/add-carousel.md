@@ -3,7 +3,7 @@ title: Module Carrousel
 description: Cette rubrique couvre les modules Carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 35aaf35419a8c5b83b2a3e1136a02200bf347c6b
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269726"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411294"
 ---
 # <a name="carousel-module"></a>Module Carrousel
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules Carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
@@ -44,6 +44,10 @@ Vous pouvez ajouter des modules de bloc de contenu dans un module carrousel. Les
 - Carrousel contenant plusieurs modules publicitaires qui peut être utilisé sur une page de détails du produit.
 - Un carrousel peut être utilisé sur n'importe quelle page marketing qui permet de mettre en valeur plusieurs promotions ou produits.
 
+L'image suivante montre un exemple de module de carrousel utilisé sur une page d'accueil. Ce module de carrousel contient plusieurs éléments de bloc de contenu.
+
+![Exemple d'un module de carrousel](./media/Hero.PNG)
+
 ## <a name="carousel-module-properties"></a>Propriétés du module Carrousel
 
 | Nom de la propriété             | Valeur                 | Description |
@@ -58,7 +62,7 @@ Vous pouvez ajouter des modules de bloc de contenu dans un module carrousel. Les
 
 Pour ajouter un module de carrousel à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Sélectionnez **Nouveau** pour créer un modèle de page.
+1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle de carrousel**, puis cliquez sur **OK**.
 1. Dans l'emplacement **Corps**, ajoutez un module de **Page par défaut**.
 1. Sélectionnez **Terminer la modification** pour archiver le modèle, puis **Publier** pour le publier.  
