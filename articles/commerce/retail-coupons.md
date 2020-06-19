@@ -3,7 +3,7 @@ title: Paramétrer des coupons pour les ventes au détail
 description: Cette rubrique fournit une vue d'ensemble des coupons et décrit leur paramétrage.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057369"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431976"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Paramétrer des coupons pour les ventes au détail
 
@@ -48,8 +48,10 @@ Les coupons peuvent être configurés comme des coupons à utilisation limitée.
 
 La limite est appliquée par code de coupon sur un coupon. Par exemple, un coupon à utilisation unique qui a deux codes de coupon peut être utilisé deux fois : une fois pour chaque code de coupon. Chaque code sur un coupon peut être défini indépendamment sur Actif.
 
+Les coupons peuvent être utilisés sur n'importe quel canal de vente. Cependant, pour les commandes auprès des centres d'appels, les coupons à usage limité ne peuvent être utilisés que pour les commandes de centre d'appels où le paramètre **Achèvement de commande** est activé sur le centre d'appels. S'il n'est pas activé, seuls les coupons sans restriction d'utilisation peuvent être utilisés dans les commandes auprès des centres d'appels.
+
 > [!NOTE]
-> Une fois qu'un code de coupons a atteint sa limite d'utilisation, le système n'effectue *pas* automatiquement la modification du statut du code de coupons à « Utilisé ». Toutefois, le système n'autorise pas davantage l'utilisation d'un code de coupon qui a atteint sa limite d'utilisation. Si le statut du code d'un coupon est défini manuellement sur tout sauf « Actif », ce code de coupon ne peut pas être utilisé dans aucun canal.
+> Une fois qu'un code de coupon a atteint sa limite d'utilisation, le système n'effectue *pas* automatiquement la modification du statut du code de coupons à « Utilisé ». Cependant, ce code de coupon a atteint sa limite d'utilisation et ne peut pas être utilisé. Si le statut du code d'un coupon est défini manuellement sur tout sauf **Actif**, ce code de coupon ne peut être utilisé dans aucun canal.  
 
 ## <a name="managing-coupons"></a>Gestion des coupons
 

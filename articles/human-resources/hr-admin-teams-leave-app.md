@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388114"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431128"
 ---
 # <a name="human-resources-app-in-teams"></a>Application Human Resources de Teams
 
@@ -43,8 +43,9 @@ Pour plus d'informations sur la gestion des autorisations d'application dans Tea
 
 ## <a name="known-issues"></a>Problèmes connus
 
-| Sortie | État |
+| Sortie | État  |
 | --- | --- |
+| Erreur : il y a un problème pour trouver un environnement auquel se connecter. | Vous pouvez recevoir cette erreur même si vous avez vérifié que l'utilisateur peut accéder à un ou plusieurs environnements Human Resources. En outre, vous pouvez ne pas voir tous les environnements que vous attendez. En attendant que nous résolvions ce problème, supprimez l'utilisateur, puis réimportez-le pour résoudre le problème. |
 | Le solde est incorrect lors de la soumission de congés pour une date future. | Les prévisions ne sont pas encore disponibles. Le solde affiche la date actuelle. |
 | Lors de la réduction du nombre d'heures prises dans une demande existante, le **Solde restant** diminue au lieu d'augmenter. | Nous aborderons ce problème connu à l'avenir. L'affichage est incorrect, mais les montants corrects sont ajustés lors de la soumission. |
 | Deux fiches **Prochains jours de congé** s'affichent aux mêmes dates. | Les fiches représentent des soumissions individuelles. Nous continuerons de recueillir vos commentaires et de faire des ajustements. |

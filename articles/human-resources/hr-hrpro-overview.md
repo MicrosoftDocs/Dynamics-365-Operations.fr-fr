@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EssWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091722"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428754"
 ---
 # <a name="overview"></a>Vue d'ensemble
 
@@ -32,8 +32,8 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 ## <a name="set-up-human-resources"></a>Paramétrer Human Resources
 
 [Configuration des paramètres des Ressources humaines](hr-setup-parameters.md)</br>
-[Configurer les paramètres partagés des ressources humaines](hr-setup-shared-parameters.md)</br>
-[Configurer les workflows des ressources humaines](hr-setup-workflows.md)</br>
+[Configurer les paramètres partagés de Human Resources](hr-setup-shared-parameters.md)</br>
+[Configurer les workflows de Human Resources](hr-setup-workflows.md)</br>
 [Comprendre les champs de date et d'heure](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Configurer les paramètres de votre organisation

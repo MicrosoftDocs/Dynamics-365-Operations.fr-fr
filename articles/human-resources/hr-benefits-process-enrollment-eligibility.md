@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: BenefitWorkspace
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1d978982213e713e362798c49aa57e6dc8b7a862
-ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
+ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "3230014"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429287"
 ---
 # <a name="process-enrollment-eligibility"></a>Processus d'éligibilité à l'inscription
 
@@ -60,7 +60,7 @@ Cet article explique comment afficher les résultats du processus d'éligibilit�
 
 2.  Dans le formulaire **Résultats du processus**, les champs suivants sont spécifiés :
 
-   | Champ | Description  |
+   | Champ | Description |
    | --- | --- |
    | **ID processus** | ID unique pour la combinaison de Collaborateur, Entité juridique et exécution de processus. |
    | **Type de processus** | Cela identifie le processus qui a été exécuté. Par exemple : Inscription. |
