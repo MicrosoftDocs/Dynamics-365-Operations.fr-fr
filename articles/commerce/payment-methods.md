@@ -3,7 +3,7 @@ title: Modes de paiement
 description: Chaque type de paiement accepté par un détaillant doit être configurée lors du paramétrage du système. Cet article décrit les types de paiement que vous pouvez paramétrer, ainsi que leur procédure de paramétrage.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6afbddad869c70e4527c49fc5d4b520d7602f825
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 710c2f3bbe5b76af6d0bc0bf9a469e52c98c18d2
+ms.sourcegitcommit: 550006e6376815237c21b5b30e928353f62fd97c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022577"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3463158"
 ---
 # <a name="payment-methods"></a>Modes de paiement
 
@@ -39,7 +39,7 @@ Les détaillants peuvent accepter différents types de paiement en échange des 
 - **Devise** – Il s'agit du principal moyen de paiement autre que la devise par défaut de la société. Les pièces et les billets sont des formes de devise. Le mode de paiement en devise représente toutes les devises utilisées. Pour utiliser ce mode de paiement, vous devez paramétrer les devises et spécifier les informations de change pour les devises.
 - **Carte** – Tous les types de cartes utilisées dans , telles que les cartes de débit et de crédit. Il est préférable de paramétrer un seul mode de paiement par carte au niveau de l'organisation, pour représenter chaque type de carte. Au niveau du magasin, paramétrez ensuite un mode de paiement par carte ou ensemble de cartes, qui sera traité à l'aide des mêmes paramètres. Avant d'accepter le paiement par cartes dans un magasin, vous devez paramétrer les cartes disponibles sur le marché, à savoir des cartes de débit et de crédit.
 - **Avoir** : représente les avoirs émis ou remboursés au point de vente. L'avoir peut être un avoir ou une note d'intérêt d'avoir émise pour une vente de retour. Si les avoirs ne sont remboursés que partiellement, le programme crée un nouvel avoir pour le nouveau solde. Le nouvel avoir a un nouveau numéro. Un avoir ne peut être utilisé qu'une fois, le système conservant une trace de tous les numéros utilisés. L'enregistrement peut être affiché sur la page **Table des avoirs**. Un client ne peut pas se faire rembourser un montant supérieur à la valeur de l'avoir.
-- **Carte cadeau** – Désigne les cartes cadeaux émises et remboursées au point de vente. Les trop-perçus ne sont pas autorisés pour les cartes cadeaux.
+- **Carte cadeau** – Désigne les cartes cadeaux émises et remboursées au point de vente. Les trop-perçus ne sont pas autorisés pour les cartes cadeaux. Toutes les cartes-cadeaux doivent avoir des mappages de numéros de carte. 
 - **Compte client** – Paiements pouvant être facturés sur le compte d'un client au moment de la vente à partir de la caisse enregistreuse. Vous pouvez également utiliser ce mode de paiement pour collecter des informations de vente ou des remises spécifiques aux clients en cas de paiement par un autre moyen. Dans ce cas, vous devez paramétrer les informations concernant les clients.
 - **Points de fidélité** : représente les points que les clients accumulent via les programmes de fidélité. Si vous créez ce type de programmes, les clients peuvent obtenir des points, puis les racheter de différentes manières. Par exemple, dans certains programmes de fidélité, les clients peuvent racheter les points de fidélité sous la forme de remise ou même les utiliser comme moyen de paiement.
 

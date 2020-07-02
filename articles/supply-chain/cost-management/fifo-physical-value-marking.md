@@ -3,7 +3,7 @@ title: FIFO avec valeur physique et marquage
 description: Premier entré, premier sorti (First In, First Out, ou FIFO) est un modèle de stock selon lequel les premières réceptions en stock sont sorties en premier. Les sorties de stock mises à jour financièrement sont réglées avec les premières réceptions en stock, en fonction de la date financière du mouvement de stock.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201753"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454624"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO avec valeur physique et marquage
 
@@ -44,13 +44,13 @@ Dans cet exemple, le groupe de modèles d'article n'est pas marqué pour inclure
 -   1a. Réception physique en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
 -   1b. Réception financière en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
 -   2a. Réception physique en stock pour une quantité de 2 à un coût de 10,00 EUR chacune.
--   2a. Réception financière en stock pour une quantité de 2 à un coût de 10,00 EUR chacune.
+-   2b. Réception financière en stock pour une quantité de 2 à un coût de 10,00 EUR chacune.
 -   3a. Réception physique en stock pour une quantité 1 au coût unitaire de 25,00 EUR.
 -   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 20,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
--   5a. Sortie financière de stock pour une quantité de 1 à un prix de revient de 20,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
--   6. La clôture du stock est effectuée. Selon la méthode FIFO, la première sortie mise à jour financièrement est réglée par rapport à la première réception mise à jour financièrement. Un ajustement de 10,00 EUR sera effectué sur la transaction de sortie.
+-   5b. Sortie financière de stock pour une quantité de 1 à un prix de revient de 15,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
+-   6. La clôture du stock est effectuée. Selon la méthode FIFO, la première sortie mise à jour financièrement est réglée par rapport à la première réception mise à jour financièrement. Un ajustement de 5,00 EUR sera effectué sur la transaction de sortie.
 
 Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement. Les illustrations suivantes indiquent l'impact du modèle de stock FIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. 
 
@@ -80,7 +80,7 @@ Si la case à cocher **Inclure la valeur physique** est activée pour un article
 -   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 21,25 EUR chacune (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
--   5a. Sortie financière de stock pour une quantité de 1 à un prix de revient de 21,25 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
+-   5b. Sortie financière de stock pour une quantité de 1 à un prix de revient de 21,25 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
 -   6a. Sortie physique de stock pour une quantité 1 à un prix de revient unitaire de 21,25 EUR.
 -   7. La clôture du stock est effectuée. Selon la méthode FIFO, la première transaction de sortie financière sera ajustée ou réglée par rapport à la première réception mise à jour, qu'elle soit financière ou physique.
 
@@ -112,7 +112,7 @@ Le marquage est un processus qui vous permet de lier, ou de marquer, une transac
 -   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 21,25 EUR chacune (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
--   5a. Sortie financière de stock pour une quantité 1 marquée par rapport à la réception en stock 2b avant la validation de la transaction. Cette transaction est validée à un prix de revient unitaire de 20,00 EUR.
+-   5b. Sortie financière de stock pour une quantité 1 marquée par rapport à la réception en stock 2b avant la validation de la transaction. Cette transaction est validée à un prix de revient unitaire de 20,00 EUR.
 -   6a. Sortie physique de stock pour une quantité 1 à un prix de revient unitaire de 21,25 EUR.
 -   7. La clôture du stock est effectuée. Étant donné que la transaction FIFO mise à jour financièrement est marquée par rapport à une réception existante, ces transactions sont réglées les unes avec les autres et aucun ajustement n'est effectué.
 

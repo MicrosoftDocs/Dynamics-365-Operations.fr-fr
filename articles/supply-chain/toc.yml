@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: Stockage des états de balance âgée
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Exemples et logique de l'état de vieillissement des stocks
+                  href: cost-management/inventory-aging-report.md
             - name: Comptabilité de fabrication
               items:
                 - name: Calculs de nomenclature
@@ -707,7 +709,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ajout de dimensions financières aux mesures globales
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Créer des états d'analyse à l'aide de Power BI Desktop
+                - name: Créer des états d'analyse à l'aide de PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json

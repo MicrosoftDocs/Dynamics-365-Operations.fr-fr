@@ -3,7 +3,7 @@ title: Installer, configurer et mettre à jour le portail client
 description: Cette rubrique fournit des détails sur les licences et les instructions de configuration du portail client.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413962"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435606"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Installer, configurer et mettre à jour le portail client
 
@@ -35,7 +35,7 @@ Pour implémenter le portail client, vous devez disposer des licences suivantes�
 
 Le portail client dépend des portails Power Apps et de la double écriture, comme indiqué dans l'illustration suivante.
 
-![![Dépendances du portail client](media/customer-portal-elements.png "Dépendances du portail client")](media/customer-portal-elements.png "Customer portal dependencies")
+![Dépendances du portail client](media/customer-portal-elements.png "Dépendances du portail client")
 
 Contrairement aux autres fonctionnalités de Supply Chain Management, le modèle de portail client réside dans les portails Power Apps. Par conséquent, le portail client est limité par les fonctionnalités et capacités assurées par les portails Power Apps et les entités en double écriture.
 
@@ -59,7 +59,7 @@ Avant de commencer, assurez-vous que vous avez déjà terminé la [configuration
 
 1. Accédez à [make.powerapps.com](https://make.powerapps.com/).
 2. Assurez-vous que vous utilisez l'environnement dans lequel vous avez activé la double écriture.
-3. Dans l'onglet **Créer**, défilez jusqu'à la section **Commencer à partir du modèle** et sélectionnez le modèle nommé **Client de Supply Chain Management**.
+3. Dans l'onglet **Créer**, défilez jusqu'à la section **Commencer à partir du modèle** et sélectionnez le modèle nommé **Portail client**.
 4. Suivez les instructions à l'écran.
 
 Une fois le provisionnement terminé, vous pouvez accéder au portail client dans la section **Vos applis** de la page **Accueil**.
@@ -71,7 +71,7 @@ Une fois le provisionnement terminé, vous pouvez accéder au portail client dan
 
 D'autres fonctionnalités pourront être ajoutées au portail client ultérieurement. Toute modification apportée par Microsoft aux composants de la solution sous-jacente apparaîtra automatiquement dans votre environnement. Cependant, le site web provisionné dans votre environnement ne reflétera pas automatiquement les modifications apportées aux données de configuration. Vous devrez appliquer manuellement ces modifications en récupérant le code du nouveau modèle et en le fusionnant avec le site web provisionné.
 
-## <a name="resources"></a>Ressources
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 Pour savoir comment configurer et personnaliser le portail client, vous devez commencer par consulter la documentation suivante concernant les technologies sous-jacentes :
 

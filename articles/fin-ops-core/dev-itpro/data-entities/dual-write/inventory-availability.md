@@ -19,33 +19,42 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: dd0995eb8c70ed06cdc3c0f6a28b13b117297533
-ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
+ms.openlocfilehash: 227a2062a7985a787f8278c196f7df2fb6f31691
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3426980"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443870"
 ---
-# <a name="inventory-availability"></a>Disponibilité du stock
+# <a name="inventory-availability-in-dual-write"></a>Disponibilité du stock en double écriture
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+Grâce à la disponibilité du stock, vous pouvez consulter le stock avant d'ajouter un produit dans les formulaires **Devis**, **Commandes** ou **Factures** dans Microsoft Dynamics 365 Sales. Par exemple, la consultation du stock et la détermination d'une date de réalisation est une tâche clé du processus [prospects en disponibilités](dual-write-prospect-to-cash.md).
 
-Grâce à la disponibilité du stock, vous pouvez consulter le stock avant d'ajouter un produit dans les formulaires **Devis**, **Commandes** ou **Factures** dans les applications pilotées par modèles dans Dynamics 365. Par exemple, la consultation du stock et la détermination d'une date de réalisation est une tâche clé du processus [prospects en disponibilités](dual-write-prospect-to-cash.md). Si vous ne disposez pas d'un stock suffisant, vous pouvez estimer une date de livraison en fonction des entrées et sorties de stock prévues. Vous pouvez également vérifier les informations de disponibilité à la vente du produit (DAV), où vous pouvez trouver la quantité DAV dans la plage de temps prédéfinie.
+Si vous ne disposez pas d'un stock suffisant, vous pouvez estimer une date de livraison en fonction des entrées et sorties de stock prévues. Vous pouvez également vérifier les informations de disponibilité à la vente du produit (DAV), où vous pouvez trouver la quantité DAV dans la plage de temps prédéfinie.
 
-## <a name="on-hand-inventory"></a>Stock disponible 
+## <a name="on-hand-inventory"></a>Stock disponible
 
-Dans l'en-tête des formulaires **Devis**, **Commandes** ou **Factures** de Dynamics 365 Sales, un nouveau bouton **Stock disponible** a été ajouté. Lorsque vous cliquez sur le bouton, une boîte de dialogue apparaît et vous pouvez spécifier la société et le produit pour lesquels vous souhaitez vérifier le stock disponible. Il renvoie les informations de stock de Dynamics 365 Supply Chain Management et affiche les mêmes informations que [Stock disponible](../../../../supply-chain/inventory/tasks/check-availability-stock.md). Ces informations comprennent ces quantités :
+Dans Dynamics 365 Sales, un nouveau bouton **Stock disponible** a été ajouté à l'en-tête des pages **Devis**, **Commandes** et **Factures**. Lorsque vous sélectionnez ce bouton, une boîte de dialogue apparaît et vous pouvez spécifier la société et le produit pour lesquels vous souhaitez vérifier le stock disponible. Cette boîte de dialogue affiche les mêmes informations que [Stock disponible](../../../../supply-chain/inventory/tasks/check-availability-stock.md).
 
-- **Quantité disponible**
-- **Quantité disponible réservée**
-- **Quantité disponible à disposition**
-- **Quantité commandée**
-- **Quantité en commande**
-- **Quantité commandée réservée**
-- **Quantité totale disponible**
+La boîte de dialogue renvoie les informations de stock de Dynamics 365 Supply Chain Management. Ces informations incluent les quantités suivantes :
+
+- Quantité disponible
+- Quantité disponible réservée
+- Quantité disponible à disposition
+- Quantité commandée
+- Quantité en commande
+- Quantité commandée réservée
+- Quantité totale disponible
 
 ## <a name="atp-information"></a>Informations sur DAV
 
-Dans les articles de ligne des formulaires **Devis**, **Commandes** ou **Factures** de Dynamics 365 Sales, un nouveau bouton **Informations DAV** a été ajouté. Lorsque vous cliquez sur le bouton, une boîte de dialogue apparaît et vous pouvez spécifier la société, le produit, le site de stockage, l'entrepôt et la quantité en commande. Il renvoie les **Informations DAV** de Supply Chain Management et affiche les paramètres décrits dans [Promesse de commande](../../../../supply-chain/sales-marketing/delivery-dates-available-promise-calculations.md#atp-calculations). Les informations comprennent **Quantité DAV**, **Quantité de réception**, **Quantité de sortie** et **Quantité disponible**.
+Dans Sales, un nouveau bouton **Informations ATP** a été ajouté aux lignes dans les pages **Devis**, **Commandes** et **Factures**. Lorsque vous sélectionnez ce bouton, une boîte de dialogue apparaît et vous pouvez spécifier la société, le produit, le site de stockage, l'entrepôt et la quantité en commande. Cette boîte de dialogue a les mêmes paramètres que ceux décrits dans [Promesse de commande](../../../../supply-chain/sales-marketing/delivery-dates-available-promise-calculations.md#atp-calculations).
+
+La boîte de dialogue renvoie les informations ATP de Supply Chain Management. Ces informations incluent les quantités suivantes :
+
+- Quantité DAV
+- Quantité de réception
+- Quantité de sortie
+- Quantité disponible

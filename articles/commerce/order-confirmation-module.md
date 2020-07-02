@@ -3,7 +3,7 @@ title: Module des détails de la commande
 description: Cette rubrique aborde les modules des détails de la commande et explique comment les utiliser dans Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb09a0b6ce1e48707f96021e9fad0006d9c1c55c
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026015"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464928"
 ---
 # <a name="order-details-module"></a>Module des détails de la commande
 
@@ -35,11 +35,11 @@ Cette rubrique aborde les modules des détails de la commande et explique commen
 
 Le module des détails de la commande permet d'afficher les détails de confirmation de commande une fois la commande passée. Il indique l'ID de confirmation de la commande, les coordonnées de contact de la commande et d'autres détails de commande comme les articles achetés, les informations de paiement et le mode d'expédition.
 
-## <a name="order-confirmation-module-properties"></a>Propriétés du module de confirmation de commande
+## <a name="order-details-module-properties"></a>Propriétés du module de détails de commande
 
-| Nom de la propriété  | Valeurs | Description |
+| Nom de la propriété  | Valeurs | Description  |
 |----------------|--------|-------------|
-| En-tête        | Texte d'en-tête et balise d'en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Le module de confirmation de commande peut avoir un en-tête. Par défaut, la balise d'en-tête **H2** sert pour l'en-tête. Toutefois, la balise peut être modifiée pour satisfaire aux exigences d'accessibilité. |
+| Titre        | Texte d'en-tête et balise d'en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Le module de détails de commande peut avoir un en-tête. Par défaut, la balise d'en-tête **H2** sert pour l'en-tête. Toutefois, la balise peut être modifiée pour satisfaire aux exigences d'accessibilité. |
 | Numéro du contact | Texte | Un numéro de contact peut être fourni pour les questions liées à la commande. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Modules pouvant être utilisés dans une page de détails de la commande
@@ -49,28 +49,32 @@ Lorsque vous créez une page de détails de la commande, vous pouvez ajouter d'a
 - **Module de recommandations** : il peut être ajouté à la page de détails de la commande pour suggérer d'autres produits au client.
 - **Modules de marketing** : tout module de marketing peut être ajouté à la page de détails de la commande pour afficher le contenu marketing.
 
-## <a name="create-an-order-details-page-module"></a>Créer un module de page de détails de la commande
+## <a name="add-an-order-details-module-to-a-page"></a>Ajouter un module de détails de commande à une page
 
-1. Créez un modèle de page nommé **Modèle de détails de la commande**.
-1. Dans l'emplacement **Principal** de la page par défaut, ajoutez un module de détails de la commande.
-1. Dans le module de détails de la commande, ajoutez un module de recommandations.
-1. Enregistrez et affichez un aperçu du modèle. Le module de détails de la commande ne s'affiche pas car il a besoin du contexte du numéro de confirmation de commande.
-1. Terminez la modification du modèle et publiez-le.
-1. Utilisez le modèle de détails de la commande que vous venez de créer pour créer une page nommée **page de détails de la commande**.
-1. Ajoutez la page par défaut au contour de page.
-1. À l'emplacement **En-tête**, ajoutez un fragment d'en-tête.
-1. À l'emplacement **Pied de page**, ajoutez un fragment de pied de page.
-1. Dans l'emplacement **Principal**, ajoutez un module de détails de la commande.
-1. Dans le volet de propriétés du module de détails de la commande, ajoutez l'en-tête **Détails de la commande**.
-1. Sous le module de détails de la commande, ajoutez un module de recommandations et configurez-le afin qu'il utilise les paramètres **Nouveau** et **Meilleure vente**.
-1. Enregistrez et affichez un aperçu de la page.
-1. Terminez la modification de la page et publiez-la.
+Pour ajouter un module de détails de commande à une nouvelle page et définir les propriétés requises, procédez comme suit.
+
+1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
+1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez un nom pour le **modèle de détails de commande**, puis cliquez sur **OK**.
+1. Dans l'emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Page par défaut**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Détails de commande**, puis sélectionnez **OK**.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher le modèle. Le module de détails de la commande ne s'affiche pas car il a besoin du contexte du numéro de confirmation de commande.
+1. Sélectionnez **Terminer la modification** pour archiver le modèle, puis **Publier** pour le publier.
+1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
+1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Modèle de détails de commande**. Sous **Nom de la page**, entrez **Page de détails de la commande**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Détails de commande**, puis sélectionnez **OK**.
+1. Dans le volet des propriétés du module de détails de commande, sélectionnez **En-tête** à côté du symbole du crayon.
+1. Dans le champ **Texte d'en-tête** de la boîte de dialogue **Titre**, entrez le texte de l'en-tête **Détails de la commande**, puis sélectionnez **OK**.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page.
+1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
 
-[Module Container](add-container-module.md)
+[Module Conteneur](add-container-module.md)
 
 [Module Zone d'achat](add-buy-box.md)
 

@@ -19,17 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123944"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456571"
 ---
-# <a name="reset-receipt-numbers"></a>Réinitialiser les numéros de ticket de caisse 
+# <a name="reset-receipt-numbers"></a>Réinitialiser les numéros d'accusé de réception 
 
 [!include [banner](includes/banner.md)]
 
+> [!NOTE]
+> Nous vous demandons de sélectionner la propriété **Souche indépendante** pour tous les types de reçus dans le profil de fonctionnalité avant d'utiliser cette fonction. En outre, le fuseau horaire du système de l'appareil sur lequel le PDV est utilisé, doit correspondre au fuseau horaire du magasin correspondant. Nous nous efforçons de supprimer ces limitations dans une prochaine version. Veuillez contacter le support Microsoft avant d'utiliser cette fonctionnalité dans Production.
 
 Les détaillants génèrent des numéros de ticket de caisse pour diverses actions dans le magasin, telles que les transactions au comptant, les transactions de retour, les commandes clients, les devis et les paiements. Bien que les détaillants définissent leurs propres formats de ticket de caisse, certains pays ou régions ont des réglementations qui imposent des restrictions sur ces formats. Par exemple, des réglementations peuvent limiter le nombre de caractères sur le ticket de caisse, exiger des numéros de ticket de caisse qui se suivent, restreindre certains caractères spéciaux ou exiger une réinitialisation des numéros de ticket de caisse au début de l'année. Microsoft Dynamics 365 Commerce rend le processus de gestion des numéros de ticket de caisse très flexible, pour aider les détaillants à répondre aux exigences réglementaires. Cette rubrique explique comment utiliser la fonctionnalité de réinitialisation des numéros de ticket de caisse.
 

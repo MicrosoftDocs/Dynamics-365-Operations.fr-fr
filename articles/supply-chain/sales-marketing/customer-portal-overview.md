@@ -3,7 +3,7 @@ title: Présentation du portail client pour Dynamics 365 Supply Chain Management
 description: Cette rubrique présente le portail client et explique qui doit l'utiliser et comment il fonctionne.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413961"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456924"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Présentation du portail client pour Dynamics 365 Supply Chain Management
 
@@ -37,6 +37,12 @@ Le modèle de portail client possède toutes les fonctionnalités de personnalis
 
 > [!NOTE]
 > La documentation du portail client s'adresse aux administrateurs, aux personnalisateurs et aux intégrateurs système qui configureront le portail client pour une installation de Supply Chain Management. Il utilise les termes _client_ et _utilisateur_ pour décrire les personnes qui sont des clients de l'organisation qui exécute Supply Chain Management qui utiliseront le portail final lui-même.
+
+## <a name="video"></a>Vidéo
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+La vidéo [Présentation du modèle de portail client dans Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (illustrée ci-dessus) est incluse dans la [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 ## <a name="who-should-use-it"></a>Qui doit l'utiliser ?
 
@@ -58,6 +64,6 @@ Les [portails Power Apps](https://docs.microsoft.com/powerapps/maker/portals/ove
 
 La [Double écriture](https://docs.microsoft.com/powerapps/maker/portals/overview) est un produit d'infrastructure prêt à l'emploi qui fournit une interaction en temps quasi réel entre les applications pilotées par modèle de Dynamics 365 et les applications Finance and Operations. La double écriture offre une intégration bidirectionnelle entre les applications Finance and Operations et Common Data Service. Par conséquent, elle offre une expérience utilisateur intégrée entre les différentes applications. Le portail client dépend des entités synchronisées par la double écriture. Avant que les données issues de Supply Chain Management puissent apparaître dans le portail client, la double écriture doit être activée pour toutes les entités appropriées.
 
-![![Dépendances du portail client](media/customer-portal-elements.png "Dépendances du portail client")](media/customer-portal-elements.png "Customer portal dependencies")
+![Dépendances du portail client](media/customer-portal-elements.png "Dépendances du portail client")
 
 Le portail client sert de point de départ pour les organisations qui souhaitent utiliser les portails Power Apps pour créer un site Web ouvert sur l'extérieur qui utilise les données de leur installation Supply Chain Management. Il aide les organisations à connecter la double écriture, Supply Chain Management et les portails Power Apps.
