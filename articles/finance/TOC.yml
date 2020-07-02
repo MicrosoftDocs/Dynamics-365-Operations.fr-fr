@@ -1820,6 +1820,32 @@
                   items:
                     - name: Vue d'ensemble de GST de l'Inde
                       href: localizations/apac-ind-gst.md
+                    - name: Quoi de neuf ou de changé pour la localisation APAC India GST
+                      items:
+                        - name: Nouveautés ou modifications dans 10.0.0
+                          href: localizations/apac-ind-news-letter-10-0-00.md
+                        - name: Nouveautés ou modifications dans 10.0.01
+                          href: localizations/apac-ind-news-letter-10-0-01.md
+                        - name: Nouveautés ou modifications dans 10.0.02
+                          href: localizations/apac-ind-news-letter-10-0-02.md
+                        - name: Nouveautés ou modifications dans 10.0.03
+                          href: localizations/apac-ind-news-letter-10-0-03.md
+                        - name: Nouveautés ou modifications dans 10.0.04
+                          href: localizations/apac-ind-news-letter-10-0-04.md
+                        - name: Nouveautés ou modifications dans 10.0.05
+                          href: localizations/apac-ind-news-letter-10-0-05.md
+                        - name: Nouveautés ou modifications dans 10.0.06
+                          href: localizations/apac-ind-news-letter-10-0-06.md
+                        - name: Nouveautés ou modifications dans 10.0.07
+                          href: localizations/apac-ind-news-letter-10-0-07.md
+                        - name: Nouveautés ou modifications dans 10.0.08
+                          href: localizations/apac-ind-news-letter-10-0-08.md
+                        - name: Nouveautés ou modifications dans 10.0.09
+                          href: localizations/apac-ind-news-letter-10-0-09.md
+                        - name: Nouveautés ou modifications dans 10.0.10
+                          href: localizations/apac-ind-news-letter-10-0-10.md
+                        - name: Nouveautés ou modifications dans 10.0.11
+                          href: localizations/apac-ind-news-letter-10-0-11.md
                     - name: Groupes de référence GST pour l'Inde
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Intégration GST des caisses enregistreuses
@@ -2346,6 +2372,8 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: Relevé du chiffre d'affaires et des soldes
                   href: localizations/emea-pol-turnover-balances-statement.md
+                - name: Différence d'échange Comptabilité fournisseur/Comptabilité client divisée
+                  href: localizations/emea-pol-split-ap-ar-exchange-difference.md
             - name: Russie
               items:
                 - name: Vue d'ensemble de la Russie
@@ -2956,7 +2984,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: Ajout de dimensions financières aux mesures globales
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: Créer des états d'analyse à l'aide de Power BI Desktop
+                - name: Créer des états d'analyse à l'aide de PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -3408,8 +3436,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: Modifier et exécuter des formats pour utiliser les fichiers de gestion des documents
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                        - name: Déboguer des sources de données
-                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: Déboguer des sources de données
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: Utilisez BARCODE pour générer des images de codes à barres
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer les mises en correspondance de modèles
                   items:
                     - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
@@ -3418,18 +3448,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer les formats
                   items:
+                    - name: Sélectionner des définitions de modèle lorsque vous créez des formats
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: Configurer des formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                     - name: Définir les paramètres d'un format de gestion des états électroniques par entité juridique
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: Sélectionner des définitions de modèle lorsque vous créez des formats
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: Différer l'exécution des éléments de format ER
                       items:
                         - name: Différer l'exécution d'un élément de séquence
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                         - name: Différer l'exécution d'un élément XML
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: Concevoir des états multilingues
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Chemin relatif dans les liaisons de données
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Utiliser les solutions de gestion des états électroniques dans Finance and Operations

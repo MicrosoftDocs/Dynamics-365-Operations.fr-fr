@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Mise à niveau et assistance N-1
               items:
-                - name: Mise à niveau et prise en charge N-1 pour Retail
+                - name: Mise à niveau et prise en charge N-1 pour Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Installation, configuration et basculement du déploiement échelonné (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: "Commerce\_10.0.10 (mai\_2020)"
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: "Commerce\_10.0.9 (avril\_2020)"
-                      href: get-started/whats-new-10-0-9.md
                 - name: Fonctions supprimées ou obsolètes
                   items:
                     - name: Fonctions supprimées ou obsolètes dans Finance and Operations
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Authentification rigoureuse des clients (SCA) à l'aide du Connecteur Adyen
                       href: adyen_redirect.md
+                    - name: Terminaux de paiement dédiés et invites pour une imprimante et un tiroir-caisse
+                      href: pos-multi-hws.md
                     - name: Basculement hors ligne transparent pour les opérations de cartes cadeaux et d'avoirs
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Paramétrer des scénarios de règlement de facture
@@ -572,6 +572,10 @@
                       href: set-up-bar-codes.md
                     - name: Paramétrer des masques de codes-barres
                       href: set-up-bar-code-masks.md
+                - name: Garanties
+                  items:
+                    - name: Créer et configurer des garanties étendues
+                      href: extended-warranty.md
             - name: Tarification et remises
               items:
                 - name: Remises
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: Module de validation
                       href: add-checkout-module.md
-                    - name: Module de confirmation de commande
+                    - name: Module des détails de la commande
                       href: order-confirmation-module.md
                     - name: Module de sélection de magasin
                       href: store-selector.md
@@ -1176,7 +1180,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Ajout de dimensions financières aux mesures globales
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Créer des états d'analyse à l'aide de Power BI Desktop
+                - name: Créer des états d'analyse à l'aide de PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Ajouter des analyses aux espaces de travail à l'aide de Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Configurer un fichier (.env) de l'environnement de développement
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: "Déboguer contre un environnement de développement Commerce Niveau\_1"
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: Configurer le partage du code Azure DevOps et créer des opportunités élémentaires
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Vue d'ensemble de la plateforme
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Développement dans les environnements de développement hébergés dans le cloud sans accès administrateur
                   href: dev-itpro/cloud-dev-box.md
+                - name: Configurer le pipeline de build de SDK Commerce
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: Extensibilité du point de vente
               items:
                 - name: Mises en page de l'écran PDV
@@ -2102,7 +2110,7 @@
                   href: dev-itpro/call-crt-service-offline.md
                 - name: Créer une extension Retail Server
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Proxys Typescript et C# pour Retail'
+                - name: Proxys Typescript et C# pour Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Extensibilité Commerce Runtime (CRT)
               items:
