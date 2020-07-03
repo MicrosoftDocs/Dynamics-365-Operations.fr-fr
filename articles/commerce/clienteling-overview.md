@@ -3,7 +3,7 @@ title: Vue d'ensemble de la gestion des clients
 description: Cette rubrique fournit une vue d'ensemble des nouvelles fonctionnalités de gestion des clients qui sont disponibles dans l'application.
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022482"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456505"
 ---
 # <a name="clienteling-overview"></a>Vue d'ensemble de la gestion des clients
 
@@ -115,7 +115,7 @@ Procédez comme suit pour configurer l'intégration.
 3. Créez un coffre de clés Azure et enregistrez le secret d'application. Pour obtenir des instructions, voir [Démarrage rapide : Définir et extraire un secret du coffre de clés Azure avec le portail Azure](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
 4. Activez l'accès au coffre de clés Azure depuis Commerce. Pour procéder comme suit, vous devez avoir un ID d'application et un secret. L'application peut être la même application que celle que vous avez créée à l'étape 1, ou il peut s'agir d'une nouvelle application. (Autrement dit, vous pouvez utiliser l'application créé à l'étape 1 pour l'accès au coffre de clés et au service Customer Insights, ou vous pouvez créer une seule application pour chaque type d'accès.) Pour obtenir des instructions, voir [Enregistrer les informations d'identification principales du service dans le coffre de clés de la pile Azure](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
 5. Dans Siège, accédez à **Administration du système \> Paramétret \> Paramètres du coffre de clés**, puis entrez les informations requises pour le coffre de clés. Puis, dans le champ **Client du coffre de clés**, saisissez l'ID d'application que vous avez utilisé à l'étape 4, afin que Commerce puisse accéder aux secrets dans le coffre de clés.
-6. Pour ajouter l'application créée à l'étape 1 à la liste des applications sûres (parfois désignées appelée Liste verte), accédez à Customer Insights, et fournissez l'accès **Affichage** à l'application. Pour les instructions, voir [Autorisations](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Pour ajouter l'application créée à l'étape 1 à la liste des applications sûres (parfois désignées appelée Liste sécurisée), accédez à Customer Insights, et fournissez l'accès **Affichage** à l'application. Pour les instructions, voir [Autorisations](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. Dans Commerce, sur la page **Paramètres de Commerce**, sur l'onglet **Gestion des clients**, sur le raccourci **Dynamics 365 Customer Insights**, procédez comme suit :
 
     1. Dans le champ **ID d'application**, entrez l'ID d'application que vous avez utilisé à l'étape 1.

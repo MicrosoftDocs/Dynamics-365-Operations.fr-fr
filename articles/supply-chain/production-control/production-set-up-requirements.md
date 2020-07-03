@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212501"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428398"
 ---
 # <a name="production-setup-requirements"></a>Conditions requises pour le paramétrage de la production
 
@@ -71,7 +71,7 @@ Si vous utilisez des gammes, les opérations doivent être définies pour chaque
 2.  **Groupes de coûts** – Paramétrez les groupes de coûts afin de créer et de mettre à jour les différents types de coûts.
 3.  **Groupes de gammes** – Paramétrez des groupes de gammes pour définir les paramètres liés à des groupes de gammes. Vous devez paramétrer les groupes de gammes avant de pouvoir créer des gammes de production.
 4.  **Gammes** – Paramétrez des gammes de production et définissez les paramètres par défaut afin de contrôler la planification, l'évaluation des coûts et le prix des opérations de gamme, ainsi que la progression de la génération d'états.
-5.  **Gammes** – Paramétrez les versions de gamme afin d'autoriser les variations d'article en production.
+5.  **Version de gamme** – Paramétrez les versions de gamme afin d'autoriser les variations d'article en production.
 
 ## <a name="optional-advanced-settings"></a>Paramètres facultatifs et avancés
 1.  **Groupes de productions** – Paramétrez les groupes de production afin de définir les relations entre l'ordre de fabrication et les comptes généraux. Ces derniers sont utilisés pour valider ou regrouper les ordres à des fins de génération d'états.

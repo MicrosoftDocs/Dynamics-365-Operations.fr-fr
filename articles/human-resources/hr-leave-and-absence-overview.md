@@ -3,12 +3,12 @@ title: Vue d'ensemble
 description: Dans Dynamics 365 Human Resources, l'espace de travail Congés et absences fournit un cadre flexible pour la création de nouveaux plans de congé, de workflows pour la gestion des demandes et une page intuitive en libre-service permettant aux employés de demander des congés.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325763"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428965"
 ---
 # <a name="overview"></a>Vue d'ensemble
 
@@ -84,10 +84,9 @@ Vous pouvez essayer de nouvelles fonctionnalités d'aperçu des congés et des a
 
 Les fonctionnalités d'aperçu incluent :
 
-- **Suspension des congés** - Vous pouvez suspendre les congés et les absences d'un employé dans Human Resources. La suspension des congés arrête les régularisations de congés pour les types de congé sélectionnés. Si la suspension survient après le traitement d'une régularisation, la suspension du congé crée un ajustement au prorata du solde des congés de l'employé. Vous pouvez également inclure des codes de motif lors de la suspension du congé d'un employé. L'expérience utilisateur a été mise à jour pour indiquer la suspension. 
+- **Régulariser les congés par société ou par plan** - Vous pouvez exécuter le processus de régularisation pour toutes les sociétés ou pour une seule société. Vous pouvez également exécuter le processus de régularisation pour un seul plan de congé et d'absence pour une entreprise spécifique. 
 
-- **Règles de report** - Vous pouvez spécifier un type de congé de report pour les soldes de report dans lesquels les ajustements de report sont transférés. Par exemple, si un employé reporte 10 jours, vous pouvez sélectionner un type de congé différent pour ces 10 jours. 
+- **Acheter un congé** - Vous pouvez activer et créer des stratégies d'achat de congés pour permettre aux employés de soumettre des demandes d'achat. Les employés peuvent soumettre des demandes d'achat et voir leur solde mis à jour automatiquement pour refléter les demandes.  
 
-- **Inclure le code motif et les commentaires pour les ajustements** - Vous pouvez inclure un code motif et un commentaire lors de l'ajustement du solde de congés d'un employé. 
+- **Ajouter des pièces jointes aux demandes de congé approuvées** - Vous pouvez ajouter une pièce jointe à une demande de congé déjà approuvée. 
 
-- **Paramètres de transition vers congé et d'absence** - Vous pouvez désormais utiliser uniquement les paramètres Congés et absences au lieu d'utiliser les paramètres Ressources humaines. 

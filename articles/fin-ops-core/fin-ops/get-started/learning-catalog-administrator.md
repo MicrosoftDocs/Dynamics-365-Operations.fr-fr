@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c66b25e941d9492c9749043b65c929c9b81db641
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: ad0f33aae7651dff4f424a047eccabd691a99d83
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278991"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418564"
 ---
 # <a name="administrators-learning-catalog"></a>Catalogue Apprentissage Administrateurs
 
@@ -30,7 +30,7 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 |-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Principes fondamentaux de Dynamics 365 et Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Souhaitez-vous en savoir plus sur les applications métier ? Commencez ce parcours d'apprentissage pour voir comment les applications Dynamics 365 sont utilisées. Découvrez les concepts du cloud, Power Platform, et comment prendre en main les applications Dynamics 365.  | Parcours d'apprentissage en ligne, gratuit et à son propre rythme  | 5.5 heures |
 | [Prise en main des applications Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)      | Découvrez comment les applications Finance and Operations prennent en charge les entreprises pour gérer leurs systèmes financiers mondiaux, les processus métier opérationnels et les chaînes d'approvisionnement rationalisées pour permettre aux utilisateurs de prendre rapidement des décisions éclairées. Dans le cadre de la première étape de votre expérience de collaboration avec les applications Finance and Operations, vous devez vous familiariser avec ses fonctionnalités, quel que soit votre rôle souhaité. | Parcours d'apprentissage en ligne, gratuit et à son propre rythme   | 2 heures   |
-| [Cours MB-900T01-A : Principes fondamentaux de Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)   | Ce cours familiarisera l'étudiant avec la fonctionnalité Dynamics 365 et la valeur métier. Le cours couvrira les applications Dynamics 365, Power Platform, les concepts de cloud, le modèle de sécurité et les licences.  | Formation avec animateur ou en ligne ; le coût varie selon la région et le partenaire | 1 jour     |
+
 
 
 ## <a name="core-platform-knowledge"></a>Principales connaissances de la plateforme<a name="core-platform-knowledge"></a>

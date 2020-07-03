@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008969"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443416"
 ---
 # <a name="overview"></a>Vue d'ensemble
 
@@ -35,21 +35,23 @@ Ce Guide de l'administrateur vous aide à configurer, gérer et dépanner Dynami
   - [Provision de Human Resources](hr-admin-setup-provision.md)
   - [Copier une instance](hr-admin-setup-copy-instance.md)
   - [Supprimer une instance](hr-admin-setup-remove-instance.md)
-  - [Mise à jour de processus](hr-admin-setup-update-process.md)
+  - [Processus de mise à jour](hr-admin-setup-update-process.md)
 
 - Configurer l'intégration de données
   - [Choisir une technologie d'intégration de données](hr-admin-integration-choose-technology.md)
   - [Configuration de l'intégration Common Data Service](hr-admin-integration-common-data-service.md)
-  - [Configuration de l'intégration avec Finance](hr-admin-integration-finance.md)
-  - [Configuration de l'intégration avec Dayforce](hr-admin-integration-dayforce.md)
+  - [Configurer l'intégration avec Finance](hr-admin-integration-finance.md)
+  - [Configurer l'intégration avec Dayforce](hr-admin-integration-dayforce.md)
   - [Créer une application d'exportation de données récurrentes](hr-admin-integration-recurring-data-export.md)
-  - Intégration à Office
-    - [Didacticiel pour l'intégration Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+  - Intégration avec Office
+    - [Didacticiel pour l'intégration Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Mettre à jour des données d'entité dans Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Créer des expériences Ouvrir dans Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Résoudre les problèmes d'intégration d'Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Résoudre les problèmes d'intégration Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Gérer les fonctionnalités](hr-admin-manage-features.md)
+
+- [Configurer et gérer la journalisation de la base de données](hr-admin-database-logging.md)
 
 - Explorer l'interface utilisateur
   - [Éléments de l'interface utilisateur](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
@@ -75,20 +77,19 @@ Ce Guide de l'administrateur vous aide à configurer, gérer et dépanner Dynami
 - Ressources documentaires
   - [Système d'aide](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Connexion au système d'aide](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Connexion à un site d'aide personnalisé](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Afficher et exporter les descriptions de champ](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Enregistreur de tâches](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Créer une documentation ou une formation à l'aide de l'enregistreur de tâches](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- Dépanner Human Resources
+- Résoudre les problèmes liés à Human Resources
   - [Obtenir de l'aide](hr-admin-troubleshooting-support.md)
   - [Optimiser les performances grâce aux tâches automatiques de nettoyage](hr-admin-troubleshooting-batch-history.md)
   - [Les états analytiques ne sont pas mis à jour](hr-admin-troubleshooting-analytic-reports.md)
   - [Impossible de créer un environnement dans le centre d'administration Power Apps](hr-admin-troubleshooting-power-apps.md)
   - [Déconnexion du client](hr-admin-troubleshooting-disconnect.md)
-  - [Éviter les textes tronqués dans la hiérarchie des postes](hr-admin-troubleshooting-truncate.md)
+  - [Éviter le texte tronqué dans la hiérarchie des postes](hr-admin-troubleshooting-truncate.md)
   - [Exécuter le processus de rémunération](hr-admin-troubleshooting-compensation.md)
-  - [Enregistrer un guide des tâches dans LCS](hr-admin-troubleshooting-task-guide.md)
+  - [Enregistrer un guide de tâches dans LCS](hr-admin-troubleshooting-task-guide.md)
   - [Accéder aux adresses privées selon les rôles de sécurité](hr-admin-troubleshooting-private-addresses.md)
   - [Human Resources n'apparaissent pas dans les applications Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [Options de génération d'états](hr-admin-troubleshooting-reporting.md)

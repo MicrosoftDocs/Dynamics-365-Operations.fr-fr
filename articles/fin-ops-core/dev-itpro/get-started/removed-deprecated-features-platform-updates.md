@@ -3,7 +3,7 @@ title: Fonctions de plateforme supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer dans les mises à jour de plateforme des applications Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268745"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457564"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de plateforme supprimées ou obsolètes
 
@@ -36,7 +36,55 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.13 des applications Finance and Operations
+
+> [!NOTE]
+> La version 10.0.13 n'a pas encore été publiée. Ces informations sont fournies à des fins de planification. Le contenu et la fonctionnalité pour la version 10.0.13 peuvent faire l'objet de modifications. Pour plus d'informations sur les versions, voir [Disponibilité des mises à jour de service](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>Mise à niveau de trois bibliothèques de composants jQuery 
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Trois bibliothèques de composants jQuery sont en cours de mise à jour pour des correctifs de sécurité et pour maintenir l'actualité.   
+| **Remplacé par une autre fonctionnalité ?**   | Les bibliothèques suivantes sont affectées : jQuery (vers la version 3.5.0 depuis la version 2.1.4), jQuery UI (vers la version 1.12.1 depuis la version 1.11.4), jQuery qTip (vers la version 3.0.3 depuis la version 2.2.1). Des conseils sur la migration ont été fournis en ligne par jQuery.  |
+| **Zones de produit affectées**         | Contrôles extensibles, en particulier du code JavaScript personnalisé utilisant des API obsolètes ou supprimées |
+| **Option de déploiement**              | Tout |
+| **État**                         | Avec la version 10.0.13 /Platform update 37, les clients peuvent éventuellement passer aux dernières bibliothèques en activant la fonction "Mettre à niveau trois bibliothèques de composants jQuery". Le passage aux nouvelles bibliothèques sera obligatoire avec la version d'avril 2021 pour laisser le temps nécessaire à la migration des API concernées.   |
+
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.12 des applications Finance and Operations
+
+### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensions de formulaire de contrôle de grille ou de groupe contenant des références de champ non valides
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | La propriété de groupe de données sur les contrôles de grille ou de groupe est utilisée pour afficher automatiquement tous les champs d'un groupe de champs. Un contrôle de grille ou de groupe ajouté par une extension peut contenir des champs qui ne sont plus définis sur le groupe de champs, ou il peut y avoir des champs manquants qui sont définis sur le groupe de champs. Cela peut entraîner un comportement incohérent lors de l'exécution. Les mises à jour de la plateforme pour la version 10.0.12 des applications Finance and Operations classent désormais ce problème en tant qu'*avertissement* de compilateur. Pour résoudre ce problème, ouvrez l'extension de formulaire et enregistrez-la.
+| **Remplacé par une autre fonctionnalité ?**   | Cet avertissement du compilateur sera remplacé par une erreur du compilateur dans une future mise à jour. |
+| **Zones de produit affectées**         | Outils de développement Visual Studio |
+| **Option de déploiement**              | Tout |
+| **État**                         | Un avertissement de compilateur est introduit dans les mises à jour de la plateforme pour la version 10.0.12 des applications Finance and Operations. |
+
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.11 des applications Finance and Operations
+
+### <a name="explicit-safe-lists-for-self-service-environments"></a>Liste sécurisée explicite pour les environnements en libre service
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Le processus de déplacement de l'IP vers des listes sécurisées a changé. Le libre service ne prend plus en charge les listes sécurisées IP. |
+| **Remplacé par une autre fonctionnalité ?**   | Pour plus d'informations, voir [Configuration de l'accès conditionnel Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Zones de produit affectées**         | Sécurité |
+| **Option de déploiement**              | Cloud |
+| **État**                         | **Obsolète :** Cette fonctionnalité est totalement obsolète pour les déploiements en libre service. |
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | Pour prendre en charge les dernières versions de Visual Studio, certaines modifications doivent être apportées aux extensions X++ pour Visual Studio. Ces modifications sont incompatibles avec Visual Studio 2015. |
+| **Remplacé par une autre fonctionnalité ?**   | Visual Studio 2017 remplacera Visual Studio 2015 comme version déployée et requise. |
+| **Zones de produit affectées**         | Outils de développement Visual Studio |
+| **Option de déploiement**              | Tout |
+| **État**                         | Quand la disponibilité des nouvelles machines virtuelles (VM) avec Visual Studio 2017 sera annoncée, les machines virtuelles existantes avec seulement Visual Studio 2015 devront être redéployées lors du Plan de publication 1 de 2021. |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Groupes de champ contenant des références de champs non valides
 

@@ -3,24 +3,24 @@ title: Activer l'authentification Azure Active Directory pour la connexion au PD
 description: Cette rubrique explique comment configurer l'expérience de connexion pour le point de vente (PDV) Microsoft Dynamics 365 Commerce afin d'utiliser l'authentification Azure Active Directory.
 author: boycezhu
 manager: annbe
-ms.date: 03/08/2020
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgri
 ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: dfc49585434383385b6b993893d93b95ef888384
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248938"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410033"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Activer l'authentification Azure Active Directory pour la connexion au PDV
 [!include [banner](includes/banner.md)]
@@ -47,6 +47,8 @@ Pour appliquer les paramètres aux clients du PDV, procédez comme suit.
 
 > [!NOTE]
 > L'authentification Azure AD nécessite une connexion Internet. Cela ne fonctionne pas si le PDV est en mode Hors connexion.
+> 
+> Actuellement, la fonction **remplacement par le responsable** ne prend pas en charge Azure AD comme méthode d'authentification. Un ID opérateur et un mot de passe sont requis même si Azure AD est configuré comme méthode d'authentification pour la connexion de PDV.
 
 ## <a name="associate-an-azure-ad-account-with-a-worker"></a>Associer un compte Azure AD à un collaborateur
 
@@ -68,4 +70,4 @@ Les champs **Alias**, **UPN** et **Sous-identifiant externe** de l'onglet **Comm
 
 [Créer un profil de fonctionnalité de vente au détail](retail-functionality-profile.md)
 
-[ Configurer un collaborateur](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+[Configurer un collaborateur](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)

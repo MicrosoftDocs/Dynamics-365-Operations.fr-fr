@@ -1,9 +1,9 @@
 ---
 title: Présentation de la gestion des fonctionnalités
 description: Cette rubrique décrit la fonctionnalité de gestion des fonctionnalités et son utilisation.
-author: mikefalkner
+author: ChrisGarty
 manager: AnnBe
-ms.date: 09/12/2019
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,17 +13,17 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
-ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
+ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778703"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456595"
 ---
 # <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
 
@@ -144,3 +144,34 @@ La Gestion des fonctionnalités vous permet de contrôler les fonctionnalités q
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Utilisation de la Gestion des fonctionnalités pour activer des fonctionnalités de fournisseur de logiciels indépendant ou des fonctions personnalisées
 
 La gestion des fonctionnalités n'est actuellement pas disponible pour les fonctionnalités des éditeurs de logiciels indépendants (ISV) et les fonctionnalités personnalisées. Toutefois, Microsoft ajoute des fonctionnalités supplémentaires pour améliorer la Gestion des fonctionnalités. Une fois ces améliorations terminées, Microsoft rendra la Gestion des fonctionnalités disponible pour toutes les fonctionnalités et fournira des instructions pour la mise à jour de vos fonctionnalités à utiliser.
+
+## <a name="frequently-asked-questions-faq"></a>Forum aux questions (FAQ)
+
+### <a name="when-are-features-added-removed-or-changed"></a>Quand les fonctionnalités sont-elles ajoutées, supprimées ou modifiées ? 
+Les fonctionnalités sont ajoutées, supprimées et modifiées par des modifications de code. Les environnements doivent être mis à jour pour recevoir ces modifications.
+
+### <a name="does-a-feature-become-mandatory-automatically"></a>Une fonctionnalité devient-elle obligatoire automatiquement ? 
+Non, une fonctionnalité devenue obligatoire n'est pas une action automatique. Les équipes produit doivent effectuer un changement de code.
+
+### <a name="when-do-features-become-mandatory"></a>Quand les fonctionnalités deviennent-elles obligatoires ? 
+La stratégie est que toutes les nouvelles fonctionnalités seront activées pour une période de 12 mois et ne nécessiteront aucune gestion des modifications jusqu'à ce que vous activiez la fonctionnalité. Les équipes de produits peuvent choisir de rendre une fonctionnalité obligatoire après la fin de cette période. 
+
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Pourquoi n'y a-t-il pas de "date activée obligatoire" spécifique ? 
+Le calendrier de publication des mises à jour est variable, le calendrier de mise à jour de l'environnement est variable et les clients peuvent choisir d'ignorer certaines mises à jour. Par conséquent, des dates précises sont difficiles à déterminer. 
+
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Où se trouve la documentation des fonctionnalités rendues obligatoires ? 
+Cette documentation provient des équipes d'application. Souvent, ceux-ci seront mentionnés dans [Fonctionnalités supprimées ou obsolètes](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Y a-t-il une notification ou un signal dans le produit qu'une fonctionnalité va être activée de manière obligatoire ? 
+Il n'existe pas aujourd'hui de mécanisme de notification pour rendre obligatoire une fonctionnalité.
+
+### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Les fonctionnalités sont-elles jamais activées à l'insu du client ? 
+Oui, si les fonctionnalités n'ont pas d'impact fonctionnel, elles peuvent être activées par défaut.
+
+### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Qu'est-ce que le vol de fonctionnalités et comment est-il lié à la gestion des fonctionnalités ? 
+Les vols de fonctionnalités sont des commutateurs marche/arrêt en temps réel que Microsoft contrôle. Ils sont distincts du contrôle client fourni par la gestion des fonctionnalités. 
+- Les fonctionnalités de préversion privée ne seront pas répertoriées dans la gestion des fonctionnalités tant qu'elles ne seront pas activées. En production, le client doit accepter de faire partie d'un programme spécial pour que cela se produise.
+- Les fonctionnalités de prévisualisation publique et publiées (généralement disponibles) seront répertoriées dans la gestion des fonctionnalités, sauf si elles sont désactivées. La désactivation d'une fonctionnalité est considérée comme une option de dernier recours pour les équipes de produits si un problème critique est détecté et serait généralement une opération par client.
+
+### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Les fonctionnalités sont-elles jamais désactivées à l'insu du client ? 
+Oui, si une fonctionnalité a un impact sur le fonctionnement d'un environnement qui n'a pas d'impact fonctionnel, elle peut être activée par défaut.

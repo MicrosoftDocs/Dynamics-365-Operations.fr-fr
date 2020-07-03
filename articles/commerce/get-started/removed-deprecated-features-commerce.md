@@ -3,7 +3,7 @@ title: Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer de Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 05/04/2020
+ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c47c5430a8f5d67e13c95db609a95d5ad66933ae
-ms.sourcegitcommit: a8b6cd799eddaf5be9aec9ea3c2b55e2c3231652
+ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3335274"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443916"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 
@@ -35,6 +35,16 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.11
+### <a name="data-action-hooks"></a>Crochets d'action de données
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | La fonction de raccordement des actions de données est déconseillée en raison de problèmes de performances. |
+| **Remplacé par une autre fonctionnalité ?**   | Il est recommandé d'utiliser à la place le [remplacement des actions sur les données](../e-commerce-extensibility/data-action-overrides.md) pour modifier la logique métier dans la couche d'action de données.|
+| **Zones de produit affectées**         | Actions de données d'extensibilité de e-commerce |
+| **Option de déploiement**              | Tout |
+| **État**                         | Obsolète : à partir de la version 10.0.11 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.10
 ### <a name="pos-operation-803---picking-and-receiving"></a>Fonctionnement PDV 803 - Prélèvement et réception

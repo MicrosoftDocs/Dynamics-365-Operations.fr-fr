@@ -3,7 +3,7 @@ title: Module Zone d'achat
 description: Cette rubrique couvre les modules de zone d'achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269749"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411340"
 ---
 # <a name="buy-box-module"></a>Module Zone d'achat
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de zone d'achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
@@ -38,6 +38,10 @@ Le terme *zone d'achat* désigne généralement la zone d'une page de détails d
 Un module Zone d'achat est un conteneur spécial utilisé pour héberger tous les modules qui sont affichés dans la zone de la zone d'achat d'une page de détails des produits.
 
 L'URL d'une page de détails de produit inclut l'ID produit. Toutes les informations requises pour afficher un module de zone d'achat sont dérivées de cet ID produit. Si aucun ID produit n'est fourni, le module de zone d'achat ne s'affiche pas correctement sur une page. Par conséquent, un module de zone d'achat ne peut être utilisé que sur des pages qui ont un contexte de produit. Pour l'utiliser sur une page qui n'a pas de contexte de produit (par exemple, une page d'accueil ou une page marketing), vous devez effectuer des personnalisations supplémentaires.
+
+L'image suivante montre un exemple de module de zone d'achat dans une page de détails d'un produit.
+
+![Exemple d'un module de zone d'achat](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Propriétés et emplacements des modules de zone d'achat 
 
@@ -53,7 +57,7 @@ Les thèmes peuvent être utilisés pour supprimer ou modifier l'ordre des comma
 
 ## <a name="module-properties"></a>Propriétés du module
 
-- **Balise de titre** - Cette propriété définit la balise d'en-tête du titre du produit. Si la zone d'achat se trouve en haut de la page, cette propriété doit être définie sur **h1** pour répondre aux normes d'accessibilité. 
+- **Balise de titre** – Cette propriété définit la balise d'en-tête du titre du produit. Si la zone d'achat se trouve en haut de la page, cette propriété doit être définie sur **h1** pour répondre aux normes d'accessibilité. 
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Modules qui peuvent être utilisés dans un module de zone d'achat
 
@@ -62,31 +66,43 @@ Les thèmes peuvent être utilisés pour supprimer ou modifier l'ordre des comma
 
 ## <a name="buy-box-module-settings"></a>Paramètres du module Zone d'achat
 
-Les modules de zone d'achat ont trois paramètres qui peuvent être configurés sur **Paramètres du site \> Extensions** :
+Les paramètres de module de zone d'achat suivants peuvent être configurés sur **Paramètres du site \> Extensions** :
 
-- **Quantité maximale** – Cette propriété est utilisé pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
-- **Contrôle de stock** – Lorsque la valeur est définie sur **Vrai**, un article est ajouté au panier uniquement une fois que le module zone d'achat garantit qu'il est en stock. Ce contrôle de stock est réalisé en cas d'expédition de l'article ou en cas de prélévement de l'article au magasin. Si la valeur est définie sur **Faux**, aucun contrôle de stock n'est effectué avant qu'un article soit ajouté au panier et la commande est passée. Pour plus d'informations sur la configuration des paramètres de stock dans le back-office, consultez [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md).
+- **Limite de quantité de lignes du panier** – Cette propriété est utilisée pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
+- **Stock** – Pour plus d'informations sur l'application des paramètres de stock, voir [Appliquer les paramètres de stock](inventory-settings.md).
+- **Ajouter au panier** – Cette propriété est utilisée pour spécifier le comportement après l'ajout d'un article au panier. Les valeurs possibles sont **Accéder au panier**, **Ne pas accéder au panier** et **Afficher les notifications**. Lorsque la valeur est définie sur **Accéder au panier**, les utilisateurs sont envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Ne pas accéder au panier**, les utilisateurs ne sont pas envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Afficher les notifications**, les utilisateurs reçoivent une notification de confirmation et peuvent continuer à naviguer sur la page des détails du produit. 
 
-- **Tampon quantité disponible** - Cette propriété est utilisée pour spécifier un numéro de tampon pour le stock. Le stock est tenu à jour en temps réel, et lorsque plusieurs clients passent des commandes, il peut être difficile de tenir à jour un volume de stock exact. Lorsqu'un contrôle de stock est réalisé, si le stock est inférieur au montant de marge, le produit est traité comme épuisé. Par conséquent, lorsque des ventes se produisent rapidement sur plusieurs canaux, et que le volume de stock n'est pas complètement synchronisé, il y a moins de risque qu'un article qui épuisé soit vendu.
+    L'image suivante montre un exemple de notification de confirmation « ajouté au panier » sur le site Fabrikam.
+
+    ![Exemple de module de notification](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interaction avec l'unité d'échelle commerciale
 
-Le module de zone d'achat extrait les informations sur le produit à l'aide des API d'unité d'échelle commerciale. L'ID produit de la page de détails de produit est utilisée pour récupérer toutes les informations.
+Le module de zone d'achat extrait les informations sur le produit à l'aide des API (Application Programming Interfaces) de Commerce Scale Unit. L'ID produit de la page de détails de produit est utilisée pour récupérer toutes les informations.
 
 ## <a name="add-a-buy-box-module-to-a-page"></a>Ajouter un module de zone d'achat à une page
 
 Pour ajouter un module de zone d'achat à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Créez un fragment nommé **fragment de zone d'achat**, puis ajoutez un module de zone d'achat à celui-ci.
-1. À l'emplacement **Multimédia** du module de zone d'achat, ajoutez un module de galerie multimédia.
-1. Dans l'emplacement **Sélecteur de magasins** du module de zone d'achat, ajoutez un module de sélecteur de magasins.
+1. Accédez à **Fragments de page**, puis cliquez sur **Nouveau** pour créer un fragment.
+1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez le module **Zone d'achat**.
+1. Sous **Nom du fragment de page**, entrez le nom **Fragment de zone d'achat**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Galerie de supports** qui contient le module de zone d'achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Galerie de supports**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Sélecteur de magasin** qui contient le module de zone d'achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Sélecteur de magasin**, puis sélectionnez **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
-1. Créez un modèle pour une page de détails des produits, puis nommez-le **Modèle PDF**.
-1. Ajoutez une page par défaut.
-1. À l'emplacement **Principal** de la page par défaut, ajoutez un fragment de zone d'achat.
+1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
+1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle PDP**, puis cliquez sur **OK**.
+1. Dans l'emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Page par défaut**, puis sélectionnez **OK**.
+1. À l'emplacement **Principal** de la page par défaut, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajouter un fragment de page**.
+1. Dans la boîte de dialogue **Sélectionner un fragment de page**, sélectionnez le fragment **Fragment de zone d'achat** que vous avez créé au préalable, puis sélectionnez **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
-1. Utilisez le modèle que vous venez de créer pour créer une page qui s'appelle **page PDF**.
-1. À l'emplacement **Principal** de la nouvelle page, ajoutez un fragment de zone d'achat.
+1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
+1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Modèle PDP**. Sous **Nom de la page**, entrez **Page PDP**, puis sélectionnez **OK**.
+1. À l'emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajouter un fragment de page**.
+1. Dans la boîte de dialogue **Sélectionner un fragment de page**, sélectionnez le fragment **Fragment de zone d'achat** que vous avez créé au préalable, puis sélectionnez **OK**.
 1. Enregistrez et affichez un aperçu de la page. Ajoutez le paramètre de chaîne de requête **?productid=&lt;product id&gt;** à l'URL de la page d'aperçu. Ainsi, le contexte de produit est utilisé pour charger et afficher la page d'aperçu.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier. Un zone d'achat doit figurer sur la page de détails des produits.
 

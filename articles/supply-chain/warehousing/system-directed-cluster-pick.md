@@ -3,7 +3,7 @@ title: Prélèvement de groupement dirigé par le système
 description: Cette rubrique fournit une vue d'ensemble du prélèvement de groupement dirigé par le système dans Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 manager: tfehr
-ms.date: 12/10/2019
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 390e0a3379a6482e99a13f4f7835b5264e3747ac
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b7ac243a04309a41ab0e06c1b2d4843ae8ac0e22
+ms.sourcegitcommit: 7c32e4739c07d825a8562564ea9e78922db2ce38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217239"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406379"
 ---
 # <a name="system-directed-cluster-picking"></a>Prélèvement de groupement dirigé par le système
 
@@ -40,9 +40,21 @@ Le prélèvement de groupement dirigé par le système offre une alternative à 
 - **Générer un ID de groupement** contrôle si l'ID groupement sera généré par le système ou saisi par l'utilisateur.
 - **Trier le type de vérification** détermine si la vérification de poste est requise.
 
-Un nouvel élément de menu d'appareil mobile est utilisé pour le prélèvement de groupement dirigé par le système. L'ID de profil de groupement doit être spécifié pour l'option **Dirigé par**. En outre, l'ordre de requête dirigé par le système peut regrouper les commandes en fonction de critères spécifiques à l'entreprise. Par conséquent, vous pouvez optimiser davantage l'affectation des ordres de travail en spécifiant des critères de tri personnalisés sur l'ordre de requête dirigé par le système.
+Un nouvel élément de menu d'appareil mobile est utilisé pour le prélèvement de groupement dirigé par le système. L'**ID profil de groupement** doit être spécifié pour l'option **Dirigé par**. En outre, les requêtes de séquence de travail dirigées par le système peuvent regrouper les ordres en fonction de critères spécifiques à l'entreprise. Par conséquent, vous pouvez optimiser davantage l'affectation des ordres de travail en spécifiant des critères de tri personnalisés à l'aide des requêtes de séquence de travail dirigées par le système.
 
-Lorsque le prélèvement de groupement dirigé par le système est terminé, les employés de l'entrepôt se voient présenter un groupement dans lequel les ordres de prélèvement ont été préaffectés aux postes du groupement. Par conséquent, les employés peuvent commencer à prélever un article pour plusieurs ordres de travail en visitant le lieu de prélèvement une seule fois. Le processus de prélèvement pour le prélèvement de groupement dirigé par le système est le même que le processus de prélèvement de groupement dirigé par l'utilisateur.
+Lorsque le prélèvement de groupement dirigé par le système est activé, les collaborateurs de l'entrepôt se voient présenter un groupement dans lequel les ordres de prélèvement ont été préaffectés aux postes du groupement. Par conséquent, les employés peuvent commencer à prélever un article pour plusieurs ordres de travail en visitant le lieu de prélèvement une seule fois. Le processus de prélèvement pour le prélèvement de groupement dirigé par le système est le même que le processus de prélèvement de groupement dirigé par l'utilisateur.
+
+## <a name="enable-the-system-directed-cluster-picking-feature"></a>Activer la fonction de prélèvement de groupement dirigé par le système
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l'activer sur votre système. Les administrateurs peuvent utiliser les paramètres de la page de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. La fonctionnalité est répertoriée comme suit :
+
+- **Module** - Gestion des entrepôts
+- **Nom de la fonctionnalité** - Prélèvement de groupement dirigé par le système
+
+Cette fonctionnalité nécessite également d'activer une fonctionnalité dépendante. La fonctionnalité dépendante est :
+
+- **Module** - Gestion des entrepôts
+- **Nom de la fonctionnalité** - Séquençage du travail dirigé par le système à l'échelle de l'organisation
 
 ## <a name="set-up-system-directed-cluster-picking"></a>Paramétrage du prélèvement de groupement dirigé par le système
 
@@ -54,104 +66,144 @@ Les profils de groupement contrôlent la façon dont le système crée chaque gr
 2. Sélectionnez **Nouveau**.
 3. Dans le champ **ID de profil de groupement**, entrez **2 Poste**.
 4. Dans le champ **Nom**, entrez **2 Poste**.
-5. Dans l'organisateur **Général**, définissez les champs suivants :
+5. Dans le raccourci **Général**, entrez les informations suivantes :
 
-    - **Générer un ID de groupement :** Définissez cette option sur **Oui**. Cette option détermine si l'ID de groupement est créé automatiquement par le système ou si l'utilisateur le créera au début du prélèvement.
-    - **Activer les postes :** Définissez cette option sur **Oui**. Cette option détermine si les noms de poste sont générés automatiquement en fonction de la configuration du nom de poste. Si cette option est définie sur **Non**, l'ID contenant du poste est utilisé.
-    - **Nombre de postes :** Entrez **2**. Ce champ détermine le nombre maximal de postes que le groupement peut avoir (c'est-à-dire le nombre maximal de boîtes, de chariots, etc.).
-    - **Nom du poste :** Sélectionnez **Numérique**, afin que les postes soient nommés à l'aide de nombres continus. Si vous sélectionnez **Alphabétique**, les postes sont nommés par ordre alphabétique.
-    - **Rompre le groupement à :** Sélectionnez **Placer**. Ce champ détermine le moment où le groupement est rompu.
-    - **Trier le type de vérification :** Sélectionnez **Analyse de position**. Ce champ détermine si l'étape de mise en position est vérifiée.
+    - **Générer un ID de cluster** - Sélectionnez **Oui**. Cette option détermine si l'ID de groupement est créé automatiquement par le système ou si l'utilisateur le créera au début du prélèvement. 
+    - **Activer les postes** - Sélectionnez **Oui**. Cette option détermine si les noms de poste sont générés automatiquement en fonction de la configuration du nom de poste. Si cette option est définie sur **Non**, l'ID contenant du poste est utilisé.
+    - **Nombre de postes** - Sélectionnez **2**. Ce champ détermine le nombre maximal de postes que le groupement peut avoir (c'est-à-dire le nombre maximal de boîtes, de chariots, etc.).
+    - **Nom du poste** - Sélectionnez **Numérique**, afin que les postes soient nommés à l'aide de nombres continus. Si vous sélectionnez **Alphabétique**, les postes sont nommés par ordre alphabétique.
+    - **Rompre le groupement à** - Sélectionnez **Placer**. Ce champ détermine le moment où le groupement est rompu. 
+    - **Trier le type de vérification** - Sélectionnez **Analyse de position**. Ce champ détermine si l'étape de mise en position est vérifiée.
+        
+6. Sur l'organisateur **Tri de groupement**, vous pouvez définir des critères de tri en créant une ligne et en entrant les informations suivantes :
 
-6. Sur l'organisateur **Tri de groupement**, vous pouvez définir des critères de tri en créant une ligne et en définissant les champs suivants :
-
-    - **Numéro de séquence :** Ce champ détermine la séquence de tri du système. Une valeur est entrée automatiquement, mais vous pouvez la modifier selon vos besoins.
-    - **Nom du champ :** Sélectionnez **WMSLocationId**. Ce champ détermine le champ que la ligne utilise pour les critères de tri.
-    - **Tri :** Sélectionnez **Ascendant**. Ce champ définit si le tri est effectué par ordre croissant ou décroissant.
+    - **Numéro de séquence** - Sélectionnez **1**. Ce champ détermine la séquence de tri du système. Une valeur est entrée automatiquement, mais vous pouvez la modifier si nécessaire.
+    - **Nom du champ** - Saisissez **WMSLocationId**. Ce champ détermine le champ que la ligne utilise pour les critères de tri.
+    - **Tri** - Sélectionnez **Ascendant**. Ce champ définit si le tri est effectué par ordre croissant ou décroissant.
 
 ### <a name="create-a-mobile-device-menu-item"></a>Créer une option de menu d'appareil mobile
 
 Pour créer un élément de menu d'appareil mobile pour le prélèvement de groupement dirigé par le système et lier l'ID de profil de groupement à l'élément de menu d'appareil mobile, procédez comme suit.
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d'appareil mobile**.
-2. Sélectionnez **Nouveau**.
-3. Dans le champ **Nom de l'élément de menu**, entrez **Groupement SD**.
-4. Dans le champ **Titre**, entrez **Groupement SD**.
-5. Dans le champ **Mode**, sélectionnez **Travail**.
-6. Définissez l'option **Utiliser un travail existant** sur **Oui**.
-7. Dans l'organisateur **Général**, définissez les champs suivants :
+1. Accédez à **Gestion des entrepôts > Paramétrage > Appareil mobile > Options de menu d'appareil mobile**.
+1. Sélectionnez **Nouveau**.
+1. Dans la section d'en-tête, entrez les informations suivantes :
+    - **Nom de l'option de menu** - Groupement SD
+    - **Titre** - Groupement SD
+    - **Mode** - Travail
+    - **Utiliser un travail existant** - Oui
 
-    - **Dirigé par :** Sélectionnez **Dirigé par le système**.
-    - **Générer un contenant :** Définissez cette option sur **Oui**.
-    - **ID de profil de groupement :** Sélectionnez **2 Poste**.
+1. Dans le raccourci **Général**, entrez les informations suivantes :
+    - **Dirigé par** - Prélèvement de groupement dirigé par le système
+    - **Générer un contenant** - Oui
+    - **ID de profil de groupement** - 2 postes
 
-8. Sur l'organisateur **Classes de travail**, configurez la classe de travail valide pour cet élément de menu d'appareil mobile en définissant les champs suivants :
+1. Sur l'organisateur **Classes de travail**, configurez la classe de travail valide pour cet élément de menu d'appareil mobile en définissant les champs suivants :
+    - **ID classe de travail** - Vente
+    - **Type d'ordre de travail** - Commandes client
 
-    - **ID classe de travail :** Vérifiez que **Ventes** est saisi.
-    - **Type d'ordre de travail :** Vérifiez que **Commandes client** est saisi.
+1. Dans le volet d'action **Options de menu d'appareil mobile**, sélectionnez **Requêtes de séquence de travail dirigées par le système** et suivez ces étapes pour spécifier une nouvelle requête de séquence de travail dirigée par le système :
+    - Dans le volet Actions, sélectionnez **Nouveau**.
+    - **Numéro de séquence** - 1
+    - **Description** - Priorité du travail – ID du travail
 
-9. Suivez ces étapes pour spécifier une nouvelle requête de séquence de travail dirigée par le système :
+1. Dans le volet Actions, sélectionnez **Modifier une requête**.
+1. Sélectionnez l'onglet **Tri**.
+1. Sélectionnez **Ajouter** pour ajouter une nouvelle ligne, puis entrez les informations suivantes :
+    - **Table** - Travail
+    - **Table dérivée** - Travail
+    - **Champ** - Priorité du travail
+    - **Direction de recherche** - Ascendant
+1. Sélectionnez **Ajouter** pour ajouter une deuxième ligne, puis entrez les informations suivantes :
+    - **Table** - Travail
+    - **Table dérivée** - Travail
+    - **Champ** - ID du travail
+    - **Direction de recherche** - Ascendant
 
-    1. Sélectionnez **Nouveau**.
-    2. Dans le champ **Souche de N°**, saisissez **1**.
-    3. Dans le champ **Description**, sélectionnez **Priorité de travail - ID de travail**.
-
-10. Dans le menu, sélectionnez **Modifier la requête**.
-11. Sous l'onglet **Tri**, paramétrez les champs suivants :
-
-    - **Table :** Sélectionnez **Travail**.
-    - **Table dérivée :** Sélectionnez **Travail**.
-    - **Champ :** Sélectionnez **Priorité du travail**.
-    - **Ordre de tri :** Sélectionnez **Ascendant**.
-    - **Table :** Sélectionnez **Travail**.
-    - **Table dérivée :** Sélectionnez **Travail**.
-    - **Champ :** Sélectionnez **ID travail**.
-    - **Ordre de tri :** Sélectionnez **Ascendant**.
-
-Le système va maintenant trier les ID travail dans le groupement, d'abord par priorité de travail, puis par ID travail.
+1. Le système va maintenant trier les ID travail dans le groupement, d'abord par priorité de travail, puis par ID travail.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Configurer un menu d'appareil mobile
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Appareil mobile \> Menu d'appareil mobile**.
-2. Ajoutez l'option de menu que vous venez de créer au menu souhaité.
+1. Accédez à **Gestion des entrepôts > Paramétrage > Appareil mobile > Menu d'appareil mobile**.
+1. Ajoutez l'option de menu **Groupement SD** que vous venez de créer à un menu Appareil mobile.
+1. Sélectionnez le menu **Sortant**.
+1. Sélectionnez **Modifier** dans le volet Actions.
+1. Faites défiler jusqu'à ce que vous trouviez **Groupement SD**.
+1. Sélectionnez **Groupement SD**, la flèche pointant vers la **Structure du menu** sera activée.
+1. Sélectionnez le bouton en forme de **flèche** pour déplacer l'option de menu **Groupement SD** vers la structure de menu **Sortant**.
+1. Sélectionnez **Groupement SD** dans la liste **Structure du menu**, puis sélectionnez les flèches **HAUT** ou **BAS** pour déplacer l'option de menu dans la position souhaitée sur le menu de l'appareil mobile.
 
-## <a name="example"></a>Exemple
+## <a name="scenario"></a>Scénario
 
 ### <a name="create-picking-work"></a>Création de tâches de prélèvement
 
-Avant de pouvoir configurer le prélèvement de groupement dirigé par le système, vous devez créer des travaux sortants éligibles. Le profil de groupement créé précédemment spécifie deux positions de groupement. Par conséquent, vous devez créer au moins deux ID travail.
+Avant de pouvoir configurer le prélèvement de groupement dirigé par le système, vous devez créer un travail sortant éligible. Le profil de groupement créé précédemment spécifie deux positions de groupement. Par conséquent, vous devez créer au moins deux ID travail. Dans ce scénario, vous allez créer deux commandes client, réserver le stock, envoyer les commandes client à l'entrepôt, puis traiter manuellement la vague.
 
-1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
-2. Sélectionnez **Nouveau** pour créer une commande client.
-3. Sélectionnez un client dans le champ **Compte client**.
-4. Dans l'organisateur **Général**, dans le champ **Entrepôt**, sélectionnez l'entrepôt **62**.
-5. Cliquez sur **OK**.
-6. Dans l'organisateur **Lignes de commande client**, sélectionnez **Ajouter une ligne**.
-7. Dans le champ **Numéro d'article**, sélectionnez **A0001**.
-8. Dans le champ **Quantité**, entrez **1**.
-9. Sélectionnez **Ajouter une ligne** pour ajouter une deuxième ligne.
-10. Dans le champ **Numéro d'article**, sélectionnez **A0002**.
-11. Dans le champ **Quantité**, entrez **3**.
-12. Répétez les étapes 2 à 6.
-13. Dans le champ **Numéro d'article**, sélectionnez **A0001**.
-14. Dans le champ **Quantité**, entrez **4**.
-15. Sélectionnez **Ajouter une ligne** pour ajouter une deuxième ligne.
-16. Dans le champ **Numéro d'article**, sélectionnez **A0002**.
-17. Dans le champ **Quantité**, entrez **2**.
-
-Réservez l'inventaire et remettez-le à l'entrepôt. Deux ID travail différents sont créés. Chaque ID travail a deux lignes de prélèvement.
+1. Accédez à **Ventes et marketing > Commandes client > Toutes les commandes client**.
+1. Sélectionnez **Nouveau** dans le volet Actions pour créer la première commande client.
+    - Le menu **Créer une commande client** s'ouvre ; entrez les informations suivantes :
+        - Dans le raccourci **Client**, entrez **Compte client** - **US-004**.
+        - Dans le raccourci **Général**, entrez **Entrepôt** - **62**.
+        - Sélectionnez **OK** pour fermer le menu et créer la commande client.
+    - Dans le raccourci **Lignes de commande client**, sélectionnez **Ajouter une ligne** si aucune nouvelle ligne n'est ajoutée automatiquement et entrez les informations suivantes :
+        - **Numéro d'article** - A0001
+        - **Quantité** - 1
+        - Sélectionnez **Ajouter une ligne** pour ajouter une deuxième ligne.
+        - **Numéro d'article** - A0002
+        - **Quantité** - 3
+    - Réservez le stock pour les deux lignes que vous venez de créer.
+        - Sélectionnez **Ligne 1**.
+        - Dans le volet Actions **Lignes de commande client**, sélectionnez **Stock**, puis **Réservation** dans la liste.
+        - Dans le formulaire **Réservation**, sélectionnez **Réserver un lot** pour réserver le stock.
+        - Fermez le formulaire **Réservation** une fois la réservation terminée.
+        - Répétez ces étapes pour réserver le stock pour **Ligne 2**.
+1. Sélectionnez **Nouveau** dans le volet Actions pour créer la deuxième commande client.
+    - Le menu **Créer une commande client** s'ouvre ; entrez les informations suivantes :
+        - Dans le raccourci **Client**, entrez **Compte client** - **US-005**.
+        - Dans le raccourci **Général**, entrez **Entrepôt** - **62**.
+        - Sélectionnez **OK** pour fermer le menu et créer la commande client.
+    - Dans le raccourci **Lignes de commande client**, sélectionnez **Ajouter une ligne** si aucune nouvelle ligne n'est ajoutée automatiquement et entrez les informations suivantes :
+        - **Numéro d'article** - A0001
+        - **Quantité** - 4
+        - Sélectionnez **Ajouter une ligne** pour ajouter une deuxième ligne.
+        - **Numéro d'article** - A0002
+        - **Quantité** - 2
+    - Réservez le stock pour les deux lignes que vous venez de créer.
+        - Sélectionnez **Ligne 1**.
+        - Dans le volet Actions **Lignes de commande client**, sélectionnez **Stock**, puis **Réservation** dans la liste.
+        - Dans le formulaire **Réservation**, sélectionnez **Réserver un lot** pour réserver le stock.
+        - Fermez le formulaire **Réservation** une fois la réservation terminée.
+        - Répétez ces étapes pour réserver le stock pour **Ligne 2**.
+    - Fermez la commande client et revenez sur la page de liste **Toutes les commandes client**.
+1. Recherchez les deux commandes client que vous venez de créer (vous devrez peut-être actualiser la page). Dans le tableau, sélectionnez les deux commandes client à l'aide de la coche de section.
+    - Dans le volet Actions **Toutes les commandes client**, sélectionnez l'onglet **Entrepôt**.
+    - Dans le groupe **Actions**, sélectionnez **Lancement dans l'entrepôt** pour envoyer les deux commandes client à l'entrepôt.
+1. Une fois le processus d'envoi à l'entrepôt terminé, un message d'information s'affiche.
+    - Des expéditions seront créées pour chaque commande client.
+    - Une vague sera créée et les deux expéditions y seront affectées. Prenez note de l'**ID du travail**.
+1. Accédez à **Gestion des entrepôts > Vagues sortantes > Vagues d'expédition > Toutes les vagues**.
+    - Dans la liste **Toutes les vagues**, recherchez et sélectionnez l'**ID de vague** que vous avez créé à l'étape précédente.
+    - Dans le volet Actions, sélectionnez l'onglet **Vague**.
+    - Dans le groupe **Vague**, sélectionnez **Processus** pour traiter la vague et créer le **Travail**.
+    - Des messages d'information seront générés une fois le traitement terminé, indiquant que le travail a été créé et que la vague a été publiée.
+1. **Facultatif** : accédez à **Gestion d'entrepôt > Travail > Détails du travail** pour voir le travail créé. Deux ID travail différents sont créés. Chaque ID travail a deux lignes de prélèvement.
 
 ### <a name="run-the-mobile-device-flow"></a>Exécuter le flux de l'appareil mobile
 
-1. Sur l'appareil mobile, sélectionnez le menu qui inclut la nouvelle option de menu appareil mobile.
-2. Sélectionnez l'élément de menu **Groupement SD** et lancez le prélèvement. Un groupement est créé et les deux ID travail créés précédemment lui sont associés. Si vous avez créé plus de deux ID travail, seuls les deux premiers sont ajoutés au groupement. Notez que les ID travail sont ajoutés au groupement par ordre croissant, comme vous l'avez spécifié dans la configuration de la requête.
+1. connectez-vous à l'appareil mobile pour un utilisateur dans l'entrepôt **62**.
+1. Dans le **Menu principal**, sélectionnez **Sortant**.
+1. Dans le menu **Sortant**, sélectionnez **Groupement SD** pour lancer le prélèvement.
+    - Un groupement est créé et les deux ID travail créés précédemment lui sont associés. Si vous avez créé plus de deux ID travail, seuls les deux premiers sont ajoutés au groupement. Notez que les ID travail sont ajoutés au groupement par ordre croissant, comme vous l'avez spécifié dans la configuration de la requête.
 
     > [!NOTE]
     > Le nouveau groupement est automatiquement créé uniquement si suffisamment d'ID travail supplémentaires ont été créés précédemment. Sinon, le message suivant s'affiche : « Le groupement contient un nombre insuffisant de tâches. »
 
-    Après avoir sélectionné le menu, le premier écran de prélèvement apparaît. Le système regroupe toutes les lignes de prélèvement correspondantes à partir des deux ID travail et vous invite à visiter le lieu de prélèvement une fois, afin que vous puissiez satisfaire les deux commandes en utilisant un seul prélèvement. Ce processus est effectué de la même manière que le processus de prélèvement de groupement dirigé par l'utilisateur.
+    - Après avoir sélectionné le menu, le premier écran de prélèvement apparaît. Le système regroupe toutes les lignes de prélèvement correspondantes à partir des deux ID travail et vous invite à visiter le lieu de prélèvement une fois, afin que vous puissiez satisfaire les deux commandes en utilisant un seul prélèvement. Ce processus est effectué de la même manière que le processus de prélèvement de groupement dirigé par l'utilisateur.
 
-3. Confirmez le premier prélèvement. Vous devez ensuite entrer le nom du poste pour confirmer que les articles ont été placés à la bonne position.
-4. Répétez ce processus jusqu'à ce que tous les articles aient été prélevés et placés dans la bonne position.
-5. La dernière étape sur l'appareil mobile consiste à placer le groupement à l'emplacement final. Lorsque cette opération de placement est confirmée, le groupement est fermé et rompu, en fonction de la valeur que vous avez définie pour le champ **Rompre le groupement à** dans le profil de groupement. Les ID travail sont également fermés.
-6. Un message « Groupement terminé » s'affiche sur l'appareil mobile.
+1. Confirmez le premier lieu du prélèvement et le premier article en sélectionnant **OK**.
+    - La quantité du prélèvement sera le total de l'article affiché sur les commandes client du groupement.
+1. Saisissez le nom du poste (numérique ou alphabétique) pour confirmer que la quantité d'articles sélectionnée pour le poste a été placée au bon endroit.
+1. Répétez ce processus jusqu'à ce que toutes les quantités d'articles aient été prélevées et placées dans la bonne position.
+1. La dernière étape sur l'appareil mobile consiste à **Placer** le groupement à l'emplacement final. Cliquez sur **OK**.
+    - Lorsque l'opération de placement est confirmée, le groupement est fermé et rompu, en fonction de la valeur que vous avez définie pour le champ **Rompre le groupement à** dans le profil de groupement. Les ID travail sont également fermés.
+1. Un message « Groupement terminé » s'affiche sur l'appareil mobile.

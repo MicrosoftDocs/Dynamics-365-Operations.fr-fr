@@ -3,7 +3,7 @@ title: Permettre aux utilisateurs de recevoir des e-mails liés au workflow
 description: Vous pouvez configurer le système pour envoyer des messages e-mail aux utilisateurs lorsque des événements liés au workflow se produisent.
 author: jasongre
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4c9f2f22bc4b5ca5b4351f7956ad2eb6d3b903d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 40ad380c7bfb2b3fc518b0278286ae03532668ed
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140419"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416551"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Permettre aux utilisateurs de recevoir des e-mails liés au workflow
 
@@ -40,3 +40,5 @@ Vous pouvez configurer le système pour envoyer des messages e-mail aux utilisat
 6. Cliquez sur **Enregistrer**.
 7. Fermez la page.
 
+> [!NOTE]
+> Les modèles d'e-mail de workflow proviendront des modèles d'e-mail système ou des modèles d'e-mail de l'organisation, selon que le workflow est un workflow de niveau système (non spécifique à la société) ou de niveau organisation (spécifique à la société).

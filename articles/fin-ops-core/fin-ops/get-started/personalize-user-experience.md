@@ -3,7 +3,7 @@ title: Personnaliser l'expérience de l'utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser l'application.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260504"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412352"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l'expérience de l'utilisateur
 
@@ -117,7 +117,11 @@ Les outils suivants sont disponibles dans la barre d'outils **Personnalisation**
 - Utilisez l'outil **Déplacer** pour déplacer un élément vers un autre emplacement dans le groupe actuel d'éléments. Notez que vous ne pouvez pas déplacer un élément en dehors de son groupe parent. Pour utiliser cet outil, sélectionnez le bouton **Déplacer** dans la barre d'outils, puis sélectionnez l'élément à déplacer. Lorsque vous sélectionnez un élément, l'application détermine les emplacements où l'élément est autorisé à être déplacé. Ces emplacements sont appelés des *zones de déplacement*. Lorsque vous faites glisser l'élément dans le groupe actuel, chaque zone de déplacement est indiquée par une ligne colorée et grasse en regard de la zone où l'élément peut être déplacé.
 - Utilisez l'outil **Ignorer** pour supprimer un élément de la séquence de tabulation du clavier de la page. Lorsque vous sélectionnez le bouton **Ignorer** sur la barre d'outils, tous les éléments actuellement ignorés sont affichés dans un conteneur grisé. Vous pouvez supprimer ou ajouter de manière interactive des champs à la séquence de l'onglet.
 - Utilisez l'outil **Afficher dans l'en-tête** pour faire apparaître un champ dans la section récapitulative de l'organisateur. Lorsque vous sélectionnez l'outil **Afficher dans l'en-tête** sur la barre d'outils, tous les champs sélectionnés comme champs récapitulatifs sont affichés dans un conteneur grisé. Vous pouvez en mode interactif ajouter des champs au récapitulatif de l'organisateur et en supprimer des champs en sélectionnant les champs.
-- Utilisez l'outil **Obligatoire** pour désigner un élément comme obligatoire pour la saisie de données. Lorsque vous sélectionnez le bouton **Obligatoire** sur la barre d'outils, tous les éléments qui ont été personnalisés comme requis sont affichés dans un conteneur grisé. Vous pouvez ensuite les rendre à nouveau non obligatoire. Cette option est disponible uniquement dans une version future lorsque les fonctionnalités [Vues enregistrées](saved-views.md) et **Désigner des champs comme obligatoires avec la personnalisation** sont activées.
+- Utilisez l'outil **Obligatoire** pour désigner un élément comme obligatoire pour la saisie de données. Lorsque vous sélectionnez le bouton **Obligatoire** sur la barre d'outils, tous les éléments qui ont été personnalisés pour être requis sont affichés dans un conteneur grisé. Vous pouvez ensuite les rendre à nouveau non obligatoire. Cette option est disponible dans la version 10.0.12 et les versions ultérieures lorsque la fonctionnalité **Désigner des champs selon les besoins à l'aide de la personnalisation** est activée.
+
+    > [!IMPORTANT]
+    > La version 10.0.12 est une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour plus d'informations sur les préversions, voir [Disponibilité des mises à jour de service](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Utilisez l'outil **Verrouiller** pour marquer un élément comme modifiable ou non modifiable. Lorsque vous sélectionnez le bouton **Verrouiller** sur la barre d'outils, tous les éléments actuellement non modifiables sont affichés dans un conteneur grisé. Vous pouvez ensuite les rendre modifiables à nouveau. Notez que certains champs sont obligatoires et ne peuvent pas être rendus non modifiables. Un symbole de cadenas apparaît en regard de ces champs.
 - Utilisez le bouton **Ajouter une application à partir de Power Apps** pour intégrer une application créée à l'aide de Microsoft Power Apps dans la page. Pour des informations détaillées sur l'intégration d'une application à partir de Power Apps dans une page, voir [Intégrer les applications à partir de Power Apps](embed-power-apps.md). Cette option n'est disponible que si la fonctionnalité [Vues enregistrées](saved-views.md) est désactivée.  
 - Utilisez le bouton **Ajouter une application** pour intégrer une application, soit une application créée à partir de Microsoft Power Apps, soit une application tierce, dans la page. Cette option n'est disponible que si la fonctionnalité [Vues enregistrées](saved-views.md) est activée. 
@@ -159,28 +163,21 @@ Pour personnaliser le tableau de bord, cliquez avec le bouton droit sur une vign
 - Pour réorganiser les vignettes de l'espace de travail, dans la fenêtre des propriétés, sélectionnez **Personnaliser cette page** pour ouvrir la barre d'outils **Personnalisation**. Vous pouvez ensuite utiliser l'outil **Déplacer** pour réorganiser les vignettes comme vous le souhaitez.
 - Pour ajouter une vignette d'espace de travail, dans la fenêtre des propriétés, sélectionnez **Ajouter un espace de travail**. Une nouvelle vignette d'espace de travail est créée en bas du tableau de bord. Vous pouvez renommer cette nouvelle vignette d'espace de travail comme vous le souhaitez. Vous pouvez également ajouter des listes, des vignettes et des liens à l'espace de travail, comme décrit dans la section [Ajout de listes, de vignettes ou de liens aux espaces de travail](#adding-a-tile-list-or-link-to-a-workspace).
 
+
+## <a name="sharing-personalizations"></a>Partage des personnalisations
+Après avoir personnalisé une page, vous pouvez partager vos personnalisations avec d'autres utilisateurs en exportant la page personnalisée. Vous pouvez ensuite demander aux autres utilisateurs d'ouvrir la page personnalisée et d'importer le fichier de personnalisation que vous avez créé. Sinon, vous pouvez attribuer vos personnalisations à un utilisateur disposant de privilèges d'administrateur. Cet utilisateur peut ensuite appliquer votre fichier de personnalisation à plusieurs utilisateurs en même temps à l'aide de la page d'administration **Personnalisation**.
+
 ## <a name="administration-of-personalizations"></a>Administration des personnalisations
+La page **Personnalisation** est le nœud central de la gestion des personnalisations au niveau de l'organisation. Le contenu et les fonctionnalités de cette page varient selon que la fonctionnalité **Vues enregistrées** a été activée.  
 
-Après avoir personnalisé une page, vous pouvez partager vos personnalisations avec d'autres utilisateurs en exportant la page personnalisée. Vous pouvez ensuite demander aux autres utilisateurs d'ouvrir la page personnalisée et d'importer le fichier de personnalisation que vous avez créé. Sinon, vous pouvez attribuer vos personnalisations à un utilisateur disposant de privilèges d'administrateur. Cet utilisateur peut ensuite appliquer votre fichier de personnalisation à plusieurs utilisateurs en même temps.
+Pour les clients qui ont activé la fonctionnalité **Vues enregistrées**, consultez la section « Gestion globale des vues » dans la rubrique [Vues enregistrées](saved-views.md).  
 
-Les utilisateurs ayant des privilèges d'administrateur peuvent également gérer les personnalisations pour d'autres utilisateurs sur la page **Personnalisation**.
-
-Pour les clients n'ayant pas activé la fonctionnalité [Vues enregistrées](saved-views.md), cette page contient quatre onglets :
+Pour les clients n'ayant pas encore activé la fonctionnalité [Vues enregistrées](saved-views.md), cette page contient quatre onglets :
 
 - **Appliquer** – Vous pouvez importer ou sélectionner une personnalisation pour un ou plusieurs utilisateurs. Pour appliquer une personnalisation à un ou plusieurs utilisateurs, sélectionnez d'abord un rôle et des utilisateurs disposant ce rôle. Sélectionnez ensuite une personnalisation existante à appliquer aux utilisateurs sélectionnés, ou importez un fichier de personnalisation. La personnalisation est validée et sera appliquée à tous les utilisateurs sélectionnés la prochaine fois qu'ils ouvriront la page sélectionnée.
 - **Effacer** – Vous pouvez effacer toutes les personnalisations d'une page ou d'un espace de travail pour un ou plusieurs utilisateurs. Sélectionnez d'abord une page ou un espace de travail pour afficher la liste des utilisateurs qui l'ont personnalisé. Ensuite, sélectionnez les utilisateurs dont les personnalisations pour cette page ou cet espace de travail doivent être effacées. Enfin, sélectionnez **Effacer**. Toutes les personnalisations que les utilisateurs sélectionnés ont appliqué à la page ou à l'espace de travail sélectionné(e) sont supprimées. Cette action ne peut pas être annulée. Toutefois, si une personnalisation a été enregistrée pour la page ou l'espace de travail, cette personnalisation peut être réimportée.
 - **Utilisateurs** : sélectionnez un utilisateur pour afficher une liste des pages personnalisées par celui-ci. Vous pouvez ensuite activer ou désactiver la possibilité que l'utilisateur sélectionné utilise les personnalisations pour des pages spécifiques ou pour l'ensemble du système. Vous pouvez également importer, exporter ou effacer une personnalisation pour l'utilisateur. En outre, vous pouvez réinitialiser les légendes de fonction pour l'utilisateur. Dans ce cas, si l'utilisateur a ignoré précédemment des fenêtres contextuelles qui introduisaient de nouvelles fonctionnalités, elles s'affichent de nouveau la prochaine fois que l'utilisateur rencontre ces fonctionnalités.
 - **Système** : vous pouvez désactiver temporairement la personnalisation de l'ensemble des utilisateurs du système. Dans ce cas, toutes les personnalisations sont supprimées pour tous les utilisateurs, et toutes les pages sont rétablies à leur état par défaut. Si vous réactivez la personnalisation ultérieurement, toutes les personnalisations sont réappliquées. Vous pouvez également supprimer définitivement toutes les personnalisations pour l'ensemble des utilisateurs du système. Les personnalisations qui ont été supprimées ne peuvent être restaurées. Par conséquent, avant d'effectuer cette tâche, veillez à exporter les personnalisations que vous souhaitez utiliser ultérieurement.
-
-Pour les clients n'ayant pas activé la fonctionnalité [Vues enregistrées](saved-views.md), la page **Personnalisation** contient cinq onglets :
-
-- **Vues publiées** – Ces vues ont été publiées dans votre organisation. Pour modifier les utilisateurs qui sont ciblés par ces affichages, vous pouvez modifier les rôles de sécurité ou les entités juridiques associés à chaque vue. Vous pouvez également exporter ou supprimer une ou plusieurs vues publiées.
-- **Vues non publiées** : ces vues sont des modèles de vues qui ont été importées dans votre système mais n'ont pas encore été publiées. Vous pouvez publier, exporter ou supprimer ces vues.
-- **Vues personnelles** : ces vues ont été créées par les utilisateurs dans le système. Vous pouvez publier une vue personnelle dans l'organisation, ou copier une ou plusieurs de ces vues pour d'autres utilisateurs. Vous pouvez également exporter ou supprimer ces vues au besoin.
-- **Utilisateurs** : sélectionnez un utilisateur pour afficher une liste des pages personnalisées par celui-ci. Vous pouvez ensuite activer ou désactiver la possibilité que l'utilisateur sélectionné utilise les personnalisations pour des pages spécifiques ou pour l'ensemble du système. Vous pouvez également importer, exporter ou effacer une personnalisation pour l'utilisateur. En outre, vous pouvez réinitialiser les légendes de fonction pour l'utilisateur. Dans ce cas, si l'utilisateur a ignoré précédemment des fenêtres contextuelles qui introduisaient de nouvelles fonctionnalités, elles s'affichent de nouveau la prochaine fois que l'utilisateur rencontre ces fonctionnalités.
-- **Système** : vous pouvez désactiver temporairement la personnalisation de l'ensemble des utilisateurs du système. Dans ce cas, toutes les personnalisations sont supprimées pour tous les utilisateurs, et toutes les pages sont rétablies à leur état par défaut. Si vous réactivez la personnalisation ultérieurement, toutes les personnalisations sont réappliquées. Vous pouvez également supprimer définitivement toutes les personnalisations pour l'ensemble des utilisateurs du système. Les personnalisations qui ont été supprimées ne peuvent être restaurées. Par conséquent, avant d'effectuer cette tâche, veillez à exporter les personnalisations que vous souhaitez utiliser ultérieurement.
-
-Les utilisateurs qui ont accès à la page **Personnalisation** peuvent également importer des vues personnelles ou des modèles de vues à l'aide du bouton **Importer les vues** du volet Actions.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personnalisation des dimensions de stock
 

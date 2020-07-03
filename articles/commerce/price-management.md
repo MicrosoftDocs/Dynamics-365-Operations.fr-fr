@@ -3,7 +3,7 @@ title: Gestion des prix de vente dans Retail
 description: Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057485"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431999"
 ---
 # <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
 
@@ -53,7 +53,9 @@ L'illustration ci-dessous indique comment les groupes de prix sont utilisés. Da
 
 Lorsque vous créez des groupes de prix, vous ne devez pas utiliser un groupe de prix unique pour plusieurs types d'entités commerciales. Sinon, il peut être difficile de déterminer la raison pour laquelle un prix ou une remise spécifique est appliqué à une transaction.
 
-Comme l'indique la ligne rouge en pointillés dans l'illustration, Commerce prend en charge les fonctionnalités essentielles de Microsoft Dynamics 365 d'un groupe de prix directement défini sur un client. Toutefois, dans ce cas, vous n'obtenez que les accords commerciaux sur le prix de vente. Si vous souhaitez appliquer des prix spécifiques au client, il est préférable de ne pas définir les groupes de prix directement sur le client. Au lieu de cela, utilisez les affiliations.
+Comme l'indique la ligne rouge en pointillés dans l'illustration, Commerce prend en charge les fonctionnalités essentielles de Microsoft Dynamics 365 d'un groupe de prix directement défini sur un client. Toutefois, dans ce cas, vous n'obtenez que les accords commerciaux sur le prix de vente. Si vous souhaitez appliquer des prix spécifiques au client, il est préférable de ne pas définir les groupes de prix directement sur le client. Au lieu de cela, utilisez les affiliations. 
+
+Notez que si le groupe de prix est défini sur le client, ce groupe de prix est associé à l'en-tête de commande client des commandes créées pour ce client. Si l'utilisateur modifie le groupe de prix sur l'en-tête de commande, l'ancien groupe de prix est remplacé par le nouveau groupe de prix uniquement pour la commande en cours. Par exemple, l'ancien groupe de prix n'affectera pas la commande en cours, mais il sera toujours associé au client pour les commandes futures.
 
 Les sections suivantes fournissent plus d'informations sur les entités commerciales qui vous permettent de définir des prix distincts lorsque des groupes de prix sont utilisés. La configuration des prix et des remises pour toutes ces entités est un processus en deux étapes. Ces étapes peuvent être effectuées dans n'importe quel ordre. Toutefois, l'ordre logique veut que l'on définisse d'abord les groupes de prix sur les entités, car cette étape est susceptible d'être un paramétrage occasionnel effectué lors de l'implémentation. Ensuite, lorsque les prix et les remises sont créés, vous pouvez définir les groupes de prix sur ces prix et remises individuellement.
 
@@ -226,6 +228,7 @@ Le moteur de tarification **ne prend pas en charge** les fonctionnalités suivan
 - La définition des prix par site ou par dimensions de stockage de site et d'entrepôt n'est pas prise en charge. Si vous spécifiez uniquement la dimension Site sur les accords commerciaux, le moteur de tarification ignorera le site et appliquera l'accord commercial à tous les sites. Si vous spécifiez à la fois le site et l'entrepôt, le comportement n'est pas défini/non testé, car il est prévu que les détaillants utilisent les groupes de prix du magasin pour contrôler les prix de chaque magasin/entrepôt.
 - La tarification basée sur des attributs n'est pas prise en charge.
 - Le transfert de remise fournisseur n'est pas pris en charge.
+- Le moteur de tarification standard de Supply Chain Management prend en charge le calcul des prix en fonction de la « date d'expédition demandée » et de la « date de réception demandée » ainsi que de la date actuelle. Cependant, la tarification au détail ne prend actuellement pas en charge ces valeurs. La raison en est que pour les scénarios B2C, les clients ne s'attendent pas à ce que la date de livraison demandée affecte le prix de l'article. Dans certains cas, les détaillants ont à la fois des opérations B2B et B2C. Pour les opérations B2B, il est courant de modifier les prix en fonction des dates de livraison. Ces détaillants peuvent utiliser la tarification de Supply Chain Management pour leurs affaires B2B et la tarification au détail pour leurs affaires B2C. La tarification au détail n'entre en jeu que si l'utilisateur de l'application est ajouté en tant qu'utilisateur du centre d'appels, de sorte que les détaillants peuvent affecter certains utilisateurs qui utiliseront la tarification Supply Chain Management et en affecter quelques autres qui utiliseront la tarification au détail. Cela implique que ces derniers utilisateurs devront être ajoutés en tant qu'utilisateurs du centre d'appels. De plus, la propriété **Utiliser la date du jour pour calculer les prix** dans la section **Paramètres Commerce > Tarification et remises > Divers** doit être activée. De cette façon, ils peuvent continuer à utiliser la valeur du paramètre de la comptabilité client pour la date d'expédition demandée ou la date de réception demandée pour la tarification de Supply Chain Management, mais la tarification au détail continuera à utiliser la date du jour pour le calcul des prix.
 
 De plus, **seul** le moteur de tarification prend en charge les fonctionnalités suivantes de la tarification :
 

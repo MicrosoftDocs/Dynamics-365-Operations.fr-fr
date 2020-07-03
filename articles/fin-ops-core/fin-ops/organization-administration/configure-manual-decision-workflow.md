@@ -3,7 +3,7 @@ title: Configurer des décisions manuelles dans un workflow
 description: Cette rubrique explique comment configurer les différentes propriétés d'une décision manuelle.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177815"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455031"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurer des décisions manuelles dans un workflow
 
@@ -239,26 +239,6 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
     <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
     <li>La liste <strong>Utilisateurs disponibles</strong> inclut tous les utilisateurs. Sélectionnez les utilisateurs à qui vous souhaitez affecter la décision, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>File d'attente</td>
-    <td>File d'attente des éléments de travail</td>
-    <td>
-    <ol>
-    <li>Après avoir sélectionné <strong>File d'attente</strong>, cliquez sur l'onglet <strong>Basé sur la file d'attente</strong>.</li>
-    <li>Pour affecter la décision à une file d'attente donnée, procédez comme suit : <ol>
-    <li>Dans la liste <strong>Type de file d'attente</strong>, sélectionnez <strong>Files d'attente des éléments de travail</strong>.</li>
-    <li>Sélectionnez la file d'attente dans la liste <strong>Nom de file d'attente</strong>.</li>
-    </ol>
-    </li>
-    <li>Si une condition détermine la file d'attente à laquelle la décision est affectée, procédez comme suit : <ol>
-    <li>Dans la liste <strong>Type de file d'attente</strong>, sélectionnez <strong>Files d'attente conditionnelles des éléments de travail</strong>.</li>
-    <li>Dans la liste <strong>Nom de file d'attente</strong>, sélectionnez <strong>File d'attente conditionnelle</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Cette option est utilisée uniquement pour certains workflows, tels que Gestion des dossiers.</blockquote>
     </td>
     </tr>
     </tbody>

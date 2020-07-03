@@ -3,7 +3,7 @@ title: Création de nouveaux utilisateurs
 description: Les utilisateurs sont des employés internes de votre organisation, ou des clients et fournisseurs externes, qui doivent avoir accès au système pour effectuer leurs tâches.
 author: maertenm
 manager: AnnBe
-ms.date: 02/06/2020
+ms.date: 06/08/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9db4b6d355d6499bce6c550b2fbe76b82cf69fd4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d126b449074663772549b96b86acb53db971a5d4
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143573"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435582"
 ---
 # <a name="create-new-users"></a>Création de nouveaux utilisateurs
 
@@ -50,8 +50,9 @@ Les utilisateurs externes au client dans lequel l'environnement a été déploy�
 10. Sélectionnez **Enregistrer**.
 
 ## <a name="import-users"></a>Importer des utilisateurs
-1. Dans la volet Actions, sélectionnez **Importer les utilisateurs**.
-2. Dans la liste, marquer la ligne sélectionnée.
-3. Sélectionnez **Importer les utilisateurs**.
-4. Sélectionnez **Fermer**.
+1. Accédez à **Administration système \> Utilisateurs \> Utilisateurs**.
+2. Dans la volet Actions, sélectionnez **Importer les utilisateurs**.
+3. Dans la liste, marquer la ligne sélectionnée.
+4. Sélectionnez **Importer les utilisateurs**.
+5. Sélectionnez **Fermer**.
 

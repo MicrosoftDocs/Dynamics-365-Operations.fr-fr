@@ -3,7 +3,7 @@ title: État DAS-2
 description: Cette rubrique décrit le processus de génération du fichier d'audit standard pour la France (FEC) dans Microsoft Dynamics 365 Finance.
 author: sndray
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: France
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fba600d6acb169a7c563598e37b4534c6c9aca31
-ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
+ms.openlocfilehash: 3226b0e672714f63706389826793f9cb16aa9dd1
+ms.sourcegitcommit: a9dffa475d243e42bd0b64943418c81540d88ba1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3334696"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3414069"
 ---
 # <a name="das-2-report"></a>État DAS-2
 
@@ -48,9 +48,10 @@ Après avoir téléchargé les configurations des états électroniques à parti
 
 1. Dans Microsoft Dynamics 365 Finance, sélectionnez la société française liée.
 2. Accédez à **Espaces de travail** \> **Gestion des états électroniques** et définissez le fournisseur **Microsoft** sur **Actif**.
-3. Sélectionnez **Configurations** \> **Échange** et chargez la configuration à partir du fichier XML pour importer le modèle de déclaration de taxe et le fichier de format d'état Taxe sur les Produits et Services (GST).
-4. Dans l'espace de travail **Gestion des états électroniques**, sélectionnez **Configurations** \> **Paramétrage**.
-5. Sur l'onglet **Conditions**, sélectionnez la version **32.14** et créez la configuration qui vous permettra de configurer le mappage entre les comptes principaux configurés dans votre entreprise et la classification des autorités fiscales associée de l'état DAS-2.
+3. Sélectionnez **Configurations** \> **Exchange** et chargez les configurations à partir des fichiers XML pour importer le modèle Statistics, le mappage de modèle, l'état DAS-2 et le fichier de format de formulaire DAS-2.
+4. Sélectionnez le format **État DAS-2**.
+5. Dans l'espace de travail **Gestion des états électroniques**, sélectionnez **Configurations** \> **Paramétrage**.
+6. Sur l'onglet **Conditions**, sélectionnez la version **32.14** et créez la configuration qui vous permettra de configurer le mappage entre les comptes principaux configurés dans votre entreprise et la classification des autorités fiscales associée de l'état DAS-2.
 
     1. Dans le champ **Résultat de la recherche**, sélectionnez la classification associée.
     2. Dans le champ **Compte principal**, sélectionnez le compte principal utilisé pour valider les transactions associées qui appartiennent à la classification sélectionnée.
@@ -60,12 +61,12 @@ Après avoir téléchargé les configurations des états électroniques à parti
 
 [![Exemple de configuration](./media/emea-fra-das2-report-configuration.png)](./media/emea-fra-das2-report-configuration.png)
 
-Sur la ligne 2 de la configuration précédente, le compte principal **622600**, qui est utilisé pour valider les transactions de dépenses de frais, est configuré sur classification **H** (**Frais et congés**), ce qui est établi par l'autorité fiscale.
+Sur la ligne 1 de la configuration précédente, le compte principal **622000**, qui est utilisé pour valider les transactions de dépenses de frais, est configuré sur classification **C** (**Commissions**), ce qui est établi par l'autorité fiscale.
 
-La ligne 1 inclut la configuration avec la classification **ZZ**. Elle est utilisée lorsque le journal des factures contient d'autres transactions de dépenses qui ne seront pas détaillées dans l'état DAS-2. Pour chaque compte principal TVA et classification DAS-2, créez une ligne supplémentaire qui sera utilisée lorsque la facture contient des montants de taxe qui sont inclus dans les transactions.
+La ligne 5 inclut la configuration qui a la classification **ZZ** et est mappée sur ***Pas de blancs***. Elle est utilisée lorsque le journal des factures contient d'autres transactions de dépenses qui ne seront pas détaillées dans l'état DAS-2. Cette ligne doit toujours être la dernière ligne. Si vous devez introduire des classifications supplémentaires, supprimez cette ligne et introduisez les nouvelles.
 
 > [!NOTE]
-> Créez la même configuration pour la page DAS-2.
+> Créez la même configuration pour le format de formulaire DAS-2.
 
 
 ## <a name="vendor-configuration"></a>Configuration du fournisseur

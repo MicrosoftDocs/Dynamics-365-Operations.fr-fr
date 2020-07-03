@@ -3,7 +3,7 @@ title: Module Container
 description: Cette rubrique couvre les modules de conteneur et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025526"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417344"
 ---
 # <a name="container-module"></a>Module Container
-
 
 [!include [banner](includes/banner.md)]
 
@@ -45,6 +44,10 @@ Trois modules de conteneur sont pris en charge : conteneur, conteneur à 2 emp
 - Un auteur du site souhaite une disposition à trois colonnes, où trois modules apparaissent côte à côte. Par conséquent, l'auteur du site utilise un module de conteneur de type conteneur avec 3 emplacements.
 - Un auteur du site souhaite une disposition à six colonnes, où six modules apparaissent côte à côte. Par conséquent, l'auteur du site utilise un conteneur de type conteneur avec six colonnes à l'intérieur de celui-ci.
 - Un auteur du site souhaite mettre un module sur une page mais ne souhaite pas qu'il remplisse l'écran. Par conséquent, l'auteur du site ajoute le module à un module de conteneur et définit la propriété **Largeur** du conteneur sur **Adapter le conteneur**.
+
+L'image suivante montre un exemple de module de conteneur contenant un module de carrousel dans le générateur de site Commerce. Dans cet exemple, la propriété **Largeur** du module de conteneur est définie sur **Remplir l'écran**.
+
+![Exemple de module de conteneur](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Propriétés du module de conteneur
 
@@ -99,23 +102,32 @@ Des propriétés supplémentaires peuvent être utilisées pour optimiser la dis
 
 Pour ajouter un module de lecteur de conteneur à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Créez un modèle de page nommé **modèle de conteneur**. 
-1. Dans l'emplacement **Corps**, ajoutez un module de **Page par défaut**.
-1. Terminez la modification du modèle et publiez-le.
-1. Utilisez le modèle de conteneur que vous venez de créer pour créer une page qui s'appelle **page de conteneur**.
-1. À l'emplacement **Principal** de la nouvelle page, ajoutez un module de conteneur.
+1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
+1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle de conteneur**, puis cliquez sur **OK**.
+1. Dans l'emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Page par défaut**, puis sélectionnez **OK**.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier. 
+1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
+1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle de lecteur vidéo que vous avez créé. Sous **Nom de la page**, entrez **Page de conteneur**, puis sélectionnez **OK**.
+1. Dans l'emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Dans le volet de propriétés du module de conteneur, définissez la propriété **Nombre de colonnes** sur **1** et la propriété **Largeur** sur **Remplir le conteneur**.
-1. Dans le module de conteneur, ajoutez un module de bloc de contenu.
+1. Dans l'emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Bloc de contenu**, puis sélectionnez **OK**.
 1. Dans le volet de propriétés du module de bloc de contenu, configurez l'en-tête, l'image et la disposition.
-1. Enregistrez et affichez un aperçu de la page. Vous devez voir un module de fonctionnalité qui s'adapte à la largeur du module de conteneur.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. Vous devez voir un module de fonctionnalité qui s'adapte à la largeur du module de conteneur.
 1. Dans le volet de propriétés du module de conteneur, modifiez la valeur de la propriété **Nombre de colonnes** sur **3**.
-1. Ajoutez au moins deux modules de bloc de contenu au module de conteneur.
-1. Enregistrez et affichez un aperçu de la page. Vous devriez à présent voir trois modules de bloc de contenu s'afficher côte à côte.
-1. Après avoir obtenu la disposition de votre choix, terminez de modifier la page, puis publiez-la.
+1. Ajoutez au moins deux modules de bloc de contenu au module de conteneur et configurez-les.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. Vous devriez à présent voir trois modules de bloc de contenu s'afficher côte à côte.
+1. Une fois que vous avez obtenu la mise en page souhaitée, sélectionnez **Terminer la modification** pour archiver la page, puis sélectionnez **Publier** pour la publier.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
+
+[Module d'accordéon](add-accordion.md)
+
+[Module d'onglet](add-tab.md)
 
 [Module de carrousel](add-carousel.md)
 
@@ -123,7 +135,7 @@ Pour ajouter un module de lecteur de conteneur à une nouvelle page et définir 
 
 [Module de zone d'achat](add-buy-box.md)
 
-[Module de chariot](add-cart-module.md)
+[Module de panier](add-cart-module.md)
 
 [Module de validation](add-checkout-module.md)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131729"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410411"
 ---
 # <a name="set-up-a-call-center-channel"></a>Configurer un canal de centre d'appels
 
@@ -31,10 +31,10 @@ ms.locfileid: "3131729"
 
 Cette rubrique décrit comment créer un canal de centre d'appels dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 
-Dans Dynamics 365 Commerce, un centre d'appels est un type de canal de vente au détail qui peut être défini dans l'application. La définition d'un canal pour vos entités de centre d'appels permet au système de lier des données spécifiques et des valeurs par défaut de traitement des commandes aux commandes client. Bien qu'une entreprise puisse définir plusieurs canaux de centre d'appels dans Commerce, il est important de noter qu'un utilisateur individuel ne peut pas être lié à un seul canal de centre d'appels. 
+Dans Dynamics 365 Commerce, un centre d'appels est un type de canal Commerce qui peut être défini dans l'application. La définition d'un canal pour vos entités de centre d'appels permet au système de lier des données spécifiques et des valeurs par défaut de traitement des commandes aux commandes client. Bien qu'une entreprise puisse définir plusieurs canaux de centre d'appels dans Commerce, il est important de noter qu'un utilisateur individuel ne peut pas être lié à un seul canal de centre d'appels. 
 
 Avant de créer un centre d'appel, assurez-vous d'avoir rempli la [Configuration requise de paramétrage de canaux](channels-prerequisites.md).
 
@@ -84,7 +84,7 @@ Pour configurer des modes de paiement, pour chaque type de paiement pris en char
 
 L'image suivante présente un exemple de mode de paiement au comptant.
 
-![Exemple de modes de paiement](media/channel-setup-retail-5.png)
+![Exemple de modes de paiement](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Paramétrer des modes de livraison
 
