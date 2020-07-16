@@ -1,9 +1,9 @@
 ---
 title: Page d'accueil de Supply Chain Management
 description: Cette page fournit une liste de rubriques d'aide et d'autres ressources pour les fonctionnalités de Supply Chain Management.
-author: josaw1
+author: kamaybac
 manager: tfehr
-ms.date: 11/26/2019
+ms.date: 06/30/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,25 @@ ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
-ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
+ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386385"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530257"
 ---
 # <a name="supply-chain-management-home-page"></a>Page d'accueil de Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une liste de ressources et d'autres informations dans Dynamics 365 Supply Chain Management. 
+Cette rubrique fournit une liste de ressources et d'autres informations dans Dynamics 365 Supply Chain Management.
 
 ## <a name="whats-new-and-in-development"></a>Nouveautés et développements
-Accédez au <a href="https://roadmap.dynamics.com/">Calendrier de lancement de Dynamics 365</a> pour découvrir les nouvelles fonctions qui seront lancées ou qui sont en développement. 
+
+Accédez au [Calendrier de lancement de Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui seront lancées ou qui sont en développement.
 
 ## <a name="core-concepts-and-tasks"></a>Concepts et tâches clés
 
@@ -54,70 +55,58 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Pour plus d'informations sur Dynamics 365 Finance, cliquez sur la [Page d'accueil Gestion financière](../finance/index.md).
+Pour plus d'informations sur Dynamics 365 Finance, accédez à la [page d'accueil Finance](../finance/index.md).
 
 ## <a name="videos"></a>Vidéos
 
-Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations version 8.0 (avril 2018).
+Cette courte vidéo résume les nouvelles fonctionnalités de gestion de la chaîne d'approvisionnement ajoutées à la version 8.0 de Microsoft Dynamics 365 for Finance and Operations (avril 2018).
 
 - [Synchroniser un ordre d'exécution entre Field Service et Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (décembre 2017).
+Ces courtes vidéos résument les nouvelles fonctionnalités de gestion de la chaîne d'approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (décembre 2017).
 
--  [Intégration de la solution Prospect en disponibilités](https://youtu.be/AVV9x5x-XCg) 
--  [Conseiller en optimisation](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
--  [Utiliser le modèle d'entrepôt pour copier une configuration](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+- [Intégration de la solution Prospect en disponibilités](https://youtu.be/AVV9x5x-XCg) 
+- [Conseiller en optimisation](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [Utiliser le modèle d'entrepôt pour copier une configuration](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Ces courtes vidéos vous permettent de découvrir les nouvelles fonctionnalités incluses dans Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juillet 2017).
+Ces courtes vidéos résument les nouvelles fonctionnalités de gestion de la chaîne d'approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017).
 
--  [Prise en main du contrôle de gestion](https://youtu.be/1pUDtJQZ8FU)
--  [Espace de travail mobile de contrôle des coûts](https://youtu.be/imsuTg8rUVk)
--  [Utiliser Excel pour l'analyse des coûts](https://youtu.be/-HKHYdClvx8)
--  [Approuver les commandes fournisseur sur un appareil mobile](https://youtu.be/gZ-gOlJe7H8)
--  [Planification visuelle avec le diagramme de Gantt pour les ordres de fabrication et les lots de commandes](https://youtu.be/BtbuShkGj4I)
+- [Prise en main du contrôle de gestion](https://youtu.be/1pUDtJQZ8FU)
+- [Espace de travail mobile de contrôle des coûts](https://youtu.be/imsuTg8rUVk)
+- [Utiliser Excel pour l'analyse des coûts](https://youtu.be/-HKHYdClvx8)
+- [Approuver les commandes fournisseur sur un appareil mobile](https://youtu.be/gZ-gOlJe7H8)
+- [Planification visuelle avec le diagramme de Gantt pour les ordres de fabrication et les lots de commandes](https://youtu.be/BtbuShkGj4I)
 
-Ces enregistrements techniques traitent de la fonctionnalité du produit dans la version précédente de Finance and Operations, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 
+Les enregistrements de conférence technique suivants traitent des fonctionnalités de gestion de la chaîne d'approvisionnement des versions précédentes de Finance and Operations. Cette fonctionnalité fait maintenant partie de Dynamics 365 Supply Chain Management ; les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle.
 
-**Gestion des coûts**
-
--  [Vue d'ensemble de la gestion des coûts](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
-
-**Planification**
-
--  [Étendre la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
--  [Planification - conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
--  [Besoin d'aide ! La production est lente !](https://youtu.be/RLXybx20B5o)
-
-**Gestion des informations sur les produits**
-
--  [Configurateur de produits dans Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
-
-**Gestion des entrepôts** 
-
-<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
--  [Optimiser votre système de gestion des entrepôts](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
--  [Gestion avancée des entrepôts R3 - Traitement entrant et réapprovisionnement minimum/maximum](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
--  [Gestion avancée des entrepôts R3 - Un jour dans la vie, traitement sortant et réapprovisionnement de la demande](https://youtu.be/Og0gLlVp7jA)
--  [Libellés de la nouvelle gestion des entrepôts Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
--  [Dynamics AX 2012 R3 : Gestion avancée des entrepôts - Un jour dans la vie du traitement de la fabrication](https://www.youtube.com/embed/QUxXUrN-7n4)
-
-**Contrôle de la production**
-
--  [Opérations et activités de sous-traitance de la fabrication](https://youtu.be/y1jrd3A_k70)
-
-**Gestion du transport**
-
--  [Gestion du transport (TMS) dans la nouvelle application Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
+- **Gestion des coûts :**
+  - [Vue d'ensemble de la gestion des coûts](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+- **Planification :**
+  - [Étendre la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+  - [Planification - conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
+  - [Besoin d'aide ! La production est lente !](https://youtu.be/RLXybx20B5o)
+- **Gestion des informations sur les produits :**
+  - [Configurateur de produits dans Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+- **Gestion des entrepôts :**
+  - [Optimiser votre système de gestion des entrepôts](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+  - [Gestion avancée des entrepôts R3 - Traitement entrant et réapprovisionnement minimum/maximum](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+  - [Gestion avancée des entrepôts R3 - Un jour dans la vie, traitement sortant et réapprovisionnement de la demande](https://youtu.be/Og0gLlVp7jA)
+  - [Libellés de la nouvelle gestion des entrepôts Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
+  - [Dynamics AX 2012 R3 : Gestion avancée des entrepôts - Un jour dans la vie du traitement de la fabrication](https://www.youtube.com/embed/QUxXUrN-7n4)
+- **Vidéos sur le contrôle de la production :**
+  - [Opérations et activités de sous-traitance de la fabrication](https://youtu.be/y1jrd3A_k70)
+- **Vidéos sur la gestion du transport :**
+  - [Gestion du transport (TMS) dans la nouvelle application Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blogs
-Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvisionnement sont consultables sur le <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog de l'équipe R&D de Dynamics AX chargée de la fabrication</a> et sur le <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Blog de l'équipe R&D de Dynamics AX chargée de la gestion de la chaîne d'approvisionnement</a>. La plupart de ces articles ont été rédigés pour la version précédente, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle. 
+
+Plusieurs rubriques sur la fabrication et la gestion de la chaîne d'approvisionnement sont consultables sur le [Blog de l'équipe R&D de Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg/) et sur le [Blog de l'équipe R&D du Supply Chain Management de Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La plupart de ces articles ont été rédigés pour la version précédente, mais les mêmes concepts s'appliquent toujours et les procédures sont similaires dans la version actuelle.
 
 ## <a name="white-papers"></a>Livres blancs
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Ateliers pratiques sur le contrôle de gestion</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing : planification de capable to promise et des tâches de kanban</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Calcul de nomenclature à l'aide d'une feuille d'évaluation des coûts</a>
+
+- [Lean manufacturing : planification de capable to promise et des tâches de kanban](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
+- [Calcul de nomenclature à l'aide d'une feuille d'évaluation des coûts](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/)
 
 ## <a name="elearning-courses"></a>Cours eLearning
-Pour plus d'informations sur la formation Dynamics 365, voir le <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portail de formation Microsoft Dynamics</a>. (nécessite un compte CustomerSource) 
 
-
+Pour les cours et formations en ligne, consultez [Dynamics 365 sur Microsoft Learn](https://docs.microsoft.com/learn/dynamics365/).

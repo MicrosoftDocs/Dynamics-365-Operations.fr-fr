@@ -92,8 +92,6 @@
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: "Commerce\_10.0.11 (juillet\_2020)"
                       href: get-started/whats-new-commerce-10-0-11.md
-                    - name: "Commerce\_10.0.10 (mai\_2020)"
-                      href: get-started/whats-new-commerce-10-0-10.md
                 - name: Fonctions supprimées ou obsolètes
                   items:
                     - name: Fonctions supprimées ou obsolètes dans Finance and Operations
@@ -192,6 +190,8 @@
               items:
                 - name: Vue d'ensemble architecturale de Dynamics 365 Commerce
                   href: commerce-architecture.md
+                - name: Flux d'authentification de Dynamics 365 Commerce
+                  href: arch-auth-flow.md
                 - name: Architecture de Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: Sélectionner une topologie en magasin
@@ -210,7 +210,7 @@
                   href: retail-onprem.md
             - name: Déploiement et correctifs
               items:
-                - name: Synchronisation des programmes d'installation en libre service dans Dynamics 365 Commerce
+                - name: Synchronisation des programmes d'installation en libre-service dans Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
                 - name: Commerce Scale Unit (auto-hébergé)
                   href: dev-itpro/retail-store-system-begin.md
@@ -748,12 +748,12 @@
               href: edit-audit-retail-transactions.md
             - name: 'Créer, calculer et valider des relevés pour un magasin de vente au détail'
               href: tasks/create-calculate-post-statement-retail-store.md
-            - name: Améliorations de la fonctionnalité de validation du relevé
-              href: statement-posting-eod.md
             - name: Création de commandes basée sur un flux en continu pour les transactions du magasin de vente au détail
               href: trickle-feed.md
             - name: 'Créer, calculer et valider des relevés pour un magasin de vente au détail'
               href: tasks/create-calculate-post-statement-retail-store.md
+            - name: Rapprochement financier dans les magasins de détail
+              href: fin-recon.md
             - name: Améliorations de la fonctionnalité de validation du relevé
               href: statement-posting-eod.md
             - name: Gestion améliorée des articles suivis par lots
@@ -792,8 +792,6 @@
                   href: configure-your-domain-name.md
                 - name: Déploiement d'un nouveau client de commerce électronique
                   href: deploy-ecommerce-site.md
-                - name: Paramétrer un canal de magasin en ligne
-                  href: online-stores.md
                 - name: Création d'un site de commerce électronique
                   href: create-ecommerce-site.md
                 - name: Association d'un site de commerce électronique avec un canal en ligne
@@ -816,13 +814,11 @@
               items:
                 - name: Vue d'ensemble de la page d'accueil
                   href: quick-tour-home-page.md
-                - name: Vue d'ensemble de la page d'arrivée de la catégorie par défaut et de la page des résultats de la recherche
-                  href: category-search-page-overview.md
                 - name: Vue d'ensemble des pages détaillées du produit
                   href: quick-tour-pdp.md
-                - name: Vue d'ensemble des pages de chariot et de validation
+                - name: Vue d'ensemble des pages du panier et du paiement
                   href: quick-tour-cart-checkout.md
-                - name: Vue d'ensemble des pages de gestion des comptes
+                - name: Vue d'ensemble des pages de gestion de compte
                   href: quick-tour-account-management.md
             - name: Gérer les paramètres de votre site
               items:
@@ -996,9 +992,9 @@
                   items:
                     - name: Module de barre de navigation
                       href: add-breadcrumb.md
-            - name: Rechercher
+            - name: Recherche
               items:
-                - name: Page d'arrivée de catégorie et page des résultats de la recherche par défaut
+                - name: Vue d'ensemble de la page d'arrivée de la catégorie par défaut et de la page des résultats de la recherche
                   href: category-search-page-overview.md
                 - name: Vue d'ensemble de la recherche dans le cloud
                   href: cloud-powered-search-overview.md
@@ -2000,6 +1996,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Configurer les paramètres de thème
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Configurer les préréglages de style de thème
+                      href: e-commerce-extensibility/theme-style-presets.md
                     - name: Étendre un thème pour ajouter des extensions de module
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Étendre un thème à partir d'un thème de base
@@ -2034,8 +2032,10 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Développement dans les environnements de développement hébergés dans le cloud sans accès administrateur
                   href: dev-itpro/cloud-dev-box.md
-                - name: Configurer le pipeline de build de SDK Commerce
+                - name: Configurer le pipeline de build de Kit de développement logiciel (SDK) Commerce
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: FAQ du Kit de développement logiciel (SDK) Retail
+                  href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Extensibilité du point de vente
               items:
                 - name: Mises en page de l'écran PDV
@@ -2046,8 +2046,6 @@
                   href: install-pos-layout-designer.md
                 - name: Étendre le mode d'affichage de POS Dual
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Extensibilité du déclencheur de MPOS et de CPOS
-                  href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Ajouter des contrôles personnalisés à des vues PDV
                   href: dev-itpro/pos-custom-control.md
                 - name: Ajouter des opérations PDV aux mises en page PDV à l'aide du concepteur de groupe de boutons
