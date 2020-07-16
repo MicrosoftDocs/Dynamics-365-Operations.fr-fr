@@ -74,8 +74,6 @@
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: "Finance\_10.0.11 (juillet\_2020)"
                       href: get-started/whats-new-changed-10-0-11.md
-                    - name: "Finance\_10.0.10 (mai\_2020)"
-                      href: get-started/whats-new-changed-10-0-10.md
             - name: Fonctions supprimées ou obsolètes
               items:
                 - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
@@ -1184,6 +1182,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Définitions de colonne
               href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Définitions d'arborescence de génération d'états dans les états financiers
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
             - name: Modifier les cellules de définition de ligne
               href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Réinitialiser le mini-data warehouse d'états financiers
@@ -3386,12 +3386,18 @@
                       items:
                         - name: Importer des configurations depuis le GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Importer des versions mises à jour des configurations ER
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
                         - name: Filtrage amélioré pour trouver des configurations dans le GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Charger des configurations dans le GR
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Partager des configurations dans le GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+            - name: Guides de démarrage rapide
+              items:
+                - name: Ajuster un format ER pour générer un document électronique personnalisé
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
             - name: Didacticiels
               items:
                 - name: Apprendre à utiliser les sources de données

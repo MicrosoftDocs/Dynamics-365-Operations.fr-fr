@@ -3,8 +3,10 @@
   items:
     - name: Nouveautés
       items:
-        - name: Nouveautés ou modifications dans Human Resources
+        - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "25\_juin\_2020"
+          href: hr-whats-new-2020-06-23.md
         - name: "11\_juin\_2020"
           href: hr-whats-new-2020-06-11.md
         - name: "28\_mai\_2020"
@@ -141,6 +143,8 @@
           items:
             - name: Obtenir de l'aide
               href: hr-admin-troubleshooting-support.md
+            - name: Optimiser les performances en planifiant des traitements par lots en dehors des heures d'ouverture
+              href: hr-admin-troubleshooting-batch-jobs.md
             - name: Optimiser les performances grâce aux tâches automatiques de nettoyage
               href: hr-admin-troubleshooting-batch-history.md
             - name: Les états analytiques ne sont pas mis à jour
@@ -459,7 +463,7 @@
                       href: hr-benefits-setup-employment-categories.md
                     - name: Configurer les types d'emploi
                       href: hr-benefits-setup-employment-types.md
-                    - name: Configurer le libre service employé
+                    - name: Configurer le libre-service employé
                       href: hr-benefits-setup-employee-self-service.md
                 - name: Créer des plans d'avantages
                   items:
