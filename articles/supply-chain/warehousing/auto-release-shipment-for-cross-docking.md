@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2d8d6e67040f19cac99f8e0164296ef49768496e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201477"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530234"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Lancement automatique de l'expédition pour le cross-docking
 
@@ -164,7 +164,7 @@ Pour que la quantité de produits finis fasse l'objet d'un cross-docking à l'em
 8. Dans la page **Ordre de fabrication**, dans le volet Actions, sous l'onglet **Ordre de fabrication**, dans le groupe **Traitement**, sélectionnez **Estimer**, puis **OK**. La commande est estimé, et la quantité de matières premières est réservée pour la production.
 9. Dans le volet Actions, sous l'onglet **Ordre de fabrication**, dans le groupe **Traitement**, sélectionnez **Lancer**, puis **OK**. Le travail de prélèvement à l'entrepôt est créé pour les matières premières.
 10. Ouvrez et vérifiez le travail. Dans le volet Actions, sous l'onglet **Entrepôt**, dans le groupe **Général**, cliquez sur **Détails du travail**. Prenez note de l'ID du travail.
-11. Ouvrez et connectez-vous à Dynamics 365 for Finance and Operations – L'application de stockage pour exécuter le travail dans l'entrepôt 51.
+11. Connectez-vous à l'application d'entrepôt pour exécuter le travail dans l'entrepôt 51.
 12. Accédez à **Production** \> **Prélèvement de la production**.
 13. Entrez l'ID travail pour commencer et effectuer le prélèvement de matières premières. 
 

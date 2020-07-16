@@ -3,7 +3,7 @@ title: Présentation de la gestion des fonctionnalités
 description: Cette rubrique décrit la fonctionnalité de gestion des fonctionnalités et son utilisation.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/12/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
+ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456595"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499617"
 ---
 # <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
 
@@ -140,6 +140,10 @@ Les exemples suivants décrivent ce qui se produit lorsque vous utilisez l'entit
 ## <a name="feature-management-and-flighting"></a>Gestion des fonctionnalités et distribution de version d'évaluation
 
 La Gestion des fonctionnalités vous permet de contrôler les fonctionnalités qui sont fournies dans chaque version. La distribution de version d'évaluation permet à Microsoft Teams de fournir des fonctionnalités à un nombre limité de clients, afin que celles-ci puissent être testées et validées sans affecter tous les clients. La Gestion des fonctionnalités ne contrôle pas la distribution de version d'évaluation des fonctionnalités.
+
+## <a name="new-features-are-optional-for-12-months"></a>Les nouvelles fonctionnalités sont facultatives pendant 12 mois
+
+Lorsqu'une nouvelle fonctionnalité non critique est installée, elle sera facultative pour une période de 12 mois. Ainsi, vous et votre organisation, avez le temps de planifier à l'avance quand utiliser une fonctionnalité et la tester sur vos opérations quotidiennes. Pour plus d'informations, voir [FAQ sur les mises à jour de service One Version](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Utilisation de la Gestion des fonctionnalités pour activer des fonctionnalités de fournisseur de logiciels indépendant ou des fonctions personnalisées
 

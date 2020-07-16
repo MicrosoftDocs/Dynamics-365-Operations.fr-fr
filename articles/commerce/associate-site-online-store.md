@@ -3,7 +3,7 @@ title: Association d'un site de commerce électronique à un canal en ligne
 description: Cette rubrique explique comment lier votre site Microsoft Dynamics 365 Commerce à un ou plusieurs magasins en ligne.
 author: stuharg
 manager: AnnBe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 30a992ae5cc68173b830224ae88ac3770b414b7a
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: af63fc8e32d82cff9e46510da9b30110ac8f0f2c
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096699"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533365"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Association d'un site de commerce électronique à un canal en ligne
 
@@ -43,8 +43,6 @@ Lorsque votre site est créé, vous pouvez vérifier qu'il est associé à votre
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
 [Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
-
-[Paramétrer un canal de magasin en ligne](online-stores.md)
 
 [Création d'un site de commerce électronique](create-ecommerce-site.md)
 

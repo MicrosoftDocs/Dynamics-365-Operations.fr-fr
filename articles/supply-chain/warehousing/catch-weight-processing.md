@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5a751b360b2da8f786dd7b8d139e1a0a44052894
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211972"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530533"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
@@ -107,7 +107,7 @@ En outre, lorsqu'un élément est suivi par balise, il existe un paramètre **M
 **Lorsque le suivi des balises en poids variable est utilisé**, une balise doit toujours être créée pour chaque unité en poids variable reçue et chaque balise doit toujours être associée à un poids.
 
 Par exemple, **Boîte** est l'unité en poids variable, et vous recevez une palette de huit boîte. Dans ce cas, huit balises en poids variable unique doivent être créées, et un poids doit être associé à chaque balise. Selon la balise en poids variable entrant, le poids des huit boîtes peut être saisi, et le poids moyen peut ensuite être réparti sur chaque boîte, ou un poids unique peut être saisi pour chaque boîte.
-Lorsque vous utilisez la fonctionnalité **Utiliser les balises de poids variable existantes lorsque vous signalez les ordres de fabrication comme terminés** avec le processus activé via un élément de menu de l'appareil mobile, le stock est mis à jour en fonction des informations d'étiquette de poids variable existantes. Par conséquent, l'application Entreposage ne demande pas de capturer les données d'étiquette de poids variable dans le cadre d'un rapport de production en tant qu'opération terminée.
+Lorsque vous utilisez la fonctionnalité **Utiliser les balises de poids variable existantes lorsque vous signalez les ordres de fabrication comme terminés** avec le processus activé via un élément de menu de l'appareil mobile, le stock est mis à jour en fonction des informations d'étiquette de poids variable existantes. Par conséquent, l'application d'entrepôt ne demande pas de capturer les données d'étiquette de poids variable dans le cadre d'un rapport de production en tant qu'opération terminée.
 
 **Si le suivi des balises en poids variable n'est pas utilisé**, le poids peut être saisi pour chaque dimension définie (par exemple, le contenant et la dimension de suivi). À défaut, le poids peut être saisi à un niveau agrégé, comme cinq contenants (palettes).
 
@@ -195,7 +195,7 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
 
 ### <a name="catch-weight-tags"></a>Balises en poids variable
 
-Une balise en poids variable peut être créée à l'aide d'un processus de l'application d'entreposage. Elle peut être créée manuellement dans l'écran, ou à l'aide d'un processus d'entité de données. Si une balise en poids variable est associée à une ligne de document source entrant, comme une ligne de commande fournisseur, la balise est enregistrée. Si la ligne est utilisée pour le traitement sortant, la balise sera mise à jour à l'expédition.
+Une balise en poids variable peut être créée à l'aide d'un processus de l'application d'entrepôt. Elle peut être créée manuellement dans l'écran, ou à l'aide d'un processus d'entité de données. Si une balise en poids variable est associée à une ligne de document source entrant, comme une ligne de commande fournisseur, la balise est enregistrée. Si la ligne est utilisée pour le traitement sortant, la balise sera mise à jour à l'expédition.
 
 Outre les restrictions qui s'appliquent actuellement aux produits en poids variable, les produits en poids variable avec balise ont d'autres restrictions qui s'appliquent actuellement.
 

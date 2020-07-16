@@ -3,7 +3,7 @@ title: Configurer les taux
 description: Les taux dans Microsoft Dynamics 365 Human Resources définissent combien les employeurs et les employés cotisent pour un avantage.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c90a45b79f2a383f0ace0cb07e791f6613d7a3c3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
+ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429909"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497354"
 ---
 # <a name="configure-rates"></a>Configurer les taux
 
@@ -75,15 +75,15 @@ Vous pouvez également utiliser des niveaux doubles. Si vous sélectionnez **Niv
 
 3. Spécifiez les valeurs les champs suivants :
 
-   | Champ | Description |
+   | Champ | Description  |
    | --- | --- | 
-   | **Description** | La valeur du champ Description sera appliquée à partir de la description dans l'enregistrement de configuration du taux. Cela vous aide à identifier la configuration de taux à laquelle les taux échelonnés sont liés. |
+   | **Description** | La valeur du champ **Description** est appliquée à partir de la description dans l'enregistrement de configuration du taux. Cela vous aide à identifier la configuration de taux à laquelle les taux échelonnés sont liés. |
    | **Code de niveau** | Sélectionnez un code de niveau. Les codes de niveau sont définis dans le formulaire des codes de niveau. Le système affichera automatiquement la description du code de niveau dans la grille de gauche. |
-   | **Type de niveau** | Spécifie quel champ doit être utilisé comme critère de sélection pour le processus de calcul de taux de niveau. Par exemple :</br></br><ul><li>Si l'âge est utilisé, le système utilisera la date de naissance de l'employé dans le processus de calcul du taux d'avantage.</li><li>Si le salaire est utilisé, le système utilisera le salaire d'avantage annuel de l'employé dans le processus de calcul du taux d'avantage.</li><li>Si le type d'emploi est utilisé, le système utilisera l'enregistrement de poste actif actuel de l'employé pour déterminer le type d'emploi par l'enregistrement d'emploi lié au poste.</li></ul></br></br>Les types de niveaux sont Âge, Salaire, Physique, Sexe, Équivalent temps plein, Type de poste, Région de rémunération et Niveau. | 
-   | **Niveau** | Valeur à utiliser avec le type de niveau lors du processus de calcul du taux d'avantage. Par exemple :</br></br><ul><li>Si le type de niveau est Âge, ce serait la valeur d'âge.</li><li>Si le type de niveau est Salaire, ce serait le montant du salaire.</li><li> Si le type de niveau est Type de poste, ce serait le type de poste.</li></ul></br></br>Avec un type de niveau Âge ou Salaire, le système utilise une approche ascendante lors de la sélection du taux de niveau, ce qui signifie que la valeur dans le champ Niveau représente la limite inférieure du niveau. Avec un type de niveau Type de poste, le système utilise une approche de correspondance exacte lors de la sélection du taux de niveau. |
+   | **Type de niveau** | Spécifie quel champ doit être utilisé comme critère de sélection pour le processus de calcul de taux de niveau. Par exemple :</br></br><ul><li>Si **Âge** est utilisé, le système utilisera la date de naissance de l'employé dans le processus de calcul du taux des avantages.</li><li>Si **Salaire** est utilisé, le système utilisera le salaire annuel des avantages de l'employé dans le processus de calcul du taux des avantages.</li><li>Si **Type d'emploi** est utilisé, le système utilisera l'enregistrement de poste actif actuel de l'employé pour déterminer le type d'emploi selon l'enregistrement d'emploi lié au poste.</li></ul></br></br>Les types de niveaux sont **Âge**, **Salaire**, **Physique**, **Sexe**, **Équivalent temps plein**, **Type de poste**, **Région de rémunération** et **Niveau**. | 
+   | **Niveau** | Valeur à utiliser avec le type de niveau lors du processus de calcul du taux d'avantage. Par exemple :</br></br><ul><li>Si le type de niveau est **Âge**, ce serait la valeur d'âge.</li><li>Si le type de niveau est **Salaire**, ce serait le montant du salaire.</li><li> Si le type de niveau est **Type de poste**, ce serait le type de poste.</li></ul></br></br>Avec un type de niveau **Âge** ou **Salaire**, la valeur du champ **Niveau** représente la limite supérieure du niveau. Avec un type de niveau **Type de poste**, le système utilise une approche de correspondance exacte lors de la sélection du taux de niveau. |
    | **Type de calcul** | Spécifie comment utiliser le montant dans le champ du montant de calcul et quel calcul mathématique effectuer si nécessaire. Si le type de calcul est un montant forfaitaire, le système utilise les champs de montant tels quels. Si le type de calcul est par montant de salaire ou de couverture en $, le système utilise le montant de calcul et la direction de calcul dans son calcul mathématique.</br></br>Si le type de calcul est par montant du salaire en $, le système utilisera l'équation mathématique suivante :</br></br>Salaire annuel des avantages divisé par le montant de calcul (arrondi vers le haut ou vers le bas) multiplié par les montants pour fumeur ou non-fumeur pour l'employé ou l'employeur.</br></br>Si le type de calcul est par montant de couverture en $, le système utilisera l'équation mathématique suivante :</br></br>Montant de couverture divisé par le montant de calcul (arrondi vers le haut ou vers le bas) multiplié par les montants pour fumeur ou non-fumeur pour l'employé ou l'employeur.</br></br>Dans les deux calculs, la direction du calcul est utilisée pour déterminer s'il faut arrondir le salaire de l'avantage annuel ou le montant de couverture divisé par le montant du calcul vers le haut ou vers le bas. |
    | **Montant du calcul** | Montant à utiliser pendant le processus de calcul du taux d'avantage. Ce montant sera le diviseur lors du calcul mathématique du taux échelonné. |
-   | **Sens du calcul** | Direction (augmentation ou diminution) selon laquelle le montant du résultat calculé doit être arrondi. Le système prend en charge trois directions de calcul : vide (méthode exacte), augmentation et diminution.</br></br><ul><li>Pour vide, le système utilisera le calcul exact du montant du salaire/de la couverture divisé par le montant du calcul. Si cette valeur a une fraction, le système l'utilisera dans son calcul.</li><li>Pour une augmentation, le système augmentera le calcul mathématique du montant du salaire/de la couverture divisé par le montant du calcul à l'entier suivant, ce qui signifie que 12,25 passerait à 13.</li><li>Pour une diminution, le système diminuera le calcul mathématique du montant du salaire/de la couverture divisé par le montant du calcul à l'entier actuel, ce qui signifie que 12,25 passerait à 12.</li></ul> |
+   | **Sens du calcul** | Direction selon laquelle le montant du résultat calculé doit être arrondi. Le système prend en charge trois directions de calcul : vide (méthode exacte), **augmentation** et **diminution**.</br></br><ul><li>Pour vide, le système utilisera le calcul exact du montant du salaire/de la couverture divisé par le montant du calcul. Si cette valeur a une fraction, le système l'utilisera dans son calcul.</li><li>Pour une **augmentation**, le système augmentera le calcul mathématique du montant du salaire/de la couverture divisé par le montant du calcul à l'entier suivant, ce qui signifie que 12,25 passerait à 13.</li><li>Pour une **diminution**, le système diminuera le calcul mathématique du montant du salaire/de la couverture divisé par le montant du calcul à l'entier actuel, ce qui signifie que 12,25 passerait à 12.</li></ul> |
    | **Montant de l'employé non fumeur** | Montant qu'un fournisseur d'avantages facture pour un employé non-fumeur. Il s'agit du montant que l'employeur verse au fournisseur d'avantage et il doit être basé sur la fréquence de paiement pour la configuration du taux. |
    | **Montant de l'employeur non fumeur** | Montant qu'un fournisseur d'avantages facture pour un employé non-fumeur. Il s'agit du montant que l'employeur verse au fournisseur d'avantage et il doit être basé sur la fréquence de paiement pour la configuration du taux. |
    | **Montant de l'employé fumeur** | Montant qu'un fournisseur d'avantages facture pour un employé non-fumeur. Il s'agit du montant que l'employeur verse au fournisseur d'avantage et il doit être basé sur la fréquence de paiement pour la configuration du taux. |

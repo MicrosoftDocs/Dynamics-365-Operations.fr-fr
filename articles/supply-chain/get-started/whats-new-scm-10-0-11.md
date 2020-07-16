@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: e396d2f2731d3600ee9e83e419d1038571e7bd85
-ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
+ms.openlocfilehash: 0d5265079dd96b272d13b30436b83b94bdb7297f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "3413028"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530280"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.11 (juillet 2020)
 
@@ -36,14 +36,14 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](https://docs.microsoft.com/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation ou des vidéos supplémentaires actuellement disponibles pour cette fonctionnalité. La plupart de ces fonctionnalités doivent être activées à l'aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
+Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](https://docs.microsoft.com/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation ou des vidéos supplémentaires actuellement disponibles pour cette fonctionnalité. La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
 - [Stockage des états sur le stock disponible](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Améliorations de la réception de contenant pour l'application d'entreposage](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Pour plus d'informations, voir [Réception de contenant via l'application d'entreposage](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Améliorations des réservations de ligne pour le formulaire de réservation de numéro de lot](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - Pour plus d'informations, voir [Réserver le même lot pour une commande client](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Améliorations de la réception de contenant pour l’application d’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Pour plus d’informations, voir [Réception de contenant via l’application d’entrepôt](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Améliorations des réservations de ligne pour le formulaire de réservation de numéro de lot](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - Pour plus d’informations, voir [Réserver le même lot pour une commande client](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Nouvelles entités de données pour la zone de fabrication](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Réception excédentaire de quantités de chargement](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Pour plus d'informations, voir [Gestion en entrepôt des chargements entrants pour les commandes fournisseur](../warehousing/inbound-load-handling.md).
-- [Déclarer comme terminé sur les numéros de lot à partir du périphérique de bon de travail](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) - Pour plus d'informations, voir [Déclarer comme terminé à partir du périphérique de bon de travail](../production-control/report-finished-job-device.md)
+- [Réception excédentaire de quantités de chargement](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Pour plus d’informations, voir [Gestion en entrepôt des chargements entrants pour les commandes fournisseur](../warehousing/inbound-load-handling.md).
+- [Déclarer comme terminé sur les numéros de lot à partir du périphérique de bon de travail](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) - Pour plus d’informations, voir [Déclarer comme terminé à partir du périphérique de bon de travail](../production-control/report-finished-job-device.md)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -53,11 +53,11 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.11 inclut les mises à jour 
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
-Pour plus d'informations sur les correctifs de bogues inclus dans chacune des mises à jour qui font partie de 10.0.11, connectez-vous à Lifecycle Services (LCS) et consultez l'[Article de la base de connaissances](https://fix.lcs.dynamics.com/Issue/Details?bugId=438264&dbType=3&qc=d7dbe350d53c7743949f6afa556ea8d19b4fc1d3e16824e1a2eef32e0c3b300a).
+Pour plus d’informations sur les correctifs de bogues inclus dans chacune des mises à jour qui font partie de 10.0.11, connectez-vous à Lifecycle Services (LCS) et consultez l’[Article de la base de connaissances](https://fix.lcs.dynamics.com/Issue/Details?bugId=438264&dbType=3&qc=d7dbe350d53c7743949f6afa556ea8d19b4fc1d3e16824e1a2eef32e0c3b300a).
 
 ### <a name="dynamics-365-2020-release-wave-1-plan"></a>Dynamics 365 : vague 1 du plan de publication 2020
 
-Vous souhaitez connaître les fonctionnalités à venir et récemment publiées dans nos applications ou notre plateforme d'entreprise ?
+Vous souhaitez connaître les fonctionnalités à venir et récemment publiées dans nos applications ou notre plateforme d’entreprise ?
 
 Consultez [Dynamics 365 : vague 1 du plan de publication 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
 
@@ -65,9 +65,9 @@ Consultez [Dynamics 365 : vague 1 du plan de publication 2020](https://docs.m
 
 La rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
 
-- Une fonction *supprimée* n'est plus disponible dans le produit.
-- Une fonction *déconseillée* n'est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
+- Une fonction *supprimée* n’est plus disponible dans le produit.
+- Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
-Avant que toute fonctionnalité ne soit supprimée du produit, l'avis d'obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
+Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
-Pour les dernières modifications qui n'affectent que le temps de compilation, mais qui sont compatibles d'un point de vue binaire avec les environnements sandbox et de production, le temps d'obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
+Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.

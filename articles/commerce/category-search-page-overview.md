@@ -1,9 +1,9 @@
 ---
-title: Vue d'ensemble de la page d'arrivée de catégorie et page des résultats de la recherche par défaut
+title: Vue d'ensemble de la page d'arrivée de catégories et de la page des résultats de la recherche par défaut
 description: Cette rubrique fournit une vue d'ensemble de la page d'arrivée de catégories et la page des résultats de la recherche par défaut dans Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002494"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527466"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Vue d'ensemble de la page d'arrivée de catégorie et page des résultats de la recherche par défaut
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Vue d'ensemble de la page d'arrivée de catégories et de la page des résultats de la recherche par défaut
 
 [!include [banner](includes/banner.md)]
 
@@ -96,13 +95,19 @@ Les composants suivants sont essentiels pour une page de résultats de recherche
 - La **Pagination** permet aux visiteurs de site web se déplacer d'une page de résultats de produit catégorisé à une autre page.
 - Le **Nombre total** fournit le nombre total de produits définis dans une catégorie et qui correspondent aux critères de recherche.
 
+>[!NOTE]
+>Ces fonctionnalités de recherche dans le cloud sont disponibles à partir de la version 10.0.8. Assurez-vous que sous **Paramètres Commerce > Paramètres de configuration**, il existe une entrée pour « ProductSearch.UseAzureSearch » définie sur « true ». 
+![Paramètres de configuration pour la recherche dans le cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
+
+[Vue d'ensemble de la recherche dans le cloud](cloud-powered-search-overview.md)
 
 [Vue d'ensemble de la page d'accueil](quick-tour-home-page.md)
 
-[Vue d'ensemble des pages de détails des produits](quick-tour-pdp.md)
+[Vue d'ensemble des pages de détails de produit](quick-tour-pdp.md)
 
-[Vue d'ensemble des pages du panier et du paiement](quick-tour-cart-checkout.md)
+[Vue d'ensemble des pages de panier et de caisse](quick-tour-cart-checkout.md)
 
-[Vue d'ensemble des pages de gestion de compte](quick-tour-account-management.md)
+[Vue d'ensemble des pages de gestion des comptes](quick-tour-account-management.md)
 

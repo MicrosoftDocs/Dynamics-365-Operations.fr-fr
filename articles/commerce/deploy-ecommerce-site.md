@@ -3,7 +3,7 @@ title: Déploiement d'un nouveau client de commerce électronique
 description: Cette rubrique décrit la procédure de déploiement d'un client de commerce électronique à l'aide de Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3febd3ca36f4d517033e910c4087ad3a6ffff35a
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269933"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533273"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Déploiement d'un nouveau client de commerce électronique
 
@@ -96,8 +96,6 @@ Pour accéder au générateur de site, accédez à l'onglet **Commerce électro
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
 [Création d'un site de commerce électronique](create-ecommerce-site.md)
-
-[Paramétrer un canal de magasin en ligne](online-stores.md)
 
 [Association d'un site en ligne avec un canal](associate-site-online-store.md)
 

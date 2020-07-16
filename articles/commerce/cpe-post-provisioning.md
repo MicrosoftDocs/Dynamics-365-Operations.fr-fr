@@ -3,7 +3,7 @@ title: Configurer un environnement d'aperçu Dynamics 365 Commerce
 description: Cette rubrique explique comment configurer des un environnement d'aperçu Microsoft Dynamics 365 Commerce après sa mise en service.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
+ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057715"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3534065"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurer un environnement d'aperçu Dynamics 365 Commerce
 
@@ -116,7 +116,7 @@ Pour activer les tâches dans Commerce, procédez comme suit :
 
 Pour exécuter la synchronisation complète des données dans Commerce, procédez comme suit.
 
-1. Utilisez le menu à gauche pour accéder à **Modules \> Retail et Commerce \> Paramétrage du Siège \> Retail Planification \> Base de données du canal**.
+1. Utilisez le menu à gauche pour accéder à **Modules \> Retail et Commerce \> Paramétrage du Siège \> Planificateur Commerce \> Base de données du canal**.
 1. Dans la liste de gauche, le canal **Par défaut** est sélectionné. Sélectionnez l'autre canal disponible. Ce canal est nommé **scXXXXXXXXX**.
 1. Sur le volet Action, sélectionnez **Synchronisation de données complète**.
 1. Entrez **9999** comme programme de distribution.
