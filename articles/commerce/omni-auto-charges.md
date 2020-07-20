@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175152"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505609"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Frais automatiques avancés omnicanaux
 
@@ -40,7 +40,7 @@ Lors de l'utilisation de versions précédentes à la version 10.0, un utilisate
 
 L'utilisation des invites manuelles pour ajouter des frais d'expédition reste disponible dans les versions 10.0 et ultérieures. Si une organisation n'active pas le paramètre **Frais automatiques avancés**, les invites du PDV pour la saisie manuelle des frais resteront les mêmes.
 
-Avec la fonctionnalité des frais automatiques avancés, les utilisateurs peuvent avoir des calculs systématiques pour tous frais divers définis selon les tables de configuration des frais automatiques. En outre, les utilisateurs auront la capacité d'ajouter ou de mettre à jour un montant illimité des frais supplémentaires vers une transaction de vente en PDV au niveau de l'en-tête ou du niveau de ligne (pour un paiement au comptant ou une commande client).
+Avec la fonctionnalité des frais automatiques avancés, les utilisateurs peuvent avoir des calculs systématiques pour tous frais divers définis selon les tables de configuration des frais automatiques. En outre, les utilisateurs auront la possibilité d'ajouter ou de mettre à jour un nombre illimité de frais supplémentaires dans une transaction de vente en PDV au niveau de l'en-tête ou de la ligne (pour un paiement au comptant ou une commande client).
 
 ## <a name="enabling-advanced-auto-charges"></a>Activation de frais automatiques avancés
 
@@ -52,7 +52,7 @@ Lorsque les frais automatiques avancés sont activés, les utilisateurs ne sont 
 
 Lorsque les frais automatiques avancés sont activés, les **paramètres de Commerce** pour **Code frais d'expédition** et **Rembourser les frais d'expédition** ne sont plus utilisés. Ces paramètres s'appliquent uniquement si le paramètre **Utiliser les frais automatiques avancés** est défini sur **Non**.
 
-Avant d'activer cette fonctionnalité, veillez à avoir testé et formé vos employés, puisque cela changera le flux du processus commercial de la manière dont les frais d'expédition ou autres frais sont calculés et ajoutés aux commandes client du PDV. Veillez à comprendre l'impact du flux du processus sur la création des transactions depuis le PDV. Pour les commandes du centre d'appels et du commerce électronique, l'impact de l'activation des frais automatiques avancés est minime. Les applications du centre d'appels et du commerce électronique continueront à avoir le même comportement qu'elles ont eu historiquement par rapport aux tableaux de frais automatiques pour calculer les frais de commande supplémentaires. Les utilisateurs du canal de centre d'appels continueront à avoir la capacité de modifier manuellement tous les frais automatiques calculés par le système au niveau de l'en-tête ou de la ligne, ou d'ajouter manuellement divers frais au niveau de l'en-tête ou de la ligne.
+Avant d'activer cette fonctionnalité, veillez à avoir testé et formé vos employés, puisque la fonctionnalité activée changera le flux de processus métier de la manière dont les frais d'expédition ou autres frais sont calculés et ajoutés aux commandes client du PDV. Veillez à comprendre l'impact du flux du processus sur la création des transactions depuis le PDV. Pour les commandes du centre d'appels et du commerce électronique, l'impact de l'activation des frais automatiques avancés est minime. Les applications du centre d'appels et du commerce électronique continueront à avoir le même comportement qu'elles ont eu historiquement par rapport aux tableaux de frais automatiques pour calculer les frais de commande supplémentaires. Les utilisateurs du canal de centre d'appels continueront à avoir la capacité de modifier manuellement tous les frais automatiques calculés par le système au niveau de l'en-tête ou de la ligne, ou d'ajouter manuellement divers frais au niveau de l'en-tête ou de la ligne.
 
 ## <a name="additional-pos-operations"></a>Opérations de PDV supplémentaires
 
@@ -81,7 +81,7 @@ Un détaillant souhaite ajouter automatiquement des frais pour le transport lors
 
 #### <a name="setup-and-configuration"></a>Paramétrage et configuration
 
-Ce scénario exige la configuration de deux tableaux de frais automatiques.
+Ce scénario exige la configuration de deux tables de frais automatiques.
 
 Accédez à **Comptabilité client \> Paramétrage des frais \> Frais automatiques**.
 
@@ -89,7 +89,7 @@ Configurez deux types de frais automatiques au niveau de l'en-tête. Configurez 
 
 Pour les frais de livraison terrestre, dans la section des lignes de la page **Frais automatiques**, définissez les frais qui seront appliqués pour les commandes entre 0,01 USD et 100 USD sur 10 USD. Créez une autre ligne de frais pour indiquer que les commandes supérieures à 100,01 USD n'auront pas de frais de livraison.
 
-![Exemple de frais automatiques](media/headerchargesexample.png)
+![Exemple de deux tables de frais automatiques](media/headerchargesexample.png)
 
 Pour les frais de livraison aérienne, dans la section des lignes du formulaire Frais automatiques, définissez les frais qui seront appliqués pour toutes les commandes (entre 0,01 USD et 9 999 999 USD) sur 20 USD.
 
@@ -119,7 +119,7 @@ Accédez à **Comptabilité client \> Paramétrage des frais \> Frais automatiqu
 
 Définissez le menu déroulant **Niveau** sur **Ligne**, puis créez un nouvel enregistrement de frais automatiques pour tous les clients et pour le produit ou le groupe de produits spécifique sur lequel les frais de paramétrage seront facturés.
 
-![Exemple de frais automatiques](media/linechargesexample.png)
+![Exemple de table de frais automatiques au niveau de la ligne](media/linechargesexample.png)
 
 Envoyez les frais vers l'unité d'échelle commerciale/la base de données du canal de telle sorte que le PDV puisse les utiliser en exécutant la tâche **programme de distribution 1040**.
 
@@ -173,7 +173,7 @@ L'opération **Ajouter des frais de ligne** doit être configurée dans votre [M
 
 Pour exécuter le scénario dans l'application de PDV, l'utilisateur du PDV créera la transaction des ventes de manière habituelle, en ajoutant les produits et toute autre configuration à la vente. Avant de collecter le paiement, l'utilisateur doit sélectionner une ligne spécifique sur laquelle les frais s'appliqueront depuis la liste d'articles du PDV et exécuteront l'opération **Ajouter des frais de ligne**. L'utilisateur sera invité à sélectionner un code de frais et à saisir la valeur des frais. Une fois que l'utilisateur exécute le processus, les frais seront associés à la ligne et ajoutés au total de la commande comme frais d'en-tête. L'utilisateur peut répéter le processus pour ajouter des frais de ligne supplémentaires à d'autres lignes d'articles sur la transaction, le cas échéant.
 
-Le même processus peut être appliqué au centre d'appels à l'aide de la fonctionnalité « Tenir à jour les frais » sous le menu déroulant **Finances** dans la section **Lignes de commande client** sur la page **Commande client**. Cela ouvrira la page **Tenir les frais à jour** sur laquelle l'utilisateur peut ajouter une nouvelle ligne de frais spécifiques à la transaction.
+Le même processus peut être appliqué au centre d'appels à l'aide de la fonctionnalité « Tenir à jour les frais » sous le menu déroulant **Finances** dans la section **Lignes de commande client** sur la page **Commande client**. La sélection de cette option va ouvrir la page **Tenir les frais à jour** sur laquelle l'utilisateur peut ajouter une nouvelle ligne de frais spécifiques à la transaction.
 
 ## <a name="additional-features"></a>Fonctionnalités supplémentaires
 

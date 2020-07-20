@@ -1,6 +1,6 @@
 ---
-title: Vue d'ensemble des pages détaillées du produit
-description: Cette rubrique fournit une vue d'ensemble des pages détaillées du produit dans Microsoft Dynamics 365 Commerce.
+title: Vue d'ensemble des pages de détails de produit
+description: Cette rubrique fournit une vue d'ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 01/23/2020
@@ -17,35 +17,34 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025923"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527537"
 ---
-# <a name="overview-of-product-details-pages"></a>Vue d'ensemble des pages détaillées du produit
-
+# <a name="product-details-pages-overview"></a>Vue d'ensemble des pages de détails de produit
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble des pages détaillées du produit dans Microsoft Dynamics 365 Commerce.
+Cette rubrique fournit une vue d'ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Une page détaillée du produit fournit des informations détaillées sur un produit, et permet aux clients de sélectionner des options de produit comme une taille, un style, et une couleur. Une page détaillée du produit doit présenter toutes les informations sur le produit dont un client a besoin pour effectuer une décision d'achat.
+Une page de détails de produit fournit des informations détaillées sur un produit, et permet aux clients de sélectionner des options de produit comme une taille, un style, et une couleur. Une page de détails de produit doit présenter toutes les informations sur le produit dont un client a besoin pour effectuer une décision d'achat.
 
-L'illustration suivante présente un exemple de page détaillée du produit.
+L'illustration suivante présente un exemple de page de détails de produit.
 
-![Exemple de page de détails des produits](./media/pdp.PNG)
+![Exemple de page de détails de produit](./media/pdp.PNG)
 
 ## <a name="header-and-footer-modules"></a>Modules d'en-tête et de pied de page
 
-Le haut de la page détaillée du produit comporte en-tête qui affiche toutes les catégories de produits et d'autres pages que le détaillant souhaite que les clients parcourent. Le bas de la page comporte un pied de page qui contient des liens rapides vers diverses rubriques qui peuvent intéresser les clients.
+Le haut de la page de détails de produit comporte en-tête qui affiche toutes les catégories de produits et d'autres pages que le détaillant souhaite que les clients parcourent. Le bas de la page comporte un pied de page qui contient des liens rapides vers diverses rubriques qui peuvent intéresser les clients.
 
 ## <a name="buy-box-module"></a>Module de zone d'achat
 
-Le module le plus important sur une page de détails de produit est le module de boîte d'achat, qui apparaît en premier dans la section principale de la page. Un module de boîte d'achat affiche des informations importantes sur le produit, telles que son nom, sa description, son prix, des images du produit et les classements du produit.
+Le module le plus important sur une page de détails de produit est le module de zone d'achat, qui apparaît en premier dans la section principale de la page. Un module de zone d'achat affiche des informations importantes sur le produit, telles que son nom, sa description, son prix, des images du produit et les classements du produit.
 
 Le module de zone d'achat permet au client de sélectionner des options de produit (par exemple, une taille, un style, et une couleur) et d'ajouter le produit au panier. Il permet également au client d'acheter les produits en ligne et de les prélever en magasin. Le module d'achat en ligne et prélèvement en magasin utilise l'intégration avec des interface de programmation d'application (API) Bing Maps pour rechercher les magasins à proximité ou les magasins à un autre emplacement que le client spécifie.
 
@@ -57,7 +56,7 @@ Le module de spécifications du produit peut être utilisé pour présenter des 
 
 ## <a name="recommendations-module"></a>Module de recommandations
 
-Le module de recommandations est un important module sur une page détaillée du produit. Bien que les clients parcourent les produits, des options de produit supplémentaires doivent leur être présentées, afin qu'ils puissent trouver le produit approprié et effectuer un achat. Les recommandations aident les clients à découvrir facilement le contenu associé et à continuer d'effectuer des achats.
+Le module de recommandations est un important module sur une page des détails de produit. Bien que les clients parcourent les produits, des options de produit supplémentaires doivent leur être présentées, afin qu'ils puissent trouver le produit approprié et effectuer un achat. Les recommandations aident les clients à découvrir facilement le contenu associé et à continuer d'effectuer des achats.
 
 Différents types de listes de recommandations sont disponibles :
 
@@ -84,10 +83,8 @@ Si le contenu de marketing est unique à un produit spécifique, un module de ma
 
 [Vue d'ensemble de la page d'accueil](quick-tour-home-page.md)
 
-[Vue d'ensemble de la page d'arrivée de la catégorie par défaut et de la page des résultats de la recherche](category-search-page-overview.md)
+[Vue d'ensemble des pages de panier et de caisse](quick-tour-cart-checkout.md)
 
-[Vue d'ensemble des pages de chariot et de validation](quick-tour-cart-checkout.md)
-
-[Vue d'ensemble des pages de gestion de compte](quick-tour-account-management.md)
+[Vue d'ensemble des pages de gestion des comptes](quick-tour-account-management.md)
 
 [Enrichir une page de détails sur un produit](enrich-product-page.md)

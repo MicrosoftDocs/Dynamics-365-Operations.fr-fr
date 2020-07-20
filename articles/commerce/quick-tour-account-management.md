@@ -3,7 +3,7 @@ title: Vue d'ensemble des pages de gestion de compte
 description: Cette rubrique fournit une vue d'ensemble des pages de gestion de compte dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 722da2755734a85e915dd90e7868a5e1c7753f5a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002956"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527606"
 ---
-# <a name="overview-of-account-management-pages"></a>Vue d'ensemble des pages de gestion de compte
-
+# <a name="account-management-pages-overview"></a>Vue d'ensemble des pages de gestion de compte
 
 [!include [banner](includes/banner.md)]
 
@@ -93,9 +92,7 @@ Pour plus d'informations sur les modules de gestion de compte et leur création,
 
 [Vue d'ensemble de la page d'accueil](quick-tour-home-page.md)
 
-[Vue d'ensemble de la page d'arrivée de la catégorie par défaut et de la page des résultats de la recherche](category-search-page-overview.md)
+[Vue d'ensemble des pages de détails de produit](quick-tour-pdp.md)
 
-[Vue d'ensemble des pages de détails des produits](quick-tour-pdp.md)
-
-[Vue d'ensemble des pages du panier et du paiement](quick-tour-cart-checkout.md)
+[Vue d'ensemble des pages de panier et de caisse](quick-tour-cart-checkout.md)
 

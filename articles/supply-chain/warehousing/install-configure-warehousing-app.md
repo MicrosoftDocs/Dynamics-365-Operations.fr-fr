@@ -1,6 +1,6 @@
 ---
-title: Installer et connecter l'application d'entreposage
-description: Cette rubrique explique comment installer l'application d'entreposage sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
+title: Installer et connecter l'application d'entrepôt
+description: Cette rubrique explique comment installer l'application d'entrepôt sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 05/25/2020
@@ -19,46 +19,46 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367080"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530073"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>Installer et connecter l'application d'entreposage
+# <a name="install-and-connect-the-warehouse-app"></a>Installer et connecter l'application d'entrepôt
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Cette rubrique décrit comment configurer l'entreposage pour les déploiements cloud. Si vous souhaitez des informations pour configurer l'entreposage pour les déploiements sur site, consultez [Entreposage pour les déploiements sur site](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
-L'application d'entreposage est disponible sur Google Play Store et Microsoft Store. Elle est fournie en tant que composant autonome. Par conséquent, vous devez la télécharger sur chaque appareil, puis la configurer pour vous connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management.
+L'application d'entrepôt est disponible sur Google Play Store et Microsoft Store. Elle est fournie en tant que composant autonome. Par conséquent, vous devez la télécharger sur chaque appareil, puis la configurer pour vous connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management.
 
-Cette rubrique explique comment installer l'application d'entreposage sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
+Cette rubrique explique comment installer l'application d'entrepôt sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
 
 ## <a name="system-requirements"></a>Configuration requise
 
-L'application d'entreposage est disponible sur les systèmes d'exploitation Android et Windows. Pour utiliser la dernière version de cette application, vous devez avoir l'un des systèmes d'exploitation pris en charge suivants installés sur vos appareils mobiles.
+L'application d'entrepôt est disponible sur les systèmes d'exploitation Android et Windows. Pour utiliser la dernière version de cette application, vous devez avoir l'un des systèmes d'exploitation pris en charge suivants installés sur vos appareils mobiles.
 
 - Windows 10 (Universal Windows Platform \[UWP\]) Mise à jour 1709 de l'automne (build 10.0.16299) ou version ultérieure
 - Android 4.4 ou version ultérieure
 
 > [!NOTE]
-> Si vous devez prendre en charge des appareils Windows plus anciens qui ne peuvent pas exécuter la dernière version de Windows, vous pouvez toujours télécharger la version 1.6.3.0 de l'application d'entreposage à partir du Microsoft Store. Cette version s'exécutera sur Windows 10 (UWP), mise à jour de novembre 1511 (build 10.0.10586) ou version ultérieure. Cependant, sachez que cette version de l'application d'entreposage ne prend pas en charge le déploiement en masse des paramètres de connexion. Vous devez donc [configurer manuellement la connexion](#config-manually) sur chaque appareil qui exécute cette version de l'application.
+> Si vous devez prendre en charge des appareils Windows plus anciens qui ne peuvent pas exécuter la dernière version de Windows, vous pouvez toujours télécharger la version 1.6.3.0 de l'application d'entrepôt à partir du Microsoft Store. Cette version s'exécutera sur Windows 10 (UWP), mise à jour de novembre 1511 (build 10.0.10586) ou version ultérieure. Cependant, sachez que cette version de l'application d'entrepôt ne prend pas en charge le déploiement en masse des paramètres de connexion. Vous devez donc [configurer manuellement la connexion](#config-manually) sur chaque appareil qui exécute cette version de l'application.
 
-## <a name="get-the-warehousing-app"></a>Obtenir l'application d'entreposage
+## <a name="get-the-warehouse-app"></a>Obtenir l'application d'entrepôt
 
 Utilisez l'un des liens suivants pour télécharger l'application :
 
 - **Windows (UWP) :** [Dynamics 365 for Finance and Operations - Warehousing sur Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android :** [Warehousing - Dynamics 365 sur Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Pour les petits déploiements, vous souhaiterez peut-être installer l'application à partir du magasin approprié sur chaque appareil, puis configurer manuellement la connexion aux environnements que vous utilisez. Cependant, dans la version 1.7.0.0 et les versions ultérieures de l'application d'entreposage, vous pouvez également automatiser le déploiement et/ou la configuration de l'application. Cette approche peut s'avérer pratique si vous gérez de nombreux appareils et si vous utilisez une solution de gestion des appareils mobiles et de gestion des applications mobiles telle que [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Pour plus d'informations sur l'utilisation d'Intune pour ajouter des applications, consultez [Ajouter des applications à Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Pour les petits déploiements, vous souhaiterez peut-être installer l'application à partir du magasin approprié sur chaque appareil, puis configurer manuellement la connexion aux environnements que vous utilisez. Cependant, dans la version 1.7.0.0 et les versions ultérieures de l'application d'entrepôt, vous pouvez également automatiser le déploiement et/ou la configuration de l'application. Cette approche peut s'avérer pratique si vous gérez de nombreux appareils et si vous utilisez une solution de gestion des appareils mobiles et de gestion des applications mobiles telle que [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Pour plus d'informations sur l'utilisation d'Intune pour ajouter des applications, consultez [Ajouter des applications à Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Créer une application de service Web dans Azure Active Directory
 
-Pour permettre à l'application d'entreposage d'interagir avec un serveur Supply Chain Management, vous devez enregistrer une application de service Web pour le client Supply Chain Management dans Azure Active Directory (Azure AD). La procédure suivante montre comment effectuer cette tâche. Pour des informations détaillées et des alternatives, consultez les liens après la procédure.
+Pour permettre à l'application d'entrepôt d'interagir avec un serveur Supply Chain Management, vous devez enregistrer une application de service Web pour le client Supply Chain Management dans Azure Active Directory (Azure AD). La procédure suivante montre comment effectuer cette tâche. Pour des informations détaillées et des alternatives, consultez les liens après la procédure.
 
 1. Dans un navigateur Web, accédez à [https://portal.azure.com](https://portal.azure.com/).
 1. Entrez le nom et le mot de passe de l'utilisateur qui a accès à l'abonnement Azure.
@@ -82,7 +82,7 @@ Pour permettre à l'application d'entreposage d'interagir avec un serveur Supply
 
 1. Dans la liste **Gérer**, cliquez sur **Certificat et secrets**. Sélectionnez ensuite l'un des boutons suivants, selon la façon dont vous souhaitez configurer l'application pour l'authentification. (Pour plus d'informations, consultez la section [Authentification à l'aide d'un certificat ou un secret client](#authenticate) plus loin dans cette rubrique.)
 
-    - **Télécharger le certificat** : Téléchargez un certificat à utiliser comme secret. Nous recommandons cette approche, car elle est plus sécurisée et peut également être automatisée plus complètement. Si vous exécutez l'application d'entreposage sur des appareils Windows, notez la valeur **Empreinte** affichée après le téléchargement du certificat. Vous aurez besoin de cette valeur lorsque vous configurerez le certificat sur les appareils Windows.
+    - **Télécharger le certificat** : Téléchargez un certificat à utiliser comme secret. Nous recommandons cette approche, car elle est plus sécurisée et peut également être automatisée plus complètement. Si vous exécutez l'application d'entrepôt sur des appareils Windows, notez la valeur **Empreinte** affichée après le téléchargement du certificat. Vous aurez besoin de cette valeur lorsque vous configurerez le certificat sur les appareils Windows.
     - **Nouveau secret client** : Créez une clé en saisissant une description et une durée dans la section **Mot de passe**, puis sélectionnez **Ajouter**. Faites une copie de la clé et conservez-la en lieu sûr.
 
     ![Certificat et secrets](media/app-connect-azure-authentication.png "Certificat et secrets")
@@ -99,7 +99,7 @@ Pour plus d'informations sur la configuration des applications de service Web da
 
 Pour permettre à Supply Chain Management d'utiliser votre application Azure AD, procédez comme suit.
 
-1. Créez un utilisateur qui correspond aux informations d'identification de l'utilisateur pour l'application d'entreposage :
+1. Créez un utilisateur qui correspond aux informations d'identification de l'utilisateur pour l'application d'entrepôt :
 
     1. Dans Supply Chain Management, accédez à **Administration du système \> Utilisateurs \> Utilisateurs**.
     1. Créez un utilisateur.
@@ -107,7 +107,7 @@ Pour permettre à Supply Chain Management d'utiliser votre application Azure AD,
 
     ![Attribuer l'utilisateur de l'appareil mobile d'entreposage](media/app-connect-app-users.png "Attribuer l'utilisateur de l'appareil mobile d'entreposage")
 
-1. Associez votre application Azure AD à l'utilisateur de l'application d'entreposage :
+1. Associez votre application Azure AD à l'utilisateur de l'application d'entrepôt :
 
     1. Accédez à **Administration système \> Paramétrage \> Applications Azure Active Directory**.
     1. Créez une ligne.
@@ -119,9 +119,9 @@ Pour permettre à Supply Chain Management d'utiliser votre application Azure AD,
 
 L'authentification avec Azure AD fournit un moyen sécurisé de connecter un appareil mobile à Supply Chain Management. Vous pouvez vous authentifier en utilisant un certificat ou un secret client. Si vous importez des paramètres de connexion, nous vous recommandons d'utiliser un certificat au lieu d'un secret client. Étant donné que le secret client doit toujours être stocké en toute sécurité, vous ne pouvez pas l'importer à partir d'un fichier de paramètres de connexion ou d'un code QR, comme décrit plus loin dans cette rubrique.
 
-Les certificats peuvent être utilisés comme secrets pour prouver l'identité de l'application lorsqu'un jeton est demandé. La partie publique du certificat est téléchargée dans l'inscription de l'application dans le portail Azure, tandis que le certificat complet doit être déployé sur chaque appareil sur lequel l'application d'entreposage est installée. Votre organisation est responsable de la gestion du certificat en termes de rotation, etc. Vous pouvez utiliser des certificats auto-signés, mais vous devez toujours utiliser des certificats non exportables.
+Les certificats peuvent être utilisés comme secrets pour prouver l'identité de l'application lorsqu'un jeton est demandé. La partie publique du certificat est téléchargée dans l'inscription de l'application dans le portail Azure, tandis que le certificat complet doit être déployé sur chaque appareil sur lequel l'application d'entrepôt est installée. Votre organisation est responsable de la gestion du certificat en termes de rotation, etc. Vous pouvez utiliser des certificats auto-signés, mais vous devez toujours utiliser des certificats non exportables.
 
-Vous devez rendre le certificat disponible localement sur chaque appareil sur lequel vous exécutez l'application d'entreposage. Pour plus d'informations sur la gestion des certificats pour les appareils contrôlés par Intune si vous utilisez Intune, consultez [Utiliser des certificats pour l'authentification dans Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Vous devez rendre le certificat disponible localement sur chaque appareil sur lequel vous exécutez l'application d'entrepôt. Pour plus d'informations sur la gestion des certificats pour les appareils contrôlés par Intune si vous utilisez Intune, consultez [Utiliser des certificats pour l'authentification dans Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurer l'application en important des paramètres de connexion
 
@@ -177,7 +177,7 @@ Vous pouvez soit enregistrer les informations sous forme de fichier JSON, soit g
 
 ### <a name="save-the-connection-settings-file-on-each-device"></a>Enregistrer le fichier des paramètres de connexion sur chaque appareil
 
-En règle générale, vous utiliserez un outil ou un script de gestion des périphériques pour distribuer les fichiers de paramètres de connexion à chaque périphérique que vous gérez. Si vous utilisez le nom et l'emplacement par défaut lorsque vous enregistrez le fichier de paramètres de connexion sur chaque appareil, l'application d'entreposage l'importera automatiquement, même lors de la première exécution après l'installation de l'application. Si vous utilisez un nom ou un emplacement personnalisé pour le fichier, l'utilisateur de l'application doit spécifier les valeurs lors de la première exécution. Cependant, l'application continuera à utiliser le nom et l'emplacement spécifiés par la suite.
+En règle générale, vous utiliserez un outil ou un script de gestion des périphériques pour distribuer les fichiers de paramètres de connexion à chaque périphérique que vous gérez. Si vous utilisez le nom et l'emplacement par défaut lorsque vous enregistrez le fichier de paramètres de connexion sur chaque appareil, l'application d'entrepôt l'importera automatiquement, même lors de la première exécution après l'installation de l'application. Si vous utilisez un nom ou un emplacement personnalisé pour le fichier, l'utilisateur de l'application doit spécifier les valeurs lors de la première exécution. Cependant, l'application continuera à utiliser le nom et l'emplacement spécifiés par la suite.
 
 Chaque fois que l'application est lancée, elle réimporte les paramètres de connexion depuis leur emplacement précédent pour déterminer s'il y a eu des modifications. L'application ne mettra à jour que les connexions portant les mêmes noms que les connexions du fichier de paramètres de connexion. Les connexions créées par l'utilisateur qui utilisent d'autres noms ne seront pas mises à jour.
 
@@ -197,7 +197,7 @@ Habituellement, les chemins sont créés automatiquement après la première ex�
 
 Suivez ces étapes pour importer les paramètres de connexion à partir d'un fichier ou d'un code QR.
 
-1. Ouvrez l'application d'entreposage sur votre appareil mobile.
+1. Ouvrez l'application d'entrepôt sur votre appareil mobile.
 1. Accédez à **Paramètres de connexion**.
 1. Définissez l'option **Utiliser le mode démo** sur _Non_.
 
@@ -226,7 +226,7 @@ Suivez ces étapes pour importer les paramètres de connexion à partir d'un fic
 
 Vous pouvez configurer manuellement l'application sur l'appareil pour qu'il se connecte au serveur Supply Chain Management via l'application Azure AD.
 
-1. Ouvrez l'application d'entreposage sur votre appareil mobile.
+1. Ouvrez l'application d'entrepôt sur votre appareil mobile.
 1. Accédez à **Paramètres de connexion**.
 1. Définissez l'option **Utiliser le mode démo** sur _Non_.
 

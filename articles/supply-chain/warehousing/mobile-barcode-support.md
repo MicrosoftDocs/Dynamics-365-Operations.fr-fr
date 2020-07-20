@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbaed4da3ccd17d83c002994f01829f76db0d36a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0612833391cf7690343b7180f11d49ba1ad92d24
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215744"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530441"
 ---
 # <a name="mobile-barcode-support"></a>Prise en charge mobile des codes-barres
 
@@ -31,7 +31,7 @@ ms.locfileid: "3215744"
 Comme Android est un projet en open source, tout fabricant de matériel pour les scanneurs de code-barres d'entrepôt peut fabriquer un périphérique pour exécuter le système d'exploitation Android. Un périphérique est compatible avec Android uniquement s'il peut exécuter des applications qui sont écrites pour l'environnement d'exécution Android.
 Toutefois, un fournisseur de matériel peut modifier et créer des superpositions de la version Android qui s'exécutent sur leur matériel. Microsoft ne peut pas être tenu responsable de s'assurer qu'une application de lecture de code-barres mobile pour Android est compatible avec le matériel de lecture du code-barres d'un fabricant et la version d'Android qui s'exécute sur celui-ci. 
 
-L'application Entreposage pour l'application Dynamics 365 Supply Chain Management - Entreposage a été testée avec une sélection d'appareils sous Android pour la lecture de codes-barres. Ces tests couvrent uniquement des exemples de périphériques disponibles sur le marché.
+L'application d'entrepôt de Dynamics 365 Supply Chain Management a été testée avec une sélection d'appareils sous Android pour la lecture de codes-barres. Ces tests couvrent uniquement des exemples de périphériques disponibles sur le marché.
 
 En tant que client, nous vous recommandons de tester l'application de lecture mobile Entreposage sur du matériel sélectionné avant de prendre une décision concernant le matériel à acheter.
 

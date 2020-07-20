@@ -3,7 +3,7 @@ title: Rapprochement de relevés bancaires à l'aide du rapprochement bancaire a
 description: La fonctionnalité de rapprochement bancaire avancé permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cette rubrique explique le processus de rapprochement.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177745"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497143"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Rapprochement de relevés bancaires à l'aide du rapprochement bancaire avancé
 
@@ -41,9 +41,9 @@ Vous pouvez télécharger un relevé bancaire qui contient des informations pour
 -   Pour importer un fichier de relevé bancaire unique pour un seul compte, définissez l'option **Importer le relevé bancaire pour plusieurs comptes bancaires dans toutes les entités juridiques** sur **Non** et sélectionnez le compte bancaire associé au relevé. Cliquez sur **Parcourir** pour sélectionner le fichier de relevé bancaire associé, puis cliquez sur **Télécharger**.
 -   Pour importer un fichier de relevé bancaire unique pour plusieurs comptes, définissez l'option **Importer le relevé bancaire pour plusieurs comptes bancaires dans toutes les entités juridiques** sur **Oui**. Cliquez sur **Parcourir** pour sélectionner le fichier de relevé bancaire associé, puis cliquez sur **Télécharger**.
 
-Si aucun relevé du fichier électronique ne peut être associé à un compte bancaire à l'aide de les champs d'identification, ils ne sont pas importés. Toutefois, les autres relevés du fichier peuvent encore être importés. L'utilisateur reçoit un message indiquant que l'importation des relevés bancaires était un échec pour des comptes bancaires spécifiques. Notez que l'utilisateur qui importe le fichier de relevé bancaire doit avoir accès à une entité juridique pour importer les relevés des comptes bancaires de cette entité juridique. 
+Si des relevés du fichier électronique ne peuvent pas être associés à un compte bancaire ou s'ils sont associés à plusieurs comptes bancaires l'aide des champs d'identification, ils ne seront pas importés. Toutefois, les autres relevés du fichier peuvent encore être importés. L'utilisateur reçoit un message indiquant que l'importation des relevés bancaires était un échec pour des comptes bancaires spécifiques. Notez que l'utilisateur qui importe le fichier de relevé bancaire doit avoir accès à une entité juridique pour importer les relevés des comptes bancaires de cette entité juridique. 
 
-Vous pouvez utiliser un fichier compressé pour télécharger plusieurs fichiers de relevé dans Finance en un seul processus. Pour importer plusieurs fichiers de relevé bancaire pour plusieurs comptes, combinez tous les fichiers de relevé bancaire en un seul fichier zip. Dans la boîte de dialogue **Importez les relevés bancaires**, définissez l'option **Importer le relevé bancaire pour plusieurs comptes bancaires dans toutes les entités juridiques** sur **Oui**. Cliquez sur **Parcourir** pour sélectionner le fichier zip contenant les fichiers de relevé bancaire, puis cliquez sur **Télécharger**. Le processus d'importation identifiera le fichier compressé et téléchargera chaque relevé inclus dans celui-ci, indépendamment de l'entité juridique du compte bancaire. 
+Vous pouvez utiliser un fichier compressé pour télécharger plusieurs fichiers de relevé dans Finance en un seul processus. Pour importer plusieurs fichiers de relevé bancaire pour plusieurs comptes, combinez tous les fichiers de relevé bancaire en un seul fichier zip. Dans la boîte de dialogue **Importez les relevés bancaires**, définissez l'option **Importer le relevé bancaire pour plusieurs comptes bancaires dans toutes les entités juridiques** sur **Oui**. Cliquez sur **Parcourir** pour sélectionner le fichier zip contenant les fichiers de relevé bancaire, puis cliquez sur **Télécharger**. Le processus d'importation identifiera le fichier compressé et téléchargera chaque relevé inclus dans celui-ci, indépendamment de l'entité juridique du compte bancaire.
 
 Une option **Rapprocher après importation** est disponible. Lorsque vous définissez cette option sur **Oui**, le système valide automatiquement le relevé bancaire, crée un nouveau rapprochement bancaire et une feuille de calcul et exécute l’ensemble de règles de correspondance par défaut quand le relevé bancaire est chargé. Cette fonctionnalité automatise le processus jusqu’au point où les transactions doivent être manuellement mises en correspondance.
 

@@ -1,9 +1,9 @@
 ---
 title: Délégation d'éléments de travail dans un workflow
 description: Si vous pensez vous absenter du bureau ou être dans l'incapacité d'agir sur des éléments de travail, vous pouvez déléguer ou réaffecter vos éléments de travail à d'autres utilisateurs.
-author: jasongre
+author: ChrisGarty
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/23/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: jasongre
+ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aceafbe8dfcdac2ac7b97a4f77a9a30599c60c51
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
+ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140580"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3515762"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Délégation d'éléments de travail dans un workflow
 
@@ -30,6 +30,16 @@ ms.locfileid: "3140580"
 ## <a name="manually-delegate-a-work-item"></a>Délégation manuelle d'un élément de travail
 
 Pour déléguer un élément de travail individuel, sélectionnez l'option **Déléguer** dans le menu **Workflow** puis entrez l'utilisateur à qui déléguer l'élément de travail en y ajoutant un commentaire. Cela réaffectera l'élément de travail à cet utilisateur afin qu'il puisse l'exécuter.
+
+## <a name="manually-delegate-multiple-work-items"></a>Délégation manuelle de plusieurs éléments de travail
+
+Plusieurs éléments de travail peuvent être délégués ensemble à partir de la page **Éléments de travail qui me sont affectés**. Les types de workflow suivants sont éligibles pour la délégation en masse : workflow d'approbation des contrats d'achat, workflow de commande fournisseur, révision de la demande d'achat et workflow de facture fournisseur. La fonctionnalité **Déléguer plusieurs éléments de travail** est désactivée par défaut et peut être activée dans **Espaces de travail > Gestion des fonctionnalités**. Contactez votre administrateur système pour obtenir de l'aide pour activer cette fonctionnalité.
+1.  Allez dans **Commun > Commun > Éléments de travail > Éléments de travail qui me sont affectés**.
+2.  Sélectionnez les éléments de travail qui seront délégués.
+3.  Cliquez sur le menu **Déléguer des éléments de travail**.
+4.  Dans le champ **Utilisateur**, sélectionnez l'utilisateur auquel déléguer les éléments de travail.
+5.  Dans le champ **Commentaire**, entrez un commentaire expliquant le motif de la délégation des éléments de travail.
+6.  Cliquez le bouton **Déléguer des éléments de travail** pour terminer la délégation des éléments de travail.
 
 ## <a name="automatically-delegate-work-items"></a>Déléguer automatiquement des éléments de travail
 

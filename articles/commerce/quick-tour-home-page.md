@@ -3,7 +3,7 @@ title: Vue d'ensemble de la page d'accueil
 description: Cette rubrique offre une vue d'ensemble de la page d'accueil dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025969"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527580"
 ---
-# <a name="overview-of-the-home-page"></a>Vue d'ensemble de la page d'accueil
-
+# <a name="home-page-overview"></a>Vue d'ensemble de la page d'accueil
 
 [!include [banner](includes/banner.md)]
 
@@ -69,10 +68,8 @@ La section principale de la page d'accueil peut mettre en évidence des produits
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble de la page d'arrivée de la catégorie par défaut et de la page des résultats de la recherche](category-search-page-overview.md)
+[Vue d'ensemble des pages de détails de produit](quick-tour-pdp.md)
 
-[Vue d'ensemble des pages de détails des produits](quick-tour-pdp.md)
+[Vue d'ensemble des pages de panier et de caisse](quick-tour-cart-checkout.md)
 
-[Vue d'ensemble des pages du panier et du paiement](quick-tour-cart-checkout.md)
-
-[Vue d'ensemble des pages de gestion de compte](quick-tour-account-management.md)
+[Vue d'ensemble des pages de gestion des comptes](quick-tour-account-management.md)

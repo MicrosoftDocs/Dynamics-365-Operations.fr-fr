@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: "Mises à jour de la plateforme pour 10.0.11 (juillet\_2020)"
                   href: get-started/whats-new-platform-update-35.md
-                - name: "Mises à jour de la plateforme pour 10.0.10 (mai\_2020)"
-                  href: get-started/whats-new-platform-update-34.md
             - name: Fonctions supprimées ou obsolètes
               items:
                 - name: Fonctions de plateforme supprimées ou obsolètes
@@ -436,7 +434,7 @@
                   href: deployment/cloud-deployment-overview.md
                 - name: Déploiement libre-service
                   items:
-                    - name: Vue d'ensemble de Déploiement libre service
+                    - name: Vue d'ensemble de Déploiement libre-service
                       href: deployment/infrastructure-stack.md
                     - name: Déployer un nouvel environnement
                       href: deployment/deployenvironment-newinfrastructure.md
@@ -713,9 +711,29 @@
                         - name: Événements
                           href: dev-ref/xpp-events.md
                     - name: Sélection et manipulation de données X++
-                      href: dev-ref/xpp-data-query.md
-                    - name: Accès aux données à l'aide de l'API SysDa
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: Vue d'ensemble de la sélection et de la manipulation de données X++
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: Sélectionner un relevé
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: Sélectionner des données
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: Insérer des données
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: Mettre à jour des données
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: Supprimer des données
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: Instruction While select
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: Écriture d'une instruction Select en tant qu'expression
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: Intégrité transactionnelle
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: Conversion des opérations de basé sur un ensemble à enregistrement par enregistrement
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: Accès aux données à l'aide de l'API SysDa
+                          href: dev-ref/sysda.md
                     - name: Macros X++
                       href: dev-ref/xpp-macros.md
                     - name: Classes d'attribut X++
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: Classes du système
                   items:
-                    - name: "Classes\_A"
-                      href: dev-ref/a-classes.md
-                    - name: "Classes\_B"
-                      href: dev-ref/b-classes.md
-                    - name: "Classes\_C"
-                      href: dev-ref/c-classes.md
-                    - name: "Classes\_D"
-                      href: dev-ref/d-classes.md
-                    - name: "Classes\_E"
-                      href: dev-ref/e-classes.md
-                    - name: Classes F (FieldBinding à FormBuildAnimateControl)
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: Classes F (FormBuildButtonControl à FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: Classes F (FormBuildFilterPaneControl à FormBuildRealControl)
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: Classes F (FormBuildReferenceControl à FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: Classes F (FormChangeTracker à FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: Classes F (FormDataObject à FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: Classes F (FormFastTabSummarySeparator à FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: Classes F (FormGroupControl à FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: Classes F (FormListBoxControl à FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: Classes F (FormObject à FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: Classes F (FormReferenceControl à FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: Classes F (FormTabControl à FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: "Classes\_G"
-                      href: dev-ref/g-classes.md
-                    - name: "Classes\_H"
-                      href: dev-ref/h-classes.md
-                    - name: "Classes\_I"
-                      href: dev-ref/i-classes.md
-                    - name: "Classes\_J"
-                      href: dev-ref/j-classes.md
-                    - name: "Classes\_K"
-                      href: dev-ref/k-classes.md
-                    - name: "Classes\_L"
-                      href: dev-ref/l-classes.md
-                    - name: "Classes\_M"
-                      href: dev-ref/m-classes.md
-                    - name: "Classes\_N"
-                      href: dev-ref/n-classes.md
-                    - name: "Classes\_O"
-                      href: dev-ref/o-classes.md
-                    - name: "Classes\_P"
-                      href: dev-ref/p-classes.md
-                    - name: "Classes\_Q"
-                      href: dev-ref/q-classes.md
-                    - name: "Classes\_R"
-                      href: dev-ref/r-classes.md
-                    - name: Classes S
-                      href: dev-ref/s-classes.md
-                    - name: "Classes\_T"
-                      href: dev-ref/t-classes.md
-                    - name: "Classes\_U"
-                      href: dev-ref/u-classes.md
-                    - name: "Classes\_V"
-                      href: dev-ref/v-classes.md
-                    - name: "Classes\_W"
-                      href: dev-ref/w-classes.md
-                    - name: "Classes\_X"
-                      href: dev-ref/x-classes.md
+                    - name: Liste des classes système
+                      href: dev-ref/system-classes/toc.yml
+                    - name: Classes système regroupées par ordre alphabétique
+                      items:
+                        - name: "Classes\_A"
+                          href: dev-ref/a-classes.md
+                        - name: "Classes\_B"
+                          href: dev-ref/b-classes.md
+                        - name: "Classes\_C"
+                          href: dev-ref/c-classes.md
+                        - name: "Classes\_D"
+                          href: dev-ref/d-classes.md
+                        - name: "Classes\_E"
+                          href: dev-ref/e-classes.md
+                        - name: "Classes\_F"
+                          href: dev-ref/f-classes.md
+                        - name: "Classes\_G"
+                          href: dev-ref/g-classes.md
+                        - name: "Classes\_H"
+                          href: dev-ref/h-classes.md
+                        - name: "Classes\_I"
+                          href: dev-ref/i-classes.md
+                        - name: "Classes\_J"
+                          href: dev-ref/j-classes.md
+                        - name: "Classes\_K"
+                          href: dev-ref/k-classes.md
+                        - name: "Classes\_L"
+                          href: dev-ref/l-classes.md
+                        - name: "Classes\_M"
+                          href: dev-ref/m-classes.md
+                        - name: "Classes\_N"
+                          href: dev-ref/n-classes.md
+                        - name: "Classes\_O"
+                          href: dev-ref/o-classes.md
+                        - name: "Classes\_P"
+                          href: dev-ref/p-classes.md
+                        - name: "Classes\_Q"
+                          href: dev-ref/q-classes.md
+                        - name: "Classes\_R"
+                          href: dev-ref/r-classes.md
+                        - name: Classes S
+                          href: dev-ref/s-classes.md
+                        - name: "Classes\_T"
+                          href: dev-ref/t-classes.md
+                        - name: "Classes\_U"
+                          href: dev-ref/u-classes.md
+                        - name: "Classes\_V"
+                          href: dev-ref/v-classes.md
+                        - name: "Classes\_W"
+                          href: dev-ref/w-classes.md
+                        - name: "Classes\_X"
+                          href: dev-ref/x-classes.md
             - name: Extensibilité
               items:
                 - name: Page d'accueil Extensibilité
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: "Exporter des utilisateurs\_B2B vers Azure AD"
               href: sysadmin/implement-b2b.md
+            - name: Automatisation des processus
+              href: sysadmin/process-automation.md
             - name: Sécurité
               items:
                 - name: Sécurité basée sur les rôles
@@ -1458,6 +1460,8 @@
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: Diagnostics de sécurité pour l'enregistrement des tâches
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Automatisation des processus
+              href: /sysadmin/process-automation.md
             - name: Traitement par lots
               items:
                 - name: Vue d'ensemble du traitement par lots
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: Mise à niveau d'AX 2012 - Mise à niveau des données dans des environnements de bac à sable
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: Mise à niveau d'AX 2012 - Environnements locaux
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Mise à niveau d'AX 2012 - Test de limite
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: Mise à niveau d'AX 2012 - Tâches postérieures à la mise à niveau

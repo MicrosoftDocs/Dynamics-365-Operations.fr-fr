@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346466"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530303"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Politique de réservation de dimension flexible au niveau de l'entrepôt
 
@@ -186,7 +186,7 @@ Pour cet exemple, il convient d'avoir des données de démonstration installées
 
     La quantité de **10** pour le numéro de lot **B11** est maintenant sélectionnée pour la ligne de commande client et placée dans l'empalcement **Baydoor**. À ce stade, le lot est prêt à être chargé dans le camion et expédié à l'adresse du client.
 
-## <a name="exception-handling-of-warehouse-work-thas-has-order-committed-batch-numbers"></a>Gestion des exceptions pour un travail d'entrepôt dont les numéros de lot sont validés par la commande
+## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Gestion des exceptions pour un travail d'entrepôt dont les numéros de lot sont validés par la commande
 
 Le travail d'entrepôt pour le prélèvement de numéros de lot validés par la commande est soumis à la même gestion et aux mêmes exceptions qu'un travail normal. En général, la ligne ou le travail ouvert peut être annulé, il peut être interrompu car un emplacement utilisateur est plein, il peut être sélectionné et il peut être mis à jour en raison d'un mouvement. De même, la quantité de travail sélectionnée déjà terminée peut être réduite ou le travail peut être inversé.
 
@@ -233,7 +233,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Emplacement de remplacement</strong> sur l'application d'entreposage lorsque vous commencez à choisir la tâche.</li>
+<li>Sélectionnez l'élément de menu <strong>Emplacement de remplacement</strong> sur l'application d'entrepôt lorsque vous commencez le travail de prélèvement.</li>
 <li>Sélectionnez <strong>Suggérer</strong>.</li>
 <li>Confirmez le nouvel emplacement suggéré en fonction de la disponibilité de la quantité de lots.</li>
 </ol>
@@ -250,7 +250,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>N°</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Emplacement de remplacement</strong> sur l'application d'entreposage lorsque vous commencez à choisir la tâche.</li>
+<li>Sélectionnez l'élément de menu <strong>Emplacement de remplacement</strong> sur l'application d'entrepôt lorsque vous commencez le travail de prélèvement.</li>
 <li>Entrez manuellement un emplacement.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Non applicable</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Complet</strong> sur l'application d'entreposage lorsque vous traitez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Complet</strong> sur l'application d'entrepôt lorsque vous traitez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Qté prélevée</strong>, entrez la quantité partielle de prélèvement requise pour indiquer la pleine capacité.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Démarrez un mouvement sur l'application d'entreposage.</li>
+<li>Démarrez un mouvement sur l'application d'entrepôt.</li>
 <li>Entrez les emplacements d'origine et de destination.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application d'entrepôt lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Nom</strong>, entrez <strong>Aucune imposition</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application d'entrepôt lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Nom</strong>, entrez <strong>Aucune imposition</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application d'entrepôt lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 <li>Sélectionnez l'emplacement / le contenant dans la liste.</li>
@@ -548,7 +548,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>N°</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application d'entrepôt lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 </ol>
@@ -561,7 +561,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>N°</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application d'entrepôt lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 <li>Sélectionnez l'emplacement / le contenant dans la liste.</li>
@@ -585,7 +585,7 @@ Les tableaux suivants fournissent une vue d'ensemble qui montre comment le syst�
 <td>Non applicable</td>
 <td>
 <ol>
-<li>Sélectionnez l'élément de menu <strong>Prélever partiellement une quantité</strong> sur l'application d'entreposage lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l'élément de menu <strong>Prélèvement partiel</strong> sur l'application d'entrepôt lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation automatique</strong>.</li>
 </ol>

@@ -74,8 +74,6 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: "Supply Chain Management\_10.0.11 (juillet\_2020)"
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: "Supply Chain Management\_10.0.10 (mai\_2020)"
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Fonctions supprimées ou obsolètes
                   items:
                     - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
@@ -2565,192 +2563,230 @@
           items:
             - name: Vue d'ensemble de gestion des entrepôts
               href: warehousing/warehouse-management-overview.md
-            - name: Configuration de l'entrepôt
+            - name: Opérations d'entrepôt entrantes
               items:
-                - name: Vue d'ensemble de configuration de l'entrepôt
-                  href: warehousing/warehouse-configuration.md
-                - name: Paramétrer un entrepôt à l'aide d'un modèle de configuration d'entrepôt
-                  href: inventory/warehouse-template.md
-                - name: Travail de contrôle à l'aide de modèles de travail et d'instructions d'emplacement
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: Codes étape de vague
-                  href: warehousing/wave-step-codes.md
-                - name: Configurer le traitement de la vague
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: Mettre à jour automatiquement les expéditions
-                  href: warehousing/auto-update-shipment.md
-                - name: Créer un profil d'emplacement
-                  href: warehousing/tasks/create-location-profile.md
-                - name: Configurer des emplacements dans un entrepôt compatible WMS
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: Programmer l'utilisation du chargement
-                  href: warehousing/schedule-load-utilization.md
-                - name: Planifier la capacité de charge de travail
-                  href: warehousing/schedule-workload-capacity.md
-                - name: Paramétrer les codes disposition
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: Stratégies d'unité de mesure et de stockage
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: Contenu Power BI de l'entrepôt
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: Regroupement système sur une liste des travaux en cours
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: Mise en page d'acheminement de document pour les étiquettes de contenant
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: Scanner des codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Prise en charge mobile des codes-barres
-                  href: warehousing/mobile-barcode-support.md
-                - name: Paramétrage d'un entrepôt pour les ordres de transfert
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: Réservations dans la gestion des entrepôts
+                - name: Réceptions pour l'enregistrement et le rangement
+                  items:
+                    - name: Gestion en entrepôt des chargements entrants pour les commandes fournisseur
+                      href: warehousing/inbound-load-handling.md
+                    - name: Enregistrer des articles pour un article activé pour l'entreposage avancé à l'aide d'un journal des arrivées d'articles
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: Produits croisés entre l'entrepôt de réception et les magasins
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: Paramétrer un modèle de travail pour les commandes fournisseur
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: Mélange de dimensions de produit d'emplacement
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: Opérations d'entrepôt sortantes
               items:
-                - name: Stratégie flexible de réservation de dimension au niveau de l'entrepôt
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: Stratégies de travail d'entrepôt
-              items:
-                - name: Vue d'ensemble des stratégies de travail d'entrepôt
-                  href: warehousing/warehouse-work-policies.md
-                - name: Paramétrer des stratégies de travail d'entrepôt
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: Mouvements de stock avec le travail associé dans la gestion d'entrepôt
-                  href: warehousing/move-inventory-associated-work.md
-                - name: Créer une classe de travail
-                  href: warehousing/tasks/create-work-class.md
-                - name: Gestion des magasiniers
-                  href: warehousing/manage-warehouse-workers.md
-                - name: Traitement différé du travail d'entrepôt
-                  href: warehousing/deferred-put.md
-            - name: Cross-docking
-              items:
-                - name: Cross-docking des ordres de fabrication aux quais d’expédition
-                  href: production-control/cross-docking-opportunities.md
-                - name: Lancement automatique de l'expédition pour le cross-docking
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: Lancement partiel et expédition partielle
-              items:
-                - name: Expédition partielle d'un chargement de transport
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: Lancement par lots d'ordres de transfert partiellement réservés
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: Prélèvement et conditionnement
-              items:
-                - name: Paramétrer le prélèvement du groupement
-                  href: warehousing/set-up-cluster-picking.md
-                - name: Paramétrer la mise en conteneur
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: Confirmation du contenant et du lot
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: Activer l'impression d'étiquette de contenant
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: Scanner des codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Confirmation de prélèvement de pièces
-                  href: warehousing/piece-picking-confirmation.md
-                - name: Matières d'emballage et frais
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: "Paramétrer l'emballage manuel (février et mai\_2016 uniquement)"
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: Paramétrer la réaffectation des articles pour les prélèvements partiels
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: Annuler le travail d'entrepôt pour la gestion des exceptions
-                  href: warehousing/cancel-warehouse-work.md
-                - name: Prélèvement de groupement dirigé par le système
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: Regroupement des lignes de prélèvement
-                  href: warehousing/pick-line-grouping.md
-            - name: Inventaire de stock
-              items:
-                - name: Codes motif d'inventaire de stock
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: Bloquer le stock
-                  href: inventory/inventory-blocking.md
-                - name: Inventaire tournant
-                  href: warehousing/cycle-counting.md
-                - name: Définir l'inventaire tournant
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: Inventaire tournant de l'emplacement partiel
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: Définir le processus d'inventaire tournant partiel d'emplacement
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: Travail de nettoyage des entrées disponibles de la gestion d'entrepôt
-                  href: warehousing/onhand-cleanup.md
-                - name: Journal de stock
-                  href: inventory/inventory-journals.md
-                - name: Emplacement de stockage
-                  href: inventory/inventory-locations.md
-                - name: Statut du stock
-                  href: inventory/inventory-statuses.md
-                - name: Comptage des balises de stock
-                  href: inventory/inventory-tag-counting.md
-            - name: Réapprovisionnement
-              items:
-                - name: Vue d'ensemble de réapprovisionnement
-                  href: warehousing/replenishment.md
-                - name: Réapprovisionnement immédiat
-                  href: warehousing/immediate-replenishment.md
-                - name: Réapprovisionnement avec des kanbans de prélèvement
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: Paramétrer un processus de réapprovisionnement minimum/maximum
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: Installer et configurer l'application d'entreposage
-              items:
-                - name: Installer et connecter l'application d'entreposage
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: Configurer des noms de champs dans l'application d'entreposage
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: Configurer des appareils mobiles pour le travail d'entrepôt
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Réception du contenant avec l'application Entrepôt
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: Paramétrer une option de menu d'appareil mobile pour terminer le travail d'une commande fournisseur
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: Paramétrer une option de menu d'appareil mobile pour enregistrer les articles reçus
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: Créer une option de menu pour appareil mobile pour la consolidation de contenants
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: Réception d'un contenant mixte sur un appareil mobile
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: Configurer des lots plus anciens d'affichage dans l'entrepôt sur un appareil mobile
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: Prélever le lot le plus ancien sur un appareil mobile
-                  href: warehousing/pick-oldest-batch.md
-                - name: Traiter la structure du guide
-                  href: warehousing/process-guide-framework.md
-            - name: Mise à niveau et migration
-              items:
-                - name: "Mettre à niveau les processus de gestion des entrepôts depuis Microsoft Dynamics AX\_2012 vers Finance and Operations"
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: Réceptions pour l'enregistrement et le rangement
-              items:
-                - name: Gestion en entrepôt des chargements entrants pour les commandes fournisseur
-                  href: warehousing/inbound-load-handling.md
-                - name: Enregistrer des articles pour un article activé pour l'entreposage avancé à l'aide d'un journal des arrivées d'articles
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Produits croisés entre l'entrepôt de réception et les magasins
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Paramétrer un modèle de travail pour les commandes fournisseur
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: Stratégies de consolidation de l'expédition
-              items:
+                - name: Réservations dans la gestion des entrepôts
+                  items:
+                    - name: Stratégie flexible de réservation de dimension au niveau de l'entrepôt
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Lancement partiel et expédition partielle
+                  items:
+                    - name: Expédition partielle d'un chargement de transport
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: Lancement par lots d'ordres de transfert partiellement réservés
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: Prélèvement et conditionnement
+                  items:
+                    - name: Paramétrer le prélèvement du groupement
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: Paramétrer la mise en conteneur
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: Confirmation du contenant et du lot
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: Activer l'impression d'étiquette de contenant
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Scanner des codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Confirmation de prélèvement de pièces
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: Matières d'emballage et frais
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: "Paramétrer l'emballage manuel (février et mai\_2016 uniquement)"
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Paramétrer la réaffectation des articles pour les prélèvements partiels
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: Annuler le travail d'entrepôt pour la gestion des exceptions
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: Prélèvement de groupement dirigé par le système
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: Classement des travaux dirigés par le système
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: Regroupement des lignes de prélèvement
+                      href: warehousing/pick-line-grouping.md
+                    - name: Créneaux de l'entrepôt
+                      href: warehousing/warehouse-slotting.md
+                - name: Réapprovisionnement
+                  items:
+                    - name: Vue d'ensemble de réapprovisionnement
+                      href: warehousing/replenishment.md
+                    - name: Réapprovisionnement immédiat
+                      href: warehousing/immediate-replenishment.md
+                    - name: Réapprovisionnement avec des kanbans de prélèvement
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: Paramétrer un processus de réapprovisionnement minimum/maximum
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: Réapprovisionnement du seuil de zone
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: Création de chargement et expéditions
+                  items:
+                    - name: Confirmation et transfert
+                      href: warehousing/confirm-and-transfer.md
+                    - name: Création de chargement avancée pendant une vague
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: Validation de la règle d'entrepôt
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: Regroupement de modèles de vague
+                      href: warehousing/wave-template-grouping.md
                 - name: Stratégies de consolidation de l'expédition
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: Configurer les stratégies de consolidation de l'expédition
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: Scénario 1 - Consolider les expéditions lorsqu'elles sont transmises à l'entrepôt à l'aide du lancement automatique des commandes client
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: Scénario 2 - Consolider les expéditions lorsque la stratégie de consolidation de l'expédition est remplacée à partir de la page Libération dans l'entrepôt
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: Scénario 3 - Consolider les expéditions à l'aide de page Libération dans l'entrepôt à partir de l'atelier de planification des chargements
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: Scénario 4 - Consolider les expéditions à l'aide de l'atelier de consolidation d'expédition
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: Scénario 5 - Consolider les expéditions manuellement à l'aide de la page Consolider les expéditions
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: Stratégies de consolidation de l'expédition
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: Configurer les stratégies de consolidation de l'expédition
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: Scénario 1 - Consolider les expéditions lorsqu'elles sont transmises à l'entrepôt à l'aide du lancement automatique des commandes client
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: Scénario 2 - Consolider les expéditions lorsque la stratégie de consolidation de l'expédition est remplacée à partir de la page Libération dans l'entrepôt
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: Scénario 3 - Consolider les expéditions à l'aide de page Libération dans l'entrepôt à partir de l'atelier de planification des chargements
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: Scénario 4 - Consolider les expéditions à l'aide de l'atelier de consolidation d'expédition
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: Scénario 5 - Consolider les expéditions manuellement à l'aide de la page Consolider les expéditions
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: Opérations dans l'entrepôt
+              items:
+                - name: Stratégies de travail d'entrepôt
+                  items:
+                    - name: Vue d'ensemble des stratégies de travail d'entrepôt
+                      href: warehousing/warehouse-work-policies.md
+                    - name: Paramétrer des stratégies de travail d'entrepôt
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: Mouvements de stock avec le travail associé dans la gestion d'entrepôt
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: Créer une classe de travail
+                      href: warehousing/tasks/create-work-class.md
+                    - name: Gestion des magasiniers
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: Traitement différé du travail d'entrepôt
+                      href: warehousing/deferred-put.md
+                - name: Cross-docking
+                  items:
+                    - name: Cross-docking des ordres de fabrication aux quais d’expédition
+                      href: production-control/cross-docking-opportunities.md
+                    - name: Lancement automatique de l'expédition pour le cross-docking
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: Cross-docking planifié
+                      href: warehousing/planned-cross-docking.md
+                - name: Inventaire de stock
+                  items:
+                    - name: Codes motif d'inventaire de stock
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: Bloquer le stock
+                      href: inventory/inventory-blocking.md
+                    - name: Inventaire tournant
+                      href: warehousing/cycle-counting.md
+                    - name: Définir l'inventaire tournant
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: Inventaire tournant de l'emplacement partiel
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: Définir le processus d'inventaire tournant partiel d'emplacement
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Travail de nettoyage des entrées disponibles de la gestion d'entrepôt
+                      href: warehousing/onhand-cleanup.md
+                    - name: Journal de stock
+                      href: inventory/inventory-journals.md
+                    - name: Emplacement de stockage
+                      href: inventory/inventory-locations.md
+                    - name: Statut du stock
+                      href: inventory/inventory-statuses.md
+                    - name: Comptage des balises de stock
+                      href: inventory/inventory-tag-counting.md
+                - name: Travail d'entrepôt
+                  items:
+                    - name: Détails de la ligne de travail
+                      href: warehousing/work-line-details.md
+                    - name: Positionnement des contenants d'emplacement
+                      href: warehousing/location-license-plate-positioning.md
+            - name: Définition d'entrepôt
+              items:
+                - name: Configuration de l'entrepôt
+                  items:
+                    - name: Vue d'ensemble de configuration de l'entrepôt
+                      href: warehousing/warehouse-configuration.md
+                    - name: Paramétrer un entrepôt à l'aide d'un modèle de configuration d'entrepôt
+                      href: inventory/warehouse-template.md
+                    - name: Travail de contrôle à l'aide de modèles de travail et d'instructions d'emplacement
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: Codes étape de vague
+                      href: warehousing/wave-step-codes.md
+                    - name: Configurer le traitement de la vague
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Mettre à jour automatiquement les expéditions
+                      href: warehousing/auto-update-shipment.md
+                    - name: Créer un profil d'emplacement
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: Configurer des emplacements dans un entrepôt compatible WMS
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: Statut de l'emplacement de l'entrepôt
+                      href: warehousing/warehouse-location-status.md
+                    - name: Zones d'emplacement supplémentaires
+                      href: warehousing/additional-location-zones.md
+                    - name: Planifier l'utilisation du chargement
+                      href: warehousing/schedule-load-utilization.md
+                    - name: Planifier la capacité de charge de travail
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: Paramétrer les codes disposition
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: Stratégies d'unité de mesure et de stockage
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: Contenu Power BI de l'entrepôt
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: Regroupement système sur une liste des travaux en cours
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: Mise en page d'acheminement de document pour les étiquettes de contenant
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: Scanner des codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Prise en charge mobile des codes-barres
+                      href: warehousing/mobile-barcode-support.md
+                    - name: Paramétrage d'un entrepôt pour les ordres de transfert
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: Installer et configurer l'application d'entreposage
+                  items:
+                    - name: Installer et connecter l'application d'entreposage
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Configurer les noms de champs dans l'application d'entreposage
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Configurer les appareils mobiles pour le travail d'entrepôt
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Réception du contenant avec l'application d'entreposage
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Paramétrer une option de menu d'appareil mobile pour terminer le travail d'une commande fournisseur
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Paramétrer une option de menu d'appareil mobile pour enregistrer les articles reçus
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Créer une option de menu pour appareil mobile pour la consolidation de contenants
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Réception d'un contenant mixte sur un appareil mobile
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Configurer des lots plus anciens d'affichage dans l'entrepôt sur un appareil mobile
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Prélever le lot le plus ancien sur un appareil mobile
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Traiter la structure du guide
+                      href: warehousing/process-guide-framework.md
+                - name: Mise à niveau et migration
+                  items:
+                    - name: "Mettre à niveau les processus de gestion des entrepôts depuis Microsoft Dynamics AX\_2012 vers Finance and Operations"
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Développement de Supply Chain Management
           items:
             - name: Guide de développement du contrôle Gantt

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261465"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505632"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurations visuelles de l'interface utilisateur de PDV
 
@@ -101,7 +101,7 @@ Au démarrage, l'application POS sélectionne automatiquement la taille la plus 
 > [!TIP]
 > Vous pouvez déterminer la taille de mise en page requise pour un écran POS en affichant la résolution dans l'application. Démarrez le POS, puis accédez à **Paramètres \> Informations de session**. POS affiche la mise en page d'écran actuellement chargée, la taille de mise en page et la résolution de la fenêtre d'application.
 
-![Tailles de mise en page du POS](../commerce/media/POS-Session-Information.png)
+![Page d'informations sur la session du PDV qui affiche la mise en page d'écran actuellement chargée, la taille de mise en page et la résolution de la fenêtre d'application](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Groupes de boutons
 

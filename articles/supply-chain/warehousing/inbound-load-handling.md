@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261328"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530579"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
@@ -66,7 +66,7 @@ Lorsqu'un chargement entrant arrive pour la première fois dans l'entrepôt, les
 
 - **Un menu d'appareil mobile configuré pour prendre en charge la réception du chargement**
 
-    L'[application Entrepôts - Dynamics 365 for Finance and Operations](install-configure-warehousing-app.md) pour les appareils mobiles prend en charge les processus de création de travail suivants :
+    L'[application d'entrepôt](install-configure-warehousing-app.md) pour les appareils mobiles prend en charge les processus de création de travail suivants :
 
     - Réception des articles du chargement
     - Réception et rangement des articles du chargement
@@ -285,7 +285,7 @@ Pour utiliser ces scénarios à l'aide des exemples d'enregistrements et de vale
 
 Avant que les commis de réception d'entrepôt puissent utiliser un appareil mobile pour enregistrer le stock entrant lié à un chargement, vous devez créer une option de menu d'appareil mobile à cet effet.
 
-Dans cette section, vous allez créer une option de menu d'appareil mobile et l'ajouter à un menu existant. Un commis d'entrepôt peut ensuite sélectionner l'option de menu dans l'application Entrepôt.
+Dans cette section, vous allez créer une option de menu d'appareil mobile et l'ajouter à un menu existant. Un magasinier peut ensuite sélectionner l'option de menu dans l'application d'entrepôt.
 
 1. Accédez à **Gestion des entrepôts \> Configurer \> Appareil mobile \> Options de menu d'appareil mobile** et assurez-vous que le menu de votre appareil mobile comprend un élément de menu qui présente les paramètres suivants :
 

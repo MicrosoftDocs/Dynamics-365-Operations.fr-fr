@@ -3,7 +3,7 @@ title: Fonctions supprimées ou obsolètes dans les versions précédentes
 description: Cette rubrique décrit les fonctionnalités qui ont été supprimées ou dont la suppression de Dynamics 365 for Finance and Operations était planifiée et les versions précédentes de ce produit.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
+ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284012"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3500410"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctions supprimées ou obsolètes dans les versions précédentes
 
@@ -588,9 +588,9 @@ eGiro s'appuie sur la norme internationale EDIFACT CREMUL (Avis de crédit multi
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Le format de paiement n'est plus utilisé.                                                     |
-| **Remplacé par une autre fonctionnalité ?**   | N° Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, l'importation de la notification ISO20022 Camt.054. |
 | **Zones de produit affectées**         | Module Comptabilité client                                                                       |
-| **Statut**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.                            |
+| **État**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.                            |
 
 ### <a name="external-inventory-for-poland"></a>Stock externe pour la Pologne
 
@@ -621,9 +621,9 @@ Vous pouvez sélectionner un format d'importation pour les paiements finlandais 
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Le format de paiement n'est plus utilisé.                                                     |
-| **Remplacé par une autre fonctionnalité ?**   | N° Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, l'importation de la notification ISO20022 Camt.054. |
 | **Zones de produit affectées**         | Module Comptabilité client                                                                       |
-| **Statut**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.                            |
+| **État**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.                            |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importation des transactions de paiement dans un journal de comptabilité pour la Finlande
 
@@ -632,9 +632,9 @@ Un format qui est spécifique à la Finlande est utilisé pour importer les tran
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Le format de paiement n'est plus utilisé.                                                     |
-| **Remplacé par une autre fonctionnalité ?**   | N° Le format sera remplacé par les formats d'importation des relevés ISO 20022 dans les versions futures. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, l'importation du relevé bancaire ISO20022 Camt.053 à l'aide du rapprochement bancaire avancé. |
 | **Zones de produit affectées**         | Module Comptabilité client                                                                       |
-| **Statut**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.                            |
+| **État**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.                            |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>L'intégration à Isabel synchronized (CIS) pour la Belgique
 
@@ -698,9 +698,9 @@ Les formats Telehansa et TeleTeenus sont utilisés pour l'importation de paiemen
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Les formats de paiement ne sont plus utilisés.                                                    |
-| **Remplacé par une autre fonctionnalité ?**   | Non. Les formats seront remplacés par les formats d'importation des relevés ISO 20022 dans les versions futures. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, l'importation de la notification bancaire ISO20022 Camt.054. |
 | **Zones de produit affectées**         | Module Comptabilité client                                                                        |
-| **Statut**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.                             |
+| **État**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.                             |
 
 ### <a name="payroll-information-in-human-resources"></a>Informations sur les salaires dans le module Ressources humaines
 
@@ -784,7 +784,7 @@ Les formats de paiement Telepay incluent l'exportation de paiement fournisseur (
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Les formats de paiement ne sont plus utilisés.                                                        |
-| **Remplacé par une autre fonctionnalité ?**   | Oui, le format de paiement de transfert de crédit ISO20022 et le format de paiement client AvtaleGiro pour la Norvège |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, le format de paiement par virement ISO20022 et le format de paiement client AvtaleGiro pour la Norvège, ainsi que l'importation des fichiers de retour de notification bancaire pain.002 et camt.054. |
 | **Zones de produit affectées**         | Comptabilité fournisseur, Comptabilité client                                                          |
 | **Statut**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.                                 |
 
@@ -1125,14 +1125,14 @@ La génération de notes préliminaires ne peut pas être effectuée à l'aide d
 | **Zones de produit affectées**         | Tous les modules  |
 | **Statut**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction. |
 
-### <a name="german-dtazv-payment-format"></a>Format de paiement DTAZV allemand
+### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Format de paiement DTAZV allemand en devise nationale
 
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | Le format ne s'applique plus en Allemagne, car il a été remplacé par la fonctionnalité SEPA. |
 | **Remplacé par une autre fonctionnalité ?**   | Exportation des paiements SEPA    |
-| **Zones de produit affectées**         | Tous les modules   |
-| **Statut**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.    |
+| **Zones de produit affectées**         | Module Comptabilité fournisseur   |
+| **État**                         | Déconseillé : une date de suppression n'a pas été définie pour cette fonction.    |
 
 ### <a name="german-mt940-import"></a>Importation du MT940 allemand
 
