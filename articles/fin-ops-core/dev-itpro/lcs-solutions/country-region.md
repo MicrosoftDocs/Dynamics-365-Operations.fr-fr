@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812086"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598179"
 ---
 # <a name="globalization-resources"></a>Ressources de globalisation
 
 ## <a name="local-and-regional-deployments"></a>Déploiements locaux et régionaux
 Si vos réglementations gouvernementales nécessitent que les données soient stockées ou gérées différemment de ce qui est requis pour d'autres pays/régions, il se peut que vous deviez tenir compte de certaines exigences du pays/de la région lors du déploiement. Tenez compte des ressources suivantes susceptibles de vous concerner :
 
-[Applications Microsoft Dynamics 365 Finance and Operations exploitées par 21Vianet en Chine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Applications Finance and Operations exploitées par 21Vianet en Chine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Fonctions de localisation et de réglementation
 
 [!include [banner](../includes/banner.md)]
 
-Les applications Dynamics 365 Finance and Operations incluent une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité pour la localisation et la traduction du produit](https://aka.ms/dynamics_365_international_availability_deck). Cette fonctionnalité est activée en fonction de l'adresse principale de l'entité juridique active. 
+Les applications Finance and Operations incluent une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité pour la localisation et la traduction du produit](https://aka.ms/dynamics_365_international_availability_deck). Cette fonctionnalité est activée en fonction de l'adresse principale de l'entité juridique active. 
 
 Cette rubrique liste des ressources utiles pour effectuer ce qui suit : 
 - En savoir plus sur le développement de solutions spécifiques à des pays/régions.
@@ -64,13 +64,13 @@ Les ressources suivantes fournissent des informations sur les nouvelles fonction
 -   [Soumettre des alertes concernant les fonctions de réglementation spécifiques à un pays/une région](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Programmes de publication de Dynamics 365
-Les [Programmes de publication de Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) fournissent des descriptions des fonctionnalités, nouvelles et améliorées, planifiées pour les applications d'entreprise et les plateformes d'application Dynamics 365. 
+Les [Programmes de publication de Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) fournissent des descriptions des fonctionnalités nouvelles et améliorées, planifiées pour les applications d’entreprise et les plateformes d’application Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Nouveautés des applications Finance and Operations
-La [page d'accueil Nouveautés ou modifications dans Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) répertorie les fonctionnalités incluses dans des versions spécifiques des applications Finance and Operations.
+La [page d’accueil Nouveautés ou modifications de Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) répertorie les fonctionnalités qui sont incluses dans des versions spécifiques des applications Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Gestion des états électroniques
-L'outil de gestion des états électroniques (ER) vous permet de configurer des formats électroniques conformes aux obligations légales de différents pays/régions. Il vous permet de gérer ces formats au cours de tout leur cycle de vie. Pour plus d'informations, voir l'une des rubriques suivantes :
+L’outil de gestion des états électroniques (ER) vous permet de configurer des formats électroniques conformes aux obligations légales de différents pays/régions. Il vous permet de gérer ces formats au cours de tout leur cycle de vie. Pour plus d'informations, voir l'une des rubriques suivantes :
 -   [Vue d'ensemble des états électroniques](../analytics/general-electronic-reporting.md)
 -   [Gérer le cycle de vie de la configuration des états électroniques](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Créer des configurations de gestion des états électroniques](../analytics/electronic-reporting-configuration.md)
