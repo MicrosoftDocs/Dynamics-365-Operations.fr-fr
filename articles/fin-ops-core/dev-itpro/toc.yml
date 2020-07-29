@@ -1434,8 +1434,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: "Exporter des utilisateurs\_B2B vers Azure AD"
               href: sysadmin/implement-b2b.md
-            - name: Automatisation des processus
-              href: sysadmin/process-automation.md
             - name: Sécurité
               items:
                 - name: Sécurité basée sur les rôles
@@ -1458,13 +1456,19 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Affecter des utilisateurs à des rôles de sécurité
                   href: sysadmin/tasks/assign-users-security-roles.md
-                - name: Diagnostics de sécurité pour l'enregistrement des tâches
+                - name: Importer ou exporter une configuration de sécurité personnalisée à l’aide de la Gestion des données
+                  href: sysadmin/import-export-customized-security.md
+                - name: Diagnostics de sécurité pour les enregistrements de tâche
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: Stratégies de sécurité des données extensibles
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: Création d’une stratégie de sécurité
+                  href: sysadmin/create-simple-security-policy.md
             - name: Automatisation des processus
-              href: /sysadmin/process-automation.md
+              href: sysadmin/process-automation.md
             - name: Traitement par lots
               items:
-                - name: Vue d'ensemble du traitement par lots
+                - name: Vue d’ensemble du traitement par lots
                   href: sysadmin/batch-processing-overview.md
                 - name: Traitement par lots et serveurs de traitement par lots
                   href: sysadmin/batch-server-overview.md
@@ -1582,7 +1586,7 @@
               items:
                 - name: Processus de déplacement vers la dernière mise à jour
                   href: migration-upgrade/upgrade-latest-update.md
-                - name: Chemins vers une version
+                - name: Chemins vers One Version
                   items:
                     - name: Mise à niveau en libre-service vers la version la plus récente
                       href: migration-upgrade/self-service-upgrade.md
@@ -1670,7 +1674,7 @@
                   href: user-interface/check-box-tree-controls.md
                 - name: Options de filtrage
                   href: user-interface/filtering.md
-                - name: Contrôle d'hôte PowerApps
+                - name: Contrôle d'hôte Power Apps
                   href: user-interface/powerapps-host-control.md
             - name: Gestion des fenêtres
               items:

@@ -8,11 +8,11 @@
           items:
             - name: Avant d'acheter
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
-            - name: Mises à jour de service à une version
+            - name: Mises à jour du service One Version
               items:
-                - name: Vue d'ensemble des mises à jour de service à une version
+                - name: Vue d'ensemble des mises à jour du service One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: FAQ sur les mises à jour de service à une version
+                - name: FAQ sur les mises à jour du service One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
                 - name: "Stratégie du cycle de vie de logiciel\_: Cloud"
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
@@ -32,23 +32,23 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Automatisation des tâches de données
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: Fournir des solutions pour fournisseurs de logiciels indépendants à l'aide d'une version
+                - name: Fournir des solutions pour fournisseurs de logiciels indépendants à l'aide de One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
-                - name: Créer et automatiser les tests d'acceptation par l'utilisateur
+                - name: Créer et automatiser les tests d’acceptation par l’utilisateur
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Configurer un environnement d'évaluation Dynamics 365 Commerce
+            - name: Paramétrer un environnement d’évaluation Dynamics 365 Commerce
               items:
-                - name: Vue d'ensemble d'un environnement d'évaluation Dynamics 365 Commerce
+                - name: Vue d’ensemble d’un environnement d’évaluation Dynamics 365 Commerce
                   href: cpe-overview.md
-                - name: Mettre en service un environnement d'évaluation Dynamics 365 Commerce
+                - name: Mettre en service un environnement d’évaluation Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Configurer un environnement d'évaluation Dynamics 365 Commerce
+                - name: Configurer un environnement d’évaluation Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: Configurer le BOPIS dans un environnement Dynamics 365 Commerce
+                - name: Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce
+                - name: Configurer des fonctionnalités facultatives pour un environnement d’évaluation Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: FAQ relative à l'environnement d'évaluation Dynamics 365 Commerce
+                - name: FAQ des environnements d’évaluation Dynamics 365 Commerce
                   href: cpe-faq.md
             - name: Considérations relatives au déploiement
               items:
@@ -72,6 +72,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Applications Finance and Operations en France
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: Obtenir de l’aide pour Dynamics 365 Commerce
+              href: retail-support.md
             - name: Mise à niveau et assistance N-1
               items:
                 - name: Mise à niveau et prise en charge N-1 pour Commerce
@@ -188,10 +190,12 @@
           items:
             - name: Architecture
               items:
-                - name: Vue d'ensemble architecturale de Dynamics 365 Commerce
+                - name: Vue d’ensemble architecturale de Dynamics 365 Commerce
                   href: commerce-architecture.md
-                - name: Flux d'authentification de Dynamics 365 Commerce
+                - name: Flux d’authentification de Dynamics 365 Commerce
                   href: arch-auth-flow.md
+                - name: Conditions requises pour le contrôle de version du composant Dynamics 365 Commerce
+                  href: arch-component-versioning.md
                 - name: Architecture de Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: Sélectionner une topologie en magasin
@@ -1984,13 +1988,15 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Partager des états entre des modules
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Paramètres du cache des actions de données
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: Remplacement des actions de données
                       href: e-commerce-extensibility/data-action-overrides.md
-                    - name: Crochets d'action de données
+                    - name: Crochets d’action de données
                       href: e-commerce-extensibility/data-action-hooks.md
                 - name: Développer des thèmes
                   items:
-                    - name: Vue d'ensemble de la création de thèmes
+                    - name: Vue d’ensemble de la création de thèmes
                       href: e-commerce-extensibility/theming.md
                     - name: Créer un thème
                       href: e-commerce-extensibility/create-theme.md

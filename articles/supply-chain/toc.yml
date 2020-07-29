@@ -10,11 +10,11 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Souscrire des abonnements d'aperçu
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Mises à jour de service à une version
+            - name: Mises à jour du service One Version
               items:
-                - name: Vue d'ensemble des mises à jour de service à une version
+                - name: Vue d'ensemble des mises à jour du service One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: FAQ sur les mises à jour de service à une version
+                - name: FAQ sur les mises à jour du service One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: "Stratégie du cycle de vie de logiciel\_: Cloud"
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Automatisation des tâches de données
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Fournir des solutions pour fournisseurs de logiciels indépendants à l'aide d'une version
+                - name: Fournir des solutions pour fournisseurs de logiciels indépendants à l'aide de One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Créer et automatiser les tests d'acceptation par l'utilisateur
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -74,6 +74,8 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: "Supply Chain Management\_10.0.11 (juillet\_2020)"
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: "Supply Chain Management\_10.0.10 (mai\_2020)"
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Fonctions supprimées ou obsolètes
                   items:
                     - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
@@ -1355,11 +1357,13 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Annuler une tâche de planification
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Dépanner l'optimisation de la planification
+                - name: Extensibilité de l’optimisation de la planification
+                  href: master-planning/planning-optimization/extensibility.md
+                - name: Dépanner l’optimisation de la planification
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Plans généraux
               items:
-                - name: Vue d'ensemble des plans généraux
+                - name: Vue d’ensemble des plans généraux
                   href: master-planning/master-plans.md
                 - name: Paramétrer les plans généraux
                   href: master-planning/master-planning-setup.md
@@ -1509,11 +1513,13 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Paramétrer des souches de numéros sur une base individuelle
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurer les souches de numéros à l'aide d'un assistant
+                - name: Configurer les souches de numéros à l’aide d’un assistant
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Organisations et hiérarchies d'organisation
+                - name: Configurer des souches de numéros pour les flux d’entrepôt
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Organisations et hiérarchies d’organisation
               items:
-                - name: Vue d'ensemble des organisations et des hiérarchies d'organisation
+                - name: Vue d’ensemble des organisations et des hiérarchies d’organisation
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Planifier votre hiérarchie d'organisation
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/supply-chain/toc.json
@@ -1817,9 +1823,13 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Exclure des produits de la planification
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: Biens à double usage
+                  href: pim/dual-use.md
+                - name: Pays d’origine
+                  href: pim/country-of-origin.md
                 - name: Créer un code-barres pour un produit
                   href: pim/tasks/create-bar-code-product.md
-                - name: Entrer le code GTIN d'un produit
+                - name: Entrer le code GTIN d’un produit
                   href: pim/tasks/enter-gtin-code-product.md
                 - name: Créer les attributs de lot pour un produit
                   href: pim/tasks/create-batch-attributes-product.md
@@ -2561,26 +2571,24 @@
               href: transportation/tasks/set-up-transportation-constraints-item.md
         - name: Gestion des entrepôts
           items:
-            - name: Vue d'ensemble de gestion des entrepôts
+            - name: Vue d’ensemble de gestion des entrepôts
               href: warehousing/warehouse-management-overview.md
-            - name: Opérations d'entrepôt entrantes
+            - name: Opérations d’entrepôt entrantes
               items:
-                - name: Réceptions pour l'enregistrement et le rangement
-                  items:
-                    - name: Gestion en entrepôt des chargements entrants pour les commandes fournisseur
-                      href: warehousing/inbound-load-handling.md
-                    - name: Enregistrer des articles pour un article activé pour l'entreposage avancé à l'aide d'un journal des arrivées d'articles
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: Produits croisés entre l'entrepôt de réception et les magasins
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: Paramétrer un modèle de travail pour les commandes fournisseur
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: Mélange de dimensions de produit d'emplacement
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: Gestion en entrepôt des chargements entrants pour les commandes fournisseur
+                  href: warehousing/inbound-load-handling.md
+                - name: Enregistrer des articles pour un article activé pour l’entreposage avancé à l’aide d’un journal des arrivées d’articles
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: Enregistrer des articles pour un article activé pour l'entreposage de base à l'aide d'un journal des arrivées d'articles
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Produits croisés entre l'entrepôt de réception et les magasins
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: Paramétrer un modèle de travail pour les commandes fournisseur
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: Mélange de dimensions de produit d'emplacement
+                  href: warehousing/location-product-dimension-mixing.md
             - name: Opérations d'entrepôt sortantes
               items:
                 - name: Réservations dans la gestion des entrepôts
@@ -2591,41 +2599,45 @@
                   items:
                     - name: Expédition partielle d'un chargement de transport
                       href: warehousing/partial-shipping-of-transport-loads.md
-                    - name: Lancement par lots d'ordres de transfert partiellement réservés
+                    - name: Lancement par lots d’ordres de transfert partiellement réservés
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
                 - name: Prélèvement et conditionnement
                   items:
                     - name: Paramétrer le prélèvement du groupement
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Prélèvement de groupement dirigé par le système
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: Paramétrer la mise en conteneur
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Confirmation du contenant et du lot
                       href: warehousing/batch-and-license-plate-confirmation.md
-                    - name: Activer l'impression d'étiquette de contenant
+                    - name: Activer l’impression d’étiquette de contenant
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Scanner des codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Confirmation de prélèvement de pièces
                       href: warehousing/piece-picking-confirmation.md
-                    - name: Matières d'emballage et frais
+                    - name: Matières d’emballage et frais
                       href: warehousing/pack-materials-packing-material-fees.md
-                    - name: "Paramétrer l'emballage manuel (février et mai\_2016 uniquement)"
+                    - name: "Paramétrer l’emballage manuel (février et mai\_2016 uniquement)"
                       href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                     - name: Paramétrer la réaffectation des articles pour les prélèvements partiels
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Annuler le travail d'entrepôt pour la gestion des exceptions
+                    - name: Annuler le travail d’entrepôt pour la gestion des exceptions
                       href: warehousing/cancel-warehouse-work.md
-                    - name: Prélèvement de groupement dirigé par le système
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: Classement des travaux dirigés par le système
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Regroupement des lignes de prélèvement
                       href: warehousing/pick-line-grouping.md
-                    - name: Créneaux de l'entrepôt
+                    - name: Créneaux de l’entrepôt
                       href: warehousing/warehouse-slotting.md
+                    - name: Instruction d’emplacement relatif à l’âge du prélèvement du stock
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Tri sortant
+                      href: warehousing/outbound-sorting.md
+                    - name: Mettre au mur – Mettre en magasin
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: Réapprovisionnement
                   items:
-                    - name: Vue d'ensemble de réapprovisionnement
+                    - name: Vue d’ensemble du réapprovisionnement
                       href: warehousing/replenishment.md
                     - name: Réapprovisionnement immédiat
                       href: warehousing/immediate-replenishment.md
@@ -2641,13 +2653,15 @@
                       href: warehousing/confirm-and-transfer.md
                     - name: Création de chargement avancée pendant une vague
                       href: warehousing/advanced-load-building-during-wave.md
-                    - name: Validation de la règle d'entrepôt
+                    - name: Validation de la règle d’entrepôt
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Regroupement de modèles de vague
                       href: warehousing/wave-template-grouping.md
-                - name: Stratégies de consolidation de l'expédition
+                    - name: Réimpression et annulation des étiquettes de vague
+                      href: warehousing/reprint-and-void-wave-labels.md
+                - name: Stratégies de consolidation de l’expédition
                   items:
-                    - name: Stratégies de consolidation de l'expédition
+                    - name: Stratégies de consolidation de l’expédition
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Configurer les stratégies de consolidation de l'expédition
                       href: warehousing/configure-shipment-consolidation-policies.md
@@ -2709,29 +2723,35 @@
                       href: inventory/inventory-statuses.md
                     - name: Comptage des balises de stock
                       href: inventory/inventory-tag-counting.md
-                - name: Travail d'entrepôt
+                - name: Travail d’entrepôt
                   items:
                     - name: Détails de la ligne de travail
                       href: warehousing/work-line-details.md
-                    - name: Positionnement des contenants d'emplacement
+                    - name: Positionnement des contenants d’emplacement
                       href: warehousing/location-license-plate-positioning.md
-            - name: Définition d'entrepôt
+                    - name: Modifier le pool de travail sur le travail
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: Consolidation des articles – Utilisation de l’emplacement
+                      href: warehousing/item-consolidation-location-utilization.md
+            - name: Définition d’entrepôt
               items:
-                - name: Configuration de l'entrepôt
+                - name: Configuration de l’entrepôt
                   items:
-                    - name: Vue d'ensemble de configuration de l'entrepôt
+                    - name: Vue d’ensemble de configuration de l’entrepôt
                       href: warehousing/warehouse-configuration.md
                     - name: Paramétrer un entrepôt à l'aide d'un modèle de configuration d'entrepôt
                       href: inventory/warehouse-template.md
-                    - name: Travail de contrôle à l'aide de modèles de travail et d'instructions d'emplacement
+                    - name: Travail de contrôle à l’aide de modèles de travail et d’instructions d’emplacement
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Codes étape de vague
                       href: warehousing/wave-step-codes.md
                     - name: Configurer le traitement de la vague
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Configurer et utiliser l’impression d’étiquettes de vague
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Mettre à jour automatiquement les expéditions
                       href: warehousing/auto-update-shipment.md
-                    - name: Créer un profil d'emplacement
+                    - name: Créer un profil d’emplacement
                       href: warehousing/tasks/create-location-profile.md
                     - name: Configurer des emplacements dans un entrepôt compatible WMS
                       href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
@@ -2751,25 +2771,25 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: Regroupement système sur une liste des travaux en cours
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Mise en page d'acheminement de document pour les étiquettes de contenant
+                    - name: Mise en page d’acheminement de document pour les étiquettes de contenant
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Scanner des codes-barres à l'aide d'une caméra dans Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Prise en charge mobile des codes-barres
                       href: warehousing/mobile-barcode-support.md
-                    - name: Paramétrage d'un entrepôt pour les ordres de transfert
+                    - name: Paramétrage d’un entrepôt pour les ordres de transfert
                       href: warehousing/transfer-orders-warehouse.md
                 - name: Installer et configurer l'application d'entreposage
                   items:
                     - name: Installer et connecter l'application d'entreposage
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: Configurer les noms de champs dans l'application d'entreposage
+                    - name: Configurer les noms de champs dans l’application d’entreposage
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Configurer les appareils mobiles pour le travail d'entrepôt
+                    - name: Configurer les appareils mobiles pour le travail d’entrepôt
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Réception du contenant avec l'application d'entreposage
+                    - name: Lire les codes-barres à l’aide d’une caméra dans l’application d’entrepôt
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Réception du contenant avec l’application d’entreposage
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Paramétrer une option de menu d'appareil mobile pour terminer le travail d'une commande fournisseur
+                    - name: Paramétrer une option de menu d’appareil mobile pour terminer le travail d’une commande fournisseur
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Paramétrer une option de menu d'appareil mobile pour enregistrer les articles reçus
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
