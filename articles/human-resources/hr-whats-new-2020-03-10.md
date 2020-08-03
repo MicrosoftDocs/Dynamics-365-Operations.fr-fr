@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124014"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555249"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (10 mars 2020)
 
@@ -45,7 +45,7 @@ Exemple : Benjamin Martin est administrateur des avantages sociaux. Lors de l'i
 
 ## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>La solution Common Data Service est désormais disponible avec les modifications suivantes :
 
-| Description  | Monnaie |
+| Description | Monnaie |
 | --- | --- |
 | Modifications de l'entité **Poste** | <ul><li>**Région de rémunération** ajoutée</li>|
 | Entité **Dimension du poste** ajoutée | <ul><li>**Dimensions financières** ajoutées</li>
@@ -97,3 +97,10 @@ Les fonctionnalités d'aperçu suivantes sont disponibles le 3 février 2020 
 - Champs recommandés - Les utilisateurs doivent souvent ajouter des champs à une grille ou à une page. Cela peut être difficile avec autant de champs disponibles. Au lieu d'avoir à parcourir une grande liste, cette fonction permet au système de faire apparaître un ensemble de champs recommandés en fonction de ce que les autres utilisateurs ajoutent le plus souvent dans des scénarios similaires.
 
 - Actions par défaut rémanentes dans les grilles - Cette fonctionnalité garantit que l'action par défaut dans une grille est liée à une colonne spécifique dans une grille, que cette colonne soit déplacée ou masquée.
+
+## <a name="see-also"></a>Voir également :
+
+[Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Processus de mise à jour](hr-admin-setup-update-process.md)</br>
+[Gérer les fonctionnalités](hr-admin-manage-features.md)

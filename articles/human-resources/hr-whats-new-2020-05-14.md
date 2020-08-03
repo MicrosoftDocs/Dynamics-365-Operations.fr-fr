@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d46671f73a75a9ed3a652d76153c923a3542b5f6
-ms.sourcegitcommit: 7c750711e9fe1d3726c6ee650669529684933001
+ms.openlocfilehash: 3ce1aca9cebc5b330f054a11e38b5dfc4fc9109d
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386105"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555169"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (14 mai 2020)
 
@@ -110,3 +110,10 @@ Cette version commence à combiner les paramètres des Ressources humaines avec 
 ## <a name="carry-forward-rules"></a>Règles de report
 
 Vous pouvez spécifier un type de congé de report pour les soldes de report où les ajustements de report sont transférés. Par exemple, si un employé reporte 10 jours, vous pouvez sélectionner un type de congé différent pour ces 10 jours. Pour plus d'informations, voir [Configurer les types de congé et d'absence](hr-leave-and-absence-types.md).
+
+## <a name="see-also"></a>Voir également :
+
+[Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Processus de mise à jour](hr-admin-setup-update-process.md)</br>
+[Gérer les fonctionnalités](hr-admin-manage-features.md)

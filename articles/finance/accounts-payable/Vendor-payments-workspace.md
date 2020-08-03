@@ -3,7 +3,7 @@ title: Espace de travail des paiements fournisseur
 description: Cette rubrique fournit des informations sur l'espace de travail Paiements fournisseur. L'espace de travail Paiements fournisseur affiche les informations associées au traitement des paiements fournisseur.
 author: abruer
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 86091e16712092086a641d79e49afbc5b205e934
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225011"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598107"
 ---
 # <a name="vendor-payments-workspace"></a>Espace de travail des paiements fournisseur
 
@@ -34,9 +34,10 @@ L'espace de travail **Paiements fournisseur** affiche les informations associée
 
 Le paramétrage suivant doit être réalisé pour que les données s'affichent dans les visuels **Paiements fournisseur** de Power BI.
 1. Accédez à **Administration système > Paramétrage > Paramètres système** pour définir la **Devise système** et le **Taux de change système**.
-2. Accédez à **Comptabilité > Configuration > Comptabilité** pour définir la **Devise comptable** et le **Type de taux de change**. 
-2. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
-3. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **VendPaymentBIMeasureV2**. 
+2. Accédez à **Comptabilité > Calendriers > Calendriers fiscaux** pour valider les dates du calendrier fiscal affecté à la période active.
+3. Accédez à **Comptabilité > Configuration > Comptabilité** pour définir la **Devise comptable** et le **Type de taux de change**. 
+4. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
+5. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **VendPaymentBIMeasureV2**.
 
 ## <a name="my-work-view"></a>Vue Mon travail
 

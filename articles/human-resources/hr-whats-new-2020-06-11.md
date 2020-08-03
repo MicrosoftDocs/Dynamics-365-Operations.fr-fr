@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39f18dc92fb01f9a0437f4166c0f08f8d6b1b81b
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: cba6e48899ec39fc4de6656f8151a42b8aa43261
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456618"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555193"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (11 juin 2020)
 
@@ -95,3 +95,10 @@ Vous pourrez rendre les champs obligatoires en utilisant la personnalisation. Ce
 ## <a name="configure-the-name-of-employee-self-service"></a>Configurer le nom du libre service employé
 
 Une nouvelle option sera disponible dans les paramètres des Ressources humaines pour mettre à jour le nom de l'espace de travail Libre-service Employé en Libre-service. 
+
+## <a name="see-also"></a>Voir également :
+
+[Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Processus de mise à jour](hr-admin-setup-update-process.md)</br>
+[Gérer les fonctionnalités](hr-admin-manage-features.md)

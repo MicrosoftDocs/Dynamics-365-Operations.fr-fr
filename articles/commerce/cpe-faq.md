@@ -1,9 +1,9 @@
 ---
-title: FAQ sur l'environnement d'aperçu dans Dynamics 365 Commerce
-description: Cette rubrique fournit des réponses aux questions fréquemment posées sur l'environnement d'aperçu Microsoft Dynamics 365 Commerce.
+title: FAQ des environnements d'évaluation Dynamics 365 Commerce
+description: Cette rubrique fournit des réponses aux questions fréquemment posées sur l'environnement d'évaluation Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254722"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599756"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a>FAQ sur l'environnement d'aperçu dans Dynamics 365 Commerce
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>FAQ des environnements d'évaluation Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des réponses aux questions fréquemment posées sur l'environnement d'aperçu Microsoft Dynamics 365 Commerce.
+Cette rubrique fournit des réponses aux questions fréquemment posées sur l'environnement d'évaluation Microsoft Dynamics 365 Commerce.
 
-**Puis-je transférer mon invitation pour l'environnement de prévisualisation Commerce à un autre client ?**
+**Pouvons-nous utiliser l'environnement d'évaluation Commerce comme vitrine de commerce électronique pour les clients qui implémentent actuellement Retail ?**
 
-Oui. Pour les transferts d'invitation, vous pouvez utiliser le [Formulaire de transfert d'aperçu Commerce](https://aka.ms/Dynamics365CommercePreviewTransferForm).
+N° L'environnement d'évaluation Commerce est uniquement destiné à l'évaluation. Si vous avez besoin d'un environnement pour un client qui implémente Retail, contactez Microsoft.
 
-**Combien de temps dure le transfert d'invitation ?**
+**L'environnement d'évaluation Commerce peut-il être utilisé pour fournir les fonctionnalités de commerce électronique s'appuyant sur une application/un environnement existant qui implémente Retail ?**
 
-Le transfert prend en moyenne environ trois à cinq jours ouvrables. Cependant, des exceptions peuvent s'appliquer.
+Non (généralement). Les composants de la version d'évaluation Commerce sont disponibles uniquement pour les environnements qui correspondent aux configurations spécifiées dans le guide des conditions préalables et de la mise en service. En outre, les données de démonstration de base requises ne seront pas disponibles dans les environnements qui ont été déployés avec une version initiale antérieure à la version 10.0.8. 
 
-**L'environnement de prévisualisation Commerce fonctionne-t-il avec les projets Dynamics 365 Finance ou Dynamics 365 Supply Chain ?**
+**Quels sont les coûts impliqués dans le déploiement de l'environnement d'évaluation Commerce sur Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS) ?**
 
-Non. L'environnement d'aperçu Commerce fonctionne uniquement avec des projets Dynamics 365 Retail.
+Un environnement de démonstration du siège Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce traditionnel (machine virtuelle \[VM\]) sera hébergé dans votre abonnement Azure. Vous pouvez utiliser le [Calculateur de tarification Azure](https://azure.microsoft.com/pricing/calculator/) pour estimer ce coût.
 
-**Pouvons-nous utiliser l'environnement de prévisualisation Commerce comme vitrine de commerce électronique pour les clients qui implémentent actuellement Retail ?**
+D'autres composants tels que Commerce Scale Unit, le générateur de site Commerce et votre site de commerce électronique seront disponibles sous forme de logiciel en tant que service (SaaS) et seront hébergés par Microsoft.
 
-Non. L'environnement d'aperçu de Commerce n'est que l'environnement d'évaluation. Si vous avez besoin d'un environnement pour un client qui implémente Retail, contactez Microsoft.
+**Quelles zones géographiques Azure sont actuellement prises en charge pour l'environnement d'évaluation de Commerce ?**
 
-**L'environnement de prévisualisation Commerce peut-il être utilisé pour fournir les fonctionnalités de commerce électronique s'appuyant sur une application/un environnement existant qui implémente Retail ?**
-
-Non. L'environnement d'aperçu de Commerce n'est actuellement disponible que dans les nouveaux environnements qui ont été déployés sur des projets d'unité de gestion de stock (SKU) de vente au détail qui contiennent des données de démonstration de la version 10.0.6.
-
-**Quels sont les coûts impliqués dans le déploiement de l'environnement de prévisualisation Commerce sur Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS) ?**
-
-Retail est le seul composant hébergé dans votre abonnement. D'autres composants tels que Retail Cloud Scale Unit (RCSU) et le commerce électronique seront hébergés dans les abonnements Microsoft. Vous pouvez utiliser le [Calculateur de tarification Azure](https://azure.microsoft.com/pricing/calculator/) pour estimer ce coût.
-
-**Quelles zones géographiques Azure sont actuellement prises en charge pour l'environnement d'aperçu Commerce ?**
-
-L'environnement d'aperçu de Commerce ne peut être déployé que dans la zone géographique de l'Amérique du Nord.
+L'environnement d'évaluation de Commerce ne peut être déployé que dans la zone géographique de l'Amérique du Nord.
 
 **Existe-t-il un disque dur virtuel téléchargeable doté de l'option complète de machine virtuelle OneBox ?**
 
-Dynamics 365 Retail Cloud Scale Unit (RCSU) et le commerce électronique sont entièrement des logiciels en tant que service (SaaS) et doivent être hébergés dans le cloud.
+Dynamics 365 Commerce et Commerce Scale Unit sont entièrement des logiciels en tant que service (SaaS) et doivent être hébergés dans le cloud.
 
-**Pendant combien de temps l'environnement de prévisualisation Commerce peut-il être utilisé ?**
+**Pendant combien de temps l'environnement d'évaluation de Commerce peut-il être utilisé ?**
 
-L'environnement de prévisualisation Commerce a un délai de 30 jours à compter de la date de mise en service du commerce électronique.
+L'environnement d'évaluation de Commerce est assorti d'une limite d'utilisation de 30 jours à compter de la date à laquelle les composants SaaS tels que Commerce Scale Unit, le générateur de site Commerce et votre site de commerce électronique sont fournis.
 
-**Puis-je prolonger la durée limite de mon environnement d'aperçu Commerce ?**
+**Puis-je prolonger la durée limite de mon environnement d'évaluation Commerce ?**
 
-Oui. Vous pouvez contacter l'équipe de support en utilisant le [Formulaire d'extension d'aperçu Commerce](https://aka.ms/Dynamics365CommercePreviewExtensionForm).
-
-**Pouvons-nous faire plusieurs demandes pour un environnement de prévisualisation Commerce ?**
-
-Nous accordons un quota d'un environnement d'aperçu Commerce par demande acceptée. Si vous avez besoin de plusieurs environnements d'aperçu, contactez Microsoft. Pour des informations de contact, voir la section suivante.
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Informations de contact de l'environnement d'aperçu Dynamics 365 Commerce
-
-Pour contacter Microsoft si vous avez des questions ou des demandes liées à l'environnement de prévisualisation Commerce, visitez le [groupe Yammer Microsoft Dynamics 365 Commerce Aperçu](https://aka.ms/Dynamics365CommercePreviewYammer) pour aider.
+La prolongation du délai est une exception à la norme et est envisagée au cas par cas. Contactez votre partenaire Microsoft pour obtenir de l'aide.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble de l'environnement d'aperçu dans Dynamics 365 Commerce](cpe-overview.md)
+[Vue d'ensemble d'un environnement d'évaluation Dynamics 365 Commerce](cpe-overview.md)
 
-[Mettre en service un environnement d'aperçu dans Dynamics 365 Commerce](provisioning-guide.md)
+[Mettre en service un environnement d'évaluation Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurer un environnement d'aperçu dans Dynamics 365 Commerce](cpe-post-provisioning.md)
+[Configurer un environnement d'évaluation Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurer les fonctionnalités facultatives pour un environnement d'aperçu dans Dynamics 365 Commerce](cpe-optional-features.md)
+[Configurer le BOPIS dans un environnement d'évaluation Dynamics 365 Commerce](cpe-bopis.md)
+
+[Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce](cpe-optional-features.md)

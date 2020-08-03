@@ -3,7 +3,7 @@ title: Contenu Power BI Gestion des crédits et des relances
 description: Cette rubrique décrit les données incluses dans le contenu Power BI de gestion des crédits et des relances. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278872"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598056"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenu Power BI Gestion des crédits et des relances
 
@@ -47,9 +47,10 @@ Par défaut, les données liées aux crédits et aux relances pour la société 
 Le paramétrage suivant doit être réalisé pour que les données s'affichent dans les visuels **Crédits et relances client** de Power BI.
 
 1. Accédez à **Administration système > Paramétrage > Paramètres système** pour définir la **Devise système** et le **Taux de change système**.
-2. Accédez à **Comptabilité > Configuration > Comptabilité** et définissez la **Devise comptable** et le **Type de taux de change**.
-3. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
-4. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **CustCollectionsBIMeasurementsV2**.
+2. Accédez à **Comptabilité > Calendriers > Calendriers fiscaux** pour valider les dates du calendrier fiscal affecté à la période active.
+3. Accédez à **Comptabilité > Configuration > Comptabilité** et définissez la **Devise comptable** et le **Type de taux de change**.
+4. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
+5. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **CustCollectionsBIMeasurementsV2**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 

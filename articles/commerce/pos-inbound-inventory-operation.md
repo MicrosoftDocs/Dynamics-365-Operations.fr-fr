@@ -3,7 +3,7 @@ title: Opération de stock entrant dans le PDV
 description: Cette rubrique décrit les fonctionnalités de l'opération de stock entrant dans le point de vente (PDV).
 author: hhaines
 manager: annbe
-ms.date: 03/12/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123897"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551599"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -57,6 +57,9 @@ Pour configurer une structure de document asynchrone, procédez comme suit.
 5. Dans le raccourci **Général**, dans la section **Configuration**, définissez l'option **Continu** sur **Non** pour vous assurer qu'il n'y a pas de problèmes de performances.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Créer et planifier deux traitements par lots pour les tâches de traitement et de surveillance des documents
+
+> [!NOTE]
+> Dans Commerce version 10.0.13 et versions ultérieures, vous n'avez pas à configurer ces traitements par lots via l'infrastructure de traitements par lots. Les traitements par lots peuvent être configurés à partir du menu **Retail et Commerce > IT vente au détail et commerce**. Utilisez les options de menu **Moniteur d'opération de document de vente au détail** et **Traitement des opérations de document de vente au détail** pour configurer les traitements par lots.
 
 Les traitements par lots que vous créez seront utilisés pour traiter les documents qui échouent ou arrivent à expiration. Ils seront également utilisés lorsque le nombre de documents de stock actifs en cours de traitement dans le PDV dépasse une valeur configurée par le système.
 

@@ -1,9 +1,9 @@
 ---
-title: Configurer les fonctionnalités facultatives pour un environnement d'aperçu dans Dynamics 365 Commerce
-description: Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d'aperçu Microsoft Dynamics 365 Commerce.
+title: Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce
+description: Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d'évaluation de Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,28 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057738"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599818"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Configurer les fonctionnalités facultatives pour un environnement d'aperçu dans Dynamics 365 Commerce
-
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d'aperçu Microsoft Dynamics 365 Commerce.
+Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d'évaluation de Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
 Si vous souhaitez évaluer les fonctionnalités d'e-mail transactionnelles, les conditions requises suivantes doivent être remplies :
 
-- Un serveur de messagerie disponible (serveur \[SMTP\], Simple Mail Transfer Protocol) qui peut être utilisé par l'abonnement Microsoft Azure dans lequel vous avez mis en service l'environnement d'aperçu.
+- Un serveur de messagerie disponible (serveur \[SMTP\], Simple Mail Transfer Protocol) qui peut être utilisé par l'abonnement Microsoft Azure dans lequel vous avez mis en service l'environnement d'évaluation.
 - Le nom de domaine complet (FQDN)/adresse IP, le numéro de port SMTP, et les détails d'authentification disponibles.
-
-Si vous souhaitez évaluer des fonctionnalités de gestion d'actifs numériques, notamment ingérer de nouvelles images omnicanales, vous devez disposer du nom de votre client du système de gestion de contenu (CMS). Les instructions pour rechercher ce nom sont fournies plus loin dans cette rubrique. >>>(Q: where are the instructions?)
 
 ## <a name="configure-the-image-back-end"></a>Configurer l'arrière-plan de l'image
 
@@ -47,9 +44,9 @@ Si vous souhaitez évaluer des fonctionnalités de gestion d'actifs numériques,
 > [!NOTE]
 > Avant de pouvoir terminer cette procédure, vous devez suivre les étapes dans [Configurer votre site dans Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
 
-1. Connectez-vous à l'outil de gestion de site Commerce en utilisant l'URL que vous avez notée lorsque vous avez initialisé le commerce électronique lors de la mise en service (voir [Initialiser le commerce électronique](provisioning-guide.md#initialize-e-commerce)).
+1. Connectez-vous au générateur de site Commerce en utilisant l'URL que vous avez notée lorsque vous avez initialisé le commerce électronique lors de la mise en service (voir [Initialiser le commerce électronique](provisioning-guide.md#initialize-e-commerce)).
 1. Ouvrez le site **Fabrikam**.
-1. Dans le menu à gauche, sélectionnez **Actifs**.
+1. Dans le menu à gauche, sélectionnez **Bibliothèque multimédia**.
 1. Sélectionnez un actif d'image unique.
 1. Dans l'inspecteur de propriété à droite, recherchez la propriété **URL publique**. La valeur est une URL. Voici un exemple :
 
@@ -63,22 +60,22 @@ Si vous souhaitez évaluer des fonctionnalités de gestion d'actifs numériques,
 
 ### <a name="update-the-media-base-url"></a>Mise à jour de l'URL de base multimédia
 
-1. Connectez-vous à Dynamics 365 Commerce.
+1. Connectez-vous au siège de Commerce.
 1. Utilisez le menu à gauche pour accéder à **Modules \> Commerce et vente au détail \> Paramétrage du canal \> Profils du canal**.
 1. Sélectionnez **Modifier**.
 1. Sous **Propriétés du profil**, remplacez la valeur de la propriété **URL de base du serveur multimédia** par l'URL de base multimédia créée précédemment.
-1. Dans la liste à gauche, sous le canal **Par défaut**, sélectionnez l'autre canal.
+1. Sélectionnez le canal nommé **scXXXXXXXXX**.
 1. Sous **Propriétés du profil**, sélectionnez **Ajouter**.
 1. Pour la propriété qui a été ajoutée, sélectionnez **URL de base du serveur multimédia** comme clé de propriété. En tant que valeur de propriété, entrez l'URL de la base multimédia que vous avez créée précédemment.
 1. Sélectionnez **Enregistrer**.
 
-## <a name="configure-the-email-server"></a>Configuration du serveur de messagerie
+## <a name="configure-and-test-the-email-server"></a>Configuration et test du serveur de messagerie
 
 > [!NOTE]
 > Le serveur SMTP ou le service de messagerie que vous entrez ici doivent être accessibles à partir de l'abonnement Azure que vous utilisez pour l'environnement.
 
-1. Connectez-vous à Commerce.
-1. Utilisez le menu à gauche pour accéder à **Modules \> Administration de l'organisation \> Paramétrage \> E-mail \> Paramètres d'e-mail**.
+1. Connectez-vous au siège de Commerce.
+1. Utilisez le menu de gauche pour accéder à **Modules \> Retail et Commerce \> Paramétrage du Siège \> Paramètres \> Paramètres de la messagerie**.
 1. Sur l'onglet **Paramètres SMTP** dans le champ **Serveur de courrier sortant**, saisissez le nom de domaine complet ou l'adresse IP de votre serveur SMTP ou service de messagerie.
 1. Dans le champ **Numéro de port SMTP**, entrez le numéro du port à utiliser. (Si vous n'utilisez pas Secure Sockets Layer \[SSL\], le numéro de port par défaut est **25**.)
 1. Si l'authentification est requise, entrez des valeurs dans les champs **Nom d'utilisateur** et **Mot de passe**.
@@ -92,8 +89,8 @@ Si vous souhaitez évaluer des fonctionnalités de gestion d'actifs numériques,
 
 Pour chaque événement transactionnel pour lequel envoyer des e-mails vous devez mettre à jour le modèle d'e-mail avec une adresse e-mail d'expéditeur valide.
 
-1. Connectez-vous à Commerce.
-1. Utilisez le menu à gauche pour accéder à **Modules \> Administration de l'organisation \> Paramétrage \> Modèles d'e-mail de l'organisation**.
+1. Connectez-vous au siège de Commerce.
+1. Utilisez le menu de gauche pour accéder à **Modules \> Retail et Commerce \> Paramétrage du Siège \> Paramètres \> Modèles d'e-mail d'organisation**.
 1. Sélectionnez **Afficher la liste**.
 1. Pour chaque modèle de la liste, procédez comme suit :
 
@@ -104,9 +101,9 @@ Pour chaque événement transactionnel pour lequel envoyer des e-mails vous deve
 
 ## <a name="customize-email-templates"></a>Personnaliser des modèles d'e-mail
 
-Vous souhaiterez peut-être personnaliser les modèles d'e-mails afin qu'ils utilisent des images différentes. Ou vous souhaiterez peut-être mettre à jour les liens dans les modèles afin qu'ils accèdent à votre environnement d'aperçu. Cette procédure explique le téléchargement des modèles par défaut, leur personnalisation et la mise à jour des modèles à jour dans le système.
+Vous souhaiterez peut-être personnaliser les modèles d'e-mails afin qu'ils utilisent des images différentes. Ou vous souhaiterez peut-être mettre à jour les liens dans les modèles afin qu'ils accèdent à votre environnement d'évaluation. Cette procédure explique le téléchargement des modèles par défaut, leur personnalisation et la mise à jour des modèles à jour dans le système.
 
-1. Dans un navigateur web, téléchargez le [fichier .zip des modèles d'e-mails par défaut de Microsoft Dynamics 365 Commerce Aperçu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) sur votre ordinateur local. Ce fichier contient les documents HTML suivants :
+1. Dans un navigateur web, téléchargez le [fichier .zip des modèles d'e-mails par défaut de Microsoft Dynamics 365 Commerce Évaluation](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) sur votre ordinateur local. Ce fichier contient les documents HTML suivants :
 
     - Modèle de confirmation de commande
     - Émettre un modèle de carte cadeau
@@ -173,13 +170,15 @@ Les jetons suivants sont remplacés par des valeurs pour chaque produit de la co
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble de l'environnement d'aperçu dans Dynamics 365 Commerce](cpe-overview.md)
+[Vue d'ensemble d'un environnement d'évaluation Dynamics 365 Commerce](cpe-overview.md)
 
-[Mettre en service un environnement d'aperçu dans Dynamics 365 Commerce](provisioning-guide.md)
+[Mettre en service un environnement d'évaluation Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurer un environnement d'aperçu dans Dynamics 365 Commerce](cpe-post-provisioning.md)
+[Configurer un environnement d'évaluation Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[FAQ sur l'environnement d'aperçu dans Dynamics 365 Commerce](cpe-faq.md)
+[Configurer le BOPIS dans un environnement d'évaluation Dynamics 365 Commerce](cpe-bopis.md)
+
+[FAQ des environnements d'évaluation Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

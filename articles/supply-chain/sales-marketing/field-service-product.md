@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1efa4e403f5cf2cdc5fb797f05781f6d42245ed5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d96d1cd91bad4f950868074d9558cb403821d73f
+ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210012"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "3546360"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Synchroniser directement les produits provenant du module Supply Chain Management sur les produits dans Field Service
 
@@ -48,13 +48,13 @@ Cette rubrique décrit les différences entre les modèles **Produits Field Serv
 
 Le modèle **Produits Field Service (Supply Chain Management vers Field Service)** utilisé inclut un mappage qui n'est pas inclus dans le modèle **Produits (Supply Chain Management vers Sales) – Direct**. Cette mise en correspondance garantit que le champ spécifique à Field Service **Type de produit de service** obligatoire est défini correctement.
 
-```Text
+```plaintext
 FIELDSERVICEPRODUCTTYPE        Fn        msdyn_fieldserciveproducttype
 ```
 
 La mise en correspondance des valeurs suivante est utilisée.
 
-```Text
+```plaintext
 inventory     :  690970000
 nonInventory  :  690970001 
 service       :  690970002 

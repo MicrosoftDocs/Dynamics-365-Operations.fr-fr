@@ -3,7 +3,7 @@ title: Configuration des propriétés de workflow
 description: Cette rubrique explique comment configurer les différentes propriétés d'un workflow.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199434"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541107"
 ---
 # <a name="configure-workflow-properties"></a>Configuration des propriétés de workflow
 
@@ -91,12 +91,7 @@ Procédez comme suite pour spécifier quand le workflow que vous configurez est 
 3. Cliquez sur **Ajouter**.
 4. Permet d'entrer une condition.
 5. Entrez des conditions supplémentaires, si nécessaire.
-6. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
-
-    1. Cliquez sur **Tester**.
-    2. Sur la page **Condition de workflow de test**, sélectionnez un enregistrement dans la zone **Contrôler la condition**.
-    3. Cliquez sur **Tester**. Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées. Si vous créez un workflow de demande d'achat pour l'Espagne, la zone **Contrôler la condition** de la page affiche la liste de demandes d'achat. Lorsque vous cliquez sur **Test**, le système évalue la demande d'achat sélectionnée pour déterminer si le pays/la région est l'Espagne (ES).
-    4. Cliquez sur **OK** ou sur **Annuler** pour revenir à la page **Propriétés**.
+6. Exécutez le workflow avec quelques enregistrements cibles pour vérifier que la condition inclut et exclut correctement les enregistrements.
 
 ## <a name="specify-when-notifications-are-sent"></a>Spécification du moment où les notifications sont envoyées
 

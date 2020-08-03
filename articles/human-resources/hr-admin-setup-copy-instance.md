@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431243"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554323"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
@@ -108,6 +108,6 @@ En outre, les statuts suivants changent lorsque vous copiez une instance :
 
 ## <a name="environment-admin"></a>Administrateur de l'environnement
 
-Tous les utilisateurs de l'environnement de bac à sable cible, y compris les administrateurs, sont remplacés par les utilisateurs de l'environnement source. Avant de copier une instance, assurez-vous que vous êtes administrateur dans l'environnement cible. Si ce n'est pas le cas, vous ne pourrez pas vous connecter à l'environnement de bac à sable cible une fois la copie terminée.
+Tous les utilisateurs de l'environnement de bac à sable cible, y compris les administrateurs, sont remplacés par les utilisateurs de l'environnement source. Avant de copier une instance, assurez-vous que vous êtes administrateur dans l'environnement source. Si ce n'est pas le cas, vous ne pourrez pas vous connecter à l'environnement de bac à sable cible une fois la copie terminée.
 
 Tous les utilisateurs non administrateurs de l'environnement de bac à sable cible sont désactivés pour empêcher les connexions indésirables dans l'environnement de bac à sable. Les administrateurs peuvent réactiver les utilisateurs si nécessaire.
