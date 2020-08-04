@@ -3,7 +3,7 @@ title: Délégation d'éléments de travail dans un workflow
 description: Si vous pensez vous absenter du bureau ou être dans l'incapacité d'agir sur des éléments de travail, vous pouvez déléguer ou réaffecter vos éléments de travail à d'autres utilisateurs.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 96777b66645453bc909bd4053e2724a37771d5d6
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515762"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541083"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Délégation d'éléments de travail dans un workflow
 
@@ -49,13 +49,15 @@ Si vous prévoyez de vous absenter du bureau ou être indisponible d'une manièr
 1. Accédez à **Commun > Paramétrage > Options utilisateur**.
 2. Cliquez sur **Workflow** et vérifiez que la section Délégation est développée. Pour configurer le système de sorte à déléguer vos éléments de travail automatiquement à d'autres utilisateurs, vous devez créer des règles de délégation lorsque certains types d'éléments de travail sont délégués. Pour créer une règle de délégation, procédez comme suit :  
 3. Cliquez sur **Ajouter**.
-4. Sélectionnez une option dans le champ **Portée**.
+4. Sélectionnez une option dans le champ **Étendue**.
     - Tout – Permet de déléguer tous les éléments de travail qui vous sont attribués.
-    - Module – Permet de déléguer uniquement les éléments de travail associés à un type donné de workflow. Si cette option est sélectionnée, vous devez sélectionner le type de workflow dans le champ Nom.
-    - Workflow – Permet de déléguer uniquement les éléments de travail associés à un workflow donné. Si cette option est sélectionnée, vous devez sélectionner le workflow dans le champ Nom.  
-5. Dans le champ **Déléguer**, sélectionnez l'utilisateur auquel déléguer les éléments de travail. Les champs Date/heure de début et Date/heure de fin permettent de spécifier à quel moment vous souhaitez que les éléments de travail soient automatiquement délégués.  
-6. Dans le champ **Date/heure de début**, entrez une date et une heure.
-7. Dans le champ **Date/heure de fin**, entrez une date et une heure.
-8. Activez la case à cocher **Activé** pour activer la règle de délégation. Si vous avez sélectionné **Module** comme Portée, vous devez alors sélectionner le module dans le champ Nom. Si vous avez sélectionné **Workflow** comme Portée, vous devez alors sélectionner le workflow spécifique à déléguer dans le champ Nom.  
-9. Dans le champ **Commentaire**, entrez un commentaire expliquant le motif de la délégation des éléments de travail.
-
+    - Module – Permet de déléguer uniquement les éléments de travail associés à un type donné de workflow. Si cette option est sélectionnée, vous devez sélectionner le type de workflow dans le champ **Nom**.
+    - Workflow – Permet de déléguer uniquement les éléments de travail associés à un workflow donné. Si cette option est sélectionnée, vous devez sélectionner le workflow dans le champ **Nom**.  
+5. Dans le champ **Nom** :
+    - Pour l'étendue **Module**, sélectionnez le module cible.
+    - Pour l'étendue **Workflow**, sélectionnez le workflow cible.
+6. Dans le champ **Déléguer**, sélectionnez l'utilisateur auquel déléguer les éléments de travail. Utilisez les champs **Date/heure de début** et **Date/heure de fin** pour spécifier à quel moment vous souhaitez que les éléments de travail soient automatiquement délégués.  
+7. Dans le champ **Date/heure de début**, entrez une date et une heure.
+8. Dans le champ **Date/heure de fin**, entrez une date et une heure.
+9. Activez la case à cocher **Activé** pour activer la règle de délégation. 
+10. Dans le champ **Commentaire**, entrez un commentaire expliquant le motif de la délégation des éléments de travail.

@@ -3,7 +3,7 @@ title: Contenu Power BI Vue d'ensemble des disponibilités
 description: Cette rubrique décrit le contenu Power BI Vue d'ensemble des disponibilités. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: saraschi2
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553138"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598131"
 ---
 # <a name="cash-overview-power-bi-content"></a>Contenu Power BI Vue d'ensemble des disponibilités
 
@@ -38,10 +38,11 @@ Le contenu Power BI **Vue d'ensemble des disponibilités** a été créé pour l
 Le paramétrage suivant doit être réalisé pour que les données s'affichent dans les visuels **Vue d'ensemble des disponibilités** et **Gestion des banques** Power BI.
 
 1. Accédez à **Administration système > Paramétrage > Paramètres système** pour définir la **Devise système** et le **Taux de change système**.
-2. Accédez à **Comptabilité > Configuration > Comptabilité** pour définir la **Devise comptable** et le **Type de taux de change**.
-2. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système, et entre la devise comptable et les devises bancaires. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
-3. Configurez et exécutez les prévisions de flux de trésorerie. Pour plus d'informations sur le paramétrage des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
-4. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **LedgerCovLiquidityMeasurement**.
+2. Accédez à **Comptabilité > Calendriers > Calendriers fiscaux** pour valider les dates du calendrier fiscal affecté à la période active.
+3. Accédez à **Comptabilité > Configuration > Comptabilité** pour définir la **Devise comptable** et le **Type de taux de change**.
+4. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système, et entre la devise comptable et les devises bancaires. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
+5. Configurez et exécutez les prévisions de flux de trésorerie. Pour plus d'informations sur le paramétrage des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+6. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 

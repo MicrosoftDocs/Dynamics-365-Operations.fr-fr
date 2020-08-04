@@ -3,7 +3,7 @@ title: Gestion des performances
 description: Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés.
 author: andreabichsel
 manager: AnnBe
-ms.date: 12/11/2019
+ms.date: 07/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6147b5d92381d76c572f8a10e52c9ed00225e7eb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
+ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430438"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3609770"
 ---
 # <a name="performance-management"></a>Gestion des performances
 
@@ -145,7 +145,7 @@ La page de mesures vous permet de créer des mesures standard qui seront utilis�
 
 ### <a name="performance-journal-source-types"></a>Types de source du journal des performances
 
-Les types de source du journal des performances décrivent l'origine des journaux de performances. Vous pouvez voir si un article de journal sera affiché par défaut par le responsable uniquement, l'employé uniquement, ou le responsable et l'employé. Vous pouvez également activer ou désactiver la fonction Envoyer une récompense en modifiant le type de source de récompense. Vous ne pouvez pas désactiver les autres types de sources à ce stade.
+Les types de source du journal des performances décrivent l'origine des journaux de performances. Vous pouvez voir si un article de journal sera affiché par défaut par le responsable uniquement, l'employé uniquement, ou le responsable et l'employé. Vous ne pouvez pas désactiver de types de sources à ce stade.
 
 ### <a name="review-types"></a>Types de révision
 

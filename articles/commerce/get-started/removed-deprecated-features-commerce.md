@@ -3,7 +3,7 @@ title: Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer de Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443916"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539877"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 
@@ -41,8 +41,35 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 |   |  |
 |------------|--------------------|
 | **Motif de l'abandon/de la suppression** | La fonction de raccordement des actions de données est déconseillée en raison de problèmes de performances. |
-| **Remplacé par une autre fonctionnalité ?**   | Il est recommandé d'utiliser à la place le [remplacement des actions sur les données](../e-commerce-extensibility/data-action-overrides.md) pour modifier la logique métier dans la couche d'action de données.|
-| **Zones de produit affectées**         | Actions de données d'extensibilité de e-commerce |
+| **Remplacé par une autre fonctionnalité ?**   | Nous recommandons d'utiliser le [remplacement des actions sur les données](../e-commerce-extensibility/data-action-overrides.md) pour modifier la logique métier dans la couche d'action de données.|
+| **Zones de produit affectées**         | Actions de données d'extensibilité du commerce électronique |
+| **Option de déploiement**              | Tout |
+| **État**                         | Obsolète : à partir de la version 10.0.11 |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Prise en charge du SDK Retail pour Visual Studio 2015, msbuild 14.0 et les bibliothèques et outils Retail SDK\Référence
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | La prise en charge du SDK Retail pour Visual Studio 2015 est obsolète et a été mise à jour pour prendre en charge VS 2017, msbuild 15.0 et toutes les bibliothèques de référence et les outils de génération de proxy de commerce dans le dossier RetailSDK\Références qui ont été déplacés dans des packages NuGet pour simplifier le modèle d'extension et le processus de mise à niveau du SDK.|
+| **Remplacé par une autre fonctionnalité ?**   | Nous vous recommandons de suivre les instructions de la section [Migrer le SDK Retail de Visual Studio 2015 à Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) pour mettre à jour votre système. |
+| **Zones de produit affectées**         | Extensions du SDK Retail |
+| **Option de déploiement**              | Tout |
+| **État**                         | Obsolète : à partir de la version 10.0.11 |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>Extension Retail Server utilisant IEdmModelExtender et CommerceController
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | L'extension Retail Server utilisant IEdmModelExtender et CommerceController est déconseillée pour fournir un modèle d'extension simplifié. La nouvelle implémentation n'aura que la classe Controller sans implémentation de classe IEdmModelExtender supplémentaire. Cela évite également la dépendance à une version OData particulière (si la version OData est mise à jour, elle peut empêcher le fonctionnement des extensions.) |
+| **Remplacé par une autre fonctionnalité ?**   |  Nous vous recommandons d'utiliser le modèle d'extension de classe IController en important le package NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **Zones de produit affectées**         | Extensions de Retail Server |
+| **Option de déploiement**              | Tout |
+| **État**                         | Obsolète : à partir de la version 10.0.11 |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Extension de la station matérielle utilisant IHardwareStationController
+|   |  |
+|------------|--------------------|
+| **Motif de l'abandon/de la suppression** | L'extension de station matérielle utilisant IHardwareStationController est déconseillée pour fournir un modèle d'extension simplifié. La nouvelle implémentation n'aura que la classe IController sans aucune implémentation de classe supplémentaire et pour éviter la dépendance aux bibliothèques de station matérielle de base ; l'extension nécessitait auparavant de faire référence à plusieurs bibliothèques. |
+| **Remplacé par une autre fonctionnalité ?**   | Il est recommandé d'utiliser le modèle d'extension de classe IController en important le package NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **Zones de produit affectées**         | Extensions de station matérielle |
 | **Option de déploiement**              | Tout |
 | **État**                         | Obsolète : à partir de la version 10.0.11 |
 

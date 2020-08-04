@@ -2,7 +2,7 @@
 title: Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 description: Cette rubrique décrit le processus de gestion en entrepôt des chargements entrants pour les commandes fournisseur.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 1c990911489fa6d73624a91e7d6580e29ddfc419
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530579"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597430"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
@@ -126,7 +126,7 @@ Utilisez le champ **Réception excédentaire du chargement** pour que les option
 
 Le tableau suivant décrit les options disponibles pour le champ **Réception excédentaire du chargement**.
 
-| Valeur  | Description  |
+| Valeur  | Description |
 |---|---|
 | Autoriser | Les collaborateurs peuvent enregistrer la réception des quantités qui dépassent la quantité non enregistrée restante pour un chargement sélectionné, mais uniquement si la quantité totale enregistrée ne dépasse pas la quantité de la ligne de la commande fournisseur qui est associée au chargement (après ajustement du pourcentage de livraison excédentaire). |
 | Bloquer | <p>Les collaborateurs ne peuvent pas enregistrer la réception de quantités supérieures à la quantité non enregistrée restante pour un chargement sélectionné (ajusté pour le pourcentage de livraison excédentaire). Un collaborateur qui essaie d'enregistrer les réceptions reçoit une erreur et n'est pas en mesure de continuer tant qu'il n'enregistre pas une quantité inférieure ou égale à la quantité de chargement non enregistrée restante.</p><p>Par défaut, la valeur du pourcentage de livraison excédentaire sur la ligne de chargement est copiée depuis la ligne de la commande fournisseur associée. Quand le champ <b>Réception excédentaire du chargement</b> est défini sur <i>Bloquer</i>, le système utilise la valeur de pourcentage de livraison excédentaire pour calculer la quantité totale qui peut être enregistrée pour une ligne de chargement. Cependant, cette valeur peut être modifiée pour des chargements individuels selon les besoins. Ce comportement devient pertinent lorsque la réception de flux où une certaine quantité de l'excédent, ou toute la quantité excédentaire, qui représente le pourcentage de livraison excédentaire de la ligne de commande est répartie de manière disproportionnelle sur différents chargements. Voici un exemple de scénario :</p><ul><li>Il existe plusieurs chargements pour une ligne de commande fournisseur.</li><li>La ligne de commande fournisseur a un pourcentage de livraison excédentaire supérieur à 0 (zéro).</li><li>Des quantités ont déjà été enregistrées pour un ou plusieurs chargements sans tenir compte du pourcentage de livraison excédentaire.</li><li>La quantité de livraisons excédentaires arrive au dernier chargement.</li></ul><p>Dans ce scénario, un appareil mobile peut être utilisé pour enregistrer la quantité excédentaire pour le dernier chargement uniquement si le superviseur de l'entrepôt augmente le pourcentage de livraison excédentaire pour la ligne de chargement pertinente depuis la valeur par défaut vers une valeur suffisamment large pour que la livraison excédentaire complète puisse être enregistrée avec le chargement final.</p> |

@@ -5,6 +5,8 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "8\_juillet\_2020"
+          href: hr-whats-new-2020-07-08.md
         - name: "25\_juin\_2020"
           href: hr-whats-new-2020-06-23.md
         - name: "11\_juin\_2020"
@@ -573,9 +575,11 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Créer une question dépendante
               href: hr-learning-depending-question.md
-        - name: Configurer le libre-service pour employés et pour responsables
+        - name: Configurer le libre service pour employés et pour responsables
           items:
-            - name: Vue d'ensemble du libre-service pour employés et pour responsables
+            - name: Vue d’ensemble du libre service pour employés et pour responsables
               href: hr-employee-manager-self-service-overview.md
+            - name: Modifier le nom de l’espace de travail du libre service des employés
+              href: hr-employee-self-service-workspace-name.md
             - name: Modifier les informations personnelles
               href: hr-employee-manager-self-service-edit-personal-information.md

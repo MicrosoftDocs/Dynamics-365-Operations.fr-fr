@@ -83,12 +83,12 @@ La majeure partie de l'exercice consiste à créer l'application logique.
 
     ![Page de création d'application logique](media/integration-logic-app-creation-1.png)
 
-2. Dans le concepteur d'applications logiques, commencez par une application logique vide.
+2. Dans Logic Apps Designer, commencez par une application logique vide.
 3. Ajoutez un [Déclencheur de calendrier de récurrence ](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence)pour exécuter l'application logique toutes les 24 heures (ou selon un horaire de votre choix).
 
     ![Boîte de dialogue de récurrence](media/integration-logic-app-recurrence-step.png)
 
-4. Appelez l'API REST DMF [ExportToPackage ](../dev-itpro/data-entities/data-management-api.md#exporttopackage)pour planifier l'exportation de votre package de données.
+4. Appelez l'API REST DMF [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage)pour planifier l'exportation de votre package de données.
 
     1. Utilisez l'action **Appeler une requête HTTP**depuis le connecteur HTTP with Azure AD.
 
@@ -136,7 +136,7 @@ La majeure partie de l'exercice consiste à créer l'application logique.
         > [!NOTE]
         > Définissez le nombre limite sur **15** pour attendre un maximum de 75 secondes (15 itérations × 5 secondes) que l'exportation soit terminée. Si votre exportation prend plus de temps, ajustez la limite comme il convient.        
 
-    3. Ajoutez une action **Appeler une requête HTTP** pour appeler l'API REST DMF [GetExecutionSummaryStatus ](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus)et définissez la variable **ExecutionStatus** sur résultat de la réponse **GetExecutionSummaryStatus**.
+    3. Ajoutez une action **Appeler une requête HTTP** pour appeler l'API REST DMF [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus)et définissez la variable **ExecutionStatus** sur résultat de la réponse **GetExecutionSummaryStatus**.
 
         > Cet exemple ne vérifie pas les erreurs. L'API **GetExecutionSummaryStatus** peut renvoyer des états de terminal non réussis (c'est-à-dire des états autres que **Réussi**). Pour plus d'informations, voir la [Documentation d'API](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
@@ -156,7 +156,7 @@ La majeure partie de l'exercice consiste à créer l'application logique.
 
 7. Obtenez l'URL de téléchargement du package exporté.
 
-    - Ajoutez une action **Appeler une requête HTTP** pour appeler l'API REST DMF [GetExportedPackageUrl ](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
+    - Ajoutez une action **Appeler une requête HTTP** pour appeler l'API REST DMF [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
 
         - **Méthode :** POST
         - **URL de la demande :** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -196,7 +196,7 @@ Pour tester votre application logique, sélectionnez le bouton **Exécuter** dan
 
 Si un échec est signalé pour une étape, sélectionnez l'étape ayant échoué dans le concepteur et examinez les champs **Entrées** et **Sorties** correspondants. Déboguez et ajustez l'étape au besoin pour corriger les erreurs.
 
-L'illustration suivante montre à quoi ressemble le concepteur d'applications logiques lorsque toutes les étapes de l'application logique s'exécutent correctement.
+L'illustration suivante montre à quoi ressemble Logic Apps Designer lorsque toutes les étapes de l'application logique s'exécutent correctement.
 
 ![Exécution de l'application logique réussie](media/integration-logic-app-successful-run.png)
 

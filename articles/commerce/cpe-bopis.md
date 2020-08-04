@@ -1,9 +1,9 @@
 ---
-title: Configurer le BOPIS dans un environnement Dynamics 365 Commerce
-description: Cette rubrique explique comment configurer l'achat en ligne, le retrait en magasin (BOPIS) dans un environnement Microsoft Dynamics 365 Commerce après qu'il a été approvisionné.
+title: Configurer le BOPIS dans un environnement d'évaluation Dynamics 365 Commerce
+description: Cette rubrique explique comment configurer l'achat en ligne, le retrait en magasin (BOPIS) dans un environnement d'évaluation de Microsoft Dynamics 365 Commerce après qu'il a été mis en service.
 author: rubendel
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 956d66d09885d4d54655ce25b3aa7ba6a9c34cf4
-ms.sourcegitcommit: dfef2faf881b2db1bd0f016df36e2b838105312b
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3282794"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599794"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-environment"></a>Configurer le BOPIS dans un environnement Dynamics 365 Commerce
-
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurer le BOPIS dans un environnement d'évaluation Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment configurer l'achat en ligne, le retrait en magasin (BOPIS) dans un environnement Microsoft Dynamics 365 Commerce après l'approvisionnement de l'environnement.
+Cette rubrique explique comment configurer l'achat en ligne, le retrait en magasin (BOPIS) dans un environnement d'évaluation de Microsoft Dynamics 365 Commerce après qu'il a été mis en service.
 
 ## <a name="prerequisite"></a>Logiciel requis
 
-Effectuez les procédures de cette rubrique uniquement une fois que votre environnement d'aperçu Commerce a été mis en service et configuré. Pour plus d'informations sur l'approvisionnement et la configuration de votre environnement, voir [Approvisionner un environnement d' d'aperçu Dynamics 365 Commerce](provisioning-guide.md) et [Configurer un environnement d'aperçu Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Effectuez les procédures de cette rubrique uniquement une fois que votre environnement d'évaluation de Commerce a été mis en service et configuré. Pour plus d'informations sur l'approvisionnement et la configuration de votre environnement, voir [Mettre en service un environnement d'évaluation Dynamics 365 Commerce](provisioning-guide.md) et [Configurer un environnement d'évaluation Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
 
 Une fois que votre environnement Commerce a été approvisionné et configuré de bout en bout, vous pouvez utiliser cette rubrique pour activer les scénarios BOPIS.
 
@@ -71,7 +70,7 @@ Les scénarios BOPIS impliquant un paiement par carte de crédit nécessitent un
 5. Une boîte de dialogue d'authentification apparaît. Sélectionnez le compte qui utilise l'adresse e-mail précédemment associée au collaborateur **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Si vous n'avez pas encore associé de collaborateur à votre identité, l'activation échouera. Dans ce cas, suivez les étapes de la section « Associer un collaborateur à votre identité » dans la rubrique [Configurer un environnement d'aperçu Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Si vous n'avez pas encore associé de collaborateur à votre identité, l'activation échouera. Dans ce cas, suivez les étapes de la section « Associer un collaborateur à votre identité » dans la rubrique [Configurer un environnement d'évaluation Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Lorsque vous êtes invité à laisser votre organisation gérer l'appareil, sélectionnez **Cette application uniquement**.
 7. Une fois l'activation terminée, sélectionnez **Mise en route**.
@@ -144,13 +143,13 @@ Pour tous les problèmes généraux, vous devez toujours consulter les journaux 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble de l'environnement d'aperçu dans Dynamics 365 Commerce](cpe-overview.md)
+[Vue d'ensemble d'un environnement d'évaluation Dynamics 365 Commerce](cpe-overview.md)
 
-[Mettre en service un environnement d'aperçu dans Dynamics 365 Commerce](provisioning-guide.md)
+[Mettre en service un environnement d'évaluation Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurer les fonctionnalités facultatives pour un environnement d'aperçu dans Dynamics 365 Commerce](cpe-optional-features.md)
+[Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce](cpe-optional-features.md)
 
-[FAQ sur l'environnement d'aperçu dans Dynamics 365 Commerce](cpe-faq.md)
+[FAQ des environnements d'évaluation Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

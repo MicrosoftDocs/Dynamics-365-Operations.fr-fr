@@ -3,7 +3,7 @@ title: Vue d'ensemble de la prévision de la demande
 description: La prévision de la demande est utilisée pour prévoir une demande indépendante des commandes client et une demande dépendante à n'importe quel point de découplage pour les commandes client. Les règles améliorées de réduction de prévision de la demande fournissent une solution idéale pour la personnalisation collective.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 01/07/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be60bb5c856020d76d185249fddf09493ea1d2ed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
+ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213881"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3550038"
 ---
 # <a name="demand-forecasting-overview"></a>Vue d'ensemble de la prévision de la demande
 
@@ -48,7 +48,7 @@ Voici certaines fonctionnalités principales de la prévisions de la demande :
 Trois sujets principaux sont implémentés dans une prévision de la demande :
 
 -   **Modularité** – La prévision de la demande est modulaire et facile à configurer. Vous pouvez activer ou désactiver la fonctionnalité en modifiant la clé de configuration dans **Commerce** &gt; **Prévision de stock** &gt; **Prévision de la demande**.
--   **Réutilisation de la pile Microsoft** – Microsoft a lancé la plateforme Machine Learning en février 2015. Machine Learning, qui fait désormais partie de Microsoft Cortana Analytics Suite, vous permet de créer rapidement et facilement des expériences d'analyse prévisionnelles, telles que des expériences d'estimation de la demande, à l'aide des langages de programmation d'algorithmes R ou Python et d'une interface de glisser-déplacer simple.
+-   **Réutilisation de la pile Microsoft** – Le Machine Learning, qui fait désormais partie de Microsoft Cortana Analytics Suite, vous permet de créer rapidement et facilement des expériences d'analyse prévisionnelles, telles que des expériences d'estimation de la demande, à l'aide des langages de programmation d'algorithmes R ou Python et d'une interface de glisser-déplacer simple.
     -   Vous pouvez télécharger les expériences de prévision de la demande, les modifier pour répondre à vos exigences métier, les publier comme service Web sur Azure, puis les utiliser pour générer des prévisions de la demande. Les expériences sont téléchargeables si vous avez acheté un abonnement à Supply Chain Management pour un responsable de production utilisateur au niveau de l'entreprise.
     -   Vous pouvez télécharger les expériences de prévision de la demande actuellement disponibles à partir de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). Étant donné que les expériences de prévision de la demande sont automatiquement intégrées à Supply Chain Management, les partenaires et clients doivent gérer l'intégration des expériences qu'ils téléchargent à partir de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). Par conséquent, les expériences de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) ne sont pas aussi simples à utiliser que les expériences de prévision de la demande de Finance and Operations. Vous devez modifier le code des expériences de sorte qu'elles utilisent l'interface de programmation d'applications (API) de l'application Finance and Operations.
     -   Vous pouvez créer vos propres expériences dans Microsoft Azure Machine Learning Studio (classique), les publier comme services sur Azure, puis les utiliser pour générer des prévisions de la demande.
@@ -70,6 +70,16 @@ Vous pouvez utiliser Supply Chain Management pour visualiser et modifier les pr�
 
 ## <a name="limitations"></a>Limites
 La prévision de la demande est un outil qui permet aux clients de l'industrie de fabrication de créer des processus de prévision. Elle offre les principales fonctionnalités d'une solution de prévision de la demande et est conçue de façon à pouvoir être facilement étendue. Il se peut que la prévision de la demande ne convienne pas aux clients des secteurs tels que le commerce, la vente en gros, le stockage, le transport ou d'autres services professionnels.
+
+### <a name="demand-forecast-variant-conversion-limitation"></a>Limitation de la conversion de variante de prévision de la demande
+
+La conversion d'unité de mesure (UdM) par variante n'est pas entièrement prise en charge lors de la génération d'une prévision de la demande si l'UdM du stock est différente de l'UdM de prévision de la demande.
+
+La génération de prévisions ( **UdM de stock > UdM de prévision de la demande**) utilise la conversion UdM du produit. Lors du chargement des données d'historique pour la génération de la prévision de la demande, la conversion UdM au niveau du produit sera toujours utilisée lors de la conversion entre l'UdM de stock et l'UdM de prévision de la demande, même si des conversions sont définies au niveau de la variante.
+
+La première partie de l'autorisation des prévisions (**UdM de prévision de la demande > udM de stock**) utilise la conversion UdM du produit. La deuxième partie de l'autorisation des prévisions (**UdM de stock > udM de vente**) utilise la conversion UdM de variante. Lorsque la prévision de la demande générée est autorisée, la conversion entre l'UdM de prévision de la demande et l'UdM de stock est effectuée à l'aide de la conversion d'UdM au niveau du produit. Dans le même temps, la conversion entre l'unité de stock et l'UdM de vente respectera les conversions définies au niveau de la variante.
+
+Notez que l'UdM de prévision de la demande ne doit pas nécessairement avoir de signification spécifique. Elle peut être définie comme « Unité de prévision de la demande ». Pour chacun des produits, vous pouvez définir la conversion comme 1 : 1 avec l'UdM de stock.
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------

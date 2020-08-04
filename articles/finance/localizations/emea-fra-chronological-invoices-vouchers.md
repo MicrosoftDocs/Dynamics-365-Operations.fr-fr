@@ -3,7 +3,7 @@ title: Facture et n° document chronologiques
 description: Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e18dbb9684e9916e86b5b8a8a5b7d6cbe2f49ee
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 4d538964fc9bb3d60034e926d10885cdd2341683
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915261"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539917"
 ---
 # <a name="chronological-invoice-and-voucher-numbers"></a>Facture et n° document chronologiques
 
@@ -42,32 +42,12 @@ Dans certains pays, il est obligatoire que toutes les factures et les documents 
 -   N° document d'avoir sur vente
 
 ## <a name="prerequisites"></a>Conditions préalables
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Catégorie</th>
-<th>Logiciel requis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Activation des fonctionnalités</td>
-<td>Dans l'espace de travail **Gestion des fonctionnalités**, activez la fonctionnalité **Numérotation chronologique**. Pour plus d'informations, voir [Vue d'ensemble de la gestion des fonctionnalités](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</td>
-</tr>
-<tr class="even">
-<td>Pays/région</td>
-<td>Si l'adresse principale de l'entité juridique est en <strong>France</strong>, définissez également l'option <strong>Numérotation chronologique</strong> sur <strong>Oui</strong> sur la page <strong>Paramètres de la comptabilité client</strong> sous l'onglet <strong>Mises à jour</strong>.</td>
-</tr>
-<tr class="odd">
-<td>Tâches associées de paramétrage</td>
-<td>Dans la page <strong>Souches de numéros</strong>, définissez autant de souches de numéros qu'il est nécessaire pour couvrir les périodes fiscales affectées. Vous devez spécifier une société pour chaque souche de numéros. Les segments des souches de numéros doivent être définis de manière à fournir l'ordre chronologique des périodes. Par exemple, les noms de segment peuvent contenir un préfixe spécial qui identifie une période spécifique.</td>
-</tr>
-</tbody>
-</table>
+
+| Catégorie            | Logiciel requis                                                                                                                                                                                                                                                                                                                                                                                   |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Activation des fonctionnalités  | Dans l'espace de travail Gestion des fonctionnalités, activez la fonctionnalité **Numérotation chronologique**. Pour plus d'informations, voir [Vue d'ensemble de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).                                                                                                                                                              |
+| Pays/région      | Si l'adresse principale de l'entité juridique est en France, définissez l'option **Numérotation chronologique** sur **Oui** dans la page **Paramètres de la comptabilité client**, dans l'onglet **Mises à jour**.                                                                                                                                                                                                |
+| Tâches associées de paramétrage | Dans la page **Souches de numéros**, définissez autant de souches de numéros qu'il est nécessaire pour couvrir les périodes fiscales affectées. Vous devez spécifier une société pour chaque souche de numéros. Les segments des souches de numéros doivent être définis de manière à fournir l'ordre chronologique des périodes. Par exemple, les noms de segment peuvent contenir un préfixe spécial qui identifie une période spécifique.  |
 
 ## <a name="set-up-chronological-numbering"></a>Paramétrer la numérotation chronologique
 ### <a name="accounts-receivable-parameters"></a>Paramètres de la comptabilité client

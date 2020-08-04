@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83f24dd6f094715f96666c3ae94faa4bdb97a652
-ms.sourcegitcommit: fac1d519a85eab0c936b54e0a9247f6a11842871
+ms.openlocfilehash: 4f46d631379711dd2002a95dfa6001a362727f4f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "3177935"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555097"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (24 mars 2020)
 
@@ -59,7 +59,7 @@ Les fonctionnalités d'aperçu suivantes sont disponibles depuis le 3 février�
 
 ## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>La solution Common Data Service est désormais disponible avec les modifications suivantes :
 
-| Description  | Monnaie |
+| Description | Monnaie |
 | --- | --- |
 | Modifications de l'entité **Poste** | <ul><li>**Région de rémunération** ajoutée</li>|
 | Entité **Dimension du poste** ajoutée | <ul><li>**Dimensions financières** ajoutées</li>
@@ -110,6 +110,13 @@ Si l'aperçu du document pour les documents stockés dans SharePoint ne fonction
 
 ## <a name="known-issues"></a>Problèmes connus
 
-## <a name="employment-detail-entity"></a>Entité Détail de l'emploi
+## <a name="employment-detail-entity"></a>Entité Détails de l'emploi
 
 L'entité **Détail de l'emploi** a été mise à jour avec les champs suivants : **PayFrequency**, **ID de catégorie d'emploi**, **Type d'emploi**, **ID de type d'emploi** et **Statut d'emploi à avantages**. Les données de configuration de ces champs reposent sur l'activation de la gestion des avantages dans la gestion des fonctionnalités. Ces champs ne doivent pas être remplis ou mis à jour dans l'entité **Détails de l'emploi**, car cela entraînera des erreurs lors de l'importation.
+
+## <a name="see-also"></a>Voir également :
+
+[Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Processus de mise à jour](hr-admin-setup-update-process.md)</br>
+[Gérer les fonctionnalités](hr-admin-manage-features.md)

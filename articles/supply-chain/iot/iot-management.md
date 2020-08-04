@@ -2,7 +2,7 @@
 title: Surveiller et gérer l'intelligence IoT
 description: Cette rubrique explique comment surveiller et gérer l'intelligence IoT.
 author: robinarh
-manager: AnnBe
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ''
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 97a87b78a0178424f00e464262bb7f69e8a5b4a0
-ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
+ms.openlocfilehash: 05aee9865dc90c97e026d5c05fa2032fc0625f7a
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386512"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597406"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>Surveiller et gérer l'intelligence IoT
 

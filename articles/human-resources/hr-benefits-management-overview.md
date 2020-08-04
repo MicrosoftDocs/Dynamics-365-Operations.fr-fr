@@ -3,7 +3,7 @@ title: Vue d'ensemble de la gestion des avantages
 description: Présentation de la fonction de gestion des avantages dans Dynamics 365 Human Resources. Offrez à vos employés des options d'avantages étendues avec une expérience en ligne facile à utiliser.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429257"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599378"
 ---
 # <a name="benefits-management-overview"></a>Vue d'ensemble de la gestion des avantages
 
@@ -59,6 +59,8 @@ Cet article décrit comment activer les fonctionnalités dans Human Resources. I
 ## <a name="configure-employee-information"></a>Configurer des informations relatives aux employés
 
 Avant de pouvoir inscrire des employés aux avantages sociaux, vous devez fournir les informations requises. Vous devez inscrire un employé dans un **Plan de rémunération fixe** à leur date de début, et vous devez sélectionner une **Fréquence de versement des avantages** dans **Détails de l'emploi** sur le formulaire **Collaborateur**.
+
+Si vous avez un employé qui reçoit une rémunération supplémentaire, comme des commissions, vous pouvez ajouter un montant **Salaire annuel des avantages sociaux** depuis l'enregistrement de l'employé. Human Resources utilise le montant **Salaire annuel des avantages sociaux** lors de la détermination des montants de couverture, au lieu du montant annuel de la rémunération fixe. Le **Salaire annuel des avantages sociaux** doit être valide à la date de début de l'employé ou au début de la période de prestation, selon quelle date est la plus récente. Si une rémunération fixe et un montant de salaire annuel des avantages sociaux sont enregistrés pour un employé, le salaire annuel des avantages sociaux sera utilisé pour déterminer les montants de couverture.
 
 Lorsque vous créez un plan d'avantages qui utilise des taux basés sur le sexe ou l'âge, vous devez saisir une date de naissance et un sexe pour l'employé afin de calculer le coût des avantages.
 
