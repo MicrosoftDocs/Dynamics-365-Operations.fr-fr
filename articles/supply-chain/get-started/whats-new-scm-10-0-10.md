@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268768"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652105"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.10 (mai 2020)
 
@@ -36,14 +36,14 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](https://docs.microsoft.com/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation ou des vidéos supplémentaires actuellement disponibles pour cette fonctionnalité. La plupart de ces fonctionnalités doivent être activées à l'aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
+Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](https://docs.microsoft.com/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation ou des vidéos supplémentaires actuellement disponibles pour cette fonctionnalité. La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
-- [Amélioration de l'utilisation des étiquettes de poids variable existantes avec la gestion de l'entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [Gestion des entrepôts - amélioration de la gestion des chargements entrants](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Pour plus d'informations, voir [Gestion en entrepôt des chargements entrants pour les commandes fournisseur](../warehousing/inbound-load-handling.md).
-- [Améliorations de l'impression d'étiquettes pour la gestion des entrepôts](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) - Pour plus d'informations, voir [Disposition d'acheminement de document pour les étiquettes de contenant](../warehousing/document-routing-layout-for-license-plates.md).
+- [Amélioration de l’utilisation des étiquettes de poids variable existantes avec la gestion de l’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+- [Améliorations de la gestion des charges entrantes pour la gestion de l’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Pour plus d’informations sur la gestion des chargements entrants, voir [Gestion en entrepôt des chargements entrants pour les commandes fournisseur](../warehousing/inbound-load-handling.md).
+- [Améliorations de l’impression d’étiquettes pour la gestion de l’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Pour plus d’informations, voir [Mise en page d’acheminement de document pour les étiquettes de contenant](../warehousing/document-routing-layout-for-license-plates.md).
 - [La planification principale comprend des articles avec un stock disponible lorsque les filtres de prétraitement sont activés](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Nouvelles entités de données pour la zone de fabrication](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Gestion de la qualité pour les processus d'entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) - Pour plus d'informations, voir [Gestion de la qualité pour les processus d'entrepôt](../inventory/quality-management-for-warehouses-processes.md).
+- [Gestion de la qualité pour les processus d’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Pour plus d’informations, voir [Gestion de la qualité pour les processus d’entrepôt](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -53,11 +53,11 @@ Dynamics 365 Supply Chain Management 10.0.10 inclut les mises à jour de platefo
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
-Pour plus d'informations sur les correctifs de bogues inclus dans cette mise à jour, connectez-vous à Lifecycle Services (LCS) et consultez l'[Article de la base de connaissances](https://fix.lcs.dynamics.com/Issue/Details?bugId=424137&dbType=3&qc=bf63d49dcc96e51eb42ac1dd66c6c5e5d7548f1e176f729e324ea3353b9860cb).
+Pour plus d’informations sur les correctifs de bogues inclus dans cette mise à jour, connectez-vous à Lifecycle Services (LCS) et consultez l’[Article de la base de connaissances](https://fix.lcs.dynamics.com/Issue/Details?bugId=424137&dbType=3&qc=bf63d49dcc96e51eb42ac1dd66c6c5e5d7548f1e176f729e324ea3353b9860cb).
 
 ### <a name="dynamics-365-2020-release-wave-1-plan"></a>Dynamics 365 : vague 1 du plan de publication 2020
 
-Vous souhaitez connaître les fonctionnalités à venir et récemment publiées dans nos applications ou notre plateforme d'entreprise ?
+Vous souhaitez connaître les fonctionnalités à venir et récemment publiées dans nos applications ou notre plateforme d’entreprise ?
 
 Consultez [Dynamics 365 : vague 1 du plan de publication 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
 
@@ -65,9 +65,9 @@ Consultez [Dynamics 365 : vague 1 du plan de publication 2020](https://docs.m
 
 La rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) décrit les fonctionnalités qui ont été, ou qui doivent être supprimées ou déconseillées pour Supply Chain Management.
 
-- Une fonction *supprimée* n'est plus disponible dans le produit.
-- Une fonction *déconseillée* n'est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
+- Une fonction *supprimée* n’est plus disponible dans le produit.
+- Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
-Avant que toute fonctionnalité ne soit supprimée du produit, l'avis d'obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
+Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
-Pour les dernières modifications qui n'affectent que le temps de compilation, mais qui sont compatibles d'un point de vue binaire avec les environnements sandbox et de production, le temps d'obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
+Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.

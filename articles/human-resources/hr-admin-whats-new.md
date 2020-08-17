@@ -3,7 +3,7 @@ title: Nouveautés ou modifications dans Human Resources
 description: Chaque semaine, nous fournissons une nouvelle version de Microsoft Dynamics 365 Human Resources. Les articles répertoriés ici détaillent les modifications apportées chaque semaine.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/01/2020
+ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 418ac9cf680f3a3f6316888c62f02b4dc86030c9
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: a0fc9d521d40f47821d6134ebef4dc041df3059f
+ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555361"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3614310"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Nouveautés ou modifications dans Human Resources
 
 Toutes les deux semaines, nous fournissons une nouvelle version de Microsoft Dynamics 365 Human Resources. Les articles de cette section détaillent les modifications apportées avec chaque publication.
 
-Pour plus d'informations sur les fonctionnalités à venir ou le processus de mise à jour de Human Resources, consultez les articles suivants :
+Pour plus d’informations sur les fonctionnalités à venir ou le processus de mise à jour de Human Resources, consultez les articles suivants :
 
 - [Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
@@ -41,6 +41,7 @@ Pour plus d'informations sur les fonctionnalités à venir ou le processus de mi
 
 Pour afficher les nouveautés ou les modifications dans chaque version bihebdomadaire de Human Resources, consultez les articles suivantes :
 
+[23 juillet 2020](hr-whats-new-2020-07-23.md)</br>
 [8 juillet 2020](hr-whats-new-2020-07-08.md)</br>
 [23 juin 2020](hr-whats-new-2020-06-23.md)</br>
 [11 juin 2020](hr-whats-new-2020-06-11.md)</br>
