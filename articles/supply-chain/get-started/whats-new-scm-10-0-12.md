@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3542122"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652057"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.12 (août 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version préliminaire 10.0.12. Cette version a un numéro de build de 10.0.507 et est disponible comme suit :
 
@@ -39,15 +38,15 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](https://docs.microsoft.com/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation ou des vidéos supplémentaires actuellement disponibles pour cette fonctionnalité. La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
-- [Autoriser le verrouillage de l’écran tactile du périphérique de bon de travail pour la désinfection](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization) - Pour plus d’informations, voir [Configurer le bon de travail pour les périphériques](../production-control/config-job-card-device.md).
-- [Capturer les variantes de produits et les dimensions de suivi dans l’application d’entrepôt pendant la réception des articles du chargement](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) - Pour plus d’informations, voir [Configurer des appareils mobiles pour le travail en entrepôt](../warehousing/configure-mobile-devices-warehouse.md).
-- Niveau de calcul des coûts (nouveau niveau de nomenclature) - Pour plus d’informations, voir [Niveau de calcul des coûts](../cost-management/cost-calculation-level.md).
-- [Portail client pour Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) - Pour plus d’informations, voir [Présentation du portail client pour Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
-- [Informations de base sur l’intelligence IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) - Pour plus d’informations, voir [Page d’accueil de l’intelligence IoT](../iot/iot-intelligence-home-page.md).
-- [Améliorations de la réception de contenant pour l’application d’entrepôt (suite)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) - Pour plus d’informations, voir [Réception de contenant via l’application d’entrepôt](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Déploiement de masse pour Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - Pour plus d’informations, voir [Présentation de l’installation et de la configuration de l’application d’entrepôt](../warehousing/install-configure-warehousing-app.md).
-- [Durée d’exécution maximale pour la tâche de nettoyage des entrées disponibles de gestion de l’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) - Pour plus d’informations, voir [Tâche de nettoyage des entrées disponibles de la gestion de l’entrepôt](../warehousing/onhand-cleanup.md).
-- [Prise en charge de l’optimisation de la planification pour les accords commerciaux d’achat](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) - Pour plus d’informations, voir [Planification avec accords commerciaux d’achat](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [Autoriser le verrouillage de l’écran tactile du bon de travail pour la désinfection](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Pour plus d’informations, voir [Configurer le bon de travail pour les périphériques](../production-control/config-job-card-device.md).
+- [Capturez les variantes de produit et suivez les dimensions dans l’application d’entrepôt lors de la réception de l’article de chargement](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Pour plus d’informations, voir [Configurer des appareils mobiles pour un travail d’entrepôt](../warehousing/configure-mobile-devices-warehouse.md).
+- Niveau de calcul des coûts (nouveau niveau de nomenclature)<br> - Pour plus d’informations, voir la rubrique [Niveau de calcul des coûts](../cost-management/cost-calculation-level.md).
+- [Portail client pour Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Pour plus d’informations, voir [Présentation du portail client pour Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+- [Informations de base sur l’intelligence IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Pour plus d’informations, voir [Page d’accueil Intelligence IoT](../iot/iot-intelligence-home-page.md).
+- [Améliorations de la réception de contenant pour l’application d’entrepôt (suite)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Pour plus d’informations, voir [Réception du contenant via l’application d’entrepôt](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Déploiement de masse pour Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Pour plus d’informations, voir [Vue d’ensemble de l’installation et de la configuration de l’application d’entrepôt](../warehousing/install-configure-warehousing-app.md).
+- [Durée d’exécution maximale de la tâche de nettoyage des entrées disponibles pour la gestion des entrepôts](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Pour plus d’informations, voir [Tâche de nettoyage des entrées disponibles de la gestion d’entrepôt](../warehousing/onhand-cleanup.md).
+- [Prise en charge de l’optimisation de la planification pour les accords commerciaux d’achat](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Pour plus d’informations, voir [Planification avec accords commerciaux d’achat](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

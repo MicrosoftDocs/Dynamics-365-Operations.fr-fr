@@ -1,6 +1,6 @@
 ---
 title: Traiter les répartitions
-description: Cet article fournit des informations sur les répartitions, les options pour les traiter dans Microsoft Dynamics 365 Finance, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses sont facturées pour l'objet approprié dans la comptabilité.
+description: Cet article fournit des informations sur les répartitions, les options pour les traiter dans Microsoft Dynamics 365 Finance, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses sont facturées pour l’objet approprié dans la comptabilité.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,33 +18,29 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32271e967da2e7f3702b0c6c2dcdba460aa1b382
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770618"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3612660"
 ---
 # <a name="process-allocations"></a>Traiter les répartitions
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations sur les répartitions, les options pour les traiter, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses sont facturées pour l'objet approprié dans la comptabilité.
+Cet article fournit des informations sur les répartitions, les options pour les traiter, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses sont facturées pour l’objet approprié dans la comptabilité.
 
 Les fonctionnalités suivantes prennent en charge le processus suivant :
 
--   Répartir manuellement les montants de transaction à l'aide de l'action Fractionnement dans les répartitions comptables, ou en appliquant les modèles par défaut de dimension financière à un document. Pour plus d'informations, consultez [Répartitions comptables](../accounts-payable/accounting-distributions.md).
--   Répartir automatiquement les montants des transactions selon des conditions de répartition définies sur le compte principal individuel. Les écritures de compte de répartition seront générées pour chaque journal en fonction du pourcentage et du compte général de destination à chaque fois qu'une écriture comptable répond aux critères définis comme compte général source.
--   Répartir automatiquement les soldes de comptabilité ou les montants fixes en fonction des règles de répartition comptable. Les règles de répartition comptable sont traitées sur une base périodique à l'aide des journaux de répartition. 
+-   Répartir manuellement les montants de transaction à l’aide de l’action Fractionnement dans les répartitions comptables, ou en appliquant les modèles par défaut de dimension financière à un document. Pour plus d’informations, consultez [Répartitions comptables](../accounts-payable/accounting-distributions.md).
+-   Répartir automatiquement les montants des transactions selon des conditions de répartition définies sur le compte principal individuel. Les écritures de compte de répartition seront générées pour chaque journal en fonction du pourcentage et du compte général de destination à chaque fois qu’une écriture comptable répond aux critères définis comme compte général source. Pour plus d’informations, voir [Conditions de répartition sur un compte principal](../general-ledger/main-account-allocation-terms.md)
+-   Répartir automatiquement les soldes de comptabilité ou les montants fixes en fonction des règles de répartition comptable. Les règles de répartition comptable sont traitées sur une base périodique à l’aide des journaux de répartition. Pour plus d’informations, voir la rubrique [Règles de répartition](../general-ledger/ledger-allocation-rules.md).
 
 ###  <a name="allocations-in-budget-planning"></a>Répartitions dans la planification budgétaire
 
-Les règles de répartition comptable peuvent être utilisées pour les plans budgétaires. Lorsque vous utilisez des règles de répartition comptable dans la planification budgétaire, les règles de répartition fonctionnent de la même manière que dans la comptabilité, mais les données sources et les données de destination proviennent du plan budgétaire. Vous pouvez sélectionner manuellement les règles de répartition comptable à utiliser pour les plans budgétaires. Sinon, vous pouvez utiliser un programme de répartition qui s'exécute dans le cadre d'un processus de workflow.
+Les règles de répartition comptable peuvent être utilisées pour les plans budgétaires. Lorsque vous utilisez des règles de répartition comptable dans la planification budgétaire, les règles de répartition fonctionnent de la même manière que dans la comptabilité, mais les données sources et les données de destination proviennent du plan budgétaire. Vous pouvez sélectionner manuellement les règles de répartition comptable à utiliser pour les plans budgétaires. Sinon, vous pouvez utiliser un programme de répartition qui s’exécute dans le cadre d’un processus de workflow.
 
 > [!NOTE]
 > Vous ne pouvez pas utiliser les règles de répartition comptable intersociétés pour la planification budgétaire.
-
-
-
-
 
