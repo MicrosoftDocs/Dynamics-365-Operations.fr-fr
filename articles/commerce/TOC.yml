@@ -408,12 +408,6 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: Images de client dans le PDV
                           href: pos-image.md
-                    - name: Commandes client
-                      items:
-                        - name: Commandes client dans MPOS
-                          href: customer-orders-overview.md
-                        - name: Commandes client hybrides
-                          href: hybrid-customer-orders.md
                     - name: Associés de vente
                       items:
                         - name: Suivre les commissions dans le PDV avec des groupes de ventes
@@ -630,6 +624,8 @@
                       href: personalized-recommendations.md
                     - name: Désactiver les recommandations personnalisées
                       href: personalization-gdpr.md
+                - name: "Activer les recommandations «\_acheter des aspects similaires\_»"
+                  href: shop-similar-looks.md
                 - name: Expériences de PDV
                   items:
                     - name: Ajouter des recommandations produit sur PDV
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Gérer vos commandes
           items:
+            - name: Commandes client
+              items:
+                - name: Commandes client dans MPOS
+                  href: customer-orders-overview.md
+                - name: Commandes client hybrides
+                  href: hybrid-customer-orders.md
             - name: Commandes client
               items:
                 - name: Créer une commande en centre d’appels
@@ -988,6 +990,12 @@
                       href: cart-icon-module.md
                     - name: Module Validation
                       href: add-checkout-module.md
+                    - name: Module Paiement
+                      href: payment-module.md
+                    - name: Module Adresse d’expédition
+                      href: ship-address-module.md
+                    - name: Module Options de livraison
+                      href: delivery-options-module.md
                     - name: Module Détails de la commande
                       href: order-confirmation-module.md
                     - name: Module Carte cadeau
@@ -1290,7 +1298,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/commerce/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
-                    - name: Liste
+                    - name: List
                       items:
                         - name: Fonctions de liste
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
@@ -1304,7 +1312,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/commerce/toc.json
                         - name: Enumerate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/commerce/toc.json
-                        - name: Filtre
+                        - name: Filter
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/commerce/toc.json
                         - name: First
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/commerce/toc.json
@@ -1314,7 +1322,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/commerce/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
-                        - name: Liste
+                        - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/commerce/toc.json
@@ -1974,6 +1982,8 @@
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: Vue d’ensemble de l’API du cookie
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Présentation des composants interactifs
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: Globaliser des modules à l’aide de la classe CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: Développer des actions de données
@@ -2026,6 +2036,10 @@
                   items:
                     - name: Injecteurs de script
                       href: e-commerce-extensibility/script-injector.md
+                - name: Connecteurs
+                  items:
+                    - name: Configurer et activer les connecteurs
+                      href: e-commerce-extensibility/connectors.md
                 - name: Télémétrie et analyse
                   items:
                     - name: Enregistreur automatique de télémétrie
@@ -2042,6 +2056,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Prochaines modifications dans le kit de développement logiciel (SDK) Retail
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: "Modifications importantes du développement et d’ALM entre la version\_10.0.10 et la version\_10.0.13"
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: Fusionner les systèmes de génération pour Commerce et Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: "Migrer le Kit de développement logiciel (SDK) Retail depuis Visual Studio\_2015 vers Visual Studio\_2017"
@@ -2116,17 +2132,13 @@
                   href: dev-itpro/hardware-station-extensibility.md
                 - name: Intégrer un PDV à un nouveau périphérique matériel
                   href: dev-itpro/hardware-device-extension.md
-            - name: "Extensibilité de Retail\_Server"
+            - name: Extensibilité de Retail Server
               items:
-                - name: Étendre un contrôleur OData Commerce Scale Unit
-                  href: dev-itpro/extend-retail-server-odata-controller.md
                 - name: API client et consommateur de Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Étendre le contrôleur de métadonnées Commerce Scale Unit par défaut
-                  href: dev-itpro/extend-metadata.md
-                - name: Appeler le service CRT en mode hors connexion
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: Créer une extension Retail Server
+                - name: "Créer une nouvelle API d’extension Retail Server (Kit de développement logiciel (SDK) Retail version\_10.0.11 et versions ultérieures)"
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: "Créer une nouvelle API d’extension Retail Server (Kit de développement logiciel (SDK) Retail version\_10.0.11 et versions antérieures)"
                   href: dev-itpro/retail-server-extension.md
                 - name: Proxys Typescript et C# pour Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: Extensibilité de CRT et de Retail Server
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Ajouter les données de préférence des clients aux bases de données de canal
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: Gérer les secrets pour les canaux Retail
                   href: dev-itpro/manage-secrets.md
                 - name: Extensibilité et déclencheurs CRT
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Bloquer les transactions à l’aide de déclencheurs
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: Mettre en œuvre une stratégie de retour à l’aide de déclencheurs
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: Extension de fidélité
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: Points d’extension pour les bons de livraison
