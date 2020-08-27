@@ -156,6 +156,8 @@
                           items:
                             - name: Personnaliser les mises en correspondance d’entités et de champs
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Gestion de plusieurs cartes d’entités
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Modifier une entité juridique après la configuration en double écriture
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Gestion des erreurs et notifications d’alerte
