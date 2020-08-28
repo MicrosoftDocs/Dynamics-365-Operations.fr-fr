@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295078"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686788"
 ---
 # <a name="add-a-favicon"></a>Ajouter une icône de favori
 
@@ -30,31 +30,31 @@ ms.locfileid: "3295078"
 
 Cette rubrique explique comment ajouter une icône de favori à votre site.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
-Une icône de favori est un petit fichier graphique affiché sous un onglet du navigateur web, dans la barre d'adresse, dans l'historique de navigation, et dans les signets ou les favoris, entre autres. Nous vous recommandons d'ajouter une icône de favori à votre site, car elle représente et renforce votre marque, et aide à distinguer votre site d'autres sites que vos clients visitent.
+Une icône de favori est un petit fichier graphique affiché sous un onglet du navigateur web, dans la barre d’adresse, dans l’historique de navigation, et dans les signets ou les favoris, entre autres. Nous vous recommandons d’ajouter une icône de favori à votre site, car elle représente et renforce votre marque, et aide à distinguer votre site d’autres sites que vos clients visitent.
 
 Bien que vous puissiez ajouter plusieurs icônes de favori de différentes tailles et types de fichiers à votre site, cette rubrique explique comment ajouter une icône de favori unique. Toutefois, les mêmes processus et emplacement sont utilisés pour ajouter des une icônes de favori.
 
-## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Chargement de l'icône de favori dans la collection d'actifs du site
+## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Chargement de l’icône de favori dans la collection d’actifs du site
 
-Pour charger l'icône de favori dans la collection d'actifs du site, procédez comme suit.
+Pour charger l’icône de favori dans la collection d’actifs du site, procédez comme suit.
 
 1. Dans le volet de navigation de gauche, cliquez sur **Bibliothèque multimédia**.
 1. Dans la barre de commandes, sélectionnez **Télécharger \> Télécharger des éléments multimédias**.
-1. Dans la fenêtre de l'Explorateur de fichiers, accédez au fichier image favicon que vous souhaitez télécharger, sélectionnez-le, puis sélectionnez **Ouvrir**.
+1. Dans la fenêtre de l’Explorateur de fichiers, accédez au fichier image favicon que vous souhaitez télécharger, sélectionnez-le, puis sélectionnez **Ouvrir**.
 1. Dans la boîte de dialogue **Télécharger un élément multimédia**, entrez le titre et le texte de remplacement requis.
-1. Si vous souhaitez publier l'image immédiatement après le téléchargement, sélectionnez la case à cocher **Publier les éléments multimédia après le téléchargement**.
+1. Si vous souhaitez publier l’image immédiatement après le téléchargement, sélectionnez la case à cocher **Publier les éléments multimédia après le téléchargement**.
 
     > [!NOTE]
-    > Si vous ne sélectionnez pas la case à cocher **Publier les éléments multimédia après le téléchargement**, vous devez retourner à la page **Éléments multimédia** et publier manuellement l'icône de favori ultérieurement.
+    > Si vous ne sélectionnez pas la case à cocher **Publier les éléments multimédia après le téléchargement**, vous devez retourner à la page **Éléments multimédia** et publier manuellement l’icône de favori ultérieurement.
 
 1. Cliquez sur **OK**.
-1. Dans le volet de propriété de droite, copiez l'URL publique de l'icône de favori. Vous utiliserez cette URL ultérieurement.
+1. Dans le volet de propriété de droite, copiez l’URL publique de l’icône de favori. Vous utiliserez cette URL ultérieurement.
 
-## <a name="create-the-html-for-your-favicon"></a>Créer l'HTML pour l'icône de favori
+## <a name="create-the-html-for-your-favicon"></a>Créer l’HTML pour l’icône de favori
 
-Pour créer le fichier HTML pour l'icône de favori, utilisez la chaîne HTML suivante. Pour l'attribut **href**, remplacez **Public\_URL\_for\_your\_favicon** par l'URL publique copiée précédemment.
+Pour créer le fichier HTML pour l’icône de favori, utilisez la chaîne HTML suivante. Pour l’attribut **href**, remplacez **Public\_URL\_for\_your\_favicon** par l’URL publique copiée précédemment.
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
@@ -62,26 +62,26 @@ Pour créer le fichier HTML pour l'icône de favori, utilisez la chaîne HTML su
 
 Pour créer un fragment de page contenant une balise META pour votre icône de favori, suivez cette procédure.
 
-1. Accédez à **Fragments de page**, puis sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez **Metatags** comme module sur lequel le fragment de page est basé.
+1. Accédez à **Fragments**, et sélectionnez **Nouveau**.
+1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez **Métabalises** comme module sur lequel le fragment de page est basé.
 1. Entrez un nom pour le fragment de page, puis sélectionnez **OK**.
-1. Dans l'arborescence de la hiérarchie des fragments, sélectionnez l'enfant **Metatags par défaut**.
-1. Dans le volet droit, sous **Balises Meta**, sélectionnez **Ajouter**, puis entrez la chaîne HTML que vous avez créée précédemment pour l'icône de favori. 
+1. Dans l’arborescence de la hiérarchie des fragments, sélectionnez l’enfant **Metatags par défaut**.
+1. Dans le volet droit, sous **Balises Meta**, sélectionnez **Ajouter**, puis entrez la chaîne HTML que vous avez créée précédemment pour l’icône de favori. 
 1. Sélectionnez **Terminer la modification**, puis **Publier** pour publier le fragment de page.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Ajouter le fragment de page de métabalise à la section d'en-tête HTML de vos pages
+## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Ajouter le fragment de page de métabalise à la section d’en-tête HTML de vos pages
 
-Pour ajouter le fragment de page de métabalise à la section d'**en-tête** HTML de vos pages, suivez cette procédure.
+Pour ajouter le fragment de page de métabalise à la section d’**en-tête** HTML de vos pages, suivez cette procédure.
 
 1. Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre icône de favori, puis sélectionnez **Modifier**.
-1. Dans l'arborescence de la hiérarchie des modèles, sélectionnez les points de suspension (**...**) à droite du conteneur **En-tête HTML**, puis sélectionnez **Ajouter un fragment de page**.
+1. Dans l’arborescence de la hiérarchie des modèles, sélectionnez les points de suspension (**...**) à droite du conteneur **En-tête HTML**, puis sélectionnez **Ajouter un fragment de page**.
 1. Dans la boîte de dialogue **Sélectionner un fragment de page**, sélectionnez le fragment de page de métabalise que vous avez créé au préalable, puis sélectionnez **OK**.
 1. Sélectionnez **Terminer la modification**, puis **Publier** pour publier le modèle.
 
 > [!NOTE]
-> Si votre site utilise plusieurs modèles, vous devez ajouter le fragment de page de métabalises à chacun d'eux.
+> Si votre site utilise plusieurs modèles, vous devez ajouter le fragment de page de métabalises à chacun d’eux.
 
-Lorsque vous prévisualisez des pages basées sur le modèle auquel vous avez ajouté le fragment de page de métabalises, vous devriez maintenant voir l'icône de favori dans l'onglet du navigateur.
+Lorsque vous prévisualisez des pages basées sur le modèle auquel vous avez ajouté le fragment de page de métabalises, vous devriez maintenant voir l’icône de favori dans l’onglet du navigateur.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -93,9 +93,9 @@ Lorsque vous prévisualisez des pages basées sur le modèle auquel vous avez aj
 
 [Ajouter un message de bienvenue](add-welcome-message.md)
 
-[Ajouter un avis de droits d'auteur](add-copyright-notice.md)
+[Ajouter un avis de droits d’auteur](add-copyright-notice.md)
 
 [Ajouter des langues à votre site](add-languages-to-site.md)
 
-[Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
+[Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
 

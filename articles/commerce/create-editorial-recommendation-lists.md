@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b866704b419fb07dcf1ddd386af2f7d6cfa02e2
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 9826785700dcc1a35e6199b7aeff4e06b6d9da39
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404114"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665055"
 ---
 # <a name="manually-create-curated-recommendations"></a>Créer manuellement des recommandations sélectionnées
 
@@ -64,9 +64,11 @@ Pour créer une liste de recommandations de produits éditée, procédez comme s
 
 [Désactiver les recommandations personnalisées](personalization-gdpr.md)
 
+[Activer les recommandations « acheter des aspects similaires »](shop-similar-looks.md)
+
 [Ajouter des recommandations produit sur PDV](product.md)
 
-[Ajouter des recommandations à l'écran de transaction](add-recommendations-control-pos-screen.md)
+[Ajouter des recommandations à l’écran de transaction](add-recommendations-control-pos-screen.md)
 
 [Ajuster des résultats des recommandations AI-ML](modify-product-recommendation-results.md)
 

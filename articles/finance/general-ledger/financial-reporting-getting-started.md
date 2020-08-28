@@ -1,9 +1,9 @@
 ---
 title: Présentation des états financiers
-description: Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 Finance et comment utiliser les fonctionnalités de génération d’états financiers. Elle inclut une description des états financiers par défaut fournis.
+description: Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 Finance et comment utiliser les fonctionnalités de génération d’états financiers.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618036"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696686"
 ---
-# <a name="financial-reporting-overview"></a>Vue d’ensemble des états financiers
+# <a name="get-started-with-financial-reporting"></a>Lancez-vous avec Financial Reporting 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ Une fois qu’un utilisateur a été ajouté ou qu’un rôle a été modifié, 
 Les utilisateurs qui génèrent un état peuvent supprimer leurs propres états. Les utilisateurs avec le droit **Tenir à jour la sécurité des états financiers** peuvent supprimer les états des autres. 
 
 Dans la version 10.0.8, le concept de dates d’expiration a été introduit. Une nouvelle fonctionnalité requise est activée dans la page **Tous** dans l’espace de travail de gestion des fonctionnalités. La fonctionnalité **Stratégie de conservation des états financiers** contient les modifications suivantes :
-* Des états nouvellement générés seront automatiquement marqués comme ayant une date d’expiration de 90 jours à compter de leur génération
+* Les états nouvellement générés seront automatiquement marqués comme ayant une date d’expiration de 90 jours à compter de leur génération.
 * Tous les états existants antérieurs à l’installation de la fonctionnalité auront une période d’expiration de 90 jours. La date peut s’afficher comme vide pendant une courte période jusqu’à ce que le service de génération d’états financiers s’exécute, qu’un état soit généré et que le service effectue la mise à jour des états existants avec une date d’expiration vide. 
 * Les utilisateurs disposant du droit **Tenir à jour la sécurité des états financiers** ont accès à cette fonctionnalité. Tout utilisateur dans le droit **Tenir à jour la sécurité des états financiers** se voyant accorder le privilège **Tenir à jour l’expiration des états financiers** aura également la possibilité de modifier la période d’expiration. Actuellement, deux options de rétention sont disponibles : 
   * Une expiration au bout de 90 jours.
@@ -134,6 +134,12 @@ Lorsque vous sélectionnez le menu **États financiers**, la liste des états fi
 ## <a name="creating-and-modifying-financial-reports"></a>Création et modification d’états financiers
 Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en sélectionnant **Nouveau** dans le volet Actions. Un programme de concepteur d’états est téléchargé sur votre périphérique. Une fois que le concepteur d’états démarre, vous pouvez créer l’état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Dynamics 365 Finance. 
 
+## <a name="reporting-tree-definitions"></a>Définitions d’organigramme d’entreprise 
+L’un des composants utilisés pour générer des états financiers est une définition d’arborescence de génération d’états. Une définition de l’arborescence de génération d’états permet de définir la structure et la hiérarchie de votre organisation. Il s’agit d’une hiérarchie inter-dimensionnelles basée sur des relations dimensionnelles dans vos données financières. Elle fournit des informations au niveau de l’unité de génération d’états et à un niveau synthétique pour toutes les unités dans l’arborescence.
+
+Vous pouvez créer un nombre illimité d’arborescences de génération d’état pour afficher les données de votre organisation de différentes manières. Chaque arborescence de génération d’états peut contenir n’importe quelle combinaison de services et d’unités de synthèse, mais une définition d’état ne peut être liée qu’à une seule arborescence de génération d’états à la fois. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Résolution des problèmes d’ouverture du Concepteur de rapports
 Il existe quelques problèmes courants qui peuvent provoquer des problèmes lorsque vous ouvrez le Concepteur de rapports. Ces problèmes et les étapes pour les résoudre sont les suivants.
 
@@ -162,3 +168,4 @@ Problème 3 : vous pouvez continuer au-delà de la page de connexion ClickOnce
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 - [Afficher les états financiers](view-financial-reports.md)
+- [Définitions d’arborescence de génération d’états dans les états financiers](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

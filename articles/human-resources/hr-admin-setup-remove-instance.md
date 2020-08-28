@@ -3,7 +3,7 @@ title: Supprimer une instance
 description: Cet article décrit le processus de suppression d’un pilote test ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621378"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668323"
 ---
 # <a name="remove-an-instance"></a>Supprimer une instance
 
@@ -70,7 +70,7 @@ Pour supprimer un environnement Human Resources d’un environnement Power Apps 
 4. Connectez-vous à LCS à l’aide du compte utilisé pour vous abonner à Human Resources. 
 5. Sélectionnez le projet Human Resources qui contient l’environnement. 
 6. Dans votre projet LCS, sélectionnez la vignette **Gestion de l’application Human Resources**. 
-7. Sélectionnez l’instance à supprimer, qui doit être marquée avec un statut de déploiement **Échec**.
+7. Sélectionnez l’instance à supprimer, qui doit être marquée avec un statut de déploiement **Supprimé**.
 8. Sélectionnez **Supprimer l’instance** et confirmez votre décision. 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Récupérer un environnement supprimé de manière temporaire

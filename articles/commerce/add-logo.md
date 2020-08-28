@@ -19,15 +19,14 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 62b8237fa0c30fa9d901d670de38416cf8615c8d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025691"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686644"
 ---
 # <a name="add-a-logo"></a>Ajouter un logo
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,7 +50,7 @@ Avant de pouvoir ajouter un logo à toutes les pages de votre site, vous devez e
 
 Pour ajouter un logo au fragment d'en-tête de votre site, procédez comme suit.
 
-1. Dans le volet de navigation sur la gauche, sélectionnez **Fragments de page**.
+1. Dans le volet de navigation sur la gauche, sélectionnez **Fragments**.
 1. Sélectionnez le fragment d'en-tête créé précédemment, puis sélectionnez **Modifier**.
 1. Développez le module d'en-tête.
 1. Dans le volet des propriétés du module d'en-tête, fournissez une image et un lien pour le logo. 
@@ -69,9 +68,9 @@ Après avoir publié le fragment d'en-tête mis à jour, toutes les pages de sit
 
 [Ajouter un message de bienvenue](add-welcome-message.md)
 
-[Ajouter un avis de droits d'auteur](add-copyright-notice.md)
+[Ajouter un avis de droits d’auteur](add-copyright-notice.md)
 
 [Ajouter des langues à votre site](add-languages-to-site.md)
 
-[Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
+[Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
 

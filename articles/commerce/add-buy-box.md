@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645337"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686668"
 ---
 # <a name="buy-box-module"></a>Module Zone d’achat
 
@@ -61,7 +61,7 @@ Les thèmes peuvent être utilisés pour supprimer ou modifier l’ordre des com
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Modules qui peuvent être utilisés dans un module de zone d’achat
 
-- **Galerie multimédia** – Ce module permet de présenter des images d’un produit sur une page de détails des produits. Pour plus d’informations sur ce module, voir [Module Galerie multimédia](mediagallery-module.md).
+- **Galerie multimédia** – Ce module permet de présenter des images d’un produit sur une page de détails des produits. Pour plus d’informations sur ce module, voir [Module Galerie multimédia](media-gallery-module.md).
 - **Sélecteur de magasins** – Ce module affiche une liste de magasins voisins où un article est disponible pour le prélèvement. Il permet aux utilisateurs d’entrer un emplacement pour trouver des magasins à proximité. Pour plus d’informations sur ce module, voir [Module du sélecteur de magasins](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Paramètres du module Zone d’achat
@@ -84,7 +84,7 @@ Le module de zone d’achat extrait les informations sur le produit à l’aide 
 
 Pour ajouter un module de zone d’achat à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Accédez à **Fragments de page**, puis cliquez sur **Nouveau** pour créer un fragment.
+1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment.
 1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez le module **Zone d’achat**.
 1. Sous **Nom du fragment de page**, entrez le nom **Fragment de zone d’achat**, puis sélectionnez **OK**.
 1. Dans l’emplacement **Galerie de supports** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
