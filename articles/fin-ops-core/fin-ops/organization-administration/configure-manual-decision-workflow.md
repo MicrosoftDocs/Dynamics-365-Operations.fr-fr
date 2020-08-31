@@ -1,7 +1,7 @@
 ---
 title: Configurer des décisions manuelles dans un workflow
 description: Cette rubrique explique comment configurer les différentes propriétés d'une décision manuelle.
-author: sericks007
+author: ChrisGarty
 manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
-ms.author: donaldc
+ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
-ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
+ms.openlocfilehash: 859e74b869fcf9b8a886f27f67f51bdf28819979
+ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3455031"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3698241"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurer des décisions manuelles dans un workflow
 
@@ -108,8 +108,8 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'une décision doit ê
 1. Dans le volet gauche, cliquez sur **Notifications**.
 2. Activez la case à cocher en regard des événements pour lesquels les notifications doivent être envoyées.
 
-    - **\[[Choix 1\]** – L'utilisateur affecté a choisi **\[Choix 1\]**.
-    - **\[[Choix 2\]** – L'utilisateur affecté a choisi **\[Choix 2\]**.
+    - **\[Choix 1\]** – L'utilisateur affecté a choisi **\[Choix 1\]**.
+    - **\[Choix 2\]** – L'utilisateur affecté a choisi **\[Choix 2\]**.
     - **Déléguer** – L'utilisateur affecté a affecté la décision à un autre utilisateur.
     - **Réaffecter** – L'utilisateur affecté n'a pas pris la décision dans le délai imparti.
 

@@ -3,7 +3,7 @@ title: Module Panier
 description: Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f21268ed4cffed1d5c789f722796cdf05e965819
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621034"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686764"
 ---
 # <a name="cart-module"></a>Module Panier
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -42,9 +43,17 @@ L’image suivante montre un exemple de page de panier sur le site Fabrikam.
 
 ![Exemple d’un module de panier](./media/cart2.PNG)
 
+L’image suivante montre un exemple de page de panier sur le site Fabrikam. Dans cet exemple, des frais de traitement s’appliquent à un élément de ligne.
+
+![Exemple d’un module de panier](./media/ecommerce-handling-fee.png)
+
 ## <a name="cart-module-properties-and-slots"></a>Propriétés et emplacements du module de panier
 
-Le module panier a une propriété **En-tête** qui peut être définie sur des valeurs telles que **Panier d’achat** et **Articles dans votre panier**. 
+| Propriété | Valeurs | Description |
+|----------------|--------|-------------|
+| Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Un en-tête pour le panier, tel que « Panier d’achat » ou « Articles dans votre panier ». |
+| Afficher les erreurs de rupture de stock | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, la page du panier affichera les erreurs liées au stock. Nous vous recommandons de définir cette propriété sur **True** si des contrôles de stock sont appliqués sur le site. |
+| Afficher les frais d’expédition pour les lignes | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les articles de ligne de panier afficheront les frais d’expédition, si ces informations sont disponibles. Cette fonctionnalité n’est pas prise en charge dans le thème Fabrikam, car les utilisateurs sélectionnent la livraison uniquement dans le processus de paiement. Cependant, cette fonctionnalité peut être activée dans d’autres workflows si elle est applicable. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Modules qui peuvent être utilisés dans un module de panier
 
@@ -67,7 +76,7 @@ Le module de panier extrait les informations sur le produit à l’aide des API 
 
 Pour ajouter un module de panier à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Accédez à **Fragments de page**, puis cliquez sur **Nouveau** pour créer un fragment.
+1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment.
 1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez le module **Panier**.
 1. Sous **Nom du fragment de page**, entrez le nom **Fragment de panier**, puis sélectionnez **OK**.
 1. Sélectionnez l’emplacement **Panier**.
@@ -77,7 +86,7 @@ Pour ajouter un module de panier à une nouvelle page et définir les propriét�
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
 1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez un nom pour le nouveau modèle.
-1. Dans l’arborescence de contour, sélectionnez l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un fragment**.
+1. Dans l’arborescence de contour, sélectionnez l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un fragment de page**.
 1. Dans la boîte de dialogue **Sélectionner un fragment de page**, sélectionnez le fragment **Panier**, puis sélectionnez **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
@@ -87,22 +96,18 @@ Pour ajouter un module de panier à une nouvelle page et définir les propriét�
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble du kit de démarrage](starter-kit-overview.md)
+[Module Icône de panier](cart-icon-module.md)
 
-[Module Conteneur](add-container-module.md)
+[Module Validation](add-checkout-module.md)
 
-[Module de sélection de magasin](store-selector.md)
+[Module Paiement](payment-module.md)
 
-[Module de zone d’achat](add-buy-box.md)
+[Module Adresse d’expédition](ship-address-module.md)
 
-[Module icône de panier](cart-icon-module.md)
+[Module Options de livraison](delivery-options-module.md)
 
-[Module de validation](add-checkout-module.md)
+[Module Détails de la commande](order-confirmation-module.md)
 
-[Module de confirmation de commande](order-confirmation-module.md)
-
-[Module d’en-tête](author-header-module.md)
-
-[Module de pied de page](author-footer-module.md)
+[Module Carte cadeau](add-giftcard.md)
 
 [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)

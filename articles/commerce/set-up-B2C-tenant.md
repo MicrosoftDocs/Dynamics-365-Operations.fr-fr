@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b017b0f91960be1504134f6d46878fce956de203
-ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
+ms.openlocfilehash: f31f8898358626f2b008826aa69694dc16742aa0
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497166"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677902"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
@@ -77,7 +77,7 @@ Une fois le locataire B2C créé, vous allez créer une application B2C au sein 
 
 Pour créer une application B2C, procédez comme suit.
 
-1. Dans le portail Azure, sélectionnez **Applications**, puis **Ajouter**.
+1. Dans le portail Azure, sélectionnez **Applications (héritées)**, puis **Ajouter**.
 1. Sous **Nom**, saisissez le nom de l’application AAD B2C souhaitée.
 1. Sous **Application/API Web**, pour **Inclure une application/API Web**, sélectionnez **Oui**.
 1. Pour **Autoriser un flux implicite**, sélectionnez **Oui** (valeur par défaut).

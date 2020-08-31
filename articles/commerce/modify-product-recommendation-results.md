@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b4228583c4a2b89d7139b51880cea0288d7fe49
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404369"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664952"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajuster les résultats de recommandation produit fondées sur l'IA et le ML
 
@@ -110,9 +110,11 @@ Procédez comme suit pour ajouter ou supprimer manuellement des résultats pour 
 
 [Désactiver les recommandations personnalisées](personalization-gdpr.md)
 
+[Activer les recommandations « acheter des aspects similaires »](shop-similar-looks.md)
+
 [Ajouter des recommandations produit sur PDV](product.md)
 
-[Ajouter des recommandations à l'écran de transaction](add-recommendations-control-pos-screen.md)
+[Ajouter des recommandations à l’écran de transaction](add-recommendations-control-pos-screen.md)
 
 [Créer manuellement des recommandations sélectionnées](create-editorial-recommendation-lists.md)
 

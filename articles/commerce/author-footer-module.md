@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411199"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686716"
 ---
 # <a name="footer-module"></a>Module Pied de page  
 
@@ -50,7 +50,7 @@ Comme la plupart des conteneurs, un module de pied de page prend en charge les p
 
 ## <a name="create-a-footer-module"></a>Créer un module de pied de page
 
-1. Accédez à **Fragments de page**, puis cliquez sur **Nouveau** pour créer un fragment.
+1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment.
 1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez le module **Conteneur**, entrez un nom pour le fragment de page, puis sélectionnez **OK**.
 1. Dans l'emplacement **Conteneur par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Catégorie de pied de page**, puis sélectionnez **OK**.

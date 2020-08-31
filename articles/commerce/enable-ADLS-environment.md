@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404184"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665000"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce
 
@@ -102,9 +102,11 @@ Si ce n'est déjà fait, suivez les étapes pour l'[activation des recommandatio
 
 [Désactiver les recommandations personnalisées](personalization-gdpr.md)
 
+[Activer les recommandations « acheter des aspects similaires »](shop-similar-looks.md)
+
 [Ajouter des recommandations produit sur PDV](product.md)
 
-[Ajouter des recommandations à l'écran de transaction](add-recommendations-control-pos-screen.md)
+[Ajouter des recommandations à l’écran de transaction](add-recommendations-control-pos-screen.md)
 
 [Ajuster des résultats des recommandations AI-ML](modify-product-recommendation-results.md)
 

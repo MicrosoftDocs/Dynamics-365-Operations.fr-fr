@@ -242,7 +242,7 @@
               href: accounts-payable/set-up-generate-positive-pay-files.md
             - name: Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d’approbation de facture
               href: accounts-payable/default-offset-accounts-vendor-invoice-journals.md
-            - name: Workflow de fournisseur
+            - name: Flux de travail de fournisseur
               href: accounts-payable/vendor-workflow.md
             - name: Résolution des écarts lors du rapprochement des totaux de factures
               items:
@@ -324,7 +324,7 @@
               href: accounts-receivable/customer-posting-profiles.md
             - name: Copier des clients à l’aide de souches de numéros partagées
               href: accounts-receivable/copy-customer.md
-            - name: Workflow de client
+            - name: Flux de travail de client
               href: accounts-receivable/customer-workflow.md
             - name: Vue d’ensemble de la constatation du produit
               href: accounts-receivable/revenue-recognition-overview.md
@@ -650,9 +650,9 @@
               href: expense-management/Expense-Management-Parameters.md
             - name: Espace de travail mobile pour la gestion des dépenses
               href: expense-management/expense-management-mobile-workspace.md
-            - name: Paramétrer des workflows pour la gestion des dépenses
+            - name: Paramétrer des flux de travail pour la gestion des dépenses
               href: expense-management/expense-workflows.md
-            - name: Workflow de gestion des dépenses
+            - name: Flux de travail de gestion des dépenses
               href: expense-management/expense-workflow.md
             - name: Gérer la délégation des dépenses
               href: expense-management/manage-expense-delegation.md
@@ -1112,7 +1112,7 @@
                   href: public-sector/rules-reservation-types.md
                 - name: Tenir à jour les réservations budgétaires générales
                   href: public-sector/general-budget-reservation-tasks.md
-                - name: Paramétrer les réservations budgétaires générales et les envoyer à un workflow
+                - name: Paramétrer les réservations budgétaires générales et les envoyer à un flux de travail
                   href: public-sector/workflow-general-budget-reservations.md
                 - name: Comptabilité de projet avec des réservations budgétaires générales
                   href: public-sector/general-budget-reservations-project-accounting.md
@@ -1154,11 +1154,11 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Calcul de la taxe de vente harmonisée canadienne
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: États financiers
+        - name: Financial Reporting
           items:
-            - name: Vue d’ensemble des états financiers
+            - name: Lancez-vous avec Financial Reporting
               href: general-ledger/financial-reporting-getting-started.md
-            - name: Vue d’ensemble des états financiers
+            - name: Vue d’ensemble de Financial Reporting
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Composants de l’état financier
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
@@ -2560,7 +2560,7 @@
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Génération d’états
                   items:
-                    - name: États financiers
+                    - name: Financial Reporting
                       href: localizations/rus-financial-reports.md
                     - name: Configurer des états financiers dans Excel
                       href: localizations/rus-excel-financial-report.md
@@ -2600,6 +2600,12 @@
                       href: localizations/rus-counting-deferrals.md
                     - name: Génération d’états pour les reports
                       href: localizations/rus-reporting-deferrals.md
+                - name: Comptabilité fiscale
+                  items:
+                    - name: Codes de dépenses et de recettes
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: Registres fiscaux sur les actifs
+                      href: localizations/rus-assets-tax-registers.md
             - name: Arabie saoudite
               items:
                 - name: Vue d’ensemble de l’Arabie saoudite
@@ -2726,7 +2732,7 @@
                   href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer les paramètres partagés de Human Resources
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Configurer les workflows de Human Resources
+                - name: Configurer les flux de travail de Human Resources
                   href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
                 - name: Comprendre les champs de date et d’heure
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
@@ -2746,7 +2752,7 @@
                   href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
                 - name: FAQ sur les actions du personnel
                   href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Utiliser des workflows pour gérer les informations relatives aux employés
+                - name: Utiliser des flux de travail pour gérer les informations relatives aux employés
                   href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
                 - name: Modifier les relations hiérarchiques d’un poste
                   href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
@@ -3100,7 +3106,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: Liste
+                    - name: List
                       items:
                         - name: Fonctions de liste
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
@@ -3114,7 +3120,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/finance/toc.json
                         - name: Enumerate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/finance/toc.json
-                        - name: Filtre
+                        - name: Filter
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/finance/toc.json
                         - name: First
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/finance/toc.json
@@ -3124,8 +3130,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/finance/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
-                        - name: Liste
+                        - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListeDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3413,12 +3421,14 @@
             - name: Guides de démarrage rapide
               items:
                 - name: Ajuster un format ER pour générer un document électronique personnalisé
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un état personnalisé
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: Didacticiels
               items:
                 - name: Apprendre à utiliser les sources de données
                   items:
-                    - name: Utiliser JOINDRE pour obtenir des données de plusieurs tables
+                    - name: Utiliser JOINTURE pour obtenir des données de plusieurs tables
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Utiliser XML brut pour ajouter du contenu
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
@@ -3648,21 +3658,21 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/finance/toc.json
-            - name: Système de workflow
+            - name: Système de flux de travail
               items:
-                - name: Vue d’ensemble du système de workflow
+                - name: Vue d’ensemble du système de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/finance/toc.json
-                - name: Architecture de système de workflow
+                - name: Architecture de système de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/finance/toc.json
-                - name: Éléments du workflow
+                - name: Éléments du flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/finance/toc.json
-                - name: Actions de workflow
+                - name: Actions de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/finance/toc.json
-                - name: Créer des workflows
+                - name: Créer des flux de travail
                   items:
-                    - name: Vue d’ensemble de création des workflows
+                    - name: Vue d’ensemble de création des flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/finance/toc.json
-                    - name: Configuration des propriétés de workflow
+                    - name: Configuration des propriétés de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/finance/toc.json
                     - name: Configuration de tâches manuelles
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/finance/toc.json
@@ -3680,37 +3690,37 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/finance/toc.json
                     - name: Configuration de branches parallèles
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/finance/toc.json
-                    - name: Configuration de workflows pour ligne
+                    - name: Configuration de flux de travail pour ligne
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/finance/toc.json
-                - name: Configurer le traitement par lots Traitement des messages de workflow comme critique
+                - name: Configurer le traitement par lots Traitement des messages de flux de travail comme critique
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/finance/toc.json
-                - name: Délégation d’éléments de travail dans un workflow
+                - name: Délégation d’éléments de travail dans un flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/finance/toc.json
-                - name: Afficher l’historique du workflow
+                - name: Afficher l’historique du flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/finance/toc.json
-                - name: Configuration du système pour envoyer un e-mail de workflow associé aux utilisateurs
+                - name: Configuration du système pour envoyer un e-mail de flux de travail associé aux utilisateurs
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/finance/toc.json
-                - name: Types de workflow
+                - name: Types de flux de travail
                   items:
-                    - name: Création d’un type de workflow
+                    - name: Création d’un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/finance/toc.json
-                    - name: Liste de contrôle des types de workflow
+                    - name: Liste de contrôle des types de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/finance/toc.json
-                    - name: Créer une catégorie de workflow
+                    - name: Créer une catégorie de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/finance/toc.json
-                    - name: Créer une requête pour un type de workflow
+                    - name: Créer une requête pour un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/finance/toc.json
-                    - name: Créer un type de workflow
+                    - name: Créer un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/finance/toc.json
-                    - name: Créer une classe de document de workflow
+                    - name: Créer une classe de document de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/finance/toc.json
                     - name: Créer une classe SubmitToWorkflow
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/finance/toc.json
-                    - name: Associer une classe de document de workflow à un type de workflow
+                    - name: Associer une classe de document de flux de travail à un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/finance/toc.json
-                - name: État sur les types de workflow
+                - name: État sur les types de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ sur les workflows
+                - name: FAQ sur les flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/finance/toc.json
             - name: Alertes
               items:

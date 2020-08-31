@@ -805,7 +805,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/supply-chain/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Liste
+                    - name: List
                       items:
                         - name: Fonctions de liste
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/supply-chain/toc.json
@@ -819,7 +819,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Enumerate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Filtre
+                        - name: Filter
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/supply-chain/toc.json
                         - name: First
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/supply-chain/toc.json
@@ -829,7 +829,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/supply-chain/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Liste
+                        - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/supply-chain/toc.json
@@ -2751,6 +2751,8 @@
                       href: inventory/warehouse-template.md
                     - name: Travail de contrôle à l’aide de modèles de travail et d’instructions d’emplacement
                       href: warehousing/control-warehouse-location-directives.md
+                    - name: Créer des instructions d’emplacement
+                      href: warehousing/create-location-directive.md
                     - name: Codes étape de vague
                       href: warehousing/wave-step-codes.md
                     - name: Configurer le traitement de la vague
@@ -2821,6 +2823,8 @@
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: Créer un moteur de gestion du transport
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Étendre le stock des entités de données disponibles
+              href: inventory/extend-on-hand-entities.md
     - name: Développement et administration des applications Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
