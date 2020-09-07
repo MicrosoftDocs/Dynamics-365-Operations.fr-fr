@@ -68,6 +68,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Acheter Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Conseils de mise en œuvre de Commerce Data Exchange
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: Applications Finance and Operations exploitées par 21Vianet en Chine
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Applications Finance and Operations en France
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Créer et utiliser des champs personnalisés
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Intégrer les applications PowerApps
+                - name: Incorporer Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Rechercher des informations à l’aide des recherches
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,9 +204,15 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Sélectionner une topologie en magasin
                   href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange et communications du canal commercial
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
-                - name: Architecture de MPOS
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Recommandations relatives à Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange et communications du canal commercial
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Résolution des problèmes avec Commerce Data Exchange
+                      href: dev-itpro/CDX-Troubleshooting.md
+                - name: Architecture de Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Architecture de publication de magasin en ligne
                   href: dev-itpro/retail-online-store-publishing-architecture.md
@@ -516,9 +524,11 @@
                       href: duplicate-payment-protection.md
                     - name: Vue d’ensemble des paiements omnicanaux
                       href: omni-channel-payments.md
+                    - name: Paiements de commandes de Commerce omnicanal
+                      href: dev-itpro/commerce-payments.md
                     - name: FAQ Paiements
                       href: dev-itpro/payments-retail.md
-                - name: Gérer les Bing Cartes pour votre organisation
+                - name: Gérer Bing Cartes pour votre organisation
                   href: dev-itpro/manage-bing-maps.md
         - name: Promotion de vos produits et services
           items:
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: Modifier et auditer les transactions du magasin de vente au détail
               href: edit-audit-retail-transactions.md
-            - name: 'Créer, calculer et valider des relevés pour un magasin de vente au détail'
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: Création de commandes basée sur un flux en continu pour les transactions du magasin de vente au détail
               href: trickle-feed.md
             - name: 'Créer, calculer et valider des relevés pour un magasin de vente au détail'
@@ -1130,17 +1138,17 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Accès aux informations et génération d’états
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Options de personnalisation avec PowerBI.com
+            - name: Options de personnalisation avec Power BI
               items:
-                - name: Fonctionnalités disponibles via l’intégration PowerBI.com
+                - name: Fonctionnalités disponibles via l’intégration de Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: Épingler le contenu PowerBI.com
+                - name: Épingler du contenu Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Sélectionner des espaces de travail analytiques depuis PowerBI.com
+                - name: Sélectionner des espaces de travail analytiques depuis Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Contenu Power BI
               items:
-                - name: Page d’accueil Contenu Power BI
+                - name: Page d’accueil du contenu Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Apprentissage
                   href: ../fin-ops-core/dev-itpro/analytics/learning-power-bi.md?toc=/dynamics365/commerce/toc.json
@@ -1186,9 +1194,9 @@
               items:
                 - name: Intégration de Power BI avec le magasin des entités
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
-                - name: Résoudre les problèmes après la maintenance du magasin d’entité
+                - name: Résoudre les problèmes après la maintenance du magasin des entités
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: Configurer l’intégration PowerBI.com
+                - name: Configurer l’intégration de Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Apporter votre propre base de données
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -1202,7 +1210,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Ajout de dimensions financières aux mesures globales
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Créer des états d’analyse à l’aide de PowerBI Desktop
+                - name: Créer des états analytiques à l’aide de Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1806,21 +1814,21 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/commerce/toc.json
-            - name: Système de workflow
+            - name: Système de flux de travail
               items:
-                - name: Vue d’ensemble du système de workflow
+                - name: Vue d’ensemble du système de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Architecture de système de workflow
+                - name: Architecture de système de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/commerce/toc.json
-                - name: Éléments du workflow
+                - name: Éléments du flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/commerce/toc.json
-                - name: Actions de workflow
+                - name: Actions de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/commerce/toc.json
-                - name: Créer des workflows
+                - name: Créer des flux de travail
                   items:
-                    - name: Vue d’ensemble de création des workflows
+                    - name: Vue d’ensemble de création des flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configuration des propriétés de workflow
+                    - name: Configuration des propriétés de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/commerce/toc.json
                     - name: Configuration de tâches manuelles
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/commerce/toc.json
@@ -1838,37 +1846,37 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Configuration de branches parallèles
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configuration de workflows pour ligne
+                    - name: Configuration de flux de travail pour ligne
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurer le traitement par lots Traitement des messages de workflow comme critique
+                - name: Configurer le traitement par lots Traitement des messages de flux de travail comme critique
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/commerce/toc.json
-                - name: Délégation d’éléments de travail dans un workflow
+                - name: Délégation d’éléments de travail dans un flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/commerce/toc.json
-                - name: Afficher l’historique du workflow
+                - name: Afficher l’historique du flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/commerce/toc.json
-                - name: Configuration du système pour envoyer un e-mail de workflow associé aux utilisateurs
+                - name: Configuration du système pour envoyer un e-mail de flux de travail associé aux utilisateurs
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/commerce/toc.json
-                - name: Types de workflow
+                - name: Types de flux de travail
                   items:
-                    - name: Création d’un type de workflow
+                    - name: Création d’un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/commerce/toc.json
-                    - name: Liste de contrôle des types de workflow
+                    - name: Liste de contrôle des types de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/commerce/toc.json
-                    - name: Créer une catégorie de workflow
+                    - name: Créer une catégorie de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/commerce/toc.json
-                    - name: Créer une requête pour un type de workflow
+                    - name: Créer une requête pour un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/commerce/toc.json
-                    - name: Créer un type de workflow
+                    - name: Créer un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/commerce/toc.json
-                    - name: Créer une classe de document de workflow
+                    - name: Créer une classe de document de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/commerce/toc.json
                     - name: Créer une classe SubmitToWorkflow
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Associer une classe de document de workflow à un type de workflow
+                    - name: Associer une classe de document de flux de travail à un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/commerce/toc.json
-                - name: État sur les types de workflow
+                - name: État sur les types de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/commerce/toc.json
-                - name: FAQ sur les workflows
+                - name: FAQ sur les flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/commerce/toc.json
             - name: Alertes
               items:
@@ -2046,9 +2054,9 @@
                       href: e-commerce-extensibility/telemetry-logger.md
                 - name: Déploiement et maintenance
                   items:
-                    - name: Empaqueter les configurations les déployer dans un environnement en ligne
+                    - name: Empaqueter les configurations et les déployer dans un environnement en ligne
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: Mise à jour des kits de développement logiciel et des bibliothèques essentielles
+                    - name: Mises à jour du kit de développement logiciel (SDK) et du kit de démarrage du magasin
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Kit de développement logiciel (SDK) Retail
               items:
@@ -2182,10 +2190,12 @@
               items:
                 - name: Créer une intégration du paiement pour un terminal de paiement
                   href: dev-itpro/end-to-end-payment-extension.md
-                - name: Implémentation d’un connecteur de paiement et d’un périphérique de paiement (livre blanc)
+                - name: Mise en œuvre d’un connecteur de paiement et d’un périphérique de paiement (livre blanc)
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Déployer des connecteurs de paiement
                   href: dev-itpro/deploy-payment-connector.md
+                - name: Capture incrémentielle pour la facturation du back-office
+                  href: dev-itpro/incremental-capture.md
                 - name: Créer des messages d’erreur localisés personnalisés pour les extensions du terminal de paiement
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: Créer des programmes d’installation Windows pour des connecteurs de paiement

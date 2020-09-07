@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Créer et utiliser des champs personnalisés
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Intégrer les applications PowerApps
+                - name: Incorporer Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Rechercher des informations à l’aide des recherches
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,17 +633,17 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Accès aux informations et génération d’états
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Options de personnalisation avec PowerBI.com
+            - name: Options de personnalisation avec Power BI
               items:
-                - name: Fonctionnalités disponibles via l’intégration PowerBI.com
+                - name: Fonctionnalités disponibles via l’intégration de Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Épingler le contenu PowerBI.com
+                - name: Épingler du contenu Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Sélectionner des espaces de travail analytiques depuis PowerBI.com
+                - name: Sélectionner des espaces de travail analytiques depuis Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Contenu Power BI
               items:
-                - name: Page d’accueil Contenu Power BI
+                - name: Page d’accueil du contenu Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Gestion des coûts
                   href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
@@ -693,7 +693,7 @@
               items:
                 - name: Intégration de Power BI avec le magasin des entités
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Résoudre les problèmes après la maintenance du magasin d’entité
+                - name: Résoudre les problèmes après la maintenance du magasin des entités
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer l’intégration PowerBI.com
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
@@ -1545,21 +1545,21 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Système de workflow
+            - name: Système de flux de travail
               items:
-                - name: Vue d’ensemble du système de workflow
+                - name: Vue d’ensemble du système de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Architecture de système de workflow
+                - name: Architecture de système de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Éléments du workflow
+                - name: Éléments du flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Actions de workflow
+                - name: Actions de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Créer des workflows
+                - name: Créer des flux de travail
                   items:
-                    - name: Vue d’ensemble de création des workflows
+                    - name: Vue d’ensemble de création des flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Configuration des propriétés de workflow
+                    - name: Configuration des propriétés de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configuration de tâches manuelles
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/supply-chain/toc.json
@@ -1577,37 +1577,37 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configuration de branches parallèles
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Configuration de workflows pour ligne
+                    - name: Configuration de flux de travail pour ligne
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurer le traitement par lots Traitement des messages de workflow comme critique
+                - name: Configurer le traitement par lots Traitement des messages de flux de travail comme critique
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Délégation d’éléments de travail dans un workflow
+                - name: Délégation d’éléments de travail dans un flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Afficher l’historique du workflow
+                - name: Afficher l’historique du flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configuration du système pour envoyer un e-mail de workflow associé aux utilisateurs
+                - name: Configuration du système pour envoyer un e-mail de flux de travail associé aux utilisateurs
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Types de workflow
+                - name: Types de flux de travail
                   items:
-                    - name: Création d’un type de workflow
+                    - name: Création d’un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Liste de contrôle des types de workflow
+                    - name: Liste de contrôle des types de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Créer une catégorie de workflow
+                    - name: Créer une catégorie de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Créer une requête pour un type de workflow
+                    - name: Créer une requête pour un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Créer un type de workflow
+                    - name: Créer un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Créer une classe de document de workflow
+                    - name: Créer une classe de document de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Créer une classe SubmitToWorkflow
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Associer une classe de document de workflow à un type de workflow
+                    - name: Associer une classe de document de flux de travail à un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/supply-chain/toc.json
-                - name: État sur les types de workflow
+                - name: État sur les types de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: FAQ sur les workflows
+                - name: FAQ sur les flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/supply-chain/toc.json
             - name: Alertes
               items:
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Exclure des produits de la planification
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Biens à double usage
-                  href: pim/dual-use.md
-                - name: Pays d’origine
-                  href: pim/country-of-origin.md
                 - name: Créer un code-barres pour un produit
                   href: pim/tasks/create-bar-code-product.md
                 - name: Entrer le code GTIN d’un produit
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: Ajouter une image à un produit
                   href: pim/tasks/add-image-product.md
+                - name: Pays d’origine
+                  href: pim/country-of-origin.md
+                - name: Biens à double usage
+                  href: pim/dual-use.md
+                - name: Matières dangereuses
+                  items:
+                    - name: Vue d’ensemble des matières dangereuses
+                      href: pim/hazmat-overview.md
+                    - name: Paramétrer des matières dangereuses
+                      href: pim/hazmat-setup.md
+                    - name: 'Matières dangereuses dans les produits, les commandes, les expéditions et les chargements'
+                      href: pim/hazmat-items.md
+                    - name: Demandes de renseignements et états sur les matières dangereuses
+                      href: pim/hazmat-reports.md
                 - name: Traduction des FAQ sur les informations sur les produits
                   href: pim/translations-product-related-information.md
                 - name: Recherche de produit lors de la saisie de commande
