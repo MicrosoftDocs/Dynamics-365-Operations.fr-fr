@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (06 août 2020)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources.
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 06 août 2020.
 author: darinkramer
 manager: AnnBe
 ms.date: 8/06/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0903be5ead66e09a3e571b523ad4bc20bf92eeb
-ms.sourcegitcommit: 6cb0fb3f6fcffa872b855cffa11105f8e3ce074b
+ms.openlocfilehash: 94d8291190b6c08c6e0e5241513989354df7939d
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698576"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711840"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (06 août 2020)
 
-Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s'appliquent au numéro de version 8.1.3444. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support LCS pour référence.
+Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3444. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support LCS pour référence.
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platform update 10.0.12(36) est désormais disponible
 
@@ -41,50 +41,50 @@ Les entités de gestion des avantages publient. Les entités DMF permettent d’
 - [Vue d’ensemble de la gestion des données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
 
 
-## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire crée un workflow pour l'achat et la vente de demandes de congé (446557)
+## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire crée un workflow pour l’achat et la vente de demandes de congé (446557)
 
 Pour plus d’informations, voir :
 
-- [Permettre aux employés d'acheter et de vendre des congés](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) dans la 2e partie du lancement 2020 de Dynamics 365
+- [Permettre aux employés d’acheter et de vendre des congés](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) dans la 2e partie du lancement 2020 de Dynamics 365
 - [Gérer les stratégies d’achat et de vente de congés](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
 - [Achat et vente de congés](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 
-## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>L'entité V2 des adresses postales des collaborateurs a accès à toutes les entités juridiques à accès restreint (459126)
+## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>L’entité V2 des adresses postales des collaborateurs a accès à toutes les entités juridiques à accès restreint (459126)
 
-Avec ce changement, l'entité **Adresse postale du collaborateur V2** restreindra en fonction de l'accès de l'entité juridique donné à l'utilisateur.
+Avec ce changement, l’entité **Adresse postale du collaborateur V2** restreindra en fonction de l’accès de l’entité juridique donné à l’utilisateur.
 
-## <a name="workflow-email-hyperlink-fails-to-open-relevant-reviews-437398"></a>Le lien hypertexte de l'e-mail de workflow ne parvient pas à ouvrir les avis pertinents (437398)
+## <a name="workflow-email-hyperlink-fails-to-open-relevant-reviews-437398"></a>Le lien hypertexte de l’e-mail de workflow ne parvient pas à ouvrir les avis pertinents (437398)
 
-Lorsque vous utilisez l'espace réservé pour ouvrir une évaluation des performances dans le workflow de révision, le lien hypertexte généré dans l'e-mail ouvre désormais l'enregistrement sélectionné.
+Lorsque vous utilisez l’espace réservé pour ouvrir une évaluation des performances dans le workflow de révision, le lien hypertexte généré dans l’e-mail ouvre désormais l’enregistrement sélectionné.
 
-## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Nouvelles entités pour l'achat et la vente de congés (473180)
+## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Nouvelles entités pour l’achat et la vente de congés (473180)
 
-Les entités du cadre de gestion des données sont désormais disponibles pour l'achat et la vente de congés. Pour plus d'informations, voir [Vue d'ensemble de la gestion des données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
+Les entités du cadre de gestion des données sont désormais disponibles pour l’achat et la vente de congés. Pour plus d’informations, voir [Vue d’ensemble de la gestion des données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
-## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Lors de l'affichage des informations d'enregistrement et de l'utilisation de filtres avancés, un utilisateur peut accéder aux enregistrements d'autres employés (472490)
+## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Lors de l’affichage des informations d’enregistrement et de l’utilisation de filtres avancés, un utilisateur peut accéder aux enregistrements d’autres employés (472490)
 
-Avec cette modification, les utilisateurs du libre-service des employés ne peuvent accéder qu'à leurs propres enregistrements en utilisant le libre-service des employés. L'affichage des informations d'enregistrement tout en modifiant l'option de filtrage n'expose plus de données supplémentaires.
+Avec cette modification, les utilisateurs du libre-service des employés ne peuvent accéder qu’à leurs propres enregistrements en utilisant le libre-service des employés. L’affichage des informations d’enregistrement tout en modifiant l’option de filtrage n’expose plus de données supplémentaires.
 
-## <a name="personnel-management-analytics-include-exited-worker-records-382893"></a>L'analyse de la gestion du personnel comprend les enregistrements des collaborateurs ayant quitté la société (382893)
+## <a name="personnel-management-analytics-include-exited-worker-records-382893"></a>L’analyse de la gestion du personnel comprend les enregistrements des collaborateurs ayant quitté la société (382893)
 
 Avec cette version, les analyses de gestion du personnel incluent désormais uniquement les collaborateurs actifs. 
  
 ## <a name="unable-to-process-a-merit-increase-for-an-employee-473125"></a>Impossible de traiter une augmentation pour mérite pour un employé (473125)
 
-Cette modification vous permet de saisir des augmentations pour mérite lorsque vous modifiez la date d'entrée en vigueur de la nouvelle augmentation pour mérite.
+Cette modification vous permet de saisir des augmentations pour mérite lorsque vous modifiez la date d’entrée en vigueur de la nouvelle augmentation pour mérite.
 
-## <a name="review-workflow-can-be-started-more-than-once-467541"></a>Le workflow d'évaluation peut être démarré plusieurs fois (467541)
+## <a name="review-workflow-can-be-started-more-than-once-467541"></a>Le workflow d’évaluation peut être démarré plusieurs fois (467541)
 
-Avec cette modification, vous ne pouvez démarrer le workflow d'évaluation des performances qu'une seule fois. Le statut du responsable n'affiche plus l'option de commencer l'évaluation.
+Avec cette modification, vous ne pouvez démarrer le workflow d’évaluation des performances qu’une seule fois. Le statut du responsable n’affiche plus l’option de commencer l’évaluation.
 
-## <a name="leave-request-work-flow-ends-in-error-when-canceling-an-approved-leave-request-472063"></a>Le workflow de demande de congé se termine par une erreur lors de l'annulation d'une demande de congé approuvée (472063)
+## <a name="leave-request-work-flow-ends-in-error-when-canceling-an-approved-leave-request-472063"></a>Le workflow de demande de congé se termine par une erreur lors de l’annulation d’une demande de congé approuvée (472063)
 
-Dans cette version, lorsque vous annulez une demande de congé approuvée, l'état de la demande ne reste plus approuvé et le workflow se poursuit.
+Dans cette version, lorsque vous annulez une demande de congé approuvée, l’état de la demande ne reste plus approuvé et le workflow se poursuit.
 
-## <a name="system-suggests-exited-workers-when-creating-a-new-review-form-the-template-460624"></a>Le système suggère des collaborateurs ayant quitté la société lors de la création d'une nouvelle évaluation à partir du modèle (460624)
+## <a name="system-suggests-exited-workers-when-creating-a-new-review-form-the-template-460624"></a>Le système suggère des collaborateurs ayant quitté la société lors de la création d’une nouvelle évaluation à partir du modèle (460624)
 
-Avec ce changement, les collaborateurs ayant quitté la société ne sont plus disponibles lors de la création de nouvelles évaluations à partir d'un modèle. Vous ne pouvez pas créer d'évaluation pour les employés qui sont en dehors des dates de leur emploi.
+Avec ce changement, les collaborateurs ayant quitté la société ne sont plus disponibles lors de la création de nouvelles évaluations à partir d’un modèle. Vous ne pouvez pas créer d’évaluation pour les employés qui sont en dehors des dates de leur emploi.
 
 ## <a name="position-hierarchy-circular-reference-detection-415879"></a>Détection de référence circulaire de hiérarchie des postes (415879)
 
@@ -94,13 +94,13 @@ Avec ce changement, la détection de référence circulaire de la hiérarchie de
 
 Certaines organisations offrent un avantage qui permet aux employés d’acheter ou de vendre des congés. Ce processus est souvent géré manuellement. Cette fonctionnalité automatise la gestion des stratégies et des demandes pour le service RH. Il rationalise le processus de gestion des congés et aide à éliminer les erreurs. Pour plus d’informations, voir :
 
-- [Permettre aux employés d'acheter et de vendre des congés](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) dans la 2e partie du lancement 2020 de Dynamics 365
+- [Permettre aux employés d’acheter et de vendre des congés](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) dans la 2e partie du lancement 2020 de Dynamics 365
 - [Gérer les stratégies d’achat et de vente de congés](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
 - [Achat et vente de congés](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Provisions de congés pour une seule entreprise ou un seul plan
 
-Les clients peuvent traiter les charges à payer pour une seule entreprise ou un seul plan de congé et d’absence. Cette capacité permet de clarifier le processus d’accumulation pour les clients avec différentes années de congé ou politiques d’accumulation de congés. Pour plus d’informations, voir [Accumulation de congés par entreprise ou par plan de congés](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+Les clients peuvent traiter les charges à payer pour une seule entreprise ou un seul plan de congé et d’absence. Cette capacité permet de clarifier le processus d’accumulation pour les clients avec différentes années de congé ou politiques d’accumulation de congés. Pour plus d’informations, voir [Accumulation de congés par entreprise ou par plan de congés](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Ajouter des pièces jointes aux demandes de congé
 
@@ -122,7 +122,7 @@ Vous pouvez créer une règle pour suspendre les cumuls de congés pour les empl
 
 ### <a name="mandatory-fields"></a>Champs obligatoires
 
-Vous pouvez rendre les champs obligatoires en utilisant les fonctionnalités de personnalisation de Human Resources. Cette fonctionnalité nécessite des **Vues enregistrées**. Pour plus d'informations sur les vues enregistrées, voir :
+Vous pouvez rendre les champs obligatoires en utilisant les fonctionnalités de personnalisation de Human Resources. Cette fonctionnalité nécessite des **Vues enregistrées**. Pour plus d’informations sur les vues enregistrées, voir :
 
 - [Vues enregistrées – disponibilité générale](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) dans la 2e partie du lancement 2020 de Dynamics 365
 - [Écrans de version utilisant entièrement des vues enregistrées](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
@@ -146,14 +146,14 @@ Les entités de liste de contrôle pour les processus d’intégration, de dépa
 
 ## <a name="known-issues"></a>Problèmes connus
 
-L'espace de travail **Gestion des fonctionnalités** peut afficher des fonctionnalités désactivées en tant que fonctionnalités d'aperçu lorsqu'elles sont généralement disponibles. Vous trouverez ci-dessous une liste des fonctionnalités généralement disponibles qui indiquent un état incorrect. 
+L’espace de travail **Gestion des fonctionnalités** peut afficher des fonctionnalités désactivées en tant que fonctionnalités d’aperçu lorsqu’elles sont généralement disponibles. Vous trouverez ci-dessous une liste des fonctionnalités généralement disponibles qui indiquent un état incorrect. 
 
 1.  Gestion des avantages
 2.  Gestion des dossiers
 3.  Journalisation de base de données (audit)
 4.  Régularisation des congés pour une seule société ou un seul plan
 5.  Suspension de la régularisation des congés et des absences
-6.  Code motif d'ajustement du solde et commentaire
+6.  Code motif d’ajustement du solde et commentaire
 7.  Achat et vente de congés
 8.  Calendrier des congés et des absences
 9.  Règles de report de congés
@@ -162,7 +162,7 @@ L'espace de travail **Gestion des fonctionnalités** peut afficher des fonctionn
 12. Arrondi de la régularisation des congés
 13. Configurer plusieurs types de congés sur un seul plan de congé
 14. Mettre à jour les améliorations de période de congés
-15. Utiliser l'ETP d'un employé pour les régularisations
+15. Utiliser l’ETP d’un employé pour les régularisations
 16. Vue Rémunération intersociétés
 17. Imprimer les évaluations des performances
 18. Corrections des jours fériés pour la régularisation des congés

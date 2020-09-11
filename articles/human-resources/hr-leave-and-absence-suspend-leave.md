@@ -1,6 +1,6 @@
 ---
 title: Suspendre les congés
-description: Vous pouvez suspendre les congés d'un employé dans Dynamics 365 Human Resources.
+description: Vous pouvez suspendre les congés d’un employé dans Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/01/2020
@@ -18,22 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed663a8b602e1d3f43a429ba18f515dc84d6d3e3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 0a65eed44de41ae35bf241166ee22dd280ce5d7a
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428568"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712446"
 ---
 # <a name="suspend-leave"></a>Suspendre les congés
 
-[!include [banner](includes/preview-feature.md)]
-
-Vous pouvez suspendre les congés d'un employé pour interrompre le traitement des régularisations de congés pour les types de congés sélectionnés. 
+Vous pouvez suspendre les congés d’un employé pour interrompre le traitement des régularisations de congés pour les types de congés sélectionnés. 
 
 ## <a name="suspend-leave-and-absence-for-an-employee"></a>Suspendre les congés et les absences pour un employé
 
-1. Dans le dossier de l'employé, sélectionnez **Congé**.
+1. Dans le dossier de l’employé, sélectionnez **Congé**.
 
 2. Sélectionnez **Suspendre les congés**.
 
@@ -43,11 +41,11 @@ Vous pouvez suspendre les congés d'un employé pour interrompre le traitement d
 
 5. Vous pouvez éventuellement ajouter un **Commentaire** pour la suspension. 
 
-Si les régularisations sont traitées alors que le congé de l'employé est suspendu, aucune régularisation ne sera effectuée pour le congé de type suspendu.
+Si les régularisations sont traitées alors que le congé de l’employé est suspendu, aucune régularisation ne sera effectuée pour le congé de type suspendu.
 
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
-- [Configurer les types de congé et d'absence](hr-leave-and-absence-types.md)
-- [Provisionner les plans de congé et d'absence](hr-leave-and-absence-accrue.md)
+- [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+- [Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)
+- [Provisionner les plans de congé et d’absence](hr-leave-and-absence-accrue.md)
 

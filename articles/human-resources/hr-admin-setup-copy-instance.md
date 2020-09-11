@@ -3,7 +3,7 @@ title: Copier une instance
 description: Vous pouvez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour copier une base de données Microsoft Dynamics 365 Human Resources dans un environnement de bac à sable.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,65 +18,67 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
-ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
+ms.openlocfilehash: 6b52b696d323df6bafead2418ae322d1a9cdf64a
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3554323"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706226"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
 Vous pouvez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour copier une base de données Microsoft Dynamics 365 Human Resources dans un environnement de bac à sable. Si vous avez un autre environnement de bac à sable, vous pouvez également copier la base de données de cet environnement vers un environnement cible de bac à sable.
 
-Pour copier une instance, vous devez vous assurer des éléments suivants :
+Pour copier une instance, gardez à l’esprit les conseils suivants :
 
-- L'instance Human Resources que vous souhaitez remplacer doit être un environnement de bac à sable.
+- L’instance Human Resources que vous souhaitez remplacer doit être un environnement de bac à sable.
 
 - Les environnements à partir desquels vous copiez doivent être situés dans la même région. Vous ne pouvez pas copier entre les régions.
 
-- Vous devez être administrateur dans l'environnement cible afin de pouvoir vous y connecter après avoir copié l'instance.
+- Vous devez être administrateur dans l’environnement cible afin de pouvoir vous y connecter après avoir copié l’instance.
 
-- Lorsque vous copiez la base de données des ressources humaines, vous ne copiez pas les éléments (applications ou données) contenus dans un environnement Microsoft PowerApps. Pour plus d'informations sur la copie d'éléments dans un environnement PowerApps, voir [Copier un environnement](https://docs.microsoft.com/power-platform/admin/copy-environment). L'environnement PowerApps que vous souhaitez remplacer doit être un environnement de bac à sable. Vous devez être un administrateur de locataire global pour basculer un environnement PowerApps de production vers un environnement de bac à sable. Pour plus d'informations sur la modification d'un environnement PowerApps, voir [Basculer une instance](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- Lorsque vous copiez la base de données des ressources humaines, vous ne copiez pas les éléments (applications ou données) contenus dans un environnement Microsoft Power Apps. Pour plus d’informations sur la copie d’éléments dans un environnement Power Apps, voir [Copier un environnement](https://docs.microsoft.com/power-platform/admin/copy-environment). L’environnement Power Apps que vous souhaitez remplacer doit être un environnement de bac à sable. Vous devez être un administrateur de locataire global pour basculer un environnement Power Apps de production vers un environnement de bac à sable. Pour plus d’informations sur la modification d’un environnement Power Apps, voir [Basculer une instance](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-## <a name="effects-of-copying-a-human-resources-database"></a>Effets de la copie d'une base de données Human Resources
+- Si vous copiez une instance dans votre environnement bac à sable et souhaitez intégrer votre environnement bac à sable à Common Data Service, vous devez réappliquer les champs personnalisés aux entités Common Data Service. Voir [Appliquer des champs personnalisés à Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+
+## <a name="effects-of-copying-a-human-resources-database"></a>Effets de la copie d’une base de données Human Resources
 
 Les événements suivants se produisent lorsque vous copiez une base de données Human Resources :
 
-- Le processus de copie efface la base de données existante dans l'environnement cible. Une fois le processus de copie terminé, vous ne pouvez pas récupérer la base de données existante.
+- Le processus de copie efface la base de données existante dans l’environnement cible. Une fois le processus de copie terminé, vous ne pouvez pas récupérer la base de données existante.
 
-- L'environnement cible ne sera pas disponible tant que le processus de copie n'est pas terminé.
+- L’environnement cible ne sera pas disponible tant que le processus de copie n’est pas terminé.
 
-- Les documents dans le stockage Microsoft Azure Blob n'est pas copié d'un environnement à un autre. Par conséquent, tous les documents et modèles joints ne seront pas copiés et resteront dans l'environnement source.
+- Les documents dans le stockage Microsoft Azure Blob n’est pas copié d’un environnement à un autre. En conséquence, tous les documents et modèles joints ne seront pas copiés et resteront dans l’environnement source.
 
-- Tous les utilisateurs sauf l'utilisateur Admin et les autres comptes d'utilisateurs de service interne seront désactivés. Par conséquent, l'utilisateur Admin peut supprimer ou masquer les données avant que d'autres utilisateurs ne soient autorisés à réintégrer le système.
+- Tous les utilisateurs sauf l’utilisateur Admin et les autres comptes d’utilisateurs de service interne seront désactivés. L’utilisateur Admin peut supprimer ou masquer les données avant que d’autres utilisateurs ne soient autorisés à réintégrer le système.
 
-- L'utilisateur Admin doit apporter les modifications de configuration requises, telles que la reconnexion des points de terminaison d'intégration à des services ou URL spécifiques.
+- L’utilisateur Admin doit apporter les modifications de configuration requises, telles que la reconnexion des points de terminaison d’intégration à des services ou URL spécifiques.
 
 ## <a name="copy-the-human-resources-database"></a>Copier la base de données Human Resources
 
-Pour terminer cette tâche, vous devez d'abord copier une instance, puis vous connecter au Centre d'administration Microsoft Power Platform pour copier votre environnement PowerApps.
+Pour terminer cette tâche, vous devez d’abord copier une instance, puis vous connecter au Centre d’administration Microsoft Power Platform pour copier votre environnement Power Apps.
 
 > [!WARNING]
-> Lorsque vous copiez une instance, la base de données est effacée dans l'instance cible. L'instance cible n'est pas disponible pendant ce processus.
+> Lorsque vous copiez une instance, la base de données est effacée dans l’instance cible. L’instance cible n’est pas disponible pendant ce processus.
 
-1. Connectez-vous à LCS et sélectionnez le projet LCS qui contient l'instance que vous souhaitez copier.
+1. Connectez-vous à LCS et sélectionnez le projet LCS qui contient l’instance que vous souhaitez copier.
 
-2. Dans votre projet LCS, sélectionnez la vignette **Gestion de l'application Human Resources**.
+2. Dans votre projet LCS, sélectionnez la vignette **Gestion de l’application Human Resources**.
 
-3. Sélectionnez l'instance à copier, puis sélectionnez **Copier**.
+3. Sélectionnez l’instance à copier, puis sélectionnez **Copier**.
 
-4. Dans le volet des tâches **Copier une instance**, sélectionnez l'instance à remplacer, puis sélectionnez **Copier**. Attendez que la valeur du champ **Statut de la copie** affiche **Terminé**.
+4. Dans le volet des tâches **Copier une instance**, sélectionnez l’instance à remplacer, puis sélectionnez **Copier**. Attendez que la valeur du champ **Statut de la copie** affiche **Terminé**.
 
-   ![[Sélectionner l'instance à remplacer](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Sélectionner l’instance à remplacer](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
-5. Sélectionnez **Power Platform**, et aconnectez-vous au Centre d'administration Microsoft Power Platform.
+5. Sélectionnez **Power Platform**, et aconnectez-vous au Centre d’administration Microsoft Power Platform.
 
    ![[Sélectionner Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. Sélectionnez l'environnement PowerApps à copier, puis sélectionnez **Copier**.
+6. Sélectionnez l’environnement Power Apps à copier, puis sélectionnez **Copier**.
 
-7. Une fois le processus de copie terminé, connectez-vous à l'instance cible et activez l'intégration Common Data Service. Pour plus d'informations et instructions, voir [Configurer l'intégration Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Une fois le processus de copie terminé, connectez-vous à l’instance cible et activez l’intégration Common Data Service. Pour plus d’informations et instructions, voir [Configurer l’intégration Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Éléments de données et statuts
 
@@ -90,24 +92,59 @@ Les éléments de données suivants ne sont pas copiés lorsque vous copiez une 
 
 - Le serveur SMTP Relay dans la table **SysEmailParameters**
 
-- Paramètres de gestion d'impression dans les tables **PrintMgmtSettings** et **PrintMgmtDocInstance**
+- Paramètres de gestion d’impression dans les tables **PrintMgmtSettings** et **PrintMgmtDocInstance**
 
-- Enregistrements spécifiques à l'environnement dans les tables **SysServerConfig**, **SysServerSessions**, **SysCorpNetPrinters**, **SysClientSessions**, **BatchServerConfig**, et **BatchServerGroup**
+- Enregistrements spécifiques à l’environnement dans les tables **SysServerConfig**, **SysServerSessions**, **SysCorpNetPrinters**, **SysClientSessions**, **BatchServerConfig**, et **BatchServerGroup**
 
-- Pièces jointes dans la table DocuValue. Ces pièces jointes comprennent tous les modèles Microsoft Office qui ont été remplacés dans l'environnement source
+- Pièces jointes dans la table DocuValue. Ces pièces jointes comprennent tous les modèles Microsoft Office qui ont été remplacés dans l’environnement source
 
 - Chaîne de connexion dans la table **PersonnelIntegrationConfiguration**
 
-Certains de ces éléments ne sont pas copiés car ils sont spécifiques à l'environnement. Les exemples comprennent les enregistrements **BatchServerConfig** et **SysCorpNetPrinters**. Les autres éléments ne sont pas copiés en raison du volume des tickets de support. Par exemple, des e-mails en double peuvent être envoyés car SMTP est toujours activé dans l'environnement de test d'acceptation des utilisateurs (bac à sable), des messages d'intégration non valides peuvent être envoyés car les traitements par lots sont toujours activés et les utilisateurs peuvent être activés avant que les administrateurs puissent effectuer des actions de nettoyage post-actualisation.
+Certains de ces éléments ne sont pas copiés, car ils sont spécifiques à l’environnement. Les exemples comprennent les enregistrements **BatchServerConfig** et **SysCorpNetPrinters**. Les autres éléments ne sont pas copiés en raison du volume des tickets de support. Par exemple :
 
-En outre, les statuts suivants changent lorsque vous copiez une instance :
+- Des e-mails en double peuvent être envoyés, car SMTP est toujours activé dans l’environnement de test d’acceptation utilisateur (bac à sable).
+
+- Des messages d’intégration non valides peuvent être envoyés, car les tâches par lots sont toujours activées.
+
+- Les utilisateurs peuvent être activés avant que les administrateurs puissent effectuer des actions de nettoyage post-actualisation.
+
+De plus, les statuts suivants changent lorsque vous copiez une instance :
 
 - Tous les utilisateurs sauf Admin sont définis sur **Désactivé**.
 
-- Tous les traitements par lots, à l'exception de certains traitements système, sont définis sur **Retenir**.
+- Tous les traitements par lots, à l’exception de certains traitements système, sont définis sur **Retenir**.
 
-## <a name="environment-admin"></a>Administrateur de l'environnement
+## <a name="environment-admin"></a>Administrateur de l’environnement
 
-Tous les utilisateurs de l'environnement de bac à sable cible, y compris les administrateurs, sont remplacés par les utilisateurs de l'environnement source. Avant de copier une instance, assurez-vous que vous êtes administrateur dans l'environnement source. Si ce n'est pas le cas, vous ne pourrez pas vous connecter à l'environnement de bac à sable cible une fois la copie terminée.
+Tous les utilisateurs de l’environnement de bac à sable cible, y compris les administrateurs, sont remplacés par les utilisateurs de l’environnement source. Avant de copier une instance, assurez-vous que vous êtes administrateur dans l’environnement source. Si ce n’est pas le cas, vous ne pouvez pas vous connecter à l’environnement de bac à sable cible une fois la copie terminée.
 
-Tous les utilisateurs non administrateurs de l'environnement de bac à sable cible sont désactivés pour empêcher les connexions indésirables dans l'environnement de bac à sable. Les administrateurs peuvent réactiver les utilisateurs si nécessaire.
+Tous les utilisateurs non administrateurs de l’environnement de bac à sable cible sont désactivés pour empêcher les connexions indésirables dans l’environnement de bac à sable. Les administrateurs peuvent réactiver les utilisateurs si nécessaire.
+
+## <a name="apply-custom-fields-to-common-data-service"></a>Appliquer des champs personnalisés à Common Data Service
+
+Si vous copiez une instance dans votre environnement bac à sable et souhaitez intégrer votre environnement bac à sable à Common Data Service, vous devez réappliquer les champs personnalisés aux entités Common Data Service.
+
+Pour chaque champ personnalisé exposé sur des entités Common Data Service, procédez comme suit :
+
+1. Accédez au champ personnalisé et sélectionnez **Modifier**.
+
+2. Désélectionnez le champ **Activé** pour chaque entité cdm_* sur laquelle le champ personnalisé est activé.
+
+3. Sélectionnez **Appliquer les modifications**.
+
+4. Sélectionnez à nouveau **Modifier**.
+
+5. Sélectionnez le champ **Activé** pour chaque entité cdm_* sur laquelle le champ personnalisé est activé.
+
+6. Sélectionnez à nouveau **Appliquer les modifications**.
+
+Le processus de désélection, d’application des modifications, de resélection et de réapplication des modifications invite le schéma à se mettre à jour dans Common Data Service pour inclure les champs personnalisés.
+
+Pour plus d’informations sur la création de champs personnalisés, voir [Créer et utiliser des champs personnalisés](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+
+## <a name="see-also"></a>Voir également :
+
+[Mettre en service Human Resources](hr-admin-setup-provision.md)</br>
+[Supprimer une instance](hr-admin-setup-remove-instance.md)</br>
+[Processus de mise à jour](hr-admin-setup-update-process.md)
+

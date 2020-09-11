@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (25 février 2020)
-description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources.
+description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 25 février 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/25/2020
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5bc232bef257e757086d37d56b0f68b80114749
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: d3ce007ad7e7acb4c8dca22388f72ca94110f08c
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555073"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712542"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (25 février 2020)
 
-Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s'appliquent au numéro de version 8.1.2927. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support LCS pour référence.
+Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.2927. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support LCS pour référence.
 
-## <a name="enable-case-management-navigation-and-data-management-framework-dmf-entity-414754"></a>Activer l'entité Infrastructure de gestion des données (DMF) et navigation de la gestion des dossiers (414754)
+## <a name="enable-case-management-navigation-and-data-management-framework-dmf-entity-414754"></a>Activer l’entité Infrastructure de gestion des données (DMF) et navigation de la gestion des dossiers (414754)
 
-Cette fonction d'aperçu permet une navigation supplémentaire vers les cas de gestion des dossiers. Vous pouvez activer cette fonctionnalité en version préliminaire dans l'espace de travail **Gestion des fonctionnalités**. Ces éléments de menu apparaissent dans l'espace de travail **Conformité** de Dynamics 365 Human Resources. Avec cette modification, les ressources humaines peuvent accéder à :
+Cette fonction d’aperçu permet une navigation supplémentaire vers les cas de gestion des dossiers. Vous pouvez activer cette fonctionnalité en version préliminaire dans l’espace de travail **Gestion des fonctionnalités**. Ces éléments de menu apparaissent dans l’espace de travail **Conformité** de Dynamics 365 Human Resources. Avec cette modification, les ressources humaines peuvent accéder à :
 
 - Tous les dossiers
 - Mes dossiers
@@ -39,23 +39,23 @@ Cette fonction d'aperçu permet une navigation supplémentaire vers les cas de g
 - Mes dossiers en retard
 - Dossiers affectés à moi-même via le flux de travail
 
-Parallèlement à ces nouvelles vues des dossiers, l'entité DMF **Détail du dossier** est également disponible.
+Parallèlement à ces nouvelles vues des dossiers, l’entité DMF **Détail du dossier** est également disponible.
 
-## <a name="enable-relationship-definitions-in-global-address-bbook-414762"></a>Activer les définitions de relations dans l'adresse bBook globale (414762)
+## <a name="enable-relationship-definitions-in-global-address-bbook-414762"></a>Activer les définitions de relations dans l’adresse bBook globale (414762)
 
-Les relations sont désormais activées dans le carnet d'adresses global. Avant la sortie de cette semaine, le récapitulatif **Relation** affichait toutes les relations définies par le système. Vous pouvez maintenant définir ces relations dans la page du carnet d'adresses global.
+Les relations sont désormais activées dans le carnet d’adresses global. Avant la sortie de cette semaine, le récapitulatif **Relation** affichait toutes les relations définies par le système. Vous pouvez maintenant définir ces relations dans la page du carnet d’adresses global.
 
-## <a name="a-position-can-be-removed-when-active-compensation-records-exist-for-the-position-414568"></a>Un poste peut être supprimé lorsqu'il existe des enregistrements de rémunération actifs pour le poste (414568)
+## <a name="a-position-can-be-removed-when-active-compensation-records-exist-for-the-position-414568"></a>Un poste peut être supprimé lorsqu’il existe des enregistrements de rémunération actifs pour le poste (414568)
 
-Avec cette modification, un avertissement s'affiche lorsque vous tentez de supprimer un poste et un collaborateur a un enregistrement de rémunération actif pour ce même poste. Dans ce cas, vous devez mettre à jour l'enregistrement de rémunération fixe des employés avant de supprimer le poste.
+Avec cette modification, un avertissement s’affiche lorsque vous tentez de supprimer un poste et un collaborateur a un enregistrement de rémunération actif pour ce même poste. Dans ce cas, vous devez mettre à jour l’enregistrement de rémunération fixe des employés avant de supprimer le poste.
 
-## <a name="performance-review-workflow-occasionally-adds-sign-offs-from-people-who-are-not-part-of-the-process-414171"></a>Le flux de travail d'examen des performances ajoute occasionnellement des approbations de personnes qui ne font pas partie du processus (414171)
+## <a name="performance-review-workflow-occasionally-adds-sign-offs-from-people-who-are-not-part-of-the-process-414171"></a>Le flux de travail d’examen des performances ajoute occasionnellement des approbations de personnes qui ne font pas partie du processus (414171)
 
-Cette modification corrige un problème dans lequel des participants d'approbation supplémentaires sont ajoutés à l'évaluation des performances.
+Cette modification corrige un problème dans lequel des participants d’approbation supplémentaires sont ajoutés à l’évaluation des performances.
 
 ## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>Affectation de poste de travail non créée dans Common Data Service lorsque sélectionné dans la boîte de dialogue Nouveau collaborateur (413479)
 
-Cette modification corrige un problème lors du recrutement d'un nouveau collaborateur et de l'affectation de la nouvelle recrue à un poste via la boîte de dialogue **Nouveau collaborateur**. Maintenant, l'affectation de poste se reflète dans Common Data Service.
+Cette modification corrige un problème lors du recrutement d’un nouveau collaborateur et de l’affectation de la nouvelle recrue à un poste via la boîte de dialogue **Nouveau collaborateur**. Maintenant, l’affectation de poste se reflète dans Common Data Service.
 
 ## <a name="coming-soon"></a>Prochainement
 
@@ -65,26 +65,26 @@ Une nouvelle solution Common Data Service sera bientôt disponible avec les modi
 
 | Description | Monnaie |
 | ----------------------------------------- | --- |
-| Modifications de l'entité **Poste** | **Région de rémunération** ajoutée</br>**Dimensions financières** ajoutées |
-| Modifications de l'entité **Collaborateur** | **Séquence de noms** ajoutée</br>**Télétravaille** ajouté</br>**Langue** ajoutée</br>**Date d'ancienneté** ajoutée</br>**Date anniversaire** ajoutée</br>**Date d'embauche d'origine** ajoutée |
-| Modifications de l'entité **Emploi** | **Dimensions financières** ajoutées</br>**Motif de la fin du contrat** ajouté</br>**Date de résiliation** renommée à partir de **Date de transition**</br>**Période d'essai** ajoutée |
-| Modifications de l'entité **Adresse du collaborateur** | **Nom de la rue** ajouté</br>**Ligne d'adresse 1**, **Ligne d'adresse 2** et **Ligne d'adresse 3** marquées pour suppression |
-| Nouvelles entités de configuration de la rémunération variable | **Type de régime variable de rémunération**</br>**Régime variable de rémunération**</br>**Règles d'acquisition**</br>**Niveau de régime variable de rémunération** |
+| Modifications de l’entité **Poste** | **Région de rémunération** ajoutée</br>**Dimensions financières** ajoutées |
+| Modifications de l’entité **Collaborateur** | **Séquence de noms** ajoutée</br>**Télétravaille** ajouté</br>**Langue** ajoutée</br>**Date d’ancienneté** ajoutée</br>**Date anniversaire** ajoutée</br>**Date d’embauche d’origine** ajoutée |
+| Modifications de l’entité **Emploi** | **Dimensions financières** ajoutées</br>**Motif de la fin du contrat** ajouté</br>**Date de résiliation** renommée à partir de **Date de transition**</br>**Période d’essai** ajoutée |
+| Modifications de l’entité **Adresse du collaborateur** | **Nom de la rue** ajouté</br>**Ligne d’adresse 1**, **Ligne d’adresse 2** et **Ligne d’adresse 3** marquées pour suppression |
+| Nouvelles entités de configuration de la rémunération variable | **Type de régime variable de rémunération**</br>**Régime variable de rémunération**</br>**Règles d’acquisition**</br>**Niveau de régime variable de rémunération** |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | **Entité de calendrier de travail** ajoutée |
 | Nouvelle entité **Détails du poste de paie** | **Détails du poste de paie** ajoutés |
 | Nouvelle entité **Titre** | **Titre** ajouté. La nouvelle entité **Titre** sera incluse dans le processus de synchronisation entre Human Resources et Common Data Service. Elle ne sera pas référencée initialement à partir des entités **Poste** ou **Tâche**. |
 
-Au cours des prochaines semaines, ces modifications d'entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Common Data Service pour les ressources humaines :
+Au cours des prochaines semaines, ces modifications d’entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Common Data Service pour les ressources humaines :
 
-1.  Accédez au [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com).
+1.  Accédez au [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  Sélectionner **Environnements**.
 
-3.  Recherchez l'environnement que vous souhaitez mettre à niveau. Celui-ci doit correspondre à **Nom de l'environnement** dans la section **Informations relatives à Common Data Service** dans le formulaire **À propos de** dans Human Resources.
+3.  Recherchez l’environnement que vous souhaitez mettre à niveau. Celui-ci doit correspondre à **Nom de l’environnement** dans la section **Informations relatives à Common Data Service** dans le formulaire **À propos de** dans Human Resources.
 
-4.  Sélectionnez l'environnement pour afficher les détails de l'environnement.
+4.  Sélectionnez l’environnement pour afficher les détails de l’environnement.
 
-5.  Dans la barre d'action située en haut, sélectionnez **Gérer les solutions**. Une nouvelle fenêtre de navigateur s'ouvrira et accédera au **Centre d'administration Dynamics 365** dans le contexte de votre environnement.
+5.  Dans la barre d’action située en haut, sélectionnez **Gérer les solutions**. Une nouvelle fenêtre de navigateur s’ouvrira et accédera au **Centre d’administration Dynamics 365** dans le contexte de votre environnement.
 
 6.  Dans la liste **Solution**, sélectionnez **Ancre Dynamics 365 Human Resources**.
 
@@ -92,11 +92,11 @@ Au cours des prochaines semaines, ces modifications d'entités seront disponible
 
 ## <a name="in-preview"></a>En mode aperçu
 
-Les fonctionnalités d'aperçu suivantes sont disponibles depuis le 3 février 2020 :
+Les fonctionnalités d’aperçu suivantes sont disponibles depuis le 3 février 2020 :
 
-- **Fonctionnalités d'aperçu de congé et d'absence** - Pour plus d'informations, voir [Fonctionnalités d'aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
+- **Fonctionnalités d’aperçu de congé et d’absence** - Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-- **Fonction d'aperçu de la gestion des avantages** - Pour plus d'informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
+- **Fonction d’aperçu de la gestion des avantages** - Pour plus d’informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
 
 ## <a name="see-also"></a>Voir également :
 

@@ -1,9 +1,9 @@
 ---
-title: Configuration des paramètres de congé et d'absence
+title: Configuration des paramètres de congé et d’absence
 description: Définissez les paramètres des ressources humaines pour les congés et les absences dans Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,62 +18,64 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e4d3b3e4b373631bed5e2d7e3c3a4e14f0c5c98
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428942"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712374"
 ---
-# <a name="configure-leave-and-absence-parameters"></a>Configuration des paramètres de congé et d'absence
+# <a name="configure-leave-and-absence-parameters"></a>Configuration des paramètres de congé et d’absence
 
-Avant de configurer des plans de congé et d'absence dans Dynamics 365 Human Resources, il est judicieux de vérifier la configuration de tous les paramètres des ressources humaines associés, notamment :
+Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human Resources, il est judicieux de vérifier la configuration de tous les paramètres des ressources humaines associés, notamment :
 
 - Souche de numéros pour les demandes de congé
 - Paramètres relatifs au Family Medical and Leave Act (FMLA)
-- Paramètres en libre-service des employés pour les demandes de congé et d'absence
-- Paramètres de congé et d'absence
+- Paramètres en libre-service des employés pour les demandes de congé et d’absence
+- Paramètres de congé et d’absence
 
 ## <a name="view-and-change-human-resources-parameters"></a>Afficher et modifier les paramètres des ressources humaines
 
-1. Dans la page **Plans de congé et d'absence**, sélectionnez l'onglet **Liens**.
+1. Dans la page **Plans de congé et d’absence**, sélectionnez l’onglet **Liens**.
 
 2. Sous **Configuration**, sélectionnez **Paramètres des ressources humaines**.
 
-3. Sur l'onglet **Souches de numéros**, vérifiez le **Code souche de N°** pour **ID de demande de congé** et changez si nécessaire. Ce paramètre détermine la souche utilisée pour attribuer automatiquement les ID aux demandes de congé.
+3. Sur l’onglet **Souches de numéros**, vérifiez le **Code souche de N°** pour **ID de demande de congé** et changez si nécessaire. Ce paramètre détermine la souche utilisée pour attribuer automatiquement les ID aux demandes de congé.
 
-4. Sur l'onglet **FMLA**, vérifiez les paramètres FMLA et modifiez-les si nécessaire.
+4. Sur l’onglet **FMLA**, vérifiez les paramètres FMLA et modifiez-les si nécessaire.
 
-5. Sur l'onglet **Libre-service employé**, indiquez si les gestionnaires peuvent saisir des demandes de congé et d'absence au nom de leurs employés.
-
-6. Sur l'onglet **Types de congé et d'absence**, vérifiez les paramètres FMLA et modifiez-les si nécessaire.
+5. Sur l’onglet **Libre-service employé**, indiquez si les gestionnaires peuvent saisir des demandes de congé et d’absence au nom de leurs employés.
 
 7. Sélectionnez **Enregistrer**.
 
-## <a name="view-and-change-leave-and-absence-parameters"></a>Afficher et modifier les paramètres de congé et d'absence
+## <a name="view-and-change-leave-and-absence-parameters"></a>Afficher et modifier les paramètres de congé et d’absence
 
-1. Dans la page **Plans de congé et d'absence**, sélectionnez l'onglet **Liens**.
+1. Dans la page **Plans de congé et d’absence**, sélectionnez l’onglet **Liens**.
 
-2. Sous **Configuration**, sélectionnez **Paramètres de congé et d'absence**.
+2. Sous **Configuration**, sélectionnez **Paramètres de congé et d’absence**.
 
-3. Dans l'onglet **Général**, définissez les paramètres suivants :
+3. Dans l’onglet **Général**, définissez les paramètres suivants :
  
-    - Définissez **Unités de congé et d'absence** sur des heures ou des jours. S'il s'agit de jours, vous pouvez sélectionner **Activer la définition d'une demi-journée** pour permettre aux employés de choisir la première ou la seconde partie de la journée dans leurs demandes de congés. 
+    - Définissez **Unités de congé et d’absence** sur des heures ou des jours. S’il s’agit de jours, vous pouvez sélectionner **Activer la définition d’une demi-journée** pour permettre aux employés de choisir la première ou la seconde partie de la journée dans leurs demandes de congés. 
 
-    - Sélectionnez **Date d'entrée en vigueur des mois de service** pour déterminer quand les taux de régularisation entrent en vigueur pour les plans de congé avec les mois de service.
+    - Sélectionnez **Date d’entrée en vigueur des mois de service** pour déterminer quand les taux de régularisation entrent en vigueur pour les plans de congé avec les mois de service.
 
-    - Sélectionnez **Calcul du solde** pour afficher les soldes à partir d'aujourd'hui ou de la période de régularisation. Si vous sélectionnez **Solde à ce jour**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à ce jour. Si vous sélectionnez **Solde à compter de la période de régularisation**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à partir de la période de régularisation définie par la fréquence dans le plan de congés. 
+    - Sélectionnez **Calcul du solde** pour afficher les soldes à partir d’aujourd’hui ou de la période de régularisation. Si vous sélectionnez **Solde à ce jour**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à ce jour. Si vous sélectionnez **Solde à compter de la période de régularisation**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à partir de la période de régularisation définie par la fréquence dans le plan de congés. 
+
+    - Définissez l’heure de début du report de la tâche par lots d’expiration.  
+    
+    - Sélectionnez **Oui** pour **Autoriser les employés à acheter des congés** et **Autoriser les employés à vendre des congés**. Si vous sélectionnez **Oui** pour ces options, vous pouvez créer des stratégies d’achat et de vente de congés et permettre aux employés de soumettre des demandes d’achat et de vente de congés.
 
 ## <a name="configure-calendar-parameters"></a>Configurer les paramètres de calendrier
 
-1. Dans la page **Plans de congé et d'absence**, sélectionnez l'onglet **Liens**.
+1. Dans la page **Plans de congé et d’absence**, sélectionnez l’onglet **Liens**.
 
-2. Sous **Configuration**, sélectionnez **Paramètres de congé et d'absence**.
+2. Sous **Configuration**, sélectionnez **Paramètres de congé et d’absence**.
 
-3. Sur l'onglet **Calendrier**, modifiez les paramètres de calendrier si nécessaire.
+3. Sur l’onglet **Calendrier**, modifiez les paramètres de calendrier si nécessaire.
 
 4. Sélectionnez **Enregistrer**.
 
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+- [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
