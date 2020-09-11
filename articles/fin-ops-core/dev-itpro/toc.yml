@@ -130,6 +130,8 @@
                       items:
                         - name: Page d’accueil de double écriture
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Nouveautés ou modifications dans la double écriture
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: Vue d’ensemble de la double écriture
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Configuration en double écriture
@@ -1472,6 +1474,8 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Création d’une stratégie de sécurité
                   href: sysadmin/create-simple-security-policy.md
+            - name: Rester conforme aux exigences de licence utilisateur
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: Automatisation des processus
               href: sysadmin/process-automation.md
             - name: Traitement par lots

@@ -1,9 +1,9 @@
 ---
 title: Achat et vente de congés
-description: Vous pouvez soumettre des demandes d'achat et de vente de congés.
+description: Dans Dynamics 365 Human Resources, vous pouvez soumettre des demandes d’achat et de vente de congés en fonction des stratégies d’achat et de vente de congés mises en place par votre entreprise.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,30 +18,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b765544dcca02ff629e4cc88e3b34d1d3b3e85dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429679"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711816"
 ---
 # <a name="buy-and-sell-leave"></a>Achat et vente de congés
 
-[!include [banner](includes/preview-feature.md)]
+Dans Dynamics 365 Human Resources, vous pouvez soumettre des demandes d’achat et de vente de congés en fonction des stratégies d’achat et de vente de congés mises en place par votre entreprise.  
 
-Vous pouvez soumettre des demandes d'achat de congés.  
+## <a name="request-to-buy-leave"></a>Demande d’achat de congé
 
-## <a name="request-to-buy-leave"></a>Demande d'achat de congé
-
-1. Dans l'espace de travail **Libre-service employé**, sélectionnez **Demande d'achat de congés** dans la vignette **Soldes des congés**. 
+1. Dans l’espace de travail **Libre-service employé**, sélectionnez **Demande d’achat de congés** dans la vignette **Soldes des congés**. 
 
 2. Ajoutez un **Type de congé** et entrez une **Quantité** pour la quantité de congés que vous souhaitez acheter. 
 
 3. Sélectionner **Soumettre** lorsque vous êtes prêt à soumettre votre demande. 
 
-Une fois la demande soumise, vos soldes seront automatiquement mis à jour avec la quantité de congés que vous avez demandé à acheter. 
+Vos soldes seront automatiquement mis à jour ou passer par un processus d’approbation avant la mise à jour. Cela dépend de la façon dont la stratégie d’achat a été configurée.
+
+## <a name="request-to-sell-leave"></a>Demande de vente de congé
+
+1. Dans l’espace de travail **Libre-service employé**, sélectionnez **Demande de vente de congés** dans la vignette **Soldes des congés**. 
+
+2. Ajoutez un **Type de congé** et entrez une **Quantité** pour la quantité de congés que vous souhaitez vendre. 
+
+3. Sélectionner **Soumettre** lorsque vous êtes prêt à soumettre votre demande.
+
+Vos soldes seront automatiquement mis à jour ou passer par un processus d’approbation avant la mise à jour. Cela dépend de la façon dont la stratégie d’achat a été configurée.
 
 ## <a name="see-also"></a>Voir également :
 
-[Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)</br>
-[Gérer les stratégies d'achat et de vente de congés](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)</br>
+[Gérer les stratégies d’achat et de vente de congés](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)

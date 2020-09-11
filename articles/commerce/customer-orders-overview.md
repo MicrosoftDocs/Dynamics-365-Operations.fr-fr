@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699367"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710257"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Commandes client dans Modern POS (MPOS)
 
@@ -54,7 +54,10 @@ Voici quelques paramètres qui peuvent être définis dans la page **Paramètres
     - Les frais sont appliqués au niveau de l’en-tête de commande client et, lorsqu’une certaine quantité d’une ligne de produit est renvoyée, le remboursement maximal des frais d’expédition qui est autorisé pour les produits et la quantité ne peut pas être déterminé de manière appropriée pour tous les clients.
     - Des frais d’expédition sont générés pour chaque instance d’expédition. Si un client retourne des produits à plusieurs reprises, et la stratégie du détaillant spécifie que le coût des frais d’expédition de retour sera à la charge du détaillant, les frais d’expédition de retour seront supérieurs aux frais d’expédition réels.
     
-- **Comportement de calcul de la taxe** - **Recalculer** est le paramètre par défaut et traditionnel pour la façon dont les taxes sont recalculées lorsque la commande est importée dans le back-office. **Ne pas recalculer** désactive le recalcul des taxes jusqu’à ou à moins que la commande ne soit modifiée dans le back-office, lorsque le recalcul est déclenché. 
+
+## <a name="disable-option-to-pay-later"></a>Désactiver l’option de paiement ultérieur
+
+Dans Commerce version 10.0.12 et ultérieure, les commerçants peuvent supprimer l’option de payer ultérieurement lorsqu’une commande client est créée dans le point de vente. Pour désactiver l’option, ouvrez le **Profil de fonctionnalité** du canal dans lequel le paiement ultérieur n’est pas autorisé, puis sélectionnez **Modifier**. Sur l’onglet **Général**, sélectionnez le menu déroulant pour **Exiger un paiement pour l’exécution**. Si le paiement ultérieur ne devrait pas être autorisé au point de vente, sélectionnez **Carte requise**, puis **Enregistrer**. Exécutez le programme de distribution **1070** pour synchroniser cette modification du canal. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Flux de transaction pour les commandes client
 

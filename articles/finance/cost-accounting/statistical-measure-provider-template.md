@@ -20,17 +20,17 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: c46a9e042482ad66e769383b4e81e2df85a5e97b
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: fa5c45f7842c4d20c994ac1655e2fbf2a1cf14a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124518"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "3734908"
 ---
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membres de la dimension statistique et modèles de fournisseur de mesures statistiques
 
 [!include [banner](../includes/banner.md)]
 
-Une dimension statistique et ses membres permettent d'enregistrer et de contrôler les entrées non monétaires dans le module Contrôle de gestion. Les membres de la dimension statistique peuvent être utilisés à deux fins :
+Une dimension statistique et ses membres permettent d’enregistrer et de contrôler les entrées non monétaires dans le module Contrôle de gestion. Les membres de la dimension statistique peuvent être utilisés à deux fins :
 
 - Comme base de répartition dans les stratégies telles que la distribution ou la répartition des coûts
 - Pour la déclaration de la consommation non monétaire
@@ -50,7 +50,7 @@ Voici un exemple de dimension statistique.
 
 Voici un exemple de dimension statistique affectée à une comptabilité de contrôle de gestion.
 
-| Nom                  | Devise comptable | Type de taux de change | Calendrier fiscal | Dimension d'élément de coût | Dimension statistique       |
+| Nom                  | Devise comptable | Type de taux de change | Calendrier fiscal | Dimension d’élément de coût | Dimension statistique       |
 |-----------------------|---------------------|--------------------|-----------------|------------------------|-----------------------------|
 | Comptabilité de gestion | USD                 | Devise constante  | Période fiscale   | Éléments de coût partagés   | Éléments statistiques partagés |
 
@@ -58,9 +58,9 @@ Voici un exemple de dimension statistique affectée à une comptabilité de cont
 
 Un membre de la dimension statistique représente une entité pour laquelle vous souhaitez enregistrer des mesures non monétaires. Ces mesures peuvent être utilisées comme base de répartition ou simplement pour déclarer des valeurs non monétaires.
 
-Les membres de la dimension statistique peuvent être créés manuellement. Ils peuvent également être importés à partir d'un fichier à l'aide de l'outil d'importation/exportation Gestion des données.
+Les membres de la dimension statistique peuvent être créés manuellement. Ils peuvent également être importés à partir d’un fichier à l’aide de l’outil d’importation/exportation Gestion des données.
 
-Un membre de la dimension statistique devient automatiquement une base de répartition prédéfinie. Il peut être utilisé comme base de répartition dans les stratégies ou comme entrée dans d'autres types de bases de répartition.
+Un membre de la dimension statistique devient automatiquement une base de répartition prédéfinie. Il peut être utilisé comme base de répartition dans les stratégies ou comme entrée dans d’autres types de bases de répartition.
 
 Voici quelques exemples de membres classiques de la dimension statistique.
 
@@ -68,20 +68,20 @@ Voici quelques exemples de membres classiques de la dimension statistique.
 |-----------------------------|----------------------|-------------------------|------|
 | Éléments statistiques partagés | ETP                  | Employés à temps plein     | Ea.  |
 | Éléments statistiques partagés | Électricité          | Consommation électrique | kWh  |
-| Éléments statistiques partagés | CC emballage              | Centre de coût d'emballage   | Hrs. |
+| Éléments statistiques partagés | CC emballage              | Centre de coût d’emballage   | Hrs. |
 
 ## <a name="statistical-measure-provider-template"></a>Modèle de fournisseur de mesures statistiques
 
-Les mesures statistiques peuvent provenir de plusieurs types de sources. Dynamics 365 Finance est une source formidable pour l'extraction des mesures statistiques. Vous pouvez utiliser un modèle de fournisseur de mesures statistiques pour configurer facilement les mesures statistiques que vous souhaitez extraire.
+Les mesures statistiques peuvent provenir de plusieurs types de sources. Dynamics 365 Finance est une source formidable pour l’extraction des mesures statistiques. Vous pouvez utiliser un modèle de fournisseur de mesures statistiques pour configurer facilement les mesures statistiques que vous souhaitez extraire.
 
-La définition d'un modèle de fournisseur de mesures statistiques est générique et peut être réutilisée dans plusieurs membres de la dimension statistique.
+La définition d’un modèle de fournisseur de mesures statistiques est générique et peut être réutilisée dans plusieurs membres de la dimension statistique.
 
 > [!NOTE]
 > Toutes les tables qui contiennent des dimensions financières peuvent être utilisées comme sources pour les mesures statistiques.
 
-**Exemple : nombre d'employés par centre de coût**
+**Exemple : nombre d’employés par centre de coût**
 
-Le nombre d'employés par centre de coût est une mesure statistique qui peut être utilisée à différentes fins pour fournir des données de gestion :
+Le nombre d’employés par centre de coût est une mesure statistique qui peut être utilisée à différentes fins pour fournir des données de gestion :
 
 - Mesure de déclarations statistiques par centre de coût
 - Base de répartition pour différents types de dépenses
@@ -90,9 +90,9 @@ Le nombre d'employés par centre de coût est une mesure statistique qui peut ê
     - Coût par employé
     - Produit par employé
 
-La table HcmEmployment contient la liste de tous les employés dans l'instance. Cette table est une table globale. Par conséquent, les enregistrements ne sont pas liés à un ID de zone de données spécifique.
+La table HcmEmployment contient la liste de tous les employés dans l’instance. Cette table est une table globale. Par conséquent, les enregistrements ne sont pas liés à un ID de zone de données spécifique.
 
-Voici un exemple d'employés dans la table HcmEmployment.
+Voici un exemple d’employés dans la table HcmEmployment.
 
 | Nom       | Centre de coût | Description   | Type de collaborateur |
 |------------|-------------|----|-------------|
@@ -105,8 +105,8 @@ Voici un exemple d'employés dans la table HcmEmployment.
 
 Lorsque vous créez un enregistrement **Modèle de fournisseur de mesures statistiques**, vous devez choisir quelle fonction utiliser :
 
-- **Nombre** – Un nombre d'enregistrements par objet de coût est transféré.
-- **Somme** – Une somme d'enregistrements par objet de coût est transférée. (Le champ **Somme** et le champ **Date** sont obligatoires.)
+- **Nombre** – Un nombre d’enregistrements par objet de coût est transféré.
+- **Somme** – Une somme d’enregistrements par objet de coût est transférée. (Le champ **Somme** et le champ **Date** sont obligatoires.)
 
 ## <a name="using-the-count-function"></a>Utilisation de la fonction Nombre
 
@@ -126,7 +126,7 @@ Dans cet exemple, si vous souhaitez uniquement comptabiliser tous les employés 
 |---------------|-------------|----------|
 | HcmEmployment | Type de collaborateur | Employé |
 
-Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de gestion, vous devez établir la relation entre le modèle de fournisseur de mesures statistiques et le membre de la dimension statistique. Cette relation est créée par comptabilité de contrôle de gestion et par version. La relation se compose d'un connecteur de données et d'un fournisseur de données. Vous pouvez avoir plusieurs connecteurs de données et fournisseurs de données par membre de dimension statistique.
+Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de gestion, vous devez établir la relation entre le modèle de fournisseur de mesures statistiques et le membre de la dimension statistique. Cette relation est créée par comptabilité de contrôle de gestion et par version. La relation se compose d’un connecteur de données et d’un fournisseur de données. Vous pouvez avoir plusieurs connecteurs de données et fournisseurs de données par membre de dimension statistique.
 
 > [!NOTE]
 > Dans cet exemple, nous allons créer une relation uniquement pour la **Version réelle**.
@@ -151,9 +151,9 @@ Une fois que la source de données pour la mesure statistique est traitée, les 
 
 | Journal de saisie | Type de journal                       | Période de calendrier fiscal | Année   |  Période  |  Version | Entrées source du connecteur de données|
 |---------|------------------------------------|------------------------|--------|----------|----------|------------------------------|
-| 00001   | Journal de transfert d'entrées statistiques | Exercice                 | 2017   | Période 1 | USMF de la comptabilité de contrôle de gestion | ETP                   |
+| 00001   | Journal de transfert d’entrées statistiques | Exercice                 | 2017   | Période 1 | USMF de la comptabilité de contrôle de gestion | ETP                   |
 
-**Écritures du journal de transfert d'entrées statistiques**
+**Écritures du journal de transfert d’entrées statistiques**
 
 | Date comptable | Ampleur | Élément statistique |   Description       | Centre de coût |
 |-----------------|-----------|---------------------|---------------------|-------------|
@@ -169,7 +169,7 @@ Une fois que la source de données pour la mesure statistique est traitée, les 
 | CC002       | FI | 31-01-2017      | ETP                         | Employés à temps plein | 2.00      |
 | CC003       | TS | 31-01-2017      | ETP                         | Employés à temps plein | 2.00      |
 
-Si la base de répartition des membres de la dimension prédéfinie ETP est affectée comme base de répartition dans une règle de distribution des coûts, le coût est distribué à l'aide du facteur de répartition suivant.
+Si la base de répartition des membres de la dimension prédéfinie ETP est affectée comme base de répartition dans une règle de distribution des coûts, le coût est distribué à l’aide du facteur de répartition suivant.
 
 | Objet de coût | Description    | Ampleur | Facteur de répartition |
 |-------------|----|-----------|-------------------|
@@ -179,24 +179,24 @@ Si la base de répartition des membres de la dimension prédéfinie ETP est affe
 
 ## <a name="using-the-sum-function"></a>Utilisation de la fonction Somme
 
-Un centre de coût de production, CC010 (Emballage), est chargé d'emballer les produits avant qu'ils soient expédiés aux clients. Le coût de main-d'œuvre direct est ajouté aux produits via la nomenclature et la gamme. Le coût indirect de fonctionnement du centre de coût doit également être réparti sur les produits fabriqués. Souvent, la meilleure mesure statistique pour une telle répartition est le nombre d'heures de production enregistrées par produit dans la période donnée.
+Un centre de coût de production, CC010 (Emballage), est chargé d’emballer les produits avant qu’ils soient expédiés aux clients. Le coût de main-d’œuvre direct est ajouté aux produits via la nomenclature et la gamme. Le coût indirect de fonctionnement du centre de coût doit également être réparti sur les produits fabriqués. Souvent, la meilleure mesure statistique pour une telle répartition est le nombre d’heures de production enregistrées par produit dans la période donnée.
 
-La table ProdRouteTrans contient toutes les transactions de la main-d'œuvre de production par entité juridique DataAreadID.
+La table ProdRouteTrans contient toutes les transactions de la main-d’œuvre de production par entité juridique DataAreadID.
 
 Voici un exemple de la table ProdRouteTrans.
 
 | Référence        | Numéro | Opération | Type | Heure  | Date physique | Groupe de produits (dimension financière) | Entité juridique |
 |------------------|--------|-----------|------|-------|---------------|-------------------------------------|--------------|
-| Ordre de fabrication | P0001  | Emballage | Heure | 8,00  | 01-01-2017    | Jus d'orange B2B                    | USMF         |
-| Ordre de fabrication | P0001  | Emballage | Heure | 8,00  | 02-01-2017    | Jus d'orange B2B                    | USMF         |
-| Ordre de fabrication | P0002  | Emballage | Heure | 4,00  | 03-01-2017    | Consommateur de jus d'orange               | USMF         |
-| Ordre de fabrication | P0003  | Emballage | Heure | 4,00  | 03-01-2017    | Consommateur de jus d'orange               | USMF         |
-| Ordre de fabrication | P0004  | Reconst.  | Heure | 10,00 | 03-01-2017    | Consommateur de jus d'orange               | USMF         |
+| Ordre de fabrication | P0001  | Emballage | Heure | 8,00  | 01-01-2017    | Jus d’orange B2B                    | USMF         |
+| Ordre de fabrication | P0001  | Emballage | Heure | 8,00  | 02-01-2017    | Jus d’orange B2B                    | USMF         |
+| Ordre de fabrication | P0002  | Emballage | Heure | 4,00  | 03-01-2017    | Consommateur de jus d’orange               | USMF         |
+| Ordre de fabrication | P0003  | Emballage | Heure | 4,00  | 03-01-2017    | Consommateur de jus d’orange               | USMF         |
+| Ordre de fabrication | P0004  | Reconst.  | Heure | 10,00 | 03-01-2017    | Consommateur de jus d’orange               | USMF         |
 
 Lorsque vous créez un enregistrement **Modèle de fournisseur de mesures statistiques**, vous devez choisir quelle fonction utiliser :
 
-- **Nombre** – Un nombre d'enregistrements par objet de coût est transféré.
-- **Somme** – Une somme d'enregistrements par objet de coût est transférée. (Le champ **Somme** et le champ **Date** sont obligatoires.)
+- **Nombre** – Un nombre d’enregistrements par objet de coût est transféré.
+- **Somme** – Une somme d’enregistrements par objet de coût est transférée. (Le champ **Somme** et le champ **Date** sont obligatoires.)
 
 Le modèle de fournisseur de mesures statistiques peut être paramétré comme suit :
 
@@ -214,7 +214,7 @@ Dans cet exemple, si vous souhaitez uniquement la somme des heures associées au
 |----------------|-----------|-----------|
 | ProdRouteTrans | Opération | Emballage |
 
-Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de gestion, vous devez établir la relation entre le modèle de fournisseur de mesures statistiques et le membre de la dimension statistique. Cette relation est créée par comptabilité de contrôle de gestion et par version. La relation se compose d'un connecteur de données et d'un fournisseur de données. Vous pouvez avoir plusieurs connecteurs de données et fournisseurs de données par membre de dimension statistique.
+Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de gestion, vous devez établir la relation entre le modèle de fournisseur de mesures statistiques et le membre de la dimension statistique. Cette relation est créée par comptabilité de contrôle de gestion et par version. La relation se compose d’un connecteur de données et d’un fournisseur de données. Vous pouvez avoir plusieurs connecteurs de données et fournisseurs de données par membre de dimension statistique.
 
 > [!NOTE]
 > Dans cet exemple, nous allons créer une relation uniquement pour la **Version réelle**.
@@ -227,7 +227,7 @@ Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> 
 |----------------|------------------------------------------------------------------------------------|------------------------------|
 | CC emballage D365FO | Dynamics 365 Finance - Mesures statistiques | CC emballage                      |
 
-Le système identifie que ProdRouteTrans est une table où chaque enregistrement appartient à une entité juridique distincte. Par conséquent, vous devez sélectionner l'entité juridique à partir de laquelle les transactions doivent être importées.
+Le système identifie que ProdRouteTrans est une table où chaque enregistrement appartient à une entité juridique distincte. Par conséquent, vous devez sélectionner l’entité juridique à partir de laquelle les transactions doivent être importées.
 
 **Configuration du fournisseur de données**
 
@@ -241,39 +241,39 @@ Une fois que la source de données pour la mesure statistique est traitée, les 
 
 | Journal de saisie | Type de journal                     | Période de calendrier fiscal | Année   | Période | Version   |   Entrées source du connecteur de données  |
 |---------|----------------------------------|------------------------|--------|---------|----------------|---------|
-| 00002   | Journal de transfert d'entrées statistiques | Exercice               | 2017    | Période 1  | USMF de la comptabilité de contrôle de gestion | CC emballage |
+| 00002   | Journal de transfert d’entrées statistiques | Exercice               | 2017    | Période 1  | USMF de la comptabilité de contrôle de gestion | CC emballage |
 
-**Écritures du journal de transfert d'entrées statistiques**
+**Écritures du journal de transfert d’entrées statistiques**
 
 | Date comptable | Ampleur | Élément statistique |  Description          | Groupe de produits         |
 |-----------------|-----------|---------------------|-----------------------|-----------------------|
-| 31-01-2017      | 16,00     | CC emballage             | Centre de coût d'emballage | Jus d'orange B2B      |
-| 31-01-2017      | 8,00      | CC emballage             | Centre de coûts d'emballage | Consommateur de jus d'orange |
+| 31-01-2017      | 16,00     | CC emballage             | Centre de coût d’emballage | Jus d’orange B2B      |
+| 31-01-2017      | 8,00      | CC emballage             | Centre de coûts d’emballage | Consommateur de jus d’orange |
 
 **Entrées statistiques**
 
 | Objet de coût           | Date comptable | Membre de la dimension statistique |    Description        | Ampleur |
 |-----------------------|-----------------|------------------------------|-----------------------|-----------|
-| Jus d'orange B2B      | 31-01-2017      | CC emballage                      | Centre de coût d'emballage | 16,00     |
-| Consommateur de jus d'orange | 31-01-2017      | CC emballage                      | Centre de coût d'emballage | 8,00      |
+| Jus d’orange B2B      | 31-01-2017      | CC emballage                      | Centre de coût d’emballage | 16,00     |
+| Consommateur de jus d’orange | 31-01-2017      | CC emballage                      | Centre de coût d’emballage | 8,00      |
 
-Si la base de répartition des membres de la dimension prédéfinie CC emballage est affectée comme base de répartition dans une règle de distribution des coûts, le coût est distribué à l'aide du facteur de répartition suivant.
+Si la base de répartition des membres de la dimension prédéfinie CC emballage est affectée comme base de répartition dans une règle de distribution des coûts, le coût est distribué à l’aide du facteur de répartition suivant.
 
 | Objet de coût           | Ampleur | Facteur de répartition  |
 |-----------------------|-----------|--------------------|
-| Jus d'orange B2B      | 16,00     | (16 ÷ 24) × Montant |
-| Consommateur de jus d'orange | 8,00      | (8 ÷ 24) × Montant  |
+| Jus d’orange B2B      | 16,00     | (16 ÷ 24) × Montant |
+| Consommateur de jus d’orange | 8,00      | (8 ÷ 24) × Montant  |
 
 ## <a name="imported-statistical-measures"></a>Mesures statistiques importées
 
-Vous pouvez importer des mesures statistiques dans le module Contrôle de gestion à l'aide de l'outil d'importation/exportation Gestion des données.
+Vous pouvez importer des mesures statistiques dans le module Contrôle de gestion à l’aide de l’outil d’importation/exportation Gestion des données.
 
-L'entité de données utilisée pour l'importation est nommée Mesures statistiques importées.
+L’entité de données utilisée pour l’importation est nommée Mesures statistiques importées.
 
 > [!NOTE]
 > Cette entité de données est conçue pour autoriser cinq valeurs de dimension uniques par entrée au maximum.
 
-La consommation électrique est enregistrée dans Microsoft Excel à l'aide du format prédéfini de l'entité de données. Voici un exemple :
+La consommation électrique est enregistrée dans Microsoft Excel à l’aide du format prédéfini de l’entité de données. Voici un exemple :
 
 | Date comptable | Nom du membre 1 de la dimension | Nom du membre 2 de la dimension | Nom du membre 5 de la dimension | Ampleur  | Identificateur de la source |
 |-----------------|------------------------|------------------------|------------------------|------------|-------------------|
@@ -281,7 +281,7 @@ La consommation électrique est enregistrée dans Microsoft Excel à l'aide du f
 | 31-01-2017      | CC002                  |                        |                        | 4,100.00   | Électricité       |
 | 31-01-2017      | CC003                  |                        |                        | 15 000,00  | Électricité       |
 
-Après avoir importé vos données via l'outil de gestion des données, les données sont stockées dans une table intermédiaire du module Contrôle de gestion. Par conséquent, les données importées peuvent être utilisées dans plusieurs comptabilités de contrôle de gestion. Un rechargement des données n'est pas nécessaire.
+Après avoir importé vos données via l’outil de gestion des données, les données sont stockées dans une table intermédiaire du module Contrôle de gestion. Par conséquent, les données importées peuvent être utilisées dans plusieurs comptabilités de contrôle de gestion. Un rechargement des données n’est pas nécessaire.
 
 Pour importer les données, accédez à **Données importées** \> **Entité de données** \> **Mesures statistiques importées**.
 
@@ -291,12 +291,12 @@ Pour importer les données, accédez à **Données importées** \> **Entité de 
 | Électricité       | 31-01-2017      | 4,100.00   | CC002                  |                        |                        |
 | Électricité       | 31-01-2017      | 15 000,00  | CC003                  |                        |                        |
 
-Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de gestion, vous devez établir la relation entre l'identificateur de la source et le membre de la dimension statistique. Cette relation est créée par comptabilité de contrôle de gestion et par version. La relation se compose d'un connecteur de données et d'un fournisseur de données. Vous pouvez avoir plusieurs connecteurs de données et fournisseurs de données par membre de dimension statistique.
+Avant de pouvoir entrer des mesures statistiques dans le module Contrôle de gestion, vous devez établir la relation entre l’identificateur de la source et le membre de la dimension statistique. Cette relation est créée par comptabilité de contrôle de gestion et par version. La relation se compose d’un connecteur de données et d’un fournisseur de données. Vous pouvez avoir plusieurs connecteurs de données et fournisseurs de données par membre de dimension statistique.
 
 > [!NOTE]
 > Dans cet exemple, nous allons créer une relation uniquement pour la **Version réelle**.
 
-Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Mesures statistiques importées**, car les données ont été importées à partir d'un système tiers dans le module Contrôle de gestion via Excel.
+Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> **Gérer** \> **Mesures statistiques** pour établir la relation. Pour ce scénario, sélectionnez le connecteur de données **Mesures statistiques importées**, car les données ont été importées à partir d’un système tiers dans le module Contrôle de gestion via Excel.
 
 **Source de données**
 
@@ -311,15 +311,15 @@ Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> 
 | Électricité              | Somme      | Centres de coût |            |            |
 
 > [!NOTE]
-> Lorsque vous définissez la configuration du fournisseur de données, vous devez spécifier les dimensions d'objet de coût à mettre en correspondance avec les transactions importées. Une fois que la source de données pour la mesure statistique est traitée, les entrées statistiques suivantes sont créées dans le module Contrôle de gestion.
+> Lorsque vous définissez la configuration du fournisseur de données, vous devez spécifier les dimensions d’objet de coût à mettre en correspondance avec les transactions importées. Une fois que la source de données pour la mesure statistique est traitée, les entrées statistiques suivantes sont créées dans le module Contrôle de gestion.
 
 **Journal**
 
 | Journal de saisie | Type de journal                       | Période de calendrier fiscal | Année  | Période  |Version      |Entrées source du connecteur de données |
 |---------|------------------------------------|------------------------|-------|--------|---------------|-------------|
-| 00002   | Journal de transfert d'entrées statistiques | Exercice                 | 2017  | Période 1 | USMF de la comptabilité de contrôle de gestion | Électricité |
+| 00002   | Journal de transfert d’entrées statistiques | Exercice                 | 2017  | Période 1 | USMF de la comptabilité de contrôle de gestion | Électricité |
 
-**Écritures du journal de transfert d'entrées statistiques**
+**Écritures du journal de transfert d’entrées statistiques**
 
 | Date comptable | Ampleur  | Élément de coût |   Description           | Centre de coût |
 |-----------------|------------|--------------|-------------------------|-------------|
@@ -335,7 +335,7 @@ Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> 
 | CC002       | FI | 31-01-2017      | Électricité                  | Consommation électrique | 4,100.00   |
 | CC003       | TS | 31-01-2017      | Électricité                  | Consommation électrique | 15 000,00  |
 
-Si la base de répartition des membres de la dimension prédéfinie Électricité est affectée comme base de répartition dans une règle de distribution des coûts, le coût est distribué à l'aide du facteur de répartition suivant.
+Si la base de répartition des membres de la dimension prédéfinie Électricité est affectée comme base de répartition dans une règle de distribution des coûts, le coût est distribué à l’aide du facteur de répartition suivant.
 
 | Objet de coût |    | Ampleur | Facteur de répartition          |
 |-------------|----|-----------|----------------------------|

@@ -19,28 +19,28 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208459"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699534"
 ---
 # <a name="hazardous-materials"></a>Matières dangereuses
 
 [!include [banner](../includes/banner.md)]
 
-Les informations sur les matières dangereuses sont définies dans Gestion des informations sur les produits. Ce module fournit également des documents qui peuvent être imprimés via la gestion de l'entrepôt.
+Les informations sur les matières dangereuses sont définies dans Gestion des informations sur les produits. Ce module fournit également des documents qui peuvent être imprimés via la gestion de l’entrepôt.
 
-Lorsque vous expédiez des matières classées comme marchandises dangereuses, des documents supplémentaires doivent être inclus avec les envois. La fonctionnalité des matières dangereuses permet aux clients de stocker les informations de classification et de les relier aux articles de sortie. Ces informations peuvent ensuite être utilisées pour préparer la documentation d'expédition.
+Lorsque vous expédiez des matières classées comme marchandises dangereuses, des documents supplémentaires doivent être inclus avec les envois. La fonctionnalité des matières dangereuses permet aux clients de stocker les informations de classification et de les relier aux articles de sortie. Ces informations peuvent ensuite être utilisées pour préparer la documentation d’expédition.
 
 > [!IMPORTANT]
-> Pour aider à gérer les expéditions de marchandises dangereuses, Microsoft Dynamics 365 Supply Chain Management vous permet de configurer des informations de référence supplémentaires liées aux produits. Vous pouvez également configurer des documents d'expédition supplémentaires. Cependant, le système n'est pas automatiquement conforme aux réglementations de votre pays ou région. C'est plutôt un outil qui peut aider votre programme global.
+> Les fonctionnalités sur les matières dangereuses dans Microsoft Dynamics 365 Supply Chain Management fournissent une collection de champs d’informations utiles sur le produit et des fonctionnalités associées qui peuvent vous aider à enregistrer et à référencer les informations relatives à vos produits dangereux. Ces fonctionnalités peuvent également vous aider à concevoir et à imprimer des documents d’expédition qui incluent certaines de ces mêmes informations sur les matières dangereuses que vous expédiez. Cependant, le système ne vous met pas automatiquement en conformité avec toutes les réglementations applicables dans votre pays ou région. Bien que ces outils soient destinés à vous aider à vous mettre en conformité avec les réglementations en vigueur, ils ne sont ni suffisants en eux-mêmes ni garantis de l’être. Votre organisation a la responsabilité de connaître toutes les réglementations applicables et de prendre toutes les mesures nécessaires pour vous y conformer.
 
 Avant de pouvoir utiliser cette fonctionnalité, la configuration suivante est requise :
 
 - **Gestion des informations produits :** configurez des codes qui peuvent être appliqués aux produits lancés.
-- **Gestion d'entrepôt :** utilisez des documents d'expédition supplémentaires pour imprimer les informations d'expédition.
+- **Gestion d’entrepôt :** utilisez des documents d’expédition supplémentaires pour imprimer les informations d’expédition.
 
 ## <a name="product-information-management"></a>Gestion des informations sur le produit
 
@@ -51,7 +51,7 @@ Voici certaines des réglementations qui sont souvent référencées :
 - **ADR** - Règlements liés au transport international de marchandises dangereuses par route
 - **CFR 49** - Réglementation aux États-Unis pour le transport de marchandises dangereuses
 - **IMDG** - Le code IMDG (International Marine Dangerous Goods)
-- **IATA** - Règlement sur les marchandises dangereuses de l'Association internationale du transport aérien (IATA)
+- **IATA** - Règlement sur les marchandises dangereuses de l’Association internationale du transport aérien (IATA)
 
 Chacun de ces règlements a une liste de marchandises dangereuses qui comprend des codes de référence. Les listes pour chaque type de transport sont combinées sur des classifications internationales partagées. Supply Chain Management fournit un tableau de référence pour les codes partagés dans ces listes. Chaque liste possède également des codes uniques qui peuvent être définis.
 
@@ -59,4 +59,4 @@ Pour commencer à configurer ces informations, créez une réglementation que vo
 
 ## <a name="warehouse-management"></a>Gestion des entrepôts
 
-Lorsqu'un envoi est préparé, plusieurs nouveaux rapports peuvent être imprimés. Ces rapports utilisent les informations que vous avez configurées dans la gestion des informations produit.
+Lorsqu’un envoi est préparé, plusieurs nouveaux rapports peuvent être imprimés. Ces rapports utilisent les informations que vous avez configurées dans la gestion des informations produit.

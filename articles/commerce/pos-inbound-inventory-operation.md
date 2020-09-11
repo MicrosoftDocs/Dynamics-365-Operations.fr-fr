@@ -3,7 +3,7 @@ title: Opération de stock entrant dans le PDV
 description: Cette rubrique décrit les fonctionnalités de l’opération de stock entrant dans le point de vente (PDV).
 author: hhaines
 manager: annbe
-ms.date: 07/27/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
-ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
+ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3627536"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710307"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -143,6 +143,20 @@ L’opération respecte la configuration **Accusé de réception vide autorisé*
 ### <a name="receive-all"></a>Recevoir tout
 
 Selon vos besoins, vous pouvez sélectionner **Recevoir tout** sur la barre d’application pour mettre à jour rapidement la quantité **Recevoir maintenant** pour toutes les lignes de document sur la valeur maximale disponible pour réception pour ces lignes.
+
+### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Réception d’articles non planifiés sur les commandes fournisseur
+
+Dans Commerce version 10.0.14 et ultérieure, les utilisateurs peuvent recevoir un produit qui ne figurait pas à l’origine sur la commande fournisseur. Pour activer cette fonctionnalité, activez **Ajouter des lignes à la commande fournisseur lors de la réception au point de vente**.  
+
+Cette fonctionnalité ne fonctionne que pour la réception des commandes fournisseur. Il n’est pas possible de recevoir des articles avec des ordres de transfert lorsque les articles n’ont pas été précédemment commandés et expédiés depuis l’entrepôt sortant.
+
+Les utilisateurs ne peuvent pas ajouter de nouveaux produits à la commande fournisseur lors de la réception au point de vente si le [workflow de gestion de modification](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) de la commande fournisseur est activé au siège de Commerce. Pour activer la gestion des modifications, toutes les modifications apportées à une la commande fournisseur doivent d’abord être approuvées avant que la réception ne soit autorisée. Étant donné que ce processus permet à un destinataire d’ajouter de nouvelles lignes à la commande fournisseur, la réception échouera si le workflow de gestion des modifications est activé. Si la gestion des modifications est activée pour toutes les la commandes fournisseur ou pour le fournisseur lié à la la commande fournisseur en cours de réception active dans le PDV, l’utilisateur ne peut pas ajouter de nouveaux produits à la la commande fournisseur lors de la réception au PDV.
+
+La fonctionnalité qui permet d’ajouter des lignes ne peut pas être utilisée comme solution pour recevoir des quantités supplémentaires de produits déjà sur la commande fournisseur. La sur-réception est gérée par les paramètres de [sur-réception](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) standard de la ligne de produits sur la commande fournisseur.
+
+Si **Ajouter des lignes à la commande fournisseur lors de la réception au point de vente** est activé et qu’un utilisateur effectue la réception avec l’**Opération entrante** dans le PDV, si l’utilisateur scanne ou saisit un code-barres de produit ou un numéro de produit qui n’est pas reconnu comme un article de la commande fournisseur en cours, mais est reconnu comme un article valide, l’utilisateur reçoit un message concernant l’ajout de l’article à la commande fournisseur. Si l’utilisateur ajoute l’article à la commande fournisseur, la quantité saisie dans **Recevoir maintenant** est considérée comme la quantité commandée pour la ligne de commande fournisseur.
+
+Lorsque la réception de la commande fournisseur est terminée et soumise au siège pour traitement, les lignes ajoutées sont créées sur le document principal de la commande fournisseur. Sur la ligne de la commande fournisseur au siège, il y aura un indicateur **Ajouté par le PDV** sur l’onglet **Général** de la de la ligne de la commande fournisseur. L’indicateur **Ajouté par le PDV** indique que la ligne de la commande fournisseur a été ajoutée par le processus de réception du PDV et n’était pas une ligne qui figurait sur la commande fournisseur avant la réception.
 
 ### <a name="cancel-receiving"></a>Annuler la réception
 
