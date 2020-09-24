@@ -14,17 +14,17 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil des mises à jour de Platform
                   href: get-started/whats-new-home-page.md
+                - name: "Platform Update\_10.0.14 (novembre\_2020)"
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: "Platform Update\_10.0.13 (octobre\_2020)"
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: "Platform Update\_10.0.12 (août\_2020)"
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: "Platform Update\_10.0.11 (juillet\_2020)"
-                  href: get-started/whats-new-platform-update-35.md
-            - name: Fonctions supprimées ou obsolètes
+            - name: Fonctionnalités supprimées ou obsolètes
               items:
-                - name: Fonctions de plateforme supprimées ou obsolètes
+                - name: Fonctionnalités de plateforme supprimées ou obsolètes
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: Fonctions supprimées ou obsolètes dans les versions précédentes
+                - name: Fonctionnalités supprimées ou obsolètes dans les versions précédentes
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: "Fonctions d’AX\_2012 ayant été reportées"
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -530,7 +530,7 @@
                       href: lifecycle-services/update-local-agent.md
                 - name: Dépannage
                   items:
-                    - name: Résoudre les problèmes de déploiements sur site
+                    - name: Résoudre les problèmes de déploiements locaux
                       href: deployment/troubleshoot-on-prem.md
                     - name: Scripts pour résoudre les problèmes dans les environnements locaux
                       href: deployment/onprem-tsg-implementations.md
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: Versionnage de modèle X++ dans Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
+                - name: Télécharger des actifs à l’aide d’Azure Pipelines
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Charger des actifs à l’aide d’Azure Pipelines
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Déployer des actifs à l’aide d’Azure Pipelines
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Créer une connexion Lifecycle Services (LCS) dans Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Exemple d’application de gestion de flotte
               items:
                 - name: Scénario de bout en bout pour l’exemple d’application de gestion de flotte
@@ -1158,9 +1166,9 @@
           items:
             - name: Ressources de plateforme mobile
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Prise en main
+            - name: Mise en route
               items:
-                - name: Prise en main de la plateforme mobile
+                - name: Mise en route de la plateforme mobile
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: Remarques relatives à l’architecture et à la conception
                   href: mobile-apps/platform/mobile-platform-architecture.md
@@ -1616,7 +1624,7 @@
                   href: migration-upgrade/compile-considerations.md
             - name: Mise à niveau vers une mise à jour récente (sur site)
               items:
-                - name: Appliquer des mises à jour à des déploiements sur site
+                - name: Appliquer des mises à jour à des déploiements locaux
                   href: deployment/apply-updates-on-premises.md
                 - name: Redéployer un déploiement sur site
                   href: deployment/redeploy-on-prem.md
@@ -1636,7 +1644,7 @@
                   href: dev-tools/update-development-tools.md
             - name: Obsolescences
               items:
-                - name: Fonctions supprimées ou obsolètes
+                - name: Fonctionnalités supprimées ou obsolètes
                   href: migration-upgrade/deprecated-features.md
                 - name: Obsolescence des méthodes et des éléments de métadonnées
                   href: migration-upgrade/deprecation-deletion-apis.md

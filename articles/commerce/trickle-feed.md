@@ -3,7 +3,7 @@ title: Création de commandes basée sur un flux en continu pour les transaction
 description: Cette rubrique décrit la création de commandes basée sur un flux en continu pour les transactions en magasin dans Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 06/08/2020
+ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6e097ead7cacb3f71452323656546a4be661457f
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
+ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710281"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3766734"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Création de commandes basée sur un flux en continu pour les transactions du magasin de vente au détail
 
@@ -36,22 +36,20 @@ Avec la création de commandes basée sur un flux en continu introduite dans Ret
 
 ## <a name="how-to-use-trickle-feed-based-posting"></a>Utilisation de la validation basée sur un flux en continu
   
-1. Pour activer la validation basée sur un flux en continu des transactions, accédez à **Administration du système > Paramétrage > Configuration des licences** et désactivez la clé **Relevés**.
+1. Pour activer la validation basée sur un flux en continu des transactions de vente au détail, activez la fonctionnalité nommée **Relevés de vente au détail – Flux en continu** à l’aide de la gestion des fonctionnalités.
 
-2. Dans la même page, activez la clé de licence **Relevés (flux en continu) – Version préliminaire**. Lorsque vous activez cette clé, assurez-vous qu’aucun relevé n’est en attente de validation. 
+    > [!IMPORTANT]
+    > Avant d’activer cette fonctionnalité, assurez-vous qu’aucun relevé n’est en attente de validation.
 
-    > [!Important]
-    > Avant d’activer la clé de licence **Relevés (flux en continu) – Version préliminaire**, assurez-vous qu’aucun relevé n’est en attente de validation.
-
-3. Le document actuel du relevé est fractionné en deux types différents ; relevé transactionnel et tableau d’analyse.
+2. Le document actuel du relevé est fractionné en deux types : relevé transactionnel et tableau d’analyse.
 
       - Le relevé transactionnel prélève toutes les transactions non validées et validées et crée des commandes client, des factures client, des journaux de paiement et de remise, ainsi que des transactions de revenus/dépenses à la fréquence que vous configurez. Vous devez configurer ce processus pour qu’il s’exécute à une fréquence élevée afin que les documents soient créés lorsque les transactions sont chargées dans Headquarters via la tâche P. Avec le relevé transactionnel qui crée déjà des commandes client et des factures client, il n’est pas vraiment nécessaire de configurer le traitement par lots **Valider le stock**. Toutefois, vous pouvez toujours l’utiliser pour répondre aux besoins spécifiques de votre entreprise.  
       
      - Le tableau d’analyse est conçu pour être créé en fin de journée et prend uniquement en charge la méthode de clôture **Équipe**. Ce relevé est limité au rapprochement financier et crée uniquement les journaux pour les montants de différence entre le montant calculé et le montant de la transaction pour les différents modes de paiement, ainsi que les journaux pour d’autres transactions de gestion des disponibilités.   
 
-4. Pour calculer le relevé transactionnel, cliquez sur **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Calculer les relevés transactionnels par lots**. Pour valider les relevés transactionnels par lots, cliquez sur **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Valider les relevés transactionnels par lots**.
+3. Pour calculer le relevé transactionnel, accédez à **Retail et Commerce > IT Retail et Commerce > Validation du PDV > Calculer les relevés transactionnels par lots**. Pour valider les relevés transactionnels par lots, accédez à **Retail et Commerce > IT Retail et Commerce > Validation du PDV > Valider les relevés transactionnels par lots**.
 
-5. Pour calculer le relevé financier, cliquez sur **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Calculer les relevés financiers par lots**. Pour valider les relevés financiers par lots, cliquez sur **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Valider les relevés financiers par lots**.
+4. Pour calculer le tableau d’analyse, accédez à **Retail et Commerce > IT Retail et Commerce > Validation du PDV > Calculer les tableaux d’analyse par lots**. Pour valider les tableaux d’analyse par lots, accédez à **Retail et Commerce > IT Retail et Commerce > Validation du PDV > Valider les tableaux d’analyse par lots**.
 
 > [!NOTE]
 > Les options de menu **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Calculer les relevés par lots** et **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Valider les relevés par lots** sont supprimées avec cette nouvelle fonctionnalité.
