@@ -1,6 +1,6 @@
 ---
 title: Fonction SESSIONTODAY ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction SESSIONTODAY États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction SESSIONTODAY États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/05/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 483ff46a27068bc2d70c80a848f0329861c914b3
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2aa3d5e34e6dcd9b5d4a3fe3f21d7e3285adbcad
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042262"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745415"
 ---
-# <a name="SESSIONTODAY">Fonction SESSIONTODAY ER</a>
+# <a name="sessiontoday-er-function"></a>Fonction SESSIONTODAY ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `SESSIONTODAY` renvoie une valeur *Date* qui représente la date actuelle de la session de l'application.
+La fonction `SESSIONTODAY` renvoie une valeur *Date* qui représente la date actuelle de la session de l’application.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -45,8 +45,8 @@ Valeur de date résultante.
 
 ## <a name="example"></a>Exemple
 
-`DATEFORMAT (SESSIONTODAY (), "d", "DE")` renvoie la date de la session de l'application actuelle, 24 décembre 2015, sous la forme de la chaîne **« 24-12-2015 »**, en fonction de la culture allemande et du format sélectionnés spécifiés.
+`DATEFORMAT (SESSIONTODAY (), "d", "DE")` renvoie la date de la session de l’application actuelle, 24 décembre 2015, sous la forme de la chaîne **« 24-12-2015 »**, en fonction de la culture allemande et du format sélectionnés spécifiés.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctions de date et d'heure](er-functions-category-datetime.md)
+[Fonctions de date et d’heure](er-functions-category-datetime.md)

@@ -1,6 +1,6 @@
 ---
 title: Fonction DAYOFYEAR ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction DAYOFYEAR États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction DAYOFYEAR États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/04/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d24aabb582151b0b357b64a988cc932a9c9f3cea
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 755f5f1de28f95ed682648caf47155ad71c8f4b0
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070665"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745487"
 ---
-# <a name="DAYOFYEAR">Fonction DAYOFYEAR ER</a>
+# <a name="dayofyear-er-function"></a>Fonction DAYOFYEAR ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,4 +59,4 @@ Valeur numérique résultante.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctions de date et d'heure](er-functions-category-datetime.md)
+[Fonctions de date et d’heure](er-functions-category-datetime.md)

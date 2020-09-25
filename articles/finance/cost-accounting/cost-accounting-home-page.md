@@ -1,6 +1,6 @@
 ---
-title: Page d'accueil du contrôle de gestion
-description: Cette rubrique fournit une liste des rubriques d'aide et d'autres ressources disponibles pour le contrôle de gestion.
+title: Page d’accueil du contrôle de gestion
+description: Cette rubrique fournit une liste des rubriques d’aide et d’autres ressources disponibles pour le contrôle de gestion.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2018
@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2281c3222ff8c38a66e799fc8bf4a5d29a9c6072
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771959"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759494"
 ---
-# <a name="cost-accounting-home-page"></a>Page d'accueil du contrôle de gestion
+# <a name="cost-accounting-home-page"></a>Page d’accueil du contrôle de gestion
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,9 +39,9 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 
 |      |   |
 |------|---|
-|  [Configurer des entités de base (eLearning)](https://mbspartner.microsoft.com/Home) (nécessite un compte CustomerSource)  |[Dimensions d'éléments de coût](cost-elements.md)  |
+|  [Configurer des entités de base (eLearning)](https://mbspartner.microsoft.com/Home) (nécessite un compte CustomerSource)  |[Dimensions d’éléments de coût](cost-elements.md)  |
 |  [Hiérarchie des dimensions](dimension-hierarchy.md)  |[Définir des unités de contrôle des coûts](./tasks/define-cost-control-units.md)| 
-| [Bases de répartition](allocation-bases.md)|[Créer et affecter une stratégie d'affectation des coûts à une unité de contrôle des coûts](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Bases de répartition](allocation-bases.md)|[Créer et affecter une stratégie d’affectation des coûts à une unité de contrôle des coûts](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Gérer une source de données pour la comptabilité de contrôle de gestion](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Traiter et effectuer le suivi des données source](./tasks/process-trace-source-data.md)     | 
 |[Calcul des frais généraux](overhead-calculation.md)  | [Espace de travail de contrôle des coûts](cost-control-workspace.md)   |
 
@@ -49,7 +49,7 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
-| [Mise en route du contrôle de gestion](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Espace de travail mobile Contrôle de gestion](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Utiliser Excel pour l'analyse du contrôle de gestion](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
+| [Mise en route du contrôle de gestion](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Espace de travail mobile Contrôle de gestion](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Utiliser Excel pour l’analyse du contrôle de gestion](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 
 
 
