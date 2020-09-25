@@ -1,6 +1,6 @@
 ---
 title: Fonction ROUNDDOWN ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction ROUNDDOWN États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction ROUNDDOWN États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/17/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92150bb23e76f82907e0f3e8f0738b25801958bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 7ac559983609d4fdb80c9ac70d84031e4a231889
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041559"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744525"
 ---
-# <a name="ROUNDDOWN">Fonction ROUNDDOWN ER</a>
+# <a name="rounddown-er-function"></a>Fonction ROUNDDOWN ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `ROUNDDOWN` renvoie le nombre spécifié comme valeur *Réelle* une fois qu'il a été arrondi au nombre inférieur de décimales spécifié.
+La fonction `ROUNDDOWN` renvoie le nombre spécifié comme valeur *Réelle* une fois qu’il a été arrondi au nombre inférieur de décimales spécifié.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -53,7 +53,7 @@ Valeur numérique qui représente les nombre de décimales.
 
 Valeur numérique résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 Cette fonction se comporte comme [ROUND](er-functions-mathematical-round.md), mais elle arrondit toujours le nombre spécifié vers le bas (vers zéro).
 

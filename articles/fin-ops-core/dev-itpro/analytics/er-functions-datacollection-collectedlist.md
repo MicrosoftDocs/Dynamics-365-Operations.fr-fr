@@ -1,6 +1,6 @@
 ---
 title: Fonction COLLECTEDLIST ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction COLLECTEDLIST États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction COLLECTEDLIST États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/05/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a66ba364a7d06cd5ac03b57f07e2c5d4eb7a46d
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 85258ae0a8d8a9720133a294f88ad84e1678532a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042594"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743661"
 ---
-# <a name="COLLECTEDLIST">Fonction COLLECTEDLIST ER</a>
+# <a name="collectedlist-er-function"></a>Fonction COLLECTEDLIST ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `COLLECTEDLIST` a une valeur de *Liste des enregistrements* qui contient la liste des valeurs qui ont été renvoyées par la propriété **Valeur de clé de données collectées** des éléments de format et collectée lorsque les éléments de format ont été utilisés pour générer des documents sortants pendant l'exécution du format, et qui remplissent les conditions spécifiées. Chaque condition se compose d'une plage de clés et d'une valeur de clé.
+La fonction `COLLECTEDLIST` a une valeur de *Liste des enregistrements* qui contient la liste des valeurs qui ont été renvoyées par la propriété **Valeur de clé de données collectées** des éléments de format et collectée lorsque les éléments de format ont été utilisés pour générer des documents sortants pendant l’exécution du format, et qui remplissent les conditions spécifiées. Chaque condition se compose d’une plage de clés et d’une valeur de clé.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -41,31 +41,31 @@ COLLECTEDLIST (condition 1 range, condition 1 value[, condition 2 range, conditi
 
 `condition 1 range` : *Chaîne*
 
-Valeur retournée par l'expression configurée dans la propriété **Nom de clé de données collectées** d'un composant au format d'états électroniques (ER). Cet argument est obligatoire.
+Valeur retournée par l’expression configurée dans la propriété **Nom de clé de données collectées** d’un composant au format d’états électroniques (ER). Cet argument est obligatoire.
 
 `condition 1 value` : *Chaîne*
 
-Valeur retournée par l'expression configurée dans la propriété **Valeur de clé de données collectées** d'un composant au format ER. Cet argument est obligatoire.
+Valeur retournée par l’expression configurée dans la propriété **Valeur de clé de données collectées** d’un composant au format ER. Cet argument est obligatoire.
 
 `condition N range` : *Chaîne*
 
-Valeur retournée par l'expression configurée dans la propriété **Nom de clé de données collectées** d'un composant au format ER. Ces arguments supplémentaires sont facultatifs.
+Valeur retournée par l’expression configurée dans la propriété **Nom de clé de données collectées** d’un composant au format ER. Ces arguments supplémentaires sont facultatifs.
 
 `condition N value` : *Chaîne*
 
-Valeur retournée par l'expression configurée dans la propriété **Valeur de clé de données collectées** d'un composant au format ER. Ces arguments supplémentaires sont facultatifs.
+Valeur retournée par l’expression configurée dans la propriété **Valeur de clé de données collectées** d’un composant au format ER. Ces arguments supplémentaires sont facultatifs.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*Liste d'enregistrements*
+*Liste d’enregistrements*
 
 Liste des enregistrements résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
-Les propriétés **Nom de clé de données collectées** et **Valeur de clé de données collectées** peuvent être configurées pour le composant **Séquence** ou le composant **Élément XML** d'un composant de format ER qui réside sous le composant **Commun\\Fichier** où l'option **Collecter les détails de sortie** est activée.
+Les propriétés **Nom de clé de données collectées** et **Valeur de clé de données collectées** peuvent être configurées pour le composant **Séquence** ou le composant **Élément XML** d’un composant de format ER qui réside sous le composant **Commun\\Fichier** où l’option **Collecter les détails de sortie** est activée.
 
-Cette fonction renvoie une liste vide lorsque l'option **Collecter les détails sur les sorties** du composant **Commun\\Fichier** actuel est désactivé.
+Cette fonction renvoie une liste vide lorsque l’option **Collecter les détails sur les sorties** du composant **Commun\\Fichier** actuel est désactivé.
 
 Dans les arguments `condition range`, le caractère générique **« \* »** peut être utilisé pour représenter plusieurs caractères.
 
@@ -73,7 +73,7 @@ Dans les arguments `condition value`, le caractère générique **« \* »** p
 
 ## <a name="example"></a>Exemple
 
-Pour plus d'informations sur l'utilisation de cette fonction, consultez le guide de tâche [ER Utiliser les données de la sortie du format pour compter et additionner](tasks/er-format-counting-summing-1.md), qui fait partie du processus d'entreprise **Acquérir/Développer des composants de services/solutions informatiques**.
+Pour plus d’informations sur l’utilisation de cette fonction, consultez le guide de tâche [ER Utiliser les données de la sortie du format pour compter et additionner](tasks/er-format-counting-summing-1.md), qui fait partie du processus d’entreprise **Acquérir/Développer des composants de services/solutions informatiques**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

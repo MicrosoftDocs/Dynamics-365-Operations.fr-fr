@@ -1,14 +1,14 @@
 ---
-title: ER Charger une configuration à partir de Lifecycle Services
-description: Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut importer une nouvelle version d'une configuration pour la génération d'états électroniques (ER) à partir de Microsoft Lifecycle Services (LCS).
+title: Importer une configuration à partir de Lifecycle Services
+description: Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut importer une nouvelle version d’une configuration pour la génération d’états électroniques (ER) à partir de Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,57 +16,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 59dbbf820f7a3de1e5fb31f781943320b8b1a60a
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142384"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810641"
 ---
-# <a name="er-import-a-configuration-from-lifecycle-services"></a>ER Charger une configuration à partir de Lifecycle Services
+# <a name="import-a-configuration-from-lifecycle-services"></a>Importer une configuration à partir de Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut importer une nouvelle version d'une configuration pour la génération d'états électroniques (ER) à partir de Microsoft Lifecycle Services (LCS).
+Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut importer une nouvelle version d’une configuration pour la [génération d’états électroniques (ER)](../general-electronic-reporting.md#Configuration) à partir de la [bibliothèque d’actifs au niveau du projet](../../lifecycle-services/asset-library.md) dans Microsoft Dynamics Lifecycle Services (LCS).
 
-Dans cet exemple, vous allez sélectionner la version souhaitée de la configuration ER et l'importer pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Charger une configuration ER dans Lifecycle Services ». L'accès à LCS est également requis pour réaliser ces étapes.
+Dans cet exemple, vous allez sélectionner la version souhaitée de la configuration ER et l’importer pour un exemple société nommée Litware, Inc. Ces étapes peuvent être réalisées dans n’importe quelle société, car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure [Charger une configuration dans Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). L’accès à LCS est également requis.
 
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-2. Cliquez sur Configurations.
+1. Se connecter à l’application en utilisant l’un des rôles suivants :
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a>Supprimer une version partagée de la configuration du modèle de données
-1. Dans l'arborescence, sélectionnez « Exemple de configuration de modèle ».
-    * La première version d'un exemple de configuration de modèle de données a été créée et publiée dans LCS durant la procédure « Charger une configuration ER dans Lifecycle Services ». Dans cette procédure, vous supprimerez cette version de la configuration ER. Cette version d'un exemple de configuration de modèle de données sera importée ultérieurement à partir de LCS.  
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la version de cette configuration dont le statut est « Partagé ». Ce statut indique que la configuration a été publiée dans LCS.  
-3. Cliquez sur Modifier le statut.
-4. Cliquez sur Interrompre.
-    * Faites passer le statut de la version sélectionnée de « Partagé » à « Interrompu » pour le rendre disponible pour la suppression.  
-5. Cliquez sur OK.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la version de cette configuration dont le statut est « Interrompu ».  
-7. Cliquez sur Supprimer.
-8. Cliquez sur Oui.
-    * Notez que seule la version temporaire 2 de la configuration de modèle de données sélectionnée est disponible.  
+    - Développeur de gestion des états électroniques
+    - Administrateur système
+
+2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+3. Sélectionner **Configurations**.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Assurez-vous que l’utilisateur Dynamics 365 Finance actuel est membre du projet LCS qui contient la bibliothèque d’actifs à laquelle l’utilisateur souhaite [accéder](../../lifecycle-services/asset-library.md#asset-library-support) pour importer des configurations ER.
+>
+> Vous ne pouvez pas accéder à un projet LCS à partir d’un référentiel ER qui représente un domaine différent du domaine utilisé dans Finance. Si vous essayez, une liste vide de projets LCS s’affichera et vous ne pourrez pas importer de configurations ER à partir de la bibliothèque d’actifs au niveau du projet dans LCS. Pour accéder aux bibliothèques d’actifs au niveau du projet à partir d’un référentiel ER utilisé pour importer des configurations ER, connectez-vous à Finance en utilisant les informations d’identification d’un utilisateur qui appartient au client (domaine) pour lequel l’instance Finance actuelle a été provisionnée.
+
+## <a name="delete-a-shared-version-of-a-data-model-configuration"></a>Supprimer une version partagée d’une configuration du modèle de données
+
+1. Sur la page **Configurations**, dans l’arborescence de configuration, sélectionnez **Exemple de configuration de modèle**.
+
+    Vous avez créé la première version d’un exemple de configuration de modèle de données et l’avez publiée dans LCS après avoir exécuté les étapes [Charger une configuration dans Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). Dans cette procédure, vous supprimerez cette version de la configuration ER. Vous importerez ensuite cette version de LCS plus loin dans cette rubrique.
+
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+
+    Pour cet exemple, sélectionnez la version de la configuration dont le statut est **Partagé**. Ce statut indique que la configuration a été publiée dans LCS.
+
+3. Sélectionnez **Modifier le statut**.
+4. Sélectionnez **Interrompre**.
+
+    En modifiant le statut de la version sélectionnée de **Partagé** à **Interrompu**, vous rendez la version disponible pour la suppression.
+
+5. Cliquez sur **OK**.
+6. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+
+    Pour cet exemple, sélectionnez la version de la configuration dont le statut est **Interrompu**.
+
+7. Sélectionnez **Supprimer**.
+8. Cliquez sur **Oui**.
+
+    Notez que seule la version temporaire 2 de la configuration de modèle de données sélectionnée est maintenant disponible.
+
 9. Fermez la page.
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a>Importer une version partagée de la configuration du modèle de données à partir de LCS
-1. Dans la liste, marquer la ligne sélectionnée.
-    * Ouvrez la liste des référentiels pour le fournisseur de configuration « Litware, Inc. » .  
-2. Cliquez sur Référentiels.
-3. Cliquez sur Ouvrir.
-    * Sélectionnez le référentiel LCS et ouvrez- le.  
-4. Dans la liste, marquez la ligne sélectionnée.
-    * Sélectionnez la première version « Exemple de configuration de modèle » dans la liste des versions.  
-5. Cliquez sur Importer.
-6. Cliquez sur Oui.
-    * Confirmez l'importation de la version sélectionnée de LCS.  
-    * Notez que le message d'information (au-dessus de l'écran) confirme la réussite de l'importation de la version sélectionnée.  
-7. Fermez la page.
-8. Fermez la page.
-9. Cliquez sur Configurations.
-10. Dans l'arborescence, sélectionnez « Exemple de configuration de modèle ».
-11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la version de cette configuration dont le statut est « Partagé ».  
-    * Notez que seule la version partagée 1 de la configuration de modèle de données sélectionnée est maintenant disponible.  
+## <a name="import-a-shared-version-of-a-data-model-configuration-from-lcs"></a>Importer une version partagée d’une configuration du modèle de données à partir de LCS
 
+1. Allez dans **Administration d’organisation \> Espaces de travail \> États électroniques**.
+
+2. Dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Litware, Inc.**.
+
+3. Dans la vignette **Litware, Inc.**, sélectionnez **Référentiels**.
+
+    Vous pouvez à présent ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.
+
+4. Cliquez sur **Ouvrir**.
+
+    Pour cet exemple, sélectionnez le référentiel **LCS** et ouvrez-le. Vous devez avoir [accès](#accessconditions) au projet LCS et à la bibliothèque d’actifs accessible par le référentiel ER sélectionné.
+
+5. Dans la liste, marquer la ligne sélectionnée.
+
+    Pour cet exemple, sélectionnez la première version **Exemple de configuration de modèle** dans la liste des versions.
+
+6. Sélectionnez **Importer**.
+7. Cliquez sur **Oui** pour confirmer l’importation de la version sélectionnée de LCS.
+
+    Un message d’information confirme que la version sélectionnée a été importée avec succès.
+
+8. Fermez la page.
+9. Fermez la page.
+10. Sélectionner **Configurations**.
+11. Dans l’arborescence, sélectionnez **Exemple de configuration de modèle**.
+12. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+
+    Pour cet exemple, sélectionnez la version de la configuration dont le statut est **Partagé**.
+
+    Notez que seule la version partagée 1 de la configuration de modèle de données sélectionnée est également disponible.

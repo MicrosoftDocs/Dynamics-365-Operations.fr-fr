@@ -1,6 +1,6 @@
 ---
 title: Fonction QRCODE ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction QRCODE États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction QRCODE États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/10/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a52dbce29140591baf4be97baef237dce1f2511
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: f634976d83fb4066a953b7ab09c963214415e29b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040846"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743756"
 ---
-# <a name="QRCODE">Fonction QRCODE ER</a>
+# <a name="qrcode-er-function"></a>Fonction QRCODE ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `QRCODE` renvoie une valeur de *Conteneur* qui présente l'une image de code à réponse rapide (code QR) de la chaîne spécifiée au format binaire.
+La fonction `QRCODE` renvoie une valeur de *Conteneur* qui présente l’une image de code à réponse rapide (code QR) de la chaîne spécifiée au format binaire.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -41,7 +41,7 @@ QRCODE (text)
 
 `text` : *Chaîne*
 
-Valeur *Chaîne* qui représente le texte d'origine.
+Valeur *Chaîne* qui représente le texte d’origine.
 
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -51,13 +51,13 @@ Flux binaire résultant.
 
 ## <a name="example"></a>Exemple
 
-Vous pouvez configurer un format d'états électroniques (ER) pour générer un document sortant dans le format Microsoft Office (classeurs Excel ou documents Word) en utilisant un modèle prédéfini. Ce modèle peut contenir un objet **Image** (classeur Excel) ou un **Contrôle du contenu de l'image** (Document Word) comme espace réservé pour une image de code QR. Vous devez ajouter au format ER configuré un élément **Cellule** qui sera utilisé pour remplir cet espace réservé. Pour spécifier quelles informations seront stockées dans un code QR, vous devez définir une liaison pour cet élément **Cellule**. Par exemple, vous pouvez configurer une telle liaison comme contenant l'expression suivante :
+Vous pouvez configurer un format d’états électroniques (ER) pour générer un document sortant dans le format Microsoft Office (classeurs Excel ou documents Word) en utilisant un modèle prédéfini. Ce modèle peut contenir un objet **Image** (classeur Excel) ou un **Contrôle du contenu de l’image** (Document Word) comme espace réservé pour une image de code QR. Vous devez ajouter au format ER configuré un élément **Cellule** qui sera utilisé pour remplir cet espace réservé. Pour spécifier quelles informations seront stockées dans un code QR, vous devez définir une liaison pour cet élément **Cellule**. Par exemple, vous pouvez configurer une telle liaison comme contenant l’expression suivante :
 
 ```vb
 QRCODE (model.ListOfShelfLabels.LabelText)`
 ```
 
-Lorsque vous exécutez le format ER configuré, la valeur de texte du champ **LabelText** de la source de données **model.ListOfShelfLabels** sera utilisée pour générer une image de code QR. Cette image remplacera un espace réservé d'image de code QR dans le modèle de document en utilisant pour générer un document sortant. Lorsque cette image du document généré est numérisée, elle renvoie le texte qui a été extrait du champ **LabelText** de la source de données **model.ListOfShelfLabels**. Pour plus d'informations, voir [Intégrer des images et des formes dans les documents que vous générez à l'aide de la gestion d'ER](electronic-reporting-embed-images-shapes.md).
+Lorsque vous exécutez le format ER configuré, la valeur de texte du champ **LabelText** de la source de données **model.ListOfShelfLabels** sera utilisée pour générer une image de code QR. Cette image remplacera un espace réservé d’image de code QR dans le modèle de document en utilisant pour générer un document sortant. Lorsque cette image du document généré est numérisée, elle renvoie le texte qui a été extrait du champ **LabelText** de la source de données **model.ListOfShelfLabels**. Pour plus d’informations, voir [Intégrer des images et des formes dans les documents que vous générez à l’aide de la gestion d’ER](electronic-reporting-embed-images-shapes.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

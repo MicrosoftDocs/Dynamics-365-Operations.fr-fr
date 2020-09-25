@@ -3,7 +3,7 @@ title: Module Paiement
 description: Cette rubrique décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686740"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761103"
 ---
 # <a name="checkout-module"></a>Module Paiement
 
@@ -97,8 +97,8 @@ La plupart des informations de paiement, telles que l’adresse d’expédition 
 Pour ajouter un module de caisse à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
 1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment.
-1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez le module **Caisse**.
-1. Sous **Nom du fragment de page**, entrez le nom **Fragment de caisse**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Nouveau fragment**, sélectionnez le module **Caisse**.
+1. Sous **Nom du fragment**, entrez le nom **Fragment de caisse**, puis sélectionnez **OK**.
 1. Sélectionnez l’emplacement **Module de caisse**.
 1. Dans le volet des propriétés à droite, sélectionnez le symbole du crayon, entrez le texte de l’en-tête dans le champ, puis sélectionnez le symbole de coche.
 1. Dans l’emplacement **Informations de caisse**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.

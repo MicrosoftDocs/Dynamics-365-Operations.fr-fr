@@ -1,6 +1,6 @@
 ---
 title: Fonction NULLDATE ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction NULLDATE États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction NULLDATE États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/04/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a295a6ad8aca7718e60dd351248c9fbfdafee8
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: edf43cc19636f51387504a7d9da73d757d96e558
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042318"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744285"
 ---
-# <a name="NULLDATE">Fonction NULLDATE ER</a>
+# <a name="nulldate-er-function"></a>Fonction NULLDATE ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,8 +49,8 @@ Valeur de date résultante.
 
 ## <a name="example-2"></a>Exemple 2
 
-L'expression `IF( Invoice.DocumentDate = NULLDATE(), true, false)` renvoie **True** lorsque la valeur du champ **Date du document** est égale à la date **null**. Dans cet exemple, **Facture** est une source de données d'états électroniques (ER) de type **Enregistrements Finance/Table** qui fait référence à la table CustInvoiceJour.
+L’expression `IF( Invoice.DocumentDate = NULLDATE(), true, false)` renvoie **True** lorsque la valeur du champ **Date du document** est égale à la date **null**. Dans cet exemple, **Facture** est une source de données d’états électroniques (ER) de type **Enregistrements Finance/Table** qui fait référence à la table CustInvoiceJour.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctions de date et d'heure](er-functions-category-datetime.md)
+[Fonctions de date et d’heure](er-functions-category-datetime.md)
