@@ -1,6 +1,6 @@
 ---
 title: Fonction CURCREDREF ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction CURCREDREF États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction CURCREDREF États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/17/2019
@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e684a8e063cb3c049d13005cbcf6ebbe688af00
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 95e90289f43896b83ba98a6edefe0cd6028f4043
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041490"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744189"
 ---
-# <span data-ttu-id="e9cc4-103"><a name="CURCREDREF">Fonction CURCREDREF ER</a></span><span class="sxs-lookup"><span data-stu-id="e9cc4-103"><a name="CURCREDREF">CURCREDREF ER function</a></span></span>
+# <a name="curcredref-er-function"></a><span data-ttu-id="2061d-103">Fonction CURCREDREF ER</span><span class="sxs-lookup"><span data-stu-id="2061d-103">CURCREDREF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e9cc4-104">La fonction `CURCREDREF` renvoie une valeur *Chaîne* qui représente une référence de créancier, sur la base des chiffres du numéro de facture spécifié.</span><span class="sxs-lookup"><span data-stu-id="e9cc4-104">The `CURCREDREF` function returns a *String* value that represents a creditor reference, based on the digits of the specified invoice number.</span></span>
+<span data-ttu-id="2061d-104">La fonction `CURCREDREF` renvoie une valeur *Chaîne* qui représente une référence de créancier, sur la base des chiffres du numéro de facture spécifié.</span><span class="sxs-lookup"><span data-stu-id="2061d-104">The `CURCREDREF` function returns a *String* value that represents a creditor reference, based on the digits of the specified invoice number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e9cc4-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e9cc4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2061d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2061d-105">Syntax</span></span>
 
 ```vb
 CURCREDREF (invoice number digits)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="e9cc4-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="e9cc4-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="2061d-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="2061d-106">Arguments</span></span>
 
-<span data-ttu-id="e9cc4-107">`invoice number digits` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="e9cc4-107">`invoice number digits`: *String*</span></span>
+<span data-ttu-id="2061d-107">`invoice number digits` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="2061d-107">`invoice number digits`: *String*</span></span>
 
-<span data-ttu-id="e9cc4-108">Valeur de texte qui représente les chiffres d'un numéro de facture.</span><span class="sxs-lookup"><span data-stu-id="e9cc4-108">A text value that represents the digits of an invoice number.</span></span>
+<span data-ttu-id="2061d-108">Valeur de texte qui représente les chiffres d’un numéro de facture.</span><span class="sxs-lookup"><span data-stu-id="2061d-108">A text value that represents the digits of an invoice number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e9cc4-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="e9cc4-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2061d-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="2061d-109">Return values</span></span>
 
-<span data-ttu-id="e9cc4-110">*Chaîne*</span><span class="sxs-lookup"><span data-stu-id="e9cc4-110">*String*</span></span>
+<span data-ttu-id="2061d-110">*Chaîne*</span><span class="sxs-lookup"><span data-stu-id="2061d-110">*String*</span></span>
 
-<span data-ttu-id="e9cc4-111">Valeur de texte résultante.</span><span class="sxs-lookup"><span data-stu-id="e9cc4-111">The resulting text value.</span></span>
+<span data-ttu-id="2061d-111">Valeur de texte résultante.</span><span class="sxs-lookup"><span data-stu-id="2061d-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e9cc4-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="e9cc4-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2061d-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="2061d-112">Example</span></span>
 
-<span data-ttu-id="e9cc4-113">`CURCredRef ("VEND-200002")` renvoie **« 2200002 »**.</span><span class="sxs-lookup"><span data-stu-id="e9cc4-113">`CURCredRef ("VEND-200002")` returns **"2200002"**.</span></span>
+<span data-ttu-id="2061d-113">`CURCredRef ("VEND-200002")` renvoie **« 2200002 »**.</span><span class="sxs-lookup"><span data-stu-id="2061d-113">`CURCredRef ("VEND-200002")` returns **"2200002"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e9cc4-114">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="e9cc4-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2061d-114">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="2061d-114">Additional resources</span></span>
 
-[<span data-ttu-id="e9cc4-115">Autre fonctions (spécifiques au domaine d'affaires)</span><span class="sxs-lookup"><span data-stu-id="e9cc4-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="2061d-115">Autre fonctions (spécifiques au domaine d’affaires)</span><span class="sxs-lookup"><span data-stu-id="2061d-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
