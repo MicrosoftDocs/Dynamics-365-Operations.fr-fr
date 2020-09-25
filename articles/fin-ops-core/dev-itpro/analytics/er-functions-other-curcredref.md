@@ -1,6 +1,6 @@
 ---
 title: Fonction CURCREDREF ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction CURCREDREF États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction CURCREDREF États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/17/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e684a8e063cb3c049d13005cbcf6ebbe688af00
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 95e90289f43896b83ba98a6edefe0cd6028f4043
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041490"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744189"
 ---
-# <a name="CURCREDREF">Fonction CURCREDREF ER</a>
+# <a name="curcredref-er-function"></a>Fonction CURCREDREF ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ CURCREDREF (invoice number digits)
 
 `invoice number digits` : *Chaîne*
 
-Valeur de texte qui représente les chiffres d'un numéro de facture.
+Valeur de texte qui représente les chiffres d’un numéro de facture.
 
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -55,4 +55,4 @@ Valeur de texte résultante.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Autre fonctions (spécifiques au domaine d'affaires)](er-functions-category-other.md)
+[Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)

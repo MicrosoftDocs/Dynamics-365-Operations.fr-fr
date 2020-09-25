@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699613"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802747"
 ---
 # <a name="hazardous-materials-overview"></a>Vue d’ensemble des matières dangereuses
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Pour rester conformes aux réglementations sur l’expédition et le transport, les organisations qui expédient des matières classées comme marchandises dangereuses doivent inclure des documents supplémentaires dans leurs expéditions. La fonction relatives aux matières dangereuses permet aux clients de stocker des informations sur les articles lancés. Ces informations peuvent ensuite être utilisées pour préparer la documentation d’expédition. Une organisation qui expédie des marchandises dangereuses doit avoir ses propres processus et procédures pour gérer le processus d’expédition. Microsoft Dynamics 365 Supply Chain Management est simplement un outil qui peut aider à générer les documents requis.
 

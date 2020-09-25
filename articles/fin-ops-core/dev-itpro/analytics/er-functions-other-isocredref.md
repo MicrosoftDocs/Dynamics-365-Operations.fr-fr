@@ -1,6 +1,6 @@
 ---
 title: Fonction ISOCREDREF ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction ISOCREDREF États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction ISOCREDREF États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/17/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd692720872314d533274f392f84e5ac7d36c7c1
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: d6e5d025e7de15c27b19711ea5b597d75bdf3d41
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041375"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744093"
 ---
-# <a name="ISOCREDREF">Fonction ISOCREDREF ER</a>
+# <a name="isocredref-er-function"></a>Fonction ISOCREDREF ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ ISOCREDREF (invoice number digits)
 
 `invoice number digits` : *Chaîne*
 
-Valeur de texte qui représente les chiffres d'un numéro de facture.
+Valeur de texte qui représente les chiffres d’un numéro de facture.
 
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -49,10 +49,10 @@ Valeur de texte qui représente les chiffres d'un numéro de facture.
 
 Valeur de texte résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 > [!NOTE] 
-> Pour éliminer des symboles de l'alphabet qui ne sont pas conformes à la norme ISO, l'argument `invoice number digits` doit être traduit avant d'être transmis à cette fonction.
+> Pour éliminer des symboles de l’alphabet qui ne sont pas conformes à la norme ISO, l’argument `invoice number digits` doit être traduit avant d’être transmis à cette fonction.
 
 ## <a name="example"></a>Exemple
 
@@ -60,4 +60,4 @@ Valeur de texte résultante.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Autre fonctions (spécifiques au domaine d'affaires)](er-functions-category-other.md)
+[Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)

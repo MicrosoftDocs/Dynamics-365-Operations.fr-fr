@@ -1,6 +1,6 @@
 ---
-title: Auditer les factures et les données clé dans le système de comptabilité fournisseur
-description: Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement.
+title: Auditer les factures et indexer les données dans la comptabilité fournisseur
+description: Cette rubrique montre comment auditer les factures et les données clés de la comptabilité fournisseur.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,22 +16,22 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e1af0dac107be6009eb3ca576c49ac5abbd9848
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 5bb89f0adce41b045b1f573c4c0e841f78b2248c
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139939"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761547"
 ---
-# <a name="audit-invoices-and-key-data-in-ap-system"></a>Auditer les factures et les données clé dans le système de comptabilité fournisseur
+# <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Auditer les factures et indexer les données dans la comptabilité fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement. Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée. 
+Lorsque vous recevez une facture d’un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement. Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée. 
 
-Dans la page Comptabilité fournisseur, vérifiez que l'option Activer le contrôle de rapprochement de factures est sélectionnée, que le champ Valider la facture avec les non-correspondances est bien défini sur Demander une approbation, et que le champ Stratégie de rapprochement des lignes est défini sur Rapprochement à trois facteurs.
+Dans la page **Comptabilité fournisseur**, vérifiez que l’option Activer le contrôle de rapprochement de factures est sélectionnée, que le champ **Valider la facture avec les non-correspondances** est bien défini sur **Demander une approbation**, et que le champ **Stratégie de rapprochement des lignes** est défini sur **Rapprochement à trois facteurs**.
 
-La société fictive USMF sert d'exemple dans cette procédure. Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable.
+La société fictive USMF sert d’exemple dans cette procédure. Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable.
 
 
 ## <a name="create-a-purchase-order"></a>Créer une commande fournisseur
@@ -40,7 +40,7 @@ La société fictive USMF sert d'exemple dans cette procédure. Les différentes
 3. Dans le champ **Compte fournisseur**, tapez une valeur.
 4. Cliquez sur **OK**.
 5. Cliquez sur **Ajouter une ligne**.
-6. Dans le champ **Numéro d'article**, tapez une valeur.
+6. Dans le champ **Numéro d’article**, tapez une valeur.
 7. Dans le volet Actions, cliquez sur **Achat**.
 8. Cliquez sur **Confirmer**.
 

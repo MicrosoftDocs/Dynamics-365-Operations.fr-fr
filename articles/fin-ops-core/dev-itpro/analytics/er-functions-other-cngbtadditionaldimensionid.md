@@ -1,6 +1,6 @@
 ---
 title: CN_GBT_ADDITIONALDIMENSIONID ER, fonction
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction CN_GBT_ADDITIONALDIMENSIONID États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction CN_GBT_ADDITIONALDIMENSIONID États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/17/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2395a1932e543e35ced28a2a6e56ab44835de19a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 7fdc4527bc6115bdb3fca9d6a92d3d77a7c264c2
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041536"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744429"
 ---
-# <a name="CN_GBT_ADDITIONALDIMENSIONID">CN_GBT_ADDITIONALDIMENSIONID ER, fonction</a>
+# <a name="cn_gbt_additionaldimensionid-er-function"></a>CN_GBT_ADDITIONALDIMENSIONID ER, fonction
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `CN_GBT_ADDITIONALDIMENSIONID` renvoie une valeur de *Chaîne* qui représente un ID de dimension financière unique extrait de la chaîne spécifiée. La chaîne spécifiée présente toutes les dimensions sous la forme d'une liste d'ID séparés par des virgules.
+La fonction `CN_GBT_ADDITIONALDIMENSIONID` renvoie une valeur de *Chaîne* qui représente un ID de dimension financière unique extrait de la chaîne spécifiée. La chaîne spécifiée présente toutes les dimensions sous la forme d’une liste d’ID séparés par des virgules.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -41,7 +41,7 @@ CN_GBT_ADDITIONALDIMENSIONID (text, number)
 
 `text` : *Chaîne*
 
-Valeur de *Chaîne* qui présente toutes les dimensions sous la forme d'une liste d'ID séparés par des virgules.
+Valeur de *Chaîne* qui présente toutes les dimensions sous la forme d’une liste d’ID séparés par des virgules.
 
 `number` : Entier
 
@@ -59,4 +59,4 @@ Valeur de texte résultante.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Autre fonctions (spécifiques au domaine d'affaires)](er-functions-category-other.md)
+[Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)

@@ -1,6 +1,6 @@
 ---
 title: Fonction NULLDATETIME ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction NULLDATETIME États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction NULLDATETIME États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/04/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cd4c152d4e220a2f6315265ed5e44d148134279
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9e1aaed3e85fc99d6451577d19e834afd37ad008
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042253"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743541"
 ---
-# <a name="NULLDATETIME">Fonction NULLDATETIME ER</a>
+# <a name="nulldatetime-er-function"></a>Fonction NULLDATETIME ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,8 +45,8 @@ Valeur de date/heure résultante.
 
 ## <a name="example"></a>Exemple
 
-`DATETIMEFORMAT( NULLDATETIME(), "O")` renvoie la valeur de chaîne **1900-01-01T00:00:00.0000000+00:00** lorsqu'il est appelé lors d'un processus qui a été lancé par un utilisateur d'application qui a la valeur de fuseau horaire **(GMT) Temps universel coordonné** dans la section **Préférences de langue et paramètres locaux**.
+`DATETIMEFORMAT( NULLDATETIME(), "O")` renvoie la valeur de chaîne **1900-01-01T00:00:00.0000000+00:00** lorsqu’il est appelé lors d’un processus qui a été lancé par un utilisateur d’application qui a la valeur de fuseau horaire **(GMT) Temps universel coordonné** dans la section **Préférences de langue et paramètres locaux**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctions de date et d'heure](er-functions-category-datetime.md)
+[Fonctions de date et d’heure](er-functions-category-datetime.md)

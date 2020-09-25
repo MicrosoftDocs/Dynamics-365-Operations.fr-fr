@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628907"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759933"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Recherche de produits et de clients dans le point de vente (PDV)
 
@@ -93,7 +93,7 @@ Dans une recherche de client à distance, l’ID client n’est pas affiché pou
 
 ### <a name="enhancements-to-local-customer-search"></a>Améliorations apportées à la recherche de clients locale
 
-Les recherches qui sont basées sur le numéro de téléphone ont été simplifiées. Ces recherches ignorent désormais les caractères spéciaux, tels que les espaces, les traits d’union et les parenthèses, qui peuvent avoir été ajoutés lorsque le client les a créés. Par conséquent, les caissiers ne doivent pas s’inquiéter du format du numéro de téléphone lorsqu’ils effectuent une recherche. Ils peuvent également rechercher des clients en entrant un numéro de téléphone partiel. Si un numéro de téléphone inclut des caractères spéciaux, il est également affiché en recherchant les numéros qui s’affichent après les caractères spéciaux. Par exemple, si un numéro de téléphone de client a été saisi sous la forme **123-456-7890**, le caissier peut rechercher le client en saisissant **123**, **456**, **7890**, ou **1234567890**, ou en saisissant les premiers chiffres du numéro de téléphone.
+Les recherches qui sont basées sur le numéro de téléphone ont été simplifiées. Ces recherches ignorent désormais les caractères spéciaux, tels que les espaces, les traits d’union et les parenthèses, qui peuvent avoir été ajoutés lorsque le client les a créés. Par conséquent, les caissiers ne doivent pas s’inquiéter du format du numéro de téléphone lorsqu’ils effectuent une recherche. Par exemple, si un numéro de téléphone de client a été saisi sous la forme **123-456-7890**, le caissier peut rechercher le client en saisissant **1234567890** ou en saisissant les premiers chiffres du numéro de téléphone.
 
 > [!NOTE]
 > Un client peut avoir plusieurs numéros de téléphone et plusieurs e-mails. L’algorithme de recherche client recherche également ces e-mails et numéros de téléphone secondaires, mais la page de résultats de recherche client n’affiche que l’adresse e-mail et le numéro de téléphone principaux. Cela peut entraîner une certaine confusion car les résultats client renvoyés n’afficheraient pas l’e-mail ou le numéro de téléphone recherché. Dans une prochaine version, nous prévoyons d’améliorer l’écran des résultats de recherche de clients pour afficher ces informations.

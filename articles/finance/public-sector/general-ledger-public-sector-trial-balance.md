@@ -13,20 +13,19 @@ ms.reviewer: kfend
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: v-alpavk
+ms.author: v-kiarnd
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 6f79ae7419d8dc1201d1fce99b83f33d30919cf5
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 76b0560499532eb3e97b03a9e797a9168ebcbcdc
+ms.sourcegitcommit: d6b17b9bafa84b574a597a560a80e6b7b1852b14
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652206"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "3799918"
 ---
 # <a name="trial-balance-with-transactional-detail-report"></a>État Balance comptable avec le détail des transactions
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit l’état par défaut des balances comptables. Elle décrit également les blocs élémentaires associés à cet état et comment il est possible de modifier l’état pour l’adapter à vos exigences métier.
 

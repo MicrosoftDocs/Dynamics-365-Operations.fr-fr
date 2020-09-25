@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 77598717129742f291fae4df8f09953027ce0c60
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699614"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803187"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Matières dangereuses dans les produits, les commandes, les expéditions et les chargements
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment définir les propriétés des matières dangereuses pour les produits lancés, comment fixer des limites de stock aux articles dangereux et comment inclure des matières dangereuses dans une commande client, une expédition ou un chargement.
 

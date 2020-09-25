@@ -1,6 +1,6 @@
 ---
 title: Fonction ER RIGHT
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction RIGHT États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction RIGHT États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/10/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7169d9d3d2cdfb9f36bb77c1688922549e79ff32
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: dd53ece77b08fc9723c838da5ba08bf3825b5e56
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040869"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743709"
 ---
-# <a name="RIGHT">Fonction ER RIGHT</a>
+# <a name="right-er-function"></a>Fonction ER RIGHT
 
 [!include [banner](../includes/banner.md)]
 
@@ -41,11 +41,11 @@ RIGHT (text, number)
 
 `text` : *Chaîne*
 
-Valeur *Chaîne* qui représente le texte d'origine.
+Valeur *Chaîne* qui représente le texte d’origine.
 
 `number` : *Entier*
 
-Nombre de caractères qui doivent être renvoyés à partir de la fin du texte d'origine.
+Nombre de caractères qui doivent être renvoyés à partir de la fin du texte d’origine.
 
 ## <a name="return-values"></a>Valeurs de retour
 

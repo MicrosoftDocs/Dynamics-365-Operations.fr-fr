@@ -1,6 +1,6 @@
 ---
 title: Fonction MID ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction MID États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction MID États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/10/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fbaf5952222d90a855956fb93713e0f9ef81305
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e2addace5c5606ebaae56ca658700347978a805b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041028"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744717"
 ---
-# <a name="MID">Fonction MID ER</a>
+# <a name="mid-er-function"></a>Fonction MID ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -57,11 +57,11 @@ Valeur *Entier* qui spécifie le nombre de caractères qui doit être renvoyé, 
 
 Valeur de texte résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
-Si la valeur de l'argument `starting position` est inférieure à 0 (zéro), les caractères renvoyés sont comptés à partir de la première position de la chaîne spécifiée.
+Si la valeur de l’argument `starting position` est inférieure à 0 (zéro), les caractères renvoyés sont comptés à partir de la première position de la chaîne spécifiée.
 
-Si la valeur de l'argument `starting position` dépasse la longueur de la chaîne spécifiée, une chaîne vide est renvoyée.
+Si la valeur de l’argument `starting position` dépasse la longueur de la chaîne spécifiée, une chaîne vide est renvoyée.
 
 ## <a name="example"></a>Exemple
 

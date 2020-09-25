@@ -1,6 +1,6 @@
 ---
 title: Fonction ORDERBY ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction ORDERBY États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction ORDERBY États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a6b5cddc325625dc5b3d677ffcc1da1f8b829cd
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 6ff280d66fd2c418984f2d7fd31a32609932e89c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041950"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745007"
 ---
-# <a name="ORDERBY">Fonction ORDERBY ER</a>
+# <a name="orderby-er-function"></a>Fonction ORDERBY ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `ORDERBY` renvoie la liste spécifiée sous la forme d'une *Liste des enregistrements* après avoir été triée selon les arguments spécifiés. Ces arguments peuvent être définis comme expressions.
+La fonction `ORDERBY` renvoie la liste spécifiée sous la forme d’une *Liste des enregistrements* après avoir été triée selon les arguments spécifiés. Ces arguments peuvent être définis comme expressions.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -39,31 +39,31 @@ ORDERBY (list , expression 1[, expression 2, …, expression N])
 
 ## <a name="arguments"></a>Arguments
 
-`list` : *Liste d'enregistrements*
+`list` : *Liste d’enregistrements*
 
-Chemin d'accès valide d'une source de données du type de données *Liste d'enregistrements*.
+Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.
 
 `expression 1` : *Champ*
 
-Chemin valide d'un champ de la source de données référencé par l'argument `list` de la fonction appelée. Le champ référencé doit être un champ du type de données primitif. Cet argument est obligatoire.
+Chemin valide d’un champ de la source de données référencé par l’argument `list` de la fonction appelée. Le champ référencé doit être un champ du type de données primitif. Cet argument est obligatoire.
 
 `expression N` : *Champ*
 
-Chemin valide d'un champ de la source de données référencé par l'argument `list` de la fonction appelée. Le champ référencé doit être un champ du type de données primitif. Ces arguments supplémentaires sont facultatifs.
+Chemin valide d’un champ de la source de données référencé par l’argument `list` de la fonction appelée. Le champ référencé doit être un champ du type de données primitif. Ces arguments supplémentaires sont facultatifs.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*Liste d'enregistrements*
+*Liste d’enregistrements*
 
 Liste des enregistrements résultante.
 
 ## <a name="example-1"></a>Exemple 1
 
-Si vous entrez une source de données **DS** de type *Champ calculé*, et qu'elle contient l'expression `SPLIT ("C|B|A", "|")`, l'expression `FIRST( ORDERBY( DS, DS. Value)).Value` renvoie la valeur de texte **« A »**.
+Si vous entrez une source de données **DS** de type *Champ calculé*, et qu’elle contient l’expression `SPLIT ("C|B|A", "|")`, l’expression `FIRST( ORDERBY( DS, DS. Value)).Value` renvoie la valeur de texte **« A »**.
 
 ## <a name="example-2"></a>Exemple 2
 
-Si **Fournisseur** est configuré comme source de données d'états électroniques qui fait référence à la table VendTable, l'expression `ORDERBY (Vendors, Vendors.'name()')` renvoie une liste de fournisseurs qui est triée par nom dans l'ordre croissant.
+Si **Fournisseur** est configuré comme source de données d’états électroniques qui fait référence à la table VendTable, l’expression `ORDERBY (Vendors, Vendors.'name()')` renvoie une liste de fournisseurs qui est triée par nom dans l’ordre croissant.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -3,7 +3,7 @@ title: Ajouter une icône de favori
 description: Cette rubrique explique comment ajouter une icône de favori à votre site.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686788"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761151"
 ---
 # <a name="add-a-favicon"></a>Ajouter une icône de favori
 
@@ -58,30 +58,30 @@ Pour créer le fichier HTML pour l’icône de favori, utilisez la chaîne HTML 
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Créer un fragment de page contenant une balise META pour votre icône de favori
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Créer un fragment contenant une balise META pour votre icône de favori
 
-Pour créer un fragment de page contenant une balise META pour votre icône de favori, suivez cette procédure.
+Pour créer un fragment contenant une balise META pour votre icône de favori, suivez cette procédure.
 
 1. Accédez à **Fragments**, et sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez **Métabalises** comme module sur lequel le fragment de page est basé.
-1. Entrez un nom pour le fragment de page, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Nouveau fragment**, sélectionnez **Métabalises** comme module sur lequel le fragment est basé.
+1. Entrez un nom pour le fragment, puis sélectionnez **OK**.
 1. Dans l’arborescence de la hiérarchie des fragments, sélectionnez l’enfant **Metatags par défaut**.
 1. Dans le volet droit, sous **Balises Meta**, sélectionnez **Ajouter**, puis entrez la chaîne HTML que vous avez créée précédemment pour l’icône de favori. 
-1. Sélectionnez **Terminer la modification**, puis **Publier** pour publier le fragment de page.
+1. Sélectionnez **Terminer la modification**, puis **Publier** pour publier le fragment.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Ajouter le fragment de page de métabalise à la section d’en-tête HTML de vos pages
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Ajouter le fragment de métabalise à la section d’en-tête HTML de vos pages
 
-Pour ajouter le fragment de page de métabalise à la section d’**en-tête** HTML de vos pages, suivez cette procédure.
+Pour ajouter le fragment de métabalise à la section d’**en-tête** HTML de vos pages, suivez cette procédure.
 
 1. Accédez à **Modèles**, puis ouvrez le modèle pour les pages dans lesquelles vous souhaitez ajouter votre icône de favori, puis sélectionnez **Modifier**.
-1. Dans l’arborescence de la hiérarchie des modèles, sélectionnez les points de suspension (**...**) à droite du conteneur **En-tête HTML**, puis sélectionnez **Ajouter un fragment de page**.
-1. Dans la boîte de dialogue **Sélectionner un fragment de page**, sélectionnez le fragment de page de métabalise que vous avez créé au préalable, puis sélectionnez **OK**.
+1. Dans l’arborescence de la hiérarchie des modèles, sélectionnez les points de suspension (**...**) à droite du conteneur **En-tête HTML**, puis sélectionnez **Ajouter un fragment**.
+1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le fragment de métabalise que vous avez créé au préalable, puis sélectionnez **OK**.
 1. Sélectionnez **Terminer la modification**, puis **Publier** pour publier le modèle.
 
 > [!NOTE]
-> Si votre site utilise plusieurs modèles, vous devez ajouter le fragment de page de métabalises à chacun d’eux.
+> Si votre site utilise plusieurs modèles, vous devez ajouter le fragment de métabalises à chacun d’eux.
 
-Lorsque vous prévisualisez des pages basées sur le modèle auquel vous avez ajouté le fragment de page de métabalises, vous devriez maintenant voir l’icône de favori dans l’onglet du navigateur.
+Lorsque vous prévisualisez des pages basées sur le modèle auquel vous avez ajouté le fragment de métabalises, vous devriez maintenant voir l’icône de favori dans l’onglet du navigateur.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

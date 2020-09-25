@@ -1,6 +1,6 @@
 ---
 title: Fonction ISVALIDCHARACTERISO7064 ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction ISVALIDCHARACTERISO7064 États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction ISVALIDCHARACTERISO7064 États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/17/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c858ad72db7afe63baca8288f312548c4fc37d5c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 21962952bb3bdd016831dc5e196af27c69ecc6db
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041398"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744069"
 ---
-# <a name="ISVALIDCHARACTERISO7064">Fonction ISVALIDCHARACTERISO7064 ER</a>
+# <a name="isvalidcharacteriso7064-er-function"></a>Fonction ISVALIDCHARACTERISO7064 ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -57,4 +57,4 @@ Valeur de texte résultante.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Autre fonctions (spécifiques au domaine d'affaires)](er-functions-category-other.md)
+[Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)

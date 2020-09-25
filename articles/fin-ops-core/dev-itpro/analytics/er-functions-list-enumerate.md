@@ -1,6 +1,6 @@
 ---
 title: Fonction ENUMERATE ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction ENUMERATE États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction ENUMERATE États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d34904571ee6de8b36a0840a9470f16858489163
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e1871ee41267c2c0e8b35007a47c9601079f05d7
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042142"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745247"
 ---
-# <a name="ENUMERATE">Fonction ENUMERATE ER</a>
+# <a name="enumerate-er-function"></a>Fonction ENUMERATE ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `ENUMERATE` renvoie une nouvelle valeur *Liste des enregistrements* constituée d'enregistrements énumérés de la liste spécifiée.
+La fonction `ENUMERATE` renvoie une nouvelle valeur *Liste des enregistrements* constituée d’enregistrements énumérés de la liste spécifiée.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -39,34 +39,34 @@ ENUMERATE (list)
 
 ## <a name="arguments"></a>Arguments
 
-`list` : *Liste d'enregistrements*
+`list` : *Liste d’enregistrements*
 
-Chemin d'accès valide d'une source de données du type de données *Liste d'enregistrements*.
+Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*Liste d'enregistrements*
+*Liste d’enregistrements*
 
 Liste des enregistrements résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 La liste des enregistrements énumérés qui est renvoyée expose les éléments supplémentaires suivants :
 
-- L'enregistrement de champs (composant **Valeur**)
-- L'index des enregistrements actuels (composant **Numéro**)
+- L’enregistrement de champs (composant **Valeur**)
+- L’index des enregistrements actuels (composant **Numéro**)
 
 ## <a name="example"></a>Exemple
 
-Dans l'illustration suivante, une source de données **Énumérée** est créée sous la forme d'une liste énumérée des enregistrements fournisseurs de la source de données **Fournisseurs** qui fait référence à la table VendTable.
+Dans l’illustration suivante, une source de données **Énumérée** est créée sous la forme d’une liste énumérée des enregistrements fournisseurs de la source de données **Fournisseurs** qui fait référence à la table VendTable.
 
 <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>
 
-L'illustration suivante présente le format des états électroniques (ER). Dans ce format, des liaisons de données sont créées pour générer la sortie au format XML. Cette sortie répertorie des fournisseurs individuels comme nœuds énumérés.
+L’illustration suivante présente le format des états électroniques (ER). Dans ce format, des liaisons de données sont créées pour générer la sortie au format XML. Cette sortie répertorie des fournisseurs individuels comme nœuds énumérés.
 
 <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a>
 
-L'illustration suivante présente le résultat de l'exécution du format conçu.
+L’illustration suivante présente le résultat de l’exécution du format conçu.
 
 <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a>
 

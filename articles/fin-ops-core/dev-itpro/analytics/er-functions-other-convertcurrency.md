@@ -1,6 +1,6 @@
 ---
 title: Fonction CONVERTCURRENCY ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction CONVERTCURRENCY États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction CONVERTCURRENCY États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/17/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d0c168e07252f7c423271bc808f3fca3834077f
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: ae6e0069c6e9227d4cf1045eeebbb825a2f943c3
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041513"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744309"
 ---
-# <a name="CONVERTCURRENCY">Fonction CONVERTCURRENCY ER</a>
+# <a name="convertcurrency-er-function"></a>Fonction CONVERTCURRENCY ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `CONVERTCURRENCY` renvoie une valeur de *Réel* qui représente le résultat de la conversion du montant en devises spécifié de la devise source spécifiée dans la devise cible spécifiée à l'aide des paramètres de la société spécifiée à la date spécifiée.
+La fonction `CONVERTCURRENCY` renvoie une valeur de *Réel* qui représente le résultat de la conversion du montant en devises spécifié de la devise source spécifiée dans la devise cible spécifiée à l’aide des paramètres de la société spécifiée à la date spécifiée.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -57,7 +57,7 @@ Valeur de *Date* qui représente la date utilisée pour déterminer le taux de c
 
 `company` : *Chaîne*
 
-Valeur de *Chaîne* qui représente le code d'une entreprise qui fournit les paramètres utilisés pour la conversion.
+Valeur de *Chaîne* qui représente le code d’une entreprise qui fournit les paramètres utilisés pour la conversion.
 
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -67,8 +67,8 @@ Valeur numérique résultante.
 
 ## <a name="example"></a>Exemple
 
-`CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")` renvoie l'équivalent d'un euro en dollars US à la date de session actuelle, basée sur les paramètre de la société **DEMF**.
+`CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")` renvoie l’équivalent d’un euro en dollars US à la date de session actuelle, basée sur les paramètre de la société **DEMF**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Autre fonctions (spécifiques au domaine d'affaires)](er-functions-category-other.md)
+[Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)

@@ -1,6 +1,6 @@
 ---
 title: Stratégie de repositionnement des coûts et calcul des frais généraux
-description: Cette rubrique fournit des informations sur la façon de déterminer le niveau correct d'éléments de coût secondaires et de créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l'organisation et à la traçabilité des coûts.
+description: Cette rubrique fournit des informations sur la façon de déterminer le niveau correct d’éléments de coût secondaires et de créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l’organisation et à la traçabilité des coûts.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
+ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -19,37 +19,37 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 083b6cb604115c3f2a72a5ba23199e1517fc1ea1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f07483d0ccb8593f0e7ce8dbd3c83f63ce60d457
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771898"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759374"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stratégie de repositionnement des coûts et calcul des frais généraux 
 
 [!include [banner](../includes/banner.md)]
 
-Le contrôle de gestion vous permet de mieux comprendre comment le flux des coûts se rapporte aux produits et services fournis dans une organisation. Pour voir la transparence des coûts, il est primordial d'effectuer la répartition des coûts entre les objets de coût en fonction d'une base de répartition appropriée. Par défaut, la répartition des coûts est effectuée pour l'élément de coût principal, qui est désiré dans certains cas, mais elle comporte certaines implications qui doivent être prises en compte.
+Le contrôle de gestion vous permet de mieux comprendre comment le flux des coûts se rapporte aux produits et services fournis dans une organisation. Pour voir la transparence des coûts, il est primordial d’effectuer la répartition des coûts entre les objets de coût en fonction d’une base de répartition appropriée. Par défaut, la répartition des coûts est effectuée pour l’élément de coût principal, qui est désiré dans certains cas, mais elle comporte certaines implications qui doivent être prises en compte.
 
--   Les objets de coût auxiliaires se termineront par un solde nul pour l'élément de coût principal après le calcul des frais généraux.
+-   Les objets de coût auxiliaires se termineront par un solde nul pour l’élément de coût principal après le calcul des frais généraux.
 
 -   Le volume des écritures de coût généré par le calcul des frais généraux peut être très élevé.
 
 -   Il est impossible de suivre le flux des coûts entre les objets de coût.
 
-Pour éviter ces implications, le contrôle de gestion vous permet de configurer la répartition des coûts pour obtenir une adéquation dans les exigences hiérarchiques de votre organisation. Cette rubrique montre comment déterminer le niveau correct d'éléments de coût secondaires et comment créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l'organisation et à la traçabilité des coûts.
+Pour éviter ces implications, le contrôle de gestion vous permet de configurer la répartition des coûts pour obtenir une adéquation dans les exigences hiérarchiques de votre organisation. Cette rubrique montre comment déterminer le niveau correct d’éléments de coût secondaires et comment créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l’organisation et à la traçabilité des coûts.
 
 > [!NOTE]
-> Vous pouvez modifier les configurations en fonction de l'évolution des exigences hiérarchiques.
+> Vous pouvez modifier les configurations en fonction de l’évolution des exigences hiérarchiques.
 
 ## <a name="example-of-cost-rollup-policy-setup"></a>Exemple de paramétrage de la stratégie de repositionnement des coûts
 
-Imaginez qu'une organisation a la structure suivante avec 4 centres de coût.
+Imaginez qu’une organisation a la structure suivante avec 4 centres de coût.
 
-![Exemple d'une structure d'organisation](./media/dimension-hierarchy-org.png)
+![Exemple d’une structure d’organisation](./media/dimension-hierarchy-org.png)
 
-**Dimension d'objet de coût**
+**Dimension d’objet de coût**
 
 | Centres de coût | Description          |
 |--------------|-----------|
@@ -58,7 +58,7 @@ Imaginez qu'une organisation a la structure suivante avec 4 centres de coût.
 | CC003        | Assemblage  |
 | CC004        | Emballage |
 
-**Dimension d'élément de coût**
+**Dimension d’élément de coût**
 
 | Éléments de coût | Description | Type    |
 |---------------|-------------|---------|
@@ -66,11 +66,11 @@ Imaginez qu'une organisation a la structure suivante avec 4 centres de coût.
 | 1 002          | Salaires    | Principale |
 | 1003          | Publicité | Principale |
 
-Une hiérarchie de dimensions qui répond aux conditions de génération d'états d'organisation peut être paramétrée comme suit.
+Une hiérarchie de dimensions qui répond aux conditions de génération d’états d’organisation peut être paramétrée comme suit.
 
 **Détails sur la hiérarchie des dimensions**
 
-| Nom de la hiérarchie des dimensions | Dimension    | Nom du type de hiérarchie des dimensions      | Hiérarchie de la liste d'accès |
+| Nom de la hiérarchie des dimensions | Dimension    | Nom du type de hiérarchie des dimensions      | Hiérarchie de la liste d’accès |
 |--------------------------|--------------|------------------------------------|-----------------------|
 | Organisation             | Centres de coût | Hiérarchie de classification de dimension | N°                    |
 
@@ -103,7 +103,7 @@ Une hiérarchie de dimensions qui répond aux exigences de stratégie peut être
 | Relevé de compte de résultat |                         |                     |
 | &nbsp;&nbsp;&nbsp;&nbsp;Coût principal                    | 10001                   | 10003               |
 
-Une fois que les écritures de comptabilité sont traitées, le solde d'écriture de coût par objet de coût ressemble à ce qui suit.
+Une fois que les écritures de comptabilité sont traitées, le solde d’écriture de coût par objet de coût ressemble à ce qui suit.
 
 |                      | **Objet de coût** |           |           |           | **Total**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
@@ -120,9 +120,9 @@ Une fois que les écritures de comptabilité sont traitées, le solde d'écritur
 | SE-1                 | Services HR      |
 | SE-2                 | Services Finance |
 
-L'objet de coût CC001 HR contribue aux services des RH pour plusieurs objets de coûts.
+L’objet de coût CC001 HR contribue aux services des RH pour plusieurs objets de coûts.
 
-Les services RH sont consommés par la répartition suivante de l'ampleur.
+Les services RH sont consommés par la répartition suivante de l’ampleur.
 
 | Objet de coût | Description |   Services HR |
 |-------------|-------------|----|
@@ -130,9 +130,9 @@ Les services RH sont consommés par la répartition suivante de l'ampleur.
 | CC003       | Assemblage    | 55 |
 | CC004       | Emballage   | 10 |
 
-L'objet de coût CC002 Finance contribue à plusieurs objets de coûts.
+L’objet de coût CC002 Finance contribue à plusieurs objets de coûts.
 
-Les services financiers sont consommés par la répartition suivante de l'ampleur.
+Les services financiers sont consommés par la répartition suivante de l’ampleur.
 
 | Objet de coût |   Description    |  Services Finance   |
 |-------------|------------------|----|
@@ -141,13 +141,13 @@ Les services financiers sont consommés par la répartition suivante de l'ampleu
 
 Les stratégies de répartition des coûts peuvent être paramétrées comme suit.
 
-| Nom de la stratégie | Description     | Hiérarchie des dimensions d'objet de coût | Dimension statistique | Dimension d'élément de coût |
+| Nom de la stratégie | Description     | Hiérarchie des dimensions d’objet de coût | Dimension statistique | Dimension d’élément de coût |
 |-------------|-----------------|---------------------------------|-----------------------|------------------------|
 | 2017        | Affectation des coûts | Organisation                    | Éléments statistiques  | Éléments de coût          |
 
 Les règles de répartition des coûts peuvent être paramétrées comme suit.
 
-| Nœud de hiérarchie des dimensions d'objet de coût | Comportement de coûts | Base de répartition        |
+| Nœud de hiérarchie des dimensions d’objet de coût | Comportement de coûts | Base de répartition        |
 |--------------------------------------|---------------|------------------------|
 | CC001                                | Total         | **Services RH**        |
 | CC002                                | Total         | **Services financiers** |
@@ -155,9 +155,9 @@ Les règles de répartition des coûts peuvent être paramétrées comme suit.
 <a name="brhow-cost-flows-between-cost-centers"></a><br>Flux des coûts entre les centres de coût 
 ---------------------------------------------------
 
-Si vous souhaitez savoir comment le coût s'écoule entre les centres de coût dans l'organisation, vous pouvez créer des éléments de coût du type **Secondaire** pour chaque centre de coût. Ces éléments de coût seront alors utilisés pour transférer les soldes entre les centres de coût lors du calcul des frais généraux.
+Si vous souhaitez savoir comment le coût s’écoule entre les centres de coût dans l’organisation, vous pouvez créer des éléments de coût du type **Secondaire** pour chaque centre de coût. Ces éléments de coût seront alors utilisés pour transférer les soldes entre les centres de coût lors du calcul des frais généraux.
 
-Les membres de la dimension d'élément de coût peuvent être paramétrés comme suit.
+Les membres de la dimension d’élément de coût peuvent être paramétrés comme suit.
 
 | Éléments de coût | Type          |               |
 |---------------|---------------|---------------|
@@ -190,13 +190,13 @@ Créez une **stratégie de repositionnement des coûts** où chaque centre de co
 
 **Stratégie de repositionnement des coûts**
 
-| Nom de la stratégie | Description | Hiérarchie des dimensions d'objet de coût | Hiérarchie des dimensions d'élément de coût |
+| Nom de la stratégie | Description | Hiérarchie des dimensions d’objet de coût | Hiérarchie des dimensions d’élément de coût |
 |-------------|-------------|---------------------------------|----------------------------------|
 | 2017        | Flux de coût   | Organisation                    | Relevé de compte de résultat          |
 
 **Règles de repositionnement des coûts**
 
-| Nœud de hiérarchie des dimensions d'objet de coût | Nœud de hiérarchie des dimensions d'élément de coût | Élément de coût secondaire |
+| Nœud de hiérarchie des dimensions d’objet de coût | Nœud de hiérarchie des dimensions d’élément de coût | Élément de coût secondaire |
 |--------------------------------------|---------------------------------------|------------------------|
 | CC001                                | Relevé de compte de résultat               | **SC-CC001**           |
 | CC002                                | Relevé de compte de résultat               | **SC-CC002**           |
@@ -211,9 +211,9 @@ Créez une **stratégie de repositionnement des coûts** où chaque centre de co
 |---------|-------------------------|------------------------|------|--------|---------------|
 | 00002   | Journal de répartition des coûts | Exercice                 | 2017    | Période 1 | Calcul des frais généraux / 01-02-2017 11:51:00 PM / Comptabilité /2017 / Période 1 |
 
-Le système applique désormais la **stratégie de repositionnement des coûts** lorsqu'il crée les **entrées du journal pour le solde d'objet de coût**.
+Le système applique désormais la **stratégie de repositionnement des coûts** lorsqu’il crée les **entrées du journal pour le solde d’objet de coût**.
 
-**Entrées du journal pour le solde d'objet de coût**
+**Entrées du journal pour le solde d’objet de coût**
 
 | Date comptable | Objet de coût | Description  | Élément de coût | Description |  Montant |
 |-----------------|-------------|--------------|----------|-----------|-----------|
@@ -225,13 +225,13 @@ Le système applique désormais la **stratégie de repositionnement des coûts**
 > [!NOTE]
 > Les entrées de journal sont créées en fonction des règles dans la **Stratégie de repositionnement des coûts** si une stratégie existe. Le solde affiché est le solde du calcul des frais généraux.
 
-La page **Détails de l'entrée de journal pour le solde d'objet de coût** qui est accessible à partir des entrées de journal affiche la manière dont le solde est obtenu.
+La page **Détails de l’entrée de journal pour le solde d’objet de coût** qui est accessible à partir des entrées de journal affiche la manière dont le solde est obtenu.
 
-**Exemple : Écriture de journal pour l'objet de coût CC002 Finance**
+**Exemple : Écriture de journal pour l’objet de coût CC002 Finance**
 
-**Détails de l'entrée de journal pour le solde d'objet de coût**
+**Détails de l’entrée de journal pour le solde d’objet de coût**
 
-| Membre de la dimension d'élément de coût | Description |  Montant   |
+| Membre de la dimension d’élément de coût | Description |  Montant   |
 |-------------------------------|-------------|-----------|
 | 1 001                          | Électricité | 200 00    |
 | 1 002                          | Salaires    | 10.000,00 |
@@ -250,13 +250,13 @@ La page **Détails de l'entrée de journal pour le solde d'objet de coût** qui 
 | CC003       | Assemblage     | SC-CC002 | Finances         | 11.527,75   | 31-01-2017 |
 | CC004       | Emballage    | SC-CC002 | Finances         | 6.207,25    | 31-01-2017 |
 
-Après exécution du **calcul des frais généraux**, vous pouvez déclarer les résultats à l'aide des outils tels que Microsoft SharePoint Workspace, Excel ou Power BI.
+Après exécution du **calcul des frais généraux**, vous pouvez déclarer les résultats à l’aide des outils tels que Microsoft SharePoint Workspace, Excel ou Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Afficher les états générés dans Excel 
 
-Les hiérarchies de dimensions vous permettent d'afficher des données à différents niveaux d'agrégation.
+Les hiérarchies de dimensions vous permettent d’afficher des données à différents niveaux d’agrégation.
 
-Voici un exemple d'une génération d'états Power Pivot dans Excel.
+Voici un exemple d’une génération d’états Power Pivot dans Excel.
 
 | **Relevé de compte de résultat** | **Objet de coût** |                |               |               |  **Total**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
@@ -274,7 +274,7 @@ Voici un exemple d'une génération d'états Power Pivot dans Excel.
 
 Utiliser la **Stratégie de repositionnement des coûts** et les **Éléments de coût du type secondaire** vous permet de conserver le coût principal par objet de coût pour les états internes comme le coût principal qui reste après le **calcul des frais généraux**.
 
-Si le même exemple a été exécuté sans créer la **Stratégie de repositionnement des coûts,** le résultat de génération d'états est comme suit. Le coût est transmis correctement mais la traçabilité et l'analyse de la manière dont les flux de coût entre les centres de coût sont perdus.
+Si le même exemple a été exécuté sans créer la **Stratégie de repositionnement des coûts,** le résultat de génération d’états est comme suit. Le coût est transmis correctement mais la traçabilité et l’analyse de la manière dont les flux de coût entre les centres de coût sont perdus.
 
 | **Relevé de compte de résultat** | **Objet de coût** |           |               |               |          **Total**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
@@ -290,14 +290,14 @@ Si le même exemple a été exécuté sans créer la **Stratégie de repositionn
 |&nbsp;&nbsp;&nbsp;&nbsp; SC-CC004                             | 0 00            | 0 00      | 0 00          | 0 00          | 0 00          |
 | **Total**                   | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |
 
-Selon les exigences de génération d'états et de traçabilité de votre organisation, cette rubrique montre comment déterminer le niveau correct d'éléments de coût secondaires et comment créer des règles de repositionnement des coûts qui correspondent à vos besoins.
+Selon les exigences de génération d’états et de traçabilité de votre organisation, cette rubrique montre comment déterminer le niveau correct d’éléments de coût secondaires et comment créer des règles de repositionnement des coûts qui correspondent à vos besoins.
 
 Cette séparation précise entre **Affectation des coûts** et **Stratégies de repositionnement des coûts** fournit une souplesse pour effectuer des mises à jour continues sans perturbation.
 
 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
--  [Dimensions d'objets de coût](cost-objects.md)
--  [Dimensions d'éléments de coût](cost-elements.md)
+-  [Dimensions d’objets de coût](cost-objects.md)
+-  [Dimensions d’éléments de coût](cost-elements.md)
 -  [Hiérarchie des dimensions](dimension-hierarchy.md)
 -  [Calcul des frais généraux](overhead-calculation.md)
