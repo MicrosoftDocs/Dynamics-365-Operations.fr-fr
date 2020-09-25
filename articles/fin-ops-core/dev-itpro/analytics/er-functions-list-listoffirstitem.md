@@ -1,6 +1,6 @@
 ---
 title: Fonction LISTOFFIRSTITEM ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction LISTOFFIRSTITEM États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction LISTOFFIRSTITEM États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cd48732280c9af0b89129a32b42285207f97fb7
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 069ec0c6d5578ca6ab68814adf325bd79e73b9e8
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041973"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745055"
 ---
-# <span data-ttu-id="0bb05-103"><a name="LISTOFFIRSTITEM">Fonction LISTOFFIRSTITEM ER</a></span><span class="sxs-lookup"><span data-stu-id="0bb05-103"><a name="LISTOFFIRSTITEM">LISTOFFIRSTITEM ER function</a></span></span>
+# <a name="listoffirstitem-er-function"></a><span data-ttu-id="9d80c-103">Fonction LISTOFFIRSTITEM ER</span><span class="sxs-lookup"><span data-stu-id="9d80c-103">LISTOFFIRSTITEM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0bb05-104">La fonction `LISTOFFIRSTITEM` renvoie une valeur *Liste des enregistrements* constituée uniquement du premier enregistrement de la liste spécifiée.</span><span class="sxs-lookup"><span data-stu-id="0bb05-104">The `LISTOFFIRSTITEM` function returns a *Record list* value that consists of only the first record of the specified list.</span></span>
+<span data-ttu-id="9d80c-104">La fonction `LISTOFFIRSTITEM` renvoie une valeur *Liste des enregistrements* constituée uniquement du premier enregistrement de la liste spécifiée.</span><span class="sxs-lookup"><span data-stu-id="9d80c-104">The `LISTOFFIRSTITEM` function returns a *Record list* value that consists of only the first record of the specified list.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0bb05-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0bb05-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9d80c-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="9d80c-105">Syntax</span></span>
 
 ```vb
 LISTOFFIRSTITEM (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="0bb05-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="0bb05-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="9d80c-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="9d80c-106">Arguments</span></span>
 
-<span data-ttu-id="0bb05-107">`list` : *Liste d'enregistrements*</span><span class="sxs-lookup"><span data-stu-id="0bb05-107">`list`: *Record list*</span></span>
+<span data-ttu-id="9d80c-107">`list` : *Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="9d80c-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="0bb05-108">Chemin d'accès valide d'une source de données du type de données *Liste d'enregistrements*.</span><span class="sxs-lookup"><span data-stu-id="0bb05-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="9d80c-108">Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.</span><span class="sxs-lookup"><span data-stu-id="9d80c-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="0bb05-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="0bb05-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9d80c-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="9d80c-109">Return values</span></span>
 
-<span data-ttu-id="0bb05-110">*Liste d'enregistrements*</span><span class="sxs-lookup"><span data-stu-id="0bb05-110">*Record list*</span></span>
+<span data-ttu-id="9d80c-110">*Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="9d80c-110">*Record list*</span></span>
 
-<span data-ttu-id="0bb05-111">Liste des enregistrements résultante.</span><span class="sxs-lookup"><span data-stu-id="0bb05-111">The resulting list of records.</span></span>
+<span data-ttu-id="9d80c-111">Liste des enregistrements résultante.</span><span class="sxs-lookup"><span data-stu-id="9d80c-111">The resulting list of records.</span></span>
 
-## <a name="example"></a><span data-ttu-id="0bb05-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="0bb05-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9d80c-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="9d80c-112">Example</span></span>
 
-<span data-ttu-id="0bb05-113">L'expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` renvoie la valeur texte **« A »**.</span><span class="sxs-lookup"><span data-stu-id="0bb05-113">The expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` returns the text value **"A"**.</span></span>
+<span data-ttu-id="9d80c-113">L’expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` renvoie la valeur texte **« A »**.</span><span class="sxs-lookup"><span data-stu-id="9d80c-113">The expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` returns the text value **"A"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="0bb05-114">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="0bb05-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9d80c-114">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="9d80c-114">Additional resources</span></span>
 
-[<span data-ttu-id="0bb05-115">Fonctions de liste</span><span class="sxs-lookup"><span data-stu-id="0bb05-115">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="9d80c-115">Fonctions de liste</span><span class="sxs-lookup"><span data-stu-id="9d80c-115">List functions</span></span>](er-functions-category-list.md)

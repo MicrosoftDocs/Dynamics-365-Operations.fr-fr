@@ -1,9 +1,9 @@
 ---
-title: ER Charger une configuration dans Lifecycle Services
-description: Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une configuration pour la génération d'états électronique (ER) et la charger dans Microsoft Lifecycle Services (LCS).
+title: Charger une configuration dans Lifecycle Services
+description: Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une nouvelle configuration de génération d’états électroniques (ER) et la charger dans Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143282"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810689"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="51a99-103">ER Charger une configuration dans Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="51a99-103">ER Upload a configuration into Lifecycle Services</span></span>
+# <a name="upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="ac025-103">Charger une configuration dans Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="ac025-103">Upload a configuration into Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="51a99-104">Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une configuration pour la génération d'états électronique (ER) et la charger dans Microsoft Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="51a99-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a new Electronic reporting (ER) configuration and upload it into Microsoft Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="ac025-104">Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une [configuration pour la génération d’états électroniques (ER)](../general-electronic-reporting.md#Configuration) et la charger dans la [bibliothèque d’actifs au niveau du projet](../../lifecycle-services/asset-library.md) dans Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="ac025-104">This topic explains how a user in the System administrator or Electronic reporting developer role can create a new [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) and upload it into the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="51a99-105">Dans cet exemple, vous allez créer une configuration et la télécharger dans LCS pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés.</span><span class="sxs-lookup"><span data-stu-id="51a99-105">In this example, you will create a configuration and upload it to LCS for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="51a99-106">Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».</span><span class="sxs-lookup"><span data-stu-id="51a99-106">To complete these steps, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span> <span data-ttu-id="51a99-107">L'accès à LCS est également requis pour réaliser ces étapes.</span><span class="sxs-lookup"><span data-stu-id="51a99-107">Access to LCS is also required for completion of these steps.</span></span>
+<span data-ttu-id="ac025-105">Dans cet exemple, vous allez créer une configuration et la charger dans LCS pour un exemple de société nommé Litware, Inc. Ces étapes peuvent être effectuées dans n’importe quelle société, car les configurations ER sont partagées entre les sociétés.</span><span class="sxs-lookup"><span data-stu-id="ac025-105">In this example, you will create a configuration and upload it into LCS for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="ac025-106">Pour effectuer ces étapes, vous devez commencer par effectuer la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).</span><span class="sxs-lookup"><span data-stu-id="ac025-106">To complete these steps, you must first complete the steps in [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="ac025-107">L’accès à LCS est également requis.</span><span class="sxs-lookup"><span data-stu-id="ac025-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="51a99-108">Accédez à Administration d'organisation > Espaces de travail > États électroniques.</span><span class="sxs-lookup"><span data-stu-id="51a99-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="51a99-109">Sélectionnez « Litware, Inc. »</span><span class="sxs-lookup"><span data-stu-id="51a99-109">Select 'Litware, Inc.'</span></span> <span data-ttu-id="51a99-110">et définissez-le comme actif.</span><span class="sxs-lookup"><span data-stu-id="51a99-110">and set it as active.</span></span>
-3. <span data-ttu-id="51a99-111">Cliquez sur Configurations.</span><span class="sxs-lookup"><span data-stu-id="51a99-111">Click Configurations.</span></span>
+1. <span data-ttu-id="ac025-108">Se connecter à l’application en utilisant l’un des rôles suivants :</span><span class="sxs-lookup"><span data-stu-id="ac025-108">Sign in to the application by using one of the following roles:</span></span>
 
-## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="51a99-112">Créer une configuration de modèle de données</span><span class="sxs-lookup"><span data-stu-id="51a99-112">Create a new data model configuration</span></span>
-1. <span data-ttu-id="51a99-113">Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="51a99-113">Click Create configuration to open the drop dialog.</span></span>
-    * <span data-ttu-id="51a99-114">Vous allez créer une configuration qui contient un modèle de données pour les paiements électroniques.</span><span class="sxs-lookup"><span data-stu-id="51a99-114">You will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="51a99-115">Cette configuration de modèle de données sera téléchargée dans LCS ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="51a99-115">This data model configuration will be uploaded into LCS later.</span></span>  
-2. <span data-ttu-id="51a99-116">Tapez « Exemple de configuration de modèle » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="51a99-116">In the Name field, type 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="51a99-117">Exemple de configuration de modèle</span><span class="sxs-lookup"><span data-stu-id="51a99-117">Sample model configuration</span></span>  
-3. <span data-ttu-id="51a99-118">Tapez « Exemple de configuration de modèle » dans le champ Description.</span><span class="sxs-lookup"><span data-stu-id="51a99-118">In the Description field, type 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="51a99-119">Exemple de configuration de modèle</span><span class="sxs-lookup"><span data-stu-id="51a99-119">Sample model configuration</span></span>  
-4. <span data-ttu-id="51a99-120">Cliquez sur Créer une configuration.</span><span class="sxs-lookup"><span data-stu-id="51a99-120">Click Create configuration.</span></span>
-5. <span data-ttu-id="51a99-121">Cliquez sur Concepteur de modèles.</span><span class="sxs-lookup"><span data-stu-id="51a99-121">Click Model designer.</span></span>
-6. <span data-ttu-id="51a99-122">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="51a99-122">Click New.</span></span>
-7. <span data-ttu-id="51a99-123">Tapez « Point d'entrée » dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="51a99-123">In the Name field, type 'Entry point'.</span></span>
-    * <span data-ttu-id="51a99-124">Point d'entrée</span><span class="sxs-lookup"><span data-stu-id="51a99-124">Entry point</span></span>  
-8. <span data-ttu-id="51a99-125">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="51a99-125">Click Add.</span></span>
-9. <span data-ttu-id="51a99-126">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="51a99-126">Click Save.</span></span>
-10. <span data-ttu-id="51a99-127">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="51a99-127">Close the page.</span></span>
-11. <span data-ttu-id="51a99-128">Cliquez sur Modifier le statut.</span><span class="sxs-lookup"><span data-stu-id="51a99-128">Click Change status.</span></span>
-12. <span data-ttu-id="51a99-129">Cliquez sur Terminé.</span><span class="sxs-lookup"><span data-stu-id="51a99-129">Click Complete.</span></span>
-13. <span data-ttu-id="51a99-130">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="51a99-130">Click OK.</span></span>
+    - <span data-ttu-id="ac025-109">Développeur de gestion des états électroniques</span><span class="sxs-lookup"><span data-stu-id="ac025-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="ac025-110">Administrateur système</span><span class="sxs-lookup"><span data-stu-id="ac025-110">System administrator</span></span>
 
-## <a name="register-a-new--repository"></a><span data-ttu-id="51a99-131">Enregistrez un nouveau référentiel.</span><span class="sxs-lookup"><span data-stu-id="51a99-131">Register a new  repository</span></span>
-1. <span data-ttu-id="51a99-132">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="51a99-132">Close the page.</span></span>
-2. <span data-ttu-id="51a99-133">Cliquez sur Référentiels.</span><span class="sxs-lookup"><span data-stu-id="51a99-133">Click Repositories.</span></span>
-    * <span data-ttu-id="51a99-134">Cela vous permet d'ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="51a99-134">This enables you to open the list of repositories for the Litware, Inc. configuration provider.</span></span>  
-3. <span data-ttu-id="51a99-135">Cliquez sur Ajouter pour ouvrir la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="51a99-135">Click Add to open the drop dialog.</span></span>
-    * <span data-ttu-id="51a99-136">Cela vous permet d'ajouter un référentiel.</span><span class="sxs-lookup"><span data-stu-id="51a99-136">This allows you to add a new repository.</span></span>  
-4. <span data-ttu-id="51a99-137">Sélectionnez LCS dans le champ Type du référentiel de configuration.</span><span class="sxs-lookup"><span data-stu-id="51a99-137">In the Configuration repository type field, select LCS.</span></span>
-5. <span data-ttu-id="51a99-138">Cliquez sur Créer un référentiel.</span><span class="sxs-lookup"><span data-stu-id="51a99-138">Click Create repository.</span></span>
-6. <span data-ttu-id="51a99-139">Dans le champ Projet, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="51a99-139">In the Project field, enter or select a value.</span></span>
-    * <span data-ttu-id="51a99-140">Sélectionnez le projet LCS souhaité.</span><span class="sxs-lookup"><span data-stu-id="51a99-140">Select the desired LCS project.</span></span> <span data-ttu-id="51a99-141">Vous devez avoir accès au projet.</span><span class="sxs-lookup"><span data-stu-id="51a99-141">You must have access to the project.</span></span>  
-7. <span data-ttu-id="51a99-142">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="51a99-142">Click OK.</span></span>
-    * <span data-ttu-id="51a99-143">Effectuez une nouvelle entrée de référentiel.</span><span class="sxs-lookup"><span data-stu-id="51a99-143">Complete a new repository entry.</span></span>  
-8. <span data-ttu-id="51a99-144">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="51a99-144">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="51a99-145">Sélectionnez l'enregistrement Référentiel LCS.</span><span class="sxs-lookup"><span data-stu-id="51a99-145">Select the LCS repository record.</span></span>  
-    * <span data-ttu-id="51a99-146">Notez qu'un référentiel enregistré est marqué par le fournisseur actuel, ce qui signifie que seules les configurations détenues par ce fournisseur peuvent être placées dans ce référentiel et donc être chargées dans le projet LCS sélectionné.</span><span class="sxs-lookup"><span data-stu-id="51a99-146">Note that a registered repository is marked by the current provider meaning that the only configurations owned by that provider can be placed to this repository and, consequently, uploaded into the selected LCS project.</span></span>  
-9. <span data-ttu-id="51a99-147">Cliquez sur Ouvrir.</span><span class="sxs-lookup"><span data-stu-id="51a99-147">Click Open.</span></span>
-    * <span data-ttu-id="51a99-148">Ouvrez le référentiel pour afficher la liste des configurations d'ER.</span><span class="sxs-lookup"><span data-stu-id="51a99-148">Open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="51a99-149">Elle est vide si ce projet n'a pas encore été utilisé pour le partage de configurations d'ER.</span><span class="sxs-lookup"><span data-stu-id="51a99-149">It will be empty if this project has not yet been used for ER configurations sharing.</span></span>  
-10. <span data-ttu-id="51a99-150">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="51a99-150">Close the page.</span></span>
-11. <span data-ttu-id="51a99-151">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="51a99-151">Close the page.</span></span>
+2. <span data-ttu-id="ac025-111">Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.</span><span class="sxs-lookup"><span data-stu-id="ac025-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="ac025-112">Sélectionnez **Litware, Inc.** et marquez-le comme **Actif**.</span><span class="sxs-lookup"><span data-stu-id="ac025-112">Select **Litware, Inc.**, and mark it as **Active**.</span></span>
+4. <span data-ttu-id="ac025-113">Sélectionnez **Configurations**.</span><span class="sxs-lookup"><span data-stu-id="ac025-113">Select **Configurations**.</span></span>
 
-## <a name="upload-configuration-into-lcs"></a><span data-ttu-id="51a99-152">Téléchargez la configuration dans LCS.</span><span class="sxs-lookup"><span data-stu-id="51a99-152">Upload configuration into LCS</span></span>
-1. <span data-ttu-id="51a99-153">Cliquez sur Configurations.</span><span class="sxs-lookup"><span data-stu-id="51a99-153">Click Configurations.</span></span>
-2. <span data-ttu-id="51a99-154">Dans l'arborescence, sélectionnez « Exemple de configuration de modèle ».</span><span class="sxs-lookup"><span data-stu-id="51a99-154">In the tree, select 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="51a99-155">Sélectionnez une configuration qui est déjà terminée.</span><span class="sxs-lookup"><span data-stu-id="51a99-155">Select a created configuration that has been already completed.</span></span>  
-3. <span data-ttu-id="51a99-156">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="51a99-156">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="51a99-157">Sélectionnez la version de la configuration sélectionnée ayant le statut « Terminé ».</span><span class="sxs-lookup"><span data-stu-id="51a99-157">Select the version of the selected configuration with the status of 'Completed'.</span></span>  
-4. <span data-ttu-id="51a99-158">Cliquez sur Modifier le statut.</span><span class="sxs-lookup"><span data-stu-id="51a99-158">Click Change status.</span></span>
-5. <span data-ttu-id="51a99-159">Cliquez sur Partager.</span><span class="sxs-lookup"><span data-stu-id="51a99-159">Click Share.</span></span>
-    * <span data-ttu-id="51a99-160">Le statut de configuration passe de « Terminé » à « Partagé » lorsqu'il est attribué dans LCS.</span><span class="sxs-lookup"><span data-stu-id="51a99-160">The configuration status will change from 'Completed' to 'Shared' when it is published in LCS.</span></span>  
-6. <span data-ttu-id="51a99-161">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="51a99-161">Click OK.</span></span>
-7. <span data-ttu-id="51a99-162">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="51a99-162">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="51a99-163">Sélectionnez la version de configuration dont le statut est « Partagé ».</span><span class="sxs-lookup"><span data-stu-id="51a99-163">Select the configuration version with the status of 'Shared'.</span></span>  
-    * <span data-ttu-id="51a99-164">Notez que le statut de la version sélectionnée est passé de « Terminé » à « Partagé ».</span><span class="sxs-lookup"><span data-stu-id="51a99-164">Note that the status of the selected version has changed from 'Completed' to 'Shared'.</span></span>  
-8. <span data-ttu-id="51a99-165">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="51a99-165">Close the page.</span></span>
-9. <span data-ttu-id="51a99-166">Cliquez sur Référentiels.</span><span class="sxs-lookup"><span data-stu-id="51a99-166">Click Repositories.</span></span>
-    * <span data-ttu-id="51a99-167">Cela vous permet d'ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="51a99-167">This enables you to open the list of repositories for the Litware, Inc. configuration provider.</span></span>  
-10. <span data-ttu-id="51a99-168">Cliquez sur Ouvrir.</span><span class="sxs-lookup"><span data-stu-id="51a99-168">Click Open.</span></span>
-    * <span data-ttu-id="51a99-169">Sélectionnez le référentiel LCS et ouvrez- le.</span><span class="sxs-lookup"><span data-stu-id="51a99-169">Select the LCS repository and open it.</span></span>  
-    * <span data-ttu-id="51a99-170">Notez que la configuration sélectionnée est indiquée comme un actif du projet LCS sélectionné.</span><span class="sxs-lookup"><span data-stu-id="51a99-170">Note that the selected configuration is shown as an asset of the selected LCS project.</span></span>  
-    * <span data-ttu-id="51a99-171">Ouvrez LCS à l'aide de https://lcs.dynamics.com.</span><span class="sxs-lookup"><span data-stu-id="51a99-171">Open LCS using https://lcs.dynamics.com.</span></span> <span data-ttu-id="51a99-172">Ouvrez un projet utilisé précédemment pour l'enregistrement du référentiel, ouvrez la bibliothèque d'actifs de ce projet, et développez le contenu du type d'actif Configuration GER, la configuration ER téléchargée est disponible.</span><span class="sxs-lookup"><span data-stu-id="51a99-172">Open a project that was used earlier for repository registration, open the 'Asset library' of this project, and expand the content of the 'GER configuration' asset type – the uploaded ER configuration will be available.</span></span> <span data-ttu-id="51a99-173">Notez que la configuration LCS téléchargée peut être importée dans une autre instance si les fournisseurs ont accès à ce projet LCS.</span><span class="sxs-lookup"><span data-stu-id="51a99-173">Note that the uploaded LCS configuration can be imported to another instance if providers have access to this LCS project.</span></span>  
+<a name="accessconditions"></a>
+> [!NOTE]
+> <span data-ttu-id="ac025-114">Assurez-vous que l’utilisateur Dynamics 365 Finance actuel est membre du projet LCS qui contient la [bibliothèque d’actifs](../../lifecycle-services/asset-library.md#asset-library-support) utilisée importer des configurations ER.</span><span class="sxs-lookup"><span data-stu-id="ac025-114">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the [Asset library](../../lifecycle-services/asset-library.md#asset-library-support) that is used to import ER configurations.</span></span>
+>
+> <span data-ttu-id="ac025-115">Vous ne pouvez pas accéder à un projet LCS à partir d’un référentiel ER qui représente un domaine différent du domaine utilisé dans Finance.</span><span class="sxs-lookup"><span data-stu-id="ac025-115">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="ac025-116">Si vous essayez, une liste vide de projets LCS s’affichera et vous ne pourrez pas importer de configurations ER à partir de la bibliothèque d’actifs au niveau du projet dans LCS.</span><span class="sxs-lookup"><span data-stu-id="ac025-116">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="ac025-117">Pour accéder aux bibliothèques d’actifs au niveau du projet à partir d’un référentiel ER utilisé pour importer des configurations ER, connectez-vous à Finance en utilisant les informations d’identification d’un utilisateur qui appartient au client (domaine) pour lequel l’instance Finance actuelle a été provisionnée.</span><span class="sxs-lookup"><span data-stu-id="ac025-117">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
 
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="ac025-118">Créer une configuration de modèle de données</span><span class="sxs-lookup"><span data-stu-id="ac025-118">Create a new data model configuration</span></span>
+
+1. <span data-ttu-id="ac025-119">Accédez à **Administration d’organisation \> États électroniques \> Configurations**.</span><span class="sxs-lookup"><span data-stu-id="ac025-119">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="ac025-120">Sur la page **Configurations**, sélectionnez **Créer une configuration** pour ouvrir la boîte de dialogue déroulante.</span><span class="sxs-lookup"><span data-stu-id="ac025-120">On the **Configurations** page, select **Create configuration** to open the drop-down dialog box.</span></span>
+
+    <span data-ttu-id="ac025-121">Dans cet exemple, vous allez créer une configuration qui contient un modèle de données pour les documents électroniques.</span><span class="sxs-lookup"><span data-stu-id="ac025-121">In this example, you will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="ac025-122">Cette configuration de modèle de données sera téléchargée dans LCS ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="ac025-122">This data model configuration will be uploaded into LCS later.</span></span>
+
+3. <span data-ttu-id="ac025-123">Dans le champ **Nom**, saisissez **Exemple de configuration de modèle**.</span><span class="sxs-lookup"><span data-stu-id="ac025-123">In the **Name** field, enter **Sample model configuration**.</span></span>
+4. <span data-ttu-id="ac025-124">Dans le champ **Description**, saisissez **Exemple de configuration de modèle**.</span><span class="sxs-lookup"><span data-stu-id="ac025-124">In the **Description** field, enter **Sample model configuration**.</span></span>
+5. <span data-ttu-id="ac025-125">Sélectionnez **Créer une configuration**.</span><span class="sxs-lookup"><span data-stu-id="ac025-125">Select **Create configuration**.</span></span>
+6. <span data-ttu-id="ac025-126">Sélectionnez **Concepteur de modèle**.</span><span class="sxs-lookup"><span data-stu-id="ac025-126">Select **Model designer**.</span></span>
+7. <span data-ttu-id="ac025-127">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="ac025-127">Select **New**.</span></span>
+8. <span data-ttu-id="ac025-128">Dans le champ **Nom**, entrez **Point d’entrée**.</span><span class="sxs-lookup"><span data-stu-id="ac025-128">In the **Name** field, enter **Entry point**.</span></span>
+9. <span data-ttu-id="ac025-129">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="ac025-129">Select **Add**.</span></span>
+10. <span data-ttu-id="ac025-130">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="ac025-130">Select **Save**.</span></span>
+11. <span data-ttu-id="ac025-131">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ac025-131">Close the page.</span></span>
+12. <span data-ttu-id="ac025-132">Sélectionnez **Modifier le statut**.</span><span class="sxs-lookup"><span data-stu-id="ac025-132">Select **Change status**.</span></span>
+13. <span data-ttu-id="ac025-133">Sélectionnez **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="ac025-133">Select **Complete**.</span></span>
+14. <span data-ttu-id="ac025-134">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="ac025-134">Select **OK**.</span></span>
+15. <span data-ttu-id="ac025-135">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ac025-135">Close the page.</span></span>
+
+## <a name="register-a-new-repository"></a><span data-ttu-id="ac025-136">Enregistrer un nouveau référentiel</span><span class="sxs-lookup"><span data-stu-id="ac025-136">Register a new repository</span></span>
+
+1. <span data-ttu-id="ac025-137">Allez dans **Administration d’organisation \> Espaces de travail \> États électroniques**.</span><span class="sxs-lookup"><span data-stu-id="ac025-137">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+
+2. <span data-ttu-id="ac025-138">Dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Litware, Inc.**.</span><span class="sxs-lookup"><span data-stu-id="ac025-138">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+
+3. <span data-ttu-id="ac025-139">Dans la vignette **Litware, Inc.**, sélectionnez **Référentiels**.</span><span class="sxs-lookup"><span data-stu-id="ac025-139">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+
+    <span data-ttu-id="ac025-140">Vous pouvez à présent ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="ac025-140">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+4. <span data-ttu-id="ac025-141">Sélectionnez **Ajouter** pour ouvrir la boîte de dialogue déroulante.</span><span class="sxs-lookup"><span data-stu-id="ac025-141">Select **Add** to open the drop-down dialog box.</span></span>
+
+    <span data-ttu-id="ac025-142">Vous pouvez maintenant ajouter un nouveau référentiel.</span><span class="sxs-lookup"><span data-stu-id="ac025-142">You can now add a new repository.</span></span>
+
+5. <span data-ttu-id="ac025-143">Dans le champ **Entrée du référentiel de configuration**, sélectionnez **LCS**.</span><span class="sxs-lookup"><span data-stu-id="ac025-143">In the **Configuration repository enter** field, select **LCS**.</span></span>
+6. <span data-ttu-id="ac025-144">Sélectionnez **Créer un référentiel**.</span><span class="sxs-lookup"><span data-stu-id="ac025-144">Select **Create repository**.</span></span>
+7. <span data-ttu-id="ac025-145">Dans le champ **Projet**, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ac025-145">In the **Project** field, enter or select a value.</span></span>
+
+    <span data-ttu-id="ac025-146">Pour cette exemple, sélectionnez le projet LCS souhaité.</span><span class="sxs-lookup"><span data-stu-id="ac025-146">For this example, select the desired LCS project.</span></span> <span data-ttu-id="ac025-147">Vous devez avoir [accès](#accessconditions) au projet.</span><span class="sxs-lookup"><span data-stu-id="ac025-147">You must have [access](#accessconditions) to the project.</span></span>
+
+8. <span data-ttu-id="ac025-148">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="ac025-148">Select **OK**.</span></span>
+
+    <span data-ttu-id="ac025-149">Effectuez une nouvelle entrée de référentiel.</span><span class="sxs-lookup"><span data-stu-id="ac025-149">Complete a new repository entry.</span></span>
+
+9. <span data-ttu-id="ac025-150">Dans la liste, marquer la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ac025-150">In the list, mark the selected row.</span></span>
+
+    <span data-ttu-id="ac025-151">Pour cet exemple, sélectionnez l’enregistrement du référentiel **LCS**.</span><span class="sxs-lookup"><span data-stu-id="ac025-151">For this example, select the **LCS** repository record.</span></span>
+
+    <span data-ttu-id="ac025-152">Notez qu’un référentiel enregistré est marqué par le fournisseur actuel.</span><span class="sxs-lookup"><span data-stu-id="ac025-152">Note that a registered repository is marked by the current provider.</span></span> <span data-ttu-id="ac025-153">En d’autres termes, seules les configurations appartenant à ce fournisseur peuvent être placées dans ce référentiel et donc chargées dans le projet LCS sélectionné.</span><span class="sxs-lookup"><span data-stu-id="ac025-153">In other words, only configurations that are owned by that provider can be put in this repository and therefore uploaded into the selected LCS project.</span></span>
+
+10. <span data-ttu-id="ac025-154">Cliquez sur **Ouvrir**.</span><span class="sxs-lookup"><span data-stu-id="ac025-154">Select **Open**.</span></span>
+
+    <span data-ttu-id="ac025-155">Vous ouvrez le référentiel pour afficher la liste des configurations d’ER.</span><span class="sxs-lookup"><span data-stu-id="ac025-155">You open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="ac025-156">Si le projet sélectionné n’a pas encore été utilisé pour le partage de configurations d’ER, la liste sera vide.</span><span class="sxs-lookup"><span data-stu-id="ac025-156">If the selected project hasn't yet been used for ER configurations sharing, the list will be empty.</span></span>
+
+11. <span data-ttu-id="ac025-157">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ac025-157">Close the page.</span></span>
+12. <span data-ttu-id="ac025-158">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ac025-158">Close the page.</span></span>
+
+## <a name="upload-a-configuration-into-lcs"></a><span data-ttu-id="ac025-159">Charger une configuration dans LCS</span><span class="sxs-lookup"><span data-stu-id="ac025-159">Upload a configuration into LCS</span></span>
+
+1. <span data-ttu-id="ac025-160">Accédez à **Administration d’organisation \> États électroniques \> Configurations**.</span><span class="sxs-lookup"><span data-stu-id="ac025-160">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="ac025-161">Sur la page **Configurations**, dans l’arborescence de configuration, sélectionnez **Exemple de configuration de modèle**.</span><span class="sxs-lookup"><span data-stu-id="ac025-161">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+
+    <span data-ttu-id="ac025-162">Vous devez sélectionner une configuration qui est déjà terminée.</span><span class="sxs-lookup"><span data-stu-id="ac025-162">You must select a created configuration that has been already completed.</span></span>
+
+3. <span data-ttu-id="ac025-163">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ac025-163">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="ac025-164">Pour cet exemple, sélectionnez la version de la configuration sélectionnée dont le statut est **Terminé**.</span><span class="sxs-lookup"><span data-stu-id="ac025-164">For this example, select the version of the selected configuration that has a status of **Completed**.</span></span>
+
+4. <span data-ttu-id="ac025-165">Sélectionnez **Modifier le statut**.</span><span class="sxs-lookup"><span data-stu-id="ac025-165">Select **Change status**.</span></span>
+5. <span data-ttu-id="ac025-166">Sélectionnez **Partager**.</span><span class="sxs-lookup"><span data-stu-id="ac025-166">Select **Share**.</span></span>
+
+    <span data-ttu-id="ac025-167">L’état de la configuration est modifié de **Terminé** à **Partagé** lorsque la configuration est publiée dans LCS.</span><span class="sxs-lookup"><span data-stu-id="ac025-167">The status of the configuration is changed from **Completed** to **Shared** when the configuration is published in LCS.</span></span>
+
+6. <span data-ttu-id="ac025-168">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="ac025-168">Select **OK**.</span></span>
+7. <span data-ttu-id="ac025-169">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ac025-169">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="ac025-170">Pour cet exemple, sélectionnez la version de la configuration dont le statut est **Partagé**.</span><span class="sxs-lookup"><span data-stu-id="ac025-170">For this example, select the configuration version that has a status of **Shared**.</span></span>
+
+    <span data-ttu-id="ac025-171">Notez que le statut de la version sélectionnée est passé de **Terminé** à **Partagé**.</span><span class="sxs-lookup"><span data-stu-id="ac025-171">Note that the status of the selected version was changed from **Completed** to **Shared**.</span></span>
+
+8. <span data-ttu-id="ac025-172">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ac025-172">Close the page.</span></span>
+9. <span data-ttu-id="ac025-173">Sélectionnez **Référentiels**.</span><span class="sxs-lookup"><span data-stu-id="ac025-173">Select **Repositories**.</span></span>
+
+    <span data-ttu-id="ac025-174">Vous pouvez à présent ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="ac025-174">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+10. <span data-ttu-id="ac025-175">Cliquez sur **Ouvrir**.</span><span class="sxs-lookup"><span data-stu-id="ac025-175">Select **Open**.</span></span>
+
+    <span data-ttu-id="ac025-176">Pour cet exemple, sélectionnez le référentiel **LCS** et ouvrez-le.</span><span class="sxs-lookup"><span data-stu-id="ac025-176">For this example, select the **LCS** repository, and open it.</span></span>
+
+    <span data-ttu-id="ac025-177">Notez que la configuration sélectionnée est indiquée comme un actif du projet LCS sélectionné.</span><span class="sxs-lookup"><span data-stu-id="ac025-177">Notice that the selected configuration is shown as an asset of the selected LCS project.</span></span>
+
+11. <span data-ttu-id="ac025-178">Ouvrez LCS en accédant à <https://lcs.dynamics.com>.</span><span class="sxs-lookup"><span data-stu-id="ac025-178">Open LCS by going to <https://lcs.dynamics.com>.</span></span>
+12. <span data-ttu-id="ac025-179">Ouvrez un projet qui a été utilisé précédemment pour l’enregistrement du référentiel.</span><span class="sxs-lookup"><span data-stu-id="ac025-179">Open a project that was used earlier for repository registration.</span></span>
+13. <span data-ttu-id="ac025-180">Ouvrez la bibliothèque d’actifs du projet.</span><span class="sxs-lookup"><span data-stu-id="ac025-180">Open the Asset library of the project.</span></span>
+14. <span data-ttu-id="ac025-181">Sélectionnez le type d’actif **Configuration GER**.</span><span class="sxs-lookup"><span data-stu-id="ac025-181">Select the **GER configuration** asset type.</span></span>
+
+    <span data-ttu-id="ac025-182">La configuration ER que vous avez chargée doit être répertoriée.</span><span class="sxs-lookup"><span data-stu-id="ac025-182">The ER configuration that you uploaded should be listed.</span></span>
+
+    <span data-ttu-id="ac025-183">Notez que la configuration LCS chargée peut être importée dans une autre instance si les fournisseurs ont accès à ce projet LCS.</span><span class="sxs-lookup"><span data-stu-id="ac025-183">Note that the uploaded LCS configuration can be imported into another instance if providers have access to this LCS project.</span></span>
