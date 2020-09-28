@@ -5,18 +5,21 @@ author: margoc
 ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
+ms.prod: ''
+ms.service: Dynamics365Operations
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a3efd250c1c50a839613c4aeeccbb135be5bbdc8
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 933f743b5b4fe9e97a80543478c1154ca290cbff
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646400"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793705"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Catalogue d’apprentissage pour les rôles de vente et de marketing des partenaires Microsoft pour Dynamics 365 Finance
 
@@ -36,6 +39,6 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 ## <a name="exam"></a>Examen<a name="exam"></a>
 
-| Contenu | Description  | Format  |
+| Contenu | Description   | Format  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Principes fondamentaux de Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Attestez que vous comprenez Microsoft Dynamics 365, Power Platform, les concepts de cloud, les options de licence et les options de lancement et de déploiement. | Examen ; le coût varie selon la région |

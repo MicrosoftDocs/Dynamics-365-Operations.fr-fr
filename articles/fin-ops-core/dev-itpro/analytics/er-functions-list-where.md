@@ -1,6 +1,6 @@
 ---
 title: Fonction WHERE ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction WHERE États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction WHERE États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 392cf7acebd7ad95bcc0f5d4b7a67500a412a795
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 94326986791c95eac7b0f5771f779014d865d3bb
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041830"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743432"
 ---
-# <a name="WHERE">Fonction WHERE ER</a>
+# <a name="where-er-function"></a>Fonction WHERE ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `WHERE` renvoie la liste spécifiée sous la forme d'une *Liste des enregistrements* après avoir été filtrée selon la condition spécifiée.
+La fonction `WHERE` renvoie la liste spécifiée sous la forme d’une *Liste des enregistrements* après avoir été filtrée selon la condition spécifiée.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -39,9 +39,9 @@ WHERE (list, condition)
 
 ## <a name="arguments"></a>Arguments
 
-`list` : *Liste d'enregistrements*
+`list` : *Liste d’enregistrements*
 
-Chemin d'accès valide d'une source de données du type de données *Liste d'enregistrements*.
+Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.
 
 `condition` : *Booléen*
 
@@ -49,23 +49,23 @@ Expression conditionnelle valide utilisée pour filtrer les enregistrements de l
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*Liste d'enregistrements*
+*Liste d’enregistrements*
 
 Liste des enregistrements résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 Cette fonction diffère de la fonction [FILTER](er-functions-list-filter.md), car la condition spécifiée est appliquée à toute source de données États électroniques (ER) du type *Liste des enregistrements* présent dans la mémoire.
 
-Si les arguments configurés pour cette fonction (`list` et `condition`) ne permettent pas de traduire cette demande en appel SQL direct, un message d'avertissement est levé au moment de la conception. Ce message informe l'utilisateur que les performances peuvent être améliorées si la fonction [FILTER](er-functions-list-filter.md) est utilisée au lieu de `WHERE`.
+Si les arguments configurés pour cette fonction (`list` et `condition`) ne permettent pas de traduire cette demande en appel SQL direct, un message d’avertissement est levé au moment de la conception. Ce message informe l’utilisateur que les performances peuvent être améliorées si la fonction [FILTER](er-functions-list-filter.md) est utilisée au lieu de `WHERE`.
 
 ## <a name="example-1"></a>Exemple 1
 
-Si **Fournisseur** est configuré comme source de données ER qui fait référence à la table VendTable, l'expression `WHERE (Vendors, Vendors.VendGroup = "40")` renvoie la liste des fournisseurs faisant partie uniquement du groupe de fournisseurs 40.
+Si **Fournisseur** est configuré comme source de données ER qui fait référence à la table VendTable, l’expression `WHERE (Vendors, Vendors.VendGroup = "40")` renvoie la liste des fournisseurs faisant partie uniquement du groupe de fournisseurs 40.
 
 ## <a name="example-2"></a>Exemple 2
 
-Si vous entrez la source de données **DS** de type *Champ calculé*, et qu'elle contient l'expression `SPLIT ("A|B|C", "|")`, l'expression `WHERE( DS, DS.Value = "B")` retourne une liste d'une seul enregistrement qui contient le texte **« B »** dans le champ **Valeur**.
+Si vous entrez la source de données **DS** de type *Champ calculé*, et qu’elle contient l’expression `SPLIT ("A|B|C", "|")`, l’expression `WHERE( DS, DS.Value = "B")` retourne une liste d’une seul enregistrement qui contient le texte **« B »** dans le champ **Valeur**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

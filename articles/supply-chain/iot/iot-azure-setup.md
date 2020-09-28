@@ -1,7 +1,7 @@
 ---
-title: Configurer des ressources Azure pour l'intelligence IoT
-description: Cette rubrique explique comment créer et configurer les ressources Microsoft Azure dont vous avez besoin pour l'intelligence IoT.
-author: robinarh
+title: Configurer des ressources Azure pour l’intelligence IoT
+description: Cette rubrique explique comment créer et configurer les ressources Microsoft Azure dont vous avez besoin pour l’intelligence IoT.
+author: ''
 manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
@@ -17,43 +17,43 @@ ms.search.region: Global
 ms.author: ''
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 431ad6766f1e7f2035d6d5ed87bed4856e58e098
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ea1083a65efb25699b9237c72c081f50e1fb476c
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597262"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802771"
 ---
-# <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurer des ressources Azure pour l'intelligence IoT
+# <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurer des ressources Azure pour l’intelligence IoT
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment créer et configurer les ressources Microsoft Azure dont vous avez besoin pour l'intelligence IoT.
+Cette rubrique explique comment créer et configurer les ressources Microsoft Azure dont vous avez besoin pour l’intelligence IoT.
 
 ## <a name="create-azure-resources"></a>Créer des ressources Azure
 
 Suivez ces étapes pour créer un hub IoT, un cache Redis et un coffre de clés accessibles par Microsoft Dynamics 365 Supply Chain Management.
 
-### <a name="verify-that-the-microsoft-dynamics-erp-microservices-first-party-app-id-is-in-your-tenant"></a>Vérifiez que l'ID d'application pour l'application propriétaire Microservices ERP Microsoft Dynamics est dans votre client
+### <a name="verify-that-the-microsoft-dynamics-erp-microservices-first-party-app-id-is-in-your-tenant"></a>Vérifiez que l’ID d’application pour l’application propriétaire Microservices ERP Microsoft Dynamics est dans votre client
 
-Pour vérifier que l'ID d'application pour l'application propriétaire Microservices ERP Microsoft Dynamics est dans votre client, procédez comme suit.
+Pour vérifier que l’ID d’application pour l’application propriétaire Microservices ERP Microsoft Dynamics est dans votre client, procédez comme suit.
 
-1. Connectez-vous au portail Azure à l'adresse suivante : <https://portal.azure.com>.
+1. Connectez-vous au portail Azure à l’adresse suivante : <https://portal.azure.com>.
 2. Atteindre **Azure Active Directory**.
-3. Accédez à **Applications d'entreprise**.
-4. Dans le champ **Type d'application**, sélectionnez **Applications Microsoft**.
+3. Accédez à **Applications d’entreprise**.
+4. Dans le champ **Type d’application**, sélectionnez **Applications Microsoft**.
 5. Dans le champ de recherche, entrez **Microservices ERP Microsoft Dynamics**.
-6. Vérifiez que **Microservices ERP Microsoft Dynamics** est bien dans la liste. D'autres applications ont des noms similaires. Par conséquent, veillez à disposer de l'application correcte. L'ID de l'application est **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
+6. Vérifiez que **Microservices ERP Microsoft Dynamics** est bien dans la liste. D’autres applications ont des noms similaires. Par conséquent, veillez à disposer de l’application correcte. L’ID de l’application est **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 
-    Si l'application ne figure pas dans la liste, vous devez l'ajouter à votre client :
+    Si l’application ne figure pas dans la liste, vous devez l’ajouter à votre client :
 
-    1. Dans le portail Azure, dans la barre d'outils, sélectionnez le bouton pour ouvrir Azure Cloud Shell.
-    2. Exécutez la commande **Module d'installation AzureAD**. Entrer **O** pour installer le module.
+    1. Dans le portail Azure, dans la barre d’outils, sélectionnez le bouton pour ouvrir Azure Cloud Shell.
+    2. Exécutez la commande **Module d’installation AzureAD**. Entrer **O** pour installer le module.
     3. Exécutez la commande **Get-InstalledModule -Name "AzureAD"** pour vérifier que le module est installé.
-    4. Exécutez la commande **Connect-AzureAD -Confirm** pour exécuter l'authentification.
+    4. Exécutez la commande **Connect-AzureAD -Confirm** pour exécuter l’authentification.
     5. Exécutez la commande **New-AzureADServicePrincipal -AppId 0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 
-    Vous pouvez maintenant répéter les étapes 1 à 6 pour vérifier que l'ID d'application se trouve dans votre client.
+    Vous pouvez maintenant répéter les étapes 1 à 6 pour vérifier que l’ID d’application se trouve dans votre client.
 
 ### <a name="create-a-key-vault-resource"></a>Créer une ressource de coffre de clés
 
@@ -109,7 +109,7 @@ Procédez comme suit pour configurer le hub IoT.
 
 1. Dans vos ressources, sélectionnez la ressource hub IoT.
 2. Dans le volet de navigation de gauche, sélectionnez **Points de terminaison intégrés**.
-3. Collez les groupes de consommateurs suivants sous **Groupes de consommateurs**. Ces groupes de consommateurs correspondent aux scénarios prêts à l'emploi.
+3. Collez les groupes de consommateurs suivants sous **Groupes de consommateurs**. Ces groupes de consommateurs correspondent aux scénarios prêts à l’emploi.
 
     + microsoft.dynamics.iotintelligence-1
     + microsoft.dynamics.iotintelligence-2
@@ -120,15 +120,15 @@ Procédez comme suit pour configurer le hub IoT.
 Procédez comme suit pour configurer le coffre de clés.
 
 1. Sélectionnez la ressource de coffre de clés parmi vos ressources.
-2. Sélectionnez **Stratégies d'accès** dans le volet de navigation de gauche.
-3. Sélectionnez **Ajouter une stratégie d'accès**.
-4. Sur la page **Ajouter une stratégie d'accès**, dans le champ **Autorisations secrètes**, sélectionnez **Obtenir** et **Liste**.
+2. Sélectionnez **Stratégies d’accès** dans le volet de navigation de gauche.
+3. Sélectionnez **Ajouter une stratégie d’accès**.
+4. Sur la page **Ajouter une stratégie d’accès**, dans le champ **Autorisations secrètes**, sélectionnez **Obtenir** et **Liste**.
 5. Cliquez dans le **Sélectionner le principal**.
 6. Dans la boîte de dialogue **Principal**, recherchez et sélectionnez **Microservices ERP Microsoft Dynamics**. Cliquez ensuite sur **Sélectionner**.
 7. Sélectionnez **Ajouter**.
 8. Sélectionnez **Enregistrer**.
 
-L'application a désormais accès aux secrets du coffre de clés.
+L’application a désormais accès aux secrets du coffre de clés.
 
 ### <a name="save-the-iot-hub-connection-string-secret"></a>Enregistrer le secret de la chaîne de connexion du hub IoT
 
@@ -149,7 +149,7 @@ Pour enregistrer le secret de la chaîne de connexion du hub IoT, procédez comm
 Pour enregistrer le secret de la chaîne de connexion du cache Redis, procédez comme suit.
 
 1. Sélectionnez la ressource de cache Redis parmi vos ressources.
-2. Sélectionnez **Clés d'accès**.
+2. Sélectionnez **Clés d’accès**.
 3. Copiez la valeur dans le champ **Chaîne de connexion principale**.
 4. Accédez à la ressource de coffre de clés.
 5. Dans le volet de navigation de gauche, sélectionnez **Secrets**.
@@ -159,6 +159,6 @@ Pour enregistrer le secret de la chaîne de connexion du cache Redis, procédez 
 9. Sélectionnez **Créer**.
 
 > [!NOTE]
-> Chaque fois que vous mettez à jour l'une des chaînes de connexion, vous devez également mettre à jour les valeurs secrètes.
+> Chaque fois que vous mettez à jour l’une des chaînes de connexion, vous devez également mettre à jour les valeurs secrètes.
 
 Vous avez maintenant terminé de provisionner les ressources Azure requises. La prochaine étape consiste à [installer le complément Intelligence IoT dans Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).

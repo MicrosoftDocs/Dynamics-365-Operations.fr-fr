@@ -1,6 +1,6 @@
 ---
 title: Fonction ADDDAYS ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction ADDDAYS États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction ADDDAYS États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/03/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08b9727fb34210fecff31826cc1f2b8da022156b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 998cf2c0dac67040814d4a32e433b465ec51f88c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042456"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743373"
 ---
-# <a name="ADDDAYS">Fonction ADDDAYS ER</a>
+# <a name="adddays-er-function"></a>Fonction ADDDAYS ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,18 +53,18 @@ Nombre de jours avant ou après `datetime`.
 
 Valeur de date/heure résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 Une valeur positive pour `days` donne une date future. Une valeur négative donne une date passée.
 
 ## <a name="example-1"></a>Exemple 1
 
-`ADDDAYS (NOW(), 7)` renvoie la date et l'heure, sept jours dans le futur.
+`ADDDAYS (NOW(), 7)` renvoie la date et l’heure, sept jours dans le futur.
 
 ## <a name="example-2"></a>Exemple 2
 
-`ADDDAYS (NOW(), -3)` renvoie la date et l'heure, trois jours dans le passé.
+`ADDDAYS (NOW(), -3)` renvoie la date et l’heure, trois jours dans le passé.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctions de date et d'heure](er-functions-category-datetime.md)
+[Fonctions de date et d’heure](er-functions-category-datetime.md)

@@ -1,6 +1,6 @@
 ---
-title: Page d'accueil Gestion des coûts
-description: La gestion des coûts vous permet de gérer l'évaluation et la comptabilité des matières premières, des produits semi-finis, des produits finis et des immobilisations en cours.
+title: Page d’accueil Gestion des coûts
+description: La gestion des coûts vous permet de gérer l’évaluation et la comptabilité des matières premières, des produits semi-finis, des produits finis et des immobilisations en cours.
 author: AndersGirke
 manager: tfehr
 ms.date: 04/25/2018
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dbb9876b5df3309d280f242a9fce8f79f12afeb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9caea2d41e6d3ba74e4d156d8aeae6c4693ce7e2
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214745"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813856"
 ---
-# <a name="cost-management-home-page"></a>Page d'accueil Gestion des coûts
+# <a name="cost-management-home-page"></a>Page d’accueil Gestion des coûts
 
 [!include [banner](../includes/banner.md)]
 
-[Gestion des coûts (vidéo)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) vous permet d'utiliser l'évaluation et la comptabilité des matières premières, des produits semi-finis, des produits finis et des immobilisations en cours. Il s'agit du processus de définition, de gestion et de génération d'états [Comptabilité de stock](cost-object.md) et [Comptabilité de fabrication](bom-calculations.md).
+[Gestion des coûts (vidéo)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) vous permet d’utiliser l’évaluation et la comptabilité des matières premières, des produits semi-finis, des produits finis et des immobilisations en cours. Il s’agit du processus de définition, de gestion et de génération d’états [Comptabilité de stock](cost-object.md) et [Comptabilité de fabrication](bom-calculations.md).
 
 Vous pouvez définir les stratégies des coûts dans les sections suivantes :
 
@@ -40,13 +40,13 @@ Vous pouvez définir les stratégies des coûts dans les sections suivantes :
 - [Comptabilité des coûts indirects](costing-sheets.md)
 - [Intégration comptable](production-order-cost-analysis.md)
 
-Par exemple, vous pouvez définir les méthodes d'évaluation des stocks, tels que [FIFO](fifo-physical-value-marking.md), [Moyenne pondérée](weighted-average-physical-value-marking.md), [Coût standard](prerequisites-standard-costs.md) ou [Moyenne mobile](moving-average.md) que vous souhaitez appliquer aux produits dans le [Groupe de modèles d'article](../inventory/reserve-inventory-quantities.md) en matière de comptabilité de stock.
+Par exemple, vous pouvez définir les méthodes d’évaluation des stocks, tels que [FIFO](fifo-physical-value-marking.md), [Moyenne pondérée](weighted-average-physical-value-marking.md), [Coût standard](prerequisites-standard-costs.md) ou [Moyenne mobile](moving-average.md) que vous souhaitez appliquer aux produits dans le [Groupe de modèles d’article](../inventory/reserve-inventory-quantities.md) en matière de comptabilité de stock.
 
-Vous pouvez accéder à la comptabilité de stock et la comptabilité de fabrication dans les espaces de travail **Administration des coûts** et **Analyse des coûts**. Ces espaces de travail fournissent une vue d'ensemble complète du statut actuel, des indicateurs de performance clé (KPIs), et la détection d'écart. 
+Vous pouvez accéder à la comptabilité de stock et la comptabilité de fabrication dans les espaces de travail **Administration des coûts** et **Analyse des coûts**. Ces espaces de travail fournissent une vue d’ensemble complète du statut actuel, des indicateurs de performance clé (KPIs), et la détection d’écart. 
 
 La comptabilité de fabrication vous permet de gérer le [Coût de revient par commande](production-order-cost-analysis.md) dans les ordres de fabrication et les lots de commandes, ainsi que la [Comptabilité à rebours](backflush-costing.md) en matière de lean manufacturing.
 
-Le [contenu Power BI Gestion des coûts](../../dev-itpro/analytics/cost-management-content-pack.md) donne un aperçu de la gestion du stock et du stock des travaux en cours, et explique comment le coût se répercute sur les stocks par catégorie dans le temps. Les informations peuvent également être utilisées comme complément détaillé au tableau d'analyse.
+Le [contenu Power BI Gestion des coûts](../../dev-itpro/analytics/cost-management-content-pack.md) donne un aperçu de la gestion du stock et du stock des travaux en cours, et explique comment le coût se répercute sur les stocks par catégorie dans le temps. Les informations peuvent également être utilisées comme complément détaillé au tableau d’analyse.
 
 ### <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -56,12 +56,12 @@ Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.
 
 #### <a name="white-paper"></a>Livre blanc
 
-Le [Calcul de nomenclature à l'aide d'une feuille de coûts](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) décrit comment définir une feuille de coûts comprenant le matériel et la fabrication, et comment le programme affecte les résultats de calcul de nomenclature. Pour mieux expliquer les rubriques, des scénarios concrets et des données qui démontrent l'effet des différents paramètres et configurations sont fournis.
+Le [Calcul de nomenclature à l’aide d’une feuille de coûts](https://www.microsoft.com/download/details.aspx?id=101937) décrit comment définir une feuille de coûts comprenant le matériel et la fabrication, et comment le programme affecte les résultats de calcul de nomenclature. Pour mieux expliquer les rubriques, des scénarios concrets et des données qui démontrent l’effet des différents paramètres et configurations sont fournis.
 
 #### <a name="blogs"></a>Blogs
 
-Vous trouverez des avis, des actualités et d'autres informations concernant la gestion des coûts sur le [Blog de l'équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l'équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Bien que certains de ces articles aient été rédigés pour la version précédente du module Gestion des coûts, les mêmes concepts s'appliquent toujours et les procédures sont également similaires dans la version actuelle.
+Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des coûts sur le [Blog de l’équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l’équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Bien que certains de ces articles aient été rédigés pour la version précédente du module Gestion des coûts, les mêmes concepts s’appliquent toujours et les procédures sont également similaires dans la version actuelle.
 
 #### <a name="task-guides"></a>Guides de tâches
 
-Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.
+Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n’importe quelle page.

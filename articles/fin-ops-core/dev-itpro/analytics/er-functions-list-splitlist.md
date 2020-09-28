@@ -1,6 +1,6 @@
 ---
 title: Fonction SPLITLIST ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction SPLITLIST États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction SPLITLIST États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56ef02e3ea0ca2207ccdc79468a9ea4c1fbe8f95
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 950fc711f0e28eaee7fabc437ee16a022e1b705e
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041881"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744789"
 ---
-# <a name="SPLITLIST">Fonction SPLITLIST ER</a>
+# <a name="splitlist-er-function"></a>Fonction SPLITLIST ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `SPLITLIST` fractionne la liste spécifiée en sous-listes (ou lots), dont chacun contient le nombre d'enregistrements spécifié. Elle renvoie ensuite le résultat en tant que nouvelle valeur de *Liste des enregistrements* constituée des lots.
+La fonction `SPLITLIST` fractionne la liste spécifiée en sous-listes (ou lots), dont chacun contient le nombre d’enregistrements spécifié. Elle renvoie ensuite le résultat en tant que nouvelle valeur de *Liste des enregistrements* constituée des lots.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -39,21 +39,21 @@ SPLITLIST (list, number)
 
 ## <a name="arguments"></a>Arguments
 
-`list` : *Liste d'enregistrements*
+`list` : *Liste d’enregistrements*
 
-Chemin d'accès valide d'une source de données du type de données *Liste d'enregistrements*.
+Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.
 
 `number` : *Entier*
 
-Nombre maximal d'enregistrements par lot.
+Nombre maximal d’enregistrements par lot.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*Liste d'enregistrements*
+*Liste d’enregistrements*
 
 Liste des enregistrements résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 La liste des traitements par lots renvoyée contient les éléments suivants :
 
@@ -67,15 +67,15 @@ La liste des traitements par lots renvoyée contient les éléments suivants :
 
 ## <a name="example"></a>Exemple
 
-Dans l'illustration suivante, une source de données **Lignes** est créée sous la forme d'une liste avec trois enregistrements. Cette liste est divisée en lots, dont chacun contient jusqu'à deux enregistrements.
+Dans l’illustration suivante, une source de données **Lignes** est créée sous la forme d’une liste avec trois enregistrements. Cette liste est divisée en lots, dont chacun contient jusqu’à deux enregistrements.
 
 <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
 
-L'illustration suivante présente la structure de format conçue. Dans cette structure de format, les liaisons à la source de données **Lignes** sont créées pour générer une sortie au format XML. Cette sortie répertorie les nœuds individuels de chaque lot et les enregistrements qu'il contient.
+L’illustration suivante présente la structure de format conçue. Dans cette structure de format, les liaisons à la source de données **Lignes** sont créées pour générer une sortie au format XML. Cette sortie répertorie les nœuds individuels de chaque lot et les enregistrements qu’il contient.
 
 <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a>
 
-L'illustration suivante présente le résultat de l'exécution du format conçu.
+L’illustration suivante présente le résultat de l’exécution du format conçu.
 
 <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a>
 

@@ -1,6 +1,6 @@
 ---
 title: Fonction AND ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction AND États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction AND États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1836d25ad07ad1ce735fda5e008a3315626b62bb
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 4a246496eca0d5a8538ac7f1577957e6b9eae4e3
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041812"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743468"
 ---
-# <a name="AND">Fonction AND ER</a>
+# <a name="and-er-function"></a>Fonction AND ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,9 +53,9 @@ Expression conditionnelle valide qui doit être testée. Ces arguments suppléme
 
 Valeur *Booléenne* résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
-Dans les arguments des fonctions logiques, vous pouvez utiliser des références de sources de données, des valeurs numériques et texte, des valeurs booléennes, des opérateurs de comparaison et d'autres fonctions des états électroniques (ER). Cependant, tous les arguments doivent être évalués en valeur *Booléenne* de **TRUE** ou **FALSE**.
+Dans les arguments des fonctions logiques, vous pouvez utiliser des références de sources de données, des valeurs numériques et texte, des valeurs booléennes, des opérateurs de comparaison et d’autres fonctions des états électroniques (ER). Cependant, tous les arguments doivent être évalués en valeur *Booléenne* de **TRUE** ou **FALSE**.
 
 ## <a name="example"></a>Exemple
 

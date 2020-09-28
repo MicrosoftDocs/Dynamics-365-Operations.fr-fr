@@ -3,11 +3,13 @@
   items:
     - name: Mise en route
       items:
-        - name: Mise en route de Talent
+        - name: Mise en route avec Talent
           href: talent-get-started.md
         - name: Nouveautés ou modifications dans Talent
           href: whats-new.md
           items:
+            - name: "1er\_septembre\_2020"
+              href: whats-new-talent-september-01-2020.md
             - name: "21\_janvier\_2020"
               href: whats-new-talent-january-21-2020.md
             - name: "14\_janvier\_2020"
@@ -32,7 +34,7 @@
               href: whats-new-talent-october-23-2019.md
             - name: "8\_octobre\_2019"
               href: whats-new-talent-october-8-2019.md
-            - name: "1\_octobre\_2019"
+            - name: "1er\_octobre\_2019"
               href: whats-new-talent-october-1-2019.md
             - name: "Nouvelles archives\_2019"
               items:
@@ -150,11 +152,11 @@
           href: attract-onboard-export-data.md
         - name: Incorporer Microsoft Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Obtenir de l'aide sur Talent
+        - name: Obtenir de l’aide sur Talent
           href: talent-support.md
     - name: Dotation en personnel de votre organisation avec Attract
       items:
-        - name: Choisir une version d'Attract
+        - name: Choisir une version d’Attract
           href: attract-comprehensive-hiring.md
         - name: Fonctionnalités de Attract
           href: attract-overview.md
@@ -166,13 +168,13 @@
               href: security-attract.md
             - name: Configurer votre site carrière
               href: career-site.md
-            - name: Activer l'intégration à Broadbean
+            - name: Activer l’intégration à Broadbean
               href: attract-admin-job-board-settings.md
-            - name: Configurer les paramètres d'e-mail
+            - name: Configurer les paramètres d’e-mail
               href: attract-configure-email-settings.md
-            - name: Configurer l'intégration à LinkedIn
+            - name: Configurer l’intégration à LinkedIn
               href: attract-admin-linkedin.md
-            - name: FAQ sur l'intégration de LinkedIn
+            - name: FAQ sur l’intégration de LinkedIn
               href: attract-linkedin-faq.md
         - name: Créer un processus de recrutement
           items:
@@ -180,7 +182,7 @@
               href: process-templates-attract.md
             - name: Ajouter des activités à un processus de recrutement
               href: activities-attract.md
-            - name: Créer des modèles d'e-mail
+            - name: Créer des modèles d’e-mail
               href: email-templates.md
             - name: Utiliser les états analytiques
               href: analytic-reports.md
@@ -218,13 +220,13 @@
           href: extensibility-attract.md
     - name: Accueillir les nouvelles recrues avec Onboard
       items:
-        - name: Prise en main de Onboard
+        - name: Mise en route de Onboard
           href: create-onboarding-experience.md
-        - name: Obtenir l'application Onboard
+        - name: Obtenir l’application Onboard
           href: onboard-get-app.md
-        - name: Créer et envoyer un guide d'intégration
+        - name: Créer et envoyer un guide d’intégration
           href: onboard-create-guide.md
-        - name: Créer un modèle d'intégration
+        - name: Créer un modèle d’intégration
           href: onboard-create-template.md
         - name: Modifier les guides et modèles
           href: onboard-edit-guides-templates.md
@@ -246,7 +248,7 @@
       items:
         - name: Résoudre les problèmes de publication de postes sur LinkedIn
           href: attract-troubleshoot-linkedin.md
-        - name: L'utilisateur peut accéder à Human Resources mais pas à l'application Onboard ou Attract
+        - name: L’utilisateur peut accéder à Human Resources mais pas à l’application Onboard ou Attract
           href: user-access-core-hr.md
         - name: Utilisateurs Azure Active Directory introuvables dans le sélecteur de personnes
           href: people-picker-user-not-found.md

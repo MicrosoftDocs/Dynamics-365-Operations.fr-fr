@@ -1,6 +1,6 @@
 ---
 title: Fonction EMPTYLIST ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction EMPTYLIST États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction EMPTYLIST États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fb991eb9ee08aeb418313eb782dbde7fa22b763
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 747b661d0dee4e9c27741e167c89f9ef7eefa470
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042180"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745319"
 ---
-# <a name="EMPTYLIST">Fonction EMPTYLIST ER</a>
+# <a name="emptylist-er-function"></a>Fonction EMPTYLIST ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `EMPTYLIST` renvoie une valeur de *Liste d'enregistrements* à l'aide de la liste spécifiée comme source pour la structure de liste.
+La fonction `EMPTYLIST` renvoie une valeur de *Liste d’enregistrements* à l’aide de la liste spécifiée comme source pour la structure de liste.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -39,13 +39,13 @@ EMPTYLIST (list)
 
 ## <a name="arguments"></a>Arguments
 
-`list` : *Liste d'enregistrements*
+`list` : *Liste d’enregistrements*
 
-Chemin d'accès valide d'une source de données du type de données *Liste d'enregistrements*.
+Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*Liste d'enregistrements*
+*Liste d’enregistrements*
 
 Liste des enregistrements résultante.
 

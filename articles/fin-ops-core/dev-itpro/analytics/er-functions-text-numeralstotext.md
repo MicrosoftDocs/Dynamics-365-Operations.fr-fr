@@ -1,6 +1,6 @@
 ---
 title: Fonction NUMERALSTOTEXT ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction NUMERALSTOTEXT États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction NUMERALSTOTEXT États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/10/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31fd4076d04ce7d849555bc8301c4d23ad8e1a7e
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: a820c894ee4d28f87588c475c982bd6447676740
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041007"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744381"
 ---
-# <a name="NUMERALSTOTEXT">Fonction NUMERALSTOTEXT ER</a>
+# <a name="numeralstotext-er-function"></a>Fonction NUMERALSTOTEXT ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `NUMERALSTOTEXT` renvoie le nombre spécifié sous la forme *Chaîne* après avoir été épelée (c'est-à-dire convertie en chaînes de texte) dans la langue spécifiée.
+La fonction `NUMERALSTOTEXT` renvoie le nombre spécifié sous la forme *Chaîne* après avoir été épelée (c’est-à-dire convertie en chaînes de texte) dans la langue spécifiée.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -65,14 +65,14 @@ Valeur *Entier* qui indique le nombre de décimales que doit contenir le texte �
 
 Valeur de texte résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
-Le code langue est facultatif. S'il est défini comme une chaîne vide, le code langue du contexte d'exécution est utilisé. Le code langue par défaut est **EN-US**. Le code langue pour le contexte en cours d'exécution est défini dans un élément **Dossier** ou **Fichier** du format d'états électroniques (ER) en cours d'exécution.
+Le code langue est facultatif. S’il est défini comme une chaîne vide, le code langue du contexte d’exécution est utilisé. Le code langue par défaut est **EN-US**. Le code langue pour le contexte en cours d’exécution est défini dans un élément **Dossier** ou **Fichier** du format d’états électroniques (ER) en cours d’exécution.
 
-Le code devise est facultatif. S'il est défini comme une chaîne vide, la devis d'entreprise du contexte d'exécution est utilisé.
+Le code devise est facultatif. S’il est défini comme une chaîne vide, la devis d’entreprise du contexte d’exécution est utilisé.
 
 > [!NOTE] 
-> Les arguments `print currency name flag` et `decimal points` sont analysés pour les codes de langue suivants uniquement : **CS**, **ET**, **HU**, **LT**, **LV**, **PL** et **RU**. En outre, l'arguments `print currency name flag` est analysé uniquement pour les sociétés où le contexte du pays ou de la région prend en charge la déclinaison des noms de devise.
+> Les arguments `print currency name flag` et `decimal points` sont analysés pour les codes de langue suivants uniquement : **CS**, **ET**, **HU**, **LT**, **LV**, **PL** et **RU**. En outre, l’arguments `print currency name flag` est analysé uniquement pour les sociétés où le contexte du pays ou de la région prend en charge la déclinaison des noms de devise.
 
 ## <a name="example-1"></a>Exemple 1
 

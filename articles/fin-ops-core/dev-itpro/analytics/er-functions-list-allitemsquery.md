@@ -1,6 +1,6 @@
 ---
 title: Fonction ALLITEMSQUERY ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction ALLITEMSQUERY États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction ALLITEMSQUERY États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99f2aa9863e36a2f2eb1db5d0569d2a82402969a
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 37546fccf804a4522638147d39206997e8c0c24c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070642"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745367"
 ---
-# <a name="ALLITEMSQUERY">Fonction ALLITEMSQUERY ER</a>
+# <a name="allitemsquery-er-function"></a>Fonction ALLITEMSQUERY ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `ALLITEMSQUERY` s'exécute en tant que requête SQL jointe. Elle renvoie une nouvelle valeur de *Liste des enregistrements* aplatie qui consiste en une liste d'enregistrements qui représente tous les éléments qui correspondent au chemin spécifié.
+La fonction `ALLITEMSQUERY` s’exécute en tant que requête SQL jointe. Elle renvoie une nouvelle valeur de *Liste des enregistrements* aplatie qui consiste en une liste d’enregistrements qui représente tous les éléments qui correspondent au chemin spécifié.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -39,31 +39,31 @@ ALLITEMSQUERY (path)
 
 ## <a name="arguments"></a>Arguments
 
-`path` : *Liste d'enregistrements*
+`path` : *Liste d’enregistrements*
 
-Chemin d'accès valide d'une source de données du type de données *Liste d'enregistrements*. Il doit contenir au moins une relation.
+Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*. Il doit contenir au moins une relation.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*Liste d'enregistrements*
+*Liste d’enregistrements*
 
 Liste des enregistrements résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
-Le chemin spécifié doit être défini comme le chemin d'accès valide de la source de données vers un élément de source de données d'un type de données de *Liste des enregistrements*. Il doit également contenir au moins une relation. Les éléments de données tels que la *Chaîne* de chemin d'accès et la *Date* doivent déclencher une erreur dans le générateur d'expression États électroniques ER au moment de la conception.
+Le chemin spécifié doit être défini comme le chemin d’accès valide de la source de données vers un élément de source de données d’un type de données de *Liste des enregistrements*. Il doit également contenir au moins une relation. Les éléments de données tels que la *Chaîne* de chemin d’accès et la *Date* doivent déclencher une erreur dans le générateur d’expression États électroniques ER au moment de la conception.
 
-Lorsque cette fonction est appliquée aux sources de données du type de données *Liste des enregistrements* qui fait référence à un objet d'application qui peut être appelé directement à l'aide de SQL (par exemple, une table, une entité ou une requête), il s'exécute en tant que requête SQL jointe. Sinon, il s'exécute en mémoire en tant que fonction [ALLITEMS](er-functions-list-allitems.md).
+Lorsque cette fonction est appliquée aux sources de données du type de données *Liste des enregistrements* qui fait référence à un objet d’application qui peut être appelé directement à l’aide de SQL (par exemple, une table, une entité ou une requête), il s’exécute en tant que requête SQL jointe. Sinon, il s’exécute en mémoire en tant que fonction [ALLITEMS](er-functions-list-allitems.md).
 
 ## <a name="example"></a>Exemple
 
 Vous définissez les sources de données suivantes dans la mise en correspondance des modèles :
 
 - Source de données **CustInv** de type *Enregistrements de la table* qui fait référence à la table CustInvoiceTable
-- Source de données **FilteredInv** du type *Champ calculé* qui contient l'expression `FILTER (CustInv, CustInv.InvoiceAccount = "US-001")`
-- **JourLines** du type *Champ calculé* qui contient l'expression `ALLITEMSQUERY ( FilteredInv.'<Relations'.CustInvoiceJour.'<Relations'.CustInvoiceTrans)`
+- Source de données **FilteredInv** du type *Champ calculé* qui contient l’expression `FILTER (CustInv, CustInv.InvoiceAccount = "US-001")`
+- **JourLines** du type *Champ calculé* qui contient l’expression `ALLITEMSQUERY ( FilteredInv.'<Relations'.CustInvoiceJour.'<Relations'.CustInvoiceTrans)`
 
-Lorsque vous exécutez la mise en correspondance des modèles pour appeler la source de données **JourLines**, l'instruction SQL suivante est exécutée :
+Lorsque vous exécutez la mise en correspondance des modèles pour appeler la source de données **JourLines**, l’instruction SQL suivante est exécutée :
 
 ```sql
 SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN

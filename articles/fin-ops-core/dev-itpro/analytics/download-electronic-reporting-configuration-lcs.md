@@ -1,9 +1,9 @@
 ---
 title: Télécharger les configurations des états électroniques à partir de Lifecycle Services
-description: Cette rubrique explique comment télécharger des configurations d'états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
+description: Cette rubrique explique comment télécharger des configurations d’états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,59 +18,62 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4cc14860bd969048c4378b40d97a7940a8710e89
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 8a18427114bddb7c72024a8d96d33f3fbf8dbe17
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934652"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810617"
 ---
-# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Télécharger les configurations d'états électroniques à partir de Lifecycle Services
+# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Télécharger les configurations d’états électroniques à partir de Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment télécharger des configurations d'états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
+Cette rubrique explique comment télécharger la dernière version de [Configurations de la génération d’états électroniques (ER)](general-electronic-reporting.md#Configuration) de la [Bibliothèque de ressources partagée](../lifecycle-services/asset-library.md) dans Microsoft Dynamics Lifecycle Services (LCS).
 
-Ce didacticiel vous guide via le processus de téléchargement de la version la plus récente des configurations d'états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
+1. Se connecter à l’application en utilisant l’un des rôles suivants :
 
-1. Se connecter à l'application en utilisant l'un des rôles suivants :
-
-    - Développeur d'états électroniques
+    - Développeur d’états électroniques
     - Consultant fonctionnel des états électroniques
     - Administrateur système
 
-2. Accédez à **Administration d'organisation** &gt; **Espaces de travail** &gt; **États électroniques**.
+2. Accédez à **Administration d’organisation** &gt; **Espaces de travail** &gt; **États électroniques**.
 3. Dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**.
-4. Dans la vignette **Microsoft**, cliquez sur **Référentiels**.
+4. Dans la vignette **Microsoft**, sélectionnez **Référentiels**.
 
-    [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Vignette Microsoft sur la page des configurations de localisation](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
-5. Sur la page **Référentiels de configuration**, dans la grille, sélectionnez le référentiel existant du type **LCS**. Si ce référentiel n'apparaît pas dans la grille, procédez comme suit :
+5. Sur la page **Référentiels de configuration**, dans la grille, sélectionnez le référentiel existant du type **LCS**. Si ce référentiel n’apparaît pas dans la grille, procédez comme suit :
 
-    1. Cliquez sur **Ajouter** pour ajouter un nouveau référentiel.
+    1. Sélectionnez **Ajouter** pour ajouter un référentiel.
     2. Sélectionnez **LCS** comme type de référentiel.
-    3. Cliquez sur **Créer un référentiel**.
-    4. Si vous recevez une invite, suivez les instructions d'autorisation.
+    3. Sélectionnez **Créer un référentiel**.
+    4. Si vous êtes invité à fournir une autorisation, suivez les instructions à l’écran.
     5. Entrez un nom et une description pour le référentiel.
-    6. Cliquez **OK** pour confirmer la nouvelle entrée de référentiel.
+    6. Cliquez sur **OK** pour confirmer la nouvelle entrée de référentiel.
     7. Dans la grille, sélectionnez le nouveau référentiel de type **LCS**.
 
-6. Cliquez sur **Ouvrir** pour afficher la liste des configurations ER pour le référentiel sélectionné.
+6. Sélectionnez **Ouvrir** pour afficher la liste des configurations ER pour le référentiel sélectionné.
 
-    [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Page des référentiels de configurations](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
-7. Dans l'arborescence de configurations du volet gauche, sélectionnez la configuration ER voulue.
-8. Dans l'organisateur **Versions**, sélectionnez la version requise de la configuration ER sélectionnée.
-9. Cliquez sur **Importer** pour télécharger la version sélectionnée de LCS vers l'instance actuelle.
+    > [!TIP]
+    > Si vous ne parvenez pas à accéder au référentiel LCS pour télécharger des configurations à partir de la bibliothèque d’actifs partagée dans LCS, vous pouvez télécharger des configurations à partir du [référentiel général](er-download-configurations-global-repo.md).
+
+7. Dans l’arborescence de configurations du volet gauche, sélectionnez la configuration ER requise.
+8. Dans l’organisateur **Versions**, sélectionnez la version requise de la configuration ER sélectionnée.
+9. Cliquez sur **Importer** pour télécharger la version sélectionnée de LCS vers l’instance actuelle.
 
     > [!NOTE]
-    > Le bouton **Importer** n'est pas disponible pour les versions de configuration des états électroniques qui sont déjà présentes dans l'instance actuelle.
+    > Le bouton **Importer** n’est pas disponible pour les versions de configuration des états électroniques qui sont déjà présentes dans l’instance actuelle.
 
-    [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Page du référentiel de configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
-> Selon les paramètres d'états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d'incohérences qui sont détectés. Vous devez résoudre ces problèmes avant d'utiliser la version de configuration importée. Pour plus d'informations, voir la liste des articles associés pour cette rubrique.
+> Selon les paramètres d’états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d’incohérences qui sont détectés. Vous devez résoudre ces problèmes avant d’utiliser la version de configuration importée. Pour plus d’informations, voir la liste des rubriques associées pour cette rubrique.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble des états électroniques (ER)](general-electronic-reporting.md)
+[Vue d’ensemble des états électroniques](general-electronic-reporting.md)
+
+[Télécharger les configurations ER depuis le référentiel global du service de configuration](er-download-configurations-global-repo.md)

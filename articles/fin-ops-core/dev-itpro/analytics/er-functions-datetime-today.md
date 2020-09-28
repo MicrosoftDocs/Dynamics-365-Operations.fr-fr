@@ -1,6 +1,6 @@
 ---
 title: Fonction TODAY ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction TODAY États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction TODAY États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/05/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94ef15d1971287e8bf13944bc8f693b567950031
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e2ee153c1dde99810a78ed15c7505fa705088797
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411435"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745439"
 ---
-# <a name=""></a><a name="TODAY">Fonction TODAY ER</a>
+# <a name="today-er-function"></a>Fonction TODAY ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `TODAY` renvoie une valeur *Date* qui représente la date actuelle du serveur d'applications.
+La fonction `TODAY` renvoie une valeur *Date* qui représente la date actuelle du serveur d’applications.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -45,8 +45,8 @@ Valeur de date résultante.
 
 ## <a name="example"></a>Exemple
 
-`DATEFORMAT (TODAY (), "dd-MM-yyyy")` renvoie la date du serveur d'applications actuelle, 24 décembre 2015, sous la forme de la chaîne **« 24-12-2015 »**, en fonction du format personnalisé spécifié.
+`DATEFORMAT (TODAY (), "dd-MM-yyyy")` renvoie la date du serveur d’applications actuelle, 24 décembre 2015, sous la forme de la chaîne **« 24-12-2015 »**, en fonction du format personnalisé spécifié.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctions de date et d'heure](er-functions-category-datetime.md)
+[Fonctions de date et d’heure](er-functions-category-datetime.md)

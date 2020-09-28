@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
+ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 954e0669c3d24bcc20fe667c22b7dcc367aba1e7
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cc6ad48ef80aa01739129b59cc1133d0a1930f24
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770802"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759470"
 ---
 # <a name="overhead-calculation"></a>Calcul des frais généraux
 
@@ -35,14 +35,14 @@ Cette rubrique décrit les processus habituels pour calculer et affecter des fra
 <a name="term-definition"></a>Définition des termes
 ---------------
 
-Les frais généraux sont les coûts qui sont imputés afin de gérer une entreprise, mais qui ne peuvent pas être attribués directement à aucun produit, activité, ou service spécifique. Les frais généraux permettent essentiellement l'identification des activités rémunératrices. Voici quelques exemples de frais généraux :
+Les frais généraux sont les coûts qui sont imputés afin de gérer une entreprise, mais qui ne peuvent pas être attribués directement à aucun produit, activité, ou service spécifique. Les frais généraux permettent essentiellement l’identification des activités rémunératrices. Voici quelques exemples de frais généraux :
 
 -   Loyer
 -   Électricité
 -   Salaires administratifs
 
-## <a name="overhead-calculation-overview"></a>Vue d'ensemble du calcul des frais généraux
-Le calcul des frais généraux exécute les stratégies de contrôle de gestion dans l'ordre correct. Vous pouvez exécuter plusieurs fois le calcul des frais généraux pour la même période fiscale si les stratégies de contrôle de gestion ont été modifiées ou des erreurs ont été détectées. Chaque exécution du calcul des frais généraux est enregistrée et reçoit un ID de version unique qui vous permet de comparer les calculs des différentes versions. Les entrées de coût que le calcul des frais généraux génère reçoivent une date comptable. Cette date comptable correspond à la date de fin de la période fiscale utilisée dans le calcul. L'ID de version unique inclut les éléments suivants :
+## <a name="overhead-calculation-overview"></a>Vue d’ensemble du calcul des frais généraux
+Le calcul des frais généraux exécute les stratégies de contrôle de gestion dans l’ordre correct. Vous pouvez exécuter plusieurs fois le calcul des frais généraux pour la même période fiscale si les stratégies de contrôle de gestion ont été modifiées ou des erreurs ont été détectées. Chaque exécution du calcul des frais généraux est enregistrée et reçoit un ID de version unique qui vous permet de comparer les calculs des différentes versions. Les entrées de coût que le calcul des frais généraux génère reçoivent une date comptable. Cette date comptable correspond à la date de fin de la période fiscale utilisée dans le calcul. L’ID de version unique inclut les éléments suivants :
 
 -   Type de version
 -   Date et heure
@@ -50,12 +50,12 @@ Le calcul des frais généraux exécute les stratégies de contrôle de gestion 
 -   Exercice
 -   Période fiscale
 
-Le calcul des frais généraux est effectué indépendamment de la version. Par conséquent, vous pouvez calculer la version de budget avant la version actuelle. Le calcul des frais généraux comporte quatre étapes, comme le montre l'illustration suivante. Dans chaque étape, un en-tête de journal avec des entrées de journal est créé. Cet en-tête de journal conserve les données de saisie pour chaque étape de calcul. Les stratégies et les règles s'appliquent à chaque ligne de journal, et les entrées de coût sont générées comme une sortie. Par conséquent, vous disposez toujours d'une traçabilité complète. 
+Le calcul des frais généraux est effectué indépendamment de la version. Par conséquent, vous pouvez calculer la version de budget avant la version actuelle. Le calcul des frais généraux comporte quatre étapes, comme le montre l’illustration suivante. Dans chaque étape, un en-tête de journal avec des entrées de journal est créé. Cet en-tête de journal conserve les données de saisie pour chaque étape de calcul. Les stratégies et les règles s’appliquent à chaque ligne de journal, et les entrées de coût sont générées comme une sortie. Par conséquent, vous disposez toujours d’une traçabilité complète. 
 
 [![Calcul des frais généraux](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calculer et affecter les frais généraux Électricité
-Dans la comptabilité financière, certaines coûts, tels que l'électricité, sont enregistrés comme montant forfaitaire. Par conséquent, l'analyse détaillée n'est pas fournie pour le contrôle de gestion. Dans le Contrôle de gestion, pour fournir une analyse correcte entre toutes les unités et tous les niveaux de l'organisation, les coûts doivent suivre les unités organisationnelles. Ce flux doit reposer sur un enregistrement précis de la consommation ou sur une évaluation juste. Dans la comptabilité, le coût de l'électricité peut être validé comme indiqué dans le tableau suivant.
+Dans la comptabilité financière, certaines coûts, tels que l’électricité, sont enregistrés comme montant forfaitaire. Par conséquent, l’analyse détaillée n’est pas fournie pour le contrôle de gestion. Dans le Contrôle de gestion, pour fournir une analyse correcte entre toutes les unités et tous les niveaux de l’organisation, les coûts doivent suivre les unités organisationnelles. Ce flux doit reposer sur un enregistrement précis de la consommation ou sur une évaluation juste. Dans la comptabilité, le coût de l’électricité peut être validé comme indiqué dans le tableau suivant.
 
 <table>
 <thead>
@@ -84,7 +84,7 @@ Par défaut, lorsque des entrées de coût sont importées depuis les données s
 
 #### <a name="define-the-cost-behavior-rule"></a>Définir la règle de comportement de coûts
 
-Dans certains cas, une partie du coût est classifiée en frais fixes, et le coût restant est basé sur la consommation. Les factures d'électricité correspondent souvent à cette définition. Après avoir payé les frais fixes spécifiques, vous payez la consommation horaire au kilowatt (KWH). Par exemple, si les frais de coût fixe sont de 1 000,00, voici comment la règle de comportement de coûts est définie :
+Dans certains cas, une partie du coût est classifiée en frais fixes, et le coût restant est basé sur la consommation. Les factures d’électricité correspondent souvent à cette définition. Après avoir payé les frais fixes spécifiques, vous payez la consommation horaire au kilowatt (KWH). Par exemple, si les frais de coût fixe sont de 1 000,00, voici comment la règle de comportement de coûts est définie :
 
 -   Montant fixe 1 000,00
     -   0 &lt;= 1 000,00 = Fixe
@@ -113,7 +113,7 @@ Dans certains cas, une partie du coût est classifiée en frais fixes, et le co�
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Entrées du journal (pour le solde d'objet de coût)
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Entrées du journal (pour le solde d’objet de coût)
 
 <table>
 <thead>
@@ -190,14 +190,14 @@ Dans certains cas, une partie du coût est classifiée en frais fixes, et le co�
 </tbody>
 </table>
 
-Pour plus d'informations, voir [Créer et affecter une stratégie de comportement de coûts à une unité de contrôle des coûts](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).
+Pour plus d’informations, voir [Créer et affecter une stratégie de comportement de coûts à une unité de contrôle des coûts](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>Étape 2 : Traiter le calcul de distribution des coûts
 
-La distribution des coûts est utilisée pour redistribuer le coût d'un objet de coût vers un ou plusieurs autres objets de coût en appliquant une base de répartition appropriée. La distribution et la répartition des coûts diffèrent car la distribution des coûts a toujours lieu au niveau de l'élément de coût principal du coût d'origine.
+La distribution des coûts est utilisée pour redistribuer le coût d’un objet de coût vers un ou plusieurs autres objets de coût en appliquant une base de répartition appropriée. La distribution et la répartition des coûts diffèrent car la distribution des coûts a toujours lieu au niveau de l’élément de coût principal du coût d’origine.
 
 #### <a name="define-the-cost-distribution-rule"></a>Définir la règle de distribution de coûts
 
-Dans la comptabilité financière, les coûts d'électricité sont souvent enregistrés comme un montant forfaitaire. Dans le Contrôle de gestion, cette approche n'est pas assez détaillée. Le coût variable doit être attribué aux différents objets de coûts sur une base juste. La base de répartition la plus logique est la consommation de l'électricité (KWH). Un membre de dimension statistique nommé Électricité est créé, et la consommation d'électricité est enregistrée. Par défaut, tous les membres de dimension statistiques sont disponibles comme base de répartition.
+Dans la comptabilité financière, les coûts d’électricité sont souvent enregistrés comme un montant forfaitaire. Dans le Contrôle de gestion, cette approche n’est pas assez détaillée. Le coût variable doit être attribué aux différents objets de coûts sur une base juste. La base de répartition la plus logique est la consommation de l’électricité (KWH). Un membre de dimension statistique nommé Électricité est créé, et la consommation d’électricité est enregistrée. Par défaut, tous les membres de dimension statistiques sont disponibles comme base de répartition.
 
 <table>
 <thead>
@@ -225,7 +225,7 @@ Dans la comptabilité financière, les coûts d'électricité sont souvent enreg
 </tbody>
 </table>
 
-Le tableau suivant illustre le résultat lorsque la consommation d'électricité est appliquée comme base de répartition de coûts variables.
+Le tableau suivant illustre le résultat lorsque la consommation d’électricité est appliquée comme base de répartition de coûts variables.
 
 <table>
 <thead>
@@ -261,7 +261,7 @@ Le tableau suivant illustre le résultat lorsque la consommation d'électricité
 </tbody>
 </table>
 
-Le coût fixe doivt être attribué de façon égale aux différents objets de coût qui ont consommé l'électricité. Vous pouvez obtenir ce résultat à l'aide du membre de dimension statistique Électricité dans une base de répartition de formule : (Électricité &gt; 0,00). Le tableau suivant présente le résultat lorsque la consommation d'électricité est appliquée comme base de répartition de coûts variables.
+Le coût fixe doivt être attribué de façon égale aux différents objets de coût qui ont consommé l’électricité. Vous pouvez obtenir ce résultat à l’aide du membre de dimension statistique Électricité dans une base de répartition de formule : (Électricité &gt; 0,00). Le tableau suivant présente le résultat lorsque la consommation d’électricité est appliquée comme base de répartition de coûts variables.
 
 <table>
 <thead>
@@ -324,7 +324,7 @@ Le coût fixe doivt être attribué de façon égale aux différents objets de c
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Entrées du journal (pour le solde d'objet de coût)
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Entrées du journal (pour le solde d’objet de coût)
 
 <table>
 <thead>
@@ -428,15 +428,15 @@ Le coût fixe doivt être attribué de façon égale aux différents objets de c
 </tbody>
 </table>
 
-Pour plus d'informations, voir [Créer et affecter une stratégie de distribution des coûts à une unité de contrôle des coûts](tasks/create-assign-cost-distribution-policy-cost-control-unit.md). 
+Pour plus d’informations, voir [Créer et affecter une stratégie de distribution des coûts à une unité de contrôle des coûts](tasks/create-assign-cost-distribution-policy-cost-control-unit.md). 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>Étape 3 : Traitement du calcul de taux de frais généraux
 
-Le taux de frais généraux est utilisé pour imputer un ou plusieurs objets spécifiques de coût. Les frais sont basés sur un taux de coût prédéterminé et l'ampleur de la base d'affectation de répartition. 
+Le taux de frais généraux est utilisé pour imputer un ou plusieurs objets spécifiques de coût. Les frais sont basés sur un taux de coût prédéterminé et l’ampleur de la base d’affectation de répartition. 
 
 #### <a name="define-the-overhead-rate"></a>Définition du taux de frais généraux
 
-L'objet de coût CC001 HR contribue à un ensemble de projets internes. Un membre de dimension statistique nommé Projets HR est créé pour mesurer l'ampleur de consommation.
+L’objet de coût CC001 HR contribue à un ensemble de projets internes. Un membre de dimension statistique nommé Projets HR est créé pour mesurer l’ampleur de consommation.
 
 <table>
 <thead>
@@ -616,17 +616,17 @@ Le tableau suivant présente le résultat lorsque les projets HR sont utilisés 
 </tbody>
 </table>
 
-Pour plus d'informations, voir [Exécuter le calcul des frais généraux](cost-rollup.md#perform-overhead-calculation).
+Pour plus d’informations, voir [Exécuter le calcul des frais généraux](cost-rollup.md#perform-overhead-calculation).
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Étape 4 : Traiter le calcul de répartition des coûts
 
-La répartition est utilisée pour affecter le solde d'un objet de coût à d'autres objets de coût en appliquant une base de répartition. Finance prend en charge la méthode de répartition réciproque. Dans la méthode de répartition réciproque, les services mutuels que les objets de coût auxiliaires échangent sont totalement identifiés. Le système détermine automatiquement l'ordre correct selon lequel exécuter les répartitions. Le solde d'un objet de coût est réparti par une seule base de répartition. Les répartitions entre plusieurs dimensions d'objets de coût et leurs membres respectifs sont prises en charge. L'ordre de répartition est contrôlé par l'unité de contrôle des coûts. 
+La répartition est utilisée pour affecter le solde d’un objet de coût à d’autres objets de coût en appliquant une base de répartition. Finance prend en charge la méthode de répartition réciproque. Dans la méthode de répartition réciproque, les services mutuels que les objets de coût auxiliaires échangent sont totalement identifiés. Le système détermine automatiquement l’ordre correct selon lequel exécuter les répartitions. Le solde d’un objet de coût est réparti par une seule base de répartition. Les répartitions entre plusieurs dimensions d’objets de coût et leurs membres respectifs sont prises en charge. L’ordre de répartition est contrôlé par l’unité de contrôle des coûts. 
 
 [![Méthode réciproque](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Définir la répartition de coût
 
-Voici un exemple simple expliquant comment suivre le flux du coût. L'objet de coût CC001 HR contribue à plusieurs objets de coûts. Un membre de dimension statistique nommé Services HR est créé pour mesurer l'ampleur de consommation.
+Voici un exemple simple expliquant comment suivre le flux du coût. L’objet de coût CC001 HR contribue à plusieurs objets de coûts. Un membre de dimension statistique nommé Services HR est créé pour mesurer l’ampleur de consommation.
 
 <table>
 <thead>
@@ -654,7 +654,7 @@ Voici un exemple simple expliquant comment suivre le flux du coût. L'objet de c
 </tbody>
 </table>
 
-L'objet de coût CC002 Finance contribue à plusieurs objets de coûts. Un membre de dimension statistique nommé Services Finance est créé pour mesurer l'ampleur de consommation.
+L’objet de coût CC002 Finance contribue à plusieurs objets de coûts. Un membre de dimension statistique nommé Services Finance est créé pour mesurer l’ampleur de consommation.
 
 <table>
 <thead>
@@ -677,7 +677,7 @@ L'objet de coût CC002 Finance contribue à plusieurs objets de coûts. Un memb
 </tbody>
 </table>
 
-L'objet de coût CC003 Assemblage contribue à plusieurs objets de coûts. Un membre de dimension statistique nommé Services Assemblage est créé pour mesurer l'ampleur de consommation.
+L’objet de coût CC003 Assemblage contribue à plusieurs objets de coûts. Un membre de dimension statistique nommé Services Assemblage est créé pour mesurer l’ampleur de consommation.
 
 <table>
 <thead>
@@ -700,7 +700,7 @@ L'objet de coût CC003 Assemblage contribue à plusieurs objets de coûts. Un m
 </tbody>
 </table>
 
-L'objet de coût CC004 Emballage contribue à plusieurs objets de coûts. Un membre de dimension statistique nommé Services Emballage est créé pour mesurer l'ampleur de consommation.
+L’objet de coût CC004 Emballage contribue à plusieurs objets de coûts. Un membre de dimension statistique nommé Services Emballage est créé pour mesurer l’ampleur de consommation.
 
 <table>
 <thead>
@@ -724,7 +724,7 @@ L'objet de coût CC004 Emballage contribue à plusieurs objets de coûts. Un me
 </table>
 
 > [!NOTE]
-> Les mesures statistiques telles que les heures de production qu'un produit consomme peuvent être dérivées des données sources. Pour plus d'informations, voir [Modèle de fournisseur de mesures statistiques](statistical-measure-provider-template.md#statistical-measure-provider-template). Le tableau suivant présente le résultat lorsque les services RH sont utilisés comme base de répartition pour le coût total (coût fixe et coût variable).
+> Les mesures statistiques telles que les heures de production qu’un produit consomme peuvent être dérivées des données sources. Pour plus d’informations, voir [Modèle de fournisseur de mesures statistiques](statistical-measure-provider-template.md#statistical-measure-provider-template). Le tableau suivant présente le résultat lorsque les services RH sont utilisés comme base de répartition pour le coût total (coût fixe et coût variable).
 
 <table>
 <thead>
@@ -932,7 +932,7 @@ Le tableau suivant présente le résultat lorsque les services Emballage sont ut
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Entrées du journal (pour le solde d'objet de coût)
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Entrées du journal (pour le solde d’objet de coût)
 
 <table>
 <thead>
@@ -1330,7 +1330,7 @@ Le tableau suivant présente le résultat lorsque les services Emballage sont ut
 </table>
 
 ## <a name="conclusion"></a>Conclusion
-Dans la comptabilité financière, un coût de 10 000,00 pour l'électricité est imputé sur un ID de centre de coût fictif. Par conséquent, les comptables sauront que ce coût doit être affecté. Dans le Contrôle de gestion, les coûts transitent entre les unités et les niveaux de l'organisation, selon les stratégies et les règles qui sont appliquées. Chacun coût est associé à une base de répartition qui fournit les meilleures évaluation de répartition des coûts.
+Dans la comptabilité financière, un coût de 10 000,00 pour l’électricité est imputé sur un ID de centre de coût fictif. Par conséquent, les comptables sauront que ce coût doit être affecté. Dans le Contrôle de gestion, les coûts transitent entre les unités et les niveaux de l’organisation, selon les stratégies et les règles qui sont appliquées. Chacun coût est associé à une base de répartition qui fournit les meilleures évaluation de répartition des coûts.
 
 <table>
 <thead>
@@ -1411,7 +1411,7 @@ Dans la comptabilité financière, un coût de 10 000,00 pour l'électricité e
 </table>
 
 > [!NOTE]
-> Cette rubrique explique comment un élément de coût principal, 10001 Électricité, alimente les objets de coût. Par conséquent, ce coût de frais généraux est affecté au plus bas niveau dans l'organisation. Autrement dit, les objets de coût de plus bas niveau supportent le coût. Pour obtenir un flux visuel du coût entre les objets de coût, vous pouvez utiliser les règles de stratégie de repositionnement des coûts de visualiser le flux de coûts. Pour plus d'informations, voir [Stratégie de repositionnement des coûts et calcul des frais généraux](cost-rollup.md)..
+> Cette rubrique explique comment un élément de coût principal, 10001 Électricité, alimente les objets de coût. Par conséquent, ce coût de frais généraux est affecté au plus bas niveau dans l’organisation. Autrement dit, les objets de coût de plus bas niveau supportent le coût. Pour obtenir un flux visuel du coût entre les objets de coût, vous pouvez utiliser les règles de stratégie de repositionnement des coûts de visualiser le flux de coûts. Pour plus d’informations, voir [Stratégie de repositionnement des coûts et calcul des frais généraux](cost-rollup.md)..
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Fonction TRANSLATE ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction TRANSLATE États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction TRANSLATE États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 04/02/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 51b9a2e25a9f1dfc08e9e0f7fc3ad84b359a6d1b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201110"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744237"
 ---
-# <a name=""></a><a name="TRANSLATE">Fonction TRANSLATE ER</a>
+# <a name="translate-er-function"></a>Fonction TRANSLATE ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ TRANSLATE (text , pattern, replacement)
 
 `text` : *Chaîne*
 
-Chemin d'accès valide d'une source de données du type *Chaîne*.
+Chemin d’accès valide d’une source de données du type *Chaîne*.
 
 `pattern` : *Chaîne*
 
@@ -57,9 +57,9 @@ Texte à utiliser en remplacement.
 
 Valeur de texte résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
-La fonction `TRANSLATE` remplace un caractère à la fois. La fonction remplace le premier caractère de l'argument `text` avec le premier caractère de l'argument `pattern`, puis le deuxième caractère et suit le même flux jusqu'à sa fin. Lorsqu'un caractère issu des arguments `text` et `pattern` correspond, il est remplacé par un caractère de l'argument `replacement` qui se trouve dans la même position que le caractère de l'argument `pattern`. Si un caractère apparaît plusieurs fois dans l'argument `pattern`, le mappage d'argument `replacement` qui correspond à la première occurrence de ce caractère est utilisé.
+La fonction `TRANSLATE` remplace un caractère à la fois. La fonction remplace le premier caractère de l’argument `text` avec le premier caractère de l’argument `pattern`, puis le deuxième caractère et suit le même flux jusqu’à sa fin. Lorsqu’un caractère issu des arguments `text` et `pattern` correspond, il est remplacé par un caractère de l’argument `replacement` qui se trouve dans la même position que le caractère de l’argument `pattern`. Si un caractère apparaît plusieurs fois dans l’argument `pattern`, le mappage d’argument `replacement` qui correspond à la première occurrence de ce caractère est utilisé.
 
 ## <a name="example-1"></a>Exemple 1
 

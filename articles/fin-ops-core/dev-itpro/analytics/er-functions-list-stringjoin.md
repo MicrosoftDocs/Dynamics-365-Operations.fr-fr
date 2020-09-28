@@ -1,6 +1,6 @@
 ---
 title: Fonction STRINGJOIN ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction STRINGJOIN États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction STRINGJOIN États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10a98e98d913b0b4fe36690f7effd5d8d9a3faf4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 4f5d6b9a0f43902160d1ff7fa91b86a7e2c3422d
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041789"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743492"
 ---
-# <a name="STRINGJOIN">Fonction STRINGJOIN ER</a>
+# <a name="stringjoin-er-function"></a>Fonction STRINGJOIN ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,13 +39,13 @@ STRINGJOIN (list, field, delimiter)
 
 ## <a name="arguments"></a>Arguments
 
-`list` : *Liste d'enregistrements*
+`list` : *Liste d’enregistrements*
 
-Chemin d'accès valide d'une source de données du type de données *Liste d'enregistrements*.
+Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.
 
 `field` : *Champ*
 
-Chemin d'accès valide d'un champ de type de données *Chaîne* dans la liste spécifiée.
+Chemin d’accès valide d’un champ de type de données *Chaîne* dans la liste spécifiée.
 
 `delimiter` : *Chaîne*
 
@@ -59,7 +59,7 @@ Valeur de texte résultante.
 
 ## <a name="example"></a>Exemple
 
-Si vous entrez `SPLIT("abc" , 1)` comme source de données **DS**, l'expression `STRINGJOIN (DS, DS.Value, "-")` renvoie **« abc »**.
+Si vous entrez `SPLIT("abc" , 1)` comme source de données **DS**, l’expression `STRINGJOIN (DS, DS.Value, "-")` renvoie **« abc »**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

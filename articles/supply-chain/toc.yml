@@ -4,7 +4,7 @@
       items:
         - name: Page d’accueil de Dynamics 365 Supply Chain Management
           href: index.md
-        - name: Prise en main
+        - name: Mise en route
           items:
             - name: Avant d’acheter
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
@@ -24,7 +24,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Appliquer des mises à jour à des environnements cloud
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Appliquer des mises à jour à des déploiements sur site
+                - name: Appliquer des mises à jour à des déploiements locaux
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
@@ -56,7 +56,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Acheter Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurer l’entreposage pour les déploiements sur site
+                - name: Configurer l’entreposage pour les déploiements locaux
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Applications Finance and Operations exploitées par 21Vianet en Chine
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
@@ -68,19 +68,19 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nouveautés ou modifications dans Supply Chain Management
                   items:
-                    - name: "Nouveautés ou modifications dans la page d’accueil Supply\_Chain\_Management"
+                    - name: Nouveautés ou modifications dans la page d’accueil Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: "Supply Chain Management\_10.0.14 (novembre\_2020)"
+                      href: get-started/whats-new-scm-10-0-14.md
                     - name: "Supply Chain Management\_10.0.13 (octobre\_2020)"
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: "Supply Chain Management\_10.0.12 (août\_2020)"
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: "Supply Chain Management\_10.0.11 (juillet\_2020)"
-                      href: get-started/whats-new-scm-10-0-11.md
-                - name: Fonctions supprimées ou obsolètes
+                - name: Fonctionnalités supprimées ou obsolètes
                   items:
-                    - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
+                    - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Fonctions supprimées ou obsolètes dans les versions précédentes
+                    - name: Fonctionnalités supprimées ou obsolètes dans les versions précédentes
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: "Fonctions d’AX\_2012 ayant été reportées"
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
@@ -333,15 +333,15 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Listes de contrôle de maintenance
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: Temps d’arrêt pour maintenance
+                - name: Temps d’arrêt pour maintenance pour les ordres de travail
                   href: asset-management/work-orders/maintenance-downtime.md
-                - name: Ajoutez une erreur à l’ordre de travail
+                - name: Ajouter une erreur à l’ordre de travail
                   href: asset-management/work-orders/add-fault-to-work-order.md
-                - name: État de l’ordre de travail
+                - name: Rapport de l’ordre de travail
                   href: asset-management/work-orders/work-order-report.md
                 - name: Regroupements d’ordres de travail
                   href: asset-management/work-orders/work-order-pools.md
-                - name: Tâches de maintenance actives d’ordre de travail
+                - name: Tâches de maintenance de l’ordre de travail actif
                   href: asset-management/work-orders/active-work-order-jobs-overview.md
                 - name: Immobilisations et ordres de travail
                   href: asset-management/work-orders/work-orders-and-fixed-assets.md
@@ -367,11 +367,11 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: Créer des ordres de travail
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: Temps d’arrêt pour maintenance
+                - name: Activités de temps d’arrêt pour maintenance
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
-            - name: Planification de la capacité
+            - name: Planification de capacité
               items:
-                - name: Calculer la charge de la capacité
+                - name: Calculer la charge maximale
                   href: asset-management/capacity-planning/calculate-capacity-load.md
                 - name: Calculer les prévisions en matière d’articles
                   href: asset-management/capacity-planning/calculate-item-forecast.md
@@ -669,7 +669,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Polices prises en charge
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurer SSRS pour des déploiements sur site
+                - name: Configurer SSRS pour des déploiements locaux
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Impression
                   items:
@@ -681,7 +681,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Installer des périphériques d’impression réseau dans les environnements sur site
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 'Génération, publication et impression de documents dans les déploiements sur site'
+                    - name: 'Génération, publication et impression de documents dans les déploiements locaux'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Exécuter l’agent d’acheminement de document en tant que service Windows
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,9 +1345,7 @@
               items:
                 - name: Vue d’ensemble de l’optimisation de la planification
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Planification avec des quantités disponibles négatives
-                  href: master-planning/planning-optimization/negative-on-hand.md
-                - name: Prise en main de l’optimisation de la planification
+                - name: Mise en route de l’optimisation de la planification
                   href: master-planning/planning-optimization/get-started.md
                 - name: Analyse de concordance pour l’optimisation de la planification
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
@@ -1355,16 +1353,22 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Planification avec accords commerciaux d’achat
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Afficher l’historique du plan et les journaux de planification
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Marges de sécurité
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: Approuver les ordres prévisionnels
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Confirmation automatique avec optimisation de la planification
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Planification avec des quantités disponibles négatives
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: Afficher l’historique du plan et les journaux de planification
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Annuler une tâche de planification
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Résoudre les problèmes d’optimisation de la planification
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Extensibilité de l’optimisation de la planification
                   href: master-planning/planning-optimization/extensibility.md
-                - name: Dépanner l’optimisation de la planification
-                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Plans généraux
               items:
                 - name: Vue d’ensemble des plans généraux
@@ -2621,6 +2625,8 @@
                   items:
                     - name: Paramétrer le prélèvement du groupement
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Poste de groupement complet
+                      href: warehousing/cluster-position-full.md
                     - name: Prélèvement de groupement dirigé par le système
                       href: warehousing/system-directed-cluster-pick.md
                     - name: Paramétrer la mise en conteneur

@@ -1,6 +1,6 @@
 ---
 title: Fonction ROUNDAMOUNT ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction ROUNDAMOUNT États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction ROUNDAMOUNT États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/17/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5903f562b5f266572f999756539fa7b9ef145023
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 31a28279037ee6bfecd69b9d1e816afbd0de7894
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041329"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743973"
 ---
-# <a name="ROUNDAMOUNT">Fonction ROUNDAMOUNT ER</a>
+# <a name="roundamount-er-function"></a>Fonction ROUNDAMOUNT ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `ROUNDAMOUNT` renvoie une valeur *Réelle* comme résultat de l'arrondi du nombre spécifié au multiple le plus proche d'un autre nombre selon la règle d'arrondi spécifiée.
+La fonction `ROUNDAMOUNT` renvoie une valeur *Réelle* comme résultat de l’arrondi du nombre spécifié au multiple le plus proche d’un autre nombre selon la règle d’arrondi spécifiée.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -47,9 +47,9 @@ Valeur numérique qui doit être arrondie.
 
 Nombre dont la valeur du paramètre `number` doit être arrondi à un multiple.
 
-`round rule` : *Valeur de l'énumération*
+`round rule` : *Valeur de l’énumération*
 
-Valeur d'énumération de l'énumération **RoundOffType** qui définit la règle d'arrondi. Cette énumération offre les valeurs suivantes :
+Valeur d’énumération de l’énumération **RoundOffType** qui définit la règle d’arrondi. Cette énumération offre les valeurs suivantes :
 
 - Normal (ordinaire)
 - Arrondi au chiffre inférieur (RoundDown)
@@ -61,17 +61,17 @@ Valeur d'énumération de l'énumération **RoundOffType** qui définit la règl
 
 La valeur numérique résultante est un multiple de la valeur spécifiée par le paramètre `decimals` et se rapproche le plus de la valeur spécifiée par le paramètre `number`.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 Quand le paramètre `number` est zéro, cette fonction renvoie toujours zéro.
 
-Quand le paramètre `decimals` est égal à zéro, cette fonction arrondit à la valeur d'arrondi par défaut. Quand le paramètre `round rule` est défini sur **RoundOffType.Ordinary**, la valeur d'arrondi par défaut est **0,01**. Sinon, la valeur d'arrondi par défaut est **1,0**.
+Quand le paramètre `decimals` est égal à zéro, cette fonction arrondit à la valeur d’arrondi par défaut. Quand le paramètre `round rule` est défini sur **RoundOffType.Ordinary**, la valeur d’arrondi par défaut est **0,01**. Sinon, la valeur d’arrondi par défaut est **1,0**.
 
-Quand le paramètre `round rule` est défini sur **RoundOffType.Ordinary**, cette fonction arrondit au montant d'arrondi le plus proche.
+Quand le paramètre `round rule` est défini sur **RoundOffType.Ordinary**, cette fonction arrondit au montant d’arrondi le plus proche.
 
-Quand le paramètre `round rule` est défini sur **RoundOffType.RoundDown**, cette fonction arrondit vers zéro au montant d'arrondi le plus proche.
+Quand le paramètre `round rule` est défini sur **RoundOffType.RoundDown**, cette fonction arrondit vers zéro au montant d’arrondi le plus proche.
 
-Quand le paramètre `round rule` est défini sur **RoundOffType.RoundUp**, cette fonction arrondit en s'éloignant de zéro au montant d'arrondi le plus proche.
+Quand le paramètre `round rule` est défini sur **RoundOffType.RoundUp**, cette fonction arrondit en s’éloignant de zéro au montant d’arrondi le plus proche.
 
 Quand le paramètre `round rule` est défini sur **RoundOffType.Ordinary**, cette fonction se comporte comme la fonction Excel [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) et la fonction X++ [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round).
 
@@ -89,6 +89,6 @@ Si le paramètre **model.RoundOff** est défini sur **RoundOffType.RoundUp**, `R
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Autre fonctions (spécifiques au domaine d'affaires)](er-functions-category-other.md)
+[Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)
 
 [Fonctions mathématiques](er-functions-category-mathematical.md)

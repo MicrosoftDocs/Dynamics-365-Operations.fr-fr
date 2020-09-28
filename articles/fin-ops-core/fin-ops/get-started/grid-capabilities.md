@@ -3,7 +3,7 @@ title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. La nouvelle fonction de grille doit être activée pour avoir accès à ces capacités.
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651688"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760397"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Le nouveau contrôle de grille fournit un certain nombre de fonctionnalités utiles et puissantes qui peuvent être utilisées pour améliorer la productivité des utilisateurs, créer des vues plus intéressantes de vos données et obtenir des informations significatives sur vos données. Cet article couvrira les capacités suivantes : 
 
 -  Calcul des totaux
--  Regroupement des données
 -  Saisie avant le système
 -  Évaluation des expressions mathématiques 
+-  Regroupement des données tabulaires (activé séparément à l’aide de la fonctionnalité **(Version préliminaire) Regroupement en grilles**)
 
 ## <a name="calculating-totals"></a>Calcul des totaux
 Dans les applications Finance and Operations, les utilisateurs ont la possibilité de voir les totaux au bas des colonnes numériques dans les grilles. Ces totaux sont indiqués dans une section de pied de page au bas de la grille. 
@@ -71,21 +70,6 @@ Si le calcul prend trop de temps, vous pouvez annuler l’opération en sélecti
 
 Les totaux seront mis à jour automatiquement lorsque vous mettez à jour, supprimez ou créez des lignes dans l’ensemble de données.  
 
-## <a name="grouping-data"></a>Regroupement des données
-Les utilisateurs professionnels doivent souvent effectuer une analyse ad hoc des données. Bien que cela puisse être fait en exportant des données vers Microsoft Excel et en utilisant des tableaux croisés dynamiques, la capacité de **Regroupement** dans les grilles tabulaires permet aux utilisateurs d’organiser leurs données de manière intéressante dans les applications Finance and Operations. Comme cette fonctionnalité étend la fonctionnalité **Totaux**, le **Regroupement** vous permet également d’obtenir des informations significatives sur les données en fournissant des sous-totaux au niveau du groupe.
-
-Pour utiliser cette fonction, cliquez avec le bouton droit sur la colonne que vous souhaitez regrouper et sélectionnez **Regrouper par cette colonne**. Cette action triera les données selon la colonne sélectionnée, ajoutera une nouvelle colonne Grouper par au début de la grille et insérera des « lignes d’en-tête » au début de chaque groupe. Ces lignes d’en-tête fournissent les informations suivantes sur chaque groupe : 
--  Valeur des données pour le groupe 
--  Libellé de colonne (Ces informations seront particulièrement utiles une fois que plusieurs niveaux de regroupement seront pris en charge.)
--  Nombre de lignes de données dans ce groupe
--  Sous-totaux pour toute colonne configurée pour afficher les totaux
-
-Lorsque [Vues enregistrées ](saved-views.md)est activé, ce regroupement peut être enregistré comme personnalisation dans le cadre d’une vue pour un accès rapide la prochaine fois que vous visiterez la page.  
-
-Si vous sélectionnez **Regrouper par cette colonne** pour une autre colonne, le regroupement d’origine est remplacé, car un seul niveau de regroupement est pris en charge dans la version 10.0.9 avec Plateform update 33.
-
-Pour annuler le regroupement dans une grille, cliquez avec le bouton droit sur la colonne de regroupement et sélectionnez **Dissocier**.  
-
 ## <a name="typing-ahead-of-the-system"></a>Saisie avant le système
 Dans de nombreux scénarios professionnels, la capacité de saisir rapidement des données dans le système est très importante. Avant l’introduction du nouveau contrôle de grille, les utilisateurs ne pouvaient modifier les données que dans la ligne actuelle. Avant de pouvoir créer une nouvelle ligne ou basculer vers une autre ligne, ils étaient obligés d’attendre que le système réussisse à valider les modifications. Afin de réduire le temps que les utilisateurs attendent pour que ces validations soient terminées et d’améliorer la productivité des utilisateurs, la nouvelle grille ajuste ces validations afin qu’elles soient asynchrones. Par conséquent, l’utilisateur peut passer à d’autres lignes pour apporter des modifications pendant que les validations de lignes précédentes sont en attente. 
 
@@ -109,6 +93,32 @@ Pour booster la productivité, les utilisateurs peuvent entrer des formules math
 
 Pour que le système reconnaisse une valeur comme une expression, démarrez la valeur avec un signe égal (**=**). Pour en savoir plus sur les opérateurs et la syntaxe pris en charge, consultez [Symboles mathématiques pris en charge](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+## <a name="grouping-tabular-data"></a>Regroupement des données tabulaires
+[!include [preview banner](../includes/preview-banner.md)]
+
+Les utilisateurs professionnels doivent souvent effectuer une analyse ad hoc des données. Bien que cela puisse être fait en exportant des données vers Microsoft Excel et en utilisant des tableaux croisés dynamiques, la fonctionnalité **(Version préliminaire) Regroupement en grilles**, dépendante de la nouvelle fonctionnalité de contrôle de grille, permet aux utilisateurs d’organiser leurs données tabulaires de manière intéressante dans les applications Finance and Operations. Du fait que cette fonctionnalité étend la fonctionnalité **Totaux**, le **Regroupement** vous permet également d’obtenir des informations significatives sur les données en fournissant des sous-totaux au niveau du groupe.
+
+Pour utiliser cette fonction, cliquez avec le bouton droit sur la colonne selon laquelle vous souhaitez regrouper et sélectionnez **Regrouper par cette colonne**. Cette action triera les données selon la colonne sélectionnée, ajoutera une nouvelle **colonne Grouper par** au début de la grille et insérera des « lignes d’en-tête » au début de chaque groupe. Ces lignes d’en-tête fournissent les informations suivantes sur chaque groupe : 
+-  Valeur des données pour le groupe 
+-  Nom de colonne (Ces informations seront particulièrement utiles une fois que plusieurs niveaux de regroupement seront pris en charge.)  
+-  Nombre de lignes de données dans ce groupe
+-  Sous-totaux pour toute colonne configurée pour afficher les totaux
+
+Lorsque [Vues enregistrées ](saved-views.md)est activé, ce regroupement peut être enregistré comme personnalisation dans le cadre d’une vue pour un accès rapide la prochaine fois que vous visiterez la page.  
+
+Si vous sélectionnez **Regrouper par cette colonne** pour une autre colonne, le regroupement d’origine est remplacé, car un seul niveau de regroupement est pris en charge à compter de la version 10.0.9/Plateform update 33.
+
+Pour annuler le regroupement dans une grille, cliquez avec le bouton droit sur la colonne de regroupement et sélectionnez **Dissocier**.  
+
+### <a name="expanding-and-collapsing-groups"></a>Développer et réduire les groupes
+Le regroupement initial de données aura tous les groupes développés. Vous pouvez créer des vues résumées des données en réduisant des groupes individuels, ou vous pouvez utiliser le développement et la réduction de groupe pour faciliter la navigation dans les données. Pour développer ou réduire un groupe, sélectionnez le bouton de chevron (>) dans la ligne d’en-tête de groupe correspondante. Notez que l’état de développement/réduction des groupes individuels **n’est pas** enregistré dans la personnalisation.
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Sélection et désélection de lignes au niveau du groupe
+De la même manière que vous pouvez sélectionner (ou désélectionner) toutes les lignes de la grille en cochant la case en haut de la première colonne de la grille, vous pouvez également sélectionner (ou désélectionner) rapidement toutes les lignes d’un groupe en cochant la case dans la ligne d’en-tête de groupe correspondante. La case à cocher dans la ligne d’en-tête de groupe reflète toujours l’état de sélection actuel des lignes de ce groupe, que toutes les lignes soient sélectionnées, qu’aucune ligne ne soit sélectionnée ou que seules certaines lignes soient sélectionnées.
+
+### <a name="hiding-column-names"></a>Masquer les noms de colonnes
+Lors du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. À compter de la version 10.0.14/Platform update 38, vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
+
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Comment activer le nouveau contrôle de grille dans mon environnement ? 
 
@@ -131,7 +141,7 @@ Toutes les sessions utilisateur suivantes démarreront avec le nouveau contrôle
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Développeur] Empêcher des pages individuelles d’utiliser la nouvelle grille 
 Si votre organisation découvre une page qui n’arrive pas à utiliser la nouvelle grille, une API est disponible pour autoriser un formulaire individuel à utiliser le contrôle de grille hérité tout en autorisant le reste du système à utiliser le nouveau contrôle de grille. Pour désactiver une page individuelle dans la nouvelle grille, ajoutez le message d’appel suivant `super()` dans la méthode `run()` du formulaire.
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 Cette API sera disponible jusqu’à la version d’octobre 2021 lorsque le nouveau contrôle de grille deviendra obligatoire. Veuillez signaler à Microsoft tout problème qui nécessite l’utilisation de cette API. 
 

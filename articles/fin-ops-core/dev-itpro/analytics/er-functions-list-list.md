@@ -1,6 +1,6 @@
 ---
 title: Fonction LIST ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction LIST États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction LIST États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee51b6da008d1c0fcfb303e9659f507629237333
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: a31288885abda69873ae23b28a36e2a54852f593
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042019"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745151"
 ---
-# <a name="LIST">Fonction LIST ER</a>
+# <a name="list-er-function"></a>Fonction LIST ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `LIST` renvoie une valeur *Liste des enregistrements* constituée d'une nouvelle liste d'enregistrements créée à partir des arguments spécifiés.
+La fonction `LIST` renvoie une valeur *Liste des enregistrements* constituée d’une nouvelle liste d’enregistrements créée à partir des arguments spécifiés.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -49,11 +49,11 @@ Référence à une source de données du type de données *Enregistrement*. Ces 
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*Liste d'enregistrements*
+*Liste d’enregistrements*
 
 Liste des enregistrements résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 La structure de la liste qui est créée contient uniquement les champs qui sont présentés dans la structure de chaque enregistrement mentionné dans les arguments.
 
@@ -69,7 +69,7 @@ Vous entrez ensuite une source de données **Enregistrement 2** du type *Conten
 - **Montant :** Ce champ contient une expression qui renvoie une valeur de type *Réel*.
 - **IsValid :** Ce champ contient une expression qui renvoie une valeur de type *Booléen*.
 
-Dans ce cas, l'expression `LIST('Record 1', 'Record 2')` renvoie une nouvelle liste qui contient deux enregistrements. La structure de cette liste se compose d'un seul champ **Montant** de type *Réel*, car ce champ est le seul champ présenté dans chaque argument de la fonction appelée.
+Dans ce cas, l’expression `LIST('Record 1', 'Record 2')` renvoie une nouvelle liste qui contient deux enregistrements. La structure de cette liste se compose d’un seul champ **Montant** de type *Réel*, car ce champ est le seul champ présenté dans chaque argument de la fonction appelée.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

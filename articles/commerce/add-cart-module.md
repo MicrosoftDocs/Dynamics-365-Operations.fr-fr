@@ -3,7 +3,7 @@ title: Module Panier
 description: Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686764"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761127"
 ---
 # <a name="cart-module"></a>Module Panier
 
@@ -77,8 +77,8 @@ Le module de panier extrait les informations sur le produit à l’aide des API 
 Pour ajouter un module de panier à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
 1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment.
-1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez le module **Panier**.
-1. Sous **Nom du fragment de page**, entrez le nom **Fragment de panier**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Nouveau fragment**, sélectionnez le module **Panier**.
+1. Sous **Nom du fragment**, entrez le nom **Fragment de panier**, puis sélectionnez **OK**.
 1. Sélectionnez l’emplacement **Panier**.
 1. Dans le volet des propriétés à droite, sélectionnez le symbole du crayon, entrez le texte de l’en-tête dans le champ, puis sélectionnez le symbole de coche.
 1. Dans l’emplacement **Panier**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
@@ -86,8 +86,8 @@ Pour ajouter un module de panier à une nouvelle page et définir les propriét�
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
 1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez un nom pour le nouveau modèle.
-1. Dans l’arborescence de contour, sélectionnez l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un fragment de page**.
-1. Dans la boîte de dialogue **Sélectionner un fragment de page**, sélectionnez le fragment **Panier**, puis sélectionnez **OK**.
+1. Dans l’arborescence de contour, sélectionnez l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un fragment**.
+1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le fragment **Panier**, puis sélectionnez **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
 1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle que vous avez créé, entrez un nom de page, puis sélectionnez **OK**.

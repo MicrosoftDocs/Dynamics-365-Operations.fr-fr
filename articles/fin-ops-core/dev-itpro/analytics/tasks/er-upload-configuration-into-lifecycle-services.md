@@ -1,9 +1,9 @@
 ---
-title: ER Charger une configuration dans Lifecycle Services
-description: Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une configuration pour la génération d'états électronique (ER) et la charger dans Microsoft Lifecycle Services (LCS).
+title: Charger une configuration dans Lifecycle Services
+description: Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une nouvelle configuration de génération d’états électroniques (ER) et la charger dans Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143282"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810689"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER Charger une configuration dans Lifecycle Services
+# <a name="upload-a-configuration-into-lifecycle-services"></a>Charger une configuration dans Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une configuration pour la génération d'états électronique (ER) et la charger dans Microsoft Lifecycle Services (LCS).
+Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une [configuration pour la génération d’états électroniques (ER)](../general-electronic-reporting.md#Configuration) et la charger dans la [bibliothèque d’actifs au niveau du projet](../../lifecycle-services/asset-library.md) dans Microsoft Dynamics Lifecycle Services (LCS).
 
-Dans cet exemple, vous allez créer une configuration et la télécharger dans LCS pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». L'accès à LCS est également requis pour réaliser ces étapes.
+Dans cet exemple, vous allez créer une configuration et la charger dans LCS pour un exemple de société nommé Litware, Inc. Ces étapes peuvent être effectuées dans n’importe quelle société, car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). L’accès à LCS est également requis.
 
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
-2. Sélectionnez « Litware, Inc. » et définissez-le comme actif.
-3. Cliquez sur Configurations.
+1. Se connecter à l’application en utilisant l’un des rôles suivants :
+
+    - Développeur de gestion des états électroniques
+    - Administrateur système
+
+2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+3. Sélectionnez **Litware, Inc.** et marquez-le comme **Actif**.
+4. Sélectionnez **Configurations**.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Assurez-vous que l’utilisateur Dynamics 365 Finance actuel est membre du projet LCS qui contient la [bibliothèque d’actifs](../../lifecycle-services/asset-library.md#asset-library-support) utilisée importer des configurations ER.
+>
+> Vous ne pouvez pas accéder à un projet LCS à partir d’un référentiel ER qui représente un domaine différent du domaine utilisé dans Finance. Si vous essayez, une liste vide de projets LCS s’affichera et vous ne pourrez pas importer de configurations ER à partir de la bibliothèque d’actifs au niveau du projet dans LCS. Pour accéder aux bibliothèques d’actifs au niveau du projet à partir d’un référentiel ER utilisé pour importer des configurations ER, connectez-vous à Finance en utilisant les informations d’identification d’un utilisateur qui appartient au client (domaine) pour lequel l’instance Finance actuelle a été provisionnée.
 
 ## <a name="create-a-new-data-model-configuration"></a>Créer une configuration de modèle de données
-1. Cliquez sur Créer la configuration pour ouvrir la boîte de dialogue.
-    * Vous allez créer une configuration qui contient un modèle de données pour les paiements électroniques. Cette configuration de modèle de données sera téléchargée dans LCS ultérieurement.  
-2. Tapez « Exemple de configuration de modèle » dans le champ Nom.
-    * Exemple de configuration de modèle  
-3. Tapez « Exemple de configuration de modèle » dans le champ Description.
-    * Exemple de configuration de modèle  
-4. Cliquez sur Créer une configuration.
-5. Cliquez sur Concepteur de modèles.
-6. Cliquez sur Nouveau.
-7. Tapez « Point d'entrée » dans le champ Nom.
-    * Point d'entrée  
-8. Cliquez sur Ajouter.
-9. Cliquez sur Enregistrer.
-10. Fermez la page.
-11. Cliquez sur Modifier le statut.
-12. Cliquez sur Terminé.
-13. Cliquez sur OK.
 
-## <a name="register-a-new--repository"></a>Enregistrez un nouveau référentiel.
-1. Fermez la page.
-2. Cliquez sur Référentiels.
-    * Cela vous permet d'ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.  
-3. Cliquez sur Ajouter pour ouvrir la boîte de dialogue.
-    * Cela vous permet d'ajouter un référentiel.  
-4. Sélectionnez LCS dans le champ Type du référentiel de configuration.
-5. Cliquez sur Créer un référentiel.
-6. Dans le champ Projet, saisissez ou sélectionnez une valeur.
-    * Sélectionnez le projet LCS souhaité. Vous devez avoir accès au projet.  
-7. Cliquez sur OK.
-    * Effectuez une nouvelle entrée de référentiel.  
-8. Dans la liste, marquez la ligne sélectionnée.
-    * Sélectionnez l'enregistrement Référentiel LCS.  
-    * Notez qu'un référentiel enregistré est marqué par le fournisseur actuel, ce qui signifie que seules les configurations détenues par ce fournisseur peuvent être placées dans ce référentiel et donc être chargées dans le projet LCS sélectionné.  
-9. Cliquez sur Ouvrir.
-    * Ouvrez le référentiel pour afficher la liste des configurations d'ER. Elle est vide si ce projet n'a pas encore été utilisé pour le partage de configurations d'ER.  
-10. Fermez la page.
+1. Accédez à **Administration d’organisation \> États électroniques \> Configurations**.
+2. Sur la page **Configurations**, sélectionnez **Créer une configuration** pour ouvrir la boîte de dialogue déroulante.
+
+    Dans cet exemple, vous allez créer une configuration qui contient un modèle de données pour les documents électroniques. Cette configuration de modèle de données sera téléchargée dans LCS ultérieurement.
+
+3. Dans le champ **Nom**, saisissez **Exemple de configuration de modèle**.
+4. Dans le champ **Description**, saisissez **Exemple de configuration de modèle**.
+5. Sélectionnez **Créer une configuration**.
+6. Sélectionnez **Concepteur de modèle**.
+7. Sélectionnez **Nouveau**.
+8. Dans le champ **Nom**, entrez **Point d’entrée**.
+9. Sélectionnez **Ajouter**.
+10. Sélectionnez **Enregistrer**.
 11. Fermez la page.
+12. Sélectionnez **Modifier le statut**.
+13. Sélectionnez **Terminer**.
+14. Cliquez sur **OK**.
+15. Fermez la page.
 
-## <a name="upload-configuration-into-lcs"></a>Téléchargez la configuration dans LCS.
-1. Cliquez sur Configurations.
-2. Dans l'arborescence, sélectionnez « Exemple de configuration de modèle ».
-    * Sélectionnez une configuration qui est déjà terminée.  
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la version de la configuration sélectionnée ayant le statut « Terminé ».  
-4. Cliquez sur Modifier le statut.
-5. Cliquez sur Partager.
-    * Le statut de configuration passe de « Terminé » à « Partagé » lorsqu'il est attribué dans LCS.  
-6. Cliquez sur OK.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la version de configuration dont le statut est « Partagé ».  
-    * Notez que le statut de la version sélectionnée est passé de « Terminé » à « Partagé ».  
+## <a name="register-a-new-repository"></a>Enregistrer un nouveau référentiel
+
+1. Allez dans **Administration d’organisation \> Espaces de travail \> États électroniques**.
+
+2. Dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Litware, Inc.**.
+
+3. Dans la vignette **Litware, Inc.**, sélectionnez **Référentiels**.
+
+    Vous pouvez à présent ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.
+
+4. Sélectionnez **Ajouter** pour ouvrir la boîte de dialogue déroulante.
+
+    Vous pouvez maintenant ajouter un nouveau référentiel.
+
+5. Dans le champ **Entrée du référentiel de configuration**, sélectionnez **LCS**.
+6. Sélectionnez **Créer un référentiel**.
+7. Dans le champ **Projet**, saisissez ou sélectionnez une valeur.
+
+    Pour cette exemple, sélectionnez le projet LCS souhaité. Vous devez avoir [accès](#accessconditions) au projet.
+
+8. Cliquez sur **OK**.
+
+    Effectuez une nouvelle entrée de référentiel.
+
+9. Dans la liste, marquer la ligne sélectionnée.
+
+    Pour cet exemple, sélectionnez l’enregistrement du référentiel **LCS**.
+
+    Notez qu’un référentiel enregistré est marqué par le fournisseur actuel. En d’autres termes, seules les configurations appartenant à ce fournisseur peuvent être placées dans ce référentiel et donc chargées dans le projet LCS sélectionné.
+
+10. Cliquez sur **Ouvrir**.
+
+    Vous ouvrez le référentiel pour afficher la liste des configurations d’ER. Si le projet sélectionné n’a pas encore été utilisé pour le partage de configurations d’ER, la liste sera vide.
+
+11. Fermez la page.
+12. Fermez la page.
+
+## <a name="upload-a-configuration-into-lcs"></a>Charger une configuration dans LCS
+
+1. Accédez à **Administration d’organisation \> États électroniques \> Configurations**.
+2. Sur la page **Configurations**, dans l’arborescence de configuration, sélectionnez **Exemple de configuration de modèle**.
+
+    Vous devez sélectionner une configuration qui est déjà terminée.
+
+3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+
+    Pour cet exemple, sélectionnez la version de la configuration sélectionnée dont le statut est **Terminé**.
+
+4. Sélectionnez **Modifier le statut**.
+5. Sélectionnez **Partager**.
+
+    L’état de la configuration est modifié de **Terminé** à **Partagé** lorsque la configuration est publiée dans LCS.
+
+6. Cliquez sur **OK**.
+7. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+
+    Pour cet exemple, sélectionnez la version de la configuration dont le statut est **Partagé**.
+
+    Notez que le statut de la version sélectionnée est passé de **Terminé** à **Partagé**.
+
 8. Fermez la page.
-9. Cliquez sur Référentiels.
-    * Cela vous permet d'ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.  
-10. Cliquez sur Ouvrir.
-    * Sélectionnez le référentiel LCS et ouvrez- le.  
-    * Notez que la configuration sélectionnée est indiquée comme un actif du projet LCS sélectionné.  
-    * Ouvrez LCS à l'aide de https://lcs.dynamics.com. Ouvrez un projet utilisé précédemment pour l'enregistrement du référentiel, ouvrez la bibliothèque d'actifs de ce projet, et développez le contenu du type d'actif Configuration GER, la configuration ER téléchargée est disponible. Notez que la configuration LCS téléchargée peut être importée dans une autre instance si les fournisseurs ont accès à ce projet LCS.  
+9. Sélectionnez **Référentiels**.
 
+    Vous pouvez à présent ouvrir la liste des référentiels pour le fournisseur de configuration Litware, Inc.
+
+10. Cliquez sur **Ouvrir**.
+
+    Pour cet exemple, sélectionnez le référentiel **LCS** et ouvrez-le.
+
+    Notez que la configuration sélectionnée est indiquée comme un actif du projet LCS sélectionné.
+
+11. Ouvrez LCS en accédant à <https://lcs.dynamics.com>.
+12. Ouvrez un projet qui a été utilisé précédemment pour l’enregistrement du référentiel.
+13. Ouvrez la bibliothèque d’actifs du projet.
+14. Sélectionnez le type d’actif **Configuration GER**.
+
+    La configuration ER que vous avez chargée doit être répertoriée.
+
+    Notez que la configuration LCS chargée peut être importée dans une autre instance si les fournisseurs ont accès à ce projet LCS.

@@ -1,6 +1,6 @@
 ---
 title: Fonction ABS ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction ABS États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction ABS États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/17/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 214fb2808f024487795f27de45de1d4de8cead2d
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: b53535d1a000b72577be5c6284cc4676c43d591b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041651"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744597"
 ---
-# <a name="ABS">Fonction ABS ER</a>
+# <a name="abs-er-function"></a>Fonction ABS ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `ABS` renvoie la valeur absolue (module) du nombre spécifié en tant que valeur *Réelle*. En d'autres termes, elle renvoie le nombre sans son signe.
+La fonction `ABS` renvoie la valeur absolue (module) du nombre spécifié en tant que valeur *Réelle*. En d’autres termes, elle renvoie le nombre sans son signe.
 
 ## <a name="syntax"></a>Syntaxe
 

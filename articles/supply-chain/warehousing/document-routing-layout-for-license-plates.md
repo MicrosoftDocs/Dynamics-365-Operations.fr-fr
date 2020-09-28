@@ -1,5 +1,5 @@
 ---
-title: Mise en page d'acheminement de document pour les étiquettes de contenant
+title: Mise en page d’acheminement de document pour les étiquettes de contenant
 description: Cette rubrique décrit comment utiliser les méthodes de mise en forme pour imprimer les valeurs sur des étiquettes.
 author: perlynne
 manager: tfehr
@@ -15,23 +15,23 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ca7bf50800f3b376b809d89c5de969b2233c5e2b
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 9af077022ab0759534d2c1da5f39997712e6a354
+ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677384"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763453"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Mise en page d'acheminement de document pour les étiquettes de contenant
+# <a name="document-routing-layout-for-license-plate-labels"></a>Mise en page d’acheminement de document pour les étiquettes de contenant
 
 [!include [banner](../includes/banner.md)]
 
-La mise en page d'acheminement de document définit la mise en page des étiquettes de contenant et les données y sont imprimées. Vous configurez les points de déclenchement d'impression lorsque vous configurez les articles de menu d'appareil mobile et les modèles de travail.
+La mise en page d’acheminement de document définit la mise en page des étiquettes de contenant et les données y sont imprimées. Vous configurez les points de déclenchement d’impression lorsque vous configurez les articles de menu d’appareil mobile et les modèles de travail.
 
-Dans un scénario type, les commis de réception à l'entrepôt impriment les étiquettes de contenant immédiatement après avoir enregistré le contenu des palettes qui arrivent dans la zone de réception. Les étiquettes physiques sont appliquées aux palettes. Elles peuvent ensuite être utilisée pour validation dans le cadre du processus de rangement qui suit et des futures opérations de prélèvement sortant.
+Dans un scénario type, les commis de réception à l’entrepôt impriment les étiquettes de contenant immédiatement après avoir enregistré le contenu des palettes qui arrivent dans la zone de réception. Les étiquettes physiques sont appliquées aux palettes. Elles peuvent ensuite être utilisée pour validation dans le cadre du processus de rangement qui suit et des futures opérations de prélèvement sortant.
 
-Vous pouvez imprimer des étiquettes très complexes, à condition que l'appareil d'impression puisse interpréter le texte qu'il reçoit. Par exemple, une mise en page ZPL (Zebra Programming Language) qui inclut un code barres pourrait ressembler à l'exemple suivant.
+Vous pouvez imprimer des étiquettes très complexes, à condition que l’appareil d’impression puisse interpréter le texte qu’il reçoit. Par exemple, une mise en page ZPL (Zebra Programming Language) qui inclut un code barres pourrait ressembler à l’exemple suivant.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -47,15 +47,15 @@ Vous pouvez imprimer des étiquettes très complexes, à condition que l'apparei
 ^PQ1,,,Y^XZ
 ```
 
-Dans le cadre du processus d'impression d'étiquettes, le texte `$LicensePlateId$` de cet exemple sera remplacé par une valeur de données.
+Dans le cadre du processus d’impression d’étiquettes, le texte `$LicensePlateId$` de cet exemple sera remplacé par une valeur de données.
 
-Pour voir les valeurs qui seront imprimées, accédez à **Gestion d'entrepôt \> Demandes de renseignements et rapports \> Étiquettes de contenants**.
+Pour voir les valeurs qui seront imprimées, accédez à **Gestion d’entrepôt \> Demandes de renseignements et rapports \> Étiquettes de contenants**.
 
-Plusieurs outils de génération d'étiquettes largement disponibles peuvent vous aider à formater le texte pour la mise en page de l'étiquette. Nombre de ces outils prennent en charge le format `$FieldName$`. De plus, Microsoft Dynamics 365 Supply Chain Management utilise une logique de formatage spéciale dans le cadre du mappage de champ pour la mise en page d'acheminement de document.
+Plusieurs outils de génération d’étiquettes largement disponibles peuvent vous aider à formater le texte pour la mise en page de l’étiquette. Nombre de ces outils prennent en charge le format `$FieldName$`. De plus, Microsoft Dynamics 365 Supply Chain Management utilise une logique de formatage spéciale dans le cadre du mappage de champ pour la mise en page d’acheminement de document.
 
 ## <a name="custom-number-formats"></a>Formats de numéro personnalisés
 
-Vous pouvez personnaliser la mise en forme des valeurs du champ numérique qui sont imprimées à l'aide de codes qui ont le format suivant.
+Vous pouvez personnaliser la mise en forme des valeurs du champ numérique qui sont imprimées à l’aide de codes qui ont le format suivant.
 
 ```dos
 $FieldName:FormatString$
@@ -68,14 +68,14 @@ Voici une explication de ce format :
 
 Les exemples suivants montrent comment personnaliser le champ de quantité de travail (**Qté**) :
 
-- Pour toujours afficher quatre chiffres (en utilisant des zéros comme espaces réservés), utilisez `$Qty:0000$`. Par exemple, si la quantité est de 10, l'étiquette affichera « 0010 ».
-- Pour toujours afficher deux décimales, utilisez `$Qty:0.00$`. Par exemple, si la quantité est de 10, l'étiquette affichera « 10.00 ».
+- Pour toujours afficher quatre chiffres (en utilisant des zéros comme espaces réservés), utilisez `$Qty:0000$`. Par exemple, si la quantité est de 10, l’étiquette affichera « 0010 ».
+- Pour toujours afficher deux décimales, utilisez `$Qty:0.00$`. Par exemple, si la quantité est de 10, l’étiquette affichera « 10.00 ».
 
 Pour une liste complète des chaînes de format numérique disponibles, consultez [Chaînes de format numérique personnalisées](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Formats de chaîne personnalisés
 
-Vous pouvez supprimer les premiers caractères d'une chaîne en utilisant le champ et le code de format suivants.
+Vous pouvez supprimer les premiers caractères d’une chaîne en utilisant le champ et le code de format suivants.
 
 ```dos
 $FieldName:#..$
@@ -85,7 +85,7 @@ Ici, `#` spécifie le nombre de caractères à ignorer. Par exemple, pour imprim
 
 ## <a name="custom-datetime-formats"></a>Formats date/heure personnalisés
 
-L'exemple suivant montre comment contrôler le format utilisé pour imprimer les dates.
+L’exemple suivant montre comment contrôler le format utilisé pour imprimer les dates.
 
 ```dos
 $PrintedDate:dd-MM-yyyy$
@@ -97,7 +97,7 @@ Pour une liste complète des formats date/heure disponibles, consultez [Chaînes
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Imprimer des lignes individuelles à partir de données multilignes
 
-Si un champ de données contient plusieurs lignes (c'est-à-dire des lignes séparées par des sauts de ligne), vous pouvez imprimer une ligne individuelle en utilisant le format suivant.
+Si un champ de données contient plusieurs lignes (c’est-à-dire des lignes séparées par des sauts de ligne), vous pouvez imprimer une ligne individuelle en utilisant le format suivant.
 
 ```dos
 $FieldName[#]$
@@ -105,7 +105,7 @@ $FieldName[#]$
 
 Ici, `#` est le numéro de ligne que vous souhaitez imprimer. (Utilisez 1 pour la première ligne.)
 
-Par exemple, votre système a un champ `AdditionalAddress` qui stocke l'adresse multiligne suivante :
+Par exemple, votre système a un champ `AdditionalAddress` qui stocke l’adresse multiligne suivante :
 
 Contoso Inc.  
 123 Nom de la rue  
@@ -119,20 +119,20 @@ Vous pouvez imprimer cette adresse, une ligne à la fois, en utilisant les codes
 | `$AdditionalAddress[2]$` | 123 Nom de la rue |
 | `$AdditionalAddress[3]$` | Une ville, un État |
 
-## <a name="print-and-format-from-a-display-method"></a>Imprimer et formater à partir d'une méthode d'affichage
+## <a name="print-and-format-from-a-display-method"></a>Imprimer et formater à partir d’une méthode d’affichage
 
-Vous pouvez imprimer à partir d'une méthode d'affichage en utilisant le format suivant.
+Vous pouvez imprimer à partir d’une méthode d’affichage en utilisant le format suivant.
 
 ```dos
 $DisplayMethod()$
 ```
 
-Vous pouvez combiner ce format avec d'autres types décrits précédemment dans cette rubrique. Par exemple, vous disposez d'une méthode d'affichage nommée `DisplayListOfItemsNumbers()` et vous souhaitez imprimer le premier numéro d'élément de cette méthode. Dans ce cas, vous pouvez utiliser le code suivant.
+Vous pouvez combiner ce format avec d’autres types décrits précédemment dans cette rubrique. Par exemple, vous disposez d’une méthode d’affichage nommée `DisplayListOfItemsNumbers()` et vous souhaitez imprimer le premier numéro d’élément de cette méthode. Dans ce cas, vous pouvez utiliser le code suivant.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$
 ```
 
-## <a name="more-information-about-how-to-print-labels"></a>En savoir plus sur l'impression d'étiquettes
+## <a name="more-information-about-how-to-print-labels"></a>En savoir plus sur l’impression d’étiquettes
 
-Pour plus d'informations sur la configuration et l'impression d'étiquettes, voir [Activer l'impression d'étiquette de contenant](tasks/license-plate-label-printing.md).
+Pour plus d’informations sur la configuration et l’impression d’étiquettes, voir [Activer l’impression d’étiquette de contenant](tasks/license-plate-label-printing.md).

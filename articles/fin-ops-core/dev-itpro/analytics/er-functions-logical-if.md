@@ -1,6 +1,6 @@
 ---
 title: Fonction IF ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction IF États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction IF États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 198210f15e75de761dbb03e5087ba7c77a95721a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 87e252a2751beeecb51e512cae38b271c1456fae
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041743"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744693"
 ---
-# <a name="IF">Fonction IF ER</a>
+# <a name="if-er-function"></a>Fonction IF ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `IF` renvoie la première valeur spécifiée si la condition spécifiée est remplie. Sinon, elle renvoie la deuxième valeur spécifiée. La valeur renvoyée peut être une valeur de n'importe quel type de données pris en charge.
+La fonction `IF` renvoie la première valeur spécifiée si la condition spécifiée est remplie. Sinon, elle renvoie la deuxième valeur spécifiée. La valeur renvoyée peut être une valeur de n’importe quel type de données pris en charge.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -43,29 +43,29 @@ IF (condition, first value, second value) as any of the supported data types
 
 Expression conditionnelle valide qui doit être testée.
 
-`first value` : *N'importe lequel des types de données pris en charge*
+`first value` : *N’importe lequel des types de données pris en charge*
 
 Résultat renvoyé si la condition est remplie.
 
-`second value` : *N'importe lequel des types de données pris en charge*
+`second value` : *N’importe lequel des types de données pris en charge*
 
-Résultat renvoyé si la condition n'est pas remplie.
+Résultat renvoyé si la condition n’est pas remplie.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*N'importe lequel des types de données pris en charge*
+*N’importe lequel des types de données pris en charge*
 
-Valeur résultante de l'un des types de données pris en charge.
+Valeur résultante de l’un des types de données pris en charge.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 Les arguments `first value` et `second value` doivent être spécifiés en utilisant le même type de données. Une exception est levée au moment de la conception si les types de données des valeurs configurées ne correspondent pas.
 
-Si la première valeur et la seconde valeur sont des valeurs de type de données *Conteneur (enregistrement)* ou *Liste des enregistrements*, le résultat n'a que les champs qui existent dans les deux valeurs.
+Si la première valeur et la seconde valeur sont des valeurs de type de données *Conteneur (enregistrement)* ou *Liste des enregistrements*, le résultat n’a que les champs qui existent dans les deux valeurs.
 
 ## <a name="example"></a>Exemple
 
-`IF (1=2, "condition is met", "condition is not met")` renvoie la chaîne **la condition n'est pas remplie**.
+`IF (1=2, "condition is met", "condition is not met")` renvoie la chaîne **la condition n’est pas remplie**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

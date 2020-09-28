@@ -3,7 +3,7 @@ title: Ajouter une page de stratégie de confidentialité
 description: Cette rubrique décrit comment ajouter une page de stratégie de confidentialité à votre site dans Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686693"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761271"
 ---
 # <a name="add-a-privacy-policy-page"></a>Ajouter une page de stratégie de confidentialité
 
@@ -89,8 +89,8 @@ Vous pouvez ajouter un lien vers la page de stratégie de confidentialité à un
 Pour ajouter un lien à un fragment de pied de page, procédez comme suit.
 
 1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment de page.
-1. Dans la boîte de dialogue **Nouveau fragment de page**, sélectionnez le module **Pied de page**.
-1. Sous **Nom du fragment de page**, entrez un nom pour le fragment, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Nouveau fragment**, sélectionnez le module **Pied de page**.
+1. Sous **Nom du fragment**, entrez un nom pour le fragment, puis sélectionnez **OK**.
 1. Dans l’emplacement **Catégorie de pied de page**, ajoutez un module **Élément de pied de page**.
 1. Dans le volet de propriétés de droite, sélectionnez **Texte du lien**.
 1. Dans la boîte de dialogue **Texte du lien**, entrez le texte du lien et la cible du lien de la page de stratégie de confidentialité, puis cliquez sur **OK**.

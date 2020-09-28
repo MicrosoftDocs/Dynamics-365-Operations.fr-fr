@@ -1,6 +1,6 @@
 ---
 title: Fonction LISTOFFIRSTITEM ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction LISTOFFIRSTITEM États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction LISTOFFIRSTITEM États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cd48732280c9af0b89129a32b42285207f97fb7
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 069ec0c6d5578ca6ab68814adf325bd79e73b9e8
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041973"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745055"
 ---
-# <a name="LISTOFFIRSTITEM">Fonction LISTOFFIRSTITEM ER</a>
+# <a name="listoffirstitem-er-function"></a>Fonction LISTOFFIRSTITEM ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,19 +39,19 @@ LISTOFFIRSTITEM (list)
 
 ## <a name="arguments"></a>Arguments
 
-`list` : *Liste d'enregistrements*
+`list` : *Liste d’enregistrements*
 
-Chemin d'accès valide d'une source de données du type de données *Liste d'enregistrements*.
+Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-*Liste d'enregistrements*
+*Liste d’enregistrements*
 
 Liste des enregistrements résultante.
 
 ## <a name="example"></a>Exemple
 
-L'expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` renvoie la valeur texte **« A »**.
+L’expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` renvoie la valeur texte **« A »**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

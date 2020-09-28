@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597504"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775172"
 ---
 # <a name="warehouse-location-status"></a>Statut de l’emplacement de l’entrepôt
 
@@ -45,7 +45,7 @@ Les quatre champs suivants de la page **Emplacements** effectuent le suivi des i
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>Activer la fonctionnalité de statut de l’emplacement dans l’entrepôt
 
-Avant de pouvoir utiliser la fonctionnalité *Statut de l’emplacement dans l’entrepôt* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Statut de l’emplacement dans l’entrepôt* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Statut de l’emplacement dans l’entrepôt*
@@ -64,10 +64,10 @@ Pour utiliser l’exemple de scénario à l’aide des exemples d’enregistreme
 
 L’exemple de scénario nécessite que vous prépariez deux profils d’emplacement.
 
-1. Allez dans **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Profils d'emplacement**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Profils d’emplacement**.
 1. Sélectionnez **Modifier** pour afficher la page en mode d’édition.
 1. Sélectionnez le profil **VRAC-06**.
-1. Dans l'organisateur **Général**, définissez les valeurs suivantes :
+1. Dans l’organisateur **Général**, définissez les valeurs suivantes :
 
     - **Activer l’article à l’emplacement :** Définissez cette option sur _Oui_.
     - **Activer la date et l’heure de l’activité de l’emplacement :** Définissez cette option sur _Oui_.
@@ -76,6 +76,9 @@ L’exemple de scénario nécessite que vous prépariez deux profils d’emplace
     Ces options contrôlent si les champs de référence sur l’emplacement sont actifs.
 
 1. Répétez les étapes 3 et 4 pour le profil **PRÉLEVER-06**.
+
+> [!NOTE]
+> Lorsque les paramètres du profil d’emplacement (**Activer l’article dans l’emplacement**, **Activer l’activité d’emplacement**, **Activer le statut de l’emplacement**) sont définis sur *Oui*, le système met immédiatement à jour les emplacements concernés en exécutant la tâche *Vérification de la cohérence du statut des emplacements de l’entrepôt*.
 
 ### <a name="scenario"></a>Scénario
 
@@ -141,7 +144,7 @@ L’exemple de scénario nécessite que vous prépariez deux profils d’emplace
 
 1. Sur l’organisateur **Lignes de commande client**, dans le menu **Stock**, sélectionnez **Réservation**.
 1. Sur la page **Réservation**, sélectionnez **Réserver un lot** pour réserver la ligne de commande. Cliquez ensuite sur le bouton **Fermer** (**X**) dans le coin supérieur droit pour fermer la page.
-1. Dans le volet Actions, sous l'onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l'entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l’entrepôt**.
 1. Dans la section **Lignes de commande client**, dans le menu **Entrepôt**, sélectionnez **Détails du travail**.
 1. Copiez la valeur de l’**ID de travail** créée.
 1. Sur l’appareil mobile, accédez à **Sortant \> Prélèvement des ventes**.

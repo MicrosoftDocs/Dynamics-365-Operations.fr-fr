@@ -1,6 +1,6 @@
 ---
 title: Fonction REPLACE ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction REPLACE États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction REPLACE États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 04/02/2020
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: c9e64bd8e039b4eeca829c3c37299f002ba03592
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201064"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743733"
 ---
-# <a name=""></a><a name="REPLACE">Fonction REPLACE ER</a>
+# <a name="replace-er-function"></a>Fonction REPLACE ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `REPLACE` renvoie la chaîne de texte spécifiée sous la forme d'une valeur de *Chaîne* après que tout ou partie de celui-ci a été remplacé par une autre chaîne.
+La fonction `REPLACE` renvoie la chaîne de texte spécifiée sous la forme d’une valeur de *Chaîne* après que tout ou partie de celui-ci a été remplacé par une autre chaîne.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -41,19 +41,19 @@ REPLACE (text, pattern, replacement, regular expression flag)
 
 `text` : *Chaîne*
 
-Chemin d'accès valide d'une source de données du type *Chaîne*.
+Chemin d’accès valide d’une source de données du type *Chaîne*.
 
 `pattern` : *Chaîne*
 
-Si l'argument `regular expression flag` est **FALSE**, cet argument contient le texte qui doit être remplacé.
+Si l’argument `regular expression flag` est **FALSE**, cet argument contient le texte qui doit être remplacé.
 
-Si l'argument `regular expression flag` est **TRUE**, cet argument contient une expression régulière qui définit à la fois un modèle de recherche et le texte de remplacement.
+Si l’argument `regular expression flag` est **TRUE**, cet argument contient une expression régulière qui définit à la fois un modèle de recherche et le texte de remplacement.
 
 `replacement` : *Chaîne*
 
-Si l'argument `regular expression flag` est **FALSE**, cet argument contient le texte à utiliser comme remplacement.
+Si l’argument `regular expression flag` est **FALSE**, cet argument contient le texte à utiliser comme remplacement.
 
-Si l'argument `regular expression flag` est **TRUE**, cet argument n'est pas utilisé.
+Si l’argument `regular expression flag` est **TRUE**, cet argument n’est pas utilisé.
 
 `regular expression flag` : *Booléen*
 
@@ -65,11 +65,11 @@ Valeur *Booléenne* qui indique si une expression régulière est utilisée pour
 
 Valeur de texte résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
-Si l'argument `regular expression flag` est **TRUE**, cette fonction renvoie la chaîne spécifiée après sa modification en appliquant l'expression régulière spécifiée par l'argument `pattern`. L'expression régulière est utilisée pour rechercher les caractères qui doivent être remplacés.
+Si l’argument `regular expression flag` est **TRUE**, cette fonction renvoie la chaîne spécifiée après sa modification en appliquant l’expression régulière spécifiée par l’argument `pattern`. L’expression régulière est utilisée pour rechercher les caractères qui doivent être remplacés.
 
-Si l'argument `regular expression flag` est **FALSE**, cette fonction renvoie une chaîne spécifique après que l'ensemble de caractères définis dans l'argument `pattern` ait été remplacé par les caractères de l'argument `replacement`. 
+Si l’argument `regular expression flag` est **FALSE**, cette fonction renvoie une chaîne spécifique après que l’ensemble de caractères définis dans l’argument `pattern` ait été remplacé par les caractères de l’argument `replacement`. 
 
 ## <a name="example-1"></a>Exemple 1
 

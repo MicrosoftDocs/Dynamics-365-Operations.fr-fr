@@ -1,6 +1,6 @@
 ---
 title: Fonction LEN ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction LEN États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction LEN États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/11/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0ba19e762574dde4f9038b87ce352d13f714f4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e51e181de53cd185679110e99b9f89695bacdf92
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041053"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744261"
 ---
-# <a name="LEN">Fonction LEN ER</a>
+# <a name="len-er-function"></a>Fonction LEN ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `LEN` renvoie le nombre de caractères de la chaîne spécifiée sous la forme d'une valeur d'*Entier*.
+La fonction `LEN` renvoie le nombre de caractères de la chaîne spécifiée sous la forme d’une valeur d’*Entier*.
 
 ## <a name="syntax"></a>Syntaxe
 

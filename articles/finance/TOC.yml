@@ -4,7 +4,7 @@
       items:
         - name: Page d’accueil de Dynamics 365 Finance
           href: index.md
-        - name: Prise en main
+        - name: Mise en route
           items:
             - name: Avant d’acheter
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
@@ -24,7 +24,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: Appliquer des mises à jour à des environnements cloud
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
-                - name: Appliquer des mises à jour à des déploiements sur site
+                - name: Appliquer des mises à jour à des déploiements locaux
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
@@ -56,7 +56,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Acheter Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Configurer l’entreposage pour les déploiements sur site
+                - name: Configurer l’entreposage pour les déploiements locaux
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
                 - name: Applications Finance and Operations exploitées par 21Vianet en Chine
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
@@ -70,17 +70,19 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil Finance
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance\_10.0.14 (novembre\_2020)"
+                      href: get-started/whats-new-changed-10-0-14.md
                     - name: "Finance\_10.0.13 (octobre\_2020)"
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: "Finance\_10.0.12 (août\_2020)"
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: "Finance\_10.0.11 (juillet\_2020)"
                       href: get-started/whats-new-changed-10-0-11.md
-            - name: Fonctions supprimées ou obsolètes
+            - name: Fonctionnalités supprimées ou obsolètes
               items:
-                - name: Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
+                - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
-                - name: Fonctions supprimées ou obsolètes dans les versions précédentes
+                - name: Fonctionnalités supprimées ou obsolètes dans les versions précédentes
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
             - name: "Fonctions d’AX\_2012 ayant été reportées"
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
@@ -412,6 +414,8 @@
                   href: accounts-receivable/set-up-collections.md
                 - name: Réviser les informations de recouvrement
                   href: accounts-receivable/tasks/review-collections-information.md
+                - name: Automatisation du processus de recouvrement
+                  href: accounts-receivable/collections-process-automate.md
                 - name: Paramétrage de la gestion du crédit
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Informations de paramétrage de la gestion du crédit
@@ -756,6 +760,8 @@
                   href: fixed-assets/175-percent-reducing-balance-depreciation.md
                 - name: "Amortissement dégressif de 200\_%"
                   href: fixed-assets/200-percent-reducing-balance-depreciation.md
+                - name: Méthodologie de la convention d’amortissement semestriel
+                  href: fixed-assets/half-year-depreciation-methodology.md
                 - name: Amortissement de la prime
                   href: fixed-assets/bonus-depreciation.md
                 - name: Paramétrer l’amortissement de la prime
@@ -1013,7 +1019,27 @@
             - name: Transférer un devis à un projet
               href: project-management/transfer-quote-new-existing-project.md
             - name: Ressources du projet
-              href: project-management/project-resourcing.md
+              items:
+                - name: Vue d’ensemble des ressources du projet
+                  href: project-management/project-resourcing.md
+                - name: Paramétrer les ressources de projet
+                  href: project-management/set-up-project-resources.md
+                - name: Gérer les compétences de ressource
+                  href: project-management/manage-resource-competencies.md
+                - name: Créer un nouveau projet
+                  href: project-management/create-new-project.md
+                - name: Paramétrer la tarification par rôle
+                  href: project-management/set-up-role-based-pricing.md
+                - name: Créer une équipe de projet
+                  href: project-management/create-project-team.md
+                - name: Synchroniser la capacité des ressources
+                  href: project-management/synchronize-resource-capacity.md
+                - name: Performances de la planification de ressources projet
+                  href: project-management/project-scheduling-performance.md
+                - name: Paramétrer des rôles sur des modèles de structure de répartition du travail
+                  href: project-management/set-up-roles-wbs-template.md
+                - name: Traitement de ressources pour les ressources planifiées
+                  href: project-management/resource-fulfillment-planned-resources.md
             - name: Recevoir des articles sur une commande fournisseur à partir d’une demande d’articles
               href: project-management/tasks/receive-items-purchase-order-item-requirement.md
             - name: Structures de répartition du travail
@@ -1224,6 +1250,16 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: Déclaration de TVA
                   href: localizations/emea-aut-vat-statement-details.md
+            - name: Bahreïn
+              items:
+                - name: Vue d’ensemble du Bahreïn
+                  href: localizations/bahrain.md
+                - name: Configurer la disposition des factures pour le Bahreïn
+                  href: localizations/emea-bhr-invoice-layout.md
+                - name: Déclaration de TVA pour le Bahreïn
+                  href: localizations/emea-bhr-vat-declaration.md
+                - name: Délai d’émission de facture
+                  href: localizations/gcc-invoice-issue-deadline.md
             - name: Belgique
               items:
                 - name: Vue d’ensemble de la Belgique
@@ -1496,6 +1532,8 @@
                   href: localizations/emea-amount-printing-forms.md
                 - name: Déclaration de TVA
                   href: localizations/emea-cze-vat-statement-details.md
+                - name: Déclaration de TVA (République tchèque)
+                  href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Clôture de fin d’exercice
                   href: localizations/emea-cze-hun-year-end.md
             - name: Danemark
@@ -1780,6 +1818,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Système de facturation en ligne
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Calculs de la taxe différée
+                  href: localizations/emea-hun-deferred-vat.md
             - name: Islande
               items:
                 - name: Vue d’ensemble de l’Islande
@@ -2238,6 +2278,10 @@
                   href: localizations/tasks/use-assemble-list-fixed-asset.md
                 - name: Utiliser une liste de désassemblage des immobilisations
                   href: localizations/tasks/use-disassemble-list-fixed-assets.md
+            - name: Koweït
+              items:
+                - name: Vue d’ensemble du Koweït
+                  href: localizations/kuwait.md
             - name: Lettonie
               items:
                 - name: Vue d’ensemble de la Lettonie
@@ -2286,8 +2330,10 @@
                   href: localizations/tasks/my-00005-print-gst-tax-invoices.md
                 - name: Autofacturation
                   href: localizations/tasks/my-00007-self-billed-invoices.md
-                - name: Paramétrer les clauses d’allègement GST
+                - name: Paramétrer les clauses d’allègement de la GST
                   href: localizations/tasks/my-00006-01-gst-relief-clauses.md
+                - name: Déclaration SST-02 pour la Malaisie
+                  href: localizations/apac-mys-sst-declaration.md
             - name: Mexique
               items:
                 - name: Vue d’ensemble du Mexique
@@ -2328,6 +2374,10 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: ID d’enregistrement fournisseur
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
+            - name: Oman
+              items:
+                - name: Vue d’ensemble d’Oman
+                  href: localizations/oman.md
             - name: Pays-Bas
               items:
                 - name: Vue d’ensemble des Pays-Bas
@@ -2386,6 +2436,10 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Différence d’échange Comptabilité fournisseur/Comptabilité client divisée
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+            - name: Qatar
+              items:
+                - name: Vue d’ensemble du Qatar
+                  href: localizations/qatar.md
             - name: Russie
               items:
                 - name: Vue d’ensemble de la Russie
@@ -2720,10 +2774,12 @@
               items:
                 - name: Vue d’ensemble des États-Unis
                   href: localizations/united-states.md
-                - name: Génération d’état de fin d’exercice 1099 pour les États-Unis
+                - name: "Génération d’état de fin d’exercice\_1099 pour les États-Unis"
                   href: localizations/noam-usa-year-end-1099-reporting.md
-                - name: "Écran\_1099 pour le secteur public"
+                - name: "Formulaire\_1099 pour le secteur public"
                   href: localizations/noam-usa-form-1099-public-sector.md
+                - name: "Paramétrer des fournisseurs pour la génération d’état\_1099"
+                  href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
         - name: Human Resources
           items:
             - name: Vue d’ensemble de Human Resources
@@ -2966,10 +3022,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
                 - name: Polices prises en charge
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
-                - name: Configurer SSRS pour des déploiements sur site
+                - name: Configurer SSRS pour des déploiements locaux
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Expériences de génération d’états par défaut dans les environnements IaaS
                   href: ../fin-ops-core/dev-itpro/analytics/reporting-experience-iias-environments.md?toc=/dynamics365/finance/toc.json
+                - name: Options d’aperçu de la génération d’états sur les documents
+                  href: ../fin-ops-core/dev-itpro/analytics/reporting-printing-preview-page-options.md
                 - name: Impression
                   items:
                     - name: Vue d’ensemble de l’impression de document
@@ -2980,7 +3038,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/finance/toc.json
                     - name: Installer des périphériques d’impression réseau dans les environnements sur site
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Génération, publication et impression de documents dans les déploiements sur site'
+                    - name: 'Génération, publication et impression de documents dans les déploiements locaux'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/finance/toc.json
                     - name: Exécuter l’agent d’acheminement de document en tant que service Windows
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/finance/toc.json
@@ -3437,8 +3495,12 @@
                     - name: Utiliser XML brut pour ajouter du contenu
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                     - name: Prendre en charge les appels paramétrés des sources de données CHAMP CALCULÉ
-                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
-                    - name: Sources de données des états électroniques
+                      items:
+                        - name: Améliorer l’expérience utilisateur et la maintenance de la convivialité
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                        - name: Améliorer les performances de l’accès aux données
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/finance/toc.json
+                    - name: Sources de données des états électroniques intersociétés
                       href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Utiliser les sources de données DÉTAILS DES DIMENSIONS FINANCIÈRES
                       items:

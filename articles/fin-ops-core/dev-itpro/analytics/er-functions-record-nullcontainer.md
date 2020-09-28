@@ -1,6 +1,6 @@
 ---
 title: Fonction NULLCONTAINER ER
-description: Cette rubrique fournit des informations sur l'utilisation de la fonction NULLCONTAINER États électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la fonction NULLCONTAINER États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/12/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea71bfc4b30164fd32e804bf83a46c49cd18d155
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: dac6283ec35d3d03f586ca157048bd3ecc4bfa8a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041467"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743925"
 ---
-# <a name="NULLCONTAINER">Fonction NULLCONTAINER ER</a>
+# <a name="nullcontainer-er-function"></a>Fonction NULLCONTAINER ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `NULLCONTAINER` renvoie une valeur de *Conteneur (enregistrement)* nulle avec la même structure que la liste d'enregistrements ou de l'enregistrement spécifiés.
+La fonction `NULLCONTAINER` renvoie une valeur de *Conteneur (enregistrement)* nulle avec la même structure que la liste d’enregistrements ou de l’enregistrement spécifiés.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -41,23 +41,23 @@ NULLCONTAINER (list)
 
 `list` : *Liste des enregistrements* ou *Conteneur (enregistrement)*
 
-Chemin d'accès valide d'une source de données de type *Liste des enregistrements* ou *Conteneur (enregistrement)*.
+Chemin d’accès valide d’une source de données de type *Liste des enregistrements* ou *Conteneur (enregistrement)*.
 
 ## <a name="return-values"></a>Valeurs de retour
 
 *Conteneur (enregistrement)*
 
-Valeur de l'enregistrement résultante.
+Valeur de l’enregistrement résultante.
 
-## <a name="usage-notes"></a>Notes d'utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 > [!NOTE] 
-> Cette fonction est obsolète. Utilisez la fonction `EMPTYRECORD` à la place. Pour plus d'informations, voir [EMPTYRECORD](er-functions-record-emptyrecord.md).
+> Cette fonction est obsolète. Utilisez la fonction `EMPTYRECORD` à la place. Pour plus d’informations, voir [EMPTYRECORD](er-functions-record-emptyrecord.md).
 
 ## <a name="example"></a>Exemple
 
-`NULLCONTAINER (SPLIT ("abc", 1))` renvoie un nouvel enregistrement vide ayant la même structure que la liste qui est renvoyée par la fonction `SPLIT`. Pour plus d'informations, voir [SPLIT](er-functions-list-split.md).
+`NULLCONTAINER (SPLIT ("abc", 1))` renvoie un nouvel enregistrement vide ayant la même structure que la liste qui est renvoyée par la fonction `SPLIT`. Pour plus d’informations, voir [SPLIT](er-functions-list-split.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctions d'enregistrement](er-functions-category-record.md)
+[Fonctions d’enregistrement](er-functions-category-record.md)

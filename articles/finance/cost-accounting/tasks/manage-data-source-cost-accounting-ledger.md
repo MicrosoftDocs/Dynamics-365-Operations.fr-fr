@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: CAMAXGeneralLedgerEntryProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
@@ -15,21 +16,21 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4cf53e905cf32557f4671477b173b1c5072d186e
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 48d92a634a08f686e29260a71782bbacf7215f2f
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137819"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759158"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Gérer une source de données pour la comptabilité de contrôle de gestion
 
 [!include [banner](../../includes/banner.md)]
 
-Utilisez cette procédure pour gérer la source de données pour une comptabilité de contrôle de gestion. Avant d'effectuer cette tâche, veillez à lire les guides de tâche « Créer une comptabilité de contrôle de gestion » et « Définir les unités de contrôle des coûts ». Cet enregistrement utilise la société fictive USP2.
+Utilisez cette procédure pour gérer la source de données pour une comptabilité de contrôle de gestion. Avant d’effectuer cette tâche, veillez à lire les guides de tâche « Créer une comptabilité de contrôle de gestion » et « Définir les unités de contrôle des coûts ». Cet enregistrement utilise la société fictive USP2.
 
 1. Accédez à Contrôle de gestion > Paramétrage de la comptabilité > Comptabilités de contrôle de gestion.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Cliquez sur Versions réelles.
 4. Dans le volet Actions, cliquez sur Gérer.
 5. Cliquez sur Comptabilité.
@@ -37,7 +38,7 @@ Utilisez cette procédure pour gérer la source de données pour une comptabilit
 7. Tapez une valeur dans le champ Nom.
 8. Dans le champ Fournisseur de données, entrez ou sélectionnez une valeur.
     * Pour cet exemple, sélectionnez Dynamics 365 Finance - Écritures de comptabilité.  
-9. Dans le champ Dimension d'élément de coût, entrez ou sélectionnez une valeur.
+9. Dans le champ Dimension d’élément de coût, entrez ou sélectionnez une valeur.
     * Pour cet exemple, sélectionnez Éléments de coût.  
 10. Cliquez sur Enregistrer.
 11. Cliquez sur Configurer le fournisseur de données.

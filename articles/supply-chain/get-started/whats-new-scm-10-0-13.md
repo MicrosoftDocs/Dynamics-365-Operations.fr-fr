@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités préliminaires dans Dynamics 365 Supply Chain Management version 10.0.13 (octobre 2020)
+title: Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.13 (octobre 2020)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.13.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dae936ea9a72b865096cdda54d767f3e44816e20
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652233"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802941"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Fonctionnalités préliminaires dans Dynamics 365 Supply Chain Management version 10.0.13 (octobre 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.13 (octobre 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version préliminaire 10.0.13. Cette version a un numéro de build de 10.0.569 et est disponible comme suit : 
+Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version préliminaire 10.0.13. Cette version a un numéro de build de 10.0.569 et est disponible comme suit :
 
 - **Version préliminaire :** août 2020
 - **Disponibilité générale (auto-mise à jour) :** septembre 2020
@@ -61,7 +60,7 @@ Les fonctionnalités suivantes sont comprises dans cette version. Les titres des
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.13 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.13 des applications Finance and Operations (octobre 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-13.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.13 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.13 des applications Finance and Operations (octobre 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
