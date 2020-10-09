@@ -158,11 +158,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Créer et utiliser des champs personnalisés
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Incorporer Microsoft Power Apps
+                - name: Incorporer des applications canevas à partir de Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Rechercher des informations à l’aide des recherches
+                - name: Trouver des informations à l’aide des recherches
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Modification de la date d’une session
+                - name: Modifier la date d’une session
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer un fuseau horaire préféré de l’utilisateur
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/supply-chain/toc.json
@@ -1653,8 +1653,10 @@
           items:
             - name: Vue d’ensemble des approvisionnements
               href: procurement/procurement-sourcing-overview.md
-            - name: Workflow d’approvisionnements
+            - name: Workflow d’approvisionnement
               href: procurement/procurement-sourcing-workflows.md
+            - name: Résolution des problèmes des workflows d’approvisionnement
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Catalogues d’approvisionnement
               items:
                 - name: Vue d’ensemble des catalogues d’approvisionnement
@@ -1695,7 +1697,9 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Enregistrer la réception de marchandises sur la commande fournisseur
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
-            - name: Création de commande fournisseur
+                - name: Résoudre les problèmes de commandes fournisseur
+                  href: procurement/troubleshoot-purchaseorders.md
+            - name: Création de commandes fournisseur
               items:
                 - name: Créer des commandes fournisseur manuellement
                   href: procurement/purchase-order-creation.md
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Remises fournisseur
                   href: procurement/vendor-rebates.md
+                - name: 'Résoudre les problèmes de prix, de remises, d’accords et de rabais'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Politiques d’achat
               items:
                 - name: Vue d’ensemble des politiques d’achat
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Vue d’ensemble des factures fournisseur
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Résoudre les problèmes d’accusés de réception de marchandises et de facturation
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Gestion et collaboration fournisseur
               items:
                 - name: Paramétrer et mettre à jour la collaboration fournisseur
@@ -1763,9 +1771,11 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Importer les catalogues fournisseur
                   href: procurement/vendor-catalogs-import.md
-                - name: Paramétrer un catalogue externe pour PunchOut eProcurement
+                - name: Paramétrer un catalogue externe pour PunchOut e-procurement
                   href: procurement/set-up-external-catalog-for-punchout.md
-                - name: Utiliser des catalogues externes pour PunchOut eProcurement
+                - name: Améliorations des cXML d’achat
+                  href: procurement/purchasing-cxml-enhancements.md
+                - name: Utiliser des catalogues externes pour PunchOut e-procurement
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Espace de travail de collaboration fournisseur sur téléphone mobile
                   href: procurement/vendor-collaboration-mobile-workspace.md
@@ -2261,9 +2271,11 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Confirmer les commandes client
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Résoudre les problèmes de commandes client
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Contrats de vente
               items:
-                - name: Vue d’ensemble de des contrats de vente
+                - name: Vue d’ensemble des contrats de vente
                   href: sales-marketing/sales-agreements.md
                 - name: Entrer des contrats de vente
                   href: sales-marketing/tasks/enter-sales-agreements.md
@@ -2279,10 +2291,12 @@
               items:
                 - name: Simulation de prix
                   href: sales-marketing/price-simulation.md
-                - name: Création en masse de devis de vente
+                - name: Créer en masse des devis de vente
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Créer et modifier des devis de vente
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Résoudre les problèmes de devis de vente
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Retours
               items:
                 - name: Retours sur ventes
@@ -2807,18 +2821,20 @@
                   items:
                     - name: Installer et connecter l’application d’entreposage
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Lire les codes-barres à l’aide d’une caméra dans l’application d’entreposage
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Configurer les noms de champs dans l’application d’entreposage
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurer les appareils mobiles pour le travail d’entrepôt
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Lire les codes-barres à l’aide d’une caméra dans l’application d’entrepôt
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Réception du contenant avec l’application d’entreposage
+                    - name: Réception du contenant avec l'application d'entreposage
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Paramétrer une option de menu d’appareil mobile pour terminer le travail d’une commande fournisseur
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Paramétrer une option de menu d’appareil mobile pour enregistrer les articles reçus
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Configurer une option de menu d’appareil mobile pour fournir un aperçu des lignes de prélèvement
+                      href: warehousing/pick-line-overview.md
                     - name: Créer une option de menu pour appareil mobile pour la consolidation de contenants
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Réception d’un contenant mixte sur un appareil mobile

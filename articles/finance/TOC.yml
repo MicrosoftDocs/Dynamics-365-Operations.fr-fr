@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: "Finance\_10.0.12 (août\_2020)"
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: "Finance\_10.0.11 (juillet\_2020)"
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
                 - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Finance
@@ -160,11 +158,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Créer et utiliser des champs personnalisés
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Incorporer Microsoft Power Apps
+                - name: Incorporer des applications canevas à partir de Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
-                - name: Rechercher des informations à l’aide des recherches
+                - name: Trouver des informations à l’aide des recherches
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
-                - name: Modification de la date d’une session
+                - name: Modifier la date d’une session
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer un fuseau horaire préféré de l’utilisateur
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/finance/toc.json
@@ -1228,6 +1226,22 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Mises à jour réglementaires
               href: localizations/regulatory-updates.md
+            - name: Module complémentaire de facturation électronique
+              items:
+                - name: Vue d’ensemble du module complémentaire de facturation électronique
+                  href: localizations/e-invoicing-service-overview.md
+                - name: Créer un compte de stockage Azure et un Key Vault
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Prise en main du module complémentaire de facturation électronique
+                  href: localizations/e-invoicing-get-started.md
+                - name: Prise en main du module complémentaire de facturation électronique pour le Brésil
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: Prise en main du module complémentaire de facturation électronique pour l’Italie
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: Prise en main du module complémentaire de facturation électronique pour le Mexique
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: Paramétrer le module complémentaire de facturation électronique
+                  href: localizations/e-invoicing-setup.md
             - name: Australie
               items:
                 - name: Vue d’ensemble de l’Australie
@@ -1268,6 +1282,8 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Créer et transférer des transactions vers l’état BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: Exporter les écritures comptables
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: Déclaration de taxe INTERVAT
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: États de rapprochement
@@ -2036,7 +2052,9 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: Générer les données de l’état GSTR pour les déclarations fiscales
                       href: localizations/apac-ind-GST-tax-returns.md
-                    - name: Recherches de taxe
+                    - name: Activer le traitement multi-lots pour les états GSTR
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                    - name: Recherche de taxe
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: Moteur de taxe
                   items:
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: Concevoir des états multilingues
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Compresser des documents sortants volumineux
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Chemin relatif dans les liaisons de données
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Utiliser les solutions de gestion des états électroniques dans Finance and Operations
