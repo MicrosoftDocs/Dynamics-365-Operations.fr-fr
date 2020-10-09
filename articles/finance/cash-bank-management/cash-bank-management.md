@@ -1,7 +1,7 @@
 ---
 title: Page d'accueil de gestion de la trésorerie et de la banque
 description: Vous pouvez utiliser le module Gestion des fonds et des banques pour mettre à jour les comptes bancaires de l'entité juridique et les instruments financiers qui y sont associés.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: shylaw
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27811fc900cb497f62780a5185b20d4efbbbdba
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026289"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899616"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Page d'accueil de gestion de la trésorerie et de la banque
 
@@ -92,7 +92,7 @@ Accédez aux [Programmes de publication de Microsoft Dynamics 365](https://go.mi
 
 Vous trouverez des avis, des actualités et d'autres informations sur le [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) et le [Blog financier de Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-Le [blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de MBS Operations.
+Le [blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de Dynamics 365.
 
 #### <a name="task-guides"></a>Guides de tâche
 Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n'importe quelle page.
