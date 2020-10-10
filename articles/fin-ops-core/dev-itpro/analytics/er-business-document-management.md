@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
-ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
+ms.openlocfilehash: 65874e5ca73c18c3df7b94b8abb6eb15491482bf
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "3258555"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893133"
 ---
 # <a name="business-document-management-overview"></a>Vue d'ensemble du module Gestion de document commercial
 
@@ -31,7 +31,7 @@ ms.locfileid: "3258555"
 
 Les utilisateurs professionnels utilisent la structure de [Gestion des états électroniques (ER)](general-electronic-reporting.md) pour configurer des formats pour les documents sortants conformément aux obligations légales de différents pays/régions. Ils peuvent également définir le flux de données pour spécifier quelles données d'application placer dans les documents générés. La structure de gestion des états électroniques génère des documents sortants dans des formats Microsoft Office (des classeurs Excel ou des documents Word) à l'aide de modèles prédéfinis. Les modèles sont renseignés avec les données requises conformément au flux de données configuré pendant la génération des documents requis. Chaque format configuré peut être publié dans le cadre d'une solution de gestion des états électroniques pour générer les documents sortants spécifiques. Cela est représenté par une configuration de format ER qui peut contenir des modèles qui vous permettent de générer différents documents sortants. Les utilisateurs professionnels peuvent utiliser cette structure pour gérer les documents commerciaux requis.
 
-Le module **Gestion de document commercial** repose sur la structure d'ER et permet aux utilisateurs d'entreprise de modifier des modèles de documents commerciaux à l'aide du service Microsoft Office 365 ou de l'application de bureau Microsoft Office appropriée. Parmi les modifications apportées aux documents on trouve la modification des conceptions de documents commerciaux et l'ajout des espaces réservés pour les données supplémentaires sans modifier le code source ni faire de nouveaux déploiements. Aucune connaissance de la structure d'ER n'est nécessaire pour la mise à jour de modèles de documents commerciaux.
+Le module **Gestion de document commercial** repose sur la structure ER et permet aux utilisateurs professionnels de modifier des modèles de document commercial à l'aide du service Microsoft 365 ou de l'application de bureau Microsoft Office appropriée. Parmi les modifications apportées aux documents on trouve la modification des conceptions de documents commerciaux et l'ajout des espaces réservés pour les données supplémentaires sans modifier le code source ni faire de nouveaux déploiements. Aucune connaissance de la structure d'ER n'est nécessaire pour la mise à jour de modèles de documents commerciaux.
 
 > [!NOTE]
 > Notez que le module Gestion de document commercial permet de modifier les modèles utilisés pour produire des documents commerciaux, tels que les commandes, les factures, etc. Même si un modèle a été modifié et qu'une nouvelle version a été émise, cette version est utilisée pour générer les documents commerciaux requis. Le module Gestion de document commercial ne permet pas de modifier les documents commerciaux déjà générés.
@@ -170,7 +170,7 @@ Suivez les procédures suivantes pour définir les paramètres de base pour tout
 Le type de document sélectionné est spécifique à la société et sera utilisé lorsque l'utilisateur travaille avec le module Gestion de document commercial dans la société pour laquelle le type de document sélectionné est configuré. Lorsque l'utilisateur travaille avec le module Gestion de document commercial dans une autre société, le même type de document sélectionné est utilisé s'il a été configuré pour cette société. Lorsqu'un type de document a été configuré, il sera utilisé à la place de celui sélectionné dans le champ **Type de document SharePoint**.
 
 > [!NOTE]
-> Le paramètre **Type de document SharePoint** définit un dossier SharePoint comme stockage temporaire pour les modèles modifiables à l'aide de Microsoft Excel ou de Word. Vous devez configurer ce paramètre si vous prévoyez d'utiliser ces applications de bureau Office pour modifier des modèles. Pour plus d'informations, voir [Modifier un modèle dans l'application de bureau Office](#EditInOfficeDesktopApp). Vous pouvez laisser ce paramètre vide si vous prévoyez de modifier le modèle en utilisant uniquement les fonctionnalités d'Office 365. Pour plus d'informations, voir [Modifier un modèle dans Office 365](#EditInOffice365).
+> Le paramètre **Type de document SharePoint** définit un dossier SharePoint comme stockage temporaire pour les modèles modifiables à l'aide de Microsoft Excel ou de Word. Vous devez configurer ce paramètre si vous prévoyez d'utiliser ces applications de bureau Office pour modifier des modèles. Pour plus d'informations, voir [Modifier un modèle dans l'application de bureau Office](#EditInOfficeDesktopApp). Vous pouvez laisser ce paramètre vide si vous prévoyez de modifier le modèle en utilisant uniquement les fonctionnalités de Microsoft 365. Pour plus d'informations, voir [Modifier un modèle dans Microsoft 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurer les autorisations d'accès
 
@@ -295,13 +295,13 @@ L'option **Nouveau document**est toujours disponible pour un modèle dans une c
 
 5. Cliquez sur **OK** pour confirmer le début du processus de modification.
 
-La page **Éditeur de modèle BDM** s'ouvre. Le modèle sélectionné sera disponible pour la modification en ligne à l'aide de Office 365.
+La page **Éditeur de modèle BDM** s'ouvre. Le modèle sélectionné sera disponible pour la modification en ligne à l'aide de Microsoft 365.
 
 ![Page de l'espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name=""></a><a name="EditInOffice365">Modifier un modèle dans Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Modifier un modèle dans Microsoft 365</a>
 
-Vous pouvez modifier le modèle en utilisant Office 365. Par exemple, dans Office online, faites passer la police des invites de champ de l'en-tête de modèle de **Normal** à **Gras**. Ces modifications sont automatiquement stockées dans le modèle modifiable qui est stocké dans le principal stockage du modèle (par défaut, dans le stockage d'objets blob Azure). La configuration s'adresse à la structure ER.
+Vous pouvez modifier le modèle en utilisant Microsoft 365. Par exemple, dans Office online, faites passer la police des invites de champ de l'en-tête de modèle de **Normal** à **Gras**. Ces modifications sont automatiquement stockées dans le modèle modifiable qui est stocké dans le principal stockage du modèle (par défaut, dans le stockage d'objets blob Azure). La configuration s'adresse à la structure ER.
 
 ![Page de l'éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout2.png)
 
@@ -398,10 +398,10 @@ Lorsque vous modifiez le modèle provenant d'un format ER qui appartient au four
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>J'ai sélectionné **Modifier document**, mais plutôt que d'ouvrir la page **Éditeur de modèle BDM** dans Finance and Operations, je suis arrivé sur la page web d'Office 365.
-Il s'agit d'un problème connu avec la redirection Office 365. Cela se produit lorsque vous vous connectez à Office 365 la première fois. Pour contourner ce problème, sélectionnez le bouton **Précédent** de votre navigateur pour revenir en arrière.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page"></a>J'ai sélectionné **Modifier document**, mais plutôt que d'ouvrir la page **Éditeur de modèle BDM** dans Finance and Operations, je suis arrivé sur la page web Microsoft 365.
+Il s'agit d'un problème connu avec la redirection Microsoft 365. Cela se produit lorsque vous vous connectez à Microsoft 365 la première fois. Pour contourner ce problème, sélectionnez le bouton **Précédent** de votre navigateur pour revenir en arrière.
 
-#### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Je sais comment modifier un modèle à l'aide d'Office 365 dans la première session d'application et utiliser le modèle dans la deuxième session d'application en modifiant le modèle pour voir comment mes modifications affectent le document commercial généré. Puis-je effectuer cette opération à l'aide de l'application de bureau Office ?
+#### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Je sais comment modifier un modèle à l'aide de Microsoft 365 dans la première session d'application et utiliser le modèle dans la deuxième session d'application en modifiant le modèle pour voir comment mes modifications affectent le document commercial généré. Puis-je effectuer cette opération à l'aide de l'application de bureau Office ?
 Oui, vous pouvez. Dans la première session de l'application, sélectionnez **Ouvrir dans l'application de bureau**. Votre modèle sera stocké dans le stockage de fichier temporaire et ouvert dans l'application de bureau Office. Procédez ensuite comme suit pour prévisualiser les modifications apportées au modèle dans le document commercial généré :
 
 1. Apportez des modifications dans le modèle à l'aide de l'application de bureau Office.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0fc9877fdca2d2f85f4f9609616d8d21ab7b5174
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b0929b449f20e7340c3607d842b7c4f779cbb8fe
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771585"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893302"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenu Power BI Analyse de contrôle de gestion
 
@@ -44,8 +44,6 @@ En définissant la sécurité au niveau de l'accès dans le module Contrôle de 
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et l'implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
-
-<!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
 Veillez à télécharger le contenu **Analyse du contrôle de gestion** qui s'applique à la version de Microsoft Dynamics 365 que vous utilisez.
 

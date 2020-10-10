@@ -1,14 +1,14 @@
 ---
 title: Dimensions de produit
 description: 'Il existe cinq dimensions de produit : Couleur, Configuration, Taille, Style et Version. Vous combinez des dimensions de produit dans les groupes de dimensions et vous affectez des groupes de dimensions aux produits génériques. Les combinaisons de dimensions de produit déterminent la manière dont les variantes de produit sont définies.'
-author: cvocph
+author: t-benebo
 manager: tfehr
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
+ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -16,15 +16,15 @@ ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: conradv
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 72b8cd8149ab7b2074eb815231be348db62e282e
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657314"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895447"
 ---
 # <a name="product-dimensions"></a>Dimensions de produit
 
@@ -107,7 +107,7 @@ Lorsque vous testez la compatibilité de vos solutions avec la dimension de vers
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Plans :** Si des cartes utilisent les dimensions de stock, la mise en correspondance de relations correspondant à ces cartes doit être mis à jour afin qu’elles incluent la dimension de version. Dans le modèle étendu ou les extensions de table, recherchez les tables où les champs incluent des dimensions de stock.
-1. **Fonctionnalité Microsoft Dynamics 365 Commerce :** Une fois activée, la dimension de version apparaîtra tout au long du code spécifique à Commerce dans Dynamics 365 Supply Chain Management. Cependant, la dimension de version n’est pas encore prise en charge par la base de données du canal Commerce ou dans les applications de point de vente (PDV). Ce comportement ressemble au comportement actuel de la dimension de configuration dans Commerce.
+1. **Fonctionnalité Microsoft Dynamics 365 Commerce :** Une fois activée, la dimension de version apparaîtra tout au long du code spécifique à Commerce dans Dynamics 365 Supply Chain Management. Cependant, la dimension de version n’est pas encore prise en charge par la base de données du canal Commerce ou dans les applications de point de vente (PDV) ou de e-commerce. Ces applications spécifiques au commerce ne prendront pas en charge les ventes/expéditions aux utilisateurs ou les retours/réceptions de stock par dimension de version. Les fonctions de recherche de disponibilité du stock ne détecteront pas le stock par dimension de version dans les applications Commerce. Ce comportement ressemble au comportement actuel de la dimension de configuration dans Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Activer la dimension de la version
 

@@ -3,7 +3,7 @@ title: Présentation des états financiers
 description: Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 Finance et comment utiliser les fonctionnalités de génération d’états financiers.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696686"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835108"
 ---
 # <a name="get-started-with-financial-reporting"></a>Lancez-vous avec Financial Reporting 
 
@@ -148,10 +148,8 @@ Problème 1 : le Concepteur de rapports ne démarre pas lorsque vous sélectio
 * Dans Internet Explorer, sélectionnez **Paramètres**, puis sélectionnez **Options Internet**. Sélectionnez l’onglet **Sécurité**. Sélectionnez Sites de confiance, puis sélectionnez **Sites**. Dans la section **Ajouter ce site Web à la zone**, entrez « \*\.dynamics.com » (sans guillemets), puis sélectionnez **Ajouter**. 
 * Dans Internet Explorer, sélectionnez **Paramètres**, puis sélectionnez **Options Internet**. Sélectionnez l’onglet **Sécurité**. Sélectionnez Sites de confiance. Dans la zone intitulée Niveau de sécurité pour cette zone, modifiez l’option en **Moyen-faible**.
 * Désactivez le bloqueur de fenêtres publicitaires dans votre navigateur.
-* Des postes de travail sont requis pour l’installation de Visual Studio .NET 4.6.2 ou version supérieure.
-
-Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Si vous utilisez le navigateur Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur de rapports. Si vous utilisez le mode incognito, vérifiez que l’extension ClickOnce est activée pour le mode incognito. Si vous ne pouvez pas vous connecter avec Chrome, essayez de suivre les étapes de configuration décrites dans le Problème 1 en utilisant Internet Explorer ou Edge. 
+* Les postes de travail doivent installer Microsoft .NET Framework 4.6.2 ou version supérieure. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* Si vous utilisez le navigateur Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur de rapports. Si vous utilisez le mode incognito, vérifiez que l’extension ClickOnce est activée pour le mode incognito. Si vous ne pouvez pas vous connecter avec Chrome, essayez de suivre les étapes de configuration décrites dans le Problème 1 en utilisant Internet Explorer ou Microsoft Edge. 
 
 Problème 2 : l’utilisateur n’a pas reçu les autorisations requises pour utiliser Financial Reporting. 
 
