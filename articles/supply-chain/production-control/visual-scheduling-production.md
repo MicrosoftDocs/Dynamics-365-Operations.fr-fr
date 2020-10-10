@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210155"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887238"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Diagramme de Gantt pour la planification des tâches
 
@@ -38,7 +38,7 @@ Un diagramme de Gantt est une représentation visuelle des activités planifiée
 -   Tâches issues des ordres de fabrication planifiés.
 -   Activités de projet planifiées par tâche de type Prévisions en heures.
 
-Le diagramme de Gantt peut être ouvert dans deux vues différentes, la **Vue Commande** et la **Vue Ressource**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). Dans la **Vue Commande**, les activités sont regroupés sous des ordres de fabrication. Cela peut être utile, par exemple, si vous souhaitez avoir une vue d'ensemble de toutes les tâches appartenant aux mêmes ordres de fabrication. Dans la **Vue Ressource**, toutes les tâches sont regroupées sous des ressources individuelles. Cette vue peut être utile lors l'optimisation du plan au niveau d'une ressource, par exemple, un ordinateur ou un groupe d'ordinateurs. Les diagrammes de Gantt présentés dans les illustrations ci-dessous affichent la **Vue Commande** et la **Vue Ressource** avec les éléments clés suivants :
+Le diagramme de Gantt peut être ouvert dans deux vues différentes, la **Vue Commande** et la **Vue Ressource**. Dans la **Vue Commande**, les activités sont regroupés sous des ordres de fabrication. Cela peut être utile, par exemple, si vous souhaitez avoir une vue d'ensemble de toutes les tâches appartenant aux mêmes ordres de fabrication. Dans la **Vue Ressource**, toutes les tâches sont regroupées sous des ressources individuelles. Cette vue peut être utile lors l'optimisation du plan au niveau d'une ressource, par exemple, un ordinateur ou un groupe d'ordinateurs. Les diagrammes de Gantt présentés dans les illustrations ci-dessous affichent la **Vue Commande** et la **Vue Ressource** avec les éléments clés suivants :
 
 1.  Activité du diagramme de Gantt
 2.  Icône de pénurie de matières

@@ -3,7 +3,7 @@ title: Module du sélecteur de magasins
 description: Cette rubrique couvre le module du sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646133"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818248"
 ---
 # <a name="store-selector-module"></a>Module du sélecteur de magasins
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre le module du sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -65,7 +64,7 @@ Pour que ce scénario fonctionne, les produits doivent être configurés de sort
 
 L’image suivante montre un exemple de module du sélecteur de magasins utilisé sur un PDP.
 
-![Exemple d’un module du sélecteur de magasins](./media/BOPIS.PNG)
+![Exemple d’un module du sélecteur de magasins utilisé sur un PDP](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>Mode Recherche de magasins
 
@@ -73,7 +72,7 @@ Le module de sélection de magasin prend également en charge un mode **Recherch
 
 L’illustration suivante montre un exemple de module de sélection de magasin utilisé avec un module de carte sur une page d’emplacements de magasin.
 
-![Exemple d’un module du sélecteur de magasins](./media/ecommerce-Storelocator.PNG)
+![Exemple d'un module de sélection de magasin et d'un module de carte sur une page d'emplacements de magasin](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Afficher une carte
 
@@ -127,11 +126,11 @@ Pour configurer le module de sélection de magasin afin d’afficher les magasin
  
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble du kit de démarrage](starter-kit-overview.md)
+[Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
-[Module de zone d’achat](add-buy-box.md)
+[Module Zone d’achat](add-buy-box.md)
 
-[Module de panier](add-cart-module.md)
+[Module Panier](add-cart-module.md)
 
 [Visite rapide de PDP](quick-tour-pdp.md)
 

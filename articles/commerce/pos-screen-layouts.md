@@ -3,7 +3,7 @@ title: Configurations visuelles de l'interface utilisateur de PDV
 description: Cette rubrique fournit des informations sur les mises en page de l'écran pour les expériences pour PDV Dynamics 365 Commerce.
 author: boycezhu
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,15 +16,15 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycezhu
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505632"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834207"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurations visuelles de l'interface utilisateur de PDV
 
@@ -62,6 +62,8 @@ Les profils visuels sont affectés aux registres et ils spécifient les élémen
 > [!NOTE]
 > Le disposition **Droite** et l'affichage de la date/de l'heure ne s'appliquent pas à l'écran de connexion en vue compacte.
 
+Vous devez exécuter la tâche de programme de distribution **1090** (**Caisses enregistreuses**) pour synchroniser les dernières configurations de profil visuel avec la base de données des canaux.
+
 ## <a name="screen-layouts"></a>Mises en page de l'écran
 
 Les configurations de la mise en page de l'écran déterminent les actions, le contenu et le placement des contrôles de l'interface utilisateur dans l'écran **Accueil** et l'écran **Transaction**.
@@ -81,6 +83,8 @@ Les configurations de la mise en page de l'écran déterminent les actions, le c
 ### <a name="assignment"></a>Affectation
 
 Les mises en page de l'écran peuvent être affectées au magasin, au registre ou à l'utilisateur. L'affectation d'utilisateur remplace les affectations de registre et de magasin, et l'affectation de registre remplace l'affectation de magasin. Dans un scénario unique où tous les utilisateurs utilisent la même mise en page, quel que soit le registre ou le rôle, la mise en page de l'écran peut être paramétrée uniquement au niveau du magasin. Dans les scénarios où des registres ou utilisateurs spécifiques nécessitent des mises en page spécialisées, celles-ci peuvent être affectées.
+
+Selon le niveau auquel les dispositions d'écran sont attribuées, vous devez exécuter les tâches de programme de distribution **1070** (**Configuration des canaux**), **1090** (**Caisses enregistreuses**), et/ou **1060** (**Personnel**) pour synchroniser les dernières configurations de disposition d'écran avec la base de données des canaux.
 
 ### <a name="layout-sizes"></a>Tailles de mise en page
 

@@ -1,6 +1,6 @@
 ---
 title: Paramétrer un catalogue externe pour PunchOut eProcurement
-description: Cette rubrique décrit l'utilisation d'un catalogue externe ou catalogue de pointage pour collecter les informations de devis d'un fournisseur et les ajouter à une demande.
+description: Cette rubrique décrit l'utilisation d'un catalogue externe ou catalogue PunchOut pour collecter les informations de devis d'un fournisseur et les ajouter à une demande.
 author: mkirknel
 manager: tfehr
 ms.date: 11/02/2017
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28c9152996b7efc84b4259bd7323411df0b62258
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7aecc2c4786a1912bf5ae44f3949428c778f1df9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207805"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826826"
 ---
-# <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Paramétrer un catalogue externe pour PunchOut eProcurement
+# <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Paramétrer un catalogue externe pour PunchOut eProcurement
 
 [!include [banner](../includes/banner.md)]
 
@@ -42,7 +42,7 @@ Le catalogue externe permet à un employé qui entre une demande d'achat d'être
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Pour paramétrer un catalogue fournisseur externe, procédez comme suit :
 
 1. Paramétrez une hiérarchie des catégories d'approvisionnement. Pour plus d'informations, voir [Paramétrer des stratégies pour les hiérarchies de catégories d'approvisionnement](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Enregistrez le fournisseur dans Supply Chain Management. Avant de paramétrer des configurations pour accéder au catalogue d'un fournisseur externe, vous devez paramétrer le fournisseur et le contact chez le fournisseur dans Microsoft Dynamics 365. Le fournisseur du catalogue externe doit également être ajouté à la catégorie d'approvisionnement sélectionnée. Pour plus d'informations sur l'enregistrement des fournisseurs, voir [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md). Pour plus d'informations sur l'affectation des fournisseurs à une catégorie d'approvisionnement, voir [Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques](tasks/approve-vendors-specific-procurement-categories.md).
+2. Enregistrez le fournisseur dans Supply Chain Management. Avant de paramétrer des configurations pour accéder au catalogue d'un fournisseur externe, vous devez paramétrer le fournisseur et le contact associé dans Microsoft Dynamics 365. Le fournisseur du catalogue externe doit également être ajouté à la catégorie d'approvisionnement sélectionnée. Pour plus d'informations sur l'enregistrement des fournisseurs, voir [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md). Pour plus d'informations sur l'affectation des fournisseurs à une catégorie d'approvisionnement, voir [Approuver les fournisseurs pour des catégories d'approvisionnement spécifiques](tasks/approve-vendors-specific-procurement-categories.md).
 3. Vérifiez que les unités de mesure et la devise utilisées par le fournisseur sont paramétrées. Pour plus d'informations sur la création d'une unité de mesure, voir [Gérer des unités de mesure](../pim/tasks/manage-unit-measure.md).
 4. Configurez le catalogue fournisseur externe conformément aux exigences relatives au site de catalogue externe de votre fournisseur. Pour plus de détails sur cette tâche, voir [Configurer le catalogue fournisseur externe](#configure-the-external-vendor-catalog).
 5. Testez les configurations du catalogue externe du fournisseur pour vérifier que les paramètres sont valides et que vous pouvez accéder au catalogue externe du fournisseur. Utilisez l'action **Valider les paramètres** pour valider le message de paramétrage de la demande que vous avez défini. Ce message doit entraîner l'ouverture du site du catalogue externe du fournisseur dans une fenêtre du navigateur. Pendant la validation, il est impossible de commander des articles et des services au fournisseur. Pour commander des articles et des services, vous devez accéder au catalogue du fournisseur à partir d'une demande d'achat.
@@ -75,18 +75,19 @@ Vous trouverez ci-dessous une description des balises incluses dans le modèle 
 |---------|---------|
 |< Header >< From >< Credential domain=”” >|Domaine de la société de l'acheteur.|
 |< Header >< From >< Credential>< Identity >< /Identity > | Identité de la société de l'acheteur.|
-|< Header >< To >< Credential domain=”” > | Domaine de la société du vendeur.|
+|< Header >< To >< Credential domain=”” > | Domaine de la société du fournisseur.|
 |< Header >< To >< Credential>< Identity >< /Identity> | Identité de la société du fournisseur.|
 |< Header >< Sender >< Credential domain=”” > | Domaine de la société de l'acheteur.|
 |< Header >< Sender >< Credential >< Identity >< /Identity> | Identité de la société de l'acheteur.|
 |< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|Secret partagé pour la société de l'acheteur.|
 |< Request deploymentMode=”” >|Déploiement de test ou de production.|
-|< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|URL du point de terminaison de pointage du fournisseur.|
+|< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|URL du point de terminaison PunchOut du fournisseur.|
 
 ### <a name="extrinsic-elements"></a>Éléments extrinsèques
 
-Les informations supplémentaires représentent un élément extrinsèque, comme un nom d'utilisateur basé sur un utilisateur qui s'exécute. L'élément extrinsèque est défini lorsque l'exécution se produit et il peut être envoyé dans le message de configuration de la demande.
-Votre fournisseur peut exiger de recevoir un élément extrinsèque dans la demande de paramétrage. Dans ce cas, vous devez ajouter l'élément extrinsèque à la liste des éléments extrinsèques dans la section **Format du message** de la page **Catalogue externe**. Spécifiez un nom pour l'élément extrinsèque que le fournisseur peut identifier, et mettez-le en correspondance avec une valeur. Les options pour les valeurs sont : Nom d'utilisateur, E-mail de l'utilisateur ou Valeur aléatoire.
+Les informations supplémentaires représentent un élément extrinsèque, comme un nom d'utilisateur basé sur un utilisateur qui exécute un pointage. L'élément extrinsèque est défini lorsque le PunchOut se produit et il peut être envoyé dans le message de configuration de la demande.
+Votre fournisseur peut exiger de recevoir un élément extrinsèque dans la demande de paramétrage. Dans ce cas, vous devez ajouter l'élément extrinsèque à la liste des éléments extrinsèques dans la section **Format du message** de la page **Catalogue externe**.
+Spécifiez un nom pour l'élément extrinsèque que le fournisseur peut identifier, et mettez-le en correspondance avec une valeur. Les options pour les valeurs sont : Nom d'utilisateur, E-mail de l'utilisateur ou Valeur aléatoire.
 Pour plus d'informations sur le protocole cXML, voir le [site web cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Message de publication
@@ -109,3 +110,7 @@ Supprimez un catalogue externe avec l'action Supprimer sur la page.
 
 Si un produit figurant dans le catalogue fournisseur externe a été demandé, ce catalogue ne peut pas être supprimé. En revanche, le statut du catalogue fournisseur externe est défini sur Inactif. Si vous souhaitez supprimer l'accès au site du catalogue fournisseur externe sans supprimer ce dernier, modifiez le statut du catalogue externe sur Inactif.
 
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Améliorations des cXML d’achat](purchasing-cxml-enhancements.md)
+- [Utiliser des catalogues externes pour PunchOut eProcurement](use-external-catalogs-for-punchout.md)

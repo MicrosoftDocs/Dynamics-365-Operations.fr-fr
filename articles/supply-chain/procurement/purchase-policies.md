@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207900"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830747"
 ---
 # <a name="purchasing-policies-overview"></a>Vue d'ensemble des politiques d'achat
 
@@ -102,9 +102,9 @@ Elle définit les critères de demande de devis pour une ligne de demande d'acha
 
 ### <a name="purchase-requisition-control-rule"></a>Règle de contrôle de demande d'achat
 
-La règle de contrôle de demande d'achat est une règle facultative. Lorsque vous créez des règles de ce type, vous pouvez définir des options dans divers onglets :
+La règle de contrôle de demande d'achat pour les demandes de type **consommation** est une règle facultative. Lorsque vous créez des règles de ce type, vous pouvez définir des options dans divers onglets :
 
--   Sous l'onglet **Soumission du workflow**, vous pouvez configurer les champs devant être saisis sur la ligne de demande d'achat pour que cette dernière soit soumise à approbation lorsque son objectif est la **consommation**.
+-   Sous l'onglet **Soumission du workflow**, vous pouvez configurer les champs devant être saisis sur la ligne de demande d'achat pour que cette dernière soit soumise à approbation.
 -   Sous l'onglet **Quantités de commande**, vous pouvez configurer les champs requis sur la demande d'achat dans certaines conditions. Vous pouvez également appliquer des quantités de commande.
 -   Sous l'onglet **Dates**, vous pouvez configurer si la date comptable est identique à la date demandée
 -   Sous l'onglet **Adresse**, vous pouvez définir si l'utilisateur est autorisé à créer de nouvelles adresses dans le système à appliquer dans la demande d'achat.
@@ -132,7 +132,7 @@ La règle de création des commandes fournisseur et de consolidation de la deman
 
     Vous pouvez également autoriser le demandeur à modifier la méthode transfert de prix et de remise pour des lignes de demande d'achat spécifiques, indépendamment de la règle de transfert de prix/remise définie. Sélectionnez l'option **Autoriser le remplacement manuel par ligne de demande d'achat** si vous souhaitez activer cette fonctionnalité.
 -   Sous l'onglet **Transfert de description de l'article**, vous pouvez transférer la description d'article de la demande d'achat lorsque celle-ci provient d'une demande de devis.
--   Sous l'onglet **Tolérance de prix**, vous pouvez identifier des règles de tolérance de prix pour que les demandes d'achat approuvées soient à nouveau transmises au processus de révision lorsque le prix d'un article du catalogue d'approvisionnement augmente. Définissez le montant maximal dont le montant net d'une ligne de la demande d'achat peut augmenter entre le moment où la demande d'achat est approuvée et le moment où la commande fournisseur est créée. Le montant net est calculé à l'aide de la formule suivante : (\[Quantité × (prix unitaire - remise) ÷ prix unitaire\] + Diverses charges liées à l'achat) × 100 - Pourcentage de la remise) ÷ 100 Les lignes de la demande d'achat qui dépassent la tolérance du prix que vous définissez sont conservées pour traitement manuel. Les règles configurées sous l'onglet **Erreur lors du traitement** déterminent la façon dont les lignes de demande d'achat sont traitées.
+-   Sous l'onglet **Tolérance de prix**, vous pouvez identifier des règles de tolérance de prix pour que les demandes d'achat approuvées soient à nouveau transmises au processus de révision lorsque le prix d'un article du catalogue d'approvisionnement augmente. Définissez le montant maximal dont le montant net d'une ligne de la demande d'achat peut augmenter entre le moment où la demande d'achat est approuvée et le moment où la commande fournisseur est créée. Le montant net est calculé à l'aide de la formule suivante : (\[Quantité × (prix unitaire - remise) ÷ prix unitaire\] + Diverses charges liées à l'achat) × (100 - Pourcentage de la remise) ÷ 100 Les lignes de la demande d'achat qui dépassent la tolérance du prix que vous définissez sont conservées pour traitement manuel. Les règles configurées sous l'onglet **Erreur lors du traitement** déterminent la façon dont les lignes de demande d'achat sont traitées.
 -   Sous l'onglet **Erreur lors du traitement**, vous pouvez configurer la règle de traitement appliquée à une demande d'achat dont la validation a échoué lors de la création d'une commande fournisseur du fait d'une erreur de fournisseur ou de tolérance de prix. Permet de sélectionner l'une des options suivantes :
     -   **Aucune action** – Les lignes de demande d'achat restent sur la page **Publier les demandes d'achat approuvées**. Le statut des lignes de demande d'achat reste **Approuvé**. Toutefois, les erreurs doivent être résolues pour qu'une commande fournisseur soit générée pour toutes les lignes de demande d'achat.
     -   **Annuler la ligne de demande d'achat** - Les lignes de demande d'achat sont annulées. Si le demandeur souhaite demander ces lignes, il peut créer une demande d'achat pour les lignes annulées.

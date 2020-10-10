@@ -3,7 +3,7 @@ title: Module de bannière promotionnelle
 description: Cette rubrique couvre les modules de bannière promotionnelle et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411363"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817252"
 ---
 # <a name="promo-banner-module"></a>Module de bannière promotionnelle
 
@@ -87,9 +87,9 @@ Pour ajouter un module de bannière promotionnelle à une page et définir les p
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
+[Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
-[Module de carrousel](add-carousel.md)
+[Module Carrousel](add-carousel.md)
 
 [Module de bloc de texte](add-content-rich-block.md)
 

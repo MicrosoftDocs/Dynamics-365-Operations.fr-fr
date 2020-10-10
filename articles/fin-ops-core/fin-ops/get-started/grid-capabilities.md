@@ -3,7 +3,7 @@ title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. La nouvelle fonction de grille doit être activée pour avoir accès à ces capacités.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760397"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835084"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -33,6 +33,7 @@ Le nouveau contrôle de grille fournit un certain nombre de fonctionnalités uti
 -  Saisie avant le système
 -  Évaluation des expressions mathématiques 
 -  Regroupement des données tabulaires (activé séparément à l’aide de la fonctionnalité **(Version préliminaire) Regroupement en grilles**)
+-  Colonnes système épinglées
 
 ## <a name="calculating-totals"></a>Calcul des totaux
 Dans les applications Finance and Operations, les utilisateurs ont la possibilité de voir les totaux au bas des colonnes numériques dans les grilles. Ces totaux sont indiqués dans une section de pied de page au bas de la grille. 
@@ -119,12 +120,19 @@ De la même manière que vous pouvez sélectionner (ou désélectionner) toutes 
 ### <a name="hiding-column-names"></a>Masquer les noms de colonnes
 Lors du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. À compter de la version 10.0.14/Platform update 38, vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
 
+## <a name="pinned-system-columns"></a>Colonnes système épinglées
+La colonne de sélection de ligne et la colonne de statut de ligne dans la nouvelle grille sont épinglées ou figées dans la partie la plus à gauche de la grille. Par conséquent, lorsque ces colonnes sont incluses dans une grille, elles seront toujours visibles pour l'utilisateur, quelle que soit la position de défilement horizontal dans la grille.   
+
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Comment activer le nouveau contrôle de grille dans mon environnement ? 
 
-**10.0.9/Mise à jour de la plateforme 33 et ultérieure** La fonctionnalité **Nouveau contrôle de grille** est disponible directement dans la gestion des fonctionnalités de tout environnement. Comme les autres fonctionnalités d’aperçu public, l’activation de cette fonctionnalité en production est soumise à l’[accord supplémentaire Conditions d’utilisation](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / Platform update 33 et versions ultérieures**
 
-**10.0.8/Platform Update 32 et 10.0.7/Platform Update 31** La fonctionnalité **Nouveau contrôle de grille** peut être activée dans les environnements de niveau 1 (développement/test) et de niveau 2 (bac à sable) afin de fournir des tests et des modifications de conception supplémentaires en suivant les étapes ci-dessous.
+La fonctionnalité **Nouveau contrôle de grille** est disponible directement dans la gestion des fonctionnalités de tout environnement. Comme les autres fonctionnalités d’aperçu public, l’activation de cette fonctionnalité en production est soumise à l’[accord supplémentaire Conditions d’utilisation](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / Platform update 32 et 10.0.7 / Platform update 31**
+
+La fonctionnalité **Nouveau contrôle de grille** peut être activée dans les environnements de niveau 1 (développement/test) et de niveau 2 (bac à sable) afin de fournir des tests et des modifications de conception supplémentaires en suivant les étapes ci-dessous.
 
 1.  **Activer la version d’évaluation** : Exécutez l’instruction SQL suivante : 
 
@@ -139,11 +147,14 @@ Lors du regroupement de données, le comportement par défaut consiste à affich
 Toutes les sessions utilisateur suivantes démarreront avec le nouveau contrôle de grille activé.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Développeur] Empêcher des pages individuelles d’utiliser la nouvelle grille 
-Si votre organisation découvre une page qui n’arrive pas à utiliser la nouvelle grille, une API est disponible pour autoriser un formulaire individuel à utiliser le contrôle de grille hérité tout en autorisant le reste du système à utiliser le nouveau contrôle de grille. Pour désactiver une page individuelle dans la nouvelle grille, ajoutez le message d’appel suivant `super()` dans la méthode `run()` du formulaire.
+Si votre organisation découvre une page qui n’arrive pas à utiliser la nouvelle grille, une API est disponible à partir de la version 10.0.13/Platform update 37 pour autoriser un formulaire individuel à utiliser le contrôle de grille hérité tout en autorisant le reste du système à utiliser le nouveau contrôle de grille. Pour désactiver une page individuelle dans la nouvelle grille, ajoutez le message d’appel suivant `super()` dans la méthode `run()` du formulaire.
 
  ```this.forceLegacyGrid();```
 
-Cette API sera disponible jusqu’à la version d’octobre 2021 lorsque le nouveau contrôle de grille deviendra obligatoire. Veuillez signaler à Microsoft tout problème qui nécessite l’utilisation de cette API. 
+Cette API sera disponible jusqu’à la version d’octobre 2021, lorsque le nouveau contrôle de grille deviendra obligatoire. Si des problèmes nécessitent l'utilisation de cette API, signalez-les à Microsoft.
+
+## <a name="developer-size-to-available-width-columns"></a>[Développeur] Ajuster à disponible la largeur des colonnes
+Si un développeur définit la propriété **WidthMode** sur **Ajuster à disponible** pour les colonnes à l'intérieur de la nouvelle grille, ces colonnes ont initialement la même largeur qu'elles auraient si la propriété était définie sur **Ajuster à disponible**. Cependant, elles s'étirent pour utiliser toute largeur supplémentaire disponible à l'intérieur de la grille. Si la propriété est définie sur **Ajuster à disponible** pour plusieurs colonnes, toutes ces colonnes partagent la largeur supplémentaire disponible à l'intérieur de la grille. Cependant, si un utilisateur redimensionne manuellement l'une de ces colonnes, la colonne devient statique. Elle restera à cette largeur et ne s'étirera plus pour prendre la largeur de grille supplémentaire disponible.  
 
 ## <a name="known-issues"></a>Problèmes connus
 Cette section contient une liste des problèmes connus concernant le nouveau contrôle de grille lorsque la fonctionnalité est dans un état d’aperçu.  

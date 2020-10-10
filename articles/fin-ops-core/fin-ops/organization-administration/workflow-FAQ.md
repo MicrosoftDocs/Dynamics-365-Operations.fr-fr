@@ -3,7 +3,7 @@ title: FAQ Workflow
 description: Cette rubrique répond à des questions fréquentes sur le système de workflow.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076084"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826188"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
@@ -58,3 +58,5 @@ Lors de l'exécution sous Active Directory Federation Services (AD FS) dans un e
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Pourquoi des blocages SQL se produisent-ils lors du traitement du workflow ? 
 La valeur de champ par défaut pour le **Nombre d'éléments de workflow par traitement par lots** sur la page **Paramètres de workflow** est 0. Une valeur de 0 entraîne la modification de la valeur par défaut à 20 éléments par traitement par lots. Soyez prudent lorsque vous ajustez cette valeur, car un nombre élevé d'éléments par traitement par lots (> 40) peut entraîner des blocages SQL.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>Qu'est-ce que la fonction Erreur de workflow améliorée ?
+La fonction Erreur de workflow améliorée de la version 10.0.13 ajoute des codes d'erreur pour différencier les différentes classes d'erreurs de workflow. Les messages d'erreur signalés seront pour la plupart similaires avec des différences mineures pour les rendre plus clairs.

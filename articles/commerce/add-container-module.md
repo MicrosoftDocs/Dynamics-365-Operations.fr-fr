@@ -3,7 +3,7 @@ title: Module Container
 description: Cette rubrique couvre les modules de conteneur et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417344"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817400"
 ---
 # <a name="container-module"></a>Module Container
 
@@ -123,13 +123,13 @@ Pour ajouter un module de lecteur de conteneur à une nouvelle page et définir 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
+[Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
-[Module d'accordéon](add-accordion.md)
+[Module Accordéon](add-accordion.md)
 
-[Module d'onglet](add-tab.md)
+[Module Onglet](add-tab.md)
 
-[Module de carrousel](add-carousel.md)
+[Module Carrousel](add-carousel.md)
 
 [Module de bloc de texte](add-content-rich-block.md)
 
