@@ -3,7 +3,7 @@ title: Pages et modules de gestion de compte
 description: Cette rubrique couvre les pages et les modules de gestion de compte dans Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025684"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817156"
 ---
 # <a name="account-management-pages-and-modules"></a>Pages et modules de gestion de compte
-
 
 [!include [banner](includes/banner.md)]
 
@@ -75,15 +74,15 @@ Pour rejoindre le programme de fidélité, une page marketing peut être créée
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
+[Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
-[Module de conteneur](add-container-module.md)
+[Module Conteneur](add-container-module.md)
 
-[Module Zone d'achat](add-buy-box.md)
+[Module Zone d’achat](add-buy-box.md)
 
 [Module Panier](add-cart-module.md)
 
-[Module Paiement](add-checkout-module.md)
+[Module Validation](add-checkout-module.md)
 
 [Module Confirmation de commande](order-confirmation-module.md)
 

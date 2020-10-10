@@ -1,6 +1,6 @@
 ---
 title: Catalogue d’apprentissage pour administrateurs de Dynamics 365 Commerce
-description: Découvrez toutes les options d’apprentissage pour Dynamics 365 Commerce.
+description: Trouvez toutes les options de formation pour le rôle d'administrateur dans Dynamics 365 Commerce.
 author: margoc
 ms.topic: article
 ms.date: 07/23/2020
@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a6e0b6103bf453b74ae485f06bf139b13bae7b2
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: fc4df1c7fc47608300d705616768b6c8ef135652
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793391"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821202"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Catalogue d’apprentissage pour les administrateurs de Dynamics 365 Commerce
 
@@ -39,7 +39,7 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 | Contenu  | Description   | Format  | Longueur    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Déployer Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/)                                    | Ce parcours d’apprentissage décrit comment déployer des environnements Dynamics 365 Commerce et effectuer des étapes post-mise en service pour des implémentations réussies de Commerce en utilisant la topologie adaptée aux besoins de chaque détaillant.                               | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5 heures   |
+| [Déployer et étendre Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Ce parcours d’apprentissage décrit comment déployer des environnements Dynamics 365 Commerce et effectuer des étapes post-mise en service pour des implémentations réussies de Commerce en utilisant la topologie adaptée aux besoins de chaque détaillant. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5 heures   |
 | [Configurer et utiliser le point de vente (PDV) dans Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-use-pos-commerce/)         | Les données transactionnelles sont créées dans le point de vente (PDV), puis téléchargées vers Dynamics 365 Commerce Headquarters pour traitement. Ce parcours d’apprentissage décrit l’installation et l’activation du PDV, ainsi que la création de transactions quotidiennes dans le PDV. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 4.5 heures |
 | [Configurer et utiliser les centres d’appels dans Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce est une solution omnicanale qui permet à un centre d’appel de définir par défaut des paramètres spécifiques de traitement des commandes et des données par défaut aux commandes ventes créées par les utilisateurs du centre d’appel.                                  | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 2 heures   |
 

@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 44c8f3ed76698bb4b70d767d9c8881024699552f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: acf7df09b467e0b0b0463946be018ff199d7153e
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203446"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834258"
 ---
 # <a name="vendor-rebates"></a>Remises fournisseur
+
 [!include [banner](../includes/banner.md)]
 
 Les remises fournisseur aident au mieux les sociétés à gérer leurs programmes de remise fournisseur en automatisant les tâches nécessaires afin d'administrer, de suivre et de réclamer les remises dues.
@@ -50,6 +51,7 @@ Les personnes qui occupent ces postes recherchent des moyens d'atteindre divers 
 - Avoir une base quantifiée pour les négociations en cours et à venir avec les fournisseurs sur les remises.
 
 ## <a name="review-details-of-a-vendor-rebate-agreement"></a>Détails de révision d'un accord de remise fournisseur
+
 Un accord de remise fournisseur est un enregistrement d'un contrat avec un fournisseur qui spécifie les conditions négociées sous lesquelles la société bénéficie d'une récompense monétaire avec pour contrepartie d'accomplir les cibles d'achat prédéfinies. Les accords de remise fournisseur sont enregistrés sur la page **Accords de remise**.
 
 Pour ouvrir la page **Accords de remise fournisseur**, sélectionnez **Approvisionnements** &gt; **Remises fournisseur** &gt; **Accords de remise**.
@@ -60,7 +62,9 @@ Sur la page **Accords de remise fournisseur**, vous pouvez afficher les détails
 
 L'en-tête de l'accord spécifie les conditions générales qui qualifient une société pour les remises. En effet, les informations d'en-tête indiquent qu'un fournisseur octroie une remise lorsqu'un produit spécifique est acheté dans une quantité spécifique. Dans l'en-tête, vous devez également spécifier l'option de remise de l'unité de mesure et le type de date de calcul.
 
-- Dans l'onglet **Général**, dans le champ **Option de remise de l'unité de mesure**, vous pouvez définir si une unité de mesure doit être une condition pour que la ligne de commande fournisseur soit qualifiée pour une réclamation de remise. 
+- Sur l'onglet **Vue d'ensemble**, si vous avez des lignes avec **Code de l'article** défini sur *table* pour spécifier l'article, alors l'accord est pour cet article spécifique. Si vous avez des lignes avec **Code de l'article** défini sur *Groupe* ou *Tous* pour spécifier les articles, l'accord de remise fournisseur sera traité individuellement par article éligible pour le code article, et non pour tous les articles éligibles pour le code article.
+
+- Dans l'onglet **Général**, dans le champ **Option de remise de l'unité de mesure**, vous pouvez définir si une unité de mesure doit être une condition pour que la ligne de commande fournisseur soit qualifiée pour une réclamation de remise.
 
     - **Convertir** – Une ligne de commande fournisseur bénéficie d'une remise fournisseur par accord de remise. Vous recevrez une remise indépendamment de l'unité de mesure appliquée à la ligne.
     - **Correspondance parfaite** – Pour bénéficier d'une remise, une ligne d'achat doit avoir la même unité de mesure que celle spécifiée dans l'accord.
@@ -97,6 +101,7 @@ Dans les lignes d'accord, vous pouvez spécifier l'accord de remise fournisseur 
 Lorsque des commandes fournisseur sont passées par un fournisseur avec lequel la société possède un accord de remise, le programme identifie les futurs paiements de crédit fournisseur. Si les commandes fournisseur peuvent bénéficier d'une remise, une réclamation de remise est générée pour chaque ligne de commande dès qu'une facture d'achat est validée. Ce processus est automatique. Ensuite, vous pouvez examiner les remises prévues et voir l'impact de ces remises sur le coût et la marge bénéficiaire du produit.
 
 ### <a name="view-details-of-rebates-that-are-applied-to-a-purchase-order-line-per-the-vendor-rebate-agreement"></a>Afficher les détails des remises appliquées à une ligne de commande fournisseur par accord de remise fournisseur
+
 1. Sur la page **Commande fournisseur**, sélectionnez une ligne de commande, puis sélectionnez &gt; **Ligne de commande fournisseur** **Affichage** &gt; **Détails de prix**.
 2. Sur la page **Détails de prix**, sélectionnez l'organisateur **Remises**.
 
@@ -106,15 +111,18 @@ Les informations de remise s'affichent également dans le champ **Remise fournis
 > Sur la page **Paramètres d'approvisionnement**, sous l'onglet **Prix**, vérifiez que l'option **Activer les détails de prix** est définie sur **Oui**. Si l'option est définie sur **Non**, vous ne pourrez pas afficher les remises.
 
 ## <a name="review-and-approve-claims"></a>Réviser et approuver les réclamations
+
 Les réclamations de remise générées représentent les futurs paiements qui peuvent être attendus du fournisseur. Avant qu'un avoir ne soit émis au fournisseur, le propriétaire de l'accord veut généralement examiner les réclamations et les approuver. Toutefois, notez que le statut d'une réclamation détermine si la réclamation est prête à passer par le processus d'approbation.
 
 ### <a name="the-status-of-claims-and-the-effect-on-the-approval-process"></a>Statut des réclamations et effet sur le processus d'approbation
+
 Lorsqu'une réclamation est générée, son statut est défini sur **À calculer** si la remise est accordée sur une base cumulative ou **Calculé** si la remise est octroyée par facture. Si le statut d'une réclamation est **À calculer**, la réclamation doit passer par un processus de calcul qui est assuré par la fonction Cumuler. Seules les réclamations qui ont un statut **Calculé** peuvent être incluses dans le processus d'approbation.
 
 > [!NOTE]
 > Si l'option **Approbation obligatoire** sur un accord de remise du fournisseur est définie sur **Non**, toutes les réclamations générées auront un statut **Approuvé**. L'approbation est obligatoire pour les réclamations qui sont octroyées sur une base cumulative.
 
 ### <a name="approve-claims-and-view-postings-and-invoice-details"></a>Approuver les réclamations et afficher les validations et détails de facture
+
 Lorsque des réclamations ont été approuvées, elles peuvent être traitées par le service Comptabilité fournisseur. Un avoir (facture fournisseur) pour le montant de réclamation de remise est généré automatiquement. Le crédit peut ensuite être ajouté au solde fournisseur, et l'équipe du service Comptabilité fournisseur peut l'inclure dans le processus de règlement habituel.
 
 1. Sélectionnez **Approvisionnements** &gt; **Remises fournisseur** &gt; **Réclamations de remise** pour ouvrir une réclamation de remise.
@@ -153,6 +161,7 @@ Lorsque des réclamations ont été approuvées, elles peuvent être traitées p
 9. Sur la page **Tous les fournisseurs**, sélectionnez le fournisseur qui vous émet une remise, puis dans le volet Actions, sélectionnez **Transactions**. Recherchez la ligne de la facture. Le montant de la remise est désormais ajouté au solde fournisseur.
 
 ## <a name="summary"></a>Synthèse
+
 Le processus de gestion des remises fournisseur implique plusieurs tâches de suivi manuelles qui sont souvent pénibles. En automatisant ces tâches, la fonctionnalité de gestion des remises fournisseur peut vous aider à effectuer les processus suivants :
 
 - Génération de réclamations de remise précises

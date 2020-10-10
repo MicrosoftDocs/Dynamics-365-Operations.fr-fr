@@ -3,7 +3,7 @@ title: Vue d'ensemble des pages de panier et de caisse
 description: Cette rubrique fournit une vue d'ensemble des pages de caisse et de panier dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527560"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817776"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Vue d'ensemble des pages de panier et de caisse
 
@@ -40,7 +40,7 @@ La page de caisse d'un site web de commerce électronique présente un flux pas-
 
 La page du panier sert de sac à provisions et inclut tous les articles ajoutés au panier.
 
-L'illustration suivante affiche un exemple de page de panier qui a été générée à l'aide du kit de démarrage en ligne et le thème « Fabrikam ».
+L'illustration suivante affiche un exemple de page de panier qui a été générée à l'aide de la bibliothèque de modules et du thème « Fabrikam ».
 
 ![Exemple d'une page de panier](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Pour plus d'informations sur la création d'une page de panier, voir [Ajout d'un
 
 La page de caisse est celle où les clients entrent des informations requises pour passer une commande.
 
-L'illustration suivante affiche un exemple de page de caisse qui a été générée à l'aide du kit de démarrage en ligne.
+L'illustration suivante affiche un exemple de page de paiement qui a été générée à l'aide de la bibliothèque de modules.
 
 ![Exemple d'une page de caisse](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ Le corps principal de la page de caisse est là où toutes les informations de l
 
 Une adresse d'expédition est obligatoire si les articles doivent être expédiés. Le format des adresses d'expédition pour chaque paramètre régional peut être configuré dans Dynamics 365 Commerce. Par exemple, si les articles sont expédiés aux États-Unis, l'adresse d'expédition doit inclure une adresse postale, un État, et le code postal. Une validation de la saisie de base est effectuée pour les champs d'adresse d'expédition, telle que le contrôle des caractères alphanumériques, de la longueur maximale, et des numéros. Bien que la validité de l'adresse elle-même ne soit pas vérifiée, cette vérification peut être effectuée à l'aide de services tiers personnalisés.
 
-L'adresse de livraison est appliquée à tous les articles du panier pour lesquels l'option « expédier » est activée. Si vous utilisez le flux de caisse fourni dans le kit de démarrage en ligne, différents articles du panier ne peuvent pas être expédiés à certaines adresses. Si vous avez besoin de cette fonctionnalité, elle peut être mise en service via la personnalisation des modules de caisse.
+L'adresse de livraison est appliquée à tous les articles du panier pour lesquels l'option « expédier » est activée. Si vous utilisez le flux de paiement fourni dans la bibliothèque de modules, des articles individuels du panier ne peuvent pas être expédiés à certaines adresses. Si vous avez besoin de cette fonctionnalité, elle peut être mise en service via la personnalisation des modules de caisse.
 
 Une fois l'adresse d'expédition fournie, les méthodes d'expédition qui sont disponibles dans le magasin en ligne Dynamics 365 Commerce sont affichées. Les modes d'expédition et les adresses qu'elles prennent en charge peuvent être configurées dans Commerce.
 
@@ -80,7 +80,7 @@ Au cours du flux de caisse, un client qui est membre d'un programme de fidélit�
 
 #### <a name="gift-cards"></a>Cartes cadeaux
 
-Le kit de démarrage en ligne permet d'échanger des cartes cadeaux pour une commande. Pour appliquer une carte cadeau interne, le client doit être connecté. Pour une sécurité supplémentaire, nous vous recommandons de personnaliser le flux à l'aide d'un code PIN pour les cartes cadeaux internes.
+La bibliothèque de modules permet d'échanger des cartes cadeaux pour une commande. Pour appliquer une carte cadeau interne, le client doit être connecté. Pour une sécurité supplémentaire, nous vous recommandons de personnaliser le flux à l'aide d'un code PIN pour les cartes cadeaux internes.
 
 ### <a name="signed-in-and-guest-users"></a>Utilisateurs connectés et invités
 

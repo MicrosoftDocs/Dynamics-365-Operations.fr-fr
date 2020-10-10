@@ -3,7 +3,7 @@ title: Refuser les recommandations personnalisées
 description: Cette rubrique explique comment vous pouvez laisser les clients refuser la réception des recommandations personnalisées dans Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51c8c0e2743b67df9d66a8c45ab7a69597f4002
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664928"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817521"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Refuser les recommandations personnalisées
 
@@ -74,7 +74,7 @@ L'exemple suivant montre comment un détaillant peut réaliser cette tâche.
 1. Le détaillant crée une extension personnalisée pour extraire les données de recommandations personnelles pour le compte de l'utilisateur. Pour des informations sur la création de modules, le clonage des modules existants, l'appel des API Retail Server et l'appel des actions de données, voir [Extensibilité des canaux en ligne](e-commerce-extensibility/overview.md).
 2. L'extension personnalisée appelle l'action de données essentielles **get-recommendations** et lui transmet les informations requises selon les exigences de la liste. Pour la liste **Des choix pour vous**, l'extension doit transmettre le nom de liste et l'ID client corrects à l'action de données.
 
-    Une façon de créer l'extension personnalisée consiste à cloner le module de collecte de produits existant qui est utilisé pour renvoyer les résultats des recommandations. En clonant ce module existant, un détaillant peut modifier le code existant et ajouter un nouveau bouton qui exporte les résultats des recommandations vers un fichier CSV. Pour plus d'informations, voir [Cloner un module de kit de démarrage](e-commerce-extensibility/clone-starter-module.md) et [Modules de collecte de produits](product-collection-module-overview.md).
+    Une façon de créer l'extension personnalisée consiste à cloner le module de collecte de produits existant qui est utilisé pour renvoyer les résultats des recommandations. En clonant ce module existant, un détaillant peut modifier le code existant et ajouter un nouveau bouton qui exporte les résultats des recommandations vers un fichier CSV. Pour plus d'informations, voir [Cloner un module de bibliothèque de modules](e-commerce-extensibility/clone-starter-module.md) et [Modules de collecte de produits](product-collection-module-overview.md).
 
     Pour une vue complète de la bibliothèque des API Retail Server, voir [API client et client de Retail Server](dev-itpro/retail-server-customer-consumer-api.md).
 

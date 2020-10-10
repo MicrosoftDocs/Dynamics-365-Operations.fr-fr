@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772556"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893277"
 ---
 # <a name="document-printing-overview"></a>Vue d'ensemble de l'impression de document
 
@@ -52,7 +52,7 @@ Le tableau suivant décrit les trois principaux scénarios d'impression.
 Comme la solution varie, selon le scénario, les applications fournissent des services et des outils intégrés pour aider les utilisateurs à atteindre leurs objectifs :
 
 - Le **Scénario 1** est pris en charge par le rendu du client HTML5 du navigateur.
-- Le **Scénario 2** utilise des applications client et des services Microsoft Office 365.
+- Le **Scénario 2** utilise des applications client et des services Microsoft 365.
 - Le **Scénario 3** requiert la prise en charge des applications client et des services hébergés dans Microsoft Azure.
 
 Outre la plateforme déployée dans l'abonnement Azure, les applications Finances and Operations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l'impression de documents.

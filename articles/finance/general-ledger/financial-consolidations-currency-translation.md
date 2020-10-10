@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771843"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823453"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Vue d'ensemble de consolidations financières et conversion de devises
 
@@ -103,6 +103,7 @@ Pour afficher les résultats de la consolidation, plusieurs options sont disponi
     ![Transactions de consolidation sur la page Consolidations](./media/managing-consolidation-transactions.png "Transactions de consolidation sur la page Consolidations")
 
 Pour réexécuter la consolidation, vous pouvez simplement traiter la consolidation. Sinon, vous pouvez d'abord sélectionner **Supprimer les transactions** dans la page **Consolidations**.
+Dans le cas où les soldes de votre compte consolidé ne sont pas exacts, ces soldes peuvent être corrigés à l'aide de la page **Ajustements de la période de clôture**.
 
 ## <a name="consolidate-with-import"></a>Consolider avec importation
 La fonctionnalité Consolider avec importation fonctionne comme la fonctionnalité Consolidation en ligne. Lorsque vous sélectionnez les entités juridiques, vous naviguerez jusqu'au fichier source contenant les données.
@@ -156,6 +157,7 @@ Pour plus d'informations sur le fonctionnement de la réévaluation des devises 
 - Les journaux d'élimination peuvent être validés uniquement dans la couche actuelle.
 - Seuls les soldes d'exploitation sont consolidés. Par conséquent, pour afficher les soldes d'ouverture, vous devez exécuter une clôture de fin d'exercice dans la société de consolidation.
 - Vous pouvez valider un journal d'opérations diverses dans une société d'élimination, mais pas dans une société de consolidation.
+- Les ajustements de soldes d'une société de consolidation ne peuvent être effectués qu'à l'aide de la page **Ajustements de la période de clôture**. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Avantages de l'utilisation de l'outil États financiers pour les consolidations financières et la conversion de devises, ou en complément de la consolidation en ligne pour la génération d'états consolidés
 Les clients qui utilisent l'outil États financiers pour les consolidations financières et la conversion de devises, ou en complément de la consolidation en ligne pour la génération d'états consolidés bénéficieront de plusieurs avantages :

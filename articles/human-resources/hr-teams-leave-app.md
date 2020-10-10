@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766758"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828942"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congé dans Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-L’application Microsoft Dynamics 365 Human Resources de Microsoft Teams vous permet de demander rapidement des congés et d’afficher les informations sur votre solde de congés directement dans Microsoft Teams. Vous pouvez interagir avec un bot pour demander des informations. L’onglet **Congés** fournit des informations plus détaillées.
+L’application Microsoft Dynamics 365 Human Resources de Microsoft Teams vous permet de demander rapidement des congés et d’afficher les informations sur votre solde de congés directement dans Microsoft Teams. Vous pouvez interagir avec un robot pour demander des informations et lancer une demande de congé. L’onglet **Congés** fournit des informations plus détaillées. En outre, vous pouvez envoyer des informations aux personnes sur votre prochain congé dans les équipes et dans les chats en dehors de l'application Human Resources.
 
 ## <a name="install-the-app"></a>Installer l’application
 
@@ -56,8 +56,8 @@ Si l’application ne vous connecte pas automatiquement, sélectionnez l’ongle
 
 Si vous avez accès à plusieurs instances de Human Resources, vous pouvez sélectionner l’environnement auquel vous souhaitez vous connecter dans l’onglet **Paramètres**.
 
-> [!WARNING]
-> L’application ne prend actuellement pas en charge le rôle de sécurité Administrateur système et affichera un message d’erreur si vous vous connectez avec un compte Administrateur système. Pour vous connecter avec un autre compte, sur l’onglet **Paramètres**, sélectionnez le bouton **Changer de compte**, puis connectez-vous avec un compte d’utilisateur qui ne dispose pas des privilèges d’administrateur système.
+> [!NOTE]
+> L'application prend désormais en charge le rôle de sécurité Administrateur système.
  
 ## <a name="use-the-bot"></a>Utiliser le bot
 
@@ -130,13 +130,33 @@ L’onglet **Congés** vous permet de visualiser ce qui suit :
 
    ![L’application de congé Human Resources de Teams modifie le brouillon](./media/hr-teams-leave-app-drafts-edit.png)
    
-### <a name="teams-notifications"></a>Notifications Teams
+### <a name="respond-to-teams-notifications"></a>Répondre aux notifications Teams
 
 Lorsque vous ou un collaborateur dont vous êtes l’approbateur soumettez une demande de congé, vous recevez une notification dans l’application Human Resources dans Teams. Vous pouvez sélectionner la notification pour l’afficher. Les notifications apparaissent également dans la zone **Conversation instantanée**.
 
 Si vous êtes un approbateur, vous pouvez sélectionner **Approuver** ou **Refuser** dans la notification. Vous pouvez également fournir un message facultatif.
 
 ![Laisser une notification de demande dans l’applications Teams Human Resources](./media/hr-teams-leave-app-notification.png)
+
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Envoyer des informations sur les congés à venir à vos collègues
+
+Après avoir installé l'application Human Resources pour Teams, vous pouvez facilement envoyer des informations sur votre prochain congé à vos collègues dans les équipes ou les chats.
+
+1. Dans une équipe ou dans une discussion dans Teams, sélectionnez le bouton Ressources humaines sous la fenêtre de discussion.
+
+   ![Bouton Ressources humaines sous la fenêtre de discussion](./media/hr-teams-leave-app-chat-button.png)
+
+2. Sélectionnez la demande de congé que vous souhaitez partager. Si vous souhaitez partager un brouillon de demande de congé, sélectionnez **Brouillons** en premier.
+
+   ![Sélectionner une demande de congé à venir à partager](./media/hr-teams-leave-app-chat-search.png)
+
+Votre demande de congé s'affichera dans le chat.
+
+![Carte de demande de congé de Human Resources](./media/hr-teams-leave-app-chat-card.png)
+
+Si vous avez partagé une demande de brouillon, elle s'affichera comme brouillon :
+
+![Brouillon de carte de demande de congé de Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>Afficher votre calendrier de congés d’équipe
 
@@ -162,11 +182,17 @@ En installant et en autorisant l’accès à l’utilisation du bot, vous accept
 
 Le contenu des requêtes et des messages de l’utilisateur est conservé dans le système LUIS pendant 30 jours maximum, il est chiffré au repos et n’est pas utilisé pour la formation ou l’amélioration des services. Cliquez  [ici](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/) pour en savoir plus sur Cognitive Services. 
 
-Pour gérer les paramètres d’administration des applications dans Microsoft Teams, allez dans le [centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/).
+Pour gérer les paramètres d’administration des applications dans Microsoft Teams, accédez au [centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Grille d’événements Microsoft Azure et Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid et Azure Cosmos DB
 
-Lorsque vous utilisez la fonction de notifications pour Dynamics 365 Human Resources dans Teams, certaines données client circuleront en dehors de la zone géographique où le service Human Resources de votre client est déployé. Dynamics 365 Human Resources transmet la demande de congé de l’employé et les détails de la tâche de workflow à la Grille d’événements Microsoft Azure et Microsoft Teams. Ces données peuvent être stockées jusqu’à 24 heures et traitées aux États-Unis, sont chiffrées en transit et au repos, et ne sont pas utilisées par Microsoft ou ses sous-traitants pour la formation ou l’amélioration des services.
+Lorsque vous utilisez l'application Dynamics 365 Human Resources dans Microsoft Teams, certaines données client peuvent circuler en dehors de la zone géographique où le service Human Resources de votre client est déployé.
+
+Dynamics 365 Human Resources transmet la demande de congé de l'employé et les détails de la tâche de flux de travail à Microsoft Azure Event Grid et Microsoft Teams. Ces données peuvent être stockées dans Microsoft Azure Event Grid jusqu’à 24 heures et seront traitées aux États-Unis, elles sont chiffrées en transit et au repos, et ne sont pas utilisées par Microsoft ou ses sous-traitants pour la formation ou l’amélioration des services. Pour comprendre où vos données sont stockées dans Teams, veuillez consulter : [Emplacement des données dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+
+Lors d'une conversation avec le chat bot dans l'application Human Resources, le contenu de la conversation peut être stocké dans Azure Cosmos DB et transmis à Microsoft Teams. Ces données peuvent être stockées dans Azure Cosmos DB jusqu'à 24 heures et peuvent être traitées en dehors de la région géographique où le service Human Resources de votre client est déployé, sont chiffrées en transit et au repos, et ne sont pas utilisées par Microsoft ou ses sous-traitants pour amélioration de la formation ou du service. Pour comprendre où vos données sont stockées dans Teams, veuillez consulter : [Emplacement des données dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+ 
+Pour limiter l'accès à l'application Human Resources dans Microsoft Teams pour votre organisation ou les utilisateurs au sein de votre organisation, consultez [Gérer les stratégies d'autorisation des applications dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Voir également :
 

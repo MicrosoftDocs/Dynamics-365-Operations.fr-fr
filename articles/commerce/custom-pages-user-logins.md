@@ -3,7 +3,7 @@ title: Paramétrer des pages personnalisées pour les connexions utilisateur
 description: Cette rubrique décrit la procédure pour générer des pages personnalisées dans Microsoft Dynamics 365 Commerce qui gèrent les connexions personnalisées des utilisateurs des clients entreprise-client (B2C) Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533457"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817304"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Paramétrer des pages personnalisées pour les connexions utilisateur
 
@@ -181,13 +181,13 @@ Pour mettre à jour la stratégie « Réinitialisation du mot de passe » avec
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Personnaliser les chaînes de texte par défaut pour les étiquettes et les descriptions
 
-Dans le kit de démarrage, les modules de connexion sont préremplis avec des chaînes de texte par défaut pour les étiquettes et les descriptions. Vous pouvez personnaliser ces chaînes dans le kit de développement logiciel (SDK) en mettant à jour les valeurs dans le fichier global.json pour le module de connexion.
+Dans la bibliothèque de modules, les modules de connexion sont préremplis avec des chaînes de texte par défaut pour les étiquettes et les descriptions. Vous pouvez personnaliser ces chaînes dans le kit de développement logiciel (SDK) en mettant à jour les valeurs dans le fichier global.json pour le module de connexion.
 
 Par exemple, le texte par défaut pour le lien de mot de passe oublié est **Mot de passe oublié ?**. Ce qui suit présente ce texte par défaut dans la page de connexion.
 
 ![Texte par défaut pour le lien de mot de passe oublié sur la page Connexion](./media/B2C_SignUp_ModuleFace.png)
 
-Toutefois, dans le fichier global.json pour le module de connexion du kit de démarrage, vous pouvez modifier le texte **Mot de passe oublié ?**, comme l'indique l'illustration suivante.
+Toutefois, dans le fichier global.json du module de connexion de la bibliothèque de modules, vous pouvez modifier le texte en **Mot de passe oublié ?**, comme l'indique l'illustration suivante.
 
 ![Texte du lien mis à jour dans le fichier global.json du module de connexion](./media/B2C_CustomizingStringsForModule.png)
 
@@ -199,9 +199,9 @@ Après avoir mis à jour le fichier global.json et publié vos modifications, le
 
 [Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
 
-[Création d'un site de commerce électronique](create-ecommerce-site.md)
+[Création d’un site de commerce électronique](create-ecommerce-site.md)
 
-[Association d'un site en ligne avec un canal](associate-site-online-store.md)
+[Association d’un site en ligne avec un canal](associate-site-online-store.md)
 
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 

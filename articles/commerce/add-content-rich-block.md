@@ -3,7 +3,7 @@ title: Module de bloc de texte
 description: Cette rubrique couvre les modules de bloc de texte et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411133"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817376"
 ---
 # <a name="text-block-module"></a>Module de bloc de texte
-
 
 [!include [banner](includes/banner.md)]
 
@@ -80,11 +79,11 @@ Pour ajouter un module de bloc de texte à une nouvelle page et définir les pro
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble du kit de démarrage](starter-kit-overview.md)
+[Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
-[Module de bannière promotionnelle](add-alert.md)
+[Module Bannière promotionnelle](add-alert.md)
 
-[Module de carrousel](add-carousel.md)
+[Module Carrousel](add-carousel.md)
 
 [Module de bloc de contenu](add-hero-module.md)
 
