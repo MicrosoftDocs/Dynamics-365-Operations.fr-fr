@@ -1,7 +1,7 @@
 ---
 title: Importation avancée du rapprochement bancaire MT940 – Mise à niveau de l'entité de données composite
 description: Un numéro de souche doit être ajouté à l'entité d'importation des relevés bancaires pour prendre en charge le format MT940.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2019
 ms.topic: article
@@ -14,52 +14,52 @@ ms.search.scope: Core, Operations
 ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
 ms.search.region: Global
-ms.author: saraschi
+ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 91100c3e3c33462e5b19ca239a784cdb720210ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772005"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899371"
 ---
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="74ceb-103">Importation avancée du rapprochement bancaire MT940 – Mise à niveau de l'entité de données composite</span><span class="sxs-lookup"><span data-stu-id="74ceb-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="4f5cb-103">Importation avancée du rapprochement bancaire MT940 – Mise à niveau de l'entité de données composite</span><span class="sxs-lookup"><span data-stu-id="4f5cb-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="74ceb-104">Un numéro de souche doit être ajouté à l'entité d'importation des relevés bancaires pour prendre en charge le format MT940.</span><span class="sxs-lookup"><span data-stu-id="74ceb-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
+<span data-ttu-id="4f5cb-104">Un numéro de souche doit être ajouté à l'entité d'importation des relevés bancaires pour prendre en charge le format MT940.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
 
-<span data-ttu-id="74ceb-105">Les étapes suivantes vous permettent d'ajouter l'entité d'importation des relevés bancaires pour prendre en charge le format MT940.</span><span class="sxs-lookup"><span data-stu-id="74ceb-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
+<span data-ttu-id="4f5cb-105">Les étapes suivantes vous permettent d'ajouter l'entité d'importation des relevés bancaires pour prendre en charge le format MT940.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
 
-1.  <span data-ttu-id="74ceb-106">Compilez et synchronisez les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="74ceb-106">Compile and synchronize the following:</span></span>
-    -   <span data-ttu-id="74ceb-107">Composite Entity\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="74ceb-107">Composite Entity\\BankStatementImportEntity</span></span>
-    -   <span data-ttu-id="74ceb-108">Entity\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="74ceb-108">Entity\\BankStatementBalanceEntity</span></span>
-    -   <span data-ttu-id="74ceb-109">Entity\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="74ceb-109">Entity\\BankStatementDocumentEntity</span></span>
-    -   <span data-ttu-id="74ceb-110">Entity\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="74ceb-110">Entity\\BankStatementEntity</span></span>
-    -   <span data-ttu-id="74ceb-111">Entity\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="74ceb-111">Entity\\BankStatementLineEntity</span></span>
-    -   <span data-ttu-id="74ceb-112">Tables\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="74ceb-112">Tables\\BankStatementStaging</span></span>
+1.  <span data-ttu-id="4f5cb-106">Compilez et synchronisez les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="4f5cb-106">Compile and synchronize the following:</span></span>
+    -   <span data-ttu-id="4f5cb-107">Composite Entity\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="4f5cb-107">Composite Entity\\BankStatementImportEntity</span></span>
+    -   <span data-ttu-id="4f5cb-108">Entity\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="4f5cb-108">Entity\\BankStatementBalanceEntity</span></span>
+    -   <span data-ttu-id="4f5cb-109">Entity\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="4f5cb-109">Entity\\BankStatementDocumentEntity</span></span>
+    -   <span data-ttu-id="4f5cb-110">Entity\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="4f5cb-110">Entity\\BankStatementEntity</span></span>
+    -   <span data-ttu-id="4f5cb-111">Entity\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="4f5cb-111">Entity\\BankStatementLineEntity</span></span>
+    -   <span data-ttu-id="4f5cb-112">Tables\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="4f5cb-112">Tables\\BankStatementStaging</span></span>
 
-2.  <span data-ttu-id="74ceb-113">Data management\\data projects.</span><span class="sxs-lookup"><span data-stu-id="74ceb-113">Data management\\data projects.</span></span>
-    1.  <span data-ttu-id="74ceb-114">Projets d'importation de la charge MT940</span><span class="sxs-lookup"><span data-stu-id="74ceb-114">Load MT940 import project(s)</span></span>
-        1.  <span data-ttu-id="74ceb-115">Modifiez XSLT.</span><span class="sxs-lookup"><span data-stu-id="74ceb-115">Change XSLT.</span></span>
-            -   <span data-ttu-id="74ceb-116">Cliquez sur **Afficher la carte**.</span><span class="sxs-lookup"><span data-stu-id="74ceb-116">Click **View map**.</span></span>
-            -   <span data-ttu-id="74ceb-117">Cliquez sur **Afficher la carte** sur le document de relevé bancaire.</span><span class="sxs-lookup"><span data-stu-id="74ceb-117">Click **View map** on the bank statement document.</span></span>
-            -   <span data-ttu-id="74ceb-118">Cliquez sur **Transformations**</span><span class="sxs-lookup"><span data-stu-id="74ceb-118">Click **Transformations**</span></span>
-            -   <span data-ttu-id="74ceb-119">Supprimez le fichier BankReconiliation-to-Composite.xslt.</span><span class="sxs-lookup"><span data-stu-id="74ceb-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
-            -   <span data-ttu-id="74ceb-120">Ajoutez la nouvelle version de BankReconiliation-to-Composite.xslt.</span><span class="sxs-lookup"><span data-stu-id="74ceb-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
+2.  <span data-ttu-id="4f5cb-113">Data management\\data projects.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-113">Data management\\data projects.</span></span>
+    1.  <span data-ttu-id="4f5cb-114">Projets d'importation de la charge MT940</span><span class="sxs-lookup"><span data-stu-id="4f5cb-114">Load MT940 import project(s)</span></span>
+        1.  <span data-ttu-id="4f5cb-115">Modifiez XSLT.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-115">Change XSLT.</span></span>
+            -   <span data-ttu-id="4f5cb-116">Cliquez sur **Afficher la carte**.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-116">Click **View map**.</span></span>
+            -   <span data-ttu-id="4f5cb-117">Cliquez sur **Afficher la carte** sur le document de relevé bancaire.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-117">Click **View map** on the bank statement document.</span></span>
+            -   <span data-ttu-id="4f5cb-118">Cliquez sur **Transformations**</span><span class="sxs-lookup"><span data-stu-id="4f5cb-118">Click **Transformations**</span></span>
+            -   <span data-ttu-id="4f5cb-119">Supprimez le fichier BankReconiliation-to-Composite.xslt.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
+            -   <span data-ttu-id="4f5cb-120">Ajoutez la nouvelle version de BankReconiliation-to-Composite.xslt.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
 
-        2.  <span data-ttu-id="74ceb-121">Exposez le **Numéro de souche** dans la mise en page **Données sources**.</span><span class="sxs-lookup"><span data-stu-id="74ceb-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
-            1.  <span data-ttu-id="74ceb-122">Format de données source = Élément XML.</span><span class="sxs-lookup"><span data-stu-id="74ceb-122">Source data format = XML-Element.</span></span>
-            2.  <span data-ttu-id="74ceb-123">Nom de l'entité = Relevés bancaires.</span><span class="sxs-lookup"><span data-stu-id="74ceb-123">Entity name = Bank statements.</span></span>
-            3.  <span data-ttu-id="74ceb-124">Télécharger le fichier de données = nouvelle version de SampleBankCompositeEntity.xml.</span><span class="sxs-lookup"><span data-stu-id="74ceb-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
-            4.  <span data-ttu-id="74ceb-125">Cliquez sur **Oui** pour remplacer le fichier existant.</span><span class="sxs-lookup"><span data-stu-id="74ceb-125">Click **Yes** to overwrite the existing file.</span></span>
-            5.  <span data-ttu-id="74ceb-126">Cliquez sur **Oui** pour générer un nouveau mappage.</span><span class="sxs-lookup"><span data-stu-id="74ceb-126">Click **Yes** to generate a new mapping.</span></span>
-            6.  <span data-ttu-id="74ceb-127">Vérifiez que S**equenceNumber** est mappé.</span><span class="sxs-lookup"><span data-stu-id="74ceb-127">Verify that S**equenceNumber** is mapped.</span></span>
-                -   <span data-ttu-id="74ceb-128">Cliquez sur **Afficher la carte** sur l'entité de relevé.</span><span class="sxs-lookup"><span data-stu-id="74ceb-128">Click **View Map** on the statement entity.</span></span>
-                -   <span data-ttu-id="74ceb-129">Vérifiez que **SequenceNumber** est mappé entre Source et Intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="74ceb-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
+        2.  <span data-ttu-id="4f5cb-121">Exposez le **Numéro de souche** dans la mise en page **Données sources**.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
+            1.  <span data-ttu-id="4f5cb-122">Format de données source = Élément XML.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-122">Source data format = XML-Element.</span></span>
+            2.  <span data-ttu-id="4f5cb-123">Nom de l'entité = Relevés bancaires.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-123">Entity name = Bank statements.</span></span>
+            3.  <span data-ttu-id="4f5cb-124">Télécharger le fichier de données = nouvelle version de SampleBankCompositeEntity.xml.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
+            4.  <span data-ttu-id="4f5cb-125">Cliquez sur **Oui** pour remplacer le fichier existant.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-125">Click **Yes** to overwrite the existing file.</span></span>
+            5.  <span data-ttu-id="4f5cb-126">Cliquez sur **Oui** pour générer un nouveau mappage.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-126">Click **Yes** to generate a new mapping.</span></span>
+            6.  <span data-ttu-id="4f5cb-127">Vérifiez que S**equenceNumber** est mappé.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-127">Verify that S**equenceNumber** is mapped.</span></span>
+                -   <span data-ttu-id="4f5cb-128">Cliquez sur **Afficher la carte** sur l'entité de relevé.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-128">Click **View Map** on the statement entity.</span></span>
+                -   <span data-ttu-id="4f5cb-129">Vérifiez que **SequenceNumber** est mappé entre Source et Intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
 
-3.  <span data-ttu-id="74ceb-130">Importez le nouveau relevé.</span><span class="sxs-lookup"><span data-stu-id="74ceb-130">Import the new statement.</span></span>
+3.  <span data-ttu-id="4f5cb-130">Importez le nouveau relevé.</span><span class="sxs-lookup"><span data-stu-id="4f5cb-130">Import the new statement.</span></span>
 
 
 
