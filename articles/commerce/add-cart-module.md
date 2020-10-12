@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761127"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818273"
 ---
 # <a name="cart-module"></a>Module Panier
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -41,15 +40,15 @@ Le module de panier affiche les données selon l’ID du panier, qui est un cook
 
 L’image suivante montre un exemple de page de panier sur le site Fabrikam.
 
-![Exemple d’un module de panier](./media/cart2.PNG)
+![Exemple de module de panier sur le site Fabrikam](./media/cart2.PNG)
 
 L’image suivante montre un exemple de page de panier sur le site Fabrikam. Dans cet exemple, des frais de traitement s’appliquent à un élément de ligne.
 
-![Exemple d’un module de panier](./media/ecommerce-handling-fee.png)
+![Exemple de module de panier avec frais de traitement pour un élément de ligne](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Propriétés et emplacements du module de panier
 
-| Propriété | Valeurs | Description |
+| Propriété | Valeurs | Description  |
 |----------------|--------|-------------|
 | Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Un en-tête pour le panier, tel que « Panier d’achat » ou « Articles dans votre panier ». |
 | Afficher les erreurs de rupture de stock | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, la page du panier affichera les erreurs liées au stock. Nous vous recommandons de définir cette propriété sur **True** si des contrôles de stock sont appliqués sur le site. |

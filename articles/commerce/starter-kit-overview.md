@@ -1,9 +1,9 @@
 ---
-title: Vue d'ensemble du kit de démarrage
-description: Cette rubrique présente une vue d'ensemble du kit de démarrage dans Microsoft Dynamics 365 Commerce.
+title: Présentation de la bibliothèque de modules
+description: Cette rubrique présente une vue d'ensemble de la bibliothèque de modules Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025900"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817824"
 ---
-# <a name="starter-kit-overview"></a>Vue d'ensemble du kit de démarrage
-
+# <a name="module-library-overview"></a>Présentation de la bibliothèque de modules
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique présente une vue d'ensemble du kit de démarrage dans Microsoft Dynamics 365 Commerce.
+Cette rubrique présente une vue d'ensemble de la bibliothèque de modules Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
-Le kit de démarrage de Dynamics 365 Commerce est un ensemble de modules à utiliser pour créer un site web de commerce électronique. Les modules ont des aspects de l'interface utilisateur et des aspects de comportement fonctionnel.
+La bibliothèque de modules Dynamics 365 Commerce est une collection de modules qui peuvent être utilisés pour créer un site Web de commerce électronique. Les modules ont des aspects de l'interface utilisateur et des aspects de comportement fonctionnel.
 
-Des thèmes peuvent être appliqués aux modules dans le kit de démarrage pour modifier leur aspect. Les thèmes utilisent des feuilles de style en cascade (CSS). Un thème pour un site fictif de commerce électronique nommé « Fabrikam » est disponible dans le cadre du kit de démarrage et peut être utilisé comme référence.
+Des thèmes peuvent être appliqués aux modules de la bibliothèque de modules pour modifier leur aspect. Les thèmes utilisent des feuilles de style en cascade (CSS). Un thème pour un site fictif de commerce électronique nommé « Fabrikam » est disponible dans le cadre de la bibliothèque de modules et peut être utilisé comme référence.
 
-## <a name="starter-kit-modules"></a>Modules de kit de démarrage
+## <a name="module-library-modules"></a>Modules de la bibliothèque de modules
 
-Les types de modules suivants sont fournis dans le kit de démarrage :
+Les types de modules suivants sont fournis dans la bibliothèque de modules :
 
 - **Module de conteneur** – Un module de conteneur est un module unique qui agit comme hôte pour d'autres modules. Il contrôle la disposition des modules qui sont à l'intérieur de celui-ci.
 - **Modules de marketing** – Les modules de marketing incluent des modules de bloc de contenu, bloc de texte, lecteur vidéo et carrousel. Tous ces modules permettent de présenter du contenu. Ils peuvent être placés sur n'importe quelle page et sont pilotés par les données du système de gestion de contenu (CMS).

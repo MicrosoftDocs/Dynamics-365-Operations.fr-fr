@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d6e0f2c914b8d348ef6eac42557fb46c53df04a9
-ms.sourcegitcommit: d16d370dab734e09312cb06711beca9cca52d4c9
+ms.openlocfilehash: 8c3a905c90f5dd4ad3487f004a958c0dcd52115d
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809518"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893245"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
 
@@ -67,7 +67,7 @@ Pour plus d'informations sur la manière d'importer des configurations de gestio
 5.  Dans le champ **Titre**, entrez **Facture financière (Excel) Contoso** comme titre du nouveau modèle.
 6.  Cliquez sur **OK** pour confirmer le début du processus de modification.
 
-La page Éditeur de modèle BDM s'affiche. Vous pouvez utiliser Microsoft Office 365 pour modifier le modèle sélectionné en ligne dans le contrôle intégré.
+La page Éditeur de modèle BDM s'affiche. Vous pouvez utiliser Microsoft 365 pour modifier le modèle sélectionné en ligne dans le contrôle incorporé.
 
 ![Page Éditeur de modèle BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
 

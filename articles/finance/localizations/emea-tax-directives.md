@@ -3,7 +3,7 @@ title: Instructions relatives à la taxe pour Europe
 description: Vous pouvez spécifier d'inclure une explication des codes taxe sur les factures client et les factures de projet. Vous pouvez imprimer les numéros de référence sur les factures client, sur les factures financières, et sur les factures de projet.
 author: epodkolz
 manager: AnnBe
-ms.date: 06/03/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 70c86d85b66f1b5c0bf72f80f93299c3848ca158
-ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
+ms.openlocfilehash: 2f0da36e2be20d5ae8c838ed73c6e8aa1c19b621
+ms.sourcegitcommit: 814476906187480262b390ca49e487eb91738deb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3422991"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819103"
 ---
 # <a name="tax-directives-for-europe"></a>Instructions relatives à la taxe pour Europe
 
@@ -32,4 +32,4 @@ La Directive de l'UE prévoit une réglementation à suivre par tous les États 
 - Pour les avoirs, le numéro et la date de la facture d'origine sont imprimés avec le motif de la correction.
 
 > [!NOTE]
-> Vérifiez sur la page **Paramétrage d'écran** (**Comptabilité client** > **Paramétrage** > **Formulaires** > **Paramétrage d'écran**, dans l'onglet **Général**), que le champ **Spécification de taxe** est défini sur **Devise d'enregistrement** ou **Devise d'enregistrement et de société**.
+> Vérifiez que le champ **Spécification de taxe** est défini sur **Devise d'enregistrement** ou **Devise d'enregistrement et de la société** sur la page **Paramétrage d'écran** de l'onglet **Général** (**Comptabilité client > Paramétrage > Écrans > Paramétrage d'écran** ou **Gestion et comptabilité des projets > Paramétrage > Paramétrage d'écran**).

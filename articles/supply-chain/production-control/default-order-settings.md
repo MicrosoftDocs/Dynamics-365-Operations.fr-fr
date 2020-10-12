@@ -3,12 +3,12 @@ title: Paramètres de commande par défaut pour les dimensions et les variantes 
 description: Les paramètres de commande par défaut définissent le site et l’entrepôt d’où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l’indicateur de fin, et la méthode de promesse de commande.
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657338"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895594"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Paramètres de commande par défaut pour les dimensions et les variantes de produits
 
@@ -50,9 +50,12 @@ Il existe trois types de paramètres de commande par défaut pour les achats, le
 - Lignes de commande fournisseur
 - Lignes de contrat d’achat
 - Lignes d’appel d’offre
-- Lignes de demande d’achat
-- Lignes de réapprovisionnement avec consignation
+- Lignes de demande d'achat
+- Lignes de réapprovisionnement avec consignation (partiellement prises en charge, voir la note)
 - Commandes fournisseur prévisionnelles
+
+> [!NOTE]
+> Pour les lignes de commande de réapprovisionnement avec consignation, les seuls paramètres du raccourci **Commande fournisseur** de la page **Paramètres de commande par défaut** qui s'appliquent sont le champ **Site par défaut**, le champ **Entrepôt par défaut** et la case à cocher **Arrêté**.
 
 Les paramètres de commande par défaut pour les ventes sont utilisés lors de la création de :
 

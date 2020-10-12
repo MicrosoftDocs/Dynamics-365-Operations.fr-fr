@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4acde9703c721ab7c20d1603299a10dda91b23c4
-ms.sourcegitcommit: b8f8ccab2cd9d848e5ecd71caaf0a63237e2236b
+ms.openlocfilehash: 015b595f85397fc1cf2c0368814ddc0369176f82
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957061"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893193"
 ---
 # <a name="new-document-user-interface-in-business-document-management"></a>Nouvelle interface utilisateur de document dans la gestion des documents commerciaux
 
 [!include [banner](../includes/banner.md)]
 
-La gestion de document commercial permet aux utilisateurs d'entreprise de modifier des modèles de documents commerciaux à l'aide d'un service Microsoft Office 365 ou de l'application de bureau Microsoft Office appropriée. Les modifications peuvent inclure des modifications de conception ou de nouveaux déploiements, ou les utilisateurs peuvent ajouter des espaces réservés pour inclure des données supplémentaires sans avoir à modifier le code source. Pour plus d'informations sur l'utilisation de la gestion des documents commerciaux, consultez [Vue d'ensemble de la gestion de document commercial](er-business-document-management.md).
+La gestion des documents commerciaux permet aux utilisateurs professionnels de modifier des modèles de document commercial à l'aide d'un service Microsoft 365 ou de l'application de bureau Microsoft Office appropriée. Les modifications peuvent inclure des modifications de conception ou de nouveaux déploiements, ou les utilisateurs peuvent ajouter des espaces réservés pour inclure des données supplémentaires sans avoir à modifier le code source. Pour plus d'informations sur l'utilisation de la gestion des documents commerciaux, consultez [Vue d'ensemble de la gestion de document commercial](er-business-document-management.md).
 
 La nouvelle interface utilisateur de document (UI) est plus claire et plus confortable à utiliser. La zone **Document commercial** affiche uniquement les modèles disponibles pour le fournisseur actuel.
 

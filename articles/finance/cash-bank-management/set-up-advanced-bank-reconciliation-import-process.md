@@ -1,7 +1,7 @@
 ---
 title: Paramétrage du processus d'importation du rapprochement bancaire avancé
 description: La fonctionnalité de rapprochement bancaire avancé permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cet article explique comment configurer la fonctionnalité d’importation de vos relevés bancaires.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
-ms.author: saraschi
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 45f997a91701e3fc63278cdba3479dec9dc7a467
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578193"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899664"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Paramétrage du processus d'importation du rapprochement bancaire avancé
 
@@ -36,7 +36,7 @@ Le paramétrage de l’importation de relevé bancaire varie selon le format de 
 ## <a name="set-time-zone-preference"></a>Définir la préférence de fuseau horaire
 Lorsque vous configurez les paramètres d'importation de relevé bancaire, il peut se révéler important de tenir compte du fuseau horaire des données de date/heure dans les fichiers de relevés bancaires qui seront importés. La valeur par défaut consiste à supposer que toute valeur de date/heure sont déjà dans le fuseau horaire UTC et qu'aucune conversion du fuseau horaire ne s'appliquera lors de l'importation des données. 
 
-Une option est disponible pour préciser un fuseau horaire à utiliser pour importer les données. Cette option est disponible dans le champ **Préférence de fuseau horaire** sur chaque page **Détails de format de données source** (organisateur **Espace de travail de gestion des données > Configurer les sources de données > Sélectionner un format de données > Paramètres régionaux**). Cette préférence de fuseau horaire que vous entrez s'applique à toutes les importations qui utilisent ce format de données source. Vous pouvez créer autant de formats de source de données que nécessaire pour importer des données provenant de plusieurs fuseaux horaires.  
+Une option est disponible pour préciser un fuseau horaire à utiliser pour importer les données. Cette option est disponible dans le champ **Préférence de fuseau horaire** sur chaque page **Détails de format de données source** (FastTab **Espace de travail de gestion des données > Configurer les sources de données > Sélectionner un format de données > Paramètres régionaux**). Cette préférence de fuseau horaire que vous entrez s'applique à toutes les importations qui utilisent ce format de données source. Vous pouvez créer autant de formats de source de données que nécessaire pour importer des données provenant de plusieurs fuseaux horaires.  
 
 Ce fuseau horaire ne peut pas être le même que le fuseau horaire d'un utilisateur ou d'une société, aussi veillez à préciser quel fuseau horaire les données de date et d'heure utilisent. Nous vous recommandons de tenir compte des points suivants lors de la définition d'une préférence de fuseau horaire. 
 

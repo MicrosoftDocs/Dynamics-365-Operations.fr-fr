@@ -3,7 +3,7 @@ title: Créer des configurations ER dans RCS et les télécharger dans le réfé
 description: Cette rubrique explique comment créer une configuration d'état électronique (ER) dans Microsoft Regulatory Configuration Services (RCS) et comment la télécharger dans le référentiel global.
 author: JaneA07
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 0e194a8b777f984412d81e315f92ab4bb8a3b0c9
-ms.sourcegitcommit: 204cec8ca2a6c4474d21dbcd408e369131a47856
+ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3371245"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834231"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Créer des configurations ER dans Regulatory Configuration Services (RCS) et les télécharger dans le référentiel global
 
@@ -54,7 +54,7 @@ Si un environnement RCS a déjà été configuré pour votre entreprise, utilise
 5. Saisissez un nom et une description, puis sélectionnez **Créer une configuration** pour créer une nouvelle version dérivée.
 6. Sélectionnez la configuration nouvellement dérivée, ajoutez une description de la version, puis sélectionnez **OK**. Le statut de la configuration est remplacé par **Terminé**.
 
-![Nouvelle version de la configuration dans RCS](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_CompleteConfig.JPG)
+![Nouvelle version de la configuration dans RCS](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Lorsque l'état de la configuration est modifié, vous pouvez recevoir un message d'erreur de validation lié aux applications connectées. Pour désactiver la validation, dans le volet Actions de l'onglet **Configurations**, sélectionnez **Paramètres utilisateur**, puis définissez l'option **Ignorer la validation lors du changement d'état de la configuration et rebaser** sur **Oui** 
@@ -66,7 +66,7 @@ Pour partager une configuration nouvelle ou dérivée avec votre organisation, v
 1. Sélectionnez la version terminée de la configuration, puis sélectionnez **Télécharger dans le référentiel**.
 2. Sélectionnez l'option **Global (Microsoft)**, puis sélectionnez **Télécharger**.
 
-    ![Télécharger dans les options du référentiel](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Télécharger dans les options du référentiel](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Dans la boîte de dialogue de confirmation, cliquez sur **Oui**. 
 4. Mettez à jour la description de la version selon vos besoins, puis sélectionnez **OK**. 
@@ -74,6 +74,27 @@ Pour partager une configuration nouvelle ou dérivée avec votre organisation, v
 Le statut de la configuration est mis à jour sur **Partager** et la configuration est téléchargée dans le référentiel global. Vous pouvez ensuite l'utiliser de plusieurs manières :
 
 - Vous pouvez l'importer dans votre instance Dynamics 365. Pour plus d'informations, voir [(ER) Importer les configurations depuis RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
-- Vous pouvez la partager avec un tiers ou une organisation externe, consultez [RCS Partager des configurations d'états électroniques (ER) avec des organisations externes](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/rcs-global-share-configuration.md)
+- Vous pouvez la partager avec un tiers ou une organisation externe, consultez [RCS Partager des configurations d'états électroniques (ER) avec des organisations externes](rcs-global-repo-share-configuration.md)
 
-![Version de configuration Intrastat Contoso dérivée dans le référentiel global](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Version de configuration Intrastat Contoso dérivée dans le référentiel global](media/RCS_Config_upload_GlobalRepo.JPG)
+
+## <a name="delete-a-configuration-from-the-global-repository"></a>Supprimer une configuration du référentiel Global
+Effectuez les étapes suivantes pour supprimer une configuration que votre organisation a créée.
+
+1. Dans l'espace de travail **États électroniques**, vérifiez que votre fournisseur de configuration est **Actif**. Pour plus d'informations, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Sur votre fournisseur de configuration actif, sélectionnez **Référentiel**.
+3. Sélectionnez le type de référentiel **Global**et sélectionnez **Ouvrir**.
+4. Sur le FastTab **Filtre**, recherchez la configuration que vous souhaitez supprimer en utilisant la fonctionnalité **Filtre**.
+5. Sur le FastTab **Version**, sélectionnez la version de la configuration que vous souhaitez supprimer, puis sélectionnez **Supprimer** :
+
+    ![Supprimer une configuration du référentiel global](media/RCS_Delete_from_GlobalRepo.JPG)
+
+6. Dans la boîte de dialogue de confirmation, cliquez sur **Oui**.
+
+    ![Supprimer le message de confirmation de la version de la configuration](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+ 
+La version de la configuration est supprimée et un message de confirmation s'affiche. 
+
+> [!NOTE]
+> Les configurations ne peuvent être supprimées que par le fournisseur de configuration qui les a créées. Si la configuration a été partagée avec une autre organisation, le partage de la configuration devra être annulé avant que vous ne la supprimiez.
+ 

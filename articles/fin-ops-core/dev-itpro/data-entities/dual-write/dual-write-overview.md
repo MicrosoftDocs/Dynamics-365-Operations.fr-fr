@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8957065bcadc3f33adb60c2a8f2be78710289631
-ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
+ms.openlocfilehash: 1eb5e4ea8d086baeee686ccb3d044b3ef9d2a4fa
+ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3775145"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3818570"
 ---
 # <a name="dual-write-overview"></a>Vue d’ensemble de la double écriture
 
@@ -86,7 +86,7 @@ La double écriture crée un mappage entre les concepts des applications Finance
 La double écriture assure l’intégration des données entre les applications Microsoft Dynamics 365. Cette infrastructure robuste relie des environnements et permet à différentes applications métier de fonctionner ensemble. Voici les principales raisons pour lesquelles vous devez utiliser la double écriture :
 
 + La double écriture offre une intégration étroitement couplée, en temps quasi réel et bidirectionnelle entre les applications Finance and Operations et les applications pilotées par modèle de Dynamics 365. Cette intégration fait de Microsoft Dynamics 365 un emplacement central pour toutes vos solutions d’entreprise. Les clients qui utilisent Dynamics 365 Finance et Dynamics 365 Supply Chain Management, mais qui utilisent des solutions autres que Microsoft pour la gestion de la relation client, se tournent vers Dynamics 365 pour sa prise en charge de la double écriture.
-+ Les données des clients, des produits, des opérations, des projets et de l’Internet des objets (IoT) sont automatiquement envoyées à Common Data Service via la double écriture. Cette connexion est utile pour les entreprises intéressées par les extensions Microsoft Power Platform.
++ Les données des clients, des produits, des opérations, des projets et de l’Internet des objets (IoT) sont automatiquement envoyées à Common Data Service via la double écriture. Cette connexion est utile pour les entreprises intéressées par les extensions Power Platform.
 + L’infrastructure de double écriture suit le principe no-code/low-code. Un effort d’ingénierie minimal est nécessaire pour étendre les mappages entre tables standard et pour inclure des mappages personnalisés.
 + La double écriture prend en charge à la fois le mode en ligne et le mode hors connexion. Microsoft est la seule société qui offre une prise en charge des modes en ligne et hors connexion.
 

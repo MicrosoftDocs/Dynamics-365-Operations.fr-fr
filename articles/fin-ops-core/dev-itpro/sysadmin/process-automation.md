@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 320e18f7fc61300ed2966afef530907fc9fc5ca5
-ms.sourcegitcommit: e2a47d31175bbd60acfd7a23ffea70c669358572
+ms.openlocfilehash: afbef26cb7b37bafb34f12cc20a88fb4aea9f343
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "3690044"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885249"
 ---
 # <a name="process-automation"></a>Automatisation des processus
 
@@ -31,17 +31,20 @@ L’automatisation des processus permet une planification simple des processus q
 
 ## <a name="administration"></a>Administration
 
-La page d’administration centrale de toutes les automatisations de processus se trouve dans le module Administration système sous le menu **Paramétrage**. Cette page répertoriera tous les processus automatisés (séries) configurés dans le système. Elle vous permettra également d’ajouter de nouvelles automatisations de processus directement à partir de cette page. Une fois une série configurée, vous pouvez gérer chaque série à partir de cette liste. Vous pouvez choisir de modifier toute la série, de la supprimer, d’afficher toutes les occurrences dans une vue liste ou de désactiver la série si vous souhaitez interrompre le travail planifié pendant une certaine période. 
+La page d’administration centrale de toutes les automatisations de processus se trouve dans le module Administration système sous le menu **Paramétrage**. Cette page répertoriera tous les processus automatisés (séries) configurés dans le système. Elle vous permettra également d’ajouter de nouvelles automatisations de processus directement à partir de cette page. Une fois une série configurée, vous pouvez gérer chaque série à partir de cette liste. Vous pouvez choisir de modifier toute la série, de la supprimer, d’afficher toutes les occurrences dans une vue liste ou de désactiver la série si vous souhaitez interrompre le travail planifié pendant un certain temps. 
 
 Les processus désactivés dans la gestion des fonctionnalités ne s’afficheront pas lorsque la fonctionnalité est désactivée. De plus, le moteur de planification de l’automatisation des processus ne planifiera aucune occurrence ou processus d’arrière-plan pour une fonction désactivée. La réactivation de la fonction entraînera l’exécution immédiate de toutes les occurrences planifiées ou processus d’arrière-plan du passé.
 
-## <a name="calendar-view"></a>Vue calendrier 
+## <a name="calendar-view"></a>Vue calendrier
+
 L’un des principaux avantages de l’automatisation des processus est la possibilité d’afficher le travail planifié dans une simple vue de calendrier.  Cette vue vous permet d’afficher le travail pour une semaine à la fois. Cette vue est disponible sur le côté droit de la page **Automatisation des processus**. Elle sera remplie avec le travail planifié pour la série sélectionnée. 
 
 [![Calendrier d’automatisation des processus](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Modifications d’occurrence
-Chaque occurrence peut être modifiée sans avoir d’incidence sur les autres occurrences définies par la série d’origine. Les occurrences du travail planifié peuvent être modifiées dans la vue calendrier en sélectionnant le bouton **Afficher/Modifier** et en sélectionnant **Occurrence**. Cela vous permet d’accéder à tous les paramètres affichés initialement dans l’assistant de configuration de série tout en vous offrant la possibilité d’effectuer une modification unique pour l’occurrence sélectionnée. Une occurrence du travail planifié peut également être désactivée en sélectionnant le bouton **Désactiver** dans la vue calendrier. 
 
-## <a name="developer-documentation"></a>Documentation du développeur 
-La documentation du développeur est en cours de rédaction pour permettre aux développeurs d’étendre le cadre d’automatisation des processus. Cette documentation fournira des informations sur la façon dont vous pouvez créer des processus personnalisés qui doivent être exécutés par le serveur de traitement par lots planifié avec l’assistant d’automatisation des processus et qui apparaissent automatiquement dans la vue calendrier.
+Chaque occurrence peut être modifiée sans avoir d’incidence sur les autres occurrences définies par la série d’origine. Les occurrences du travail planifié peuvent être modifiées dans la vue calendrier en sélectionnant le bouton **Afficher/Modifier** et en sélectionnant **Occurrence**. Cette page vous permet d’accéder à tous les paramètres affichés initialement dans l’assistant de configuration de série tout en vous offrant la possibilité d’effectuer une modification unique pour l’occurrence sélectionnée. Une occurrence du travail planifié peut également être désactivée en sélectionnant le bouton **Désactiver** dans la vue calendrier.
+
+## <a name="developer-documentation"></a>Documentation du développeur
+
+Le cadre d'automatisation des processus permet aux développeurs d'étendre le cadre d'automatisation des processus. La documentation sur le [Cadre d'automatisation des processus](../process-automation/process-automation-framework.md) fournira des informations sur la façon dont vous pouvez créer des processus personnalisés qui doivent être exécutés par le serveur de traitement par lots planifié avec l’assistant d’automatisation des processus et qui apparaissent automatiquement dans la vue calendrier.

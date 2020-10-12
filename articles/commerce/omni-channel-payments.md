@@ -3,7 +3,7 @@ title: Présentation des paiements omnicanaux
 description: Cette rubrique fournit une vue d’ensemble des paiements omnicanaux dans Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613175"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819811"
 ---
 # <a name="omni-channel-payments-overview"></a>Présentation des paiements omnicanaux
 
@@ -92,6 +92,9 @@ Les scénarios de paiement omnicanaux suivants sont pris en charge :
 - Acheter à un centre d’appels, retirer en magasin
 - Acheter dans un magasin A, retirer dans un magasin B
 - Acheter dans un magasin A, expédier au client
+
+    > [!NOTE]
+    > Les paiements effectués dans le centre d'appels qui correspondent à la fonction de paiement "Normal" doivent être marqués comme **Prépayer** = **Oui** pour être reflétés dans le montant dû lors du rappel de la commande dans le PDV. Les paiements sans prépaiement de type "Normal" ne sont pas reconnus lors du rappel de la commande dans le PDV. 
 
 Des variations de ces scénarios sont également prises en charge. Par exemple, une commande en ligne peut inclure des lignes qui seront expédiées au client et des lignes qui sont prélevées dans un magasin. Toutes les options d’exécution de commande sont prises en charge par les paiements omnicanaux. 
 
@@ -190,8 +193,8 @@ Procédez comme suit pour exécuter le scénario.
 2. Sur la page **Transaction**, ajoutez Karen Berg à la transaction à l’aide du pavé numérique pour entrer **2001**.
 3. Ajoutez une ou plusieurs ligne à la transaction.
 4. Sélectionnez **Commandes** pour afficher les options de commande.
-5. Sélectionnez **Prélever tout** et, lorsque vous y êtes invité, sélectionnez **Commande client**.
-6. Dans la barre de recherche, entrez **Seattle**, puis sélectionnez le magasin de **Seattle** pour le prélèvement. 
+5. Sélectionnez **Expédier tout** et, lorsque vous y êtes invité, sélectionnez **Commande client**.
+6. Dans la page du mode d'expédition, sélectionnez **Standard jour suivant**, puis sélectionnez **OK** pour accepter la date du jour comme date d'expédition. 
 7. Sélectionnez **OK** pour accepter la date actuelle comme date de prélèvement.
 8. Sélectionner **Carte de paiement** pour initier le paiement.
 9. Entrez le paiement par carte pour le montant dû pour l’acompte. 
@@ -233,5 +236,5 @@ Lorsqu’une commande comporte plusieurs modes de paiement et que plusieurs lign
 
 - [FAQ Paiements](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Connecteur de paiement Dynamics 365 pour Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

@@ -3,8 +3,10 @@
   items:
     - name: Nouveautés
       items:
-        - name: Nouveautés ou modifications dans Human Resources
+        - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "16\_septembre\_2020"
+          href: hr-whats-new-2020-09-16.md
         - name: "3\_septembre\_2020"
           href: hr-whats-new-2020-09-03.md
         - name: "20\_août\_2020"
@@ -201,11 +203,11 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Créer et utiliser des champs personnalisés
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: Intégrer les applications PowerApps
+            - name: Incorporer des applications canevas à partir de Power Apps
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
-            - name: Rechercher des informations à l’aide des recherches
+            - name: Trouver des informations à l’aide des recherches
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
-            - name: Modification de la date d’une session
+            - name: Modifier la date d’une session
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
             - name: Configurer un fuseau horaire préféré de l’utilisateur
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json

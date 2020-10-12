@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383088"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837261"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d'entrepôt
 
@@ -399,6 +399,9 @@ Le tableau suivant décrit ces options.
 <tr class="odd">
 <td>Code modèle de travail</td>
 <td>Sélectionnez le modèle de travail qui crée le travail pour un processus. Par exemple, si vous recevez un article pour une commande fournisseur, le travail de rangement sera généré selon le modèle de travail. Si vous ne sélectionnez pas de modèle de travail, Supply Chain Management affecte un modèle selon des critères de requête. Pour plus d'informations sur les modèles de travail, voir <a href="control-warehouse-location-directives.md">Contrôle du travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement</a>.</td>
+<tr class="even">
+<td>Afficher la liste des lignes de travail</td>
+<td>Sélectionnez une option pour savoir comment les collaborateurs pourront afficher les lignes et interagir avec elles pour le travail de prélèvement actuellement sélectionné. Pour plus d'informations sur cette option, consultez <a href="pick-line-overview.md">Configurer un élément de menu d'appareil mobile pour fournir un aperçu de la ligne de prélèvement</a>.</td>
 </tr>
 </tbody>
 </table>

@@ -3,7 +3,7 @@ title: Module Carte
 description: Cette rubrique couvre les modules Carte et décrit comment les configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811182"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817204"
 ---
 # <a name="map-module"></a>Module Carte
 
@@ -38,7 +38,8 @@ Un module Carte affiche les emplacements des magasins sur une carte interactive 
 
 Un module Carte fonctionne conjointement avec le module Sélection de magasin pour déterminer les emplacements géographiques des magasins qui doivent être affichés sur une carte. Les modules Sélection de magasin et Carte interagissent lorsqu’un utilisateur sélectionne un magasin dans l’un de ces modules sur une page de site. Les modules Carte peuvent être étendus pour d’autres scénarios, au-delà de l’interaction avec les modules Sélection de magasin. Cependant, la personnalisation du module est nécessaire.
 
-Le module Carte a été introduit dans la version 10.0.13 de Commerce.
+> [!NOTE]
+> Le module Carte est disponible dans Dynamics 365 Commerce version 10.0.13.
 
 L’image suivante montre un exemple de module Carte utilisé sur une page d’emplacements de magasin.
 
@@ -70,14 +71,14 @@ Pour des informations détaillées sur la configuration d’un module Carte sur 
  
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble du kit de démarrage](starter-kit-overview.md)
+[Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
-[Module de zone d’achat](add-buy-box.md)
+[Module Zone d’achat](add-buy-box.md)
 
-[Module de panier](add-cart-module.md)
+[Module Panier](add-cart-module.md)
 
-[Module de sélection de magasin](store-selector.md)
+[Module Sélection de magasin](store-selector.md)
 
-[Gérer les Bing Cartes pour votre organisation](./dev-itpro/manage-bing-maps.md)
+[Gérer Bing Cartes pour votre organisation](./dev-itpro/manage-bing-maps.md)
 
 [Contrôle web Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/)

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f7a784e6a66c0c2df9043468e9878de161c3be0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: adeffa101aa5a17543ca531aacde2130a07086e9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207414"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826802"
 ---
-# <a name="use-external-catalogs-for-punchout-eprocurement"></a>Utiliser des catalogues externes pour PunchOut eProcurement
+# <a name="use-external-catalogs-for-punchout-e-procurement"></a>Utiliser des catalogues externes pour PunchOut eProcurement
 
 [!include [banner](../includes/banner.md)]
 
@@ -50,3 +50,8 @@ S'il existe plusieurs options pour les catégories d'approvisionnement, sélecti
 Une fois que les lignes ont été ajoutées à une demande, vous pouvez ajouter d'autres lignes sans utiliser des catalogues externes. Vous pouvez également continuer à utiliser des catalogues externes pour ajouter des lignes.
 
 Lorsque la demande est prête, utilisez l'action **Workflow** > **Envoyer** pour l'envoyer pour approbation.
+
+### <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Paramétrer un catalogue externe pour PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
+- [Améliorations des cXML d’achat](purchasing-cxml-enhancements.md)

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
+ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
 ms.author: sorenand
 audience: Application User
 ms.reviewer: kamaybac
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2422dcec1fb222f1be7162d7c799a13046329b4
-ms.sourcegitcommit: f0faa2929435cd1408c5925f0ee4d6636fec5da1
+ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3552915"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895375"
 ---
 # <a name="routes-and-operations"></a>Gammes et opérations
 
@@ -224,7 +224,7 @@ Lorsque vous utilisez cette approche, la page **Relations d'opération** devient
 
 Si vous ne spécifiez pas de ressource opérationnelle ou de groupe de ressources dans le cadre des demandes de ressources pour une opération, les ressources applicables peuvent être exécutées à différentes vitesses. Par conséquent, le temps nécessaire pour traiter une opération peut varier. Pour résoudre ce problème, vous pouvez utiliser le champ **Formule** dans la relation d'opération pour spécifier le calcul du temps de traitement. Les options suivantes sont disponibles :
 
--   **Standard** – option par défaut) Le calcul utilise uniquement les champs de la relation d'opération et multiplie le temps d'exécution spécifié par la quantité de la commande.
+-   **Standard** – (option par défaut) Le calcul utilise uniquement les champs de la relation d'opération et multiplie le temps d'exécution spécifié par la quantité de la commande.
 -   **Capacité** – Le calcul comprend le champ **Capacité** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources. La valeur spécifiée pour la ressource opérationnelle est la capacité horaire. Le **Temps de traitement** est calculé comme **Quantité de la commande** divisé par la **Capacité**.
 -   **Lot** – Une capacité de lot est calculée à l'aide des informations issues de la relation d'opération. Le nombre de lots et, par conséquent, le temps d'exécution, peuvent ensuite être calculés en fonction de la quantité de la commande.
 -   **Lot de ressource** – Cette option est fondamentalement la même que l'option **Lot**. Toutefois, le calcul comprend le champ **Capacité de lot** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources.

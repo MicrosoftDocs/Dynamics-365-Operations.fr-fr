@@ -3,7 +3,7 @@ title: Appliquer les paramètres de stock
 description: Cette rubrique couvre les paramètres de stock et décrit leur application dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621219"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817607"
 ---
 # <a name="apply-inventory-settings"></a>Appliquer les paramètres de stock
 
@@ -38,6 +38,9 @@ Les paramètres de stock spécifient si le stock doit être vérifié avant que 
 Dynamics 365 Commerce fournit des estimations de la disponibilité des produits. Pour plus d’informations sur le calcul de la disponibilité estimée des produits, voir [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md).
 
 Dans le générateur de site Commerce, il est possible de définir des seuils et des plages de stocks pour un produit ou une catégorie. Ils déterminent si l’inventaire peut être classé comme en stock, en stock faible ou en rupture de stock. Pour plus de détails, voir [Configurer les marges de stock et les niveaux de stock](inventory-buffers-levels.md).
+
+> [!NOTE]
+> La prise en charge des seuils et des plages de stock est disponible dans Dynamics 365 Commerce version 10.0.12.
 
 ## <a name="inventory-settings"></a>Paramètres de stock
 
@@ -55,6 +58,9 @@ Dans Commerce, les paramètres de stock sont définis dans **Paramètres du site
     - Quand **En rupture de stock** est sélectionné, seul le message « Épuisé » sera affiché.
 
 - **Seuil de rupture de stock** – Cet ancien paramètre numérique ne prendra effet que si la valeur **Seuil de rupture de stock** est sélectionnée pour le paramètre **Niveau de stock basé sur**.
+
+> [!IMPORTANT] 
+> Ces paramètres sont disponibles dans la version 10.0.12 de Dynamics 365 Commerce. Si vous effectuez une mise à jour à partir d'une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>Modules qui utilisent les paramètres de stock
 
@@ -74,14 +80,16 @@ L’image suivante montre un exemple de panier qui affiche un message de stock (
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble du kit de démarrage](starter-kit-overview.md)
+[Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
-[Configurer les marges de stock et les niveaux de stock](inventory-buffers-levels.md)
+[Configurer des marges de stock et des niveaux de stock](inventory-buffers-levels.md)
 
 [Module de panier](add-cart-module.md)
 
 [Module de zone d’achat](add-buy-box.md)
 
-[Pages et modules de gestion des comptes](account-management.md)
+[Pages et modules Gestion des comptes](account-management.md)
 
-[Module de sélection de magasin](store-selector.md)
+[Module Sélection de magasin](store-selector.md)
+
+[Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md)

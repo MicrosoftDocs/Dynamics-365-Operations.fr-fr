@@ -3,7 +3,7 @@ title: Vue d'ensemble de la page d'accueil
 description: Cette rubrique offre une vue d'ensemble de la page d'accueil dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527580"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817752"
 ---
 # <a name="home-page-overview"></a>Vue d'ensemble de la page d'accueil
 
@@ -34,7 +34,7 @@ Cette rubrique offre une vue d'ensemble de la page d'accueil dans Microsoft Dyna
 
 La page d'accueil est la page par défaut vers laquelle les clients se dirigent lorsqu'ils visitent un site du commerce électronique. En général, cette page présente des produits et des promotions à l'aide d'une combinaison des modules de marketing. La page d'accueil doit être enrichie d'images et de texte permettant de continuer de susciter l'intérêt des clients.
 
-L'illustration suivante présente un exemple de page d'accueil qui a été générée à l'aide du kit de démarrage en ligne et le thème « Fabrikam ».
+L'illustration suivante montre un exemple de page d'accueil qui a été générée à l'aide de la bibliothèque de modules et du thème « Fabrikam ».
 
 ![Exemple d'une page d'accueil](./media/Homepage2.PNG)
 

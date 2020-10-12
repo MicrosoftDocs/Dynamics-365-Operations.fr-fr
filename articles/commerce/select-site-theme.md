@@ -3,7 +3,7 @@ title: Sélectionner un thème pour le site
 description: Cette rubrique décrit la procédure de définir ou de modifier le thème de votre site dans Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002749"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817704"
 ---
 # <a name="select-a-site-theme"></a>Sélectionner un thème pour le site
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ Cette rubrique décrit la procédure de définir ou de modifier le thème de vot
 
 La disposition et le style d'un site (par exemple, les polices, les tailles, les couleurs etc.) sont définis par le thème sélectionné et que vous appliquez au site. Un thème est créé et déployé par un développeur de votre société. Pour obtenir une vue d'ensemble des thèmes, voir [Vue d'ensemble de la création de thème](http://). Pour plus d'informations sur la création et le déploiement de thèmes, voir [Créer un thème](http://).
 
-Par défaut, lorsque vous commencez par créer un site, il utilise un thème nommé **Fabrikam**. Ce thème par défaut est disponible dans le cadre du kit de démarrage. Après avoir déployé des thèmes supplémentaires pour votre site, vous pouvez configurer le site afin qu'il utilise l'un d'entre eux à la place.
+Par défaut, lorsque vous commencez par créer un site, il utilise un thème nommé **Fabrikam**. Ce thème par défaut est disponible dans le cadre de la bibliothèque de modules Commerce. Après avoir déployé des thèmes supplémentaires pour votre site, vous pouvez configurer le site afin qu'il utilise l'un d'entre eux à la place.
 
 ## <a name="select-the-site-theme"></a>Sélectionner le thème du site
 
@@ -59,8 +58,8 @@ Pour sélectionner un thème appliqué à votre site, procédez comme suit.
 
 [Ajouter un message de bienvenue](add-welcome-message.md)
 
-[Ajouter un avis de droits d'auteur](add-copyright-notice.md)
+[Ajouter un avis de droits d’auteur](add-copyright-notice.md)
 
 [Ajouter des langues à votre site](add-languages-to-site.md)
 
-[Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
+[Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)

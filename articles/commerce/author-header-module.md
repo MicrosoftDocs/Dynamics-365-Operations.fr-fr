@@ -1,9 +1,9 @@
 ---
 title: Module d’en-tête
 description: Cette rubrique couvre les modules d’en-tête et décrit comment créer des en-têtes de page dans Microsoft Dynamics 365 Commerce.
-author: anupamar
+author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: eb440a8fb67888c9411ad5998fead4d00982b436
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 99457b2c98eae0ddd898f852630d690140a5a4c5
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761222"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817008"
 ---
 # <a name="header-module"></a>Module d’en-tête
 
@@ -94,7 +94,7 @@ Pour vous assurer qu’un en-tête apparaît sur chaque page, suivez ces étapes
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble du kit de démarrage](starter-kit-overview.md)
+[Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
 [Module Conteneur](add-container-module.md)
 

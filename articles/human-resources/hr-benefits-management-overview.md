@@ -3,7 +3,7 @@ title: Vue d'ensemble de la gestion des avantages
 description: Présentation de la fonction de gestion des avantages dans Dynamics 365 Human Resources. Offrez à vos employés des options d'avantages étendues avec une expérience en ligne facile à utiliser.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599378"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819763"
 ---
 # <a name="benefits-management-overview"></a>Vue d'ensemble de la gestion des avantages
 
@@ -41,15 +41,9 @@ Pour rester compétitif, vous devez offrir un riche ensemble d'avantages pour at
 
 Si vous souhaitez accéder aux données de démonstration, vous devrez redéployer votre environnement de bac à sable.
 
-## <a name="benefits-management-known-issues"></a>Problèmes connus liés à la gestion des avantages
-
-### <a name="flex-credit-programs"></a>Programmes de crédit flexible
-
-La valeur totale du crédit définie pour un programme de crédit flexible ne s'affiche pas dans le formulaire **Plans d'avantages des collaborateurs**. De plus, si vous définissez un programme de crédit flexible comme ayant une règle de prorata définie sur **Aucune**, vous obtenez une erreur dans le formulaire **Plans d'avantages pour les collaborateurs** lors de la sélection et de la confirmation des plans.
-
 ## <a name="enable-benefits-management"></a>Activation de la gestion des avantages
 
-Cet article décrit comment activer les fonctionnalités dans Human Resources. Il indique également les fonctionnalités existantes dans Human Resources que la gestion des avantages remplace ou qui sont désactivées une fois que vous avez activé la gestion des avantages.
+Cette rubrique décrit comment activer les fonctionnalités dans Human Resources. Il indique également les fonctionnalités existantes dans Human Resources que la gestion des avantages remplace ou qui sont désactivées une fois que vous avez activé la gestion des avantages.
 
 > [!IMPORTANT]
 > Après avoir activé la gestion des avantages dans un environnement de type **Production**, vous ne pouvez pas le désactiver. Nous vous recommandons d'activer et de tester la gestion des avantages dans un environnement de type **Bac à sable** avant de l'activer dans un environnement de type **Production**. Il existe des différences importantes entre l'ancienne fonctionnalité Avantage et la nouvelle fonctionnalité de gestion des avantages qui nécessitent une configuration supplémentaire et doivent être testées avant d'être mises en production.
@@ -70,19 +64,19 @@ Avant de pouvoir créer des plans d'avantages pour vos employés, vous devez con
 
 - [Configuration des paramètres de gestion des avantages](hr-benefits-setup-parameters.md)
 - [Configuration des règles et des options d'admissibilité](hr-benefits-setup-eligibility-rules.md)
-- [Configurer les options d'éligibilité des contacts personnels](hr-benefits-setup-contact-eligibility-options.md)
+- [Configurer les options d’éligibilité des contacts personnels](hr-benefits-setup-contact-eligibility-options.md)
 - [Créer des options de couverture](hr-benefits-setup-coverage-options.md)
 - [Configurer les fréquences de paiement](hr-benefits-setup-payment-frequencies.md)
-- [Configurer les types d'événements de vie](hr-benefits-setup-life-event-types.md)
+- [Configurer les types d’événements de vie](hr-benefits-setup-life-event-types.md)
 - [Créer des types de plan](hr-benefits-setup-plan-types.md)
 - [Paramétrer des codes motif](hr-benefits-setup-reason-codes.md)
 - [Configurer les codes de niveau](hr-benefits-setup-tier-codes.md)
 - [Configurer les taux](hr-benefits-setup-rates.md)
 - [Configurer les déductions](hr-benefits-setup-deductions.md)
-- [Configurer les jours d'attente](hr-benefits-setup-waiting-days.md)
-- [Configurer les périodes d'attente](hr-benefits-setup-waiting-periods.md)
-- [Configurer les règles d'arrondi](hr-benefits-setup-rounding-rules.md)
-- [Créer des catégories d'emploi](hr-benefits-setup-employment-categories.md)
+- [Configurer les jours d’attente](hr-benefits-setup-waiting-days.md)
+- [Configurer les périodes d’attente](hr-benefits-setup-waiting-periods.md)
+- [Configurer les règles d’arrondi](hr-benefits-setup-rounding-rules.md)
+- [Créer des catégories d’emploi](hr-benefits-setup-employment-categories.md)
 - [Configuration des types d'emploi](hr-benefits-setup-employment-types.md)
 - [Configuration du libre-service employé](hr-benefits-setup-employee-self-service.md)
 

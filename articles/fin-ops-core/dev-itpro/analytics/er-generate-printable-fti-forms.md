@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771281"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893361"
 ---
 # <a name="generate-printable-fti-forms"></a>Générer des écrans FTI imprimables
 
@@ -111,7 +111,7 @@ Vous pouvez également générer des écrans FTI lorsque vous validez une FTI, e
 La structure de gestion des états électroniques prend en charge actuellement les destinations suivantes pour les documents générés :
 
 - **Fichier téléchargé** – Les écrans générés sont proposés en tant que téléchargements que vous pouvez enregistrer à l'aide du navigateur.
-- **Écran** – Microsoft Office 365 Excel est utilisé pour afficher un aperçu des écrans FTI générés au format Excel.
+- **Écran** – Microsoft 365 Excel est utilisé pour afficher un aperçu des écrans FTI générés au format Excel.
 - **Dossier SharePoint** – Les écrans générés sont stockés selon les paramètres de la structure de gestion des documents.
 - **Archives d'application** – Les écrans générés sont stockés en tant que pièces jointes des enregistrements de journal d'exécution dans le stockage Microsoft Azure.
 - **E-mail** – Les écrans générés sont envoyés en tant que pièces jointes.

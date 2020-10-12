@@ -15,12 +15,12 @@ ms.search.region: belgium
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6cb8ab8e2e257113bbe8b076d8daa811e2a730f6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: d54dddc5d2f1383933def2e8741d0911cf3427ae
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772871"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819754"
 ---
 # <a name="belgium-overview"></a>Vue d'ensemble spécifique à la Belgique
 
@@ -32,7 +32,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui doiv
 CODA est un format d'état qui est utilisé dans le système bancaire électronique belge. Pour plus d'informations, voir [Relevé bancaire CODA](emea-bel-coda-bank-statement-import.md).
 
 ## <a name="export-ledger-transactions"></a>Exporter les écritures comptables
-Vous pouvez exporter des écritures comptables pour un intervalle spécifique, tel qu'un exercice, sous forme de fichier ASCII au format CED. Vous pouvez utiliser le traitement par lots pour exporter des transactions. Pour paramétrer le processus de traitement par lots, accédez à **Comptabilité** > **Périodique** > **Exporter les écritures comptables**.
+Vous pouvez exporter des écritures comptables pour un intervalle spécifique, tel qu'un exercice, sous forme de fichier ASCII au format CED. Vous pouvez utiliser le traitement par lots pour exporter des transactions. Pour paramétrer le processus de traitement par lots, accédez à **Comptabilité** > **Périodique** > **Exporter les écritures comptables**. Pour plus d'informations, voir [Exporter les écritures comptables](emea-bel-export-ledger-transactions.md).
 
 ## <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 Pour plus d'informations sur la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement, voir [Déclaration de taxe INTERVAT](emea-bel-intervat-tax-declaration.md). Pour plus d'informations sur les états standard qui peuvent vous aider avec la déclaration de taxe INTERVAT et l'analyse de rapprochement, voir [États de rapprochement pour la Belgique](emea-bel-reconciliation-reports.md).

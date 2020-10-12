@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141520"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899347"
 ---
 # <a name="base-price-and-trade-agreements"></a> Prix de base et accords commerciaux
 
@@ -58,7 +58,7 @@ Cette procédure décrit la création d'accords commerciaux sur les prix de vent
 26. Dans le champ **Nom**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 27. Dans la liste, sélectionnez **Commerce**. Dans les données de démonstration, le nom de journal **Commerce** a la relation par défaut **Prix (vente)**. Cela signifie que toutes les lignes créées utilisent par défaut les accords commerciaux sur les prix de vente.  
 28. Dans le **Volet Actions**, cliquez sur **Lignes**.
-29. Sélectionnez « Groupe » dans le champ **Code de compte**.
+29. Dans le champ **Type de code partie**, sélectionnez « Groupe ».
 30. Dans le champ **Sélection du compte**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 31. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Cela exécutera le lien entre le canal et le groupe de prix pour l'accord commercial.  
 32. Tapez une valeur dans le champ **Relation d'article**.

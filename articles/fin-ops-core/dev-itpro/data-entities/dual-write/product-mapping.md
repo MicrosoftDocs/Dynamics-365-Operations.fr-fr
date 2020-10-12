@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
+ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621326"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3835852"
 ---
 # <a name="unified-product-experience"></a>Expérience produit uniformisée
 
@@ -91,7 +91,7 @@ Comme le produit est représenté par un SKU, les concepts des produits distinct
 
 ![Modèle de données pour les produits](media/dual-write-product.png)
 
-Si la fonctionnalité de double écriture est activée, les applications de Finance and Operations seront synchronisées dans les autres applications Dynamics 365 en mode **Brouillon**. Elles sont ajoutées à la première liste de prix avec la même devise. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de l’entité juridique dans laquelle le produit est lancé dans une application Finance and Operations. 
+Si la fonctionnalité de double écriture est activée, les produits de Finance and Operations seront synchronisés dans d'autres produits Dynamics 365 en mode **Brouillon**. Elles sont ajoutées à la première liste de prix avec la même devise. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de l’entité juridique dans laquelle le produit est lancé dans une application Finance and Operations. 
 
 Par défaut, les produits en provenance des applications Finance and Operations sont synchronisés avec les autres applications Dynamics 365 en mode **Brouillon**. Pour synchroniser le produit à l’état **Actif**, afin de pouvoir l’utiliser directement dans les devis de commande client, par exemple, le paramètre suivant doit être choisi : sous **Système > Adminstration > Administration système > Paramètres système > Ventes** sélectionnez **Créer des produits à l’état actif = Oui**. 
 

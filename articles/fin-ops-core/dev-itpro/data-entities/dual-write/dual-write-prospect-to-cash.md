@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
-ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
+ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
+ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "3719262"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829210"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
@@ -99,29 +99,7 @@ Si vous synchronisez de Supply Chain Management vers Sales, vous obtenez le rés
 
 ## <a name="dual-write-solution-for-sales"></a>Solution en double écriture pour Sales
 
-De nouveaux champs sont ajoutés à l’entité **Commande** et s’affichent sur la page. La plupart de ces champs apparaissent sur l’onglet **Intégration** dans Sales. Il existe quelques champs spéciaux :
-
-+ **Statut de traitement** - Ce champ affiche le statut de traitement de la commande dans Supply Chain Management. Ce champ est verrouillé et affiche uniquement le statut de la commande de Supply Chain Management. Les valeurs disponibles sont les suivantes :
-
-    + **Actif** – Statut une fois que la commande est activée dans Sales à l’aide du bouton **Activer**.
-    + **Confirmée**
-    + **Livré**
-    + **Facturé**
-    + **Partiellement livré**
-    + **Partiellement facturé**
-    + **Prélevé**
-    + **Annulé(e)**
-
-    Le tableau suivant montre comment le statut de traitement est mappé sur la valeur **Code d’état CRM**.
-
-    | Statut de traitement           | Code du statut CRM    |
-    |-----------------------------|--------------------|
-    | Actifs                      | Nouveau/En cours/En attente |
-    | Confirmé/Prélevé            | En cours        |
-    | Partiellement livré         | Partielle            |
-    | Livré                   | Complète           |
-    | Facturé/Partiellement facturé | Facturé           |
-    | Annulé(e)                    | Pas d’argent           |
+De nouveaux champs sont ajoutés à l’entité **Commande** et s’affichent sur la page. La plupart de ces champs apparaissent sur l’onglet **Intégration** dans Sales. Pour en savoir plus sur le mappage des champs de statut, reportez-vous à la rubrique de la documentation pour [Configurer le mappage pour les champs de statut de la commande client](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
 
 + Les boutons **Créer une facture** et **Annuler une commande** sur la page **Commande client** sont masquées dans Sales.
 + Le **Statut d’une commande client** restera **Actif** pour garantir que les modifications effectuées dans Supply Chain Management peuvent être répercutées dans la commande client avec Sales. Cette opération est contrôlée en définissant le paramètre par défaut **Statecode \[Statut\]** sur **Actif**.

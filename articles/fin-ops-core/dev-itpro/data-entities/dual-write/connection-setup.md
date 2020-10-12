@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
-ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
+ms.openlocfilehash: b4f69e7933bc5a50cccad6911c99cf08d2768578
+ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3706250"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3818594"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Scénarios pris en charge pour la configuration en double écriture
 
@@ -42,7 +42,7 @@ Vous pouvez configurer une connexion en double écriture entre un environnement 
 
 Le mécanisme de configuration varie en fonction de votre abonnement et de l’environnement.
 
-+ Pour les nouvelles instances des applications Finance and Operations, la configuration d’une connexion en double écriture commence dans Microsoft Dynamics Lifecycle Services (LCS). Si vous avez une licence pour Microsoft Power Platform, vous obtiendrez un nouvel environnement Common Data Service si votre client n’en a pas.
++ Pour les nouvelles instances des applications Finance and Operations, la configuration d’une connexion en double écriture commence dans Microsoft Dynamics Lifecycle Services (LCS). Si vous avez une licence pour Power Platform, vous obtiendrez un nouvel environnement Common Data Service si votre client n’en a pas.
 + Pour les applications Finance and Operations des instances existantes, la configuration d’une connexion en double écriture commence dans l’environnement Finance and Operations.
 
 Les scénarios de configuration suivants sont pris en charge :

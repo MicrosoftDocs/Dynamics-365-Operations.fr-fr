@@ -3,7 +3,7 @@ title: Module de consentement aux cookies
 description: Cette rubrique couvre les modules de consentement aux cookies et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 842096c6e3045e434aced9642c86690e2ff7483a
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 60ce530575841c22355e4a14e8b0bbec6c0e35ab
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761390"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817280"
 ---
 # <a name="cookie-consent-module"></a>Module de consentement aux cookies
 
@@ -57,7 +57,7 @@ Pour plus d’informations sur les fragments d’en-tête et les modules, voir [
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble du kit de démarrage](starter-kit-overview.md)
+[Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
 [Module En-tête](author-header-module.md) 
 

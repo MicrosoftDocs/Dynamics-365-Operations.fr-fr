@@ -17,12 +17,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: ac59959451bf4267d1347db29d3326605c9121e6
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 7c95a3f84ac95b51bc329d92150d6a7bf3796256
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621339"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819854"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -668,7 +668,7 @@ Vous pouvez également clôturer la période fiscale en générant un paiement d
 4.  Cliquez sur **OK**. Le système génère la ligne de déclaration de taxe INTERVAT et un fichier XML INTERVAT.
 5.  Passez en revue les informations de la déclaration.
 
-![](media/2_Intervat_tax declaration.png)
+![Page Déclaration de taxe INTERVAT](media/2_Intervat_tax%20declaration.png)
 
 6.  Dans l’onglet **Général**, vérifiez les champs suivants : **ID INTERVAT**, **Date**, **Période**, **Date de début**, **Date de fin**, **Fréquence**, **Statut** et **Nom du fichier**.
 7.  Dans l’onglet **Cadre I : Informations générales**, vérifiez les champs suivants. Vous pouvez modifier ces champs, même si la période a été clôturée. Les exceptions sont les champs de la section **Pourcentages au prorata**. Ces champs sont en lecture seule.

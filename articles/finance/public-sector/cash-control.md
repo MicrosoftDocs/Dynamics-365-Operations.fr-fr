@@ -1,27 +1,27 @@
 ---
 title: Savoir utiliser les limites de contrôle de disponibilités
 description: Cette rubrique explique comment utiliser le contrôle de disponibilités pour définir des limites de transaction lorsqu'il n'y a aucun solde de disponibilités ou qu'une transaction fait chuter le solde des disponibilités sous un montant prédéfini.
-author: velofog
+author: v-kiarnd
 manager: AnnBe
-ms.date: 08/07/2019
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: v-alpavk
+ms.author: v-kiarnd
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f9338ec7c33927a742b28f8ef0621f2209f9adb3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3344ff472f1a844fe96953ff854e958316498339
+ms.sourcegitcommit: 49bee13f0df00e50b5a6c1a3d227246cb5cc50d8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174633"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3827265"
 ---
 # <a name="use-cash-control-limits"></a>Savoir utiliser les limites de contrôle de disponibilités
 
@@ -30,7 +30,7 @@ ms.locfileid: "2174633"
 
 Cette rubrique explique comment utiliser le contrôle de disponibilités pour définir des limites de transaction lorsqu'il n'y a aucun solde de disponibilités ou qu'une transaction fait chuter le solde des disponibilités sous un montant prédéfini.
 
-Le contrôle de disponibilités permet de définir une limite (seuil) pour empêcher de valider des transactions si aucun solde de disponibilités n'est disponible, ou si une transaction fait chuter le solde sous un montant défini. Les factures fournisseur de la comptabilité fournisseur et les écritures comptables avancées de la comptabilité sont validées lors de leur création, de leur modification, et de leur contrôle. Si la validation de la transaction fait chuter le solde du compte de disponibilités associé sous la limite définie, un message d'erreur s'affiche et vous devez modifier le compte pour continuer.
+Le contrôle de disponibilités permet de définir une limite (seuil) pour empêcher de valider des transactions si aucun solde de disponibilités n'est disponible, ou si une transaction fait chuter le solde sous un montant défini. Le compte défini dans la définition de validation utilisée est évalué lorsque des transactions sont créées, modifiées et validées. Si aucune entrée n'est générée, le compte correspondant est utilisé. Si la validation de la transaction fait chuter le solde du compte de disponibilités associé sous la limite définie, un message d'erreur s'affiche et vous devez modifier le compte pour continuer. .
 
 Vous pouvez autoriser des groupes d'utilisateurs spécifiques à contourner le contrôle de disponibilités. Ensuite, si le solde du compte de disponibilités chute en dessous de la limite définie, des utilisateurs des groupes d'utilisateurs spécifiés reçoivent un message d'avertissement, mais peuvent procéder à la validation de la transaction. Les utilisateurs peuvent contourner le contrôle de disponibilités si la dépense doit être validée avant la réception des fonds, ou lorsqu'un transfert approuvé doit avoir lieu, mais qu'il n'a pas encore été entré ou validé.
 
