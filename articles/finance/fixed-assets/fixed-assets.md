@@ -1,5 +1,5 @@
 ---
-title: Page d'accueil des immobilisations
+title: Page d’accueil des immobilisations
 description: Les immobilisations sont des articles de valeur (bâtiments, véhicules, terrains et équipements) détenus par un individu ou une organisation.
 author: ShylaThompson
 manager: AnnBe
@@ -15,25 +15,25 @@ ms.search.scope: Core, Operations
 ms.custom: 21481
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e761283057ff71fb10d4a5333a0b0dd4b6b6149e
-ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
+ms.openlocfilehash: e7ac2ba5dca7b2607a754a64a25ea079ac961300
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888082"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977261"
 ---
-# <a name="fixed-assets-home-page"></a>Page d'accueil des immobilisations
+# <a name="fixed-assets-home-page"></a>Page d’accueil des immobilisations
 
 [!include [banner](../includes/banner.md)]
 
 Les immobilisations sont des articles de valeur (bâtiments, véhicules, terrains et équipements) détenus par un individu ou une organisation. 
 
-Vous pouvez définir et entrer des informations d'acquisition pour les immobilisations, puis les gérer en les amortissant et en paramétrant un seuil de capitalisation pour déterminer l'amortissement. Vous pouvez calculer des ajustements pour les immobilisations ou les céder. Lorsque vous utilisez les modules Comptabilité et Immobilisations, vous pouvez afficher la valeur actuelle de toutes les immobilisations. Le traitement des immobilisations doit être conforme aux normes comptables internationales et à la législation comptable de chaque pays/région. Il peut s'agir de respecter des règles concernant l'enregistrement des transactions d'acquisition et de cession, l'amortissement, les durées de vie, les revalorisations et dévalorisations des immobilisations. La fonctionnalité Immobilisations intègre bon nombre de ces normes et règles.
+Vous pouvez définir et entrer des informations d’acquisition pour les immobilisations, puis les gérer en les amortissant et en paramétrant un seuil de capitalisation pour déterminer l’amortissement. Vous pouvez calculer des ajustements pour les immobilisations ou les céder. Lorsque vous utilisez les modules Comptabilité et Immobilisations, vous pouvez afficher la valeur actuelle de toutes les immobilisations. Le traitement des immobilisations doit être conforme aux normes comptables internationales et à la législation comptable de chaque pays/région. Il peut s’agir de respecter des règles concernant l’enregistrement des transactions d’acquisition et de cession, l’amortissement, les durées de vie, les revalorisations et dévalorisations des immobilisations. La fonctionnalité Immobilisations intègre bon nombre de ces normes et règles.
 
-[![Processus d'entreprise](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Processus d’entreprise](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 
@@ -45,7 +45,7 @@ Accédez aux [Programmes de publication de Microsoft Dynamics 365](https://go.mi
 
 #### <a name="blogs"></a>Blogs
 
-Vous trouverez des avis, des actualités et d'autres informations sur le [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) et le [Blog financier de Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+Vous trouverez des avis, des actualités et d’autres informations sur le [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) et le [Blog financier de Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Le [blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre aux partenaires de Microsoft Dynamics une ressource unique pour découvrir les nouveautés et les tendances de Dynamics 365.
 

@@ -14,20 +14,20 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
-ms.author: shylaw
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598179"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979302"
 ---
 # <a name="globalization-resources"></a>Ressources de globalisation
 
 ## <a name="local-and-regional-deployments"></a>Déploiements locaux et régionaux
-Si vos réglementations gouvernementales nécessitent que les données soient stockées ou gérées différemment de ce qui est requis pour d'autres pays/régions, il se peut que vous deviez tenir compte de certaines exigences du pays/de la région lors du déploiement. Tenez compte des ressources suivantes susceptibles de vous concerner :
+Si vos réglementations gouvernementales nécessitent que les données soient stockées ou gérées différemment de ce qui est requis pour d’autres pays/régions, il se peut que vous deviez tenir compte de certaines exigences du pays/de la région lors du déploiement. Tenez compte des ressources suivantes susceptibles de vous concerner :
 
 [Applications Finance and Operations exploitées par 21Vianet en Chine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
@@ -35,7 +35,7 @@ Si vos réglementations gouvernementales nécessitent que les données soient st
 
 [!include [banner](../includes/banner.md)]
 
-Les applications Finance and Operations incluent une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité pour la localisation et la traduction du produit](https://aka.ms/dynamics_365_international_availability_deck). Cette fonctionnalité est activée en fonction de l'adresse principale de l'entité juridique active. 
+Les applications Finance and Operations incluent une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité pour la localisation et la traduction du produit](https://aka.ms/dynamics_365_international_availability_deck). Cette fonctionnalité est activée en fonction de l’adresse principale de l’entité juridique active. 
 
 Cette rubrique liste des ressources utiles pour effectuer ce qui suit : 
 - En savoir plus sur le développement de solutions spécifiques à des pays/régions.
@@ -57,7 +57,7 @@ Les ressources suivantes fournissent des informations sur les nouvelles fonction
 #### <a name="regulatory-updates"></a>Mises à jour réglementaires
 -   [Mises à jour réglementaires](../../../finance/localizations/regulatory-updates.md)
 -   [Portail de localisation](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (mis à jour toutes les semaines)
--   [Recherche d'incidents dans Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (mise à jour quotidiennement)
+-   [Recherche d’incidents dans Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (mise à jour quotidiennement)
 
 #### <a name="communication-and-alerts"></a>Communication et alertes
 -   [Veille réglementaire et communication des mises à jour réglementaires](regulatory-watch-communication.md)
@@ -70,26 +70,26 @@ Les [Programmes de publication de Dynamics 365](https://docs.microsoft.com/busi
 La [page d’accueil Nouveautés ou modifications de Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) répertorie les fonctionnalités qui sont incluses dans des versions spécifiques des applications Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Gestion des états électroniques
-L’outil de gestion des états électroniques (ER) vous permet de configurer des formats électroniques conformes aux obligations légales de différents pays/régions. Il vous permet de gérer ces formats au cours de tout leur cycle de vie. Pour plus d'informations, voir l'une des rubriques suivantes :
--   [Vue d'ensemble des états électroniques](../analytics/general-electronic-reporting.md)
+L’outil de gestion des états électroniques (ER) vous permet de configurer des formats électroniques conformes aux obligations légales de différents pays/régions. Il vous permet de gérer ces formats au cours de tout leur cycle de vie. Pour plus d’informations, voir l’une des rubriques suivantes :
+-   [Vue d’ensemble des états électroniques](../analytics/general-electronic-reporting.md)
 -   [Gérer le cycle de vie de la configuration des états électroniques](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Créer des configurations de gestion des états électroniques](../analytics/electronic-reporting-configuration.md)
 -   [Étendre la liste des fonctions de gestion des états électroniques](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Destinations pour la gestion des états électroniques](../analytics/electronic-reporting-destinations.md)
--   [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Importer des configurations de gestion des états électroniques](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Configurer la gestion des états électroniques pour extraire les données dans Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Générer des documents électroniques et mettre à jour les données d'application à l'aide des états électroniques](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Générer des documents électroniques et mettre à jour les données d’application à l’aide des états électroniques](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>Guides de tâche
-Les guides de tâches sont disponibles dans le volet d'aide du produit et ils constituent une procédure pas à pas des processus entreprise clés. Vous pouvez ouvrir un guide de tâche pour consulter les étapes d'un processus métier ou vous pouvez lire un guide de tâche pour parcourir un processus métier et entrer des données.
+Les guides de tâches sont disponibles dans le volet d’aide du produit et ils constituent une procédure pas à pas des processus entreprise clés. Vous pouvez ouvrir un guide de tâche pour consulter les étapes d’un processus métier ou vous pouvez lire un guide de tâche pour parcourir un processus métier et entrer des données.
 
-Pour trouver les guides de tâche, accédez à une page dans l'application et cliquez sur Aide. Les guides de tâche qui utilisent la page sont répertoriés dans le volet d'aide. Vous pouvez également utiliser le volet d'aide pour rechercher des guides de tâches par titre.
+Pour trouver les guides de tâche, accédez à une page dans l’application et cliquez sur Aide. Les guides de tâche qui utilisent la page sont répertoriés dans le volet d’aide. Vous pouvez également utiliser le volet d’aide pour rechercher des guides de tâches par titre.
 
-Pour en savoir plus, consultez [Système d'aide](../../fin-ops/get-started/help-overview.md#task-guides).
+Pour en savoir plus, consultez [Système d’aide](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
-### <a name="countryregion-specific-help-content"></a>Rubriques d'aide spécifiques à un pays/une région
+### <a name="countryregion-specific-help-content"></a>Rubriques d’aide spécifiques à un pays/une région
 :::row:::
     :::column:::
         - [Australie](../../../finance/localizations/australia.md)
