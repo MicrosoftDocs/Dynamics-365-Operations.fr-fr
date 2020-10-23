@@ -70,6 +70,8 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.15 (janvier 2021)
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: "Finance\_10.0.14 (novembre\_2020)"
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: "Finance\_10.0.13 (octobre\_2020)"
@@ -194,7 +196,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: Déplacer les projets de mise en œuvre LCS vers différents locataires Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
-                - name: Plusieurs projets et environnements de production LCS sur un même locataire Azure AD
+                - name: Déplacer les projets de mise en œuvre du site vers le cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
+                - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Comptabilité fournisseur
           items:
@@ -226,6 +230,16 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Paramétrer la validation du rapprochement de factures dans la comptabilité fournisseur
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Automatisation des factures fournisseur
+              items:
+                - name: Vue d’ensemble des processus de facturation automatisée des fournisseurs
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: Options de configuration pour l’automatisation des factures fournisseur
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Soumettre les factures au système de workflow et mettre en correspondance des lignes d’accusé de réception de marchandises
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: Afficher les résultats de l’automatisation des factures fournisseur
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Rapprochement de factures et commandes fournisseur intersociétés
@@ -258,7 +272,7 @@
               href: accounts-payable/mobile-invoice-approvals.md
             - name: Espace de travail de facturation de collaboration fournisseur
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: Automatisation des factures fournisseur
+            - name: Automatisation des factures pour les documents numérisés
               href: accounts-payable/vendor-invoice-automation.md
             - name: Gestion des contrats de courtier
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Paramétrer et générer des informations sur la plage âgée de la comptabilité client
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Balance âgée des clients
+              href: accounts-receivable/customer-aging.md
             - name: Créer un journal d’annulation pour un client
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Gestion des notes avancées
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Amortissement linéaire sur la durée de vie
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: Leasing d’actifs
+          items:
+            - name: Démarrer avec le leasing d’actifs
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: Comptabilité
           items:
             - name: Vue d’ensemble de la comptabilité
@@ -1884,7 +1904,7 @@
                   items:
                     - name: Vue d’ensemble de GST de l’Inde
                       href: localizations/apac-ind-gst.md
-                    - name: Quoi de neuf ou de changé pour la localisation APAC India GST
+                    - name: Quoi de neuf ou de changé pour la localisation GST de l’Inde
                       items:
                         - name: Nouveautés ou modifications dans 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: "Nouveautés ou modifications dans\_10.0.12"
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: Nouveautés ou modifications dans 10.0.13
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: Groupes de référence GST pour l’Inde
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Intégration GST des caisses enregistreuses
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: Mouvements de stock
                       items:
+                        - name: Ordres de transfert des stocks
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: Ordres de transfert des stocks avec taxe sur le prix de transfert
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: Transaction de paiement client
@@ -2076,8 +2100,6 @@
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: FAQ sur les seuils de taxe
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: Transferts d’actions
-                  href: localizations/apac-ind-stock-transfer.md
             - name: Italie
               items:
                 - name: Vue d’ensemble de l’Italie

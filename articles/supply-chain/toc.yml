@@ -70,12 +70,12 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: "Supply Chain Management\_10.0.15 (décembre\_2020)"
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: "Supply Chain Management\_10.0.14 (novembre\_2020)"
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: "Supply Chain Management\_10.0.13 (octobre\_2020)"
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: "Supply Chain Management\_10.0.12 (août\_2020)"
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Fonctionnalités supprimées ou obsolètes
                   items:
                     - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
@@ -194,7 +194,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Déplacer les projets de mise en œuvre LCS vers différents locataires Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Plusieurs projets et environnements de production LCS sur un même locataire Azure AD
+                - name: Déplacer les projets de mise en œuvre du site vers le cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
+                - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Globalisation
           items:
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mises à jour réglementaires
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Inde
+              items:
+                - name: Ordres de transfert des stocks
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Russie
               items:
                 - name: Vue d’ensemble de la Russie
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Améliorer les performances de planification
                   href: master-planning/master-planning-performance.md
+                - name: Améliorer les performances du moteur de planification
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Planification générale et fonctionnalité multisite
                   items:
                     - name: Vue d’ensemble de planification générale et fonctionnalité multisite
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: Tenir à jour une gamme pour un modèle de produit
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: Prix de vente basés sur les attributs pour la configuration de produits basée sur les contraintes
+                      href: pim/attribute-based-product-configurator.md
                     - name: Approuver un modèle de configuration de produit
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Transférer des données pour des modèles de produit
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: Signaler comme terminé à partir du périphérique du bon de travail
                       href: production-control/report-finished-job-device.md
+                    - name: Fournir des guides de réalité mixte aux collaborateurs de la production
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: Inverser le statut d’ordre de fabrication
                       href: production-control/reverse-production-order-status.md
                     - name: Visibilité des exceptions de matières
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Activer l’impression d’étiquette de contenant
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Créer des ordres de transfert depuis l’application d’entrepôt
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Traitement des événements de l’application d’entrepôt
+                      href: warehousing/warehouse-app-events.md
                     - name: Confirmation de prélèvement de pièces
                       href: warehousing/piece-picking-confirmation.md
                     - name: Matières d’emballage et frais
@@ -2827,7 +2843,7 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurer les appareils mobiles pour le travail d’entrepôt
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Réception du contenant avec l'application d'entreposage
+                    - name: Réception du contenant avec l’application d’entreposage
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Paramétrer une option de menu d’appareil mobile pour terminer le travail d’une commande fournisseur
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Traiter la structure du guide
                       href: warehousing/process-guide-framework.md
+                    - name: Résoudre les problèmes de connexion de l’application d’entrepôt
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Mise à niveau et migration
                   items:
                     - name: "Mettre à niveau les processus de gestion des entrepôts depuis Microsoft Dynamics AX\_2012 vers Finance and Operations"
