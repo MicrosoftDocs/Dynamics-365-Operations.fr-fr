@@ -12,64 +12,64 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aea9c785ce57bf498007d3127edbd270b1c31a52
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b5efd1d471559d320102cd81e4be1ba8c1858f45
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203478"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981182"
 ---
-# <a name="find-obsolete-product-variants"></a><span data-ttu-id="136a2-103">Rechercher les variantes de produit obsolètes</span><span class="sxs-lookup"><span data-stu-id="136a2-103">Find obsolete product variants</span></span> 
+# <a name="find-obsolete-product-variants"></a><span data-ttu-id="2ce0e-103">Rechercher les variantes de produit obsolètes</span><span class="sxs-lookup"><span data-stu-id="2ce0e-103">Find obsolete product variants</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="136a2-104">Cette procédure décrit comment rechercher des produits ou des variantes de produits lancés obsolètes et comment associer un état du cycle de vie des produits aux produits obsolètes.</span><span class="sxs-lookup"><span data-stu-id="136a2-104">This procedure shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="136a2-105">Conditions préalables : vous devez définir au moins un état du cycle de vie des produits qui est inactif pour la planification avant de lire ce guide de tâche.</span><span class="sxs-lookup"><span data-stu-id="136a2-105">Prerequisite: You need to define at least one product lifecycle state that is inactive for planning before you can play this task guide.</span></span>
+<span data-ttu-id="2ce0e-104">Cette procédure décrit comment rechercher des produits ou des variantes de produits lancés obsolètes et comment associer un état du cycle de vie des produits aux produits obsolètes.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-104">This procedure shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="2ce0e-105">Conditions préalables : vous devez définir au moins un état du cycle de vie des produits qui est inactif pour la planification avant de lire ce guide de tâche.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-105">Prerequisite: You need to define at least one product lifecycle state that is inactive for planning before you can play this task guide.</span></span>
 
 
-## <a name="run-a-simulation"></a><span data-ttu-id="136a2-106">Exécuter une simulation</span><span class="sxs-lookup"><span data-stu-id="136a2-106">Run a simulation</span></span>
-1. <span data-ttu-id="136a2-107">Accédez à Gestion des informations sur les produits > Tâches périodiques > Modifier l'état du cycle de vie des produits obsolètes.</span><span class="sxs-lookup"><span data-stu-id="136a2-107">Go to Product information management > Periodic tasks > Change lifecycle state for obsolete products.</span></span>
-2. <span data-ttu-id="136a2-108">Dans le champ Nouvel état du cycle de vie des produits, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="136a2-108">In the New product lifecycle state field, enter or select a value.</span></span>
-3. <span data-ttu-id="136a2-109">Sélectionnez Oui dans le champ Exécuter la simulation sans mettre à jour les données du produit.</span><span class="sxs-lookup"><span data-stu-id="136a2-109">Select Yes in the Run simulation without updating product data field.</span></span>
-4. <span data-ttu-id="136a2-110">Dans le champ Exclure les produits créés dans ce nombre de jours, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="136a2-110">In the Exclude products created within this number of days field, enter a number.</span></span>
-5. <span data-ttu-id="136a2-111">Dans le champ Exclure les produits utilisés dans les transactions (en nombre de jours), entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="136a2-111">In the Exclude products used in transactions (in number of days) field, enter a number.</span></span>
-6. <span data-ttu-id="136a2-112">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="136a2-112">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="136a2-113">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="136a2-113">Click Filter.</span></span>
-8. <span data-ttu-id="136a2-114">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="136a2-114">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="136a2-115">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="136a2-115">In the Criteria field, type a value.</span></span>
-10. <span data-ttu-id="136a2-116">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="136a2-116">Click OK.</span></span>
-11. <span data-ttu-id="136a2-117">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="136a2-117">Click OK.</span></span>
+## <a name="run-a-simulation"></a><span data-ttu-id="2ce0e-106">Exécuter une simulation</span><span class="sxs-lookup"><span data-stu-id="2ce0e-106">Run a simulation</span></span>
+1. <span data-ttu-id="2ce0e-107">Accédez à Gestion des informations sur les produits > Tâches périodiques > Modifier l'état du cycle de vie des produits obsolètes.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-107">Go to Product information management > Periodic tasks > Change lifecycle state for obsolete products.</span></span>
+2. <span data-ttu-id="2ce0e-108">Dans le champ Nouvel état du cycle de vie des produits, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-108">In the New product lifecycle state field, enter or select a value.</span></span>
+3. <span data-ttu-id="2ce0e-109">Sélectionnez Oui dans le champ Exécuter la simulation sans mettre à jour les données du produit.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-109">Select Yes in the Run simulation without updating product data field.</span></span>
+4. <span data-ttu-id="2ce0e-110">Dans le champ Exclure les produits créés dans ce nombre de jours, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-110">In the Exclude products created within this number of days field, enter a number.</span></span>
+5. <span data-ttu-id="2ce0e-111">Dans le champ Exclure les produits utilisés dans les transactions (en nombre de jours), entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-111">In the Exclude products used in transactions (in number of days) field, enter a number.</span></span>
+6. <span data-ttu-id="2ce0e-112">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-112">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="2ce0e-113">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-113">Click Filter.</span></span>
+8. <span data-ttu-id="2ce0e-114">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-114">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="2ce0e-115">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-115">In the Criteria field, type a value.</span></span>
+10. <span data-ttu-id="2ce0e-116">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-116">Click OK.</span></span>
+11. <span data-ttu-id="2ce0e-117">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-117">Click OK.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="136a2-118">Nous vous recommandons d'exécuter la simulation par lots si vous comptez rechercher un grand nombre de produits.</span><span class="sxs-lookup"><span data-stu-id="136a2-118">It is recommended to run the simulation in batch if you expect to search a large number of products.</span></span> <span data-ttu-id="136a2-119">En outre, vérifiez que la simulation n'est pas exécutée pendant le temps de travail le plus actif de la société.</span><span class="sxs-lookup"><span data-stu-id="136a2-119">Also, make sure that the simulation is not run during the most active working time of the company.</span></span>  
+> <span data-ttu-id="2ce0e-118">Nous vous recommandons d'exécuter la simulation par lots si vous comptez rechercher un grand nombre de produits.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-118">It is recommended to run the simulation in batch if you expect to search a large number of products.</span></span> <span data-ttu-id="2ce0e-119">En outre, vérifiez que la simulation n'est pas exécutée pendant le temps de travail le plus actif de la société.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-119">Also, make sure that the simulation is not run during the most active working time of the company.</span></span>  
 
-## <a name="review-the-simulation-results"></a><span data-ttu-id="136a2-120">Examiner les résultats de la simulation</span><span class="sxs-lookup"><span data-stu-id="136a2-120">Review the simulation results</span></span>
-1. <span data-ttu-id="136a2-121">Accédez à Gestion des informations sur les produits > Recherches et états > Historique de maintenance de l'état du cycle de vie des produits.</span><span class="sxs-lookup"><span data-stu-id="136a2-121">Go to Product information management > Inquiries and reports > Product lifecycle state maintenance history.</span></span>
+## <a name="review-the-simulation-results"></a><span data-ttu-id="2ce0e-120">Examiner les résultats de la simulation</span><span class="sxs-lookup"><span data-stu-id="2ce0e-120">Review the simulation results</span></span>
+1. <span data-ttu-id="2ce0e-121">Accédez à Gestion des informations sur les produits > Recherches et états > Historique de maintenance de l'état du cycle de vie des produits.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-121">Go to Product information management > Inquiries and reports > Product lifecycle state maintenance history.</span></span>
    
 > [!NOTE]
-> <span data-ttu-id="136a2-122">Sur cette page, vous pouvez examiner les résultats de la simulation et effectuer une évaluation du nombre de produits et de variantes de produit à associer à un nouvel état du cycle de vie des produits lors de l'exécution de la mise à jour sans simulation.</span><span class="sxs-lookup"><span data-stu-id="136a2-122">On this page, you can review the simulation results and make an assessment of how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
+> <span data-ttu-id="2ce0e-122">Sur cette page, vous pouvez examiner les résultats de la simulation et effectuer une évaluation du nombre de produits et de variantes de produit à associer à un nouvel état du cycle de vie des produits lors de l'exécution de la mise à jour sans simulation.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-122">On this page, you can review the simulation results and make an assessment of how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
 
-## <a name="run-the-update-of-the-product-lifecycle-state-for-obsolete-products"></a><span data-ttu-id="136a2-123">Exécuter la mise à jour de l'état du cycle de vie des produits pour les produits obsolètes</span><span class="sxs-lookup"><span data-stu-id="136a2-123">Run the update of the Product lifecycle state for obsolete products</span></span>
-1. <span data-ttu-id="136a2-124">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="136a2-124">Close the page.</span></span>
-2. <span data-ttu-id="136a2-125">Accédez à Gestion des informations sur les produits > Tâches périodiques > Modifier l'état du cycle de vie des produits obsolètes.</span><span class="sxs-lookup"><span data-stu-id="136a2-125">Go to Product information management > Periodic tasks > Change lifecycle state for obsolete products.</span></span>
-3. <span data-ttu-id="136a2-126">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="136a2-126">Expand the Records to include section.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="136a2-127">Notez que la dernière sélection a été enregistrée.</span><span class="sxs-lookup"><span data-stu-id="136a2-127">Note that the last selection has been saved.</span></span>  
-
-4. <span data-ttu-id="136a2-128">Sélectionnez Non dans le champ Exécuter la simulation sans mettre à jour les données du produit.</span><span class="sxs-lookup"><span data-stu-id="136a2-128">Select No in the Run simulation without updating product data field.</span></span>
-5. <span data-ttu-id="136a2-129">Développez la section Exécuter à l'arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="136a2-129">Expand the Run in the background section.</span></span>
+## <a name="run-the-update-of-the-product-lifecycle-state-for-obsolete-products"></a><span data-ttu-id="2ce0e-123">Exécuter la mise à jour de l'état du cycle de vie des produits pour les produits obsolètes</span><span class="sxs-lookup"><span data-stu-id="2ce0e-123">Run the update of the Product lifecycle state for obsolete products</span></span>
+1. <span data-ttu-id="2ce0e-124">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-124">Close the page.</span></span>
+2. <span data-ttu-id="2ce0e-125">Accédez à Gestion des informations sur les produits > Tâches périodiques > Modifier l'état du cycle de vie des produits obsolètes.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-125">Go to Product information management > Periodic tasks > Change lifecycle state for obsolete products.</span></span>
+3. <span data-ttu-id="2ce0e-126">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-126">Expand the Records to include section.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="136a2-130">Selon le nombre de produits et de variantes de produit affectés, envisagez d'exécuter cette tâche par lots.</span><span class="sxs-lookup"><span data-stu-id="136a2-130">Depending on how many products and product variants are affected, consider running this job in batch.</span></span> <span data-ttu-id="136a2-131">Vérifiez que vous n'exécutez pas une tâche de mise à jour volumineuse pendant les heures de travail les plus actives de la société.</span><span class="sxs-lookup"><span data-stu-id="136a2-131">Make sure that you are not running a large update job during the most active working hours in the company.</span></span>  
+> <span data-ttu-id="2ce0e-127">Notez que la dernière sélection a été enregistrée.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-127">Note that the last selection has been saved.</span></span>  
 
-6. <span data-ttu-id="136a2-132">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="136a2-132">Click OK.</span></span>
-7. <span data-ttu-id="136a2-133">Accédez à Gestion des informations sur les produits > Recherches et états > Historique de maintenance de l'état du cycle de vie des produits.</span><span class="sxs-lookup"><span data-stu-id="136a2-133">Go to Product information management > Inquiries and reports > Product lifecycle state maintenance history.</span></span>
+4. <span data-ttu-id="2ce0e-128">Sélectionnez Non dans le champ Exécuter la simulation sans mettre à jour les données du produit.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-128">Select No in the Run simulation without updating product data field.</span></span>
+5. <span data-ttu-id="2ce0e-129">Développez la section Exécuter à l'arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-129">Expand the Run in the background section.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="136a2-134">Examinez les modifications des produits et des variantes de produits lancés.</span><span class="sxs-lookup"><span data-stu-id="136a2-134">Review the changed released products and product variants.</span></span>  
+> <span data-ttu-id="2ce0e-130">Selon le nombre de produits et de variantes de produit affectés, envisagez d'exécuter cette tâche par lots.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-130">Depending on how many products and product variants are affected, consider running this job in batch.</span></span> <span data-ttu-id="2ce0e-131">Vérifiez que vous n'exécutez pas une tâche de mise à jour volumineuse pendant les heures de travail les plus actives de la société.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-131">Make sure that you are not running a large update job during the most active working hours in the company.</span></span>  
 
-8. <span data-ttu-id="136a2-135">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="136a2-135">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="2ce0e-132">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-132">Click OK.</span></span>
+7. <span data-ttu-id="2ce0e-133">Accédez à Gestion des informations sur les produits > Recherches et états > Historique de maintenance de l'état du cycle de vie des produits.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-133">Go to Product information management > Inquiries and reports > Product lifecycle state maintenance history.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2ce0e-134">Examinez les modifications des produits et des variantes de produits lancés.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-134">Review the changed released products and product variants.</span></span>  
+
+8. <span data-ttu-id="2ce0e-135">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="2ce0e-135">In the list, find and select the desired record.</span></span>
 
