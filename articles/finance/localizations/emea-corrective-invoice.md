@@ -13,26 +13,26 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 1174003
 ms.search.region: Denmark, Germany, France, Ireland, Netherlands, United Kingdom
-ms.author: v-semaz
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85880b2f36932686bca1e2a27659f7806006717f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a7bdf90fb35380cde6c7ab2c7920ffd29196efdf
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183673"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979068"
 ---
-# <a name="corrective-invoicing"></a><span data-ttu-id="e9fa5-103">Facturation corrective</span><span class="sxs-lookup"><span data-stu-id="e9fa5-103">Corrective invoicing</span></span>
+# <a name="corrective-invoicing"></a><span data-ttu-id="17790-103">Facturation corrective</span><span class="sxs-lookup"><span data-stu-id="17790-103">Corrective invoicing</span></span>
 
 [!include [banner](../includes/banner.md)]
 
  > [!NOTE]
- > <span data-ttu-id="e9fa5-104">Cette rubrique s'applique aux entités juridiques ayant une adresse principale au Danemark, en Allemagne, en France, en Irlande, aux Pays-Bas ou au Royaume-Uni.</span><span class="sxs-lookup"><span data-stu-id="e9fa5-104">This topic applies to legal entities with a primary address in Denmark, Germany, France, Ireland, the Netherlands, or the United Kingdom.</span></span>
+ > <span data-ttu-id="17790-104">Cette rubrique s'applique aux entités juridiques ayant une adresse principale au Danemark, en Allemagne, en France, en Irlande, aux Pays-Bas ou au Royaume-Uni.</span><span class="sxs-lookup"><span data-stu-id="17790-104">This topic applies to legal entities with a primary address in Denmark, Germany, France, Ireland, the Netherlands, or the United Kingdom.</span></span>
 
-<span data-ttu-id="e9fa5-105">Un avoir ou un mémorandum d'avoir (mémo) est un document qui réduit ou élimine le montant que l'acheteur doit payer.</span><span class="sxs-lookup"><span data-stu-id="e9fa5-105">A credit note or credit memorandum (memo) is a document that reduces or eliminates the amount that the buyer has to pay.</span></span>
+<span data-ttu-id="17790-105">Un avoir ou un mémorandum d'avoir (mémo) est un document qui réduit ou élimine le montant que l'acheteur doit payer.</span><span class="sxs-lookup"><span data-stu-id="17790-105">A credit note or credit memorandum (memo) is a document that reduces or eliminates the amount that the buyer has to pay.</span></span>
 
-<span data-ttu-id="e9fa5-106">Un avoir répertorie les produits, les quantités, et les prix conclus pour des produits ou services que le vendeur a fourni à l'acheteur, mais que l'acheteur a retourné ou n'a pas reçus.</span><span class="sxs-lookup"><span data-stu-id="e9fa5-106">A credit note lists the products, quantities, and agreed prices for products or services that the seller provided the buyer, but the buyer returned or did not receive.</span></span> <span data-ttu-id="e9fa5-107">Il peut être émis dans le cas de marchandises endommagées, d'erreurs, ou d'exonérations.</span><span class="sxs-lookup"><span data-stu-id="e9fa5-107">It may be issued in the case of damaged goods, errors, or allowances.</span></span> <span data-ttu-id="e9fa5-108">Dans certains pays ou certaines régions, la fonctionnalité d'avoir vous permet d'ajouter une ligne de correction et une nouvelle ligne correcte.</span><span class="sxs-lookup"><span data-stu-id="e9fa5-108">For some countries/regions, the credit note functionality allows you to add both a correction line and a new correct line.</span></span> <span data-ttu-id="e9fa5-109">L'avoir pour les factures client et les factures financières utilise la même mise en page que la facture avec les différences suivantes :</span><span class="sxs-lookup"><span data-stu-id="e9fa5-109">The credit note for sales invoices and free text invoices uses the same layout as the invoice with the following differences:</span></span>
+<span data-ttu-id="17790-106">Un avoir répertorie les produits, les quantités, et les prix conclus pour des produits ou services que le vendeur a fourni à l'acheteur, mais que l'acheteur a retourné ou n'a pas reçus.</span><span class="sxs-lookup"><span data-stu-id="17790-106">A credit note lists the products, quantities, and agreed prices for products or services that the seller provided the buyer, but the buyer returned or did not receive.</span></span> <span data-ttu-id="17790-107">Il peut être émis dans le cas de marchandises endommagées, d'erreurs, ou d'exonérations.</span><span class="sxs-lookup"><span data-stu-id="17790-107">It may be issued in the case of damaged goods, errors, or allowances.</span></span> <span data-ttu-id="17790-108">Dans certains pays ou certaines régions, la fonctionnalité d'avoir vous permet d'ajouter une ligne de correction et une nouvelle ligne correcte.</span><span class="sxs-lookup"><span data-stu-id="17790-108">For some countries/regions, the credit note functionality allows you to add both a correction line and a new correct line.</span></span> <span data-ttu-id="17790-109">L'avoir pour les factures client et les factures financières utilise la même mise en page que la facture avec les différences suivantes :</span><span class="sxs-lookup"><span data-stu-id="17790-109">The credit note for sales invoices and free text invoices uses the same layout as the invoice with the following differences:</span></span>
 
--   <span data-ttu-id="e9fa5-110">Au lieu d'afficher « facture », l'avoir indique « avoir » comme nom du document.</span><span class="sxs-lookup"><span data-stu-id="e9fa5-110">Instead of displaying "Invoice", the credit note shows "Credit note" as the document name.</span></span>
--   <span data-ttu-id="e9fa5-111">L'avoir inclut les champs **N° de la facture principale** et **Motif de la correction**.</span><span class="sxs-lookup"><span data-stu-id="e9fa5-111">The credit note includes the fields **Main invoice no.** and **Reason for correction**.</span></span>
+-   <span data-ttu-id="17790-110">Au lieu d'afficher « facture », l'avoir indique « avoir » comme nom du document.</span><span class="sxs-lookup"><span data-stu-id="17790-110">Instead of displaying "Invoice", the credit note shows "Credit note" as the document name.</span></span>
+-   <span data-ttu-id="17790-111">L'avoir inclut les champs **N° de la facture principale** et **Motif de la correction**.</span><span class="sxs-lookup"><span data-stu-id="17790-111">The credit note includes the fields **Main invoice no.** and **Reason for correction**.</span></span>
