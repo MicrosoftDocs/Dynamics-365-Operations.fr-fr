@@ -3,7 +3,7 @@ title: Prise en main de l'Optimisation de la planification
 description: Cette rubrique explique comment utiliser la fonctionnalité d'Optimisation de la planification.
 author: ChristianRytt
 manager: tfehr
-ms.date: 05/06/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,20 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04b39469ccf4f088bb33bdfc73ce40eece6f5f2e
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887262"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973474"
 ---
-# <a name="get-started-with-planning-optimization"></a>Prise en main de l'Optimisation de la planification
+# <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
 [!include [banner](../../includes/banner.md)]
 
-La fonctionnalité d'Optimisation de la planification ne prend actuellement pas en charge toutes les fonctionnalités disponibles dans le moteur de planification intégré à Microsoft Dynamics 365 Supply Chain Management. Par conséquent, il est important d'évaluer si la fonctionnalité définie, qui est actuellement disponible dans Optimisation de la planification, répondra à vos attentes. Par défaut, la fonctionnalité d'Optimisation de la planification n'est pas activée dans Dynamics Lifecycle Services (LCS). Par conséquent, vous avez une possibilité de faire votre évaluation avant qu'elle ne s'est activée.
+Comme [annoncé précédemment](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), une optimisation de la planification est planifiée pour remplacer le moteur de planification principal intégré existant.
 
-Éventuellement, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant.
+Si vous utilisez actuellement le moteur de planification principal intégré, vous devez commencer à planifier votre migration vers l'optimisation de la planification. Il est important de démarrer immédiatement le processus de migration car vos opérations peuvent être affectées lorsque l'obsolescence est appliquée. Pour éviter les problèmes de dernière minute lorsque l'obsolescence est appliquée, nous vous encourageons vivement à terminer la migration avant le 1er décembre 2020. 
+
+La fonctionnalité d'optimisation de la planification ne prend actuellement pas en charge toutes les fonctionnalités disponibles dans le moteur de planification intégré à Supply Chain Management. Par conséquent, il est important d'évaluer si la fonctionnalité définie, qui est actuellement disponible dans Optimisation de la planification, répondra à vos attentes. La fonctionnalité d'optimisation de la planification n'est actuellement pas activée par défaut dans Dynamics Lifecycle Services (LCS), vous avez donc la possibilité de faire votre évaluation avant que la fonctionnalité ne soit activée.
+
+> [!NOTE]
+> Vous devez demander une exception pour la migration vers l'optimisation de la planification si votre processus de planification générale n'inclut pas la production (planification générale des ordres de fabrication planifiés générés) et si vous avez besoin du moteur de planification principal intégré au-delà de la version 10.0.15. À compter de la version 10.0.16, une erreur s'affiche dans les environnements lors de l'exécution de la planification générale intégrée sans génération d'ordres de fabrication planifiés. L'optimisation de la planification doit être utilisée pour tous les nouveaux déploiements qui ne génèrent pas d'ordres de production planifiés lors de la planification générale. Les propriétaires d'environnements existants exécutant le moteur de planification principal intégré sans génération d'ordres de production planifiés recevront un e-mail contenant des détails sur le processus d'exception. Nous vous recommandons de travailler avec un partenaire pour évaluer et planifier la migration vers l'optimisation de la planification.
 
 Avant d'activer l'Optimisation de la planification, nous vous recommandons fortement d'évaluer les résultats de l'analyse de concordance d'Optimisation de la planification. Pour plus d'informations, voir [Analyse de concordance d'Optimisation de la planification](planning-optimization-fit-analysis.md).
 

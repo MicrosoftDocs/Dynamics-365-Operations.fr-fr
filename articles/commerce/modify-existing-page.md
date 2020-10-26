@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270002"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961632"
 ---
 # <a name="modify-an-existing-site-page"></a>Modifier une page de site existante
 
@@ -47,7 +47,7 @@ L'étape suivante consiste à apporter vos modifications. Souvent, vous allez ut
 Toutefois, la modification peut impliquer parfois d'ajouter ou de supprimer des modèles ou des fragments. Pour ajouter un fragment ou un module, utilisez l'arborescence de contour de page pour rechercher l'emplacement auquel vous souhaitez ajouter le module ou le fragment, puis sélectionnez le bouton représentant des points de suspension (**...**) pour cet emplacement. Un menu apparaît qui inclut des commandes pour ajouter un module ou un fragment. Pour supprimer un module ou un fragment, recherchez et sélectionnez-le dans l'arborescence de contour de page, sélectionnez le bouton représentant des points de suspension, puis sélectionnez la commande pour supprimer le module ou le fragment.
 
 > [!TIP]
-> Vous pouvez également afficher et de modifier les propriétés d'un module qui est visible dans l'aperçu « Tel écrit, tel écran » en le sélectionnant directement.
+> Vous pouvez également afficher et de modifier les propriétés d'un module qui est visible dans l'aperçu du générateur de page visuel en le sélectionnant directement.
 
 Après avoir terminé d'apporter vos modifications et prévisualisé leurs effets, vous devez archiver la page en sélectionnant **Terminer les modifications** dans la barre de commande. 
 

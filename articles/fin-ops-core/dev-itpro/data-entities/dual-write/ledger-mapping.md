@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: ''
+ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6f1a1c7329f0936147fb8f7a8e0e9fea14f7dd4b
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 20c038d0d4fe8ec3e07219862f98aef970882f26
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173013"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985243"
 ---
 # <a name="integrated-ledger"></a>Comptabilité intégrée
 
@@ -38,7 +38,7 @@ Dans une application d'entreprise, les données de comptabilité définissent la
 
 Les données comptables comprennent un ensemble de mappages d'entités financières de base qui fonctionnent ensemble pendant l'interaction des données client, comme indiqué dans le tableau suivant.
 
-Applications Finance and Operations      | Application pilotée par modèle dans Dynamics 365 | Description 
+Applications Finance and Operations      | Application pilotée par modèle dans Dynamics 365 | Description
 ---------------------------------|----------------------------------|------------
 Devises                       | transactioncurrencies            |
 FiscalCalendar                   | msdyn\_fiscalcalendars        |

@@ -3,7 +3,7 @@ title: Vue d'ensemble des appels d'offre
 description: Cette rubrique fournit une vue d'ensemble des appels d'offre. Les organisations émettent des appels d'offre lorsqu'elles souhaitent comparer les offres de plusieurs fournisseurs pour les articles ou les services qu'elles doivent acheter.
 author: mkirknel
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eedf6b08ef9a4b7f164db60433dd16922a8ec807
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: 4aec0ce03d438f8153b9555a079b6fd97f6a95a5
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895618"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973498"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Vue d'ensemble des appels d'offre
 
@@ -34,23 +34,21 @@ Vous pouvez également demander aux fournisseurs de spécifier s'il y a des frai
 
 Le processus d'appel d'offre comprend les tâches suivantes :
 
-1.  Créer et envoyer un appel d'offre à un ou plusieurs fournisseurs.
-
-2.  Recevoir et enregistrer les offres (réponses à l'appel d'offre).
-
-3.  Transférer les offres que vous acceptez pour une commande fournisseur, un contrat d'achat ou une demande d'achat.
+1. Créer et envoyer un appel d'offre à un ou plusieurs fournisseurs.
+1. Recevoir et enregistrer les offres (réponses à l'appel d'offre).
+1. Transférer les offres que vous acceptez pour une commande fournisseur, un contrat d'achat ou une demande d'achat.
 
 L'illustration suivante présente une vue d'ensemble du processus d'appel d'offre.
 
 [![Processus RFQ](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
-Vous pouvez créer une demande de devis à partir des commandes planifiées, d'une demande d'achat ou par saisie manuelle. Il s'agit du document de base que vous utilisez pour délivrer un appel d'offre à chaque fournisseur.+
+Vous pouvez créer une demande de devis à partir des commandes planifiées, d'une demande d'achat ou par saisie manuelle. Il s'agit du document de base que vous utilisez pour délivrer un appel d'offre à chaque fournisseur.
 
 Après avoir préparé la demande de devis et ajouté des fournisseurs, sélectionnez **Envoyer** (**Envoyer et publier** pour le secteur public) sur la demande de devis. Un journal d'appel d'offre est généré pour chaque fournisseur auquel vous envoyez l'appel d'offre. Vous pouvez configurer les options d'impression pour l'action Envoyer afin d'imprimer un état pour chaque fournisseur dans une archive ou pour envoyer un état à l'adresse électronique de chaque fournisseur. En outre, vous pouvez utiliser le journal d'appel d'offre de chaque fournisseur pour générer un état que vous pouvez envoyer ou renvoyer au fournisseur ultérieurement. Vous pouvez également configurer l'action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.
 
 Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration de fournisseur, les fournisseurs peuvent saisir directement les offres dans Supply Chain Management. Pour plus d'informations voir [Collaboration fournisseur avec des clients](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 
-Si vous devez modifier un appel d'offre après son envoi, vous pouvez le renvoyer aux fournisseurs lorsque vous avez terminé à l'aide des deux actions de modification : Créer et Finaliser.+
+Si vous devez modifier un appel d'offre après son envoi, vous pouvez le renvoyer aux fournisseurs lorsque vous avez terminé à l'aide des deux actions de modification : Créer et Finaliser.
 
 Lorsque vous recevez des offres par courrier électronique, vous pouvez gérer ces offres sur la page **Appels d'offre**.
 
@@ -68,15 +66,10 @@ Ces statuts sont décrits en détail plus loin dans cette rubrique.
 
 Avant de pouvoir créer un dossier de demande de devis, vous devez paramétrer les informations de demande de devis sur la page **Paramètres d'approvisionnement**. Lorsque vous créez une demande de devis, vous pouvez spécifier les valeurs par défaut qui sont copiées dans la demande de devis. Vous pouvez spécifier les valeurs par défaut suivantes :
 
--   Le type d'achat de nouvelles demandes de devis : **Commande fournisseur** ou **Contrat d'achat**
-
--   Décalage entre la date et l'heure d'expiration et le jour où la demande de devis a été créée
-
--   Type de sollicitation, qui peut transférer une méthode de notation spécifique à la demande de devis par défaut
-
--   Informations de livraison et conditions de paiement
-
--   Champs devant être inclus dans l'offre
+- Le type d'achat de nouvelles demandes de devis : **Commande fournisseur** ou **Contrat d'achat**
+- Décalage entre la date et l'heure d'expiration et le jour où la demande de devis a été créée.
+- Type de sollicitation, qui peut transférer une méthode de notation spécifique à la demande de devis par défaut.
+- Informations de livraison et conditions de paiement.
 
 Vous pouvez remplacer ces valeurs pour un dossier de demande de devis spécifique.
 
@@ -84,37 +77,25 @@ Vous devez également configurer le processus d'avenant. Dans le cadre de cette 
 
 Sur la page **Paramètres de l'approvisionnement**, sélectionnez le modèle à utiliser pour la notification par e-mail qui est envoyée aux fournisseurs. Lorsqu'un modèle est créé dans **Modèles d'e-mail**, il peut contenir les jetons de remplacement suivants :
 
--   %Dossier d'appel d'offre%
-
--   %Motif de retour de l'offre%
-
--   %Motif de l'avenant%
-
--   %Avenant préparé par%
-
--   %Société%
-
--   %Nom du dossier d'appel d'offre%
-
--   %Date et heure d'expiration%
-
--   %Date%
+- %Dossier d'appel d'offre%
+- %Motif de retour de l'offre%
+- %Motif de l'avenant%
+- %Avenant préparé par%
+- %Société%
+- %Nom du dossier d'appel d'offre%
+- %Date et heure d'expiration%
+- %Date%
 
 Les jetons %Motif de retour de l'offre% et %Motif de l'avenant% sont remplacés par du texte que le professionnel de l'approvisionnement peut saisir lorsqu'il remplit l'avenant dans l'assistant **Avenant**. Les valeurs des jetons %Avenant préparé par% et %Société% sont automatiquement extraites de la demande de devis. Le jeton %Date% est remplacé par la date actuelle.
 
 Si vous souhaitez annuler un appel d'offre envoyé, vous pouvez effectuer cela depuis la demande de devis. Pour l'annulation, un modèle d'e-mail est requis pour envoyer la notification d'annulation aux personnes à contacter chez le fournisseur. Le modèle doit être sélectionné sur la page **Paramètres d'approvisionnement**. Lorsque le modèle est créé, il peut contenir les jetons de remplacement suivants :
 
--   %Motif d'annulation%
-
--   %Dossier d'appel d'offre%
-
--   %Appel d'offre annulé par%
-
--   %Société%
-
--   %Nom du dossier d'appel d'offre%
-
--   %Date%
+- %Motif d'annulation%
+- %Dossier d'appel d'offre%
+- %Appel d'offre annulé par%
+- %Société%
+- %Nom du dossier d'appel d'offre%
+- %Date%
 
 Le jeton %Motif d'annulation% est remplacé par le texte que le professionnel de l'approvisionnement peut saisir dans l'assistant **Annulation**. Le jeton %Date% est remplacé par la date actuelle.
 
@@ -130,6 +111,19 @@ Lorsque vous créez une demande de devis de type Commande fournisseur et ajoutez
 
 Un gestionnaire ou agent des achats peut créer et tenir à jour des types de sollicitation, afin qu'ils correspondent aux exigences d'approvisionnement de l'organisation. Chaque type de sollicitation peut être associé à une méthode d'attribution de score. Ces dernières consistent en un ensemble de critères pouvant être utilisés lorsque vous attribuez un score aux offres. Vous devez paramétrer des types de sollicitation, les méthodes d'attribution de score et les critères d'attribution de score sur les pages **Type de sollicitation** et **Méthode d'attribution de score**.
 
+## <a name="choose-default-fields-to-include-in-vendor-rfq-reply-forms"></a><a name="default-reply-fields"></a>Choisir les champs par défaut à inclure dans les formulaires de réponse aux appels d'offres des fournisseurs
+
+Vous pouvez indiquer les types d'informations spécifiques à recevoir des fournisseurs lorsqu'ils répondent à un appel d'offre. Les champs que vous marquez par défaut sont inclus sur le formulaire en ligne fourni pour la collaboration avec les fournisseurs. Pour modifier ces paramètres :
+
+1. Si ce n'est déjà fait, utilisez la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer la fonction *Sélectionner les champs d'appel d'offres à inclure dans les formulaires de réponse aux appels d'offres des fournisseurs*.
+1. Accédez à **Approvisionnements > Paramétrage > Paramètres d'approvisionnements**.
+1. Ouvrez l'onglet **Appel d'offres**.
+1. Sélectionnez le lien **Champs Réponse de l'appel d'offre par défaut** sous l'en-tête **Configurer les valeurs par défaut pour les appels d'offres**.
+1. La boîte de dialogue **Champs Réponse de l'appel d'offre par défaut** s'ouvre.
+1. La section **Champs d'appel d'offres inclus dans les formulaires de réponse aux appels d'offres des fournisseurs** comprend un curseur pour chaque champ disponible dans les formulaires de réponse aux appels d'offres. Les champs définis sur *Oui* dans cette section seront inclus (avec leurs valeurs) dans les formulaires de réponse aux appels d'offres. Réglez le curseur sur *Non* pour chaque champ dans lequel vous souhaitez empêcher les fournisseurs de voir les données lorsqu'ils examinent les offres. Cela vous permet de saisir des valeurs estimées ou attendues lors de la saisie de l'appel d'offres à des fins internes sans que le fournisseur puisse voir ce qui a été saisi.
+
+Vous pouvez remplacer ces paramètres pour les appels d'offres individuels si nécessaire.
+
 ## <a name="creating-and-sending-an-rfq"></a>Création et envoi d'un appel d'offre
 
 Vous créez une demande de devis, sélectionnez les fournisseurs pour lesquels vous souhaitez soumettre une offre sur la demande de devis, puis vous envoyez le devis aux fournisseurs. Vous pouvez utiliser les paramètres d'impression afin d'acheminer l'état des appels d'offre et les états de fiche de réponse à votre destination préférée.
@@ -138,15 +132,13 @@ Vous pouvez créer manuellement une demande de devis pour le type d'achat **Comm
 
 Si la demande de devis est de type **Commande fournisseur**, le comportement suivant se produit déviant d'autres types de demande de devis :
 
--   Lorsque les lignes de demande de devis sont créées, les transactions du stock sont générées avec un statut de réception de **Réception de devis**.
-
--   Lorsque vous acceptez une offre, une commande fournisseur est générée.
+- Lorsque les lignes de demande de devis sont créées, les transactions du stock sont générées avec un statut de réception de **Réception de devis**.
+- Lorsque vous acceptez une offre, une commande fournisseur est générée.
 
 Si l'appel d'offre est de type **contrat d'achat**, le comportement suivant se produit déviant d'autres demandes de devis :
 
--   La demande de devis est utilisée pour un accord sur l'achat d'une quantité ou d'une valeur spécifique d'un produit au fil du temps. Vous devez sélectionner l'intervalle de dates qui s'applique au contrat d'achat et le nom de la personne qui gère le contrat d'achat.
-
--   Lorsque vous acceptez une offre, un contrat d'achat est généré.
+- La demande de devis est utilisée pour un accord sur l'achat d'une quantité ou d'une valeur spécifique d'un produit au fil du temps. Vous devez sélectionner l'intervalle de dates qui s'applique au contrat d'achat et le nom de la personne qui gère le contrat d'achat.
+- Lorsque vous acceptez une offre, un contrat d'achat est généré.
 
 Si la demande de devis est générée à partir d'une demande d'achat, le type **Demande d'achat** est automatiquement attribué. Vous ne pouvez pas créer manuellement de demande de devis de type **Demande d'achat**.
 
@@ -156,6 +148,7 @@ Lorsque vous créez une demande de devis, vous pouvez sélectionner un type de s
 
 Vous pouvez ajouter un questionnaire à un dossier de demande de devis. Ce questionnaire s'affiche ensuite sur toutes les réponses d'appel d'offre une fois que vous envoyez la demande de devis. Le remplissage du questionnaire est une tâche obligatoire avant que l'offre puisse être soumise.
 
+Bien que des valeurs par défaut soient fournies, vous pouvez modifier les paramètres **Champs d'appel d'offres inclus dans les formulaires de réponse aux appels d'offres des fournisseurs** pour chaque cas d'appel d'offres individuel, selon les besoins. Pour ce faire, créez ou ouvrez un dossier d'appel d'offres. Ensuite, dans le volet Actions, ouvrez l'onglet **Devis** et, à partir de la section **Réponses**, sélectionnez **Définir les valeurs par défaut de réponse à l'appel d'offres**. La boîte de dialogue **Champs Réponse de l'appel d'offre par défaut** s'ouvre ; elle fonctionne de la même manière que lors de la définition des valeurs par défaut pour les formulaires de réponse aux appels d'offres des fournisseurs, sauf que vos modifications ici n'affecteront que le dossier d'appel d'offres actuel. Pour plus d'informations sur l'activation de cette fonctionnalité et son fonctionnement, consultez [Choisir les champs par défaut à inclure dans les formulaires de réponse aux appels d'offres des fournisseurs](#default-reply-fields).
 
 Il existe trois méthodes pour sélectionner les fournisseurs à ajouter à un dossier de demande de devis :
 
@@ -166,7 +159,6 @@ Il existe trois méthodes pour sélectionner les fournisseurs à ajouter à un d
 Lorsque l'appel d'offre est prêt, sélectionnez **Envoyer**. L'action Envoyer génère des journaux et des états qui seront imprimés, archivés et envoyés conformément à vos paramètres d'impression.
 
 Si vous définissez **Utiliser le fournisseur pour recalculer les prix** et **Utiliser les informations relatives à l'article spécifiques au fournisseur** sur **Oui** sur la page **Envoi de l'appel d'offre** lorsque vous avez soumis l'appel d'offre à un fournisseur, certaines informations spécifiques au fournisseur sont entrées automatiquement dans l'appel d'offre pour ce fournisseur.
-
 
 ## <a name="amending-an-rfq-case"></a>Modification d'une demande de devis
 
@@ -180,10 +172,9 @@ Si les fournisseurs utilisent l'interface de collaboration fournisseur pour sais
 
 Si vous voulez inviter d'autres fournisseurs à faire une offre et qu'aucune modification n'a été apportée au dossier d'appel d'offre, vous pouvez utiliser le bouton **Envoyer**. Les fournisseurs que vous avez ajoutés s'affichent sur la page **Envoyer** et reçoivent l'invitation par courrier électronique.
 
-
 ## <a name="receiving-and-registering-rfq-replies"></a>Réception et enregistrement des réponses à la demande de devis
 
-Lorsque vous envoyez une demande de devis, une feuille de réponse est automatiquement générée. Lorsque vous recevez des offres à un appel d'offre, vous devez les entrer à partir de la page **Appel d'offre** en cliquant sur l'action **Modifier la réponse à l'appel d'offre.** Cela vous permet d'entrer des informations d'offre sur un écran d'offre dédié. Initialement, **Progression de réponse** est **Non commencé**. Lorsque vous cliquez sur **Modifier la réponse d'appel d'offre,** le statut de progression est **L'acheteur effectue une mise à jour** jusqu'à ce que l'offre soit envoyée. Cliquez sur **Envoyer** lorsque vous avez entré les informations d'offre. Le statut de progression de l'offre passe à **Soumis par l'acheteur.** De même, avec la collaboration de fournisseur activée, **Progression de réponse** est mis à jour à mesure que le fournisseur interagit avec l'offre. Le statut passe ensuite **L'acheteur effectue une mise à jour** à **Soumis par le fournisseur**. Lorsque l'offre est envoyée, un journal est créé comme **Reçu**. La réponse (offre) doit être envoyée pour être enregistrée comme reçue, et c'est ensuite seulement qu'elle peut être encore été traitée comme acceptée ou de refusée.
+Lorsque vous envoyez une demande de devis, une feuille de réponse est automatiquement générée. Lorsque vous recevez des offres à un appel d'offres, vous devez les entrer à partir de la page **Appel d'offre** en cliquant sur l'action **Modifier la réponse à l'appel d'offre.** Cela vous permet d'entrer des informations d'offre sur un écran d'offre dédié. Initialement, **Progression de réponse** est **Non commencé**. Lorsque vous cliquez sur **Modifier la réponse d'appel d'offre,** le statut de progression est **L'acheteur effectue une mise à jour** jusqu'à ce que l'offre soit envoyée. Cliquez sur **Envoyer** lorsque vous avez entré les informations d'offre. Le statut de progression de l'offre passe à **Soumis par l'acheteur.** De même, avec la collaboration de fournisseur activée, **Progression de réponse** est mis à jour à mesure que le fournisseur interagit avec l'offre. Le statut passe ensuite **L'acheteur effectue une mise à jour** à **Soumis par le fournisseur**. Lorsque l'offre est envoyée, un journal est créé comme **Reçu**. La réponse (offre) doit être envoyée pour être enregistrée comme reçue, et c'est ensuite seulement qu'elle peut être encore été traitée comme acceptée ou de refusée.
 
 Si vous devez mettre l'offre à jour, vous devez passer par le même processus comme ci-dessus et la soumettre de nouveau.
 
@@ -208,29 +199,20 @@ Dans la réponse, vous pouvez ajouter un code motif pour expliquer la raison pou
 
 Lorsque vous acceptez une offre de type **Demande d'achat**, les lignes de la demande d'achat sont mises à jour avec les informations suivantes qui reflètent les informations de l'offre acceptée :
 
--   Prix unitaire
-
--   Pourcentage de remise
-
--   Montant de remise
-
--   Frais sur achat
-
--   Frais de ligne
-
--   Fournisseur
-
--  Numéro externe
-
--   Description externe
-
+- Prix unitaire
+- Pourcentage de remise
+- Montant de remise
+- Frais sur achat
+- Frais de ligne
+- Fournisseur
+- Numéro externe
+- Description externe
 
 Le tableau suivant indique les changements de statut de la demande de devis à mesure que vous acceptez et refusez les offres des fournisseurs.
 
-<a name="statuses--highest-and-lowest"></a>Status – le moins élevé et le plus élevé.
------------------------------
+## <a name="statuses--highest-and-lowest"></a>Status – le moins élevé et le plus élevé.
 
-Sous l'onglet Fournisseur de la demande de devis, vous pouvez afficher les lignes ayant le statut le plus élevé et le moins élevé d'un fournisseur spécifique. Lorsque le fournisseur est ajouté, et qu'aucune ligne n'a encore été soumise, les statut le moins élevé et le plus élevé sont <strong>Créés.</strong>Lorsque l'appel d'offre est envoyé au fournisseur avec toutes les lignes, le statut des deux lignes est <strong>Envoyées</strong>. Si certaines lignes d'une offre d'un fournisseur sont acceptées et d'autres rejetées, les lignes rejetées obtiennent le statut le moins élevé qui est <strong>Rejetée</strong>, et les lignes acceptées obtiennent le statut le plus élevé qui est <strong>Acceptée</strong>.
+Sous l'onglet Fournisseur de la demande de devis, vous pouvez afficher les lignes ayant le statut le plus élevé et le moins élevé d'un fournisseur spécifique. Lorsque le fournisseur est ajouté et qu'aucune ligne n'a encore été envoyée, le statut le plus bas et le plus élevé sont tous deux <strong>Créés</strong>. Lorsque l'appel d'offres est envoyé au fournisseur avec toutes les lignes, le statut des deux lignes sera <strong>Envoyé</strong>. Si certaines lignes d'une offre d'un fournisseur sont acceptées et d'autres rejetées, les lignes rejetées obtiennent le statut le moins élevé qui est <strong>Rejetée</strong>, et les lignes acceptées obtiennent le statut le plus élevé qui est <strong>Acceptée</strong>.
 
 Sur les lignes de demande de devis, vous pouvez afficher le statut le plus élevé et le moins élevé par ligne dans tous les fournisseurs. Si vous avez soumis une ligne à tous les fournisseurs de la demande de devis et que personne n'ont répondu, le statut le moins élevé et le plus élevé sont **Envoyée.** Lorsqu'au moins un fournisseur répond, le statut le plus élevé devient **Reçue**. Si vous ajoutez un nouveau fournisseur à la demande, le statut le moins élevé passe à **Créé**
 
